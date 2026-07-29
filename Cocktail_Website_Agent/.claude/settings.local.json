@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import openpyxl; print\\('ok'\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(rsync -a --exclude node_modules --exclude dist --exclude dionysus-experience --exclude design-artifacts --exclude .DS_Store --exclude screenshot.png ./ dionysus-experience/)",
+      "Bash(python3 -)",
+      "Bash(npm ci *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(node /private/tmp/claude-501/-Users-robin-molinas-Documents-GenAI-Projects-Dionysus-Cocktail-Website-Agent/2b71be1b-0bcc-439f-af8d-c2bed724b5f5/scratchpad/verify-h7.mjs)",
+      "Bash(lsof -ti:5191)"
+    ]
+  }
+}

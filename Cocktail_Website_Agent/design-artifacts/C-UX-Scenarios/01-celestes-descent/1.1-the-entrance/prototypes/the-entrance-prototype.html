@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dionysus — The Entrance (1.1 prototype)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0d0c0a;
+    --paper: #efe9dc;
+    --ash: rgba(214, 204, 184, 0.85);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    background: var(--ink);
+    cursor: none;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  /* ── Layer 1+2: the living ink canvas ─────────────────── */
+  #ink {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+  }
+
+  /* ── Layer 3: the glass ghost ─────────────────────────── */
+  .glass-ghost {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -52%);
+    height: 46vh;
+    pointer-events: none;
+    opacity: 0.07;
+    animation: ghost-breathe 9s ease-in-out infinite alternate;
+  }
+  @keyframes ghost-breathe {
+    from { opacity: 0.05; }
+    to   { opacity: 0.13; }
+  }
+
+  /* ── Layer 4: the title ───────────────────────────────── */
+  .title {
+    position: fixed;
+    left: 50%;
+    top: 24%;
+    transform: translateX(-50%);
+    font-size: clamp(1.6rem, 3.4vw, 2.8rem);
+    font-weight: 400;
+    letter-spacing: 0.85em;
+    text-indent: 0.85em; /* visually re-centre wide tracking */
+    color: var(--ash);
+    opacity: 0;
+    filter: blur(10px);
+    transition: opacity 2.4s ease, filter 2.4s ease;
+    pointer-events: none;
+    user-select: none;
+  }
+  .title.revealed { opacity: 0.78; filter: blur(0); }
+
+  /* ── Layer 5: the primary CTA ─────────────────────────── */
+  .cta {
+    position: fixed;
+    left: 50%;
+    top: 63%;
+    transform: translateX(-50%);
+    font-size: clamp(1.35rem, 2.6vw, 2.1rem);
+    font-style: italic;
+    font-weight: 500;
+    color: var(--ash);
+    white-space: nowrap;
+    opacity: 0;
+    filter: blur(14px);
+    transition: opacity 2.8s ease, filter 2.8s ease, letter-spacing 1.2s ease;
+    letter-spacing: 0.06em;
+    user-select: none;
+  }
+  .cta.revealed { opacity: 0.92; filter: blur(0); }
+  .cta:hover { letter-spacing: 0.11em; }
+  .cta::after {
+    /* a hand-drawn underline that breathes in on hover */
+    content: '';
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    bottom: -0.35em;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--ash), transparent);
+    opacity: 0;
+    transition: opacity 1.4s ease;
+  }
+  .cta:hover::after { opacity: 0.5; }
+
+  /* ── Layer 6: the side door (whisper rule) ────────────── */
+  .side-door {
+    position: fixed;
+    right: 4.5vw;
+    bottom: 5.5vh;
+    font-size: clamp(0.85rem, 1.1vw, 1.05rem);
+    font-style: italic;
+    color: var(--ash);
+    opacity: 0;
+    transition: opacity 3.5s ease;
+    user-select: none;
+  }
+  .side-door.revealed { opacity: 0.32; }
+  .side-door:hover { opacity: 0.55; transition: opacity 0.8s ease; }
+
+  .side-door-toast {
+    position: fixed;
+    right: 4.5vw;
+    bottom: 11vh;
+    max-width: 30ch;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--ash);
+    opacity: 0;
+    transition: opacity 1.2s ease;
+    pointer-events: none;
+    text-align: right;
+  }
+  .side-door-toast.visible { opacity: 0.6; }
+
+  /* ── the bar-spoon cursor ─────────────────────────────── */
+  .spoon {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgba(222, 212, 192, 0.9);
+    box-shadow: 0 0 12px 2px rgba(222, 212, 192, 0.25);
+    pointer-events: none;
+    z-index: 50;
+    transition: transform 0.4s ease;
+  }
+  .spoon.over-cta { transform: scale(1.9); }
+
+  /* ── the clearing veil (exit transition) ──────────────── */
+  .veil {
+    position: fixed;
+    inset: 0;
+    background: var(--paper);
+    clip-path: circle(0px at 50% 50%);
+    transition: clip-path 1.9s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 60;
+    pointer-events: none;
+  }
+  .veil.clearing { clip-path: circle(160% at var(--cx) var(--cy)); }
+
+  .after {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    z-index: 70;
+    opacity: 0;
+    transition: opacity 2s ease 0.6s;
+    pointer-events: none;
+  }
+  .after.visible { opacity: 1; pointer-events: auto; }
+  .after .threshold-line {
+    font-size: clamp(1.3rem, 2.4vw, 1.9rem);
+    font-style: italic;
+    color: #2a2620;
+  }
+  .after .pour-again {
+    font-size: 1rem;
+    font-style: italic;
+    color: #2a2620;
+    opacity: 0.45;
+  }
+  .after .pour-again:hover { opacity: 0.8; }
+
+  @media (max-width: 640px) {
+    .cta { white-space: normal; text-align: center; width: 84vw; }
+    .title { letter-spacing: 0.5em; text-indent: 0.5em; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="ink"></canvas>
+
+<!-- Layer 3: faint coupe silhouette, a promise unexplained -->
+<svg class="glass-ghost" viewBox="0 0 200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M30 30 C30 100 70 130 100 132 C130 130 170 100 170 30"
+        stroke="rgba(222,212,192,0.9)" stroke-width="1.5"/>
+  <path d="M30 30 Q100 52 170 30" stroke="rgba(222,212,192,0.55)" stroke-width="1"/>
+  <line x1="100" y1="132" x2="100" y2="268" stroke="rgba(222,212,192,0.9)" stroke-width="1.5"/>
+  <path d="M52 290 Q100 262 148 290" stroke="rgba(222,212,192,0.9)" stroke-width="1.5"/>
+</svg>
+
+<div class="title" id="title">DIONYSUS</div>
+
+<div class="cta" id="cta">Discover the cocktail within you</div>
+
+<div class="side-door" id="sideDoor">taste one already poured</div>
+<div class="side-door-toast" id="sideDoorToast">
+  the Trickster's pour awaits —<br>
+  (Poured Elixir exemplar, rendered via the Overflow Reveal's guest state)
+</div>
+
+<div class="spoon" id="spoon"></div>
+
+<div class="veil" id="veil"></div>
+<div class="after" id="after">
+  <div class="threshold-line">Who approaches the glass?</div>
+  <div class="pour-again" id="pourAgain">( pour again )</div>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════════════════
+   Dionysus — 1.1 The Entrance · living prototype
+   Prototype helpers (console only, chrome-free on screen):
+     · press "c" — simulate a return visit (Color Seed tint)
+     · press "x" — clear the simulated Color Seed
+   ═══════════════════════════════════════════════════════════ */
+console.log('%cDionysus · The Entrance prototype', 'font-style:italic');
+console.log('press "c" to simulate a return-visit Color Seed · "x" to clear it');
+
+const canvas = document.getElementById('ink');
+const ctx = canvas.getContext('2d');
+const DPR = Math.min(window.devicePixelRatio || 1, 1.5);
+let W, H;
+
+function resize() {
+  W = window.innerWidth; H = window.innerHeight;
+  canvas.width = W * DPR; canvas.height = H * DPR;
+  ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  ctx.fillStyle = '#0d0c0a';
+  ctx.fillRect(0, 0, W, H);
+}
+window.addEventListener('resize', resize);
+resize();
+
+/* ── Color Seed (return-visit tint) ──────────────────────── */
+function seedColor() {
+  const hex = localStorage.getItem('dionysus_color_seed');
+  if (!hex) return null;
+  const n = parseInt(hex.replace('#',''), 16);
+  return { r: (n >> 16) & 255, g: (n >> 8) & 255, b: n & 255 };
+}
+let seed = seedColor();
+window.addEventListener('keydown', e => {
+  if (e.key === 'c') { localStorage.setItem('dionysus_color_seed', '#2e6f6a'); seed = seedColor(); console.log('Color Seed set (deep teal)'); }
+  if (e.key === 'x') { localStorage.removeItem('dionysus_color_seed'); seed = null; console.log('Color Seed cleared'); }
+});
+
+/* base ink-wisp colour, faintly pulled toward the seed */
+function inkRGB(mix = 0.35) {
+  const base = { r: 196, g: 186, b: 168 };
+  if (!seed) return base;
+  return {
+    r: base.r + (seed.r - base.r) * mix,
+    g: base.g + (seed.g - base.g) * mix,
+    b: base.b + (seed.b - base.b) * mix
+  };
+}
+
+/* ── soft ink blob ───────────────────────────────────────── */
+function blob(x, y, radius, alpha, mix) {
+  const c = inkRGB(mix);
+  const g = ctx.createRadialGradient(x, y, 0, x, y, radius);
+  g.addColorStop(0, `rgba(${c.r|0},${c.g|0},${c.b|0},${alpha})`);
+  g.addColorStop(1, `rgba(${c.r|0},${c.g|0},${c.b|0},0)`);
+  ctx.fillStyle = g;
+  ctx.beginPath();
+  ctx.arc(x, y, radius, 0, Math.PI * 2);
+  ctx.fill();
+}
+
+/* ── idle breathing: wandering wisps ─────────────────────── */
+const wisps = Array.from({ length: 5 }, (_, i) => ({
+  x: Math.random() * window.innerWidth,
+  y: Math.random() * window.innerHeight,
+  a: Math.random() * Math.PI * 2,
+  speed: 0.25 + Math.random() * 0.35,
+  phase: i * 1.7
+}));
+
+/* ── pointer / bar-spoon ─────────────────────────────────── */
+const spoon = document.getElementById('spoon');
+let mouse = { x: W / 2, y: H / 2, px: W / 2, py: H / 2, active: false };
+let spoonPos = { x: W / 2, y: H / 2 };
+
+function onMove(x, y) {
+  mouse.px = mouse.x; mouse.py = mouse.y;
+  mouse.x = x; mouse.y = y; mouse.active = true;
+  const dx = mouse.x - mouse.px, dy = mouse.y - mouse.py;
+  const v = Math.min(Math.hypot(dx, dy), 60);
+  const steps = Math.max(1, (v / 6) | 0);
+  for (let i = 0; i < steps; i++) {
+    const t = i / steps;
+    const wob = Math.sin((performance.now() * 0.01) + i) * v * 0.12;
+    const nx = mouse.px + dx * t - dy / (v || 1) * wob;
+    const ny = mouse.py + dy * t + dx / (v || 1) * wob;
+    blob(nx, ny, 14 + v * 0.9, 0.028 + v * 0.0011, 0.4);
+  }
+}
+window.addEventListener('pointermove', e => onMove(e.clientX, e.clientY));
+window.addEventListener('touchmove', e => {
+  const t = e.touches[0];
+  if (t) onMove(t.clientX, t.clientY);
+}, { passive: true });
+
+/* ── CTA hover: the ink gathers ──────────────────────────── */
+const cta = document.getElementById('cta');
+let ctaHover = false;
+cta.addEventListener('pointerenter', () => { ctaHover = true; spoon.classList.add('over-cta'); });
+cta.addEventListener('pointerleave', () => { ctaHover = false; spoon.classList.remove('over-cta'); });
+
+/* ── animation loop ──────────────────────────────────────── */
+let running = true;
+function frame(t) {
+  if (!running) return;
+  /* slow fade — the ink never quite forgets */
+  ctx.fillStyle = 'rgba(13,12,10,0.035)';
+  ctx.fillRect(0, 0, W, H);
+
+  /* idle breathing */
+  for (const w of wisps) {
+    w.a += Math.sin(t * 0.0002 + w.phase) * 0.03;
+    w.x += Math.cos(w.a) * w.speed;
+    w.y += Math.sin(w.a) * w.speed;
+    if (w.x < -60) w.x = W + 60; if (w.x > W + 60) w.x = -60;
+    if (w.y < -60) w.y = H + 60; if (w.y > H + 60) w.y = -60;
+    const breathe = 0.5 + 0.5 * Math.sin(t * 0.0004 + w.phase);
+    blob(w.x, w.y, 50 + breathe * 40, 0.006 + breathe * 0.006, 0.5);
+  }
+
+  /* ink gathering toward a hovered CTA */
+  if (ctaHover) {
+    const r = cta.getBoundingClientRect();
+    const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+    for (let i = 0; i < 2; i++) {
+      const ang = Math.random() * Math.PI * 2;
+      const d = 40 + Math.random() * 160;
+      blob(cx + Math.cos(ang) * d, cy + Math.sin(ang) * d, 16, 0.018, 0.45);
+    }
+  }
+
+  /* the bar spoon trails slightly behind the hand */
+  spoonPos.x += (mouse.x - spoonPos.x) * 0.22;
+  spoonPos.y += (mouse.y - spoonPos.y) * 0.22;
+  spoon.style.left = (spoonPos.x - 3.5) + 'px';
+  spoon.style.top = (spoonPos.y - 3.5) + 'px';
+
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+
+/* ── timed emergence ─────────────────────────────────────── */
+setTimeout(() => document.getElementById('title').classList.add('revealed'), 900);
+setTimeout(() => cta.classList.add('revealed'), 2300);
+setTimeout(() => document.getElementById('sideDoor').classList.add('revealed'), 4200);
+
+/* ── the soundscape wakes (Web Audio, unlocked by the click) */
+function wakeSoundscape() {
+  try {
+    const ac = new (window.AudioContext || window.webkitAudioContext)();
+    const master = ac.createGain();
+    master.gain.value = 0;
+    master.connect(ac.destination);
+
+    /* warm submerged drone — two detuned sines */
+    [110, 110.8].forEach(f => {
+      const o = ac.createOscillator();
+      o.type = 'sine'; o.frequency.value = f;
+      o.connect(master); o.start();
+    });
+    master.gain.linearRampToValueAtTime(0.035, ac.currentTime + 2.5);
+
+    /* a single crystal ring as the veil clears */
+    const ring = ac.createOscillator();
+    const ringGain = ac.createGain();
+    ring.type = 'triangle'; ring.frequency.value = 880;
+    ringGain.gain.value = 0;
+    ring.connect(ringGain); ringGain.connect(ac.destination);
+    ring.start();
+    ringGain.gain.setValueAtTime(0.05, ac.currentTime + 0.4);
+    ringGain.gain.exponentialRampToValueAtTime(0.0001, ac.currentTime + 3.2);
+  } catch (e) { /* prototype: silence is acceptable */ }
+}
+
+/* ── the descent begins ──────────────────────────────────── */
+const veil = document.getElementById('veil');
+const after = document.getElementById('after');
+
+cta.addEventListener('click', e => {
+  wakeSoundscape();
+  veil.style.setProperty('--cx', e.clientX + 'px');
+  veil.style.setProperty('--cy', e.clientY + 'px');
+  veil.classList.add('clearing');
+  document.getElementById('title').classList.remove('revealed');
+  cta.classList.remove('revealed');
+  document.getElementById('sideDoor').classList.remove('revealed');
+  setTimeout(() => { after.classList.add('visible'); running = false; }, 1400);
+});
+
+document.getElementById('pourAgain').addEventListener('click', () => location.reload());
+
+/* ── the side door whispers back ─────────────────────────── */
+const sideDoorToast = document.getElementById('sideDoorToast');
+document.getElementById('sideDoor').addEventListener('click', () => {
+  sideDoorToast.classList.add('visible');
+  setTimeout(() => sideDoorToast.classList.remove('visible'), 4200);
+});
+</script>
+</body>
+</html>

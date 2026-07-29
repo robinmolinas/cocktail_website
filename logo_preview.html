@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dionysus - Logo Concepts Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0c0c0e;
+      --card-bg-dark: rgba(20, 20, 25, 0.6);
+      --card-border-dark: rgba(255, 255, 255, 0.08);
+      --text-main-dark: #f3f4f6;
+      --text-muted-dark: #9ca3af;
+      --accent-gold: #d2a15c;
+      --accent-gold-hover: #e5b97c;
+      
+      --bg-light: #f7f6f3;
+      --card-bg-light: rgba(255, 255, 255, 0.8);
+      --card-border-light: rgba(0, 0, 0, 0.06);
+      --text-main-light: #1f2937;
+      --text-muted-light: #4b5563;
+      
+      --transition-speed: 0.3s;
+    }
+
+    body.dark {
+      --bg: var(--bg-dark);
+      --card-bg: var(--card-bg-dark);
+      --card-border: var(--card-border-dark);
+      --text-main: var(--text-main-dark);
+      --text-muted: var(--text-muted-dark);
+      color-scheme: dark;
+    }
+
+    body.light {
+      --bg: var(--bg-light);
+      --card-bg: var(--card-bg-light);
+      --card-border: var(--card-border-light);
+      --text-main: var(--text-main-light);
+      --text-muted: var(--text-muted-light);
+      color-scheme: light;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      transition: background-color var(--transition-speed), color var(--transition-speed);
+      min-height: 100vh;
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    .ambient-glow {
+      position: fixed;
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(232, 112, 42, 0.04) 0%, rgba(210, 161, 92, 0.02) 50%, rgba(0,0,0,0) 70%);
+      top: -200px;
+      right: -200px;
+      z-index: -1;
+      pointer-events: none;
+      transition: opacity var(--transition-speed);
+    }
+    body.light .ambient-glow {
+      opacity: 0;
+    }
+
+    header {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+    }
+
+    .brand-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      font-weight: 400;
+      font-style: italic;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem;
+      color: var(--text-main);
+    }
+    
+    .brand-title span {
+      font-style: normal;
+      color: var(--accent-gold);
+    }
+
+    .brand-subtitle {
+      font-size: 1rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-weight: 500;
+      margin-bottom: 2rem;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    button.btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 0.6rem 1.2rem;
+      border-radius: 2rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    button.btn:hover {
+      border-color: var(--accent-gold);
+      transform: translateY(-1px);
+    }
+
+    button.btn-primary {
+      background: var(--accent-gold);
+      color: #0c0c0e;
+      border-color: var(--accent-gold);
+      width: 100%;
+      margin-top: 1rem;
+    }
+
+    body.light button.btn-primary {
+      color: #fff;
+      background: #1f2937;
+      border-color: #1f2937;
+    }
+
+    button.btn-primary:hover {
+      background: var(--accent-gold-hover);
+      border-color: var(--accent-gold-hover);
+      color: #0c0c0e;
+    }
+
+    body.light button.btn-primary:hover {
+      background: #374151;
+      border-color: #374151;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem 5rem;
+    }
+
+    /* Grid Layout */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 2.5rem;
+      margin-bottom: 4rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 1.5rem;
+      padding: 2.5rem;
+      backdrop-filter: blur(12px);
+      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      border-color: rgba(210, 161, 92, 0.4);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-badge {
+      position: absolute;
+      top: 1.5rem;
+      left: 1.5rem;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--accent-gold);
+      font-weight: 600;
+    }
+
+    .logo-container {
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1.5rem 0 2rem;
+      border-radius: 1rem;
+      background: rgba(0, 0, 0, 0.15);
+      border: 1px dashed var(--card-border);
+      transition: background 0.3s;
+    }
+
+    body.light .logo-container {
+      background: rgba(0, 0, 0, 0.02);
+    }
+
+    .logo-container svg {
+      width: 90px;
+      height: 90px;
+      color: var(--text-main);
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), color var(--transition-speed);
+    }
+
+    .card:hover .logo-container svg {
+      transform: scale(1.08) rotate(1deg);
+    }
+
+    .logo-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .logo-description {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+    }
+
+    .logo-metadata {
+      border-top: 1px solid var(--card-border);
+      padding-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .metadata-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .metadata-label {
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .metadata-value {
+      font-weight: 500;
+    }
+
+    /* Live Draw Simulator */
+    .simulator-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 1.5rem;
+      padding: 3rem;
+      margin-top: 4rem;
+      backdrop-filter: blur(12px);
+    }
+
+    .sim-header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .sim-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+    }
+
+    .sim-subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .sim-workspace {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 3rem;
+      border-radius: 1rem;
+      border: 1px solid var(--card-border);
+    }
+
+    .drawing-box {
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .drawing-box svg {
+      width: 110px;
+      height: 110px;
+      color: #fff;
+    }
+
+    .drawing-box path {
+      stroke: #fff;
+      stroke-width: 2.5;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke-dashoffset 0.1s linear;
+    }
+
+    .drawing-box circle.spirit-dot {
+      fill: var(--accent-gold);
+      stroke: none;
+      transition: opacity 0.3s;
+    }
+
+    .controls-row {
+      width: 100%;
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .slider-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .slider-label-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    input[type="range"] {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 6px;
+      border-radius: 3px;
+      background: rgba(255, 255, 255, 0.1);
+      outline: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--accent-gold);
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(210, 161, 92, 0.4);
+      transition: transform 0.1s;
+    }
+
+    input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.2);
+    }
+
+    .selector-row {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    /* Sandbox Panel */
+    .sandbox-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 1.5rem;
+      padding: 3rem;
+      margin-top: 4rem;
+      backdrop-filter: blur(12px);
+    }
+
+    .mock-header {
+      background: #000;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 0.75rem;
+      padding: 1.25rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+
+    .mock-header-left {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: #fff;
+    }
+
+    .mock-header-logo-wrapper svg {
+      width: 26px;
+      height: 26px;
+      color: #fff;
+    }
+
+    .mock-header-title {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 1.35rem;
+      letter-spacing: 0.05em;
+    }
+
+    .mock-header-right {
+      display: flex;
+      gap: 1.5rem;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+    }
+
+    .mock-hero {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('./Cocktail_Website_Agent/public/first.png');
+      background-size: cover;
+      background-position: center;
+      height: 220px;
+      border-radius: 0.75rem;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2.5rem;
+      color: #fff;
+    }
+
+    .mock-hero h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #1f2937;
+      color: #f3f4f6;
+      padding: 0.8rem 1.5rem;
+      border-radius: 2rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+    }
+  </style>
+</head>
+<body class="dark">
+  <div class="ambient-glow"></div>
+
+  <header>
+    <h1 class="brand-title">Dionysus <span>Identity</span></h1>
+    <p class="brand-subtitle">Visual Concept Explorer - 5 Logo Variations</p>
+    <div class="controls">
+      <button class="btn" id="theme-toggle">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <span>Toggle Lighting</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+      <!-- Concept 1 -->
+      <div class="card" id="card-concept-1">
+        <div class="card-badge">Concept 01</div>
+        <div class="logo-container" id="logo-1">
+          <svg viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="44" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.25" />
+            <path d="M15,50 C15,25 35,12 50,15 C68,18 83,30 85,50 C87,70 70,85 50,85 C30,85 15,70 15,50 Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" />
+            <path d="M25,50 C25,35 38,23 50,25 C62,27 73,37 75,50 C77,63 65,75 50,75 C35,75 25,65 25,50 Z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.85" stroke-linecap="round" />
+            <path d="M35,50 C35,42 42,34 50,35 C58,36 64,42 65,50 C66,58 58,65 50,65 C42,65 35,58 35,50 Z" stroke="currentColor" stroke-width="1" fill="none" opacity="0.6" stroke-linecap="round" />
+            <path d="M50,43 C50,43 53.5,47.5 53.5,50 C53.5,51.9 51.9,53.5 50,53.5 C48.1,53.5 46.5,51.9 46.5,50 C46.5,47.5 50,43 50,43 Z" fill="currentColor" />
+          </svg>
+        </div>
+        <h2 class="logo-title">The Suminagashi Orb</h2>
+        <p class="logo-description">A zen-like circular emblem containing fluid, marbled ripple lines. It directly visualizes the Japanese water-marbling technique that underlies the site's primary interactive canvas.</p>
+        <div class="logo-metadata">
+          <div class="metadata-row"><span class="metadata-label">Visual Metaphor</span><span class="metadata-value">Water Marbling & Ripple</span></div>
+          <div class="metadata-row"><span class="metadata-label">Structure</span><span class="metadata-value">Concentric Circular</span></div>
+        </div>
+        <button class="btn btn-primary btn-copy" data-concept="1">Copy SVG Code</button>
+      </div>
+
+      <!-- Concept 2 -->
+      <div class="card" id="card-concept-2">
+        <div class="card-badge">Concept 02</div>
+        <div class="logo-container" id="logo-2">
+          <svg viewBox="0 0 100 100">
+            <path d="M15,32 C20,30 80,30 85,32 C83,48 70,62 50,62 C30,62 17,48 15,32 Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+            <path d="M22,42 C30,46 45,43 50,43 C55,43 70,46 78,42" stroke="currentColor" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.6" />
+            <path d="M50,62 C49.5,67 48.5,74 50,80" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none" />
+            <path d="M30,81 C35,80.5 65,80.5 70,81" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" fill="none" />
+            <path d="M78,22 C79.5,23.5 80,26 78.5,27.5 C77,29 74.5,28.5 73.5,27 C72.5,25.5 74,22.5 76,21.5 C76.7,21.2 77.5,21.5 78,22 Z" fill="currentColor" />
+          </svg>
+        </div>
+        <h2 class="logo-title">The Sumi-e Coupe</h2>
+        <p class="logo-description">An artistic calligraphic interpretation of a coupe cocktail glass, rendered with simulated tapered ink brush strokes and completed with an expressive ink droplet.</p>
+        <div class="logo-metadata">
+          <div class="metadata-row"><span class="metadata-label">Visual Metaphor</span><span class="metadata-value">Brush Stroke & Coupe Glass</span></div>
+          <div class="metadata-row"><span class="metadata-label">Structure</span><span class="metadata-value">Asymmetric Calligraphy</span></div>
+        </div>
+        <button class="btn btn-primary btn-copy" data-concept="2">Copy SVG Code</button>
+      </div>
+
+      <!-- Concept 3 -->
+      <div class="card" id="card-concept-3">
+        <div class="card-badge">Concept 03</div>
+        <div class="logo-container" id="logo-3">
+          <svg viewBox="0 0 100 100">
+            <path d="M36,25 L36,75" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none" />
+            <path d="M30,25 L42,25" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+            <path d="M30,75 L42,75" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+            <path d="M36,25 C68,25 78,42 78,50 C78,59 65,75 36,75" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+            <path d="M36,50 C46,50 54,42 50,32 C47,25 39,32 36,36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.8" />
+            <path d="M56,58 Q56,52 62,52 Q56,52 56,46 Q56,52 50,52 Q56,52 56,58 Z" fill="currentColor" />
+          </svg>
+        </div>
+        <h2 class="logo-title">The Alchemical D</h2>
+        <p class="logo-description">A sophisticated monogram of the letter 'D' fusing classical serif typography with an organic botanical vine growing from the stem and a four-point catalyst star.</p>
+        <div class="logo-metadata">
+          <div class="metadata-row"><span class="metadata-label">Visual Metaphor</span><span class="metadata-value">Letter D & Botanical Leaf</span></div>
+          <div class="metadata-row"><span class="metadata-label">Structure</span><span class="metadata-value">Typographic Monogram</span></div>
+        </div>
+        <button class="btn btn-primary btn-copy" data-concept="3">Copy SVG Code</button>
+      </div>
+
+      <!-- Concept 4 -->
+      <div class="card" id="card-concept-4">
+        <div class="card-badge">Concept 04</div>
+        <div class="logo-container" id="logo-4">
+          <svg viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="44" stroke="currentColor" stroke-width="1.5" fill="none" />
+            <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="0.75" stroke-dasharray="3 3" fill="none" opacity="0.6" />
+            <path d="M26,38 L74,38 L50,78 Z" stroke="currentColor" stroke-width="1.5" fill="none" />
+            <line x1="32" y1="48" x2="68" y2="48" stroke="currentColor" stroke-width="1" />
+            <line x1="50" y1="18" x2="50" y2="82" stroke="currentColor" stroke-width="0.75" stroke-dasharray="4 2" opacity="0.5" />
+            <path d="M50,22 L51.5,26.5 L56,26.5 L52.5,29 L54,33.5 L50,31 L46,33.5 L47.5,29 L44,26.5 L48.5,26.5 Z" fill="currentColor" transform="translate(0, -2)" />
+            <path d="M27,24 A3.5,3.5 0 1,1 32.5,29 A4.5,4.5 0 1,0 27,24 Z" fill="currentColor" />
+            <circle cx="71" cy="27" r="2" stroke="currentColor" stroke-width="1" fill="none" />
+            <line x1="71" y1="23" x2="71" y2="31" stroke="currentColor" stroke-width="0.75" />
+            <line x1="67" y1="27" x2="75" y2="27" stroke="currentColor" stroke-width="0.75" />
+            <circle cx="50" cy="78" r="2.5" fill="currentColor" />
+            <circle cx="36" cy="62" r="1.5" fill="currentColor" opacity="0.8" />
+            <circle cx="64" cy="62" r="1.5" fill="currentColor" opacity="0.8" />
+          </svg>
+        </div>
+        <h2 class="logo-title">The Alchemist's Seal</h2>
+        <p class="logo-description">A mystical astronomical seal. Concentric circles frame the inverted triangle (symbol for water/fluid) that details a coupe glass shape, bounded by celestial glyphs.</p>
+        <div class="logo-metadata">
+          <div class="metadata-row"><span class="metadata-label">Visual Metaphor</span><span class="metadata-value">Astrology Map & Water Sign</span></div>
+          <div class="metadata-row"><span class="metadata-label">Structure</span><span class="metadata-value">Celestial Seal</span></div>
+        </div>
+        <button class="btn btn-primary btn-copy" data-concept="4">Copy SVG Code</button>
+      </div>
+
+      <!-- Concept 5 -->
+      <div class="card" id="card-concept-5">
+        <div class="card-badge">Concept 05</div>
+        <div class="logo-container" id="logo-5">
+          <svg viewBox="0 0 100 100">
+            <path d="M 30,85 C 35,85 47,82 47,70 L 47,56 C 30,56 12,48 12,30 C 12,27 14,25 18,25 L 82,25 C 86,25 88,27 88,30 C 88,48 70,56 53,56 L 53,70 C 53,82 65,85 70,85" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+            <circle cx="50" cy="40" r="3" fill="var(--accent-gold)" />
+          </svg>
+        </div>
+        <h2 class="logo-title">The Zen Coupe</h2>
+        <p class="logo-description">A sweeping continuous-line coupe glass designed specifically to trace itself as a single, fluid path. Features an elegant stem curve and floating gold spirit dot.</p>
+        <div class="logo-metadata">
+          <div class="metadata-row"><span class="metadata-label">Visual Metaphor</span><span class="metadata-value">Single Line & Floating Spirit</span></div>
+          <div class="metadata-row"><span class="metadata-label">Structure</span><span class="metadata-value">Continuous Stroke</span></div>
+        </div>
+        <button class="btn btn-primary btn-copy" data-concept="5">Copy SVG Code</button>
+      </div>
+    </div>
+
+    <!-- Simulator Panel -->
+    <div class="simulator-panel">
+      <div class="sim-header">
+        <h2 class="sim-title">Drawing Reveal Simulator</h2>
+        <p class="sim-subtitle">Select a continuous-line concept below and drag the slider to watch exactly how it draws itself on the Canvas during the "Breath Dot Reveal" loading scene.</p>
+      </div>
+
+      <div class="sim-workspace">
+        <div class="selector-row">
+          <button class="btn btn-sim-select active" data-concept="5">Concept 5: Zen Coupe</button>
+          <button class="selector-btn btn btn-sim-select" data-concept="2">Concept 2: Sumi-e Coupe</button>
+        </div>
+
+        <div class="drawing-box">
+          <svg viewBox="0 0 100 100" id="anim-svg">
+            <path id="anim-path" d="" />
+            <circle id="anim-dot" cx="50" cy="40" r="3" class="spirit-dot" />
+          </svg>
+        </div>
+
+        <div class="controls-row">
+          <div class="slider-container">
+            <div class="slider-label-row">
+              <span>Path Draw progress</span>
+              <span id="progress-val">0%</span>
+            </div>
+            <input type="range" id="draw-slider" min="0" max="100" value="0">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sandbox Panel -->
+    <div class="sandbox-panel">
+      <h2 class="sim-title" style="text-align: center; margin-bottom: 0.5rem;">Live Webapp Header Preview</h2>
+      <p class="sim-subtitle" style="text-align: center; margin-bottom: 2.5rem;">See how each concept looks integrated into the actual navigation header and hero background of the Dionysus Webapp.</p>
+
+      <div class="mock-header">
+        <div class="mock-header-left">
+          <div class="mock-header-logo-wrapper" id="sandbox-logo-slot">
+            <!-- Dynamic Logo -->
+          </div>
+          <span class="mock-header-title">Dionysus</span>
+        </div>
+        <div class="mock-header-right">
+          <span>Stir</span>
+        </div>
+      </div>
+
+      <div class="mock-hero">
+        <h2>Unveil your<br>true spirit</h2>
+      </div>
+
+      <div class="selector-row" style="margin-top: 2rem;">
+        <button class="selector-btn btn btn-sandbox-select" data-sandbox="default">Default Silhouette</button>
+        <button class="selector-btn btn btn-sandbox-select" data-sandbox="1">Concept 1</button>
+        <button class="selector-btn btn btn-sandbox-select" data-sandbox="2">Concept 2</button>
+        <button class="selector-btn btn btn-sandbox-select" data-sandbox="3">Concept 3</button>
+        <button class="selector-btn btn btn-sandbox-select" data-sandbox="4">Concept 4</button>
+        <button class="selector-btn btn btn-sandbox-select active" data-sandbox="5">Concept 5</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="copy-toast">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>
+    <span>React & Canvas configurations copied to clipboard!</span>
+  </div>
+
+  <script>
+    const paths = {
+      2: {
+        d: 'M15,32 C20,30 80,30 85,32 C83,48 70,62 50,62 C30,62 17,48 15,32 Z M22,42 C30,46 45,43 50,43 C55,43 70,46 78,42 M50,62 C49.5,67 48.5,74 50,80 M30,81 C35,80.5 65,80.5 70,81',
+        dot: { cx: 78, cy: 22, r: 3 },
+        desc: 'Sumi-e Coupe'
+      },
+      5: {
+        d: 'M 30,85 C 35,85 47,82 47,70 L 47,56 C 30,56 12,48 12,30 C 12,27 14,25 18,25 L 82,25 C 86,25 88,27 88,30 C 88,48 70,56 53,56 L 53,70 C 53,82 65,85 70,85',
+        dot: { cx: 50, cy: 40, r: 3 },
+        desc: 'Zen Coupe'
+      }
+    };
+
+    const logosData = {
+      default: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+        <path d="M 12 22.5 C 14.5 22.5 17.5 21 17 19.5 L 14 18 L 13.5 17 C 14.5 15.5 17 12.5 18 10 C 18.5 8 19 6.5 17 4.5 C 15.5 3.5 14 2.5 12 2.5 C 10 2.5 8.5 3.5 7 4.5 C 5 6.5 5.5 8 6 10 C 7 12.5 9.5 15.5 10.5 17 L 10 18 L 7 19.5 C 6.5 21 9.5 22.5 12 22.5 L 12 18.5 C 13 17 15 13.5 15 10.5 C 15 7.5 13.5 5.5 12 5 C 10.5 5.5 9 7.5 9 10.5 C 9 13.5 11 17 12 18.5" />
+        <circle cx="12" cy="4.5" r="1.2" fill="currentColor" stroke="none" />
+      </svg>`,
+      1: `<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="50" cy="50" r="44" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.25" />
+        <path d="M15,50 C15,25 35,12 50,15 C68,18 83,30 85,50 C87,70 70,85 50,85 C30,85 15,70 15,50 Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" />
+        <path d="M25,50 C25,35 38,23 50,25 C62,27 73,37 75,50 C77,63 65,75 50,75 C35,75 25,65 25,50 Z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.85" stroke-linecap="round" />
+        <path d="M35,50 C35,42 42,34 50,35 C58,36 64,42 65,50 C66,58 58,65 50,65 C42,65 35,58 35,50 Z" stroke="currentColor" stroke-width="1" fill="none" opacity="0.6" stroke-linecap="round" />
+        <circle cx="50" cy="49" r="3.5" fill="currentColor" stroke="none" />
+      </svg>`,
+      2: `<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15,32 C20,30 80,30 85,32 C83,48 70,62 50,62 C30,62 17,48 15,32 Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+        <path d="M22,42 C30,46 45,43 50,43 C55,43 70,46 78,42" stroke="currentColor" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.6" />
+        <path d="M50,62 C49.5,67 48.5,74 50,80" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none" />
+        <path d="M30,81 C35,80.5 65,80.5 70,81" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" fill="none" />
+        <circle cx="76" cy="24.5" r="3.5" fill="currentColor" stroke="none" />
+      </svg>`,
+      3: `<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M36,25 L36,75" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none" />
+        <path d="M30,25 L42,25" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+        <path d="M30,75 L42,75" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" />
+        <path d="M36,25 C68,25 78,42 78,50 C78,59 65,75 36,75" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+        <path d="M36,50 C46,50 54,42 50,32 C47,25 39,32 36,36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.8" />
+        <path d="M56,52 Q56,46 62,46 Q56,46 56,40 Q56,46 50,46 Q56,46 56,52 Z" fill="currentColor" stroke="none" />
+      </svg>`,
+      4: `<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="50" cy="50" r="44" stroke="currentColor" stroke-width="1.5" fill="none" />
+        <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="0.75" stroke-dasharray="3 3" fill="none" opacity="0.6" />
+        <path d="M26,38 L74,38 L50,78 Z" stroke="currentColor" stroke-width="1.5" fill="none" />
+        <line x1="32" y1="48" x2="68" y2="48" stroke="currentColor" stroke-width="1" />
+        <line x1="50" y1="18" x2="50" y2="82" stroke="currentColor" stroke-width="0.75" stroke-dasharray="4 2" opacity="0.5" />
+        <path d="M50,22 L51.5,26.5 L56,26.5 L52.5,29 L54,33.5 L50,31 L46,33.5 L47.5,29 L44,26.5 L48.5,26.5 Z" fill="currentColor" stroke="none" />
+        <path d="M27,24 A3.5,3.5 0 1,1 32.5,29 A4.5,4.5 0 1,0 27,24 Z" fill="currentColor" stroke="none" />
+        <circle cx="71" cy="27" r="2" stroke="currentColor" stroke-width="1" fill="none" />
+        <line x1="71" y1="23" x2="71" y2="31" stroke="currentColor" stroke-width="0.75" />
+        <line x1="67" y1="27" x2="75" y2="27" stroke="currentColor" stroke-width="0.75" />
+        <circle cx="50" cy="78" r="2.5" fill="currentColor" stroke="none" />
+      </svg>`,
+      5: `<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 30,85 C 35,85 47,82 47,70 L 47,56 C 30,56 12,48 12,30 C 12,27 14,25 18,25 L 82,25 C 86,25 88,27 88,30 C 88,48 70,56 53,56 L 53,70 C 53,82 65,85 70,85" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="50" cy="40" r="3.5" fill="currentColor" stroke="none" />
+      </svg>`
+    };
+
+    let activeSimConcept = '5';
+    const body = document.body;
+    const themeToggle = document.getElementById('theme-toggle');
+    const animPath = document.getElementById('anim-path');
+    const animDot = document.getElementById('anim-dot');
+    const drawSlider = document.getElementById('draw-slider');
+    const progressVal = document.getElementById('progress-val');
+    const sandboxLogoSlot = document.getElementById('sandbox-logo-slot');
+    const toast = document.getElementById('copy-toast');
+
+    function updateSimulation() {
+      const cData = paths[activeSimConcept];
+      animPath.setAttribute('d', cData.d);
+      animDot.setAttribute('cx', cData.dot.cx);
+      animDot.setAttribute('cy', cData.dot.cy);
+      animDot.setAttribute('r', cData.dot.r);
+
+      const pathLength = animPath.getTotalLength();
+      animPath.style.strokeDasharray = pathLength;
+      
+      const sliderVal = drawSlider.value;
+      progressVal.innerText = sliderVal + '%';
+      
+      const offset = pathLength - (pathLength * (sliderVal / 100));
+      animPath.style.strokeDashoffset = offset;
+      
+      if (sliderVal >= 98) {
+        animDot.style.opacity = '1';
+      } else {
+        animDot.style.opacity = '0';
+      }
+    }
+
+    function updateSandbox(concept) {
+      sandboxLogoSlot.innerHTML = logosData[concept];
+    }
+
+    // Theme toggle
+    themeToggle.addEventListener('click', () => {
+      if (body.classList.contains('dark')) {
+        body.classList.remove('dark');
+        body.classList.add('light');
+      } else {
+        body.classList.remove('light');
+        body.classList.add('dark');
+      }
+    });
+
+    // Sim selector
+    document.querySelectorAll('.btn-sim-select').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.btn-sim-select').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        activeSimConcept = btn.getAttribute('data-concept');
+        drawSlider.value = 0;
+        updateSimulation();
+      });
+    });
+
+    // Sandbox selector
+    document.querySelectorAll('.btn-sandbox-select').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.btn-sandbox-select').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        const concept = btn.getAttribute('data-sandbox');
+        updateSandbox(concept);
+      });
+    });
+
+    // Copy Action
+    document.querySelectorAll('.btn-copy').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const concept = btn.getAttribute('data-concept');
+        
+        let pathStr = '';
+        let dotStr = '';
+        
+        if (concept === '1') {
+          pathStr = 'M15,50 C15,25 35,12 50,15 C68,18 83,30 85,50 C87,70 70,85 50,85 C30,85 15,70 15,50 Z';
+          dotStr = '{ x: 50, y: 49, r: 3.5 }';
+        } else if (concept === '2') {
+          pathStr = 'M15,32 C20,30 80,30 85,32 C83,48 70,62 50,62 C30,62 17,48 15,32 Z M22,42 C30,46 45,43 50,43 C55,43 70,46 78,42 M50,62 C49.5,67 48.5,74 50,80 M30,81 C35,80.5 65,80.5 70,81';
+          dotStr = '{ x: 76, y: 24.5, r: 3.5 }';
+        } else if (concept === '3') {
+          pathStr = 'M36,25 L36,75 M30,25 L42,25 M30,75 L42,75 M36,25 C68,25 78,42 78,50 C78,59 65,75 36,75 M36,50 C46,50 54,42 50,32 C47,25 39,32 36,36';
+          dotStr = '{ x: 56, y: 46, r: 4 }'; // star glyph
+        } else if (concept === '4') {
+          pathStr = 'M26,38 L74,38 L50,78 Z M32,48 L68,48 M50,18 L50,82';
+          dotStr = '{ x: 50, y: 78, r: 2.5 }';
+        } else if (concept === '5') {
+          pathStr = 'M 30,85 C 35,85 47,82 47,70 L 47,56 C 30,56 12,48 12,30 C 12,27 14,25 18,25 L 82,25 C 86,25 88,27 88,30 C 88,48 70,56 53,56 L 53,70 C 53,82 65,85 70,85';
+          dotStr = '{ x: 50, y: 40, r: 3.5 }';
+        }
+
+        const copyText = `// Dionysus Configuration - Concept 0${concept}\n` +
+                         `const SPIRIT_PATH = '${pathStr}';\n` +
+                         `const SPIRIT_DOT = ${dotStr};`;
+
+        navigator.clipboard.writeText(copyText).then(() => {
+          toast.classList.add('show');
+          setTimeout(() => {
+            toast.classList.remove('show');
+          }, 2500);
+        });
+      });
+    });
+
+    // Init
+    updateSimulation();
+    updateSandbox('5');
+  </script>
+</body>
+</html>

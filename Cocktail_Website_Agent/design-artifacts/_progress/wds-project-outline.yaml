@@ -1,0 +1,64 @@
+project_name: Dionysus
+project_type: greenfield
+product_complexity: complex
+tech_stack: react
+component_library: tailwind
+root_folder: Dionysus/Cocktail_Website_Agent/design-artifacts
+existing_materials:
+  has_materials: true
+  description: "Brand spreadsheets and files in Cocktail_GPT; React/Vite template codebase in Cocktail_Website_Agent."
+brief_level: complete
+strategic_analysis: full
+working_relationship:
+  stakes: professional_high_ambition
+  user_involvement: highly_collaborative_design_autonomous_code
+  user_role: strategist_product_head_designer
+  presentation_style: recommend_with_rationale
+stepsCompleted:
+  - step-01-init.md
+  - step-02-vision.md
+  - step-07-target-users.md
+  - step-07a-product-concept.md
+  - step-08-success-criteria.md
+  - step-09-competitive-landscape.md
+  - step-10-constraints.md
+  - step-10a-platform-strategy.md
+  - step-11-tone-of-voice.md
+  - step-12-create-product-brief.md
+vision: "Create a world-class, serene web application that guides users on a magical journey of self-discovery through a sumi-e and Suminagashi-themed personality quiz, leveraging a collaborative multi-agent AI backend to generate and visually display deeply personalized cocktails representing the user's core personality."
+users:
+  primary:
+    profile: "Curious Esthete & Self-Explorer"
+    drivers: "Mixology excitement (cocktail art/physics) + personality reflection (narrative justification by Historian/Mixologist agents)"
+    frustrations: "Generic, arbitrary, long quizzes lacking narrative depth"
+  secondary:
+    profile: "Creative Peers, Leads, & Recruiters evaluating Robin's portfolio"
+    needs: "Experiencing the quiz as a primary user, evaluating layout, performance, and animation quality"
+product_concept:
+  name: "Distillation of the Unseen Self (The Cocktail Within You)"
+  description: "A visually led, multi-agent AI personality alchemist that distills the user's inner self into a deeply personalized, calligraphic cocktail recipe and historical narrative. Suminagashi fluid physics on the quiz canvas wash away layers of ink to reveal watercolor paper, culminating in a colorful paint overflow that prints the final cocktail."
+success_criteria:
+  performance: "Interactive fluid animation runs smoothly at 60fps on desktop and mobile"
+  transition_time: "Page transitions and ink clearing complete in under 4 seconds"
+  engagement: "Achieve >80% quiz completion rate despite 19-question length"
+  output_value: "High PDF recipe card download rate indicating strong narrative/aesthetic alignment"
+competitive_moats:
+  moat_1: "Alchemical History AI: Narratives connect ingredient historical origins and emotional symbolism directly to the user's psychology."
+  moat_2: "Proprietary 12x11 Matrix: Maps 19 questions to 132 unique personalities."
+  moat_3: "Mixology Authority: Authentically designed around Robin's real-world expertise in syrups, infusions, and craft cocktail preparation."
+constraints:
+  timeline: "Flexible (portfolio showcase, quality-first, personal timeline)"
+  budget: "Personal, non-commercial budget bounds"
+  brand: "Sumi-e and Suminagashi calligraphic art style, container-free minimalist UI"
+  technical: "HTML5 Canvas fluid dynamics optimized for mobile 60fps; sound activation requires user-initiated click"
+platform_strategy:
+  architecture: "Responsive Web Application (React + Vite + TypeScript)"
+  device_priority: "Equal priority responsive design (Desktop cinematic layout, Mobile touch-friendly and fluid layout)"
+  interaction_models: "Mouse-hover spoon cursor physics, Mobile touch-drag liquid stirring gestures, User click-to-activate soundscape"
+  core_technologies: "HTML5 Canvas/WebGL fluid solver, Web Audio API soundscape layers, Clientside PDF generation (jspdf)"
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-10T00:00:00Z",
+  "title": "Design System: Dionysus — The Suspended Pour",
+  "extensions": {
+    "colorMeta": {
+      "ink": { "role": "neutral", "displayName": "Sumi Ink", "canonical": "#16140f", "tonalRamp": ["#0a0906", "#16140f", "#2c2920", "#453f32", "#5f5745", "#8a8069", "#b5ac93", "#dfd8c4"] },
+      "paper": { "role": "neutral", "displayName": "Washi Paper", "canonical": "#f4efe6", "tonalRamp": ["#4a4536", "#6e6850", "#928a6c", "#b6ad8d", "#d5cdb2", "#e6dfcc", "#f4efe6", "#faf7f0"] },
+      "vermilion": { "role": "primary", "displayName": "Vermilion Flame", "canonical": "#e8702a", "tonalRamp": ["#3d1c08", "#67300e", "#8f4415", "#b6581d", "#e8702a", "#f09055", "#f6b183", "#fbd4b8"] },
+      "seal-red": { "role": "primary", "displayName": "Hanko Seal Red", "canonical": "#c43c1e", "tonalRamp": ["#330f07", "#5a1b0d", "#822713", "#a53219", "#c43c1e", "#d9664a", "#e8907a", "#f4c0b2"] },
+      "brass": { "role": "secondary", "displayName": "Apothecary Brass", "canonical": "#b08d57", "tonalRamp": ["#2e2414", "#4f3e24", "#705835", "#907445", "#b08d57", "#c4a678", "#d8c09d", "#ecdcc7"] },
+      "deep-night": { "role": "neutral", "displayName": "Deep Night", "canonical": "#0d0b09", "tonalRamp": ["#050403", "#0d0b09", "#1c1712", "#2e261d", "#453a2c", "#615340", "#84725a", "#a99781"] },
+      "candle-ivory": { "role": "neutral", "displayName": "Candle Ivory", "canonical": "#f5ead8", "tonalRamp": ["#4c4230", "#6f6248", "#948362", "#b8a67f", "#d6c5a0", "#e8d9bf", "#f5ead8", "#fbf5ea"] },
+      "ember": { "role": "secondary", "displayName": "Ember Glow", "canonical": "#ffb088", "tonalRamp": ["#4d2413", "#7a3a1f", "#a4522e", "#cd6f45", "#e88f61", "#ffb088", "#ffcbad", "#ffe4d3"] },
+      "splash-white": { "role": "neutral", "displayName": "Splash White", "canonical": "#fbf6ea", "tonalRamp": ["#4d4634", "#6f684e", "#948b68", "#b8ae85", "#d6cda6", "#e9e0c6", "#fbf6ea", "#fefcf6"] },
+      "keepsake-title": { "role": "neutral", "displayName": "Keepsake Ivory", "canonical": "#f2ead9", "tonalRamp": ["#4a4331", "#6d6349", "#918465", "#b5a682", "#d4c4a2", "#e6d8c0", "#f2ead9", "#faf5eb"] },
+      "keepsake-body": { "role": "neutral", "displayName": "Keepsake Parchment", "canonical": "#cfc4ae", "tonalRamp": ["#37321f", "#554e33", "#746a48", "#93875e", "#b1a586", "#cfc4ae", "#e0d8c9", "#f0ece2"] },
+      "keepsake-muted": { "role": "neutral", "displayName": "Faded Reading", "canonical": "#9a8f7c", "tonalRamp": ["#24201a", "#3d372c", "#564e3f", "#6f6552", "#847966", "#9a8f7c", "#bcb3a4", "#ded9cf"] },
+      "seed-campari-red": { "role": "tertiary", "displayName": "Campari Red", "canonical": "#c8102e", "tonalRamp": ["#2f040b", "#55081a", "#7b0c24", "#a10e29", "#c8102e", "#da4a58", "#e88a92", "#f5c5c9"] },
+      "seed-aperol-orange": { "role": "tertiary", "displayName": "Aperol Orange", "canonical": "#ff6f1f", "tonalRamp": ["#4a1d05", "#7a300a", "#a8430f", "#d55714", "#ff6f1f", "#ff9354", "#ffb98c", "#ffdcc5"] },
+      "seed-galliano-gold": { "role": "tertiary", "displayName": "Galliano Gold", "canonical": "#f2c24e", "tonalRamp": ["#463411", "#71541c", "#9c7527", "#c79733", "#f2c24e", "#f5d077", "#f8dfa1", "#fcefd0"] },
+      "seed-midori-green": { "role": "tertiary", "displayName": "Midori Green", "canonical": "#58b947", "tonalRamp": ["#173813", "#26591f", "#357a2b", "#469a38", "#58b947", "#7cc96e", "#a5da9a", "#d1eccb"] },
+      "seed-curacao-blue": { "role": "tertiary", "displayName": "Curaçao Blue", "canonical": "#1287c8", "tonalRamp": ["#052638", "#084362", "#0c608c", "#0f74ab", "#1287c8", "#4aa3d6", "#84c0e4", "#c0def1"] },
+      "seed-violette-purple": { "role": "tertiary", "displayName": "Violette Purple", "canonical": "#7b5aa6", "tonalRamp": ["#241a31", "#3d2d53", "#564076", "#684d8e", "#7b5aa6", "#9679bb", "#b39dd0", "#d8cce8"] },
+      "seed-pamplemousse-pink": { "role": "tertiary", "displayName": "Pamplemousse Pink", "canonical": "#f2789f", "tonalRamp": ["#46212e", "#71364a", "#9c4a66", "#c76182", "#f2789f", "#f596b3", "#f8b5c8", "#fcdae3"] },
+      "seed-cassis-plum": { "role": "tertiary", "displayName": "Cassis Plum", "canonical": "#5c2447", "tonalRamp": ["#1a0a14", "#2e1224", "#411933", "#4f1f3d", "#5c2447", "#7d4a68", "#a4788e", "#cfadbd"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Keepsake cocktail title and hero headline. Playfair Display." },
+      "headline": { "displayName": "The Voice", "purpose": "Every line the experience speaks: questions, poles, whispers. Playfair Display italic, black text-shadow underlay over footage." },
+      "body": { "displayName": "Body", "purpose": "Keepsake prose. Inter, capped at 62ch." },
+      "label": { "displayName": "Apothecary Label", "purpose": "Brass uppercase tracked labels — keepsake sections and threshold pill only, never generic section eyebrows." }
+    },
+    "shadows": [
+      { "name": "ink-raised", "value": "0 10px 28px -10px rgba(22,20,15,0.5)", "purpose": "Paper-world primary button lift; the only drop shadow family allowed." },
+      { "name": "ink-pill-active", "value": "0 8px 22px -8px rgba(22,20,15,0.55)", "purpose": "Selected pill in the paper world." },
+      { "name": "seed-glow", "value": "0 0 24px 2px var(--c), 0 0 64px -8px var(--c)", "purpose": "The mote/ember double glow — hierarchy in the depths is luminosity, not shadow." },
+      { "name": "glass-inner", "value": "inset 0 1px 14px rgba(255,235,200,0.1), 0 0 24px -8px rgba(255,176,136,0.25)", "purpose": "Glass-sphere bubbles: inner shoulder highlight plus faint warm halo." }
+    ],
+    "motion": [
+      { "name": "ease-arrival", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Default entrance and hover easing everywhere (expo-out)." },
+      { "name": "ease-glide", "value": "cubic-bezier(0.22, 0.61, 0.36, 1)", "purpose": "Camera moves and focus racks in the Surfacing." },
+      { "name": "ease-descent", "value": "cubic-bezier(0.55, 0, 0.85, 0.4)", "purpose": "Sinking exits — the descent into the drink, bubble fizz." },
+      { "name": "drift", "value": "5.4s–7.7s ease-in-out infinite alternate, desynced phases", "purpose": "Idle suspension: every floating element drifts on its own current." }
+    ],
+    "breakpoints": [
+      { "name": "phone", "value": "480px" },
+      { "name": "narrow", "value": "640px" },
+      { "name": "keepsake-stack", "value": "900px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Paper-world primary action: solid sumi ink pill on paper.",
+      "html": "<button class=\"ds-btn-ink\">Begin the pour</button>",
+      "css": ".ds-btn-ink { background: #16140f; color: #f4efe6; font-family: Inter, sans-serif; font-size: 13px; letter-spacing: 0.08em; padding: 0.9rem 2.2rem; border: none; border-radius: 999px; cursor: pointer; transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1); box-shadow: 0 10px 28px -10px rgba(22,20,15,0.5); } .ds-btn-ink:hover { transform: scale(1.04); box-shadow: 0 14px 34px -10px rgba(22,20,15,0.6); } .ds-btn-ink:active { transform: scale(0.96); } .ds-btn-ink:focus-visible { outline: 2px solid #e8702a; outline-offset: 3px; }"
+    },
+    {
+      "name": "Veil Button",
+      "kind": "button",
+      "refersTo": "button-veil",
+      "description": "Depths-world continue/seal: a ghost pill that earns its visibility.",
+      "html": "<div class=\"ds-veil-bg\"><button class=\"ds-btn-veil\">CONTINUE</button></div>",
+      "css": ".ds-veil-bg { background: #0d0b09; padding: 28px; display: inline-block; border-radius: 12px; } .ds-btn-veil { border: 1px solid rgba(255,255,255,0.16); border-radius: 999px; padding: 0.6rem 1.9rem; font-family: Inter, sans-serif; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(245,234,216,0.78); background: rgba(255,255,255,0.03); backdrop-filter: blur(4px); cursor: pointer; transition: border-color 0.4s, background 0.4s, transform 0.3s; } .ds-btn-veil:hover { border-color: rgba(255,176,136,0.6); background: rgba(255,176,136,0.08); } .ds-btn-veil:active { transform: scale(0.96); } .ds-btn-veil:focus-visible { outline: 2px solid #e8702a; outline-offset: 3px; }"
+    },
+    {
+      "name": "Choice Pill",
+      "kind": "chip",
+      "refersTo": "pill-choice",
+      "description": "Paper-world selectable option; inverts to solid ink when chosen.",
+      "html": "<div class=\"ds-pill-row\"><button class=\"ds-pill\">Something bitter</button><button class=\"ds-pill ds-pill-active\">Something bright</button></div>",
+      "css": ".ds-pill-row { background: #f4efe6; padding: 20px; display: inline-flex; gap: 10px; border-radius: 12px; } .ds-pill { padding: 0.6rem 1.15rem; border: 1px solid rgba(22,20,15,0.28); border-radius: 999px; background: rgba(244,239,230,0.6); backdrop-filter: blur(3px); color: #16140f; font-family: Inter, sans-serif; font-size: 13px; line-height: 1.35; cursor: pointer; transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1); } .ds-pill:hover { border-color: #16140f; transform: translateY(-1px); } .ds-pill:active { transform: scale(0.97); } .ds-pill-active { background: #16140f; color: #f4efe6; border-color: #16140f; box-shadow: 0 8px 22px -8px rgba(22,20,15,0.55); }"
+    },
+    {
+      "name": "Ink Input",
+      "kind": "input",
+      "refersTo": "ink-input",
+      "description": "Boxless underlined field; the user writes in the experience's own italic hand.",
+      "html": "<div class=\"ds-input-bg\"><input class=\"ds-ink-input\" placeholder=\"your name\" /></div>",
+      "css": ".ds-input-bg { background: #f4efe6; padding: 24px 28px; display: inline-block; border-radius: 12px; min-width: 280px; } .ds-ink-input { width: 100%; background: transparent; border: none; border-bottom: 1px solid rgba(22,20,15,0.3); padding: 0.65rem 0.1rem; font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 1.2rem; color: #16140f; outline: none; transition: border-color 0.3s; } .ds-ink-input::placeholder { color: rgba(22,20,15,0.32); } .ds-ink-input:focus { border-bottom-color: #16140f; }"
+    },
+    {
+      "name": "Depth Input",
+      "kind": "input",
+      "refersTo": "ink-input",
+      "description": "The same underlined hand, in the dark world: centered, ember caret, glowing focus.",
+      "html": "<div class=\"ds-depth-bg\"><input class=\"ds-depth-input\" placeholder=\"whisper it\" /></div>",
+      "css": ".ds-depth-bg { background: #0d0b09; padding: 28px 32px; display: inline-block; border-radius: 12px; min-width: 320px; } .ds-depth-input { width: 100%; background: transparent; border: none; border-bottom: 1px solid rgba(255,235,200,0.3); padding: 0.65rem 0.25rem; font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 1.5rem; text-align: center; color: #f5ead8; caret-color: #ffb088; outline: none; transition: border-color 0.4s, text-shadow 0.4s; } .ds-depth-input::placeholder { color: rgba(245,234,216,0.3); } .ds-depth-input:focus { border-bottom-color: rgba(255,176,136,0.75); text-shadow: 0 0 18px rgba(255,176,136,0.35); }"
+    },
+    {
+      "name": "Lens Bubble",
+      "kind": "custom",
+      "refersTo": "button-veil",
+      "description": "Signature glass sphere: a floating translucent orb holding a choice.",
+      "html": "<div class=\"ds-lens-bg\"><button class=\"ds-lens\">what steadies you</button></div>",
+      "css": ".ds-lens-bg { background: #0d0b09; padding: 30px; display: inline-block; border-radius: 12px; } .ds-lens { position: relative; width: 140px; aspect-ratio: 1; border-radius: 50%; display: flex; align-items: center; justify-content: center; padding: 0 16px; text-align: center; font-family: Inter, sans-serif; font-size: 12.5px; line-height: 1.35; letter-spacing: 0.02em; color: rgba(245,234,216,0.92); border: 1px solid rgba(255,235,200,0.22); background: radial-gradient(circle at 32% 28%, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.04) 42%, rgba(255,235,200,0.07) 100%); backdrop-filter: blur(3px); box-shadow: inset 0 1px 14px rgba(255,235,200,0.1), 0 0 24px -8px rgba(255,176,136,0.25); cursor: pointer; transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.45s, box-shadow 0.45s; } .ds-lens:hover { transform: scale(1.1); border-color: rgba(255,176,136,0.65); box-shadow: inset 0 1px 18px rgba(255,235,200,0.16), 0 0 38px -6px rgba(255,176,136,0.45); }"
+    },
+    {
+      "name": "Seed Drop",
+      "kind": "custom",
+      "refersTo": "pill-choice",
+      "description": "The colour choice: a glass droplet with the seed colour glowing inside it, its name surfacing on hover.",
+      "html": "<div class=\"ds-seed-bg\"><button class=\"ds-seed\" style=\"--c:#1287c8\"><span class=\"ds-seed-label\">Curaçao Blue</span></button></div>",
+      "css": ".ds-seed-bg { background: #0d0b09; padding: 34px 40px 48px; display: inline-block; border-radius: 12px; } .ds-seed { position: relative; width: 54px; aspect-ratio: 1; border-radius: 50%; border: 1px solid color-mix(in srgb, var(--c) 38%, rgba(255,235,200,0.35)); cursor: pointer; background: radial-gradient(circle at 32% 26%, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.08) 16%, transparent 38%), radial-gradient(circle at 50% 58%, color-mix(in srgb, var(--c) 72%, transparent) 0%, color-mix(in srgb, var(--c) 28%, transparent) 52%, transparent 100%); box-shadow: inset 0 0 16px color-mix(in srgb, var(--c) 40%, transparent), inset 0 -6px 12px rgba(0,0,0,0.16), 0 0 22px -9px var(--c); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s, border-color 0.4s; } .ds-seed:hover { transform: scale(1.16); border-color: color-mix(in srgb, var(--c) 65%, rgba(255,245,225,0.55)); box-shadow: inset 0 0 22px color-mix(in srgb, var(--c) 58%, transparent), 0 0 36px -5px var(--c); } .ds-seed-label { position: absolute; top: calc(100% + 10px); left: 50%; transform: translateX(-50%); white-space: nowrap; font-family: Inter, sans-serif; font-size: 13.5px; color: #f5ead8; opacity: 0; transition: opacity 0.35s ease; pointer-events: none; } .ds-seed:hover .ds-seed-label { opacity: 1; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Speakeasy Behind the Fortune Teller's Parlor",
+    "overview": "Dionysus is one continuous pour told in two materials — ink on paper above the surface, light in dark liquid below (the \"Water & Ink\" identity). The landing world is warm paper, sumi ink, and a vermilion seal: a printed invitation. The journey world is near-black liquid where everything luminous — candlelight ivory text, glass bubbles, seed-coloured motes — floats against darkness. Nothing in the journey is a card, a panel, or a box: interface elements are bubbles, drops, motes, rings, and underlined lines of handwriting, suspended in the dark.",
+    "keyCharacteristics": [
+      "Two worlds, one voice: warm paper above, candlelit depths below",
+      "Darkness is the canvas; light (and her seed colour) is the paint",
+      "Circles and pills only — no rectangles, no cards",
+      "Motion is choreography: every hold has an entrance, a breath, and an exit",
+      "The seed colour threads the journey via --c — always as light, never as surface tint"
+    ],
+    "rules": [
+      { "name": "The Seed Colour Rule", "body": "Her colour appears only as light — motes, glows, ripples, ember rims, and the inked lettering of her name. Never a background, never a tint over imagery, never a fill on a panel.", "section": "colors" },
+      { "name": "The Sacred Glass Rule", "body": "The 132 persona images are never tinted, graded, or colour-mixed. Colour may sit beside the glass, never on it.", "section": "colors" },
+      { "name": "The Darkness Rule", "body": "In the depths, darkness makes the light pop: raise contrast by darkening the surround, never by flattening the palette. Text over the dark world always carries a black text-shadow underlay.", "section": "colors" },
+      { "name": "The Italic Voice Rule", "body": "If the interface is saying something to her, it is Playfair italic. If it is labelling something, it is Inter. Never mix the two jobs in one line.", "section": "typography" },
+      { "name": "The Light-Is-Depth Rule", "body": "To bring an element forward in the depths, make it glow brighter or sit on a darker pool — never give it a drop shadow.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do honor prefers-reduced-motion on every hold — each animation needs its static or near-instant counterpart, including canvas effects",
+      "Do keep text over footage legible with the black text-shadow underlay and pool-of-night backing on bright bands",
+      "Do drive all seed-coloured styling through the --c custom property",
+      "Do ease with cubic-bezier(0.16, 1, 0.3, 1), or the 0.22/0.61/0.36/1 glide for camera moves — never bounce, never elastic",
+      "Do use playUntil(target, then) for journey footage — native 1× play, freeze on arrival"
+    ],
+    "donts": [
+      "Don't build anything resembling a flat, SaaS-style dashboard — no cards, no panels, no boxes",
+      "Don't use cartoonish or childish magic — no wizard hats, no bright neon; magic here is candlelight and ink",
+      "Don't lay out results as a cliché generic cocktail menu; the keepsake is an apothecary reading",
+      "Don't go clinical or overly minimal stark-white; even the splash white is warm",
+      "Don't tint, grade, or colour-overlay the persona images — seed colour is lettering and light only",
+      "Don't slow, scrub, or variable-rate the journey video, ever",
+      "Don't show chapter labels or numbers — the journey reads as one continuous experience",
+      "Don't redesign the hero/landing — it is locked and loved",
+      "Don't add drag interactions; every depth interaction is a click/touch",
+      "Don't use pure #000 or pure #fff anywhere; both worlds are warm"
+    ]
+  }
+}

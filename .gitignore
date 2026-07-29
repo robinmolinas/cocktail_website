@@ -1,0 +1,71 @@
+# ---------------------------------------------------------------
+# Participant data — DO NOT COMMIT (this is a public repo)
+#
+# Completed questionnaires contain real participants' names and
+# personal answers. Fail-safe by default: every .docx/.pdf in
+# Cocktail_GPT/ is ignored, and only the blank templates are
+# explicitly allowed back in. Any NEW participant file dropped in
+# is ignored automatically.
+# ---------------------------------------------------------------
+Cocktail_GPT/*.docx
+Cocktail_GPT/*.pdf
+!Cocktail_GPT/Questionnaire.docx
+!Cocktail_GPT/Old Questionnaire.docx
+!Cocktail_GPT/Cocktail Questionnaire.docx
+!Cocktail_GPT/New Revamped Questionnaire.docx
+!Cocktail_GPT/List of ingredients.docx
+
+# Completed questionnaires used as agent test fixtures
+Cocktail_Website_Agent/agent/data/fixtures/
+
+# ---------------------------------------------------------------
+# Media — keep what the app loads, skip the drafts
+# ---------------------------------------------------------------
+Cocktail_Website_Agent/Video_drafts/
+
+# ---------------------------------------------------------------
+# Dependencies and build output
+# ---------------------------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+*.local
+
+# ---------------------------------------------------------------
+# Environment and secrets
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------------------------------------------------------------
+# Logs
+# ---------------------------------------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------------------------------------------------------------
+# Test output
+# ---------------------------------------------------------------
+playwright-report/
+test-results/
+blob-report/
+coverage/
+
+# ---------------------------------------------------------------
+# OS and editor
+# ---------------------------------------------------------------
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo

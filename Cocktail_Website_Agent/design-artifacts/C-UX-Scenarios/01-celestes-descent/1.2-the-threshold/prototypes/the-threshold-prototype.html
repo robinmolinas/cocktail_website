@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dionysus — The Threshold (1.2 prototype, rev 3 · Glimpses + Lantern Handoff)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@1,400;1,500;1,600&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --dark: #0d0c0a;
+    --paper: #f4efe6;
+    --ink: #16140f;
+    --ash: rgba(222, 213, 196, 0.92);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    background: var(--dark);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.02em;
+    cursor: none;
+  }
+
+  /* ── the veil: hidden chapter glimpses, revealed by the spotlight ── */
+  #veil {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+
+  /* ── nav (hero continuity) ────────────────────────────── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    z-index: 100;
+    pointer-events: none;
+    color: #fff;
+  }
+  nav .wordmark {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.125rem;
+    letter-spacing: 0.1em;
+  }
+
+  /* ── content column — lit, minimal, plainly readable ──── */
+  .scene {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1.5rem;
+    transition: opacity 0.9s ease, filter 0.9s ease;
+  }
+  .scene.leaving { opacity: 0; filter: blur(6px); }
+
+  .q-rise {
+    opacity: 0;
+    transform: translateY(14px);
+    animation: rise 0.9s ease forwards;
+  }
+  @keyframes rise { to { opacity: 1; transform: translateY(0); } }
+
+  .kicker {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.45em;
+    color: rgba(222, 213, 196, 0.45);
+  }
+
+  h2 {
+    margin-top: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(2rem, 4.6vw, 3.4rem);
+    line-height: 1.18;
+    color: var(--ash);
+    text-wrap: balance;
+  }
+
+  .body-copy {
+    margin-top: 1.2rem;
+    max-width: 24rem;
+    font-size: clamp(0.85rem, 1.05vw, 0.95rem);
+    font-weight: 300;
+    line-height: 1.7;
+    color: rgba(222, 213, 196, 0.55);
+  }
+
+  .hint {
+    margin-top: 0.9rem;
+    font-size: 0.72rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-transform: lowercase;
+    color: rgba(222, 213, 196, 0.32);
+  }
+
+  .name-wrap {
+    margin-top: 2.4rem;
+    width: 100%;
+    max-width: 19rem;
+  }
+  #nameInput {
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--ash);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(222, 213, 196, 0.3);
+    outline: none;
+    padding: 0.5rem 0.25rem;
+    caret-color: rgba(222, 213, 196, 0.6);
+    transition: border-color 0.6s ease;
+    cursor: none;
+  }
+  #nameInput:focus { border-bottom-color: rgba(222, 213, 196, 0.65); }
+  #nameInput::placeholder { color: rgba(222, 213, 196, 0.26); }
+
+  .btn-wrap { margin-top: 2rem; }
+  .btn-lantern {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    letter-spacing: 0.08em;
+    color: var(--ash);
+    background: rgba(222, 213, 196, 0.07);
+    border: 1px solid rgba(222, 213, 196, 0.35);
+    border-radius: 999px;
+    padding: 0.9rem 2.2rem;
+    cursor: none;
+    transition: opacity 0.6s ease, letter-spacing 0.4s ease, background 0.5s ease, border-color 0.5s ease;
+  }
+  .btn-lantern:hover:not(:disabled) {
+    letter-spacing: 0.12em;
+    background: rgba(222, 213, 196, 0.14);
+    border-color: rgba(222, 213, 196, 0.6);
+  }
+  .btn-lantern:disabled { opacity: 0.25; }
+
+  /* ── the lantern (cursor + handoff vehicle) ───────────── */
+  .lantern-dot {
+    position: fixed;
+    left: 0; top: 0;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: rgba(244, 239, 230, 0.9);
+    box-shadow: 0 0 14px 3px rgba(244, 239, 230, 0.3);
+    pointer-events: none;
+    z-index: 120;
+  }
+
+  /* ── paper bloom (the handoff births the light world) ─── */
+  #bloom {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 130;
+    pointer-events: none;
+  }
+
+  /* ── chapter I placeholder (light world) ──────────────── */
+  .after {
+    position: fixed;
+    inset: 0;
+    z-index: 140;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1.5rem;
+  }
+  .after.active { display: flex; }
+  .after .kicker { color: rgba(22, 20, 15, 0.45); }
+  .after .chapter-title {
+    margin-top: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(2rem, 4.4vw, 3.2rem);
+    color: var(--ink);
+  }
+  .after .greeting {
+    margin-top: 1.25rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    color: rgba(22, 20, 15, 0.6);
+  }
+  .after .pour-again {
+    margin-top: 2.4rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    color: rgba(22, 20, 15, 0.4);
+    cursor: pointer;
+    transition: color 0.4s ease;
+  }
+  .after .pour-again:hover { color: rgba(22, 20, 15, 0.75); }
+
+  @media (max-width: 640px) {
+    .body-copy { max-width: 20rem; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="veil"></canvas>
+
+<nav>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+    <path d="M 10 22 C 10 18, 9 16, 8 15 L 5.5 14 L 6.5 12.5 L 4.5 10 L 6.5 8 C 6.5 6, 7 4, 11 2.5 C 16 1, 19 6, 18 13 C 17.5 17, 16 20, 15 22 C 15 22, 14 20, 14 18 H 9 L 11.5 17 V 12 C 8 12, 7 10, 7 7 H 16 C 16 10, 15 12, 11.5 12 V 17 L 14 18" />
+    <circle cx="11.5" cy="4.5" r="1.5" fill="currentColor" stroke="none" />
+  </svg>
+  <span class="wordmark">Dionysus</span>
+</nav>
+
+<div class="scene" id="scene">
+  <p class="kicker q-rise" style="animation-delay: 300ms">Prologue</p>
+  <h2 class="q-rise" style="animation-delay: 420ms">
+    Before the ink stirs,<br>tell us your name.
+  </h2>
+  <p class="body-copy q-rise" style="animation-delay: 540ms">
+    Six chapters lie ahead — there are no right answers, only honest ones.
+    At the end, the alchemist pours what he finds.
+  </p>
+  <p class="hint q-rise" style="animation-delay: 660ms">
+    move your light&ensp;·&ensp;the chapters are already around you
+  </p>
+  <div class="name-wrap q-rise" style="animation-delay: 780ms">
+    <input id="nameInput" type="text" autocomplete="off" spellcheck="false"
+           placeholder="Inscribe your name…" maxlength="40" aria-label="Inscribe your name">
+  </div>
+  <div class="btn-wrap q-rise" style="animation-delay: 900ms">
+    <button type="button" id="begin" class="btn-lantern" disabled>Discover the cocktail within me</button>
+  </div>
+</div>
+
+<canvas id="bloom"></canvas>
+
+<div class="after" id="after">
+  <p class="kicker">Chapter One</p>
+  <div class="chapter-title">Spirit Base</div>
+  <div class="greeting" id="greeting"></div>
+  <div class="pour-again" id="pourAgain">( return to the threshold )</div>
+</div>
+
+<div class="lantern-dot" id="lanternDot"></div>
+
+<script>
+/* ═══════════════════════════════════════════════════════════
+   Dionysus — 1.2 The Threshold · rev 3
+   B + D blend:
+   · The dark veil hides painted GLIMPSES of the six chapters;
+     her cursor-spotlight (the hero's beloved mechanic) reveals them
+   · The prologue text stays plainly lit and minimal
+   · On submit: the LANTERN HANDOFF — the spotlight detaches from
+     her hand, drifts to center, and blooms into the light world
+     where the first ink drop of Chapter I falls
+   ═══════════════════════════════════════════════════════════ */
+
+const DPR = Math.min(window.devicePixelRatio || 1, 1.5);
+let W = window.innerWidth, H = window.innerHeight;
+const SPOTLIGHT_R = 240;   /* matches the hero's reveal radius */
+
+/* ── offscreen: the six chapter glimpses, painted once ───── */
+const glimpses = document.createElement('canvas');
+const gctx = glimpses.getContext('2d');
+
+const AMBER = '#e8702a';
+const TEAL  = '#3f7d76';
+const ROSE  = '#b05a64';
+const GOLD  = '#c9a25f';
+const ASH   = 'rgba(232, 224, 206, 0.85)';
+
+function label(x, y, numeral, title) {
+  gctx.save();
+  gctx.textAlign = 'center';
+  gctx.font = "13px 'Zen Old Mincho', serif";
+  gctx.fillStyle = 'rgba(232,224,206,0.7)';
+  gctx.fillText(numeral, x, y);
+  gctx.font = "300 10px 'Inter', sans-serif";
+  gctx.fillStyle = 'rgba(232,224,206,0.5)';
+  gctx.fillText(title.toUpperCase(), x, y + 16);
+  gctx.restore();
+}
+
+function glow(x, y, r, color, alpha) {
+  const g = gctx.createRadialGradient(x, y, 0, x, y, r);
+  g.addColorStop(0, color + Math.round(alpha * 255).toString(16).padStart(2, '0'));
+  g.addColorStop(1, color + '00');
+  gctx.fillStyle = g;
+  gctx.fillRect(x - r, y - r, r * 2, r * 2);
+}
+
+function paintGlimpses() {
+  glimpses.width = W * DPR; glimpses.height = H * DPR;
+  gctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  gctx.clearRect(0, 0, W, H);
+
+  /* ——— I · Spirit Base — the color ring & the dipping spoon ——— */
+  {
+    const x = W * 0.14, y = H * 0.24;
+    glow(x, y, 150, '#8c5a2e', 0.16);
+    const cols = [AMBER, TEAL, ROSE, GOLD, '#6b4a8c', '#4a6b8c'];
+    cols.forEach((c, i) => {
+      const a = Math.PI * (0.75 + i * 0.3);
+      gctx.beginPath();
+      gctx.arc(x + Math.cos(a) * 52, y + Math.sin(a) * 52, 7, 0, Math.PI * 2);
+      gctx.fillStyle = c; gctx.globalAlpha = 0.8; gctx.fill();
+    });
+    gctx.globalAlpha = 1;
+    gctx.strokeStyle = ASH; gctx.lineWidth = 1.4;
+    gctx.beginPath();
+    gctx.moveTo(x + 38, y - 64);
+    gctx.quadraticCurveTo(x + 16, y - 22, x + Math.cos(Math.PI * 1.35) * 52 + 4, y + Math.sin(Math.PI * 1.35) * 52 + 2);
+    gctx.stroke();
+    label(x, y + 92, '一', 'Spirit Base');
+  }
+
+  /* ——— II · Liqueur — two inks marbling ——— */
+  {
+    const x = W * 0.86, y = H * 0.22;
+    glow(x, y, 150, '#3f5a56', 0.18);
+    const spiral = (color, dir, off) => {
+      gctx.strokeStyle = color; gctx.lineWidth = 2.2; gctx.globalAlpha = 0.75;
+      gctx.beginPath();
+      for (let t = 0; t < 4.6; t += 0.08) {
+        const r = 6 + t * 11;
+        const px = x + Math.cos(dir * t + off) * r;
+        const py = y + Math.sin(dir * t + off) * r * 0.8;
+        t === 0 ? gctx.moveTo(px, py) : gctx.lineTo(px, py);
+      }
+      gctx.stroke(); gctx.globalAlpha = 1;
+    };
+    spiral(AMBER, 1, 0);
+    spiral(TEAL, 1, Math.PI);
+    label(x, y + 92, '二', 'Liqueur');
+  }
+
+  /* ——— III · Bitters — droplets cast left and right ——— */
+  {
+    const x = W * 0.11, y = H * 0.62;
+    glow(x, y, 140, '#7a4a50', 0.16);
+    gctx.fillStyle = ROSE;
+    [[-46, -18, 4, -1], [-20, 8, 3, -1], [34, -26, 4, 1], [52, 4, 3, 1], [18, 26, 2.5, 1], [-52, 22, 2.5, -1]]
+      .forEach(([dx, dy, r, dir]) => {
+        gctx.globalAlpha = 0.85;
+        gctx.beginPath(); gctx.arc(x + dx, y + dy, r, 0, Math.PI * 2); gctx.fill();
+        gctx.globalAlpha = 0.3;
+        gctx.strokeStyle = ROSE; gctx.lineWidth = 1.2;
+        gctx.beginPath();
+        gctx.moveTo(x + dx - dir * 18, y + dy + 3);
+        gctx.lineTo(x + dx - dir * 4, y + dy);
+        gctx.stroke();
+      });
+    gctx.globalAlpha = 1;
+    label(x, y + 78, '三', 'Bitters');
+  }
+
+  /* ——— IV · Citrus — words falling like droplets ——— */
+  {
+    const x = W * 0.88, y = H * 0.60;
+    glow(x, y, 150, '#9c7a30', 0.16);
+    const words = [
+      ['velvet', -54, -38, -0.18, 0.85],
+      ['thunder', 30, -52, 0.12, 0.6],
+      ['dusk', -30, 6, 0.08, 0.95],
+      ['neon', 48, -2, -0.1, 0.5],
+      ['ember', 6, 40, 0.15, 0.7],
+    ];
+    for (const [w, dx, dy, rot, a] of words) {
+      gctx.save();
+      gctx.translate(x + dx, y + dy);
+      gctx.rotate(rot);
+      gctx.font = "italic 15px 'Playfair Display', serif";
+      gctx.fillStyle = `rgba(201, 162, 95, ${a})`;
+      gctx.textAlign = 'center';
+      gctx.fillText(w, 0, 0);
+      gctx.restore();
+    }
+    label(x, y + 80, '四', 'Citrus');
+  }
+
+  /* ——— V · Garnish — the coupe, the twist, the banished sprig ——— */
+  {
+    const x = W * 0.20, y = H * 0.87;
+    glow(x, y - 20, 140, '#5a6b3f', 0.15);
+    gctx.strokeStyle = ASH; gctx.lineWidth = 1.4;
+    gctx.beginPath();
+    gctx.moveTo(x - 34, y - 52);
+    gctx.bezierCurveTo(x - 34, y - 24, x - 12, y - 14, x, y - 14);
+    gctx.bezierCurveTo(x + 12, y - 14, x + 34, y - 24, x + 34, y - 52);
+    gctx.moveTo(x, y - 14); gctx.lineTo(x, y + 10);
+    gctx.moveTo(x - 16, y + 14); gctx.quadraticCurveTo(x, y + 6, x + 16, y + 14);
+    gctx.stroke();
+    /* orange twist on the rim */
+    gctx.strokeStyle = AMBER; gctx.lineWidth = 2;
+    gctx.beginPath(); gctx.arc(x + 30, y - 54, 9, -0.4, Math.PI * 0.9); gctx.stroke();
+    /* the banished sprig, crossed out */
+    gctx.strokeStyle = 'rgba(122, 140, 100, 0.7)'; gctx.lineWidth = 1.3;
+    gctx.beginPath();
+    gctx.moveTo(x - 62, y - 40); gctx.lineTo(x - 50, y - 64);
+    gctx.moveTo(x - 60, y - 50); gctx.lineTo(x - 50, y - 52);
+    gctx.moveTo(x - 56, y - 58); gctx.lineTo(x - 48, y - 58);
+    gctx.stroke();
+    gctx.strokeStyle = ROSE; gctx.lineWidth = 1.8;
+    gctx.beginPath();
+    gctx.moveTo(x - 70, y - 64); gctx.lineTo(x - 42, y - 40);
+    gctx.stroke();
+    label(x, y + 36, '五', 'Garnish');
+  }
+
+  /* ——— VI · Foam — the calligraphic hush ——— */
+  {
+    const x = W * 0.80, y = H * 0.88;
+    glow(x, y - 14, 140, '#56586b', 0.15);
+    gctx.strokeStyle = ASH; gctx.lineWidth = 1.2;
+    gctx.beginPath();
+    gctx.moveTo(x - 58, y - 8);
+    gctx.bezierCurveTo(x - 30, y - 26, x - 6, y + 8, x + 18, y - 12);
+    gctx.bezierCurveTo(x + 32, y - 22, x + 46, y - 14, x + 58, y - 18);
+    gctx.stroke();
+    /* foam */
+    gctx.fillStyle = 'rgba(232,224,206,0.5)';
+    [[-20, -30, 3], [-8, -36, 4], [6, -32, 3], [16, -38, 2.5], [-2, -26, 2]]
+      .forEach(([dx, dy, r]) => {
+        gctx.beginPath(); gctx.arc(x + dx, y + dy, r, 0, Math.PI * 2); gctx.fill();
+      });
+    gctx.font = "italic 13px 'Playfair Display', serif";
+    gctx.fillStyle = 'rgba(232,224,206,0.55)';
+    gctx.textAlign = 'center';
+    gctx.fillText('one true thing…', x, y + 14);
+    label(x, y + 40, '六', 'Foam');
+  }
+}
+
+/* ── the veil: glimpses shown only inside the spotlight ──── */
+const veil = document.getElementById('veil');
+const vctx = veil.getContext('2d');
+
+function size() {
+  W = window.innerWidth; H = window.innerHeight;
+  veil.width = W * DPR; veil.height = H * DPR;
+  vctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  paintGlimpses();
+}
+window.addEventListener('resize', size);
+
+/* fonts must be ready before painting text glimpses */
+document.fonts.ready.then(size);
+size();
+
+/* spotlight state — follows the hand until the handoff */
+const mouse = { x: -999, y: -999 };
+const spot = { x: W / 2, y: H / 2, r: SPOTLIGHT_R, intensity: 0 };
+let handoff = null;   /* {start} when the lantern detaches */
+
+window.addEventListener('pointermove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+window.addEventListener('touchmove', e => {
+  const t = e.touches[0];
+  if (t) { mouse.x = t.clientX; mouse.y = t.clientY; }
+}, { passive: true });
+
+const lanternDot = document.getElementById('lanternDot');
+
+function veilFrame(now) {
+  /* follow the hand (or drift to center during handoff) */
+  if (!handoff) {
+    if (mouse.x !== -999) {
+      spot.x += (mouse.x - spot.x) * 0.1;
+      spot.y += (mouse.y - spot.y) * 0.1;
+      spot.intensity += (1 - spot.intensity) * 0.06;
+    }
+  } else {
+    const p = Math.min((now - handoff.start) / 1100, 1);
+    const e = 1 - Math.pow(1 - p, 3);
+    spot.x += ((W / 2) - spot.x) * 0.07;
+    spot.y += ((H * 0.48) - spot.y) * 0.07;
+    spot.r = SPOTLIGHT_R - (SPOTLIGHT_R - 46) * e;
+    if (p >= 1 && !handoff.bloomed) {
+      handoff.bloomed = true;
+      paperBloom(spot.x, spot.y);
+    }
+  }
+
+  lanternDot.style.left = (spot.x - 3) + 'px';
+  lanternDot.style.top = (spot.y - 3) + 'px';
+
+  /* composite: glimpses masked by the spotlight */
+  vctx.clearRect(0, 0, W, H);
+  if (spot.intensity > 0.01) {
+    vctx.save();
+    vctx.drawImage(glimpses, 0, 0, W, H);
+    vctx.globalCompositeOperation = 'destination-in';
+    const g = vctx.createRadialGradient(spot.x, spot.y, 0, spot.x, spot.y, spot.r);
+    g.addColorStop(0, `rgba(255,255,255,${spot.intensity})`);
+    g.addColorStop(0.55, `rgba(255,255,255,${spot.intensity * 0.85})`);
+    g.addColorStop(0.8, `rgba(255,255,255,${spot.intensity * 0.35})`);
+    g.addColorStop(1, 'rgba(255,255,255,0)');
+    vctx.fillStyle = g;
+    vctx.beginPath();
+    vctx.arc(spot.x, spot.y, spot.r, 0, Math.PI * 2);
+    vctx.fill();
+    vctx.restore();
+
+    /* a faint warm halo so the light itself is visible */
+    vctx.save();
+    vctx.globalCompositeOperation = 'lighter';
+    const halo = vctx.createRadialGradient(spot.x, spot.y, 0, spot.x, spot.y, spot.r * 1.1);
+    halo.addColorStop(0, `rgba(244, 239, 230, ${0.05 * spot.intensity})`);
+    halo.addColorStop(1, 'rgba(244, 239, 230, 0)');
+    vctx.fillStyle = halo;
+    vctx.beginPath();
+    vctx.arc(spot.x, spot.y, spot.r * 1.1, 0, Math.PI * 2);
+    vctx.fill();
+    vctx.restore();
+  }
+
+  requestAnimationFrame(veilFrame);
+}
+requestAnimationFrame(veilFrame);
+
+/* ── paper bloom: the lantern births the light world ─────── */
+const bloomCanvas = document.getElementById('bloom');
+const bctx = bloomCanvas.getContext('2d');
+
+function paperBloom(cx, cy) {
+  bloomCanvas.width = W * DPR; bloomCanvas.height = H * DPR;
+  bctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+
+  const maxR = Math.hypot(W, H) * 0.78;
+  const p1 = Math.random() * 7, p2 = Math.random() * 7;
+  const start = performance.now();
+  const BLOOM_MS = 900;
+  const easeIn = t => t * t * t;
+
+  (function tick(now) {
+    const t = Math.min((now - start) / BLOOM_MS, 1);
+    const r = 46 + (maxR - 46) * easeIn(t);
+    bctx.clearRect(0, 0, W, H);
+    bctx.fillStyle = '#f4efe6';
+    bctx.beginPath();
+    for (let i = 0; i <= 90; i++) {
+      const a = (i / 90) * Math.PI * 2;
+      const wob = 1 + 0.14 * Math.sin(5 * a + p1) + 0.08 * Math.sin(9 * a + p2);
+      const x = cx + Math.cos(a) * r * wob;
+      const y = cy + Math.sin(a) * r * wob;
+      i === 0 ? bctx.moveTo(x, y) : bctx.lineTo(x, y);
+    }
+    bctx.closePath();
+    bctx.fill();
+
+    if (t < 1) {
+      requestAnimationFrame(tick);
+    } else {
+      document.body.style.background = '#f4efe6';
+      document.getElementById('after').classList.add('active');
+      /* the first ink drop of Chapter I falls where the lantern landed */
+      setTimeout(() => inkDrop(cx, cy), 500);
+    }
+  })(start);
+}
+
+/* the first ink drop — small, alive, the descent begins */
+function inkDrop(cx, cy) {
+  const start = performance.now();
+  const DROP_MS = 1400;
+  const p1 = Math.random() * 7, p2 = Math.random() * 7;
+
+  (function tick(now) {
+    const t = Math.min((now - start) / DROP_MS, 1);
+    const e = 1 - Math.pow(1 - t, 2.5);
+    const r = 8 + 36 * e;
+    const alpha = 0.5 * (1 - t * 0.55);
+
+    bctx.clearRect(0, 0, W, H);
+    bctx.fillStyle = '#f4efe6';
+    bctx.fillRect(0, 0, W, H);
+    bctx.fillStyle = `rgba(22, 20, 15, ${alpha})`;
+    bctx.beginPath();
+    for (let i = 0; i <= 70; i++) {
+      const a = (i / 70) * Math.PI * 2;
+      const wob = 1 + 0.18 * Math.sin(6 * a + p1 + t * 2) + 0.1 * Math.sin(11 * a + p2);
+      const x = cx + Math.cos(a) * r * wob;
+      const y = cy + Math.sin(a) * r * wob;
+      i === 0 ? bctx.moveTo(x, y) : bctx.lineTo(x, y);
+    }
+    bctx.closePath();
+    bctx.fill();
+
+    if (t < 1) requestAnimationFrame(tick);
+  })(start);
+}
+
+/* ── the inscription gates the descent ───────────────────── */
+const nameInput = document.getElementById('nameInput');
+const begin = document.getElementById('begin');
+
+nameInput.addEventListener('input', () => {
+  begin.disabled = nameInput.value.trim().length === 0;
+});
+nameInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && nameInput.value.trim()) beginDescent();
+});
+begin.addEventListener('click', beginDescent);
+
+function beginDescent() {
+  const name = nameInput.value.trim();
+  if (!name || handoff) return;
+
+  document.getElementById('greeting').textContent =
+    `The alchemist nods. Welcome, ${name}.`;
+
+  /* the lantern detaches from her hand */
+  document.getElementById('scene').classList.add('leaving');
+  handoff = { start: performance.now(), bloomed: false };
+}
+
+document.getElementById('pourAgain').addEventListener('click', () => location.reload());
+</script>
+</body>
+</html>

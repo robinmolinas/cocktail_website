@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-07-25T08:14:35.215Z",
+        "reason": "DESIGN.md locks Inter as brand identity: 'Inter and Playfair are locked brand identity... do not swap them for variants'"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "zen old mincho",
+        "createdAt": "2026-07-25T08:46:45.622Z",
+        "reason": "DESIGN.md documents Zen Old Mincho as the Accent Font in prose (Typography section) though it predates the YAML frontmatter typography block"
+      }
+    ]
+  }
+}

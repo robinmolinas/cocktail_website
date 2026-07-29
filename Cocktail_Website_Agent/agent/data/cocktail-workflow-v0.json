@@ -1,0 +1,470 @@
+{
+  "name": "Personalized Cocktail AI Recommendation System",
+  "nodes": [
+    {
+      "id": "webhook",
+      "name": "Webhook - Receive Questionnaire",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [100, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "cocktail-questionnaire",
+        "responseMode": "responseNode",
+        "options": {
+          "responseData": "allEntries",
+          "responsePropertyName": "cocktailPDF"
+        }
+      }
+    },
+    {
+      "id": "agent1",
+      "name": "Agent 1: Psychologist & Persona",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [400, 300],
+      "parameters": {
+        "resource": "text",
+        "operation": "message",
+        "modelId": { "__rl": true, "value": "gpt-4o", "mode": "list" },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are a world-class psychologist and personality expert. Analyze the following questionnaire answers and create 2 distinct persona profiles based on the Brand Personality archetypes.\n\nQuestionnaire Answers:\n{{ JSON.stringify($json.questionnaire) }}\n\nBrand Personality Reference:\n{{ $json.brandPersonalityFile }}\n\nCreate 2 different personas from the 12 brand archetypes (The Innocent, The Explorer, The Sage, The Hero, The Outlaw, The Magician, The Regular Guy/Girl, The Lover, The Jester, The Caregiver, The Creator, The Ruler).\n\nFor each persona, provide:\n1. The archetype name\n2. Key personality traits (5-7 traits)\n3. Core values and motivations\n4. How this relates to their drink preferences\n5. Emotional triggers and aspirations\n\nFormat your response as a JSON object with two personas."
+            }
+          ]
+        },
+        "options": {
+          "temperature": 0.8,
+          "maxTokens": 2000,
+          "topP": 0.9,
+          "frequencyPenalty": 0.3,
+          "presencePenalty": 0.3,
+          "responseFormat": {
+            "values": {
+              "type": "json_object"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "agent2",
+      "name": "Agent 2: Cocktail Historian",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [700, 300],
+      "parameters": {
+        "resource": "text",
+        "operation": "message",
+        "modelId": { "__rl": true, "value": "gpt-4o", "mode": "list" },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an expert cocktail historian with deep knowledge of ingredients, cocktails, and their cultural significance.\n\nBased on these persona profiles:\n{{ JSON.stringify($node['Agent 1: Psychologist & Persona'].json.personas) }}\n\nAnd the original questionnaire answers:\n{{ JSON.stringify($node['Webhook - Receive Questionnaire'].json.questionnaire) }}\n\nFor each persona, provide:\n1. A list of 10-15 ingredients whose history and significance resonate with the persona\n2. The historical/cultural story behind each ingredient\n3. 3-5 classic cocktails that align with their personality\n4. The historical significance of these cocktails\n5. How these elements connect to the person's values and traits\n\nInclude rare ingredients, historical anecdotes, and cultural connections that make the recommendations deeply personal.\n\nFormat as JSON with detailed historical narratives."
+            }
+          ]
+        },
+        "options": {
+          "temperature": 0.7,
+          "maxTokens": 2500,
+          "topP": 0.9,
+          "responseFormat": {
+            "values": {
+              "type": "json_object"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "agent3",
+      "name": "Agent 3: Master Mixologist",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [1000, 300],
+      "parameters": {
+        "resource": "text",
+        "operation": "message",
+        "modelId": { "__rl": true, "value": "gpt-4o", "mode": "list" },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are a world-renowned mixologist creating bespoke cocktails.\n\nUsing the personas:\n{{ JSON.stringify($node['Agent 1: Psychologist & Persona'].json.personas) }}\n\nAnd the historical ingredients/cocktails:\n{{ JSON.stringify($node['Agent 2: Cocktail Historian'].json.historicalRecommendations) }}\n\nCreate 1 unique cocktail for each persona (2 total). Each cocktail must:\n1. Have a creative, meaningful name that reflects the persona\n2. List all ingredients with exact measurements\n3. Include preparation method (stirred, shaken, built, etc.)\n4. Provide detailed mixing instructions\n5. Include any special techniques (fat washing, clarification, infusions)\n6. Suggest garnish and aromatics\n7. Temperature and dilution preferences\n8. Optional variations or seasonal adjustments\n\nMake these cocktails sophisticated, balanced, and truly personalized.\n\nFormat as JSON with complete recipes."
+            }
+          ]
+        },
+        "options": {
+          "temperature": 0.8,
+          "maxTokens": 2000,
+          "topP": 0.9,
+          "responseFormat": {
+            "values": {
+              "type": "json_object"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "agent4",
+      "name": "Agent 4: Visual Presenter",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [1300, 300],
+      "parameters": {
+        "resource": "text",
+        "operation": "message",
+        "modelId": { "__rl": true, "value": "gpt-4o", "mode": "list" },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are a visual presentation expert specializing in cocktail aesthetics.\n\nFor these 2 cocktails:\n{{ JSON.stringify($node['Agent 3: Master Mixologist'].json.cocktails) }}\n\nProvide for each cocktail:\n1. Ideal glassware (specific type and why)\n2. Visual presentation elements:\n   - Color profile and clarity\n   - Layering effects if applicable\n   - Ice specifications (clear, crushed, spheres, etc.)\n3. Garnish design:\n   - Primary garnish and preparation\n   - Secondary aromatic elements\n   - Edible flowers or decorative elements\n4. Serving vessel alternatives\n5. Table setting suggestions\n6. Lighting recommendations for photography\n7. Color theory and visual balance\n8. Seasonal presentation variations\n\nFormat as JSON with detailed visual specifications."
+            }
+          ]
+        },
+        "options": {
+          "temperature": 0.7,
+          "maxTokens": 1500,
+          "topP": 0.9,
+          "responseFormat": {
+            "values": {
+              "type": "json_object"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "agent5",
+      "name": "Agent 5: Storyteller",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [1600, 300],
+      "parameters": {
+        "resource": "text",
+        "operation": "message",
+        "modelId": { "__rl": true, "value": "gpt-4o", "mode": "list" },
+        "messages": {
+          "values": [
+            {
+              "content": "=You are a master storyteller crafting personalized narratives.\n\nUsing all previous information:\nQuestionnaire: {{ JSON.stringify($node['Webhook - Receive Questionnaire'].json.questionnaire) }}\nPersonas: {{ JSON.stringify($node['Agent 1: Psychologist & Persona'].json.personas) }}\nHistory: {{ JSON.stringify($node['Agent 2: Cocktail Historian'].json.historicalRecommendations) }}\nCocktails: {{ JSON.stringify($node['Agent 3: Master Mixologist'].json.cocktails) }}\nPresentation: {{ JSON.stringify($node['Agent 4: Visual Presenter'].json.presentation) }}\n\nCreate compelling narratives for each cocktail that:\n1. Opens with a captivating personal connection\n2. Weaves in the persona's journey and values\n3. Connects ingredients to life experiences\n4. Includes sensory descriptions\n5. Tells the story of why THIS cocktail was made for THEM\n6. Creates an emotional resonance\n7. Includes a toast or ritual suggestion\n8. Ends with an inspiring message\n\nMake it deeply personal, poetic, and memorable.\n\nFormat as JSON with complete narratives."
+            }
+          ]
+        },
+        "options": {
+          "temperature": 0.9,
+          "maxTokens": 2000,
+          "topP": 0.95,
+          "frequencyPenalty": 0.3,
+          "presencePenalty": 0.3,
+          "responseFormat": {
+            "values": {
+              "type": "json_object"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "agent6_prep",
+      "name": "Prepare Agent 6 Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1900, 300],
+      "parameters": {
+        "language": "javaScript",
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Aggregate all data for Agent 6\nconst aggregatedData = {\n  questionnaire: $node['Webhook - Receive Questionnaire'].json.questionnaire,\n  personas: $node['Agent 1: Psychologist & Persona'].json.personas,\n  historical: $node['Agent 2: Cocktail Historian'].json.historicalRecommendations,\n  cocktails: $node['Agent 3: Master Mixologist'].json.cocktails,\n  presentation: $node['Agent 4: Visual Presenter'].json.presentation,\n  stories: $node['Agent 5: Storyteller'].json.stories\n};\n\n// Prepare prompts for image generation\nconst imagePrompts = [];\n\nif (aggregatedData.cocktails && aggregatedData.cocktails.cocktails) {\n  aggregatedData.cocktails.cocktails.forEach((cocktail, index) => {\n    const presentation = aggregatedData.presentation.presentations?.[index] || {};\n    \n    imagePrompts.push({\n      cocktailName: cocktail.name,\n      prompt: `Professional cocktail photography: ${cocktail.name} cocktail in ${presentation.glassware || 'elegant glass'}, ${presentation.colorProfile || 'vibrant colors'}, ${presentation.garnish || 'sophisticated garnish'}, luxury bar setting, soft dramatic lighting, shallow depth of field, high-end magazine style, photorealistic, 8k quality`,\n      style: \"photorealistic, professional photography\"\n    });\n  });\n}\n\nreturn {\n  json: {\n    aggregatedData,\n    imagePrompts\n  }\n};"
+      }
+    },
+    {
+      "id": "image_gen_1",
+      "name": "Generate Cocktail Image 1",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [2200, 200],
+      "parameters": {
+        "resource": "image",
+        "operation": "generate",
+        "modelId": { "__rl": true, "value": "dall-e-3", "mode": "list" },
+        "prompt": "={{ $json.imagePrompts[0].prompt }}",
+        "options": {
+          "quality": "hd",
+          "size": "1024x1024",
+          "style": "vivid",
+          "n": 1
+        }
+      }
+    },
+    {
+      "id": "image_gen_2",
+      "name": "Generate Cocktail Image 2",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [2200, 400],
+      "parameters": {
+        "resource": "image",
+        "operation": "generate",
+        "modelId": { "__rl": true, "value": "dall-e-3", "mode": "list" },
+        "prompt": "={{ $json.imagePrompts[1].prompt }}",
+        "options": {
+          "quality": "hd",
+          "size": "1024x1024",
+          "style": "vivid",
+          "n": 1
+        }
+      }
+    },
+    {
+      "id": "merge_images",
+      "name": "Merge Images",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [2500, 300],
+      "parameters": {
+        "mode": "combine",
+        "combinationMode": "mergeByPosition",
+        "options": {}
+      }
+    },
+    {
+      "id": "html_generator",
+      "name": "Generate HTML for PDF",
+      "type": "n8n-nodes-base.html",
+      "typeVersion": 1.2,
+      "position": [2800, 300],
+      "parameters": {
+        "operation": "generateHtmlTemplate",
+        "html": "=<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Your Personalized Cocktails</title>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap');\n        \n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n        \n        body {\n            font-family: 'Montserrat', sans-serif;\n            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n            min-height: 100vh;\n            padding: 40px;\n        }\n        \n        .container {\n            max-width: 1200px;\n            margin: 0 auto;\n            background: white;\n            border-radius: 20px;\n            overflow: hidden;\n            box-shadow: 0 20px 60px rgba(0,0,0,0.3);\n        }\n        \n        .header {\n            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n            color: white;\n            padding: 60px 40px;\n            text-align: center;\n        }\n        \n        .header h1 {\n            font-family: 'Playfair Display', serif;\n            font-size: 48px;\n            margin-bottom: 20px;\n            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);\n        }\n        \n        .header .subtitle {\n            font-size: 18px;\n            font-weight: 300;\n            opacity: 0.95;\n        }\n        \n        .cocktail-section {\n            padding: 60px 40px;\n            border-bottom: 1px solid #e0e0e0;\n        }\n        \n        .cocktail-section:last-child {\n            border-bottom: none;\n        }\n        \n        .cocktail-header {\n            display: flex;\n            align-items: center;\n            margin-bottom: 40px;\n            gap: 40px;\n        }\n        \n        .cocktail-image {\n            width: 300px;\n            height: 300px;\n            border-radius: 15px;\n            object-fit: cover;\n            box-shadow: 0 10px 30px rgba(0,0,0,0.2);\n        }\n        \n        .cocktail-title {\n            flex: 1;\n        }\n        \n        .cocktail-name {\n            font-family: 'Playfair Display', serif;\n            font-size: 36px;\n            color: #333;\n            margin-bottom: 15px;\n        }\n        \n        .persona-badge {\n            display: inline-block;\n            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n            color: white;\n            padding: 8px 20px;\n            border-radius: 25px;\n            font-size: 14px;\n            font-weight: 600;\n        }\n        \n        .story {\n            background: #f8f9fa;\n            padding: 30px;\n            border-radius: 10px;\n            margin-bottom: 30px;\n            font-style: italic;\n            line-height: 1.8;\n            color: #555;\n        }\n        \n        .recipe {\n            display: grid;\n            grid-template-columns: 1fr 1fr;\n            gap: 30px;\n            margin-bottom: 30px;\n        }\n        \n        .ingredients, .instructions {\n            background: white;\n            border: 2px solid #e0e0e0;\n            border-radius: 10px;\n            padding: 25px;\n        }\n        \n        .section-title {\n            font-family: 'Playfair Display', serif;\n            font-size: 24px;\n            color: #333;\n            margin-bottom: 15px;\n        }\n        \n        .ingredients ul {\n            list-style: none;\n            padding: 0;\n        }\n        \n        .ingredients li {\n            padding: 8px 0;\n            border-bottom: 1px solid #f0f0f0;\n        }\n        \n        .ingredients li:last-child {\n            border-bottom: none;\n        }\n        \n        .instructions ol {\n            padding-left: 20px;\n            line-height: 1.8;\n        }\n        \n        .instructions li {\n            margin-bottom: 10px;\n        }\n        \n        .presentation {\n            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);\n            padding: 25px;\n            border-radius: 10px;\n        }\n        \n        .presentation-item {\n            display: flex;\n            align-items: center;\n            margin-bottom: 15px;\n        }\n        \n        .presentation-label {\n            font-weight: 600;\n            color: #555;\n            width: 120px;\n        }\n        \n        .presentation-value {\n            flex: 1;\n            color: #333;\n        }\n        \n        .footer {\n            background: #333;\n            color: white;\n            text-align: center;\n            padding: 30px;\n            font-size: 14px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <div class=\"header\">\n            <h1>Your Personalized Cocktail Collection</h1>\n            <p class=\"subtitle\">Crafted exclusively for {{ $node['Webhook - Receive Questionnaire'].json.questionnaire.name || 'you' }}</p>\n        </div>\n        \n        {{ $node['Agent 6 Prep'].json.aggregatedData.cocktails.cocktails.map((cocktail, index) => {\n            const persona = $node['Agent 6 Prep'].json.aggregatedData.personas.personas[index];\n            const story = $node['Agent 6 Prep'].json.aggregatedData.stories.stories[index];\n            const presentation = $node['Agent 6 Prep'].json.aggregatedData.presentation.presentations[index];\n            const image = index === 0 ? $node['Generate Cocktail Image 1'].json : $node['Generate Cocktail Image 2'].json;\n            \n            return `\n            <div class=\"cocktail-section\">\n                <div class=\"cocktail-header\">\n                    <img src=\"${image.imageUrl || 'placeholder.jpg'}\" alt=\"${cocktail.name}\" class=\"cocktail-image\">\n                    <div class=\"cocktail-title\">\n                        <h2 class=\"cocktail-name\">${cocktail.name}</h2>\n                        <span class=\"persona-badge\">${persona.archetype}</span>\n                    </div>\n                </div>\n                \n                <div class=\"story\">\n                    ${story.narrative}\n                </div>\n                \n                <div class=\"recipe\">\n                    <div class=\"ingredients\">\n                        <h3 class=\"section-title\">Ingredients</h3>\n                        <ul>\n                            ${cocktail.ingredients.map(ing => `<li>${ing}</li>`).join('')}\n                        </ul>\n                    </div>\n                    \n                    <div class=\"instructions\">\n                        <h3 class=\"section-title\">Instructions</h3>\n                        <ol>\n                            ${cocktail.instructions.map(inst => `<li>${inst}</li>`).join('')}\n                        </ol>\n                    </div>\n                </div>\n                \n                <div class=\"presentation\">\n                    <h3 class=\"section-title\">Presentation</h3>\n                    <div class=\"presentation-item\">\n                        <span class=\"presentation-label\">Glassware:</span>\n                        <span class=\"presentation-value\">${presentation.glassware}</span>\n                    </div>\n                    <div class=\"presentation-item\">\n                        <span class=\"presentation-label\">Garnish:</span>\n                        <span class=\"presentation-value\">${presentation.garnish}</span>\n                    </div>\n                    <div class=\"presentation-item\">\n                        <span class=\"presentation-label\">Serving:</span>\n                        <span class=\"presentation-value\">${presentation.servingNotes}</span>\n                    </div>\n                </div>\n            </div>\n            `;\n        }).join('') }}\n        \n        <div class=\"footer\">\n            <p>Created with passion by your personal cocktail AI sommeliers</p>\n            <p>© 2024 Personalized Cocktail Experience</p>\n        </div>\n    </div>\n</body>\n</html>"
+      }
+    },
+    {
+      "id": "pdf_converter",
+      "name": "Convert HTML to PDF",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [3100, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.pdfshift.io/v3/convert/pdf",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpBasicAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"source\": \"{{ $json.html }}\",\n  \"landscape\": false,\n  \"use_print\": false,\n  \"format\": \"A4\",\n  \"margin\": {\n    \"top\": \"20mm\",\n    \"right\": \"15mm\",\n    \"bottom\": \"20mm\",\n    \"left\": \"15mm\"\n  }\n}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "credentials": {
+        "httpBasicAuth": {
+          "id": "pdfshift_api",
+          "name": "PDFShift API"
+        }
+      }
+    },
+    {
+      "id": "prepare_response",
+      "name": "Prepare Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [3400, 300],
+      "parameters": {
+        "language": "javaScript",
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Prepare the final response\nconst pdfData = $input.item.binary.data;\nconst aggregatedData = $node['Agent 6 Prep'].json.aggregatedData;\n\nreturn {\n  json: {\n    success: true,\n    message: \"Your personalized cocktail recommendations have been created!\",\n    cocktails: aggregatedData.cocktails.cocktails.map(c => c.name),\n    personas: aggregatedData.personas.personas.map(p => p.archetype),\n    pdfGenerated: true\n  },\n  binary: {\n    cocktailPDF: pdfData\n  }\n};"
+      }
+    },
+    {
+      "id": "webhook_response",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [3700, 300],
+      "parameters": {
+        "respondWith": "binary",
+        "responseBinaryPropertyName": "cocktailPDF",
+        "options": {
+          "responseCode": 200,
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "application/pdf"
+              },
+              {
+                "name": "Content-Disposition",
+                "value": "attachment; filename=personalized-cocktails.pdf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook - Receive Questionnaire": {
+      "main": [
+        [
+          {
+            "node": "Agent 1: Psychologist & Persona",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Agent 1: Psychologist & Persona": {
+      "main": [
+        [
+          {
+            "node": "Agent 2: Cocktail Historian",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Agent 2: Cocktail Historian": {
+      "main": [
+        [
+          {
+            "node": "Agent 3: Master Mixologist",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Agent 3: Master Mixologist": {
+      "main": [
+        [
+          {
+            "node": "Agent 4: Visual Presenter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Agent 4: Visual Presenter": {
+      "main": [
+        [
+          {
+            "node": "Agent 5: Storyteller",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Agent 5: Storyteller": {
+      "main": [
+        [
+          {
+            "node": "Prepare Agent 6 Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Agent 6 Data": {
+      "main": [
+        [
+          {
+            "node": "Generate Cocktail Image 1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Generate Cocktail Image 2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Cocktail Image 1": {
+      "main": [
+        [
+          {
+            "node": "Merge Images",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Cocktail Image 2": {
+      "main": [
+        [
+          {
+            "node": "Merge Images",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Merge Images": {
+      "main": [
+        [
+          {
+            "node": "Generate HTML for PDF",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate HTML for PDF": {
+      "main": [
+        [
+          {
+            "node": "Convert HTML to PDF",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert HTML to PDF": {
+      "main": [
+        [
+          {
+            "node": "Prepare Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Response": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true,
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "executionTimeout": 300,
+    "timezone": "UTC",
+    "errorWorkflow": ""
+  }
+}

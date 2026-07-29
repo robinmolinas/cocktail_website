@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dionysus — Celeste's Descent · full-journey prototype</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@1,400;1,500;1,600&family=Zen+Old+Mincho:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --dark: #0d0c0a;
+    --paper: #f4efe6;
+    --ink: #16140f;
+    --ash: rgba(222, 213, 196, 0.92);
+    --amber: #e8702a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; font-family: 'Inter', sans-serif; letter-spacing: -0.02em; }
+  body { background: var(--dark); cursor: none; transition: background 0.8s ease; }
+  body.light { background: var(--paper); }
+
+  /* layers */
+  #bgCanvas  { position: fixed; inset: 0; z-index: 1; }          /* marbling / hidden art */
+  #fxCanvas  { position: fixed; inset: 0; z-index: 2; }          /* spotlight mask, stir, blooms */
+  #washOverlay { position: fixed; inset: 0; z-index: 3; pointer-events: none;
+    background: radial-gradient(ellipse 70% 62% at 50% 46%, rgba(22,20,15,0) 30%, rgba(22,20,15,0.5) 100%);
+    opacity: 0; transition: opacity 1.2s ease; }
+  #app       { position: fixed; inset: 0; z-index: 10; }
+  #floodCanvas { position: fixed; inset: 0; z-index: 200; pointer-events: none; opacity: 0; }
+  #cursorDot { position: fixed; width: 6px; height: 6px; border-radius: 50%; z-index: 300; pointer-events: none;
+    background: rgba(244,239,230,0.9); box-shadow: 0 0 14px 3px rgba(244,239,230,0.3); }
+  body.light #cursorDot { background: rgba(22,20,15,0.75); box-shadow: 0 0 10px 1px rgba(22,20,15,0.15); }
+
+  /* nav */
+  nav { position: fixed; top: 0; left: 0; right: 0; display: flex; align-items: center; gap: 0.5rem;
+    padding: 1.4rem 1.5rem; z-index: 100; pointer-events: none; color: #fff; transition: color 0.8s ease; }
+  body.light nav { color: var(--ink); }
+  nav .wordmark { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.1rem; letter-spacing: 0.1em; }
+
+  /* sediment memory glass */
+  #sediment { position: fixed; left: 1.6rem; bottom: 1.6rem; z-index: 100; opacity: 0; transition: opacity 1s ease; pointer-events: none; }
+  #sediment.on { opacity: 0.9; }
+
+  /* stage scaffolding */
+  .stage { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center;
+    justify-content: center; text-align: center; padding: 0 1.5rem; }
+  .rise { opacity: 0; transform: translateY(14px); animation: rise 0.9s ease forwards; }
+  @keyframes rise { to { opacity: 1; transform: translateY(0); } }
+
+  .kicker { font-size: 11px; text-transform: uppercase; letter-spacing: 0.45em; color: rgba(222,213,196,0.45); }
+  body.light .kicker { color: rgba(22,20,15,0.42); }
+  .serif { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 500; }
+  h1.q { margin-top: 0.9rem; font-family: 'Playfair Display', serif; font-style: italic; font-weight: 500;
+    font-size: clamp(1.7rem, 3.6vw, 2.7rem); line-height: 1.2; color: var(--ash); text-wrap: balance; max-width: 22ch; }
+  body.light h1.q { color: var(--ink); }
+  .sub { margin-top: 0.9rem; max-width: 26rem; font-weight: 300; font-size: clamp(0.83rem, 1vw, 0.95rem);
+    line-height: 1.65; color: rgba(222,213,196,0.55); }
+  body.light .sub { color: rgba(22,20,15,0.55); }
+  .whisper { font-size: 0.72rem; font-weight: 300; letter-spacing: 0.2em; text-transform: lowercase; color: rgba(222,213,196,0.32); }
+  body.light .whisper { color: rgba(22,20,15,0.35); }
+
+  .btn { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 0.875rem; letter-spacing: 0.08em;
+    border-radius: 999px; padding: 0.85rem 2.1rem; cursor: none; transition: all 0.45s ease; }
+  .btn-dark { color: var(--ash); background: rgba(222,213,196,0.07); border: 1px solid rgba(222,213,196,0.35); }
+  .btn-dark:hover:not(:disabled) { letter-spacing: 0.12em; background: rgba(222,213,196,0.14); }
+  body.light .btn-dark { color: var(--paper); background: var(--ink); border-color: var(--ink); }
+  body.light .btn-dark:hover:not(:disabled) { letter-spacing: 0.12em; transform: translateY(-1px); }
+  .btn:disabled { opacity: 0.22; }
+  .ghost { background: none; border: none; cursor: none; font-family: 'Inter', sans-serif; font-weight: 300;
+    font-size: 0.78rem; letter-spacing: 0.14em; color: rgba(22,20,15,0.38); transition: color 0.4s ease; }
+  .ghost:hover { color: rgba(22,20,15,0.7); }
+
+  input.inscribe { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.25rem; text-align: center;
+    color: var(--ash); background: transparent; border: none; border-bottom: 1px solid rgba(222,213,196,0.3);
+    outline: none; padding: 0.5rem 0.25rem; width: min(19rem, 80vw); caret-color: rgba(222,213,196,0.6); cursor: none; }
+  input.inscribe::placeholder { color: rgba(222,213,196,0.26); }
+
+  /* hero */
+  .hero-left { position: absolute; left: 7vw; top: 50%; transform: translateY(-50%); text-align: left; max-width: 24rem; }
+  .hero-kicker { font-family: 'Playfair Display', serif; font-style: italic; font-size: clamp(1.3rem, 2.2vw, 1.9rem); color: var(--amber); }
+  .hero-title { font-family: 'Inter', sans-serif; font-weight: 500; letter-spacing: -0.04em;
+    font-size: clamp(2.4rem, 5.4vw, 4.2rem); color: #fff; line-height: 1.05; margin-top: 0.3rem; }
+  .hero-body { margin-top: 1.2rem; font-weight: 300; font-size: 0.95rem; line-height: 1.65; color: rgba(255,255,255,0.55); }
+  .hero-right { position: absolute; right: 7vw; bottom: 10vh; text-align: right; max-width: 22rem; }
+  .hero-right .lead-in { font-weight: 300; font-size: 0.9rem; line-height: 1.6; color: rgba(255,255,255,0.55); margin-bottom: 1.2rem; }
+  .side-door { position: absolute; right: 7vw; bottom: 3.4vh; font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 0.92rem; color: rgba(222,213,196,0.34); transition: color 0.5s ease; cursor: none; }
+  .side-door:hover { color: rgba(222,213,196,0.6); }
+
+  /* choice cards (Ch I scenes) */
+  .scene-row { display: flex; gap: 1.1rem; margin-top: 2.2rem; flex-wrap: wrap; justify-content: center; }
+  .scene-card { width: clamp(120px, 16vw, 190px); height: clamp(160px, 22vw, 250px); border-radius: 4px;
+    position: relative; overflow: hidden; cursor: none; transition: transform 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease;
+    box-shadow: 0 6px 30px rgba(22,20,15,0.18); }
+  .scene-card:hover { transform: translateY(-6px); }
+  .scene-card.dim { opacity: 0.3; }
+  .scene-card.chosen { transform: scale(1.05); box-shadow: 0 10px 44px rgba(22,20,15,0.3); }
+  .scene-card .nm { position: absolute; left: 0; right: 0; bottom: 0.8rem; font-family: 'Playfair Display', serif;
+    font-style: italic; font-size: 0.95rem; color: rgba(244,239,230,0.92); text-shadow: 0 1px 6px rgba(0,0,0,0.4); }
+
+  /* color ring */
+  .ring-wrap { position: relative; width: 280px; height: 280px; margin-top: 1.6rem; }
+  .ring-dot { position: absolute; width: 34px; height: 34px; border-radius: 50%; transform: translate(-50%, -50%);
+    cursor: none; transition: transform 0.4s ease, box-shadow 0.4s ease; }
+  .ring-dot:hover { transform: translate(-50%, -50%) scale(1.3); }
+  .ring-dot.chosen { transform: translate(-50%, -50%) scale(1.5); box-shadow: 0 0 0 5px rgba(22,20,15,0.12), 0 4px 18px rgba(22,20,15,0.3); }
+
+  /* stir (Ch II) */
+  .stir-words { display: flex; justify-content: space-between; width: min(620px, 84vw); margin-top: 1rem;
+    font-family: 'Playfair Display', serif; font-style: italic; font-size: clamp(1rem, 1.6vw, 1.3rem); color: rgba(22,20,15,0.7); }
+  .stir-box { position: relative; width: min(620px, 84vw); height: 200px; margin-top: 0.8rem; border-radius: 6px;
+    overflow: hidden; cursor: none; box-shadow: inset 0 0 0 1px rgba(22,20,15,0.12), 0 10px 36px rgba(22,20,15,0.12); }
+  .stir-box canvas { width: 100%; height: 100%; display: block; }
+
+  /* flick (Ch III) */
+  .flick-zone { display: flex; gap: 4vw; margin-top: 2rem; }
+  .flick-side { width: clamp(140px, 18vw, 220px); padding: 2.2rem 1rem; border-radius: 6px; cursor: none;
+    border: 1px solid rgba(22,20,15,0.14); font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: clamp(1.15rem, 1.9vw, 1.5rem); color: rgba(22,20,15,0.75); transition: all 0.3s ease; background: rgba(244,239,230,0.5); }
+  .flick-side:hover { border-color: rgba(22,20,15,0.5); transform: translateY(-3px); background: rgba(244,239,230,0.9); }
+
+  /* word shower (Ch IV) */
+  .shower-field { position: relative; width: 100%; height: 52vh; margin-top: 0.6rem; overflow: hidden; }
+  .w-drop { position: absolute; font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: clamp(1rem, 1.7vw, 1.45rem); color: rgba(22,20,15,0.6); cursor: none; white-space: nowrap;
+    transition: color 0.4s ease, text-shadow 0.4s ease, transform 0.4s ease; animation: fall linear forwards; }
+  @keyframes fall { from { transform: translateY(-8vh); } to { transform: translateY(60vh); } }
+  .w-drop.bloom { color: var(--seed, #e8702a); transform: scale(1.25) !important; animation-play-state: paused; text-shadow: 0 0 22px var(--seed-glow, rgba(232,112,42,0.4)); }
+
+  /* garnish (Ch V) */
+  .flavor-row { display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap; justify-content: center; }
+  .flavor { padding: 0.7rem 1.5rem; border-radius: 999px; border: 1px solid rgba(22,20,15,0.2);
+    font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.05rem; color: rgba(22,20,15,0.65);
+    cursor: none; transition: all 0.35s ease; background: transparent; }
+  .flavor:hover { border-color: rgba(22,20,15,0.5); }
+  .flavor.in { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .glass-row { display: flex; gap: 3rem; margin-top: 2rem; align-items: flex-end; }
+  .glass-opt { cursor: none; opacity: 0.45; transition: opacity 0.4s ease, transform 0.4s ease; }
+  .glass-opt:hover { opacity: 0.8; }
+  .glass-opt.chosen { opacity: 1; transform: scale(1.07); }
+  .glass-opt .gl-label { margin-top: 0.6rem; font-family: 'Playfair Display', serif; font-style: italic; font-size: 0.95rem; color: rgba(22,20,15,0.65); }
+  .banish-row { display: flex; gap: 0.9rem; margin-top: 2rem; flex-wrap: wrap; justify-content: center; }
+  .banish { position: relative; padding: 0.6rem 1.3rem; font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: 1rem; color: rgba(22,20,15,0.65); cursor: none; border: none; background: none; transition: color 0.3s ease; }
+  .banish::after { content: ''; position: absolute; left: 8%; top: 52%; height: 2px; width: 0;
+    background: #b05a64; transform: rotate(-4deg); transition: width 0.35s ease; }
+  .banish.x { color: rgba(22,20,15,0.3); }
+  .banish.x::after { width: 84%; }
+
+  /* foam (Ch VI) */
+  .foam-track { position: relative; width: min(480px, 80vw); height: 60px; margin-top: 2.4rem; }
+  .foam-line { position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: rgba(22,20,15,0.25); }
+  .foam-bubble { position: absolute; top: 50%; width: 30px; height: 30px; border-radius: 50%;
+    transform: translate(-50%, -50%); background: radial-gradient(circle at 35% 35%, rgba(255,255,255,0.95), rgba(232,224,206,0.75));
+    box-shadow: 0 2px 12px rgba(22,20,15,0.18), inset 0 0 0 1px rgba(22,20,15,0.08); cursor: none; }
+  .foam-ends { display: flex; justify-content: space-between; width: min(480px, 80vw); margin-top: 0.4rem;
+    font-family: 'Playfair Display', serif; font-style: italic; font-size: 0.9rem; color: rgba(22,20,15,0.45); }
+  textarea.true-thing { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.15rem; line-height: 1.7;
+    color: var(--ink); background: transparent; border: none; border-bottom: 1px solid rgba(22,20,15,0.25); outline: none;
+    width: min(30rem, 84vw); margin-top: 2rem; resize: none; text-align: center; cursor: none; caret-color: rgba(22,20,15,0.6); }
+  textarea.true-thing::placeholder { color: rgba(22,20,15,0.26); }
+
+  /* distillation */
+  .frag { margin-top: 1.6rem; min-height: 3.2em; font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: clamp(0.95rem, 1.4vw, 1.15rem); color: rgba(22,20,15,0.5); max-width: 32rem; transition: opacity 0.8s ease; }
+
+  /* reveal */
+  .reveal-name { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 600;
+    font-size: clamp(2.6rem, 6.4vw, 5rem); color: var(--ink); line-height: 1.1;
+    background: linear-gradient(90deg, var(--ink) 50%, rgba(22,20,15,0.06) 50%); background-size: 200% 100%;
+    background-position: 100% 0; -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+    animation: paint 2.6s cubic-bezier(0.5, 0, 0.3, 1) 0.8s forwards; }
+  @keyframes paint { to { background-position: 0 0; } }
+  .narrative { margin-top: 1.8rem; max-width: 34rem; font-family: 'Playfair Display', serif; font-style: italic;
+    font-size: clamp(0.98rem, 1.5vw, 1.2rem); line-height: 1.9; color: rgba(22,20,15,0.72); }
+
+  /* recipe card */
+  .card { margin-top: 1.2rem; background: #faf6ec; border: 1px solid rgba(22,20,15,0.14); border-radius: 4px;
+    padding: 2.4rem 2.8rem; max-width: 25rem; width: 90vw; box-shadow: 0 16px 60px rgba(22,20,15,0.16); text-align: left; }
+  .card .c-name { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 600; font-size: 1.7rem; color: var(--ink); }
+  .card .c-for { font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(22,20,15,0.4); margin-top: 0.3rem; }
+  .card ul { list-style: none; margin-top: 1.4rem; }
+  .card li { display: flex; justify-content: space-between; gap: 1rem; font-weight: 300; font-size: 0.92rem;
+    color: rgba(22,20,15,0.75); padding: 0.32rem 0; border-bottom: 1px dotted rgba(22,20,15,0.18); }
+  .card li span:first-child { font-family: 'Playfair Display', serif; font-style: italic; }
+  .card .method { margin-top: 1.3rem; font-weight: 300; font-size: 0.85rem; line-height: 1.65; color: rgba(22,20,15,0.55); }
+  .card .seal { width: 22px; height: 22px; border-radius: 50%; margin-top: 1.5rem; opacity: 0.85; }
+
+  .toast { position: fixed; right: 6vw; bottom: 12vh; max-width: 30ch; font-family: 'Playfair Display', serif;
+    font-style: italic; font-size: 0.95rem; color: rgba(222,213,196,0.7); opacity: 0; transition: opacity 1s ease;
+    pointer-events: none; text-align: right; z-index: 150; }
+  .toast.on { opacity: 1; }
+
+  @media (max-width: 700px) {
+    .hero-left { left: 6vw; right: 6vw; max-width: none; top: 38%; }
+    .hero-right { right: 6vw; bottom: 16vh; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="bgCanvas"></canvas>
+<canvas id="fxCanvas"></canvas>
+<div id="washOverlay"></div>
+
+<nav>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" width="22" height="22">
+    <path d="M 10 22 C 10 18, 9 16, 8 15 L 5.5 14 L 6.5 12.5 L 4.5 10 L 6.5 8 C 6.5 6, 7 4, 11 2.5 C 16 1, 19 6, 18 13 C 17.5 17, 16 20, 15 22 C 15 22, 14 20, 14 18 H 9 L 11.5 17 V 12 C 8 12, 7 10, 7 7 H 16 C 16 10, 15 12, 11.5 12 V 17 L 14 18" />
+    <circle cx="11.5" cy="4.5" r="1.5" fill="currentColor" stroke="none" />
+  </svg>
+  <span class="wordmark">Dionysus</span>
+</nav>
+
+<canvas id="sediment" width="48" height="84"></canvas>
+<div id="app"></div>
+<canvas id="floodCanvas"></canvas>
+<div class="toast" id="toast"></div>
+<div id="cursorDot"></div>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════
+   DIONYSUS · Celeste's Descent — full-journey prototype
+   Hero → Threshold → Six Chapters → Distillation → Reveal → Recipe
+   Everything decided so far, assembled to feel the rhythm.
+   ═══════════════════════════════════════════════════════════════ */
+
+const DPR = Math.min(window.devicePixelRatio || 1, 1.5);
+let W = innerWidth, H = innerHeight;
+const INK = '#16140f', PAPER = '#f4efe6', DARK = '#0d0c0a';
+
+/* ── session state ─────────────────────────────────────────── */
+const S = {
+  name: '', scene: null, seed: '#e8702a',
+  pol: {}, flick: {}, words: [], flavors: [],
+  glass: null, banished: [], familiarity: 0.5, trueThing: '',
+  flickSpeeds: [], strata: []
+};
+
+/* ── canvases ──────────────────────────────────────────────── */
+const bg = document.getElementById('bgCanvas'), bgx = bg.getContext('2d');
+const fx = document.getElementById('fxCanvas'), fxx = fx.getContext('2d');
+function sizeAll() {
+  W = innerWidth; H = innerHeight;
+  for (const [c, x] of [[bg, bgx], [fx, fxx]]) {
+    c.width = W * DPR; c.height = H * DPR; x.setTransform(DPR, 0, 0, DPR, 0, 0);
+  }
+}
+sizeAll();
+addEventListener('resize', () => { sizeAll(); stages[idx].bgPaint && stages[idx].bgPaint(); });
+
+/* ── cursor dot ────────────────────────────────────────────── */
+const dot = document.getElementById('cursorDot');
+const mouse = { x: W / 2, y: H / 2 };
+const sm = { x: W / 2, y: H / 2 };
+addEventListener('pointermove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+(function moveDot() {
+  sm.x += (mouse.x - sm.x) * 0.22; sm.y += (mouse.y - sm.y) * 0.22;
+  dot.style.left = (sm.x - 3) + 'px'; dot.style.top = (sm.y - 3) + 'px';
+  requestAnimationFrame(moveDot);
+})();
+
+/* ── ink flood (the build's page turn) ─────────────────────── */
+const flood = document.getElementById('floodCanvas'), flx = flood.getContext('2d');
+let floodBusy = false;
+function runFlood(onCovered) {
+  if (floodBusy) return;
+  floodBusy = true;
+  flood.width = W * DPR; flood.height = H * DPR; flx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  flood.style.opacity = '1';
+  const COVER = 620, HOLD = 140, RECEDE = 540;
+  const maxR = Math.hypot(W, H) * 0.75;
+  const blobs = [
+    { cx: W * .5, cy: H * .45, p1: Math.random() * 7, p2: Math.random() * 7, a1: .16, a2: .1, s: 1 },
+    { cx: W * .2, cy: H * .8, p1: Math.random() * 7, p2: Math.random() * 7, a1: .2, a2: .12, s: .55 },
+    { cx: W * .85, cy: H * .15, p1: Math.random() * 7, p2: Math.random() * 7, a1: .2, a2: .12, s: .5 }];
+  const draw = r => {
+    flx.clearRect(0, 0, W, H); flx.fillStyle = INK;
+    for (const b of blobs) {
+      flx.beginPath();
+      for (let i = 0; i <= 90; i++) {
+        const a = i / 90 * Math.PI * 2;
+        const wob = 1 + b.a1 * Math.sin(5 * a + b.p1) + b.a2 * Math.sin(9 * a + b.p2);
+        const x = b.cx + Math.cos(a) * r * b.s * wob, y = b.cy + Math.sin(a) * r * b.s * wob;
+        i === 0 ? flx.moveTo(x, y) : flx.lineTo(x, y);
+      }
+      flx.closePath(); flx.fill();
+    }
+  };
+  const eIn = t => t * t * t * t, eOut = t => 1 - Math.pow(1 - t, 4);
+  const start = performance.now(); let covered = false;
+  (function tick(now) {
+    const t = now - start;
+    if (t < COVER) draw(maxR * eIn(t / COVER));
+    else if (t < COVER + HOLD) { if (!covered) { covered = true; flx.fillStyle = INK; flx.fillRect(0, 0, W, H); onCovered(); } }
+    else if (t < COVER + HOLD + RECEDE) flood.style.opacity = String(1 - eOut((t - COVER - HOLD) / RECEDE));
+    else { flx.clearRect(0, 0, W, H); flood.style.opacity = '0'; floodBusy = false; return; }
+    requestAnimationFrame(tick);
+  })(start);
+}
+
+/* ── sediment memory glass ─────────────────────────────────── */
+const sed = document.getElementById('sediment'), sedx = sed.getContext('2d');
+function addStratum(color) {
+  S.strata.push(color);
+  drawSediment();
+}
+function drawSediment() {
+  sedx.clearRect(0, 0, 48, 84);
+  sedx.strokeStyle = document.body.classList.contains('light') ? 'rgba(22,20,15,0.45)' : 'rgba(222,213,196,0.5)';
+  sedx.lineWidth = 1.2;
+  sedx.beginPath();
+  sedx.moveTo(8, 6); sedx.bezierCurveTo(8, 38, 16, 50, 24, 50);
+  sedx.bezierCurveTo(32, 50, 40, 38, 40, 6);
+  sedx.moveTo(24, 50); sedx.lineTo(24, 72);
+  sedx.moveTo(13, 78); sedx.quadraticCurveTo(24, 72, 35, 78);
+  sedx.stroke();
+  const n = S.strata.length;
+  if (!n) return;
+  const top = 12, bottom = 47;
+  const hEach = Math.min((bottom - top) / Math.max(n, 8), 5);
+  S.strata.forEach((c, i) => {
+    const y = bottom - (i + 1) * hEach;
+    sedx.fillStyle = c; sedx.globalAlpha = 0.8;
+    const wHalf = 13 - Math.max(0, (y - 28)) * 0.18;
+    sedx.fillRect(24 - wHalf, y, wHalf * 2, hEach - 0.6);
+  });
+  sedx.globalAlpha = 1;
+}
+
+/* ── ink wash level (progress = removal) ───────────────────── */
+function setWash(level) { /* 1 = heaviest, 0 = clear */
+  document.getElementById('washOverlay').style.opacity = String(level * 0.85);
+}
+
+/* ── light-world marbling backdrop (static per stage) ──────── */
+function paintMarbling(density) {
+  bgx.fillStyle = PAPER; bgx.fillRect(0, 0, W, H);
+  const drops = [];
+  const palette = [INK, '#3c3a33', PAPER, S.seed, PAPER, '#2a2720'];
+  const POINTS = 70;
+  const count = Math.round(10 + density * 30);
+  for (let k = 0; k < count; k++) {
+    const cx = W * Math.random(), cy = H * Math.random(), r = 26 + Math.random() * 80;
+    for (const d of drops) for (let i = 0; i < POINTS; i++) {
+      const dx = d.xs[i] - cx, dy = d.ys[i] - cy, dist2 = dx * dx + dy * dy || 1e-4;
+      const f = Math.sqrt(1 + r * r / dist2);
+      d.xs[i] = cx + dx * f; d.ys[i] = cy + dy * f;
+    }
+    const xs = new Float32Array(POINTS), ys = new Float32Array(POINTS);
+    for (let i = 0; i < POINTS; i++) {
+      const a = i / POINTS * Math.PI * 2;
+      xs[i] = cx + Math.cos(a) * r; ys[i] = cy + Math.sin(a) * r;
+    }
+    drops.push({ xs, ys, color: palette[k % palette.length] });
+  }
+  bgx.globalAlpha = 0.10 + density * 0.25;
+  for (const d of drops) {
+    bgx.fillStyle = d.color;
+    bgx.beginPath(); bgx.moveTo(d.xs[0], d.ys[0]);
+    for (let i = 1; i < POINTS; i++) bgx.lineTo(d.xs[i], d.ys[i]);
+    bgx.closePath(); bgx.fill();
+  }
+  bgx.globalAlpha = 1;
+}
+
+/* ── generic helpers ───────────────────────────────────────── */
+const app = document.getElementById('app');
+let fxLoop = null;           /* per-stage animation loop handle */
+function stopFx() { if (fxLoop) cancelAnimationFrame(fxLoop); fxLoop = null; fxx.clearRect(0, 0, W, H); }
+function el(html) { const d = document.createElement('div'); d.innerHTML = html; return d.firstElementChild; }
+function toast(msg, ms = 3600) {
+  const t = document.getElementById('toast');
+  t.innerHTML = msg; t.classList.add('on');
+  setTimeout(() => t.classList.remove('on'), ms);
+}
+function seedGlow() {
+  const n = parseInt(S.seed.slice(1), 16);
+  return `rgba(${n >> 16 & 255},${n >> 8 & 255},${n & 255},0.4)`;
+}
+
+/* ═════════════════════════ STAGES ═════════════════════════── */
+let idx = 0;
+function next() {
+  stopFx();
+  runFlood(() => {
+    idx++;
+    mount();
+  });
+}
+function mount() {
+  app.innerHTML = '';
+  const st = stages[idx];
+  document.body.classList.toggle('light', !!st.light);
+  document.getElementById('sediment').classList.toggle('on', !!st.sediment);
+  setWash(st.wash ?? 0);
+  if (st.light) paintMarbling(st.marble ?? 0); else { bgx.fillStyle = DARK; bgx.fillRect(0, 0, W, H); }
+  if (st.bgPaint) st.bgPaint();
+  drawSediment();
+  st.render();
+}
+
+/* ---------- 0 · HERO (stand-in for the built page) ---------- */
+function heroHiddenArt(ctx) {
+  /* the cocktail within — hidden under the dark, revealed by her light */
+  ctx.clearRect(0, 0, W, H);
+  const cx = W * 0.62, cy = H * 0.5;
+  const glow = ctx.createRadialGradient(cx, cy, 0, cx, cy, H * 0.46);
+  glow.addColorStop(0, 'rgba(232,112,42,0.32)'); glow.addColorStop(1, 'rgba(232,112,42,0)');
+  ctx.fillStyle = glow; ctx.fillRect(0, 0, W, H);
+  ctx.strokeStyle = 'rgba(244,239,230,0.85)'; ctx.lineWidth = 1.6;
+  const s = H * 0.0016;
+  ctx.save(); ctx.translate(cx, cy); ctx.scale(s * 100, s * 100);
+  ctx.beginPath();
+  ctx.moveTo(-0.62, -0.9); ctx.bezierCurveTo(-0.62, -0.3, -0.2, -0.1, 0, -0.1);
+  ctx.bezierCurveTo(0.2, -0.1, 0.62, -0.3, 0.62, -0.9);
+  ctx.moveTo(0, -0.1); ctx.lineTo(0, 0.55);
+  ctx.moveTo(-0.34, 0.7); ctx.quadraticCurveTo(0, 0.55, 0.34, 0.7);
+  ctx.stroke();
+  /* marbled liquid */
+  const liq = ctx.createLinearGradient(0, -0.85 * 100 * 0.01, 0, -0.15);
+  ctx.globalAlpha = 0.85;
+  const cols = ['#e8702a', '#b05a64', '#3f7d76', '#c9a25f'];
+  for (let i = 0; i < 4; i++) {
+    ctx.fillStyle = cols[i];
+    ctx.beginPath();
+    const y0 = -0.82 + i * 0.17;
+    ctx.moveTo(-0.6 + i * 0.04, y0);
+    ctx.bezierCurveTo(-0.2, y0 + 0.09, 0.2, y0 - 0.07, 0.6 - i * 0.04, y0 + 0.02);
+    ctx.lineTo(0.6 - (i + 1) * 0.045, y0 + 0.19);
+    ctx.bezierCurveTo(0.2, y0 + 0.12, -0.2, y0 + 0.26, -0.6 + (i + 1) * 0.045, y0 + 0.17);
+    ctx.closePath(); ctx.fill();
+  }
+  ctx.globalAlpha = 1; ctx.restore();
+  /* drifting motes */
+  ctx.fillStyle = 'rgba(232,160,90,0.5)';
+  for (let i = 0; i < 60; i++) {
+    const a = Math.random() * Math.PI * 2, r = Math.random() * H * 0.42;
+    ctx.globalAlpha = Math.random() * 0.5;
+    ctx.beginPath(); ctx.arc(cx + Math.cos(a) * r, cy + Math.sin(a) * r * 0.8, Math.random() * 1.6, 0, 7); ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+  ctx.font = "italic 15px 'Playfair Display', serif";
+  ctx.fillStyle = 'rgba(244,239,230,0.55)';
+  ctx.textAlign = 'center';
+  ctx.fillText('it was always there', cx, cy + H * 0.34);
+}
+const heroArt = document.createElement('canvas');
+const stages = [
+{
+  name: 'hero',
+  bgPaint() {
+    heroArt.width = W * DPR; heroArt.height = H * DPR;
+    const hx = heroArt.getContext('2d'); hx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    heroHiddenArt(hx);
+  },
+  render() {
+    app.appendChild(el(`<div class="stage">
+      <div class="hero-left">
+        <div class="hero-kicker rise" style="animation-delay:200ms">Discover the</div>
+        <div class="hero-title rise" style="animation-delay:320ms">Spirit Within</div>
+        <p class="hero-body rise" style="animation-delay:460ms">A theatrical journey into your own subconscious. Through an alchemy of questions, we distill your essence into a bespoke, masterfully animated cocktail recipe.</p>
+      </div>
+      <div class="hero-right">
+        <p class="lead-in rise" style="animation-delay:600ms">Six chapters lie between you and your liquid avatar. Step into the dark and let the oracle pour.</p>
+        <button class="btn btn-dark rise" id="cross" style="animation-delay:720ms">Cross the Threshold&ensp;→</button>
+      </div>
+      <div class="side-door rise" id="sideDoor" style="animation-delay:1100ms">taste one already poured</div>
+    </div>`));
+    document.getElementById('cross').onclick = next;
+    document.getElementById('sideDoor').onclick = () =>
+      toast("the Trickster's pour awaits —<br>(Poured Elixir exemplar, via the Reveal's guest state)");
+    /* spotlight reveal loop */
+    const loop = () => {
+      fxx.clearRect(0, 0, W, H);
+      fxx.save();
+      fxx.drawImage(heroArt, 0, 0, W, H);
+      fxx.globalCompositeOperation = 'destination-in';
+      const g = fxx.createRadialGradient(sm.x, sm.y, 0, sm.x, sm.y, 250);
+      g.addColorStop(0, 'rgba(255,255,255,1)'); g.addColorStop(0.6, 'rgba(255,255,255,0.8)');
+      g.addColorStop(1, 'rgba(255,255,255,0)');
+      fxx.fillStyle = g; fxx.beginPath(); fxx.arc(sm.x, sm.y, 250, 0, 7); fxx.fill();
+      fxx.restore();
+      fxLoop = requestAnimationFrame(loop);
+    };
+    loop();
+  }
+},
+
+/* ---------- 1 · THE THRESHOLD (rev 3: glimpses + handoff) ---------- */
+{
+  name: 'threshold',
+  bgPaint() {
+    heroArt.width = W * DPR; heroArt.height = H * DPR;
+    const hx = heroArt.getContext('2d'); hx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    hx.clearRect(0, 0, W, H);
+    /* six chapter glimpses hidden in the dark */
+    const lbl = (x, y, k, t) => {
+      hx.textAlign = 'center';
+      hx.font = "13px 'Zen Old Mincho', serif"; hx.fillStyle = 'rgba(232,224,206,0.7)'; hx.fillText(k, x, y);
+      hx.font = "300 10px 'Inter', sans-serif"; hx.fillStyle = 'rgba(232,224,206,0.5)'; hx.fillText(t.toUpperCase(), x, y + 15);
+    };
+    const glow = (x, y, r, c, a) => {
+      const g = hx.createRadialGradient(x, y, 0, x, y, r);
+      g.addColorStop(0, c + Math.round(a * 255).toString(16).padStart(2, '0')); g.addColorStop(1, c + '00');
+      hx.fillStyle = g; hx.fillRect(x - r, y - r, 2 * r, 2 * r);
+    };
+    { const x = W * .14, y = H * .24; glow(x, y, 150, '#8c5a2e', .16);
+      ['#e8702a', '#3f7d76', '#b05a64', '#c9a25f', '#6b4a8c', '#4a6b8c'].forEach((c, i) => {
+        const a = Math.PI * (.75 + i * .3);
+        hx.beginPath(); hx.arc(x + Math.cos(a) * 52, y + Math.sin(a) * 52, 7, 0, 7); hx.fillStyle = c; hx.globalAlpha = .8; hx.fill(); });
+      hx.globalAlpha = 1; hx.strokeStyle = 'rgba(232,224,206,0.85)'; hx.lineWidth = 1.4;
+      hx.beginPath(); hx.moveTo(x + 38, y - 64); hx.quadraticCurveTo(x + 16, y - 22, x - 12, y + 44); hx.stroke();
+      lbl(x, y + 92, '一', 'Spirit Base'); }
+    { const x = W * .86, y = H * .22; glow(x, y, 150, '#3f5a56', .18);
+      const sp = (c, off) => { hx.strokeStyle = c; hx.lineWidth = 2.2; hx.globalAlpha = .75; hx.beginPath();
+        for (let t = 0; t < 4.6; t += .08) { const r = 6 + t * 11;
+          const px = x + Math.cos(t + off) * r, py = y + Math.sin(t + off) * r * .8;
+          t === 0 ? hx.moveTo(px, py) : hx.lineTo(px, py); } hx.stroke(); hx.globalAlpha = 1; };
+      sp('#e8702a', 0); sp('#3f7d76', Math.PI); lbl(x, y + 92, '二', 'Liqueur'); }
+    { const x = W * .11, y = H * .62; glow(x, y, 140, '#7a4a50', .16); hx.fillStyle = '#b05a64';
+      [[-46, -18, 4], [-20, 8, 3], [34, -26, 4], [52, 4, 3], [18, 26, 2.5], [-52, 22, 2.5]].forEach(([dx, dy, r]) => {
+        hx.globalAlpha = .85; hx.beginPath(); hx.arc(x + dx, y + dy, r, 0, 7); hx.fill(); });
+      hx.globalAlpha = 1; lbl(x, y + 78, '三', 'Bitters'); }
+    { const x = W * .88, y = H * .60; glow(x, y, 150, '#9c7a30', .16);
+      [['velvet', -54, -38, -.18, .85], ['thunder', 30, -52, .12, .6], ['dusk', -30, 6, .08, .95], ['neon', 48, -2, -.1, .5], ['ember', 6, 40, .15, .7]]
+        .forEach(([w, dx, dy, rot, a]) => { hx.save(); hx.translate(x + dx, y + dy); hx.rotate(rot);
+          hx.font = "italic 15px 'Playfair Display', serif"; hx.fillStyle = `rgba(201,162,95,${a})`;
+          hx.textAlign = 'center'; hx.fillText(w, 0, 0); hx.restore(); });
+      lbl(x, y + 80, '四', 'Citrus'); }
+    { const x = W * .20, y = H * .87; glow(x, y - 20, 140, '#5a6b3f', .15);
+      hx.strokeStyle = 'rgba(232,224,206,0.85)'; hx.lineWidth = 1.4; hx.beginPath();
+      hx.moveTo(x - 34, y - 52); hx.bezierCurveTo(x - 34, y - 24, x - 12, y - 14, x, y - 14);
+      hx.bezierCurveTo(x + 12, y - 14, x + 34, y - 24, x + 34, y - 52);
+      hx.moveTo(x, y - 14); hx.lineTo(x, y + 10); hx.moveTo(x - 16, y + 14); hx.quadraticCurveTo(x, y + 6, x + 16, y + 14); hx.stroke();
+      hx.strokeStyle = '#e8702a'; hx.lineWidth = 2; hx.beginPath(); hx.arc(x + 30, y - 54, 9, -.4, 2.8); hx.stroke();
+      hx.strokeStyle = '#b05a64'; hx.lineWidth = 1.8; hx.beginPath(); hx.moveTo(x - 70, y - 64); hx.lineTo(x - 42, y - 40); hx.stroke();
+      lbl(x, y + 36, '五', 'Garnish'); }
+    { const x = W * .80, y = H * .88; glow(x, y - 14, 140, '#56586b', .15);
+      hx.strokeStyle = 'rgba(232,224,206,0.85)'; hx.lineWidth = 1.2; hx.beginPath();
+      hx.moveTo(x - 58, y - 8); hx.bezierCurveTo(x - 30, y - 26, x - 6, y + 8, x + 18, y - 12);
+      hx.bezierCurveTo(x + 32, y - 22, x + 46, y - 14, x + 58, y - 18); hx.stroke();
+      hx.fillStyle = 'rgba(232,224,206,0.5)';
+      [[-20, -30, 3], [-8, -36, 4], [6, -32, 3], [16, -38, 2.5]].forEach(([dx, dy, r]) => {
+        hx.beginPath(); hx.arc(x + dx, y + dy, r, 0, 7); hx.fill(); });
+      hx.font = "italic 13px 'Playfair Display', serif"; hx.fillStyle = 'rgba(232,224,206,0.55)';
+      hx.textAlign = 'center'; hx.fillText('one true thing…', x, y + 14);
+      lbl(x, y + 40, '六', 'Foam'); }
+  },
+  render() {
+    app.appendChild(el(`<div class="stage" id="thScene">
+      <p class="kicker rise" style="animation-delay:300ms">Prologue</p>
+      <h1 class="q rise" style="animation-delay:420ms">Before the ink stirs,<br>tell us your name.</h1>
+      <p class="sub rise" style="animation-delay:540ms">Six chapters lie ahead — there are no right answers, only honest ones. At the end, the alchemist pours what he finds.</p>
+      <p class="whisper rise" style="margin-top:0.9rem;animation-delay:660ms">move your light&ensp;·&ensp;the chapters are already around you</p>
+      <div class="rise" style="margin-top:2.2rem;animation-delay:780ms">
+        <input class="inscribe" id="nameInput" type="text" autocomplete="off" spellcheck="false" placeholder="Inscribe your name…" maxlength="40">
+      </div>
+      <div class="rise" style="margin-top:1.9rem;animation-delay:900ms">
+        <button class="btn btn-dark" id="begin" disabled>Discover the cocktail within me</button>
+      </div>
+    </div>`));
+    const inp = document.getElementById('nameInput'), btn = document.getElementById('begin');
+    inp.addEventListener('input', () => btn.disabled = !inp.value.trim());
+    inp.addEventListener('keydown', e => { if (e.key === 'Enter' && inp.value.trim()) go(); });
+    btn.onclick = go;
+    let handoff = null;
+    function go() {
+      if (handoff) return;
+      S.name = inp.value.trim();
+      document.getElementById('thScene').style.transition = 'opacity 0.9s ease, filter 0.9s ease';
+      document.getElementById('thScene').style.opacity = '0';
+      document.getElementById('thScene').style.filter = 'blur(6px)';
+      handoff = { start: performance.now() };
+    }
+    const spot = { x: sm.x, y: sm.y, r: 240 };
+    const loop = now => {
+      if (!handoff) { spot.x += (sm.x - spot.x) * 0.4; spot.y += (sm.y - spot.y) * 0.4; }
+      else {
+        const p = Math.min((now - handoff.start) / 1100, 1);
+        spot.x += (W / 2 - spot.x) * 0.07; spot.y += (H * 0.48 - spot.y) * 0.07;
+        spot.r = 240 - 194 * (1 - Math.pow(1 - p, 3));
+        if (p >= 1) { stopFx(); next(); return; }
+      }
+      fxx.clearRect(0, 0, W, H);
+      fxx.save();
+      fxx.drawImage(heroArt, 0, 0, W, H);
+      fxx.globalCompositeOperation = 'destination-in';
+      const g = fxx.createRadialGradient(spot.x, spot.y, 0, spot.x, spot.y, spot.r);
+      g.addColorStop(0, 'rgba(255,255,255,1)'); g.addColorStop(0.6, 'rgba(255,255,255,0.85)'); g.addColorStop(1, 'rgba(255,255,255,0)');
+      fxx.fillStyle = g; fxx.beginPath(); fxx.arc(spot.x, spot.y, spot.r, 0, 7); fxx.fill();
+      fxx.restore();
+      /* halo */
+      fxx.save(); fxx.globalCompositeOperation = 'lighter';
+      const h2 = fxx.createRadialGradient(spot.x, spot.y, 0, spot.x, spot.y, spot.r * 1.1);
+      h2.addColorStop(0, 'rgba(244,239,230,0.06)'); h2.addColorStop(1, 'rgba(244,239,230,0)');
+      fxx.fillStyle = h2; fxx.beginPath(); fxx.arc(spot.x, spot.y, spot.r * 1.1, 0, 7); fxx.fill();
+      fxx.restore();
+      fxLoop = requestAnimationFrame(loop);
+    };
+    loop(performance.now());
+  }
+},
+
+/* ---------- 2 · CHAPTER I — scenes ---------- */
+{
+  name: 'ch1-scene', light: true, sediment: true, wash: 1.0, marble: 0.9,
+  render() {
+    const scenes = [
+      { id: 'city', nm: 'the city of glass & noise', bgc: 'linear-gradient(165deg,#2e3340,#566076 55%,#8a8ca0)', col: '#566076' },
+      { id: 'sea', nm: 'the restless sea', bgc: 'linear-gradient(165deg,#1f3a40,#2e6f6a 60%,#7fb3a8)', col: '#2e6f6a' },
+      { id: 'forest', nm: 'the deep forest', bgc: 'linear-gradient(165deg,#22301e,#48663a 60%,#94a86b)', col: '#48663a' },
+      { id: 'plains', nm: 'the open horizon', bgc: 'linear-gradient(165deg,#4a3826,#9c7a30 60%,#d9b96a)', col: '#9c7a30' },
+    ];
+    app.appendChild(el(`<div class="stage">
+      <p class="kicker rise">Chapter One · Spirit Base</p>
+      <h1 class="q rise" style="animation-delay:140ms">Where did your story begin, ${S.name}?</h1>
+      <div class="scene-row rise" id="sceneRow" style="animation-delay:300ms"></div>
+    </div>`));
+    const row = document.getElementById('sceneRow');
+    scenes.forEach(sc => {
+      const c = el(`<div class="scene-card" style="background:${sc.bgc}"><div class="nm">${sc.nm}</div></div>`);
+      c.onclick = () => {
+        S.scene = sc;
+        addStratum(sc.col);
+        [...row.children].forEach(x => x !== c && x.classList.add('dim'));
+        c.classList.add('chosen');
+        setTimeout(next, 750);
+      };
+      row.appendChild(c);
+    });
+  }
+},
+
+/* ---------- 3 · CHAPTER I — color seed ---------- */
+{
+  name: 'ch1-color', light: true, sediment: true, wash: 0.92, marble: 0.85,
+  render() {
+    const colors = ['#e8702a', '#b05a64', '#3f7d76', '#c9a25f', '#6b4a8c', '#4a6b8c', '#48663a', '#8a3324'];
+    app.appendChild(el(`<div class="stage">
+      <p class="kicker rise">Chapter One · Spirit Base</p>
+      <h1 class="q rise" style="animation-delay:140ms">Dip the spoon — which color is you?</h1>
+      <p class="whisper rise" style="margin-top:0.7rem;animation-delay:240ms">it will tint everything that follows</p>
+      <div class="ring-wrap rise" id="ring" style="animation-delay:340ms"></div>
+    </div>`));
+    const ring = document.getElementById('ring');
+    colors.forEach((c, i) => {
+      const a = i / colors.length * Math.PI * 2 - Math.PI / 2;
+      const d = el(`<div class="ring-dot" style="left:${50 + Math.cos(a) * 42}%;top:${50 + Math.sin(a) * 42}%;background:${c}"></div>`);
+      d.onclick = () => {
+        S.seed = c;
+        document.documentElement.style.setProperty('--seed', c);
+        document.documentElement.style.setProperty('--seed-glow', seedGlow());
+        addStratum(c);
+        [...ring.children].forEach(x => x.classList.remove('chosen'));
+        d.classList.add('chosen');
+        setTimeout(next, 800);
+      };
+      ring.appendChild(d);
+    });
+  }
+},
+
+/* ---------- 4 · CHAPTER II — stir-to-answer ×4 ---------- */
+{
+  name: 'ch2', light: true, sediment: true, wash: 0.78, marble: 0.7,
+  render() {
+    const POLS = [
+      ['Self-centered', 'Caring', '#b05a64', '#3f7d76'],
+      ['Preserver', 'Disruptor', '#4a6b8c', '#e8702a'],
+      ['Realist', 'Dreamer', '#3c3a33', '#6b4a8c'],
+      ['Analytical', 'Intuitive', '#2e6f6a', '#c9a25f'],
+    ];
+    let qi = 0;
+    app.appendChild(el(`<div class="stage">
+      <p class="kicker rise">Chapter Two · Liqueur</p>
+      <h1 class="q rise" id="ch2q" style="animation-delay:140ms">Two inks enter the glass. Stir toward the one that is more true.</h1>
+      <div class="stir-words rise" style="animation-delay:280ms"><span id="wL"></span><span id="wR"></span></div>
+      <div class="stir-box rise" id="stirBox" style="animation-delay:340ms"><canvas id="stirC"></canvas></div>
+      <p class="whisper rise" style="margin-top:1.1rem;animation-delay:480ms">drag to stir&ensp;·&ensp;release to let it settle&ensp;·&ensp;the middle is also an answer</p>
+      <div style="margin-top:1.4rem"><button class="btn btn-dark" id="commitStir">It settles like this</button></div>
+    </div>`));
+    const box = document.getElementById('stirBox');
+    const c = document.getElementById('stirC'); const cx2 = c.getContext('2d');
+    let bw = 0, bh = 0;
+    const fit = () => { const r = box.getBoundingClientRect(); bw = r.width; bh = r.height; c.width = bw * DPR; c.height = bh * DPR; cx2.setTransform(DPR, 0, 0, DPR, 0, 0); };
+    setTimeout(fit, 50);
+    let v = 0.5, dragging = false;
+    const start = performance.now();
+    function setQ() {
+      const [l, r] = POLS[qi];
+      document.getElementById('wL').textContent = l;
+      document.getElementById('wR').textContent = r;
+      v = 0.5;
+    }
+    setQ();
+    box.addEventListener('pointerdown', e => { dragging = true; box.setPointerCapture(e.pointerId); });
+    box.addEventListener('pointermove', e => {
+      if (!dragging) return;
+      const r = box.getBoundingClientRect();
+      v += ((e.clientX - r.left) / r.width - v) * 0.18;
+      v = Math.max(0.04, Math.min(0.96, v));
+    });
+    box.addEventListener('pointerup', () => dragging = false);
+    const loop = t => {
+      if (!bw) fit();
+      const [, , colL, colR] = POLS[qi];
+      cx2.fillStyle = PAPER; cx2.fillRect(0, 0, bw, bh);
+      const bx = bw * v;
+      /* left ink */
+      cx2.fillStyle = colL; cx2.globalAlpha = 0.82;
+      cx2.beginPath(); cx2.moveTo(0, 0);
+      for (let y = 0; y <= bh; y += 6) {
+        const wob = Math.sin(y * 0.045 + t * 0.0016) * 14 + Math.sin(y * 0.012 - t * 0.0009) * 22;
+        cx2.lineTo(bx + wob, y);
+      }
+      cx2.lineTo(0, bh); cx2.closePath(); cx2.fill();
+      /* right ink */
+      cx2.fillStyle = colR;
+      cx2.beginPath(); cx2.moveTo(bw, 0);
+      for (let y = 0; y <= bh; y += 6) {
+        const wob = Math.sin(y * 0.045 + t * 0.0016) * 14 + Math.sin(y * 0.012 - t * 0.0009) * 22;
+        cx2.lineTo(bx + wob + 10 + Math.sin(y * 0.09 + t * 0.002) * 8, y);
+      }
+      cx2.lineTo(bw, bh); cx2.closePath(); cx2.fill();
+      cx2.globalAlpha = 1;
+      fxLoop = requestAnimationFrame(loop);
+    };
+    loop(performance.now());
+    document.getElementById('commitStir').onclick = () => {
+      const [l, r, colL, colR] = POLS[qi];
+      S.pol[l + '–' + r] = v;
+      addStratum(v < 0.5 ? colL : colR);
+      qi++;
+      if (qi < POLS.length) {
+        setQ();
+      } else { stopFx(); next(); }
+    };
+  }
+},
+
+/* ---------- 5 · CHAPTER III — bitters flicks ×4 ---------- */
+{
+  name: 'ch3', light: true, sediment: true, wash: 0.6, marble: 0.5,
+  render() {
+    const PAIRS = [['Day', 'Night'], ['Loner', 'Social'], ['In control', 'Out of control'], ['Quiet', 'Loud']];
+    let qi = 0, shownAt = performance.now();
+    app.appendChild(el(`<div class="stage">
+      <p class="kicker rise">Chapter Three · Bitters</p>
+      <h1 class="q rise" id="ch3q" style="animation-delay:120ms">Quick — cast the droplet. Don't think.</h1>
+      <div class="flick-zone rise" style="animation-delay:240ms">
+        <div class="flick-side" id="fL"></div>
+        <div class="flick-side" id="fR"></div>
+      </div>
+    </div>`));
+    const L = document.getElementById('fL'), R = document.getElementById('fR');
+    function setQ() { L.textContent = PAIRS[qi][0]; R.textContent = PAIRS[qi][1]; shownAt = performance.now(); }
+    setQ();
+    function cast(side, elx) {
+      S.flickSpeeds.push(performance.now() - shownAt);
+      S.flick[PAIRS[qi].join('–')] = side;
+      addStratum(side === 0 ? '#8a6a4a' : '#56586b');
+      /* droplet flies */
+      const r = elx.getBoundingClientRect();
+      const sx = side === 0 ? r.right : r.left, sy = r.top + r.height / 2;
+      const tx = side === 0 ? r.left - 80 : r.right + 80;
+      const t0 = performance.now();
+      const fly = now => {
+        const p = Math.min((now - t0) / 260, 1);
+        fxx.clearRect(0, 0, W, H);
+        fxx.fillStyle = '#b05a64'; fxx.globalAlpha = 1 - p * 0.4;
+        fxx.beginPath(); fxx.arc(sx + (tx - sx) * p, sy - Math.sin(p * Math.PI) * 46, 5 - p * 2, 0, 7); fxx.fill();
+        fxx.globalAlpha = 1;
+        if (p < 1) requestAnimationFrame(fly); else fxx.clearRect(0, 0, W, H);
+      };
+      requestAnimationFrame(fly);
+      qi++;
+      if (qi < PAIRS.length) setTimeout(setQ, 240);
+      else setTimeout(next, 420);
+    }
+    L.onclick = () => cast(0, L);
+    R.onclick = () => cast(1, R);
+  }
+},
+
+/* ---------- 6 · CHAPTER IV — word-droplet shower ---------- */
+{
+  name: 'ch4', light: true, sediment: true, wash: 0.42, marble: 0.35,
+  render() {
+    const WORDS = ['velvet', 'thunder', 'dusk', 'neon', 'ember', 'silk', 'static', 'moss', 'chrome', 'honey', 'smoke', 'tide'];
+    app.appendChild(el(`<div class="stage" style="justify-content:flex-start;padding-top:14vh">
+      <p class="kicker rise">Chapter Four · Citrus</p>
+      <h1 class="q rise" style="animation-delay:120ms">Catch what resonates. Let the rest dissolve.</h1>
+      <div class="shower-field rise" id="field" style="animation-delay:260ms"></div>
+      <div style="position:fixed;bottom:7vh"><button class="btn btn-dark" id="ch4go" disabled>These are mine</button></div>
+    </div>`));
+    const field = document.getElementById('field');
+    const goBtn = document.getElementById('ch4go');
+    let launched = 0;
+    const launch = () => {
+      if (idx !== 6 || launched >= 26) return;
+      const w = WORDS[launched % WORDS.length];
+      const d = el(`<span class="w-drop" style="left:${6 + Math.random() * 84}%;animation-duration:${7 + Math.random() * 5}s">${w}</span>`);
+      d.onclick = () => {
+        if (d.classList.contains('bloom')) return;
+        d.classList.add('bloom');
+        if (!S.words.includes(w)) S.words.push(w);
+        addStratum(S.seed);
+        if (S.words.length >= 3) goBtn.disabled = false;
+      };
+      d.addEventListener('animationend', () => !d.classList.contains('bloom') && d.remove());
+      field.appendChild(d);
+      launched++;
+      setTimeout(launch, 700 + Math.random() * 500);
+    };
+    setTimeout(launch, 600);
+    goBtn.onclick = next;
+  }
+},
+
+/* ---------- 7 · CHAPTER V — garnish ---------- */
+{
+  name: 'ch5', light: true, sediment: true, wash: 0.26, marble: 0.22,
+  render() {
+    app.appendChild(el(`<div class="stage">
+      <p class="kicker rise">Chapter Five · Garnish</p>
+      <h1 class="q rise" style="animation-delay:120ms">Flick into the glass what belongs there.</h1>
+      <div class="flavor-row rise" id="flav" style="animation-delay:240ms"></div>
+      <h1 class="q rise" style="font-size:clamp(1.1rem,2vw,1.5rem);margin-top:2.6rem;animation-delay:360ms">And how does it sit in the hand?</h1>
+      <div class="glass-row rise" id="glassRow" style="animation-delay:460ms"></div>
+      <div style="margin-top:2.4rem"><button class="btn btn-dark" id="ch5go" disabled>Garnished</button></div>
+    </div>`));
+    const flav = document.getElementById('flav');
+    ['sweet', 'bitter', 'spicy', 'herbal', 'citrusy'].forEach(f => {
+      const b = el(`<button class="flavor">${f}</button>`);
+      b.onclick = () => {
+        b.classList.toggle('in');
+        if (b.classList.contains('in')) { S.flavors.push(f); addStratum('#c9a25f'); }
+        else S.flavors = S.flavors.filter(x => x !== f);
+        check();
+      };
+      flav.appendChild(b);
+    });
+    const glassRow = document.getElementById('glassRow');
+    const mk = (id, label, svg) => {
+      const g = el(`<div class="glass-opt" id="g-${id}">${svg}<div class="gl-label">${label}</div></div>`);
+      g.onclick = () => {
+        S.glass = id;
+        [...glassRow.children].forEach(x => x.classList.remove('chosen'));
+        g.classList.add('chosen');
+        check();
+      };
+      glassRow.appendChild(g);
+    };
+    const stroke = 'stroke="rgba(22,20,15,0.7)" stroke-width="1.5" fill="none" stroke-linecap="round"';
+    mk('rocks', 'short & strong', `<svg width="64" height="76" viewBox="0 0 64 76"><path ${stroke} d="M14 18 L17 62 Q32 68 47 62 L50 18 M14 18 Q32 24 50 18"/></svg>`);
+    mk('coupe', 'poised & ceremonial', `<svg width="64" height="76" viewBox="0 0 64 76"><path ${stroke} d="M12 12 C12 32 24 38 32 38 C40 38 52 32 52 12 M12 12 Q32 18 52 12 M32 38 L32 62 M18 68 Q32 62 46 68"/></svg>`);
+    mk('highball', 'tall & cold', `<svg width="64" height="76" viewBox="0 0 64 76"><path ${stroke} d="M20 8 L22 66 Q32 71 42 66 L44 8 M20 8 Q32 13 44 8"/></svg>`);
+    const check = () => document.getElementById('ch5go').disabled = !(S.flavors.length && S.glass);
+    document.getElementById('ch5go').onclick = next;
+  }
+},
+
+/* ---------- 8 · CHAPTER V — banishing ritual ---------- */
+{
+  name: 'ch5b', light: true, sediment: true, wash: 0.18, marble: 0.16,
+  render() {
+    app.appendChild(el(`<div class="stage">
+      <p class="kicker rise">Chapter Five · The Banishing</p>
+      <h1 class="q rise" style="animation-delay:120ms">What shall never touch your glass?</h1>
+      <p class="whisper rise" style="margin-top:0.7rem;animation-delay:220ms">strike it through — the alchemist will honor it</p>
+      <div class="banish-row rise" id="ban" style="animation-delay:320ms"></div>
+      <div style="margin-top:2.6rem"><button class="btn btn-dark" id="ch5bgo">Nothing else — proceed</button></div>
+    </div>`));
+    const ban = document.getElementById('ban');
+    ['egg white', 'dairy', 'nuts', 'gluten', 'mezcal smoke', 'high proof'].forEach(x => {
+      const b = el(`<button class="banish">${x}</button>`);
+      b.onclick = () => {
+        b.classList.toggle('x');
+        if (b.classList.contains('x')) { S.banished.push(x); addStratum('#b05a64'); }
+        else S.banished = S.banished.filter(y => y !== x);
+      };
+      ban.appendChild(b);
+    });
+    document.getElementById('ch5bgo').onclick = next;
+  }
+},
+
+/* ---------- 9 · CHAPTER VI — foam & one true thing ---------- */
+{
+  name: 'ch6', light: true, sediment: true, wash: 0.08, marble: 0.08,
+  render() {
+    app.appendChild(el(`<div class="stage">
+      <p class="kicker rise">Chapter Six · Foam</p>
+      <h1 class="q rise" style="animation-delay:140ms">How well do you know the night's craft?</h1>
+      <div class="foam-track rise" id="track" style="animation-delay:280ms">
+        <div class="foam-line"></div>
+        <div class="foam-bubble" id="bub" style="left:50%"></div>
+      </div>
+      <div class="foam-ends rise" style="animation-delay:320ms"><span>a curious stranger</span><span>an old friend</span></div>
+      <h1 class="q rise" style="font-size:clamp(1.1rem,2vw,1.5rem);margin-top:3.2rem;animation-delay:480ms">Tell the alchemist one true thing.</h1>
+      <textarea class="true-thing rise" id="tt" rows="2" placeholder="…or let the foam settle" style="animation-delay:600ms"></textarea>
+      <div style="margin-top:2.2rem"><button class="btn btn-dark" id="ch6go">Let it settle</button></div>
+    </div>`));
+    const track = document.getElementById('track'), bub = document.getElementById('bub');
+    let drag = false;
+    track.addEventListener('pointerdown', e => { drag = true; track.setPointerCapture(e.pointerId); movB(e); });
+    track.addEventListener('pointermove', e => drag && movB(e));
+    track.addEventListener('pointerup', () => drag = false);
+    function movB(e) {
+      const r = track.getBoundingClientRect();
+      S.familiarity = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width));
+      bub.style.left = (S.familiarity * 100) + '%';
+    }
+    document.getElementById('ch6go').onclick = () => {
+      S.trueThing = document.getElementById('tt').value.trim();
+      addStratum('#ece5d2');
+      next();
+    };
+  }
+},
+
+/* ---------- 10 · THE DISTILLATION ---------- */
+{
+  name: 'distill', light: true, sediment: true, wash: 0, marble: 0.04,
+  render() {
+    app.appendChild(el(`<div class="stage">
+      <p class="kicker rise">The Distillation</p>
+      <h1 class="q rise" style="animation-delay:140ms">Distilling your essence…</h1>
+      <div class="frag rise" id="frag" style="animation-delay:300ms"></div>
+    </div>`));
+    /* breathing blot */
+    const t0 = performance.now();
+    const loop = now => {
+      const t = (now - t0) / 1000;
+      fxx.clearRect(0, 0, W, H);
+      const r = 60 + Math.sin(t * 1.4) * 14;
+      const g = fxx.createRadialGradient(W / 2, H * 0.68, 0, W / 2, H * 0.68, r);
+      g.addColorStop(0, 'rgba(22,20,15,0.5)'); g.addColorStop(1, 'rgba(22,20,15,0)');
+      fxx.fillStyle = g;
+      fxx.beginPath(); fxx.arc(W / 2, H * 0.68, r, 0, 7); fxx.fill();
+      fxLoop = requestAnimationFrame(loop);
+    };
+    loop(t0);
+    const frags = [
+      'The Historian leafs through 1806 — the first “cock-tail” ever inked: spirit, sugar, water, bitters.',
+      `The Alchemist weighs your ${S.words[0] || 'velvet'} against your ${S.words[1] || 'thunder'}.`,
+      'Names are never invented. They are uncovered.',
+    ];
+    let fi = 0;
+    const fr = document.getElementById('frag');
+    const cycle = () => {
+      if (idx !== 10) return;
+      fr.style.opacity = '0';
+      setTimeout(() => { fr.textContent = frags[fi % frags.length]; fr.style.opacity = '1'; fi++; }, 500);
+    };
+    cycle(); const iv = setInterval(cycle, 2100);
+    setTimeout(() => { clearInterval(iv); stopFx(); next(); }, 6800);
+  }
+},
+
+/* ---------- 11 · THE OVERFLOW REVEAL ---------- */
+{
+  name: 'reveal', light: true, sediment: true, wash: 0, marble: 0,
+  render() {
+    const R = craft();
+    app.appendChild(el(`<div class="stage">
+      <p class="kicker rise" style="animation-delay:1400ms">For ${S.name} — and no one else</p>
+      <div class="reveal-name">${R.name}</div>
+      <p class="narrative rise" style="animation-delay:2600ms">${R.narrative}</p>
+      <div class="rise" style="margin-top:2.4rem;animation-delay:3400ms">
+        <button class="btn btn-dark" id="toCard">Preserve this recipe</button>
+      </div>
+    </div>`));
+    /* the sediment liquid overflows — her strata spill across the paper */
+    const t0 = performance.now();
+    const blobs = S.strata.slice(-8).map((c, i) => ({
+      c, ang: i / 8 * Math.PI * 2 + Math.random(), sp: 0.55 + Math.random() * 0.5, r0: 16 + Math.random() * 22
+    }));
+    const loop = now => {
+      const t = Math.min((now - t0) / 2400, 1);
+      const e = 1 - Math.pow(1 - t, 3);
+      fxx.clearRect(0, 0, W, H);
+      fxx.globalAlpha = 0.16 * (1 - t * 0.5);
+      for (const b of blobs) {
+        const d = e * b.sp * Math.min(W, H) * 0.42;
+        const x = W / 2 + Math.cos(b.ang) * d, y = H * 0.42 + Math.sin(b.ang) * d * 0.7;
+        const g = fxx.createRadialGradient(x, y, 0, x, y, b.r0 + e * 130);
+        g.addColorStop(0, b.c); g.addColorStop(1, b.c + '00');
+        fxx.fillStyle = g;
+        fxx.beginPath(); fxx.arc(x, y, b.r0 + e * 130, 0, 7); fxx.fill();
+      }
+      fxx.globalAlpha = 1;
+      if (t < 1) fxLoop = requestAnimationFrame(loop);
+    };
+    loop(t0);
+    document.getElementById('toCard').onclick = next;
+  }
+},
+
+/* ---------- 12 · THE RECIPE CARD ---------- */
+{
+  name: 'recipe', light: true, sediment: false, wash: 0, marble: 0,
+  render() {
+    const R = craft();
+    app.appendChild(el(`<div class="stage">
+      <div class="kicker rise">The recipe card</div>
+      <div class="card rise" style="animation-delay:200ms">
+        <div class="c-name">${R.name}</div>
+        <div class="c-for">distilled for ${S.name}</div>
+        <ul>${R.ingredients.map(i => `<li><span>${i[0]}</span><span>${i[1]}</span></li>`).join('')}</ul>
+        <p class="method">${R.method}</p>
+        <div class="seal" style="background:${S.seed}"></div>
+      </div>
+      <div class="rise" style="margin-top:1.6rem;animation-delay:420ms">
+        <button class="btn btn-dark" id="dl">Preserve this recipe</button>
+        <button class="ghost" id="again" style="margin-left:1.2rem">( begin again )</button>
+      </div>
+      <p class="whisper rise" id="dlNote" style="margin-top:1rem;opacity:0"></p>
+    </div>`));
+    document.getElementById('dl').onclick = () => {
+      const n = document.getElementById('dlNote');
+      n.textContent = 'in the real build: a calligraphic pdf lands in your downloads';
+      n.style.transition = 'opacity 1s ease'; n.style.opacity = '0.5';
+    };
+    document.getElementById('again').onclick = () => location.reload();
+  }
+}];
+
+/* ── the naming engine — the cocktail visibly comes from her ── */
+function craft() {
+  const p = (k, def = 0.5) => { const key = Object.keys(S.pol).find(x => x.includes(k)); return key ? S.pol[key] : def; };
+  const dreamer = p('Dreamer') > 0.5, night = S.flick['Day–Night'] === 1;
+  const caring = p('Caring') > 0.5, disruptor = p('Disruptor') > 0.5;
+  const base = dreamer ? (night ? ['gin', 'a botanical gin'] : ['tequila', 'a bright blanco tequila'])
+                       : (night ? ['rye', 'a brooding rye'] : ['bourbon', 'a sunlit bourbon']);
+  const sceneNoun = { city: 'Boulevard', sea: 'Tide', forest: 'Hollow', plains: 'Horizon' }[S.scene?.id] || 'Hour';
+  const word = (S.words[0] || 'velvet');
+  const name = 'The ' + word.charAt(0).toUpperCase() + word.slice(1) + ' ' + sceneNoun;
+  const ing = [[base[1], '2 oz']];
+  ing.push(caring ? ['elderflower liqueur', '½ oz'] : ['amaro', '½ oz']);
+  if (disruptor && !S.banished.includes('mezcal smoke')) ing.push(['mezcal, floated', '¼ oz']);
+  ing.push(S.flavors.includes('citrusy') ? ['fresh lime', '¾ oz'] : ['fresh lemon', '¾ oz']);
+  if (S.flavors.includes('sweet')) ing.push(['demerara', '¼ oz']);
+  if (S.flavors.includes('spicy')) ing.push(['ginger, pressed', '2 coins']);
+  if (S.flavors.includes('herbal')) ing.push(['basil, slapped', '3 leaves']);
+  if (S.flavors.includes('bitter')) ing.push(['aromatic bitters', '2 dashes']);
+  if (S.familiarity > 0.65 && !S.banished.includes('egg white')) ing.push(['silk of egg white', '1']);
+  const glassNm = { rocks: 'a heavy rocks glass', coupe: 'a chilled coupe', highball: 'a tall highball' }[S.glass] || 'a chilled coupe';
+  const decisive = S.flickSpeeds.length && (S.flickSpeeds.reduce((a, b) => a + b, 0) / S.flickSpeeds.length < 2600);
+  const narrative =
+    `You cast your droplets ${decisive ? 'before doubt could catch them' : 'the way rain decides — slowly, then all at once'}. ` +
+    `Someone from ${S.scene?.nm || 'somewhere unnamed'} who reaches for <em>${word}</em> when it falls — ${base[0]} was never really a choice; it was waiting. ` +
+    (S.banished.length ? `What you banished stays banished. ` : '') +
+    (S.trueThing ? `And the true thing you told the alchemist — it stays between you. The bitters carry it, quietly.` : `You kept one thing back. The recipe respects that.`);
+  const method = `Stir with intention over clear ice. Strain into ${glassNm}. Garnish with what the ${sceneNoun.toLowerCase()} remembers. Drink while the ink is still wet.`;
+  return { name, ingredients: ing, narrative, method };
+}
+
+/* ── go ────────────────────────────────────────────────────── */
+document.fonts.ready.then(() => { stages[0].bgPaint(); });
+mount();
+stages[0].bgPaint && stages[0].bgPaint();
+</script>
+</body>
+</html>

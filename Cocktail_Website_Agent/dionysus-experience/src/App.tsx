@@ -1,0 +1,435 @@
+import { useEffect, useRef, useState } from 'react';
+import type { Answers, CocktailResult } from './types';
+import { craftCocktail } from './engine/mixology';
+import { personaImageFor } from './data/personas';
+import TheDepths, { type DevJumpTarget, type DevPage } from './components/TheDepths';
+import TheReading from './components/TheReading';
+import NotFound from './components/NotFound';
+import VelvetRope from './components/VelvetRope';
+import { isUnsupportedViewport } from './engine/viewport';
+import { CONNOISSEUR_SAMPLE } from './data/sampleResult';
+import CtaButton from './components/CtaButton';
+import { decodePour, pourFromLocation } from './engine/pourLink';
+
+const BG_IMAGE_1 = "/first.png";
+const BG_IMAGE_2 = "/reveal.png";
+
+// The cursor spotlight: the second world (reveal.png) is painted full-bleed and
+// masked to a soft circle that follows the pointer. The circle is a pure CSS
+// radial-gradient mask positioned by two custom properties (--mx/--my); the
+// smoothed rAF loop in App writes those straight to this element's style, so the
+// spotlight tracks the cursor with zero React re-renders and no canvas readback.
+// Before the first mouse move the origin sits off-screen (-999px), so nothing is
+// revealed — the same cold open as before.
+function RevealLayer({ image, layerRef }: { image: string; layerRef: React.RefObject<HTMLDivElement | null> }) {
+  return (
+    <div
+      ref={layerRef}
+      className="reveal-spotlight absolute inset-0 bg-center bg-cover bg-no-repeat z-30 pointer-events-none"
+      style={{ backgroundImage: `url('${image}')` }}
+    />
+  );
+}
+
+// landing → depths → reading (master spec 2026-07-08 §1). The old quiz/brewing
+// paper phases left the flow, and TheSurfacing's diorama keepsake left with the
+// 2026-07-24 pass: both the owner's reveal (H10) and the friend's arrival (H11)
+// are now TheReading. The retired components are archived under _archive/ (see
+// _archive/README.md) — kept for reference, out of the compiled tree.
+// 'gift' is the fourth door: a #pour= link opens straight onto a friend's
+// keepsake, and its one invitation leads back to the landing.
+// 'notfound' is the poetic 404 (master spec §4): the app is served at '/', so
+// any other pathname is a glass that was never poured. Broken #pour= links keep
+// their deliberate "never strand a guest" return home — the 404 is for routes,
+// not for gifts that failed to decode.
+type Phase = 'landing' | 'depths' | 'gift' | 'reading' | 'notfound';
+
+// The one real route is '/'. Anything else reached the app by mistake.
+const isUnknownRoute = (): boolean =>
+  !pourFromLocation() && window.location.pathname !== '/';
+
+const DEFAULT_ANSWERS: Answers = {
+  name: '',
+  lens: null,
+  answerStyle: null,
+  childhood: null,
+  city: '',
+  age: '',
+  gender: null,
+  color: '#e8702a',
+  colorName: '',
+  colorTouched: false,
+  gravity: {},
+  selfScales: {},
+  personality: null,
+  interpersonal: null,
+  workEthic: null,
+  emotional: null,
+  creativity: null,
+  moodScales: {},
+  texture: {},
+  drawnToward: [],
+  soughtFor: [],
+  styles: [],
+  frequency: null,
+  flavors: [],
+  drinkScales: {},
+  allergies: '',
+  insight: '',
+};
+
+function App() {
+  // a #pour= link opens in the dark and stays there while the payload decodes —
+  // the gift unveils out of that black, the same one-stroke grammar as H9. An
+  // unknown pathname opens straight onto the poetic 404.
+  const [phase, setPhase] = useState<Phase>(() =>
+    pourFromLocation() ? 'gift' : isUnknownRoute() ? 'notfound' : 'landing',
+  );
+  const [leaving, setLeaving] = useState(false);
+  const [descending, setDescending] = useState(false);
+  const [answers, setAnswers] = useState<Answers>(DEFAULT_ANSWERS);
+  const [result, setResult] = useState<CocktailResult | null>(null);
+  // gift mode: the sharer's identity, rebuilt from the link so the reading can
+  // ink their name onto the tag and thread their seed colour as usual
+  const [giftAnswers, setGiftAnswers] = useState<Answers | null>(null);
+
+  // bumped on every arrival so re-entering the same view remounts and replays
+  // the choreography from the top (declared here because the pour effect below
+  // bumps it too)
+  const [readingTake, setReadingTake] = useState(0);
+
+  // A pour can arrive after mount too — pasted into the address bar of an
+  // already-open tab, or followed from a second link — so the decode listens
+  // for hash changes rather than running once and never again.
+  useEffect(() => {
+    let cancelled = false;
+
+    const openPour = () => {
+      const encoded = pourFromLocation();
+      if (!encoded) return;
+      decodePour(encoded).then((pour) => {
+        if (cancelled) return;
+        if (!pour) {
+          // a broken link never strands the guest — the invitation opens instead
+          window.history.replaceState(null, '', window.location.pathname);
+          setPhase('landing');
+          return;
+        }
+        setGiftAnswers({ ...DEFAULT_ANSWERS, name: pour.from, color: pour.color });
+        setResult(pour.result);
+        setReadingTake((n) => n + 1); // remount so the arrival replays from the top
+        setPhase('gift');
+      });
+    };
+
+    openPour();
+    window.addEventListener('hashchange', openPour);
+    return () => {
+      cancelled = true;
+      window.removeEventListener('hashchange', openPour);
+    };
+  }, []);
+
+  // the gift's one invitation: the same descent as the threshold — the veil
+  // darkens over the keepsake, the borrowed pour is shed under the dark, and
+  // she opens at H1 to begin her own ritual
+  const beginOwnJourney = () => {
+    descendIntoDepths(() => {
+      window.history.replaceState(null, '', window.location.pathname);
+      setGiftAnswers(null);
+      setResult(null);
+      setAnswers(DEFAULT_ANSWERS);
+    });
+  };
+
+  const mouse = useRef({ x: -999, y: -999 });
+  const smooth = useRef({ x: -999, y: -999 });
+  const rafRef = useRef<number | undefined>(undefined);
+  const revealRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (phase !== 'landing') return;
+
+    // Write the spotlight origin straight onto the reveal layer's custom
+    // properties — no React state, so the pointer track never re-renders App.
+    const writeSpotlight = (x: number, y: number) => {
+      const el = revealRef.current;
+      if (!el) return;
+      el.style.setProperty('--mx', `${x}px`);
+      el.style.setProperty('--my', `${y}px`);
+    };
+
+    // pointermove (not mousemove) so a mouse or pen still drives this exactly
+    // as before, but the listener isn't silently mouse-only.
+    const handlePointerMove = (e: PointerEvent) => {
+      mouse.current = { x: e.clientX, y: e.clientY };
+      if (smooth.current.x === -999) {
+        smooth.current = { x: e.clientX, y: e.clientY };
+        writeSpotlight(e.clientX, e.clientY);
+      }
+    };
+
+    window.addEventListener('pointermove', handlePointerMove);
+
+    // Touch has no hover, so a static screen never fires pointermove and the
+    // second world (reveal.png) was never uncovered on a phone. Reduced
+    // motion aside, a visitor who never drags gets a slow autonomous drift —
+    // the same device already shipped on the 404's lantern — so the reveal
+    // still happens without asking for a gesture this experience never asks
+    // for elsewhere (desktop-first, no drag interactions).
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const start = performance.now();
+
+    const updateCursor = (now: number) => {
+      if (mouse.current.x !== -999) {
+        smooth.current.x += (mouse.current.x - smooth.current.x) * 0.1;
+        smooth.current.y += (mouse.current.y - smooth.current.y) * 0.1;
+        writeSpotlight(smooth.current.x, smooth.current.y);
+      } else if (!reduced) {
+        const t = (now - start) / 1000;
+        writeSpotlight(
+          window.innerWidth * (0.5 + 0.22 * Math.sin(t * 0.11)),
+          window.innerHeight * (0.5 + 0.16 * Math.sin(t * 0.08 + 1.3)),
+        );
+      }
+      rafRef.current = requestAnimationFrame(updateCursor);
+    };
+
+    rafRef.current = requestAnimationFrame(updateCursor);
+
+    return () => {
+      window.removeEventListener('pointermove', handlePointerMove);
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
+  }, [phase]);
+
+  const updateAnswers = (patch: Partial<Answers>) => {
+    setAnswers((prev) => ({ ...prev, ...patch }));
+  };
+
+  // The descent: the one door into the depths, shared by every entrance —
+  // the landing's threshold and the gift's invitation alike. The veil darkens
+  // over whatever page is leaving, then the depths open at H1. `prepare` runs
+  // under full dark, where any state shedding is invisible.
+  const descendIntoDepths = (prepare?: () => void) => {
+    setLeaving(true);
+    setDescending(true);
+    window.setTimeout(() => {
+      prepare?.();
+      setDevJump(null); // a stale dev jump must never hijack a real descent
+      setPhase('depths');
+      setDescending(false);
+      setLeaving(false);
+    }, 1550);
+  };
+
+  // The rope is checked at the threshold, not on every resize: once she is
+  // inside the depths a rotation must never yank the journey out from under
+  // her. `roped` latches false the moment she chooses to cross anyway.
+  const [roped, setRoped] = useState(false);
+  const beginJourney = () => {
+    if (isUnsupportedViewport()) { setRoped(true); return; }
+    descendIntoDepths();
+  };
+  const crossAnyway = () => { setRoped(false); descendIntoDepths(); };
+
+  // TheDepths fires onPrepare at the letting-go (~1.6s before the handoff):
+  // the result is distilled HERE and the persona image pre-decoded, so the
+  // black-on-black cut into TheSurfacing carries no decode stall — the
+  // emergence starts the instant the black lands (no stop in the flow).
+  // craftCocktail may not be pure, so the prepared result is kept in a ref
+  // and finishDepths reuses it rather than rolling a second one.
+  const preparedResult = useRef<CocktailResult | null>(null);
+  const prepareReveal = () => {
+    const r = craftCocktail(answers);
+    preparedResult.current = r;
+    const meta = personaImageFor(r.primary, r.secondary);
+    const img = new Image();
+    // the reading opens on the wide scene when the persona has one
+    img.src = meta.wide ?? meta.src;
+    img.decode?.().catch(() => { /* decode failure only costs the head start */ });
+  };
+
+  // TheDepths fires this at full black — the reading mounts black-on-black, so
+  // the cut is invisible and the arrival kindles straight out of the breath's
+  // own dark. (The breath's ENGINE SEAM keeps hiding the latency when the real
+  // distillation arrives.)
+  const finishDepths = () => {
+    let r = preparedResult.current ?? craftCocktail(answers);
+    // while persona 4:3 scene images roll out, fall back to the Connoisseur in dev
+    // so the reading always opens on its designed landscape scene (not a portrait
+    // master letterboxed into a full-bleed landscape frame)
+    if (import.meta.env.DEV) {
+      const meta = personaImageFor(r.primary, r.secondary);
+      if (!meta.wide) r = CONNOISSEUR_SAMPLE;
+    }
+    setResult(r);
+    setReadingIntro(true);
+    setReadingTake((n) => n + 1);
+    setPhase('reading');
+  };
+
+  // Dev-only: the reveal's quick-nav sends the journey back to any hold —
+  // TheDepths remounts and lands straight on the target (initialJump).
+  const [devJump, setDevJump] = useState<DevJumpTarget | null>(null);
+  const devNavigate = (target: DevJumpTarget) => {
+    setDevJump(target);
+    setPhase('depths');
+  };
+
+  // Dev-only: H10.5 (the alternate hero→scroll keepsake) plays with a from-black
+  // "fades in with clouds" intro when arrived via H9.5.
+  const [readingIntro, setReadingIntro] = useState(false);
+
+  // Dev-only: H10 opens the cocktail page (the owner's keepsake), H11 the same
+  // keepsake as the invited friend sees it. A result is distilled on the spot
+  // when the journey hasn't produced one yet.
+  const devPage = (page: DevPage) => {
+    // H9.5 / H10.5 — the alternate keepsake, always shown with the built
+    // Connoisseur sample ("The Annotated Serenade") so it reads as designed.
+    if (page === 'reading' || page === 'reading-in') {
+      setResult(CONNOISSEUR_SAMPLE);
+      setReadingIntro(page === 'reading-in');
+      setReadingTake((n) => n + 1);
+      setPhase('reading');
+      return;
+    }
+    // H11 · the friend's arrival, always shown with the Connoisseur sample so the
+    // reading room renders with its designed 4:3 scene and calibrated tag coords.
+    setResult(CONNOISSEUR_SAMPLE);
+    setGiftAnswers({ ...DEFAULT_ANSWERS, name: answers.name.trim() || 'Celeste', color: answers.color });
+    setPhase('gift');
+  };
+
+  const goHome = () => {
+    // clear a share hash or an unknown pathname so the entrance owns a clean '/'
+    if (window.location.hash || window.location.pathname !== '/') {
+      window.history.replaceState(null, '', '/');
+    }
+    setLeaving(false);
+    setDescending(false);
+    setGiftAnswers(null);
+    setPhase('landing');
+  };
+
+  return (
+    <div
+      className={`min-h-screen tracking-[-0.02em] ${phase === 'landing' ? 'bg-[#f4efe6]' : 'bg-[#0d0b09]'}`}
+      style={{ fontFamily: "'Inter', sans-serif" }}
+    >
+
+      <nav className="fixed top-0 left-0 right-0 z-[100] flex items-center justify-between p-5 sm:p-6 pointer-events-none print:hidden">
+        <button
+          type="button"
+          onClick={goHome}
+          className="nav-mark flex items-center gap-2 pointer-events-auto cursor-pointer group hover:opacity-80 transition-opacity focus:outline-none focus-visible:outline-2 focus-visible:outline-[#e8702a] focus-visible:outline-offset-4 focus-visible:rounded-full"
+          aria-label="Return to Dionysus homepage"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" width="24" height="24" style={{ transition: 'all 600ms', color: '#f5ead8' }}>
+            {/* Concept 05: The Zen Coupe */}
+            <path d="M 7.2 20.4 C 8.4 20.4 11.28 19.68 11.28 16.8 L 11.28 13.44 C 7.2 13.44 2.88 11.52 2.88 7.2 C 2.88 6.48 3.36 6 4.32 6 L 19.68 6 C 20.64 6 21.12 6.48 21.12 7.2 C 21.12 11.52 16.8 13.44 12.72 13.44 L 12.72 16.8 C 12.72 19.68 15.6 20.4 16.8 20.4" />
+            <circle cx="12" cy="9.6" r="0.8" fill="currentColor" stroke="none" />
+          </svg>
+          <span className="text-lg font-playfair italic tracking-widest transition-colors duration-700 text-[#f5ead8]">Dionysus</span>
+        </button>
+      </nav>
+
+      {phase === 'landing' && (
+        <section className="relative w-full overflow-hidden h-screen bg-[#0d0b09]" style={{ height: '100dvh' }}>
+          <div
+            className={`absolute inset-0 bg-center bg-cover bg-no-repeat z-10 hero-zoom ${leaving ? 'hero-descend' : ''}`}
+            style={{ backgroundImage: `url('${BG_IMAGE_1}')` }}
+          />
+
+          <RevealLayer image={BG_IMAGE_2} layerRef={revealRef} />
+
+          <div className={`absolute top-[22%] left-5 sm:left-10 md:left-16 lg:left-24 flex flex-col items-start px-5 sm:px-0 pointer-events-none z-50 text-white ${leaving ? 'hero-exit' : ''}`}>
+            <h1 className="flex flex-col items-start font-mincho">
+              <span
+                className="block font-playfair italic font-normal text-xl sm:text-2xl md:text-[1.85rem] text-[#ffb088] hero-anim hero-reveal opacity-95"
+                style={{ letterSpacing: '0.02em', animationDelay: '0.25s' }}
+              >
+                Discover the
+              </span>
+              <span
+                className="block font-normal text-4xl sm:text-5xl md:text-[4rem] mt-1.5 hero-anim hero-reveal text-white"
+                style={{ letterSpacing: '-0.015em', animationDelay: '0.42s', lineHeight: '1.0' }}
+              >
+                Spirit Within
+              </span>
+            </h1>
+
+            <div className="mt-4 sm:mt-5 max-w-[280px] sm:max-w-[350px] hero-anim hero-fade" style={{ animationDelay: '0.7s' }}>
+              <p className="text-xs sm:text-sm text-white/75 leading-relaxed font-light tracking-wide text-pretty">
+                A theatrical journey into your own subconscious. Through an alchemy of questions, we distill your essence into a bespoke, masterfully animated cocktail recipe.
+              </p>
+            </div>
+          </div>
+
+          <div className={`absolute bottom-10 sm:bottom-24 left-5 right-5 sm:left-auto sm:right-10 md:right-16 max-w-full sm:max-w-[320px] flex flex-col items-start sm:items-end text-left sm:text-right gap-6 z-50 hero-anim hero-fade pointer-events-auto ${leaving ? 'hero-exit' : ''}`} style={{ animationDelay: '0.85s' }}>
+            <p className="text-xs sm:text-sm text-white/60 leading-relaxed font-light">
+              Seven depths lie between you and your liquid avatar. Step into the dark and let the oracle pour.
+            </p>
+            <CtaButton onClick={beginJourney}>Cross the Threshold</CtaButton>
+          </div>
+        </section>
+      )}
+
+      {phase === 'depths' && (
+        <TheDepths
+          answers={answers}
+          onUpdate={updateAnswers}
+          onPrepare={prepareReveal}
+          onComplete={finishDepths}
+          initialJump={import.meta.env.DEV ? devJump ?? undefined : undefined}
+          onDevPage={import.meta.env.DEV ? devPage : undefined}
+        />
+      )}
+
+      {/* H10 · the reading. The journey's destination: the cocktail's own room,
+          arriving out of the breath's dark. `key` remounts it when the arrival
+          is re-triggered, so the choreography replays from the top. */}
+      {phase === 'reading' && result && (
+        <TheReading
+          key={`${readingIntro ? 'in' : 'settled'}-${readingTake}`}
+          result={result}
+          seed={answers.color}
+          name={answers.name.trim()}
+          intro={readingIntro}
+          onPourAgain={goHome}
+          onDevJump={import.meta.env.DEV ? devNavigate : undefined}
+          onDevPage={import.meta.env.DEV ? devPage : undefined}
+        />
+      )}
+
+      {/* H11 · the friend's arrival. The same room, but the light in it is hers:
+          it opens on the sharer's name alone in the dark, inks that name onto
+          the tag in her seed colour (master spec §2), and hands the guest the
+          recipe without the reading. While the pour decodes, giftAnswers is null
+          and the frame stays black, so the gift unveils out of that same dark. */}
+      {phase === 'gift' && result && giftAnswers && (
+        <TheReading
+          key={`gift-${readingTake}`}
+          result={result}
+          seed={giftAnswers.color}
+          name={giftAnswers.name.trim()}
+          intro
+          gift
+          onMeetYourOwn={beginOwnJourney}
+          onDevJump={import.meta.env.DEV ? devNavigate : undefined}
+          onDevPage={import.meta.env.DEV ? devPage : undefined}
+        />
+      )}
+
+      {/* the poetic 404 · a glass that was never poured (master spec §4) */}
+      {phase === 'notfound' && <NotFound onHome={goHome} />}
+
+      {/* the velvet rope · the degrade state, never a dead end (master spec §3) */}
+      {roped && <VelvetRope onAnyway={crossAnyway} />}
+
+      {descending && <div className="descent-veil fixed inset-0 z-[80] pointer-events-none" />}
+    </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import openpyxl; print\\('ok'\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(rsync -a --exclude node_modules --exclude dist --exclude dionysus-experience --exclude design-artifacts --exclude .DS_Store --exclude screenshot.png ./ dionysus-experience/)"
+    ]
+  }
+}
