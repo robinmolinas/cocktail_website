@@ -105,6 +105,11 @@ body { font-family: 'Inter', sans-serif; }
   opacity: 0;
   animation: descentVeil 1.2s ease-in 0.2s forwards;
 }
+/* The same veil, surfacing instead of sinking. Every change of world now
+   passes through this one stroke of dark — down into the depths, and back up
+   to the Entrance — rather than the hard cut the return home used to be. */
+@keyframes descentVeilOut { from { opacity: 1; } to { opacity: 0; } }
+.descent-veil-out { opacity: 1; animation: descentVeilOut 0.9s ease-out forwards; }
 
 /* --------------------------- the depths (H1 · the threshold) --------------------------- */
 
@@ -153,8 +158,10 @@ body { font-family: 'Inter', sans-serif; }
   text-shadow: 0 1px 3px #000, 0 0 10px rgba(0, 0, 0, 0.6);
   transition: border-color 0.4s, text-shadow 0.4s;
 }
+/* the prompt is an invitation, not a ghost: at 0.3 it read as disabled grey
+   over the footage. Warm ivory at 0.8 — never pure white (DESIGN.md §6). */
 .depth-input::placeholder {
-  color: rgba(245, 234, 216, 0.3);
+  color: rgba(245, 234, 216, 0.8);
   text-shadow: 0 1px 3px #000, 0 0 10px rgba(0, 0, 0, 0.55);
 }
 .depth-input:focus {
@@ -181,6 +188,62 @@ body { font-family: 'Inter', sans-serif; }
 .depth-continue-on { opacity: 1; pointer-events: auto; }
 .depth-continue:hover { border-color: var(--veil-pill-hover-border); background: var(--veil-pill-hover-bg); }
 .depth-continue:active { transform: scale(0.96); }
+
+/* ===================== the journey's shared vocabulary =====================
+   Nine holds were built one at a time, and each grew its own instruction
+   voice, progress row and confirm label. These three classes are the one
+   grammar all of them now speak, so nothing has to be re-taught per hold. */
+
+/* THE INSTRUCTION VOICE. DESIGN.md §3's Italic Voice Rule: the interface
+   SPEAKS in Playfair italic (the questions) but LABELS in Inter (the "how").
+   Every hint shipped as 13px Playfair at 0.5–0.6 alpha, which read as more
+   poetry and was unreadable over the footage's bright bands. Inter, bigger,
+   0.8 alpha, always with the Darkness Rule's black underlay. */
+.depth-hint {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.5px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: rgba(245, 234, 216, 0.8);
+  text-shadow: 0 1px 3px #000, 0 0 12px rgba(0, 0, 0, 0.85);
+}
+
+/* THE POOL OF NIGHT. H7 already bought its contrast back this way; H4 and H6
+   sit on the same brightness (the cream cloud, the foam ceiling) and had only
+   a text-shadow. DESIGN.md's Darkness Rule: raise contrast by darkening the
+   surround, never by flattening the palette. Anchored to the top band, where
+   every hold keeps its question + hint. */
+.depth-pool {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  /* the box has to outrun the gradient: at 34% tall with a full-height
+     ellipse the fade was still opaque when the element ended, and the clip
+     drew a hard horizontal line across the footage */
+  height: 44%;
+  pointer-events: none;
+  background: radial-gradient(ellipse 62% 54% at 50% 32%,
+    rgba(8, 4, 2, 0.62) 0%, rgba(8, 4, 2, 0.36) 56%, transparent 100%);
+  opacity: 0;
+  animation: traceFadeIn 1.2s ease 0.15s both;
+}
+
+/* THE PROGRESS ROW. One position and one dot for every multi-step hold (H3's
+   five polarities, H4's nine binaries, H5's two questions, H6's three beats).
+   Sits below the confirm pill, so the two never collide. */
+.depth-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 6%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  pointer-events: none;
+}
 
 /* ------------------------------- the six lens bubbles ------------------------------- */
 
@@ -280,12 +343,17 @@ body { font-family: 'Inter', sans-serif; }
 
 /* a droplet of the world itself: glass that refracts the footage,
    the colour glowing inside it rather than painted on top */
+/* Bigger, with a firmer rim. At 44–60px with a 38%-alpha rim, three of the
+   eight (Campari, Aperol, Cassis) sat on the crimson ink cloud this hold
+   freezes on and simply disappeared into it — a choice she could not see was
+   a choice she could not make. (A dark outer halo was tried first and read as
+   a drawn circle — Robin's call — so the size and the rim do the work.) */
 .seed-drop {
   position: relative;
-  width: var(--w, clamp(44px, 7.5vmin, 60px));
+  width: var(--w, clamp(56px, 9vmin, 76px));
   aspect-ratio: 1;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--c) 38%, rgba(255, 235, 200, 0.35));
+  border: 1px solid color-mix(in srgb, var(--c) 60%, rgba(255, 235, 200, 0.5));
   cursor: pointer;
   background:
     radial-gradient(circle at 32% 26%, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.08) 16%, transparent 38%),
@@ -320,7 +388,11 @@ body { font-family: 'Inter', sans-serif; }
   transition: opacity 0.35s ease;
   pointer-events: none;
 }
-.seed-drop:hover .seed-label { opacity: 1; }
+/* The name is the whisper, and hover is not a gesture a phone has: on touch
+   the eight liqueurs went unnamed entirely. The chosen drop now says what it
+   was as it bursts, so every device gets the "oh — that's Aperol" beat. */
+.seed-drop:hover .seed-label,
+.seed-drop.seed-burst .seed-label { opacity: 1; }
 
 @keyframes seedBurst {
   40% { transform: scale(1.35); opacity: 1; filter: blur(0); }
@@ -441,31 +513,21 @@ body { font-family: 'Inter', sans-serif; }
   animation: seedRipple 0.95s ease-out forwards;
 }
 
+/* position only — the voice comes from .depth-hint */
 .grav-hint {
   position: absolute;
   left: 0;
   right: 0;
   top: calc(50% + 58px);
   text-align: center;
-  font-size: 13px;
-  letter-spacing: 0.06em;
-  color: rgba(245, 234, 216, 0.55);
   pointer-events: none;
   animation: heroFadeUp 1s ease 0.7s both;
 }
 
-.grav-dots {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 13%;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-/* progress dots — one language across H3 (gravity) and H4 (hidden self): a
-   7px ringed circle whose active state carries her seed colour. Base shared;
-   per-hold state modifiers (.current/.kept/.secret) live with H4 below. */
+/* progress dots — one language across every multi-step hold: a 7px ringed
+   circle whose active state carries her seed colour. Base shared; per-hold
+   state modifiers (.current/.kept/.secret) live with H4 below. */
+.depth-dot,
 .grav-dot,
 .hidden-dot {
   width: 7px;
@@ -485,31 +547,30 @@ body { font-family: 'Inter', sans-serif; }
   top: 13%;
   text-align: center;
   font-size: clamp(1.15rem, 2.6vmin, 1.5rem);
-  color: rgba(245, 234, 216, 0.85);
-  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.7);
+  color: rgba(245, 234, 216, 0.95);
+  /* the cream ink cloud is the footage's brightest band; the pool of night
+     behind this block does the heavy lifting, the underlay seals the edges */
+  text-shadow: 0 1px 3px #000, 0 2px 20px rgba(0, 0, 0, 0.8);
   pointer-events: none;
   animation: heroFadeUp 0.8s ease both;
 }
 
-/* the practice round's prompt + hint start centered as a pair, then lift out
-   of the way together the instant the embers begin (see .lifted, toggled by
-   paintDrops at PRACTICE_REVEAL_DELAY_MS) */
+/* The teaching beat sits where every other hold keeps its question — top of
+   the frame, inside the pool of night — and stays there while the embers
+   ignite below it. (It used to start centred and lift away at reveal, which
+   moved the one piece of text a first-timer is still reading, and moved it
+   out of the only lit band on this hold.) */
 .practice-text {
   position: absolute;
   left: 50%;
-  top: 42%;
-  transform: translate(-50%, -50%);
+  top: 13%;
+  transform: translate(-50%, 0);
   width: min(560px, 86vw);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
   pointer-events: none;
-  transition: top 1.1s cubic-bezier(0.22, 1, 0.36, 1), transform 1.1s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.practice-text.lifted {
-  top: 13%;
-  transform: translate(-50%, 0);
 }
 .practice-text .hidden-q,
 .practice-text .hidden-hint {
@@ -518,44 +579,52 @@ body { font-family: 'Inter', sans-serif; }
 
 .ember-field { position: absolute; inset: 0; pointer-events: none; }
 
-/* twin embers — H3's mote language, given a word to carry. idle: a heartbeat
-   pulse. dimming: the pulse weakens as it shrinks and cools toward a dead
-   coal — not a melt. caught: flares white-hot and bursts ([data-caught]
-   below gates the transition so the 60fps rAF paint never fights CSS). */
+/* twin embers — H3's mote language, given a word to carry. Rev 3 (Robin,
+   2026-09-18): the WORD is the ember. It had been a 38px bead with a 14px
+   caption under it, so the most important thing on the hold was the smallest
+   thing on it — and a draining ring around the bead was tried and rejected as
+   a clock. Now each choice is set large in the journey's own voice, on a soft
+   pool of its seed colour, and the cooling happens to the word itself: its
+   halo draws in, it dims and shrinks a little toward a dead coal. The thing
+   she is reading is the thing that is dying, so nothing else has to say so.
+   ([data-caught] gates the transitions so the 60fps rAF paint never fights
+   CSS.) */
 .ember {
   position: absolute;
   top: 44%;
   left: var(--x);
-  width: clamp(88px, 14vmin, 116px);
-  height: clamp(96px, 15vmin, 124px);
+  width: min(42vw, 320px);
   transform: translate(-50%, -50%);
   opacity: 0;
   border: none;
   background: none;
+  padding: 18px 8px;
   cursor: pointer;
   pointer-events: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 11px;
+  display: grid;
+  place-items: center;
 }
+.ember[data-caught] { transition: opacity 0.42s ease; }
 
-.ember-core {
-  width: 38px;
-  height: 38px;
+/* the ember under the word: a blurred pool of her seed colour that breathes
+   with the heartbeat and draws in as the round cools */
+.ember-glow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: clamp(120px, 20vmin, 190px);
+  height: clamp(54px, 9vmin, 84px);
   border-radius: 50%;
-  background: radial-gradient(circle at 38% 32%, rgba(255, 255, 255, 0.95) 0%, color-mix(in srgb, var(--c) 80%, white) 32%, var(--c) 62%, color-mix(in srgb, var(--c) 35%, transparent) 100%);
-  box-shadow: 0 0 24px 2px var(--c), 0 0 64px -8px var(--c);
-  transform: scale(var(--ember-scale, 1));
-  filter: brightness(var(--ember-glow, 1)) saturate(var(--ember-glow, 1));
+  transform: translate(-50%, -50%) scale(var(--ember-scale, 1));
+  background: radial-gradient(ellipse at 50% 50%,
+    color-mix(in srgb, var(--c) 78%, white) 0%,
+    color-mix(in srgb, var(--c) 55%, transparent) 38%,
+    transparent 72%);
+  filter: blur(14px) brightness(var(--ember-glow, 1)) saturate(var(--ember-glow, 1));
+  opacity: 0.85;
+  pointer-events: none;
 }
-.ember:hover .ember-core { filter: brightness(1.15) saturate(1.1); }
-
-/* the catch: the chosen ember flares and bursts, then the whole thing dissolves */
-.ember[data-caught='1'] .ember-core {
-  transition: transform 0.5s cubic-bezier(0.2, 0, 0.4, 1), opacity 0.42s ease, filter 0.35s ease;
-}
+.ember:hover .ember-glow { filter: blur(14px) brightness(1.2) saturate(1.15); }
 
 .ember-word {
   position: relative;
@@ -563,23 +632,35 @@ body { font-family: 'Inter', sans-serif; }
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 500;
-  font-size: clamp(14px, 2vmin, 17px);
-  line-height: 1.15;
+  font-size: clamp(1.55rem, 3.4vmin, 2.3rem);
+  line-height: 1.12;
   text-align: center;
-  padding: 0 8px;
+  text-wrap: balance;
   color: #fbf4e8;
-  text-shadow: 0 1px 3px #000, 0 0 14px rgba(0, 0, 0, 0.95), 0 0 26px rgba(0, 0, 0, 0.7);
+  /* the word cools too: shrinks a little, dims, and its seed-coloured halo
+     draws in to nothing as --ember-glow / --ember-scale run down. It never
+     goes below ~60% brightness while the round is live — she can still
+     catch a word late, she just has to want to. */
+  transform: scale(calc(0.86 + var(--ember-scale, 1) * 0.14));
+  filter: brightness(calc(0.55 + var(--ember-glow, 1) * 0.45));
+  text-shadow:
+    0 1px 3px #000, 0 0 16px rgba(0, 0, 0, 0.95),
+    0 0 calc(22px * var(--ember-glow, 1)) color-mix(in srgb, var(--c) 70%, transparent);
   pointer-events: none;
 }
 
+/* the catch: the chosen word flares and is gone; the other finishes cooling */
+.ember[data-caught='1'] .ember-glow,
+.ember[data-caught='1'] .ember-word {
+  transition: transform 0.5s cubic-bezier(0.2, 0, 0.4, 1), filter 0.35s ease;
+}
+
+/* position only — the voice comes from .depth-hint */
 .hidden-hint {
   position: absolute;
   left: 0; right: 0;
   bottom: 20%;
   text-align: center;
-  font-size: 13px;
-  letter-spacing: 0.04em;
-  color: rgba(245, 234, 216, 0.5);
   pointer-events: none;
   animation: heroFadeUp 1s ease both; /* delay set inline — see PRACTICE_HINT_DELAY_MS */
 }
@@ -624,15 +705,6 @@ body { font-family: 'Inter', sans-serif; }
   outline-offset: 3px;
 }
 
-.hidden-dots {
-  position: absolute;
-  left: 0; right: 0;
-  bottom: 11%;
-  display: flex;
-  justify-content: center;
-  gap: 9px;
-  pointer-events: none;
-}
 /* H4's resting dot is a hollow ring; H3 sets its border colour inline */
 .hidden-dot { border-color: rgba(255, 235, 200, 0.28); }
 .hidden-dot.current { border-color: var(--c); box-shadow: 0 0 8px -1px var(--c); }
@@ -650,87 +722,109 @@ body { font-family: 'Inter', sans-serif; }
    TheDepths.tsx for why both earlier revs got replaced. */
 .res-stage { z-index: 30; }
 
+/* THE CLUSTER. Rev 4.1 — Robin: the first cut spread the nine spheres at
+   fixed percentages across the whole frame, which read as a grid and sat
+   still. This is the lens grid's sibling: close, centred, and riding the lens
+   bubbles' own desynced currents, so it reads as something found floating. */
+.res-cluster {
+  position: absolute;
+  left: 50%;
+  top: 51%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 0.75rem 1.25rem;
+  justify-items: center;
+}
+.res-drift { animation: lensDriftA 6.2s ease-in-out infinite alternate; }
+.res-drift:nth-child(1) { margin-top: 14px; animation-duration: 5.4s; animation-delay: -1.2s; }
+.res-drift:nth-child(2) { margin-top: -10px; animation-name: lensDriftB; animation-duration: 6.8s; animation-delay: -3.1s; }
+.res-drift:nth-child(3) { margin-top: 18px; animation-duration: 7.3s; animation-delay: -0.6s; }
+.res-drift:nth-child(4) { margin-top: -6px; animation-name: lensDriftB; animation-duration: 5.9s; animation-delay: -2.4s; }
+.res-drift:nth-child(5) { margin-top: 12px; animation-duration: 6.5s; animation-delay: -4.0s; }
+.res-drift:nth-child(6) { margin-top: -14px; animation-name: lensDriftB; animation-duration: 7.7s; animation-delay: -1.8s; }
+.res-drift:nth-child(7) { margin-top: -8px; animation-name: lensDriftB; animation-duration: 6.1s; animation-delay: -0.9s; }
+.res-drift:nth-child(8) { margin-top: 16px; animation-duration: 7.0s; animation-delay: -2.9s; }
+.res-drift:nth-child(9) { margin-top: -12px; animation-name: lensDriftB; animation-duration: 5.6s; animation-delay: -3.6s; }
+.res-sealing .res-drift { animation-play-state: paused; }
+
 /* words condense out of the liquid: blur settles as they arrive */
 @keyframes resGlintIn { from { opacity: 0; filter: blur(5px); } to { opacity: 1; filter: blur(0); } }
 .res-glint {
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  transform: translate(-50%, -50%);
   border: none;
   background: none;
   padding: 6px;
   cursor: pointer;
-  pointer-events: auto;
   opacity: 0;
   animation: resGlintIn 0.9s ease var(--d) both;
 }
 
-/* drift lives on an inner wrapper so it never fights the centering transform */
-@keyframes resDrift {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(4px, -6px); }
-  100% { transform: translate(-3px, 4px); }
+/* SEALING. The chosen bubbles surface — each rises and dissolves a beat
+   apart (--k), like the fizz it has been shedding; the rest let go where they
+   are. Both are animations rather than inline styles because resGlintIn's
+   `both` fill would otherwise out-cascade an inline opacity. */
+@keyframes resSurface {
+  from { opacity: 1; transform: none; filter: blur(0); }
+  to { opacity: 0; transform: translateY(-78px) scale(0.94); filter: blur(3px); }
 }
-.res-drift {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 7px;
-  animation: resDrift var(--drift) ease-in-out infinite alternate;
-}
-.res-sealing .res-drift { animation-play-state: paused; }
+.res-glint.res-surface { animation: resSurface 1.05s cubic-bezier(0.3, 0, 0.55, 1) var(--k, 0ms) both; pointer-events: none; }
+/* explicit `from`s: the exit replaces resGlintIn, so the underlying opacity
+   is the base 0 and an implicit start would snap the bubble away unseen */
+@keyframes resDissolve { from { opacity: 1; } to { opacity: 0; filter: blur(2px); } }
+@keyframes resDissolveDim { from { opacity: 0.42; filter: saturate(0.55); } to { opacity: 0; filter: saturate(0.55) blur(2px); } }
+.res-glint.res-dissolve { animation: resDissolve 0.55s ease both; pointer-events: none; }
+.res-glint.res-dissolve-dim { animation: resDissolveDim 0.55s ease both; pointer-events: none; }
 
-/* the bubble: a thin ring of surface tension with a bright refractive
-   highlight at its shoulder — mostly see-through, never a filled bead (that
-   read as a bead of colour, not something buoyant) and never a pinprick
-   (that read as a star). the shimmer is a slow wobble, not a twinkle. */
-@keyframes resShimmer { 0%, 100% { opacity: 0.45; transform: scale(1); } 50% { opacity: 0.78; transform: scale(1.08); } }
-.res-dot {
+/* THE BUBBLE. Rev 4, and the reason for it: these two are the journey's most
+   important questions, and they were asked as fourteen hand-scattered 14px
+   labels on the darkest frame in the film — nothing said "these are choices".
+   The word now sits inside the Glass Sphere the journey already uses for
+   choosing (H1's lenses, H6's flavours), so H1 / H5 / H6 are one affordance.
+   The fizz on catch is unchanged; it is the flourish, no longer the only
+   feedback. */
+.res-bubble {
   position: relative;
-  width: 13px;
-  height: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(94px, 11.5vw, 124px);
+  aspect-ratio: 1;
   border-radius: 50%;
-  border: 1.1px solid rgba(255, 246, 232, 0.4);
-  background: radial-gradient(circle at 30% 26%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.05) 32%, transparent 65%);
-  animation: resShimmer var(--shim) ease-in-out infinite;
-  transition: border-color 0.35s ease, background 0.35s ease, box-shadow 0.35s ease;
+  padding: 0 11px;
+  text-align: center;
+  border: 1px solid var(--sphere-rim);
+  background: var(--sphere-fill);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  box-shadow: var(--sphere-shadow);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease,
+    background 0.35s ease, box-shadow 0.35s ease;
 }
-.res-dot::before {
-  /* a second, fainter rim just outside — the bubble catching stray light */
-  content: '';
-  position: absolute;
-  inset: -4px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 246, 232, 0.14);
-  opacity: 0.7;
+.res-glint:hover .res-bubble {
+  border-color: var(--sphere-hover-rim);
+  box-shadow: var(--sphere-hover-shadow);
+  transform: scale(1.06);
 }
-.res-glint:hover .res-dot { transform: scale(1.15); }
 
 .res-word {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 500;
-  font-size: clamp(14px, 2.1vmin, 17px);
+  font-size: clamp(13.5px, 1.75vmin, 16px);
+  line-height: 1.25;
   letter-spacing: 0.015em;
-  white-space: nowrap;
-  padding: 2px 11px;
   color: #faf3e6;
-  /* the nightfall veil (TheDepths.tsx, resonance-only layer) carries the
-     legibility now — no pocket behind the word, just the word in the dark */
-  text-shadow: 0 1px 3px #000, 0 0 14px rgba(0, 0, 0, 0.95), 0 0 28px rgba(0, 0, 0, 0.7);
+  text-shadow: 0 1px 3px #000, 0 0 14px rgba(0, 0, 0, 0.95);
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
-/* caught: the bubble ignites in her seed colour and starts fizzing — the
-   stream itself is drawn on canvas, rising continuously from here */
-.res-glint.res-lit .res-dot {
-  border-color: color-mix(in srgb, var(--c) 75%, white);
-  background: radial-gradient(circle at 30% 26%, rgba(255, 255, 255, 0.85) 0%, color-mix(in srgb, var(--c) 55%, transparent) 45%, color-mix(in srgb, var(--c) 18%, transparent) 100%);
-  box-shadow: 0 0 14px -2px var(--c), inset 0 0 6px rgba(255, 255, 255, 0.4);
-}
-.res-glint.res-lit .res-dot::before {
-  border-color: color-mix(in srgb, var(--c) 45%, transparent);
+/* caught: the sphere ignites in her seed colour, swells, and starts fizzing —
+   the stream itself is drawn on canvas, rising continuously from here */
+.res-glint.res-lit .res-bubble {
+  border-color: color-mix(in srgb, var(--c) 70%, white);
+  background: radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.08) 38%, color-mix(in srgb, var(--c) 22%, transparent) 100%);
+  box-shadow: inset 0 1px 16px rgba(255, 235, 200, 0.16), 0 0 32px -6px var(--c);
+  transform: scale(1.1);
 }
 .res-glint.res-lit .res-word {
   color: #fffaf0;
@@ -740,79 +834,78 @@ body { font-family: 'Inter', sans-serif; }
 /* at three, the unchosen recede a little */
 .res-glint.res-dim { opacity: 0.42; filter: saturate(0.55); transition: opacity 0.5s ease, filter 0.5s ease; }
 
-/* the field is full — a gentle refusal, not an error */
-@keyframes resRefuse { 0%, 100% { transform: translate(-50%, -50%); } 25% { transform: translate(calc(-50% - 4px), -50%); } 60% { transform: translate(calc(-50% + 3px), -50%); } }
-.res-glint.res-refuse { animation: resRefuse 0.42s ease; }
+/* the field is full — a gentle refusal, not an error (on the sphere, not the
+   button: the button's own entrance animation would restart if replaced) */
+@keyframes resRefuse { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-4px); } 60% { transform: translateX(3px); } }
+.res-glint.res-refuse .res-bubble { animation: resRefuse 0.42s ease; }
 
+/* position only — the voice comes from .depth-hint */
 .res-sub {
   position: absolute;
   left: 0; right: 0;
   top: 13%;
-  margin-top: 40px;
+  margin-top: 42px;
   text-align: center;
-  font-size: 13px;
-  letter-spacing: 0.05em;
-  color: rgba(245, 234, 216, 0.6);
   pointer-events: none;
   animation: heroFadeUp 1s ease 0.5s both;
 }
 
+/* THE CONFIRM. One affordance for "I am done with this hold", on every hold:
+   the Veil pill the journey opened with (H1's), in one place, saying one
+   word. It shipped as five different lowercase italic captions in three
+   different forms — "let it resonate", "carry it forward", "seal the glass"
+   — so the way onward had to be found again at each hold. */
 .res-seal {
   position: absolute;
-  left: 0; right: 0;
+  left: 50%;
+  right: auto;
   bottom: 14%;
-  border: none;
-  background: none;
+  transform: translateX(-50%);
+  width: fit-content;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
   text-align: center;
-  font-size: clamp(15px, 2.1vmin, 18px);
-  letter-spacing: 0.05em;
-  color: var(--candle-ivory);
+  color: rgba(245, 234, 216, 0.78);
+  border: 1px solid var(--veil-pill-border);
+  border-radius: 999px;
+  padding: 0.6rem 1.9rem;
+  background: var(--veil-pill-bg);
+  backdrop-filter: blur(4px);
   cursor: pointer;
-  transition: opacity 0.7s ease, text-shadow 0.7s ease, letter-spacing 0.4s ease;
+  transition: opacity 0.6s ease, border-color 0.4s ease, background 0.4s ease, transform 0.3s ease;
 }
-.res-seal:hover { letter-spacing: 0.09em; }
+.res-seal:hover { border-color: var(--veil-pill-hover-border); background: var(--veil-pill-hover-bg); }
+.res-seal:active { transform: translateX(-50%) scale(0.96); }
+/* she has picked her full three — the pill warms to say so */
+.res-seal-ready {
+  color: #fffaf0;
+  border-color: color-mix(in srgb, var(--c) 55%, rgba(255, 246, 228, 0.3));
+  box-shadow: 0 0 22px -6px var(--c);
+}
 
 /* the caught bubbles gather, then rise together to break the surface — a
    quick, bright pop at the very end (the surface tension giving way), not a
    star ascending and not a plume dissolving. */
-@keyframes resRise {
-  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.6); }
-  14% { opacity: 1; transform: translate(-50%, -50%) scale(1.05); }
-  80% { opacity: 0.95; transform: translate(-50%, calc(-50% - 32vh)) scale(1.15); }
-  100% { opacity: 0; transform: translate(-50%, calc(-50% - 36vh)) scale(2.4); }
-}
-.res-rise {
-  position: fixed;
-  width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  border: 1.4px solid color-mix(in srgb, var(--c) 75%, white);
-  background: radial-gradient(circle at 30% 26%, rgba(255, 255, 255, 0.9) 0%, color-mix(in srgb, var(--c) 45%, transparent) 45%, transparent 78%);
-  box-shadow: 0 0 18px -2px var(--c);
-  pointer-events: none;
-  z-index: 40;
-  animation: resRise 1.1s cubic-bezier(0.3, 0, 0.55, 1) forwards;
-}
-
 /* stillness for those who ask for it: the effervescence appears composed,
    not choreographed — dust renders static and no streams or bursts fire via
    the canvas' own reduced-motion branch */
 @media (prefers-reduced-motion: reduce) {
   .res-drift { animation: none; }
-  .res-dot { animation: none; }
   .res-glint { animation-duration: 0.2s; }
-  .res-rise { animation-duration: 0.4s; }
+  .res-glint.res-surface, .res-glint.res-dissolve { animation-duration: 0.2s; animation-delay: 0s; }
 }
 
-/* Portrait: fourteen words have to stack in one phone screen, so the glint's
-   vertical footprint (57px desktop — dot + 7px gap + word + 6px padding) is
-   what decides whether neighbouring tap targets collide. Sit the dot beside
-   the word instead of above it: the row halves in height, the glint stays a
-   comfortably large target, and the star still reads as the thing being lit. */
+/* Portrait: nine spheres in a 3×3, so the only thing to tune is the sphere's
+   own diameter — three of them plus gutters have to clear 375px. */
 @media (max-width: 640px) {
-  .res-drift { flex-direction: row; gap: 5px; }
-  .res-glint { padding: 4px 6px; }
-  .res-dot { width: 9px; height: 9px; }
+  .res-cluster { gap: 0.55rem 0.7rem; }
+  .res-glint { padding: 3px; }
+  .res-bubble { width: clamp(84px, 25vw, 104px); }
+  .res-word { font-size: clamp(12.5px, 3.3vw, 14px); }
 }
 
 /* -------------------------------- the pour (H6 · the finish) -------------------------------- */
@@ -851,10 +944,10 @@ body { font-family: 'Inter', sans-serif; }
   animation: heroFadeUp 0.9s ease both;
 }
 .fin-glass-label {
-  font-size: clamp(12px, 1.7vmin, 14.5px);
   white-space: nowrap;
-  color: rgba(245, 234, 216, 0.7);
-  text-shadow: 0 1px 3px #000, 0 0 12px rgba(0, 0, 0, 0.8);
+  /* these name the four glasses over the foam band — the brightest strip in
+     the film — so they carry the instruction voice, not a 12px whisper */
+  color: rgba(245, 234, 216, 0.88);
   transition: color 0.3s ease;
   pointer-events: none;
 }
@@ -1151,31 +1244,14 @@ body { font-family: 'Inter', sans-serif; }
   animation: traceFadeIn 1s ease 0.45s both;
 }
 .trace-input { width: 100%; font-size: clamp(1.1rem, 2.5vmin, 1.45rem); }
-/* the shared placeholder tint drowns on this hold even over the pool — lift it */
-.trace-input::placeholder { color: rgba(245, 234, 216, 0.55); }
 
-/* the seal wears the threshold's pill here — same affordance the journey
-   opened with, so "let it settle" / "leave nothing but tonight" reads as
-   the way onward, not a stray caption (kept italic and lowercase; the
-   uppercase tracked treatment belongs to the threshold alone) */
-.trace-stage .res-seal {
-  left: 50%;
-  right: auto;
-  transform: translateX(-50%);
-  width: fit-content;
-  /* the Veil button, but on a dark pool rather than the frosted white: this
-     hold sits on the footage's brightest band, so the resting backing has to
-     darken for contrast. The warm ember hover is the shared token below. */
-  border: 1px solid rgba(255, 246, 228, 0.22);
-  border-radius: 999px;
-  padding: 0.55rem 1.7rem;
-  background: rgba(10, 5, 2, 0.3);
-  backdrop-filter: blur(4px);
-  transition: opacity 0.7s ease, border-color 0.4s ease, background 0.4s ease, letter-spacing 0.4s ease;
-}
-.trace-stage .res-seal:hover {
-  border-color: var(--veil-pill-hover-border);
-  background: var(--veil-pill-hover-bg);
+/* the shared pill, with a darker backing: this hold and H6 sit on the
+   footage's brightest band, so the resting fill has to darken rather than
+   frost. The warm ember hover is the shared token. */
+.trace-stage .res-seal,
+.fin-stage .res-seal {
+  border-color: rgba(255, 246, 228, 0.22);
+  background: rgba(10, 5, 2, 0.34);
 }
 
 /* the trace settles into the drink — one soft bloom, centered on the line */
@@ -1541,7 +1617,9 @@ body { font-family: 'Inter', sans-serif; }
 .tr-intro .tr-frame { animation: tr-open 7s var(--ease) both calc(0.3s + var(--greet)),
     tr-ken 52s ease-in-out infinite alternate calc(7.3s + var(--greet)); }
 .tr-intro .tr-haze, .tr-intro .tr-candle { opacity: 0; animation: tr-fadein 3s ease both calc(0.9s + var(--greet)); }
-.tr-intro .tr-hero-inner > * { --stage: calc(3.1s + var(--greet)); }
+/* 3.7s, not 3.1s: the name is inked at 2.4s (TheReading.tsx), so the title
+   now rises after the drink has been claimed rather than before it */
+.tr-intro .tr-hero-inner > * { --stage: calc(3.7s + var(--greet)); }
 .tr-intro::after { content: ''; position: fixed; inset: 0; z-index: 40; background: var(--night);
   pointer-events: none; animation: tr-blackout 2.4s ease forwards var(--greet); }
 @keyframes tr-fadein { from { opacity: 0; } to { opacity: 1; } }
@@ -1723,10 +1801,42 @@ body { font-family: 'Inter', sans-serif; }
 }
 
 /* -------- TheReading print: flatten the room to ink on warm white -------- */
+/* the printed keepsake's plate — screen-only hidden, print-only shown. The
+   scene itself is a fixed full-bleed background, so print has to be handed
+   its own copy of the drink or the PDF opens on a title and no cocktail. */
+.tr-print-plate { display: none; }
+
 @media print {
   .tr-root { background: var(--paper) !important; color: var(--ink); min-height: auto; }
   /* the full-bleed scene, stage overlays, and arrival veil are visual-only */
   .tr-stage, .tr-intro::after, .tr-greet { display: none !important; }
+  /* …so the drink is printed here instead, at the head of the page */
+  .tr-print-plate {
+    display: block !important;
+    margin: 0 0 1.6rem;
+    break-inside: avoid;
+    break-after: avoid;
+  }
+  .tr-print-plate img {
+    display: block;
+    width: 100%;
+    max-width: 88mm;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  /* who it was poured for — the tag is part of the hidden scene, so the
+     dedication has to be set as type on the page */
+  .tr-print-for {
+    margin: 1.1rem 0 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold) !important;
+  }
   /* hero: unfix, show as a printed title block */
   .tr-hero {
     position: static !important; max-width: 100% !important;
@@ -1738,6 +1848,8 @@ body { font-family: 'Inter', sans-serif; }
   .tr-title { color: var(--ink) !important; text-shadow: none !important; font-size: 2.2rem !important; }
   .tr-for   { color: #3a342a !important; text-shadow: none !important; }
   .tr-cue   { display: none !important; }
+  /* the plate's caption already carries it, directly under the drink */
+  .tr-kicker-for { display: none !important; }
   /* spacer collapses — the reading follows directly below the title */
   .tr-spacer { display: none !important; }
   /* reading column: full width, light ink */

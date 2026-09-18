@@ -19,8 +19,6 @@ import CtaButton from './CtaButton';
 import { pourLinkFor } from '../engine/pourLink';
 
 
-const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-
 /** One layer of weather. Fractal noise, warmed and blurred into billows. */
 function Cloud({ id, cls, freq, octaves, seed, blur, slope, intercept, rgb }: {
   id: string; cls: string; freq: string; octaves: number; seed: number;
@@ -199,15 +197,17 @@ export default function TheReading({
     };
   }, [bgPosX, bgPosYPreferred, inkName, tagBox]);
 
-  // Trigger the ink after the arrival sequence settles. Matching the CSS timing:
-  // 5.4 s base + 2.9 s greeting hold for the gift view.
-  // Still Water stops the animation but the clock has to shorten with it —
-  // otherwise she waits 5.4 s (8.3 s as a guest) at a frozen scene for a name
-  // that is no longer being drawn. Master spec's twin is ~2.7 s.
+  // Trigger the ink as the room is still kindling — BEFORE the title rises
+  // (.tr-intro .tr-hero-inner holds at 3.7 s). The name is the one personal
+  // thing in the frame, so it should be the first thing to resolve and the
+  // title should read as its caption: she used to watch the cocktail arrive,
+  // then be named, then wait while her own name was written last (2026-09-18
+  // review). Still Water stops the animation but the clock has to shorten
+  // with it — master spec's twin is ~2.7 s.
   useEffect(() => {
     if (!intro) return;
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const delay = reduced ? (gift ? 2700 : 1400) : 5400 + (gift ? 2900 : 0);
+    const delay = reduced ? (gift ? 2700 : 1400) : 2400 + (gift ? 2900 : 0);
     const t = window.setTimeout(() => setNamed(true), delay);
     return () => clearTimeout(t);
   }, [intro, gift]);
@@ -254,7 +254,7 @@ export default function TheReading({
       ta.remove();
     }
     // never a raw error (master spec §2) — the failure stays in the world
-    setShareNote(copied ? 'The link is yours' : 'The ink would not take — try once more');
+    setShareNote(copied ? 'Link copied' : 'The ink would not take — try once more');
     setTimeout(() => setShareNote(null), 2200);
   };
 
@@ -309,10 +309,27 @@ export default function TheReading({
 
       {/* ---- the poster hero ---- */}
       <main>
+      {/* The printed keepsake's plate. The room itself is a fixed full-bleed
+          background that print has to hide, so without this the saved PDF
+          opened on a title and no cocktail at all (2026-09-18 review). The
+          portrait master is the one that prints — it is the whole scene, not
+          the landscape crop — and the dedication is set as type here because
+          the inked tag belongs to the hidden scene above. */}
+      <figure className="tr-print-plate">
+        <img src={meta.src} alt={`${result.cocktailName}, poured by Dionysus`} />
+        {inkName ? <figcaption className="tr-print-for">Poured for {inkName}</figcaption> : null}
+      </figure>
       <header className="tr-hero">
         <div className="tr-hero-inner">
           {/* nbsp binds the separator to the name so it never orphans onto line 2 */}
-          <p className="tr-kicker">{result.archetypeName}{'\u00A0·'} {cap(result.primary)} × {cap(result.secondary)}</p>
+          {/* the archetype, not the engine's pairing key: "SAGE × LOVER" is
+              how the result is computed, not anything the reader asked for */}
+          <p className="tr-kicker">
+            {result.archetypeName}
+            {/* print carries the dedication under the plate instead, so it is
+                not said twice on one page */}
+            {inkName ? <span className="tr-kicker-for">{'\u00A0·'} poured for {inkName}</span> : null}
+          </p>
           <h1 className="tr-title">{result.cocktailName}</h1>
           <p className="tr-for">{result.tagline}</p>
           <a className="tr-cue" href="#tr-reading">
@@ -383,27 +400,27 @@ export default function TheReading({
               </CtaButton>
             ) : (
               <>
+                {/* The journey earns its poetry; its toolbar does not. These
+                    three used to read "Preserve this recipe", "Send it on" and
+                    "Pour again, another night", which left the one moment she
+                    needs to act rather than feel written in riddles. */}
                 <CtaButton arrow={false} onClick={() => window.print()}>
-                  Preserve this recipe
+                  Save the recipe
                 </CtaButton>
                 <CtaButton arrow={false} onClick={shareKeepsake}>
-                  {shareNote ?? 'Send it on'}
+                  {shareNote ?? 'Share'}
                 </CtaButton>
+                {onPourAgain && (
+                  <CtaButton arrow={false} onClick={onPourAgain}>
+                    Start again
+                  </CtaButton>
+                )}
               </>
             )}
           </div>
-          {/* The owner's coda. Without it the journey's last impression is a
-              toolbar — the guest's view ended on a real invitation and the
-              owner's did not. One line to close the ritual, one quiet way
-              back to the door. */}
-          {!gift && onPourAgain && (
-            <p className="tr-coda">
-              The ink has settled.
-              <button type="button" className="tr-coda-door" onClick={onPourAgain}>
-                Pour again, another night
-              </button>
-            </p>
-          )}
+          {/* The owner's coda: the ritual's closing line, now that the way
+              back out lives in the buttons above it. */}
+          {!gift && onPourAgain && <p className="tr-coda">The ink has settled.</p>}
         </div>
       </section>
       </main>

@@ -325,7 +325,10 @@ export function craftCocktail(answers: Answers): CocktailResult {
 
   // ---------- the mixologist ----------
   const spirit = SPIRITS[primary];
-  const zeroProof = answers.frequency === 'Never' || /alcohol/i.test(answers.allergies);
+  // H7's "how often does a cocktail find you?" was removed in the 2026-09-18
+  // pass; its only effect on the drink was this branch, and H6's own "Alcohol"
+  // veto already produces it.
+  const zeroProof = /alcohol/i.test(answers.allergies);
   const long = (answers.drinkScales.long ?? 50) > 58;
   const carbonated = (answers.drinkScales.carbonated ?? 50) > 55;
   const complex = (answers.drinkScales.complex ?? 50) > 60;

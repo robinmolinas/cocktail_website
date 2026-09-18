@@ -71,7 +71,6 @@ const DEFAULT_ANSWERS: Answers = {
   drawnToward: [],
   soughtFor: [],
   styles: [],
-  frequency: null,
   flavors: [],
   drinkScales: {},
   allergies: '',
@@ -86,7 +85,9 @@ function App() {
     pourFromLocation() ? 'gift' : isUnknownRoute() ? 'notfound' : 'landing',
   );
   const [leaving, setLeaving] = useState(false);
-  const [descending, setDescending] = useState(false);
+  // 'in' sinks the world into the dark, 'out' surfaces the next one from it.
+  // Every change of world passes through this one veil.
+  const [descending, setDescending] = useState<null | 'in' | 'out'>(null);
   const [answers, setAnswers] = useState<Answers>(DEFAULT_ANSWERS);
   const [result, setResult] = useState<CocktailResult | null>(null);
   // gift mode: the sharer's identity, rebuilt from the link so the reading can
@@ -213,12 +214,12 @@ function App() {
   // under full dark, where any state shedding is invisible.
   const descendIntoDepths = (prepare?: () => void) => {
     setLeaving(true);
-    setDescending(true);
+    setDescending('in');
     window.setTimeout(() => {
       prepare?.();
       setDevJump(null); // a stale dev jump must never hijack a real descent
       setPhase('depths');
-      setDescending(false);
+      setDescending(null);
       setLeaving(false);
     }, 1550);
   };
@@ -301,15 +302,23 @@ function App() {
     setPhase('gift');
   };
 
+  // The way back out. It used to be a hard cut straight to the Entrance —
+  // the one transition in the experience that wasn't a transition. Now it
+  // wears the same veil as the way in, sinking before the Entrance surfaces.
   const goHome = () => {
-    // clear a share hash or an unknown pathname so the entrance owns a clean '/'
-    if (window.location.hash || window.location.pathname !== '/') {
-      window.history.replaceState(null, '', '/');
-    }
     setLeaving(false);
-    setDescending(false);
-    setGiftAnswers(null);
-    setPhase('landing');
+    setDescending('in');
+    window.setTimeout(() => {
+      // clear a share hash or an unknown pathname so the entrance owns a clean '/'
+      if (window.location.hash || window.location.pathname !== '/') {
+        window.history.replaceState(null, '', '/');
+      }
+      setGiftAnswers(null);
+      setResult(null);
+      setPhase('landing');
+      setDescending('out');
+      window.setTimeout(() => setDescending(null), 900);
+    }, 1150);
   };
 
   return (
@@ -361,14 +370,14 @@ function App() {
 
             <div className="mt-4 sm:mt-5 max-w-[280px] sm:max-w-[350px] hero-anim hero-fade" style={{ animationDelay: '0.7s' }}>
               <p className="text-xs sm:text-sm text-white/75 leading-relaxed font-light tracking-wide text-pretty">
-                A theatrical journey into your own subconscious. Through an alchemy of questions, we distill your essence into a bespoke, masterfully animated cocktail recipe.
+                A theatrical journey into your own subconscious. Through an alchemy of questions, we distill your essence into a cocktail made for you alone, with its recipe and its reading.
               </p>
             </div>
           </div>
 
           <div className={`absolute bottom-10 sm:bottom-24 left-5 right-5 sm:left-auto sm:right-10 md:right-16 max-w-full sm:max-w-[320px] flex flex-col items-start sm:items-end text-left sm:text-right gap-6 z-50 hero-anim hero-fade pointer-events-auto ${leaving ? 'hero-exit' : ''}`} style={{ animationDelay: '0.85s' }}>
             <p className="text-xs sm:text-sm text-white/60 leading-relaxed font-light">
-              Seven depths lie between you and your liquid avatar. Step into the dark and let the oracle pour.
+              A few minutes of honest answers. One cocktail that could only be yours.
             </p>
             <CtaButton onClick={beginJourney}>Cross the Threshold</CtaButton>
           </div>
@@ -427,7 +436,11 @@ function App() {
       {/* the velvet rope · the degrade state, never a dead end (master spec §3) */}
       {roped && <VelvetRope onAnyway={crossAnyway} />}
 
-      {descending && <div className="descent-veil fixed inset-0 z-[80] pointer-events-none" />}
+      {descending && (
+        <div
+          className={`descent-veil fixed inset-0 z-[80] pointer-events-none${descending === 'out' ? ' descent-veil-out' : ''}`}
+        />
+      )}
     </div>
   );
 }

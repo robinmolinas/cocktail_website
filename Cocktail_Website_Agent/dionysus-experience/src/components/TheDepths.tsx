@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import type { CSSProperties } from 'react';
 import type { Answers } from '../types';
-import { FREQUENCY_OPTIONS } from '../data/questions';
 
 // H1 · The Threshold — "The Quiet Depths"
 // The journey footage holds at the S1 depths frame (~0.6s). Two cold-open
@@ -24,11 +23,24 @@ import { FREQUENCY_OPTIONS } from '../data/questions';
 
 // H4 · The Hidden Self — "Twin Embers"
 // On the bitters hold (~5.7s, black teardrops overhead), a practice pair
-// ("This" / "That", round -1, unscored) teaches the motion before nine
+// (Tea / Coffee, round -1, unscored) teaches the motion before nine
 // "inner texture" binaries play one at a time. The practice round is three
 // beats: its prompt ("Too quick to think. Trust the spirit within.")
 // appears alone, the hint follows once it's had a moment to land, and only
 // once an average reader would have finished both do the embers ignite in.
+// Rev 2 (2026-09-18 review) — this hold read as the journey's one confusing
+// stretch, and the diagnosis was the on-ramp, never the mechanic:
+//   · the prompt said what NOT to do ("too quick to think") while the actual
+//     instruction sat underneath it at 13px / 0.5 alpha on the brightest band
+//     in the film. It is now the shared .depth-hint voice over a pool of night.
+//   · the practice pair was "This" / "That", which teaches the motion with
+//     words that mean nothing, so a first-timer could not tell whether the
+//     question had started. Tea / Coffee is weightless and still real.
+//   · the word is now the ember itself (rev 3): large, on a pool of seed
+//     colour, cooling in place — a draining ring was tried and rejected.
+//   · the prompt used to lift out of the way as the embers arrived, moving
+//     the one thing she was still reading. It now stays where every other
+//     hold keeps its question.
 // Two glowing embers hang suspended — the same core language as H3's mote —
 // each carrying one word, pulsing like a heartbeat. Then they start to cool:
 // the pulse weakens, they shrink and dim toward a dead coal. Catch the one
@@ -120,55 +132,38 @@ const SURFACE_BLACK_HOLD_MS = 150; // full black → onComplete. A beat, not a s
 // rising at once they drift toward one another as they climb — the
 // connection is a shared current, not a wire. The third catch is a rush of
 // extra fizz from their gathered centre — "the drink notices" without a
-// ripple-ring standing in for it. "let it resonate" seals the question: the
-// caught bubbles gather and rise together to break the surface, then the
-// second word-shower falls in. After both, the camera rises to the finish
-// hold (~9.4s). No time pressure here — after H4's speed, this hold is
-// abundance and wonder.
-// x/y are the desktop scatter (hand-placed against the 16:9 footage). mx/my are
-// the portrait preset: the wide scatter collapses on a phone — words clipped the
-// right edge and four pairs of tap targets overlapped, with no undo for a
-// mis-tap. Each word gets its own Y band (so overlap is impossible by
-// construction) and an X clamped to its own rendered width (so even "A reality
-// check" never reaches an edge). Master spec §3: adapt per hold, don't letterbox.
+// ripple-ring standing in for it. Confirming gathers the caught bubbles and
+// rises them together to break the surface, then the second word-shower falls
+// in. After both, the camera rises to the finish hold (~9.4s). No time
+// pressure here — after H4's speed, this hold is abundance and wonder.
+// Rev 4 (2026-09-18 review). These are the two questions the whole reading
+// leans on, and they were the hold that felt least finished: twelve and
+// fourteen bare 14px labels, hand-scattered at unrelated bearings, on the
+// darkest frame in the film, with the catch signalled only by a 13px dot
+// changing colour. Nothing in the layout said "these are choices".
+//   · Nine words per round, not twelve/fourteen — each one gets room to be
+//     read and to be a comfortable target. The cuts are the overlaps:
+//     Recognition/Power fold into each other, Knowledge into Mastery,
+//     Energy and Fun into A little chaos, Perspective into Advice,
+//     Leadership into Courage, Protection into Comfort.
+//   · Each word rides inside a Glass Sphere — the journey's established
+//     "choose me" affordance (H1's lenses, H6's flavours) — so H1, H5 and H6
+//     now speak one language instead of three.
+//   · Rev 4.1 (Robin): the first cut spread the nine at fixed percentages
+//     across the whole frame, which read as a grid and sat still. They are
+//     now the lens question's sibling — a close, centred 3×3 cluster
+//     (.res-cluster) riding the lens bubbles' own desynced drift — so the
+//     layout is CSS, not data.
 const RES_QUESTIONS = [
   {
     key: 'drawnToward' as const,
     prompt: 'What are you most drawn toward right now?',
-    words: [
-      { w: 'Freedom', x: 16, y: 27, mx: 21.6, my: 24 },
-      { w: 'Beauty', x: 38, y: 23, mx: 86.8, my: 28.9 },
-      { w: 'Mastery', x: 60, y: 26, mx: 15.6, my: 33.8 },
-      { w: 'Pleasure', x: 81, y: 30, mx: 74.2, my: 38.7 },
-      { w: 'Recognition', x: 88, y: 47, mx: 38.8, my: 43.6 },
-      { w: 'Knowledge', x: 70, y: 44, mx: 53.5, my: 48.5 },
-      { w: 'Belonging', x: 49, y: 41, mx: 47.3, my: 53.5 },
-      { w: 'Peace', x: 28, y: 45, mx: 61.1, my: 58.4 },
-      { w: 'Power', x: 11, y: 52, mx: 25.8, my: 63.3 },
-      { w: 'Wonder', x: 33, y: 63, mx: 84.2, my: 68.2 },
-      { w: 'Change', x: 56, y: 58, mx: 12.7, my: 73.1 },
-      { w: 'Mischief', x: 77, y: 62, mx: 79.2, my: 78 },
-    ],
+    words: ['Freedom', 'Beauty', 'Mastery', 'Peace', 'Belonging', 'Pleasure', 'Wonder', 'Change', 'Mischief'],
   },
   {
     key: 'soughtFor' as const,
     prompt: 'What do people often come to you for?',
-    words: [
-      { w: 'Advice', x: 14, y: 25, mx: 47.8, my: 24 },
-      { w: 'Energy', x: 33, y: 22, mx: 58.4, my: 28.2 },
-      { w: 'Protection', x: 53, y: 25, mx: 31.8, my: 32.3 },
-      { w: 'Honesty', x: 73, y: 22, mx: 81.3, my: 36.5 },
-      { w: 'Ideas', x: 88, y: 30, mx: 11.5, my: 40.6 },
-      { w: 'Comfort', x: 10, y: 40, mx: 82.2, my: 44.8 },
-      { w: 'Courage', x: 29, y: 37, mx: 28.7, my: 48.9 },
-      { w: 'Taste', x: 47, y: 40, mx: 59.7, my: 53.1 },
-      { w: 'Perspective', x: 66, y: 37, mx: 47.7, my: 57.2 },
-      { w: 'Fun', x: 85, y: 44, mx: 54.5, my: 61.4 },
-      { w: 'Leadership', x: 17, y: 55, mx: 37.1, my: 65.5 },
-      { w: 'Calm', x: 36, y: 60, mx: 78.4, my: 69.7 },
-      { w: 'A reality check', x: 58, y: 55, mx: 23.5, my: 73.8 },
-      { w: 'A little chaos', x: 79, y: 62, mx: 77.7, my: 78 },
-    ],
+    words: ['Advice', 'Comfort', 'Honesty', 'Courage', 'Ideas', 'Calm', 'Taste', 'A reality check', 'A little chaos'],
   },
 ];
 const RES_MAX = 3;
@@ -211,14 +206,18 @@ const FIN_VESSELS: { key: string; label: string; shape: 'rocks' | 'coupe' | 'col
   { key: 'short', label: 'Short & strong', shape: 'rocks', x: 22, scales: { long: 15, carbonated: 10, complex: 70, drinkNight: 35, modern: 40 } },
   { key: 'poised', label: 'Poised & ceremonial', shape: 'coupe', x: 41, scales: { long: 20, carbonated: 5, complex: 75, drinkNight: 85, modern: 30 } },
   { key: 'tall', label: 'Tall & cold', shape: 'collins', x: 60, scales: { long: 90, carbonated: 30, complex: 45, drinkNight: 25, modern: 55 } },
-  { key: 'light', label: 'Light & Sparkling', shape: 'flute', x: 79, scales: { long: 75, carbonated: 90, complex: 25, drinkNight: 20, modern: 70 } },
+  { key: 'light', label: 'Light & sparkling', shape: 'flute', x: 79, scales: { long: 75, carbonated: 90, complex: 25, drinkNight: 20, modern: 70 } },
 ];
 // Hand-feel writes straight into drinkScales (mixology.ts already reads these
 // five keys) — no separate raw-label field, matching how gravity/selfScales/
 // moodScales work elsewhere.
 
 const FIN_VETOES = ['Egg whites', 'Dairy', 'Gluten', 'Nuts', 'Alcohol', 'Spice'];
-const FIN_HERO = { x: 50, y: 33 };
+// The chosen glass grows into this spot for beat 3. At y=33 its rim was drawn
+// straight through the ward beat's own instruction line (2026-09-18 review);
+// 43 clears the question block above and still sits well clear of the ward
+// row at 60%.
+const FIN_HERO = { x: 50, y: 43 };
 const FIN_HERO_SCALE = 2.3;
 // The candidate glasses stand on a shared shelf line (percent of viewport
 // height) — bases aligned, labels a fixed step below — rather than sharing a
@@ -227,39 +226,25 @@ const FIN_BASELINE = 54;
 const FIN_REST_SCALE = 1.12;
 const FIN_HOVER_SCALE = 1.2;
 
-// H7 · The Trace — "The Still Surface" (rev 2: the depth gauge)
+// H7 · The Trace — "The Still Surface" (rev 3: one question, not two)
 // On the foam-dome hold (~10.7s) the journey goes near-silent — the chapter
-// map's register for this hold is a held breath, not another set piece. Two
-// questions, one quiet gesture each:
-//   1. Night's craft — "How often does a cocktail find you?" The dome's own
-//      geometry becomes five concentric rings on a still surface: Never at
-//      the rim, Exclusively at the heart, where a single drop of her colour
-//      waits, pulsing. Touch a ring: one ripple of her colour rolls across
-//      the surface, the other rings exhale away, and the chosen ring is
-//      drawn down into the heart — the answer absorbed by the drink.
-//      Rev 2, Robin's call ("not very consumer intuitive"): rev 1 scattered
-//      the five labels at staggered bearings so no two stacked — which also
-//      meant nobody could tell which label named which ring, or that the
-//      rings were an ordered scale at all, on the footage's brightest band
-//      where the hairline strokes barely survived. Now every label hangs on
-//      one plumb-line dropped from the heart to the rim: a marker dot where
-//      the line crosses each ring, its word beside it — a depth gauge laid
-//      on the surface. Read top to bottom it's simply an ordered list
-//      (Exclusively … Never); the rings stay the theatre. A local pool of
-//      night behind the dial buys back the contrast the veil alone couldn't.
-//   2. The trace — "Leave one trace of yourself." The journey's bookend: it
-//      opened with her name on a bare line in the dark (H1), it closes with
-//      one confidence on the same bare line. Each keystroke releases a mote
-//      that rises and dissolves — H1's bubbles rose and froze because time
-//      had stopped; here, at the end, the breath is finally let go.
+// map's register for this hold is a held breath, not another set piece.
+//
+// Rev 3 (2026-09-18 review) removed the hold's first beat, "How often does a
+// cocktail find you?" — the five-ring depth gauge. Robin's call, and it costs
+// the result nothing: the only thing the answer ever reached was
+// `frequency === 'Never' → zero-proof`, which H6's own "Alcohol" veto already
+// produces, plus two optional echo lines in the breath. It also removed the
+// last piece of UI in the journey that still read as a diagram. If the
+// question is ever wanted back, it should be one line and three bubbles.
+//
+// What remains is the bookend: "Leave one trace of yourself." The journey
+// opened with her name on a bare line in the dark (H1) and closes with one
+// confidence on the same bare line. Each keystroke releases a mote that rises
+// and dissolves — H1's bubbles rose and froze because time had stopped; here,
+// at the end, the breath is finally let go.
 // Sealing blooms once and rises to the breath hold (~11.9s), where the
-// reveal work (The Breath / The Unveiling) will pick up.
-// Ring values ARE the FREQUENCY_OPTIONS strings — mixology.ts branches on
-// them ('Never' → zero-proof), so the contract lives in data/questions.ts.
-const TRACE_RINGS = FREQUENCY_OPTIONS.map((value, i) => ({
-  value,
-  r: 46 - i * 8, // rim → heart
-}));
+// reveal work (The Breath / The Unveiling) picks up.
 
 // Pure glass illustrations — no component state, so these live at module
 // scope. Two structural families share one drawing path: tumblers (rocks,
@@ -387,6 +372,17 @@ const drawGlass = (
 
 // "Positive – Negative" renamed to "Half-full – Half-empty" (Freya's proposal):
 // optimism with zero wrong answer, the most cocktail-native pair possible.
+// The rehearsal (round -1, unscored). It has to be a real choice with no
+// weight to it: "This / That" taught the gesture but left a first-timer
+// unsure whether the questionnaire had begun.
+const PRACTICE_PAIR = { a: 'Tea', b: 'Coffee' };
+// 19 words, which is what PRACTICE_READ_MS is measured against — keep them in
+// step if either line changes.
+const PRACTICE_LINES = {
+  prompt: 'Too quick to think. Trust the spirit within.',
+  hint: 'Nine quick pairs. Tap the one that is more you before it fades.',
+};
+
 const BINARIES = [
   { key: 'sharp-smooth', a: 'Sharp', b: 'Smooth' },
   { key: 'relaxed-excited', a: 'Relaxed', b: 'Excited' },
@@ -400,7 +396,11 @@ const BINARIES = [
 ];
 
 const FROZEN_MS = 850;  // a calm beat: both embers hang suspended, pulsing
-const THAW_MS = 2550;   // then they cool — the pulse weakens, they shrink and dim
+// Rev 2 (2026-09-18 review): 2550 gave a 3.4s round, which is enough time to
+// choose but not enough to ALSO read two words you have never seen — on a
+// cold run the first two real pairs expired mid-read. 3400 buys the reading
+// without softening the "don't think" instinct the hold exists for.
+const THAW_MS = 3400;   // then they cool — the pulse weakens, they shrink and dim
 const ROUND_MS = FROZEN_MS + THAW_MS; // total catch window per binary
 
 // The practice round (-1) is three beats, not one: the prompt appears alone
@@ -410,7 +410,7 @@ const ROUND_MS = FROZEN_MS + THAW_MS; // total catch window per binary
 // ("Too quick to think. Trust the spirit within." + the hint below it) at
 // ~200 words/min, a standard reading-speed estimate, is ~5.7s to read.
 const PRACTICE_HINT_DELAY_MS = 900;          // the hint follows the prompt, not simultaneous
-const PRACTICE_READ_MS = 5700;               // 19 words @ ~200 wpm
+const PRACTICE_READ_MS = 5700;               // 19 words @ ~200 wpm (see PRACTICE_LINES)
 const PRACTICE_REVEAL_DELAY_MS = PRACTICE_READ_MS - 1400; // Robin: read ~1s long against the estimate — trimmed
 const PRACTICE_FROZEN_MS = 1500;
 const PRACTICE_THAW_MS = 4200;
@@ -458,8 +458,6 @@ const buildBreathEchoes = (a: Answers, vesselLabel: string | null): string[] => 
   if (vesselLabel) out.push(`${vesselLabel.toLowerCase()} in the hand`);
   const firstWard = a.allergies.split(',').map((s) => s.trim()).filter(Boolean)[0];
   if (firstWard) out.push(`never ${firstWard.toLowerCase()}`);
-  if (a.frequency === 'Never') out.push('your first taste of the craft');
-  if (a.frequency === 'Exclusively') out.push('a devotee of the craft');
   const capped = out.slice(0, 8);
   if (a.insight.trim()) capped.push('…and the one thing you told only the ink');
   if (capped.length < 3) capped.push('the glass is listening', 'what settles now settles true');
@@ -471,17 +469,26 @@ const LINES = [
   'There are no right answers, only honest ones.',
 ];
 
+// Rev 2 (2026-09-18 review): "The night version of me" and "A fictional
+// persona" both landed as costume rather than self — and with "My future
+// self" already present, the set had no aspirational answer that wasn't also
+// a time-travel answer. "The best version of me" takes that job; "One of my
+// many selves" keeps the plural-self idea (ANSWER_STYLES' own phrasing in
+// data/questions.ts) without the clinical note "persona" carried.
 const LENSES = [
   'The real me',
+  'The best version of me',
   'A dream alter ego',
-  'The night version of me',
   'My inner child',
   'My future self',
-  'A fictional persona',
+  'One of my many selves',
 ];
 
 // Each colour is a real pour. The hue is the answer; the name is the whisper.
 // `s` varies the droplet size so the ring feels found, not arranged.
+// The template is liqueur + colour (Robin, 2026-09-18 — a liqueur-only cut
+// was tried and reverted). These flow on into the breath's echo
+// ("… runs through it") and the reading, so they have to read as a phrase.
 const SEEDS = [
   { name: 'Campari Red', hex: '#c8102e', s: 1.0 },
   { name: 'Aperol Orange', hex: '#ff6f1f', s: 0.86 },
@@ -489,7 +496,7 @@ const SEEDS = [
   { name: 'Midori Green', hex: '#58b947', s: 0.92 },
   { name: 'Curaçao Blue', hex: '#1287c8', s: 1.05 },
   { name: 'Violette Purple', hex: '#7b5aa6', s: 0.88 },
-  { name: 'Pamplemousse Pink', hex: '#f2789f', s: 0.97 },
+  { name: 'Pamplemousse Rosé', hex: '#f2789f', s: 0.97 },
   { name: 'Cassis Plum', hex: '#5c2447', s: 1.08 },
 ];
 
@@ -508,7 +515,6 @@ const SEED_POS = [
 type Stage = 'arrive' | 'lines' | 'name' | 'lens' | 'ascend1' | 'seed' | 'ascend2' | 'gravity' | 'ascend3' | 'hidden' | 'ascend4' | 'resonance' | 'ascend5' | 'finish' | 'ascend6' | 'trace' | 'ascend7' | 'breath' | 'surface';
 type HiddenStage = 'intro' | 'play' | 'gap';
 type FinBeat = 'flavors' | 'glass' | 'ward';
-type TraceBeat = 'ring' | 'trace';
 
 // H5 canvas scene particles: an ignition/converge spark, and an ambient dust
 // mote rising through the frozen burst.
@@ -541,7 +547,7 @@ export type DevPage = 'gift' | 'reading' | 'reading-in';
 export function DevNav({ onJump, onPage }: { onJump: (target: DevJumpTarget) => void; onPage?: (page: DevPage) => void }) {
   return (
     <div
-      className="fixed bottom-2 left-2 z-[999] flex max-w-[95vw] flex-wrap gap-1 rounded bg-black/75 p-2 font-mono text-[10px] text-white/80"
+      className="dev-nav fixed bottom-2 left-2 z-[999] flex max-w-[95vw] flex-wrap gap-1 rounded bg-black/75 p-2 font-mono text-[10px] text-white/80"
       onClick={(e) => e.stopPropagation()}
     >
       <button className="rounded border border-white/20 px-1.5 py-0.5 hover:bg-white/10" onClick={() => onJump('lens')}>H1 lens</button>
@@ -563,6 +569,28 @@ export function DevNav({ onJump, onPage }: { onJump: (target: DevJumpTarget) => 
           <button className="rounded border border-white/20 px-1.5 py-0.5 hover:bg-white/10" onClick={() => onPage('gift')}>H11 friend</button>
         </>
       )}
+    </div>
+  );
+}
+
+/** The journey's one progress language: a row of ringed dots that fill in her
+ *  seed colour as each step settles. H3 and H4 each grew their own row at
+ *  their own height, and H5 and H6 had none at all — so "how much of this is
+ *  left" was answered differently, or not at all, on every hold. H3 and H4
+ *  keep their richer dots (kept vs. secret); this is the plain one. */
+function DepthDots({ count, index, seed }: { count: number; index: number; seed: string }) {
+  return (
+    <div className="depth-dots">
+      {Array.from({ length: count }, (_, i) => (
+        <span
+          key={i}
+          className="depth-dot"
+          style={{
+            background: i < index ? seed : 'transparent',
+            borderColor: i === index ? seed : 'rgba(255, 235, 200, 0.3)',
+          }}
+        />
+      ))}
     </div>
   );
 }
@@ -609,17 +637,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // ref — the preference is sampled once at mount and never changes mid-hold
   const [stillWater] = useState(prefersReducedMotion);
   const stillWaterRef = useRef(stillWater); // for the rAF loop, which runs outside render
-  // H5's scatter has a portrait preset; resize must re-pick it, and the
-  // constellation canvas reads live positions each frame so it follows.
-  const [resPortrait, setResPortrait] = useState(
-    () => typeof window !== 'undefined' && window.matchMedia('(max-width: 640px)').matches,
-  );
-  useEffect(() => {
-    const mq = window.matchMedia('(max-width: 640px)');
-    const onChange = () => setResPortrait(mq.matches);
-    mq.addEventListener('change', onChange);
-    return () => mq.removeEventListener('change', onChange);
-  }, []);
   const hAnswered = useRef(false);
   const hResults = useRef<Record<string, string>>({});
   const skipHiddenKickoff = useRef(false); // set by debugJump so it doesn't race the natural kickoff
@@ -637,7 +654,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const [resQ, setResQ] = useState(0); // 0 = drawn toward, 1 = sought for
   const [resChosen, setResChosen] = useState<number[]>([]);
   const [resSealing, setResSealing] = useState(false);
-  const [resRise, setResRise] = useState<{ x: number; y: number } | null>(null);
   // H6 · The Pour
   const finCanvasRef = useRef<HTMLCanvasElement>(null);
   const finGlassAnim = useRef<Record<string, { x: number; y: number; s: number; op: number }>>({}); // animated candidate transforms, lerped each frame
@@ -661,14 +677,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // H7 · The Trace
   const traceInputRef = useRef<HTMLInputElement>(null);
   const breathCanvasRef = useRef<HTMLCanvasElement>(null);
-  const [traceBeat, setTraceBeat] = useState<TraceBeat>('ring');
-  const [ringHover, setRingHover] = useState<number | null>(null);
-  const [ringChosen, setRingChosen] = useState<number | null>(null);
-  // The rings are an ordered scale, so the keyboard walks them with one tab
-  // stop and the arrows. Selection is irreversible, so arrows move focus only
-  // and Enter/Space commits — never select-on-arrow.
-  const ringLabelRefs = useRef<(HTMLButtonElement | null)[]>([]);
-  const [ringFocus, setRingFocus] = useState(0);
   const [traceText, setTraceText] = useState('');
   const [traceSealed, setTraceSealed] = useState(false);
   // H8 · The Breath
@@ -751,7 +759,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       setResQ(0);
       setResChosen([]);
       setResSealing(false);
-      setResRise(null);
     }
     if (target === 'finish' && stageRef.current === 'finish') {
       // re-jump onto the same stage: the arrival effect won't rerun, reset by hand
@@ -766,9 +773,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     }
     if (target === 'trace' && stageRef.current === 'trace') {
       // re-jump onto the same stage: the arrival effect won't rerun, reset by hand
-      setTraceBeat('ring');
-      setRingHover(null);
-      setRingChosen(null);
       setTraceText('');
       setTraceSealed(false);
     }
@@ -1025,6 +1029,10 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     const e = Math.max(0, elapsed - revealDelay); // the embers' own clock — held at the door until reveal
     const beat = Math.sin(e / 480); // a steady heartbeat pulse
     let op = 0, scale = 1, glow = 1;
+    // The cooling is legible on the word itself (see .ember-word: its halo
+    // draws in, it dims and shrinks a little as --ember-glow / --ember-scale
+    // run down), so there is no separate clock. A draining ring was tried and
+    // rejected — Robin, 2026-09-18: the disappearing is already understood.
     if (elapsed < revealDelay) {
       op = 0; // the prompt gets its beat alone before anything else appears
     } else if (stillWaterRef.current) {
@@ -1043,10 +1051,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       scale = Math.max(0.4, 1 - tp * 0.58 + beat * amp);
       glow = Math.max(0.12, 1 - tp * 0.85 + beat * amp * 0.6);
       op = tp < 0.7 ? 1 : Math.max(0, (1 - tp) / 0.3); // stays visible while cooling, dies at the very end
-    }
-    if (isPractice && practiceTextRef.current) {
-      // the centered prompt+hint pair lifts out of the way the instant the embers begin
-      practiceTextRef.current.classList.toggle('lifted', elapsed >= revealDelay);
     }
     for (const ref of [dropARef, dropBRef]) {
       const el = ref.current;
@@ -1193,7 +1197,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
 
   const glintCenter = (el: HTMLButtonElement | null) => {
     if (!el) return null;
-    const dot = el.querySelector('.res-dot') ?? el;
+    const dot = el.querySelector('.res-bubble') ?? el;
     const r = (dot as HTMLElement).getBoundingClientRect();
     return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
   };
@@ -1207,7 +1211,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // one-shot moments. Colour lives in her seed hue or a pale foam white,
   // never a filled disc; these must read as bubbles, not sparks or blots.
   // Skipped under reduced motion.
-  const spawnSparks = (x: number, y: number, kind: 'ignite' | 'release' | 'converge' | 'notice', tx = 0, ty = 0) => {
+  const spawnSparks = (x: number, y: number, kind: 'ignite' | 'release' | 'notice') => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const out = resSparks.current;
     const foam = 'rgb(255, 248, 236)';
@@ -1222,18 +1226,12 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       for (let k = 0; k < 5; k++) {
         out.push({ x: x + (Math.random() - 0.5) * 10, y: y + (Math.random() - 0.5) * 6, vx: (Math.random() - 0.5) * 12, vy: 10 + Math.random() * 18, r: 1 + Math.random(), life: 0.7, ttl: 500, c: foam });
       }
-    } else if (kind === 'notice') {
+    } else {
       // the drink notices — a rush of fine, fast bubbles from the gathered centre
       for (let k = 0; k < 14; k++) {
         const ang = Math.PI * 1.5 + (Math.random() - 0.5) * 2.8;
         const sp = 40 + Math.random() * 90;
         out.push({ x, y, vx: Math.cos(ang) * sp * 0.5, vy: Math.sin(ang) * sp, r: 1 + Math.random() * 1.4, life: 1, ttl: 550 + Math.random() * 350, c: Math.random() > 0.5 ? seedHex : foam });
-      }
-    } else {
-      for (let k = 0; k < 6; k++) {
-        const jx = x + (Math.random() - 0.5) * 12;
-        const jy = y + (Math.random() - 0.5) * 12;
-        out.push({ x: jx, y: jy, vx: (tx - jx) / 0.7 + (Math.random() - 0.5) * 10, vy: (ty - jy) / 0.7 - 14, r: 1.4 + Math.random() * 1.6, life: 1, ttl: 780, c: Math.random() > 0.5 ? seedHex : foam });
       }
     }
   };
@@ -1241,34 +1239,30 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const sealResonance = () => {
     if (resSealing || resChosen.length === 0) return;
     const q = RES_QUESTIONS[resQ];
-    const chosenWords = resChosen.map((i) => q.words[i].w);
+    const chosenWords = resChosen.map((i) => q.words[i]);
     onUpdate({ [q.key]: chosenWords } as Partial<Answers>);
     setResSealing(true);
     resSealT0.current = performance.now();
-    // centroid of the catch — where the bubbles gather and rise from
-    const centers = resChosen.map((i) => glintCenter(resGlintRefs.current[i])).filter(Boolean) as { x: number; y: number }[];
-    const cx = centers.reduce((s, p) => s + p.x, 0) / centers.length;
-    const cy = centers.reduce((s, p) => s + p.y, 0) / centers.length;
-    // the caught bubbles rise and gather toward the surfacing point
-    centers.forEach((p) => spawnSparks(p.x, p.y, 'converge', cx, cy));
-    // chosen bubbles gather at the surfacing point, carrying their colour; the rest fade
-    RES_QUESTIONS[resQ].words.forEach((_, i) => {
+    // The chosen bubbles surface: each rises and dissolves on its own, a beat
+    // apart, the way the fizz they have been shedding does — and its stream
+    // follows it up, since the canvas reads live positions. The rest let go
+    // where they are. (Rev 4.1 — Robin: the three used to collapse into one
+    // bright bead that launched to the top of the frame, which read as
+    // fireworks rather than effervescence.) Exits are classes, not inline
+    // styles: resGlintIn's `both` fill would otherwise win over an inline
+    // opacity and the bubbles would never actually fade.
+    q.words.forEach((_, i) => {
       const el = resGlintRefs.current[i];
       if (!el) return;
-      const c = glintCenter(el);
-      if (!c) return;
       if (resChosen.includes(i)) {
-        el.style.transition = 'transform 0.66s cubic-bezier(0.5, 0, 0.6, 1), opacity 0.55s ease 0.18s';
-        el.style.transform = `translate(calc(-50% + ${(cx - c.x).toFixed(1)}px), calc(-50% + ${(cy - c.y).toFixed(1)}px)) scale(0.45)`;
-        el.style.opacity = '0';
+        el.style.setProperty('--k', `${resChosen.indexOf(i) * 90}ms`);
+        el.classList.add('res-surface');
       } else {
-        el.style.transition = 'opacity 0.45s ease';
-        el.style.opacity = '0';
+        // the unchosen were already receded if she picked her full three
+        el.classList.add(resChosen.length >= RES_MAX ? 'res-dissolve-dim' : 'res-dissolve');
       }
     });
-    after(560, () => setResRise({ x: cx, y: cy }));
     after(1600, () => {
-      setResRise(null);
       resSealT0.current = 0;
       if (resQ === 0) {
         setResQ(1);
@@ -1435,7 +1429,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     setResQ(0);
     setResChosen([]);
     setResSealing(false);
-    setResRise(null);
   }, [stage]);
 
   // H6 · The Pour — flavours, then the glass, then what to leave out.
@@ -1499,33 +1492,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     });
   };
 
-  // H7 beat 1: one touch on the still surface. The ripple, the exhale of the
-  // unchosen rings and the absorb-into-the-heart are all CSS keyed off
-  // ringChosen; this only records the answer and lets the choreography play
-  // out before the trace line fades in.
-  const chooseRing = (i: number) => {
-    if (ringChosen !== null) return;
-    setRingChosen(i);
-    setRingHover(null);
-    onUpdate({ frequency: TRACE_RINGS[i].value });
-    after(1400, () => setTraceBeat('trace'));
-  };
-
-  const moveRingFocus = (e: React.KeyboardEvent, i: number) => {
-    if (ringChosen !== null) return;
-    const last = TRACE_RINGS.length - 1;
-    let next: number | null = null;
-    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') next = Math.min(last, i + 1);
-    else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') next = Math.max(0, i - 1);
-    else if (e.key === 'Home') next = 0;
-    else if (e.key === 'End') next = last;
-    if (next === null) return;
-    e.preventDefault();
-    setRingFocus(next);
-    ringLabelRefs.current[next]?.focus();
-  };
-
-  // H7 beat 2: each keystroke lets a mote of the first breath go — same
+  // H7: each keystroke lets a mote of the first breath go — same
   // canvas as H1's name-bubbles, but these dissolve as they rise.
   const releaseTraceMote = () => {
     const rect = traceInputRef.current?.getBoundingClientRect();
@@ -1623,12 +1590,15 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
         if (!el) continue; // not mounted (not in the 'flavors' beat)
         if (finCaughtRef.current.includes(f.w)) continue; // held — frozen right where she touched it
         if (!finBubbleAnim.current[f.w]) {
-          finBubbleAnim.current[f.w] = { x: f.lane, y: 20 + Math.random() * 75, vy: 2.6 + Math.random() * 2, phase: Math.random() * Math.PI * 2 };
+          // the band starts below the question + hint block (2026-09-18
+          // review: bubbles drifted straight through "What flavours are
+          // calling you?" and covered it)
+          finBubbleAnim.current[f.w] = { x: f.lane, y: 32 + Math.random() * 62, vy: 2.6 + Math.random() * 2, phase: Math.random() * Math.PI * 2 };
         }
         const b = finBubbleAnim.current[f.w];
         if (!reduced) {
           b.y -= (b.vy * dt) / 1000;
-          if (b.y < 8) b.y = 96 + Math.random() * 6;
+          if (b.y < 30) b.y = 96 + Math.random() * 6;
         }
         const wobble = reduced ? 0 : Math.sin(now / 1300 + b.phase) * 2.2;
         el.style.left = `${f.lane + wobble}%`;
@@ -1698,9 +1668,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   useEffect(() => {
     if (stage !== 'trace') return;
     bubbles.current = [];
-    setTraceBeat('ring');
-    setRingHover(null);
-    setRingChosen(null);
     setTraceText('');
     setTraceSealed(false);
   }, [stage]);
@@ -2138,7 +2105,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
               aria-label="Your name"
             />
             <button type="submit" className={`depth-continue ${name.trim() ? 'depth-continue-on' : ''}`}>
-              Deepen
+              Continue
             </button>
           </form>
         )}
@@ -2148,7 +2115,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
             <h2
               className={`q-rise max-w-md text-center font-playfair italic text-xl sm:text-2xl text-[#f5ead8] ${chosen !== null ? 'lens-question-out' : ''}`}
             >
-              Who should this cocktail capture?
+              Who is this cocktail for?
             </h2>
             <div className="lens-grid">
               {LENSES.map((label, i) => (
@@ -2204,7 +2171,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                     className={`seed-drop ${
                       seedChosen === null ? '' : seedChosen === i ? 'seed-burst' : 'seed-dissolve'
                     }`}
-                    style={{ '--c': s.hex, '--w': `calc(clamp(44px, 7.5vmin, 60px) * ${s.s})` } as CSSProperties}
+                    style={{ '--c': s.hex, '--w': `calc(clamp(56px, 9vmin, 76px) * ${s.s})` } as CSSProperties}
                     onMouseEnter={() => { if (seedChosen === null) setHoverSeed(i); }}
                     onMouseLeave={() => setHoverSeed((h) => (h === i ? null : h))}
                     onClick={() => pickSeed(i)}
@@ -2324,10 +2291,10 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
             </div>
 
             {gravRound === 0 && !gravHinted && (
-              <p className="grav-hint font-playfair italic">drag the glow, let go where it feels true</p>
+              <p className="grav-hint depth-hint">Drag the glow, and let go where it feels true</p>
             )}
 
-            <div className="grav-dots">
+            <div className="depth-dots">
               {GRAVITIES.map((g, i) => (
                 <span
                   key={g.key}
@@ -2344,41 +2311,47 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
 
         {stage === 'hidden' && (
           <div className="hidden-stage absolute inset-0">
+            {/* the cream ink cloud is the brightest band in the film — the
+                instruction block gets its own pool of night to sit on */}
+            <div className="depth-pool" />
             {hStage !== 'intro' && (
               <>
                 {hRound === -1 ? (
                   <div ref={practiceTextRef} className="practice-text">
-                    <p className="hidden-q font-playfair italic">Too quick to think. Trust the spirit within.</p>
+                    <p className="hidden-q font-playfair italic">{PRACTICE_LINES.prompt}</p>
                     <p
-                      className="hidden-hint font-playfair italic"
+                      className="hidden-hint depth-hint"
                       style={{ animationDelay: `${PRACTICE_HINT_DELAY_MS}ms` }}
                     >
-                      catch either one before it cools — nine will ask something real
+                      {PRACTICE_LINES.hint}
                     </p>
                   </div>
                 ) : (
                   <p className="hidden-q font-playfair italic">Which is more you?</p>
                 )}
                 <div key={hRound} className="ember-field">
+                  {/* two poles, like H3's — the word IS the ember, sitting on
+                      a pool of its seed colour (the bead-with-a-caption is
+                      gone; the caption was the important part) */}
                   <button
                     ref={dropARef}
                     type="button"
                     className="ember"
-                    style={{ '--x': '41%', '--c': seedHex } as CSSProperties}
+                    style={{ '--x': '33%', '--c': seedHex } as CSSProperties}
                     onClick={(e) => catchDrop('a', e.clientX, e.clientY)}
                   >
-                    <span className="ember-core" aria-hidden="true" />
-                    <span className="ember-word">{hRound === -1 ? 'This' : BINARIES[hRound].a}</span>
+                    <span className="ember-glow" aria-hidden="true" />
+                    <span className="ember-word">{hRound === -1 ? PRACTICE_PAIR.a : BINARIES[hRound].a}</span>
                   </button>
                   <button
                     ref={dropBRef}
                     type="button"
                     className="ember"
-                    style={{ '--x': '59%', '--c': seedHex } as CSSProperties}
+                    style={{ '--x': '67%', '--c': seedHex } as CSSProperties}
                     onClick={(e) => catchDrop('b', e.clientX, e.clientY)}
                   >
-                    <span className="ember-core" aria-hidden="true" />
-                    <span className="ember-word">{hRound === -1 ? 'That' : BINARIES[hRound].b}</span>
+                    <span className="ember-glow" aria-hidden="true" />
+                    <span className="ember-word">{hRound === -1 ? PRACTICE_PAIR.b : BINARIES[hRound].b}</span>
                   </button>
                 </div>
                 {/* Still Water only: without a clock, letting both cool has to
@@ -2388,7 +2361,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                     let them cool
                   </button>
                 )}
-                <div className="hidden-dots">
+                <div className="depth-dots">
                   {BINARIES.map((bin, i) => {
                     const settled = i < hRound || (i === hRound && hChosen !== null);
                     const kept = hResults.current[bin.key] !== undefined;
@@ -2414,63 +2387,64 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
             <canvas ref={resCanvasRef} className="absolute inset-0 pointer-events-none" />
             <div key={resQ} className="absolute inset-0">
               <p className="hidden-q font-playfair italic">{RES_QUESTIONS[resQ].prompt}</p>
-              <p className="res-sub font-playfair italic">choose up to three · touch again to let go</p>
-              {RES_QUESTIONS[resQ].words.map((word, i) => {
-                const lit = resChosen.includes(i);
-                const dim = !lit && resChosen.length >= RES_MAX;
-                return (
-                  <button
-                    key={word.w}
-                    ref={(el) => { resGlintRefs.current[i] = el; }}
-                    type="button"
-                    className={`res-glint ${lit ? 'res-lit' : ''} ${dim ? 'res-dim' : ''}`}
-                    style={{
-                      '--x': `${resPortrait ? word.mx : word.x}%`,
-                      '--y': `${resPortrait ? word.my : word.y}%`,
-                      '--c': seedHex,
-                      '--d': `${380 + i * 95}ms`,
-                      '--drift': `${7.5 + (i % 5) * 0.9}s`,
-                      '--shim': `${2.6 + (i % 4) * 0.7}s`,
-                    } as CSSProperties}
-                    onClick={() => toggleGlint(i)}
-                  >
-                    <span className="res-drift">
-                      <span className="res-dot" aria-hidden="true" />
-                      <span className="res-word">{word.w}</span>
-                    </span>
-                  </button>
-                );
-              })}
+              <p className="res-sub depth-hint">
+                {resChosen.length === 0
+                  ? 'Choose up to three'
+                  : `${resChosen.length} of ${RES_MAX} chosen · touch one again to let it go`}
+              </p>
+              <div className="res-cluster">
+                {RES_QUESTIONS[resQ].words.map((word, i) => {
+                  const lit = resChosen.includes(i);
+                  const dim = !lit && resChosen.length >= RES_MAX;
+                  return (
+                    <div key={word} className="res-drift">
+                      <button
+                        ref={(el) => { resGlintRefs.current[i] = el; }}
+                        type="button"
+                        aria-pressed={lit}
+                        className={`res-glint ${lit ? 'res-lit' : ''} ${dim ? 'res-dim' : ''}`}
+                        style={{ '--c': seedHex, '--d': `${380 + i * 95}ms` } as CSSProperties}
+                        onClick={() => toggleGlint(i)}
+                      >
+                        <span className="res-bubble">
+                          <span className="res-word">{word}</span>
+                        </span>
+                      </button>
+                    </div>
+                  );
+                })}
+              </div>
               <button
                 type="button"
-                className="res-seal font-playfair italic"
+                className={`res-seal ${resChosen.length >= RES_MAX ? 'res-seal-ready' : ''}`}
                 style={{
-                  opacity: resChosen.length === 0 ? 0 : resChosen.length >= RES_MAX ? 0.95 : 0.55,
+                  opacity: resChosen.length === 0 ? 0 : 1,
                   pointerEvents: resChosen.length === 0 ? 'none' : 'auto',
-                  textShadow: resChosen.length >= RES_MAX ? `0 0 18px ${seedHex}` : undefined,
                 }}
                 onClick={sealResonance}
               >
-                let it resonate
+                Continue
               </button>
+              <DepthDots count={RES_QUESTIONS.length} index={resQ} seed={seedHex} />
             </div>
-            {resRise && (
-              <span
-                className="res-rise"
-                style={{ left: resRise.x, top: resRise.y, '--c': seedHex } as CSSProperties}
-              />
-            )}
           </div>
         )}
 
         {stage === 'finish' && (
           <div className="fin-stage absolute inset-0">
             <canvas ref={finCanvasRef} className="absolute inset-0 pointer-events-none" />
+            {/* the foam ceiling is the other bright band — same pool as H4 */}
+            <div className="depth-pool" />
+            <DepthDots count={3} index={finBeat === 'flavors' ? 0 : finBeat === 'glass' ? 1 : 2} seed={seedHex} />
 
             {finBeat === 'flavors' && (
               <div className="absolute inset-0">
                 <p className="hidden-q font-playfair italic">What flavours are calling you?</p>
-                <p className="res-sub font-playfair italic">choose up to three as they rise · touch a kept one to let it go</p>
+                <p className="res-sub depth-hint">
+                  {finCaught.length === 0
+                    ? 'Choose up to three as they rise'
+                    : `${finCaught.length} of ${FIN_MAX_FLAVORS} kept · touch one again to let it go`}
+                </p>
                 {FIN_FLAVORS.map((f) => {
                   const held = finCaught.includes(f.w);
                   return (
@@ -2492,23 +2466,22 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                 })}
                 <button
                   type="button"
-                  className="res-seal font-playfair italic"
+                  className={`res-seal ${finCaught.length >= FIN_MAX_FLAVORS ? 'res-seal-ready' : ''}`}
                   style={{
-                    opacity: finCaught.length === 0 ? 0 : finCaught.length >= FIN_MAX_FLAVORS ? 0.95 : 0.55,
+                    opacity: finCaught.length === 0 ? 0 : 1,
                     pointerEvents: finCaught.length === 0 ? 'none' : 'auto',
-                    textShadow: finCaught.length >= FIN_MAX_FLAVORS ? `0 0 18px ${seedHex}` : undefined,
                   }}
                   onClick={sealCatch}
                 >
-                  carry it forward
+                  Continue
                 </button>
               </div>
             )}
 
             {finBeat === 'glass' && (
               <div className="absolute inset-0">
-                <p className="hidden-q font-playfair italic">How should the drink sit in your hand?</p>
-                <p className="res-sub font-playfair italic">choose its glass</p>
+                <p className="hidden-q font-playfair italic">What kind of drink do you want in your hand?</p>
+                <p className="res-sub depth-hint">Choose its glass</p>
                 {FIN_VESSELS.map((v, i) => (
                   <button
                     key={v.key}
@@ -2529,7 +2502,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
             {finBeat === 'ward' && (
               <div className="absolute inset-0">
                 <p className="hidden-q font-playfair italic">What should never touch your glass?</p>
-                <p className="res-sub font-playfair italic">touch to exclude it</p>
+                <p className="res-sub depth-hint">Touch anything you want left out</p>
                 {/* a composed row beneath the hero glass — not scattered along
                     the bottom edge where it collided with the seal */}
                 <div className="fin-ward-row">
@@ -2550,11 +2523,11 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                 </div>
                 <button
                   type="button"
-                  className="res-seal font-playfair italic"
-                  style={{ opacity: 0.85 }}
+                  className="res-seal"
+                  style={{ opacity: 1 }}
                   onClick={sealWard}
                 >
-                  {finBanished.length === 0 ? 'nothing to exclude' : 'seal the glass'}
+                  Continue
                 </button>
               </div>
             )}
@@ -2565,124 +2538,37 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
 
         {stage === 'trace' && (
           <div className="trace-stage absolute inset-0">
-            {/* a local pool of night under both beats — this hold sits on the
-                footage's brightest band and the shared veil alone can't carry
-                hairline rings or a placeholder there */}
+            {/* a local pool of night — this hold sits on the footage's brightest
+                band and the shared veil alone can't carry a placeholder there */}
             <div className="trace-pool absolute inset-0 pointer-events-none" />
-            {traceBeat === 'ring' && (
-              <div className="absolute inset-0">
-                <p className="hidden-q font-playfair italic">How often does a cocktail find you?</p>
-                <p className="res-sub font-playfair italic">never at the rim, exclusively at the heart · touch the depth that holds you</p>
-                <div className={`trace-dial ${ringChosen !== null ? 'trace-dial-chosen' : ''}`}>
-                  <svg viewBox="0 0 100 100" aria-hidden="true">
-                    {TRACE_RINGS.map((ring, i) => (
-                      <circle
-                        key={ring.value}
-                        className={`trace-ring ${ringChosen === null ? (ringHover === i ? 'hover' : '') : ringChosen === i ? 'chosen' : 'faded'}`}
-                        cx="50"
-                        cy="50"
-                        r={ring.r}
-                        style={{ '--i': i, '--c': seedHex } as CSSProperties}
-                      />
-                    ))}
-                    {/* the plumb-line: one hairline dropped from the heart to the
-                        rim, a marker dot where it crosses each ring — the gauge
-                        that makes the rings readable as an ordered scale */}
-                    <line className="trace-plumb" x1="50" y1="52" x2="50" y2="96" />
-                    {TRACE_RINGS.map((ring, i) => (
-                      <circle
-                        key={`dot-${ring.value}`}
-                        className={`trace-dot ${ringChosen === null ? (ringHover === i ? 'hover' : '') : ringChosen === i ? 'chosen' : 'faded'}`}
-                        cx="50"
-                        cy={50 + ring.r}
-                        r="1"
-                        style={{ '--i': i, '--c': seedHex } as CSSProperties}
-                      />
-                    ))}
-                    {/* the first drop, waiting at the heart of the craft */}
-                    <circle className="trace-heart" cx="50" cy="50" r="1.1" style={{ '--c': seedHex } as CSSProperties} />
-                    {ringChosen !== null && (
-                      <circle
-                        className="trace-ripple"
-                        cx="50"
-                        cy="50"
-                        r={TRACE_RINGS[ringChosen].r}
-                        style={{ '--c': seedHex } as CSSProperties}
-                      />
-                    )}
-                    {/* invisible hit bands last, so they sit above the visuals */}
-                    {TRACE_RINGS.map((ring, i) => (
-                      <circle
-                        key={`hit-${ring.value}`}
-                        className={`trace-ring-hit ${i === TRACE_RINGS.length - 1 ? 'trace-ring-hit-heart' : ''}`}
-                        cx="50"
-                        cy="50"
-                        r={ring.r}
-                        onClick={() => chooseRing(i)}
-                        onMouseEnter={() => { if (ringChosen === null) setRingHover(i); }}
-                        onMouseLeave={() => setRingHover((h) => (h === i ? null : h))}
-                      />
-                    ))}
-                  </svg>
-                  {/* The labels are the dial's accessible control surface: the
-                      SVG above is aria-hidden and pointer-only, so without
-                      these the hold has no keyboard path at all. */}
-                  <div role="radiogroup" aria-label="How often does a cocktail find you?">
-                    {TRACE_RINGS.map((ring, i) => (
-                      <button
-                        key={`label-${ring.value}`}
-                        ref={(el) => { ringLabelRefs.current[i] = el; }}
-                        type="button"
-                        role="radio"
-                        aria-checked={ringChosen === i}
-                        tabIndex={ringChosen !== null ? (ringChosen === i ? 0 : -1) : ringFocus === i ? 0 : -1}
-                        className={`trace-ring-label font-playfair italic ${ringChosen === null ? (ringHover === i ? 'hover' : '') : ringChosen === i ? 'chosen' : 'faded'}`}
-                        style={{ left: '52.5%', top: `${50 + ring.r}%`, '--i': i, '--c': seedHex } as CSSProperties}
-                        onClick={() => chooseRing(i)}
-                        onKeyDown={(e) => moveRingFocus(e, i)}
-                        onFocus={() => { if (ringChosen === null) { setRingFocus(i); setRingHover(i); } }}
-                        onBlur={() => setRingHover((h) => (h === i ? null : h))}
-                        onMouseEnter={() => { if (ringChosen === null) setRingHover(i); }}
-                        onMouseLeave={() => setRingHover((h) => (h === i ? null : h))}
-                      >
-                        {ring.value}
-                      </button>
-                    ))}
-                  </div>
-                </div>
+            <form
+              className="absolute inset-0"
+              onSubmit={(e) => { e.preventDefault(); sealTrace(); }}
+            >
+              <p className="hidden-q font-playfair italic">Leave one trace of yourself</p>
+              <p className="res-sub depth-hint">a memory, a flavour you loved once, a place you carry · the ink keeps it</p>
+              <div className="trace-input-row">
+                <input
+                  ref={traceInputRef}
+                  className="depth-input trace-input"
+                  value={traceText}
+                  onChange={(e) => {
+                    if (e.target.value.length > traceText.length) releaseTraceMote();
+                    setTraceText(e.target.value);
+                  }}
+                  placeholder="the summer my grandmother kept figs on the windowsill…"
+                  autoFocus
+                  autoComplete="off"
+                  spellCheck={false}
+                  maxLength={120}
+                  disabled={traceSealed}
+                  aria-label="Leave one trace of yourself"
+                />
               </div>
-            )}
-
-            {traceBeat === 'trace' && (
-              <form
-                className="absolute inset-0"
-                onSubmit={(e) => { e.preventDefault(); sealTrace(); }}
-              >
-                <p className="hidden-q font-playfair italic">Leave one trace of yourself</p>
-                <p className="res-sub font-playfair italic">a memory, a flavour you loved once, a place you carry · the ink keeps it</p>
-                <div className="trace-input-row">
-                  <input
-                    ref={traceInputRef}
-                    className="depth-input trace-input"
-                    value={traceText}
-                    onChange={(e) => {
-                      if (e.target.value.length > traceText.length) releaseTraceMote();
-                      setTraceText(e.target.value);
-                    }}
-                    placeholder="the summer my grandmother kept figs on the windowsill…"
-                    autoFocus
-                    autoComplete="off"
-                    spellCheck={false}
-                    maxLength={120}
-                    disabled={traceSealed}
-                    aria-label="Leave one trace of yourself"
-                  />
-                </div>
-                <button type="submit" className="res-seal font-playfair italic" style={{ opacity: traceSealed ? 0 : 0.85 }}>
-                  {traceText.trim() ? 'let it settle' : 'leave nothing but tonight'}
-                </button>
-              </form>
-            )}
+              <button type="submit" className="res-seal" style={{ opacity: traceSealed ? 0 : 1 }}>
+                Continue
+              </button>
+            </form>
 
             {traceSealed && <div className="trace-bloom absolute inset-0 pointer-events-none" />}
           </div>

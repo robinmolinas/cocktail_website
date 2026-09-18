@@ -9,7 +9,7 @@ export interface Answers {
   age: string;
   gender: string | null;
   color: string; // hex
-  colorName: string; // liqueur-anchored name, e.g. "Campari Red" (H2 · The Seed)
+  colorName: string; // liqueur + colour, e.g. "Aperol Orange" (H2 · The Seed)
   colorTouched: boolean;
   gravity: Record<string, number>; // 0..100 per polarity, 0 = first pole (H3 · The Gravity)
   selfScales: Record<string, number>; // 0..100, key = ScaleDef id
@@ -23,7 +23,6 @@ export interface Answers {
   drawnToward: string[]; // H5 · "What are you most drawn toward right now?" (up to 3)
   soughtFor: string[]; // H5 · "What do people often come to you for?" (up to 3)
   styles: string[]; // up to 3
-  frequency: string | null;
   flavors: string[]; // up to 3
   drinkScales: Record<string, number>;
   allergies: string;
