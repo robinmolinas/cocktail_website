@@ -1,0 +1,918 @@
+{
+ "_units": "abv %vol; sugar g per 100 ml (solids: % by mass); acid % titratable; dash = 0.8 ml; drop = 0.05 ml",
+ "_veto_enum": [
+  "egg-white",
+  "dairy",
+  "gluten",
+  "nuts",
+  "spice"
+ ],
+ "_rules": [
+  "Vetoes are medical: classify on the safe side (Robin 2026-09-24)",
+  "nutmeg, coconut, orgeat, amaretto, hazelnut liqueur, pine nuts -> nuts",
+  "cream liqueurs, butter-washed spirits -> dairy",
+  "undistilled beer/malt -> gluten; distilled grain spirits are NOT gluten",
+  "spice = heat only (bitters and baking spices are not spice)",
+  "wine fining agents ignored unless a named bottle is labelled",
+  "unknown ingredient -> the Mixologist adds it with scripts/add_ingredient.py, allergens on the safe side (every veto it could plausibly touch). His call, not Robin's: the guest's own veto protects them. The table follows the drink, never limits it (Robin 2026-09-25)"
+ ],
+ "ingredients": {
+  "scotch_blended": {
+   "name": "blended scotch whisky",
+   "abv": 40,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid (40% typical label)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "scotch_peated": {
+   "name": "peated scotch whisky",
+   "abv": 43,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid (typical label)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "bourbon": {
+   "name": "bourbon",
+   "abv": 45,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid (45% typical label)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "rye": {
+   "name": "rye whiskey",
+   "abv": 50,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid (Rittenhouse 50%, LI Manhattan)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "cognac": {
+   "name": "cognac",
+   "abv": 41,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid (41%, LI recipes)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "brandy_unaged_grape": {
+   "name": "unaged grape brandy (e.g. pisco)",
+   "abv": 40,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "apple_brandy": {
+   "name": "apple brandy",
+   "abv": 50,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid (50%, LI recipes)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "rum_aged": {
+   "name": "aged rum",
+   "abv": 40,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "rum_white": {
+   "name": "white rum",
+   "abv": 40,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "gin_london_dry": {
+   "name": "London dry gin",
+   "abv": 47,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid (typical 40-47%)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "vodka": {
+   "name": "vodka",
+   "abv": 40,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "tequila_blanco": {
+   "name": "tequila blanco",
+   "abv": 40,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "mezcal": {
+   "name": "mezcal",
+   "abv": 45,
+   "sugar": 0,
+   "acid": 0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "absinthe": {
+   "name": "absinthe",
+   "abv": 68,
+   "sugar": 0,
+   "acid": 0,
+   "source": "unsourced standard value (label range 45-74%)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "sweet_vermouth": {
+   "name": "sweet vermouth",
+   "abv": 16.5,
+   "sugar": 16.0,
+   "acid": 0.6,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137): generic sweet vermouth",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "dry_vermouth": {
+   "name": "dry vermouth",
+   "abv": 17.5,
+   "sugar": 3.0,
+   "acid": 0.6,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137): generic dry vermouth",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "blanc_vermouth": {
+   "name": "blanc vermouth",
+   "abv": 16.0,
+   "sugar": 13.0,
+   "acid": 0.6,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137): Dolin Blanc",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "lillet_blanc": {
+   "name": "Lillet Blanc",
+   "abv": 17.0,
+   "sugar": 9.5,
+   "acid": 0.6,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "oloroso_dry": {
+   "name": "dry oloroso sherry",
+   "abv": 19,
+   "sugar": 0.3,
+   "acid": 0.5,
+   "source": "unsourced standard value",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "fino": {
+   "name": "fino sherry",
+   "abv": 15,
+   "sugar": 0.1,
+   "acid": 0.5,
+   "source": "unsourced standard value",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "amontillado": {
+   "name": "amontillado sherry",
+   "abv": 17,
+   "sugar": 0.2,
+   "acid": 0.5,
+   "source": "unsourced standard value",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "px_sherry": {
+   "name": "Pedro Ximenez sherry",
+   "abv": 17,
+   "sugar": 40,
+   "acid": 0.5,
+   "source": "unsourced standard value",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "champagne_brut": {
+   "name": "brut champagne",
+   "abv": 12,
+   "sugar": 0.8,
+   "acid": 0.7,
+   "source": "unsourced standard value",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "red_wine_cabernet": {
+   "name": "Cabernet Sauvignon",
+   "abv": 14.5,
+   "sugar": 0.2,
+   "acid": 0.55,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "triple_sec": {
+   "name": "orange liqueur (triple sec / Cointreau style)",
+   "abv": 40,
+   "sugar": 25.0,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137): Cointreau",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "campari": {
+   "name": "Campari",
+   "abv": 24,
+   "sugar": 24.0,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "green_chartreuse": {
+   "name": "green Chartreuse",
+   "abv": 55,
+   "sugar": 25.0,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "yellow_chartreuse": {
+   "name": "yellow Chartreuse",
+   "abv": 40,
+   "sugar": 31.2,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "benedictine": {
+   "name": "Benedictine",
+   "abv": 40,
+   "sugar": 24.5,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "maraschino": {
+   "name": "maraschino liqueur",
+   "abv": 32,
+   "sugar": 35.0,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137): Luxardo; allergen reclassified to nuts by Tomás 2026-09-26 (creator-regular-guy): distilled from marasca cherries with their crushed stones, almond-like (Cocktail Codex p. 174), same safe-side call as amaretto",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid"
+  },
+  "drambuie": {
+   "name": "Drambuie",
+   "abv": 40,
+   "sugar": 30.0,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "fernet": {
+   "name": "Fernet-Branca",
+   "abv": 39,
+   "sugar": 8.0,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "creme_de_cacao_white": {
+   "name": "white creme de cacao",
+   "abv": 24,
+   "sugar": 39.5,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "creme_de_violette": {
+   "name": "creme de violette",
+   "abv": 20,
+   "sugar": 37.5,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "creme_de_menthe_green": {
+   "name": "green creme de menthe",
+   "abv": 25,
+   "sugar": 35,
+   "acid": 0,
+   "source": "unsourced standard value",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "creme_de_menthe_white": {
+   "name": "white creme de menthe",
+   "abv": 25,
+   "sugar": 35,
+   "acid": 0,
+   "source": "unsourced standard value",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "angostura": {
+   "name": "Angostura bitters",
+   "abv": 44.7,
+   "sugar": 4.2,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "peychauds": {
+   "name": "Peychaud's bitters",
+   "abv": 35,
+   "sugar": 9.0,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "orange_bitters": {
+   "name": "orange bitters",
+   "abv": 45,
+   "sugar": 0,
+   "acid": 0,
+   "source": "unsourced standard value",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "orange_flower_water": {
+   "name": "orange flower water",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "unsourced standard value (distilled orange-blossom water: no alcohol, sugar or acid); allergen decision: none (Robin 2026-09-25)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "lemon_juice": {
+   "name": "fresh lemon juice",
+   "abv": 0,
+   "sugar": 1.6,
+   "acid": 6.0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "lime_juice": {
+   "name": "fresh lime juice",
+   "abv": 0,
+   "sugar": 1.6,
+   "acid": 6.0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "orange_juice": {
+   "name": "fresh orange juice",
+   "abv": 0,
+   "sugar": 12.4,
+   "acid": 0.8,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "grapefruit_juice": {
+   "name": "fresh grapefruit juice",
+   "abv": 0,
+   "sugar": 10.4,
+   "acid": 2.4,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "simple_syrup": {
+   "name": "simple syrup (1:1)",
+   "abv": 0,
+   "sugar": 61.5,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "demerara_syrup": {
+   "name": "demerara syrup",
+   "abv": 0,
+   "sugar": 61.9,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "honey_syrup": {
+   "name": "honey syrup",
+   "abv": 0,
+   "sugar": 61.5,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "sugar": {
+   "name": "granulated sugar",
+   "abv": 0,
+   "sugar": 100,
+   "acid": 0,
+   "source": "pure sucrose; dissolved volume 0.63 ml per g (density 1.59)",
+   "contains": [],
+   "kind": "solid",
+   "ml_per_g": 0.63
+  },
+  "sugar_cube": {
+   "name": "sugar cube",
+   "abv": 0,
+   "sugar": 100,
+   "acid": 0,
+   "source": "~4 g per cube; dissolved volume 0.63 ml per g",
+   "contains": [],
+   "kind": "solid",
+   "g_per_count": 4,
+   "ml_per_g": 0.63
+  },
+  "black_tea": {
+   "name": "cold black tea",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "unsourced standard value (unsweetened)",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "water": {
+   "name": "water",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "-",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "soda_water": {
+   "name": "soda water",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "-",
+   "contains": [],
+   "kind": "liquid"
+  },
+  "lemon_peel": {
+   "name": "lemon peel",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "-",
+   "contains": [],
+   "kind": "garnish"
+  },
+  "orange_peel": {
+   "name": "orange peel",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "-",
+   "contains": [],
+   "kind": "garnish"
+  },
+  "sage_leaf": {
+   "name": "fresh sage leaf",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "-",
+   "contains": [],
+   "kind": "garnish"
+  },
+  "mint_sprig": {
+   "name": "mint sprig",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "-",
+   "contains": [],
+   "kind": "garnish"
+  },
+  "brandied_cherry": {
+   "name": "brandied cherry",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "-",
+   "contains": [],
+   "kind": "garnish"
+  },
+  "ice_block": {
+   "name": "large block of ice",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "-",
+   "contains": [],
+   "kind": "garnish"
+  },
+  "nutmeg": {
+   "name": "grated nutmeg",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "-",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "garnish",
+   "why": "Robin 2026-09-24: nutmeg counts as nuts, to be safe"
+  },
+  "orgeat": {
+   "name": "orgeat (almond syrup)",
+   "abv": 0,
+   "sugar": 61.5,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137): any nut orgeat",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid"
+  },
+  "amaretto": {
+   "name": "amaretto",
+   "abv": 28,
+   "sugar": 25,
+   "acid": 0,
+   "source": "unsourced standard value",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid"
+  },
+  "hazelnut_liqueur": {
+   "name": "hazelnut liqueur",
+   "abv": 20,
+   "sugar": 30,
+   "acid": 0,
+   "source": "unsourced standard value",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid"
+  },
+  "coconut_cream": {
+   "name": "coconut cream",
+   "abv": 0,
+   "sugar": 20,
+   "acid": 0,
+   "source": "unsourced standard value",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "why": "conservative: coconut counts as nuts"
+  },
+  "coconut_water": {
+   "name": "coconut water",
+   "abv": 0,
+   "sugar": 6.0,
+   "acid": 0,
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "why": "conservative: coconut counts as nuts"
+  },
+  "cream": {
+   "name": "heavy cream",
+   "abv": 0,
+   "sugar": 3,
+   "acid": 0,
+   "source": "unsourced standard value",
+   "contains": [
+    "dairy"
+   ],
+   "kind": "liquid"
+  },
+  "milk": {
+   "name": "whole milk",
+   "abv": 0,
+   "sugar": 5,
+   "acid": 0,
+   "source": "unsourced standard value",
+   "contains": [
+    "dairy"
+   ],
+   "kind": "liquid"
+  },
+  "cream_liqueur": {
+   "name": "Irish cream liqueur",
+   "abv": 17,
+   "sugar": 20,
+   "acid": 0,
+   "source": "unsourced standard value",
+   "contains": [
+    "dairy"
+   ],
+   "kind": "liquid"
+  },
+  "egg_white": {
+   "name": "egg white",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "~30 ml per large egg white (LI egg-white drinks)",
+   "contains": [
+    "egg-white"
+   ],
+   "kind": "liquid"
+  },
+  "beer": {
+   "name": "beer",
+   "abv": 5,
+   "sugar": 1,
+   "acid": 0.3,
+   "source": "unsourced standard value",
+   "contains": [
+    "gluten"
+   ],
+   "kind": "liquid"
+  },
+  "chilli": {
+   "name": "fresh chilli",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "-",
+   "contains": [
+    "spice"
+   ],
+   "kind": "garnish"
+  },
+  "hot_sauce": {
+   "name": "hot sauce",
+   "abv": 0,
+   "sugar": 0,
+   "acid": 0,
+   "source": "unsourced standard value",
+   "contains": [
+    "spice"
+   ],
+   "kind": "liquid"
+  },
+  "tequila_reposado": {
+   "name": "tequila reposado",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid (40% typical)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-explorer, 2026-09-26"
+  },
+  "agave_nectar": {
+   "name": "agave nectar (straight)",
+   "abv": 0.0,
+   "sugar": 100.0,
+   "acid": 0.0,
+   "source": "Liquid Intelligence p. 53: ~75% sugar by weight, dense; use ~60% of the simple-syrup volume, so ~100 g/100 ml sucrose-equivalent. Fructose tastes sweeter cold (p. 51)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-explorer, 2026-09-26"
+  },
+  "lemongrass_syrup": {
+   "name": "lemongrass syrup (1:1)",
+   "abv": 0.0,
+   "sugar": 61.5,
+   "acid": 0.0,
+   "source": "1:1 sugar syrup infused with lemongrass: sugar as LI simple syrup (pp. 136-137); lemongrass adds aroma only (Flavor Matrix pdf 164)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-explorer, 2026-09-26"
+  },
+  "salt": {
+   "name": "kosher salt (for half the rim)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "plain sodium chloride; rimmed on the outside of half the glass (Codex p. 212 method), not modelled in balance",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, creator-innocent, 2026-09-27"
+  },
+  "vanilla_syrup": {
+   "name": "vanilla syrup (1:1)",
+   "abv": 0.0,
+   "sugar": 61.5,
+   "acid": 0.0,
+   "source": "1:1 sugar syrup steeped with a split vanilla pod: sugar as LI simple syrup (pp. 136-137); vanilla adds aroma only",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-jester, 2026-09-27"
+  },
+  "cherry_tomato": {
+   "name": "ripe cherry tomatoes, muddled and strained (juice)",
+   "abv": 0.0,
+   "sugar": 3.5,
+   "acid": 0.45,
+   "source": "unsourced standard value (ripe tomato ~3-4 g sugars/100 g, ~0.35-0.5% titratable acid as citric); no tomato row in LI's table (pp. 136-137)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-jester, 2026-09-27"
+  },
+  "tomato_vanilla_syrup": {
+   "name": "cherry-tomato and vanilla syrup (1:1 by weight, tomato juice and sugar)",
+   "abv": 0.0,
+   "sugar": 63.9,
+   "acid": 0.28,
+   "source": "derived: 100 g strained ripe cherry-tomato juice (cherry_tomato row, unsourced standard value) + 100 g sugar ~ 162 ml (LI simple-syrup density, pp. 136-137) -> 63.9 g sugar/100 ml, 0.28% acid; vanilla pod adds aroma only",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-jester, 2026-09-27"
+  },
+  "creme_de_noyaux": {
+   "name": "crème de noyaux (apricot-kernel liqueur)",
+   "abv": 30.0,
+   "sugar": 35.0,
+   "acid": 0.0,
+   "source": "unsourced standard value (~30% ABV, sugar assumed like maraschino, LI pp. 136-137); made from apricot/peach kernels, almond-flavoured: nuts on the safe side, same call as amaretto/maraschino",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-jester, 2026-09-27"
+  },
+  "egg_yolk": {
+   "name": "egg yolk (one large, raw)",
+   "abv": 0.0,
+   "sugar": 0.5,
+   "acid": 0.0,
+   "source": "unsourced standard value (~17 ml per large yolk, negligible sugar/acid); raw egg: the veto enum's only egg entry is 'egg-white', so a yolk counts there on the safe side",
+   "contains": [
+    "egg-white"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-jester, 2026-09-27"
+  },
+  "cherry_tomato_whole": {
+   "name": "cherry tomato (whole, garnish)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish only: one small ripe cherry tomato, slit and sat on the rim; not in the balance",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, creator-jester, 2026-09-27"
+  },
+  "cranberry_syrup": {
+   "name": "cranberry syrup (1:1 by weight, unsweetened 100% cranberry juice and sugar, stirred cold)",
+   "abv": 0.0,
+   "sugar": 64.2,
+   "acid": 1.48,
+   "source": "derived: 100 g unsweetened 100% cranberry juice (unsourced standard value: ~4 g sugars/100 g, ~2.4% titratable acid as citric) + 100 g sugar ~ 162 ml (LI simple-syrup density, pp. 136-137) -> 64.2 g sugar/100 ml, 1.48% acid. Not cranberry cocktail (Codex p. 183)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-lover, 2026-09-27"
+  },
+  "caramel_shard": {
+   "name": "dark caramel shard (sugar cooked dry to dark amber, set thin on baking paper, broken)",
+   "abv": 0.0,
+   "sugar": 100.0,
+   "acid": 0.0,
+   "source": "derived: sucrose cooked to dark amber, modelled as sucrose by mass; caramelised sugar tastes less sweet than sucrose (Liquid Intelligence pdf 187) and loses a little mass in cooking, so the printed sugar overstates the sweetness a guest tastes",
+   "contains": [],
+   "kind": "solid",
+   "added_by": "Tomás, creator-lover, 2026-09-27"
+  },
+  "absinthe_lucid": {
+   "name": "Lucid Absinthe Supérieure (62%)",
+   "abv": 62.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "label: 62% ABV (124 US proof), grande wormwood, fennel, sweet anise; Hester, fact card ted-breaux-absinthe F15 (Wikipedia citing the 2007 label approval + a specialist retailer). Unsweetened, as absinthe verte",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-lover, 2026-09-27"
+  },
+  "tamarind_water": {
+   "name": "tamarind water (100 g sour seedless tamarind pulp block soaked in 250 ml hot water, pressed through a sieve)",
+   "abv": 0.0,
+   "sugar": 10.0,
+   "acid": 2.0,
+   "source": "Hester's tamarind fact card (El-Siddig et al. 2006, secondary): dried pulp 8-18% tartaric (about half bound as cream of tartar, not sour) and 25-45% sugars; at 100 g : 250 ml, total acid 2.3-5.1%, sour part ~half; sugar 7-13 g/100. F5: a 20-24% pulp drink syrup ~1.11% total acidity. Row uses the middle of the sour range (2.0%) and of sugar (10). Sour block only (sweet Thai 2-3%). Revised by Tomás round 4 (was 20 g / 4.0%, an overestimate).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-magician, 2026-09-27"
+  },
+  "vodka_citrus": {
+   "name": "citrus vodka (lemon-flavoured, unsweetened, e.g. Absolut Citron style)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "unsourced standard value: flavoured vodkas of the Citron style are bottled at 40% and read as unsweetened; if a bottle is sweetened, sugar is understated",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-magician, 2026-09-27"
+  },
+  "cranberry_juice_unsweetened": {
+   "name": "unsweetened 100% cranberry juice (bottled, 'just cranberry')",
+   "abv": 0.0,
+   "sugar": 4.0,
+   "acid": 2.4,
+   "source": "unsourced standard value (same basis as cranberry_syrup's juice: ~4 g sugars/100 g, ~2.4% titratable acid as citric). Codex p. 183: 'very tannic'",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-magician, 2026-09-27"
+  },
+  "cranberry_cocktail": {
+   "name": "cranberry juice cocktail (sweetened, ~27% juice)",
+   "abv": 0.0,
+   "sugar": 12.5,
+   "acid": 0.65,
+   "source": "unsourced estimate: ~30 g sugars per 240 ml label serving; acid = 27% of unsweetened juice's 2.4%. For the 'before' comparison only",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-magician, 2026-09-27"
+  },
+  "rum_aged_tea": {
+   "name": "aged rum steeped with black tea (about 30 g loose black tea per litre, 20-40 minutes, strained)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "method after LI p. 268-269 (Arnold's tea vodka: 32 g tea per 1 L, 20-40 min, 'go dark'); tea adds no measurable sugar or acid; a little rum is lost in the leaves, ABV change ignored",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-magician, 2026-09-27"
+  },
+  "basil_leaf": {
+   "name": "fresh basil leaf (sweet/Genovese basil)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "herb leaf, shaken with the drink for aroma and fine-strained out; not modelled in balance. Pairing: Flavor Matrix, Berry (pdf 52: basil a surprise pairing for berries incl. cranberry) and Kiwi (pdf 156: basil and vaccinium both surprise pairings)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, creator-outlaw, 2026-09-27"
+  },
+  "green_olive_brine": {
+   "name": "green olive brine (from plain, unstuffed green olives in brine)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.5,
+   "source": "unsourced standard value: brine of salt, water and a little lactic acid/vinegar; salt ~8% not modelled; dosed by the dash as a seasoning",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-ruler, 2026-09-27"
+  },
+  "passion_fruit_syrup": {
+   "name": "passion fruit syrup (1:1 by weight, fresh or bottled juice and sugar)",
+   "abv": 0.0,
+   "sugar": 60.0,
+   "acid": 1.8,
+   "source": "unsourced standard value: 1:1 juice:sugar by weight; passion fruit juice ~3.5% acid (citric), halved; sugar as a 1:1 syrup",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, creator-sage, 2026-09-27"
+  },
+  "lime_caraway_cordial": {
+   "name": "lime and caraway cordial (150 ml fresh lime juice, 150 g sugar, zest of 4 limes, 1 tsp caraway seeds; warmed to dissolve, never boiled, steeped 20 min, strained)",
+   "abv": 0.0,
+   "sugar": 62.7,
+   "acid": 3.7,
+   "source": "computed from its recipe with LI table values (lime juice 1.6 g sugar / 6.0% acid; sugar 0.62 ml per g dissolved): 152.4 g sugar and 9 g acid in ~243 ml; zest and seeds carry aroma only; unsourced for heat losses",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, caregiver-creator, 2026-09-27"
+  }
+ }
+}

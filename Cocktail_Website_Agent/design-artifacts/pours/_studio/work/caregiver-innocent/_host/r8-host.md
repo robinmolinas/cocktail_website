@@ -1,0 +1,1 @@
+🕯️ **Host:** Hester's sign-off was conditional on her Structure edit landing exactly as quoted. What landed differs in two places: the Core reads "gin (Plymouth; or any London dry that lists angelica among its botanicals)", and the Seasoning line cites pdf 1541 without the "its seven by 1860" clause. I asked her directly whether her sign-off stands on that exact text.

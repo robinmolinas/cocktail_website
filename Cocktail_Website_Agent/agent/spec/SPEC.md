@@ -3,12 +3,13 @@ id: SPEC-cocktail-agent-pipeline
 companions:
   - pipeline-stages.md       # the 5-stage agent I/O contract + two-tier data flow
   - personality-model.md     # 12 archetypes + 132-persona matrix + roulette mechanic + source-data map
-  - output-contract.md       # the structured payload the React/Vite front-end renders
 sources:
   - ../../../PRODUCT.md
   - ../../design-artifacts/A-Product-Brief/project-brief.md
   - ../../Knowledge base/cocktail_counsel_knowledge_base.md
 ---
+
+> ⚠️ **Partly superseded (2026-09-23) — pending a `bmad-spec` refresh.** Where this spec conflicts with `../ARCHITECTURE-SPINE.md`, the spine wins: vetoes now steer the match (the "no allergen accommodation" constraint is gone; "Alcohol" is not a veto; no zero-proof at launch); the canonical intake is the live journey (`Answers` v2), not the revamped questionnaire docx; `output-contract.md` is archived (the reading = tagline + epigraph + 2 paragraphs, never persisted); the trace never reaches the server.
 
 > **Canonical contract.** This SPEC and the files in `companions:` are the complete, preservation-validated contract for what to build, test, and validate. Source documents in frontmatter are for traceability only. The questionnaire, the Brand Personality + Roulette workbook, the ingredient inventory, and the persona fixtures are **live source data downstream MUST read** — mapped in `pipeline-stages.md` and `personality-model.md`, not duplicated here.
 

@@ -2,6 +2,27 @@
 @import "tailwindcss";
 
 body { font-family: 'Inter', sans-serif; }
+
+/* The reading is a dark room all the way to the browser chrome. The root owns
+   the viewport scrollbar, so styling only .tr-root leaves a bright system rail
+   at the right edge. TheReading toggles this class only while the room is open. */
+html.reading-room {
+  scrollbar-color: rgba(207, 196, 174, 0.28) #080706;
+  scrollbar-width: thin;
+  background: #080706;
+}
+html.reading-room::-webkit-scrollbar { width: 7px; height: 7px; }
+html.reading-room::-webkit-scrollbar-track { background: #080706; }
+html.reading-room::-webkit-scrollbar-thumb {
+  min-height: 48px;
+  border: 1px solid #080706;
+  border-radius: 999px;
+  background: rgba(207, 196, 174, 0.24);
+}
+html.reading-room::-webkit-scrollbar-thumb:hover {
+  background: rgba(207, 196, 174, 0.4);
+}
+html.reading-room::-webkit-scrollbar-corner { background: #080706; }
 /* the fixed "Dionysus" home mark measured 117×28 CSS px — every other surface
    shares this one path back, so its tap target gets the same treatment as
    .tr-cue: an invisible ::before, no change to the visible mark */
@@ -1466,10 +1487,24 @@ body { font-family: 'Inter', sans-serif; }
   background: var(--night);
   color: var(--keepsake-body);
   --p: 0;
-  --gx: calc(49% + var(--p) * 10%);
-  --gy: 53%;
-  /* the scale at which the whole scene fits the frame (set from JS) */
-  --fit: 0.75;
+  /* how far through the letter she is (set from JS) — drives the margin spine */
+  --rp: 0;
+  --gx: calc(var(--glass-x, 49%) + var(--p) * 10%);
+  --gy: var(--glass-y, 53%);
+  /* The scale at which the whole scene fits the frame (set from JS on the first
+     frame). The fallback is 1, not a guessed crop: if the measurement has not
+     landed yet the room should open un-zoomed rather than jump out of a wrong
+     one. Now that the wide masters are 16:9 this is also the true value on any
+     16:9 display. */
+  --fit: 1;
+  /* The scale the room RESTS at, and the far end of its slow breath. The
+     arrival has to land on exactly --rest, because the breath starts there:
+     these were written as two literals (1.06 and 1.055) that disagreed by
+     0.47%, so the moment the arrival handed over to the breath the room
+     snapped back a step — a visible pop at the end of a four-second push-in.
+     One value, used by both, is what stops that happening again. */
+  --rest: 1.055;
+  --ken: 1.115;
   /* H11: the friend's page opens on the sharer's name alone in the dark */
   --greet: 0s;
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
@@ -1484,7 +1519,7 @@ body { font-family: 'Inter', sans-serif; }
    scene exactly instead of drifting away from its tag */
 .tr-frame {
   position: absolute; inset: 0;
-  transform: scale(1.06);
+  transform: scale(var(--rest));
   animation: tr-ken 52s ease-in-out infinite alternate;
   will-change: transform;
   /* while the arrival holds the WHOLE scene (scale < 1) the frame's edges would
@@ -1517,18 +1552,22 @@ body { font-family: 'Inter', sans-serif; }
   to   { clip-path: inset(-25% -10% -25% 0); opacity: 1; }
 }
 @keyframes tr-ken {
-  from { transform: scale(1.055) translate3d(0, 0, 0); }
-  to   { transform: scale(1.115) translate3d(-1.6%, -1.2%, 0); }
+  from { transform: scale(var(--rest)) translate3d(0, 0, 0); }
+  to   { transform: scale(var(--ken)) translate3d(-1.6%, -1.2%, 0); }
 }
 
-/* the candles breathe — a warm pulse over the glass, never a tint on it */
+/* ---------- one continuous room ----------
+   The landscape master is 16:9 and the frame always fills the viewport. Cover
+   trims only the production safe area: roughly 5% from each side on a 16:10
+   laptop, or 6–7% from top and bottom on a 2:1 display. The drink, physical tag
+   and personality evidence are composed inside that protected centre, so no
+   contained picture, black gutter or feathered card edge is needed. */
+
+/* The source photograph owns the light on the drink. A colour bloom here
+   violates the Sacred Glass Rule and makes otherwise neutral assets amber. */
 .tr-candle {
-  position: absolute; inset: 0; pointer-events: none; mix-blend-mode: screen;
-  background: radial-gradient(38% 46% at var(--gx) var(--gy),
-    rgba(255,176,136,0.16) 0%, rgba(232,112,42,0.07) 38%, transparent 68%);
-  animation: tr-flicker 7.5s ease-in-out infinite alternate;
+  display: none;
 }
-@keyframes tr-flicker { from { opacity: 0.72; } to { opacity: 1; } }
 
 /* ---------- the weather: fog crossing the room, held off the glass ---------- */
 .tr-haze {
@@ -1590,11 +1629,11 @@ body { font-family: 'Inter', sans-serif; }
   font-size: clamp(2.4rem, 5vw, 4.4rem); line-height: 1.1; color: var(--keepsake-title); letter-spacing: -0.02em;
   margin: 0; padding-bottom: 0.06em; text-wrap: balance;
   text-shadow: 0 2px 34px rgba(0,0,0,0.85), 0 0 84px rgba(200,16,46,0.20); }
-.tr-for { --d: 2s; font-family: 'Playfair Display', serif; font-style: italic; font-weight: 400;
+.tr-for { --d: 1.5s; font-family: 'Playfair Display', serif; font-style: italic; font-weight: 400;
   font-size: clamp(1.02rem, 1.36vw, 1.35rem); color: var(--candle-ivory); opacity: 0.93; margin: 1.15rem 0 0; line-height: 1.42;
   text-wrap: pretty; max-width: 34ch;
   text-shadow: 0 1px 18px rgba(0,0,0,0.9); }
-.tr-cue {--d: 3.05s; position: relative; display: inline-flex; align-items: center; gap: 0.6rem; margin-top: clamp(1.8rem, 3.4vh, 2.8rem);
+.tr-cue {--d: 2.3s; position: relative; display: inline-flex; align-items: center; gap: 0.6rem; margin-top: clamp(1.8rem, 3.4vh, 2.8rem);
   font-size: 0.64rem; letter-spacing: 0.26em; text-transform: uppercase; color: var(--candle-ivory); opacity: 0.7;
   text-decoration: none; pointer-events: auto; white-space: nowrap;
   text-shadow: 0 1px 12px rgba(0,0,0,0.9); transition: opacity 0.5s var(--ease); }
@@ -1630,7 +1669,7 @@ body { font-family: 'Inter', sans-serif; }
 @keyframes tr-open {
   0%   { opacity: 0; filter: blur(28px) brightness(0.32); transform: scale(var(--fit)); }
   38%  { opacity: 1; filter: blur(0) brightness(1);       transform: scale(var(--fit)); }
-  100% { opacity: 1; filter: blur(0) brightness(1);       transform: scale(1.06); }
+  100% { opacity: 1; filter: blur(0) brightness(1);       transform: scale(var(--rest)); }
 }
 
 /* ---------- the reading, inked in the room's left margin ---------- */
@@ -1638,57 +1677,108 @@ body { font-family: 'Inter', sans-serif; }
 .tr-reading { position: relative; z-index: 5; margin-left: clamp(1.5rem, 6vw, 7rem);
   padding: 0 clamp(1.5rem, 4vw, 3rem) 18vh 0; max-width: min(34rem, 42vw); }
 .tr-label { font-size: 0.66rem; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase;
-  color: var(--gold); margin: 3.2rem 0 1.15rem; }
-.tr-section:first-child .tr-label { margin-top: 0; }
+  color: var(--gold); margin: 0 0 1.15rem; }
+
+/* ================= MOVEMENT ONE · the card ==================
+   What is in the glass and how it is built. The artifact: dense, tabular,
+   brass, read at a glance. On a wide screen the two halves sit side by side,
+   which is also what stops the page being five screens of ribbon. It is not a
+   panel — it has no border, no radius and no fill of its own; it sits on a pool
+   of night, which is how this system raises contrast (The Darkness Rule). */
+.tr-card { position: relative; }
+.tr-card-pool {
+  position: absolute; z-index: 0; pointer-events: none;
+  top: clamp(-3.4rem, -4vh, -2.2rem); bottom: clamp(-3.4rem, -4vh, -2.2rem);
+  left: -50vw; right: clamp(-7rem, -6vw, -3rem);
+  background: radial-gradient(120% 104% at 26% 50%,
+    rgba(6,5,5,0.88) 0%, rgba(6,5,5,0.70) 48%, rgba(6,5,5,0.22) 76%, transparent 100%);
+}
+.tr-card-cols { position: relative; z-index: 1; display: grid; gap: clamp(2.4rem, 4vh, 3.2rem) 0; }
 
 .tr-ing { list-style: none; padding: 0; margin: 0; }
-.tr-ing li { display: flex; gap: 1.1rem; padding: 0.66rem 0; border-bottom: 1px solid rgba(245,234,216,0.08); }
+.tr-ing li { display: flex; gap: 1.1rem; padding: 0.6rem 0; border-bottom: 1px solid rgba(245,234,216,0.08); }
 .tr-ing li:last-child { border-bottom: none; }
-.tr-amount { color: var(--gold); min-width: 4.8rem; font-variant-numeric: tabular-nums; font-size: 0.88rem; padding-top: 0.06rem; }
-.tr-item { color: var(--keepsake-body); font-size: 0.97rem; line-height: 1.55; }
+.tr-amount { color: var(--gold); min-width: 4.4rem; font-variant-numeric: tabular-nums; font-size: 0.86rem; padding-top: 0.08rem; }
+.tr-item { color: var(--keepsake-body); font-size: 0.95rem; line-height: 1.5; }
 .tr-item em { color: var(--keepsake-muted); font-style: italic; }
 
 .tr-ritual { list-style: none; counter-reset: tr-step; padding: 0; margin: 0; }
-.tr-ritual li { position: relative; padding: 0.62rem 0 0.62rem 2.5rem; counter-increment: tr-step;
-  color: var(--keepsake-body); font-size: 0.97rem; line-height: 1.72; }
-.tr-ritual li::before { content: counter(tr-step); position: absolute; left: 0; top: 0.66rem; color: var(--gold);
-  font-variant-numeric: tabular-nums; font-size: 0.85rem; }
+.tr-ritual li { position: relative; padding: 0.5rem 0 0.5rem 2.3rem; counter-increment: tr-step;
+  color: var(--keepsake-body); font-size: 0.95rem; line-height: 1.66; }
+.tr-ritual li::before { content: counter(tr-step); position: absolute; left: 0; top: 0.58rem; color: var(--gold);
+  font-variant-numeric: tabular-nums; font-size: 0.82rem; }
 
+/* ================= MOVEMENT TWO · the letter ==================
+   Who she is, in the fortune teller's voice. A change of material and of
+   rhythm: one measure held at ~69ch, and — the fault that made this read as a
+   wall — paragraph gaps that are now LARGER than the leading. They used to be
+   1rem against a 28.2px line height, so paragraphs could not separate. */
+/* 36rem measures ~67 characters at this size — inside the 65–75 band where
+   prose actually reads; 34rem was landing at 63 */
+.tr-why { position: relative; max-width: 36rem; margin-top: clamp(5rem, 10vh, 8.5rem); }
+.tr-why .tr-label { margin-bottom: 0.9rem; }
+/* the essence now sits above the epigraph, so the scale only ever climbs into
+   the voice instead of dipping through its smallest step on the way there */
+.tr-essence { color: var(--keepsake-muted); font-size: 0.82rem; letter-spacing: 0.03em; margin: 0 0 1.5rem; }
 .tr-why .tr-epigraph { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 400;
-  font-size: clamp(1.32rem, 1.9vw, 1.72rem); line-height: 1.34; color: var(--keepsake-title); margin: 1.1rem 0 0.5rem;
+  font-size: clamp(1.34rem, 1.9vw, 1.74rem); line-height: 1.32; color: var(--keepsake-title);
+  margin: 0 0 2.1rem; max-width: 30ch; text-wrap: pretty;
   text-shadow: 0 0 34px rgba(200,16,46,0.18); }
-.tr-essence { color: var(--keepsake-muted); font-size: 0.86rem; letter-spacing: 0.01em; margin: 0 0 1.4rem; }
-.tr-why p { color: var(--keepsake-body); font-size: 0.98rem; line-height: 1.8; margin: 1rem 0; }
+.tr-why p { color: var(--keepsake-body); font-size: 0.99rem; line-height: 1.72; margin: 1.95rem 0; text-wrap: pretty; }
+/* the letter opens — one step brighter and larger, so there is somewhere to
+   start rather than eight identical blocks */
+.tr-why .tr-epigraph + p { font-size: 1.07rem; line-height: 1.66; color: var(--keepsake-title); margin-top: 0; }
+.tr-why p:last-of-type { margin-bottom: 0; }
 
-.tr-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: 3.2rem; }
+/* the pour's own last words. They used to render as an anonymous grey
+   paragraph while an orphaned "The ink has settled" — a leftover from the
+   retired nib reveal — took the ending it was written for. */
+.tr-why .tr-closing {
+  position: relative;
+  margin: 3.2rem 0 0;
+  padding-top: 1.8rem;
+  font-family: 'Playfair Display', serif; font-style: italic;
+  font-size: clamp(1.06rem, 1.2vw, 1.2rem); line-height: 1.5;
+  color: var(--keepsake-title);
+}
+.tr-why .tr-closing::before {
+  content: ''; position: absolute; top: 0; left: 0; width: 3.2rem; height: 1px;
+  background: linear-gradient(to right, var(--gold), transparent);
+}
 
-/* the coda — the last thing she reads. Deliberately quieter than the actions
-   above it: the ritual closing, not a third button competing with them. */
-.tr-coda {
-  margin-top: 3.4rem;
-  padding-top: 1.6rem;
-  border-top: 1px solid rgba(245, 234, 216, 0.09);
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 0.95rem;
-  color: var(--keepsake-muted);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.7rem;
+/* the spine: her colour rising through the margin as she reads. The one thing
+   that makes four screens of prose feel navigable, and it stays a line of
+   light in the margin — never a scrollbar, never a percentage. */
+.tr-spine { position: absolute; left: -2.2rem; top: 0.5rem; bottom: 4rem; width: 1px;
+  background: rgba(245,234,216,0.09); }
+.tr-spine span { position: absolute; top: 0; left: 0; width: 1px; height: calc(var(--rp) * 100%);
+  background: linear-gradient(to bottom, transparent, var(--c));
+  box-shadow: 0 0 9px -1px var(--c); }
+
+/* one action is the point of this page; the other two are not. They used to be
+   three identical pills, which is no hierarchy at all. */
+.tr-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.1rem 1.8rem; margin-top: 3.6rem; }
+.tr-quiet-row { display: flex; flex-wrap: wrap; gap: 1.6rem; }
+.tr-quiet { font-family: 'Inter', sans-serif; font-size: 0.78rem; letter-spacing: 0.05em;
+  background: none; border: 0; padding: 0.28rem 0; color: var(--keepsake-muted); cursor: pointer;
+  border-bottom: 1px solid rgba(245,234,216,0.18);
+  transition: color 0.45s var(--ease), border-color 0.45s var(--ease); }
+.tr-quiet:hover { color: var(--candle-ivory); border-bottom-color: var(--c); }
+.tr-quiet:focus-visible { outline: 2px solid var(--c); outline-offset: 4px; border-radius: 999px; }
+
+/* the surfaces we did not draw still belong to the room */
+.tr-root ::selection { background: color-mix(in oklab, var(--c) 32%, transparent); color: #fffaf0; }
+
+/* ---------- wide screens: the card opens into two columns ---------- */
+@media (min-width: 1100px) {
+  .tr-reading { max-width: min(52rem, 50vw); }
+  .tr-card-cols {
+    grid-template-columns: minmax(12rem, 16rem) 1fr;
+    gap: 0 clamp(2.2rem, 3.4vw, 4rem);
+    align-items: start;
+  }
 }
-.tr-coda-door {
-  font: inherit;
-  background: none;
-  border: none;
-  padding: 0;
-  color: var(--keepsake-body);
-  cursor: pointer;
-  border-bottom: 1px solid rgba(245, 234, 216, 0.28);
-  transition: color 0.45s var(--ease), border-color 0.45s var(--ease);
-}
-.tr-coda-door:hover { color: #fffaf0; border-bottom-color: var(--vermilion); }
-.tr-coda-door:focus-visible { outline: 2px solid var(--vermilion); outline-offset: 3px; border-radius: 999px; }
+
 .tr-pill { font-family: 'Inter', sans-serif; font-size: 0.78rem; letter-spacing: 0.03em; color: var(--candle-ivory);
   background: rgba(255,255,255,0.03); border: 1px solid rgba(245,234,216,0.22); border-radius: 999px;
   padding: 0.72rem 1.95rem; cursor: pointer;
@@ -1698,12 +1788,16 @@ body { font-family: 'Inter', sans-serif; }
 
 /* ---------- narrow viewports: the room stays, the margin runs beneath it ---------- */
 @media (max-width: 900px) {
-  .tr-root { --gx: 50%; --gy: 46%; }
   .tr-frame img { object-position: 50% 44%; }
   .tr-hero { max-width: none; padding: 0 7vw 9vh; }
   /* nowrap is a desktop-only guard; on a phone it would clip off the edge */
   .tr-kicker { white-space: normal; letter-spacing: 0.22em; }
   .tr-reading { margin-left: 0; padding: 0 7vw 18vh; max-width: none; }
+  .tr-why { max-width: 36rem; margin-top: clamp(3.6rem, 7vh, 5rem); }
+  /* the pool's bleed is measured against the column's own 7vw padding here, so
+     it reaches both viewport edges exactly instead of pushing the document
+     21px wider than the screen */
+  .tr-card-pool { left: -7vw; right: -7vw; }
   .tr-vig { background:
     radial-gradient(96% 54% at 50% 42%, transparent 30%, rgba(6,5,5,0.55) 84%, rgba(6,5,5,0.86) 100%),
     linear-gradient(to top, rgba(6,5,5,0.86) 0%, rgba(6,5,5,0.30) 30%, transparent 54%); }
@@ -1716,11 +1810,17 @@ body { font-family: 'Inter', sans-serif; }
   .tr-title { font-size: clamp(2rem, 8vw, 2.4rem); }
 }
 
+/* the spine needs a margin to live in; below the two-column breakpoint the
+   column runs to the edge, so it would sit on top of its own first character */
+@media (max-width: 1099px) {
+  .tr-spine { display: none; }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .tr-frame { animation: none; transform: scale(1.06); }
+  .tr-frame { animation: none; transform: scale(var(--rest)); }
   .tr-band, .tr-grain, .tr-candle, .tr-cue svg, .tr-cue .tr-dot { animation: none; }
   .tr-hero-inner > * { animation: none !important; opacity: 1; transform: none; filter: none; }
-  .tr-intro .tr-frame { animation: none; opacity: 1; filter: none; transform: scale(1.06); }
+  .tr-intro .tr-frame { animation: none; opacity: 1; filter: none; transform: scale(var(--rest)); }
   .tr-tagname.tr-inking { animation: none; opacity: 1; clip-path: inset(-25% -10% -25% 0); }
   .tr-intro .tr-haze, .tr-intro .tr-candle { animation: none; opacity: 1; }
   .tr-intro::after { animation-duration: 0.35s; }
@@ -1806,66 +1906,131 @@ body { font-family: 'Inter', sans-serif; }
    its own copy of the drink or the PDF opens on a title and no cocktail. */
 .tr-print-plate { display: none; }
 
+/* Two sheets, and the first one is the reason to press print: the drink, its
+   name, and everything you need to build it — on one page, nothing split. The
+   letter follows on its own sheet. The page itself is the white; we print no
+   background tint, because a full-bleed wash is the fastest way to make someone
+   regret printing (and the old warm-paper fill did exactly that). */
+@page { size: A4; margin: 16mm 15mm 14mm; }
+
 @media print {
-  .tr-root { background: var(--paper) !important; color: var(--ink); min-height: auto; }
+  /* The page is the white. Nothing paints a background — the app shell carries
+     bg-[#0d0b09] and would otherwise flood every sheet with black ink, which is
+     both unreadable and the fastest way to make someone regret pressing print. */
+  html, body, #root, #root > div, .tr-root {
+    background: none !important;
+    background-color: transparent !important;
+  }
+  .tr-root { color: var(--ink); min-height: auto; }
   /* the full-bleed scene, stage overlays, and arrival veil are visual-only */
   .tr-stage, .tr-intro::after, .tr-greet { display: none !important; }
-  /* …so the drink is printed here instead, at the head of the page */
+
+  /* the head of the sheet: the drink on the left, its name beside it, rather
+     than a centred stamp with the title stranded underneath */
+  .tr-root main {
+    display: grid;
+    grid-template-columns: 66mm 1fr;
+    column-gap: 11mm;
+    align-items: end;
+  }
   .tr-print-plate {
     display: block !important;
-    margin: 0 0 1.6rem;
+    grid-column: 1; grid-row: 1;
+    margin: 0;
     break-inside: avoid;
-    break-after: avoid;
   }
   .tr-print-plate img {
-    display: block;
-    width: 100%;
-    max-width: 88mm;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 2px;
+    display: block; width: 100%; height: auto; margin: 0;
   }
-  /* who it was poured for — the tag is part of the hidden scene, so the
-     dedication has to be set as type on the page */
+  /* who it was poured for — the tag belongs to the hidden scene, so the
+     dedication is set as type, tight under the plate where it reads as a caption */
   .tr-print-for {
-    margin: 1.1rem 0 0;
-    text-align: center;
+    margin: 3mm 0 0;
     font-family: 'Inter', sans-serif;
-    font-size: 0.68rem;
-    font-weight: 500;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
+    font-size: 7.4pt; font-weight: 500;
+    letter-spacing: 0.18em; text-transform: uppercase;
     color: var(--gold) !important;
   }
-  /* hero: unfix, show as a printed title block */
+  /* hero: unfix into the title block beside the plate */
   .tr-hero {
     position: static !important; max-width: 100% !important;
-    padding: 2rem 0 1.5rem !important;
+    grid-column: 2; grid-row: 1;
+    padding: 0 0 1mm !important;
     opacity: 1 !important; pointer-events: auto;
+    break-inside: avoid;
   }
   .tr-hero-inner > * { animation: none !important; opacity: 1 !important; transform: none !important; filter: none !important; }
-  .tr-kicker { color: var(--gold) !important; }
-  .tr-title { color: var(--ink) !important; text-shadow: none !important; font-size: 2.2rem !important; }
-  .tr-for   { color: #3a342a !important; text-shadow: none !important; }
+  /* every one of these carried a dark text-shadow for the candlelit room; on
+     paper that prints as a grey smudge behind the type */
+  .tr-kicker, .tr-title, .tr-for, .tr-why .tr-epigraph, .tr-why .tr-closing { text-shadow: none !important; }
+  .tr-kicker { color: var(--gold) !important; font-size: 7.4pt !important; letter-spacing: 0.22em !important; margin-bottom: 4mm !important; }
+  .tr-title { color: var(--ink) !important; font-size: 38pt !important; line-height: 1.0 !important; }
+  .tr-for   { color: #4a4238 !important; font-size: 12pt !important; margin-top: 5mm !important; max-width: 30ch; }
   .tr-cue   { display: none !important; }
-  /* the plate's caption already carries it, directly under the drink */
   .tr-kicker-for { display: none !important; }
-  /* spacer collapses — the reading follows directly below the title */
   .tr-spacer { display: none !important; }
-  /* reading column: full width, light ink */
-  .tr-reading { max-width: 100% !important; margin: 0 !important; padding: 0 0 2rem !important; }
-  .tr-label { color: var(--gold) !important; }
-  .tr-amount { color: var(--gold) !important; }
-  .tr-item, .tr-item em { color: #3a342a !important; }
-  .tr-ing li { border-bottom-color: rgba(22,20,15,0.15) !important; }
-  .tr-ritual li, .tr-ritual li::before { color: #3a342a !important; }
-  .tr-ritual li::before { color: var(--gold) !important; }
-  .tr-why .tr-epigraph { color: var(--ink) !important; text-shadow: none !important; }
-  .tr-essence { color: #6a5f52 !important; }
-  .tr-why p { color: #3a342a !important; }
+
+  /* the recipe, still two columns, still on page one */
+  .tr-reading {
+    grid-column: 1 / -1; grid-row: 2;
+    max-width: 100% !important; margin: 0 !important; padding: 0 !important;
+  }
+  .tr-card { margin-top: 13mm; padding-top: 9mm; border-top: 0.5pt solid rgba(22,20,15,0.28); }
+  .tr-card-cols .tr-section { padding-top: 1mm; }
+  .tr-card-pool, .tr-spine { display: none !important; }
+  .tr-card-cols {
+    display: grid !important;
+    grid-template-columns: 62mm 1fr !important;
+    gap: 0 10mm !important;
+    align-items: start;
+  }
+  .tr-card-cols .tr-section { break-inside: avoid; }
+  .tr-label { color: var(--gold) !important; font-size: 7.2pt !important; letter-spacing: 0.2em !important; margin-bottom: 4mm !important; }
+  .tr-amount { color: var(--gold) !important; font-size: 8.4pt !important; min-width: 17mm !important; }
+  .tr-item { font-size: 9.4pt !important; line-height: 1.45 !important; }
+  .tr-item, .tr-item em { color: #2e2921 !important; }
+  .tr-ing li { border-bottom-color: rgba(22,20,15,0.14) !important; padding: 1.9mm 0 !important; }
+  .tr-ritual li { font-size: 9.4pt !important; line-height: 1.5 !important; padding: 1.6mm 0 1.6mm 7mm !important; color: #2e2921 !important; }
+  .tr-ritual li::before { color: var(--gold) !important; font-size: 8pt !important; top: 1.7mm !important; }
+
+  /* The letter takes the second sheet and must never need a third. Two columns
+     hold roughly twice what one does, and --letter-fit (a function of this
+     pour's own length, set in TheReading.tsx) takes up whatever slack is left —
+     so a long reading steps down a size rather than spilling onto page three.
+     The epigraph, its label and the closing line span both columns, which also
+     gives the page a head and a foot. */
+  .tr-why {
+    break-before: page;
+    margin-top: 0 !important;
+    max-width: 100% !important;
+    columns: 2;
+    column-gap: 10mm;
+    orphans: 2;
+    widows: 2;
+  }
+  .tr-why .tr-label,
+  .tr-why .tr-essence,
+  .tr-why .tr-epigraph,
+  .tr-why .tr-closing { column-span: all; }
+  /* .tr-why p outranks a bare .tr-essence (0,1,1 beats 0,1,0) even with
+     !important on both, so these have to be qualified or the attribution
+     silently renders at body size */
+  .tr-why .tr-essence { color: #6a5f52 !important; font-size: calc(8.8pt * var(--letter-fit, 1)) !important; margin-bottom: 4mm !important; }
+  .tr-why .tr-epigraph { color: var(--ink) !important; font-size: calc(18pt * var(--letter-fit, 1)) !important; margin-bottom: 7mm !important; max-width: 34ch; }
+  /* tighter leading than the screen's 1.72: the columns are a narrower measure */
+  .tr-why p { color: #2e2921 !important; font-size: calc(10pt * var(--letter-fit, 1)) !important; line-height: 1.58 !important; margin: calc(4.2mm * var(--letter-fit, 1)) 0 !important; }
+  .tr-why .tr-epigraph + p { font-size: calc(10.5pt * var(--letter-fit, 1)) !important; color: #2e2921 !important; }
+  .tr-why .tr-closing {
+    color: var(--ink) !important;
+    font-size: calc(12.5pt * var(--letter-fit, 1)) !important;
+    margin-top: 7mm !important; padding-top: 5mm !important;
+    break-inside: avoid;
+  }
+  .tr-why .tr-closing::before { background: var(--gold) !important; width: 24mm; }
   .tr-private { color: #6a5f52 !important; }
-  /* actions, the coda, and dev nav are screen-only */
-  .tr-actions, .tr-coda, [class*="dev-nav"], [class*="DevNav"] { display: none !important; }
+
+  /* screen-only furniture */
+  .tr-actions, [class*="dev-nav"], [class*="DevNav"] { display: none !important; }
   /* force the keepsake's brass/ink colours to print exactly (these two
      declarations were previously loose inside the @media block — invalid CSS
      that the bundler flagged; scoped to the root here so they actually apply) */

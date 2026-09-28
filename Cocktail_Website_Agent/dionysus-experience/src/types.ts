@@ -57,5 +57,9 @@ export interface CocktailResult {
   ingredients: Ingredient[];
   procedure: string[];
   whyYou: string[];
+  /** The pour's own last words (authoring studio: `closingLine`). Set apart as
+   *  the reading's ending rather than buried as a final body paragraph. Absent
+   *  on engine-built results, which simply end on their last `whyYou`. */
+  closingLine?: string;
   agentLines: AgentLines;
 }

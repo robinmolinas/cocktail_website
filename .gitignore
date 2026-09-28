@@ -19,6 +19,12 @@ Cocktail_GPT/*.pdf
 Cocktail_Website_Agent/agent/data/fixtures/
 
 # ---------------------------------------------------------------
+# Research reference books (copyrighted PDFs/epubs)
+# ---------------------------------------------------------------
+docs/historian/
+docs/mixologist/
+
+# ---------------------------------------------------------------
 # Media — keep what the app loads, skip the drafts
 # ---------------------------------------------------------------
 Cocktail_Website_Agent/Video_drafts/
@@ -32,6 +38,12 @@ dist-ssr/
 build/
 .vite/
 *.local
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
 
 # ---------------------------------------------------------------
 # Environment and secrets

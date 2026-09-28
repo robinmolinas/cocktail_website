@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "validate:images": "node scripts/validate-persona-images.mjs",
+    "build": "npm run validate:images && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

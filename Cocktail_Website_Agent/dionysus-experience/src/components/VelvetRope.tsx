@@ -12,7 +12,7 @@
 //   the Veil pill. No boxes, no cards.
 
 import { useEffect, useState, type CSSProperties } from 'react';
-import { CONNOISSEUR_SAMPLE } from '../data/sampleResult';
+import { VISIONARY_SAMPLE } from '../data/sampleResult';
 import { pourLinkFor } from '../engine/pourLink';
 
 export default function VelvetRope({ onAnyway }: { onAnyway: () => void }) {
@@ -23,7 +23,7 @@ export default function VelvetRope({ onAnyway }: { onAnyway: () => void }) {
   // build, no server: the exemplar is an ordinary #pour= link
   useEffect(() => {
     let cancelled = false;
-    pourLinkFor({ from: '', color: '#c8102e', result: CONNOISSEUR_SAMPLE })
+    pourLinkFor({ from: '', color: '#c8102e', result: VISIONARY_SAMPLE })
       .then((url) => { if (!cancelled) setExemplar(url); });
     return () => { cancelled = true; };
   }, []);

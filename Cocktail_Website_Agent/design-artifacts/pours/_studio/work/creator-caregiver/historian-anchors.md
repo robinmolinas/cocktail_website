@@ -1,0 +1,19 @@
+# Anchors: The Sculptor (creator-caregiver), draft 1
+
+Hester, round 3. Every fact is on `_studio/fact-cards/hanky-panky.md` (F#, C#). The meanings are interpretation, and Wren can rewrite them. speaksTo uses the words in Wren's persona card.
+
+| kind | fact | meaning | speaksTo |
+| --- | --- | --- | --- |
+| lineage (person) | Ada "Coley" Coleman went to work at Claridge's after her father died in 1899. She started in the hotel's flower shop, making buttonholes for gentlemen, before she was moved to the bar, where the wine butler taught her to make a Manhattan. From 1903 she worked the Savoy's American Bar, where customers took her for the head bartender (her title is contested, C6). Oxford judges her the most famous woman bartender in Britain in her 1920s heyday. (F1, F2, F3; Oxford, COLEMAN, ADA, pdf 554) | Small things made by hand for other people to wear, long before she made a drink. The hands came first; the bar came later. | drawnToward: Beauty · lens: The real me |
+| motive (on the record) | Charles Hawtrey, actor and impresario, one of her regulars, came in worn out from overwork and asked her to make him "quite alive" again (the *Sphere*, 1926). She told the *People* (1925) that she spent hours experimenting until she had a new cocktail for him. (F4, F5) | The hours are a fact, in her own words. *Why* she spent them isn't on the record: fondness, pride and duty are all our reading, so signpost them ("I like to think…"). The shape we can state: his answer wasn't a word, it was a thing made for him alone. | soughtFor: Comfort · drawnToward: Mastery · texture: Quiet |
+| ingredient | Gin and sweet vermouth, with a small measure of Fernet-Branca: one of the first cocktails to use it. In that small dose it adds depth without making the drink plainly bitter. (F6, F9) | What made it his was the smallest thing in the glass. The care is in the measure, not the size. | soughtFor: Taste · texture: Harmonic |
+| gesture (Tomás's method, not hers) | Oxford gives the Fernet as a range, 5–10 ml (F6; C2 for other proportions). Tasting off the spoon and adding only what the person needs is **our method**. No source says Coleman made it that way. | Made to measure: her hours for one tired man, done in a minute for someone you know. (Pitfall: modern technique as origin. Never say "as she did".) | lens: The real me · texture: In control |
+| survival | It's the only one of her drinks known to survive, and the first canonical cocktail definitively credited to a woman bartender. The cocktail revival took it up again for its early, unusual Fernet. (F8, F10) | Of everything she made, the one we *know* lasted is the one made for one person (some *Savoy Cocktail Book* drinks may be hers: say "known to survive" (or the bartender's "I know of"), never "the only one"; no "we", per the one-voice rule). That's a fact; what it *means* is ours. Own the coincidence plainly. | lens: The real me · drawnToward: Belonging |
+| name (dossier only) | In 1920s slang, "hanky panky" meant trickery or conjuring, not its modern sense. (F7) | **Not in the reading** (Wren: tricks belong to *No Accident*, and here it would make her care look like sleight of hand). Kept here so nobody "explains" the name wrongly. | n/a |
+| exit (dossier only) | In December 1925 she and her colleague Kitty Burgess were retired from the Savoy bar, and Harry Craddock took over. (F11; C5) | **Not in the reading.** It's a different story (being displaced), and the reason is only Oxford's "it appears". | n/a |
+
+## Kept out of everything the guest sees
+- **"By Jove! That is the real hanky-panky!"**: one of two versions of the naming (C3). Legend at best.
+- **A year.** 1921 is only Oxford's "likely" (C4). The only hard bound: before Hawtrey died in 1923. Best: no year.
+- **Her birth year** (C1), and **"the original proportions"** (C2): no version is the original.
+- **Rodin's praticiens**: checked, true, and kept out (see `historian-mirror-hunt.md`, Round 2).

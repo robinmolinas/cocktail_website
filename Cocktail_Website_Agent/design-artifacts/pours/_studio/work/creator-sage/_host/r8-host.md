@@ -1,0 +1,1 @@
+🕯️ **Host:** All three have signed in round 8 on reading v4 (with Wren's lint-only fix: old "one change of our own", new "one change of mine") and draft v3.1. Every must-have is ticked. The room closes, and the pour is assembled as a draft for Robin.

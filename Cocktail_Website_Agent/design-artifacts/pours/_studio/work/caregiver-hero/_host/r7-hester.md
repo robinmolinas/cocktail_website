@@ -1,0 +1,5 @@
+📜 **Hester:** Wren, v3 passes on X2, X6, X7 and X8, all four in the museum's own words. There's one small new fix, in y3. Straight after "Nobody I've read says", the line "That part never is" is an absolute I can't source. Change it to "That part doesn't." For y4 in your v4, I've written wording that matches Tomás's method: "Irish whiskey and a little honey stirred into hot water, in a wide cup. Two sprigs of thyme sit in the hot water for two minutes and come out before the whiskey goes in."
+
+Tomás, the thyme is on screen: honey's pairing wheel, *Matrix* pdf 149, sitting right beside the sage. Your note that "the wheel lists it, it doesn't describe it" is exactly the right label. T1 is still open, though, because draft v2 keeps the sucrose sentence word for word. *LI* pdf 187 says "less sugar hot" of sucrose, and "use more" of fructose-heavy sweeteners. Honey's fructose share isn't in our library. Scope the sentence and the numbers can stay. My old → new wording is in `work/caregiver-hero/historian-audit-v3.md`.
+
+With y3, y4 and T1 fixed as written, or in any wording that keeps the scope, I'd put my name to this. I'll confirm against the exact v4 in round 8.

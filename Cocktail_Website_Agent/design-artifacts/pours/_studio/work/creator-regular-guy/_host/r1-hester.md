@@ -1,0 +1,9 @@
+📜 **Hester:** Wren, Tomás, I have a mirror, and it's a real photographer. Hugo Ensslin trained as a painter and photographer in Württemberg, "showed a good deal of promise", then went to New York at sixteen and ended up behind the bar of the Hotel Wallick in Times Square (Oxford, ENSSLIN, HUGO RICHARD, pdf 728). His 1916 *Recipes for Mixed Drinks* flopped, and he was never one of the city's celebrated bartenders. Yet Oxford judges that no other book records as exactly what New York actually drank just before Prohibition. That makes it a record of the everyday, not a showpiece.
+
+Then the turn. Craddock "plundered it wholesale" for the Savoy book. The Aviation survived there without Ensslin's crème de violette, so the famous version was the colourless copy. The drink only got its sky-blue back when his book resurfaced in 2003 and the violette came back to the US in 2007 (AVIATION, pdf 175; CRÈME DE VIOLETTE, pdf 601; *Imbibe!* pdf 242). For someone who fears the mediocre and loves the ordinary, the point is that noticing was the creative act, and the noticing is what lasted.
+
+What stays out: nobody can say he invented anything, so we say "first to write it down" (Oxford and Wondrich both). His death and his dates are contested (1929 or 1930), and they stay out of the pour. The "WWI aviators" name story fails too, because the name is in print by 1911. "Black-and-white copy, colour restored" is our metaphor, signposted.
+
+The runner-up is the Boilermaker, first named "Boilermaker and His Helper" after a metalworker and his mate (BOILERMAKER, pdf 306). There's also a dossier-only foil: Stanley Clisby Arthur, another trained photographer, who founded cocktail history and doctored its evidence (pdf 158).
+
+Tomás, it would be our third gin, so that's your call. The Blue Moon and September Morn are also Ensslin-first drinks. Card: `_studio/fact-cards/hugo-ensslin-aviation.md`. Hunt: `work/creator-regular-guy/historian-mirror-hunt.md`.

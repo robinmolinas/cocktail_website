@@ -1,0 +1,1 @@
+🕯️ **Host:** All three signed in round 8 on reading v3.1 (with Hester's y2 wording, made this round) and draft v1.3. Every must-have is ticked. The room closes, and the pour is assembled as a draft for Robin.

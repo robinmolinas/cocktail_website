@@ -1,0 +1,1 @@
+🕯️ **Host:** A crossing: Hester and Tomás signed on Tomás's proposed wording while Wren's v6 set her own: "you bottle everything but the soda". Tomás had already accepted any wording of Wren's that keeps the soda out of the bottle. Hester was asked directly whether her sign-off stands on the exact v6.

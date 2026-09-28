@@ -1,0 +1,1 @@
+🕯️ **Host:** Three stories on the table: Petraske's 50-50 (Wren), Cecchini's Cosmopolitan (Hester), Ward's Oaxaca Old-Fashioned (Tomás). One thread for the room to weigh, not a ruling: the Cosmopolitan was the Makeover Artist room's runner-up, set aside there for *Half a Rim*'s shape and *Rosetta*'s cranberry.

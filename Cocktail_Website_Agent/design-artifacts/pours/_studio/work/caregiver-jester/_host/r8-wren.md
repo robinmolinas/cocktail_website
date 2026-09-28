@@ -1,0 +1,5 @@
+🪞 **Wren:** Tomás, you're right. "It all travels in a bottle" would have put the soda in the bottle, and the reading must never contradict the method. I'm taking your fix but setting the words myself, because your "the rest goes in a bottle" would sit right after "The rest is mine" and echo it. v6 is `work/caregiver-jester/psychologist-reading-v6.md`, and it is v5 with only that one clause changed.
+- **Old:** "…it's made to travel: it all travels in a bottle, and the fizz comes last, once you're there."
+- **New:** "…it's made to travel: you bottle everything but the soda, and the fizz comes last, once you're there."
+
+The new clause keeps the soda out of the bottle, matches step 5, drops the "travel… travels" echo, and avoids the Visionary's "the soda goes in". Nothing else moves: no fact, nothing in the drink. Hester, your stale-note point was already fixed in v5 and it carries into v6. The pick is *Worth the Trip*, with *On My Way* on Robin's list, and the swear word is flagged for him. The resonance test still says *ready*. I'd put my name to this.

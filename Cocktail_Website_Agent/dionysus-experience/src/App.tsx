@@ -7,7 +7,7 @@ import TheReading from './components/TheReading';
 import NotFound from './components/NotFound';
 import VelvetRope from './components/VelvetRope';
 import { isUnsupportedViewport } from './engine/viewport';
-import { CONNOISSEUR_SAMPLE } from './data/sampleResult';
+import { VISIONARY_SAMPLE } from './data/sampleResult';
 import CtaButton from './components/CtaButton';
 import { decodePour, pourFromLocation } from './engine/pourLink';
 
@@ -257,12 +257,12 @@ function App() {
   // distillation arrives.)
   const finishDepths = () => {
     let r = preparedResult.current ?? craftCocktail(answers);
-    // while persona 4:3 scene images roll out, fall back to the Connoisseur in dev
+    // while persona 4:3 scene images roll out, fall back to the Visionary in dev
     // so the reading always opens on its designed landscape scene (not a portrait
     // master letterboxed into a full-bleed landscape frame)
     if (import.meta.env.DEV) {
       const meta = personaImageFor(r.primary, r.secondary);
-      if (!meta.wide) r = CONNOISSEUR_SAMPLE;
+      if (!meta.wide) r = VISIONARY_SAMPLE;
     }
     setResult(r);
     setReadingIntro(true);
@@ -286,18 +286,18 @@ function App() {
   // keepsake as the invited friend sees it. A result is distilled on the spot
   // when the journey hasn't produced one yet.
   const devPage = (page: DevPage) => {
-    // H9.5 / H10.5 — the alternate keepsake, always shown with the built
-    // Connoisseur sample ("The Annotated Serenade") so it reads as designed.
+    // H9.5 / H10.5 — the alternate keepsake, always shown with the approved
+    // Visionary pour ("Down the Line") so it reads as designed.
     if (page === 'reading' || page === 'reading-in') {
-      setResult(CONNOISSEUR_SAMPLE);
+      setResult(VISIONARY_SAMPLE);
       setReadingIntro(page === 'reading-in');
       setReadingTake((n) => n + 1);
       setPhase('reading');
       return;
     }
-    // H11 · the friend's arrival, always shown with the Connoisseur sample so the
+    // H11 · the friend's arrival, always shown with the Visionary sample so the
     // reading room renders with its designed 4:3 scene and calibrated tag coords.
-    setResult(CONNOISSEUR_SAMPLE);
+    setResult(VISIONARY_SAMPLE);
     setGiftAnswers({ ...DEFAULT_ANSWERS, name: answers.name.trim() || 'Celeste', color: answers.color });
     setPhase('gift');
   };

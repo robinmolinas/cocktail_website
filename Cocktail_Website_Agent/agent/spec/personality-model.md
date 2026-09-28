@@ -1,5 +1,7 @@
 # Personality Model — Archetypes, Matrix, Roulette
 
+> ⚠️ **Partly superseded (2026-09-23) — pending a `bmad-spec` refresh.** Where this file conflicts with `../ARCHITECTURE-SPINE.md`, the spine wins: the trace never reaches the server or the Bartender (AD-2); vetoes steer the match (AD-4); the canonical intake is the live journey's `Answers` v2 (AD-1), not the questionnaire docx (archived).
+
 The proprietary model the Psychologist agent (CAP-2) selects from. **Canonical data:** `../data/Brand Personality + Roulette.xlsx` — downstream MUST read this workbook for the actual attributes; this file explains its shape and how to use it.
 
 ## Workbook structure

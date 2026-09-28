@@ -1,5 +1,7 @@
 # Pipeline Stages — Agent I/O Contract
 
+> ⚠️ **Partly superseded (2026-09-23) — pending a `bmad-spec` refresh.** Where this file conflicts with `../ARCHITECTURE-SPINE.md`, the spine wins: the trace never reaches the server or the Bartender (AD-2); vetoes steer the match (AD-4); the canonical intake is the live journey's `Answers` v2 (AD-1), not the questionnaire docx (archived).
+
 The five stages across two locked tiers. Each names its **input**, **output**, and the **source data** it must read. Runtime wiring (orchestrator, sync/async, n8n vs in-app) is an architecture decision, not fixed here.
 
 ## Two-tier data flow (locked)

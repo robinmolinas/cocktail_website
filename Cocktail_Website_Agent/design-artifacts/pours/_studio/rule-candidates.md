@@ -1,0 +1,12 @@
+# Rule candidates
+
+Proposed by the room or learned from Robin's edits. Nothing here is a rule until Robin accepts it
+(then it's added to `../STUDIO-RULES.md`).
+
+| date | proposed by | rule | why | Robin |
+| --- | --- | --- | --- | --- |
+| 2026-09-25 | room (Tomás), creator-hero | Add a **fizz / long-drink style** to the balance ranges, and let `balance.py` handle soda added on top (staged) | Arnold has no fizz category, so Tomás judged the Ramos in two stages by hand | **Accepted, widened** (2026-09-25): "let's not limit ourselves to any types of drinks", hot included, and at least the Codex's six. Done: styles hot, highball, collins, fizz, blended, flip, freeform, plus staged top-ups |
+| 2026-09-25 | room (Hester), creator-hero | **Anchors must be updated whenever the audit corrects a fact**, so the dossier never holds a claim the reading dropped | The anchors table kept the "35 per glass" wording after Hester struck it | **Accepted** (2026-09-25), added to STUDIO-RULES |
+| 2026-09-25 | room (Wren), creator-hero | **Ingredients unknown to the table** (e.g. orange flower water) should be decided by Robin in batches before a batch runs, so rooms don't close flagged on them | The Visionary closed flagged on a single drop-sized ingredient | **Superseded** (2026-09-25): the table must never limit the drink, and new ingredients aren't Robin's to approve. Tomás adds them himself (`add_ingredient.py`, safe-side allergens); the guest's own veto protects them |
+| 2026-09-28 | room (Tomás), caregiver-hero | **A fructose-aware sugar range for hot drinks sweetened with honey** | The `hot` band (5.5–7.5 g) is built on sucrose, but fructose-heavy sweeteners taste less sweet hot (*LI* pdf 187, p. 51). *Off Duty*'s honey sits at the band's full end on purpose, and the *Codex*'s own honey Hot Toddy runs at about 11 g | Open |
+| 2026-09-28 | Robin, after caregiver-lover | **A drink category is never "taken".** Another pour in the family (or anywhere) using the same kind of cocktail (e.g. a Hot Toddy) is no reason to drop it; only the exact same cocktail is ruled out | "it's not because one persona in the family uses the hot toddy that another cannot - it mustn't be the exact same cocktail, but similar categories of cocktails are fine. Again, the objective is to find the best tailored cocktail for each persona." In caregiver-lover the room set the toddy aside because *Off Duty* (caregiver-hero) had one | **Robin's instruction** (2026-09-28); awaiting his edit to STUDIO-RULES |

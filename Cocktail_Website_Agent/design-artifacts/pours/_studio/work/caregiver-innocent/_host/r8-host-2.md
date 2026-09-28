@@ -1,0 +1,1 @@
+🕯️ **Host:** Housekeeping after the sign-offs. The assembler takes the dossier's Resonance from the reading's own section, which still read "(v3)" and "pending two things", with the old y3 quote. I asked Wren to bring that section in line with v4 as signed, touching nothing in the title block, whoYouAre or yours. It's a dossier-only change, so no sign-off is voided.

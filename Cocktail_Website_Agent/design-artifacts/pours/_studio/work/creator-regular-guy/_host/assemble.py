@@ -1,0 +1,30 @@
+import re
+r=open('psychologist-reading-v3.md').read()
+who=r.split('## whoYouAre')[1].split('## yours')[0].strip()
+yours=r.split('## yours')[1].split('## Changes from v2')[0].strip()
+anch=open('historian-anchors.md').read()
+lines=anch.splitlines(); i=next(k for k,l in enumerate(lines) if l.startswith('| kind'))
+tbl=[]
+for l in lines[i:]:
+    if not l.startswith('|'): break
+    tbl.append(l)
+table='\n'.join(tbl)
+dossier_only=anch.split('## Dossier only (never in guest text)')[1].split('## Roundings')[0].strip()
+card=open('../../fact-cards/hugo-ensslin-aviation.md').read()
+card_leg=card.split('## Legends')[1].split('## Conflicts')[0].strip()
+card_conf=card.split('## Conflicts')[1].split('## Foil')[0].strip()
+d=open('mixologist-cocktail-draft.md').read()
+recipe=d.split('**recipe**')[1].split('**method**')[0].strip()
+method=d.split('**method**')[1].split('**closingLine')[0].strip()
+closing=re.search(r'\*\*closingLine \(draft\):\*\* (\*.*?\*)',d).group(1)
+checks=d.split('## Checks')[1].split('## Image brief')[0].strip()
+brief=d.split('## Image brief (draft)')[1].strip()
+res=open('psychologist-resonance-v1.md').read().split('\n',2)[2].strip()
+res=re.sub(r'^## ','#### ',res,flags=re.M)
+auditf=sorted(f for f in __import__('os').listdir('.') if f.startswith('historian-audit-v'))[-1]
+audit=open(auditf).read().split('\n',1)[1].strip()
+audit=re.sub(r'^## ','#### ',audit,flags=re.M)
+names=open('mixologist-names.md').read().split('\n',1)[1].strip()
+out=open('_host/template.md').read().format(**locals())
+open('_host/provisional.md','w').write(out)
+print('audit from',auditf)

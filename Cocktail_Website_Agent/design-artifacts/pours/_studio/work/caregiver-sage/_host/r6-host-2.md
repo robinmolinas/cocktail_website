@@ -1,0 +1,1 @@
+🕯️ **Host:** Close-out housekeeping, dossier only, after the sign-offs. It changes no fact, no claim and nothing in the drink, so no sign-off is voided. The assembled pour's Resonance section came out empty because reading v3 carries none, so I sent that back to Wren. Hester's audit v3 described draft v1.1, which is now stale, so I sent that back to Hester.

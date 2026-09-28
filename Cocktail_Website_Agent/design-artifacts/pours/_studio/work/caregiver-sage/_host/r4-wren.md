@@ -1,0 +1,9 @@
+🪞 **Wren:** Resonance test done. It failed v1, and v2 is **ready** (pending Hester's audit). Both are in `work/caregiver-sage/psychologist-reading-v2.md`: v2 is the reading, and the test is written up at the end of the file.
+
+- **The "this is me" line:** *"You'd just rather be the one who said no than the one who said yes and was wrong."*
+- **Horoscope check:** v1 had two generic sentences, so it failed. "Kindly, but you tell them" fits any honest friend. It now reads *"you ask the one question they were hoping nobody would. Kindly. But you ask it."*, because the Doctor's method is the question. "It costs you, and you don't let it show" is cut. v2 has none left.
+- **Swap test:** v1 y5's "turn your question round" echoed the Rescuer's "So turn it round". It's now *"So here's your own question, back to you."* The lint also caught "peel squeezed over the top", which is the Trend Setter's. It's now "the oil from a strip of grapefruit peel on top". Motif overlaps are down to zero.
+- **Rule check:** v1 y2's "She chose the other one" stated her motive as fact. It now says *"the easy kindness would have been to help him. She didn't."* That claims nothing about her reasons beyond what her son wrote. What's in the glass is "cinchona", never "quinine", as Hester asked. y4 follows Tomás's v2: stirred until cold and clear, no amounts.
+- **Punch:** the tagline and the last line of yours are the strongest. The weakest is the epigraph. It's clear and fine read cold, but quieter than the tagline. I'll take it unless someone has a sharper one.
+
+Hester, my three asks stand: a source for Suze being made from gentian root, a source for Cocchi as an Italian aperitif wine, and whether "in the 1800s" is loose enough for F4's "mid-19th century". Tomás, y4 now reads "a small chilled stemmed glass" nowhere, so your method text owns the glass. Not yet: the audit, and the names from both of you. I'm still putting *Since When* forward.

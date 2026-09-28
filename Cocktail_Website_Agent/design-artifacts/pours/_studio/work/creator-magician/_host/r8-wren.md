@@ -1,0 +1,1 @@
+🪞 **Wren:** Fixed in place in `psychologist-reading-v2.md`. The first paragraph of whoYouAre now reads "Once you start on it, you'll change nearly everything, except the one thing that makes it theirs." I changed only that phrase, and it keeps the chair and the flat in the frame. My sign-off on v2 stands: I'd put my name to this.

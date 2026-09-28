@@ -1,0 +1,21 @@
+# Hester: fact check of Wren's reading v1 (round 4)
+
+Against `_studio/fact-cards/ramos-gin-fizz.md`. Only the lines that need changing or a note; everything else checks.
+
+| Para | Phrase | Verdict | Why / fix |
+| --- | --- | --- | --- |
+| 1 | "a little over a hundred years ago" | soften | The fizz dates from the 1890s (about 130 years) and he served it until 1919 (about 107). "A little over" is a rounding claim. Fix: **"more than a hundred years ago"**. |
+| 1 | "Then it became famous, which made it slower still." | inference, OK | Nothing says each glass got slower; the *waiting* did, with ~3,000 a day (F6). Acceptable as plain storytelling. Tighter: "…which meant more of them, every one just as slow." |
+| 2 | "eight bartenders in 1899, fifteen by 1909" | qualify | These are **Mardi Gras** figures (Oxford, RAMOS, HENRY CHARLES, pdf 1606), and "fifteen" is "as many as fifteen" about ten years later. *Imbibe!* gives six a shift in 1900 (C3). Fix: **"at Mardi Gras, eight bartenders in 1899, as many as fifteen ten years later"**. |
+| 2 | "it took thirty-five people … passing each shaker down a line to finish a single glass" | **wrong (my error first)** | 35 is the crew on shift at Mardi Gras 1915, not the hands per glass (*Imbibe!*, pdf 111). |
+| 2 | "young Black men who worked his bar" | **misplaced** | Both sources say it of the shaker boys working beside each bartender, 1899–1909 (Oxford pdf 1606; *Imbibe!* pdf 111, for 1900). *Imbibe!*'s 1915 line says only "thirty-five shakermen", with no age or race given. Hanging the description on the 1915 thirty-five is one step past the page. "Worked his bar" is fine. |
+| 2 | suggested replacement for the two rows above | — | *"Beside each bartender stood a young Black man hired only to shake. By Mardi Gras in 1915 there were thirty-five men doing nothing but the shaking, each one working until his arms gave out, then passing the shaker down the line."* Every clause is on the card (F6, F7). |
+| 2 | "Then Prohibition closed his bar … Ramos gave his to anyone who asked" | true, but incomplete | He had always given the recipe out; it's partly why the drink spread nationwide (Oxford, RAMOS GIN FIZZ, pdf 1609). At Prohibition he gave it freely again (pdf 1607) and told everyone exactly how (*Imbibe!* pdf 111). Nothing wrong, but "Ramos had always given his away, and he went on giving it" is truer, and it makes the **epigraph literally true** ("The recipe was always free"). |
+| 2 | "in 1925 he dictated it to a newspaper. He died three years later." | fact | *Imbibe!*, pdf 112 (Item-Tribune, 1925); Oxford pdf 1607 (d. 1928). |
+| 3 | "he left it clear enough for other people to carry on" | OK **inside the signpost only** | The fact under it: he gave the full formula away, and dictated it for print in 1925 (F10, F12); bartenders still meet his standard and the formula still works (F15). "Clear enough" is our reading. It is covered because the paragraph opens "I don't know why, but I like to think". Don't move it out of that paragraph. Note that his 1925 text says only "well shaken", with no time. The recipe is exact; the effort was never written down. That supports your epigraph too. |
+| 3 | "They still are … his formula still works" | fact | Oxford, RAMOS GIN FIZZ (pdf 1609). |
+| 4 | "this is his drink, made the way he insisted on … shaken hard without ice first" | **wrong as written** | The dry shake is a renaissance technique, not his (Oxford pdf 1609 lists it among the new methods). His way was a single long shake with the soda already in (F3). His formula also preferred a sweet Old Tom gin (*Imbibe!* pdf 112). Fix: claim his *standard*, not his *method*: e.g. "made to his standard, with the modern method his drink taught bartenders". Tomás to confirm the gin. |
+| 5 | "never finished by one person … only ever started by one" | our reading, OK | An aphorism, not a claim about Ramos, so not audited as fact. Ramos himself started from two drinks others had made (F2). If anyone takes it literally, it's not quite his story. |
+
+## On the orange flower water
+Unchanged: keep it and flag to Robin (with Tomás). His own formula has it (*Imbibe!*, pdf 112), and the reading can only say "his drink" honestly if it's in. Kappeler's 1895 version without it (Oxford pdf 1608) is the precedent if Robin says no.

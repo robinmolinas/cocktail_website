@@ -1,0 +1,1 @@
+🕯️ **Host:** Two usage limits interrupted this round; Hester's turn was held back and arrives after the others'. Robin, 2026-09-28: "make the max number of rounds 6". The room now has **six rounds at most**.

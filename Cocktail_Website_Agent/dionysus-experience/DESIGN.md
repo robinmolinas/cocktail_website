@@ -159,6 +159,68 @@ contrast by darkening the surround (veils, pools of night), never by
 flattening the palette. Text over the dark world always carries a black
 text-shadow underlay for legibility.
 
+## 2.5 Persona Image System
+
+**The One Room, Different Person Rule.** Every cocktail portrait belongs to
+the same Dionysus world: near-black atmosphere, one believable warm practical
+light, dark worn wood, glass, tactile paper or linen, restrained colour, and
+photographic imperfection. Personality changes what happened in the room
+— the object count, evidence, gesture and emotional temperature — but never
+changes the world into a modern studio, stainless-steel bar, neon club, or
+bright lifestyle set.
+
+**The No-Metal Image Rule.** Brass remains a small interface colour, not a
+photographic material direction. Persona scenes are authored from timber,
+glass, paper, linen, ceramic, cork, fruit and shadow. Never use a metal counter,
+backdrop, lamp, shaker or hero tool; never let chrome, steel or brass define the
+room. If a recipe makes a tiny functional metal part unavoidable, it must be
+dull, peripheral and visually subordinate enough that the scene still reads as
+wood-and-paper Dionysus at first glance.
+
+Each image must read in this order:
+
+1. **The drink** — one physically accurate hero cocktail.
+2. **The person** — two to four plausible traces of who made it or who it is
+   for. Human presence is implied through wear, repair, ritual and placement;
+   no literal portrait is required.
+3. **The recipe** — ingredients and tools appear only when they clarify the
+   pour. They never become the main subject.
+
+**The No-Puzzle Rule.** A story detail must be understandable before the
+reading explains it. No impossible reflected drinks, unexplained coloured
+rings, magical stains, symbolic object armies, or other metaphors that need a
+caption. Surrealism is allowed only when the visual remains immediately
+legible and physically grounded.
+
+**The Observed Photograph Rule.** Use one plausible light source, natural
+shadow falloff, restrained saturation, uneven handling wear, imperfect prop
+placement, slight optical softness and fine irregular grain. Reject piped or
+sculpted cocktail textures, perfect CGI ice, uniform gloss, HDR microcontrast,
+decorative pseudo-writing, flawless symmetry, and generic cinematic bokeh.
+
+**The Tag Rule.** Every scene includes one blank physical cream tag, tied to
+the glass and fully inside frame. It is slightly handled, never typeset inside
+the source image. Its writable area and angle are recorded per asset in
+`src/data/personas.ts`; the user's name is the only coloured ink added by the
+interface.
+
+Canonical asset layout:
+
+- `public/personas/<pairing>/portrait.jpg` — 896×1200, print and keepsake.
+- `public/personas/<pairing>/wide.jpg` — 1920×1080, 16:9 immersive reading room.
+- `src/data/personas.ts` — portrait/wide paths, tag transforms and glass focal
+  point, keyed by the stable `<primary>-<secondary>` pairing.
+
+The wide master is composed full-bleed, not contained. Keep its left 30–35%
+quiet enough for copy, and keep the drink, tag and essential personality traces
+inside the central 86% vertically and 90% horizontally. This protects them when
+`object-fit: cover` trims a small amount on 16:10 laptops and ultrawide screens.
+
+The full generation template, anti-AI checklist and acceptance gate live in
+`../design-artifacts/persona-image-system.md`. That document is the production
+rule for completing the 132-image library; this section is the visual-system
+contract.
+
 ## 3. Typography
 
 **Display Font:** Playfair Display, italic (with serif fallback)
@@ -190,10 +252,47 @@ sumi-ink Japanese accents of the paper world.
 - **Hint** (400, 13px, 0.04–0.06em): candle-ivory at ~0.5 alpha; interaction
   whispers ("touch a depth", drag hints).
 
+### The keepsake reading scale (H10 / H11)
+
+The keepsake carries two kinds of content and they must never be typeset
+alike. Its own ramp, documented here because the general hierarchy above is
+the journey's and this is the destination's:
+
+**The card** — the artifact. What is in the glass and how it is built. Dense,
+tabular, scanned rather than read; two columns above 1100px.
+
+| step | size | notes |
+| --- | --- | --- |
+| section label | 0.66rem, 0.22em, uppercase | brass; "The Pour" / "The Ritual" |
+| amount | 0.86rem, tabular-nums | brass, 4.4rem min-width |
+| item / step | 0.95rem / 1.5–1.66 | body ivory; notes in muted italic |
+
+**The letter** — the reading. Prose in the fortune teller's voice, one measure,
+its own rhythm.
+
+| step | size | notes |
+| --- | --- | --- |
+| section label | 0.66rem, 0.22em, uppercase | brass |
+| attribution | 0.82rem | muted; the archetype line, *above* the epigraph |
+| epigraph | clamp(1.34rem, 1.9vw, 1.74rem) | Playfair italic, title ivory, max 30ch |
+| lead paragraph | 1.07rem / 1.66 | title ivory — the letter's one entry point |
+| body | 0.99rem / 1.72 | body ivory, measure held to 36rem (~67ch) |
+| closing line | clamp(1.06rem, 1.2vw, 1.2rem) | Playfair italic; the pour's own last words |
+| quiet action | 0.78rem | muted, hairline underline |
+
 ### Named Rules
 **The Italic Voice Rule.** If the interface is *saying* something to her, it
 is Playfair italic. If it is *labelling* something, it is Inter. Never mix
 the two jobs in one line.
+
+**The Paragraph Gap Rule.** In keepsake prose the space *between* paragraphs
+must exceed the leading *within* them (currently 1.95rem against a 1.72
+line-height). When it does not, paragraphs cannot separate and the reading
+collapses into one grey wall however good the copy is.
+
+**The Two Movements Rule.** The card and the letter are different materials.
+The card may sit on a pool of night and split into columns; the letter never
+does. Neither is ever a panel — no border, no radius, no fill of its own.
 
 ## 4. Elevation
 
@@ -253,10 +352,53 @@ refractive highlight at its upper-left shoulder.
 - All burst, fizz, or dissolve on selection; none ever "click" statically.
 
 ### Keepsake lists (the recipe)
-- **Ingredients:** flexed rows, brass amounts (min-width 4.5rem), hairline
+- **Ingredients:** flexed rows, brass amounts (min-width 4.4rem), hairline
   ivory dividers at 0.07 alpha, no bullets.
-- **Ritual:** CSS-counter numerals in brass, tabular-nums, 2rem hang.
+- **Ritual:** CSS-counter numerals in brass, tabular-nums, 2.3rem hang.
+- Above 1100px the two sit side by side as one card; below, they stack.
 - Prints clean: the print stylesheet flattens to ink-on-white; keep it working.
+
+### The reading spine (H10)
+A hairline in the letter's left margin, filling with `--c` from `--rp` (the
+guest's progress through the reading, written from `TheReading.tsx`). It is
+how four screens of prose stay navigable without a scrollbar, a percentage or
+a chapter list. Light in the margin — inside the Seed Colour Rule. Hidden
+below 1100px, where the column has no margin to hold it, and in print.
+
+The browser scrollbar still exists as a native affordance, but it recedes into
+the room: a 7px deep-night rail with a low-contrast warm-grey thumb, brightening
+only on hover. It is scoped to the reading route; a white system rail must never
+cut through the dark experience.
+
+### The printed keepsake (exactly two sheets)
+
+The page is the white — nothing prints a background. **Sheet one** is the
+reason to press print: the portrait plate, the cocktail's name, and the whole
+recipe in two columns, never split across a break, so it can be pinned up on
+its own. **Sheet two** is the letter: label, attribution and epigraph spanning
+the full width as a head, the reading in two columns beneath, and the pour's
+closing line spanning the foot.
+
+**The Two Sheets Rule.** It is never three. The letter scales to its own
+length via `--letter-fit` (set in `TheReading.tsx`): printed column height goes
+as the *square* of type size, so the scale is `sqrt(PAGE_CHARS / chars)`,
+where `PAGE_CHARS = 2900` is the measured one-page capacity at full size.
+Floor 0.5 (5pt), which holds ~11,500 characters — about 3.4× the longest
+reading the studio has authored (the 19 pours run 1,812–3,347).
+
+Two columns, **never three**: capacity is the sum of the column widths times
+the page height, and that sum is fixed by the page. A third column only
+subtracts another gap from it, so it holds slightly *less*. The two columns
+earn their place against one readable 126mm column, not against each other.
+
+### The room (H10 background)
+The persona scene is the page's background, never a plate on it. Desktop,
+tablet and landscape-phone views use the full-bleed **16:9 wide master** with
+`object-fit: cover`; portrait phones and printed keepsakes use the 3:4 master.
+Small viewport trims are intentional and absorbed by the wide master's safe
+area. There is no contained frame, feathered card edge or black side gutter.
+The drink, its physical tag and essential personality evidence must remain
+inside the protected centre defined in the Persona Image System.
 
 ### Slider (paper world)
 A brush line with imperceptible ticks and an irregular ink-blob thumb

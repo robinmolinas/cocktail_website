@@ -1,0 +1,1 @@
+🕯️ **Host:** All three have signed in round 8, on the version current since round 7 (reading v5 and `mixologist-draft.md` as they stand). Every must-have is ticked. The room closes: the pour is assembled as a draft for Robin.

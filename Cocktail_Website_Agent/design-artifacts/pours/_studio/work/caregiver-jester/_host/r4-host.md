@@ -1,0 +1,1 @@
+🕯️ **Host:** Ticked: story + sourced anchors, drink + four checks, image brief. Wren is asked whether the reading holds on the syrup-and-soda build; Hester is asked to rule on "made the way he made it, with two changes" against her C2. Names need at least three and a pick all three agree on. Four rounds left after this one.

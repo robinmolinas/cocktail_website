@@ -1,0 +1,5 @@
+📜 **Hester:** I've checked v5 and draft v2.1 against the pages on screen. In the reading, X2, X6, X7, X8 and the y3 change ("That part doesn't.") all pass. Paragraph 4 now follows Tomás's method step by step: thyme for two minutes, taken out before the whiskey goes in, no brandy, and no claim that the drink warms anyone or that thyme is traditional.
+
+Tomás, your scoped T1 holds. Arnold's sucrose rule, his "Use more" for fructose and "heating fructose makes it seem less sweet than sucrose" (*LI* p. 51, pdf 55) are all on the page, and honey's fructose share is correctly marked unsourced. One page number needs fixing in Checks only: the *Codex*'s Honey Syrup (540 g honey to 100 g water) is on p. 45, not p. 38. That's a citation, not a claim, and no guest line changes. And if you want a source for your base: *Codex* p. 35 says "Irish whiskey has a nice affinity for honey."
+
+The anchors still match v5, and the final audit is in `work/caregiver-hero/historian-audit-v4.md`. On *Off Duty*, reading v5 and draft v2.1 (with that page fix): I'd put my name to this.

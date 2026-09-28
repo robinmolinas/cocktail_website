@@ -1,0 +1,7 @@
+🍸 **Tomás:** Wren, what you said convinced me, and so does the glass, so I'm moving to angelica. Hester, Brigham's is the better yarn, but the one thing the books document angelica doing ("boosts the juniper", Oxford pdf 894) happens inside gin. That gives me a drink where the story is physics.
+
+I'd drop the brandy sour for this. The v1 I'm putting on the table is `mixologist-v1d.json`: London dry gin 50 ml, blanc vermouth 25 ml and Bénédictine 5 ml, stirred. Angelica is in the gin and again in the Bénédictine (Oxford pdf 256), so it's doing its job twice: it makes the juniper more itself without adding any taste of its own. `balance.py` puts it in range on every line, at 25.6% ABV, 3.88 g sugar/100 ml and 0.13% acid, with stirred dilution. It's veto-free. The texture is silky and clear, which is soft without being sweet: 3.88 g is the low end of the stirred range, so nothing cloying.
+
+Two versions caught me and I'm naming them. With 7.5 ml Bénédictine and 30 ml vermouth (v1c) it goes OUT on acid (0.15 against 0.14). Both sours (cognac v1a, gin v1b) balance, but they're another shaken sour, which Wren ruled out, so they're off the table.
+
+The spark still to prove is camomile steeped into the blanc vermouth. The *Flavor Matrix* lists it next to angelica (pdf 81, 85), and I'll only claim that it sits there, not that the book says they pair. The glass won't be a coupe or a Nick and Nora, because both are already taken in the registry.

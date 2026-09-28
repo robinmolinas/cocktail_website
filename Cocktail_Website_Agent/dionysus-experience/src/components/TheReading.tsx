@@ -1,7 +1,7 @@
 // H9.5 / H10.5 · The Reading — an alternate keepsake direction (dev-nav preview).
 //
 // "The reading room." The cocktail is not a picture on a page: it is the room
-// you are seated in. A full-bleed 4:3 scene (personas.wide), candlelit, with
+// you are seated in. A full-bleed 16:9 scene (personas.wide), candlelit, with
 // smoke crossing the frame. The reading is inked into that room's left margin,
 // so the drink never leaves you.
 //
@@ -68,14 +68,36 @@ export default function TheReading({
   onDevJump?: (target: DevJumpTarget) => void;
   onDevPage?: (page: DevPage) => void;
 }) {
+  // The document owns the viewport scrollbar. Scope the reading-room chrome to
+  // this route and restore the paper world's native surface when it unmounts.
+  useEffect(() => {
+    document.documentElement.classList.add('reading-room');
+    return () => document.documentElement.classList.remove('reading-room');
+  }, []);
+
   const meta = personaImageFor(result.primary, result.secondary);
   const readingLines = result.whyYou.slice(1); // [0] is the epigraph
   const rootRef = useRef<HTMLDivElement>(null);
   const bgRef = useRef<HTMLImageElement>(null);
   const frameRef = useRef<HTMLDivElement>(null);
   const tagRef = useRef<HTMLSpanElement>(null);
-  // the tag belongs to whichever master is actually on screen
-  const tagBox = meta.wide ? meta.wideTag : meta.tag;
+  const letterRef = useRef<HTMLDivElement>(null);
+  // Portrait phones use the 3:4 master; landscape phones, tablets and desktops
+  // use the 16:9 room. The tag transform and glow follow the selected master.
+  const [portraitScene, setPortraitScene] = useState(() =>
+    window.matchMedia('(max-width: 900px) and (orientation: portrait)').matches,
+  );
+  useEffect(() => {
+    const query = window.matchMedia('(max-width: 900px) and (orientation: portrait)');
+    const sync = () => setPortraitScene(query.matches);
+    sync();
+    query.addEventListener('change', sync);
+    return () => query.removeEventListener('change', sync);
+  }, []);
+  const usesWideScene = Boolean(meta.wide) && !portraitScene;
+  const sceneSrc = usesWideScene ? meta.wide! : meta.src;
+  const tagBox = usesWideScene ? (meta.wideTag ?? meta.tag) : meta.tag;
+  const sceneGlass = usesWideScene ? (meta.wideGlass ?? meta.glass) : meta.glass;
   // dev previews arrive without a journey behind them, so the tag would have
   // nothing to ink; ?name= overrides, matching the locked reveal's convention
   const devName = import.meta.env.DEV
@@ -89,11 +111,45 @@ export default function TheReading({
   // render an empty epigraph where the guest's copy should be
   const epigraph = result.whyYou[0];
 
-  // Until every persona has a 4:3 companion, a portrait master still has to fill
+  // Until every persona has a 16:9 companion, a portrait master still has to fill
   // a landscape frame. Cover it, but hold the crop on the drink (the glass point
   // we already record) so the cocktail is never the part that gets cut away.
-  const bgPosX = meta.wide ? 0.5 : meta.glass.x;
-  const bgPosYPreferred = meta.wide ? 0.46 : meta.glass.y;
+  const bgPosX = usesWideScene ? 0.5 : sceneGlass.x;
+  const bgPosYPreferred = usesWideScene ? 0.46 : sceneGlass.y;
+
+  // The 16:9 screen master fills the viewport. Its production safe area keeps
+  // the drink and tag intact when `cover` trims a little horizontal image on a
+  // 16:10 laptop or a little vertical image on an ultrawide monitor.
+
+  // The printed keepsake is exactly two sheets: the recipe, then the letter.
+  // Readings vary in length, so the letter absorbs that itself rather than
+  // pushing onto a third page.
+  //
+  // Column height goes as the SQUARE of type size (narrower measure means more
+  // lines AND taller lines), so the scale needed is the square root of the
+  // ratio. PAGE_CHARS is the character count that fills one printed page in two
+  // columns at full size — measured against the real layout, not guessed: 3008
+  // characters fit at 1.0 and 3906 did not fit at 0.933, which puts the true
+  // capacity in [3008, 3400); 2900 takes the low end plus margin for the part
+  // of a line each paragraph break wastes.
+  //
+  // Two columns, never three: capacity is the SUM of the column widths times the
+  // page height, and that sum is fixed by the page — a third column subtracts
+  // another 10mm gap from it, so it holds slightly LESS, not half as much again.
+  // (Measured: three columns failed at 6733 characters where the model said it
+  // should pass.) The two columns are worth it only because one readable column
+  // at 126mm wasted a third of the page width.
+  //
+  // So type size is the single lever. The 0.5 floor is 5pt — the smallest that
+  // survives a home printer — which holds ~11,700 characters. The 19 authored
+  // pours run 1,812–3,347 (median 2,722), so the floor sits about three and a
+  // half times past the longest reading the studio has ever written.
+  const PAGE_CHARS = 2900;
+  const letterChars =
+    result.whyYou.join(' ').length +
+    (result.closingLine?.length ?? 0) +
+    result.archetypeEssence.length;
+  const letterFit = Math.min(1, Math.max(0.5, Math.sqrt(PAGE_CHARS / Math.max(letterChars, 1))));
 
   // Scroll progress 0→1 across the first ~3/4 viewport: drives the plate's glide
   // to the right, the pool of night on the left, and the hero's fade. Transform
@@ -108,13 +164,30 @@ export default function TheReading({
       const vh = window.innerHeight || 1;
       const p = Math.min(1, Math.max(0, window.scrollY / (vh * 0.75)));
       el.style.setProperty('--p', p.toFixed(4));
+      // --rp: how far through the letter she is (0 at its first line, 1 at its
+      // last). The margin spine fills with her seed colour from this, which is
+      // the only thing that makes four screens of prose feel navigable — and it
+      // stays inside the Seed Colour Rule, since it is light in the margin.
+      const letter = letterRef.current;
+      if (letter) {
+        const r = letter.getBoundingClientRect();
+        const travel = r.height - vh * 0.5;
+        const rp = travel > 0
+          ? Math.min(1, Math.max(0, (vh * 0.5 - r.top) / travel))
+          : (r.top < vh * 0.5 ? 1 : 0);
+        el.style.setProperty('--rp', rp.toFixed(4));
+      }
     };
-    // --fit: the scale at which the WHOLE scene is visible. The arrival opens
-    // there (so she sees the entire room), holds, then pushes in to fill.
+    // --fit: the scale at which the WHOLE scene is visible during the arrival.
+    // This used to fall back to a 4:3 guess before the image had decoded, which
+    // wrote a wrong --fit on the first frame and then corrected it once `load`
+    // fired — a step from 0.8333 to 0.9 at 1440×900. Now it simply declines to
+    // answer until it can measure, and the CSS default (1, un-zoomed) holds.
     const fit = () => {
       const img = bgRef.current;
-      const iw = img?.naturalWidth || 4;
-      const ih = img?.naturalHeight || 3;
+      const iw = img?.naturalWidth ?? 0;
+      const ih = img?.naturalHeight ?? 0;
+      if (!iw || !ih) return;
       const vw = window.innerWidth || 1;
       const vh = window.innerHeight || 1;
       const cover = Math.max(vw / iw, vh / ih);
@@ -262,7 +335,12 @@ export default function TheReading({
     <div
       ref={rootRef}
       className={`tr-root${intro ? ' tr-intro' : ''}${gift ? ' tr-gift' : ''}`}
-      style={{ '--c': seed } as CSSProperties}
+      style={{
+        '--c': seed,
+        '--letter-fit': letterFit.toFixed(3),
+        '--glass-x': `${(sceneGlass.x * 100).toFixed(2)}%`,
+        '--glass-y': `${(sceneGlass.y * 100).toFixed(2)}%`,
+      } as CSSProperties}
     >
       {/* H11: the cocktail title surfaces from the dark; its dedication follows */}
       {gift && intro && (
@@ -280,7 +358,7 @@ export default function TheReading({
       <div className="tr-stage" aria-hidden="true">
         <div className="tr-bg">
           <div ref={frameRef} className="tr-frame">
-            <img ref={bgRef} src={meta.wide ?? meta.src} alt="" draggable={false} />
+            <img ref={bgRef} src={sceneSrc} alt="" draggable={false} />
             {inkName && tagBox ? (
               <span
                 ref={tagRef}
@@ -344,33 +422,45 @@ export default function TheReading({
       {/* the hero owns the first screen; the reading begins below it */}
       <div className="tr-spacer" />
 
-      {/* ---- the reading, on the left, the cocktail still in frame ---- */}
+      {/* ---- the reading, on the left, the cocktail still in frame ----
+           Two movements, because there are two kinds of content here and they
+           were previously typeset identically. THE CARD is the artifact: what
+           is in the glass and how it is built — dense, tabular, brass, read at
+           a glance, side by side on a wide screen. THE LETTER is the reading:
+           prose in the fortune teller's voice, one measure, its own rhythm and
+           its own spine. Neither is a panel; the card sits on a pool of night
+           (the system's way of raising contrast) and nothing here is a box. */}
       <section className="tr-reading" id="tr-reading">
-        <div className="tr-section">
-          <p className="tr-label">The Pour</p>
-          <ul className="tr-ing">
-            {result.ingredients.map((ing) => (
-              <li key={ing.item}>
-                <span className="tr-amount">{ing.amount}</span>
-                <span className="tr-item">
-                  {ing.item}
-                  {ing.note ? <em> · {ing.note}</em> : null}
-                </span>
-              </li>
-            ))}
-          </ul>
+        <div className="tr-card">
+          <div className="tr-card-pool" aria-hidden="true" />
+          <div className="tr-card-cols">
+            <div className="tr-section">
+              <p className="tr-label">The Pour</p>
+              <ul className="tr-ing">
+                {result.ingredients.map((ing) => (
+                  <li key={ing.item}>
+                    <span className="tr-amount">{ing.amount}</span>
+                    <span className="tr-item">
+                      {ing.item}
+                      {ing.note ? <em> · {ing.note}</em> : null}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="tr-section">
+              <p className="tr-label">The Ritual</p>
+              <ol className="tr-ritual">
+                {result.procedure.map((step, i) => (
+                  <li key={i}>{step}</li>
+                ))}
+              </ol>
+            </div>
+          </div>
         </div>
 
-        <div className="tr-section">
-          <p className="tr-label">The Ritual</p>
-          <ol className="tr-ritual">
-            {result.procedure.map((step, i) => (
-              <li key={i}>{step}</li>
-            ))}
-          </ol>
-        </div>
-
-        <div className="tr-section tr-why">
+        <div className="tr-section tr-why" ref={letterRef}>
           {gift ? (
             <>
               <p className="tr-label">The Reading</p>
@@ -383,17 +473,28 @@ export default function TheReading({
             </>
           ) : (
             <>
+              {/* the spine: her colour rising through the margin as she reads */}
+              <div className="tr-spine" aria-hidden="true"><span /></div>
               <p className="tr-label">The Reading</p>
-              {epigraph ? <p className="tr-epigraph">{epigraph}</p> : null}
+              {/* the essence sits ABOVE the epigraph now. It used to fall
+                  between the two loudest elements on the page (1.72rem display,
+                  then 0.86rem, then 0.98rem body), which inverted the hierarchy
+                  at exactly the moment the voice should take over. */}
               <p className="tr-essence">{result.archetypeName}, {result.archetypeEssence}.</p>
+              {epigraph ? <p className="tr-epigraph">{epigraph}</p> : null}
               {readingLines.map((line, i) => (
                 <p key={i}>{line}</p>
               ))}
+              {/* the pour's own last words, set apart as the ending it was
+                  written to be — this is what retired "The ink has settled" */}
+              {result.closingLine ? (
+                <p className="tr-closing">{result.closingLine}</p>
+              ) : null}
             </>
           )}
           {/* the guest keeps the recipe (master spec §2) but the page has one
               real destination, so the door out is the only loud thing here */}
-          <div className="tr-actions flex flex-wrap gap-4 mt-6">
+          <div className="tr-actions">
             {gift ? (
               <CtaButton onClick={onMeetYourOwn}>
                 Discover the cocktail within you
@@ -403,24 +504,26 @@ export default function TheReading({
                 {/* The journey earns its poetry; its toolbar does not. These
                     three used to read "Preserve this recipe", "Send it on" and
                     "Pour again, another night", which left the one moment she
-                    needs to act rather than feel written in riddles. */}
+                    needs to act rather than feel written in riddles.
+                    They also used to be three identical pills — no hierarchy on
+                    a page whose whole purpose is that she keeps the recipe. Only
+                    that one is a pill now; the other two are quiet. */}
                 <CtaButton arrow={false} onClick={() => window.print()}>
                   Save the recipe
                 </CtaButton>
-                <CtaButton arrow={false} onClick={shareKeepsake}>
-                  {shareNote ?? 'Share'}
-                </CtaButton>
-                {onPourAgain && (
-                  <CtaButton arrow={false} onClick={onPourAgain}>
-                    Start again
-                  </CtaButton>
-                )}
+                <div className="tr-quiet-row">
+                  <button type="button" className="tr-quiet" onClick={shareKeepsake}>
+                    {shareNote ?? 'Share'}
+                  </button>
+                  {onPourAgain && (
+                    <button type="button" className="tr-quiet" onClick={onPourAgain}>
+                      Start again
+                    </button>
+                  )}
+                </div>
               </>
             )}
           </div>
-          {/* The owner's coda: the ritual's closing line, now that the way
-              back out lives in the buttons above it. */}
-          {!gift && onPourAgain && <p className="tr-coda">The ink has settled.</p>}
         </div>
       </section>
       </main>

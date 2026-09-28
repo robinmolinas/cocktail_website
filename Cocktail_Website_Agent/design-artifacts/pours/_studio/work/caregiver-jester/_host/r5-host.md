@@ -1,0 +1,1 @@
+🕯️ **Host:** Ticked: reading. Crossings named: Hester's audit v2 read Wren's v2 while v3 already had her four fixes; Hester is asked to audit v3. Wren's cumin line and "warm" vs "less spice" are the open points on y4; Tomás owes the syrup credit and the split-base citation. Names stand 2–1 for *Worth the Trip*. A provisional assemble follows this round.

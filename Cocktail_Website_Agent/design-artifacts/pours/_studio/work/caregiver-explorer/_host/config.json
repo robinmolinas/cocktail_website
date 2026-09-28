@@ -1,0 +1,26 @@
+{
+ "pairing": "caregiver-explorer",
+ "personality": "The Researcher",
+ "archetypes": "Caregiver × Explorer",
+ "date": "2026-09-28",
+ "batch": "caregiver",
+ "name": "Serviceable",
+ "tagline": "You care about people you'll never meet.",
+ "epigraph": "The fizz in this glass was once meant to cure sailors. It never did.",
+ "glassware": "highball glass, filled with ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v4.md",
+ "card": "joseph-priestley-soda-water.md",
+ "language_row": "Wren's Resonance (v4): 0 generic sentences, 1 borderline; ready. Sibling echoes moved off: *Off-Label*'s \"you rarely mention those\" and \"he wasn't trying to\", *Overnight* / *Still Yours*' \"The next time something you've…\" (y5), *Still Yours*' \"squeezed over the top\" (Tomás's peel now twisted once as it goes in); \"on long voyages\" cut (Craftsman echo); closing line off *Down the Line*'s \"give it away\" and *The Other Berry*'s \"tell them\". The four he/him lint warnings are all Joseph Priestley, accepted by Wren and by Hester as fact owner. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/joseph-priestley-soda-water.md` (F1–F14, C1–C2): *Oxford Companion* SODA WATER pdf 1826–28, CARBONATION pdf 412, SHRUB pdf 1794, BEER pdf 247, HOPS pdf 1030, QUININE/TONIC pdf 2043; Priestley, *Directions for Impregnating Water with Fixed Air* (1772), Preface and pp. 7, 15, 17–22 (primary, web transcription); Emily Pawley, \"Powerful Effervescence\", *Distillations*, Science History Institute, 2008 (secondary). Craft: *Cocktail Codex* Whisky Highball p. 200; *Flavor Matrix* citrus and hops pdf 21; *Liquid Intelligence* pp. 183, 216, 364. Audits: `work/caregiver-explorer/historian-audit-v1.md` to `-v3.md`. Room notes: `work/caregiver-explorer/`.",
+ "names_note": "**Serviceable**, the room's pick (all three): Priestley's own word (\"particularly serviceable\", preface; again p. 17), what this person wants to be for others, and a small joke (\"good enough\"). Also considered: *Fixed Air* (his name for the gas; about the story, not the person), *Somewhere Else*, *The Long Way Round* (leans Explorer, loses the care), *The Wrong Cure*.",
+ "open_items": [
+  "**New ingredient rows:** `scotch_blended_hopped` (blended scotch steeped cold with dried hops) and `hop_syrup` (from v1, now unused) added by Tomás as veto-free: distilled grain isn't gluten, and hops are a flower, not beer or malt under rule 4. Robin's call if hops should carry a note.",
+  "**Ours, never his:** the hops are the room's nod to the fermenting beer vat; Oxford says nothing about what was in his beer, and the reading signposts it (\"my own nod\"; \"the record doesn't say what was in his\"). Never \"his brewery\".",
+  "**Shared credit:** Bergman published a method the same year and Schweppe built on both (Oxford pdf 1826–27); the reading says \"owes something to\", and the epigraph names no maker.",
+  "**C1 and C2:** no year given for the discovery (Oxford 1771, pamphlet 1772); \"never went into the business\", not \"never sold it\" (the pamphlet cost a shilling). What he published was chalk and acid, not the beer vat.",
+  "**Weakest line (Wren):** the epigraph, quieter than the tagline; judged acceptable.",
+  "**Runners-up:** Johann Siegert's Angostura (already told in *Off-Label*); James Lind's citrus trial (scurvy is in the Craftsman's lineage); Pelletier and Caventou's quinine (\"gave it away\" is legend-grade, 1911 Catholic Encyclopedia only). Tonic set aside: a second, working cure would blunt the turn."
+ ]
+}

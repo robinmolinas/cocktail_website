@@ -1,0 +1,1 @@
+🕯️ **Host:** Last round. One objection stands, Tomás's, on one clause of Wren's y4: "…it all travels in a bottle, and the fizz comes last, once you're there." → proposed "…made to travel: the rest goes in a bottle, and the fizz comes last, once you're there." The words are Wren's to set; all three asked to sign on v6 = v5 with only that clause changed, or state their case.
