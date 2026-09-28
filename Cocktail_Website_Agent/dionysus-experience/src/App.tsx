@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import type { Answers, CocktailResult } from './types';
-import { craftCocktail } from './engine/mixology';
 import { personaImageFor } from './data/personas';
 import TheDepths, { type DevJumpTarget, type DevPage } from './components/TheDepths';
 import TheReading from './components/TheReading';
@@ -242,7 +241,8 @@ function App() {
   // and finishDepths reuses it rather than rolling a second one.
   const preparedResult = useRef<CocktailResult | null>(null);
   const prepareReveal = () => {
-    const r = craftCocktail(answers);
+    // For testing: lock output to approved cocktail "Down the Line" (The Visionary) which has full artwork and copy
+    const r = VISIONARY_SAMPLE;
     preparedResult.current = r;
     const meta = personaImageFor(r.primary, r.secondary);
     const img = new Image();
@@ -253,17 +253,10 @@ function App() {
 
   // TheDepths fires this at full black — the reading mounts black-on-black, so
   // the cut is invisible and the arrival kindles straight out of the breath's
-  // own dark. (The breath's ENGINE SEAM keeps hiding the latency when the real
-  // distillation arrives.)
+  // own dark.
   const finishDepths = () => {
-    let r = preparedResult.current ?? craftCocktail(answers);
-    // while persona 4:3 scene images roll out, fall back to the Visionary in dev
-    // so the reading always opens on its designed landscape scene (not a portrait
-    // master letterboxed into a full-bleed landscape frame)
-    if (import.meta.env.DEV) {
-      const meta = personaImageFor(r.primary, r.secondary);
-      if (!meta.wide) r = VISIONARY_SAMPLE;
-    }
+    // For testing: lock output to approved cocktail "Down the Line" (The Visionary)
+    const r = VISIONARY_SAMPLE;
     setResult(r);
     setReadingIntro(true);
     setReadingTake((n) => n + 1);
