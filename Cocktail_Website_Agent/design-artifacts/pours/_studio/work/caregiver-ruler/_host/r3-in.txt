@@ -1,0 +1,38 @@
+🪞 **Wren:** Tomás, put the spark in the allowance, the sugar. The water is the rule, so leave it plain and exactly four to one. That's the Nanny's part, and it's the one place a flourish would read as fussy. The sugar is what Vernon left to the men, and it's where my proposal already lives: "hand over the lime and the sugar… the taste was always theirs." So whatever makes the demerara taste like somebody's own choice is the right spark. Orange or apple from your rum page would both work. It still has to be fixed in the spec and the same every time the drink is made, with no "to taste" for the guest, because this person can't stand a free-for-all. I'm keeping two of your lines for y4, because they're the proof. "The ratio you measure is the ratio you drink" is the Nanny's fairness in the glass: nothing melts behind anyone's back, the same way Vernon had it mixed in the open. And I'm glad you're keeping it generous. A thin ration would argue for the no, and this reading argues for making it last. I'm fine with the strength EDGE, and I'd say so in Checks the way you have. One fence for when I write y4: the 57% rum is a style today, not Vernon's, so the guest text won't say "navy strength" as if his men drank it. Hester, I'm keeping "one now, and one later" in the measure row, since it's the same idea as my "make it last". "Scaffolding, not a cage" can stay in the anchors, but it won't reach the guest, because it's a cliché. Send me the sugar and I'll write y4 and the epigraph straight away so the host can assemble after round 4.
+
+📜 **Hester:** Wren, the story holds in y1–y3. Four small fixes, and the first is my own mistake. The audit is in `work/caregiver-ruler/historian-audit-v1.md`.
+
+- **A1, y2:** "a cask kept for the purpose" was my paraphrase and it isn't on the page. Oxford says "a repurposed barrel half" (pdf 1868). I've struck it from the card and the anchors in the same call. Try "in an open half-barrel".
+- **A2, y3:** "I like to think" covers the feeling, not a false premise, and the measure wasn't the same. The tot was cut in 1824 and 1851, and it went to two to one from 1937 (Oxford pdf 1701, 951). Try "the order of it: the call of 'Up spirits!', the measure, the hour, every day". The bosun's call is on record (pdf 1701).
+- **A3, y2:** in the record the coat names *him*, and the drink takes the name from him. Try "The story goes that he was called Old Grog, after the stiff, gum-proofed coat he wore, and the drink took his name."
+- **A6, y1:** four to one is 1740 only, and "From then on… four parts to one" reads as permanent. Add "at first".
+
+"More than two centuries" passes. Westminster Abbey (secondary, fetched today) gives Vernon's death as 30 October 1757, so the last issue came 213 years later. Say that the ration "outlived him", never that it began with him: it's already in the 1732 regulations (pdf 1868).
+
+Tomás, on your question, the record draws the line for you. The water was the rule, and the lime and sugar were what the men chose to add (pdf 1868–1869). A spark in the sugar sits on the right side of that line.
+
+🍸 **Tomás:** Wren, your answer is in the glass. The measure is yours and it's only rum and water. The room for someone else's taste is the lime and the sugar. Full draft v1 is in `work/caregiver-ruler/mixologist-draft.md`, and the spec is in `specs/caregiver-ruler.json`.
+
+**The drink.** One jigger of navy-strength rum, then four jiggers of cold water, then half a jigger each of fresh lime and a homemade demerara syrup, stirred, with no ice. Everything is counted in the same jigger, so the proportions, and all the numbers below, hold at any jigger size. That's exact and repeatable, and there's nothing to perform. The no-ice part is physics: melt would change the measure.
+
+**The checks.**
+- **Balance:** `balance.py` gives 9.5% ABV, 6.69 g sugar per 100 ml and 0.57% acid. Sugar and acid are in range. Strength is an EDGE, 0.5 under the highball floor, and I'm keeping it because four to one is the rule this pour is about. The *Codex*'s own Whisky Highball is 10%.
+- **Sweeps:** moving the lime or syrup by about a bar spoon either way still holds. Heavy on the syrup, it goes sweet (7.9 g). The rum has to be 54.5% or stronger: an ordinary 40% rum lands at 6.7% and tastes thin.
+- **Structure:** Highball family. The *Codex* says "A Highball can be effervescent or still" (p. 201).
+- **Allergens:** `allergens.py` finds nothing, so it's veto-free.
+
+**The spark** is off the sea entirely. It's 30 ml of sherry vinegar in the syrup. The *Flavor Matrix* lists sherry vinegar among the best pairings for cane syrup and molasses (pdf 240), which is rum's own sugar. Vinegar is the one common food acid you can smell (*LI* p. 59), so it brings a scent as well as a little sharpness, about a sixth of the drink's acid. It sits in the sugar, the part that was the men's to add, never in the measure, so it can't blur the rule. A little sharpness in the sweet is my reading; keep it or cut it.
+
+I've added two rows to the table on the safe side, both with no allergens: `rum_navy` and the syrup. One flag: sherry vinegar carries sulphites, and we have no veto for them. It's named in Checks.
+
+Hester, your 1866 fence is written into Makeable. We never say Vernon's men drank rum this strong, and never "Vernon's recipe".
+
+**Closing line:** *Four of water to one of rum. The lime and the sugar are theirs.*
+
+**Names:** my pick is **Fair Measure**. It's the Nanny's whole move, not less but fair, and seen to be fair. The others are *Four to One* (weak, because *Rosetta* is also four to one), *The Allowance* and *Still There Tomorrow*.
+
+Wren, one check for you: *Quite Alive*'s reading has "The care is in the measure, not the size." It's not a name or a motif, but hold it against your y3–y5.
+
+The image brief is in the draft: a plain tumbler of pale, hazy amber-gold, a jigger, a jug of cold water, the unlabelled syrup bottle and a halved lime. Nothing naval.
+
+Not yet: I need your epigraph and whether the sherry vinegar stays.

@@ -57,3 +57,14 @@ A remedy, ingredient or person where **something bitter or hard was turned into 
 - **Distinct:** the Craftsman hides pride in the method; the Healer hides the *medicine* inside the comfort. The Reassurer uses humour; the Healer uses whatever will go down.
 - **Army:** leave it out ("a young Frenchman in Algeria in the 1830s"). If it's named, colonisation needs a plain clause, which would take over a tender reading. Half-naming it is worse than either.
 - **Runner-up (Penicillin):** that one is about care someone else notices (Lucinda). It suits the Nurse or the Craftsman better. It isn't this one's truth.
+
+## Round 3: Lucinda vs Picon (my ruling: Picon holds)
+- Lucinda believed in a **drink**. The Healer believes in a **person who is hurting**. Swap test: "championed it before its maker did" fits the Campaigner (caregiver-outlaw) better than this one.
+- The drink's name, Penicillin, next to "the Healer", makes the cure joke for us even if no line does. That's a health claim by association, and every guest will hear it.
+- Picon is the Healer's own method: the cure already existed, and he made it kinder to take. The part that fits this person is the kindness in how the help reaches someone, not the fact that it was once medicine.
+- What would change my mind: a Picon fact that only works as "it was medicine". It hasn't come up.
+
+## whoYouAre, direction draft (v0, not for the assembler)
+Someone you love has a bad week, and you don't ask what's wrong. You turn up with a reason to go for a walk, or you get them laughing about something else entirely. By the end of the evening they feel lighter, and they couldn't tell you why. You could. You were paying attention the whole time.
+
+You know help can taste bitter. Being looked after can feel like being told you're not coping, so you make your help easy to take, and most people never notice they were being looked after. What you keep to yourself is how much you believe in them while they can't. You decide they'll be all right before they do, and you hold on to that until they catch up.

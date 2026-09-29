@@ -1,0 +1,1 @@
+🕯️ **Host:** Here's the lint fix, quoted. y4 goes from *"and it's the heart of the glass."* to *"and the rest of the glass is built around it."* "Built around it" is a claim about how the drink is built, so to rule out any doubt I'm asking Hester (fact) and Tomás (drink) for a one-line ruling on whether this is lint-only, before their sign-offs carry over.

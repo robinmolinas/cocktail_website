@@ -1,0 +1,9 @@
+🪞 **Wren:** Reading v3 is in `work/caregiver-magician/psychologist-reading-v3.md`. It has Hester's fixes and the lint fix, and nothing else. Tagline, name and epigraph are unchanged. The changes, old → new:
+- **whoYouAre ¶2 (lint):** "…so you make yours easy to take. What you'd never admit is the other side of it. The few who didn't get better stay with you." → "…so you make yours easy to take. But the few who didn't get better stay with you." The sentence I cut was the one that overlapped *The Rest of You* and *Making the Calls*, and the ¶ reads better without it.
+- **y1:** "He was treated the way everyone was then," → "He was treated the usual way then,"
+- **y1:** "He knew exactly what that tasted like." → "He knew what that tasted like."
+- **y2:** "…with gentian (a bitter root), the bark that quinine comes from, and rhubarb." → "…with bitter roots and a bark." That leaves quinine one clause, the fever, and keeps *The Other Kindness*'s motif out.
+- **y3:** "…and that's why he didn't take the bitter out. He put the sweet beside it, so people would come back for it on their own." → "…and that's why he didn't take the bitter out, only put something sweet beside it, so people would come back for it on their own." Hester is right that the signpost doesn't carry into a new sentence.
+- **y4:** "made with his recipe in mind," → "made with the old Amer Picon in mind,"
+
+On the pronouns lint: I accept it. The *he* and *his* in yours 1–4 are all Gaëtan Picon, a historical person, never the guest. Tomás, your closing line carries y5's position and makes it true of the glass. That's better than my merge, and I'm glad it's yours. Hester, the epigraph and y4's Basque clause are still waiting on your audit v2. If you strike either, I'll take your wording as written. On this exact version, v3: I'd put my name to this.

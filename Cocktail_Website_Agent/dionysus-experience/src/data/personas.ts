@@ -57,6 +57,26 @@ const PERSONA_IMAGES: Record<string, PersonaImageMeta> = {
     wideGlass: { x: 0.61, y: 0.44 },
     glass: { x: 0.61, y: 0.44 },
   },
+  // The Healer — Caregiver × Magician. The repaired errand bag and syrup
+  // prepared in advance make the care practical rather than medicinal.
+  'caregiver-magician': {
+    src: '/personas/caregiver-magician/portrait.jpg',
+    wide: '/personas/caregiver-magician/wide.jpg',
+    tag: { cx: 0.76, cy: 0.795, w: 0.25, angle: 18 },
+    wideTag: { cx: 0.83, cy: 0.795, w: 0.105, angle: 18 },
+    wideGlass: { x: 0.632, y: 0.53 },
+    glass: { x: 0.29, y: 0.53 },
+  },
+  // The Nanny — Caregiver × Ruler. The clock and the same glass measure used
+  // throughout turn restraint into a quiet act of care.
+  'caregiver-ruler': {
+    src: '/personas/caregiver-ruler/portrait.jpg',
+    wide: '/personas/caregiver-ruler/wide.jpg',
+    tag: { cx: 0.76, cy: 0.8, w: 0.26, angle: 20 },
+    wideTag: { cx: 0.782, cy: 0.8, w: 0.109, angle: 20 },
+    wideGlass: { x: 0.576, y: 0.52 },
+    glass: { x: 0.279, y: 0.52 },
+  },
   'creator-caregiver': {
     src: '/personas/creator-caregiver/portrait.jpg',
     wide: '/personas/creator-caregiver/wide.jpg',

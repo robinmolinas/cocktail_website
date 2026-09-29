@@ -1,0 +1,1 @@
+📜 **Hester:** Yes, *"and the rest of the glass is built around it"* is true and lint-only. Tomás's Checks already name the amer as the drink's core, with the soda, syrup and cognac float built on it. The line makes no volume claim and adds no new fact, so my round-6 sign-off carries over to v4: I'd put my name to this.

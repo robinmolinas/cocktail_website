@@ -1,0 +1,28 @@
+🕯️ **Host:** A usage limit ended Wren's and Tomás's first sessions; both rejoined at round 2 from their round-1 turns and scratch files, as the same voices.
+
+🪞 **Wren:** Hester, Tomás, I'm dropping my own round-1 line. "Everyone thinks the no comes easily to you" is already in this family twice. *Not Too Polite* says "People think it comes easily to you. It doesn't." *The Other Kindness* says "You say no anyway, and then you go over it all the way home". So the Doctor owns the costly no. Hester, your record showed me what the Nanny owns instead: **the measure**. Vernon didn't take the rum away. He made it last, left the lime and sugar to the men, and mixed it where everyone could see it was fair. Your anchors reached "he made it last" on their own, so I think we agree. Reading v1 is in `work/caregiver-ruler/psychologist-reading-v1.md`: the whoYouAre, y1–y3, the proposal, three taglines and a notes table. The line I'm aiming for: *"You were never against the fun. You're the reason there's any left in the morning."* My pick for tagline: *"You were never against the fun. You're why it lasts."* The proposal: set the limit, hand over the lime and the sugar, and don't check how they used them. "The measure can stay yours. The taste was always theirs." Hester, please check that y1–y3 stay inside your fences. The grogram coat is "the story goes". "More than two centuries" rests on your 230. The mourning is "I like to think… the order of it: the same measure, the same hour", and it never says the 1740 crew liked it or hated it. Tomás, I'm glad the toddy's gone, because *Off Duty* is already the honey toddy. Your grog sketches are the right glass. The drink has to prove one thing: a fixed measure that's the Nanny's, with room inside it for someone else's taste. It should be exact and repeatable, and nothing the guest has to perform. Keep the spark off lime-at-sea, since *Not Only the Way* and *Serviceable* have both been to sea already. The epigraph waits for your spec.
+
+🍸 **Tomás:** Hester, you're right, and it's worse than a near miss. My sketch A is *Off Duty*'s rejected version almost to the millilitre. The toddy's out, and I'm following grog.
+
+Wren, this is the first grog on paper (`work/caregiver-ruler/mixologist-grog-e.json`): 50 ml navy-strength rum (57%), 200 ml cold water, 30 ml fresh lime and 30 ml demerara syrup, in a tumbler with no ice. The rum and water are exactly Vernon's four to one. The no-ice part isn't styling, it's physics. Ice melts, and melt would quietly break the ratio, so here the ratio you measure is the ratio you drink.
+
+`balance.py` gives 9.2% ABV, 6.15 g sugar per 100 ml and 0.58% acid. Sugar and acid are in range. Strength is an EDGE, 0.8 under the highball floor, and I'd defend that in Checks: the four-to-one is the rule, and I won't make the drink stronger just to hit a range.
+
+With a stingy hand on the lime and sugar (15 and 15), it's balanced on paper (10.2%, 3.40 g, 0.32%) but thin, a ration more than a drink. Vernon's allowance is what turns it into something good, so it stays generous.
+
+`allergens.py` finds nothing, so it's veto-free. I've added `rum_navy` to the table: 57%, no allergens, with 54.5% (the Navy's issue strength after 1866, Hester F11) to be swept later.
+
+For the spark, the *Flavor Matrix* maps rum to cane syrup and molasses (pdf 240). Its best pairings there are port wine, orange, apple, grain, sherry vinegar and tamarind; tamarind is *Overnight*'s, so it's out. My instinct is that the spark belongs in the sugar, the part Vernon let them add for their own taste: the care inside the rule. Wren, before I build it, should the spark sit in the rule (the water) or in the allowance (the sugar)?
+
+📜 **Hester:** Wren, Tomás, I've drafted anchors v1 from the grog card, in `work/caregiver-ruler/historian-anchors.md`. There are five rows:
+- **lineage:** the 1740 order, and the reason Oxford gives: men who had to climb the rigging.
+- **measure:** four to one, served twice a day instead of all at once.
+- **allowance:** the men could buy lime and sugar to make it taste better.
+- **gesture:** it was mixed openly in a cask, so nobody could think they'd been shorted.
+- **coda:** Black Tot Day, 1970, with its mock burials and black armbands.
+
+The Old Grogram nickname sits in the dossier as a legend ("the story goes"), and Don the Beachcomber's Navy Grog is a foil.
+
+The meanings are my first reading and need your hand, Wren. "One now, and one later" and "scaffolding, not a cage" are there for you to keep or cut. Every fence is listed under the table: no grumbling crew, no scurvy, no claim that it cost Vernon anything unless it's signposted. 1740 to 1970 is 230 years; I checked the sum.
+
+Tomás, none of the rows claims anything is in the glass yet, so they'll follow your spec. One flag if you reach for navy-strength rum: the 54.5% is an 1866 regulation, not 1740, so we can't say Vernon's men drank it.

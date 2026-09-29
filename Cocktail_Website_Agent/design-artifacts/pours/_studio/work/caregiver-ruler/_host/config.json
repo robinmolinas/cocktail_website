@@ -1,0 +1,26 @@
+{
+ "pairing": "caregiver-ruler",
+ "personality": "The Nanny",
+ "archetypes": "Caregiver × Ruler",
+ "date": "2026-09-29",
+ "batch": "caregiver",
+ "name": "Fair Measure",
+ "tagline": "You were never against the fun. You're why it lasts.",
+ "epigraph": "Most of this glass is plain water. In 1740, that was an order.",
+ "glassware": "tumbler or highball glass (about 300 ml), no ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v4.md",
+ "card": "grog-admiral-vernon.md",
+ "language_row": "Wren's Resonance (v2–v4): *ready*. Sibling echoes moved off: *Not Too Polite* / *The Other Kindness* (the costly no, dropped r2), *Overnight* / *Beside the First* \"change one thing\" (y5), *caregiver-explorer* \"after everyone else has\", *caregiver-innocent* \"the story goes that\" (now \"Legend has it\"), *creator-magician* \"it still tastes of\", *creator-regular-guy* \"how you make sure\", *caregiver-magician* \"he didn't take the\" (now \"The rum stayed.\"); \"we\" in the guest's words removed (\"one more, then home\"). he/his/him are all Vernon, accepted by Wren. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/grog-admiral-vernon.md` (*Oxford Companion* GROG pdf 951; SPIRITS IN THE MILITARY pdf 1868–1869; RUM, NAVY pdf 1701–1702; Vernon's death 30 October 1757 and \"Old Grog\" from Westminster Abbey, secondary). Craft: *Cocktail Codex* (Highball, pp. 199, 201); *Flavor Matrix* cane syrup and molasses, pdf 240 (sherry vinegar, the spark); *Liquid Intelligence* p. 59 (vinegar the aromatic acid); Oxford TODDY pdf 2035 (set aside). Audits: `work/caregiver-ruler/historian-audit-v1.md`, `-v1-drink.md`, `-v2-reading.md`, `-v3-final.md`. Room notes: `work/caregiver-ruler/`.",
+ "names_note": "**Fair Measure**, the room's pick (all three): the Nanny's move, not less but fair, and seen to be fair; stands on the record (rum mixed openly so the men weren't \"defrauded of their full allowance\", F6). Also considered: *The Allowance* (runner-up, Wren and Hester), *Still There Tomorrow*, *Four to One* (weak: *Rosetta* is also four to one).",
+ "open_items": [
+  "**Sulphites:** sherry vinegar carries sulphites, and there's no veto for them; named in Checks (Tomás). Robin's call.",
+  "**Strength edge:** 9.5% ABV, 0.5 under the highball floor; defended in Checks because four to one is the rule this pour is about (Tomás, accepted by Wren). Needs rum at 54.5% or stronger; 40% rum lands at 6.7% and tastes thin.",
+  "**New ingredient rows:** `rum_navy` (57%, no allergens; 54.5%, the Navy's issue strength after 1866, to be swept) and the sherry-vinegar demerara syrup (200 g demerara, 100 ml water, 30 ml sherry vinegar). Demerara is Tomás's choice of cane sugar, unsourced; the *Matrix* line is cane syrup and molasses, never \"pairs with demerara\".",
+  "**Side by side with the Healer (caregiver-magician, drafted in parallel):** its y3 (\"he didn't take the bitter out, only put something sweet beside it\") has the same shape as ours, keeping the hard thing and adding a sweetener. The room would keep both (ours is on record and about the limit and fairness), but asks Robin to read them together.",
+  "**Ours, never his:** four to one with no ice and a strong rum is our build, not Vernon's recipe; rum at this strength dates from 1866. The sherry vinegar is our spark, with no historical claim. The Old Grog nickname is legend-grade (\"Legend has it\"). No grumbling crew and no scurvy claim (lime's benefit is a later observation, not Vernon's reason).",
+  "**Runner-up story:** Sasha Petraske's posted house rules at Milk & Honey, set aside because the rules are gendered as written. The toddy was set aside early: *Off Duty* is already the family's honey toddy, and Tomás's first sketch was almost its rejected version."
+ ]
+}
