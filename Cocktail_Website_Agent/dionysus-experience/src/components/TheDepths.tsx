@@ -307,19 +307,14 @@ const LINES = [
   'There are no right answers, only honest ones.',
 ];
 
-// Rev 2 (2026-09-18 review): "The night version of me" and "A fictional
-// persona" both landed as costume rather than self — and with "My future
-// self" already present, the set had no aspirational answer that wasn't also
-// a time-travel answer. "The best version of me" takes that job; "One of my
-// many selves" keeps the plural-self idea (ANSWER_STYLES' own phrasing in
-// data/questions.ts) without the clinical note "persona" carried.
+// The six lenses for "Who is this cocktail for?"
 const LENSES = [
   'The real me',
-  'The best version of me',
-  'A dream alter ego',
+  'The me I’m becoming',
+  'The night version of me',
   'My inner child',
-  'My future self',
-  'One of my many selves',
+  'The me I used to be',
+  'Someone else',
 ];
 
 // Each colour is a real pour. The hue is the answer; the name is the whisper.
