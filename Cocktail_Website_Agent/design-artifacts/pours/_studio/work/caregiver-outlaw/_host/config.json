@@ -1,0 +1,31 @@
+{
+ "pairing": "caregiver-outlaw",
+ "personality": "The Campaigner",
+ "archetypes": "Caregiver × Outlaw",
+ "date": "2026-09-29",
+ "batch": "caregiver",
+ "name": "Not Too Polite",
+ "tagline": "Someone had to say it. It's usually you.",
+ "epigraph": "Everything in this glass is ordinary except the sugar. The sugar is the argument.",
+ "glassware": "a tall (Collins) glass, chilled, filled with ice",
+ "contains": [
+  "dairy",
+  "nuts"
+ ],
+ "veto_free": false,
+ "reading": "psychologist-reading-v3.md",
+ "card": "elizabeth-heyrick-sugar-abstention.md",
+ "language_row": "Wren's Resonance (v3): ready. Lint on a mock pour of spec v4, draft v4, anchors and reading v3: 0 errors. The only warnings are she/her pronouns, all Heyrick, never the guest (accepted by Wren). History under half (about 150 of 330 words). Sibling echoes moved off: *The Other Kindness*'s \"I changed one thing\" and its \"wondering if you were too hard… anyway\" whoYouAre; *Standing By*'s \"the crushed sugar is gone\"; *Serviceable*'s distance and missing name; closing line off \"One small change\". ✓",
+ "sources": "Studio fact card `_studio/fact-cards/elizabeth-heyrick-sugar-abstention.md` (F1–F23): Heyrick, *Immediate, not Gradual Abolition* (London, 1824; archive.org Harvard and Southampton scans, primary); William Fox, *An Address to the People of Great Britain* (5th ed., 1791, title page, primary); Slavery Abolition Act 1833, s. 12 (legislation.gov.uk); Library of Congress authority file n85089951; V&A C.14-2023 sugar bowl (catalogue record, secondary); Hirpara et al., *J. Pharmacognosy and Phytochemistry* 9(5), 2020, pp. 3145–3148 (jaggery composition and clarifiers, secondary); *Oxford Companion to Spirits and Cocktails* SUGAR pdf 1944, 1946; pdf 1067; pdf 1693; WARD EIGHT pdf 2120. Craft: *Cocktail Codex* Tom Collins p. 138; *Flavor Matrix* Sugar Syrup pdf 240. Set aside: Ward Eight (legend; Oxford pdf 2120, *Imbibe!* pdf 243). Room notes: `work/caregiver-outlaw/`.",
+ "names_note": "**Not Too Polite**, the room's pick (all three): her charge that her own side had shown \"a great deal too much politeness\" (F12). Also considered: *It Can Do Wonders* (Hester, Wren; F7), *Twopence* (Hester; the pamphlet's price, F3), *A Few Families* (Wren; F7).",
+ "open_items": [
+  "**Not veto-free:** `contains: dairy, nuts`. Nuts is sourced (groundnut is among the organic clarifiers in Hirpara et al., F20). Dairy is Tomás's unsourced memory of milk clarification, kept on the safe side until a source rules it out. A \"vegan\" label was tried in v3 and withdrawn, because it doesn't exclude groundnut. Six of the seven Caregiver sibling specs are veto-free, so the family floor holds.",
+  "**Sugar edge:** the jaggery syrup's sugar (52 g/100 ml) rests on Hirpara's composition and a volume figure Hester couldn't source. The drink is balanced across the sourced range, with an edge from about 57 g (7.60 vs 7.5). The gin must be 43% or stronger (at 40% the strength edges to 12.4 against 12.5).",
+  "**Stand-in, not the same:** jaggery is \"an Indian sugar, made the old unrefined way\", close to what she meant and not the same. Heyrick names only where the sugar comes from, never its kind. Never \"slave-free sugar\"; never \"the sugar she asked for\".",
+  "**Ours, never hers:** her fear is the bartender's \"I like to think\"; why her name isn't on the title page isn't on record (Fox's isn't either); \"she started the boycott\" is false (Fox's 1791 came first). \"Rounder, a little toasted\" is Tomás's tasting note, not a *Matrix* fact.",
+  "**Dossier only:** the missing name, demerara (named after the Demerara River; the 1824 second printing opens with a deputy from Demerara), Fox's \"West India Sugar and Rum\", the towns counted in an unsigned later note, and the V&A sugar bowls.",
+  "**Versions:** v1 daiquiri on Indian dark rum and jaggery (withdrawn by Tomás in round 3: two changes where she asked for one); v2 Tom Collins with jaggery syrup; v3 daiquiri with rich jaggery and a \"vegan\" label (withdrawn in round 5: the label can't exclude groundnut; Hester's audit also found three errors in its reading); v4 = v2 restored, signed by all three in round 6. The room crossed three times.",
+  "**Library gap for Robin:** Midgley, *Women Against Slavery* (1992), and the ODNB entry on Heyrick, which would settle V2–V4 on the card.",
+  "**Ingredient table:** in round 5 Tomás reported deleting the row he'd made for v3's \"labelled vegan\" jaggery. Worth a check that only that row went."
+ ]
+}
