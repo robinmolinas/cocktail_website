@@ -5,8 +5,9 @@
 // smoke crossing the frame. The reading is inked into that room's left margin,
 // so the drink never leaves you.
 //
-// Sacred Glass Rule: the haze is masked OFF the drink (the hole follows --gx),
-// and the scrim only darkens, never colours. The image is never tinted.
+// Sacred Glass Rule: the scrim only darkens, never colours. The image is never
+// tinted — which is also why the drifting coloured "smoke" bands that used to
+// cross the room were removed (2026-09-29).
 //
 // H9.5 (intro) plays the arrival: black → the weather gathers → the cocktail
 // kindles out of the dark → the text writes itself in. H10.5 is the settled
@@ -18,27 +19,6 @@ import type { CocktailResult } from '../types';
 import CtaButton from './CtaButton';
 import { pourLinkFor } from '../engine/pourLink';
 
-
-/** One layer of weather. Fractal noise, warmed and blurred into billows. */
-function Cloud({ id, cls, freq, octaves, seed, blur, slope, intercept, rgb }: {
-  id: string; cls: string; freq: string; octaves: number; seed: number;
-  blur: number; slope: number; intercept: number; rgb: [number, number, number];
-}) {
-  const [r, g, b] = rgb;
-  return (
-    <div className={`tr-cloud ${cls}`}>
-      <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
-        <filter id={id} x="-20%" y="-20%" width="140%" height="140%">
-          <feTurbulence type="fractalNoise" baseFrequency={freq} numOctaves={octaves} seed={seed} stitchTiles="stitch" />
-          <feColorMatrix values={`0 0 0 0 ${r}  0 0 0 0 ${g}  0 0 0 0 ${b}  0 0 0 1 0`} />
-          <feComponentTransfer><feFuncA type="linear" slope={slope} intercept={intercept} /></feComponentTransfer>
-          <feGaussianBlur stdDeviation={blur} />
-        </filter>
-        <rect width="100" height="100" filter={`url(#${id})`} />
-      </svg>
-    </div>
-  );
-}
 
 export default function TheReading({
   result,
@@ -164,6 +144,9 @@ export default function TheReading({
       const vh = window.innerHeight || 1;
       const p = Math.min(1, Math.max(0, window.scrollY / (vh * 0.75)));
       el.style.setProperty('--p', p.toFixed(4));
+      // the hero's actions fade with it; once they are ghosts they must stop
+      // catching clicks meant for the reading scrolling beneath them
+      el.classList.toggle('tr-scrolled', p > 0.4);
       // --rp: how far through the letter she is (0 at its first line, 1 at its
       // last). The margin spine fills with her seed colour from this, which is
       // the only thing that makes four screens of prose feel navigable — and it
@@ -371,14 +354,6 @@ export default function TheReading({
         {/* the candles breathe over the glass */}
         <div className="tr-candle" />
 
-        {/* smoke crossing the room — masked off the drink, which stays sacred */}
-        <div className="tr-haze">
-          <div className="tr-band tr-b1" />
-          <div className="tr-band tr-b2" />
-          <div className="tr-band tr-b3" />
-          <Cloud id="tr-cl1" cls="tr-grain" freq="0.030 0.040" octaves={3} seed={7} blur={0.8} slope={2.2} intercept={-0.9} rgb={[0.96, 0.91, 0.82]} />
-        </div>
-
         {/* darkness makes the light pop */}
         <div className="tr-vig" />
         {/* the lamps go down on the reading side only */}
@@ -410,8 +385,19 @@ export default function TheReading({
           </p>
           <h1 className="tr-title">{result.cocktailName}</h1>
           <p className="tr-for">{result.tagline}</p>
+          {!gift && (
+            <div className="tr-hero-actions">
+              {/* on a phone the pair has to share one row: the tails drop */}
+              <CtaButton icon="share" onClick={shareKeepsake}>
+                {shareNote ?? <>Share<span className="cta-tail"> your cocktail</span></>}
+              </CtaButton>
+              <CtaButton icon="save" onClick={() => window.print()}>
+                Save<span className="cta-tail"> the recipe</span>
+              </CtaButton>
+            </div>
+          )}
           <a className="tr-cue" href="#tr-reading">
-            <span className="tr-dot" /> The Reading
+            {gift ? 'The recipe' : 'Your recipe and reading'}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M12 5v14M19 12l-7 7-7-7" />
             </svg>
@@ -501,26 +487,17 @@ export default function TheReading({
               </CtaButton>
             ) : (
               <>
-                {/* The journey earns its poetry; its toolbar does not. These
-                    three used to read "Preserve this recipe", "Send it on" and
-                    "Pour again, another night", which left the one moment she
-                    needs to act rather than feel written in riddles.
-                    They also used to be three identical pills — no hierarchy on
-                    a page whose whole purpose is that she keeps the recipe. Only
-                    that one is a pill now; the other two are quiet. */}
-                <CtaButton arrow={false} onClick={() => window.print()}>
-                  Save the recipe
-                </CtaButton>
-                <div className="tr-quiet-row">
-                  <button type="button" className="tr-quiet" onClick={shareKeepsake}>
-                    {shareNote ?? 'Share'}
+                {/* The page's two jobs, as equals (Robin, 2026-09-29): share is
+                    what brings the next guest, save is her keepsake. Share was
+                    a 0.78rem underline beside the pill; it now leads, with her
+                    colour on its rim. Starting again stays the quiet one. */}
+                <CtaButton icon="share" onClick={shareKeepsake}>{shareNote ?? 'Share your cocktail'}</CtaButton>
+                <CtaButton icon="save" onClick={() => window.print()}>Save the recipe</CtaButton>
+                {onPourAgain && (
+                  <button type="button" className="tr-quiet" onClick={onPourAgain}>
+                    Start again
                   </button>
-                  {onPourAgain && (
-                    <button type="button" className="tr-quiet" onClick={onPourAgain}>
-                      Start again
-                    </button>
-                  )}
-                </div>
+                )}
               </>
             )}
           </div>

@@ -168,63 +168,26 @@ const RES_QUESTIONS = [
 ];
 const RES_MAX = 3;
 
-// H6 · The Finish — "The Pour" (rev 4 — back to basics)
-// The personality phase is over; this hold is the first time the journey
-// shows an actual glass. Three beats, deliberately plain and ephemeral —
-// Robin's own correction after two more elaborate passes: "keep it very
-// simple." Same order as the original build: flavours first, then the
-// glass, then what to leave out.
-//   1. Choose the flavours — nine words, each inside a simple glassy
-//      bubble (the same visual language as H1's lens bubbles: a
-//      translucent sphere, no per-word colour), floating slowly upward
-//      and recycling at the bottom when unclaimed. A click pops one —
-//      up to three — the bubble simply bursts, nothing shoots anywhere.
-//   2. Choose the glass — four full illustrations (Canvas, not buttons),
-//      much larger than any prior hold's UI. A click chooses; it becomes
-//      THE glass — plain, no liquid performance, just the vessel.
-//   3. What to leave out — six forbidden ingredients, a plain toggle
-//      list. Click to exclude, click again to include — no stroke, no
-//      particles, nothing more than the toggle itself.
-// Mood, from the footage's own prompts and the chapter map: H5 was vast and
-// airy (an expanse to drift through); this is the opposite — quiet and close,
-// everything else dark, warm rim-light the only glow, "the only lit thing
-// in the room." The completed glass holds a beat, then the world dissolves
-// back to the real footage and rises to the trace hold (~10.7s — H7).
+// H6 · The Finish — "The Pour" (rev 5, 2026-09-29)
+// Two beats, one object — the sphere cluster every other choice uses:
+//   1. Choose the flavours — H5's cluster again: up to three, each lights in
+//      her seed colour and fizzes (the resonance canvas runs here too).
+//   2. What to leave out — the same cluster played backwards: pop the bubbles
+//      she never wants in the glass. A popped bubble leaves its word behind,
+//      struck; touching it blows the bubble back.
+// The glass beat is gone (Robin, 2026-09-29). Each persona's pour has its own
+// fixed glass (agent/spec/SPEC.md: vessel "does not change the recipe"), so
+// asking for one promised something the reveal could not keep — choose a
+// coupe, be handed a highball. The drinkScales it wrote default to 50 in
+// mixology.ts. Rev 4 rose the flavours through the frame at a smaller size,
+// which is what made this hold feel like a different product from H5.
 const FIN_MAX_FLAVORS = 3;
-// `lane` is the horizontal center each bubble rises through (evenly spread,
-// with a little sinusoidal wobble added at render time) — vertical position
-// is fully simulated (see finBubbleAnim), not stored here.
-const FIN_FLAVORS = [
-  { w: 'Sweet', lane: 8 }, { w: 'Bitter', lane: 18.5 },
-  { w: 'Spicy', lane: 29 }, { w: 'Herbal', lane: 39.5 },
-  { w: 'Fruity', lane: 50 }, { w: 'Citrusy', lane: 60.5 },
-  { w: 'Fresh', lane: 71 }, { w: 'Floral', lane: 81.5 },
-  { w: 'Smoky', lane: 92 },
-];
-
-const FIN_VESSELS: { key: string; label: string; shape: 'rocks' | 'coupe' | 'collins' | 'flute'; x: number; scales: Record<string, number> }[] = [
-  { key: 'short', label: 'Short & strong', shape: 'rocks', x: 22, scales: { long: 15, carbonated: 10, complex: 70, drinkNight: 35, modern: 40 } },
-  { key: 'poised', label: 'Poised & ceremonial', shape: 'coupe', x: 41, scales: { long: 20, carbonated: 5, complex: 75, drinkNight: 85, modern: 30 } },
-  { key: 'tall', label: 'Tall & cold', shape: 'collins', x: 60, scales: { long: 90, carbonated: 30, complex: 45, drinkNight: 25, modern: 55 } },
-  { key: 'light', label: 'Light & sparkling', shape: 'flute', x: 79, scales: { long: 75, carbonated: 90, complex: 25, drinkNight: 20, modern: 70 } },
-];
-// Hand-feel writes straight into drinkScales (mixology.ts already reads these
-// five keys) — no separate raw-label field, matching how gravity/selfScales/
-// moodScales work elsewhere.
-
-const FIN_VETOES = ['Egg whites', 'Dairy', 'Gluten', 'Nuts', 'Alcohol', 'Spice'];
-// The chosen glass grows into this spot for beat 3. At y=33 its rim was drawn
-// straight through the ward beat's own instruction line (2026-09-18 review);
-// 43 clears the question block above and still sits well clear of the ward
-// row at 60%.
-const FIN_HERO = { x: 50, y: 43 };
-const FIN_HERO_SCALE = 2.3;
-// The candidate glasses stand on a shared shelf line (percent of viewport
-// height) — bases aligned, labels a fixed step below — rather than sharing a
-// vertical center, which left each shape's base at a different height.
-const FIN_BASELINE = 54;
-const FIN_REST_SCALE = 1.12;
-const FIN_HOVER_SCALE = 1.2;
+const FIN_FLAVORS = ['Sweet', 'Bitter', 'Spicy', 'Herbal', 'Fruity', 'Citrusy', 'Fresh', 'Floral', 'Smoky'];
+// "Alcohol" was dropped from this list (Robin, 2026-09-29 rev 2): this is a
+// question about what she can't have, and alcohol isn't an allergen. That was
+// also the only way to ask for a zero-proof pour — mixology.ts still honours
+// /alcohol/ in `allergies`, so a future zero-proof entry point can reuse it.
+const FIN_VETOES = ['Egg whites', 'Dairy', 'Gluten', 'Nuts', 'Spice'];
 
 // H7 · The Trace — "The Still Surface" (rev 3: one question, not two)
 // On the foam-dome hold (~10.7s) the journey goes near-silent — the chapter
@@ -233,8 +196,8 @@ const FIN_HOVER_SCALE = 1.2;
 // Rev 3 (2026-09-18 review) removed the hold's first beat, "How often does a
 // cocktail find you?" — the five-ring depth gauge. Robin's call, and it costs
 // the result nothing: the only thing the answer ever reached was
-// `frequency === 'Never' → zero-proof`, which H6's own "Alcohol" veto already
-// produces, plus two optional echo lines in the breath. It also removed the
+// `frequency === 'Never' → zero-proof`, which H6's "Alcohol" veto used to
+// produce (that veto is gone too — see FIN_VETOES), plus two optional echo lines in the breath. It also removed the
 // last piece of UI in the journey that still read as a diagram. If the
 // question is ever wanted back, it should be one line and three bubbles.
 //
@@ -246,130 +209,6 @@ const FIN_HOVER_SCALE = 1.2;
 // Sealing blooms once and rises to the breath hold (~11.9s), where the
 // reveal work (The Breath / The Unveiling) picks up.
 
-// Pure glass illustrations — no component state, so these live at module
-// scope. Two structural families share one drawing path: tumblers (rocks,
-// collins — straight walls, rounded bottom) and stemmed glasses (coupe,
-// flute — a bowl tapering to a point, then a stem and base). `interior`
-// traces only the liquid cavity (bowl only, inset, no stem) for clipping.
-type GlassShape = 'rocks' | 'coupe' | 'collins' | 'flute';
-
-const glassGeom = (shape: GlassShape) => {
-  switch (shape) {
-    case 'rocks': return { stemmed: false as const, topHW: 32, botHW: 28, height: 58, corner: 9 };
-    case 'collins': return { stemmed: false as const, topHW: 18, botHW: 16, height: 96, corner: 6 };
-    case 'coupe': return { stemmed: true as const, bowlHW: 38, bowlDepth: 30, stemLen: 30, baseHW: 22 };
-    case 'flute': return { stemmed: true as const, bowlHW: 15, bowlDepth: 66, stemLen: 22, baseHW: 18 };
-  }
-};
-
-const traceGlassPath = (ctx: CanvasRenderingContext2D, shape: GlassShape, cx: number, cy: number, scale: number, interior: boolean) => {
-  const g = glassGeom(shape);
-  const inset = interior ? 4 * scale : 0;
-  ctx.beginPath();
-  if (!g.stemmed) {
-    const topY = cy - (g.height / 2) * scale;
-    const botY = cy + (g.height / 2) * scale - inset;
-    const topHW = g.topHW * scale - inset;
-    const botHW = g.botHW * scale - inset;
-    const corner = g.corner * scale;
-    ctx.moveTo(cx - topHW, topY + inset);
-    ctx.lineTo(cx - botHW, botY - corner);
-    ctx.quadraticCurveTo(cx - botHW, botY, cx - botHW + corner, botY);
-    ctx.lineTo(cx + botHW - corner, botY);
-    ctx.quadraticCurveTo(cx + botHW, botY, cx + botHW, botY - corner);
-    ctx.lineTo(cx + topHW, topY + inset);
-  } else {
-    const topY = cy - ((g.bowlDepth + g.stemLen) / 2) * scale + inset;
-    const bowlBotY = topY + g.bowlDepth * scale - inset;
-    const bowlHW = g.bowlHW * scale - inset;
-    ctx.moveTo(cx - bowlHW, topY);
-    ctx.quadraticCurveTo(cx - bowlHW, bowlBotY, cx, bowlBotY);
-    ctx.quadraticCurveTo(cx + bowlHW, bowlBotY, cx + bowlHW, topY);
-    if (!interior) {
-      const stemTopY = topY + g.bowlDepth * scale;
-      const stemBotY = stemTopY + g.stemLen * scale;
-      const stemHW = 2.2 * scale;
-      const baseHW = g.baseHW * scale;
-      ctx.moveTo(cx - stemHW, stemTopY);
-      ctx.lineTo(cx - stemHW, stemBotY);
-      ctx.lineTo(cx - baseHW, stemBotY);
-      ctx.moveTo(cx + stemHW, stemTopY);
-      ctx.lineTo(cx + stemHW, stemBotY);
-      ctx.lineTo(cx + baseHW, stemBotY);
-    }
-  }
-};
-
-const glassRimY = (shape: GlassShape, cy: number, scale: number) => {
-  const g = glassGeom(shape);
-  return g.stemmed ? cy - ((g.bowlDepth + g.stemLen) / 2) * scale : cy - (g.height / 2) * scale;
-};
-const glassRimHW = (shape: GlassShape, scale: number) => {
-  const g = glassGeom(shape);
-  return (g.stemmed ? g.bowlHW : g.topHW) * scale;
-};
-const glassBaseY = (shape: GlassShape, cy: number, scale: number) => {
-  const g = glassGeom(shape);
-  return g.stemmed ? glassRimY(shape, cy, scale) + (g.bowlDepth + g.stemLen) * scale : cy + (g.height / 2) * scale;
-};
-// Draws one glass at (cx,cy): soft drop shadow, then the glass body
-// (subtle material tint, stroke, a rim ellipse for the opening, a
-// highlight streak where light catches the glass). Deliberately plain —
-// no liquid performance. The glass is the vessel, nothing more.
-const drawGlass = (
-  ctx: CanvasRenderingContext2D,
-  shape: GlassShape,
-  cx: number, cy: number, scale: number, alpha: number,
-) => {
-  if (alpha <= 0.01 || scale <= 0.01) return;
-  ctx.save();
-
-  const shadowY = glassBaseY(shape, cy, scale) + 5 * scale;
-  const shadowRX = glassRimHW(shape, scale) * 1.05;
-  const shadowGrad = ctx.createRadialGradient(cx, shadowY, 0, cx, shadowY, Math.max(1, shadowRX));
-  shadowGrad.addColorStop(0, `rgba(10,6,3,${0.34 * alpha})`);
-  shadowGrad.addColorStop(1, 'rgba(10,6,3,0)');
-  ctx.fillStyle = shadowGrad;
-  ctx.beginPath();
-  ctx.ellipse(cx, shadowY, Math.max(1, shadowRX), Math.max(1, shadowRX * 0.3), 0, 0, Math.PI * 2);
-  ctx.fill();
-
-  traceGlassPath(ctx, shape, cx, cy, scale, false);
-  const bodyGrad = ctx.createLinearGradient(cx - 40 * scale, cy, cx + 40 * scale, cy);
-  bodyGrad.addColorStop(0, `rgba(255,255,255,${0.03 * alpha})`);
-  bodyGrad.addColorStop(0.45, `rgba(255,255,255,${0.13 * alpha})`);
-  bodyGrad.addColorStop(0.55, `rgba(255,255,255,${0.13 * alpha})`);
-  bodyGrad.addColorStop(1, `rgba(255,255,255,${0.03 * alpha})`);
-  ctx.fillStyle = bodyGrad;
-  ctx.fill();
-  ctx.globalAlpha = alpha * 0.55;
-  ctx.strokeStyle = 'rgba(250,244,232,0.9)';
-  ctx.lineWidth = Math.max(1, scale * 0.9);
-  ctx.stroke();
-
-  const rimY = glassRimY(shape, cy, scale);
-  const rimHW = glassRimHW(shape, scale);
-  ctx.beginPath();
-  ctx.ellipse(cx, rimY, Math.max(1, rimHW), Math.max(2.5, rimHW * 0.15), 0, 0, Math.PI * 2);
-  ctx.globalAlpha = alpha * 0.65;
-  ctx.strokeStyle = 'rgba(250,244,232,0.9)';
-  ctx.lineWidth = Math.max(1, scale * 0.7);
-  ctx.stroke();
-
-  const baseY = glassBaseY(shape, cy, scale);
-  ctx.beginPath();
-  const hlX = cx - rimHW * 0.5;
-  ctx.moveTo(hlX, rimY + 8 * scale);
-  ctx.quadraticCurveTo(hlX - 3 * scale, (rimY + baseY) / 2, hlX + 1 * scale, baseY - 10 * scale);
-  ctx.globalAlpha = alpha * 0.45;
-  ctx.strokeStyle = 'rgba(255,255,255,0.8)';
-  ctx.lineWidth = Math.max(1, scale * 1.1);
-  ctx.stroke();
-
-  ctx.globalAlpha = 1;
-  ctx.restore();
-};
-
 // "Positive – Negative" renamed to "Half-full – Half-empty" (Freya's proposal):
 // optimism with zero wrong answer, the most cocktail-native pair possible.
 // The rehearsal (round -1, unscored). It has to be a real choice with no
@@ -380,7 +219,7 @@ const PRACTICE_PAIR = { a: 'Tea', b: 'Coffee' };
 // step if either line changes.
 const PRACTICE_LINES = {
   prompt: 'Too quick to think. Trust the spirit within.',
-  hint: 'Nine quick pairs. Tap the one that is more you before it fades.',
+  hint: 'Nine quick pairs. Choose the one that is more you before it fades.',
 };
 
 const BINARIES = [
@@ -437,7 +276,7 @@ const GRAVITIES = [
 // here is allusion in her own words EXCEPT the trace — the scenario's
 // standing privacy rule: the one true thing is never echoed verbatim,
 // anywhere, ever. It gets one fixed allusion line, always last.
-const buildBreathEchoes = (a: Answers, vesselLabel: string | null): string[] => {
+const buildBreathEchoes = (a: Answers): string[] => {
   const lower = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
   const out: string[] = [];
   if (a.name.trim()) out.push(`for ${a.name.trim()}`);
@@ -455,7 +294,6 @@ const buildBreathEchoes = (a: Answers, vesselLabel: string | null): string[] => 
   if (a.drawnToward.length) out.push(`drawn toward ${a.drawnToward.slice(0, 2).map((w) => w.toLowerCase()).join(' & ')}`);
   if (a.soughtFor.length) out.push(`what they come to you for: ${a.soughtFor[0].toLowerCase()}`);
   if (a.flavors.length) out.push(`${a.flavors.map((w) => w.toLowerCase()).join(', ')} on the tongue`);
-  if (vesselLabel) out.push(`${vesselLabel.toLowerCase()} in the hand`);
   const firstWard = a.allergies.split(',').map((s) => s.trim()).filter(Boolean)[0];
   if (firstWard) out.push(`never ${firstWard.toLowerCase()}`);
   const capped = out.slice(0, 8);
@@ -514,7 +352,7 @@ const SEED_POS = [
 
 type Stage = 'arrive' | 'lines' | 'name' | 'lens' | 'ascend1' | 'seed' | 'ascend2' | 'gravity' | 'ascend3' | 'hidden' | 'ascend4' | 'resonance' | 'ascend5' | 'finish' | 'ascend6' | 'trace' | 'ascend7' | 'breath' | 'surface';
 type HiddenStage = 'intro' | 'play' | 'gap';
-type FinBeat = 'flavors' | 'glass' | 'ward';
+type FinBeat = 'flavors' | 'ward';
 
 // H5 canvas scene particles: an ignition/converge spark, and an ambient dust
 // mote rising through the frozen burst.
@@ -608,7 +446,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const [lineIdx, setLineIdx] = useState(0);
   const [name, setName] = useState('');
   const [chosen, setChosen] = useState<number | null>(null);
-  const [appeared, setAppeared] = useState<boolean[]>(() => LENSES.map(() => false));
   const [hoverSeed, setHoverSeed] = useState<number | null>(null);
   const [seedChosen, setSeedChosen] = useState<number | null>(null);
   // The hue is a pulse, then a memory: full bloom on commit, then it exhales
@@ -630,7 +467,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // H4 · The Catch
   const dropARef = useRef<HTMLButtonElement>(null);
   const dropBRef = useRef<HTMLButtonElement>(null);
-  const practiceTextRef = useRef<HTMLDivElement>(null);
   const hRaf = useRef<number | undefined>(undefined);
   const hStart = useRef(0);
   // read during render (it gates the pass affordance), so it is state, not a
@@ -643,10 +479,11 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const [hStage, setHStage] = useState<HiddenStage>('intro');
   const [hRound, setHRound] = useState(0);
   const [hChosen, setHChosen] = useState<'a' | 'b' | null>(null);
-  const [hRipple, setHRipple] = useState<{ x: number; y: number; c: string } | null>(null);
   // H5 · The Effervescence
   const resCanvasRef = useRef<HTMLCanvasElement>(null);
   const resGlintRefs = useRef<(HTMLButtonElement | null)[]>([]);
+  const finFloatRefs = useRef<(HTMLDivElement | null)[]>([]); // H6: the rising carriers the flavour spheres ride in
+  const finCaughtRef = useRef<string[]>([]);
   const resChosenRef = useRef<number[]>([]); // mirror for the canvas loop (avoids stale closures)
   const resSealT0 = useRef(0); // performance.now() when a seal began; 0 = not sealing
   const resSparks = useRef<Spark[]>([]); // bubble particles: catch-fizz / release / gather / notice, plus the continuous streams
@@ -654,26 +491,15 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const [resQ, setResQ] = useState(0); // 0 = drawn toward, 1 = sought for
   const [resChosen, setResChosen] = useState<number[]>([]);
   const [resSealing, setResSealing] = useState(false);
-  // H6 · The Pour
-  const finCanvasRef = useRef<HTMLCanvasElement>(null);
-  const finGlassAnim = useRef<Record<string, { x: number; y: number; s: number; op: number }>>({}); // animated candidate transforms, lerped each frame
-  const finBubbleAnim = useRef<Record<string, { x: number; y: number; vy: number; phase: number }>>({}); // rising-bubble sim per flavour
-  const finBubbleRefs = useRef<Record<string, HTMLButtonElement | null>>({}); // DOM handles the tick loop writes position onto directly
-  const finCaughtRef = useRef<string[]>([]); // mirror of finCaught, for the canvas loop
-  const finVesselKeyRef = useRef<string | null>(null); // mirror for the canvas loop
-  const finBeatRef = useRef<FinBeat>('flavors'); // mirror for the canvas loop — gates when the glass renders at all
-  const finHoverRef = useRef<string | null>(null); // glass candidate under the pointer
-  const finDust = useRef<Mote[] | null>(null); // the ambient foam-bubble field
+  // H6 · The Pour — its spheres register into resGlintRefs, so the resonance
+  // canvas (fizz, pops) serves both holds
   const [finBeat, setFinBeat] = useState<FinBeat>('flavors');
-  const [finVesselKey, setFinVesselKey] = useState<string | null>(null);
   const [finCaught, setFinCaught] = useState<string[]>([]); // flavours committed, in catch order
-  // Held bubbles whose pointer has LEFT once since the catch. The release
-  // affordance (strike-through on hover) is gated on this: the catching click
-  // happens with the pointer already on the bubble, and showing the strike in
-  // that same instant read as a rejection of the choice just made.
-  const [finArmed, setFinArmed] = useState<Set<string>>(new Set());
   const [finBanished, setFinBanished] = useState<string[]>([]);
+  const [finLeaving, setFinLeaving] = useState(false); // a beat is exiting — its head, pill and spheres go
   const [finSealed, setFinSealed] = useState(false);
+  // H0 · the name, let go
+  const [nameSealed, setNameSealed] = useState(false);
   // H7 · The Trace
   const traceInputRef = useRef<HTMLInputElement>(null);
   const breathCanvasRef = useRef<HTMLCanvasElement>(null);
@@ -762,13 +588,10 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     }
     if (target === 'finish' && stageRef.current === 'finish') {
       // re-jump onto the same stage: the arrival effect won't rerun, reset by hand
-      finGlassAnim.current = {};
-      finBubbleAnim.current = {};
       setFinBeat('flavors');
-      setFinVesselKey(null);
       setFinCaught([]);
-      setFinArmed(new Set());
       setFinBanished([]);
+      setFinLeaving(false);
       setFinSealed(false);
     }
     if (target === 'trace' && stageRef.current === 'trace') {
@@ -934,17 +757,25 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     setStage('name');
   };
 
+  // The name is let go the way every answer is: the words lift off the line
+  // and dissolve, a breath of bubbles rises from it, then the next hold. It
+  // used to cut straight to H1 on Enter — the one hard cut in the journey.
   const commitName = () => {
-    if (!name.trim()) return;
+    if (!name.trim() || nameSealed) return;
     onUpdate({ name: name.trim() });
-    setStage('lens');
+    setNameSealed(true);
+    for (let k = 0; k < 7; k++) after(k * 45, releaseKeyBubble);
+    after(820, () => setStage('lens'));
   };
 
+  // One tap answers. The chosen sphere lights, then surfaces like H5's; the
+  // other five let go where they are. (It used to balloon to 2x and blur while
+  // the rest shot 58vh upward — a second, louder exit grammar.)
   const pickLens = (i: number) => {
     if (chosen !== null) return;
     setChosen(i);
     onUpdate({ lens: LENSES[i] });
-    after(1000, () => {
+    after(1150, () => {
       setStage('ascend1');
       playUntil(HOLD_SEED, () => setStage('seed'));
     });
@@ -1027,7 +858,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     const frozenMs = isPractice ? PRACTICE_FROZEN_MS : FROZEN_MS;
     const thawMs = isPractice ? PRACTICE_THAW_MS : THAW_MS;
     const e = Math.max(0, elapsed - revealDelay); // the embers' own clock — held at the door until reveal
-    const beat = Math.sin(e / 480); // a steady heartbeat pulse
+    const beat = Math.sin(e / 520); // a slow breath, not a throb
     let op = 0, scale = 1, glow = 1;
     // The cooling is legible on the word itself (see .ember-word: its halo
     // draws in, it dims and shrinks a little as --ember-glow / --ember-scale
@@ -1041,16 +872,20 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       scale = 0.82 + 0.18 * op;
       glow = 0.85 + 0.15 * op;
     } else if (e < frozenMs) {
-      const inT = Math.min(1, e / 260); // ignites in, then holds
+      const inT = 1 - Math.pow(1 - Math.min(1, e / 420), 3); // condenses in, eased
       op = inT;
-      scale = 0.82 + 0.18 * inT + beat * 0.05;
-      glow = 0.85 + 0.15 * inT + beat * 0.1;
+      scale = 0.88 + 0.12 * inT + beat * 0.015;
+      glow = 1;
     } else {
-      const tp = Math.min(1, (e - frozenMs) / thawMs); // cooling toward a dead coal
-      const amp = 0.05 * (1 - tp * 0.7); // the pulse weakens as it dies
-      scale = Math.max(0.4, 1 - tp * 0.58 + beat * amp);
-      glow = Math.max(0.12, 1 - tp * 0.85 + beat * amp * 0.6);
-      op = tp < 0.7 ? 1 : Math.max(0, (1 - tp) / 0.3); // stays visible while cooling, dies at the very end
+      // Dissolving into the liquid (rev 4): the glass thins and sinks a touch,
+      // the sphere draws in only slightly, and the word stays sharp for the
+      // first half — it blurs away only in the last stretch (see .ember CSS).
+      // It used to shrink to 40% and grey out through a brightness filter.
+      const tp = Math.min(1, (e - frozenMs) / thawMs);
+      const amp = 0.015 * (1 - tp);
+      scale = 1 - tp * 0.16 + beat * amp;
+      glow = Math.max(0.05, 1 - tp * 0.95);
+      op = tp < 0.78 ? 1 : Math.max(0, (1 - tp) / 0.22);
     }
     for (const ref of [dropARef, dropBRef]) {
       const el = ref.current;
@@ -1063,7 +898,9 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     }
   };
 
-  const advanceHidden = (next: number) => {
+  // `gap` is the breath between pairs: longer after a catch, so the chosen
+  // sphere can finish rising before the next pair condenses
+  const advanceHidden = (next: number, gap = 560) => {
     if (next >= BINARIES.length) {
       setHStage('gap');
       after(750, () => {
@@ -1072,14 +909,13 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       });
       return;
     }
-    after(560, () => startHRound(next));
+    after(gap, () => startHRound(next));
   };
 
   const startHRound = (i: number) => {
     if (hRaf.current) cancelAnimationFrame(hRaf.current);
     hAnswered.current = false;
     setHChosen(null);
-    setHRipple(null);
     setHRound(i);
     setHStage('play');
     hStart.current = performance.now();
@@ -1107,7 +943,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     advanceHidden(hRound + 1);
   };
 
-  const catchDrop = (side: 'a' | 'b', clientX: number, clientY: number) => {
+  const catchDrop = (side: 'a' | 'b') => {
     if (hStage !== 'play' || hAnswered.current) return;
     hAnswered.current = true;
     if (hRaf.current) cancelAnimationFrame(hRaf.current);
@@ -1119,31 +955,27 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       onUpdate({ texture: { ...hResults.current } });
       setHChosen(side);
     }
-    setHRipple({ x: clientX, y: clientY, c: seedHex });
-    // freeze both, then flare the caught ember white-hot and burst it while
-    // the other finishes guttering out — CSS transitions on [data-caught]
-    // take over from here
+    // The catch (rev 5 — Robin: the flash-and-double-ring read as quick and
+    // flat). The chosen sphere fills with her colour from its centre, lets a
+    // column of fine fizz loose, then rises and dissolves into the drink —
+    // the same "surfacing" every other choice makes, given room to breathe.
+    // The other sinks back into the depths. No rings. Classes drive it; the
+    // rAF paint has already stopped, so nothing fights the CSS.
     const chosen = side === 'a' ? dropARef.current : dropBRef.current;
     const other = side === 'a' ? dropBRef.current : dropARef.current;
     if (chosen) {
       chosen.dataset.caught = '1';
       chosen.classList.remove('dimming');
-      requestAnimationFrame(() => {
-        chosen.style.setProperty('--ember-scale', '2.3');
-        chosen.style.setProperty('--ember-glow', '1.6');
-        requestAnimationFrame(() => { chosen.style.opacity = '0'; });
-      });
+      chosen.classList.add('is-caught');
+      const sph = chosen.querySelector('.sphere')?.getBoundingClientRect();
+      if (sph) spawnSparks(sph.left + sph.width / 2, sph.top + sph.height / 2, 'absorb', sph.width / 2);
     }
     if (other) {
       other.dataset.caught = '1';
-      requestAnimationFrame(() => {
-        other.style.setProperty('--ember-scale', '0.3');
-        other.style.setProperty('--ember-glow', '0.05');
-        other.style.opacity = '0';
-      });
+      other.classList.add('is-passed');
     }
     setHStage('gap');
-    advanceHidden(hRound + 1);
+    advanceHidden(hRound + 1, 1050);
   };
 
   // Kick off H4 when the journey reaches the bitters hold — a short settling
@@ -1174,8 +1006,8 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       // a gentle refusal: the field is full — release one first
       const el = resGlintRefs.current[i];
       if (el) {
-        el.classList.add('res-refuse');
-        after(430, () => el.classList.remove('res-refuse'));
+        el.classList.add('is-refused');
+        after(430, () => el.classList.remove('is-refused'));
       }
       return;
     }
@@ -1197,7 +1029,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
 
   const glintCenter = (el: HTMLButtonElement | null) => {
     if (!el) return null;
-    const dot = el.querySelector('.res-bubble') ?? el;
+    const dot = el.querySelector('.sphere') ?? el;
     const r = (dot as HTMLElement).getBoundingClientRect();
     return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
   };
@@ -1211,7 +1043,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // one-shot moments. Colour lives in her seed hue or a pale foam white,
   // never a filled disc; these must read as bubbles, not sparks or blots.
   // Skipped under reduced motion.
-  const spawnSparks = (x: number, y: number, kind: 'ignite' | 'release' | 'notice') => {
+  const spawnSparks = (x: number, y: number, kind: 'ignite' | 'release' | 'notice' | 'pop' | 'absorb', radius = 46) => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const out = resSparks.current;
     const foam = 'rgb(255, 248, 236)';
@@ -1225,6 +1057,34 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       // a weak exhale, mostly sinking back before it fizzles — the catch let go
       for (let k = 0; k < 5; k++) {
         out.push({ x: x + (Math.random() - 0.5) * 10, y: y + (Math.random() - 0.5) * 6, vx: (Math.random() - 0.5) * 12, vy: 10 + Math.random() * 18, r: 1 + Math.random(), life: 0.7, ttl: 500, c: foam });
+      }
+    } else if (kind === 'absorb') {
+      // H4 · the catch: fine fizz loosed from inside the glass, climbing in a
+      // soft column — born across the sphere's body, so it reads as the drink
+      // coming alive in it rather than a burst from one point
+      for (let k = 0; k < 28; k++) {
+        const a = Math.random() * Math.PI * 2;
+        const d = Math.sqrt(Math.random()) * radius * 0.62;
+        out.push({
+          x: x + Math.cos(a) * d,
+          y: y + Math.sin(a) * d,
+          vx: (Math.random() - 0.5) * 14,
+          vy: -(34 + Math.random() * 46),
+          r: 1.2 + Math.random() * 1.9,
+          life: 1,
+          ttl: 900 + Math.random() * 700,
+          c: Math.random() > 0.45 ? seedHex : foam,
+        });
+      }
+    } else if (kind === 'pop') {
+      // H6 · left out: the glass skin breaks — a ring of droplets flung
+      // outward from the rim, foam-white (a refusal carries no seed colour),
+      // each one already turning buoyant
+      const R = 46;
+      for (let k = 0; k < 12; k++) {
+        const ang = (k / 12) * Math.PI * 2 + Math.random() * 0.3;
+        const sp = 70 + Math.random() * 60;
+        out.push({ x: x + Math.cos(ang) * R, y: y + Math.sin(ang) * R, vx: Math.cos(ang) * sp, vy: Math.sin(ang) * sp - 10, r: 0.9 + Math.random() * 1.3, life: 1, ttl: 420 + Math.random() * 260, c: foam });
       }
     } else {
       // the drink notices — a rush of fine, fast bubbles from the gathered centre
@@ -1256,10 +1116,10 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       if (!el) return;
       if (resChosen.includes(i)) {
         el.style.setProperty('--k', `${resChosen.indexOf(i) * 90}ms`);
-        el.classList.add('res-surface');
+        el.classList.add('sphere-surface');
       } else {
         // the unchosen were already receded if she picked her full three
-        el.classList.add(resChosen.length >= RES_MAX ? 'res-dissolve-dim' : 'res-dissolve');
+        el.classList.add(resChosen.length >= RES_MAX ? 'sphere-dissolve-dim' : 'sphere-dissolve');
       }
     });
     after(1600, () => {
@@ -1285,7 +1145,8 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // catch/release/notice/gather. Reduced motion: static dust, no streams,
   // no bursts.
   useEffect(() => {
-    if (stage !== 'resonance') return;
+    if (stage !== 'resonance' && stage !== 'finish' && stage !== 'hidden') return;
+    const withDust = stage !== 'hidden'; // H4 borrows only the fizz, not the ambient field
     const canvas = resCanvasRef.current;
     const ctx = canvas?.getContext('2d');
     if (!canvas || !ctx) return;
@@ -1338,7 +1199,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       // ---- the ambient fizz: fine bubbles already rising, whether or not
       //      anything's been caught yet ----
       ctx.globalCompositeOperation = 'lighter';
-      for (const m of resDust.current!) {
+      for (const m of withDust ? resDust.current! : []) {
         if (!reduced) {
           m.x += (m.vx * dt) / 1000;
           m.y += (m.vy * dt) / 1000;
@@ -1431,62 +1292,165 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     setResSealing(false);
   }, [stage]);
 
-  // H6 · The Pour — flavours, then the glass, then what to leave out.
-  // Every interaction is a click, and every step is deliberately plain.
-  // See the module-scope drawGlass() above for the glass illustration.
-  useEffect(() => { finVesselKeyRef.current = finVesselKey; }, [finVesselKey]);
-  useEffect(() => { finCaughtRef.current = finCaught; }, [finCaught]);
-  useEffect(() => { finBeatRef.current = finBeat; }, [finBeat]);
+  // H6 · The Pour — flavours, then what to leave out. Both beats are the
+  // sphere cluster; the spheres register into resGlintRefs, and the canvas
+  // above (running for 'finish' too) gives the chosen flavours H5's fizz.
+  useEffect(() => {
+    if (stage !== 'finish') return;
+    resChosenRef.current = finBeat === 'flavors' ? finCaught.map((w) => FIN_FLAVORS.indexOf(w)) : [];
+  }, [stage, finBeat, finCaught]);
 
-  // Beat 1: choose the flavours. Bubbles rise on their own (tick loop
-  // below); a click catches one before it gets away — the bubble freezes
-  // right where it was touched and lights up in her seed colour
-  // (`.fin-bubble-held`). Touching a held one releases it: it dims and
-  // simply resumes rising from where it stood.
-  const catchFlavor = (word: string) => {
-    if (finBeat !== 'flavors') return;
-    const disarm = () => setFinArmed((prev) => { const next = new Set(prev); next.delete(word); return next; });
+  useEffect(() => { finCaughtRef.current = finCaught; }, [finCaught]);
+
+  // Beat 1 rises (rev 6 — Robin liked the old rise, not its look). The nine
+  // flavour spheres climb slowly through the liquid in lanes, condensing out
+  // of the depths just above the pill and dissolving just under the question;
+  // catching one holds it where it was touched (it lights and fizzes, as in
+  // H5), and letting it go lets it climb on. A rising sphere that meets a held
+  // one in its lane eases around it rather than through it. Everything is
+  // written straight to the carriers' transforms — no React state per frame.
+  // Reduced motion: the field stands still, already spread out.
+  useEffect(() => {
+    if (stage !== 'finish' || finBeat !== 'flavors') return;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const n = FIN_FLAVORS.length;
+    const st = FIN_FLAVORS.map(() => ({ p: -1, xo: 0, op: 0 }));
+    const smooth = (a: number, b: number, v: number) => {
+      const t = Math.min(1, Math.max(0, (v - a) / (b - a)));
+      return t * t * (3 - 2 * t);
+    };
+    let raf = 0;
+    const t0 = performance.now();
+    let last = t0;
+    const tick = (now: number) => {
+      const dt = Math.min(50, now - last);
+      last = now;
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      const first = finFloatRefs.current.find(Boolean);
+      const size = first ? first.offsetWidth : 150;
+      const gutter = Math.min(104, Math.max(20, w * 0.065));
+      const cols = Math.max(3, Math.min(n, Math.floor((w - 2 * gutter) / (size * 1.1))));
+      const laneW = (w - 2 * gutter) / cols;
+      const head = document.querySelector<HTMLElement>('.fin-stage .hold-head');
+      const headBottom = head ? head.offsetTop + head.offsetHeight : h * 0.24;
+      const yTop = headBottom + size * 0.5 + 8;
+      const yBot = h * 0.875 - 40 - size * 0.5;
+      const travel = Math.max(size, yBot - yTop);
+      const held = finCaughtRef.current;
+      const pts: { x: number; y: number; lane: number; held: boolean }[] = [];
+      for (let i = 0; i < n; i++) {
+        const lane = i % cols;
+        const inLane = Math.floor((n - 1 - lane) / cols) + 1;
+        const s0 = st[i];
+        if (s0.p < 0) s0.p = (Math.floor(i / cols) / inLane + lane * 0.618) % 1; // golden stagger across lanes
+        const isHeld = held.includes(FIN_FLAVORS[i]);
+        if (!isHeld && !reduced) s0.p = (s0.p + dt / (21000 - (lane % 3) * 1800)) % 1;
+        pts.push({ x: gutter + laneW * (lane + 0.5), y: yBot - s0.p * travel, lane, held: isHeld });
+      }
+      for (let i = 0; i < n; i++) {
+        const s0 = st[i];
+        const pt = pts[i];
+        // ease around a held sphere in the same lane
+        let xo = 0;
+        if (!pt.held) {
+          for (const q of pts) {
+            if (!q.held || q.lane !== pt.lane) continue;
+            const reach = size * 1.08;
+            const k = 1 - Math.min(1, Math.abs(pt.y - q.y) / reach);
+            if (k <= 0) continue;
+            const dir = pt.lane === 0 ? 1 : pt.lane === cols - 1 ? -1 : i % 2 ? 1 : -1;
+            xo = dir * k * k * (3 - 2 * k) * size * 0.92;
+          }
+        }
+        s0.xo += (xo - s0.xo) * Math.min(1, dt / 140);
+        // condense in at the foot of the band, dissolve at its head; a held
+        // sphere is always whole. The field arrives one sphere at a time.
+        const band = smooth(0, 0.13, s0.p) * (1 - smooth(0.85, 1, s0.p));
+        const entrance = reduced ? 1 : smooth(0, 1, (now - t0 - 250 - i * 120) / 700);
+        const target = (pt.held ? 1 : reduced ? 1 : band) * entrance;
+        s0.op += (target - s0.op) * Math.min(1, dt / 160);
+        const el = finFloatRefs.current[i];
+        if (!el) continue;
+        el.style.transform = `translate3d(${(pt.x + s0.xo - size / 2).toFixed(1)}px, ${(pt.y - size / 2).toFixed(1)}px, 0)`;
+        el.style.opacity = s0.op.toFixed(3);
+        el.style.filter = s0.op > 0.98 ? 'none' : `blur(${((1 - s0.op) * 4).toFixed(2)}px)`;
+        el.style.pointerEvents = s0.op > 0.45 ? 'auto' : 'none';
+      }
+      raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [stage, finBeat]);
+
+  // Beat 1: choose the flavours — H5's toggle, word for word
+  const catchFlavor = (i: number) => {
+    if (finBeat !== 'flavors' || finLeaving) return;
+    const word = FIN_FLAVORS[i];
+    const c = glintCenter(resGlintRefs.current[i]);
     if (finCaught.includes(word)) {
-      setFinCaught((prev) => prev.filter((w) => w !== word));
-      disarm();
+      if (c) spawnSparks(c.x, c.y, 'release');
+      setFinCaught(finCaught.filter((w) => w !== word));
       return;
     }
-    if (finCaught.length >= FIN_MAX_FLAVORS) return;
-    setFinCaught((prev) => [...prev, word]);
-    disarm(); // a fresh hold starts un-armed — the strike waits for the pointer to leave once
+    if (finCaught.length >= FIN_MAX_FLAVORS) {
+      const el = resGlintRefs.current[i];
+      if (el) {
+        el.classList.add('is-refused');
+        after(430, () => el.classList.remove('is-refused'));
+      }
+      return;
+    }
+    if (c) spawnSparks(c.x, c.y, 'ignite');
+    setFinCaught([...finCaught, word]);
+  };
+
+  // Every beat leaves the same way H5 does: the chosen surface a beat apart,
+  // the rest let go where they are, the question and the pill fade.
+  const exitSpheres = (words: string[], chosen: string[]) => {
+    words.forEach((w, i) => {
+      const el = resGlintRefs.current[i];
+      if (!el) return;
+      if (chosen.includes(w)) {
+        el.style.setProperty('--k', `${chosen.indexOf(w) * 90}ms`);
+        el.classList.add('sphere-surface');
+      } else {
+        el.classList.add(chosen.length >= FIN_MAX_FLAVORS && words === FIN_FLAVORS ? 'sphere-dissolve-dim' : 'sphere-dissolve');
+      }
+    });
   };
 
   const sealCatch = () => {
-    if (finCaught.length === 0) return;
+    if (finCaught.length === 0 || finLeaving) return;
     onUpdate({ flavors: finCaught });
-    setFinBeat('glass');
+    setFinLeaving(true);
+    exitSpheres(FIN_FLAVORS, finCaught);
+    after(1250, () => {
+      setFinLeaving(false);
+      setFinBeat('ward');
+    });
   };
 
-  // Beat 2: choose the glass. A click, per Robin — "the exact same
-  // questionnaire, just much bigger." The chosen candidate becomes THE
-  // glass (drawGlass's lerp handles the grow-to-hero animation); the rest
-  // fade out inside the same canvas loop. Plain — no liquid performance.
-  const chooseGlass = (key: string) => {
-    if (finVesselKey) return;
-    const v = FIN_VESSELS.find((x) => x.key === key);
-    if (!v) return;
-    setFinVesselKey(key);
-    onUpdate({ drinkScales: v.scales });
-    after(650, () => setFinBeat('ward'));
-  };
-
-  // Beat 3: what to leave out. A plain toggle — click to exclude, click
-  // again to include. No stroke, no particles, nothing more than the
-  // toggle itself.
-  const toggleWard = (word: string) => {
-    setFinBanished((prev) => (prev.includes(word) ? prev.filter((w) => w !== word) : [...prev, word]));
+  // Beat 2: what to leave out — pop the bubble. Reversible: the word stays
+  // behind, struck, and touching it blows the bubble back.
+  const toggleWard = (i: number) => {
+    if (finLeaving || finSealed) return;
+    const word = FIN_VETOES[i];
+    const popping = !finBanished.includes(word);
+    if (popping) {
+      const c = glintCenter(resGlintRefs.current[i]);
+      if (c) spawnSparks(c.x, c.y, 'pop');
+    }
+    setFinBanished((prev) => (popping ? [...prev, word] : prev.filter((w) => w !== word)));
   };
 
   const sealWard = () => {
     if (finSealed) return;
     onUpdate({ allergies: finBanished.join(', ') });
     setFinSealed(true);
-    after(1400, () => {
+    setFinLeaving(true);
+    exitSpheres(FIN_VETOES, []);
+    after(1100, () => {
       setStage('ascend6');
       playUntil(HOLD_TRACE, () => setStage('trace'));
     });
@@ -1509,156 +1473,28 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     });
   };
 
+  // The trace is let go like the name: the line lifts and dissolves and its
+  // motes rise with it. (It used to flash a white bloom over the frame, which
+  // read as a camera flash rather than a breath let out.)
   const sealTrace = () => {
     if (traceSealed) return;
     onUpdate({ insight: traceText.trim() });
     setTraceSealed(true);
-    after(1300, () => {
+    const burst = Math.min(14, 6 + Math.round(traceText.length / 8));
+    for (let k = 0; k < burst; k++) after(k * 40, releaseTraceMote);
+    after(1150, () => {
       setStage('ascend7');
       playUntil(HOLD_BREATH, () => setStage('breath'));
     });
   };
 
-  // The scene: ambient dust throughout; uncaught flavour bubbles rise on
-  // their own and recycle when they reach the top unclaimed (position
-  // written straight to the DOM each frame — no React state churn for
-  // continuous motion); the four glass candidates lerp toward their
-  // target transform every frame (row position during beat 'glass', then
-  // the chosen one grows into the hero position while the rest fade).
-  // Reduced motion: static dust and bubbles, instant transforms.
-  useEffect(() => {
-    if (stage !== 'finish') return;
-    const canvas = finCanvasRef.current;
-    const ctx = canvas?.getContext('2d');
-    if (!canvas || !ctx) return;
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const dpr = Math.min(2, window.devicePixelRatio || 1);
-    const resize = () => {
-      canvas.width = Math.round(window.innerWidth * dpr);
-      canvas.height = Math.round(window.innerHeight * dpr);
-      canvas.style.width = `${window.innerWidth}px`;
-      canvas.style.height = `${window.innerHeight}px`;
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    };
-    resize();
-    window.addEventListener('resize', resize);
-    if (!finDust.current) {
-      const w = window.innerWidth;
-      const h = window.innerHeight;
-      finDust.current = Array.from({ length: 22 }, () => ({
-        x: Math.random() * w,
-        y: h * 0.15 + Math.random() * h * 0.85,
-        r: 0.6 + Math.random() * 1.2,
-        a: 0.06 + Math.random() * 0.16,
-        tw: Math.random() * Math.PI * 2,
-        ts: 0.4 + Math.random() * 0.7,
-        vx: -2 + Math.random() * 4,
-        vy: -3 - Math.random() * 5,
-      }));
-    }
-    let raf = 0;
-    let last = performance.now();
-    const tick = (now: number) => {
-      const dt = Math.min(50, now - last);
-      last = now;
-      const w = window.innerWidth;
-      const h = window.innerHeight;
-      ctx.clearRect(0, 0, w, h);
-
-      // ---- ambient dust — this hold is close and warm, not vast; kept light ----
-      ctx.globalCompositeOperation = 'lighter';
-      for (const m of finDust.current!) {
-        if (!reduced) {
-          m.x += (m.vx * dt) / 1000;
-          m.y += (m.vy * dt) / 1000;
-          if (m.y < -8) { m.y = h + 8; m.x = Math.random() * w; }
-          if (m.x < -8) m.x = w + 8;
-          if (m.x > w + 8) m.x = -8;
-        }
-        const tw = reduced ? 0.7 : 0.55 + 0.45 * Math.sin((now / 1000) * m.ts * 2 + m.tw);
-        ctx.globalAlpha = m.a * tw;
-        ctx.fillStyle = 'rgb(255, 246, 230)';
-        ctx.beginPath();
-        ctx.arc(m.x, m.y, m.r, 0, Math.PI * 2);
-        ctx.fill();
-      }
-      ctx.globalCompositeOperation = 'source-over';
-
-      // ---- the flavour bubbles: rise slowly, recycle when unclaimed ----
-      for (const f of FIN_FLAVORS) {
-        const el = finBubbleRefs.current[f.w];
-        if (!el) continue; // not mounted (not in the 'flavors' beat)
-        if (finCaughtRef.current.includes(f.w)) continue; // held — frozen right where she touched it
-        if (!finBubbleAnim.current[f.w]) {
-          // the band starts below the question + hint block (2026-09-18
-          // review: bubbles drifted straight through "What flavours are
-          // calling you?" and covered it)
-          finBubbleAnim.current[f.w] = { x: f.lane, y: 32 + Math.random() * 62, vy: 2.6 + Math.random() * 2, phase: Math.random() * Math.PI * 2 };
-        }
-        const b = finBubbleAnim.current[f.w];
-        if (!reduced) {
-          b.y -= (b.vy * dt) / 1000;
-          if (b.y < 30) b.y = 96 + Math.random() * 6;
-        }
-        const wobble = reduced ? 0 : Math.sin(now / 1300 + b.phase) * 2.2;
-        el.style.left = `${f.lane + wobble}%`;
-        el.style.top = `${b.y}%`;
-      }
-
-      // ---- the glasses — only from beat 'glass' onward; nothing here during 'flavors' ----
-      if (finBeatRef.current !== 'flavors') {
-        const chosen = finVesselKeyRef.current;
-        const k = reduced ? 1 : Math.min(1, dt / 260);
-        for (const v of FIN_VESSELS) {
-          // self-healing: a sibling "fresh slate" effect may clear this ref on
-          // the same [stage] change, in either order — never trust it's populated
-          if (!finGlassAnim.current[v.key]) finGlassAnim.current[v.key] = { x: v.x, y: FIN_BASELINE - 6, s: 0.7, op: 0 };
-          const anim = finGlassAnim.current[v.key];
-          const isChosen = chosen === v.key;
-          // unchosen glasses stand on the shelf line: the y target keeps each
-          // base pinned to FIN_BASELINE at the current scale, so a hovered
-          // glass grows upward from where it stands
-          const restY = FIN_BASELINE - (glassBaseY(v.shape, 0, anim.s) / h) * 100;
-          const targetX = isChosen ? FIN_HERO.x : v.x;
-          const targetY = isChosen ? FIN_HERO.y : restY;
-          const targetS = chosen
-            ? (isChosen ? FIN_HERO_SCALE : 0.5)
-            : (finHoverRef.current === v.key ? FIN_HOVER_SCALE : FIN_REST_SCALE);
-          const targetOp = chosen ? (isChosen ? 1 : 0) : 1;
-          anim.x += (targetX - anim.x) * k;
-          anim.y += (targetY - anim.y) * k;
-          anim.s += (targetS - anim.s) * k;
-          anim.op += (targetOp - anim.op) * k;
-          if (chosen && !isChosen && anim.op < 0.01) continue;
-          const cx = (anim.x / 100) * w;
-          const cy = (anim.y / 100) * h;
-          drawGlass(ctx, v.shape, cx, cy, anim.s, anim.op);
-        }
-      }
-      ctx.globalAlpha = 1;
-      raf = requestAnimationFrame(tick);
-    };
-    raf = requestAnimationFrame(tick);
-    return () => {
-      cancelAnimationFrame(raf);
-      window.removeEventListener('resize', resize);
-      finDust.current = null;
-      finGlassAnim.current = {};
-      finBubbleAnim.current = {};
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [stage]);
-
   // Fresh slate whenever the finish hold begins (natural arrival or debug jump).
   useEffect(() => {
     if (stage !== 'finish') return;
-    finGlassAnim.current = {};
-    finBubbleAnim.current = {};
     setFinBeat('flavors');
-    setFinVesselKey(null);
     setFinCaught([]);
-    setFinArmed(new Set());
     setFinBanished([]);
+    setFinLeaving(false);
     setFinSealed(false);
   }, [stage]);
 
@@ -1679,7 +1515,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // exactly one cycle plays before the condense.
   useEffect(() => {
     if (stage !== 'breath') return;
-    breathFrags.current = buildBreathEchoes(answers, FIN_VESSELS.find((v) => v.key === finVesselKey)?.label ?? null);
+    breathFrags.current = buildBreathEchoes(answers);
     setBreathPhase('still');
     setBreathShowReveal(false);
     setBreathReleased(false);
@@ -1747,6 +1583,28 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     const sb = parseInt(seedHex.slice(5, 7), 16);
     const sRgb = `${sr}, ${sg}, ${sb}`;
 
+    // The spirit-point (rev 3): the same material as the motes that drew
+    // the chalice — a point of warm light with her colour as its glow, only a
+    // size larger. Rev 2's glass bubble (rim, highlight, halo disc) read as
+    // cartoony beside those fine dots (Robin). `stretch` draws it out into a
+    // drop while it falls.
+    const drawSpiritPoint = (x: number, y: number, r: number, alpha: number, stretch: number) => {
+      if (r < 0.3 || alpha <= 0) return;
+      ctx.save();
+      ctx.globalAlpha = alpha;
+      ctx.translate(x, y);
+      ctx.scale(1 / Math.sqrt(stretch), stretch);
+      ctx.beginPath();
+      ctx.arc(0, 0, r, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(255, 240, 210, 0.97)';
+      ctx.shadowColor = seedHex;
+      ctx.shadowBlur = 18;
+      ctx.fill();
+      ctx.shadowBlur = 6; // a tighter second pass warms the core toward her colour
+      ctx.fill();
+      ctx.restore();
+    };
+
     // Per-mote timing from when this effect starts (≈ breath stage arrival).
     const t0 = performance.now();
     const moteStartMs = breathFrags.current.map((_, i) =>
@@ -1757,7 +1615,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     const condenseMs = lastEchoEnd + 350;
     const DRAW_MS = reduced ? 80 : 1900;
     const IGNITE_DELAY_MS = 360;
-    const IGNITE_MS = reduced ? 60 : 720;
+    const IGNITE_MS = reduced ? 60 : 900;
     let revealFired = false;
 
     let raf = 0;
@@ -1776,7 +1634,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       const toScrn = (px: number, py: number) => ({ x: figOX + px * figScale, y: figOY + py * figScale });
       const anchors = anchorsRaw.map((a) => toScrn(a.x, a.y));
       const spiritPt = toScrn(SPIRIT_DOT.x, SPIRIT_DOT.y);
-      const spiritR = SPIRIT_DOT.r * figScale;
+      const spiritR = Math.max(3.2, figScale * 0.24); // the landed motes are 2.4px
 
       // H9 · the letting go: once released, the whole frozen tableau exhales.
       const rel = releaseAtRef.current;
@@ -1873,45 +1731,35 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
           ctx.restore();
         }
 
-        // ---- spirit dot ignition: after the stroke completes ----
+        // ---- the spirit-point ignites: after the stroke completes ----
+        // It gathers from nothing to a point of light a little larger than the
+        // motes, breathes very slightly while it holds, and sends out one slow
+        // ring of her colour. (Rev 1 was a flat disc in a big pulsing blur;
+        // rev 2 a glass bubble — both too much beside the fine line work.)
         const igniteAt = condenseMs + DRAW_MS + IGNITE_DELAY_MS;
         if (elapsed >= igniteAt) {
           const ignT = Math.min(1, (elapsed - igniteAt) / IGNITE_MS);
-          const pulse = 0.78 + 0.22 * Math.sin(elapsed / 310);
-          // soft outer radiance
-          const glowR = Math.max(1, spiritR * (1 + ignT * 2.6));
-          const glo = ctx.createRadialGradient(spiritPt.x, spiritPt.y, 0, spiritPt.x, spiritPt.y, glowR * 4.5);
-          glo.addColorStop(0, `rgba(255, 248, 230, ${ignT * 0.65 * pulse})`);
-          glo.addColorStop(0.35, `rgba(${sRgb}, ${ignT * 0.38 * pulse})`);
-          glo.addColorStop(1, 'rgba(0, 0, 0, 0)');
-          ctx.beginPath();
-          ctx.arc(spiritPt.x, spiritPt.y, glowR * 4.5, 0, Math.PI * 2);
-          ctx.fillStyle = glo;
-          ctx.fill();
-          // bright core
-          const coreR = Math.max(0.5, spiritR * (0.65 + ignT * 0.35));
-          ctx.beginPath();
-          ctx.arc(spiritPt.x, spiritPt.y, coreR, 0, Math.PI * 2);
-          ctx.fillStyle = `rgba(255, 252, 242, ${ignT * pulse})`;
-          ctx.shadowColor = `rgba(${sRgb}, 0.9)`;
-          ctx.shadowBlur = 22 * ignT;
-          ctx.fill();
-          ctx.shadowBlur = 0;
+          const grow = 1 - Math.pow(1 - ignT, 3);
+          // once she lets go, the falling bubble below IS this one — stop
+          // drawing it at rest so there is never a second
+          const breathe = reduced || ignT < 1 ? 1 : 0.9 + 0.1 * Math.sin((elapsed - igniteAt - IGNITE_MS) / 950);
+          if (rel === null) drawSpiritPoint(spiritPt.x, spiritPt.y, spiritR * grow, grow * breathe, 1);
           if (!revealFired && ignT >= 1) {
             revealFired = true;
             window.setTimeout(() => setBreathShowReveal(true), 420);
           }
-          // expanding bloom ring — one slow ripple after the ignition settles
           if (ignT >= 1) {
-            const bloomT = Math.min(1, (elapsed - igniteAt - IGNITE_MS - 120) / 1600);
-            if (bloomT > 0) {
-              const bloomR = spiritR * (1 + bloomT * 10);
-              const bloomA = (1 - bloomT) * 0.45;
+            const rt = Math.min(1, (elapsed - igniteAt - IGNITE_MS - 140) / 2000);
+            if (rt > 0 && rt < 1) {
+              const re = 1 - Math.pow(1 - rt, 3);
               ctx.beginPath();
-              ctx.arc(spiritPt.x, spiritPt.y, bloomR, 0, Math.PI * 2);
-              ctx.strokeStyle = `rgba(${sRgb}, ${bloomA})`;
-              ctx.lineWidth = 0.8;
+              ctx.arc(spiritPt.x, spiritPt.y, spiritR * (2 + re * 13), 0, Math.PI * 2);
+              ctx.strokeStyle = `rgba(${sRgb}, ${(1 - rt) * 0.38})`;
+              ctx.lineWidth = 1;
+              ctx.shadowColor = seedHex;
+              ctx.shadowBlur = 8;
               ctx.stroke();
+              ctx.shadowBlur = 0;
             }
           }
         }
@@ -1939,13 +1787,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
           ctx.shadowBlur = 12;
           ctx.stroke();
           ctx.shadowBlur = 0;
-          ctx.beginPath();
-          ctx.arc(spiritPt.x, dy, Math.max(2.6, spiritR * 0.9), 0, Math.PI * 2);
-          ctx.fillStyle = 'rgba(255, 250, 238, 0.95)';
-          ctx.shadowColor = seedHex;
-          ctx.shadowBlur = 18;
-          ctx.fill();
-          ctx.shadowBlur = 0;
+          drawSpiritPoint(spiritPt.x, dy, spiritR, 1, 1 + relT * 0.9);
         }
       }
 
@@ -2086,54 +1928,55 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
 
         {stage === 'name' && (
           <form
-            className="q-rise flex flex-col items-center gap-9"
+            className="absolute inset-0"
             onSubmit={(e) => { e.preventDefault(); commitName(); }}
           >
-            <input
-              ref={inputRef}
-              value={name}
-              onChange={(e) => {
-                if (e.target.value.length > name.length) releaseKeyBubble();
-                setName(e.target.value);
-              }}
-              placeholder="Your name…"
-              autoFocus
-              autoComplete="off"
-              spellCheck={false}
-              maxLength={40}
-              className="depth-input"
-              aria-label="Your name"
-            />
-            <button type="submit" className={`depth-continue ${name.trim() ? 'depth-continue-on' : ''}`}>
-              Continue
-            </button>
+            {/* Just the line (Robin, rev 2: a question above it said less than
+                the bare line did). The pill sits right under it, one small form. */}
+            <div className="name-input-row q-rise">
+              <input
+                ref={inputRef}
+                value={name}
+                onChange={(e) => {
+                  if (e.target.value.length > name.length) releaseKeyBubble();
+                  setName(e.target.value);
+                }}
+                placeholder="Your name…"
+                autoFocus
+                autoComplete="off"
+                spellCheck={false}
+                maxLength={40}
+                disabled={nameSealed}
+                className={`depth-input ${nameSealed ? 'is-sealed' : ''}`}
+                aria-label="Your name"
+              />
+              <button
+                type="submit"
+                className={`hold-next is-inline ${name.trim() && !nameSealed ? 'is-ready' : ''} ${nameSealed ? 'is-leaving' : ''}`}
+              >
+                Continue
+              </button>
+            </div>
           </form>
         )}
 
         {stage === 'lens' && (
-          <div className="flex flex-col items-center gap-10 sm:gap-12">
-            <h2
-              className={`q-rise max-w-md text-center font-playfair italic text-xl sm:text-2xl text-[#f5ead8] ${chosen !== null ? 'lens-question-out' : ''}`}
-            >
-              Who is this cocktail for?
-            </h2>
-            <div className="lens-grid">
+          <div className="absolute inset-0">
+            <div className={`hold-head ${chosen !== null ? 'is-leaving' : ''}`}>
+              <h2 className="hold-q">Who is this cocktail for?</h2>
+            </div>
+            <div className="sphere-cluster is-lens">
               {LENSES.map((label, i) => (
-                <div key={label} className="lens-drift">
+                <div key={label} className="sphere-drift">
                   <button
                     type="button"
                     onClick={() => pickLens(i)}
-                    onAnimationEnd={() => {
-                      if (chosen === null && !appeared[i]) {
-                        setAppeared((prev) => prev.map((v, j) => (j === i ? true : v)));
-                      }
-                    }}
-                    className={`lens-bubble ${appeared[i] ? 'lens-appeared' : ''} ${
-                      chosen === null ? '' : chosen === i ? 'lens-chosen' : 'lens-fizz'
+                    className={`sphere-btn ${
+                      chosen === null ? '' : chosen === i ? 'is-lit sphere-surface' : 'sphere-dissolve'
                     }`}
-                    style={{ animationDelay: chosen === null ? `${i * 110}ms` : `${(i % 3) * 70}ms` }}
+                    style={{ '--c': '#ffb088', '--d': `${200 + i * 90}ms`, '--k': '420ms' } as CSSProperties}
                   >
-                    <span>{label}</span>
+                    <span className="sphere"><span className="sphere-word">{label}</span></span>
                   </button>
                 </div>
               ))}
@@ -2142,56 +1985,63 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
         )}
 
         {stage === 'seed' && (
-          <div className="seed-ring q-rise" style={{ animationDelay: '0.5s' }}>
-            <div className="pointer-events-none absolute inset-0 flex items-center justify-center px-14">
-              <h2
-                className={`max-w-xs text-center font-playfair italic text-xl sm:text-2xl text-[#f5ead8] ${
-                  seedChosen !== null ? 'lens-question-out' : ''
-                }`}
-              >
-                Which colour is yours?
-              </h2>
-            </div>
-            {SEEDS.map((s, i) => (
-              <div
-                key={s.name}
-                className="seed-pos"
-                style={{ left: `${SEED_POS[i].x}%`, top: `${SEED_POS[i].y}%` }}
-              >
-                <div
-                  className="seed-drift"
-                  style={{
-                    animationName: i % 2 ? 'lensDriftB' : 'lensDriftA',
-                    animationDuration: `${5.2 + (i % 4) * 0.9}s`,
-                    animationDelay: `${-i * 0.9}s`,
-                  }}
+          <>
+            <div className="seed-ring q-rise" style={{ animationDelay: '0.4s' }}>
+              {/* the question sits in the ring's centre; the colour she is
+                  trying on is named beneath it */}
+              <div className={`seed-center ${seedChosen !== null ? 'is-leaving' : ''}`}>
+                <h2 className="hold-q">Which colour feels like you?</h2>
+                <p
+                  className="seed-name"
+                  style={(hoverSeed ?? seedChosen) !== null ? ({ '--c': SEEDS[(hoverSeed ?? seedChosen)!].hex } as CSSProperties) : undefined}
                 >
-                  <button
-                    type="button"
-                    className={`seed-drop ${
-                      seedChosen === null ? '' : seedChosen === i ? 'seed-burst' : 'seed-dissolve'
-                    }`}
-                    style={{ '--c': s.hex, '--w': `calc(clamp(56px, 9vmin, 76px) * ${s.s})` } as CSSProperties}
-                    onMouseEnter={() => { if (seedChosen === null) setHoverSeed(i); }}
-                    onMouseLeave={() => setHoverSeed((h) => (h === i ? null : h))}
-                    onClick={() => pickSeed(i)}
-                    aria-label={s.name}
-                  >
-                    <span className="seed-label font-playfair italic">{s.name}</span>
-                  </button>
-                </div>
-                {seedChosen === i && <div className="seed-ripple" style={{ borderColor: s.hex }} />}
+                  {(hoverSeed ?? seedChosen) !== null && (
+                    <span key={hoverSeed ?? seedChosen}>{SEEDS[(hoverSeed ?? seedChosen)!].name}</span>
+                  )}
+                </p>
               </div>
-            ))}
-          </div>
+              {SEEDS.map((s, i) => (
+                <div
+                  key={s.name}
+                  className="seed-pos"
+                  style={{ left: `${SEED_POS[i].x}%`, top: `${SEED_POS[i].y}%` }}
+                >
+                  <div
+                    className="seed-drift"
+                    style={{
+                      animationName: i % 2 ? 'lensDriftB' : 'lensDriftA',
+                      animationDuration: `${5.2 + (i % 4) * 0.9}s`,
+                      animationDelay: `${-i * 0.9}s`,
+                    }}
+                  >
+                    <button
+                      type="button"
+                      className={`seed-drop ${
+                        seedChosen === null ? '' : seedChosen === i ? 'seed-burst' : 'seed-dissolve'
+                      }`}
+                      style={{ '--c': s.hex, '--w': `calc(clamp(56px, 9vmin, 76px) * ${s.s})` } as CSSProperties}
+                      onMouseEnter={() => { if (seedChosen === null) setHoverSeed(i); }}
+                      onMouseLeave={() => setHoverSeed((h) => (h === i ? null : h))}
+                      onFocus={() => { if (seedChosen === null) setHoverSeed(i); }}
+                      onBlur={() => setHoverSeed((h) => (h === i ? null : h))}
+                      onClick={() => pickSeed(i)}
+                      aria-label={s.name}
+                    />
+                  </div>
+                  {seedChosen === i && <span className="ripple" style={{ '--c': s.hex } as CSSProperties} />}
+                </div>
+              ))}
+            </div>
+          </>
         )}
 
         {stage === 'gravity' && (
           <div className="absolute inset-0">
-            <div className="absolute left-0 right-0 top-[15%] flex justify-center">
-              <h2 className="q-rise font-playfair italic text-xl sm:text-2xl text-[#f5ead8]">
-                Choose your gravity
-              </h2>
+            <div className="hold-head">
+              <h2 className="hold-q">Choose your gravity</h2>
+              {gravRound === 0 && !gravHinted && (
+                <p className="hold-hint">Drag the glow toward the side that pulls you, and let go where it feels true</p>
+              )}
             </div>
 
             {/* the clouds reach back: each side glows as the mote nears it */}
@@ -2215,13 +2065,13 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
             <div key={gravRound} className={`grav-pair ${gravCommitted ? 'grav-pair-out' : ''}`}>
               <span
                 className="grav-pole grav-pole-left"
-                style={{ opacity: 0.55 + leftPull * 0.45, transform: `translateY(-50%) scale(${1 + leftPull * 0.12})` }}
+                style={{ opacity: 0.84 + leftPull * 0.16, transform: `translateY(-50%) scale(${1 + leftPull * 0.08})`, transformOrigin: 'left center' }}
               >
                 {GRAVITIES[gravRound].left}
               </span>
               <span
                 className="grav-pole grav-pole-right"
-                style={{ opacity: 0.55 + rightPull * 0.45, transform: `translateY(-50%) scale(${1 + rightPull * 0.12})` }}
+                style={{ opacity: 0.84 + rightPull * 0.16, transform: `translateY(-50%) scale(${1 + rightPull * 0.08})`, transformOrigin: 'right center' }}
               >
                 {GRAVITIES[gravRound].right}
               </span>
@@ -2286,13 +2136,9 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                   transition: gravDragging ? 'none' : 'left 0.45s cubic-bezier(0.16, 1, 0.3, 1)',
                 } as CSSProperties}
               >
-                {gravCommitted && <span className="grav-ripple" style={{ borderColor: seedHex }} />}
+                {gravCommitted && <span className="ripple" style={{ '--c': seedHex } as CSSProperties} />}
               </div>
             </div>
-
-            {gravRound === 0 && !gravHinted && (
-              <p className="grav-hint depth-hint">Drag the glow, and let go where it feels true</p>
-            )}
 
             <div className="depth-dots">
               {GRAVITIES.map((g, i) => (
@@ -2311,54 +2157,47 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
 
         {stage === 'hidden' && (
           <div className="hidden-stage absolute inset-0">
-            {/* the cream ink cloud is the brightest band in the film — the
-                instruction block gets its own pool of night to sit on */}
-            <div className="depth-pool" />
             {hStage !== 'intro' && (
               <>
-                {hRound === -1 ? (
-                  <div ref={practiceTextRef} className="practice-text">
-                    <p className="hidden-q font-playfair italic">{PRACTICE_LINES.prompt}</p>
-                    <p
-                      className="hidden-hint depth-hint"
-                      style={{ animationDelay: `${PRACTICE_HINT_DELAY_MS}ms` }}
-                    >
-                      {PRACTICE_LINES.hint}
-                    </p>
-                  </div>
-                ) : (
-                  <p className="hidden-q font-playfair italic">Which is more you?</p>
-                )}
+                <div className={`hold-head ${hStage === 'gap' && hRound === BINARIES.length - 1 ? 'is-leaving' : ''}`}>
+                  {hRound === -1 ? (
+                    <>
+                      <h2 className="hold-q">{PRACTICE_LINES.prompt}</h2>
+                      <p className="hold-hint" style={{ animationDelay: `${PRACTICE_HINT_DELAY_MS}ms` }}>
+                        {PRACTICE_LINES.hint}
+                      </p>
+                    </>
+                  ) : (
+                    <h2 className="hold-q">Which is more you?</h2>
+                  )}
+                </div>
                 <div key={hRound} className="ember-field">
-                  {/* two poles, like H3's — the word IS the ember, sitting on
-                      a pool of its seed colour (the bead-with-a-caption is
-                      gone; the caption was the important part) */}
+                  {/* two spheres, like H3's two poles — the word inside each is
+                      the thing she reads and the thing that dissolves */}
                   <button
                     ref={dropARef}
                     type="button"
                     className="ember"
                     style={{ '--x': '33%', '--c': seedHex } as CSSProperties}
-                    onClick={(e) => catchDrop('a', e.clientX, e.clientY)}
+                    onClick={() => catchDrop('a')}
                   >
-                    <span className="ember-glow" aria-hidden="true" />
-                    <span className="ember-word">{hRound === -1 ? PRACTICE_PAIR.a : BINARIES[hRound].a}</span>
+                    <span className="sphere"><span className="sphere-word">{hRound === -1 ? PRACTICE_PAIR.a : BINARIES[hRound].a}</span></span>
                   </button>
                   <button
                     ref={dropBRef}
                     type="button"
                     className="ember"
                     style={{ '--x': '67%', '--c': seedHex } as CSSProperties}
-                    onClick={(e) => catchDrop('b', e.clientX, e.clientY)}
+                    onClick={() => catchDrop('b')}
                   >
-                    <span className="ember-glow" aria-hidden="true" />
-                    <span className="ember-word">{hRound === -1 ? PRACTICE_PAIR.b : BINARIES[hRound].b}</span>
+                    <span className="sphere"><span className="sphere-word">{hRound === -1 ? PRACTICE_PAIR.b : BINARIES[hRound].b}</span></span>
                   </button>
                 </div>
                 {/* Still Water only: without a clock, letting both cool has to
                     be something she can actually do (WCAG 2.2.1) */}
                 {stillWater && hStage === 'play' && (
-                  <button type="button" className="ember-pass" onClick={letThemCool}>
-                    let them cool
+                  <button type="button" className="hold-next ember-pass is-ready" onClick={letThemCool}>
+                    Let them cool
                   </button>
                 )}
                 <div className="depth-dots">
@@ -2376,39 +2215,39 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                 </div>
               </>
             )}
-            {hRipple && (
-              <span className="ember-ripple" style={{ left: hRipple.x, top: hRipple.y, borderColor: hRipple.c }} />
-            )}
           </div>
         )}
 
+        {(stage === 'resonance' || stage === 'finish' || stage === 'hidden') && (
+          <canvas ref={resCanvasRef} className="absolute inset-0 z-[29] pointer-events-none" />
+        )}
+
         {stage === 'resonance' && (
-          <div className={`res-stage absolute inset-0 ${resSealing ? 'res-sealing' : ''}`}>
-            <canvas ref={resCanvasRef} className="absolute inset-0 pointer-events-none" />
+          <div className={`res-stage absolute inset-0 ${resSealing ? 'is-sealing' : ''}`}>
             <div key={resQ} className="absolute inset-0">
-              <p className="hidden-q font-playfair italic">{RES_QUESTIONS[resQ].prompt}</p>
-              <p className="res-sub depth-hint">
-                {resChosen.length === 0
-                  ? 'Choose up to three'
-                  : `${resChosen.length} of ${RES_MAX} chosen · touch one again to let it go`}
-              </p>
-              <div className="res-cluster">
+              <div className={`hold-head ${resSealing ? 'is-leaving' : ''}`}>
+                <h2 className="hold-q">{RES_QUESTIONS[resQ].prompt}</h2>
+                <p className="hold-hint">
+                  {resChosen.length === 0
+                    ? 'Choose up to three'
+                    : `${resChosen.length} of ${RES_MAX} chosen. Select one again to change your mind.`}
+                </p>
+              </div>
+              <div className="sphere-cluster">
                 {RES_QUESTIONS[resQ].words.map((word, i) => {
                   const lit = resChosen.includes(i);
                   const dim = !lit && resChosen.length >= RES_MAX;
                   return (
-                    <div key={word} className="res-drift">
+                    <div key={word} className="sphere-drift">
                       <button
                         ref={(el) => { resGlintRefs.current[i] = el; }}
                         type="button"
                         aria-pressed={lit}
-                        className={`res-glint ${lit ? 'res-lit' : ''} ${dim ? 'res-dim' : ''}`}
+                        className={`sphere-btn ${lit ? 'is-lit' : ''} ${dim ? 'is-dim' : ''}`}
                         style={{ '--c': seedHex, '--d': `${380 + i * 95}ms` } as CSSProperties}
                         onClick={() => toggleGlint(i)}
                       >
-                        <span className="res-bubble">
-                          <span className="res-word">{word}</span>
-                        </span>
+                        <span className="sphere"><span className="sphere-word">{word}</span></span>
                       </button>
                     </div>
                   );
@@ -2416,11 +2255,8 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
               </div>
               <button
                 type="button"
-                className={`res-seal ${resChosen.length >= RES_MAX ? 'res-seal-ready' : ''}`}
-                style={{
-                  opacity: resChosen.length === 0 ? 0 : 1,
-                  pointerEvents: resChosen.length === 0 ? 'none' : 'auto',
-                }}
+                className={`hold-next ${resChosen.length > 0 && !resSealing ? 'is-ready' : ''} ${resChosen.length >= RES_MAX ? 'is-full' : ''} ${resSealing ? 'is-leaving' : ''}`}
+                style={{ '--c': seedHex } as CSSProperties}
                 onClick={sealResonance}
               >
                 Continue
@@ -2431,46 +2267,43 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
         )}
 
         {stage === 'finish' && (
-          <div className="fin-stage absolute inset-0">
-            <canvas ref={finCanvasRef} className="absolute inset-0 pointer-events-none" />
-            {/* the foam ceiling is the other bright band — same pool as H4 */}
-            <div className="depth-pool" />
-            <DepthDots count={3} index={finBeat === 'flavors' ? 0 : finBeat === 'glass' ? 1 : 2} seed={seedHex} />
+          <div className={`fin-stage absolute inset-0 ${finLeaving ? 'is-sealing' : ''}`}>
+            <DepthDots count={2} index={finBeat === 'flavors' ? 0 : 1} seed={seedHex} />
 
             {finBeat === 'flavors' && (
               <div className="absolute inset-0">
-                <p className="hidden-q font-playfair italic">What flavours are calling you?</p>
-                <p className="res-sub depth-hint">
-                  {finCaught.length === 0
-                    ? 'Choose up to three as they rise'
-                    : `${finCaught.length} of ${FIN_MAX_FLAVORS} kept · touch one again to let it go`}
-                </p>
-                {FIN_FLAVORS.map((f) => {
-                  const held = finCaught.includes(f.w);
-                  return (
-                    <button
-                      key={f.w}
-                      ref={(el) => { finBubbleRefs.current[f.w] = el; }}
-                      type="button"
-                      className={`fin-bubble ${held ? 'fin-bubble-held' : ''} ${held && finArmed.has(f.w) ? 'fin-bubble-armed' : ''}`}
-                      style={{ '--c': seedHex } as CSSProperties}
-                      onClick={() => catchFlavor(f.w)}
-                      onMouseLeave={() => {
-                        if (finCaught.includes(f.w)) setFinArmed((prev) => new Set(prev).add(f.w));
-                      }}
-                      aria-pressed={held}
-                    >
-                      <span className="fin-bubble-label font-playfair italic">{f.w}</span>
-                    </button>
-                  );
-                })}
+                <div className={`hold-head ${finLeaving ? 'is-leaving' : ''}`}>
+                  <h2 className="hold-q">What flavours are calling you?</h2>
+                  <p className="hold-hint">
+                    {finCaught.length === 0
+                      ? 'Catch up to three as they rise'
+                      : `${finCaught.length} of ${FIN_MAX_FLAVORS} chosen. Select one again to change your mind.`}
+                  </p>
+                </div>
+                <div className="sphere-field">
+                  {FIN_FLAVORS.map((w, i) => {
+                    const lit = finCaught.includes(w);
+                    const dim = !lit && finCaught.length >= FIN_MAX_FLAVORS;
+                    return (
+                      <div key={w} ref={(el) => { finFloatRefs.current[i] = el; }} className="sphere-float">
+                        <button
+                          ref={(el) => { resGlintRefs.current[i] = el; }}
+                          type="button"
+                          aria-pressed={lit}
+                          className={`sphere-btn ${lit ? 'is-lit' : ''} ${dim ? 'is-dim' : ''}`}
+                          style={{ '--c': seedHex, '--d': '0ms' } as CSSProperties}
+                          onClick={() => catchFlavor(i)}
+                        >
+                          <span className="sphere"><span className="sphere-word">{w}</span></span>
+                        </button>
+                      </div>
+                    );
+                  })}
+                </div>
                 <button
                   type="button"
-                  className={`res-seal ${finCaught.length >= FIN_MAX_FLAVORS ? 'res-seal-ready' : ''}`}
-                  style={{
-                    opacity: finCaught.length === 0 ? 0 : 1,
-                    pointerEvents: finCaught.length === 0 ? 'none' : 'auto',
-                  }}
+                  className={`hold-next ${finCaught.length > 0 && !finLeaving ? 'is-ready' : ''} ${finCaught.length >= FIN_MAX_FLAVORS ? 'is-full' : ''} ${finLeaving ? 'is-leaving' : ''}`}
+                  style={{ '--c': seedHex } as CSSProperties}
                   onClick={sealCatch}
                 >
                   Continue
@@ -2478,79 +2311,68 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
               </div>
             )}
 
-            {finBeat === 'glass' && (
-              <div className="absolute inset-0">
-                <p className="hidden-q font-playfair italic">What kind of drink do you want in your hand?</p>
-                <p className="res-sub depth-hint">Choose its glass</p>
-                {FIN_VESSELS.map((v, i) => (
-                  <button
-                    key={v.key}
-                    type="button"
-                    aria-label={v.label}
-                    className="fin-glass-hit"
-                    style={{ '--x': `${v.x}%`, animationDelay: `${160 + i * 90}ms` } as CSSProperties}
-                    onClick={() => chooseGlass(v.key)}
-                    onMouseEnter={() => { finHoverRef.current = v.key; }}
-                    onMouseLeave={() => { if (finHoverRef.current === v.key) finHoverRef.current = null; }}
-                  >
-                    <span className="fin-glass-label font-playfair italic">{v.label}</span>
-                  </button>
-                ))}
-              </div>
-            )}
-
             {finBeat === 'ward' && (
               <div className="absolute inset-0">
-                <p className="hidden-q font-playfair italic">What should never touch your glass?</p>
-                <p className="res-sub depth-hint">Touch anything you want left out</p>
-                {/* a composed row beneath the hero glass — not scattered along
-                    the bottom edge where it collided with the seal */}
-                <div className="fin-ward-row">
+                <div className={`hold-head ${finLeaving ? 'is-leaving' : ''}`}>
+                  <h2 className="hold-q">What should never touch your glass?</h2>
+                  <p className="hold-hint">
+                    {finBanished.length === 0
+                      ? 'Pop anything you want left out, or continue if nothing'
+                      : `${finBanished.length} left out. Select one again to bring it back.`}
+                  </p>
+                </div>
+                {/* the same spheres, rising up from the depths into a still
+                    cluster this time — something to look over carefully */}
+                <div className="sphere-cluster is-rising">
                   {FIN_VETOES.map((w, i) => {
-                    const off = finBanished.includes(w);
+                    const popped = finBanished.includes(w);
                     return (
-                      <button
-                        key={w}
-                        type="button"
-                        className={`fin-ward ${off ? 'fin-ward-off' : ''} font-playfair italic`}
-                        style={{ animationDelay: `${160 + i * 70}ms` }}
-                        onClick={() => toggleWard(w)}
-                      >
-                        {w}
-                      </button>
+                      <div key={w} className="sphere-drift">
+                        <button
+                          ref={(el) => { resGlintRefs.current[i] = el; }}
+                          type="button"
+                          aria-pressed={popped}
+                          aria-label={popped ? `${w}, left out` : w}
+                          className={`sphere-btn ${popped ? 'is-popped' : ''}`}
+                          style={{ '--c': seedHex, '--d': `${200 + i * 140}ms` } as CSSProperties}
+                          onClick={() => toggleWard(i)}
+                        >
+                          <span className="sphere-slot">
+                            <span key={popped ? 'popped' : 'whole'} className="sphere" />
+                            <span className="sphere-word">{w}</span>
+                          </span>
+                        </button>
+                      </div>
                     );
                   })}
                 </div>
                 <button
                   type="button"
-                  className="res-seal"
-                  style={{ opacity: 1 }}
+                  className={`hold-next ${!finLeaving ? 'is-ready' : 'is-leaving'}`}
+                  style={{ '--next-delay': '1s' } as CSSProperties}
                   onClick={sealWard}
                 >
                   Continue
                 </button>
               </div>
             )}
-
-            {finSealed && <div className="fin-bloom absolute inset-0 pointer-events-none" />}
           </div>
         )}
 
         {stage === 'trace' && (
           <div className="trace-stage absolute inset-0">
-            {/* a local pool of night — this hold sits on the footage's brightest
-                band and the shared veil alone can't carry a placeholder there */}
-            <div className="trace-pool absolute inset-0 pointer-events-none" />
             <form
               className="absolute inset-0"
               onSubmit={(e) => { e.preventDefault(); sealTrace(); }}
             >
-              <p className="hidden-q font-playfair italic">Leave one trace of yourself</p>
-              <p className="res-sub depth-hint">a memory, a flavour you loved once, a place you carry · the ink keeps it</p>
+              <div className={`hold-head ${traceSealed ? 'is-leaving' : ''}`}>
+                <h2 className="hold-q">Leave one trace of yourself</h2>
+                <p className="hold-hint">A memory, a flavour you loved once, a place you carry. The ink keeps it.</p>
+              </div>
               <div className="trace-input-row">
                 <input
                   ref={traceInputRef}
-                  className="depth-input trace-input"
+                  className={`depth-input trace-input ${traceSealed ? 'is-sealed' : ''}`}
                   value={traceText}
                   onChange={(e) => {
                     if (e.target.value.length > traceText.length) releaseTraceMote();
@@ -2565,12 +2387,17 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                   aria-label="Leave one trace of yourself"
                 />
               </div>
-              <button type="submit" className="res-seal" style={{ opacity: traceSealed ? 0 : 1 }}>
+              {/* at the foot of the frame, not under the line: the foam band
+                  behind the line is the palest in the film and the Veil pill
+                  vanishes on it */}
+              <button
+                type="submit"
+                className={`hold-next ${traceSealed ? 'is-leaving' : 'is-ready'}`}
+                style={{ '--next-delay': '0.9s' } as CSSProperties}
+              >
                 Continue
               </button>
             </form>
-
-            {traceSealed && <div className="trace-bloom absolute inset-0 pointer-events-none" />}
           </div>
         )}
 

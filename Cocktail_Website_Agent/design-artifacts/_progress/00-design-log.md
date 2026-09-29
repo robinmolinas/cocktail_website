@@ -94,6 +94,46 @@
 
 ## Log
 
+### 2026-09-29 — One system pass, rev 2 (Robin: "the previous version felt cleaner and more premium")
+
+**Source:** Robin's notes on the one-system pass. The shared system stays; what changed is how heavy it had become.
+
+- **Landing:** back to two corners. The title sits top-left ("Discover your" small italic in ember over a stacked, upright "Cocktail / Within") and is kept narrow so it never reaches the silhouette. The paragraph sits under it. The note and **Discover my cocktail** are bottom-right, so the pointer crosses the frame and uncovers the hidden cocktail on the way. On phones everything settles at the foot over a fall of shadow.
+- **No dark behind text, anywhere.** The `--legible` wide dark halo was cut to a 1px hairline, and `.hold-shade` was removed (it is why the footage felt "super dark" on H1). H0 and H7 now show clean ivory.
+- **H0:** the question was removed again. It is just the bare line with "Your name…", and Continue sits right under it.
+- **H1:** the lens spheres are larger (`.is-lens`), and the phrases now wrap in two lines.
+- **H2:** "Which colour feels like you?" sits in the centre of the ring, with the tried-on colour named beneath it.
+- **H3:** the poles are larger.
+- **H4 catch, rebuilt:** her colour blooms inside the glass, fine fizz climbs out of it (the resonance canvas now also runs on H4, fizz only), then it rises and dissolves over ~1s while the other sinks. The ripple rings are gone. The gap between pairs after a catch is now 1050ms.
+- **Continue (all holds):** back to the light Veil pill (Jost 400, 11px, 0.24em tracking, hairline). H7's pill stays at the foot of the frame, because under the line it vanished on the foam.
+- **H6 flavours rise again,** as before but on the shared spheres. They climb in lanes, condense in above the pill and dissolve under the question. Catching one holds it, and risers ease around a held one. The "leave out" spheres rise up into a still cluster.
+- **"Alcohol" was removed from "leave out"** (it isn't an allergen). This also removes the only zero-proof path. `mixology.ts` still honours /alcohol/, so a zero-proof entry point can come back as its own question later.
+- **Breath:** the spirit is a luminous point in the chalice's own mote language, with one slow ring. The glass bubble read as cartoony.
+- **H10:** Share and Save are identical pills (the `lit` prop was removed), and both glyphs are vermilion.
+
+**Verified:** desktop 1440×900, mobile 390×844 and reduced motion walks, all with zero console errors. Video frames of the H4 catch and the H6 rise were checked. `tsc -p tsconfig.app.json` is clean and `vite build` passes. Lint shows 40 problems (was 32), and every new one is the existing Math.random purity rule, now also hit by the new fizz particles.
+
+---
+
+### 2026-09-29 — One system pass (Robin's walkthrough notes → implementation)
+
+Robin's read: "many small things built individually without a common DS." Every note was built, and the fix was a shared vocabulary rather than per-hold patches. DESIGN.md §3 and §5 carry the system; this entry records the calls.
+
+- **Type.** Playfair Display stays the voice. The optical-size **Playfair** text cut replaces Inter for hints, prose, the landing lede and the recipe's items and steps. **Jost** replaces Inter for labels, amounts, numerals and buttons. Zen Old Mincho is gone. This supersedes DESIGN.md's "Inter/Playfair locked" line, on Robin's explicit request for "better combinations of fonts."
+- **Landing.** The copy is now "Discover your Cocktail Within" plus Robin's paragraph (typo fixed: "that resonates"). The "A few minutes…" line is replaced by practical expectations: "About five minutes. You leave with the recipe and a reading of why it's yours." The CTA "Cross the Threshold" becomes "Find my cocktail". The layout is one column on a shared `--gutter`, so the nav mark and the copy share one left edge; the title is set like the H10 cocktail title.
+- **One hold grammar.** Question in a fixed slot under a shared top shade (`.hold-shade`, which replaces the radial "pools of night"), hint beneath, choice centre, `.hold-next` pill with one entrance, dots at the foot. H0 gains the question "What should we call you?".
+- **One "choose me" object.** H1, H4, H5 and both H6 beats use the same sphere at one size, in Playfair Display italic. H1 was 12px Inter; H6 had smaller spheres rising through the frame.
+- **One exit.** The chosen sphere surfaces, the rest dissolve. H0 and H7 lift their line off the underline. The white "fin-bloom" and "trace-bloom" flashes are deleted (Robin: "feels cheap").
+- **One ripple.** A thin double ring (`.ripple`) replaces the 2px stamped circle on H2, H3 and H4.
+- **H2.** "Which colour feels like you?" keeps the poetry and is clearer than "is yours". The ring's centre names the colour being tried on.
+- **H3.** The poles are choice words: 500 weight, full ivory, larger, the leaned side brightening.
+- **H4.** The pairs ride large spheres. Cooling is now a dissolve: the glass thins, the word holds, then blurs at the very end. Rev 3's brightness filter greyed the words and the seed-colour blob smeared under them — the "cheap" feeling.
+- **H6.** The glass beat is removed (Robin's instinct, agreed): the pour's glass is fixed per persona (SPEC.md: vessel "does not change the recipe"), so the question promised something the reveal couldn't keep. The flavours are H5's cluster, with fizz. "What to leave out" is the same cluster played backwards: pop a bubble to exclude, tap the struck word to restore. **Follow-up:** `vessel` is still listed in agent/ARCHITECTURE-SPINE.md (AD-1) and spec/SPEC.md; drop it there when the answer contract is next touched.
+- **H7.** The dark "sphere" behind the input is removed; the shared shade carries legibility.
+- **Breath.** The spirit point is now a glass bubble (rim, seed-coloured core, one highlight), the same object that then falls. It replaces the flat white disc with a pulsing blur.
+- **H10.** The haze bands and grain are removed: they tinted the photo red and orange, against the Sacred Glass Rule, and read as lens smudges. The blinking cue dot is gone; the cue reads "Your recipe and reading". **Share + Save** are equal pills on the first screen (Share lit with the seed colour) and again at the end. A top scrim stops the reading printing under the nav mark. Fixed a specificity bug that set "The Reading" label at body size.
+- **Verified** at 1440×900 and 390×844 and with reduced motion. Zero console errors; `tsc -p tsconfig.app.json` is clean and `vite build` passes. Lint has 32 errors against a baseline of 29; all are the existing React-compiler purity rule on `Math.random` particles.
+
 ### 2026-09-18 — Coherence revamp (walkthrough review → implementation)
 
 **Agent:** Claude Code (Fable review, Opus implementation) with Robin · **Where:** `TheDepths.tsx`, `TheReading.tsx`, `App.tsx`, `index.css`, `types.ts`, `engine/mixology.ts`, `data/sampleResult.ts` · **Source:** Robin's dictated walkthrough of the whole experience + `Dionysus walkthrough.mov`; full review at `design-artifacts/2026-09-18-experience-review.md`.

@@ -315,24 +315,23 @@ function App() {
   };
 
   return (
-    <div
-      className={`min-h-screen tracking-[-0.02em] ${phase === 'landing' ? 'bg-[#f4efe6]' : 'bg-[#0d0b09]'}`}
-      style={{ fontFamily: "'Inter', sans-serif" }}
-    >
+    <div className="min-h-screen bg-[#0d0b09]">
 
-      <nav className="fixed top-0 left-0 right-0 z-[100] flex items-center justify-between p-5 sm:p-6 pointer-events-none print:hidden">
+      <nav className="site-nav print:hidden">
         <button
           type="button"
           onClick={goHome}
           className="nav-mark flex items-center gap-2 pointer-events-auto cursor-pointer group hover:opacity-80 transition-opacity focus:outline-none focus-visible:outline-2 focus-visible:outline-[#e8702a] focus-visible:outline-offset-4 focus-visible:rounded-full"
           aria-label="Return to Dionysus homepage"
         >
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" width="24" height="24" style={{ transition: 'all 600ms', color: '#f5ead8' }}>
+          {/* the glyph's own drawing starts ~3px inside its 24px box; pulling it
+              back by that much puts the stroke itself on the gutter line */}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" width="24" height="24" style={{ color: '#f5ead8', marginLeft: '-3px' }}>
             {/* Concept 05: The Zen Coupe */}
             <path d="M 7.2 20.4 C 8.4 20.4 11.28 19.68 11.28 16.8 L 11.28 13.44 C 7.2 13.44 2.88 11.52 2.88 7.2 C 2.88 6.48 3.36 6 4.32 6 L 19.68 6 C 20.64 6 21.12 6.48 21.12 7.2 C 21.12 11.52 16.8 13.44 12.72 13.44 L 12.72 16.8 C 12.72 19.68 15.6 20.4 16.8 20.4" />
             <circle cx="12" cy="9.6" r="0.8" fill="currentColor" stroke="none" />
           </svg>
-          <span className="text-lg font-playfair italic tracking-widest transition-colors duration-700 text-[#f5ead8]">Dionysus</span>
+          <span className="nav-word">Dionysus</span>
         </button>
       </nav>
 
@@ -345,34 +344,24 @@ function App() {
 
           <RevealLayer image={BG_IMAGE_2} layerRef={revealRef} />
 
-          <div className={`absolute top-[22%] left-5 sm:left-10 md:left-16 lg:left-24 flex flex-col items-start px-5 sm:px-0 pointer-events-none z-50 text-white ${leaving ? 'hero-exit' : ''}`}>
-            <h1 className="flex flex-col items-start font-mincho">
-              <span
-                className="block font-playfair italic font-normal text-xl sm:text-2xl md:text-[1.85rem] text-[#ffb088] hero-anim hero-reveal opacity-95"
-                style={{ letterSpacing: '0.02em', animationDelay: '0.25s' }}
-              >
-                Discover the
-              </span>
-              <span
-                className="block font-normal text-4xl sm:text-5xl md:text-[4rem] mt-1.5 hero-anim hero-reveal text-white"
-                style={{ letterSpacing: '-0.015em', animationDelay: '0.42s', lineHeight: '1.0' }}
-              >
-                Spirit Within
-              </span>
+          <div className="landing-fade" aria-hidden="true" />
+          <div className={`landing-copy ${leaving ? 'hero-exit' : ''}`}>
+            <h1 className="landing-title">
+              <span className="landing-kicker hero-anim hero-reveal" style={{ animationDelay: '0.25s' }}>Discover your</span>
+              <span className="landing-name hero-anim hero-reveal" style={{ animationDelay: '0.42s' }}>Cocktail<br />Within</span>
             </h1>
-
-            <div className="mt-4 sm:mt-5 max-w-[280px] sm:max-w-[350px] hero-anim hero-fade" style={{ animationDelay: '0.7s' }}>
-              <p className="text-xs sm:text-sm text-white/75 leading-relaxed font-light tracking-wide text-pretty">
-                A theatrical journey into your own subconscious. Through an alchemy of questions, we distill your essence into a cocktail made for you alone, with its recipe and its reading.
-              </p>
-            </div>
-          </div>
-
-          <div className={`absolute bottom-10 sm:bottom-24 left-5 right-5 sm:left-auto sm:right-10 md:right-16 max-w-full sm:max-w-[320px] flex flex-col items-start sm:items-end text-left sm:text-right gap-6 z-50 hero-anim hero-fade pointer-events-auto ${leaving ? 'hero-exit' : ''}`} style={{ animationDelay: '0.85s' }}>
-            <p className="text-xs sm:text-sm text-white/60 leading-relaxed font-light">
-              A few minutes of honest answers. One cocktail that could only be yours.
+            <p className="landing-lede hero-anim hero-fade" style={{ animationDelay: '0.7s' }}>
+              There’s a cocktail out there that resonates with who you are, the one
+              that represents your innermost self. Through a series of short
+              questions, we distill your essence into a cocktail made for you alone.
             </p>
-            <CtaButton onClick={beginJourney}>Cross the Threshold</CtaButton>
+          </div>
+          {/* The door sits bottom-right on purpose: the pointer has to cross the
+              frame to reach it, and on the way it uncovers the cocktail hidden
+              in the image (the reveal spotlight follows the pointer). */}
+          <div className={`landing-go hero-anim hero-fade ${leaving ? 'hero-exit' : ''}`} style={{ animationDelay: '0.9s' }}>
+            <p className="landing-note">About five minutes. You leave with the recipe and a reading of why it’s yours.</p>
+            <CtaButton onClick={beginJourney}>Discover my cocktail</CtaButton>
           </div>
         </section>
       )}

@@ -153,6 +153,16 @@ const PERSONA_IMAGES: Record<string, PersonaImageMeta> = {
     wideGlass: { x: 0.625, y: 0.47 },
     glass: { x: 0.596, y: 0.47 },
   },
+  // The Knight in Shining Armour — Lover × Hero. The rain-marked scarf,
+  // softened gloves and repaired linen make devotion an action, not a symbol.
+  'lover-hero': {
+    src: '/personas/lover-hero/portrait.jpg',
+    wide: '/personas/lover-hero/wide.jpg',
+    tag: { cx: 0.72, cy: 0.77, w: 0.25, angle: 27 },
+    wideTag: { cx: 0.745, cy: 0.77, w: 0.105, angle: 27 },
+    wideGlass: { x: 0.61, y: 0.45 },
+    glass: { x: 0.399, y: 0.45 },
+  },
   // The Connoisseur — Sage × Lover. The preserved notebook, kept letter and
   // paired samples carry the story; the sage-topped drink remains the hero.
   'sage-lover': {

@@ -34,15 +34,20 @@ typography:
     fontWeight: 400
     lineHeight: 1.3
   body:
-    fontFamily: "Inter, sans-serif"
-    fontSize: "0.96rem"
+    fontFamily: "Playfair, serif"
+    fontSize: "1.08rem"
     fontWeight: 400
-    lineHeight: 1.75
+    lineHeight: 1.72
+  hint:
+    fontFamily: "Playfair, serif"
+    fontSize: "clamp(15px, 1.9vmin, 17px)"
+    fontWeight: 400
+    lineHeight: 1.5
   label:
-    fontFamily: "Inter, sans-serif"
-    fontSize: "0.68rem"
+    fontFamily: "Jost, sans-serif"
+    fontSize: "0.7rem"
     fontWeight: 500
-    letterSpacing: "0.2em"
+    letterSpacing: "0.22em"
 rounded:
   pill: "999px"
   orb: "50%"
@@ -223,34 +228,44 @@ contract.
 
 ## 3. Typography
 
-**Display Font:** Playfair Display, italic (with serif fallback)
-**Body Font:** Inter (with sans-serif fallback)
-**Accent Font:** Zen Old Mincho (`.font-mincho`, falls back to Playfair)
+**Voice:** Playfair Display — italic for everything spoken (questions, choice
+words, titles), roman where a title needs to stand upright.
+**Text:** Playfair — the same designer's optical-size cut (`opsz` 5–1200),
+used at reading sizes: hints, the landing lede, the reading's prose, the
+recipe's items and steps. Display's hairlines break up at 15px over footage;
+the text cut holds.
+**Label:** Jost — the open Futura. Labels, amounts and numerals, buttons, the
+landing's practical note. Didone + geometric sans is the 1920s bar-card
+pairing, which is the speakeasy this brand is.
 
-**Character:** The experience *speaks* in Playfair Display italic — every
-question, pole, whispered line, and the user's own handwriting (inputs) is the
-fortune teller's voice. Inter is the quiet hand that carries labels, hints,
-and body copy without ever raising its voice. Zen Old Mincho appears for the
-sumi-ink Japanese accents of the paper world.
+Tokens: `--font-display`, `--font-text`, `--font-label` in `index.css :root`.
+Never name a family directly in a rule.
 
-> Inter and Playfair are locked brand identity (shipping since the hero was
-> approved). Identity-preservation wins: do not swap them for variants, and do
-> not add a fourth family.
+**Character:** The experience *speaks* in Playfair Display italic, *explains*
+in Playfair upright, and *labels* in Jost. One family says everything the
+guest reads; the sans only names and counts.
+
+> 2026-09-29 (Robin): Inter and Zen Old Mincho are retired. This supersedes
+> the earlier "Inter/Playfair locked" note — Robin asked for better
+> combinations with Playfair Display as the main face. Do not add a fourth
+> family.
 
 ### Hierarchy
 - **Display** (500, clamp(2.75rem, 6.8vmin, 4.6rem), 1.04): the keepsake
   cocktail title and hero headline. Playfair.
 - **Headline / Voice** (400 italic, clamp(1.3rem, 3vmin, 1.9rem), ~1.3): the
   journey's spoken lines — gravity poles, depth questions, ember words.
-  Playfair italic, always with a deep black text-shadow over footage.
-- **Body** (400, 0.96–1.05rem, 1.6–1.75): keepsake prose, capped at 62ch.
-  Inter.
-- **Label** (500, 0.68–0.76rem, 0.2em tracking, uppercase): brass section
-  labels and the "for" line. This is a *named brand system* (the keepsake's
+  Playfair italic, with the `--legible` hairline over footage (see the
+  Legibility Rule).
+- **Body** (400, 1.04–1.08rem, 1.6–1.72): keepsake prose and recipe lines.
+  Playfair text cut.
+- **Label** (Jost 500, 0.7–0.76rem, 0.16–0.26em tracking, uppercase): brass
+  section labels, the kicker, the reading cue, the way-onward pill. This is a *named brand system* (the keepsake's
   apothecary labels), deliberately scoped to the keepsake and threshold pill —
   never scaffolded above every section.
-- **Hint** (400, 13px, 0.04–0.06em): candle-ivory at ~0.5 alpha; interaction
-  whispers ("touch a depth", drag hints).
+- **Hint** (Playfair 400 upright, 15–17px): ivory at 0.86 under the
+  question — the "how" beside the "what". Sentence case, plain words
+  ("Choose up to three", "Select one again to change your mind").
 
 ### The keepsake reading scale (H10 / H11)
 
@@ -282,8 +297,18 @@ its own rhythm.
 
 ### Named Rules
 **The Italic Voice Rule.** If the interface is *saying* something to her, it
-is Playfair italic. If it is *labelling* something, it is Inter. Never mix
-the two jobs in one line.
+is Playfair Display italic. If it is *explaining* how, it is Playfair
+upright. If it is *labelling or counting*, it is Jost. Never mix the jobs
+in one line — which is also why a recipe amount (Jost, brass) and the thing
+you pour (Playfair) are two faces.
+
+**The Legibility Rule.** Text over footage carries `--legible`: a hairline of
+warm shadow (`0 1px 2px`, 0.26 alpha) that only defines the letter edge and is
+never seen as a shape. Contrast comes from full-strength ivory and weight. Both
+a hard `0 1px 3px #000` underlay (turns ivory grey) and a wide dark halo (reads
+as a dark patch behind the words) were rejected by Robin. Where a frame is too
+pale for ivory, move the element to a darker part of the frame — don't darken
+behind it.
 
 **The Paragraph Gap Rule.** In keepsake prose the space *between* paragraphs
 must exceed the leading *within* them (currently 1.95rem against a 1.72
@@ -315,41 +340,84 @@ it glow brighter or sit on a darker pool — never give it a drop shadow.
 
 Everything is a circle, a pill, or a line. Nothing is a box.
 
+### The hold grammar (H0–H7)
+Every hold is the same four parts, one class each. There is no shade behind
+the question: a top-down `.hold-shade` was tried and removed (Robin: the
+footage "got super dark"). No dark patches or falls of shadow behind text.
+- **`.hold-head`** — question (`.hold-q`) and hint (`.hold-hint`) in one
+  stack at 12.5% from the top — except H0, which is only the bare line, and
+  H2, whose question sits in the centre of the colour ring.
+- **the choice** — centred: spheres, the seed ring, the gravity line, the
+  written line.
+- **`.hold-next`** — the way onward: the Veil pill — hairline rim, near-clear
+  glass, Jost 400 at 11px, 0.24em tracking. Deliberately quiet: a heavier,
+  filled version read as "too bold". At 12.5% from the foot; `.is-inline` puts
+  it right under H0's line.
+  It rises in with `nextIn` when it becomes available (or after `--next-delay`
+  when it is available from the start); `.is-full` warms its rim with `--c`
+  when the full choice is made; `.is-leaving` fades it with the head.
+- **`.depth-dots`** — progress, at the foot.
+
+**The One Exit Rule.** Every answer leaves the same way: the chosen rises
+and dissolves (`.sphere-surface`, `--k` staggers), the rest let go where they
+are (`.sphere-dissolve`), the head and pill fade (`holdOut`). A written line
+lifts off its underline (`.depth-input.is-sealed`). No white flashes, blooms or
+screen-wide glows on commit.
+
 ### Buttons
 - **Shape:** full pill (999px radius), always.
-- **Ink button** (paper world): ink #16140f on paper #f4efe6, 0.9rem 2.2rem,
-  0.08em tracking; hover scales 1.04 with deeper ink shadow; active 0.96.
-- **Veil button** (depths; `.depth-continue`, `.surf-action`, the trace seal):
-  transparent with 1px ivory border at ~0.16–0.25 alpha, candle-ivory text,
-  backdrop blur 4px; hover warms the border toward ember/vermilion with a
-  soft glow. Fades in only when it has earned the right to exist.
-- **Focus:** `outline: 2px solid var(--vermilion)` with offset (see slider
-  thumb); focus states must survive the dark.
-
-### Pills / Choices (paper world)
-- **Style:** 1px ink border at 0.28 alpha on translucent paper (0.6 alpha),
-  13px Inter; hover lifts 1px and solidifies the border.
-- **Selected:** inverts to solid ink with paper text and the ink shadow.
+- **House pill** (`CtaButton` → `.cta`): frosted, Jost 500, vermilion sweep on
+  hover, glyph trailing (arrow = leads somewhere; share/save glyphs). Glyphs are
+  always the house vermilion. Share and Save are equals — same pill, no seed
+  glow on either (a lit Share read as a red shadow).
+- **Way-onward pill** (`.hold-next`): see the hold grammar.
+- **Quiet action** (`.tr-quiet`): Jost, muted, hairline underline — "Start again".
+- **Focus:** `outline: 2px solid var(--vermilion)` with offset; focus states
+  must survive the dark.
 
 ### Inputs
-- **Style:** no boxes — a bare bottom border only (1px, ink 0.3 alpha on
-  paper; ivory 0.3 alpha in the depths), Playfair italic text: the user
-  writes in the experience's own hand.
-- **Focus:** border warms (ink solid / ember 0.75) and, in the depths, the
-  text gains an ember glow (`text-shadow: 0 0 18px rgba(255,176,136,0.35)`).
-- **Placeholders:** same hue as the text at ~0.3–0.55 alpha, lifted on dark
-  holds where the footage is bright.
+- **Style:** no boxes — a bare bottom border only, Playfair Display italic in
+  the choice-word ivory (#fbf4e8) with `--legible`: she writes in the
+  experience's own hand, at the same strength as every choice word.
+- **Focus:** the border warms to ember.
+- **Commit:** the words lift off the line and dissolve while a breath of
+  bubbles rises from it.
 
-### The Glass Sphere family (signature)
-The journey's one repeated affordance: a translucent glass orb with a
-refractive highlight at its upper-left shoulder.
-- **Lens bubble** (H1): clamp(118–154px), 1px warm rim, inner radial
-  highlight, drifting on desynced 5–8s currents; hover swells 1.1.
-- **Seed drop** (H2): the same sphere with the seed colour glowing *inside*
-  the glass (radial from centre), backdrop-blur refracting the footage.
-- **Mote / ember** (H3–H4): the condensed form — a 26–38px radiant dot of
-  `--c` with the double glow, used as slider handle and catchable word-anchor.
-- All burst, fizz, or dissolve on selection; none ever "click" statically.
+### The Sphere (signature — the one "choose me")
+`.sphere-cluster > .sphere-drift > button.sphere-btn > .sphere > .sphere-word`.
+H1's lenses, H4's pairs, H5's words, H6's flavours and H6's "leave out" are
+all this one object: a translucent glass sphere (the `--sphere-*` tokens),
+the word inside in Playfair Display italic 500, one size
+(`clamp(112px, 15vmin, 142px)`; H1's phrases use `.is-lens`,
+`clamp(132px, 18.5vmin, 176px)`; H4's pair uses a large variant), drifting on
+desynced currents.
+- **Rising field** (H6 flavours, `.sphere-field > .sphere-float`): the same
+  spheres climb slowly in lanes, condensing in above the pill and dissolving
+  under the question; catching one holds it, and risers ease around a held one.
+  H6's "leave out" spheres rise up into a still cluster (`.is-rising`) instead.
+- **States:** `.is-lit` (lights in `--c`, swells 1.1, fizzes on canvas at
+  H5/H6), `.is-dim` (field full), `.is-refused` (a gentle shake),
+  `.is-popped` (H6 · leave out: the glass pops into a ring of foam droplets,
+  the struck word stays; tap again to blow it back — markup uses
+  `.sphere-slot` so the word outlives its glass).
+- **H4 variant (`.ember`)**: the round's clock is the glass thinning
+  (`--ember-glow` scales rim/fill alpha), the word holding until the last
+  stretch, then blurring away. Never a brightness filter on type. The catch
+  (`.is-caught`): her colour blooms inside the glass, fine fizz climbs out of
+  it (canvas), then it rises and dissolves over ~1s; the other sinks
+  (`.is-passed`). No rings.
+- **Seed drop** (H2): the sphere's sibling with the seed colour glowing inside;
+  the ring's centre holds the question, with the colour being tried on named
+  beneath it (`.seed-center`, `.seed-name`).
+- **Spirit point** (H8/H9, canvas): not a sphere. It is the same material as
+  the motes that draw the chalice (a point of warm light, `--c` as its glow),
+  one size larger, sending out one slow ring. It is the drop that falls. (A
+  glass bubble there read as cartoony next to the line work.)
+
+### The Ripple
+`.ripple` — two thin rings of `--c`, eased fast-then-slow, for H2's drop
+chosen and H3's mote let go. Never a thick stamped circle, and not for a
+sphere choice: on H4 the rings read as quick and flat (see the catch above).
 
 ### Keepsake lists (the recipe)
 - **Ingredients:** flexed rows, brass amounts (min-width 4.4rem), hairline
@@ -391,8 +459,18 @@ the page height, and that sum is fixed by the page. A third column only
 subtracts another gap from it, so it holds slightly *less*. The two columns
 earn their place against one readable 126mm column, not against each other.
 
+### The reading room's first screen (H10)
+Title, tagline, then **Share your cocktail** and **Save the recipe** as
+equal house pills — they are the page's two jobs (traction and keepsake), so
+they sit with the title, and repeat after the letter. The cue beneath reads
+"Your recipe and reading". On phones the pills drop their tails
+("Share" / "Save") to share one row. Once scrolled, a top scrim keeps the
+reading from printing under the nav mark.
+
 ### The room (H10 background)
-The persona scene is the page's background, never a plate on it. Desktop,
+The persona scene is the page's background, never a plate on it. Nothing
+drifts over the photograph: the smoke bands and grain were removed
+(2026-09-29) — they tinted it and read as lens smudges. Desktop,
 tablet and landscape-phone views use the full-bleed **16:9 wide master** with
 `object-fit: cover`; portrait phones and printed keepsakes use the 3:4 master.
 Small viewport trims are intentional and absorbed by the wide master's safe
@@ -410,8 +488,8 @@ A brush line with imperceptible ticks and an irregular ink-blob thumb
 - **Do** honor `prefers-reduced-motion` on every hold — each animation needs
   its static or near-instant (0.2–0.4s) counterpart, and canvas effects need
   their own reduced-motion branch. This ships already; keep the standard.
-- **Do** keep text over footage legible with the black text-shadow underlay
-  and, on bright bands, a pool-of-night backing layer.
+- **Do** keep text over footage legible with full-strength ivory and the
+  `--legible` hairline; on a pale band, move the element, don't darken behind it.
 - **Do** drive all seed-coloured styling through the `--c` custom property.
 - **Do** ease with `cubic-bezier(0.16, 1, 0.3, 1)` (or the 0.22/0.61/0.36/1
   glide for camera moves); never bounce, never elastic.
@@ -432,6 +510,10 @@ A brush line with imperceptible ticks and an irregular ink-blob thumb
 - **Don't** slow, scrub, or variable-rate the journey video, ever.
 - **Don't** show chapter labels or numbers to the user; the journey reads as
   one continuous experience.
-- **Don't** redesign the hero/landing — it is locked and loved.
-- **Don't** add drag interactions; every depth interaction is a click/touch.
+- **Don't** let the nav mark and the page copy sit on different left edges —
+  both hang from `--gutter`.
+- **Don't** add drag interactions; every depth interaction is a click/touch
+  (H3's mote is the one sanctioned drag, with a full keyboard mirror).
+- **Don't** ask for anything the reveal cannot honour (why H6's glass beat
+  was removed: each pour's glass is fixed).
 - **Don't** use pure #000 or pure #fff anywhere; both worlds are warm.
