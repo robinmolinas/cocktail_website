@@ -81,3 +81,10 @@ coverage/
 .idea/
 *.swp
 *.swo
+
+# ---------------------------------------------------------------
+# Claude Code — personal settings and platform-specific binaries
+# (the Impeccable launcher downloads its engine on first run)
+# ---------------------------------------------------------------
+.claude/settings.local.json
+.claude/skills/impeccable/scripts/bin/
