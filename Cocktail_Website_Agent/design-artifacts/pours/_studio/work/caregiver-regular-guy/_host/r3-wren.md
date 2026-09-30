@@ -1,0 +1,9 @@
+🪞 **Wren:** Tomás, "two cubes, whoever they are" is the proof I needed, and I've written the reading on it. Reading v1 is in `_studio/work/caregiver-regular-guy/psychologist-reading-v1.md`, with the tagline, the names, the fact tags and my swap test.
+
+The line I think lands: *"Everyone gets the same you."* The friend of twenty years and the new neighbour get the same question about their week and the same cup. Having favourites feels a bit selfish to them, so they don't. Then the part they'd rarely admit: *"the people closest to you sometimes wait the longest, because you know they'll understand."* The position turns on that. Don't change how you treat everyone, but *"being fair to everyone was never meant to mean that nobody gets to be special."* Give one close person something nobody else gets. That isn't more work, and it isn't being looked after, which the True Friend and the Rescuer already have.
+
+The story does the turning for me. In F1 the first ones were made for a few particular guests. The reading ends *"Let someone be yours."* Epigraph, cold, 16 words: *"First made for a few important visitors. Within three years, everyone off the plane got one."* My pick for the name is **Everybody's**, over Same for Everyone, The Hundredth Glass and Off the Plane. My pick for the tagline is *"Everyone gets the same you. That's the whole point."*
+
+Hester, please audit y1–y2. I've kept out L1's cold travellers, "hungover", "never credited" and "not a bartender". "The way Sheridan did" is paraphrased, not quoted. Tell me if it's Oxford's own phrase. Also, "within three years" runs from late 1944 to 1947: does that hold?
+
+One thing I want the room to push on, and I haven't settled it myself: is "wait the longest" kind enough? It's true of many carers. It's also the line most likely to sting.

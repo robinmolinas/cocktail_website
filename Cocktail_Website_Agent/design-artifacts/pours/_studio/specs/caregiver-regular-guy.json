@@ -1,0 +1,28 @@
+{
+ "pairing": "caregiver-regular-guy",
+ "family": "flip",
+ "style": "hot",
+ "glass": "footed glass goblet, about 180 ml, warmed with hot water first",
+ "serves": 1,
+ "ingredients": [
+  {
+   "key": "irish_whiskey",
+   "ml": 40
+  },
+  {
+   "key": "hot_coffee",
+   "ml": 80
+  },
+  {
+   "key": "demerara_sugar_cube",
+   "count": 2
+  },
+  {
+   "key": "cream",
+   "ml": 30,
+   "note": "fresh heavy cream, whipped by hand to soft peaks (about double), spooned on; not modelled in the layer below; dairy declared"
+  }
+ ],
+ "garnish": [],
+ "_status": "v1 (Tom\u00e1s, round 2). Whole glass (cream in) is what balance.py reads below; the coffee layer as drunk under the cream (scratch mixologist-v-40-80-2.json): balance.py hot 12.8% / 6.40 g / 0.064% acid, all in range. Oxford F7's 45 ml / 75 ml runs 14.4% (OUT) under the cream, so whiskey 40 and coffee 80; 45/80 = 13.8% OUT, 40/75 = 13.3% EDGE. Sugar proven only at two cubes: one = 3.26 g OUT, three = 9.41 g OUT. With the cream stirred in by the last sip: 11.6% / 5.74 g (checked at 45/75). allergens: dairy (cream). Classic kept on purpose (v1.1, round 4): brown/demerara cubes are Oxford's own preference (pdf 1077), not a spark; Matrix consulted and set aside, reasons in mixologist-draft.md Checks."
+}

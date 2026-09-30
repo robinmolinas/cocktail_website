@@ -1,0 +1,36 @@
+code: dps
+name: "Dionysus Pour Studio"
+description: "A room of three experts (Wren, Hester, Tomás) that authors Dionysus pours, one cocktail and reading per personality, with its thinking on the record, for Robin to review at the end."
+module_version: 1.0.0
+default_selected: false
+module_greeting: >
+  The studio is open. Wren, Hester and Tomás are ready, and each will hold a short First Breath with you the first time you talk to them.
+  Author a pour with "run the room for <pairing>", or a family with "run a batch <primary>". Review everything at the desk:
+  "open the review desk". Run dps-setup again at any time to change a folder or check the studio.
+
+dps_pours_folder:
+  prompt: "Where do pour drafts live? (the studio keeps its own files in _studio/ inside it)"
+  default: "Dionysus/Cocktail_Website_Agent/design-artifacts/pours"
+  result: "{project-root}/{value}"
+
+dps_library_folder:
+  prompt: "Where is the page-marked research library?"
+  default: "Dionysus/docs/_text"
+  result: "{project-root}/{value}"
+
+agents:
+  - code: psychologist
+    name: Wren
+    title: Psychologist
+    icon: 🪞
+    description: Reads each Dionysus personality and writes the reading that makes a guest feel seen, then holds it to a resonance test.
+  - code: historian
+    name: Hester
+    title: Historian
+    icon: 📜
+    description: Finds the true drink story that mirrors each Dionysus personality and makes sure every fact in a pour is sourced.
+  - code: mixologist
+    name: Tomás
+    title: Mixologist
+    icon: 🍸
+    description: Designs each Dionysus personality's cocktail and proves on paper that it's balanced, allergen-safe and makeable at home.

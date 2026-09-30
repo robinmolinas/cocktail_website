@@ -56,3 +56,9 @@ Strong medicinal origin — quinine for malaria, made palatable with gin and lim
 - Wren's "without crediting him" is false: "Sheridan's 'Gaelic Coffee'" (pdf 1076); Dead Rabbit "the way Sheridan did" (pdf 1077). What is true: his name isn't in the drink's name.
 - Conflict C1: Joy pdf 306 says bartender at Shannon, for American tourists. Oxford (chef, Foynes, dignitaries) cites 1944–45 press; preferred, not hinged on.
 - For Tomás: F7 on the card, original 180 ml footed goblet; adulteration = bigger glass, syrup, canned cream (pdf 1076–1077).
+
+## Round 3 check of Tomás's spec v1 (Hester)
+- Verified: Codex p. 268 (Irish Coffee, a Flip variation; warm the mug with boiling water; cream to soft peaks; Demerara Gum Syrup). Joy pdf 307 (Regan: sweeten to the customer's liking, always ask; brown-sugar syrup suggested). Oxford pdf 1076 (sugar cubes were the original; syrup was the adulteration).
+- Demerara is NOT a spark: Oxford's recipe already says "preferably brown or demerara" (pdf 1077); Codex uses demerara syrup; Regan suggests brown sugar. The spec is the classic with 5 ml less whiskey.
+- Matrix pdf 72 is the CARAMEL entry: Maillard is caramel's flavour; coffee and bourbon are listed as caramel's *substitutes*. It says nothing about demerara, and a substitute isn't a pairing. "Brown sugar, the roasted Maillard kind" is unsourced (unrefined cane sugar keeps molasses; that's not caramelising). Not to be claimed in Checks or the reading.
+- Sourced line available instead: cubes over syrup = the original way (pdf 1076).

@@ -1,0 +1,21 @@
+- **Persona:** the Nurse helps before anyone asks, and gives everyone the same care, whoever they are. The quiet cost is that the people closest to them get exactly what everyone gets, and they'd never say so.
+- **Story:** Joe Sheridan's Irish Coffee. A chef at Foynes was asked for something special to greet a few important visitors (late 1944 or early 1945). By 1947 it was offered to every traveller off the plane at Shannon. Fame then brought syrup, bigger glasses and canned cream. Runner-up: Lucinda Sterling and the Penicillin at Milk & Honey (noticing and advocating), kept for another pour.
+- **Versions that failed:**
+  - Round 1: the "hungover chef", "never credited" and "warm for tired strangers" lines were struck in round 2 (legend or false; Hester, then Wren's own correction).
+  - Wren's first read was swap-tested off the True Friend, the Craftsman and the Photographer.
+  - Tomás's Flavor Matrix spark (demerara via the caramel page) was withdrawn in round 4: Oxford's own recipe already prefers brown or demerara cubes, and the Matrix lists coffee as caramel's substitute, not a pairing.
+  - "Wait the longest" was softened in round 4 because it blamed the guest.
+  - Closing line: "Whip the cream fresh each time. Nobody gets it from a can" argued the creed, not the position. Wren's "make one more, for whoever waited" brought the waiting back and used *Still Yours*' "whoever". Both gave way to Tomás's *"Two cubes for everyone. For one person, ask how they take it."*
+  - Fixes from the lint and the audit, rounds 6–7: "shortcuts" (a motive Oxford never states), "sugar" → "sugar cubes", "within three years" → "By 1947", and motif echoes of *Off Duty*, *Making the Calls*, *Overnight* and *Still Yours*.
+- **The "this is me" line:** *"Everyone gets the same you."*
+- **Names:** *Everybody's* (Wren; Tomás conceded in round 4) over *Two Cubes* (Tomás's round-3 pick: it names the drink, not the person), *Same for Everyone*, *The Hundredth Glass*, *Every Arrival*, *No Lesser Cup* and *Off the Plane*.
+- **Edges and flags:**
+  - **No spark, on purpose:** the classic is kept with 5 ml less whiskey, and the Matrix ideas are recorded as set aside in Checks. This is your call against check 3.
+  - **Dairy:** declared, so this pour doesn't count toward the veto-free floor.
+  - **Caffeine:** flagged by Tomás (unsourced, not a veto).
+  - **Near *Off Duty*:** also hot Irish whiskey with a warmed cup, but a different cocktail.
+  - **Unsourced estimates:** the coffee's acid and the cube weight.
+  - **Hester's standing note:** Oxford never says who decided to offer it to everyone, so a rework that restates y3 keeps the "I like to think" signpost.
+- **Pronouns:** the three remaining lint warnings (he/his) are all Sheridan's, as Wren confirmed.
+- **Rule candidates:** none proposed.
+- **Budget:** 8 rounds, the full allowance. Round 2 was split by a usage-limit cut.

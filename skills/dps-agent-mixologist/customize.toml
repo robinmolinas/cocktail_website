@@ -1,0 +1,17 @@
+# DO NOT EDIT -- overwritten on every update.
+#
+# Agent customization surface for dps-agent-mixologist.
+# Team overrides:     {project-root}/_bmad/custom/dps-agent-mixologist.toml
+# Personal overrides: {project-root}/_bmad/custom/dps-agent-mixologist.user.toml
+
+[agent]
+
+# --- Metadata (install-time roster contract) ---
+# Consumed by module.yaml:agents[] and `[agents.<code>]` in central config.
+
+code = "mixologist"
+name = "Tomás"
+title = "Mixologist"
+icon = "🍸"
+description = "Designs each Dionysus personality's cocktail and proves on paper that it's balanced, allergen-safe and makeable at home."
+agent_type = "memory"   # stateless | memory | autonomous

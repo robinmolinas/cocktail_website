@@ -1,0 +1,27 @@
+{
+ "pairing": "caregiver-regular-guy",
+ "personality": "The Nurse",
+ "archetypes": "Caregiver × Regular Guy",
+ "date": "2026-09-30",
+ "batch": "caregiver",
+ "name": "Everybody's",
+ "tagline": "Everyone gets the same you. That's the whole point.",
+ "epigraph": "First made for a few important visitors. By 1947, everyone off the plane was offered one.",
+ "glassware": "a footed glass goblet, about 180 ml, warmed with hot water first (or any heatproof stemmed glass or small handled toddy glass of about that size)",
+ "contains": ["dairy"],
+ "veto_free": false,
+ "reading": "psychologist-reading-v5.md",
+ "card": "joe-sheridan-irish-coffee.md",
+ "language_row": "Wren's Resonance (v3–v4): *ready*. Sibling echoes moved off: *Four Shares* (\"allowed to be looked after too\", r2), the Craftsman's \"it was nothing\" and the Photographer's \"Stop calling it nothing\" / \"Tuesdays\" (r2), *Still Yours* \"whoever\" (all three uses out, r6), *Overnight* / *Not Only the Way* \"nobody sees\" (r6), the Angel's \"nobody thanks you\" (avoided). The closing line was checked by Tomás against *A Brother's Care* \"every glass\", *Making the Calls* \"the first one\", *No Accident* \"Don't stir it\", *Off Duty* \"Sit down\" and *Standing By* \"the one thing they didn't\" (grep found no \"how they take it\"). \"Wait the longest\" softened to a line with no blame (r4). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/joe-sheridan-irish-coffee.md` (*Oxford Companion* IRISH COFFEE pdf 1075–1077; F1–F7, C1, legend L1). Craft: *Cocktail Codex* Irish Coffee (Flip variation, p. 268); Regan, *Joy of Mixology* pdf 306–307 (\"always ask\" on sugar; brown-sugar syrup); *Liquid Intelligence* pdf 184, 186–187 (heat and alcohol); *Flavor Matrix* caramel pdf 72 and vanilla pdf 256 (consulted and set aside). Audits: `work/caregiver-regular-guy/historian-audit-v1.md`, `-v2.md`, `-v3.md`. Room notes: `work/caregiver-regular-guy/`.",
+ "names_note": "**Everybody's**, the room's pick (Wren; Tomás conceded in r4): sayable across a bar, a Regular Guy word, and what the drink became (F2); it names the creed that the ending turns. Also considered: *Two Cubes* (Tomás's r3 pick; names the drink, not the person), *Same for Everyone*, *The Hundredth Glass*, *Every Arrival*, *No Lesser Cup*, *Off the Plane*.",
+ "open_items": [
+  "**No spark, on purpose:** the room kept the classic Irish Coffee with 5 ml less whiskey for balance. Tomás's round-2 Flavor Matrix spark (demerara via the caramel page) was withdrawn after Hester showed Oxford's own recipe already prefers brown or demerara cubes (pdf 1077) and the Matrix page lists coffee as a substitute, not a pairing. The *Matrix* was consulted and each idea set aside with its reason in Checks (garnish, vanilla cream, liqueur, bigger glass). Robin's call against STUDIO-RULES check 3.",
+  "**Dairy:** fresh cream; declared, so this pour doesn't count toward the veto-free floor. No dairy-free version: the cream is the lid and the story (Tomás).",
+  "**Caffeine:** flagged by Tomás (unsourced; not in the veto enum), a full cup's worth in a late drink. Robin's call.",
+  "**Side by side with *Off Duty* (the Rescuer):** also hot Irish whiskey, also warms its cup first. A Hot Toddy, a different cocktail (Robin 2026-09-28 rule). The warming is kept as a method step only, and the image moves well away from its kitchen.",
+  "**Ours, never his:** 40 ml whiskey and \"two cubes\" are Oxford's modern measures adjusted, not attested as Sheridan's; asking how one person takes it is Regan's advice, never Sheridan's practice. Chef-at-Foynes stands on Oxford over Regan's bartender-at-Shannon (C1). \"Warm for tired strangers\" (L1) and \"hungover\" stay out of guest text. The image merges Foynes and Shannon; fine in a picture, never in text (Hester).",
+  "**New ingredient rows:** `irish_whiskey` (40%), `hot_coffee` (acid estimated, unsourced), `demerara_sugar_cube` (4 g per cube, unsourced).",
+  "**Runner-up story:** Lucinda Sterling and the Penicillin at Milk & Honey (noticing and advocating; closer to other personas, kept for another pour)."
+ ]
+}
