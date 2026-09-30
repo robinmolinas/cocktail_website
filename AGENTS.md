@@ -159,5 +159,6 @@ Third-party skills are vendored under `.claude/skills/` so they are available in
 | `bmad`, `bmad-*`, `bmod-*` | [BMAD Method](https://docs.bmad-method.org/) | `npx skills update -p` |
 | `frontend-design` | [anthropics/claude-code](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) | re-download `SKILL.md` |
 
+- The in-house DPS skills stay in `skills/dps-*`; `.claude/skills/dps-*` are relative symlinks to them so Claude Code discovers them too. Edit the originals under `skills/`.
 - First use: run `/impeccable init` (writes `PRODUCT.md`) and `/bmad setup` (creates `_bmad/`).
 - The Impeccable engine binary (`.claude/skills/impeccable/scripts/bin/`) is gitignored; the launcher downloads and checksum-verifies it on first run.
