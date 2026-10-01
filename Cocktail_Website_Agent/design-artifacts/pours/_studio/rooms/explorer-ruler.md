@@ -2,7 +2,7 @@
 pairing: explorer-ruler
 personality: The Expedition Leader
 status: open            # open | closed | deadlock | flagged
-round: 5               # budget: 5 (pour, Robin 2026-10-01) · 5 (rework)
+round: 6               # budget: 5 (pour, Robin 2026-10-01) · 5 (rework)
 started: 2026-10-01
 mode: batch            # pour | batch | rework
 ---
@@ -10,9 +10,9 @@ mode: batch            # pour | batch | rework
 # The room: The Expedition Leader (explorer-ruler)
 
 ## Where things stand
-- **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [ ] fact audit · [ ] resonance test · [x] names (≥3 + pick) (Far Enough (all three)) · [ ] image brief
-- **Last change to the pour:** round 0
-- **Sign-offs (valid only if after the last change):** Wren — · Hester — · Tomás —
+- **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Far Enough (all three)) · [x] image brief
+- **Last change to the pour:** r6 step a (Wren v3, Tomás closing line and image brief)
+- **Sign-offs (valid only if after the last change):** Wren ✓ r6 · Hester ✓ r6 · Tomás ✓ r6
 - **Open objections:** none
 - **Robin's notes (rework):** none
 
@@ -82,3 +82,13 @@ The line I'm hunting: *"You were the one who wanted the top most. You were also 
 🍸 **Tomás:** Wren, **I accept the closing line**: *Drink the first sip to the top you turned round from. It was still the right place to turn.* You're right that mine spent y5 twice. Yours gives the turn-round back as a choice the guest would make again, and nothing in it makes the syrup the gesture. I grepped it: no closing line in the registry has "first sip", "right place" or "turned round", and "first sip" turns up only in other pours' Checks, describing how a drink is layered. **The drink doesn't move:** spec v1 re-run gives **29.4% / 7.04 g / 0.033%, all in range, veto-free.** Hester, **T1-T3 are in** `mixologist-draft.md`. T1: the fizzy-syrup warning is now cited to p. 46, in the Codex's words ("it means the syrup has begun to ferment"). T2: the bottle is "named for him and built on a recreation of the whisky his expedition left under its hut" in the recipe note, Makeable, the spec and the ingredient row. "Made in memory of" is gone everywhere, and Makeable now quotes your "inspired by" and "foundation". T3: "dried fruit counts as nuts" is no studio rule, so it's now sourced to the table's own safe-side call (the `apricot_steeped_rye` row: "dried fruit is commonly packed alongside nuts") and labelled as my call. Wren, your v2 y4 stand-in sentence matches the Method, and I've noted that in the draft. **Image brief facts:** a heavy, thick-bottomed double tumbler, about 300 ml, with one large clear cube. Amber whisky with a slight reddish cast from the plum, which is my estimate, so it's described, never claimed. One large piece of orange peel inside, against the cube. Hester's fences go on top of mine (no sea, ship, floe, flag, summit, sledge, plum pudding, sweet box or shares). **Name: *Far Enough*.** It's the one true thing in two words, and it's warm without being praise. *Last Outward March* is the best runner-up, but it's his words, not the guest's, and sterner than the person. I'd put my name to this once Hester's image fences are in and the A-items have landed in v2.
 
 🎙️ **Host:** Round 5 is in, and round 6, the last, runs in steps. **Agreed:** the name is *Far Enough* (all three). Reading v2 carries every audit FIX (Hester grepped v2 and passes it). T1–T3 are in spec v1.1 (29.4% / 7.04 g / 0.033%, veto-free). Tomás accepts the closing line. **Still open, in this order:** (1) Wren: Hester notes that "the first sip" is approved *sage-lover*'s instruction, and the *lover-hero* room cut "before the first sip" as sitting in three siblings. She offers *Drink to the top you turned round from.* The words are yours to rule on: keep or change. (2) Tomás: put Hester's image fences (now on the card) into `## Image brief`. Your plain brass compass needs no logo or motto, and no flag, ship, sea, hut, crates, boxed plums, label, year or likeness of him may appear. Carry Wren's ruled closing line in `**closingLine:**`, then sign. (3) Hester confirms what landed, then signs. Sign-offs count only after the last change.
+
+### Round 6
+
+🪞 **Wren:** Hester, you're right. "The first sip" belongs to *A Brother's Care*, and I should have caught it. I'll take your cut. **Closing line, exact words: *Drink to the top you turned round from. It was still the right place to turn.*** It has no 4-gram in any pour or in the registry. The reading's own text is unchanged. Only `## Resonance` quoted the old closing line, so it's saved as `psychologist-reading-v3.md` with that line updated, and nothing else is different. The persona is honoured, the facts are audited, the drink walks, and my resonance test says ready. I'd put my name to this.
+
+🍸 **Tomás:** Wren, Hester, the closing line is carried: *Drink to the top you turned round from. It was still the right place to turn.* Hester, thank you for the catch. My r5 grep listed `sage-lover.md`, and I misread it as Checks prose, so that miss was mine. The image brief now has your fences in full: a plain brass compass with no logo or motto. No flag of any kind, ship, sea, floe, hut, crates, boxed or preserved plums, plum pudding, brand label, year, latitude, distance, likeness or route-to-the-Pole map. Your optional sledge, tent, mound of stores and up to four faceless figures are in too, and they replace my own ban on sledges and tents. The drink hasn't moved: re-run, it's **29.4% / 7.04 g / 0.033%, all in range, veto-free.** All four checks pass, the Ritual and image brief are written, and the pick is *Far Enough*. I'd put my name to this.
+
+📜 **Hester:** I checked the files, not the reports. Reading v3 differs from v2 only in the Resonance line about the closing line (diff: title block, whoYouAre and yours identical). *Drink to the top you turned round from. It was still the right place to turn.* is in Tomás's `closingLine`, and it makes no historical claim. Every A, B and T item has landed, including "named for him and built on a recreation…" in the draft and spec (no "in memory" left). My fences are in `## Image brief`. The one difference is that penguins and "no dogs or ponies" aren't spelled out, but "the sea" and "man-hauled" cover them. That's a note, not a fix, so nobody's sign-off is voided. Audit v3 is saved as `historian-audit-v3.md`. I'd put my name to this.
+
+🎙️ **Host:** Round 6, the last, is closed. The last change was step a: Wren's v3 (only the Resonance quote of the closing line) and Tomás's draft (the closing line *Drink to the top you turned round from. It was still the right place to turn.*, and Hester's image fences). All three signed after it, Hester after checking the files. Her audit v3 is housekeeping, and her note on penguins and dogs/ponies is covered by "the sea" and "man-hauled", with no fix. The pour assembles from reading v3, audit v3 and spec v1.1, veto-free.

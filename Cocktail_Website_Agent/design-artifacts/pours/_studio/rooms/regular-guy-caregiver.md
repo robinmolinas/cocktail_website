@@ -2,7 +2,7 @@
 pairing: regular-guy-caregiver
 personality: The Good Samaritan
 status: open            # open | closed | deadlock | flagged
-round: 3               # budget: 5 (pour, Robin 2026-10-01) · 5 (rework)
+round: 4               # budget: 5 (pour, Robin 2026-10-01) · 5 (rework)
 started: 2026-10-01
 mode: batch            # pour | batch | rework
 ---
@@ -10,10 +10,10 @@ mode: batch            # pour | batch | rework
 # The room: The Good Samaritan (regular-guy-caregiver)
 
 ## Where things stand
-- **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [ ] fact audit · [ ] resonance test · [ ] names (≥3 + pick) · [x] image brief
-- **Last change to the pour:** round 3
+- **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Whoever Comes In (all three)) · [x] image brief
+- **Last change to the pour:** round 4
 - **Sign-offs (valid only if after the last change):** Wren — · Hester — · Tomás —
-- **Open objections:** Hester: D1, D2 (Tomás's Checks/method wording on the shakerato)
+- **Open objections:** Hester: R2, R3, R5a, R5b, R6, R7, R8 (reading), D1 (step 5); closing line crossed (Wren took Tomás's, Tomás took Wren's)
 - **Robin's notes (rework):** none
 
 ## Summary for Robin
@@ -153,3 +153,48 @@ Not yet: D1 and D2.
 - **Someone's There** only works if the closing line changes.
 
 **What I can't put my name to yet:** the closing line, until your reading lands. The drink, its checks, the image brief and the names I'd stand behind as written.
+
+### Round 4
+
+🪞 **Wren:** Tomás, I'm taking your closing line and withdrawing mine. *Make more syrup than you'll drink. Pull the coffee only when someone's there.* is better than *Make the syrup before you know who it's for*. Your line has both halves of the reading: something left for whoever comes later, and a fresh cup for whoever's in front of you. Hester, your D1, D2 and the Matrix wording are all in y4 of `psychologist-reading-v1.md`, so the foam claim is gone.
+
+y4 now reads: "…shaken hard with brandy, the syrup and a drop of salt water, poured into a cold coupe and drunk at once, while the texture lasts. It starts from the Italian bar's *shakerato*, espresso shaken with ice and lightly sweetened, here with brandy added and no cream. The flavour books pair coffee with roasted roots, and I can't taste this one without thinking of carrot cake and a strong coffee." That makes carrot cake my own taste note, not the book's. "Lightly sweetened" is my wording, not your "a little sugar", because "and a little sugar" is already a 4-gram in *explorer-lover*. Please rule on it in your audit v2. I've re-run every paragraph through the lint's `ngrams()` against all the pours, and none collides.
+
+**The name: I'm holding *Whoever Comes In*.**
+- It's the custom's own rule, on your card as F4 ("an unidentified future customer", "entered later"). It's also this guest's answer to "who is my neighbour?". Nobody is sorted first, which is exactly y3.
+- Tomás, I see why *In Front of You* is tempting, but it contradicts y5. The position is about the ones who aren't in front of you: the ones you'll miss, whose coffee is already waiting. The phrase is also already in three pours (*A Brother's Care*, *innocent-hero*, *explorer-lover*).
+- Hester, *One Waiting* is lovely, but it names the coffee, not the person. A guest reads it as a drink on hold.
+
+So my order is *Whoever Comes In*, *One Waiting*, *Anything Suspended?*. If either of you can show me that a guest would misread *Whoever Comes In*, I'll move. A name you simply like more won't move me.
+
+Tomás, the image brief has my support as written. The cloud is image-only, so *Rosetta*'s "the cloud in this glass" isn't touched.
+
+**Resonance verdict: ready.** It stands on two conditions: Hester's audit v2 of the reading, and the assembled lint coming back clean. The "how did they know" line is still "Everyone else's eyes slide past. Yours stop." The ending pays off what whoYouAre sets up: the ones you walk past "follow you home", and the last line is "they won't follow you home". I'm not signing yet: the audit and the name are still open. Once both close, I expect to put my name to this.
+
+📜 **Hester:** Host, the anchors are now in the assembler's shape: `| kind | fact | meaning | speaksTo |` comes first in `historian-anchors.md`, with the numbered dossier rows below it. Wren, my audit of reading v1 is `historian-audit-v2.md`. Every fix below gives the new text, and none of them changes the story.
+
+- **Your two y2 wordings.** "Served like any other customer" passes. Mancini calls the person who asks "an unidentified future customer", and NPR's barista would "nod and serve him a cup". "Made smaller" doesn't pass (R5b). Mancini says a direct ask would stress "possible economic differences between the two persons", which is about money. "Made smaller" puts a hurt on the receiver that he never names. Your quotation marks also hold words he didn't write. Suggested new text: "Nobody has to say 'would you pay for a coffee for me?', so the difference between the two of them never has to be said out loud." Earlier in y2, change "One scholar of Naples … the clever part" to "One Italian scholar … the gentle part" (R5a). He's at Perugia, and "gentle" is his word.
+- **Your y4 question, the Matrix's exact words (pdf 224).** The entry is ROOT VEGETABLES (celery root, parsnip, salsify). It reads "Best Pairings: Celery, cauliflower, bourbon, coffee, lemon, basil", and the roots are "most commonly roasted or boiled and puréed". "One of the great pairings" goes further than one book's list, and carrots aren't in that group. Suggested text (R8): "Coffee is listed among parsnip's best pairings in the flavour book I trust most: think of carrot cake with a strong coffee."
+- **Still failing in y4.** Change "goes flat within minutes" to "loses its texture fast": no page gives minutes. The spec has two drops of salt water, not "a drop". "Until its foam comes back up" is still D1: Arnold says liquor "throws off the dilution and body" (LI p. 354). That phrase is also still in Tomás's step 5. Change "the Italian bar's *shakerato* … with brandy in it" to "It starts from the Italian *shakerato*, espresso shaken with ice and a little sugar; I've added the brandy" (R7).
+- **y1 and y2, smaller fixes.** In y1, "none of them holds up" says the origin stories were disproved, but they're only unproven. New text: "Nobody knows how old it is, or how it began; the stories don't agree" (R2). In y2, change "at the counter" to "at the bar" (R3): NPR has him in the doorway.
+- **Image brief.** "From the clouds" holds as Mancini wrote it. The cloud is fine; the foam head is a picture, not a claim.
+
+On the name, I withdraw *One Waiting*. After Tomás's physics, what waits in Naples is the payment, not a cup, so my name said the wrong thing. I back *Whoever Comes In*: it rests on the source ("unidentified future customer", "entered later") and it's this person's answer. Not yet: R2, R3, R5a, R5b, R6, R7 and R8 in the reading, plus D1 in step 5. Once they land as written, I'd put my name to this.
+
+🍸 **Tomás:** Hester, D1 and D2 are both fixed in `work/regular-guy-caregiver/mixologist-draft.md` (v3).
+- **D1:** step 5 now reads "drink it at once: the texture doesn't last." Checks owns Arnold's warning in his own words (LI p. 354). There's no cream, on purpose: it would cost the dairy veto and walk into *Everybody's*. I've added no cooling step, because the brandy and syrup go into the tin before the shot, which brings it to about 35°C (my own arithmetic).
+- **D2:** it now reads "starts from the shakerato, with brandy added and no cream". I never call it Arnold's recipe. The drink and spec haven't changed: 15.0% ABV, 5.83 g sugar, 0.29% acid, veto-free.
+
+Wren, here are pdf 224's exact words. It's the entry for root vegetables, "Main Subtypes: Celery root, parsnip, salsify". It gives "Best Pairings: Celery, cauliflower, bourbon, coffee, lemon, basil" and says the class is "most commonly roasted or boiled and puréed". So "one of the great pairings" goes too far.
+
+Your revised y4 needs two small fixes:
+- "The flavour books pair" should be singular, because it's one book. Something like "One flavour book lists coffee among the best pairings for parsnip and its cousins".
+- "a drop of salt water" should be "two drops", to match the recipe.
+
+**Closing line:** I'm taking yours, *Make the syrup before you know who it's for.* Mine repeated what your epigraph and y4 already say about the two halves. Yours carries only the position, and it's still a real step in the method. Neither phrase appears in any closing line, and there's no 4-gram hit with *Off-Label*'s "before you know what they'll be".
+
+**Name:** I'm dropping *In Front of You* and backing ***Whoever Comes In***. It's the custom's own rule, Mancini's "unidentified future customer", and it names the stranger rather than the guest's attention.
+- Against *One Waiting*: the whole drink says no cup is kept waiting, and keeping a cup back is *Four Shares*'.
+- One flag, Wren: your epigraph ends "until someone walks in", so "comes in" and "walks in" sit one line apart. I'd end it "…The rest waits until someone's there." Your call.
+
+Once Hester clears the reading's audit, I'd put my name to the drink, the checks, the closing line, the image brief and the pick.
