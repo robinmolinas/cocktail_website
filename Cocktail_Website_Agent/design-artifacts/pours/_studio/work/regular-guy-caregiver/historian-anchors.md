@@ -1,7 +1,19 @@
-# Anchors: regular-guy-caregiver (The Good Samaritan), draft 1, round 2
+# Anchors: regular-guy-caregiver (The Good Samaritan), round 4
 
-Hester, 2026-10-01. Story: the *caffè sospeso* (Wren's ruling, round 1). Facts from `fact-cards/caffe-sospeso.md`. Meanings are drafts for Wren to rewrite; speaksTo uses the persona sheet's words.
+Hester, 2026-10-01. Story: the *caffè sospeso*. Facts from `fact-cards/caffe-sospeso.md` and the library pages named in the dossier table below. The pour table comes first, in the assembler's shape; the numbered dossier rows (with card refs) follow.
 
+| kind | fact | meaning | speaksTo |
+| --- | --- | --- | --- |
+| gesture | In Naples, someone having a coffee at the bar pays for a second one before leaving, for someone who can't afford one (NPR 2013; Mancini, Global Informality Project; *Euronews* 2020). | Kindness done as an ordinary purchase, at the price of one more coffee. | Altruism; everyday kindness |
+| reveal | Whoever comes in later asks whether there's a suspended coffee, and is served (NPR 2013; Mancini). | The one who asks is served as a customer. The question puts nobody in front of anyone. | Belonging; fear of Exclusion; Fairness |
+| reading | One Italian scholar (Mancini) reads the question as "a gentle query": a direct "Would you pay for a coffee for me?" would stress the economic difference between two people, so the coffee seems to fall "from the clouds", not from the giver's hands. Interpretation, his. | The custom's own wording treats the person as someone, not as a problem. | Respect; fear of Discourtesy and Indifference |
+| lineage | A city's custom with no known first giver. How old it is isn't known: the sources say about a century, or the end of the Second World War, or that one can only speculate. | Not one hero: ordinary people, one coffee at a time. | Belonging; quiet kindness |
+| gesture | The giver doesn't choose: the coffee is for "an unidentified future customer" (Mancini), whoever "entered later" (De Crescenzo to NPR). | Something left waiting for the ones you'll miss, stood on the one who walks in. | Altruism; not passing by on the other side of the road |
+| riff | Espresso's texture "dies fairly quickly" and a *caffè shakerato* (espresso shaken with ice and a little sugar) "must be consumed very quickly" (*Liquid Intelligence* pp. 352–353). Ours adds brandy and no cream; Arnold warns that liquor throws off a shakerato's body (p. 354). | A cup can't wait; what waits is the payment. So the coffee is made only when someone is there. | Fairness; Belonging |
+| ingredient | The *Flavor Matrix* lists coffee among the best pairings for root vegetables (celery root, parsnip, salsify), which are "most commonly roasted or boiled and puréed" (pdf 224). | The syrup is the part made ahead, for whoever comes later. Never a picture of people. | Altruism |
+| pairing | The *Codex* pairs cognac with a coffee liqueur in a hot toddy, *In Hot Water* (Brittany Fells, 2014; p. 38). | Brandy and coffee is an established pairing. | — |
+
+## Dossier rows (numbered, with card refs)
 | # | kind | fact (sourced) | meaning (interpretive, ours) | speaksTo | card |
 |---|---|---|---|---|---|
 | A1 | gesture | In a Naples bar, someone pays for a second coffee, for a person who can't afford one, to be had later. Three independent sources. | Kindness done as an ordinary purchase, at the same counter, at the price of one more coffee. | Altruism; "everyday kindness" | F1 |
