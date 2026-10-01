@@ -1,0 +1,14 @@
+{"pairing": "explorer-sage", "family": "daiquiri", "subfamily": "tiki: the Zombie as Jeff Berry printed it (Oxford ZOMBIE pdf 2229), every part named, Don's Mix written out as grapefruit and cinnamon syrup; shaken, not blended, and poured over crushed ice (as the Codex's modern Zombie Punch, p. 127)", "style": "shaken", "glass": "tall Zombie glass (about 590 ml), filled with crushed ice", "serves": 1,
+ "version": "v0 (Tomás, round 3, 2026-10-01). Parts as Berry printed them; proportions mine: lime 22.5 -> 37.5, Don's Mix 15 -> 30 (20 grapefruit + 10 cinnamon syrup), falernum 15 -> 22.5, because his proportions shaken on paper run OUT on strength and acid (21%, 0.56%). Rums exactly his (45/45/30). Falernum made at home with no almond, nutmeg or ginger (veto-free). PENDING: Wren on the drink, its size and the grenadine; Hester on which Pernod.",
+ "ingredients": [
+  {"key": "rum_gold_puerto_rican", "ml": 45},
+  {"key": "rum_gold_jamaican", "ml": 45},
+  {"key": "rum_lemon_hart_151", "ml": 30},
+  {"key": "lime_juice", "ml": 37.5},
+  {"key": "grapefruit_juice", "ml": 20},
+  {"key": "cinnamon_syrup", "ml": 10},
+  {"key": "falernum_homemade", "ml": 22.5},
+  {"key": "grenadine", "ml": 5},
+  {"key": "angostura", "dashes": 1},
+  {"key": "pernod_anise", "drops": 6}],
+ "garnish": ["mint_sprig"]}

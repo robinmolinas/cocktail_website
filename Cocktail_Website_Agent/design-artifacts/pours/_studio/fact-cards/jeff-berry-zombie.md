@@ -35,3 +35,12 @@ Sources: Oxford Companion BERRY, JEFF "BEACHBUM" (pdf 259–260, entry by **Wayn
 - C2: **When the Zombie question starts.** 1979 = asking about every drink (F2). The Zombie specifically: shrouded "by the time Berry started asking" (F3) and still unknown in print in 1998 (F8). Never "he asked about the Zombie in 1979".
 - C3: Collision: *Worth the Trip* y2 "As Jeff Berry tells it" (Berry as teller of Scialom's story). Here Berry is the subject; never use "as he tells it" framing; own in the dossier.
 - C4: Haigh is free: no pour file uses him; the explorer-innocent room discussed him as a backup only.
+
+## Added r3 (2026-10-01)
+
+| ID | Fact | Source | Tier | Note |
+|---|---|---|---|---|
+| F19 | Regan prints the same Zombie "as detailed on the Beachbum's site": ¾ oz lime, ½ oz falernum, 1½ oz each gold Puerto Rican and "gold or dark Jamaican" rum, 1 oz 151-proof Lemon Hart Demerara, 1 tsp grenadine, 6 drops Pernod, a dash of Angostura, ½ oz Don's mix (2 grapefruit : 1 "cinnamon-infused sugar syrup"); blend ≤5 s with 6 oz (¾ cup) crushed ice; tall glass, ice cubes, mint. | Joy pdf 409 | secondary | **A relay of Berry's own site, not a second witness.** Small differences from Oxford: "or dark" Jamaican; "cinnamon-infused". |
+| F20 | Falernum: Barbados liqueur; "recipes vary"; historically rum, sugar and lime, with "cloves, ginger, and nutmeg"; "Almonds are sometimes added." | Oxford FALERNUM pdf 761 (Martin Cate) | primary | Bought falernum = nuts on the safe side. |
+| C5 | **Pernod.** Oxford pdf 2229 and Joy pdf 409 say "Pernod" (6 drops). Regan lists Pernod among absinthe substitutes (Joy pdf 64: "Herbsaint, Absente, or Pernod") and mixes "Pernod and … absinthe" as two bottles (pdf 395). The Codex writes "Pernod Absinthe" (p. 127) and counts Pernod among its absinthe bottlings (p. 34); *Imbibe!* names "Pernod 68" as an absinthe (pdf 67). So Berry's "Pernod" reads as the anise liqueur, and Pernod Absinthe is a different bottle. Pernod's strength is unsourced in the library. | as cited | | Reading: "Pernod (the anise liqueur)" or drop it; never "absinthe". |
+| C6 | **Regan's colour is legend-grade:** "Donn emptied his ingredients into numbered bottles—not even the bartenders knew" (Joy pdf 409) clashes with Proper p. 258 (Beach told Buhen not to reveal trade secrets, which implies he knew). Keep it out. Joy's "uncovering the original recipe" is Regan echoing Berry's claim, not checking it. | Joy pdf 409; Proper p. 258 | | |
