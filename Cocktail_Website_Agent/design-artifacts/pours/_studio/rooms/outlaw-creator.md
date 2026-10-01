@@ -1,7 +1,7 @@
 ---
 pairing: outlaw-creator
 personality: The Rule Breaker
-status: open            # open | closed | deadlock | flagged
+status: closed           # open | closed | deadlock | flagged
 round: 6               # budget: 5 (pour, Robin 2026-10-01) · 5 (rework)
 started: 2026-10-01
 mode: batch            # pour | batch | rework
@@ -17,7 +17,20 @@ mode: batch            # pour | batch | rework
 - **Robin's notes (rework):** none
 
 ## Summary for Robin
-_(written at close: the persona in one line, the story chosen and the runner-up, the versions that failed and why, the "this is me" line, the names debated and the pick, any edge or flag, rule candidates)_
+- **The persona in one line:** a person who has never been frightened by a no and doesn't trust the yes. They fear being absorbed once they're let in, and they quietly doubt whether what they make is good or only good because it isn't allowed (Wren r1).
+- **The story chosen:** George Smith of the Glenlivet, the plan's lead. He distilled illegally as the Duke of Gordon's tenant. By 1822 the glen's illicit whisky had a name: the king's chamberlain was "looking everywhere" for it, and Elizabeth Grant's family sent theirs from home, "mild as milk", with "the true contraband goût in it" (Grant p. 373). The Duke pushed the 1823 Act, Smith took the region's first licence and his old colleagues threatened him. He went on making it in the open, and within twenty years London was being sold "the Real Glenlivet". **Runner-up:** none argued; the plan's backup was not needed.
+- **What failed and why:**
+  - Wren's point 4 ("still good after the yes"): no page says he kept making it the same way, so the reading says only what he did (Hester r2).
+  - Tomás withdrew "long in wood" / "mild as milk" as unchecked memory (r3), and Hester then confirmed both on Grant p. 373.
+  - "A woman who was there": Grant stayed at home (A1). "About to be made a judge": the timing isn't on the page (A2). "One of the most sought-after whiskies", "the glen of the Livet", "His answer is on the record", "It made it known", "years": all struck (A3, A8, A12, B1).
+  - Sparks: passion fruit went OUT on acid (0.10%), and Wren argued that a surprise is a statement; honey was dropped because the bottle already has "a touch of honey" and *Any Day* owns "honey instead of sugar". Elderflower without syrup put sugar OUT (2.84 g).
+  - Tomás twice credited the *Codex* beyond its scope ("to amplify the heather… St-Germain" is general, not about the 12; p. 175's words describe St-Germain, not the style). Both fixed (B3, B4).
+  - First closing line ("…whose yes you never wanted. Then watch them want it.") repeated y5 and turned the yes into a win; replaced in r6.
+- **The "this is me" line:** *It's the yes you don't trust.*
+- **Names:** *Asked In* (Wren; all three). Also considered: *Let In*, *Before They Did*, *Made First*, *Mild as Milk*, *The Real One* (Hester's, kept on the list with a flag: "the real one" already appears in *Everybody's* and *On One Condition*).
+- **Edges:** veto-free. Old-Fashioned: 60 ml Glenlivet 12 (recommended), 15 ml elderflower liqueur, 1 tsp rich syrup, orange bitters, lemon peel, one large cube; 27.4% / 7.07 g, balanced. Tagline *Nobody had to let you. It was good before they did.* Closing line *Stir it for twenty seconds, then leave it be. It holds up on its own.*
+- **Process notes:** two crossings (audit v1 vs reading v2; audit v2 vs reading v3); round 6 ran in steps.
+- **Rule candidates:** none raised.
 
 ## The room
 
