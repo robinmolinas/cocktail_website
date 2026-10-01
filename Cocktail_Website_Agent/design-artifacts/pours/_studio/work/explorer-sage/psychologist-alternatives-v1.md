@@ -12,7 +12,7 @@
 - "Some of your questions are older than your friendships."
 
 ## Epigraphs
-- "Everything in this glass has a name. Bartenders used to say: rum and fruit juice." (pick)
+- "Ask what was in drinks like this, and you'd hear: rum and fruit juice." (pick, 14 words; "Everything in this glass" is *Not Too Polite*'s, "part of this glass" *In a Minute*'s)
 - "For years, ask what was in a drink like this and you'd hear: rum and fruit juice."
 
 ## y5, if "ask it out loud" collides
