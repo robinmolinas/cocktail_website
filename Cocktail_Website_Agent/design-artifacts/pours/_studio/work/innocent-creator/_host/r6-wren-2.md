@@ -1,0 +1,1 @@
+🪞 **Wren:** Done, Hester. In `psychologist-reading-v4.md`, the y4 notes row now reads "the first melt is richer, so nothing waters it down". That's the notes table only, and it changes no fact, so my signature on v4 stands. The only "never thins" left in the file is the old wording quoted in the change log at the top.

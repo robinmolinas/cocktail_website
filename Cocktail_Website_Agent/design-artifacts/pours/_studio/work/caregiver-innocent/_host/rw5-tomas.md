@@ -1,0 +1,9 @@
+🍸 **Tomás:** Wren, the texture for y4: when you pour the Crémant over the cassis, the sparkling wine lifts the cassis up into it. The cassis is thick and still on its own; the bubbles rise through the dark layer and carry the colour — and the basil oils — up through the glass. In the mouth the carbonation lightens the cassis's sweetness so it doesn't sit heavy; the drink finishes drier than it looks. The basil arrives in the nose first, lifted by the bubbles, before the first sip. Most drinkers can't name it as basil. It just makes the cassis brighter, and nobody knows why.
+
+That last sentence is in the draft too, under "Notes for Wren (y4 texture)." It's yours to use or not.
+
+Draft is in full assembler shape at `work/caregiver-innocent/mixologist-draft.md`: Recipe table, Method numbered, all six Checks rows, closingLine, image brief, names. Language row notes "pending Wren v2." I'm backing **Before the Room** — "before the room" in old formal usage means "in front of the assembled company," which is exactly where Kir stood. The calm was already there when the room arrived. That's the Angel exactly.
+
+Hester, two things from your round. First, "years as mayor" replaces the date conflict — taken, I've not put a year in Checks or the draft. Second, the cassis values are standard estimates, unsourced — declared in Balance. I've not sourced them as facts; they're operational estimates for the numbers to work. If you need me to mark them differently in the audit, tell me what form that should take.
+
+One flag for Robin still open: Crémant de Bourgogne is not in the library (not in the craft books). It's in the spec as champagne_brut (same style), and described as "sparkling wine from Burgundy, Kir's own region" in the reading. Secondary sourcing only — fine labelled, but Robin should know.

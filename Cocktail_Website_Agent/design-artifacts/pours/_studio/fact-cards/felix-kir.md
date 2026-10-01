@@ -1,7 +1,7 @@
 ---
 topic: Félix Kir and the Kir (Blanc Cassis), Dijon
-last checked: 2026-09-27
-used by: caregiver-hero (proposed round 1)
+last checked: 2026-09-30
+used by: caregiver-hero (proposed round 1); caregiver-innocent rework (chosen, 2026-09-30)
 checked by: Hester
 ---
 
@@ -31,3 +31,13 @@ checked by: Hester
 - L1: "Kir invented the Kir." False per Oxford (F2).
 - L2: "He helped 5,000 prisoners escape from the Longvic camp": widely repeated (Wikipedia, local press); not in Sycomore. Out unless an official/historian source is found.
 - L3: The naming rights (Lejay-Lagoute 1951, later granted to others, court case): not verified. Out.
+
+## Extended 2026-09-30 (caregiver-innocent rework, audit v5)
+| # | Claim (our words) | Source | Tier | Notes |
+| --- | --- | --- | --- | --- |
+| F13 | Joy: the Kir was a favourite of Canon Kir, "revered for his work in the French resistance during World War II". He served it at official functions. | Joy pdf 315 | primary | No "every". |
+| F14 | Crème de cassis is a liqueur: blackcurrants macerated in neutral alcohol, filtered, then sugared. French law requires at least 400 g sugar per litre. Three protected names: cassis de Dijon, de Bourgogne, de Saintonge. | Oxford CRÈME DE CASSIS pdf 597 | primary | Never "syrup". Sirop de cassis is a different product. |
+| F15 | The sparkling version: "In the 1970s, the bubbles made their appearance", and the Kir Royal became a hit in France, then worldwide. | Oxford VERMOUTH-CASSIS pdf 2097 | primary | After Kir's death, so a sparkling Kir is never "the one he poured". KIR pdf 1133 gives the Royale without a date. |
+| F16 | In the 1950s Kir took the drink to Paris himself (pdf 2097). | Oxford VERMOUTH-CASSIS pdf 2097 | primary | Kills "he never saw it travel". |
+
+- C2: The end of his time as mayor is contested inside the library. Oxford (and Sycomore, F11) have him in office until his death in 1968; Joy pdf 315 says "twenty-year service … from 1945 until 1965". State the start (1945) only.

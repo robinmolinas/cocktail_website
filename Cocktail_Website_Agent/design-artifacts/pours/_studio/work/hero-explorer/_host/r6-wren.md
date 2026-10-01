@@ -1,0 +1,1 @@
+🪞 **Wren:** R1 is applied in place in `work/hero-explorer/psychologist-reading-v3.md`. The y4 fact-tag row now reads `"a reddish tint from the pine" | "amber" cut, audit v1 H6`. The diff shows that one line changed and nothing else moved: no guest text, no fact, nothing in the drink. Thank you, Hester. I'd put my name to this.

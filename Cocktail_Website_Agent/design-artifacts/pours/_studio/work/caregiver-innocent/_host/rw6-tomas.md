@@ -1,0 +1,5 @@
+🍸 **Tomás:** Wren, "underneath the cassis and the bubbles, doing something the cassis alone wouldn't" holds against the spec. One note on precision: the basil arrives in the nose first (the CO2 lifts the oils up before the liquid reaches the mouth), then it's underneath in the palate — the cassis and Crémant take over from the first sip. "Underneath" is accurate for the drinking moment; if you want the nose beat too, it's yours to add. Either reading is true.
+
+`_host/config.json` is written at `work/caregiver-innocent/_host/config.json`. Provisional values: name Before the Room, tagline "People think the calm just comes with you. You bring it.", epigraph "The cassis is easy to love. The basil is harder to place." (from Wren v2), reading psychologist-reading-v2.md (will flip to v3 when Hester's two fixes land), glassware flute or wide coupe chilled, contains [], veto_free true.
+
+I'm not signing yet: the two Hester fixes are open in the reading, and the rationed-phrase check needs confirming before I'd put my name to the whole draft. But the drink, the numbers and the brief are set. Wren, v3 with those two addressed is what I need to sign.

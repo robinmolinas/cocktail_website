@@ -1,17 +1,15 @@
-# Anchors: The Angel (caregiver-innocent). Hester, draft round 3
-Story: **angelica** (ingredient), per Wren round 2. Card: `_studio/fact-cards/angelica.md`.
+# Anchors: caregiver-innocent rework (Canon Félix Kir), final after audit v5
+Table format: kind | fact | meaning | speaksTo. The first pour's angelica anchors are in `historian-anchors-angelica.md`.
 
 | kind | fact | meaning | speaksTo |
 |---|---|---|---|
-| story | When London dry gin settled its flavour (by the 1890s), makers reached "a general consensus": juniper, "of course", and "angelica, which boosts the juniper" (Oxford, GIN, pdf 894; card F1) | its role on record is to make another flavour stronger, not to be tasted for itself | others are more themselves when you're near |
-| story | Angelica sits in the classic formulas: a widely cited 1895 Beefeater recipe, still used today (pdf 245); Plymouth's by 1860 (pdf 1538) and today (pdf 1541) (F2–F3) | it's structural, in the recipes people trust, not a garnish | the calm you bring is load-bearing, not decoration |
-| lineage | Bénédictine carries angelica among its 27 plants, finished with honey (Oxford pdf 256; F6). No role for angelica in it is on record: never "its job twice". In the glass twice only with a gin whose angelica is on record (Beefeater, Plymouth) | angelica in the glass more than once | softness with a spine |
-| story (y3, adopted r6) | Oxford: Plymouth is, compared with traditional London dry, "a bit more earthy, from the rooty angelica and orris" (pdf 1541; F10): joint cause, one gin, the **root** (never the candied stem) | the plant with the heavenly name is part of why a gin tastes of the ground | the half nobody expects, no less lovely |
-| drink | Plymouth gin (recommended): angelica on record today (pdf 1541); seven botanicals incl. angelica root by 1860 (pdf 1538). Candied stem beside the glass: grown near London "for the use of its candied stems" (Grieve 1931, F8; no duration) | angelica in the glass twice and once on the plate | met on its own |
-| legend | The name: an angel in a dream, a cure for plague (Grieve 1931; L1) | one plain clause, labelled "the story goes" | the name owned as a coincidence, not a halo |
-| pairing | Matrix: angelica beside camomile, lemon balm, cream (pdf 81; F9) | Tomás's spark | calm that isn't sugar |
-
-Fences (r7): "seven" is the 1860 count; the earth is the root's, not the stem's; Plymouth is its own style, not London dry. Fences: never "hidden / unnoticed / nobody names it" (Not Only the Way's caraway); "boosts" is the source's verb, anything warmer is "I like to think"; no Bénédictine monk; no "gentle" as a fact about angelica's taste (C4).
-
-## Runner-up (dossier only): Peter Bent Brigham
-Rows B1–B8 in `historian-candidates.md` §A (Oxford pdf 353–354; Imbibe! pdf 99–100; will quoted in 126 F. 796, 1903). Set aside by Wren: he answered back; care at a distance; "handed on" is *Down the Line*'s.
+| story | Félix Kir (1876–1968), a priest, became mayor of Dijon in 1945 (Oxford KIR pdf 1133; Joy pdf 315). The end year is contested (Oxford: until his death in 1968; Joy: "until 1965"), so the reading gives no end year and no length. | a man of service before the drink carried his name | the calm is chosen and carried in |
+| story | Oxford: "highly respected French resistance veteran" (pdf 1133). Joy: "revered for his work in the French resistance during World War II" (pdf 315). Neither says what he did. (Secondary, card F8–F10: arrested in 1940 and 1943, condemned to death, shot and wounded in 1944. Dossier only.) | what he'd been through was real, and it isn't what people came to him for | the half nobody sees |
+| story | The drink is older than his name. Blanc Cassis is white wine and crème de cassis, and an earlier mayor, Henri Barabant, made it the official drink at the city's receptions (pdf 1133). The year and place of invention are contested (pdf 1133 vs pdf 2097), so they stay out. | he didn't invent it; he poured what was already there | calm brought in, not made |
+| story | Joy: "He served what came to be known as the Kir at official functions" (pdf 315). No source says *every*. | a welcome, repeated | the one who brings it in |
+| story | The name came after his election (pdf 1133). One Oxford account says the press renamed it "as a tribute to him" in the 1950s, after he drank nothing else in Paris (pdf 2097). The mechanism is contested (card C1), so the reading says only "came to be known by his name". | the name came from who he was, not from anything he claimed | known, but only by half |
+| story | His death in 1968 "came at the very beginning" of two decades of international vogue. Beard called it the "favorite aperitif" in 1970 (pdf 1133). Never "he never saw it travel": he took it to Paris himself (pdf 2097). | he died just as the world was taking it up | no credit asked |
+| lineage | Crème de cassis is a blackcurrant liqueur: the fruit is macerated in neutral alcohol, filtered and sugared, with at least 400 g of sugar per litre under French law. *Cassis de Dijon* is a protected name (Oxford CRÈME DE CASSIS pdf 597). Never "syrup". | the dark heart of the glass belongs to Burgundy | (none) |
+| drink | Kir Royale: crémant de Bourgogne or champagne in place of the still wine (pdf 1133). "In the 1970s, the bubbles made their appearance" (pdf 2097). So the sparkling glass is not the one he poured. | our cocktail starts from his glass and changes the wine | (none) |
+| drink | Flavor Matrix, BERRY (pdf 52): basil is a "Surprise Pairing" for berries, and currants appear among the berries' substitutes. The book doesn't pair basil with blackcurrant by name: that step is Tomás's. | the spark, claimed at its true scope | the part nobody expects arrives first |
+| our reading | The bubbles lift the basil's scent before the first sip (Tomás's own knowledge, unsourced). | the basil is the first thing you meet | "meet the rest of you" (y5) |

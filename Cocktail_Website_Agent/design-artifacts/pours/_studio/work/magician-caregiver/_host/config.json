@@ -1,0 +1,26 @@
+{
+ "pairing": "magician-caregiver",
+ "personality": "The Fairy Godparent",
+ "archetypes": "Magician × Caregiver",
+ "date": "2026-09-30",
+ "batch": "magician",
+ "name": "Their Night",
+ "tagline": "It was never your night. You made sure it was theirs.",
+ "epigraph": "Reportedly, a 1911 surprise party got its own drink. The name probably went elsewhere.",
+ "glassware": "cocktail glass, chilled",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v4.md",
+ "card": "pink-lady-hazel-dawn.md",
+ "language_row": "Wren's Resonance (v4) and 4-gram check: clean against every pour, no \"we\", no pronoun for the guest. Sibling and cross-family echoes moved off in r3–r7: \"wait to be asked\", \"two kinds of bitters\", \"we don't know who\", \"but the next time\", \"say out loud is\", \"you get to see\", \"opened in New York\", \"stay long enough\", \"watch their face\", the Geisha's \"expected\"; epigraph off *Worth the Trip*'s \"The story goes\"; closing line off y5's last sentence and off *Rosetta*'s cloud. The two she/her lint warnings are Hazel Dawn, accepted by Wren (r5). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/pink-lady-hazel-dawn.md` (F1–F23, C1–C9): *Oxford Companion* PINK LADY COCKTAIL pdf 1521–1522 (Wondrich; Grimes, personal correspondence, 22 Feb 2009), ANISE SPIRITS pdf 115, LOUCHE pdf 1195, MISTRÀ pdf 1316; 1935 Peychaud's booklet pp. 27, 32 (Pink Shimmy; primary scan); Real Decreto 164/2014, art. 6 (boe.es); François Monti, *Jaibol*, 2 Jan 2021 (secondary); Seánan Forbes, *Tales of the Cocktail*, 9 Feb 2016 (trade press); Anís del Mono Dulce retailer label (35%, 308 kcal/100 ml; sugar derived, F23). Craft: *Cocktail Codex* p. 17, p. 77; *Flavor Matrix* pdf 116, 298 (consulted, set aside). Audits: `work/magician-caregiver/historian-audit-v1.md` to `-v4.md`. Room notes: `work/magician-caregiver/`.",
+ "names_note": "**Their Night**, the room's pick (all three): the party was in her honour (on the record), and it names the gift rather than the story. Also considered: *Unasked*, *Under Another Name* (the other sourced one, Oxford F7), *Nobody Asked*, *The Door Opens*; *Before the Name* struck by Hester (the 1911 drink was the first to carry it).",
+ "open_items": [
+  "**Dulce sugar is derived, not printed:** 29 g/100 ml from a retailer-listed Anís del Mono Dulce label (35%, 308 kcal); our arithmetic (F23). The law sets dulce at >200 g/l with no ceiling.",
+  "**Seco edge (Tomás):** a seco at the legal maximum of 50 g/l sugar pushes the drink OUT on sugar (6.4–6.6 g); numbers are proved for a genuinely dry seco. Secos don't have to print their sugar.",
+  "**No Flavor Matrix spark, on purpose** (Wren, Tomás): the interest is the lost 1911 drink; the single change (three quarters of the sweet anise swapped for a dry one) is hidden, like this person's help. Fino (v0, v2) was tried and withdrawn: it couldn't carry the strength.",
+  "**No bottle named** (rule 5): Legendre Ojen, the only bottle with history, is sold almost only in New Orleans.",
+  "**The story is an account:** the party reaches us through four hands (Dawn → a correspondent of Grimes → Grimes → Wondrich); nobody who arranged it or made the drink is on record. The 1935 Pink Shimmy (stirred, Peychaud's only, name claimed by Solari's) is in the card, deliberately not in the reading.",
+  "**Host note:** the Resonance section inside `psychologist-reading-v4.md` still ends \"Two changes, both ours, both said\" (written for drink v0); the drink and y4 have one change. Dossier only; left in Wren's words for Robin to see."
+ ]
+}

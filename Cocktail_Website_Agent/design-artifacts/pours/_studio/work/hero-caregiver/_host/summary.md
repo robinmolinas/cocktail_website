@@ -1,0 +1,19 @@
+- **The persona:** the Saviour takes on the cost in someone else's place, calmly and on purpose, and can't bear to owe anyone for even a day (Wren, r1).
+- **The story:** Barney Gallant, who pleaded guilty after a 1919 raid on the inn he ran, "providing the waiters were set free" (*Joy of Mixology* pdf 59). It was Wren's replacement for the plan's Dabney lead, and the room confirmed it in r1–r3. Runner-up: Oscar Haimo's free classes for veterans (the plan's backup, never needed).
+- **Versions that failed:**
+  - The plan's rye-and-soda highball. By the 1910s rye took ginger ale (Oxford pdf 1006), and the drink tied only to the date.
+  - Rye and ginger ale. Gingerol counts as heat, so it would have cost the family a veto-free row.
+  - Tomás's "the bars' answer to paying each other back". Hester: pdf 490's problem is the Cocktail's strength, and the ledger is our meaning, not a fact.
+  - 50/50 with 90 ml of soda: OUT at 17.7%.
+  - Pdf 1221's "American Whisky, Italian Vermouth and Angostura", struck as the 1945 Club tale.
+  - "The old books", too wide; it became "the Manhattan's early recipes".
+- **The drink:** rye and sweet vermouth, 45 and 45, the 1880s–90s equal split (so "half the weight" is literal), with two dashes of Angostura and 120 ml of soda, long over ice, with lemon peel squeezed over and dropped in. Balanced at 14.5% ABV. Veto-free. No Matrix spark, and the room says why.
+- **"This is me":** "Someone does you a small kindness… and it's paid back within the week, with a little extra."
+- **Names:** *Next One's Mine* (pick, all three), with *I Owe You* as the alternative. The names crossed in r5 (each moved to the other's) and settled in r6 on Wren's reasoning: the name recognises the guest, and the closing line (*Let someone get this one. Don't get the next.*) carries the turn.
+- **Edges:**
+  - No spark (Robin's call).
+  - Library gap: Walker's *The Night Club Era*, which would settle who owned the inn, the time served and Club Gallant's year.
+  - The waiters' release is inferred and signposted.
+  - The dossier's Resonance note quotes a pre-v3 line.
+- **Rule candidates:** none raised.
+- **Process note:** 7 rounds; round 7 ran in steps (Hester's audit, then fix and sign, then Hester's confirmation). One lint-only fix in r7 (whoYouAre) kept the sign-offs.

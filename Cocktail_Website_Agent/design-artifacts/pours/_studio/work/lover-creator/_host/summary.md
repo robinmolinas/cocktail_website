@@ -1,0 +1,14 @@
+- **Flag first:** the balance is **OUT on the sour ranges** (7.3% ABV, 1.42% acid, 10.92 g sugar), by the room's choice. Tomás proved, and Hester re-ran, that only changing one of Murphy's handwritten measures could move it. All three would rather ship his hand than a drink that's our idea of him. Robin's call.
+- **The persona (Wren, round 1):** people have made beautiful things out of this person, and very few asked what this person was making. They're loved through other people's versions of them, and they fear never being known as the one whose hands are in the work.
+- **Story:** Gerald Murphy, the plan's lead, accepted in round 1. The find came in round 2: Hester and Tomás separately found the photograph of his **handwritten card** "Juice of A Few Flowers" (*Gastronomica*, Beinecke papers), measured to the half-ounce. The phrase everyone quotes as a host's joke turns out to be a real recipe. Wren ruled in round 3: four anchors (Dick Diver "partly", the phrase, the card, the paintings). Runner-up: the Bailey on its own (the 1939 letter, "invented by me"), which has no measures and no sugar. Plan backup (Margie Samuels) not needed.
+- **What failed, and why:**
+  - Plan row: it mixed up the Bailey with the flowers phrase (Wren caught it in round 1, and Hester struck it from the plan).
+  - Card alone "exactly as he wrote it": the rim's sugar never reaches the drink (Regan), and his card reads at a sugar-to-acid ratio of 2.7, so a syrup is forced either way.
+  - The syrup swapped three times between Wren and Tomás, rounds 3 to 6: mint in or out, and then mint or plain rim-sugar. Wren ruled on the files' state in round 7: mint syrup, because the forced change should say something.
+  - Reading v1's epigraph ("The name sounds like a joke…") read cold as *In Your Own Hand*. "Found" (the beach) and "soon" (Picasso et al.) weren't on the page.
+  - Closing line: "let them ask about it" was a third ask in a row, and "say you made it" was the Craftsman's move. It ended as "put your name on it".
+- **"This is me":** *"People have made beautiful things out of you. Very few have asked what you're making."* (Wren's line under test from round 3, carried in whoYouAre)
+- **Names:** *In Your Own Hand* (all three). Also: *Who's Asking*, *Written Down*, *A Few Flowers*, *Two Glasses*.
+- **The drink:** Murphy's card to the half-ounce (orange, grapefruit, lime, lemon, gin), the sugar rim kept on the outside, and ¾ oz mint syrup from his Bailey (two of his recipes, joined by us, named in y4). It serves two small glasses, veto-free, with a grapefruit and medicines note on the recipe.
+- **Rounds:** 7 of 7. Round 7 ran in four steps (Wren's ruling → Hester's audit v3 → Tomás's D-1/D-2 fixes → Wren again). All three sign on reading v4, spec v3 and the draft as fixed.
+- **Rule candidates:** none raised.

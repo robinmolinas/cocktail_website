@@ -1,0 +1,29 @@
+{
+ "pairing": "explorer-jester",
+ "personality": "The Mad Inventor",
+ "archetypes": "Explorer × Jester",
+ "date": "2026-10-01",
+ "batch": "explorer",
+ "name": "Why Not?",
+ "tagline": "There's an easier way. It just isn't as much fun.",
+ "epigraph": "Taverns heated drinks like this with a red-hot iron. This one burns its sugar instead.",
+ "glassware": "a wide china teacup (about 200 ml), warmed with hot water first",
+ "contains": [
+  "gluten"
+ ],
+ "veto_free": false,
+ "reading": "psychologist-reading-v4.md",
+ "card": "dave-arnold-red-hot-poker.md",
+ "language_row": "Wren's Resonance on reading v4: ready. As the guest, \"you could just buy one\" is the sentence, and the gift line lets them feel valued for the thing they're teased about. Barnum watch: \"it lit you up\" is held by the scene and the cage line. Sibling swap clean: *For Good* (annoyance, a fix that disappears), *Nothing to It* (looks easy; this one looks hard on purpose), *In a Minute*. Collisions resolved: \"sensible\" stays *The Other Berry*'s (the cage here is \"you could just buy one\"); \"You made it.\" (*For Good*) → \"you both built it\"; five stock-phrase 4-grams swapped. whoYouAre cut from 200 to 164 words. Pronoun warnings accepted by Wren: \"he\" in yours 2–4 is Arnold, never the guest. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/dave-arnold-red-hot-poker.md` (Dave Arnold, *Liquid Intelligence* pp. 45, 48, 177–191, his words; Robert Simonson, *A Proper Drink* pp. 223–226; *Oxford Companion* FLIP pdf 812–813, LOGGERHEAD pdf 1189; David Wondrich, *Imbibe!* pdf 126). Drink: *Liquid Intelligence* p. 184 (the faux-poker: sugar burned in a pan) and p. 187 (Red-Hot Ale); *Flavor Matrix* caramel pdf 72 (molasses as caramel's substitute; toasted, roasted flavours as it darkens). Set aside: William \"the Only William\" Schmidt (*Imbibe!* pdf 56–57; the plan's lead, overturned in round 1). Room notes: `work/explorer-jester/`.",
+ "names_note": "**Why Not?**, the room's pick (all three): the person's whole reason, and the drink is the joke in it (why not just pour the syrup?); the story's \"why not?\" is Simonson's portrait of Arnold, attributed, so the title puts no words in his mouth. Runner-up: **Something Crucial** (Arnold's phrase for what the pot lost, *LI* p. 177; it may spend y1's line twice). Also considered: *Pan Style* (Arnold's own label), *The Long Way Round* (leans on the tagline).",
+ "open_items": [
+  "**The plan's lead was overturned (round 1):** Wren read *Imbibe!* pdf 56–57 whole and found Schmidt's motive on the page is impressing the guest (\"likes to impress you with the idea that he is taking a great deal of trouble on your account\"), which is showmanship, not tinkering. Schmidt is released to other families (note in `plans/explorer.md`).",
+  "**Arnold is also *Overnight*'s person** (creator-magician, the milk wash). Owned here, not in the guest's text: *Overnight* is a method that looked like a mistake and came out better; this one is the long way chosen on purpose, with the easy way sitting right there. The reading never says \"mistake\", \"didn't mean\" or \"surprise\".",
+  "**No poker at home, no flame (Tomás, Hester):** Arnold won't sell or describe his electric pokers, and his home soldering copper can make drinks \"taste like you are sucking on a penny\". His faux-poker flambés the liquor after burning the sugar; ours drops the flame (fire and an audience are *The Entertainer*'s ground), so the drink is ours \"after his\", never his recipe. The rum goes in off the heat.",
+  "**Contains gluten (abbey ale):** the iron toasted the grain (Oxford pdf 813), so the ale is the base the story worked on; cider is period-true too (Oxford pdf 812) and was swept in range, but Tomás ruled ale and Wren conceded. This pour leaves the veto-free floor; its five closed siblings are veto-free.",
+  "**Kept from *Nothing to It*:** that pour takes white sugar off at amber for a cold Old-Fashioned and its closing line is about when to stop; here the sugar is burned dark in a pan as part of a hot drink, and no word says \"amber\", \"close\" or anything about the edge of burning. Muscovado (Morse's 1792 flip) was declined by Tomás: it starts dark and hides the one judgement the method rests on.",
+  "**Fences on the story (Hester):** the rotovap Arnold *bought* is out (it argues against \"you could just buy one\"); \"why not?\" and the railroad penny are Simonson's portrait, attributed; the bar is dated (opened with David Chang in 2012) and told in the past tense; he didn't invent the poker (the colonial innkeepers' iron, brought back); the flip's sea origin is left out; \"Not many bars followed his example\" (*Proper* p. 226) is why the reading never says people rushed to copy him.",
+  "**Bottle ranges (Tomás's sweep):** ale at 6–8% and rum at 40–43% (a 9% ale with 46% rum goes OUT at 14.0%); 9 g of sugar if the ale tastes sweet. Ale sugar and acid set at nil as in Arnold's Red-Hot Ale stats; at plain-beer table values the acid edges over, and the lemon is what goes."
+ ]
+}

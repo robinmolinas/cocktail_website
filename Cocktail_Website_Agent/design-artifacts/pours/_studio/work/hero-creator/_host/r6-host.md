@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 6 of 7. Hester's audit v1 was on reading v1, and v2 crossed with it. To stop audit and fixes crossing again, this round runs in steps. Step 1: Hester audits v2. Then Wren and Tomás fix from her list, and she confirms and signs in round 7.

@@ -1,0 +1,26 @@
+{
+ "pairing": "explorer-creator",
+ "personality": "The Innovator",
+ "archetypes": "Explorer × Creator",
+ "date": "2026-09-30",
+ "batch": "explorer",
+ "name": "For Good",
+ "tagline": "Nobody remembers the problem. That's how you know you fixed it.",
+ "epigraph": "One idea behind this glass came from a convenience store.",
+ "glassware": "a large stemmed goblet (about 350 ml), chilled, no salt rim",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "mariano-martinez-frozen-margarita.md",
+ "language_row": "Wren's Resonance on reading v3: ready. Line that lands: \"You'll happily spend a weekend on something so you never have to spend ten minutes on it again.\" Horoscope check: 13 of 14 sentences specific, 1 borderline held by its context. Swap test clean against *Left Standing*, *Off-Label*, *Serviceable*, *Not Only the Way*, *Not Too Polite*, *Down the Line*. Sibling echoes moved off: \"that's just how it is\" (*Serviceable*) → \"it's always been like that\"; \"a renowned classic\" (*Not Only the Way*); \"half a teaspoon of\" (*Beside the First*). His blender line is paraphrased with attribution (one-voice rule). Pronoun warnings accepted by Wren: \"he\", \"his\", \"him\" are Mariano Martinez, never the guest. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/mariano-martinez-frozen-margarita.md` (*Oxford Companion* MARGARITA pdf 1237, FROZEN DAIQUIRI pdf 854, COINTREAU pdf 551; Smithsonian NMAH object record 2005.0226.01; AP via History News Network, 10 Oct 2005; Michele Herrmann, *VinePair*, 28 March 2021, for his own words). Drink: Dave Arnold, *Liquid Intelligence* pp. 141–142 (the freezer batch, \"a 7-Eleven-style frozen treat\"), p. 271 (vanilla with orange); *Flavor Matrix* pdf 256 (vanilla and citrus), pdf 40 (avocado, consulted and set aside); *Cocktail Codex* p. 156; 21 CFR 169.175 (vanilla extract). Room notes: `work/explorer-creator/`.",
+ "names_note": "**For Good**, the room's pick (Hester and Tomás r4; Wren conceded r5): fixed for good, and done for other people's good (his \"I was just trying to make my customers happy\"); beside the tagline it completes to \"fixed for good\". **Every Time** was Wren's r4 pick; she moved because it describes the batch, not the person, and y4 already says it. Also considered: *Not Even Cold*, *Borrowed* (Hester), *Fixed*, *Ten Minutes* (Tomás), *Once and for All*, *Properly Cold* (Wren). Rejected: *Never Again*, anything with \"slush\", \"frozen\" or \"machine\", *Soft Serve*, *7-Eleven*.",
+ "open_items": [
+  "**No year (Hester C1):** Oxford contradicts itself (1971 in MARGARITA, 1973 in FROZEN DAIQUIRI), so the reading says no year.",
+  "**The Slurpee's own origin (C2):** the Smithsonian record says the Slurpee machine was invented in Dallas in 1960; Hester couldn't confirm it, so it stays out. The Slurpee was the idea; the machine he adapted was a soft-serve ice-cream machine (C3). His own \"we developed\" (C4): never a lone inventor.",
+  "**The 7-Eleven coincidence:** Arnold's \"7-Eleven-style frozen treat\" (*LI* p. 141) and Martinez's Slurpee at a 7-Eleven (Smithsonian, AP) are owned in one clause; Arnold never mentions Martinez.",
+  "**Strength (Tomás):** each drink holds about two standard drinks, the same size as Martinez's own printed serve; nothing in the copy calls it light. It's a batch for four in two bags; blenders do single drinks badly (*LI* p. 141).",
+  "**balance.py style:** run as freeform, because the blended style assumes ice melting into the drink and a freezer batch has none; measured against Arnold's own freezer daiquiri (14.2% / 8.4 g / 0.93%). Substitute floor: a clear orange triple sec at 40% (a 35 g/100 ml triple sec breaks his 9 g sugar cap).",
+  "**Kept out on purpose:** Oxford's sniff at frozen drinks; the grain-alcohol story; any comparison with his recipe (\"never 'his recipe'\"); the patent (never patented, per the museum; dossier only); Tommy's (*Half a Rim*); salt (*Making the Calls*); \"slush\" and \"overnight\". The ice-cream-counter link is the bartender's own association."
+ ]
+}

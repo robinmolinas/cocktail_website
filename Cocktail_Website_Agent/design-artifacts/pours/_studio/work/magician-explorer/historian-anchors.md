@@ -1,0 +1,15 @@
+# Anchors: magician-explorer (The Alchemist), story: Aeneas Coffey and the column still
+
+Draft v1, round 2, Hester. Card: `_studio/fact-cards/aeneas-coffey.md`.
+
+| kind | fact | meaning | speaksTo |
+|---|---|---|---|
+| story | Coffey's first stills were wood and iron, one column; "soon replaced" by two copper columns with perforated copper plates (Oxford, COFFEY, AENEAS, pdf 541). Undated; one prototype design on the page, no count. | The trying happens where it can still be changed; the finished version is the one in copper (our reading, signposted). | the hundred reversible tries; the gift of the better version |
+| story | He had spent 24 years in the excise, from the lowest grade (1800) to inspector-general of excise in Ireland, and left it in 1824, at forty-four, to buy a Dublin distillery, Dodder Bank (pdf 541; pdf 752 "until 1824"). Before any patent (C1: 1828/1830/1831). | The irreversible step came first, before the result was proven. That he couldn't go back is our reading. | the fear of the last step; the position |
+| story | Oxford's own "better": simpler, sturdier, easier to make, cheaper to heat, a stronger and purer spirit (pdf 541); more effective than Stein's (pdf 2169); easier to install than Cellier-Blumenthal's (pdf 1901). He "greatly improved" Stein's design (pdf 541). | Better in the still's terms, not "better whisky". Made from a design others had started. | the gift: an ordinary thing, returned better |
+| story | The leading Irish distillers "initially scorned" it; in 1878 the four big Dublin firms printed that these stills yield whiskey no more than wine or beer (pdf 541, *Truths about Whiskey*). | The doubters on record; date the quote 1878. | the hidden hope (kept quiet until proven) |
+| story | Within ten years of the patent, thirteen Irish distilleries had it; Scotland's first was Grange in 1834, eleven more by 1850 (pdf 541). It made continuous distillation commercially viable (COFFEY STILL, pdf 543). | Once it was out, it could not be taken from him: the result held. | the position: a result nobody can take from you |
+| counterweight (dossier) | Its spirit was "purer (and thus blander)" (pdf 2169); Ireland resisted "successfully" (1887: 5 of 28, export only, pdf 2153). | Never "everyone came round" or "the doubters were wrong"; Scotland, not Ireland, took it up. | guard |
+| lineage | Single grain Scotch whisky (style) is the column still's spirit in Scotland (pdf 2169: grain whisky made in Coffey's still). | The base is the story. | the drink |
+
+Off the page, never in the reading: notes, secrecy, a count of attempts, a patent year, the Dore firm, "invented continuous distillation", "basis of the modern column still" (Cellier-Blumenthal's line), any motive for leaving.

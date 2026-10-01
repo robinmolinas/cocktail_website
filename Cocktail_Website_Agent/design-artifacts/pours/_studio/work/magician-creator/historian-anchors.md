@@ -1,0 +1,14 @@
+# Anchors: magician-creator (round 2, Klemm)
+
+Card: `_studio/fact-cards/eben-klemm-campbell-pico.md` (F1-F18). Story test mapping: T1 ask = Campbell (F4); T2 delight = F7; T3 near-miss = F9-F10; T4 wish as price of the yes = Pico (F12, F15); T5 the asker glad = only "the owners agreed" (F12). No reaction of the owners or guests is on record (F14 ruled out).
+
+| kind | fact | meaning | speaksTo |
+|---|---|---|---|
+| story | At the Campbell Apartment (1999) the management picked ten drinks from an old hotel bar book because they "sounded cool", and gave the bartenders no recipes (*Proper* p. 135, Klemm). | The ask arrived as names only. Hearing what was wanted under the words is the whole job. | summoned; hears the wish under the words |
+| story | The opening bartenders ("we") taught themselves the drinks from the ingredients alone; Klemm: "I thought, This is kind of cool" (*Proper* p. 135). | The overflow as delight, not duty. Plural: he wasn't alone. | the overflow is joy |
+| near-miss | One drink called for maraschino liqueur; Klemm learned it was a real liqueur, not the "maraschino juice" bartenders were using, and bought the one bottle Astor Wines had (*Proper* p. 135). The liqueur is clear and distilled from marasca cherries; the cocktail cherry sits in sugar syrup (Oxford pdf 1227, 1229). | The word, taken at its most literal, gives a drink nobody meant. He went and found the real one. "Syrup from the cherry jar" is our gloss. | fear: a wish granted exactly as worded, with a result nobody wanted |
+| stand-in | Nobody knew where to buy orange bitters, so "they" (unnamed) mixed Cointreau and Angostura together as a stand-in (*Proper* p. 135). | Something out of nothing. Who "they" were, and when, isn't said. A lead for Tomás, not a spec. | makes something out of nothing |
+| position | At Pico (opened early 2001; the drinks are undated) Klemm offered a deal: he'd improve the lagging bar if he could create original cocktails; the owners agreed (*Proper* p. 135, Simonson's paraphrase). | Offer the help, and say in the same offer what you'd like in return. The offer was his (nobody asked him first; he didn't "say yes" to anyone), and the page doesn't say the bar improved. | hidden wish: freedom, one thing made their own way |
+| his words | Klemm: "They were all original. I wanted them to relate to the kitchen." "I got a lot of press." (*Proper* p. 136) | The wish in his own voice, and it still served the house. | the wish, said out loud once |
+| lineage | The Tom Collins is "one of the best known and enduring mixed drinks of all time" (Oxford TOM COLLINS pdf 2041). | The frame we built on is a renowned classic. | let the drink sound worth having |
+| lineage | For the Collins d'Electra, gin and vodka, he created a fresh rosemary syrup (*Proper* p. 135). No other part of the recipe is given. | The drink made with the freedom he asked for. Ours is a riff on it, never "his recipe". | what they give |

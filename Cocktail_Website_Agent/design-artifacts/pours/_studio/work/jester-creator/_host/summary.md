@@ -1,0 +1,16 @@
+- **The persona:** the Wacky One doesn't do a joke, they adopt one and keep it for years, knowing exactly how normal goes and choosing not to (Wren, round 1).
+- **The story:** Harry McElhone and the International Bar Flies, as his bar's own 1927 book tells it. A gloomy magazine piece, a nightclub man's joke advert, and Harry calls a real meeting. He's listed as "Little Blue Bottlefly", five thousand members follow, then the war, the return to the bar, and a later booklet naming him "Exalted Blue Bottle Fly". Plan lead accepted in round 1. Hester's 1927 primary (round 2) corrected Oxford's "co-founded with McIntyre". Runner-up: Leland's "mixologist" (plan backup), not used.
+- **The drink:** Cameron's Kick (Scotch and Irish whiskey, half each, lemon, orgeat), printed in the same 1927 book, with three coffee beans floated as "the fly" (sambuca's custom, borrowed for the Bar Flies, whose emblem was a housefly on a sugar lump). Coupe. **Contains nuts.** 15.7% / 7.27 g / 0.88%.
+- **What failed and why:**
+  - Harry's own sixths read OUT on acid, so the lemon and orgeat were raised and owned in y4.
+  - Several claims went because the page doesn't carry them: "Both whiskies are barley spirits" (a blend's grain can be corn), "his Paris bar" in 1922 (he was "Harry of Ciro's"), "badge", "that Christmas", "he never stopped", Pittsburgh as a trap, and "an old Italian way".
+  - Tomás's unsourced float arithmetic was replaced by a density source.
+  - "The smell of roasted coffee to every sip" was more than three beans can give.
+- **"This is me":** "Normal isn't a mystery to you: you could do it tomorrow, and nobody would stop you."
+- **Names:** *For Kicks* (all three, round 6). *Not a Phase* was struck by Wren for guest dignity (a line many people heard when they came out). The two crossed in round 5, each conceding to the other. Also considered: *Fly in It*, *Little Blue Bottlefly*, *Trap One*.
+- **Edges:**
+  - Not veto-free (nuts), accepted in round 3.
+  - The float is our inference, and the epigraph rests on it.
+  - History is 49–50% of yours (37% of the whole), inside the rule.
+  - Lint: pronoun and "orgeat" warnings, accepted by their owners.
+- **Rule candidates:** none raised.

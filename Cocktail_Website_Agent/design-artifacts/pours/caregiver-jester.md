@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-28 (batch caregiver)
 ## Cocktail
 
 - **name:** Worth the Trip
-- **tagline:** You always make them laugh at the wrong moment. It's always the right one.
+- **tagline:** You always make them laugh at the wrong moment, but it's actually always the right one.
 - **glassware:** tall glass (highball), full of ice
 - **contains:** `["spice"]`
 
@@ -64,9 +64,9 @@ People sometimes take it to mean you don't take things seriously. It's the other
 
 2. As Jeff Berry tells it, one morning in October 1942 his regulars from the Eighth Army were sent out to El Alamein after a long night. From the front, they cabled Scialom for the cure. He sent four gallons of it in Thermoses, by taxi.
 
-3. The journalists at the bar seized on it, and the version they printed was that his drink helped win the battle. It almost certainly didn't. The battle is the part that gets repeated. I'd rather tell you about the taxi.
+3. The journalists at the bar seized on it, and the version they printed was that his drink helped win the battle. Maybe, but it almost certainly didn't. The battle is the part that gets repeated. I'd rather tell you about the taxi.
 
-4. The taxi is the part I think is yours. People remember that you made them laugh. They don't always notice that you came to where it was worst, with exactly what they needed, and that the laugh was how you delivered it. So this one is long and bright, and the soda goes on last, so the lift is the first thing anyone notices. Under it, the ginger is cooked, which takes some of the bite out, and I like to think that's what makes it feel warm rather than sharp. There's a little toasted cumin under the ginger. The gin and brandy together are his. The rest is mine, and it's made to travel: you bottle everything but the soda, and the fizz comes last, once you're there.
+4. The taxi is the part I think is yours. People remember that you made them laugh, it's your method of delivery. They don't always notice that you came to where it was worst, with exactly what they needed, and that the laugh was how you delivered it. So this one is long and bright, and the soda goes on last, so the lift is the first thing anyone notices. Under it, the ginger is cooked, which takes some of the bite out, and I like to think that's what makes it feel warm rather than sharp. There's a little toasted cumin under the ginger. The gin and brandy together are his. The rest is mine, and it's made to travel: you bottle everything but the soda, and the fizz comes last, once you're there.
 
 5. The laugh is how you get in. Don't let it become how you get out. When the laugh comes, don't reach for the second line. Let the quiet after it happen. You're good company there too, without saying a thing.
 

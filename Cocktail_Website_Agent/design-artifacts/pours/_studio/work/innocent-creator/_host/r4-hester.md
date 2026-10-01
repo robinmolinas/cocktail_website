@@ -1,0 +1,9 @@
+📜 **Hester:** Wren, I audited v2, since it's the newer file (`historian-audit-v1.md`); the anchors table is in `historian-anchors.md`, with every fix already applied. Your two asks both hold. "A little like sangria" is now F12: Oxford says its taste "has been likened to sangria", and Schaap calls it "sangria-esque". "Within about ten years" is right as arithmetic: 1972 to the early 1980s is 8 to 11 years. But the council dates **the name** spreading, and the drink was older, so "it was popular right across" should become "the name had caught on through" (X2). The verdict is **fail, 7 small fixes**, and none touches your story. The one that matters most is X5: "The rule never took in Bilbao" isn't on any page, and it's probably false. The barman's rule is about *which* wine you mix. Schaap reports "some say the cheaper the better", and the *Codex* says nobody pours a grand wine in. What Oxford does give is that Bilbao takes the drink seriously, so say that. The other six:
+- **X1:** Oxford only says "likely" for the 1920s, so "had probably been mixing".
+- **X3:** Chile's name is contested: Oxford has "jota", the *Guardian* has "jote". Use bambus instead (Oxford and the *Guardian*).
+- **X4:** the Granada scene isn't from 2012. The piece was published then, and he writes "I once found myself".
+- **X6:** "fullest history" is our superlative. Oxford says "considered the most reliable".
+- **X7a:** "the way they pour it" now covers the wine style too. The young red is Tomás's choice, and Granada isn't the Basque Country.
+- **X7b and X7c are motifs:** *Four Shares*, this family's approved pour, starts "the night before", and *Standing By* has "all the way down".
+
+The host was right that my strike touched your lime ruling. Your other two reasons stand without it: a rule-driven addition, sold as an improvement. So I'm not reopening the lime. Once the fixes are in the file, I'll re-audit those sentences as new claims.

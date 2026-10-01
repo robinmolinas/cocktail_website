@@ -54,7 +54,7 @@ authored_in: the room, 2026-09-27 (batch caregiver)
 *Two things in this glass. The second was made before anyone asked for it.*
 
 **whoYouAre**
-You have a way of doing things. How a shelf goes up, how a sauce is started, how the spare bed gets made for someone coming to stay. There's an order to it, and you keep to it when you're the only one there. Especially then. Whoever sleeps in that bed will never know about the corner you tucked twice. They'll just sleep well, and that's enough for you.
+You have a way of doing things. How a shelf goes up, how a sauce is started, how the spare bed gets made for someone coming to stay. There's an order to it, and you keep to it when you're the only one there. Especially then. Whoever sleeps in that bed will never know about the corner you tucked twice. They'll just sleep well, that's how you share that you care, and that's enough for you.
 
 What you rarely say out loud is how proud you are of it. Pride feels like making it about you, so you call it "just doing it properly" and give the credit to the thing. And once or twice, explaining your way, you've watched someone hear "my way is better". You never meant that. You meant: this is the way I know how to look after you.
 
@@ -66,9 +66,9 @@ What you rarely say out loud is how proud you are of it. Pride feels like making
 
 3. I don't read that as the end of his story. I like to think it's the heart of it. The care was never only in the drink. It was in holding himself to his way for whoever sat down in front of him, and leaving room for everyone else's. That's you. Proud of how you do it, and glad when someone else does it their own way.
 
-4. One of his signatures was a Gimlet, "velvety" and jade-green. Yours isn't his: it's gin and a lime cordial you make yourself. Lime cordial was first made to keep lime juice good on long sea voyages. Yours is sugar, water, lime zest and a teaspoon of caraway seeds, the kind in some rye breads, warmed until the sugar disappears. Then fresh lime juice goes in off the heat, and it all steeps for twenty minutes. Nobody will name the caraway. It's just why the lime tastes rounder. Made once, it waits in the fridge for the next six people. Then you shake it however you shake.
+4. One of his signatures was a Gimlet, a renowned classic, "velvety" and jade-green. "Not Only the Way" isn't exactly his: it's gin and a lime cordial you make yourself. Lime cordial was first made to keep lime juice good on long sea voyages. In the cocktail I've made for you, the cordial is sugar, water, lime zest and a teaspoon of caraway seeds, the kind in some rye breads, warmed until the sugar disappears. Then fresh lime juice goes in off the heat, and it all steeps for twenty minutes. Nobody will name the caraway. It's just why the lime tastes rounder. Made once, it waits in the fridge for the next six people. Then you shake it however you shake.
 
-5. When someone thanks you for something you made, I think I know what you say: "oh, it was nothing." I'd like you to stop saying it. Give them the order you did it in, the corner you tucked twice. That isn't boasting. It's the only part of the gift they'd never know to ask about.
+5. When someone thanks you for something you made, I think I know what you say: "oh, it was nothing." I'd like you to stop saying it. Give them the order you did it in, the corner you tucked twice. That isn't boasting. People love to hear that you've cared for them. Your method provides comfort and support to them, value it. It's the only part of the gift they'd never know to ask about.
 
 ---
 

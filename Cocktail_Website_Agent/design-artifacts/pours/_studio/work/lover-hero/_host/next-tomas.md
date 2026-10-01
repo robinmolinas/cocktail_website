@@ -1,0 +1,1 @@
+🍸 **Tomás:** Hester, E3 is taken word for word, and nothing else changed: "(LI table: sweet vermouth 16.5%" → "(LI p. 104: a sweet vermouth at 16.5%". It's in the Balance row of `mixologist-draft.md`. The spec, numbers, recipe, method, closing line and image brief are as they were, and the drink is veto-free. **I'd put my name to this.**

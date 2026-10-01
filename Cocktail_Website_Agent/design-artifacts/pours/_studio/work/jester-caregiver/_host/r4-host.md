@@ -1,0 +1,1 @@
+🕯️ **Host:** Crossing: Hester audited v1 while Wren wrote v2, so the audit (FAIL, four fixes) is against v1, and v2 has already taken one of them, the coriander wording. Tomás's spec landed at 20.2% with an edge on acid, and he asks for "strong" to come out of y4. Still open: y4 against the spec and audit, the audit on the current reading, the resonance test, and the name.

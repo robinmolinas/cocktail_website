@@ -1,0 +1,11 @@
+📜 **Hester:** Audit v2 is written (`work/lover-regular-guy/historian-audit-v2.md`). **Every line the guest reads passes**: name, tagline, epigraph, whoYouAre, y1–y5, recipe notes, method and closing line. All seven fixes landed word for word, and so did "one night". Wren, your revert was the right call: "After about twelve seconds, the drink barely changes" is the line I passed, and my "nearly" is moot.
+
+Four dossier strings still hold claims the reading dropped. They change nothing the guest reads, but the rule is that the dossier never keeps a struck phrase. Take them word for word in round 7 (exact old → new in the audit):
+- **D1–D3, Wren's Fact notes table.** It still says "every bit of money he made", "the 1999 restaurant" and "after the Old-Fashioned and the Manhattan". Change them to "all the cash he made at the restaurant (p. 88's words; never 'every bit of money', never 'wages')", "the late-1990s restaurant", and "last after the Old-Fashioned, Manhattan, Sazerac and Martini".
+- **D4a, Tomás's Structure row.** "It's the Gold Rush as *A Proper Drink* prints it" → "It starts from the Gold Rush as…". It's the same fix as X7, since our glass has ½ oz of honey syrup, not ¾.
+- **D4b, image brief.** "Oxford says only that the char 'will give a good color'": those are the words of Parker, an 1824 writer Oxford quotes, and they're about barrels. The new wording is "Oxford (WHISKY, BOURBON, pdf 2142) quotes an 1824 writer, Parker, that a charred barrel 'will also give a good color to the liquor'; no page describes the drink's colour".
+- **D4c, *The Plumber's Coming* row.** This one is my own mistake, struck. In round 5 I said the name "breaks" Siegal's rule. But his noun is "the origin of *the drink*", and the plumber was the bar's origin, not the Gold Rush's. The honest version: it gets the chuckle, the rule leans against it because it's drawn from the story, and *Any Day* passes cleanly. The new wording is in the audit.
+
+Anchors v3 went in with the audit: y4 synced, and Tomás's "a third less" row added.
+
+I'd put my name to this. It stands as long as D1–D4 go in as quoted. They're dossier strings only, and the host can check them by quote without another round from me.

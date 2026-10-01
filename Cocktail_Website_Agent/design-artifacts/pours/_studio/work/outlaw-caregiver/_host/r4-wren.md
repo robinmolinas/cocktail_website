@@ -1,0 +1,13 @@
+🪞 **Wren:** Hester, I've ruled your point-2 row: accepted, and the "reveal" meaning is the best line in the anchors. *A right, not a favour* is now in y1, right after the court's ruling. It answers my guard against "the small ones" in four words. One limit on the wording: "came for that licence because of them" stays in the anchors only. In guest text it slides toward the "only because of his customers" you ruled out. So y1 says "the ruling's **first** complaint was who drank there". That's count one, and it leaves room for the beer-to-a-minor count. "Anyway" in your "fear met" meaning stays out of guest text too, because *Anyway* is the Morale Booster's title.
+
+Your Oxford guard is applied to y4. It now reads "a Horse's Neck, an old classic that, **the way Atlantic City made it**, was simply a soft drink… a 'stick' of rye or gin for those who wanted one." It never says "always" ginger ale, and it never calls ginger ale "the original". "Nobody wrote down what was poured" is gone. It now reads "We don't know what was poured at the Black Cat that night, beyond soft drinks and juices."
+
+Tomás, y4 matches spec v0. "Leading three to one" is now "**nearly** three to one" (120 to 45), and the pale, dry ginger ale is named. Your 30 ml floor is the argument I'd have made, in numbers: the holding back is in the proportion, never in taking the strength away. Keep 45. If a spark adds an ingredient, y4 gets one clause tying it to the night, per Robin's rule, and I re-read.
+
+**Resonance test (reading v2, `_studio/work/outlaw-caregiver/psychologist-reading-v2.md`):**
+- **As the guest:** ready. The line that lands is *People assume you were born gentle. You weren't. You decide it, again and again, and you've never told anyone how often.* The gift is said once, out loud: *when you're there, nobody has to fight. Nobody even has to be brave.* I see myself at six in the morning, not in the lawsuit.
+- **As the sceptic, siblings:** clean against the Campaigner, the Big Sibling, the Gangster's code and *Standing By*.
+- **As the sceptic, 4-grams:** I ran the lint's `ngrams()` against every pour. It caught "what you give people" (four pours), "that's the part of" (two) and "someone you care about" (*Serviceable*). All three are rewritten, and a re-run is clean. I also dropped "someone you love" (six caregiver pours) and "someone close to you" (two) for "someone who matters to you".
+- **History weight:** about 188 of roughly 400 words, just under half.
+
+**Name:** *Nothing Stronger* is still my pick, and I want both your picks. Hester and Tomás: if you can't sign the reading, tell me now, not in round 6.

@@ -3,7 +3,7 @@ pairing: caregiver-regular-guy
 personality: The Nurse
 archetypes: Caregiver × Regular Guy (never shown to the guest)
 status: draft
-veto_free: false            # contains: ["dairy"]
+veto_free: false            # contains: ["dairy", "gluten"]
 authored_in: the room, 2026-09-30 (batch caregiver)
 ---
 
@@ -14,7 +14,7 @@ authored_in: the room, 2026-09-30 (batch caregiver)
 - **name:** Everybody's
 - **tagline:** Everyone gets the same you. That's the whole point.
 - **glassware:** a footed glass goblet, about 180 ml, warmed with hot water first (or any heatproof stemmed glass or small handled toddy glass of about that size)
-- **contains:** `["dairy"]`
+- **contains:** `["dairy", "gluten"]`
 
 **recipe**
 
@@ -23,15 +23,17 @@ authored_in: the room, 2026-09-30 (batch caregiver)
 | 2 | brown or demerara sugar cubes | cubes, not syrup: syrup came in when it got famous |
 | 80 ml | hot fresh coffee (filter or drip, not espresso) | |
 | 40 ml | Irish whiskey (a standard 40% bottle) | |
-| 30 ml | cold heavy cream, whipped by hand just before | fresh, not from a can |
+| 30 ml | toasted-oat cream, whipped by hand just before | heavy cream steeped with rolled oats toasted in a dry pan, then strained; 80 ml of cream and 2 tablespoons of oats make enough for two glasses |
 
 **method**
-1. Put 30 ml of cold heavy cream in a cold bowl and whisk it by hand until it thickens and just starts to hold soft peaks, about double its volume. Stop before it goes stiff. Keep it cold.
-2. Fill the goblet with hot water, leave it a minute, then pour the water away.
-3. Drop in two brown sugar cubes and pour in 80 ml of hot coffee. Stir until the sugar has gone.
-4. Add 40 ml of Irish whiskey and stir once more.
-5. Spoon the cream gently onto the top, over the back of the spoon, so it floats and covers the coffee right to the rim. Don't stir after this: it's drunk hot through the cool cream.
-6. For the next person, whip the cream again.
+1. **The oat cream, for two glasses.** Put 2 tablespoons (about 10 g) of rolled oats in a dry frying pan over a medium heat. Stir them all the time for 3 to 4 minutes, until they're golden and smell like warm biscuits. Tip them onto a plate and let them cool right down.
+2. Stir the oats into 80 ml of cold heavy cream in a jar and leave it in the fridge for at least two hours (it keeps until the next day). Pour it through a sieve, pressing the oats with a spoon to get the cream out, and throw the oats away. You'll have about 65 ml. Keep it cold.
+3. For each glass, put 30 ml of the oat cream in a cold bowl and whisk it by hand until it thickens and just starts to hold soft peaks, about double its volume. Stop before it goes stiff.
+4. Fill the goblet with hot water, leave it a minute, then pour the water away.
+5. Drop in two brown sugar cubes and pour in 80 ml of hot coffee. Stir until the sugar has gone.
+6. Add 40 ml of Irish whiskey and stir once more.
+7. Spoon the cream gently onto the top, over the back of the spoon, so it floats and covers the coffee right to the rim. Don't stir after this: it's drunk hot through the cool cream.
+8. For the next person, whip the cream again.
 
 **closingLine:** *Two cubes for everyone. For one person, ask how they take it.*
 
@@ -42,7 +44,8 @@ authored_in: the room, 2026-09-30 (batch caregiver)
 | person | Late in 1944 or early in 1945, Joe Sheridan, a chef at the flying-boat station at Foynes, Ireland, was asked to come up with something special to greet a group of dignitaries touring the site. Irish Coffee is credited to him. (Oxford IRISH COFFEE pdf 1075; card F1) | The one who gets asked when something needs doing, and just does it. | soughtFor: Comfort · drawnToward: Belonging |
 | lineage | By 1947 "Gaelic Coffee", as it was first known, was being offered to all travellers deplaning at Shannon. (pdf 1076; F2) | Made for a few, then offered to everyone the same (the "same" is our reading). | drawnToward: Belonging · gravity: Social · lens: The real me |
 | gesture | Fame brought adulteration: syrup replaced the original sugar cubes, glasses got bigger than the original 180 ml footed goblet, and canned cream replaced fresh. Some revival bars, such as the Dead Rabbit, pride themselves on making it the way Sheridan did. (pdf 1076–1077; F4, F6) | No lesser version when the room gets busy. | texture: Soft · gravity: Grounded |
-| glass | Original serve: a footed glass goblet of 180 ml, sugar cubes, fresh cream. Oxford's modern recipe prefers brown or demerara cubes. Our spec: 2 cubes, 40 ml whiskey (5 ml under Oxford's 45), 80 ml coffee; the numbers are ours. (pdf 1076–1077; F7) | Two cubes for all; the small care is the warm glass and the cream whipped fresh. | texture: Harmonic · gravity: Grounded |
+| ingredient | Oats went into Irish pure pot-still whiskey alongside the malted and raw barley until the 1950s (Oxford OATS pdf 1414; SINGLE POT STILL pdf 1808; oats card F2). The era, not Sheridan's bottle (not on record), and not today's whiskey. No share of the mash is given (C1). "Making the mash easier" is contested (C2) and is not anchored. | In there alongside the others, doing its bit; in this glass, the one thing added to the original serve, made for the one who always gets the house pour. | texture: Harmonic · drawnToward: Belonging (Hester's proposal; Wren to set) |
+| glass | Original serve: a footed glass goblet of 180 ml, sugar cubes, fresh cream. Oxford's modern recipe prefers brown or demerara cubes. Our spec (v2.1): 2 cubes, 40 ml whiskey (5 ml under Oxford's 45), 80 ml coffee, 30 ml cream steeped with toasted rolled oats, strained, whipped fresh; the numbers and the oats are ours. (pdf 1076–1077; F7) | Two cubes for all; the small care is the warm glass and the cream whipped fresh. | texture: Harmonic · gravity: Grounded |
 
 ## Reading
 
@@ -62,7 +65,7 @@ And everyone gets the same you. The friend of twenty years and the new neighbour
 
 3. I like to think that was the part that was really his. Not the recipe: that it went to everyone the same, the visitor with a title and the next passenger off the plane. You'd have done it exactly that way. You don't keep a better version for the people who matter. Everyone who comes in gets the real one.
 
-4. Yours is close to his: a small glass on a foot, sugar cubes and fresh cream, with a little less whiskey than today's usual recipe so the coffee under the cream stays gentle. Warm the glass with hot water first. Two brown sugar cubes: it began with cubes, and the syrup only came with fame. Hot coffee, Irish whiskey, then cream whipped by hand until it only just holds, spooned on so it floats. Two cubes each, the same for anyone. Nothing extra for the important guest. The rest of the care is small and easy to miss: the warm glass, and the cream whipped fresh each time.
+4. Yours keeps the shape of his: a small glass on a foot, sugar cubes, hot coffee, Irish whiskey and fresh cream. The glass is warmed with hot water first. The cubes are brown, two of them: it began with cubes, and the syrup only came with fame. There's a little less whiskey than today's usual recipe, so the coffee under the cream stays gentle. What's yours is in the cream. Rolled oats go into a dry pan until they smell like warm biscuits, sit in the cold cream for a couple of hours, and are strained out, so only their taste stays. Oats had their place in Irish whiskey: until the 1950s, they went into the old pot-still Irish whiskey alongside the barley. I like to think that's you: in there alongside everyone, doing your bit. Then the cream is whipped by hand until it only just holds, and spooned on so it floats.
 
 5. Don't change a thing about how you treat everyone. But being fair to everyone was never meant to mean that nobody gets to be special. Somewhere there's someone close to you who has been getting the same you as the new neighbour, and has never once complained. Give them something nobody else gets. Not more work: an evening, a call that isn't checking in, the good cup. The first of these drinks was made for a few particular guests. Let someone be yours.
 
@@ -74,42 +77,65 @@ And everyone gets the same you. The friend of twenty years and the new neighbour
 
 | Check | Result |
 | --- | --- |
-| Structure (*Cocktail Codex*) | **Flip family.** The *Codex* prints Irish Coffee as "a Flip variation" in which "the cream isn't mixed into the cocktail; instead, it's whipped and floated on top" (p. 268). **Core:** Irish whiskey. **Balance:** brown sugar, lengthened with hot coffee. **Seasoning:** the coffee's bitterness and roast; the cream is the texture and the lid. The *Codex* warns that heat "unravels the structure of the whipped cream", so whip to soft peaks so it holds longer (p. 268): method step 1. |
-| Balance (Arnold; style `hot`) | Judged as it's drunk, layer by layer. **The coffee under the cream** (40 whiskey / 80 coffee / 2 cubes): 125 ml, **12.8% ABV / 6.40 g sugar per 100 ml / 0.06% acid, all in range** (10–13 / 5.5–7.5 / 0–0.3). **The whole glass once the cream has sunk in** (spec file, cream included): **10.3% / 5.74 g / 0.05%, all in range.** **Versions the numbers rejected:** Oxford's modern measures (F7: 45 ml whiskey, 75 ml coffee, 2 cubes): 14.4% under the cream, OUT; 45/80: 13.8%, OUT; 40/75: 13.3%, EDGE. **Sweeps:** one cube → 3.26 g, OUT; three → 9.41 g, OUT; so two cubes for everyone, which is also Wren's brief. Coffee 85 ml → 12.3% / 6.15 g; 90 ml → 11.8% / 5.92 g (in range, but it no longer fits a 180 ml goblet with the cream). Whiskey strength: 40% in range; 43% → 13.8% and 46% → 14.7% under the cream, both OUT (whole glass 11.1% and 11.9%, in range). Hence "a standard 40% bottle". **Heat:** Arnold says too much alcohol in a hot drink gives a stinging nose (*LI* pdf 184) and prefers wide cups to tall walls for that reason (pdf 186–187). Here the cream covers the whole surface, so you sip through it rather than over open hot spirit; that's my own reading of the physics, unsourced. **Unsourced:** hot coffee's acid (0.1%, estimated); the cube weight (4 g); heavy cream's sugar (3 g/100 ml, table). Heat loss not modelled. |
-| Pairings | **Classic, kept on purpose.** Whiskey, coffee, sugar and floated cream is the Irish Coffee itself (*Codex* p. 268; Oxford's recipe, F7). The brown sugar is not a spark. It's credited to Oxford's own recipe, "2 sugar cubes (preferably brown or demerara)" (pdf 1077), and to Regan, scoped exactly: he suggests trying simple syrup made with brown sugar, "it works very well" (*Joy* pdf 307), a syrup, not cubes. The *Codex* uses Demerara Gum Syrup (p. 268). Cubes rather than syrup because syrup replacing the cubes was one of fame's changes (F4, pdf 1076). The "2" is Oxford's modern recipe, not attested as Sheridan's (F7). The only change from Oxford's measures is 5 ml less whiskey, for balance. **The *Flavor Matrix* was consulted and set aside** (STUDIO-RULES 3 allows the classic when the classic is the point; here F4 is the point: the drink was spoiled by additions and brought back "the way Sheridan did"). Set aside: any garnish (nutmeg, grated chocolate, orange zest): an extra only the important guest would get, and nutmeg brings the nuts veto; vanilla in the cream (Matrix pdf 256 pairs vanilla with cream and whiskey): a dessert note added on top; a liqueur sweetener (Regan's Irish Mist or Bénédictine, *Joy* pdf 307): it replaces the cubes; a bigger glass: F4's adulteration. My round-2 claim that the caramel page (pdf 72) supports brown sugar is withdrawn: it lists coffee as caramel's *substitute*, not a pairing, and never names demerara (Hester, round 3). What the drink does carry is a gesture, not an ingredient: two cubes for all, and the asking, for one (closing line). |
-| Allergens | `allergens.py`: **dairy** (heavy cream). Declared `contains: ["dairy"]`. This pour does **not** count toward the AD-4 veto-free floor. Irish whiskey is a distilled grain spirit, so **not gluten** (rule 4). Coffee and sugar touch no veto. New rows: `irish_whiskey`, `hot_coffee`, `demerara_sugar_cube`, all `contains: none`. **No dairy-free version offered:** the cream is the drink's lid and its story (fresh, not canned). A guest who vetoes dairy is protected by their veto. **Flag for Robin (my own knowledge, unsourced):** caffeine. It isn't an allergen or in our veto enum, but it's a late-night drink with a full cup's worth; I'm naming it rather than hiding it. |
-| Makeable | Kit: a kettle or coffee maker, a small bowl and a whisk, a jigger, a spoon, a goblet. Brown sugar cubes, heavy cream and Irish whiskey are supermarket items; no bottle named. Nothing made ahead. **Sibling note:** *Off Duty* (the Rescuer) is also hot, also Irish whiskey, also warms its cup first. It's a Hot Toddy, a different cocktail (Robin 2026-09-28: only the exact same cocktail is off-limits). I've kept the warming as a plain method step, not a gesture, and moved the image well away from its kitchen. |
-| Language | Wren's Resonance (v3–v4): *ready*. Sibling echoes moved off: *Four Shares* ("allowed to be looked after too", r2), the Craftsman's "it was nothing" and the Photographer's "Stop calling it nothing" / "Tuesdays" (r2), *Still Yours* "whoever" (all three uses out, r6), *Overnight* / *Not Only the Way* "nobody sees" (r6), the Angel's "nobody thanks you" (avoided). The closing line was checked by Tomás against *A Brother's Care* "every glass", *Making the Calls* "the first one", *No Accident* "Don't stir it", *Off Duty* "Sit down" and *Standing By* "the one thing they didn't" (grep found no "how they take it"). "Wait the longest" softened to a line with no blame (r4). ✓ |
+| Structure (*Cocktail Codex*) | **Flip family.** The *Codex* prints Irish Coffee as "a Flip variation" in which "the cream isn't mixed into the cocktail; instead, it's whipped and floated on top" (p. 268). **Core:** Irish whiskey. **Balance:** brown sugar, lengthened with hot coffee. **Seasoning:** the coffee's roast and bitterness, and now the toasted oat, carried in the cream; the cream is also the texture and the lid. The *Codex* warns that heat "unravels the structure of the whipped cream", so whip to soft peaks so it holds longer (p. 268): method step 3. |
+| Balance (Arnold; style `hot`) | **Unchanged by the oats**, which are strained out (the steep is modelled as plain cream; its extracted starch and sugar are unmeasured, taken as nil, unsourced). Judged as it's drunk, layer by layer. **The coffee under the cream** (40 whiskey / 80 coffee / 2 cubes; `mixologist-v-40-80-2.json`): 125 ml, **12.8% ABV / 6.40 g sugar per 100 ml / 0.06% acid, all in range** (10–13 / 5.5–7.5 / 0–0.3). **The whole glass once the cream has sunk in** (spec v2, oat cream included; `mixologist-v2-oat.json`): **10.3% / 5.74 g / 0.05%, all in range.** **Versions the numbers rejected (first room):** Oxford's modern measures (F7: 45 ml whiskey, 75 ml coffee): 14.4% under the cream, OUT; 45/80: 13.8%, OUT; 40/75: 13.3%, EDGE. **Sweeps:** one cube → 3.26 g, OUT; three → 9.41 g, OUT. Coffee 85 ml → 12.3% / 6.15 g; 90 ml → 11.8% / 5.92 g (in range, but it no longer fits a 180 ml goblet with the cream). Whiskey strength: 40% in range; 43% → 13.8% and 46% → 14.7% under the cream, both OUT. Hence "a standard 40% bottle". **Heat:** too much alcohol in a hot drink stings the nose (*LI* pdf 184); wide cups rather than tall walls (pdf 186–187). Here the cream covers the whole surface; that the cream shields the nose is my own reading of the physics, unsourced. **Unsourced:** hot coffee's acid (0.1%, estimated); cube weight (4 g); heavy cream's sugar (3 g/100 ml, table); the cream recovered after straining (about 65 ml from 80 ml with 10 g oats: my estimate); that the steeped cream whips like plain cream (my own craft; it stays whippable because it stays cold and the oats add no water). Heat loss not modelled. |
+| Pairings | **The spark: toasted oats, steeped in the cream.** *Flavor Matrix* Grain (wheat, barley, oats; pdf 136): a grain's aromas live mostly in the bran and germ, and cooked bran gives "roasted and toasted aromas (nuts and cocoa)". (The page's "nearly flavorless until … Maillard reactions" is said of refined products like white flour, so it isn't claimed for oats; Hester R1.) Rolled oats keep their bran, and the dry pan is what brings out their toasted taste. **Unverified, Checks only (Hester R2, card U1):** the Grain chart (pdf 137) is OCR text only; it lists milk/cream, coffee and *bourbon* whiskey, and neither of us could see the chart's rings on the page image. It's no reason given in the reading. **Why oats, for this drink:** Oxford OATS (pdf 1414): oats went in alongside the malted and raw barley in Irish pure pot-still whiskies until the 1950s (oats card F2; SINGLE POT STILL pdf 1808). That's Sheridan's era, not his bottle: what he poured isn't on record. No percentage is given anywhere guest-facing: OATS says "generally" 10–30%, SINGLE POT STILL says "relatively small proportions" (card C1). Oxford MASH (pdf 1253): oats "formerly used in Ireland and now enjoying a small revival", so today's Irish whiskey needn't have any, but some may (F3). **Withdrawn (my round-1 pitch; Hester R4, card C2):** "oats make the mash easier to manipulate". OATS says only that they "paradoxically can", in general, not of Ireland; MASH says oats are among "the most challenging to work with". Contested, so it's in no line of mine and shouldn't carry any line of the reading. **Not new, and never claimed as new (R8):** Atholl brose already soaks oatmeal and strains it into a whisky drink (Oxford ATHOLL BROSE pdf 168, card F6). Ours steeps toasted oats in the cream, not in the drink. No sibling pour uses oats (grep, 2026-09-30). **Why it passes Wren's rework tests** (`psychologist-rework-brief.md`): (1) a treat, not a job: a dry pan for three minutes and a jar in the fridge; the make-ahead is practical, never the gesture. (2) Not in the sugar: the two cubes are untouched. (3) Not a remedy: it tastes of warm biscuits, not of a medicine cabinet. (4) Not F4: Oxford's adulterations are syrup, bigger glasses, canned cream and green (pdf 1076–1077; Hester F8–F11), and the oats are none of them; they're strained out, so they're in the drink, not sitting on it. (5) Ordinary and warm: the cheapest thing in the cupboard. (6) The cream, as Wren suggested: steeped ahead, still whipped fresh for each glass. It's the one thing added to the original serve. **The rest, as before:** brown or demerara cubes are Oxford's recipe's own preference (pdf 1077), not a spark; syrup replacing the cubes was one of fame's changes (F4, pdf 1076); the "2" is Oxford's modern recipe (F7). **Consulted and set aside:** camomile cream (the *Codex* has honey "loves chamomile", p. 92; camomile is on the Dairy chart, pdf 105): Wren ruled camomile a cliché for *The Rest of You*, and in a Nurse's drink it reads as a remedy, against the no-health-claims rule. Mint cream (mint is on the Dairy chart, pdf 105; the Grasshopper sits beside Irish Coffee in the *Codex*, p. 268): an after-dinner-mint note, and menthol points at medicine again. Vanilla cream (Matrix pdf 256): a dessert note on top. A pinch of salt (*LI* p. 61: drinks with coffee "benefit from a pinch of salt"): the hidden dash is *Making the Calls*' epigraph. Honey or Irish Mist (*Joy* pdf 307): replaces the cubes, and honey is *Off Duty*'s. Orange: *Till Spring*'s. Any garnish: an extra only the important guest would get, and nutmeg brings the nuts veto. A bigger glass: F4's adulteration. |
+| Allergens | `allergens.py` on spec v2: **dairy** (cream) and **gluten** (oats). Declared `contains: ["dairy", "gluten"]`. **New row `toasted_oat_cream`, classified on the safe side:** oats count as gluten even though they're strained out, because oats commonly carry wheat from the field and mill, and some people with coeliac disease react to oats themselves (my own knowledge, unsourced; the call is mine under STUDIO-RULES 4). Gluten-free oats don't lift the veto, for the second reason. **The call rests on STUDIO-RULES 4 (safe side), not on Oxford:** MASH's "quite glutinous" (pdf 1253) means sticky, and isn't cited for the allergen (Hester R6). Irish whiskey is a distilled grain spirit, so **not gluten** (rule 4). Coffee and sugar touch no veto. This pour does **not** count toward the AD-4 veto-free floor (it already didn't, for the dairy). **Cost, said plainly:** the oats shut out gluten-veto guests who could have had v1.3. I think the drink is worth it; Wren's call on whether the person is. **Flag for Robin (my own knowledge, unsourced):** caffeine, a full cup's worth in a late drink; not an allergen or in the veto enum. |
+| Makeable | Kit: a dry frying pan, a jar, a sieve, a small bowl and a whisk, a kettle or coffee maker, a jigger, a spoon, a goblet. Rolled oats, brown sugar cubes, heavy cream and Irish whiskey are supermarket items; no bottle named. One step made ahead: the oat cream, at least two hours in the fridge (fine until the next day). Hand-whisking 30 ml is a small job in a small bowl; the first room's method already did it. **Sibling notes:** *Off Duty* (the Rescuer) is also hot Irish whiskey with a warmed cup, a Hot Toddy, a different cocktail (Robin 2026-09-28); the warming stays a plain method step. *Serviceable* (the Researcher) also cold-steeps and strains (hops, in the whisky); ours steeps in the cream, a different ingredient in a different part of the drink. *Worth the Trip* (the Reassurer) toasts cumin for a syrup; ours toasts a grain for the cream. |
+| Language | Wren's Resonance on v8 (rework, 2026-09-30): *ready*; recognition line signposted and resting only on 'alongside the barley' (the contested 'easier to work' line struck, OATS pdf 1414 vs MASH pdf 1253); 'alongside everyone' and 'doing your bit' grepped clean across the pours; 'something he never had' (the Nanny) avoided. First pour's echo moves (Four Shares, the Craftsman, the Photographer, Still Yours, Overnight, Not Only the Way, Off Duty, Making the Calls) kept. ✓ |
 
 ### Fact audit
 
 pour: caregiver-regular-guy
 author: Hester
-round: 7
-audits: psychologist-reading-v4.md + mixologist-draft.md v1.3 + historian-anchors.md
+round: rework 4 (2026-09-30)
+audits: psychologist-reading-v8.md (only change from v7: B6 sentence) + mixologist-draft.md v2.3 + historian-anchors.md (rework 4) + _host/provisional.md
+supersedes: historian-audit-v4.md (first room) and historian-audit-rework-1/-2.md
+cards: fact-cards/joe-sheridan-irish-coffee.md (F1–F11, C1, L1); fact-cards/oats.md (F1–F9, C1–C2, U1)
 ---
 
-#### Fact audit v4 (final pending three wording fixes)
+#### Fact audit v5 (rework; final pending one dossier wording fix)
 
-| # | Where | v4 text | Verdict | Fix |
+| # | Where | v7 / v2.2 text | Verdict | Fix |
 | --- | --- | --- | --- | --- |
 | A1/A2 | epigraph | "First made for a few important visitors. By 1947, everyone off the plane was offered one." | PASS | Oxford pdf 1075, 1076. |
-| A3/A4 | y1 | a chef at Foynes; important visitors; the drink; small glass on a foot | PASS | pdf 1075–1077. |
-| A22 | y2 | "syrup instead of sugar" | OPEN (sent to Wren) | "syrup instead of sugar cubes" (pdf 1076). |
+| A3/A4 | y1 | a chef at Foynes; "come up with something special"; important visitors; the drink; small glass on a foot | PASS | pdf 1075–1077. |
+| A22 | y2 | "syrup instead of sugar cubes" | PASS | pdf 1076. Closed. |
 | A5–A8 | y2 | 1947/Shannon; San Francisco; bigger glasses, can; "Some of the bars … pride themselves …" | PASS | pdf 1076–1077. |
-| A9 | y3 | "I like to think … the visitor with a title and the next passenger off the plane" | PASS (signposted) | |
-| A10 | y4 | less whiskey than today's usual recipe | PASS | 40 vs 45 ml (Oxford, Codex, Joy). |
-| A11 | y4 | "it began with cubes, and the syrup only came with fame" | PASS | Oxford pdf 1076: "With fame came adulteration: syrup replaced the original sugar cubes". No motive. Closed. |
-| A11b | Checks, Pairings | "one of fame's shortcuts" | OPEN (sent to Tomás) | "one of fame's changes". |
-| A24 | fact tags (dossier) | y4 row: "syrup a shortcut" | FIX | Anchors-follow-the-audit: dossier must not hold the dropped claim. "syrup came with fame (F4, pdf 1076)". |
-| A12 | y4 | "Two cubes each, the same for anyone" | PASS | Our measure (A16), not Sheridan's. |
-| A23 | y4 | "small and easy to miss" | PASS | Not a claim; *Overnight*'s phrase gone. |
-| A13 | y5 | first made for a few particular guests | PASS | pdf 1075. |
-| A19 | closingLine | "Two cubes for everyone. For one person, ask how they take it." | PASS | Regan, Joy pdf 307 (modern advice). |
-| A25 | anchors, glass row | meaning → "Two cubes for all; the small care is the warm glass and the cream whipped fresh." | PASS | Interpretation; accepted. Applied in historian-anchors.md with Wren's speaksTo. |
-| A17 | image brief | two coats; flying boat | PASS as image | |
+| A9 | y3 | "I like to think … the visitor with a title and the next passenger off the plane" | PASS (signposted) | Oxford never says who decided to offer it to all; the signpost must stay. |
+| B1 | y4 | "Yours keeps the shape of his: a small glass on a foot, sugar cubes, hot coffee, Irish whiskey and fresh cream." | PASS | F1, F4, F7. Shape only, never "his recipe". |
+| B2 | y4 | "The glass is warmed with hot water first." | PASS | Our method; not attributed to Sheridan. |
+| A11 | y4 | "The cubes are brown, two of them: it began with cubes, and the syrup only came with fame." | PASS | pdf 1076; brown per pdf 1077; "two" ours. |
+| A10 | y4 | "a little less whiskey than today's usual recipe" | PASS | 40 vs 45 ml; Oxford, *Codex* p. 268, Dead Rabbit (*Joy* pdf 307) all 45. |
+| B5 | y4 | "What's yours is in the cream." oats toasted, steeped, strained; "warm biscuits"; "only their taste stays" | PASS | No novelty claim (Atholl brose, oats F6). Taste words are sensory. |
+| B6 | y4 | v8: "Oats had their place in Irish whiskey: until the 1950s, they went into the old pot-still Irish whiskey alongside the barley." | PASS | Past tense (oats F1, F3); era only (F2). Closed. (v7's "a place in Irish whiskey's past" also passed.) |
+| B7 | y4 | "until the 1950s, they went into the old pot-still Irish whiskey alongside the barley" | PASS | Oats F2 (pdf 1414, 1808). "Old pot-still" is a fair plain-words version of "pure pot-still": Oxford's point is the pot-still style, which became the predominant Irish style after the 1785 malt tax, with Irish distillers resisting blending until the mid-twentieth century (pdf 1808). No percentage (C1). |
+| B8 | y4 | contested "easier" sentence and mash gloss | PASS (struck) | Gone from reading and Checks (C2). Closed. |
+| B9 | y4 | "I like to think that's you: in there alongside everyone, doing your bit." | PASS (signposted) | Rests only on "alongside the barley". |
+| A13 | y5 | "The first of these drinks was made for a few particular guests." | PASS | pdf 1075. |
+| A19 | closingLine | "Two cubes for everyone. For one person, ask how they take it." | PASS | Regan, *Joy* pdf 307 (modern advice, never Sheridan's practice). |
+| A24 | fact tags | y4 "the syrup came with fame" | PASS | Closed. |
+| A11b | Checks, Pairings | "shortcut" | PASS | Gone (grep). Closed. |
+| R1 | Checks, Pairings | Matrix pdf 136 scoped to the bran's "roasted and toasted aromas"; "nearly flavorless" left to white flour | PASS | Closed. |
+| R2 | Checks, Pairings | Grain chart pdf 137 OCR-only, bourbon, Checks only | PASS | Closed (oats U1). |
+| R3b | Checks, Pairings | 10–30% vs "relatively small proportions" | PASS | Both given, none guest-facing (C1). |
+| R4 | Checks, Pairings | "easier to manipulate" withdrawn as contested | PASS | Closed (C2). |
+| R6 | Checks, Allergens | gluten on STUDIO-RULES 4, not "glutinous" | PASS | Wheat/coeliac reasons unsourced, labelled so. |
+| R8 | Checks, Pairings | Atholl brose: never "new" | PASS | Closed. |
+| **R10** | Checks, Pairings; closingLine notes; v2.1 changelog (dossier) | "the one thing this glass has that Sheridan's doesn't"; "this glass carries one thing his doesn't"; "the oats are the one thing this glass has that Sheridan's doesn't" | **FIX** | A scope claim the record can't carry: our glass also has 5 ml less whiskey and a count of cubes that's ours, and what was in Sheridan's whiskey isn't on record (oats were in the pot-still whiskey of his era, F2). → "the one thing **added to the original serve**" in all three places. Dossier only; no fact in the reading or the drink moves. My own anchor had the same phrase; fixed in historian-anchors.md in this call. |
+| A25 | anchors, glass row | spec v2.1 with the oat cream; meaning "Two cubes for all; the small care is the warm glass and the cream whipped fresh." | PASS | |
+| A26 | anchors, ingredient row | oats F2 only; the 1600 oat-spirit clause removed because the reading didn't take it | PASS | Anchors follow the reading. speaksTo is my proposal; Wren to set or confirm. |
+| A17 | image brief | two coats; flying boat; saucer of oats "(a note for the picture only)" | PASS as image | Merges Foynes and Shannon: fine in a picture, never in text. |
 
-**Sign-off condition:** A22 (y2), A11b (Checks) and A24 (fact tag) as worded above. Each is a word-level change bringing text into line with pdf 1076; nothing in the drink or the story moves. With those three in, the audit passes.
+**Legends and conflicts (dossier):** L1 cold passengers (not in sources); F5 "hungover" (Oxford aside, unused); C1 bartender vs chef (Oxford preferred); "never credited" false (F6). Oats C1 (share), C2 (easier vs hardest), U1 (chart OCR only); "bust-head" unused.
+
+**Sign-off condition:** R10, as worded, in the three dossier places. With it in, the audit passes and I'd put my name to this exact version.
+
+#### Round 5 (last) note
+- Reading v8 checked by diff against v7: the B6 sentence is the only change; whoYouAre and epigraph identical. Passes.
+- Manor-house lead (oats F7–F9) left out by Wren: it would retell y2's shape and add history weight. Conceded; it stays on the card as a lead.
+- R10 was not yet in `mixologist-draft.md` when I checked (lines 7, 42, 52 still carry "that Sheridan's doesn't" / "one thing his doesn't"). My sign-off is on v2.3 **with R10 applied word for word** in those three places, nothing else moving.
+- Bookkeeping, not a condition: the provisional's Sources line still lists only the Irish Coffee card and audits v1–v3. Add `fact-cards/oats.md` (Oxford OATS pdf 1414, SINGLE POT STILL pdf 1808, MASH pdf 1253, ATHOLL BROSE pdf 168; *Flavor Matrix* Grain pdf 136) and `historian-audit-v5.md`.
 
 ### Resonance
 
@@ -119,7 +145,7 @@ audits: psychologist-reading-v4.md + mixologist-draft.md v1.3 + historian-anchor
 
 ### Sources
 
-Studio fact card `_studio/fact-cards/joe-sheridan-irish-coffee.md` (*Oxford Companion* IRISH COFFEE pdf 1075–1077; F1–F7, C1, legend L1). Craft: *Cocktail Codex* Irish Coffee (Flip variation, p. 268); Regan, *Joy of Mixology* pdf 306–307 ("always ask" on sugar; brown-sugar syrup); *Liquid Intelligence* pdf 184, 186–187 (heat and alcohol); *Flavor Matrix* caramel pdf 72 and vanilla pdf 256 (consulted and set aside). Audits: `work/caregiver-regular-guy/historian-audit-v1.md`, `-v2.md`, `-v3.md`. Room notes: `work/caregiver-regular-guy/`.
+Studio fact cards `_studio/fact-cards/joe-sheridan-irish-coffee.md` (*Oxford Companion* IRISH COFFEE pdf 1075–1077; F1–F11, C1, legend L1) and `_studio/fact-cards/oats.md` (Oxford OATS pdf 1414, SINGLE POT STILL pdf 1808, MASH pdf 1253, ATHOLL BROSE pdf 168; *Flavor Matrix* Grain pdf 136). Craft: *Cocktail Codex* Irish Coffee (Flip variation, pp. 266, 268); Regan, *Joy of Mixology* pdf 306–308; *Liquid Intelligence* pdf 184, 186–187. Audits: `work/caregiver-regular-guy/historian-audit-v1.md` to `-v5.md` (v5 is the rework's, for reading v8). Room notes: `work/caregiver-regular-guy/`.
 
 ### Legends and inferences
 
@@ -133,10 +159,11 @@ Studio fact card `_studio/fact-cards/joe-sheridan-irish-coffee.md` (*Oxford Comp
 
 ### Image brief
 
-**Glass and drink:** a footed glass goblet, about 180 ml, full to the brim. The drink as served is **two layers, never mixed:** a deep brown-black coffee body, with a clean band of thick **white** cream on top, about two finger-widths deep, level and soft, not piped, not swirled, with no garnish at all. Steam rising faintly at the rim.
+**Glass and drink:** a footed glass goblet, about 180 ml, full to the brim. The drink as served is **two layers, never mixed:** a deep brown-black coffee body, with a clean band of thick **ivory-white** cream on top (steeped with toasted oats, so no brighter than ivory, and no darker; no flecks: the oats are strained out), about two finger-widths deep, level and soft, not piped, not swirled, with no garnish at all. Steam rising faintly at the rim.
 
 **Props (story):**
 - a small plain bowl with a hand whisk resting in it, a little fresh whipped cream left inside (whipped fresh, F4);
+- a small saucer of golden toasted rolled oats (the spark; oats went into Irish pot-still whiskey until the 1950s, Oxford OATS pdf 1414; a note for the picture only);
 - a small dish of brown sugar cubes (two cubes, the same for all);
 - a row of coat hooks on the wall behind, with two coats hanging side by side at the same height: one fine dark overcoat with a fur collar, one worn, rain-darkened travelling coat (the dignitary and the traveller get the same, F1–F2);
 - through a tall window, a grey estuary at dusk with a flying boat moored on the water (Foynes was a flying-boat station, F1).
@@ -145,22 +172,22 @@ Studio fact card `_studio/fact-cards/joe-sheridan-irish-coffee.md` (*Oxford Comp
 
 **The one impossible detail:** the steam rising from the goblet drifts across to the coat hooks and settles over both coats equally, like a thin warm scarf laid on each.
 
-**Must not appear:** any garnish (nutmeg, chocolate, cherry, shamrock); cream from a can or a piped swirl; a mug, a teacup, a kettle, honey, thyme, a dog or a kitchen (that's *Off Duty*); a second drink or a row of drinks; people or hands; readable text, labels, logos or signs; a bottle label; anything that says the drink cures or warms someone (the warming motive is legend, C1); a nurse's uniform or medical kit.
+**Must not appear:** any garnish, and above all no oats on the cream or on the rim (they're strained out; oats on top would be a garnish); nutmeg, chocolate, cherry, shamrock; cream from a can or a piped swirl; a mug, a teacup, a kettle, a frying pan or stove, honey, thyme, a dog or a kitchen (that's *Off Duty*); a sack or box of oats, a porridge bowl; a second drink or a row of drinks; people or hands; readable text, labels, logos or signs; a bottle label; anything that says the drink cures or warms someone (C1); a nurse's uniform or medical kit.
 
-**Palette:** the persona's pale blue (5515 C) in the dusk sky and estuary, soft mint green (345 C) in the painted counter and wall, soft lavender (2707 C) in the evening light. The drink stays its true brown-black and white.
+**Palette:** the persona's pale blue (5515 C) in the dusk sky and estuary, soft mint green (345 C) in the painted counter and wall, soft lavender (2707 C) in the evening light. The drink stays its true brown-black and ivory-white; the oats are their own toasted gold.
 
 **SCENE (ready to paste):**
-> A single footed glass goblet stands on a painted wooden counter in a small 1940s airport terminal at dusk, lit soft and even. The drink is in two clean layers: a deep brown-black hot coffee body, and on top a level band of thick fresh white cream, about two finger-widths deep, soft and unpiped, filling the glass right to the rim, with a faint thread of steam rising and no garnish at all. Beside it, a small plain bowl with a hand whisk resting in it and a little freshly whipped cream inside, and a small white dish of brown sugar cubes. On the wall behind, two coats hang side by side on hooks at the same height: a fine dark overcoat with a fur collar, and a worn, rain-darkened travelling coat. Through a tall window, a grey estuary at dusk with a flying boat moored on the water. The one impossible detail: the thin steam from the goblet drifts across to the coats and settles over both of them equally, like a warm scarf laid on each. Palette: pale blue sky and water, soft mint-green painted wood, soft lavender evening light; the drink stays its true brown-black and white.
+> A single footed glass goblet stands on a painted wooden counter in a small 1940s airport terminal at dusk, lit soft and even. The drink is in two clean layers: a deep brown-black hot coffee body, and on top a level band of thick, smooth ivory-white cream, about two finger-widths deep, soft and unpiped, filling the glass right to the rim, with a faint thread of steam rising and no garnish at all. Beside it, a small plain bowl with a hand whisk resting in it and a little freshly whipped cream inside, a small saucer of golden toasted rolled oats, and a small white dish of brown sugar cubes. On the wall behind, two coats hang side by side on hooks at the same height: a fine dark overcoat with a fur collar, and a worn, rain-darkened travelling coat. Through a tall window, a grey estuary at dusk with a flying boat moored on the water. The one impossible detail: the thin steam from the goblet drifts across to the coats and settles over both of them equally, like a warm scarf laid on each. Palette: pale blue sky and water, soft mint-green painted wood, soft lavender evening light; the drink stays its true brown-black and ivory-white, the oats their toasted gold.
 
 ### Names considered
 
 **Everybody's**, the room's pick (Wren; Tomás conceded in r4): sayable across a bar, a Regular Guy word, and what the drink became (F2); it names the creed that the ending turns. Also considered: *Two Cubes* (Tomás's r3 pick; names the drink, not the person), *Same for Everyone*, *The Hundredth Glass*, *Every Arrival*, *No Lesser Cup*, *Off the Plane*.
 
-- **Everybody's** (Wren's pick; **mine now too**). Sayable across a bar ("an Everybody's, please"), and it names the creed while the reading and closing line turn it.
-- **Two Cubes.** My round-3 pick: plain, the equal measure. Kept for the record.
-- **Every Arrival.** From F2: offered to every traveller off the plane. Sayable; slightly announcer-ish.
-- **No Lesser Cup.** Wren's position (F4) as a name. Bit formal across a bar.
-- **Off the Plane.** Warm and ordinary; but it leans on the place, not the person.
+- **Everybody's** (the first room's pick; still mine, subject to Wren's name watch). The name is the creed, Sheridan's house pour; the oats and the ending turn it, as the reading already does.
+- **Two Cubes.** Kept for the record.
+- **Every Arrival.** From F2. Slightly announcer-ish.
+- **No Lesser Cup.** A bit formal across a bar.
+- **Off the Plane.** Leans on the place, not the person.
 
 Wren's title-block notes:
 
@@ -181,10 +208,9 @@ Wren's title-block notes:
 
 ### Open items
 
-- **No spark, on purpose:** the room kept the classic Irish Coffee with 5 ml less whiskey for balance. Tomás's round-2 Flavor Matrix spark (demerara via the caramel page) was withdrawn after Hester showed Oxford's own recipe already prefers brown or demerara cubes (pdf 1077) and the Matrix page lists coffee as a substitute, not a pairing. The *Matrix* was consulted and each idea set aside with its reason in Checks (garnish, vanilla cream, liqueur, bigger glass). Robin's call against STUDIO-RULES check 3.
-- **Dairy:** fresh cream; declared, so this pour doesn't count toward the veto-free floor. No dairy-free version: the cream is the lid and the story (Tomás).
-- **Caffeine:** flagged by Tomás (unsourced; not in the veto enum), a full cup's worth in a late drink. Robin's call.
-- **Side by side with *Off Duty* (the Rescuer):** also hot Irish whiskey, also warms its cup first. A Hot Toddy, a different cocktail (Robin 2026-09-28 rule). The warming is kept as a method step only, and the image moves well away from its kitchen.
-- **Ours, never his:** 40 ml whiskey and "two cubes" are Oxford's modern measures adjusted, not attested as Sheridan's; asking how one person takes it is Regan's advice, never Sheridan's practice. Chef-at-Foynes stands on Oxford over Regan's bartender-at-Shannon (C1). "Warm for tired strangers" (L1) and "hungover" stay out of guest text. The image merges Foynes and Shannon; fine in a picture, never in text (Hester).
-- **New ingredient rows:** `irish_whiskey` (40%), `hot_coffee` (acid estimated, unsourced), `demerara_sugar_cube` (4 g per cube, unsourced).
-- **Runner-up story:** Lucinda Sterling and the Penicillin at Milk & Honey (noticing and advocating; closer to other personas, kept for another pour).
+- **Rework (Robin 2026-09-30):** no longer a plain Irish Coffee. The cream is steeped with dry-toasted rolled oats and strained, then whipped fresh: the one thing added to the original serve, made in a batch for two. Sheridan's story, tagline, epigraph, closing line and *Everybody's* unchanged.
+- **Gluten, new:** oats are marked gluten on the safe side (Tomás, unsourced; rule 4). Contains dairy and gluten, so this pour sheds gluten-veto guests the classic would have served. Wren judged it worth it for this person.
+- **Struck:** oats making a mash 'easier to manipulate' (OATS pdf 1414) is contested by MASH pdf 1253, so nothing in the reading rests on it (Hester).
+- **Unsourced:** the oat cream's yield (about 65 ml from 80 ml, Tomás); the Grain pairing chart (pdf 137) is OCR-only and says bourbon, Checks only.
+- **Lead, not used:** around 1600 the manor-house spirit went to important guests while ordinary people distilled from oats, and the two merged (Oxford pdf 2151–2152). Left out because it repeats y2's shape (Wren; Hester conceded).
+- **Carried over:** caffeine (unsourced); near *Off Duty* (hot Irish whiskey, warmed cup; a different cocktail); the y3 'I like to think' signpost stays (Oxford never says who decided to offer it to everyone).

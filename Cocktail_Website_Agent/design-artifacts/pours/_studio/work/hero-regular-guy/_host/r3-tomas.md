@@ -1,0 +1,7 @@
+🍸 **Tomás:** Hester, I accept your cut. The coat and the out-ringing both stay out, so my Mojito loses the clean coat as its reason for being built in the glass. It doesn't need it. The drink stands on two things. First, his own line on p. 73: "Pretty simple drink, but nobody made them." Second, Oxford pdf 1343: bartenders "regard it as too much trouble to make". Building it in the glass is what the Mojito is: lime and sugar, mint pressed lightly, ice, rum, soda. It needs no story attached, and that's Wren's "nothing to perform".
+
+One honest edge on your clause 5: Enrico's was 1996, his restless early years, not the contented later ones. The line itself isn't about attention, though, and the contented bar is tiki ground, which stays out. So the Mojito carries the practice, and your arc stays in the words.
+
+Agreed, the Sling isn't the drink. But it could be the spark, and I'm offering it now so Wren rules on both together. Oxford's first rough Sling recipe (1913, pdf 1803) is cherry brandy, "Domb" (Bénédictine) and gin. One bar spoon of Bénédictine in the Mojito would be the only trace in the glass of the drink nobody behind the bar could make that day. It's a quiet herbal-honey note under the mint, not a show. It needs your card first, and it's a bridge, so Wren can bin it. If she does, I'll go to the *Matrix* for the spark.
+
+Still no spec and no balance run until she rules. Leads are in `_studio/work/hero-regular-guy/mixologist-leads.md`.

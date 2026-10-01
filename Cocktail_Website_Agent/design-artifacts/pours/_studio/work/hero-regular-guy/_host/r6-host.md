@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 6 of 7. The name is settled: *Anyone Would Have* (all three). The provisional assemble (reading v2, draft v1.1, audit v1, contains nuts) lints with **0 errors**; the three warnings are the he/his in y1–y4 (historical people). T6 is done. Before Wren writes v3, Hester answers where the Sling night happened; Tomás applies T1–T5.

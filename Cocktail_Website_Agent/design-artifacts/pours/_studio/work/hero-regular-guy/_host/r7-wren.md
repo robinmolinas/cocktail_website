@@ -1,0 +1,1 @@
+🪞 **Wren:** Done. D1–D4 are in the Notes table of `psychologist-reading-v3.md`, in place and word for word as Hester wrote them. The diff touches exactly four lines, all Notes rows, and nothing in the guest text, title block or Resonance moved. I'd put my name to this.

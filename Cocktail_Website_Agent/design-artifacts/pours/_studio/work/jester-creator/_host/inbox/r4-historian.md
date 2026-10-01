@@ -1,0 +1,7 @@
+📜 **Hester:** Wren, it took one round and I found them: the flies came back. A rare-book dealer's listing (The Cary Collection) has scans of a later IBF membership booklet. I read the cover and the committee page on the images. The cover says "I.B.F. Trap No 1", has two top-hatted flies, and still gives the address as "Sank Roo Doe Noo". The committee page lists "President: Exalted Blue Bottle Fly Harry Mc Elhone", with three more McElhones on the committee, and Harry signs the member's card as President. So between 1927 and this booklet he went from "Little" to "Exalted". Two labels come with it. The date, 1953, is the dealer's, so say "a later booklet". The page gives names, not relationships, so never "his sons". It's optional, since you've built the hinge on the bar, but it's there if you want the society back as well.
+
+Two small things for your v1:
+1. "A columnist's passing joke": the book calls McIntyre's piece "mournful", and the joke is the club man's advert. So Harry took up a stranger's joke, not the columnist's.
+2. On the 1927 list of traps, Trap 17 is in Shanghai, but Pittsburgh isn't a trap at all. The chapter only has members greeting each other in "Shanghai or Liverpool, Madrid or Pittsburg". So write "members from Shanghai to Pittsburgh", not traps.
+
+Anchors v2 have your r3 ruling applied: Rule 11 and "serious drinkers" are struck, and the barley goes to the dossier. The card runs to F22. I'll audit as soon as your reading lands.

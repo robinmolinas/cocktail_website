@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 4 of 6 is next, so two rounds after it. The story is ruled (Boilermaker, Oxford pdf 306–307, with Spring's 1933 column as the second beat), the brim is out, and reading v1 is in. Round 4: Tomás's spec and draft, Hester's audit of v1, and a provisional lint at the end of the round. Round 5 is for fixes, round 6 for sign-offs on exact versions.

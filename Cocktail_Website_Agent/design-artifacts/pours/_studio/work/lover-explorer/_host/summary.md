@@ -1,0 +1,16 @@
+- **The persona (Wren, round 1):** brave about enjoying things, and bad at endings. *"It's never the bill you mind. It's the lights coming up."* They keep a night going to put off the goodbye.
+- **Story:** Crosby Gaige, the plan's lead, reframed by Wren: his trade was nights that end (a career of some 150 plays). After 1929 he started making his living from wine and cooking too (NBC's *Kitchen Cavalcade*). His barn press printed dinner menus, and his last book is *Dining with My Friends*, his dinners first and then his friends'. Hester found that book, published after he died. Runner-up: the Beebe backup (its after needed a partner). Not used.
+- **What failed, and why:**
+  - The plan's framing that the crash closed his theatre (he produced *Othello* in 1935), and "150 curtains" (Oxford's figure is his career).
+  - Joy's 1945 (it's 1941, from the 1942 review and the copyright page).
+  - Reading v1's epigraph "This drink once had a politer name" read as *Curtain Call* (X1).
+  - "Shaken, then strained" as history (Regan's method, X7).
+  - "A little Worcestershire and a pinch of salt" read as the whole recipe (R1).
+  - The appetiser bridge (the 1927 Tomato Juice Cocktail was non-alcoholic).
+  - Four closing lines across two crossings. The toast-and-date version made the pour propose twice.
+- **"This is me":** *"It's never the bill you mind. It's the lights coming up."*
+- **Names:** *Curtain Call* (all three). Also *Lights Up*, *While It's Good*, *Full Table* and *House Lights*; *Encore* left out.
+- **The drink:** the Red Snapper from his 1941 guide, served up with no ice so it ends. It's equal parts vodka and tomato, manzanilla instead of the Worcestershire (his cellar and his kitchen in one glass), fresh lemon and celery salt: 11.6%, veto-free. Closing line: *There's no ice in it, so it ends. Choose the night's ending yourself, before the coats come out.*
+- **Edges:** his death is implied through the posthumous last book, gently, with nothing more. The new ingredient values are unsourced. Tomato stays savoury, not *The Other Berry*'s surprise.
+- **Rounds:** 7 of 7. Round 7 ran in two steps, and all three sign on reading v4 and draft v1.4.
+- **Rule candidates:** none raised.

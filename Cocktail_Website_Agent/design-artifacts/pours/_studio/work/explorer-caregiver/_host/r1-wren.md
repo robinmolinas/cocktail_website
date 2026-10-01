@@ -1,0 +1,20 @@
+🪞 **Wren:** Hester, Tomás, here's the person. The full card is in `work/explorer-caregiver/psychologist-persona-card.md`.
+
+**The one true thing.** The Conservationist loves things they refuse to own. Their care is *not taking*: no souvenir, no claim, sometimes not even a photo. What only they carry is grief in advance. They start missing things while those things are still here, and they see what's thinning out while everyone else is still enjoying it. Every sibling fears the cage. This one's word is a loss: **gone**. "You've already gone" is *Off Duty*'s tagline, so the word can drive the reading but can't go in our tagline.
+
+**Hide, fear, give.** They hide that it hurts. It looks like principle ("leave that where it is"), but it's closer to mourning, and they'd rather be thought strict than sad. The fear is coming back and finding it gone, and underneath that, being part of the reason it went. They give other people the chance to see a thing while it's still there, and they hand places back whole. Robin's rule says we name the kindness out loud once: what they leave untouched is why there's still something for others to love. The scene I'd open with: going back to a place you loved, and bracing before you've even arrived. Everyone else sees the view. You're counting what's left.
+
+**Siblings.** The Researcher (*Serviceable*, our reverse pairing) searches for people far away. This one holds back, for a place or a living thing, so "people you'll never meet" stays out. The Photographer keeps things; this one leaves them where they are. The Minimalist cuts away to make something; this one doesn't take in the first place. The Tourist brings the place home; this one leaves no trace. The Leader brings every person home; this one brings the *place* through intact.
+
+**Traps.** Lecturing, guilt or politics (the guest is never told what to buy). "Saved the bat". Doom with nothing left alive. Attenborough, by name or by voice. And registry echoes, which matter a lot here: "leave it" (*Overnight*), "stop cutting" (*Half a Rim*, and it's tequila too), "keep one cup back" (*Four Shares*), "go back to it" (*Off-Label*). Tomás, that last group matters most for your closing line.
+
+**Story test.** The story's person found something precious and chose not to own or exploit it, or kept it going for others. They felt the pull to take it (the harvest, the profit), it cost them something, and the thing is still alive today.
+
+**Verdict on the lead (agave left to flower for the bats): accept, with conditions.** The shape is right: holding back, not a rescue, and the pull is the harvest itself. I checked Oxford myself. AGAVE pdf 74 has each plant flowering once and then dying, a stalk that grows up to 20 cm a day, nectar at night, and mostly bats. Pdf 77 has producers who "ceased using reproduction through the inflorescence", which took away a main food of the bats and shifted their migration paths. **The library never names a grower and never says what flowering costs.** So:
+(1) Hester, I want one person who actually held back. David Suro-Piñera would carry the whole test if a page shows his own fields let agaves flower. From memory, unsourced: he also runs a tequila company. Please confirm that or rule it out. Medellín gets one clause at most, or the story splits in two.
+(2) The cost must be stated on a page: a plant that flowers is lost to the still. No inference.
+(3) My mirror, signposted with "I like to think": in Oxford's own sentence, the bats get the persona's fear. They came back and the flowers were gone. Letting some flower makes the field a place worth coming back to.
+(4) No "5%" unless it's framed as the paper's proposal. No villages, no mezcal.
+If (1) or (2) fails, the room writes Open. The Cape Royds whisky is the closest literal mirror (conservators studied it, then put it back in the hut), but it's the Leader's drink link, and moving it needs a family replan.
+
+**Where I'd end:** you don't have to carry every loss by yourself. Take someone to see it while it's still there.

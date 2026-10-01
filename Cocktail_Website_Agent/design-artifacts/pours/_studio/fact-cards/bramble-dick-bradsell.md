@@ -1,0 +1,34 @@
+# Fact card: Dick Bradsell and the Bramble (and what "mûre" means)
+
+Verified by Hester 2026-10-01 for explorer-lover (The Sense Seeker). Library pages read in full on screen in the same call; web pages curled and stripped.
+
+| ID | Fact | Source | Tier | Notes |
+| --- | --- | --- | --- | --- |
+| F1 | Dick Bradsell (1959–2016), born in Bishop's Stortford, raised on the Isle of Wight; moved to London in 1977 at eighteen. | Oxford, BRADSELL, DICK (pdf 335) | primary | "Raised on" only: "childhood" is our inference. Say "the island where he grew up". |
+| F2 | A cider supplier brought Bradsell three liqueurs: a cassis, a framboise and a mûre. | *A Proper Drink*, p. 31 | primary (his words, to Simonson) | Of the three, only the mûre is said to take him anywhere. |
+| F3 | Bradsell: "As soon as I tried the mûre, I was back in that blackberry patch on the Isle of Wight. It was spot-on, that flavor." | *A Proper Drink*, p. 31 | primary (quoted) | His words. Paraphrase for the reading: one taste of the liqueur and he was back among the island's blackberries. |
+| F4 | Oxford's version: the crème de mûre "evoked memories for Bradsell of the blackberries that grow on the Isle of Wight"; the drink was "intended to be a salute to British flavors". | Oxford, BRAMBLE (pdf 336); source: personal interview with Bradsell, 15 Jan 2011 | primary | |
+| F5 | He made "a British drink with gin, lemon, and sugar". "The scene was totally vodka then." | *A Proper Drink*, p. 31 | primary (quoted) | One light clause only (Trend Setter owns "liked it first"). |
+| F6 | **Counterweight.** Oxford: Bradsell based the Bramble on a version of the Singapore Sling he had made at the Zanzibar; at Fred's he moved it to a shorter Old-Fashioned glass, dropped the soda and Bénédictine, and gave it a more British name. | Oxford, BRAMBLE (pdf 336) | primary | The taste gave the drink its fruit and its name; the shape came from a drink he already made. Never "the taste gave him the whole drink". |
+| F7 | Fred's Club: a private membership club "favored by media and celebrities" (Proper); in Soho, opened the year before (Oxford). | *A Proper Drink*, p. 31; Oxford pdf 336 | primary | Members, not strangers: "strangers" is interpretation only. |
+| F8 | Date conflict: Oxford says 1989; Proper says on the menu 1991 or '92, "Bradsell was not sure". | Oxford pdf 336; *A Proper Drink*, p. 31 | conflict | No year in the reading. |
+| F9 | It "became popular straight off"; its appeal widened at Jonathan Downey's Match; "soon the drink leaped the Atlantic". | *A Proper Drink*, p. 31 | primary | |
+| F10 | "You can do it at parties right away," said Bradsell: Simonson gives this as a reason it spread, "the fact that it was easy to make". | *A Proper Drink*, p. 31 | primary | It's about ease of making, not about sharing a sensation. |
+| F11 | The Bramble was "a gin sour when nobody was thinking much about gin", made with crème de mûre, "a blackberry liqueur nobody thought of at all". | *A Proper Drink*, p. 25 | primary | |
+| F12 | Recipes: Proper 2 oz gin, ¾ oz lemon, ½ oz simple syrup, shaken, strained over crushed ice in an old-fashioned glass, ½ oz crème de mûre drizzled on top; blackberry and lemon wedge (pp. 31–32). Oxford 60 ml dry gin, 30 ml lemon, 15 ml *rich* syrup over crushed ice in a double Old-Fashioned glass, 15 ml crème de mûre drizzled on top; blackberry and lemon slice (pdf 336). | as given | primary | Lemon ¾ oz confirmed on the rendered page (pdf 45), 2026-10-01; syrup ½ oz *simple*. So Proper prints 60 · 22.5 · 15 simple · 15 mûre, and Oxford prints 30 lemon and *rich* syrup: the two books differ, and neither is "Bradsell's own" written recipe (Proper's is Simonson's printing under Bradsell's name). |
+| F14 | Simonson: the Bramble is "very sessionable, being relatively light in alcohol"; "the fresh blackberry garnish gives the drink a striking presence". | *A Proper Drink*, p. 31 | primary | |
+| F15 | *Flavor Matrix* BERRY (pdf 52): Best Pairings include "wine, vinegar"; blackberry is a listed subtype, and "all three groups have similar affinities". | *Flavor Matrix*, pdf 52 | primary | **Corrected r4:** the Berry chart on pdf 53 (rendered) also has *balsamic* by name. My r3 "vinegar, not balsamic" was wrong. |
+| F16 | "Modern classic": Oxford FIX calls the Bramble "one of the undisputed modern classics" (pdf 792), but CLASSIC COCKTAIL lists it among "candidates for eventually becoming classics" (pdf 473). Simonson includes it among his "modern classics" (Proper p. 5; recipe pp. 31–32). | as cited | conflict within Oxford | Say "a modern classic", no ranking. |
+| F17 | *Bramble*: "a wild bush with thorns, that produces blackberries"; in UK English also a blackberry. | Cambridge Dictionary online (curled 2026-10-01) | secondary (dictionary) | Oxford says only "a more British name": why he chose it isn't on record. |
+| F13 | Gin: Bradsell thinks he first made it with Booth's Finest, "definitely wasn't Gordon's" (the house gin). | *A Proper Drink*, p. 31 | primary | Dossier only (his "some brands were crap" is connoisseurship). |
+| M1 | **"Mûre" means both fruits in French.** Larousse: *mûre*, "Fruit du mûrier" (mulberry); *mûre (sauvage)*, "fruit de la ronce" (the bramble, i.e. blackberry). | Larousse online, "mûre" (curled 2026-10-01) | secondary (dictionary) | |
+| M2 | Oxford's MULBERRY entry (Doug Frost) calls crème de mûre a mulberry liqueur and names the Bramble. | Oxford, MULBERRY (pdf 1368) | primary, but outlier | No source given in the entry. Conflicts with pdf 336 and Proper pp. 25, 31. Dossier only. |
+| M3 | **Ruling: in the Bramble, the mûre is blackberry.** Bradsell's own taste-recognition was "that blackberry patch" (F3); Oxford BRAMBLE glosses "crème de mûre (blackberry liqueur)" from his interview (pdf 336); Proper p. 25 "a blackberry liqueur"; the drink's name is the blackberry bush. | as cited | primary | |
+| M4 | Bottles today: Giffard Crème de Mûre (Blackberry), "made from concentrated blackberry juice", 16%, France; Briottet sells crème de mûre as "Blackberry Liqueur", 18% (its own English text slips to "mulberries or brambles" and "1 dose of mulberry": the confusion is the translation's). | giffard.com product 422; boutique.briottet.fr product 1787 (curled 2026-10-01) | secondary (producer) | Spec as a style: "crème de mûre (blackberry liqueur)"; check the label says blackberry. |
+| F18 | Giffard Crème de Mûre: "Color Deep purple color"; "Aromas of fresh blackberry purée and jam"; "Bitterness of the seeds at the end". | giffard.com product 422 (curled 2026-10-01) | secondary (producer) | For the image brief's colour; one bottle, not the category. |
+
+## Guards
+- No year. No "childhood" (say "where he grew up"). No "strangers" as fact.
+- Never "the taste invented the drink": F6.
+- Never "his recipe" for our riff.
+- Espresso Martini, "delinquent adolescent", the union refusal (Proper p. 23) and the gin-brand talk stay out of this pour.

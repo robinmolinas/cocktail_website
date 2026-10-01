@@ -105,7 +105,7 @@ def profile(k):
                      for x in ps if x["primary"] == p["primary"] and x["key"] != k],
         "pour": {"status": status, "file": path}, "image": image(k),
         "reminders": ["Archetype names (%s, %s) are NEVER shown to the guest; only '%s'." % (p["primary"], p["secondary"], p["name"]),
-                      "No gendered language about the guest; some source names are gendered (e.g. 'The Boy/Girl Next Door')."],
+                      "No gendered language about the guest; a few source names still are (e.g. 'The Straight Man', 'The Little Prince')."],
     }
 
 

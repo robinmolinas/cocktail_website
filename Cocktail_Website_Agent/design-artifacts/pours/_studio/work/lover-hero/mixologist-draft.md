@@ -1,0 +1,47 @@
+# Tomás: draft, lover-hero (v1.1, round 6: Hester D1-D3 applied, closing line sharpened, name settled; drink unchanged)
+
+Spec: `_studio/specs/lover-hero.json` (v1). Story: Nellie Bly at Amiens, 1889 (Wren r3). Wren's three conditions: the toast; the page's wine, named as ours; warm, not cold, and not hot. My r3 New York Sour (shaken, cold) is withdrawn: it failed the third.
+
+**family:** martini (Codex root: Martini; spirit and a wine-based modifier, built in the glass)
+**glassware:** stemmed red wine glass (about 250 ml), at room temperature, no ice
+**contains:** veto-free
+
+## Recipe
+| amount | item | note |
+| --- | --- | --- |
+| 60 ml | young red Bordeaux (claret) | "Claret" is the old English name for red Bordeaux. Any dry, medium-bodied red works if it isn't oaky or sweet. The story names no wine, so this one is my choice. |
+| 30 ml | straight rye whiskey | any straight rye, 40-50% |
+| 7.5 ml | demerara syrup | 1½ teaspoons: equal weights of demerara sugar and warm water, stirred until dissolved, then cooled. Use up to 10 ml if your wine is firm and grippy. |
+| 2 dashes | Angostura bitters | |
+| 15 ml | water | at room temperature, not from the fridge |
+| 1 strip | orange peel | squeezed over the top, then set aside |
+
+## Method
+1. Keep everything out of the fridge: the rye, the wine, the water and the glass all stay at room temperature. A cool room is best. No ice, at any point.
+2. Pour the syrup, the bitters and the rye into the glass and stir for a few seconds to mix.
+3. Add the wine and the water, then stir gently three or four times.
+4. Hold the orange peel over the glass, skin side down, and squeeze it so its oils fall on the drink. Set the peel aside, so nothing is in the glass when it's raised.
+
+## Checks
+| check | result |
+| --- | --- |
+| Structure | Codex Martini family: "a base spirit and an aromatized wine, be it vermouth or another flavorful wine-based modifier", flexible in proportion and in sweetness (Codex p. 64). Core: rye whiskey, 30 ml, with red Bordeaux, 60 ml, as the wine. The wine is the larger part, because the toast is the wine. Balance: demerara syrup. A dry red has almost no sugar (LI table, Cabernet row: 0.2 g/100 ml), and replacing a sweet modifier with a dry one needs sugar put back (Codex p. 77, my Connoisseur lesson). Seasoning: Angostura and orange oils. These aromatize the plain wine in the glass. No citrus juice, no egg, no ice. |
+| Balance | `balance.py`, style **freeform**: Arnold has no style for an unchilled mixed drink. Recipe 114 ml, no dilution. Result: **20.9% ABV, 4.23 g sugar/100 ml, 0.289% acid**. **Sweeps** (all run): rye 40-50% and wine 13-14.5% (my red Bordeaux row 13.5%, the young Spanish row 13%, the LI Cabernet row 14.5%) give **17.6-21.4%**. Syrup 7.5 or 10 ml gives **4.23 or 5.47 g** (acid 0.289 / 0.283%). **Judged against:** Arnold's stirred finished bands (21-29% / 3.7-5.6 g / 0.10-0.14%). Sugar is in band at both stops. Strength sits at or below the floor on purpose: a drink served at room temperature is closer to a fortified wine than a stirred cocktail (LI p. 104: a sweet vermouth at 16.5%; this runs 18-21%). I put sugar low in the band at 7.5 ml because warmer drinks seem sweeter than ice-cold ones (LI p. 51, pdf 55: drinks 'get sweeter if they are allowed to warm up'). **Edge, owned:** acid is about twice the stirred band. All of it comes from the wine (LI's dry red row: 0.55%, here halved), so the drink is softer than a glass of the same wine and sweeter than one. The number is high for a cocktail but low for a wine. Like bitterness, tannin is invisible to `balance.py`: for a firm, tannic red, the 10 ml stop is the proven answer. Unsourced values: my `red_bordeaux` row's ABV (13.5%) and `rye_40`. Its sugar and acid are LI's dry-red row. **Temperature:** "room temperature" is the old way. Until the 1840s the Cock-Tail "had up to that point been drunk at room temperature" (Oxford HYDROSOL/NATURAL ICE pdf 1049). That a cool room of about 16-18°C suits red wine is my knowledge, unsourced, and it isn't printed in the recipe. |
+| Pairings | Whiskey with red wine is the 1880s American bar's own pairing. In 1883 a Chicago bartender said guests "expect a claret at every bar" on their whiskey sours, and that the claret "gives it a better taste" (*Imbibe!* pdf 96). The New York Sour, as that drink came to be called, "calls for rye" (pdf 97). Rye is my choice of whiskey. Bly's Pennsylvania birthplace stays out (Hester r5: a region and an era, not her county, and it would be *Brought Home*'s "two places"). The drink dates to the 1880s, first attested in Chicago in 1883 (Oxford NEW YORK SOUR pdf 1387), so it's of Bly's time. But this glass isn't that drink: there's no lemon and no ice, and the wine is the core, not a float. Angostura and orange peel with red wine: my craft (the mulled-wine and punch families; unsourced). **Spark: the *Flavor Matrix* was consulted and set aside.** GRAPE (pdf 140) lists honey and stone fruit among the best pairings and notes an affinity for sour flavours. Honey is *Any Day*'s, and the story's drink is one plain toast. Corn's entry lists red wine as a surprise pairing (pdf 88), but that's corn, not rye, so it isn't claimed. Following Robin 2026-09-30, the drink's interest is elsewhere. It's a cocktail with no ice in it, made the way the Cock-Tail was drunk before ice went into it: 'at room temperature', until New Yorkers began icing theirs in the 1840s (Oxford pdf 1049), with the toast's wine as its larger part. **Kept out on purpose:** the biscuit. The page's "wine and biscuit" stays in the reading. A biscuit beside the glass would add gluten (and usually egg and dairy) to a veto-free pour, and it would have to be true every time (Wren r3). |
+| Allergens | `allergens.py`: contains **[]**, veto-free (counts toward the AD-4 floor); `--check ""` matches. New rows (mine): `red_bordeaux` (no veto; wine fining ignored, STUDIO-RULES 4, no named bottle) and `rye_40` (distilled grain spirit, not gluten). |
+| Makeable | Supermarket bottles: any young red Bordeaux (or a dry, unoaked red), any straight rye, Angostura. Demerara syrup is made at home in two minutes. Kit: a glass, a spoon, a jigger and a peeler. No ice, no shaker, no freezer. |
+| Siblings | Martini · rye · stemmed red wine glass: no registry triple and no plan reservation (registry rye: *Beside the First*, OF/coupe; *Next One's Mine*, highball; *Is It Just Me*, highball). The plan gave this row Old-Fashioned · cognac, and Wren r3 opened it ("re-check the shape"). The Lover family now plans 3 Martinis (Charmer, Bad Influence, Knight) and 2 Old-Fashioneds, for the host. *Is It Just Me* serves its rye neat at room temperature in a small stemmed glass. That's a different family and a mixed drink here, owned in one clause if the reading mentions temperature. Red wine elsewhere: *The Way It Felt* (red wine and cola, frozen cubes). No red layer and no float, so *Rosetta*'s red is untouched. No sugar cube (*No Accident*), no nutmeg, no cider, no sparkling wine (Wren r3). No closing line in the registry uses a toast. "Raise" appears in sibling pours only in other senses (grepped). |
+
+**closingLine:** *Raise it to someone first. When one's raised to you, you've brought enough.*
+
+(Wren's sharpening, taken in r6, and "before the first sip" cut to "first" because the phrase is already in three siblings (creator-lover's Checks, magician-regular-guy's method step 6, caregiver-innocent's anchors). It answers the tagline "You bring it", where "needn't have brought a thing" seemed to contradict it for a second. The position: they wanted you, not what you'd bring. The bareheaded Vernes and the toast are the proof. Wren owns the wording, and I'll take hers if it lands better. Neighbour to watch: *Next One's Mine* ("Let someone get this one") is about accepting a favour. This line is about being wanted with no favour involved.)
+
+## Image brief
+A stemmed red wine glass at room temperature: no frost, no condensation, no ice. It holds a clear, deep ruby-garnet drink, about a third full, with nothing in it or on the rim. (Colour: a red Bordeaux let down by rye, a little water and the syrup. That it's paler at the rim than a glass of wine is my inference, unsourced.) It stands on a small round table in warm firelight from a fire in the room (Bly ch. IV, card F17: Mme Verne lit it "With her own hands"; the fireplace's look is ours). A pair of travelling gloves, just taken off, lie beside it (ours: they say someone has just arrived, and they carry no page fact). Behind it, a door stands open onto a cold, grey winter courtyard, with an iron gate open at the far side (Bly ch. IV: "the cold court-yard", waving "at the gate"). **The one impossible detail:** the firelight from the room falls across the cold courtyard in one warm path, all the way to the open gate. Palette: the deep navy of an evening sky (Pantone 2965), garnet, fire-gold, winter grey. **Must not appear:** a second glass or any other drink, ice or frost on the glass, a biscuit, a train, a clock or watch, a globe or map, luggage labels, any text, any face.
+
+## Names
+- **Out of Your Way** (the room's pick: Wren's, and I conceded mine, *Out of the Way*. It holds the fear of being in the way beneath the gesture, and her record counts "179-1/2 miles out of my way")
+- **Raised to You**
+- **All the Way** (Wren)
+- **Both Hands** (Wren)
+- *Travel-Stained* stays in the reading only (Wren: on a label the guest would be calling themselves untidy)

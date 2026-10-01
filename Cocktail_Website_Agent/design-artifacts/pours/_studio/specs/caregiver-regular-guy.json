@@ -18,11 +18,11 @@
    "count": 2
   },
   {
-   "key": "cream",
+   "key": "toasted_oat_cream",
    "ml": 30,
-   "note": "fresh heavy cream, whipped by hand to soft peaks (about double), spooned on; not modelled in the layer below; dairy declared"
+   "note": "heavy cream steeped cold (at least 2 h) with 10 g rolled oats toasted in a dry pan per 80 ml (two glasses), strained; whipped by hand to soft peaks, floated; modelled as plain cream; dairy + gluten declared"
   }
  ],
  "garnish": [],
- "_status": "v1 (Tom\u00e1s, round 2). Whole glass (cream in) is what balance.py reads below; the coffee layer as drunk under the cream (scratch mixologist-v-40-80-2.json): balance.py hot 12.8% / 6.40 g / 0.064% acid, all in range. Oxford F7's 45 ml / 75 ml runs 14.4% (OUT) under the cream, so whiskey 40 and coffee 80; 45/80 = 13.8% OUT, 40/75 = 13.3% EDGE. Sugar proven only at two cubes: one = 3.26 g OUT, three = 9.41 g OUT. With the cream stirred in by the last sip: 11.6% / 5.74 g (checked at 45/75). allergens: dairy (cream). Classic kept on purpose (v1.1, round 4): brown/demerara cubes are Oxford's own preference (pdf 1077), not a spark; Matrix consulted and set aside, reasons in mixologist-draft.md Checks."
+ "_status": "v2.1 (Tomás, rework round 2; batch for two, 2026-09-30): cream -> toasted_oat_cream (Robin: a plain Irish Coffee may disappoint). Numbers unchanged: whole glass 10.3% / 5.74 g / 0.05%; coffee layer under the cream (work/mixologist-v-40-80-2.json) 12.8% / 6.40 g / 0.064%, all in range (hot). allergens: dairy, gluten. Spark sources: Flavor Matrix Grain pdf 136-137; Oxford OATS pdf 1414, MASH pdf 1253. v1 history: Oxford F7 45/75 = 14.4% OUT; 45/80 13.8% OUT; 40/75 13.3% EDGE; one cube 3.26 g OUT, three 9.41 g OUT."
 }

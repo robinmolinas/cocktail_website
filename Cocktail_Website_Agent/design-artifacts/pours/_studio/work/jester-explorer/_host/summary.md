@@ -1,0 +1,14 @@
+- **The persona:** the Alternative Comic plays with what the room expects to happen next, stretching the second where nobody knows if they're allowed to laugh. They hide how much they care, and fear that the strange reads as cold (Wren, round 1).
+- **The story:** the Aviary, Chicago, 2011. An Old-Fashioned served inside a ball of ice that a server cracked. The first crowd "received [it] rather coolly", and a critic that May found the drinks comic and "chilly, impersonal" in the same review. In 2012 Charles Joly arrived, and the approach "altered": the drinks were just as strange, now with a joke and a chat. Joly later said that what it lacked was "a sense of hospitality". The plan's lead was kept and narrowed. Hester's find, the critic's "chilly", became y2's spine.
+- **The drink:** a rye Old-Fashioned with a quarter Zacapa 23 rum, poured into a shell of ordinary cloudy ice frozen in a plastic cup. Whoever made it cracks it at the table, then stays. Veto-free. 31.9% / 6.83 g.
+- **What failed and why:**
+  - The rum swapped twice across rounds 4 and 5, as Wren and Tomás convinced each other in crossing rounds. Tomás ruled it in once in round 6.
+  - "Sealed" was false, because the shell has a hole.
+  - Several phrases went past the page and were cut: "the most familiar cocktail there is", "perhaps the finest" (Simonson's "ultimate" means most typical), "somebody laughed", "in the same week", the "because" between two passages, "partly" in old whiskey barrels, "the rum and the rye are known to get on" (it's Zacapa's affinity, not the style's), and "no temperature gap for melting" (*LI* says otherwise).
+  - "Breaking the ice" was struck as a closing line (too familiar for this person).
+- **"This is me":** "You'd never explain one of your jokes, because explaining feels like taking it apart while everyone watches."
+- **Names:** *Unrehearsed* (all three), on the condition that it names the laugh, never the drink. Runner-up: *Cold Open*.
+- **Edges:**
+  - The serve, the freezing time and the melt are ours or craft calls, not the Aviary's or measured.
+  - Zacapa is named because the claim is that bottle's.
+- **Rule candidates:** none raised.

@@ -1,0 +1,19 @@
+- **The persona:** the Stand-up says out loud the small thing everyone does and nobody mentions, and the room finds out nobody was alone with it. Underneath, every "we all do this" is a confession, "I do" (Wren, round 1).
+- **The story:** the Boilermaker. In 1896 a man ordering whiskey with a beer caused consternation among the regulars, though in Scotland and Ireland it was already ordinary (Oxford pdf 306). Then William A. Spring's December 1933 Yonkers column, joking about sixty of his town's bartenders, gave the plainest drink the plainest line: "Dave Ray—Boilermaker and His Helper." The plan's lead was kept and its mirror moved: Wren dropped "working people named it" (no namer on record). Hester found the 1933 column on the page. The 1896 *Herald* article itself couldn't be found.
+- **The drink:** straight rye steeped with dried apricot (the *Matrix* spark: stone fruit with beer), in a small stemmed glass beside a very cold German-style pilsner. Nothing dropped in, no ice. **Contains gluten and nuts.** The pair is 10.2% / 1.36 g / 0.282%.
+- **What failed and why:**
+  - Four of Wren's round-1 phrases went past Oxford ("uproar", "only odd in that room", "forty years on", "all along").
+  - The cousins (Herrengedeck, Kopstoot) couldn't carry "every country had a name", because there are two countries and both are dated later.
+  - The Kopstoot brim was struck by Wren (a second country's ritual, a drink you perform).
+  - v1 had a "we" (lint error) and five audit fails.
+  - "An afternoon" undersold the six-to-eight-hour steep.
+  - Hester struck her own "every bartender in town".
+- **"This is me":** "You say 'everybody does this' because it's kinder, and safer, than 'I do'."
+- **Names:** *Is It Just Me* (all three). Also considered: *No Joke*, *A Whiskey and a Beer*, *Not Only You*, *Strange Drinks*.
+- **Crossings:** the closing line went from "when you tell it" to "your story" to "the joke", avoiding *Anyway*'s "tell the story".
+- **Edges:**
+  - Not veto-free (gluten unavoidable; nuts on the safe side).
+  - The steep is a craft call.
+  - The rye must be ≥45%.
+- **Budget:** the first room on Robin's 6-round budget (2026-10-01). Six rounds, with round 6 run in steps.
+- **Rule candidates:** none raised.

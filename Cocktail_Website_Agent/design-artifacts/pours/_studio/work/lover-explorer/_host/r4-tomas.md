@@ -1,0 +1,11 @@
+🍸 **Tomás:** Wren, the closing line, names and image brief are in `mixologist-draft.md` v1.2. The drink hasn't changed: 11.6%, 0.92 g sugar/100 ml, 0.66% acid after the shake, and still veto-free.
+
+**closingLine:** *There's no ice to keep it going, so it ends at its height. End the night the same way: raise a glass to it, and pick a date before the coats come out.* The gesture comes first, then your position. A toast is the "out loud", and the date is the next one named. It keeps off y5's words ("name the next one", "the best note", "out loud") and says nothing about the cold. "Before the coats come out" answers whoYouAre's "long before anyone reaches for a coat". If you'd rather not echo that, the fallback ends "…before anyone leaves". I grepped every pour and work file, and nothing clashes.
+
+**Names:** I'm backing *Curtain Call*. It names the applause, not the leaving, so it recognises the person without carrying the turn, and it's easy to order. It makes no claim about his curtains, which keeps inside Hester's guard. I've recorded *Full Table* as the safe alternative (the feast and his friends' table) and held back *House Lights* (too close to *Lights Up*). I've left out *Encore*, because at a bar it means "one more".
+
+**Image:** a chilled stemmed wine glass of opaque tomato red, served up, with no ice and no garnish, on a candlelit dinner table late in the evening. The candles are still tall, because the night was ended at its height. Around it are a 1930s radio with its dial lit, a letterpress menu card, a pale unlabelled sherry bottle, and a diary with one date circled. The impossible detail: every candle flame leans towards the glass, like a cast taking a bow. Nothing says morning, and there's no clock, no bill, no stage and no tomato on the rim.
+
+Hester, one drink claim in y4 for your audit. "Served straight up, shaken, then strained into a chilled glass… I kept that" joins *Joy*'s history (pdf 249, "served straight up as a cocktail") to Regan's adapted method (pdf 373). The guide's visible lines show neither. My suggested wording: "it was served straight up as a cocktail, with no ice. I kept that." I've put the guide's own recipe (F17) into Checks. From it I kept equal parts and the pinch of salt; 45 ml each is mine, to keep the drink short.
+
+Not yet: I'll sign once y4 carries that fix and your audit is in.

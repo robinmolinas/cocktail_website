@@ -1,0 +1,25 @@
+# Anchors: explorer-caregiver (The Conservationist)
+
+Hester, v4 (final), round 7 (2026-09-30), confirmed by audit v4 against reading v4 and draft v2.3; drink rows follow spec v2 (the peach). If Wren keeps the elderflower, the v2 St-Germain row comes back (Oxford COOPER SPIRITS pdf 575; CORDIALS pdf 579). Story ruled by Wren in round 3: lead = the agave left to flower for the bats, with David Suro-Piñera as the person. Card: `_studio/fact-cards/bat-friendly-agave-suro.md`. Ceilings: "the agaves behind one of his own tequilas" (never "his fields"); "let some flower" (never "certified"); motive = bats *and* the plant's health; never "saved the bat".
+
+| kind | fact | meaning | speaksTo |
+| --- | --- | --- | --- |
+| ingredient | Each agave flowers once, on a stalk that can grow 20 cm a day, then dies; its pollen and nectar come at night, and bats do most of the pollinating (Oxford, AGAVE pdf 74). | The plant's one flower is its whole life's spending: a thing that's there once, and then gone. | one true thing: grief in advance; "gone" |
+| story | As tequila grew, producers stopped letting agaves flower; that took a main food from the nectar bats, whose migration paths shifted, and thinned the crop's genetic diversity (Oxford, AGAVE pdf 77). | What everyone else was enjoying (more tequila) was quietly thinning something out. | sees what's thinning while others enjoy it |
+| cost | A flowered agave is lost to the still: the sugar goes to the flower's nectar and the plant "is no longer useful for tequila production" (Univ. of Gothenburg, 2024, on *Environmental Research Communications*); the ecologist Rodrigo Medellín said letting it bloom is "considered a waste", since it can't be harvested for tequila (*Edible Philly*, 2016). | Holding back isn't free: the flower is paid for with the harvest. | the pull to take; it cost them |
+| person | David Suro-Piñera, who produces tequila (Siembra Azul, "Produced by David Suro", *Codex* p. 164) and co-founded the Tequila Interchange Project, helped start the Bat Friendly programme with Medellín: at least 5% of the agaves left to flower, bats seen feeding (batfriendly.org; *Natural Areas Journal* 36(4), 2016). | Someone inside the trade chose to leave some of the harvest standing. | not taking; hands places back whole |
+| person | One of his own tequilas, Siembra Valles Ancestral, is on the programme's first list, 2016 (batfriendly.org). | He held his own bottle to it, not only other people's. | not taking, in practice |
+| person | His reason, in his words: bringing back the bats' food came from "the necessity of genetic strength", healthier plants (*PhillyVoice*, 2023). | Care for the wild and for the plant's future are the same act. | gives: keeps a thing going for later |
+| person (dossier only, Wren r4) | He has given "more than we can afford" to the project, and wants it "totally independent… run by new people" (*Edible Philly*, 2016, his words). | He built it and won't own it. | loves things they refuse to own |
+| caveat | The lesser long-nosed bat came off the US endangered list in 2018, the first bat removed for recovery (EDF, 2018); it had many causes, and tequila is never credited. A second pollinator, the Mexican long-nosed bat, is still endangered (BCI, 2021). | Something is still alive, and not all of it is safe: no doom, no rescue. | fear: coming back to find it gone |
+| inference | "The bats came back and the flowers were gone" is our reading of Oxford's "shift in their migratory paths". Signpost with "I like to think". | The persona's own fear, handed to the bats. | fear |
+
+| drink | The Martini: "No other mixed drink, with the possible exception of punch, has inspired so many poems, so much prose" (Oxford, MARTINI). | The glass is a renowned classic, not a lecture. | let the drink sound worth having |
+| drink | Blanco "sees no time in oak" (*Codex* p. 164); a French-style blanc vermouth is "delicate, sweet, and herbal" and clear, a fixture of Martini variations, tequila included (*Codex* pp. 72–73). | Nothing in the glass hides the plant. | see it as it really is |
+| ingredient | One teaspoon of crème de pêche. The *Codex*'s favourite fruit liqueurs are apricot and peach; its Watercress stirs half a teaspoon of it with blanc vermouth "to add a fruity complexity" (*Codex* pp. 174, 88). | I like to think that spoon is the sweetness the still never got (our reading, signposted; its sugar was never the agave's). | the part that was let go |
+| drink | Siembra Azul Blanco, "Produced by David Suro" (*Codex* p. 164), 40% (Tequila Matchmaker). **Not** the bottle on the 2016 bat-friendly list. | His own tequila in the glass, with nothing claimed for it. | not taking; honest |
+
+## Not anchors (dossier only)
+- 5%: the programme's rule and Medellín's "just five percent" (*Cool Green Science*, 2017), never industry practice.
+- Conflict owned: Suro's bottle on his own programme's list; *PhillyVoice* says "no official certification process" (card C1, C3).
+- Out: mezcal (Siembra Metl), villages, "capado", 7 Leguas as bat-friendly, EDF's "restore".

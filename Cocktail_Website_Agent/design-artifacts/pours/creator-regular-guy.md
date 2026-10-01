@@ -65,7 +65,7 @@ Ask you about it and you'll shrug: it's nothing, just a picture. Making a fuss o
 
 3. I like to think the violet was the detail that made it true. It wasn't a flourish. It was part of the drink as his book gave it, and it was that plain record that kept it. That's what you do. You don't make things prettier than they are. You keep them as they were, colour, advert and all.
 
-4. So yours has his violet put back: a teaspoon of the violet liqueur, about what his book's two dashes come to. The rest is a modern balance, not his: gin, lemon, a little sugar and a teaspoon of maraschino, shaken and poured into a stemmed glass straight from the freezer. Only the colour is his. It isn't purple. It's a pale sky blue. And many London dry gins carry orris, the root of an iris, whose scent has long been compared to fresh violets, so the violet isn't a stranger in the glass.
+4. So the cocktail I've made for you has his violet put back: a teaspoon of the violet liqueur, about what his book's two dashes come to. The rest is a modern balance, not his: gin, lemon, a little sugar and a teaspoon of maraschino, shaken and poured into a stemmed glass straight from the freezer. Only the colour is his. It isn't purple. It's a pale sky blue. And many London dry gins carry orris, the root of an iris, whose scent has long been compared to fresh violets, so the violet isn't a stranger in the glass.
 
 5. One thing I'd ask. Stop calling it nothing. Somewhere in everything you've kept this year there's an ordinary day that someone else has already forgotten. Print it, and give it to the person in it. They don't know yet what their Tuesday looked like. You do.
 

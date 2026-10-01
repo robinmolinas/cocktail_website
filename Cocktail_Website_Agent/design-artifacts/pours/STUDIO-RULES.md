@@ -65,6 +65,7 @@ Robin reviews and approves. Only Robin sets `status: approved`. Agents propose n
 - **yours:** story → reveal → why it's you → the drink as proof → a proposal. The guest must *see themselves* in the story. It should never read as a list of connections.
 - **History takes at most half of the reading** (Robin 2026-09-26). The first four pours are the right weight; never more. A niche story is welcome: guests like discovering new cocktails and ingredients.
 - **One voice:** a single bartender speaks. "I", never "we".
+- **Never "yours" alone for the drink** (Robin 2026-09-30: "yours is confusing alone"). Say "The cocktail I've made for you", "the cocktail I crafted for you", "your cocktail" or similar. "Yours" about the person stays fine ("never yours to finish"). The lint flags "Yours…" at a sentence start, "so yours", "made yours" and "in yours".
 - **Signature vs. rationed phrases:** "I like to think…" is the bartender's signature and may recur. "Here's what I'd ask of you" and "That's you, isn't it?" are used **only now and then** (roughly one pour in four at most). Vary how the proposal and the recognition moment are introduced.
 - **Romantic interpretation is welcome when it's signposted** ("I don't know why, but I like to think…"). Only sourced statements count as fact, including someone's motive.
 - **The guest is reading, not drinking.** Never assume the drink is in their hand. The proposal points to a future moment or to life beyond the glass.
@@ -75,6 +76,20 @@ Robin reviews and approves. Only Robin sets `status: approved`. Agents propose n
 - **Coincidences are owned, not hidden**, in one plain clause.
 - **No repeated motifs across pours** (e.g. "the truth at the bottom of the glass" belongs to the Trickster).
 - **The Bartender manga:** the feeling, never its words.
+
+### Learned from Robin's edits to batch caregiver (2026-09-30)
+
+Inferred from his 26 direct edits (`_studio/robin-edits.md`). In each rule, the examples are his.
+
+- **Say the kindness out loud.** The rooms left the person's gift implied, and Robin added a clause naming it: "They'll just sleep well, *that's how you share that you care*"; "the next thing that isn't fair, *that's your purpose*"; "People love to hear that you've cared for them." Once per reading, state plainly what the person's way gives others, and that it's worth something. Insight into the fear isn't enough. The guest should also leave feeling valued.
+- **Tie the twist to the story in words.** Say why the change is in the glass, in one clause: "I swapped the sugar *as an ode to her courage*." Never leave the guest to work out the link between the addition and the story.
+- **Let the drink sound worth having.** Say when it's a famous or renowned classic ("a renowned classic", "famous mixed drinks", "a classic", not "an everyday drink"). Describe the guest's drink with appealing words, never modest ones ("crispest", not "plainest").
+- **End on what the guest gains.** A proposal that asks for restraint also gives something back: "focus on enjoying the fun yourself" (not "the measure can stay yours"). End on the guest's choice ("…but that you choose to say") or a warm wish from the bartender ("and I wish you plenty").
+- **Be gentle about the person's failings.** Say "some of what you try goes nowhere", not "most". Ground the trait in lived experience ("because you know to ask from experience"). Name what's at stake inside them too ("breaking a promise to others, but most importantly to yourself").
+- **Grant the legend before correcting it.** Say "Maybe, but it almost certainly didn't", not a flat "It didn't."
+- **Clear before clever.** If a pronoun could point to more than one person, use the name ("Barry retired"). Say what "things" are ("his four original cocktail ingredients"). Use plain verbs ("it doesn't last", not "it doesn't keep") and modern spelling ("bathroom", even when the source wrote "bath-room"). Don't talk about the research itself ("Nobody I've read says…" → "We don't know…, but I like to think…"). "We" for people in general is fine.
+- **A familiar touchstone from outside the bar is welcome.** A well-known book, or an everyday story like the Post-it Note, can make the point land faster. Use at most one per reading. Hester still sources any fact in it.
+- **One vivid word beats a general one** ("a *rowdy* kitchen goes quieter").
 
 ## Facts and the dossier
 

@@ -1,0 +1,14 @@
+{
+ "pairing": "jester-regular-guy",
+ "family": "highball",
+ "subfamily": "served apart: rye in a small glass beside a pilsner, never mixed (Oxford BOILERMAKER pdf 306-307)",
+ "style": "freeform",
+ "glass": "small stemmed glass (about 60 ml) for the rye, filled to the brim if Wren takes it; tall pilsner glass for the beer",
+ "serves": 1,
+ "ingredients": [
+  {"key": "apricot_rye", "ml": 45},
+  {"key": "beer", "ml": 330}
+ ],
+ "garnish": [],
+ "_status": "STAGED, NOT RUN (round 3): waiting on Wren's ruling. On ruling: add apricot_rye via add_ingredient.py (sugar from a sourced or unsourced dried-apricot value, safe-side allergens), run each glass alone and the pair, sweep the steep (apricots per 250 ml rye) and the rye's strength."
+}

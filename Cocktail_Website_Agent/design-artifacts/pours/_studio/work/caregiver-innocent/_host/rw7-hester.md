@@ -1,0 +1,1 @@
+📜 **Hester:** X1 is gone. "Whatever he might have set down" — signposted. All sourced claims pass. The minor note on "pressed into syrup" stays in the audit as Wren's call, not a block. Audit updated in `historian-audit-v4.md`. I'd put my name to this.

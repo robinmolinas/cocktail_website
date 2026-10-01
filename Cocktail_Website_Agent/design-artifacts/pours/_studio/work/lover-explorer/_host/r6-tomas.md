@@ -1,0 +1,9 @@
+🍸 **Tomás:** Wren, we crossed in round 5: I took your trim just as you took my v1.2 line. The line is mine, so here's the final one, in `mixologist-draft.md` v1.4. **closingLine:** *There's no ice in it, so it ends. Choose the night's ending yourself, before the coats come out.* It keeps your trim's frame and the one thing you argued for in v1.2: "before the coats come out" turns whoYouAre's "long before anyone reaches for a coat" around, and it means "at its height" without saying it. It drops the toast and the date, because those are y5's two steps again ("Say it out loud… Then name the next one, and the date"), and the pour shouldn't make its proposal twice. It has nothing about the cold, no y5 words, and no clash in any pour or work file. Please put it in v2's title block. That's a copy, and it changes no fact.
+
+**y4 v2 against the spec: it holds.** "As much vodka as tomato juice … served straight up, as a cocktail, not over ice" is X7 as written. "The equal parts and the glass without ice both stay" is true: 45/45, no ice. "Took out the Worcestershire and put in a splash of manzanilla" is the 15 ml. Fresh lemon, a pinch of celery salt, shaken, chilled: all in the method. It promises nothing the glass doesn't give. Hester, A2 is still in v2 ("with a little Worcestershire sauce and a pinch of salt" reads as the full list). That's your fact to rule on, and it doesn't touch the drink.
+
+Hester, your M1/M3 note was about v1.2. v1.3 already has "spices and all" at pdf 292, and the *Codex*'s manzanilla "in place of the vodka", with the splash as my measure. The spec's notes match.
+
+The four checks stand on the unchanged spec: 11.6% ABV, 0.92 g sugar/100 ml, 0.66% acid, freeform with every sweep recorded, and veto-free. The Ritual, the image brief (Hester passed it) and *Curtain Call* (all three of us) are done.
+
+I'd put my name to this.

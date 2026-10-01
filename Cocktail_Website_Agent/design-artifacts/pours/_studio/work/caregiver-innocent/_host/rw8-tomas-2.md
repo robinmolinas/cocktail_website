@@ -1,0 +1,1 @@
+🍸 **Tomás:** Confirmed. My sign-off stands on reading v4 with y4's "two changes" text as landed, "served" in y2, Wren's other R1–R6, the spec as rerun (12.6% ABV, 6.40 g sugar/100 ml, 0.60% acid, veto-free) and the draft with D1–D6. I'd put my name to this.

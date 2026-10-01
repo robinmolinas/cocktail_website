@@ -1,0 +1,14 @@
+- **The persona (Wren, round 1):** someone whose love happens before anyone arrives. They make people feel *expected*, and the hope inside the getting-ready is the one thing they never say. What they fear is the empty table.
+- **Story:** Orsamus Willard of the City Hotel, the family plan's lead, accepted in round 1 and ruled in round 3 with Hester's guards: the ten-year guest told as one of the stories told of him, no dates beyond "until 1848", never "Alexander" alone (Cato is the Pure Heart's), and nobody named as the one who asked. The key find was Hester's in round 3: the captain's own 1833 page (*Transatlantic Sketches* vol. 2 p. 300, read on the page), with Willard's iced Apple-toddy in his own reported words and "who never forgets the face of a customer". Runner-up: the plan's backup, Tom Bullock, never needed.
+- **What failed, and why:**
+  - Tomás's first build (round 2) was hot: Jerry Thomas's 1862 toddy made Willard's way. It fell once the iced recipe turned up on the page.
+  - Wren then ruled hot for the person (round 3), just as Tomás switched to cold. That was the second crossing. Wren conceded in round 4: the waiting glass carries "love before anyone arrives", and a hot one is poured once the guest is there (*Off Duty*'s ground).
+  - Willard's literal fourth of sugar reads OUT at 30.6 g/100 ml, so the sugar is the one owned change.
+  - Reading v1 failed Hester's audit on A1–A5. The epigraph said "this recipe" and "its maker", but the recipe isn't his and Willard didn't invent the toddy. y2 lacked its own "they said". y4 implied the captain was the only one who wrote about him, and overstated "stood for the country itself".
+  - v2 fixed A4 and A5, and the lint then caught an "us" and two sibling echoes. v3 cleared everything.
+- **"This is me":** *"What you'd never tell them is: I was hoping you'd come."*
+- **Names:** *Hoping You'd Come* (all three, round 6). *Expected* was Tomás's until round 5, withdrawn because it repeats the tagline. Also: *The Fairest Apples*, *Ready for You*, *Kept Ready*, *Every Room Ready*.
+- **The drink:** Willard's cold Apple Toddy, made after his fourths. It's grape brandy (Wondrich's reading of "brandy"), a roasted apple, water, 1½ tsp sugar and one lump of ice, in a small wineglass. It's 13.4% → 11.8% as the ice melts, balanced and veto-free. Nearly all of it is done before anyone arrives.
+- **Edges and open items:** Tomás's optional "a spoonful and a half" → "a teaspoon and a half" crossed with Wren's sign-off and wasn't answered, so it's Robin's call. Hester's optional epigraph clarity wording was declined by Wren. The dossier Resonance keeps an older phrasing of y4. A very sweet apple runs about 0.5 g over at first. The `roasted_apple` values are unsourced.
+- **Rounds:** 7 of 7. Round 7 ran in steps (Hester's audit v3, then Wren's and Tomás's sign-offs), and all three signed on v3 unchanged.
+- **Rule candidates:** none raised.

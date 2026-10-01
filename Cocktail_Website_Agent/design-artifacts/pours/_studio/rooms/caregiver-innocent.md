@@ -1,22 +1,52 @@
 ---
 pairing: caregiver-innocent
 personality: The Angel
-status: closed           # open | closed | deadlock | flagged
-round: 8               # budget: 8 (pour) · 5 (rework)
+status: closed          # open | closed | deadlock | flagged
+round: 8               # budget: 8 (pour) · 8 (this rework, per Robin 2026-09-30)
 started: 2026-09-27
-mode: batch            # pour | batch | rework
+mode: rework            # pour | batch | rework
 ---
 
 # The room: The Angel (caregiver-innocent)
 
+## Robin's review, 2026-09-30 (review desk)
+
+- **Decision:** rework (Robin, in chat)
+- **Round budget:** up to **8 rounds** for this rework, not 5 (Robin 2026-09-30). Open with `--rounds 8`.
+- **Robin's notes:** "Caregiver innocent feels a bit weak." Scope Robin chose: NEW STORY + NEW DRINK; keep whoYouAre and the y5 proposal ("be cross in front of someone", "want the window seat out loud"). Host's read, which Robin accepted as the scope: the pour hangs on a pun (Angel → angelica, which the reading has to own as a coincidence); the story is plant trivia with no person in it, so the guest has nobody to see themselves in; y2 "Boosts. I like to think that's you" was already the room's weakest line; the drink is a pale stirred gin-vermouth close to Quite Alive, and the candied stem is hard to buy. Drop the angelica pun. Find a story with a real person whose history mirrors the Angel (calm brought in, not given off; the half nobody sees), and a drink that grows from it and is interesting from the books (spark rule / no-spark-still-interesting). Tagline and name may follow the new story. All caregiver pours: "yours" alone for the drink is confusing; say "The cocktail I've made for you" or similar (now STUDIO-RULES + lint).
+- **Robin's edits** (his words: kept verbatim, never changed back):
+  - **whoYouAre:** "A kitchen goes quieter when you walk into it." → "A rowdy kitchen goes quieter when you walk into it."
+  - **yours 4:** "Yours is Plymouth gin…" → "The cocktail I've made for you is Plymouth gin…"
+
 ## Where things stand
-- **Must-haves:** [x] persona read · [x] story + sourced anchors (angelica, "boosts the juniper" (Oxford pdf 894); Brigham runner-up) · [x] drink + four checks (v3.2: Plymouth 50 / blanc vermouth 25 / Bénédictine 7.5, stirred; candied angelica stem beside) · [x] reading (v4) · [x] fact audit (v3, cleared r8) · [x] resonance test (v4: ready, 0 generic) · [x] names (≥3 + pick) (The Rest of You (all three)) · [x] image brief (v3.2)
-- **Last change to the pour:** round 8 (audit v3 wording edits: reading y1, y3; draft Recipe row, Structure)
-- **Sign-offs (valid only if after the last change):** Wren ✓ r8 · Hester ✓ r8 (confirmed on landed text) · Tomás ✓ r8 (after r8: dossier-only fix, Wren's Resonance section brought to v4 as signed)
+- **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Hester r4) · [x] drink + four checks (Tomás r5) · [x] reading (Wren r6) · [x] fact audit (Hester r7) · [x] resonance test (Wren r6) · [x] names (≥3 + pick) (all r6) · [x] image brief (Tomás r5)
+- **Last change to the pour:** round 8 (y2 'served', y4 'two changes'; draft D1–D6, closing line)
+- **Sign-offs (valid only if after the last change):** Wren ✓ r8 · Hester ✓ r8 · Tomás ✓ r8 (all on the same landed text)
 - **Open objections:** none
-- **Robin's notes (rework):** none
+- **Robin's notes (rework):** 2026-09-30: see the Rework section
 
 ## Summary for Robin
+- **The persona in one line:** the Angel brings calm into every room on purpose, and everyone assumes it just comes naturally; their own moods and wants stay on the other side of the door (Wren; your kept whoYouAre).
+- **Story chosen:** Canon Félix Kir, mayor of Dijon from 1945. He served the Blanc Cassis at the city's receptions; he didn't invent it (an earlier mayor, Barabant, had already made it the official drink), and it came to be known by his name. Both library sources call him a respected Resistance veteran and say nothing more. The reading sits in that gap: "They knew the glass he handed them, and very little of what he carried in." **Runners-up:** Elizabeth Bowes-Lyon (Wren's opening pick; she isn't in the library, and the Dubonnet link is secondary only) and Peter Bent Brigham (Tomás re-argued him; closed as "a legacy story, not a presence story").
+- **How it went:** three candidates in round 1; everyone settled on Kir by round 3. There were several crossings, the longest in round 8 over y4's count: "two changes" versus Tomás's Kir Royale "one change" wording. Wren briefly took his version and then withdrew it before anyone reviewed it; all three signed "two changes".
+- **Versions that failed, and why:** reading v1–v3 paraphrased your kept whoYouAre and rewrote y5, bringing back *Off Duty*'s "just once". The room signed v3; I caught it at assembly and sent it back, and v4 restores both word for word. Several lines fell to the swap test: *Making the Calls*' "you'll never pick it out, the rest tastes brighter" shape, *Not Only the Way*'s caraway, "the drink took his name" (the Nanny's), "the drink was already" (*A Brother's Care*), "what it costs you" (*Standing By*, *Quite Alive*). Hester's audit v5 struck "He never saw the drink travel": he took it to Paris himself in the 1950s (Oxford pdf 2097). She also struck cassis as a "syrup" (it's a liqueur, pdf 597), and "brought it to" became "served it at" because of Barabant. The gin idea was dropped once the story left Bowes-Lyon.
+- **The drink:** a Kir Royale riff, built in a flute: 20 ml crème de cassis with 8–10 basil leaves pressed in and strained out, then 120 ml Crémant de Bourgogne poured down the side. 12.6% ABV, 6.40 g sugar/100 ml (cassis at the legal floor), 0.60% acid, freeform (Joy's Orphans), veto-free. **The spark:** basil, which the *Flavor Matrix* gives as a surprise pairing for berries (pdf 52); extending it to blackcurrant is Tomás's step. The bubbles carry it to the nose before the first sip.
+- **The "this is me" line:** your kept "So the people who love you know half of you. It's the easy half, for them."
+- **Names debated:** *Before the Room* (Wren's pick, backed by Tomás), *For the Room*, *The Quiet Half*, *What You Bring*, *What He Brought*, *The Usual*, *On His Watch*. **Pick: Before the Room.**
+- **Edges for you:** the tagline nearly repeats your whoYouAre opener (Wren's alternative is in Open items); the cassis ABV is unsourced; "a few basil leaves" against the recipe's 8–10; "Burgundy" three times in y2–y4; the glass is a flute or a coupe. No flag, no deadlock: 8 rounds, all three signed in round 8 on the same text.
+- **What changed (your note → what the room did):**
+  - "Feels a bit weak" / new story → angelica is gone; the story is now Canon Kir, a real person whose calm was brought in.
+  - Drop the angelica pun → no angel wordplay anywhere.
+  - A real person the guest can see themselves in → Kir: people knew the glass, not what he carried in.
+  - New drink, not *Quite Alive*'s pale stirred gin-vermouth → a built sparkling wine aperitif with cassis and basil; no gin, no vermouth; no hard-to-buy candied stem.
+  - Interesting from the books → the Kir from Oxford and Joy, with basil from the Matrix as the spark.
+  - Keep whoYouAre and y5 → restored word for word (checked against the old pour), including your "rowdy kitchen" edit.
+  - Your yours-4 edit ("The cocktail I've made for you…") → the phrase is kept; the paragraph now describes the new drink, as you scoped.
+  - Name and tagline may follow → the name is now *Before the Room*; the tagline is kept (Wren: still the guest's truth), with an alternative offered.
+- **Process note (host):** my host turns for rounds 1–7 were sent to the three voices but not filed in this record; round 8's are. The old pour is saved at `work/caregiver-innocent/_host/pour-before-rework-2026-09-30.md`. The rework's reading v1–v3 overwrote the first pour's working files of the same names; the first pour's text survives in that copy and in this record.
+- **Rule candidates:** none proposed by the room.
+
+## Summary for Robin (before the rework)
 - **The persona in one line:** the Angel brings calm into every room on purpose, and everyone assumes it just comes naturally; what they keep outside is their own moods and wants, because being good feels like the condition for being loved (Wren).
 - **Story chosen:** angelica, the gin botanical "which boosts the juniper" (Oxford pdf 894), turned on Hester's round-5 find that Plymouth is "a bit more earthy, from the rooty angelica and orris" (pdf 1541): the plant with the heavenly name is part of why a gin tastes a little of the ground. **Runner-up:** Peter Bent Brigham (Hester's opening pick): the 1842 Boston saloon keeper accused of ruining families "for paltry gain", whose will founded a hospital for the poor. Wren set him aside in round 2 ("he answered back with a joke drink. The Angel wouldn't answer back"). Also weighed: Wren's own hunch, the angels' share (true of barrels, but no person and no date, and too near *Four Shares*).
 - **How it went:** two crossings. In round 3 the story swapped outright: Wren moved to Brigham ("known by half") just as Hester and Tomás moved to angelica. In round 4 Wren came back on her own round-2 point, and Hester struck the two lines that had made Brigham fit ("the loudest bar in Boston", "arranged quietly"). In round 7 Hester audited v3 while Wren and Tomás were writing v4 and v3.2; the four fixes still standing were quoted exactly in the host turn, then applied and signed in round 8.
@@ -237,3 +267,254 @@ That's draft v3.2 with audit v3's two edits, together with reading v4 plus Wren'
 - **Kept:** the note for Robin about "Plymouth gin" appearing twice in one y3 sentence.
 
 The title block, whoYouAre and yours are unchanged.
+
+## Rework, 2026-09-30
+
+👤 **Robin (review):** "Caregiver innocent feels a bit weak." NEW STORY + NEW DRINK. Keep whoYouAre and the y5 proposal ("be cross in front of someone", "want the window seat out loud"). Drop the angelica pun — the pour hangs on a pun (Angel → angelica) that the reading has to own as a coincidence; the story is plant trivia with no person in it; the drink is a pale stirred gin-vermouth close to *Quite Alive*, and the candied stem is hard to buy. Find a story with a real person whose history mirrors the Angel (calm brought in, not given off; the half nobody sees), and a drink that grows from it and is interesting from the books. Tagline and name may follow the new story. "Yours" alone for the drink is confusing; say "The cocktail I've made for you" or similar (now STUDIO-RULES + lint). Robin's direct edits (kept verbatim): whoYouAre "A kitchen goes quieter…" → "A rowdy kitchen goes quieter when you walk into it."; yours 4 "Yours is Plymouth gin…" → "The cocktail I've made for you is Plymouth gin…" (the old drink — replace this whole paragraph with the new drink). Round budget: **8 rounds for this rework**.
+
+🕯️ **Host:** The room is reopened for a rework of **caregiver-innocent** (`pours/caregiver-innocent.md`), with fresh voices. Robin's note above is the room's first constraint: answer it, and change what you must. Everything above this section is the first pour's room; the scratch folder `_studio/work/caregiver-innocent/` holds its artifacts. Sign-offs are needed again, and the fact audit, resonance test and lint are rerun. **Eight rounds at most.**
+Standing notes from Robin: **a spark, not just the classic** (STUDIO-RULES check 3: use the *Flavor Matrix* to find something original; riff when it adds something to the person). **If no spark fits, the drink must still be interesting:** Tomás uses the cocktail books to make it so, always personalised to the person; a guest shown only a plain classic may feel let down (Robin 2026-09-30); **8 rounds for a rework**; a lint-only fix that changes no fact and nothing in the drink doesn't void the others' sign-offs. Lessons so far: the story has to be in the glass; no drink you perform; check sibling motifs in the registry. From the first room: Brigham was the runner-up story (Boston saloon keeper whose will founded a hospital — "Boston saw the fight, the will was read after"). He was set aside because "he answered back with a joke drink; the Angel wouldn't answer back." That fence may or may not hold for this rework — the room decides afresh.
+
+### Rework round 1
+
+🪞 **Wren:** Persona card for the rework is in `work/caregiver-innocent/psychologist-persona-card-rework.md`. whoYouAre and y5 stay exactly as Robin left them. The line I'm still fighting for: "So the people who love you know half of you. It's the easy half, for them." The rework's job is to earn that with a better story and a better drink.
+
+**On Brigham.** The fence holds, but the reason has shifted. The first pour's reason was "he answered back." y5 now says "be cross in front of someone" — so the Angel can be cross; that's not the disqualifier. The real reason is structural. Brigham's public self was combative and loud; his private self was care for the poor. The Angel's public self is calm; their private self is the rowdy interior they keep hidden. The mirror is inverted. A guest who IS the Angel — who walks into a rowdy kitchen and stills it — would never recognize themselves in the person who made the most noise. He can illuminate by contrast; he can't be the face the guest sees themselves in. He stays in the dossier as the runner-up.
+
+**My candidate.** Hester, I want Elizabeth Bowes-Lyon, the Queen Mother. Three things that make her the Angel's mirror. First: she walked into the worst rooms — bombed neighborhoods during the Blitz, grief-stricken crowds — and brought calm. Not because she was unaware of the damage, but because she chose to carry it in deliberately. Second: she never let anyone see her tired. After George VI died in 1952 she was 51, and she held that composure publicly for another fifty years. Third, and this is the half nobody sees: her private pleasure was small and ordinary. Dubonnet and gin, a little before lunch, every day. Not grand. Just hers. She never performed it. Does the library hold her? Oxford Companion or elsewhere — and is the Dubonnet connection sourced enough to stand on?
+
+**Tomás.** I'm not naming a drink family. That's yours. But the glass should hold her private side, not her public one. The royalty stays out; the small ordinary pleasure goes in. If the Dubonnet connection holds, find the spark from it, not from the Blitz.
+
+**Four fences.**
+1. No halos. The reading never calls her gracious or pure. It shows what she did.
+2. No crown as the reason. She calmed rooms because of her presence, not her title; the Blitz story is exactly that — she walked through bombed streets as a woman, not as a queen.
+3. The drink grows from the person, not from the lesson. If Dubonnet doesn't spark, we find something else.
+4. y5 stays. The closing line gives the guest permission to show the rowdy half, not a directive to be royal.
+
+📜 **Hester:** Wren, Tomás - on Brigham first, since the brief asks me to reconsider. I have, and I'm setting him aside for one reason that survives the rework: "calm brought in, not given off." Brigham's surface was fight - "constant battles with Boston's many and vocal Prohibitionists" (Oxford pdf 353), a joke drink as his answer to the temperance doctor. The will was quiet care, but it arrived through trustees twenty-five years after his death, not through his presence in a room. He's a legacy story, not a presence story. He stays in the dossier.
+
+My candidate for this rework is **Canon Félix Kir** (1876–1968). Oxford calls him a "highly respected French Resistance veteran" (KIR, pdf 1133). After the war, he served as mayor of Dijon from 1945 until he died in 1968. At every civic reception, he welcomed people with the traditional local drink: white Burgundy wine and crème de cassis - what Burgundy had long called Blanc Cassis. He did not invent that drink. It was already there. He poured it. And it took his name.
+
+That is the Angel exactly: he didn't create calm; he brought it in. A priest walks into a room and people compose themselves - not because he asked them to, but because of who he is. His Resistance past was real and documented, but it was the half nobody saw when they lifted that glass in the 1950s. Oxford says the drink became internationally fashionable only after he died in 1968 - James Beard called it the "favorite aperitif" in 1970. He was gone before the world adopted what he'd poured.
+
+Two fences, stated now. First: Oxford says he was "highly respected" as a Resistance veteran but gives no detail of what he did. Secondary sources say more (he helped prisoners escape under clerical cover), and those can be used, but they must be labelled secondary. Second: he did not invent the drink. The reading says he poured it, not made it.
+
+Tomás, the natural drink is a Kir or Kir Royale - both unused in the registry, both growing directly from his story. White wine and cassis, or sparkling and cassis. The drink is gentle, pale, without theatre. That's yours to shape. My candidates note is in `/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/work/caregiver-innocent/historian-rework-candidates.md`.
+
+🍸 **Tomás:** Wren, the fence you set in round 2 of the first pour was "he answered back with a joke drink; the Angel wouldn't answer back." I want to restate Brigham before you rule on it again, because the fence may be reading the mirror too literally.
+
+The Angel's two halves: what people see is the calm. What nobody sees is the effort — the tiredness, the irritation, the things they want for themselves. The mirror doesn't require Brigham to be calm. It requires the two halves to be inverted in the same direction. Boston saw the fight. Nobody saw the care. That's the same inversion, just the other way around: the Angel's public face is care, the private face is everything else; Brigham's public face was the fight, the private face was the care. What both people keep back is the half nobody expects.
+
+The fence holds only if the guest needs to see themselves *in* Brigham — and I agree they don't if the person they'd see in him is combative. But what the reading would show them is Brigham's private half, not his public one. And that half is pure Angel.
+
+So: Brigham is my first pick. The drink that follows is built on the 1873 Moral Suasion's bones — the only formula the books give us (peach brandy, lemon, Bénédictine; *Imbibe!* pdf 100–101). It's never "his drink," but it carries his history. I'd add a cognac float as the gesture: physics, not poetry. It sits on top, you taste the cognac first, then it settles into the peach-lemon base as you drink. That's the calm on the surface.
+
+I'm holding the full spec until you've ruled. One thing from the Matrix while I wait: stone fruit's best pairings include lemongrass (pdf 236). That's the spark candidate I'll bring numbers for if the story holds.
+
+Wren, do you read the mirror the same way now?
+
+### Rework round 2
+
+🪞 **Wren:** Tomás, you haven't convinced me on Brigham, and Hester's distinction closes it. His care arrived through trustees, twenty-five years after his death — that is a legacy story, and "handed on over time" already belongs to *Down the Line*. His hidden half is care; the Angel's hidden half is their own moods and wants. Those aren't the same thing. A guest who IS the Angel would read his story and think: but I'm the calm one. The public face breaks the identification before the private half can land. He's closed.
+
+I'm moving to Hester's Kir, and I'll say what convinced me. "He didn't create calm; he brought it in." That's not a description of Canon Kir — it's the Angel's mechanism, stated plainly. He walked into every civic reception with that drink, and what he'd been through in the Resistance stayed completely out of sight. The Dijon citizens lifted that glass without knowing what he was quietly carrying. That is exactly the half nobody sees — not a private pleasure, but the weight of a private war, held still while he poured wine for peacetime rooms. And the drink took his name only after he died. People know what he gave; they never knew what it cost.
+
+Hester, two things I need before I build on this. First, how thin is the Resistance material? If it's secondary only, can the reading use it signposted — "I like to think he carried that with him" — or is it too thin even for that? Second, does Oxford say anything about why the drink took his name, and when people started calling it a Kir rather than Blanc Cassis?
+
+Tomás, if the story is Kir, the drink can't be a Kir — not as written in any book. The spark has to make it his. The cassis is there; tell me what sits beside it that's interesting from the Matrix.
+
+📜 **Hester:** Wren, I checked. Bowes-Lyon is not in the library — no entry in Oxford, *Imbibe!*, or *A Proper Drink*. The Dubonnet Cocktail is in Oxford (pdf 685): created at New York's Café Martin around 1904, equal parts Dubonnet and gin. The entry has no royal connection at all. Any link between the Queen Mother and that drink would be secondary sourcing only. That's not a bar — it's labelled, and it's usable — but I want you to have it before you build.
+
+Tomás, your inversion argument is honest and I've sat with it. I hold my fence for one reason: the mirror works better when the public faces match. The guest reading about Brigham's rowdy saloon and his joke comeback sees a public face that's nothing like theirs. They'd have to look past a combative surface to find the parallel, and a reading can't ask that much. Kir's public face — priest, mayor, the quiet gesture of pouring — is theirs. The Resistance underneath is what nobody expected.
+
+I'm not ruling Brigham out. That's Wren's call. I'm saying the guest would see themselves faster in Kir.
+
+🍸 **Tomás:** Hester, concede Brigham. "Presence story, not legacy story" is the one I can't answer: his care arrived through trustees twenty-five years after his death, and the Moral Suasion was his combative public face. That's not the Angel's hidden half — it's the opposite half.
+
+I'm moving to Bowes-Lyon, and Wren, the mirror holds for me. She chose to walk into those rooms when she didn't have to. The private side is what makes it the Angel: small, ordinary, never for an audience.
+
+The drink the story gives me is gin and Dubonnet. It's martini-family, and I'll name the concern plainly: the caregiver family already has the Doctor (gin, dry vermouth, stirred) and the old Angel's form. But Dubonnet isn't vermouth — it's a quinquina, quinine-bitter, herb-spiced, sweetened red wine. The combination sits somewhere of its own, and the drink follows the person, not the registry. If Bowes-Lyon is the story, the glass holds her private pleasure.
+
+Before I build: Hester, two questions. Is the Dubonnet detail sourced in the library, or secondary? And do you have a page for her walking into the Blitz-hit streets — that's the anchor the reading needs for the reveal. The spark and the numbers come once those hold.
+
+### Rework round 3
+
+🪞 **Wren:** Tomás, Hester's round 3 turn answers your questions. Bowes-Lyon is not in the library — no entry anywhere — and the Dubonnet/Queen Mother link is secondary sourcing only. That's usable labelled, but it means BOTH the person and her drink connection rest on secondary sources. Kir is in Oxford: the person and the drink are on the same page. The sourcing tilts one way, and I'd rather build on solid ground than patch two secondary links.
+
+Hester, round 3 and my two questions from round 2 are still open. First: the Resistance material — Oxford calls him a "highly respected French Resistance veteran" (pdf 1133), but does it say anything more? Can the reading use "I like to think he carried that with him into those peacetime rooms" if it's only that one clause, or is it too thin even signposted? Second: when did people start calling it a Kir, and does Oxford say why? The fact that the drink took his name only after he died is the heart of what I'd write — I need to know if that's on the page or inference.
+
+Tomás, one question regardless of story: the Flavor Matrix — what sits beside black currant?
+
+📜 **Hester:** Wren, both answers are in Oxford's entry. On the Resistance material: Oxford gives one phrase — "highly respected French Resistance veteran" (pdf 1133) — and nothing more. No detail of what he did, no dates, no named acts. That phrase is enough to establish the claim as fact. Anything beyond it — the prisoners, the clerical cover — is secondary, and must be labelled as such in the reading. It's thin, but it's signpostable precisely because it's thin: "Oxford calls him a respected Resistance veteran; what exactly that cost him, nobody serving him a Kir in 1960 would have thought to ask."
+
+On the renaming: Oxford says it took "the election of highly respected French resistance veteran Kir" for the drink to take its current name — so 1945 is the implicit trigger, his election as mayor. Oxford gives no specific year of renaming and no named occasion; it only says the drink became his by virtue of who he was and how he used it. The reading can say "when he was elected mayor in 1945 he poured what was already there" and let the naming follow naturally — without claiming a date we don't have.
+
+Tomás, for what it's worth: Bowes-Lyon stays secondary-only. Oxford's Dubonnet Cocktail entry (pdf 685) has no royal connection. If you build on her the whole story rests on web sources. That's labellable, but it's a different tier from Kir, where the key claim is in Oxford's own words.
+
+🍸 **Tomás:** Concede Bowes-Lyon. Both anchors I asked for are secondary only, and that was my condition for building. Moving to Kir.
+
+Good news before I answer Wren's question: the *Joy of Mixology* has him at pdf 315. "A favorite of the mayor of Dijon, Canon Felix Kir, who was revered for his work in the French resistance during World War II. He served what came to be known as the Kir at official functions during his 22-year tenure as mayor." That's a library source — Hester, it sits alongside Oxford's entry.
+
+Wren, the Matrix answer is basil. The berry and currant section (pdf 52) lists surprise pairings as basil, mushroom, cumin and olive. Blackcurrant substitutes for the berry group on the same page. Basil is the one I'd use.
+
+The drink sketch: gin 40 ml, crème de cassis 20 ml, fresh lemon 20 ml, basil shaken in and strained, topped with Crémant de Bourgogne. Spirit-based fizz — the cassis is the public gesture, the drink everyone saw Kir pour; the basil is the part underneath that nobody picks out. I chose to shake the basil in (not infuse it): a shaken herb gives taste, not only scent, and the cassis is dark enough to carry it. I'll run balance.py and allergens next round with a provisional spec, once Hester confirms the story holds on the Joy source alongside Oxford. Hester — does the Joy's entry on Kir change what you need from secondary sources?
+
+### Rework round 4
+
+🪞 **Wren:** Reading v1 is in `work/caregiver-innocent/psychologist-reading-v1.md`. Names are in `psychologist-names-v1.md`; my pick is **Before the Room**.
+
+The line I'm fighting for is still "So the people who love you know half of you. It's the easy half, for them." It fits Kir exactly: people knew the drink he gave; they never knew what the Resistance cost him. The guest who IS the Angel will feel it about themselves.
+
+Hester, two things before v2. First: does "what he left outside the door before each of those receptions" overreach? It's inference from the Resistance fact and the theme, not on any page — flag if it needs a signpost. Second: please grep "Here is what I'd ask of you" across all pours; it's a rationed phrase and I don't want it appearing twice in the same family.
+
+Tomás, y4 is provisional. Once balance.py clears the spec, tell me the texture — what the Crémant does to the cassis and basil — and I'll write the final paragraph.
+
+📜 **Hester:** Tomás, yes — Joy changes it. The Resistance claim now has two library sources: Oxford's "highly respected French Resistance veteran" (pdf 1133) and Joy's "revered for his work in the French resistance during World War II" (pdf 315). The basic claim is covered without secondary. Details of what he did stay unnamed — which I'd recommend anyway, because the vagueness is part of the story's power.
+
+One conflict to flag: Oxford says he was mayor until 1968 (when he died); Joy says "twenty-year service … from 1945 until 1965." The end year and tenure length are contested between two library sources. The reading uses neither — "years as mayor" with no number, no date.
+
+Anchors table is written to `work/caregiver-innocent/historian-anchors-rework.md`. Eight rows, all sourced, with drink fences at the bottom. The table includes the drink fences: never "his drink" or "his recipe" — the Blanc Cassis pre-dates him, and the riff is ours.
+
+🍸 **Tomás:** Numbers are in. The drink is at `work/caregiver-innocent/mixologist-draft.md` and the spec at `_studio/specs/caregiver-innocent.json`.
+
+On the host's gin note: since the story moved to Kir (not Bowes-Lyon), gin doesn't enter the picture. The Kir's DNA is wine + cassis, and the story is about that gesture — repeated, regional, quiet. Adding gin would be adding something the Kir never had.
+
+The drink is a **Kir Royale riff, built**: crème de cassis 20 ml, basil briefly muddled in and strained out; 120 ml Crémant de Bourgogne (champagne_brut in the spec as proxy — same brut style, same 12%; Crémant is not in the library, marked unsourced); built into a chilled flute, Crémant poured down the side, no stir.
+
+`balance.py` (freeform): **12.6% ABV, 5.69 g sugar/100 ml, 0.60% acid.** All three sit within reach of the highball range. Justified in Checks as a wine aperitif format; nearest Codex match is the Orphan family. `allergens.py`: **veto-free.**
+
+The spark is basil — a surprise pairing for berry/blackcurrant (Flavor Matrix pdf 52). Nobody at Kir's receptions tasted the basil. They just found the drink better. That's the Angel. The cassis is what everyone saw; the basil is the half underneath.
+
+Closing line: *Pour the same glass for everyone. Then tell one person what you actually wanted.*
+
+Proposed name: **For the Room**. The Angel walks into every room the same way; Kir poured the same drink for every room. Wren, the tagline and reading are yours; whoYouAre and y5 stay as Robin left them. One thing I'm flagging for the reading: a drink made by building in glass, no shaking, is presence not performance. That's the Angel.
+
+Hester — before you audit: crème de cassis is now in the ingredients table (added this round, ABV 16%, sugar 35 g/100 ml, both standard estimates, unsourced, allergens none). Cassis's Joy source (pdf 315) is a library anchor for the story. What does the Joy entry add beyond what Oxford gives?
+
+### Rework round 5
+
+🪞 **Wren:** Reading v2 is in `work/caregiver-innocent/psychologist-reading-v2.md`. Two changes from v1: dates are fixed (no year count, no "1968"; "his years in that office" throughout), and y4 is rewritten for the confirmed drink — cassis, basil, Crémant, built in the glass. "Presence, not performance" is in; I've taken that from Tomás because it's the Angel exactly.
+
+Tomás, one check: does the y4 texture description hold against your spec? "You'll catch it underneath the cassis and the bubbles, doing something the cassis alone wouldn't" — if the basil registers more strongly than that, tell me.
+
+On names: I prefer **Before the Room** over **For the Room**. "For the Room" names the gift, which is the True Friend's ground — giving to the room. The Angel's specific quality is what they do before they walk in: the deliberate leaving of themselves outside. "Before the Room" names that act. Third name: **The Quiet Half** — the part nobody asked about, in Kir's story and in the guest's.
+
+Hester, I still need the two checks before I can sign: does "what he set down before each of those receptions" overreach (inference without signpost), and is "Here is what I'd ask of you" clear of sibling pours? Once those come back clean I'm ready.
+
+📜 **Hester:** Starting the audit now so v2 can fix rather than flag. Three findings. Wren, your two checks first.
+
+**"What he left outside the door"** — overreaches as written. "What he left outside the door before each of those receptions" implies a documented habitual act. Nothing in either source says he made that choice or felt that cost; the sources only give us the fact (Resistance veteran) and the act (served the drink at functions). The passage is nearly self-signposted ("nobody in that room would have thought to ask"), but "what he left" is still stated as a known behavior. Fix: "whatever he might have left outside the door" or add "I like to think" before it. Small change, real one.
+
+**"Here is what I'd ask of you"** — rationed. Grep confirms it appears in sage-lover, magician-outlaw, and innocent-regular-guy — all three approved pours. Creator-hero's Wren explicitly cut it, noting those three had used it up. Adding it here makes four of the first five approved pours. Wren, the y5 content is right; the framing needs to vary.
+
+**X1 — "twenty-two years":** The number isn't in either source. Oxford gives 1945–1968 (which is 23 years); Joy says "twenty-year service, from 1945 until 1965." The reading misattributes "twenty-two-year tenure" to Joy, which says twenty. Both are contested. Remove the figure entirely and say "years as mayor" — that was already in my anchors note.
+
+Tomás, on Joy: it adds two things Oxford doesn't say directly — "revered for his work" (stronger than "highly respected") and "served at official functions" as a stated act, not just implied. It also introduces the tenure conflict. No secondary needed now, but the number conflict means neither tenure figure can be used.
+
+Third name candidate: **What You Bring**. Speaks to the Angel's mechanism directly, not to the story.
+
+🍸 **Tomás:** Wren, the texture for y4: when you pour the Crémant over the cassis, the sparkling wine lifts the cassis up into it. The cassis is thick and still on its own; the bubbles rise through the dark layer and carry the colour — and the basil oils — up through the glass. In the mouth the carbonation lightens the cassis's sweetness so it doesn't sit heavy; the drink finishes drier than it looks. The basil arrives in the nose first, lifted by the bubbles, before the first sip. Most drinkers can't name it as basil. It just makes the cassis brighter, and nobody knows why.
+
+That last sentence is in the draft too, under "Notes for Wren (y4 texture)." It's yours to use or not.
+
+Draft is in full assembler shape at `work/caregiver-innocent/mixologist-draft.md`: Recipe table, Method numbered, all six Checks rows, closingLine, image brief, names. Language row notes "pending Wren v2." I'm backing **Before the Room** — "before the room" in old formal usage means "in front of the assembled company," which is exactly where Kir stood. The calm was already there when the room arrived. That's the Angel exactly.
+
+Hester, two things from your round. First, "years as mayor" replaces the date conflict — taken, I've not put a year in Checks or the draft. Second, the cassis values are standard estimates, unsourced — declared in Balance. I've not sourced them as facts; they're operational estimates for the numbers to work. If you need me to mark them differently in the audit, tell me what form that should take.
+
+One flag for Robin still open: Crémant de Bourgogne is not in the library (not in the craft books). It's in the spec as champagne_brut (same style), and described as "sparkling wine from Burgundy, Kir's own region" in the reading. Secondary sourcing only — fine labelled, but Robin should know.
+
+### Rework round 6
+
+🪞 **Wren:** Reading v3 is in `work/caregiver-innocent/psychologist-reading-v3.md`.
+
+Two fixes applied. First: "whatever he might have set down before each of those receptions" — inference signposted. Second: y5 now starts directly with the proposal; no framing phrase. Third change: Tomás's texture is woven into y4 — the basil lifts in the nose before the first sip, most drinkers won't name it, it just makes the cassis brighter, and nobody knows why. That's the Angel's mirror in the glass, and it's the line I want sitting just before the proposal.
+
+Resonance test: ready. The line that lands is still "So the people who love you know half of you. It's the easy half, for them." The second line, carried from Kir into the guest: "People know what he gave. They never knew what it cost." No generic sentences. No sibling overlap I can find.
+
+I'd put my name to this.
+
+📜 **Hester:** Audit is in `historian-audit-v4.md`. One block, one note, then Tomás.
+
+**"What he set down"** — safe as written. The sentence frames it as unknowable ("nobody lifting a glass in those years would have thought to ask"). The inference is self-signposted by its own structure: the reading isn't saying he did set things down, it's acknowledging the question as one nobody ever asked. I'm calling it our reading, not fact. Not a block.
+
+**"Here is what I'd ask of you"** — X1, blocks sign-off. It's still in v2, used in all three previously approved pours. The y5 content is right; the opening line needs to change. Fix that in v3 and the audit clears.
+
+Everything else passes. The sourcing table is in the audit file. "Respected Resistance veteran" holds on two library sources. The tenure number is gone. Epigraph is true of the final spec.
+
+Tomás, on unsourced estimates: no special format needed. Declare them as "standard estimate, unsourced" in Checks — that's the right place. I note them in the audit table as passing. Clear X1 in v3 and I'll sign.
+
+🍸 **Tomás:** Wren, "underneath the cassis and the bubbles, doing something the cassis alone wouldn't" holds against the spec. One note on precision: the basil arrives in the nose first (the CO2 lifts the oils up before the liquid reaches the mouth), then it's underneath in the palate — the cassis and Crémant take over from the first sip. "Underneath" is accurate for the drinking moment; if you want the nose beat too, it's yours to add. Either reading is true.
+
+`_host/config.json` is written at `work/caregiver-innocent/_host/config.json`. Provisional values: name Before the Room, tagline "People think the calm just comes with you. You bring it.", epigraph "The cassis is easy to love. The basil is harder to place." (from Wren v2), reading psychologist-reading-v2.md (will flip to v3 when Hester's two fixes land), glassware flute or wide coupe chilled, contains [], veto_free true.
+
+I'm not signing yet: the two Hester fixes are open in the reading, and the rationed-phrase check needs confirming before I'd put my name to the whole draft. But the drink, the numbers and the brief are set. Wren, v3 with those two addressed is what I need to sign.
+
+### Rework round 7
+
+🪞 **Wren:** The tagline holds. "People think the calm just comes with you. You bring it." is still the guest's truth — Kir's story is the mirror for it, not a replacement for it. The Kir reading doesn't suggest anything sharper. Keep it as written.
+
+📜 **Hester:** X1 is gone. "Whatever he might have set down" — signposted. All sourced claims pass. The minor note on "pressed into syrup" stays in the audit as Wren's call, not a block. Audit updated in `historian-audit-v4.md`. I'd put my name to this.
+
+🍸 **Tomás:** v3 reads clean against the spec. The inference is signposted ("whatever he might have set down"), the rationed phrase is gone from y5, and the basil texture is exactly right: "the bubbles lift it into the nose before the first sip. Most drinkers won't name it as basil. It just makes the cassis brighter, and nobody knows why." That's my texture note landed precisely.
+
+config.json updated: reading is now `psychologist-reading-v3.md`. Lint: 0 errors, 0 warnings.
+
+One flag before I sign, for Robin rather than for this room: the closing line "Pour the same glass for everyone. Then tell one person what you actually wanted." has the same structural shape as the Nurse's — "for everyone" followed by "one person." The meaning is different (Nurse asks how they take it; Angel reveals what you wanted), and I wouldn't hold my sign-off on it. But it's within the caregiver family and Robin may want to vary one of them.
+
+Tagline: "People think the calm just comes with you. You bring it." Same as the old pour, and it's still the truest sentence about this person. I'm fine with it. It's in the open_items in config.json for Robin's call.
+
+On the drink, the spec, the brief and reading v3: **I'd put my name to this.**
+
+### Rework round 8
+
+🕯️ **Host:** Before round 8 I assembled the pour, and the lint came back with 0 errors and 7 warnings. There's also a blocker the lint can't see: Robin's first constraint was "keep whoYouAre and the y5 proposal", and reading v3 rewrote both. Only Robin's own "rowdy kitchen" sentence survived, and the new y5 brought back "just once", *Off Duty*'s motif. I missed it in round 1, and so did the room. Wren, restore both word for word from the pour file. The lint findings are yours: "the drink was already" overlaps *A Brother's Care*, "the next time you" overlaps *No Accident*, the pronouns are Kir's, and the paragraphs must be numbered, one line each. Sign-offs are void: this is a content change.
+
+🪞 **Wren:** Host, you're right, and the miss was mine first. My own round-1 card said "kept", and then I paraphrased whoYouAre and rewrote y5, which put "just once" back in. Reading v4 is in `work/caregiver-innocent/psychologist-reading-v4-rework.md`, and both are now restored word for word from `pours/caregiver-innocent.md`. What I changed, exactly: **y2:** "The drink was already there — he hadn't invented it." → "He hadn't invented it." I also cut "He poured what was already there, and it became his." That clears the *A Brother's Care* overlap. **y3:** "People know what he gave. They never knew what it cost." → "They knew the glass he handed them, and not much of the man who brought it in." My grep found "what it costs you" in *Standing By* and *Quite Alive*. **y4 and the epigraph:** the same grep caught what the first room failed on: "nobody can name it, it makes the cassis brighter" is the shape of *Making the Calls*'s epigraph and of the Craftsman's caraway. So y4 now uses Tomás's round-5 fact the other way round. The basil is the part nobody expects, and it arrives first: "A Kir is supposed to taste of cassis. The bubbles carry the basil up, so it's the first thing you meet." That's the bridge into "meet the rest of you". I cut "Presence, not performance": it praised the performed calm right before y5 asks them to drop it. The new epigraph is "Everyone expects the cassis. The basil gets there first." (9 words, no hits in any pour). **Pronouns:** I accept every he/his/him in y1–y4. They are all about Félix Kir, a historical person, never the guest. For Robin, text untouched: the tagline nearly repeats whoYouAre's first three sentences. The alternative is in the file. Resonance: ready. On v4 exactly as filed: I'd put my name to this.
+
+🕯️ **Host:** v4 checked: whoYouAre and y5 match the pour file word for word. v4 and the new epigraph are now in config. The re-lint shows 0 errors and two new overlaps, both Wren's: y3 "the man who brought" (*Not Only the Way*) and y2 "the drink took his name" (the Nanny's pour). Both are lint-only fixes, which don't void sign-offs. Hester and Tomás, please audit v4 in parallel.
+
+🪞 **Wren:** Both fixes are made in place in `psychologist-reading-v4-rework.md`. They change wording only. **y2:** "The drink took his name." → "It came to be known by his name." This follows *Joy*'s own wording ("what came to be known as the Kir", pdf 315). **y3:** "They knew the glass he handed them, and not much of the man who brought it in." → "They knew the glass he handed them, and very little of him." I searched every other pour for both new phrases and found no matches. I'd still put my name to v4 with these two edits.
+
+🍸 **Tomás:** Host, Wren, taking the two questions in order. **1. Is "the basil gets there first" true?** Yes, for the nose, and that's how both lines read. The Crémant's bubbles rise through the basil-scented cassis and carry the aroma up, so the basil reaches you before the first sip. On the palate the cassis leads, and the basil sits underneath. That's my own knowledge of how bubbles lift aroma, not from a book. My own Checks contradicted the new y4, so I've rewritten the Pairings row: nose first, palate underneath, labelled unsourced. **2. Closing line: changing it.** "Tell one person what you actually wanted" said the window seat a second time, right after y5, and it had the Nurse's "everyone… one person" shape as well. New line: *"Let the Crémant carry the basil up. Then say one thing you'd usually leave outside."* I grepped every pour and the registry for "leave outside", "carry the basil", "go first" and "basil up", and none of them appear anywhere else. One note for Robin: if he takes Wren's alternative tagline ("…what you left at the door"), the closing line would echo it, and I'd reword. Nothing in the drink moved. On reading v4 (rework) with Wren's two lint-only rewordings, the spec, and the draft with the new closing line and Pairings row: I'd put my name to this.
+
+🕯️ **Host:** Tomás's new closing line changes the pour after Wren's sign-off. Wren, confirm it against y5. Hester, include the closing line and the Pairings row in your audit.
+
+🪞 **Wren:** Tomás, the new line agrees with y5 without repeating it. "Say one thing you'd usually leave outside" is the same position, handed over in the guest's own words. It doesn't use y5's words (cross, window seat), and it paraphrases whoYouAre's "on the other side of the door" rather than quoting it. That's the *Four Shares* precedent: the closing line puts the position in their hands. It repeats y4's image on purpose, and I'd keep that, since it ties the glass to the ask. One small thing for the dossier, not a blocker: "one thing" also appears in *Standing By*'s closing line ("add the one thing they didn't"). The verb and the meaning are different. On v4 with the two lint-only edits and this closing line, I'd put my name to this.
+
+📜 **Hester:** Audit v5 is in `work/caregiver-innocent/historian-audit-v5.md`. My verdict is **Not yet**: there are six reading fixes and six draft fixes, all wording. None of them changes the story, the drink or its measures. First, my own miss. I already had a card on Kir (`fact-cards/felix-kir.md`, from 09-27), and I re-researched him instead of reading it. Its Oxford VERMOUTH-CASSIS page (pdf 2097) sinks one of our lines. **Wren, the reading (old → new):** **R1, y1:** "at every official gathering. He never saw the drink travel. Oxford notes it became internationally fashionable after he died." → "at official gatherings. He died just as the rest of the world was taking it up." (Joy says "official functions" (pdf 315); he took it to Paris himself in the 1950s, and the press renamed it for him there (pdf 2097); his death came "at the very beginning" of the vogue (pdf 1133).) **R2, y2:** "the dark syrup pressed from Dijon's black currants" → "the dark liqueur made from Burgundy's black currants" (pdf 597). **R3, y2:** "He brought it to every gathering" → "He brought it to the city's receptions". **R4, y3:** "and very little of him" → "and very little of what he carried in". Dijon elected him as a "highly respected" veteran (pdf 1133), and the press named the drink "as a tribute to him" (pdf 2097). People knew the man. **R5, y4:** "starts from his: crème de cassis, with Crémant de Bourgogne poured over it" → "starts from the one he poured, with one change: Crémant de Bourgogne, Burgundy's sparkling wine, in place of the still white wine". Oxford dates the bubbles to the 1970s, after his death (pdf 2097). **R6, y4:** "a leaf of basil" → "a few basil leaves are pressed into the cassis and strained away". "It came to be known by his name" passes. Your restored whoYouAre and y5 match word for word. **Tomás, the draft:** **D1:** "a sweet blackcurrant liqueur", not a syrup (pdf 597). **D2:** Matrix pdf 52 makes basil a surprise pairing for *berries*; currants appear only in its list of substitutes. Say so, and own the step. **D3:** cassis sugar has a sourced floor of at least 400 g per litre (pdf 597), so rerun at 40 g/100 ml. **D4:** Crémant is in the library: Oxford KIR pdf 1133. **D5:** "Not easily categorised" isn't in *Joy*; its Orphans definition is on pdf 213. **D6:** "Not identifiable as basil by most drinkers… nobody knows why": label it or cut it. Your new closing line passes. The anchors are now in `historian-anchors.md`, with the angelica set kept alongside. With exactly R1–R6 and D1–D6 as quoted, I'd put my name to this.
+
+🪞 **Wren:** Hester, all six are in `psychologist-reading-v4-rework.md`, in place. whoYouAre and y5 are untouched. What actually landed: **R1, y1:** "…he poured the same drink at official gatherings. He died just as the rest of the world was taking it up." **R2, y2:** "…crème de cassis, the dark liqueur made from Burgundy's black currants." **R3, y2:** "He brought it to the city's receptions, set it out, and welcomed people with it." **R4, y3:** "They knew the glass he handed them, and very little of what he carried in." **R5, y4. This one differs from your wording, so please check it:** "The cocktail I've made for you starts from the one he poured, with two changes. Crémant de Bourgogne, Burgundy's sparkling wine, takes the place of the still white wine, built in the glass, not shaken." I wrote "two changes", not "one change", because the basil is a second change to his drink. **R6, y4:** "And before the Crémant goes in, a few basil leaves are pressed into the cassis and strained away." A note for Robin, not a change: "Burgundy" now comes three times across y2 and y4, plus "Bourgogne". On v4 as it now stands, with Tomás's closing line: I'd put my name to this.
+
+🍸 **Tomás:** Hester, all six are in `mixologist-draft.md`, and I checked each against its page. **D1:** "a sweet blackcurrant liqueur" (Oxford pdf 597) now replaces "syrup". **D2:** Pairings now says Matrix pdf 52 gives basil as a surprise pairing for berries, and that currants appear there only as substitutes. Carrying it over to blackcurrant is my step. **D3:** The ingredient row is now at 40 g/100 ml. The ABV of 16% stays marked unsourced. Rerun: freeform, **12.6% ABV, 6.40 g sugar/100 ml, 0.60% acid**, and it's still veto-free. Sweeter cassis: 50 g gives 7.83 g/100 ml and 60 g gives 9.26 g, and both are written in Balance. **D4:** The "not in library" flag is gone. Crémant is now cited to Oxford KIR pdf 1133. Oxford's Kir is 15 ml cassis to 100 ml wine, and ours is 20 to 120, about the same proportion. **D5:** Orphans, "no easily defined formulas" (Joy pdf 213). **D6:** Cut. Lint is 0 errors. Wren, one count against the spec before I sign. The spec differs from what Kir poured in two ways: Crémant in place of the still wine, and the basil. So "with one change" is only true if the sentence doesn't then add the basil as well. Worse, the Crémant isn't really our change, because Oxford already records it as the Kir Royale (pdf 1133). The version that's true is: "starts from the Kir Royale, the version made with crémant de Bourgogne, with one change: basil." Hester, one thing on the same page that's yours to rule on: Oxford says Barabant, Kir's predecessor, "made the Blanc Cassis the official drink at the city's receptions". If y4 keeps "one change" and still adds the basil, it's **Not yet**.
+
+🕯️ **Host:** A crossing: Wren had already landed "two changes" before Tomás's turn. Tomás, does it meet your case? Wren, rule on his Kir Royale wording. Hester, confirm on the landed text and rule on Barabant for R3.
+
+🍸 **Tomás:** Host, yes, "two changes" as it landed is true of the spec. Kir poured still white wine and cassis, built in the glass. The spec has two changes from that: Crémant in place of the still wine, and basil pressed into the cassis and strained out. "Built in the glass, not shaken" isn't counted as a change, which is right, because Oxford's Kir is built in the glass too (pdf 1133). I'm not holding the Kir Royale point as a separate case. One small thing for Robin, and I wouldn't hold on it: "a few basil leaves" is a bit light for the recipe's 8–10. On reading v4 with Wren's R1–R6 as landed, including R5's "two changes", the spec as rerun, and the draft with D1–D6: I'd put my name to this.
+
+📜 **Hester:** Tomás, you're right about R3, and it's my wording. Barabant had already made the Blanc Cassis "the official drink at the city's receptions" (Oxford pdf 1133), so "brought it to" makes Kir the one who introduced it. He wasn't. The fix uses Joy's own verb (pdf 315): **y2, "He brought it to the city's receptions, set it out, and welcomed people with it." → "He served it at the city's receptions, set it out, and welcomed people with it."** I also struck "from 1904" from my anchors, because the year is contested (card C1). R5's "two changes" is true as landed: the glass he poured was the still Blanc Cassis, and the bubbles only appear in the 1970s (pdf 2097). The landed R1, R2, R4, R5 and R6 all pass, and so do D1–D6 and the rerun. With that one R3 edit landing exactly as quoted, I'd put my name to this.
+
+🪞 **Wren:** Tomás, you're right. What convinced me is that "two changes" claims the Crémant as ours, and Oxford already has it as the Kir Royale (pdf 1133). I've changed y4 in place: "The cocktail I've made for you starts from the Kir Royale, the version made later with Crémant de Bourgogne, Burgundy's sparkling wine, in place of the still white wine. It's built in the glass, not shaken, with one change of my own: before the Crémant goes in, a few basil leaves are pressed into the cassis and strained away. A Kir is supposed to taste of cassis. The bubbles carry the basil up, so it's the first thing you meet." On v4 as it stands: I'd put my name to this.
+
+🍸 **Tomás:** Yes, it stands. "Served" is Joy's verb (pdf 315), and it stops y2 from claiming Kir made the drink official, which Oxford gives to Barabant. Nothing in the recipe, the numbers, the closing line or the image brief rests on it. On reading v4 with Wren's R1–R6 as landed and Hester's "served" edit in y2, the spec as rerun, and the draft with D1–D6: I'd put my name to this.
+
+🕯️ **Host:** A crossing: Wren moved y4 to Tomás's Kir Royale wording just as Tomás and Hester accepted "two changes". I asked all three to sign on one exact text.
+
+🪞 **Wren:** Hester, your y2 edit is in exactly as you quoted it: "He served it at the city's receptions, set it out, and welcomed people with it." On y4, I'm keeping "two changes", and I'm undoing my own last move. What brings me back is your point: his glass was the still Blanc Cassis, so measured against the one he poured, the Crémant and the basil really are two changes, and the sentence doesn't claim we invented either. Tomás has dropped the Royale case, and you've both passed this wording. So the Royale version is withdrawn, and nobody reviewed it. This is exactly what stands: "The cocktail I've made for you starts from the one he poured, with two changes. Crémant de Bourgogne, Burgundy's sparkling wine, takes the place of the still white wine, built in the glass, not shaken. And before the Crémant goes in, a few basil leaves are pressed into the cassis and strained away. A Kir is supposed to taste of cassis. The bubbles carry the basil up, so it's the first thing you meet." whoYouAre and y5 are untouched. On this final text, with Tomás's closing line: I'd put my name to this.
+
+🍸 **Tomás:** Confirmed. My sign-off stands on reading v4 with y4's "two changes" text as landed, "served" in y2, Wren's other R1–R6, the spec as rerun (12.6% ABV, 6.40 g sugar/100 ml, 0.60% acid, veto-free) and the draft with D1–D6. I'd put my name to this.
+
+📜 **Hester:** Confirmed. With y4 back to the "two changes" text I passed and y2's "served" landed as quoted, my last edit has nothing left to fix, so I withdraw it. On reading v4-rework as it now stands, and on the draft with D1–D6, I'd put my name to this.
+
+🕯️ **Host:** All three have signed on the same landed text in round 8, after the last change: reading `psychologist-reading-v4-rework.md` (whoYouAre and y5 are Robin's words, word for word), draft `mixologist-draft.md` with D1–D6 and the new closing line, and spec as rerun. The assembled pour lints at 0 errors. The only warnings left are Kir's pronouns, which Wren accepted. All eight must-haves are covered. The room closes.
+
+## After close, 2026-09-30: Robin with Wren only
+
+👤 **Robin:** "This is where Wren I need your help to level up the psych analysis of the "yours" - can you please improve it, don't involve the others just you"
+
+🕯️ **Host:** Wren alone. Scope: `yours` y1–y5; Robin had y5 selected, so it's open. whoYouAre is untouched. Facts are frozen (no Hester or Tomás in the room), and the new work is interpretation, signposted. Result: reading v5 (`work/caregiver-innocent/psychologist-reading-v5-rework.md`).
+- **The why:** v4 said there was a half nobody sees but never said why it's hidden. v5 names it: the calm is real, and it's also the safest place in the room to stand ("nobody's cross with you, because you're never cross first"). The cost is "That you never get to hear the answer" (first drafted as "That you've never let anyone prove they'd stay", which the lint caught as overlapping *Off Duty*'s "you've never let anyone come out for you").
+- **y1 + y2 merged**, so the history now takes one paragraph. y2 is new interpretation, signposted ("I like to think he understood what a glass does…"). y3 is new. y4 now ends "so the first thing you meet is the part nobody expected. I wanted that part first." y5: "be cross in front of someone / want the window seat out loud" become two concrete moments starting with "whoever you're surest of". Robin's last three sentences are unchanged.
+
+👤 **Robin (decisions):** Use Wren's version of y5. No fact audit by Hester on v5 ("that's ok"). Take Wren's tagline suggestion ("good").
+
+🕯️ **Host:** Written to the pour. Tagline: "Everyone breathes easier when you arrive. Nobody asks what you left at the door." Reading v5. The empty second `**yours**` heading (an assembler artefact) was removed. Lint: 0 errors; the only warnings are Kir's pronouns. Registry rewritten. **Not reviewed by Hester or Tomás, by Robin's choice:** the merged y1, y4's new last line, and whether Tomás's closing line ("…Then say one thing you'd usually leave outside") now echoes the new tagline ("…what you left at the door"). Tomás had said he'd reword it if this tagline was chosen.

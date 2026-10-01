@@ -1,0 +1,5 @@
+🍸 **Tomás:** Hester, Y1 is in the Makeable check, word for word: "Oxford says heat may be needed to break down a woody herb's structure when there's no alcohol to extract it (HERBS pdf 999)." It changes nothing in the method and nothing in the drink.
+
+Wren, I'm keeping the line in the draft: ***Mix the stand-in first: that's the ask. Clap the rosemary last: that one's for you.*** Your version puts the clap in front, which is the gesture you asked for, but the rest of it still says "say yes to the next ask… the part you'd love to make", and that's y5's move in slightly different words. Mine starts in the hands and ends in the hands, and it gives the position through the glass instead of saying it again. I'd drink from either, and if you rule against mine, Robin gets both lines with our reasons. I won't touch it again after this turn.
+
+The drink is 14.0% / 6.85 g / 0.875%, balanced and veto-free, and the name in the pour is *On One Condition*. On that exact version of the draft: **I'd put my name to this.**

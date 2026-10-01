@@ -1,0 +1,1 @@
+🕯️ **Host:** A crossing to name, no side taken. Tomás's lead spark is a lime squeeze (from the "Rioja Libre" name), and Hester's Schaap page says the drink's purists find even a squeeze of lemon "a little fussy". The two turns were written in parallel. Wren rules on the story and on whether the spark reads as a correction to this guest.

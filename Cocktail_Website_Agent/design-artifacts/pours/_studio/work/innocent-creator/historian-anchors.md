@@ -1,0 +1,20 @@
+# Anchors: The Naive Artist (innocent-creator), Hester, round 4 (2026-10-01)
+
+Built from `fact-cards/kalimotxo.md` (F1–F15, C1–C3, R1–R6), with Tomás's *LI* p. 84 for the ice. The anchors follow audit v1 (`historian-audit-v1.md`): each fix the audit makes is already applied here. The festival, 1972 and the rescue are legends, so they are **not anchors** (see the end of this file).
+
+| kind | fact | meaning | speaksTo |
+|---|---|---|---|
+| drink | The Kalimotxo is red wine and cola in equal parts, usually over ice, and immensely popular in the Basque Country. Oxford's recipe: a tall glass of ice, stir (F1; Oxford pdf 386). Called a Basque-country classic (F9, Schaap 2013). | something plain and obvious that the people it's for love as it is | "It's obviously lovely." |
+| lineage | Spaniards were probably mixing wine and cola decades before it had this name, since the 1920s at least (F2, Oxford "likely"; F11 council, flat). Its older names include "Rioja Libre" (R1). So say **named**, never **invented**. | it was always obvious to the people drinking it; nobody needed permission (our reading) | "It hasn't crossed your mind that there's a proper way to do it." |
+| name | The name "Kalimotxo" spread through the Basque Country and Navarre and was popular by the early 1980s, then spread across Spain (F11, F14; council account via EFE 2022, secondary). Its root is **a friend's nickname** and nothing more (C1). Elsewhere it's *bambus* across much of the former Yugoslavia, *vadász* in Hungary (F5, F13; never Chile's name, which is contested). | a thing made for the people nearby that travelled on their love for it alone | "the people it's for can always tell" |
+| frown | An undated scene, told by a writer in the *Guardian* (2012): in a Granada tapas bar, his partner poured cola into a glass of the good local red, and the barman came down the bar pointing. The house wine from the barrel is the one you mix, this bottle isn't (F10, F15). Craft agrees: nobody puts a grand wine in it (F8, *Codex* p. 18). The knowing's wider verdict: Oxford files it among drinks with "no baggage and no rules" and says many felt they gave up complexity and elegance (F6, pdf 1332, scoped to the whole canon). | the rule, explained, pointing, to someone who didn't see the problem | "Someone explains, kindly, how it's usually done. You nod." |
+| reveal | The version of its history considered the most reliable comes from a book edited by a Bilbao artists' collective, Funky Project. Oxford admits the name doesn't sound authoritative, and takes them at their word because Bilbao takes the drink seriously (F4, pdf 386; paraphrase only, never "not very authoritative-sounding"). | the people it's for are the authority, and the big book deferred to them | "You still don't see what was wrong with it." |
+| taste | Its taste has been likened to sangria (F12; Oxford pdf 386, Schaap 2013). | worth having as it is, with no wink (our reading) | "It's obviously lovely." |
+| spark | Ordinary ice dilutes a drink as it chills it: no chilling without dilution (*LI* p. 84, Tomás). Cubes frozen from the same equal parts melt into more of the drink, not into water. The cola in the tray goes flat, so the fizz comes from the fresh pour (Tomás's spec, pending). | what you make should stay as you made it, to the last sip (our reading, said to the guest in y4) | "It looks like how the thing felt" |
+
+## Legends and exclusions (never anchors)
+- **The festival in Algorta, 1972**, is a labelled legend ("the story goes"). Oxford relays Miles's "supposedly", and the council gives 12 August (C2). The reading may say the year, never the day.
+- **The rescue is out entirely** (C3, Wren r3): turned wine hidden with cola so it could be sold, plus a suggestion not to say what was in it.
+- **The name's meaning is out** (C1): "short" in Oxford, "ugly" in the council's account.
+- **Celhay's "heresy"** stays a title that asks a question (unread). Miles 2007 is unread and known only through Oxford.
+- **"Libre" is never translated** (R5), and the lime is out (Wren r3).

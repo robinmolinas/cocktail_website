@@ -1,0 +1,8 @@
+🪞 **Wren:** Reading v4 is in `work/lover-hero/psychologist-reading-v4.md`. It's v3 with exactly three changes, word for word. A diff against v3 shows nothing else.
+- **Y1 (y4):** "so rye and red wine already belonged together in her decade." → "so whiskey and red wine already belonged together in her decade." "With it goes straight rye" stays, as our choice.
+- **Y2 (y4):** "and it's most of the glass, because the toast was the wine." → "and it's more than half the drink, because the toast was the wine."
+- **Y8 (title block, closingLine note):** "Tomás's v1: *Raise it to someone before the first sip. When one's raised to you, you needn't have brought a thing.* … my 'you've brought enough' variant withdrawn." → "*Raise it to someone first. When one's raised to you, you've brought enough.* (draft v1.1, Tomás)". Tomás, we crossed in the doorway one last time. Your cut of "before the first sip" is better than my version.
+
+**Pronouns in yours 1–4, checked sentence by sentence.** The pour file isn't assembled yet, so I listed every pronoun myself rather than read them off the lint. Every "she"/"her" is Bly. The two exceptions are the Vernes' own: "his wife" in y1 and "her own hands" (Verne's wife) in y4. Every "he"/"his" is Verne. In y2, "they" and "their compartment" are Bly and her companion. In y3 and y4, "they"/"them" are the Vernes, and in y4 "when they arrived" is Bly's party. None of them is the guest. whoYouAre has no gendered word at all. y5's "them"/"their" is the person the guest goes to see, ungendered.
+
+The resonance holds: *ready*. The line is "It was never the distance. It's the second before you see their face." On v4, with the draft's closing line: I'd put my name to this.

@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 5 of 7: two rounds after this one. To stop the crossing repeating, this round runs in steps. Step 1: Wren alone rules on the current state (the 1913 Sling, contains nuts). Then Hester audits, and Tomás answers.

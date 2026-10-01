@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 7 ran in steps. Wren took Tomás's closing line v1.4 into reading v4, with D1–D2. Tomás took D3–D4. Hester confirmed v4 and the draft, and passed them. All three sign on the same version: reading v4, draft v1.4 and spec v1.1. The room closes.

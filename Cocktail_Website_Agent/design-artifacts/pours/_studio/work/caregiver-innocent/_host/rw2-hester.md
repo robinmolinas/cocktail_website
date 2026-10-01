@@ -1,0 +1,5 @@
+📜 **Hester:** Wren, I checked. Bowes-Lyon is not in the library — no entry in Oxford, *Imbibe!*, or *A Proper Drink*. The Dubonnet Cocktail is in Oxford (pdf 685): created at New York's Café Martin around 1904, equal parts Dubonnet and gin. The entry has no royal connection at all. Any link between the Queen Mother and that drink would be secondary sourcing only. That's not a bar — it's labelled, and it's usable — but I want you to have it before you build.
+
+Tomás, your inversion argument is honest and I've sat with it. I hold my fence for one reason: the mirror works better when the public faces match. The guest reading about Brigham's rowdy saloon and his joke comeback sees a public face that's nothing like theirs. They'd have to look past a combative surface to find the parallel, and a reading can't ask that much. Kir's public face — priest, mayor, the quiet gesture of pouring — is theirs. The Resistance underneath is what nobody expected.
+
+I'm not ruling Brigham out. That's Wren's call. I'm saying the guest would see themselves faster in Kir.

@@ -1,0 +1,27 @@
+{
+ "pairing": "explorer-hero",
+ "personality": "The Pioneer",
+ "archetypes": "Explorer × Hero",
+ "date": "2026-10-01",
+ "batch": "explorer",
+ "name": "Nothing to It",
+ "tagline": "You went first, so they knew they could.",
+ "epigraph": "One barrel, bottled alone, used to stay inside the trade. Then someone put it on sale.",
+ "glassware": "a small tumbler (about 200 ml), chilled in the freezer, no ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v5.md",
+ "card": "elmer-t-lee-blantons.md",
+ "language_row": "Wren's Resonance on reading v5: ready. Line that lands: \"You're scared every time. Nobody's ever been able to tell.\" Runner-up: \"So you make it look possible, and somebody behind you decides they could do it too.\" Horoscope check: \"That isn't modesty\" is held by the two sentences after it. Swap test clean against *Off Duty*, *Down the Line*, *Before the Room*, *Hoping You'd Come*, *Brought Home*. Echoes moved off: \"That's where I see you in him\" (*Hoping You'd Come*), \"the next time someone\" (*For Good*), \"nobody you know has\" (*Brought Home*), \"strained into a small chilled\" (*Beside the First*), \"instead of covering it\" (*Half a Rim*). Pronoun warnings accepted by Wren: \"himself\" and \"him\" in y1 are Albert Blanton; \"he\" in y2–y3 is Elmer T. Lee, never the guest. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/elmer-t-lee-blantons.md` (*Oxford Companion* BLANTON'S pdf 283, SINGLE BARREL pdf 1806, WHISKY, BOURBON pdf 2140, CHARRING, TOASTING pdf 437, CORN pdf 583, MASH BILL pdf 1255, OLD-FASHIONED COCKTAIL pdf 1427, COCKTAIL pdf 491, BOOKER'S pdf 2143; Lee to Liza Weisstuch, *Whisky Magazine* 85, January 2010, his words through a reporter; *Boston Globe* obituary, 22 July 2013; Buffalo Trace via WhiskyCast, 16 July 2013; Breaking Bourbon 2016 and 2021 for strengths and labels). Drink: *Cocktail Codex* pp. 2, 4–6, 12; *Flavor Matrix* caramel pdf 72, corn pdf 88; Dave Arnold, *Liquid Intelligence* pp. 137, 347 (caramel syrup), pdf 187. Room notes: `work/explorer-hero/`.",
+ "names_note": "**Nothing to It**, the room's pick (Tomás r4; Hester; Wren conceded r5): the shrug itself, the mask the reading takes off (y5: \"don't make it sound like nothing\"; the closing line: \"let them hear how close it came\"); read cold, the tagline stops it sounding like \"nothing to you\". **Nobody Could Tell** was Wren's r4 pick, from the \"this is me\" line; she moved because with it on top the reading said \"nobody could tell\" three times. Also considered: *In Front of Everyone*, *One Barrel*, *Off at Amber* (Wren), *Went Anyway*, *Who Goes First* (Tomás).",
+ "open_items": [
+  "**Dates that conflict (Hester C1, C2, C4):** the owners' ask 1983 or 1984, his retirement 1985 or 1986, the launch price $25 or about $30. The reading uses no year but 1984 (the launch, agreed everywhere), no retirement year and no price.",
+  "**\"First\", scoped (C6):** the first single-barrel bourbon brand. Not the first premium bourbon (the *Globe*: Lee \"was not the first\" to try one), not the first single-barrel whiskey (most nineteenth-century whiskies were, pdf 1806). Booker Noe was working on his own at the time (pdf 2143), and there was \"an uptick\" in niche bottles (pdf 283), so nothing says he stood alone.",
+  "**Whose habit (Hester's guard):** the private one-barrel habit was Albert Blanton's; Lee learned it (\"what I had learned from Colonel Blanton\") and made it a brand, with the new owners asking and his staff choosing the barrels. Never \"for decades\". Blanton's first name conflicts (Albert per Oxford; \"Howard B.\" in the interview transcript, C3): the reading says \"Colonel Blanton\".",
+  "**Never cite Oxford's BUFFALO TRACE entry (C5):** it calls Blanton's \"small batch\", against pdf 283 and 1806.",
+  "**Barrels differ in strength, not profile:** Blanton's picks to \"a specific flavor profile\" (pdf 283), so nothing says every barrel is different. A stronger barrel gets water to make up 60 ml (bands proved to 70%); Blanton's at 46.5% needs none. The method says so; the reading doesn't.",
+  "**Caramel:** taken off at deep amber (burnt sugar goes \"bitter, acrid\", *Matrix* pdf 72; `balance.py` can't hear bitterness). The char line (pdf 2140) is the same thing done to a different sugar; nothing says the syrup tastes like the barrel. Acid reads 0 against Arnold's stirred floor, a vermouth artefact for spirit-only stirred drinks, owned in Checks.",
+  "**Kept out on purpose:** the war; \"pioneered\" and \"visionary\" (Oxford's words, and a wink at the guest's name or a sibling's); \"handwritten\" labels (no trusted page); his nightly highball (spirit unnamed). Neighbours owned in Checks: *No Accident*, *Beside the First*, and the Magician and Trailblazer plans' bourbon Old-Fashioneds."
+ ]
+}

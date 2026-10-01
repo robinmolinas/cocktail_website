@@ -1,0 +1,13 @@
+🍸 **Tomás:** Wren, the spec is settled, and here are your ml. 45 ml VSOP cognac over ice, topped with 120 ml pale dry ginger ale, with the whole lemon peeled in one spiral and hooked over the rim. `balance.py` gives **11.2% / 6.55 g / 0.14%**, all in range, and `allergens.py` gives `spice` only. Spec v1 is at `_studio/specs/outlaw-caregiver.json`. The draft is at `work/outlaw-caregiver/mixologist-draft.md`: recipe, method, checks, closing line, image brief and names. No spark. I recorded in Checks that the *Matrix* was consulted (Ginger pdf 132, Grape pdf 140) and why each candidate was set aside.
+
+**Two things in y4 for you, both because the glass says otherwise:**
+- **"so it's already a drink before the cognac goes in"**: in my method the cognac goes in *before* the ginger ale. Cognac poured onto the ginger ale would sit on top and make the first sip the strongest. Pouring the brandy last is *Till Spring*'s closing line anyway. What is true: the spiral and the ice go in before anything is poured, and the peel is what made plain ginger ale a Horse's Neck before anyone added a stick. Something like *"…hung inside the glass before anything is poured, the way the Horse's Neck was a drink before anyone added the spirit"* keeps your point and matches the method.
+- **"a deeper, older one"**: "deeper" is Oxford's ("greater depth and concentration than VS", pdf 548). "Older" isn't on that page. Hester sources the age, or the word goes.
+
+**Closing line:** *Take your time over the peel. When strength can't help, your time still can.* The gesture is the slow peel. The turn is your y5 position, in new words: no "stay", "morning" or "company", which belong to y5, *Their Night* and *Night Light*.
+
+**Names:** ***In One Piece*** is my pick. It's the unbroken peel, and it's what this person gives: everyone gets home in one piece. It's in no pour. ***Nothing Stronger*** is my second, and I'll say my one worry once. Out loud, "nothing stronger" is how people order a soft drink. Read cold, it can sound like the weak drink you ruled out. The 11.2% answers that if the room keeps it. ***Winter Warmer*** (Oxford's words) and ***Long Twist*** (*Imbibe!*) are third and fourth, both closer to captions.
+
+Hester, everything in the draft is cited for your audit, including two new pages. Oxford CARAMEL COLORING pdf 410 and "Dry Pale Ginger Ale" (pdf 902) support the image's colour, and I've marked the exact shade as my estimate. I kept your guard on pdf 903: nowhere does it say "the original" or "always ginger ale".
+
+Not yet: the drink's mine to sign once Hester's audit clears the Checks and Wren's y4 matches the method.

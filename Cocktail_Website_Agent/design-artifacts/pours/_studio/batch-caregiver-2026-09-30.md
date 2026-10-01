@@ -26,7 +26,7 @@ Some rooms ran in Robin's parallel chats. Five were on his 6-round cap (sage, lo
 - **Fair Measure (caregiver-ruler):** 9.5% ABV, 0.5 under the highball floor, defended because four to one is the rule.
 - **Till Spring (caregiver-magician):** the colonial army is left out of Picon's story by choice ("a young Frenchman in Algeria, in the 1830s").
 - **The Other Kindness:** name alternative *Since When*, if the tagline ever moves.
-- **Off Duty (caregiver-hero):** its spec has no Codex family, so the registry shows "?". That's Tomás's to fill on a rework. The honey sits at the full end of the sucrose-built hot band on purpose (see rule candidates).
+- **Off Duty (caregiver-hero):** its spec had no Codex family (the registry showed "?"). Fixed 2026-09-30 on Robin's word, using Tomás's own filing in Checks: Old-Fashioned family, as a toddy (*Codex* p. 38). The honey sits at the full end of the sucrose-built hot band on purpose (see rule candidates).
 - **Serviceable (caregiver-explorer):** Wren rates the epigraph its weakest line.
 
 **Allergens across the batch:** 8 of 11 are veto-free. *Worth the Trip* contains spice, *Not Too Polite* dairy and nuts, *Everybody's* dairy.
@@ -57,7 +57,7 @@ Some rooms ran in Robin's parallel chats. Five were on his 6-round cap (sage, lo
 
 ## Menu view (non-binding)
 
-- **Codex families:** highball 4 (explorer, jester, magician, ruler), daiquiri 2, martini 2, old-fashioned 1, flip 1, unfiled 1 (hot toddy).
+- **Codex families:** highball 4 (explorer, jester, magician, ruler), daiquiri 2, martini 2, old-fashioned 2 (one a hot toddy), flip 1.
 - **Styles:** 2 hot (*Off Duty*, *Everybody's*).
 - **Base spirits:** gin 5 (one Plymouth), Irish whiskey 2, blended scotch 2 (one hop-steeped), navy rum 1, China-China 1.
 - **Strength:** from 9.5% (*Fair Measure*) to 23.9% (*The Other Kindness*).
@@ -67,3 +67,13 @@ Some rooms ran in Robin's parallel chats. Five were on his 6-round cap (sage, lo
 - **A fructose-aware sugar range for hot drinks sweetened with honey** (Tomás, caregiver-hero). Open.
 - **A drink category is never "taken"** (Robin, 2026-09-28). Your instruction; it still waits for your edit to STUDIO-RULES.
 - Not proposed as a rule, a lesson from Tomás (caregiver-lover): a "?" family in the registry can hide an authored drink, so grep the pour files.
+
+## Robin's answers, 2026-09-30
+
+1. **No spark is fine, but the drink must still be interesting.** Tomás should use the cocktail books in the library to make it so, always in service of the person. Applies from the Explorer batch on.
+2. **Celery family, sulphites, quinine, caffeine, wheat glucose:** not added to the veto list.
+3. (Asked what "taken" meant; answered in chat.)
+4. **Fine on all the smaller calls.** *Suffering Bastard* can stay in the reading: a mild word in a real drink's name is fine, a heavy direct insult isn't. The room's names stand.
+5. **Off Duty's missing family:** fixed (see above).
+
+**Rework, 2026-09-30:** *Everybody's* was reworked on Robin's note (a plain Irish Coffee may disappoint the guest). It now has cream steeped with toasted oats, the one thing added to the original serve, and contains dairy and gluten. See the room record's Summary.

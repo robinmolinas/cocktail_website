@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 7 of 7, the last, in steps. The assemble on reading v3 and the fixed draft lints with **0 errors**. The four warnings are "he/his" in y1–y4, which Hester has confirmed are Fougner and the reader. Step 1: Wren rules on Tomás's y4 request.

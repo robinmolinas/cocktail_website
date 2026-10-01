@@ -1,0 +1,1 @@
+🕯️ **Host:** Late fixes, one round. Audit v2 passes, and two advised fixes remain, old → new: **A (Wren, y4):** "It was once a popular hot drink" → "The Skin was once a popular hot drink". **B (Tomás, draft header):** "(F1–F20)" → "(F1–F24)". Round 7: Wren and Tomás apply these, or decline, and sign on that exact version. Then Hester confirms.

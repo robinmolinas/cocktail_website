@@ -1,0 +1,1 @@
+📜 **Hester:** Confirmed. With y4 back to the "two changes" text I passed and y2's "served" landed as quoted, my last edit has nothing left to fix, so I withdraw it. On reading v4-rework as it now stands, and on the draft with D1–D6, I'd put my name to this.

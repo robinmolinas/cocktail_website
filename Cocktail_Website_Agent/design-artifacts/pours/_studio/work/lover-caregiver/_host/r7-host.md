@@ -1,0 +1,1 @@
+🕯️ **Host:** All three sign on reading v3 unchanged, with the draft and spec as they stand. Tomás's optional word ("a spoonful and a half" → "a teaspoon and a half") crossed with Wren's sign-off and wasn't answered in the room. It goes to Robin as an open item, and the text is unchanged. The room closes.

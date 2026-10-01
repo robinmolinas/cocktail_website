@@ -1,25 +1,22 @@
 {
- "pairing": "caregiver-innocent",
- "family": "martini",
- "style": "stirred",
- "glass": "small stemmed wine glass, chilled",
- "serves": 1,
- "ingredients": [
-  {
-   "key": "plymouth_gin",
-   "ml": 50
-  },
-  {
-   "key": "blanc_vermouth",
-   "ml": 25
-  },
-  {
-   "key": "benedictine",
-   "ml": 7.5
-  }
- ],
- "garnish": [
-  "candied_angelica"
- ],
- "_status": "v3.1 (Tomas, round 6): Plymouth gin named (angelica on record in it, Oxford pdf 1541; its seven by 1860, pdf 1538). Substitute style: any London dry gin that lists angelica among its botanicals (sweep 37.5-47% balanced)."
+  "pairing": "caregiver-innocent",
+  "family": "highball",
+  "style": "freeform",
+  "glass": "flute or wide coupe, chilled",
+  "serves": 1,
+  "ingredients": [
+    {
+      "key": "creme_de_cassis",
+      "ml": 20
+    },
+    {
+      "key": "champagne_brut",
+      "ml": 120
+    }
+  ],
+  "garnish": [
+    "basil_leaf"
+  ],
+  "_notes": "Basil leaves briefly muddled into the cassis, then fine-strained before building. champagne_brut stands in for Crémant de Bourgogne (Oxford KIR pdf 1133: the Kir Royale's local sparkling wine). Built in glass, no shaking. Cassis sugar at the French legal floor, 40 g/100 ml (Oxford pdf 597); ABV 16% unsourced. Basil: Matrix pdf 52 surprise pairing for berries; the step to blackcurrant is Tomás's. Freeform: wine aperitif (Joy Orphans, pdf 213/315).",
+  "_status": "rework v1.1 (2026-09-30, audit v5 D1-D6)"
 }

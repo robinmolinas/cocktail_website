@@ -1,0 +1,18 @@
+- **The persona:** the Morale Booster makes the fun on purpose, for a group, with a shape everyone can join, and keeps a private list of the ones that didn't take (Wren, round 1).
+- **The story:** Clara Bell Walsh's 1917 St. Louis party, the first planned as a cocktail party and called one, after other themes she'd tried (one had the guests dress as babies) didn't catch on (Oxford pdf 512). The plan's lead was accepted in round 1 and verified on the page in round 2. Runner-up: the Capillaire Club (plan backup), released unused.
+- **The drink:** Oxford's Bronx (a thin orange wheel muddled, peel and all, instead of juice) with two changes, both ours: a pinch of cracked coriander in the muddle (the *Flavor Matrix* spark), and Peychaud's in place of the Angostura, for the guests who'd rather have had a Sazerac. Stemmed wine glass. Veto-free. 20.2% / 3.71 g / 0.170%.
+- **What failed and why:**
+  - Reading v1 failed Hester's audit: "Nobody tells the story of the baby party" is false, "coriander, already in most gins" goes past the page, and "the second idea … without the first" gives her themes an order the page doesn't have.
+  - v2's y4 claimed Malloy's 1908 peel trick and Oxford's muddled wheel as ours, and called a 20% drink "strong".
+  - Hester's catch in round 3: the peel is the oldest answer, not a fix, so "one more try" replaced any claim that the drink fixed the Bronx.
+  - Oxford's own 60/15/15 read OUT on sugar and acid. Tomás raised the sweet vermouth rather than add syrup.
+  - The first shape (Martini · London dry · nick-and-nora) collided with Innocent's Little Prince plan, so the drink moved to a stemmed wine glass.
+- **"This is me":** "There's a list, though, and only you have it: the ones that didn't take."
+- **Names:** *Anyway* (all three). *The One That Took* was set aside because on a menu it reads as a claim that the drink fixed the Bronx. Also considered: *Another Go*, *Noon Till One*, *Here's the Plan*, *Game for It*.
+- **Crossings:** the rounds crossed three times (audits landing on the version before), and each was resolved by the owner. The closing line went back and forth between Tomás's two candidates. His first stands: *Muddle the whole wheel, peel and all. Then tell the story of the one that didn't take.*
+- **Edges:**
+  - Strength and acid sit at the edges, justified in Checks as the Bronx's own character.
+  - The gin must be 43% or stronger, and the wheel thin.
+  - The 1917 paper couldn't be read (blocked), so "instant hit" stays legend-grade and out.
+  - Four pronoun warnings, all Walsh, accepted by Wren.
+- **Rule candidates:** none raised.

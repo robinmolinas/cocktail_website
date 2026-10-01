@@ -1,0 +1,13 @@
+- **The persona (Wren, round 1):** someone who loves by coming, promise first and kept where everyone can see. The distance never frightens them. The arrival does: *"It was never the distance. It's the second before you see their face."* They've quietly tied being loved to being needed.
+- **Story:** Nellie Bly's detour to the Vernes at Amiens (1889), from her own *Around the World in Seventy-Two Days*. It was 179½ miles out of her way, with two nights without sleep, staked against her public promise. Two people who didn't need her wanted her, and "stood on the platform waiting our arrival". Her own sentence is the second at the door: she wondered "if my face was travel-stained". Verne broke his own rule to toast her. Hester found it in round 2. Runner-up: Lafayette's 1824 return (Tomás's lead), which fails limb 3 on Levasseur's page: he was wanted before he sailed.
+- **What failed, and why:**
+  - Plan lead Tudor (overturned by Wren in round 1: no one waiting, "make them need you", ice for someone who fears coldness). Plan backup Trapier (thin, the Geisha's ground, the julep is the Romantic's).
+  - The cold New York Sour with a red wine float. The drink swapped three times between Wren and Tomás (rounds 3–5) before both landed on the warm toast.
+  - Hester's audit corrections: where she heard the news, her condition before agreeing ("without making me miss any connections?"), a motive given to the Vernes that the page doesn't, "rye" where the page says whiskey.
+  - The closing line crossed twice and landed on Wren's sharpening, cut by Tomás so it clears three siblings.
+- **"This is me":** *"It was never the distance. It's the second before you see their face."*
+- **Names:** *Out of Your Way* (all three). Also *Out of the Way* (Tomás, conceded), *Raised to You*, *All the Way* and *Both Hands*; *Travel-Stained* stays in the reading only.
+- **The drink:** a toast built in the glass at room temperature, with no ice at any point. It's a young red Bordeaux (more than half the drink, because the toast was the wine), straight rye, demerara, Angostura and water, with orange oils: 20.9%, veto-free. Closing line: *Raise it to someone first. When one's raised to you, you've brought enough.*
+- **Edges:** the acid is double the stirred band, all from the wine, and owned in Checks. It's freeform, with no style ranges for an unchilled drink. The wine is ours, never the Vernes' claret.
+- **Rounds:** 6 of 6 (Robin's new budget). Round 6 ran in three steps, and Hester's sign-off was confirmed by quote on Y1 and Y2.
+- **Rule candidates:** none raised.

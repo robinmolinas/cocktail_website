@@ -1,0 +1,35 @@
+🪞 **Wren:** Hester, Tomás: here's who's walking in. The full card is in `work/lover-regular-guy/psychologist-persona-read-v1.md`.
+
+**The one true thing.** This person loves in a language with no feeling-words in it, and they understand it when it's spoken back to them. Someone they love mentions that the car's making that noise again. Nobody asks for anything; they'd never ask. The Rough Diamond hears "help", because that's exactly how they'd have said it, and on Saturday they're under the car. No conversation, no fuss, for as long as it takes. What they've never managed is the other sentence: the one that says why.
+
+**Shows, hides, fears, gives.** Shows: blunt, practical, there. Hides: that the feeling is full-size. Saying it out loud feels like putting on someone else's good clothes, so it stays in. Fears: that one day the person will be gone and it was never said (the sheet's own fear). Gives: nobody they love ever has to ask properly, and nobody has to sit through a speech or a thank-you. The reading should say plainly, once, what that's worth to the people on the other end: they always know where they can lean.
+
+**Where the siblings and neighbours end.** "Better with actions than words" is a horoscope in this studio by now, so the reading has to live in the two-way unsaid: hearing the ask nobody made.
+- *Quite Alive* (the Sculptor) owns "You never say it. You make it." and "you rarely know what to say. You know what to make": a crafted thing that carries a message, and the hope it's read. Ours isn't crafted, isn't a message, and isn't waiting to be decoded. It's the plumber paid for. No made-by-hand, no "let it say it for you", no "look up".
+- *Off Duty* (the Rescuer): speed in a crisis, for anyone. Ours is slow and dull (months, not one night) and only for their own.
+- *Next One's Mine* (the Saviour) owns taking the bill, and says "Put it on me" out loud. So the guest's scene is never money, even though Siegal's deed is.
+- The Knight (unauthored): the gallant rescue, and everyone sees it. Ours is unglamorous and nobody sees it. That's why McClane stays out: ducts, glass and a wife to save are the Knight's shape, and violent.
+- The Romantic, the Charmer, the Flirt: all the words. This one will never write the letter.
+- *Hoping You'd Come* owns "the plain sentence" as its position and "What you'd never tell them is…" as a frame. *Standing By* owns "say it back, gently". The Muse's y4 has "the way one sentence got him". *Before the Room* closes on "say one thing you'd usually leave outside". **"Just say it" is taken four times over.** That's the biggest trap in this room.
+
+**The position I'm aiming for** (mine to write; flagged now so nobody builds against it): not *whether* to say it, but *when*. This person can't do the face-to-face speech and shouldn't be asked to. They can say one rough line while their hands are busy: under the car, driving, halfway through the job, not looking at anyone. That's where people like this actually talk. It's in their interest, it's doable, and I haven't found it in the registry. It ends on the gain: they finally hear it, and you never had to make a speech.
+
+**Other traps.** Money as love: never "gift" (p. 96 says "lending… seed money", p. 113 calls him "investor"). Siegal as the man who saved the bar: p. 87 says it "would not have happened without Sasha Petraske's childhood pals", plural, others ran up credit-card debt (p. 88), and p. 89 credits a neighbour and DeGroff with getting it through the first year. Any claim about what he *never* said, or never asked back: the page doesn't hold it. Petraske's genius, his rules, the speakeasy and his hand-carved ice (Outlaw ground, *Fair Measure*'s runner-up, *Half a Rim*). His army years and his death. Any word that makes the guest sound cheap, or clumsy as a flaw. The reading should sound the way this person talks: short, dry, warm, allowed to be funny. Nobody should make a speech at someone who hates speeches.
+
+**Story test** (for any replacement): a real person whose love for one other person was paid in unglamorous, costly deeds over time; who answered an ask that was never quite made; and whose only words on record are practical ones that turn out to carry the feeling. The love has to be known on the page. Out: rescue, strangers, violence, health, public gestures.
+
+**Verdict on T. J. Siegal: accept.** I read pp. 86–96 and 113 myself. It passes every limb, and better than the plan says:
+- *The unmade ask, heard.* Petraske "had been talking about it a few months" before he said the plumber was coming and he had no money, and Siegal's own gloss is that it was never "T. J., I want you to invest" (p. 88). That's the one true thing on the record: he heard "help" in a sentence about plumbing.
+- *The deed, long and dull.* "For months" he handed over all the cash he made at the restaurant where he worked (p. 88). Later he ran the bar with Joseph Schwartz for the six months Petraske was in London (p. 95).
+- *The words that came out sideways.* The *Times* piece made his friend livid, and Siegal's whole answer is "I bought thirty copies." (p. 93): pride, said as a purchase. His one sentence in the drinks world is an order: one of those whiskey sours "with the honey syrup instead of the sugar… as simple as that" (p. 96), and the honey syrup was his friend's. I like to think that's the closest he came to saying it. Signposted, never fact.
+- *Known and real.* "One of the few friends he made at Stuyvesant" (p. 86). "Largely unheralded" is Proper's word (p. 96).
+- It's a friendship, not a romance, and that's a strength: the reading never requires a partner.
+- The page has him blunt to the bone ("I differ with him in my memory of that", p. 89; "I like making money", p. 113). That's this person's voice, but p. 113 stays out of the reading: it turns a love story into a business one.
+
+No backup, and I can live with that: this lead is as close to the sheet as any we've had. Hester, if you want insurance, hunt the web against the test above, but don't spend a round on it.
+
+**Tomás, the drink as proof.** The Gold Rush is the right glass because the page gets "a rich, nearly decadent mouthfeel" out of "exceedingly simple" (p. 96): a blunt order that turned out rich. That's the person. Whatever the spark is, it should make the drink warmer and deeper, never prettier, and nothing you'd perform. One coincidence to watch: a 30-second shake and thirty copies. If it goes in, we own it in one plain clause. Otherwise it stays out of the reading.
+
+**Hester, to check:** whether any page says who named it the Gold Rush (I found nothing, so the reading won't say); what happened to the thirty copies (nothing on the page, so the reading doesn't guess past one signposted line); and whether "all the cash he made at the restaurant" can be called his wages.
+
+**The line I'm reaching for,** as a tagline: *Nobody you love ever has to ask you. They only have to mention it.* It's positive, it makes you read on, and no sibling has it. Second: *You heard "help" before they could say it.*

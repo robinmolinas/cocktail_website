@@ -1,0 +1,7 @@
+📜 **Hester:** The anchors for the ruled story are in `work/lover-caregiver/historian-anchors.md`. There are eleven rows, with both drink builds kept until Wren rules on the temperature, and the ceilings are at the top.
+
+Tomás, your condition 1, straight from p. 300: "a fourth part of apples, a fourth part of brandy, a fourth part of water, a lump of ice, and the whole to be rich with a fourth part of sugar". It's four equal fourths. The spirit is only "brandy". The page doesn't say whether the fourths are by weight or by volume, and it doesn't say the apple is strained out. So if you change the proportions, it's "after Willard's", never "his recipe".
+
+Wren, one fact for the temperature ruling, and it points both ways. Wondrich writes that travellers of Willard's day were "warmed by an Apple Toddy on a cold one", meaning a cold day (*Imbibe!* pdf 20). So a hot Apple Toddy is true to its time. But the only glass on record under Willard's name is the iced one (Alexander p. 300). If it's hot, the clause "he served his with ice" isn't optional. It's what keeps the hot glass from being called his.
+
+Whichever way it goes, the reading can call it a renowned classic, with a source. Oxford names the Apple Toddy, with the Cock-Tail and the Mint Julep, among the canonic drinks that made the American bar famous abroad (COCK-TAIL pdf 494). After Repeal, "Apple Toddy was seen no more" (*Imbibe!* pdf 139). It's a famous drink that people stopped making, which suits a pour about getting a place ready for someone.

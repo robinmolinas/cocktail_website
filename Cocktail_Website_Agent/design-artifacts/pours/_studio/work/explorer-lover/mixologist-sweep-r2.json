@@ -1,0 +1,458 @@
+{
+ "A_oxford_47_m25": {
+  "pairing": "explorer-lover",
+  "style": "shaken",
+  "ingredients": [
+   {
+    "key": "gin_london_dry",
+    "ml": 60
+   },
+   {
+    "key": "lemon_juice",
+    "ml": 30
+   },
+   {
+    "key": "rich_syrup",
+    "ml": 15
+   },
+   {
+    "key": "creme_de_mure",
+    "ml": 15,
+    "stage": "top"
+   }
+  ]
+ },
+ "B_oxford_47_m40": {
+  "pairing": "explorer-lover",
+  "style": "shaken",
+  "ingredients": [
+   {
+    "key": "gin_london_dry",
+    "ml": 60
+   },
+   {
+    "key": "lemon_juice",
+    "ml": 30
+   },
+   {
+    "key": "rich_syrup",
+    "ml": 15
+   },
+   {
+    "key": "creme_de_cassis",
+    "ml": 15,
+    "stage": "top"
+   }
+  ]
+ },
+ "C_oxford_40_m25": {
+  "pairing": "explorer-lover",
+  "style": "shaken",
+  "ingredients": [
+   {
+    "key": "gin_london_dry_40",
+    "ml": 60
+   },
+   {
+    "key": "lemon_juice",
+    "ml": 30
+   },
+   {
+    "key": "rich_syrup",
+    "ml": 15
+   },
+   {
+    "key": "creme_de_mure",
+    "ml": 15,
+    "stage": "top"
+   }
+  ]
+ },
+ "D_brad50_simple_47": {
+  "pairing": "explorer-lover",
+  "style": "shaken",
+  "ingredients": [
+   {
+    "key": "gin_london_dry",
+    "ml": 50
+   },
+   {
+    "key": "lemon_juice",
+    "ml": 25
+   },
+   {
+    "key": "simple_syrup",
+    "ml": 12.5
+   },
+   {
+    "key": "creme_de_mure",
+    "ml": 15,
+    "stage": "top"
+   }
+  ]
+ },
+ "E_proper_60_22_simple": {
+  "pairing": "explorer-lover",
+  "style": "shaken",
+  "ingredients": [
+   {
+    "key": "gin_london_dry",
+    "ml": 60
+   },
+   {
+    "key": "lemon_juice",
+    "ml": 22.5
+   },
+   {
+    "key": "simple_syrup",
+    "ml": 15
+   },
+   {
+    "key": "creme_de_mure",
+    "ml": 15,
+    "stage": "top"
+   }
+  ]
+ },
+ "F_oxford_mure_shaken": {
+  "pairing": "explorer-lover",
+  "style": "shaken",
+  "ingredients": [
+   {
+    "key": "gin_london_dry",
+    "ml": 60
+   },
+   {
+    "key": "lemon_juice",
+    "ml": 30
+   },
+   {
+    "key": "rich_syrup",
+    "ml": 15
+   },
+   {
+    "key": "creme_de_mure",
+    "ml": 15
+   }
+  ]
+ },
+ "m_140_12": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 12
+   },
+   {
+    "key": "water",
+    "ml": 140
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ },
+ "m_140_13": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 13
+   },
+   {
+    "key": "water",
+    "ml": 140
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ },
+ "v_120_10": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 10
+   },
+   {
+    "key": "water",
+    "ml": 120
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ },
+ "v_120_12": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 12
+   },
+   {
+    "key": "water",
+    "ml": 120
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ },
+ "v_120_14": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 14
+   },
+   {
+    "key": "water",
+    "ml": 120
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ },
+ "v_135_10": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 10
+   },
+   {
+    "key": "water",
+    "ml": 135
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ },
+ "v_135_12": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 12
+   },
+   {
+    "key": "water",
+    "ml": 135
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ },
+ "v_135_14": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 14
+   },
+   {
+    "key": "water",
+    "ml": 135
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ },
+ "v_150_10": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 10
+   },
+   {
+    "key": "water",
+    "ml": 150
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ },
+ "v_150_12": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 12
+   },
+   {
+    "key": "water",
+    "ml": 150
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ },
+ "v_150_14": {
+  "pairing": "magician-regular-guy",
+  "family": "old-fashioned",
+  "style": "hot",
+  "serves": 1,
+  "ingredients": [
+   {
+    "key": "caol_ila_12",
+    "ml": 30
+   },
+   {
+    "key": "irish_pot_still_whiskey",
+    "ml": 30
+   },
+   {
+    "key": "demerara_sugar",
+    "g": 14
+   },
+   {
+    "key": "water",
+    "ml": 150
+   },
+   {
+    "key": "lemon_peel",
+    "count": 1
+   }
+  ],
+  "garnish": []
+ }
+}

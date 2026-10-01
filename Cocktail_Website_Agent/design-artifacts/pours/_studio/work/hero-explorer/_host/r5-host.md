@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 5 of 6, so only one round is left after this. The name is settled: *Someone Else's Map* (all three). The provisional assemble (reading v2, draft, audit v1, contains nuts) lints with **0 errors**; the 3 warnings are he/him in y1–y4, all Seed. Wren applies H1–H6, Tomás H7–H8.

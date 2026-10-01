@@ -1,0 +1,20 @@
+- **The persona:** the Firefighter says "anyone would have done the same" because they spent years making sure they would. They don't trust themselves to rise to the day, so they don't leave it to the day. Being singled out feels like being left out (Wren, r1).
+- **The story:** Marco Dionysos (*A Proper Drink* pp. 71–77). One day a guest ordered a Singapore Sling and nobody behind the bar knew how to make it. He bought his first cocktail book and "kept going back". Years later, on a busy Friday: "muscle memory… I got this." Asked about mentors: "Probably dozens." Wren replaced the plan's lead (Phil Ward, who fails the credit clause on the page) in r1. Runner-up: Phil Ward (the fallback); TGI Fridays stayed the backup.
+- **Versions that failed:**
+  - Phil Ward, whose spec-feeding was ambition, not credit given away.
+  - The clean-coat and out-ringing contests: winning puts him in front of the crew, and the white jacket is the Superhero's.
+  - "Portland" for the restaurant: not on the page.
+  - "At twenty-one" for the name change.
+  - The Mojito (Tomás r2, Wren r4). It was Harrington's at Enrico's, praises the exception, and would be a third Cuban-style white-rum drink. Its Bénédictine spark also counts as nuts.
+  - Oxford's 1910s Sling and Wondrich's tweak, both OUT on balance.
+  - A veto-free Sling with claret, which isn't the drink.
+- **The drink:** the 1913 Singapore Sling order, "one of each": 30 ml each of gin, Cherry Heering, Bénédictine and lime, built over one big cube in a rocks glass and stirred, topped with 90 ml soda and three dashes of Angostura. It's balanced (13.9%) with a justified edge at 15.1%. **Contains nuts** (Heering and Bénédictine, safe side). No spark, and the room says so.
+- **"This is me":** "Being singled out has always felt a bit like being left out."
+- **Names:** *Anyone Would Have* (Wren's; Tomás moved in r5; Hester agreed), with *One of Each* as the alternative, which opens the closing line: *One of each, so anyone can learn it. Someone beside you already has.*
+- **Edges and flags for Robin:**
+  - Contains nuts, so the Hero family drops to 8 veto-free.
+  - The Dionysos/Dionysus name coincidence: he chose the name, and it's owned in one clause. It's the family's second name coincidence, and the Innocent plan had set him aside over it.
+  - The Quest Seeker row lost its backup.
+  - `benedictine` in the ingredients table is now classed nuts (it affects any future pour).
+- **Rule candidates:** none raised formally. Worth considering: Bénédictine and nutmeg-bearing liqueurs now count as nuts.
+- **Process note:** 7 rounds. There was a swap-crossing on the drink in r4 (Wren moved to the Mojito as Tomás moved to the Sling), so rounds 5–7 ran in steps.

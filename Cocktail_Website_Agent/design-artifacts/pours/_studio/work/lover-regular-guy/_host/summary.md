@@ -1,0 +1,13 @@
+- **The persona (Wren, round 1):** someone who loves in a language with no feeling-words, and hears the ask nobody made. On Saturday they're under the car, and what they've never managed is the sentence that says why.
+- **Story:** T. J. Siegal handing over "all the cash he made at the restaurant", for months, after Petraske mentioned the plumber was coming (*A Proper Drink* pp. 86–96), and then ordering his usual bourbon sour with honey instead of sugar: the Gold Rush. Hester found in *PUNCH* (2021) that Siegal named it himself, and his rule for names became a fence: no hidden meaning. The plan had no backup, and none was needed.
+- **What failed, and why:**
+  - The closing line's "The drink needs twelve" overstated Arnold (Hester, round 3), and became "The cold's done by twelve".
+  - Reading v1 failed Hester's audit on seven small points: "In 1999", "every bit of money" (her own wording, struck), "wrote it up", "couldn't bring themselves to ask" (a motive not on record), "is his order" (the method is the printed recipe's), "never a request", and the chalkboard order.
+  - The printed ¾ oz of 3:1 honey syrup reads OUT on sugar, so the drink is ½ oz, owned in y4 ("a third less").
+  - *The Plumber's Coming* lost to *Any Day* on Siegal's own naming rule, and because it's the friend's sentence, not the guest's.
+- **"This is me":** *"you tell yourself they know. Mostly they do."* (Wren's line that lands hardest, in whoYouAre)
+- **Names:** *Any Day* (all three, round 5). Also *The Plumber's Coming*, *Thirty Copies*, *The Other Eighteen* and *Heard You*.
+- **The drink:** the Gold Rush from his order, as *A Proper Drink* prints it, with a third less honey syrup (light wildflower or clover). It's Elijah Craig Small Batch, shaken thirty seconds, over one large plain cube: 18.4%, balanced, veto-free, no spark (his drink is already one change). Closing line: *Thirty seconds of shaking. The cold's done by twelve. Say it in the other eighteen.*
+- **Edges:** the history share is at the limit (about 54% of yours), and Wren flagged it herself. The thirty copies partly cut against us on the page, and the reading grants the sceptic in the same paragraph. The bottle is younger today under the same name.
+- **Rounds:** 7 of 7. Round 7 was dossier strings only (D1–D4), checked by the host by quote as Hester asked.
+- **Rule candidates:** none raised.

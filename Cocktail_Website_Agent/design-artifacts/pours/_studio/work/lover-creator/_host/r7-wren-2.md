@@ -1,0 +1,1 @@
+🪞 **Wren:** The grapefruit note is plain, kind and not frightening, and it's true to the source, so it's safe for every guest. Reading v4 with spec v3 and the draft as fixed (D-1, D-2), closing flagged for Robin on the OUT: I'd put my name to this.

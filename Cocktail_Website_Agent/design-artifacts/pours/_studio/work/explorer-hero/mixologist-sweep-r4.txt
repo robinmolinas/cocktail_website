@@ -1,0 +1,41 @@
+== spec v1, named bottle
+bourbon_blantons  60.0 +  0.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 28.5% / 4.66 g, dil 45.3%, 100.4 ml | in range (acid aside)
+== label bands: bourbon + water = 60 ml, each band at both ends
+b40               60.0 +  0.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 24.9% / 4.72 g, dil 43.6%,  99.2 ml | in range (acid aside)
+b44               60.0 +  0.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 27.1% / 4.68 g, dil 44.8%, 100.0 ml | in range (acid aside)
+b48               60.0 +  0.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 29.3% / 4.65 g, dil 45.6%, 100.6 ml | finished abv edge
+b48               55.0 +  5.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 27.1% / 4.68 g, dil 44.8%, 100.0 ml | in range (acid aside)
+b50               55.0 +  5.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 28.1% / 4.66 g, dil 45.2%, 100.3 ml | in range (acid aside)
+b53               55.0 +  5.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 29.7% / 4.65 g, dil 45.7%, 100.7 ml | initial abv edge, finished abv edge
+b53               50.0 + 10.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 27.2% / 4.68 g, dil 44.8%, 100.1 ml | in range (acid aside)
+b55               50.0 + 10.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 28.1% / 4.66 g, dil 45.2%, 100.3 ml | in range (acid aside)
+b58               50.0 + 10.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 29.5% / 4.65 g, dil 45.7%, 100.7 ml | finished abv edge
+b58               45.0 + 15.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 26.8% / 4.68 g, dil 44.6%,  99.9 ml | in range (acid aside)
+b60               45.0 + 15.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 27.7% / 4.67 g, dil 45.0%, 100.2 ml | in range (acid aside)
+b63               45.0 + 15.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 28.9% / 4.65 g, dil 45.5%, 100.5 ml | in range (acid aside)
+b63               40.0 + 20.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 26.0% / 4.70 g, dil 44.2%,  99.6 ml | in range (acid aside)
+b66               40.0 + 20.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 27.1% / 4.68 g, dil 44.8%, 100.0 ml | in range (acid aside)
+b70               40.0 + 20.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 28.6% / 4.66 g, dil 45.4%, 100.5 ml | in range (acid aside)
+== caramel strength (the home syrup's real sweetness is uncertain), at 46.5% named bottle
+bourbon_blantons  60.0 +  0.0 water | car50    7.5 ml, 2 dashes | fin 28.5% / 3.80 g, dil 45.3%, 100.4 ml | in range (acid aside)
+bourbon_blantons  60.0 +  0.0 water | car55    7.5 ml, 2 dashes | fin 28.5% / 4.17 g, dil 45.3%, 100.4 ml | in range (acid aside)
+bourbon_blantons  60.0 +  0.0 water | car61.5  7.5 ml, 2 dashes | fin 28.5% / 4.66 g, dil 45.3%, 100.4 ml | in range (acid aside)
+bourbon_blantons  60.0 +  0.0 water | car70    7.5 ml, 2 dashes | fin 28.5% / 5.29 g, dil 45.3%, 100.4 ml | in range (acid aside)
+bourbon_blantons  60.0 +  0.0 water | car75    7.5 ml, 2 dashes | fin 28.5% / 5.67 g, dil 45.3%, 100.4 ml | initial sugar edge, finished sugar edge
+== syrup volume
+bourbon_blantons  60.0 +  0.0 water | caramel_syrup  5.0 ml, 2 dashes | fin 29.5% / 3.24 g, dil 45.7%,  97.0 ml | initial sugar edge, finished abv edge, finished sugar edge
+bourbon_blantons  60.0 +  0.0 water | caramel_syrup 10.0 ml, 2 dashes | fin 27.6% / 5.99 g, dil 45.0%, 103.8 ml | initial sugar OUT, finished sugar edge
+== bitters 1-3 dashes
+bourbon_blantons  60.0 +  0.0 water | caramel_syrup  7.5 ml, 1 dashes | fin 28.5% / 4.68 g, dil 45.3%,  99.3 ml | in range (acid aside)
+bourbon_blantons  60.0 +  0.0 water | caramel_syrup  7.5 ml, 3 dashes | fin 28.5% / 4.64 g, dil 45.4%, 101.6 ml | in range (acid aside)
+== v1 bands (label 'up to'), each at its lower and upper end
+ 40.0% bx                60.0 +  0.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 24.9% / 4.72 g, dil 43.6%,  99.2 ml | in range (acid aside)
+ 47.5% bx                60.0 +  0.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 29.0% / 4.65 g, dil 45.6%, 100.6 ml | in range (acid aside)
+ 47.5% bx                55.0 +  5.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 26.9% / 4.68 g, dil 44.6%,  99.9 ml | in range (acid aside)
+ 51.5% bx                55.0 +  5.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 28.9% / 4.65 g, dil 45.5%, 100.5 ml | in range (acid aside)
+ 51.5% bx                50.0 + 10.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 26.5% / 4.69 g, dil 44.5%,  99.8 ml | in range (acid aside)
+ 57.0% bx                50.0 + 10.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 29.0% / 4.65 g, dil 45.6%, 100.6 ml | in range (acid aside)
+ 57.0% bx                45.0 + 15.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 26.4% / 4.69 g, dil 44.4%,  99.8 ml | in range (acid aside)
+ 63.0% bx                45.0 + 15.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 28.9% / 4.65 g, dil 45.5%, 100.5 ml | in range (acid aside)
+ 63.0% bx                40.0 + 20.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 26.0% / 4.70 g, dil 44.2%,  99.6 ml | in range (acid aside)
+ 70.0% bx                40.0 + 20.0 water | caramel_syrup  7.5 ml, 2 dashes | fin 28.6% / 4.66 g, dil 45.4%, 100.5 ml | in range (acid aside)

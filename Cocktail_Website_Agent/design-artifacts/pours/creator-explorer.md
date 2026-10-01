@@ -64,7 +64,7 @@ Most of what you try doesn't work, and you honestly don't mind. You rarely menti
 
 3. I like to think he wasn't trying to be clever. He just wanted to know what would happen. That's the question you ask about everything, and like him, you'd rather find out than be told. And it didn't stop at one recipe. Bartenders went on to make their own versions of it, which is exactly how you'd want something of yours to be treated.
 
-4. So yours keeps his ounce and a half of bitters and his lemon, and changes two things. His almond syrup is gone. In its place is a syrup of lemongrass, which sits beautifully beside warm spice and citrus. And his half ounce of whiskey is now yours to choose: any unsweetened spirit you have open. Gin, mezcal, rum, a smoky whisky. Every one balances, and every one makes a different drink. It's shaken hard and served in a wide, shallow stemmed glass. The bitters stay. Only the accent moves.
+4. So the cocktail I've made for you keeps his ounce and a half of bitters and his lemon, and changes two things. His almond syrup is gone. In its place is a syrup of lemongrass, which sits beautifully beside warm spice and citrus. And his half ounce of whiskey is now yours to choose: any unsweetened spirit you have open. Gin, mezcal, rum, a smoky whisky. Every one balances, and every one makes a different drink. It's shaken hard and served in a wide, shallow stemmed glass. The bitters stay. Only the accent moves.
 
 5. It didn't win, Gonzalez says, and he kept making it anyway. Somewhere you've got something you left half-tried: a recipe, a plan, an idea you walked away from just as it started working. Go back to it. Not to make it the way it was. To find out what it turns into when you stay.
 

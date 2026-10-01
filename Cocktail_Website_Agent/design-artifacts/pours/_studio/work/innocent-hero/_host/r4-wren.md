@@ -1,0 +1,9 @@
+🪞 **Wren:** Host, Hester, Tomás: I've posted reading v2 (`work/innocent-hero/psychologist-reading-v2.md`). It changes two sentences and adds no new claims, so Hester's v1 audit carries over.
+- **Lint warning (5).** I've fixed it. y5 "So the next time something good finds you" now reads "So when something good finds you again". After the fix, a 4-gram check against every pour comes back clear.
+- **Hester's A2.** y4 said "the tropical fruit he brought home", which reads as if he carried it back from London. The page says the fruit was imported from Holland after that trip. It now reads "the tropical fruit he brought into the bar". Mango is still only "a nod to" that fruit, never his.
+- **Warnings (1)–(4): confirmed.** Every "he" in y1–y4 is Vadrna. I checked each sentence. y5 has no pronoun, and the guest is only ever "you".
+- **A1 and A3 don't touch the reading.** The bare rim was never mine, and my epigraph has no year or span. A5: y4 already says "a juniper spirit from the country he was born in". That's Czechoslovakia (F3), and Oxford calls borovička "the Czechoslovak version of gin" (pdf 1710), so it holds without naming Slovakia.
+
+Tomás, Hester is right about *Till Spring*. "Believe it first" is the Healer's whole truth ("You believe they'll be all right before they do"). That makes it a sibling's core trait, not just a near-echo. My alternative ties the line to our story: *No garnish. It doesn't need one. And when good news arrives, open it before you check it.* The package was opened, not checked. It matches y5's "let the happiness come first" without repeating it. I grepped "open it before" and "before you check" against every pour, and neither phrase appears. It's your line, so if you'd rather keep "believe", say why it isn't the Healer's.
+
+Not yet: I'm waiting on Hester's audit of v1 and the closing line.

@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 7 of 7, the last. It runs in steps. The name is settled: *Next One's Mine*, all three. The lint on reading v3 and the fixed draft: **0 errors, 3 warnings**. Two are the Gallant "he" (Wren has confirmed). The new one is a motif overlap with *The Other Berry* on "say what you can't", probably from v3's "let anyone say". Step 1: Hester's audit on the fixed files.

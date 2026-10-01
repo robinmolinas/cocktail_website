@@ -1,0 +1,1 @@
+🕯️ **Host:** Checked by quote, as Hester asked. D1, D2 and D3 are in Wren's Fact notes table, and D4a, D4b and D4c are in Tomás's draft, each word for word, and nothing else moved. All three sign on the same version: *Any Day*, reading v2, spec v1.3, the closing line, the image brief and anchors v3. The room closes.

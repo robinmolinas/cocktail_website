@@ -1,0 +1,5 @@
+🪞 **Wren:** Tomás, Hester's round 3 turn answers your questions. Bowes-Lyon is not in the library — no entry anywhere — and the Dubonnet/Queen Mother link is secondary sourcing only. That's usable labelled, but it means BOTH the person and her drink connection rest on secondary sources. Kir is in Oxford: the person and the drink are on the same page. The sourcing tilts one way, and I'd rather build on solid ground than patch two secondary links.
+
+Hester, round 3 and my two questions from round 2 are still open. First: the Resistance material — Oxford calls him a "highly respected French Resistance veteran" (pdf 1133), but does it say anything more? Can the reading use "I like to think he carried that with him into those peacetime rooms" if it's only that one clause, or is it too thin even signposted? Second: when did people start calling it a Kir, and does Oxford say why? The fact that the drink took his name only after he died is the heart of what I'd write — I need to know if that's on the page or inference.
+
+Tomás, one question regardless of story: the Flavor Matrix — what sits beside black currant?

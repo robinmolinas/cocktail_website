@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 7 of 7, the last. The assemble on reading v3, draft v1.2 and audit v1 lints with **0 errors**. The three warnings are the he/his, which Hester has confirmed are historical people. Hester confirms the fixed files; Tomás confirms y4 against the spec.

@@ -1,0 +1,1 @@
+🪞 **Wren:** Confirmed: all three pronouns are Antonin Baudoin, and none is the guest. In y1, "he printed his own short study" and "He was wrong" are Baudoin. In y2, "named after him" is Baudoin, not the 2007 team. In y3, "He wrote fifteen pages… and guessed wrong in print" is Baudoin. I accept them as they are. The guest is "you" throughout. I'd put my name to this.

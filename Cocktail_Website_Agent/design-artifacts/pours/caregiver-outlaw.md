@@ -57,15 +57,15 @@ authored_in: the room, 2026-09-29 (batch caregiver)
 **whoYouAre**
 When something is unfair to someone who isn't in the room, yours is the voice that goes first. At the meeting, at the school gate, at the family table. People think it comes easily to you. It doesn't. Your heart is going before you open your mouth, you rehearsed it on the way there, and afterwards, when somebody says they wish they could do that, your hands are still shaking.
 
-You'd do it again tomorrow. Keeping quiet would be the comfortable thing, and you can't be comfortable while someone is being forgotten. Somebody quieter in that room was relieved it was you. And when it's over, you don't stop to see what changed. You're already looking at the next thing that isn't fair.
+You'd do it again tomorrow. Keeping quiet would be the comfortable thing, and you can't be comfortable while someone is being forgotten. Somebody quieter in that room was relieved it was you. And when it's over, you don't stop to see what changed. You're already looking at the next thing that isn't fair, that's your purpose.
 
 **yours**
 
 1. In 1824, a woman in Leicester called Elizabeth Heyrick wrote a short pamphlet against slavery in Britain's colonies. Almost everyone in the movement, she wrote, wanted it to end slowly, step by step. She wrote that disagreeing with them might seem "a most presumptuous, as well as hopeless attempt". Then she spent the rest of the pamphlet disagreeing, and told her own side they'd shown "a great deal too much politeness".
 2. What she asked of ordinary households was small. Not to give up sugar, only to change where it came from. She said the sacrifice was so slight it seemed "almost burlesque" to call it one. She asked what "a few individuals, or a few families" could possibly do, and answered: "It can do wonders." She died in 1831. Parliament passed the Act abolishing slavery in the British colonies two years later.
 3. I like to think her heart was going when she wrote that first page, and that she wrote the rest of it all the same. You'd know the feeling. And I think you'd know the other part too: she never saw the end. Your wins mostly happen after you've moved on, in rooms you're no longer in.
-4. So yours is an everyday drink, the kind anyone can make: gin, lemon, sugar and soda water in a tall glass over ice. I swapped the sugar. This one is jaggery, an Indian cane sugar made the old unrefined way. It's close to what she meant, not the same. But you can taste the difference: it's rounder and a little toasted. Nothing was given up. It just came from somewhere else.
-5. Before the next thing that isn't fair, do what you never do, and count. The times you spoke first. The people who didn't have to be brave on their own. The things that are different now because you wouldn't be polite about them. She didn't live to see the end of hers. You're still here to count yours.
+4. So the cocktail I crafted for you is a classic, the kind anyone can make: gin, lemon, sugar and soda water in a tall glass over ice. I swapped the sugar as an ode to her courage. This one is jaggery, an Indian cane sugar made the old unrefined way. It's close to what she meant, not the same. But you can taste the difference: it's rounder and a little toasted. Nothing was given up. It just came from somewhere else.
+5. Before the next thing that isn't fair, do what you never do, and count. The times you spoke first. The people who didn't have to be brave on their own. The things that are different now because you wouldn't be polite about them. She didn't live to see the end of hers. You're still here to count yours, and I wish you plenty.
 
 ---
 

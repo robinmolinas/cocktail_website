@@ -1,0 +1,10 @@
+📜 **Hester:** Tomás, I checked your Mojito on the page. It holds, but the credit belongs to other people, so here's what it can and can't say.
+
+- **p. 73's quote is exact.** It's his memory of a whole city, though, so we say "he remembered".
+- **"1996" isn't on the page.** It says he moved to San Francisco in 1996, Enrico's was his first job there, and he was at a club South of Market by 1997. Say "his first job in San Francisco".
+- **p. 55 goes further than your guard.** Harrington "got the drink going" at Enrico's in 1992–93. A later Enrico's bartender, Dave Nepove, became known as "Mr. Mojito". So the drink he made there already had two other names attached. Never "his Mojito", never "brought it", never "made it famous". Wren may like that: he made the drink night after night while the credit stayed with others. But that's the record, not something he gave away, so we mustn't claim he gave it.
+- **Oxford pdf 1343 is right but narrower than your line.** It says "a common call ever since", despite "bartenders who regard it as too much trouble to make". That's some bartenders' view in general. Nothing on the page is about a rush, so "the drink a crew dreads in a rush" is your gloss: label it or drop it. Oxford also says it came back through Miami in the 1980s and grew to second only to the Cosmopolitan in US bars. Drake's "El Draque" is folklore and the cholera Draquecito is medicine, so both stay out.
+- **Waugh overlapping with Marco at Enrico's isn't on the page.** The book never dates Waugh's time there (pp. 173, 212). They overlapped only at the Starlight Room (pp. 54, 74). Waugh's green hands are his own hours, never Dionysos's.
+- **A lead from the same page (p. 173):** San Francisco bars used no jiggers, and pours were counted. That describes the city's style as the book tells it, not him. Label it that way if you want it in the glass.
+
+The Mojito rows (M1–M6) are on the card: `_studio/fact-cards/marco-dionysos.md`. My provisional anchors wait for Wren's ruling on the story.

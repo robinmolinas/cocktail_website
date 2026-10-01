@@ -1,0 +1,19 @@
+- **The persona:** the Idealist argues in what they make, not across the table. They go quiet in the row, then make the thing that says it, and other people pick it up (Wren, r1–r3).
+- **The story:** G. Selmer Fougner's daily column in the New York *Sun* (1933–41). He was patient with every silly question, and when he didn't know, he asked his readers. One of them sent in 1934 the Ward Eight recipe that Wondrich prints (*Imbibe!* pdf 243–244). This was the plan's lead, confirmed. Runner-up: Robert Hess's Drinkboy (the plan's backup, not needed).
+- **Versions that failed:**
+  - "He didn't argue with either style". Hester: he argued, in what he made (the 1936 grenadine column).
+  - "Many of them old bartenders". Oxford says "former", and "seems".
+  - Epigraph v1, "A newspaper asked its readers", which isn't on the page.
+  - Home-made pomegranate grenadine as the spark. That was *Till Spring*'s.
+  - "A hint of mint" or "faint". The Matrix gives no strength.
+  - The reader's barspoon of sugar, OUT at 8.00 g.
+  - Tomás's "every change comes from a voice in the column", which can't be checked.
+- **The drink:** the reader's long Ward Eight. Bourbon 75, lemon 30, orange 30 (half an orange, as "many prefer"), pomegranate grenadine 15, shaken for five seconds, over one large piece of ice in a heavy round-bowled beer glass, topped with 45 ml seltzer. Mint, orange half-slices, pineapple and a fresh cherry go in the glass, as he listed. It's balanced (collins, 14.5%), veto-free, and has no spark, which the room says.
+- **"This is me":** "The right words turn up later, on the way home, and you can lose sleep over the ones you didn't say."
+- **Names:** *The Long Answer* (Tomás's; Wren moved to it in r5; Hester fine), with *No Stupid Questions* as the alternative. Closing line (Tomás's, taken by Wren): *Mint in last, the way the reader wrote it. Then see who writes back.*
+- **Edges:**
+  - No spark (Robin's call).
+  - Strong for a long drink, and "highly potent" is the reader's own word.
+  - Carter and the election are kept out.
+- **Rule candidates:** none raised.
+- **Process note:** 7 rounds. The audit crossed with reading v2 in r5, so rounds 6 and 7 ran in steps: audit, then fix, then confirm.

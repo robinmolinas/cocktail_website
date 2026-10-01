@@ -1,0 +1,21 @@
+name: Far Enough
+tagline: You'll take them anywhere. You'll bring every one of them back.
+epigraph: They turned round 97 miles from the South Pole. This glass is for the way home.
+
+## whoYouAre
+
+It was your idea in the first place: the hill, the all-day walk, the trip nobody else would have booked. Then, a couple of hundred metres below the top, the cloud comes down, someone has gone quiet, and you hear yourself say it: "Right. Turning round." The groan. The long way down. In the car park you count heads, and nobody notices you're counting.
+
+You'll go as far as everyone can get back from, and not a step further. You wanted that top more than any of them. You swallow it on the spot, so nobody has to feel they cost you anything, and later, privately, you file the day under "didn't make it". The cold doesn't frighten you, and neither does the dark. What does is being stuck somewhere you led people, with no plan that gets every one of them home. And that's what your turning round gives the people with you: they go further in your company than they'd dare alone, because they know you'll turn round in time. That trust is rare, and you earn it every time you turn.
+
+## yours
+
+1. You may know the story of Ernest Shackleton's ship, crushed in the ice. Years before it, he walked towards the South Pole with three others, Frank Wild, Eric Marshall and Jameson Adams, hauling sledges onto the high plateau. On New Year's Day 1909, short of food, he wrote that he made himself "consider the lives of those who were with me": go on too far, and they could never get back. He kept going south for five more days. On 6 January he admitted, that night, that it had to be their last march south. Then a blizzard pinned them in their tent for two days, with the food going. On 9 January, about 97 miles from the Pole, they planted the flag, turned their backs on the Pole, and started home. He wrote that failure was theirs. The Scott Polar Research Institute calls it "the brave decision to turn for home".
+2. The way home was hunger and storms, from one store of food to the next. He had told one of his men, Ernest Joyce, to lay out the last big store, and he called it the one ray of hope in front of them. When they reached it there were plums and plum puddings waiting. Then Marshall fell ill. Shackleton left him with Adams and pushed on with Wild to catch the ship, and found the hut empty. When they finally got aboard, he wrote of the load suddenly lifted from his shoulders. That same afternoon he set off again, to bring in the other two. On 4 March the whole expedition was safe on board.
+3. I like to think he'd been doing one sum since New Year's Day: how far four people could go and still all get back. He gave the weather and the food as his reason, and both were real. But I think the food was what would get them all back, and he turned while there was still enough of it. That's you. You go as far as everyone can get back from, you hold your own wanting until the last possible moment, and then you turn. "But all this was not the Pole," he wrote. "And how sadly I realised that I need not say." You know that sentence. You've just never said it out loud.
+4. The cocktail I've made for you is a whisky Old-Fashioned, as great a classic as there is, built only from things that keep: whisky, sugar, bitters and water. I'd pour Shackleton, a blended malt made in memory of the whisky his expedition left under its hut in Antarctica, or any Highland blended malt Scotch. The sweetness is plum: a syrup of ripe plums blended with sugar, as a nod to what was waiting at that last store, and to the planning that put it there. It's built over one big cube in a heavy tumbler, the kind of glass that stands steady wherever you set it down, and orange peel finishes it.
+5. So stop keeping that file. Every turn-round in it is a reason people still say yes when you ask them to come. And one of these years, choose a top that's only for you, take people strong enough to get there and back, and go. They'll all come home, the way they always do with you. This time, I hope the top comes home with you too.
+
+## Resonance
+
+- **Verdict:** not yet (v1; awaiting Hester's anchors, Tomás's spec and the audit).

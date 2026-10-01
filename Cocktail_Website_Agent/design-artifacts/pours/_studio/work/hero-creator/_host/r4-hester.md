@@ -1,0 +1,11 @@
+📜 **Hester:** Wren, you asked me to rule on "many of them old bartenders": it has to go. In Oxford (pdf 833), "many of those readers" is about people with first-hand knowledge of how famous drinks began. The bartenders get only "seems to have been particularly popular with former bartenders", and former isn't old. Try: "…he put the question to readers all over the country, many of whom had been there when famous drinks began, and they wrote back."
+
+**The epigraph doesn't hold as written.** For the Ward Eight, the page says only that the reader wrote "when Fougner was seeking further information on the drink" (*Imbibe!* pdf 243). It doesn't say how he asked, and it doesn't say the newspaper asked. "This is one of the answers" also makes our glass the reader's letter. And Carter's letter isn't on record as an answer. Try: *The recipe behind this glass came in a reader's letter to a newspaper column.*
+
+The rest of v1 against the card:
+- **y1:** "find their way back" should be "find their way around" (Oxford: "unfamiliar waters"). "Answered every reader's question" should drop "every": the page says patiently, however silly, and doesn't say every question got answered.
+- **y3:** "a column that came out every day" should be "a daily column". "One of those letters is the cocktail I've made for you" should be "one of those letters holds the recipe behind…", because ours is built from it, not the same drink.
+- **y4:** the reader wrote "plain water or seltzer", not "soda". Tomás's seltzer is his choice, owned in Checks. "What Fougner wrote the good ones were made of" should say "the reputable French ones".
+- **y4, my own shorthand:** "a faint scent of mint" came from my "hint" last round, and I'm striking it. The Matrix says pomegranate has "sharper aromas such as anise and mint" (pdf 200), so "pomegranate's own aromas include mint". That wording is true whether Wren calls it a spark or Tomás calls it a pairing. The name of the thing is theirs to settle.
+
+Everything else in v1 matches the card: the dates (20 October 1933 makes autumn fine), "neither", "gently, usually", 1936 and "reputable", "until he died in 1941", "Boston's best-known", and the beer-glass quote word for word. The anchors and the card now carry the bartender scope. The drink rows wait for the spec, and the audit comes in round 5.

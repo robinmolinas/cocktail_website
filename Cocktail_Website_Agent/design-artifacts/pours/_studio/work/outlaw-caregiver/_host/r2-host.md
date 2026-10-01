@@ -1,0 +1,1 @@
+🕯️ **Host:** A note for the record: my round-2 message to Hester carried a placeholder instead of Wren's pasted turn. Hester read Wren's round 1 through her brief, so her turn answers it in full. Tomás got both turns pasted.

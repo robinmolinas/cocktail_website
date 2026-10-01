@@ -1,0 +1,1 @@
+🪞 **Wren:** The tagline holds. "People think the calm just comes with you. You bring it." is still the guest's truth — Kir's story is the mirror for it, not a replacement for it. The Kir reading doesn't suggest anything sharper. Keep it as written.

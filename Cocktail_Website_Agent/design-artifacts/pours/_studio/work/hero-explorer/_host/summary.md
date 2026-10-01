@@ -1,0 +1,11 @@
+- **The persona:** the Quest Seeker isn't scared of distance, but of being finished. The worst evening is the flat one after arriving, already reading up on the next thing (Wren, r1). Wren moved off her plan sketch because *Nothing to It* had taken "scared and goes anyway".
+- **The story:** Eric Seed (*A Proper Drink* pp. 238–241). He went to Austria "to find an example" of the Alpine pine liqueur he'd met as a student and came back with Zirbenz, made by the Hofer family since 1797. He could afford one pallet of sixty cases, and it struggled, though in some places it did well. Then he turned it round and asked shops and bartenders what they'd like him to bring over, until his bottles were a "near necessity". This was the plan's lead, re-scoped by Hester. Backup: Greg Boehm (partial); the plan's backup, Dionysos, went to hero-regular-guy.
+- **Versions that failed:** "he went to Austria for Zirbenz"; "the product struggled" without its second half; "missing" about Seed; "the way he sold it" for a hot drink; "became known for pulling out" (allspice dram); "amber" (an estimate); "the spoon from the bag" in the closing line; the gin Martini fallback (pine only as seasoning).
+- **The drink:** a hot toddy. Zirbenz 45 ml and aged rum 15 ml (the importer's toddy pairing), a teaspoon of allspice dram (the spark), lemon, a little demerara syrup and hot water, in a warmed glass mug with a lemon twist. Balanced (hot, 12.5%). **Contains nuts** (Zirbenz). The sugar figure is unsourced and owned.
+- **"This is me":** "And by that evening you're quietly reading up on the next one."
+- **Names:** *Someone Else's Map* (Wren's; Tomás moved; Hester broke the tie), with *What's Next* as the alternative. Closing line: *Pine first, then a spoon of what came next. Then ask someone what they'd like you to find.*
+- **Edges and flags for Robin:**
+  - Contains nuts, so the Hero family is now at most 8 veto-free.
+  - Tomás's cold-read caution on the name.
+- **Rule candidates:** none.
+- **Process note:** the first room on Robin's 6-round budget (2026-10-01), with a usage-limit pause in r1. Closed in 6.

@@ -1,51 +1,98 @@
-# Reading v1: The Angel (caregiver-innocent), Wren, round 4
+# Reading Draft v1 — The Angel (caregiver-innocent, rework 2026-09-30)
+Provisional: y4 awaits Tomás's confirmed drink spec.
 
-Built on Tomás's v1d (gin 50 / blanc vermouth 25 / Bénédictine 5, stirred) and on Hester's angelica card F1–F8, L1. Paragraph 4 depends on the drink and changes if the drink does. Its garnish (candied angelica, from card F8) is **my proposal to Tomás, not agreed yet.**
-
-## Title block
-
-- **name candidates:** *The Rest of You* (my pick: it's the position, as an invitation) · *Boosts* (the source's own verb) · *Both Halves*
-- **tagline candidates:**
-  1. *People think the calm just comes with you. You bring it.* (pick)
-  2. *It gets quieter wherever you sit down.* (caution: "sit down" is Off Duty's position)
-  3. *Everyone is a little more themselves next to you.*
-- **epigraph** (cold, about the cocktail, 14 words): *One plant is in this glass twice, and neither time is it there for itself.*
+---
+name: Before the Room  [see psychologist-names-v1.md for alternatives]
+tagline: People think the calm just comes with you. You bring it.
+epigraph: The cassis is easy to love. The basil is harder to place.
+---
 
 ## whoYouAre
 
-People think calm just comes to you. It doesn't. You bring it in with you, the way you'd bring a coat for someone who didn't think to. A kitchen goes quieter when you walk into it. Someone who was about to cry starts talking instead. Two people halfway through an argument remember that they like each other. Nobody thanks you, because nobody saw you do anything. You just came in.
-
-What they don't see are the days you arrive with nothing to spare: tired, cross, wanting something for once. You leave all of that at the door. Somewhere you learned that being good is what keeps your place, and that wanting too much might cost you it. So the people who love you know half of you. It's the easy half, for them.
+A rowdy kitchen goes quieter when you walk into it. What you bring in is
+chosen — the calm is something you carry deliberately, the same way you
+carry something without spilling it. What you leave outside is everything
+else: the long day, the mood you woke up with, the things you wanted that
+you didn't say. They wait there while you're in the room. So the people
+who love you know half of you. It's the easy half, for them.
 
 ## yours
 
-1. Towards the end of the 1800s, when London gin settled into the style most people know, its makers came to agree on the plants that belong in it. Juniper came first. Next came angelica, "which boosts the juniper", as the *Oxford Companion* puts it. It's in the 1895 Beefeater recipe and in Plymouth's seven, and reportedly in Tanqueray's four. The story goes that an angel showed it to someone in a dream, as a cure for the plague. That's a legend, and the name is a coincidence I'll happily own.
+When Félix Kir became mayor of Dijon in 1945, he poured the same drink at
+every official gathering for the next twenty-two years. He poured it until
+he died in 1968. Then the drink went out into the world.
 
-2. Boosts. I like to think that's you, in one word. What angelica is on record for is someone else's flavour: next to it, the juniper is more juniper. Sit anyone next to you and the same thing happens.
+The drink was already there — he hadn't invented it. Blanc Cassis had been
+drunk in Burgundy for years before him: white wine and a measure of crème
+de cassis, the dark syrup pressed from Dijon's black currants. The *Joy of
+Mixology* records it as a favourite he served at every official function
+during his twenty-two-year tenure. Oxford notes that the drink became
+internationally fashionable after he died. His name had been on it for
+years by then, and he never saw it travel.
 
-3. But I'd guess most people who love gin couldn't tell you what angelica tastes like on its own. They only know it by what it does for the juniper. That's how most people know you.
+Oxford calls him a highly respected Resistance veteran. There is no further
+detail — just that phrase, and the election, and the twenty-two years of
+gatherings. What exactly the Resistance cost him — what he left outside the
+door before each of those receptions — nobody in that room would have
+thought to ask. They drank what he offered and felt welcomed and went home.
+People know what he gave. They never knew what it cost.
 
-4. Yours is gin, stirred cold with a little blanc vermouth and a spoonful of Bénédictine, a liqueur made with twenty-seven plants and finished with honey. Angelica is one of them, so it's in the glass twice, doing its job twice. Beside the glass is a piece of candied angelica stem, which people have grown the plant for too. That one is there to be tasted on its own.
+The cocktail I've made for you starts from his. Crème de cassis is still in
+the glass — the dark Dijon currant, pressed into syrup. But I've taken it
+further: gin for the backbone, a little lemon, a leaf of basil pressed in
+and strained away, and Crémant de Bourgogne to carry it. The cassis is what
+you taste first and what you'll remember. The basil is harder to place —
+there from the beginning, underneath everything, doing something you can't
+quite name. I like to think that's true of the calm you bring too.
+[Provisional: Tomás to add measurements and any texture detail after
+balance.py runs.]
 
-5. So once, soon, let someone have you on a bad day. Come in tired. Say that you're cross. Ask for the thing you want. I don't think anyone will leave. I think they'll finally meet the rest of you.
+Here is what I'd ask of you. The next time you feel the long day in the car
+on the way, let one person see it when you arrive. Want the window seat out
+loud. Be cross, just once, in front of someone who trusts you enough to
+watch. They won't leave. And they'll know a little more of you than the
+half you've always given.
 
-## Fences checked (swap test, grep of every pour, round 4)
-- "more like itself" is *Overnight*'s → written as "the juniper is more juniper".
-- "sit down" is *Off Duty*'s position → kept out of the proposal; only a caution on tagline 2.
-- "on purpose" appears in 7 pours → cut.
-- "Nobody will name the caraway" (*Not Only the Way*) → the angle is never "hidden". It's "known only by what it does for others", and the drink answers it by serving angelica on its own. **Hester, Tomás: please swap-test y3 against the Craftsman's y4.**
-- "The story goes" also opens *Worth the Trip*'s epigraph and appears in *Quite Alive* and *Rosetta* → acceptable as a legend label, not as an opener; keep it mid-paragraph.
-- "I'd guess" appears in *Serviceable* ("something I'd guess you've never said out loud") → my y3 uses it as a signposted guess about gin drinkers. Change it if the room hears an echo.
-- Not *Four Shares*: the position is about being seen, not about being looked after or keeping something back.
+---
 
-## Open for the audit (Hester)
-- y1: "most people know" (the London dry style, late 19th c., F1); "agree" = Oxford's "general consensus".
-- y2: "the juniper is more juniper" is my reading of "boosts" (C3), inside "I like to think".
-- y3: a signposted guess, not a fact.
-- y4: "which people have grown the plant for too" rests on Grieve (F8, secondary). "Candied angelica" has to exist in the spec before this line ships.
+## Resonance test (v1, provisional)
 
-## Resonance (self, v1): not ready
-- **As the guest:** whoYouAre's first paragraph lands ("You just came in."). The second names the fear without diagnosing it. "It's the easy half, for them" is the line I'd quote.
-- **As a sceptic:** "A kitchen goes quieter" risks sounding like any Caregiver. The tell for the Angel is the sequence (cry → talking, argument → like each other) with *no action* from the guest, only arriving. Keep it.
-- **Barnum risk:** "tired, cross, wanting something for once" is near-universal on its own. It's saved by "you leave all of that at the door" + "being good is what keeps your place".
-- **Not ready until:** Tomás's glass and garnish are settled, Hester's audit is back, and the y3/Craftsman swap test passes.
+**Verdict:** not yet — drink spec pending; Hester's audit needed.
+
+**Line that lands:** "So the people who love you know half of you. It's the
+easy half, for them."
+
+**Swap test — whoYouAre against siblings:**
+- "calm brought in deliberately" ≠ Craftsman (method pride), Nurse
+  (same-for-all), Healer (believing first), Rescuer (going in to fix),
+  Campaigner (saying it out loud). Specific to the Angel. ✓
+- "things you wanted that you didn't say" — contrast with the Campaigner,
+  who says it. The Angel doesn't. ✓
+
+**Swap test — yours:**
+- Canon Kir is in no other pour. ✓
+- "People know what he gave. They never knew what it cost." — grep needed
+  against sibling pours. Not in memory. Flag for audit.
+- Burgundy/cassis story is not in any sibling. ✓
+
+**Rule checks:**
+- "The cocktail I've made for you" — compliant with the "Yours" rule. ✓
+- No archetype names. ✓
+- One voice ("I"). ✓
+- No gendered language about the guest. ✓
+- Epigraph ≤16 words (13 words). No bare "he" cold. ✓
+- "Here is what I'd ask of you" — rationed phrase (one in four pours).
+  To be grep-checked by Hester in the audit.
+- History takes less than half the reading: y1-y3 Kir; y4 the drink; y5
+  the proposal. ✓
+- Guest is not assumed to be drinking. ✓
+- Coincidence ("I like to think that's true of the calm you bring too") is
+  owned and signposted. ✓
+
+**Open items for v2:**
+1. Tomás: drink spec confirmed and y4 fleshed out.
+2. Hester: does "what he left outside the door" overreach the sourcing?
+   It's inference, not fact — flagging in case a signpost is needed.
+3. Hester: grep "Here is what I'd ask of you" against all pours.
+4. Epigraph passes cold? The drink isn't described yet in the registry, so
+   "basil" and "cassis" need to be true of the final spec.

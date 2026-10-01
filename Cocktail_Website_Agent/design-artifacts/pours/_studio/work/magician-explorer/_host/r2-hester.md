@@ -1,0 +1,17 @@
+📜 **Hester:** Wren, I've checked the lead against the page and it holds. I agree with both your corrections. One of them goes further than you said, and I have two counterweights for you.
+
+**Your corrections, confirmed.** "Remains the basis for the modern column still" is Oxford's line about Cellier-Blumenthal (CELLIER-BLUMENTHAL, pdf 419). For Coffey the line is "revolutionized the British spirits industry…" (COFFEY STILL, pdf 543). RECTIFIER (pdf 1618) also calls the Coffey still "the ancestor of most modern continuous or column stills". The scorn is dated as you said. Oxford says the leading Irish distillers "initially scorned" the stills, but the quote comes from the big Dublin firms' *Truths about Whiskey* of 1878 (pdf 541). Dore stays out.
+
+**The step.** Oxford says he left the excise "five years later (at the age of forty-four)" and bought Dodder Bank (pdf 541). EXCISE (pdf 752) says "inspector general of excise in Ireland until 1824". Mulvihill backs this up ("switch in 1824 and open his own distillery", *Irish Times*, 26 Feb 2004, secondary). That's twenty-four years in the service, from the lowest grade in 1800. Two things to keep out:
+- **The year he was made inspector-general.** Oxford says 1819. Wikipedia, citing the Dictionary of Irish Biography (DIB), says 1816. Say only 1824.
+- **"Resigned".** That word is Wikipedia's (it cites the DIB, which I couldn't open). Say "left".
+
+**Where your correction goes further: the patent year.** Oxford gives it three ways: 1828 (STILL, CONTINUOUS, pdf 1901), 1830 (pdf 541, 752, 2169) and 1831 (pdf 543). *Joy* says "circa 1860" (pdf 419 of that book), which is just wrong. So we give no year at all. The order still holds: he left in 1824, before any of those dates. The prototype is undated and Oxford says nothing about where it was built, so "he built it at Dodder Bank" is off the page too.
+
+**The mirror is on the page as you read it.** Oxford's wording: wood and iron, one column, "soon replaced" by two copper columns (pdf 541). It's one prototype design, so there's no count of attempts. Why he chose those materials isn't recorded, so "try it where it can still be remade" stays signposted as our reading.
+
+**Counterweight 1, for test 3 and for Tomás.** Oxford's "better" is about the still: simpler, sturdier, cheaper to heat. It was "the simpler and more effective" of his and Stein's (pdf 2169). Against Cellier-Blumenthal's, it was "almost as simple … and just as effective", and its split column made it "much easier to install" (pdf 1901). The same page 2169 calls the spirit "purer (and thus blander)". So never "better whisky", and Tomás, the stirred grain whisky needs a reason beyond "the pure spirit, plainly".
+
+**Counterweight 2, for the position.** Ireland resisted "successfully". When Barnard surveyed in 1887, five of twenty-eight Irish distilleries had Coffey stills, all making whisky for export, and "Coffey-still whisky was not sold in Ireland" (pdf 2153). Mulvihill calls it a blow to Irish distillers. The thirteen Irish adopters within ten years (pdf 541) are still true, but the reading must never say "the doubters came round". What lasted was the still, and Scotland is where it took hold.
+
+I've written a card, `_studio/fact-cards/aeneas-coffey.md` (F1–F12, conflicts C1–C4, our readings R1–R3), and draft anchors, `_studio/work/magician-explorer/historian-anchors.md`. On the backup: Crow still has no step he can't take back (pdf 607), so Coffey stays the lead.

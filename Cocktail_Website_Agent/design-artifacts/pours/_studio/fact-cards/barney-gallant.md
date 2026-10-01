@@ -1,0 +1,49 @@
+---
+topic: Barney Gallant (Greenwich Village Inn raid and plea, 1919; Club Gallant) + two drink-side facts (the round; the rye highball by the 1910s)
+last checked: 2026-09-30
+used by: hero-caregiver (The Saviour), lead story, round 2
+checked by: Hester
+---
+
+# Fact card: Barney Gallant
+
+Our words throughout. Facts are free; the sources' sentences are not. The library source is Regan, *The Joy of Mixology*, relaying Stanley Walker, *The Night Club Era* (1933). Walker is on archive.org (`nightclubera00walk`) but lending-only (access-restricted), so I could not read the primary. Chronicling America (1919 New York papers) blocked my requests (Cloudflare).
+
+## Facts
+
+| # | Claim (our words) | Source | Tier | Notes |
+| --- | --- | --- | --- | --- |
+| F1 | The wartime Prohibition law, banning alcohol sales until "the termination of demobilization", took effect on 30 June 1919. | *Joy*, pdf 59 | secondary (library; Regan) | Regan calls it "the wartime Prohibition Act of 1918". Web pages say "the Volstead Act" (C4). Don't name the act in guest text. |
+| F2 | Less than four months later, Gallant's Greenwich Village Inn was raided. He was arrested with half a dozen of his waiters. | *Joy*, pdf 59 | secondary (library) | So the raid came between July and October 1919 (my arithmetic, not a stated month), before national Prohibition (January 1920). Never "autumn": the month isn't on the page. "Gallant's" is Regan's possessive; ownership is contested (C1). |
+| F3 | He agreed to plead guilty on condition that the waiters were set free. | *Joy*, pdf 59 | secondary (library) | **The mirror.** The page states the condition, not the outcome: that the waiters then went free is a strong inference (he was sentenced, so the plea went ahead), never a quoted fact. Paraphrase "set free" plainly (Wren's trap 1). |
+| F4 | He was sentenced to thirty days in jail and served far less. | *Joy*, pdf 59; Village Preservation (Lily Gold, 14 Jan 2025) calls it a "short jail-time stint" | secondary | Never "served thirty days". The HRC page's "sent to the Tombs for thirty days" gives the sentence, not the time served (C2). Wren bars "thirty" as a motif, so the reading may simply say "a jail sentence". |
+| F5 | According to Walker, he was the first person in Manhattan to be jailed under Prohibition laws, before national Prohibition began. | *Joy*, pdf 59 | secondary, attributed | **Out of guest text** (C3): three sources, three different "firsts". |
+| F6 | About a month before national Prohibition began, his Club Gallant opened on Washington Square South; Regan calls it one of the swankiest places in town. It ran until 1924, when he opened a new place on West Third Street. | *Joy*, pdf 59 | secondary | **Opening date contested** (C5: Village Preservation says 1922). "Swankiest" is Regan's judgement. |
+| F7 | His later club (West Third Street, from 1924) had ten house rules. Among them: don't tip the head waiter on arrival, tip moderately on leaving; don't overtip your waiter ("Why be a chump?"), fifteen per cent is enough; check your bill, since waiters make mistakes, "intentionally or otherwise". | *Joy*, pdf 59–60 | secondary | Wren's guard: one act, not a saint. Scope: these are the 1924 club's rules, not the Inn's. Rules 5 and 10 are gendered: out. |
+| F8 | He said exclusivity was his secret, the club's "great and only stock in trade". | *Joy*, pdf 60 | secondary | Dossier colour only. |
+| F9 | He died in 1968; the *New York Times* reported his death through small bequests to New York friends, recalling his Village speakeasies and nightclubs "from Prohibition days through the mid-1940's". | *NYT*, 24 June 1968, as quoted by Barry Popik (ADS-L, 17 Dec 2001) | secondary (quoted primary) | Dates 1884–1968 per Village Preservation (Esther Crain's walking-tour page). Dossier only. |
+| D1 | **The round.** In American saloons of the 1870s–80s (Oxford's context), drinkers kept to the custom of rounds: acquaintances at the bar took turns paying (or rolled dice for it), so nobody stopped at one. | Oxford, COCKTAIL (pdf 490) | primary | Supports Wren's ledger lead for the glass. Scope: the post-Civil War saloon; not Gallant's bar, not 1919. |
+| D2 | **Rye in the highball.** After the Scotch Highball, rye and bourbon versions followed. By the 1910s ginger ale was replacing soda water, "particularly with rye"; during Prohibition the sweetened versions (e.g. the Gin Buck) were the most popular. | Oxford, HIGHBALL (pdf 1006) | primary | **So no period claim for rye and plain soda in 1919.** The period rye highball leaned to ginger ale. A clip joint's "hostess" drink was a Gin Highball of water and ginger ale (*Joy* pdf 55). |
+| D3 | **The vermouth answer (Oxford's reading).** The Cocktail's problem was its strength: one was already a stiff drink (a full wineglass, 60 ml, of spirits), and because drinkers took turns paying for rounds, few stopped at one. Oxford calls the Vermouth Cocktail (first documented 1868, a New York luncheon) "one solution"; by the start of the 1880s "the solution had been found": the Manhattan, Martini and Metropole, split equally between vermouth and the spirit. | Oxford, COCKTAIL (pdf 490) | primary | **Scope:** the cause Oxford names is *potency*; rounds are why it mattered. Never "rounds shaped the recipe" or "the bars' answer to rounds". Say "the vermouth came in to soften a drink nobody stopped at one of". The Manhattan entry agrees: vermouth lowered the alcohol "without diminishing its concentration of flavor" (pdf 1221). |
+| D4 | **Rye or bourbon in the Manhattan.** Oxford finds both in the earliest record. The *Boston Herald* (year not given for this line; it praised the drink in 1883) gave it a "foundation of first-rate Bourbon"; Harry Johnson and the 1887 edition of Jerry Thomas's guide called for rye. The 1880s–90s books often ran whisky and vermouth 1:1, sometimes 1:2 in favour of vermouth. Its origin is contested (the Manhattan Club story as told is "simply not true"). | Oxford, MANHATTAN COCKTAIL (pdf 1221–1224) | primary | So never "the Manhattan's whisky is rye". Say "rye, one of the two whiskies in the Manhattan's early record" (r5: I struck my own "first made with", which the page doesn't support). Jerry Thomas is *Beside the First*'s man, so name Johnson or no one. *Codex* p. 8: Death & Co "often argue" for rye (a modern opinion). |
+| D5 | **Sweet or dry in the early Manhattan.** O. H. Byron's *Modern Bartender* (1884) gives two Manhattans, one with French (dry) vermouth and one with Italian (sweet). The famous "American Whisky, Italian Vermouth and Angostura Bitters" line comes from the 1874 Manhattan Club story, first printed in 1945, which Oxford calls "simply not true". The earliest known reference (1882) says "whisky, vermouth and bitters". | Oxford, MARTINI (pdf 1244); MANHATTAN (pdf 1221, 1224) | primary | Never cite the 1874 dinner's recipe as fact. "Sweet" belongs to our glass, not the history. |
+
+## Legends
+- **"Gallant took the fall / refused to comply with the law / opposed the ban."** HRC and Village Preservation give him a defiant motive with no source cited. Not on Regan's page. A motive is fact only on the record: out.
+- **"True to his name" / "Robin Hood-esque".** Web flourishes (crimeandcocktails.net, unsourced; Village Preservation). The name is a coincidence to own once, never a pun.
+- **"He spent several weeks in the Tombs."** Seen only in a search summary, no page fetched: unusable.
+
+## Conflicts
+- **C1, his role at the Inn.** Regan: "Gallant's Greenwich Village Inn". HRC (*The Greenwich Village Bookshop Door*, Harry Ransom Center): "a partner". Village Preservation: "the manager". Guest text: "the inn he ran" at most, never "his own inn" or "he owned". So the sceptic's line becomes "it was his place to answer for" (our reading), not "it was his inn".
+- **C2, jail.** Sentence thirty days (all agree). Time served: "far less" (Regan) and "short" (Village Preservation) against HRC's ambiguous "sent to the Tombs for thirty days". I rule Regan stands, since nothing on the page contradicts it. "The Tombs" is HRC's alone: out.
+- **C3, the "first".** Walker via Regan: first *jailed* in *Manhattan* under Prohibition *laws*. HRC: first *arrested* in *New York*. Village Preservation: first New Yorker *prosecuted* under *the Volstead Act*. Out of the reading.
+- **C4, which law.** Regan: wartime Prohibition. Web: Volstead Act (passed October 1919, which also enforced the wartime ban; that last is my knowledge, unsourced). Say "months before national Prohibition", no act.
+- **C5, Club Gallant's opening.** Regan: about a month before national Prohibition (so late 1919). Village Preservation: 1922, at 40 Washington Square South. No date and no "a couple of months later" in guest text. "Later" is safe.
+- **C6, origin.** Village Preservation: Latvian, arrived 1903. HRC: from Hungary. Out.
+
+## Leads
+- **Rounds in 1919 (unanswered):** no library page puts rounds in New York in 1919. Madelon Powers, *Faces along the Bar: Lore and Order in the Workingman's Saloon, 1870–1920* (University of Chicago Press, ©1999), has chapters on "treating" (buying rounds in turn) up to 1920, per the press's contents page. I haven't read the text, so it's a library-gap candidate. The archive.org copy is lending-only.
+- Walker re-tried 2026-09-30 through archive.org search-inside: "Item not available".
+- **Library gap for Robin:** Stanley Walker, *The Night Club Era* (1933), for *hero-caregiver*. It would settle C1, C2 and C5 and might say what the Greenwich Village Inn poured (the plan's drink hope). Archive.org has it, lending-only.
+- Contemporary 1919 New York papers (*Tribune*, *Evening World*, *Sun*) on Chronicling America: the arrest and plea would be primary. Not reachable from here.
+- HRC also calls him business manager of the Greenwich Village Theatre and Eugene O'Neill's first roommate in New York. Fame-adjacent colour, dossier only.

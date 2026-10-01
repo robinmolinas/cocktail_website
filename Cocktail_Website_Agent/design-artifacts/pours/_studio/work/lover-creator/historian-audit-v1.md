@@ -1,0 +1,50 @@
+# Fact audit v1: lover-creator (The Muse), round 5 (Hester)
+
+Audited: `psychologist-reading-v1.md` (reading v1), `mixologist-draft.md` (card + mint syrup) and `mixologist-draft-card-alone.md` (card + plain syrup). Facts: `fact-cards/gerald-murphy.md` (F#). Everything below was re-read on screen this round. **[S]** marks an item that depends on the open syrup choice. Replaces the pre-audit v0.
+
+**Verdict: Not yet.** Two sentences are false in both builds (A6, A8), and one line in the image brief breaks a ruled guard (B5). Everything else passes or needs a light fix.
+
+## A. Reading v1
+
+| # | Text (v1) | Verdict | Old → new |
+|---|---|---|---|
+| A1 | y1 "an American couple, Gerald and Sara Murphy, **found** a little beach near Antibes, and **soon** Picasso, Hemingway and the Fitzgeralds were on it with them" | **Fix.** G says Cole Porter invited them to Antibes (1922), that the Murphys were "the first to recognize the region's potential" (as a summer place), and that "the small beach they frequented, La Garoupe, became a gathering place for friends, including the Picassos, the Hemingways, the Fitzgeralds". "Found" reads as discovery, and the page doesn't say they found it. "Soon" is undated. | "found a little beach near Antibes, and soon Picasso, Hemingway and the Fitzgeralds were on it with them" → "had a favourite little beach near Antibes, and it became a gathering place for their friends: Picasso, Hemingway, the Fitzgeralds." (Wren: a beach of friends is near the Geisha's evenings. It's yours to judge, but no table is in it.) |
+| A2 | y1 Fitzgerald "drew its main couple partly from the Murphys" | Pass (F12, "partly"). | none |
+| A3 | y1 "Gerald had a line about his cocktails: they were 'just the juice of a few flowers'" | Pass (F1: what he called his cocktails in general). | none |
+| A4 | y1 "It sounds like a charming man's joke. Maybe that's all it was." | Pass: our reading, the legend granted. | none |
+| A5 | y2 "among the Murphys' papers at Yale there's a card in Gerald's handwriting, headed 'Juice of A Few Flowers'" | **Pass, attributed.** The caption says "Gerald Murphy's recipe… Gerald and Sara Murphy papers, Yale Collection of American Literature, Beinecke". G's text says "Gerald's recipes, copied out in his neat handwriting". The name *In Your Own Hand* rests on the same two sources, and nothing on the page contradicts them. No softener needed. The dossier cites both, and says the card is undated. | none |
+| A5b | y2 measures and method | Pass, word for word with F3 (my transcription and Tomás's agree). | none |
+| A5c | y2 "he showed in Paris from 1923" | **Pass, with a second source.** G gives "the Salon des Indépendants beginning in 1923" but doesn't say Paris. The Société des Artistes Indépendants was formed in Paris in 1884 (Wikipedia, fetched, secondary). The dossier cites both. | none |
+| A5d | y2 "seven of his fourteen paintings survive"; *Cocktail* "a shaker, a glass, a cut lemon and a cigar box"; "The lid of the box alone took him four months" | Pass (F7, F8, G and W). Leaving out the cherry and corkscrew is fine; nothing claims the list is complete. | none |
+| A6 | y3 "Everyone kept the charming version of him" | Soft: "everyone" is a claim (the Whitney remembers the painter). It's our reading, and the whole paragraph is interpretive. | Optional: "Everyone kept…" → "The charming version is the one that travelled…" |
+| A7 | y3 "I like to think that card is what he'd most have liked someone to ask him about." | Pass: signposted, with no motive stated as fact. | none |
+| **A8** | y4 "The cocktail I've made for you is that card, **exactly as he wrote it. I didn't add a thing.** It's his work, and I wanted you to have it **the way he made it**…" | **False in both builds.** Both add ¾ oz of syrup and split the drink into two glasses. **[S]** | **Card alone:** "The cocktail I've made for you is that card: all five of his measures and his sugared rim. I added one thing, a little plain syrup, because I keep the sugar on the outside of the rim, where it never reaches the drink. His measures make enough for two small glasses." **Card + mint:** "The cocktail I've made for you is that card: all five of his measures and his sugared rim. I added one thing, a little mint syrup. The mint comes from the Bailey, another of his cocktails, one he wrote that he'd invented. So it's two of his recipes, and joining them was my idea. His measures make enough for two small glasses." In either build, change "the way he made it, not the way someone else would remember it" → "his measures, not someone else's memory of him". |
+| A8b | y4 "his sugar never reaches the drink" (if Wren takes any version of it) | **Keep the "outside only" as ours.** His card says "moisten rim of glass w/ lemon and dip in coarse sugar", which doesn't say outside only. Keeping the sugar on the outside is Regan's method (*Joy* pdf 137: the dry ingredient must stick "to the exterior of the glass only" so none falls in). So it's "I keep the sugar on the outside", never "his sugar can't reach the drink". | as in A8 |
+| A9 | y4 "Four fresh juices and a little gin, light and bright, with the sugar waiting on the rim, so every sip starts sweet and ends sharp" | Pass. "Light" is 7.3% ABV finished (balance.py). "Starts sweet, ends sharp" is a taste description, and it's true of a sip across a sugared rim. | none |
+| A10 | y5 proposal | Pass: ours, with no fact. ("something of yours" is about the person, so the lint is fine.) | none |
+| **A11** | Epigraph: "The name sounds like a joke. The recipe, handwritten, is measured to the half-ounce." | **False when read cold, in both builds.** (1) Read cold, "the name" is this drink's name, *In Your Own Hand*, which isn't a joke, and the guest hasn't met "a few flowers" yet. (2) "The recipe" is this glass's, and both builds add ¾ oz, which isn't measured in half-ounces. The half-ounce belongs on the card, not on our glass (pitfall: a cold epigraph's pronoun is a claim). **[S]-independent.** Avoid "the drink behind this one" (that's *Worth the Trip*'s). | → "This glass starts from a handwritten card headed 'Juice of A Few Flowers'. It's measured to the half-ounce." (14 words: "It" is the card.) Or: "He called his cocktails 'just the juice of a few flowers'. His card counts half-ounces." (Wren: that has a bare "he", so name him if you use it.) |
+| A12 | Fact tags y4 row "Pending Tomás's spec" | Now resolved: update to the chosen build's line (A8). | — |
+
+## B. Tomás's drafts
+
+| # | Text | Verdict | Old → new |
+|---|---|---|---|
+| B1 | Structure: Codex p. 116, "we typically combine grapefruit juice with lemon or lime juice plus a sweet syrup to ensure good balance" | Pass: verbatim on printed p. 116. | none |
+| B2 | Balance: "the rim is on the outside, where it can't fix the liquid (Regan, *Joy* pdf 137)" | Pass as **our method's** consequence. Regan says keep it on the exterior so it doesn't fall in. As in A8b, it isn't his card's. | "the rim can't rescue it" → "with the sugar kept on the outside (Regan's method, *Joy* pdf 137–138), the rim can't sweeten the liquid" |
+| B3 | "the lightest pour in the studio and the sharpest" | **Pass, and dated.** I ran `balance.py` on all 30 specs on 2026-09-30. The lowest ABV is 7.3% (next: *Down the Line*, 8.8%), and the highest acid is 1.42% (next: *Overnight*, 0.98%). | → "…the lightest and the sharpest of the 30 pours so far (balance.py, 2026-09-30)" |
+| B4 | Pairings (mint draft): "**The addition is his:** the mint is from the Bailey…, the drink he called 'invented by me'" | **Fix [S].** The mint comes from his recipe, but adding it is ours. "The drink he called" should be "a cocktail he wrote that he'd invented". | "The addition is his" → "The mint is his; adding it is mine" |
+| B4b | LI p. 133: gin, lemon, simple syrup, "Shake with a handful of mint leaves" | Pass: verbatim (pdf 137). **[S]** mint draft only. | none |
+| B4c | Matrix pdf 282: grapefruit pairs with sage and lime | Pass (both appear on the grapefruit chart). Set aside, so there's no claim in the reading. | none |
+| **B5** | Image brief: "a pale, sun-warmed stone **terrace** ledge" | **Breaks Wren's round 1 guard** ("no dinners, no terrace": the Villa America evenings are the Geisha's ground). G puts the cocktails "on the terrace" before the dinners, so the image would illustrate exactly the part we fenced off. | "stone terrace ledge" → "a pale stone windowsill in a painter's studio" (the persona's imagery lists studios), or any plain stone ledge, with no terrace |
+| B6 | Vetoes: grapefruit note, Oxford CITRIC ACID pdf 468 | Pass. The bibliography reads Bailey, Dresser and Arnold, "Grapefruit–Medication Interactions: Forbidden Fruit or Avoidable Consequences?", *CMAJ* 185 (2013): 309–316. The title supports "can interact with some medicines". "Statins among them" is unsourced (Tomás says so), so it stays out of any guest-facing note. | Guest note → "Grapefruit can interfere with some medicines. If you take any, check first." |
+| B7 | Makeable: "the plan's reserved shape (daiquiri · London dry gin · nick-and-nora), which no pour uses" | Pass (registry: *A Brother's Care* is martini · scotch · nick-and-nora). | none |
+| B8 | Structure: "What's his: all five measures and the rim" | Pass, provided the outside-only method is noted as ours (B2). | none |
+
+## C. The name: *In Your Own Hand*
+**Backed.** It rests on the card's attribution (caption plus G), which is on the page and uncontested, and it's about the guest, not a caption on the story. No registry name or motif shares it (I checked the registry). If Wren keeps "in your own hand" in y5, that's the name echoed once, which is fine.
+
+## D. Anchors
+Nothing in A or B changes an anchor fact. `historian-anchors.md` stands. The Bailey row stays conditional **[S]**. If the card alone is poured, it moves to the dossier, as Wren ruled in round 4.
+
+## To sign
+A8 and A11 fixed in v2 (in the chosen build's wording), A1 fixed or ruled by Wren, B5 fixed, and B2/B4 reworded in the chosen draft. Then: "I'd put my name to this."

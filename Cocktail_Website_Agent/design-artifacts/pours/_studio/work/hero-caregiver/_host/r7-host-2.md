@@ -1,0 +1,1 @@
+🕯️ **Host:** Lint-only fix in whoYouAre (Wren): "What you can't do is the other half." → "The other half is harder." It changes no fact, no claim and nothing in the drink, so the sign-offs stand. The assemble on reading v4 lints with 0 errors. The two warnings left are the Gallant "he" in y1–y2, which Wren has accepted. Step 3: Hester confirms the fixed files.

@@ -4,14 +4,14 @@ personality: The Doctor
 archetypes: Caregiver × Sage (never shown to the guest)
 status: draft
 veto_free: true            # contains: []
-authored_in: the room, 2026-09-28 (batch caregiver)
+authored_in: the room, 2026-09-30 (batch caregiver)
 ---
 
-# Pour — The Other Kindness · The Doctor (caregiver-sage)
+# Pour — Instead · The Doctor (caregiver-sage)
 
 ## Cocktail
 
-- **name:** The Other Kindness
+- **name:** Instead
 - **tagline:** You don't say "poor you". You ask "since when?"
 - **glassware:** a small stemmed cocktail glass, chilled, no ice
 - **contains:** `[]`
@@ -20,53 +20,54 @@ authored_in: the room, 2026-09-28 (batch caregiver)
 
 | amount | item | note |
 | --- | --- | --- |
-| 50 ml | London dry gin (40% or stronger) | |
-| 20 ml | Cocchi Americano Bianco (recommended), or any white americano or quinquina (an aperitif wine bittered with cinchona bark) that's at least as sweet | the one with a good deal more of the cinchona's bite |
-| 15 ml | Suze (recommended), or any French gentian aperitif | a bitter French aperitif flavoured mostly with gentian root |
-| 1 wide strip | grapefruit peel | |
+| 60 ml | Ransom Old Tom gin (recommended), or any Old Tom gin | the gin from the story: an old, slightly sweet style, this one with a little time in barrel |
+| 30 ml | sweet (red) vermouth | |
+| 1 dash | aromatic bitters | |
+| 1 dash | orange bitters | |
+| 1 strip | lemon peel | |
 
 **method**
 1. Put the glass in the freezer, or fill it with ice and water while you mix.
-2. Pour the gin, the Cocchi Americano and the Suze into a mixing glass or a jar.
-3. Fill it with ice and stir with a long spoon for about 30 seconds, until the outside of the mixing glass is very cold. The melting ice is part of the drink: it adds roughly a third to what you poured.
-4. Empty the serving glass if you filled it, and strain the drink in. It should be perfectly clear.
-5. Cut a wide strip of grapefruit peel, just the yellow part. Hold it over the drink, coloured side down, and pinch it so its oils fall on the surface. Then drop it in.
+2. Pour the gin, the vermouth and both bitters into a mixing glass or a jar. Most Martinez recipes add a little maraschino, a cherry liqueur, here. This one leaves it out, and nothing goes in its place.
+3. Fill it with ice and stir with a long spoon for about 30 seconds, until the outside is very cold. The melting ice is part of the drink: it adds about two-fifths to what you poured.
+4. Empty the serving glass if you filled it, and strain the drink in. No ice in the glass.
+5. Cut a strip of lemon peel, just the yellow part. Twist it over the glass so its oil falls on the drink, then rest it on the rim.
 
-**closingLine:** *Don't tell anyone it's fine until you've tasted it. That includes you.*
+**closingLine:** *Twist the lemon over it. Then tell someone what they haven't heard of yet.*
 
 ## Anchors
 
 | kind | fact | meaning | speaksTo |
 | --- | --- | --- | --- |
-| person | A drinks scientist in New York set out in 2005 to rebuild the gin and tonic from first principles, and wanted pure quinine for a crystal-clear one; at the time, doctors still routinely prescribed it (over the counter in the US until 1994). (Q F1, F7, F8) | Set-up only. He is *Overnight*'s Arnold: name him once and own the overlap in one clause, or leave him "a drinks scientist". | Wren |
-| turn (motive on record, via her son) | His mother is a doctor. He thought that settled it; she said "No way," without hesitation. As he tells it, she wouldn't write a prescription for a potentially harmful medicine he meant to serve in a cocktail; he pleaded, and she wouldn't hear it. (Q F9) | Care that refuses the easy yes, even to someone she loves, for strangers she'd never meet. She is unnamed: never a name or specialty. Her reasons carry "as he tells it". | fear: Selfishness · goal: Service · Honesty |
-| fact | Too much quinine causes cinchonism: nausea, dizziness, temporary deafness or blindness, and at worst death. (Q F10) | Her no had a reason with a number behind it, not a mood. One clause at most; no scare. | Sage: clarity · A reality check |
-| sequence | He then bought it from a chemical supply house. (Q F11) | He went round her. NEVER "he listened"; NEVER "she said no anyway" (nothing says she knew). "Half of them won't listen" is Wren's line about the guest, not history. | Wren |
-| inference (signposted) | One page of his book, on quinine, is a safety box: a third of a gram can make you ill, and he says so twice; without a scale accurate to a hundredth of a gram, "you have no business working with quinine". (Q F12) | That her no is in that box is ONLY "I like to think…". The facts: the box exists; he repeats the dose. | Analytical · Controlled |
-| lineage | Quinine comes from cinchona bark, a medicine in South America long before Europe used it against malaria; in the middle of the 1800s people learned small regular doses protected against malaria, and tonic water was born. The G&T is in print from 1868 in British India; its soldiers-and-quinine origin "might just be accurate" (Oxford). (Q F2, F4, F14) | It was a real medicine once. NOT "a belief, not a dose". No patentee (C1), no European start date (C2), keep "might". | Sage: understanding |
-| lineage (the correction) | Today's tonic is capped in the US at 85 mg quinine a litre; a protective daily dose is about 0.3 g, so about 3.5 litres a day. Modern tonics carry far less quinine and far more sugar than the old ones; tonic is as sweet as soda. (Q F5, F6; Oxford pdf 2044) | The medicine got watered down and the bitterness stayed: someone who knows the difference says so plainly, without mocking anyone. | A reality check · Honesty |
+| person | David Wondrich, a drinks historian: distillers who were trying to bring back lost spirits often turned to him for the know-how (*Proper* p. 241; W F1). | The one who knew. "Had the directions but couldn't drive the car" is Simonson's phrase: paraphrase it or attribute it, never as Wondrich's words. | Sage: wisdom · Advice |
+| person | An old friend of his had started a distillery in Oregon (Ransom), which had been making brandies and eaux-de-vie. The friend had been thinking about making a gin for a while (*Proper* p. 241; Seestedt in Tales of the Cocktail, 2016, secondary; W F2, F10). | The friend's own plan, the one he was hoping to hear was fine. NAME: see C1. Safest is "an old friend with a distillery in Oregon". | Wren |
+| turn | Wondrich advised him to make an Old Tom instead, a sweeter gin from the 1800s. In the friend's own words, "David suggested an Old Tom." He had never heard of it (*Proper* p. 241; Tales 2016; W F3, F10). | A plan met by someone who knew something the planner didn't, and said so. VERBS: "advised", "suggested", "told him about", "offered". NEVER "refused", "said no", "talked him out of", "stopped", "saved", "spared". No motive for Wondrich is on record: any "why" is "I like to think". | goal: Service · Honesty · Advice |
+| held | "He did." (*Proper* p. 241). Ransom Old Tom reached the market the year after Hayman's (2007), so in 2008. Oxford names the two among the old spirits the revival brought back, and by its writing at least a dozen gins called themselves Old Tom (Oxford OLD TOM GIN pdf 1438; W F5). | The advice was taken, and what he pointed to came to exist, with others following. NOT "the first" or "the only" on Oxford's word: Oxford names two and ranks neither. The only sourced "first" is the *Codex* p. 68: "Hayman's was the first to reach the United States", so "the first of the revived Old Toms reached America" is fine (audit v4, R6). Also "essentially unavailable" by the late 1900s, never "gone for decades" (R5). NOT "saved his distillery": nothing says what a plain gin would have done. | A reality check |
+| held (others' words) | Gary Regan, writing on the Martinez, gives Ransom as the Old Tom he "highly" recommends (*Joy* pdf 336). The *Codex* describes it as lightly aged (p. 68) (W F7, F8). | Someone with no stake vouches for it. Use as "a bartender who had no part in it recommends it", or leave it in the dossier. | Wren |
+| candour (optional) | In his own book, Wondrich recommends Ransom for an older-style Old Tom and adds a "fair warning" that he had a hand in developing it (*Imbibe!* pdf 68; W F6). | He tells you what he knows and what his stake is in the same breath. That's the Sage side's fear of being deceived, answered. Paraphrase it: "fair warning" is his phrase, so quote only those two words if at all. | fear: Deception · Honesty |
+| coincidence (own it) | Wondrich is the editor-in-chief of the *Oxford Companion*, and he signs its OLD TOM GIN entry (pdf 1439). | If the reading uses any Oxford fact about Old Tom, own it in one plain clause ("the same man later wrote the encyclopedia entry on it"). He is also quoted as an authority in *Beside the First* and *As It Was*: that's fine, because here he is the person, not the citation. | Wren |
 
 ## Reading
 
 **epigraph**
-*The bark in this glass was medicine once. It still tastes like it.*
+*Someone wanted to make a gin. A friend knew an older one worth making.*
 
 **whoYouAre**
-Someone tells you about a pain they've had for weeks, and before they've finished you've asked "since when?" You won't tell them it's probably nothing. Not until you know it's nothing. And when a friend comes to you hoping you'll say the plan is fine, you ask the one question they were hoping nobody would. Kindly. But you ask it.
+Someone tells you about a pain they've had for weeks, and before they've finished you've asked "since when?" You won't tell them it's probably nothing. Not until you know it's nothing. And when a friend comes to you hoping you'll say the plan is fine, you ask the one question they were hoping nobody would. Kindly. But you ask it, because you know to ask from experience.
 
 Yes would be so much easier, and for an evening they'd like you more for it. You say no anyway, and then you go over it all the way home, wondering if you were too hard. You weren't. You'd just rather be the one who said no than the one who said yes and was wrong.
 
 **yours**
 
-1. Quinine comes from the bark of the cinchona tree, and it was a medicine long before it was in a cocktail. In the middle of the 1800s people learned that small, regular doses kept malaria away, and tonic water was born. Much later, Dave Arnold, who wrote a book on the science of cocktails (he turns up in more than one of my stories), wanted pure quinine for a gin and tonic as clear as water. Doctors still prescribed it then, and he had one in the family: his mother. He thought his problem was solved.
+1. In the 2000s, some distillers set out to bring back spirits that had simply disappeared. A few had the will but not the know-how, so they went to David Wondrich, a drinks historian. (He edited the big Oxford book on spirits and cocktails that I lean on for these stories, so I'll own that.) He knew the way to things he couldn't make himself. One of his old friends had started a distillery in Oregon called Ransom, and wanted to make a gin.
 
-2. She said "No way," without hesitation. As he tells it, she would not write a prescription for a medicine that could do harm, so that he could put it in a cocktail. He pleaded. She wouldn't hear it. He was her son, and the easy kindness would have been to help him. She didn't. He bought it somewhere else. But one page in his book is a warning: how little quinine it takes to make someone ill, said twice, and that if you can't weigh it to a hundredth of a gram you have "no business working with quinine". I like to think that page is where her no ended up.
+2. What Wondrich gave him wasn't a verdict on the plan. It was an instead: make an Old Tom, a sweeter, older style of gin that bars used in the 1800s, and by the late 1900s all but impossible to buy. His friend had never heard of it. He made it. Ransom's Old Tom came out in 2008, a year after the first of the revived Old Toms reached America, and at least one bartender's book recommends it by name. In his own book, Wondrich points you to it, and in the same sentence warns you that he had a hand in developing it.
 
-3. You know that no. You've said it to someone who wanted to hear it was fine, and to someone you love who went and did it anyway. You tell people the truth knowing half of them won't take it. You tell them anyway. And when they go round you, you don't stop caring. You just find another way to keep them safe.
+3. You know the moment before that. A friend tells you the plan, and you can already see the trouble in it. You're good at the question, and you ask it even when it costs you the evening. But I like to think this is the part of you people keep: not the question itself, but that you already knew what to do instead, and you handed it over, and told them what you had riding on it.
 
-4. Today's tonic is no medicine: even at the most quinine the law allows, you'd need about three and a half litres a day for it to protect you. So yours isn't a gin and tonic. It starts from a drink a bartender, Wayne Collins, made in Bordeaux when he had no Campari to hand: gin, Suze, a bitter French aperitif flavoured mostly with gentian root, and Lillet. I changed one thing, and the measures moved to make room for it. The old Lillet had a little more cinchona in it than today's, so yours has Cocchi Americano, an aperitif wine with a good deal more of that bitterness. Stirred until cold and clear, with a strip of grapefruit peel pinched over it and dropped in. It's bitter, and it doesn't pretend otherwise.
+4. The cocktail I've made for you starts from that gin. It's a Martinez, one of the Martini's early names, in print by 1884 and believed to have been made with Old Tom from the start: twice as much Old Tom as sweet vermouth, the way one bartender suggests for today's taste, and two dashes of bitters, stirred until cold. Old Tom is the sweeter kind of gin. But among the sweetened gins of the 1800s, it was the strong one, the one they added the least sugar and water to. That seemed right for you.
 
-5. So here's your own question, back to you. Whatever you've been putting up with in yourself, the ache, the tiredness, the one you'd never let a friend put up with: since when? Book the appointment you'd have told them to book weeks ago.
+5. Go on asking the question. It's the right one. But the next time a friend's plan isn't fine, don't leave them with only the no. Tell them what you'd make instead. They may never have heard of it. That's exactly why it has to come from you.
 
 ---
 
@@ -76,131 +77,175 @@ Yes would be so much easier, and for an evening they'd like you more for it. You
 
 | Check | Result |
 | --- | --- |
-| Structure (*Cocktail Codex*) | **Martini family.** The White Negroni is a stirred aperitivo drink of spirit and aromatized wine (Wayne Collins, Bordeaux; *Proper* p. 106: 1 oz Plymouth gin, 1 oz Lillet Blanc, 1 oz Suze, stirred, cocktail glass, grapefruit twist; no year, *Codex* p. 89 and *Proper* disagree). **Core:** London dry gin. **Balance:** the two aperitifs carry all the sugar and the wine's small acid, as vermouth does in a Martini (*Codex* p. 65: the Vesper swaps Lillet for the vermouth; p. 74 treats "other aromatized wines" as creative stand-ins for vermouth that may need "adjustment to a cocktail's balance"). **Seasoning:** grapefruit oils. **The change:** Cocchi Americano for the Lillet. *Codex* p. 74: they "share a similar slightly bitter, orangey flavor", but "Cocchi packs a good deal more bitterness from cinchona"; Lillet "doesn't have the bitter kick it used to (the original formula, called Kina Lillet, had a bit more cinchona)". The *Codex*'s warning applies: Cocchi is about twice as sweet as Lillet (SAQ 200 g/L vs *LI* p. 136 9.5%), so the ratio has to move (below). |
-| Balance (Arnold; style `stirred`) | Recipe 85 ml → dilution 43.0% → 121.5 ml (Suze at its 15% flagship). **Initial 34.2% / 7.18 g / 0.141%; finished 23.9% ABV / 5.02 g sugar/100 ml / 0.099% acid.** Five in range, **two acid EDGES** (initial 0.141 vs 0.15, finished 0.099 vs 0.10). Justified: a stirred drink's acid is the wine's, and this one has 35 ml of aromatized wine and aperitif to 50 ml gin, like a dry Martini. **Versions the numbers rejected:** Collins's equal parts (30/30/30), with Lillet or Cocchi: finished 18.4–20.0%, OUT under the 21% floor at every point swept. v1 2:1:1 (45/22.5/22.5): at Cocchi's real 200 g/L, sugar OUT at the sweet end (6.68–6.79 g vs 5.6) and strength OUT with a 40% gin (19.9–20.7%). Also rejected: 45/20/15 (OUT on strength or sugar at 40% gin), 50/20/20 and 45/15/15 (acid OUT, 0.084–0.095). **Sweeps on v2:** Suze sugar is **unsourced** (no trusted figure; Hester), so swept 10–18 g/100 ml, and Suze strength 15–20% (Suze 15%, Oxford pdf 1960 and SAQ; the 20% Saveur d'Autrefois bottling, Oxford pdf 1960). Gin 40–47%. Every combination is in range or edge: 21.3–24.5% / 4.52–5.59 g / 0.099–0.100%. Gin at 37.5% → 20.4–20.9% finished (under the 21% floor with the 15% Suze) → hence "40% or stronger" (40% → 21.3–21.9%, in range). **Substitute americano or quinquina, swept by sugar** (Suze 10–18): 16 g/100 ml → 3.86–4.84, in range; 14 → 3.53–4.52 (OUT low with a dry Suze); 9.5 (Lillet Blanc) → 2.79–3.78, OUT. Hence "at least as sweet" in the recipe. The numbers and vetoes are proved for Cocchi Americano; a substitute needs about 160 g/L sugar or more. |
-| Pairings | **Classic:** gin, gentian and a white aperitif wine with grapefruit is Collins's own combination (*Proper* p. 106). Collins garnished his with a grapefruit twist (*Proper* p. 106). **The spark is the Cocchi swap.** The story is one change: the bottle with "a good deal more bitterness from cinchona" (*Codex* p. 74, comparing the bottles as they are now; nothing says Cocchi's recipe stayed the same, Hester X6). A second, Matrix-sourced change would contradict the reading's "I changed one thing" and dilute the point (my lesson from the Old Master: when the story is one change, the spark must be that change). The *Flavor Matrix* was consulted and set aside: its surprise pairings for citrus are "Sage, caraway, peanut, pecan" (pdf 80). Sage is *A Brother's Care*'s leaf and a pun on an archetype name the guest never sees. Caraway is *Not Only the Way*'s spark. Peanut and pecan bring the nuts veto into a veto-free pour. **Knock-on for the reading (Wren):** the ratio also moved (Collins's equal parts → 50/20/15), because Cocchi is twice as sweet as Lillet and the equal-parts drink falls under the stirred strength floor. So y4's "I changed one thing" is true of the ingredients but not the proportions. Suggest: "I changed one thing, and the measures moved to make room for it", or keep "one thing" and never say "his proportions". |
-| Allergens | `allergens.py`: **veto-free** (the AD-4 floor holds); `--check ""`: declared contains matches. London dry gin is a distilled grain spirit, so **not gluten** (rule 4). Gentian (Suze) and cinchona (Cocchi) are bittering barks and roots with no heat, so **not `spice`** (heat only, rule 4). Both are wine- or spirit-based aperitifs with no nuts, cream or egg declared; wine fining is ignored (rule 4; neither bottle is labelled with egg or milk as far as I know, *unsourced*). Grapefruit peel touches no veto. **Flag for Robin (my own knowledge, unsourced):** quinine, and so cinchona-bittered drinks, is something some people are told to avoid for medical reasons (quinine sensitivity, certain medications). It isn't in our veto enum and the amount in a quinquina is unpublished (Hester), so I'm naming it rather than hiding it. It's a tonic-water-level caution, not an allergen. |
-| Makeable | Kit: a mixing glass or jar, a long spoon, a strainer, a jigger, a peeler or knife, a small stemmed glass. **Named bottles:** Cocchi Americano (the story is this bottle; substitute style given with a sugar floor) and Suze (the White Negroni's own bitter; substitute style "any French gentian aperitif", proved for 15–20% and 10–18 g). Both are ordinary aperitif bottles at roughly vermouth prices (my own knowledge, unsourced), not rarities. Gin is a generic style. No homemade step, no niche kit. |
-| Language | Wren's Resonance (v2, re-run on v3 with the same result): 0 generic sentences; ready. v1 failed on two horoscope sentences ("Kindly, but you tell them"; "It costs you, and you don't let it show"), both rewritten or cut. Sibling echoes moved off: the Researcher's puzzle-guilt beat (cut), the Rescuer's "So turn it round" (y5) and "lie awake", the Trend Setter's "peel squeezed over the top". Pronouns he/she in yours 1, 2 and 4 are all Dave Arnold and his mother, never the guest (accepted by Wren, round 5). ✓ |
+| Structure (*Cocktail Codex*) | **Martini family.** *Codex* p. 83 opens the Martini's "extended family" with the Martinez, "which introduces a small amount of highly flavorful liqueur to the Martini formula"; p. 86 prints it as Hayman's Old Tom and Carpano Antica 1:1, a teaspoon of maraschino, orange bitters, lemon twist. **Core:** Old Tom gin, "slightly sweet… distinct from London dry" (p. 68); the Martinez is "believed" to have been made with it originally (p. 68: keep the hedge). **Balance:** sweet vermouth, "dark red and often bitter, with sweet cherry flavors" (p. 72, the style described as a family), carrying the sugar and the wine's acid, as vermouth does in every Martini. **Seasoning:** one dash of aromatic and one of orange bitters (Arnold's pair, *LI* p. 131), and lemon oil. **What's changed from the Codex's:** the proportions are the 2:1 Regan suggests, "2 ounces of Old Tom and 1 ounce of vermouth", with "I highly recommend the Ransom Old Tom" (*Joy* pdf 336). The accent is left empty: no maraschino (nuts) and no substitute. The orange-liqueur swap is Wondrich's on the Improved Cocktail page (*Imbibe!* pdf 180), which is *Beside the First*'s drink, so it isn't borrowed. Without the accent, this is the Martinez's core and balance alone. Dossier only: Regan adapts his from Jerry Thomas's 1887 book (*Joy* pdf 336), so the reading keeps Thomas out (*Beside the First*). Oxford MARTINEZ (pdf 1243): first in print 1884, original recipe "subject to interpretation". |
+| Balance (Arnold; style `stirred`) | Recipe 91.6 ml → dilution 43.3% → 131.3 ml. **Initial 35.0% / 6.42 g / 0.197%; finished 24.4% ABV / 4.48 g sugar/100 ml / 0.137% acid. All seven in range, no edges** (spec at Ransom 44%, sugar 1.75 g/100 ml). **Unsourced:** Ransom's abv is its label (my knowledge) and its sugar is unpublished, so the spec sits at the midpoint of a 0-3.5 g sweep. The top of that sweep is Oxford's historical Old Tom, "around 35 grams per liter" (OLD TOM GIN pdf 1436). Orange bitters: standard value. **Sweep, Old Tom 37.5-47% × 0-3.5 g (vermouth at *LI*'s 16 g):** finished 21.8-25.7% / 3.66-5.35 g / 0.136-0.139%. Every point is in range except the unsweetened (0 g) column, which reads **edge on sugar** (initial 5.28 vs 5.3; finished 3.66-3.73 vs 3.7, inside the 25% margin). Justified: that's a dry Old Tom in a bitter stirred drink, the dry end of the style, which suits this guest. **My numbers caught me:** in round 5 I said "in range at every point". The 0 g points are edges, not in range. **Vermouth sweep (Ransom 44%):** 13 g vermouth with an unsweetened Old Tom goes **OUT low** (3.00 g); 20 g with a 3.5 g Old Tom goes **OUT high** (6.20 g); 13 g with 3.5 g, and 20 g with 0 g, both land at 4.60, in range. So the numbers are proved for an ordinary sweet vermouth (about 16 g/100 ml), not for the extremes paired the wrong way. See Makeable. **Versions the numbers rejected:** Arnold's Martinez with maraschino (*LI* p. 131, 60/30/6.75): my sweep reproduces his printed 6.6 g at 3.5 g Old Tom, OUT on sugar, and nuts. The *Codex*'s 1:1 without maraschino (45/45): acid OUT (0.208%) and sugar edge to OUT (5.57-6.78 g). |
+| Pairings | **Classic:** Old Tom, sweet vermouth, bitters and lemon oil are the Martinez as three of our books give it (*Codex* p. 86, *LI* p. 131, *Joy* pdf 336; all add maraschino, which we leave out). Lemon twist: *Codex* p. 86 and *LI* p. 131. **The spark: none from the *Flavor Matrix*, on purpose.** I consulted it and set it aside. The vermouth maps to Grape (pdf 140): its surprising pairings are pumpkin, capsicum and beet, and none belongs in a stirred gin drink or in this story. Beef (pdf 44, checked in round 3 for another candidate) doesn't apply. What makes the drink interesting comes from the books and is tailored to this person (Robin, 2026-09-30: no spark is fine if the drink is interesting from the books). (1) The gin is the story's own. Ransom is the Old Tom Wondrich advised his friend to make (*Proper* p. 241), and Wondrich discloses in print that he had a hand in it ("fair warning", *Imbibe!* pdf 68). (2) Oxford pdf 1436: of the old sweetened gins, Old Tom "had the least added sugar and water", "the strongest allowed to be sold". (3) The maraschino is left out and nothing sweet replaces it. That's the Doctor's habit in the glass: nothing added to make it go down easier. |
+| Allergens | `allergens.py`: **veto-free** (the AD-4 floor holds); `--check ""`: declared contains matches. Old Tom is a distilled grain spirit, so **not gluten** (rule 4; Ransom's grain bill is not in the library, and distillation settles it either way). Sweet vermouth is wine; fining is ignored (rule 4). Aromatic and orange bitters are not heat, so **not `spice`**. Lemon peel touches no veto. No maraschino, so **no nuts**: that was the reason it came out. |
+| Makeable | Kit: a mixing glass or jar, a long spoon, a strainer, a jigger, a peeler or knife, a small stemmed glass. **Named bottle:** Ransom Old Tom, because the story is this bottle (Wondrich's advice to its maker). Substitute style: **any Old Tom gin**, proved from 37.5% to 47% and from unsweetened to Oxford's historical ~35 g/L (edges only at the unsweetened end). The numbers and vetoes are proved for Ransom at its label strength; its sugar is unpublished, so the sweep covers it. **Vermouth:** generic "sweet (red) vermouth", proved at an ordinary sweetness. A very rich vermouth with a sweetened Old Tom tips over (6.20 g), and a thin one with an unsweetened Old Tom falls short (3.00 g). I don't put that warning on the page, because an ordinary bottle of each lands in range. Old Tom is a regular bottle in a well-stocked shop, not a rarity (my knowledge, unsourced). No homemade step, no niche kit. |
+| Language | Wren's Resonance on reading v2 (rework): ready. 0 generic sentences (y3's "you can already see the trouble in it" held to the Doctor by "the question" and "what to do instead"). Sibling echoes moved off: "in the same breath" (*Making the Calls*) → "in the same sentence"; "Keep asking" (the Old Master) → "Go on asking the question"; "said out loud" (the Researcher) → "told them what you had riding on it"; the cherry-liqueur beat cut from y4 (*Beside the First*). y5's "instead" also appears in the Auteur's y5 as an adverb in a different act; kept and flagged. Pronouns he/him in yours 1 and 2 are Wondrich and his friend, never the guest (accepted by Wren, rounds 7 and 8). ✓ |
 
 ### Fact audit
 
-#### Reading v3: **Resolved.**
-X1–X6 are in word for word ("in the middle of the 1800s"; "before it was in a cocktail"; "one page in his book is a warning"; "even at the most quinine the law allows"; "flavoured mostly with gentian root"; "an aperitif wine with a good deal more of that bitterness", "Italian" dropped). Checked again:
-- y2 "the easy kindness would have been to help him. She didn't." claims no motive beyond her son's account. OK.
-- y2 "said twice": LI p. 366 "I will repeat that". OK. "no business working with quinine" is a verbatim quote. OK.
-- y4 "The old Lillet had a little more cinchona": *Codex* p. 74 "a bit more". OK. "I changed one thing, and the measures moved to make room for it": true to the spec (30/30/30 → 50/20/15). OK.
-- y4 "Stirred until cold and clear": clear = not cloudy; the image brief now says so. OK.
-- Sequence (refused, then bought elsewhere), "As he tells it", "I like to think", no name for her, no year for Collins, no patentee: all hold.
-- Epigraph, tagline, whoYouAre, y3, y5: no factual claims beyond the above.
-- History weight: y1, y2 and half of y4, at the limit, not over.
-- Dossier note (not shipped): Wren's facts table still says "Cocchi keeps more bitterness" and "in the 1800s: check". The assembler should carry the v3 wording so the dossier holds no claim the reading dropped.
+Audited: `psychologist-reading-v1-rework.md` (title block, whoYouAre, yours 1-5, Wren's facts table) and `mixologist-draft.md` (recipe, method, closingLine rationale, Checks, Names, image brief). Cards: `_studio/fact-cards/david-wondrich-ransom-old-tom.md` (W F1-F11). Every quote below was checked on screen this round.
 
-#### Draft (mixologist-draft.md v1.2, checked on disk at close-out)
-**D1–D8 all applied.** On disk: D1 "a good deal more… the cinchona's bite"; D2 "flavoured mostly with gentian root"; D3 "any white americano or quinquina (an aperitif wine bittered with cinchona bark) that's at least as sweet"; D4 Bonal parenthesis gone; D5 "classic aperitivo pairing" gone; D6 "Saveur d'Autrefois bottling, Oxford pdf 1960"; D7 "the easy kindness would have been…"; D8 "His words for how she said it". No stale phrase remains ("made from", "kept its", "warns off", "French label", "Her words": none found). Tomás notes the headline strength moved 24.5% → 23.9% with Suze at its 15% flagship; the recipe is unchanged, and the numbers are his. (Cosmetic: the file's heading still reads "v1.1"; the v1.2 note is on line 4.)
+**Verdict: NOT YET. Six fixes to the reading and six to the draft. No fact has to go, and the story, recipe, numbers and vetoes don't move.** Once the fixes land as quoted, I'd sign.
+
+#### Wren's three asks
+1. **Oxford editor (y1 parenthesis):** PASS. Oxford front matter pdf 3-4: "EDITOR-IN-CHIEF DAVID WONDRICH". The parenthesis also covers y4's Old Tom line, which comes from an entry he signs (pdf 1439), so nothing more needs owning.
+2. **"gone from the shelves for decades":** FAIL (R5). Oxford pdf 1438 says only that by the late twentieth century Old Tom was "essentially unavailable as a commercial product". No page gives a span of decades.
+3. **"an early form of the Martini":** FAIL (R9). Oxford MARTINEZ pdf 1243 says "an early moniker for the Martini", which is a name, not a form. The *Codex* (p. 83) puts it first in the Martini's "extended family". "Form" is on neither page.
+
+#### Reading: fixes (old → new; the words are Wren's to finish)
+
+| # | line | old | new | why / source |
+|---|---|---|---|---|
+| R1 | y1 | "a few small distillers set out to bring back spirits that had simply disappeared. Most of them had the will but not the know-how, so they went to David Wondrich" | "some distillers set out to bring back spirits that had simply disappeared. A few had the will but not the know-how, and they often went to David Wondrich" | *Proper* p. 241: "A few had the will, but not the know-how"; "often turned to". "Most" inverts "a few". "Small" isn't on the page (it says "adventuresome"). |
+| R2 | y1 | "had started a small distillery in Oregon called Ransom" | "had started a distillery in Oregon called Ransom" | "small" is on no page. |
+| R5 | y2 | "gone from the shelves for decades" | "and by the late 1900s all but impossible to buy" | Oxford pdf 1438, "essentially unavailable" by the late twentieth century. |
+| R6 | y2 | "a year after the first gin of its kind came back" | "a year after the first of the revived Old Toms reached America" | Oxford pdf 1438 dates Hayman's (2007) and Ransom (the next year) but ranks neither. The *Codex* p. 68: "Hayman's was the first to reach the United States." "First" needs that scope. |
+| R7 | y2 | "warns you that he had a hand in making it" | "warns you that he had a hand in developing it" | *Imbibe!* pdf 68: "I had a hand in developing". "Making" suggests he distilled it. |
+| R9 | y4 | "It's a Martinez, an early form of the Martini" | "It's a Martinez, one of the Martini's early names" | Oxford MARTINEZ pdf 1243. |
+
+**Dossier (not shipped):** Wren's facts table, y1 row: strike "2006 lunch (F10)". That year came from a search summary and is unverified (card C2).
+
+#### Reading: passes
+
+| claim | label | source |
+|---|---|---|
+| Epigraph: someone wanted to make a gin; a friend knew an older one worth making | fact + our reading ("worth making") | *Proper* p. 241 ("He wanted to make a gin"; "an old friend of Wondrich's"); Old Tom in print 1810 and faded as taste went drier after the 1880s (Oxford pdf 1438), so "older" holds against a modern gin. |
+| y1 "He knew the way to things he couldn't make himself" | our paraphrase of Simonson's image | *Proper* p. 241; not quoted. PASS. |
+| y1 old friend; Oregon; Ransom; wanted to make a gin | fact | *Proper* p. 241 (W F2). |
+| y2 "wasn't a verdict on the plan. It was an instead" | our reading, and true to the verb | *Proper* p. 241 "advised him to instead make". Nothing calls it a no. PASS. |
+| y2 Old Tom, a sweeter, older style of gin that bars used in the 1800s | fact | *Proper* p. 241 ("sweeter style… once popular in the nineteenth century"); Oxford pdf 1436 (sold by publicans). |
+| y2 "His friend had never heard of it" | fact, secondary | Tales of the Cocktail, Vierthaler 2016 (the author's narration, not Seestedt's words). Label it secondary in the dossier. |
+| y2 "He made it" | fact | *Proper* p. 241 "He did." |
+| y2 came out in 2008 | fact | Oxford pdf 1438. |
+| y2 "at least one bartender's book recommends it by name" | fact | *Joy* pdf 336 "I highly recommend the Ransom Old Tom". |
+| y2 "in the same sentence" | fact | *Imbibe!* pdf 68: the warning is a parenthesis inside the sentence that points to Ransom. |
+| y3 | our reading, signposted ("I like to think") | "see the trouble in it" is the guest's scene. y2 already rules out reading it onto Wondrich. PASS. |
+| y4 in print by 1884 | fact | Oxford pdf 1243. |
+| y4 believed to have been made with Old Tom from the start | fact, hedged | *Codex* p. 68 "believed". |
+| y4 twice as much Old Tom as vermouth, "the way one bartender suggests for today's taste" | fact, scoped right | *Joy* pdf 336 (prose: "reverse the amounts… more in line with modern tastes"). |
+| y4 two dashes of bitters, stirred | fact (our spec) | Draft (1 aromatic + 1 orange). |
+| y4 among the sweetened gins of the 1800s, the strong one, with the least sugar and water | fact, scoped to the 1800s and not to Ransom | Oxford pdf 1436 ("the stronger base gin… least added sugar and water"; "the strongest allowed to be sold"). |
+| y5 | our reading, a proposal | none needed. |
+| whoYouAre, tagline | kept verbatim (Robin) | no facts. |
+
+Guards held: no "no" for Wondrich; the friend unnamed (C1); no Jerry Thomas; no maraschino in the glass; no health; no year for the lunch.
+
+#### Draft: fixes (old → new; Tomás's words)
+
+| # | where | old | new | why / source |
+|---|---|---|---|---|
+| D1 | header line and Checks, Structure | "Regan's 2:1" / "the proportions are Regan's modern 2:1, "2 ounces of Old Tom and 1 ounce of vermouth"" | "the 2:1 Regan suggests" / "the proportions are the 2:1 Regan suggests in his prose ("reverse the amounts": 2 oz Old Tom to 1 oz vermouth); his printed recipe below it is Thomas's 2 vermouth : 1 gin" | *Joy* pdf 336. Never "Regan's recipe". |
+| D2 | Method 2 | "Most Martinez recipes add a teaspoon of cherry liqueur here." | "Most modern Martinez recipes add a little maraschino, a cherry liqueur, here." | Oxford pdf 1243 ("typically call for… maraschino"). The amounts vary: *Codex* p. 86 1 tsp, *LI* p. 131 6.75 ml, *Joy* pdf 336 2 dashes. |
+| D3 | Method 3 | "it adds a little over a third to what you poured" | "it adds about two-fifths to what you poured" | Your own numbers: 91.6 → 131.3 ml, 43.3% dilution. A third is 33%. |
+| D4 | closingLine rationale | "Wondrich didn't just turn down a plain gin, he named the better one" | "Wondrich answered his friend's plan for a gin by naming another one" | "Turn down" is the barred verb, even in the dossier. The page says "advised him to instead make". |
+| D5 | Checks, Pairings (3) | "The cherry teaspoon is left out" | "The maraschino is left out" | Same as D2. |
+| D6 | Names, Fair Warning | "in the same breath (Hester's detail)" | "in the same sentence (Hester's detail)" | *Imbibe!* pdf 68 (a parenthesis in one sentence). "In the same breath" is *Making the Calls*'s phrase too. |
+
+#### Draft: passes
+*Codex* p. 83 ("introduces a small amount of highly flavorful liqueur to the Martini formula"), p. 86 (Hayman's and Carpano Antica 1:1, 1 tsp maraschino, 2 dashes orange bitters, lemon twist), p. 72 ("dark red and often bitter, with sweet cherry flavors", the style as a family), p. 68 ("slightly sweet", "believed", "lightly aged"): all verbatim. *LI* p. 131: 1 dash Angostura + 1 dash orange bitters, lemon twist, finish 6.6 g. "Arnold's pair" holds. *Joy* pdf 336: Thomas's 1887 book (dossier only: correct to keep him out of the reading). Oxford pdf 1436: both quotes verbatim, scoped to the historical style. *Imbibe!* pdf 68: "a little barrel age". Ransom 44% and its sugar are labelled unsourced. "Old Tom is a regular bottle in a well-stocked shop" is labelled as his knowledge (Oxford pdf 1438's "at least a dozen" Old Toms would back it if wanted). Image brief colour: fine.
+
+#### The name: "Fair Warning"
+- **Known drink or brand?** No cocktail or spirits brand of that name turned up in a web search (2026-09-30), and it isn't in the library. A search can't prove absence, so this is "none found", not "none exists". The library's near neighbour is the classic *Fair and Warmer*, a different drink.
+- **Echo:** it shares its first word, and the "Fair + noun" shape, with the Nanny's *Fair Measure* in the same family. On a menu of caregiver pours the two would read as a pair.
+- **Tone:** "Warning" leans towards a caution label, which is Wren's own noted risk, and back towards the medical ground Robin closed.
+- **My pick stays *Instead*.** It's the page's word ("advised him to instead make", *Proper* p. 241) and the reading's position. *Fair Warning* is kept for Robin with Tomás's case beside it.
+
+#### Inside-the-pour note (not a fact issue)
+closingLine "Say what they should make instead." and y5 "Tell them what you'd make instead." share the verb and the word. That's Wren's and Tomás's call. Lint may not catch a repeat within a single pour.
 
 #### Anchors
-`historian-anchors.md` already carries X- and D-wording (no "kept" claim; "flavoured mostly"; "one page"; "middle of the 1800s"). No change.
+Updated in the same call: the "held" row now carries the *Codex* p. 68 scope for "first" (R6). No other anchor row carried a fixed claim ("essentially unavailable" and "early name" were already the anchors' wording).
+
+---
+
+#### Addendum, round 8: checked on disk (reading v2-rework, draft v1.1) — RESOLVED
+
+- **Reading v2-rework:** R2, R5, R6, R7 and R9 are in word for word. **R1** reads "A few had the will but not the know-how, so they went to David Wondrich". My wording was "and they often went". "So they went" matches *Proper* p. 241's "For that, they often turned to…", so it holds; no change needed. **Wren's knock-on**, "In the 2000s, some distillers set out…": holds. The page gives no number ("adventuresome distillers"), and 2007/2008 (Oxford pdf 1438) keeps it in the 2000s. None of the old phrases survive ("Most of them", "small distiller(y)", "for decades", "first gin of its kind", "making it", "early form", "2006": none found in the text).
+- **Draft v1.1:** D1, D3, D4, D5 and D6 are in. None of the old phrases survive ("Regan's 2:1", "a teaspoon of cherry", "a little over a third", "turn down", "same breath": 0 hits). **D2** reads "Most Martinez recipes add a little maraschino, a cherry liqueur" (without my "modern"). It holds: Oxford pdf 1243 ("typically call for… maraschino"), and all three of our books' versions include it.
+- **New closingLine**, *Twist the lemon over it. Then tell someone what they haven't heard of yet.*: it makes no historical claim. The first sentence matches Method step 5, and the second is advice to the guest. Its echo of y2's "His friend had never heard of it" rests on W F10 (Tales of the Cocktail, Vierthaler 2016, the author's narration: secondary, already labelled). The line doesn't restate it as fact, so the echo is a refrain, not a claim. PASS.
+- Anchors: nothing further to fix (R5/R6 were carried in the audit call).
+
+**Verdict: resolved. I'd put my name to this:** reading v2-rework as on disk, draft v1.1 with D1-D6 and the new closingLine, and *Instead*.
 
 ### Resonance
 
-**Verdict on v3: ready.** Signed in round 6 on reading v3 and the draft with D1–D8.
+**v1 → v2:** only Hester's audit v4 wording (R1, R2, R5, R6, R7, R9), plus one knock-on of R1: y1's opening "a few small distillers" → "some distillers", so it doesn't say "a few" twice in two sentences (*Proper* p. 241 says "adventuresome distillers", with no number). No recognition line is touched. "2006 lunch" is struck from the facts table. The name is held at *Instead* (Hester agrees; Tomás picks *Fair Warning*, and that goes to Robin with his case).
 
-**"This is me" line:** *"You'd just rather be the one who said no than the one who said yes and was wrong."* Second: *"You won't tell them it's probably nothing. Not until you know it's nothing."*
+#### The v1 test (still standing)
 
-**v2 → v3:** only Hester's audit wording (X1–X6) and Tomás's y4 measures line. None touches a recognition line. Re-run: 0 generic sentences in whoYouAre, 0 motif overlaps (lint on a mock pour), and the three he/she warnings accepted (Dave Arnold and his mother, never the guest).
+**As the guest (The Doctor):** whoYouAre is unchanged and still lands ("You'd just rather be the one who said no than the one who said yes and was wrong."). The new story doesn't ask me to believe anyone refused anything. It shows the step after my question, which I rarely get credit for: I usually know what to do instead. y3 names that. y5 gives me something I can use and eases the drive home that whoYouAre described, without telling me to stop asking. **The "this is me" line from yours:** *"They may never have heard of it. That's exactly why it has to come from you."*
 
-**Name:** Wren picks *The Other Kindness* (pays off in y2, and doesn't repeat the tagline's "since when?", which would be its fourth use). Tomás's alternative is *Since When* (the name asks, the tagline answers). Robin picks.
+**As the sceptic:**
+- *Horoscope check:* y3's "you can already see the trouble in it" could fit any wise friend alone. It's held to the Doctor by "the question" (the tagline's "since when?") and "what to do instead" (the story). y5's "Tell them what you'd make instead" is specific to the story's word. 0 generic sentences left after that.
+- *Sibling swap:* the Researcher (people you'll never meet, "say so") is about strangers and failure, and this is a friend and an alternative. The Craftsman is pride in method; here there's no method, only knowing. The Rescuer acts before anyone decides; the Doctor asks first. The Auteur ("send it back until it's right") is kept out on purpose: nothing is sent back. I didn't reuse any of *Beside the First*'s revival lines ("first edition", "Improved").
+- *Rule check:* "no" never describes Wondrich. "I like to think" covers the one motive line (y3). "He made it" keeps to "He did." The disclosure line keeps his order: it's in his own book, in the same breath. No health, no Thomas, no maraschino in the glass, and the drink is never "yours" alone.
+- *Punch:* the tagline and y5's last two sentences are the strongest. The weakest is y1's parenthesis owning the Oxford link: honest, but it slows the opening. Keep it unless Hester is happy for that clause to live in the dossier.
 
-#### The test that failed v1 and passed v2 (round 4)
+**Mock lint** (the new reading spliced into a copy of the pour, in the scratchpad): 0 errors, 2 warnings, both he/him about Wondrich and his friend, never the guest. Accepted. The first run also caught "in the same breath" (*Making the Calls*'s), and it's now "in the same sentence", which is also truer to *Imbibe!* pdf 68, where the warning is a parenthesis in the sentence that points to Ransom. My own swap grep also changed three things: "Keep asking" (the Old Master's whoYouAre) became "Go on asking the question"; "said out loud" (the Researcher's whoYouAre) became "told them what you had riding on it"; and I cut the cherry-liqueur beat from y4, because *Beside the First*'s y4 already has a cherry liqueur swapped out. y5's "instead" also appears in the Auteur's y5 ("Leave it on the table instead"), but there it's an adverb in a different act (not redoing a part), so I've kept it and flagged it.
 
-**"This is me" line:** *"You'd just rather be the one who said no than the one who said yes and was wrong."* Second: *"You won't tell them it's probably nothing. Not until you know it's nothing."*
-
-**Horoscope check (whoYouAre, v1 sentence by sentence)**
-| # | sentence | mark |
-| --- | --- | --- |
-| 1 | pain for weeks; you've asked "since when?" | specific |
-| 2 | won't say it's probably nothing until you know | specific |
-| 3 | friend hoping the plan is fine; "you tell them what you actually think. Kindly, but you tell them." | **generic** (any honest friend; the Connoisseur's truth-telling too) → now "you ask the one question they were hoping nobody would. Kindly. But you ask it." (the Doctor's method is the question) |
-| 4 | "It costs you, and you don't let it show." | **generic** → cut; paragraph opens on the specific cost |
-| 5 | yes would be easier; they'd like you more for an evening | specific |
-| 6 | go over it all the way home, too hard? | specific |
-| 7 | "You weren't." | specific (answers 6) |
-| 8 | rather be the one who said no… | specific: the line |
-v1: 2 generic = FAIL. v2: 0 generic.
-
-**Swap test (Caregiver siblings authored: Craftsman, Researcher, Rescuer, Angel, Reassurer)**
-- Researcher: my first draft's puzzle-guilt beat was its whoYouAre almost verbatim (round 3): cut before v1. Its person refuses "nothing more to be done" and keeps hunting; the Doctor gives the unwelcome answer instead. Clear.
-- Rescuer: its y5 "So turn it round." vs my v1 y5 "So let me turn your question round." **Flagged** → "So here's your own question, back to you." Its position (let someone come for you) vs mine (book your own appointment): both look after themselves, which the family shares; mine is carried by the Doctor's own question, "since when?", so it can't swap. "Lie awake" was already moved off (round 3).
-- Reassurer: "People sometimes take it to mean…" frame. My v1 draft's "People sometimes take that for coolness" had been cut before v1. Clear.
-- Angel, Craftsman: no shared frames ("it was nothing" avoided).
-- Lint on a mock pour: motif overlaps 0; only he/she warnings, all about Arnold and his mother.
-
-**Punch check**
-- Tagline: *You don't say "poor you". You ask "since when?"*: strong. Plain, a little funny, invites.
-- First line of whoYouAre: a scene with the question in it. Good.
-- Last line of yours: *Book the appointment you'd have told them to book weeks ago.*: strong, wry, a real position.
-- **Weakest: the epigraph** (*The bark in this glass was medicine once. It still tastes like it.*). Cold-readable and teasing, but quieter than the tagline. Acceptable. Checked: it says bark, not quinine (Hester's guard).
-
-**Rule check**
-- Drink never assumed in hand (y5 points to life). ✓
-- Signposting: v1 y2's "the drinks were for other people… She chose the other one" read her motive as fact. Now a counterfactual, "the easy kindness would have been to help him. She didn't.", which claims no motive. Her-no-to-safety-box link: "I like to think". ✓
-- "Cinchona", never "quinine", for what's in the glass. ✓ y4 "a little more cinchona" matches F20's "a bit more".
-- History weight: y1, y2 and half of y4, about half. At the limit, not over.
-- Clever for its own sake: none. The tagline echo in y5 is structural, not a pun.
-
-**Verdict: ready** on v2, pending Hester's audit of the three asks (Suze from gentian root; Cocchi as an Italian aperitif wine; "in the 1800s" against F4's mid-19th century) and Tomás's final spec matching y4's method words.
-- Lint: "peel squeezed over the top" was the Trend Setter's (creator-outlaw) → "the oil from a strip of grapefruit peel on top".
+**Verdict:** ready, pending Hester's audit (three checks flagged above).
 
 ### Sources
 
-Studio fact card `_studio/fact-cards/dave-arnold-quinine.md` (Dave Arnold, *Liquid Intelligence* pp. 136, 364–366; *Oxford Companion* GIN AND TONIC pdf 898, TONIC WATER pdf 2043–2044, SUZE pdf 1958–1960, HAUS ALPENZ pdf 975, MODERN VERMOUTH pdf 2094, ANGOSTURA BITTERS pdf 111, A GIMLET pdf 887; SAQ product listing 12433882 for Cocchi Americano sugar and abv, secondary). Drink: *A Proper Drink* p. 106 (White Negroni, Wayne Collins); *Cocktail Codex* pp. 65, 74, 77, 89; *Flavor Matrix* Citrus pdf 80 (consulted, set aside). Set aside: the Prescription Julep (*Imbibe!* pdf 152–153), the Penicillin (*A Proper Drink* pp. 170–171), the Gimlette naval-surgeon legend (*Joy of Mixology* pdf 289). Room notes: `work/caregiver-sage/`.
+Studio fact card `_studio/fact-cards/david-wondrich-ransom-old-tom.md` (Robert Simonson, *A Proper Drink* p. 241; *Oxford Companion* front matter pdf 3–4, OLD TOM GIN pdf 1436–1439, MARTINEZ pdf 1243; David Wondrich, *Imbibe!* pdf 68; Tales of the Cocktail, Mark Vierthaler, January 2016, secondary, for the friend's own account). Drink: Gary Regan, *The Joy of Mixology* pdf 336 (the 2:1 he suggests, "preferably Ransom"); *Cocktail Codex* pp. 68, 72, 83, 86; Dave Arnold, *Liquid Intelligence* p. 131; *Flavor Matrix* Grape pdf 140 (consulted, set aside). Set aside in the rework: the Chartreuse monks (Oxford CHARTREUSE pdf 439 does not carry the story), Donn Beach's two-Zombie limit (Oxford ZOMBIE pdf 2229; no sourced motive; VinePair, Simonson 2022), Joe Baum and Dale DeGroff (*Proper* pp. 11–13; Bullshot, Oxford pdf 374–375), E.H. Taylor Jr. (Oxford pdf 1994), Old Forester (pdf 1430). Room notes: `work/caregiver-sage/`.
 
 ### Legends and inferences
 
 **Dossier only** (Hester, `historian-anchors.md`)
 
+- **C1, the name:** our *Proper* extraction reads "Seestredt", while Tales of the Cocktail and the trade press read "Seestedt". I couldn't open the printed page here (no PDF text tool). Don't name him, or use "Seestedt" only after someone checks *Proper* printed p. 241. For Robin: one glance at the page settles it.
+- **Date:** no year for the lunch. The "2006" came from a search summary I couldn't verify. 2008 is Ransom reaching the market (Oxford), and that's a separate fact.
+- **No Jerry Thomas** in the reading (*Beside the First*). Regan's note mentions "Thomas's ingredients": it stays out.
+- **No maraschino**, and Wondrich's curaçao swap (*Imbibe!* pdf 180, the Improved Cocktail page) isn't borrowed.
+- **No health angle anywhere:** Old Tom has none on record. Keep it that way.
+- **"Better off" is never stated as fact:** what's on record is that he did it (*Proper*), it reached the market (Oxford) and others recommend it (*Joy*, *Codex*).
+
 **Conflicts** (fact card)
 
-- **C1:** who patented tonic water in 1858: Schweppes' "Indian tonic water" (Oxford TONIC WATER pdf 2043) or Erasmus Bond, 28 May 1858 (Oxford GIN AND TONIC pdf 898). Keep the patentee out.
-- **C2:** European medical use of cinchona: "since the sixteenth century" (LI p. 364) vs "as early as 1631, Italian physicians" (Oxford pdf 2043). No date.
+- **C1, spelling:** *Proper* p. 241 (our extraction) reads "Seestredt"; Tales of the Cocktail and the brand press give "Seestedt". Check the printed page before the name enters any text; prefer "Seestedt" (the company founder's usual spelling) once confirmed.
+- **C2, date:** "2006" for the lunch and a "two-year" development came from a search summary, and the fetched Tales text doesn't show them. Unverified: no year for the lunch. Oxford's 2008 (reaching market) stands alone.
 
 ### Image brief
 
-> A single small stemmed cocktail glass, chilled and faintly frosted, stands on a clean pale grey stone counter in cool, even morning light. The drink is perfectly clear, not cloudy, a light golden yellow with a warm orange edge where the bowl is deepest, still and bright, with no ice. A wide strip of grapefruit peel rests inside, curled against the bowl. Behind it, slightly out of focus, are a halved grapefruit with one strip of peel cut away, a small curled quill of reddish-brown cinchona bark on a plain white dish, and a closed, well-read hardback book lying flat with no lettering on its spine. The wall behind is a deep, calm blue. The one impossible detail: the glass's shadow on the stone isn't the shape of the glass. It is the shadow of a small cinchona branch in leaf, falling where the light says the glass's shadow should be. Palette: deep blue in the wall, soft grey stone, and a calming green only in the shadow's leaves.
+> A single small stemmed cocktail glass, chilled and faintly frosted, stands on a clean pale grey stone counter in cool, even morning light. The drink is clear, not cloudy, a deep reddish amber, still, with no ice. A strip of lemon peel rests on the rim, only the yellow part. Behind it, slightly out of focus, stand a glass mixing jar with a long spoon resting inside, a lemon with one strip of peel cut away, and a squat, old-fashioned gin bottle with no label, holding pale gold gin. The wall behind is a deep, calm blue. The one impossible detail: the gin in the unlabelled bottle is clear as water in its top half and pale gold in its bottom half, as if one gin were quietly turning into another inside the glass, with no line between them. Palette: deep blue in the wall, soft grey stone, and a calming green only in the tint of the bottle's glass.
 
-- **Glass and drink:** a small stemmed cocktail glass, chilled, no ice. The drink as served is **clear, not cloudy** (stirred), but **not colourless**. It is **light golden yellow with a warm orange edge**: clear gin, pale gold Cocchi, and Suze, which Oxford calls "strong yellow-orange" (SUZE pdf 1958), 15 ml of it in about 122 ml. Never Negroni red, never green, never cloudy. Garnish: one wide grapefruit peel strip, in the glass.
-- **Props (three, story):** the cinchona bark quill (the bark the reading is about, "medicine once"); the halved grapefruit (the peel in the drink); the closed book with a blank spine (the book the story comes from, unnamed). **The scale is dropped** (my call; Wren and Hester didn't rule). An empty scale beside bark can read as weighing a drug, which is exactly the powder-in-the-guest's-hands image Hester guarded against.
-- **One impossible detail:** the shadow of the glass is a cinchona branch. The drink's truth shows in its shadow, the bitter bark it came from, without anything written. Quiet, and only one.
-- **Must not appear:** people or hands (house rule); anything medical or clinical as props: no stethoscope, caduceus, pills, capsules, powder, scale or weights, syringe, dropper, pipette, test tube, prescription pad, white coat, hospital (Wren's traps: no profession label, nothing performed); tonic water, a tonic bottle, a highball glass, lime, ice in the glass (not a G&T); a Negroni-red drink, orange peel; any bottle label, readable text or logo; a second drink.
-- **Palette:** the persona's deep blue (Pantone 5415 C) in the wall, subtle grey (438 C) in the stone, calming green (9280 C) only in the shadow's leaves. The drink stays its true light golden yellow.
+- **Glass and drink:** a small stemmed cocktail glass, chilled, no ice. The drink is stirred, so **clear, not cloudy**. Its colour is **deep reddish amber**: 30 ml of sweet vermouth, which the *Codex* calls "dark red" (p. 72), in 60 ml of Old Tom with "a little barrel age" (*Imbibe!* pdf 68). Never Negroni-scarlet, never pale gold, never cloudy. Garnish: one strip of lemon peel on the rim.
+- **Props (three, story):** the mixing jar and spoon (stirred, exact, nothing performed); the lemon with its strip cut away (the garnish); the unlabelled old-style gin bottle (the Old Tom the story is about; no text).
+- **One impossible detail:** the bottle whose gin is clear above and pale gold below, one gin becoming another. It carries the story's "instead" (a plain gin becoming an Old Tom) without any words. Quiet, and only one.
+- **Must not appear:** people or hands (house rule); cherries, a cocktail cherry, a maraschino bottle (the drink leaves the cherry out); anything medical or clinical (no stethoscope, pills, dropper, scale, prescription pad); readable labels, text or logos; ice in the glass; orange peel; a second drink; a highball glass; a still or distillery.
+- **Palette:** the persona's deep blue (Pantone 5415 C) in the wall, subtle grey (438 C) in the stone, calming green (9280 C) only in the bottle glass's tint. The drink stays its true reddish amber.
 
 ### Names considered
 
-**The Other Kindness**, the room's pick (all three, round 6): the kindness that says no (y2: 'the easy kindness would have been to help him. She didn't.'). **Since When** was Wren's round-3 pick and Tomás's briefly in round 5 (the two crossed); all three set it aside because the tagline already carries "since when?" one line below, and it stands only if the tagline moves. Also considered: *Without Hesitation* (Wren; his words for how she said it), *Unwritten*, *Said Twice*, *A Good Deal More* (Hester), *Straight Answer* (Tomás). Rejected: "Bitter Truth" (a bitters brand), "No Way" (reads as refusing the drink), "Kept the Bark" ("kept" fails the audit).
+**Instead**, the room's pick (all three, round 8): the page's own word ("advised him to instead make an Old Tom", *Proper* p. 241) and the reading's turn, "It was an instead." **Fair Warning** was Tomás's round-7 pick (Wondrich's own phrase beside Ransom, *Imbibe!* pdf 68); he moved in round 8 because it shares its first word and shape with the Nanny's *Fair Measure* in this family, and "Warning" leans towards the medical ground Robin closed. Kept on record for Robin. Also considered: *Over Lunch* (Hester), *The Other Plan*, *Old Friend* (Wren), *Nothing Added*, *Straight Answer* (Tomás).
 
-- **The Other Kindness** (**all three pick it**; my ruling, round 6). The tagline stays (*You don't say "poor you". You ask "since when?"*), so a name that repeats "since when" one line above it would spend the title block twice. Wren's words, and my own round-4 case. It makes sense cold and invites a stranger in. It names the person, the kindness that says no (y2: 'the easy kindness would have been to help him. She didn't.'). At the bar: "an Other Kindness, please."
-- **Since When** (Wren's round-3 pick; I backed it briefly in round 5, and we crossed). The Doctor's method in two words. It stands only if the tagline moves off "since when", and the tagline is the pour's strongest line.
-- **Without Hesitation** (Wren). His words for how she said it. It belongs to the story more than the guest, who does hesitate afterwards ("go over it all the way home").
-- **Unwritten** (Hester). The prescription she wouldn't write. Quiet, and it rewards the reading, but on a menu it tells a stranger nothing about themselves.
-- **Said Twice** (Hester). The warning repeated because it matters.
+- **Instead** (**all three pick it**; I moved in round 8). The page's own word ("advised him to instead make an Old Tom", *Proper* p. 241), and the reading's turn: what Wondrich gave "wasn't a verdict on the plan. It was an instead." The Doctor never leaves you with only the no. It makes sense cold and makes a stranger curious. At the bar: "an Instead, please." **What moved me:** Hester's point that *Fair Warning* shares its first word and its shape with the Nanny's *Fair Measure*, in this same family. That's my own lesson (opening words clash within a family: *Still Improving* against *Still Yours*). And "Warning" leans towards the medical ground Robin closed.
+- **Fair Warning** (my round-7 pick, kept on record for Robin). What the Doctor gives: the unwelcome thing, said before it costs you, with nothing hidden. It's also Wondrich's own phrase beside Ransom (*Imbibe!* pdf 68). No cocktail or brand by that name was found (Hester, web and library: "none found", not proof). Against it: the *Fair Measure* echo and the medical lean.
+- **Over Lunch** (Hester). **The Other Plan**, **Old Friend** (Wren).
+- **Nothing Added.** The gin style with "the least added sugar and water", and the drink with the maraschino left out. Risk: it reads as a label claim.
 - **Straight Answer** (mine). What they're sought for. Plain, a little dry.
-- *Rejected:* "Bitter Truth" (a bitters brand, and a cliché); "No Way" (reads on a menu as a refusal of the drink); "Kept the Bark" (the drink, not the person, and "kept" fails Hester's X6).
-- Epigraph (Wren's): *The bark in this glass was medicine once. It still tastes like it.* Checked against the drink: true. The cinchona in the Cocchi is the bark, and the drink is plainly bitter. It says "bark", never "quinine" or "a dose", per Hester's guard.
+- *Rejected:* "Old Tom's Advice" (names the gin, not the person); "The Better Gin" (a boast); "Since When" (the tagline stays).
 - Checked against the registry: no name repeats.
 
 Wren's title-block notes:
 
-- **tagline:** You don't say "poor you". You ask "since when?"
-- **epigraph:** *The bark in this glass was medicine once. It still tastes like it.*
-- **name (Wren's pick, round 5):** *The Other Kindness* (conceded to Tomás: *Since When* repeats the tagline one line below the name) · also: *Since When* · *Without Hesitation* · *Unwritten* · *Said Twice*
+- **tagline (kept):** You don't say "poor you". You ask "since when?"
+- **epigraph:** *Someone wanted to make a gin. A friend knew an older one worth making.* (14 words; read cold it makes sense, teases the story, and has no bare "he")
+- **names:**
+  - **Instead** (my pick). It's the story's hinge word ("advised him to instead make", *Proper* p. 241) and it's the position in y5. Read cold, it invites. With the tagline underneath, it shares the tagline's shape (not this, but that) without repeating its words.
+  - *Fair Warning*: Wondrich's own phrase (*Imbibe!* pdf 68), and something the Doctor gives. Risk: it reads a bit like a caution label.
+  - *The Other Plan*
+  - *Old Friend*: the friend and the Old Tom. Risk: soft.
 
 ### Open items
 
-- **Suze sugar (unsourced):** no trusted published figure (SAQ lists 15%, 700 ml, no sugar; suze.com refused). Tomás swept 10–18 g and 15–20% abv and every point stays in range or edge, so the ratio holds whatever the real figure is. A producer spec sheet would settle it.
-- **Cocchi Americano sugar (secondary):** 200 g/L and 16.5% from the SAQ listing (12433882), read by Hester; a blog's 210 g/L is not cited.
-- **Quinine sensitivity (unsourced):** Tomás flags from his own knowledge that some people are told to avoid quinine; Cocchi's cinchona content is published nowhere. Robin's call on whether it needs a note.
-- **Numbers moved at the last fix:** D6 corrected Suze to its 15% flagship; the finished numbers became 23.9% / 5.02 g / 0.099%, dilution 43.0% (from 24.5% / 5.01 g), recipe unchanged, balanced with two justified acid edges. Gin must be 40% or stronger (37.5% finishes under the floor).
-- **Ours, never theirs:** the link between his mother's no and his safety box on p. 366 is signposted "I like to think". She is unnamed; everything about her comes through her son. She said no, and then he bought it elsewhere, in that order. The White Negroni carries no year (*Codex* 2000 vs *Proper* and Oxford 2001).
-- **Arnold overlap:** Dave Arnold is also the person in *Overnight* (creator-magician); here he carries the story but doesn't star in it.
-- **Runner-up:** the Prescription Julep (a comic "Quackenboss, M.D." writing a julep in apothecary Latin, *Harper's Monthly*, 1857); a foil rather than a mirror, because that doctor says yes. Also considered: a G&T riff (Wren's first pick, withdrawn in round 3 after Hester's correction that tonic's dose was real once), the Penicillin and a hot toddy (both read as comfort before diagnosis), Siegert and Angostura (*Off-Label*'s story).
+- **The story is advice, not a no (Robin's ruling, round 6).** Robin asked for an honest no that protects someone and holds. After six rounds nothing sourced met all three; Robin chose Wondrich & Old Tom knowing it is a suggestion (the friend's own verb: "suggested"). The reading never calls it a no. Each voice's case is in the room record, round 6.
+- **The friend's name (C1):** *Proper* p. 241 (our extraction) reads "Seestredt"; the trade press gives "Seestedt". The reading leaves him unnamed ("one of his old friends"). Robin can check the printed page if he wants him named.
+- **No year for the lunch (C2):** "2006" came only from a search summary. Oxford's 2008 (Ransom reaching market, pdf 1438) stands alone.
+- **Ransom's sugar (unpublished) and strength (label, Tomás's knowledge):** the spec sits at the midpoint of a 0–3.5 g/100 ml sweep; every Old Tom from 37.5% to 47% lands in range, with edges only for an unsweetened one. A very rich vermouth with a sweetened Old Tom goes OUT high, and a thin one with an unsweetened Old Tom OUT low; an ordinary bottle of each is in range.
+- **Coincidences owned:** Wondrich edited the Oxford Companion (front matter pdf 3–4) and signs its OLD TOM GIN entry (pdf 1439); y1 owns it in a parenthesis. He also had a hand in developing Ransom's Old Tom and says so himself (*Imbibe!* pdf 68).
+- **Kept out on purpose:** Jerry Thomas and the maraschino (both touch *Beside the First*; maraschino is also nuts). The Old Tom origin of the Martinez stays "believed" (*Codex* p. 68). The 2:1 is what Regan suggests, not his printed recipe.
+- **Model note:** rework rounds 1 and a first round 2 ran on Sonnet 4.6; at Robin's request round 2 onward was redone with three fresh voices on Opus 5.5. The Opus Hester struck the Sonnet round-1 Chartreuse details as not on the page. Discarded turns: `work/caregiver-sage/_host/rework-round2-sonnet-discarded.md`.

@@ -12,7 +12,7 @@ A persona card that the whole room builds on, and that holds a truth about this 
 ## Your Approach
 Start from the full profile: `python3 {project-root}/skills/dps-tools/scripts/persona.py <pairing>` (both spreadsheet sheets, `archetypes.ts`, both archetypes' fears and tone, the siblings). Read the siblings' essences, and their readings if they're authored, because distinctiveness is the point. Then think like a clinician who likes people: what does this person show, what do they protect, what are they afraid of losing, what do they do *instead of* asking for what they need?
 
-The spreadsheet is a starting point, not the truth. Its words can be clichés ("steady sunshine") or gendered ("The Boy/Girl Next Door"). Go beneath them. Its fears are the most useful field: the primary archetype's fears (e.g. Sage: deception, conflict, **ambiguity**) often decide what the drink must never do.
+The spreadsheet is a starting point, not the truth. Its words can be clichés, and a few names are still gendered ("The Straight Man"). Go beneath them. Its fears are the most useful field: the primary archetype's fears (e.g. Sage: deception, conflict, **ambiguity**) often decide what the drink must never do.
 
 The card, written to the pour's room scratch folder when in the room (otherwise shown to Robin):
 
