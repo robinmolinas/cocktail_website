@@ -6,14 +6,21 @@
  "batch": "regular-guy",
  "name": "Whoever Comes In",
  "tagline": "Most people learn not to look. You never did.",
- "epigraph": "Part of this drink is made days ahead. The rest waits until someone walks in.",
+ "epigraph": "Part of this drink is made days ahead. The rest waits until someone's there.",
  "glassware": "chilled coupe",
  "contains": [],
  "veto_free": true,
  "reading": "psychologist-reading-v1.md",
  "card": "caffe-sospeso.md",
- "language_row": "provisional",
- "sources": "provisional",
- "names_note": "provisional",
- "open_items": ["provisional"]
+ "language_row": "Wren's 4-gram runs against every pour (lint's own `ngrams()`): clean after fixes (*Their Night* \"let me say plainly what you give\", *Four Shares* \"the next time you're\", *Down the Line* \"don't see is the\", *explorer-lover* \"and a little sugar\" kept out as \"lightly sweetened\"). Bare \"Yours stop.\" → \"Your eyes stop.\" (Robin's rule); y2's \"he\" → \"the scholar\"; whoYouAre 197 → 167 words. Epigraph's \"walks in\" → \"someone's there\" so \"comes in\" belongs to the name (Tomás's flag). Never names the Espresso Martini; never \"less fortunate\", \"never meet\", gratitude or a first giver. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/caffe-sospeso.md`: S1 Sylvia Poggioli, NPR *The Salt*, 24 April 2013 (De Crescenzo on the record); S2 Paolo Mancini (University of Perugia), \"Caffè sospeso (Italy)\", Global Informality Project; S3 Luca Palamara, *Euronews* (Italian), 19 November 2020; S4 Snopes, \"Suspended Coffee\" (only for what it can't establish). Craft: *Liquid Intelligence* pp. 61, 137, 206, 352–354 (shakerato, Arnold's warning on liquor and cream, salt with coffee); *Cocktail Codex* pp. 38, 177; *Flavor Matrix* root vegetables, pdf 224 (coffee among the best pairings; the spark). Backup story: Sue Fedroff, *A Proper Drink* p. 152 (set aside). Audits: `work/regular-guy-caregiver/historian-audit-v1.md` (drink), `-v2.md` (reading), `-v3.md` (final). Room notes: `work/regular-guy-caregiver/`.",
+ "names_note": "**Whoever Comes In**, the room's pick (all three): the custom's own rule (\"an unidentified future customer\", whoever \"entered later\", F4) and this guest's answer to \"who is my neighbour?\". Also considered: *One Waiting* (Hester's, withdrawn: what waits in Naples is the payment, not a cup), *In Front of You* (Tomás's, withdrawn: contradicts y5, and in three pours already), *Anything Suspended?*, *From the Clouds* (near *Rosetta*'s cloud), *Suspended*, *Paid Ahead* (a ledger: *Next One's Mine*'s ground), *Like Anyone Else*, *Anything Waiting?*.",
+ "open_items": [
+  "**Parsnip and celery family (Tomás, unsourced):** parsnip is in the carrot and celery family, like the caraway in *Not Only the Way*; celery isn't in our veto list. Robin's call.",
+  "**Acid OUT by band only:** 0.29% acid reads OUT against the sours' citrus band; there's no citrus. Justified in Checks against Arnold's Boozy Shakerato (0.29%) and Café Touba. Not flagged.",
+  "**Texture owned against the book:** Arnold says liquor in a shakerato \"throws off the dilution and body\" and adds cream; the room leaves cream out (dairy veto, *Everybody's*), so the method says drink it at once. The parsnip syrup's sugar (62 g/100 ml) is Tomás's estimate.",
+  "**One risk for Robin (Wren):** the cash-machine image in whoYouAre reads gently as someone sleeping rough, without naming it.",
+  "**Fenced by Hester:** no date or era (sources conflict: about a century before 2013 vs the end of WWII); two origin legends kept out; NPR-only details (the log, the fading and return, Sapina, Bulgaria) not used. The sources say \"coffee\"; the espresso is our build.",
+  "**Dossier note:** the reading's Resonance section is Wren's v1 self-test (\"nearly ready\", quoting the pre-lint \"Yours stop.\"); her final verdict, *ready*, on the fixed version, is in rounds 4–5 of the room record."
+ ]
 }

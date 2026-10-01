@@ -11,6 +11,8 @@ Written 2026-10-01 by Hester for outlaw-creator (The Rule Breaker). Every line r
 - **CODEX204**: *Cocktail Codex* p. 204 (printed): the Glenlivet 12 as a mixing malt. Tomás's book.
 - **MACLEAN-OCR**: Charles MacLean, *MacLean's Miscellany of Whisky* (2004), archive.org full-text OCR highlight only: an 1840s Usher's London advert, "The Real Glenlivet Whisky. Matured in the bonded warehouses ... seal and label, will distinguish the Real Glenlivet from all others." Secondary, highlight, cut-off: corroboration only, never quoted in a reading.
 
+- **DWYER**: Phil Dwyer, "The Glenlivet 12 Year Old Double Oak Review + Tasting Notes", *The Whiskey Wash*, 20 March 2025 (named freelance whisky writer; secondary, fetched by curl, text read). Reviews the current bottle ("12 Year Old Double Oak").
+
 ## Facts
 | # | Fact | Source |
 |---|---|---|
@@ -19,7 +21,7 @@ Written 2026-10-01 by Hester for outlaw-creator (The Rule Breaker). Every line r
 | F3 | Urged by his landlord, Smith applied for a licence; the Glenlivet was the first distillery in Speyside to take one out, in 1824. | O917 |
 | F4 | His former colleagues threatened him (his own words, quoted in O917). **Fence: no fire, no pistols in the reading (Wren's trap).** Say "his old colleagues turned on him / threatened him". | O917 |
 | F5 | "The illicit spirit from Glenlivet already had a high reputation": when George IV visited Edinburgh in 1822 he "reportedly" drank nothing else. **Scope: the glen's illicit spirit, not Smith's by name.** | O917 |
-| F6 | Grant, p. 373: the King's Chamberlain, Lord Conyngham, was looking everywhere for "pure Glenlivet whisky"; it could not be had outside the Highlands; her father, about to be made a judge, had her (the household's cellarer) empty her own bin of it, whisky long in wood, "mild as milk", with "the true contraband goût in it", and it went to Holyrood. **Scope: Grant never names Smith.** "Contraband goût" = the taste of the forbidden, prized as part of it. | GRANT |
+| F6 | Grant, p. 373: the King's Chamberlain, Lord Conyngham, was looking everywhere for "pure Glenlivet whisky"; it could not be had outside the Highlands; her father sent word for her (the household's cellarer) to empty her own bin of it, whisky long in wood, "mild as milk", with "the true contraband goût in it", and it went to Holyrood. **Scope: Grant never names Smith.** "Contraband goût" = the taste of the forbidden, prized as part of it. | GRANT |
 | F7 | Usher's of Edinburgh were offering it ("the illicit spirit from Glenlivet") for sale in 1821. | O917 |
 | F8 | In the 1820s George Smith's Glenlivet, like Hodges's Old Tom gin, attracted "free riders" that "any success in building a brand would inevitably attract". So people were trading on his name within his first years as a licensed distiller. | O1878-9 |
 | F9 | 1840: he leased a second farm and opened a second, small distillery. 1859: moved to the present site at Minmore, half a mile from the first. | O917 |
@@ -33,6 +35,13 @@ Written 2026-10-01 by Hester for outlaw-creator (The Rule Breaker). Every line r
 | F17 | Today: owned by Chivas Brothers (Pernod Ricard), second-bestselling single malt. **Fence: out of the reading (Wren: the guest's "defeat").** | O917-918 |
 | F18 | The 12-year-old: "made without influence of peat or sherry", "subtle, even delicate", "one of the benchmarks of the category". | O918 |
 | F19 | Codex calls the 12 "elegant and floral, with a touch of honey", "consistently delicious", and also "massively produced" and "not terribly complex", which makes it good for mixing. **Fence: never the last two in guest text.** | CODEX204 |
+
+| F6c | **Grant was not in Edinburgh.** p. 373: "My mother did not feel well enough for the bustle, neither was I at all fit for it, so we stayed at home with aunt Mary"; her father and sisters went. The bin was emptied at home on her father's word. The judgeship came later: the gift, and "a reminder of this attention at a proper moment", "ensured to my father the Indian judgeship". **Strike my own r2/card shorthand "about to be made a judge".** | GRANT |
+| F6b | Grant's full wording for the bin (p. 373, read on screen): "whisky long in wood, long in uncorked bottles, mild as milk, and the true contraband goût in it". So the whisky that went to Holyrood had been aged a long time, in cask and then in bottle. Not an age in years. | GRANT |
+| F20 | The current 12 in Dwyer's review: nose "pineapple, apricot, white grapes and peach"; palate butter and shortbread, apricot and peach, then "bitter orange, grilled peaches and grilled pineapple"; finish apple. He guesses "mostly ex-bourbon cask" with "touches of some sherry oak influences" ("I imagine": his guess, not a cask fact). | DWYER |
+| F21 | The 12 left the UK market in 2015 (replaced by Founder's Reserve) and has since returned; Dwyer says it "does taste a little different". **Fence: keep out; and Oxford's "without influence of ... sherry" (F18) describes the bottle as Oxford found it: don't restate it as a fact about today's Double Oak bottle.** | DWYER |
+| F23 | Codex p. 204 (printed), general single-malt strategy, not the Glenlivet paragraph: "to amplify the heather, we might include floral St-Germain elderflower liqueur." Heather isn't one of the Codex's words for the 12 ("elegant and floral, with a touch of honey"). | CODEX204 |
+| F22 | Flavor Matrix GRAIN (pdf 136): best pairings "Honey, citrus, ..."; surprising pairings "Coconut, passion fruit, clam". Codex p. 204: "a touch of honey" in the 12. | Matrix 136; CODEX204 |
 
 ## Not on any page (do not state)
 - That Smith kept making it "the same way" after the licence (no page says so; F15 is general).

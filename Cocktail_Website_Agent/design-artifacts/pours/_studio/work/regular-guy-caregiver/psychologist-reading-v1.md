@@ -5,7 +5,7 @@ Wren, round 3, 2026-10-01. Story: the *caffè sospeso* (anchors A1–A6, card `f
 ## Title block
 
 **epigraph** (the cocktail; cold)
-*Part of this drink is made days ahead. The rest waits until someone walks in.*
+*Part of this drink is made days ahead. The rest waits until someone's there.*
 
 **tagline candidates** (the person)
 1. **Most people learn not to look. You never did.** (pick)
@@ -20,24 +20,24 @@ Wren, round 3, 2026-10-01. Story: the *caffè sospeso* (anchors A1–A6, card `f
 
 ## whoYouAre
 
-There's a knack most people pick up from living among strangers: looking through someone. The person sitting by the cash machine with a paper cup, the one talking to nobody on the bus, the tourist turning the map round for the third time. Everyone else's eyes slide past. Yours stop. You say hello. You ask where they're trying to get to. It's nothing big, and it isn't meant to be. For a minute, someone who'd turned into part of the street is just a person in the queue again.
+Most people pick up a knack from living among strangers: looking through someone. The person sitting by the cash machine with a paper cup, the one talking to nobody on the bus, the tourist turning the map round for the third time. Everyone else's eyes slide past. Your eyes stop. You say hello. You ask where they're trying to get to. For a minute, someone who'd turned into part of the street is just a person in the queue again.
 
-What people don't see is that it costs you. You can't un-see, and some days the street is a lot. The ones you walk past, because you were late or tired or it was the third that morning, follow you home for longer than all the times you stopped. You'd hate to be called good. You're just more afraid of a street where everyone has stopped looking, where anyone could end up being stepped round, you included. Here's what it gives, and it deserves to be said. The people you stop for get to be someone, not a problem. And everyone watching learns that stopping is normal.
+What people miss is the cost. The ones you walk past, because you were late or tired, follow you home for longer than all the times you stopped. You'd hate to be called good. You're just more afraid of a street where everyone has stopped looking, where anyone could end up being stepped round, you included. Here's what it gives, and it deserves to be said: the people you stop for get to be someone, not a problem. And everyone watching learns that stopping is normal.
 
 ## yours
 
-1. Naples has an old custom called the *caffè sospeso*, the suspended coffee. Someone having a coffee at the bar pays for a second one before they leave, for someone who can't afford one. Nobody knows how old it is: the stories of how it began disagree, and none of them holds up. It doesn't belong to anyone in particular. It's just something people there do, one coffee at a time.
+1. Naples has an old custom called the *caffè sospeso*, the suspended coffee. Someone having a coffee at the bar pays for a second one before they leave, for someone who can't afford one. Nobody knows how old it is, or how it began; the stories don't agree. It doesn't belong to anyone in particular. It's just something people there do, one coffee at a time.
 
-2. Later, somebody comes in and asks at the counter: is there a suspended coffee? If there is, they're served like any other customer. One scholar of Naples reads that question as the clever part. Nobody has to say "would you pay for me?", so nobody is made smaller than anyone else. The coffee arrives, as he puts it, "from the clouds", not from somebody's hand.
+2. Later, somebody comes in and asks at the bar: is there a suspended coffee? If there is, they're served like any other customer. One Italian scholar reads that question as the gentle part. Nobody has to say "would you pay for a coffee for me?", so the difference between the two of them never has to be said out loud. The coffee arrives, as the scholar puts it, "from the clouds", not from somebody's hand.
 
 3. I like to think the people who keep it going see whoever walks in next the way you see a stranger: as someone, not a problem. And whoever pays never chooses who gets it. It's for whoever comes in. That's how your kindness works too. You don't sort people into the ones who've earned a hello and the ones who haven't.
 
-4. The cocktail I've made for you is built the way the custom works. Part of it is made days ahead, as a nod to the coffee paid before anyone knows who it's for: a syrup of roasted parsnips, sweet and a little earthy, with enough in the jar for twenty-odd drinks, waiting in the fridge for whoever's next. The rest is only made when someone's actually there, because espresso goes flat within minutes. One shot, pulled fresh, shaken hard with brandy, the syrup and a drop of salt water, poured into a cold coupe and drunk at once, while the texture lasts. It starts from the Italian bar's *shakerato*, espresso shaken with ice and lightly sweetened, here with brandy added and no cream. The flavour books pair coffee with roasted roots, and I can't taste this one without thinking of carrot cake and a strong coffee.
+4. The cocktail I've made for you is built the way the custom works. Part of it is made days ahead, as a nod to the coffee paid for someone who hasn't come in yet: a syrup of roasted parsnips, sweet and a little earthy, with enough in the jar for twenty-odd drinks, waiting in the fridge for whoever's next. The rest is only made when someone's actually there, because espresso loses its texture fast. One shot, pulled fresh, shaken hard with brandy, the syrup and two drops of salt water, poured into a cold coupe and drunk at once. It starts from the Italian *shakerato*, espresso shaken with ice and lightly sweetened; I've added the brandy. Coffee is listed among parsnip's best pairings in the flavour book I trust most: think of carrot cake with a strong coffee.
 
 5. You can't stop for every one. Nobody can, and the ones you miss will come back to you later. So leave something waiting for them: a coffee paid ahead at the place you go every morning, an hour given somewhere they'll come in after you've gone. Then, some morning when you're late and you hurry past, you'll know something's already there for them, and they won't follow you home.
 
-## Closing line (Tomás's, accepted round 4)
-*Make more syrup than you'll drink. Pull the coffee only when someone's there.* Agrees with y5: something left for whoever comes later, and fresh for whoever's in front of you. Mine (*Make the syrup before you know who it's for.*) withdrawn.
+## Closing line (Tomás's to own; as it stands in his draft, round 5)
+*Make the syrup before you know who it's for.* Ruled: keep. It carries only the position (something left for whoever comes later). y4 no longer says "before anyone knows who it's for", so the line isn't spent before the end.
 
 ## Fact tags (never shipped)
 | para | claim | anchor / fact |
@@ -72,3 +72,9 @@ What people don't see is that it costs you. You can't un-see, and some days the 
 - Closing line: Tomás's accepted.
 - Name: holding *Whoever Comes In* (see room turn).
 - **Resonance verdict: ready**, pending Hester's audit v2 of the reading and the assembled lint.
+
+## Round 5 changes
+- Hester R2, R3, R5a, R5b, R6 ("loses its texture fast", "two drops"), R8 applied as written. R7 applied except "and a little sugar" -> "lightly sweetened": the 4-gram "and a little sugar" is *explorer-lover*'s.
+- Lint: "Yours stop." -> "Your eyes stop." (bare-yours rule). y2's "he" -> "the scholar". whoYouAre trimmed from 197 words.
+- Epigraph: Tomás's flag taken ("until someone's there"), so "comes in" stays the name's alone.
+- y4's "paid before anyone knows who it's for" -> "paid for someone who hasn't come in yet", so the closing line isn't echoed.

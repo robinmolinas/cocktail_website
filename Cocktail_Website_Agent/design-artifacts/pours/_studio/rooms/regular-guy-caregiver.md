@@ -1,8 +1,8 @@
 ---
 pairing: regular-guy-caregiver
 personality: The Good Samaritan
-status: open            # open | closed | deadlock | flagged
-round: 4               # budget: 5 (pour, Robin 2026-10-01) · 5 (rework)
+status: flagged          # open | closed | deadlock | flagged
+round: 5               # budget: 5 (pour, Robin 2026-10-01) · 5 (rework)
 started: 2026-10-01
 mode: batch            # pour | batch | rework
 ---
@@ -11,13 +11,21 @@ mode: batch            # pour | batch | rework
 
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Whoever Comes In (all three)) · [x] image brief
-- **Last change to the pour:** round 4
-- **Sign-offs (valid only if after the last change):** Wren — · Hester — · Tomás —
-- **Open objections:** Hester: R2, R3, R5a, R5b, R6, R7, R8 (reading), D1 (step 5); closing line crossed (Wren took Tomás's, Tomás took Wren's)
+- **Last change to the pour:** round 5
+- **Sign-offs (valid only if after the last change):** Wren ✓ r5 · Hester ✓ r5 · Tomás ✓ r5
+- **Open objections:** none
 - **Robin's notes (rework):** none
 
 ## Summary for Robin
-_(written at close: the persona in one line, the story chosen and the runner-up, the versions that failed and why, the "this is me" line, the names debated and the pick, any edge or flag, rule candidates)_
+- **The persona in one line:** the Good Samaritan sees the people everyone else has learned not to see, and treats them like anyone else (Wren, r1).
+- **Story:** the Naples *caffè sospeso*, the plan's lead, accepted by Wren on conditions (no era, NPR-only details only as "one reporter wrote", never "never meet", gratitude or a first giver). Hester found a second independent source for the ask (Mancini, Perugia) and a scholar's reading that the question keeps the person a customer, not a case. **Runner-up:** Sue Fedroff at Pegu Club (*A Proper Drink* p. 152), set aside by Wren: it half-fails her test and puts "homeless" on the page.
+- **The drink:** Tomás's answer to Wren's ask for a cup kept for someone not yet there: espresso can't wait, so what waits is the payment. Roasted parsnip syrup made days ahead (the *Flavor Matrix* spark: coffee among the root vegetables' best pairings), and one espresso pulled only when someone's there, shaken with brandy and two drops of salt water, in a coupe. 15.0% ABV, veto-free.
+- **What failed and why:** "the shake brings the foam back" (Hester, D1: Arnold says liquor throws off the body; the room leaves cream out for the dairy veto and *Everybody's*); "one of the great pairings" (over-claims pdf 224); "made smaller" put words in Mancini's mouth; "goes flat within minutes" had no page; y1's "none of them holds up" said disproved where the sources say unknown. The lint caught a bare "Yours stop." (now "Your eyes stop.").
+- **The "this is me" line:** "Everyone else's eyes slide past. Your eyes stop."
+- **Names:** *Whoever Comes In* (all three). *One Waiting* (Hester) and *In Front of You* (Tomás) were both withdrawn by their owners in r4; also considered *Anything Suspended?*, *From the Clouds*, *Paid Ahead*.
+- **Crossing:** the closing line swapped in r4 (each took the other's); both ruled in r5 for the draft's *Make the syrup before you know who it's for.*
+- **Edges:** acid OUT by the citrus band only (no citrus; matched to Arnold's Boozy Shakerato); parsnip is in the celery family (no veto exists); Wren's risk for Robin: the cash-machine image reads gently as someone sleeping rough. Five rounds (Robin's new cap; the room opened under six and switched after round 1).
+- **Rule candidates:** none.
 
 ## The room
 
@@ -198,3 +206,51 @@ Your revised y4 needs two small fixes:
 - One flag, Wren: your epigraph ends "until someone walks in", so "comes in" and "walks in" sit one line apart. I'd end it "…The rest waits until someone's there." Your call.
 
 Once Hester clears the reading's audit, I'd put my name to the drink, the checks, the closing line, the image brief and the pick.
+
+### Round 5
+
+🍸 **Tomás:** Wren, we crossed, so here's my ruling. I hold the line in the draft, **yours**: *Make the syrup before you know who it's for.* Mine says the epigraph twice ("made days ahead… waits until someone walks in"), and y4 says it a third time. Yours carries only the position, it's a real step, and it collides with nothing. If you rule mine back in, my sign-off holds for that one too: both pass my checks. Just let's both stand on the one the draft holds.
+
+Step 5 carries no foam claim. It reads "Strain into the cold glass and drink it at once: the texture doesn't last." Hester, I've also put your y4 fix into step 3. It now says "Never before: it loses its texture fast." instead of "goes flat within minutes". That's a wording fix only: no "minutes" claim is left in the drink. The foam head stays only in the image brief, as a picture, which you've cleared.
+
+Wren, y4 still has "a drop of salt water" (the spec has two) and "the flavour books" (it's one book, pdf 224).
+
+Re-run on the spec: 15.0% ABV, 5.83 g sugar/100 ml, 0.29% acid, veto-free. Nothing in the drink has changed. The name is *Whoever Comes In*.
+
+I'd put my name to this: the drink, the four checks, the method, the closing line as the draft holds it, the image brief and the name, in `work/regular-guy-caregiver/mixologist-draft.md` (v3). This assumes y4 takes Hester's last fixes as written.
+
+🪞 **Wren:** Hester, I've applied all your fixes in `psychologist-reading-v1.md`, as you wrote them, with one exception.
+- **Applied as written:**
+  - R2 (y1): "Nobody knows how old it is, or how it began; the stories don't agree."
+  - R3: "at the bar".
+  - R5a: "One Italian scholar … the gentle part".
+  - R5b: "so the difference between the two of them never has to be said out loud". That's your wording, and it fixes the quote marks I'd put round words Mancini never wrote.
+  - R6: "loses its texture fast", and "two drops of salt water".
+  - R8: "Coffee is listed among parsnip's best pairings in the flavour book I trust most: think of carrot cake with a strong coffee."
+- **R7, my one exception:** it now reads "It starts from the Italian *shakerato*, espresso shaken with ice and lightly sweetened; I've added the brandy." I kept "lightly sweetened" because "and a little sugar" is a 4-gram already in *explorer-lover*, and the meaning is the same. Tell me if you see it differently.
+
+Host, the lint fixes:
+- The bare "Yours stop." is now "Your eyes stop." The line still lands.
+- The "he" in y2 is now "the scholar".
+- whoYouAre is down from 197 to 167 words. I cut the third-one-that-morning repeat and kept everything the ending pays off ("follow you home").
+
+My own 4-gram run against every pour is clean. It caught "don't see is the" from *Down the Line*, now "What people miss is the cost."
+
+Tomás, I'm taking your epigraph flag. It now ends "…The rest waits until someone's there." That's 14 words, and "comes in" now belongs to the name alone.
+
+On the closing line that crossed: I rule to keep what's in your draft, *Make the syrup before you know who it's for.* Your reason convinced me. Your line repeated the two halves that the epigraph and y4 already give, and mine carries only the position. To keep the ending from being spent early, y4 no longer says "before anyone knows who it's for". It now says "as a nod to the coffee paid for someone who hasn't come in yet".
+
+On this exact version (name *Whoever Comes In*, tagline "Most people learn not to look. You never did.", the epigraph above, the reading as it stands in the file, your drink, closing line and image brief) my resonance verdict is ready. I'd put my name to this.
+
+🕯️ **Host:** The assembled pour lints at 0 errors, 0 warnings. Hester, over to you on the fixed files.
+
+📜 **Hester:** Wren, Tomás, I've checked every fix in the files themselves, not in your reports, and they're all in. My final check is `historian-audit-v3.md`, where every open item from v2 is now closed.
+
+- **"Lightly sweetened" (R7) passes.** It means the same as Arnold's "a little sugar" on LI p. 353, and "I've added the brandy" owns that part as ours.
+- **The new y4 clause passes.** "As a nod to the coffee paid for someone who hasn't come in yet" matches the card. The coffee is paid in advance (NPR, *Euronews*) for "an unidentified future customer" (Mancini), whoever "entered later" (De Crescenzo). It also says in words why the syrup is in the glass.
+- **Tomás's two y4 catches are fixed.** The file has "two drops", and "the flavour book" is singular.
+- **The foam claim is gone from both files.** Step 5 says "drink it at once: the texture doesn't last". The foam head stays only as a picture in the image brief.
+- **The new epigraph and the closing line both hold against the method.** "…until someone's there" matches the espresso step, and "Make the syrup before you know who it's for" matches the syrup step.
+- **The anchors are clean.** I re-read them against the final text, and they claim nothing the reading dropped: no foam, no minutes, no era, no "great pairing".
+
+For *Whoever Comes In*, on this exact version: I'd put my name to this.

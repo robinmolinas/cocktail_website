@@ -146,3 +146,19 @@ There are two GitHub repositories involved in the project:
      git subtree split --prefix=Cocktail_Website_Agent/dionysus-experience -b dionysus-standalone
      git push dionysus dionysus-standalone:main
      ```
+
+---
+
+## 6. Project-Level Claude Code Skills
+
+Third-party skills are vendored under `.claude/skills/` so they are available in every checkout (local, Conductor, and Claude Code on the web/GitHub):
+
+| Skill(s) | Source | Update |
+|----------|--------|--------|
+| `impeccable` (+ `.claude/agents/impeccable-*`) | [pbakaus/impeccable](https://impeccable.style/) | `npx impeccable update` |
+| `bmad`, `bmad-*`, `bmod-*` | [BMAD Method](https://docs.bmad-method.org/) | `npx skills update -p` |
+| `frontend-design` | [anthropics/claude-code](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) | re-download `SKILL.md` |
+
+- The in-house DPS skills stay in `skills/dps-*`; `.claude/skills/dps-*` are relative symlinks to them so Claude Code discovers them too. Edit the originals under `skills/`.
+- First use: run `/impeccable init` (writes `PRODUCT.md`) and `/bmad setup` (creates `_bmad/`).
+- The Impeccable engine binary (`.claude/skills/impeccable/scripts/bin/`) is gitignored; the launcher downloads and checksum-verifies it on first run.

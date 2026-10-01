@@ -28,7 +28,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 **method**
 1. Ahead of time: peel and slice 250 g of parsnips and roast them at 200°C for about 35 minutes, until the edges are brown. Simmer them for 10 minutes with 250 g sugar and 250 ml water, let it cool, then strain, pressing on the parsnips. You'll have about 400 ml, enough for twenty-odd drinks. Keep it in the fridge.
 2. Chill the glass.
-3. When someone's actually there, pull one espresso. Never before: it goes flat within minutes.
+3. When someone's actually there, pull one espresso. Never before: it loses its texture fast.
 4. Put the brandy, the syrup and the salt in a shaker, then the espresso. Fill it with ice and shake hard for about 10 seconds.
 5. Strain into the cold glass and drink it at once: the texture doesn't last.
 
@@ -50,22 +50,22 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 ## Reading
 
 **epigraph**
-*Part of this drink is made days ahead. The rest waits until someone walks in.*
+*Part of this drink is made days ahead. The rest waits until someone's there.*
 
 **whoYouAre**
-There's a knack most people pick up from living among strangers: looking through someone. The person sitting by the cash machine with a paper cup, the one talking to nobody on the bus, the tourist turning the map round for the third time. Everyone else's eyes slide past. Yours stop. You say hello. You ask where they're trying to get to. It's nothing big, and it isn't meant to be. For a minute, someone who'd turned into part of the street is just a person in the queue again.
+Most people pick up a knack from living among strangers: looking through someone. The person sitting by the cash machine with a paper cup, the one talking to nobody on the bus, the tourist turning the map round for the third time. Everyone else's eyes slide past. Your eyes stop. You say hello. You ask where they're trying to get to. For a minute, someone who'd turned into part of the street is just a person in the queue again.
 
-What people don't see is that it costs you. You can't un-see, and some days the street is a lot. The ones you walk past, because you were late or tired or it was the third that morning, follow you home for longer than all the times you stopped. You'd hate to be called good. You're just more afraid of a street where everyone has stopped looking, where anyone could end up being stepped round, you included. Here's what it gives, and it deserves to be said. The people you stop for get to be someone, not a problem. And everyone watching learns that stopping is normal.
+What people miss is the cost. The ones you walk past, because you were late or tired, follow you home for longer than all the times you stopped. You'd hate to be called good. You're just more afraid of a street where everyone has stopped looking, where anyone could end up being stepped round, you included. Here's what it gives, and it deserves to be said: the people you stop for get to be someone, not a problem. And everyone watching learns that stopping is normal.
 
 **yours**
 
-1. Naples has an old custom called the *caffè sospeso*, the suspended coffee. Someone having a coffee at the bar pays for a second one before they leave, for someone who can't afford one. Nobody knows how old it is: the stories of how it began disagree, and none of them holds up. It doesn't belong to anyone in particular. It's just something people there do, one coffee at a time.
+1. Naples has an old custom called the *caffè sospeso*, the suspended coffee. Someone having a coffee at the bar pays for a second one before they leave, for someone who can't afford one. Nobody knows how old it is, or how it began; the stories don't agree. It doesn't belong to anyone in particular. It's just something people there do, one coffee at a time.
 
-2. Later, somebody comes in and asks at the counter: is there a suspended coffee? If there is, they're served like any other customer. One scholar of Naples reads that question as the clever part. Nobody has to say "would you pay for me?", so nobody is made smaller than anyone else. The coffee arrives, as he puts it, "from the clouds", not from somebody's hand.
+2. Later, somebody comes in and asks at the bar: is there a suspended coffee? If there is, they're served like any other customer. One Italian scholar reads that question as the gentle part. Nobody has to say "would you pay for a coffee for me?", so the difference between the two of them never has to be said out loud. The coffee arrives, as the scholar puts it, "from the clouds", not from somebody's hand.
 
 3. I like to think the people who keep it going see whoever walks in next the way you see a stranger: as someone, not a problem. And whoever pays never chooses who gets it. It's for whoever comes in. That's how your kindness works too. You don't sort people into the ones who've earned a hello and the ones who haven't.
 
-4. The cocktail I've made for you is built the way the custom works. Part of it is made days ahead, as a nod to the coffee paid before anyone knows who it's for: a syrup of roasted parsnips, sweet and a little earthy, with enough in the jar for twenty-odd drinks, waiting in the fridge for whoever's next. The rest is only made when someone's actually there, because espresso goes flat within minutes. One shot, pulled fresh, shaken hard with brandy, the syrup and a drop of salt water, poured into a cold coupe and drunk at once, while the texture lasts. It starts from the Italian bar's *shakerato*, espresso shaken with ice and lightly sweetened, here with brandy added and no cream. The flavour books pair coffee with roasted roots, and I can't taste this one without thinking of carrot cake and a strong coffee.
+4. The cocktail I've made for you is built the way the custom works. Part of it is made days ahead, as a nod to the coffee paid for someone who hasn't come in yet: a syrup of roasted parsnips, sweet and a little earthy, with enough in the jar for twenty-odd drinks, waiting in the fridge for whoever's next. The rest is only made when someone's actually there, because espresso loses its texture fast. One shot, pulled fresh, shaken hard with brandy, the syrup and two drops of salt water, poured into a cold coupe and drunk at once. It starts from the Italian *shakerato*, espresso shaken with ice and lightly sweetened; I've added the brandy. Coffee is listed among parsnip's best pairings in the flavour book I trust most: think of carrot cake with a strong coffee.
 
 5. You can't stop for every one. Nobody can, and the ones you miss will come back to you later. So leave something waiting for them: a coffee paid ahead at the place you go every morning, an hour given somewhere they'll come in after you've gone. Then, some morning when you're late and you hurry past, you'll know something's already there for them, and they won't follow you home.
 
@@ -90,45 +90,31 @@ What people don't see is that it costs you. You can't un-see, and some days the 
 **closingLine:** *Make the syrup before you know who it's for.*
 
 Wren's line, taken over mine. Mine ("Make more syrup than you'll drink. Pull the coffee only when someone's there.") said again what the epigraph already says ("made days ahead… waits until someone walks in"), and what y4 says a third time. Hers carries only the position, leave something waiting for the ones you'll miss, and it's still a real step: the jar is made days ahead. Checked: "who it's for" and "before you know" are in no closing line. *Off-Label*'s reading has "before you know what they'll be": a different 4-gram, so no lint hit.
-| Language | provisional |
+| Language | Wren's 4-gram runs against every pour (lint's own `ngrams()`): clean after fixes (*Their Night* "let me say plainly what you give", *Four Shares* "the next time you're", *Down the Line* "don't see is the", *explorer-lover* "and a little sugar" kept out as "lightly sweetened"). Bare "Yours stop." → "Your eyes stop." (Robin's rule); y2's "he" → "the scholar"; whoYouAre 197 → 167 words. Epigraph's "walks in" → "someone's there" so "comes in" belongs to the name (Tomás's flag). Never names the Espresso Martini; never "less fortunate", "never meet", gratitude or a first giver. ✓ |
 
 ### Fact audit
 
-Hester, 2026-10-01. Audits `psychologist-reading-v1.md` (title block, whoYouAre, y1–y5), the draft's closing line and image brief, against `fact-cards/caffe-sospeso.md` and the library pages (opened rounds 2–3). Carries v1's D1–D11. Every fix: ID, old → new.
+Hester, 2026-10-01. Checked on the files as they stand: `psychologist-reading-v1.md` (round-5 fixes) and `mixologist-draft.md` v3, plus the assembled `_host/provisional.md`. Supersedes v2's open items.
 
-#### Carried from v1 (drink)
-| ID | Status |
-|---|---|
-| D1 | **Still open, in two places.** Draft step 5 still says "The shake brings the espresso's foam back up"; the reading's y4 says "until its foam comes back up". Arnold: liquor "throws off the dilution and body" of a shakerato; his fix is cream (LI p. 354). See R6. |
-| D2 | Draft Structure now says "with a spirit in it, the way Arnold does it … minus the cream": passes for the dossier. The reading's version is R7. |
-| D3–D11 | Pass, as v1. |
+| ID | v2 item | Now reads | Verdict |
+|---|---|---|---|
+| D1 | foam claim (draft step 5; y4) | Step 5: "Strain into the cold glass and drink it at once: the texture doesn't last." y4: "poured into a cold coupe and drunk at once". No foam claim left in the text; the foam head stays only as a picture in the image brief. | **Closed** |
+| D2 | shakerato scope (draft) | "It starts from the Italian *caffè shakerato* (espresso shaken with ice and a little sugar, LI p. 353)". | **Closed** |
+| R2 | y1 origin overclaim | "Nobody knows how old it is, or how it began; the stories don't agree." | **Closed** |
+| R3 | y2 "at the counter" | "asks at the bar" | **Closed** |
+| R5a | y2 scholar | "One Italian scholar reads that question as the gentle part." | **Closed** |
+| R5b | y2 paraphrase and quote | "Nobody has to say "would you pay for a coffee for me?", so the difference between the two of them never has to be said out loud." Mancini's question, his point. | **Closed** |
+| R5c | y2 channel | "as the scholar puts it, "from the clouds"" (true: he wrote it; the card notes the Schwartz citation beside it). | **Pass** |
+| R6 | y4 minutes, drops, foam | "because espresso loses its texture fast"; "two drops of salt water"; no foam. Draft step 3 "Never before: it loses its texture fast." | **Closed** |
+| R7 | y4 shakerato | "It starts from the Italian *shakerato*, espresso shaken with ice and lightly sweetened; I've added the brandy." **"Lightly sweetened" passes**: same meaning as LI p. 353's "a little sugar", and the brandy is owned as ours. | **Closed** |
+| R8 | y4 pairing | "Coffee is listed among parsnip's best pairings in the flavour book I trust most: think of carrot cake with a strong coffee." (Matrix pdf 224, ROOT VEGETABLES, "Best Pairings: … coffee …"). One book, singular. | **Closed** |
+| N1 | new y4 clause "as a nod to the coffee paid for someone who hasn't come in yet" | Matches the card: paid in advance (S1, S3) for "an unidentified future customer" (S2), whoever "entered later" (De Crescenzo to NPR). Our clause, tied to the twist in words. | **Pass** |
+| N2 | new epigraph "Part of this drink is made days ahead. The rest waits until someone's there." | Matches the method (syrup made ahead, step 1; espresso only "When someone's actually there", step 3). | **Pass** |
+| N3 | closing line "Make the syrup before you know who it's for." | No fact claim; matches step 1. | **Pass** |
+| N4 | whoYouAre, tagline, y3, y5 | No facts; y3's interpretation signposted ("I like to think"). | **Pass** |
+| N5 | anchors (pour table, `historian-anchors.md`) | Re-read against the final text: nothing the reading dropped is claimed there (no foam, no minutes, no era, no "great pairing"). | **Pass** |
 
-#### Reading
-| ID | Line | Verdict | Source | Fix (old → new) |
-|---|---|---|---|---|
-| R1 | y1 "Naples has an old custom … pays for a second one before they leave, for someone who can't afford one." | **Pass.** | F1 (S1, S2, S3: "prima di andare via"); "old tradition" S2 | — |
-| R2 | y1 "the stories of how it began disagree, and none of them holds up." | **Fail (overclaim).** The origin stories are unproven, not disproved; nobody has shown them false. And "the sources" giving dates aren't origin stories. | C1, L1, L2 | "Nobody knows how old it is: the stories of how it began disagree, and none of them holds up." → "Nobody knows how old it is, or how it began; the stories don't agree." |
-| R3 | y2 "somebody comes in and asks at the counter" | **Fix (detail).** NPR has him at "the doorway"; Mancini only "in a bar". "At the counter" is a place no source gives. | F2 | "asks at the counter" → "asks at the bar" |
-| R4 | y2 "If there is, they're served like any other customer." | **Pass,** as our reading: Mancini calls the receiver "an unidentified future customer", and NPR's barista would "nod and serve him a cup". "Like any other" is the ordinary sense of both; not a claim of a rule. | F2, F3, F4 | — |
-| R5a | y2 "One scholar of Naples reads that question as the clever part." | **Fix.** Mancini is at the University of Perugia, writing about Naples; "of Naples" reads as from there. "Clever" is ours; his word is "gentle". | S2 | → "One Italian scholar reads that question as the gentle part." |
-| R5b | y2 "Nobody has to say "would you pay for me?", so nobody is made smaller than anyone else." | **Fix (two things).** The quotation marks hold a phrase Mancini didn't write: his is "Would you pay for a coffee for me?". And "made smaller" moves his point (the direct ask would stress "possible economic differences between the two persons") from the money gap to someone's worth. Close, but it puts a hurt on the receiver he never names. | F6 (S2) | → "Nobody has to say 'would you pay for a coffee for me?', so the difference between the two of them never has to be said out loud." |
-| R5c | y2 "The coffee arrives, as he puts it, "from the clouds", not from somebody's hand." | **Pass, with a channel note.** On the page: "the coffee falls down 'from the clouds', not from the donor's hands", followed by a citation (Schwartz 1967). The inner quotes may be borrowed; "as he puts it" stays true because he wrote it. Preferred: "as he writes it". | F6 | optional: "as he puts it" → "as he writes" |
-| R6 | y4 "because espresso goes flat within minutes. One shot, pulled fresh, shaken hard … and a drop of salt water until its foam comes back up" | **Fail (three).** (a) "within minutes" is a span no page gives: "dies fairly quickly" (LI p. 352). (b) "a drop": the spec has 2 drops. (c) "until its foam comes back up" = D1. | LI pp. 352, 354; spec | "goes flat within minutes" → "loses its texture fast"; "a drop of salt water until its foam comes back up" → "two drops of salt water, and drunk at once" |
-| R7 | y4 "It's the Italian bar's *shakerato*, coffee shaken over ice to a froth, with brandy in it." | **Fail (scope).** The Italian drink is "Espresso shaken with ice and a little sugar" (LI p. 353), no brandy, and "to a froth" isn't on the page. As written, the brandy belongs to the Italian bar. | LI p. 353 | → "It starts from the Italian *shakerato*, espresso shaken with ice and a little sugar; I've added the brandy." |
-| R8 | y4 "Roasted roots and coffee are one of the great pairings: think carrot cake with a strong coffee." | **Fix.** The Matrix's exact words, for Wren: ROOT VEGETABLES (celery root, parsnip, salsify), "Best Pairings: Celery, cauliflower, bourbon, coffee, lemon, basil"; "most commonly roasted or boiled and puréed" (pdf 224). "One of the great pairings" generalises a list in one book; and carrots aren't in that group (carrot is listed only as a substitute). Carrot cake can stay as a taste image, signposted as one. | Matrix pdf 224 | → "Coffee is listed among parsnip's best pairings in the flavour book I trust most: think of carrot cake with a strong coffee." |
-| R9 | y4 "syrup of roasted parsnips, sweet and a little earthy … twenty-odd drinks" | **Pass.** "mild earthy, nutty" (pdf 224); 400 ml ÷ 15 ml ≈ 26 (Tomás). | Matrix pdf 224; spec | — |
-| R10 | y3, y5, whoYouAre, tagline | **Pass (no facts; y3's interpretation is signposted with "I like to think").** Note for the lint, not a fact: "whoever walks in next" (y3) and "whoever's next" (y4) use "next", which Tomás kept out of the closing line for *Next One's Mine*. | — | — |
-| R11 | Epigraph "Part of this drink is made days ahead. The rest waits until someone walks in." | **Pass** against the method (syrup ahead; espresso pulled when someone's there). | spec | — |
-
-#### Closing line, image brief, names
-| ID | Item | Verdict |
-|---|---|---|
-| X1 | Tomás's "Make more syrup than you'll drink. Pull the coffee only when someone's there." / Wren's "Make the syrup before you know who it's for." | Both pass on facts. |
-| X2 | Image brief: cup-sized cloud from Mancini's "from the clouds" | **Pass.** Dossier wording: "the coffee falls down 'from the clouds', not from the donor's hands" (Mancini, Global Informality Project; he cites Schwartz 1967 beside it). The brief's "Mancini's coffee that falls 'from the clouds'" is accurate. The foam head on the coupe is fine as a picture, but not as a claim (D1). |
-| X3 | Names | *Whoever Comes In* rests on F4 ("an unidentified future customer"; "entered later"). **I withdraw my *One Waiting*:** after A7, what waits in Naples is the payment, not a cup, so my own name says the thing Tomás's physics disproved. |
-
-#### Status
-Not yet: R2, R3, R5a, R5b, R6, R7, R8 in the reading, and D1 in the draft's step 5. All are wording fixes with the new text given; none changes the story or the drink.
+**Status: passes.** Every claim in the pour is sourced or signposted. I'd put my name to this.
 
 ### Resonance
 
@@ -138,7 +124,7 @@ Not yet: R2, R3, R5a, R5b, R6, R7, R8 in the reading, and D1 in the draft's step
 
 ### Sources
 
-provisional
+Studio fact card `_studio/fact-cards/caffe-sospeso.md`: S1 Sylvia Poggioli, NPR *The Salt*, 24 April 2013 (De Crescenzo on the record); S2 Paolo Mancini (University of Perugia), "Caffè sospeso (Italy)", Global Informality Project; S3 Luca Palamara, *Euronews* (Italian), 19 November 2020; S4 Snopes, "Suspended Coffee" (only for what it can't establish). Craft: *Liquid Intelligence* pp. 61, 137, 206, 352–354 (shakerato, Arnold's warning on liquor and cream, salt with coffee); *Cocktail Codex* pp. 38, 177; *Flavor Matrix* root vegetables, pdf 224 (coffee among the best pairings; the spark). Backup story: Sue Fedroff, *A Proper Drink* p. 152 (set aside). Audits: `work/regular-guy-caregiver/historian-audit-v1.md` (drink), `-v2.md` (reading), `-v3.md` (final). Room notes: `work/regular-guy-caregiver/`.
 
 ### Legends and inferences
 
@@ -170,7 +156,7 @@ provisional
 
 ### Names considered
 
-provisional
+**Whoever Comes In**, the room's pick (all three): the custom's own rule ("an unidentified future customer", whoever "entered later", F4) and this guest's answer to "who is my neighbour?". Also considered: *One Waiting* (Hester's, withdrawn: what waits in Naples is the payment, not a cup), *In Front of You* (Tomás's, withdrawn: contradicts y5, and in three pours already), *Anything Suspended?*, *From the Clouds* (near *Rosetta*'s cloud), *Suspended*, *Paid Ahead* (a ledger: *Next One's Mine*'s ground), *Like Anyone Else*, *Anything Waiting?*.
 
 - **Whoever Comes In** (Wren's; I back it, and I drop my *In Front of You*). It's the custom's own rule: a coffee left for "an unidentified future customer" (Mancini, A2). It's also this guest's answer to "who is my neighbour?". And it's what the method does, since the shot is pulled only when someone arrives. *In Front of You* named the guest's attention. This one names the stranger, which is the one true thing. **One flag for Wren:** the epigraph ends "until someone walks in", so the name and the epigraph say "comes in" and "walks in" one line apart. I'd end the epigraph "…The rest waits until someone's there." It's your call.
 - **One Waiting** (Hester's). Against: the drink's point is that no cup is kept waiting, only the syrup and the payment. "One waiting" reads as a cup set aside, and keeping a cup back is *Four Shares*'.
@@ -183,7 +169,7 @@ provisional
 Wren's title-block notes:
 
 **epigraph** (the cocktail; cold)
-*Part of this drink is made days ahead. The rest waits until someone walks in.*
+*Part of this drink is made days ahead. The rest waits until someone's there.*
 
 **tagline candidates** (the person)
 1. **Most people learn not to look. You never did.** (pick)
@@ -198,4 +184,9 @@ Wren's title-block notes:
 
 ### Open items
 
-- provisional
+- **Parsnip and celery family (Tomás, unsourced):** parsnip is in the carrot and celery family, like the caraway in *Not Only the Way*; celery isn't in our veto list. Robin's call.
+- **Acid OUT by band only:** 0.29% acid reads OUT against the sours' citrus band; there's no citrus. Justified in Checks against Arnold's Boozy Shakerato (0.29%) and Café Touba. Not flagged.
+- **Texture owned against the book:** Arnold says liquor in a shakerato "throws off the dilution and body" and adds cream; the room leaves cream out (dairy veto, *Everybody's*), so the method says drink it at once. The parsnip syrup's sugar (62 g/100 ml) is Tomás's estimate.
+- **One risk for Robin (Wren):** the cash-machine image in whoYouAre reads gently as someone sleeping rough, without naming it.
+- **Fenced by Hester:** no date or era (sources conflict: about a century before 2013 vs the end of WWII); two origin legends kept out; NPR-only details (the log, the fading and return, Sapina, Bulgaria) not used. The sources say "coffee"; the espresso is our build.
+- **Dossier note:** the reading's Resonance section is Wren's v1 self-test ("nearly ready", quoting the pre-lint "Yours stop."); her final verdict, *ready*, on the fixed version, is in rounds 4–5 of the room record.

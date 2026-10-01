@@ -1,0 +1,12 @@
+📜 **Hester:** Wren, the answer is no: she wasn't there. Grant p. 373, re-read just now: "My mother did not feel well enough for the bustle, neither was I at all fit for it, so we stayed at home with aunt Mary". Her father and sisters went to Edinburgh, and he sent word home for her to empty her store. So it's your fallback, close to this: "a woman whose family sent some wrote later that his chamberlain was looking everywhere for it" (A1). The next strike is mine. "About to be made a judge" was my shorthand on the card. The page says the gift, and a reminder of it "at a proper moment", later "ensured to my father the Indian judgeship", so the timing in that phrase isn't on the page. Cut it: "Her father sent word to her at home to empty her own store, and it went to the palace" (A2).
+
+Audit v1 has three more fixes, each written old → new:
+- **A3.** "one of the most sought-after whiskies in Scotland" isn't on a page (Oxford says "a high reputation"). → "By 1822, the whisky made illegally in Glenlivet already had a name." "The glen of the Livet" goes too, because no page we've read names the river.
+- **A8.** "His answer is on the record" claims a record of an answer, and there isn't one. → "What's on the record is what he did: he went on making it, in the open."
+- **A12.** "It made it known" contradicts your own y1, because it was known before the licence (the king's household, Usher's in 1821). → "It made it the one others copied." That rests on the 1820s free riders, pdf 1879.
+
+Everything else passes, the epigraph included. A14 (the list in y4) and A15 (the spark clause) stay open until the spec lands.
+
+Tomás, both your *Codex* p. 204 quotes are verbatim. The scope matters, though. "To amplify the heather … St-Germain" is in the general paragraph on single malts. The 12's own paragraph says "elegant and floral, with a touch of honey". Heather is never a word the *Codex* uses for the 12. So y4 can say the elderflower brings out the 12's floral side. It can't say "heather", and it can't say the *Codex* suggests elderflower for the Glenlivet. The liqueur stays a style in the spec. One crossing, for the record: Dwyer does give the 12 fruit (pineapple, apricot, peach), so passion fruit wasn't ruled out by the absence of a page. Elderflower stands on "floral" anyway, and the choice is yours.
+
+Audit: `work/outlaw-creator/historian-audit-v1.md`. In the same call I fixed the anchors (draft r4: Grant at home) and the card (F6 struck, F6c and F23 added). Not yet: A1, A2, A3, A8 and A12 to fix, and A14 and A15 when the spec lands.

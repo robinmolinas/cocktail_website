@@ -18,7 +18,7 @@ Spec: `_studio/specs/regular-guy-caregiver.json`. Story ruled by Wren (round 1):
 
 1. Ahead of time: peel and slice 250 g of parsnips and roast them at 200°C for about 35 minutes, until the edges are brown. Simmer them for 10 minutes with 250 g sugar and 250 ml water, let it cool, then strain, pressing on the parsnips. You'll have about 400 ml, enough for twenty-odd drinks. Keep it in the fridge.
 2. Chill the glass.
-3. When someone's actually there, pull one espresso. Never before: it goes flat within minutes.
+3. When someone's actually there, pull one espresso. Never before: it loses its texture fast.
 4. Put the brandy, the syrup and the salt in a shaker, then the espresso. Fill it with ice and shake hard for about 10 seconds.
 5. Strain into the cold glass and drink it at once: the texture doesn't last.
 

@@ -1,0 +1,30 @@
+# Anchors: regular-guy-creator (The Hidden Talent), round 2
+
+Hester, 2026-10-01. Story: Tom Nichol, from the grain plant to Tanqueray (Wren's ruling, round 1). Facts from `fact-cards/tom-nichol-tanqueray.md` (F/C numbers below). Every page was read on screen this round. The pour table comes first, in the assembler's shape; the numbered dossier rows follow. Drink anchors wait for Tomás's spec.
+
+| kind | fact | meaning | speaksTo |
+| --- | --- | --- | --- |
+| lineage | Born in 1955 in Tullibody, Scotland, near the Cambus distillery where his father worked; he started there at 17, in 1973 (Oxford Companion, NICHOL, pdf 1388). In his telling, you got a job there if your father or uncle already had one (*Difford's Guide*, 2015). | The gift grew inside the people he came from. It was never a way out. | Belonging |
+| place | When Cambus closed in 1993 he went to Cameronbridge in Fife, making liquid carbon dioxide, then grain whisky and neutral grain spirit from 1996 (Oxford pdf 1388). His own words on that spirit: hardly appreciated, because it "tastes of nothing and smells of nothing" (*The Spirits Business*, 2013). | Years making the part of the drink nobody notices. Talent in a place you'd never expect to find it. | appearances can sometimes be deceptive; fear of Exclusion |
+| reveal | In 2005 he joined the team making gin and vodka at Cameronbridge, and within a year he was Tanqueray's master distiller (Oxford pdf 1388). Tanqueray has been made in Scotland since 1998 (Oxford pdf 1986), at Cameronbridge (*Difford's Guide*; the Gin Guild). | The gift came out where he already stood. He didn't have to leave to be found. | Innovation; Creativity |
+| gift | He's credited with developing the Rangpur (2007), producing the Old Tom (2014) and the Bloomsbury (2015), and with maintaining the London Dry (Oxford pdf 1388). After he retired, two gins he made for others came out in 2015 "to considerable acclaim" (same page). | The talent was real, and it was his. | Creativity; Imagination |
+| motive | Oxford calls him a "passionate, even irascible" advocate of the idea that big distilleries don't automatically make worse spirit (pdf 1388). | He stood up for the place everyone looked down on, and for the people who worked there. | Respect; Fairness; fear of Exclusion |
+| belonging | He called the master distiller's job "a testament to my father" (*The Spirits Business*, 2013). He lived some forty years in Alloa, a couple of miles from where he was born (*Difford's Guide*, 2015). | He kept both: the gift, and the people he came from. | Belonging; Altruism |
+| moment | In May 2015, as he retired, the Gin Guild gave him its Lifetime Achievement Award. He said it was "completely unexpected" and that his father would have been proud (the Gin Guild). | The moment the room sees it, and he thinks first of home. | Belonging; fear of Exclusion |
+
+## Dossier rows (numbered, with card refs)
+| # | kind | fact (sourced) | meaning (interpretive, ours) | speaksTo | card |
+|---|---|---|---|---|---|
+| A1 | lineage | Born 1955, Tullibody, near Cambus where his father worked; joined 1973 at 17; supervisor by 1979. Jobs ran in families (his account, DG15). | Gift inside his people, never a way out. | Belonging | F1–F3 |
+| A2 | place | Cameronbridge from 1993: liquid CO2, then grain whisky and neutral grain spirit from 1996. His words: "not very appreciated", "tastes of nothing and smells of nothing" (SB13). | The unnoticed part. Talent where you'd never look. | essence; fear Exclusion | F4, F5 |
+| A3 | reveal | 2005 white-spirits team at Cameronbridge; master distiller within a year (April 2006, BN). Tanqueray in Scotland from 1998 (OX-T), at Cameronbridge (DGP, GG, his own "two stills for Tanqueray", SB13). | Found where he already stood. | Innovation; Creativity | F6–F8 |
+| A4 | gift | Credited with Rangpur 2007, Old Tom 2014, Bloomsbury 2015, maintaining London Dry and No. Ten; two gins late 2015 "to considerable acclaim". | Real and his. **Never No. Ten as his creation (C1). No Malacca year (C2).** | Creativity | F9–F11 |
+| A5 | motive | "passionate, even irascible advocate" that large-scale ≠ compromised quality. | Defends the place looked down on. **Keep "irascible".** | Respect; Fairness | F12 |
+| A6 | belonging | "a testament to my father" (SB13); ~40 years in Alloa, a couple of miles from Tullibody (DG15). | He kept both. | Belonging | F13, F14 |
+| A7 | moment | Gin Guild Lifetime Achievement Award, 28 May 2015; "completely unexpected", "only the second person", "My father would have been very proud of me." | Seen, and thinks of home. | Belonging | F16 |
+| A8 | method (optional) | He noses the spirit all through a distillation; doesn't taste his gins until a new product (his words, DG15). | A gift nobody could watch him use. Not a looking motif (*Whoever Comes In* owns eyes). | Creativity | F15 |
+| A9 | bottle (for Tomás) | Tanqueray London Dry "purportedly" four botanicals: juniper, coriander, angelica, liquorice (OX-T pdf 1986). | Few parts, little to hide behind. Our reading; keep "said to". | Simplicity | F17 |
+
+**Out or fenced:** No. Ten as his (C1); any Malacca year (C2); "nobody believed in him" or anyone doubting him (C3, not on any page); "unchanged since 1830" (C4); "his spirit went into the Tanqueray" (C5, inference; one maker isn't the maker); "nepotism" in guest text; "genius", "promoted" or "made good" as the point; the grain plant as somewhere he escaped; "he kept it quiet" (he wore his "heart on my sleeve", BN). Winter savory is Charles Waugh Tanqueray's c. 1880 recipe, not Nichol's idea (F10).
+
+**Counterweights Wren should weigh:** he didn't want the trade at 17 ("dragged in … screaming and shouting", SB13); his 2013 dismissal of craft distillers, two years before taking a stake in one (SB13, DG15). Both are on the record; neither breaks the story, but the first means the gift wasn't a hidden dream: it grew in the job.

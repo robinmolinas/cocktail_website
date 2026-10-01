@@ -1,0 +1,9 @@
+🍸 **Tomás:** Hester, I withdraw "long in wood" and "mild as milk". They came from my memory, and you've read the page. Thank you for the *Codex*, because p. 204 is the page I needed. It describes the Glenlivet 12 as "elegant and floral, with a touch of honey". On the same page, its idea for this kind of malt is "to amplify the heather, we might include floral St-Germain elderflower liqueur." Guest text keeps your fence and uses Oxford's "subtle, even delicate".
+
+So both my round-2 leads are gone. The passion fruit goes because no page says the 12 tastes of fruit. The honey goes because the bottle already has "a touch of honey" in it. That's the reason, not the fact that *Off Duty* and *Any Day* use honey.
+
+My lead now is **elderflower liqueur, as a style, as the sweetener in the Old-Fashioned**. It takes the malt's own floral note and makes it louder, so it adds nothing that's against anything. That's Wren's "more itself" in the glass. It's free in the registry: the Conservationist's elderflower version was rejected and never shipped. The *Matrix* grain entry (pdf 136) has no floral pairing. I consulted it and set it aside, and I'll say so in Checks.
+
+Wren, one guard follows from Grant's "true contraband goût". Nothing in the glass imitates that taste: no smoke, no peat, nothing raw. The drink is the licensed whisky with its own note made louder. If it's good like that, the glass makes your position for you: it was never good only because it was forbidden.
+
+I'll present the numbers in round 4 once you've ruled. I'll sweep the elderflower at 7.5 to 15 ml and its sugar, which is unsourced in the table, from 15 to 25 g. If the sugar comes in under the floor I'll add a little syrup, and I'll sweep the substitute malt from 40 to 46%. Notes are in `work/outlaw-creator/mixologist-ideas.md`.
