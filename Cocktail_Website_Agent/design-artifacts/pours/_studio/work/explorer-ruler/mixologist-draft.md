@@ -1,4 +1,6 @@
-# Tomás: drink draft, explorer-ruler v1.1 (round 5 of 6)
+# Tomás: drink draft, explorer-ruler v1.2 (round 6 of 6)
+
+v1.2 (round 6): the drink doesn't move. The closing line is Wren's r6a wording, and the image brief carries Hester's r5 fences and her optional story elements.
 
 v1.1 (round 5): the drink doesn't move (spec v1, version text updated). Hester's T1-T3 applied: T1, the Codex's fizzy-syrup warning is on p. 46, not 47; T2, the bottle is "named for him and built on a recreation of the whisky his expedition left under its hut" (A24), never "made in memory of"; T3, "dried fruit counts as nuts" is now sourced to the table's own safe-side call and labelled mine. Closing line: Wren's ruled line, accepted. Name pick: *Far Enough*.
 
@@ -24,9 +26,9 @@ v1 (round 4): Wren ruled in round 3 that the plum Old-Fashioned walks, on three 
 3. Add one large ice cube and stir for about 30 seconds, until the outside of the glass feels cold.
 4. Twist the orange peel over the top so its oils fall on the drink, then drop it in.
 
-**closingLine:** *Drink the first sip to the top you turned round from. It was still the right place to turn.*
+**closingLine:** *Drink to the top you turned round from. It was still the right place to turn.*
 
-- **Ruled by Wren (r4), accepted by Tomás (r5).** Checked against the Method: nothing in it makes the syrup the gesture; the act is the toast, the position is "the right place to turn". It's the gain, not the y5 position again ("file it under failure" stays in y5). Grepped: no closing line in the registry has "first sip", "right place" or "turned round"; "first sip" appears only in other pours' Checks and readings, as a description of a drink's layering, never as a toast or a motif.
+- **Ruled by Wren (r6a), on Hester's cut; accepted by Tomás.** The r5 wording's "the first sip" belongs to *A Brother's Care* (sage-lover.md). My r5 grep listed that file and I misread it as Checks prose: my miss. Checked against the Method: the act is a toast, the position is "the right place to turn", and nothing makes the syrup the gesture.
 
 ## Checks
 
@@ -39,12 +41,13 @@ v1 (round 4): Wren ruled in round 3 that the plum Old-Fashioned walks, on three 
 | Makeable | **Kit:** a blender, a small pan, a fine sieve, a jigger or teaspoon, a bar spoon, a heavy tumbler, a large-cube ice tray. **Named bottle:** Shackleton blended malt, 40%, no age statement (*The Spirits Business* and scotchwhisky.com, April 2017, via Hester). *The Spirits Business* says the brand is "inspired by" him, with Paterson's re-creation as its "foundation" (Hester r4). So it's always "named for him and built on a recreation of the whisky his expedition left under its hut" (A24): never "made in memory of" (no page says it), never the hut whisky itself, never the 50,000-bottle replica, and no type or age for the original. Any claim that it's on sale today gets dated. **Substitute style:** a Highland blended malt Scotch, 40-43% (the sweep). The numbers and vetoes are proved for the named bottle at 40% and for the style's range. **Prep:** 20 minutes for about a week of syrup. |
 
 ## Image brief
-- **Glass:** a heavy, thick-bottomed double tumbler (about 300 ml) with one large clear cube (spec).
-- **Drink:** amber whisky with a slight reddish cast from the plum syrup. My estimate, unsourced; describe it, never claim it.
+- **Glass:** a heavy, thick-bottomed double old-fashioned tumbler (about 300 ml) with one large clear cube (spec).
+- **Drink:** amber whisky with a slight reddish cast from the plum syrup. That's my estimate from the bottles, unsourced, so describe it and never claim it.
 - **Garnish:** one large piece of orange peel, inside the glass against the cube (Method step 4).
-- **Optional story prop, set back:** two or three ripe fresh plums, one halved with its stone out. Fresh, not preserved, and nothing laid out as portions.
-- **Setting (persona imagery):** a desk with an aerial map or survey chart, grid lines, a brass compass or surveying tool, Pantone 282 navy in the shadows and the paper. Calm and ordered, lit from one side.
-- **Never:** the sea, a ship, ice floes, a flag on a pole or a summit, sledges, tents, plum pudding, a box of sweets, brand labels, any year, a second glass, or anything set out as shares.
+- **Props:** two or three ripe fresh plums, one halved with its stone out, set back from the glass. A plain brass compass with no logo or motto (Hester r5).
+- **Optional story elements, small and in the background (Hester r5, card):** one man-hauled sledge, a thin tent in drifting snow, a mound of stores, and at most four faceless figures.
+- **Setting (persona imagery):** a desk with a plain survey chart or grid lines (no route, no place names), Pantone 282 navy in the shadows and the paper. Calm and ordered, lit from one side.
+- **Never (Hester r5 and mine):** a flag of any kind, a ship, the sea, an ice floe, the hut, crates, boxed or preserved plums, plum pudding, a brand label, any year, latitude or distance, a likeness of Shackleton, a route-to-the-Pole map, a summit, a second glass, or anything set out as shares.
 
 ## y4 check (for Wren's v2)
 - Wren's v2 sentence ("An Old-Fashioned is built from things that keep… I've added one that doesn't. The plums at his depot were preserved ones, a boxed luxury; mine are fresh and blended into a rich syrup…") matches the Method: fresh, ripe plums, blended, made into a rich syrup that keeps about a week. "Preserved" is Hester's word. "Rich" is true (2 of sugar to 1 of fruit).
