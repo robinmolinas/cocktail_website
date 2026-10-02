@@ -828,42 +828,37 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   height: 7px;
   border-radius: 50%;
   border: 1px solid;
-  transition: background 0.4s, border-color 0.4s, opacity 0.4s, transform 0.25s ease, box-shadow 0.4s;
+  transition: background 0.4s, border-color 0.4s, opacity 0.4s;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/* clickable button wrapper for all progress dots across the experience (H3, H5, H6) */
-.depth-dot-btn,
-.grav-dot-btn {
+button.depth-dot,
+button.grav-dot {
   background: transparent;
-  border: none;
-  padding: 12px 8px;
-  margin: -12px -4px;
+  outline: none;
+  position: relative;
   cursor: default;
   pointer-events: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  outline: none;
   -webkit-tap-highlight-color: transparent;
 }
-.depth-dot-btn.is-clickable,
-.grav-dot-btn.is-clickable {
+
+button.depth-dot.is-clickable,
+button.grav-dot.is-clickable {
   cursor: pointer;
   pointer-events: auto;
 }
-.depth-dot-btn.is-clickable:hover .depth-dot,
-.grav-dot-btn.is-clickable:hover .grav-dot {
-  transform: scale(1.6);
-  filter: brightness(1.25);
-}
-.depth-dot-btn.is-current .depth-dot,
-.grav-dot-btn.is-current .grav-dot {
-  transform: scale(1.25);
-}
-.depth-dot-btn:focus-visible .depth-dot,
-.grav-dot-btn:focus-visible .grav-dot {
-  outline: 2px solid var(--c, #fbf4e8);
-  outline-offset: 3px;
+
+/* expand invisible click/tap target without altering the 7px visual dot or layout */
+button.depth-dot::after,
+button.grav-dot::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -8px;
+  right: -8px;
+  bottom: -10px;
 }
 
 /* ---------------------- the catch (H4 · the hidden self) ---------------------- */

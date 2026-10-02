@@ -434,35 +434,31 @@ function DepthDots({
         const isCurrent = i === index;
         const clickable = Boolean(onSelect && isClickable?.(i));
         const answered = hasAnswer ? hasAnswer(i) : i < index;
+        const style = {
+          background: answered ? seed : 'transparent',
+          borderColor: isCurrent ? seed : 'rgba(255, 235, 200, 0.3)',
+        };
 
-        const dotSpan = (
-          <span
-            className="depth-dot"
-            style={{
-              background: answered ? seed : 'transparent',
-              borderColor: isCurrent ? seed : answered ? seed : 'rgba(255, 235, 200, 0.3)',
-              boxShadow: isCurrent ? `0 0 8px 1px ${seed}` : undefined,
-            }}
-          />
-        );
-
-        if (!onSelect) {
-          return <span key={i}>{dotSpan}</span>;
+        if (clickable && onSelect) {
+          return (
+            <button
+              key={i}
+              type="button"
+              onClick={() => onSelect(i)}
+              className="depth-dot is-clickable"
+              aria-label={ariaLabel ? ariaLabel(i) : `Step ${i + 1} of ${count}`}
+              style={style}
+            />
+          );
         }
 
         return (
-          <button
+          <span
             key={i}
-            type="button"
-            onClick={() => onSelect(i)}
-            disabled={!clickable}
-            className={`depth-dot-btn ${clickable ? 'is-clickable' : ''} ${isCurrent ? 'is-current' : ''}`}
-            aria-label={ariaLabel ? ariaLabel(i) : `Step ${i + 1} of ${count}${answered ? ' (answered)' : ''}`}
+            className="depth-dot"
             aria-current={isCurrent ? 'step' : undefined}
-            style={{ '--c': seed } as CSSProperties}
-          >
-            {dotSpan}
-          </button>
+            style={style}
+          />
         );
       })}
     </div>
@@ -2250,28 +2246,32 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                 const hasAnswer = gravValues.current[g.key] !== undefined;
                 const isCurrent = i === gravRound;
                 const isClickable = !gravCommitted && !isCurrent && (i <= maxGravRound || hasAnswer);
-                const isFilled = hasAnswer || (isCurrent && gravCommitted);
+                const isFilled = i < gravRound || (i === gravRound && gravCommitted) || hasAnswer;
+                const style = {
+                  background: isFilled ? seedHex : 'transparent',
+                  borderColor: i === gravRound ? seedHex : 'rgba(255, 235, 200, 0.3)',
+                };
+
+                if (isClickable) {
+                  return (
+                    <button
+                      key={g.key}
+                      type="button"
+                      onClick={() => revertGravity(i)}
+                      className="grav-dot is-clickable"
+                      aria-label={`Question ${i + 1} of ${GRAVITIES.length}: ${g.left} or ${g.right}`}
+                      style={style}
+                    />
+                  );
+                }
 
                 return (
-                  <button
+                  <span
                     key={g.key}
-                    type="button"
-                    onClick={() => revertGravity(i)}
-                    disabled={!isClickable}
-                    className={`grav-dot-btn ${isClickable ? 'is-clickable' : ''} ${isCurrent ? 'is-current' : ''}`}
-                    aria-label={`Question ${i + 1} of ${GRAVITIES.length}: ${g.left} or ${g.right}${hasAnswer ? ' (answered)' : ''}`}
+                    className="grav-dot"
                     aria-current={isCurrent ? 'step' : undefined}
-                    style={{ '--c': seedHex } as CSSProperties}
-                  >
-                    <span
-                      className="grav-dot"
-                      style={{
-                        background: isFilled ? seedHex : 'transparent',
-                        borderColor: isCurrent ? seedHex : hasAnswer ? seedHex : 'rgba(255, 235, 200, 0.3)',
-                        boxShadow: isCurrent ? `0 0 8px 1px ${seedHex}` : undefined,
-                      }}
-                    />
-                  </button>
+                    style={style}
+                  />
                 );
               })}
             </div>
