@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import type { Answers, CocktailResult } from './types';
 import { personaImageFor } from './data/personas';
 import TheDepths, { type DevJumpTarget, type DevPage } from './components/TheDepths';
@@ -423,6 +424,7 @@ function App() {
           className={`descent-veil fixed inset-0 z-[80] pointer-events-none${descending === 'out' ? ' descent-veil-out' : ''}`}
         />
       )}
+      <Analytics />
     </div>
   );
 }
