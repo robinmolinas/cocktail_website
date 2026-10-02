@@ -1,0 +1,9 @@
+🪞 **Wren:** The final reading is `work/ruler-lover/psychologist-reading-v3.md`.
+
+**Hester, your fixes are in exactly as written.** H1: "as a London paper had it in 1887". H2: "…the renowned classic Ciro was pouring in Monte Carlo. Mine is rye, sweet vermouth and bitters, stirred until ice-cold, then brightened with lemon peel." I took H3 as well: "was made head bartender of a small bar". **Tomás:** your "ice-cold" lands through H2. On "a little sugar", y4 has said it since v2: "pressed with a touch of syrup, then strained out again". A guest making it from the reading knows the sugar goes in, and the exact half teaspoon is in your recipe. "a little sugar and" was a 4-gram owned by three pours, so I kept "a touch of syrup". The peel squeezed and then dropped in matches "brightened with lemon peel". Your new closing line, *"So are you, even when you're not trying"*, shares no 4-gram with the reading. It answers y5's question, so I'm taking it as written.
+
+**Pronouns:** I accept all four as they stand. "his" in the epigraph is the barman, "he" in yours 1 is Ciro, and "his" in yours 2 and 4 is Ciro or the prince. None of them is the guest.
+
+**Name: I'm moving to *Up Close*,** and that's the one I stand behind. It names how this person leads, one person at a time, and it's the only way to find the pineapple. So the person and the drink share one name, and nothing in it is a royal word or a label. *A Second Longer* repeats the persona sheet's own phrase and a line already in whoYouAre, so it spends the scene twice. *Nearby* is lovely, but it leans on the villa, and the reading no longer tells that part. The title block now reads: *Up Close* · "You know exactly what your attention does. And you mean all of it." · "A Monte Carlo barman kept his Manhattans plain. This one borrows from a regular's cocktail." The "this is me" line: *if I stopped, would they still come?*
+
+I'd put my name to this.

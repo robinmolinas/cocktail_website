@@ -1,0 +1,26 @@
+{
+ "pairing": "regular-guy-lover",
+ "personality": "The One Next Door",
+ "archetypes": "Regular Guy × Lover",
+ "date": "2026-10-01",
+ "batch": "regular-guy",
+ "name": "First Choice",
+ "tagline": "You're everyone's easy yes. Just once, you'd like to be someone's plan A.",
+ "epigraph": "Chicago's answer to New England's punch was made with New England rum.",
+ "glassware": "coupe, chilled",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "cohasset-punch-medford-rum.md",
+ "language_row": "Wren's 4-gram runs (the lint's own `ngrams()`) against every pour: clean in v3 (fixed among others \"the part I love\", \"the story goes that\", \"stirred with sweet vermouth\", \"stop performing\" (*Good as It Is*'s gift), and two collisions in Hester's X7/X9 wording, *hero-caregiver*'s \"wine flavoured with herbs\" and *creator-lover*'s \"leave it a few days in brandy\"). Kept off *Not Too Polite*'s \"polite\"/\"say it\", *Hoping You'd Come*'s \"ask\"/\"hope\", and \"brown bottle\" (the regular's dash, dossier only). \"plan\"/\"fallback\" kept out of the closing line (Wren r5). \"he\" only for Williams (lint warnings accepted by Wren). Nothing gendered about the guest; no partner needed. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/cohasset-punch-medford-rum.md` (F1–F11, C1–C4): *Oxford Companion to Spirits and Cocktails*, COHASSET PUNCH (pdf 549–550, Wondrich), RUM, MEDFORD (pdf 1699–1700, Curtis), RUM (pdf 1690), SANTA CRUZ RUM (pdf 1732), VERMOUTH (pdf 2091–2096), CARAMEL COLORING (pdf 410); Paul E. Lowe, *Drinks: How to Mix and How to Serve* (New England rum in the Cohasset Punch); *Chicago Tribune*, 31 Aug 1934; Eric Felten, *WSJ*, 2008 (via the Chicago Bar Project). Craft: Dave Arnold, *Liquid Intelligence* p. 209 (the Schokozitrone); *The Flavor Matrix* pdf 236. Audits: `work/regular-guy-lover/historian-audit-v1.md`, `-v2.md`. Room notes: `work/regular-guy-lover/`.",
+ "names_note": "**First Choice**, the room's pick (all three, r5): the plainest word for this person's want, and the regulars' verdict on the bar's punch over the bottle. *Sent For* was Tomás's pick in r3–r4, withdrawn in r5: for this guest being sent for is the wound (the \"free tonight?\" text, Wren), and it rests on the keg, only Oxford's version of the origin (Hester). Also considered: *Called For* (Tomás's runner-up), *Not Second* (too sharp), *The Real Thing* (a soft-drink slogan).",
+ "open_items": [
+  "**The origin has rival versions (C1):** Oxford's keg wired from Chicago (citing a 1902 trade paper Hester hasn't read), against the 1934 *Tribune* (Williams mixed it at Crane's) and Felten 2008 (a Chicago bartender brought to Cohasset). The reading frames it in every paragraph that uses it (\"the story goes\", \"in the story\", \"In that story\"); no first name for Williams.",
+  "**Newman's motive for the rum and the guests' recognition of it are not on record (L1, L2):** the mirror rests on the rum's provenance (Oxford pdf 549, 1699; Lowe), never on intent; any recognition is signposted as Wren's reading.",
+  "**No spark, on purpose:** soy sauce (a Flavor Matrix surprise pairing, pdf 236) was drafted and dropped in r4: its gluten flag would turn a guest away at the veto, against this person's fear of exclusion, and beside the regular's \"brown bottle\" it would read as a wink (Wren). Lemongrass dropped for having no clause the guest would feel. What makes it theirs is the peach soaked the regulars' way, against the half peach the printed recipe usually became.",
+  "**Balance, freeform:** 17.5% / 7.30 g / 0.693%: a vermouth-sweetened sour stirred on purpose, OUT as `stirred` and just under `shaken` acid; judged against Arnold's stirred Schokozitrone (19.2 / 7.4 / 0.70, *LI* p. 209). The spoonful of syrup in the peach jar and the full minute's stir are ours (riff row).",
+  "**The brown-bottle dash** (one regular's memory, Oxford pdf 549) is dossier only, cut for the history share; the demolition and \"after Repeal\" as a story stay out.",
+  "**History share:** 46% (191 of 411 words, Wren)."
+ ]
+}

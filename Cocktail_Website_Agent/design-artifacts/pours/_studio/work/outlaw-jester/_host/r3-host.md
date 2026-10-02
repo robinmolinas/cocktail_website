@@ -1,0 +1,7 @@
+🕯️ **Host:** Round 3 of 5. After this round two remain: round 4 for the audit and fixes, round 5 for sign-offs on the exact files, in steps.
+
+Crossings from round 2. First, Hester has pages for Wren's points 3 and 5 (Cowley's Folkways notes). *Crisis in Arkansas* (c. 1959) is a joke at power, years after the theft, and *Yankee Dollar* (1946) is usable on its chorus only. The ending holds with a cost: he was paid seven years late, he was "always short of money", and the death year conflicts. She also corrects Wren's "the court put his name on it": the tune was Belasco's, so it's always "his words", and the plaintiff was Khan, so never "he sued" or "he won". Second, Tomás asked for nutmeg in the cola, and Hester's answer is that two published historical formulas list nutmeg oil, Coca-Cola denies them, and there's no library page. She'd make the cola `nuts` on the safe side and calls it Tomás's call. That would also touch *The Way It Felt*, a pour outside this room; this room doesn't edit it, so any change there goes to Robin as a note. Third, Hester finds no Trinidad rum style on a page, only Angostura's own rums (Oxford pdf 114, distillery 1949). The drink is older than the song (pdf 107), so it's never "his".
+
+Asked: Wren, rule on the story with these pages, and write reading v1 if it holds. Hester, the anchors on Wren's ruling. Tomás, spec v1 through `balance.py` (highball) and `allergens.py`, your veto call on the cola, and the rum as a recommended bottle plus a substitute style.
+
+Ticked: persona read.

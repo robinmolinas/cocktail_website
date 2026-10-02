@@ -1,0 +1,25 @@
+{
+ "pairing": "regular-guy-outlaw",
+ "personality": "The Scoundrel",
+ "archetypes": "Regular Guy × Outlaw",
+ "date": "2026-10-01",
+ "batch": "regular-guy",
+ "name": "Just This Once",
+ "tagline": "You don't get away with things. You get let off. That's better.",
+ "epigraph": "The man sent to sell the gin in this glass said he never sold a bottle.",
+ "glassware": "large wine glass (about 500 ml), filled with ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "simon-ford-plymouth.md",
+ "language_row": "Wren's 4-gram runs (the lint's own `ngrams()`) against every pour: clean in v2. Kept out: \"line\", \"plain sight\", \"only if\", \"invitation\", \"ignored\", \"chosen\" (siblings' words); no war, Prohibition, Jazz Age, \"confidence man\", parties, LAB or the 86 Company; never \"Ford saved Plymouth\". whoYouAre cut from 216 to 156 words. \"he/his\" only for Ford and Blacknell (lint warnings accepted by Wren, confirmed by Hester). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/simon-ford-plymouth.md`: *Oxford Companion to Spirits and Cocktails*, FORD, SIMON (pdf 828), FRENCH 75 (pdf 850–851), PLYMOUTH GIN (pdf 1538, 1541), PINK GIN (pdf 1520); Robert Simonson, *A Proper Drink*, pp. 108–112. Craft: *Cocktail Codex* pp. 138, 142. Audits: `work/regular-guy-outlaw/historian-audit-v1.md`, `-v2.md`. Room notes: `work/regular-guy-outlaw/`.",
+ "names_note": "**Just This Once**, the room's pick (Hester and Tomás in the r5 vote; Wren took it in r5 step 2): what the guest says at the rule, and what the person behind the desk says back. *Hard to Dislike* was Wren's working title and vote, kept as the alternative for Robin. Also proposed: *Worth the Ask*, *Any Chance?*. Struck: *Go On, Then* (*Go On* is the Caring Leader's name), *Let Off* (near miss with the Saviour's room).",
+ "open_items": [
+  "**Plymouth's 41.2% label ABV is unsourced** (no page we have gives today's label, and the web budget was spent). The recipe note covers it: a 44% gin takes 45 ml; the drink is swept at 40–44%.",
+  "**\"Let off\" is our word** (card C5): on the page it is \"Ford stayed\", \"I didn't really mind\", \"I got funding to do more\". That the dinners were public (press dinners) is our inference (C4); they're undated (C3), and no start year is given (C1).",
+  "**Ford is a living person:** every line about him is in the past tense. One web search (2026-10-01) showed no red flag; it's a search summary, not citable.",
+  "**The rule broken:** ice in Champagne, openly, in step 1. Oxford sides with it (the traditional French 75 is strained \"into a highball glass filled with cracked ice\"; the flute is Arnaud's, \"counter to the original recipe\", pdf 851). No Matrix spark: the ice is the one change. Balance: collins, 15.0% / 7.15 g / 0.95%, at the top of all three bands on purpose; in range through about 40 ml of melt.",
+  "**The plan's lead (Rowles) was replaced** by Wren in r1: he hides behind the union rule. Room chose Simon Ford."
+ ]
+}

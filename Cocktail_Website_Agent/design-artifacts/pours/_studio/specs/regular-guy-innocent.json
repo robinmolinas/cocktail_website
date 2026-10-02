@@ -1,0 +1,16 @@
+{
+ "pairing": "regular-guy-innocent",
+ "family": "daiquiri",
+ "subfamily": "the Caipirinha, built in the glass (Oxford CAIPIRINHA pdf 383-384: 'built simply in the glass'); muddled lime left in, cracked ice",
+ "style": "shaken",
+ "glass": "rocks glass (double old-fashioned, about 300 ml), filled with cracked ice",
+ "serves": 1,
+ "version": "v1 (Tomás, round 2; unchanged in round 4 except notes, Hester A3). No added spark: Matrix consulted and set aside (see _notes). Judged on Arnold's shaken (sours) ranges as the nearest style: a built drink on cracked ice dilutes about like a shaken one at first and keeps melting as it's drunk.",
+ "ingredients": [
+  {"key": "cachaca_unaged", "ml": 60},
+  {"key": "lime_juice", "ml": 20, "note": "modelled juice from 6 of 8 pieces of one medium lime, muddled (Codex p. 137 cut); extraction unsourced, swept 15-27.5 ml"},
+  {"key": "sugar", "g": 10, "note": "granulated white sugar, about 2 heaped teaspoons, muddled with the lime"}
+ ],
+ "garnish": [],
+ "_notes": "Built: muddle lime and sugar in the glass until the sugar has gone, fill with cracked ice, add cachaça, stir; lime stays in. Granulated sugar, not syrup: it grinds the oil from the lime skin (Joy pdf 151, 173; Codex p. 137 says the same of a cube). No shaker: our reading of Wondrich's 'built simply in the glass' (pdf 384); the page says the egg-white-and-gin versions needed a shaker (pdf 383) (Hester A3). Sweeps in work/regular-guy-innocent/mixologist-sweep.py."
+}

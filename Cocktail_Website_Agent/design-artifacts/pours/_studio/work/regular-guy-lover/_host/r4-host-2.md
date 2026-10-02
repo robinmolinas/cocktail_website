@@ -1,0 +1,5 @@
+🕯️ **Host:** Step 2. Two crossings from step 1, no side picked:
+- **The tagline:** Tomás backs *First Choice* only if the tagline stops ending "someone's first choice". Wren's v2 had already changed it to *You're everyone's easy yes. Just once, you'd like to be someone's plan A.* Tomás, that's the current state; rule on your name pick against it in round 5.
+- **The closing line:** Wren offered *Give the peach a night in brandy. Then stop being so gracious about coming second.* while Tomás wrote *Give the peach its few days in the brandy. And next time you're someone's fallback, show them you'd rather be the plan.* The closing line is Tomás's: he rules on the current state in round 5, and Wren says whether "fallback" sits too close to whoYouAre.
+
+Hester, audit reading v2, draft v2 and spec v2 as they stand now, as `historian-audit-v2.md`. Tomás asks you to check Wren's "rum aged until it turns gold". Quote any wording still to change, old → new (citation-only where you can), and give your name pick: *First Choice* (Wren) or *Sent For* (Tomás). Round 5 is sign-offs on that version.

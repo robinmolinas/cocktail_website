@@ -1,0 +1,25 @@
+{
+ "pairing": "ruler-outlaw",
+ "personality": "The Revolutionary",
+ "archetypes": "Ruler × Outlaw",
+ "date": "2026-10-01",
+ "batch": "ruler",
+ "name": "Had to Be Serious",
+ "tagline": "You didn't just tear it down. You stayed to run it.",
+ "epigraph": "In one rebel drink, these bitters replaced the Pimm's. In this glass, they share it.",
+ "glassware": "Collins glass, filled with ice",
+ "contains": [
+  "nuts"
+ ],
+ "veto_free": false,
+ "reading": "psychologist-reading-v3.md",
+ "card": "toby-maloney-violet-hour.md",
+ "language_row": "Wren's checks on v3: epigraph 15 words; whoYouAre 146 words; yours 383 words, history about 47%; 4-grams clean against every pour; Tomás's closing line shares none with the reading. Every \"he\" or \"him\" in yours 1–3 is Maloney or another historical person (lint warnings accepted by Wren, r5). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/toby-maloney-violet-hour.md`. *A Proper Drink* (Simonson 2016), Chicago chapter incl. p. 92 and p. 282, reliable secondary with quotes on the record; Oxford Companion (Maloney's birth year, pdf 1853; PEYCHAUD'S BITTERS pdf 1502), primary. Web: one visit (Pimm's sugar, for the spec).",
+ "names_note": "*Had to Be Serious* (all three, round 5: Wren's pick, from Maloney's own \"we had to be serious\"; Tomás moved from *Saw It Through*), over *Taken Seriously* and *Here to Stay*. No crossing: picks held until round 5.",
+ "open_items": [
+  "**Peychaud's reclassified as nuts** in the shared ingredients table by Tomás (Oxford pdf 1502: 'nutmeg' notes; Robin's 2026-09-24 nutmeg rule). This pour carries `contains: [nuts]` and is not veto-free. The change also turns jester-caregiver, magician-caregiver, ruler-regular-guy and the approved magician-outlaw to nuts: Robin to confirm or reverse. If reversed, this pour is veto-free.",
+  "The drink changed in round 4: v1 put 75 ml Peychaud's where the Pimm's had been (the protégé's drink); v2 keeps the Pimm's Cup and adds 1 tsp Peychaud's, and the epigraph was rewritten to match (R7, R8).",
+  "One unsourced value: the muddled cucumber (counted as about 8 ml of juice)."
+ ]
+}

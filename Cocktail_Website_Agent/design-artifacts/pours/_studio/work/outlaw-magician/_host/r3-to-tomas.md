@@ -1,0 +1,30 @@
+Round 3 of 5 for outlaw-magician. Below are the host turn and the round-2 turns you haven't seen, pasted verbatim.
+
+🕯️ **Host:** Round 3 of 5. After this round two remain: round 4 for the audit and fixes, round 5 for sign-offs, in steps.
+
+Crossings from round 2:
+- **Point 2 is in doubt.** Hester finds that Spurrier "thought I had it rigged for the French wines to win" (*BusinessWeek* 2001), called it a publicity exercise, and announced the white result early, "desperately hoping the French would win". So Wren's point 2, "on purpose, by fair means", fails as written. Hester offers the variant the record supports: he set out to give the thing he loved its best chance, and it lost. She leaves the ruling to Wren.
+- **The ending past the page is gone.** The May 2026 flight rests on an Instagram post, and the 1988 award isn't on the archived page. The best "what grew back" left is de Villaine's "a kick in the rear for French wine" (CNN 2021). The Ballantyne recount is a counterweight, so it's "on the day's count".
+- **Gallagher's part.** The idea was hers, she found the wines, and she wasn't a judge.
+- **The drink.** Tomás's spark, Arnold's egg-white-washed Cognac and Cabernet, rested on "Bordeaux's own method". Hester finds only "the winemaker's playbook" in general (LI p. 266), so it survives at the family level only. Tomás flagged two costs himself: it's close to *Overnight*'s protein-wash shape, and it is `egg-white`. His fallback is a red Bordeaux cup served up.
+
+Asked: Wren, does Spurrier pass on Hester's variant, and does the person still hold with a story whose ending stops at de Villaine? If he passes, write reading v1. If not, say what a replacement needs. Rule on the drink direction too: the wash at the family level, or the fallback. Hester, the anchors on Wren's ruling. Tomás, a spec v1 on whichever direction Wren rules, through `balance.py` and `allergens.py`.
+
+Ticked: persona read.
+
+📜 **Hester:** Wren, your five asks are done, and one of them changes the story. Everything is in `_studio/fact-cards/steven-spurrier-judgment-of-paris.md`. The library has nothing on Spurrier, so every row below is a web secondary. I give the tier for each.
+
+**First, a strike of my own.** My plan guard said "never say he expected France to win". That guard is wrong. Wikipedia's source for the ban is Thane Peterson's article in *BusinessWeek*, 8 May 2001 (a secondary in established press). In it Spurrier says: "I thought I had it rigged for the French wines to win." The same page says that before the reds, "desperately hoping the French would win", he told the tasters a California white had won, instead of waiting until the end. Mitch Frank's *Wine Spectator* piece of 1 May 2026 (secondary, trade press) adds three things: it was "a publicity exercise for the school and shop", he "often said he wasn't trying to change the wine world", and he told the tasters it was California only until just before it began. **So your point 2 ("on purpose, by fair means") fails as written.** He didn't mean to break anything, and the fairness is open to question. The variant the record does support is this: he set out to give the thing he loved its best chance, and it lost. Whether that is still this person is your call, not mine. I'd rather you hear it now than in round 4.
+
+**Your five asks, with tiers:**
+- **The ban:** it is in *BusinessWeek* 2001 ("banned Spurrier from the nation's prestige wine-tasting tour for a year"). That is a single source, 25 years after the event, and it names neither the body nor the tour. At most it goes in as one clause with "reportedly". There is a better page for the blame. *Wine Spectator* 2026 says Odette Kahn, "who did rank Stag's Leap number one", asked for her scorecard back and "never spoke to Spurrier again". Gallagher's account in the *San Francisco Chronicle* (Mobley, 2018, secondary) is the sympathetic one: Kahn saw at once how the press would spin it.
+- **The 1988 award:** not verified. Wikipedia cites Jancis Robinson's 2006 piece, and the archived copy has no award line. It stays out. Wikipedia also says he left Paris for the UK in 1988 (NYT, not fetched).
+- **Patricia Gallagher:** her part is bigger than one clause, and different from what you wrote. The *Chronicle* (2018) says the idea was hers, "no one, least of all Spurrier, disputes this". She and Joanne DePuy found the wines. She tasted, but her scores weren't counted (Noble Grape 2026, and Wikipedia citing Taber 2005). So she was not a judge. Her own view: it was "educational", "in no way" a competition, and she was "mortified" when it became one.
+- **The May 2026 flight:** Wikipedia's only source is James Suckling's Instagram post about a private re-creation. That isn't a trusted page, so it stays out unless a press page reports it. That takes away your ending past the page. The best "what grew back" still on a fetched page is de Villaine's "a kick in the rear for French wine" (CNN 2021).
+- **A counterweight to carry openly:** Ballantyne MW (Noble Grape, a merchant's site, March 2026) re-ran the scores. Haut-Brion comes first on three of four ways of counting, and the whites were a near tie. So the reading says "on the day's count", never that California's win was settled.
+
+**Tomás:** no page I read says Bordeaux fines its reds with egg white. A search summary pointed at Château Margaux's own page, which now returns a 404, and I won't cite a summary. What the library does carry is wine in general. *Liquid Intelligence* p. 266 (pdf 270) says winemakers fine against astringency with protein agents, egg white among them, and Arnold "steal[s] from the winemaker's playbook". The same page has the counterweight: his wash uses "large amounts" to strip flavour, while wine producers want "more subtle effects". So "the winemaker's old trick" is sourced, but "Bordeaux's own method" isn't, and the glass can't call it the cellar's fining. Your idea survives at the family level only.
+
+Not yet: the story waits on Wren's ruling on point 2.
+
+Round 3 of 5. Your turn, or pass. Return ONLY the turn line.

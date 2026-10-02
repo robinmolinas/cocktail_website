@@ -1,0 +1,24 @@
+{
+ "pairing": "ruler-sage",
+ "personality": "The Judge",
+ "archetypes": "Ruler × Sage",
+ "date": "2026-10-01",
+ "batch": "ruler",
+ "name": "Either Way",
+ "tagline": "Even the people you've ruled against trust you. Especially them.",
+ "epigraph": "There's whisky in this glass that rival distillers once insisted wasn't whisky at all.",
+ "glassware": "old-fashioned glass (rocks glass, about 300 ml), filled with ice cubes",
+ "contains": [
+  "gluten"
+ ],
+ "veto_free": false,
+ "reading": "psychologist-reading-v3.md",
+ "card": "whisky-commission-1908.md",
+ "language_row": "Wren's checks on v3: title block, whoYouAre, yours and the closing line clean on 4-grams against every pour; lint 0 warnings; Tomás's closing line shares no 4-gram with the reading. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/whisky-commission-1908.md`. Oxford Companion: SCOTCH WHISKY / grain whisky (pdf 2149), ADULTERATION, and the 1908 Royal Commission entries (incl. pdf 317, 1697), primary; *Minutes of Evidence* as cited by Oxford. *Flavor Matrix*, Grain entry (pdf 136–137). Web: both visits spent in round 2 on Wren's labelling question.",
+ "names_note": "*Either Way* (all three, round 5: Hester's pick; Wren moved from *By Its Name*, Tomás from *No Favourites*), over *Heard Out* and *Same Answer*. No crossing: picks held until round 5. The phrase appears in the text of 11 pours but is free as a name.",
+ "open_items": [
+  "**Gluten edge:** the barley malt syrup puts the 1908 definition (malt in every whisky, whatever the still) in the glass, so the pour carries `contains: [gluten]` and isn't veto-free. Tomás reads Robin's 'no new vetoes' as no new veto categories (gluten is an existing one) and notes the Ruler family keeps seven veto-free pours. A proven veto-free fallback is in the draft's Checks (switch without a room), but its y4 hasn't been audited (Hester).",
+  "The saffron spark was dropped: no source for the thread test."
+ ]
+}

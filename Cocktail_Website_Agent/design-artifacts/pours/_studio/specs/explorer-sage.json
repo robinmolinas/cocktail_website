@@ -1,14 +1,54 @@
-{"pairing": "explorer-sage", "family": "daiquiri", "subfamily": "tiki: the Zombie as Jeff Berry printed it (Oxford ZOMBIE pdf 2229), every part named, Don's Mix written out as grapefruit and cinnamon syrup; shaken, not blended, and poured over crushed ice (as the Codex's modern Zombie Punch, p. 127)", "style": "shaken", "glass": "tall Zombie glass (about 590 ml), filled with crushed ice", "serves": 1,
- "version": "v0 (Tomás, round 3, 2026-10-01). Parts as Berry printed them; proportions mine: lime 22.5 -> 37.5, Don's Mix 15 -> 30 (20 grapefruit + 10 cinnamon syrup), falernum 15 -> 22.5, because his proportions shaken on paper run OUT on strength and acid (21%, 0.56%). Rums exactly his (45/45/30). Falernum made at home with no almond, nutmeg or ginger (veto-free). PENDING: Wren on the drink, its size and the grenadine; Hester on which Pernod.",
+{
+ "pairing": "explorer-sage",
+ "family": "daiquiri",
+ "subfamily": "tiki: the Zombie as Jeff Berry printed it (Oxford ZOMBIE pdf 2229), every part named, Don's Mix written out as grapefruit and cinnamon syrup; shaken, not blended, and poured over crushed ice (as the Codex's modern Zombie Punch, p. 127)",
+ "style": "shaken",
+ "glass": "tall Zombie glass (about 450-590 ml), filled with crushed ice",
+ "serves": 1,
+ "version": "v1 (Tomás, round 4, 2026-10-01). Wren r3: the drink walks; grenadine kept, one plain teaspoon. Size cut by a third at Wren's ask (v0 340 ml / 62.7 ml alcohol acted out the strength legend): Berry's three rums kept in his 3:3:2 balance (45/45/30 -> 30/30/20). Parts as Berry printed them, every one; proportions mine: against his rums, more lime (22.5 at 120 ml rum -> 27.5 at 80), more Don's Mix (15 -> 22.5: 15 grapefruit + 7.5 cinnamon syrup) and more falernum (15 -> 17.5). Falernum made at home, no almond, nutmeg or ginger (veto-free). Pernod per Hester r3 (C5): the anise liqueur, six drops, strength unsourced, never absinthe. Shaken on cubes, strained over crushed ice (as the Codex's own Zombie Punch, p. 127, a modern homage); never blended.",
  "ingredients": [
-  {"key": "rum_gold_puerto_rican", "ml": 45},
-  {"key": "rum_gold_jamaican", "ml": 45},
-  {"key": "rum_lemon_hart_151", "ml": 30},
-  {"key": "lime_juice", "ml": 37.5},
-  {"key": "grapefruit_juice", "ml": 20},
-  {"key": "cinnamon_syrup", "ml": 10},
-  {"key": "falernum_homemade", "ml": 22.5},
-  {"key": "grenadine", "ml": 5},
-  {"key": "angostura", "dashes": 1},
-  {"key": "pernod_anise", "drops": 6}],
- "garnish": ["mint_sprig"]}
+  {
+   "key": "rum_gold_puerto_rican",
+   "ml": 30
+  },
+  {
+   "key": "rum_gold_jamaican",
+   "ml": 30
+  },
+  {
+   "key": "rum_lemon_hart_151",
+   "ml": 20
+  },
+  {
+   "key": "lime_juice",
+   "ml": 27.5
+  },
+  {
+   "key": "grapefruit_juice",
+   "ml": 15
+  },
+  {
+   "key": "cinnamon_syrup",
+   "ml": 7.5
+  },
+  {
+   "key": "falernum_homemade",
+   "ml": 17.5
+  },
+  {
+   "key": "grenadine",
+   "ml": 5
+  },
+  {
+   "key": "angostura",
+   "dashes": 1
+  },
+  {
+   "key": "pernod_anise",
+   "drops": 6
+  }
+ ],
+ "garnish": [
+  "mint_sprig"
+ ]
+}

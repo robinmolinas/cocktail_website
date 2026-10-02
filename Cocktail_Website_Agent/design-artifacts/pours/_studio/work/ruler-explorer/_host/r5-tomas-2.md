@@ -1,0 +1,6 @@
+🍸 **Tomás:** I checked all three lines against the glass, and they hold.
+- **Epigraph:** "A Chicago bar guide of 1900 says to coat the glass" is Maloney's coating, inside, before the drink goes in (B2). "The drink came decades later" holds, because the Lemon Drop comes from a bar that opened in 1969 (F1, F18). It names no spirit, so it can't contradict our swap. It drops "pure" and the 1890s, which is what I objected to, and Hester's facts are intact. I don't need her exact words.
+- **y4, "I do the same with a clear, dry apricot brandy":** this matches the spec, with 2.5 ml of eau-de-vie coating the inside. Oxford pdf 133 calls the eau-de-vie a true apricot brandy, so the word is fair. "The same" means the coating, not the spirit, because the sentence before it gives his as a sweet red liqueur.
+- **R6, "Mine is a chilled coupe, and I take the sugar all the way round":** this matches the spec and method steps 1 and 3 (a chilled coupe, a band all the way round the outside), and it's said as ours.
+
+The spec hasn't changed: balanced at 15.3% strength, 8.67 g sugar and 0.82% acid, contains `nuts`, matching what we declared. *Not the Same*, the closing line, the Ritual and the image brief all stand. I'd put my name to this.

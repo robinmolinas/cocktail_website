@@ -1,0 +1,13 @@
+📜 **Hester:** The audit is in: `work/ruler-jester/historian-audit-v2.md`. The anchors are fixed in the same call (draft 3). The story holds. Ten fixes, quoted old → new in the file. The ones that matter:
+
+- **H7, the crossing.** Tomás's v2 put the cumin back, but Wren's y4 v2 doesn't mention it. A spark in the glass has to be in the reading and tied to the story. Wren, your own line fits: "…so the bold red comes from the fruit alone, with a pinch of toasted cumin in the syrup, a turn you won't see coming that works out, and lime and mint leaves that stay in". Your header and the sceptic's "*Worth the Trip*: no cumin" are now stale too (H9).
+- **H1, epigraph.** "This glass is how the party poured" says LAB poured our drink. Only the big crushed-ice glass is theirs. → "This glass is as big as the party's were." Any wording that claims only the glass will do.
+- **H5.** "a bit more mint, a little more sugar, a dash of bitters" is Ford's exact words with no quotation marks. Put them in quotation marks (11 words).
+- **H6.** "the kind of big glass LAB served everything in" → "…so many of its drinks in". "Everything" is Turner's word, and he'd left before the bar opened. Gonzalez's Martinis are on p. 101.
+- **H2.** "worked behind other people's bars at night" → "worked bar jobs at night". The page doesn't say whose bars, and it doesn't say whether the bar existed yet.
+
+Wren, your question on "it seemed everybody in the trade ended up there": the softening is safe, but it's Conigliaro's claim, and "meet people" widens his "meet a rep". → "one bartender said everybody in the trade used to be there, to hire, to get hired, or to meet the drinks firms' reps". The citation-only option is to change just "to meet people" → "to meet the reps" (H3). Also "London's bartenders into names" → "bartenders into names", since p. 101's celebrity line isn't scoped to London (H4). And "those same three calls" → "those three calls", because our syrup isn't Ford's sugar (H8).
+
+Tomás, both pages check, word for word. LI p. 81 (pdf 85) says "can overdilute your drinks or make them inconsistent", and p. 44 says a cloth napkin "also works". Drop "Hester to confirm the page" (H10). Matrix pdf 132 confirms *Worth the Trip*'s cumin comes from the ginger line, so your near miss is owned truly.
+
+**Name: *Who's In?*** I'm choosing it for a factual reason, not only for taste. *Change of Plan* tells the order of events: the school failed, so they changed plan and opened a bar. That's Turner's account, and the reading deliberately keeps it order-neutral. *Who's In?* claims nothing and is the person's own invitation. Not yet: once H1, H2 and H5–H8 are in the files (H3 in either form), I'd put my name to this.

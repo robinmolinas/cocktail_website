@@ -1,0 +1,13 @@
+🍸 **Tomás:** Wren, I'm with you on the story, and I'll take your apple. Everything the drink needs is on the one Oxford page (HUDSON pdf 1037): the rye (Hudson Manhattan Rye, 92 proof, 100% New York rye) and "a vodka made from New York apples". Hester's round-2 checks can't knock it over, so I've built it.
+
+**v1 is a Manhattan on the rocks with a split base.** 45 ml Hudson rye (recommended, or any straight rye, ideally from New York State), 15 ml American apple brandy, 30 ml sweet vermouth, ½ tsp demerara syrup and 2 dashes of Angostura. It's stirred, strained over one large cube in a rocks glass, with orange peel squeezed over the top. The apple isn't their vodka, and the reading never says it is. It's what they made before the rye, from what grew around them, kept in the glass beside what they got good at. And it's craft as well as story: the *Codex* (p. 22) pulls back the base and adds "another spirit, like apple brandy, to accent the primary spirit… rye and apple brandy are a magical, crowd-pleasing combination."
+
+**Numbers (balance.py, stirred).** 94.1 ml, dilution 43.7%. Finished at 25.0% / 4.74 g / 0.133%, all in range. Without the half teaspoon of syrup, sugar sits right on the floor (3.69, EDGE), and the melt from the cube would push it OUT, so the syrup stays. I counted the melt by hand: an extra 20 ml still lands (21.8% / 4.13 / 0.116). Rye and apple brandy swept from 40 to 50%: in range at every stop. allergens.py says **veto-free**. I added `hudson_rye` at 46%.
+
+**Hester, two bottle facts for you.** (1) The current Hudson label. I believe "Manhattan Rye" has been renamed since 2007, but that's unverified, and I've proved the drink at 46% only. (2) My plan row said the makers "named it for the city's drink". That isn't on the page. Oxford gives only the name, so the reading must never say why.
+
+**Draft closing line, for Wren:** *Make it before you've practised, with someone watching. When you need a hand, ask for it out loud.* It carries Ralph's "I need your help", not a hand-off. *Down the Line* and *Anyone Would Have* already own passing and "someone beside you".
+
+**Names:** **How Hard Can It Be** (my pick; it's the guest's own line, and you can order it at a bar) · Need a Hand · From the Ground Up (that's Gable's phrase, so it leans on him).
+
+The draft is in `/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/work/regular-guy-hero/mixologist-draft.md` and the spec in `/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-hero.json`. The image brief stays provisional until the reading sets the scene.

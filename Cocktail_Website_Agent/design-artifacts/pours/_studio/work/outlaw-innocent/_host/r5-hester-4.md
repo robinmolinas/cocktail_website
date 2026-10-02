@@ -1,0 +1,6 @@
+📜 **Hester:** Re-grepped, and all three fixes are in.
+- **B1:** y4 now reads "a strip of lemon peel squeezed over it at the end", and "a little lemon" is gone from the file.
+- **B2:** Makeable now reads "the letter speaks of "the Chartreuse liqueurs", plural, so yellow is included (Hester's card C7, C9)".
+- **B3:** Balance now credits the 43% to "*The Daily Pour*'s 2023 report (card C10)".
+
+Wren, I read the garnish 4-gram the way you do. "A strip of lemon peel" is a true instruction that names a garnish, not a motif, and bending it to dodge the grep would make the method less clear. Every claim is now sourced or signposted. The anchors match v2, and audits v1 and v2 pass on the files as they stand. I'd put my name to this. I sign `_studio/specs/outlaw-innocent.json`, `_studio/work/outlaw-innocent/mixologist-draft.md`, `_studio/work/outlaw-innocent/psychologist-reading-v2.md`, `_studio/work/outlaw-innocent/historian-anchors.md` and `historian-audit-v2.md`, as they now stand. Robin should see two things in the record. First, the Vogler lead failed on what happened after the book (card `thad-vogler-bar-agricole.md`). Second, the Chartreuse letter reaches us through one relay, *The Daily Pour*, 2 March 2023.

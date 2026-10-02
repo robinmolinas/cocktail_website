@@ -1,0 +1,26 @@
+{
+ "pairing": "regular-guy-magician",
+ "personality": "The Mechanic",
+ "archetypes": "Regular Guy × Magician",
+ "date": "2026-10-01",
+ "batch": "regular-guy",
+ "name": "Good for Years",
+ "tagline": "Everyone says get a new one. You've already got the back off.",
+ "epigraph": "No shaker, no strainer, no syrup. Just the last of a jar.",
+ "glassware": "small tumbler, one large cube",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "okolehao.md",
+ "language_row": "Wren's 4-gram runs (the lint's own `ngrams()`) against every pour: clean in v2 after fixes (among them \"the story goes that\" (*First Choice*, *Fair Measure*, *Worth the Trip*), \"of the great classics\" (*I'll Do It*), \"the next time you're\" (*Whoever Comes In*), and three tries on one hinge: *Just Knew*'s \"for years. You'd never\", *Four Shares*' \"here's the part you\", *hero-caregiver*'s \"the other half is\"). Closing line clear of the Connoisseur's \"put the … down\" and *jester-caregiver*'s \"pour it through the\". \"We\" kept out of the quoted shrug (lint). Never \"fugitive\", \"Australian\", \"gift from heaven\", \"Hawaiian moonshine\", \"magic hands\" or a pun on \"fix\"; \"bottom\" once. \"his\" only for Stevenson's still (lint warning accepted by Wren). whoYouAre cut from 214 to 165 words. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/okolehao.md` (F1–F13, C1–C5): *Oxford Companion to Spirits and Cocktails*, OKOLEHAO (pdf 1419–1421, Jeff Berry), MEZCALEROS (pdf 1287), MARMALADE AND JAM (pdf 1240); W. D. Alexander, *A Brief History of the Hawaiian People* (1891), pp. 87, 157 (archive.org); Matt Rowley on okolehao (2014, cited in Oxford's bibliography); *Aloha State Daily*, 24 Feb 2026 (secondary; Hawai'i's labelling bills). Craft: *Cocktail Codex* pp. 77, 165; *A Proper Drink* p. 274 (the Oaxaca Old-Fashioned, a near miss owned in Checks). Audits: `work/regular-guy-magician/historian-audit-v1.md`, `-v2.md`. Room notes: `work/regular-guy-magician/`.",
+ "names_note": "**Good for Years**, the room's pick (all three, r4): what this person says, half proud and half shrugging, as they hand back something taped up, and the mark they leave. *Not a New One* was Tomás's pick in r2–r3, conceded in r4: it repeats the \"this is me\" line word for word, so the label would spend the reading's best sentence first (Wren). Also considered: *Make Do* (can read as second-best), *Whatever's to Hand* (\"to hand\" is in five pours), *Iron Bottom* (out twice: it names okolehao on a drink that isn't, and Iron Bottom Spirits is a Kona company). Near misses owned: *For Good* (the Innovator), the Spiritualist tagline's \"for years\".",
+ "open_items": [
+  "**No okolehao in the glass, on purpose:** the one ti-root okolehao Tomás could price was $500.99 at a single US retailer, and a 2026 Hawai'i labelling fight says the name alone doesn't promise ti (*Aloha State Daily*, secondary; an attorney's estimate). Berry's bourbon/rye stand-in was ruled out: it reproduces the 1960s \"Kentucky bourbon infused with ti extract\" (pdf 1421). Joven mezcal carries the page's own bridge (ti \"a relative of the agave\", roasted underground the same way, pdf 1419); the drink is never called okolehao.",
+  "**The still's origin is hedged:** Stevenson \"is said to have been\" first even in 1891; \"two\", \"discarded\" and \"whaling\" are Oxford's words only, so the reading says \"pots off the ships\". The copying is chiefs', not ordinary people's, with no date; what lasted on the record is the name and the spirit, not the still. The name's reason is \"were said to\" (Rowley).",
+  "**Contested and kept out:** Oxford's ti \"beer\" (Alexander p. 87: Hawaiians used \"neither fermented nor distilled liquors\"); \"fugitive\"/\"Australian\"; the missionaries, the bans, the Kamehameha decanter; the bootleggers' cheap mash (Outlaw ground).",
+  "**The spark is the jar:** no Flavor Matrix pairing; the marmalade is the sugar and the bitter edge (*Codex* p. 77), and the jar on its last spoonfuls is the sugar, the shaker and the strainer. Balance: shaken-spirit, 24.3% / 5.26 g / 0.040%, in range; kept at the sweet end because the peel's bitterness doesn't register in `balance.py`; 10 ml of marmalade, or a reduced-sugar one, goes OUT.",
+  "**Hanalei's \"roasted over an open fire\"** is a search snippet, unread (D4).",
+  "**History share:** about a third of yours (Wren)."
+ ]
+}

@@ -1,0 +1,13 @@
+🪞 **Wren:** Reading v2 is in: `work/regular-guy-innocent/psychologist-reading-v2.md`. Hester, I've taken all your guards. Every change is in y4 or the epigraph, and whoYouAre, y1–y3 and y5 are untouched.
+- **y4, the law:** "with only the three things its law names" → "made with just three things, the same three its law names". The "only" is ours, never the law's, and there's no compliance claim.
+- **y4, the shaker (A3):** "the way that third way was made" → "which is how I picture that third way". That makes it a signposted reading.
+- **y4, the lime (A1):** "a whole lime" → "most of a lime", and "the whole lime, not only its juice" → "the skin as well as the juice".
+- **y4, the bitterness (A2):** now carried: "the lime keeps building to the end, with a little of the peel's bitterness if it's left to sit". I like it. For this guest an honest drink beats a sales pitch.
+- **y4, "better" (A5):** it doesn't appear in y4. The only "better" left is y3's "cold is simply better", inside "I like to think".
+- **Epigraph:** "what goes in a caipirinha" → *In Brazil, the law spells out what a caipirinha is. It's a short list.* (14 words). It's a definition now, not a rule anyone's glass follows. I kept the tease over your "three things" line, because yours gives the answer away before the reading does.
+
+I re-ran the 4-gram check against every pour after the edits, and it's clean. History is 46% of yours.
+
+**Tomás, the closing line is yours, but please hear me once.** *"…tell the table first"* is y5's position said again (y5: "Say what you loved"). We've learnt that when both carry it, one gets spent. "Tell" is also the most-used closing verb in the registry (*Instead*, *Anyway*). Two options. You keep the position, and I cut "Say what you loved, even if it was the bread" back to the dare's set-up. Or you keep the lime half and end on what the guest gains, for example *Leave the lime in to the end. It only gets better from there.* (Your call on "better": it's a taste claim about our own drink, not a book's.) Your line, your ruling, and I'll match y5 to it.
+
+**Names: I'm holding *Good as It Is*, with *That's Good* a close second.** *Good as It Is* is the only one that says both halves: the drink needs nothing added, and neither do you. That second half is the answer to this guest's fear of being "improved". *That's Good* is lovely, and it's their own voice with a full mouth. But it praises the drink, not the person, and on a menu it reads like a review. *This One*: Tomás is right, out loud it sounds like "which one?", and alone it's thin. If the room goes with *That's Good*, I'll put my name to it.

@@ -1,0 +1,12 @@
+🍸 **Tomás:** Wren, thanks for the third Margarita. I accept your condition, and I think Hester's card already has the way to meet it: F11, Bayly's account of Estes's rule for his staff, "Tight on bottom, loose on top." Do the job well and you can do it in your own style. That rule is the person you describe, a freedom with room in it for others, and I can build it into the glass as physics rather than as a postcard.
+
+**The tight bottom** is Pacifico's own bottles, Sauza Blanco and Giffard triple sec, made "to Estes' specifications" (*Proper* p. 79). His proportions aren't on record, so I've used the *Codex*'s classic Margarita (p. 166): 60 ml tequila, 22.5 orange liqueur, 22.5 lime, 7.5 simple syrup, shaken, served in a chilled cocktail glass with no salt. On `balance.py` (shaken sours) it comes out balanced. It goes in at 29.3% ABV, 9.42 g sugar per 100 ml and 1.20% acid, and finishes at 18.6%, 5.97 g and 0.76%, with 57.9% dilution. Both acid figures sit on the floor of their range, and I'll justify that in Checks. Without the syrup it fails on sugar (3.57 g against a 5.0 g floor). `allergens.py` finds nothing, so it's veto-free. v0 is in `_studio/specs/regular-guy-explorer.json`.
+
+**The loose top** is one finishing touch, chosen by whoever is making the drink. It changes the scent and the first sip, never the measured part underneath. I'll pick mine from the *Matrix* for round 3 and test it against every candidate so the bottom stays in range. It can't be salt, because choosing salt or none on the rim is already *Half a Rim*'s gesture. And it can't be the core: *Off-Label* hands the guest the spirit, while ours keeps the core fixed. The *Matrix* lists tequila as one of avocado's surprise pairings (pdf 40), but that's a postcard, so it's out.
+
+**Position.** The gesture can carry Hester's F18 ("be part of the community"). My draft closing line: *"Make the bottom exactly. Then let whoever's behind the bar finish it, and sit down."* It holds both of your options, and you pick which one leads.
+
+**Hester, three label questions before I name the bottles:**
+- Giffard triple sec's ABV and sugar. I'm using Cointreau's values for now, and I'll test across the range once I have them.
+- Whether today's Sauza Blanco/Silver is 100% agave or mixto, and in which market.
+- Whether F11 can carry a gesture when its only source is a eulogy. If it's shown as "his partner remembered", I'm happy with it.

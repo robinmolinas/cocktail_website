@@ -1,0 +1,27 @@
+{
+ "pairing": "ruler-regular-guy",
+ "personality": "The People's Representative",
+ "archetypes": "Ruler × Regular Guy",
+ "date": "2026-10-01",
+ "batch": "ruler",
+ "name": "One Table",
+ "tagline": "Everyone wants you on their side. You keep ending up on both.",
+ "epigraph": "A city gave up brandy for whiskey. Years later, one glass poured both.",
+ "glassware": "large rocks glass (about 300 ml), one large ice cube",
+ "contains": [
+  "nuts"
+ ],
+ "veto_free": false,
+ "reading": "psychologist-reading-v4.md",
+ "card": "vieux-carre-walter-bergeron.md",
+ "language_row": "Wren's 4-gram runs (the lint's own `ngrams()`) of name, tagline, epigraph, whoYouAre, yours and closing line against every pour: clean on v4 (\"two kinds of bitters\" avoided, owned by *No Accident* and *Till Spring*). No \"we\", \"our\" or \"ours\" in guest text; history is 35% of yours. No \"People take you for…\", no listening or heat (the Caring Leader's), no \"made room\" or \"left out\", no \"common touch\", \"diplomat\", \"peacemaker\" or \"bridge-builder\". \"Table\" kept to two uses so the name doesn't spend itself; \"colours on\" and \"cross over\" left to the closing line. Every \"he\" in yours 2–3 is Walter Bergeron (lint warnings accepted by Wren). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/vieux-carre-walter-bergeron.md`: *Oxford Companion* VIEUX CARRÉ (pdf 2102), BÉNÉDICTINE (pdf 256); David Wondrich, *Imbibe!* pdf 182 (New Orleans as \"a Brandy Julep town\", whiskey \"displaced\" brandy by 1885); Stanley Clisby Arthur, *Famous New Orleans Drinks and How to Mix 'Em* (1937; archive.org reprint), the recipe and \"He originated it, he says, to do honor to the famed Vieux Carré\"; Robert Simonson, *A Proper Drink* pp. 255, 283. Craft: *The Flavor Matrix* pp. 127 (Grain) and 131 (Grape), rendered; *Cocktail Codex* pp. 94, 95, 288 (the cardamom steep); *Liquid Intelligence* p. 130 (read, not used for the measures). Audits: `work/ruler-regular-guy/historian-audit-v1.md`, `-v2.md`. Room notes: `work/ruler-regular-guy/`.",
+ "names_note": "**One Table**, the room's pick (Tomás's; Wren conceded in round 4; Hester has no objection): it names what the person protects, the family still sitting at one table, not the recipe. Runner-up *Same Weight* (Wren's round-3 pick) is true to the glass but names the measures, spends y3's phrase, and sits beside *Fair Measure* and *Next One's Mine*'s measuring gesture. Also considered: *Colours On* (doubles the closing line), *Whose Side?* (spends the whoYouAre line). Struck: *The Same Line*, *Old Square*.",
+ "open_items": [
+  "**The link is ours:** the city's move from brandy to whiskey (by 1885, *Imbibe!*) and Bergeron's 1930s drink are about fifty years apart and no page links them; the reading signposts it. Bergeron's own side is never claimed; his stated reason was to honour the old quarter, and why he put rye and cognac side by side is not on record.",
+  "**Hotel legend, dossier only:** the Monteleone's story that the drink was \"an homage to the different ethnic groups of New Orleans\" (relayed by Seidman, Pearce 2017) is brand-tier with no 1930s source and sits on the race trap; kept out of guest text. Guidebooks' \"1938\" is wrong against the 1937 printing, so \"the 1930s\". Always \"the Monteleone's bar\", never the Carousel (built 1949; Bergeron died 1947).",
+  "**Our choices, said as ours:** the cardamom steep (about 3 g per 250 ml sweet vermouth, 12 hours, scaled from the *Codex*'s cardamom St-Germain), rocks over one large cube (Oxford allows up; up would put it in *Go On*'s glass), lemon peel, no cherry, and Oxford's modern 5 ml Bénédictine and 2 dashes against Arthur's ½ tsp and 1 dash. The equal thirds are 1937's; the jigger size behind Arthur's ⅓ is Tomás's assumption.",
+  "**Edge:** a very tart sweet vermouth (0.7% acid, a guess) puts initial acid OUT and finished acid at the edge; the recipe says any Italian-style sweet vermouth. The drink holds through about 20 ml of melt and drops under the floor at 30 ml.",
+  "**Contains nuts** (nutmeg in Bénédictine), as the plan's veto floor allows; not veto-free."
+ ]
+}

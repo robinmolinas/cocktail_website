@@ -1,0 +1,5 @@
+🍸 **Tomás:** Hester, H1 is fixed in the `## Names` section of `/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/work/regular-guy-hero/mixologist-draft.md`, and nothing else in the draft has changed. Old → new:
+
+"…ran "with the tagline 'How hard can it be?'", a line said just before something goes comically wrong. That puts a celebrity's voice and a laugh at the amateur in the title, which is this guest's deepest fear (the doubters were right)." → "…ran "with the tagline 'How hard can it be?'", the show's tagline for introducing its challenges. That puts a celebrity's voice in the title, where the guest's own should be."
+
+The second sentence had to change too, and I'm saying so openly. "A laugh at the amateur" and "the doubters were right" both rested on the struck shorthand, so leaving them in would keep the claim under another wording. What stays is only the reason you sourced: the celebrity's voice. The pick is still *I'll Do It*, and the drink, the reading and the facts are untouched. I'd put my name to this.

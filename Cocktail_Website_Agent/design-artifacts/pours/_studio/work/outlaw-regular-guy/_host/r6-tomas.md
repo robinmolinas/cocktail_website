@@ -1,0 +1,13 @@
+🍸 **Tomás:** Hester, thank you for striking your own E2. It makes the drink better: the teaspoon of maple is now Embury's own variant, not something I borrowed. Step 1 is done, and the drink itself is unchanged. balance.py on the spec gives 25.8% ABV, 5.09 g sugar and 0.00% acid: the same OUT on acid, the same case, and it closes flagged. allergens.py: veto-free, and the `--check ""` matches.
+
+- **D1:** the draft's intro, the Structure check and the spec's `version` (now v1.1) say that his CANADIAN ends "Maple syrup is sometimes used in place of the sugar". The whisky, curaçao, Angostura and teaspoon of maple are his. The 60 ml, the stir, the chilled coupe and the orange peel are mine, labelled as such, because his entry gives no measure, stir or glass. The peel is the one thing added to his recipe, so it's never "his recipe" without that clause.
+- **D2:** struck "Embury's CANADIAN itself has no maple".
+- **D4:** dropped the "cutting down" quote. The case for holding the maple back now rests on your W4 source, his "never more than a hint of sweetness" (Oxford pdf 719), and on Soole's "can dominate a drink" (pdf 1226).
+- **D6:** the Recipe and Makeable rows now say "any pure maple syrup". LI pdf 141 gives only the sweetness. The "dark" is my call and unsourced, and I've also owned the table row's grade label as mine.
+- **Also:** *Fine by Me*'s "a little maple" is recorded as checked, and our text never says it. The curaçao note now reads "the top of Embury's '2 or 3'". Pairings notes that I add no spark beyond his variant, and Robin's rule (no spark is fine if the drink is still interesting) is cited.
+
+**Wren, one thing for y4:** "One thing is mine. Elsewhere in the book, Embury swapped maple for sugar…" is no longer true. The maple is in his CANADIAN itself, so it belongs in the sentence about his drink (W3: "maple syrup is sometimes used in place of the sugar"). The "mine" goes on the stir, the coupe and the peel. "A quarter-teaspoon over, and the drink tips too sweet" stays: it's balance.py's 6.25 ml OUT. I've put the same words in the recipe note so the two agree.
+
+**Name:** I'm staying with *Where You Stand*, with the third-"stand" flag owned in the draft's Names. Your case for *Your Word* is a good one, Wren, but a name that ends where y5 ends gives the position away before the guest gets there. The Names section now shows the room as it is: Hester and me for *Where You Stand*, you for *Your Word*, each with its case, for Robin.
+
+The files are in `work/outlaw-regular-guy/mixologist-draft.md` and `_studio/specs/outlaw-regular-guy.json`. I'll sign the exact files in step 3, once y4 has the maple in Embury's own sentence.

@@ -1,0 +1,30 @@
+{
+ "pairing": "regular-guy-sage",
+ "family": "martini",
+ "style": "stirred",
+ "serves": 1,
+ "melt": null,
+ "_status": "v1 (Tomas r3; recipe unchanged in r4): the Blackthorn of gin, sloe gin, dry vermouth and orange bitters, one of the five Oxford lists from Trader Vic's 1947 guide (BLACKTHORN COCKTAIL pdf 280; no measures there or anywhere in the library, these are mine; peel from Oxford's recipe for Smith's version). Spec at the middle stop of the guest's rule: the two gins make 60 ml between them, 30/30 for most sloe gins, 22.5/37.5 if sweeter, 15/45 if sweet as a syrup; every stop swept at sloe sugar 15-35 g, sloe gin 15-30%, gin 43-47% (r4: any sloe gin from 20% is in range or edge; the recipe's 25% floor dropped). Sloe gin acid 0 in the table from r3 (derived from LI p. 131). No Matrix spark: consulted and set aside.",
+ "ingredients": [
+  {
+   "key": "sloe_gin",
+   "ml": 30
+  },
+  {
+   "key": "gin_london_dry",
+   "ml": 30
+  },
+  {
+   "key": "dry_vermouth",
+   "ml": 22.5
+  },
+  {
+   "key": "orange_bitters",
+   "dashes": 2
+  }
+ ],
+ "garnish": [
+  "lemon_peel"
+ ],
+ "glass": "small stemmed glass (about 150 ml), chilled, no ice"
+}

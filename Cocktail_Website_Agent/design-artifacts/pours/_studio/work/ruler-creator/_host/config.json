@@ -1,0 +1,25 @@
+{
+ "pairing": "ruler-creator",
+ "personality": "The Perfectionist",
+ "archetypes": "Ruler × Creator",
+ "date": "2026-10-01",
+ "batch": "ruler",
+ "name": "On Their Behalf",
+ "tagline": "You'd rather seem cold than let anyone get the careless version.",
+ "epigraph": "Two teaspoons of vermouth went in, for a taste one bartender was told to start liking.",
+ "glassware": "fine stemmed cocktail glass (about 210 ml), chilled, no ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "wayne-collins-high-holborn.md",
+ "language_row": "Wren's 4-gram runs (the lint's own `ngrams()`) against every pour: clean on v3 after clearing collisions (*Go On*'s \"I think you know that\", *No Accident*'s \"the next time you\", *Down the Line*'s \"it out loud because\", *As It Was*'s \"lemon, a little sugar\", *explorer-innocent*'s \"orange curaçao, and\", among 21). No \"about you\" or \"properly\" (the Craftsman's), no \"your name on it\" (*In Your Own Hand*), no \"see the finished thing\" (*Down the Line*), no \"perfectionism\", \"high standards\" or \"impeccable\". Every \"he\"/\"his\" is Collins (lint warnings accepted by Wren). Chappell's verbatim \"It's not about you, is it?\" stays dossier-only. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/wayne-collins-high-holborn.md`: Robert Simonson, *A Proper Drink* (2016) pp. 39, 60, 101–103, 330 (Collins interviewed 17 June 2014); *Oxford Companion* COLLINS, WAYNE (pdf 557, Lascelles), DAISY (pdf 627), CORN (pdf 583). Craft: David Wondrich, *Imbibe!* pdf 105–106 (the Daisy, Jerry Thomas 1876); *Cocktail Codex* p. 106 (liqueur as seasoning); *Flavor Matrix* pdf 88. Audits: `work/ruler-creator/historian-audit-v1.md` (draft), `-v2.md` (reading). Room notes: `work/ruler-creator/`.",
+ "names_note": "**On Their Behalf**, the room's pick (all three; Tomás's first): it names what the person does that nobody sees, it describes the guest and never claims Collins acted for anyone (his stated reason was the name), and the phrase is used nowhere else in the reading. Also considered: *The Real One*, *Learn to Like It*, *Called a Daisy*, *The Why With It*.",
+ "open_items": [
+  "**The link is ours:** Collins's stated reason for his *Class* article was the name (\"I didn't like that it was called a Martini\"); the guests line is his teacher Lee Chappell's. The page sets them side by side and never links them, so the reading ties them only under \"I like to think\".",
+  "**Counterweight, dossier only:** *Class*'s publisher, Simon Difford, argued the fruit drinks \"kept the cocktail's name alive\" (*Proper* p. 39). Wren kept it out of the reading; y1 grants the fruit drinks' fans in the guest's own terms.",
+  "**Family re-filed:** the plan reserved the Sidecar shape; by structure (*Codex* p. 106) the old Daisy is a sour, so it files as Daiquiri. Plan Claims updated by Hester (6 Daiquiri, 1 Sidecar). Near miss owned: Innocent's Wise Kid (bourbon sour, sour glass).",
+  "**Our choices, said as ours:** the fine stemmed 210 ml glass (the expensive glassware on p. 102 was for his Sazeracs), the dry vermouth (the lesson was about gin and vermouth; \"dry\" is Tomás's), and the tablespoon of soda (Thomas's 1876 recipe filled the glass from the siphon).",
+  "**Strength edge:** bourbon at 45% or stronger; at 40% the drink drops to 14.1% (edge). The curaçao's sugar is unsourced; halving or doubling it stays in range."
+ ]
+}

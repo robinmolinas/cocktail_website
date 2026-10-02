@@ -1,0 +1,7 @@
+🍸 **Tomás:** **Name: I concede, *Good as It Is*.** Wren convinced me, and her reason was the right one. *That's Good* praises the drink, and on a menu it reads like a review. *Good as It Is* says that the drink needs nothing added and neither does the guest, and that answers this person's fear of being "improved". I've updated Names in the draft. The record keeps *That's Good* as my rounds 3–4 pick, with the reason I let it go.
+
+**"The lime keeps building to the end" in y4 is Wren's to rule, and it won't stop me.** I flagged it because a drink that changes as it goes is *No Accident*'s. But her v2 sentence now carries the peel's bitterness "if it's left to sit". That's a sourced taste fact about lime (*Codex* p. 137, Hester's pass), not a sugar band and not a "truth at the bottom". Cut it or keep it: either way the glass is honest.
+
+**The drink stands as draft v1.1, which Hester's audit v2 passes:** 60 ml unaged cachaça, 6 of 8 lime pieces, 10 g granulated sugar, built in the glass on cracked ice, lime left in. It reads 17.8% / 7.63 g / 0.888% / 56.6% dilution, all in range, and it's veto-free. The lime, sugar and strength sweeps are on record, with the edges stated. The closing line is *Leave the lime in. Then let the whole table see you enjoying it.* Wren matches y5 to it. The image brief and Checks are as written.
+
+On reading v3 with A6–A9 in as Hester worded them: I'd put my name to this.

@@ -1,0 +1,25 @@
+{
+ "pairing": "outlaw-jester",
+ "personality": "The Subverter",
+ "archetypes": "Outlaw × Jester",
+ "date": "2026-10-01",
+ "batch": "outlaw",
+ "name": "With the Bite In",
+ "tagline": "Said straight, they'd stop you. So you make them laugh.",
+ "epigraph": "A song made rum and Coca-Cola famous. The song was never really about the drink.",
+ "glassware": "a tall glass, filled with ice",
+ "contains": ["nuts"],
+ "veto_free": false,
+ "reading": "psychologist-reading-v3.md",
+ "card": "lord-invader-rum-and-coca-cola.md",
+ "language_row": "Wren's resonance: ready (v2; carried to v3 in r5). Guest text 4-gram clean against every pour (Wren r3–r5). Gendered pronouns in y1–y3 refer to Lord Invader only. History about half of yours (0.499).",
+ "sources": "Fact card `_studio/fact-cards/lord-invader-rum-and-coca-cola.md`: *Khan v. Leo Feist*, 70 F. Supp. 450 (S.D.N.Y. 1947), aff'd 165 F.2d 188 (2d Cir. 1947), and *Baron v. Leo Feist*, 78 F. Supp. 686 (1948), via the Caselaw Access Project (primary); John Cowley's notes to Smithsonian Folkways SFW CD 40454, *Calypso in New York* (2000), citing the period press; Oxford COCKTAIL MUSIC pdf 504, CUBA LIBRE pdf 613, pdf 107, ANGOSTURA pdf 114. Nutmeg: This American Life, \"The Recipe\" (Beal and Pemberton notebooks), Reuters via NBC 2011. Drink: *Cocktail Codex* pp. 14, 213; *Joy of Mixology* pdf 272–273 (CUBA LIBRE). Room notes `work/outlaw-jester/`.",
+ "names_note": "With the Bite In (Wren; all three by r4). Also considered: Slipped Past (Tomás), Past the Censors; Actual Size and Down to Size struck (Down the Line owns size; \"cut down to size\" leans to humiliation).",
+ "open_items": [
+  "Contains nuts, on the safe side: Tomás reclassified the shared coca_cola row in dps-tools/data/ingredients.json as nuts, because two published historical 7X formulas (Beal 1979, Pemberton via Pendergrast) list nutmeg oil; Coca-Cola denies they are the formula and today's recipe is secret. The same row feeds innocent-creator (The Way It Felt), whose file still says veto-free: a note for Robin, not edited here. The plan's \"Subverter stays veto-free\" no longer holds.",
+  "The plan's lead, H. L. Mencken, was struck by Wren in r1: the deliberate arrest is Can't Watch's shape, and his posthumous diary punches down (point 5, the ending after the page).",
+  "The tune was Lionel Belasco's (\"L'Année Passée\", 1906), the plaintiff was Khan, and the lyric case was 1947 (the melody case 1948): so \"his words\", \"a court found that Lord Invader had written the words\", never \"he sued\", \"he won\" or \"his song\". No dollar figure ($132,000 vs $150,000) and no death year (1961 vs 1962).",
+  "The ending is told with its cost: paid seven years late and \"always short of money\" after (Cowley). Yankee Dollar is used on its chorus only, Crisis in Arkansas on the bow-tie joke only. Kept out: the women in the lyric, God Made Us All (credited to Lord Pretender), the unreleased Pepsi-Cola jingle (dossier only).",
+  "Angostura 1919's 40% is the maker's figure from Tomás's own knowledge, unread on a label; swept 37.5–43%, in range. Cost about £35–40 / $35–40 a bottle, unsourced. Substitute: a column-distilled aged rum, not spiced, about 40% (not Trinidadian). No Trinidad rum style is on a page."
+ ]
+}

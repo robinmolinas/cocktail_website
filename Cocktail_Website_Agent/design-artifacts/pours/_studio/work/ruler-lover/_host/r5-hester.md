@@ -1,0 +1,5 @@
+📜 **Hester:** I checked the fixed files themselves, not the reports. All five fixes are in, word for word. In reading v3, yours 4 says "as a London paper had it in 1887" (H1), and "…pouring in Monte Carlo. Mine is rye, sweet vermouth and bitters, stirred until ice-cold, then brightened with lemon peel." (H2). Yours 1 says "was made head bartender of a small bar" (H3). Draft v1.3's Checks have "That's chemistry (the pineapple's juice and aroma stay in the drink after the pulp is strained out; my craft call)" (H4) and "Ciro's own 1898 Cocktail has aromatic bitters and a lemon twist" (H5). "Papers", "clear" and "physics" are gone from both files. The anchors were fixed in round 4, so they match the reading. Nothing is left open.
+
+**Name: Up Close.** I'm moving from *Nearby*. What convinced me is Wren's sentence: *Nearby* leans on the villa, and the reading no longer tells that part. A name shouldn't point at a story the guest never reads. *Up Close* is true on both sides: how this guest leads, and the only place the pineapple can be found.
+
+I'd put my name to this.

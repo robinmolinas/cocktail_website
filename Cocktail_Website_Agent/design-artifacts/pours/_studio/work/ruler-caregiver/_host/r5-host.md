@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 5 ran in steps (fix and sign, then Hester's re-read). Crossings named: the closing line swapped between Wren and Tomás; it settles on *Let it wait on the ice until they've said everything. Then strain it, and give your answer.* (both). Assembled pour: 0 errors; three pronoun warnings (all Jimmie) accepted by Wren.

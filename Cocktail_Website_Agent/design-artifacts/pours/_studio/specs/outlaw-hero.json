@@ -1,0 +1,33 @@
+{
+ "pairing": "outlaw-hero",
+ "family": "martini",
+ "style": "stirred",
+ "glass": "Nick & Nora glass (about 150 ml), chilled",
+ "serves": 1,
+ "version": "v1.3 (round 5 step 2, 2026-10-01; drink unchanged since v1.1), matches mixologist-draft v1.3: UNAGED Pedro's Premium Ògógóró (40%, recommended; Difford's: unaged; not the 5-year aged bottling Artifex also sells), 30 ml, with 30 ml London dry gin in equal halves, 30 ml of each (our choice; One Table's 30/30/30 owned in Siblings; the Codex's splits on p. 71 are unequal), 30 ml sweet vermouth (2:1 as the Codex Manhattan, p. 84), 2.5 ml (half a barspoon) 1:1 demerara syrup, 1 dash orange bitters (values unsourced), stirred, strained into a chilled Nick & Nora, orange peel squeezed over and dropped in. Not a Martinez. Swept: demerara 1.25/2.5/3.75 ml in range; gin 40%/47% in range; no demerara = sugar on the floor (3.69 vs 3.7); vermouth 35 ml OUT on acid.",
+ "ingredients": [
+  {
+   "key": "ogogoro_pedros",
+   "ml": 30
+  },
+  {
+   "key": "gin_london_dry",
+   "ml": 30
+  },
+  {
+   "key": "sweet_vermouth",
+   "ml": 30
+  },
+  {
+   "key": "demerara_syrup",
+   "ml": 2.5
+  },
+  {
+   "key": "orange_bitters",
+   "dashes": 1
+  }
+ ],
+ "garnish": [
+  "orange_peel"
+ ]
+}

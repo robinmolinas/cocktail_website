@@ -1,0 +1,33 @@
+{
+ "pairing": "regular-guy-jester",
+ "family": "daiquiri",
+ "subfamily": "a grapefruit sour after Arnold's Shaken Drake (Liquid Intelligence p. 149): the grapefruit juice frozen into cubes is the ice, shaken to slush, so the melt is juice, not water",
+ "style": "freeform",
+ "glass": "coupe, chilled",
+ "serves": 1,
+ "version": "v2 (Tomás, round 4; story ruled by Wren r3). Freeform because no water is added: the grapefruit is the ice. Judged by hand against Arnold's shaken (sours) finished ranges, with stray-melt cases of 10 and 20 ml water in the sweep. Malört at the US liqueur sugar floor (2.4 g/100 ml); maple 1 tsp.",
+ "ingredients": [
+  {
+   "key": "jeppsons_malort",
+   "ml": 60,
+   "note": "Jeppson's Malört (35%), recommended; or any Swedish besk (beskbrännvin, bitter wormwood spirit) of 35% or stronger"
+  },
+  {
+   "key": "grapefruit_juice",
+   "ml": 60,
+   "note": "fresh white grapefruit juice, strained, frozen ahead in two 30 ml ice cubes (Arnold's method)"
+  },
+  {
+   "key": "maple_syrup",
+   "ml": 5,
+   "note": "1 teaspoon; Arnold uses maple to round out the bitterness of the grapefruit (LI p. 149)"
+  },
+  {
+   "key": "saline_solution",
+   "drops": 5,
+   "note": "or a generous pinch of fine salt (Arnold's own alternative, p. 149)"
+  }
+ ],
+ "garnish": [],
+ "_notes": "Shake Malört, maple and salt with the two frozen grapefruit cubes, hard, until the cubes are slush (30 s at least, Arnold); strain into the frozen coupe. No other ice. Malört sugar unpublished: modelled at the legal liqueur floor (27 CFR 5.150, Hester r3), swept to 6 g/100 ml. Sweeps in work/regular-guy-jester/mixologist-sweep.py."
+}

@@ -1,0 +1,9 @@
+🕯️ **Host:** Round 3 of 5, so two rounds are left after this one. The story stands (okolehao), with Hester's 1891 account: the bodge was copied ("almost every chief had his still"), but chiefs, not ordinary people, and what lasted on the record is the name and the spirit, not the still. Her wording notes: "pots off the ships", "the man usually credited", "the name is Hawaiian", and the ti brew stays out. Open questions, each for its owner:
+- **Wren:** rule on Tomás's provisional drink (mezcal, a marmalade jar as sugar, shaker and strainer, never called okolehao), then write the reading. Tomás's closing line is offered for your words.
+- **Tomás:** Hester offers Berry's own stand-in, bourbon or rye (the 1960s "okolehao" was bourbon with ti extract, pdf 1421), against your mezcal. The drink is yours to rule.
+- **Hester:** tier Tomás's *Aloha State Daily* source (okolehao labels that are rum), and audit what's in the folder by the end of the round as `historian-audit-v1.md`.
+- Still open beyond that: the resonance test, names (≥3 and a pick, all three), and the image brief.
+
+I'll assemble a provisional pour at the end of this round, so please have your files in the assembler's shapes: Wren, `psychologist-reading-v1.md` with its title block (name, tagline, epigraph) and Resonance section (alternatives in a separate file); Hester, `historian-anchors.md` and `historian-audit-v1.md`; Tomás, `mixologist-draft.md` as before, and the spec.
+
+How the last two rounds run: round 4 is the last round for changes, in two steps. Wren and Tomás make every remaining change first; then Hester audits the files as they stand and quotes any wording still to fix. Round 5 is sign-offs only, on that version. When two of you cross on a part, its owner rules on the current state in their next turn: the reading's words are Wren's, the facts Hester's, the drink, closing line and image Tomás's. Names are the room's.

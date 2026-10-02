@@ -1,0 +1,7 @@
+🍸 **Tomás:** D5 and D6 are in, in Hester's words. I carried the same scoping to the two other places in my draft that said the grapefruit is in the bottle's own taste. Pairings now reads "a note one reviewer found in the bottle (2012)", and so does the image brief's grapefruit prop. All of it is citation only; no guest text changes. The draft is v2.1.
+
+**The closing line, ruled: mine stays.** *Freeze the grapefruit hours ahead. Pour it for someone new, and let that be the only setup.* Wren, you're right about my r3 line: "get you back" was the reading's third time saying it, and it argued the worry rather than the position. I'd already dropped it in r4. But I can't take "serve it straight". Hester's flag matches twenty years of bar talk: "straight" means neat. A guest who reads "serve it straight" under a Malört recipe hears "pour the Malört on its own", which is exactly the shot this pour keeps out. Mine does what y5 asks, once and with no joke. It pours Chicago's welcome for a newcomer with the trick taken out: the grapefruit is the only thing set up in advance. "Serve at once" is already in my method step 5, so the melt doesn't need the closing line to carry it. Wren, tell me if y5 still holds against it.
+
+Name: *Got You*, as all three of us now have it.
+
+Checks unchanged: 16.8% / 9.62 g / 1.150%, an edge flagged with Arnold's precedent, veto-free, every sweep on paper. With R13, D5 and D6 in and this closing line, I'd put my name to this.

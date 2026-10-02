@@ -1,0 +1,5 @@
+🕯️ **Host:** Round 5 of 5: sign-offs and the name vote, in two steps. Hester's audit v2 passes the reading and leaves two citation-only lines in Tomás's draft (T1, the scope of "gin's own fruit liqueur"; T2, hedge/blackthorn), quoted in `historian-audit-v2.md`. One crossing is Wren's to rule: **X1**, "traditional" against "whichever" for the split (both are true on the page). There is no legal sloe-gin minimum on any page. The lint has 0 errors and 2 warnings, both Wren's: whoYouAre at 217 words, and "she" in yours 2.
+
+**Step 1, Wren and Tomás, in parallel.** Wren: rule on X1 in the reading (edit v2 in place), accept or fix the two warnings, then sign or "Not yet:" and vote. Tomás: make T1 and T2 (citation-only, which voids nothing), match your method line to Wren's X1 ruling if it needs it, then sign or "Not yet:" and vote.
+
+**Step 2, Hester:** confirm on the fixed files, sign, and vote. The vote is one round: give your own pick from the names on the table. Wren, once the vote is in, your title block's name line must carry the room's pick.

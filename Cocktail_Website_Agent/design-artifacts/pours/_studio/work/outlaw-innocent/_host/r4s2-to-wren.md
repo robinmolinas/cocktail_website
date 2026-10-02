@@ -1,0 +1,58 @@
+Round 4 of 5 for outlaw-innocent, step 2. Below are the host turns and the four turns you haven't seen, pasted verbatim.
+
+🕯️ **Host:** Round 4 of 5. Where it stands: there's no story. Wren ruled that Vogler fails point 4 and that Germain-Robin fails too (Gallo, 2017). Hester agrees, and she has checked baco blanc (a ruling won by lobbying: no refusal, no person, no price) plus three library threads, and none passes. Both have said that if one more candidate doesn't pass this round, the pour goes to Robin flagged, with Wren's case quoted. Hester has sourced Robin's lean-research note to Robin's own words in her session, so I withdraw my question.
+
+The round runs in two steps. In step 1, Hester brings one candidate on a page we've read, against Wren's four points and her "closed or clean record", looking in Gascony first. Tomás meanwhile re-runs the Floc syrup at the legal 16–18% (17%) and keeps the white Pineau fallback proven, since export of Floc isn't shown. Note that Hester's "de la même exploitation" makes the same-estate claim law, where Oxford said only "often". In step 2, Wren rules on the candidate. If it passes, she writes reading v1 and Hester writes the anchors in the same step. Round 5 is then the audit, the fixes and the sign-offs, in steps. If it fails, round 5 is for each voice's flag case, in their own words.
+
+Ticked: persona read. Open: everything else. Objection: Wren, no story.
+
+📜 **Hester:** Wren, I accept your ruling, and the reason that convinced me is yours: for this guest, a story cut off before the canned vodka soda is the lie they'd catch. So there are no anchors from me this round, because there's no story to anchor yet. Four things.
+
+**1. The host asked where Robin's note came from.** He wrote it himself, in my session, when he turned down one of my web fetches: "let's not waste too many tokens on online research especially since sources aren't always vetted". I'm keeping to it.
+
+**2. The baco thread fails on the page.** Oxford ARMAGNAC (pdf 139) confirms baco blanc is "the only hybrid grape" allowed in the French AOC system. *Harpers* ("Baco to the future", trade press, fetched) has the rest: the INAO planned in 1992 to grub up every baco vine by 2010, and then an AOC decree let it stay. That's a ruling won by lobbying. There's no refusal, no named person and no price paid, so it fails your points 1 and 3. As you guessed, it's closer to the Rule Breaker's shape. I also checked the library for other refusal stories, in Oxford and *Proper* plus my own cards:
+- **Jamaica's distillers:** they "refused to abandon their traditions", but changed after the war, so the honesty didn't hold.
+- **The Browns' sealed bottle (Old Forester):** sold to doctors, so medicine, and it grew into Brown-Forman.
+- **Bradsell never joining the bartenders' union:** "I couldn't be bothered", which is not a refusal because it was false, and he's already in three of our pours.
+
+**None of them passes. So nothing passes yet.** In round 4 I'll bring one more candidate, read on a page. If it doesn't pass, I'd rather this pour go to Robin flagged than ship Vogler. Your case quoted, and mine beside it: I agree.
+
+**3. Tomás, your two asks.** Card: `_studio/fact-cards/floc-de-gascogne.md`.
+- **Buyable outside France: not shown.** Oxford pdf 818 says about a third is sold at the cellar door and another third in French shops, and MISTELLE pdf 1315 says Pineau is "the only one widely known abroad". I fetched no export or retail page. Plan on the Pineau fallback.
+- **An AOC sugar figure: there isn't one for the finished Floc.** The cahier des charges only sets the must at 170 g/L or more when the Armagnac goes in, and the must may already have started fermenting. Any g/L figure for Floc is unsourced. The search summary's "≤3 g/L" is about wines in INAO's Document Unique, not Floc's sugar.
+- **Fix the strength before you run the numbers.** The law says 16–18% at bottling, not Oxford's "18–20". Run the balance at 17%.
+- **The law is stronger than Oxford on the source.** The Armagnac must come "from the same estate" as the must ("de la même exploitation"), not just "often". That helps your hidden "yes", told plainly and inside Wren's guard.
+
+**4. The Floc lever only stays in Gascony if the story does.** If the new story isn't in Armagnac country, the Floc loses its reason, so I'll hunt there first, as Wren asked.
+
+🍸 **Tomás:** Wren, agreed: the brandy Old-Fashioned on the opening list can't end a story whose man then went on to lend his name to a label. Your guard on Floc is mine too: it's grape juice and young Armagnac from the same place, and nothing about it ever "stopped" or "kept from becoming". Spec v1 is in `_studio/specs/outlaw-innocent.json`, on hold until we have a story. It's built in the glass on ordinary ice cubes: 60 ml Armagnac, 10 ml (2 tsp) Floc syrup made 1:1 (100 g sugar stirred into 100 ml white Floc, no heat), 2 dashes aromatic bitters and a lemon peel. `balance.py`, `built`: **29.1% / 7.94 g / 0.032%, balanced**, close to Arnold's 7.6 g. `allergens.py`: veto-free. I went to 1:1 because it puts about 6 ml of Floc in each glass, double the 2:1 syrup at the same sugar, so the Floc is actually there to taste.
+
+**Strength ceiling:** 40-43% Armagnac, poured at 60 ml (31.1% at 43%). At 45% it's on the edge (32.5%), and at 46% it's OUT. For anything stronger: Armagnac plus cold water to 60 ml, with the Armagnac at 60 × 43 ÷ its strength. That's proven for 45%, 48%, 52% and 56%, every one at 31.1% / 7.94 g. Floc's sugar isn't on any page, so I swept it from 8 to 18 g/100 ml, and the finish stays in range (7.58 to 8.28 g). 12.5 ml of syrup goes OUT (9.57 g). A low melt (15%) runs a touch sweet, but ordinary cubes melt more than that.
+
+**Fallback:** a white Pineau syrup gives identical numbers on every row, but then the "same grapes, same place" claim is gone, and the reading can't use it.
+
+Hester, on Wren's baco thread: the library only has Oxford pdf 139. It says baco blanc is "the only hybrid grape" allowed in the French AOC system, very high in acid, and at its best after ten to twelve years. Nothing on a removal or on growers fighting it, so that's for the web. If it runs, the bottle would be a style, "a Bas-Armagnac with a high share of baco" (no brand), and the water rule already covers the cask strengths those bottles often come at. Sweep: `_studio/work/outlaw-innocent/mixologist-sweep-r3.md`.
+
+🍸 **Tomás:** Hester, thanks. I've re-run the spec with Floc at 17%, the middle of the legal 16-18%. The Floc row and the syrup are corrected (the 1:1 syrup is now 10.5%). **v1 is unchanged and balanced:** 60 ml Armagnac at 40%, 10 ml Floc syrup and 2 dashes come out at **29.0% / 7.94 g / 0.032%** on `built`. At the legal ends, Floc at 16% and 18% gives 28.95% and 29.09%. The strength rule still holds: 60 ml at 43% gives 31.0%, and with Armagnac plus water to 60 ml, 45%, 48% and 56% all come out at 31.0-31.1%. **The white Pineau fallback balances on every row** at 29.1-31.1% / 7.94 g, and both are veto-free. Sugar: as you said, there's no legal figure. The 170 g/L must, at Oxford's two-thirds to three-quarters must, would give about 113-128 g/L only if nothing had fermented, so it's no floor. The row stays at 13 g, unsourced, and the 8-18 g sweep stays in range (7.58-8.28). On buying it: no page shows Floc sold outside France, so Makeable has to say it's mostly sold in France and give white Pineau as the substitute style, with "same grapes, same estate" lost when you use it. The law's "de la même exploitation" lets the guest text say "grape juice and young Armagnac from the same estate", inside Wren's guard. If the new story leaves Gascony, the Floc goes with it. Sweep: `_studio/work/outlaw-innocent/mixologist-sweep-r4.md`.
+
+📜 **Hester:** Wren, here's one candidate. It isn't from Gascony: I found nothing in Armagnac country that passes on a page. **The Carthusians' cap on Chartreuse.** Card: `_studio/fact-cards/chartreuse-2023-cap.md`. I read one library entry and one trade page, as Robin asked. Here it is against your test, with the weak points first:
+
+1. **The refusal.** Oxford (CHARTREUSE pdf 440) says the drink has "probably never been more popular". The monks "quietly decided in 2021" to cut production back, and in January 2023 they told distributors it would be sold by allocation only (VinePair, c. 2023). That answers what their world offered: growth. Their letter: "The monks are not looking to grow the liqueur beyond what they need to sustain their order". **The weak point:** the "false" is false *to them*. They turned down growth that would have made them something else, and in my reading the drink itself was never false. It's close to the guest's fear of being bought by a small yes, but you decide whether it meets "because it was false".
+2. **Right and honest.** They said why, in public. The letter gives two reasons: the order's needs, and the planet ("Making millions of cases does not make any sense in today's environmental context"). **Channel:** VinePair is relaying Jason Wilson's Substack, which curl couldn't read. So it's two relays, and quotes stay short and credited to "the letter". "Growing too fast… taking away from their main vocation" is the US importer's gloss (Tim Master, to *InsideHook*, 2022). It's never put in the monks' mouths.
+3. **The price: thin.** The page shows the cost falling on drinkers and bars (empty shelves, backorders, Aperol stand-ins). The order's own lost sales are my inference, on no page.
+4. **A clean record, so far.** No sale, no outside label, and the monks still make it under their supervision (Oxford pdf 439). But it's only 2021 to 2023. The reading dates everything ("in 2023, they wrote…") and never says "still". **Counterweight, on no page:** scarcity raises a bottle's value, and a cynic would call the cap hype. This guest is that cynic, so weigh it.
+
+**Guards if it runs:**
+- The "long life" elixir stays out (medicine).
+- The 1903 expulsion stays out, or gets one clause at most (it's the Rule Breaker's backup ground).
+- Religion is told plainly, never as a joke.
+- *Beside the First* already uses Chartreuse's secret formula and the elixir: we don't echo either.
+- Hero keeps the Swizzle.
+
+**Tomás:** this would cost you the Floc's reason (the same grapes, the same place). And the bottle is the story itself, with a makeability problem built in: it's the bottle that's short.
+
+**My own verdict:** it passes points 2 and 4 on the page, and points 1 and 3 only if you accept my reading of them. If you don't, I agree it goes to Robin flagged with your case, and I'll put my name to that.
+
+🕯️ **Host:** Step 2. Hester brings the Carthusians' 2021–2023 cap on Chartreuse. On her own reading it passes points 2 and 4 on the page, while points 1 ("because it was false") and 3 (the price) pass only if Wren accepts how Hester reads them. Her two sources are Oxford pdf 439–440 and VinePair, which relays a Substack. One fact from the record for Wren to weigh, which I'm not ruling on: the caregiver-sage rework set aside "the Chartreuse monks (Oxford CHARTREUSE pdf 439 does not carry the story)". That was a different story, but the same entry. Tomás's Floc spec is balanced at the legal 17%, with the white Pineau fallback also balanced. Both he and Hester say the Floc loses its reason if the story leaves Gascony. Wren, rule. If it passes, write reading v1 and say what the drink must carry. If it fails, the pour goes to Robin flagged, and round 5 is for each voice's case.
+
+Step 2. Rule on the Chartreuse candidate. If it passes, write reading v1. If it doesn't, give your flag case in your own words. Return ONLY the turn line.

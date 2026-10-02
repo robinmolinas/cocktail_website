@@ -1,0 +1,29 @@
+{
+ "pairing": "regular-guy-explorer",
+ "personality": "The Entrepreneur",
+ "archetypes": "Regular Guy × Explorer",
+ "date": "2026-10-01",
+ "batch": "regular-guy",
+ "name": "Loose on Top",
+ "tagline": "You never wanted to be the boss. You just couldn't bear having one.",
+ "epigraph": "One restaurant owner chose the brands in this drink. Whoever's pouring chooses the top.",
+ "glassware": "cocktail glass (about 200 ml), chilled, no salt",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "tomas-estes-cafe-pacifico.md",
+ "language_row": "Wren's 4-gram runs (the lint's own `ngrams()`) on every paragraph, the epigraph and the closing line against every pour: clean after her cuts (*Fair Measure* \"with a long bar\"; *Making the Calls* and *Right Here* \"the people who worked there\"; others listed in her reading files). \"Freedom\" is signposted as the writer's word; \"ticket\", \"first\", \"ordinary\", \"sit down\" and \"the Codex's Margarita\" never appear. \"he/his\" only for Estes, Bayly and Masso (lint warnings accepted by Wren). Brands, never bottles. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/tomas-estes-cafe-pacifico.md` (F1–F25): Robert Simonson, *A Proper Drink* pp. 79, 80, 83, 98; *Oxford Companion* ESTES, TOMAS (pdf 743), BAYLY, PHIL (pdf 239), contributors' notes (pdf 2260), SAUZA (pdf 1743–1744), CLASSIC COCKTAIL (pdf 473); Hamish Smith, *Drinks International*, May 2017 (republished by CLASS); Phil Bayly's tribute, CLASS 2021; *Australian Bartender*, *Club Oenologique* and *The Spirits Business* obituaries (2021); *Time Out London*, 16 Sep 2026; giffard.com product pages. Craft: *Cocktail Codex* pp. 154, 166 (proportions); *The Flavor Matrix* pdf 80 (citrus oils in the rind). Audits: `work/regular-guy-explorer/historian-audit-v1.md`, `-v2.md`, `-v3.md`. Room notes: `work/regular-guy-explorer/`.",
+ "names_note": "**Loose on Top**, the room's pick (all three): the second half of Estes's staff rule as his partner Phil Bayly remembered it (\"Tight on bottom, loose on top\"), the half that is this guest's gift. Wren flags a faint clothing joke for Robin; Hester judges the record's own phrase outweighs it. Also considered: *Off Your Own Back*, *One of the Regulars* (an archetype pun), *Room for More*, *Own Style* (sounds like a fashion label), *Room at the Bar*, *Support Myself* (Estes's own words, but his line, not the guest's).",
+ "open_items": [
+  "**Name joke:** *Loose on Top* carries a faint clothing joke (Wren). Robin's call.",
+  "**Triple sec sugar unknown:** Giffard publishes no sugar figure (\"100g/L min\" only); the spec carries Cointreau's 25 g/100 ml as a labelled stand-in. Tomás's sweep: in range for any triple sec of at least 20 g/100 ml at 25% or 40%; below that the sugar goes to the edge (15 g) or OUT (10 g).",
+  "**Acid on its floor, justified:** initial acid sits exactly at 1.20 (the *Codex*'s proportions unchanged), so the loose top must go on the drink, never into it: a 5 ml float of a 45% spirit sends acid OUT.",
+  "**Bottles, not claimed:** nobody knows which Sauza or which Giffard bottling Pacifico poured; the pour names brands only. The tequila is Sauza's 100% agave blanco (US: Signature Blue, 40%; UK name unchecked), never Pacifico's bottle. Estes's own proportions aren't on record.",
+  "**History share:** 52% of the reading's words (48% without y3's signposted \"I like to think\" line). Noted for Robin, not blocked.",
+  "**Counterweights, dossier only:** Estes said in 2017 he \"should have gotten out of the way probably five years ago\", that he'd \"let it down\" and was \"ashamed\" of how he ran the bars as rents rose; the 2017 handover to the working partners was \"in the process\" and its outcome unread; *Time Out* (16 Sep 2026) reports liquidators appointed to the Covent Garden Pacifico's last known operating company while the restaurant stays open.",
+  "**Single source:** \"Tight on bottom, loose on top\" rests on one eulogy (Bayly, 2021), always told as \"his partner remembered\".",
+  "**Grapefruit:** *Brought Home* uses grapefruit juice with mezcal; ours is peel oil on a Margarita, never called a Paloma.",
+  "**No Flavor Matrix spark, on purpose:** citrus's surprise pairings were taken by siblings or cost the veto-free place; the gesture (a measured bottom, a top left to whoever makes it) is what makes the drink interesting."
+ ]
+}

@@ -1,0 +1,7 @@
+📜 **Hester:** The anchors are in `work/ruler-regular-guy/historian-anchors.md`, eight rows and the guards. The card has grown to F11 and C13. No reading or draft has landed yet, so there's nothing for me to audit this round. Tomás, I rendered both recipe pages you cited.
+
+*Proper* p. 255 checks out: ¾ oz each of rye, Cognac and sweet vermouth. *Liquid Intelligence* p. 130 doesn't. Arnold runs it at 30 ml rye, 30 ml Cognac and 23.25 ml sweet vermouth, which is his own balance and not three equal measures (F11, C12). So the equal measures rest on Oxford pdf 2102, on *Proper* and on Arthur 1937 (⅓ jigger each of rye, cognac brandy and Italian vermouth), never on LI.
+
+Wren, on "full strength" against "the same weight": the page literally gives the same measure. That's ⅓ jigger each in 1937, three equal parts with the vermouth, never half and half. "Full strength" is our word, and Tomás's volume point stands against it. The ruling is yours, but "the same measure" is the version I can anchor without a signpost.
+
+One new fence (C11). *Proper* says the drink was "created at the Hotel Monteleone's Carousel Bar". Guidebooks date the revolving Carousel to 1949, and Bergeron died in 1947 (Oxford pdf 2102). So it's always "the Monteleone's bar", never the Carousel. On the serve, Oxford gives both "typically served on the rocks" and up. The 1937 serve isn't in the part of Arthur I could read, so neither of them can be "the way Bergeron served it".

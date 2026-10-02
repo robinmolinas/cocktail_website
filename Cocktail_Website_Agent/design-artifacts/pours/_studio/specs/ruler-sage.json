@@ -1,0 +1,26 @@
+{
+ "pairing": "ruler-sage",
+ "family": "old-fashioned",
+ "subfamily": "whisky cocktail",
+ "style": "built",
+ "glass": "heavy old-fashioned glass (rocks glass, about 300 ml), filled with ice cubes",
+ "serves": 1,
+ "version": "v1 kept (Tomas, round 4). Blended Scotch Old-Fashioned; the sugar carries barley malt (malt syrup 1 part : rich syrup 2 parts by volume), after the definition on card F5 (spirit from cereal grain, its starch turned to sugar by malt; no still named). Flavor Matrix pdf 137: malt on the Grain wheel; citrus a Grain best pairing (pdf 136), orange peel. Contains gluten (edge for Robin). Proven veto-free fallback: scotch_blended_saffron 60 + honey_syrup_3to1 7.5 + angostura 1.6, same numbers (28.8 / 7.69 / 0).",
+ "ingredients": [
+  {
+   "key": "scotch_blended",
+   "ml": 60
+  },
+  {
+   "key": "malt_rich_syrup",
+   "ml": 7.5
+  },
+  {
+   "key": "angostura",
+   "ml": 1.6
+  }
+ ],
+ "garnish": [
+  "orange_peel"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "pairing": "outlaw-ruler",
+ "personality": "The Leading Edge",
+ "archetypes": "Outlaw × Ruler",
+ "date": "2026-10-01",
+ "batch": "outlaw",
+ "name": "Before It Had a Name",
+ "tagline": "Everyone sees the rebel. Nobody sees the plan.",
+ "epigraph": "Old Potrero began as a brewer's next idea, once other brewers had followed his lead.",
+ "glassware": "a well-chilled coupe",
+ "contains": ["nuts"],
+ "veto_free": false,
+ "reading": "psychologist-reading-v2.md",
+ "card": "fritz-maytag-anchor.md",
+ "language_row": "Wren's resonance and Hester's resonance test: pass on v2. Guest text 4-gram clean against every pour (Wren r3–r5; A15/A16 reworded off The Long View and Where You Stand; y5 off On One Condition; 'wheel' struck everywhere for Who's In?). No we/us/our. Gendered pronouns refer to Fritz Maytag only. whoYouAre 142 words; history about 48% of yours.",
+ "sources": "Fact card `_studio/fact-cards/fritz-maytag-anchor.md` (F1–F23): Oxford Companion to Spirits & Cocktails, ANCHOR DISTILLING pdf 103 and pdf 2165; Stett Holbrook, \"Of grape and grain\", *SF Chronicle*, 29 Jan 2004; Abate, *SF Chronicle*, 27 Apr 2010; Ross, *SF Chronicle*, 11 Aug 2010; Maytag 2015 interview; SF Standard 2025 and 17 May 2026; Lander, *SF Chronicle*, 14 May 2026; *American Craft Beer*, 6 Jul 2026; oldpotrero.com (read 2026-10-01). Drink: *Cocktail Codex* printed pp. 151, 155, 168; *The Flavor Matrix* pdf 196 (the apple/pear/quince entry); Ponce de León and Mitica membrillo listings. Room notes `work/outlaw-ruler/`.",
+ "names_note": "Before It Had a Name (Wren; all three by r5). Also considered: Quietly Steering, The Next Edge.",
+ "open_items": [
+  "EDGE for Robin: contains nuts. The quince paste (the spark) is classed `nuts` on the safe side: a plain quince-sugar-lemon membrillo (Ponce de León) carries \"May Contain: Tree Nuts\", and a distributor's \"None\" (Mitica) is not a certificate. A proven veto-free fallback needs no room: 7.5 ml syrup + 10 ml cold water in place of the quince (`work/outlaw-ruler/mixologist-fallback.json`, 18.2%/6.26 g/0.798% at 48.5%), with its y4 already written and audited in `psychologist-alternatives.md`. Wren: the story doesn't need the quince, so this is a real choice, not a story requirement.",
+  "The plan's lead was Maytag; Wren moved the centre from the beer to the 1993 secret distillery. Counterweight on the record: he kept Anchor small (Burlingham, Acitelli, his own 1996 line), said once as fact; the link to 1993 is signposted inference (\"I like to think\"). His reason for the 2010 sale isn't on record; only \"whatever Keith says, to help them do well\" is his.",
+  "The ending is dated: Anchor closed July 2023, bought May 2024, promised back with the old labels, not pouring as of autumn 2026. Re-check before publishing. The rye's first year is contested (1994/1996) and stays out. Today's Old Potrero (core 6YO at 48.5%/51.2%) is not the one-year rye of the 1990s; the label may say Hotaling & Co., so the pour says \"Old Potrero\" only.",
+  "Shared rows added (Tomás, via add_ingredient.py under the lock): `old_potrero_rye` (48.5%, veto-free) and `quince_paste_loosened` (30 g sugar, 0.3% acid per 100 ml, both unsourced and swept; classed nuts). Lean search for anything since 2010 that sinks Maytag found nothing; not a full clearance."
+ ]
+}

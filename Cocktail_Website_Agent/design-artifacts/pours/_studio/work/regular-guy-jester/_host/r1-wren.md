@@ -1,0 +1,35 @@
+🪞 **Wren:** Hester, Tomás, here's the Prankster. I'm also going back on the ruling I gave in the plan review. I re-read both pages in full this round, and the Tom Collins hoax doesn't carry this person. I'll set out who they are first, then why.
+
+**Who this is.** Down to earth, loud and physical: the sugar in the salt cellar, the "surprise" at the airport, the newcomer at the pub who gets told the house rule about the bell. The sheet: goal belonging, fear exclusion, *Wedding Crashers*.
+
+**The one true thing no sibling shares.** They play jokes on the people they want to keep. A prank is how they say "you're one of us" without saying anything soft, and it only counts once the person it was played on is laughing too and telling it as *their* story ("the night they got me"). They welcome people by getting them.
+
+**What they hide.** Two things. First, they were the new one once. Someone got them, and that's how they got in, so every prank is them passing on the way they were let in. Second, the one that went wrong. The face that didn't come round, the person who went quiet and stayed quiet. That one taught them exactly where the line is, and it still stings.
+
+**What they fear.** Doing to someone else the thing they dread most themselves: leaving a person on the outside. The prank that turns someone into the odd one out is their nightmare. Under that sits a smaller fear I think is the "this is me" line: *if nobody ever gets you back, you start to wonder whether you're really in.* Being pranked back is how they know they belong.
+
+**What they give.** A stranger gets a first-night story that makes them part of the group, and the group gets a "remember when" it tells for years. Said plainly, it's worth something: people feel claimed.
+
+**Siblings and neighbours, and how this one differs.**
+- Trickster (*No Accident*): a rule broken on purpose, a story people rally behind, and the fear of being ignored. "Every trick is really an invitation" is theirs, so I keep off "invitation" and "ignored" altogether.
+- Stand-up (*Is It Just Me*) owns "the table goes quiet" and "only you". This one's quiet is someone else's face, not their own exposure.
+- Morale Booster (*Anyway*) owns "the one who swore they wouldn't ends up laughing" and fun made for a group. The Prankster's joke has one target, and it's a way in.
+- Wacky One (*For Kicks*) owns "you made it up, now everyone says it", the word and the ritual that started with you. The Prankster passes on what was done to them and doesn't need credit for starting it.
+- Reassurer (timing, one person's worst day). Scoundrel (cheek toward rules and wanting to be let off. This one's cheek is toward people). Samaritan (*Whoever Comes In*: notices who's left out and stops for them. The Prankster pulls them in by making them part of the joke).
+
+**Traps.** No cruelty, no punching down, nothing that humiliates, no vulnerable target. No drunkenness, drinking games or pressure as the joke. "Lad", "cheeky chappie" and "lovable rogue" are gendered. No "invitation", "ignored" or "everyone says it". The reading must never make the guest the butt of the joke, and the drink mustn't either.
+
+**My story test (sharpened).** A documented prank, stunt or piece of mischief, raucous and down to earth, in which **the person it's played on ends up inside the circle**: being got is the way in, and they go on to pass it on or tell it as their own. Nobody is hurt and the line holds. Out: cons, hoaxes on the public, humiliation, and anything where the target is left outside.
+
+**Verdict on the plan's lead (the 1874 Tom Collins hoax): overturned, kept as backup at most.** On the page, Wondrich calls it "an annoying bit of tomfoolery" and says "it sounds moronic". The target is "the guy standing next to you", a stranger, and he exits "steaming". The people "in on the gag" at the next bar send him on again (*Imbibe!* pdf 82). Oxford gives "laughs aplenty", but it never says who laughed (TOM COLLINS, pdf 2041). So the man it's played on is the one person never let in. He walks from bar to bar alone while everyone else is in on it. Of all the stories, it acts out this guest's deepest fear. In the plan I'd saved it by putting the "us" in the drink's name. That doesn't hold: "You made it up. Now everyone says it" is *For Kicks*' tagline. On top of that, the Collins shape is already taken twice (*Not Too Polite*, Hero's Idealist), and "only a few of them fatal" is on the same page. I was wrong to call it a sharpening. It fails two limbs of my own test. As a backup it only works told against the grain, in a signposted line about the guest: you'd have gone round the corner with him and bought him the drink.
+
+**What I'd put in its place, for Hester to test: Jeppson's Malört.** Oxford, JEPPSON'S MALÖRT (pdf 1103), primary: a bitter wormwood liqueur that spent the late twentieth century as "a dive-bar rite of passage for any local or unsuspecting out-of-towner willing to tolerate its notoriously punitive aftertaste", and has since "transcended its provincial inside-joke origins". That's the whole person in one entry. A raucous, down-to-earth joke on the newcomer. They're *willing*, so the line holds: it's a bitter taste, nothing more. And "rite of passage" means that once you've been got, you're local. It's an inside joke whose point is to bring the outsider inside. Nobody in the registry or any family plan touches Malört (grepped every pour, plan and card).
+- **Conditions.** (1) Oxford's entry is short, so a second, independent source has to carry the ritual's core before any line rests on it: the shot poured for newcomers, the face they pull, the laugh and the welcome. Oxford lists the WSJ (Hernandez, 2012) and the 2014 film as leads. Even better if a source shows the newcomer pouring it for the next one. If nothing corroborates the welcome, the row comes back to me. (2) Jeppson "proffered" it as a medicinal alcohol, and that stays out (family guard: no medicine). Prohibition-era Chicago gets a date at most (Outlaw ground). (3) No named person is needed (the sospeso set the precedent for a custom of many), but if the page gives one with a quote, I'd welcome it. (4) Guest text never says "shot", "down it" or "punishing" as a dare. The willingness is the point.
+- **For Tomás, round 2, no spec yet.** If it's Malört, the joke lives in the welcome, not in a glass that ambushes the guest. I'd like the bitter thing to turn out to be good in company. How is your call. The plan's Collins/Old Tom/highball reservation would be released, and the new shape needs checking against the reserved shapes.
+
+**Lines that might land** (drafts, not yet tested):
+- "You don't play jokes on people you want gone."
+- "If nobody ever gets you back, you start to wonder whether you're really in."
+- The old sketch line "you only ever pick on the ones you love" survives only in whoYouAre, never on the story.
+
+Hester, round 2 is yours on Malört's second source, and on whether the Collins can stand as backup on my terms. If you can show me a Collins victim who was let in, I'll reconsider.

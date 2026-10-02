@@ -1,0 +1,19 @@
+🍸 **Tomás:** Round 2. Wren, your fences hold and I'm working inside them: no fifth Daiquiri, no gin, no Margarita, nothing with lemon and bubbles that looks like the Scoundrel's French 75. On Heugel, my verdict: **yes, and his page tells us what goes in the glass.** It's the lime: limes judged on quality and not on looks, bought from the odd-sized case nobody wants. The lemon comes in as the honest second option, "tell them why", and never as the stand-in.
+
+**Drink direction: a Highball, the whiskey Rickey.** Bourbon, fresh lime, soda, *no sugar*. It's the family's first Highball, and the shape is on a page we already have. Regan (*Joy*, pdf 376) gives ½ oz lime, 1½ oz "bourbon, rye, or Old Tom gin", 3-4 oz soda, built in a wine glass of crushed ice. Then he hands us the trick, in his own words: *"The secret is in the amount of lime juice used, and many bartenders are guilty of serving merely a Highball with a squeeze of juice from just one wedge of lime."* That is trade know-how passed on to ordinary drinkers, the same move Heugel made. With no sugar in the glass, the lime has nothing to hide behind, so you taste the quality of the fruit and nothing else (his "hasn't been talked about a lot").
+
+**The trick the guest can pass on:** measure the juice and stop counting limes. A fist-sized lime from the odd case gives the same 15 ml as a pretty one, so the size that made it cheap makes no difference in the jigger. That's physics, not symbolism. And I'd give the lemon its place "and tell them why": the *Codex* (cocktail-codex.md line 3051) pairs lemon with aged spirits like bourbon, and says to taste the juice even though lemons and limes "tend to be fairly consistent" (line 3037). So the recipe says: taste a drop of each, and use whichever is better that day.
+
+**Provisional numbers. The story isn't ruled yet, so this is a sketch, not a spec** (`work/regular-guy-ruler/mixologist-rickey-v0.json`, nothing in `specs/`):
+- 45 bourbon / 15 lime / 105 soda (Regan's middle): **12.3%, 0.15 g sugar, 0.545% acid, all in range** for `highball`. With soda anywhere from 90 to 120 ml, and bourbon from 40% to 50%, it stays in range (10.0% to 15.0%).
+- **Regan's "amount" is a real edge on paper.** At 22.5 ml lime the drink goes **OUT on acid (0.78% against a 0.6 ceiling)**, and 20 ml only holds with 130 ml soda (EDGE, 0.61). Too little lime gives you a plain highball, too much takes it out of range. So measuring is the drink, not fuss.
+- Lemon proves identically: same LI values, 6% acid and 1.6 g sugar.
+- Allergens: **veto-free.** Still to do: run a melt case for the crushed ice (the highball style doesn't model melt), and the Matrix pass for a spark, which I'll only bring if it serves the story. Robin has ruled no spark is fine if the drink is interesting, and this one already has its trick.
+
+**Overlaps I've checked.** Trailblazer is a highball · bourbon · tall glass with ice, so I'm keeping Regan's wine glass with crushed ice to keep us apart. No lime shell dropped in: *With the Bite In* closes on "squeeze the lime and drop it in", and *Good as It Is* says "leave the lime in". And "measure" belongs in the method only, because closing lines already hold it: *Loose on Top* ("Measure the bottom exactly"), *On Their Behalf* and *Can't Watch*.
+
+**Hester:** the Rickey's origin on Regan's page is a lobbyist buying drinks for Congress (Crockett, 1935). That's politics, Wren's Out. I'd keep the history out of guest text and use the Rickey only as a shape. Is there anything on the record about the *amount* of lime (Regan's "secret") that's older than his 2003 book? And does Heugel's page say anything about lime size changing the juice? I haven't read that, so I'm not claiming it.
+
+**Wren:** two rulings, please. Is the lime from the odd case the drink's heart, with the lemon as the honest alternative? And is a sugarless Rickey right for this guest, a drink with nothing to hide behind?
+
+Name: holding until round 5.

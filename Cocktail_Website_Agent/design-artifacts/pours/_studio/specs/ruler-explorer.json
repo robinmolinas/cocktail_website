@@ -1,0 +1,29 @@
+{
+ "pairing": "ruler-explorer",
+ "family": "daiquiri",
+ "style": "shaken",
+ "glass": "cocktail coupe (about 200 ml), chilled, coated inside with apricot eau-de-vie, fine sugar on the outside of the rim",
+ "serves": 1,
+ "version": "v1.1 (round 4, 2026-10-01), matches mixologist-draft v1.1 (drink unchanged): a Lemon Drop served up the 'more elegant' way (Oxford LEMON DROP pdf 1175), our ratio 60 vodka (40%+) / 22.5 simple 1:1 / 22.5 fresh lemon, shaken; the glass coated with 2.5 ml (half a teaspoon) apricot eau-de-vie, nothing tipped out (the way Maloney coated his Bell-Ringers' glasses, 20th Century Guide, Chicago 1900, card B1-B7; his was a red crème d'apricot, the dry eau-de-vie is our swap, Oxford pdf 133); fine sugar on the outside rim, set with the same spirit. Cate's printed recipe 60/30/45 reads OUT (acid 1.35, 12.2%); Proper p. 52's triple sec left out (C2, contested). Rinse modelled shaken in (as poured, 15.4% / 8.76 g / 0.83%, all in shaken range). Swept: rinse 1.25/2.5/5 ml in; vodka 50% in; 37.5% edges (floor 40%); lemon 25 ml in; sweet apricot liqueur edges on sugar (9.15), so eau-de-vie only.",
+ "ingredients": [
+  {
+   "key": "vodka",
+   "ml": 60
+  },
+  {
+   "key": "simple_syrup",
+   "ml": 22.5
+  },
+  {
+   "key": "lemon_juice",
+   "ml": 22.5
+  },
+  {
+   "key": "apricot_eau_de_vie",
+   "ml": 2.5
+  }
+ ],
+ "garnish": [
+  "sugar_rim_fine"
+ ]
+}

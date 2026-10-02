@@ -1,0 +1,42 @@
+{
+ "pairing": "ruler-jester",
+ "family": "daiquiri",
+ "style": "shaken",
+ "glass": "big glass (about 400 ml: a 14-oz highball or double old-fashioned), chilled in the freezer, packed with crushed ice",
+ "serves": 1,
+ "ingredients": [
+  {
+   "key": "vodka",
+   "ml": 60
+  },
+  {
+   "key": "lime_juice",
+   "ml": 20
+  },
+  {
+   "key": "raspberry_cumin_syrup",
+   "ml": 15
+  }
+ ],
+ "adjust_one_of": [
+  {
+   "key": "raspberry_cumin_syrup",
+   "ml": 2.5
+  },
+  {
+   "key": "angostura",
+   "ml": 0.8
+  },
+  {
+   "key": "mint_leaves_left_in",
+   "note": "3 or 4 more leaves"
+  }
+ ],
+ "garnish": [
+  "mint_leaves_left_in",
+  "mint_sprig",
+  "raspberry_fresh"
+ ],
+ "_notes": "Built the Codex's crushed-ice way (p. 134, Mojito: whip with a few pieces of crushed ice, pour, fill four-fifths, swizzle, pack and mound). Then tasted through the straw and ONE adjustment from Ford's list (Proper pp. 100-101: 'a bit more mint, a little more sugar, a dash of bitters'): every stop proven in range on shaken finished (base 16.4/7.02/0.921; +2.5 ml syrup 16.0/7.98/0.918; +1 dash Angostura in; +2 dashes 16.5/6.94/0.904). +5 ml syrup at 37.5% vodka goes OUT (8.99 g), hence half a teaspoon. Vodka swept 37.5-50%: 50% base is 19.8 (edge), so floor/ceiling 37.5-45%. Melt sweep 45-75%: acid 0.98 at 45% (first sips), ABV 14.4 at 75% (end). Syrup now raspberry with toasted cumin (round 4: the spark taken, Matrix pdf 52 surprise pairing; Wren and Hester cleared it); same sugar/acid as the plain raspberry syrup, values unsourced (Tomás estimate). Near miss owned: Worth the Trip's ginger-cumin syrup (another Matrix line, gin highball).",
+ "_status": "draft v2 (Tomás, round 4), story ruled LAB (Wren r3)"
+}

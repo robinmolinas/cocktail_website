@@ -1,0 +1,60 @@
+---
+topic: David Kirke, the Dangerous Sports Club and the Clifton bungee jumps (1 April 1979)
+last checked: 2026-10-01
+used by: outlaw-explorer (The Thrill Seeker)
+---
+
+# Fact card: David Kirke and the first Clifton bungee jumps
+
+Written 2026-10-01 by Hester for outlaw-explorer. Every quoted line below was read on screen, in the fetched page text, in the same session. **No library source**: `library.py` has no bungee jump, Kirke or Dangerous Sports Club (the only "bungee" hits are Der Raum's bottles, *Proper* pp. 140, 143). The whole card is secondary (web), labelled by tier.
+
+## Sources
+- **GWR**: Guinness World Records, "First bungee jump", record page (guinnessworldrecords.com/world-records/767684-first-bungee-jump; updated after Oct 2023). Secondary (record keeper).
+- **ITV-N**: ITV News, "'They waited to see what would happen to me': Man who did world's first bungee jump recalls the moment he made history", 1 April 2019 (Rupert Evelyn). Live page times out; read via Wayback (`web.archive.org/web/2019id_/…`). Secondary, Kirke interviewed.
+- **ITV-WC**: ITV News West Country, "The man who founded bungee jumping with illegal leap from Bristol's Clifton Suspension Bridge", 1 April 2019. Via Wayback. Secondary.
+- **NYT**: Alex Williams, "David Kirke, Prankster Who Made the First Bungee Jump, Dies at 78", *New York Times*, 3 Nov 2023 (read as syndicated by the *Seattle Times*). Secondary; relays BristolLive 2019, ITV 2019 and *Vanity Fair* 2013.
+- **WAPO**: Michael S. Rosenwald, "David Kirke, first bungee jumper and extreme sports patriarch, dies at 78", *Washington Post*, 2 Nov 2023 (read as syndicated by the *Union Leader*, 4 Nov 2023). Secondary; relays the *Bristol Post* and *Vanity Fair*.
+- **IND**: Andy Gregory, "David Kirke, pioneer of bungee jumping and Dangerous Sports Club, dies quietly in his bed aged 78", *The Independent*, 22 Oct 2023 (read on Yahoo News). Secondary; relays the *Bristol Post* 2019, ITV 2019 and *The Independent* 1998. Also Holly Patrick, *Independent*, 23 Oct 2023 (Yahoo): the £50 fine.
+- **TEL**: *Telegraph* obituary, Oct 2023, "edited version" reprinted by the Wellington College community site, 3 Jan 2025 (wellycom.net). Secondary.
+- **CL**: Adam Hay-Nicholls, "Flirting with danger", *Country Life*, Nov 2019 (author's repost, adamhay-nicholls.com, 30 Nov 2019; republished on his Substack 26 Jul 2024 with "when I went to meet him at his local pub … in 2019"). Secondary, named journalist who interviewed Kirke.
+- **VF** (unread, relayed only): Brett Martin, *Vanity Fair*, Aug 2013. Live and Wayback both failed. Quotes from it are carried as NYT/WAPO relays.
+
+## Facts
+| # | Fact (our words unless quoted) | Source | Tier | Notes |
+|---|---|---|---|---|
+| F1 | 1 April 1979, Clifton Suspension Bridge, Bristol: the first recorded bungee jumps. David Kirke first, followed by Simon Keeling, Alan Weston and Tim Hunt, all members of the Oxford University Dangerous Sports Club. | GWR; NYT; ITV-WC | secondary ×3 | Four jumpers, all men (fine to say "four friends"). |
+| F2 | The rope was not tested. Kirke, 2019: "We hadn't tested it, or anything like that. We were called the Dangerous Sports Club, and testing it first wouldn't have been particularly dangerous." | GWR; NYT (says BristolLive 2019); IND & WAPO (say *Bristol Post* 2019); CL (his words to CL, 2019, shorter) | secondary ×4 | Same quote, said to more than one outlet. Channel: the Bristol paper. |
+| F3 | **Counterweight to F2.** Kirke, same interview: "I was confident though. We had some very clever guys with us … they told me it was going to be okay, they had worked out the false extension curves of these ropes." | IND (fuller); WAPO ("I was confident though") | secondary ×2 | Untested, but **not uncalculated**: friends did the maths. Never "no checks at all", "pure blind faith" or "no idea whether it would hold". |
+| F4 | The feeling, in his words: as he tipped off the bridge, "The main thing going through my mind was 'Whoooppeeee.'" | NYT (relays BristolLive 2019) | secondary | Spelling as NYT prints it. **Different moment from F5's "whoopee": don't merge.** |
+| F5 | After the others came down (ITV 2019): "I thought, 'whoopee, nobody's dead'." And: "It was a sort of fairly casual easy-going recklessness." | IND (relays ITV) | secondary | **Fence: "nobody's dead" is out** (death). The "easy-going recklessness" line is usable in paraphrase. |
+| F6 | The friends waited: "They waited to see what would happen to me. … When I started bouncing up again, they all jumped." He adds, "I never realised this." | ITV-N (Wayback, read); NYT | secondary ×2 | **Fence (Wren): this is the Pioneer's shape** ("you went first, so they knew they could"). Also WAPO: "Mr. Kirke always went first on new stunts." Out of the reading, or one plain clause with no "so they could". |
+| F7 | He covered his face so his mother wouldn't recognise him in the papers next morning. **Scarf** (ITV-N, CL, IND) vs **mask** (GWR, ITV-WC). | ITV-N; ITV-WC; GWR; CL | conflict | Say "covered his face". Costume: top hat and tails (GWR, NYT), "the club's trademark morning suit" (ITV-WC), "a tuxedo" (WAPO). Say "top hat and tails". |
+| F8 | The invitations. CL, narration (not a quotation): "The printed invitations had already been posted, so there could be no chickening out. April Fool's Day, 1979; Clifton Suspension Bridge, Bristol. Bungee jumping at dawn. Morning dress." | CL (2019 repost; 2024 Substack identical) | secondary, single | **Tied to Clifton: yes, same paragraph.** **Agency not on the page**: passive "had been posted", no sender, no recipients. "Bungee jumping at dawn. Morning dress." reads like the card's wording but the page doesn't say so. "No chickening out" is Hay-Nicholls's phrase, not a member's. Also same page: they "assembled atop the bridge well past the prescribed hour". |
+| F9 | The authority's first answer: police at first thought it was an April Fool's joke; finding the four on the bridge, they arrested them "for breaking the local bylaws" (ITV-N). NYT: "charged them with breach of peace". | ITV-N; NYT | conflict on charge | Say "arrested". Don't name the charge. |
+| F10 | Kirke on the police: "They were very good humoured about it and they bundled us off to prison." (ITV-N). The IND relay: "bemused" officers. | ITV-N; IND | secondary | The authority laughed too. **Fence: the wine they brought to the cells is out** (drink-and-risk trap). |
+| F11 | Fine: "They let us off with a £50 fine." (Kirke to ITV, via IND 23 Oct 2023). NYT: "a small fine". GWR: "fined". IND 22 Oct: "we were fined or something". | IND; NYT; GWR | secondary | "A small fine" is safe; "£50" is single-relay of his memory: label "he said" if used. |
+| F12 | Time in custody **conflicts**: "that afternoon in a police cell" (CL), "the night in jail" (WAPO), "overnight" (Explorersweb, weak), "for a spell" (NYT). | — | conflict | Keep the duration out. |
+| F13 | The never-again condition: "released on condition that they would never perform the risky stunt again" (GWR); "released on the understanding that they would not do it again" (TEL). | GWR; TEL | secondary ×2 | Condition vs understanding: say "let go on the understanding they'd never do it again", or "promised not to". The exact legal form is unknown. |
+| F14 | They did it again. *San Francisco Chronicle* archive (Van Niekerken, 2017; captions 8 Oct 1979): on 9 Oct 1979 five British citizens bungee-corded off the Golden Gate Bridge, and "Four Brits were detained by police" (fence: the snapped line and the woman left stuck stay out). Also: "Six months later, he and other members bungee jumped from the Golden Gate Bridge in San Francisco, earning them more time in custody." (WAPO). GWR: club members "went on to repeat the stunt in the USA", Golden Gate and Colorado. TEL: "they went on to repeat the feat worldwide". | WAPO; GWR; TEL | secondary ×3 | "Six months later" is WAPO only; no other dated source fetched. **Don't convert to a month or season.** Royal Gorge televised on *That's Incredible!*: Wikipedia only, out. |
+| F15 | His own reason for the club (to *Vanity Fair*, 2013, about founding it, not about Clifton): "What we hated was the way that formal sports had all these little, important bourgeois instructors saying, 'You've got to get through five-part exams to do this.'" WAPO continues: "… We're interested in new things. You make a fool of yourself, your girlfriend leaves you, you lose money, but you may have advanced things a tiny little half-inch." | NYT; WAPO; Mental Floss 2015 (relays VF) | secondary ×3 relay | **Scope: the club's reason, not the jump's.** VF unread; carry "he told *Vanity Fair*". "Girlfriend" is about him, but keep the second line in paraphrase only (costs: ridicule, money). |
+| F16 | Looking back (2019, to CL, just after mentioning a serious back injury from a 1988 stunt): "I'd do it all again, though … Life is very long without those brief moments." | CL | secondary, single | **Fence: the injury context stays out** (Wren: no injury). The line itself is his, on the record. |
+| F17 | Not for money: "he has not made a penny from it" (ITV-WC, 2019); "Fortune, however, was not the point" (NYT); "nor did he care about fame or money" (WAPO). | ITV-WC; NYT; WAPO | secondary ×3 | Wren's point 1 (for the feeling). |
+| F18 | The gift, reported speech: "Interviewed years afterwards, Kirke said he was glad that his shenanigans had given people a bit of fun." | TEL | secondary | Reported, not quoted: "he said he was glad it had given people some fun". |
+| F19 | "It was all just a giggle." (Kirke to *The Independent*, 1998, about the club's stunts; quoted in IND 2023 beside the Mount Olympus hang-glide.) | IND | secondary | Scope: the stunts in general. |
+| F20 | **Single source, contested:** IND says police had been "staking out the bridge on the advice of concerned friends and family members" and had briefly "wandered off" when he jumped. | IND only | secondary, single | **Conflicts with ITV-N** (police at first thought it an April Fool's joke). Keep out unless a second source turns up. Tempting for the persona ("for their own good"): do not build on it. |
+| F21 | The bridge today: bye-laws prohibit bungee jumping there; the Bridge Trust "does not condone or endorse" it. In 2000 Kirke jumped there again for the 21st anniversary. | ITV-WC; GWR | secondary | Legality of the 2000 jump not stated. |
+| F22 | Inspiration: Vanuatu land diving (Pentecost Island), seen on television (WAPO); GWR: "Kirke claimed". | GWR; WAPO; NYT | secondary | Out: another culture's rite as a costume, and IND ties it to a fatal 1974 demonstration. |
+
+| F23 | Released "on the promise they would never do it again"; BBC *Inside Out* film (2014) "shows the Dangerous Sports Club practising in a garage on the morning of the jump". | Corbett Keeling news page, 10 Nov 2014 | weak secondary | Third wording for F13. Garage practice: never say "unrehearsed". |
+| F24 | Wikipedia ("Bungee jumping") names Geoff Tabin, a climber, as having tied the ropes. | Wikipedia | lead only | Unverified; out. |
+
+## Legends / doubtful
+- L1 "As a point of honor, they did not test the rope, in order to keep the adventure and suspense alive" (Explorersweb): a gloss of motive, not his words. F2 is his.
+- L2 Royal Gorge "highest jump 291 m" (CL), *That's Incredible!* (Wikipedia): unverified here. Out.
+- L3 Hulton's "I was always terrified, but … if Uncle Dave could do it" (CL): about the club's stunts generally, another person. **Struck by Wren r1.**
+
+## Fences (all pours)
+- Champagne in his hand, the all-night party, the hangovers, the wine in the cells: **out** (drink-and-risk trap).
+- Kirke's death (2023, in bed), the 1990 fraud sentence, the 2002 trebuchet death, the 1988 back injury, the tails "to prepare them for the undertaker" joke, "nobody's dead": **out**.
+- "First" is the Pioneer's ground (*Nothing to It*): one plain clause at most, nothing about everyone who followed (AJ Hackett, the industry).
+- Height: 76 m (GWR) vs 80 m (CL). Say "high over the river" or "about 75 metres".

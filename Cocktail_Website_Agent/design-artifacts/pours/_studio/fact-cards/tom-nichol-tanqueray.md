@@ -36,6 +36,10 @@ Sources read on screen 2026-10-01:
 | F16 | Gin Guild Lifetime Achievement Award, 28 May 2015, at the Gin Industry Annual Dinner, as he retired after 42 years. His words: unexpected; "only the second person" to receive it; "My father would have been very proud of me." | GG (news item + profile) | secondary (trade body) | The dated moment of being seen. |
 | F17 | Tanqueray London Dry "purportedly" has only four botanicals: juniper, coriander, angelica and liquorice. Recipes are guarded secrets. | OX-T pdf 1986 | primary | Keep "said to". |
 | F18 | Tanqueray's wheat neutral spirit is made in another part of Cameronbridge (the same base as Smirnoff). | DGP (undated) | secondary | Present tense, undated. |
+| F19 | Tanqueray London Dry's strengths: 47.3% is "the original" (US: 47.3%, The Liquor Barn, 2026); the lower-strength bottling came in 1999 at 43.1%, later 41.3% (*Difford's* product page; Tanners sells "41.3% vol"). | *Difford's* product page; retailers | secondary | "EU" strength unsourced. Tanners' details field still says 43.1%. |
+| F20 | "Master distiller" is "a term of art": anyone can be named one, and today the job is often as much brand ambassador as distillery manager. The old apprenticeship behind the title was "sometimes nepotistic". | Oxford MASTER DISTILLER pdf 1261 (Robertiello) | primary | The title alone doesn't prove the gift; tell what he made (F9, F11). |
+| F21 | The licorice plant is a legume. | Oxford pdf 1673 (roots entry) | primary | Tomás's nuts call rests on this plus his own caution. |
+| F22 | Neutral spirit is the base of most gin and nearly all vodka. | Oxford NEUTRAL SPIRITS pdf 1386 | primary | Supports "the plain spirit other drinks are built on". |
 
 ## Conflicts
 | # | issue | ruling |

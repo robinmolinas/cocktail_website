@@ -1,0 +1,27 @@
+{
+ "pairing": "regular-guy-innocent",
+ "personality": "The Bumpkin",
+ "archetypes": "Regular Guy × Innocent",
+ "date": "2026-10-01",
+ "batch": "regular-guy",
+ "name": "Good as It Is",
+ "tagline": "Impressing you is hard. Delighting you is easy.",
+ "epigraph": "In Brazil, the law spells out what goes in a caipirinha. It's a short list.",
+ "glassware": "rocks glass (double old-fashioned, about 300 ml), filled with cracked ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "caipirinha.md",
+ "language_row": "Wren's 4-gram runs (the lint's own `ngrams()`) against every pour's guest text: clean after her cuts (seven collisions in v1, among them *The Other Berry*'s \"what you give people\"). Never \"simple\", \"naive\", \"easily pleased\", \"childlike\", \"bumpkin\", \"out loud\", \"go first\" or \"little hillbilly\"; the name's root word said once, as \"a word for someone from the countryside\", never \"affectionate\" and never claimed back. \"Builds to the end\" dropped (*No Accident*'s motif). Never \"exclusively\", \"banned\" or \"follows the law\". ✓",
+ "sources": "Studio fact card `_studio/fact-cards/caipirinha.md` (F1–F12, C1–C2, L1–L3, G1): *Oxford Companion to Spirits and Cocktails*, CAIPIRINHA (pdf 383–384, David Wondrich), CACHAÇA (pdf 377–380, Frederick H. Smith), DAWA (pdf 631); Brazil, Decreto nº 4.851 (2 Oct 2003), nº 6.871 (4 Jun 2009, art. 68 § 5) and nº 12.709 (31 Oct 2025, art. 74), read on planalto.gov.br, 2026-10-01. Craft: *Cocktail Codex* pp. 112, 115, 137; *Joy of Mixology* pdf 151, 173, 263. Audits: `work/regular-guy-innocent/historian-audit-v1.md`, `-v2.md`. Room notes: `work/regular-guy-innocent/`.",
+ "names_note": "**Good as It Is**, the room's pick (all three, r5): the drink needs nothing added and neither does the guest, which answers this person's fear of being \"improved\"; true on the record, since the story is people turning down additions. *That's Good* was Tomás's pick in r3–r4 (the guest's own voice, mouth full), conceded in r5: it praises the drink, not the person, and reads like a review. *This One* (Hester's) sounds like \"which one?\" across a bar, conceded. Also offered: *Mouth Still Full*, *Just the Three*, *Took the Ice*, *Three Things*, *Say It First*, *Seconds*; *Nothing Fancy* struck (modest is the fear).",
+ "open_items": [
+  "**Two accounts in one book:** Wondrich (CAIPIRINHA) tells the caipirinha as a third way beside the Batida Paulista; Smith (CACHAÇA) makes the Batida and the Caipirinha one drink, on the global stage in the 1970s (C1). The reading signposts Wondrich (\"As one historian tells it\") and gives no decade abroad.",
+  "**The law's scope:** the decrees define the caipirinha as a product made and sold (\"industrializada\", 2025); they don't govern a bar or a kitchen. \"Exclusivamente\" is 2003's word only. The reading says Brazil's law defines it, never that our glass follows it. The glass's 17.8% happens to sit in the decrees' 15–36% band: Checks only.",
+  "**The name:** *caipirinha* roughly \"little hillbilly\" (F7) never reaches the guest; the gloss is Oxford's \"a person from the rural hinterlands\", said once. Nobody on record named the drink or took the word back, so the guest makes the link.",
+  "**No added spark, on purpose:** any addition would be the kind the story's drinkers turned down; the drink is interesting through the method (granulated sugar abrades the zest, *Joy* pdf 173; pieces left in, *Codex* p. 137). The sugar gets a taste reason, never a history one.",
+  "**Muddled lime is unsourced as a volume:** modelled as 20 ml juice from 6 of 8 pieces; 17.5–20 ml in range, 22.5 an edge, 15 or 25 ml OUT (Tomás's sweeps). Cachaça at 38–45% (48% edges the strength).",
+  "**Dossier only:** cures, the cholera ration, the 1918 flu legend (G1); the enslaved and Burton's grades; Kenya's Dawa (C2); the US; Andrade's tone (Wondrich's English, unknown).",
+  "**History share:** about 45% of yours (Wren). Noted for Robin."
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "pairing": "regular-guy-sage",
+ "personality": "The Everyman",
+ "archetypes": "Regular Guy × Sage",
+ "date": "2026-10-01",
+ "batch": "regular-guy",
+ "name": "Tried and True",
+ "tagline": "Most of what you know, somebody told you. You still remember who.",
+ "epigraph": "In 1947, one bar guide printed five different Blackthorns. This glass is built on one of them.",
+ "glassware": "small stemmed glass (about 150 ml), chilled, no ice",
+ "contains": [
+  "nuts"
+ ],
+ "veto_free": false,
+ "reading": "psychologist-reading-v2.md",
+ "card": "sloe-gin.md",
+ "language_row": "Wren's 4-gram runs (the lint's own `ngrams()`) against every pour: clean in v2. Clear of *Whoopee*'s sloe-gin wording (Wren r1). No jar (*Good for Years*), no invented giver (none is named on any page). \"Continues\" only side by side, never as a rescue (Hester). whoYouAre cut from 217 to 190 words; yours 2's maker has no pronoun. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/sloe-gin.md`: *Oxford Companion to Spirits and Cocktails*, SLOE GIN (pdf 1814, Miller & Brown), PRUNELLE (pdf 1573), BLACKTHORN COCKTAIL (pdf 280: the 1947 guide's five Blackthorns; Vermeire, 1922); Danielle Ellis, *Severn Bites* (2016, updated 2025; secondary, weak) on the World Sloe Gin Championships at the George Inn, Frant, quoting the 2016 press release. Craft: Dave Arnold, *Liquid Intelligence* (the Blackthorn, card S22). Audits: `work/regular-guy-sage/historian-audit-v1.md`, `-v2.md`. Room notes: `work/regular-guy-sage/`.",
+ "names_note": "**Tried and True**, the room's pick (all three, r5 vote): the person in three words, who has tried most of it themselves and hands on what proved true; a saying they'd use, easy to order. Also considered: *Who Taught You* (the giver kept in the room), *Worth Keeping* (close to *Kept*, outlaw-innocent), *Sixty Between Them* (names the recipe, not the person).",
+ "open_items": [
+  "**For Robin, shared table:** Tomás changed `sloe_gin`'s acid in `dps-tools/data/ingredients.json` from 0.5% to 0% (the 0.5% was his own unsourced guess in the outlaw-explorer room; 0% derived from *LI*'s Blackthorn). This moves *Whoopee* (outlaw-explorer) to a balance edge; its file was not touched.",
+  "**Contains nuts (safe side):** sloe gins can contain almond, and some makers crush the stones (card S5–S8). The recipe note says so.",
+  "**No named giver:** the plan's \"handed-down home infusion\" has no named person on any page, and none is invented. The championship is told from one maker's blog (Ellis, secondary), with the press release she reproduces.",
+  "**The rule is the drink's interest:** sloe gin and gin always add up to 60 ml, the split set by tasting the sloe gin (swept in range or at an edge for sloe gin 20–30% and gin 43–47%). The sloe gin's sugar is Tomás's estimate. No legal sloe-gin minimum strength is on any page. Trader Vic's measures aren't in the library. Balance: stirred, finished 22.3% / 5.60 g, in range.",
+  "**History share:** y1 + y2 about 160 of about 480 words, plus a clause in y4: under half (Wren). The Ellis strand (A7–A9) is secondary and weak: past tense, never \"still held\", never \"beat the experts\"."
+ ]
+}

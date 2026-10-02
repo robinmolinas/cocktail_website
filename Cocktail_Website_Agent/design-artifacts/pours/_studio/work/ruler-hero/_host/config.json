@@ -1,0 +1,25 @@
+{
+ "pairing": "ruler-hero",
+ "personality": "The Noble Ruler",
+ "archetypes": "Ruler × Hero",
+ "date": "2026-10-01",
+ "batch": "ruler",
+ "name": "A Place Kept",
+ "tagline": "When you say there's room for everyone, there is.",
+ "epigraph": "Red wine floats on this sour. In 1883, a bartender said wine made his sours better.",
+ "glassware": "small stemmed wine glass (about 250 ml), chilled, no ice in the glass",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "jim-beam-repeal.md",
+ "language_row": "Wren's 4-gram runs against every pour's reading, tagline, epigraph and closing line: clean on v3 after two lint-only rewordings in round 5 (yours 1 \"Through the late 1800s it made\", clearing *caregiver-sage*; yours 3 \"what Jim told them\", clearing *caregiver-innocent*); \"we don't know what\" (shared with *innocent-hero*) kept as Robin's hedge form. Tomás's closing line clear of *Night Light*'s \"let one of them know\" after v1.2. Tagline, epigraph and name share no word. Every \"he\" in yours 1–4 is Jim Beam and \"his sours\" in the epigraph is the 1883 bartender's (lint warnings accepted by Wren). History about 45% of yours. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/jim-beam-repeal.md`. Oxford Companion, JIM BEAM (pdf 1105–1107, Lew Bryson), primary (library). Chuck Cowdery, \"What's in a Name? (Beam's Version)\", *The Chuck Cowdery Blog*, May 2024, secondary (named bourbon historian). *Imbibe!* (pdf 96), the claret snap on the Chicago Whiskey Sour, primary. Oxford, New York Sour (pdf 1387). *Cocktail Codex* pp. 106, 257. *The Flavor Matrix* (pdf 88), red wine with corn.",
+ "names_note": "*A Place Kept* (Wren's pick; Tomás and Hester agree), over *Back to Work* (Tomás's second, leans on the family's remembered line), *Kept On* and *Minded*; *The Old Name* struck (gives the reveal away).",
+ "open_items": [
+  "Plan guard loosened by Hester in round 2: the Ruler plan allowed only one Repeal-1933 story in the family (Duffy or Beam). Hester, who wrote that guard, now lets both run on conditions noted in `plans/ruler.md`. For Robin to check before ruler-sage's or the Legend's room tells Duffy.",
+  "The family line \"time they all went back to work\" is the family's memory (Cowdery's account), paraphrased, never quoted.",
+  "Family shape count: 7 of the Ruler family's 11 drinks are Daiquiri-family (Hester's note in `plans/ruler.md`).",
+  "Jim Beam recommended as the bourbon; added to the ingredient table this room (distilled grain spirit, not `gluten`).",
+  "balance.py shakes the 15 ml wine float in with the ice (shaken isn't a staged style), so the tool shows two ABV edges; Tomás's hand figures for the drink as made are all in range (Checks)."
+ ]
+}

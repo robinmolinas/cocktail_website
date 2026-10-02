@@ -1,0 +1,27 @@
+{
+ "pairing": "ruler-explorer",
+ "personality": "The Reformer",
+ "archetypes": "Ruler × Explorer",
+ "date": "2026-10-01",
+ "batch": "ruler",
+ "name": "Not the Same",
+ "tagline": "People think you want to change it. You're the one who loves it most.",
+ "epigraph": "A Chicago bar guide of 1900 says to coat the glass. The drink came decades later.",
+ "glassware": "cocktail coupe (about 200 ml), chilled, coated inside with apricot eau-de-vie, fine sugar on the outside of the rim",
+ "contains": [
+  "nuts"
+ ],
+ "veto_free": false,
+ "reading": "psychologist-reading-v3.md",
+ "card": "henry-africa-fern-bars-lemon-drop.md",
+ "language_row": "Wren's 4-gram runs (the lint's own `ngrams()`) of epigraph, whoYouAre, yours and closing line against every pour's reading, tagline, epigraph and closing line: clean on v3, after rewording three of Hester's audit phrasings that collided (*In a Minute*'s \"by his own account\", *For Good*'s \"by the early 2000s\", *Curtain Call*'s \"among the things it\"), with no claim changed. No \"we\" or \"our\" in guest text; \"coat\", never \"rinse the glass\"; no Regan run over four words; no \"overthrow\", \"tear down\", \"both sides\", \"made to choose\", \"make it last\" or \"always been like that\"; y5 avoids \"keep\" so the closing line owns it. whoYouAre 180 words, yours 500, history 48%. Every \"he\"/\"his\"/\"him\" in yours 1–4 is Norman Hobday (lint warnings accepted by Wren). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/henry-africa-fern-bars-lemon-drop.md`: *Oxford Companion* FERN BAR (pdf 995), pdf 770, pdf 1332, LEMON DROP (pdf 1173–1175, Martin Cate), pdf 1565 (Gilded Age dates), APRICOT BRANDY (pdf 133), ALMOND LIQUEURS (pdf 94); Sam Whiting, *San Francisco Chronicle* obituary of Norman Hobday (2 March 2011, quoting a Chronicle interview); Robert Simonson, *A Proper Drink* p. 52; James Maloney, *The 20th Century Guide for Mixing Fancy Drinks* (Chicago, 1900; archive.org), the Bell-Ringers; *National Police Gazette* 1902–1903. Craft: Gary Regan, *The Joy of Mixology* pdf 41, p. 137; *The Flavor Matrix* pdf 80 (Citrus), pdf 236 (Stone Fruit), rendered; *Cocktail Codex* pp. 37, 118. Audits: `work/ruler-explorer/historian-audit-v1.md`, `-v2.md`. Room notes: `work/ruler-explorer/`.",
+ "names_note": "**Not the Same**, the room's pick (Wren's; Tomás moved to it in round 4; Hester flagged *Kept Open* against the bar's 1986 closing): it's the sentence this person always hears, and the reading answers it. Con, for Robin: it is the third name starting \"Not\" (*Not Only the Way*, *Not Too Polite*); neither Wren nor Tomás found a better one. Also considered: *Kept Open* (Tomás's first pick; says the place stayed open, and \"the room kept open\" is in *In One Piece*'s image brief), *Bright and Cheery* (Hobday's words; the bar, not the guest), *For What They Cost* (gives the hidden away), *Same Song*, *Swarming In*.",
+ "open_items": [
+  "**Hobday's motive, as recorded:** his stated reason for the plants was cost (\"for what they cost\", SF Chronicle 2011, secondary). The love on record is for his own bar and its name, taken for life (Oxford pdf 995). \"It was never the whole reason\" is signposted as ours. \"First fern bar\" is contested (the Trident, three years earlier) and stays out; the year he sold (1983 or 1985) is out; the 1986 closing is solid.",
+  "**The original build is contested:** *A Proper Drink* p. 52 gives vodka, triple sec, lemon and simple; Cate's Oxford recipe has no liqueur, and his fresh lemon is an inference. Never \"his recipe\" or \"his lemon\". The ratio (60 / 22.5 / 22.5) is Tomás's; Cate's printed 60/30/45 reads OUT. A *Proper*-style version with 15 ml Cointreau also balances (two acid edges), if Robin prefers it.",
+  "**The coated glass is a swap, said as ours:** Maloney's 1900 Bell-Ringers coated the glass with a sweet red crème d'apricot; ours is a clear, dry apricot eau-de-vie (Oxford pdf 133: \"less sweet and more delicate\"). Half a teaspoon is his own measure for two Bell-Ringers. \"Tip nothing out\" and the outside-only sugar band are our build. Regan's \"Gay Nineties\" and \"long-gone category\" stay out of guest text.",
+  "**Edges:** vodka must be 40% or stronger (at 37.5% the drink shows three edges); the sweet apricot-flavoured brandy edges on sugar, so the recipe names the eau-de-vie.",
+  "**Contains nuts** (apricot kernel, safe side; Oxford pdf 94), so not veto-free. The AD-4 floor counts approved pours and is met."
+ ]
+}

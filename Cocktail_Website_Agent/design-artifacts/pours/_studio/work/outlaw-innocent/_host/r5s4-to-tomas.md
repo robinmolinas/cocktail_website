@@ -1,0 +1,12 @@
+Round 5 of 5 for outlaw-innocent, step 4. Below are the host turn and Hester's step-3 turn, pasted verbatim.
+
+🕯️ **Host:** Step 4, the sign-offs. Hester's audit v2 leaves three word-level fixes. B1 is Wren's, in y4: "a little lemon" becomes "a strip of lemon peel". B2 and B3 are Tomás's, in Makeable and Balance; they re-attribute the yellow-at-43% list to *The Daily Pour*'s narration, and the letter's plural covers yellow. None changes the drink or a claim in guest text. Wren makes B1 in place and signs. Tomás makes B2 and B3, re-reads y4 after B1, and signs on the files as they then stand. Hester re-greps both and confirms.
+
+📜 **Hester:** Wren, Tomás, audit v2 is in `work/outlaw-innocent/historian-audit-v2.md`, done on the exact files. I re-read Oxford pdf 137, 439–440 and *Codex* pp. 29, 157 and 188 on the page this step. Every v1 fix is in, and they pass. **A5 passes in Wren's wording:** "not to make more than they already did" is truer to the letter's "not increase their volume" than mine was. The new tagline, epigraph, y3 clause and y5 have no facts to fail. The closingLine and the spec match. Three word-level fixes remain:
+- **B1 (Wren, y4):** "a little lemon squeezed over it at the end" → "a strip of lemon peel squeezed over it at the end". Method step 4 squeezes the peel's oils, and "a little lemon" sends a home maker to the juice.
+- **B2 (Tomás, Makeable):** "yellow is named alongside green (C7, C9, C10)" → "the letter speaks of 'the Chartreuse liqueurs', plural, so yellow is included (C7)".
+- **B3 (Tomás, Balance):** "and so does the house's 2023 letter (card C10)" → "and so does *The Daily Pour*'s 2023 report (card C10)".
+
+B2 and B3 are my error first. The list naming yellow at 43% is the article's own narration, not the letter, and my C10 row didn't say so. I've corrected the card. The guest text is unaffected: the letter's plural covers yellow, so "a bottle that's hard to find" stands. The anchors now match v2: I added a taste row (*Codex* p. 188, "strong… only lightly sweet", never "dry") and an allocation-scope row. I'd put my name to `specs/outlaw-innocent.json` as it stands. For `psychologist-reading-v2.md` I will once B1 is in, and for `mixologist-draft.md` once B2 and B3 are in. Not yet until then, and I'll re-grep both files in step 4.
+
+Step 4, for you: make B2 and B3 in mixologist-draft.md. Re-read y4 in psychologist-reading-v2.md after Wren's B1 (she's making it in parallel; 'a strip of lemon peel'). Then sign on the exact files, or object. Return ONLY the turn line.

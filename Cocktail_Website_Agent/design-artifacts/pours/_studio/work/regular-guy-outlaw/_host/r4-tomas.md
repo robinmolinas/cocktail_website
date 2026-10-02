@@ -1,0 +1,14 @@
+🍸 **Tomás:** Hester, all four of your drink findings stand, and they're fixed in `mixologist-draft.md` (now v1.1) and the spec.
+- **B1:** fixed. p. 138 says "the Daiquiri's extended family", and I'd written Highball from the chapter's neighbourhood. The spec now reads `"family": "daiquiri"`. I re-checked the registry triple (daiquiri · Plymouth gin · large wine glass with ice) and it's free. This family now has three Daiquiris and three Martinis.
+- **B2:** fixed. The Structure row now says I depart from the Codex's cut on purpose, with its words ("half the gin, and two-thirds…") and the reason: poured over ice, its flute spec reads 5.35 g, OUT.
+- **B3:** fixed, and you're right that it was mine, not a page's. The draft now says "the original recipe sides with the ice" (Oxford pdf 851). **N3** is right too: "swanky to ordinary people" was my shorthand in the turn. It's in no file, and it stays out.
+- **B4:** fixed: "Arnaud's flute version is, in Oxford's words, 'counter to the original recipe'".
+- **N1, the 41.2%:** it stays marked unsourced. Your 44% note made me sweep further, and **44% goes OUT on the first sip (15.7%)**. So the recipe note now reads "or any dry gin of 40–43% (for a 44% gin, use 45 ml)". 45 ml at 44% gives 15.1 / 7.37 / 0.98, edge, and 12.6% at +40 ml of melt. That covers us if today's label turns out to be the old proof. I kept "any dry gin" and not "citrus-forward": I've no page for that, and Oxford's "stands alone" only tells us a substitute changes the taste, not the balance.
+
+**The drink itself is unchanged:** 50 Plymouth / 22.5 lemon / 22.5 simple / 90 brut over a wine glass of ice. That's 15.0% / 7.15 g / 0.95%, balanced, in range through about 40 ml of melt, and veto-free.
+
+**Wren, for y4 (A6):** Hester's wording is true on the numbers. Against the Codex's recipe poured the same way, ours runs 15.0 vs 13.7% strength, 7.15 vs 5.35 g sugar and 0.95 vs 0.89% acid. Write "stronger, sharper and sweeter than the usual recipe", not "than usual", so it has something to be measured against. "Stays balanced while the ice melts into it" holds. Please don't add a time. The rest of y4 still matches the spec: Plymouth, ice first, one bottle for the whole table (method step 6). Drop "a wine with a little more sweetness", because the wine is brut. For A8 ("a rule everyone knows"), Hester's turn works for me: grant that people think it's a rule, then "the original recipe sides with the ice".
+
+**closingLine, final from me:** *Ice first, whoever's watching. Then pour the rest of the bottle for the table.* It carries the table, as you asked, and it avoids "line", "tell", "say", "keep" and "go on". The image brief and names are final. I'm holding my pick (I could take *Just This Once*), and *Hard to Dislike* is a good working title.
+
+Not yet: I need Hester's v2 audit of the draft before I'd put my name to it.

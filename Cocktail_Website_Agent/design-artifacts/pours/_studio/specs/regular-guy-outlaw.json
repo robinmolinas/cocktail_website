@@ -1,0 +1,35 @@
+{
+  "pairing": "regular-guy-outlaw",
+  "family": "daiquiri",
+  "style": "collins",
+  "glass": "large wine glass (about 500 ml), filled with ice",
+  "serves": 1,
+  "ingredients": [
+    {
+      "key": "plymouth_gin",
+      "ml": 50
+    },
+    {
+      "key": "lemon_juice",
+      "ml": 22.5
+    },
+    {
+      "key": "simple_syrup",
+      "ml": 22.5
+    },
+    {
+      "key": "champagne_brut",
+      "ml": 90,
+      "stage": "top"
+    },
+    {
+      "key": "water",
+      "ml": 0,
+      "stage": "top"
+    }
+  ],
+  "garnish": [
+    "lemon_peel"
+  ],
+  "_notes": "v1.1 (round 4, Ford story ruled). A French 75 built over ice in a large wine glass. Codex p. 138: sours with bubbly ingredients are 'in the Daiquiri's extended family' (sub-families Collins, fizzes, sparkling-wine drinks); p. 142 French 75 (30 Plymouth/15/15/120, flute). We depart from the Codex's cut on purpose (50/22.5/22.5/90): over ice its flute spec reads 5.35 g OUT. Oxford FRENCH 75 pdf 851: traditional recipe strained into a highball glass filled with cracked ice. Judged as collins (25% shake dilution, wine stage top). Water line (0 ml, stage top) models the glass ice's melt for sweeps: 0/20/40 ml in range, 50 edge, 60 OUT. Plymouth 41.2% = label ABV, unsourced (Hester N1: no page gives today's label; Oxford pdf 1541 says the 1998 owners returned it close to its original proof; 44% is the 1860 bottling, pdf 1538); sweep 40-43% covers it, 44% edge first sip. Brut sugar/acid unsourced standard values."
+}

@@ -1,0 +1,24 @@
+{
+ "pairing": "ruler-jester",
+ "personality": "The Charismatic Leader",
+ "archetypes": "Ruler × Jester",
+ "date": "2026-10-01",
+ "batch": "ruler",
+ "name": "Who's In?",
+ "tagline": "With you it feels like a party. It's also going somewhere.",
+ "epigraph": "A bartending school went bust. Its party bar didn't. This glass is that bar's size.",
+ "glassware": "a big glass (about 400 ml, a 14-oz highball or double old-fashioned), chilled in the freezer, packed with crushed ice and a straw",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "lab-london-academy-of-bartenders.md",
+ "language_row": "Wren's checks on v3: whoYouAre 181 words, yours 502, history 48% of yours, epigraph 15 words; 4-grams of epigraph, whoYouAre and every yours paragraph clean against every pour file and the registry; y5 and the closing line share no 4-gram; no he/she/we/our or bare \"yours\" in guest text (lint: 0 warnings). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/lab-london-academy-of-bartenders.md`. *A Proper Drink* (Simonson), pp. 97–101, reliable secondary (participants on the record). Oxford Companion, ANKRAH, DOUGLAS (pdf 119), primary. *The Spirits Business*, 17 Aug 2021, web, secondary. *Cocktail Codex* p. 134 (the built Mojito method). *Liquid Intelligence* pp. 44, 81. *The Flavor Matrix*, berry entry (pdf 52): cumin as a surprise pairing.",
+ "names_note": "*Who's In?* (all three, round 5), over *Change of Plan* (Wren's v1 pick, which Tomás took up in round 4 as Wren moved to *Who's In?*, the names crossing), *Best Idea Yet*, *Along for It* and *Right Then*.",
+ "open_items": [
+  "Hester's optional wording note on the epigraph, not taken: read cold, \"This glass is that bar's size.\" can parse as the size of the bar itself; her alternative \"Its glasses were this big.\" changes no fact. Wren's call; Robin may prefer it.",
+  "New ingredient rows this room (Tomás's numbers): raspberry_syrup, raspberry_cumin_syrup, raspberry_fresh, mint_leaves_left_in.",
+  "The raspberry is the room's choice (LAB's backbar was \"like a greengrocer\"), said as \"I chose\"; the cumin is the Flavor Matrix's berry-family surprise pairing, not raspberry by name. *Worth the Trip* also uses cumin, in a different cocktail.",
+  "The jiggers stay out of guest text (contested, *Proper* p. 100); the 14-oz glass line is Turner's, and he left before the bar opened, so the glass is cited, not his voice."
+ ]
+}

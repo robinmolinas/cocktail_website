@@ -1,0 +1,30 @@
+# Anchors: ruler-regular-guy, The People's Representative (Hester, round 3; revised round 4 with audit v1)
+
+Story: the Vieux Carré. A city that had swapped brandy for whiskey, and a head bartender who put the whiskey and the brandy into one glass at the same measure, under the old quarter's name. Card: `_studio/fact-cards/vieux-carre-walter-bergeron.md` (F and C numbers below). Library: Oxford Companion (`oxford`, primary), *Imbibe!* (`imbibe`, primary), *A Proper Drink* (`proper`), *Joy of Mixology* (`joy`), *Liquid Intelligence* (`li`). Web: archive.org full-text OCR highlights of Arthur's 1937 book (1984 reprint), labelled incomplete. **One motive is on record (F12, round 4): he made the drink, he said, to honour the French Quarter. No row says why he paired the two spirits, or which side he was on.**
+
+| kind | fact | meaning | speaksTo |
+| --- | --- | --- | --- |
+| the split | New Orleans "was a Brandy Julep town" before the Civil War. In the decades after it the city "became much more Americanized", and an 1885 *Times-Democrat* interview had a bartender calling "brandy drinking in New Orleans… a thing of the past": whisky had "displaced it" (*Imbibe!* pdf 182). F9 | The city's own drink was replaced by the newcomer's. The split is a change in what the city drank, told through the drinks, never through groups of people. It's 1860s–1885, about fifty years before the glass: never a live quarrel at the bar (C2). | a real split |
+| person | Walter Bergeron (1889–1947), then head bartender at the Monteleone Hotel, who "had worked at the bar before Prohibition and returned upon Repeal" (Oxford VIEUX CARRÉ, pdf 2102). F2 | Someone with standing behind the city's bar. His own background and side aren't on record (C1). Say "the Monteleone's bar", never "the Carousel Bar" (C11). He's never Victor "Trader Vic" Bergeron (C8). | gesture by someone with standing |
+| the gesture | He created the Vieux Carré "in the 1930s" (Oxford pdf 2102; *Joy* pdf 402). The 1937 recipe: ⅓ jigger each of rye whiskey, cognac brandy and Italian vermouth, with ½ tsp Bénédictine and a dash each of Peychaud's and Angostura (Arthur 1937, 1984 reprint, archive.org OCR highlight). Oxford's modern spec: 30 ml each, 5 ml Bénédictine, 2 dashes each bitters; *Proper* p. 255: ¾ oz each. F3, F5, F6, F10 | **Our reading** (signposted): the whiskey the city had taken up and the brandy it used to drink, poured at the same measure in one glass, neither cut below the other. It's **three** equal parts (vermouth too), never "half and half" (C4). Whether "full strength" or "the same measure" is Wren's call; "same measure" is the literal page. No reason for the pairing is on record (C7 revised); the drink's motive is the next row but one. | both sides at full weight |
+| the name | "named for the French Quarter"; it "translates as 'old square'" (Oxford pdf 2102; *Joy* pdf 403). F4 | The glass carries the old quarter's name. **Who chose it isn't on record** (C3): "it carries the old quarter's name", never "he named it". Our reading: the newcomer's spirit sits under the old city's name. | colours kept on |
+| motive (on record) | Arthur 1937: Bergeron "takes special pride in mixing" it; "He originated it, he says, to do honor to the famed Vieux Carré, that part of New Orleans where the antique…" (archive.org OCR highlight of the 1984 reprint, matched in Pearce 2017). F12 | His reason for the drink, in his words as Arthur relays them: to honour the old quarter. Tell it with the channel ("he told the man who first printed it" or "he said"). It gives **no** reason for putting the two spirits together: that stays "I like to think". | the old side's colours kept |
+| date | Its recipe "first appeared in print in 1937" (Oxford pdf 2102, citing Stanley Clisby Arthur). F3 | Say "the 1930s". Never "1938" (C6). | — |
+| lineage | Oxford: "A Manhattan variant" (pdf 2102). F1 | One clause at most (Wren's guard: Ciro's Manhattan is the Magnetic Leader's). | — |
+| the glass | Oxford: "typically served on the rocks", over fresh ice in a large rocks glass; "serving it up makes for a lovely presentation" (pdf 2102). F5 | Both serves are on the page. Tomás's choice. Never "the way Bergeron served it" (C13). | drink as proof |
+| spark | Cardamom on both the Grain wheel (p. 127) and the Grape wheel (p. 131) of the *Flavor Matrix*, rendered (F14). Steep scaled from *Codex* p. 288 (10 g/750 ml, ~12 h, room temperature; p. 95 on vermouth-strength liquids) (F15). | Our addition, said as ours: the shared part of the glass (the vermouth) changes, and neither spirit does. Scope: "the grain behind the rye and the grape behind the cognac", never "rye and cognac pair with cardamom". Never Bergeron's. | drink as proof |
+| bitters (Tomás's spark side) | Peychaud's and Angostura are both in the 1937 recipe (F6). | Name them as ingredients only. The pairing of both bitters is also O'Reilly's Sazerac (*Imbibe!* pdf 182): no Sazerac (C9). | — |
+
+## Guards (keep out of guest text)
+- **The hotel's legend** ("an homage to the different ethnic groups of New Orleans", Seidman relaying the hotel; Pearce 2017 "a tribute to the…"): brand tier, and it falls in Wren's no-race zone. Dossier only (C5).
+- "Nearly forgotten locally, even in the hotel" (pdf 2102) stays out (Wren).
+- No "Creole" or "American" as labels for people; *Imbibe!*'s "old Creole city… Americanized" is described as the city's drinking, in our words.
+- No Sazerac, absinthe or sugar cube (Wren, Tomás).
+- Repeal: date only, and only if Duffy (Legend) isn't telling Repeal.
+- "Rye whiskey", never "American rye", for Bergeron's glass (C14).
+- Don't cite LI p. 130 for equal measures: it runs the vermouth at 23.25 ml (F11, C12).
+
+## Legends and inferences
+- **Inference (signpost):** that the glass mends the brandy-to-whiskey split. No page links Imbibe's 1885 to Bergeron's 1930s.
+- **Inference (signpost):** any reason Bergeron had *for pairing rye and cognac*. His reason for the drink is on record (F12, to honour the Vieux Carré); my r2-r3 "no motive on record" was mine, and it's struck.
+- **Unknown:** Bergeron's own side or background; who named the drink.

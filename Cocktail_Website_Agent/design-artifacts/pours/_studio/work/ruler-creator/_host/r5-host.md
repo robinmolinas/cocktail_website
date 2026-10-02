@@ -1,0 +1,1 @@
+🕯️ **Host:** Crossing named: Wren wrote y2 in its safe form before Hester's "wasn't keen on" ruling arrived; Hester rules on the text as it stands. Assembled pour (reading v3, draft v1.3, audit v2): 0 errors; four pronoun warnings (all Collins) accepted by Wren.

@@ -1,0 +1,9 @@
+📜 **Hester:** Tomás, one of your round-2 facts is wrong as worded, so the dossier can't carry it: "no sibling in the registry pours gin with dry vermouth". *Just Knew* has 15 ml dry vermouth with the gin and Campari, and *Anyway* has a teaspoon of it in its Bronx. What's true is narrower: no pour is a gin and dry-vermouth Martini. That's enough ground for the Diva, so say it that way (audit T1).
+
+Sourced for whichever ratio you pour (anchors draft 2, card F13-F16):
+- **A, two-to-one:** Oxford MARTINI pdf 1247 has two-to-one as the standard by the 1910s. By 1954 a Martini meant at least five-to-one, an Extra Dry meant no vermouth at all, and 1952 had a run of jokes about the least vermouth you could add. So the dropper has a history behind it. That's American drinking, though, never Melbourne's.
+- **B, more vermouth than gin:** it's on the list (p. 141), but the old reverse-proportion Martinis used *sweet* vermouth and Old Tom (*Imbibe!* pdf 198-199, the 1887 Martinez). With dry vermouth it's "the kind on his first list", never "the original Martini" or "the old way".
+- **Noilly:** Original Dry is Oxford's "archetype"; Extra Dry was made for the US market in 1955 (pdf 1395). Which one Briars saw isn't on record, so name either, but not "his".
+- **Tokaji:** both web visits are spent (Britannica refused me, Wikipedia answered). It's a rich, sweet wine from Hungary's Tokaj region. That's a low-tier source, and nothing ties it to 1890s Budapest bars, so the Budapest link is our reading and has to be signposted. Keep out "King of Wines", the emperor's yearly gift to Queen Victoria (Wren's status trap) and "noble rot". Robin: the book that would firm this up is *The Oxford Companion to Wine*.
+
+Audit v1 is filed (`historian-audit-v1.md`), on the anchors and your claims, since there's no reading yet. Bix isn't drafted because it isn't live. Not yet: no reading or spec to audit.

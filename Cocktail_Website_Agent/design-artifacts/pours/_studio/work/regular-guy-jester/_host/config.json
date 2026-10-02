@@ -1,0 +1,28 @@
+{
+ "pairing": "regular-guy-jester",
+ "personality": "The Prankster",
+ "archetypes": "Regular Guy × Jester",
+ "date": "2026-10-01",
+ "batch": "regular-guy",
+ "name": "Got You",
+ "tagline": "You only play jokes on the people you want to keep.",
+ "epigraph": "Built on Chicago's bitter liqueur for willing visitors. The face they pull has a name.",
+ "glassware": "coupe, chilled",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "jeppsons-malort-sam-mechling.md",
+ "language_row": "Wren's 4-gram runs (the lint's own `ngrams()`) against every pour: clean after eleven fixes in v1 and three more in v2 (among them *outlaw-regular-guy*'s \"know exactly where the line\", *outlaw-explorer*'s \"years later he said\", *ruler-caregiver*'s \"the science of cocktails\"). Never \"invitation\", \"ignored\" or \"everyone says it\" (the Trickster's, *For Kicks*'); no \"lad\", \"cheeky chappie\", \"lovable rogue\"; never \"shot\", \"down it\" or \"punishing\" as a dare; \"dared\" only of Sam, the source's verb. \"he\"/\"his\" only for Sam Mechling (lint warnings accepted by Wren). \"Straight\" kept out of the closing line (bar talk for neat). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/jeppsons-malort-sam-mechling.md`: *Oxford Companion to Spirits and Cocktails*, JEPPSON'S MALÖRT (pdf 1103, Jeff Ruby) and SALT (pdf 1721); Adriana Cardona-Maguigad, \"The unlikely rise of Malört as Chicago's drink\", WBEZ *Curious City*, 6 Jul 2023; Claire McNear, *The Ringer*, 6 Feb 2019; Melissa McEwen, NPR *The Salt*, Apr 2013; the maker's product page (35%); Geoff Kleinman, *Drink Spirits* review, 2012 (grapefruit peel notes, colour); 27 CFR 5.150 (US liqueur sugar floor). Craft: Dave Arnold, *Liquid Intelligence* pp. 126, 149 (the Shaken Drake); *Cocktail Codex* pp. 118, 120, 133; *The Flavor Matrix* pdf 263. Audits: `work/regular-guy-jester/historian-audit-v1.md`, `-v2.md`. Room notes: `work/regular-guy-jester/`.",
+ "names_note": "**Got You**, the room's pick (all three, r4): how every prank ends, and \"I've got you\", the plain, joke-free sentence y5 asks for. *Ask a Local* was Tomás's pick in r3 (the newcomer's line; *The Ringer*'s visitors who \"trusted a Chicagoan to order for them\"), conceded in r4: it carries only the first half and brushes *Brought Home*. Also considered: *One of Us* (trips the one-voice check), *Your Turn* (the next person's), *Got You Back* (repeats y5), *The Letter* (captions the story), *Dared* (aims the source's verb at the guest).",
+ "open_items": [
+  "**The plan's lead overturned:** the 1874 Tom Collins hoax (plans/regular-guy.md) fails Wren's let-in test: its target walks from bar to bar alone, \"steaming\", while everyone else is in on it (*Imbibe!* pdf 82). The room chose Malört and Sam Mechling; the Collins/Old Tom/highball reservation is released for the family.",
+  "**Years kept out:** WBEZ puts the dare in the late 2000s and the meeting \"around 2012\"; *The Ringer* has 2011 for the comedy show. The letter and the cheque are WBEZ's alone, told plainly. Josh Noel, *Malört* (Chicago Review Press, 2024) would settle both: a library gap.",
+  "**The label:** 35% from the maker's page; no sugar figure published, so modelled at the US liqueur floor (2.4 g/100 ml, 27 CFR 5.150); colour (FD&C Yellow No. 5) from a 2012 review. The current label is unseen by Hester.",
+  "**Abroad:** no confirmed retailer outside the US; the substitute is a Swedish besk (beskbrännvin) of 35% or stronger.",
+  "**Balance, freeform:** 16.8% / 9.62 g / 1.150%: sugar and acid above the shaken band, as Arnold's own Shaken Drake (15.6 / 10.2 / 1.03, *LI* p. 149); justified in Checks. 20 ml of stray melt reads 14.5%, hence \"serve at once\".",
+  "**The spark is a reviewer's palate:** Kleinman's \"clear grapefruit peel notes\" in Malört (2012), and the aspirin-in-grapefruit-peel description Sam counted among his favourites (*The Ringer*); never a property of the bottle.",
+  "**Dossier only:** Carl Jeppson, Prohibition and the medicine; the birthday-shot prank; D.C.; the comedy nights; \"nearly a decade\"; Gabelick's own taste (sources contradict); Brode's label line; the name \"Malört face\" never credited to Sam.",
+  "**History share:** 56% raw, 48% without y3's signposted reading (Wren). Noted for Robin."
+ ]
+}

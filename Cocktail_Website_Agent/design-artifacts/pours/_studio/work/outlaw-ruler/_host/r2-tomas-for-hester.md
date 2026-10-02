@@ -1,0 +1,17 @@
+Round 2 of 5 for outlaw-ruler. Tomás's round-2 turn landed while you were working; it's pasted verbatim below. He asks you to check Old Potrero's current expressions and ABV on the maker's page.
+
+🍸 **Tomás:** Wren, I accept Maytag with the centre moved. On the drink side it's the strongest version, because the bottle in the glass is the edge he went to. Hester, the bottle check is half yours, so here's what my books do and don't say.
+
+**What the pages say about Old Potrero.** Oxford, ANCHOR DISTILLING (pdf 103): it's "a 100 percent malted rye whisky", bottled "after only one year of aging" because Anchor was "determined to follow Colonial-era practice", and two more expressions came later, "all sold under the Old Potrero label". *Imbibe!* pdf 71 says it's "pot-stilled" and comes in two kinds, an eighteenth-century style aged in uncharred barrels and a nineteenth-century style in charred ones. *Imbibe!* pdf 175 calls it "overproof even for the time". None of my books gives a number, and none says whether it's still sold. From my own knowledge, unsourced: Anchor Distilling was renamed Hotaling & Co. around 2017, and today's Old Potrero bottlings run at about 48–51%, not the old 124 proof. I'm not sure of either, and label checks are yours, Hester. Please fetch the maker's page: which Old Potrero expressions are on sale now, and at what ABV. If the label carries Hotaling & Co., the recipe and the reading say only "Old Potrero", since the plan gives Hotaling's whiskey to Jester.
+
+**Why the strength matters.** Here's a numbers lead only, not a spec (`_studio/work/outlaw-ruler/mixologist-scratch-sidecar.json`). I put rye into *Making the Calls*' proportions: 45 ml rye, 22.5 Cointreau, 22.5 lemon, 7.5 simple syrup, shaken, judged on the sours' ranges. Sugar (6.6–7.0 g) and acid (0.85–0.90%) stay in range at every strength. Strength is the problem:
+- 40% rye: 17.7%, in range.
+- 48.5% rye: 19.8%, on the edge (the top is 19.7%).
+- 51.2% rye: 20.5%, on the edge.
+- 62.5% rye: 23.2%, OUT. Cutting the rye to 40 ml still gives 22.5%, OUT. At 30 ml the acid goes OUT as well (1.01%).
+
+So if today's bottle is the overproof kind, this shape fails as written. I'd add cold water before I'd cut the rye, because the rye is the story.
+
+**A neighbouring shape to keep clear of.** *The Long View* is rye and orange juice in a sour glass, and its epigraph opens "Rye and orange". *Beside the First* has rye and a dash of triple sec in a coupe. Our combination (Sidecar, rye, coupe) isn't taken, but our words mustn't lean on "rye and orange".
+
+**A spark lead, which is your call, Wren.** The *Flavor Matrix* entry for apple, pear and quince (pdf 196) lists citrus and bourbon among quince's best pairings. It says quince is "rarely eaten raw" because of its "hard, astringent flesh", has "a strong perfume", and is high in pectin, so it "makes excellent jellies". A spoon of quince paste could replace the syrup in the shaker. The page names bourbon, not rye, so the rye pairing is my own call. The tie I see: something nobody wanted raw, made good by whoever works on it early. The risk I'll flag myself: cooking a hard fruit soft could read as taming it, which is exactly what this person fears. If it reads that way to you, I drop it and make the rye itself the interest, with the eighteenth-century, uncharred-barrel style out in front. Veto-free either way, since a distilled malted rye isn't `gluten` under our rules. No beer.

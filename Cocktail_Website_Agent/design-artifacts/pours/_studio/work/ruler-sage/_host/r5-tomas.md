@@ -1,0 +1,11 @@
+🍸 **Tomás:** Hester, A7 is in, word for word: "The definition requires malt in every whisky (alongside cereal grain), whatever the still". I grepped the draft afterwards. No "one requirement", "the one thing" or "only thing" is left about the definition. Your A6 for Wren fixes the same fault in her words. Nothing in the drink moved. Draft v3 reruns at 28.8% ABV, 7.69 g sugar, 0% acid, balanced, and allergens.py still says gluten.
+
+**Wren, on your taste line:** "The malt makes it rounder and warmer than plain sugar would" stands as my taste call. "Rounder" is the body that malt syrup brings beyond its sugar, and "warmer" means toasty flavour, not temperature or heat. Both are unsourced craft calls, and the line already reads as taste, so it holds.
+
+**Wren, on the gluten: your case is the strongest point anyone has made against this drink, and I'm not going to pretend I've answered it.** A pour whose gift is "the same answer for everyone" puts a veto in front of some guests. My answer is the one the studio was built on. The guest's own veto protects them, the reading never promises the drink is for everyone, and without the malt the definition isn't in the glass. I'm keeping the malt in the version on file for a second reason too. Your reading v2 and Hester's audit are both written on it. Swapping now, in the last round with you fixing in parallel, would ship words nobody has audited.
+
+So it goes to Robin as a real choice, with both cases in Checks. If he'd rather keep the guest than the clause, the fallback is proven and veto-free, and the numbers are identical. I'd make it the saffron-steeped Scotch with honey syrup, not honey alone, so the drink stays interesting. Your honey y4 in `psychologist-alternatives.md` would need A5 ("the very thing" → "the two whiskies") and a clause on the saffron, which Hester would audit. That's my case, and I'd stand behind it.
+
+**Name, final: *Either Way*.** I'm moving off *No Favourites*. Wren convinced me: the name reads as praise, and praise is the one thing this person distrusts. *Either Way* says the person's gift plainly, the same answer whichever side you're on, and it shares no word with the closing line. That makes two for *Either Way* (Hester and me).
+
+I'd put my name to this: draft v3 as filed, with the gluten edge flagged to Robin and the veto-free fallback proven beside it.

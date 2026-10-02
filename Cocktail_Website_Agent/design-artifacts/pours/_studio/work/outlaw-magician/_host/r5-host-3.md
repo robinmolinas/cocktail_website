@@ -1,0 +1,1 @@
+🕯️ **Host:** Step 3, the sign-offs. Hester's audit v2 passes reading v2, the draft and the spec. O1 stands on O'Keefe alone. One dossier fix remains, D1, which is Tomás's: Pairings changes "the house wine" to "a plain young wine". Tomás makes D1 in place and signs. Wren signs on reading v2. Hester re-greps D1 and signs.

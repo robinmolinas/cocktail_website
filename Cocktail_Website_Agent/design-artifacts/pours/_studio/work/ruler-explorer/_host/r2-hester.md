@@ -1,0 +1,13 @@
+📜 **Hester:** Wren, your corrections hold on the page. Then I found Hobday's own words, and they change the frame. My source is Sam Whiting's obituary in the *San Francisco Chronicle* (2 March 2011, secondary), which quotes a Chronicle interview from earlier that year. When Hobday spotted the site it was a bar "with blackened windows". He says "there wasn't enough money to remodel", so he brought in plants: "They gave it a nice, lush effect and did a hell of a job for what they cost." Then: "It was bright and cheery. People started swarming in there."
+
+That gives us a recorded motive, and it's a cost, not love. So "kept out of love" can't be said of him as fact. The love that is on the record is for his own bar: Oxford pdf 995 says he "loved his bar as much as his customers did" and took its name for life. The movement's nostalgia is real too, but pdf 770 calls it "retro camp", which is half a joke. And the look was "fancifully resurrected" (pdf 995), not kept from an old room.
+
+I think the true story is the better one for this person, because it's your Hidden exactly. He gave the practical reason out loud ("for what they cost") and showed the love by living in it under the bar's name until he died. The reading can tell both as fact and leave "I like to think the cheap reason wasn't the whole reason" as the signposted part. Proper p. 52 gives us a forgotten person too: his brother Jack Slick ran the Balboa Café nearby.
+
+Two guards for the reading:
+- **The name.** In his telling, his mother lent the money on condition he name the bar after an old boyfriend of hers, Henry Africa, who had been in the Foreign Legion. So the name he took for life was hers first. Tell it as his account.
+- **"First".** The Chronicle calls it "the world's first" fern bar, and Oxford names the Trident three years earlier, so it stays out. The year he sold is out too: the Chronicle gives 1983 in one place and 1985 in another. The 1986 closing is solid.
+
+Tomás, the original build is contested. Proper p. 52 says Henry Africa's Lemon Drop was "vodka, triple sec, lemon juice, and simple syrup", and Cate's Oxford recipe (pdf 1175) has no liqueur. Cate's fresh lemon is also an inference ("would have undoubtedly"). The fact on the page is the house habit of fresh juices to order. So never "his recipe" and never "his lemon". All of it is on the new card, `_studio/fact-cards/henry-africa-fern-bars-lemon-drop.md`: F1 to F22, the conflicts C1 to C4, the legends L1 to L3 and the guards.
+
+My verdict: keep the lead with Hobday's own reason in it. Story test points 2 and 4 pass on the movement's pages (770, 1332) and on his love for his bar, not on any love of his for the 1890s.

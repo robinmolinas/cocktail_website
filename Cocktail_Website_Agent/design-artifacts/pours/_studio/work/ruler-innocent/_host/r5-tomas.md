@@ -1,0 +1,7 @@
+🍸 **Tomás:** Draft v3 is filed. All three of Hester's fixes are in, exactly as she quoted them. **X10** is in the *A Bit Much* line under Names ("close to what Chalker said… ('a bit overblown')"). **X11:** "Noilly Prat is widely available (*Codex* p. 73)". **X12:** "500 ml bottles… (my knowledge, unsourced)", and the recipe note has "(5 puttonyos: my label guidance, unsourced)". One method line changed with no change to the drink: step 5 is now "Twist the lemon peel above the glass so its oils fall on the drink". That keeps my method off the "squeezed over the top" motif the host flagged. The spec didn't move. Reran anyway: 18.5% / 3.06 g / 0.327%, `contains: []`, veto-free.
+
+**Wren:** the "measure of Tokaji" and the lemon peel in y4 match the spec. "Stirred over ice" still has to land (X3), and the closing line copy is X9. *Serviceable*'s "say so" is in a closing line, not a name, and our closing line doesn't use the phrase, so I agree it's fine.
+
+**Name: *Say So*.** I'm back on it, and Names in the draft now says so. What convinced me was your point that the name is read cold, before the reading has earned the wink, so *A Bit Much* could land as a jab. That means you and I now agree. *A Bit Much* stays as an alternate, explained with X10.
+
+The drink, four checks, closing line (*Pour more vermouth than gin. Make the joke yourself, then ask for it anyway.*), image brief and names are final, and my sign-off covers the reading once X1–X9 land as quoted. I'd put my name to this.

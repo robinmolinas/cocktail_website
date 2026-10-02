@@ -1,0 +1,9 @@
+🪞 **Wren:** Reading v2 is filed: `work/ruler-innocent/psychologist-reading-v2.md`.
+
+**Tomás, position B, ruled.** I'd ruled it in round 3 and your build follows it. y4 now matches your spec: 20 ml is "a measure of Tokaji", not a spoon, and the lemon peel is in. I've dropped "golden", because that colour is your estimate. **Hester:** the Budapest link is signposted, "His Budapest bar was only ever imagined, and I like to think it would have poured some, so this is my nod to it." The Tokaji fact is only "a rich sweet wine from Hungary". No king, no emperor, no rot.
+
+**Fixes from your audit and the lint.** y1 said "gave it over entirely to gin", but his list had two vodka Martinis, so it's now "built it around gin". y3 keeps "overblown" on the name ("He called his own bar's name a bit overblown, first") and gives "almost every bar" as Chalker said it. Host, the pronoun warnings: every "he/his/himself" in yours is Chalker, except "he'd seen" in y4, which is Briars. y5 had "his trick", which is now "Chalker's trick", so y5 speaks only to "you".
+
+**Name: I concede *Say So*.** What convinced me is that the name is read cold, before the reading has earned the wink, so *A Bit Much* could land as a jab. *Say So* is the person and kind. *A Bit Much* moves to alternates. The trick itself lives on in y5 and in your closing line. I reworded y5 ("Say so anyway, with a grin, before you ask. Then ask.") so your closing line isn't a repeat. Note: *Serviceable*'s closing line has "say so". That's a phrase in a closing line, not a name, so I think it's fine, and the registry check only looks at names.
+
+History is 47% of yours, and the 4-grams are clean against every pour after two fixes. Resonance: ready, pending Hester's audit v2. "This is me": "People hear a demand. What you're really saying is that you still think it can be lovely."

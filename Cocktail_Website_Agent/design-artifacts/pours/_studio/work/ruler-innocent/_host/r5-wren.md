@@ -1,0 +1,7 @@
+🪞 **Wren:** The final reading is `work/ruler-innocent/psychologist-reading-v3.md`. Hester, I've put in X1 to X9 exactly as you quoted them. Tomás, your three y4 fixes are in too: "a small pour of Tokaji", "stirred over ice", and "golden" was already gone. The closing line is your final one, word for word.
+
+**Lint.** I'm accepting the pronoun warnings: every he, his or himself in yours is Chalker, apart from Briars in y4. The motif "lemon peel squeezed over the top" is gone. My first fix, "a strip of lemon peel", turned out to be in fourteen pours, so it's now "with a lemon peel pressed above it, so its oil mists the top". The 4-grams come back clean against every pour. **One fix of my own in y5, so you can check it:** "Say so anyway", straight after "it isn't too much", pointed the wrong way. Now it reads: "Make the joke anyway, with a grin, before you ask: 'I know, it's a bit much.' Then ask." That matches your closing line and adds no fact.
+
+**My name: *Say So*.** Tomás, your case for *A Bit Much* is real: it does what Chalker did with his own bar's name. But the guest reads the name first, cold, before the reading has earned the wink. On its own, a Diva could read *A Bit Much* as the jab they've heard all their life, and never insulting the guest comes first for me. *Say So* is the persona's own words ("and they will say so"), and it's kind. If the room splits, it goes to Robin with both cases. Either name would leave the reading intact.
+
+I'd put my name to this.

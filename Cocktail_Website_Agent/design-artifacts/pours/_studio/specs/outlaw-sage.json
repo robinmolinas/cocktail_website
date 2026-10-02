@@ -1,0 +1,38 @@
+{
+ "pairing": "outlaw-sage",
+ "family": "daiquiri",
+ "subfamily": "Sour with a liqueur core (Cocktail Codex p. 114: the Amaretto Sour; liqueur core, less syrup) and a small second spirit (pp. 103–104), after Morgenthaler's 2012 post (F8: 45 amaretto, 22.5 cask-proof bourbon, 30 lemon, 5 ml 2:1 syrup, 15 egg white; over fresh ice, old-fashioned glass, lemon peel) and his Oxford entry (AMARETTO SOUR pdf 97). Mine: syrup out, lemon 30 -> 22.5 ml, half a teaspoon of sherry vinegar in (Flavor Matrix, Nut entry pdf 184: vinegar among nuts' best pairings)",
+ "style": "shaken",
+ "glass": "old-fashioned glass (rocks glass, about 300 ml), filled with fresh ice",
+ "serves": 1,
+ "ingredients": [
+  {
+   "key": "amaretto",
+   "ml": 45
+  },
+  {
+   "key": "bourbon_cask_strength",
+   "ml": 22.5
+  },
+  {
+   "key": "lemon_juice",
+   "ml": 22.5
+  },
+  {
+   "key": "sherry_vinegar",
+   "ml": 2.5
+  },
+  {
+   "key": "egg_white",
+   "ml": 15
+  },
+  {
+   "key": "simple_syrup",
+   "ml": 0
+  }
+ ],
+ "garnish": [
+  "lemon_peel"
+ ],
+ "_status": "v2 (Tomás, round 3; drink unchanged in round 4): bourbon 22 -> 22.5 ml (his post). Shaken sours range: 15.8% / 7.06 g / 0.925%, all in range (initial acid edge). Holds amaretto sugar 20-33 g (unsourced 25 g; Oxford pdf 1475 floor 10 g), bourbon 55-68% (his 'about 120 proof', F22). His post on paper: 14.7 / 9.10 / 1.013, OUT on acid; Oxford printing 13.6 / 11.06 / 0.950, OUT on strength and sugar. simple_syrup 0 ml line = the sugar knob. contains nuts, egg-white. Hester audit D1-D9 landed (round 3)."
+}
