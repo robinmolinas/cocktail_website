@@ -411,19 +411,60 @@ export function DevNav({ onJump, onPage }: { onJump: (target: DevJumpTarget) => 
  *  their own height, and H5 and H6 had none at all — so "how much of this is
  *  left" was answered differently, or not at all, on every hold. H3 and H4
  *  keep their richer dots (kept vs. secret); this is the plain one. */
-function DepthDots({ count, index, seed }: { count: number; index: number; seed: string }) {
+function DepthDots({
+  count,
+  index,
+  seed,
+  onSelect,
+  isClickable,
+  hasAnswer,
+  ariaLabel,
+}: {
+  count: number;
+  index: number;
+  seed: string;
+  onSelect?: (i: number) => void;
+  isClickable?: (i: number) => boolean;
+  hasAnswer?: (i: number) => boolean;
+  ariaLabel?: (i: number) => string;
+}) {
   return (
     <div className="depth-dots">
-      {Array.from({ length: count }, (_, i) => (
-        <span
-          key={i}
-          className="depth-dot"
-          style={{
-            background: i < index ? seed : 'transparent',
-            borderColor: i === index ? seed : 'rgba(255, 235, 200, 0.3)',
-          }}
-        />
-      ))}
+      {Array.from({ length: count }, (_, i) => {
+        const isCurrent = i === index;
+        const clickable = Boolean(onSelect && isClickable?.(i));
+        const answered = hasAnswer ? hasAnswer(i) : i < index;
+
+        const dotSpan = (
+          <span
+            className="depth-dot"
+            style={{
+              background: answered ? seed : 'transparent',
+              borderColor: isCurrent ? seed : answered ? seed : 'rgba(255, 235, 200, 0.3)',
+              boxShadow: isCurrent ? `0 0 8px 1px ${seed}` : undefined,
+            }}
+          />
+        );
+
+        if (!onSelect) {
+          return <span key={i}>{dotSpan}</span>;
+        }
+
+        return (
+          <button
+            key={i}
+            type="button"
+            onClick={() => onSelect(i)}
+            disabled={!clickable}
+            className={`depth-dot-btn ${clickable ? 'is-clickable' : ''} ${isCurrent ? 'is-current' : ''}`}
+            aria-label={ariaLabel ? ariaLabel(i) : `Step ${i + 1} of ${count}${answered ? ' (answered)' : ''}`}
+            aria-current={isCurrent ? 'step' : undefined}
+            style={{ '--c': seed } as CSSProperties}
+          >
+            {dotSpan}
+          </button>
+        );
+      })}
     </div>
   );
 }
@@ -447,8 +488,9 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // to a whisper so the footage leads again. It returns in full at the reveal.
   const [tintPhase, setTintPhase] = useState<'bloom' | 'memory'>('bloom');
   const trackRef = useRef<HTMLDivElement>(null);
-  const gravValues = useRef<Record<string, number>>({});
+  const gravValues = useRef<Record<string, number>>({ ...(answers?.gravity || {}) });
   const [gravRound, setGravRound] = useState(0);
+  const [maxGravRound, setMaxGravRound] = useState(() => Math.max(0, Object.keys(answers?.gravity || {}).length));
   const [gravX, setGravX] = useState(50);
   const [gravDragging, setGravDragging] = useState(false);
   const [gravCommitted, setGravCommitted] = useState(false);
@@ -473,6 +515,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const skipHiddenKickoff = useRef(false); // set by debugJump so it doesn't race the natural kickoff
   const [hStage, setHStage] = useState<HiddenStage>('intro');
   const [hRound, setHRound] = useState(0);
+  const [maxHRound, setMaxHRound] = useState(() => Math.max(0, Object.keys(answers?.texture || {}).length));
   const [hChosen, setHChosen] = useState<'a' | 'b' | null>(null);
   // H5 · The Effervescence
   const resCanvasRef = useRef<HTMLCanvasElement>(null);
@@ -484,11 +527,13 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const resSparks = useRef<Spark[]>([]); // bubble particles: catch-fizz / release / gather / notice, plus the continuous streams
   const resDust = useRef<Mote[] | null>(null); // the ambient fine-bubble field
   const [resQ, setResQ] = useState(0); // 0 = drawn toward, 1 = sought for
+  const [maxResQ, setMaxResQ] = useState(() => ((answers?.soughtFor?.length ?? 0) > 0 ? 1 : (answers?.drawnToward?.length ?? 0) > 0 ? 1 : 0));
   const [resChosen, setResChosen] = useState<number[]>([]);
   const [resSealing, setResSealing] = useState(false);
   // H6 · The Pour — its spheres register into resGlintRefs, so the resonance
   // canvas (fizz, pops) serves both holds
   const [finBeat, setFinBeat] = useState<FinBeat>('flavors');
+  const [maxFinBeat, setMaxFinBeat] = useState(() => (answers?.flavors?.length ? 1 : 0));
   const [finCaught, setFinCaught] = useState<string[]>([]); // flavours committed, in catch order
   const [finBanished, setFinBanished] = useState<string[]>([]);
   const [finLeaving, setFinLeaving] = useState(false); // a beat is exiting — its head, pill and spheres go
@@ -554,6 +599,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       // only relevant when actually (re-)entering 'hidden' — otherwise the effect never fires and the flag would go stale
       if (stageRef.current !== 'hidden') skipHiddenKickoff.current = true;
       setStage('hidden');
+      setMaxHRound(Math.max(0, target));
       startHRound(target);
       return;
     }
@@ -572,18 +618,20 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       lens: HOLD_DEPTHS, seed: HOLD_SEED, gravity: HOLD_GRAVITY, resonance: HOLD_RESONANCE, finish: HOLD_FINISH, trace: HOLD_TRACE, breath: HOLD_BREATH,
     };
     if (v) { v.pause(); v.currentTime = holds[target]; }
-    if (target === 'gravity') { setGravRound(0); setGravX(50); setGravCommitted(false); }
+    if (target === 'gravity') { setGravRound(0); setMaxGravRound(0); setGravX(50); setGravCommitted(false); }
     if (target === 'resonance' && stageRef.current === 'resonance') {
       // re-jump onto the same stage: the arrival effect won't rerun, reset by hand
       resSealT0.current = 0;
       resSparks.current = [];
       setResQ(0);
+      setMaxResQ(0);
       setResChosen([]);
       setResSealing(false);
     }
     if (target === 'finish' && stageRef.current === 'finish') {
       // re-jump onto the same stage: the arrival effect won't rerun, reset by hand
       setFinBeat('flavors');
+      setMaxFinBeat(0);
       setFinCaught([]);
       setFinBanished([]);
       setFinLeaving(false);
@@ -798,12 +846,13 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   };
 
   const commitGravity = (v: number) => {
-    const pair = GRAVITIES[gravRound];
+    const currentRound = gravRound;
+    const pair = GRAVITIES[currentRound];
     gravValues.current[pair.key] = Math.round(v);
     onUpdate({ gravity: { ...gravValues.current } });
     setGravCommitted(true);
     setGravBreaths((b) => b + 1);
-    const isLast = gravRound === GRAVITIES.length - 1;
+    const isLast = currentRound === GRAVITIES.length - 1;
     // The video stays frozen on the gravity hold through all five polarities —
     // no per-question rise (that slow per-answer playback read as lag). Only
     // the chapter change moves the camera, at smooth natural 1x.
@@ -812,11 +861,27 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
         setStage('ascend3');
         playUntil(HOLD_HIDDEN, () => setStage('hidden'));
       } else {
-        setGravRound((r) => r + 1);
-        setGravX(50);
+        const nextRound = currentRound + 1;
+        setGravRound(nextRound);
+        setMaxGravRound((prev) => Math.max(prev, nextRound));
+        const savedVal = gravValues.current[GRAVITIES[nextRound]?.key];
+        setGravX(savedVal !== undefined ? savedVal : 50);
         setGravCommitted(false);
       }
     });
+  };
+
+  const revertGravity = (targetIndex: number) => {
+    if (gravCommitted) return;
+    if (targetIndex === gravRound) return;
+    const canJump = targetIndex <= maxGravRound || gravValues.current[GRAVITIES[targetIndex]?.key] !== undefined;
+    if (!canJump) return;
+
+    setGravRound(targetIndex);
+    const savedVal = gravValues.current[GRAVITIES[targetIndex]?.key];
+    setGravX(savedVal !== undefined ? savedVal : 50);
+    setGravDragging(false);
+    trackRef.current?.focus();
   };
 
   // How strongly each cloud is pulling the mote (0..1 per side).
@@ -904,7 +969,26 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       });
       return;
     }
+    setMaxHRound((prev) => Math.max(prev, next));
     after(gap, () => startHRound(next));
+  };
+
+  const revertHidden = (targetIndex: number) => {
+    if (hStage !== 'play') return;
+    if (targetIndex === hRound) return;
+    const canJump = targetIndex <= maxHRound || hResults.current[BINARIES[targetIndex]?.key] !== undefined;
+    if (!canJump) return;
+
+    if (hRaf.current) cancelAnimationFrame(hRaf.current);
+    for (const ref of [dropARef, dropBRef]) {
+      const el = ref.current;
+      if (el) {
+        delete el.dataset.caught;
+        el.classList.remove('is-caught', 'is-passed', 'dimming');
+        el.style.opacity = '0';
+      }
+    }
+    startHRound(targetIndex);
   };
 
   const startHRound = (i: number) => {
@@ -1121,13 +1205,41 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       resSealT0.current = 0;
       if (resQ === 0) {
         setResQ(1);
-        setResChosen([]);
+        setMaxResQ(1);
+        const q1Words = (answers.soughtFor || []) as string[];
+        const q1Indices = q1Words
+          .map((w) => RES_QUESTIONS[1].words.indexOf(w))
+          .filter((idx) => idx !== -1);
+        setResChosen(q1Indices);
         setResSealing(false);
       } else {
         setStage('ascend5');
         playUntil(HOLD_FINISH, () => setStage('finish'));
       }
     });
+  };
+
+  const revertResonance = (targetQ: number) => {
+    if (resSealing || targetQ === resQ) return;
+    const targetKey = RES_QUESTIONS[targetQ]?.key as 'drawnToward' | 'soughtFor';
+    const hasAns = ((answers[targetKey]?.length ?? 0) > 0);
+    const canJump = targetQ <= maxResQ || hasAns;
+    if (!canJump) return;
+
+    RES_QUESTIONS[resQ]?.words.forEach((_, i) => {
+      const el = resGlintRefs.current[i];
+      if (el) {
+        el.classList.remove('sphere-surface', 'sphere-dissolve', 'sphere-dissolve-dim', 'is-refused');
+        el.style.removeProperty('--k');
+      }
+    });
+
+    setResQ(targetQ);
+    const savedWords = (answers[targetKey] || []) as string[];
+    const savedIndices = savedWords
+      .map((w) => RES_QUESTIONS[targetQ].words.indexOf(w))
+      .filter((idx) => idx !== -1);
+    setResChosen(savedIndices);
   };
 
   // The effervescence — one canvas scene composited over the PAUSED frame
@@ -1423,7 +1535,26 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     after(1250, () => {
       setFinLeaving(false);
       setFinBeat('ward');
+      setMaxFinBeat(1);
     });
+  };
+
+  const revertFinish = (targetBeatIdx: number) => {
+    if (finLeaving || finSealed) return;
+    if (targetBeatIdx === 0 && finBeat === 'flavors') return;
+    if (targetBeatIdx === 1 && finBeat === 'ward') return;
+    if (targetBeatIdx === 1 && maxFinBeat < 1) return;
+
+    const currentWords = finBeat === 'flavors' ? FIN_FLAVORS : FIN_VETOES;
+    currentWords.forEach((_, i) => {
+      const el = resGlintRefs.current[i];
+      if (el) {
+        el.classList.remove('sphere-surface', 'sphere-dissolve', 'sphere-dissolve-dim', 'is-refused');
+        el.style.removeProperty('--k');
+      }
+    });
+
+    setFinBeat(targetBeatIdx === 0 ? 'flavors' : 'ward');
   };
 
   // Beat 2: what to leave out — pop the bubble. Reversible: the word stays
@@ -2136,16 +2267,34 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
             </div>
 
             <div className="depth-dots">
-              {GRAVITIES.map((g, i) => (
-                <span
-                  key={g.key}
-                  className="grav-dot"
-                  style={{
-                    background: i < gravRound || (i === gravRound && gravCommitted) ? seedHex : 'transparent',
-                    borderColor: i === gravRound ? seedHex : 'rgba(255, 235, 200, 0.3)',
-                  }}
-                />
-              ))}
+              {GRAVITIES.map((g, i) => {
+                const hasAnswer = gravValues.current[g.key] !== undefined;
+                const isCurrent = i === gravRound;
+                const isClickable = !gravCommitted && !isCurrent && (i <= maxGravRound || hasAnswer);
+                const isFilled = hasAnswer || (isCurrent && gravCommitted);
+
+                return (
+                  <button
+                    key={g.key}
+                    type="button"
+                    onClick={() => revertGravity(i)}
+                    disabled={!isClickable}
+                    className={`grav-dot-btn ${isClickable ? 'is-clickable' : ''} ${isCurrent ? 'is-current' : ''}`}
+                    aria-label={`Question ${i + 1} of ${GRAVITIES.length}: ${g.left} or ${g.right}${hasAnswer ? ' (answered)' : ''}`}
+                    aria-current={isCurrent ? 'step' : undefined}
+                    style={{ '--c': seedHex } as CSSProperties}
+                  >
+                    <span
+                      className="grav-dot"
+                      style={{
+                        background: isFilled ? seedHex : 'transparent',
+                        borderColor: isCurrent ? seedHex : hasAnswer ? seedHex : 'rgba(255, 235, 200, 0.3)',
+                        boxShadow: isCurrent ? `0 0 8px 1px ${seedHex}` : undefined,
+                      }}
+                    />
+                  </button>
+                );
+              })}
             </div>
           </div>
         )}
@@ -2199,12 +2348,24 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                   {BINARIES.map((bin, i) => {
                     const settled = i < hRound || (i === hRound && hChosen !== null);
                     const kept = hResults.current[bin.key] !== undefined;
+                    const isCurrent = i === hRound;
+                    const isClickable = hStage === 'play' && !isCurrent && (i <= maxHRound || kept || settled);
+
                     return (
-                      <span
+                      <button
                         key={bin.key}
-                        className={`hidden-dot ${i === hRound ? 'current' : ''} ${settled ? (kept ? 'kept' : 'secret') : ''}`}
+                        type="button"
+                        onClick={() => revertHidden(i)}
+                        disabled={!isClickable}
+                        className={`hidden-dot-btn ${isClickable ? 'is-clickable' : ''} ${isCurrent ? 'is-current' : ''}`}
+                        aria-label={`Pair ${i + 1} of ${BINARIES.length}: ${bin.a} or ${bin.b}${kept ? ` (${hResults.current[bin.key]})` : settled ? ' (cooled)' : ''}`}
+                        aria-current={isCurrent ? 'step' : undefined}
                         style={{ '--c': seedHex } as CSSProperties}
-                      />
+                      >
+                        <span
+                          className={`hidden-dot ${isCurrent ? 'current' : ''} ${settled ? (kept ? 'kept' : 'secret') : ''}`}
+                        />
+                      </button>
                     );
                   })}
                 </div>
@@ -2256,14 +2417,30 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
               >
                 Continue
               </button>
-              <DepthDots count={RES_QUESTIONS.length} index={resQ} seed={seedHex} />
+              <DepthDots
+                count={RES_QUESTIONS.length}
+                index={resQ}
+                seed={seedHex}
+                onSelect={revertResonance}
+                isClickable={(i) => !resSealing && i !== resQ && (i <= maxResQ || ((answers[RES_QUESTIONS[i].key as 'drawnToward' | 'soughtFor']?.length ?? 0) > 0))}
+                hasAnswer={(i) => ((answers[RES_QUESTIONS[i].key as 'drawnToward' | 'soughtFor']?.length ?? 0) > 0) || (i === resQ && resChosen.length > 0)}
+                ariaLabel={(i) => `Question ${i + 1} of ${RES_QUESTIONS.length}: ${RES_QUESTIONS[i].prompt}`}
+              />
             </div>
           </div>
         )}
 
         {stage === 'finish' && (
           <div className={`fin-stage absolute inset-0 ${finLeaving ? 'is-sealing' : ''}`}>
-            <DepthDots count={2} index={finBeat === 'flavors' ? 0 : 1} seed={seedHex} />
+            <DepthDots
+              count={2}
+              index={finBeat === 'flavors' ? 0 : 1}
+              seed={seedHex}
+              onSelect={revertFinish}
+              isClickable={(i) => !finLeaving && !finSealed && (i === 0 ? finBeat !== 'flavors' : finBeat !== 'ward' && maxFinBeat >= 1)}
+              hasAnswer={(i) => i === 0 ? finCaught.length > 0 : finBanished.length > 0 || finSealed}
+              ariaLabel={(i) => i === 0 ? 'Flavours to include' : 'Flavours to leave out'}
+            />
 
             {finBeat === 'flavors' && (
               <div className="absolute inset-0">
