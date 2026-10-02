@@ -515,7 +515,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const skipHiddenKickoff = useRef(false); // set by debugJump so it doesn't race the natural kickoff
   const [hStage, setHStage] = useState<HiddenStage>('intro');
   const [hRound, setHRound] = useState(0);
-  const [maxHRound, setMaxHRound] = useState(() => Math.max(0, Object.keys(answers?.texture || {}).length));
   const [hChosen, setHChosen] = useState<'a' | 'b' | null>(null);
   // H5 · The Effervescence
   const resCanvasRef = useRef<HTMLCanvasElement>(null);
@@ -599,7 +598,6 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       // only relevant when actually (re-)entering 'hidden' — otherwise the effect never fires and the flag would go stale
       if (stageRef.current !== 'hidden') skipHiddenKickoff.current = true;
       setStage('hidden');
-      setMaxHRound(Math.max(0, target));
       startHRound(target);
       return;
     }
@@ -969,26 +967,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       });
       return;
     }
-    setMaxHRound((prev) => Math.max(prev, next));
     after(gap, () => startHRound(next));
-  };
-
-  const revertHidden = (targetIndex: number) => {
-    if (hStage !== 'play') return;
-    if (targetIndex === hRound) return;
-    const canJump = targetIndex <= maxHRound || hResults.current[BINARIES[targetIndex]?.key] !== undefined;
-    if (!canJump) return;
-
-    if (hRaf.current) cancelAnimationFrame(hRaf.current);
-    for (const ref of [dropARef, dropBRef]) {
-      const el = ref.current;
-      if (el) {
-        delete el.dataset.caught;
-        el.classList.remove('is-caught', 'is-passed', 'dimming');
-        el.style.opacity = '0';
-      }
-    }
-    startHRound(targetIndex);
   };
 
   const startHRound = (i: number) => {
@@ -2348,24 +2327,12 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                   {BINARIES.map((bin, i) => {
                     const settled = i < hRound || (i === hRound && hChosen !== null);
                     const kept = hResults.current[bin.key] !== undefined;
-                    const isCurrent = i === hRound;
-                    const isClickable = hStage === 'play' && !isCurrent && (i <= maxHRound || kept || settled);
-
                     return (
-                      <button
+                      <span
                         key={bin.key}
-                        type="button"
-                        onClick={() => revertHidden(i)}
-                        disabled={!isClickable}
-                        className={`hidden-dot-btn ${isClickable ? 'is-clickable' : ''} ${isCurrent ? 'is-current' : ''}`}
-                        aria-label={`Pair ${i + 1} of ${BINARIES.length}: ${bin.a} or ${bin.b}${kept ? ` (${hResults.current[bin.key]})` : settled ? ' (cooled)' : ''}`}
-                        aria-current={isCurrent ? 'step' : undefined}
+                        className={`hidden-dot ${i === hRound ? 'current' : ''} ${settled ? (kept ? 'kept' : 'secret') : ''}`}
                         style={{ '--c': seedHex } as CSSProperties}
-                      >
-                        <span
-                          className={`hidden-dot ${isCurrent ? 'current' : ''} ${settled ? (kept ? 'kept' : 'secret') : ''}`}
-                        />
-                      </button>
+                      />
                     );
                   })}
                 </div>
