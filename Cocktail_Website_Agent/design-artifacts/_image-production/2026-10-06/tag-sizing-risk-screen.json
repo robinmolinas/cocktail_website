@@ -1,0 +1,3548 @@
+{
+  "scope": "Static sizing heuristic risk screen from current TheReading formula, not rendered glyph bounds or browser acceptance.",
+  "source": "TheReading.tsx inkTag; font size floor10px",
+  "records": [
+    {
+      "pairing": "caregiver-creator",
+      "version": "v4",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 164.21,
+          "heuristicFontCSS": 42.69,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 164.21,
+          "heuristicFontCSS": 16.42,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 136.84,
+          "heuristicFontCSS": 35.58,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 136.84,
+          "heuristicFontCSS": 13.68,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 175.16,
+          "heuristicFontCSS": 45.54,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 175.16,
+          "heuristicFontCSS": 17.52,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 294.21,
+          "heuristicFontCSS": 76.49,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 294.21,
+          "heuristicFontCSS": 29.42,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 128.37,
+          "heuristicFontCSS": 33.38,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 128.37,
+          "heuristicFontCSS": 12.84,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 141.76,
+          "heuristicFontCSS": 36.86,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 141.76,
+          "heuristicFontCSS": 14.18,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 86.39,
+          "heuristicFontCSS": 22.46,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 86.39,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "caregiver-explorer",
+      "version": "v2",
+      "minimumFontBinding": false,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 221.89,
+          "heuristicFontCSS": 57.69,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 221.89,
+          "heuristicFontCSS": 22.19,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 184.91,
+          "heuristicFontCSS": 48.08,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 184.91,
+          "heuristicFontCSS": 18.49,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 236.69,
+          "heuristicFontCSS": 61.54,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 236.69,
+          "heuristicFontCSS": 23.67,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 397.56,
+          "heuristicFontCSS": 103.36,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 397.56,
+          "heuristicFontCSS": 39.76,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 173.26,
+          "heuristicFontCSS": 45.05,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 173.26,
+          "heuristicFontCSS": 17.33,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 191.32,
+          "heuristicFontCSS": 49.74,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 191.32,
+          "heuristicFontCSS": 19.13,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 116.6,
+          "heuristicFontCSS": 30.32,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 116.6,
+          "heuristicFontCSS": 11.66,
+          "minimumFontBinding": false
+        }
+      ]
+    },
+    {
+      "pairing": "caregiver-hero",
+      "version": "v3",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 122.87,
+          "heuristicFontCSS": 31.95,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 122.87,
+          "heuristicFontCSS": 12.29,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 102.39,
+          "heuristicFontCSS": 26.62,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 102.39,
+          "heuristicFontCSS": 10.24,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 131.06,
+          "heuristicFontCSS": 34.08,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 131.06,
+          "heuristicFontCSS": 13.11,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 220.14,
+          "heuristicFontCSS": 57.24,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 220.14,
+          "heuristicFontCSS": 22.01,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 96.05,
+          "heuristicFontCSS": 24.97,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 96.05,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 106.07,
+          "heuristicFontCSS": 27.58,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 106.07,
+          "heuristicFontCSS": 10.61,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 64.64,
+          "heuristicFontCSS": 16.81,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 64.64,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "caregiver-innocent",
+      "version": "v2",
+      "minimumFontBinding": false,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 199.81,
+          "heuristicFontCSS": 51.95,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 199.81,
+          "heuristicFontCSS": 19.98,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 166.51,
+          "heuristicFontCSS": 43.29,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 166.51,
+          "heuristicFontCSS": 16.65,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 213.13,
+          "heuristicFontCSS": 55.41,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 213.13,
+          "heuristicFontCSS": 21.31,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 357.99,
+          "heuristicFontCSS": 93.08,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 357.99,
+          "heuristicFontCSS": 35.8,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 156.2,
+          "heuristicFontCSS": 40.61,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 156.2,
+          "heuristicFontCSS": 15.62,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 172.49,
+          "heuristicFontCSS": 44.85,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 172.49,
+          "heuristicFontCSS": 17.25,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 105.12,
+          "heuristicFontCSS": 27.33,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 105.12,
+          "heuristicFontCSS": 10.51,
+          "minimumFontBinding": false
+        }
+      ]
+    },
+    {
+      "pairing": "caregiver-jester",
+      "version": "v3",
+      "minimumFontBinding": false,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 248.04,
+          "heuristicFontCSS": 64.49,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 248.04,
+          "heuristicFontCSS": 24.8,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 206.7,
+          "heuristicFontCSS": 53.74,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 206.7,
+          "heuristicFontCSS": 20.67,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 264.57,
+          "heuristicFontCSS": 68.79,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 264.57,
+          "heuristicFontCSS": 26.46,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 444.4,
+          "heuristicFontCSS": 115.54,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 444.4,
+          "heuristicFontCSS": 44.44,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 193.9,
+          "heuristicFontCSS": 50.41,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 193.9,
+          "heuristicFontCSS": 19.39,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 214.12,
+          "heuristicFontCSS": 55.67,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 214.12,
+          "heuristicFontCSS": 21.41,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 130.49,
+          "heuristicFontCSS": 33.93,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 130.49,
+          "heuristicFontCSS": 13.05,
+          "minimumFontBinding": false
+        }
+      ]
+    },
+    {
+      "pairing": "caregiver-lover",
+      "version": "v3",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 184.88,
+          "heuristicFontCSS": 48.07,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 184.88,
+          "heuristicFontCSS": 18.49,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 154.07,
+          "heuristicFontCSS": 40.06,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 154.07,
+          "heuristicFontCSS": 15.41,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 197.21,
+          "heuristicFontCSS": 51.27,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 197.21,
+          "heuristicFontCSS": 19.72,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 331.24,
+          "heuristicFontCSS": 86.12,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 331.24,
+          "heuristicFontCSS": 33.12,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 144.53,
+          "heuristicFontCSS": 37.58,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 144.53,
+          "heuristicFontCSS": 14.45,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 159.6,
+          "heuristicFontCSS": 41.5,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 159.6,
+          "heuristicFontCSS": 15.96,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 97.27,
+          "heuristicFontCSS": 25.29,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 97.27,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "caregiver-outlaw",
+      "version": "v5",
+      "minimumFontBinding": false,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 257.22,
+          "heuristicFontCSS": 66.88,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 257.22,
+          "heuristicFontCSS": 25.72,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 214.35,
+          "heuristicFontCSS": 55.73,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 214.35,
+          "heuristicFontCSS": 21.44,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 274.37,
+          "heuristicFontCSS": 71.34,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 274.37,
+          "heuristicFontCSS": 27.44,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 460.86,
+          "heuristicFontCSS": 119.82,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 460.86,
+          "heuristicFontCSS": 46.09,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 201.09,
+          "heuristicFontCSS": 52.28,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 201.09,
+          "heuristicFontCSS": 20.11,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 222.05,
+          "heuristicFontCSS": 57.73,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 222.05,
+          "heuristicFontCSS": 22.21,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 135.33,
+          "heuristicFontCSS": 35.19,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 135.33,
+          "heuristicFontCSS": 13.53,
+          "minimumFontBinding": false
+        }
+      ]
+    },
+    {
+      "pairing": "caregiver-regular-guy",
+      "version": "v2",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 166.51,
+          "heuristicFontCSS": 43.29,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 166.51,
+          "heuristicFontCSS": 16.65,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 138.76,
+          "heuristicFontCSS": 36.08,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 138.76,
+          "heuristicFontCSS": 13.88,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 177.61,
+          "heuristicFontCSS": 46.18,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 177.61,
+          "heuristicFontCSS": 17.76,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 298.33,
+          "heuristicFontCSS": 77.56,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 298.33,
+          "heuristicFontCSS": 29.83,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 130.17,
+          "heuristicFontCSS": 33.84,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 130.17,
+          "heuristicFontCSS": 13.02,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 143.74,
+          "heuristicFontCSS": 37.37,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 143.74,
+          "heuristicFontCSS": 14.37,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 87.6,
+          "heuristicFontCSS": 22.78,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 87.6,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "caregiver-sage",
+      "version": "v2",
+      "minimumFontBinding": false,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 200.96,
+          "heuristicFontCSS": 52.25,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 200.96,
+          "heuristicFontCSS": 20.1,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 167.46,
+          "heuristicFontCSS": 43.54,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 167.46,
+          "heuristicFontCSS": 16.75,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 214.35,
+          "heuristicFontCSS": 55.73,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 214.35,
+          "heuristicFontCSS": 21.44,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 360.05,
+          "heuristicFontCSS": 93.61,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 360.05,
+          "heuristicFontCSS": 36,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 157.1,
+          "heuristicFontCSS": 40.85,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 157.1,
+          "heuristicFontCSS": 15.71,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 173.48,
+          "heuristicFontCSS": 45.1,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 173.48,
+          "heuristicFontCSS": 17.35,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 105.72,
+          "heuristicFontCSS": 27.49,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 105.72,
+          "heuristicFontCSS": 10.57,
+          "minimumFontBinding": false
+        }
+      ]
+    },
+    {
+      "pairing": "explorer-caregiver",
+      "version": "v3",
+      "minimumFontBinding": false,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 215.89,
+          "heuristicFontCSS": 56.13,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 215.89,
+          "heuristicFontCSS": 21.59,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 179.9,
+          "heuristicFontCSS": 46.78,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 179.9,
+          "heuristicFontCSS": 17.99,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 230.28,
+          "heuristicFontCSS": 59.87,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 230.28,
+          "heuristicFontCSS": 23.03,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 386.79,
+          "heuristicFontCSS": 100.57,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 386.79,
+          "heuristicFontCSS": 38.68,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 168.77,
+          "heuristicFontCSS": 43.88,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 168.77,
+          "heuristicFontCSS": 16.88,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 186.36,
+          "heuristicFontCSS": 48.45,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 186.36,
+          "heuristicFontCSS": 18.64,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 113.58,
+          "heuristicFontCSS": 29.53,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 113.58,
+          "heuristicFontCSS": 11.36,
+          "minimumFontBinding": false
+        }
+      ]
+    },
+    {
+      "pairing": "explorer-hero",
+      "version": "v5",
+      "minimumFontBinding": false,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 235.41,
+          "heuristicFontCSS": 61.21,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 235.41,
+          "heuristicFontCSS": 23.54,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 196.17,
+          "heuristicFontCSS": 51,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 196.17,
+          "heuristicFontCSS": 19.62,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 251.1,
+          "heuristicFontCSS": 65.29,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 251.1,
+          "heuristicFontCSS": 25.11,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 421.77,
+          "heuristicFontCSS": 109.66,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 421.77,
+          "heuristicFontCSS": 42.18,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 184.03,
+          "heuristicFontCSS": 47.85,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 184.03,
+          "heuristicFontCSS": 18.4,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 203.22,
+          "heuristicFontCSS": 52.84,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 203.22,
+          "heuristicFontCSS": 20.32,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 123.85,
+          "heuristicFontCSS": 32.2,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 123.85,
+          "heuristicFontCSS": 12.38,
+          "minimumFontBinding": false
+        }
+      ]
+    },
+    {
+      "pairing": "explorer-innocent",
+      "version": "v4",
+      "minimumFontBinding": false,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 218.18,
+          "heuristicFontCSS": 56.73,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 218.18,
+          "heuristicFontCSS": 21.82,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 181.82,
+          "heuristicFontCSS": 47.27,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 181.82,
+          "heuristicFontCSS": 18.18,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 232.73,
+          "heuristicFontCSS": 60.51,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 232.73,
+          "heuristicFontCSS": 23.27,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 390.91,
+          "heuristicFontCSS": 101.64,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 390.91,
+          "heuristicFontCSS": 39.09,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 170.56,
+          "heuristicFontCSS": 44.35,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 170.56,
+          "heuristicFontCSS": 17.06,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 188.35,
+          "heuristicFontCSS": 48.97,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 188.35,
+          "heuristicFontCSS": 18.83,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 114.79,
+          "heuristicFontCSS": 29.84,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 114.79,
+          "heuristicFontCSS": 11.48,
+          "minimumFontBinding": false
+        }
+      ]
+    },
+    {
+      "pairing": "hero-lover",
+      "version": "v3",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 197.57,
+          "heuristicFontCSS": 51.37,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 197.57,
+          "heuristicFontCSS": 19.76,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 164.64,
+          "heuristicFontCSS": 42.81,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 164.64,
+          "heuristicFontCSS": 16.46,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 210.74,
+          "heuristicFontCSS": 54.79,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 210.74,
+          "heuristicFontCSS": 21.07,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 353.98,
+          "heuristicFontCSS": 92.03,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 353.98,
+          "heuristicFontCSS": 35.4,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 133.76,
+          "heuristicFontCSS": 34.78,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 133.76,
+          "heuristicFontCSS": 13.38,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 147.7,
+          "heuristicFontCSS": 38.4,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 147.7,
+          "heuristicFontCSS": 14.77,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 90.02,
+          "heuristicFontCSS": 23.4,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 90.02,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "hero-magician",
+      "version": "v2",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 175.69,
+          "heuristicFontCSS": 45.68,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 175.69,
+          "heuristicFontCSS": 17.57,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 146.41,
+          "heuristicFontCSS": 38.07,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 146.41,
+          "heuristicFontCSS": 14.64,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 187.41,
+          "heuristicFontCSS": 48.73,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 187.41,
+          "heuristicFontCSS": 18.74,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 314.78,
+          "heuristicFontCSS": 81.84,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 314.78,
+          "heuristicFontCSS": 31.48,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 137.35,
+          "heuristicFontCSS": 35.71,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 137.35,
+          "heuristicFontCSS": 13.73,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 151.67,
+          "heuristicFontCSS": 39.43,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 151.67,
+          "heuristicFontCSS": 15.17,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 92.43,
+          "heuristicFontCSS": 24.03,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 92.43,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "hero-ruler",
+      "version": "v2",
+      "minimumFontBinding": false,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 214.74,
+          "heuristicFontCSS": 55.83,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 214.74,
+          "heuristicFontCSS": 21.47,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 178.95,
+          "heuristicFontCSS": 46.53,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 178.95,
+          "heuristicFontCSS": 17.89,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 229.05,
+          "heuristicFontCSS": 59.55,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 229.05,
+          "heuristicFontCSS": 22.91,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 384.74,
+          "heuristicFontCSS": 100.03,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 384.74,
+          "heuristicFontCSS": 38.47,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 167.87,
+          "heuristicFontCSS": 43.65,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 167.87,
+          "heuristicFontCSS": 16.79,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 185.37,
+          "heuristicFontCSS": 48.2,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 185.37,
+          "heuristicFontCSS": 18.54,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 112.97,
+          "heuristicFontCSS": 29.37,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 112.97,
+          "heuristicFontCSS": 11.3,
+          "minimumFontBinding": false
+        }
+      ]
+    },
+    {
+      "pairing": "innocent-hero",
+      "version": "v3",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 87.27,
+          "heuristicFontCSS": 22.69,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 87.27,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 72.73,
+          "heuristicFontCSS": 18.91,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 72.73,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 93.09,
+          "heuristicFontCSS": 24.2,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 93.09,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 156.36,
+          "heuristicFontCSS": 40.65,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 156.36,
+          "heuristicFontCSS": 15.64,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 68.23,
+          "heuristicFontCSS": 17.74,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 68.23,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 75.34,
+          "heuristicFontCSS": 19.59,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 75.34,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 45.91,
+          "heuristicFontCSS": 11.94,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 45.91,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "innocent-jester",
+      "version": "v3",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 150.43,
+          "heuristicFontCSS": 39.11,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 150.43,
+          "heuristicFontCSS": 15.04,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 125.36,
+          "heuristicFontCSS": 32.59,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 125.36,
+          "heuristicFontCSS": 12.54,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 160.46,
+          "heuristicFontCSS": 41.72,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 160.46,
+          "heuristicFontCSS": 16.05,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 269.52,
+          "heuristicFontCSS": 70.08,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 269.52,
+          "heuristicFontCSS": 26.95,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 117.6,
+          "heuristicFontCSS": 30.58,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 117.6,
+          "heuristicFontCSS": 11.76,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 129.86,
+          "heuristicFontCSS": 33.76,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 129.86,
+          "heuristicFontCSS": 12.99,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 79.14,
+          "heuristicFontCSS": 20.58,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 79.14,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "innocent-sage",
+      "version": "v5",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 127.46,
+          "heuristicFontCSS": 33.14,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 127.46,
+          "heuristicFontCSS": 12.75,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 106.22,
+          "heuristicFontCSS": 27.62,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 106.22,
+          "heuristicFontCSS": 10.62,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 135.96,
+          "heuristicFontCSS": 35.35,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 135.96,
+          "heuristicFontCSS": 13.6,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 228.37,
+          "heuristicFontCSS": 59.38,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 228.37,
+          "heuristicFontCSS": 22.84,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 99.64,
+          "heuristicFontCSS": 25.91,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 99.64,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 110.03,
+          "heuristicFontCSS": 28.61,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 110.03,
+          "heuristicFontCSS": 11,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 67.06,
+          "heuristicFontCSS": 17.44,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 67.06,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "jester-caregiver",
+      "version": "v4",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 188.33,
+          "heuristicFontCSS": 48.96,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 188.33,
+          "heuristicFontCSS": 18.83,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 156.94,
+          "heuristicFontCSS": 40.8,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 156.94,
+          "heuristicFontCSS": 15.69,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 200.88,
+          "heuristicFontCSS": 52.23,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 200.88,
+          "heuristicFontCSS": 20.09,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 337.42,
+          "heuristicFontCSS": 87.73,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 337.42,
+          "heuristicFontCSS": 33.74,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 147.22,
+          "heuristicFontCSS": 38.28,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 147.22,
+          "heuristicFontCSS": 14.72,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 162.57,
+          "heuristicFontCSS": 42.27,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 162.57,
+          "heuristicFontCSS": 16.26,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 99.08,
+          "heuristicFontCSS": 25.76,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 99.08,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "jester-creator",
+      "version": "v2",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 136.65,
+          "heuristicFontCSS": 35.53,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 136.65,
+          "heuristicFontCSS": 13.67,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 113.88,
+          "heuristicFontCSS": 29.61,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 113.88,
+          "heuristicFontCSS": 11.39,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 145.76,
+          "heuristicFontCSS": 37.9,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 145.76,
+          "heuristicFontCSS": 14.58,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 244.83,
+          "heuristicFontCSS": 63.66,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 244.83,
+          "heuristicFontCSS": 24.48,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 106.83,
+          "heuristicFontCSS": 27.77,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 106.83,
+          "heuristicFontCSS": 10.68,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 117.96,
+          "heuristicFontCSS": 30.67,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 117.96,
+          "heuristicFontCSS": 11.8,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 71.89,
+          "heuristicFontCSS": 18.69,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 71.89,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "lover-sage",
+      "version": "v2",
+      "minimumFontBinding": true,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 160.77,
+          "heuristicFontCSS": 41.8,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 160.77,
+          "heuristicFontCSS": 16.08,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 133.97,
+          "heuristicFontCSS": 34.83,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 133.97,
+          "heuristicFontCSS": 13.4,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 171.48,
+          "heuristicFontCSS": 44.59,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 171.48,
+          "heuristicFontCSS": 17.15,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 288.04,
+          "heuristicFontCSS": 74.89,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 288.04,
+          "heuristicFontCSS": 28.8,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 125.68,
+          "heuristicFontCSS": 32.68,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 125.68,
+          "heuristicFontCSS": 12.57,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 138.78,
+          "heuristicFontCSS": 36.08,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 138.78,
+          "heuristicFontCSS": 13.88,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 84.58,
+          "heuristicFontCSS": 21.99,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 84.58,
+          "heuristicFontCSS": 10,
+          "minimumFontBinding": true
+        }
+      ]
+    },
+    {
+      "pairing": "magician-regular-guy",
+      "version": "v2",
+      "minimumFontBinding": false,
+      "checks": [
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 204.4,
+          "heuristicFontCSS": 53.14,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1920,
+            1080
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 204.4,
+          "heuristicFontCSS": 20.44,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 170.33,
+          "heuristicFontCSS": 44.29,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 170.33,
+          "heuristicFontCSS": 17.03,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 218.03,
+          "heuristicFontCSS": 56.69,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            2048,
+            1036
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 218.03,
+          "heuristicFontCSS": 21.8,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Ada",
+          "writableWidthCSS": 366.22,
+          "heuristicFontCSS": 95.22,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            3440,
+            1440
+          ],
+          "kind": "wide",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 366.22,
+          "heuristicFontCSS": 36.62,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 159.79,
+          "heuristicFontCSS": 41.55,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 159.79,
+          "heuristicFontCSS": 15.98,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 176.45,
+          "heuristicFontCSS": 45.88,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 176.45,
+          "heuristicFontCSS": 17.65,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Ada",
+          "writableWidthCSS": 107.54,
+          "heuristicFontCSS": 27.96,
+          "minimumFontBinding": false
+        },
+        {
+          "viewport": [
+            320,
+            568
+          ],
+          "kind": "portrait",
+          "name": "Alexandria-Rose",
+          "writableWidthCSS": 107.54,
+          "heuristicFontCSS": 10.75,
+          "minimumFontBinding": false
+        }
+      ]
+    }
+  ]
+}

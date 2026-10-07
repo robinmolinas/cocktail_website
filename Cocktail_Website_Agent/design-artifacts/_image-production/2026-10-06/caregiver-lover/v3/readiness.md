@@ -1,0 +1,1 @@
+Complete current caregiver-lover dossier and spec reread before this crop correction. SHA256 unchanged:3b433893d8244d2f1333b5f730a9a37c4c5105d7bc21d4681a037ec98f1a1198. Physical recipe and personality remain coherent; only blank-tag extent is corrected to retain whole glass on tall phones. Existing v2 exports/master preserved. Editorial draft unchanged.

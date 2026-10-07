@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Scoundrel (regular-guy-outlaw)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): yours 5 (V5, corpus example): "They like you. I hope they keep saying yes." → "They like you."
+- **Left for Robin:** tagline (Q092) unchanged per D11.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Simon Ford (Hester r3)) · [x] drink + four checks (French 75 over ice (Tomás r3)) · [x] reading (v2 (Wren r4; v1 r3)) · [x] fact audit (v2 (Hester r4; signed r5)) · [x] resonance test (ready (Wren r5)) · [x] names (≥3 + pick) (Just This Once (all three, r5)) · [x] image brief (Tomás r3)
 - **Last change to the pour:** r4

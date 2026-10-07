@@ -58,7 +58,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 *This drink can sit on its ice while someone finishes talking. Someone once timed it.*
 
 **whoYouAre**
-You hear it before anyone else does. A joke at dinner that lands a little too hard. A voice going up half a note in a meeting. Two friends going quiet in the wrong way. By the time the others notice, you've already pulled up a chair, asked the one who's upset what they meant, and let them say all of it.
+You hear it before anyone else does. A joke at dinner that lands a little too hard. A voice going up half a note in a meeting. A group chat going quiet in the wrong way. By the time the others notice, you've already pulled up a chair, asked the one who's upset what they meant, and let them say all of it.
 
 People take you for easygoing. You aren't. You're listening the whole time, because when people are in your care, you'd rather hear the hard thing tonight than watch it break something later. You could settle most of it with one word, and you rarely use it. You'd rather they finish. It matters more than you think: people say the real thing around you, because they're sure you'll hear all of it. You never mention how hard you work at it, or the fear underneath: that the one time you miss it, it all comes apart, and someone you were looking after pays for it.
 
@@ -70,9 +70,9 @@ People take you for easygoing. You aren't. You're listening the whole time, beca
 
 3. I like to think the drink was never the point, and that he wasn't deciding who was right. He was turning two people back towards each other before anyone got hurt, and that's what you do. He also admitted what it cost him. When a regular ran up a big tab, he couldn't stop the credit, for fear they'd get angry, walk out, and everything would be gone. I think you know that fear. It's the no you swallow to keep the room together.
 
-4. The cocktail I've made for you is a Manhattan, one of the most famous classics, the one so many others were built on. I've made it on cognac instead of whiskey, with a small spoon of mandarin liqueur and the oil from a mandarin peel, as a nod to the cognac and the Mandarin in the cocktail Jimmie invented at the Dingo. It's rich and warm, and the first thing you'll smell is mandarin. And it's stirred on purpose. Dave Arnold, who wrote a whole book on the science of cocktails, once left Manhattans sitting on their ice for a minute and a half before straining them, and could find almost no difference. So this one can wait a couple of minutes while someone finishes what they're saying.
+4. The cocktail I've made for you is a Manhattan, one of the most famous classics, the one so many others were built on. I've made it on cognac instead of whiskey, with a small spoon of mandarin liqueur and the oil from a mandarin peel, as a nod to the cognac and the Mandarin in the cocktail Jimmie invented at the Dingo. It's rich and warm, and the first thing you'll smell is mandarin. And it's stirred on purpose. Dave Arnold, who wrote a whole book on the science of cocktails, once left Manhattans sitting on their ice for a minute and a half before straining them, and could find almost no difference. So this one can wait a minute or two on its ice while someone finishes what they're saying.
 
-5. So here's my one push. You're right to hear people out, and they're right to trust you for it. But one day the kind thing will be the no: the tab stopped, the plan called off, the decision made before everyone agrees. Say it plainly, once they've finished. The people you listened to won't walk out. They stayed because you listened, and that's exactly why your no will hold.
+5. You're right to hear people out, and they're right to trust you for it. But one day the kind thing will be the no: the tab stopped, the plan called off, the decision made before everyone agrees. Say it plainly, once they've finished. The people you listened to won't walk out. They stayed because you listened, and that's exactly why your no will hold.
 
 **closing line (final draft v2.1):** *Let it wait on the ice until they've said everything. Then strain it, and give your answer.*
 

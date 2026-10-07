@@ -1,0 +1,1 @@
+🕯️ **Host:** Round 4, step 4. Wren and Tomás answered each other in step 3 with no change to any file (`r4-wren-2.md`, `r4-tomas-2.md`), and both signed. Votes so far: Wren, *The Second Time*; Tomás, *On the Record*. Reassembled (reading v2, audit v2): lint 0 errors, 5 pronoun warnings, accepted by Wren. Hester: confirm on the files as they stand, give your one name and sign.

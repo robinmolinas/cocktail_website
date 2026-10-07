@@ -1,0 +1,13 @@
+# Anchors: hero-lover (The Dashing Hero), round 2
+
+Card: `_studio/fact-cards/vesper-casino-royale.md`. Facts in the page's words, meanings are interpretation.
+
+| kind | fact | meaning | speaksTo |
+| --- | --- | --- | --- |
+| lineage | The Vesper (gin, vodka, Lillet, once sold as Kina Lillet) is the first cocktail James Bond orders in Fleming's first novel, *Casino Royale* (1953). Fiction, owned in one clause (Oxford VESPER pdf 2099; F1). | The guest may know the name; the part they don't know is the gift. | lens: The real me; gravities: Classic |
+| gesture | He asks for "a dry martini", then "One. In a deep champagne goblet.", and gives the measures himself: three of Gordon's, one of vodka, half a measure of Kina Lillet, shaken very well until ice-cold, then a large thin slice of lemon peel (novel, archive.org OCR highlights of two printings; Oxford pdf 2099; F2–F3). | The style is the precision: one drink, specified to the half measure. | drawnToward: Mastery; gravities: Controlled; texture: Sharp |
+| name | The drink is presented as his invention on the spot and at first has no name; later he borrows his colleague Vesper Lynd's name and christens it the Vesper (Oxford pdf 2099; F4). | Our reading: the drink takes its name from a person. | drawnToward: Belonging; driver: BUILD CONNECTION |
+| loss | Oxford: after her death at the end of the book, he never drinks it again. The book closes on her death, so this covers Fleming's later books; films out (Oxford pdf 2099; *Shaken Not Stirred*, OCR highlight; F5, C1). | Our reading, signposted ("I like to think"): the feeling shows only as something he stops doing. | lens: The real me; texture: Quiet; fear: Weakness |
+| person | Fleming inscribed his longtime friend Ivar Bryce's copy "For Ivar, who mixed the first Vesper"; Bryce recalled making the cocktail with Fleming's help (Oxford pdf 2099; F6–F7, C4). | In print the drink is the character's; in the inscription, the credit goes to a friend. | driver: BUILD CONNECTION; drawnToward: Belonging |
+| spark | Bryce's account (Oxford: "apparently"): the name came from a drink of frozen rum with fruit and herbs, served at a country house in Jamaica and announced by the butler as Vespers. The page names no rum style or origin; our Jamaican rum is our choice for the place (F7). | The teaspoon under the order is our ode to where the name was served, tied in one clause. | texture: Smooth, Dark; gravities: Controlled |
+| ingredient | "Kina" (French for quinine) left Lillet's name in 1986; the cut in bitterness came in 1917 (Oxford pdf 2099–2100). *Codex* p. 74: Kina Lillet had a bit more cinchona than today's (F8, C3). | Today's Lillet Blanc makes the order; never "can't be made", never "the same bottle". | flavours: Bitter, Citrusy |

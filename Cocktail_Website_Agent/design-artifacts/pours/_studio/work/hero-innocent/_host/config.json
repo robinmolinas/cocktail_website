@@ -1,0 +1,26 @@
+{
+ "pairing": "hero-innocent",
+ "personality": "The Initiate",
+ "archetypes": "Hero × Innocent",
+ "date": "2026-10-04",
+ "batch": "hero",
+ "name": "Work It Out",
+ "tagline": "There's more to you than this. You just can't prove it yet.",
+ "epigraph": "Vodka, beef broth, and an orange someone found on a Chinese menu.",
+ "glassware": "tall highball glass (about 400 ml), filled with ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "joe-baum-dale-degroff-bullshot.md",
+ "language_row": "Wren's Resonance (v3): horoscope and sibling swap pass (*Anyone Would Have*, *I'll Do It*, *Straight Up*, *Nothing to It*, *Making the Calls* kept apart; *Someone Else's Map* watched: y5 is about receiving, not a quest); 4-word runs clear of the registry after a lint-only fix; every he/him is DeGroff or Baum. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/joe-baum-dale-degroff-bullshot.md` (Robert Simonson, *A Proper Drink* pp. 11–13; *Oxford Companion* BULLSHOT pdf 374–375, RAINBOW ROOM pdf 1598, and pdf 633; *Flavor Matrix* beef wheel pdf 44–45). Room notes: `work/hero-innocent/`.",
+ "names_note": "**Work It Out**, the room's pick (Tomás's; Hester's vote made it 2–1; Wren accepted). Also considered: *Nobody Told Me* (Wren's pick; goes to Robin as the alternative), *Without a Word*, *Not Quite* (set aside: three names already open with \"Not\"), *On the Menu* (Hester), *Off the Chart* (out: the *Matrix* beef wheel lists citrus).",
+ "open_items": [
+  "**A meat drink:** the base is a home-made beef broth. It's veto-free on the table (`beef_broth_homemade`: beef, bones, onion, carrot, water; no stock cube, no clarifying egg white), but a vegetarian guest can't drink it and the veto list has no such category. Robin's call.",
+  "**Makeability:** the broth is made the day before (about 3 hours' simmer).",
+  "**Balance by hand:** `balance.py` has no savoury style, so it ran `freeform` and Tomás judged it on the highball ranges (in range).",
+  "**Story guards:** only what the tellings share (Bullshot or Bloody Bull; Aurora or the Rainbow Room); Baum never a trickster; no \"father of\".",
+  "**No spark:** the *Flavor Matrix* was consulted (orange isn't in its beef lists, though citrus is on the wheel); the orange is DeGroff's own, from the page.",
+  "**Name alternative:** *Nobody Told Me*."
+ ]
+}

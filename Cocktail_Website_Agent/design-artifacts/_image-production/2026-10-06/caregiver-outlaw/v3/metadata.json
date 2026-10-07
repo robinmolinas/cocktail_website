@@ -1,0 +1,302 @@
+{
+  "pairing": "caregiver-outlaw",
+  "pour": "Not Too Polite",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "cefe2c263153b4a16592375851515068896a5d9e2e77f8511a1ac261062e65dc",
+  "review": {
+    "recipe": "Master passed: clear pale-gold jaggery gin Collins over ordinary wet ice; fine bubbles and one orange peel inside, no foam.",
+    "personality": "Handled document-folder leather and released clasp now on inner right edge of portrait-safe cluster. Rumpled used handkerchief remains partly visible at inner edge in phone, fuller in wide; not literal campaign costume.",
+    "world": "Worn walnut old room, practical warm right lamp, near-black neutral shadows; one whole blank cream thread-tied tag glass-width and frontal.",
+    "issues": []
+  },
+  "measurements": {
+    "pairing": "caregiver-outlaw",
+    "pour": "Not Too Polite",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-outlaw/v3/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-2bb4aa67-afd4-4ce1-b0e9-f76e8d92ebea.png",
+    "sourceSha256": "cefe2c263153b4a16592375851515068896a5d9e2e77f8511a1ac261062e65dc",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      744,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1039,
+      "cy": 691,
+      "w": 222,
+      "angle": 0
+    },
+    "glass": {
+      "x": 994,
+      "y": 469
+    },
+    "bounds": {
+      "glass": {
+        "x0": 864,
+        "y0": 190,
+        "x1": 1121,
+        "y1": 748
+      },
+      "paper": {
+        "x0": 880,
+        "y0": 631,
+        "x1": 1157,
+        "y1": 750
+      }
+    },
+    "review": {
+      "recipe": "Master passed: clear pale-gold jaggery gin Collins over ordinary wet ice; fine bubbles and one orange peel inside, no foam.",
+      "personality": "Handled document-folder leather and released clasp now on inner right edge of portrait-safe cluster. Rumpled used handkerchief remains partly visible at inner edge in phone, fuller in wide; not literal campaign costume.",
+      "world": "Worn walnut old room, practical warm right lamp, near-black neutral shadows; one whole blank cream thread-tied tag glass-width and frontal.",
+      "issues": []
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1193.11004784689,
+        "cy": 793.9148936170213,
+        "w": 254.92822966507177,
+        "angle": 0
+      },
+      "glass": {
+        "x": 1141.4354066985647,
+        "y": 538.8510638297872
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 376.5242165242165,
+        "cy": 882.1276595744681,
+        "w": 283.35042735042737,
+        "angle": 0
+      },
+      "glass": {
+        "x": 319.08831908831905,
+        "y": 598.7234042553192
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-outlaw/portrait.jpg",
+    "wide": "/personas/caregiver-outlaw/wide.jpg",
+    "wideTag": {
+      "cx": 0.6214114832535885,
+      "cy": 0.7351063829787234,
+      "w": 0.13277511961722488,
+      "angle": 0
+    },
+    "wideGlass": {
+      "x": 0.5944976076555024,
+      "y": 0.498936170212766
+    },
+    "tag": {
+      "cx": 0.4202279202279202,
+      "cy": 0.7351063829787234,
+      "w": 0.3162393162393162,
+      "angle": 0
+    },
+    "glass": {
+      "x": 0.3561253561253561,
+      "y": 0.498936170212766
+    }
+  },
+  "hashes": {
+    "master": "7461e1aa779f6e83322d260babe3fa713b905b058e758b2424a3105ec2a2c2a1",
+    "wide": "479ad066477bc35d57120439c2e054e138bda3fc9f04f8c07b01e2eb64d0b8dc",
+    "portrait": "f0f10be4f93b8cc931d87b083e917985d826168a892fffbb84572cc7104a2d4f"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 992.1531100478469,
+          "y0": 218.29787234042553,
+          "x1": 1287.2727272727273,
+          "y1": 859.404255319149
+        },
+        "paper": {
+          "x0": 1010.5263157894736,
+          "y0": 724.9787234042553,
+          "x1": 1328.6124401913876,
+          "y1": 861.7021276595744
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 746.7942583732058,
+          "y0": 181.91489361702128,
+          "x1": 992.7272727272727,
+          "y1": 716.1702127659574
+        },
+        "paper": {
+          "x0": 762.1052631578947,
+          "y0": 604.1489361702128,
+          "x1": 1027.177033492823,
+          "y1": 718.0851063829787
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1058.2966507177034,
+          "y0": 179.4910638297872,
+          "x1": 1373.090909090909,
+          "y1": 863.3378723404255
+        },
+        "paper": {
+          "x0": 1077.8947368421052,
+          "y0": 719.9506382978724,
+          "x1": 1417.1866028708134,
+          "y1": 865.7889361702128
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1777.6076555023924,
+          "y0": 163.4170212765957,
+          "x1": 2306.363636363636,
+          "y1": 1312.0659574468086
+        },
+        "paper": {
+          "x0": 1810.5263157894735,
+          "y0": 1071.2202127659575,
+          "x1": 2380.4306220095696,
+          "y1": 1316.1829787234042
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3561253561253561,
+        "y": 0.498936170212766
+      },
+      "bounds": {
+        "glass": {
+          "x0": 22.187654320987647,
+          "y0": 170.59574468085106,
+          "x1": 252.8970180436848,
+          "y1": 671.608510638298
+        },
+        "paper": {
+          "x0": 36.550883190883184,
+          "y0": 566.5574468085107,
+          "x1": 285.2142830009497,
+          "y1": 673.4042553191489
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3561253561253561,
+        "y": 0.498936170212766
+      },
+      "bounds": {
+        "glass": {
+          "x0": 24.264767331434,
+          "y0": 188.38297872340428,
+          "x1": 279.02913580246917,
+          "y1": 741.6340425531914
+        },
+        "paper": {
+          "x0": 40.125584045584034,
+          "y0": 625.6297872340425,
+          "x1": 314.71597340930674,
+          "y1": 743.6170212765957
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3561253561253561,
+        "y": 0.498936170212766
+      },
+      "bounds": {
+        "glass": {
+          "x0": 35.421842355175684,
+          "y0": 114.80851063829786,
+          "x1": 190.6859639126306,
+          "y1": 451.9829787234043
+        },
+        "paper": {
+          "x0": 45.088091168091154,
+          "y0": 381.28510638297877,
+          "x1": 212.4350237416904,
+          "y1": 453.1914893617021
+        }
+      }
+    }
+  ]
+}

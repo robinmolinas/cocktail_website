@@ -1,0 +1,20 @@
+/* Direction C — Switzer, the quiet one. Light questions, an upright serif title, the reading stays Playfair.
+   Families: Switzer · Playfair Display · Playfair. Jost retires. */
+@import url('https://api.fontshare.com/v2/css?f[]=switzer@300,400,500,301,401&display=swap');
+:root { --font-sans: 'Switzer', system-ui, sans-serif; --font-label: var(--font-sans); }
+
+.hold-q { font-family: var(--font-sans); font-style: normal; font-weight: 300;
+  font-size: clamp(1.4rem, 2.9vmin, 1.8rem); letter-spacing: -0.01em; line-height: 1.24; }
+.grav-pole { font-family: var(--font-sans); font-style: normal; font-weight: 300; letter-spacing: -0.02em; }
+.hold-hint, .depth-hint, .seed-name { font-family: var(--font-sans); font-weight: 400; font-size: clamp(14px, 1.75vmin, 16px); letter-spacing: 0.003em; }
+.sphere-word { font-family: var(--font-sans); font-style: normal; font-weight: 400; letter-spacing: 0; }
+.hold-next, .cta, .tr-kicker, .tr-cue, .tr-label, .tr-amount, .tr-quiet, .tr-ritual li::before { font-family: var(--font-sans); }
+.hold-next { font-weight: 400; letter-spacing: 0.2em; }
+.tr-kicker, .tr-label, .tr-cue { font-weight: 500; letter-spacing: 0.2em; }
+.cta { font-weight: 400; letter-spacing: 0.02em; }
+/* the cocktail's name stands upright; tagline moves to the sans so the serif is rarer */
+.tr-title { font-style: normal; font-weight: 400; letter-spacing: -0.015em; }
+.tr-for { font-family: var(--font-sans); font-style: normal; font-weight: 300; letter-spacing: 0; }
+
+/* the guest writes in the ink: Satoshi and Switzer lack Vietnamese (ễ), so her name and trace stay serif */
+.depth-input { font-family: var(--font-display); font-style: italic; }

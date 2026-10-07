@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Adolescent (outlaw-innocent)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine item and D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): yours 5 (Q137, V4): "Here's my side of it. Keep the promise." → "Keep the promise."; whoYouAre ¶2 (V1, the near-strict "never scared you… What scares you" frame): "Trouble never scared you much. What scares you is how gently it would happen:" → "What scares you is how gently the change would come:" (meaning unchanged; the corpus fence against *Fresh Air* is respected, nothing moves closer to the drift).
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Chartreuse 2021–2023 cap (Oxford pdf 439–440 + the house's letter via The Daily Pour; VinePair); Wren ruled r4) · [x] drink + four checks (spec v2, Armagnac + 1 tbsp yellow Chartreuse, built, balanced, veto-free) · [x] reading (v2, Chartreuse cap) · [x] fact audit (Hester PASS, historian-audit-v2.md + B1–B3 re-grepped) · [x] resonance test (Wren: not yet on v1, ready on v2) · [x] names (≥3 + pick) (Kept (Wren, Tomás; Hester's pick What It's For, answered by Wren)) · [x] image brief (Tomás r5)
 - **Last change to the pour:** r5 (step 4: B1–B3)

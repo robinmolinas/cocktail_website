@@ -174,13 +174,27 @@ photographic imperfection. Personality changes what happened in the room
 changes the world into a modern studio, stainless-steel bar, neon club, or
 bright lifestyle set.
 
-**The No-Metal Image Rule.** Brass remains a small interface colour, not a
-photographic material direction. Persona scenes are authored from timber,
-glass, paper, linen, ceramic, cork, fruit and shadow. Never use a metal counter,
-backdrop, lamp, shaker or hero tool; never let chrome, steel or brass define the
-room. If a recipe makes a tiny functional metal part unavoidable, it must be
-dull, peripheral and visually subordinate enough that the scene still reads as
-wood-and-paper Dionysus at first glance.
+**The Timber Room, Functional Metal Rule.** The user's clarification applies
+to the bar/table and the overall atmosphere, not a blanket ban on equipment.
+Use dark worn timber surfaces, tactile paper/linen and restrained warm light;
+avoid metal counters, industrial backsplashes and chrome-dominated rooms.
+Shakers, spoons, jiggers, knives, lamp hardware and personal objects may be
+metal when their function makes sense, with natural reflections and wear.
+Keep the cocktail dominant and the palette continuous with the experience.
+This protects immersion while allowing a believable working bar.
+
+**The Recipe-First Serving Rule.** Individual pours have one hero drinking
+glass. A settled shared recipe may instead have one hero serving bowl/vessel
+and necessary receiving cups, subject to a shared-serve pilot review. Never
+change the serving format or invent a single-serve recipe for the photograph.
+Each hero vessel carries one blank physical name tag.
+
+**The Ready-Pour Production Rule.** Read the complete settled pour and current
+image system; resolve obsolete impossible-detail briefs into plausible traces.
+Pilot distinct serving types before scaling. Batch only ready pours and hand
+off reviewed wide/portrait exports and measured tag/glass coordinates to one
+integration owner. Candidate imagery, technical review and user approval are
+separate states; existing assets are preserved until a replacement is accepted.
 
 Each image must read in this order:
 
@@ -389,7 +403,8 @@ H1's lenses, H4's pairs, H5's words, H6's flavours and H6's "leave out" are
 all this one object: a translucent glass sphere (the `--sphere-*` tokens),
 the word inside in Playfair Display italic 500, one size
 (`clamp(112px, 15vmin, 142px)`; H1's phrases use `.is-lens`,
-`clamp(132px, 18.5vmin, 176px)`; H4's pair uses a large variant), drifting on
+`clamp(132px, 18.5vmin, 176px)`; H4's pair uses a large variant, and its 1 / 2
+example `.is-number` sets the numerals larger), drifting on
 desynced currents.
 - **Rising field** (H6 flavours, `.sphere-field > .sphere-float`): the same
   spheres climb slowly in lanes, condensing in above the pill and dissolving
@@ -400,12 +415,32 @@ desynced currents.
   `.is-popped` (H6 · leave out: the glass pops into a ring of foam droplets,
   the struck word stays; tap again to blow it back — markup uses
   `.sphere-slot` so the word outlives its glass).
+- **H5 · her world (`.rw`, ResonanceWorld.tsx)**: the same spheres
+  (`.rw-word`, `clamp(92px, 11vmin, 110px)`, phones `clamp(80px, min(24vw,
+  11vh), 100px)`) around ONE canvas-drawn circle of her seed colour, never the
+  glass. Round 1's words orbit slowly and fall into her, and are then written
+  inside her (`.rw-held`, sized to her radius). Round 2's chosen words wear a
+  tilted ring of her light, split across a back canvas (behind the glass) and
+  a front canvas. Her skin is one lit hairline plus a soft glow: no inner
+  highlight arc. Her interior clears as her seed brightens, so the ivory
+  writing reads on gold. Centring uses the `translate` property, because the
+  entrance animation owns `transform`.
+  **Hand-over to H6:** she gathers what drew her into herself, condenses to
+  one bright drop, then lets go as her own effervescence while the camera
+  rises. Her fizz dissolves under H6's question. The H4 → H5 night falls over
+  5.5s and lifts over 3.4s; never a hard cut to dark.
 - **H4 variant (`.ember`)**: the round's clock is the glass thinning
   (`--ember-glow` scales rim/fill alpha), the word holding until the last
   stretch, then blurring away. Never a brightness filter on type. The catch
   (`.is-caught`): her colour blooms inside the glass, fine fizz climbs out of
   it (canvas), then it rises and dissolves over ~1s; the other sinks
   (`.is-passed`). No rings.
+- **Flavour mark** (H6 flavours only, 2026-10-06): a hairline line drawing
+  (`FlavourIcon.tsx`, one family on a 24 grid) sits *above* its word, ivory at
+  0.8 so the word leads; lit, it comes to full ivory with a faint `--c` glow,
+  never coloured ink, never its own motion, aria-hidden. Fresh is a dewdrop
+  with a small second drop (the mint leaf and cucumber slice were rejected).
+  The "leave out" vetoes stay word-only. Rules: `../design-artifacts/2026-10-06-type-icons-sound/icons/README.md`.
 - **Seed drop** (H2): the sphere's sibling with the seed colour glowing inside;
   the ring's centre holds the question, with the colour being tried on named
   beneath it (`.seed-center`, `.seed-name`).
@@ -478,6 +513,16 @@ area. There is no contained frame, feathered card edge or black side gutter.
 The drink, its physical tag and essential personality evidence must remain
 inside the protected centre defined in the Persona Image System.
 
+**Portrait-phone reveal (2026-10-06 mobile correction).** The full-bleed room
+occupies the first screen with its physical name tag unobscured. A quiet
+"Your cocktail" cue leads to the title and tagline immediately below; these
+and the recipe/reading follow in normal document flow. On portrait phones
+only, the opening photograph scrolls away rather than remaining behind the
+copy. No caption is superimposed on the tag, and no bottom vignette buries the
+ink. Desktop, tablet-landscape and landscape-phone poster behavior is retained.
+This is a responsive sequence within the same dark world, not a contained
+photograph, a new card, a recipe change or a tint over the drink.
+
 ### Slider (paper world)
 A brush line with imperceptible ticks and an irregular ink-blob thumb
 (organic border-radius), rotating slightly on hover. No numbers shown.
@@ -512,8 +557,10 @@ A brush line with imperceptible ticks and an irregular ink-blob thumb
   one continuous experience.
 - **Don't** let the nav mark and the page copy sit on different left edges —
   both hang from `--gutter`.
-- **Don't** add drag interactions; every depth interaction is a click/touch
-  (H3's mote is the one sanctioned drag, with a full keyboard mirror).
+- **Don't** add drag interactions; every depth interaction is a click/touch.
+  Two drags are sanctioned: H3's mote (with a full keyboard mirror) and
+  carrying a word into her at H5 round 1 (Robin, 2026-10-06), which is only
+  an alternative to the tap and records exactly what the tap records.
 - **Don't** ask for anything the reveal cannot honour (why H6's glass beat
   was removed: each pour's glass is fixed).
 - **Don't** use pure #000 or pure #fff anywhere; both worlds are warm.

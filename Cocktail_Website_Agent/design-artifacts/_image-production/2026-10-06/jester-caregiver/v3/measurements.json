@@ -1,0 +1,58 @@
+{
+  "pour": "Anyway",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-caregiver/v3/master.png",
+  "sourceSha256": "4f49ef8676ff8c63c1e5cfe516cafe71d626e7dbaa7acf01cc918d1cd827a6df",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    690,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1043,
+    "cy": 646,
+    "w": 164,
+    "angle": 24
+  },
+  "glass": {
+    "x": 913,
+    "y": 373
+  },
+  "bounds": {
+    "glass": {
+      "x0": 782,
+      "y0": 239,
+      "x1": 1048,
+      "y1": 736
+    },
+    "paper": {
+      "x0": 925,
+      "y0": 575,
+      "x1": 1141,
+      "y1": 735
+    }
+  },
+  "review": {
+    "recipe": "Single chilled stemmed wine glass with narrowing bowl, rosy amber-orange shaken Bronx riff, tiny froth, no pulp/seeds/ice/garnish.",
+    "personality": "Full-size prior JPEG pair inspected: stemmed wine glass, hazy rosy orange, bare rim and no ice. Clock, game timer and worn party crown clear in fullpair but far right; mechanical crop fixes glass only. Genuine phone personality hold remains, new composition edit required.",
+    "world": "Dark worn walnut and burgundy room, single warm lamp camera right, neutral shadows.",
+    "issues": [
+      "Actual new pair export and name-font/browser checks pending.",
+      "HOLD: narrow-phone personality traces still too far right; composition correction required."
+    ]
+  },
+  "pairing": "jester-caregiver",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-755ad67f-d05d-4c53-8d37-e13fc1c98513.png",
+  "exportRevision": {
+    "kind": "mechanical-crop-only",
+    "sourceVersion": "v2",
+    "change": "Leftward portrait crop retains full measured glass while maximizing right-hand human context.",
+    "predictedGeometryPasses": 7
+  }
+}

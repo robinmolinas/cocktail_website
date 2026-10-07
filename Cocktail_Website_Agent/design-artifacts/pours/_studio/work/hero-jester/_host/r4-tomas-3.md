@@ -1,0 +1,1 @@
+🍸 **Tomás:** A lint-only change: method steps 1 and 4 now say "almond syrup" instead of "orgeat", and the recipe line still names it as "toasted almond orgeat (an almond syrup scented with orange flower water)". The drink, the facts and my sign-off are unchanged.

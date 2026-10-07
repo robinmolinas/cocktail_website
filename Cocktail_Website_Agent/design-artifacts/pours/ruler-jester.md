@@ -36,7 +36,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 5. Put a straw in and taste it. Then make one call: a few more mint leaves pushed down if you want it fresher, half a teaspoon more syrup if it's sharp, or a dash of Angostura if you want it deeper. Stir once more.
 6. Top with the mint sprig and two raspberries.
 
-**closingLine:** *Taste it through the straw and make one call. Next time it all goes wrong, the first joke can be someone else's.*
+**closingLine:** *Taste it through the straw and make one call. Then pass the glass to whoever hasn't made a call yet.*
 
 ## Anchors
 
@@ -58,12 +58,12 @@ authored_in: the room, 2026-10-01 (batch ruler)
 ## Reading
 
 **epigraph**
-*A bartending school went bust. Its party bar didn't. This glass is that bar's size.*
+*A bartending school went bust. Its party bar didn't. This drink comes in its big glass.*
 
 **whoYouAre**
 The last train's cancelled, and there are twelve of you on a cold platform. Someone sighs. You make a joke, it lands, and somewhere in the middle of it there's a plan, and everyone hears it: the café that's still open, the walk across town, a bet on who gets home first. Years later, it's the night everyone brings up.
 
-Nobody calls it being in charge, because to them it feels like being asked along. You like it like that. Being obeyed bores you, and it would turn you into the boss. You seldom admit how much you enjoy having your hand on the wheel, and that when you make that first joke, you don't yet know it'll work. What you dread is the night it gets away from you, or the night the fun runs out and you're just someone telling people where to go. And look what you give them: around you, a plan falling apart is where the good part begins. People go further than they ever would on their own, and they come back glad they went.
+Nobody calls it being in charge, because to them it feels like being asked along. You like it like that. Being obeyed bores you, and it would turn you into the boss. You seldom admit how much you enjoy having your hand on the wheel, and that when you make that first joke, you don't yet know it'll work. What you dread is the night it gets away from you, or the night the fun runs out and you're just someone telling people where to go. Around you, a plan falling apart is where the good part begins. People go further than they ever would on their own, and they come back glad they went.
 
 **yours**
 
@@ -75,7 +75,7 @@ Nobody calls it being in charge, because to them it feels like being asked along
 
 4. The cocktail I've made for you is a vodka Daiquiri, built like a Mojito, in the kind of big glass LAB served so many of its drinks in, with crushed ice heaped above the rim. I chose raspberries for it, blended cold into a syrup, so the bold red comes from the fruit alone, with a pinch of toasted cumin in the syrup, a turn you won't see coming that works out, and lime and mint leaves that stay in: bright and generous. Then it's over to you. When you make it, taste it through the straw and make one of those three calls: a few more mint leaves, a little more syrup, or a dash of bitters. That step is there as a nod to those bartenders tasting in all that noise, and the drink is built so that whichever call you make, it holds.
 
-5. Before you go, a thought, and I mean it kindly. Somewhere near you is someone who never makes the first joke, because you always do. When the evening next falls apart, wait a moment. Leave it to them, and follow wherever it goes. You won't lose the wheel. What you'll get is something you almost never have: the fun of not knowing where you're going while someone else steers. I hope it's somewhere wonderful.
+5. Before you go, a thought, and I mean it kindly. Somewhere near you is someone who never makes the first joke, because you always do. When the evening next falls apart, wait a moment. Leave it to them, and follow wherever it goes. You won't lose the wheel. What you'll get is something you almost never have: the fun of not knowing where you're going while someone else steers.
 
 ---
 

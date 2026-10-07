@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Noble Ruler (ruler-hero)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue item on Wren's ground (clarity); no D-card touches this pour.
+- **Edits** (before → after, short): whoYouAre ¶1 (Q165): "They can, because you never do." → "They can, because you've taken the worrying on yourself."
+- **Left for Robin:** Q145 ("last I read" → "today") waits on Hester to confirm Cowdery 2024 supports the present tense and to update the `today` anchor row.
+- **Hester (open items):** Q145 in part: yours 3 "and last I read, the family's descendants" → "and the family's descendants" ("still" carries the present; I didn't add "today" on a May 2024 page). Anchor row `today` updated (pour + work anchors): re-check before publishing. Fact audit CR1. Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1 (psychologist-persona-card.md)) · [x] story + sourced anchors (Hester r3 (historian-anchors.md, fact card jim-beam-repeal)) · [x] drink + four checks (Tomás r3 (mixologist-draft.md, spec)) · [x] reading (Wren r5 (v3)) · [x] fact audit (Hester r4–r5 (audit v2, R1–R8 landed, confirmed r5)) · [x] resonance test (Wren r5, reading v3: ready) · [x] names (≥3 + pick) (A Place Kept, all three) · [x] image brief (Tomás r4, draft v1.1)
 - **Last change to the pour:** r5 (reading v3, draft v1.2 closing line)

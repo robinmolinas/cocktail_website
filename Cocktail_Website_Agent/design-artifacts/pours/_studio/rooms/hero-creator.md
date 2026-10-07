@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Idealist (hero-creator)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 (variety rules, "I trust your taste judgement").
+- **Edits** (before → after, short): yours 3 (D13 V3): "I like to think this was his way of standing up for something:" → "This was his way of standing up for something, I like to think:". yours 5 (D13 V4, no "So here's my…" preamble): "So here's my suggestion. Somewhere there's a thing…" → "Somewhere there's a thing…".
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (v1: Fougner card F1–F14, six anchors; drink rows pending) · [x] drink + four checks (v1: bourbon 75, lemon 30, orange 30, pomegranate grenadine 15, soda 45; collins 14.5% balanced; veto-free; no spark (stated)) · [x] reading (v1) · [x] fact audit (v1 (on reading v1 + draft): R1–R20, T1–T12 open) · [x] resonance test (v2: ready) · [x] names (≥3 + pick) (The Long Answer (Wren, Tomás; Hester: fine by the facts); No Stupid Questions second) · [x] image brief (v1)
 - **Last change to the pour:** r7: reading v4 (y4 mint line)

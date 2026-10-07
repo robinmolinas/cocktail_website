@@ -1,0 +1,1 @@
+Complete dossier and spec re-read before correction; source SHA18414c77befb6a57b1cc76b9d080e61492082e9ac28deed9f0401bcd1213d997. Correct only paper/equipment crop placement. Original highball recipe, mint sprig, house world and carried-care interpretation preserved. No editorial changes. This is the second bounded correction, staged as v3 to preserve v2.

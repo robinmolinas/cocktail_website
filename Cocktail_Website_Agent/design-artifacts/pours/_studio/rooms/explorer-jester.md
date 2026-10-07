@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Mad Inventor (explorer-jester)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine items; D13 (variety rules).
+- **Edits** (before → after, short): yours 5 (Q108, the shared "better with two" with *I'll Tell You Later*): "Building is better with two, and I'd bet they'll want to do the next one with you." → "I'd bet they'll want to do the next one with you." yours 3 (D13 V3): "I like to think the pot was never really an option." → "The pot was never really an option, I like to think."
+- **Left for Robin:** Q019 y2 "who happens to have written one of the books I mix from" (Hester to confirm the replacement description of Dave Arnold).
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Why Not? (all three)) · [x] image brief
 - **Last change to the pour:** r6 (reading v4, draft v1.2; spec v1 unchanged)

@@ -1,0 +1,107 @@
+/* Dionysus type directions, 2026-10-06. Prototype only: nothing here is wired
+   into dionysus-experience/src. Every role is a token, so each direction is
+   one block of variables and the screens never name a family directly.
+
+   Roles: q (question), hint, word (sphere word), ember (H4 pair word),
+   kicker/label, title (cocktail name), tag (tagline), epi (epigraph),
+   body (reading prose), btn (house pill), next (way-onward pill). */
+
+/* ---------- A. Current: Playfair Display / Playfair / Jost (baseline) ---------- */
+[data-dir="A"] {
+  --q-family: 'Playfair Display', Georgia, serif; --q-style: italic; --q-weight: 400;
+  --q-size: clamp(1.4rem, 3vmin, 1.85rem); --q-ls: 0; --q-lh: 1.25;
+  --hint-family: 'Playfair', Georgia, serif; --hint-style: normal; --hint-weight: 400;
+  --hint-size: clamp(15px, 1.9vmin, 17px); --hint-ls: 0.005em; --hint-lh: 1.5;
+  --word-family: 'Playfair Display', Georgia, serif; --word-style: italic; --word-weight: 500;
+  --word-size: clamp(15px, 1.95vmin, 18px); --word-ls: 0.005em; --word-lh: 1.22;
+  --word-size-phone: clamp(13px, 3.5vw, 15px);
+  --ember-size: clamp(1.35rem, 3vmin, 1.95rem); --ember-ls: 0; --ember-lh: 1.1;
+  --label-family: 'Jost', Futura, sans-serif; --label-weight: 500; --label-ls: 0.26em;
+  --title-family: 'Playfair Display', Georgia, serif; --title-style: italic; --title-weight: 500;
+  --title-size: clamp(2.4rem, 5vw, 4.4rem); --title-ls: -0.02em; --title-lh: 1.1;
+  --title-size-phone: clamp(2rem, 8vw, 2.4rem);
+  --tag-family: 'Playfair Display', Georgia, serif; --tag-style: italic; --tag-weight: 400;
+  --tag-size: clamp(1.02rem, 1.36vw, 1.35rem); --tag-ls: 0; --tag-lh: 1.42;
+  --epi-family: 'Playfair Display', Georgia, serif; --epi-style: italic; --epi-weight: 400;
+  --epi-size: clamp(1.34rem, 1.9vw, 1.74rem); --epi-lh: 1.32;
+  --body-family: 'Playfair', Georgia, serif; --body-weight: 400;
+  --body-size: 1.16rem; --body-ls: 0; --body-lh: 1.66;
+  --btn-family: 'Jost', Futura, sans-serif; --btn-weight: 500; --btn-size: 0.9rem; --btn-ls: 0.04em; --btn-case: none;
+  --next-family: 'Jost', Futura, sans-serif; --next-weight: 400; --next-size: 11px; --next-ls: 0.24em; --next-case: uppercase;
+}
+
+/* ---------- B. Neue Montreal (STAND-IN: Geist) + Newsreader ---------- */
+/* Neue Montreal has no legitimate free webfont. Geist is the stand-in: a
+   free (OFL) neo-grotesk with the same squarish, low-contrast, slightly
+   tight-apertured screen voice. Inter would be closer on paper but is
+   retired in this project (Robin, 2026-09-29). */
+[data-dir="B"] {
+  --q-family: 'Geist', 'Helvetica Neue', sans-serif; --q-style: normal; --q-weight: 400;
+  --q-size: clamp(1.35rem, 2.9vmin, 1.8rem); --q-ls: -0.018em; --q-lh: 1.22;
+  --hint-family: 'Geist', 'Helvetica Neue', sans-serif; --hint-style: normal; --hint-weight: 400;
+  --hint-size: clamp(14.5px, 1.8vmin, 16px); --hint-ls: -0.003em; --hint-lh: 1.5;
+  --word-family: 'Geist', 'Helvetica Neue', sans-serif; --word-style: normal; --word-weight: 500;
+  --word-size: clamp(14.5px, 1.85vmin, 17px); --word-ls: -0.01em; --word-lh: 1.2;
+  --word-size-phone: clamp(13px, 3.4vw, 14.5px);
+  --ember-size: clamp(1.3rem, 2.8vmin, 1.8rem); --ember-ls: -0.02em; --ember-lh: 1.1;
+  --label-family: 'Geist', sans-serif; --label-weight: 500; --label-ls: 0.18em;
+  --title-family: 'Newsreader', Georgia, serif; --title-style: italic; --title-weight: 400;
+  --title-size: clamp(2.6rem, 5.2vw, 4.6rem); --title-ls: -0.02em; --title-lh: 1.04;
+  --title-size-phone: clamp(2.2rem, 8.6vw, 2.6rem);
+  --tag-family: 'Newsreader', Georgia, serif; --tag-style: italic; --tag-weight: 400;
+  --tag-size: clamp(1.08rem, 1.42vw, 1.4rem); --tag-ls: 0; --tag-lh: 1.38;
+  --epi-family: 'Newsreader', Georgia, serif; --epi-style: italic; --epi-weight: 400;
+  --epi-size: clamp(1.4rem, 1.95vw, 1.8rem); --epi-lh: 1.28;
+  --body-family: 'Newsreader', Georgia, serif; --body-weight: 400;
+  --body-size: 1.2rem; --body-ls: 0; --body-lh: 1.6;
+  --btn-family: 'Geist', sans-serif; --btn-weight: 500; --btn-size: 0.9rem; --btn-ls: 0; --btn-case: none;
+  --next-family: 'Geist', sans-serif; --next-weight: 500; --next-size: 11px; --next-ls: 0.2em; --next-case: uppercase;
+}
+
+/* ---------- C. Switzer + Playfair (the text cut retained) ---------- */
+[data-dir="C"] {
+  --q-family: 'Switzer', 'Helvetica Neue', sans-serif; --q-style: normal; --q-weight: 400;
+  --q-size: clamp(1.35rem, 2.9vmin, 1.8rem); --q-ls: -0.012em; --q-lh: 1.25;
+  --hint-family: 'Switzer', 'Helvetica Neue', sans-serif; --hint-style: normal; --hint-weight: 400;
+  --hint-size: clamp(14.5px, 1.8vmin, 16px); --hint-ls: 0.002em; --hint-lh: 1.5;
+  --word-family: 'Switzer', 'Helvetica Neue', sans-serif; --word-style: normal; --word-weight: 500;
+  --word-size: clamp(14.5px, 1.85vmin, 17px); --word-ls: -0.005em; --word-lh: 1.2;
+  --word-size-phone: clamp(13px, 3.4vw, 14.5px);
+  --ember-size: clamp(1.3rem, 2.8vmin, 1.8rem); --ember-ls: -0.015em; --ember-lh: 1.1;
+  --label-family: 'Switzer', sans-serif; --label-weight: 500; --label-ls: 0.2em;
+  --title-family: 'Playfair', Georgia, serif; --title-style: italic; --title-weight: 500;
+  --title-size: clamp(2.5rem, 5vw, 4.4rem); --title-ls: -0.015em; --title-lh: 1.06;
+  --title-size-phone: clamp(2.1rem, 8.2vw, 2.5rem);
+  --tag-family: 'Playfair', Georgia, serif; --tag-style: italic; --tag-weight: 400;
+  --tag-size: clamp(1.04rem, 1.36vw, 1.35rem); --tag-ls: 0; --tag-lh: 1.42;
+  --epi-family: 'Playfair', Georgia, serif; --epi-style: italic; --epi-weight: 400;
+  --epi-size: clamp(1.34rem, 1.9vw, 1.74rem); --epi-lh: 1.32;
+  --body-family: 'Playfair', Georgia, serif; --body-weight: 400;
+  --body-size: 1.14rem; --body-ls: 0; --body-lh: 1.66;
+  --btn-family: 'Switzer', sans-serif; --btn-weight: 500; --btn-size: 0.9rem; --btn-ls: 0.01em; --btn-case: none;
+  --next-family: 'Switzer', sans-serif; --next-weight: 500; --next-size: 11px; --next-ls: 0.22em; --next-case: uppercase;
+}
+
+/* ---------- D. Satoshi everywhere; Instrument Serif only for name + epigraph ---------- */
+[data-dir="D"] {
+  --q-family: 'Satoshi', 'Helvetica Neue', sans-serif; --q-style: normal; --q-weight: 500;
+  --q-size: clamp(1.4rem, 3vmin, 1.85rem); --q-ls: -0.02em; --q-lh: 1.2;
+  --hint-family: 'Satoshi', 'Helvetica Neue', sans-serif; --hint-style: normal; --hint-weight: 400;
+  --hint-size: clamp(15px, 1.85vmin, 16.5px); --hint-ls: 0; --hint-lh: 1.5;
+  --word-family: 'Satoshi', 'Helvetica Neue', sans-serif; --word-style: normal; --word-weight: 500;
+  --word-size: clamp(15px, 1.9vmin, 17.5px); --word-ls: -0.01em; --word-lh: 1.18;
+  --word-size-phone: clamp(13px, 3.45vw, 15px);
+  --ember-size: clamp(1.35rem, 2.9vmin, 1.85rem); --ember-ls: -0.025em; --ember-lh: 1.08;
+  --label-family: 'Satoshi', sans-serif; --label-weight: 700; --label-ls: 0.16em;
+  --title-family: 'Instrument Serif', Georgia, serif; --title-style: italic; --title-weight: 400;
+  --title-size: clamp(3rem, 6vw, 5.4rem); --title-ls: -0.01em; --title-lh: 0.98;
+  --title-size-phone: clamp(2.6rem, 10vw, 3rem);
+  --tag-family: 'Satoshi', sans-serif; --tag-style: normal; --tag-weight: 400;
+  --tag-size: clamp(1rem, 1.3vw, 1.25rem); --tag-ls: -0.005em; --tag-lh: 1.45;
+  --epi-family: 'Instrument Serif', Georgia, serif; --epi-style: italic; --epi-weight: 400;
+  --epi-size: clamp(1.6rem, 2.2vw, 2.05rem); --epi-lh: 1.18;
+  --body-family: 'Satoshi', sans-serif; --body-weight: 400;
+  --body-size: 1.06rem; --body-ls: 0; --body-lh: 1.7;
+  --btn-family: 'Satoshi', sans-serif; --btn-weight: 500; --btn-size: 0.92rem; --btn-ls: 0; --btn-case: none;
+  --next-family: 'Satoshi', sans-serif; --next-weight: 700; --next-size: 11px; --next-ls: 0.2em; --next-case: uppercase;
+}

@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Perfectionist (ruler-creator)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 variety rules. D14: ¶1 left alone (only creator-ruler's ¶1 changes).
+- **Edits** (before → after, short): whoYouAre ¶2 (V2, announcement + rarity stamp): "And here's what that care gives: around you, good becomes normal. … That's rare, and it's worth a lot." → "Around you, good becomes normal. … whoever's at the end gets it as it should be."
+- **Left for Robin:** Q093 (¶1 rewrite) not applied, per D14; tagline (Q094) unchanged per D11.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1 (psychologist-persona-card.md)) · [x] story + sourced anchors (Wayne Collins, High Holborn (Wren accepted r1; historian-anchors.md r2)) · [x] drink + four checks (mixologist-draft.md v1.3, bourbon Daisy + 2 tsp dry vermouth, balanced (Tomás r2, final r5)) · [x] reading (psychologist-reading-v3.md (Wren r3, final r5)) · [x] fact audit (historian-audit-v1.md + -v2.md, re-read clean (Hester r3–r5)) · [x] resonance test (in psychologist-reading-v3.md (Wren r5)) · [x] names (≥3 + pick) (On Their Behalf (all three)) · [x] image brief (mixologist-draft.md (Tomás r3))
 - **Last change to the pour:** r5 (reading v3, draft v1.3)

@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Subverter (outlaw-jester)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D1 (Coca-Cola row ruled none: `contains` → `[]`, `veto_free: true`; Checks › Allergens and the caveat anchor record the ruling; the Open item is marked resolved; `allergens.py` gives `[]`).
+- **Edits** (before → after, short): frontmatter/contains: `["nuts"]` → `[]`; whoYouAre ¶2 (Q085, Wren's ground, swap risk with the approved *No Accident*): "The joke isn't a reflex. It's how the true thing gets past the people it's about, because put plainly, it would be stopped." → "The joke isn't a reflex, and it never punches down. It's aimed at whoever's at the head of the table, because that's the one place a plain sentence would be stopped."
+- **Left for Robin:** none (tagline unchanged per D11).
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Lord Invader, Rum and Coca-Cola (Khan 1947, Baron 1948, Cowley/Folkways); Wren ruled r3) · [x] drink + four checks (spec v1, highball, balanced 12.6% / 6.63 g / 0.49%, contains nuts (cola, safe side)) · [x] reading (v3) · [x] fact audit (Hester PASS, historian-audit-v2.md + B1–B4 re-grepped) · [x] resonance test (Wren: ready on v2 and v3) · [x] names (≥3 + pick) (With the Bite In (all three)) · [x] image brief (Tomás r3, matched r5)
 - **Last change to the pour:** r5 (step 3: B1–B4 + y5 lint)

@@ -1,0 +1,4 @@
+{"pairing": "sage-hero", "family": "old-fashioned", "subfamily": "Rye Old-Fashioned at barrel proof, stirred on ordinary ice (Codex pp. 19-20) and strained over one large block of frozen black coffee, whose melt joins the drink after it is served", "style": "built", "glass": "heavy double old-fashioned glass (about 350 ml), one large block of coffee ice", "serves": 1,
+ "ingredients": [{"key": "rye_barrel_proof", "ml": 50}, {"key": "demerara_syrup", "ml": 12.5}, {"key": "angostura", "dashes": 2}, {"key": "water", "ml": 15}],
+ "garnish": ["coffee_ice_block", "orange_peel"],
+ "version": "v1 (Tomás, round 2, 2026-10-02). Judged at serve as `built` (24% dilution from a 30-second stir on ordinary ice, plus 15 ml measured water for barrel proof, Codex p. 20). Rye proved 55-62% with 15 ml water; 63-68% needs 25 ml (swept). The coffee block is not modelled at serve: its melt is modelled separately (freeform, +10/+20/+30/+40 ml, hot_coffee values) in the Checks."}

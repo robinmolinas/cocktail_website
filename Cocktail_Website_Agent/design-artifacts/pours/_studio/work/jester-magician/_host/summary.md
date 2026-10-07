@@ -1,0 +1,15 @@
+- **The persona:** the Elf/Imp is trouble people let in on purpose: small, harmless mischief aimed at people they like, played completely straight, with nobody hurt. What nobody sees is the rules they keep in private, and the tricks they decide against because of who'd be on the end of them. Their fear is the one trick that becomes someone's bad day (Wren, round 1).
+- **The story:** the phone booth at the back of Crif Dogs, a New York hot-dog shop. Its owner, Brian Shebairo, first planned a rock-and-roll bar next door, and the phone-booth door was his idea: "a little Get Smart", after the 1960s spy comedy (*A Proper Drink* pp. 269–270; Oxford pdf 1854). This was the plan's lead; Wren accepted it in round 1 with guards: the magic is the door's joke, never exclusivity, a secret or getting in; the bar named once at most. The runner-up, Caruso and Chaplin at Joel's, wasn't needed.
+- **The drink:** a bottled apple-brandy highball. Apple brandy (a Calvados or American straight apple brandy), dry vermouth and rich syrup are bottled ahead for six drinks and kept, labelled, in the fridge. To serve: 70 ml over ice in a plain tumbler, topped with soda, lemon peel over the top. It looks like any fizzy thing from the fridge and is a proper cocktail; nothing hidden. Veto-free; balanced (14.4%), no edges. The first apple-brandy base in the registry.
+- **What failed and why:**
+  - The reading owned the *Fine by Me* overlap (same bar) with that pour's bacon-washed bourbon. Hester's strongest point in round 4 (W-BACON): own the bar, never its drink. Struck.
+  - The closing line's "next month" went in round 4 (Wren's ask), and "the next one" became "your next surprise" (Hester's T-CL, Tomás's call).
+  - "A young Calvados" became "a Calvados": the *Codex* favours three years or more for mixing (T-CAL). The keeping note in the method now matches the Checks (T-KEEP).
+  - Applejack was excluded: it's a blend with neutral grain spirit (Hester, *Codex* p. 160).
+- **"This is me":** "For every trick people see, there are a few you decided against, because of who'd be on the end of it."
+- **Names:** *The Kind You'd Want*, 2–1 (Tomás, Hester). Wren voted *Nobody Saw a Thing*; Hester's first pick was *Made to Stay*. Also considered: *While You're Out*, *Help Yourself*, *Let In on Purpose*, *Gone by Teatime*. *House Rules* was dropped (*ruler-outlaw*'s gatekeeping frame).
+- **Edges:**
+  - No story drink on the page: the drink comes from the door's shape, tied in one clause.
+  - The same bar as *Fine by Me* (explorer-outlaw), owned in one clause.
+  - "Still catching people" is interpretation, signposted.
+- **Rule candidates:** none raised.

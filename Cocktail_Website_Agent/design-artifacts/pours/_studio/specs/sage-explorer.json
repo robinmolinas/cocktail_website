@@ -1,0 +1,30 @@
+{
+ "pairing": "sage-explorer",
+ "family": "old-fashioned",
+ "subfamily": "Holland gin Old-Fashioned built on cubed ice (after Kappeler 1895, Imbibe! pdf 187: spirit, sugar, two dashes Angostura, ice, lemon peel), with a small second spirit poured in first: French grape brandy, distilled from wine, as genever was before grain (Oxford WHISKY pdf 2131)",
+ "style": "built",
+ "glass": "rocks glass (about 300 ml), filled with ice cubes",
+ "serves": 1,
+ "version": "v1 (Tomás, round 2; notes fixed round 4 step 1, audit D1-D6). After Kappeler's 1895 Old-Fashioned Holland Gin Cocktail (Imbibe! pdf 187: sugar, 2 dashes Angostura, ice, lemon peel, 2 oz spirit; he gives whiskey, brandy, Holland gin and Old Tom versions) on cubed ice, with a quarter of the spirit as French grape brandy poured in first (split base, small second spirit: Codex pp. 103-104; both spirits old Cocktail ground, Imbibe! pdf 175, putting them in one glass is my riff). Why: under the name 'gin' sits genever, which English distillers copied after 1688 and whose name they shortened, geneva to gin (Oxford GENEVER pdf 873, GIN pdf 890); oude today is closest to a whisky in flavour (pdf 870); and genever was made from wine before grain: 'By 1588, Dutch distillers had moved from using French wine as the base for their genever' (Oxford WHISKY pdf 2131). The brandy is distilled from wine, our riff on that base. Two layers down, in the glass. Pairing: Flavor Matrix Grain chart (pdf 137, printed 127, rendered) carries brandy in its Alcohol segment. Numbers at the row floors (genever 35%, the oude legal minimum, Oxford pdf 875; cognac 41%): 27.0% / 6.99 g / 0%, all in built. Proven: genever 35-42% all in (45% edge high); genever sugar 0-2 g/100 ml (0 = sugar edge 6.45); cognac 40% with genever 35% = strength edge 26.8; rich syrup 6 ml is the stop (5 ml and 7.5 ml each edge). Without the brandy (60 ml genever) the drink falls to a 25.9% strength edge: the brandy holds the strength up.",
+ "ingredients": [
+  {
+   "key": "cognac",
+   "ml": 15
+  },
+  {
+   "key": "genever_oude",
+   "ml": 45
+  },
+  {
+   "key": "rich_syrup",
+   "ml": 6
+  },
+  {
+   "key": "angostura",
+   "dashes": 2
+  }
+ ],
+ "garnish": [
+  "lemon_peel"
+ ]
+}

@@ -1,0 +1,3 @@
+# Pioneer v5 readiness
+
+Final bounded watch-only follow-up within parent-authorized compact pilot correction. Full current explorer-hero pour re-read1–105 and106–EOF untruncated, complete current spec re-read immediately before call; unchanged SHA f47bf1ef1109a2ce34aa6af2e59891b0a04104df1b1a8ebc83e7d1a7f287010b. v4 target inspected original size. Recipe/world/glass/tag locked. Slide only existing watch towards glass, compact strap; card stack stays. v4face too distant for narrow-phone window. Parent owns export, no shared helper/public writes; pending measured master and exported derivative review.

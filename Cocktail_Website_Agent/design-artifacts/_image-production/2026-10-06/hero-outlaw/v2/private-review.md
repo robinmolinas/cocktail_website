@@ -1,0 +1,5 @@
+# Actual-source review — held candidate
+
+Viewed original1672×941 raster after the sole correction. Glass345px high, complete glass/tag435px wide; entire glass/tag/ratchet/key union653px. The proposed portrait x770,width702 retains the full scene objects; this is NOT a narrow-phone cover pass. Conservative recognizable ratchet/webbing and whole key require the same broad group. The ratchet is attached to its working webbing, not a free decorative clasp; both human traces match the moving-day habit.
+
+Recipe: exactly one large cube and one dropped orange strip; clear deep amber with no foam/other garnish. Cube has broad faces but dense trapped-air and wet detail. Loose blank tag now hangs from a cord tied around the lower glass body, outside with a gap; clean usable long axis approximately148px, below requested170–200px. Table still shows conspicuous glossy amber/contact highlights. Materials and narrow crop held; no further iteration, export, integration or acceptance. Initial source and master preserved.

@@ -1,0 +1,3 @@
+# Initial master
+
+Original-resolution review and probe:1672×941. Correct pinkish-red shaken coupe, no garnish/ice, transient fine froth. Blank physical tag and plain sealed envelope flaps readable; goggles rendered as bulky old-style round goggles (swim intent ambiguous). Glass about458px wide and636px tall; goggles/envelopes span approximately970px. Not phone safe. Uniform fine speckling in bowl and warmer glossy timber remain watch points. Initial source: /Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-97552fc1-520e-4322-98c0-9fa06b961f4c.png. Preserved, not overwritten.

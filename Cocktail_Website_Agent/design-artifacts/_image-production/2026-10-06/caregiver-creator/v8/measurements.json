@@ -1,0 +1,100 @@
+{
+  "pairing": "caregiver-creator",
+  "pour": "Not Only the Way",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-creator/v8/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-7b3135d2-1e1d-4529-88fb-c1c697698c6f.png",
+  "sourceSha256": "8c298875e9c4b627bb1eccf4dc7a47dd1a385ecec596f458f61cb55218c784a2",
+  "masterSha256": "345cc5b6a2d3f1d768e492775e52b1a09d539c48129c28f95b825862981f07a9",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    700,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1283,
+    "cy": 523,
+    "w": 156,
+    "angle": 10
+  },
+  "glass": {
+    "x": 1170,
+    "y": 327
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1028,
+      "y0": 241,
+      "x1": 1307,
+      "y1": 694
+    },
+    "paper": {
+      "x0": 1172,
+      "y0": 461,
+      "x1": 1376,
+      "y1": 590
+    },
+    "drawer": {
+      "x0": 815,
+      "y0": 388,
+      "x1": 1166,
+      "y1": 638
+    },
+    "linen": {
+      "x0": 715,
+      "y0": 549,
+      "x1": 1069,
+      "y1": 698
+    }
+  },
+  "essentialTraceDetails": {
+    "drawerKnob": {
+      "x0": 934,
+      "y0": 503,
+      "x1": 985,
+      "y1": 552
+    },
+    "finishedDrawerEdge": {
+      "x0": 1056,
+      "y0": 414,
+      "x1": 1115,
+      "y1": 618
+    },
+    "repairedLinenHem": {
+      "x0": 909,
+      "y0": 586,
+      "x1": 1005,
+      "y1": 693
+    }
+  },
+  "essentialCluster": {
+    "x0": 715,
+    "y0": 241,
+    "x1": 1376,
+    "y1": 698,
+    "width": 661
+  },
+  "review": {
+    "recipe": "Single chilled rounded coupe with pale lime-straw softly cloudy gin/lime-caraway cordial, fine small bubble surface edge, no serving ice, garnish or rim. Recipe unchanged; no second drink.",
+    "personality": "Actual slightly open finished drawer with plain brass knob and carefully folded linen with a visible repaired burgundy hem are recognizable in master. Their placement is not compact enough: full essential union661px; even knob/repair/glass/paper union464px. They will not all survive moving phone crop.",
+    "world": "Dark neutral historic reading room, walnut shelves, burgundy upholstery and one warm practical source remain coherent. Glass largely plain and unetched with broad unobstructed patches; table is somewhat glossier and more densely grain-highlighted than v7, with an orange specular pool. Not a clean improvement over v7 material direction.",
+    "issues": [
+      "HOLD: full essential glass/paper/drawer/linen union661px exceeds350px target and~389px max-breath phone window; no mechanical crop can preserve all traces.",
+      "Glass/paper union348px alone improves over v7's402px but cannot substitute for preserving personality traces.",
+      "Tag moved higher tocy523; writable156px field falls short of170px target and angle10deg exceeds8deg prompt. Authored-copy/name collision risk remains unverified.",
+      "Rim y241 is higher than requested~315; fullglass still within20–80% masterheight, but ultrawide and moving responsive result must be reviewed.",
+      "Tabletop material/lighting partially regress toward denser glossy warm highlights; not a house-material acceptance.",
+      "One authorized fresh generation call completed. No agent export, actual JPEG inspection for v8, browser execution, selected/public update or scaling."
+    ]
+  }
+}

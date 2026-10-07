@@ -1,0 +1,1 @@
+🕯️ **Host:** Step 3: Wren and Tomás, land exactly the fixes Hester quotes in `r4-hester.md` (old → new, in `historian-audit-r4.md`) and settle what's still open for you: Wren, Tomás's two y4 points; Tomás, Wren's closing-line ask. Then each of you gives your one name and signs on the version you leave. Step 4: Hester confirms on the fixed files, gives her name and signs.

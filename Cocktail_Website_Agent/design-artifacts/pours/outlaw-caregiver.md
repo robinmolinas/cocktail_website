@@ -50,9 +50,9 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 **whoYouAre**
 You walk into a room and it shifts a little. People notice you, and some of them are wary before you've said a word. So you've learned to go slowly and speak softly, and let them find out for themselves.
 
-People assume you were born gentle. You weren't. You decide it, again and again, and you've never told anyone how often. There's a temper in you, and you know just what it could do, most of all when someone is picking on a person who can't answer back. So you don't shout. You go and stand beside them, and the room settles. Here's the gift in it: when you're there, nobody has to fight. Nobody even has to be brave.
+People assume you were born gentle. You weren't. You decide it, again and again, and you've never told anyone how often. There's a temper in you, and you know just what it could do, most of all when someone is picking on a person who can't answer back. So you don't shout. You go and stand beside them, and the room settles. Here's the gift in it: when you're there, nobody has to fight.
 
-And there's a fear you never mention. Not of getting hurt. Of the day being strong isn't enough: when it's happening to someone who matters to you, and nothing you've got can stop it.
+And there's a fear you never mention: the day being strong isn't enough, when it's happening to someone who matters to you, and nothing you've got can stop it.
 
 **yours**
 

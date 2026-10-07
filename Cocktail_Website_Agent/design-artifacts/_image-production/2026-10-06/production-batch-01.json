@@ -1,0 +1,769 @@
+{
+  "id": "production-batch-01",
+  "date": "2026-10-06",
+  "workflow": "User-directed production first; browser/name/motion batch later. Producer heartbeat confirmed PAUSED.",
+  "state": "staged-candidates-not-accepted",
+  "sceneCount": 7,
+  "newPairings": 6,
+  "correctedPairings": 1,
+  "exportedPairs": 6,
+  "pendingExports": 1,
+  "wideRequired": [
+    1920,
+    1080
+  ],
+  "portraitRequired": [
+    896,
+    1200
+  ],
+  "integrationState": "none; public assets unchanged",
+  "generator": "built-in image_gen",
+  "browserReadyRequestCreated": false,
+  "items": [
+    {
+      "folder": "innocent-caregiver/v2",
+      "pairing": "innocent-caregiver",
+      "pour": "Night Light",
+      "sourceSha256": "d4e942abc39972cf7ed38e258d918f409f1fc3e36fa12ede52d55520ac2716bf",
+      "sourceUnchanged": true,
+      "masterSha256": "6d9160cc8112157cba045a8b7c9fdc091f1fc305e78971df6fa6c4a838ef620a",
+      "tag": {
+        "cx": 1112,
+        "cy": 597,
+        "w": 214,
+        "angle": 11.3
+      },
+      "glass": {
+        "x": 931,
+        "y": 339
+      },
+      "bounds": {
+        "glass": {
+          "x0": 781,
+          "y0": 208,
+          "x1": 1085,
+          "y1": 720
+        },
+        "paper": {
+          "x0": 947,
+          "y0": 508,
+          "x1": 1239,
+          "y1": 669
+        }
+      },
+      "recognitionRegions": {
+        "blanketMendedFold": {
+          "x0": 1194,
+          "y0": 446,
+          "x1": 1402,
+          "y1": 640
+        },
+        "savedBiscuit": {
+          "x0": 1110,
+          "y0": 658,
+          "x1": 1323,
+          "y1": 753
+        }
+      },
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        750,
+        0,
+        702,
+        940
+      ],
+      "exported": true,
+      "hashes": {
+        "master": "6d9160cc8112157cba045a8b7c9fdc091f1fc305e78971df6fa6c4a838ef620a",
+        "wide": "4b6f8bc6d4116c59d2c16c3c28a3485985a9aaa1f292547892f0553b17371e2f",
+        "portrait": "1d8fd0bf991bfc92366119cd00b5666076f238e5f5c144f79627e2dd1c5f3c5d"
+      },
+      "runtimeCandidate": {
+        "src": "/personas/innocent-caregiver/portrait.jpg",
+        "wide": "/personas/innocent-caregiver/wide.jpg",
+        "wideTag": {
+          "cx": 0.6650717703349283,
+          "cy": 0.6351063829787233,
+          "w": 0.12799043062200957,
+          "angle": 11.305855864448885
+        },
+        "wideGlass": {
+          "x": 0.5568181818181818,
+          "y": 0.3606382978723404
+        },
+        "tag": {
+          "cx": 0.5156695156695157,
+          "cy": 0.6351063829787233,
+          "w": 0.30484330484330485,
+          "angle": 11.302091407624102
+        },
+        "glass": {
+          "x": 0.25783475783475784,
+          "y": 0.3606382978723404
+        }
+      },
+      "cropPasses": 4,
+      "cropTotal": 7,
+      "issues": [
+        "Master-only candidate; no exact JPEG pair or browser check performed by this assistant.",
+        "Composition risk: complete glass/paper horizontal union458px exceeds ~434px tall-phone nominal cover; essentialglass/paper/twotraceunion621px far exceeds max-breathing~389px.",
+        "Do not call full portrait equivalent to actual tall-phone cover.",
+        "Residual wine warmth against almost-colourless requirement needs root physical review.",
+        "Single permitted correction used; no further image generation in this pass."
+      ],
+      "rootMasterInspected": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "rootDisposition": "HOLD-composition; material-watch",
+      "reviewNote": "Blanket repair and saved biscuit; clear pale wine and dropped lemon strip. Phone cover clips the complete glass/paper/person group. Plain materials improved; wrinkled paper and amber wood remain watch points.",
+      "browserReview": "deferred-by-user",
+      "finalAccepted": false
+    },
+    {
+      "folder": "lover-regular-guy/v2",
+      "pairing": "lover-regular-guy",
+      "pour": "Any Day",
+      "sourceSha256": "d82beb0761a6a62567eb5ade4d83638c805102a63a8f413c7673659f57502d58",
+      "sourceUnchanged": true,
+      "masterSha256": "b696d5b9013a098e5319ae10fdd4fb17a4d2a9b2b31b6855cd7516d02d38ff74",
+      "tag": {
+        "cx": 1069,
+        "cy": 521,
+        "w": 136,
+        "angle": -1.5
+      },
+      "glass": {
+        "x": 991,
+        "y": 483
+      },
+      "bounds": {
+        "glass": {
+          "x0": 873,
+          "y0": 337,
+          "x1": 1110,
+          "y1": 629
+        },
+        "paper": {
+          "x0": 968,
+          "y0": 485,
+          "x1": 1149,
+          "y1": 555
+        },
+        "workGlove": {
+          "x0": 1098,
+          "y0": 385,
+          "x1": 1317,
+          "y1": 616
+        },
+        "adjustableWrench": {
+          "x0": 1098,
+          "y0": 415,
+          "x1": 1257,
+          "y1": 512
+        }
+      },
+      "recognitionRegions": {
+        "workGlove": {
+          "bounds": {
+            "x0": 1104,
+            "y0": 388,
+            "x1": 1310,
+            "y1": 611
+          },
+          "reason": "Glove crown/palm and clearly attached bent thumb/two finger shapes; retaining only a left leather sliver is not glove recognition."
+        },
+        "adjustableWrench": {
+          "bounds": {
+            "x0": 1110,
+            "y0": 426,
+            "x1": 1255,
+            "y1": 512
+          },
+          "reason": "Fixed jaw, adjustable moving jaw and actual worm wheel attached to the neck; short handle extends behind glass."
+        }
+      },
+      "wideCrop": [
+        0,
+        0,
+        1670,
+        940
+      ],
+      "portraitCrop": [
+        760,
+        0,
+        702,
+        940
+      ],
+      "exported": true,
+      "hashes": {
+        "master": "b696d5b9013a098e5319ae10fdd4fb17a4d2a9b2b31b6855cd7516d02d38ff74",
+        "wide": "94dad1d7e46006f3bb4217bb76e115700495486b4dd251836327b3f4d76bc9ca",
+        "portrait": "85676d023d8b12cd7dae0e5decf9f46af9a4000b24975179d7f1ad0b933ae1bb"
+      },
+      "runtimeCandidate": {
+        "src": "/personas/lover-regular-guy/portrait.jpg",
+        "wide": "/personas/lover-regular-guy/wide.jpg",
+        "wideTag": {
+          "cx": 0.640119760479042,
+          "cy": 0.5542553191489362,
+          "w": 0.081437125748503,
+          "angle": -1.4990031147688179
+        },
+        "wideGlass": {
+          "x": 0.5934131736526946,
+          "y": 0.5138297872340426
+        },
+        "tag": {
+          "cx": 0.44017094017094016,
+          "cy": 0.5542553191489362,
+          "w": 0.19373219373219372,
+          "angle": -1.5002848241849482
+        },
+        "glass": {
+          "x": 0.32905982905982906,
+          "y": 0.5138297872340426
+        }
+      },
+      "cropPasses": 5,
+      "cropTotal": 7,
+      "issues": [
+        "Whole bounds union x873–1317 is 444 px, exceeding roughly 434 px static 390×844 cover and about 389 px breathing crop.",
+        "Recognition union x873–1310 is 437 px; both glove and entire glass cannot be guaranteed in moving-phone cover.",
+        "Phone retention/browser/name-overlay not verified; browser review deferred by user.",
+        "Warm broad table reflection and glove microtexture may still be too glossy/busy for final material gate."
+      ],
+      "rootMasterInspected": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "rootDisposition": "HOLD-composition; material-watch",
+      "reviewNote": "Used work glove and functional adjustable wrench; pale hazy bourbon sour with one ordinary cloudy cube. Functional metal is allowed; tabletop remains timber. Phone cover loses part of the glove/tool.",
+      "browserReview": "deferred-by-user",
+      "finalAccepted": false
+    },
+    {
+      "folder": "caregiver-innocent/v5",
+      "pairing": "caregiver-innocent",
+      "pour": "Before the Room",
+      "sourceSha256": "1e16f17d4f994c89049a4443fd3129e8dbd4d05445533719f297cbfe8a0e3fc1",
+      "sourceUnchanged": true,
+      "masterSha256": "4063c13cf4db93f2915892e46f8c405bd43e8d74bbabe40a93476ecce191f6c7",
+      "tag": {
+        "cx": 1292,
+        "cy": 775,
+        "w": 190,
+        "angle": 10
+      },
+      "glass": {
+        "x": 1080,
+        "y": 360
+      },
+      "bounds": {
+        "glass": {
+          "x0": 982,
+          "y0": 136,
+          "x1": 1174,
+          "y1": 810
+        },
+        "paper": {
+          "x0": 1146,
+          "y0": 718,
+          "x1": 1401,
+          "y1": 822
+        }
+      },
+      "recognitionRegions": {
+        "coatCollarAndLapelledFront": {
+          "x0": 1202,
+          "y0": 264,
+          "x1": 1454,
+          "y1": 677
+        },
+        "foldedReadyHandkerchief": {
+          "x0": 839,
+          "y0": 602,
+          "x1": 1169,
+          "y1": 719
+        }
+      },
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        800,
+        0,
+        702,
+        940
+      ],
+      "exported": true,
+      "hashes": {
+        "master": "4063c13cf4db93f2915892e46f8c405bd43e8d74bbabe40a93476ecce191f6c7",
+        "wide": "f4b00e083c45b8b7f3c8c7059881e7e8e35281d3670304ed0ae7f6f7460909a2",
+        "portrait": "097cdb677eadef010a5fa0e32f64a9afc2e519961730b699a65f5af95a18f317"
+      },
+      "runtimeCandidate": {
+        "src": "/personas/caregiver-innocent/portrait.jpg",
+        "wide": "/personas/caregiver-innocent/wide.jpg",
+        "wideTag": {
+          "cx": 0.7727272727272727,
+          "cy": 0.824468085106383,
+          "w": 0.11363636363636363,
+          "angle": 10.005211701160357
+        },
+        "wideGlass": {
+          "x": 0.645933014354067,
+          "y": 0.3829787234042553
+        },
+        "tag": {
+          "cx": 0.7008547008547008,
+          "cy": 0.824468085106383,
+          "w": 0.2706552706552707,
+          "angle": 10.001861341039278
+        },
+        "glass": {
+          "x": 0.39886039886039887,
+          "y": 0.3829787234042553
+        }
+      },
+      "cropPasses": 6,
+      "cropTotal": 7,
+      "issues": [
+        "HOLD composition: whole glass/paper union419px exceeds~389px max-breath phonewindow even before adding coat/linen; essential recognition615px cannot fit mechanically.",
+        "Flute wholeheight674px, rimy136 and footy810: requested425pxheight/20–80%vertical notfollowed; ultrawide cover likely clips rim/foot without recomposition.",
+        "Blank tag usable190px improved; cy775 lowtabletop and10deg angle require actual exported/browser/name checks.",
+        "Fine bubble dot veil remains denser than requestedfewtrails; not loops or obviousetchedpattern, but root fullJPEGreview needed.",
+        "Two bounded calls complete: firstedit rejectedmaterialinheritance, thenonefresh focusedcorrection. No furthergeneration,exports,integration orbrowserrequests. Browser batching deferredbyuser, notproductionblocker."
+      ],
+      "rootMasterInspected": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "rootDisposition": "HOLD-composition; material-watch",
+      "reviewNote": "Material correction: plain flute, paper and folded handkerchief, coat collar behind. No etched-wine filigree or shared embossed texture. Dense sparkling bubble veil and amber finish remain watch points; ultrawide rim/phone crop risks.",
+      "browserReview": "deferred-by-user",
+      "finalAccepted": false
+    },
+    {
+      "folder": "hero-sage/v2",
+      "pairing": "hero-sage",
+      "pour": "Leave It With Me",
+      "sourceSha256": "aa5cb6531f0bc3f90c20b04be1922ac1cf444cdf4123438a8c2717867ea81c10",
+      "sourceUnchanged": true,
+      "masterSha256": "f40a083433d68f83a7b6e169784ff14f404d8cfa9d4c73e6ddef59374cde5fe9",
+      "tag": {
+        "cx": 1260,
+        "cy": 619,
+        "w": 118,
+        "angle": 8
+      },
+      "glass": {
+        "x": 1077,
+        "y": 473
+      },
+      "bounds": {
+        "glass": {
+          "x0": 892,
+          "y0": 260,
+          "x1": 1290,
+          "y1": 683
+        },
+        "paper": {
+          "x0": 1172,
+          "y0": 567,
+          "x1": 1337,
+          "y1": 668
+        }
+      },
+      "recognitionRegions": {
+        "repairedMittCuff": {
+          "x0": 1469,
+          "y0": 565,
+          "x1": 1568,
+          "y1": 664
+        },
+        "cardAndPencil": {
+          "x0": 1178,
+          "y0": 674,
+          "x1": 1503,
+          "y1": 781
+        }
+      },
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        830,
+        0,
+        702,
+        940
+      ],
+      "exported": true,
+      "hashes": {
+        "master": "f40a083433d68f83a7b6e169784ff14f404d8cfa9d4c73e6ddef59374cde5fe9",
+        "wide": "668326b086cb4c2a780c187a1dcdef94401b5ae6e4696b38975175248a0d04ec",
+        "portrait": "7b28ffd925be5d3cd7ed31437c2b5a6a134997dc4980769d0a7eadc0c28c8860"
+      },
+      "runtimeCandidate": {
+        "src": "/personas/hero-sage/portrait.jpg",
+        "wide": "/personas/hero-sage/wide.jpg",
+        "wideTag": {
+          "cx": 0.7535885167464115,
+          "cy": 0.6585106382978724,
+          "w": 0.07057416267942583,
+          "angle": 8.004200184688337
+        },
+        "wideGlass": {
+          "x": 0.6441387559808612,
+          "y": 0.5031914893617021
+        },
+        "tag": {
+          "cx": 0.6125356125356125,
+          "cy": 0.6585106382978724,
+          "w": 0.16809116809116809,
+          "angle": 8.00150007589765
+        },
+        "glass": {
+          "x": 0.35185185185185186,
+          "y": 0.5031914893617021
+        }
+      },
+      "cropPasses": 5,
+      "cropTotal": 7,
+      "issues": [
+        "Not accepted or integrated; browser review intentionally deferred by user.",
+        "Shared pilot interpretation recorded v1/readiness.md; no recipe substitution.",
+        "Portrait repair and pencil not fully retained; wide recognized. Glass/paper union about445px, larger than moving phone window.",
+        "Tag writable width118px in master; long-name actual glyph fit unverified."
+      ],
+      "rootMasterInspected": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "rootDisposition": "HOLD-composition-and-material-realism",
+      "reviewNote": "Actual shared 1.5 L pitcher just after swizzling, before first serving, beside empty receiving tumblers. Mended mitt and blank planning card/pencil. Source method unchanged; shared-vessel pilot is not approved final. Crystalline ice/bright glass and incomplete portrait traces remain held.",
+      "browserReview": "deferred-by-user",
+      "finalAccepted": false
+    },
+    {
+      "folder": "innocent-explorer/v2",
+      "pairing": "innocent-explorer",
+      "pour": "The First Guess",
+      "sourceSha256": "962714e5aa17e7a729105df73e77bc54b8e7105588b768620cbe15ff8c783080",
+      "sourceUnchanged": true,
+      "masterSha256": "eded185975b5b7d657f4c061ca9f18d5c2bd939e7840c324f81ac5c1c1c031f5",
+      "tag": {
+        "cx": 1188,
+        "cy": 649,
+        "w": 206,
+        "angle": 6.7
+      },
+      "glass": {
+        "x": 994,
+        "y": 444
+      },
+      "bounds": {
+        "glass": {
+          "x0": 875,
+          "y0": 235,
+          "x1": 1114,
+          "y1": 717
+        },
+        "paper": {
+          "x0": 1044,
+          "y0": 581,
+          "x1": 1314,
+          "y1": 700
+        }
+      },
+      "recognitionRegions": {
+        "pocketLens": {
+          "x0": 737,
+          "y0": 646,
+          "x1": 896,
+          "y1": 713
+        },
+        "pencil": {
+          "x0": 825,
+          "y0": 705,
+          "x1": 1006,
+          "y1": 761
+        }
+      },
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        674,
+        0,
+        702,
+        940
+      ],
+      "exported": true,
+      "hashes": {
+        "master": "eded185975b5b7d657f4c061ca9f18d5c2bd939e7840c324f81ac5c1c1c031f5",
+        "wide": "8c581a54767e5081738b88a3e209dd8341a43641abb3639a66346c367b2240e2",
+        "portrait": "18f3d9df7820ce94f3afa9aa27ed4df2f8a71b160d3cb396f4ce6f095390e961"
+      },
+      "runtimeCandidate": {
+        "src": "/personas/innocent-explorer/portrait.jpg",
+        "wide": "/personas/innocent-explorer/wide.jpg",
+        "wideTag": {
+          "cx": 0.7105263157894737,
+          "cy": 0.6904255319148936,
+          "w": 0.12320574162679426,
+          "angle": 6.70353140442155
+        },
+        "wideGlass": {
+          "x": 0.5944976076555024,
+          "y": 0.4723404255319149
+        },
+        "tag": {
+          "cx": 0.7321937321937322,
+          "cy": 0.6904255319148936,
+          "w": 0.2934472934472934,
+          "angle": 6.701261221736648
+        },
+        "glass": {
+          "x": 0.45584045584045585,
+          "y": 0.4723404255319149
+        }
+      },
+      "cropPasses": 4,
+      "cropTotal": 7,
+      "issues": [
+        "Actual master candidate only; root exports and joint review follow later. No acceptance or browser PASS.",
+        "The proposed full portrait retains all essentials, but the 577px essential union exceeds approximately 434px tall-phone cover and 389px maximum-breathing width.",
+        "Complete glass/paper union is 439px, slightly wider than the tall-phone nominal window. Bounds are actual, not generic defaults.",
+        "Upper bowl retains dense uneven droplets; bright golden reflection and table sheen merit material review.",
+        "Single allowed composition correction used; no further generation in this batch."
+      ],
+      "rootMasterInspected": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "rootDisposition": "HOLD-composition; material-watch",
+      "reviewNote": "Used pocket lens and eraser pencil: looking again and revising a guess. Still clear golden cognac/Pineau, no serving ice. Phone crop loses complete personality evidence; upper-glass droplets and golden reflections remain watch points.",
+      "browserReview": "deferred-by-user",
+      "finalAccepted": false
+    },
+    {
+      "folder": "hero-caregiver/v3",
+      "pairing": "hero-caregiver",
+      "pour": "Next One's Mine",
+      "sourceSha256": "63d9cd12eb4e350247ca03ddd6889a43276e3f6023449672c7295a3bbb72dce3",
+      "sourceUnchanged": true,
+      "masterSha256": "2579755925cb31224205e61ca78325fd181ace93a828757d1e89ae5f95cdce09",
+      "tag": {
+        "cx": 1118,
+        "cy": 626,
+        "w": 116,
+        "angle": 7.5
+      },
+      "glass": {
+        "x": 1031,
+        "y": 497
+      },
+      "bounds": {
+        "glass": {
+          "x0": 927,
+          "y0": 267,
+          "x1": 1136,
+          "y1": 727
+        },
+        "paper": {
+          "x0": 1011,
+          "y0": 562,
+          "x1": 1194,
+          "y1": 677
+        },
+        "wallet": {
+          "x0": 1122,
+          "y0": 536,
+          "x1": 1398,
+          "y1": 705
+        },
+        "barTab": {
+          "x0": 1242,
+          "y0": 657,
+          "x1": 1445,
+          "y1": 727
+        }
+      },
+      "recognitionRegions": {
+        "wallet": {
+          "bounds": {
+            "x0": 1134,
+            "y0": 541,
+            "x1": 1398,
+            "y1": 704
+          },
+          "reason": "Visible bifold cover, fold hinge and dark empty card compartments together; not reduced to a leather strip."
+        },
+        "barTab": {
+          "bounds": {
+            "x0": 1258,
+            "y0": 660,
+            "x1": 1439,
+            "y1": 725
+          },
+          "reason": "Plain reverse folded paper end and visible crease remain a separate recognizable object beside wallet."
+        }
+      },
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        830,
+        0,
+        702,
+        940
+      ],
+      "exported": true,
+      "hashes": {
+        "master": "2579755925cb31224205e61ca78325fd181ace93a828757d1e89ae5f95cdce09",
+        "wide": "51e3e0abfb6a14387730c1d1dc62062ec7aa173324f0e9847c531c1df1814638",
+        "portrait": "04a475bc5e68e45ee4c6b20d69fab3f2a35b269888f4d527d14feb8ade1ca4ea"
+      },
+      "runtimeCandidate": {
+        "src": "/personas/hero-caregiver/portrait.jpg",
+        "wide": "/personas/hero-caregiver/wide.jpg",
+        "wideTag": {
+          "cx": 0.6686602870813397,
+          "cy": 0.6659574468085107,
+          "w": 0.06937799043062201,
+          "angle": 7.503943910780069
+        },
+        "wideGlass": {
+          "x": 0.6166267942583732,
+          "y": 0.5287234042553192
+        },
+        "tag": {
+          "cx": 0.41025641025641024,
+          "cy": 0.6659574468085107,
+          "w": 0.16524216524216523,
+          "angle": 7.5014085477720265
+        },
+        "glass": {
+          "x": 0.2863247863247863,
+          "y": 0.5287234042553192
+        }
+      },
+      "cropPasses": 4,
+      "cropTotal": 7,
+      "issues": [
+        "Whole glass/paper/wallet/tab union x927–1445 is518 px; honest recognition union x927–1439 is512 px. This exceeds approximately434 px static and389 px breathing phone cover.",
+        "Ice/glass retain sparkly granular detail; material realism gate not passed.",
+        "Warm broad table reflections and multiple practical-looking background lights survive edit; image is still warmer/busier than brief.",
+        "Actual complete glass is460 px high, not requested425; portrait paper writable axis only116 px, long-name fit pending loaded-font review.",
+        "Exports/browser/name overlay and final visual acceptance pending root; browser deferred by user."
+      ],
+      "rootMasterInspected": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "rootDisposition": "HOLD-composition-and-material-realism",
+      "reviewNote": "Used wallet and genuinely blank reverse of folded tab: paying first, difficulty receiving a favour. Rye/vermouth/soda highball, lemon peel inside. Sparkly granular ice and shiny timber remain a material hold; phone cover clips the broad object cluster.",
+      "browserReview": "deferred-by-user",
+      "finalAccepted": false
+    },
+    {
+      "folder": "lover-jester/v3",
+      "pairing": "lover-jester",
+      "pour": "Only Half Joking",
+      "sourceSha256": "b4094aba1d3f9b28a3e33edb86118d20e940b8f1a57e8f2cb2cbe05c65bce13b",
+      "sourceUnchanged": true,
+      "masterSha256": "ae238ce88ef5db724fc2da4918d3ec90d74ef49d0650b9c58833527a46767326",
+      "tag": {
+        "cx": 1110,
+        "cy": 712,
+        "w": 160,
+        "angle": 9
+      },
+      "glass": {
+        "x": 985,
+        "y": 382
+      },
+      "bounds": {
+        "glass": {
+          "x0": 830,
+          "y0": 266,
+          "x1": 1142,
+          "y1": 744
+        },
+        "paper": {
+          "x0": 1005,
+          "y0": 670,
+          "x1": 1200,
+          "y1": 751
+        },
+        "garnish": {
+          "x0": 1052,
+          "y0": 250,
+          "x1": 1179,
+          "y1": 354
+        }
+      },
+      "recognitionRegions": {
+        "hatCrownAndBrim": {
+          "x0": 859,
+          "y0": 414,
+          "x1": 1318,
+          "y1": 646
+        },
+        "chairBack": {
+          "x0": 787,
+          "y0": 252,
+          "x1": 1330,
+          "y1": 597
+        },
+        "emptySeatVisibleAtRight": {
+          "x0": 1317,
+          "y0": 593,
+          "x1": 1456,
+          "y1": 712
+        }
+      },
+      "wideCrop": [
+        0,
+        40,
+        1602,
+        900
+      ],
+      "portraitCrop": [
+        724,
+        0,
+        732,
+        980
+      ],
+      "exported": false,
+      "issues": [
+        "Essential hat/chair cluster remains approximately 673px wide; phone cover/motion will lose person evidence.",
+        "Glass/paper union 370px is improved but still needs actual export cover/motion and authored-copy review.",
+        "Actual master aspect 1602×982 requires measured 900px-high wide crop.",
+        "Glass 478px high rather than requested ~425; usable plain tag axis 160px rather than preferred 170px.",
+        "Dense chilled fine speckling and warm glossy/orange tabletop highlights remain material risks.",
+        "No browser-name-overlay or animated-phone acceptance; batch review deferred."
+      ],
+      "rootMasterInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "rootDisposition": "HOLD-composition; material-watch",
+      "reviewNote": "Worn hat explicitly grounded in the reading and an empty angled chair awaiting a reply. Pink Jasmine riff, one broad rim peel, no serving ice. Full glass/paper improved to370px; recognisable hat/chair cluster remains too wide for phones. Glossy amber wood/chill speckling remain watch points. Master inspected; exact JPEG export blocked pending fresh action-specific approval.",
+      "browserReview": "deferred-by-user",
+      "finalAccepted": false
+    }
+  ]
+}
+

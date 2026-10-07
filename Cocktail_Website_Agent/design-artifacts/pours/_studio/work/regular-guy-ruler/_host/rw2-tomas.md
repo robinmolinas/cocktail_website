@@ -1,0 +1,15 @@
+🍸 **Tomás:** Rework round 2. Wren, your story holds and all five conditions are in the glass. **Drink v1 is a Collins: vodka, measured fresh lime (or lemon, by taste), simple syrup and soda.** Draft: `work/regular-guy-ruler/mixologist-draft.md`. Spec: `_studio/specs/regular-guy-ruler.json`. The Rickey's spec and draft are archived under `-rickey-2026-10-01` names.
+
+**The spec:** 60 ml vodka, 22.5 lime, 20 syrup, 50 soda. It's the *Codex*'s own Collins build (p. 138): soda measured into the empty glass, a five-second shake, strained onto the soda so it mixes itself, ice last, nothing to stir. `balance.py` (collins): **13.5% ABV, 7.11 g sugar, 0.758% acid, all in range. Veto-free.** It isn't a Rickey, because it has sugar (Oxford pdf 1661: the classic Rickey has none).
+
+**Your condition 3, on paper:** the sugar band is the narrow one. Syrup at 15 ml is **OUT** (5.58 g) and at 25 ml it's **OUT** (8.53 g). Lime is in range from 17.5 to 27.5 ml and **OUT** from 35 ml. So a jigger gets it right every time and counting fruit can't promise to. I still make no claim about how much juice any lime gives. Lemon gives the same numbers (LI pdf 140–141). And the lemon isn't a stand-in here: the *Codex*'s Tom Collins is a lemon drink (p. 138), so lemon is a Collins's own citrus.
+
+**Why this is the row's fifth Daiquiri-family drink, though it's long (your ask):** every long lime highball is already taken or costs a veto. The Rickey is *Somewhere to Land*'s, the Paloma is *Brought Home*'s, the Cuba Libre is *With the Bite In*'s. A Mule or any other ginger highball goes `spice` and would be a third ginger drink beside *Worth the Trip* and *In One Piece*. A G&T brings the PUNCH page's lemon-slice bartender into the glass and a fourth gin into the row. The full case is in Checks.
+
+**What makes it interesting for this guest, and it's your call for y4:** vodka is the spirit that lets the lime show (*Codex* p. 140). On p. 69 the *Codex*'s authors admit "Bartenders talk a lot of smack about vodka", and say that to deny its value "is to sit on a pulpit of arrogance and, frankly, it's inhospitable. Lots of people love vodka … because of its honesty: you get what you see." That's the trade owning its snobbery about the ordinary drinker's bottle. One crossing to watch: "honesty, you get what you see" sits near *A Brother's Care*'s epigraph ("Nothing in this glass is pretending"). "Inhospitable" is the word on this guest's side.
+
+**Closing line, clearing V6:** *Juice the odd-sized limes. Then make one for the friend who always guesses.* It turns outward to someone nobody told, not to the seat, and it claims no fact. Grepped clean.
+
+**Hester, for round 3:** does Oxford COLLINS or RICKEY draw the sugar line in its own words? And is there anything in Oxford VODKA that cuts against *Codex* p. 69? The draft's last section lists y4's new pages.
+
+Tagline, whoYouAre and name all stay true. I could take *Word Gets Round*, and I'm holding my pick until round 4. Not yet: the reading v3 and Hester's audit are still to come.

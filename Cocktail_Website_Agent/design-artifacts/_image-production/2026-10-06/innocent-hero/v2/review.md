@@ -1,0 +1,1 @@
+Master inspected original size: glass and tag now fit compact central arrangement. Parcel and ticket backs are close to base, no invented contents. Pair JPEGs and seven cover checks pending. Small blank tag usable length76px needs actual browser overlay validation.

@@ -21,7 +21,7 @@ authored_in: the room, 2026-09-28 (batch caregiver)
 | amount | item | note |
 | --- | --- | --- |
 | 60 ml | blended scotch whisky | any blended scotch; the letter asks for "Scotch whisky", no brand |
-| 7.5 ml | passion fruit syrup | equal weights passion fruit juice (fresh or bottled, unsweetened) and sugar, stirred until clear; takes the place of the crushed sugar |
+| 7.5 ml | passion fruit syrup | equal weights passion fruit juice (fresh or bottled, unsweetened) and sugar, stirred until clear; keeps about a week in the fridge; takes the place of the crushed sugar |
 | 2 dashes | Angostura bitters | |
 | 1 | strip of lemon peel | pinched over the glass so its oils land on the drink, then dropped in |
 
@@ -88,7 +88,7 @@ You'd never call that a choice. A choice sounds like keeping score, and keeping 
 | Balance (Arnold, style `stirred`) | 69.5 ml -> dilution 43.6% -> 99.8 ml. Initial 35.8% / 6.60 g / 0.19%; finished 24.9% / 4.59 g / 0.14%. All seven lines in range. Same recipe as `shaken-spirit`: 22.0% / 4.06 g / 0.12%, in range. **Sweep:** passion fruit syrup 5 ml alone -> sugar OUT (3.19 g); 10 ml -> sugar and acid OUT (5.90 g / 0.17%); plain sugar syrup instead (7.5 ml) -> 4.71 g in, acid OUT (0%); any plain syrup added on top of 7.5 ml passion fruit -> OUT. So the passion fruit syrup is the whole of the sugar, at 7.5 ml. Caveat for Robin: Arnold's stirred acid floor assumes vermouth, so "the plain version goes OUT on acid" is a range artefact, not a flaw in an Old-Fashioned; the claim I stand on is "7.5 ml does all the sweetening and adds a sharpness you can hear". Syrup values unsourced (1:1). |
 | Pairings | Scotch, sugar, bitters, lemon: the whisky cocktail itself. **Spark:** *Flavor Matrix* Grain (scotch's barley) lists passion fruit among its surprising pairings (pdf 136). No pour uses it (Beside the First consulted and withdrew it; grep). |
 | Allergens | `allergens.py`: veto-free. Blended scotch is a distilled grain spirit, not gluten. Angostura is not spice (heat only). |
-| Makeable | Mixing glass or jar, bar spoon, strainer, freezer. Syrup made in a minute. |
+| Makeable | Mixing glass or jar, bar spoon, strainer, freezer. Syrup made in a minute.<br>**Tomás (2026-10-06, Q100):** the syrup keeps about a week in the fridge, half the *Codex*'s two weeks for its cold, equal-weights fruit syrups (p. 47, Blended Strawberry Syrup; its grenadine, juice and sugar 1:1, three weeks), on the safe side for an unheated juice. |
 
 **closingLine:** *Set out everything they asked for. Then add the one thing they didn't.*
 

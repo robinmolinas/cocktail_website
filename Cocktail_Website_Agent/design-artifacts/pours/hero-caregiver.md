@@ -53,7 +53,7 @@ authored_in: the room, 2026-09-30 (batch hero)
 *The vermouth in this glass is there because hardly anyone stopped after the first.*
 
 **whoYouAre**
-Something goes wrong for someone near you: the bill nobody can split, the call nobody wants to make, the mistake that was only half theirs. You don't rush. You weigh it up, quietly, and then you say it: "Put it on me." And they go home lighter. That's the kindness in you, and it counts for more than you'll ever let anyone say.
+The bill nobody can split, the call nobody wants to make, the mistake that was only half theirs: it's landed on someone near you. You don't rush. You weigh it up, quietly, and then you say it: "Put it on me." And they go home lighter. That's the kindness in you, and it counts for more than you'll ever let anyone say.
 
 The other half is harder. Someone does you a small kindness, a lift, a meal, an evening of their time, and it's paid back within the week, with a little extra. Owing anyone, even briefly, feels like weakness to you, like leaving a door open that someone could walk through. So your books are always in credit. Plenty of people owe you something. You've never asked for any of it back.
 

@@ -26,7 +26,7 @@ authored_in: the room, 2026-10-01 (batch innocent)
 | 1 | strip of lemon peel | squeezed over the top, then set aside |
 
 **method**
-1. Beforehand: lightly crush 1 level teaspoon of Sichuan peppercorns with the back of a spoon. Leave them in 60 ml of the cognac for 20 minutes, then strain them out. That makes enough for four drinks, and it keeps.
+1. Beforehand: lightly crush 1 level teaspoon of Sichuan peppercorns with the back of a spoon. Leave them in 60 ml of the cognac for 20 minutes, then strain them out. That makes enough for four drinks, and it lasts.
 2. Put the glass in the freezer for 10 minutes.
 3. Pour 30 ml cognac, 15 ml of the peppercorn cognac and 35 ml Pineau into a mixing glass or jar.
 4. Fill it with ice and stir for about 30 seconds, until the outside of the jar is very cold.
@@ -62,7 +62,7 @@ Not everyone hears it that way. Over the years a few of your questions got you t
 
 1. In 1872, a pharmacist in Cognac named Antonin Baudoin drew two botanists' attention to a black growth on the walls and roof tiles near the distilleries. It looked like soot. A few years later he printed his own short study of it. His answer was that it was a kind of blue-green algae. He was wrong.
 
-2. Others filed it under a catch-all name that more than three hundred kinds of fungus have been put under over the years, nearly all of them moved out since. Then for decades the science went almost silent, and the studies that did look kept calling it the ordinary sort of fungus found everywhere. It wasn't. More than a century after Baudoin's first look, a team of scientists showed it didn't fit the group it had been put in, or any similar one, and gave it a group of its own, named after him, as the man who first brought it to scientists' attention. Its nearest known relatives live on rock in Antarctica. It feeds on the spirit that escapes ageing barrels, yet it's millions of years older than any barrel, so it must live on something else too. Nobody is quite sure what.
+2. Others filed it under a catch-all name that more than three hundred kinds of fungus have been put under over the years, nearly all of them moved out since. Then for decades the science went almost silent, and the studies that did look kept calling it the ordinary sort of fungus found everywhere. It wasn't. More than a century after Baudoin's first look, a team of scientists showed it didn't fit the group it had been put in, or any similar one, and gave it a group of its own, named after him, as the man who first brought it to scientists' attention. Its nearest known relatives live on rock in Antarctica. It feeds on the spirit that escapes ageing barrels, yet it's millions of years older than any barrel, so it's thought to live on something else too. Nobody is quite sure what.
 
 3. I like to think Baudoin felt what you feel the moment someone says "it's just…": that it wasn't, quite. He wrote fifteen pages on it, and guessed wrong in print. Then the people who finally got it right put his name on it anyway. That's what your questions do. Even the ones that land wrong get other people looking, and what they find is often stranger than anyone guessed.
 

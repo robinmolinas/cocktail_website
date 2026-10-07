@@ -1,22 +1,51 @@
 ---
 pairing: regular-guy-ruler
 personality: The People's Champion
-status: closed           # open | closed | deadlock | flagged
-round: 5               # budget: 5 (pour) · 5 (rework)
+status: closed          # open | closed | deadlock | flagged
+round: 4               # budget: 4 (rework, 2026-10-06; the first pour ran 5)
 started: 2026-10-01
-mode: batch            # pour | batch | rework
+mode: rework            # pour | batch | rework
 ---
 
 # The room: The People's Champion (regular-guy-ruler)
 
+## Collection review edits, 2026-10-06
+- **Wren (Robin 2026-10-06, F3/F6):** F6, variety V2 (the kindness announced): whoYouAre ¶3 "So I'll name it. Because of you, people who'd have paid full price…" → "Because of you, people who'd have paid full price…" (preamble cut; nothing else in the reading changed, tagline and name untouched). Dossier notes on the flag (Checks › Language, open items) marked closed. Lint 0 errors.
+
 ## Where things stand
-- **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Bobby Heugel's packer's cases (Hester r3)) · [x] drink + four checks (bourbon Rickey v2 (Tomás r4; v1 r3)) · [x] reading (v2 (Wren r5 E1; v1 r3)) · [x] fact audit (v2 (Hester r4; E1–R2 confirmed r5)) · [x] resonance test (ready (Wren r5)) · [x] names (≥3 + pick) (Word Gets Round (all three, r5)) · [x] image brief (Tomás r3)
-- **Last change to the pour:** r5
-- **Sign-offs (valid only if after the last change):** Wren ✓ r5 · Tomás ✓ r5 · Hester ✓ r5 (after E1/R1/R2 landed; Tomás's r5 notes only)
-- **Open objections:** none
-- **Robin's notes (rework):** none
+- **Must-haves:** [x] persona read (Wren rw1 (unchanged)) · [x] story + sourced anchors (Heugel kept; Jack Rose rows (Hester rw4)) · [x] drink + four checks (v2 Jack Rose (Tomás rw4); v1 vodka Collins ruled the same cocktail as *Not Too Polite*) · [x] reading (v6 (Wren rw4 step 3)) · [x] fact audit (v6 (Hester rw4 step 4, pass)) · [x] resonance test (ready, "You put what you know on the side of the people nobody told." (Wren rw4)) · [x] names (≥3 + pick) (Word Gets Round (all three, rw4 vote)) · [x] image brief (v2 (Tomás rw4))
+- **Last change to the pour:** rework round 4, step 4 (anchors: grenadine row removed, following reading v6)
+- **Sign-offs (valid only if after the last change):** Wren ✓ rw4 (step 3, reconfirmed after the anchors change) · Hester ✓ rw4 step 4 · Tomás ✓ rw4 (step 3, reconfirmed after the anchors change)
+- **Open objections:** none. Notes for Robin (not flags): how far D12 reaches (Wren); whoYouAre's "So I'll name it."
+- **Robin's notes (rework):** 2026-10-06: *"Word Gets Round gets a new drink."* (collection review, 2026-10-06, card D12, option B). Context: *Somewhere to Land* (jester-ruler) is also a whiskey Rickey (rye, half a lime with its shell in, Apollinaris, three cubes), and Robin ruled that two whiskey Rickeys are the same cocktail, even with a different whiskey and water (STUDIO-RULES check 3, updated today). **The drink must not be a Rickey.** The story (Bobby Heugel's packer's cases, the price of limes, 2014) may stay; the room decides. Also fix, in the same pass: yours 4's "and is now the official cocktail of Washington, DC", which Hester's Rickey card lists as fenced (revision queue Q007). Apply today's new rules in STUDIO-RULES.md: "Variety across the collection (Robin 2026-10-06)" and check 2's "Judge a drink by its real structure". The tagline, whoYouAre and name stay unless the new drink makes one untrue; if so, flag it for Robin rather than swap it.
 
 ## Summary for Robin
+- **The persona (unchanged):** the People's Champion puts what they know on the side of the people nobody told. They like the power of knowing, and they turn down the seat for fear of losing their own people.
+- **Story:** kept from the first pour: Bobby Heugel and the packer's cases in the 2014 lime crisis (*PUNCH*, 2 Apr 2014; *Proper* p. 293). Wren ruled it holds on any drink that keeps measured fresh lime (her five rw1 conditions).
+- **What failed and why:**
+  - **Drink v1, a vodka Collins** (rw2–rw4 step 1; 13.5% / 7.11 g / 0.758%). Audit v3 caught a denied near-miss with *Just This Once* (Oxford calls the French 75 a Champagne Tom Collins) and an over-strong sugar line. Then the host's step-1 question: *Not Too Polite* (caregiver-outlaw) is a *Codex*-built Tom Collins. **Tomás ruled it the same cocktail under check 3** (same template step for step; vodka for gin in an unchanged Collins is the kind of change D12 merged), and Hester agreed (Oxford files the Vodka Collins inside TOM COLLINS, pdf 2042). Wren's view was no (the spirit changes kind) and she asks Robin how far D12 reaches. The drink changed.
+  - **Drink v2, a Jack Rose** (*Codex* p. 129): 60 ml apple brandy, 20 ml fresh lime (or lemon, by taste), 17.5 ml pomegranate grenadine, shaken, frozen coupe. 19.3% / 8.22 g / 0.830%, every reading in range, veto-free. Wren conceded her long lean: every long lime drink is now a sibling's or a near twin.
+  - **Reading v5's grenadine strand** (the neon-red grenadine was corn syrup; the guest knows what's really in the bottle). Hester's G1/R3: a structural echo of *The Long Answer* (y2) and *By Design* (its closing line). Wren took option A: y4 now rests on Oxford's 1913 "straight lemon juice or the trendier lime juice" (pdf 1089), so the drink's own past made the guest's taste-step choice.
+- **"This is me":** "You put what you know on the side of the people nobody told."
+- **Names:** *Word Gets Round*, unanimous in the rw4 vote (kept under Robin's note). Also: *In the Know*, *Odd Sizes*, *Worth Asking*.
+- **Edges and notes for Robin (not flags):**
+  - whoYouAre's "So I'll name it." kept verbatim under Robin's note (variety rule V2), flagged for him.
+  - How far does D12 reach: any spirit swap in an unchanged template, or only a same-kind one (Wren)?
+  - The history share: about 223 words, 38% of the reading (the rule: at most half). Hester kept the Jack Rose's history to one clause.
+  - Apple brandy after the *Codex*, not Oxford's applejack; no 1912 murder case, no settled rose story, no inventor.
+  - Two "he" lint warnings (Heugel), re-accepted by Wren.
+- **Rule candidates:** none.
+
+### What changed
+- **"Word Gets Round gets a new drink" (D12 B; must not be a Rickey)** → the bourbon Rickey is gone. The room built a vodka Collins, then ruled it the same cocktail as *Not Too Polite*'s Tom Collins, and replaced it in the last round with a Jack Rose (apple brandy, lime or lemon, pomegranate grenadine, shaken, coupe). New spec, Checks, closing line kept (*Juice the odd-sized limes. Then make one for the friend who always guesses.*), new image brief, new Jack Rose card and anchor rows (Hester).
+- **"The story may stay; the room decides"** → kept. Wren ruled the Heugel story holds on the Jack Rose: the lime is measured (5 ml either way goes OUT) and the guest chooses lemon or lime.
+- **Fix y4's "official cocktail of Washington, DC" (Q007)** → gone with the Rickey; y4 is rewritten on the Jack Rose. Hester closes Q007.
+- **Apply today's rules (Variety across the collection; check 2's real structure)** → y5 recast in rw3 (opens on the instruction, no not-X-but-Y, no "I hope"); y4 4-grammed clean against every pour; the grenadine motif cut (G1); the Jack Rose is in range on every reading, so no BY STRUCTURE acceptance is needed.
+- **Tagline, whoYouAre and name stay unless the drink makes one untrue** → all three stay true (none mentions the drink); whoYouAre verbatim, its "So I'll name it." flagged for Robin.
+- **Not Too Polite, a Tom Collins (host question, step 1)** → answered plainly in Checks: yes, the same cocktail (Tomás, Hester); Wren's no recorded with her question for Robin.
+- **Hester's history-share question** → answered: "at most half of the reading" is the scope; 38% passes, and the Jack Rose's history is held to one clause.
+
+## Summary for Robin (before the rework)
 - **The persona:** the People's Champion puts what they know on the side of the people nobody told. They like the power of knowing, and they refuse the seat for fear of losing their own people.
 - **Story:** Bobby Heugel and the packer's cases in the 2014 lime crisis (*PUNCH*, 2 Apr 2014; *Proper* p. 293). He was already an owner, and he handed the trade's trick to readers: buy the odd-sized limes, cheaper because unsorted, and measure. The plan's row was Open; Wren kept candidate A's PUNCH page but moved it off the lemon-as-stand-in angle onto Heugel. B (Duffy) is out, now the Legend's. Hester's backup, the Key lime strand, went to the dossier.
 - **What failed and was fixed:** Wren's test point 5 (no promotion story) fails to the letter, because Heugel owns many bars; Wren waived it, since he's the owner who still gives it away. Hester's audit v1 caught the claim that odd limes are "as good" (epigraph, y4); v2 asked for the epigraph's source on the line ("a bartender said"), fixed in r5.
@@ -322,3 +351,291 @@ I re-grepped the reading, the draft and my anchors for "as good", "perfect", "su
 **Name vote: Word Gets Round.** It's how Heugel's trick travelled, by his own hedged account, and it claims nothing the page doesn't.
 
 _Host note after close (2026-10-01): the first close wrote the pour from an assemble made before round 5, so it carried the old epigraph and Wren's working title (*Worth Knowing*). Wren changed her title block's name line only, to the room's unanimous pick, and the pour was re-assembled from the round-5 files (*Word Gets Round*, epigraph as fixed in E1) and re-linted: 0 errors, 2 warnings (Heugel, accepted). Registry rewritten._
+
+## Rework, 2026-10-06
+
+👤 **Robin (review):** *"Word Gets Round gets a new drink."* (collection review, 2026-10-06, card D12, option B). Context: *Somewhere to Land* (jester-ruler) is also a whiskey Rickey (rye, half a lime with its shell in, Apollinaris, three cubes), and Robin ruled that two whiskey Rickeys are the same cocktail, even with a different whiskey and water (STUDIO-RULES check 3, updated today). **The drink must not be a Rickey.** The story (Bobby Heugel's packer's cases, the price of limes, 2014) may stay; the room decides. Also fix, in the same pass: yours 4's "and is now the official cocktail of Washington, DC", which Hester's Rickey card lists as fenced (revision queue Q007). Apply today's new rules in STUDIO-RULES.md: "Variety across the collection (Robin 2026-10-06)" and check 2's "Judge a drink by its real structure". The tagline, whoYouAre and name stay unless the new drink makes one untrue; if so, flag it for Robin rather than swap it.
+
+🕯️ **Host:** The room is reopened for a rework of **regular-guy-ruler** (`pours/regular-guy-ruler.md`), with fresh voices. Robin's note above is the room's first constraint: answer it, and change what you must. Everything above this section is the first pour's room; the scratch folder `_studio/work/regular-guy-ruler/` holds its artifacts. Sign-offs are needed again, and the fact audit, resonance test and lint are rerun. **4 rounds at most.**
+Standing notes from Robin: **a spark, not just the classic** (STUDIO-RULES check 3: use the *Flavor Matrix* to find something original; riff when it adds something to the person). **If no spark fits, the drink must still be interesting:** Tomás uses the cocktail books to make it so, always personalised to the person; a guest shown only a plain classic may feel let down (Robin 2026-09-30); **4 rounds for this rework**; a lint-only fix that changes no fact and nothing in the drink doesn't void the others' sign-offs. Lessons so far: the story has to be in the glass; no drink you perform; check sibling motifs in the registry.
+
+### Rework round 1
+
+🪞 **Wren:** Rework round 1. I've re-read the person and the whole first room. My full read, the fences and the variety table are in `work/regular-guy-ruler/psychologist-rework-r1-read.md`.
+
+**The person hasn't moved.** They know how the thing really works, and they use it for the people who don't. They hide that they like knowing, because it's power and they won't use the word. Their fear is the seat: one step further and their own people might see them as one of *them*. What they give: nobody near them pays full price, signs the wrong thing or takes no for an answer. The position stays: take the seat. The traps are the same ones (the Scoundrel's charm, the Legend's crisis calm, the Firefighter's hours, the One Next Door's fallback).
+
+**(a) The story stays.** The mirror was never in the Rickey. It's in the fruit and the giving. Heugel already had the seat, and he handed the trade's saving to ordinary drinkers anyway. He asked for the honest recommendation, "and tell them why", and he remembered having nobody to talk to. The Rickey was only the shape. For the story to stay in the glass, Tomás, the drink has to carry:
+- **Fresh lime, measured by volume, never counted by the fruit.** That's Heugel's trick in the glass. The epigraph and your closing line's first sentence both depend on it.
+- **Fruit you can taste.** Sugar can come in now, but nothing that buries the lime. No ready-made cordial (that's the Craftsman's Gimlet).
+- **A reason the measure matters.** With sugar in, the lime-to-sugar balance is where guessing fails, so the jigger is what lets a fist-sized odd lime make the same drink every time. Please confirm that on paper.
+- **The lemon, if you keep it,** as the honest alternative you taste against the lime. Never the stand-in.
+- **No Key lime as the underdog.** If you want it for taste, it comes in as know-how (sweeter and more acidic, so less of both), never as the tiny fruit nobody picked. That's *First Choice*'s wound.
+
+If the new drink can't hold measured fresh lime, the story goes too, and I'd want to know in round 2.
+
+**(b) The shape, not the drink.** An everyday drink people already order at a counter, one you could tell a friend how to make properly. Bottles anyone can buy, one glass for one guest, nothing that charms or performs, and a method step that's know-how the guest can pass on. Let it sound worth having. My lean is long: this row already has four Daiquiris and no other Highball. That's your call, but a short sour would be the row's fifth Daiquiri and needs its reason in Checks. **Neighbours it mustn't land on** (I grepped their recipes today):
+- any spirit with lime and unsweetened bubbles (*Somewhere to Land*)
+- spirit, water, lime and sugar in a tumbler (*Fair Measure*, Ruler column)
+- muddled lime left in the glass (*Good as It Is*)
+- a fourth Margarita (*Loose on Top*, *Half a Rim*, *For Good*)
+- lemon, sugar and bubbles in a wine glass (*Just This Once*)
+- the Southside (*Further Than Me*)
+- lime cordial (*Not Only the Way*)
+
+Lime with ginger isn't barred, but it sits between *Worth the Trip* and *In One Piece*.
+
+**(c) Tagline, whoYouAre and name all stay true.** None of them mentions the drink, and the name holds as long as the story does. Two notes for Robin, not rewritten: whoYouAre's "So I'll name it." announces the kindness (V2), and "That counts for a great deal more than you let it" grades it.
+
+**(d) Variety.**
+- y3 passes: its "I like to think" sits mid-paragraph.
+- The epigraph passes and stays if the lime is measured.
+- **y5 hits three rules,** and all three changes are mine. It opens on the fear, not the instruction (V4), so I'll open on the instruction. "Was never where you sat. It's that you tell them…" is the not-X-but-Y turn, close to *In One Piece*'s frame (V1, V5), so I'll say it straight. It ends on "I hope you enjoy every bit of it" when the sentence before is already the gain (V5), so I'll cut that clause.
+- **y4** loses the Rickey, the 1890s, "the official cocktail of Washington, DC", the no-sugar rule and Regan's "secret", and follows the new drink. The measure stays tied to Heugel in one clause.
+- **Tomás, your closing line hits V6.** "Then take the chair they keep offering you" says y5's proposal again. Keep "Juice the odd-sized limes" if the lime stays, and let the second sentence stay with the glass or turn outward in an image of its own.
+
+**Hester:** Regan's and Wondrich's Rickey pages leave with the drink. Whatever y4 says about the new drink will need its own page. The Heugel rows stand as you audited them.
+
+Name: holding until round 4. I could take *Word Gets Round*.
+
+### Rework round 2
+
+📜 **Hester:** Rework round 2. Library only, with both web visits still unspent. The anchors are rewritten in `historian-anchors.md` (the Rickey version is kept as `historian-anchors-rickey-2026-10-01.md`), and there's a sourcing sheet for your possible families, Tomás, in `historian-families.md`.
+
+**Wren, the Heugel rows stand** as the first room audited them: reveal, gesture, ingredient, person and context, on *PUNCH* (2 Apr 2014), *A Proper Drink* p. 293 and Oxford CITRIC ACID pdf 466. Two wordings of mine had outlived the audit, and I've struck them both. The gesture meaning still said he "joked about it", which was struck from Resonance on 1 October (R1). The ingredient row said "the worse problem", where his words were "one of the biggest problems" (A5). Card F7 had the same slip, and it's fixed. What leaves with the Rickey: the riff row (Oxford RICKEY pdf 1661's no-sugar rule, and Wondrich's half a lime, *Imbibe!* pdf 118) and the method row (Regan's "secret", *Joy* pdf 376). The drink and measure rows stay open until Tomás picks.
+
+**Q007 is my miss, and it's moot.** Both phrases were on the page. Oxford pdf 1661 has the city council's 2011 proclamation, and pdf 1663 has the drink widespread in Washington the summer after 1889 and in "the rest of America shortly thereafter". I passed them in audit v1 (P3) but never gave them an anchor row. On my Rickey card, "fenced" meant kept out of *Somewhere to Land* so the two pours wouldn't echo each other. It never meant unsourced, though the review fairly read it that way. The card now says why. Now the whole sentence goes with the Rickey, and so does the queue's replacement ("already famous in the 1890s"). No Rickey, DC or 1890s line stays in y4.
+
+**Tomás, what each family can claim:**
+- **Collins with lime and a non-gin base** has the cleanest page. Oxford TOM COLLINS pdf 2041–2042 calls it one of the best-known, longest-lasting mixed drinks, dates a Rum Collins to the 1930s, and says that in America after Prohibition the bourbon one was called a John Collins. The *Codex* p. 139 gives the measure a reason in a sweetened long drink: soda's carbonic acid makes a drink taste sharper, so they often set citrus and sugar 1:1. That's "one bar book says", not a law. The neighbours' Collinses are all gin and lemon.
+- **Buck or Mamie Taylor** has the best fact for this person. In Prohibition Washington, the Mayflower Club charged ten cents over the going rate for its Gin Buck, and the dime bought a proper splash of fresh lime where most places gave a few drops of lemon (Oxford BUCK pdf 369). But the same entry opens by calling the Buck "a variant of the Rickey". After D12, that's the family Robin is likeliest to read as a Rickey again, so if you take it, make the case in Checks and flag it for him. Ginger also sits between *Worth the Trip* and *In One Piece*. And Oxford contradicts itself on a Buck's citrus (pdf 466 says Bucks are often told from Mules by lemon, while pdf 369 gives the Buck lime), so say neither.
+- **Moscow Mule:** its origin is "purportedly" and contested (pdf 1358), and the Smirnoff promotion sits badly beside Heugel's p. 310 stand against brand money.
+- **Mojito:** a good page (pdf 1343: first printed in 1929 with "the juice of a lime"), but *Who's In?*, in our own Ruler column, is already a drink built like a Mojito over heaped crushed ice.
+- **Out or crowded:** the Paloma is out, because *Brought Home* is one by its own Structure row. *Off the Tour* holds the swizzle. A Jack Rose or Pisco Sour would be the row's fifth Daiquiri.
+
+For the Mojito, the Mule and the Buck, the old recipe counted fruit, each on its own page (Lasa's lime; the Mule's "squeeze of lime", *Codex* p. 139; the Buck's wedge, *Joy* pdf 328). So "measured, not counted" keeps a source without Regan's Rickey line. The Collins page counts no fruit, so there it rests on the *Codex*'s 1:1. One guard: Wren's "with sugar in, guessing fails" only becomes a fact from your balance numbers, never from any of these pages.
+
+Tomás, please name the family in your round-3 draft. I'll write it a card and fill the two open rows the same round.
+
+Name: holding until round 4. I could take *Word Gets Round*.
+
+🍸 **Tomás:** Rework round 2. Wren, your story holds and all five conditions are in the glass. **Drink v1 is a Collins: vodka, measured fresh lime (or lemon, by taste), simple syrup and soda.** Draft: `work/regular-guy-ruler/mixologist-draft.md`. Spec: `_studio/specs/regular-guy-ruler.json`. The Rickey's spec and draft are archived under `-rickey-2026-10-01` names.
+
+**The spec:** 60 ml vodka, 22.5 lime, 20 syrup, 50 soda. It's the *Codex*'s own Collins build (p. 138): soda measured into the empty glass, a five-second shake, strained onto the soda so it mixes itself, ice last, nothing to stir. `balance.py` (collins): **13.5% ABV, 7.11 g sugar, 0.758% acid, all in range. Veto-free.** It isn't a Rickey, because it has sugar (Oxford pdf 1661: the classic Rickey has none).
+
+**Your condition 3, on paper:** the sugar band is the narrow one. Syrup at 15 ml is **OUT** (5.58 g) and at 25 ml it's **OUT** (8.53 g). Lime is in range from 17.5 to 27.5 ml and **OUT** from 35 ml. So a jigger gets it right every time and counting fruit can't promise to. I still make no claim about how much juice any lime gives. Lemon gives the same numbers (LI pdf 140–141). And the lemon isn't a stand-in here: the *Codex*'s Tom Collins is a lemon drink (p. 138), so lemon is a Collins's own citrus.
+
+**Why this is the row's fifth Daiquiri-family drink, though it's long (your ask):** every long lime highball is already taken or costs a veto. The Rickey is *Somewhere to Land*'s, the Paloma is *Brought Home*'s, the Cuba Libre is *With the Bite In*'s. A Mule or any other ginger highball goes `spice` and would be a third ginger drink beside *Worth the Trip* and *In One Piece*. A G&T brings the PUNCH page's lemon-slice bartender into the glass and a fourth gin into the row. The full case is in Checks.
+
+**What makes it interesting for this guest, and it's your call for y4:** vodka is the spirit that lets the lime show (*Codex* p. 140). On p. 69 the *Codex*'s authors admit "Bartenders talk a lot of smack about vodka", and say that to deny its value "is to sit on a pulpit of arrogance and, frankly, it's inhospitable. Lots of people love vodka … because of its honesty: you get what you see." That's the trade owning its snobbery about the ordinary drinker's bottle. One crossing to watch: "honesty, you get what you see" sits near *A Brother's Care*'s epigraph ("Nothing in this glass is pretending"). "Inhospitable" is the word on this guest's side.
+
+**Closing line, clearing V6:** *Juice the odd-sized limes. Then make one for the friend who always guesses.* It turns outward to someone nobody told, not to the seat, and it claims no fact. Grepped clean.
+
+**Hester, for round 3:** does Oxford COLLINS or RICKEY draw the sugar line in its own words? And is there anything in Oxford VODKA that cuts against *Codex* p. 69? The draft's last section lists y4's new pages.
+
+Tagline, whoYouAre and name all stay true. I could take *Word Gets Round*, and I'm holding my pick until round 4. Not yet: the reading v3 and Hester's audit are still to come.
+
+### Rework round 3
+
+🕯️ **Host:** Rework round 3 of 4. Where things stand: Wren kept the Heugel story (rw1); Hester rewrote the anchors, struck the Rickey rows, explained Q007 and put a sourcing sheet in `historian-families.md` (rw2); Tomás built drink v1, a vodka Collins with measured lime or lemon by taste, 13.5% / 7.11 g / 0.76%, veto-free, and a new closing line (rw2). Their round-2 turns crossed: Hester asked Tomás to name the family, and he has (a Collins); Tomás asked Wren to rule on it. Owners rule on the current state: the drink is Tomás's, the facts Hester's, the reading's words Wren's.
+
+Still open: Wren's ruling on the Collins and reading v3 (`psychologist-reading-v3.md`, with its title block, y4 on the new drink, today's variety rules, and resonance); Hester's card and anchor rows for the drink and measure, then audit v3 (`historian-audit-v3.md`) on reading v3 and the draft; names (≥3, hold your own pick). As soon as a reading v3, the draft and audit v3 exist I'll assemble a provisional pour and send you its lint.
+
+**Round 4 is the last, in four steps:** (1) Wren and Tomás make every remaining change; (2) Hester audits the files as they stand and quotes any wording still to fix, old → new; (3) Wren and Tomás land exactly those fixes, give their one name and sign; (4) Hester confirms on the fixed files, gives her name and signs. Put your strongest objection in this round or by step 2 at the latest.
+
+🪞 **Wren:** Rework round 3. Reading v3 is in `work/regular-guy-ruler/psychologist-reading-v3.md`. The title block, whoYouAre and y1–y3 are unchanged; y4 is on the new drink and y5 is recast for today's rules.
+
+**Tomás, the vodka Collins: yes.** All five of my conditions are in the glass. The lime is measured, and the lemon is tasted against it, "and tell them why". Your sweep gives the measure a real reason: syrup at 15 or 25 ml is OUT. And the *Codex*'s build is itself a trick a guest can pass on: soda in the glass first, the shaken drink lands on it, nothing to stir. Your p. 69 is the find that makes it this person's drink. The trade sneers at the ordinary drinker's bottle, and an insider owns it. y4 uses it in two sentences and ties it in one clause: "I chose it partly for that, because you'd always side with them." I stayed off "honesty / you get what you see", as you warned. *A Brother's Care* owns that ground. Your closing line clears V6, and it agrees with y5, which now says "keep telling your people everything you know". I'd put my name to it.
+
+**What changed in y4 and y5:**
+- **y4:** the Rickey, the 1890s, DC, the no-sugar rule and Regan are gone. In their place: the Collins "among the most famous mixed drinks", the vodka admission, "the balance between lime and sugar is narrow, so both are measured", the Heugel tie kept word for word, the soda-first build, the taste words from your numbers (13.5%, 7.11 g, 0.758%), and the lemon clause.
+- **y5:** now opens on the instruction: "Say yes when you're next offered a seat where things get decided". The fear follows, said straight. The not-X-but-Y turn is gone, and so is the "I hope". It ends on the gain: "more people to share it with".
+- **Checks:** 4-grams are clean against every pour file. It took five rewordings in y4 ("of the best known", "into the glass first", "it's long, bright and" were all taken) and two in y5 ("the next time you're", "I don't think it").
+
+**Hester, three things for audit v3:**
+1. Is "a Collins, among the most famous mixed drinks" fair, when Oxford says it of the Tom Collins? If not, your wording.
+2. Does my paraphrase of *Codex* p. 69 hold: "Plenty of bartenders look down on vodka. One bar book's authors admit they were among the worst, and call the sneering inhospitable: lots of people love it."?
+3. **History share:** about 225 words, 53% of yours and 37% of the whole reading. The rule says "of the reading". If you or the host read it on yours alone, I cut the vodka admission first, which brings it to 47%.
+
+Robin's note stands: tagline, whoYouAre and name are true on this drink, and whoYouAre's "So I'll name it." is flagged for him only. Resonance: *nearly*, pending audit v3. Not yet: audit v3 and the lint. Name: holding until round 4; I could take *Word Gets Round*.
+
+📜 **Hester:** Audit v3 is in `historian-audit-v3.md`. It covers reading v3 and the draft as they stand, there's a new card (`fact-cards/collins-vodka-collins.md`), and the drink and method rows are now filled in `historian-anchors.md`. **Not yet.** There's one fail, it's in Checks, and the drink doesn't change.
+
+**Tomás, D3 is my strongest point.** "None of the row's four Daiquiris is a Collins … *Just This Once* a French 75" is false on the page. Oxford FRENCH 75 (pdf 850) calls it "essentially, a Champagne or 'Imperial' Tom Collins". So the Scoundrel already holds a Collins cousin in our own row: gin, lemon, syrup and Champagne in a large wine glass. That doesn't make ours the same cocktail. The spirit, the lengthener and the glass all differ, and Wren's fence was lemon, sugar and bubbles *in a wine glass*. But Checks must own the near-miss, not deny it, and more so when step 2 picks lemon. Old → new is in the audit.
+
+Your other questions, answered on the page:
+- **D1:** Oxford RICKEY pdf 1661 draws the sugar line in its own words, but more softly than the draft. The *classic* Rickey has none, and its variations "occasionally" take "a scant amount". So "it has sugar, so it isn't a Rickey" goes too far: say the syrup is the balance. Fix it in the spec note too.
+- **D2:** Oxford says most bartenders build and stir a Collins (pdf 2042), so the shake is the *Codex*'s and yours, never the line between this and a Rickey.
+- **There is a page that dates the vodka one:** Oxford TOM COLLINS pdf 2042 has it appearing in the 1930s and "ubiquitous in the 1950s".
+- **Oxford VODKA** (pdf 2104–2106) doesn't touch p. 69's "inhospitable". But it calls vodka "relatively flavorless", which p. 69's next paragraph disputes, so no guest text calls it flavourless or deep. Your 37.5% has its page there: it's the EU minimum.
+- **Carbonic acid:** you were right, and I concede. LI pdf 292 says "carbonation doesn't taste acidic". I'd carried the *Codex*'s reason in my sheet and my rw2 turn without the conflict. It's struck, and the method row rests on your sweeps.
+
+**Wren, two fixes:**
+- **W1:** the fame is Oxford's for the *Tom* Collins, so give it to that drink by name and put the 1950s on ours. Old → new: "a Collins, among the most famous mixed drinks, built here on…" → "a Vodka Collins. Its cousin, the Tom Collins, is one of the most famous mixed drinks there is, and the vodka one was everywhere by the 1950s. Mine is vodka, fresh lime, sugar syrup and soda water."
+- **W2:** "Plenty of bartenders look down on vodka" is the book's claim, told in Ryu's voice. Old → new: → "The authors of one bar book admit that bartenders talk vodka down, and that they used to be among the worst. Sneering at it, they say, is inhospitable: lots of people love it." Please 4-gram both.
+
+Your Notes row (W10) also puts quotation marks round my families-sheet paraphrase as if it were Oxford's. History passes at 37% of the reading, which is the rule's own scope, and the vodka admission isn't history anyway.
+
+Name: holding until round 4. I could take *Word Gets Round*.
+
+🍸 **Tomás:** Rework round 3. Hester, the family is **a Collins** (the *Codex*'s Daiquiri family), with a vodka base and lime or lemon by taste. The spec is the same as round 2: 13.5% ABV, 7.11 g sugar, 0.758% acid, balanced and veto-free. Your sheet went into the draft's Structure row in two ways. First, Oxford TOM COLLINS as "one of the best-known, longest-lasting" mixed drinks (pdf 2041), so the drink sounds worth having. No page dates a vodka Collins, so guest text puts no history on ours. Second, your method conflict: Oxford builds it and the *Codex* shakes it. That makes the shake the *Codex*'s and mine, never "how a Collins is made".
+
+**One objection for your card, and it's my strongest:** please don't anchor the *Codex*'s *reason* for its 1:1 rule, not even as "one bar book says". Soda's carbonic acid making a drink taste sharper (p. 139) is contradicted by *Liquid Intelligence*, which says "carbonation doesn't taste acidic" (pdf 292, p. 288). When sources conflict, the detail stays out. The practice itself (1:1 unless extra-tart) is fine as the *Codex*'s. Mine is 22.5 : 20, a little tart. So "the measure matters" rests on my sweeps alone, as your guard asked. At this sugar, syrup at 15 ml and at 25 ml are both OUT, and lime is OUT from 35 ml.
+
+Wren, nothing new for you from me until you rule. y4's pages are in the draft's last section. Names are in the draft (≥3; *Word Gets Round* stays under Robin's note). I could take *Word Gets Round*, and I'm holding my pick until round 4. Not yet: I'm waiting on your ruling, reading v3 and audit v3.
+
+### Rework round 4
+
+🕯️ **Host:** Rework round 4 of 4, the last, in four steps. Provisional assemble on reading v3, the draft and audit v3: **0 errors, 2 warnings** (yours 2 and 3: "he" is Heugel, accepted by Wren in the first pour; please re-accept or fix). Open: Hester's Not yet (audit v3): **D3** (Checks must own the *Just This Once* near-miss: Oxford calls the French 75 a Champagne Tom Collins) and **D1** (the sugar line, softer, in Checks and the spec note), Tomás's; **W1** and **W2** (y4's Collins fame and the vodka sentence), Wren's; Wren's question on the history share is Hester's to answer. **Step 1 (now):** Wren and Tomás, in parallel, make every remaining change (turn files `rw4-wren.md`, `rw4-tomas.md`). **Step 2:** Hester audits the files as they stand and quotes any wording still to fix, old → new (`rw4-hester.md`, audit as `historian-audit-v4.md`). **Step 3:** Wren and Tomás land exactly those fixes, give their one name and sign (`rw4-wren-2.md`, `rw4-tomas-2.md`). **Step 4:** Hester confirms on the fixed files, gives her name and signs (`rw4-hester-2.md`).
+
+🍸 **Tomás:** Rework round 4, step 1. Hester, audit v3's items are all in `mixologist-draft.md` and the spec note. The drink hasn't changed: re-run, it's 13.5% ABV, 7.11 g sugar, 0.758% acid, balanced and veto-free.
+
+- **D3, conceded.** You're right: I denied a near-miss the page shows. Structure and Owned near-misses now both say that *Just This Once* is a French 75, "essentially, a Champagne or 'Imperial' Tom Collins" (Oxford pdf 850): gin, lemon, syrup and Champagne in a large wine glass. Mine is vodka, lime (lemon only if it tastes better), syrup and soda in a highball glass. So it's owned as a cousin, not as the same cocktail, and Wren's wine-glass fence holds.
+- **D1:** "the classic Rickey has no sugar, and Oxford's sweetened variations take only 'a scant amount' (pdf 1661). Here 20 ml of syrup (7.11 g/100 ml) is the balance." The spec note says the same.
+- **D2:** "following the *Codex*, it's short-shaken (Oxford notes most bartenders build and stir a Collins, pdf 2042)".
+- **D5:** the fame goes on the Tom Collins in Oxford's own words (pdf 2041), and the Vodka Collins gets its own date, 1930s, ubiquitous by the 1950s (pdf 2042). My lime stays off the 1950s drink.
+- **D7:** "a trade term, by Heugel's account".
+- **Makeable:** 37.5% now has your page (the EU minimum, Oxford VODKA pdf 2106).
+
+Wren, the lime-and-sugar line in your y4 rests on my sweeps (syrup at 15 and 25 ml OUT), so it's true as it stands. The closing line is unchanged: *Juice the odd-sized limes. Then make one for the friend who always guesses.* Names are in the draft. I could take *Word Gets Round*, and I'm holding my pick for step 3. Not yet: audit v4 is still to come.
+
+🕯️ **Host:** Rework round 4, still step 1. Tomás has filed; Wren, your step-1 turn (`rw4-wren.md`) is still to come. One point the room must settle now, in step 1, and write into Checks: *Not Too Polite* (caregiver-outlaw, `pours/caregiver-outlaw.md`) is a **Tom Collins**: 60 ml gin, 30 ml lemon, 25 ml jaggery syrup, 50 ml soda poured first, short-shaken on top, Collins glass. Robin ruled today that two whiskey Rickeys are the same cocktail even with a different whiskey (STUDIO-RULES check 3). Under that rule, **is a vodka Collins the same cocktail as that Tom Collins?** Say it plainly, yes or no, with the reason. The drink is Tomás's to rule on, so his answer goes in Checks; Wren and Hester say whether they agree. If it is the same cocktail, Tomás changes the drink within this round's budget. Also still open for Hester to answer in step 2: Wren's history-share question (the rule is "at most half of the reading"). Step-3 turns will be `rw4-wren-3.md` and `rw4-tomas-3.md`; Tomás, your answer to this one is `rw4-tomas-2.md`.
+
+🪞 **Wren:** Round 4, step 1. Reading v4 is in `work/regular-guy-ruler/psychologist-reading-v4.md`. It's v3 with Hester's W1, W2 and W10 applied. Nothing else in the reading moves.
+
+**Hester, your fixes, old → new:**
+- **W1:** "a Collins, among the most famous mixed drinks, built here on vodka, fresh lime, sugar syrup and soda water." → *"a Vodka Collins. Its cousin, the Tom Collins, ranks among the most famous mixed drinks there are, and the vodka version was everywhere by the 1950s. Here it's vodka, fresh lime, sugar syrup and soda."* That's your wording with three changes, all forced by the 4-gram run or by our own rules:
+  - "the Tom Collins is one" is taken by *On One Condition*.
+  - "and soda water. The" is taken by *Rent-Free*.
+  - "Mine is" became "Here it's", which keeps our lime off the 1950s drink without a bare possessive for the drink.
+- **W2:** taken as you wrote it: *"The authors of one bar book admit that bartenders talk vodka down, and that they used to be among the worst. Sneering at it, they say, is inhospitable: lots of people love it."* One knock-on in the next sentence: "because you'd always side with them" → "because you'd always side with whoever orders it". After W2, "them" could point at the authors or at the bartenders (clear before clever). It's about the guest, so it's mine, and it claims nothing about the book.
+- **W10:** the notes now quote Oxford's own words ("one of the best known and enduring mixed drinks of all time", pdf 2041; "ubiquitous in the 1950s", pdf 2042) and cite your card.
+
+**The "he" warnings in yours 2 and 3:** re-accepted. Every one is Bobby Heugel, named in y1, and nothing about the guest is gendered.
+
+**Checks.** 4-grams of every yours paragraph against every pour file are clean. yours is 451 words. History and sources come to about 256 words: 40% of the reading, which is the rule's scope and passes your W11, and 57% of yours alone. **Tomás, on your D3:** the Scoundrel's guest text never names a Collins (I grepped its Reading section), so y4's "Its cousin, the Tom Collins" doesn't put our row's two Collins cousins side by side in front of the guest. Your Checks owning the near-miss is enough.
+
+**The host's question on *Not Too Polite*: is a vodka Collins the same cocktail as its Tom Collins? My view is no, by the rule as Robin wrote it, but it's close enough that the call should go to him.** The drink is Tomás's, and his answer isn't filed yet, so this is my view only.
+- **Why no.** Robin's D12 merged two Rickeys that kept the same kind of spirit (two whiskeys) and changed only the bottle, the water and the ice. Here the spirit changes kind, gin to vodka, and Oxford names the vodka one as its own Collins with its own dates (pdf 2042). The citrus is lime, not lemon, and the sugar is white, not the Campaigner's jaggery, which is that pour's whole twist ("the sugar is the argument").
+- **Why it's close.** The build is the same *Codex* p. 138 build: soda poured first, a short shake on top. And on a day the guest picks lemon at our taste step, only the spirit and the sugar differ. A guest who reads both pours will see two Collinses made the same way.
+- **What I'd ask, Tomás:** say both halves plainly in Checks, and have the host flag it for Robin as an open question about how far D12 reaches, rather than treat it as settled. If you rule it the same cocktail, the story still stands on any drink that keeps measured fresh lime (my rw1 conditions). Then y4 changes and nothing else in my reading does. My y4 already calls the Tom Collins "its cousin", so the reading tells the guest the truth either way.
+
+Resonance: **ready**, pending audit v4. The "this is me" line is still *"You put what you know on the side of the people nobody told."* Not yet: Hester's audit v4. Name: holding until step 3; I could take *Word Gets Round*.
+
+🍸 **Tomás:** To the host's question: **yes. My vodka Collins is the same cocktail as *Not Too Polite*'s Tom Collins**, so I've changed the drink this round.
+
+The reason: the template matched step for step. A spirit, citrus, sugar syrup and soda; the soda poured in first, a short shake onto it, ice last. That's the *Codex*'s Collins (p. 138), and *Not Too Polite* follows it exactly. What differed was one clear spirit for another, lime for lemon by default, and plain syrup for jaggery. If the guest picked lemon at my taste step, even the citrus matched. Robin ruled that a different whiskey and water don't make a second Rickey, and a vodka for a gin in an unchanged Collins is that kind of change. Oxford files the Vodka Collins inside its TOM COLLINS entry (pdf 2042, Hester's find). The ruling is in Checks under Owned near-misses.
+
+**Drink v2: a Jack Rose** (*Codex* p. 129, CLASSIC). 60 ml apple brandy (a Calvados or an American straight apple brandy, 40 to 50%, not applejack), 20 ml fresh lime (or lemon, by taste), 17.5 ml grenadine made from pomegranate juice and sugar, shaken and served up in a chilled coupe. `balance.py` (shaken): **19.3% ABV, 8.22 g sugar, 0.830% acid, every reading in range. Veto-free.** No pour in the registry is a Jack Rose. Spec v2 is `_studio/specs/regular-guy-ruler.json`, the draft is rewritten, and v1 is archived under `-collins-v1-2026-10-06` names.
+
+**Wren, what moved for y4:** the Vodka Collins lines go: W1's Tom Collins fame and the 1950s, W2's vodka admission, and the soda-first build. I'm sorry to take the p. 69 find away from you. Your five conditions all still hold:
+- The lime is measured, and the measure matters more than before: 5 ml either way of the 20 ml goes **OUT** on acid (15 ml 0.67%, 25 ml 0.98%), and 22.5 ml of grenadine goes **OUT** on sugar.
+- The lemon has a stronger claim now, because apple brandy is aged (*Codex* p. 115).
+- The fruit shows: "Lime juice provides a counterpoint to the grenadine's richness" (p. 129).
+
+The new interest for this guest is the grenadine itself. The *Codex* admits the "neon-red stuff in our Shirley Temples was made with high-fructose corn syrup" (p. 47). The real one is pomegranate juice and sugar, shaken in a jar. Knowing what's really in the bottle is this person's kind of know-how. The drink is short, so it goes against your long lean; that's owned in Checks, because every long lime drink is now a sibling's or a near twin. The epigraph, closing line, tagline, whoYouAre and name all stay true.
+
+**Hester:** your audit v3 items D1–D7 left with the Collins, so audit v4 needs the new drink: the Oxford JACK ROSE page, if y4 dates or places it (I claim no history), and the *Codex* p. 47 and p. 129 quotations. The *By Design* grenadine crossing is owned in Checks. No gangster legend.
+
+I could take *Word Gets Round*, and I'm holding my pick for step 3. Not yet: reading and audit v4 are still to come.
+
+🕯️ **Host:** Rework round 4, a crossing in step 1. On *Not Too Polite*, Wren's view was **no** (the spirit changes kind; Oxford names the Vodka Collins as its own drink; flag the reach of D12 to Robin), and Tomás, who owns the drink, ruled **yes** (the *Codex* Collins template matches step for step; vodka for gin in an unchanged Collins is the kind of change D12 merged) and changed the drink to **v2, a Jack Rose**: 60 ml apple brandy, 20 ml lime (or lemon, by taste), 17.5 ml pomegranate grenadine, shaken, served up in a coupe; 19.3% / 8.22 g / 0.830%, in range, veto-free. The drink is Tomás's, so the current state is the Jack Rose. Wren crossed it before it existed, so she rules now on the current state: does the story and the reading hold on a short shaken drink, and y4 for the Jack Rose (`psychologist-reading-v5.md`, file `rw4-wren-2.md`). Hester, in parallel: the card and anchor rows for the Jack Rose and the *Codex* pp. 47, 129 quotations, and your audit of draft v2 (`rw4-hester.md`, audit as `historian-audit-v4.md`); answer the history-share question there too. When Wren's v5 lands, Hester audits it (step 2, `rw4-hester-2.md`, `historian-audit-v5.md`), then step 3 (`rw4-wren-3.md`, `rw4-tomas-3.md`) and step 4 (`rw4-hester-3.md`). This is still the last round: anything not closed in step 4 goes to Robin flagged, each side's case in its own voice.
+
+🪞 **Wren:** Round 4, step 1, on the current state. Reading v5 is in `work/regular-guy-ruler/psychologist-reading-v5.md`. Only y4 changes. The title block, whoYouAre, y1–y3 and y5 are as in v4.
+
+**Tomás, the Jack Rose: yes, and the story holds.** The mirror was never in the length. It's in the fruit and the giving. All five of my conditions are in this glass, and the measure matters more than it did before: 5 ml of lime either way goes OUT. The lemon has a better claim now too, beside an aged brandy. I concede my long lean. What convinced me is your list: every long lime drink is now a sibling's cocktail or a near twin. On *Not Too Polite*, the drink is yours and you've ruled, so I'll leave it there. Your reason, the *Codex* template matching step for step and Oxford filing the Vodka Collins inside TOM COLLINS, is a fair one. The tagline, whoYouAre, name, epigraph and your closing line all stay true.
+
+**y4 for the Jack Rose (new):** *"The cocktail I've made for you is a Jack Rose, a classic worth knowing: apple brandy, fresh lime and grenadine, shaken hard, then poured into a coupe you've frozen first. It's rosy red, with warm apple under bright pomegranate and lime. The balance is narrow, so the lime and the grenadine are both measured, and the lime is never counted, as a nod to Heugel's trick: measured out, it makes no difference what size the lime was. Its grenadine comes from pomegranate juice, with sugar dissolved in it. One bar book's authors admit that the neon-red grenadine in their Shirley Temples was corn syrup. I chose the pomegranate one for you, because you're the one who knows what's actually in the bottle, and says so. And if the lemons are better that day, use lemon, and tell whoever's drinking why."*
+- **The grenadine is this person's part of the glass,** and it's tied in one clause. I kept it off *By Design*, whose y4 has "homemade, from real pomegranate… made at home, by you", so mine says neither "homemade" nor "real". I also kept it off the Adolescent's "smell a fake" and the Connoisseur's "nothing pretending".
+- **4-grams are clean** against every pour file. It took eight rewordings: "renowned classic" is in 34 pours, and "shaken in a jar" belongs to the Mechanic, in our own row.
+- **History share** is about 217 words: 36% of the reading, 52% of yours alone.
+
+**Hester, for audit v5:**
+1. **"a classic worth knowing"** rests on the *Codex*'s CLASSIC label, and it claims no fame, date or place. If Oxford JACK ROSE has a fame line you'd rather use, give me your wording.
+2. **"was corn syrup"** stands for p. 47's "made with high-fructose corn syrup". If "made with" has to stay, say so.
+
+The two "he" warnings are all Heugel, so I accept them again. Resonance: **ready**, pending audit v5. The "this is me" line is *"You put what you know on the side of the people nobody told."* Not yet: audit v5. Name: holding until step 3; I could take *Word Gets Round*.
+
+📜 **Hester:** Round 4, step 2, on draft v2. Audit v4 is in `historian-audit-v4.md`, with a new card (`fact-cards/jack-rose.md`) and the Jack Rose rows filled in `historian-anchors.md` (the Collins rows are archived). Library only. **Not yet, and it's wording only:** nothing in the glass or its numbers changes.
+
+**The sameness ruling: I agree with Tomás, yes.** Oxford gives the Vodka Collins no entry of its own. It sits inside TOM COLLINS, after "the drink's formula lends itself nicely to other spirits" (pdf 2042): one formula with the spirit swapped, the way the Rickey takes "any liquor" (pdf 1661). Wren, your point stands as a note for Robin on how far D12 reaches. It isn't a flag on this pour, which has already moved off the Collins.
+
+**Tomás, four fixes, old → new in the audit:**
+- **J1:** p. 129's "juicy and tangy" describes the *Codex*'s own grenadine, "spiked with orange oil" (and with acid powders, p. 47). Ours has neither, so say the taste line is theirs.
+- **J3:** Oxford's Jack Rose is applejack (pdf 1090), and the *Codex*'s is straight apple brandy (p. 129). Say which you follow.
+- **J4:** "the *Codex* admits" drops the second half of their sentence: "but it was pretty and we loved it". Carry it.
+- **J8:** *The Long Answer* is the Ward Eight, not a bourbon Collins.
+
+Your p. 47 and p. 129 quotations are otherwise word for word, and so is p. 160 on applejack.
+
+**Wren, my strongest point, for y4 (G1):** keep the grenadine out of the reading's "interest". *The Long Answer*'s y2 already tells its guest that 1930s grenadine was mostly imitation and real makers used pomegranate. *By Design*, in our own Ruler column, closes on making the grenadine yourself. A third pour on that shape is a motif. The Jack Rose has a better page for this person: by 1913 its mixed citrus had given way to "straight lemon juice or the trendier lime juice" (Oxford pdf 1089). So the drink's own past already chose between lemon and lime, which is exactly the guest's taste step.
+
+What y4 can say, sourced: "a Jack Rose, a classic" (Oxford's "a solid classic", pdf 1090). Not "famous": Oxford says it isn't one of the revival's standard-bearers. One clause at most of history: it was one of three drinks that, early in the 1900s, made it acceptable to put citrus juice in a cocktail (pdf 1089). And "I make it with apple brandy", since Oxford's classic is applejack. Never the 1912 murder case, never the rose as settled ("apparently"), never Haas as its inventor.
+
+**The history share:** the rule says "at most half of the reading", and 40% of the reading passes. Robin set the weight by the first four pours, though, and this pour's first room read its share on yours (50%). So keep the Jack Rose's history to that one clause.
+
+Name: holding until step 4. I could take *Word Gets Round*.
+
+🕯️ **Host:** Rework round 4, step 2. Where things stand: Tomás owns the sameness ruling and Hester agrees (yes, same cocktail; Wren's question on how far D12 reaches goes to Robin as a note, not a flag). Wren ruled yes on the Jack Rose and wrote reading v5; Hester's audit v4 crossed it, written on draft v2 before v5 existed. So her G1 (keep the grenadine out of y4's interest: *The Long Answer* and *By Design* already hold that shape; she offers the 1913 lemon-or-lime page, Oxford pdf 1089, instead) answers v4's plan, not yet v5's words. Now, in parallel: **Hester** audits reading v5 as it stands, rules on G1 against its actual y4, and quotes every remaining fix old → new (`historian-audit-v5.md`, `rw4-hester-2.md`). **Tomás** lands audit v4's J1, J3, J4, J8 in the draft (and the spec note if touched), file `rw4-tomas-3.md`, and gives his one name and signs on the draft he leaves. Then step 3: Wren lands audit v5's fixes, gives her one name and signs (`rw4-wren-3.md`); Tomás lands any audit-v5 item addressed to him (`rw4-tomas-4.md`). Step 4: Hester confirms on the fixed files, gives her name and signs (`rw4-hester-3.md`). The words of y4 are Wren's; the facts and the motif check are Hester's.
+
+📜 **Hester:** Round 4, step 2, on reading v5 as it stands. Audit v5 is in `historian-audit-v5.md`. **Not yet:** three wording fixes in y4, quoted old → new. With them in, I'd put my name to this.
+
+**Wren, your two questions first.**
+- **"A classic worth knowing" is fine.** It rests on the *Codex*'s CLASSIC (p. 129) and on Oxford's own "a solid classic" (pdf 1090). Oxford gives you no fame line, so don't reach for "famous".
+- **The colon after it is the problem (R1).** It hands the classic our base, but Oxford's classic is applejack while the *Codex*'s is apple brandy. Old → new: "a classic worth knowing: apple brandy, fresh lime and grenadine, shaken hard, …" → "a classic worth knowing. I make it with apple brandy, fresh lime and grenadine, shaken hard, …".
+- **"Was corn syrup": "made with" has to stay (R2).** "Was" says that was all it was. And "admit" drops the second half of their own sentence, "but it was pretty and we loved it". Old → new: → "One bar book's authors remember that the neon-red grenadine in their childhood Shirley Temples was made with corn syrup, and that they loved it anyway."
+
+**G1, ruled on your actual words: it still holds (R3).** You kept "homemade" and "real" off *By Design*, but the shape is still there: the bottled grenadine wasn't pomegranate, the good one is, and knowing which is the guest's know-how. *The Long Answer*'s y2 already tells its guest that fact (Fougner, 1936). And *By Design*, in our own Ruler column, makes the pomegranate grenadine its whole point and its closing line. A changed word doesn't get past a structural echo. Tomás has already moved the draft's interest to Oxford pdf 1089, so as things stand the reading and the draft disagree on which part of the glass is this person's.
+
+Two ways to pass, and the choice is yours:
+- **(A), my pick:** replace your last four sentences with "Its grenadine is pomegranate juice with sugar dissolved in it. By 1913, the Jack Rose was being made with lemon, or with lime, the newer fashion, so the choice is older than either of us. If the lemons are better that day, use lemon, and tell whoever's drinking why." Oxford pdf 1089 has "straight lemon juice or the trendier lime juice". "Older than either of us" is our reading. Please 4-gram it.
+- **(B), the minimum:** cut the corn-syrup sentence and "I chose the pomegranate one … and says so." The measure already carries Heugel.
+
+Taking either (A) or (B) makes R2 moot.
+
+Two citation-only fixes to your Notes: drop p. 129's "juicy and tangy", which describes the *Codex*'s orange-spiked grenadine (R4), and add Oxford's "a solid classic" (R9). The history share passes at 36% of the reading. Tomás, your J1, J3, J4, J5 and J8 are in the draft. I'll confirm everything in step 4.
+
+Name: holding until step 4. I could take *Word Gets Round*.
+
+🍸 **Tomás:** Round 4, step 3. Hester, I've landed audit v4 in `mixologist-draft.md`, wording only. The drink is untouched: 19.3% ABV, 8.22 g sugar, 0.830% acid, balanced and veto-free (re-run). The spec note didn't need changing.
+- **J1:** "juicy and tangy" is now credited to the *Codex*'s own grenadine, "spiked with orange oil". Mine leaves out the orange and the acid powders, so the taste line is theirs.
+- **J3:** "Oxford's recipe uses applejack (pdf 1090); the *Codex*'s uses straight apple brandy (p. 129), and I follow the *Codex*." I've added your "a solid classic".
+- **J4:** "but it was pretty and we loved it" is now carried. It's fondness, not an exposé, and I've changed "admits" to "recalls".
+- **J5:** you're right about the motif. In Checks, the drink's interest is now your pdf 1089: by 1913 the Jack Rose had given way to "straight lemon juice or the trendier lime juice", which is the method's own taste step. The grenadine stays in the recipe. *The Long Answer*'s y2 is owned beside *By Design*. Wren, how y4 handles that is yours.
+- **J8:** *The Long Answer* is the Ward Eight.
+- **The ruling, said plainly in Checks:** my vodka Collins was the same cocktail as *Not Too Polite*'s Tom Collins, so it went. Hester agrees: Oxford's Vodka Collins sits inside TOM COLLINS as the same formula with the spirit swapped. Wren's no is recorded, along with her question for Robin as a note, not a flag: does D12 reach any spirit swap in an unchanged template, or only a same-kind one?
+
+The recipe, method, four checks, closing line (*Juice the odd-sized limes. Then make one for the friend who always guesses.*) and image brief are all written, and every reading is in range with no edge. **My name: Word Gets Round.** I'd put my name to this.
+
+🪞 **Wren:** Round 4, step 3. Reading v6 is in `work/regular-guy-ruler/psychologist-reading-v6.md`. Audit v5's fixes are landed exactly. Only y4 and the Notes change from v5.
+
+**Hester, old → new:**
+- **R1:** "a classic worth knowing: apple brandy, fresh lime and grenadine, shaken hard, …" → *"a classic worth knowing. I make it with apple brandy, fresh lime and grenadine, shaken hard, …"*, your wording.
+- **R3: option A, and you've convinced me on G1.** I'd changed the words, but the shape was still *The Long Answer*'s and *By Design*'s, and the swap test is mine to honour. The grenadine stays in the recipe only. My last four sentences become: *"Its grenadine is pomegranate juice with sugar dissolved in it. By 1913, the Jack Rose was being made with lemon, or with lime, the newer fashion, so that choice goes back a long way. If the lemons are better that day, use lemon, and tell whoever's drinking why."* There's one change from yours: "older than either of us" → "goes back a long way". "Us" breaks the one voice, and it's still our reading of a 1913 date. It's also the better page for this person, because the drink's own past made the choice the guest makes at the taste step.
+- **R2:** moot under A, so the corn-syrup sentence is gone.
+- **R4:** the Notes now cite "spec; taste words, ours", and the *Codex*'s orange-spiked-grenadine quotation is dropped.
+- **R9:** the Notes add Oxford JACK ROSE pdf 1090, "a solid classic" (card F7).
+
+**Checks.** 4-grams of every yours paragraph against every pour file are clean, and "goes back a long way" appears in no pour. There's no we/our/us. History is about 223 words, 38% of the reading. The two "he" warnings are Heugel, so I accept them again. The reading and Tomás's draft now agree on what's this person's: the measure and the choice.
+
+The "this is me" line: *"You put what you know on the side of the people nobody told."* Resonance: **ready**. Notes for Robin, carried, not flags: whoYouAre's "So I'll name it." (V2), and my question on how far D12 reaches.
+
+**My name: *Word Gets Round*.** I'd put my name to this.
+
+🕯️ **Host:** Rework round 4, step 4. Wren landed audit v5 (R1, R3 option A, R2 moot, R4, R9) in reading v6, named *Word Gets Round* and signed; Tomás landed audit v4 in the draft, named *Word Gets Round* and signed. Reassembled on reading v6, draft v2 and audit v5: **0 errors, 2 warnings** (yours 2 and 3: "he" is Heugel, re-accepted by Wren). Hester: confirm on the fixed files, give your name and sign (`rw4-hester-3.md`). If you write the confirmation as `historian-audit-v6.md`, the pour carries it as its fact audit. Anything that isn't a quoted wording fix goes to Robin flagged.
+
+📜 **Hester:** Round 4, step 4. Confirmed on the files as they stand: reading v6, draft v2, the spec (re-run: 19.3% / 8.22 g / 0.830%, balanced) and the assembled pour (0 errors). The confirmation is `historian-audit-v6.md`.
+
+**Wren, R1, R3 (A), R4 and R9 are in, word for word.** "So that choice goes back a long way" is a fair reading of Oxford's 1913 "straight lemon juice or the trendier lime juice" (pdf 1089), and keeping it in one voice was the right call. The grenadine is now in the recipe only. *The Long Answer*'s shape and *By Design*'s are both gone from y4, and the reading and the draft agree on this person's part of the glass: the measure, and the choice between lemon and lime.
+
+**Tomás, J1, J3, J4, J5 and J8 are in.** The sameness ruling is stated plainly in Checks.
+
+**Anchors follow the audit, so I've fixed mine in the same call.** The grenadine row is out of the table, because the reading dropped it, and it stays on the card (`jack-rose.md` C4). I grepped my anchors for "joked", "as good", "told everyone", Rickey, DC, Collins and corn syrup, and none is in a fact or meaning. Q007 closes with the drink change. For Robin, as notes and not flags: how far D12 reaches, and whoYouAre's "So I'll name it."
+
+Every claim in the pour is sourced or signposted. I'd put my name to this.
+
+**My name: *Word Gets Round*.** Heugel's trick travelled by his own hedged account, and the name claims nothing the page doesn't.
+
+🪞 **Wren:** My sign stands. I grepped the provisional pour's Anchors: the grenadine row is gone and no corn syrup is left. What's there now (the drink, the 1913 lemon-or-lime lineage, the measure) is exactly the strand v6 tells. The reading and its anchors agree, so I'd put my name to this as it now is, *Word Gets Round*.
+
+🍸 **Tomás:** My sign stands on the pour as it is now. Reading v6 drops the grenadine strand and puts the 1913 lemon-or-lime page in its place, which is exactly where my Checks point. Hester's anchors follow it, and the recipe, method, numbers (19.3% / 8.22 g / 0.830%, veto-free), closing line and image brief in `provisional.md` are mine as signed. Word Gets Round. I'd put my name to this.

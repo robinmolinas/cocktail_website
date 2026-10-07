@@ -1,0 +1,3 @@
+# Sole focused correction — Not the Same
+
+Complete unchanged current209line dossier and28line spec read to EOF again immediately before the edit; source9237060193ec7c6a697043b0326558415f28eb5ddeb787fb5df9aa770b239fc8, spec19e13bd27acbd34e99713a77a80220bbc5ef112d1c1e83fc7c9cdb081b9b8489. Same settled physical/person direction, no editorial/source changes. V1 original inspected: measured glass472px tall and lateral spread fail composition intention; small freely tied tag improves proportion. This sole correction addresses framing/depth grouping only, with recipe/tag/world invariant. No third call or acceptance. Material watch for warm glossy-grain timber remains.

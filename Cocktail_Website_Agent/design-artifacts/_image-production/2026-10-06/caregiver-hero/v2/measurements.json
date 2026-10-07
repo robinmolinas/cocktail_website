@@ -1,0 +1,52 @@
+{
+  "pairing": "caregiver-hero",
+  "pour": "Off Duty",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-hero/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-d196ea68-3609-43f0-a581-418e1b73d2ba.png",
+  "sourceSha256": "945bfc61eef4d055827dd1b3fc6210a51554dbdf5fcf57400611ab45d8e7e54e",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    650,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1092,
+    "cy": 573,
+    "w": 107,
+    "angle": -4.6
+  },
+  "glass": {
+    "x": 1005,
+    "y": 508
+  },
+  "bounds": {
+    "glass": {
+      "x0": 811,
+      "y0": 405,
+      "x1": 1186,
+      "y1": 631
+    },
+    "paper": {
+      "x0": 1031,
+      "y0": 532,
+      "x1": 1169,
+      "y1": 610
+    }
+  },
+  "review": {
+    "recipe": "Wide ivory teacup/saucer with clear pale honey-gold hot Irish whiskey toddy, nothing floating in liquid. Two removed spent thyme sprigs on saucer. Restrained steam. No lemon, brandy, foam or ice.",
+    "personality": "Hastily set-down olive coat on pulled-up chair, face-down phone and keyring imply returning after being first to act, then accepting an offered seat. Coat survives narrow phone crop; phone/keys are peripheral and need export visual check.",
+    "world": "Dark walnut surface, warm intimate reading-room, burgundy/olive/cream. No industrial metal; keyring is normal functional metal. v2 pulled camera back to avoid oversized saucer crop.",
+    "issues": [
+      "Tag writable width107 master pixels may be small for long names; browser test required.",
+      "Phone/keys are peripheral in narrow-phone crop; scene acceptance awaits portrait inspection."
+    ]
+  }
+}

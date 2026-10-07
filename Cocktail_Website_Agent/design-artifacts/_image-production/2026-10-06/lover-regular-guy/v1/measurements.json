@@ -1,0 +1,90 @@
+{
+  "pairing": "lover-regular-guy",
+  "pour": "Any Day",
+  "sourceSha256": "d82beb0761a6a62567eb5ade4d83638c805102a63a8f413c7673659f57502d58",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-regular-guy/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-7b4bb89b-0432-4cd6-935a-e707778f9164.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "87dec2a9e1f38b47ef7e62aa5b1014c04c4654c28c5913611fb2778babdd6eff",
+  "portraitCrop": [
+    680,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1098,
+    "cy": 551,
+    "w": 238,
+    "angle": -2.2
+  },
+  "glass": {
+    "x": 952,
+    "y": 487
+  },
+  "bounds": {
+    "glass": {
+      "x0": 752,
+      "y0": 245,
+      "x1": 1151,
+      "y1": 736
+    },
+    "paper": {
+      "x0": 913,
+      "y0": 488,
+      "x1": 1242,
+      "y1": 612
+    },
+    "workGlove": {
+      "x0": 1137,
+      "y0": 310,
+      "x1": 1655,
+      "y1": 710
+    },
+    "adjustableWrench": {
+      "x0": 1137,
+      "y0": 348,
+      "x1": 1476,
+      "y1": 544
+    }
+  },
+  "recognitionRegions": {
+    "workGlove": {
+      "bounds": {
+        "x0": 1212,
+        "y0": 449,
+        "x1": 1652,
+        "y1": 710
+      },
+      "reason": "Visible bent thumb and several leather finger ends attached to palm, not an anonymous edge."
+    },
+    "adjustableWrench": {
+      "bounds": {
+        "x0": 1243,
+        "y0": 387,
+        "x1": 1475,
+        "y1": 544
+      },
+      "reason": "Attached fixed/moving jaw, adjusting worm wheel and neck; handle continues left."
+    }
+  },
+  "review": {
+    "recipe": "One heavy rocks glass; hazy amber bourbon/lemon/honey sour with one cloudy smooth freezer cube, thin honey bubble ring and no garnish/egg. Formula unchanged; colour is warm amber rather than the palest possible read.",
+    "personality": "Worn glove and small adjustable wrench are recognizable but spread much too far to the right; this is the preserved pre-correction master, not a phone-safe candidate.",
+    "world": "Dark historic timber room and practical lamp. Wood remains conspicuously warm/glossy on right and worn-grain detail is somewhat busy; no etched ice motif, large clear glass areas.",
+    "issues": [
+      "Whole glass/paper/glove/wrench union x752–1655 is 903 px; portrait and tall-phone cover cannot retain all.",
+      "Tag writable field is ample and physically tied, but original wide group is oversized.",
+      "Warm glossy table highlights and dense worn leather microtexture deserve material review."
+    ]
+  }
+}

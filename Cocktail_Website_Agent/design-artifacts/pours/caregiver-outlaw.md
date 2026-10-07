@@ -3,7 +3,7 @@ pairing: caregiver-outlaw
 personality: The Campaigner
 archetypes: Caregiver × Outlaw (never shown to the guest)
 status: draft
-veto_free: false            # contains: ["dairy", "nuts"]
+veto_free: false            # contains: ["nuts"]
 authored_in: the room, 2026-09-29 (batch caregiver)
 ---
 
@@ -14,7 +14,7 @@ authored_in: the room, 2026-09-29 (batch caregiver)
 - **name:** Not Too Polite
 - **tagline:** Someone had to say it. It's usually you.
 - **glassware:** a tall (Collins) glass, chilled, filled with ice
-- **contains:** `["dairy", "nuts"]`
+- **contains:** `["nuts"]`
 
 **recipe**
 
@@ -22,15 +22,12 @@ authored_in: the room, 2026-09-29 (batch caregiver)
 | --- | --- | --- |
 | 60 ml | London dry gin, 43% or stronger | |
 | 30 ml | fresh lemon juice | |
-| 25 ml | jaggery syrup (homemade) | the swap: an Indian cane sugar, made the old unrefined way, in place of white sugar |
+| 25 ml | jaggery syrup (homemade) | the swap: an Indian cane sugar, made the old unrefined way, in place of white sugar. Some makers clean it with plant extracts, groundnut (peanut) among them, so it's marked nuts to be safe. |
 | 50 ml | soda water, very cold | poured into the glass first |
 | 1 strip | orange peel | |
 
-**Glassware:** tall (Collins) glass, chilled, filled with ice
-**Contains:** dairy, nuts
-
 **method**
-1. Make the syrup ahead. Grate or finely chop 100 g cane jaggery (sold in blocks as gur in Indian grocers), stir it into 100 ml warm water until it dissolves, and let it cool. Keep it in the fridge.
+1. Make the syrup ahead. Grate or finely chop 100 g cane jaggery (sold in blocks as gur in Indian grocers), stir it into 100 ml warm water until it dissolves, and let it cool. Keep it in the fridge and use it within two weeks.
 2. Chill a tall glass and pour the cold soda water into it.
 3. Shake the gin, lemon juice and jaggery syrup with ice for about five seconds, just long enough to chill them.
 4. Strain into the glass on top of the soda (the pour mixes it, so there's no need to stir), then fill the glass with ice.
@@ -78,8 +75,8 @@ You'd do it again tomorrow. Keeping quiet would be the comfortable thing, and yo
 | Structure | *Cocktail Codex* Daiquiri family, Collins subfamily ("a sour served in a tall glass with ice and seltzer", p. 138). Core: London dry gin. Balance: lemon, jaggery syrup. Seasoning: orange oil. It's built on the Codex's Tom Collins (p. 138: 60 ml seltzer, 60 gin, 30 lemon, 22.5 simple; orange half wheel and brandied cherry). **The swap is the sugar.** The other changes follow from it: 25 ml of syrup, because jaggery carries less sugar than white sugar; 50 ml of soda, to keep the strength up; and an orange peel in place of the wheel and cherry. So nothing may say "only one change" (Hester's fence). |
 | Balance | `balance.py`, style `collins`, soda as stage `top`: finished 14.6% abv (range 12.5–15.0), sugar 6.96 g/100 ml (6.0–7.5), acid 0.93% (0.55–0.95). **Balanced**, every figure in range. **Sugar figure sourced:** Hirpara et al. 2020, Table 1 (F19) gives 65–85 g sucrose plus 9–15 g reducing sugars per 100 g of jaggery. Hester's hand calculation for a 1:1 syrup is about 47–57 g/100 ml; the row uses 52. **Sweep** (gin 40/43/47% × jaggery 47/52/58 g × syrup 22.5/25 ml × soda 45/50 ml): at 25 ml and 50 ml it stays balanced throughout, with a sugar edge from about 57 g (7.60 vs 7.5; 7.73 at 58 g), the top of Hester's sourced range; still an edge, never OUT. At 40% gin the strength edges to 12.4 against a 12.5 floor, so the recipe asks for 43% or stronger. **Rejected:** soda 45 ml (OUT on sugar at 58 g); soda 60 ml (OUT on strength); syrup 27.5 ml (OUT on sugar); v3's rum daiquiri (balanced, withdrawn on story). |
 | Pairings | *Flavor Matrix* pdf 240 (Sugar Syrup: cane syrup, molasses…): "deep, roasted notes", "a more flavorful alternative to plain sugar". Its best pairings include grain (the gin's base) and orange (the peel). Oxford pdf 1946 says brown-sugar syrups "pair best with dark spirits". I weighed that and set it aside: it's a preference, and the story here is her one swap, the sugar, not the spirit. Tamarind (a Matrix best pairing) was also set aside, because it would add a second idea. |
-| Allergens | `allergens.py`: **dairy, nuts**, both from the jaggery syrup. Nuts: makers clarify jaggery with chemicals or, for organic jaggery, with plant extracts including **groundnut** and soybean (Hirpara et al. 2020, F20). Groundnut counts as nuts on the safe side. Soy has no veto in the studio's list. Dairy: some traditional makers clarify with milk (my own knowledge, unsourced, and not in F20's list). I've kept it on the safe side until a source rules it out. **No label clears this:** a vegan label still allows groundnut, and each maker picks its own clarifier, so a generic block can't be veto-free on the page (v3's "labelled vegan" route withdrawn; the `jaggery_syrup_labelled` row deleted). The pour is **not veto-free**. The family's AD-4 floor holds: six of the seven sibling specs are veto-free on `allergens.py`. Gin, lemon, soda, orange peel: none. |
-| Makeable | Basic kit: a shaker or a jar, a strainer, a jigger. Generic styles only, no named bottle. Jaggery is sold as gur in Indian grocers and many supermarkets; the syrup is a two-minute stir. The gin needs to be 43% or stronger (many London drys are). |
+| Allergens | `allergens.py`: **nuts**, from the jaggery syrup. Nuts: makers clarify jaggery with chemicals or, for organic jaggery, with plant extracts including **groundnut** and soybean (Hirpara et al. 2020, F20). Groundnut counts as nuts on the safe side. Soy has no veto in the studio's list. Dairy: **ruled out (Tomás 2026-10-06, under Robin's evidence rule, D1).** Milk clarification was my own memory, and F20's list of clarificants has no milk, so nothing on a page names it; `jaggery_syrup` is now `nuts` only, and it goes back to dairy if a page or a label names milk. **No label clears this:** a vegan label still allows groundnut, and each maker picks its own clarifier, so a generic block can't be veto-free on the page (v3's "labelled vegan" route withdrawn; the `jaggery_syrup_labelled` row deleted). The pour is **not veto-free**. The family's AD-4 floor holds: six of the seven sibling specs are veto-free on `allergens.py`. Gin, lemon, soda, orange peel: none. |
+| Makeable | Basic kit: a shaker or a jar, a strainer, a jigger. Generic styles only, no named bottle. Jaggery is sold as gur in Indian grocers and many supermarkets; the syrup is a two-minute stir. The gin needs to be 43% or stronger (many London drys are).<br>**Tomás (2026-10-06, Q101):** the syrup keeps two weeks in the fridge, the *Codex*'s time for its 1:1 simple syrup (p. 45). The recipe note now says why the drink is marked nuts (groundnut among the clarifiers, F20), so the line doesn't read as a mistake on gin, lemon and soda. |
 | Language | Wren's Resonance (v3): ready. Lint on a mock pour of spec v4, draft v4, anchors and reading v3: 0 errors. The only warnings are she/her pronouns, all Heyrick, never the guest (accepted by Wren). History under half (about 150 of 330 words). Sibling echoes moved off: *The Other Kindness*'s "I changed one thing" and its "wondering if you were too hard… anyway" whoYouAre; *Standing By*'s "the crushed sugar is gone"; *Serviceable*'s distance and missing name; closing line off "One small change". ✓ |
 
 ### Fact audit
@@ -137,6 +134,14 @@ You'd do it again tomorrow. Keeping quiet would be the comfortable thing, and yo
 - Spec v4 on disk (collins: gin, lemon, jaggery_syrup, soda top); draft Checks now read "edge from about 57 g (7.60 … 7.73 at 58 g)": **cleared**. Contains `dairy, nuts`: matches F20.
 - Anchors (`historian-anchors.md`) match v3 + v4. The rows the reading dropped are dossier only.
 - **Verdict: pass.** Hester signs this exact version.
+
+
+#### Collection review 2026-10-06 (Hester, open items)
+
+| ID | where | before | after | ruling and source |
+|---|---|---|---|---|
+| CR1 | recipe note, jaggery syrup | (Tomás, 2026-10-06) "Some makers clean it with plant extracts, groundnut among them, so it's marked nuts to be safe." | unchanged | **Pass.** F20 (Hirpara et al. 2020): plant clarificants are used for organic jaggery, and groundnut is in the list. "Some makers" scopes it to them, and "clean" is plain for clarify. **For Tomás (not applied, his recipe):** "groundnut (peanut)", so a guest who knows the allergy by the other name can't miss it. |
+| CR2 | Q101's first wording | "Some makers clean it with milk or with groundnut extract, so it's marked dairy and nuts to be safe." | not applied | **Rejected:** no page names milk (F20), so under STUDIO-RULES check 4 dairy isn't stated. Tomás's clause replaces it. My Open items bullet ("contains: dairy, nuts") was brought into line; the r6 audit lines above stay as the record of that day. |
 
 ### Resonance
 
@@ -201,7 +206,7 @@ Others: *You're braver for other people than for yourself.* · *You make a fuss 
 
 ### Open items
 
-- **Not veto-free:** `contains: dairy, nuts`. Nuts is sourced (groundnut is among the organic clarifiers in Hirpara et al., F20). Dairy is Tomás's unsourced memory of milk clarification, kept on the safe side until a source rules it out. A "vegan" label was tried in v3 and withdrawn, because it doesn't exclude groundnut. Six of the seven Caregiver sibling specs are veto-free, so the family floor holds.
+- **Not veto-free:** `contains: nuts`. Nuts is sourced (groundnut is among the organic clarifiers in Hirpara et al., F20). Dairy was dropped on 2026-10-06 under Robin's evidence rule (Tomás): milk clarification was his unsourced memory, and F20's list has no milk. A "vegan" label was tried in v3 and withdrawn, because it doesn't exclude groundnut. Six of the seven Caregiver sibling specs are veto-free, so the family floor holds.
 - **Sugar edge:** the jaggery syrup's sugar (52 g/100 ml) rests on Hirpara's composition and a volume figure Hester couldn't source. The drink is balanced across the sourced range, with an edge from about 57 g (7.60 vs 7.5). The gin must be 43% or stronger (at 40% the strength edges to 12.4 against 12.5).
 - **Stand-in, not the same:** jaggery is "an Indian sugar, made the old unrefined way", close to what she meant and not the same. Heyrick names only where the sugar comes from, never its kind. Never "slave-free sugar"; never "the sugar she asked for".
 - **Ours, never hers:** her fear is the bartender's "I like to think"; why her name isn't on the title page isn't on record (Fox's isn't either); "she started the boycott" is false (Fox's 1791 came first). "Rounder, a little toasted" is Tomás's tasting note, not a *Matrix* fact.
@@ -209,3 +214,4 @@ Others: *You're braver for other people than for yourself.* · *You make a fuss 
 - **Versions:** v1 daiquiri on Indian dark rum and jaggery (withdrawn by Tomás in round 3: two changes where she asked for one); v2 Tom Collins with jaggery syrup; v3 daiquiri with rich jaggery and a "vegan" label (withdrawn in round 5: the label can't exclude groundnut; Hester's audit also found three errors in its reading); v4 = v2 restored, signed by all three in round 6. The room crossed three times.
 - **Library gap for Robin:** Midgley, *Women Against Slavery* (1992), and the ODNB entry on Heyrick, which would settle V2–V4 on the card.
 - **Ingredient table:** in round 5 Tomás reported deleting the row he'd made for v3's "labelled vegan" jaggery. Worth a check that only that row went.
+- **Resolved (Tomás 2026-10-06, under Robin's D1 evidence rule):** dairy dropped from the shared `jaggery_syrup` row (milk clarification was unsourced; F20 lists no milk). `contains` is now `["nuts"]` (groundnut, F20), so the pour is still not veto-free. The recipe note gives the reason (Q101).

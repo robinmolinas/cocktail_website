@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The People's Representative (ruler-regular-guy)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D1 checked: the file already says the right thing (`nuts` from Bénédictine, which stays nuts); no Peychaud's question is open in its prose. Queue item on Wren's ground and D13 variety rules.
+- **Edits** (before → after, short): whoYouAre ¶1 (Q168): "Two friends each want you…" → "Two neighbours each want you…"; whoYouAre ¶2 (V2, announcement): "Here's what all that is worth: because of you, nobody has to pick a table." → "Because of you, nobody has to pick a table."
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1 (psychologist-persona-card.md)) · [x] story + sourced anchors (Hester r3 (historian-anchors.md, fact card vieux-carre-walter-bergeron)) · [x] drink + four checks (Tomás r3 (mixologist-draft.md, spec; balanced)) · [x] reading (Wren r5 (psychologist-reading-v4.md)) · [x] fact audit (Hester r4–r5 (historian-audit-v1.md, -v2.md)) · [x] resonance test (Wren r4–r5 (reading v2–v4)) · [x] names (≥3 + pick) (One Table (Tomás pick, Wren conceded r4, Hester no objection)) · [x] image brief (Tomás r3 (mixologist-draft.md))
 - **Last change to the pour:** r5 (H1 in y4, v4)

@@ -1,0 +1,302 @@
+{
+  "pairing": "caregiver-explorer",
+  "pour": "Serviceable",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "8861474b31e0473170e39a0a919b2e93cea2134bdbe22467653e7c6700d103b3",
+  "review": {
+    "recipe": "Pale gold clear hopped-scotch soda highball over ordinary wet ice, long lemon peel inside, fine carbonation, no foam.",
+    "personality": "Worn book spine and folded question sheet with used pencil are retained on inner portrait edge; kept bookmarks extend out toward wide view. Repeated searching rather than laboratory symbolism.",
+    "world": "Warm practical lamp, worn walnut room, neutral shadow, physically thread-tied blank cream tag now directly in front of lower vessel.",
+    "issues": []
+  },
+  "measurements": {
+    "pairing": "caregiver-explorer",
+    "pour": "Serviceable",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-explorer/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-b5269bf8-f438-4f3c-a8e6-0a253d2e2109.png",
+    "sourceSha256": "8861474b31e0473170e39a0a919b2e93cea2134bdbe22467653e7c6700d103b3",
+    "wideCrop": [
+      0,
+      0,
+      1670,
+      940
+    ],
+    "portraitCrop": [
+      775,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1004,
+      "cy": 693,
+      "w": 193,
+      "angle": 0.5
+    },
+    "glass": {
+      "x": 986,
+      "y": 467
+    },
+    "bounds": {
+      "glass": {
+        "x0": 858,
+        "y0": 196,
+        "x1": 1115,
+        "y1": 762
+      },
+      "paper": {
+        "x0": 865,
+        "y0": 633,
+        "x1": 1129,
+        "y1": 756
+      }
+    },
+    "review": {
+      "recipe": "Pale gold clear hopped-scotch soda highball over ordinary wet ice, long lemon peel inside, fine carbonation, no foam.",
+      "personality": "Worn book spine and folded question sheet with used pencil are retained on inner portrait edge; kept bookmarks extend out toward wide view. Repeated searching rather than laboratory symbolism.",
+      "world": "Warm practical lamp, worn walnut room, neutral shadow, physically thread-tied blank cream tag now directly in front of lower vessel.",
+      "issues": []
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1154.2994011976048,
+        "cy": 796.2127659574468,
+        "w": 221.89221556886227,
+        "angle": 0.49966757005258566
+      },
+      "glass": {
+        "x": 1133.6047904191616,
+        "y": 536.5531914893618
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 292.2849002849003,
+        "cy": 884.6808510638298,
+        "w": 246.33618233618233,
+        "angle": 0.5000949799787935
+      },
+      "glass": {
+        "x": 269.31054131054134,
+        "y": 596.1702127659574
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-explorer/portrait.jpg",
+    "wide": "/personas/caregiver-explorer/wide.jpg",
+    "wideTag": {
+      "cx": 0.6011976047904192,
+      "cy": 0.7372340425531915,
+      "w": 0.1155688622754491,
+      "angle": 0.49966757005258566
+    },
+    "wideGlass": {
+      "x": 0.5904191616766467,
+      "y": 0.4968085106382979
+    },
+    "tag": {
+      "cx": 0.3262108262108262,
+      "cy": 0.7372340425531915,
+      "w": 0.27492877492877493,
+      "angle": 0.5000949799787935
+    },
+    "glass": {
+      "x": 0.3005698005698006,
+      "y": 0.4968085106382979
+    }
+  },
+  "hashes": {
+    "master": "a0d2d64188ad661175d9f1e0510cfa668d3f6be3865b375b83375be62c3c98ac",
+    "wide": "963b7675018d23a4b29921090e2d190e2c2d3936e620f29e5e3f222ceb0e38e5",
+    "portrait": "1afd6bfd0bb0b397a17b02263894ebe136ae0ceff5633b609fd4251df1a145b4"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 986.4431137724551,
+          "y0": 225.1914893617021,
+          "x1": 1281.9161676646706,
+          "y1": 875.4893617021277
+        },
+        "paper": {
+          "x0": 994.491017964072,
+          "y0": 727.2765957446809,
+          "x1": 1298.0119760479042,
+          "y1": 868.5957446808511
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 742.0359281437127,
+          "y0": 187.6595744680851,
+          "x1": 988.2634730538921,
+          "y1": 729.5744680851063
+        },
+        "paper": {
+          "x0": 748.7425149700599,
+          "y0": 606.063829787234,
+          "x1": 1001.6766467065868,
+          "y1": 723.8297872340426
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1052.2059880239522,
+          "y0": 186.84425531914894,
+          "x1": 1367.377245508982,
+          "y1": 880.4953191489361
+        },
+        "paper": {
+          "x0": 1060.7904191616767,
+          "y0": 722.4017021276595,
+          "x1": 1384.5461077844311,
+          "y1": 873.1421276595745
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1767.3772455089822,
+          "y0": 175.76808510638293,
+          "x1": 2296.7664670658683,
+          "y1": 1340.8851063829786
+        },
+        "paper": {
+          "x0": 1781.7964071856288,
+          "y0": 1075.337234042553,
+          "x1": 2325.6047904191614,
+          "y1": 1328.5340425531915
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3005698005698006,
+        "y": 0.4968085106382979
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2.3163912630579233,
+          "y0": 175.98297872340424,
+          "x1": 233.025754985755,
+          "y1": 684.1787234042554
+        },
+        "paper": {
+          "x0": 8.600303893637204,
+          "y0": 568.3531914893617,
+          "x1": 245.59358024691358,
+          "y1": 678.7914893617021
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3005698005698006,
+        "y": 0.4968085106382979
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2.3584805318138677,
+          "y0": 194.33191489361704,
+          "x1": 257.12284900284897,
+          "y1": 755.5148936170212
+        },
+        "paper": {
+          "x0": 9.297587844254508,
+          "y0": 627.6127659574468,
+          "x1": 271.00106362773033,
+          "y1": 749.5659574468085
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3005698005698006,
+        "y": 0.4968085106382979
+      },
+      "bounds": {
+        "glass": {
+          "x0": 18.85234567901234,
+          "y0": 118.43404255319149,
+          "x1": 174.11646723646723,
+          "y1": 460.44255319148937
+        },
+        "paper": {
+          "x0": 23.08132953466286,
+          "y0": 382.4936170212766,
+          "x1": 182.57443494776828,
+          "y1": 456.81702127659577
+        }
+      }
+    }
+  ]
+}

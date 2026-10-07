@@ -9,6 +9,9 @@ mode: batch            # pour | batch | rework
 
 # The room: The Alternative Comic (jester-explorer)
 
+## Collection review edits, 2026-10-06 (Tomás)
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex Ideal Old-Fashioned modelled on its cube as `built` (35.0% / 5.45 g): ours softer and sweeter, inside Arnold's band. Nothing else changed.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) · [x] image brief
 - **Last change to the pour:** r6

@@ -46,6 +46,30 @@ LIBRARY = os.environ.get("DPS_LIBRARY_FOLDER") or _CFG.get("dps_library_folder")
 STUDIO = os.path.join(POURS, "_studio")
 
 
+class studio_lock:
+    """Exclusive lock for shared studio files (ingredients.json, index.md, registry.md). Several family
+    conversations run at once (Robin 2026-09-30), so every read-modify-write of a shared file goes inside this."""
+
+    def __enter__(self):
+        import fcntl
+        os.makedirs(STUDIO, exist_ok=True)
+        self._f = open(os.path.join(STUDIO, ".lock"), "w")
+        fcntl.flock(self._f, fcntl.LOCK_EX)
+        return self
+
+    def __exit__(self, *exc):
+        import fcntl
+        fcntl.flock(self._f, fcntl.LOCK_UN)
+        self._f.close()
+
+
+def write_atomic(path, text):
+    tmp = path + ".tmp%d" % os.getpid()
+    with open(tmp, "w", encoding="utf-8") as f:
+        f.write(text)
+    os.replace(tmp, path)
+
+
 def load_json(name):
     with open(os.path.join(DATA, name), encoding="utf-8") as f:
         return json.load(f)

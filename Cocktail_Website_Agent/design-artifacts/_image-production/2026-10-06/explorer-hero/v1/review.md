@@ -1,0 +1,1 @@
+Master recipe and house world pass. Not accepted: the unbuckled watch is too far right for the narrow-phone cover. Recompose compact hero and traces. Exports pending action-specific approval; no companion crop inspected.

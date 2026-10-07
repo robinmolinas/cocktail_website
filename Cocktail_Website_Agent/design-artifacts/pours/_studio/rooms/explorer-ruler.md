@@ -1,13 +1,19 @@
 ---
 pairing: explorer-ruler
 personality: The Expedition Leader
-status: flagged          # open | closed | deadlock | flagged
+status: closed            # flag resolved by Robin 2026-10-06 (collection review); open | closed | deadlock | flagged
 round: 6               # budget: 5 (pour, Robin 2026-10-01) · 5 (rework)
 started: 2026-10-01
 mode: batch            # pour | batch | rework
 ---
 
 # The room: The Expedition Leader (explorer-ruler)
+
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D10 ("accept": the round-6 sign-offs stand; status flagged → draft, flag line → `accepted:`; Open items gets a Resolved bullet); D13 (variety rules).
+- **Edits** (before → after, short): frontmatter: `status: flagged` + `flag: over the round budget…` → `status: draft` + `accepted: Robin accepted the round-6 sign-offs (2026-10-06, D10); reason in Open items`. whoYouAre ¶2 (D13 V1, the fear said straight; this was one of the four strict frames in the Ruler column): "The cold doesn't frighten you, and neither does the dark. What does is being stuck somewhere you led people…" → "The fear is getting stranded somewhere you led people…" (two smoother wordings tripped the lint's motif check against explorer-sage, lover-outlaw and outlaw-magician). whoYouAre ¶2 (D13 V2, no rarity grade): "That trust is rare, and you earn it every time you turn." → "You earn that trust every time you turn." Open items: new first bullet "**Resolved (Robin 2026-10-06, D10):** the round-budget flag…".
+- **Left for Robin:** Q052 y1 compression (Hester to verify the compressed sequence and the anchors); Q053 tagline (D11); Q109 halving the plum syrup (a recipe-amount change; Tomás to confirm the yield).
+- **Tomás (Codex pass / open items, 2):** Checks › Pairings: the sentence citing `apricot_steeped_rye`'s "packed alongside nuts" reasoning now says that call is withdrawn under D1 (the row is none), and the fresh plum stays because the drink is built and proven on it. No recipe, guest text or `contains` change (`[]`). Lint 0 errors.
 
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Far Enough (all three)) · [x] image brief

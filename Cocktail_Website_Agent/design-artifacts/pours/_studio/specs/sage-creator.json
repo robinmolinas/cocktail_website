@@ -1,0 +1,30 @@
+{
+ "pairing": "sage-creator",
+ "family": "old-fashioned",
+ "subfamily": "whiskey Old-Fashioned served up (no ice), after the Codex root recipe (p. 5); made the night before by Arnold's freezer method (LI p. 152)",
+ "style": "freeform",
+ "glass": "small coupe, chilled, no ice",
+ "serves": 1,
+ "version": "v1 (Tomás, round 2). Codex Ideal Old-Fashioned (p. 5: bourbon, a teaspoon of Demerara Gum Syrup, Angostura, twists) with one change in the sugar and one in the method. Sugar: a plain 1:1 demerara syrup (the Codex's is a 2:1 Demerara Gum Syrup, pp. 5, 12; ours differs) steeped with home-popped plain popcorn, so the corn that is bourbon's legal majority (Oxford CORN pdf 583 / MASH BILL pdf 1255: at least 51 percent) runs through the sweetener too; Matrix Corn chart (pdf 89, printed 79, rendered) carries bourbon whiskey and popcorn close together, in its toasted and roasted segment, and Caramel's (pdf 73, printed 63, rendered) carries both too. Method: LI p. 152, stirred drinks made ahead: bourbon, syrup and bitters kept in the freezer overnight, the water measured in as ice-cold water at the last minute, no ice in the stir. 30 ml water = the stirred style's own dilution for this mix (balance.py stirred: 45%, 31 ml). Judged by hand against the stirred finished ranges. Kentucky straight bourbon as a style we pick (bourbon needn't be Kentucky's, pdf 2138), 40-50% (40-45% with 30 ml water, 46-50% with 40 ml); no brand: the page names no distillery. Peel: orange or lemon, the guest's pick (no numbers).",
+ "ingredients": [
+  {
+   "key": "bourbon",
+   "ml": 60
+  },
+  {
+   "key": "popcorn_demerara_syrup",
+   "ml": 7.5
+  },
+  {
+   "key": "angostura",
+   "dashes": 2
+  },
+  {
+   "key": "ice_water",
+   "ml": 30
+  }
+ ],
+ "garnish": [
+  "orange_peel"
+ ]
+}

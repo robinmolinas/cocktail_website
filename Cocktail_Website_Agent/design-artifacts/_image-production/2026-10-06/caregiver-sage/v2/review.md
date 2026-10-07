@@ -1,0 +1,5 @@
+Master and approved central exports reviewed. Exact wide1920×1080 and portrait896×1200 JPEGs both inspected at full original size. Whole glass and blank tied physical tag survive; vessel, transparent liquid, garnish/ice state match settled recipe. Worn-timber world and coherent personal traces retained. Helper metadata reports all seven actual current cover checks intact; hashes and normalized runtime candidate retained.
+
+Status: paired production review complete. Browser/name-overlay validation belongs to root integration checkpoint. No export or integration executed by this agent; no recipe/editorial-status change.
+
+At390×844 current cover exposes approximately master x875–1309. Open rubbed spectacles case retains its near side/lid, left lens, bridge and part of right lens; eyewear remains recognizable. Peripheral blank slips and pencil are trimmed away. Full portrait retains substantially more eyewear but already trims paper/pencil. At430×932 same limitation,320×568 wider. Root real-page phone check should confirm adequate cue strength before final collection release.

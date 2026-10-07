@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>H5 prototype — what draws you / what others come to you for</title>
+<!-- Prototype for review (2026-10-06). Not production. Two concepts for the
+     same two answers (drawnToward, soughtFor; up to three each, reversible,
+     no order, no intensity — agreed with the matching owner):
+       ?concept=a  The figure: one continuous-line figure (the Dionysus mark)
+                   at the centre. Round 1, a choice sends light OUT from her to
+                   the word. Round 2, a choice brings light IN from the word to her.
+       ?concept=b  Two plain rounds: today's sphere cluster, with the change of
+                   direction made explicit in words and one turning beat.
+     ?seed=%23c8102e sets her colour. Words are today's RES_QUESTIONS. -->
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair:ital,opsz,wght@0,5..1200,300..700;1,5..1200,300..700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-text: 'Playfair', 'Playfair Display', Georgia, serif;
+  --font-label: 'Jost', 'Futura', system-ui, sans-serif;
+  --legible: 0 1px 2px rgba(22, 11, 4, 0.26);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --sphere-rim: rgba(255, 235, 200, 0.22);
+  --sphere-fill: radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 42%, rgba(255, 235, 200, 0.07) 100%);
+  --sphere-shadow: inset 0 1px 13px rgba(255, 235, 200, 0.1), 0 0 22px -8px rgba(255, 176, 136, 0.25);
+  --sphere-hover-rim: rgba(255, 176, 136, 0.6);
+  --sphere-hover-shadow: inset 0 1px 16px rgba(255, 235, 200, 0.15), 0 0 34px -6px rgba(255, 176, 136, 0.45);
+  --veil-pill-border: rgba(255, 255, 255, 0.16);
+  --veil-pill-bg: rgba(255, 255, 255, 0.03);
+  --c: #e8702a;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: #060505; overflow: hidden; }
+body { color: #fbf4e8; -webkit-tap-highlight-color: transparent; }
+/* the resonance hold, with the app's nightfall veil over it */
+.world { position: fixed; inset: 0; background: url('hold-8_2.jpg') center / cover no-repeat; }
+.world::after { content: ''; position: absolute; inset: 0; background: radial-gradient(120% 90% at 50% 50%, rgba(4, 4, 10, 0.35), rgba(4, 4, 10, 0.72)); }
+.mark { position: fixed; top: clamp(18px, 3.2vh, 30px); left: clamp(20px, 6.5vw, 104px); font-family: var(--font-display); font-style: italic; font-size: 20px; z-index: 5; }
+
+@keyframes heroFadeUp { 0% { opacity: 0; transform: translateY(20px); } 100% { opacity: 1; transform: none; } }
+@keyframes holdOut { to { opacity: 0; filter: blur(5px); transform: translateY(-8px); } }
+@keyframes nextIn { from { opacity: 0; transform: translateY(10px); filter: blur(4px); } to { opacity: 1; transform: none; filter: none; } }
+@keyframes sphereIn { from { opacity: 0; transform: scale(0.86) translateY(12px); filter: blur(5px); } to { opacity: 1; transform: none; filter: blur(0); } }
+@keyframes lensDriftA { from { transform: translate(0, 0); } to { transform: translate(3px, -7px); } }
+@keyframes lensDriftB { from { transform: translate(0, 0); } to { transform: translate(-4px, 6px); } }
+
+.hold-head { position: absolute; left: 50%; top: 11%; width: min(640px, 88vw); transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 0.6rem; text-align: center; pointer-events: none; z-index: 4; }
+.hold-head.is-leaving { animation: holdOut 0.6s ease forwards; }
+.hold-kicker { margin: 0; font-family: var(--font-label); font-size: 11px; letter-spacing: 0.26em; text-transform: uppercase; color: rgba(245, 234, 216, 0.74); animation: heroFadeUp 0.8s ease both; }
+.hold-q { margin: 0; font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: clamp(1.4rem, 3vmin, 1.85rem); line-height: 1.25; text-shadow: var(--legible); text-wrap: balance; animation: heroFadeUp 0.8s ease both; }
+.hold-hint { margin: 0; font-family: var(--font-text); font-size: clamp(15px, 1.9vmin, 17px); line-height: 1.5; color: rgba(245, 234, 216, 0.86); text-shadow: var(--legible); text-wrap: balance; animation: heroFadeUp 1s ease 0.45s both; }
+
+.hold-next { position: absolute; left: 0; right: 0; bottom: 9%; margin: 0 auto; width: fit-content; min-height: 44px; font-family: var(--font-label); font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(245, 234, 216, 0.84); border: 1px solid var(--veil-pill-border); border-radius: 999px; padding: 0.66rem 1.95rem 0.66rem 2.1rem; background: var(--veil-pill-bg); backdrop-filter: blur(4px); cursor: pointer; opacity: 0; pointer-events: none; z-index: 4; transition: border-color 0.4s, color 0.4s; }
+.hold-next.is-ready { pointer-events: auto; animation: nextIn 0.7s var(--ease) both; }
+.hold-next.is-full { color: #fffaf0; border-color: color-mix(in srgb, var(--c) 55%, rgba(255, 246, 228, 0.25)); }
+
+/* the glass sphere — from the app */
+.sphere-btn { border: none; background: none; padding: 6px; cursor: pointer; opacity: 0; animation: sphereIn 0.9s var(--ease) var(--d, 0ms) both; }
+.sphere { position: relative; display: flex; align-items: center; justify-content: center; width: var(--sphere-size, clamp(104px, 14vmin, 132px)); aspect-ratio: 1; border-radius: 50%; padding: 0 12px; text-align: center; border: 1px solid var(--sphere-rim); background: var(--sphere-fill); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); box-shadow: var(--sphere-shadow); transition: transform 0.35s var(--ease), border-color 0.35s, background 0.35s, box-shadow 0.35s; }
+@media (hover: hover) { .sphere-btn:hover .sphere { border-color: var(--sphere-hover-rim); box-shadow: var(--sphere-hover-shadow); transform: scale(1.06); } }
+.sphere-word { color: #fbf4e8; font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: var(--sphere-word, clamp(15px, 1.95vmin, 18px)); line-height: 1.22; text-shadow: var(--legible); text-wrap: balance; }
+.sphere-btn.is-lit .sphere { border-color: color-mix(in srgb, var(--c) 70%, white); background: radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.08) 38%, color-mix(in srgb, var(--c) 24%, transparent) 100%); box-shadow: inset 0 1px 16px rgba(255, 235, 200, 0.16), 0 0 32px -6px var(--c); transform: scale(1.1); }
+.sphere-btn.is-dim { opacity: 0.42; filter: saturate(0.55); transition: opacity 0.5s, filter 0.5s; }
+@keyframes sphereRefuse { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-4px); } 60% { transform: translateX(3px); } }
+.sphere-btn.is-refused .sphere { animation: sphereRefuse 0.42s ease; }
+.drift { animation: lensDriftA 6.2s ease-in-out infinite alternate; }
+.drift:nth-child(even) { animation-name: lensDriftB; animation-duration: 6.9s; }
+.drift:nth-child(3n) { animation-duration: 7.4s; animation-delay: -2s; }
+
+/* ---------- B · the cluster (today's layout) ---------- */
+.cluster { position: absolute; left: 50%; top: 54%; transform: translate(-50%, -50%); display: grid; grid-template-columns: repeat(3, auto); gap: 0.6rem 1.35rem; justify-items: center; z-index: 3; }
+.cluster .drift:nth-child(3n+2) { margin-top: -12px; }
+.turn { position: absolute; left: 0; right: 0; top: 46%; text-align: center; font-family: var(--font-display); font-style: italic; font-size: clamp(1.6rem, 4vmin, 2.4rem); text-shadow: var(--legible); animation: turnBeat 1.9s var(--ease) both; z-index: 4; }
+@keyframes turnBeat { 0% { opacity: 0; filter: blur(8px); transform: translateY(14px); } 30%, 70% { opacity: 1; filter: none; transform: none; } 100% { opacity: 0; filter: blur(6px); transform: translateY(-16px); } }
+
+/* ---------- A · the figure ---------- */
+.ring { position: absolute; inset: 0; z-index: 3; }
+.ring .slot { position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -50%); }
+.figure { position: absolute; left: 50%; top: 55%; width: clamp(110px, 16vmin, 150px); aspect-ratio: 1; transform: translate(-50%, -50%); z-index: 2; pointer-events: none; }
+.figure svg { width: 100%; height: 100%; overflow: visible; }
+.figure path { fill: none; stroke: rgba(251, 244, 232, 0.86); stroke-width: 0.55; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 80; stroke-dashoffset: 80; animation: draw 2.2s var(--ease) 0.3s forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.figure .spirit { fill: var(--c); opacity: calc(0.25 + var(--warm, 0) * 0.25); filter: drop-shadow(0 0 calc(2px + var(--warm, 0) * 3px) var(--c)); transition: opacity 0.8s ease, filter 0.8s ease; }
+.figure .halo { fill: none; stroke: var(--c); stroke-width: 0.25; opacity: calc(var(--warm, 0) * 0.22); transition: opacity 0.8s ease; }
+.threads { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; pointer-events: none; overflow: visible; }
+.thread { fill: none; stroke: color-mix(in srgb, var(--c) 75%, white); stroke-width: 1; stroke-linecap: round; opacity: 0.55; }
+.thread.out { stroke-dasharray: 2 7; animation: flowOut 1.6s linear infinite; }
+.thread.in { stroke-dasharray: 2 7; animation: flowIn 1.6s linear infinite; }
+@keyframes flowOut { to { stroke-dashoffset: -18; } }
+@keyframes flowIn { to { stroke-dashoffset: 18; } }
+.thread.draw { stroke-dasharray: var(--len); stroke-dashoffset: var(--len); animation: threadDraw 0.75s var(--ease) forwards; }
+@keyframes threadDraw { to { stroke-dashoffset: 0; } }
+.mote { fill: #fffaf0; filter: drop-shadow(0 0 4px var(--c)); }
+.past { position: absolute; left: 50%; top: calc(55% + clamp(78px, 11vmin, 104px)); transform: translateX(-50%); font-family: var(--font-label); font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(245, 234, 216, 0.6); width: min(86vw, 300px); text-align: center; line-height: 1.7; z-index: 2; animation: heroFadeUp 0.8s ease both; }
+
+.review { position: fixed; left: 10px; bottom: 10px; z-index: 9; font: 11px ui-monospace, Menlo, monospace; display: flex; gap: 4px; flex-wrap: wrap; }
+.review a, .review button { font: inherit; color: #fff; text-decoration: none; background: rgba(0, 0, 0, 0.6); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 4px; padding: 4px 7px; cursor: pointer; }
+.review .on { border-color: var(--c); }
+.out-log { position: fixed; right: 10px; bottom: 10px; z-index: 9; font: 11px/1.4 ui-monospace, Menlo, monospace; background: rgba(0, 0, 0, 0.6); padding: 6px 9px; border-radius: 6px; pointer-events: none; white-space: pre; }
+
+@media (max-width: 640px) {
+  .cluster { gap: 0.2rem 0.4rem; top: 56%; }
+  .sphere { --sphere-size: clamp(98px, 28vw, 116px); padding: 0 8px; }
+  .sphere-word { --sphere-word: 15px; }
+  .figure { top: 27%; width: 92px; }
+  .past { top: calc(27% + 50px); font-size: 9px; }
+  .hold-head { top: 9%; }
+  .hold-next { bottom: 6%; }
+  .out-log { bottom: 40px; font-size: 9px; }
+}
+</style>
+</head>
+<body>
+<div class="world" aria-hidden="true"></div>
+<div class="mark">Dionysus</div>
+<main id="stage"></main>
+<div class="out-log" id="log"></div>
+<div class="review"><a href="?concept=a" id="ca">A · the figure</a><a href="?concept=b" id="cb">B · two rounds</a><button id="restart">restart</button></div>
+<script>
+const q = new URLSearchParams(location.search);
+const concept = q.get('concept') === 'b' ? 'b' : 'a';
+document.getElementById(concept === 'a' ? 'ca' : 'cb').classList.add('on');
+if (q.get('seed')) document.documentElement.style.setProperty('--c', q.get('seed'));
+document.getElementById('restart').onclick = () => location.reload();
+
+const ROUNDS = [
+  { key: 'drawnToward', kicker: 'One of two · Outward', q: 'What draws you right now?', hint: 'Choose up to three.',
+    words: ['Freedom', 'Beauty', 'Mastery', 'Peace', 'Belonging', 'Pleasure', 'Wonder', 'Change', 'Mischief'] },
+  { key: 'soughtFor', kicker: 'Two of two · Inward', q: 'What do people come to you for?', hint: 'Now the other way round. Choose up to three.',
+    words: ['Advice', 'Comfort', 'Honesty', 'Courage', 'Ideas', 'Calm', 'Taste', 'A reality check', 'A little chaos'] },
+];
+const MAX = 3;
+// Stored in vocabulary order: nothing about order or distance is captured.
+const answers = { drawnToward: [], soughtFor: [] };
+const stage = document.getElementById('stage');
+const logEl = document.getElementById('log');
+const log = () => { logEl.textContent = `drawnToward: ${answers.drawnToward.join(', ') || '—'}\nsoughtFor:   ${answers.soughtFor.join(', ') || '—'}`; };
+const SPIRIT_PATH = 'M 7.2 20.4 C 8.4 20.4 11.28 19.68 11.28 16.8 L 11.28 13.44 C 7.2 13.44 2.88 11.52 2.88 7.2 C 2.88 6.48 3.36 6 4.32 6 L 19.68 6 C 20.64 6 21.12 6.48 21.12 7.2 C 21.12 11.52 16.8 13.44 12.72 13.44 L 12.72 16.8 C 12.72 19.68 15.6 20.4 16.8 20.4';
+const isPhone = () => innerWidth <= 640;
+
+function head(r) {
+  return `<div class="hold-head"><p class="hold-kicker">${r.kicker}</p><h2 class="hold-q">${r.q}</h2><p class="hold-hint" id="hint">${r.hint}</p></div>`;
+}
+function sphere(word, i) {
+  return `<button class="sphere-btn" aria-pressed="false" data-i="${i}" style="--d:${380 + i * 95}ms"><span class="sphere"><span class="sphere-word">${word}</span></span></button>`;
+}
+function setHint(r, n) {
+  document.getElementById('hint').textContent = n === 0 ? r.hint : `${n} of ${MAX} chosen. Select one again to change your mind.`;
+  const next = document.getElementById('next');
+  next.classList.toggle('is-ready', n > 0); next.classList.toggle('is-full', n >= MAX);
+}
+function toggle(r, ri, btn, onChange) {
+  const list = answers[r.key], word = r.words[+btn.dataset.i];
+  if (list.includes(word)) { list.splice(list.indexOf(word), 1); }
+  else if (list.length >= MAX) { btn.classList.add('is-refused'); setTimeout(() => btn.classList.remove('is-refused'), 430); return; }
+  else list.push(word);
+  list.sort((a, b) => r.words.indexOf(a) - r.words.indexOf(b));
+  stage.querySelectorAll('.sphere-btn').forEach((b) => {
+    const lit = list.includes(r.words[+b.dataset.i]);
+    b.classList.toggle('is-lit', lit); b.setAttribute('aria-pressed', lit);
+    b.classList.toggle('is-dim', !lit && list.length >= MAX);
+  });
+  setHint(r, list.length); log(); onChange?.(word, list.includes(word));
+}
+
+/* ---------------- B · two plain rounds ---------------- */
+function roundB(ri) {
+  const r = ROUNDS[ri];
+  stage.innerHTML = head(r) + `<div class="cluster">${r.words.map((w, i) => `<div class="drift">${sphere(w, i)}</div>`).join('')}</div>`
+    + `<button class="hold-next" id="next">Continue</button>`;
+  stage.querySelectorAll('.sphere-btn').forEach((b) => b.onclick = () => toggle(r, ri, b));
+  setHint(r, 0);
+  document.getElementById('next').onclick = () => {
+    stage.querySelector('.hold-head').classList.add('is-leaving');
+    stage.querySelectorAll('.sphere-btn').forEach((b) => { b.style.transition = 'opacity .6s, filter .6s'; b.style.opacity = 0; b.style.filter = 'blur(5px)'; });
+    if (ri === 0) setTimeout(() => { stage.innerHTML = `<p class="turn">Now turn it around.</p>`; setTimeout(() => roundB(1), 1800); }, 650);
+    else setTimeout(end, 700);
+  };
+}
+
+/* ---------------- A · the figure ---------------- */
+// Nine slots on an ellipse around the figure (desktop) or a 3×3 field
+// under it (phone). Lines are drawn between real DOM centres either way.
+function slotsFor(n) {
+  if (isPhone()) return Array.from({ length: n }, (_, i) => ({ x: 20 + (i % 3) * 30, y: 52 + Math.floor(i / 3) * 14.5 + (i % 3 === 1 ? -2.5 : 0) }));
+  return Array.from({ length: n }, (_, i) => { const a = -Math.PI / 2 + (i / n) * Math.PI * 2 + 0.17; return { x: 50 + Math.cos(a) * 30, y: 55 + Math.sin(a) * 27 }; });
+}
+let figureWarm = 0;
+function roundA(ri) {
+  const r = ROUNDS[ri];
+  const slots = slotsFor(r.words.length);
+  const chosenBefore = ri === 1 ? answers.drawnToward : [];
+  stage.innerHTML = head(r)
+    + `<div class="figure" id="fig" style="--warm:${figureWarm}"><svg viewBox="0 0 24 24"><circle class="halo" cx="12" cy="9.6" r="5"/><path d="${SPIRIT_PATH}"/><circle class="spirit" cx="12" cy="9.6" r="0.8"/></svg></div>`
+    + (chosenBefore.length ? `<p class="past">drawn toward ${chosenBefore.map((w) => w.toLowerCase()).join(' · ')}</p>` : '')
+    + `<svg class="threads" id="threads"></svg>`
+    + `<div class="ring">${r.words.map((w, i) => `<div class="slot" style="--x:${slots[i].x}%;--y:${slots[i].y}%"><div class="drift">${sphere(w, i)}</div></div>`).join('')}</div>`
+    + `<button class="hold-next" id="next">Continue</button>`;
+  const threads = document.getElementById('threads');
+  const fig = document.getElementById('fig');
+  const centre = (el) => { const b = el.getBoundingClientRect(); return { x: b.left + b.width / 2, y: b.top + b.height / 2, r: b.width / 2 }; };
+  const figPoint = () => { const b = fig.getBoundingClientRect(); return { x: b.left + b.width * 0.5, y: b.top + b.height * 0.4, r: b.width * 0.22 }; };
+  const lines = new Map();
+  const draw = (btn, word) => {
+    const s = centre(btn.querySelector('.sphere')), f = figPoint();
+    const dx = s.x - f.x, dy = s.y - f.y, d = Math.hypot(dx, dy);
+    // stop at the rims so the line joins glass to figure, never crosses either
+    const a = { x: f.x + dx / d * f.r, y: f.y + dy / d * f.r }, b = { x: s.x - dx / d * (s.r + 4), y: s.y - dy / d * (s.r + 4) };
+    const [from, to] = ri === 0 ? [a, b] : [b, a];   // the direction IS the round
+    const len = Math.hypot(to.x - from.x, to.y - from.y);
+    const ns = 'http://www.w3.org/2000/svg';
+    const g = document.createElementNS(ns, 'g');
+    const p = document.createElementNS(ns, 'path');
+    p.setAttribute('d', `M ${from.x} ${from.y} L ${to.x} ${to.y}`);
+    p.setAttribute('class', 'thread draw'); p.style.setProperty('--len', len);
+    const m = document.createElementNS(ns, 'circle'); m.setAttribute('r', 2.6); m.setAttribute('class', 'mote');
+    m.innerHTML = `<animateMotion dur="0.75s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" path="M ${from.x} ${from.y} L ${to.x} ${to.y}"/>`;
+    g.append(p, m); threads.append(g);
+    setTimeout(() => { p.setAttribute('class', `thread ${ri === 0 ? 'out' : 'in'}`); m.remove(); }, 800);
+    // phone: the field is a grid under the figure, so a standing thread would
+    // cut across neighbouring spheres — the light travels, then lets go
+    if (isPhone()) setTimeout(() => { g.style.transition = 'opacity .7s'; g.style.opacity = 0; }, 1100);
+    if (ri === 1) setTimeout(() => { figureWarm = Math.min(1, figureWarm + 0.34); fig.style.setProperty('--warm', figureWarm); }, 700);
+    lines.set(word, g);
+  };
+  stage.querySelectorAll('.sphere-btn').forEach((btn) => btn.onclick = () => toggle(r, ri, btn, (word, on) => {
+    if (on) draw(btn, word);
+    else { const g = lines.get(word); if (g) { g.style.transition = 'opacity .5s'; g.style.opacity = 0; setTimeout(() => g.remove(), 500); lines.delete(word); }
+      if (ri === 1) { figureWarm = Math.max(0, figureWarm - 0.34); fig.style.setProperty('--warm', figureWarm); } }
+  }));
+  setHint(r, 0);
+  document.getElementById('next').onclick = () => {
+    stage.querySelector('.hold-head').classList.add('is-leaving');
+    stage.querySelectorAll('.sphere-btn:not(.is-lit)').forEach((b) => { b.style.transition = 'opacity .6s, filter .6s'; b.style.opacity = 0; b.style.filter = 'blur(5px)'; });
+    threads.style.transition = 'opacity .9s'; threads.style.opacity = 0;
+    setTimeout(() => stage.querySelectorAll('.sphere-btn.is-lit').forEach((b) => { b.style.transition = 'opacity .7s, filter .7s, transform .9s'; b.style.opacity = 0; b.style.transform = 'translateY(-40px) scale(1.06)'; b.style.filter = 'blur(4px)'; }), 350);
+    if (ri === 0) setTimeout(() => roundA(1), 1500); else setTimeout(end, 1300);
+  };
+}
+
+function end() {
+  stage.innerHTML = `<div class="hold-head"><h2 class="hold-q">Both directions are held.</h2><p class="hold-hint">(prototype ends — the camera would rise to H6)</p></div>`;
+}
+log();
+concept === 'a' ? roundA(0) : roundB(0);
+</script>
+</body>
+</html>

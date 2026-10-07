@@ -1,0 +1,87 @@
+{
+  "pairing": "magician-explorer",
+  "pour": "One More Adjustment",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-explorer/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-6d530082-64d7-439d-8a0e-fc3506f01fd5.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "c4738116a08e3c86fba9dc4c1b6884298e4bfa45f2dd75836aa40c463fd85f34",
+  "specSha256": "f171ba936d57ac7df4a7c386da9e9d472e802c1dcd80e069195894341be1729d",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    735,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1295,
+    "cy": 449,
+    "w": 193,
+    "angle": 12.3
+  },
+  "glass": {
+    "x": 1058,
+    "y": 327
+  },
+  "bounds": {
+    "glass": {
+      "x0": 924,
+      "y0": 232,
+      "x1": 1193,
+      "y1": 627
+    },
+    "paper": {
+      "x0": 1158,
+      "y0": 372,
+      "x1": 1422,
+      "y1": 513
+    }
+  },
+  "personalityBounds": {
+    "handPlane": {
+      "x0": 768,
+      "y0": 376,
+      "x1": 1023,
+      "y1": 588
+    },
+    "sandingBlock": {
+      "x0": 1080,
+      "y0": 484,
+      "x1": 1337,
+      "y1": 586
+    }
+  },
+  "recognitionRegions": {
+    "handPlane": {
+      "x0": 768,
+      "y0": 376,
+      "x1": 1023,
+      "y1": 588
+    },
+    "sandingBlock": {
+      "x0": 1080,
+      "y0": 484,
+      "x1": 1337,
+      "y1": 586
+    }
+  },
+  "review": {
+    "recipe": "Settled chilled coupe, clear pale-straw still cocktail, single pale yellow lemon strip dropped inside; no serving ice or foam. Bowl chill haze is source-brief compatible but speckle is a visual risk.",
+    "personality": "Two ordinary full-size shelf-adjustment tools inferred from explicit whoYouAre shelf: hand plane and sanding block. Both recognisable. No notebook/alchemy/copper props.",
+    "world": "Historic private wood room, neutral dark left. Table mostly flat but broad warm glossy highlights remain; no etched glass.",
+    "issues": [
+      "Glass height 395px exceeds target; complete recognisable union 654px is too wide for moving phone.",
+      "Fine chill haze/speckle can read as bubbles; inspect liquid clarity.",
+      "Warm glossy table highlights and over-worn plane compete with low-satin material direction."
+    ]
+  },
+  "status": "measured-master-candidate; held; not-accepted; browser-deferred"
+}

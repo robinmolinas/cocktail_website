@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Free Spirit (innocent-explorer)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** none needed.
+- **Edits** (before → after, short): yours 2 (Q117): "so it must live on something else too" → "so it's thought to live on something else too" · method 1 (Q118): "and it keeps" → "and it lasts"
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Baudoinia (fact-cards/baudoinia-compniacensis.md, historian-anchors.md)) · [x] drink + four checks (cognac + Pineau + peppercorn steep, in range; contains spice) · [x] reading (v1) · [x] fact audit (v1: H1–H10 open) · [x] resonance test (v2 ready) · [x] names (≥3 + pick) (The First Guess (all three)) · [x] image brief
 - **Last change to the pour:** r6 (reading v3; draft v2.2 dossier)

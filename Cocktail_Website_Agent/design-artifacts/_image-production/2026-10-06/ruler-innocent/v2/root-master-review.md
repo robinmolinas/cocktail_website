@@ -1,0 +1,3 @@
+# Root receipt — Say So
+
+Root generated and inspected original v1/v2 full-size PNGs. Measured v2 is a HELD candidate, not accepted. Glass420px, full/conservative scene784px and blank writing axis116px miss framing/name targets.702px portrait retains glass/tag/record but clips right napkin. Source-grounded habit evidence visible, plausible but inferential; record and folded napkin need tighter depth composition. Pale-gold V-shaped lemon Martini remains speckled; amber glossy walnut and glass polish held. Single correction exhausted. See review.md and measurements.json. Browser and exports deferred/pending, live site unchanged.

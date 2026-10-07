@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Caring Leader (ruler-caregiver)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue items (routine + Wren's ground) and D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): yours 4 (Q144): "can wait a couple of minutes" → "can wait a minute or two on its ice" (matches the method); whoYouAre ¶1 (Q163): "Two friends going quiet in the wrong way." → "A group chat going quiet in the wrong way." (family opening motif); yours 5 (V4): cut the preamble "So here's my one push."
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1 (psychologist-persona-card.md)) · [x] story + sourced anchors (Jimmie Charters at the Dingo (Wren ruled r3; historian-anchors.md)) · [x] drink + four checks (mixologist-draft.md v2.1, cognac Manhattan + mandarin, balance in range (Tomás r3, final r5)) · [x] reading (psychologist-reading-v4.md (Wren r3, final r5)) · [x] fact audit (historian-audit-v1.md + -v2.md, re-read clean (Hester r4–r5)) · [x] resonance test (in psychologist-reading-v3.md, against drink v2 (Wren r5)) · [x] names (≥3 + pick) (Go On (all three); runner-up To Each Other) · [x] image brief (mixologist-draft.md (Tomás r5))
 - **Last change to the pour:** r5 (reading v4, draft v2.1)

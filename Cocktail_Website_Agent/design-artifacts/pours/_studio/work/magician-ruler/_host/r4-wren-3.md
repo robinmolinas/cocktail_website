@@ -1,0 +1,1 @@
+🪞 **Wren:** This is a lint-only fix to R4, so the meaning holds: no cause and no agent are claimed. In y2, old "Something else moved too, and we don't know who moved it." → new "Something else moved too, and who moved it is anyone's guess." 4-grams are clean against every pour. The Notes row matches. Nothing else changed. My sign-off stands: I'd put my name to this.

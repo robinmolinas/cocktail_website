@@ -1,0 +1,3 @@
+# Root receipt — Worth Finding
+
+2026-10-07. Root inspected actual v2 master at original resolution. HELD, not accepted. Martini glass, pale straw drink, saucer and separate hanging tag visible; shiso reads as TWO whole leaves, not one leaf torn once, a physical appearance defect. Bowl speckles imply bubbles/condensation in a still drink. Fine repetitive glossy amber wood persists. Personal folded note/photo are plausible private-story inferences, not literal source possessions; specificity remains a watch. Agent's full588px trace bounds do not imply phone retention; tag155px below intent. Preserve one-correction limit. No exports, browser acceptance or integration.

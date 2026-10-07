@@ -1,0 +1,33 @@
+/* Direction B — Neue Montreal speaks, Playfair keeps the cocktail.
+   Comparison override only: injected at capture time over the live app.
+   Families: PP Neue Montreal (+ its Text cut) · Playfair Display · Playfair. Jost retires. */
+@font-face { font-family: 'PP Neue Montreal'; font-weight: 300; src: url('../_trial-fonts/pp-neue-montreal/PPNeueMontreal-Light.otf'); }
+@font-face { font-family: 'PP Neue Montreal'; font-weight: 400; src: url('../_trial-fonts/pp-neue-montreal/PPNeueMontreal-Regular.otf'); }
+@font-face { font-family: 'PP Neue Montreal'; font-weight: 400; font-style: italic; src: url('../_trial-fonts/pp-neue-montreal/PPNeueMontreal-Italic.otf'); }
+@font-face { font-family: 'PP Neue Montreal'; font-weight: 600; src: url('../_trial-fonts/pp-neue-montreal/PPNeueMontreal-Semibold.otf'); }
+@font-face { font-family: 'PP Neue Montreal Text'; font-weight: 400; src: url('../_trial-fonts/pp-neue-montreal/PPNeueMontrealText-Book.otf'); }
+
+:root { --font-sans: 'PP Neue Montreal', system-ui, sans-serif; --font-sans-text: 'PP Neue Montreal Text', 'PP Neue Montreal', system-ui, sans-serif;
+        --font-label: var(--font-sans); }
+
+/* the voice: questions, poles, the written line */
+.hold-q { font-family: var(--font-sans); font-style: normal; font-weight: 400;
+  font-size: clamp(1.3rem, 2.75vmin, 1.7rem); letter-spacing: -0.012em; line-height: 1.22; }
+.grav-pole { font-family: var(--font-sans); font-style: normal; font-weight: 300; letter-spacing: -0.02em; }
+/* the how */
+.hold-hint, .depth-hint, .seed-name { font-family: var(--font-sans-text); font-size: clamp(14px, 1.75vmin, 16px); letter-spacing: 0; }
+/* choice words */
+.sphere-word { font-family: var(--font-sans); font-style: normal; font-weight: 400; letter-spacing: -0.005em; }
+/* labels and controls */
+.hold-next, .cta, .tr-kicker, .tr-cue, .tr-label, .tr-amount, .tr-quiet, .tr-ritual li::before { font-family: var(--font-sans); }
+.hold-next { font-weight: 400; letter-spacing: 0.16em; }
+.tr-kicker, .tr-label, .tr-cue { letter-spacing: 0.16em; font-weight: 400; }
+.cta { letter-spacing: 0.01em; font-weight: 400; }
+/* the cocktail keeps the serif: title, tagline, epigraph, closing, letter */
+
+/* The guest's own hand stays the ink. Her name and her trace are what she
+   writes, so the bare-line input keeps Playfair Display italic (DESIGN.md
+   "she writes in the experience's own hand"). This also keeps any script
+   she types inside the widest-coverage face. The dedication name in
+   .tr-kicker-for needs its own span to follow the same rule (markup change). */
+.depth-input { font-family: var(--font-display); font-style: italic; }

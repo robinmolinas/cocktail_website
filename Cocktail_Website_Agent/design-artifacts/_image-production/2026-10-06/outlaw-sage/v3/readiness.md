@@ -1,0 +1,3 @@
+# Hear Me Out v3 readiness
+
+Complete current outlaw-sage dossier/spec, applied decisions, continuation plan, image system and DESIGN read by root; actual controls and v2 inspected. Source75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c; spec19cc3a721388ed1476111dafcda2feb8e33252164ba2b0373d4c7f0d5b03adff. Recipe107.5ml amaretto/cask bourbon/lemon/vinegar/15mlwhite, rocks/freshice/thinwhitefoam/lemonpeelON settled. No recipe/name/editorial mutation. Edit only attachment per Robin; prior cloudy-liquid/material/phone/personality holds retained. Original master1672×941 inspected/measured; not finalJPEG/name/browser acceptance.

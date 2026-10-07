@@ -54,7 +54,7 @@ authored_in: the room, 2026-09-26 (batch creator)
 **whoYouAre**
 Hand you instructions and you'll follow them, right up to the moment you don't. You start things before you know what they'll be. That isn't a hole in the plan. It's the part you like best: finding out.
 
-Most of what you try doesn't work, and you honestly don't mind. You rarely mention those ones, and there are more of them than anyone guesses. What gets under your skin is the opposite: something works, and everyone wants it exactly like last time. Being asked to repeat yourself feels like a door closing. Stand next to you long enough and people start saying what you say: "let me try something." You've shown them that something that didn't work isn't a disaster. It's just the next thing to change.
+Some of what you try doesn't work, and you honestly don't mind. You rarely mention those ones, and there are more of them than anyone guesses. What gets under your skin is the opposite: something works, and everyone wants it exactly like last time. Being asked to repeat yourself feels like a door closing. Stand next to you long enough and people start saying what you say: "let me try something." You've shown them that something that didn't work isn't a disaster. It's just the next thing to change.
 
 **yours**
 
@@ -62,7 +62,7 @@ Most of what you try doesn't work, and you honestly don't mind. You rarely menti
 
 2. Then a bartender in Brooklyn, Giuseppe Gonzalez, made a sour (spirit, citrus and sugar, shaken) with an ounce and a half of it. The bitters became the base. The whiskey, just half an ounce, became the accent. The way he tells it, the drink didn't win the competition he made it for, and he was told nobody would drink it. It wasn't an immediate hit. But it spread, and the *Oxford Companion to Spirits and Cocktails* now uses it as its example of a recipe that looks absurd on paper and works in the glass.
 
-3. I like to think he wasn't trying to be clever. He just wanted to know what would happen. That's the question you ask about everything, and like him, you'd rather find out than be told. And it didn't stop at one recipe. Bartenders went on to make their own versions of it, which is exactly how you'd want something of yours to be treated.
+3. He wasn't trying to be clever, I like to think. He just wanted to know what would happen. That's the question you ask about everything, and like him, you'd rather find out than be told. And it didn't stop at one recipe. Bartenders went on to make their own versions of it, which is exactly how you'd want something of yours to be treated.
 
 4. So the cocktail I've made for you keeps his ounce and a half of bitters and his lemon, and changes two things. His almond syrup is gone. In its place is a syrup of lemongrass, which sits beautifully beside warm spice and citrus. And his half ounce of whiskey is now yours to choose: any unsweetened spirit you have open. Gin, mezcal, rum, a smoky whisky. Every one balances, and every one makes a different drink. It's shaken hard and served in a wide, shallow stemmed glass. The bitters stay. Only the accent moves.
 

@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Sculptor (creator-caregiver)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine items (Robin 2026-10-06); no D-card touches this pour.
+- **Edits** (before → after, short): yours 4 (Q103, Tomás's ground, match the method's measure): "a spoonful of Fernet" → "a barspoon of Fernet".
+- **Left for Robin:** Q041 tagline (D11: taglines unchanged).
+
 ## Robin's review, 2026-09-26 (in chat)
 - 👤 **Robin:** "Tomas, the cocktails feel like the actualy cocktail rather than a potential rif - i'm not saying rif all the time, but don't make it necessarily simply the cocktail, use the flavour matrix to find something original, a spark. Up to you to find the balance between original and riff, and if the riff can add something to the personality do it"
 - 👤 **Robin:** "rework after the batch" (this pour was authored before the note; now STUDIO-RULES check 3, "A spark, not just the classic")

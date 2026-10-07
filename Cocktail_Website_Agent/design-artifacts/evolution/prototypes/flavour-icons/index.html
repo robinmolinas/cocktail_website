@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dionysus · flavour marks in the H6 spheres</title>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair:ital,opsz,wght@0,5..1200,300..700;1,5..1200,300..700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Geist:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link href="../type-directions/directions.css" rel="stylesheet">
+<script src="icons.js"></script>
+<style>
+/* sphere + hold CSS copied from dionysus-experience/src/index.css (read-only) */
+:root {
+  --legible: 0 1px 2px rgba(22, 11, 4, 0.26);
+  --sphere-rim: rgba(255, 235, 200, 0.22);
+  --sphere-fill: radial-gradient(circle at 32% 28%, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.04) 42%, rgba(255,235,200,0.07) 100%);
+  --sphere-shadow: inset 0 1px 13px rgba(255,235,200,0.1), 0 0 22px -8px rgba(255,176,136,0.25);
+  --c: #f2c24e;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: #0d0b09; }
+body { -webkit-font-smoothing: antialiased; font-optical-sizing: auto; }
+.stage { position: fixed; inset: 0; background: url(frame-h6.jpg) center / cover; }
+.hold-head { position: absolute; left: 50%; top: 12.5%; width: min(640px, 88vw); margin-left: max(-320px, -44vw);
+  display: flex; flex-direction: column; align-items: center; gap: 0.7rem; text-align: center; }
+.hold-q { margin: 0; color: #fbf4e8; text-shadow: var(--legible); text-wrap: balance;
+  font-family: var(--q-family); font-style: var(--q-style); font-weight: var(--q-weight); font-size: var(--q-size); letter-spacing: var(--q-ls); line-height: var(--q-lh); }
+.hold-hint { margin: 0; color: rgba(245,234,216,0.86); text-shadow: var(--legible);
+  font-family: var(--hint-family); font-weight: var(--hint-weight); font-size: var(--hint-size); line-height: var(--hint-lh); }
+.sphere-cluster { position: absolute; left: 50%; top: 54%; transform: translate(-50%, -50%);
+  display: grid; grid-template-columns: repeat(3, auto); gap: 1.2rem 2.4rem; justify-items: center; }
+.sphere-drift:nth-child(3n+1) { transform: translateY(26px); }
+.sphere-drift:nth-child(3n) { transform: translateY(-20px); }
+.sphere-btn { border: none; background: none; padding: 6px; }
+.sphere { position: relative; display: flex; flex-direction: column; gap: 0.32rem; align-items: center; justify-content: center;
+  width: var(--sphere-size, clamp(112px, 15vmin, 142px)); aspect-ratio: 1; border-radius: 50%; padding: 0 14px; text-align: center;
+  border: 1px solid var(--sphere-rim); background: var(--sphere-fill); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); box-shadow: var(--sphere-shadow); }
+.sphere-word { color: #fbf4e8; text-shadow: var(--legible);
+  font-family: var(--word-family); font-style: var(--word-style); font-weight: var(--word-weight); font-size: var(--word-size); letter-spacing: var(--word-ls); line-height: var(--word-lh); }
+/* the mark: same ivory as the word, a step quieter, sitting above it */
+.mark { width: var(--mark, clamp(20px, 2.5vmin, 24px)); height: var(--mark, clamp(20px, 2.5vmin, 24px));
+  color: rgba(251, 244, 232, 0.86); fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;
+  filter: drop-shadow(0 1px 1.5px rgba(22, 11, 4, 0.3)); }
+.sphere-btn.is-lit .sphere { border-color: color-mix(in srgb, var(--c) 70%, white);
+  background: radial-gradient(circle at 32% 28%, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.08) 38%, color-mix(in srgb, var(--c) 24%, transparent) 100%);
+  box-shadow: inset 0 1px 16px rgba(255,235,200,0.16), 0 0 32px -6px var(--c); transform: scale(1.1); }
+.sphere-btn.is-lit .sphere-word, .sphere-btn.is-lit .mark { color: #fffaf0; }
+/* mark-beside-label variant (?side): icon left of the word, one line */
+.side .sphere { flex-direction: row; gap: 0.3rem; }
+@media (max-width: 640px) {
+  .hold-head { top: 7.5%; gap: 0.5rem; }
+  .sphere-cluster { top: 58%; gap: 0.7rem 0.8rem; }
+  .sphere-btn { padding: 3px; }
+  .sphere { --sphere-size: clamp(88px, 26vw, 108px); padding: 0 10px; gap: 0.22rem; }
+  .sphere-word { font-size: var(--word-size-phone); }
+  .mark { --mark: 18px; stroke-width: 1.6; }
+}
+/* specimen strip (?specimen): every mark at 16 / 20 / 24 / 48px on the dark */
+.spec { position: fixed; inset: 0; background: #0d0b09; color: #f5ead8; display: grid; grid-template-columns: repeat(9, 1fr); align-content: center; gap: 28px 0; padding: 40px; font: 13px/1.4 'Jost', sans-serif; }
+.spec div { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.spec svg { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+</head>
+<body>
+<div class="stage" id="stage"></div>
+<script>
+const P = new URLSearchParams(location.search);
+document.documentElement.dataset.dir = (P.get('dir') || 'A').toUpperCase();
+if (P.has('side')) document.documentElement.classList.add('side');
+const I = window.FLAVOUR_ICONS, names = Object.keys(I);
+const svg = (n, cls = 'mark', size) => `<svg class="${cls}" viewBox="0 0 24 24" ${size ? `width="${size}" height="${size}"` : ''} aria-hidden="true">${I[n]}</svg>`;
+const st = document.getElementById('stage');
+if (P.has('specimen')) {
+  st.outerHTML = `<div class="spec">${(P.get('sizes') || '48-24-20-16').split('-').map(Number).map((s, k, a) => names.map((n) => `<div>${svg(n, '', s)}${k === a.length - 1 ? `<span>${n}</span>` : ''}</div>`).join('')).join('')}</div>`;
+} else {
+  st.innerHTML = `<div class="hold-head"><h2 class="hold-q">What flavours are calling you?</h2><p class="hold-hint">Catch up to three as they rise</p></div>
+    <div class="sphere-cluster">${names.map((n, i) => `<div class="sphere-drift"><span class="sphere-btn ${i === 5 ? 'is-lit' : ''}"><span class="sphere">${svg(n)}<span class="sphere-word">${n}</span></span></span></div>`).join('')}</div>`;
+}
+document.fonts.ready.then(() => document.body.dataset.ready = '1');
+</script>
+</body>
+</html>

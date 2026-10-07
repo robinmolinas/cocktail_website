@@ -1,0 +1,717 @@
+{
+  "id": "production-batch-02",
+  "date": "2026-10-07",
+  "workflow": "User-directed production first; browser/name/motion batch later. Producer heartbeat remains PAUSED.",
+  "state": "measured-master-candidates-not-accepted",
+  "sceneCount": 7,
+  "newPairings": 7,
+  "correctedExistingPairings": 0,
+  "initialsPreserved": 7,
+  "targetedCorrections": 7,
+  "generatedAssetCount": 14,
+  "emptyNetworkFailureRetry": {
+    "pairing": "sage-outlaw",
+    "networkErrorReturnedNoImage": true,
+    "identicalRetryProducedInitial": true
+  },
+  "exportedPairs": 0,
+  "pendingExports": 7,
+  "otherPendingExport": "lover-jester/v3 — Only Half Joking from batch01",
+  "exporterPermission": "action-specific approval requested for these seven plus Only Half Joking; no reply yet; no exporter run or bypass this turn",
+  "wideRequired": [
+    1920,
+    1080
+  ],
+  "portraitRequired": [
+    896,
+    1200
+  ],
+  "generator": "built-in image_gen",
+  "skill": "/Users/robin.molinas/.codex/skills/.system/imagegen/SKILL.md",
+  "ruleFingerprintsAtReceipt": {
+    "personaImageSystem": "baedd0c03acfd8aa7451657274434e53ecfb2b9fdefbeb9881ba5f7a4264a032",
+    "applicationDesign": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+    "continuationPlan": "7c618125b8d8c185889406a2aa0fbf1b93624ade8b2d1877f030b85110de492f"
+  },
+  "integrationState": "none; public assets unchanged",
+  "browserReadyRequestCreated": false,
+  "items": [
+    {
+      "folder": "sage-outlaw/v2",
+      "pairing": "sage-outlaw",
+      "pour": "On the Record",
+      "sourceSha256": "b461e0ab25ddf5cb1629ce0c82354b400ebd072617aa6502f69a439c8a84aeda",
+      "specSha256": "24f5d1fd35c15d2fedbb623737047052f54389ef90b36e87584cfa98a52b70c7",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "d895bf20253d319d7b9ccd8235f31b15aa7e702b77405cc922ba9a03b7128e33",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-d186cbca-c606-4770-a958-b130978bc521.png",
+      "generatedSourceMatches": true,
+      "master": "sage-outlaw/v2/master.png",
+      "prompt": "sage-outlaw/v2/prompt.txt",
+      "readiness": "sage-outlaw/v2/readiness.md",
+      "provenance": "sage-outlaw/v2/provenance.json",
+      "measurements": "sage-outlaw/v2/measurements.json",
+      "ownerReview": "sage-outlaw/v2/master-review.md",
+      "rootReview": "sage-outlaw/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        700,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1219,
+        "cy": 705,
+        "w": 235,
+        "angle": 2.3
+      },
+      "glass": {
+        "x": 1048,
+        "y": 397
+      },
+      "bounds": {
+        "glass": {
+          "x0": 936,
+          "y0": 238,
+          "x1": 1156,
+          "y1": 758
+        },
+        "paper": {
+          "x0": 1049,
+          "y0": 649,
+          "x1": 1345,
+          "y1": 757
+        }
+      },
+      "personalityBounds": null,
+      "recognitionRegions": {
+        "referencePacket": {
+          "x0": 770,
+          "y0": 575,
+          "x1": 1039,
+          "y1": 683
+        },
+        "readingSpectacles": {
+          "x0": 833,
+          "y0": 526,
+          "x1": 1148,
+          "y1": 653
+        }
+      },
+      "recipeRegions": {
+        "setAsideOrangePeel": {
+          "x0": 745,
+          "y0": 693,
+          "x1": 954,
+          "y1": 747
+        }
+      },
+      "exported": false,
+      "jpegDimensionsVerified": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "reviewState": "HOLD-composition; material-watch",
+      "rootNotes": "Plain unetched port glass and mostly smooth low-satin long grain are the strongest material result in this batch. Right-hand warm reflection remains a watch point, not an invented global metal ban. Full glass/paper plus paperclip/reference packet/spectacles span575px;520px vessel is still large. Set-aside peel is recipe support, not personality evidence. Actual name rendering and phone/motion retention are not tested.",
+      "browser": "deferred-by-user; not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "innocent-lover/v2",
+      "pairing": "innocent-lover",
+      "pour": "The Big Words",
+      "sourceSha256": "eafd8c6b9918b2526c6a07f09f966f4dd26b0b56385f8c82d0de0fb78e1e9910",
+      "specSha256": "5591b3e68351ff211d8045296f258ee8e28a306bed4daeaf31a6d9f0915e0744",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "7eff829d08a738c0c3663a201ab4efe7351930b179f03b4a866399d022f13941",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-0f3c3961-e019-4683-81cd-5fe378a29ea8.png",
+      "generatedSourceMatches": true,
+      "master": "innocent-lover/v2/master.png",
+      "prompt": "innocent-lover/v2/prompt.txt",
+      "readiness": "innocent-lover/v2/readiness.md",
+      "provenance": "innocent-lover/v2/provenance.json",
+      "measurements": "innocent-lover/v2/measurements.json",
+      "ownerReview": "innocent-lover/v2/master-review.md",
+      "rootReview": "innocent-lover/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        750,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1188,
+        "cy": 679,
+        "w": 242,
+        "angle": 5.1
+      },
+      "glass": {
+        "x": 995,
+        "y": 341
+      },
+      "bounds": {
+        "glass": {
+          "x0": 816,
+          "y0": 236,
+          "x1": 1174,
+          "y1": 736
+        },
+        "paper": {
+          "x0": 1010,
+          "y0": 612,
+          "x1": 1323,
+          "y1": 731
+        }
+      },
+      "personalityBounds": null,
+      "recognitionRegions": {
+        "audioCassette": {
+          "x0": 996,
+          "y0": 487,
+          "x1": 1328,
+          "y1": 657
+        },
+        "giftCard": {
+          "x0": 1107,
+          "y0": 396,
+          "x1": 1419,
+          "y1": 654
+        }
+      },
+      "recipeRegions": null,
+      "exported": false,
+      "jpegDimensionsVerified": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "reviewState": "HOLD-composition; HOLD-material; HOLD-pseudo-labels",
+      "rootNotes": "The broad expressed orange peel is inside a transparent stirred cocktail, no serving ice or foam. Clear smooth glass is a useful invariant. Timber remains warm/glossy, cassette has tiny label-like white artifacts, and uniformly fibrous paper/peel are over-emphasised.603px recognition span; glass/paper alone507px. Plain folded card and cassette are source-grounded but not mobile-safe.",
+      "browser": "deferred-by-user; not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "explorer-outlaw/v3",
+      "pairing": "explorer-outlaw",
+      "pour": "Fine by Me",
+      "sourceSha256": "2e4b84294914bed5ffb1f0728b03fd603fe7a6d5b02e8710c8fdcf79f1aaf97c",
+      "specSha256": "c242ea39600435fab2011959caf3441b49fd437442be52f9790de965fdf8118c",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "be42770f7256b57e0016ebab1aef4b80ea60e09166a797838288dcb08c53ee81",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-3f4ea801-ee6c-4e4b-866b-7e36af4c1e71.png",
+      "generatedSourceMatches": true,
+      "master": "explorer-outlaw/v3/master.png",
+      "prompt": "explorer-outlaw/v3/prompt.txt",
+      "readiness": "explorer-outlaw/v3/readiness.md",
+      "provenance": "explorer-outlaw/v3/provenance.json",
+      "measurements": "explorer-outlaw/v3/measurements.json",
+      "ownerReview": "explorer-outlaw/v3/private-review.md",
+      "rootReview": "explorer-outlaw/v3/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        839,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 980,
+        "cy": 599,
+        "w": 119,
+        "angle": -2
+      },
+      "glass": {
+        "x": 946,
+        "y": 505
+      },
+      "bounds": {
+        "glass": {
+          "x0": 840,
+          "y0": 246,
+          "x1": 1053,
+          "y1": 765
+        },
+        "paper": {
+          "x0": 889,
+          "y0": 563,
+          "x1": 1048,
+          "y1": 635
+        },
+        "toolPouch": {
+          "x0": 1045,
+          "y0": 420,
+          "x1": 1504,
+          "y1": 735
+        },
+        "pliers": {
+          "x0": 1083,
+          "y0": 584,
+          "x1": 1540,
+          "y1": 790
+        }
+      },
+      "personalityBounds": null,
+      "recognitionRegions": {
+        "toolPouch": {
+          "bounds": {
+            "x0": 1054,
+            "y0": 423,
+            "x1": 1465,
+            "y1": 625
+          },
+          "reason": "Actual folded pouch flap/open edge plus visible stitched repair patch, not merely a cloth fragment."
+        },
+        "pliers": {
+          "bounds": {
+            "x0": 1083,
+            "y0": 584,
+            "x1": 1300,
+            "y1": 697
+          },
+          "reason": "Readable complete jaws, functional pivot and beginning of two separate handles."
+        }
+      },
+      "recipeRegions": null,
+      "exported": false,
+      "jpegDimensionsVerified": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "reviewState": "HOLD-composition; HOLD-material",
+      "rootNotes": "Packed iced highball, clear golden cider drink and inside orange peel are maintained. Functional used pliers are allowed; the metal rule is about room/table, not these tools. Tool pouch repair and jaws/pivot are recognisable in wide, but full group spans700px and recognition625px. Excessively sparkling ice/glass and glossy amber tabletop remain held.",
+      "browser": "deferred-by-user; not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "innocent-outlaw/v2",
+      "pairing": "innocent-outlaw",
+      "pour": "Fresh Air",
+      "sourceSha256": "c33461857c7e996d4a8c580b0d26b18ac1e184759ff522dc992997cec7dc28a2",
+      "specSha256": "1b3fd51f025a0e80c252422e82a669d87b59772b087b32571a3e911585134ff6",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "9c5526163efa7a4a092ca511fd2cc61992d24b489133a1202ab73fd5ad4689fe",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-e6501dfb-7e15-4a68-8c18-34859baa000b.png",
+      "generatedSourceMatches": true,
+      "master": "innocent-outlaw/v2/master.png",
+      "prompt": "innocent-outlaw/v2/prompt.txt",
+      "readiness": "innocent-outlaw/v2/readiness.md",
+      "provenance": "innocent-outlaw/v2/provenance.json",
+      "measurements": "innocent-outlaw/v2/measurements.json",
+      "ownerReview": "innocent-outlaw/v2/private-review.md",
+      "rootReview": "innocent-outlaw/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        812,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1126,
+        "cy": 647,
+        "w": 149,
+        "angle": 11.5
+      },
+      "glass": {
+        "x": 996,
+        "y": 514
+      },
+      "bounds": {
+        "glass": {
+          "x0": 835,
+          "y0": 309,
+          "x1": 1158,
+          "y1": 720
+        },
+        "paper": {
+          "x0": 1004,
+          "y0": 568,
+          "x1": 1216,
+          "y1": 716
+        },
+        "walkingCap": {
+          "x0": 1069,
+          "y0": 280,
+          "x1": 1650,
+          "y1": 694
+        },
+        "houseKey": {
+          "x0": 1234,
+          "y0": 589,
+          "x1": 1428,
+          "y1": 720
+        }
+      },
+      "personalityBounds": null,
+      "recognitionRegions": {
+        "walkingCap": {
+          "bounds": {
+            "x0": 1094,
+            "y0": 281,
+            "x1": 1490,
+            "y1": 650
+          },
+          "reason": "Folded crown with centre/crown seams plus substantial bill and crown-to-bill junction: recognizable cap, not a cropped cloth strip. Far-right bill tip is outside this recognition region, but complete cap remains separately measured."
+        },
+        "houseKey": {
+          "bounds": {
+            "x0": 1285,
+            "y0": 640,
+            "x1": 1428,
+            "y1": 720
+          },
+          "reason": "Complete visible house-key bow and toothed blade; plain ring is separately within full object bound."
+        }
+      },
+      "recipeRegions": null,
+      "exported": false,
+      "jpegDimensionsVerified": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "reviewState": "HOLD-composition; HOLD-material; HOLD-garnish-shape",
+      "rootNotes": "Heavy tumbler, still rum/cider and ordinary cloudy ice are more credible than ornamental packed ice. Two visible lumps do not contradict the settled two-or-three instruction. Apple remains wedge-like, not a convincingly thin slice. Cap/key are ordinary personal traces, but full815px group and655px recognition span do not survive phone crops; portrait clips cap tip. Dense droplets and amber glossy reflection persist.",
+      "browser": "deferred-by-user; not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "outlaw-explorer/v2",
+      "pairing": "outlaw-explorer",
+      "pour": "Whoopee",
+      "sourceSha256": "aa6033466d1f9f74208e31a32a8feb7d9f218f8fe47e428aa1599265cac31f86",
+      "specSha256": "345bcfe3f368217d5c46cf87ab0c1b547b820f44884baa248239e851c3ca9d04",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "9322814bbfe6969e10893572a1924a0b56101176d19251bd058808b384f7e891",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-34ba41cc-f852-4dfc-bbec-6318160f9105.png",
+      "generatedSourceMatches": true,
+      "master": "outlaw-explorer/v2/master.png",
+      "prompt": "outlaw-explorer/v2/prompt.md",
+      "readiness": "outlaw-explorer/v2/readiness.md",
+      "provenance": "outlaw-explorer/v2/provenance.md",
+      "measurements": "outlaw-explorer/v2/measurements.json",
+      "ownerReview": "outlaw-explorer/v2/review.md",
+      "rootReview": "outlaw-explorer/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        780,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1182,
+        "cy": 496,
+        "w": 164,
+        "angle": 4.6
+      },
+      "glass": {
+        "x": 1048,
+        "y": 329
+      },
+      "bounds": {
+        "glass": {
+          "x0": 871,
+          "y0": 236,
+          "x1": 1226,
+          "y1": 766
+        },
+        "paper": {
+          "x0": 1066,
+          "y0": 453,
+          "x1": 1280,
+          "y1": 536
+        }
+      },
+      "personalityBounds": {
+        "goggles": {
+          "x0": 815,
+          "y0": 550,
+          "x1": 1265,
+          "y1": 703
+        },
+        "sealedInvitations": {
+          "x0": 1065,
+          "y0": 539,
+          "x1": 1457,
+          "y1": 699
+        }
+      },
+      "recognitionRegions": {
+        "goggleLensesAndBridge": {
+          "x0": 854,
+          "y0": 563,
+          "x1": 1249,
+          "y1": 694
+        },
+        "envelopeSealedFlap": {
+          "x0": 1225,
+          "y0": 566,
+          "x1": 1437,
+          "y1": 692
+        }
+      },
+      "recipeRegions": null,
+      "exported": false,
+      "jpegDimensionsVerified": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "reviewState": "HOLD-composition; HOLD-material; HOLD-personality-specificity",
+      "rootNotes": "Current garnish-free split gin/sloe sour is in a coupe with transient shake bubbles, not egg-white foam. Goggles visually read as aviation/motorcycle equipment rather than swimming goggles; cold-swim personality specificity is not met. Sealed invitations are plausible. Uniform bowl speckling and warm glossy wood remain held.642px full group/583px recognition span; no portrait/phone acceptance.",
+      "browser": "deferred-by-user; not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "regular-guy-ruler/v2",
+      "pairing": "regular-guy-ruler",
+      "pour": "Word Gets Round",
+      "sourceSha256": "d2d94c473eb6a2f4de5d60f45b1c7a7f3ffbca723e47ded44898d21a72cf65a3",
+      "specSha256": "58729d5a9851e7e1e2241047849c213ce817a5bc09b2a1d3df7e352e92d574a2",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "55ce434e202c23596d7dfd1b5a76e74e39b7581ca4379d75813b03a3eb31b456",
+      "dimensions": {
+        "width": 1711,
+        "height": 919
+      },
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-80ae5ccc-18c3-4435-8acd-2fb27dc2d85f.png",
+      "generatedSourceMatches": true,
+      "master": "regular-guy-ruler/v2/master.png",
+      "prompt": "regular-guy-ruler/v2/prompt.md",
+      "readiness": "regular-guy-ruler/v2/readiness.md",
+      "provenance": "regular-guy-ruler/v2/provenance.md",
+      "measurements": "regular-guy-ruler/v2/measurements.json",
+      "ownerReview": "regular-guy-ruler/v2/review.md",
+      "rootReview": "regular-guy-ruler/v2/root-master-review.md",
+      "wideCrop": [
+        40,
+        0,
+        1632,
+        918
+      ],
+      "portraitCrop": [
+        740,
+        0,
+        686,
+        918
+      ],
+      "tag": {
+        "cx": 1205,
+        "cy": 507,
+        "w": 137,
+        "angle": 5
+      },
+      "glass": {
+        "x": 1096,
+        "y": 373
+      },
+      "bounds": {
+        "glass": {
+          "x0": 954,
+          "y0": 299,
+          "x1": 1238,
+          "y1": 701
+        },
+        "paper": {
+          "x0": 1114,
+          "y0": 470,
+          "x1": 1289,
+          "y1": 544
+        }
+      },
+      "personalityBounds": {
+        "telephoneReceiver": {
+          "x0": 842,
+          "y0": 468,
+          "x1": 1242,
+          "y1": 641
+        },
+        "openedCorrespondence": {
+          "x0": 775,
+          "y0": 572,
+          "x1": 1197,
+          "y1": 676
+        }
+      },
+      "recognitionRegions": {
+        "receiverEarpieceHandleMouthpiece": {
+          "x0": 842,
+          "y0": 468,
+          "x1": 1242,
+          "y1": 641
+        },
+        "openedEnvelopeAndFoldedLetter": {
+          "x0": 775,
+          "y0": 572,
+          "x1": 1197,
+          "y1": 676
+        }
+      },
+      "recipeRegions": null,
+      "exported": false,
+      "jpegDimensionsVerified": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "reviewState": "HOLD-composition; HOLD-material; name-fit-unverified",
+      "rootNotes": "Correct current Jack Rose-style apple-brandy/pomegranate sour in a garnish-free chilled coupe, not the obsolete Collins/Rickey. Telephone handset and opened correspondence recognise in wide and overlap more successfully behind the stem. Glass/paper335px is improved, but recognition514px exceeds narrow-phone window.137px clean tag needs actual long-name check. Fine bowl speckling and broad warm table reflection remain held.",
+      "browser": "deferred-by-user; not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "hero-explorer/v2",
+      "pairing": "hero-explorer",
+      "pour": "Someone Else's Map",
+      "sourceSha256": "dbd8338afefaff3a1f8f60fd09ac0e622fbb327e1e90f13404d7bc3c1e6121e3",
+      "specSha256": "51df5b0438ae2e1708962e42715b025da041b93825f0f75aea4f55b9a8afc7fe",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "6d5e9da96c4cc8770a099cb483516536b10feecd616fb397c27396dd3b4e2e04",
+      "dimensions": {
+        "width": 1671,
+        "height": 941
+      },
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-7f2dd575-6daf-44c3-a4ca-583d4cf8874a.png",
+      "generatedSourceMatches": true,
+      "master": "hero-explorer/v2/master.png",
+      "prompt": "hero-explorer/v2/prompt.txt",
+      "readiness": "hero-explorer/v2/readiness.md",
+      "provenance": "hero-explorer/v2/provenance.json",
+      "measurements": "hero-explorer/v2/measurements.json",
+      "ownerReview": "hero-explorer/v2/review.md",
+      "rootReview": "hero-explorer/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1670,
+        940
+      ],
+      "portraitCrop": [
+        700,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1208,
+        "cy": 646,
+        "w": 156,
+        "angle": 9.4
+      },
+      "glass": {
+        "x": 1100,
+        "y": 500
+      },
+      "bounds": {
+        "glass": {
+          "x0": 915,
+          "y0": 335,
+          "x1": 1287,
+          "y1": 673
+        },
+        "paper": {
+          "x0": 1108,
+          "y0": 589,
+          "x1": 1317,
+          "y1": 701
+        }
+      },
+      "personalityBounds": {
+        "bag": {
+          "x0": 775,
+          "y0": 117,
+          "x1": 1540,
+          "y1": 555
+        },
+        "mittens": {
+          "x0": 662,
+          "y0": 350,
+          "x1": 959,
+          "y1": 626
+        }
+      },
+      "recognitionRegions": {
+        "bagFlapAndFront": {
+          "x0": 841,
+          "y0": 144,
+          "x1": 1433,
+          "y1": 530
+        },
+        "mittenCuffsAndThumbs": {
+          "x0": 678,
+          "y0": 365,
+          "x1": 959,
+          "y1": 621
+        }
+      },
+      "recipeRegions": null,
+      "exported": false,
+      "jpegDimensionsVerified": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "reviewState": "HOLD-composition; HOLD-material",
+      "rootNotes": "Correct hot handled glass mug, clear earthy red-amber toddy and inside lemon peel; no theatrical steam/mountain/map. Bag and wool mittens are plausible source-grounded person traces. Recognition755px extends outside the proposed portrait; full physical group is wider still. V2 wood gains glossy raised-looking detail and an orange reflection. V1 retained for material comparison. Actual name/font/motion checks not run.",
+      "browser": "deferred-by-user; not-run",
+      "accepted": false,
+      "integrated": false
+    }
+  ]
+}

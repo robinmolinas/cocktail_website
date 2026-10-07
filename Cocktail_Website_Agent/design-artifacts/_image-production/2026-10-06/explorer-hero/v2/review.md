@@ -1,0 +1,1 @@
+Actual1672x941 dimensions verified. First correction reduced glass/tag successfully but ignored tight watch placement. Recipe/world pass; HOLD on phone personality. Final bounded correction moves only existing cards/watch immediately left of glass; new portrait crop will be measured for that exact result.

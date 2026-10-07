@@ -1,95 +1,129 @@
 ---
 id: SPEC-cocktail-agent-pipeline
 companions:
-  - pipeline-stages.md       # the 5-stage agent I/O contract + two-tier data flow
-  - personality-model.md     # 12 archetypes + 132-persona matrix + roulette mechanic + source-data map
+  - intake-contract.md        # Answers v3 (wire) + browser-only diagnostics; agreed with the design owner
+  - matching-model.md         # primary/secondary meaning, pair formula, weights, signal table, missing answers, question edit
+  - pipeline-stages.md        # two tiers, five stages, boundaries (diagram)
+  - personality-model.md      # 12 archetypes, 132 ordered pairings, pairingKey
+  - ../ARCHITECTURE-SPINE.md  # adopted: AD-1..14, seams, privacy, deploy (owned by the architecture)
+  - ../matching/reachability-v1.md   # adopted evidence for CAP-8 (generated)
+  - ../matching/distribution-v1.md   # adopted evidence for CAP-8 (generated)
+  - ../../design-artifacts/2026-09-23-cocktail-meaning-model.md  # adopted: pour shape, anchors, tailoring
+  - ../../design-artifacts/pours/STUDIO-RULES.md                 # adopted: authoring rules for Tier A
 sources:
-  - ../../../PRODUCT.md
+  - ../../dionysus-experience/PRODUCT.md
   - ../../design-artifacts/A-Product-Brief/project-brief.md
-  - ../../Knowledge base/cocktail_counsel_knowledge_base.md
 ---
 
-> ⚠️ **Partly superseded (2026-09-23) — pending a `bmad-spec` refresh.** Where this spec conflicts with `../ARCHITECTURE-SPINE.md`, the spine wins: vetoes now steer the match (the "no allergen accommodation" constraint is gone; "Alcohol" is not a veto; no zero-proof at launch); the canonical intake is the live journey (`Answers` v2), not the revamped questionnaire docx; `output-contract.md` is archived (the reading = tagline + epigraph + 2 paragraphs, never persisted); the trace never reaches the server.
+> **Canonical contract** (refreshed 2026-10-06; the decision record is `.memlog.md`, with the 2026-06-17 history in `.decision-log.md`). This SPEC and its `companions:` are what to build, test and validate. Where it conflicts with a pre-refresh copy, this version wins. `ARCHITECTURE-SPINE.md` governs technical seams.
 
-> **Canonical contract.** This SPEC and the files in `companions:` are the complete, preservation-validated contract for what to build, test, and validate. Source documents in frontmatter are for traceability only. The questionnaire, the Brand Personality + Roulette workbook, the ingredient inventory, and the persona fixtures are **live source data downstream MUST read** — mapped in `pipeline-stages.md` and `personality-model.md`, not duplicated here.
-
-# Dionysus — Cocktail Personality Agent Pipeline
+# Dionysus: Cocktail Personality Pipeline
 
 ## Why
 
-A vision to realize, on top of a real opportunity. Dionysus serves the *right drink at the right time* so a user feels **seen** — it distills a person's inner self into a deeply personalized cocktail and the narrative of why it is theirs. The front-end experience (quiz canvas, Suminagashi animation, design system) is already built via the WDS track; the multi-agent **brain** that turns questionnaire answers into a personality, a drink, and a story is the missing half — and the product's stated moat ("Alchemical History AI"). This spec locks WHAT that brain must do, for the primary *Curious Esthete & Self-Explorer* and for portfolio evaluators. It does not choose the runtime technology — that is the architecture step.
-
-## Delivery model (locked)
-
-**Two tiers.**
-- **Tier A — offline, authored once per persona.** The Historian and Mixologist author the 132 cocktails + narratives (one per persona), curated and QA'd by Robin before any user sees them.
-- **Tier B — runtime, per user.** Intake → hybrid personality selection → Bartender framing of the *matched, pre-authored* drink. The runtime LLM (the **Bartender**) generates only the personalized **rationale** + the one-sentence emotional fit; it never invents or alters a recipe.
+This is a vision to realise. Dionysus distils a guest's answers into one of 132 personalities and hands them that personality's authored cocktail, with a reading of why it is theirs, so they feel *seen*. The audience is the Curious Esthete and portfolio evaluators. The front-end journey is built. The missing half is honest matching: the live app still reveals one fixed pilot for everyone, and the legacy engine scores only questions the journey no longer asks. This spec fixes what the matching, the authored catalogue and the live tailoring must do.
 
 ## Capabilities
 
-- id: CAP-1
-  intent: Capture a user's self-portrait through the quiz into a structured profile that downstream stages consume.
-  success: A completed questionnaire yields one normalized profile object (identity-frame, colour, 5 gravity axes, drivers, what-people-come-for, inner-texture pairs, flavours, vessel, craft-level, free-text trace) per `pipeline-stages.md#stage-1`; every field populated or explicitly null.
+- **CAP-1**
+  - **intent:** The guest's journey produces one canonical, versioned intake that selection and tailoring consume.
+  - **success:** A completed journey yields `Answers` v3 per intake-contract.md. Every value is a stable vocabulary id or explicitly absent. Desktop and mobile produce identical `Answers` for identical choices. Diagnostics and trace stay in the browser.
 
-- id: CAP-2
-  intent: Select the brand-personality the user will identify with via a hybrid mechanism — deterministic scoring narrows the 132 to a shortlist, the LLM makes the final pick and writes the rationale.
-  success: Given a profile, the Psychologist returns exactly one chosen personality (one of the 132 in `personality-model.md`, tied to one of 12 archetypes) plus a concise rationale citing specific questionnaire answers; selection is reproducible to the shortlist and judged "feels like them" on the persona fixtures by a human reviewer.
+- **CAP-2**
+  - **intent:** Choose the guest's personality with a hybrid: deterministic scoring narrows to the three best eligible pairings, then the Bartender picks one.
+  - **success:**
+    - The same answers give the same ranked shortlist in both shells.
+    - Vetoed and unauthored pours never appear.
+    - A pick outside the shortlist, or any failure, serves `shortlist[0]`.
+    - Ties resolve by pairingKey.
+    - The guest's answers, judged by a human reviewer in playtests, "feel like them".
 
-- id: CAP-3
-  intent: (Tier A) Surface cocktails and ingredients whose history, culture, and symbolism resonate with a persona — inspiration, not the final drink.
-  success: For each persona, output lists cocktails (origin, story, persona-link) and ingredients (story, persona-link), each carrying an explicit one-sentence link to the archetype; moral-and-cultural context (e.g. rum & the slave trade, cognac & the African-American community) handled respectfully; never specifies the final recipe.
+- **CAP-3**
+  - **intent:** (Tier A) Each pairing's cocktail carries true history and symbolism that mirror the personality.
+  - **success:** Every pour has at least 3 sourced anchors (`{kind, fact, meaning, speaksTo?}`). Moral and cultural context is handled respectfully. Facts are used, wording is not copied. Hester's fact audit passes.
 
-- id: CAP-4
-  intent: (Tier A) Design one canonical cocktail per persona from the historian's inspiration and the persona's traits.
-  success: A complete recipe (ingredients with quantities + method) where each major choice traces to a historian inspiration or a persona trait, and ingredients are chosen for symbolic/emotional fit and mixological coherence. Exactly one cocktail per persona; the runtime never swaps ingredients.
+- **CAP-4**
+  - **intent:** (Tier A) One canonical cocktail per ordered pairing, designed for the personality.
+  - **success:**
+    - Each of the 132 has one recipe, a method, a fixed glass, a `closingLine` and an explicit `contains`.
+    - Its balance and allergen checks are recorded.
+    - The runtime never alters it.
+    - The imported catalogue matches the dossier and spec exactly.
 
-- id: CAP-5
-  intent: (Tier B) Present the matched pre-authored cocktail so the user feels it was made for them — the "served by someone who noticed more than the obvious" moment.
-  success: The Bartender returns the full output contract in `output-contract.md` (name, one-sentence emotional fit, personalized image ref, recipe, method, rationale, symbolic reading, serving ritual), with the rationale framed live to the user's answers; on fixtures it reads as unmistakably personal to a human reviewer.
+- **CAP-5**
+  - **intent:** (Tier B) The matched pour is presented so it reads as made for this guest.
+  - **success:**
+    - The Bartender tailors only `yours`, weaving in 2–3 of the guest's answers.
+    - The output passes `acceptTailoring`.
+    - Otherwise the authored passage is served verbatim.
+    - The name and trace never reach the LLM.
+    - On playtests it reads as personal.
 
-- id: CAP-6
-  intent: Deliver the locked two-tier split — Tier A authors the 132 offline; Tier B matches and frames live, generating only the personalized rationale + emotional fit.
-  success: A user completing the quiz receives, in-session, their matched pre-authored cocktail framed to their specific answers; offline, a complete 132-entry set exists and is curatable/QA-able by Robin before it ever reaches a user.
+- **CAP-6**
+  - **intent:** Keep the two-tier split: authored offline, matched and tailored live.
+  - **success:**
+    - All 132 pours are authored and reviewable offline, with approval status visible in development.
+    - The runtime generates nothing but the tailored `yours` and the pick.
+    - Release requires the review gates.
 
-- id: CAP-7
-  intent: Hand the front-end a single structured payload it renders directly as the cocktail reveal.
-  success: The emitted payload validates against `output-contract.md` and the React/Vite app renders every field without transformation or missing data.
+- **CAP-7**
+  - **intent:** Every surface renders one payload built by one assembler.
+  - **success:** Owner reveal, pour page, fragment fallback, OG and print all build through `assembleReading` (AD-5). The app renders the result without transformation.
+
+- **CAP-8**
+  - **intent:** The matching model is auditable before release.
+  - **success:** For each of the 132 ordered pairings, a regenerated report shows whether it can lead the fallback, whether it can enter the shortlist, and whether it is selectable or has been observed as the final choice. Each answer is reachable, proven unreachable, or not yet proven. Distribution, tie, sensitivity and group-influence results are stated under named answer models. The core's coverage tests replay one witness fixture per pairing.
 
 ## Constraints
 
-- Ingredients are authored as part of the cocktail experience — chosen for symbolic/emotional fit (per the KB ingredient-symbolism library) and mixological coherence. They are **not** bound to a fixed real-world bar inventory (the v1 home-bar constraint is dropped).
-- Personality selection is bounded to the proprietary 12-archetype / 132-persona matrix in `../data/Brand Personality + Roulette.xlsx`, and is **hybrid**: deterministic scoring narrows the field, the LLM makes the final pick + rationale.
-- Historian and Mixologist run **offline** (Tier A) to author the 132; they are not in the runtime path. Exactly **one canonical cocktail per persona** — the runtime never swaps ingredients or regenerates a recipe.
-- The 132 cocktails are **pre-authored**; the runtime LLM scope is personalization + presentation ("why you") only.
-- **No allergen/exclusion accommodation.** The quiz does not ask what to avoid, because a serve-only runtime cannot honor it without deceiving the user.
-- Brand voice is mystical, sophisticated, theatrical, intimate — "a high-end speakeasy hidden behind a fortune-teller's parlor." Honor it; avoid the anti-references (flat SaaS tone, cartoonish magic, generic menu copy).
-- The reveal image is a **pre-rendered 3D asset** personalized with the user's name and favourite colour, referenced by id — not generated at runtime.
-- The engine emits exactly one structured payload conforming to `output-contract.md`; the front-end consumes, it does not co-author content.
+- **Selection.**
+  - Selection is bounded to the 12 × 11 ordered matrix of the BRANDING/PERSONALITY workbook.
+  - A × B and B × A are distinct.
+  - Primary = core motive. Secondary = how it shows (matching-model.md).
+  - Determinism covers the shortlist and fallback only. It is not a promise about the LLM's final choice.
+- **Vetoes.**
+  - `egg-white | dairy | gluten | nuts | spice` remove whole pours before the shortlist.
+  - No substitution, no recipe variants, no zero-proof at launch. Alcohol is not a veto.
+- **Catalogue floors.**
+  - At least 3 veto-free authored pours, always.
+  - The launch gate needs all 132 authored and at least 12 veto-free.
+  - Floors are asserted only after the safe-side ingredient-classification review.
+- **Answer roles.**
+  - Lens and seed colour never score archetypes.
+  - Flavours act only as a bounded pour-level fit.
+  - H4 timing and status are browser-only and unscored until playtests justify them under a new answer version.
+- **Privacy.**
+  - The trace and anything derived from it never leave the browser.
+  - The name never reaches the LLM.
+  - Personal readings are never persisted or shown on a pour link.
+  - Model diagnostics (per-group contributions, margins) never reach the journey, the logs or the LLM.
+- **No generated recipes.** The legacy generator (`mixology.ts` / `cocktails.ts`) and the fixed `VISIONARY_SAMPLE` reveal retire from the normal journey. Nothing may silently replace an authored recipe.
+- **Intake changes.** Any change to the H3 control type, the H5 round semantics, or a vocabulary requires a matching sign-off and a coverage re-run.
+- **Voice.** Mystical, sophisticated, theatrical, intimate. The anti-references are flat SaaS tone, cartoonish magic and generic menu copy. English only.
 
 ## Non-goals
 
-- Choosing the runtime/orchestration technology (n8n vs in-app vs hybrid) — that is `bmad-create-architecture`.
-- Building or restyling the quiz UI, canvas animation, or design system — owned by the WDS track.
-- Real-time generative recipe creation or runtime ingredient substitution — explicitly out (serve-only).
-- Allergen/dietary accommodation, ordering, delivery, e-commerce, or account/auth systems.
-- A general cocktail database, bartending tutorial, or inventory-management tool.
-- Multi-language output at launch (English only).
+- Claiming psychological validity: the questionnaire is a reflection, not an assessment.
+- Zero-proof or allergen-substituted variants, runtime recipe generation or ingredient swaps.
+- Runtime image generation. Images are pre-made per pour (`persona-image-system.md`).
+- Accounts, ordering, e-commerce, multi-language, per-hold funnel analytics.
+- Visual and interaction design of the holds (WDS track). This spec fixes only what they must capture.
+- Equalising outcome frequencies for its own sake.
 
 ## Success signal
 
-A first-time *Curious Esthete* finishes the quiz and, in-session, is handed a cocktail framed so precisely to their answers that they feel *seen* — enough to download the recipe card or share the result. Measured by the WDS targets (>80% quiz completion, high recipe-card download/share rate) and, on the real persona fixtures, a human reviewer agreeing the chosen personality and the "why you" are unmistakably that person's.
+- A first-time guest finishes the journey and receives, in-session, the authored cocktail of a pairing chosen from their answers (not the fixed pilot), with a `yours` passage woven from their answers. They share or save it.
+- Before release, the CAP-8 report shows all 132 pairings at least reaching the shortlist.
+- The coverage, fallback, veto, floor and privacy tests pass.
 
 ## Assumptions
 
-- The "New Revamped Questionnaire" (minus the now-removed exclusions question) is the canonical current intake. The persona fixture docs (Florence Boudot, Margot, …) use an older questionnaire and are legacy input fixtures.
-- "132 personalities" = 12 archetypes × 11 named personas (PERSONALITY sheet, rows 3–135).
-- The Psychologist's "two candidate persona profiles" are an intermediate reasoning step; the contract output is the single chosen personality.
-- Flavours/vessel/colour/trace feed selection as secondary signal and the Bartender's framing — they do not change the (fixed) recipe.
-- English-only at launch.
-- The 132 base 3D cocktail renders are produced by a separate asset-generation step and referenced by id.
+- The live journey is the only intake. The archived questionnaire docx and the persona fixtures are not inputs.
+- The answer models in distribution-v1.md (uniform, hesitant, coherent) describe the model, not the audience. Playtests replace them.
+- The flavour-rule table is a reasonable first pass until Tomás reviews it.
 
 ## Open Questions
 
-- Historian list size: how many cocktails and ingredients should the Historian surface per persona while authoring (Tier A)?
-- Image personalization: name + favourite colour only, or more (e.g. a generated note/garnish)? Where do the 132 base 3D renders originate?
-- Questionnaire consolidation: standardize on the revamped questionnaire (now minus exclusions) and migrate/re-collect the fixtures; reconcile the prompt count.
+- **Q12 question edit.** H5 drawnToward (now asked second) would drop Mischief and add Knowledge, Influence, Making and Caring, for 12 words. Robin to confirm the copy; the design owner to check 12 spheres on phones.
+- **Approved-only or all authored for the first release?** With approved-only, 4 pours ship today, 3 of them veto-free, which meets the floor but makes matching nearly moot.
+- **Bartender final-choice fixtures.** Which reviewed shortlist cases count as evidence that the LLM's pick is sensible? This is a playtest design question.

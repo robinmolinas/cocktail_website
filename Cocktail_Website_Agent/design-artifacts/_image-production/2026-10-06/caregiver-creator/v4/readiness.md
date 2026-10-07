@@ -1,0 +1,1 @@
+Full220-line current dossier and4-line physical spec read before targeted built-in supporting-object edit. Recipe/editorial status unchanged. Actual1672×941 verified; exact generated source preserved; coordinator exports.

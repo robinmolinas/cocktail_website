@@ -9,6 +9,13 @@ mode: batch            # pour | batch | rework
 
 # The room: The Stand-up (jester-regular-guy)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** routine P1s (Q005).
+- **Edits** (before → after, short): recipe, dried apricots note (Q005): "Check the pack: dried fruit is often packed alongside nuts" → "Check the pack for a nut warning." · yours 4 (Q022): "for an afternoon" → "for several hours" · whoYouAre ¶2 (variety, V2, and the family review's *Anyway* cadence note): "And here's what it does for people: they go home feeling a little less strange than when they came. That matters more than the laugh." → "And people go home feeling a little less strange than when they came. You did that, with one true sentence."
+- **Left for Robin:** none.
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex Whisky Highball (p. 199: 10.0%, and its 2:5 at 11.4%; the pair is 10.2%). Nothing else changed.
+- **Tomás (Codex pass / open items, 2):** **Shared row `apricot_steeped_rye` → none** (D1/check 4: Hester found no source for "dried fruit is packed alongside nuts"). `contains` `["gluten", "nuts"]` → `["gluten"]` in the frontmatter and cocktail block; still not veto-free (the pilsner). Recipe note → "If you avoid nuts, check the pack for a nut warning." Allergens anchor row, Checks › Allergens and an Open items Resolved bullet updated. `allergens.py` → `["gluten"]`, matches. Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) · [x] image brief
 - **Last change to the pour:** r6

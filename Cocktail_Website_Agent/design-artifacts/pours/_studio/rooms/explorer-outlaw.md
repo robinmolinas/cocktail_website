@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Trailblazer (explorer-outlaw)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine items (grant the legend before correcting it).
+- **Edits** (before → after, short): yours 1 (Q020): "You may have heard Lee invented it. He didn't." → "You may have heard Lee invented it. It's often told that way, but he didn't." (fact unchanged: Proper p. 275, F12).
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Fine by Me (all three)) · [x] image brief
 - **Last change to the pour:** r6 step a (Wren v3, Tomás spec v1.2)

@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Quest Seeker (hero-explorer)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 (variety rules).
+- **Edits** (before → after, short): whoYouAre ¶2 (D13 V1, the fear said straight; the tagline already makes the "Far doesn't scare you" turn): "It isn't, quite. You've never claimed to be fearless, and the climb was never what stopped you. What you dread is finished…" → "It isn't, quite. What you dread is finished…". yours 3 (D13 V3): "I like to think the pine was never the whole point." → "The pine was never the whole point, I like to think."
+- **Left for Robin:** Q112 Zirbenz note "so it's marked nuts to be safe" (Hester to confirm the wording within G12).
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (v1: Seed card; story anchors; drink rows pending) · [x] drink + four checks (v1: Zirbenz/aged rum hot toddy, allspice dram spark; hot 12.5% balanced; contains nuts (Zirbenz); Zirbenz sugar unsourced (proved both ways)) · [x] reading (v1) · [x] fact audit (v1 (on reading v2 + draft): H1–H6 Wren, H7–H8 Tomás open) · [x] resonance test (v3: ready) · [x] names (≥3 + pick) (Someone Else's Map (all three); What's Next second) · [x] image brief (v1)
 - **Last change to the pour:** r5: reading v3 (H1–H6), draft Checks H7–H8, image brief

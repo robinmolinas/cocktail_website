@@ -9,6 +9,14 @@ mode: batch            # pour | batch | rework
 
 # The room: The Campaigner (caregiver-outlaw)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine items (Robin 2026-10-06); no D-card touches this pour.
+- **Edits** (before → after, short): cocktail block (Q101, part): deleted the repeated "**Glassware:** tall (Collins) glass… / **Contains:** dairy, nuts" lines under the recipe (the `glassware` and `contains` bullets already carry both).
+- **Left for Robin:** the rest of Q101: the jaggery note clause ("Some makers clean it with milk or with groundnut extract…") and a keeping time for the syrup, both waiting on Hester/Tomás to verify against `jaggery_syrup` and set the time.
+- **Tomás (Codex pass / open items):** **Q101 (rest) and a shared-row change:** under Robin's evidence rule (D1), dairy is dropped from `jaggery_syrup` (milk clarification was my own memory; Hester's F20 lists no milk), so `contains` `["dairy", "nuts"]` → `["nuts"]` in the frontmatter and cocktail block. Recipe note → "…in place of white sugar. Some makers clean it with plant extracts, groundnut among them, so it's marked nuts to be safe." Method 1 → "Keep it in the fridge and use it within two weeks." (Codex p. 45). Checks › Allergens and Makeable updated; Open items Resolved bullet. `allergens.py` → `["nuts"]`, matches. Still not veto-free. Lint 0 errors.
+- **Hester (open items):** Q101 rest: Tomás's recipe-note clause (plant clarifiers, groundnut among them) passes on F20; the queue's milk wording rejected (no page names milk). Open items "Not veto-free" bullet brought into line with `nuts` only. Suggestion for Tomás, not applied (his recipe): "groundnut (peanut)". Fact audit CR1–CR2. Lint 0 errors.
+- **Tomás (Codex pass / open items, 2):** Recipe note, Hester's suggestion taken: "groundnut among them" → "groundnut (peanut) among them", so a guest who knows the allergy as peanut can't miss it. Lint 0 errors; `contains` unchanged (`["nuts"]`).
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Elizabeth Heyrick, Immediate, not Gradual Abolition (1824): change the sugar, don't remove it) · [x] drink + four checks (v4 = v2 restored: Tom Collins, jaggery syrup) · [x] reading (psychologist-reading-v3.md: v1 + X1 + headings) · [x] fact audit (historian-audit.md, r6 re-check: pass) · [x] resonance test ("People think it comes easily to you. It doesn't.") · [x] names (≥3 + pick) (Not Too Polite (all three)) · [x] image brief
 - **Last change to the pour:** round 6 (reading v3: X1 fix; Checks 57 g wording)

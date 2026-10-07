@@ -1,0 +1,5 @@
+# Original-resolution review — candid held candidate
+
+Actual1672×941 source inspected.368px complete glass,676px complete visible group. Conservative recognizable pouch opening/repaired face plus WHOLEglass/paper needs666px. The702px proposed portrait retains depictedobjects, not the389px moving-phone window. Most importantly, the separate removed old zipper is GONE: the pouch’s attached working pull is NOT a second personaltrace. Missing trace recorded explicitly with null bounds; no anonymous part is reclassified to pass.
+
+Pale amber brandy/gooseberry serve with ONElargecube, NOgarnish/foam remains physically faithful. Cube has broad faces but dense trapped-air/wet/sparkly detail. Tag now body-tied, loose outside with gap and blank, clean axis only117px. Neutral room survives and wood is flatter than batch04, but pronounced warm glossy right reflection and coarse torn repair remain material concerns. The repair-and-retention choice is a practical inference from necessary change/keeping what gave way, not literal biography; retained-part message no longer visible. Sole correction exhausted; not accepted, no export/browser/integration.

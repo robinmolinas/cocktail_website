@@ -1,0 +1,73 @@
+{
+  "pairing": "sage-magician",
+  "pour": "Plain to See",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-magician/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-07fd24d6-47ef-409f-a51d-03a5a3d23a5e.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "69fa19e99136ba47bcd1dae293e2ab75ed61b91731d655c88ff9e0be53f5feca",
+  "specSha256": "5aeff4ffb235727d1c74407e92b573e8ca39be17d809757ec2dbb62f6d7a9d4d",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    601,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 925,
+    "cy": 657,
+    "w": 166,
+    "angle": 0.5
+  },
+  "glass": {
+    "x": 1044,
+    "y": 555
+  },
+  "bounds": {
+    "glass": {
+      "x0": 945,
+      "y0": 431,
+      "x1": 1145,
+      "y1": 675
+    },
+    "paper": {
+      "x0": 827,
+      "y0": 629,
+      "x1": 1035,
+      "y1": 687
+    }
+  },
+  "recognitionRegions": {
+    "workingCard": {
+      "x0": 776,
+      "y0": 451,
+      "x1": 949,
+      "y1": 596
+    },
+    "pencil": {
+      "x0": 751,
+      "y0": 562,
+      "x1": 950,
+      "y1": 625
+    }
+  },
+  "review": {
+    "recipe": "Plain freezer-chilled tumbler, deep amber faint haze, expressed orange peel inside, no serving ice/foam/rim/bubbles. Fill slightly above half, plausible110.1ml in200ml; cold mist at upper glass distinct from liquid.",
+    "personality": "Blank creased working-card reverse and worn pencil infer repeated careful walkthrough before sharing an idea; ordinary readable traces, no diagram or pseudo-writing.",
+    "world": "Pulled-back old walnut room with plain low-satin mostly flat table, dark neutral left, restrained lamp; right reflection still warmer/glossier than target.",
+    "issues": [
+      "Essential union394px exceeds350px target and is marginally wider than approximately389px maximum-breathing tall-phone window; actual phone motion/name readability deferred.",
+      "Glass244px high, below intended280–340px; usable tag166px, short of170px minimum target.",
+      "Warm/glossier far-right lamp reflection persists; pencil eraser partly hidden at glass edge; distant second practical visible."
+    ]
+  },
+  "status": "measured-master-candidate;not-accepted;browser-deferred"
+}

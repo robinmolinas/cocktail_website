@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "batchId": "pilot-caregiver-innocent-v4",
+  "status": "ready",
+  "createdAt": "2026-10-06T18:00:31.490Z",
+  "producer": {
+    "threadId": "01a0e301-82a5-7e13-9270-2810eceb62e0",
+    "hostId": "local",
+    "integrationOwner": "producer only"
+  },
+  "reviewScope": "Representative browser/layout pilot, not production release. Root actual JPEG candidate material/person review complete. Other held candidates are not released by this pilot.",
+  "candidates": [
+    {
+      "pairing": "caregiver-innocent",
+      "version": "v4",
+      "pour": "Before the Room",
+      "source": {
+        "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/caregiver-innocent.md",
+        "sha256": "1e16f17d4f994c89049a4443fd3129e8dbd4d05445533719f297cbfe8a0e3fc1"
+      },
+      "files": {
+        "master.png": {
+          "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/master.png",
+          "sha256": "cc64150fd73f04b52f49378167761d065388a3762a3cd9fde5a4330fd78fba0e"
+        },
+        "wide.jpg": {
+          "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/wide.jpg",
+          "sha256": "dfefca6a89c9dd2017752cc2c878593a44cfe8c5777baa740acaa9c661035e95"
+        },
+        "portrait.jpg": {
+          "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/portrait.jpg",
+          "sha256": "9c286229d64a1ddca36f100210d4123913a4cca3b4fecfa9f0837a1f9d02438e"
+        },
+        "metadata.json": {
+          "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/metadata.json",
+          "sha256": "a8bc143c352be51797e5a540fd179e5b2221a21b69887c096c4888787019317a"
+        },
+        "measurements.json": {
+          "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/measurements.json",
+          "sha256": "ff613ea1f4e924d04034b0b84ad839aef96f4f05b58ed61f98e45e6bdfaf1080"
+        },
+        "export-review.md": {
+          "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/export-review.md",
+          "sha256": "ee54e0936cb9577d4faccb91402c1f49eb95eab25c3dc08283422291268e5d82"
+        },
+        "prompt.md": {
+          "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/prompt.md",
+          "sha256": "a093e916850a9f7a90b39a1f7eb001e9d5db03d90b128d00ac876a7cce717854"
+        },
+        "readiness.md": {
+          "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/readiness.md",
+          "sha256": "323edbf060c6369d5ba49313cfef900ee5e2e27499058970ea6e12a213653ed1"
+        }
+      },
+      "essentialRecognitionRegions": [
+        "coatCollarAndLapelledFront",
+        "foldedReadyHandkerchief"
+      ],
+      "optionalEvidence": [
+        "wallet",
+        "full coat extent",
+        "full handkerchief extent"
+      ],
+      "knownRisks": [
+        "Tight approximately five-master-pixel left glass breathing clearance; actual masks must be checked.",
+        "Old v2 phone captures show copy/tag overlap; v4 authored-copy layout is unverified.",
+        "Dense bubbles/right practical warmth need independent real-image judgment."
+      ],
+      "metadataStatusCaveat": "Historical exporter label and stale issue strings are not release evidence; use root-review.md and export-review.md."
+    }
+  ],
+  "runtimeInputs": [
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/src/components/TheReading.tsx",
+      "sha256": "084a11c7fe9706b44f42a5393ec867e67445f29a301f6affca9709bcd1b105e6"
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/src/index.css",
+      "sha256": "d57ec315347691d2f3849ad43a1524dde2825ff81d945b2faf1d828dd3f2e2b0"
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/src/data/personas.ts",
+      "sha256": "dd2a85bc1f4b135b12efa913a21f3ee0b7ce8fddd23fb8c8c384a496198068ca"
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/src/data/sampleResult.ts",
+      "sha256": "c968300a42f0bf7a5f7050f4cfceea0acbb71744c396683f5b6f8d685f8c311c"
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/output/playwright/image-review.tsx",
+      "sha256": "5e57c5ebd766ac8a85ddd07f47e575830f7f1c1549e4a5a42b47e3c5008f9596"
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/output/playwright/image-review.html",
+      "sha256": "91d420b795c1d651629e04f29d17f1d8034c081a1f61b14b097aa0a9b296aa76"
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/output/playwright/review-vite.config.ts",
+      "sha256": "fb630e6e6dd0046852fc22bb4c2c3fa61ce025a50b07e0f750339a4f10712fd3"
+    }
+  ],
+  "viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1440,
+      900
+    ],
+    [
+      2048,
+      1036
+    ],
+    [
+      3440,
+      1440
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      430,
+      932
+    ],
+    [
+      320,
+      568
+    ]
+  ],
+  "names": [
+    "Ada",
+    "Alexandria-Rose"
+  ],
+  "reviewRequirements": [
+    "Use current actual TheReading/CSS with authored pour title, personality, tagline and reading. Existing fixture placeholders must not be used as authored-copy proof.",
+    "Record actual font identity and readiness; inspect writable paper excluding hole/string and actual ink, not only bounding boxes.",
+    "Check rest, reduced motion, arrival, breathing endpoints/intermediates and scrolling. Named/bare comparison captures use identical animation phase.",
+    "Inspect both original JPEGs and rendered full pages for recipe, materials, whole vessel/paper and two recognizable personality traces.",
+    "Record browser/console/resource failures; verify candidate not fallback.",
+    "Recheck request, image, pour and runtime fingerprints before completion. Changes make report stale; never modify immutable request."
+  ],
+  "resultDirectory": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/browser-review/results/pilot-caregiver-innocent-v4",
+  "screenshotDirectory": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/output/playwright/browser-review/pilot-caregiver-innocent-v4",
+  "expectedResultFiles": [
+    "report.md",
+    "result.json"
+  ],
+  "dispositions": [
+    "PASS",
+    "FAIL",
+    "BLOCKED"
+  ],
+  "callback": "Send producer chat one completion message with batch ID, disposition, absolute report path and key findings. PASS is browser gate only, never overall release."
+}

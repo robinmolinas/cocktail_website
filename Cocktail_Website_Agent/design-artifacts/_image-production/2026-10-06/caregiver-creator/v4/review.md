@@ -1,0 +1,1 @@
+Original-resolution master inspected. Existing glass and tag retained; props moved into intimate cluster. Drawer and folded linen now at left of hero, cordial bottle behind right. Narrow phone crop is deliberately left enough to keep drawer knob and folded hem while full glass+paper retained. Actual pair/seven-cover checks pending, browser unavailable.

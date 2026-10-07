@@ -1,0 +1,13 @@
+# Say So / The Diva — batch 05 source prompt
+
+Built-in image generation; new image. Source-ready physical serving, not editorial acceptance.
+
+Create one natural editorial photograph, landscape 16:9, for Dionysus's "Say So / The Diva". Photograph a real drink in an old, quiet hotel reading-room bar; no illustration, decorative magic, generated lettering, collage or multiple panels.
+
+Drink: a chilled plain clear LARGE V-SHAPED 250 ml Martini cocktail glass, pointed angular bowl on a slender stem, not a rounded coupe. A clear, pale straw-gold vermouth/gin/sweet white wine Martini, approximately 141 ml, no serving ice, no foam. One thin yellow LEMON peel, expressed and dropped INSIDE the drink. This is a light transparent wine-coloured drink, not an orange whiskey cocktail.
+
+Compose the full glass just right of centre, glass about 31–34% of frame height. Leave the left 35% quiet and dark for interface copy. Just behind the glass are two ordinary personal traces: one real 7-inch vinyl single partly slid from a plain cream paper sleeve (unprinted label), and one used linen dinner napkin carefully refolded, muted burgundy and cream. They are real full-sized objects, foreshortened on the counter and overlapping in depth into a compact grouping, not miniature props spread across the frame. They suggest someone who notices and improves the music and the table, for everyone, rather than an ingredient display. Keep the record recognisable and both traces visible beside/behind the vessel.
+
+Attach a plain blank cream paper luggage tag to the STEM with one continuous fine dark burgundy cord passing through its punched hole. The tag hangs loosely beside and LEFT of the stem, separated from the glass silhouette by visible air. Its broad face does not touch or paste onto glass. Large blank writing area with long axis roughly 180 pixels on a 1672-pixel-wide frame, hole and cord kept at one end. No writing, no second tag, no metal clip. Glass, tag and both habit objects should form a compact roughly 360–400px-wide group at that frame size.
+
+Flat plain dark walnut counter with subdued low-satin finish, sparse genuine contact wear, no deep wavy polished grain. A softly out-of-focus old upholstered chair and shaded warm lamp in the back; near-black neutral shadows, cream highlights, touches of burgundy. Restrained diffuse practical light, no blanket orange grade, glowing outlines, harsh spotlight, HDR shine, ornamental etched glass, excessive staged dirt or condensation. Ordinary believable optical reflections and imperfect linen; this should feel like a photograph in the same quiet warm-dark room, not a luxury advertising render.

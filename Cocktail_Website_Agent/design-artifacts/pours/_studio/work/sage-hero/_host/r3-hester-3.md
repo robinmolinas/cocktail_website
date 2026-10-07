@@ -1,0 +1,1 @@
+📜 **Hester:** Done: `historian-anchors.md` now leads with the assembler table (`| kind | fact | meaning | speaksTo |`), with the numbering, sources and audit notes in a trail table below it. No fact changed, except that A7 now drops my "not the first such bar" gloss, matching audit X6.

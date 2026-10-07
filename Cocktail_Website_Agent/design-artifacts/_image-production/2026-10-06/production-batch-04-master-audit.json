@@ -1,0 +1,778 @@
+{
+  "id": "production-batch-04-master-audit",
+  "date": "2026-10-07",
+  "receiptKind": "read-only actual PNG/source/spec/original audit; not JPEG/browser/material approval",
+  "sceneCount": 7,
+  "sourceCurrent": 7,
+  "specCurrent": 7,
+  "exactOriginalCopies": 7,
+  "proposedCropExtents": 7,
+  "tagAxisExtents": 7,
+  "noExports": true,
+  "countsBefore": {
+    "generated": 42,
+    "exported": 27,
+    "pending": 15,
+    "ungenerated": 73
+  },
+  "items": [
+    {
+      "folder": "sage-creator/v2",
+      "pairing": "sage-creator",
+      "pour": "What It Rests On",
+      "sourceSha256": "1f6f922190e27c724a248586df74e799cc7e3c33faccc84ce46ed960effa70fa",
+      "specSha256": "12fe4894bbd2afd62132061b0c888c94527d8a59e350cb3fe7a4cf2b26063ca2",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "ff41410a2aaee9000caa2bb4ec6344dbc42c2947b8f2fd6fda8e0136db211653",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-4ae9ff70-6ae6-44b9-b525-252955148f48.png",
+      "generatedSourceMatches": true,
+      "master": "sage-creator/v2/master.png",
+      "prompt": "sage-creator/v2/prompt.txt",
+      "readiness": "sage-creator/v2/readiness.md",
+      "provenance": "sage-creator/v2/provenance.json",
+      "measurements": "sage-creator/v2/measurements.json",
+      "ownerReview": "sage-creator/v2/review.md",
+      "rootReview": "sage-creator/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        608,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 955,
+        "cy": 642,
+        "w": 156,
+        "angle": -24
+      },
+      "glass": {
+        "x": 1085,
+        "y": 535
+      },
+      "bounds": {
+        "glass": {
+          "x0": 953,
+          "y0": 366,
+          "x1": 1224,
+          "y1": 726
+        },
+        "garnish": {
+          "x0": 1163,
+          "y0": 364,
+          "x1": 1263,
+          "y1": 478
+        },
+        "paper": {
+          "x0": 862,
+          "y0": 572,
+          "x1": 1070,
+          "y1": 704
+        },
+        "pouch": {
+          "x0": 650,
+          "y0": 306,
+          "x1": 1120,
+          "y1": 619
+        },
+        "foldedSheet": {
+          "x0": 751,
+          "y0": 384,
+          "x1": 1032,
+          "y1": 628
+        }
+      },
+      "recognitionRegions": {
+        "pouchOpeningAndRepair": {
+          "x0": 650,
+          "y0": 306,
+          "x1": 1112,
+          "y1": 616
+        },
+        "foldedSheetAndElastic": {
+          "x0": 751,
+          "y0": 384,
+          "x1": 1032,
+          "y1": 628
+        }
+      },
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "hero-outlaw/v2",
+      "pairing": "hero-outlaw",
+      "pour": "No Promises",
+      "sourceSha256": "10913c8471b031a78342c8a791f8a3d1de018fcc17ccaaa836a32e6751fcca59",
+      "specSha256": "28cbfd7abb4df6683afb8a438a739c0788a79177b16684e1f39fe7d18898672f",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "3434d85882fdcb3b1f5afe41dbcff2e73bcd53601a150c1dac972718d5c0dbfa",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-b846f9be-0a21-4482-b11e-3e0e3adbbb51.png",
+      "generatedSourceMatches": true,
+      "master": "hero-outlaw/v2/master.png",
+      "prompt": "hero-outlaw/v2/prompt.txt",
+      "readiness": "hero-outlaw/v2/readiness.md",
+      "provenance": "hero-outlaw/v2/provenance.json",
+      "measurements": "hero-outlaw/v2/measurements.json",
+      "ownerReview": "hero-outlaw/v2/private-review.md",
+      "rootReview": "hero-outlaw/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        770,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1162,
+        "cy": 629,
+        "w": 148,
+        "angle": 80
+      },
+      "glass": {
+        "x": 946,
+        "y": 552
+      },
+      "bounds": {
+        "glass": {
+          "x0": 794,
+          "y0": 379,
+          "x1": 1098,
+          "y1": 724
+        },
+        "paper": {
+          "x0": 1091,
+          "y0": 520,
+          "x1": 1229,
+          "y1": 729
+        },
+        "cargoStrap": {
+          "x0": 1084,
+          "y0": 401,
+          "x1": 1445,
+          "y1": 672
+        },
+        "vanKey": {
+          "x0": 1294,
+          "y0": 502,
+          "x1": 1447,
+          "y1": 694
+        }
+      },
+      "recognitionRegions": {
+        "cargoStrap": {
+          "bounds": {
+            "x0": 1096,
+            "y0": 401,
+            "x1": 1438,
+            "y1": 660
+          },
+          "reason": "Attached working ratchet and adjoining coiled webbing, not a clasp fragment alone."
+        },
+        "vanKey": {
+          "bounds": {
+            "x0": 1294,
+            "y0": 502,
+            "x1": 1447,
+            "y1": 694
+          },
+          "reason": "Whole black grip, key-ring opening, shaft and teeth remain visibly recognizable."
+        }
+      },
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "ruler-regular-guy/v2",
+      "pairing": "ruler-regular-guy",
+      "pour": "One Table",
+      "sourceSha256": "e51650b108237de2aea282ea5e7b9085c1f70a9a57c97713c059a7e396dc5328",
+      "specSha256": "9f26d81cdc9b32370eab7816e7b21cdaab90011ab71b1d44717cf2ecf52f898d",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "b00a5dd42714227d671856f00fe1fa04fe96e10b04c118e3e3089203d2c52d11",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-06a9ebc5-6348-4145-b999-f9e11411a969.png",
+      "generatedSourceMatches": true,
+      "master": "ruler-regular-guy/v2/master.png",
+      "prompt": "ruler-regular-guy/v2/prompt.txt",
+      "readiness": "ruler-regular-guy/v2/readiness.md",
+      "provenance": "ruler-regular-guy/v2/provenance.json",
+      "measurements": "ruler-regular-guy/v2/measurements.json",
+      "ownerReview": "ruler-regular-guy/v2/private-review.md",
+      "rootReview": "ruler-regular-guy/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        650,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1256,
+        "cy": 602,
+        "w": 159,
+        "angle": 83
+      },
+      "glass": {
+        "x": 1079,
+        "y": 513
+      },
+      "bounds": {
+        "glass": {
+          "x0": 937,
+          "y0": 320,
+          "x1": 1221,
+          "y1": 704
+        },
+        "paper": {
+          "x0": 1195,
+          "y0": 484,
+          "x1": 1311,
+          "y1": 708
+        },
+        "dinnerNapkin": {
+          "x0": 680,
+          "y0": 470,
+          "x1": 946,
+          "y1": 652
+        },
+        "dinnerFork": {
+          "x0": 787,
+          "y0": 446,
+          "x1": 939,
+          "y1": 626
+        }
+      },
+      "recognitionRegions": {
+        "dinnerNapkin": {
+          "bounds": {
+            "x0": 711,
+            "y0": 494,
+            "x1": 944,
+            "y1": 650
+          },
+          "reason": "Substantial folded/hemmed navy linen with enough cloth face to identify a used napkin, not only a cropped edge."
+        },
+        "dinnerFork": {
+          "bounds": {
+            "x0": 787,
+            "y0": 446,
+            "x1": 939,
+            "y1": 626
+          },
+          "reason": "All tines, connected neck and handled grip visible as an ordinary dinner fork."
+        }
+      },
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "innocent-ruler/v2",
+      "pairing": "innocent-ruler",
+      "pour": "Whole World",
+      "sourceSha256": "7a265fefc7b90014c49661c0371c85827ccadc2cb95b4c243dd3024e6966c492",
+      "specSha256": "9de665be53d17d2ff19977f1ca7efa9c6b73afeb482baf5e72414e62d62e78a4",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "f0de9cff9c1e009703d33706426d522fe152518964060aecff03da078189764b",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-967b88ef-d7ce-48a0-9913-18bbbdab161c.png",
+      "generatedSourceMatches": true,
+      "master": "innocent-ruler/v2/master.png",
+      "prompt": "innocent-ruler/v2/prompt.txt",
+      "readiness": "innocent-ruler/v2/readiness.md",
+      "provenance": "innocent-ruler/v2/provenance.json",
+      "measurements": "innocent-ruler/v2/measurements.json",
+      "ownerReview": "innocent-ruler/v2/master-review.md",
+      "rootReview": "innocent-ruler/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        773,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1249,
+        "cy": 605,
+        "w": 156,
+        "angle": 14.7
+      },
+      "glass": {
+        "x": 1106,
+        "y": 397
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1008,
+          "y0": 330,
+          "x1": 1204,
+          "y1": 665
+        },
+        "paper": {
+          "x0": 1134,
+          "y0": 543,
+          "x1": 1341,
+          "y1": 668
+        }
+      },
+      "personalityBounds": {
+        "patchedTube": {
+          "x0": 907,
+          "y0": 527,
+          "x1": 1107,
+          "y1": 634
+        },
+        "bicycleBell": {
+          "x0": 942,
+          "y0": 461,
+          "x1": 1085,
+          "y1": 550
+        }
+      },
+      "recognitionRegions": {
+        "patchedTube": {
+          "x0": 907,
+          "y0": 527,
+          "x1": 1107,
+          "y1": 634
+        },
+        "bicycleBell": {
+          "x0": 942,
+          "y0": 461,
+          "x1": 1085,
+          "y1": 548
+        }
+      },
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "regular-guy-sage/v2",
+      "pairing": "regular-guy-sage",
+      "pour": "Tried and True",
+      "sourceSha256": "cc3815ac1fd8187d465a2978169b823eb45c402ad018af7e42186b8b55ecb64e",
+      "specSha256": "1b916f3d962d024803aa93d1b29f90882348a0b11770a963d9272dcaf5caec66",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "514a610de39ab4431283911853d2b2b72aa7cdda84cf748d7631bc2c4ce23ea5",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-bb86c2c2-98ad-43a7-bb20-eb608fbce1e0.png",
+      "generatedSourceMatches": true,
+      "master": "regular-guy-sage/v2/master.png",
+      "prompt": "regular-guy-sage/v2/prompt.txt",
+      "readiness": "regular-guy-sage/v2/readiness.md",
+      "provenance": "regular-guy-sage/v2/provenance.json",
+      "measurements": "regular-guy-sage/v2/measurements.json",
+      "ownerReview": "regular-guy-sage/v2/master-review.md",
+      "rootReview": "regular-guy-sage/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        828,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1350,
+        "cy": 660,
+        "w": 164,
+        "angle": 14.4
+      },
+      "glass": {
+        "x": 1200,
+        "y": 470
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1092,
+          "y0": 406,
+          "x1": 1309,
+          "y1": 737
+        },
+        "paper": {
+          "x0": 1231,
+          "y0": 585,
+          "x1": 1453,
+          "y1": 722
+        }
+      },
+      "personalityBounds": {
+        "addressBook": {
+          "x0": 905,
+          "y0": 592,
+          "x1": 1246,
+          "y1": 707
+        },
+        "fountainPen": {
+          "x0": 940,
+          "y0": 569,
+          "x1": 1184,
+          "y1": 635
+        }
+      },
+      "recognitionRegions": {
+        "addressBook": {
+          "x0": 905,
+          "y0": 592,
+          "x1": 1246,
+          "y1": 707
+        },
+        "fountainPen": {
+          "x0": 940,
+          "y0": 569,
+          "x1": 1184,
+          "y1": 635
+        }
+      },
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "regular-guy-explorer/v2",
+      "pairing": "regular-guy-explorer",
+      "pour": "Loose on Top",
+      "sourceSha256": "2805641f663321f63dc01309a59550fac8fc121318cbf0c5990dcdd6e5b0ce6c",
+      "specSha256": "8927620091dfdfbf2e27433c9b07d48a3bd75df08fdab65b365c575d07bba8ef",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "85195cc9e7580e62a8042ceba88f54fec86032f19ff7215ce4fb8f015d6b1733",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-f262522c-acb4-46c4-8b4b-2bcbab208f18.png",
+      "generatedSourceMatches": true,
+      "master": "regular-guy-explorer/v2/master.png",
+      "prompt": "regular-guy-explorer/v2/prompt.txt",
+      "readiness": "regular-guy-explorer/v2/readiness.md",
+      "provenance": "regular-guy-explorer/v2/provenance.md",
+      "measurements": "regular-guy-explorer/v2/measurements.json",
+      "ownerReview": "regular-guy-explorer/v2/review.md",
+      "rootReview": "regular-guy-explorer/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        739,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1238,
+        "cy": 612,
+        "w": 142,
+        "angle": 11.2
+      },
+      "glass": {
+        "x": 1101,
+        "y": 407
+      },
+      "bounds": {
+        "glass": {
+          "x0": 989,
+          "y0": 312,
+          "x1": 1220,
+          "y1": 671
+        },
+        "paper": {
+          "x0": 1133,
+          "y0": 555,
+          "x1": 1315,
+          "y1": 666
+        },
+        "garnish": {
+          "x0": 1128,
+          "y0": 284,
+          "x1": 1265,
+          "y1": 404
+        }
+      },
+      "personalityBounds": {
+        "cashPouchAndCoins": {
+          "x0": 826,
+          "y0": 436,
+          "x1": 1061,
+          "y1": 617
+        },
+        "foldedApronIncludingTies": {
+          "x0": 807,
+          "y0": 391,
+          "x1": 1368,
+          "y1": 604
+        }
+      },
+      "recognitionRegions": {
+        "pouchOpeningCoinsAndClosure": {
+          "x0": 832,
+          "y0": 436,
+          "x1": 1055,
+          "y1": 615
+        },
+        "apronFoldedBibAndTies": {
+          "x0": 897,
+          "y0": 391,
+          "x1": 1352,
+          "y1": 595
+        }
+      },
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false
+    },
+    {
+      "folder": "ruler-creator/v2",
+      "pairing": "ruler-creator",
+      "pour": "On Their Behalf",
+      "sourceSha256": "1df9787a81a8d6c54651ccbcbd9fb4b3b1222886e0b89e9e489f08696ef40143",
+      "specSha256": "8990be04c28207278cc101bfc083e32defec2d7da90905c09848aa30f8d53754",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "0bf8f4ac71a146d73398b3db5fb3eec50f9c45380ee9a1538f3d543dfa96f0ce",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-704f5339-15cd-4a37-8923-23cdaf2e54f6.png",
+      "generatedSourceMatches": true,
+      "master": "ruler-creator/v2/master.png",
+      "prompt": "ruler-creator/v2/prompt.txt",
+      "readiness": "ruler-creator/v2/readiness.md",
+      "provenance": "ruler-creator/v2/provenance.md",
+      "measurements": "ruler-creator/v2/measurements.json",
+      "ownerReview": "ruler-creator/v2/review.md",
+      "rootReview": "ruler-creator/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        777,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1162,
+        "cy": 614,
+        "w": 180,
+        "angle": 25.2
+      },
+      "glass": {
+        "x": 1015,
+        "y": 354
+      },
+      "bounds": {
+        "glass": {
+          "x0": 876,
+          "y0": 275,
+          "x1": 1154,
+          "y1": 706
+        },
+        "paper": {
+          "x0": 1033,
+          "y0": 529,
+          "x1": 1268,
+          "y1": 686
+        }
+      },
+      "personalityBounds": {
+        "oldBook": {
+          "x0": 878,
+          "y0": 474,
+          "x1": 1420,
+          "y1": 661
+        },
+        "foldedProofSheet": {
+          "x0": 1024,
+          "y0": 435,
+          "x1": 1408,
+          "y1": 570
+        },
+        "straightedge": {
+          "x0": 1079,
+          "y0": 436,
+          "x1": 1288,
+          "y1": 542
+        },
+        "pencil": {
+          "x0": 1139,
+          "y0": 428,
+          "x1": 1304,
+          "y1": 529
+        }
+      },
+      "recognitionRegions": {
+        "bookBindingAndPageBlock": {
+          "x0": 1245,
+          "y0": 541,
+          "x1": 1420,
+          "y1": 661
+        },
+        "proofSheetToolsAndFold": {
+          "x0": 1024,
+          "y0": 428,
+          "x1": 1408,
+          "y1": 570
+        }
+      },
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Master preserved from exact built-in output exec-cc6bee3c-da67-4db3-ba6b-0087a579f3b8.png. Plant now compact beside drink, but notebook/lens moved too far left; narrow-phone cover would trim lens face. Held rather than accepted. No exports. Final bounded v4 single-object correction moves a smaller hand lens beside stem/pot, preserving plant and drink/tag.

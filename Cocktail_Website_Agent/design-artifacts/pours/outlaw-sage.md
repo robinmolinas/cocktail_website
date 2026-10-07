@@ -71,11 +71,11 @@ Nobody says thank you in the moment. They should. An idea that's survived you ca
 
 2. Then, in February 2012, a Portland bartender, Jeffrey Morgenthaler, posted on his website that he made the best Amaretto Sour in the world. It opens: "No, really. I'm serious." And before he made his case, he gave the other side its due. Other Amaretto Sours were too sweet, he wrote, and amaretto on its own is weak. "It needs help." His help was cask-strength bourbon. Some readers teased him, and one asked whether it was still an Amaretto Sour at all.
 
-3. That's the move I recognise in you. He never pretended the old drink was good. He granted the point, then showed what the drink could be once it was answered. Two years later he tried the move from the other end, with a post called "Hot Toddies suck—long live the Hot Toddy", and a better way to keep one hot. And by 2021, the Oxford drinks companion's own entry on this drink was his. I like to think the teasing pleased him: it meant someone was arguing back.
+3. That's the move I recognise in you. He never pretended the old drink was good. He granted the point, then showed what the drink could be once it was answered. Two years later he tried the move from the other end, with a post called "Hot Toddies suck—long live the Hot Toddy", and a better way to keep one hot. And by 2021, the entry on the Amaretto Sour in the *Oxford Companion to Spirits and Cocktails* was his. I like to think the teasing pleased him: it meant someone was arguing back.
 
 4. The cocktail I've made for you is an Amaretto Sour, a classic again, built on his fix: an Italian amaretto, cask-strength bourbon for backbone, fresh lemon, and lightly whipped egg white, a spoonful of it, shaken and strained over fresh ice, with lemon oil over its thin white foam. Then I argued with him, as you would. He said the others were too sweet, so I took him further than he went: no syrup at all, a little less lemon to match, and the amaretto doing all the sweetening. And there's sherry vinegar in it, half a teaspoon, an ingredient I'd have to defend in most bars, in honour of the side nobody takes. Vinegar is one of the best partners nuts have in the kitchen, and here it keeps the sweetness honest.
 
-5. So here's my side, and I mean it. Keep testing everything: people are better for it, even the ones who sigh. But now and then, argue for something you actually love, and say plainly that it's what you think. No escape hatch, no "just for the sake of argument". Let them push back on you for a change. You may find your own ideas survive you too, and everyone else finally gets to argue with the real you.
+5. Here's my side, and I mean it. Keep testing everything: people are better for it, even the ones who sigh. But now and then, argue for something you actually love, and say plainly that it's what you think. No escape hatch, no "just for the sake of argument". Let them push back on you for a change. You may find your own ideas survive you too, and everyone else finally gets to argue with the real you.
 
 ---
 
@@ -147,6 +147,13 @@ I grepped all three new phrases ("admitting what was wrong", "the move from", "s
 - The "drink (ours)" row still said "a little syrup", left over from v1. It now gives the post's measures, says the syrup is out, the lemon is cut and the vinegar is in, all ours, and adds "never 'made his way'".
 - A11 now fences R3: "the others", never "most".
 - Grepped the anchors for "most were", "undiluted", "28%", "made his way" (as a claim) and "a little syrup": none remain.
+
+
+#### Collection review 2026-10-06 (Hester, open items)
+
+| ID | where | before | after | ruling and source |
+|---|---|---|---|---|
+| CR1 | y3 | "And by 2021, the Oxford drinks companion's own entry on this drink was his." | "And by 2021, the entry on the Amaretto Sour in the *Oxford Companion to Spirits and Cocktails* was his." | **Pass**, for the collection's Oxford item (one name, *the Oxford Companion to Spirits and Cocktails*, kept only where the book is part of the story). The book is part of the story here (anchor: "he wrote the entry", F4–F5, pdf 97). "This drink" straight after the Hot Toddy post could be read as the Toddy, so the drink is named. |
 
 ### Resonance
 

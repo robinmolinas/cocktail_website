@@ -1,0 +1,92 @@
+{
+  "pairing": "explorer-outlaw",
+  "pour": "Fine by Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-outlaw/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-447b9c7c-cc96-4f16-a6d7-012644ed485b.png",
+  "masterDimensions": [
+    1602,
+    981
+  ],
+  "masterSha256": "eae37d8929b90b8e3ca8776d4150de9e07903b9c0b4cac51a371e82b118d32b4",
+  "sourceSha256": "2e4b84294914bed5ffb1f0728b03fd603fe7a6d5b02e8710c8fdcf79f1aaf97c",
+  "specSha256": "c242ea39600435fab2011959caf3441b49fd437442be52f9790de965fdf8118c",
+  "wideCrop": [
+    0,
+    40,
+    1602,
+    900
+  ],
+  "portraitCrop": [
+    787,
+    0,
+    732,
+    980
+  ],
+  "tag": {
+    "cx": 1012,
+    "cy": 600,
+    "w": 190,
+    "angle": -1.5
+  },
+  "glass": {
+    "x": 974,
+    "y": 455
+  },
+  "bounds": {
+    "glass": {
+      "x0": 813,
+      "y0": 68,
+      "x1": 1135,
+      "y1": 844
+    },
+    "paper": {
+      "x0": 886,
+      "y0": 545,
+      "x1": 1121,
+      "y1": 653
+    },
+    "toolPouch": {
+      "x0": 1115,
+      "y0": 397,
+      "x1": 1602,
+      "y1": 765
+    },
+    "pliers": {
+      "x0": 1190,
+      "y0": 582,
+      "x1": 1602,
+      "y1": 821
+    }
+  },
+  "recognitionRegions": {
+    "toolPouch": {
+      "bounds": {
+        "x0": 1141,
+        "y0": 400,
+        "x1": 1523,
+        "y1": 625
+      },
+      "reason": "Folded pouch flap/open edge and stitched repair patch."
+    },
+    "pliers": {
+      "bounds": {
+        "x0": 1190,
+        "y0": 582,
+        "x1": 1470,
+        "y1": 711
+      },
+      "reason": "Complete visible jaws and functional pivot, handles continue to clipped right edge."
+    }
+  },
+  "review": {
+    "recipe": "Packed tall highball, pale amber liquid and one dropped orange peel, no fat/bacon/foam; cider effervescence overly dense.",
+    "personality": "Pouch repair and functional pliers recognizable but source clips complete props on far right.",
+    "world": "Dark timber room present; warm light and glass/ice remain too sparkling and wood too glossy.",
+    "issues": [
+      "Initial frame is 1602×981 rather than16:9, glass776px tall and y68–844; insufficient ultrawide clearance.",
+      "Whole visible object union789px and essential recognition710px cannot fit narrow moving phone.",
+      "Pliers/pouch reach source right edge; bounds record visible source extent, not invented complete objects.",
+      "Dense granular ice/glass highlights and amber wood remain material hold."
+    ]
+  }
+}

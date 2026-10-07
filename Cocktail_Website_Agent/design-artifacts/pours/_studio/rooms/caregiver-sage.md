@@ -41,6 +41,9 @@ mode: rework            # pour | batch | rework
 
 # The room: The Doctor (caregiver-sage) — rework
 
+## Collection review edits, 2026-10-06 (Hester)
+- **Hester (open items):** Collection Oxford item (Q039's aim): yours 1 parenthesis "(He edited the big Oxford book on spirits and cocktails that I lean on for these stories, so I'll own that.)" → "(Later he edited the *Oxford Companion to Spirits and Cocktails* and wrote its Old Tom entry, so some of what I tell you is his.)" The coincidence is still owned, without research talk; Q039's "best-known encyclopedia" was not used (no page). Fact audit CR1. Lint 0 errors.
+
 ## Round 1
 
 🪞 **Wren:** Round 1 of 5. The person doesn't change. Robin's edit is locked into whoYouAre: *"Kindly. But you ask it, because you know to ask from experience."* The tagline stays with it. My persona card from the first pour still holds — I'm not rebuilding the person, I'm finding the right mirror for them.

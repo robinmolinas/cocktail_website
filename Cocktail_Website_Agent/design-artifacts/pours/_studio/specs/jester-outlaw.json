@@ -1,0 +1,30 @@
+{
+ "pairing": "jester-outlaw",
+ "family": "old-fashioned",
+ "subfamily": "rum Old-Fashioned served up with no ice, after the 1806 definition (spirits, sugar, water, bitters; Imbibe! pdf 169, Oxford COCK-TAIL pdf 493) and the Codex root recipe (p. 5): aged Jamaican rum, the sugar given as banana liqueur, measured ice-cold water instead of melt (LI pp. 152-153: freezer the spirits, dilute with ice water at the last minute), Angostura",
+ "style": "freeform",
+ "glass": "small tumbler (about 200 ml), chilled in the freezer, no ice",
+ "serves": 1,
+ "version": "v1 (Tomás, round 2, 2026-10-04; wording v1.2 r4: Hester D2; drink unchanged). One change from the 1806 formula: the sugar arrives as banana liqueur, so the banana often already in aged Jamaican rum ('stewed banana flavor', Codex p. 110) is said up front. The Codex calls banana in a boozy drink something that 'once seemed questionable at best', until Giffard's liqueur 'far exceeded' the team's expectations (p. 35, Bananarac, Natasha David 2014: cognac and rye, the nearest published drink). No ice: 30 ml of ice-cold water measured in (LI pp. 152-153), as What It Rests On does. Judged freeform as served and by hand against Arnold's stirred finished band (as What It Rests On), with a stirred-on-ice cross-check. Rum 40-43% in band, 46% edge; banana liqueur sugar 20-30 g/100 ml in band, unsourced.",
+ "ingredients": [
+  {
+   "key": "rum_gold_jamaican",
+   "ml": 60
+  },
+  {
+   "key": "banane_du_bresil",
+   "ml": 20
+  },
+  {
+   "key": "angostura",
+   "dashes": 2
+  },
+  {
+   "key": "ice_water",
+   "ml": 30
+  }
+ ],
+ "garnish": [
+  "orange_peel"
+ ]
+}

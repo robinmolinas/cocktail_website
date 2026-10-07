@@ -1,0 +1,94 @@
+{
+  "pairing": "outlaw-innocent",
+  "pour": "Kept",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-innocent/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-170238bd-a54d-4c87-8def-4b9518239078.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "2f3a7362bc8085561f8f361a1955cc63070649beffb8db60d74ff61e1b2cc53a",
+  "sourceSha256": "4d826a6d73e4167cde3b99967ead209a59eb381d2be9eac82efc91e9eb9d3173",
+  "specSha256": "96eda36d939db02a3b9742e41812e3a019d580ebdfb73aad0931e584afe65073",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    639,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1143,
+    "cy": 550,
+    "w": 222,
+    "angle": -2.2
+  },
+  "glass": {
+    "x": 1110,
+    "y": 447
+  },
+  "bounds": {
+    "glass": {
+      "x0": 883,
+      "y0": 174,
+      "x1": 1337,
+      "y1": 716
+    },
+    "paper": {
+      "x0": 957,
+      "y0": 476,
+      "x1": 1289,
+      "y1": 615
+    },
+    "correspondence": {
+      "x0": 466,
+      "y0": 335,
+      "x1": 917,
+      "y1": 579
+    },
+    "letterOpener": {
+      "x0": 656,
+      "y0": 329,
+      "x1": 887,
+      "y1": 564
+    }
+  },
+  "recognitionRegions": {
+    "correspondence": {
+      "bounds": {
+        "x0": 466,
+        "y0": 351,
+        "x1": 847,
+        "y1": 579
+      },
+      "reason": "Broad envelope body, opened triangular flap and exposed blank letter reverse together; a paper edge is not sufficient."
+    },
+    "letterOpener": {
+      "bounds": {
+        "x0": 656,
+        "y0": 329,
+        "x1": 887,
+        "y1": 564
+      },
+      "reason": "Complete pointed metal blade and handled grip, not a metal sliver."
+    }
+  },
+  "review": {
+    "recipe": "Heavy rocks glass with clear deep gold-amber spirit drink, ordinary cloudy-centred cubes and one lemon peel dropped inside, no foam/bubbles. Top cube faces have ornate fine fracture sparkle rather than simple wet freezer faces.",
+    "personality": "Retained opened personal correspondence and opener infer private rechecking/keeping of a promise; actual promise is not shown. Plausible but not definitive, with generic correspondence risk.",
+    "world": "Dark timber room and neutral left shadows coherent, but table is heavily amber glossy with dense patterned wear and glass/ice highlights look product-like.",
+    "issues": [
+      "Held: oversized542px glass rather than pulled-back280–340px target.",
+      "Full union871px; proposed portrait clips substantial envelope, not all person evidence retained.",
+      "Ornate ice fracture detail/glowing amber table material hold.",
+      "Broad envelope/opening and complete opener are both necessary recognition; cannot fit phone389px.",
+      "No acceptance/export/browser/name-overlay test."
+    ]
+  }
+}
+

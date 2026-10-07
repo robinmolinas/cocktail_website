@@ -1,0 +1,28 @@
+{
+ "pairing": "lover-innocent",
+ "personality": "The Pure Heart",
+ "archetypes": "Lover × Innocent",
+ "date": "2026-10-04",
+ "batch": "lover",
+ "name": "Wide Open",
+ "tagline": "You've been hurt. You still love like you haven't.",
+ "epigraph": "A Japanese whisky, a whole egg, and a love story that began in Scotland.",
+ "glassware": "coupe (about 180 ml), chilled",
+ "contains": [
+  "egg-white"
+ ],
+ "veto_free": false,
+ "reading": "psychologist-reading-v3.md",
+ "card": "rita-taketsuru.md",
+ "language_row": "Wren's Resonance on reading v3: ready. Lint 0 errors; the three pronoun warnings (yours 1–3) are Masataka and Rita, never the guest, accepted by Wren in round 4. One lint-only fix in round 4 step 3 (yours 2: Ryu's 'I', not 'we', and off *A Place Kept*'s 'we don't know what'). No gendered words about the guest. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/rita-taketsuru.md`: *Oxford Companion* TAKETSURU, MASATAKA (pdf 1975), NIKKA (pdf 1391), WHISKY, JAPANESE (pdf 2156), JAPAN (pdf 1097), read whole; Itoh, *The Japanese Community in Pre-war Britain* (2001) and Ross, *The Whisky Dictionary* (2017), archive.org OCR fragments only, used as they stand (secondary). Drink: *Cocktail Codex* pp. 94, 240–241, 252–253 (the Flip; egg and lavender). Room notes: `work/lover-innocent/`.",
+ "names_note": "**Wide Open**, the room's vote 2–1 (Tomás and Hester; Wren voted *Unguarded*): the person as they choose to be after every hurt, and the egg goes in whole. Also considered: *Unguarded* (Wren), *Arrived* (Hester's sourced word, the story's verb rather than the person's), *Every Time* and *All of It* (both echo registry lines), *Still Open* ('Still' opens *Still Yours*).",
+ "open_items": [
+  "**Balance OUT on acid only, by structure (flag):** a Flip has no citrus (*Codex* pp. 240–241); `balance.py` has no flip style and judges it on Arnold's egg-white ranges. ABV 13.7% and sugar 8.33 g/100 ml are in range. Justified in Checks.",
+  "**The plan's lead was replaced in round 1.** Wren ruled Cato Alexander out (the lending is 'rumor had it', the hurt reads as an injustice used as a mirror, the reopening lasted barely a year, and Oxford names him Willard's rival, the Geisha's story). Rita Cowan Taketsuru came in; claims are noted in `plans/innocent.md` (the Dreamer's Open case closed, Lark leads) and `plans/explorer.md`.",
+  "**Rita has no words and no motives on any page.** What she did is sourced; what she felt is 'I like to think'. Her marriage date (January 1920) and 'taught English and piano' rest on cut-off OCR fragments of two secondaries (Itoh 2001, Ross 2017), used only as they stand.",
+  "**Nikka From the Barrel's strength (51.4%) is unsourced**; label to be checked. The drink is proved from 45% up, so the substitute is 'a Japanese blended whisky of 45% or stronger'. At 40% it falls under the strength floor.",
+  "**Not veto-free:** contains egg-white (a whole raw egg). The rest of the Lover family is planned veto-free, so the AD-4 floor holds. Nutmeg, the Flip's usual garnish, is left off (it would add nuts).",
+  "**Shape:** Flip · Japanese blended whisky · chilled coupe. The plan had reserved genever in a Gin Sling for this row; that shape is released."
+ ]
+}

@@ -1,0 +1,302 @@
+{
+  "pairing": "lover-sage",
+  "pour": "In Kind",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "3118a3ffce43a8289d918af6b0fcbef28aecb736e30a7b788587fad72f4c24a0",
+  "review": {
+    "recipe": "300 ml functional metal julep cup, natural frost, pounded crushed ice, small mint bouquet and short straw; no extra garnish or visible liquid claim. v1 oversized ice improved in v2; residual irregular chips plausible.",
+    "personality": "Folded cream letters with blank reverse sides and open envelope echo three pages written to the person who listens; angled pulled-up burgundy chair invites the second question. Papers survive partially in portrait; envelope is peripheral.",
+    "world": "Dark worn walnut surface and warm reading room, neutral brown-black shadows. Metal is limited to correct serving cup, straw and lamp hardware. Left copy field quiet.",
+    "issues": []
+  },
+  "measurements": {
+    "pairing": "lover-sage",
+    "pour": "In Kind",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-sage/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-cc8de80e-981a-4447-8e71-bac190115be9.png",
+    "sourceSha256": "3118a3ffce43a8289d918af6b0fcbef28aecb736e30a7b788587fad72f4c24a0",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      720,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1134,
+      "cy": 726,
+      "w": 140,
+      "angle": 11.4
+    },
+    "glass": {
+      "x": 967,
+      "y": 510
+    },
+    "bounds": {
+      "glass": {
+        "x0": 828,
+        "y0": 239,
+        "x1": 1227,
+        "y1": 771
+      },
+      "paper": {
+        "x0": 1029,
+        "y0": 659,
+        "x1": 1224,
+        "y1": 786
+      }
+    },
+    "review": {
+      "recipe": "300 ml functional metal julep cup, natural frost, pounded crushed ice, small mint bouquet and short straw; no extra garnish or visible liquid claim. v1 oversized ice improved in v2; residual irregular chips plausible.",
+      "personality": "Folded cream letters with blank reverse sides and open envelope echo three pages written to the person who listens; angled pulled-up burgundy chair invites the second question. Papers survive partially in portrait; envelope is peripheral.",
+      "world": "Dark worn walnut surface and warm reading room, neutral brown-black shadows. Metal is limited to correct serving cup, straw and lamp hardware. Left copy field quiet.",
+      "issues": []
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1302.200956937799,
+        "cy": 834.127659574468,
+        "w": 160.76555023923447,
+        "angle": 11.405904932480805
+      },
+      "glass": {
+        "x": 1110.4306220095693,
+        "y": 585.9574468085106
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 528.4102564102565,
+        "cy": 926.8085106382978,
+        "w": 178.6894586894587,
+        "angle": 11.402108932637148
+      },
+      "glass": {
+        "x": 315.25925925925924,
+        "y": 651.063829787234
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/lover-sage/portrait.jpg",
+    "wide": "/personas/lover-sage/wide.jpg",
+    "wideTag": {
+      "cx": 0.6782296650717703,
+      "cy": 0.7723404255319148,
+      "w": 0.08373205741626795,
+      "angle": 11.405904932480805
+    },
+    "wideGlass": {
+      "x": 0.5783492822966507,
+      "y": 0.5425531914893617
+    },
+    "tag": {
+      "cx": 0.5897435897435898,
+      "cy": 0.7723404255319148,
+      "w": 0.19943019943019943,
+      "angle": 11.402108932637148
+    },
+    "glass": {
+      "x": 0.35185185185185186,
+      "y": 0.5425531914893617
+    }
+  },
+  "hashes": {
+    "master": "ef4942197c3d5ba804b9488c7aaec5e416da549195f0ffdf8770d5e4fcfb658f",
+    "wide": "e7ebdb1dce41ed1af85598d7483f70f873eb511e92c26e892f4e83edc122701f",
+    "portrait": "4ea42a09c33ceb6395c3fde4335db7da1924ad50d6af2bc06c10ab5cc68e2b87"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 950.8133971291866,
+          "y0": 274.59574468085106,
+          "x1": 1408.9952153110048,
+          "y1": 885.8297872340426
+        },
+        "paper": {
+          "x0": 1181.6267942583731,
+          "y0": 757.1489361702128,
+          "x1": 1405.55023923445,
+          "y1": 903.0638297872341
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 712.3444976076555,
+          "y0": 228.82978723404256,
+          "x1": 1094.1626794258373,
+          "y1": 738.1914893617022
+        },
+        "paper": {
+          "x0": 904.6889952153109,
+          "y0": 630.9574468085107,
+          "x1": 1091.2918660287082,
+          "y1": 752.5531914893618
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1014.200956937799,
+          "y0": 239.54212765957448,
+          "x1": 1502.9282296650717,
+          "y1": 891.5251063829787
+        },
+        "paper": {
+          "x0": 1260.401913875598,
+          "y0": 754.2655319148936,
+          "x1": 1499.2535885167465,
+          "y1": 909.908085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1703.5406698564593,
+          "y0": 264.2840425531915,
+          "x1": 2524.4497607655503,
+          "y1": 1359.4117021276595
+        },
+        "paper": {
+          "x0": 2117.0813397129186,
+          "y0": 1128.8585106382977,
+          "x1": 2518.2775119617227,
+          "y1": 1390.2893617021277
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.35185185185185186,
+        "y": 0.5425531914893617
+      },
+      "bounds": {
+        "glass": {
+          "x0": 12.441671415004748,
+          "y0": 214.59148936170214,
+          "x1": 370.6246913580247,
+          "y1": 692.2595744680851
+        },
+        "paper": {
+          "x0": 192.87973409306744,
+          "y0": 591.6978723404255,
+          "x1": 367.9315859449193,
+          "y1": 705.7276595744681
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.35185185185185186,
+        "y": 0.5425531914893617
+      },
+      "bounds": {
+        "glass": {
+          "x0": 13.505451092117767,
+          "y0": 236.96595744680855,
+          "x1": 409.03456790123454,
+          "y1": 764.4382978723405
+        },
+        "paper": {
+          "x0": 212.75696106362773,
+          "y0": 653.3914893617022,
+          "x1": 406.06066476733145,
+          "y1": 779.3106382978724
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.35185185185185186,
+        "y": 0.5425531914893617
+      },
+      "bounds": {
+        "glass": {
+          "x0": 28.617056030389364,
+          "y0": 144.41702127659576,
+          "x1": 269.6691358024691,
+          "y1": 465.8808510638298
+        },
+        "paper": {
+          "x0": 150.04930674264008,
+          "y0": 398.20425531914896,
+          "x1": 267.85671415004754,
+          "y1": 474.9446808510639
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# V2 original-resolution owner review — candidate, HELD
+
+Sole focused correction returned1672×941; IHDR/current hashes checked and original inspected full-size. Glass485px high, not requested~300. Newspaper folds and linen grouping improve relative to v1 but do not achieve compact framing. Full visible group816px/conservative815px recognition union. Proposed702×940 portrait retains glass/tag/paper/pencil but cuts121px right linen; no portrait/phone/motion acceptance. Full and recognizable linen regions honestly retain fold and hem, not anonymous cloth strips. Pencil shaft/eraser read as a normal used pencil.
+
+Drink remains faithful pink Clover Club riff with slightly deeper raspberry body and smooth soft pale-pink egg-white cap. Foam about a finger deep, no sculpting/mousse, no serving ice, garnish or sugar rim. Smaller89px clean label axis stays proportional and blank; continuous cord/hole, free paper below upper stem. Name fitting deferred, not passed.
+
+Current full source supports newspaper annotation and a dinner scene. Newspaper/pencil are one coherent habit; linen is a weaker generic inference, not separate proof of the Sage–Jester's humour/dignity. No legible meaningful annotation can be asserted. Pseudo-print texture remains a hold, even though it is out of focus. Warm glossy crossing-grain timber remains material hold; speckled glass/cloth treatment a watch. No source/status changes, no JPEG/export/browser/shared writes, no acceptance. Two calls used, no third.

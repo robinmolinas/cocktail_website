@@ -1,0 +1,9 @@
+# One More Adjustment — coherent settled serve, candidate only
+
+Full187-line current dossier and complete spec read before image. SHA256c4738116a08e3c86fba9dc4c1b6884298e4bfa45f2dd75836aa40c463fd85f34; spec SHA256f171ba936d57ac7df4a7c386da9e9d472e802c1dcd80e069195894341be1729d. Fresh canonical stage/public scan found no existing pairing files beforev1.
+
+Recipe60ml younger single-grain Scotch40%+/25ml blanc vermouth/5ml calvados/5ml1:1 simple syrup. Stir30seconds, strain into chilled coupe. Finished~134.7ml from95ml plus41.8%dilution. Lemon peel expressed and dropped IN. Clear pale straw from young whisky/blanc is source craft colour estimate, not historical fact. No serving ice/foam/carbonation/rim; no bright orange-looking lemon accepted. No recipe/editorial changes.
+
+WhoYouAre explicitly names a shelf among nearly finished works repeatedly adjusted and improved, afraid to release the finished result. Used small full-size wooden block plane and separate worn sanding block are grounded inferred woodworking habits, not literal prescribed possessions or Coffey's tools. Source excludes notebooks/notes, copper still/vessel, gold, alembics, symbols, whole apple, calvados bottle. We honor those exclusions and omit ingredient-tool inventory in favor of two human traces. No impossible detail retained; cool/green old lighting replaced by neutral-shadow shared house practical, not recipe change.
+
+Complete system imagegen skill and prompting/sample references reread this turn; complete current persona-system, app DESIGN, parallel plan, production README/calibration continuation and applied-summary read. All3actualpilot wides+portraits and batch05ruler-magician/v2/outlaw-hero/v2 inspected originalsize. Camera pulled back to middle distance; actual dimensions, full/recognition bounds and tag axis will be measured honestly. Browser later, root-only export/integration, no JPEG command or acceptance.

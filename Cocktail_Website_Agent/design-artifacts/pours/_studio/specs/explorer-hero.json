@@ -1,4 +1,27 @@
-{"pairing": "explorer-hero", "family": "old-fashioned", "subfamily": "whiskey Old-Fashioned served up (no ice), after the Codex root recipe (p. 5)", "style": "stirred", "glass": "small tumbler (about 200 ml), chilled in the freezer, no ice", "serves": 1,
+{
+ "pairing": "explorer-hero",
+ "family": "old-fashioned",
+ "subfamily": "whiskey Old-Fashioned served up (no ice), after the Codex root recipe (p. 5)",
+ "style": "stirred-spirit",
+ "glass": "small tumbler (about 200 ml), chilled in the freezer, no ice",
+ "serves": 1,
  "version": "v1 (Tomás, round 4). Codex root Old-Fashioned (p. 5) with one change: the sugar is a caramel syrup cooked to deep amber (LI p. 347 method; LI p. 137 row). One bourbon only (Blanton's Original Single Barrel, 46.5%, recommended; any single-barrel bourbon). Served up with no ice. Stronger barrels: bourbon + water always 60 ml, by the label (bands swept in mixologist-sweep-r4.md). Second bitters dropped and one orange twist only (Codex p. 12: aged whiskey, light hand).",
- "ingredients": [{"key": "bourbon_blantons", "ml": 60}, {"key": "caramel_syrup", "ml": 7.5}, {"key": "angostura", "dashes": 2}],
- "garnish": ["orange_peel"]}
+ "ingredients": [
+  {
+   "key": "bourbon_blantons",
+   "ml": 60
+  },
+  {
+   "key": "caramel_syrup",
+   "ml": 7.5
+  },
+  {
+   "key": "angostura",
+   "dashes": 2
+  }
+ ],
+ "garnish": [
+  "orange_peel"
+ ],
+ "_status": " | style stirred -> stirred-spirit (Robin 2026-10-06, collection review D2: spirit-only stirred, no acid floor)."
+}

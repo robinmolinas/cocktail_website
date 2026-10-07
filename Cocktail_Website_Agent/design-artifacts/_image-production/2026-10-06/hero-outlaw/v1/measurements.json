@@ -1,0 +1,93 @@
+{
+  "pairing": "hero-outlaw",
+  "pour": "No Promises",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-outlaw/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-128bc541-ccf6-4015-a593-fb0191fb1d22.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "1573a2d891f8ec4c1adcf88a224a5cec83a781e2ec0d675ef1df9ac0878e639e",
+  "sourceSha256": "10913c8471b031a78342c8a791f8a3d1de018fcc17ccaaa836a32e6751fcca59",
+  "specSha256": "28cbfd7abb4df6683afb8a438a739c0788a79177b16684e1f39fe7d18898672f",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    690,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1353,
+    "cy": 554,
+    "w": 188,
+    "angle": 70
+  },
+  "glass": {
+    "x": 1087,
+    "y": 492
+  },
+  "bounds": {
+    "glass": {
+      "x0": 912,
+      "y0": 306,
+      "x1": 1261,
+      "y1": 679
+    },
+    "paper": {
+      "x0": 1258,
+      "y0": 420,
+      "x1": 1441,
+      "y1": 671
+    },
+    "cargoStrap": {
+      "x0": 592,
+      "y0": 350,
+      "x1": 924,
+      "y1": 612
+    },
+    "vanKey": {
+      "x0": 652,
+      "y0": 471,
+      "x1": 865,
+      "y1": 620
+    }
+  },
+  "recognitionRegions": {
+    "cargoStrap": {
+      "bounds": {
+        "x0": 594,
+        "y0": 350,
+        "x1": 921,
+        "y1": 590
+      },
+      "reason": "Attached ratchet mechanism and coiled olive webbing together identify the cargo strap."
+    },
+    "vanKey": {
+      "bounds": {
+        "x0": 652,
+        "y0": 475,
+        "x1": 858,
+        "y1": 620
+      },
+      "reason": "Whole black grip, metal shaft and teeth identify an ignition key."
+    }
+  },
+  "review": {
+    "recipe": "Clear deep amber, one broad large cube and one orange peel dropped inside; no foam. Cube has dense trapped-air detail, and peel is large but is one strip.",
+    "personality": "Actual moving-day source habit represented by attached cargo ratchet/webbing and plain van key. Real-size recognizable traces, but spread far left.",
+    "world": "Quiet left third and historic private warm timber room retained; table carries glossy amber reflection and dense contact texture.",
+    "issues": [
+      "Initial only, superseded by sole correction attempt.",
+      "373px glass exceeds pulled-back target.",
+      "849px complete union cannot fit moving-phone window.",
+      "Cord draped across rim rather than credibly tied around glass.",
+      "Wood gloss and dense ice detail remain visual holds; no acceptance."
+    ]
+  }
+}

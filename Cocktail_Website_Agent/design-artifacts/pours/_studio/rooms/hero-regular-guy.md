@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Firefighter (hero-regular-guy)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D1 (Bénédictine stays `nuts`: a book names its nutmeg); D13 (variety rules).
+- **Edits** (before → after, short): Open items, the contains bullet: "…**The Hero family drops to eight veto-free pours.** Robin's call." → "…**Robin 2026-10-06 (D1):** Bénédictine stays `nuts` (a book names its nutmeg, a stated ingredient), so the pour stays not veto-free; no question left open on that row." yours 3 (D13 V3, the corpus review's own example): "I like to think he never quite forgot that guest at the bar, waiting for a drink nobody there could make." → "That guest at the bar, waiting for a drink nobody there could make: I like to think he never quite forgot them."
+- **Left for Robin:** Q057 tagline (D11). For Tomás, not changed: the `cherry_heering` row is `nuts` on unconfirmed crushed stones (unsourced); under D1's stated-ingredient test it may want a maker's label. Either way the pour stays `nuts` through Bénédictine.
+- **Tomás (Codex pass / open items):** **Shared row:** `cherry_heering` ruled none under Robin's evidence rule (Oxford CHERRY BRANDY pdf 445–446 names no stones for Heering). This pour stays `["nuts"]` through Bénédictine. Checks › Allergens note; Open items Resolved bullet. Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (v1 (provisional): Dionysos card N/P/G/X/C; anchors pending Wren's ruling) · [x] drink + four checks (v1: 1913 Sling, one of each; 13.9% balanced; contains nuts (Heering, safe side)) · [x] reading (v1 (written on the Mojito + Bénédictine)) · [x] fact audit (v1: H1–H9 (Wren), T1–T6 (Tomás) open) · [x] resonance test (v3: ready) · [x] names (≥3 + pick) (Anyone Would Have (all three); One of Each second) · [x] image brief (v1)
 - **Last change to the pour:** r6: reading v3 (H1–H10 + lint-only), draft v1.2 (T1–T5)

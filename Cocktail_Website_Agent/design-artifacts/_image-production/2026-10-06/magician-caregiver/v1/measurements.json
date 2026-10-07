@@ -1,0 +1,135 @@
+{
+  "pairing": "magician-caregiver",
+  "pour": "Their Night",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-caregiver/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-9cfcf633-d592-4624-938f-d7b26f6897b9.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "5fa0bd865eda7ee85a7a060d896fe30712a0fe3a84e92a0288df35b71d0f12df",
+  "specSha256": "28568235e89f324f6977148dbe4eae5354df9057ec2323e64f545454ee9c04b0",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    500,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1074,
+    "cy": 610,
+    "w": 104,
+    "angle": 83
+  },
+  "glass": {
+    "x": 1017,
+    "y": 292
+  },
+  "bounds": {
+    "glass": {
+      "x0": 825,
+      "y0": 180,
+      "x1": 1209,
+      "y1": 785
+    },
+    "paper": {
+      "x0": 1028,
+      "y0": 517,
+      "x1": 1120,
+      "y1": 686
+    }
+  },
+  "personalityBounds": {
+    "usedHouseholdScissors": {
+      "x0": 318,
+      "y0": 606,
+      "x1": 723,
+      "y1": 703
+    },
+    "spentWrappingRibbon": {
+      "x0": 553,
+      "y0": 495,
+      "x1": 975,
+      "y1": 696
+    }
+  },
+  "recognitionRegions": {
+    "usedHouseholdScissors": {
+      "x0": 318,
+      "y0": 606,
+      "x1": 723,
+      "y1": 703
+    },
+    "spentWrappingRibbon": {
+      "x0": 553,
+      "y0": 495,
+      "x1": 975,
+      "y1": 696
+    }
+  },
+  "supportingBounds": {
+    "sourcePartyBackground": {
+      "x0": 467,
+      "y0": 0,
+      "x1": 1320,
+      "y1": 580
+    }
+  },
+  "tagPhysics": {
+    "anchor": "Visible front cotton-twine arc wrapping narrow stem below bowl; rear loop hidden by stem as expected.",
+    "knot": "Small knot/overlapping strand bundle at stem-right; exact knot topology unresolved at image scale.",
+    "tether": "Continuous short downward-slanting tether from knot region to punched paper hole.",
+    "hole": "Dark round punched hole with twine visibly reaching/through it; no rim anchor.",
+    "gravity": "Blank paper is below its supporting stem knot, falls downward outside stem.",
+    "separation": "Visible air gap from stem and clear space above timber; no pasted-on face or table contact.",
+    "contact": "No adhesive-looking glass contact, drilled glass or naked rim attachment observed.",
+    "uncertainty": "Rear loop and exact knot depth are occluded; structured evidence is not absolute tag-physics PASS.",
+    "supportRegions": {
+      "stemLoop": {
+        "x0": 989,
+        "y0": 476,
+        "x1": 1041,
+        "y1": 495
+      },
+      "knot": {
+        "x0": 1024,
+        "y0": 478,
+        "x1": 1046,
+        "y1": 498
+      },
+      "tether": {
+        "x0": 1035,
+        "y0": 489,
+        "x1": 1066,
+        "y1": 544
+      },
+      "hole": {
+        "x": 1060,
+        "y": 542
+      }
+    },
+    "status": "plausible visible support chain; knot/occlusion watch; not accepted"
+  },
+  "review": {
+    "recipe": "Uniform dusty soft pink hazy shaken-anise cocktail in chilled stemmed glass, no garnish/serving ice/rim/egg-white foam. Some speckles/near-rim line remain; louche thickness is source unsourced craft appearance, not factual precision.105.7ml actual volume cannot be measured from image.",
+    "personality": "Ordinary full-sized scissors/spent ribbon infer completed unasked party arrangements. Whole visible scissors and entire ribbon bundle recognised, not anonymous fabric edges. Soft party background explicit source image brief; specificity/face/hand ambiguity held.",
+    "world": "Old private reading-room timber world retained, but warm glossy patterned table remains. Corrected view introduced several visible practical lights and bright left lamp, not the requested one-source restraint.",
+    "issues": [
+      "Complete glass605px high; conservative full/recognition foreground union891px vs approximately389px maximum-breathing phone estimate. No phone/motion PASS.",
+      "Foreground union891px cannot fit702px; proposed crop clips left scissors/ribbon tail and tiny right bowl region. Initial alternate only.",
+      "Warm glossy fine-pattern timber persists; corrected v2 additionally introduced multiple practical lights/bright left lamp, breaking one-source/quiet-left direction.",
+      "People are explicitly source image brief (party underway), not arbitrary portraits. Actual soft background profiles/small lifted-hand-like shapes may remain more legible than requested no-face/no-hand; hold for later review.",
+      "Spent ribbon/scissors infer completed unasked celebration arrangements but are not explicit named source objects, historical artefacts, or proof of permission/meddling specificity.",
+      "Tag small and separate; exact knot/back-loop topology partly occluded, no absolute physics PASS. Actual name glyph fit untested.",
+      "Dusty pink haze present with near-rim speckles/line; exact natural louche thickness unsourced and capacity not measurable from photograph; no egg-white foam/garnish/serving ice depicted."
+    ]
+  },
+  "status": "measured-master-candidate; held; not-accepted; browser-deferred"
+}
+

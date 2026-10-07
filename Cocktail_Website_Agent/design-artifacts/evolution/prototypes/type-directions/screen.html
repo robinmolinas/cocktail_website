@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dionysus type direction: one screen</title>
+<!-- Google Fonts (all OFL): A's families, B's stand-in + serif, D's serif -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair:ital,opsz,wght@0,5..1200,300..700;1,5..1200,300..700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Geist:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<!-- Fontshare API (ITF Free Font License; served from Fontshare's CDN, not self-hosted) -->
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@300,400,500,600&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link href="directions.css" rel="stylesheet">
+<style>
+/* ---- copied from dionysus-experience/src/index.css (read-only source), with
+   family/size/spacing swapped for the role tokens in directions.css ---- */
+:root {
+  --legible: 0 1px 2px rgba(22, 11, 4, 0.26);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --gutter: clamp(20px, 6.5vw, 104px);
+  --vermilion: #e8702a; --gold: #b08d57; --candle-ivory: #f5ead8;
+  --keepsake-title: #f2ead9; --keepsake-body: #cfc4ae; --keepsake-muted: #9a8f7c;
+  --sphere-rim: rgba(255, 235, 200, 0.22);
+  --sphere-fill: radial-gradient(circle at 32% 28%, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.04) 42%, rgba(255,235,200,0.07) 100%);
+  --sphere-shadow: inset 0 1px 13px rgba(255,235,200,0.1), 0 0 22px -8px rgba(255,176,136,0.25);
+  --veil-pill-border: rgba(255,255,255,0.16); --veil-pill-bg: rgba(255,255,255,0.03);
+  --c: #f2c24e; /* Galliano Gold, the sample pour's seed */
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: #0d0b09; overflow: hidden; }
+body { font-optical-sizing: auto; -webkit-font-smoothing: antialiased; }
+.stage { position: fixed; inset: 0; background-size: cover; background-position: center; }
+
+.hold-head { position: absolute; left: 50%; top: 12.5%; width: min(640px, 88vw); margin-left: max(-320px, -44vw);
+  display: flex; flex-direction: column; align-items: center; gap: 0.7rem; text-align: center; }
+.hold-q { margin: 0; color: #fbf4e8; text-shadow: var(--legible); text-wrap: balance;
+  font-family: var(--q-family); font-style: var(--q-style); font-weight: var(--q-weight);
+  font-size: var(--q-size); letter-spacing: var(--q-ls); line-height: var(--q-lh); }
+.hold-hint { margin: 0; color: rgba(245,234,216,0.86); text-shadow: var(--legible); text-wrap: balance;
+  font-family: var(--hint-family); font-style: var(--hint-style); font-weight: var(--hint-weight);
+  font-size: var(--hint-size); letter-spacing: var(--hint-ls); line-height: var(--hint-lh); }
+
+.hold-next { position: absolute; left: 0; right: 0; bottom: 12.5%; margin: 0 auto; width: fit-content;
+  font-family: var(--next-family); font-weight: var(--next-weight); font-size: var(--next-size);
+  letter-spacing: var(--next-ls); text-transform: var(--next-case);
+  color: rgba(245,234,216,0.82); border: 1px solid var(--veil-pill-border); border-radius: 999px;
+  padding: 0.66rem 1.95rem 0.66rem 2.1rem; background: var(--veil-pill-bg);
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+.hold-next.is-full { border-color: color-mix(in srgb, var(--c) 55%, transparent); }
+
+.sphere-cluster { position: absolute; left: 50%; top: 52%; transform: translate(-50%, -50%);
+  display: grid; grid-template-columns: repeat(3, auto); gap: 0.6rem 1.35rem; justify-items: center; }
+.sphere-drift:nth-child(1) { margin-top: 14px; } .sphere-drift:nth-child(2) { margin-top: -10px; }
+.sphere-drift:nth-child(3) { margin-top: 18px; } .sphere-drift:nth-child(4) { margin-top: -6px; }
+.sphere-drift:nth-child(5) { margin-top: 12px; } .sphere-drift:nth-child(6) { margin-top: -14px; }
+.sphere-drift:nth-child(7) { margin-top: -8px; } .sphere-drift:nth-child(8) { margin-top: 16px; }
+.sphere-drift:nth-child(9) { margin-top: -12px; }
+.sphere-btn { border: none; background: none; padding: 6px; }
+.sphere { position: relative; display: flex; align-items: center; justify-content: center;
+  width: var(--sphere-size, clamp(112px, 15vmin, 142px)); aspect-ratio: 1; border-radius: 50%;
+  padding: 0 14px; text-align: center; border: 1px solid var(--sphere-rim); background: var(--sphere-fill);
+  backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); box-shadow: var(--sphere-shadow); }
+.sphere-word { color: #fbf4e8; text-shadow: var(--legible); text-wrap: balance;
+  font-family: var(--word-family); font-style: var(--word-style); font-weight: var(--word-weight);
+  font-size: var(--sphere-word, var(--word-size)); letter-spacing: var(--word-ls); line-height: var(--word-lh); }
+.sphere-btn.is-lit .sphere { border-color: color-mix(in srgb, var(--c) 70%, white);
+  background: radial-gradient(circle at 32% 28%, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.08) 38%, color-mix(in srgb, var(--c) 24%, transparent) 100%);
+  box-shadow: inset 0 1px 16px rgba(255,235,200,0.16), 0 0 32px -6px var(--c); transform: scale(1.1); }
+.sphere-btn.is-lit .sphere-word { color: #fffaf0; text-shadow: var(--legible), 0 0 18px color-mix(in srgb, var(--c) 45%, transparent); }
+.sphere-cluster.is-lens { gap: 1rem 1.6rem; }
+.sphere-cluster.is-lens .sphere { --sphere-size: clamp(132px, 18.5vmin, 176px); padding: 0 18px; }
+/* H6's rising field, frozen mid-rise: same spheres, loosened lanes */
+.sphere-cluster.is-field { gap: 1.2rem 2.4rem; top: 54%; }
+.sphere-cluster.is-field .sphere-drift:nth-child(3n+1) { transform: translateY(26px); }
+.sphere-cluster.is-field .sphere-drift:nth-child(3n) { transform: translateY(-20px); }
+
+.ember { position: absolute; top: 50%; left: var(--x); transform: translate(-50%, -50%); border: none; background: none; padding: 10px; }
+.ember .sphere { --sphere-size: clamp(150px, 21vmin, 204px); padding: 0 18px; }
+.ember .sphere-word { --sphere-word: var(--ember-size); letter-spacing: var(--ember-ls); line-height: var(--ember-lh); }
+
+@media (max-width: 640px) {
+  .sphere-cluster { gap: 0.55rem 0.7rem; }
+  .sphere-btn { padding: 3px; }
+  .sphere { --sphere-size: clamp(88px, 26vw, 108px); padding: 0 10px; }
+  .sphere-word { --sphere-word: var(--word-size-phone); }
+  .sphere-cluster.is-lens { grid-template-columns: repeat(2, auto); gap: 0.5rem 1rem; }
+  .sphere-cluster.is-lens .sphere { --sphere-size: clamp(122px, 36vw, 148px); padding: 0 14px; }
+  .sphere-cluster.is-field { gap: 0.9rem 0.9rem; }
+  .ember { left: calc(50% + (var(--x) - 50%) * 1.42); }
+  .ember .sphere { --sphere-size: clamp(124px, 37vw, 156px); padding: 0 12px; }
+}
+
+/* ---- H10 reading head (tr-*) ---- */
+.tr-vig { position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(78% 66% at 62% 52%, transparent 34%, rgba(6,5,5,0.52) 82%, rgba(6,5,5,0.80) 100%),
+    linear-gradient(to top, rgba(6,5,5,0.72) 0%, rgba(6,5,5,0.18) 26%, transparent 48%); }
+.tr-hero { position: absolute; left: 0; bottom: 0; padding: 0 2rem clamp(3rem, 9vh, 7rem) var(--gutter);
+  max-width: min(calc(var(--gutter) + 36rem), 52vw); }
+.tr-kicker { font-family: var(--label-family); font-size: clamp(0.66rem, 0.76vw, 0.74rem); font-weight: var(--label-weight);
+  letter-spacing: var(--label-ls); text-transform: uppercase; color: var(--gold); margin: 0 0 1.15rem;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.9); line-height: 1.7; }
+.tr-title { font-family: var(--title-family); font-style: var(--title-style); font-weight: var(--title-weight);
+  font-size: var(--title-size); line-height: var(--title-lh); color: var(--keepsake-title); letter-spacing: var(--title-ls);
+  margin: 0; padding-bottom: 0.06em; text-wrap: balance;
+  text-shadow: 0 2px 34px rgba(0,0,0,0.85), 0 0 84px rgba(200,16,46,0.20); }
+.tr-for { font-family: var(--tag-family); font-style: var(--tag-style); font-weight: var(--tag-weight);
+  font-size: var(--tag-size); letter-spacing: var(--tag-ls); line-height: var(--tag-lh);
+  color: var(--candle-ivory); opacity: 0.93; margin: 1.15rem 0 0; text-wrap: pretty; max-width: 34ch;
+  text-shadow: 0 1px 18px rgba(0,0,0,0.9); }
+.tr-epi { font-family: var(--epi-family); font-style: var(--epi-style); font-weight: var(--epi-weight);
+  font-size: var(--epi-size); line-height: var(--epi-lh); color: var(--keepsake-title); margin: 2rem 0 0.9rem; max-width: 30ch; text-wrap: pretty; }
+.tr-lead { font-family: var(--body-family); font-weight: var(--body-weight); font-size: var(--body-size);
+  line-height: var(--body-lh); letter-spacing: var(--body-ls); color: var(--keepsake-title); margin: 0; max-width: 36rem; text-wrap: pretty;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.7); }
+.tr-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2rem; }
+.cta { position: relative; display: inline-flex; align-items: center; gap: 0.85rem; padding: 0.95rem 1.9rem; border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.14); background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  font-family: var(--btn-family); font-weight: var(--btn-weight); font-size: var(--btn-size); letter-spacing: var(--btn-ls);
+  text-transform: var(--btn-case); color: var(--candle-ivory); }
+.cta-icon { width: 1rem; height: 1rem; color: var(--vermilion); }
+@media (max-width: 900px) {
+  .tr-hero { max-width: none; padding: 0 var(--gutter) 6vh; }
+  .tr-vig { background: radial-gradient(96% 54% at 50% 42%, transparent 30%, rgba(6,5,5,0.55) 84%, rgba(6,5,5,0.86) 100%),
+    linear-gradient(to top, rgba(6,5,5,0.94) 0%, rgba(6,5,5,0.8) 32%, rgba(6,5,5,0.42) 50%, transparent 66%); }
+  .tr-epi { margin-top: 1.4rem; }
+  .tr-lead { font-size: calc(var(--body-size) * 0.92); }
+}
+@media (max-width: 480px) {
+  .tr-actions { flex-wrap: nowrap; gap: 0.6rem; }
+  .tr-actions .cta { padding: 0.85rem 1.3rem; }
+  .cta-tail { display: none; }
+  .tr-title { font-size: var(--title-size-phone); }
+}
+/* PROTOTYPE-ONLY phone fit (on unless ?asis): at 375x667 the app's own
+   geometry lets H1/H5/H6 clusters climb into the question (see the -asis shots),
+   which hides the type being compared. This nudges positions only; no type
+   token changes. Not a production proposal. */
+@media (max-width: 640px) {
+  .fit .hold-head { top: 7.5%; gap: 0.5rem; }
+  .fit .sphere-cluster { top: 57%; }
+  .fit .sphere-cluster.is-lens { top: 56%; }
+  .fit .sphere-cluster.is-lens .sphere { --sphere-size: clamp(112px, 31vw, 128px); padding: 0 12px; }
+  .fit .sphere-cluster.is-field { top: 58%; gap: 0.7rem 0.8rem; }
+  .fit .hold-next { bottom: 4%; }
+  .fit .tr-epi { display: none; }
+  .fit .tr-lead { margin-top: 1.3rem; }
+}
+.badge { position: fixed; right: 10px; top: 8px; z-index: 99; font: 500 11px/1.4 ui-monospace, Menlo, monospace;
+  color: rgba(245,234,216,0.55); letter-spacing: 0.04em; }
+</style>
+</head>
+<body>
+<div class="stage" id="stage"></div>
+<div class="badge" id="badge"></div>
+<script>
+const P = new URLSearchParams(location.search);
+const dir = (P.get('dir') || 'A').toUpperCase();
+const s = P.get('s') || 'h1';
+document.documentElement.dataset.dir = dir;
+if (!P.has('asis')) document.documentElement.classList.add('fit');
+const NAMES = { A: 'A · Playfair Display / Playfair / Jost', B: 'B · Geist (Neue Montreal stand-in) + Newsreader', C: 'C · Switzer + Playfair', D: 'D · Satoshi + Instrument Serif' };
+if (!P.has('clean')) document.getElementById('badge').textContent = NAMES[dir] + ' · ' + s;
+const phone = () => matchMedia('(max-width: 640px)').matches;
+const portrait = () => matchMedia('(max-aspect-ratio: 1/1)').matches;
+
+// real copy: TheDepths.tsx (LENSES with the settled "Another side of me"), BINARIES, RES_QUESTIONS, FIN_FLAVORS
+const LENSES = ['The real me', 'The me I’m becoming', 'The night version of me', 'My inner child', 'The me I used to be', 'Another side of me'];
+const SOUGHT = ['Advice', 'Comfort', 'Honesty', 'Courage', 'Ideas', 'Calm', 'Taste', 'A reality check', 'A little chaos'];
+const FLAVORS = ['Sweet', 'Bitter', 'Spicy', 'Herbal', 'Fruity', 'Citrusy', 'Fresh', 'Floral', 'Smoky'];
+
+const sphere = (w, lit) => `<div class="sphere-drift"><span class="sphere-btn ${lit ? 'is-lit' : ''}"><span class="sphere"><span class="sphere-word">${w}</span></span></span></div>`;
+const head = (q, h) => `<div class="hold-head"><h2 class="hold-q">${q}</h2>${h ? `<p class="hold-hint">${h}</p>` : ''}</div>`;
+const ember = (w, x) => `<span class="ember" style="--x:${x}"><span class="sphere"><span class="sphere-word">${w}</span></span></span>`;
+const SHARE = '<svg class="cta-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M12 15V3m0 0L7.5 7.5M12 3l4.5 4.5M5 12v6.5A2.5 2.5 0 0 0 7.5 21h9a2.5 2.5 0 0 0 2.5-2.5V12"/></svg>';
+const SAVE = '<svg class="cta-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M12 3v12m0 0l-4.5-4.5M12 15l4.5-4.5M5 17v1.5A2.5 2.5 0 0 0 7.5 21h9a2.5 2.5 0 0 0 2.5-2.5V17"/></svg>';
+
+const screens = {
+  h1: ['frame-h1', () => head('Who is this cocktail for?', 'for Zoë Ångström-Núñez') +
+      `<div class="sphere-cluster is-lens">${LENSES.map((w) => sphere(w)).join('')}</div>`],
+  h4p: ['frame-h4', () => head('Too quick to think. Trust the spirit within.', 'Nine quick pairs. Choose the one that is more you before it fades.') +
+      ember('Tea', '33%') + ember('Coffee', '67%')],
+  h4c: ['frame-h4', () => head('Which is more you?') + ember('In control', '33%') + ember('Out of control', '67%')],
+  h5: ['frame-h5', () => head('What do people often come to you for?', '1 of 3 chosen. Select one again to change your mind.') +
+      `<div class="sphere-cluster">${SOUGHT.map((w, i) => sphere(w, i === 7)).join('')}</div>` +
+      '<span class="hold-next">Continue</span>'],
+  h6: ['frame-h6', () => head('What flavours are calling you?', 'Catch up to three as they rise') +
+      `<div class="sphere-cluster is-field">${FLAVORS.map((w, i) => sphere(w, i === 5)).join('')}</div>`],
+  h10: [null, () => `<div class="tr-vig"></div><header class="tr-hero">
+      <p class="tr-kicker">The Visionary · poured for Zoë Ångström-Núñez</p>
+      <h1 class="tr-title">Down the Line</h1>
+      <p class="tr-for">The dream is yours. Everyone else is building on it.</p>
+      <p class="tr-epi">Anyone can have the recipe. The foam has to be earned.</p>
+      <p class="tr-lead">You see the finished thing first. Long before anyone else can, you can describe it: its size, its shape, what it will change. And you describe it so clearly that people want to help build it.</p>
+      <div class="tr-actions"><span class="cta"><span class="cta-label">Share<span class="cta-tail"> your cocktail</span></span>${SHARE}</span><span class="cta"><span class="cta-label">Save<span class="cta-tail"> the recipe</span></span>${SAVE}</span></div>
+    </header>`],
+};
+const [bg, html] = screens[s] || screens.h1;
+const stage = document.getElementById('stage');
+stage.style.backgroundImage = `url(assets/${bg || (portrait() ? 'persona-portrait' : 'persona-wide')}.jpg)`;
+if (!bg) stage.style.backgroundPosition = portrait() ? '50% 30%' : '50% 44%';
+stage.innerHTML = html();
+document.fonts.ready.then(() => document.body.dataset.ready = '1');
+</script>
+</body>
+</html>

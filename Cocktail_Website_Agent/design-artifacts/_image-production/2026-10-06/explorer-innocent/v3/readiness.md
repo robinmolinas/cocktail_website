@@ -1,0 +1,1 @@
+Complete fresh current dossier (chunks1–94 and95–EOF) and recipe specification read before this bounded targeted correction. Source SHA-256: de87cc6fccf04e23e0e1cff81ceeb756e050c1b4f263fe7616740aada153e41a. Scope only notebook/lens/cutting arrangement; retain exact drink/tag/world of v2. No recipe or editorial mutation. Built-in edit only; root sole exporter/integrator.

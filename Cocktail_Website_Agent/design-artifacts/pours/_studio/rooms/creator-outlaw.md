@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Trend Setter (creator-outlaw)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine items; D13 (variety rules).
+- **Edits** (before → after, short): whoYouAre ¶2 (Q105, close pair with *Asked In*: permission is its ground): "the nerve to love a thing before anyone has given permission" → "the nerve to love a thing before anyone else does" (lint now notes a 4-word overlap with ruler-caregiver's "You hear it before anyone else does": a common phrase, different sense; kept as the queue wrote it). yours 5 (D13 V4, the corpus review's own example): "So here's my position. The next time something of yours…" → "The next time something of yours…".
+- **Left for Robin:** Q018 "Last I read, in 2026" (Hester to verify "still" against the dated secondary before the clause goes).
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading (v1) · [x] fact audit (v1 (on reading v2): X1–X4 open) · [x] resonance test (v1: ready on v3) · [x] names (≥3 + pick) (Still Yours (all three)) · [x] image brief
 - **Last change to the pour:** round 7

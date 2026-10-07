@@ -59,7 +59,7 @@ Yes would be so much easier, and for an evening they'd like you more for it. You
 
 **yours**
 
-1. In the 2000s, some distillers set out to bring back spirits that had simply disappeared. A few had the will but not the know-how, so they went to David Wondrich, a drinks historian. (He edited the big Oxford book on spirits and cocktails that I lean on for these stories, so I'll own that.) He knew the way to things he couldn't make himself. One of his old friends had started a distillery in Oregon called Ransom, and wanted to make a gin.
+1. In the 2000s, some distillers set out to bring back spirits that had simply disappeared. A few had the will but not the know-how, so they went to David Wondrich, a drinks historian. (Later he edited the *Oxford Companion to Spirits and Cocktails* and wrote its Old Tom entry, so some of what I tell you is his.) He knew the way to things he couldn't make himself. One of his old friends had started a distillery in Oregon called Ransom, and wanted to make a gin.
 
 2. What Wondrich gave him wasn't a verdict on the plan. It was an instead: make an Old Tom, a sweeter, older style of gin that bars used in the 1800s, and by the late 1900s all but impossible to buy. His friend had never heard of it. He made it. Ransom's Old Tom came out in 2008, a year after the first of the revived Old Toms reached America, and at least one bartender's book recommends it by name. In his own book, Wondrich points you to it, and in the same sentence warns you that he had a hand in developing it.
 
@@ -169,6 +169,13 @@ Updated in the same call: the "held" row now carries the *Codex* p. 68 scope for
 - Anchors: nothing further to fix (R5/R6 were carried in the audit call).
 
 **Verdict: resolved. I'd put my name to this:** reading v2-rework as on disk, draft v1.1 with D1-D6 and the new closingLine, and *Instead*.
+
+
+#### Collection review 2026-10-06 (Hester, open items)
+
+| ID | where | before | after | ruling and source |
+|---|---|---|---|---|
+| CR1 | y1, parenthesis | "(He edited the big Oxford book on spirits and cocktails that I lean on for these stories, so I'll own that.)" | "(Later he edited the *Oxford Companion to Spirits and Cocktails* and wrote its Old Tom entry, so some of what I tell you is his.)" | **Pass**, for the collection's Oxford item (one name, *the Oxford Companion to Spirits and Cocktails*, kept only where the book is part of the story). The coincidence is still owned in one clause, now as a fact about Wondrich rather than the bartender's reading list (Robin's rule; Q039's aim). Editor-in-chief: front matter pdf 3–4. He signs OLD TOM GIN (pdf 1439), which carries y2's 2008 and "all but impossible to buy" (pdf 1438) and y4's sugar line (pdf 1436). "Later": Ransom's Old Tom reached the market in 2008 (pdf 1438), and the book's sources were accessed in 2021. Q039's "best-known encyclopedia" and "a good deal of what's written about Old Tom" were not used: no page ranks the book, and the scope is this reading's Old Tom facts only. History share: the disclosure owns a source and isn't story, so story sentences (y1 without it, y2, y4's 1800s sugar line) are 188 of 409 words in yours (46%; 47% before). |
 
 ### Resonance
 

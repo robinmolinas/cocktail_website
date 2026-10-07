@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Gentle Giant (outlaw-caregiver)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue items on Wren's ground (Robin: "I trust your taste judgement") and D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): whoYouAre ¶2 (Q158): "…nobody has to fight. Nobody even has to be brave." → "…nobody has to fight." (removes the motif shared with the reversed *Not Too Polite*); whoYouAre ¶3 (V1, fear turn): "And there's a fear you never mention. Not of getting hurt. Of the day being strong isn't enough: when it's happening…" → "And there's a fear you never mention: the day being strong isn't enough, when it's happening…".
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Stoumen & the Black Cat, as corrected (Wren ruled r3)) · [x] drink + four checks (spec v1, 45 VSOP / 120 dry ginger ale, no spark) · [x] reading (v3) · [x] fact audit (v3 passes: reading v3 + D1/D2, draft v1.2, spec v1) · [x] resonance test (ready on v2; Wren reaffirmed on v3, r6) · [x] names (≥3 + pick) (In One Piece (all three)) · [x] image brief
 - **Last change to the pour:** r6 (dossier-only fixes D1, D2, T1, T8, T9; guest text unchanged since r5)

@@ -1,13 +1,19 @@
 ---
 pairing: lover-creator
 personality: The Muse
-status: flagged           # open | closed | deadlock | flagged
+status: closed            # flag resolved by Robin 2026-10-06 (collection review); open | closed | deadlock | flagged
 round: 7               # budget: 7 (pour) · 5 (rework)
 started: 2026-09-30
 mode: batch            # pour | batch | rework
 ---
 
 # The room: The Muse (lover-creator)
+
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D2 and D3 A (ship Murphy's measures): status flagged → draft; flag line → `accepted: balance by structure`; the FLAG Open item marked resolved, reasoning kept.
+- **Edits** (before → after, short): cocktail block (Q128): the repeated `glassware` and `contains` lines after the recipe table deleted, and `serves: 2 (…about 97 ml each)` moved up beside the block's glassware line · whoYouAre ¶1 (variety, V2): "People are braver with their own work when you're around, and that's a rare thing to give." → "People are braver with their own work when you're around."
+- **Left for Robin:** tagline (Q072, D11: unchanged).
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex Ideal Daiquiri (p. 104: 14.2% / 8.47 g / 1.06%) and Hemingway Daiquiri (p. 120): Murphy's card keeps their sugar-to-acid ratio (7.7 vs 8.0 / 7.2) at half the strength. `accepted` reason (D3) checked: right. Nothing else changed.
 
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks (v3: card + mint syrup, OUT on sour ranges, flagged) · [x] reading (v4) · [x] fact audit (v3: PASS, D-1 + D-2 taken) · [x] resonance test (v4: ready) · [x] names (≥3 + pick) (In Your Own Hand (all three)) · [x] image brief

@@ -73,7 +73,7 @@ There's a code in it, though you'd laugh at the word: you only try it on someone
 
 4. The cocktail I've made for you is a French 75, a renowned Champagne classic, made with Plymouth, the gin he said he never sold. It breaks a rule people love to quote: the Champagne goes over ice, a whole wine glass of it. Somebody will wince. They needn't. The original recipe went over cracked ice, in a tall tumbler. I've made it a little sharper and sweeter than the flute version, so it stays balanced as the ice melts into it. The rest of the bottle goes round the table, as a nod to those trips: when Ford got a yes, other people came along.
 
-5. Keep asking. It works, and whoever says yes enjoys it more than they let on. But now and then, ask for something you're owed, plainly, with no grin and no "go on". Watch the yes come anyway. The people who let you off were never doing it for the charm. They like you. I hope they keep saying yes.
+5. Keep asking. It works, and whoever says yes enjoys it more than they let on. But now and then, ask for something you're owed, plainly, with no grin and no "go on". Watch the yes come anyway. The people who let you off were never doing it for the charm. They like you.
 
 ---
 

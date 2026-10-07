@@ -1,0 +1,26 @@
+{
+ "pairing": "innocent-lover",
+ "personality": "The Teenage Heart-throb",
+ "archetypes": "Innocent × Lover",
+ "date": "2026-10-04",
+ "batch": "innocent",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "brooklyn-cocktail.md",
+ "language_row": "Wren's Resonance on reading v2: ready. Line that lands: \"Nobody knows the pause after the big words better than you.\" The fear is ridicule, not hurt, which keeps it off *Wide Open*; the story never says \"unreturned\". Guards checked (no \"careful\", \"hurt\", \"reply\", \"fall for\", \"say it again\"). Lint: three `he` warnings accepted (Grohusko, Hegeman, a 1910 bartender; never the guest) — Wren, round 4; motif overlap with ruler-lover cleared by a lint-only fix (r4). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/brooklyn-cocktail.md` (F1–F17, C1–C3, L1, I1): *Oxford Companion* BROOKLYN COCKTAIL pdf 360–361, GROHUSKO pdf 952, MANHATTAN COCKTAIL pdf 1221 (Wondrich); *Imbibe!* pdf 211; newspapers via the YPL open-access newspapers.com API, OCR only (1910 *Kansas City Star*, *Cincinnati Enquirer*, *Washington Post*, *New-York Tribune*; 1914 *Morning Call*; 1934 and 1945 *Brooklyn Eagle*), evidence in `work/innocent-lover/historian-evidence-brooklyn-press-ocr.txt`. Drink: *Cocktail Codex* pp. 87, 260; *Liquid Intelligence* pdf 140. Room notes: `work/innocent-lover/`.",
+ "names_note": "**The Big Words**, the room's pick (round 4 vote: Wren, and Hester, who moved from her own *No Law About It*; Tomás voted *Out Loud* and had said he could take *The Big Words*). It's the guest's own move, it never names the drink, and the proposal answers it. Also considered: *Out Loud* (Tomás), *No Law About It* (Hester), *Full Volume*, *In Print*.",
+ "open_items": [
+  "**Newspaper evidence is OCR only.** The 1910, 1914, 1934 and 1945 press facts come from the YPL newspapers.com API's OCR text; the page images weren't opened. One 1910 *Tribune* quip was unreadable and isn't used.",
+  "**\"First\" is contested (card C1).** Oxford gives 1883 as the earliest Brooklyn on record and calls Grohusko's 1908 manual the drink's first appearance; *Imbibe!* says \"one of the very first\". The reading never calls Grohusko's \"the first\", and the 1883 drink is \"on record\" and \"apparently\". The bridge-opening tale is the club's story as a 1945 columnist told it (L1).",
+  "**Grohusko and Baracca are side by side only.** Oxford says Grohusko never lived in Brooklyn and his boss did; it never says the drink was named for anyone (I1).",
+  "**Not the club's recipe.** The glass starts from the Brooklyn Club's rum, vermouth and Angostura (as the *Eagle* printed it in 1945) at 2:1, Tomás's call, with a small measure of Amaro CioCiaro where Grohusko's Amer Picon was (Oxford's and *Imbibe!*'s stand-in; Picon is Till Spring's story). The flamed peel was dropped in round 4.",
+  "**New ingredient rows, Tomás's calls:** `amaro_ciociaro` (veto-free, on the Campari and Cynar precedent; recipe unpublished) and `rum_jamaican_aged_50`. Veto-free.",
+  "Kept out, by plan guard: the neighbourhood riffs and the Red Hook, the Bronx man's retraction, any contest with the Manhattan beyond one clause, \"fall for\"."
+ ],
+ "glassware": "a cocktail glass (about 180 ml), chilled",
+ "name": "The Big Words",
+ "tagline": "You've never loved anything a little.",
+ "epigraph": "Manhattan has a cocktail. So does the Bronx. Brooklyn is still asking."
+}

@@ -1,0 +1,25 @@
+{
+ "pairing": "innocent-magician",
+ "personality": "The Dreamer",
+ "archetypes": "Innocent × Magician",
+ "date": "2026-10-04",
+ "batch": "innocent",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "bill-lark-tasmania.md",
+ "language_row": "Wren's Resonance on reading v2: ready. This is me line: \"So now every hope comes with a little 'probably not' in front of it, said first, to beat everyone else to it.\" The tagline grows out of it. Lint: four historical-pronoun warnings (his/he/him for Bill Lark and John Grant, never the guest) accepted by Wren, round 4; motif overlap with caregiver-sage (\"that seemed right for\") cleared by a lint-only fix (r4). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/bill-lark-tasmania.md` (F1–F18, C1–C6): *Oxford Companion* AUSTRALIA AND NEW ZEALAND (pdf 171–172) and WHISKY, SINGLE-MALT, GLOBAL (pdf 2173); Melita Kiely, \"The big interview: Bill Lark\", *The Spirits Business*, 21 Nov 2022 (secondary; Lark's own words), text saved in `work/innocent-magician/historian-src-spiritsbusiness-2022.txt`. Drink: *Cocktail Codex* pp. 200–201 (still highball); *The Flavor Matrix* pdf 136 (consulted, set aside). Room notes: `work/innocent-magician/`.",
+ "names_note": "**Let's Try It**, the room's pick (round 4 vote: Wren and Hester; Tomás voted *Already There* and had said he could take *Let's Try It*). Also considered: *Already There* (Tomás), *Nobody Was Making It*, *The Question First*.",
+ "open_items": [
+  "**The story's main source is secondary.** The fishing trip, Lyn's question and John Grant's ten-at-night call are Bill Lark's own telling in *The Spirits Business* (2022); Oxford confirms the 1992 law change and the licence, not the call.",
+  "**Dates kept out (card C1, C4, C5):** when Australian whisky-making stopped (1977 vs the 1980s), \"first in N years\", and the year of the fishing trip. The reading states none of them.",
+  "**Spark swapped in round 4:** v1's Tasmanian pepperberry water had no page behind it (Hester's D3) and cost veto-free; Tomás replaced it with two teaspoons of Glenfarclas, from Hester's F11–F13. No flavour claim is made for Glenfarclas.",
+  "**Makeable:** a Tasmanian single malt is often expensive and hard to find outside Australia (pdf 172); the recipe names a substitute style for each bottle and says \"not cask strength\" (Lark's 58% is OUT at 18.2%).",
+  "**New ingredient rows, Tomás's calls:** `lark_classic_cask`, `glenfarclas_single_malt` (veto-free), and `pepperberry_water` (spice), added for v1 and now used by no pour."
+ ],
+ "glassware": "a tall glass (highball, about 300 ml), filled with ice",
+ "name": "Let's Try It",
+ "tagline": "You always say \"probably not\" first. You never mean it.",
+ "epigraph": "Tasmania's new whisky began on a fishing trip: good water, good barley, and nobody making any."
+}

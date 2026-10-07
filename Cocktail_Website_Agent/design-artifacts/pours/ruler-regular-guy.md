@@ -59,9 +59,9 @@ authored_in: the room, 2026-10-01 (batch ruler)
 *A city gave up brandy for whiskey. Years later, one glass poured both.*
 
 **whoYouAre**
-A family stops speaking over a seating plan. A team splits down the middle over who did the work. Two friends each want you to say the other one's wrong. Everyone waits to see which table you'll sit at. You go and sit with the people who expected you not to, and you have whatever they're having.
+A family stops speaking over a seating plan. A team splits down the middle over who did the work. Two neighbours each want you to say the other one's wrong. Everyone waits to see which table you'll sit at. You go and sit with the people who expected you not to, and you have whatever they're having.
 
-You don't do it with a speech. You've never won anyone round with an argument, and you don't try. You just turn up on their ground and mean it. From outside it can look like sitting on the fence. It isn't. You have a side, and you know your own mind. The hardest question you get doesn't come from the other side. It comes from your own: whose side are you on? What you fear is being made to choose, and the day a row stops being a row and becomes the way things are. Here's what all that is worth: because of you, nobody has to pick a table. Both halves end up in one room, and neither had to give itself up to get there.
+You don't do it with a speech. You've never won anyone round with an argument, and you don't try. You just turn up on their ground and mean it. From outside it can look like sitting on the fence. It isn't. You have a side, and you know your own mind. The hardest question you get doesn't come from the other side. It comes from your own: whose side are you on? What you fear is being made to choose, and the day a row stops being a row and becomes the way things are. Because of you, nobody has to pick a table. Both halves end up in one room, and neither had to give itself up to get there.
 
 **yours**
 

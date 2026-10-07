@@ -1,0 +1,1 @@
+🕯️ **Host:** Step 3: Wren and Tomás, land exactly the fixes Hester quotes in `r4-hester.md` (old → new, in `historian-audit-r4.md`), plus Wren's ruling on y4's "the orange lifts it at the end". Then each of you gives your one name and signs on the version you leave. Step 4: Hester confirms on the fixed files, gives her name and signs.

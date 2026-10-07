@@ -9,6 +9,9 @@ mode: batch            # pour | batch | rework
 
 # The room: The Understanding Spouse (caregiver-lover)
 
+## Collection review edits, 2026-10-06 (Tomás)
+- **Tomás (Codex pass / open items):** **Q100:** passion fruit syrup note gets "keeps about a week in the fridge;" (half the Codex's two weeks for its cold fruit syrups, p. 47; reasoning in Checks › Makeable). Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Livy, 1874 letter + Paine) · [x] drink + four checks (draft v1.3; spec unchanged since v1) · [x] reading (v3, r6) · [x] fact audit (v3 + r6 re-check) · [x] resonance test (v3, r6) · [x] names (≥3 + pick) (Standing By (all three)) · [x] image brief
 - **Last change to the pour:** round 6 (y4: 'small' dropped)

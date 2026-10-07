@@ -1,0 +1,26 @@
+{
+ "pairing": "jester-innocent",
+ "personality": "The Naïf",
+ "archetypes": "Jester × Innocent",
+ "date": "2026-10-04",
+ "batch": "jester",
+ "name": "Off the Tour",
+ "tagline": "Nobody believes your stories. They all happened.",
+ "epigraph": "A Green Swizzle, Wembley, 1924. In a story, Bertie Wooster vowed to name a son after it.",
+ "glassware": "tall Collins glass (about 350 ml), crushed ice, the swizzle stick left standing in it, no straw",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "green-swizzle-wodehouse.md",
+ "language_row": "Wren's Resonance on reading v3: ready; y4 describes the glass actually poured (green absinthe steeped with tangerine; no home wormwood steep). Sceptic: \"all your attention\" could be the Craftsman's alone, but here it comes with the room, the chaos and the laugh; the tagline's second sentence turns it, and y3 proves it about the drink, never about the guest. Bertie is never the guest (y5 signposted). Avoided: \"took it seriously\" (*Anyway*), \"made it up\" (*For Kicks*), \"taken as only a joke\" / \"sounds made up\" (*The Other Berry*), \"sounds like a joke… says otherwise\" (*In Your Own Hand*), \"mean all of it\" (*Up Close*), \"how it's usually done\" (*The Way It Felt*). Pronoun warnings accepted: the \"his\" in y1 is Biffy's mind, the \"he\" in y2 is Bertie. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/green-swizzle-wodehouse.md`: P. G. Wodehouse, \"The Rummy Affair of Old Biffy\", *Carry On, Jeeves* (Herbert Jenkins, 1925), Project Gutenberg #65974 (copy in `work/jester-innocent/historian-src-wodehouse-biffy.txt`; first printed in the *Saturday Evening Post*, 27 September 1924); Oxford Companion: GREEN SWIZZLE (pdf 945–946), WORLD'S FAIRS (pdf 756), SWIZZLE (pdf 1963), SWIZZLE STICK (pdf 1965), FALERNUM (pdf 761), CARYPTON (pdf 112), WORMWOOD (pdf 2212); *Imbibe!* pdf 123–125 (Wondrich; Eleanor Early's 1937 tangerine tip, for the bitters). Room notes: `work/jester-innocent/`.",
+ "names_note": "**Off the Tour**, by a 2–1 vote (Wren, Hester); Tomás, whose pick it was, voted *Three Minutes Later*. It names the gift: the good thing is never on the official route, and this person finds it. Wren dropped her own *Something Always Happens* because \"happen\" echoes the tagline. Also considered: *Three Minutes Later* (Bertie's own beat, from the look to the bar), *Hot Bricks* (Bertie's boredom; names the fear, not the gift), *Not for Long*.",
+ "open_items": [
+  "**The plan's lead was overturned in round 1** (Wren): Oxford's Chocolate Martini page (pdf 457) doesn't hold for this person. The 1972 strip's name probably came from a Black Russian joke, not from Taylor, whose claim first appears in 1987, and nobody on the page laughed at *their* drink. The plan's backup, the Green Swizzle and Bertie Wooster, became the story. Elizabeth Taylor, Rock Hudson and the Chocolate Martini are released from the Jester Claims.",
+  "**The story is fiction about a real drink.** Bertie's vow is Wodehouse's; the drink was real and \"long believed to be fictional\" (Oxford pdf 945). The reading owns the fiction (\"In a story\").",
+  "**The tangerine absinthe is ours:** an adaptation of Eleanor Early's 1937 tip for the bitters, as Wondrich passes it on (*Imbibe!* pdf 125). No historical Green Swizzle is claimed to have used absinthe this way. It needs two days ahead.",
+  "**Falernum left out on purpose:** a bought falernum can be `nuts` (bitter almond, *Imbibe!* pdf 124; Oxford pdf 761), and it's *Show Your Working*'s motif. Veto-free as built.",
+  "**Kept out on purpose:** the island of origin (sources conflict, so \"the West Indies\"), the reign's end date, \"lifesaving\"/\"saved\" (health ground), Pinnock and Planter's Punch, the window, the cells and the broken engagement, and any subject for \"believed to be fictional\".",
+  "**New ingredient rows (Tomás):** `wormwood_tangerine_bitters` (from v1, no longer used), `absinthe_verte_tangerine`, `swizzle_stick_left_in`; all `none`. No existing row was reclassified."
+ ]
+}

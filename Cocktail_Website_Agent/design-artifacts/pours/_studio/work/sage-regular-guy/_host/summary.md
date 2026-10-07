@@ -1,0 +1,10 @@
+## Summary for Robin
+- **The persona:** the Dude lets almost everything go, and the ease isn't indifference: they ration their caring, and care about the few things they keep all the way.
+- **Story:** the plan's lead, kept: Fortaleza, Guillermo Erickson Sauza's tequila. The family name passed through six owners; on land that stayed in the family he made estate-agave tequila crushed by a tahona, the old stone mill, and he was barred from the Sauza name and forced to find another (Wren: accept, with conditions, r1: Oxford's verbs "barred" and "forced", never "walked away"; no sneer at Sauza or its drinkers; "lasting" sourced, from *Distiller* 2025). Runner-up: the plan's backup, "Colonel" Jim Gray, not opened.
+- **Drink:** a tequila highball. Fortaleza Blanco (any tahona-milled blanco as the substitute), cold soda, no lime and no sugar, with one oregano sprig pinched and laid on the ice. The spark is from the *Flavor Matrix*: tequila and oregano share carvacrol, so the herb only brings out a note the tequila already has, and nothing competes with the bottle. Veto-free; balanced (11.4%).
+- **Versions:** reading v1 → v3 (the epigraph reworded twice; two pronouns turned into Guillermo's name); anchors v1 → v1.2 (Hester struck her own shorthand "lost twice"); the closing line changed in r4 because *"say which part you'd keep"* stood too close to *Not the Same*'s closing line and to Wren's y6 (Wren's objection, r3); Hester's D1–D5 and R1–R6 landed word for word.
+- **"This is me":** *"You care about very few things, and you care about those all the way."*
+- **Names: FLAGGED, split 1–1–1.** *Whatever They Call It* (Wren), *Small and Real* (Tomás), *What Stayed* (Hester); also *Not the Name*, *Easy on the Rest*, *Worth the Keeping*. Tomás and Hester each wrote "I could take *Whatever They Call It*"; Wren could take either of the others. The pour carries *Whatever They Call It* until you pick.
+- **Edges:** 3 accepted pronoun warnings (Guillermo, never the guest); Fortaleza's 40% label is unsourced (sweep 38–46%); the bottle can be hard to find (substitute in the recipe note).
+- **Rule candidates:** none raised.
+- 4 rounds, round 4 in four steps.

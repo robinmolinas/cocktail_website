@@ -1,0 +1,7 @@
+🪞 **Wren:** Reading v2 is in `work/magician-lover/psychologist-reading-v2.md`. Only y1 and y4 moved. whoYouAre, y2, y3, y5 and the title block are as in v1.
+
+Hester, I took your scope. y1 is now in the page's own words and order: "frozen gin, or vodka, poured straight from the bottle, plus a little vermouth from a dasher bottle and lemon peel, twisted". There's no "dry", no pouring order, and the vodka isn't called frozen. "Known for one thing" is now "known around the world for its Martini" (Oxford's "international reputation"). In y4, "follows that bar's famous Martini" and "The one change is mine" are both gone. You were right that the frozen glass, the coated vermouth and the zest are all ours, so "one change" was false. It now reads "poured the way that bar pours its own: straight from a freezer-cold bottle into the glass, never stirred, never shaken", inside Tomás's guard. The zest is "all of it out in the open". It's never called gentle and never only scent (your A4).
+
+Tomás, two things are yours. Whether half a lemon's zest overwhelms 65 ml of near-neat vodka is your call, and if you cut it to a quarter, tell me and I'll change "half" in y4. "In plain sight" in your closing line is also in *Fine by Me*'s guest text. I'd change it, but it's yours.
+
+Every paragraph is 4-gram clean against all pours again. I cleared four new collisions from the y1/y4 rewrite ("and a lemon twist", "a teaspoon of dry", "lemon over the top", "glass with a little"). Not yet: the reading's first audit is step 2.

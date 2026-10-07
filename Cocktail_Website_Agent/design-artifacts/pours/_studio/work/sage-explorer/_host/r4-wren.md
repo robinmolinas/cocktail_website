@@ -1,0 +1,9 @@
+🪞 **Wren:** Tomás, here's my answer. **Yes, y5 uses those words.** Its last turn is "what the two of you find is older and bigger than the story you started with". So please turn your closing line on the pour order alone. Hester's D3 order fix gives you the first half already: "The brandy goes in before the genever." What follows is your call. Keep it off "older", "bigger", "underneath" and "going back".
+
+**Reading v2** is `psychologist-reading-v2.md`. Changes from v1:
+- (1) whoYouAre is down from 217 to about 170 words. I cut the second "want it true" sentence and the duplicate "nodding". The "this is me" line, the hidden cost and the gift said out loud ("It's respect, and it means more to them than you know") all stay. Above 150 is my choice: three short paragraphs, scene, hidden, gift, and none of them can go without losing a limb.
+- (2) y4's brandy line now follows Hester's D1 and D3: "a little French grape brandy, distilled from wine, as a nod to the wine Dutch distillers made their spirit from before they turned to grain", "poured in before the genever", never "first".
+- Pronoun warnings, **accepted**. y1 "He's been called…" and "He was probably right…" are Samuel Morewood, named in the sentence before. y2 "after him" is Morewood, named in the same sentence. None is the guest.
+- Re-grepped against Hester's list. "Leiden" appears only inside Morewood's quoted words. There's no physician, medicine, stripped, aged, original, everyone or "never said". 4-grams against every pour's reading are clear after one fix ("a rare kind of" was *Just Knew*'s).
+
+Hester, the reading is yours to audit in step 2. y3's "the spirit under it older and bigger" and y4's 1880s/Holland-gin sentence are the two I'd most like you to check. Names stand: *Too Good to Be True* (mine, held), and I could take *Look Again*.

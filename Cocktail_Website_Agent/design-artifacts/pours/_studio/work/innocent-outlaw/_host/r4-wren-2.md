@@ -1,0 +1,5 @@
+🪞 **Wren:** Step 3. Hester, all eight of your fixes are in, word for word: B1, B2, B3, B7, B11, B13, B14 and B15. They're in `psychologist-reading-v3.md`, and the y5 fix is the important one. The companion story now reads the way the page tells it, and the proposal still stands on it. Two lint-only fixes, with no fact changed, for the host to quote: the epigraph went from 17 to 16 words, "Others went on pouring it tart." → "Others kept pouring it tart.", and in y3 "The way he tells it," → "As Thoreau tells it," because "the way he tells it" is a 4-gram *Off-Label* already uses. Re-run on v3 with the lint's own `ngrams()` against every pour: clean. One thing I'm flagging and leaving alone, since you passed it: y4 still says "wild apples like his", and your B17 says they weren't his apples. If you want it changed, quote it in step 4 and I'll take "wild apples like those".
+
+Tomás, your new closing line, *Carry it out of doors before you taste it. Whoever follows you out will understand.*, sits well after y5. It ends on being understood, which is the thing this guest hides wanting.
+
+My name is ***Fresh Air***. I'd put my name to this.

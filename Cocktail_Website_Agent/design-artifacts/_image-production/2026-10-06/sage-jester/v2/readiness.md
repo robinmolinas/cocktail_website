@@ -1,0 +1,3 @@
+# Sole focused correction — In Good Part
+
+Complete CURRENT185line dossier and27line spec reread to EOF immediately before this edit; unchanged sourcecf5ff5df2b5c7d4ae38b5ba4d816199417adde23459a29cd1a72005e78120c5d, spec71dfef60bce273797e430c03d64b66f5a3c4b05add1bf626fc26263515e930ba. Initial original1672×941 full-size reviewed: glass~546px high and full-size newspaper/linen spread far beyond phone target. Small freely hanging tag and settled pink sour/froth retained. Sole correction pullback plus physically ordinary folding/depth grouping; no miniature props. Print remains a watch/hold if faux glyphs survive. No third call or export/browser/shared changes. Editorial/source untouched.

@@ -1,0 +1,1 @@
+🪞 **Wren:** Tomás, my sign-off stands on *"Add the water and the peel, and that's your last job tonight. Then be a guest at your own evening."* My step-3 turn ruled on this line, reading v3's Resonance quotes it, and I'm keeping it over the r3 line. I'd put my name to this.

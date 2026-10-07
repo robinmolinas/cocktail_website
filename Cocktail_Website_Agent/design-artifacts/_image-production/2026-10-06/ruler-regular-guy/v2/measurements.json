@@ -1,0 +1,97 @@
+{
+  "pairing": "ruler-regular-guy",
+  "pour": "One Table",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-regular-guy/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-06a9ebc5-6348-4145-b999-f9e11411a969.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "b00a5dd42714227d671856f00fe1fa04fe96e10b04c118e3e3089203d2c52d11",
+  "sourceSha256": "e51650b108237de2aea282ea5e7b9085c1f70a9a57c97713c059a7e396dc5328",
+  "specSha256": "9f26d81cdc9b32370eab7816e7b21cdaab90011ab71b1d44717cf2ecf52f898d",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    650,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1256,
+    "cy": 602,
+    "w": 159,
+    "angle": 83
+  },
+  "glass": {
+    "x": 1079,
+    "y": 513
+  },
+  "bounds": {
+    "glass": {
+      "x0": 937,
+      "y0": 320,
+      "x1": 1221,
+      "y1": 704
+    },
+    "paper": {
+      "x0": 1195,
+      "y0": 484,
+      "x1": 1311,
+      "y1": 708
+    },
+    "dinnerNapkin": {
+      "x0": 680,
+      "y0": 470,
+      "x1": 946,
+      "y1": 652
+    },
+    "dinnerFork": {
+      "x0": 787,
+      "y0": 446,
+      "x1": 939,
+      "y1": 626
+    }
+  },
+  "recognitionRegions": {
+    "dinnerNapkin": {
+      "bounds": {
+        "x0": 711,
+        "y0": 494,
+        "x1": 944,
+        "y1": 650
+      },
+      "reason": "Substantial folded/hemmed navy linen with enough cloth face to identify a used napkin, not only a cropped edge."
+    },
+    "dinnerFork": {
+      "bounds": {
+        "x0": 787,
+        "y0": 446,
+        "x1": 939,
+        "y1": 626
+      },
+      "reason": "All tines, connected neck and handled grip visible as an ordinary dinner fork."
+    }
+  },
+  "review": {
+    "recipe": "Plain heavy large rocks, clear deep amber-red, one broad-faced large cube and one lemon strip dropped inside. No foam/cherry/pods. Ice top remains sparkly/faceted and glass has dense wet detail.",
+    "personality": "Used folded navy linen and complete handled fork overlap behind-left of glass, supporting a joined-meal source habit. They remain generic subtle personal traces and too spread for phone crop.",
+    "world": "Private historic timber room with quiet left third and one right practical preserved. Table remains predominantly warm glossy amber with conspicuous contact microtexture rather than flat neutral low satin.",
+    "issues": [
+      "Sole correction exhausted; measured candidate with holds, not accepted.",
+      "Glass384px high exceeds280–340px target.",
+      "Full group631px and conservative recognizable group600px exceed434px nominal and389px moving-phone windows.",
+      "Proposed702px portrait retains complete objects; not narrow-phone retention or browser acceptance.",
+      "Glass/paper alone374px leaves only15px total theoretical389px moving-window clearance; actual moving/overlay test pending.",
+      "Blank tag outside glass with lower-body cord/light gap, but usable axis159px below170–200px requested.",
+      "Dense wet detail/sparkly ice and glossy amber table hold remain.",
+      "Joined-meal personality traces are plausible but insufficiently distinctive; no flags or literal symbolism added.",
+      "No exporter/JPEG/browser/public/registry/dossier/shared tracker mutation."
+    ]
+  }
+}

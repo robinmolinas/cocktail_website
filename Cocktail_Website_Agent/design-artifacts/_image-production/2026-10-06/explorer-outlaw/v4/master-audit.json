@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-07",
+  "pairing": "explorer-outlaw",
+  "version": "v4",
+  "scope": "PNG master hash/actual dimensions/proposed crop and paper-axis extent only; not JPEG/name glyph/browser/material or overall acceptance.",
+  "masterSha256": "4809197137871f86254f8f71806429c46af2c4bcb7e161375387f43d344e90c7",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterMeasurementDimensionsMatch": true,
+  "generatedOriginalCopyMatches": true,
+  "currentDossierMatches": true,
+  "currentSpecMatches": true,
+  "priorV3Preserved": true,
+  "proposedCropsInsideSource": true,
+  "cleanAxisEndpoints": [
+    {
+      "x": 758.0251780213816,
+      "y": 719.3397666922745
+    },
+    {
+      "x": 805.9748219786184,
+      "y": 600.6602333077255
+    }
+  ],
+  "cleanAxisInsidePaperBoundingBox": true,
+  "requestedHangingAttachmentVisuallyInspected": true,
+  "allPersonEvidenceInsidePortrait": false,
+  "portraitRecompositionOutstanding": true,
+  "exported": false,
+  "actualNoJPEGs": true,
+  "queueCurrentVersion": "v4",
+  "queueHashMatches": true,
+  "distinctGenerated": 42,
+  "exportedPairCount": 27,
+  "pendingMeasured": 15,
+  "notYetGenerated": 73,
+  "latestBatch": "production-batch-03",
+  "heartbeat": "PAUSED; app confirmed after Robin specifically approved pausing it",
+  "browserRequests": [
+    "pilot-caregiver-innocent-v4-phone-layout-r1"
+  ],
+  "accepted": false,
+  "integrated": false
+}

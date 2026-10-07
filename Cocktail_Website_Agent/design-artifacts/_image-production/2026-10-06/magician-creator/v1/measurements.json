@@ -1,0 +1,111 @@
+{
+  "pairing": "magician-creator",
+  "pour": "On One Condition",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-creator/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-2cd9cf90-3cba-44a0-b3c8-8f863102ade5.png",
+  "sourceSha256": "01ce99abcdf4067a816791a6a7e0c5872b7ef3474504887d92b8f83640ab58cb",
+  "specSha256": "e6ea8d8c0c21206a47fd95944f1a2f0e08f6d3a30065428d46a83a5167085b70",
+  "masterSha256": "ee2536df8587106951d71fb2dd8a22a414916a7ce3b0d7ccb26a3b5dd4468e8b",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    838,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1114,
+    "cy": 691,
+    "w": 112,
+    "angle": 83
+  },
+  "glass": {
+    "x": 991,
+    "y": 513
+  },
+  "bounds": {
+    "glass": {
+      "x0": 869,
+      "y0": 244,
+      "x1": 1110,
+      "y1": 794
+    },
+    "paper": {
+      "x0": 1078,
+      "y0": 606,
+      "x1": 1143,
+      "y1": 760
+    },
+    "garnish": {
+      "x0": 850,
+      "y0": 132,
+      "x1": 1041,
+      "y1": 578
+    }
+  },
+  "personBounds": {
+    "cassetteCase": {
+      "x0": 1116,
+      "y0": 405,
+      "x1": 1560,
+      "y1": 679
+    },
+    "toastCardPencil": {
+      "x0": 1144,
+      "y0": 660,
+      "x1": 1659,
+      "y1": 852
+    }
+  },
+  "recognitionRegions": {
+    "cassetteCase": {
+      "x0": 1130,
+      "y0": 409,
+      "x1": 1553,
+      "y1": 674
+    },
+    "toastCardPencil": {
+      "x0": 1151,
+      "y0": 663,
+      "x1": 1654,
+      "y1": 847
+    }
+  },
+  "group": {
+    "fullWidth": 809,
+    "recognitionWidth": 804
+  },
+  "tagPhysics": {
+    "supportLoop": "Snug exterior lower-middlebody frontarc around y596–613; sides wrap with rear arc hidden.",
+    "knot": "Near1092,604 at rightside.",
+    "tether": "Short continuous descending cord from knot tohole near1105,635.",
+    "hole": "Punched paper hole visible.",
+    "paper": "Small blank cream label narrower than glass, hangs alongside lowerbody with separate free lower face.",
+    "gravity": "Hole below knot; body hangs downward undergravity, lowercorner above timber with visible gap.",
+    "assessment": "Substantially plausible exterior support chain; exact fararc occlusion and tiny strand geometry unapproved."
+  },
+  "review": {
+    "recipe": "One tall plain Collins filled with cubes, pale gold slightly hazy liquid, one upright rosemary sprig and fine bubbles, no foam or extra garnish. Warm grade stronger than faint-blush direction.",
+    "personality": "Full-size tape in open connected case plus blank folded card/pencil are legible source-format inferences for playlist and toast. Broad side-by-side inventory instead of close overlap.",
+    "world": "Historic timber room with one visible practical; glossy amber scratchy walnut and uniformly dense droplets/ice texture violate plainer material target.",
+    "issues": [
+      "glass550px instead of280–330target",
+      "garnish top132px outside middle20–80target",
+      "full809px/recogn804px core too broad",
+      "702portrait trims card/pencil right",
+      "amber glossy scratch-carpet wood",
+      "dense decorative-looking droplets and ice",
+      "tag independent physics/name review pending",
+      "no export/browser/phone approval"
+    ]
+  }
+}

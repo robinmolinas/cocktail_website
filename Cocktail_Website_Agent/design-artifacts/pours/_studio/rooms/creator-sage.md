@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Old Master (creator-sage)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 (variety rules).
+- **Edits** (before → after, short): whoYouAre ¶2 (D13 V1, the fear said straight; ¶1's "Not because it failed. Because it didn't" already carries the contrast): "What you dread isn't being wrong. It's settling into being right, becoming…" → "What you dread is settling into being right, becoming…".
+- **Left for Robin:** Q047 tagline (D11).
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (v1) · [x] drink + four checks (v2) · [x] reading (v1) · [x] fact audit (v1 on reading v1: not yet (5 changes, 1 signpost, 1 stale para)) · [x] resonance test (v3) · [x] names (≥3 + pick) (Beside the First, all three; ticked round 7) · [x] image brief
 - **Last change to the pour:** round 7

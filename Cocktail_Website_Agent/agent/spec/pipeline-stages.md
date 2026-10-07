@@ -1,73 +1,61 @@
-# Pipeline Stages — Agent I/O Contract
+# Pipeline stages: two tiers, five stages
 
-> ⚠️ **Partly superseded (2026-09-23) — pending a `bmad-spec` refresh.** Where this file conflicts with `../ARCHITECTURE-SPINE.md`, the spine wins: the trace never reaches the server or the Bartender (AD-2); vetoes steer the match (AD-4); the canonical intake is the live journey's `Answers` v2 (AD-1), not the questionnaire docx (archived).
-
-The five stages across two locked tiers. Each names its **input**, **output**, and the **source data** it must read. Runtime wiring (orchestrator, sync/async, n8n vs in-app) is an architecture decision, not fixed here.
-
-## Two-tier data flow (locked)
+Refreshed 2026-10-06 from `../ARCHITECTURE-SPINE.md` and later decisions. Runtime wiring is the spine's (AD-3, AD-5, AD-6, AD-9). This file fixes each stage's input, output and boundary.
 
 ```mermaid
 flowchart TD
-    subgraph A[Tier A — offline, authored once per persona]
-      PER[(132 personas)] --> H[Stage 3: Historian — inspiration]
-      H --> M[Stage 4: Mixologist — 1 cocktail per persona]
-      M --> STORE[(132 cocktail + narrative store)]
-    end
-    subgraph B[Tier B — runtime, per user]
-      Q[Stage 1: Questionnaire intake] -->|profile| P[Stage 2: Psychologist — hybrid select]
-      P -->|matched persona| STORE
-      STORE -->|pre-authored cocktail| S[Stage 5: Bartender — rationale framing]
-      Q -->|name, colour, flavours, trace| S
-      P -->|persona| S
-      S -->|payload| APP[(React/Vite front-end)]
-    end
+  subgraph A[Tier A: offline, Pour Studio, once per ordered pairing]
+    W[Wren: psychology, voice] --> ROOM[Room: dossier + spec]
+    H[Hester: history, anchors] --> ROOM
+    T[Tomás: recipe, balance, allergens] --> ROOM
+    ROOM --> REV[Robin's review desk: draft / flagged / approved]
+    REV --> IMP[Catalogue import + validator]
+    IMP --> STORE[(shared/data/pours: 132 keyed by pairingKey)]
+  end
+  subgraph B[Tier B: runtime, per guest]
+    Q[Stage 1: intake, Answers v3] --> SEL[Stage 2: selectShortlist, deterministic top-3 eligible]
+    STORE --> SEL
+    SEL --> BAR[Stage 5: Bartender picks 1 of 3 + tailors yours]
+    BAR -->|invalid / failed| FB[shortlist 0, authored yours verbatim]
+    BAR --> ASM[assembleReading]
+    FB --> ASM
+    ASM --> APP[TheReading]
+  end
 ```
 
-## Stage 1 — Questionnaire intake · Tier B (CAP-1)
+## Stage 1 · Intake (CAP-1, Tier B)
 
-- **Input:** user responses to the New Revamped Questionnaire.
-- **Output:** a normalized `profile` object. Fields:
-  - `name` (text)
-  - `capture_frame` — Real me / Dream alter ego / Night version / Inner child / Future self / Fictional persona
-  - `colour` (from colour scale) — also the favourite colour used for image personalization
-  - `gravity` — 5 axes: Solitary↔Social, Controlled↔Wild, Classic↔Experimental, Analytical↔Instinctive, Grounded↔Dreamlike
-  - `drivers` — up to 3 of: Freedom, Beauty, Mastery, Pleasure, Recognition, Peace, Knowledge, Belonging, Power, Change, Wonder, Mischief *(map onto archetype drivers — see personality-model.md)*
-  - `come_to_you_for` — up to 3 of: Advice, Energy, Protection, Honesty, Ideas, Comfort, Courage, Taste, Perspective, Fun, Leadership, Calm, A reality check, A little chaos
-  - `inner_texture` — 9 binary picks: Sharp/Smooth, Relaxed/Excited, Positive/Negative, In-control/Out-of-control, Quiet/Loud, Risk-averse/Risk-taker, Bright/Dark, Soft/Rough, Harmonic/Disharmonic
-  - `flavours` — any of: Sweet, Bitter, Spicy, Herbal, Fruity, Citrusy, Fresh, Floreal, Smoky *(framing + secondary selection signal only — does not change the fixed recipe)*
-  - `vessel` — Short & strong / Poised & ceremonial / Tall & cold / Light & sparkling *(framing + secondary signal)*
-  - `craft_level` — scale: curious stranger → old friend
-  - `trace` — free text ("leave one trace of yourself")
-- **Removed:** the exclusions/allergens question ("what should never touch your glass") — dropped because a serve-only runtime cannot honor it without deceiving the user.
-- **Canonical source:** `../data/New Revamped Questionnaire.docx` (the exclusions question is to be removed from it).
+- **In:** the guest's choices across H0–H7.
+- **Out:** `Answers` v3 plus browser-only `IntakeDiagnostics` and `trace` (intake-contract.md).
+- **Boundary:** only `Answers` leaves the browser.
 
-## Stage 2 — Psychologist / Personality agent · Tier B (CAP-2)
+## Stage 2 · Selection (CAP-2, CAP-8, Tier B)
 
-- **Input:** `profile`.
-- **Reads:** `../data/Brand Personality + Roulette.xlsx` (both sheets) — see personality-model.md.
-- **Mechanism (hybrid):** deterministic scoring of answers → shortlist of close-fitting personas → LLM makes the final pick and writes the rationale.
-- **Output:** `chosen_personality` = { archetype, persona_name, persona_attributes } + `rationale` (concise, cites specific answers, written to make the user feel seen). Two candidates may be reasoned internally; only the chosen one is contract output.
+- **In:** `Answers` (no trace) and the catalogue.
+- **Out:** 3 eligible pairingKeys, ranked.
+- **Rules:** matching-model.md and AD-3/AD-4. Pure core, identical in both shells.
 
-## Stage 3 — Historian agent · Tier A offline (CAP-3)
+## Stage 3 · History (CAP-3, Tier A)
 
-- **Input:** a persona (one of the 132).
-- **Output:** `inspiration` = { cocktails[]: {name, origin, story, persona_link}, ingredients[]: {name, story, persona_link} }. Cocktails and ingredients need not correspond. Includes moral/cultural context where relevant, handled respectfully.
-- **Boundary:** inspiration and wisdom only — does **not** create the final cocktail.
-- **Reference corpus:** the custom knowledge base (`../../Knowledge base/cocktail_counsel_knowledge_base.md`), historical/mixology knowledge (e.g. Wondrich's *Imbibe!*), and the real inventory below for what is buildable.
+- **Owner:** Hester.
+- **Out:** sourced anchors `{kind, fact, meaning, speaksTo?}`, at least 3 per pour, plus fact cards.
+- **Boundary:** facts, not copied wording. Moral and cultural context is handled respectfully. Never sets the recipe.
 
-## Stage 4 — Mixologist agent · Tier A offline (CAP-4)
+## Stage 4 · Recipe (CAP-4, Tier A)
 
-- **Input:** `inspiration` + the persona's traits.
-- **Designs for:** symbolic + emotional fit and mixological coherence, drawing on the KB ingredient-symbolism library. Not bound to a fixed inventory (the v1 home-bar constraint is dropped).
-- **Output:** `cocktail` = { ingredients[]: {name, quantity}, method[] }. One canonical cocktail per persona, written into the 132-store.
+- **Owner:** Tomás.
+- **Out:** one canonical recipe per ordered pairing: spec JSON and dossier table, method, `closingLine`, `contains`. Balance and allergen checks are run with the dps-tools.
+- **Boundary:** the runtime never changes it. Each pour has a fixed glass.
 
-## Stage 5 — Bartender agent · Tier B (CAP-5)
+## Stage 5 · Bartender (CAP-5, Tier B)
 
-- **Input:** `chosen_personality`, the matched pre-authored `cocktail` + its `inspiration` (symbolism), and `profile` (name, colour, flavours, trace).
-- **Reads:** the custom knowledge base (`../../Knowledge base/cocktail_counsel_knowledge_base.md`) for Product concept, Experience principles, brand voice, and symbolism libraries.
-- **Output:** the rationale (#6) + emotional fit (#2) of the payload in `output-contract.md`; the recipe and the other elements are served as pre-authored. The prompt lives at `../prompts/bartender.md`.
-- **Possible orchestrator role** — to be decided in architecture.
+- **In:** the trace-free, name-free answers, and the 3 shortlisted pours (essence, tagline, anchors, authored `yours`).
+- **Out:** `{pick, yours[]}`.
+- **Guard and fallback:** AD-6.
+- **Never:** recipes, new facts, the guest's name, the trace.
 
 ## Evaluation fixtures
 
-Real filled questionnaires usable as gold inputs to judge Stage 2 / Stage 5 quality (note: **older** questionnaire format — migrate or map before use): `../data/fixtures/Florence Boudot.docx`, `../data/fixtures/Margot Houdoux.docx`, `../data/fixtures/Nicolas Gavrilenko.docx`, `../data/fixtures/Andreas Mastorakos.docx`, `../data/fixtures/Helene Guibert.docx`, `../data/fixtures/Cyriaque Houdoux.docx`, `../data/fixtures/Pauline Pic-Paris.pdf`, `../data/fixtures/Clara.docx`, `../data/fixtures/Pierre Cloarec.docx`, `../data/fixtures/Julien.docx`, `../data/fixtures/Chaker Bejaoui.docx`.
+- `../matching/fixtures-v1.json` holds one valid v3 answer set per pairing that makes it lead the fallback. The core's coverage tests use them.
+- Persona-feel review uses fresh playtest runs of the live journey.
+- The old-questionnaire docx fixtures are archived (`../_archive/2026-09-23-superseded/`) and must not be used.

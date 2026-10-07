@@ -1,0 +1,107 @@
+{
+  "pairing": "sage-jester",
+  "pour": "In Good Part",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-jester/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-b4854d6e-82aa-4c4f-a35a-f71ac8d5c914.png",
+  "sourceSha256": "cf5ff5df2b5c7d4ae38b5ba4d816199417adde23459a29cd1a72005e78120c5d",
+  "specSha256": "71dfef60bce273797e430c03d64b66f5a3c4b05add1bf626fc26263515e930ba",
+  "masterSha256": "304ade015312fcba382de3819db80dd87bb9acae37a6ccafa38e3ff51ddbbd47",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    713,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1131,
+    "cy": 582,
+    "w": 104,
+    "angle": 80
+  },
+  "glass": {
+    "x": 1084,
+    "y": 459
+  },
+  "bounds": {
+    "glass": {
+      "x0": 890,
+      "y0": 254,
+      "x1": 1279,
+      "y1": 801
+    },
+    "paper": {
+      "x0": 1086,
+      "y0": 499,
+      "x1": 1170,
+      "y1": 644
+    }
+  },
+  "personBounds": {
+    "newspaper": {
+      "x0": 511,
+      "y0": 438,
+      "x1": 1467,
+      "y1": 665
+    },
+    "pencil": {
+      "x0": 615,
+      "y0": 555,
+      "x1": 905,
+      "y1": 639
+    },
+    "dinnerLinenVisible": {
+      "x0": 1288,
+      "y0": 503,
+      "x1": 1672,
+      "y1": 779
+    }
+  },
+  "recognitionRegions": {
+    "newspaper": {
+      "x0": 540,
+      "y0": 454,
+      "x1": 1042,
+      "y1": 652
+    },
+    "pencil": {
+      "x0": 615,
+      "y0": 555,
+      "x1": 905,
+      "y1": 639
+    },
+    "dinnerLinen": {
+      "x0": 1322,
+      "y0": 546,
+      "x1": 1665,
+      "y1": 777
+    }
+  },
+  "group": {
+    "fullVisibleWidth": 1161,
+    "recognitionWidth": 1125
+  },
+  "review": {
+    "recipe": "Pink body and smooth pale-pink soft egg-white cap, chilled plain coupe, no serving ice/garnish/rim. Foam plausible but deeper than intended lowcap, not piped.",
+    "personality": "Folded newsprint plus pencil/source annotation habit and handled linen/source dinner trace; coherent but weakly specific and spread.",
+    "world": "Dark historic room one practical/quiet left; glossy amber timber and patterned surface still held.",
+    "issues": [
+      "Glass547px tall much larger than280–330 intention",
+      "Full visible group1161px/conservative recognition1125px, paper/cloth heavily clipped by proposed portrait",
+      "Linen right edge cropped by master, actual unseen full extent unknown",
+      "Pseudo-print glyph texture visible on newspaper",
+      "Generic newspaper/dinner-linen evidence; not humour recognition proof",
+      "Glossy warm crossing-grain timber and speckled glass",
+      "Small104px tag axis untested; no phone/name/browser acceptance"
+    ]
+  }
+}

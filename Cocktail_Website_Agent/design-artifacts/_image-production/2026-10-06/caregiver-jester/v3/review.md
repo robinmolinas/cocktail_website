@@ -1,0 +1,1 @@
+Actual master1672x941 verified by ffprobe. Measured actual glass including mint and paper union311px. Physical recipe/world pass; compact flask and inner repaired sleeve now sit behind the hero. Ready for central export, not accepted until both JPEGs and seven covers are inspected. v1/v2 remain superseded holds.

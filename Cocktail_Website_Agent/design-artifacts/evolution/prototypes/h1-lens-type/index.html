@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dionysus H1 · "Who is this cocktail for?" · calmer Playfair</title>
+<!-- the production import, verbatim (dionysus-experience/src/index.css line 6) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair:ital,opsz,wght@0,5..1200,300..700;1,5..1200,300..700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+/* ---------- copied from dionysus-experience/src/index.css (read-only) ---------- */
+:root {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-text: 'Playfair', 'Playfair Display', Georgia, serif;
+  --font-label: 'Jost', 'Futura', system-ui, sans-serif;
+  --legible: 0 1px 2px rgba(22, 11, 4, 0.26);
+  --sphere-rim: rgba(255, 235, 200, 0.22);
+  --sphere-fill: radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.04) 42%, rgba(255, 235, 200, 0.07) 100%);
+  --sphere-shadow: inset 0 1px 13px rgba(255, 235, 200, 0.1), 0 0 22px -8px rgba(255, 176, 136, 0.25);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: #0d0b09; }
+body { font-family: var(--font-text); font-optical-sizing: auto; -webkit-font-smoothing: antialiased; }
+
+/* the held frame (journey.mp4 @ 0.6s) + the layers TheDepths puts over it at H1 */
+.stage { position: fixed; inset: 0; background: url(frame-h1.jpg) center / cover no-repeat; }
+.breathe { position: absolute; inset: 0; pointer-events: none; opacity: 0.25; /* depthBreathe 0.16..0.34, mid-breath */
+  background: radial-gradient(80% 55% at 50% -12%, rgba(255, 196, 128, 0.22) 0%, transparent 70%); }
+.vignette { position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.45) 100%); }
+.overlay { position: absolute; inset: 0; z-index: 30; }
+
+.hold-head {
+  position: absolute; left: 50%; top: 12.5%;
+  width: min(640px, 88vw); margin-left: max(-320px, -44vw);
+  display: flex; flex-direction: column; align-items: center; gap: 0.7rem; text-align: center;
+}
+.hold-q {
+  margin: 0; color: #fbf4e8; text-shadow: var(--legible); text-wrap: balance;
+  font-family: var(--q-family); font-style: var(--q-style); font-weight: var(--q-weight);
+  font-variation-settings: var(--q-fvs, normal);
+  font-size: var(--q-size); line-height: var(--q-lh); letter-spacing: var(--q-ls, normal);
+}
+
+.sphere-cluster {
+  position: absolute; left: 50%; top: 52%; transform: translate(-50%, -50%);
+  display: grid; grid-template-columns: repeat(3, auto); gap: 0.6rem 1.35rem; justify-items: center;
+}
+.sphere-drift:nth-child(1) { margin-top: 14px; }
+.sphere-drift:nth-child(2) { margin-top: -10px; }
+.sphere-drift:nth-child(3) { margin-top: 18px; }
+.sphere-drift:nth-child(4) { margin-top: -6px; }
+.sphere-drift:nth-child(5) { margin-top: 12px; }
+.sphere-drift:nth-child(6) { margin-top: -14px; }
+.sphere-btn { border: none; background: none; padding: 6px; cursor: pointer; }
+.sphere {
+  position: relative; display: flex; align-items: center; justify-content: center;
+  width: var(--sphere-size, clamp(112px, 15vmin, 142px)); aspect-ratio: 1; border-radius: 50%;
+  padding: 0 14px; text-align: center;
+  border: 1px solid var(--sphere-rim); background: var(--sphere-fill);
+  backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); box-shadow: var(--sphere-shadow);
+}
+.sphere-word {
+  color: #fbf4e8; text-shadow: var(--legible); text-wrap: balance;
+  font-family: var(--w-family); font-style: var(--w-style); font-weight: var(--w-weight);
+  font-variation-settings: var(--w-fvs, normal);
+  font-size: var(--sphere-word, var(--w-size)); line-height: var(--w-lh); letter-spacing: var(--w-ls);
+}
+.sphere-cluster.is-lens { gap: 1rem 1.6rem; }
+.sphere-cluster.is-lens .sphere { --sphere-size: clamp(132px, 18.5vmin, 176px); padding: 0 18px; }
+
+/* the cold-open line (TheDepths: .depth-line + font-playfair italic text-xl sm:text-2xl leading-relaxed max-w-xl) */
+.lines-wrap { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 0 1.5rem; }
+.depth-line {
+  max-width: 36rem; margin: 0; text-align: center; color: #fbf4e8; text-shadow: var(--legible);
+  font-family: var(--font-display); font-style: italic; font-weight: 400;
+  font-size: 1.25rem; line-height: 1.625;
+}
+@media (min-width: 640px) { .depth-line { font-size: 1.5rem; } }
+
+/* context strip (?ctx=1): the two lines that precede H1, in their real face/size,
+   parked under the cluster so the voices can be read against each other */
+.ctx { position: absolute; left: 0; right: 0; bottom: 4.5%; display: flex; flex-direction: column; align-items: center; gap: 0.35rem; padding: 0 1.5rem; }
+.ctx .depth-line { opacity: 0.9; }
+
+/* phone (index.css @media (max-width: 640px)) */
+@media (max-width: 640px) {
+  .sphere-cluster { gap: 0.55rem 0.7rem; }
+  .sphere-btn { padding: 3px; }
+  .sphere { --sphere-size: clamp(88px, 26vw, 108px); padding: 0 10px; }
+  .sphere-word { --sphere-word: var(--w-size-phone); }
+  .sphere-cluster.is-lens { grid-template-columns: repeat(2, auto); gap: 0.5rem 1rem; }
+  .sphere-cluster.is-lens .sphere { --sphere-size: clamp(122px, 36vw, 148px); padding: 0 14px; }
+}
+@media (max-width: 640px) and (max-height: 720px) {
+  .sphere-cluster { top: 55.5%; gap: 0.3rem 0.6rem; }
+  .sphere-cluster.is-lens { top: 57%; gap: 0.25rem 0.9rem; }
+  .sphere-cluster.is-lens .sphere { --sphere-size: clamp(112px, 32vw, 134px); }
+}
+
+/* ============================== the variants ============================== */
+
+/* current (today, lens 400) — exactly production today. Question = .hold-q; words = .sphere-word
+   with the .is-lens override (weight 400 since Robin's 2026-10-06 note; the base
+   .sphere-word is 500). */
+[data-v="current"] {
+  --q-family: var(--font-display); --q-style: italic; --q-weight: 400;
+  --q-size: clamp(1.4rem, 3vmin, 1.85rem); --q-lh: 1.25;
+  --w-family: var(--font-display); --w-style: italic; --w-weight: 400;
+  --w-size: clamp(15px, 1.95vmin, 18px); --w-size-phone: clamp(13px, 3.5vw, 15px);
+  --w-lh: 1.28; --w-ls: 0.01em;
+}
+
+/* before — production until earlier on 2026-10-06: the lens words had no
+   .is-lens override, so they took the base .sphere-word (Display italic 500,
+   1.22, 0.005em). Robin: whole phrases at 500 "read as bold". */
+[data-v="before"] {
+  --q-family: var(--font-display); --q-style: italic; --q-weight: 400;
+  --q-size: clamp(1.4rem, 3vmin, 1.85rem); --q-lh: 1.25;
+  --w-family: var(--font-display); --w-style: italic; --w-weight: 500;
+  --w-size: clamp(15px, 1.95vmin, 18px); --w-size-phone: clamp(13px, 3.5vw, 15px);
+  --w-lh: 1.22; --w-ls: 0.005em;
+}
+
+/* soft — same sizes, the family's low-contrast optical cut */
+[data-v="soft"] {
+  --q-family: var(--font-text); --q-style: italic; --q-weight: 400; --q-fvs: 'opsz' 28;
+  --q-size: clamp(1.4rem, 3vmin, 1.85rem); --q-lh: 1.25;
+  --w-family: var(--font-text); --w-style: italic; --w-weight: 400; --w-fvs: 'opsz' 16;
+  --w-size: clamp(15px, 1.95vmin, 18px); --w-size-phone: clamp(13px, 3.5vw, 15px);
+  --w-lh: 1.28; --w-ls: 0.01em;
+}
+
+/* upright — soft question; the lenses stand up, as plain speech, a step smaller */
+[data-v="upright"] {
+  --q-family: var(--font-text); --q-style: italic; --q-weight: 400; --q-fvs: 'opsz' 28;
+  --q-size: clamp(1.4rem, 3vmin, 1.85rem); --q-lh: 1.25;
+  --w-family: var(--font-text); --w-style: normal; --w-weight: 400; --w-fvs: 'opsz' 14;
+  --w-size: clamp(14px, 1.8vmin, 16.5px); --w-size-phone: clamp(12.5px, 3.3vw, 14px);
+  --w-lh: 1.32; --w-ls: 0.005em;
+}
+
+/* whisper — the question in the cold-open line's exact voice (.depth-line);
+   words as in soft */
+[data-v="whisper"] {
+  --q-family: var(--font-display); --q-style: italic; --q-weight: 400;
+  --q-size: 1.5rem; --q-lh: 1.625;
+  --w-family: var(--font-text); --w-style: italic; --w-weight: 400; --w-fvs: 'opsz' 16;
+  --w-size: clamp(15px, 1.95vmin, 18px); --w-size-phone: clamp(13px, 3.5vw, 15px);
+  --w-lh: 1.28; --w-ls: 0.01em;
+}
+@media (max-width: 640px) { [data-v="whisper"] { --q-size: 1.25rem; } }
+
+/* murmur (own) — the middle of the optical axis rather than its foot: opsz 40
+   keeps Playfair's ball terminals and italic swing but drops Display's
+   condensed, needle-hairline drama. Sizes are production's own, so the
+   change is the face alone. The lens words at opsz 24 stay elegant without
+   the low cut's Georgia-like width. (A first pass also stepped the question
+   down to clamp(1.35rem, 2.8vmin, 1.7rem): calmer, but it read quieter than
+   the cold-open line itself on the frame's palest band — reverted.) */
+[data-v="murmur"] {
+  --q-family: var(--font-text); --q-style: italic; --q-weight: 400; --q-fvs: 'opsz' 40;
+  --q-size: clamp(1.4rem, 3vmin, 1.85rem); --q-lh: 1.25;
+  --w-family: var(--font-text); --w-style: italic; --w-weight: 400; --w-fvs: 'opsz' 24;
+  --w-size: clamp(15px, 1.95vmin, 18px); --w-size-phone: clamp(13px, 3.5vw, 15px);
+  --w-lh: 1.28; --w-ls: 0.005em;
+}
+
+/* prototype-only switcher (hidden in screenshots) */
+.switch { position: fixed; z-index: 99; right: 10px; bottom: 10px; display: flex; gap: 4px; flex-wrap: wrap;
+  font: 500 11px/1 var(--font-label); letter-spacing: 0.08em; }
+.switch a { color: #f5ead8; text-decoration: none; padding: 6px 8px; border: 1px solid rgba(255,255,255,.2); border-radius: 999px; }
+.switch a.on { border-color: #ffb088; color: #ffb088; }
+.shot .switch { display: none; }
+</style>
+</head>
+<body>
+<div class="stage" id="stage">
+  <div class="breathe"></div>
+  <div class="vignette"></div>
+  <div class="overlay" id="overlay"></div>
+</div>
+<nav class="switch" id="switch"></nav>
+<script>
+const LINES = [
+  'Somewhere, a cocktail that does not exist yet is waiting to be made.',
+  'There are no right answers, only honest ones.',
+];
+const LENSES = ['The real me', 'The me I’m becoming', 'The night version of me', 'My inner child', 'The me I used to be', 'Another side of me'];
+const VARIANTS = ['before', 'current', 'soft', 'upright', 'whisper', 'murmur'];
+
+const p = new URLSearchParams(location.search);
+const v = p.get('v') || 'current';
+const ctx = p.get('ctx') === '1';
+if (p.get('shot') === '1') document.documentElement.classList.add('shot');
+
+const stage = document.getElementById('stage');
+const overlay = document.getElementById('overlay');
+stage.dataset.v = VARIANTS.includes(v) ? v : 'current';
+
+if (v === 'lines') {
+  // the cold-open screen itself: ?v=lines&line=0|1
+  const i = Number(p.get('line') || 0);
+  overlay.innerHTML = `<div class="lines-wrap"><p class="depth-line">${LINES[i]}</p></div>`;
+} else {
+  overlay.innerHTML = `
+    <div class="hold-head"><h2 class="hold-q">Who is this cocktail for?</h2></div>
+    <div class="sphere-cluster is-lens">
+      ${LENSES.map(l => `<div class="sphere-drift"><button type="button" class="sphere-btn"><span class="sphere"><span class="sphere-word">${l}</span></span></button></div>`).join('')}
+    </div>
+    ${ctx ? `<div class="ctx">${LINES.map(l => `<p class="depth-line">${l}</p>`).join('')}</div>` : ''}`;
+}
+
+document.getElementById('switch').innerHTML =
+  [...VARIANTS, 'lines'].map(x => `<a class="${x === v ? 'on' : ''}" href="?v=${x}${ctx ? '&ctx=1' : ''}">${x}</a>`).join('') +
+  `<a class="${ctx ? 'on' : ''}" href="?v=${v}${ctx ? '' : '&ctx=1'}">context</a>`;
+</script>
+</body>
+</html>

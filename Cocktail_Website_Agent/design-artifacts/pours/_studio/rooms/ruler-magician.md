@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Legend (ruler-magician)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): whoYouAre ¶2 (V1, corpus example): "The storm doesn't frighten you. Being the one in charge when it wins does, and being remembered for that." → "What you lie awake over is being the one in charge on the day the storm wins, and being remembered for that."; yours 5 (V4): cut the preamble "So I'll take a side."
+- **Left for Robin:** Q146 (spoon measures for the acids) waits on Tomás to verify the spoon weights.
+- **Tomás (Codex pass / open items):** **Q146:** spoon equivalents **not** applied: no book gives their weight, and LI p. 338's ascorbic acid (~2.5 g a teaspoon) shows the guess could be half out, which would send the drink OUT. Instead method 1 gets "If your scale only weighs whole grams, make twice as much: 500 ml of juice, from about 8 oranges, with 11 g of citric acid." (swept 2.8–3.3% juice acid: all in range). Checks › Makeable note. Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Patrick Gavin Duffy (Wren r3)) · [x] drink + four checks (v1.2, balanced) · [x] reading (v3) · [x] fact audit (v3) · [x] resonance test (v3, in the reading) · [x] names (≥3 + pick) (The Long View, all three r5) · [x] image brief (draft v1.2)
 - **Last change to the pour:** r5

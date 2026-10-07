@@ -1,0 +1,107 @@
+{
+  "pairing": "ruler-creator",
+  "pour": "On Their Behalf",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-creator/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-704f5339-15cd-4a37-8923-23cdaf2e54f6.png",
+  "sourceSha256": "1df9787a81a8d6c54651ccbcbd9fb4b3b1222886e0b89e9e489f08696ef40143",
+  "specSha256": "8990be04c28207278cc101bfc083e32defec2d7da90905c09848aa30f8d53754",
+  "masterSha256": "0bf8f4ac71a146d73398b3db5fb3eec50f9c45380ee9a1538f3d543dfa96f0ce",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    777,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1162,
+    "cy": 614,
+    "w": 180,
+    "angle": 25.2
+  },
+  "glass": {
+    "x": 1015,
+    "y": 354
+  },
+  "bounds": {
+    "glass": {
+      "x0": 876,
+      "y0": 275,
+      "x1": 1154,
+      "y1": 706
+    },
+    "paper": {
+      "x0": 1033,
+      "y0": 529,
+      "x1": 1268,
+      "y1": 686
+    }
+  },
+  "personalityBounds": {
+    "oldBook": {
+      "x0": 878,
+      "y0": 474,
+      "x1": 1420,
+      "y1": 661
+    },
+    "foldedProofSheet": {
+      "x0": 1024,
+      "y0": 435,
+      "x1": 1408,
+      "y1": 570
+    },
+    "straightedge": {
+      "x0": 1079,
+      "y0": 436,
+      "x1": 1288,
+      "y1": 542
+    },
+    "pencil": {
+      "x0": 1139,
+      "y0": 428,
+      "x1": 1304,
+      "y1": 529
+    }
+  },
+  "recognitionRegions": {
+    "bookBindingAndPageBlock": {
+      "x0": 1245,
+      "y0": 541,
+      "x1": 1420,
+      "y1": 661
+    },
+    "proofSheetToolsAndFold": {
+      "x0": 1024,
+      "y0": 428,
+      "x1": 1408,
+      "y1": 570
+    }
+  },
+  "missingRequestedFeatures": [
+    "Single bookmark slip no longer visibly distinguishable in v2"
+  ],
+  "measurementNotes": "Original-resolution visual edges, approximately 3–8 px uncertainty. Actual 1672×941 independently probed. Glass 431 px tall, not requested 280–340. Glass/paper full union 392 px; complete essential book/proof/tool group 544 px; recognition union with full glass/paper 544 px. Book binding/page block recognition is a real front end with visible pages and cover, not a generic cloth edge; full book separately recorded. Proposed 702×940 portrait contains actual full essential objects, not moving-phone PASS. Tag clean writable 180 px axis excludes hole/neck, measured on diagonal 25.2 degrees; visible loose cord connects glass stem to hole and face does not adhere to glass. Name/font/motion untested.",
+  "review": {
+    "recipe": "Fine non-V stemmed coupe with pale amber softly hazy whiskey Daisy and natural uneven thin surface bubbles from soda, no serving ice/garnish/fruit or egg head. Exposure warm and amber, so exact pale-appearance judgment remains independent; current recipe retained.",
+    "personality": "Used old bar book grounded in explicit old-book/book-fair learning anchor. Folded blank-reverse proof sheet, small straightedge and blunt pencil are source-grounded visual inference of checking a millimetre-off page. Correction improves overlap/turning but group remains much too broad for moving-phone success; original bookmark slip no longer identifiable.",
+    "world": "Historic dark neutral-brown timber reading-room bar, one warm right practical, quiet upper left. Plain glass has clear broad patches and uneven droplets without etched filigree; book/table show heavy warm textured age. Table still reflective amber, not requested very flat low-satin neutral walnut. Held material review, not control acceptance.",
+    "issues": [
+      "Glass 431 px tall exceeds 280–340 target",
+      "Full/recognition group 544 px exceeds moving-phone safe width; composition held",
+      "Glass/paper alone 392 px lacks breathing clearance",
+      "Bookmark slip missing/not identifiable after correction",
+      "Amber reflective wood and heavily distressed book binding retain material realism hold/watch",
+      "Substantial writable 180 px tag achieved, but diagonal name/font/browser fit unverified",
+      "Deferred actual JPEG/browser/name/motion checks; no acceptance claimed"
+    ]
+  }
+}

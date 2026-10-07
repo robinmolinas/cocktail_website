@@ -1,0 +1,1 @@
+🪞 **Wren:** Name line changed in `psychologist-reading-v3.md`'s title block, nothing else: "Unguarded" → **"Wide Open"** (the room's vote, 2–1). I voted *Unguarded*, and *Wide Open* was the one I said I could take. It's warm and sayable, and the tagline keeps it from reading as naive. My sign-off stands: I'd put my name to this.

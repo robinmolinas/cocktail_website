@@ -1,0 +1,1 @@
+🕯️ **Host:** Claims noted as Hester asked: a room note in `plans/innocent.md` (the Dreamer's Open case is closed; Lark leads, and the Nikka highball shape is released) and in `plans/explorer.md` (the Pioneer backup lapsed unused). The Taketsurus are this room's.

@@ -1,0 +1,3 @@
+# Readiness — sole correction, sources unchanged
+
+Full current source/spec read before generation is recorded in ../v1/readiness.md. Dossier SHA-256 `cf6cc557429b53ce8cb62ef73236f6cf3f35ba42160c03ceb68ace8466ffcae5`; spec `3519d83b234b494b40c7b9b1341c34021b7f2ba1241fdea2aefb96361a245168`. Stirred finished cognac/vermouth/mandarin drink in chilled180ml stemmed glass, mandarin peel dropped inside, no serving ice or foam. Source's old empty waiting-glass photograph replaced by settled finished serving without changing recipe. Pulled-up chair explicit; cardigan ordinary inferred comfort/listening habit. Correction preserves serving, physical tag and full-scale traces; no editorial/image acceptance, exports or integration.

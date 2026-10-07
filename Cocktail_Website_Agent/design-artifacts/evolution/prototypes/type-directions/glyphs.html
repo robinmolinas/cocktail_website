@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Name glyph coverage</title>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Playfair:ital,opsz,wght@1,5..1200,400&family=Playfair+Display:ital,wght@1,400&family=Geist:wght@400&family=Newsreader:ital,opsz,wght@1,6..72,400&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@400&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@500&display=swap" rel="stylesheet">
+<style>body{margin:0;padding:28px;background:#0d0b09;color:#f5ead8;font:13px/1.3 monospace}
+div{display:grid;grid-template-columns:200px 1fr;align-items:baseline;margin:10px 0}span{font-size:26px}
+/* fallback is a loud monospace so a missing glyph shows up as a different face */</style></head><body>
+<script>
+const N='Zoë Ångström-Núñez · Łukasz Żółć · Dvořák · Şükrü Çağlar · Nguyễn Thị Ngọc · Søren Ærø · Siân Ó Dálaigh';
+const F=[['Playfair Display','italic'],['Playfair','italic'],['Jost','normal'],['Geist','normal'],['Newsreader','italic'],['Switzer','normal'],['Satoshi','normal'],['Instrument Serif','italic']];
+document.body.innerHTML+=F.map(([f,s])=>`<div>${f}<span style="font-family:'${f}',monospace;font-style:${s}">${N}</span></div>`).join('');
+document.fonts.ready.then(()=>document.body.dataset.ready='1');
+</script></body></html>

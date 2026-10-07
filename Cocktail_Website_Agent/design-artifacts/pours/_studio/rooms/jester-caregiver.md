@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Morale Booster (jester-caregiver)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D1: Peychaud's is none (a row is classed only on a stated ingredient), so the file's `[]` agrees with the tool; Checks › Allergens records the ruling.
+- **Edits** (before → after, short): Checks › Allergens: "Peychaud's: none in the table." → "…, confirmed by Robin 2026-10-06 (D1)…, so `[]` stands."
+- **Left for Robin:** tagline (Q064, D11: unchanged).
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Walsh 1917, Oxford pdf 512; anchors synced to spec v1.1) · [x] drink + four checks (spec 20.2% / 3.71 g / 0.170%, veto-free) · [x] reading (v4) · [x] fact audit (v4: PASS) · [x] resonance test (v4: ready) · [x] names (≥3 + pick) (Anyway (all three)) · [x] image brief
 - **Last change to the pour:** r6

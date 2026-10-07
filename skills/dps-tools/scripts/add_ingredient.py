@@ -15,7 +15,7 @@ uncertain it lists every veto the ingredient could plausibly touch.
 import argparse, datetime, json, os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _common import DATA  # noqa: E402
+from _common import DATA, studio_lock, write_atomic  # noqa: E402
 
 PATH = os.path.join(DATA, "ingredients.json")
 
@@ -26,12 +26,15 @@ def load():
 
 
 def save(d):
-    with open(PATH, "w", encoding="utf-8") as f:
-        json.dump(d, f, indent=1, ensure_ascii=False)
-        f.write("\n")
+    write_atomic(PATH, json.dumps(d, indent=1, ensure_ascii=False) + "\n")
 
 
 def main():
+    with studio_lock():
+        return _main()
+
+
+def _main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("key", nargs="?", help="snake_case key, e.g. yuzu_juice")
     ap.add_argument("--name")

@@ -9,6 +9,13 @@ mode: rework            # pour | batch | rework
 
 # The room: The Angel (caregiver-innocent)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine items (Robin 2026-10-06); no D-card touches this pour.
+- **Edits** (before → after, short): yours 2 (Q015, Wren's ground, no research talk): "Oxford and the *Joy of Mixology* both record him as a respected Resistance veteran, and neither says what that meant for him. I don't know what he brought into those receptions with him. But I like to think…" → "He was also a respected veteran of the Resistance. We don't know what that meant for him, or what he brought into those receptions with him, but I like to think…" (same anchor: Oxford pdf 1133, Joy pdf 315). Lint now warns of a motif overlap with ruler-hero on "we don't know what": Robin's own "We don't know…, but I like to think…" pattern, left as is.
+- **Left for Robin:** Q034 tagline (D11); Q151 y4 "which makes it a Kir Royale, the famous sparkling version" (Hester to confirm "famous").
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex Kir Royale (p. 223, ½ oz cassis to 5½ oz Champagne, with its warning not to oversweeten): ours at 1:6 is about half as sweet again (6.40 vs 4.07 g), inside Arnold's carbonated sugar band; 15 ml cassis would read 5.16 g. Flagged to Robin in the report, not changed.
+- **Robin 2026-10-06, F4: keep 1:6.** The cassis stays at 20 ml to 120 ml Champagne (6.40 g, inside Arnold's carbonated sugar band); the 15 ml version (5.16 g) is not applied. No pour edit (Tomás).
+
 ## Robin's review, 2026-09-30 (review desk)
 
 - **Decision:** rework (Robin, in chat)

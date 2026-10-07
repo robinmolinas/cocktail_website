@@ -59,9 +59,9 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 **whoYouAre**
 A one-way ticket. A job left on a Friday. A family dinner where you finally told them, and the table went quiet. You've chosen people, places and whole lives like that: all at once, and usually against advice. And every time, choosing and getting free felt like the same thing. Whoever you fell for was also the way out.
 
-You'd never tell anyone how much you'd like to land somewhere. It feels like giving in. And the road running out has never scared you. Being parked does: someone else deciding where you stop, and the life you ran towards slowly picking up the rules of the one you ran from.
+You'd never tell anyone how much you'd like to land somewhere. It feels like giving in. Being parked is the real fear: someone else deciding where you stop, and the life you ran towards slowly picking up the rules of the one you ran from.
 
-And here's what that wildness gives whoever you choose: they don't have to guess. They know they were picked over everything else. Next to you, love looks like courage, and anyone watching starts asking what they'd leave for theirs. Not many people can give that.
+And whoever you choose never has to guess. They know they were picked over everything else. Next to you, love looks like courage, and anyone watching starts asking what they'd leave for theirs.
 
 **yours**
 
@@ -73,7 +73,7 @@ And here's what that wildness gives whoever you choose: they don't have to guess
 
 4. The cocktail I've made for you is a wine highball: white wine and soda, one of the long, light drinks the highball is traced back to. In a Napa cellar he tasted a wine sold as "Hock", the English name for German white wine, so here it's a crisp, dry California white. The evening before, one bay leaf goes into the bottle, and the bottle goes into the coldest, darkest corner of the fridge, as a nod to the tunnel, and to a canyon he wrote smelled of sweet bay at sunrise and late at night. Then it's poured over ice into a tall stemmed wine glass, and topped with soda straight from the fridge.
 
-5. So my proposal is this. When the pull to go comes again, ask yourself what you'd be leaving. If it's someone deciding for you, go. If it isn't, stop, on purpose, in a place of your choosing, and make that the adventure. Being caught means someone else chose where you'd end up. Stopping means you did.
+5. When the pull to go comes again, ask yourself what you'd be leaving. If it's someone deciding for you, go. If it isn't, stop, on purpose, in a place of your choosing, and make that the adventure. Being caught means someone else chose where you'd end up. Stopping means you did.
 
 ---
 

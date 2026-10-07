@@ -1,0 +1,1 @@
+🪞 **Wren:** Name line now reads "Only Half Joking (the room's vote, 2–1; my vote was Your Move)". Nothing else changed, and no line of the reading reads wrong under it: the reading's "joke" lines all back the name. I'd still put my name to this.

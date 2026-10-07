@@ -48,3 +48,28 @@ Hester, 2026-10-01, for explorer-magician (The Spiritualist). Every line below w
 | C10 | **Not verified in *The Negroni* (2015).** The book is not in the library, not on archive.org (advanced search and full text: nothing), and no trusted page quotes its method. Library gap raised for Robin. A search summary relays a line about ratios from a "gaz regan Notion" book; not read, not usable. |
 | C11 | **Counterweight:** PUNCH prints "Gaz Regan's Negroni", a Jägermeister-for-Campari riff he submitted to a tasting, as stirred in a mixing glass and strained over fresh ice (punchdrink.com, read 2026-10-01; directions may be PUNCH's house style). So "any order" is his Negroni in *Joy*, never "how he always made it". He also stirred Negronis with his finger on shifts (Proper p. 62). |
 | C12 | Joy's 2003 headnote said "It's said that a certain Count Negroni created this drink"; the 2018 one states it flatly, and adds the cowboy count. The origin stays out of the reading. |
+
+## Wise Kid additions (2026-10-04, innocent-sage): the Scotch Sours and the waitress
+Read on the page this session (`library.py page joy 133, 406`; `oxford 1837–1839`). Owned overlap with explorer-magician (*Just Knew*), which leaves pdf 133 out (C8).
+
+| ID | Fact | Source |
+|---|---|---|
+| W1 | Context of the anecdote: it sits under his advice to newcomers, "be prepared to make mistakes and, as in any other job, to learn from them". | Joy pdf 133 |
+| W2 | Once he had a job behind the bar he "made more than a few errors". His example: in England, order "whisky" and you're served Scotch, so he made Scotch Sours "for a while" when Whiskey Sours were ordered. | Joy pdf 133 |
+| W3 | "It wasn't until a waitress caught me that I learned what I was doing wrong." She is unnamed; the page gives her one verb, "caught", and nothing else (no words, tone, manner, motive or rank). | Joy pdf 133 |
+| W4 | Both halves of his doubt: "not even the customers noticed. Or if they did, they certainly didn't tell me." | Joy pdf 133 |
+| W5 | His book's Whiskey Sour: 2 oz bourbon or rye, 1 oz fresh lemon juice, ½ oz simple syrup, a maraschino cherry and half an orange wheel; shake, strain into a chilled sour glass or an ice-filled rocks glass. The chart lists it as a simple sour: "bourbon or rye", lemon, simple syrup. | Joy pdf 406, 219 |
+| W6 | The sour is an American drink of the 1850s, first in print as a casual reference in the *New York Times*, 1857; an 1826 Cincinnati list already has "whisky sweet and sour". The Whisky Sour is one of the few drinks that kept the old "sour" name once citrus drinks served up were mostly called cocktails. | Oxford SOUR pdf 1837–1838 |
+| W7 | The sour glass: stemmed, to keep the hand from warming it, and larger than the cocktail glass of the day (about 150 ml vs 90 ml). | Oxford SOUR pdf 1838 |
+| W8 | Sour mix (a bottled or powdered blend of citric acid, sugar, lemon or lime flavour and a foaming agent) was occasional in New York bars before Prohibition, widespread after Repeal, and nearly universal from the 1960s through the 1980s; in the best bars today fresh sours are back. | Oxford SOUR pdf 1838–1839 |
+
+| ID | Caution |
+|---|---|
+| WC1 | **"Caught" is all we have.** Never her words, tone, kindness, privacy, motive or rank. "She told him" is a fair reading of the contrast with "didn't tell me", but say "caught". No "least standing", "lowest in the room": not on the page. |
+| WC2 | **"Nobody said a word" is my plan's shorthand, struck.** The page is about the customers only; nothing about other staff. Keep both halves of W4: never "silence" alone (it takes the "they noticed" half as fact). |
+| WC3 | **No "glad", "grateful", "thanked".** On record is only that he learned, and that he chose to tell it decades later as advice (W1). Anything warmer is the bartender's, signposted. |
+| WC4 | **No date, no bar name, no "first job".** The page says only that it happened once he "eventually got a position"; the bar isn't named (Drake's Drum is Oxford's for his first New York job, not tied to this). 1973, the arrival and the month of watching stay out (owned-overlap terms). |
+| WC5 | **What the customers expected isn't on pdf 133.** The plain explanation is his: in England "whisky" means Scotch; the Whiskey Sour in his own book is bourbon or rye (W5). Don't build on the whisky/whiskey spelling. |
+| WC6 | **His glasses aren't documented.** W8 says sour mix was nearly universal in the era; nothing says what his Scotch Sours held. Fresh lemon is our "made right", never "the way he made it then". A recipe we change is never "his recipe" (W5 has cherry, orange and a rocks option). |
+| WC7 | Copy risk: Oxford's "fossilized expressions", "pristine excellence", "God help us" never go into the reading. |
+| WC8 | Not a backup: Lucinda Sterling, the Little Branch waitress who told Sam Ross to put the Penicillin out (Proper p. 170). Ross is the Giggler's lead and the Penicillin card is the Healer's runner-up. |

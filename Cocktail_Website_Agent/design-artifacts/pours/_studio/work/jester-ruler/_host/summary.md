@@ -1,0 +1,12 @@
+- **The persona:** the Straight Man hardly cracks a smile and is having the best time in the room: the loud friend gets the laugh, and it comes off them. Nobody guesses that they picked that friend, and need them to be ridiculous. Their fear is being taken for the grown-up who doesn't get it (Wren, round 1).
+- **The story:** Colonel Joe Rickey and George Williamson, the head bartender at Shoomaker's, Washington: the drink carries the lobbyist's name, Rickey said he "was not the author", and a later writer named Williamson its inventor. The lime is told per telling. This was the plan's lead (Oxford RICKEY and SHOOMAKER'S; *Imbibe!* pdf 117–119); the runner-up, vermouth and the 1952 Martini jokes, wasn't needed.
+- **The drink:** a rye Rickey, one part from each partner: the bar's rye (50, Shoomaker's had its own), half a lime squeezed with the shell in, 105 ml Apollinaris ("reportedly" the colonel's water), three cubes, a large tumbler, no sugar. Veto-free; balanced.
+- **What failed and why:**
+  - Wren's round-1 blocker: the plan's bourbon Rickey over ice was *Word Gets Round*'s exact cocktail. Tomás moved to rye and the colonel's water; the pour now differs in five places.
+  - Hester struck her own "in two of the three stories the lime came from behind the bar": in Brown's tale a stranger handed over the limes (L1, L2).
+  - "Made by the bartender" read as authorship → "mixed" (L3); "By 1889" → "By the end of 1889" (L4).
+  - "You're the sensible one" was struck from the tagline (*Fair Measure* owns it).
+- **"This is me":** "People think you put up with the loudest person at the table. You picked them."
+- **Names: split three ways, flagged.** Wren *Somewhere to Land*, Tomás *Dry Wit*, Hester *Don't Look at Me* (Tomás and Wren had each said they could take it, but each voted their own). The pour carries Wren's title-block name until Robin picks. Also considered: *Not the Author*, *The Feed*, *Second Banana*.
+- **Edges:** Apollinaris named as "reportedly" the colonel's, its 2026 label unverified; authorship contested, "some said"; rye's dryness is Tomás's inference.
+- **Rule candidates:** none raised.

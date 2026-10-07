@@ -2,7 +2,7 @@
 pairing: {pairing}
 personality: {personality}
 status: open            # open | closed | deadlock | flagged
-round: 0               # budget: 8 (pour) · 5 (rework)
+round: 0               # budget: 4 (pour) · 4 (rework)
 started: {date}
 mode: {mode}            # pour | batch | rework
 ---

@@ -31,7 +31,7 @@ Turn what the room wrote into the pour file, prove it, and leave the studio tidy
 - `python3 {tools}/balance.py {studio}/specs/<pairing>.json` must not be OUT, unless the room's Checks table justifies it (in which case the pour is `flagged` for Robin).
 
 ## Leave the studio tidy
-One call does all of this except the summary and the rule candidates: `python3 {skill-root}/scripts/room.py close <pairing> --summary <file> --index-note "<pairing>: <Name> (<drink>), draft, <n> rounds" --batch <primary>`. It writes the pour, lints it (and stops on any error), runs balance and allergens, writes the registry, closes the room record with your summary, and adds the note to the batch row. What it does, step by step:
+**Re-run `assemble` right before `close`**, after the last round's changes and the final `config.json`: `close` copies `_host/provisional.md` as it stands (2026-10-01, regular-guy-ruler shipped a pre-round-5 epigraph and the working title). The name comes from Wren's title block, so the room's pick must be there. One call does all of this except the summary and the rule candidates: `python3 {skill-root}/scripts/room.py close <pairing> --summary <file> --index-note "<pairing>: <Name> (<drink>), draft, <n> rounds" --batch <primary>`. It writes the pour, lints it (and stops on any error), runs balance and allergens, writes the registry, closes the room record with your summary, and adds the note to the batch row. What it does, step by step:
 - `python3 {tools}/registry.py --write`, so the next room sees this pour's name, tagline, epigraph and motifs.
 - **The room record:** set the header to `status: closed` (or `flagged`) with the final must-haves and sign-offs, and write **Summary for Robin**:
   - the persona in one line

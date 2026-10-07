@@ -1,0 +1,93 @@
+{
+  "pairing": "ruler-explorer",
+  "pour": "Not the Same",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-explorer/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-f85abcdf-7059-41a1-b89a-41e2f08c740b.png",
+  "sourceSha256": "9237060193ec7c6a697043b0326558415f28eb5ddeb787fb5df9aa770b239fc8",
+  "specSha256": "19e13bd27acbd34e99713a77a80220bbc5ef112d1c1e83fc7c9cdb081b9b8489",
+  "masterSha256": "aef77f6294465fa1407610e328055b58db06e1ef883c3e24b1c919bdb29707c7",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    704,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1240,
+    "cy": 634,
+    "w": 101,
+    "angle": 68
+  },
+  "glass": {
+    "x": 1164,
+    "y": 520
+  },
+  "bounds": {
+    "glass": {
+      "x0": 987,
+      "y0": 320,
+      "x1": 1345,
+      "y1": 792
+    },
+    "paper": {
+      "x0": 1181,
+      "y0": 553,
+      "x1": 1284,
+      "y1": 697
+    }
+  },
+  "personBounds": {
+    "recordAndSleeve": {
+      "x0": 700,
+      "y0": 389,
+      "x1": 1181,
+      "y1": 674
+    },
+    "ticketRollAndStubs": {
+      "x0": 1223,
+      "y0": 542,
+      "x1": 1612,
+      "y1": 691
+    }
+  },
+  "recognitionRegions": {
+    "record": {
+      "x0": 855,
+      "y0": 411,
+      "x1": 1149,
+      "y1": 655
+    },
+    "ticketRoll": {
+      "x0": 1234,
+      "y0": 542,
+      "x1": 1507,
+      "y1": 667
+    }
+  },
+  "group": {
+    "fullWidth": 912,
+    "recognitionWidth": 652
+  },
+  "review": {
+    "recipe": "Pale cloudy yellow sour, plain coupe, outside continuous sugar rim, thin shake aeration, no serving ice/garnish; clear coat not visually separable but no invented coloured coating.",
+    "personality": "Full-size record/sleeve and ticket roll/stubs recognizable, inferred from whoYouAre old songs/raffle; too widely spread.",
+    "world": "Historic dark timber room, one practical, quiet left; table still warm/glossy crossing grain.",
+    "issues": [
+      "Glass472px tall exceeds280–330 target",
+      "Complete group912px/recognition652px exceeds moving-phone estimate",
+      "Proposed702px portrait clips record sleeve and ticket roll/stubs",
+      "Warm glossy/over-textured timber, highly scuffed sleeve",
+      "Small101px usable tag axis untested for names; no acceptance"
+    ]
+  }
+}

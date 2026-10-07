@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Pleasure Seeker (lover-explorer)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** none needed.
+- **Edits** (before → after, short): whoYouAre ¶1 (Q129): "You're the one who says yes first." → "You say yes first, every time." · whoYouAre ¶2 (variety, V2): "Still, look at what you do for people: you make enjoying things feel safe, and they remember…" → "Still, you make enjoying things feel safe, and people remember…" · yours 5 (variety, V4): "So try this, one night soon. When it's at its very best," → "One night soon, when it's at its very best,"
+- **Left for Robin:** none.
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex Bloody Mary run on balance.py (p. 221, mix p. 295 modelled: 11.0% / 1.78 g / 0.84%; ours 11.6% / 0.92 g / 0.66%). Nothing else changed.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks (v1.1: veto-free, served up; draft v1.4) · [x] reading (v4) · [x] fact audit (v3: PASS) · [x] resonance test (v4: ready) · [x] names (≥3 + pick) (Curtain Call (all three)) · [x] image brief
 - **Last change to the pour:** r7 (reading v4; draft D3–D4)

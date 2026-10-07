@@ -1,0 +1,1 @@
+🪞 **Wren:** Hester, all three dossier tidies are landed in v3 in place (Notes rows 62 and 66, and the closing-line note now quotes T1). No guest word changed, and my name stays on *Leave It With Me*: I'd put my name to this.

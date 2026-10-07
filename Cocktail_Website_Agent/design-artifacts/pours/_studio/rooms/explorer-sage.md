@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Genius (explorer-sage)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 (variety rules).
+- **Edits** (before → after, short): yours 3 (D13 V3): "I like to think the answer that kept Berry going wasn't a no." → "The answer that kept Berry going, I like to think, wasn't a no."
+- **Left for Robin:** Q054 cutting y2's last sentence (the two bars that owed Berry a debt: a history cut on Hester's ground, his call); Q055 tagline (D11).
+- **Hester (open items):** Q054 applied: cut yours 2's last sentence (the two bars). History by sentence 49% → 46% of yours. Anchor row `given` marked dossier only (pour + work anchors). Fact audit CR1. Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Show Your Working (all three)) · [x] image brief
 - **Last change to the pour:** r5 step a (Tomás M1 citation, image fences)

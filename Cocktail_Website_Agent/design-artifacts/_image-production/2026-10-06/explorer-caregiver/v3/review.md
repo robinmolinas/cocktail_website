@@ -1,0 +1,5 @@
+Master and approved central exports reviewed. Exact wide1920×1080 and portrait896×1200 JPEGs both inspected at full original size. Whole glass and blank tied physical tag survive; vessel, transparent liquid, garnish/ice state match settled recipe. Worn-timber world and coherent personal traces retained. Helper metadata reports all seven actual current cover checks intact; hashes and normalized runtime candidate retained.
+
+Status: paired production review complete. Browser/name-overlay validation belongs to root integration checkpoint. No export or integration executed by this agent; no recipe/editorial-status change.
+
+At390×844 current cover exposes approximately master x840–1274. Repaired olive walking pouch remains substantial with repaired lacing and worn strap; binoculars retain entire left objective, rubbed tube and part of common body/second tube, while right objective crops. Reused paper pouch is peripheral and cropped. Full portrait shows binocular pair clearly. At430×932 same limitation,320×568 wider. Root real-page phone check should confirm binocular recognition before final collection release.

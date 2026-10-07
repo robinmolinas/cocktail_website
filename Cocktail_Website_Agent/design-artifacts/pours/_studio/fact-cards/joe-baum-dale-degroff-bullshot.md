@@ -1,7 +1,7 @@
 ---
 topic: Joe Baum's "Fix it" to Dale DeGroff (Aurora, Rainbow Room); the Bullshot and Bloody Bull
-last checked: 2026-09-30
-used by: caregiver-sage (rework lead, round 2; not yet ruled)
+last checked: 2026-10-04
+used by: caregiver-sage (rework lead, round 2; not yet ruled); hero-innocent (The Initiate, lead, 2026-10-04)
 ---
 
 # Joe Baum, Dale DeGroff and the orange in the Bullshot
@@ -43,3 +43,34 @@ All text below is in our words, with quotes under 15 words, copied from the page
 
 ## Leads
 - DeGroff's *The Craft of the Cocktail* (2002) likely carries his own telling; not in the library. Raise with Robin only if the room needs a third account to settle C1/C2.
+
+## Extension 2026-10-04 (hero-innocent, r2): p. 10, the sour mix, Oxford DEGROFF, Wondrich 2017
+
+| # | Claim (our words) | Source + page | Tier | Notes |
+|---|---|---|---|---|
+| F16 | DeGroff tended bar at the Hotel Bel-Air in Los Angeles for six years from 1978, teaching himself spirits and cocktails; Simonson: to keep "a good job he knew he wasn't qualified for". His customers may have noticed; "the world did not". Jonathan Gold: he "made no impact" there. | *Proper* pp. 10-11 (pdf 24-25) | primary (Simonson's narration; Gold quoted) | The "not qualified" motive is Simonson's narration, not DeGroff's quoted words: tell it as "the way one book tells it", or tell only the fact (six years teaching himself). The Bel-Air colleague's "you're pretty good at it" (p. 10) is dossier only (Underdog's beat). |
+| F17 | Baum insisted the bar have no soda guns and fresh juice, not the prefabricated sour mix then squirted into any drink needing citrus. DeGroff hesitated: what if it got busy, shouldn't they keep some on hand? Baum: if he couldn't handle the work, he'd find someone who could. "The bartender decided to work it out." | *Proper* p. 12 (pdf 26) | primary | "Decided to work it out" is Simonson's narration, not a DeGroff quote. The page does not say which bar (it follows the Aurora story) and does not order this against the "Fix it" episode. Oxford RAINBOW ROOM pdf 1598 puts the no-soda-gun, fresh-juice rule at the Rainbow Room. See C6. |
+| F18 | Oxford DEGROFF: born 1948, son of a navy pilot; began acting at the University of Rhode Island; a stint at the Hotel Bel Air "turned a day job into a career"; 1985 head bartender at Aurora; Baum tasked him with a nineteenth-century-style cocktail bar of fresh juices and classic recipes, both well out of fashion. | Oxford DEGROFF, DALE pdf 633 (Wondrich) | primary | |
+| F19 | When Baum reopened the Rainbow Room he "made sure that DeGroff ran the bar"; DeGroff worked there a decade, showing a bar could run without shortcuts and still be great business. | Oxford pdf 633 | primary | A decision on the record, never a feeling: not "Baum believed in him". Year conflict C5. |
+| F20 | From 2005 (Beverage Alcohol Resource) he taught and influenced "literally thousands" of bartenders; Oxford calls him generous to younger peers and says he continues to teach. | Oxford pdf 636, 264 | primary (Wondrich's judgement) | Present tense dated: "as of the *Oxford Companion*, 2021". "Younger" stays out of guest text. |
+| F21 | The Oxford BULLSHOT entry is signed by DeGroff and Wondrich together, so its Aurora telling (pdf 374-375) is DeGroff's own recollection, in his words, as is *Proper*'s. | Oxford pdf 375 (signature) | primary | Two tellings, both his own. |
+| F22 | In Oxford's telling Baum first doubted the drink itself (canned broth in his upscale room); the chef made it with pheasant consommé for a while; one special customer, Milton Glaser (Oxford spells him "Glazer"; *Proper* p. 13 "Glaser"), enjoyed it, "good enough for Baum". Only when back on beef broth did Baum say lemon or lime didn't work as garnish. | Oxford pdf 374 | primary (DeGroff's recollection) | Dossier unless the room wants it: the drink was DeGroff's own idea before it was Baum's test. "Foul Shot" stays out. |
+| F23 | Wondrich (2017): the Bullshot was one of the most popular drinks of the late 1950s and '60s, "surprisingly tasty if assembled with care", though not for everybody; it faded in the decade after the 1980s. His own recipe: broth, vodka, a teaspoon of lemon juice, spice mix, rolled not shaken, lemon wedge. | Wondrich, "Why the Bullshot Cocktail Is No Joke", *Daily Beast*, 10 Apr 2017 (cited in Oxford pdf 375's bibliography); fetched in full 2026-10-04 (curl) | secondary | The piece never mentions DeGroff, Baum or orange. Its recipe uses lemon, the very touch Baum rejected: one writer's recipe, never "everyone still uses lemon". Oxford pdf 375: "a lot of creativity" in Bullshot recipes. |
+| F24 | Oxford: soon after 1956 the Bullshot became a favourite among ad men, movie stars and anyone after something flashy and different. | Oxford pdf 374 | primary | For "worth having". "Eccentric" is Oxford's word. |
+
+### More conflicts
+- **C5, Rainbow Room year:** RAINBOW ROOM pdf 1598 says the bar opened in 1987; DEGROFF pdf 633 says Baum reopened it in 1988. No year.
+- **C6, where the sour-mix rule was and when:** *Proper* p. 12 names no bar and gives no order relative to "Fix it"; Oxford pdf 1598 puts the fresh-juice rule at the Rainbow Room. Tell it order-neutrally ("Baum also..."), with no bar named and no "then".
+- **C7, 1984 or 1985 (sharpens C3):** Oxford contradicts itself (BULLSHOT pdf 374 "In 1984"; DEGROFF pdf 633 "In 1985"); *Proper* p. 11 has 1985.
+- **C8, Hurley's job:** Oxford: advertising executive selling Campbell's canned consommé; Wondrich 2017: a PR man on BBDO's Campbell's account, canned bouillon. Dossier only.
+
+### Legends and leaks
+- **L1:** Marilyn Monroe's line about vodka (Wondrich 2017, "famously", no source given): legend, out.
+- Wondrich's "sissified" (gendered) and "freak drink" (a 1950s label he reports): out of guest text.
+- *Proper* p. 12 "Dale and Joe would find out where Ron was going" reads like a slip for Dale and Gerry: dossier only, never relied on.
+
+### Flavor Matrix, checked 2026-10-04 (rendered, not OCR)
+- **M1:** Beef's best pairings (nuts, dried fruit, butter, cream, mustard, alliums, cocoa) and surprise pairings (cocoa, grapes, dried currant) name no orange and no citrus (Matrix pdf 44).
+- **M2:** The beef wheel (pdf 45, printed p. 35, rendered with PDFKit) **does** list **citrus**, with lemon balm and lemongrass, and also sherry and madeira. The OCR text drops "citrus". So "orange is off the chart for beef" is false.
+- **M3:** The Matrix's citrus entry lists orange, lemon, lime and grapefruit as its main subtypes (pdf 80). The wheel can't tell orange from lemon, the very difference Baum tasted.
+

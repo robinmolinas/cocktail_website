@@ -12,7 +12,7 @@ The menu assessment is for Robin to read. It must NEVER steer a drink: the perso
 import os, sys
 from collections import Counter
 import pourfile
-from _common import POURS, STUDIO, load_spec, SpecError, resolve
+from _common import POURS, STUDIO, load_spec, SpecError, resolve, studio_lock, write_atomic
 from lint_pour import find_spec
 from balance import analyse
 
@@ -84,15 +84,17 @@ def main(argv):
     if len(argv) > 1 and argv[1] in ("-h", "--help"):
         print(__doc__)
         return 0
-    rows = gather()
-    reg, menu = registry_md(rows), menu_md(rows)
     target = argv[argv.index("--out") + 1] if "--out" in argv else (STUDIO if "--write" in argv else None)
     if target:
-        os.makedirs(target, exist_ok=True)
-        open(os.path.join(target, "registry.md"), "w").write(reg)
-        open(os.path.join(target, "menu-assessment.md"), "w").write(menu)
+        with studio_lock():
+            rows = gather()
+            os.makedirs(target, exist_ok=True)
+            write_atomic(os.path.join(target, "registry.md"), registry_md(rows))
+            write_atomic(os.path.join(target, "menu-assessment.md"), menu_md(rows))
         print("wrote registry.md and menu-assessment.md to", target)
     else:
+        rows = gather()
+        reg, menu = registry_md(rows), menu_md(rows)
         print(reg)
         print(menu)
     return 0

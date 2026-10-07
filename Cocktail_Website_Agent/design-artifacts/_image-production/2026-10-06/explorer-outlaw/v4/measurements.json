@@ -1,0 +1,95 @@
+{
+  "pairing": "explorer-outlaw",
+  "pour": "Fine by Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-outlaw/v4/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-a472d42b-579f-44f3-945c-e68b0a7b3e7b.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "4809197137871f86254f8f71806429c46af2c4bcb7e161375387f43d344e90c7",
+  "sourceSha256": "2e4b84294914bed5ffb1f0728b03fd603fe7a6d5b02e8710c8fdcf79f1aaf97c",
+  "specSha256": "c242ea39600435fab2011959caf3441b49fd437442be52f9790de965fdf8118c",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    700,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 782,
+    "cy": 660,
+    "w": 128,
+    "angle": -68
+  },
+  "glass": {
+    "x": 946,
+    "y": 505
+  },
+  "bounds": {
+    "glass": {
+      "x0": 840,
+      "y0": 246,
+      "x1": 1053,
+      "y1": 765
+    },
+    "paper": {
+      "x0": 721,
+      "y0": 559,
+      "x1": 846,
+      "y1": 743
+    },
+    "toolPouch": {
+      "x0": 1045,
+      "y0": 420,
+      "x1": 1504,
+      "y1": 735
+    },
+    "pliers": {
+      "x0": 1083,
+      "y0": 584,
+      "x1": 1540,
+      "y1": 790
+    }
+  },
+  "recognitionRegions": {
+    "toolPouch": {
+      "bounds": {
+        "x0": 1054,
+        "y0": 423,
+        "x1": 1465,
+        "y1": 625
+      },
+      "reason": "Complete recognisable folded pouch flap/open edge plus stitched repair patch; no narrowed box to grant a pass."
+    },
+    "pliers": {
+      "bounds": {
+        "x0": 1083,
+        "y0": 584,
+        "x1": 1300,
+        "y1": 697
+      },
+      "reason": "Readable complete jaws, functional pivot and beginnings of the two separate handles."
+    }
+  },
+  "measurementNotes": "Visual measurement from actual original-resolution PNG, edges approximately3–8px uncertainty. Tag axis excludes punched hole/string/clipped upper end;128px usable along long axis, not across short width. Proposed702×940 portrait retains glass/paper and plier recognition but clips the conservative pouch region; it is a crop proposal, not an approved portrait companion. Full visible group819px; conservative glass/paper+recognition union744px; even full702px portrait cannot contain all conservative evidence. Separate portrait recomposition remains outstanding; no phone or name success.",
+  "review": {
+    "requestedChange": "PASS at master only: front pasted-looking label removed; one punched blank paper tag visibly hangs outside left glass silhouette, connected to loose burgundy cord. Broad paper body has clear air gap from glass.",
+    "recipe": "Original tall packed-ice clear pale amber-gold sparkling cider/bourbon highball and one inside orange peel preserved. No foam, bacon garnish, fat layer, apples, straw or second drink.",
+    "personality": "Repaired pouch/used pliers preserved; explicitly inferred self-carried work, not a historical-object claim.",
+    "world": "Historic timber room and practical lighting preserved. Existing glossy worn timber and dense sparkling ice/droplet texture remain material holds; no broad restyling was requested.",
+    "issues": [
+      "Full/recognition span819/744px; portrait recomposition needed for all evidence and moving-phone retention not met.",
+      "128px clean writable axis is still short; actual short/long-name glyph fit at steep -68deg rotation untested.",
+      "Glossy patterned wood and sparkling dense glass/ice remain held from v3.",
+      "No JPEG exports, browser/name/motion review, final approval or public integration."
+    ]
+  },
+  "status": "user-requested-tag-correction; measured-master-only; composition/material held; portrait-recomposition-needed"
+}

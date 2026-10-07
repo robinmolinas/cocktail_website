@@ -1,0 +1,104 @@
+{
+  "pairing": "explorer-magician",
+  "pour": "Just Knew",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-magician/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-272d6bb7-d625-49f5-b00f-e9f1270fd5ea.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "faee0ed2b26f934eda8265042c3dc668a47b6c303b3fe5164ed8e4df99379c11",
+  "sourceSha256": "1152d113f10f7e8010249332511608a79d378dc4e1ca664688816fb7640ba56c",
+  "specSha256": "4d71a6f0faab2e323a3e4b709d5e42fce268089736d7a744d3568ad774e12e45",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    717,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1307,
+    "cy": 669,
+    "w": 172,
+    "angle": 75
+  },
+  "glass": {
+    "x": 1065,
+    "y": 514
+  },
+  "bounds": {
+    "glass": {
+      "x0": 856,
+      "y0": 265,
+      "x1": 1275,
+      "y1": 768
+    },
+    "paper": {
+      "x0": 1223,
+      "y0": 541,
+      "x1": 1380,
+      "y1": 781
+    },
+    "books": {
+      "x0": 316,
+      "y0": 361,
+      "x1": 866,
+      "y1": 637
+    },
+    "glove": {
+      "x0": 505,
+      "y0": 257,
+      "x1": 860,
+      "y1": 458
+    }
+  },
+  "recognitionRegions": {
+    "books": {
+      "bounds": {
+        "x0": 395,
+        "y0": 373,
+        "x1": 854,
+        "y1": 633
+      },
+      "reason": "Complete enough clothbound spine, paperback page block and separate covers to recognize two-book stack, not anonymous paper corner."
+    },
+    "glove": {
+      "bounds": {
+        "x0": 505,
+        "y0": 261,
+        "x1": 855,
+        "y1": 455
+      },
+      "reason": "Whole substantial folded adult leather glove with finger forms, stitching and opening; not isolated leather patch."
+    }
+  },
+  "tagPhysics": {
+    "bodyLoop": "Burgundy cord wraps around outside midbody at y468–505, with curved front arc and ends occluded at the side walls, well below rim y265.",
+    "knot": "Visible bulky knot at right body near 1235/490.",
+    "tetherAndHole": "Short paired cord descends from knot to punched hole near 1277/576; apparent continuity visible.",
+    "gravityAndContact": "Paper lies below knot, leans outward with bottom edge resting on timber around y778; contact/shadow visible, not claimed floating.",
+    "separation": "Most paper extends outside right glass boundary with visible gap; no adhesive face.",
+    "uncertainty": "Far-side circumference and actual friction/tension cannot be verified from single view; paper lean depends on timber contact.",
+    "status": "Plausible visible chain, not blanket physics approval."
+  },
+  "review": {
+    "recipe": "Red Negroni-style built rocks drink with ice and orange peel INSIDE. Bay portions look like two nearly complete pointed leaves rather than one leaf torn in half: held for exact garnish geometry.",
+    "personality": "Eclectic old/new book stack and adult walking glove visible, but props lie spread left rather than compact depth overlap behind hero.",
+    "world": "Historic walnut room and warm practical, but glossy amber/crackled table and densely sparkling ice/glass fail plain ordinary material target.",
+    "issues": [
+      "Glass503px high rather than~300.",
+      "Full glass/paper/books/glove group1064px wide; proposed702 portrait cuts most books/glove and moving-phone retention not claimed.",
+      "Leaf halves not convincingly torn from ONE leaf.",
+      "Glossy orange table and etched-looking ice/glass.",
+      "Tag clean axis172px but actual paper is narrower than bowl; name-overlay legibility untested.",
+      "No exports/browser/acceptance."
+    ]
+  }
+}
+

@@ -1,0 +1,1 @@
+v2 master inspected at original size. Recipe and historic world preserved; glass and tag now compact. Actual pair/crop checks pending. Personality hold: linen still far right; bottle and finished drawer may carry two traces, but narrow phone needs honest review.

@@ -1,0 +1,94 @@
+{
+  "pairing": "innocent-outlaw",
+  "pour": "Fresh Air",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-outlaw/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-e6501dfb-7e15-4a68-8c18-34859baa000b.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "9c5526163efa7a4a092ca511fd2cc61992d24b489133a1202ab73fd5ad4689fe",
+  "sourceSha256": "c33461857c7e996d4a8c580b0d26b18ac1e184759ff522dc992997cec7dc28a2",
+  "specSha256": "1b3fd51f025a0e80c252422e82a669d87b59772b087b32571a3e911585134ff6",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    812,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1126,
+    "cy": 647,
+    "w": 149,
+    "angle": 11.5
+  },
+  "glass": {
+    "x": 996,
+    "y": 514
+  },
+  "bounds": {
+    "glass": {
+      "x0": 835,
+      "y0": 309,
+      "x1": 1158,
+      "y1": 720
+    },
+    "paper": {
+      "x0": 1004,
+      "y0": 568,
+      "x1": 1216,
+      "y1": 716
+    },
+    "walkingCap": {
+      "x0": 1069,
+      "y0": 280,
+      "x1": 1650,
+      "y1": 694
+    },
+    "houseKey": {
+      "x0": 1234,
+      "y0": 589,
+      "x1": 1428,
+      "y1": 720
+    }
+  },
+  "recognitionRegions": {
+    "walkingCap": {
+      "bounds": {
+        "x0": 1094,
+        "y0": 281,
+        "x1": 1490,
+        "y1": 650
+      },
+      "reason": "Folded crown with centre/crown seams plus substantial bill and crown-to-bill junction: recognizable cap, not a cropped cloth strip. Far-right bill tip is outside this recognition region, but complete cap remains separately measured."
+    },
+    "houseKey": {
+      "bounds": {
+        "x0": 1285,
+        "y0": 640,
+        "x1": 1428,
+        "y1": 720
+      },
+      "reason": "Complete visible house-key bow and toothed blade; plain ring is separately within full object bound."
+    }
+  },
+  "review": {
+    "recipe": "One heavy plain tumbler, still pale amber-gold rum/cider with calm surface, no foam or bubbles; two clear irregular cloudy melting ice lumps are discernible, a possible third back face is occluded. Settled source permits two or three. One raw skin-on apple inside, slimmer than initial but still wedge-like rather than confidently thin flat slice.",
+    "personality": "Worn unbranded walking cap and single ordinary key clearly imply usual morning walk/few wants. They remain too spread right for phone; no ingredients used as person evidence.",
+    "world": "Dark historic walnut room and neutral shadows present; matte cap/paper and natural metal distinguish materials. Amber table reflection blanket and ice/glass microdetail still require material review.",
+    "issues": [
+      "Apple correction is not conclusive: still a wedge-like edge; genuinely thin slice not visually proven.",
+      "Complete object union815px; portrait crop intentionally cannot preserve complete cap, although substantial cap recognition core survives. Not a crop pass or acceptance.",
+      "Conservative recognition union655px including whole glass/paper and cap crown/bill+key bow/teeth, cannot fit~389px moving-phone inner window.",
+      "Glass411px tall, closer to moderate framing but323px wide; props did not compact to350px requested union.",
+      "Glass has more small droplets than requested; ice cloudy core is more ordinary but sparkling peripheral detail and amber glossy timber remain material holds.",
+      "No export, actual glyph/browser/motion check or integration performed; sole correction exhausted."
+    ]
+  }
+}

@@ -372,6 +372,17 @@ export default function TheReading({
         <img src={meta.src} alt={`${result.cocktailName}, poured by Dionysus`} />
         {inkName ? <figcaption className="tr-print-for">Poured for {inkName}</figcaption> : null}
       </figure>
+      {/* Portrait phones let the named photograph arrive alone, then reveal
+          the copy beneath it. This link is outside the aria-hidden scene. */}
+      <a className="tr-cue tr-scene-cue" href="#tr-title">
+        Your cocktail
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <path d="M12 5v14M19 12l-7 7-7-7" />
+        </svg>
+      </a>
+      {/* On desktop this clears the fixed poster; on portrait phones it
+          reserves the full-bleed photograph before the in-flow caption. */}
+      <div className="tr-spacer" aria-hidden="true" />
       <header className="tr-hero">
         <div className="tr-hero-inner">
           {/* nbsp binds the separator to the name so it never orphans onto line 2 */}
@@ -383,19 +394,10 @@ export default function TheReading({
                 not said twice on one page */}
             {inkName ? <span className="tr-kicker-for">{'\u00A0·'} poured for {inkName}</span> : null}
           </p>
-          <h1 className="tr-title">{result.cocktailName}</h1>
+          <h1 className="tr-title" id="tr-title">{result.cocktailName}</h1>
           <p className="tr-for">{result.tagline}</p>
-          {!gift && (
-            <div className="tr-hero-actions">
-              {/* on a phone the pair has to share one row: the tails drop */}
-              <CtaButton icon="share" onClick={shareKeepsake}>
-                {shareNote ?? <>Share<span className="cta-tail"> your cocktail</span></>}
-              </CtaButton>
-              <CtaButton icon="save" onClick={() => window.print()}>
-                Save<span className="cta-tail"> the recipe</span>
-              </CtaButton>
-            </div>
-          )}
+          {/* Share and save live only at the bottom (Robin, 2026-10-06): the
+              arrival belongs to the cocktail, the actions to the end. */}
           <a className="tr-cue" href="#tr-reading">
             {gift ? 'The recipe' : 'Your recipe and reading'}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -404,9 +406,6 @@ export default function TheReading({
           </a>
         </div>
       </header>
-
-      {/* the hero owns the first screen; the reading begins below it */}
-      <div className="tr-spacer" />
 
       {/* ---- the reading, on the left, the cocktail still in frame ----
            Two movements, because there are two kinds of content here and they

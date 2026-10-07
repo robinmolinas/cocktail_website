@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Entrepreneur (regular-guy-explorer)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine item and D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): Anchors `choice` row, meaning (Q141): "…and his regret in the same interview is in the dossier." → "His regret in the same answer, that he should have got out of the way about five years sooner, is used in y3 and y5; "ashamed" stays in the dossier."; whoYouAre ¶2 (V2, announcement): cut "It should be said, because you won't say it:" so the sentence opens "The freedom you went out for…".
+- **Left for Robin:** none. (For Hester, from the review: *Time Out*, 16 Sep 2026, reports liquidators for the Covent Garden company; the reading claims nothing about the outcome.)
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Estes / Café Pacifico (Hester r2)) · [x] drink + four checks (Margarita, tight bottom + loose top (Tomás r3)) · [x] reading (v1 (Wren r3)) · [x] fact audit (v3 passes (Hester r5)) · [x] resonance test (ready (Wren r4)) · [x] names (≥3 + pick) (Loose on Top (all three)) · [x] image brief (Tomás r3)
 - **Last change to the pour:** round 5

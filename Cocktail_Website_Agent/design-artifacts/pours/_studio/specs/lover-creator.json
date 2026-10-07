@@ -1,5 +1,49 @@
-{"pairing": "lover-creator", "family": "daiquiri", "style": "shaken", "glass": "two nick-and-nora glasses, chilled, rims dipped in coarse sugar (outside)", "serves": 2,
- "ingredients": [{"key": "gin_london_dry", "ml": 30}, {"key": "orange_juice", "ml": 30}, {"key": "grapefruit_juice", "ml": 30},
-                 {"key": "lime_juice", "ml": 15}, {"key": "lemon_juice", "ml": 15}, {"key": "mint_syrup", "ml": 22.5}],
- "garnish": ["sugar_rim_coarse"],
- "_status": "v3 (Tomás, round 6), card + mint syrup (Wren r5). Murphy's 'Juice of A Few Flowers' card measures unchanged (1 oz orange, 1 oz grapefruit, 1/2 oz lime, 1/2 oz lemon, 1 oz gin; rim moistened with lemon and dipped in coarse sugar). Ours: 3/4 oz mint syrup (the Bailey's mint, in the sugar the drink needs), sugar on the outside of the rim only (Regan, Joy pdf 137), the two-glass pour. OUT on every Arnold style by construction (acid-to-alcohol ratio fixed by his measures); flagged for Robin. Card-alone v2 kept at work/lover-creator/mixologist-spec-card-alone-v2.json."}
+{
+ "pairing": "lover-creator",
+ "family": "daiquiri",
+ "style": "shaken",
+ "glass": "two nick-and-nora glasses, chilled, rims dipped in coarse sugar (outside)",
+ "serves": 2,
+ "ingredients": [
+  {
+   "key": "gin_london_dry",
+   "ml": 30
+  },
+  {
+   "key": "orange_juice",
+   "ml": 30
+  },
+  {
+   "key": "grapefruit_juice",
+   "ml": 30
+  },
+  {
+   "key": "lime_juice",
+   "ml": 15
+  },
+  {
+   "key": "lemon_juice",
+   "ml": 15
+  },
+  {
+   "key": "mint_syrup",
+   "ml": 22.5
+  }
+ ],
+ "garnish": [
+  "sugar_rim_coarse"
+ ],
+ "_status": "v3 (Tomás, round 6), card + mint syrup (Wren r5). Murphy's 'Juice of A Few Flowers' card measures unchanged (1 oz orange, 1 oz grapefruit, 1/2 oz lime, 1/2 oz lemon, 1 oz gin; rim moistened with lemon and dipped in coarse sugar). Ours: 3/4 oz mint syrup (the Bailey's mint, in the sugar the drink needs), sugar on the outside of the rim only (Regan, Joy pdf 137), the two-glass pour. OUT on every Arnold style by construction (acid-to-alcohol ratio fixed by his measures); flagged for Robin. Card-alone v2 kept at work/lover-creator/mixologist-spec-card-alone-v2.json.",
+ "accepted": {
+  "checks": [
+   "initial abv",
+   "initial acid",
+   "finished abv",
+   "finished sugar",
+   "finished acid",
+   "dilution"
+  ],
+  "by": "Robin 2026-10-06",
+  "why": "Gerald Murphy's handwritten measures kept as written (D3)"
+ }
+}

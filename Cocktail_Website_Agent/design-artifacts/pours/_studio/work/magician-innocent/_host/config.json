@@ -1,0 +1,19 @@
+{
+ "pairing": "magician-innocent",
+ "personality": "The Sorcerer's Apprentice",
+ "archetypes": "Magician × Innocent",
+ "date": "2026-10-04",
+ "batch": "magician",
+ "name": "More Than One Head",
+ "tagline": "You never worry it won't work. You worry it will.",
+ "epigraph": "A whisky merchant wrote he could almost wish his business would halve. This glass doubles instead.",
+ "glassware": "tall tumbler (about 400 ml), filled with ice cubes",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "alexander-walker-johnnie-walker.md",
+ "language_row": "Wren's Resonance (v2) and 4-gram check (lint's own ngrams() against every pour file): cleared \"say it out loud\", \"the next time something\", \"what people don't see\", \"you don't say it because\", \"name of its own\", \"a year after the\", \"it for twenty years\", \"by the mid-1860s\", \"I can't tell you\", \"glass as a nod\", \"here's the part nobody\"; left \"the 1880s and 1890s\" (dates only, shared with *Beside the First*). \"I\" only; no guest pronouns, archetype names or magic words; never \"yours\" for the drink. Five gendered-pronoun warnings (epigraph, yours 1–4) all refer to Alexander Walker, accepted by Wren in r4. History about a third of the reading. Lint 0 errors. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/alexander-walker-johnnie-walker.md` (F1–F16, C1–C9, R1–R9): *Oxford Companion to Spirits and Cocktails* JOHNNIE WALKER pdf 1111–1112 (primary; Oxford quoting Alexander Walker's 1885 letter, its bibliography Morgan, *A Long Stride*, 2020, not in the library); WHISKY, BLENDED pdf 2136; HIGHBALL pdf 1005–1006; WHISKY pdf 2133; TALISKER pdf 1980 and CAOL ILA pdf 402 (fences only). *Cocktail Codex* pp. 47, 200 (the Ideal Whisky Highball, 2 oz whisky to 4 oz seltzer), 211, 221. *The Flavor Matrix* pdf 13 (mesifurane), 52–53 (Berry wheel), 136–137 (Grain wheel). Web: 2 visits (Hester, r2), nothing used beyond the library.",
+ "names_note": "*More Than One Head* (Wren, Hester; 2–1). Tomás held *Double Back* (his wish to \"double itself back\"; the other two felt that cold it reads as retreat). Hester gave up *Almost* because the reading and closing line already spend the word. Also considered: *Every Year*, *Carry Half*. Registry checked: no clash.",
+ "open_items": "Red Label's 40% ABV and the two new ingredient rows (`johnnie_walker_red_label`, `strawberry_lemon_cordial`) are unsourced; Tomás swept 40–46% and the cordial 25–35 ml, all in range. The cordial is made ahead (ten drinks' worth). Colour (\"pale rosy amber\") is Tomás's craft call. The plan's Mescall lead was replaced in r1 (plan row needs a \"room chose\" note). Who coined the nickname \"Johnny Walker\" isn't on the page, so the pour never says."
+}

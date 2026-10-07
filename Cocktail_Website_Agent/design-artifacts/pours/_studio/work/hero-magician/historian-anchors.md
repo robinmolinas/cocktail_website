@@ -1,0 +1,16 @@
+# Anchors: The Superhero (hero-magician), Hester r2, fixed r3 (H1), 2026-10-04
+
+Story: Constante Ribalaigua and the white jacket, with the Floridita cocktail he made and no booklet of his printed (the plan's lead, accepted by Wren r1 with conditions).
+Card: `_studio/fact-cards/constante-ribalaigua-floridita.md` (F1–F18, C1–C5, L1–L3). Library pages read on screen this round: Oxford pdf 1655–1657, 821, 715–716, 623, 853; *Imbibe!* pdf 215–216; *Joy* pdf 300, 317. Web: 2 of 2 used (archive.org full-text searches; leads only).
+Meanings are interpretive and about this person. Facts are in our words, in the pages' own verbs; nothing here is a quotation for the reading.
+
+| kind | fact | meaning | speaksTo |
+| --- | --- | --- | --- |
+| the jacket (lead anchor) | By the late 1930s he had wealth and some fame beyond Cuba, yet each morning he still put on the white jacket and went behind the bar to mix drinks (Oxford pdf 1655; F7). This ran until 1950, when ill health took him from behind the bar (pdf 1657; F12): never "to the end". | Our reading, signposted: he kept choosing the working side when he no longer needed to. Whether the jacket or the famous man was the disguise is the bartender's question, not the record's. | Mastery; The real me |
+| the man | Oxford calls him plain to look at, quiet and reserved in manner (pdf 1655; F6). | The ordinary side is on the page. Paraphrase only. | Quiet |
+| the hands | He squeezed every lime by hand, fingers only, and in the same sentence was a pioneer of electric mixers (pdf 1655–1656; F8). | Plain handwork, kept by choice beside the newest tools, not a refusal of them. | In control; Smooth |
+| the daily edge | He told an American journalist in 1935 that he made up a new drink every day, as self-discipline (pdf 1656; F9). His words, through the journalist. | Keeping the edge daily: the fear of going weak, answered in his own words. Never "hours" or "in secret". | Mastery |
+| fame (one clause) | He bought the bar in 1935, and by the late 1930s was rich and known abroad (pdf 1655; F5, F7). | A setting only. No "king", no superlative (C3), no famous customers. | Change |
+| the drink he made | Oxford counts the Floridita (rum, red vermouth, white crème de cacao, lime, a little orange curaçao and grenadine) among his lasting creations (pdf 1656, 821; F10, F13). | His, on two entries. Oxford's recipe cites only Vic's 1972 guide and is in no booklet of his, so never "his recipe". | Ideas |
+| not in his booklets | For reasons nobody knows, it isn't in any of the souvenir recipe booklets he put out for the bar (pdf 821; F14), though he did reprint praise of himself in them (*Imbibe!* pdf 216; F17). No booklet years (C2). | The one thing of his that wasn't put forward. Any why is "I like to think". Never "he left it out". | The real me |
+| kept by someone else | Trader Vic came across it on a visit in 1938, put it on the first menu of his own restaurant, and later printed it in his bar guide; Oxford's writer says it would have been lost otherwise (pdf 821; F15). | The part never put forward is the part someone else carried home: the answer to "would they still call?". One clause, owned; no leg, no shark, no Mai Tai, no "loved". | Advice; Courage |

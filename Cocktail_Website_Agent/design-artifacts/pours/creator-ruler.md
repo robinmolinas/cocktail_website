@@ -29,7 +29,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 
 **method**
 1. Put a coupe in the freezer, or fill it with ice and water while you mix.
-2. Stir a spoon of honey into a spoon of warm water until it runs. Let it cool.
+2. Stir a teaspoon of honey into a teaspoon of warm water until it runs. Let it cool. You'll use 7.5 ml.
 3. Measure everything into a shaker: Cognac, orange liqueur, honey syrup, lemon, and one dash of the brine from a jar of plain green olives. Measure it, don't guess: the drink holds a strong-sweet-sour frame to the millilitre.
 4. Fill with ice, shake hard for about 10 seconds, strain into the cold glass.
 5. Squeeze the lemon peel over the top so its oils fall on the drink, then drop it in.
@@ -52,9 +52,9 @@ authored_in: the room, 2026-09-27 (batch creator)
 *There's one dash in this glass you'll never pick out. The rest tastes brighter for it.*
 
 **whoYouAre**
-You can tell in a second when something is slightly off: the one wrong word on a page, the lamp in the wrong corner, the thing nobody else would ever notice. And you can't leave it. You send it back, with a note, and then again, until it's right.
+You have the picture before anything starts: how the evening runs, how the room looks, what comes first and what comes last. After that, every piece has to match it, and you can't leave one that doesn't. You send it back, with a note, and then again, until it's right.
 
-People say you're hard to please. The ones who stayed know it's simpler than that: you'd rather be blamed for all of it than praised for part of it. What you rarely admit is the other habit, the one after everyone's gone home: quietly redoing someone else's part yourself, because fixing it felt quicker than explaining. Nobody asked you to take it all on. You just can't bear to see it come out ordinary. And the people beside you end up doing the best work they've ever done, sometimes without knowing why.
+People say you're hard to please. The ones who stayed know it's simpler than that: it's the whole of it you care about, never only your part. What you rarely admit is the other habit, the one after everyone's gone home: quietly redoing someone else's part yourself, because fixing it felt quicker than explaining. Nobody asked you to take it all on. You just can't bear to see it come out ordinary. And the people beside you end up doing the best work they've ever done, sometimes without knowing why.
 
 **yours**
 

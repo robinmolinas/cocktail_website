@@ -1,0 +1,34 @@
+{
+ "pairing": "sage-magician",
+ "family": "old-fashioned",
+ "subfamily": "split-base whisky Old-Fashioned served up (no ice), after the Codex root recipe (p. 5): corn-based Canadian whisky and American straight rye in equal parts, demerara syrup, Angostura, with a spoon of tamarind water",
+ "style": "stirred",
+ "glass": "small tumbler (about 200 ml), chilled in the freezer, no ice",
+ "serves": 1,
+ "version": "v1.1 (Tomás, round 4 step 1, 2026-10-02). Drink unchanged from v1; wording per Hester audit v1 D1-D3. Two whiskies from two countries, equal parts: corn-based Canadian whisky (Oxford GRAIN-BASED SPIRITS pdf 925 and WHISKY, CANADIAN pdf 2146: often called 'rye', though corn is usually its main grain, generally flavoured with small amounts of rye) and American straight rye (at least 51% rye: Oxford MASH BILL pdf 1255, Codex p. 9; the comparison with Canadian is ours, anchor A8). The spark: tamarind water (7.5 ml), in the Sour segment of both the Corn chart (Flavor Matrix pdf 89) and the Grain chart (pdf 137); filing rye under the Grain entry (pdf 136) is our inference. Its acid gives this served-up spirit drink the acid Arnold's stirred band expects from vermouth. Judged as `stirred`: dilution by Arnold's formula for a 15-second fast stir (LI pdf 127), matching Method step 3. Tamarind 5 / 7.5 / 10 ml proven for very sour / middle / mild blocks; rye 40-55%, Canadian 40-45% swept. No named bottle.",
+ "ingredients": [
+  {
+   "key": "canadian_whisky",
+   "ml": 30
+  },
+  {
+   "key": "rye",
+   "ml": 30
+  },
+  {
+   "key": "demerara_syrup",
+   "ml": 7.5
+  },
+  {
+   "key": "tamarind_water",
+   "ml": 7.5
+  },
+  {
+   "key": "angostura",
+   "dashes": 2
+  }
+ ],
+ "garnish": [
+  "orange_peel"
+ ]
+}

@@ -1,0 +1,5 @@
+📜 **Hester:** Confirmed on the files themselves, not the reports. N1–N5 are in reading v2's facts table, word for word. D9 is in the draft v1.3 Red Label note, word for word: "spelled "Johnnie"… after Alexander Walker's death". The guest text is unchanged since audit v2, and it passes. The closing line matches the spec (30, 60, 120), and the drink is unchanged. One leftover for Robin, not a fact in guest text: the facts table's strawberry row still calls "close to warm bread" Wren's wording. The reading now says "One of the compounds behind its scent smells of baked bread" (R9), so that note is stale. Red Label's 40% goes to him unsourced, covered by the 40–46% sweep.
+
+**My vote: *More Than One Head*.** I'm giving up *Almost* because of Wren's reason: the reading and the closing line already use "almost" four times, so the name would spend the line the guest is meant to find. *More Than One Head* is his own sentence, and it carries the position. *Double Back* is true to his wish, but cold it reads as retreat, and the reading says the opposite.
+
+I'd put my name to this.

@@ -1,0 +1,103 @@
+{
+  "pairing": "ruler-magician",
+  "pour": "The Long View",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-magician/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-a761c197-dd1b-4da1-a42d-9f2d68cacb2e.png",
+  "sourceSha256": "5457018d1dd14a842408777d809f3d3d364374d0f80af29bf86b7d30d02eab93",
+  "specSha256": "ec92e2b724b7f0c3b89c08439486ac766e75ced8ea69ecb53944f4c63dd8ddbc",
+  "masterSha256": "31353d8c29e46636b6b55f27ed4a5523a05b675204561863d09e72fa830242fa",
+  "masterDimensions": {
+    "width": 1671,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1671,
+    940
+  ],
+  "portraitCrop": [
+    782,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1247,
+    "cy": 618,
+    "w": 140,
+    "angle": 10
+  },
+  "glass": {
+    "x": 1103,
+    "y": 486
+  },
+  "bounds": {
+    "glass": {
+      "x0": 981,
+      "y0": 357,
+      "x1": 1226,
+      "y1": 709
+    },
+    "paper": {
+      "x0": 1141,
+      "y0": 559,
+      "x1": 1325,
+      "y1": 675
+    },
+    "garnish": {
+      "x0": 1070,
+      "y0": 341,
+      "x1": 1254,
+      "y1": 377
+    }
+  },
+  "personalityBounds": {
+    "looseLeafBinder": {
+      "x0": 806,
+      "y0": 468,
+      "x1": 1465,
+      "y1": 608
+    },
+    "foldedBroadsheet": {
+      "x0": 802,
+      "y0": 550,
+      "x1": 1102,
+      "y1": 637
+    }
+  },
+  "recognitionRegions": {
+    "binderRingsPageBlockAndTabs": {
+      "x0": 850,
+      "y0": 505,
+      "x1": 1442,
+      "y1": 597
+    },
+    "broadsheetFoldColumnsAndLayers": {
+      "x0": 803,
+      "y0": 554,
+      "x1": 1102,
+      "y1": 637
+    }
+  },
+  "measurementNotes": [
+    "Original-resolution visual measurements, actual1671x941 probed (not1672).",
+    "Complete glass/tag/garnish union344px;352px full glass height,368px from peel top through foot.",
+    "Full glass/tag/personality union663px; conservative recognition union639px (803–1442). No anonymous strip counted as full recognition.",
+    "Paper full184px lateral extent is NOT writable axis: conservative140px usable clean axis excludes hole/clipped end/margins.",
+    "Proposed portrait x782–1484 retains all full objects, but only about20px left and19px right clearance. Full portrait is not phone/motion/browser evidence."
+  ],
+  "review": {
+    "recipe": "One chilled stemmed sour glass, opaque hazy ordinary-orange/amber sour, thin fine pale aeration corrected from v1 thick head, orange strip on rim, no serving ice. No egg/cream/lemon/lime or invented garnish.",
+    "personality": "Loose-leaf rings, tabs and handled pages plus folded broadsheet recognizable; source-grounded inference of ready preparation/following events, not an archival replica or claimed historical artifact. Printed column texture remains unverified non-readable detail.",
+    "world": "Glass plain with broad clear patches and sparse uneven drops. Table flatter/lower-grain than older batch04 controls, but scene remains warm and includes two visible practical lamps.",
+    "issues": [
+      "Glass352px slightly exceeds280–330 requested.",
+      "663px full group and639px conservative recognition group exceed350–380 moving-phone target.",
+      "140px usable writing axis below170–200 target although tag is freely tied and clean.",
+      "Generated binder/newspaper column marks unverified and potentially pseudo-writing; no readable claim intended.",
+      "Warm scene/two visible practical sources do not fully meet one-source neutral house treatment.",
+      "No crop/JPEG/runtime/browser acceptance; root review pending."
+    ]
+  }
+}

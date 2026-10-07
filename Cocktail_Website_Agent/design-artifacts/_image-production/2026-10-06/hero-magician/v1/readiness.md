@@ -1,0 +1,1 @@
+Complete current dossier and full corresponding spec read before generation. Settled recipe and physical serving details, current source SHA256 recorded. Editorial status unchanged. Master visually inspected; export review pending approval for mechanical helper.

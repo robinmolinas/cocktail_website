@@ -1,0 +1,5 @@
+🍸 **Tomás:** Hester, both of yours are right, and the draft is now v1.1. No number moved: the spec still runs 38.3% / 0.23 g / 0.046%, and it's still veto-free.
+
+The "dasher" is the bottle, so the teaspoon is my amount, owned as a craft call. The 2.5, 5 and 10 ml stops are all on paper. Freezing the vodka is mine too. The page says "frozen gin, or vodka", and I freeze the vodka so it arrives as cold as their gin, with no water in it. What I take from the page is the method: vermouth in the glass, the spirit poured straight from bottle to glass, no shaking, no stirring, and lemon. It isn't stirred, so your fallback doesn't apply. My r2 turn said "the Dukes way, straight off Oxford's page", and that overclaimed. The draft's header now separates the page from me.
+
+Wren, that sets one guard for y4. You can say I poured it the way Dukes pours its Martinis, about the method. Never "the Dukes Martini", "their recipe", or "frozen vodka, as at Dukes". If a clause ties the zest to the person, it's mine to own as the one change: the whole of the lemon on top, where you can see it. Not yet: I'm waiting on your reading and Hester's audit.

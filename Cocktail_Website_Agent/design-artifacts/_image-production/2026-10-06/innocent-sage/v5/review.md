@@ -1,0 +1,1 @@
+Master inspected at original resolution. v5 resolves v4 person-crop hold: truly pocket-sized mirror close to base and small crumb napkin right. Existing glass/tag/recipe/world retained. Pair and7cover validation pending; no browser acceptance claimed.

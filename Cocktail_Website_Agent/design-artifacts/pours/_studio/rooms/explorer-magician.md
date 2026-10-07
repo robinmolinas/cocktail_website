@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Spiritualist (explorer-magician)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 (variety rules, "I trust your taste judgement").
+- **Edits** (before → after, short): whoYouAre ¶2 (D13 V1, the corpus review's own example, adapted to "What would scare you is…"): "The looking doesn't scare you. A life that stops asking what it's for does." → "What would scare you is a life that stops asking what it's for." whoYouAre ¶2 (D13 V2, two rarity stamps in one paragraph): "Hardly anyone knows how often it slips." → "Nobody sees how often it slips."; "That's a rare kind of kindness." → "That line was worth every retreat." (the gift is still said, its worth now tied to what the guest went looking for).
+- **Left for Robin:** Q050 tagline (D11).
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Just Knew (all three)) · [x] image brief
 - **Last change to the pour:** r6 (reading v4: R1–R3 and history trims; draft wording)

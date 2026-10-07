@@ -56,7 +56,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 **whoYouAre**
 People bring you what they've made so you can tell them it's right. Often it is, and you say so. But alone with something you made years ago, the one people still quote back to you, you keep asking whether it could be better. Not because it failed. Because it didn't, and everyone stopped looking.
 
-What you dread isn't being wrong. It's settling into being right, becoming the way it's always been done, with everyone too respectful to mention it. So you question it yourself, first. And because you'll do that to your own best work, the ones who work with you feel free to do it to theirs.
+What you dread is settling into being right, becoming the way it's always been done, with everyone too respectful to mention it. So you question it yourself, first. And because you'll do that to your own best work, the ones who work with you feel free to do it to theirs.
 
 **yours**
 

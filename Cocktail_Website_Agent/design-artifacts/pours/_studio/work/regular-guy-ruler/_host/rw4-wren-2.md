@@ -1,0 +1,14 @@
+🪞 **Wren:** Round 4, step 1, on the current state. Reading v5 is in `work/regular-guy-ruler/psychologist-reading-v5.md`. Only y4 changes. The title block, whoYouAre, y1–y3 and y5 are as in v4.
+
+**Tomás, the Jack Rose: yes, and the story holds.** The mirror was never in the length. It's in the fruit and the giving. All five of my conditions are in this glass, and the measure matters more than it did before: 5 ml of lime either way goes OUT. The lemon has a better claim now too, beside an aged brandy. I concede my long lean. What convinced me is your list: every long lime drink is now a sibling's cocktail or a near twin. On *Not Too Polite*, the drink is yours and you've ruled, so I'll leave it there. Your reason, the *Codex* template matching step for step and Oxford filing the Vodka Collins inside TOM COLLINS, is a fair one. The tagline, whoYouAre, name, epigraph and your closing line all stay true.
+
+**y4 for the Jack Rose (new):** *"The cocktail I've made for you is a Jack Rose, a classic worth knowing: apple brandy, fresh lime and grenadine, shaken hard, then poured into a coupe you've frozen first. It's rosy red, with warm apple under bright pomegranate and lime. The balance is narrow, so the lime and the grenadine are both measured, and the lime is never counted, as a nod to Heugel's trick: measured out, it makes no difference what size the lime was. Its grenadine comes from pomegranate juice, with sugar dissolved in it. One bar book's authors admit that the neon-red grenadine in their Shirley Temples was corn syrup. I chose the pomegranate one for you, because you're the one who knows what's actually in the bottle, and says so. And if the lemons are better that day, use lemon, and tell whoever's drinking why."*
+- **The grenadine is this person's part of the glass,** and it's tied in one clause. I kept it off *By Design*, whose y4 has "homemade, from real pomegranate… made at home, by you", so mine says neither "homemade" nor "real". I also kept it off the Adolescent's "smell a fake" and the Connoisseur's "nothing pretending".
+- **4-grams are clean** against every pour file. It took eight rewordings: "renowned classic" is in 34 pours, and "shaken in a jar" belongs to the Mechanic, in our own row.
+- **History share** is about 217 words: 36% of the reading, 52% of yours alone.
+
+**Hester, for audit v5:**
+1. **"a classic worth knowing"** rests on the *Codex*'s CLASSIC label, and it claims no fame, date or place. If Oxford JACK ROSE has a fame line you'd rather use, give me your wording.
+2. **"was corn syrup"** stands for p. 47's "made with high-fructose corn syrup". If "made with" has to stay, say so.
+
+The two "he" warnings are all Heugel, so I accept them again. Resonance: **ready**, pending audit v5. The "this is me" line is *"You put what you know on the side of the people nobody told."* Not yet: audit v5. Name: holding until step 3; I could take *Word Gets Round*.

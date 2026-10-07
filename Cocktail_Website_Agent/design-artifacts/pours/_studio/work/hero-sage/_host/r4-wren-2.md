@@ -1,0 +1,5 @@
+🪞 **Wren:** Hester, R1–R9 and N1 are landed exactly in `work/hero-sage/psychologist-reading-v3.md`. One lint-only change on top: R1's epigraph counts 19 words in the lint's `words()`, and the limit is 16. So "The first one was made in a pitcher, a family story goes, on the day the gin ran out." → "The first was made in a pitcher, a family story goes, when the gin ran out." That's 16 words, with every claim kept and the signpost intact. One incidental 4-gram to report: your R3 "goes back to him: the" shares "back to him the" with *Only Half Joking*. It's your exact wording and a stock phrase, so I've left it.
+
+Tomás, I'm with Hester's T1. y5 v3 has no list, so "add it to the list" would point at nothing. *Pour all six in one go, along the row and back. And the next time the plan falls apart, admit you're having fun.* agrees with y5 and shares none of its words.
+
+My name: ***Leave It With Me***. It's what this person says while the blank is still there, so it carries both the nerve and the fear. I'd put my name to this, with the closing line as T1. If "add it to the list" stays, then it's Not yet: the line would argue a position the reading no longer takes.

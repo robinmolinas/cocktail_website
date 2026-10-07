@@ -1,0 +1,93 @@
+{
+  "pairing": "outlaw-creator",
+  "pour": "Asked In",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-creator/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-b802fef0-6c47-48b6-a830-70d8bb519852.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "e1013975ffbfcd23ff7a2c5fba06e8f37dd757fb497dfdb643a18943bfc28fb4",
+  "sourceSha256": "cbb9054f9639e8378a74d6fd4ffc8d31111b1308ef8c2e37f0218c8b6ed7c7fc",
+  "specSha256": "3dead215938fcc4effd5b2beab2c957774aaa37dd8a1738669188fb101e04d56",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    800,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1390,
+    "cy": 555,
+    "w": 219,
+    "angle": 76
+  },
+  "glass": {
+    "x": 1110,
+    "y": 455
+  },
+  "bounds": {
+    "glass": {
+      "x0": 890,
+      "y0": 186,
+      "x1": 1331,
+      "y1": 723
+    },
+    "paper": {
+      "x0": 1299,
+      "y0": 387,
+      "x1": 1481,
+      "y1": 711
+    },
+    "handmadeWallet": {
+      "x0": 371,
+      "y0": 337,
+      "x1": 902,
+      "y1": 552
+    },
+    "stitchingAwl": {
+      "x0": 440,
+      "y0": 276,
+      "x1": 861,
+      "y1": 399
+    }
+  },
+  "recognitionRegions": {
+    "handmadeWallet": {
+      "bounds": {
+        "x0": 391,
+        "y0": 343,
+        "x1": 878,
+        "y1": 534
+      },
+      "reason": "Substantial whole wallet face, fold and uneven sewn edge identify handmade wallet."
+    },
+    "stitchingAwl": {
+      "bounds": {
+        "x0": 440,
+        "y0": 276,
+        "x1": 861,
+        "y1": 399
+      },
+      "reason": "Connected wood handle, ferrule and full pointed shaft identify working awl."
+    }
+  },
+  "review": {
+    "recipe": "Clear pale gold with one ordinary broad cube and one yellow lemon peel inside; no foam. Sparkly/dense wet detail remains.",
+    "personality": "Hand-sewn leather wallet and whole handled stitching awl suggest independent making. Inferred craft habit rather than literal source biography; widely spread.",
+    "world": "Neutral dark timber room and cream paper, but warm glossy right table highlights and uniform surface microtexture remain.",
+    "issues": [
+      "Initial only; sole correction warranted.",
+      "Glass537px high;1110px full and1041px conservative recognition union.",
+      "Proposed portrait loses wallet/awl; not phone pass.",
+      "Wallet has an ambiguous pseudo-mark near top-left; correction must make it unmarked.",
+      "Ice/glass microdetail, leather overall crackle and glossy amber table held."
+    ]
+  }
+}

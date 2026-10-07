@@ -1,0 +1,92 @@
+{
+  "pairing": "innocent-outlaw",
+  "pour": "Fresh Air",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-outlaw/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-08a5ea1e-9885-44cd-8638-b5a61db1d5a4.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "429d81c1c5236ade0d0f4026bc5521ab4b2521fe7d20afc2d2e826def6e5e813",
+  "sourceSha256": "c33461857c7e996d4a8c580b0d26b18ac1e184759ff522dc992997cec7dc28a2",
+  "specSha256": "1b3fd51f025a0e80c252422e82a669d87b59772b087b32571a3e911585134ff6",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    810,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1175,
+    "cy": 613,
+    "w": 201,
+    "angle": 9
+  },
+  "glass": {
+    "x": 1007,
+    "y": 470
+  },
+  "bounds": {
+    "glass": {
+      "x0": 811,
+      "y0": 230,
+      "x1": 1203,
+      "y1": 710
+    },
+    "paper": {
+      "x0": 1007,
+      "y0": 526,
+      "x1": 1290,
+      "y1": 696
+    },
+    "walkingCap": {
+      "x0": 1183,
+      "y0": 215,
+      "x1": 1672,
+      "y1": 658
+    },
+    "houseKey": {
+      "x0": 1288,
+      "y0": 551,
+      "x1": 1521,
+      "y1": 702
+    }
+  },
+  "recognitionRegions": {
+    "walkingCap": {
+      "bounds": {
+        "x0": 1192,
+        "y0": 216,
+        "x1": 1625,
+        "y1": 655
+      },
+      "reason": "Folded crown seam and curved stitched bill; visible cap reaches source edge."
+    },
+    "houseKey": {
+      "bounds": {
+        "x0": 1349,
+        "y0": 599,
+        "x1": 1521,
+        "y1": 702
+      },
+      "reason": "Whole key bow and toothed blade, ring not essential to key recognition."
+    }
+  },
+  "review": {
+    "recipe": "Heavy plain tumbler, still pale amber rum/cider, three irregular ice lumps; raw skin-on apple appears overly thick wedge rather than thin slice.",
+    "personality": "Cap and one key clear habitual walk/few wants evidence; cap is spread right and clipped at source edge.",
+    "world": "Dark historic timber and neutral shadows; table too amber glossy, glass droplets remain busier than requested.",
+    "issues": [
+      "Apple too thick; one correction required.",
+      "Whole visible union861px, genuine recognition814px cannot fit tall-phone and full cap unavailable at source right edge.",
+      "Portrait crop clips key tip and cap; not accepted.",
+      "480px glass larger than needed; overly close composition."
+    ]
+  }
+}

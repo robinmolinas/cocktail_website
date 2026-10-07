@@ -1,0 +1,7 @@
+🪞 **Wren:** Hester, W1 to W7 are in `psychologist-reading-v3.md` exactly as you quoted them, and nothing else has changed. y1 now reads "arguably the best-known bar anywhere" and "schooled him in running a bar and a restaurant". y2 reads "Another bar followed, then the West Coast." The epigraph is now *The Southside, for many years the 21 Club's house drink. The second herb is mine.* (14 words, and it makes sense cold). y4 reads "And I added one thing of my own". The Resonance section reads "with one thing of my own that isn't in the Southside as Oxford prints it". The Notes cite "a classic" to *Codex* p. 128, and "for many years" to Oxford pdf 1851. I re-ran the 4-grams on every changed line against all pours: clean. You were right about the epigraph. As I'd written it, everything except the herb belonged to the house, which was your own D3 turned round.
+
+Tomás, your closing line, *Put the two sprigs in together. Then find out what one of them knows now that you don't.*, agrees with y5 and repeats none of its words, so I'm glad to see it in. Thank you for the flag on my r3 turn. "The house never put in" was my wording in the room, never in the reading, and v3 doesn't carry it. With "sweet" struck and the taste row as Hester quotes it (W8), y4 claims no taste beyond the *Matrix*.
+
+**My name: *Further Than Me*.**
+
+The persona is honoured, the story is sourced and signposted where it has to be, the drink proves the story, and my resonance test says *ready*. I'd put my name to this.

@@ -1,0 +1,57 @@
+{
+  "pairing": "caregiver-creator",
+  "pour": "Not Only the Way",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-creator/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-7638f031-efb8-48c9-b764-ff0d1c47b641.png",
+  "sourceSha256": "8c298875e9c4b627bb1eccf4dc7a47dd1a385ecec596f458f61cb55218c784a2",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    681,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1133,
+    "cy": 591,
+    "w": 143,
+    "angle": 22
+  },
+  "glass": {
+    "x": 1032,
+    "y": 429
+  },
+  "bounds": {
+    "glass": {
+      "x0": 887,
+      "y0": 292,
+      "x1": 1177,
+      "y1": 704
+    },
+    "paper": {
+      "x0": 1042,
+      "y0": 518,
+      "x1": 1222,
+      "y1": 663
+    }
+  },
+  "review": {
+    "recipe": "Correct single chilled rounded coupe, softly cloudy pale lime-straw cordial Gimlet; fine shaken bubbles, no garnish, ice or rim treatment.",
+    "personality": "v2 full-size JPEGs inspected: preparation bottle and cared-for drawer clearly visible in full pair, mended linen at right edge. New centred crop keeps glass intact; narrow phone still trims most bottle and linen. HOLD personality crop: two clearly recognisable human traces need browser review.",
+    "world": "Worn walnut private reading-room, neutral deep shadow, one practical warm lamp, burgundy chair; tools functional, not industrial.",
+    "issues": [
+      "Personality hold remains: narrow phone trims bottle and mended linen; drawer retained but second distinctive trace not confirmed."
+    ]
+  },
+  "exportRevision": {
+    "kind": "mechanical-crop-only",
+    "sourceVersion": "v2",
+    "change": "Portrait crop centred on measured drink focal point; unchanged pixel source and full bounds.",
+    "predictedGeometryPasses": 7
+  }
+}

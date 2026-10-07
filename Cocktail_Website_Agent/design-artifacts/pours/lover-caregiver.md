@@ -23,7 +23,7 @@ authored_in: the room, 2026-09-30 (batch lover)
 | about 60 g | roasted apple (roughly half a medium apple, peeled and cored) | wrapped in wet brown paper and roasted until soft, as Willard's recipe has it. Then left to cool. |
 | 60 ml | brandy (grape brandy: a VSOP cognac, or any aged grape brandy of about 40%) | the captain's page says only "brandy"; Wondrich reads it as the grape brandy he preferred |
 | 60 ml | cold water | |
-| 1½ tsp (about 6 g) | sugar | Willard used as much sugar as brandy; I cut it to a spoonful and a half, or it would be more than four times too sweet |
+| 1½ tsp (about 6 g) | sugar | Willard used as much sugar as brandy; I cut it to a teaspoon and a half, or it would be more than four times too sweet |
 | 1 | lump of ice | ordinary ice, one piece |
 
 **method**
@@ -52,12 +52,12 @@ authored_in: the room, 2026-09-30 (batch lover)
 ## Reading
 
 **epigraph**
-*A captain wrote this toddy down from a barman said never to forget a face.*
+*A captain wrote this toddy down from a barman who, people said, never forgot a face.*
 
 **whoYouAre**
 Someone's coming over. Long before they get there, you've been at it: the chair moved nearer the heater for the one who always feels the cold, the music down to where people can talk, the light just so. By the time they walk in, it looks as if it all happened by itself. That's the idea. Nobody should feel they put you to any trouble. They should just feel expected.
 
-What you'd never tell them is: I was hoping you'd come. All that getting ready is how you hope without asking. A room made ready can't be turned down, and a plain question can. The thought you don't let yourself stay with is the ready room with nobody in it. Here's what people take home from your evenings, even when they couldn't say why: the feeling that someone had them in mind before they arrived. Very few people are ever given that.
+What you'd never tell them is: I was hoping you'd come. All that getting ready is how you hope without asking. A room made ready can't be turned down, and a plain question can. The thought you don't let yourself stay with is the ready room with nobody in it. Here's what people take home from your evenings, even when they couldn't say why: the feeling that someone had them in mind before they arrived.
 
 **yours**
 
@@ -67,7 +67,7 @@ What you'd never tell them is: I was hoping you'd come. All that getting ready i
 
 3. That's where I see you in him. Not the famous memory. The rooms made ready anyway.
 
-4. One of his guests did write his toddy down. A British army captain who drank at his bar printed a few recipes in his travel book, and credited one of them to Willard by name: the Apple Toddy, one of the renowned drinks that made the American bar famous abroad. After Prohibition, it all but disappeared. The cocktail I've made for you is made after Willard's: the best apples rolled in wet paper and roasted until soft, then equal measures of apple, brandy and water, as he had them, and one lump of ice. His called for as much sugar as brandy, far too sweet by today's taste, so I kept it to a spoonful and a half. For the brandy, I took the grape brandy the historian David Wondrich believes Willard preferred. Nearly all of it happens before anyone arrives: the apples roast, cool and wait. I kept it that way as a nod to you, because that's where your care always starts.
+4. One of his guests did write his toddy down. A British army captain who drank at his bar printed a few recipes in his travel book, and credited one of them to Willard by name: the Apple Toddy, one of the renowned drinks that made the American bar famous abroad. After Prohibition, it all but disappeared. The cocktail I've made for you is made after Willard's: the best apples rolled in wet paper and roasted until soft, then equal measures of apple, brandy and water, as he had them, and one lump of ice. His called for as much sugar as brandy, far too sweet by today's taste, so I kept it to a teaspoon and a half. For the brandy, I took the grape brandy the historian David Wondrich believes Willard preferred. Nearly all of it happens before anyone arrives: the apples roast, cool and wait. I kept it that way as a nod to you, because that's where your care always starts.
 
 5. So next time you're getting a room ready, add the one thing you always leave out. Ask. Not "come by sometime": the plain sentence, to the person you're hoping will come. Getting ready is how you hope. Asking is how they find out they were hoped for. And I wish you a full house.
 
@@ -187,8 +187,8 @@ Wren's title-block notes:
 
 ### Open items
 
-- **"A spoonful and a half" (y4), Tomás's optional note in round 7:** it could be read as tablespoons, and 1½ tablespoons would push the drink over the sugar ceiling; "a teaspoon and a half" matches the recipe's 1½ tsp exactly. It crossed with Wren's sign-off and wasn't answered in the room. The text is unchanged. Robin's call.
-- **The epigraph's "said never to forget a face":** Hester noted in round 7 that it could also read as an instruction, and offered "from a barman who, he said, never forgot a face". Wren kept v3's wording so that there's no bare "he" in a line read cold. Tomás's sign-off covers both.
+- **Resolved (2026-10-06, decision list and Q023): y4 and the recipe note now say "a teaspoon and a half".** The old note, Tomás's optional one in round 7: it could be read as tablespoons, and 1½ tablespoons would push the drink over the sugar ceiling; "a teaspoon and a half" matches the recipe's 1½ tsp exactly. It crossed with Wren's sign-off and wasn't answered in the room. The text is unchanged. Robin's call.
+- **Resolved (2026-10-06, Q127): the epigraph now reads "from a barman who, people said, never forgot a face"** (the captain's own words are "who never forgets the face of a customer"; no bare "he"). The old note: Hester noted in round 7 that it could also read as an instruction, and offered "from a barman who, he said, never forgot a face". Wren kept v3's wording so that there's no bare "he" in a line read cold. Tomás's sign-off covers both.
 - **The dossier Resonance** (Wren's, round 6) still describes y4 as "the one person who wrote him down". The reading itself was corrected for A3 ("One of his guests did write his toddy down"). This is research-only text.
 - **His sugar is changed:** a fourth part of sugar reads OUT at 30.6 g/100 ml, so ours is 1½ tsp, owned in y4 and in the recipe note. "Far too sweet by today's taste" is our modern judgement, marked as ours. The fourths are unit-less on the page. Apple, brandy and water are 60 g / 60 ml / 60 ml.
 - **Edges:** a very sweet apple pushes the first sips about 0.5 g/100 ml over the sugar band. The `roasted_apple` ingredient values are unsourced (Tomás added them in round 4, safe-side, none of the five vetoes). The nutmeg is left off on purpose (it counts as `nuts`).

@@ -1,0 +1,1 @@
+🎙️ **Host:** Step 4. Wren and Tomás have landed N1–N5 and D9 and both signed. The name vote stands at Wren *More Than One Head*, Tomás *Double Back*. Reassembled on reading v2 and draft v1.3: **0 errors, 5 warnings** (Walker pronouns, accepted by Wren). Hester, confirm on the fixed files, give your one name and sign.

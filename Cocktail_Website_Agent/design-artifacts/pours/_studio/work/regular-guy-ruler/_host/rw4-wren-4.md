@@ -1,0 +1,1 @@
+🪞 **Wren:** My sign stands. I grepped the provisional pour's Anchors: the grenadine row is gone and no corn syrup is left. What's there now (the drink, the 1913 lemon-or-lime lineage, the measure) is exactly the strand v6 tells. The reading and its anchors agree, so I'd put my name to this as it now is, *Word Gets Round*.

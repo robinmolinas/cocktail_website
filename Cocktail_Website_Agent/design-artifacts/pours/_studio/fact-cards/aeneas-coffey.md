@@ -17,6 +17,9 @@ Verified 2026-10-01 by Hester for magician-explorer (The Alchemist). Library = p
 | F10 | Built on others: Stein (1828) took "the first steps", on Cellier-Blumenthal's principles; "Coffey greatly improved this design and made it more robust." Never "he invented continuous distillation." | pdf 541; pdf 419; pdf 660 ("perfected by, among others") | primary |
 | F11 | Significance: "revolutionized the British spirits industry by making continuous distillation commercially viable" (pdf 543); "the first commercially viable continuous still adapted to distilling grain" (pdf 541); the Coffey still is "the ancestor of most modern continuous or column stills" (pdf 1618). Note: "remains the basis for the modern column still" is said of **Cellier-Blumenthal** (pdf 419), not Coffey. | pdf 543, 541, 1618, 419 | primary |
 | F12 | Later: moved the business to London, died in Bromley, Middlesex, 1852; firm to son Philip, then (1872) to John Dore, last foreman (Dore: *Down the Line*'s ground, leave out). Two brothers who worked for him (the Carters) invented the percolation gin still (pdf 1495). | pdf 541, 1495 | primary |
+| F13 | What Coffey's still ran on: Oxford says only "adapted to distilling grain" (pdf 541); in Scotland it made whisky "from mixed grains" (pdf 2169). No page names Coffey's own grain. Cheap imported maize and wheat replaced local cereals in patent stills "by the mid-nineteenth century" (MASH BILL, pdf 1256): the trade's, not dated to Coffey. | pdf 541, 2169, 1256 | primary |
+| F14 | Scotch grain whisky today "tends to be made from corn (maize) or soft winter wheat" with some malted barley; some distillers use mixed mash bills, rye or 100% malted barley (WHISKY, GRAIN, pdf 2149). Wheat "is common in the production of scotch grain whisky" (WHEAT, pdf 2129). So the grain is the bottle's, not the style's. | pdf 2149, 2129 | primary |
+| F15 | Counterweight for the glass: grain whisky is lighter than malt, "will age more quickly (after twelve years, it tends to taste mostly of the barrel)" and "on its own easily disappears in a mixed drink" (pdf 2149). | pdf 2149 | primary |
 
 ## Conflicts (keep out of any reading)
 - C1 **Patent year:** 1828 (STILL, CONTINUOUS, pdf 1901), 1830 (pdf 541, 752, 2169; Mulvihill 2004), 1831 (COFFEY STILL, pdf 543). *Joy of Mixology* (pdf 419) says "circa 1860": wrong, never used. State no year.
@@ -28,3 +31,7 @@ Verified 2026-10-01 by Hester for magician-explorer (The Alchemist). Library = p
 - R1 Leaving the excise was the step he couldn't take back: our reading. No motive is on the record.
 - R2 Wood and iron as the place you can still remake it, copper as the commitment: our reading. The page gives no reason for the materials.
 - R3 No notes, no secrecy: a patent is public.
+
+## Sibling ground (guards)
+- G1 *ruler-sage* (The Judge) owns "whether the new spirit was whisky at all" and the 1908 commission (card `whisky-commission-1908.md`). Here the scorn is only the 1878 Dublin quote; never the commission, never "ruled whisky".
+- G2 *regular-guy-creator* (The Hidden Talent) owns grain spirit as "the part nobody notices" ("tastes of nothing and smells of nothing"). Never pitch grain whisky as the hidden, unnoticed part of a blend.

@@ -1,0 +1,82 @@
+{
+  "pairing": "innocent-lover",
+  "pour": "The Big Words",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-lover/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-1d086431-ac24-408b-bb8c-be02ea1de952.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "eafd8c6b9918b2526c6a07f09f966f4dd26b0b56385f8c82d0de0fb78e1e9910",
+  "specSha256": "5591b3e68351ff211d8045296f258ee8e28a306bed4daeaf31a6d9f0915e0744",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    866,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1286,
+    "cy": 683,
+    "w": 286,
+    "angle": 5.3
+  },
+  "glass": {
+    "x": 1071,
+    "y": 300
+  },
+  "bounds": {
+    "glass": {
+      "x0": 873,
+      "y0": 187,
+      "x1": 1273,
+      "y1": 738
+    },
+    "paper": {
+      "x0": 1103,
+      "y0": 616,
+      "x1": 1446,
+      "y1": 739
+    }
+  },
+  "recognitionRegions": {
+    "audioCassette": {
+      "x0": 1106,
+      "y0": 508,
+      "x1": 1452,
+      "y1": 644
+    },
+    "giftCard": {
+      "x0": 1248,
+      "y0": 373,
+      "x1": 1558,
+      "y1": 625
+    }
+  },
+  "optionalRegions": {
+    "cardRibbon": {
+      "x0": 1508,
+      "y0": 404,
+      "x1": 1582,
+      "y1": 593
+    }
+  },
+  "review": {
+    "recipe": "Clear still dark reddish-brown cocktail in stemmed glass, nearly full, broad orange peel inside, no serving ice or foam.",
+    "personality": "Cassette spool windows and half-open plain-backed card with ribbon recognizable, but spread far right. Tiny cassette shell marks resemble pseudo-labeling.",
+    "world": "Plain glass promising; timber overly glossy, amber, embossed/alligator-looking microtexture. Background multiple highlights distract.",
+    "issues": [
+      "Material hold: glossy amber alligator-like timber.",
+      "Cassette shell tiny marks suggest pseudo-lettering; need blank surface.",
+      "Whole essential group685px; portrait retains recognition cores with only8px glass left margin and10px card right margin, ribbon optional partially cropped.",
+      "Glass551px high versus425px target. One correction planned; not accepted."
+    ]
+  },
+  "status": "initial-master-candidate; material-hold; not-accepted"
+}

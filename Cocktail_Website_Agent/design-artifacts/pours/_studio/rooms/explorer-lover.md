@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Sense Seeker (explorer-lover)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 (variety rules: no "So here's…" preamble before the proposal).
+- **Edits** (before → after, short): yours 5 (D13 V4): "So here's something to do, and not with this glass. Find the taste…" → "Find the taste…".
+- **Left for Robin:** Q049 tagline (D11; Robin's "retry" is in the calibration batch).
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Straight Back (all three)) · [x] image brief
 - **Last change to the pour:** r6 (draft v4: closing line, image brief; reading v3 and spec v1 unchanged)

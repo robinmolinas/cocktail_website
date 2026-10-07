@@ -1,0 +1,335 @@
+{
+  "pairing": "innocent-caregiver",
+  "pour": "Night Light",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "d4e942abc39972cf7ed38e258d918f409f1fc3e36fa12ede52d55520ac2716bf",
+  "review": {
+    "recipe": "Clear, still, transparent pale straw wine in one plain small stemmed cocktail glass with one dropped lemon-peel strip; no ice/foam/flor/rim. Colour is less amber than v1 but right practical reflects warm in bowl; strict almost-colourless colour review remains.",
+    "personality": "Complete mended blanket fold and saved biscuit recognise plainly in wide and fit proposed full702px portrait; their621px union with completeglass/paper cannot all survive434px tall-phone cover, narrower during breathing.",
+    "world": "Mostly flat low-satin long-grain walnut, plain glass, natural wool and biscuit. Neutral dark left survives. Warm visible right lamp and tabletop highlight may need root restraint review, no generatedwriting/ornamentalletching.",
+    "issues": [
+      "Master-only candidate; no exact JPEG pair or browser check performed by this assistant.",
+      "Composition risk: complete glass/paper horizontal union458px exceeds ~434px tall-phone nominal cover; essentialglass/paper/twotraceunion621px far exceeds max-breathing~389px.",
+      "Do not call full portrait equivalent to actual tall-phone cover.",
+      "Residual wine warmth against almost-colourless requirement needs root physical review.",
+      "Single permitted correction used; no further image generation in this pass."
+    ]
+  },
+  "measurements": {
+    "pairing": "innocent-caregiver",
+    "pour": "Night Light",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-caregiver/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-31e77bb0-ec3d-4f16-b07c-496dda4f8d9b.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "d4e942abc39972cf7ed38e258d918f409f1fc3e36fa12ede52d55520ac2716bf",
+    "specSha256": "79ebbe340d457c56299b2c2a0e6bf3c909d0414dba7538fd3e293347f5a425c5",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      750,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1112,
+      "cy": 597,
+      "w": 214,
+      "angle": 11.3
+    },
+    "glass": {
+      "x": 931,
+      "y": 339
+    },
+    "bounds": {
+      "glass": {
+        "x0": 781,
+        "y0": 208,
+        "x1": 1085,
+        "y1": 720
+      },
+      "paper": {
+        "x0": 947,
+        "y0": 508,
+        "x1": 1239,
+        "y1": 669
+      }
+    },
+    "recognitionRegions": {
+      "blanketMendedFold": {
+        "x0": 1194,
+        "y0": 446,
+        "x1": 1402,
+        "y1": 640
+      },
+      "savedBiscuit": {
+        "x0": 1110,
+        "y0": 658,
+        "x1": 1323,
+        "y1": 753
+      }
+    },
+    "recognitionMethod": "Manual conservative rectangular bounds on actual original1672×941 image at full size; mend includes looped edge and folded wool to establish blanket, biscuit includes complete cookie. Blanket body and greaseproof wrapper outside these regions are optional.",
+    "review": {
+      "recipe": "Clear, still, transparent pale straw wine in one plain small stemmed cocktail glass with one dropped lemon-peel strip; no ice/foam/flor/rim. Colour is less amber than v1 but right practical reflects warm in bowl; strict almost-colourless colour review remains.",
+      "personality": "Complete mended blanket fold and saved biscuit recognise plainly in wide and fit proposed full702px portrait; their621px union with completeglass/paper cannot all survive434px tall-phone cover, narrower during breathing.",
+      "world": "Mostly flat low-satin long-grain walnut, plain glass, natural wool and biscuit. Neutral dark left survives. Warm visible right lamp and tabletop highlight may need root restraint review, no generatedwriting/ornamentalletching.",
+      "issues": [
+        "Master-only candidate; no exact JPEG pair or browser check performed by this assistant.",
+        "Composition risk: complete glass/paper horizontal union458px exceeds ~434px tall-phone nominal cover; essentialglass/paper/twotraceunion621px far exceeds max-breathing~389px.",
+        "Do not call full portrait equivalent to actual tall-phone cover.",
+        "Residual wine warmth against almost-colourless requirement needs root physical review.",
+        "Single permitted correction used; no further image generation in this pass."
+      ]
+    },
+    "status": "created-master; root-review-and-portrait-recomposition-needed; not-accepted"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1276.9377990430623,
+        "cy": 685.9148936170212,
+        "w": 245.74162679425837,
+        "angle": 11.305855864448885
+      },
+      "glass": {
+        "x": 1069.090909090909,
+        "y": 389.48936170212767
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 462.039886039886,
+        "cy": 762.127659574468,
+        "w": 273.13960113960115,
+        "angle": 11.302091407624102
+      },
+      "glass": {
+        "x": 231.019943019943,
+        "y": 432.7659574468085
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/innocent-caregiver/portrait.jpg",
+    "wide": "/personas/innocent-caregiver/wide.jpg",
+    "wideTag": {
+      "cx": 0.6650717703349283,
+      "cy": 0.6351063829787233,
+      "w": 0.12799043062200957,
+      "angle": 11.305855864448885
+    },
+    "wideGlass": {
+      "x": 0.5568181818181818,
+      "y": 0.3606382978723404
+    },
+    "tag": {
+      "cx": 0.5156695156695157,
+      "cy": 0.6351063829787233,
+      "w": 0.30484330484330485,
+      "angle": 11.302091407624102
+    },
+    "glass": {
+      "x": 0.25783475783475784,
+      "y": 0.3606382978723404
+    }
+  },
+  "hashes": {
+    "master": "6d9160cc8112157cba045a8b7c9fdc091f1fc305e78971df6fa6c4a838ef620a",
+    "wide": "4b6f8bc6d4116c59d2c16c3c28a3485985a9aaa1f292547892f0553b17371e2f",
+    "portrait": "1d8fd0bf991bfc92366119cd00b5666076f238e5f5c144f79627e2dd1c5f3c5d"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 896.8421052631579,
+          "y0": 238.9787234042553,
+          "x1": 1245.933014354067,
+          "y1": 827.2340425531914
+        },
+        "paper": {
+          "x0": 1087.4641148325359,
+          "y0": 583.6595744680851,
+          "x1": 1422.7751196172248,
+          "y1": 768.6382978723403
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 667.3684210526316,
+          "y0": 199.14893617021275,
+          "x1": 958.2775119617224,
+          "y1": 689.3617021276596
+        },
+        "paper": {
+          "x0": 826.2200956937799,
+          "y0": 486.3829787234043,
+          "x1": 1105.6459330143541,
+          "y1": 640.531914893617
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 956.6315789473684,
+          "y0": 201.5506382978723,
+          "x1": 1328.9952153110048,
+          "y1": 829.0229787234042
+        },
+        "paper": {
+          "x0": 1159.9617224880383,
+          "y0": 569.2102127659574,
+          "x1": 1517.6267942583731,
+          "y1": 766.5208510638297
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1606.842105263158,
+          "y0": 200.47021276595743,
+          "x1": 2232.2966507177034,
+          "y1": 1254.427659574468
+        },
+        "paper": {
+          "x0": 1948.3732057416269,
+          "y0": 818.0234042553191,
+          "x1": 2549.1387559808613,
+          "y1": 1149.4436170212764
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.25783475783475784,
+        "y": 0.3606382978723404
+      },
+      "bounds": {
+        "glass": {
+          "x0": -34.09971509971511,
+          "y0": 186.75744680851062,
+          "x1": 238.80163342830014,
+          "y1": 646.468085106383
+        },
+        "paper": {
+          "x0": 114.91878442545111,
+          "y0": 456.11914893617023,
+          "x1": 377.04771130104467,
+          "y1": 600.6765957446808
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.25783475783475784,
+        "y": 0.3606382978723404
+      },
+      "bounds": {
+        "glass": {
+          "x0": -37.826210826210826,
+          "y0": 206.22978723404253,
+          "x1": 263.5293067426401,
+          "y1": 713.8723404255318
+        },
+        "paper": {
+          "x0": 126.72976258309592,
+          "y0": 503.67659574468087,
+          "x1": 416.1896676163343,
+          "y1": 663.3063829787233
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.25783475783475784,
+        "y": 0.3606382978723404
+      },
+      "bounds": {
+        "glass": {
+          "x0": -8.113960113960118,
+          "y0": 125.68510638297872,
+          "x1": 175.544767331434,
+          "y1": 435.06382978723406
+        },
+        "paper": {
+          "x0": 92.173371320038,
+          "y0": 306.9617021276596,
+          "x1": 268.58241215574543,
+          "y1": 404.2468085106383
+        }
+      }
+    }
+  ]
+}

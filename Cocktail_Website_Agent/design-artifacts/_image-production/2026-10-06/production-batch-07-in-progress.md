@@ -1,0 +1,5 @@
+# Batch07 — completed draft handoffs
+
+2026-10-07. User asked smaller Go On/Whoever Comes In tags first, then nextbatch. Both v3 exact PNG edits completed/rootoriginalinspected; preservedv2, no countschange. Read tag-scale-corrections-v3.md. Numeric writinggoal no longer justifies oversized paper; user-scale clarification saved in persona-image-system.
+
+Seven familiar serving types completed by source readiness: root sage-innocent; cold outlaw-sage and regular-guy-innocent; stirred jester-sage and outlaw-regular-guy; shaken ruler-explorer and sage-jester. Each initial plus sole focused correction preserved,14calls. Root inspected seven selected actual1672×941 PNGs and current fingerprint/dimension/extents receipt7/7. Read production-batch-07.md/JSON/master-audit. Current70generated/27exported/43measured/45ungenerated. All held, no final acceptance. No JPEG/exporter/rejectedretry/bypass; root onlysharedtracker/integration. No browser/newREADY/public/runtime/source/automation changes; browser deferred,heartbeatPAUSED.

@@ -1,0 +1,9 @@
+# Worth Finding — settled serve, new candidate only
+
+Full193-line current dossier and complete spec read before call. Source SHA256bc439a9692e566d2bc89f675e039528e5dba836198c812d3ff4bcc3d50a5ac18; spec SHA2561df0536606489cf6dc625c6db198fa931730593695552ae580900918c1e7cd66. No stage/public files for pairing found before freshv1.
+
+Recipe30ml shochu25%+/37.5ml London dry gin/25ml blanc vermouth/2.5ml rich syrup, one green shiso leaf torn once then stirred30seconds and strained out. Finished134.3ml into chilled150ml small stemmed cocktail glass; no serving ice/garnish/foam/carbonation. Nearly colourless faint straw is source craft estimate from blanc vermouth, not sourced measurement. Strained leaf goes on small plate beside glass as served. Recipe unchanged.
+
+WhoYouAre says private stories not told at work are offered a little at a time, with one thing held back for fear discovery ends. Folded personal note and saved ordinary photographic print are plausible inferred evidence of private stories/memories ready to share, not literal prescribed possessions. Garden-path snapshot is an ordinary concrete photograph, not a symbolic door, maze or invented historical claim. No readable note text. No mask/cape/cards/rose. Old bare-hand gesture and moonlight illuminating leaf alone omitted for physical plausibility; one natural practical house source. Ingredient saucer supports, does not replace two person traces.
+
+System imagegen skill and both complete required references reread; current persona image system, full application DESIGN, parallel plan, production checkpoint README, calibration continuation/status and applied-summary read completely (truncation repaired by chunks). Three actual house pilot wide+portrait pairs and two batch04 masters inspected at original size. Root owns export/integration; browser deferred, not passed. Draft/tagline do not block settled photography; no editorial/source changes.

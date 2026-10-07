@@ -60,7 +60,7 @@ Nobody sees the part that comes later. When everyone's safe and home, your hands
 
 **yours**
 
-1. The hospice on the Great St Bernard Pass has been run by canons since the eleventh century, and they and their servants went out into the snow to find travellers who were lost. Over time they began taking dogs with them. The picture everyone knows is a dog with a little barrel of brandy on its collar. That's a legend. The dogs' real work was plainer: finding the way back to the hospice through a blizzard.
+1. The hospice on the Great St Bernard Pass has been run by canons since the eleventh century, and they and their servants went out into the snow to find travellers who were lost. Over time they began taking dogs with them. The picture everyone knows is a dog with a little barrel of brandy on its collar. It's a lovely picture, and almost certainly a legend. The dogs' real work was plainer: finding the way back to the hospice through a blizzard.
 
 2. The most famous of them was Barry. He is said to have helped rescue forty people. There's a story that he was killed by a French soldier who mistook him for a wolf, and the museum in Bern that keeps him calls that a legend too. What's on record is quieter. Barry retired for his last two years, was brought to Bern at the prior's request, and died there in 1814.
 

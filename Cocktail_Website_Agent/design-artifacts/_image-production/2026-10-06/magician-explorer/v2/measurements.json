@@ -1,0 +1,88 @@
+{
+  "pairing": "magician-explorer",
+  "pour": "One More Adjustment",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-explorer/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-a870fb6f-4c6b-474e-b71d-44ee43b5052d.png",
+  "masterDimensions": {
+    "width": 1602,
+    "height": 981
+  },
+  "sourceSha256": "c4738116a08e3c86fba9dc4c1b6884298e4bfa45f2dd75836aa40c463fd85f34",
+  "specSha256": "f171ba936d57ac7df4a7c386da9e9d472e802c1dcd80e069195894341be1729d",
+  "wideCrop": [
+    0,
+    40,
+    1600,
+    900
+  ],
+  "portraitCrop": [
+    730,
+    20,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1218,
+    "cy": 494,
+    "w": 140,
+    "angle": 15.7
+  },
+  "glass": {
+    "x": 1033,
+    "y": 385
+  },
+  "bounds": {
+    "glass": {
+      "x0": 925,
+      "y0": 321,
+      "x1": 1141,
+      "y1": 642
+    },
+    "paper": {
+      "x0": 1106,
+      "y0": 433,
+      "x1": 1306,
+      "y1": 562
+    }
+  },
+  "personalityBounds": {
+    "handPlane": {
+      "x0": 842,
+      "y0": 434,
+      "x1": 1027,
+      "y1": 608
+    },
+    "sandingBlock": {
+      "x0": 1042,
+      "y0": 523,
+      "x1": 1210,
+      "y1": 608
+    }
+  },
+  "recognitionRegions": {
+    "handPlane": {
+      "x0": 842,
+      "y0": 434,
+      "x1": 1027,
+      "y1": 608
+    },
+    "sandingBlock": {
+      "x0": 1042,
+      "y0": 523,
+      "x1": 1210,
+      "y1": 608
+    }
+  },
+  "review": {
+    "recipe": "Settled chilled coupe, clear pale-straw still cocktail, single pale yellow lemon strip dropped inside; no serving ice or foam. Bowl chill haze is source-brief compatible but speckle is a visual risk.",
+    "personality": "Two ordinary full-size shelf-adjustment tools inferred from explicit whoYouAre shelf: hand plane and sanding block. Both recognisable. No notebook/alchemy/copper props.",
+    "world": "Historic private wood room, neutral dark left. Table mostly flat but broad warm glossy highlights remain; no etched glass.",
+    "issues": [
+      "Actual edited raster is 1602x981, not requested 16:9; proposed wide crop is 1600x900.",
+      "Recognisable union 464px exceeds moving-phone breathing window; full portrait retention is not phone PASS.",
+      "Usable blank tag axis about 140px, below requested 170–200px.",
+      "Fine bowl chill speckle/haze persists; right table remains warm/glossy. No additional correction allowed."
+    ]
+  },
+  "status": "measured-master-candidate; held; not-accepted; browser-deferred"
+}

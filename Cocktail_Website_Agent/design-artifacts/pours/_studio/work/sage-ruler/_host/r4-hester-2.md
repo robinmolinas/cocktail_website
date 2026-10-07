@@ -1,0 +1,5 @@
+📜 **Hester:** Confirmed on the files as they stand. H8 is in reading v3, y1, word for word, and the Notes row matches. Between v2 and v3 nothing else changed in the guest text (I diffed the two files). Draft v1.3 still has the H5 note and the closing line I passed. "We don't know why" stays, and that's fine on fact. Every claim in the pour is sourced on the card, or signposted ("I like to think") or the guest's own. Audit v2 stands as the final audit, H1–H8 all landed. One thing for Robin is carried in the card, not the reading: the casks line rests on Oxford's description of Barnard's book, and the book itself isn't in the library (gap noted in `fact-cards/alfred-barnard.md`).
+
+**My name for the vote: *Note to Self*.** It's the reading's own position: put yourself in the notes. It sits well with the closing line's hunch in the margin. And it claims nothing about Barnard. *Fair Copy* is a fine name, but a clean, corrected copy is what his book isn't, since it has the gap, and what y5 asks the guest not to settle for.
+
+I'd put my name to this.

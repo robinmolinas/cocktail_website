@@ -1,0 +1,93 @@
+{
+  "pairing": "ruler-sage",
+  "pour": "Either Way",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-sage/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-e98c7d45-988c-4c42-bc28-e13550645caf.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "5bc42d75fdec3cfd6eee31bd6554a3ba462b72b5b46882b48fee9acc4e75c599",
+  "sourceSha256": "4de73d5095393231e20e0ccac3a6bcd69f6f61c771fb4d69a6064e76e6dc609f",
+  "specSha256": "c0050505176646a233e63e56a4decd104ae44f5c2ef81e3d720e8bd3491e1424",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    915,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1475,
+    "cy": 504,
+    "w": 238,
+    "angle": 74
+  },
+  "glass": {
+    "x": 1183,
+    "y": 468
+  },
+  "bounds": {
+    "glass": {
+      "x0": 970,
+      "y0": 210,
+      "x1": 1397,
+      "y1": 727
+    },
+    "paper": {
+      "x0": 1370,
+      "y0": 340,
+      "x1": 1568,
+      "y1": 654
+    },
+    "phone": {
+      "x0": 554,
+      "y0": 476,
+      "x1": 990,
+      "y1": 631
+    },
+    "spectacles": {
+      "x0": 618,
+      "y0": 399,
+      "x1": 982,
+      "y1": 548
+    }
+  },
+  "recognitionRegions": {
+    "phone": {
+      "bounds": {
+        "x0": 555,
+        "y0": 478,
+        "x1": 982,
+        "y1": 629
+      },
+      "reason": "Whole substantial screen-down unbranded phone back/edge/port contour; not cropped anonymous black strip."
+    },
+    "spectacles": {
+      "bounds": {
+        "x0": 619,
+        "y0": 400,
+        "x1": 975,
+        "y1": 548
+      },
+      "reason": "Two lens rims/bridge and folded temples, right lens partially occluded by glass but materially recognizable spectacles."
+    }
+  },
+  "review": {
+    "recipe": "Clear amber warm-brown Scotch built with dissolved malt syrup, several fresh ice cubes, ONE orange strip dropped inside skin out, no foam/rim. Correct recipe but highly crystalline sparkling ice.",
+    "personality": "Screen-down phone and separate folded spectacles present, phone from repeating friends' calls; glasses attentive-review inference not biography, generic reflective-listening specificity watch.",
+    "world": "Walnut private dark room, one warm right practical; broad orange reflections and glass/ice jeweled detail hold.",
+    "issues": [
+      "Glass517px high grossly over280–330 target.",
+      "Full group1014px (554–1568), recognition1013px; proposed702 portrait clips both personal objects.",
+      "Glass/paper598px also exceeds moving-phone window.",
+      "Tag238px at74° has generous axis but vertical field/name placement untested.",
+      "Dense crystalline ice/glass highlights and glossy amber table hold."
+    ]
+  }
+}

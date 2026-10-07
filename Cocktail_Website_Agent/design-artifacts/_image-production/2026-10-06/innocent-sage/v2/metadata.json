@@ -1,0 +1,302 @@
+{
+  "pairing": "innocent-sage",
+  "pour": "Just So You Know",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "722810a4da6d35f35c0766d9f5fb9998f4d0f554a9d4980a714ecffde46477a3",
+  "review": {
+    "recipe": "Single narrow small stemmed sour glass; cloudy pale golden bourbon/lemon sour, tiny bubble ring, bare rim no ice/garnish/egg-white foam.",
+    "personality": "Crumb discreetly removed onto napkin, facedown handled hand mirror, source's private considerate correction at dinner. Lemon shell and worn muddler support method. Recomposition brings traces together and shrinks glass.",
+    "world": "Historic walnut reading room, burgundy chair, single warm right lamp; neutral deep surround and observed texture.",
+    "issues": []
+  },
+  "measurements": {
+    "pour": "Just So You Know",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-sage/v2/master.png",
+    "sourceSha256": "722810a4da6d35f35c0766d9f5fb9998f4d0f554a9d4980a714ecffde46477a3",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      802,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1041,
+      "cy": 592,
+      "w": 111,
+      "angle": 13
+    },
+    "glass": {
+      "x": 941,
+      "y": 405
+    },
+    "bounds": {
+      "glass": {
+        "x0": 823,
+        "y0": 304,
+        "x1": 1066,
+        "y1": 720
+      },
+      "paper": {
+        "x0": 948,
+        "y0": 540,
+        "x1": 1111,
+        "y1": 646
+      }
+    },
+    "review": {
+      "recipe": "Single narrow small stemmed sour glass; cloudy pale golden bourbon/lemon sour, tiny bubble ring, bare rim no ice/garnish/egg-white foam.",
+      "personality": "Crumb discreetly removed onto napkin, facedown handled hand mirror, source's private considerate correction at dinner. Lemon shell and worn muddler support method. Recomposition brings traces together and shrinks glass.",
+      "world": "Historic walnut reading room, burgundy chair, single warm right lamp; neutral deep surround and observed texture.",
+      "issues": []
+    },
+    "pairing": "innocent-sage",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-11659b9e-90fe-4685-ad19-d90fd1c534a1.png"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1195.4066985645934,
+        "cy": 680.1702127659574,
+        "w": 127.46411483253588,
+        "angle": 13.00667982457966
+      },
+      "glass": {
+        "x": 1080.5741626794259,
+        "y": 465.3191489361702
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 305.048433048433,
+        "cy": 755.7446808510639,
+        "w": 141.67521367521368,
+        "angle": 13.002385692924628
+      },
+      "glass": {
+        "x": 177.41310541310543,
+        "y": 517.0212765957447
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/innocent-sage/portrait.jpg",
+    "wide": "/personas/innocent-sage/wide.jpg",
+    "wideTag": {
+      "cx": 0.6226076555023924,
+      "cy": 0.6297872340425532,
+      "w": 0.06638755980861244,
+      "angle": 13.00667982457966
+    },
+    "wideGlass": {
+      "x": 0.562799043062201,
+      "y": 0.4308510638297872
+    },
+    "tag": {
+      "cx": 0.34045584045584043,
+      "cy": 0.6297872340425532,
+      "w": 0.1581196581196581,
+      "angle": 13.002385692924628
+    },
+    "glass": {
+      "x": 0.198005698005698,
+      "y": 0.4308510638297872
+    }
+  },
+  "hashes": {
+    "master": "0fefbacf9aa88de4deda3f089b437982c3a5df5ef498ed31651129a54d67a5ad",
+    "wide": "55a48f4a7f37ef4cbaf96ad4f3859e4e1399c166d770706242355ff9ccc786c2",
+    "portrait": "93ad8a8cef2f9c52865f2c36b26092a001d6680d71e9bb0b8a746d85a4658bab"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 945.0717703349283,
+          "y0": 349.2765957446809,
+          "x1": 1224.1148325358852,
+          "y1": 827.2340425531914
+        },
+        "paper": {
+          "x0": 1088.6124401913876,
+          "y0": 620.4255319148937,
+          "x1": 1275.7894736842106,
+          "y1": 742.2127659574469
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 707.5598086124402,
+          "y0": 291.06382978723406,
+          "x1": 940.0956937799043,
+          "y1": 689.3617021276596
+        },
+        "paper": {
+          "x0": 827.1770334928229,
+          "y0": 517.0212765957448,
+          "x1": 983.1578947368421,
+          "y1": 618.5106382978723
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1008.0765550239234,
+          "y0": 319.2017021276596,
+          "x1": 1305.7224880382776,
+          "y1": 829.0229787234042
+        },
+        "paper": {
+          "x0": 1161.1866028708134,
+          "y0": 608.4272340425532,
+          "x1": 1360.842105263158,
+          "y1": 738.3336170212766
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1693.2535885167465,
+          "y0": 398.0872340425532,
+          "x1": 2193.2057416267944,
+          "y1": 1254.427659574468
+        },
+        "paper": {
+          "x0": 1950.4306220095693,
+          "y0": 883.8957446808511,
+          "x1": 2285.7894736842104,
+          "y1": 1102.0978723404255
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.198005698005698,
+        "y": 0.4308510638297872
+      },
+      "bounds": {
+        "glass": {
+          "x0": -28.706590693257372,
+          "y0": 272.9531914893617,
+          "x1": 189.43494776828112,
+          "y1": 646.468085106383
+        },
+        "paper": {
+          "x0": 83.50613485280151,
+          "y0": 484.8510638297873,
+          "x1": 229.83152896486234,
+          "y1": 580.0255319148937
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.198005698005698,
+        "y": 0.4308510638297872
+      },
+      "bounds": {
+        "glass": {
+          "x0": -31.831073124406455,
+          "y0": 301.4127659574468,
+          "x1": 209.05508072174737,
+          "y1": 713.8723404255318
+        },
+        "paper": {
+          "x0": 92.0815574548908,
+          "y0": 535.4042553191489,
+          "x1": 253.6636277302944,
+          "y1": 640.5021276595744
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.198005698005698,
+        "y": 0.4308510638297872
+      },
+      "bounds": {
+        "glass": {
+          "x0": -7.926761633428303,
+          "y0": 183.69361702127662,
+          "x1": 138.87939221272555,
+          "y1": 435.06382978723406
+        },
+        "paper": {
+          "x0": 67.5908072174739,
+          "y0": 326.29787234042556,
+          "x1": 166.06571699905035,
+          "y1": 390.34893617021277
+        }
+      }
+    }
+  ]
+}

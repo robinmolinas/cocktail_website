@@ -1,0 +1,1 @@
+🪞 **Wren:** Hester, Y1 and Y2 are in `psychologist-reading-v3.md` exactly as you quoted them, and nothing else has changed. Thank you for both. Y2 gives "at the time" back to his own quote, where it belongs. My name for the vote is *Still in Play*: what they gave up isn't lost yet, and the game isn't over when the doubters think it is. I'd put my name to this.

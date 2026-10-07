@@ -1,0 +1,26 @@
+{
+ "pairing": "magician-hero",
+ "personality": "The Good Wizard",
+ "archetypes": "Magician × Hero",
+ "date": "2026-10-04",
+ "batch": "magician",
+ "name": "Worth the Trade",
+ "tagline": "Everyone remembers that you saved it. You remember what you had to change.",
+ "epigraph": "Cognac was replanted on a rootstock from Texas. The grape that couldn't follow is here too.",
+ "glassware": "old-fashioned glass (rocks glass, about 300 ml), one large ice cube",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "cognac-phylloxera-folle-blanche.md",
+ "language_row": "Wren's Resonance (v2) and 4-gram check: every paragraph clean against all pours after the last edit (moved off \"over one large cube\", \"a single big cube\", \"one big block of ice\", \"one large ice cube\", \"brandy, as a nod\", \"again, as a nod\", \"Old-Fashioned, the classic of\"); the r3 lint \"we\" fixed; \"I\" only; no guest pronouns, archetype names or magic words; \"The cocktail I've made for you\". Fences: no verjus and no \"the grape's own\" acid (*Are You Quite Sure?*), no cassis or Burgundy (*Before the Room*), no Cognac cellar walls (*The First Guess*), *Up Close*'s \"still there\" kept off. History about 150 of 358 words (a little over 40%). Lint 0 errors, 0 warnings. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/cognac-phylloxera-folle-blanche.md` (F1–F11, M1–M8, C1–C8, G1–G5): *Oxford Companion to Spirits and Cocktails* COGNAC pdf 544–546, ARMAGNAC pdf 137–139, FLOC DE GASCOGNE pdf 818, UGNI BLANC/TREBBIANO pdf 2199, 931, 879, HIGHBALL pdf 1005, FERMENTATION pdf 765–766; *Joy of Mixology* pdf 419 (cognac's grape law); Robert C. Overfelt, \"Munson, Thomas Volney\", *Handbook of Texas* (TSHA, read 2026-10-04, secondary, dossier only); archive.org OCR fragments O1–O4 (leads only). Craft: *Cocktail Codex* pp. 47, 104 (Old-Fashioned root, split base); *Liquid Intelligence* pdf 140 (values; straight spirits carry \"minimal titratable acid\"); *Flavor Matrix* GRAPES pdf 140. Audits: `work/magician-hero/historian-audit-v1.md`, `-v2.md`. Room notes: `work/magician-hero/`.",
+ "names_note": "**Worth the Trade**, the room's pick (all three, r4): the save was worth it and wasn't free, the person's whole stance, with no grapes, magic or rescue in it. Wren moved off *Still There* (it sits next to *Up Close*'s \"still there\", Hester's N1); Hester moved off *On New Roots* (it carries the rescue and nothing of the cost, Wren). Also considered: *The Right Call*, *New Roots*, *Both Kept*. Dossier note: reading v2's title block still shows Wren's held pick *Still There*; the name is the room's vote.",
+ "open_items": [
+  "**Story replaced in r1:** Wren set aside the plan's lead (Taylor and Bottled-in-Bond: a lobbied law reads as the Ruler's) for Cognac's replanting after phylloxera (Oxford COGNAC pdf 545–546). Add a \"room chose …\" note to the plan row if Robin keeps it.",
+  "**Nobody named, no year:** Oxford names no finder of Cognac's rootstock, only \"more than ten years\" and Texas. T. V. Munson (with Hermann Jaeger) is credited in the *Handbook of Texas* for European wine in general, never Cognac by name, so he stays in the dossier (C1, M5–M6). The louse's arrival year conflicts inside Oxford (C7): none given.",
+  "**Folle Blanche made way, never \"lost\":** its tight bunches rotted when grafted (pdf 545); it's still about 5% of Armagnac, still allowed in cognac, and a parent of baco blanc (C3–C4). Cognac was never restored to its 1870s size (C8).",
+  "**The bottle a guest hunts for:** young Armagnac labelled Folle Blanche, a style with no brand (no library page names one, G1); ordinary and blanche Armagnac aren't Folle Blanche by default. The recipe tells the guest any young Armagnac gives the same balance but may hold little or none of it. Gascony's other name for the grape is never printed (G2).",
+  "**Spark: gooseberry, not verjus.** Verjus was withdrawn in r3 because *Are You Quite Sure?* already uses it in a grape-brandy drink (G4). \"Acid doesn't distil\" stays out of the reading (G5). Acid sits on the top edge of the stirred band (0.140%); balance is proved on swept, unsourced values for the two new rows `folle_blanche_armagnac` and `gooseberry_syrup` (no allergens). Gooseberries are seasonal; frozen work.",
+  "**One large cube, no bitters:** keeps it apart from *Kept* (Armagnac Old-Fashioned, ordinary cubes) and *Hoping You'd Come* (cognac Old-Fashioned); no bitters so the Folle Blanche's flower stays heard (Tomás's craft call)."
+ ]
+}

@@ -1,0 +1,99 @@
+{
+  "pairing": "ruler-caregiver",
+  "pour": "Go On",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-caregiver/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-917612bb-9e5a-4a81-a49c-07b4a69ebcf0.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "cf6cc557429b53ce8cb62ef73236f6cf3f35ba42160c03ceb68ace8466ffcae5",
+  "specSha256": "3519d83b234b494b40c7b9b1341c34021b7f2ba1241fdea2aefb96361a245168",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    760,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1009,
+    "cy": 647,
+    "w": 205,
+    "angle": -6.16
+  },
+  "tagWritingAxis": {
+    "start": [
+      907,
+      658
+    ],
+    "end": [
+      1111,
+      636
+    ],
+    "note": "Conservative clean axis excludes punched-hole end and margins;205px approximately."
+  },
+  "glass": {
+    "x": 1201,
+    "y": 459
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1071,
+      "y0": 377,
+      "x1": 1331,
+      "y1": 760
+    },
+    "paper": {
+      "x0": 880,
+      "y0": 584,
+      "x1": 1172,
+      "y1": 704
+    }
+  },
+  "personalityBounds": {
+    "pulledUpChair": {
+      "x0": 914,
+      "y0": 273,
+      "x1": 1245,
+      "y1": 615
+    },
+    "drapedCardigan": {
+      "x0": 825,
+      "y0": 264,
+      "x1": 1088,
+      "y1": 656
+    }
+  },
+  "recognitionRegions": {
+    "pulledUpChairBackAndSeat": {
+      "x0": 923,
+      "y0": 279,
+      "x1": 1245,
+      "y1": 611
+    },
+    "drapedCardigan": {
+      "x0": 825,
+      "y0": 264,
+      "x1": 1088,
+      "y1": 656
+    }
+  },
+  "review": {
+    "recipe": "Finished still clear deep amber-red cognac Manhattan, no serving ice/foam; one thin mandarin-coloured strip dropped inside. Colour/vessel visually plausible; no historical volume/fruit identity proof from pixels.",
+    "personality": "Full-size recognizable pulled-up chair comes directly from whoYouAre; olive cardigan is ordinary inferred comfort/listening habit, not literal biography. Source old empty waiting-glass brief reconciled to finished serve. Chair is occluded naturally by counter and glass, but substantial shaped back/seat retained, not anonymous edge.",
+    "world": "Near-black historic room, burgundy/olive/cream and one diffuse out-of-frame practical. Fireplace flame removed. Table far less crackled and layout closer than v1, but warm sheen/remaining repeated fine surface detail persist.",
+    "issues": [
+      "Glass383px exceeds280–330px intent; complete and conservative recognition union506px (825–1331) exceeds350–380px intent/estimated389px moving-phone window. Full702px proposed portrait retains visible complete group, not phone/motion evidence.",
+      "Clean205px writing axis achieves intended range, but actual short/long names in loaded font are untested. Broad face is separate from vessel and cord/hole continuous; one lower corner naturally rests on tabletop rather than a pasted glass label.",
+      "Chair and cardigan are source-grounded/inferred hospitality/listening evidence but could read generic quiet comfort without source; personality-specificity watch.",
+      "Walnut flatter than initial alligator varnish, but still warm reflective/microtextured; polished stem/foot and oversaturated red liquid need later material/appearance judgement. Single focused correction exhausted."
+    ]
+  },
+  "status": "measured-master-candidate;held;not-accepted;browser-deferred"
+}

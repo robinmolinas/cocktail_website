@@ -1,0 +1,302 @@
+{
+  "pairing": "jester-creator",
+  "pour": "For Kicks",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "3ee01989500824c123a6468224e41febcf7af2ecd0c598ec1a965e0f6597d937",
+  "review": {
+    "recipe": "Single pale cloudy gold Cameron's Kick in coupe, exactly three whole coffee beans on thin natural shake froth; no espresso colour, ice, citrus garnish.",
+    "personality": "Worn closed pocket book and habitual frayed magenta scarf with small repaired pin imply a kept personal ritual, without cartoon insect. V2 groups them close and gives smaller serve.",
+    "world": "Walnut historic reading-room bar, burgundy chair, one warm right practical lamp, neutral near-black left; no neon/magenta backdrop.",
+    "issues": []
+  },
+  "measurements": {
+    "pour": "For Kicks",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-creator/v2/master.png",
+    "sourceSha256": "3ee01989500824c123a6468224e41febcf7af2ecd0c598ec1a965e0f6597d937",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      850,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1321,
+      "cy": 652,
+      "w": 119,
+      "angle": 20
+    },
+    "glass": {
+      "x": 1213,
+      "y": 402
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1061,
+        "y0": 302,
+        "x1": 1367,
+        "y1": 742
+      },
+      "paper": {
+        "x0": 1213,
+        "y0": 578,
+        "x1": 1406,
+        "y1": 720
+      }
+    },
+    "review": {
+      "recipe": "Single pale cloudy gold Cameron's Kick in coupe, exactly three whole coffee beans on thin natural shake froth; no espresso colour, ice, citrus garnish.",
+      "personality": "Worn closed pocket book and habitual frayed magenta scarf with small repaired pin imply a kept personal ritual, without cartoon insect. V2 groups them close and gives smaller serve.",
+      "world": "Walnut historic reading-room bar, burgundy chair, one warm right practical lamp, neutral near-black left; no neon/magenta backdrop.",
+      "issues": []
+    },
+    "pairing": "jester-creator",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-ae16676c-519c-4066-b9e9-71cdc6923336.png"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1516.9377990430623,
+        "cy": 749.1063829787234,
+        "w": 136.65071770334927,
+        "angle": 20.00979434185077
+      },
+      "glass": {
+        "x": 1392.9186602870814,
+        "y": 461.87234042553195
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 601.1623931623931,
+        "cy": 832.3404255319149,
+        "w": 151.8860398860399,
+        "angle": 20.003498119178207
+      },
+      "glass": {
+        "x": 463.3162393162394,
+        "y": 513.1914893617021
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/jester-creator/portrait.jpg",
+    "wide": "/personas/jester-creator/wide.jpg",
+    "wideTag": {
+      "cx": 0.7900717703349283,
+      "cy": 0.6936170212765957,
+      "w": 0.07117224880382775,
+      "angle": 20.00979434185077
+    },
+    "wideGlass": {
+      "x": 0.7254784688995215,
+      "y": 0.4276595744680851
+    },
+    "tag": {
+      "cx": 0.6709401709401709,
+      "cy": 0.6936170212765957,
+      "w": 0.16951566951566951,
+      "angle": 20.003498119178207
+    },
+    "glass": {
+      "x": 0.5170940170940171,
+      "y": 0.4276595744680851
+    }
+  },
+  "hashes": {
+    "master": "f021f9a36b29cf9a119a7f9304d707dfaea1af794b32c7c8bcf9aa791d486cf7",
+    "wide": "29054fe5d9bc17985d5ee701a51fd2e4438e939390c7637abf7fb0429155eb59",
+    "portrait": "d21ee34f2b084a0cc17f908fa4fe1e7acf3ebb20c8b4929e4d91612343f1be17"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1218.3732057416269,
+          "y0": 346.97872340425533,
+          "x1": 1569.7607655502393,
+          "y1": 852.5106382978723
+        },
+        "paper": {
+          "x0": 1392.9186602870814,
+          "y0": 664.0851063829788,
+          "x1": 1614.5454545454545,
+          "y1": 827.2340425531914
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 935.3110047846891,
+          "y0": 289.1489361702128,
+          "x1": 1228.1339712918661,
+          "y1": 710.4255319148936
+        },
+        "paper": {
+          "x0": 1080.7655502392345,
+          "y0": 553.404255319149,
+          "x1": 1265.4545454545455,
+          "y1": 689.3617021276596
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1299.598086124402,
+          "y0": 316.75063829787234,
+          "x1": 1674.4114832535886,
+          "y1": 855.9846808510638
+        },
+        "paper": {
+          "x0": 1485.77990430622,
+          "y0": 654.9974468085107,
+          "x1": 1722.1818181818182,
+          "y1": 829.0229787234042
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2182.9186602870814,
+          "y0": 393.9702127659574,
+          "x1": 2812.4880382775123,
+          "y1": 1299.7148936170213
+        },
+        "paper": {
+          "x0": 2495.645933014354,
+          "y0": 962.1191489361702,
+          "x1": 2892.727272727273,
+          "y1": 1254.427659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5170940170940171,
+        "y": 0.4276595744680851
+      },
+      "bounds": {
+        "glass": {
+          "x0": 65.21599240265905,
+          "y0": 271.15744680851066,
+          "x1": 339.91274453941116,
+          "y1": 666.2212765957447
+        },
+        "paper": {
+          "x0": 201.6666666666667,
+          "y0": 518.9702127659575,
+          "x1": 374.9231149097816,
+          "y1": 646.468085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5170940170940171,
+        "y": 0.4276595744680851
+      },
+      "bounds": {
+        "glass": {
+          "x0": 71.6726685660019,
+          "y0": 299.4297872340426,
+          "x1": 375.0107882241216,
+          "y1": 735.6851063829786
+        },
+        "paper": {
+          "x0": 222.35042735042734,
+          "y0": 573.0808510638298,
+          "x1": 413.6715289648623,
+          "y1": 713.8723404255318
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5170940170940171,
+        "y": 0.4276595744680851
+      },
+      "bounds": {
+        "glass": {
+          "x0": 73.64072174738843,
+          "y0": 182.48510638297873,
+          "x1": 258.50773029439694,
+          "y1": 448.35744680851064
+        },
+        "paper": {
+          "x0": 165.47008547008548,
+          "y0": 349.25957446808513,
+          "x1": 282.06921177587844,
+          "y1": 435.06382978723406
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+- **The persona:** the Architect sees what holds a thing up before it exists, and can't trust anything that only looks sound.
+- **Story:** the plan's lead, kept: the Kentucky rickhouse, no person, whose wooden racks are the building's frame, with a skin of brick, wood or tin that takes none of the weight (Wren: accept, with conditions, r1). Runner-up: the plan's backup, Glenmorangie's replica stills, not opened.
+- **Drink:** a bourbon Old-Fashioned served up in a chilled small coupe, with water measured in advance instead of ice. The spark is inside the sugar: popcorn-steeped demerara syrup (*Flavor Matrix* Corn chart), so the corn nobody sees is in the frame of the drink, and the peel, the only thing on show, is orange or lemon, whichever you have. Veto-free; balance freeform, justified in Checks (28.0%).
+- **Versions:** reading v1 → v3 (audit fixes; notes-only N1–N2 landed by Wren as a lint-only fix after the sign-offs); draft through Hester's A1–A8 (r3) and T1–T4 (r4). A closing-line crossing (Wren had accepted Tomás's r3 line; the draft carried his step-1 line) was settled by Tomás as owner, and Wren confirmed her sign-off stood.
+- **"This is me":** *"By the time you say 'that'll work', you've already watched it fall down a dozen ways."*
+- **Names:** *What It Rests On* (Wren, Tomás) over *Nothing Shows* (Hester), *That'll Work*, *Sound All Through*, *Already Tested*, *Worked Out*. 2–1.
+- **Edges / flags:** none. Oxford's rack heights disagree between pages (no count in guest text).
+- **Rule candidates:** none raised.
+- 4 rounds, round 4 in four steps.

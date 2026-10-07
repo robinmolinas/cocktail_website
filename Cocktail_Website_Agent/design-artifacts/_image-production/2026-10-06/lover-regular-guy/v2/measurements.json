@@ -1,0 +1,91 @@
+{
+  "pairing": "lover-regular-guy",
+  "pour": "Any Day",
+  "sourceSha256": "d82beb0761a6a62567eb5ade4d83638c805102a63a8f413c7673659f57502d58",
+  "wideCrop": [
+    0,
+    0,
+    1670,
+    940
+  ],
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-regular-guy/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-37b1db96-248d-44b0-bd87-e4c23414ccae.png",
+  "masterDimensions": [
+    1670,
+    941
+  ],
+  "masterSha256": "b696d5b9013a098e5319ae10fdd4fb17a4d2a9b2b31b6855cd7516d02d38ff74",
+  "portraitCrop": [
+    760,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1069,
+    "cy": 521,
+    "w": 136,
+    "angle": -1.5
+  },
+  "glass": {
+    "x": 991,
+    "y": 483
+  },
+  "bounds": {
+    "glass": {
+      "x0": 873,
+      "y0": 337,
+      "x1": 1110,
+      "y1": 629
+    },
+    "paper": {
+      "x0": 968,
+      "y0": 485,
+      "x1": 1149,
+      "y1": 555
+    },
+    "workGlove": {
+      "x0": 1098,
+      "y0": 385,
+      "x1": 1317,
+      "y1": 616
+    },
+    "adjustableWrench": {
+      "x0": 1098,
+      "y0": 415,
+      "x1": 1257,
+      "y1": 512
+    }
+  },
+  "recognitionRegions": {
+    "workGlove": {
+      "bounds": {
+        "x0": 1104,
+        "y0": 388,
+        "x1": 1310,
+        "y1": 611
+      },
+      "reason": "Glove crown/palm and clearly attached bent thumb/two finger shapes; retaining only a left leather sliver is not glove recognition."
+    },
+    "adjustableWrench": {
+      "bounds": {
+        "x0": 1110,
+        "y0": 426,
+        "x1": 1255,
+        "y1": 512
+      },
+      "reason": "Fixed jaw, adjustable moving jaw and actual worm wheel attached to the neck; short handle extends behind glass."
+    }
+  },
+  "review": {
+    "recipe": "Heavy plain rocks glass; one ordinary cloudy broad-faced rounded freezer cube; hazy amber bourbon/lemon/light-honey sour with only thin fine honey bubble ring, no thick foam, egg or garnish. Settled 60/22.5/15 ml 3:1 syrup formula unchanged. Visible colour is somewhat warm rather than very pale.",
+    "personality": "Real glove fingers and adjustable jaw/worm-wheel wrench remain readable and compacted behind glass, but whole trace cluster is 444 px, wider than about 389 px moving-phone cover. Whole glass+paper+honest trace recognition union remains 437 px; no anonymous fragment substituted.",
+    "world": "Dark walnut room, single right practical lamp, quiet left. Ordinary cloudy ice and simple glass avoid etched-ropy motifs; long-grain wood has a broad warm reflective area and leather is heavily distressed. Candid material watch remains.",
+    "issues": [
+      "Whole bounds union x873–1317 is 444 px, exceeding roughly 434 px static 390×844 cover and about 389 px breathing crop.",
+      "Recognition union x873–1310 is 437 px; both glove and entire glass cannot be guaranteed in moving-phone cover.",
+      "Phone retention/browser/name-overlay not verified; browser review deferred by user.",
+      "Warm broad table reflection and glove microtexture may still be too glossy/busy for final material gate."
+    ]
+  }
+}

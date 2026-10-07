@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Auteur (creator-ruler)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D14 ("whatever you recommend": change only creator-ruler's ¶1, the creator review's fix; ruler-creator untouched); queue routine items.
+- **Edits** (before → after, short): whoYouAre ¶1 (D14): "You can tell in a second when something is slightly off: the one wrong word on a page, the lamp in the wrong corner, the thing nobody else would ever notice. And you can't leave it. You send it back…" → "You have the picture before anything starts: how the evening runs, how the room looks, what comes first and what comes last. After that, every piece has to match it, and you can't leave one that doesn't. You send it back…". **Editor's note:** the review's wording opened "You see the whole thing before anyone else has seen a part of it", which echoes the approved sibling *Down the Line* (creator-hero: "You see the finished thing first. Long before anyone else can…"); I changed only that first clause, kept the rest as the review wrote it. Robin can swap the review's exact wording back in. whoYouAre ¶2 (D14, same proposal, so the tagline is no longer repeated word for word): "you'd rather be blamed for all of it than praised for part of it" → "it's the whole of it you care about, never only your part" (tagline unchanged). method 2 (Q106): "Stir a spoon of honey into a spoon of warm water… Let it cool." → "Stir a teaspoon of honey into a teaspoon of warm water… Let it cool. You'll use 7.5 ml."
+- **Left for Robin:** none (ruler-creator's own ¶1 fix stays optional, per D14).
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (v1) · [x] drink + four checks (v1) · [x] reading (v2) · [x] fact audit (v1 on reading v2: 4 fixes, 3 softenings open) · [x] resonance test (v3: ready) · [x] names (≥3 + pick) (Making the Calls, all three; ticked round 5) · [x] image brief
 - **Last change to the pour:** round 7

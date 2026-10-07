@@ -1,0 +1,109 @@
+{
+  "pairing": "jester-ruler",
+  "pour": "Don't Look at Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-ruler/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-a6ef38e5-75fb-4521-8181-e48a79c69ec3.png",
+  "sourceSha256": "1327b36d87fb9db6d73f63fdc0af51853290c2bf1b36ad8735bd92ec4645eb22",
+  "specSha256": "1102c953b4ceb43568c0f2325d85979dde89b57f597df5468610b14be9d3d38a",
+  "masterSha256": "05a288e79f8fe4075dd61b48f54477edba752f7916b3f75326521bc78afd2bf3",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    960,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1220,
+    "cy": 680,
+    "w": 78,
+    "angle": 71
+  },
+  "glass": {
+    "x": 1093,
+    "y": 549
+  },
+  "bounds": {
+    "glass": {
+      "x0": 960,
+      "y0": 382,
+      "x1": 1225,
+      "y1": 737
+    },
+    "paper": {
+      "x0": 1187,
+      "y0": 617,
+      "x1": 1255,
+      "y1": 732
+    }
+  },
+  "personBounds": {
+    "chairScarf": {
+      "x0": 1000,
+      "y0": 203,
+      "x1": 1633,
+      "y1": 577
+    },
+    "napkin": {
+      "x0": 1211,
+      "y0": 510,
+      "x1": 1672,
+      "y1": 684
+    }
+  },
+  "recognitionRegions": {
+    "chairScarf": {
+      "x0": 1234,
+      "y0": 203,
+      "x1": 1633,
+      "y1": 577
+    },
+    "napkin": {
+      "x0": 1226,
+      "y0": 511,
+      "x1": 1667,
+      "y1": 682
+    }
+  },
+  "traceExtentNotes": {
+    "chairScarf": "Visible chair upper structure and scarf; lower chair masked by table, invisible extent unknown.",
+    "napkin": "Right edge cropped by master; full visible bound only; unseen extent unknown."
+  },
+  "group": {
+    "fullWidth": 712,
+    "recognitionWidth": 707
+  },
+  "tagPhysics": {
+    "supportLoop": "Snug exterior lower-body curved front loop aroundy593–615; sides plausibly disappear behind glass.",
+    "knot": "Right-side visible knot near1207,609.",
+    "tether": "Short continuous descending paired strands from knot to punched hole near1210,645.",
+    "hole": "Visible paper hole around1210,645.",
+    "paper": "Small blank cream face, narrower than glass, besideglass with dark gap at lower side.",
+    "gravity": "Long axis slopes downward from hole; bottom near1252,727 appears at or very close to tabletop, exact contact not established.",
+    "assessment": "Plausible continuous support chain, no rim anchor or liquid crossing. Contact/free-hanging distinction and tiny strand occlusion remain independent-review uncertainty."
+  },
+  "review": {
+    "recipe": "Large350mltumbler, straw-gold slight haze, three apparent cubes and lime half inside, no sugar/foam/rim garnish. Lime still looks quite fresh rather than unequivocally squeezed.",
+    "personality": "Chair/scarf and used napkin remain broadly readable but generic inferences from shared-table scene; far too broad for phone core.",
+    "world": "Unrequested person/fire/multiple sources removed; historic near-black room. Timber still orange glossy scratched rather than flat neutral low-satin.",
+    "issues": [
+      "glass355px exceeds280–330target",
+      "full-visible712px/conservative707px core exceeds phone target",
+      "portrait proposal trims master-cropped napkin right",
+      "generic personality evidence",
+      "glossy amber timber and busy scarf microtexture",
+      "lime squeezed condition uncertain",
+      "tag contact/occlusion needs independent review",
+      "no export/browser/name/material/phone acceptance"
+    ]
+  }
+}

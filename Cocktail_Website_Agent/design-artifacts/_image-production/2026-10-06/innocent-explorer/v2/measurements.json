@@ -1,0 +1,84 @@
+{
+  "pairing": "innocent-explorer",
+  "pour": "The First Guess",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-explorer/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-89fabe25-56ad-4b9b-9165-86e96076e7e3.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "962714e5aa17e7a729105df73e77bc54b8e7105588b768620cbe15ff8c783080",
+  "specSha256": "c614d28e0f092ab88079ab04acb0544b3f700151fdae7c476f2d2c836e4448c5",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    674,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1188,
+    "cy": 649,
+    "w": 206,
+    "angle": 6.7
+  },
+  "glass": {
+    "x": 994,
+    "y": 444
+  },
+  "bounds": {
+    "glass": {
+      "x0": 875,
+      "y0": 235,
+      "x1": 1114,
+      "y1": 717
+    },
+    "paper": {
+      "x0": 1044,
+      "y0": 581,
+      "x1": 1314,
+      "y1": 700
+    }
+  },
+  "recognitionRegions": {
+    "pocketLens": {
+      "x0": 737,
+      "y0": 646,
+      "x1": 896,
+      "y1": 713
+    },
+    "pencil": {
+      "x0": 825,
+      "y0": 705,
+      "x1": 1006,
+      "y1": 761
+    }
+  },
+  "recipeTraceBounds": {
+    "setAsideLemonPeel": {
+      "x0": 1091,
+      "y0": 678,
+      "x1": 1244,
+      "y1": 748
+    }
+  },
+  "recognitionMethod": "Manual conservative rectangular bounds measured on the actual 1672×941 original at full size. The lens region includes the circular lens and complete short handle; the pencil region includes tip, shaft and eraser. Whole glass and paper are separate from recognition regions. The set-aside peel is a recipe trace, not one of the two person traces.",
+  "review": {
+    "recipe": "Transparent, still golden-amber cognac/white Pineau in a plain, narrowed-mouth stemmed tulip. No serving ice, foam, fruit or peppercorns inside. The expressed lemon strip is correctly set aside. Golden shade follows the current author's image brief; its exact shade is unsourced. No recipe or editorial changes.",
+    "personality": "Two small used traces are recognisable in the wide master and proposed complete portrait: pocket lens for looking again, used-eraser pencil for offering/revising a guess. The 577px glass/paper/lens/pencil union cannot fit a tall phone's approximately 434px cover window or 389px maximum-breathing window. Actual page review is deferred.",
+    "world": "Near-black historic timber room, quiet left third, plain clear glass and flat long-grain walnut. A credible warm right practical is present, but bright bowl reflections and table sheen need later material review. Upper-bowl droplets remain denser than requested. No etched filigree or writing.",
+    "issues": [
+      "Actual master candidate only; root exports and joint review follow later. No acceptance or browser PASS.",
+      "The proposed full portrait retains all essentials, but the 577px essential union exceeds approximately 434px tall-phone cover and 389px maximum-breathing width.",
+      "Complete glass/paper union is 439px, slightly wider than the tall-phone nominal window. Bounds are actual, not generic defaults.",
+      "Upper bowl retains dense uneven droplets; bright golden reflection and table sheen merit material review.",
+      "Single allowed composition correction used; no further generation in this batch."
+    ]
+  },
+  "status": "created-master-candidate; later-batch-review; not-accepted"
+}

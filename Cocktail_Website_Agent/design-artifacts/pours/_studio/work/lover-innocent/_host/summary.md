@@ -1,0 +1,9 @@
+- **The persona:** the Pure Heart loves openly on purpose: they've been hurt, they know the risk, and they decided long ago that being hurt costs less than being careful.
+- **Story:** Rita Cowan Taketsuru, who married Masataka Taketsuru in Scotland in 1920, went to Japan with him to find his whisky plans on hold, and lived in Hokkaido for the rest of their lives (Oxford TAKETSURU, NIKKA). Wren replaced the plan's lead, Cato Alexander, in round 1 (rumour-based kindness, an injustice as a mirror, a reopening that lasted a year, and he's named as the Geisha's Willard's rival). Hester passed Rita on the page in round 2, thin on limb 1: Rita has no recorded words, so her feelings are "I like to think", and two of Wren's round-1 lines were struck.
+- **The drink:** a whole-egg Flip, Japanese blended whisky (Nikka From the Barrel recommended), demerara syrup, the egg kept overnight in its shell beside dried lavender (the spark: *Codex* egg-and-lavender), chilled coupe, no nutmeg. Unchanged from v1 (round 3); round 4 changed only Checks wording.
+- **Versions that failed:** none in the drink. In the reading, "Nobody needed a sad ending" was cut (Hester: unsourced drama ending), and an audit fix that brought in "we" was reworded as a lint-only fix.
+- **"This is me":** *"You decided long ago that being hurt costs less than being careful."*
+- **Names:** *Wide Open* won 2–1 (Tomás, Hester) over Wren's *Unguarded*; also *Arrived*, *Every Time*, *All of It*, *Still Open*.
+- **Flag:** balance OUT on acid only, by structure (a Flip has no citrus; the tool judges it on egg-white sour ranges). Contains egg-white. Nikka From the Barrel's strength unsourced.
+- **Rule candidates:** none raised.
+- **Budget:** switched from the header's 5 to 4 before round 1 (no round had run); closed in 4.

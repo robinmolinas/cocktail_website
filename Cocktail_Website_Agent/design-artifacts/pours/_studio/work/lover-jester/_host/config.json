@@ -1,0 +1,25 @@
+{
+ "pairing": "lover-jester",
+ "personality": "The Flirt",
+ "archetypes": "Lover × Jester",
+ "date": "2026-10-04",
+ "batch": "lover",
+ "name": "Only Half Joking",
+ "tagline": "Every tease is a compliment. The fun is seeing who catches it.",
+ "epigraph": "Named for a friend, with one letter too many. This glass finally has jasmine in it.",
+ "glassware": "cocktail glass (about 180-200 ml), chilled",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "paul-harrington-jasmine.md",
+ "language_row": "Wren's Resonance on reading v2: ready. Lint 0 errors; the four pronoun warnings (yours 1–4: he, him, his) are Paul Harrington, never the guest, accepted by Wren in her Resonance (round 4). Harrington named wherever a 'he' could point to Matt Jasmin. No gendered words about the guest. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/paul-harrington-jasmine.md`: *A Proper Drink* pp. 54–58 (the Townhouse, the request, twenty seconds, 'a beautiful pink', the grapefruit-juice tease, the misspelling, the 1998 book); *Oxford Companion* JASMINE (pdf 1099), HARRINGTON, PAUL (pdf 971), PEGU CLUB (pdf 1491), CLASSIC COCKTAIL (pdf 473); one web visit (Berkeleyside 2017, from Oxford's bibliography for HARRINGTON). Drink: *Flavor Matrix* pdf 268, 296 (benzyl acetate: jasmine and tea). Room notes: `work/lover-jester/`.",
+ "names_note": "**Only Half Joking**, the room's vote 2–1 (Tomás and Hester; Wren voted *Your Move*): it names what is under the tease, the one true thing, without saying 'compliment'. Also considered: *Your Move* (Wren: the tease waits for an answer), *Only Teasing*, *Throw It Back*, *A Letter Too Many* (Wren), *Caught It*, *Extra E* (Tomás).",
+ "open_items": [
+  "**Spark against the plan's Claims line:** the Lover plan said the Jasmine has 'no jasmine in it', to keep off Explorer's reserved Baker backup (jasmine and frangipani). Tomás's jasmine-tea syrup puts jasmine in. Hester (audit r3, J1) ruled the line superseded: the Baker backup was never poured, the jasmine here comes from the misspelled name, and Baker is never mentioned. Room note added to `plans/lover.md`.",
+  "**The two tellings differ** (Proper p. 58 vs Oxford JASMINE pdf 1099: the year, whether Jasmin was a school friend or a customer, who said the grapefruit line). The reading keeps out the year, who teased, and the architecture school, and tells only what both allow.",
+  "**'Modern classic' is attributed:** Proper p. 55 calls it one; Oxford CLASSIC COCKTAIL (pdf 473) lists it only among candidates. The reading says it 'went on to be called' one.",
+  "**Balance EDGE on initial acid** (1.42 vs 1.40, before ice), justified in Checks: Harrington's four measures stay untouched; the finished drink is in range. The classic as printed reads OUT (very tart and dry), and the syrup is the fix.",
+  "**Jasmine tea syrup** is a new ingredient row (`jasmine_tea_syrup`), added on the safe side; no allergens. Veto-free."
+ ]
+}

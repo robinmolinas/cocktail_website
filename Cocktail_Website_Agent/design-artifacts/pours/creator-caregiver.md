@@ -65,7 +65,7 @@ What they're really holding is proof that someone looked closely at them. What y
 
 3. Coley made drinks at the Savoy for more than twenty years. Of everything she made, the only drink of hers known to survive is the one she made for one tired man. That's a coincidence, and I won't pretend it's more. But I like to think she understood what you understand: you can't really tell someone "I can see how tired you are". You can make them something, take the time it takes, and let it say that for you.
 
-4. So the cocktail I've made for you is her drink, made to measure: gin, sweet vermouth and a spoonful of Fernet, stirred with ice until it's very cold. In a small dose, the Fernet gives it depth without making it plainly bitter. Then you taste a drop off the spoon, and look up at the person it's for before you decide whether they need a little more.
+4. So the cocktail I've made for you is her drink, made to measure: gin, sweet vermouth and a barspoon of Fernet, stirred with ice until it's very cold. In a small dose, the Fernet gives it depth without making it plainly bitter. Then you taste a drop off the spoon, and look up at the person it's for before you decide whether they need a little more.
 
 5. One thing, though. You do your best work alone, out of sight, and hand it over finished. Next time you make something for someone, this or anything else, don't vanish to do it. Make it where they can see you. Let them watch you taste, look up, and add a little more because of the day they've had. They've always had what you made. Let them have you, making it.
 

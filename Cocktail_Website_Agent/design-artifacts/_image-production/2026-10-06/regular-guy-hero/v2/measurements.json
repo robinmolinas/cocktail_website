@@ -1,0 +1,94 @@
+{
+  "pairing": "regular-guy-hero",
+  "pour": "I'll Do It",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-hero/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-8583b62c-cdef-459a-925f-42d8d551a1c1.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "c2162f0605984429301bba4c22a50d78909a71a553f6551f2866f04441041150",
+  "sourceSha256": "8a8eedf0ee37331860d256c7dee3f0aa2973c5db5678743990c2c4654f9d45b0",
+  "specSha256": "cebe74543ccf70a553696fa2bc7ad3192923c2bfd3c77c8201b20c3aa3b92b25",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    778,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1372,
+    "cy": 594,
+    "w": 156,
+    "angle": 24
+  },
+  "glass": {
+    "x": 1114,
+    "y": 573
+  },
+  "bounds": {
+    "glass": {
+      "x0": 983,
+      "y0": 426,
+      "x1": 1246,
+      "y1": 719
+    },
+    "paper": {
+      "x0": 1243,
+      "y0": 500,
+      "x1": 1449,
+      "y1": 681
+    },
+    "usedGloves": {
+      "x0": 798,
+      "y0": 395,
+      "x1": 1248,
+      "y1": 645
+    },
+    "newGloves": {
+      "x0": 1057,
+      "y0": 347,
+      "x1": 1457,
+      "y1": 565
+    }
+  },
+  "recognitionRegions": {
+    "usedGloves": {
+      "bounds": {
+        "x0": 800,
+        "y0": 434,
+        "x1": 1004,
+        "y1": 642
+      },
+      "reason": "Worn dark whole recognizable finger/palm section and continuation into cuff; not an anonymous edge."
+    },
+    "newGloves": {
+      "bounds": {
+        "x0": 1080,
+        "y0": 347,
+        "x1": 1457,
+        "y1": 565
+      },
+      "reason": "New string-bundled adult glove pair with folded cuffs and thumb contour; requires substantially whole bundle, not tiny cream cloth sliver. Hidden fingers retain recognition watch."
+    }
+  },
+  "review": {
+    "recipe": "Clear deep reddish-amber stirred Manhattan, ONE large ordinary cube, ONE dropped orange peel; no foam/cherry. Cube broad face survives but granular sparkly detail remains.",
+    "personality": "Two distinct used/new glove pairs retained; grounded explicit dossier help-with-job habit. New folded pair remains less immediately glove-like.",
+    "world": "Historic walnut, neutral dark left third and one right warm practical. Strong amber glossy patterned table and uniformly dust-textured gloves remain material hold.",
+    "issues": [
+      "Full group659px (798–1457), conservative recognition657px (800–1457): exceeds target350–380 and moving phone~389.",
+      "Glass293px meets pulled-back height intent, but full glass/paper466px already exceeds moving phone.",
+      "Blank free hanging tag clean156px writing axis below170–200 target; no long-name proof.",
+      "New glove finger shapes partially hidden; specificity/recognition watch.",
+      "Granular wet ice/glass glints, glossy patterned orange wood and near-uniform glove dirt hold.",
+      "702px proposed portrait retains complete declared objects, not tall-phone/browser pass."
+    ]
+  }
+}

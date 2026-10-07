@@ -1,39 +1,28 @@
-# Personality Model — Archetypes, Matrix, Roulette
+# Personality model: 12 archetypes, 132 ordered pairings
 
-> ⚠️ **Partly superseded (2026-09-23) — pending a `bmad-spec` refresh.** Where this file conflicts with `../ARCHITECTURE-SPINE.md`, the spine wins: the trace never reaches the server or the Bartender (AD-2); vetoes steer the match (AD-4); the canonical intake is the live journey's `Answers` v2 (AD-1), not the questionnaire docx (archived).
+Refreshed 2026-10-06. Canonical data: `../data/Brand Personality + Roulette.xlsx`. Read it only. Never re-save it with openpyxl, because it embeds images.
 
-The proprietary model the Psychologist agent (CAP-2) selects from. **Canonical data:** `../data/Brand Personality + Roulette.xlsx` — downstream MUST read this workbook for the actual attributes; this file explains its shape and how to use it.
+- **BRANDING** holds the 12 archetypes: Driver group, Primary goals, Primary fears, Personality, voice. The goals and fears are the source of every matching weight (matching-model.md).
+- **PERSONALITY** holds the 132 named pairings, 12 primaries × 11 secondaries (rows 3–135). The app's mirror is `dionysus-experience/src/data/archetypes.ts`, which becomes `shared/data/archetypes.ts`: primary, secondary, goal, fear, name, essence, story. The story is source material for the authors and is never rendered.
 
-## Workbook structure
+| archetype | goals (BRANDING) | fears |
+| --- | --- | --- |
+| Caregiver | Service, compassion, patience, empathy | Selfishness, indifference, cruelty |
+| Creator | Innovation, creativity, imagination | Status quo, mediocrity, conformity |
+| Explorer | Freedom, independence, bravery | Entrapment, cowardice, subordination |
+| Hero | Mastery, courage, strength, perseverance | Weakness, incompetence, timidity |
+| Innocent | Safety, wonder, trust, honesty | Punishment, danger, moral dilemma |
+| Jester | Pleasure, enjoyment, humour, originality | Boredom, conventionality, monotony |
+| Lover | Intimacy, connection, sensuality, passion | Isolation, loneliness, coldness |
+| Magician | Power, transformation, intuition, charisma | Unintended results, insignificance, inertia |
+| Outlaw | Liberation, revolution, leadership, risk | Powerlessness, dependence, restrictions |
+| Regular Guy | Belonging, altruism, respect, fairness | Exclusion, discourtesy, individuality |
+| Ruler | Control, power, confidence, status | Chaos, vulnerability, failure |
+| Sage | Wisdom, understanding, clarity | Deception, conflict, ambiguity |
 
-- **Sheet `BRANDING`** — the 12 archetype definitions. Columns per archetype: `Drivers`, `Primary goals`, `Primary fears`, `Personality`, `Audience`, `Visual Style`, `Color Palette`, `Typography`, `Imagery`, `Tone of voice`, `Brand example`.
-- **Sheet `PERSONALITY`** — the **132 named personas**, filter range `B3:N135` (132 data rows × 13 attribute columns). Each row is one named character that is a sub-variant ("roulette" result) of a parent archetype, with its own personality description, colour (Pantone), typography, imagery, and tone.
+## Pairings
 
-## The 12 archetypes
-
-Creator · Regular Guy (Everyman) · Explorer · Hero · Innocent · Jester · Lover · Magician · Outlaw · Ruler · Sage · Caregiver.
-
-Each carries Drivers / Primary goals / Primary fears, e.g.:
-- **Creator** — Drivers: Innovation, Creativity, Imagination · Goal: provide structure & self-expression · Fears: status quo, mediocrity, conformity.
-- **Explorer** — Drivers: Freedom, Independence, Bravery · Goal: seek paradise · Fears: entrapment, conformity.
-- **Caregiver** — nurturing, protective, service & support · conveys trust, comfort, safety.
-
-(Full attributes live in the workbook.)
-
-## The 12 × 11 = 132 matrix ("roulette")
-
-Each archetype fans out into ~11 named personas. Examples seen in the workbook:
-- Caregiver → **The Nurse**
-- Creator → **The Minimalist**, **The Surrealist**
-- Jester / Outlaw → **The Subverter**, **The Morale Booster**
-
-The Psychologist picks the **archetype** from the user's answers, then the specific **named persona** within it — that second pick is the "roulette." The chosen persona's attributes (colour, tone, imagery, personality) become the brand DNA every downstream agent honors.
-
-## How questionnaire answers feed selection
-
-The quiz is built to surface archetype signal:
-- `drivers` options (Freedom, Beauty, Mastery, Pleasure, Recognition, Peace, Knowledge, Belonging, Power, Change, Wonder, Mischief) map onto archetype **Drivers/Goals**.
-- `come_to_you_for`, `gravity` axes, and `inner_texture` pairs sharpen which archetype and which named persona fit.
-- `colour`, `flavours`, `vessel`, `trace` carry into tone, the drink, and image personalization.
-
-**Selection (locked):** hybrid — deterministic scoring narrows the 132 to a shortlist; the LLM makes the final pick and writes the rationale. "Roulette" = the LLM's choice among close-fitting personas.
+- **Ordered pairings.** A × B and B × A are distinct outcomes with distinct cocktails. The pairing's goal and fear come from the **primary** (the core motive). The **secondary** is how it shows. Example: Caregiver × Creator = The Craftsman. Selection follows from this (matching-model.md §What primary and secondary mean).
+- **Key.** `pairingKey(primary, secondary)` is the lowercase primary-secondary slug, with spaces as dashes: `regular-guy-sage`. Key values are permanent (AD-11).
+- **Never shown.** Archetype names and pairing keys never appear to the guest. They see the personality name, for example "The Visionary".
+- **"Roulette".** Formerly the LLM's free pick among personas. It is now bounded: the Bartender chooses among the deterministic top 3 (AD-3).

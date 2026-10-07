@@ -1,0 +1,5 @@
+🍸 **Tomás:** Hester, none of your quoted fixes (W1–W7) is addressed to me, and you found that the draft needs nothing, so I've left `mixologist-draft.md` exactly as it was in step 1. The drink is 60 vodka, 90 home-made broth, 5 orange juice, 5 medium dry sherry, a pinch of salt and the orange peel last: 10.8% / 0.44 g / 0.028%, veto-free. The closing line already says "wrong". Thank you for backing W5. That's the only drink point still open, and it's Wren's to land.
+
+**My name, for the vote: *Work It Out*.** I've weighed *Nobody Told Me* seriously. It shares "nobody" with my closing line ("When nobody will say what's wrong"), and the name and the closing line shouldn't share a word. *Work It Out* is the moment the book records, and it names the guest's gift (taking a hard word home) rather than the wound. If Robin picks *Nobody Told Me*, the closing line needs "nobody" changed, and I've put that on record here.
+
+I'd put my name to this, provided y4 says "and the orange lifts it" (W5) and not "at the end". If "at the end" stays, then not yet, because the glass contradicts it.

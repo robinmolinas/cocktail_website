@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Dionysus · type directions (2026-10-06)</title>
+<style>
+  body { margin: 0; background: #14110e; color: #e9dfcd; font: 14px/1.5 -apple-system, system-ui, sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: #14110ef2; padding: 14px 24px; display: flex; gap: 24px; align-items: center; flex-wrap: wrap; border-bottom: 1px solid #2a241e; }
+  h1 { font-size: 15px; margin: 0; font-weight: 600; }
+  .seg button { background: none; border: 1px solid #3a322a; color: #cfc4ae; padding: 5px 12px; border-radius: 999px; cursor: pointer; margin-right: 4px; }
+  .seg button.on { background: #e9dfcd; color: #14110e; border-color: #e9dfcd; }
+  main { padding: 20px 24px 60px; }
+  .row { margin-bottom: 34px; }
+  .row h2 { font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #b08d57; margin: 0 0 10px; }
+  .grid { display: grid; gap: 14px; }
+  .cell figcaption { font-size: 12px; color: #9a8f7c; margin-bottom: 4px; }
+  .frame { position: relative; overflow: hidden; border-radius: 4px; background: #000; }
+  .frame iframe { border: 0; position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+  table { border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+  td, th { border-bottom: 1px solid #2a241e; padding: 5px 10px 5px 0; text-align: left; vertical-align: top; }
+  th { color: #b08d57; font-weight: 600; }
+  .note { color: #9a8f7c; max-width: 70em; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Dionysus · four type directions on the real holds</h1>
+  <div class="seg" id="size"><button data-v="desktop" class="on">Desktop 1440×900</button><button data-v="phone">Phone 375×667</button></div>
+  <div class="seg" id="lay"><button data-v="side" class="on">Directions side by side</button><button data-v="stack">One direction per row</button></div>
+</header>
+<main>
+  <p class="note">Each frame is <code>screen.html?dir=X&amp;s=Y</code> rendered in an iframe at its true viewport size and scaled down, so vmin/vw clamps and the 640px phone rules behave as in the app. Open any frame on its own for full size. Backgrounds are real hold frames from <code>journey.mp4</code> (0.6s, 5.7s, 8.2s, 9.4s) and the creator-hero persona scene. <b>B is a stand-in render</b>: Neue Montreal has no free webfont, so Geist stands in. "for Zoë Ångström-Núñez" under H1 is a glyph check, not proposed copy.</p>
+  <div id="rows"></div>
+  <h2 style="font-size:13px;color:#b08d57;text-transform:uppercase;letter-spacing:.06em">Role rules (from directions.css)</h2>
+  <table>
+    <tr><th>Role</th><th>A · current</th><th>B · Geist→Neue Montreal + Newsreader</th><th>C · Switzer + Playfair</th><th>D · Satoshi + Instrument Serif</th></tr>
+    <tr><td>Question</td><td>Playfair Display italic 400, clamp(1.4rem,3vmin,1.85rem), 0, 1.25</td><td>Geist 400, clamp(1.35rem,2.9vmin,1.8rem), −0.018em, 1.22</td><td>Switzer 400, clamp(1.35rem,2.9vmin,1.8rem), −0.012em, 1.25</td><td>Satoshi 500, clamp(1.4rem,3vmin,1.85rem), −0.02em, 1.2</td></tr>
+    <tr><td>Hint</td><td>Playfair 400, clamp(15px,1.9vmin,17px), .005em, 1.5</td><td>Geist 400, clamp(14.5px,1.8vmin,16px), −.003em, 1.5</td><td>Switzer 400, clamp(14.5px,1.8vmin,16px), .002em, 1.5</td><td>Satoshi 400, clamp(15px,1.85vmin,16.5px), 0, 1.5</td></tr>
+    <tr><td>Choice word</td><td>Playfair Display italic 500, clamp(15px,1.95vmin,18px) / phone clamp(13px,3.5vw,15px), .005em, 1.22</td><td>Geist 500, clamp(14.5px,1.85vmin,17px) / phone clamp(13px,3.4vw,14.5px), −.01em, 1.2</td><td>Switzer 500, same sizes as B, −.005em, 1.2</td><td>Satoshi 500, clamp(15px,1.9vmin,17.5px) / phone clamp(13px,3.45vw,15px), −.01em, 1.18</td></tr>
+    <tr><td>H4 pair word</td><td>clamp(1.35rem,3vmin,1.95rem), 1.1</td><td>clamp(1.3rem,2.8vmin,1.8rem), −.02em</td><td>clamp(1.3rem,2.8vmin,1.8rem), −.015em</td><td>clamp(1.35rem,2.9vmin,1.85rem), −.025em</td></tr>
+    <tr><td>Reading title</td><td>Playfair Display italic 500, clamp(2.4rem,5vw,4.4rem), −.02em, 1.1</td><td>Newsreader italic 400, clamp(2.6rem,5.2vw,4.6rem), −.02em, 1.04</td><td>Playfair italic 500, clamp(2.5rem,5vw,4.4rem), −.015em, 1.06</td><td>Instrument Serif italic 400, clamp(3rem,6vw,5.4rem), −.01em, .98</td></tr>
+    <tr><td>Tagline</td><td>Playfair Display italic 400, clamp(1.02rem,1.36vw,1.35rem), 1.42</td><td>Newsreader italic 400, clamp(1.08rem,1.42vw,1.4rem), 1.38</td><td>Playfair italic 400, clamp(1.04rem,1.36vw,1.35rem), 1.42</td><td>Satoshi 400, clamp(1rem,1.3vw,1.25rem), −.005em, 1.45</td></tr>
+    <tr><td>Body (lead)</td><td>Playfair 400, 1.16rem, 1.66</td><td>Newsreader 400, 1.2rem, 1.6</td><td>Playfair 400, 1.14rem, 1.66</td><td>Satoshi 400, 1.06rem, 1.7</td></tr>
+    <tr><td>Button / pill</td><td>Jost 500 .9rem .04em · next: Jost 400 11px .24em caps</td><td>Geist 500 .9rem 0 · next: Geist 500 11px .2em caps</td><td>Switzer 500 .9rem .01em · next: Switzer 500 11px .22em caps</td><td>Satoshi 500 .92rem 0 · next: Satoshi 700 11px .2em caps</td></tr>
+    <tr><td>Label / kicker</td><td>Jost 500 .66–.74rem .26em caps</td><td>Geist 500 .18em caps</td><td>Switzer 500 .2em caps</td><td>Satoshi 700 .16em caps</td></tr>
+  </table>
+</main>
+<script>
+const DIRS = [['A', 'A · Current'], ['B', 'B · Geist (stand-in for Neue Montreal) + Newsreader'], ['C', 'C · Switzer + Playfair'], ['D', 'D · Satoshi + Instrument Serif']];
+const SCREENS = [['h1', 'H1 · lens question, 6 lenses, accented name'], ['h4p', 'H4 · practice instruction, Tea / Coffee (bright 5.7s frame)'], ['h4c', 'H4 · long pair In control / Out of control'], ['h5', 'H5 · 9 words incl. "A reality check" (8.2s frame)'], ['h6', 'H6 · flavours (9.4s frame)'], ['h10', 'H10 · reading head, paragraph, Share / Save']];
+let size = 'desktop', lay = 'side';
+function render() {
+  const [vw, vh] = size === 'desktop' ? [1440, 900] : [375, 667];
+  const rows = document.getElementById('rows');
+  const outer = lay === 'side' ? SCREENS : DIRS;
+  const inner = lay === 'side' ? DIRS : SCREENS;
+  const cols = lay === 'side' ? (size === 'desktop' ? 2 : 4) : (size === 'desktop' ? 3 : 6);
+  rows.innerHTML = outer.map(([ok, ol]) => `<section class="row"><h2>${ol}</h2><div class="grid" style="grid-template-columns:repeat(${cols},1fr)">` +
+    inner.map(([ik, il]) => { const d = lay === 'side' ? ik : ok, s = lay === 'side' ? ok : ik;
+      return `<figure class="cell" style="margin:0"><figcaption>${il} · <a href="screen.html?dir=${d}&s=${s}" target="_blank" style="color:#b08d57">open</a></figcaption><div class="frame" data-w="${vw}" data-h="${vh}"><iframe loading="lazy" src="screen.html?dir=${d}&s=${s}" width="${vw}" height="${vh}"></iframe></div></figure>`; }).join('') + '</div></section>').join('');
+  fit();
+}
+function fit() { document.querySelectorAll('.frame').forEach((f) => { const k = f.clientWidth / f.dataset.w; f.style.height = f.dataset.h * k + 'px'; f.firstElementChild.style.transform = `scale(${k})`; }); }
+addEventListener('resize', fit);
+for (const id of ['size', 'lay']) document.getElementById(id).addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return;
+  document.querySelectorAll(`#${id} button`).forEach((x) => x.classList.toggle('on', x === b)); if (id === 'size') size = b.dataset.v; else lay = b.dataset.v; render(); });
+render();
+</script>
+</body>
+</html>

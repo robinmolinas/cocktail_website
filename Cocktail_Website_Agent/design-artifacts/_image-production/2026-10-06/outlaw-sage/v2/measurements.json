@@ -1,0 +1,94 @@
+{
+  "pairing": "outlaw-sage",
+  "pour": "Hear Me Out",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-sage/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-24c9a4a1-31c0-43e9-b694-9f10406f8cad.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "024afabac4199b3e01d9486bd8bfdc91b7b034258457b8a390f7c6749cb273e7",
+  "sourceSha256": "75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c",
+  "specSha256": "19cc3a721388ed1476111dafcda2feb8e33252164ba2b0373d4c7f0d5b03adff",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    852,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1174,
+    "cy": 594,
+    "w": 105,
+    "angle": 77
+  },
+  "glass": {
+    "x": 1011,
+    "y": 560
+  },
+  "bounds": {
+    "glass": {
+      "x0": 883,
+      "y0": 407,
+      "x1": 1138,
+      "y1": 713
+    },
+    "paper": {
+      "x0": 1129,
+      "y0": 518,
+      "x1": 1217,
+      "y1": 661
+    },
+    "discussionPage": {
+      "x0": 1139,
+      "y0": 476,
+      "x1": 1527,
+      "y1": 671
+    },
+    "pencil": {
+      "x0": 1188,
+      "y0": 477,
+      "x1": 1410,
+      "y1": 631
+    }
+  },
+  "recognitionRegions": {
+    "discussionPage": {
+      "bounds": {
+        "x0": 1220,
+        "y0": 502,
+        "x1": 1525,
+        "y1": 670
+      },
+      "reason": "Substantial blank folded paper face and layered fold/edge visible; not an anonymous cropped sliver."
+    },
+    "pencil": {
+      "bounds": {
+        "x0": 1188,
+        "y0": 477,
+        "x1": 1410,
+        "y1": 631
+      },
+      "reason": "Entire separate pencil with ferrule/eraser, graphite-painted body and sharpened point identifiable."
+    }
+  },
+  "review": {
+    "recipe": "Single heavy rocks sour over cubes, thin settled white foam and ONE yellow peel broadly flat across surface; no extra garnish. Liquid still too clear and warm golden rather than cloudy pale gold-amber. Dense ice surface detail persists.",
+    "personality": "Same folded blank-reverse discussion page and separate pencil plausible argument-testing traces; entire visible objects now in raster. They remain alongside rather than sufficiently depth-overlapped.",
+    "world": "Dark historic timber, quiet left third, one warm shaded practical; glossy patterned orange-amber tabletop and granular ice/glass remain held.",
+    "issues": [
+      "Glass 306px high now meets framing-height target, but full visible group644px / recognition union642px misses 350–380 goal.",
+      "702×940 proposed portrait retains recorded whole glass/tag/page/pencil with margin, but NOT narrow-phone or motion pass; ~389 moving window cannot retain this union.",
+      "Liquid remains insufficiently cloudy; crystalline ice microdetail and glossy patterned table remain.",
+      "Small blank tag writable axis105px, physical hanging and discretion improved; long-name/glyph fit not tested.",
+      "Sole correction exhausted; held measured candidate, no export/integration/acceptance."
+    ]
+  }
+}
+

@@ -1,0 +1,306 @@
+{
+  "pairing": "innocent-jester",
+  "pour": "There It Goes",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "9272f836b83f92ab4302457bd48eeed98cf8d30fde2a71783b3d081e6401d073",
+  "review": {
+    "recipe": "Single chilled coupe, hazy bright orange sour with fine natural bubble edge, no garnish or ice. Exact recipe maintained.",
+    "personality": "Worn reading glasses on facedown menu and used bunched handkerchief reflect serious dinner and watering eyes from laughter. HOLD: wide traces are improved but glasses remain substantially left of narrow phone focal region; actual cover review needed.",
+    "world": "Historic dark walnut reading room, burgundy, one practical warm light, neutral deep shadow, believable used materials.",
+    "issues": [
+      "Personality hold: reading glasses and handkerchief may not both retain sufficient context under narrow phone cover. No pair exported or inspected due approval gate."
+    ]
+  },
+  "measurements": {
+    "pairing": "innocent-jester",
+    "pour": "There It Goes",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-jester/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-cce2fff6-b9b0-49ca-ad39-435ac61f9cd5.png",
+    "sourceSha256": "9272f836b83f92ab4302457bd48eeed98cf8d30fde2a71783b3d081e6401d073",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      923,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1258,
+      "cy": 649,
+      "w": 131,
+      "angle": 25
+    },
+    "glass": {
+      "x": 1164,
+      "y": 393
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1009,
+        "y0": 281,
+        "x1": 1322,
+        "y1": 748
+      },
+      "paper": {
+        "x0": 1164,
+        "y0": 578,
+        "x1": 1347,
+        "y1": 722
+      }
+    },
+    "review": {
+      "recipe": "Single chilled coupe, hazy bright orange sour with fine natural bubble edge, no garnish or ice. Exact recipe maintained.",
+      "personality": "Worn reading glasses on facedown menu and used bunched handkerchief reflect serious dinner and watering eyes from laughter. HOLD: wide traces are improved but glasses remain substantially left of narrow phone focal region; actual cover review needed.",
+      "world": "Historic dark walnut reading room, burgundy, one practical warm light, neutral deep shadow, believable used materials.",
+      "issues": [
+        "Personality hold: reading glasses and handkerchief may not both retain sufficient context under narrow phone cover. No pair exported or inspected due approval gate."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1444.5933014354066,
+        "cy": 745.6595744680851,
+        "w": 150.4306220095694,
+        "angle": 25.011672059441164
+      },
+      "glass": {
+        "x": 1336.6507177033493,
+        "y": 451.53191489361706
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 427.5783475783476,
+        "cy": 828.5106382978723,
+        "w": 167.2022792022792,
+        "angle": 25.00416884728997
+      },
+      "glass": {
+        "x": 307.6011396011396,
+        "y": 501.7021276595745
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/innocent-jester/portrait.jpg",
+    "wide": "/personas/innocent-jester/wide.jpg",
+    "wideTag": {
+      "cx": 0.7523923444976076,
+      "cy": 0.6904255319148936,
+      "w": 0.07834928229665072,
+      "angle": 25.011672059441164
+    },
+    "wideGlass": {
+      "x": 0.6961722488038278,
+      "y": 0.41808510638297874
+    },
+    "tag": {
+      "cx": 0.4772079772079772,
+      "cy": 0.6904255319148936,
+      "w": 0.1866096866096866,
+      "angle": 25.00416884728997
+    },
+    "glass": {
+      "x": 0.3433048433048433,
+      "y": 0.41808510638297874
+    }
+  },
+  "hashes": {
+    "master": "212d108407d97053bfe95e90274e60f828f0bee9b2d9772b2f2c9ba9c6111ab1",
+    "wide": "c8f960334474ed1ab084194ca725814ca6b233c1b02fc321dd25bfd85447d735",
+    "portrait": "fab309f6951023dae260a9e63afef5c2f710ba49993e7d810344ab3e1b27c4c9"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1158.66028708134,
+          "y0": 322.8510638297872,
+          "x1": 1518.086124401914,
+          "y1": 859.404255319149
+        },
+        "paper": {
+          "x0": 1336.6507177033493,
+          "y0": 664.0851063829788,
+          "x1": 1546.7942583732058,
+          "y1": 829.5319148936171
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 885.5502392344498,
+          "y0": 269.0425531914894,
+          "x1": 1185.0717703349283,
+          "y1": 716.1702127659574
+        },
+        "paper": {
+          "x0": 1033.8755980861245,
+          "y0": 553.404255319149,
+          "x1": 1208.9952153110048,
+          "y1": 691.2765957446809
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1235.9043062200958,
+          "y0": 291.0144680851064,
+          "x1": 1619.2918660287082,
+          "y1": 863.3378723404255
+        },
+        "paper": {
+          "x0": 1425.7607655502393,
+          "y0": 654.9974468085107,
+          "x1": 1649.9138755980862,
+          "y1": 831.4740425531916
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2075.9330143540674,
+          "y0": 350.74148936170207,
+          "x1": 2719.904306220096,
+          "y1": 1312.0659574468086
+        },
+        "paper": {
+          "x0": 2394.8325358851675,
+          "y0": 962.1191489361702,
+          "x1": 2771.3397129186606,
+          "y1": 1258.544680851064
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.3433048433048433,
+        "y": 0.41808510638297874
+      },
+      "bounds": {
+        "glass": {
+          "x0": -5.254890788224131,
+          "y0": 252.30212765957447,
+          "x1": 275.7257739791073,
+          "y1": 671.608510638298
+        },
+        "paper": {
+          "x0": 133.88888888888889,
+          "y0": 518.9702127659575,
+          "x1": 298.1683190883191,
+          "y1": 648.263829787234
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.3433048433048433,
+        "y": 0.41808510638297874
+      },
+      "bounds": {
+        "glass": {
+          "x0": -6.03057929724595,
+          "y0": 278.6085106382979,
+          "x1": 304.2466476733143,
+          "y1": 741.6340425531914
+        },
+        "paper": {
+          "x0": 147.62108262108262,
+          "y0": 573.0808510638298,
+          "x1": 329.0291737891738,
+          "y1": 715.8553191489361
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3433048433048433,
+        "y": 0.41808510638297874
+      },
+      "bounds": {
+        "glass": {
+          "x0": 16.215764482431148,
+          "y0": 169.79574468085107,
+          "x1": 205.3117568850902,
+          "y1": 451.9829787234043
+        },
+        "paper": {
+          "x0": 109.85754985754986,
+          "y0": 349.25957446808513,
+          "x1": 220.41527065527063,
+          "y1": 436.2723404255319
+        }
+      }
+    }
+  ]
+}

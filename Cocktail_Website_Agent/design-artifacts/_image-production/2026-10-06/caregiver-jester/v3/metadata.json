@@ -1,0 +1,302 @@
+{
+  "pairing": "caregiver-jester",
+  "pour": "Worth the Trip",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "18414c77befb6a57b1cc76b9d080e61492082e9ac28deed9f0401bcd1213d997",
+  "review": {
+    "recipe": "Master passed: split gin/brandy ginger-cumin lime highball, pale gold slight juice haze, ordinary wet ice, small bubbles and one mint sprig; no foam/extra garnish.",
+    "personality": "Plain scratched vacuum flask/cup and used repaired carrying sleeve compact immediately behind drink. Showing up prepared rather than literal battle/taxi. Narrow phone expected to retain entire flask and inner sleeve seam.",
+    "world": "Dark worn walnut old room, practical warm lamp right, neutral shadow, blank cream tag thread-attached directly in front of lower base.",
+    "issues": []
+  },
+  "measurements": {
+    "pairing": "caregiver-jester",
+    "pour": "Worth the Trip",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-jester/v3/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-2ca8357c-90c2-4278-b7a8-cb5cefd0d853.png",
+    "sourceSha256": "18414c77befb6a57b1cc76b9d080e61492082e9ac28deed9f0401bcd1213d997",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      810,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1093,
+      "cy": 701,
+      "w": 216,
+      "angle": 1.7
+    },
+    "glass": {
+      "x": 1020,
+      "y": 482
+    },
+    "bounds": {
+      "glass": {
+        "x0": 901,
+        "y0": 140,
+        "x1": 1193,
+        "y1": 729
+      },
+      "paper": {
+        "x0": 945,
+        "y0": 652,
+        "x1": 1212,
+        "y1": 753
+      }
+    },
+    "review": {
+      "recipe": "Master passed: split gin/brandy ginger-cumin lime highball, pale gold slight juice haze, ordinary wet ice, small bubbles and one mint sprig; no foam/extra garnish.",
+      "personality": "Plain scratched vacuum flask/cup and used repaired carrying sleeve compact immediately behind drink. Showing up prepared rather than literal battle/taxi. Narrow phone expected to retain entire flask and inner sleeve seam.",
+      "world": "Dark worn walnut old room, practical warm lamp right, neutral shadow, blank cream tag thread-attached directly in front of lower base.",
+      "issues": []
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1255.1196172248804,
+        "cy": 805.4042553191489,
+        "w": 248.03827751196172,
+        "angle": 1.7009037242854088
+      },
+      "glass": {
+        "x": 1171.2918660287082,
+        "y": 553.7872340425532
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 361.2079772079772,
+        "cy": 894.8936170212766,
+        "w": 275.69230769230774,
+        "angle": 1.7003227587705154
+      },
+      "glass": {
+        "x": 268.03418803418805,
+        "y": 615.3191489361702
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-jester/portrait.jpg",
+    "wide": "/personas/caregiver-jester/wide.jpg",
+    "wideTag": {
+      "cx": 0.6537081339712919,
+      "cy": 0.7457446808510638,
+      "w": 0.1291866028708134,
+      "angle": 1.7009037242854088
+    },
+    "wideGlass": {
+      "x": 0.6100478468899522,
+      "y": 0.5127659574468085
+    },
+    "tag": {
+      "cx": 0.4031339031339031,
+      "cy": 0.7457446808510638,
+      "w": 0.3076923076923077,
+      "angle": 1.7003227587705154
+    },
+    "glass": {
+      "x": 0.29914529914529914,
+      "y": 0.5127659574468085
+    }
+  },
+  "hashes": {
+    "master": "aaa5bd20aadc4499209cd804945f6230cf328406a1a0ccaa8bbbe49a01677101",
+    "wide": "043699dcb77115957a0b4b85549bb29a03b355a2a5d86140efb7be90eb7e423b",
+    "portrait": "822044931a6022860a41e581c15a75f29ff92e55b969421ad94fd7dae88e2358"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1034.641148325359,
+          "y0": 160.85106382978722,
+          "x1": 1369.9521531100477,
+          "y1": 837.5744680851064
+        },
+        "paper": {
+          "x0": 1085.1674641148325,
+          "y0": 749.1063829787234,
+          "x1": 1391.7703349282297,
+          "y1": 865.1489361702128
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 782.200956937799,
+          "y0": 134.04255319148936,
+          "x1": 1061.6267942583731,
+          "y1": 697.9787234042553
+        },
+        "paper": {
+          "x0": 824.3062200956937,
+          "y0": 624.2553191489362,
+          "x1": 1079.8086124401914,
+          "y1": 720.9574468085106
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1103.6172248803828,
+          "y0": 118.21446808510639,
+          "x1": 1461.2822966507176,
+          "y1": 840.0527659574468
+        },
+        "paper": {
+          "x0": 1157.511961722488,
+          "y0": 745.6868085106383,
+          "x1": 1484.5550239234449,
+          "y1": 869.4655319148935
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1853.732057416268,
+          "y0": 60.491489361702094,
+          "x1": 2454.497607655502,
+          "y1": 1272.954255319149
+        },
+        "paper": {
+          "x0": 1944.2583732057415,
+          "y0": 1114.4489361702126,
+          "x1": 2493.588516746411,
+          "y1": 1322.3585106382977
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.29914529914529914,
+        "y": 0.5127659574468085
+      },
+      "bounds": {
+        "glass": {
+          "x0": 9.840151946818608,
+          "y0": 125.70212765957446,
+          "x1": 271.9690788224122,
+          "y1": 654.5489361702128
+        },
+        "paper": {
+          "x0": 49.33903133903135,
+          "y0": 585.4127659574468,
+          "x1": 289.0254131054131,
+          "y1": 676.0978723404255
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.29914529914529914,
+        "y": 0.5127659574468085
+      },
+      "bounds": {
+        "glass": {
+          "x0": 10.667654320987651,
+          "y0": 138.80851063829792,
+          "x1": 300.12755935422604,
+          "y1": 722.7957446808512
+        },
+        "paper": {
+          "x0": 54.2849002849003,
+          "y0": 646.4510638297872,
+          "x1": 318.9622792022792,
+          "y1": 746.5914893617021
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.29914529914529914,
+        "y": 0.5127659574468085
+      },
+      "bounds": {
+        "glass": {
+          "x0": 23.83377018043684,
+          "y0": 84.59574468085106,
+          "x1": 200.24281101614437,
+          "y1": 440.5021276595745
+        },
+        "paper": {
+          "x0": 50.41595441595442,
+          "y0": 393.97446808510637,
+          "x1": 211.72148148148148,
+          "y1": 455.0042553191489
+        }
+      }
+    }
+  ]
+}

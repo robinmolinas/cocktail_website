@@ -1,0 +1,91 @@
+{
+  "pairing": "hero-caregiver",
+  "pour": "Next One's Mine",
+  "sourceSha256": "63d9cd12eb4e350247ca03ddd6889a43276e3f6023449672c7295a3bbb72dce3",
+  "masterDimensions": [
+    1672,
+    940
+  ],
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-caregiver/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-37164116-6d06-47cc-a980-fda98b956391.png",
+  "masterSha256": "35ff8919cc4c32cd1543e04b1051b1d1cc7b001cad1b1a7d771b57aa077732b5",
+  "portraitCrop": [
+    860,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1123,
+    "cy": 620,
+    "w": 142,
+    "angle": 9
+  },
+  "glass": {
+    "x": 1030,
+    "y": 480
+  },
+  "bounds": {
+    "glass": {
+      "x0": 909,
+      "y0": 208,
+      "x1": 1152,
+      "y1": 746
+    },
+    "paper": {
+      "x0": 1002,
+      "y0": 550,
+      "x1": 1213,
+      "y1": 685
+    },
+    "wallet": {
+      "x0": 1138,
+      "y0": 508,
+      "x1": 1455,
+      "y1": 704
+    },
+    "barTab": {
+      "x0": 1293,
+      "y0": 648,
+      "x1": 1507,
+      "y1": 716
+    }
+  },
+  "recognitionRegions": {
+    "wallet": {
+      "bounds": {
+        "x0": 1197,
+        "y0": 520,
+        "x1": 1452,
+        "y1": 701
+      },
+      "reason": "Bifold cover, worn hinge and visible card compartments—not an anonymous leather edge."
+    },
+    "barTab": {
+      "bounds": {
+        "x0": 1312,
+        "y0": 650,
+        "x1": 1505,
+        "y1": 716
+      },
+      "reason": "Full folded paper end and crease visible, but faint fake writing is a rejection."
+    }
+  },
+  "review": {
+    "recipe": "Tall clear reddish-amber rye/sweet-vermouth/soda highball full of ice, one long lemon peel dropped INSIDE; no foam, straw or rim fruit. Exact 45/45/120 plus two dashes formula preserved. Ice/bubbles overly intricate.",
+    "personality": "Used wallet and folded bar tab show paying-first habit, but group is too wide and tab picked up faint pseudo-writing despite prompt.",
+    "world": "Historic walnut hotel room present, but sparkly ice/glass and strong warm glossy wood microtexture fail material direction.",
+    "issues": [
+      "Faint pseudo-writing on bar tab; do not accept or integrate this pre-correction master.",
+      "Full horizontal union598 px exceeds phone cover.",
+      "Sparkly intricate ice/bubbles and broad orange table reflection remain.",
+      "Preserved original; v3 is the bounded corrected candidate."
+    ]
+  }
+}

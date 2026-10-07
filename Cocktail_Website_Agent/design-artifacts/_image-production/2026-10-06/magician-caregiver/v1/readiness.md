@@ -1,0 +1,10 @@
+# Their Night — v1 readiness
+
+Complete169-line current magician-caregiver dossier and complete spec read this turn before image. Complete current rules/parallel plan/continuation/checkpoint/app DESIGN/applied decisions and imagegen skill/shared refs read; actual three pilot wide+portraits inspected. Fresh stage/public scan initially absent. Source SHA2565fa0bd865eda7ee85a7a060d896fe30712a0fe3a84e92a0288df35b71d0f12df; spec SHA25628568235e89f324f6977148dbe4eae5354df9057ec2323e64f545454ee9c04b0.
+
+Settled drink15ml Spanish anis dulce35%,45ml anis seco40–50%,2dashes each Peychaud/Angostura. Shake hard12seconds with ice, strain into chilled stemmed cocktail glass. ~105.7ml finished per dossier balance. Hazy due to anethole louche, dusty soft pink with Angostura (source craft inference, exact haze thickness unsourced), no garnish/servingice/eggfoam/rim. No fino/gin/applejack/grenadine from withdrawn/later drinks. Actualsugar varies by bottle; current source openly documents and settles genuinely dry seco assumption, not a physical-image contradiction. Draft/tagline not block; editorial unchanged.
+
+Person evidence source: call made/table booked/right people quietly in room, unasked arrangements; party already underway in image brief. A spent cut ribbon and used ordinary scissors are grounded inferences of completed arranging, not explicit named objects nor historical artefacts. Both may convey arranging celebration better than permission/meddling concern; specificity watch. Do not depict empty half-set room or preparations. Background vague turned-away party shoulders are explicitly allowed by current source image brief, no face/hand; foreground remains one hero serve. No wand/pumpkin/midnight/pinkdecor/redswirl. Older white tablecloth replaced with house timber, not recipe change.
+
+Tag small proportional paper; visible stem-loop→knot→continuous downward tether→hole→paper. No rim anchor. Inspect actual occlusion/gravity/separation, uncertainty stays held. Target300px glass/compact wholeobjects is not acceptance. Initial+at most1focused edit; no export/shared/source/browser writes.
+

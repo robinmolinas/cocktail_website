@@ -1,0 +1,31 @@
+{
+ "pairing": "lover-magician",
+ "family": "martini",
+ "style": "stirred",
+ "glass": "small stemmed cocktail glass (about 150 ml), chilled, no ice",
+ "serves": 1,
+ "version": "v1.2 (Tomás, round 4 step 1, 2026-10-04): no number moves; the strained leaf is set on the table beside the glass as the drink is served (Wren r3). v1.1 (Tomás, round 3, 2026-10-04): blanc vermouth 22.5 -> 25 ml and rich syrup 3.75 -> 2.5 ml (1/2 tsp), to clear v1's initial-acid EDGE (0.144 -> 0.158) at the same strength. v1 was: a stirred shochu-and-gin Martini, one torn green shiso leaf stirred in and strained out. From Proper pp. 48-49: Ikeda retrained the bartenders to stir Martinis as he had learned in Japan and added originals with Japanese ingredients like shochu and shiso leaf. The page gives no recipe: putting the two into one stirred Martini is my craft call, never 'his drink'. Split base keeps the Martini's form (Codex p. 71); blanc vermouth as the 'something else' (Codex p. 73: Dolin blanc in Martini variations with every base spirit). Shochu 25% can't carry the core alone (30/30/30 reads 20.9% finished and 3.08 g sugar, OUT), so London dry gin at 37.5 ml and 3/4 tsp rich syrup. Spark: Flavor Matrix pdf 288 lists juniper and shiso among the things that share alpha-pinene (cedar, pine, resin, sharp): the gin is there so the leaf has a note to sit behind. Shochu 25%: Oxford SHOCHU pdf 1784 (both kinds 'generally' 25%). Gin modelled at 47%; floors in the draft's sweep.",
+ "ingredients": [
+  {
+   "key": "shochu_barley",
+   "ml": 30
+  },
+  {
+   "key": "gin_london_dry",
+   "ml": 37.5
+  },
+  {
+   "key": "blanc_vermouth",
+   "ml": 25
+  },
+  {
+   "key": "rich_syrup",
+   "ml": 2.5
+  },
+  {
+   "key": "shiso_leaf",
+   "count": 1
+  }
+ ],
+ "garnish": []
+}

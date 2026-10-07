@@ -1,0 +1,147 @@
+{
+  "pairing": "magician-outlaw",
+  "pour": "No Accident",
+  "status": "candidate-pilot; awaiting user visual approval and integration-owner browser validation",
+  "generatedWith": "built-in image_gen; one generation, sugar-size edit, framing edit",
+  "recipeSource": "design-artifacts/pours/magician-outlaw.md",
+  "recipeSha256": "53e7279d435b26640c183d511f05b59f73d1394df1b99c1adfef4e83e6a93848",
+  "files": {
+    "master": "master.png",
+    "wide": "wide.jpg",
+    "portrait": "portrait.jpg"
+  },
+  "sha256": {
+    "master": "07c5187d4a5f8ab6e8a4bac2bffcdf5641434389422e9a64d48a584373ccc508",
+    "wide": "f1ddc66dd7cca99e8a8354be8765be0e2c241d71e19c81f9bf8ba463d78879dc",
+    "portrait": "9793e252f666d4b18d2961df04e5b2a7e0ba6019f8a421445cb71b84e0d3027d"
+  },
+  "measurement": {
+    "method": "Manual pixel measurement of blank writable region and hero on exported scene; about ±4 master pixels. Recheck with real application font before acceptance.",
+    "masterSize": {
+      "w": 1672,
+      "h": 941
+    },
+    "wideCrop": {
+      "x": 0,
+      "y": 0,
+      "w": 1672,
+      "h": 940,
+      "exportW": 1920,
+      "exportH": 1080
+    },
+    "portraitCrop": {
+      "x": 850,
+      "y": 0,
+      "w": 702,
+      "h": 940,
+      "exportW": 896,
+      "exportH": 1200
+    },
+    "masterWritableRegion": {
+      "cx": 1222,
+      "cy": 692,
+      "width": 130,
+      "angle": 11
+    },
+    "masterGlassFocalPoint": {
+      "x": 1055,
+      "y": 350
+    },
+    "pixels": {
+      "wide": {
+        "tag": {
+          "cx": 1403.2535885167465,
+          "cy": 795.063829787234,
+          "w": 149.2822966507177,
+          "angle": 11
+        },
+        "glass": {
+          "x": 1211.4832535885166,
+          "y": 402.12765957446805
+        }
+      },
+      "portrait": {
+        "tag": {
+          "cx": 474.8034188034188,
+          "cy": 883.4042553191489,
+          "w": 165.92592592592592,
+          "angle": 11
+        },
+        "glass": {
+          "x": 261.65242165242165,
+          "y": 446.80851063829783
+        }
+      }
+    },
+    "masterBounds": {
+      "glass": {
+        "x0": 965,
+        "y0": 188,
+        "x1": 1134,
+        "y1": 736
+      },
+      "paper": {
+        "x0": 1105,
+        "y0": 640,
+        "x1": 1312,
+        "y1": 738
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/magician-outlaw/portrait.jpg",
+    "wide": "/personas/magician-outlaw/wide.jpg",
+    "tag": {
+      "cx": 0.5299145299145299,
+      "cy": 0.7361702127659574,
+      "w": 0.18518518518518517,
+      "angle": 11
+    },
+    "wideTag": {
+      "cx": 0.7308612440191388,
+      "cy": 0.7361702127659574,
+      "w": 0.07775119617224881,
+      "angle": 11
+    },
+    "glass": {
+      "x": 0.292022792022792,
+      "y": 0.3723404255319149
+    },
+    "wideGlass": {
+      "x": 0.6309808612440191,
+      "y": 0.3723404255319149
+    }
+  },
+  "handoff": {
+    "integrationOwner": "Single application integration owner; not registered by image production.",
+    "shortName": "Ada",
+    "longName": "Alexandria-Rose",
+    "requiredBrowserViewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        2048,
+        1036
+      ],
+      [
+        3440,
+        1440
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        430,
+        932
+      ]
+    ],
+    "pending": [
+      "Visual sign-off on personality and photograph",
+      "Real name-font overlay and arrival/settled/reading views",
+      "Application build and browser verification"
+    ]
+  }
+}

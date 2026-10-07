@@ -1,0 +1,23 @@
+{
+ "pairing": "innocent-outlaw",
+ "family": "highball",
+ "subfamily": "Stone Fence (spirit and hard cider, Oxford STONE FENCE pdf 1931), kept still and sharp: aged rum lengthened with dry, still farmhouse cider over two or three small lumps of ice (the ice as Jerry Thomas asked, 1862, Imbibe! pdf 160; never his recipe)",
+ "style": "highball",
+ "glass": "heavy tumbler (about 300 ml), two or three small lumps of ice",
+ "serves": 1,
+ "version": "v1.2 (Tomás, round 4 step 1, 2026-10-04; drink unchanged since v1, round 2). Rum : cider 3:8 (45:120). Oxford's colonial 'roughly equal' runs 22.8%, OUT of the highball band; 1:2 at 50:100 sat on the edge (17.0%) and a 43% rum sent it OUT, so the cider was lengthened toward Jerry Thomas's 'fill up the glass' (Imbibe! pdf 160). No sugar: Oxford STONE FENCE (pdf 1931) mentions sugar only for the times it was served hot (Hester A6). The fruit goes in raw: a thin slice of the sharpest apple to hand, cut last. Never apple brandy (the Lover family's bottle).",
+ "ingredients": [
+  {
+   "key": "rum_aged",
+   "ml": 45
+  },
+  {
+   "key": "dry_cider",
+   "ml": 120,
+   "stage": "top"
+  }
+ ],
+ "garnish": [
+  "sharp_apple_slice"
+ ]
+}

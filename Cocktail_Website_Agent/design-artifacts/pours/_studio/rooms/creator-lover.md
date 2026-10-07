@@ -9,6 +9,9 @@ mode: batch            # pour | batch | rework
 
 # The room: The Obsessed (creator-lover)
 
+## Collection review edits, 2026-10-06 (Tomás)
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", the Codex has no absinthe drip; against its Hot Toddy (p. 38: 11.4% / 7.37 g) ours has the same strength and is a little drier, as a cold drink can be. Nothing else changed.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick: Rosetta) · [x] image brief
 - **Last change to the pour:** round 6 (reading v2); rounds 7–8 dossier lines only

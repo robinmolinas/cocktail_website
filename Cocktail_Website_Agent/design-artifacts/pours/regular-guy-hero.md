@@ -60,7 +60,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 **whoYouAre**
 Someone says it in the pub, on the doorstep or in the group chat: somebody really ought to do something about it. The broken bench, the club with no treasurer, the school play nobody will run. Everyone nods. Before you can stop yourself, you've said "I'll do it", and only later, doing the washing-up, do you realise you've no idea how.
 
-Nobody hears about the evenings: the videos, the forums, the cousin who might know. You're out of your depth most of the way through, and you know it. The words you dread are "who asked you?", and worse, the doubters turning out to be right. You go anyway, partly because if you thought about it any longer, you wouldn't. This is what it gives. The thing everyone was waiting for somebody to fix gets fixed. And because you so plainly need a hand, people who'd never have volunteered end up holding the ladder. It counts for more than you know: what was everyone's complaint becomes something they did together.
+Nobody hears about the evenings: the videos, the forums, the cousin who might know. You're out of your depth most of the way through, and you know it. The words you dread are "who asked you?", and worse, the doubters turning out to be right. You go anyway, partly because if you thought about it any longer, you wouldn't. The thing everyone was waiting for somebody to fix gets fixed. And because you so plainly need a hand, people who'd never have volunteered end up holding the ladder. It counts for more than you know: what was everyone's complaint becomes something they did together.
 
 **yours**
 
@@ -72,7 +72,7 @@ Nobody hears about the evenings: the videos, the forums, the cousin who might kn
 
 4. The cocktail I've made for you is a Manhattan, one of the great classics: rye stirred with sweet vermouth (a red, wine-based aperitif with herbs) and bitters, then poured over a single large ice cube, and an orange peel pinched over it so its oils land on the drink. It's built for Hudson's rye, sold today as Do The Rye Thing, the line those amateurs began, if you can find it. Beside the rye there's a little apple brandy, as a nod to the apples they started with. It isn't their vodka. It's their first go, kept next to the thing they got good at, and one of my favourite cocktail books calls rye with apple brandy magical. It comes out deep and warm, a little sweet, and brighter for the apple.
 
-5. So, when "I'll do it" next comes out of your mouth, finish the sentence: "and I'll need a hand." Say it at the start, while you still don't know how, and say who you'd like. You worry it'll show how out of your depth you are. It will, a little. It's also the reason they'll come. The job gets done sooner, nobody waits for the experts, and the thing you started ends up belonging to everyone who helped. I hope plenty of them say yes.
+5. So, when "I'll do it" next comes out of your mouth, finish the sentence: "and I'll need a hand." Say it at the start, while you still don't know how, and say who you'd like. You worry it'll show how out of your depth you are. It will, a little. It's also the reason they'll come. The job gets done sooner, nobody waits for the experts, and the thing you started ends up belonging to everyone who helped.
 
 ---
 

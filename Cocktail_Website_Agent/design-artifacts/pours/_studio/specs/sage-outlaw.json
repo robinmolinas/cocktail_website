@@ -1,0 +1,36 @@
+{
+ "pairing": "sage-outlaw",
+ "family": "martini",
+ "style": "stirred",
+ "glass": "small stemmed port glass (about 150 ml), chilled, no ice",
+ "serves": 1,
+ "version": "v1 (round 2, 2026-10-02): port at the core, said twice: 20 ml young ruby, then 40 ml 10-year-old tawny, both port, from the same valley, the second a tawny at twice the measure (Codex p. 250: young ruby fresh and berried but short on structure; tawny a blend of multiple vintages). The balance is 25 ml of cold black tea, steeped long (8 minutes): it dries the ports' sweetness with water and tannin, and the Flavor Matrix files port wine and tea in the same aroma group (Phenol) on its Cocoa and Fig charts (pdf 85, 121, rendered). Orange peel oils on top. No spirit added (plan guard: nothing that argues about fortification), no elder anywhere. Style 'stirred' is run for Arnold's dilution physics; strength and acid read OUT by structure (a wine core, like the Codex's Bamboo and Night Light), sugar sits at the band's top edge, justified in Checks. Round 3: dilution OUT (29.6 vs 41-49) justified as Arnold's own formula at a 14% start (LI pdf 127); the band is that formula over 29-43%. Cold tea unsourced but is water to the tool (0/0/0). Recipe unchanged. Round 4 step 1: Hester T1 applied; style kept 'stirred' (strength, acid and dilution OUT by structure, so the pour closes flagged for Robin, by my choice: see Checks).",
+ "ingredients": [
+  {
+   "key": "port_ruby",
+   "ml": 20
+  },
+  {
+   "key": "port_tawny_10",
+   "ml": 40
+  },
+  {
+   "key": "black_tea",
+   "ml": 25
+  }
+ ],
+ "garnish": [
+  "orange_peel"
+ ],
+ "accepted": {
+  "checks": [
+   "initial abv",
+   "initial acid",
+   "finished abv",
+   "finished acid",
+   "dilution"
+  ],
+  "by": "Robin 2026-10-06",
+  "why": "a port drink with no full-strength spirit, judged by structure like a Bamboo (D4)"
+ }
+}

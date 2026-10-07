@@ -1,0 +1,806 @@
+{
+  "scope": "Read-only dimension/hash/pre-animation cover and separate sampled-motion audit. Not browser/scene/font acceptance.",
+  "date": "2026-10-06",
+  "checks": {
+    "publicValidationPairs": 17,
+    "stagedPairsProbed": 22,
+    "currentSourceHashPasses": 22,
+    "exactDimensionPairPasses": 22,
+    "outputHashPairPasses": 22,
+    "calculatedGlassPaperPasses": 154,
+    "calculatedGlassPaperTotal": 154,
+    "sampledMotionGlassPaperPasses": 112,
+    "sampledMotionGlassPaperTotal": 154
+  },
+  "selectedCandidates": [
+    {
+      "pairing": "caregiver-creator",
+      "version": "v4",
+      "measurements": "design-artifacts/_image-production/2026-10-06/caregiver-creator/v4/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-creator/v4/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "8c298875e9c4b627bb1eccf4dc7a47dd1a385ecec596f458f61cb55218c784a2",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Exaggerated glossy timber and dense etched-looking ice/condensation; preserve the compact coupe/paper/person composition while simplifying material texture.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 5
+    },
+    {
+      "pairing": "caregiver-explorer",
+      "version": "v2",
+      "measurements": "design-artifacts/_image-production/2026-10-06/caregiver-explorer/v2/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-explorer/v2/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "8861474b31e0473170e39a0a919b2e93cea2134bdbe22467653e7c6700d103b3",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Decorative-looking ice and alligator-gloss timber; reduced-detail correction required.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 4
+    },
+    {
+      "pairing": "caregiver-hero",
+      "version": "v3",
+      "measurements": "design-artifacts/_image-production/2026-10-06/caregiver-hero/v3/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-hero/v3/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "945bfc61eef4d055827dd1b3fc6210a51554dbdf5fcf57400611ab45d8e7e54e",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "full-size-candidate-review-complete; browser-and-name-acceptance-pending",
+      "issues": [
+        "Actual short/long-name glyph bounds and in-app copy/personality visibility remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 5
+    },
+    {
+      "pairing": "caregiver-innocent",
+      "version": "v4",
+      "measurements": "design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "1e16f17d4f994c89049a4443fd3129e8dbd4d05445533719f297cbfe8a0e3fc1",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "full-size-candidate-material-and-person-review-complete; actual-browser-copy-and-name-pending",
+      "issues": [
+        "V4 materially improves flat timber/plain glass; full glass/paper and recognisable coat collar plus folded cloth survive static sampled breathing checks. Full coat/cloth and optional wallet are not claimed retained.",
+        "Tight breathing left-glass clearance about5masterpx; masks/client-size/font need real browser review.",
+        "Saved older v2 screenshots show mobile title/kicker crossing paper. V4 actual page-copy and short/long-name glyph tests remain unrun; no final acceptance."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 7
+    },
+    {
+      "pairing": "caregiver-jester",
+      "version": "v3",
+      "measurements": "design-artifacts/_image-production/2026-10-06/caregiver-jester/v3/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-jester/v3/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "18414c77befb6a57b1cc76b9d080e61492082e9ac28deed9f0401bcd1213d997",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Over-rendered ice, dense glass microtexture and glossy timber; preserve repaired mitten/thermos evidence.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 4
+    },
+    {
+      "pairing": "caregiver-lover",
+      "version": "v3",
+      "measurements": "design-artifacts/_image-production/2026-10-06/caregiver-lover/v3/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-lover/v3/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "3b433893d8244d2f1333b5f730a9a37c4c5105d7bc21d4681a037ec98f1a1198",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Exaggerated glossy/alligator timber and synthetic material microcontrast; simplify contact wear and separate material sheen.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 5
+    },
+    {
+      "pairing": "caregiver-outlaw",
+      "version": "v5",
+      "measurements": "design-artifacts/_image-production/2026-10-06/caregiver-outlaw/v5/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-outlaw/v5/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "cefe2c263153b4a16592375851515068896a5d9e2e77f8511a1ac261062e65dc",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "v5 etched-looking ice and wood remain rejected. Fresh v7/v8 improve material direction but recipe-support/responsive-composition gates fail; neither supersedes v5's measured geometry record.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 4
+    },
+    {
+      "pairing": "caregiver-regular-guy",
+      "version": "v2",
+      "measurements": "design-artifacts/_image-production/2026-10-06/caregiver-regular-guy/v2/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-regular-guy/v2/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "3e81c41253c21b21c862a0c5f01c96d66715291376216049cc9d3bce440a01f5",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "full-size-candidate-review-complete; browser-and-name-acceptance-pending",
+      "issues": [
+        "Actual short/long-name glyph bounds and in-app copy/personality visibility remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 5
+    },
+    {
+      "pairing": "caregiver-sage",
+      "version": "v2",
+      "measurements": "design-artifacts/_image-production/2026-10-06/caregiver-sage/v2/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-sage/v2/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "c20da9d51b483be1580f68933993099178bbb6a53d350e682eb6ce866c7480bf",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Exaggerated glossy/alligator timber and synthetic material microcontrast; simplify contact wear and separate material sheen.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 4
+    },
+    {
+      "pairing": "explorer-caregiver",
+      "version": "v3",
+      "measurements": "design-artifacts/_image-production/2026-10-06/explorer-caregiver/v3/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-caregiver/v3/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "287cffdd464409ca3361e6bb24b41942acdbb0c95aa7df9f7bde7a365c4763af",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Exaggerated glossy/alligator timber and synthetic material microcontrast; simplify contact wear and separate material sheen.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 5
+    },
+    {
+      "pairing": "explorer-hero",
+      "version": "v5",
+      "measurements": "design-artifacts/_image-production/2026-10-06/explorer-hero/v5/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-hero/v5/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "f47bf1ef1109a2ce34aa6af2e59891b0a04104df1b1a8ebc83e7d1a7f287010b",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "No serving ice: the problem is etched squiggles on plain glass, plastic peel and exaggerated glossy wood. Narrow-phone inner card-edge clearance only about2.7 master pixels.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 5
+    },
+    {
+      "pairing": "explorer-innocent",
+      "version": "v4",
+      "measurements": "design-artifacts/_image-production/2026-10-06/explorer-innocent/v4/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-innocent/v4/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "de87cc6fccf04e23e0e1cff81ceeb756e050c1b4f263fe7616740aada153e41a",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Exaggerated glossy/alligator timber and synthetic material microcontrast; simplify contact wear and separate material sheen.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 5
+    },
+    {
+      "pairing": "hero-lover",
+      "version": "v3",
+      "measurements": "design-artifacts/_image-production/2026-10-06/hero-lover/v3/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-lover/v3/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "fc02abc1edf504d62bbfa8074b829b85e36840fad1681c48451b86775c011922",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Overdone glass/table microtexture and advertising-like sheen; keep the source-specific gloves/kept-letter evidence.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 4
+    },
+    {
+      "pairing": "hero-magician",
+      "version": "v2",
+      "measurements": "design-artifacts/_image-production/2026-10-06/hero-magician/v2/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-magician/v2/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "fce0b25adef6b3cacfcc6a899cb073799cc7d8735fc574db147816b6e8b26256",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Glass and spent lime are plausible; exaggerated uniformly distressed glossy timber still fails restrained observed-photograph treatment.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 5
+    },
+    {
+      "pairing": "hero-ruler",
+      "version": "v2",
+      "measurements": "design-artifacts/_image-production/2026-10-06/hero-ruler/v2/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-ruler/v2/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "0e224138f990e2c2e0d26064f298dbe06432a84be664195d730650b488524678",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Exaggerated glossy/alligator timber and synthetic material microcontrast; simplify contact wear and separate material sheen.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 4
+    },
+    {
+      "pairing": "innocent-hero",
+      "version": "v3",
+      "measurements": "design-artifacts/_image-production/2026-10-06/innocent-hero/v3/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-hero/v3/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "1939c06dc9322a9507492a63e6370294e6532f23e054840de1d457c3307baf2e",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Dense glass microtexture and raised glossy wood wear; especially small tag writing area needs actual long-name testing.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 7
+    },
+    {
+      "pairing": "innocent-jester",
+      "version": "v3",
+      "measurements": "design-artifacts/_image-production/2026-10-06/innocent-jester/v3/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-jester/v3/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "9272f836b83f92ab4302457bd48eeed98cf8d30fde2a71783b3d081e6401d073",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Over-glossy raised wood grain and overly warm advertising treatment; preserve plausible open glasses/kept paper/cloth evidence.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 7
+    },
+    {
+      "pairing": "innocent-sage",
+      "version": "v5",
+      "measurements": "design-artifacts/_image-production/2026-10-06/innocent-sage/v5/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-sage/v5/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "722810a4da6d35f35c0766d9f5fb9998f4d0f554a9d4980a714ecffde46477a3",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Exaggerated glossy tabletop; retain compact mirror/crumb napkin evidence and measured layout.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 7
+    },
+    {
+      "pairing": "jester-caregiver",
+      "version": "v4",
+      "measurements": "design-artifacts/_image-production/2026-10-06/jester-caregiver/v4/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-caregiver/v4/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "4f49ef8676ff8c63c1e5cfe516cafe71d626e7dbaa7acf01cc918d1cd827a6df",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Amber/orange-heavy lighting and etched-looking glass/table detail; preserve compact mechanical timer evidence.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 5
+    },
+    {
+      "pairing": "jester-creator",
+      "version": "v2",
+      "measurements": "design-artifacts/_image-production/2026-10-06/jester-creator/v2/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-creator/v2/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "3ee01989500824c123a6468224e41febcf7af2ecd0c598ec1a965e0f6597d937",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": false,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "HOLD-material-realism",
+      "issues": [
+        "Uniformly distressed glossy tabletop and excessively amber advertising finish; preserve foam/three-bean garnish and source-specific scarf/book/cufflink evidence.",
+        "Actual short/long-name glyph bounds remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 7
+    },
+    {
+      "pairing": "lover-sage",
+      "version": "v2",
+      "measurements": "design-artifacts/_image-production/2026-10-06/lover-sage/v2/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-sage/v2/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "3118a3ffce43a8289d918af6b0fcbef28aecb736e30a7b788587fad72f4c24a0",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "full-size-candidate-review-complete; browser-and-name-acceptance-pending",
+      "issues": [
+        "Actual short/long-name glyph bounds and in-app copy/personality visibility remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 4
+    },
+    {
+      "pairing": "magician-regular-guy",
+      "version": "v2",
+      "measurements": "design-artifacts/_image-production/2026-10-06/magician-regular-guy/v2/measurements.json",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-regular-guy/v2/metadata.json",
+      "masterExists": true,
+      "sourceUnchanged": true,
+      "sourceSha256": "cef277860acf2c375b1b332f9aaf90035e8160aac2e0dc06d486f2d0b415529e",
+      "cropPasses": 7,
+      "cropTotal": 7,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "exportReviewExists": true,
+      "exported": true,
+      "wideFullSizeInspectedByOwner": true,
+      "portraitFullSizeInspectedByOwner": true,
+      "rootWideInspected": true,
+      "rootPortraitInspected": true,
+      "browserNameOverlay": "not-run-local-runtime-blocked",
+      "integrationState": "not-integrated",
+      "rootVisualState": "full-size-candidate-review-complete; browser-and-name-acceptance-pending",
+      "issues": [
+        "Actual short/long-name glyph bounds and in-app copy/personality visibility remain untested."
+      ],
+      "outputHashMatch": true,
+      "motionRisk": 4
+    }
+  ]
+}

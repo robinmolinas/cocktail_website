@@ -1,0 +1,121 @@
+# tickets.toml — epic 1's planned stories, in build order.
+
+[[entry]]
+id = 1
+type = "story"
+title = "Shared core scaffold and Answers v3 vocabularies"
+description = "Creates dionysus-experience/shared/ with answers.ts (v3 vocabularies with permanent ids, Answers, RevealRequest strict zod, IntakeDiagnostics) and pairing.ts, wires tsconfig app/api/node + vitest + the import-boundary lint, and proves the path with one stub pour through a selectShortlist stub."
+verify = "npm run test passes nested-strict rejection, trace/diagnostics exclusion and pairingKey tests; tsc -b and npm run build stay green; lint shows no new errors against the 2026-09-29 baseline."
+covers = ["E1-R1", "E1-R7"]
+after = []
+hitl = false
+risk = "medium"
+unknown = "Whether adding zod/vitest and a third tsconfig disturbs the current Vite 8 build; checked first."
+references = ["Dionysus/Cocktail_Website_Agent/agent/spec/intake-contract.md", "Dionysus/Cocktail_Website_Agent/agent/ARCHITECTURE-SPINE.md#consistency-conventions"]
+
+[[entry]]
+id = 2
+type = "story"
+title = "Import the 132 authored pours with a content-gate validator"
+description = "A deterministic import script reads the 132 dossiers and specs into shared/data/pours (recipe, method, glass, closingLine, contains, anchors, epigraph, whoYouAre, yours, status, flavour strengths from flavour-rules.json) and a validator enforces completeness, dossier/spec agreement, contains vs the ingredient table, and the AD-4 floors (STRICT_STORE=1 for launch)."
+verify = "Running the import twice yields byte-identical output for 132 pairings; the validator passes in development, reports the strict-gate result, and fails on a seeded broken dossier in a test."
+covers = ["E1-R2"]
+after = [1]
+hitl = false
+risk = "high"
+unknown = "Dossiers in older layouts or with flagged gaps; each deviation is reported, never guessed."
+references = ["Dionysus/Cocktail_Website_Agent/design-artifacts/2026-09-23-cocktail-meaning-model.md", "Dionysus/Cocktail_Website_Agent/agent/matching/flavour-rules.json"]
+
+[[entry]]
+id = 3
+type = "story"
+title = "Selection core implementing matching model v1"
+description = "shared/selection imports model-v1.json and model-v1.scales.json and implements centred group scores, M/E vectors, the pair formula with flavour fit, the veto/unauthored filter, top-3 with 9-decimal comparison and pairingKey ties, and boundedPick; analyze.py and matching.py move to read the shared model and catalogue."
+verify = "The vitest coverage suite replays fixtures-v1.json and every one of the 132 leads with the same shortlist as the Python reference; veto, floor, empty-intake and determinism tests pass."
+covers = ["E1-R3", "E1-R6"]
+after = [1, 2]
+hitl = false
+risk = "medium"
+references = ["Dionysus/Cocktail_Website_Agent/agent/spec/matching-model.md", "Dionysus/Cocktail_Website_Agent/agent/matching/reachability-v1.md"]
+
+[[entry]]
+id = 4
+type = "story"
+title = "Reading assembler and tailoring guard"
+description = "shared/reading.ts adds Reading, LiveCopy, acceptTailoring and assembleReading(pairing, copy|null, name, seed), joining archetype identity, the authored pour and persona geometry (fallback image when missing)."
+verify = "Tests show copy:null returns the authored yours verbatim for every pairing, and acceptTailoring rejects paragraph-count, length and content-word violations."
+covers = ["E1-R4"]
+after = [2]
+hitl = false
+risk = "low"
+
+[[entry]]
+id = 5
+type = "story"
+title = "App reveals the selected authored pour"
+description = "App builds Answers v3 from the journey, runs selectShortlist and assembleReading locally on H6 seal, and TheReading renders a Reading (epigraph, whoYouAre, yours, The Ritual ending on closingLine); VISIONARY_SAMPLE becomes a dev-only fixture."
+verify = "Desktop 1440x900 and phone 390x844 walkthroughs with two fixture answer sets reveal two different authored pours whose recipe and reading match their dossiers verbatim, with zero console errors."
+covers = ["E1-R4", "E1-R5"]
+after = [3, 4]
+hitl = true
+risk = "high"
+notes = []
+unknown = "Integration owner for App.tsx/types.ts must be named; the matching owner builds it only if Robin assigns it."
+
+[[entry]]
+id = 6
+type = "story"
+title = "TheDepths writes v3 ids and browser-only diagnostics"
+description = "TheDepths imports the shared vocabularies, writes lens/seed/word/pole ids, and records IntakeDiagnostics (H4 readable-moment ms, status, interrupted, practice repeats; H3 gravityMoved) in browser state only, as agreed with the design owner."
+verify = "The parity test drives identical choices by mouse and by touch and gets identical Answers; a completed journey's diagnostics exist in the browser and never appear in a RevealRequest."
+covers = ["E1-R1", "E1-R7"]
+after = [1, 5]
+hitl = true
+risk = "medium"
+unknown = "Owned by the experience design conversation's TheDepths writer; sequencing against their H4 Ready/Set/Go work."
+
+[[entry]]
+id = 7
+type = "story"
+title = "Retire the legacy engine and retired answer fields"
+description = "Deletes engine/mixology.ts, data/cocktails.ts, data/questions.ts and the retired paper-quiz Answers fields, CocktailResult and agentLines, and moves archetypes/personas data into shared/data."
+verify = "A repository search finds no import of the retired modules or fields outside archived docs, and build, tests and both walkthroughs from entry 5 still pass."
+covers = ["E1-R5"]
+after = [5, 6]
+hitl = false
+risk = "low"
+
+[[entry]]
+id = 8
+type = "story"
+title = "Privacy and parity end-to-end checks"
+description = "A Playwright smoke completes the journey from a fixture on desktop and phone viewports, asserts the revealed pairing, and inspects the built RevealRequest for absence of trace, name-in-prompt fields and diagnostics."
+verify = "npx playwright test passes on both viewports in CI-equivalent local runs."
+covers = ["E1-R7", "E1-R6"]
+after = [6, 7]
+hitl = false
+risk = "medium"
+
+[[entry]]
+id = 9
+type = "story"
+title = "drawnToward word edit (Q12) and coverage re-run"
+description = "Applies the agreed drawnToward vocabulary (H5's second round since 2026-10-06) (drop Mischief; Knowledge, Influence, Making, Caring with Robin's labels) to shared/answers.ts and model data, re-runs analyze.py/render.py, refreshes fixtures, and hands the design owner the 12-sphere layout."
+verify = "Regenerated reachability shows 132/132 leading and distribution shows every primary share at least 0.05 under U; coverage tests pass with the new fixtures."
+covers = ["E1-R3", "E1-R6"]
+after = [3, 6]
+hitl = true
+risk = "medium"
+unknown = "Robin's final labels (layout fits: one word of about 9-10 chars, or two short wrapping words; no longer hint); the design owner builds the 12-word cluster modifier once the vocabulary lands. H5 concept A (ring) would need its own desktop check."
+references = ["Dionysus/Cocktail_Website_Agent/design-artifacts/evolution/analysis/2026-10-06-h5-12-word-fit/"]
+
+[[entry]]
+id = 10
+type = "story"
+title = "Refactor sweep"
+description = "Cleanup only, scoped at start from this epic's build records and deferred review findings."
+verify = "Build, tests, lint baseline and the entry 8 suite pass unchanged after the sweep."
+covers = []
+after = [2, 3, 4, 5, 6, 7, 9]
+hitl = false
+risk = "low"

@@ -1,0 +1,97 @@
+{
+  "pairing": "outlaw-innocent",
+  "pour": "Kept",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-innocent/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-09149965-4abc-4b2b-a2c4-bba2304f14e1.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "0841d19afe4dc30e061512f97e2019ebfc22ea3148f3e8e824d2954fbab9012e",
+  "sourceSha256": "4d826a6d73e4167cde3b99967ead209a59eb381d2be9eac82efc91e9eb9d3173",
+  "specSha256": "96eda36d939db02a3b9742e41812e3a019d580ebdfb73aad0931e584afe65073",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    844,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1025,
+    "cy": 504,
+    "w": 156,
+    "angle": -1.4
+  },
+  "glass": {
+    "x": 1006,
+    "y": 433
+  },
+  "bounds": {
+    "glass": {
+      "x0": 855,
+      "y0": 253,
+      "x1": 1157,
+      "y1": 614
+    },
+    "paper": {
+      "x0": 905,
+      "y0": 455,
+      "x1": 1121,
+      "y1": 550
+    },
+    "correspondence": {
+      "x0": 1136,
+      "y0": 393,
+      "x1": 1533,
+      "y1": 567
+    },
+    "letterOpener": {
+      "x0": 1180,
+      "y0": 382,
+      "x1": 1374,
+      "y1": 566
+    }
+  },
+  "recognitionRegions": {
+    "correspondence": {
+      "bounds": {
+        "x0": 1149,
+        "y0": 398,
+        "x1": 1477,
+        "y1": 556
+      },
+      "reason": "Broad opened triangular envelope flap, letter face and folded insertion; anonymous paper strip is not sufficient."
+    },
+    "letterOpener": {
+      "bounds": {
+        "x0": 1180,
+        "y0": 382,
+        "x1": 1374,
+        "y1": 566
+      },
+      "reason": "Complete point/blade-to-collar-to-grip relationship required; not a shiny handle tip."
+    }
+  },
+  "review": {
+    "recipe": "Heavy rocks glass, clear deep gold-amber drink, cloudy-centred cubes, one lemon peel strip dropped inside skin-up and no foam or bubbles broadly match settled Armagnac/yellow Chartreuse Old-Fashioned. Top ice faces remain ornate fractured/sparkly, not ordinary broad smooth freezer ice.",
+    "personality": "Retained opened personal correspondence and handled opener plausibly infer private keeping/rechecking; generic letter-reading remains a specificity risk. Depth shift achieved partly, but correspondence and opener remain well to the right.",
+    "world": "One right warm practical and dark historic timber room preserved. Table has heavy amber glossy coverage and dense patterned wear, worse than neutral low-satin target; material hold remains.",
+    "issues": [
+      "Held composition: complete union x855–1533 = 678 px; conservative whole glass/paper+two recognition union x855–1477 = 622 px, exceeding ~389 px moving-phone inner window.",
+      "Proposed 702 px portrait retains complete declared visible bounds with12–13px margins, but is not narrow-phone retention.",
+      "Whole glass361px high is much farther back than v1 but slightly above280–340px target.",
+      "Material hold: decorative fractured ice detail, saturated bright amber reflection and patterned timber sheen.",
+      "Clean tag writable axis156px below170–200px target; root actual long-name glyph test pending.",
+      "Faint mark-like smudges on letter reverse could read pseudo-writing; no legible words, retained as visual watch/hold rather than claimed blank perfection.",
+      "Personality correspondence inference is less specific than an explicit named source habit.",
+      "No JPEG export, browser/motion/name-overlay test or acceptance; sole correction exhausted."
+    ]
+  }
+}
+

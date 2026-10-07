@@ -1,0 +1,92 @@
+{
+  "pairing": "regular-guy-hero",
+  "pour": "I'll Do It",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-hero/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-119ab9fa-65c6-4b0d-bdd5-5f15aee472a8.png",
+  "masterDimensions": [
+    1602,
+    982
+  ],
+  "masterSha256": "c05e52ce0bef169d6b860d651e3a9024cac474628c02ddd5c917417a8f71e404",
+  "sourceSha256": "8a8eedf0ee37331860d256c7dee3f0aa2973c5db5678743990c2c4654f9d45b0",
+  "specSha256": "cebe74543ccf70a553696fa2bc7ad3192923c2bfd3c77c8201b20c3aa3b92b25",
+  "wideCrop": [
+    0,
+    40,
+    1600,
+    900
+  ],
+  "portraitCrop": [
+    870,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1294,
+    "cy": 606,
+    "w": 137,
+    "angle": 60
+  },
+  "glass": {
+    "x": 1048,
+    "y": 581
+  },
+  "bounds": {
+    "glass": {
+      "x0": 895,
+      "y0": 404,
+      "x1": 1200,
+      "y1": 759
+    },
+    "paper": {
+      "x0": 1194,
+      "y0": 493,
+      "x1": 1387,
+      "y1": 692
+    },
+    "usedGloves": {
+      "x0": 629,
+      "y0": 368,
+      "x1": 1140,
+      "y1": 635
+    },
+    "newGloves": {
+      "x0": 1080,
+      "y0": 334,
+      "x1": 1582,
+      "y1": 614
+    }
+  },
+  "recognitionRegions": {
+    "usedGloves": {
+      "bounds": {
+        "x0": 632,
+        "y0": 412,
+        "x1": 914,
+        "y1": 634
+      },
+      "reason": "Distinct worn glove fingers with palm/cuff continuation behind vessel; conservative full recognizable visible region."
+    },
+    "newGloves": {
+      "bounds": {
+        "x0": 1183,
+        "y0": 416,
+        "x1": 1578,
+        "y1": 613
+      },
+      "reason": "Cream string-bundled stacked work-glove cuffs/folds, finger shape partly concealed; recognition is less immediate than worn pair."
+    }
+  },
+  "review": {
+    "recipe": "Clear deep reddish-amber Manhattan, one large cube and orange peel inside; no foam/cherry. Cube has granular trapped-air/glare watch.",
+    "personality": "Used and new string-bundled gloves are two actual distinct pairs; help-with-job direction grounded in full dossier. Cream pair reads more as fabric bundle than clearly visible fingers.",
+    "world": "Dark walnut room and one practical, left dark region; table strongly glossy patterned amber and uniform glove dirt hold.",
+    "issues": [
+      "Full group 953px (629–1582), no narrow-phone fit; proposed 702px portrait clips gloves substantially.",
+      "Glass355px high above requested280–330; tag clean137px below170–200.",
+      "Cream gloves recognition weak from hidden fingers.",
+      "Granular ice, dense small glints and patterned glossy wood material hold."
+    ]
+  }
+}

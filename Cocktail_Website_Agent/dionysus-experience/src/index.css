@@ -432,7 +432,9 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
 /* H0's written line: the pill sits right under the line it seals, as one
    small form. (H7 keeps the foot of the frame — its line sits on the palest
    foam in the film, where the Veil pill disappears.) */
-.hold-next.is-inline { position: static; margin: 0; }
+.hold-next.is-inline { position: relative; margin: 0; }
+/* a 44px touch target without a taller-looking pill (the pill draws ~40px) */
+.hold-next::before { content: ''; position: absolute; inset: -4px 0; }
 
 /* THE RIPPLE. Every "that landed" moment (a drop chosen, a mote let go, an
    ember caught) is the same two thin rings spreading through the liquid,
@@ -638,6 +640,28 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
    are the family's larger size — the words sit in two lines, not three. */
 .sphere-cluster.is-lens { gap: 1rem 1.6rem; }
 .sphere-cluster.is-lens .sphere { --sphere-size: clamp(132px, 18.5vmin, 176px); padding: 0 18px; }
+/* Whole phrases at the cut's 500 read as bold (Robin, 2026-10-06): the lens
+   speaks at the question's own 400, with a touch more air for two lines. */
+.sphere-cluster.is-lens .sphere-word { font-weight: 400; line-height: 1.28; letter-spacing: 0.01em; }
+
+/* H6 flavours: the mark sits above its word, engraved rather than stamped —
+   a hairline in the word's ivory but quieter than it, so the word still leads.
+   Lit, it comes up to full ivory and catches the same faint seed glow as the
+   word: her colour as light around the line, never ink on it. */
+.sphere.is-flavour { flex-direction: column; gap: 4px; padding-top: 2px; }
+.flavour-icon {
+  display: block;
+  width: 32px; height: 32px;
+  color: #fbf4e8;
+  opacity: 0.8;
+  filter: drop-shadow(0 1px 1.5px rgba(20, 12, 6, 0.26)); /* the --legible hairline, for a line */
+  transition: opacity 0.6s var(--ease), filter 0.6s var(--ease), color 0.6s ease;
+}
+.sphere-btn:hover .flavour-icon { opacity: 0.9; }
+.sphere-btn.is-lit .flavour-icon {
+  color: #fffaf0; opacity: 0.96;
+  filter: drop-shadow(0 1px 1.5px rgba(20, 12, 6, 0.26)) drop-shadow(0 0 6px color-mix(in srgb, var(--c) 50%, transparent));
+}
 
 /* Portrait: three spheres plus gutters have to clear 375px. */
 @media (max-width: 640px) {
@@ -647,6 +671,19 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   .sphere-word { --sphere-word: clamp(13px, 3.5vw, 15px); }
   .sphere-cluster.is-lens { grid-template-columns: repeat(2, auto); gap: 0.5rem 1rem; }
   .sphere-cluster.is-lens .sphere { --sphere-size: clamp(122px, 36vw, 148px); padding: 0 14px; }
+  .flavour-icon { width: 26px; height: 26px; }
+  .sphere.is-flavour { gap: 3px; }
+}
+
+/* Short phones (iPhone SE class, 375×667): the question and its hint ran into
+   the cluster's top row — H1 at rest, H5 once the two-line count appeared
+   (2026-10-06 mobile audit). The cluster settles lower and a little tighter. */
+@media (max-width: 640px) and (max-height: 720px) {
+  /* the staggered margins alone add ~70px of height; the drift stays */
+  .sphere-cluster { top: 55.5%; gap: 0.3rem 0.6rem; }
+  .sphere-cluster:not(.is-lens) .sphere-drift { margin-top: 0; }
+  .sphere-cluster.is-lens { top: 57%; gap: 0.25rem 0.9rem; }
+  .sphere-cluster.is-lens .sphere { --sphere-size: clamp(112px, 32vw, 134px); }
 }
 
 /* ----------------------- the seed ring (H2 · which colour is yours) ----------------------- */
@@ -820,10 +857,9 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
 
 /* progress dots — one language across every multi-step hold: a 7px ringed
    circle whose active state carries her seed colour. Base shared; per-hold
-   state modifiers (.current/.kept/.secret) live with H4 below. */
+   state is set inline. (H4's kept/secret row was removed 2026-10-06.) */
 .depth-dot,
-.grav-dot,
-.hidden-dot {
+.grav-dot {
   width: 7px;
   height: 7px;
   border-radius: 50%;
@@ -866,6 +902,42 @@ button.grav-dot::after {
 .hidden-stage { z-index: 30; }
 
 .ember-field { position: absolute; inset: 0; pointer-events: none; }
+
+/* THE ON-RAMP (v4, Robin 2026-10-06). One line, born in the true middle
+   while the frame dims a little, with one short line under it; both rise to
+   where every hold keeps its question, and the rise starts the example pair.
+   Centred with the `translate` property, so the leaving animation (which
+   owns `transform`) never knocks it off centre. */
+.h4-dusk { position: absolute; inset: 0; background: #0b0806; opacity: 0; transition: opacity 1.6s cubic-bezier(0.22, 0.61, 0.36, 1); pointer-events: none; }
+.h4-dusk[data-phase='in'], .h4-dusk[data-phase='hint'] { opacity: 0.28; }
+.h4-dusk[data-phase='up'], .h4-dusk[data-phase='quiet'] { opacity: 0.16; transition-duration: 2.4s; }
+.h4-line {
+  position: absolute; left: 50%; top: 50%; width: min(640px, 88vw); translate: -50% -50%;
+  display: flex; flex-direction: column; align-items: center; gap: 0.8rem;
+  text-align: center; pointer-events: none;
+  transition: top 1.5s cubic-bezier(0.22, 0.61, 0.36, 1), translate 1.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.h4-line.up { top: 12.5%; translate: -50% 0; }
+.h4-line.is-leaving { animation: holdOut 0.6s ease forwards; }
+.h4-q {
+  margin: 0; font-family: var(--font-display); font-style: italic; font-weight: 400;
+  font-size: clamp(1.55rem, 3.6vmin, 2.2rem); line-height: 1.25; color: #fbf4e8;
+  text-shadow: var(--legible); text-wrap: balance;
+  opacity: 0; filter: blur(6px);
+  transition: opacity 1.1s ease, filter 1.1s ease, font-size 1.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.h4-line.up .h4-q { font-size: clamp(1.4rem, 3vmin, 1.85rem); }
+.h4-hint {
+  margin: 0; font-family: var(--font-text); font-weight: 400; font-size: clamp(15px, 1.9vmin, 17px);
+  line-height: 1.5; letter-spacing: 0.005em; color: rgba(245, 234, 216, 0.88);
+  text-shadow: var(--legible); text-wrap: balance;
+  opacity: 0; filter: blur(4px); transition: opacity 0.9s ease, filter 0.9s ease;
+}
+.h4-line.in .h4-q, .h4-line.hint .h4-hint { opacity: 1; filter: none; }
+.h4-line.quiet .h4-hint { opacity: 0; filter: blur(4px); transition-duration: 0.6s; }
+@media (prefers-reduced-motion: reduce) { .h4-line, .h4-q { transition-duration: 0.3s; } }
+/* the example's 1 and 2 read larger than words: a glyph, not a question */
+.ember.is-number .sphere-word { --sphere-word: clamp(2.3rem, 5.4vmin, 3.2rem); }
 
 /* TWIN SPHERES. Rev 4 (2026-09-29). The word is still the thing she reads and
    the thing that fades — but it now rides inside the same glass sphere every
@@ -975,12 +1047,6 @@ button.grav-dot::after {
    clears the dots */
 .hold-next.ember-pass { bottom: 16%; }
 
-/* H4's resting dot is a hollow ring; H3 sets its border colour inline */
-.hidden-dot { border-color: rgba(255, 235, 200, 0.28); }
-.hidden-dot.current { border-color: var(--c); box-shadow: 0 0 8px -1px var(--c); }
-.hidden-dot.kept { background: var(--c); border-color: var(--c); }
-/* the "secret" — a trait left unanswered: hollow, faint, a held breath */
-.hidden-dot.secret { border-color: rgba(255, 235, 200, 0.5); border-style: dotted; opacity: 0.5; }
 
 /* ------------------- the effervescence (H5 · the resonance) ------------------- */
 
@@ -991,6 +1057,81 @@ button.grav-dot::after {
 .res-stage,
 .fin-stage,
 .trace-stage { z-index: 30; }
+
+/* ---------------- H5 · A world of your own (ResonanceWorld.tsx) ---------------- */
+
+/* One circle of her seed colour, drawn on two canvases (her, the streams and
+   the far half of each ring behind the glass; the near half in front), with
+   the words as glass spheres between them. Everything moves by transform,
+   written each frame from the component. */
+.rw { z-index: 30; --rw-default: clamp(92px, 11vmin, 110px); }
+/* rising to H6: the hold's words go, her fizz (on the canvases) carries on
+   up through the flavours until its last bubble pops */
+.rw.is-leaving { pointer-events: none; }
+.rw.is-leaving .rw-ui, .rw.is-leaving .rw-field { opacity: 0; transition: opacity 0.8s ease; }
+.rw canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.rw-back { z-index: 1; }
+.rw-field { position: absolute; inset: 0; z-index: 2; pointer-events: none; overflow: hidden; }
+.rw-front { z-index: 3; }
+.rw-ui { position: absolute; inset: 0; z-index: 4; pointer-events: none; }
+.rw .hold-q { animation-delay: var(--hd, 0ms); }
+.rw .hold-hint { animation-delay: calc(var(--hd, 0ms) + 450ms); }
+.rw .rw-next { bottom: 6%; }
+.rw-slot { position: absolute; left: 0; top: 0; will-change: transform; }
+.rw-drift { animation: rwDriftA 6.4s ease-in-out infinite alternate; }
+.rw-slot:nth-child(even) .rw-drift { animation-name: rwDriftB; animation-duration: 7.1s; }
+.rw-slot:nth-child(3n) .rw-drift { animation-duration: 7.7s; animation-delay: -2.2s; }
+@keyframes rwDriftA { to { transform: translate(3px, -6px); } }
+@keyframes rwDriftB { to { transform: translate(-4px, 5px); } }
+/* centred with `translate`, because the entrance animation owns `transform` */
+.rw-word {
+  --sphere-size: var(--rw-size, var(--rw-default));
+  --sphere-word: clamp(14px, 1.75vmin, 16.5px);
+  display: block; margin: 0; padding: 6px; border: 0; background: none; cursor: pointer;
+  translate: -50% -50%; touch-action: none; pointer-events: auto;
+  opacity: 0; animation: sphereIn 1.1s var(--ease) var(--d, 0ms) both;
+  transition: opacity 0.7s ease, filter 0.7s ease;
+}
+.rw-word .sphere { padding: 0 10px; }
+@media (hover: hover) {
+  .rw-word:not(.is-falling):hover .sphere { border-color: var(--sphere-hover-rim); box-shadow: var(--sphere-hover-shadow); transform: scale(1.04); }
+}
+.rw-word:focus-visible { outline: none; }
+.rw-word:focus-visible .sphere { outline: 2px solid var(--c); outline-offset: 4px; }
+.rw-word.is-unseen { animation: none; opacity: 0; pointer-events: none; }
+.rw-word.is-found { animation: sphereIn 1.4s var(--ease) both; }
+.rw-word.is-dim { filter: saturate(0.6) brightness(0.78); }
+.rw-word.is-refused .sphere { animation: sphereRefuse 0.42s ease; }
+.rw-word.is-falling, .rw-word.is-lifting { animation: none; opacity: 1; pointer-events: none; transition: none; }
+.rw-word.is-inside { animation: none; opacity: 0; pointer-events: none; }
+.rw-word.is-dragging { animation: none; opacity: 1; transition: none; cursor: grabbing; }
+.rw-word.is-dragging .sphere { border-color: color-mix(in srgb, var(--c) 45%, rgba(255, 240, 220, 0.45)); }
+/* round 2: her light has gone around it */
+.rw-word.is-ringed .sphere {
+  border-color: color-mix(in srgb, var(--c) 50%, rgba(255, 240, 220, 0.42));
+  box-shadow: 0 0 34px -12px var(--c), inset 0 0 22px -14px var(--c);
+}
+.rw-word.is-leaving { animation: none; opacity: 0; filter: blur(6px); pointer-events: none; }
+/* what she holds: the words people come to her for, written inside her */
+.rw-held { position: absolute; translate: -50% -50%; display: flex; flex-direction: column; align-items: center; pointer-events: none; }
+.rw-held button {
+  pointer-events: auto; border: 0; background: none; cursor: pointer; padding: 0.1rem 0.4rem; min-height: 24px;
+  max-width: calc(var(--rw-r, 92px) * 1.75); line-height: 1.15; text-wrap: balance;
+  font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: clamp(11.5px, calc(var(--rw-r, 92px) * 0.27), 15.5px); color: #fffaf0;
+  text-shadow: 0 1px 2px rgba(22, 11, 4, 0.42), 0 0 8px rgba(10, 6, 4, 0.26);
+  animation: heroFadeUp 0.9s var(--ease) both;
+}
+.rw-held button.is-settled { animation: none; }
+.rw-held.is-locked button { pointer-events: none; }
+/* condensing: what is written in her dissolves into her light */
+.rw-held { transition: opacity 0.9s ease, filter 0.9s ease, scale 1.1s cubic-bezier(0.45, 0, 0.35, 1); }
+.rw-held.is-dissolving { opacity: 0; filter: blur(5px); scale: 0.4; }
+.rw-held button:focus-visible { outline: 1px solid rgba(255, 240, 220, 0.6); outline-offset: 2px; border-radius: 999px; }
+@media (max-width: 640px) {
+  .rw { --rw-default: clamp(80px, min(24vw, 11vh), 100px); }
+  .rw .rw-next { bottom: 4.5%; }
+}
+@media (prefers-reduced-motion: reduce) { .rw-drift { animation: none; } }
 
 /* -------------------------------- the pour (H6 · the finish) -------------------------------- */
 
@@ -1373,7 +1514,7 @@ button.grav-dot::after {
 /* the way down to the recipe. It carried a blinking seed-coloured dot, which
    asked for attention without saying anything; the arrow's slow bob is the
    cue, the words say what is below. */
-.tr-cue {--d: 2.7s; position: relative; display: inline-flex; align-items: center; gap: 0.55rem; margin-top: clamp(1.4rem, 2.8vh, 2.2rem);
+.tr-cue {--d: 2.2s; position: relative; display: inline-flex; align-items: center; gap: 0.55rem; margin-top: clamp(1.4rem, 2.8vh, 2.2rem);
   font-family: var(--font-label); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase;
   color: var(--candle-ivory); opacity: 0.72;
   text-decoration: none; pointer-events: auto; white-space: nowrap;
@@ -1387,8 +1528,9 @@ button.grav-dot::after {
 /* SHARE + SAVE on the first screen. They are the page's two jobs — share
    brings the next guest, save is her keepsake — so they sit with the title
    instead of four screens down, after the letter. (They repeat at the end.) */
-.tr-hero-actions { --d: 2.2s; display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: clamp(1.6rem, 3.2vh, 2.4rem); pointer-events: auto; }
-.tr-scrolled .tr-hero-actions, .tr-scrolled .tr-cue { pointer-events: none; }
+.tr-scrolled .tr-cue { pointer-events: none; }
+/* Only portrait phones need a way from the image-only opening to its caption. */
+.tr-scene-cue { display: none; }
 
 @keyframes tr-rise { from { opacity: 0; transform: translateY(22px); filter: blur(12px); } to { opacity: 1; transform: none; filter: none; } }
 @keyframes tr-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(3px); } }
@@ -1509,6 +1651,9 @@ button.grav-dot::after {
   background: none; border: 0; padding: 0.28rem 0; color: var(--keepsake-muted); cursor: pointer;
   border-bottom: 1px solid rgba(245,234,216,0.18);
   transition: color 0.45s var(--ease), border-color 0.45s var(--ease); }
+/* 44px touch target; the quiet underline keeps its size */
+.tr-quiet { position: relative; }
+.tr-quiet::before { content: ''; position: absolute; inset: -8px -10px; }
 .tr-quiet:hover { color: var(--candle-ivory); border-bottom-color: var(--c); }
 .tr-quiet:focus-visible { outline: 2px solid var(--c); outline-offset: 4px; border-radius: 999px; }
 
@@ -1551,11 +1696,43 @@ button.grav-dot::after {
 }
 
 @media (max-width: 480px) {
-  .tr-hero-actions { flex-wrap: nowrap; gap: 0.6rem; }
-  .tr-hero-actions .cta { padding: 0.85rem 1.3rem; }
-  .tr-hero-actions .cta-tail { display: none; }
   /* at 375px gives ~30px vs 38.4px default; meets the outer clamp floor at 480px */
   .tr-title { font-size: clamp(2rem, 8vw, 2.4rem); }
+}
+
+/* Portrait phones: one full-bleed named scene, then its caption, then the
+   reading. Copy never sits over paper, glass or personal traces. These are
+   consecutive parts of the same dark room, not a contained photo or card.
+   Keep the existing image crop, ink mapping and arrival/breathing scales. */
+@media screen and (max-width: 900px) and (orientation: portrait) {
+  .tr-stage { position: absolute; bottom: auto; height: 100svh; }
+  .tr-hero {
+    position: relative; bottom: auto;
+    padding: 1.5rem var(--gutter) 1.5rem;
+    max-width: none; opacity: 1;
+  }
+  .tr-title { scroll-margin-top: max(6rem, env(safe-area-inset-top)); }
+  /* Long names/titles and larger text grow the caption instead of colliding
+     with the photograph or the next section. Never truncate authored copy. */
+  .tr-kicker, .tr-title, .tr-for { overflow-wrap: anywhere; }
+  .tr-reading { padding-top: clamp(3rem, 7svh, 4rem); }
+  .tr-scrolled .tr-cue { pointer-events: auto; }
+  .tr-scene-cue {
+    position: absolute; z-index: 5;
+    left: var(--gutter);
+    top: calc(100svh - 44px - max(1rem, env(safe-area-inset-bottom)));
+    display: inline-flex; min-height: 44px; margin: 0;
+    opacity: 0.9; text-shadow: 0 1px 2px rgba(13,11,9,0.5);
+    animation: tr-rise 1.35s var(--ease) both;
+  }
+  .tr-scene-cue::before { inset: 0 -12px; }
+  .tr-intro .tr-scene-cue { animation-delay: calc(5.9s + var(--greet)); }
+  /* The caption now has its own dark space. Do not bury the physical tag to
+     make overlaid copy readable. Only the nav end of the scene needs a veil. */
+  .tr-vig { background: linear-gradient(to bottom, rgba(6,5,5,0.28), transparent 18%); }
+  /* Reading no longer crosses the image on phones, so a scroll-driven black
+     scrim over the name is unnecessary as well. */
+  .tr-scrim { background: none; }
 }
 
 /* the spine needs a margin to live in; below the two-column breakpoint the
@@ -1567,7 +1744,7 @@ button.grav-dot::after {
 @media (prefers-reduced-motion: reduce) {
   .tr-frame { animation: none; transform: scale(var(--rest)); }
   .tr-cue svg { animation: none; }
-  .tr-hero-inner > * { animation: none !important; opacity: 1; transform: none; filter: none; }
+  .tr-hero-inner > *, .tr-scene-cue { animation: none !important; opacity: 1; transform: none; filter: none; }
   .tr-intro .tr-frame { animation: none; opacity: 1; filter: none; transform: scale(var(--rest)); }
   .tr-tagname.tr-inking { animation: none; opacity: 1; clip-path: inset(-25% -10% -25% 0); }
   .tr-intro::after { animation-duration: 0.35s; }
@@ -1670,7 +1847,7 @@ button.grav-dot::after {
   }
   .tr-root { color: var(--ink); min-height: auto; }
   /* the full-bleed scene, stage overlays, and arrival veil are visual-only */
-  .tr-stage, .tr-intro::after, .tr-greet { display: none !important; }
+  .tr-stage, .tr-intro::after, .tr-greet, .tr-scene-cue { display: none !important; }
 
   /* the head of the sheet: the drink on the left, its name beside it, rather
      than a centred stamp with the title stranded underneath */
@@ -1777,7 +1954,7 @@ button.grav-dot::after {
   .tr-private { color: #6a5f52 !important; }
 
   /* screen-only furniture */
-  .tr-actions, .tr-hero-actions, [class*="dev-nav"], [class*="DevNav"] { display: none !important; }
+  .tr-actions, [class*="dev-nav"], [class*="DevNav"] { display: none !important; }
   /* force the keepsake's brass/ink colours to print exactly (these two
      declarations were previously loose inside the @media block — invalid CSS
      that the bundler flagged; scoped to the root here so they actually apply) */

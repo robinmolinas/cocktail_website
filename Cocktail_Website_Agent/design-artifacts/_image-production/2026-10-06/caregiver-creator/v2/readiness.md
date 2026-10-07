@@ -1,0 +1,1 @@
+Complete current dossier (220 lines) and 4-line spec reread before correction. Recipe/editorial status unchanged. Built-in edit of v1, staged exact returned source. Actual master 1672 × 941 verified with ffprobe. Central coordinator alone exports.

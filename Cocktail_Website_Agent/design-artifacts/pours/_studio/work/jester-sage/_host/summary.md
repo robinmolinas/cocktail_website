@@ -1,0 +1,11 @@
+- **The persona:** the Cynic spots what doesn't add up and has the joke ready first, so people assume they expect the worst. Underneath is a picture of how it should be, never given up and kept quiet: a joke is hard to laugh at, a hope is easy. Their quiet fear is that one day it won't be funny any more (Wren, round 1).
+- **The story:** Charles K. Field's four-line verse after San Francisco's 1906 fire, answering the preachers who called it a punishment: why burn the churches and save Hotaling's whiskey? Two decades after the fire he became *Cheerio*, radio's anonymous voice of poetry, with no press pictures and his fee given to charity. This was the plan's lead, on web pages only (Minnick 2024; OAC Stanford M1533). The reading takes the city's side against being blamed and never mocks faith. The runner-up, DeVoto's *The Hour*, wasn't needed.
+- **The drink:** a dry bourbon Manhattan with one change: bourbon 60, dry vermouth 22.5, 7.5 ml fresh pear syrup made the night before, 2 dashes Angostura, stirred, chilled cocktail glass, the lemon peel's oil on and the peel taken away. Dry on top, the pear in every sip and on no rim. Veto-free; balanced (24.1%, 4.0 g).
+- **What failed and why:**
+  - Hester struck her own spans: "twenty-one years later" and "still quoting it today, a hundred and more years on" counted from a poem nobody has dated → every span now counts from the fire (F1, F2).
+  - "Famous at once" and "the whole city repeated it" were never on a page: struck in round 2.
+  - whoYouAre ran 197 words in v1 and was tightened in v2.
+- **"This is me":** "A joke is hard to laugh at; a hope is easy."
+- **Names:** *Against My Better Judgement*, 2–1 (Wren, Hester); Tomás voted *Between the Lines*. Hester's first pick was *And Yet*. Also considered: *The Small Print*, *Over Frisky*, *Half Serious*.
+- **Edges:** no library page for the story; the web sources were read once, for the family plan, and not re-fetched; bourbon is Tomás's choice, not a claim about the warehouse.
+- **Rule candidates:** none raised.

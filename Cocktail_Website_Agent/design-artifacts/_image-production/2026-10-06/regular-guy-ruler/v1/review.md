@@ -1,0 +1,3 @@
+# Initial master
+
+Actual1712×919 independently probed and viewed at original resolution. Correct rosy-red no-garnish/no-ice Jack Rose in chilled coupe, fine shake bubble edge, no egg head. Ordinary black receiver and opened blank reverse correspondence clearly recognizable, but far to the left. Full scene cluster nearly1000px; not phone safe. Glass roughly385px wide and515px tall; tag extends right of bowl. Fine glass speckling and broad warm glossy tabletop reflection are material risks. Exact source: /Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-fb983fcc-60b5-4ab0-868d-1e8e134428e6.png. Preserved, no overwrite.

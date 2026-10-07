@@ -1,0 +1,3 @@
+# Source readiness — unchanged for sole correction
+
+Full source readiness recorded in ../v1/readiness.md; same settled V-shaped glass, clear pale gold still Martini, internal lemon and no serving ice. Current dossier SHA-256: `197036bde4960b67e2f351f9c90f2a080adc26d3b29d73329f1d8c648b0ecf55`; spec: `8f6341416adf2b4baa3c139657380932d7ddf9701ef3facfa1c232a86854a463`. Both complete sources were read before generation and remain unchanged. The inspected v1 was corrected once for camera framing and restrained materials, preserving recipe and habit inferences. No editorial acceptance or integration.

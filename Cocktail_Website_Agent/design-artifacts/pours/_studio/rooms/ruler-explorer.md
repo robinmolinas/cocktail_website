@@ -9,6 +9,9 @@ mode: batch            # pour | batch | rework
 
 # The room: The Reformer (ruler-explorer)
 
+## Collection review edits, 2026-10-06 (Tomás)
+- **Tomás (Codex pass / open items, 2):** **Shared row `apricot_eau_de_vie` → none** (D1/check 4: Oxford pdf 133 makes it from apricots and pomace and names no kernels; the other reasons were botany, a tasting note or my own knowledge). *Not the Same* is now **veto-free**: `veto_free: true`, `contains: []` in the frontmatter and cocktail block; spark anchor's allergen clause, Checks › Allergens and an Open items Resolved bullet updated. `allergens.py` → `[]`, matches. Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1 (psychologist-persona-card.md)) · [x] story + sourced anchors (Hester r3 (historian-anchors.md A1–A18, fact card henry-africa-fern-bars-lemon-drop)) · [x] drink + four checks (Tomás r3 (mixologist-draft.md, spec; balanced)) · [x] reading (Wren r5 (psychologist-reading-v3.md)) · [x] fact audit (Hester r4–r5 (historian-audit-v1.md, -v2.md)) · [x] resonance test (Wren r4–r5 (reading v2–v3)) · [x] names (≥3 + pick) (Not the Same (all three, r4)) · [x] image brief (Tomás r3 (mixologist-draft.md))
 - **Last change to the pour:** r5 (reading v3, draft v1.2)

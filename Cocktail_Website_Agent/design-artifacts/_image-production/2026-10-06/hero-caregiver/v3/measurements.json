@@ -1,0 +1,92 @@
+{
+  "pairing": "hero-caregiver",
+  "pour": "Next One's Mine",
+  "sourceSha256": "63d9cd12eb4e350247ca03ddd6889a43276e3f6023449672c7295a3bbb72dce3",
+  "masterDimensions": [
+    1672,
+    940
+  ],
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-caregiver/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-f17cb256-7538-42ea-aea5-fb0e21bfa6cb.png",
+  "masterSha256": "2579755925cb31224205e61ca78325fd181ace93a828757d1e89ae5f95cdce09",
+  "portraitCrop": [
+    830,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1118,
+    "cy": 626,
+    "w": 116,
+    "angle": 7.5
+  },
+  "glass": {
+    "x": 1031,
+    "y": 497
+  },
+  "bounds": {
+    "glass": {
+      "x0": 927,
+      "y0": 267,
+      "x1": 1136,
+      "y1": 727
+    },
+    "paper": {
+      "x0": 1011,
+      "y0": 562,
+      "x1": 1194,
+      "y1": 677
+    },
+    "wallet": {
+      "x0": 1122,
+      "y0": 536,
+      "x1": 1398,
+      "y1": 705
+    },
+    "barTab": {
+      "x0": 1242,
+      "y0": 657,
+      "x1": 1445,
+      "y1": 727
+    }
+  },
+  "recognitionRegions": {
+    "wallet": {
+      "bounds": {
+        "x0": 1134,
+        "y0": 541,
+        "x1": 1398,
+        "y1": 704
+      },
+      "reason": "Visible bifold cover, fold hinge and dark empty card compartments together; not reduced to a leather strip."
+    },
+    "barTab": {
+      "bounds": {
+        "x0": 1258,
+        "y0": 660,
+        "x1": 1439,
+        "y1": 725
+      },
+      "reason": "Plain reverse folded paper end and visible crease remain a separate recognizable object beside wallet."
+    }
+  },
+  "review": {
+    "recipe": "One straight heavy highball, clear amber with red cast, full ice/fine soda bubbles, one long yellow lemon peel curled INSIDE. No foam, straw or rim fruit. Settled 45 ml rye/45 ml sweet red vermouth/two dashes Angostura/120 ml soda unchanged. Ice and bubbles remain overly sparkly/granular despite attempted simplification.",
+    "personality": "Small used bifold wallet and genuinely blank reverse folded tab now recognizable without fake text. Wallet/card opening plus full tab crease/end still spread right; person traces are not phone-safe. No anonymous fragment counted.",
+    "world": "Historic timber room and plain paper/leather/glass are distinct. Strong warm reflections and dense glass/ice microdetail remain a realism hold; not accepted merely because production succeeded.",
+    "issues": [
+      "Whole glass/paper/wallet/tab union x927–1445 is518 px; honest recognition union x927–1439 is512 px. This exceeds approximately434 px static and389 px breathing phone cover.",
+      "Ice/glass retain sparkly granular detail; material realism gate not passed.",
+      "Warm broad table reflections and multiple practical-looking background lights survive edit; image is still warmer/busier than brief.",
+      "Actual complete glass is460 px high, not requested425; portrait paper writable axis only116 px, long-name fit pending loaded-font review.",
+      "Exports/browser/name overlay and final visual acceptance pending root; browser deferred by user."
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Master candidate inspected. Recipe, personality and fixed-world findings are in measurements.review. This is NOT an accepted exported pair. No export or resize executed; one bounded composition correction saved as v2. Exact original tool-return path is measurements.generatedSource.

@@ -1,0 +1,38 @@
+{
+ "pairing": "hero-magician",
+ "family": "daiquiri",
+ "subfamily": "a Daiquiri variation by structure (Codex: rum core, lime balance, sweet vermouth and liqueurs as sweetener and seasoning); the Floridita cocktail as Oxford prints it (FLORIDITA pdf 821; the entry's only cited source is Trader Vic's 1972 Bar Guide), the drink of Constante's that isn't in any of his booklets",
+ "style": "shaken",
+ "glass": "nick-and-nora glass (about 150 ml), chilled",
+ "serves": 1,
+ "version": "v1 (Tomás, round 2, 2026-10-04). Oxford's printed measures (FLORIDITA pdf 821, whose only cited source is Trader Vic's 1972 Bar Guide: juice of one lime, 30 ml white Cuban or Puerto Rican rum, 15 ml red vermouth, 7.5 ml white crème de cacao, one teaspoon each orange curaçao and grenadine, shaken, strained, orange peel twist), every one kept except the lime. 'Juice of one lime' at today's yield (Joy pdf 412: Regan's yield table, 1 ounce, 30 ml) reads OUT: 13.3% ABV and 1.39% acid against 15.0-19.7 and 0.76-0.94. Half a lime (15 ml), squeezed by hand with the fingers as Constante did (Oxford RIBALAIGUA pdf 1655), lands mid-range on every number: 15.4%, 8.54 g, 0.858%. Whether limes in 1938 Havana gave less juice is unsourced (ask Hester; never claimed). Swept lime 12.5-17.5, rum 37.5-41%, every liqueur and syrup's sugar. One change of mine beyond the lime: the twist is lime peel, cut from the other half of the same lime, in place of Vic's orange (Matrix pdf 80: citrus pairs best with dark chocolate; citrus aroma lives in the zest's oils); it takes the drink off the El Presidente's orange twist (In a Minute). Nick-and-nora, not Oxford's coupe (coupe and cocktail glass taken by white-rum Daiquiris).",
+ "ingredients": [
+  {
+   "key": "rum_white",
+   "ml": 30
+  },
+  {
+   "key": "sweet_vermouth",
+   "ml": 15
+  },
+  {
+   "key": "creme_de_cacao_white",
+   "ml": 7.5
+  },
+  {
+   "key": "orange_curacao",
+   "ml": 5
+  },
+  {
+   "key": "grenadine",
+   "ml": 5
+  },
+  {
+   "key": "lime_juice",
+   "ml": 15
+  }
+ ],
+ "garnish": [
+  "lime_peel"
+ ]
+}

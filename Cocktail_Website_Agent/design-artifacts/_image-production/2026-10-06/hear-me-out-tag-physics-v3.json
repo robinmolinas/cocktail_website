@@ -1,0 +1,54 @@
+{
+  "id": "hear-me-out-tag-physics-v3",
+  "date": "2026-10-07",
+  "pairing": "outlaw-sage",
+  "pour": "Hear Me Out",
+  "previousVersion": "v2",
+  "currentVersion": "v3",
+  "generatedCalls": 1,
+  "userRequested": true,
+  "countIncrease": 0,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sourceSha256": "75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c",
+  "specSha256": "19cc3a721388ed1476111dafcda2feb8e33252164ba2b0373d4c7f0d5b03adff",
+  "masterSha256": "b19683d480e57ce3ca043aea3cb7f42e445911a096c45eba8a2ef5ab3bae3431",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-cac32a27-a709-4c6e-ac6c-bf7e5d26c355.png",
+  "master": "outlaw-sage/v3/master.png",
+  "measurements": "outlaw-sage/v3/measurements.json",
+  "rootReview": "outlaw-sage/v3/root-master-review.md",
+  "prompt": "outlaw-sage/v3/prompt.md",
+  "tagPhysics": {
+    "mechanism": "snug exterior lower-third cylindrical body loop, friction-held; knot at front-right; short downward tether through punched hole; paper hangs and lower edge rests timber",
+    "loopBounds": {
+      "x0": 885,
+      "y0": 575,
+      "x1": 1132,
+      "y1": 608
+    },
+    "knot": {
+      "x": 1105,
+      "y": 598
+    },
+    "paperHole": {
+      "x": 1125,
+      "y": 627
+    },
+    "rimAttachmentRemoved": true,
+    "visibleFrontArc": true,
+    "farArcOccluded": true,
+    "continuousSupportChainObserved": true,
+    "gravityPlausible": true,
+    "paperSeparate": true,
+    "lowerEdgeContact": "timber at about y727; not falsely claimed free-floating",
+    "uncertainty": "Photograph supports a snug loop, not a measured friction/load test. Name glyph fit untested."
+  },
+  "reviewScope": "actual original PNG inspected + manual measurements; plausible visible mechanism, not a friction/load proof, glyph/browser pass or acceptance",
+  "previousRimAttachmentClaimCorrected": true,
+  "recipeChanged": false,
+  "exported": false,
+  "accepted": false,
+  "integrated": false
+}

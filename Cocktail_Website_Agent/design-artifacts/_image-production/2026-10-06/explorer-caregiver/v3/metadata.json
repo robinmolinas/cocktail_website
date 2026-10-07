@@ -1,0 +1,302 @@
+{
+  "pairing": "explorer-caregiver",
+  "pour": "Left Standing",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "287cffdd464409ca3361e6bb24b41942acdbb0c95aa7df9f7bde7a365c4763af",
+  "review": {
+    "recipe": "Correct tulip copita; clear nearly colourless still tequila/blanc/peach serve, chilled no ice or garnish.",
+    "personality": "Repaired olive walking pouch, rubbed leather binoculars and reused paper pouch; no costume or ingredient tableau.",
+    "world": "Historic private reading-room on worn dark walnut, one warm practical source and neutral near-black shadows.",
+    "issues": []
+  },
+  "measurements": {
+    "pairing": "explorer-caregiver",
+    "pour": "Left Standing",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-caregiver/v3/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-a18f16a4-a446-46ad-a414-191c75db77ea.png",
+    "sourceSha256": "287cffdd464409ca3361e6bb24b41942acdbb0c95aa7df9f7bde7a365c4763af",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      715,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1166,
+      "cy": 689,
+      "w": 188,
+      "angle": 4
+    },
+    "glass": {
+      "x": 973,
+      "y": 501
+    },
+    "bounds": {
+      "glass": {
+        "x0": 850,
+        "y0": 267,
+        "x1": 1094,
+        "y1": 754
+      },
+      "paper": {
+        "x0": 1035,
+        "y0": 634,
+        "x1": 1274,
+        "y1": 737
+      }
+    },
+    "review": {
+      "recipe": "Correct tulip copita; clear nearly colourless still tequila/blanc/peach serve, chilled no ice or garnish.",
+      "personality": "Repaired olive walking pouch, rubbed leather binoculars and reused paper pouch; no costume or ingredient tableau.",
+      "world": "Historic private reading-room on worn dark walnut, one warm practical source and neutral near-black shadows.",
+      "issues": []
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1338.9473684210525,
+        "cy": 791.6170212765957,
+        "w": 215.88516746411483,
+        "angle": 4.002120747517062
+      },
+      "glass": {
+        "x": 1117.3205741626793,
+        "y": 575.6170212765958
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 575.6353276353276,
+        "cy": 879.5744680851063,
+        "w": 239.95441595441596,
+        "angle": 4.000757411088073
+      },
+      "glass": {
+        "x": 329.2991452991453,
+        "y": 639.5744680851064
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/explorer-caregiver/portrait.jpg",
+    "wide": "/personas/explorer-caregiver/wide.jpg",
+    "wideTag": {
+      "cx": 0.6973684210526315,
+      "cy": 0.7329787234042553,
+      "w": 0.11244019138755981,
+      "angle": 4.002120747517062
+    },
+    "wideGlass": {
+      "x": 0.5819377990430622,
+      "y": 0.5329787234042553
+    },
+    "tag": {
+      "cx": 0.6424501424501424,
+      "cy": 0.7329787234042553,
+      "w": 0.2678062678062678,
+      "angle": 4.000757411088073
+    },
+    "glass": {
+      "x": 0.36752136752136755,
+      "y": 0.5329787234042553
+    }
+  },
+  "hashes": {
+    "master": "03652f96b89ab8ec67ef31190954f22502e8881e6371ab68e6057b10d2e4c8ab",
+    "wide": "c8432afd82da71de5f336c2562c84b820a393488a4cb77badf1b2736ddfbe228",
+    "portrait": "84689d1e5037ad61e7b350b6a1152b358f81ac68ea31ac37f1263ad4a6b16ef2"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 976.0765550239234,
+          "y0": 306.7659574468085,
+          "x1": 1256.2679425837318,
+          "y1": 866.2978723404256
+        },
+        "paper": {
+          "x0": 1188.5167464114834,
+          "y0": 728.4255319148937,
+          "x1": 1462.9665071770335,
+          "y1": 846.7659574468086
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 733.3971291866029,
+          "y0": 255.63829787234042,
+          "x1": 966.88995215311,
+          "y1": 721.9148936170212
+        },
+        "paper": {
+          "x0": 910.4306220095694,
+          "y0": 607.0212765957447,
+          "x1": 1139.1387559808613,
+          "y1": 705.6382978723404
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1041.1483253588517,
+          "y0": 273.85702127659573,
+          "x1": 1340.0191387559807,
+          "y1": 870.6910638297873
+        },
+        "paper": {
+          "x0": 1267.751196172249,
+          "y0": 723.6272340425533,
+          "x1": 1560.4976076555024,
+          "y1": 849.8570212765958
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1748.8038277511962,
+          "y0": 321.92234042553184,
+          "x1": 2250.8133971291863,
+          "y1": 1324.4170212765957
+        },
+        "paper": {
+          "x0": 2129.4258373205744,
+          "y0": 1077.395744680851,
+          "x1": 2621.1483253588517,
+          "y1": 1289.422340425532
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.46568453722445075,
+        "y": 0.5329787234042553
+      },
+      "bounds": {
+        "glass": {
+          "x0": 9.338526875593516,
+          "y0": 239.73191489361702,
+          "x1": 228.37776714150044,
+          "y1": 676.9957446808511
+        },
+        "paper": {
+          "x0": 175.4133606837607,
+          "y0": 569.2510638297873,
+          "x1": 389.9640919278252,
+          "y1": 661.731914893617
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.46701786177064486,
+        "y": 0.5329787234042553
+      },
+      "bounds": {
+        "glass": {
+          "x0": 9.648705033238372,
+          "y0": 264.7276595744681,
+          "x1": 251.52615992402656,
+          "y1": 747.5829787234043
+        },
+        "paper": {
+          "x0": 193.03939829059829,
+          "y0": 628.604255319149,
+          "x1": 429.96034795821464,
+          "y1": 730.7276595744681
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.36752136752136755,
+        "y": 0.5329787234042553
+      },
+      "bounds": {
+        "glass": {
+          "x0": 43.29754985754986,
+          "y0": 161.33617021276595,
+          "x1": 190.70784425451095,
+          "y1": 455.60851063829784
+        },
+        "paper": {
+          "x0": 155.0635517568851,
+          "y0": 383.09787234042557,
+          "x1": 299.4531433998101,
+          "y1": 445.336170212766
+        }
+      }
+    }
+  ]
+}

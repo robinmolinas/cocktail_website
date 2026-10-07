@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Fairy Godparent (magician-caregiver)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D1: Peychaud's is none (a row is classed only on a stated ingredient), so the file's `[]` agrees with the tool; Checks › Allergens records it (this also answers Q012).
+- **Edits** (before → after, short): whoYouAre ¶2 (variety, V2): cut "So let me say plainly what you give."; "a moment that is completely their own, and not many people give like that." → "a moment that is completely their own."
+- **Left for Robin:** tagline (Q156, D11: unchanged).
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1 (persona card)) · [x] story + sourced anchors (Pink Lady 1911 / Hazel Dawn, corrected r3 (Hester; ruled by Wren)) · [x] drink + four checks (v1: 15 dulce / 45 seco / Peychaud's + Angostura, shaken; 27.5% / 4.32 g / 0% (Tomás r6)) · [x] reading (v3 (Wren r5)) · [x] fact audit (v1: Not yet (X1–X2 + five small) on reading v1 / spec v0) · [x] resonance test (in reading v3 (Wren r5)) · [x] names (≥3 + pick) (Their Night (all three); also Unasked, Under Another Name, Nobody Asked) · [x] image brief (in mixologist-draft.md (Tomás r4))
 - **Last change to the pour:** r7 (reading v4: R1–R4; draft D1–D2)

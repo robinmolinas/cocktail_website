@@ -1,0 +1,26 @@
+{
+ "pairing": "jester-outlaw",
+ "personality": "The Scandalmonger",
+ "archetypes": "Jester × Outlaw",
+ "date": "2026-10-04",
+ "batch": "jester",
+ "name": "Quote Me",
+ "tagline": "Rooms get more honest around you. Rarely politer.",
+ "epigraph": "The cocktail's earliest known definition in print comes with a dig at the other side.",
+ "glassware": "small tumbler (about 200 ml), chilled in the freezer, no ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "harry-croswell-cock-tail.md",
+ "language_row": "Wren's Resonance on reading v3: ready. Recognised, not flattered: a dinner of eight, the fork put down, the gasp, the potatoes passed round. \"This is me\": \"It comes out like a verdict, but you mean it as a question.\" The gift said out loud (\"you take the blame for the first line\") with Hamilton's own rule as the honest edge (\"some nights it's only for the gasp\"), not a scolding. Sceptic: \"you enjoy shocking people\" fits anyone; the dare hidden in the verdict, going too far so the honest view sounds mild, and the agreement saved for the coats don't. Fenced out: the Stand-up's polite evening, the Alternative Comic's unplanned laugh, the Subverter's joke, the Wise Fool's face-saving, the Lone Voice's thanks later, the Trickster's \"ignored\"; no party names, no Callender, no year for the conviction, never \"first cocktail\". The drink is the jibe's own definition with one change out in the open (the banana), a gasp you can stand behind. Pronoun warnings accepted: \"he\"/\"his\" in y2–y4 are Harry Croswell. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/harry-croswell-cock-tail.md`: Wondrich, *Imbibe!* pdf 168–170, 176; Oxford Companion, COCK-TAIL (pdf 493–494), BANANA (pdf 202); John R. Vile, \"People v. Croswell (1804)\", *The First Amendment Encyclopedia* (MTSU), 2009, updated 2024 (live page blocked; read via a Wayback snapshot of 7 Feb 2026, text saved in `work/jester-outlaw/historian-src-mtsu-croswell.txt`). Drink: *Cocktail Codex* pp. 5, 35 (Bananarac), 109–110; Arnold, *Liquid Intelligence* p. 153. Room notes: `work/jester-outlaw/`.",
+ "names_note": "**Quote Me**, 3–0 (Wren's pick; Tomás and Hester voted for it). It's what Croswell's answer became, said in the guest's voice (Hester). Also considered: *Present Company* (Tomás's first pick: the polite phrase that excuses the people in the room), *It Is Said* (Hester's first pick, the story's phrase), *To Their Faces*, *Said at the Table*, *On the Table*.",
+ "open_items": [
+  "**For Robin: the Giffard Banane du Brésil label is unchecked** (ABV, sugar, allergens): no library page has them and the web budget went on MTSU. The new `banane_du_bresil` row is safe-side; what's in it (banana, sugar, a spirit) touches no veto. Any banana liqueur works.",
+  "**The libel case rests on one web page** (MTSU, read via Wayback); neither library book mentions it. \"Convicted\", never a year; he printed it, never that it was true; no side taken.",
+  "**Croswell's is the earliest known *definition*, not the first mention** (the 1803 *Farmer's Cabinet* item has the word, with no ingredients). Never \"first cocktail\" or \"coined\".",
+  "**The rum, its age and the banana are Tomás's**, never \"his rum\": nothing says his cock-tails were rum. No banana liqueur is on record in 1806 (Oxford pdf 202).",
+  "**Strength:** 26.6% ABV, stirred-strength with no ice (freeform in balance.py), justified in Checks: the 1806 four things with the water measured in, served from a freezer-chilled tumbler.",
+  "**Kept out on purpose:** Callender, the Hemings scandal, party names, the 1805 law's sequence (dropped from the reading, moved to the dossier), Hamilton's death, the *Wasp*'s motto, the ledger's \"Grog\"."
+ ]
+}

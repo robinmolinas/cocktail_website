@@ -9,6 +9,7 @@
  ],
  "_rules": [
   "Vetoes are medical: classify on the safe side (Robin 2026-09-24)",
+  "A row is classed only on a stated ingredient: a published ingredient list, the maker's declaration, a 'may contain' label on the recommended bottle, or a book that names it. Never on a tasting note, a rumoured historical formula or 'secret recipe' alone (Robin 2026-10-06)",
   "nutmeg, coconut, orgeat, amaretto, hazelnut liqueur, pine nuts -> nuts",
   "cream liqueurs, butter-washed spirits -> dairy",
   "undistilled beer/malt -> gluten; distilled grain spirits are NOT gluten",
@@ -274,8 +275,10 @@
    "abv": 40,
    "sugar": 24.5,
    "acid": 0,
-   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
-   "contains": [],
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137); allergen reclassified to nuts by Tomás 2026-10-01 (hero-regular-guy, on Hester's finding): Oxford BÉNÉDICTINE pdf 256 lists nutmeg among its twenty-seven plants and spices, and the studio rule is nutmeg -> nuts",
+   "contains": [
+    "nuts"
+   ],
    "kind": "liquid"
   },
   "maraschino": {
@@ -357,7 +360,7 @@
    "abv": 35,
    "sugar": 9.0,
    "acid": 0,
-   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137)",
+   "source": "Liquid Intelligence, ingredient table (pdf 140-141, pp. 136-137); allergens: Oxford PEYCHAUD'S BITTERS (pdf 1502) describes 'anise, nutmeg, and clove notes' from a proprietary recipe, so nutmeg can't be ruled out: nuts on the safe side (Tomás, ruler-outlaw r3, 2026-10-01; reclassified from none) | RULED none (Robin 2026-10-06, collection review D1/D8): a row is classed only on a stated ingredient (a published ingredient list, the maker's declaration, a 'may contain' label on the recommended bottle, or a book naming the ingredient), never on a tasting note, a rumoured historical formula or 'secret recipe' alone; the earlier safe-side reasoning is kept above for the record. Basis here: tasting notes only.",
    "contains": [],
    "kind": "liquid"
   },
@@ -1073,9 +1076,8 @@
    "abv": 0.0,
    "sugar": 52.0,
    "acid": 0.0,
-   "source": "Hirpara et al., J. Pharmacognosy and Phytochemistry 9(5) 2020, pp. 3145-3148, Table 1 (Hester's card F19, secondary): solid jaggery 65-85 g sucrose + 9-15 g reducing sugars per 100 g; Hester's hand calculation for 1:1 by weight = ~47-57 g/100 ml (dissolved-volume figure unsourced); row uses 52, swept 47-58 in caregiver-outlaw. Allergens, safe side: makers clarify with chemicals or, for organic jaggery, plant extracts including groundnut and soybean (F20) -> nuts (soy has no veto); milk clarification in some traditional making (Tomás, own knowledge, unsourced, not in F20's list) -> dairy kept until a source rules it out. A vegan label does not rule out groundnut.",
+   "source": "Hirpara et al., J. Pharmacognosy and Phytochemistry 9(5) 2020, pp. 3145-3148, Table 1 (Hester's card F19, secondary): solid jaggery 65-85 g sucrose + 9-15 g reducing sugars per 100 g; Hester's hand calculation for 1:1 by weight = ~47-57 g/100 ml (dissolved-volume figure unsourced); row uses 52, swept 47-58 in caregiver-outlaw. Allergens, safe side: makers clarify with chemicals or, for organic jaggery, plant extracts including groundnut and soybean (F20) -> nuts (soy has no veto); milk clarification in some traditional making (Tomás, own knowledge, unsourced, not in F20's list) -> dairy kept until a source rules it out. A vegan label does not rule out groundnut. | dairy RULED out (Tomás 2026-10-06, under Robin's evidence rule, D1): milk clarification was my own knowledge, and Hester's source (F20) lists the clarificants without milk; groundnut is named there, so nuts stays. Back to dairy if a page or a label names milk.",
    "contains": [
-    "dairy",
     "nuts"
    ],
    "kind": "liquid",
@@ -1152,6 +1154,2341 @@
    "added_by": "Tomás, caregiver-regular-guy, 2026-09-30",
    "g_per_count": 4,
    "ml_per_g": 0.63
+  },
+  "toasted_oat_cream": {
+   "name": "heavy cream steeped with toasted rolled oats, strained",
+   "abv": 0.0,
+   "sugar": 3.0,
+   "acid": 0.0,
+   "source": "cream's table value (unsourced standard); the cold steep's added starch/sugar unmeasured, taken as nil (unsourced). Oats -> gluten on the safe side (cross-contact with wheat is common; some coeliacs react to oats), strained or not",
+   "contains": [
+    "dairy",
+    "gluten"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, caregiver-regular-guy, 2026-09-30"
+  },
+  "maraschino_luxardo": {
+   "name": "Maraschino liqueur (Luxardo)",
+   "abv": 32.0,
+   "sugar": 28.0,
+   "acid": 0.3,
+   "source": "ABV: label; sugar and acid: unsourced estimate; allergen reclassified to nuts by Tomás 2026-09-30 (magician family plan): distilled from marasca cherries with their crushed stones, same safe-side call as the generic maraschino row (Cocktail Codex p. 174)",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, caregiver-sage, 2026-09-30"
+  },
+  "creme_de_cassis": {
+   "name": "crème de cassis (blackcurrant liqueur)",
+   "abv": 16.0,
+   "sugar": 40.0,
+   "acid": 0.0,
+   "source": "Oxford CRÈME DE CASSIS pdf 597: French law requires at least 400 g sugar per litre, used at the floor (40 g/100 ml). ABV 16% unsourced standard value (typical 15-20%).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, caregiver-innocent, 2026-09-30"
+  },
+  "beef_broth_canned": {
+   "name": "beef broth or consommé (canned, store-bought)",
+   "abv": 0.0,
+   "sugar": 0.5,
+   "acid": 0.0,
+   "source": "values unsourced (broth: ~0 abv, trace sugar, no titratable acid); canned broth or consommé is the traditional choice (Oxford BEEF BROTH pdf 244). Allergens safe side, brands vary: wheat-based yeast extract or hydrolysed protein (gluten), consommé clarified with egg white (egg-white), milk powder or lactose in some stock bases (dairy). A named, labelled product can narrow this.",
+   "contains": [
+    "gluten",
+    "egg-white",
+    "dairy"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, caregiver-sage, 2026-09-30"
+  },
+  "old_tom_ransom": {
+   "name": "Ransom Old Tom gin (44%)",
+   "abv": 44.0,
+   "sugar": 1.75,
+   "acid": 0.0,
+   "source": "abv: label 44% (unsourced, my knowledge). Sugar unpublished: 1.75 g/100 ml is the midpoint of my 0-3.5 sweep, whose top is Oxford OLD TOM GIN pdf 1436's historical ~35 g/L; every point balances. 'A little barrel age' (Imbibe pdf 68), 'lightly aged' (Codex p. 68). Distilled grain spirit, so not gluten (rule 4).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, caregiver-sage, 2026-09-30"
+  },
+  "elderflower_liqueur": {
+   "name": "elderflower liqueur (St-Germain style)",
+   "abv": 20.0,
+   "sugar": 18.0,
+   "acid": 0.0,
+   "source": "ABV 20%: Cocktail Codex p. 95 (St-Germain). Sugar 18 g/100 ml UNSOURCED estimate (swept 15-25 in explorer-caregiver); acid unsourced, taken as 0. Flavour: Codex p. 175 (sweet, floral; in tiny amounts adds juiciness without noticeable sweetness).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-caregiver, 2026-09-30"
+  },
+  "siembra_azul_blanco": {
+   "name": "Siembra Azul Blanco tequila (100% agave)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "ABV 40% (80 proof): Tequila Matchmaker, NOM 1414 (Feliciano Vivanco), read by Hester, explorer-caregiver round 6 (card F25; secondary). Sugar/acid: straight spirit (LI pdf 140 note). Character: Codex p. 164 ('clean and floral in aroma and fruity on the palate'; works in stirred cocktails; produced by David Suro).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-caregiver, 2026-09-30"
+  },
+  "creme_de_peche": {
+   "name": "crème de pêche (peach liqueur)",
+   "abv": 18.0,
+   "sugar": 30.0,
+   "acid": 0.0,
+   "source": "UNSOURCED estimates: ABV 18% (bottles run about 15-20%), sugar 30 g/100 ml (a 'crème de' liqueur is very sweet; EU minimum 250 g/L is my knowledge, unsourced); swept 15-20% and 25-40 g in explorer-caregiver. Character: Codex p. 174 (Massenez: little cooked flavour, useful in stirred cocktails). Allergens: none. It's made from the fruit; the kernel liqueur is crème de noyaux (nuts, own row). A bottle made with the stones would go to nuts.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-caregiver, 2026-09-30"
+  },
+  "roasted_apple": {
+   "name": "roasted apple, peeled and cored (flesh only, mashed into the drink)",
+   "abv": 0.0,
+   "sugar": 11.0,
+   "acid": 0.4,
+   "source": "unsourced standard values: cooked apple flesh without skin ~10-12 g sugars per 100 g, malic acid ~0.3-0.5%; volume ~1.0 ml per g (unsourced; apple flesh near water's density)",
+   "contains": [],
+   "kind": "solid",
+   "added_by": "Tomás, lover-caregiver, 2026-09-30",
+   "ml_per_g": 1.0
+  },
+  "vanilla_extract": {
+   "name": "pure vanilla extract",
+   "abv": 35.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "35%: the US minimum for vanilla extract, 21 CFR 169.175 (eCFR, read 2026-09-30; Hester, explorer-creator audit v1 D2); 0 g sugar (none required by the rule; at 0.6 ml a drink any added sugar moves nothing)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-creator, 2026-09-30"
+  },
+  "cointreau": {
+   "name": "Cointreau (40%)",
+   "abv": 40.0,
+   "sugar": 25.0,
+   "acid": 0.0,
+   "source": "40%: Oxford Companion, COINTREAU pdf 551 (Hester, explorer-creator r4); sugar 25 g/100 ml: Liquid Intelligence, ingredient table (pp. 136-137)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-creator, 2026-09-30"
+  },
+  "mint_leaves": {
+   "name": "fresh mint leaves (spearmint), shaken and fine-strained out",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "herb leaf shaken with the drink and fine-strained out; scent and a little taste, no sugar, acid or strength; not modelled in balance",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, lover-creator, 2026-09-30"
+  },
+  "sugar_rim_coarse": {
+   "name": "coarse sugar on the outside of the rim, set with lemon",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "plain sucrose on the glass's outside rim (Regan, Joy pdf 137: exterior only, so it isn't part of the recipe); eaten at the lip, not dissolved in the drink, so not modelled in balance; see the rim sweep in Checks",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, lover-creator, 2026-09-30"
+  },
+  "mint_syrup": {
+   "name": "mint syrup (1:1 simple syrup blended cold with fresh mint leaves, fine-strained)",
+   "abv": 0.0,
+   "sugar": 61.5,
+   "acid": 0.0,
+   "source": "sugar as LI's 1:1 simple syrup (ingredient table pdf 140-141); the mint (about 20 g leaves per 250 g sugar + 250 g water, blended cold and strained, after the Codex's cold-blended syrup method p. 47) adds scent and a little taste, no sugar, acid or strength (unsourced, my own adaptation)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-creator, 2026-09-30"
+  },
+  "mezcal_del_maguey_chichicapa": {
+   "name": "Del Maguey Chichicapa mezcal (single village, joven)",
+   "abv": 48.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "48% per a US retailer listing (Caskers: 750 ml, 'Proof 96 (48% ABV)', which notes strength may vary; secondary, found by Hester, explorer-regular-guy r5); straight spirit: no sugar, minimal acid (LI pdf 140 note)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-regular-guy, 2026-09-30"
+  },
+  "local_honey_syrup": {
+   "name": "honey syrup (equal volumes runny honey and warm water, stirred smooth, cooled)",
+   "abv": 0.0,
+   "sugar": 58.0,
+   "acid": 0.0,
+   "source": "computed, unsourced: honey ~82% sugar (LI p. 53, pdf 57) x ~1.42 g/ml (unsourced) = ~116 g/100 ml, halved by an equal volume of water = ~58 g/100 ml; LI's own honey syrup 61.5",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-regular-guy, 2026-09-30"
+  },
+  "salt_pinch": {
+   "name": "a small pinch of fine salt, stirred into the drink",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "plain sodium chloride, about 0.3 g (unsourced); seasoning only, not modelled in balance (Oxford PALOMA pdf 1470 recipe: a pinch of salt)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, explorer-regular-guy, 2026-09-30"
+  },
+  "grapefruit_wedge": {
+   "name": "grapefruit wedge",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "-",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, explorer-regular-guy, 2026-09-30"
+  },
+  "honey_syrup_3to1": {
+   "name": "honey syrup, roughly three parts by volume light runny honey (wildflower or a light clover) to one of water, shaken in a closed jar until smooth",
+   "abv": 0.0,
+   "sugar": 87.0,
+   "acid": 0.0,
+   "source": "computed, unsourced: honey ~116 g/100 ml (LI p. 53: ~82% sugar, x ~1.42 g/ml unsourced) x 3/4 = ~87 g/100 ml; ratio from A Proper Drink p. 96 (Gold Rush); 'by volume' from Cocktail Codex p. 45",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-regular-guy, 2026-09-30"
+  },
+  "bourbon_elijah_craig": {
+   "name": "Elijah Craig Small Batch bourbon (47%)",
+   "abv": 47.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "A Proper Drink p. 96 prints 'Elijah Craig single batch recommended'; 47% (94 proof) is the current Small Batch label, my knowledge, unsourced; distilled grain spirit, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-regular-guy, 2026-09-30"
+  },
+  "bourbon_40": {
+   "name": "straight bourbon at 40% (80 proof, the legal floor)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "unsourced standard value: US minimum bottling strength for bourbon, 80 proof; distilled grain spirit, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-regular-guy, 2026-09-30"
+  },
+  "bourbon_bib": {
+   "name": "bottled-in-bond bourbon (50%)",
+   "abv": 50.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "unsourced standard value: bottled-in-bond is bottled at exactly 100 proof; distilled grain spirit, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-regular-guy, 2026-09-30"
+  },
+  "anis_dulce": {
+   "name": "Spanish anís dulce, 35% (sweet anise spirit, the ojen style)",
+   "abv": 35.0,
+   "sugar": 29.0,
+   "acid": 0.0,
+   "source": "ABV: Spain RD 164/2014 art. 6 (anís dulce 35-45%, >200 g/l sugar, no ceiling; Hester F20), 35% as the page's style. Sugar 29 g/100 ml DERIVED, not printed (Hester F23: Anís del Mono Dulce retailer label 35%, 308 kcal/100 ml; ethanol ~193 kcal leaves ~29 g sugar; our arithmetic). Treat as unsourced; swept 25-35. Aniseed/star anise/fennel, sugar, neutral spirit: no veto (spice = heat only)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-caregiver, 2026-09-30"
+  },
+  "anis_seco": {
+   "name": "Spanish anís seco (dry anise spirit, 40-50%)",
+   "abv": 50.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Spain RD 164/2014 art. 6 (Hester F20-F21): a seco may carry up to 50 g/l sugar and 1-3 g/l essential oils. 0 g used as the dry end, unsourced; swept 0-5 g and 40-50% in the room. Aniseed and neutral spirit: no veto",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-caregiver, 2026-09-30"
+  },
+  "orange_half_slice": {
+   "name": "orange half-slice (garnish)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish only: a half-moon slice of fresh orange set in the glass; not modelled in balance",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, hero-creator, 2026-09-30"
+  },
+  "pineapple_piece": {
+   "name": "small piece of fresh pineapple (garnish)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish only: a small wedge of fresh (or tinned, drained) pineapple set in the glass; not modelled in balance",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, hero-creator, 2026-09-30"
+  },
+  "cherry_fresh": {
+   "name": "fresh cherry (garnish)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish only: one fresh sweet cherry, stalk on; stone fruit, not a nut (maraschino-style cherries are NOT this row: maraschino is classed nuts in this table)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, hero-creator, 2026-09-30"
+  },
+  "mint_sprig_bruised": {
+   "name": "fresh mint sprig, lightly bruised and left in the glass",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "herb sprig pressed lightly and set in the drink (the 1934 reader's way, Imbibe! pdf 244); scent and a little taste as it sits, no sugar, acid or strength; not modelled in balance",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, hero-creator, 2026-09-30"
+  },
+  "orange_wheel_muddled": {
+   "name": "fresh orange wheel, cut in eight and muddled (counted as the juice it releases)",
+   "abv": 0.0,
+   "sugar": 12.4,
+   "acid": 0.8,
+   "source": "juice values from Liquid Intelligence ingredient table (fresh orange juice, pdf 140-141); the ml a muddled wheel releases (about 15 ml from a 1 cm wheel of a medium orange) is my unsourced estimate, swept 10-20 ml; the peel's oils carry aroma, not sugar or acid. Method: Oxford BRONX COCKTAIL pdf 358",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-caregiver, 2026-09-30"
+  },
+  "coriander_seed": {
+   "name": "coriander seeds, lightly cracked (shaken with the drink, fine-strained out)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "spice seed, muddled and shaken for aroma and fine-strained out; not modelled in balance (unsourced). Pairing: Flavor Matrix pdf 80 (coriander seeds listed as a substitute for citrus); Oxford GIN pdf 894 (coriander for its lemony notes)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, jester-caregiver, 2026-09-30"
+  },
+  "bourbon_blantons": {
+   "name": "Blanton's Original Single Barrel bourbon (46.5%)",
+   "abv": 46.5,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "93 proof, 46.5%: Breaking Bourbon review, 2021 (secondary, enthusiast site; Hester r3, card F19-F24); straight bourbon, no sugar or acid (LI pdf 140 note); distilled grain spirit, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-hero, 2026-09-30"
+  },
+  "caramel_syrup": {
+   "name": "caramel syrup (sugar cooked in a pan to deep amber, then dissolved in hot water; about 70 Brix)",
+   "abv": 0.0,
+   "sugar": 61.5,
+   "acid": 0.0,
+   "source": "Liquid Intelligence ingredient table p. 137 (pdf 141): '70 Brix caramel syrup' at 61.5% sugar, 'sweetness is low because of sugar breakdown during caramelization—a guess'; method after LI p. 347 (pdf 351), scaled for home without a refractometer: my arithmetic, unsourced. Plain white sugar and water only",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-hero, 2026-09-30"
+  },
+  "rosemary_syrup": {
+   "name": "fresh rosemary syrup (1:1, rosemary sprigs steeped in hot simple syrup, strained)",
+   "abv": 0.0,
+   "sugar": 61.5,
+   "acid": 0.0,
+   "source": "sugar as 1:1 simple syrup (Liquid Intelligence table, same basis as mint_syrup); rosemary adds scent and taste, no sugar or acid (unsourced craft standard)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-creator, 2026-10-01"
+  },
+  "gin_london_dry_40": {
+   "name": "London dry gin at 40% (strength-sweep row)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar; 40% is the common lower bottling strength",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-creator, 2026-10-01"
+  },
+  "rosemary_sprig": {
+   "name": "fresh rosemary sprig (garnish, for scent)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish: scent only, no sugar, acid or strength counted",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, magician-creator, 2026-10-01"
+  },
+  "tomato_juice": {
+   "name": "tomato juice (bottled, plain; not a seasoned Bloody Mary mix)",
+   "abv": 0.0,
+   "sugar": 3.0,
+   "acid": 0.4,
+   "source": "unsourced standard value (plain bottled tomato juice ~2.5-3.6 g sugars/100 ml, ~0.35-0.45% titratable acid as citric; my knowledge); no tomato row in LI's table (pp. 136-137)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-explorer, 2026-10-01"
+  },
+  "manzanilla": {
+   "name": "manzanilla sherry (or any fino)",
+   "abv": 15.0,
+   "sugar": 0.1,
+   "acid": 0.5,
+   "source": "unsourced standard value, as the fino row (bone-dry, ~15%); Codex p. 221 suggests manzanilla in a Bloody Mary 'to up the savory ante'. Wine fining ignored (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-explorer, 2026-10-01"
+  },
+  "celery_salt": {
+   "name": "celery salt, a small pinch, shaken into the drink",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "ground celery seed and salt; seasoning only, not modelled in balance. Celery is not in the AD-4 veto enum (egg-white, dairy, gluten, nuts, spice); no heat, so not spice",
+   "contains": [],
+   "kind": "solid",
+   "added_by": "Tomás, lover-explorer, 2026-10-01"
+  },
+  "cherry_heering": {
+   "name": "Cherry Heering (Danish cherry liqueur, 24%)",
+   "abv": 24.0,
+   "sugar": 25.0,
+   "acid": 0.0,
+   "source": "ABV 24%: label (unsourced in the library). Sugar ~25 g/100 ml: back-calculated by Tomás from Liquid Intelligence's Blood and Sand (p. 133: start 90 ml at 12.3 g/100 ml; LI table sweet vermouth 16%, orange 12.4%), so an estimate on an estimate (Arnold calls liqueur sugars educated guesses, pdf 140). Allergen nuts on the safe side, Tomás's call: a cherry liqueur whose stones may be crushed in with the fruit (unsourced), same call as maraschino in this table. | RULED none (Tomás 2026-10-06, under Robin's evidence rule, D1): no page names stones or kernels for Cherry Heering. Oxford CHERRY BRANDY pdf 445-446 files Heering as the cherry-flavoured kind (cherries macerated in a spirit, or cherry juice, then sweetened; today on neutral spirit), and gives cracked pits only for true cherry brandy (kirsch) and maraschino, which stay nuts. The earlier safe-side call is kept above for the record; it goes back to nuts if a maker's list or label names stones.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-regular-guy, 2026-10-01"
+  },
+  "coffee_beans_whole": {
+   "name": "whole roasted coffee beans (garnish, floated; not ground, not brewed)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish only, nothing measurable enters the drink; floating on a shaken sour is unsourced (Tomás's craft knowledge). Coffee touches no studio veto (not nuts, dairy, gluten, egg or heat)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, jester-creator, 2026-10-01"
+  },
+  "madeira_rainwater": {
+   "name": "rainwater Madeira",
+   "abv": 18.3,
+   "sugar": 5.8,
+   "acid": 0.65,
+   "source": "Barbeito Rainwater 3 Anos producer's sheet (secondary, one bottle, Hester explorer-innocent r3-r4): 18.27% ABV, 5.8 g/100 ml sugar, total acidity 6.46 (units not printed; read as g/L tartaric = 0.65%), used as the style's representative; swept 2-8 g and 0.5-0.9%. Rainwater is defined by colour and sweetness (1.0-2.5 deg Baume), Portaria 38/2015. Wine: fining ignored (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-innocent, 2026-10-01"
+  },
+  "orange_curacao": {
+   "name": "orange curaçao (dry-style, brandy-based)",
+   "abv": 40.0,
+   "sugar": 25.0,
+   "acid": 0.0,
+   "source": "unsourced: 40% typical (Pierre Ferrand Dry Curaçao, the Imbibe! pdf 217 pick, label not on a page); sugar taken as LI's Cointreau (25 g/100 ml, pp. 136-137), swept 20-35 g and 30-40%",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-innocent, 2026-10-01"
+  },
+  "caol_ila_12": {
+   "name": "Caol Ila 12 Islay single malt Scotch whisky (43%)",
+   "abv": 43.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "label ABV 43% (Diageo US, Systembolaget 37701, LCBO 602029, fetched 2026-10-01; Hester F23, magician-regular-guy); straight spirit: no sugar, minimal acid (LI pdf 140 note); distilled grain (malted barley) spirit, not gluten (STUDIO-RULES 4); no labelled fining",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-regular-guy, 2026-10-01"
+  },
+  "irish_pot_still_whiskey": {
+   "name": "Irish single pot still whiskey (style, 40%+)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "style floor 40% (the legal minimum; common bottlings 40-46%, unsourced); straight spirit (LI pdf 140 note); distilled grain spirit (malted and unmalted barley), not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-regular-guy, 2026-10-01"
+  },
+  "demerara_sugar": {
+   "name": "demerara sugar (loose)",
+   "abv": 0.0,
+   "sugar": 100.0,
+   "acid": 0.0,
+   "source": "pure cane sugar; dissolved volume 0.63 ml per g (as sugar_cube; LI 0.62 ml/g); ~4 g per level teaspoon (unsourced)",
+   "contains": [],
+   "kind": "solid",
+   "added_by": "Tomás, magician-regular-guy, 2026-10-01"
+  },
+  "red_wine_young_spanish": {
+   "name": "young unoaked Spanish red wine (joven: Tempranillo or Garnacha style)",
+   "abv": 13.0,
+   "sugar": 0.2,
+   "acid": 0.55,
+   "source": "unsourced standard values: ABV 13% (joven reds run ~12.5-14%, own knowledge); sugar and acid as LI's dry red (Cabernet row, pdf 140-141). Style from Creasey, Guardian 2012 (fact card F10: the house wine is the one you mix) and Codex p. 18 (no grand wine). Wine fining ignored (STUDIO-RULES 4); sulphites have no veto.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-creator, 2026-10-01"
+  },
+  "coca_cola": {
+   "name": "Coca-Cola (full-sugar cola)",
+   "abv": 0.0,
+   "sugar": 10.6,
+   "acid": 0.05,
+   "source": "unsourced: sugar 10.6 g/100 ml is Coca-Cola Original Taste's label value (own knowledge, not read on a page this session); acid ~0.05% phosphoric, own estimate (Codex p. 194: phosphoric acid gives most of a commercial soda's acidity). Allergens: carbonated water, sugar, caramel colour, phosphoric acid, natural flavourings, caffeine: none on the veto list; caffeine is not a veto. Caramel colour: the maker states its colas gluten-free (own knowledge, unsourced); no gluten class. RECLASSIFIED nuts (Tomás, outlaw-jester r3, 2026-10-01), safe side: two published historical 7X formulas (Beal notebook, Atlanta Journal-Constitution 1979; Pemberton notebook via Pendergrast; both via This American Life 'The Recipe') list nutmeg oil; Coca-Cola denies they are the formula (Reuters via NBC, 2011); today's recipe is secret; nutmeg counts as nuts (Robin). Hester fact card lord-invader-rum-and-coca-cola C1-C2. Affects innocent-creator (The Way It Felt): note to Robin. | RULED none (Robin 2026-10-06, collection review D1/D8): a row is classed only on a stated ingredient (a published ingredient list, the maker's declaration, a 'may contain' label on the recommended bottle, or a book naming the ingredient), never on a tasting note, a rumoured historical formula or 'secret recipe' alone; the earlier safe-side reasoning is kept above for the record. Basis here: rumoured historical formulas only.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-creator, 2026-10-01"
+  },
+  "kalimotxo_ice": {
+   "name": "ice cubes frozen from equal parts young Spanish red and Coca-Cola",
+   "abv": 6.5,
+   "sugar": 5.4,
+   "acid": 0.3,
+   "source": "computed: equal parts of red_wine_young_spanish and coca_cola (volume contraction ignored). Counted as melted in the spec: it melts into the same composition. Freezes in a home freezer: LI p. 141 (a mix freezes if under 15.5% ABV and 9 g/100 ml sugar; this is 6.5% and 5.4 g).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-creator, 2026-10-01"
+  },
+  "ginger_ale": {
+   "name": "ginger ale (commercial, pale dry style, sweetened, non-alcoholic)",
+   "abv": 0.0,
+   "sugar": 9.0,
+   "acid": 0.2,
+   "source": "unsourced standard values (typical pale dry label ~8.5-9.5 g sugar/100 ml; acid estimated). Gingerol is 'a relative of capsaicin' (Flavor Matrix pdf 132): heat, spice on the safe side",
+   "contains": [
+    "spice"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-caregiver, 2026-10-01"
+  },
+  "zirbenz": {
+   "name": "Zirbenz Stone Pine Liqueur of the Alps (recommended; or any Alpine stone-pine liqueur, Zirbenlikör)",
+   "abv": 35.0,
+   "sugar": 15.0,
+   "acid": 0.0,
+   "source": "ABV: importer's product page and 2026 catalogue p. 12 (35.0%). Sugar UNSOURCED design value 15 g/100 ml: EU liqueur floor 100 g/L (Reg. (EU) 2019/787, my own knowledge, unverified here); an unvetted web page claims 120 g/L but also 38% ABV against the label's 35%, so not used; swept 10-30 in hero-explorer. Allergens: made by steeping the young whole cones of the Arolla stone pine (importer catalogue, PUNCH 2015; de.wikipedia: cones sliced 3-5 mm, 5-6 weeks in grain spirit); the seeds inside are pine nuts (en.wikipedia Pinus cembra) -> nuts (STUDIO-RULES 4). Applies to every stone-pine liqueur.",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-explorer, 2026-10-01"
+  },
+  "allspice_dram": {
+   "name": "allspice dram (pimento dram; e.g. St. Elizabeth style)",
+   "abv": 22.5,
+   "sugar": 25.0,
+   "acid": 0.2,
+   "source": "Oxford PIMENTO DRAM pdf 1513: allspice (Pimenta dioica) berries extracted with high-proof spirit, most often rum, plus sugar and lime juice; flavour 'reminiscent of' cloves, cinnamon and nutmeg (a resemblance, not nutmeg). ABV 22.5% (St. Elizabeth label, my own knowledge, unsourced); sugar 25 g/100 ml and acid 0.2% unsourced estimates (importer: 'without excess sugar'). Allspice is a baking spice, not heat: no spice veto. Swept in hero-explorer (tiny dose).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-explorer, 2026-10-01"
+  },
+  "pineau_des_charentes_blanc": {
+   "name": "Pineau des Charentes (blanc)",
+   "abv": 17.5,
+   "sugar": 13.0,
+   "acid": 0.45,
+   "source": "Codex p. 74; Oxford MISTELLE pdf 1314-1315, PINEAU pdf 1518 (16-22%). ABV 17.5 within the sourced band. Sugar 13 g/100 ml: above the AOC control-plan floor of 120 g/L for white Pineau (INAO/Qualisud PCPineau/P300-8, via Hester, innocent-explorer r4); exact typical value unsourced. Acid 0.45%: unsourced standard value (EU single document gives no minimum total acidity).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-explorer, 2026-10-01"
+  },
+  "cognac_sichuan_pepper": {
+   "name": "cognac steeped with Sichuan peppercorns (strained)",
+   "abv": 41.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "cognac as LI (41%); Sichuan peppercorn adds aroma and tingle only, no sugar/acid (unsourced); spice on the safe side: a guest avoiding heat would reasonably fear a peppercorn (Matrix pdf 140 pairs it with grape)",
+   "contains": [
+    "spice"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-explorer, 2026-10-01"
+  },
+  "apricot_steeped_rye": {
+   "name": "straight rye whiskey steeped with dried apricots, strained (60 g chopped dried apricots per 250 ml rye, room temperature, 6-8 hours)",
+   "abv": 48.0,
+   "sugar": 4.0,
+   "acid": 0.15,
+   "source": "Tomás estimate, unsourced: rye at the table's 50% (LI pdf 140) less ~4% for fruit water; dried apricot ~53% sugar by mass (unsourced USDA-style value), ~30% of it extracted into ~240 ml recovered = ~4 g/100 ml; fruit acid ~0.15%. Ratio from Codex p. 99 (dried fruit 1:4 by weight). nuts on the safe side: dried fruit is commonly packed alongside nuts, and apricot kernels are an almond stand-in (stone fruit and almonds botanically related, Codex p. 37) | RULED none (Tomás 2026-10-06, under Robin's evidence rule, D1/check 4): no stated ingredient. 'Dried fruit is commonly packed alongside nuts' has no source (Hester searched the library and the web, applied/_hester.md), and Codex p. 37's 'botanically related' is a flavour note; only the dried flesh is steeped, no kernel. The earlier safe-side call is kept above for the record. A 'may contain nuts' label on the guest's own pack still applies: the recipe note tells a nut-allergic maker to check it.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-regular-guy, 2026-10-01"
+  },
+  "abbey_ale": {
+   "name": "malty Belgian-style abbey ale (dubbel style, low hops, about 6.5-8%)",
+   "abv": 7,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Counted as Arnold counts it: his Red-Hot Ale stats (LI pdf 191: 3.5 g/100 ml sugar, 0.33% acid) come from the syrup and lemon alone, so the ale's own sugar and acid are about nil in his arithmetic; ABV 7% unsourced (dubbel style, 6.5-8%); Ommegang Abbey Ale named there. Worst case swept at the table's 'beer' values (1 g, 0.3%).",
+   "contains": [
+    "gluten"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-jester, 2026-10-01"
+  },
+  "dry_cider": {
+   "name": "dry (brut) hard apple cider, still or lightly sparkling, about 5-6.5%",
+   "abv": 5.5,
+   "sugar": 1,
+   "acid": 0.45,
+   "source": "unsourced standard values (dry cider ~0.5-2 g/100 ml residual sugar, titratable acid ~0.3-0.6% as malic); Arnold's Red-Hot Cider stats (LI pdf 192) count the cider's sugar and acid as about nil, so this row is stricter than his; swept in explorer-jester",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-jester, 2026-10-01"
+  },
+  "red_bordeaux": {
+   "name": "young red Bordeaux (claret: Cabernet Sauvignon and Merlot blend, dry)",
+   "abv": 13.5,
+   "sugar": 0.2,
+   "acid": 0.55,
+   "source": "sugar and acid as Liquid Intelligence's dry red (Cabernet Sauvignon row, pdf 140-141); ABV 13.5% unsourced standard value (young Bordeaux reds run ~12.5-14.5%, own knowledge). Wine fining ignored (STUDIO-RULES 4); no named bottle.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-hero, 2026-10-01"
+  },
+  "rye_40": {
+   "name": "straight rye whiskey at 40% (80 proof)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "unsourced standard value: US straight rye bottled at the 80-proof floor; distilled grain spirit, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-hero, 2026-10-01"
+  },
+  "borovicka": {
+   "name": "borovička (juniper spirit, 'the Czechoslovak version of gin'; a style, no brand)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford pdf 1710: 'borovička, the Czechoslovak version of gin'; ABV 40% unsourced standard value (labels run about 37.5-40%); distilled, so no gluten (STUDIO-RULES 4); no sugar or acid as a straight spirit (LI pdf 140)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-hero, 2026-10-01"
+  },
+  "borovicka_375": {
+   "name": "borovička at 37.5% (strength-sweep row)",
+   "abv": 37.5,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "strength-sweep row, unsourced standard value",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-hero, 2026-10-01"
+  },
+  "mango_syrup": {
+   "name": "blended mango syrup (equal weights ripe peeled mango flesh and white sugar, blended cold until smooth, pressed through a fine sieve; fridge, up to 2 weeks; method of Cocktail Codex p. 47, Blended Strawberry Syrup)",
+   "abv": 0.0,
+   "sugar": 71.0,
+   "acid": 0.25,
+   "source": "method Codex pp. 46-47; values unsourced standard estimate: mango flesh ~14 g sugar/100 g and ~0.4% acid, halved by the sugar, density ~1.27. contains nuts ON THE SAFE SIDE: mango is in the cashew and pistachio family and cross-reactions are reported (unsourced, Tomás's call)",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-hero, 2026-10-01"
+  },
+  "rich_syrup": {
+   "name": "rich simple syrup (2:1 by weight)",
+   "abv": 0.0,
+   "sugar": 89.0,
+   "acid": 0.0,
+   "source": "Liquid Intelligence p. 51: rich simple is 2 parts sugar to 1 part water by weight; 200 g sugar (~124 ml at LI 0.62 ml/g) + 100 g water ~ 224 ml -> ~89 g/100 ml (computed)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-lover, 2026-10-01"
+  },
+  "creme_de_mure": {
+   "name": "crème de mûre (blackberry liqueur)",
+   "abv": 16.0,
+   "sugar": 25.0,
+   "acid": 0.0,
+   "source": "PROVISIONAL, unsourced: EU 'crème de' liqueur floor of 250 g sugar per litre (my knowledge, Regulation 2019/787) used at the floor; ABV 16% typical (15-20%). Sweep against crème de cassis (40 g, 16%) as the sweet bound. Blackberry only: no nut, dairy or grain declared; any added flavouring to be checked per named bottle.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-lover, 2026-10-01"
+  },
+  "rum_zacapa_23": {
+   "name": "Ron Zacapa 23 aged rum (recommended; or any aged Spanish-style rum, not spiced, about 40%)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "label 40% (secondary: Caskers and Flaviar, 'may vary' by market; Hester jester-explorer r5); sugar 0 per LI pdf 140 straight-spirit note; any added sugar is unsourced and swept 0-2 g/100 ml in jester-explorer; Codex p. 109 names it for Old-Fashioned riffs, with an affinity for rye from its former whiskey barrels (this bottle's, not the style's)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-explorer, 2026-10-01"
+  },
+  "balsamic_vinegar": {
+   "name": "balsamic vinegar (aceto balsamico di Modena style, not a glaze)",
+   "abv": 0.0,
+   "sugar": 20.0,
+   "acid": 6.0,
+   "source": "unsourced standard values: acidity 6% (my knowledge of the Modena IGP minimum); sugar ~20 g/100 ml estimate from cooked grape must (swept 10-35). Grape must and wine vinegar only: no veto. Thickened glazes can carry starch, so the recipe says vinegar, not glaze.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-lover, 2026-10-01"
+  },
+  "blackberry_fresh": {
+   "name": "fresh blackberry (garnish)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish, no measurable contribution; Proper p. 31 / Oxford BRAMBLE pdf 336 garnish",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, explorer-lover, 2026-10-01"
+  },
+  "lemon_wedge": {
+   "name": "lemon wedge (garnish)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish, no measurable contribution; Proper p. 31",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, explorer-lover, 2026-10-01"
+  },
+  "borovicka_sweet2": {
+   "name": "borovička at 40% with 2 g sugar/100 ml (sweep row: Spišská GI lists invert sugar, amount not given)",
+   "abv": 40.0,
+   "sugar": 2.0,
+   "acid": 0.0,
+   "source": "sweep row, hypothetical sugar; Spišská borovička GI dossier (via Hester) lists liquid invert sugar, no amount",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-hero, 2026-10-01"
+  },
+  "borovicka_sweet4": {
+   "name": "borovička at 40% with 4 g sugar/100 ml (sweep row: Spišská GI lists invert sugar, amount not given)",
+   "abv": 40.0,
+   "sugar": 4.0,
+   "acid": 0.0,
+   "source": "sweep row, hypothetical sugar; Spišská borovička GI dossier (via Hester) lists liquid invert sugar, no amount",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-hero, 2026-10-01"
+  },
+  "cacao_nib_tincture_gin": {
+   "name": "cacao nib tincture, made in the gin (10 g cacao nibs per 100 ml London dry gin, steeped, strained)",
+   "abv": 47.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Codex printed 297: Cacao Nib Tincture, 75 g nibs per 750 ml vodka, iSi-infused, refrigerate up to 4 weeks; Codex p. 89 calls it chocolatey (but dry). Home version in the gin, steeped not pressure-infused: Tomás's craft call, unsourced; ABV taken as the gin's (unsourced). Allergens on the safe side: cacao products often carry shared-plant nut and milk warnings | RULED none (Tomás 2026-10-06, under Robin's evidence rule, D1/D8): the tincture is cacao nibs and gin only, and no maker's list or read label names nuts or milk; 'shared-plant warnings' were a generalisation, not a label. Aligned with creme_de_cacao_white (none). Recipe note where used: 'If you have a nut or milk allergy, check the nibs' pack for a warning.' Back to nuts/dairy if the recommended nibs' label says may contain.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-magician, 2026-10-01"
+  },
+  "bay_leaf_dried": {
+   "name": "dried bay leaf, torn in half, left in the glass",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "kitchen-shelf dried bay (laurel); Flavor Matrix lists laurel on its Citrus wheel (pdf 81, printed 71) and Grape wheel (pdf 141, printed 131), both rendered and read. Scent and a little taste; no sugar, acid or strength (Tomás's craft call). Touches no studio veto: not a nut, dairy, gluten, egg, and not heat",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, explorer-magician, 2026-10-01"
+  },
+  "maple_syrup": {
+   "name": "maple syrup (grade B / dark, robust)",
+   "abv": 0.0,
+   "sugar": 87.5,
+   "acid": 0.0,
+   "source": "Liquid Intelligence ingredient table, pdf 141 (printed 137): maple syrup 87.5% sweetness, 0% acid; pdf 57 (p. 53): ~67% sugar by weight, 1 oz maple as sweet as 1.5 oz simple",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-outlaw, 2026-10-01"
+  },
+  "bourbon_four_roses_bentons": {
+   "name": "Four Roses bourbon (40%) washed with Benton's bacon fat (1 1/2 oz melted fat per 750 ml, 4 h room temperature, 2 h freezer, fat lifted off, strained)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Recipe and wash ratio: A Proper Drink pp. 275-276 (Lee's printed recipe: 'Four Roses bourbon'); 40%: UNSOURCED (my value; the US minimum bottling strength). Only 'Yellow Label' is on record, as Lee's word in PUNCH 2019 (Hester F21), and no page gives its proof (Hester r5). Strength and sugar assumed unchanged by the wash (unsourced, my craft call). SPICE on the safe side: Benton's bacon is dry-cured with salt, brown sugar and black pepper (maker's page, Hester F26); black pepper's pungency is heat (my knowledge, unsourced), and a fat wash exists to carry the fat's flavour into the spirit (Codex p. 94), so lifting the fat off doesn't prove the pepper left. Precedent: cognac_sichuan_pepper. Pork: not a veto, but closed to anyone who doesn't eat pork.",
+   "contains": [
+    "spice"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-outlaw, 2026-10-01"
+  },
+  "shackleton_blended_malt": {
+   "name": "Shackleton blended malt Scotch whisky (40%, no age statement), named for him and built on a recreation of the whisky his expedition left under its 1908 hut",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "ABV 40%: The Spirits Business and scotchwhisky.com (April 2017), via Hester's card shackleton-nimrod-mackinlays.md (explorer-ruler r2); trade press, not the brand's site. Not the hut whisky and not the 2011 replica (limited 50,000 bottles, Antarctic Heritage Trust / CBC-AP 19 Jan 2013). Straight spirit: no sugar, minimal acid (LI pdf 140 note). Distilled grain spirit, not gluten (STUDIO-RULES 4); no labelled fining known",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-ruler, 2026-10-01"
+  },
+  "scotch_blended_malt": {
+   "name": "blended malt Scotch whisky (style; malts only, no grain whisky), 40% or stronger",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "style floor 40% (the legal minimum for Scotch; blended malts commonly 40-46%, unsourced). Straight spirit (LI pdf 140 note). Distilled grain (malted barley) spirit, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-ruler, 2026-10-01"
+  },
+  "plum_syrup": {
+   "name": "rich plum syrup (100 g ripe plums, stoned, blended smooth with 200 g white sugar, warmed gently only until the sugar dissolves, pressed through a fine sieve; fridge, about a week; adapted from the Cocktail Codex's Blended Strawberry Syrup, p. 47, at twice its sugar)",
+   "abv": 0.0,
+   "sugar": 93.7,
+   "acid": 0.45,
+   "source": "method adapted from the Codex's Blended Strawberry Syrup (p. 47: equal weights, blended cold, sieved); here plums, 2 parts sugar to 1 of fruit, warmed to dissolve: Tomás's own adaptation. Values UNSOURCED estimate by Tomás: ripe plum ~9.9 g sugar/100 g and ~0.6-1.0% titratable acid (malic); 200 g sugar ~124 ml (LI 0.62 ml/g, pp. 136-137) + 100 g purée ~100 ml = ~224 ml -> 93.7 g sugar/100 ml, acid 0.45% at the sharp end (0.27% at 0.6%). Allergens: fresh stone-fruit flesh, not a nut (as cherry_fresh); the stones come out whole and are never cracked, since kernels are classed nuts (as creme_de_noyaux)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-ruler, 2026-10-01"
+  },
+  "espresso": {
+   "name": "espresso, freshly pulled",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 1.5,
+   "source": "Liquid Intelligence p. 137 (pdf 141) table: Espresso 0.0% alcohol, 0.0% sugar, 1.50% acid. Coffee touches no studio veto",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-caregiver, 2026-10-01"
+  },
+  "brandy_aged_grape": {
+   "name": "brandy (aged grape brandy, e.g. a VS cognac or Spanish brandy)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid (40% typical label). Some brandies are sweetened or coloured with caramel (allowed in cognac): unsourced, my knowledge; numbers assume an unsweetened bottle",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-caregiver, 2026-10-01"
+  },
+  "saline_solution": {
+   "name": "saline solution (20% salt in water, by weight)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Liquid Intelligence p. 61 (pdf 65): Arnold's saline; any cocktail with coffee benefits from a pinch of salt, kept below the point you'd taste it",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-caregiver, 2026-10-01"
+  },
+  "parsnip_syrup": {
+   "name": "roasted parsnip syrup (250 g parsnip roasted until browned, simmered 10 min with 250 g sugar and 250 ml water, strained; about 400 ml, fridge)",
+   "abv": 0.0,
+   "sugar": 62.0,
+   "acid": 0.1,
+   "source": "Pairing: Flavor Matrix pdf 224 (root vegetables: celery root, parsnip, salsify; best pairings include coffee and bourbon; most commonly roasted or boiled). Sugar 62 g/100 ml and acid 0.1% are unsourced estimates (250 g sugar in about 400 ml strained syrup, my arithmetic). Parsnip is in the carrot/celery family: no studio veto (celery not in the enum), same flag as caraway",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-caregiver, 2026-10-01"
+  },
+  "glenlivet_12": {
+   "name": "The Glenlivet 12 Year Old Speyside single malt Scotch whisky (recommended; or any unpeated Speyside single malt, not sherry-cask)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "ABV 40%: unsourced label value (Scotch legal minimum; check the bottle, some markets 40-43%). Straight spirit, no sugar or acid (LI pdf 140 note). Character: Oxford GLENLIVET pdf 918 'subtle, even delicate'; Codex p. 204 'elegant and floral, with a touch of honey'. Distilled malted-barley spirit, not gluten (STUDIO-RULES 4).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-creator, 2026-10-01"
+  },
+  "gin_tanqueray_london_dry_431": {
+   "name": "Tanqueray London Dry gin (43.1%, UK/EU bottling)",
+   "abv": 43.1,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "label ABV 43.1% for the UK/EU bottling (unsourced, my knowledge; strength differs by market); unsweetened as a London dry (Oxford LONDON DRY GIN pdf 1191). Botanicals purportedly juniper, coriander, angelica, licorice (Oxford TANQUERAY GORDON & CO. pdf 1986). Distilled grain spirit: not gluten (rules).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-creator, 2026-10-01"
+  },
+  "gin_tanqueray_london_dry_473": {
+   "name": "Tanqueray London Dry gin (47.3%, US bottling)",
+   "abv": 47.3,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "label ABV 47.3% for the US bottling (unsourced, my knowledge); otherwise as gin_tanqueray_london_dry_431",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-creator, 2026-10-01"
+  },
+  "licorice_root_syrup": {
+   "name": "licorice root syrup (1:1 simple syrup, 100 g sugar + 100 ml water, with 5 g dried licorice root, chopped, simmered 5 minutes, steeped off the heat 30 minutes, strained; about 160 ml, fridge)",
+   "abv": 0.0,
+   "sugar": 61.5,
+   "acid": 0.0,
+   "source": "sugar taken as LI simple syrup 61.5 g/100 ml (pdf 140-141); the short simmer's evaporation and the root's own sugars and glycyrrhizin sweetness are not counted (unsourced; glycyrrhizin tastes far sweeter than sucrose, so this syrup reads sweeter than its grams: dose it at the low end). Allergens: licorice root is a legume, kin to peanut, and dried roots are often packed alongside nuts: nuts on the safe side (Tomás's call, like dried fruit and cacao nibs).",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-creator, 2026-10-01"
+  },
+  "rum_gold_puerto_rican": {
+   "name": "gold Puerto Rican rum (lightly aged, style)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "LI pdf 140 straight-spirit note; 40% typical label (unsourced); the style Berry printed, Oxford ZOMBIE pdf 2229",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-sage, 2026-10-01"
+  },
+  "rum_gold_jamaican": {
+   "name": "gold Jamaican rum (aged, style)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "LI pdf 140 straight-spirit note; 40% typical label (unsourced), swept 40-46%; the style Berry printed, Oxford ZOMBIE pdf 2229",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-sage, 2026-10-01"
+  },
+  "rum_lemon_hart_151": {
+   "name": "Lemon Hart 151 Demerara rum (75.5%), recommended, or any Demerara (Guyanese) overproof rum of about 75%",
+   "abv": 75.5,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "151 US proof = 75.5% ABV (arithmetic); named in Berry's printed Zombie, Oxford ZOMBIE pdf 2229; sugar 0 per LI pdf 140 note (unsourced for this bottle)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-sage, 2026-10-01"
+  },
+  "falernum_homemade": {
+   "name": "falernum made at home, no almond, no nutmeg, no ginger (zest of 4 limes and 12 whole cloves steeped 24 h in 150 ml gold Jamaican rum, strained, then mixed with a rich syrup of 200 g sugar and 100 ml water; about 375 ml)",
+   "abv": 16.0,
+   "sugar": 53.5,
+   "acid": 0.0,
+   "source": "unsourced: my recipe, values by arithmetic (60 ml ethanol / 375 ml; 200 g sugar / 375 ml). Falernum's base of rum, sugar, lime and spices such as cloves: Oxford FALERNUM pdf 761. Cloves are a baking spice, not heat (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-sage, 2026-10-01"
+  },
+  "cinnamon_syrup": {
+   "name": "cinnamon syrup (1:1 simple syrup simmered 2 min with 3 cinnamon sticks, steeped 30 min off the heat, strained)",
+   "abv": 0.0,
+   "sugar": 61.5,
+   "acid": 0.0,
+   "source": "unsourced: simple syrup value (LI pp. 136-137) with cinnamon steeped in; direct heat is my method (Codex p. 52's version needs an immersion circulator). Cinnamon is a baking spice, not heat",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-sage, 2026-10-01"
+  },
+  "grenadine": {
+   "name": "grenadine (store-bought, plain)",
+   "abv": 0.0,
+   "sugar": 65.0,
+   "acid": 0.5,
+   "source": "unsourced standard value (typical label ~60-70 g sugar/100 ml; acid estimated)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-sage, 2026-10-01"
+  },
+  "pernod_anise": {
+   "name": "Pernod (the anise liqueur, not absinthe)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "unsourced standard value (strength not in the library; 40% assumed; at 6 drops, ~0.3 ml, immaterial: swept at 68% with no change). Berry's 'Pernod' is the anise liqueur, not absinthe: Hester r3, card C5 (Joy pdf 64, 395)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, explorer-sage, 2026-10-01"
+  },
+  "gin_tanqueray_london_dry_413": {
+   "name": "Tanqueray London Dry gin (41.3%, UK bottling)",
+   "abv": 41.3,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "label ABV 41.3% (Difford's Guide product page: the lower-strength bottling came in 1999 at 43.1% 'before the digits were swapped to 41.3%'; Tanners, UK retailer, '41.3% vol'; Hester audit T3, regular-guy-creator). Unsweetened London dry (Oxford pdf 1191); botanicals purportedly juniper, coriander, angelica, licorice (Oxford pdf 1986). Distilled grain spirit: not gluten.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-creator, 2026-10-01"
+  },
+  "bonal": {
+   "name": "Bonal Gentiane-Quina (French gentian-and-cinchona aperitif wine, 16%)",
+   "abv": 16.0,
+   "sugar": 12.0,
+   "acid": 0.5,
+   "source": "Cocktail Codex p. 74: 'slightly bitter from cinchona bark and gentian root', 'dry on the palate', pairs with aged rum in a Manhattan-style drink. ABV 16% UNSOURCED (label, to confirm). Sugar 12 g/100 ml and acid 0.5% UNSOURCED estimates, swept 6-18 g and 0.3-0.7% in the pour's checks. Wine: fining ignored (STUDIO-RULES 4). Gentian and cinchona are bitters, not heat: no spice.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-caregiver, 2026-10-01"
+  },
+  "mandarin_liqueur": {
+   "name": "mandarin liqueur (brandy-based, Mandarine Napoléon style)",
+   "abv": 38.0,
+   "sugar": 25.0,
+   "acid": 0.0,
+   "source": "UNSOURCED: 38% typical of the brandy-based style; sugar 25 g/100 ml estimated as an orange liqueur (cf. LI's Cointreau 25), swept 18-35 g and 30-40% in the pour's checks. Jimmie Charters names 'Mandarin' in his Dingo cocktail (This Must Be the Place, p. 83, OCR highlight, Hester). Citrus peel and brandy: no veto.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-caregiver, 2026-10-01"
+  },
+  "canadian_whisky": {
+   "name": "Canadian whisky (blended, 40%)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford Companion, WHISKY, CANADIAN pdf 2146: by law not less than 40% ABV, may include caramel colouring and flavouring; pdf 2147: provincial taxes keep most at the legal minimum. Sugar 0 unsourced (flavouring allowed; treated as a straight spirit per LI pdf 140). Distilled grain spirit: not gluten (STUDIO-RULES 4); no veto on the safe side (flavourings are typically wine or spirit, unsourced)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-regular-guy, 2026-10-01"
+  },
+  "canadian_whisky_45": {
+   "name": "Canadian whisky, higher-proof sipping style (45%), sweep only",
+   "abv": 45.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "sweep value: Oxford pdf 2147, producers now release richly flavoured sipping whiskies at higher proofs (no figure given; 45% is my sweep point, unsourced)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-regular-guy, 2026-10-01"
+  },
+  "mandarin_peel": {
+   "name": "mandarin peel (strip; a clementine works)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish: peel oils only, no sugar/acid/strength counted. Citrus peel: no veto.",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, ruler-caregiver, 2026-10-01"
+  },
+  "giffard_triple_sec": {
+   "name": "Giffard Triple Sec (25%, the classic bottling)",
+   "abv": 25.0,
+   "sugar": 25.0,
+   "acid": 0.0,
+   "source": "25%: giffard.com product page (Hester F24, 2026-10-01). Sugar NOT published (Giffard: 'sweetened with sugar or honey (100g/L min)'); 25 g/100 ml is a STAND-IN, Cointreau's LI value (pp. 136-137). Swept 10-40 g: in range from 20 g up.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "mixologist, regular-guy-explorer, 2026-10-01"
+  },
+  "sloe_gin": {
+   "name": "sloe gin (British style: blackthorn berries steeped in sweetened gin; about 26%)",
+   "abv": 26.0,
+   "sugar": 20.0,
+   "acid": 0.0,
+   "source": "ABV ~26%: label strength of the common British style (unsourced, e.g. Plymouth Sloe Gin's label; commercial range ~20-30%, swept). Sugar ~20 g/100 ml: back-calculated by Tomás from Liquid Intelligence's Blackthorn (p. 131: 45 ml Plymouth gin 41.2%, 22.5 ml sweet vermouth 16%, 22.5 ml sloe gin, start 91.6 ml at 8.9 g/100 ml), an estimate on an estimate (Arnold calls liqueur sugars educated guesses, pdf 140). Acid 0%: derived by Tomás (regular-guy-sage r3, 2026-10-01) from Liquid Intelligence p. 131, the same Blackthorn the sugar comes from: its start acid of 0.15% is supplied by its 22.5 ml of sweet vermouth alone (0.6%), so Arnold's model gives the sloe gin about 0. Was 0.5% (Tomás's unsourced guess, outlaw-explorer). Swept 0-0.2%; outlaw-explorer's Whoopee moves from 0.90% to 0.75% finished acid (edge), noted for Robin. Allergens: nuts, on the safe side (Hester, outlaw-explorer r3, card _studio/fact-cards/sloe-gin.md): Difford's Guide says some makers crush the stones and steep again for almond notes, or add crushed almonds; Sipsmith notes 19th-century recipes added a crushed almond or a few crushed stones; a 2010 tasting found almond/marzipan notes in sold bottles. An unnamed style can't rule either out (same call as maraschino, Codex p. 174). Back to veto-free only for a named bottle whose maker states no cracked stones and no added almond. Sugar figure is derived (LI table's sweet vermouth at 16 g; LI doesn't name its vermouth) and swept 15-30 g.",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-explorer, 2026-10-01"
+  },
+  "cynar": {
+   "name": "Cynar (Italian artichoke-based bitter liqueur, 16.5%)",
+   "abv": 16.5,
+   "sugar": 18.0,
+   "acid": 0.0,
+   "source": "Artichoke-based amaro: Oxford Companion, FLOC DE GASCOGNE (pdf 822). ABV 16.5%: label (unsourced in the library). Sugar ~18 g/100 ml: unsourced estimate by Tomás (moderately sweet Italian amaro; LI's table has Campari at 24). Recipe secret: no nut, dairy or heat ingredient on any page; classified veto-free like Campari",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-explorer, 2026-10-01"
+  },
+  "hudson_rye": {
+   "name": "Hudson New York straight rye whiskey (46%; the line Oxford calls Hudson Manhattan Rye, 92 proof, 100% New York rye)",
+   "abv": 46.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford HUDSON pdf 1037: 92-proof, 100 percent New York rye; current label name and strength to be confirmed (Hester); distilled grain spirit, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-hero, 2026-10-01"
+  },
+  "apple_brandy_40": {
+   "name": "American apple brandy at 40% (80 proof)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "unsourced standard value: American apple brandy at the 80-proof floor, for the substitute sweep",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-hero, 2026-10-01"
+  },
+  "hudson_do_the_rye_thing": {
+   "name": "Hudson Do The Rye Thing New York straight rye whiskey (46%; 95% rye, 5% malted barley; the line formerly Hudson Manhattan Rye)",
+   "abv": 46.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Hester T2: The Spirits Business 15 Sep 2020 (renamed from Manhattan Rye, new recipe 95% rye / 5% malted barley); maker's site fetched 2026-10-01 (New York straight rye, 46%). Distilled grain spirit incl. malted barley, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-hero, 2026-10-01"
+  },
+  "sweet_vermouth_cardamom": {
+   "name": "sweet vermouth steeped with green cardamom (about 3 g whole pods per 250 ml, room temperature, about 12 hours, strained)",
+   "abv": 16.5,
+   "sugar": 16.0,
+   "acid": 0.6,
+   "source": "values as sweet_vermouth (Liquid Intelligence pdf 140-141); a whole-pod steep adds no sugar or acid (unsourced, my call). Steep after Cocktail Codex p. 95 (vermouth infuses slowly; cardamom is delicate, ~12 h) and p. 288 (Cardamom-Infused St-Germain, 10 g pods per 750 ml, room temperature, about 12 hours). Cardamom is not heat, so not spice (rule 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-regular-guy, 2026-10-01"
+  },
+  "cachaca_unaged": {
+   "name": "unaged (white, prata) cachaça",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Codex p. 112: cachaça is distilled once from Brazilian sugarcane juice to 38-48% ABV; white = unaged or rested in neutral containers. 40% is a representative bottling (unsourced); swept 38-48. Distilled cane spirit: no veto",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-innocent, 2026-10-01"
+  },
+  "ogogoro_pedros": {
+   "name": "Pedro's Premium Ògógóró, unaged (40%; not the 5-year aged bottling), palm-sap spirit redistilled in Lagos",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "ABV: Difford's Guide 'Pedro's Ògógóró' (alc./vol 40%, unaged) and Artifex Drinks product page (40% ABV), both fetched 2026-10-01; sugar and acid unsourced (unaged straight spirit, LI pdf 140 note)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-hero, 2026-10-01"
+  },
+  "apricot_eau_de_vie": {
+   "name": "apricot eau-de-vie (clear, unsweetened apricot brandy: barack pálinka or Marillenbrand style)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford APRICOT BRANDY pdf 133: a true eau-de-vie, clear, 'little residual sugar' (0 g used, unsourced approximation); 40% typical bottling strength unsourced. nuts on the safe side: a stone fruit's pit holds a kernel (Flavor Matrix pdf 236), and amaretto 'is generally made from apricot kernels' (Oxford ALMOND LIQUEURS pdf 94; amaretto is nuts in the studio rules); Codex p. 37 says only that stone fruit and almond are botanically related; fruit spirits may be distilled with the stones (my knowledge, unsourced) | RULED none (Tomás 2026-10-06, under Robin's evidence rule, D1/check 4): no page names kernels or stones as an ingredient of apricot eau-de-vie. Oxford APRICOT BRANDY pdf 133 makes it from 'apricots and apricot pomace'; ABRICOTINE pdf 47's 'a touch of almond' is a tasting note; amaretto's apricot kernels (pdf 94) are another product; Matrix pdf 236 and Codex p. 37 are botany; 'distilled with the stones' was my own knowledge. Contrast kirsch, which stays nuts: Oxford pdf 1135, 'distilled from cherries and their pits'. Back to nuts if a recommended bottle's label or a page names the stones.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-explorer, 2026-10-01"
+  },
+  "apricot_flavoured_brandy": {
+   "name": "apricot-flavoured brandy (sweet apricot liqueur, e.g. the Bols / DeKuyper style)",
+   "abv": 24.0,
+   "sugar": 30.0,
+   "acid": 0.2,
+   "source": "Oxford APRICOT BRANDY pdf 133: neutral spirit or brandy with apricot juice and sweeteners, 'more reasonably... apricot liqueur'. 24% / 30 g / 0.2% unsourced standard values. nuts on the safe side (kernel flavour; Oxford pdf 94: amaretto is generally made from apricot kernels). Added only to prove why the recipe says eau-de-vie, not liqueur | RULED none (Tomás 2026-10-06, D1/check 4): 'kernel flavour' is a tasting note, and pdf 133 lists apricot juice, sweeteners and natural flavors, no kernel. Used by no spec (sweep row only).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-explorer, 2026-10-01"
+  },
+  "sugar_rim_fine": {
+   "name": "fine (caster) sugar on the outside of the rim",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "plain sucrose on the glass's outside rim (Regan, Joy pdf 137: exterior only, so it stays out of the drink); eaten at the lip, not dissolved, so not modelled in balance",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, ruler-explorer, 2026-10-01"
+  },
+  "jeppsons_malort": {
+   "name": "Jeppson's Malört (bitter wormwood liqueur, besk style; CH Distillery, Chicago)",
+   "abv": 35.0,
+   "sugar": 2.4,
+   "acid": 0.0,
+   "source": "35% ALC/VOL: maker's product page and Kleinman, Drink Spirits (Hester, card B2). Sugar: no maker's figure; modelled at the US liqueur legal floor, 2.5% sugar by weight (27 CFR 5.150) ~ 2.4 g/100 ml (Hester's arithmetic); swept 2.4-6 in the pour. Colour FD&C Yellow No. 5 (no veto class). Wormwood liqueur on a distilled base: no veto class (distilled spirits aren't gluten, STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-jester, 2026-10-01"
+  },
+  "armagnac": {
+   "name": "Armagnac (any blended VS/VSOP Armagnac, 40%)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford ARMAGNAC pdf 137-140 (grape brandy, Gascony); Codex pp. 157-158 (blended VS/VSOP for mixing); 40% = label floor, unsourced standard value; LI pdf 140 note: straight spirits, no sugar, minimal acid",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "armagnac_43": {
+   "name": "Armagnac at 43% (sweep)",
+   "abv": 43.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "strength sweep of the armagnac row; unsourced label strengths",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "armagnac_45": {
+   "name": "Armagnac at 45% (sweep)",
+   "abv": 45.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "strength sweep of the armagnac row; unsourced label strengths",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "armagnac_46": {
+   "name": "Armagnac at 46% (sweep)",
+   "abv": 46.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "strength sweep of the armagnac row; unsourced label strengths",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "floc_de_gascogne_blanc": {
+   "name": "Floc de Gascogne (white)",
+   "abv": 17.0,
+   "sugar": 13.0,
+   "acid": 0.45,
+   "source": "Strength 17%: midpoint of the legal 16-18% at bottling (cahier des charges, via Hester, fact card floc-de-gascogne.md, outlaw-innocent r3); Oxford FLOC pdf 818 says 18-20. Sugar 13 g/100 ml: unsourced (the law sets only the must at >=170 g/L when the Armagnac goes in; must is 2/3-3/4 of the blend per Oxford, so ~11-13 g if unfermented, less if fermentation had begun). Acid 0.45%: unsourced, as Pineau's row. Grape must + Armagnac from the same estate: no veto (fining ignored, no named bottle)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "floc_rich_syrup": {
+   "name": "Floc syrup (200 g white sugar dissolved into 100 ml white Floc de Gascogne, stirred cold; about 224 ml, fridge)",
+   "abv": 8.0,
+   "sugar": 95.1,
+   "acid": 0.2,
+   "source": "computed: 200 g sugar ~124 ml (LI 0.62 ml/g) + 100 ml Floc = 224 ml; sugar (200 + 13)/224; ABV 18x100/224; acid 0.45x100/224. Floc values as its row (sugar, acid unsourced)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "pineau_rich_syrup": {
+   "name": "Pineau syrup (200 g white sugar dissolved into 100 ml white Pineau des Charentes, stirred cold; about 224 ml)",
+   "abv": 7.8,
+   "sugar": 95.1,
+   "acid": 0.2,
+   "source": "computed as floc_rich_syrup from the pineau_des_charentes_blanc row (17.5%, 13 g, 0.45%)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "floc_syrup_1to1": {
+   "name": "Floc syrup, 1:1 (100 g white sugar stirred into 100 ml white Floc de Gascogne until dissolved, no heat; about 162 ml, fridge)",
+   "abv": 10.5,
+   "sugar": 69.8,
+   "acid": 0.28,
+   "source": "computed: 100 g sugar ~62 ml (LI 0.62 ml/g) + 100 ml Floc = 162 ml; sugar (100 + 13)/162 = 69.8; ABV 17x100/162 = 10.5 (Floc at the legal 16-18%, midpoint); acid 0.45x100/162. Floc's sugar and acid unsourced",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "pineau_syrup_1to1": {
+   "name": "Pineau syrup, 1:1 (100 g white sugar stirred into 100 ml white Pineau des Charentes, no heat; about 162 ml)",
+   "abv": 10.8,
+   "sugar": 69.8,
+   "acid": 0.28,
+   "source": "computed as floc_syrup_1to1 from the pineau_des_charentes_blanc row (17.5%, 13 g, 0.45%)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "armagnac_48": {
+   "name": "Armagnac at 48% (sweep, cask strength)",
+   "abv": 48.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "strength sweep of the armagnac row; unsourced label strengths",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "armagnac_52": {
+   "name": "Armagnac at 52% (sweep, cask strength)",
+   "abv": 52.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "strength sweep of the armagnac row; unsourced label strengths",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "armagnac_56": {
+   "name": "Armagnac at 56% (sweep, cask strength)",
+   "abv": 56.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "strength sweep of the armagnac row; unsourced label strengths",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "yellow_chartreuse_43": {
+   "name": "yellow Chartreuse at 43% (Oxford's figure, sweep)",
+   "abv": 43.0,
+   "sugar": 31.2,
+   "acid": 0.0,
+   "source": "Oxford CHARTREUSE pdf 439: yellow 43 (LI pdf 140 table: 40%, 31.2 g); sugar kept at LI's 31.2",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-innocent, 2026-10-01"
+  },
+  "jim_beam_white_label": {
+   "name": "Jim Beam (white label) Kentucky straight bourbon (40%)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford JIM BEAM pdf 1106: the white label is 'a four-year-old 80-proof whisky' (80 proof = 40%); sugar 0 per LI pdf 140 note; distilled grain spirit, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-hero, 2026-10-01"
+  },
+  "noilly_prat_original_dry": {
+   "name": "Noilly Prat Original Dry (French dry vermouth)",
+   "abv": 18.0,
+   "sugar": 3.0,
+   "acid": 0.6,
+   "source": "ABV 18%: label, unsourced; sugar and acid: Liquid Intelligence generic dry vermouth (pdf 140-141), not measured for this bottle",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-innocent, 2026-10-01"
+  },
+  "tokaji_aszu": {
+   "name": "Tokaji Aszú (Hungarian sweet wine, 5 puttonyos)",
+   "abv": 11.0,
+   "sugar": 14.0,
+   "acid": 0.8,
+   "source": "unsourced standard values: 5-puttonyos Aszú ~120-150 g/L residual sugar, ~11% ABV, high acidity ~0.8%; wine fining ignored (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-innocent, 2026-10-01"
+  },
+  "soy_sauce": {
+   "name": "soy sauce (naturally brewed, regular)",
+   "abv": 0.0,
+   "sugar": 3.0,
+   "acid": 0.5,
+   "source": "unsourced standard values (sugar ~3 g/100 ml, acid ~0.5%, salt ~15%; brewed soy can carry a trace of alcohol, ignored at drop doses). Gluten on the safe side: most soy sauce is brewed with wheat; tamari is often wheat-free but check the label.",
+   "contains": [
+    "gluten"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-lover, 2026-10-01"
+  },
+  "brandied_peach": {
+   "name": "brandied peach slice (canned or fresh peach soaked in brandy and a spoon of syrup)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish, eaten from the glass; Oxford COHASSET PUNCH pdf 549 (bar's brandy-soaked peach eighth). Peach flesh only, no kernel: veto-free (Tomás's call, as crème de pêche in explorer-caregiver)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, regular-guy-lover, 2026-10-01"
+  },
+  "raspberry_syrup": {
+   "name": "blended raspberry syrup (equal weights fresh raspberries and white sugar, blended cold until smooth, pressed through a fine sieve to take out the seeds; fridge, up to a week; method of Cocktail Codex p. 47, Blended Strawberry Syrup)",
+   "abv": 0.0,
+   "sugar": 66.5,
+   "acid": 1.0,
+   "source": "method Codex pp. 46-47 (Blended Strawberry Syrup: equal weights fruit and sugar, blended cold, sieved). Values UNSOURCED estimate by Tomás: raspberry ~4.4 g sugar/100 g, ~1.6% titratable acid (citric); 100 g sugar ~62 ml (LI 0.62 ml/g, pp. 136-137) + 100 g puree ~95 ml = ~157 ml -> 66.5 g sugar/100 ml, ~1.0% acid. Allergens: fresh berry, no veto class; the seeds are sieved out and are not nuts",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-jester, 2026-10-01"
+  },
+  "mint_leaves_left_in": {
+   "name": "fresh mint leaves (spearmint), whipped with the drink and left in the glass",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "herb leaf, whipped with the drink and poured in with it (Cocktail Codex p. 134 Mojito method); scent and a little taste, no sugar, acid or strength; not modelled in balance",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, ruler-jester, 2026-10-01"
+  },
+  "raspberry_fresh": {
+   "name": "fresh raspberry (garnish)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "whole fresh berry on top; not modelled",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, ruler-jester, 2026-10-01"
+  },
+  "raspberry_cumin_syrup": {
+   "name": "raspberry and toasted cumin syrup (100 g fresh raspberries, 100 g white sugar and 1/2 tsp cumin seeds, toasted dry until fragrant and lightly crushed; blended cold, left 30 minutes, pressed through a fine sieve; fridge, up to a week; adapted from the Cocktail Codex's Blended Strawberry Syrup, p. 47)",
+   "abv": 0.0,
+   "sugar": 66.5,
+   "acid": 1.0,
+   "source": "method adapted from Codex pp. 46-47 (equal weights fruit and sugar, blended cold, sieved); the cumin and its dose are Tomás's craft call (Flavor Matrix pdf 52: cumin among berries' surprise pairings). Values UNSOURCED estimate as raspberry_syrup: raspberry ~4.4 g sugar/100 g, ~1.6% acid; ~157 ml per batch -> 66.5 g sugar/100 ml, ~1.0% acid; cumin adds aroma only. Allergens: berry and seed spice, no veto class; cumin is not heat (spice = heat only, STUDIO-RULES 4); raspberry seeds sieved out, not nuts",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-jester, 2026-10-01"
+  },
+  "rum_angostura_1919": {
+   "name": "Angostura 1919 aged Trinidad rum (40%), recommended, or any column-distilled aged rum, not spiced, about 40%",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford ANGOSTURA rums pdf 114 (all column-distilled, aged in bourbon barrels; 1919 named; Trinidad Distillers est. 1949); 40% label ABV own knowledge, unsourced, swept 37.5-43; sugar 0 per LI pdf 140 straight-spirit note (any added sugar unsourced)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-jester, 2026-10-01"
+  },
+  "lime_shell": {
+   "name": "squeezed lime shell, dropped in (Baker's way)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Joy of Mixology pdf 272 (Baker via Regan); scent only, juice counted in lime_juice",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, outlaw-jester, 2026-10-01"
+  },
+  "orange_marmalade": {
+   "name": "orange marmalade (ordinary, not reduced-sugar), loosened in the spirit and shaken in",
+   "abv": 0.0,
+   "sugar": 78.0,
+   "acid": 0.6,
+   "source": "unsourced: ~60 g sugar per 100 g (typical label value for full-sugar marmalade) at ~1.3 g/ml = ~78 g per 100 ml; acid ~0.5% by mass (~0.6 per 100 ml) estimated. Role: Oxford MARMALADE AND JAM (pdf 1240): sugar and fruit peel, 'simultaneously provides sweetness and flavor'; Codex p. 77: 'a touch of sweetness and a pleasant bitterness'",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, regular-guy-magician, 2026-10-01"
+  },
+  "pineapple_juice_pressed": {
+   "name": "fresh pineapple, pressed in the mixing glass (its juice)",
+   "abv": 0.0,
+   "sugar": 10.0,
+   "acid": 0.8,
+   "source": "unsourced standard value for fresh pineapple juice (~10 g sugar/100 ml, ~0.8% acid, mostly citric); LI's table has no pineapple row; swept 8-13 g and 0.5-1.0%",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-lover, 2026-10-01"
+  },
+  "white_wine_dry_california_bay": {
+   "name": "dry California white wine (crisp, unoaked, dry Riesling style), one dried bay leaf left in the bottle overnight in the fridge",
+   "abv": 12.5,
+   "sugar": 0.4,
+   "acid": 0.65,
+   "source": "unsourced standard values (own knowledge): dry California whites run ~12-13.5% ABV, dry = under ~4 g/L residual sugar, titratable acid ~0.6-0.75%; swept 11.5-14% and 0-0.9 g in the room. Bay: scent and a little taste, no sugar, acid or strength (craft call); kitchen bay (laurel) touches no studio veto. Wine fining ignored (no named bottle)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-lover, 2026-10-01"
+  },
+  "orange_juice_lime_strength": {
+   "name": "orange juice brought to lime strength (fresh orange juice with citric and malic acid stirred in: per litre 32 g citric, 20 g malic; Liquid Intelligence p. 60)",
+   "abv": 0.0,
+   "sugar": 12.4,
+   "acid": 6.0,
+   "source": "Liquid Intelligence p. 60 (Lime Acid Orange recipe) and ingredient table p. 137 ('Orange juice, lime strength': 12.4% sugar, 6.00% acid)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-magician, 2026-10-01"
+  },
+  "rum_virgin_islands": {
+   "name": "Virgin Islands (St. Croix) rum, lightly aged, style",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "unsourced: 40% typical; style from Duffy's Herald Punch (Imbibe! pdf 92, 'St. Croix')",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-magician, 2026-10-01"
+  },
+  "orange_juice_sharpened": {
+   "name": "fresh orange juice, sharpened (13.5 g citric acid and 8.5 g malic acid stirred in per litre, about 3.4 g and 2.1 g per 250 ml; Liquid Intelligence p. 60's correction at about two-fifths strength)",
+   "abv": 0.0,
+   "sugar": 12.4,
+   "acid": 3.0,
+   "source": "derived by Tomás from Liquid Intelligence p. 60 (Lime Acid Orange: 1 L orange juice, 32 g citric, 20 g malic, to lime strength) and the p. 137 table (orange juice 12.4% sugar, 0.8% acid): 22 g acids per litre adds about 2.2%, so 0.8 + 2.2 = 3.0% acid",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-magician, 2026-10-01"
+  },
+  "grappa": {
+   "name": "young grappa (giovane or bianco, not wood-aged; Italian pomace brandy, 40%)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Joy of Mixology pdf 421: grappa is an Italian eau-de-vie distilled from grape pomace, the leftovers of winemaking; ABV as LI's straight-spirit note (label ABV, no sugar, minimal acid; 40% typical, unsourced)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-magician, 2026-10-01"
+  },
+  "red_wine_nebbiolo": {
+   "name": "dry young Nebbiolo red wine (Langhe Nebbiolo style)",
+   "abv": 14.0,
+   "sugar": 0.2,
+   "acid": 0.55,
+   "source": "sugar and acid as Liquid Intelligence's dry red (Cabernet Sauvignon row, pdf 140-141); ABV 14% unsourced (Langhe Nebbiolo labels run ~13.5-14.5%, own knowledge); Nebbiolo's acid may run higher than LI's dry red (own knowledge, unsourced)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-magician, 2026-10-01"
+  },
+  "nebbiolo_syrup": {
+   "name": "Nebbiolo syrup (250 ml dry young Nebbiolo warmed gently with 250 g sugar until it dissolves, never boiled; about 400 ml, fridge)",
+   "abv": 8.6,
+   "sugar": 61.7,
+   "acid": 0.34,
+   "source": "computed by Tomás from red_wine_nebbiolo (LI dry-red sugar/acid, ABV 14% unsourced) + 250 g sugar at LI's 0.62 ml/g (p. 51): 250 g / ~405 ml; ABV is the pre-warming ceiling, some alcohol leaves on warming (unsourced)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-magician, 2026-10-01"
+  },
+  "strawberry_muddled": {
+   "name": "fresh strawberries, muddled (counted as the juice they give: 2 medium strawberries about 15 ml)",
+   "abv": 0.0,
+   "sugar": 8.0,
+   "acid": 1.5,
+   "source": "Liquid Intelligence ingredient table, strawberry juice 8% sugar, 1.50% acid (pdf 141, printed 137); yield per berry unsourced (my estimate, swept 10-20 ml)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-outlaw, 2026-10-01"
+  },
+  "cucumber_muddled": {
+   "name": "cucumber slices, muddled (counted as the juice they give: 3 thin slices about 8 ml)",
+   "abv": 0.0,
+   "sugar": 1.7,
+   "acid": 0.1,
+   "source": "unsourced standard values (my knowledge: cucumber is mostly water, ~1.7 g sugar/100 g, very low acid; Flavor Matrix pdf 100: high water content, mildest flavour); yield unsourced",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-outlaw, 2026-10-01"
+  },
+  "sanbitter": {
+   "name": "Sanbitter (San Pellegrino), recommended, or any non-alcoholic Italian bitter aperitif soda",
+   "abv": 0.0,
+   "sugar": 10.0,
+   "acid": 0.3,
+   "source": "named in the Gunshop Fizz (A Proper Drink p. 289). Sugar ~10 g/100 ml and acid ~0.3% unsourced (typical sweetened soft drink; swept 6-13 g); non-alcoholic",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-outlaw, 2026-10-01"
+  },
+  "cucumber_slice": {
+   "name": "cucumber slice (garnish)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish, Proper p. 289; not modelled",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, ruler-outlaw, 2026-10-01"
+  },
+  "mint_sprig_clapped": {
+   "name": "fresh mint sprig, clapped once between the hands and set in the glass",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "a single clap releases the aroma without crushing or tearing (Oxford SPANKING FOR AROMATIZED GARNISHES, pdf 1853, Maloney's technique); pairing: Flavor Matrix pdf 100, cucumber best pairings include mint; scent, not modelled",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, ruler-outlaw, 2026-10-01"
+  },
+  "pimms_no1": {
+   "name": "Pimm's No. 1 Cup, recommended, or any gin-based fruit cup (about 25%)",
+   "abv": 25.0,
+   "sugar": 18.0,
+   "acid": 0.0,
+   "source": "gin-based bottled cup of gin, fruit extracts, liqueurs, bitter herbs, spices and sugar (Oxford PIMM'S CUP pdf 1514); 25% ABV label strength and ~18 g sugar/100 ml unsourced (my knowledge; sugar swept 12-25 g). Allergens: no source names a nut, nutmeg, dairy, egg or grain; recipe undisclosed, treated like other secret-recipe bitters and liqueurs (Campari, Angostura): none",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-outlaw, 2026-10-01"
+  },
+  "malt_rich_syrup": {
+   "name": "malt syrup (1 part barley malt syrup, from a jar, to 2 parts rich simple syrup, by volume, stirred smooth)",
+   "abv": 0.0,
+   "sugar": 87.0,
+   "acid": 0.0,
+   "source": "computed: rich syrup 89 g/100 ml (LI p. 51) x2/3 + barley malt syrup ~84 g sugars/100 ml (unsourced: ~60% sugars by mass x ~1.4 g/ml) x1/3 = 87; maltose reads less sweet than sucrose (unsourced), so dosed at the full end; undistilled malt -> gluten (studio rule)",
+   "contains": [
+    "gluten"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-sage, 2026-10-01"
+  },
+  "scotch_blended_saffron": {
+   "name": "blended Scotch whisky steeped with saffron (about 20 threads, ~0.05 g, per 200 ml, 1 hour at room temperature, strained)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "= blended scotch (LI pdf 140 note, 40% label); saffron adds aroma and colour only, no sugar, acid or strength; Oxford INFUSION pdf 1072: saffron infused in alcohol gives a yellow colour; dose and time unsourced craft call",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, ruler-sage, 2026-10-01"
+  },
+  "old_potrero_rye": {
+   "name": "Old Potrero Straight Rye whiskey (48.5%; 100% rye malt, copper pot still), recommended; the Toasted Barrel bottling (51.2%) also works",
+   "abv": 48.5,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "48.5% Straight Rye 6YO and 51.2% Toasted Barrel 6YO: oldpotrero.com, read by Hester (outlaw-ruler r2); 100 percent malted rye: Oxford ANCHOR DISTILLING pdf 103; distilled grain spirit, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-ruler, 2026-10-01"
+  },
+  "quince_paste_loosened": {
+   "name": "quince paste (membrillo), loosened 1:1 by weight with just-boiled water, mashed until no lumps are left",
+   "abv": 0.0,
+   "sugar": 30.0,
+   "acid": 0.3,
+   "source": "UNSOURCED Tomás estimate: shop membrillo about 55-65 g sugar per 100 g, halved by the 1:1 loosening (~30 g/100 ml); fruit acid ~0.3%; swept 25-35 g and 0-1% acid. nuts on the safe side: the same paste is sold with walnuts mixed in (membrillo con nueces) and is packed and served alongside nuts, the dried-fruit call (row apricot_steeped_rye)",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-ruler, 2026-10-01"
+  },
+  "sherry_vinegar": {
+   "name": "sherry vinegar (vinagre de Jerez)",
+   "abv": 0.0,
+   "sugar": 1.0,
+   "acid": 7.0,
+   "source": "unsourced standard values: acidity ~7% acetic (my knowledge of the Jerez minimum for the basic grade; aged grades run higher); sugar ~1 g/100 ml estimate. Wine vinegar: fining ignored (STUDIO-RULES 4); sulphites are not a veto",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-sage, 2026-10-01"
+  },
+  "bourbon_cask_strength": {
+   "name": "cask-strength (barrel-proof) bourbon, about 60%",
+   "abv": 60.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "unsourced standard value: cask-strength bourbons are bottled undiluted, commonly ~55-68% (my knowledge; swept 55-68); straight spirit, no sugar or acid (LI pdf 140 note); distilled grain spirit, not gluten (STUDIO-RULES 4). Oxford AMARETTO SOUR pdf 97 (Morgenthaler) calls for 'good cask-strength bourbon'",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, outlaw-sage, 2026-10-01"
+  },
+  "tarragon_leaves": {
+   "name": "fresh tarragon leaves (French tarragon), shaken with the drink and fine-strained out",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "herb leaf shaken with the drink and fine-strained out; scent and a little taste, no sugar, acid or strength; not modelled in balance. Pairing: Flavor Matrix pdf 270 (citrus-aroma compounds such as limonene, myrcene and citronellol are also found in many herbs, especially basil, sage, mint, tarragon); gin, lemon and tarragon together in the Little Dragon (Joy of Mixology pdf 323-324). Leaf herb, no heat: no veto",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, sage-caregiver, 2026-10-02"
+  },
+  "tarragon_sprig_clapped": {
+   "name": "fresh tarragon sprig, clapped once between the hands and set in the glass",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "a single clap releases the aroma without crushing or tearing (Oxford SPANKING FOR AROMATIZED GARNISHES, pdf 1853); scent, not modelled; leaf herb, no heat: no veto",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, sage-caregiver, 2026-10-02"
+  },
+  "popcorn_demerara_syrup": {
+   "name": "popcorn syrup (100 g demerara sugar dissolved in 100 ml hot water; off the heat, 20 g plain popcorn popped in a dry lidded pan, no oil, butter or salt, stirred in, covered 30 minutes, pressed through a sieve; about 120 ml, fridge, a week)",
+   "abv": 0.0,
+   "sugar": 61.9,
+   "acid": 0.0,
+   "source": "sugar as LI demerara syrup (ingredient table pdf 140-141, pp. 136-137); the popcorn adds toasted-corn aroma and flavour, its own sugar and the liquid it holds back not measured (unsourced). Veto-free as made here: home-popped plain kernels; bought popcorn can carry butter (dairy) or coconut oil (nuts)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-creator, 2026-10-02"
+  },
+  "ice_water": {
+   "name": "ice-cold still water (poured from a jug of water and ice, measured, no ice in the drink)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "plain water; the dilution step of Liquid Intelligence p. 152 (booze in the freezer, dilute with ice water at the last minute)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-creator, 2026-10-02"
+  },
+  "fortaleza_blanco": {
+   "name": "Fortaleza Blanco tequila (40%)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "label ABV 40% (unsourced; Hester to confirm); straight spirit: no sugar, minimal acid (Liquid Intelligence pdf 140 note)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-regular-guy, 2026-10-02"
+  },
+  "oregano_sprig_pinched": {
+   "name": "small fresh oregano sprig, pinched once between finger and thumb and laid on the ice",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish: scent, not modelled; leaf herb, no heat, so no spice veto (spice = heat only). Pairing: Flavor Matrix pdf 306 (tequila shares carvacrol with papaya; oregano also carries it)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, sage-regular-guy, 2026-10-02"
+  },
+  "genever_oude": {
+   "name": "oude (old-style) genever (style: Dutch or Belgian genever with at least 15% malt wine; 35% or stronger)",
+   "abv": 35.0,
+   "sugar": 1.0,
+   "acid": 0.0,
+   "source": "Oxford GENEVER pdf 875: oude style must contain at least 15% moutwijn, be at least 35% ABV, and contain no more than 20 g sugar per litre (so 0-2 g/100 ml; row at the 1.0 midpoint, swept 0-2); pdf 870: oude genever is closest in flavour to a whisky, juniper not traditionally dominant. Distilled grain spirit (moutwijn from rye, corn and malted barley, pdf 874): not gluten (STUDIO-RULES 4). ABV row at the legal floor; bottles commonly run higher (unsourced), swept 35-42.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-explorer, 2026-10-02"
+  },
+  "rye_barrel_proof": {
+   "name": "barrel-proof (cask-strength) straight rye whiskey, about 60%",
+   "abv": 60.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "unsourced standard value: barrel-proof straight ryes are bottled undiluted, commonly ~55-68% (my knowledge; swept 55-68, as bourbon_cask_strength); straight spirit, no sugar or acid (LI pdf 140 note); distilled grain spirit, not gluten (STUDIO-RULES 4). Plan row sage-hero (plans/sage.md): a style, no named bottle",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-hero, 2026-10-02"
+  },
+  "coffee_ice_block": {
+   "name": "one large block of ice frozen from ordinary black coffee (filter or cafetiere, no sugar, no milk), cooled before freezing",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.1,
+   "source": "garnish kind: not modelled at serve, because the drink is stirred on ordinary ice and strained over the block, so its melt arrives after serving (meltwater layers round a large cube and barely mixes until swirled, LI p. 112, pdf 116). Its melt is modelled separately in Checks with the hot_coffee row's values (no sugar, acid ~0.1, unsourced). Coffee touches no studio veto (no nuts, dairy, gluten, egg or heat), as coffee_beans_whole. Freezes outside-in, centre last, with dissolved matter pushed toward the centre (LI pp. 67-69, pdf 71-73, about impurities; applying it to coffee solids is my inference)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, sage-hero, 2026-10-02"
+  },
+  "verjus_blanc": {
+   "name": "white verjus (verjus blanc: juice pressed from wine grapes before they ripen, unfermented)",
+   "abv": 0.0,
+   "sugar": 6.0,
+   "acid": 2.5,
+   "source": "What it is: Cocktail Codex p. 187 (VERJUS box). Grapes' acids are tartaric and malic: Liquid Intelligence p. 61 (pdf 65). Sugar 6 g/100 ml and acid 2.5% are unsourced standard values (no book gives verjus numbers), swept 3-10 g and 1.5-3.5% in sage-innocent. Allergens: unfermented grape juice, none of the five vetoes",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-innocent, 2026-10-02"
+  },
+  "tartaric_acid_solution": {
+   "name": "tartaric acid solution (10 g tartaric acid powder in 100 g water)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 9.1,
+   "source": "Cocktail Codex p. 195 (TARTARIC ACID: make a 10-to-1 solution, as for malic); 9.1% = 10 g in 110 g total, by weight. Acid swaps gram for gram: Liquid Intelligence p. 58. Home-brew shops sell the acid: Liquid Intelligence p. 378 (via Hester, sage-innocent r2)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-innocent, 2026-10-02"
+  },
+  "raspberry_red_wine_syrup": {
+   "name": "raspberry and red wine syrup (100 g fresh raspberries, 100 g white sugar and 100 ml dry young red wine, Cabernet Sauvignon style; blended cold until the sugar has gone, left 30 minutes, pressed through a fine sieve to take out the seeds; fridge, up to a week; adapted from the Cocktail Codex's Blended Strawberry Syrup, p. 47)",
+   "abv": 5.6,
+   "sugar": 40.7,
+   "acid": 0.82,
+   "source": "derived: the raspberry_syrup row's basis (100 g raspberries + 100 g sugar ~ 157 ml sieved, 66.5 g/100 ml, 1.0% acid; raspberry values unsourced) + 100 ml dry red as LI's Cabernet row (14.5%, 0.2 g, 0.55%, pdf 140-141) = ~257 ml: 104.6 g sugar -> 40.7 g/100 ml; 1.57 + 0.55 g acid -> 0.82%; 14.5 ml ethanol -> 5.6% (no heat, so none lost). Wine fining ignored (no named bottle)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-jester, 2026-10-02"
+  },
+  "port_ruby": {
+   "name": "ruby port (young, non-vintage)",
+   "abv": 19.5,
+   "sugar": 10.0,
+   "acid": 0.5,
+   "source": "style: Cocktail Codex p. 250 (ruby: non-vintage, at least two years in wood; port fortified to at least 17.5%). ABV 19.5%, sugar ~10 g/100 ml and acid ~0.5% are unsourced standard values (typical ruby labels 19-20%, ~90-110 g/L residual sugar); swept 8.5-13 g in the pour's checks. Wine fining ignored (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-outlaw, 2026-10-02"
+  },
+  "port_tawny_10": {
+   "name": "10-year-old tawny port",
+   "abv": 20.0,
+   "sugar": 11.5,
+   "acid": 0.5,
+   "source": "style: Cocktail Codex p. 250 (tawny: a blend of vintages, not for bottle ageing; older tawnies bring more structure). ABV 20%, sugar ~11.5 g/100 ml and acid ~0.5% are unsourced standard values (typical 10-year tawny labels 19.5-20%, ~100-130 g/L); swept in the pour's checks. Wine fining ignored (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-outlaw, 2026-10-02"
+  },
+  "scotch_single_malt_highland_unpeated": {
+   "name": "unpeated Highland single malt Scotch whisky (bourbon-cask, no sherry or wine finish)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid; 40% typical label (unsourced for the style), swept 40-46%",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, sage-ruler, 2026-10-02"
+  },
+  "nikka_from_the_barrel": {
+   "name": "Nikka From the Barrel blended Japanese whisky (51.4%)",
+   "abv": 51.4,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "51.4% label strength unsourced (Hester to check the label); straight spirit, no sugar, minimal acid (LI pdf 140 note). Distilled grain whisky (malt and grain), not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-innocent, 2026-10-04"
+  },
+  "japanese_blended_whisky": {
+   "name": "Japanese blended whisky (style), 40% or stronger",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "style floor 40% (common label strength, unsourced); straight spirit (LI pdf 140 note); distilled grain spirit, not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-innocent, 2026-10-04"
+  },
+  "egg_whole_lavender": {
+   "name": "whole egg (one large, raw), kept overnight in its shell beside dried culinary lavender (Codex p. 94 egg infusion)",
+   "abv": 0.0,
+   "sugar": 0.3,
+   "acid": 0.0,
+   "source": "~50 ml per large egg (egg_white ~30 ml + egg_yolk ~17 ml rows, unsourced standard); the shell infusion adds aroma only (Codex p. 253: the white absorbs the aroma through the semipermeable shell), no sugar, acid or strength. The veto enum's only egg entry is 'egg-white': a whole egg contains it. Lavender is on no veto list",
+   "contains": [
+    "egg-white"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-innocent, 2026-10-04"
+  },
+  "jasmine_tea_syrup": {
+   "name": "jasmine tea syrup (1:1: plain jasmine green tea, brewed strong and strained, equal weight of white sugar dissolved in)",
+   "abv": 0.0,
+   "sugar": 61.5,
+   "acid": 0.0,
+   "source": "sugar as 1:1 simple syrup, Liquid Intelligence ingredient table (pp. 136-137); tea adds no measurable sugar or acid (as rum_aged_tea row); plain jasmine-scented green tea, no other flavourings: tea is on no veto list",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-jester, 2026-10-04"
+  },
+  "shochu_barley": {
+   "name": "barley shochu (honkaku, single-distilled; a style, about 25%)",
+   "abv": 25.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Shochu among Ikeda's Japanese ingredients at Angel's Share: A Proper Drink pp. 48-49. Strength: Oxford Companion SHOCHU pdf 1784-1786, 'usually 25%' (via Hester, lover-magician r2), swept 20-30%; Oxford divides it into neutral (korui) and aromatic pot-still (honkaku); in US shops it's often mislabelled 'soju', and Korean soju is a different spirit. Sugar/acid: straight distilled spirit (Liquid Intelligence pdf 140 note). A distilled grain spirit, so not gluten (STUDIO-RULES 4); rice shochu the same",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-magician, 2026-10-04"
+  },
+  "shiso_leaf": {
+   "name": "fresh green shiso leaf (perilla leaf, ooba)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Herb leaf stirred with the drink and strained out; not modelled in balance (scent and a little taste; no sugar, acid or strength). Shiso leaf among Ikeda's Japanese ingredients: A Proper Drink p. 49. Pairing: Flavor Matrix pdf 288 lists juniper and shiso together among the things that share alpha-pinene (cedar, pine, resin, sharp); pdf 286 lists shiso among those sharing anethole (anise, sweet). Allergens: a mint-family leaf (my knowledge, unsourced), not a nut, not heat; the leaf, never the seed",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, lover-magician, 2026-10-04"
+  },
+  "scotch_single_grain": {
+   "name": "single grain Scotch whisky (style; column-distilled, usually from maize or wheat), 40% or stronger",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid; 40% = legal Scotch floor (unsourced here). Style per Oxford WHISKY, GRAIN pdf 2149 (corn or soft winter wheat, malted barley added). Distilled grain spirit: not gluten (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-explorer, 2026-10-04"
+  },
+  "scotch_single_grain_46": {
+   "name": "single grain Scotch whisky at 46% (strength sweep)",
+   "abv": 46.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "sweep value for the style's stronger bottlings (unsourced)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-explorer, 2026-10-04"
+  },
+  "calvados": {
+   "name": "calvados (AOC Calvados, the plain appellation)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Liquid Intelligence pdf 140 note: straight spirits = label ABV, no sugar, minimal acid; 40% typical label (unsourced). Oxford CALVADOS pdf 389: cider-based brandy",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-explorer, 2026-10-04"
+  },
+  "egg_whole": {
+   "name": "whole egg (one large, raw)",
+   "abv": 0.0,
+   "sugar": 0.3,
+   "acid": 0.0,
+   "source": "~50 ml per large egg (egg_white ~30 ml + egg_yolk ~17 ml rows, unsourced standard); the veto enum's only egg entry is 'egg-white': a whole egg contains it",
+   "contains": [
+    "egg-white"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-hero, 2026-10-04"
+  },
+  "beef_broth_homemade": {
+   "name": "plain beef broth, made at home (beef shin and bones simmered in water with onion and carrot; no salt, pepper, celery or stock cube; skimmed, not clarified)",
+   "abv": 0.0,
+   "sugar": 0.3,
+   "acid": 0.0,
+   "source": "values unsourced (home broth: no alcohol, a trace of sugar from the onion and carrot, no titratable acid). Oxford BULLSHOT pdf 375: DeGroff's recipe allows canned or house-made broth. Allergens: beef, bones, water, onion, carrot only, no veto touched; made at home so no yeast extract, hydrolysed wheat protein, milk powder or egg-white clarification (cf. beef_broth_canned). Gelatin from the bones is not a veto. Not vegetarian (no veto).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-innocent, 2026-10-04"
+  },
+  "sherry_medium_dry": {
+   "name": "medium dry sherry (an amontillado-style sherry with a little sweetness)",
+   "abv": 17.5,
+   "sugar": 2.5,
+   "acid": 0.5,
+   "source": "unsourced standard values: medium dry sherries run about 17-18% with a few grams of sugar per 100 ml (my estimate; swept 0.2-5 g); acid as the amontillado row. Named in DeGroff's Bullshot (Oxford BULLSHOT pdf 375). Wine fining ignored (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-innocent, 2026-10-04"
+  },
+  "aperol": {
+   "name": "Aperol, recommended, or any bright orange Italian bitter aperitivo of about 11%",
+   "abv": 11.0,
+   "sugar": 26.0,
+   "acid": 0.0,
+   "source": "ABV 11%: Cocktail Codex p. 258 ('At 11% ABV, Aperol is the lightest of all aperitivi bitters'); Oxford APEROL pdf 125: 11-15% depending on market (swept). Botanicals per Oxford pdf 125: oranges, cinchona, rhubarb, gentian (recipe not published; no nut or heat on record, so none, as Campari's row). Sugar UNSOURCED estimate 26 g/100 ml, swept 18-34",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-jester, 2026-10-04"
+  },
+  "amaro_nonino": {
+   "name": "Amaro Nonino Quintessentia (35%), recommended, or any grappa-based amaro",
+   "abv": 35.0,
+   "sugar": 20.8,
+   "acid": 0.0,
+   "source": "ABV 35%: Cocktail Codex p. 259 ('high in proof (35% ABV) but not too sweet'; grappa base; orange oil, herbs, birch). Sugar 20.8 g/100 ml: Alko (Finnish state retailer) listing, 208 g/l, a LEAD from a search summary, page not read (Hester, innocent-jester r3); swept with Aperol 18-34. Allergens: spice, on the safe side (Tomás, innocent-jester r4, on his own row from r2): the same unread summary lists galangal among the botanicals (with caramelised sugar, bitter and sweet orange, cinchona, gentian, liquorice, quassia, rhubarb, saffron, tamarind); the Flavor Matrix puts galangal in ginger's family and lists it as ginger's substitute (pdf 132), and this studio files ginger under spice (gingerol 'a relative of capsaicin', pdf 132). No nut or nutmeg listed. | RULED none (Robin 2026-10-06, collection review D1/D8): a row is classed only on a stated ingredient (a published ingredient list, the maker's declaration, a 'may contain' label on the recommended bottle, or a book naming the ingredient), never on a tasting note, a rumoured historical formula or 'secret recipe' alone; the earlier safe-side reasoning is kept above for the record. Basis here: galangal only in an unread search summary.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-jester, 2026-10-04"
+  },
+  "orgeat_toasted_almond": {
+   "name": "toasted almond orgeat, made at home (150 g blanched almonds toasted in the oven at 180°C for 8-10 minutes until pale gold, cooled, blended with 300 ml water, left 30 minutes, squeezed through a clean cloth; the almond milk weighed and warmed gently with the same weight of white sugar until dissolved, never boiled; off the heat, 1/4 teaspoon orange flower water; about 400 ml, fridge, up to 2 weeks)",
+   "abv": 0.0,
+   "sugar": 61.7,
+   "acid": 0.0,
+   "source": "computed: 1:1 by weight almond milk and sugar (sugar 0.62 ml/g, LI p. 51) -> ~61.7 g/100 ml, same basis as LI's orgeat row (pp. 136-137); the almond milk's own sugar and fat ignored (unsourced, small). Method after Codex House Orgeat p. 285 (almond milk and sugar warmed until dissolved); toasting per Flavor Matrix pdf 184 (nuts toasted to bring out flavour; Maillard); orange flower water per Oxford ORGEAT pdf 1451. Almonds: nuts.",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-jester, 2026-10-04"
+  },
+  "rum_appleton_12": {
+   "name": "Appleton Estate 12 Year Old Rare Casks Jamaica rum (43%), recommended, or any aged Jamaican rum, the oldest you can find",
+   "abv": 43.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "label 43% (unsourced: Hester checks the label); sugar 0 per LI pdf 140 straight-spirit note; Appleton Estate part of J. Wray and Nephew since the early 20th century (Oxford APPLETON ESTATE RUM pdf 132), the firm whose seventeen-year rum Vic used (Oxford MAI TAI pdf 1211); 'substitute the oldest Jamaican available' (pdf 1212)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-jester, 2026-10-04"
+  },
+  "lime_shell_half": {
+   "name": "half the squeezed lime shell, dropped in",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Vic's 1970 telling via Joy of Mixology pdf 327 ('Half the lime shell went in for color'); Oxford MAI TAI pdf 1212 ('a spent lime shell'); scent only, juice counted in lime_juice",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, hero-jester, 2026-10-04"
+  },
+  "mint_branch": {
+   "name": "a big branch of fresh mint, standing up out of the ice",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Vic's 1970 telling via Joy pdf 327 ('a branch of fresh mint'); Oxford MAI TAI pdf 1212 (mint); scent only",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, hero-jester, 2026-10-04"
+  },
+  "folle_blanche_armagnac": {
+   "name": "young Armagnac made from Folle Blanche (single-grape, labelled Folle Blanche; unaged blanche or young; 40% or stronger)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford ARMAGNAC pdf 139 (Folle Blanche: floral and fruity spirit, best young); pdf 138 (blanche Armagnac, unaged, a category since 2005); 40% label floor unsourced, swept 40-50%; LI pdf 140 note: straight spirits, no sugar, minimal acid",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-hero, 2026-10-04"
+  },
+  "gooseberry_syrup": {
+   "name": "blended gooseberry syrup (2 parts fresh or frozen green gooseberries to 1 part white sugar by weight, blended cold until smooth, pressed through a fine sieve; fridge, up to a week; adapted from the Cocktail Codex's Blended Strawberry Syrup, p. 47, at half its sugar)",
+   "abv": 0.0,
+   "sugar": 44.0,
+   "acid": 1.4,
+   "source": "method adapted from Codex p. 47 (Blended Strawberry Syrup: equal weights fruit and sugar, blended cold, sieved); here 2 fruit : 1 sugar, Tomás's own adaptation. Values UNSOURCED estimate by Tomás: gooseberry ~6 g sugar/100 g, ~1.8% titratable acid; 200 g fruit ~190 ml + 100 g sugar ~62 ml (LI 0.62 ml/g, pp. 136-137) = ~252 ml -> ~44 g sugar/100 ml, ~1.4% acid; swept 38-50 g and 1.0-1.8%. Matrix GRAPES pdf 140 lists gooseberries among grape substitutes. Allergens: fresh berry (Ribes), no veto class; not the cape gooseberry (physalis)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-hero, 2026-10-04"
+  },
+  "wormwood_tangerine_bitters": {
+   "name": "wormwood bitters made at home (about 10 g dried wormwood and the thin-cut peel of one tangerine, steeped 2 days in 250 ml overproof white rum of about 63%, strained)",
+   "abv": 60.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Method: Imbibe! pdf 124-125 (Wondrich: 5-6 sprigs or 1 oz dried wormwood plus the thin-cut peels of three tangerines, a tip from Eleanor Early's Ports of the Sun, 1937, in a 750 ml bottle of navy-strength gin or overproof white rum, a couple of days, strained), scaled to a third by Tomas. ABV 60%: unsourced estimate (63% spirit, a little lost to the herb and peel), swept 50-63%. No sugar or acid added. Allergens none, Tomas's call: wormwood is a herb (Asteraceae), tangerine peel a citrus peel, rum a distilled spirit; none touches egg, dairy, gluten, nuts or heat.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-innocent, 2026-10-04"
+  },
+  "swizzle_stick_left_in": {
+   "name": "wooden swizzle stick, left standing in the glass",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford SWIZZLE pdf 1963 (the stick rolled between the palms); left in the glass: Wren's ruling, jester-innocent r3. A tool, no flavour.",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, jester-innocent, 2026-10-04"
+  },
+  "absinthe_verte_tangerine": {
+   "name": "green absinthe (verte, a wormwood-forward style, about 68%), steeped two days with the thin-cut peel of one tangerine per 100 ml, strained",
+   "abv": 68.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Absinthe: distilled with grand wormwood, aniseed and fennel; the green from chlorophyll in the finishing herbs (Oxford ABSINTHE pdf 50); 'wormwood-forward' absinthe as the stand-in for home-steeped wormwood bitters in the Green Swizzle (Imbibe! pdf 125). Tangerine peel: Eleanor Early's 1937 tip for the wormwood bitters, credited by Wondrich (Imbibe! pdf 125); putting it in the absinthe is Tomas's adaptation (jester-innocent r4), replacing the undistilled home wormwood steep, for which no page gives a safe thujone level (Oxford pdf 50, 2212; Hester r3). ABV 68% as the table's generic absinthe (unsourced standard value, labels 45-74%), swept 45-74%; peel adds no sugar or acid. Allergens none: a distilled spirit and citrus peel.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-innocent, 2026-10-04"
+  },
+  "amaro_ciociaro": {
+   "name": "Amaro CioCiaro (30%), recommended, or any dark, bittersweet Italian amaro with a burnt-orange character, about 30%",
+   "abv": 30.0,
+   "sugar": 16.0,
+   "acid": 0.0,
+   "source": "Liquid Intelligence ingredient table pdf 140 (p. 136): Amaro CioCiaro 30.0% ABV, 16.0 g sugar/100 ml, 0.00% acid. Flavour: Cocktail Codex p. 260 (cola and orange aromas, burnt-orange flavour, moderate sweetness, 30%; 'a favorite substitute for Amer Picon in classics like the Brooklyn'); Oxford BROOKLYN COCKTAIL pdf 361 names it as the substitute in Grohusko's recipe. Allergens: recipe not published; no nut, nutmeg, dairy, egg, gluten or heat ingredient on any page read; classified veto-free on the Campari/Cynar precedent ('cola aromas' is a tasting note, not an ingredient). Substitute style swept for ABV and sugar in innocent-lover.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-lover, 2026-10-04"
+  },
+  "rum_jamaican_aged_50": {
+   "name": "aged Jamaican rum, about 50% (100 US proof), style; not spiced, not sweetened",
+   "abv": 50.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "LI pdf 140 straight-spirit note (label ABV, no sugar, minimal acid). Strength after the Brooklyn Club's drink as the Brooklyn Eagle printed it, 13 Dec 1945 p. 3: half Jamaica rum (100 proof), half Italian vermouth, a dash of Angostura (Hester, innocent-lover anchors F17). Swept 40-63% in innocent-lover: 40-57% in range (57% edge), 63% OUT.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-lover, 2026-10-04"
+  },
+  "kirsch": {
+   "name": "kirsch (kirschwasser: clear, unsweetened cherry eau-de-vie)",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford CAFÉ BRÛLOT pdf 381 (120 ml kirschwasser in the recipe). 40% typical bottling and 0 g sugar unsourced (clear eau-de-vie, as apricot_eau_de_vie); swept 40-45%. nuts on the safe side, same call as maraschino and apricot_eau_de_vie in this table: Oxford KIRSCHWASSER pdf 1135, 'distilled from cherries and their pits', with 'almond-like' flavours (Hester, jester-lover r2); Flavor Matrix pdf 304 lists benzaldehyde-bitter almond under CHERRY",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-lover, 2026-10-04"
+  },
+  "coffee_chicory": {
+   "name": "hot brewed dark-roast coffee with chicory (New Orleans style, filter or cafetière, not espresso)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.1,
+   "source": "Oxford CAFÉ BRÛLOT pdf 381: 'French roast coffee flavored with chicory'. Values as hot_coffee (unsourced: no sugar, acid ~0.1 estimated); chicory root is roasted and ground in with the coffee and touches no studio veto (not nuts, dairy, gluten, egg or heat)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-lover, 2026-10-04"
+  },
+  "cinnamon_stick": {
+   "name": "cinnamon stick (steeped and removed)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford CAFÉ BRÛLOT pdf 381 (3 sticks, broken, marinated in the spirits). Aroma only, no sugar, acid or strength modelled (unsourced). A baking spice, not heat (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, jester-lover, 2026-10-04"
+  },
+  "clove": {
+   "name": "whole clove (studded into an orange-peel spiral)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford CAFÉ BRÛLOT pdf 381 (12 cloves studded into a spiral orange peel). Aroma only, nothing measured (unsourced). A baking spice, not heat (STUDIO-RULES 4)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, jester-lover, 2026-10-04"
+  },
+  "lark_classic_cask": {
+   "name": "Lark Classic Cask Tasmanian single malt whisky (43%), recommended, or any Tasmanian single malt",
+   "abv": 43.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "43% label strength unsourced (my knowledge; Hester to check the label). Straight spirit: no sugar, minimal acid (LI pdf 140 note). Distilled grain (malted barley) spirit, not gluten (STUDIO-RULES 4); cask fining ignored (no label claim)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-magician, 2026-10-04"
+  },
+  "pepperberry_water": {
+   "name": "Tasmanian pepperberry water (3 dried Tasmanian pepperberries, Tasmannia lanceolata, also sold as mountain pepper, lightly cracked with the back of a spoon, steeped in 100 ml cold still water in the fridge for 15 minutes, strained)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "plain water; three dried berries add colour, aroma and some heat, no measurable sugar or acid at this dose (unsourced, my estimate). spice on the safe side: a native pepper whose heat a guest avoiding heat would reasonably fear (STUDIO-RULES 4: spice = heat)",
+   "contains": [
+    "spice"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-magician, 2026-10-04"
+  },
+  "gin_gordons": {
+   "name": "Gordon's London Dry gin (37.5%, UK bottling), recommended, or any London dry gin",
+   "abv": 37.5,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "label ABV 37.5% for the UK bottling (unsourced, my knowledge; strength differs by market, ~40% elsewhere and 47.3% for some export bottlings: Hester checks the label); unsweetened London dry (LI pdf 140 straight-spirit note). Named because the Vesper's order names it (Oxford VESPER pdf 2099)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-lover, 2026-10-04"
+  },
+  "rum_jamaican_any": {
+   "name": "Jamaican rum (white or aged; not spiced, not sweetened), 40% or stronger",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "LI pdf 140 straight-spirit note (label ABV, no sugar, minimal acid); 40% typical label (unsourced), swept 40-63%. Style only: Oxford VESPER pdf 2099 says the name came from 'a curious drink of frozen rum with fruit and herbs' in Jamaica, with no rum named",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-lover, 2026-10-04"
+  },
+  "johnnie_walker_red_label": {
+   "name": "Johnnie Walker Red Label blended Scotch whisky (40%), recommended, or any blended Scotch whisky",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "label ABV 40% (unsourced here; Hester to confirm for the guest's market); straight spirit, no sugar, minimal acid (LI pdf 140 note). Distilled grain spirit: not gluten (STUDIO-RULES 4); caramel colouring is no veto",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-innocent, 2026-10-04"
+  },
+  "strawberry_lemon_cordial": {
+   "name": "strawberry and lemon cordial (100 g ripe hulled strawberries blended cold with 100 g white sugar, pressed through a fine sieve; then the same volume of fresh lemon juice stirred in, about 300 ml; fridge, up to a week; syrup step after the Cocktail Codex's Blended Strawberry Syrup, p. 47)",
+   "abv": 0.0,
+   "sugar": 35.8,
+   "acid": 3.2,
+   "source": "computed, unsourced: strawberries ~4.9 g sugar/100 g and ~0.7% acid (unsourced standard values); 100 g sugar ~62 ml (LI 0.62 ml/g); sieved syrup ~150 ml + 150 ml lemon juice (LI table: 1.6 g sugar, 6.0% acid) = ~300 ml -> (100+4.9+2.4)/300 = 35.8 g/100 ml; (0.7+9.0)/300 = 3.2% acid",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-innocent, 2026-10-04"
+  },
+  "glenfarclas_single_malt": {
+   "name": "Glenfarclas single malt Scotch whisky (recommended; or any Scotch single malt), 40% or stronger",
+   "abv": 40.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "40% = Scotch legal floor, unsourced for the bottle (bottlings vary; swept 40-60%). Distillery in Scotland: SB 2022 (Hester F11). Straight spirit: no sugar, minimal acid (LI pdf 140 note). Distilled malted barley, not gluten (STUDIO-RULES 4); fining ignored (no label claim)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, innocent-magician, 2026-10-04"
+  },
+  "sharp_apple_slice": {
+   "name": "a thin slice of raw, sharp eating or cooking apple (the sharpest to hand, e.g. a crab apple or a Granny Smith style), skin on, cut just before serving",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish only: a thin raw slice set in the glass, not modelled in balance (fresh apple; no veto: fruit, no nut, dairy, gluten, egg or heat)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, innocent-outlaw, 2026-10-04"
+  },
+  "sweet_vermouth_beet": {
+   "name": "sweet vermouth steeped with raw beetroot (50 g peeled raw beetroot, thinly sliced, per 250 ml sweet vermouth, room temperature, about 12 hours, strained, then kept in the fridge)",
+   "abv": 15.0,
+   "sugar": 15.0,
+   "acid": 0.55,
+   "source": "Tomás estimate, unsourced: base values sweet_vermouth (Liquid Intelligence pp. 136-137: 16.5%, 16 g, 0.6%); the slices take up some vermouth and give back beet water (raw beet ~88% water, ~7 g sugar per 100 g, my knowledge), so at about half-equilibrium the strained vermouth runs ~15% and ~15 g/100 ml; swept 14-16.5% and 14-17 g. Steep time after Cocktail Codex p. 95 (low-proof vermouth infuses slowly; St-Germain 20% ~12 h). Pairing: Flavor Matrix GRAPE pdf 140 lists beet among grape's surprising pairings. Beetroot: no veto (not a nut, grain, dairy, egg or heat).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-outlaw, 2026-10-04"
+  },
+  "lime_peel": {
+   "name": "lime peel (a wide strip cut from the same lime before it's juiced)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish only: oils squeezed over the top, not modelled in balance; citrus aroma lives in the zest's oils (Flavor Matrix pdf 80)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, hero-magician, 2026-10-04"
+  },
+  "bourbon_beet": {
+   "name": "bourbon steeped with raw beetroot (60 g peeled raw beetroot, coarsely grated, per 250 ml bourbon, room temperature, about 30 minutes, tasted every few minutes, strained through a fine sieve lined with a coffee filter; fridge, a few days)",
+   "abv": 43.5,
+   "sugar": 0.8,
+   "acid": 0.0,
+   "source": "Tomás estimate, unsourced: base bourbon 45% (LI pdf 140 note, table row bourbon); the grated beet gives back some juice (raw beet ~88% water, ~7 g sugar per 100 g, my knowledge), so the strained spirit runs ~43.5% and under 1 g sugar per 100 ml; swept 40-45% and 0-2 g. Room-temperature steep for a fast-infusing ingredient, tasted often: Cocktail Codex p. 94. Pairing: Flavor Matrix COCOA pdf 84 lists beet among cocoa's surprise pairings and whiskey among its best. Beetroot and bourbon: no veto (beet is not a nut, grain, dairy, egg or heat; distilled grain spirit is not gluten).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-jester, 2026-10-04"
+  },
+  "rum_bacardi_carta_blanca": {
+   "name": "Bacardi Carta Blanca white rum (recommended; or any Cuban-style white rum)",
+   "abv": 37.5,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford MARY PICKFORD pdf 1252 names Bacardi; ABV 37.5% is the lower common label (EU/UK), 40% in the US (unsourced: Hester checks the label); swept 37.5-40; sugar 0 per LI pdf 140 straight-spirit note",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-ruler, 2026-10-04"
+  },
+  "pineapple_juice": {
+   "name": "fresh pineapple juice (or unsweetened, not-from-concentrate)",
+   "abv": 0.0,
+   "sugar": 10.0,
+   "acid": 0.8,
+   "source": "unsourced standard value for fresh pineapple juice (~10 g sugar/100 ml, ~0.8% acid, mostly citric), as pineapple_juice_pressed; LI's table has no pineapple row; swept 8-13 g and 0.5-1.0%",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-ruler, 2026-10-04"
+  },
+  "thyme_grenadine": {
+   "name": "thyme grenadine, made at home (250 g pomegranate juice, 250 g sugar, 6 thyme sprigs lightly crushed; shaken in a jar until the sugar dissolves, no heat; overnight in the fridge, strained; about 400 ml, a week or two in the fridge)",
+   "abv": 0.0,
+   "sugar": 71.0,
+   "acid": 0.5,
+   "source": "Method: Codex House Grenadine (equal weights pomegranate juice and cane sugar, cold), without its acid powders and orange extract; values as pomegranate_syrup (computed, unsourced). Thyme: Flavor Matrix pdf 248 (tropical fruit best pairing); steeps out, adds no sugar, acid or strength; overnight cold steep is a craft call (unsourced)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-ruler, 2026-10-04"
+  },
+  "rum_white_50": {
+   "name": "white rum, 50% or stronger (unaged or lightly aged, not spiced, not sweetened; style)",
+   "abv": 50.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "LI pdf 140 straight-spirit note (label ABV, no sugar, minimal acid); 50% is the floor the sweep sets for lover-ruler, swept 50-63%",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, lover-ruler, 2026-10-04"
+  },
+  "underberg": {
+   "name": "Underberg (German herbal digestif bitters, 44%, sold in 20 ml single-serve bottles), recommended, or any German-style herbal digestif bitters (Kräuterbitter)",
+   "abv": 44.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Named on A Proper Drink p. 237 (LeNell stocked Underberg bitters, 'considered food products'); Joy of Mixology pdf 419 gives it as the example of a digestif. ABV 44% and the 20 ml bottle: label, my knowledge, unsourced in the library (Hester to confirm). Sugar 0: unsourced placeholder for an unsweetened herbal bitters, swept 0-10 g/100 ml (moves nothing at 5 ml). Allergens: nuts on the safe side, Tomás's call: secret recipe of many herbs and spices, no published botanical list read; a herbal bitters may carry nutmeg (the Bénédictine lesson, Oxford pdf 256), so it counts until a source lists its botanicals. Spice: no heat expected (baking spices don't count). Distilled base: not gluten. | RULED none (Robin 2026-10-06, collection review D1/D8): a row is classed only on a stated ingredient (a published ingredient list, the maker's declaration, a 'may contain' label on the recommended bottle, or a book naming the ingredient), never on a tasting note, a rumoured historical formula or 'secret recipe' alone; the earlier safe-side reasoning is kept above for the record. Basis here: secret recipe only.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-outlaw, 2026-10-04"
+  },
+  "sorghum_syrup": {
+   "name": "sorghum syrup (pure, boiled down from the pressed juice of sorghum stalks; not a blend with corn syrup)",
+   "abv": 0.0,
+   "sugar": 90.0,
+   "acid": 0.3,
+   "source": "Flavor Matrix pdf 240 (printed 230): sorghum syrup is made like cane syrup, from juiced sorghum, boiled down; Sugar Syrup best pairings include grain. Sugar ~90 g/100 ml: unsourced estimate (~65% sugars by mass x ~1.39 g/ml), swept 75-100. Acid ~0.3%: unsourced (a slight tang), swept 0-1. Allergens none: the pressed juice of sorghum stalks, boiled (Oxford SORGHUM pdf 1834; sorghum is a grass of the same subfamily as sugar cane, not cane); not malt, not the grain; no nut, dairy, egg or heat",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-outlaw, 2026-10-04"
+  },
+  "apollinaris": {
+   "name": "Apollinaris sparkling mineral water (German; recommended), or any sparkling mineral water with a noticeable mineral taste",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford RICKEY pdf 1663: Col. Rickey's preferred water was reportedly Apollinaris. Values: unsourced standard (unsweetened, unflavoured mineral water: no alcohol, no sugar; dissolved CO2 not counted as titratable acid, as soda_water). Codex p. 211: mineral waters vary by source; minerals brighten citrus (said of soda water's added minerals). No allergen: water, minerals, CO2",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-ruler, 2026-10-04"
+  },
+  "banane_du_bresil": {
+   "name": "Giffard Banane du Brésil banana liqueur (25%), recommended, or any crème de banane (banana liqueur, about 25%)",
+   "abv": 25.0,
+   "sugar": 25.0,
+   "acid": 0.0,
+   "source": "Codex p. 35 (Bananarac: 'balanced and characterized by a true banana flavor'); ABV 25% from the label (unsourced here, Hester to confirm); sugar 25 g/100 ml unsourced standard value for banana liqueurs, swept 20-35",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-outlaw, 2026-10-04"
+  },
+  "lemon_zest_grated": {
+   "name": "lemon zest, finely grated over the drink (the yellow only)",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "garnish on the drink, no measurable sugar, acid or strength (unsourced, my call); citrus flavour sits in the zest's oils (Flavor Matrix pdf 80)",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, magician-lover, 2026-10-04"
+  },
+  "pear_syrup": {
+   "name": "fresh pear syrup (equal weights chopped ripe pear and white sugar, left overnight in the fridge, strained through a coffee filter)",
+   "abv": 0.0,
+   "sugar": 60.0,
+   "acid": 0.1,
+   "source": "computed, unsourced: macerated 1:1 by weight fruit and sugar reads close to LI simple syrup (61.5 g/100 ml, pdf 140-141); pear's own acid (~0.2-0.4%, malic, unsourced) halved by the sugar; swept 50-70 g and 0-0.2%. Method after Codex p. 47 (fruit and sugar in equal weights, cold), as the tomato syrup. Pear flesh only, no seeds pressed: veto-free (fresh fruit; Tomás's call)",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, jester-sage, 2026-10-04"
+  },
+  "mint_leaves_pressed_out": {
+   "name": "fresh mint leaves (spearmint), pressed round the inside of the cup with the back of a spoon, then taken out",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "the ode's method (1907 Morning Star printing, via Hester): mint crushed round the glass, then thrown away; Codex p. 30-31 rubs the tin with the bouquet and sets it aside. Leaves oil on the cup: scent and a little taste, no sugar, acid or strength; not modelled in balance",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, lover-sage, 2026-10-04"
+  },
+  "mint_bouquet": {
+   "name": "a tight bouquet of 4-5 fresh mint sprigs (spearmint), set in the ice beside the straw",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Codex p. 30-31 (bouquet trimmed, set in the crushed ice by the straw); scent only",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, lover-sage, 2026-10-04"
+  },
+  "cognac_black_tea": {
+   "name": "cognac steeped with black tea (2 ordinary black-tea bags in 150 ml cognac, 20 minutes at room temperature, bags lifted out without squeezing)",
+   "abv": 41.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "cognac as LI (41%); steep time after LI pp. 268-269 (Arnold's tea vodka, 32 g per litre, 20-40 min, which he then milk-washes to strip astringency; ours is not washed, keeps the tannin, so shorter and tasted: Cocktail Codex p. 94, black tea turns tannic if overextracted). ~30 g/L assumes ~2 g per bag (unsourced). Tea adds colour and tannin, no measurable sugar or acid; spirit lost in the bags ignored (as rum_aged_tea). Plain unflavoured black tea (Camellia sinensis): no veto; flavoured blends are not this row",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, hero-ruler, 2026-10-04"
+  },
+  "batavia_arrack": {
+   "name": "Batavia arrack (Indonesian sugar-cane and rice spirit, from Java; not Sri Lankan coconut arrack), recommended; or a full-flavoured Jamaican-style rum, 50% or stronger",
+   "abv": 50.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Oxford ARRACK, BATAVIA pdf 147-150: molasses and rice (palm sap once, since dropped, pdf 150), 'over 50 percent ABV' (pdf 149); 50% bottling unsourced (Hester checks the label); sugar 0 per LI pdf 140 straight-spirit note. Allergens: nuts on the safe side, see why | RULED none (Robin 2026-10-06, collection review D1/D8): a row is classed only on a stated ingredient (a published ingredient list, the maker's declaration, a 'may contain' label on the recommended bottle, or a book naming the ingredient), never on a tasting note, a rumoured historical formula or 'secret recipe' alone; the earlier safe-side reasoning is kept above for the record. Basis here: palm sap said by Oxford pdf 150 to have left the formula, and no page names the palm.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-ruler, 2026-10-04",
+   "why": "safe side (Tomás, magician-ruler r4): Imbibe! pdf 66 says Batavia arrack is still made with 'a little bit of palm sap' (Oxford pdf 150 says it fell out; same author); no page names the palm, and coconut is a palm (coconut arrack is nuts). Open for Robin: his distillation rule may clear it"
+  },
+  "seville_palm_shrub": {
+   "name": "Seville-orange shrub with palm sugar (peel of 1 Seville orange rubbed into 90 g grated palm sugar, covered about 12 hours; then 250 ml fresh Seville orange juice stirred in until dissolved, strained, bottled; fridge, up to ten days; about 300 ml. Out of season: peel of 1 ordinary orange, 75 ml orange juice and 175 ml lemon juice)",
+   "abv": 0.0,
+   "sugar": 28.9,
+   "acid": 3.62,
+   "source": "computed by Tomás (v3, round 3: 90 g palm sugar) on the out-of-season juice (LI table pdf 140-141: orange 12.4 g / 0.8%, lemon 1.6 g / 6.0%): 88.6 g sugar, 11.1 g acid in ~307 ml; palm sugar ~85% sugar (unsourced, swept 75-95) at 0.63 ml/g. Seville juice: ~4.5% acid, 12.4 g sugar, back-calculated by Tomás from LI p. 175 (The Flat Leaf's printed 7.9 g / 0.82% with 30 ml sour orange juice; Arnold: Sevilles are a sour orange with 'relatively non-bitter juice') -> Seville shrub ~35.1 g / 3.67%, swept 4.0-5.0% juice acid. Oleo method and ten-day keeping: Oxford OLEO-SACCHARUM pdf 1440-1441. Pairing: Flavor Matrix pdf 240. Allergens: palm sugar is often coconut-palm sugar, so nuts on the safe side",
+   "contains": [
+    "nuts"
+   ],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-ruler, 2026-10-04"
+  },
+  "seville_demerara_shrub": {
+   "name": "Seville-orange shrub with demerara sugar (peel of 1 Seville orange rubbed into 80 g demerara sugar, covered about 12 hours; then 250 ml fresh Seville orange juice stirred in until dissolved, strained, bottled; fridge, up to ten days; about 300 ml. Out of season: peel of 1 ordinary orange, 75 ml orange juice and 175 ml lemon juice)",
+   "abv": 0.0,
+   "sugar": 30.7,
+   "acid": 3.7,
+   "source": "computed by Tomás (round 4) on the out-of-season juice (LI table pdf 140-141: orange 12.4 g / 0.8%, lemon 1.6 g / 6.0%) + 80 g demerara (100% sugar, 0.63 ml/g): 92.1 g sugar, 11.1 g acid in ~300 ml. Seville version on Arnold's sour-orange figure (LI pdf 141: 4.50% acid, 12.3% sugar; Sevilles not measured, p. 175): ~36.9 g / 3.75%, swept 4.0-5.0% acid. Oleo method and ten-day keeping: Oxford OLEO-SACCHARUM pdf 1440-1441",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-ruler, 2026-10-04"
+  },
+  "makrut_lime_leaf": {
+   "name": "makrut (kaffir) lime leaf, fresh or frozen, torn in half, pressed into the lime and sugar, lifted out before pouring",
+   "abv": 0.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "Cocktail Codex p. 117 (common citrus table, LIMES: Kaffir and Makrut, a different lime from the juicing ones; 'Fragrant leaves are great for muddling and infusions'); scent only (Oxford GARNISH pdf 865: such leaves may work only on the nose), no sugar, acid or strength; not modelled in balance",
+   "contains": [],
+   "kind": "garnish",
+   "added_by": "Tomás, hero-sage, 2026-10-04"
+  },
+  "grappa_nonino_monovitigno": {
+   "name": "Nonino single-varietal grappa (monovitigno; young, not wood-aged), recommended, or any young, not wood-aged single-varietal grappa, 40% or stronger",
+   "abv": 41.0,
+   "sugar": 0.0,
+   "acid": 0.0,
+   "source": "What it is: Oxford GRAPPA pdf 936 (Giannola Nonino, the first single varietal, from fresh lightly pressed pomace) and POLI, JACOPO pdf 1544 (Nonino's monovitigno). Young grappa rests at least six months, usually in steel or glass (Oxford GRAPPA pdf 935). Nonino's young single-varietal on record is the Picolit Cru (house page, Hester 2026-10-04). ABV 41% unsourced (no page gives a strength); swept 37.5-48%. Straight spirit: no sugar, minimal acid (Liquid Intelligence pdf 140 note). Distilled from grape: no veto.",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-sage, 2026-10-04"
+  },
+  "blanc_vermouth_fig_leaf": {
+   "name": "blanc vermouth (French style, e.g. Dolin Blanc) steeped with a fresh fig leaf (1 medium leaf, torn in 3-4 pieces, per 200 ml, room temperature, about 1 hour, leaf lifted out; fridge)",
+   "abv": 16.0,
+   "sugar": 13.0,
+   "acid": 0.6,
+   "source": "Values as blanc_vermouth (Liquid Intelligence pdf 140-141, Dolin Blanc); the leaf adds aroma only, no sugar, acid or strength (unsourced, not modelled). Fig leaves 'highly aromatic' and wrapped round food to give flavour: Flavor Matrix FIG pdf 120. Room-temperature infusion for quick ingredients, generally an hour or less, tasted as it goes: Cocktail Codex p. 94. A fresh leaf, not dried fruit: no veto (fig is not a nut; the safe-side nuts rule covers dried fruit).",
+   "contains": [],
+   "kind": "liquid",
+   "added_by": "Tomás, magician-sage, 2026-10-04"
   }
  }
 }

@@ -2,8 +2,8 @@
 pairing: regular-guy-caregiver
 personality: The Good Samaritan
 archetypes: Regular Guy × Caregiver (never shown to the guest)
-status: flagged
-flag: balance OUT on acid only (0.29%, no citrus), justified in Checks against Arnold's Boozy Shakerato; Robin to accept
+status: draft
+accepted: balance by structure (Robin 2026-10-06, D2/D3/D4); reason in Checks
 veto_free: true            # contains: []
 authored_in: the room, 2026-10-01 (batch regular-guy)
 ---
@@ -22,7 +22,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 | amount | item | note |
 | --- | --- | --- |
 | 60 ml | brandy | an aged grape brandy, such as a VS cognac or a Spanish brandy |
-| 30 ml | espresso | one shot, pulled only when you're about to shake |
+| 30 ml | espresso | one shot, pulled only when you're about to shake; a stovetop moka pot works too, though the foam will be thinner |
 | 15 ml | roasted parsnip syrup | made ahead; the jar keeps about a week in the fridge |
 | 2 drops | salt water | or a small pinch of salt |
 
@@ -54,9 +54,9 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 *Part of this drink is made days ahead. The rest waits until someone's there.*
 
 **whoYouAre**
-Most people pick up a knack from living among strangers: looking through someone. The person sitting by the cash machine with a paper cup, the one talking to nobody on the bus, the tourist turning the map round for the third time. Everyone else's eyes slide past. Your eyes stop. You say hello. You ask where they're trying to get to. For a minute, someone who'd turned into part of the street is just a person in the queue again.
+Most people pick up a knack from living among strangers: looking through someone. The person sitting by the cash machine with a paper cup, the one talking to nobody on the bus, the tourist turning the map round for the third time. Everyone else's eyes slide past. Your eyes stop. You say hello. You ask where they're trying to get to. For a minute, someone everyone had stopped seeing is just a person in the queue again.
 
-What people miss is the cost. The ones you walk past, because you were late or tired, follow you home for longer than all the times you stopped. You'd hate to be called good. You're just more afraid of a street where everyone has stopped looking, where anyone could end up being stepped round, you included. Here's what it gives, and it deserves to be said: the people you stop for get to be someone, not a problem. And everyone watching learns that stopping is normal.
+What people miss is the cost. The ones you walk past, because you were late or tired, follow you home for longer than all the times you stopped. You'd hate to be called good. You're just more afraid of a street where everyone has stopped looking, where anyone could end up being stepped round, you included. The people you stop for get to be someone, not a problem. And everyone watching learns that stopping is normal.
 
 **yours**
 
@@ -64,7 +64,7 @@ What people miss is the cost. The ones you walk past, because you were late or t
 
 2. Later, somebody comes in and asks at the bar: is there a suspended coffee? If there is, they're served like any other customer. One Italian scholar reads that question as the gentle part. Nobody has to say "would you pay for a coffee for me?", so the difference between the two of them never has to be said out loud. The coffee arrives, as the scholar puts it, "from the clouds", not from somebody's hand.
 
-3. I like to think the people who keep it going see whoever walks in next the way you see a stranger: as someone, not a problem. And whoever pays never chooses who gets it. It's for whoever comes in. That's how your kindness works too. You don't sort people into the ones who've earned a hello and the ones who haven't.
+3. I like to think the people who keep it going see whoever walks in next the way you see a stranger: as someone, not a problem. And whoever pays never chooses who gets it. It's for whoever comes in. That's how your kindness works too: it starts with stopping, before you know a thing about them.
 
 4. The cocktail I've made for you is built the way the custom works. Part of it is made days ahead, as a nod to the coffee paid for someone who hasn't come in yet: a syrup of roasted parsnips, sweet and a little earthy, with enough in the jar for twenty-odd drinks, waiting in the fridge for whoever's next. The rest is only made when someone's actually there, because espresso loses its texture fast. One shot, pulled fresh, shaken hard with brandy, the syrup and two drops of salt water, poured into a cold coupe and drunk at once. It starts from the Italian *shakerato*, espresso shaken with ice and lightly sweetened; I've added the brandy. Coffee is listed among parsnip's best pairings in the flavour book I trust most: think of carrot cake with a strong coffee.
 
@@ -79,10 +79,10 @@ What people miss is the cost. The ones you walk past, because you were late or t
 | Check | Result |
 | --- | --- |
 | Structure | *Codex* Old-Fashioned family: spirit (brandy) as the core, roasted parsnip syrup as the balance, espresso as the bitter seasoning, plus salt. Shaken, not stirred, because espresso's body is foam and an emulsion, and "stirring is for limpid drinks" (LI p. 352, pdf 356). It starts from the Italian *caffè shakerato* (espresso shaken with ice and a little sugar, LI p. 353, pdf 357), with brandy added and no cream. **Owned against the book (Hester D1/D2):** Arnold warns that "adding liquor to a shakerato throws off the dilution and body" and fixes it with cream and a cooler shot (LI p. 354, pdf 358). I leave the cream out on purpose: it would cost the dairy veto and walk into *Everybody's* (cream on coffee). So the drink has a light, short-lived texture, not a lasting foam, and the method says to drink it at once. The brandy and syrup go into the tin before the shot, which takes some heat off it (my arithmetic: 30 ml at about 70°C into 75 ml at room temperature lands near 35°C); no separate cooling step. Never "Arnold's recipe" or "his". |
-| Balance | `balance.py`, style `shaken`: 105.1 ml → 51.9% dilution → 159.7 ml; **15.0% ABV, 5.83 g sugar/100 ml, 0.29% acid.** Strength, sugar and dilution in range. Acid reads OUT against the sours' band, which is set for citrus; there is no citrus here. Judged instead against Arnold's own shaken coffee drinks: Café Touba 16.1% / 8.0 g / 0.39% (LI p. 206, pdf 210) and the Boozy Shakerato 10.2% / 3.9 g / 0.29% (LI p. 354). Ours sits between them, on the Shakerato's acid exactly. **Edges (my sweep, shaken formula):** brandy at 36% runs 13.7%, at 43% 16.0%. A hot espresso melts extra ice: about 19 g more water if it goes in near 50°C (30 ml × 50°C ÷ 80 cal/g, my arithmetic), so about 13.4% at worst, still above Arnold's Boozy Shakerato. The syrup's sugar (62 g/100 ml) is my estimate, unsourced. |
+| Balance | `balance.py`, style `shaken`: 105.1 ml → 51.9% dilution → 159.7 ml; **15.0% ABV, 5.83 g sugar/100 ml, 0.29% acid.** Strength, sugar and dilution in range. Acid reads OUT against the sours' band, which is set for citrus; there is no citrus here. Judged instead against Arnold's own shaken coffee drinks: Café Touba 16.1% / 8.0 g / 0.39% (LI p. 206, pdf 210) and the Boozy Shakerato 10.2% / 3.9 g / 0.29% (LI p. 354). Ours sits between them, on the Shakerato's acid exactly. **Edges (my sweep, shaken formula):** brandy at 36% runs 13.7%, at 43% 16.0%. A hot espresso melts extra ice: about 19 g more water if it goes in near 50°C (30 ml × 50°C ÷ 80 cal/g, my arithmetic), so about 13.4% at worst, still above Arnold's Boozy Shakerato. The syrup's sugar (62 g/100 ml) is my estimate, unsourced.<br>**Codex benchmark (Robin 2026-10-06):** the *Codex* has no shaken coffee drink (in its e-text espresso appears only to describe a coffee liqueur, pp. 38 and 177), and its one drink made with brewed coffee, the Irish Coffee (p. 268), is hot and cream-topped, so there is no *Codex* spec to set beside this one and Arnold's Boozy Shakerato (LI p. 354) stays the benchmark, on whose acid ours sits exactly. |
 | Pairings | Brandy and coffee: the *Codex* pairs cognac with espresso flavours in *In Hot Water* (p. 38). **Spark:** the *Flavor Matrix* entry for root vegetables ("Main Subtypes: Celery root, parsnip, salsify") gives "Best Pairings: Celery, cauliflower, bourbon, coffee, lemon, basil", and says the class is "most commonly roasted or boiled and puréed" (pdf 224). The pairing is for the class, not parsnip alone; roasting is my choice from that line. "Carrot cake" is my taste note, not the book's. Salt: "any cocktail that includes fruit, chocolate, or coffee benefits from a pinch of salt", kept below the point you'd taste it (LI p. 61, pdf 65). |
 | Allergens | `allergens.py`: **veto-free** (AD-4 floor holds). New rows added on the safe side: `espresso` (none), `brandy_aged_grape` (none), `saline_solution` (none), `parsnip_syrup` (none). **Flag for Robin (unsourced, my knowledge):** parsnip is in the carrot and celery family, like the caraway in *Not Only the Way*; celery isn't in our veto list, so the guest can't veto it. Some brandies are sweetened or coloured; the numbers assume an unsweetened bottle. |
-| Makeable | Basic kit plus an espresso: a machine, a stovetop moka pot or a café's takeaway shot. Oven and pan for the syrup. No named bottle. |
+| Makeable | Basic kit plus an espresso: a machine, a stovetop moka pot or a café's takeaway shot. Oven and pan for the syrup. No named bottle.<br>**Tomás (2026-10-06, Q140):** a moka shot shakes fine, with a thinner foam: *LI* p. 352 puts espresso's foam (crema) and its emulsified oils down to the high brewing pressure, and a stovetop pot brews at far lower pressure (my knowledge, unsourced). The numbers don't move enough to matter: the acid is accepted by structure, and nothing else in the balance comes from the coffee. The café's takeaway shot stays out of the recipe (step 3: never before). |
 
 **Word guard (Hester r2):** the sources say "coffee" and "caffè". The espresso is my build; never write that the sospeso was an espresso.
 
@@ -120,7 +120,7 @@ Hester, 2026-10-01. Checked on the files as they stand: `psychologist-reading-v1
 ### Resonance
 
 - **As the guest:** "Everyone else's eyes slide past. Yours stop." is the "how did they know" line; "follow you home for longer than all the times you stopped" is the private one. The gift is said out loud. The position gives something back: permission to let them not follow you home (callback to whoYouAre's "follow you home").
-- **As the sceptic:** "you help people" alone would be Barnum; looking through people as a learned knack, and the walked-past ones, make it this person's. Risk: the cash-machine image reads as homelessness; it's gentle and unnamed (C4 honoured), but Robin may want it softer.
+- **As the sceptic:** "you help people" alone would be Barnum; looking through people as a learned knack, and the walked-past ones, make it this person's. Risk: the cash-machine image reads as homelessness; it's gentle and unnamed (C4 honoured). Robin 2026-10-06 (D7): keep.
 - **Verdict: nearly ready.** Open: Hester's audit of y1–y3 and y2's paraphrase; Tomás's confirmation of y4's pairing claim; the 4-gram run on the assembled pour.
 
 ### Sources
@@ -186,8 +186,8 @@ Wren's title-block notes:
 ### Open items
 
 - **Parsnip and celery family (Tomás, unsourced):** parsnip is in the carrot and celery family, like the caraway in *Not Only the Way*; celery isn't in our veto list. Robin's call.
-- **Acid OUT by band only:** 0.29% acid reads OUT against the sours' citrus band; there's no citrus. Justified in Checks against Arnold's Boozy Shakerato (0.29%) and Café Touba. Not flagged.
+- **Resolved (Robin 2026-10-06, D2):** accepted by structure (a shaken espresso; `balance.py` now reads BY STRUCTURE). The reasoning stands: 0.29% acid reads OUT against the sours' citrus band; there's no citrus. Justified in Checks against Arnold's Boozy Shakerato (0.29%) and Café Touba. Not flagged.
 - **Texture owned against the book:** Arnold says liquor in a shakerato "throws off the dilution and body" and adds cream; the room leaves cream out (dairy veto, *Everybody's*), so the method says drink it at once. The parsnip syrup's sugar (62 g/100 ml) is Tomás's estimate.
-- **One risk for Robin (Wren):** the cash-machine image in whoYouAre reads gently as someone sleeping rough, without naming it.
+- **Robin 2026-10-06 (D7): keep.** (Was Wren's risk note: the cash-machine image in whoYouAre reads gently as someone sleeping rough, without naming it.)
 - **Fenced by Hester:** no date or era (sources conflict: about a century before 2013 vs the end of WWII); two origin legends kept out; NPR-only details (the log, the fading and return, Sapina, Bulgaria) not used. The sources say "coffee"; the espresso is our build.
 - **Dossier note:** the reading's Resonance section is Wren's v1 self-test ("nearly ready", quoting the pre-lint "Yours stop."); her final verdict, *ready*, on the fixed version, is in rounds 4–5 of the room record.

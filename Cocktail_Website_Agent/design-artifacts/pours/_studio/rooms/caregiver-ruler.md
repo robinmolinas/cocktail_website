@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Nanny (caregiver-ruler)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine items (Robin 2026-10-06); no D-card touches this pour.
+- **Edits** (before → after, short): cocktail block (Q102, part): deleted the repeated "**Glass:** a plain tumbler or highball glass… / **Contains:** veto-free" lines under the recipe (the `glassware` and `contains` bullets already carry both; method 2 already chills the water).
+- **Left for Robin:** the rest of Q102: the syrup's keeping time ("about a month"), for Tomás to confirm; Q038 tagline (D11).
+- **Tomás (Codex pass / open items):** **Q102 (rest):** method 1 → "It keeps for about two weeks in the fridge." (the Codex's time for its 2:1 demerara syrup, p. 54; not the queue's month, no page for the vinegar's effect). Checks › Makeable note. Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (grog, Vernon 1740 (anchors v2.1)) · [x] drink + four checks (spec v1, draft v1.1: grog, sherry-vinegar demerara (spark)) · [x] reading (v4) · [x] fact audit (v3-final: reading v4 passes; drink D1–D5 landed) · [x] resonance test (v2: ready) · [x] names (≥3 + pick) (Fair Measure (all three)) · [x] image brief
 - **Last change to the pour:** r6

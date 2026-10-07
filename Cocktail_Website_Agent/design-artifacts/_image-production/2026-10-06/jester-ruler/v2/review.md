@@ -1,0 +1,7 @@
+# Original PNG review — final bounded v2, held
+
+Native1672×941 PNG probed and original-resolution inspected; exact original copied non-destructively. People/fire/multiple glowing practicals removed. Drink keeps current large350mltumbler rather than queued highball shape, three apparent ice cubes, pale slightly hazy straw-gold liquid and lime half inside, no foam or rim garnish. Lime looks too freshly cut to certify squeezed condition.
+
+Tag physics: small label narrower than glass, snug outside lowerbody frontarc curves with cylindrical surface, right knot and continuous short descending tether through visible punched hole. No rim hook/string through drink. Paper hangs downward beside glass; lower corner sits very near timber, but contact vs free gap not conclusively distinguishable. Tiny fararc/strand occlusion merits independent review, not blanket tagPASS. Actual blank axis78px, not old170–200target; name fit untested.
+
+Glass355px tall. Full-visible glass/paper/person core712px, conservative recognition707px; not phone-safe target389px. Napkin's master-cropped right edge means unseen object extent unknown; proposed702portrait trims10px more on right. Chair/scarf plus used napkin are legible ordinary shared-table inferences, not strong unique personality evidence. Wood still amber glossy/crossing scratches; scarf dense texture. Held for materials/person specificity/framing. No third call, JPEG/export/browser/production edits. These coordinates are candid candidate data, not acceptance.

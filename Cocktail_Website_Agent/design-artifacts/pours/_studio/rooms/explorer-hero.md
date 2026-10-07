@@ -1,13 +1,19 @@
 ---
 pairing: explorer-hero
 personality: The Pioneer
-status: flagged           # open | closed | deadlock | flagged
+status: closed            # flag resolved by Robin 2026-10-06 (collection review); open | closed | deadlock | flagged
 round: 7               # budget: 7 (pour) · 5 (rework)
 started: 2026-09-30
 mode: batch            # pour | batch | rework
 ---
 
 # The room: The Pioneer (explorer-hero)
+
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D2 ("accept": the spirit-only Old-Fashioned's acid OUT is accepted by structure; status flagged → draft, flag line → `accepted:`; Open items gets a Resolved bullet; Checks › Balance left for Tomás's Codex pass, D4); routine P1s (Q003); D13 (variety rules).
+- **Edits** (before → after, short): frontmatter: `status: flagged` + `flag: balance OUT on the stirred acid lines only…` → `status: draft` + `accepted: balance by structure (Robin 2026-10-06, D2/D3/D4); reason in Checks`. method 3 (Q003, P1: the missing bands, as proved in Checks): "…together make 60 ml:" → "…together make 60 ml: up to 51.5%, 55 ml of bourbon and 5 ml of water; up to 57%, 50 ml and 10 ml; up to 63%, 45 ml and 15 ml; up to 70%, 40 ml and 20 ml. If you're between two, take the one with more water." yours 5 (D13 V4, fewer proposals on "So"): "So after the next thing everyone watched you do…" → "After the next thing everyone watched you do…". Open items: new first bullet "**Resolved (Robin 2026-10-06, D2):** the balance flag…" keeping the reasoning.
+- **Left for Robin:** none.
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex Ideal Old-Fashioned (p. 5, run `stirred-spirit`: 29.8% / 4.63 g vs ours 28.5% / 4.66 g); it also says the acid OUT above it is gone from the verdict (`stirred-spirit`, D2). Nothing else changed.
 
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Nothing to It (all three)) · [x] image brief

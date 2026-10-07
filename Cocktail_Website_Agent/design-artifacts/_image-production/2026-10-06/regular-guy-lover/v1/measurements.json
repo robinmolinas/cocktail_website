@@ -1,0 +1,126 @@
+{
+  "pairing": "regular-guy-lover",
+  "pour": "First Choice",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-lover/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-fe09e50b-1f54-451f-aa4e-d5ae45720ad4.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "9ac88fa69bf096f1ee50a729688fca541bf7fe6e66d38ad2a7e20ce9b07abb66",
+  "specSha256": "c9056cedc2978c10f548bb34ace48ae44fb4ec006ee8e45593a4e4bcd17a2838",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    605,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1207,
+    "cy": 589,
+    "w": 115,
+    "angle": 77
+  },
+  "glass": {
+    "x": 1127,
+    "y": 271
+  },
+  "bounds": {
+    "glass": {
+      "x0": 895,
+      "y0": 140,
+      "x1": 1359,
+      "y1": 771
+    },
+    "paper": {
+      "x0": 1149,
+      "y0": 482,
+      "x1": 1267,
+      "y1": 672
+    }
+  },
+  "personalityBounds": {
+    "faceDownPhone": {
+      "x0": 615,
+      "y0": 548,
+      "x1": 1100,
+      "y1": 668
+    },
+    "householdKeyring": {
+      "x0": 720,
+      "y0": 605,
+      "x1": 960,
+      "y1": 735
+    }
+  },
+  "recognitionRegions": {
+    "faceDownPhone": {
+      "x0": 615,
+      "y0": 548,
+      "x1": 1100,
+      "y1": 668
+    },
+    "householdKeyring": {
+      "x0": 720,
+      "y0": 605,
+      "x1": 960,
+      "y1": 735
+    }
+  },
+  "tagPhysics": {
+    "anchor": "Visible front twine arc around the narrow stem below bowl; rear portion naturally occluded by glass.",
+    "knot": "Small knot at right of stem; strands overlap at this scale, exact knot topology not certain.",
+    "tether": "Short visible slanting continuous strand from stem-knot region to punched hole; no naked rim anchor.",
+    "hole": "Round punched hole with twine reaching/returning at hole.",
+    "gravity": "Paper entirely below stem support, falls downward beside stem.",
+    "separation": "Visible air gap between blank paper body and stem/bowl, lower paper edge above timber/glass foot.",
+    "contact": "No paper/table contact claimed; no adhesive-looking glass contact.",
+    "uncertainty": "Stem-side knot and rear loop occlusion prevent absolute mechanical PASS; inspect actual exports/name later.",
+    "supportRegions": {
+      "stemLoop": {
+        "x0": 1098,
+        "y0": 417,
+        "x1": 1167,
+        "y1": 446
+      },
+      "knot": {
+        "x0": 1144,
+        "y0": 420,
+        "x1": 1167,
+        "y1": 443
+      },
+      "tether": {
+        "x0": 1152,
+        "y0": 434,
+        "x1": 1194,
+        "y1": 520
+      },
+      "hole": {
+        "x": 1187,
+        "y": 516
+      }
+    },
+    "status": "plausible visible support chain; knot/occlusion watch; not accepted"
+  },
+  "review": {
+    "recipe": "Three-quarter chilled coupe with amber-red slightly lemon-hazy still drink and one soft orange-gold brandied peach slice at bottom. No serving ice/foam/rim peel. Fine spots on bowl remain a condensation/carbonation ambiguity; actual200ml capacity cannot be established from pixels.",
+    "personality": "Friday invitation phone explicit whoYouAre; keys inferred ready-to-go habit. Both full recognisable objects, not anonymous strips; no historical artefact claim. Specificity watch.",
+    "world": "Historic reading-room, dark left, one visible right practical. Broad amber glossy patterned timber remains held.",
+    "issues": [
+      "Complete glass631px; conservative glass/paper/whole phone/whole keys union744px. Too close and spread; proposed702px portrait clips right bowl because full union744px.",
+      "Fine speckling remains in bowl/near rim; avoid reading this still stirred drink as carbonated. Lemon haze modest; colour and peach are source craft appearance estimates.",
+      "Glossy warm patterned timber and bright practical/reflection remain held; flat low-satin neutral wood target not met.",
+      "Phone explicitly source-grounded; useful household keys inferred from nearly always going when invited. Props show availability, not independently the plan/fallback emotional specificity.",
+      "Tag narrower than bowl and visibly hangs; knot topology/rear-loop occlusion uncertain, no absolute tag-physics PASS.",
+      "Actual long/short-name glyph fit deferred; small paper must not be enlarged to prior heuristic."
+    ]
+  },
+  "status": "measured-master-candidate; held; not-accepted; browser-deferred"
+}
+

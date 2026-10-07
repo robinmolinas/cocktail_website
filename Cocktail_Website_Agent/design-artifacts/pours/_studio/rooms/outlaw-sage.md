@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Devil's Advocate (outlaw-sage)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 variety rules (no "So here's my…" preamble); no D-card touches this pour.
+- **Edits** (before → after, short): yours 5 (V4): "So here's my side, and I mean it." → "Here's my side, and I mean it." (kept the line itself: taking a side is this pour's point, per the outlaw review).
+- **Left for Robin:** the Oxford-name item (collection P3; part of the story here) waits on Hester.
+- **Hester (open items):** Collection Oxford item: yours 3 "the Oxford drinks companion's own entry on this drink was his" → "the entry on the Amaretto Sour in the *Oxford Companion to Spirits and Cocktails* was his" (part of the story; "this drink" read as the Toddy). Fact audit CR1. Lint 0 errors (title 4-grams shared on purpose).
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Morgenthaler card F1–F23 + anchors (Hester r2)) · [x] drink + four checks (v2: 15.8%/7.06 g/0.925% balanced; contains nuts, egg-white (Tomás r3–r4)) · [x] reading (v2 (Wren r4), R1–R3 landed) · [x] fact audit (audit v2 confirmed on the fixed files (Hester r4 step 4)) · [x] resonance test (ready on v2 (Wren)) · [x] names (≥3 + pick) (Hear Me Out (all three)) · [x] image brief (in draft (Tomás))
 - **Last change to the pour:** r4 step 3: Wren R1–R3 (reading v2)

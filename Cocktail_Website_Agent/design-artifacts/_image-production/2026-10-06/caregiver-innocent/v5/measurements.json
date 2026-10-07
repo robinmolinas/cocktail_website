@@ -1,0 +1,96 @@
+{
+  "pairing": "caregiver-innocent",
+  "pour": "Before the Room",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v5/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-e8b124f5-7ed6-4da5-af87-5dac20e907f9.png",
+  "sourceSha256": "1e16f17d4f994c89049a4443fd3129e8dbd4d05445533719f297cbfe8a0e3fc1",
+  "masterSha256": "4063c13cf4db93f2915892e46f8c405bd43e8d74bbabe40a93476ecce191f6c7",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    800,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1292,
+    "cy": 775,
+    "w": 190,
+    "angle": 10
+  },
+  "glass": {
+    "x": 1080,
+    "y": 360
+  },
+  "bounds": {
+    "glass": {
+      "x0": 982,
+      "y0": 136,
+      "x1": 1174,
+      "y1": 810
+    },
+    "paper": {
+      "x0": 1146,
+      "y0": 718,
+      "x1": 1401,
+      "y1": 822
+    }
+  },
+  "personalityBounds": {
+    "coat": {
+      "x0": 1202,
+      "y0": 264,
+      "x1": 1672,
+      "y1": 729
+    },
+    "handkerchief": {
+      "x0": 839,
+      "y0": 602,
+      "x1": 1169,
+      "y1": 719
+    }
+  },
+  "recognitionRegions": {
+    "coatCollarAndLapelledFront": {
+      "x0": 1202,
+      "y0": 264,
+      "x1": 1454,
+      "y1": 677
+    },
+    "foldedReadyHandkerchief": {
+      "x0": 839,
+      "y0": 602,
+      "x1": 1169,
+      "y1": 719
+    }
+  },
+  "essentialRecognitionCluster": {
+    "x0": 839,
+    "y0": 136,
+    "x1": 1454,
+    "y1": 822,
+    "width": 615
+  },
+  "measurementScope": "Original staged master1672×941 measured by visual inspection; wide/portrait proposed source crops only. Full coat extends to masteredge, recorded honestly. No exporter or runtime/browser calculations executed by child.",
+  "review": {
+    "recipe": "Single chilled plain flute; transparent violet-red cassis lower wine naturally grading into gold-rose upper sparkling wine, ordinary fine bubble dots, no serving ice/garnish/rim. Basil strained out; no recipe change.",
+    "personality": "Worn coat collar/lapelled front and plain folded clean handkerchief now recognizable with distinct ordinary material responses. Their required regions remain far apart, essential recognition union615px. Full outer coat is optional, but collar/lapel not an anonymous fragment.",
+    "world": "Material correction succeeds substantially: no filigree loops, no embossed paper/linen, smooth thin glass and plain cream surfaces. Quiet long-grain wood lacks raised alligatorvarnish, though table retains broad warmgloss and fine bubbles remain dense. Historic neutral brown-black room remains coherent; weaker amber thanv4.",
+    "issues": [
+      "HOLD composition: whole glass/paper union419px exceeds~389px max-breath phonewindow even before adding coat/linen; essential recognition615px cannot fit mechanically.",
+      "Flute wholeheight674px, rimy136 and footy810: requested425pxheight/20–80%vertical notfollowed; ultrawide cover likely clips rim/foot without recomposition.",
+      "Blank tag usable190px improved; cy775 lowtabletop and10deg angle require actual exported/browser/name checks.",
+      "Fine bubble dot veil remains denser than requestedfewtrails; not loops or obviousetchedpattern, but root fullJPEGreview needed.",
+      "Two bounded calls complete: firstedit rejectedmaterialinheritance, thenonefresh focusedcorrection. No furthergeneration,exports,integration orbrowserrequests. Browser batching deferredbyuser, notproductionblocker."
+    ]
+  }
+}

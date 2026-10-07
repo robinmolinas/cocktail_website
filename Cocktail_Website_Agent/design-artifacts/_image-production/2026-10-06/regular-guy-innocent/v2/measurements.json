@@ -1,0 +1,101 @@
+{
+  "pairing": "regular-guy-innocent",
+  "pour": "Good as It Is",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-innocent/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-1401b9ba-b62b-41bf-b9c8-ace72bd10d71.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "bd537e5550f41575ed60e99f85a0329d5825c25888353ab9814103103913a4b9",
+  "sourceSha256": "ed9246afc39ce9772536e3ee753d72e38e5d46770902d6e0e5ce31f43ab66d6f",
+  "specSha256": "fa75f17a43df4fb9e18cbf9d5efe885392f0bc8ebe1b5bbb57af88bad0c15de6",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    758,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 798,
+    "cy": 504,
+    "w": 92,
+    "angle": 102
+  },
+  "glass": {
+    "x": 983,
+    "y": 526
+  },
+  "bounds": {
+    "glass": {
+      "x0": 832,
+      "y0": 342,
+      "x1": 1133,
+      "y1": 711
+    },
+    "paper": {
+      "x0": 765,
+      "y0": 438,
+      "x1": 835,
+      "y1": 565
+    },
+    "bread": {
+      "x0": 1109,
+      "y0": 439,
+      "x1": 1358,
+      "y1": 645
+    },
+    "butterKnife": {
+      "x0": 1198,
+      "y0": 409,
+      "x1": 1558,
+      "y1": 656
+    },
+    "linen": {
+      "x0": 1109,
+      "y0": 451,
+      "x1": 1647,
+      "y1": 692
+    }
+  },
+  "recognitionRegions": {
+    "bread": {
+      "bounds": {
+        "x0": 1114,
+        "y0": 440,
+        "x1": 1358,
+        "y1": 643
+      },
+      "reason": "Substantial torn buttered bread roll: crust, exposed crumb and butter visible; no anonymous fragment."
+    },
+    "butterKnife": {
+      "bounds": {
+        "x0": 1198,
+        "y0": 409,
+        "x1": 1558,
+        "y1": 656
+      },
+      "reason": "Complete separate used steel butter knife, buttered blade, neck and full recognizable handle; no miniature."
+    }
+  },
+  "review": {
+    "recipe": "Pale slightly cloudy caipirinha, muddled lime pieces down among irregular cracked ice; no foam/garnish/straw/shaker. Exact six-piece count cannot be confirmed through occlusion; prompt preserves six pieces and direct glass build rather than analytical shaken style.",
+    "personality": "Torn buttered roll grounded explicit whoYouAre; used dinner butter knife plausible enjoyment inference. Both are whole identifiable real-size objects, not recipe ingredient props. Still spread right rather than compactly depth-overlapped.",
+    "world": "Timber room, left quiet, single warm shaded practical; bright window adds a second light/readability cue. Table excessively glossy amber/crackle texture, ice/glass granular/sparkly.",
+    "issues": [
+      "Glass369px high: reduced from533 but still above280–330target.",
+      "Full visible glass/paper/trace/linen union882px; glass/paper plus conservative trace recognition union793px. Misses compact350–380goal.",
+      "Proposed702portrait retains whole drink/tag/bread but cuts knife handle and linen; not crop-accepted or phone/motion/browser pass.",
+      "Lime count six not reliably audited; dense granular ice/condensation and glossy patterned table held.",
+      "Tag physically small, freely tied via hole/continuous cord; usable92px axis. Long-name glyph fit untested.",
+      "Initial and sole correction exhausted; candid candidate saved, no export/integration/acceptance."
+    ]
+  }
+}
+

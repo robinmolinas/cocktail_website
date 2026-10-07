@@ -1,4 +1,44 @@
-{"pairing": "innocent-caregiver", "family": "martini", "style": "stirred", "glass": "small stemmed cocktail glass, chilled, no ice", "serves": 1,
+{
+ "pairing": "innocent-caregiver",
+ "family": "martini",
+ "style": "stirred",
+ "glass": "small stemmed cocktail glass, chilled, no ice",
+ "serves": 1,
  "version": "v1 (round 4, 2026-09-30): a Bamboo with fino at the core (Imbibe! pdf 210: 'a fino or an amontillado'), fino at two-thirds of the pour (the 1886 St. Paul form leaned on the sherry, 'three parts sherry and one part vermouth'), dry and blanc vermouth equally as the Codex prints its Bamboo (p. 91), a teaspoon of chamomile honey syrup because fino is so dry the Codex adds honey syrup for body (Normandie Club Martini #1, p. 77), two dashes of orange bitters and a lemon twist (Codex p. 91; Boothby via Imbibe! pdf 210). Style 'stirred' is run for Arnold's dilution physics; strength and acid read OUT by structure (a wine core), justified in Checks against the Codex's own Bamboo.",
- "ingredients": [{"key": "fino", "ml": 60}, {"key": "dry_vermouth", "ml": 15}, {"key": "blanc_vermouth", "ml": 15}, {"key": "camomile_honey_syrup", "ml": 5}, {"key": "orange_bitters", "dashes": 2}],
- "garnish": ["lemon_peel"]}
+ "ingredients": [
+  {
+   "key": "fino",
+   "ml": 60
+  },
+  {
+   "key": "dry_vermouth",
+   "ml": 15
+  },
+  {
+   "key": "blanc_vermouth",
+   "ml": 15
+  },
+  {
+   "key": "camomile_honey_syrup",
+   "ml": 5
+  },
+  {
+   "key": "orange_bitters",
+   "dashes": 2
+  }
+ ],
+ "garnish": [
+  "lemon_peel"
+ ],
+ "accepted": {
+  "checks": [
+   "initial abv",
+   "initial acid",
+   "finished abv",
+   "finished acid",
+   "dilution"
+  ],
+  "by": "Robin 2026-10-06",
+  "why": "a fino Bamboo: a wine-core stirred drink, lighter and sharper than a spirit Martini by design (the Codex's Bamboo, p. 91; fino as a low-ABV base, p. 246) (D2)"
+ }
+}

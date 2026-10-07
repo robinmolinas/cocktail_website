@@ -7,7 +7,7 @@ paradigm: 'functional core, imperative shell'
 scope: 'Everything behind the finished dionysus-experience front-end: answer contract, selection, the Bartender call, pour persistence, sharing + OG, routing, house pours, the 132-cocktail store, audio seam, deploy & ops envelope'
 status: final
 created: '2026-06-17'
-updated: '2026-09-23'
+updated: '2026-10-06'
 binds: [CAP-1, CAP-2, CAP-4, CAP-5, CAP-6, CAP-7]
 sources:
   - spec/SPEC.md
@@ -48,16 +48,15 @@ Allowed imports: `src → shared`, `api → server, shared`, `server → shared`
 
 - **Binds:** CAP-1; `shared/answers.ts`; every hold in `TheDepths`
 - **Prevents:** the engine scoring fields the journey never writes (the 2026-09-18 blocker); two answer shapes or option lists drifting apart
-- **Rule:** `Answers` = exactly the fields the journey writes (v2):
-  - `name`, `lens`, `seed: SeedKey`
-  - `gravity`: 5 keys, 0–100
-  - `texture`: 9 binary keys → chosen word; an absent key means "hidden"
-  - `drawnToward` (≤3), `soughtFor` (≤3), `flavors` (≤3)
-  - `vessel`: one of 4 keys
+- **Rule:** `Answers` = exactly the fields the journey writes (v3, `spec/intake-contract.md`; updated 2026-10-06):
+  - `v: 3`, `name`, `lens: LensId | null`, `seed: SeedKey | null`
+  - `gravity`: 5 keys, 0–100; absent = not reached
+  - `texture`: 9 binary keys → pole `'a' | 'b'`; an absent key means "hidden"
+  - `drawnToward` (≤3), `soughtFor` (≤3), `flavors` (≤3): stable ids, vocabulary order
   - `vetoes: Veto[]`
-  - `trace`
+  - `trace` (browser only, never on the wire)
 
-  Every option list (lenses, seeds, gravities, binaries, words, flavours, vessels, vetoes) is declared once in the core, and `TheDepths` imports it. Retired quiz fields are deleted, not kept as optional. A new question means a new field here first.
+  H4 status/timing and H3 `gravityMoved` are `IntakeDiagnostics`: browser only, never on the wire, never scored. No `vessel` (the H6 glass beat was removed 2026-09-29; each pour's glass is fixed). Every option list (lenses, seeds, gravities, binaries, words, flavours, vetoes) is declared once in the core with permanent ids, and `TheDepths` imports it. Retired quiz fields are deleted, not kept as optional. A new question means a new field here first.
 
 ### AD-2 — The trace never leaves the browser; neither does the name reach the LLM
 
@@ -75,7 +74,7 @@ Allowed imports: `src → shared`, `api → server, shared`, `server → shared`
   3. Drop pairings with no authored cocktail or whose cocktail contains any of the guest's vetoes.
   4. Take the top 3, breaking ties by `pairingKey` ascending.
 
-  The Bartender picks one of them. A non-shortlist answer means `shortlist[0]`. No RNG anywhere. Weight values and the pairing formula are tunable data, living only in the core.
+  The Bartender picks one of them. A non-shortlist answer means `shortlist[0]`. No RNG anywhere. Weight values and the pairing formula are tunable data, living only in the core; v1 is specified in `spec/matching-model.md` (data `matching/model-v1.json`), with scores compared rounded to 9 decimals.
 
 ### AD-4 — Vetoes steer the match; the pool can never be empty
 
@@ -291,7 +290,7 @@ The front-end edits the ADs require, so no story under-scopes them:
 | AD | Today | Change |
 | --- | --- | --- |
 | AD-1 | `TheDepths.tsx:957` writes `color/colorName/colorTouched` | Write `seed: SeedKey` |
-| AD-1 | `:1474` writes `drinkScales` | Write `vessel` |
+| AD-1 | H6 glass beat (and `drinkScales`) | Removed 2026-09-29; no vessel field |
 | AD-1/4 | `:1487` writes `allergies` string; `:215` lists `'Alcohol'` | `vetoes: Veto[]`; drop Alcohol; labels from the core |
 | AD-1 | `insight` (`:1514`, `types.ts:29`) | Rename to `trace`; H8 echoes (`:445,459`) read v2 fields |
 | AD-1 | Option lists declared in `TheDepths` | Import from `shared/answers.ts` |
@@ -321,7 +320,7 @@ The front-end edits the ADs require, so no story under-scopes them:
 
 ## Deferred
 
-- **Weight-table values and the pairing formula.** Tunable core data, calibrated during build. The old fixtures are archived because they use the old questionnaire, so calibration uses fresh runs of the new journey.
+- **Weight-table calibration against playtests.** v1 values and evidence exist (`spec/matching-model.md`, `matching/`); playtest runs of the live journey recalibrate them. The old fixtures stay archived.
 - **How house pours are chosen from the side-door interaction** (timing, hover, and so on) and how many there are. Build/UX, inside AD-8.
 - **Zero-proof variants.** Post-launch, if guests feel left out; that would add a `Veto` value and an optional recipe variant.
 - **Per-hold funnel analytics.** v1 is pour `createdAt` (reveals requested) plus Vercel Web Analytics page views.

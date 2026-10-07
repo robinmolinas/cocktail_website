@@ -1,0 +1,91 @@
+{
+  "pairing": "regular-guy-caregiver",
+  "pour": "Whoever Comes In",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-caregiver/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-f84c14a5-9185-44ff-995e-65205ac4252e.png",
+  "sourceSha256": "e7d3bc1250a8854124f16a852d3a39c605d3eeca0d09564bb15b60772bb6c987",
+  "specSha256": "c757dff27db3fdde51629aef88e655f1ae7f59c6c24e9f1a14e63d770623c484",
+  "masterSha256": "20266c625e0351d1195a3b1289758ebdff1ce329ca98afd395c44341821d22d0",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    669,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1125,
+    "cy": 541,
+    "w": 112,
+    "angle": 9.6
+  },
+  "glass": {
+    "x": 979,
+    "y": 466
+  },
+  "bounds": {
+    "glass": {
+      "x0": 837,
+      "y0": 311,
+      "x1": 1122,
+      "y1": 727
+    },
+    "paper": {
+      "x0": 1034,
+      "y0": 491,
+      "x1": 1198,
+      "y1": 579
+    }
+  },
+  "personalityBounds": {
+    "emptyEspressoCupAndSaucer": {
+      "x0": 741,
+      "y0": 479,
+      "x1": 1013,
+      "y1": 647
+    },
+    "twoCoins": {
+      "x0": 768,
+      "y0": 638,
+      "x1": 899,
+      "y1": 677
+    }
+  },
+  "recognitionRegions": {
+    "emptyInteriorHandleCupBody": {
+      "x0": 749,
+      "y0": 479,
+      "x1": 959,
+      "y1": 615
+    },
+    "bothWholeCoins": {
+      "x0": 768,
+      "y0": 638,
+      "x1": 899,
+      "y1": 677
+    }
+  },
+  "measurementNotes": [
+    "Actual1672x941 source probed; manual original-resolution measurements.",
+    "Only one finished cocktail. Small ceramic cup has open empty pale interior with residue, no liquid surface or waiting coffee; saucer not another serve.",
+    "Cup full bounds include saucer; conservative recognition retains full handle, empty mouth/interior and cup body, not anonymous rim/edge. Both complete coins independently measured.",
+    "Full glass/paper/cup/coins group557px (741–1298); conservative recognition549px (749–1298). Glass/paper union461px; glass416px high.",
+    "Tag190px usable clean axis measured beyond hole/clip end and within margins; full paper272px lateral extent not writable width.",
+    "702x940 portrait proposed only; no tall-phone/motion/JPEG/runtime/browser acceptance."
+  ],
+  "review": {
+    "requestedChange": "Blank tied paper reduced from272px to164px horizontal extent (about40% narrower). Small label free beside stem, clear hole/cord, no pasted paper. Dark coffee coupe/thin aeration, clearly EMPTY cup and exactly two coins visually retained. Existing glossy patterned wood/exaggerated cup-stain/composition holds remain;112px clean face actual-name fit unverified.",
+    "invariants": "Root original-detail visual comparison, not pixel-identical claim. No recipe/source/edit status changes.",
+    "remaining": "Existing physical/personality/material/crop holds not cleared; smaller label per user replaces numerical writing-size aim, names still require actual font review."
+  },
+  "status": "user-requested-tag-scale-correction;held;not-accepted;browser-deferred"
+}

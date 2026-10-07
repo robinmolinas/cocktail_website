@@ -1,0 +1,99 @@
+{
+  "pairing": "ruler-innocent",
+  "pour": "Say So / The Diva",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-innocent/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-dd18b7cb-3b28-46b5-a328-7398007970e7.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "197036bde4960b67e2f351f9c90f2a080adc26d3b29d73329f1d8c648b0ecf55",
+  "specSha256": "8f6341416adf2b4baa3c139657380932d7ddf9701ef3facfa1c232a86854a463",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    805,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 919,
+    "cy": 612,
+    "w": 116,
+    "angle": -68.75
+  },
+  "tagWritingAxis": {
+    "start": [
+      898,
+      666
+    ],
+    "end": [
+      940,
+      558
+    ],
+    "note": "Conservative blank writing line excludes punched hole and paper edges; approximately116px, below intent."
+  },
+  "glass": {
+    "x": 1003,
+    "y": 365
+  },
+  "bounds": {
+    "glass": {
+      "x0": 866,
+      "y0": 311,
+      "x1": 1138,
+      "y1": 731
+    },
+    "paper": {
+      "x0": 850,
+      "y0": 512,
+      "x1": 978,
+      "y1": 691
+    }
+  },
+  "personalityBounds": {
+    "vinylAndSleeve": {
+      "x0": 984,
+      "y0": 467,
+      "x1": 1500,
+      "y1": 636
+    },
+    "foldedNapkin": {
+      "x0": 1155,
+      "y0": 565,
+      "x1": 1634,
+      "y1": 736
+    }
+  },
+  "recognitionRegions": {
+    "vinylRecord": {
+      "x0": 1146,
+      "y0": 503,
+      "x1": 1500,
+      "y1": 594
+    },
+    "foldedNapkin": {
+      "x0": 1155,
+      "y0": 565,
+      "x1": 1634,
+      "y1": 736
+    }
+  },
+  "review": {
+    "recipe": "V-shaped glass, no serving ice/foam, yellow lemon strip inside and pale gold drink are visible. Micro-sparkle/haze makes the liquid less transparently still than required; held, not recipe acceptance.",
+    "personality": "Real-size vinyl single and refolded napkin plausibly infer choosing music and improving the table for everybody; not literal biography. They remain spread rather than overlapped tightly.",
+    "world": "Old upholstered burgundy chair, warm shaded practical and neutral-dark left room fit broad house palette. Table retains amber sheen and dense repeated grain; glass overly polished.",
+    "issues": [
+      "420px glass exceeds280–330px intent; full glass/paper/traces union784px, conservative recognition union784px. Full702px portrait clips right folded napkin; no portrait acceptance, let alone phone/motion.",
+      "Tag is visibly free of glass with continuous cord and hole, but conservative writable axis116px is below170–200px goal. Real-name and breathing review deferred.",
+      "Clear drink retains speckled microbubble/condensation-like sparkle and strong gold warmth; pale transparent physical appearance remains held.",
+      "Walnut still orange/glossy with repetitive fine grain; one focused correction exhausted, not further texture iteration."
+    ]
+  },
+  "status": "measured-master-candidate;held;not-accepted;browser-deferred"
+}

@@ -1,13 +1,19 @@
 ---
 pairing: ruler-innocent
 personality: The Diva
-status: flagged           # open | closed | deadlock | flagged
+status: closed            # flag resolved by Robin 2026-10-06 (collection review); open | closed | deadlock | flagged
 round: 5               # budget: 5 (pour) · 5 (rework)
 started: 2026-10-01
 mode: batch            # pour | batch | rework
 ---
 
 # The room: The Diva (ruler-innocent)
+
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D2 (wine-core Martini accepted by structure; `balance.py` reads BY STRUCTURE): `flagged` → `draft`, `accepted:` line, Open items Flag bullet → resolved.
+- **Edits** (before → after, short): frontmatter and Open items only; no guest text changed.
+- **Left for Robin:** none.
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", between the Codex Bamboo (p. 91) and Ideal Gin Martini (p. 61), with the Bamboo's sugar to the hundredth. `accepted` reason checked: right. Nothing else changed.
 
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1 (psychologist-persona-card.md)) · [x] story + sourced anchors (Hester r3 (historian-anchors.md, fact card vernon-chalker-gin-palace)) · [x] drink + four checks (Tomás r3 (mixologist-draft.md, spec)) · [x] reading (Wren r5 (v3)) · [x] fact audit (Hester r4–r5 (audit v2, X1–X12 landed, confirmed r5)) · [x] resonance test (Wren r5, reading v3: ready) · [x] names (≥3 + pick) (Say So, all three r5) · [x] image brief (Tomás r4, draft)

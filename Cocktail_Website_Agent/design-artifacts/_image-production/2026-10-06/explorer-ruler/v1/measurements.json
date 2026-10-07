@@ -1,0 +1,102 @@
+{
+  "pairing": "explorer-ruler",
+  "pour": "Far Enough",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-ruler/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-73b72fac-89ed-4ce3-abb7-b1d29d97127f.png",
+  "masterDimensions": [
+    1602,
+    982
+  ],
+  "masterSha256": "cddee52af2690b837245d0f4adfcec0f9c5aad8f180bfc977b656624bcfb5333",
+  "sourceSha256": "a2162549160704ccb638f5dbfe9829c333e4bd961e1de37f40b22e2e938b5c18",
+  "specSha256": "e33132bdd44b5ddaa1d93766a870a2d659aeeed65d2f425113ced11cef15825b",
+  "wideCrop": [
+    0,
+    41,
+    1600,
+    900
+  ],
+  "portraitCrop": [
+    678,
+    20,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1179,
+    "cy": 650,
+    "w": 185,
+    "angle": 78
+  },
+  "glass": {
+    "x": 914,
+    "y": 499
+  },
+  "bounds": {
+    "glass": {
+      "x0": 681,
+      "y0": 227,
+      "x1": 1146,
+      "y1": 769
+    },
+    "paper": {
+      "x0": 1102,
+      "y0": 509,
+      "x1": 1254,
+      "y1": 773
+    },
+    "scarf": {
+      "x0": 1090,
+      "y0": 229,
+      "x1": 1602,
+      "y1": 816
+    },
+    "compass": {
+      "x0": 1254,
+      "y0": 376,
+      "x1": 1569,
+      "y1": 549
+    }
+  },
+  "recognitionRegions": {
+    "scarf": {
+      "bounds": {
+        "x0": 1264,
+        "y0": 525,
+        "x1": 1598,
+        "y1": 755
+      },
+      "reason": "Substantial folded wool face, hand-sewn repair and fringe visible; full scarf clipped at source edge."
+    },
+    "compass": {
+      "bounds": {
+        "x0": 1255,
+        "y0": 376,
+        "x1": 1570,
+        "y1": 550
+      },
+      "reason": "Whole plain brass pocket compass with circular face/needle/case/ring, not anonymous arc."
+    }
+  },
+  "tagPhysics": {
+    "support": "Snug burgundy body loop outside middle body y443–484, well below rim; front curved doubled arc follows glass and vanishes at sides.",
+    "knot": "Visible real knot front-right around1114/462.",
+    "tether": "Continuous paired short descending strand from knot to punched hole around1150/546.",
+    "paper": "Blank label below knot, separate from glass; bottom tip touches timber around1225/768 with contact shadow, not freely floating.",
+    "uncertainty": "Far-side loop hidden normally; exact friction/tension cannot be verified from one frame. Paper slight right lean is plausibly supported by bottom contact.",
+    "status": "plausible visible chain; not final mechanical acceptance"
+  },
+  "review": {
+    "recipe": "One amber/reddish rocks Old-Fashioned, ONE large cube and ONE large orange peel inside, no foam; surfaces too sparkly/engraved.",
+    "personality": "Compass and spare repaired wool scarf grounded planning/home-return habits; scarf clipped at source edge, props too far right.",
+    "world": "Dark timber house/right warm practical retained, but excessively glossy amber patterned/crackle tabletop and dense ice/glass detail.",
+    "issues": [
+      "Glass542px high rather than300 target.",
+      "Visible union921px; full scarf clipped source right edge; proposed portrait clips compass/scarf.",
+      "Paper rests on timber; not floating. Bodywrap knot/hole plausible, no rim anchor, friction unseen.",
+      "Compass dial has minute marks which could be pseudo-lettering; no brand/story words claimed.",
+      "Sole focused framing correction planned, no acceptance/export."
+    ]
+  }
+}
+

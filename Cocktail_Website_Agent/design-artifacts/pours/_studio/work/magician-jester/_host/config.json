@@ -1,0 +1,19 @@
+{
+ "pairing": "magician-jester",
+ "personality": "The Illusionist",
+ "archetypes": "Magician × Jester",
+ "date": "2026-10-04",
+ "batch": "magician",
+ "name": "Even When You Know",
+ "tagline": "You don't win arguments. You change what people see.",
+ "epigraph": "The darkest band is on top. The clear one underneath is the heaviest.",
+ "glassware": "a small stemmed pousse-café or cordial glass (about 75 ml), narrow and flared; no ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "pousse-cafe.md",
+ "language_row": "Wren's Resonance (v2) and 4-gram pass on whoYouAre and yours: clean except \"white crème de cacao\" (an ingredient name); \"it was for them\" (*lover-caregiver*) rewritten; \"plain view\" (*regular-guy-hero*) unused; the closing line moved off \"tell … why\" (*On Their Behalf*, *regular-guy-ruler*). \"I\" only; no guest pronouns, archetype names or magic words; never \"yours\" for the drink. Lint 0 errors, 0 warnings. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/pousse-cafe.md`: S1 *Oxford Companion to Spirits and Cocktails* POUSSE CAFÉ pdf 1557–1559 (Robert F. Moss; primary; its bibliography includes \"Famed Mixologist 'Mr. Nick' Is Dead\", *New Orleans Times-Picayune*, 8 Nov 1979); S2 LAYERING pdf 1169 (Darcy O'Neil); S3 BAR SPOON pdf 224, TO FLOAT pdf 815, SHOOTER pdf 1791, GRASSHOPPER pdf 938 (support); S4 Regan, *The Joy of Mixology*, \"To Layer a Drink\" (pdf 153); S5 Chloe Frechette, \"Who Orders a Pousse Café, Anyway?\", *Punch*, 31 May 2016 (secondary; cited by Oxford). Drink: *The Flavor Matrix* pdf 48, 84 (beet–cocoa surprise pairing; wine as a bridge); *Liquid Intelligence* pp. 136–137 (crème de cacao sugar). Web: 2 visits (Hester).",
+ "names_note": "*Even When You Know* (Wren, Hester; 2–1). Tomás held *Heavier Than It Looks* (the clear bottom layer is the heaviest thing in the glass) and could take the pick. Also considered: *See for Yourself* (too near *Plain to See*), *Right Way Up*. Registry checked: no clash.",
+ "open_items": "**For Robin (allergen table, not changed):** `creme_de_cacao_white` is `[]`, while Tomás's `cacao_nib_tincture_gin` row (explorer-magician) is `nuts, dairy` for shared-plant warnings; the two can't both be the safe side. Tomás recommends leaving crème de cacao at `[]` (on the page it's a cacao redistillate plus sugar, Oxford pdf 596); if Robin moves it, this pour loses veto-free. No label could be checked (web budget spent). New row `bourbon_beet` (contains none) and Tomás's layer densities (~1.12 / ~1.02 / ~0.945) are unsourced estimates; the method has a test step for new bottles. Balance is freeform (a layered drink; no *Codex* root), justified layer by layer in Checks. Nick's bar has no date on the page; the 1972 shaking answer is Le Mistral's proprietor's, relayed by Amy Vanderbilt. Lint warns of a motif overlap with *hero-magician* (white crème de cacao); Tomás accepted it in r4 with a reason (r4-tomas-3), and noted the shared \"clear as water\" wording for Robin."
+}

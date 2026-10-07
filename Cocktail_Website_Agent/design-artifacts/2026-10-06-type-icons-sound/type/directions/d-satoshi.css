@@ -1,0 +1,22 @@
+/* Direction D — Satoshi everywhere; the serif appears only for the cocktail's name and its epigraph.
+   Families: Satoshi · Playfair Display. Jost and the Playfair text cut retire. */
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,401&display=swap');
+:root { --font-sans: 'Satoshi', system-ui, sans-serif; --font-label: var(--font-sans); --font-text: var(--font-sans); }
+body { font-family: var(--font-sans); }
+
+.hold-q { font-family: var(--font-sans); font-style: normal; font-weight: 500;
+  font-size: clamp(1.3rem, 2.7vmin, 1.65rem); letter-spacing: -0.015em; line-height: 1.22; }
+.grav-pole { font-family: var(--font-sans); font-style: normal; font-weight: 400; letter-spacing: -0.025em; }
+.hold-hint, .depth-hint, .seed-name { font-family: var(--font-sans); font-weight: 400; font-size: clamp(14px, 1.75vmin, 16px); }
+.sphere-word { font-family: var(--font-sans); font-style: normal; font-weight: 500; letter-spacing: -0.01em; }
+.hold-next, .cta, .tr-kicker, .tr-cue, .tr-label, .tr-amount, .tr-quiet, .tr-ritual li::before { font-family: var(--font-sans); }
+.hold-next { font-weight: 500; letter-spacing: 0.18em; }
+.tr-kicker, .tr-label, .tr-cue { font-weight: 700; letter-spacing: 0.18em; }
+.cta { font-weight: 500; letter-spacing: 0; }
+/* reveal: serif only for the name and the epigraph */
+.tr-for, .tr-why .tr-closing, .tr-greet-line, .tr-private em { font-family: var(--font-sans); font-style: normal; font-weight: 400; }
+.tr-item, .tr-ritual li, .tr-why p { font-family: var(--font-sans); }
+.tr-why .tr-closing { font-weight: 500; }
+
+/* the guest writes in the ink: Satoshi and Switzer lack Vietnamese (ễ), so her name and trace stay serif */
+.depth-input { font-family: var(--font-display); font-style: italic; }

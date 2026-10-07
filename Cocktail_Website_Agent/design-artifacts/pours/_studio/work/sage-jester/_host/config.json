@@ -1,0 +1,26 @@
+{
+ "pairing": "sage-jester",
+ "personality": "The Wise Fool",
+ "archetypes": "Sage × Jester",
+ "date": "2026-10-02",
+ "batch": "sage",
+ "name": "In Good Part",
+ "tagline": "You'll be the silly one, so nobody has to be the wrong one.",
+ "epigraph": "A club that teased politicians over dinner had a drink of its own. It was pink.",
+ "glassware": "coupe, chilled in the freezer, no ice in the glass",
+ "contains": [
+  "egg-white"
+ ],
+ "veto_free": false,
+ "reading": "psychologist-reading-v3.md",
+ "card": "clover-club-philadelphia.md",
+ "language_row": "Wren's checks on v3: title block, whoYouAre and yours swap-tested against the family (Subverter, Prankster, Stand-up, Mentor, Prodigy, in her Resonance); history share in yours 49% (Wren's count, confirmed in Hester's audit v2); lint 0 errors, 0 warnings. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/clover-club-philadelphia.md` (F1–F22). *The Oxford Companion to Spirits and Cocktails*, CLOVER CLUB (pdf 481, whole entry; also BRONX, ALEXANDER, JACK ROSE, BUREAUCRACY); David Wondrich, *Imbibe!* pdf 239–240; *The Joy of Mixology* pdf 49, 268; *The Flavor Matrix*, BERRY (pdf 52) and raspberry vinegar (pdf 219, printed p. 209); *Liquid Intelligence* (tannin and proteins; egg-white ranges). Web (Hester's 2 visits): archive.org search, then the text of *The Clover Club: From a Club Poet's Point of View* (Philadelphia: The Clover-Leaf Company), a period primary for the dinners, the loving cup and the guests.",
+ "names_note": "Vote in round 4, steps 3–4: *In Good Part* 2–1 (Wren, Hester); Tomás voted *A Laughing Matter*. Also considered: *No Offence*. Picks were held until the vote.",
+ "open_items": [
+  "Not veto-free: contains egg white, kept by Tomás's call (the froth is the drink; the family's veto-free floor holds without this row).",
+  "Proportions moved from Oxford's printed spec (60 gin, 15 lemon, 10 syrup, 10 egg white), which balance.py reads OUT for the egg-white style; syrup 10 → 35 ml and white 10 → 15 ml, gin kept at 60 ml. Dilution 45.6%, just under Arnold's 46–49%, is the shaken formula's own output; every finished number is in range.",
+  "The colour of the finished drink (\"a little deeper in colour from the red wine\") is Tomás's estimate, unsourced.",
+  "Mary R. Deacon, *The Clover Club of Philadelphia* (1897, archive.org), likely the fullest source for named roasts and their risk, is unread (web budget spent). The story stays at the sourced level: the club teased politicians in general."
+ ]
+}

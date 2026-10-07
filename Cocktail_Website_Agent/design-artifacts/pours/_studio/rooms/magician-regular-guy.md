@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Entertainer (magician-regular-guy)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** none needed.
+- **Edits** (before → after, short): yours 4 (Q136): cut "The Skin was once a popular hot drink in its own right, and still a very good one, Wondrich says." · whoYouAre ¶2 (variety, V2): "That's what the hours are against. And here's what they buy: for a minute, you turn…" → "That's what the hours are against, and what they buy is a minute in which you turn…" ("Very few people can do that with a pack of cards." kept: the family's one rarity line)
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1 (persona card)) · [x] story + sourced anchors (Blue Blazer, rescoped (Hester r2–3; ruled by Wren r3)) · [x] drink + four checks (v1.1 Skin under the Blazer, Caol Ila + Irish pot still, 11.4% / 6.40 g / 0%, veto-free (Tomás r4)) · [x] reading (v1 (Wren r4)) · [x] fact audit (v1: FAIL, X1–X12 (Hester r5)) · [x] resonance test (in reading v2 (Wren r5)) · [x] names (≥3 + pick) (Cold Water First (all three); also Under the Blaze, Nobody's Stranger, For Some Time, Under the Fire, Behind the Cards) · [x] image brief (in mixologist-draft.md (Tomás r4))
 - **Last change to the pour:** r7 (A in y4; B in draft header)

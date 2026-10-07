@@ -1,0 +1,4 @@
+# Source readiness — sole correction
+
+Full current Kept dossier/spec reread through EOF before this correction; source4d826a6d73e4167cde3b99967ead209a59eb381d2be9eac82efc91e9eb9d3173, spec96eda36d939db02a3b9742e41812e3a019d580ebdfb73aad0931e584afe65073. Current continuation/system/DESIGN/checkpoint and three actual house pilots reviewed this turn; production-first supersedes old browser gate. Original source inspected original size. Mandatory invariants: heavy rocks, ordinary cloudy cubes, clear deep gold-amber, one expressed then dropped lemon peel inside, no foam; 60ml40%Armagnac/15mlYELLOWChartreuse/2.5mlrich syrup/2dashes bitters unchanged. Correct pulled-back framing and overlap traces in depth. Kept-person correspondence is an ordinary inference from privately returning to one's promise, not literal source history; no faux writing. Sole correction then measured candidate handoff even if held.
+

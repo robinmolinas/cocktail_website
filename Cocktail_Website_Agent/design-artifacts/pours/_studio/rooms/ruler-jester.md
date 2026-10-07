@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Charismatic Leader (ruler-jester)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine item and D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): epigraph (Q028): "This glass is that bar's size." → "This drink comes in its big glass." (the queue's "…in that bar's big glass" ran to 17 words, over the lint's 16); yours 5 (V5): cut "I hope it's somewhere wonderful." (ends on the gain); closingLine (V6, "Next time" restating the proposal): "Next time it all goes wrong, the first joke can be someone else's." → "Then pass the glass to whoever hasn't made a call yet." Also whoYouAre ¶2 (V2, announcement): "And look what you give them: around you, a plan falling apart…" → "Around you, a plan falling apart…". The dossier copies of the old epigraph and closing line (Tomás's and Wren's records) are left as the room wrote them.
+- **Left for Robin:** tagline (Q166) unchanged per D11.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (LAB (Wren r3)) · [x] drink + four checks (v3, balanced) · [x] reading (v3) · [x] fact audit (v3, pass) · [x] resonance test (v3, in the reading) · [x] names (≥3 + pick) (Who's In? (all three)) · [x] image brief (draft v2)
 - **Last change to the pour:** r5

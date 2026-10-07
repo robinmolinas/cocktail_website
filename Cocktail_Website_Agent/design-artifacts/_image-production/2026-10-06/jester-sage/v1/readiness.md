@@ -1,0 +1,9 @@
+# Against My Better Judgement — batch07 readiness
+
+Full current235-line dossier and complete spec read immediately before initial call. Dossier SHA2568254e212ad43a4543206f73896e6fcb2fe678cc88ac9a8a978343607e814dcc7; spec2052b3952e998294f49f1ce34a769fc874955f774500ac26bf11748ce5cc2871. Fresh queue/public/stage scan found no generated/selected/pending candidate or public asset. Draft/tagline are not physical readiness blocks; no recipe/editorial changes.
+
+Settled60mlbourbon22.5mldryvermouth7.5mlfreshpear syrup2dashesAngostura, stir30sec and strain into chilled180ml cocktail glass, about131ml finished. Lemon peel expressed then TAKENAWAY: no garnish in/on glass. Clear pale amber, lightly chilled/frosted glass, no servingice/foam/carbonation/rim. Recipe syrup prepared overnight/filtered, no fruit pieces.
+
+WhoYouAre opens with a letter announcing changes and a pointed response before anyone finishes reading. Folded correspondence is explicit source-grounded; plain used capped pen is a plausible response/reading habit inference, not explicit source object or historical Field pen. This cannot prove hidden hope visually; specificity remains a candid review question. Large radio and whole pear from old story/ingredient brief omitted to prioritise person, not invent recipe. No flames/candles/smoke/churches/1906 imagery/brands.
+
+Full current plan/persona system/APPDESIGN read in preparation; full built-inimagegen skill and both shared refs read this production turn; updated2026-10-07 tag clarification reread fully. Actual three creator pilots wide+portrait and OnTheRecordv2 inspected, plus root GoOnv3 small-label control. New tag is proportional narrower than bowl, not inflated to170–200px. Glass300px, compact whole-object group are prompt targets only; fullportrait is not moving-phonePASS. Root sole exporter/integrator; no public/shared/browser writes. Maxinitial+solecorrection.

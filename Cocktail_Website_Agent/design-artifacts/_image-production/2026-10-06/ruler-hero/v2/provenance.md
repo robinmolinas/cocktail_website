@@ -1,0 +1,3 @@
+# Provenance
+
+Built-in imagegen, one v1 initial and one v2 edit, both known completed outcomes. Exact v1 source exec-40f1562a-db30-4530-a666-6d1878b78d66.png and v2 source exec-16f0d1c1-b0f8-4ebf-aec3-04d1a251e5db.png under /Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750. Originals preserved; non-destructive staging copies. Both1672×941. V1 SHA25687344e3aa6672f389c783cef14806824deefe5431cb16893f1eaf2e0aace0ad7; v2SHA256701ae0f7be82037cd24094fe4c7b25647b27f038a9852010f8722cbbaed697d7. Current dossier/spec hashes unchanged at review. No exporter run by this agent.

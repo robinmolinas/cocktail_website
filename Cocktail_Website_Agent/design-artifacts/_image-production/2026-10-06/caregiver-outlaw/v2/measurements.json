@@ -1,0 +1,53 @@
+{
+  "pairing": "caregiver-outlaw",
+  "pour": "Not Too Polite",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-outlaw/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-2ffcb0b8-f18a-4d50-896b-e6d09cbdb34c.png",
+  "sourceSha256": "cefe2c263153b4a16592375851515068896a5d9e2e77f8511a1ac261062e65dc",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    765,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1110,
+    "cy": 764,
+    "w": 307,
+    "angle": 3.9
+  },
+  "glass": {
+    "x": 994,
+    "y": 474
+  },
+  "bounds": {
+    "glass": {
+      "x0": 864,
+      "y0": 190,
+      "x1": 1121,
+      "y1": 759
+    },
+    "paper": {
+      "x0": 884,
+      "y0": 699,
+      "x1": 1281,
+      "y1": 833
+    }
+  },
+  "review": {
+    "recipe": "Physical recipe passes: pale gold clear Collins, ordinary wet ice, fine bubbles, orange peel inside, no foam.",
+    "personality": "Folder clasp moved closer but remains partly outside tight phone, and released handkerchief is still far right; needs final compact placement correction.",
+    "world": "Old-world dark walnut, lamp, neutral shadow pass. Tag frontal but oversized/too low.",
+    "issues": [
+      "Hold: paper extends to y833, fails ultrawide safe-height target.",
+      "Hold: clasp/handkerchief person trace insufficiently compact for narrow phone.",
+      "First correction preserved; second bounded targeted correction required."
+    ]
+  }
+}

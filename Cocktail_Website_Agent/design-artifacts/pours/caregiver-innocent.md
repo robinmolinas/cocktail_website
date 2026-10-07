@@ -61,7 +61,7 @@ Hardly anyone has seen you in a mood. Cross over nothing. Wanting the window sea
 **yours**
 
 1. Félix Kir became mayor of Dijon in 1945. He hadn't invented the drink he's remembered for: Blanc Cassis, white wine and a measure of crème de cassis, the dark liqueur made from Burgundy's black currants, had been drunk in Burgundy for years before him. He served it at the city's receptions, set it out, and welcomed people with it. It came to be known by his name, and he died just as the rest of the world was taking it up.
-2. Oxford and the *Joy of Mixology* both record him as a respected Resistance veteran, and neither says what that meant for him. I don't know what he brought into those receptions with him. But I like to think he understood what a glass does. You hand one to someone and the moment fills up: they thank you, they start talking, and nobody thinks to ask how you are. They knew the glass he handed them, and very little of what he carried in.
+2. He was also a respected veteran of the Resistance. We don't know what that meant for him, or what he brought into those receptions with him, but I like to think he understood what a glass does. You hand one to someone and the moment fills up: they thank you, they start talking, and nobody thinks to ask how you are. They knew the glass he handed them, and very little of what he carried in.
 3. I think your calm works the same way. It's real, and it's generous, and it's also the safest place in the room to stand. If you're the one steadying everyone, nobody's looking at you, and nobody's cross with you, because you're never cross first. And as long as you only ever bring the calm, you never have to find out whether they'd love you with the rest. That's what it costs. Not that nobody sees the rest of you. That you never get to hear the answer.
 4. The cocktail I've made for you starts from the one he poured, with two changes. Crémant de Bourgogne, Burgundy's sparkling wine, takes the place of the still white wine, built in the glass, not shaken. And before the Crémant goes in, a few basil leaves are pressed into the cassis and strained away. A Kir is supposed to taste of cassis. The bubbles carry the basil up, so the first thing you meet is the part nobody expected. I wanted that part first.
 5. So start with whoever you're surest of. When they ask where you'd like to sit, don't say you don't mind. Say the window. And when something small makes you cross, let it reach your face before you smooth it over. It's a small thing to ask, and it will feel enormous. I don't think anyone will leave. I think they'll finally meet the rest of you.
@@ -77,7 +77,7 @@ Wine aperitif riff on the Kir Royale, which Oxford gives as "a variant made with
 
 ### Balance
 `balance.py` verdict: **freeform — no ranges applied.** Numbers:
-- ABV: **12.6%** (nearest highball range 8–14%; well within)
+- ABV: **12.6%** (nearest highball range 10–16%; well within)
 - Sugar: **6.40 g/100 ml** (cassis at its legal floor; nearest styles fizz, highball, collins)
 - Acid: **0.60%** (from the Crémant's tartaric; within reach of highball/fizz)
 - Dilution: 0% (built, no shaking)
@@ -85,6 +85,8 @@ Wine aperitif riff on the Kir Royale, which Oxford gives as "a variant made with
 Justification: wine aperitif format (same as a Kir Royale). ABV is equivalent to a medium-strength sparkling wine with a liqueur sweetener. Sugar and acid are within reach of the highball range. Sound numbers for the format. 
 
 **Values:** crème de cassis sugar at least 40 g/100 ml, French law's minimum of 400 g per litre (Oxford pdf 597), used at the floor; its ABV 16% is an unsourced standard value. Sweep: at 50 and 60 g/100 ml (sweeter cassis) sugar rises to 7.83 and 9.26 g/100 ml, strength and acid unchanged. Crémant de Bourgogne is in the library (Oxford KIR pdf 1133); the spec uses the `champagne_brut` row as its stand-in (brut sparkling wine, 12%; values unsourced).
+
+**Codex benchmark (Robin 2026-10-06):** the *Codex*'s Kir Royale (p. 223: ½ oz crème de cassis to 5½ oz dry Champagne, about 1:11, with the warning to be "careful not to add too much and oversweeten the drink") reads 12.3% / 4.07 g / 0.64% with our own cassis and sparkling-wine rows, so ours at 1:6 (Oxford's Kir proportion) is about half as sweet again, 6.40 g, still inside Arnold's carbonated sugar band (5.0–7.5) and with the same acid, and 15 ml of cassis would read 5.16 g if Robin wants it closer to the *Codex* (my sweep; not applied).
 
 ### Pairings
 Basil + blackcurrant (cassis): Flavor Matrix pdf 52 lists basil as a **surprise pairing** for berries (strawberry, blueberry, blackberry, raspberry, cranberry). Currants appear on that page only among the substitutes, so carrying the pairing over to blackcurrant is my own step, not the book's claim. The basil is muddled into the cassis and strained out. The Crémant's bubbles rise through the basil-scented cassis and carry the aroma up, so the basil reaches the nose before the first sip; on the palate the cassis leads and the basil sits underneath (my own knowledge of carbonation lifting aroma, unsourced). The only sourced claim is the Matrix pairing.

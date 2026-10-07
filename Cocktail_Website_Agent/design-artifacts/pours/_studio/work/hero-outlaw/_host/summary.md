@@ -1,0 +1,8 @@
+- **Persona:** The Lovable Rogue: introduced with a warning and never minded it, never promises anything because saying it would feel like a leash and breaking it would be worse, and always turns up anyway. The reading asks them, once, to say it ahead of time.
+- **Story:** the plan's lead, LeNell Smothers and her shop at the far end of Van Brunt Street (2003, six years): rye when hardly anyone stocked it, Peychaud's and Underberg carried against local liquor rules, and owners' scoldings that became "almost a rite of passage". Wren accepted it in r1 with conditions; Hester struck two plan shorthands ("stock nobody else carried", "when no one had rye"), unlinked the hire from the yelling, and kept the lease from becoming her sacrifice. No runner-up passed.
+- **Drink:** a rye Old-Fashioned on one big cube in a small rocks glass: 60 ml straight rye (40–43%), 7.5 ml sorghum syrup, a teaspoon of Underberg, orange peel. 29.1% / 7.51 g / 0.025%, balanced. `contains: ["nuts"]` from the new Underberg row, on the safe side: not veto-free on purpose.
+- **Versions that failed:** the Underberg paper wrap (a search summary, not the page; struck); the sorghum as "Southern" (unsourced; the reading now gives it as a craft choice only); "German herbal bitters" and "dark and rich" (not in the books); "said her name with pride" (the page says "devotees").
+- **This is me:** "You'd rather surprise them than let them down."
+- **Names:** *No Promises* 3–0. Also *Comes Good*, *Hard to Find*, *End of the Street*.
+- **Edges:** not veto-free (Underberg `nuts`, a library gap); the neighbourhood is left unnamed because the *Red Hook* cocktail is Milk & Honey's (Lover's ground). No flag.
+- **Rule candidates:** none new.

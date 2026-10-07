@@ -55,7 +55,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 **whoYouAre**
 You rarely set out to start anything. You just like what you like a little before everyone else does: a song, a way of dressing, a word, a place nobody goes yet. You wear it or play it or order it because it's yours. Then, a while later, you notice other people doing it too, and it honestly surprises you every time.
 
-The part you keep to yourself comes next. Once it's everywhere, it's usually done a bit worse, and the people whose taste you respect start rolling their eyes at it. Quietly, you go off it. You've let go of things you loved just because too many people started loving them. Nobody gets to tell you what to like. That includes telling you to stop. And without meaning to, you hand people something they rarely name: the nerve to love a thing before anyone has given permission.
+The part you keep to yourself comes next. Once it's everywhere, it's usually done a bit worse, and the people whose taste you respect start rolling their eyes at it. Quietly, you go off it. You've let go of things you loved just because too many people started loving them. Nobody gets to tell you what to like. That includes telling you to stop. And without meaning to, you hand people something they rarely name: the nerve to love a thing before anyone else does.
 
 **yours**
 
@@ -67,7 +67,7 @@ The part you keep to yourself comes next. Once it's everywhere, it's usually don
 
 4. He fixed it mostly with what was already behind the bar. The cocktail I've made for you keeps his proportions, two parts lemon vodka to one each of orange liqueur, fresh lime and sweetened cranberry, and takes one thing from the kitchen: three basil leaves, shaken with it and strained out, leaving their scent and a little of their taste. They add nothing he'd measure: no sugar, no sharpness, no strength. That part is for you. Basil and cranberry are an unexpected match, and basil and lime are old friends. It goes into a wide, shallow glass, with his lemon peel squeezed over the top.
 
-5. So here's my position. The next time something of yours turns up everywhere, and the eye-rolling starts, don't quietly let it go. Wear it, play it, order it anyway, out loud. You never gave something up because everyone else did. Don't give it up because everyone else found it.
+5. The next time something of yours turns up everywhere, and the eye-rolling starts, don't quietly let it go. Wear it, play it, order it anyway, out loud. You never gave something up because everyone else did. Don't give it up because everyone else found it.
 
 ---
 

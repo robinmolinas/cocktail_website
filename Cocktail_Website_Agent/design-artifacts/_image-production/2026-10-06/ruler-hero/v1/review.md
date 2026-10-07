@@ -1,0 +1,3 @@
+# Original-resolution initial review — held
+
+Actual1672×941 PNG, exact source exec-40f1562a-db30-4530-a666-6d1878b78d66.png preserved and staged. Small stemmed wine silhouette and hazy tawny sour beneath crimson float are present, no serving ice/garnish/egg head. Float looks heavier than requested15ml; border mildly diffuses physically. Glass approximately516px high rather than320; paper and coat/key group far too broad. Full coat runs off image top. Key ring is too far right. Table has glossy orange-rippled finish and fine glass speckling persists. Plain blank writable tag present; no name text. Candidate not accepted. Sole v2 camera-distance/depth-overlap edit prepared.

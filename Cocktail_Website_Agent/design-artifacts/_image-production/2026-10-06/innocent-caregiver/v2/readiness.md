@@ -1,0 +1,7 @@
+# Night Light — one bounded composition correction
+
+Current complete181line dossier and44line spec reread immediately before this correction; exact source/spec unchanged:d4e942abc39972cf7ed38e258d918f409f1fc3e36fa12ede52d55520ac2716bf /79ebbe340d457c56299b2c2a0e6bf3c909d0414dba7538fd3e293347f5a425c5. Full current docs and skill reads/house control inspection recorded in v1/current-readiness.md. Latest user allows creation before later joint browser review. Root alone exports/integrates; no shared changes.
+
+V1 is preserved. Edit target exact built-in source:/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-9aeb60d9-4ab8-44d8-9fb7-57a13bddb952.png. Inspected original1672×941. V1 bowl/glass physically clear but too amber; mended blanket and saved biscuit far right, essential recognition union about800px too wide for actual portrait-phone cover. One permitted targeted correction compacts the composition and restores almost-colourless wine, preserving recipe/material invariants.
+
+No recipe/editorial changes. Small stemmed chilled126ml fino/white-vermouth/chamomile-honey cocktail, dropped expressed lemon strip, no ice/foam/flor. Two care traces remain mended folded blanket and saved biscuit; no kitchen/nursery setting or impossible hoveringveil. New version rather than overwritten master. Actual final result requires independent material review, real measurements and root exports; no browser acceptance claimed.

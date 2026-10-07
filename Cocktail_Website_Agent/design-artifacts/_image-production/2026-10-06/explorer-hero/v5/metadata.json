@@ -1,0 +1,302 @@
+{
+  "pairing": "explorer-hero",
+  "pour": "Nothing to It",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "f47bf1ef1109a2ce34aa6af2e59891b0a04104df1b1a8ebc83e7d1a7f287010b",
+  "review": {
+    "recipe": "Master reviewed: small approximately200ml freezer-chilled heavy tumbler, clear deep amber bourbon/caramel/bitters a little over half full, no serving ice or foam/bubbles; orange peel set aside.",
+    "personality": "Whole used watch face x1144–1252 now beside glass, with worn leather inner strap and thumb-handled blank cue-card edges x1135–1270 retained in computed tall-phone crop. Outer strap loop and outer card stack may clip, not face or defining inner used edges.",
+    "world": "Warm old-world dark walnut room, timber tabletop, neutral near-black shadows, warm practical lamp, restrained copper caramel pan secondary; no warehouse stage or impossible detail.",
+    "issues": []
+  },
+  "measurements": {
+    "pairing": "explorer-hero",
+    "pour": "Nothing to It",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-hero/v5/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-e3f3d8ce-5b21-42b0-bb6f-278147a61008.png",
+    "sourceSha256": "f47bf1ef1109a2ce34aa6af2e59891b0a04104df1b1a8ebc83e7d1a7f287010b",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      740,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1042,
+      "cy": 636,
+      "w": 205,
+      "angle": 1.7
+    },
+    "glass": {
+      "x": 999,
+      "y": 497
+    },
+    "bounds": {
+      "glass": {
+        "x0": 849,
+        "y0": 341,
+        "x1": 1149,
+        "y1": 652
+      },
+      "paper": {
+        "x0": 906,
+        "y0": 594,
+        "x1": 1154,
+        "y1": 679
+      }
+    },
+    "review": {
+      "recipe": "Master reviewed: small approximately200ml freezer-chilled heavy tumbler, clear deep amber bourbon/caramel/bitters a little over half full, no serving ice or foam/bubbles; orange peel set aside.",
+      "personality": "Whole used watch face x1144–1252 now beside glass, with worn leather inner strap and thumb-handled blank cue-card edges x1135–1270 retained in computed tall-phone crop. Outer strap loop and outer card stack may clip, not face or defining inner used edges.",
+      "world": "Warm old-world dark walnut room, timber tabletop, neutral near-black shadows, warm practical lamp, restrained copper caramel pan secondary; no warehouse stage or impossible detail.",
+      "issues": []
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1196.5550239234449,
+        "cy": 730.7234042553191,
+        "w": 235.4066985645933,
+        "angle": 1.7009037242854088
+      },
+      "glass": {
+        "x": 1147.177033492823,
+        "y": 571.0212765957447
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 385.45868945868943,
+        "cy": 811.9148936170212,
+        "w": 261.65242165242165,
+        "angle": 1.7003227587705154
+      },
+      "glass": {
+        "x": 330.57549857549856,
+        "y": 634.468085106383
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/explorer-hero/portrait.jpg",
+    "wide": "/personas/explorer-hero/wide.jpg",
+    "wideTag": {
+      "cx": 0.6232057416267942,
+      "cy": 0.676595744680851,
+      "w": 0.12260765550239235,
+      "angle": 1.7009037242854088
+    },
+    "wideGlass": {
+      "x": 0.597488038277512,
+      "y": 0.5287234042553192
+    },
+    "tag": {
+      "cx": 0.4301994301994302,
+      "cy": 0.676595744680851,
+      "w": 0.292022792022792,
+      "angle": 1.7003227587705154
+    },
+    "glass": {
+      "x": 0.36894586894586895,
+      "y": 0.5287234042553192
+    }
+  },
+  "hashes": {
+    "master": "e04c1725b3980410bd4c7939613688a10796314843aed1a465f85a6166254d26",
+    "wide": "b64e6ccfc8c3eb436bd7357966d674644e6e6228afa7899679015063638788a7",
+    "portrait": "92a5c5c100195f4d3dc306b88ed10f0712e3c1709b7aca20897c4a80bf0d48bf"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 974.9282296650717,
+          "y0": 391.78723404255317,
+          "x1": 1319.4258373205741,
+          "y1": 749.1063829787234
+        },
+        "paper": {
+          "x0": 1040.3827751196172,
+          "y0": 682.468085106383,
+          "x1": 1325.1674641148325,
+          "y1": 780.1276595744681
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 732.4401913875598,
+          "y0": 326.48936170212767,
+          "x1": 1019.5215311004786,
+          "y1": 624.2553191489362
+        },
+        "paper": {
+          "x0": 786.9856459330143,
+          "y0": 568.7234042553191,
+          "x1": 1024.3062200956938,
+          "y1": 650.1063829787234
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1039.9234449760766,
+          "y0": 364.5463829787234,
+          "x1": 1407.3875598086124,
+          "y1": 745.6868085106383
+        },
+        "paper": {
+          "x0": 1109.7416267942583,
+          "y0": 674.6059574468085,
+          "x1": 1413.511961722488,
+          "y1": 778.7761702127659
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1746.7464114832535,
+          "y0": 474.2521276595744,
+          "x1": 2363.971291866029,
+          "y1": 1114.4489361702126
+        },
+        "paper": {
+          "x0": 1864.0191387559807,
+          "y0": 995.055319148936,
+          "x1": 2374.2583732057415,
+          "y1": 1170.0287234042553
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.36894586894586895,
+        "y": 0.5287234042553192
+      },
+      "bounds": {
+        "glass": {
+          "x0": 9.23361823361823,
+          "y0": 306.17446808510635,
+          "x1": 278.5441595441595,
+          "y1": 585.4127659574468
+        },
+        "paper": {
+          "x0": 60.402621082621096,
+          "y0": 533.336170212766,
+          "x1": 283.0326685660019,
+          "y1": 609.6553191489362
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.36894586894586895,
+        "y": 0.5287234042553192
+      },
+      "bounds": {
+        "glass": {
+          "x0": 9.951566951566974,
+          "y0": 338.09787234042557,
+          "x1": 307.3418803418803,
+          "y1": 646.4510638297872
+        },
+        "paper": {
+          "x0": 66.45572649572651,
+          "y0": 588.9446808510638,
+          "x1": 312.29838556505223,
+          "y1": 673.2212765957447
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.36894586894586895,
+        "y": 0.5287234042553192
+      },
+      "bounds": {
+        "glass": {
+          "x0": 27.44159544159544,
+          "y0": 206.05106382978724,
+          "x1": 208.68376068376068,
+          "y1": 393.97446808510637
+        },
+        "paper": {
+          "x0": 61.877606837606834,
+          "y0": 358.92765957446807,
+          "x1": 211.7044634377968,
+          "y1": 410.2893617021277
+        }
+      }
+    }
+  ]
+}

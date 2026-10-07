@@ -1,0 +1,1 @@
+📜 **Hester:** Reshaped `historian-anchors.md` into the `| kind | fact | meaning | speaksTo |` table, with the dossier-only rows under `## Dossier only`. No fact changed. The wording now follows the page and audit r4 ("good-natured", "to know the cause", "with a straight face"), and Green's last coin and his line on the drink moved to the dossier, as Wren ruled.

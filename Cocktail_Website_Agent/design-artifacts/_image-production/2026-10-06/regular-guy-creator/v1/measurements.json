@@ -1,0 +1,93 @@
+{
+  "pairing": "regular-guy-creator",
+  "pour": "Right Here",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-creator/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-267858c4-fce9-484b-b6a7-6b7e68f23df1.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "53dcff5dd1614674fd5b09d84c68c8061231d4dc3810af5574d6826c4d7fe3ec",
+  "sourceSha256": "6ee63b65ec785010650bcc36196bbcbc717b062c8dfd9ab5a99bf21f6f1fa565",
+  "specSha256": "11cd82457258dc1e2c7d9787521e4656ff5cbc5261ab88c03ed253ceee1f6a00",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    822,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1376,
+    "cy": 622,
+    "w": 243,
+    "angle": 9.4
+  },
+  "glass": {
+    "x": 1101,
+    "y": 505
+  },
+  "bounds": {
+    "glass": {
+      "x0": 938,
+      "y0": 310,
+      "x1": 1265,
+      "y1": 700
+    },
+    "paper": {
+      "x0": 1200,
+      "y0": 535,
+      "x1": 1517,
+      "y1": 693
+    },
+    "ovenMitt": {
+      "x0": 561,
+      "y0": 383,
+      "x1": 1147,
+      "y1": 630
+    },
+    "offsetSpatula": {
+      "x0": 591,
+      "y0": 368,
+      "x1": 946,
+      "y1": 571
+    }
+  },
+  "recognitionRegions": {
+    "ovenMitt": {
+      "bounds": {
+        "x0": 563,
+        "y0": 444,
+        "x1": 954,
+        "y1": 630
+      },
+      "reason": "Full folded mitt fingers and thumb lobe, not a fabric edge."
+    },
+    "offsetSpatula": {
+      "bounds": {
+        "x0": 591,
+        "y0": 368,
+        "x1": 946,
+        "y1": 571
+      },
+      "reason": "Complete blunt flat blade, offset bend and wooden handle required together."
+    }
+  },
+  "review": {
+    "recipe": "Pale straw/amber low spirit fill, 3–4 ordinary cloudy tray cubes and no garnish are visually consistent; thick clear platform base conflicts with plain thin-base kitchen tumbler.",
+    "personality": "Used oven mitt and offset icing spatula support an ordinary inferred home-baking talent; they are tools, not literal archetype costume or drink ingredients.",
+    "world": "Historic dark timber room, quiet left and one warm practical. Table has too much glossy amber reflection and patterned contact wear.",
+    "issues": [
+      "Held: heavy base rather than everyday kitchen tumbler.",
+      "Complete union 956 px wide; both trace recognition cores cannot survive 702 px portrait or ~389 px moving-phone cover.",
+      "Glass height 390 px exceeds requested pulled-back 280–340 px.",
+      "Amber table reflection remains material risk."
+    ]
+  }
+}
+

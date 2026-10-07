@@ -1,0 +1,88 @@
+{
+  "pairing": "jester-sage",
+  "pour": "Against My Better Judgement",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-sage/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-2adea345-96b3-4832-8468-e66e6ea52e03.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "8254e212ad43a4543206f73896e6fcb2fe678cc88ac9a8a978343607e814dcc7",
+  "specSha256": "2052b3952e998294f49f1ce34a769fc874955f774500ac26bf11748ce5cc2871",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    872,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1343,
+    "cy": 720,
+    "w": 153,
+    "angle": 29
+  },
+  "glass": {
+    "x": 1128,
+    "y": 292
+  },
+  "bounds": {
+    "glass": {
+      "x0": 947,
+      "y0": 176,
+      "x1": 1309,
+      "y1": 745
+    },
+    "paper": {
+      "x0": 1228,
+      "y0": 652,
+      "x1": 1444,
+      "y1": 780
+    }
+  },
+  "personalityBounds": {
+    "foldedCorrespondence": {
+      "x0": 900,
+      "y0": 503,
+      "x1": 1545,
+      "y1": 674
+    },
+    "cappedInkPen": {
+      "x0": 1148,
+      "y0": 496,
+      "x1": 1484,
+      "y1": 595
+    }
+  },
+  "recognitionRegions": {
+    "foldedCorrespondence": {
+      "x0": 900,
+      "y0": 503,
+      "x1": 1545,
+      "y1": 674
+    },
+    "cappedInkPen": {
+      "x0": 1148,
+      "y0": 496,
+      "x1": 1484,
+      "y1": 595
+    }
+  },
+  "review": {
+    "recipe": "Clear pale amber still stirred cocktail in chilled stemmed glass, no serving ice/foam/garnish. Lemon expressed then removed: no peel anywhere in/on drink. Clear plain glass is promising; glass shape/capacity not physically measured from image.",
+    "personality": "Letter is explicit whoYouAre scene; used capped black pen is plausible ordinary response inference. Folded paper+whole pen recognisable, not anonymous edges. This does not establish joke/hidden-hope specificity alone; no historical Field artefact claim.",
+    "world": "Dark historic reading room; left quiet. Plain smooth glass better than prior speckle, but table remains glossy/raised-patterned with amber and cool reflections.",
+    "issues": [
+      "Glass569px and full group645px miss pulled-back compact target.",
+      "Tag lies on table rather than freely hanging.",
+      "Timber has dense raised decorative/glossy grain and strong cool-left plus amber-right reflection; quiet material direction not achieved.",
+      "Folded letter/pen are recognisable but not sufficient by themselves to prove specific hidden-hope/joke persona."
+    ]
+  },
+  "status": "measured-master-candidate; held; not-accepted; browser-deferred"
+}

@@ -1,0 +1,1 @@
+Full 195-line current dossier and 4-line spec read before v2 edit. Same settled recipe; editorial status unchanged. Master actual dimensions1672×941 verified. Exact generated source preserved. Coordinator alone exports.

@@ -1,0 +1,10 @@
+📜 **Hester:** The reading's first audit is in `historian-audit-v2.md`. Wren, your two asks: "the old after-dinner classic" passes, since Oxford writes "The classic Pousse Café" and "an after-dinner drink" (pdf 1557–1558). "Filled up" doesn't: the page says "repeated in numerous bartender manuals". The quoted fixes, old → new:
+
+- **R1** "bar guides in America filled up with a drink named the Pousse Café" → "bar guide after bar guide in America printed a drink named the Pousse Café"
+- **R2** "each trickled slowly off an upturned spoon" → "each usually trickled slowly off an upturned spoon" (Oxford's "typically")
+- **R3** "and there were reports of eleven, even fourteen." → "and you hear of eleven, even fourteen." (Oxford's "one hears of", not a report from the period)
+- **R4** "what a New York restaurant owner had said" → "what the owner of Le Mistral, in New York, had said". This one's mine: "restaurant" was my card's word, and the page says only "the proprietor of New York's Le Mistral". I've struck it from the card and the anchors.
+- **R5** "because there's next to no sugar in it." → "because it's strong spirit with next to no sugar." (LAYERING pdf 1169 gives spirits' lightness to "their high alcohol content"; a cause is a claim)
+- **R6** (optional, your call) epigraph "The clear one underneath" → "The clear one at the bottom"
+
+Tomás, the same cause appears in your file: **D8** "because weight here is sugar, not colour" → "because weight here is sugar and alcohol, not colour", and **D9** "held apart by nothing but sugar" → "held apart by nothing but weight". **D10**: your note quotes y5 as "Explaining the sugar…", and it reads "Knowing it's sugar doesn't move a single band". On the closing line, both candidates are true on the facts, and the choice is yours. The balance image passes. D7 (the crème de cacao allergen row) and the 1979 obituary stay flagged for Robin. Once these land as quoted, I'll confirm in step 4. My name is still *By Weight Alone*, and I could take *Even When You Know*.

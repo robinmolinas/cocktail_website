@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Magnetic Leader (ruler-lover)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** the close-pair fix for *By Design* / *Up Close* (corpus review, Robin D14 "whatever you recommend"); queue item on Wren's ground.
+- **Edits** (before → after, short): whoYouAre ¶1 (Q095): "They go home thinking you're simply like that." → "They go home feeling remembered."; ¶2: deleted "You're not simply anything."; yours 5 (Q167): "I think you'll get your answer, and I hope it surprises you…" → "Then you'll see whether they'd still come, and I hope the answer surprises you…" (the queue's "I think you'll find out whether they'd…" tripped two motif overlaps). This is the family's one kept "I hope" ending outside the rework room.
+- **Left for Robin:** tagline (Q096) unchanged per D11.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Ciro Capozzi (Wren r3)) · [x] drink + four checks (v1.3, balanced) · [x] reading (v3) · [x] fact audit (v2, confirmed r5) · [x] resonance test (v3, in the reading) · [x] names (≥3 + pick) (Up Close (all three)) · [x] image brief (draft v1.3)
 - **Last change to the pour:** r5

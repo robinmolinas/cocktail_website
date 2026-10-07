@@ -1,0 +1,112 @@
+{
+  "pairing": "magician-creator",
+  "pour": "On One Condition",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-creator/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-44f3c6fd-6d3a-4b07-bac6-0bdc9209266b.png",
+  "sourceSha256": "01ce99abcdf4067a816791a6a7e0c5872b7ef3474504887d92b8f83640ab58cb",
+  "specSha256": "e6ea8d8c0c21206a47fd95944f1a2f0e08f6d3a30065428d46a83a5167085b70",
+  "masterSha256": "3e5568d915acebe55ea81f37fa8f9f4e8764c0f6f23f8bf8d4c5322d5a1dac1b",
+  "masterDimensions": {
+    "width": 1671,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1671,
+    940
+  ],
+  "portraitCrop": [
+    837,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1168,
+    "cy": 678,
+    "w": 80,
+    "angle": 84
+  },
+  "glass": {
+    "x": 1068,
+    "y": 552
+  },
+  "bounds": {
+    "glass": {
+      "x0": 974,
+      "y0": 351,
+      "x1": 1162,
+      "y1": 758
+    },
+    "paper": {
+      "x0": 1140,
+      "y0": 615,
+      "x1": 1191,
+      "y1": 731
+    },
+    "garnish": {
+      "x0": 956,
+      "y0": 270,
+      "x1": 1120,
+      "y1": 609
+    }
+  },
+  "personBounds": {
+    "cassetteCase": {
+      "x0": 1150,
+      "y0": 442,
+      "x1": 1463,
+      "y1": 671
+    },
+    "toastCardPencil": {
+      "x0": 1158,
+      "y0": 661,
+      "x1": 1535,
+      "y1": 775
+    }
+  },
+  "recognitionRegions": {
+    "cassetteCase": {
+      "x0": 1160,
+      "y0": 443,
+      "x1": 1460,
+      "y1": 667
+    },
+    "toastCardPencil": {
+      "x0": 1161,
+      "y0": 669,
+      "x1": 1528,
+      "y1": 770
+    }
+  },
+  "group": {
+    "fullWidth": 579,
+    "recognitionWidth": 572
+  },
+  "tagPhysics": {
+    "supportLoop": "Visible snug exterior lower-middlebody frontarc around y600–615; fararc hidden by side occlusion.",
+    "knot": "Right side near1151,610.",
+    "tether": "Short continuous downward strands from knot through hole near1157,634.",
+    "hole": "Visible punched hole near1157,634.",
+    "paper": "Small label narrower than188px glass; blank face hanging separately right beside vessel.",
+    "gravity": "Paper descends below hole, long axis nearlyvertical; bottom corner near1190,720 above tabletop and gap/shadow plausible.",
+    "assessment": "Substantially plausible support-loop/knot/downwardtether/hole/freepaper chain at original resolution; fine side occlusion not independently approved. No rim/ice anchor."
+  },
+  "review": {
+    "recipe": "One tall Collins with ice and one upright rosemary, palegold slightlyhazy faintwarmbody/carbonation/nofoam. Color warmer than verypalegold target; dense bubbles/droplets and etched-looking ice remain.",
+    "personality": "Cassette/open connected case with tape spools and foldedblankcard/pencil clearly recognizable. Source-grounded format inferences for playlist/toast, not actual possession claims. Card is generic; two traces still side-offset.",
+    "world": "Darkhistoric timber room and one offscreenpractical, nopeople; visiblelamp removed. Wood remains glossyamber and uniformly worn, ice/glass microtexture too decorative.",
+    "issues": [
+      "native1671width not1672; proposedwide corrected to1671",
+      "glass407px exceeds280–330target",
+      "full579px/recogn572px core exceeds389px moving-phone target",
+      "portrait702proposal contains group but is not phonePASS",
+      "ambergloss/scratch wood and dense etched-looking ice/glass texture",
+      "cream tag cleanaxis80px; name/browserfit untested",
+      "tag fine occlusion independent review pending",
+      "person card generic; no final material/person acceptance",
+      "no export/browser/public integration"
+    ]
+  }
+}

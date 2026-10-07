@@ -1,0 +1,36 @@
+{
+ "pairing": "hero-lover",
+ "family": "martini",
+ "style": "shaken-spirit",
+ "glass": "deep champagne goblet (about 200 ml), chilled, as the novel orders it (card F3)",
+ "serves": 1,
+ "version": "v1.2 (round 4 step 1, 2026-10-04; drink unchanged since v1), matches mixologist-draft v1.2: the Vesper as ordered in Casino Royale (Oxford VESPER pdf 2099: three measures Gordon's, one vodka, half Kina Lillet, shaken until ice-cold, a large thin slice of lemon peel), a measure = 20 ml, so 60/20/10; Lillet Blanc for Kina Lillet (the bitterness change was 1917, pdf 2100); plus one teaspoon (5 ml) of Jamaican rum (style), in the shaker first, for the frozen rum drink that, in Bryce's account, gave the name (pdf 2099); Jamaican is our choice. Shaken, judged on shaken-spirit. OUT on sugar (0.61 vs 3.7), justified: no Martini in Arnold's analysed set, and 'a martini contains no added sugar' (LI pdf 232). Swept: gin 37.5/40/47.3, rum 0/5 at 40/63, 45/15/7.5: all 22.0-26.1%, 0.59-0.65 g, same OUT. Proved fallback: +10 ml simple syrup, 20.3% (edge) / 4.22 g / 0.036%.",
+ "ingredients": [
+  {
+   "key": "rum_jamaican_any",
+   "ml": 5
+  },
+  {
+   "key": "gin_gordons",
+   "ml": 60
+  },
+  {
+   "key": "vodka",
+   "ml": 20
+  },
+  {
+   "key": "lillet_blanc",
+   "ml": 10
+  }
+ ],
+ "garnish": [
+  "lemon_peel"
+ ],
+ "accepted": {
+  "checks": [
+   "finished sugar"
+  ],
+  "by": "Robin 2026-10-06",
+  "why": "a dry Martini: the Vesper as the novel orders it has almost no sugar by design (D2)"
+ }
+}

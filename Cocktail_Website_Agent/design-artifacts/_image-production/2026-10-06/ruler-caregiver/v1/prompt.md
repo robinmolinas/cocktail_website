@@ -1,0 +1,13 @@
+# Go On — batch06 initial prompt
+
+Built-in image generation; photorealistic-natural new image. Exact request:
+
+Use case: photorealistic-natural. One landscape 16:9 photograph for Dionysus's Go On / The Caring Leader. A quiet real old hotel reading-room bar, observed rather than staged for an advertisement.
+
+One finished cocktail in a chilled plain clear 180ml stemmed cocktail glass: cognac, sweet vermouth, a little mandarin liqueur and Angostura. Transparent deep amber-red, still and optically smooth. No serving ice, no foam, no bubbles. One thin small orange-coloured MANDARIN peel expressed then dropped INSIDE the drink, not on rim. No cherry. Show the finished drink, not an empty waiting glass or a second mixing vessel.
+
+Pull the camera back for a wide room view. Glass fully visible just right of centre, about one-third of image height (roughly300px on a1672×941 frame), bottom near75–80% height. Left35% quiet near-black for interface writing. Immediately behind it, an ordinary full-size wooden chair with burgundy upholstery has been drawn up to the bar to listen. Its recognizable shaped back and seat are visible, legs may be naturally occluded by counter. A soft plain olive wool cardigan is casually draped over that chair's back, a small imperfect fold rather than distressed costume. These are full-size objects farther back in depth, not dollhouse furniture or a symbolic throne. Keep the chair/cardigan recognizable silhouette closely aligned behind the glass, not a separate wide display. They suggest an absent person taking a seat to hear somebody out.
+
+One generous blank cream paper luggage tag loosely tied to the glass STEM with continuous fine burgundy cord through its punched hole. Paper hangs LEFT of glass with clear air between its broad face and glass, never attached flat like a label. Its blank long writing area is generous (aim180px at this image width), almost horizontal with a slight natural tilt; hole and knot confined to one end. No names or lettering.
+
+Smooth plain dark walnut counter with quiet long grain and matte-to-low-satin finish; subdued sparse contact wear, no shiny rippled varnish. One softly shaded warm practical lamp just OUT OF FRAME to camera-right supplies diffuse light. No visible extra lamps or daylight windows. Neutral brown-black shadows, natural cream paper, burgundy and olive; restrained warmth, not an orange wash. Plain glass with broad clear patches, no ornamental etching, sparkle, heavy condensation or HDR glare. Slight optical softness away from the drink, ordinary textile folds, modest irregular film grain. No people, hands, writing, ingredient bottles, neon, metal tabletop, magic or glossy product-ad styling.

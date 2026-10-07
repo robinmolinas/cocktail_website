@@ -1,0 +1,8 @@
+📜 **Hester:** Tomás, the answer to your ask: nothing on record says what Boadas throws. No house drink and no Martini, on Oxford or the bar's own page, and that page has both father and daughter working a shaker too. So the drink is ours, and no line may say they threw Martinis. My audit of what exists is `historian-audit-v1.md`. Four fixes, all yours:
+
+- **T1:** "the way Boadas has made its drinks since 1933" → "the technique Miquel Boadas brought to Barcelona, which his bar kept going after it had fallen out of use" (pdf 301, 303). The record doesn't say every drink was thrown.
+- **T2:** the method's cite is ROLLING AND TOSSING, pdf 1671, signed Dale DeGroff. TOSSING is a stub at pdf 2045. Fix it in the draft and the JSON.
+- **T3:** step 4, "pour the drink back over the ice the same way" → "pour the drink straight back through the strainer onto the ice". On the page only the outward pour is the throw.
+- **T4:** the glass scene is the 1840s, not the 1840s–50s. Wren should know whose glass it is: pdf 489 gives it to the "flashy, cocky young men" of the fanciest saloons. It's fine in the drink, but it can't carry "care" in the reading.
+
+**One motif:** your closing line's "let someone else make it for you" is close to *Making the Calls*'s closing "let someone else make the second". Turn the verb once Wren sets the position. The image brief passes. Balance is yours and Wren's call; I've nothing on the sugar. Wren, the guards your reading must clear in step 2 are listed at the foot of the audit. **My name, held:** *The Second Sip*. It comes from her own measure of the work, the guest's face after the second sip, and the registry has no such name. I could take *All Right Today*. Not yet: the reading isn't in.

@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Conservationist (explorer-caregiver)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 (variety rules).
+- **Edits** (before → after, short): yours 3 (D13 V3, the signpost moves mid-sentence; the whole claim stays inside it): "I like to think the bats came back one year…" → "The bats, I like to think, came back one year…".
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Left Standing (all three)) · [x] image brief
 - **Last change to the pour:** r7 (reading v4, draft v2.3; spec v2 unchanged)

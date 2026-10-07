@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Revolutionary (ruler-outlaw)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D1 (Peychaud's row ruled none): `contains` → `[]`, `veto_free: true`; Checks › Allergens records the ruling; the Open item is marked resolved; `allergens.py` gives `[]`.
+- **Edits** (before → after, short): frontmatter/contains: `["nuts"]` → `[]`. No guest text changed.
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Toby Maloney and The Violet Hour (Wren r3)) · [x] drink + four checks (v2.1, balanced) · [x] reading (v3) · [x] fact audit (v3) · [x] resonance test (v3, in the reading) · [x] names (≥3 + pick) (Had to Be Serious, all three r5) · [x] image brief (draft v2.1)
 - **Last change to the pour:** r5

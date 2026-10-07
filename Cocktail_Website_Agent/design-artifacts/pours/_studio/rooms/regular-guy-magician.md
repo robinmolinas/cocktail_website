@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Mechanic (regular-guy-magician)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine item and D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): yours 5 (Q143): "So, when you're next asked round…" → "Next time you're asked round…"; whoYouAre ¶2 (V1, fear turn): "What gets to you isn't something breaking. It's the shrug…" → "What gets to you is the shrug…"; whoYouAre ¶2 (V2, announcement): "So it deserves saying plainly: when you mend something…" → "When you mend something…".
+- **Left for Robin:** tagline (Q091) unchanged per D11.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (okolehao, pots off the ships (Hester r2, ruled Wren r1)) · [x] drink + four checks (spec + draft v2, mezcal, marmalade jar (Tomás r2–r3, ruled Wren r3)) · [x] reading (v1 (Wren r3)) · [x] fact audit (v2 (Hester r4): guest text clean; D1–D4 citation-only) · [x] resonance test (ready (Wren r3–r4, reading v2)) · [x] names (≥3 + pick) (Good for Years (all three, r4)) · [x] image brief (Tomás r2–r3)
 - **Last change to the pour:** r5 (citation-only: D1–D4, dossier; guest text unchanged since r4)

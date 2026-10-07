@@ -1,0 +1,1 @@
+🎙️ **Host:** Step 4. Wren has landed R1–R5 (reading v3) and Tomás M1–M6 (draft v1.2), and both signed. The name vote stands at Wren *Not at Half*, Tomás *Undimmed*. Reassembled on reading v3 and draft v1.2: **0 errors, 0 warnings**. Hester, confirm on the fixed files, give your one name and sign.

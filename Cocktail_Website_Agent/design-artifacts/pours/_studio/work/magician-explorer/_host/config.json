@@ -1,0 +1,26 @@
+{
+ "pairing": "magician-explorer",
+ "personality": "The Alchemist",
+ "archetypes": "Magician × Explorer",
+ "date": "2026-10-04",
+ "batch": "magician",
+ "name": "One More Adjustment",
+ "tagline": "Nothing is ever only what it is. Not to you.",
+ "epigraph": "The still behind this whisky was first built of wood and iron.",
+ "glassware": "coupe, chilled",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "aeneas-coffey.md",
+ "language_row": "Wren's Resonance (v3) and 4-gram check: every paragraph and the epigraph are clean against all pours and the registry; \"I\" only (r4's \"we can't say\" became \"I couldn't say\" via B3 and a lint-only fix); no \"yours\" for the drink; no archetype names. Every he/his in y1–y4 is Coffey, accepted by Wren (r5). Echoes moved off: *regular-guy-innocent*'s \"it's worth more than\", *caregiver-magician*'s \"I can't tell you\". Fences kept: no \"not whisky at all\" or 1908 (*ruler-sage*), no grain hidden inside blends (*regular-guy-creator*), no point of no return acted out in the glass (*Nothing to It*). History about 138 of 370 words. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/aeneas-coffey.md` (F1–F15, C1–C4, R1–R3, G1–G2): *Oxford Companion to Spirits and Cocktails* COFFEY, AENEAS pdf 541–542, COFFEY STILL pdf 543, EXCISE pdf 752, RECTIFIER pdf 1618, STILL, CONTINUOUS pdf 1901, CELLIER-BLUMENTHAL pdf 419, SCOTCH WHISKY pdf 2169, IRISH WHISKEY pdf 2153, WHISKY, GRAIN pdf 2149, WHEAT pdf 2129, MASH BILL pdf 1256, PERCOLATION pdf 1495; Mary Mulvihill, *Irish Times*, 26 Feb 2004 (secondary). Craft: *Cocktail Codex* pp. 65, 72 (Martini root, blanc vermouth); *Liquid Intelligence* pdf 129–130, 140–141 and p. 75 (stirred balance, vermouth values, dilution); *Flavor Matrix* GRAINS pdf 136, CORN pdf 88 (consulted; apple kept on its own merit, never tied to the grain). Audits: `work/magician-explorer/historian-audit-v1.md`, `-v2.md`. Room notes: `work/magician-explorer/`.",
+ "names_note": "**One More Adjustment**, the room's pick (all three, r5): the person's habit, the one more change before letting it go, and the closing line's stirring. Wren held *In Copper* until step 3, then moved off it because it repeats the reading's landing words (\"The copper.\"). Also considered: *In Copper*, *Out of the Wood* (Hester), *Already Ready*, *Out of the Column*, *Past the Last Try*.",
+ "open_items": [
+  "**No year for the patent:** Oxford gives 1828, 1830 and 1831 (C1); the reading says only that he left the excise in 1824, \"years before any patent\". The inspector-general year (1819 vs 1816) and \"resigned\" stay out too (C2, C3).",
+  "**The still was better, never the whisky:** Oxford's \"better\" is the still's (simpler, sturdier, cheaper to heat, purer spirit); its grain spirit was \"purer (and thus blander)\" (pdf 2169). The scorn is the 1878 Dublin firms' line only, dated, and Ireland held out (pdf 2153): the reading never says the doubters came round.",
+  "**Wood and iron as \"where he could still change his mind\"** is Wren's reading, signposted (\"I couldn't say why… I like to think\"): no reason for the materials is on the page (R2), and the prototype is undated (F4).",
+  "**Apple stands on its own merit:** no page names the grain Coffey's still ran on, and Scotch grain whisky is maize or wheat by bottle (F13–F14), so the calvados is never tied to the grain. Tomás's pairing of apple brandy with light grain whisky is his craft call, unsourced.",
+  "**Never Nikka's Coffey Grain** (family plan); single grain Scotch is a style, no brand. Balance is proved on Dolin Blanc's values and a 40% grain; a much sweeter blanc would push sugar toward the top of the band (unswept). New ingredient rows: `scotch_single_grain`, `scotch_single_grain_46`, `calvados` (no allergens).",
+  "**No committing step in the glass:** the point of no return is *Nothing to It*'s; the closing line's stirring (\"every turn after that adds water\", LI p. 75) makes nothing irreversible."
+ ]
+}

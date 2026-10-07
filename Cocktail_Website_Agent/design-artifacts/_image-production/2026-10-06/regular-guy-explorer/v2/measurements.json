@@ -1,0 +1,97 @@
+{
+  "pairing": "regular-guy-explorer",
+  "pour": "Loose on Top",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-explorer/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-f262522c-acb4-46c4-8b4b-2bcbab208f18.png",
+  "sourceSha256": "2805641f663321f63dc01309a59550fac8fc121318cbf0c5990dcdd6e5b0ce6c",
+  "specSha256": "8927620091dfdfbf2e27433c9b07d48a3bd75df08fdab65b365c575d07bba8ef",
+  "masterSha256": "85195cc9e7580e62a8042ceba88f54fec86032f19ff7215ce4fb8f015d6b1733",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    739,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1238,
+    "cy": 612,
+    "w": 142,
+    "angle": 11.2
+  },
+  "glass": {
+    "x": 1101,
+    "y": 407
+  },
+  "bounds": {
+    "glass": {
+      "x0": 989,
+      "y0": 312,
+      "x1": 1220,
+      "y1": 671
+    },
+    "paper": {
+      "x0": 1133,
+      "y0": 555,
+      "x1": 1315,
+      "y1": 666
+    },
+    "garnish": {
+      "x0": 1128,
+      "y0": 284,
+      "x1": 1265,
+      "y1": 404
+    }
+  },
+  "personalityBounds": {
+    "cashPouchAndCoins": {
+      "x0": 826,
+      "y0": 436,
+      "x1": 1061,
+      "y1": 617
+    },
+    "foldedApronIncludingTies": {
+      "x0": 807,
+      "y0": 391,
+      "x1": 1368,
+      "y1": 604
+    }
+  },
+  "recognitionRegions": {
+    "pouchOpeningCoinsAndClosure": {
+      "x0": 832,
+      "y0": 436,
+      "x1": 1055,
+      "y1": 615
+    },
+    "apronFoldedBibAndTies": {
+      "x0": 897,
+      "y0": 391,
+      "x1": 1352,
+      "y1": 595
+    }
+  },
+  "measurementNotes": "Original-resolution visual bounds, about 3–8 px uncertainty. Glass 359 px high (387 including peel), above 280–340 target. Full glass/tag/garnish union 326 px; essential full traces union 561 px; recognizable group 523 px. Proposed 702×940 portrait contains full visible essential group, but moving phone cannot retain it. Tag visible string/hole and physical separation; usable 142 px, below requested 170–200. No geometry/focal tricks; actual JPEG/browser not tested.",
+  "review": {
+    "recipe": "One chilled fine stemmed cocktail glass with pale cloudy yellow-green/white Margarita, thin shake froth, no salt/serving ice; wide grapefruit peel rests on rim. Bowl is coupe-like rather than angular classic cocktail glass; generic current glass spec allows cocktail glass, but old brief's classic profile needs independent judgment. Light makes liquid more yellow than green-white.",
+    "personality": "Recognizable open canvas cash pouch/coins and folded olive work apron/ties, explicit visual inferences from own stall/self-pay/handover. Correction overlaps traces, but full apron and recognition group remain too wide for moving phone.",
+    "world": "Historic near-black timber bar, one practical and cream paper. Glass has broad clear patches with limited nonuniform drops, better than filigree examples. Counter still glossy amber with raised-looking grain/surface marks rather than flat satin neutral walnut; material hold remains.",
+    "issues": [
+      "Full essential group 561 px / recognition 523 px; moving-phone composition hold",
+      "Usable tag 142 px below 170–200 target",
+      "Glass 359 px high above target; 387 px with peel",
+      "Amber glossy patterned timber remains material hold",
+      "Coupe-like cocktail glass and yellowish exposure require independent physical appearance judgment",
+      "Actual JPEG/name/browser/motion deferred; not accepted"
+    ]
+  }
+}

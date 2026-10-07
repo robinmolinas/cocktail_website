@@ -1,0 +1,15 @@
+- **The persona:** the Wise Talker stays funny through a long hardship, as a refusal: the joke is aimed at the hardship, for the people around them. They hide that it all gets to them, and fear the morning nothing comes (Wren, round 1).
+- **The story:** the family plan had no lead (Johnny White's fell at Wren's review), so the room hunted. Tomás found it in *Imbibe!*: the 1843 mezcal egg-nog at Perote prison. Hester read Green's own 1845 journal, corrected *Imbibe!* (the ingredients were bought, not smuggled in gut tubes; no count of men), and reframed the story around Trimble, whose owl-hoot at a departing captain's back made him "not know whether to laugh or swear". Wren ruled on Hester's framing in round 3. Runner-up: none; Hester found no backup that passes Wren's test on its own.
+- **The drink:** a single-serve mezcal eggnog: joven mezcal, one whole egg, whole milk standing in for their donkey's milk, rich syrup for their loaf of sugar, shaken loud, no nutmeg because their list had none. Half the eggshell holds a spoon of mezcal for whoever's on watch (Green p. 316). Small earthenware cup. **Contains egg and dairy** (accepted by Wren). Strength at the band's edge; acid out by design.
+- **What failed and why:**
+  - Reading v1 had "he"/"himself" and a motif overlap with *outlaw-regular-guy* ("more than you'd guess"); the overlap was reworded, and the pronouns (Trimble, the captain) were accepted.
+  - Wren's first ending and gift matched *Who's In?*, and she cut them herself; "looks a size smaller" and "I hope you get to hear it" were cut as other siblings' frames.
+  - Hester struck "cooking pots" (the epigraph became "water jars"), the 1788 date sitting on the prisoners' nog (R1–R2), and a closing line ("Shake it loud…") that merged the captain with the sentinel.
+  - The closing line crossed in the last round: Wren backed the withdrawn line as Tomás changed the last clause. Tomás ruled on *…show up all the same*, and Wren re-signed on it.
+- **"This is me":** "People say nothing gets to you. It all gets to you. You've just decided it doesn't get the last word."
+- **Names:** *The Wink*, by 2–1 (Wren, Hester); Tomás voted *Laugh or Swear*. Also considered: *Tecolote*, *Head Turned*, *Still Funny*.
+- **Edges:**
+  - The story's setting is hard: a Texian raiding force's San Jacinto celebration, four weeks after seventeen of them were shot at Salado, with toasts that include an ethnic insult. None of it is in guest text, and Green isn't named, but Robin may want to judge the story itself.
+  - Raw egg (food-safety note in the method).
+  - Not veto-free.
+- **Rule candidates:** none raised.

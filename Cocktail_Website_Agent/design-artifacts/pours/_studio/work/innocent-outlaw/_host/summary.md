@@ -1,0 +1,7 @@
+- **The person:** the Outsider, who chose a small life on purpose, and it's the most deliberate thing about them (Wren r1). The fear is being pulled back in by kindness, not by force.
+- **Story:** Thoreau's "Wild Apples" (the sharp wild apple that tastes right only out in the November air, eaten in the field) with Emerson's sketch of him, and the Stone Fence, rum and hard cider the older way, before Jerry Thomas's 1862 book made it with sweet cider. The plan's lead, accepted by Wren in round 1 with conditions; no runner-up was needed.
+- **Versions that failed:** none in the glass: drink v1 (aged rum, dry still cider 3:8, no sugar, a raw sharp apple slice cut last) held through the room. The reading went to v3: Hester's audit v2 struck the shorthand that Thoreau "brought his companion out" (nothing on the page says so) and quoted eight wording fixes, landed in step 3. The epigraph was re-dated around the 1862 book.
+- **This is me:** *"They mean it kindly, which is why you don't argue."*
+- **Names:** *Fresh Air* (Wren), *The Right Size* (Tomás), *In Its Own Air* (Hester), *Plenty*, *Out of Doors*, *Food for Walkers*, *To Be Eaten in the Wind*. Pick: *Fresh Air*, unanimous. Tomás dropped *The Right Size* because Emerson wrote that to Thoreau "there was no such thing as size".
+- **Edges:** the Stone Fence's base is contested (Oxford: rum, then whisky; no 1750 recipe on any page), so the pour says "the older way", never "the original". The 3:8 proportion is Tomás's, owned. Veto-free.
+- **Rule candidates:** none.

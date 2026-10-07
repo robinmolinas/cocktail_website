@@ -1,0 +1,433 @@
+{
+  "pairing": "lover-regular-guy",
+  "pour": "Any Day",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "d82beb0761a6a62567eb5ade4d83638c805102a63a8f413c7673659f57502d58",
+  "review": {
+    "recipe": "Heavy plain rocks glass; one ordinary cloudy broad-faced rounded freezer cube; hazy amber bourbon/lemon/light-honey sour with only thin fine honey bubble ring, no thick foam, egg or garnish. Settled 60/22.5/15 ml 3:1 syrup formula unchanged. Visible colour is somewhat warm rather than very pale.",
+    "personality": "Real glove fingers and adjustable jaw/worm-wheel wrench remain readable and compacted behind glass, but whole trace cluster is 444 px, wider than about 389 px moving-phone cover. Whole glass+paper+honest trace recognition union remains 437 px; no anonymous fragment substituted.",
+    "world": "Dark walnut room, single right practical lamp, quiet left. Ordinary cloudy ice and simple glass avoid etched-ropy motifs; long-grain wood has a broad warm reflective area and leather is heavily distressed. Candid material watch remains.",
+    "issues": [
+      "Whole bounds union x873–1317 is 444 px, exceeding roughly 434 px static 390×844 cover and about 389 px breathing crop.",
+      "Recognition union x873–1310 is 437 px; both glove and entire glass cannot be guaranteed in moving-phone cover.",
+      "Phone retention/browser/name-overlay not verified; browser review deferred by user.",
+      "Warm broad table reflection and glove microtexture may still be too glossy/busy for final material gate."
+    ]
+  },
+  "measurements": {
+    "pairing": "lover-regular-guy",
+    "pour": "Any Day",
+    "sourceSha256": "d82beb0761a6a62567eb5ade4d83638c805102a63a8f413c7673659f57502d58",
+    "wideCrop": [
+      0,
+      0,
+      1670,
+      940
+    ],
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-regular-guy/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-37b1db96-248d-44b0-bd87-e4c23414ccae.png",
+    "masterDimensions": [
+      1670,
+      941
+    ],
+    "masterSha256": "b696d5b9013a098e5319ae10fdd4fb17a4d2a9b2b31b6855cd7516d02d38ff74",
+    "portraitCrop": [
+      760,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1069,
+      "cy": 521,
+      "w": 136,
+      "angle": -1.5
+    },
+    "glass": {
+      "x": 991,
+      "y": 483
+    },
+    "bounds": {
+      "glass": {
+        "x0": 873,
+        "y0": 337,
+        "x1": 1110,
+        "y1": 629
+      },
+      "paper": {
+        "x0": 968,
+        "y0": 485,
+        "x1": 1149,
+        "y1": 555
+      },
+      "workGlove": {
+        "x0": 1098,
+        "y0": 385,
+        "x1": 1317,
+        "y1": 616
+      },
+      "adjustableWrench": {
+        "x0": 1098,
+        "y0": 415,
+        "x1": 1257,
+        "y1": 512
+      }
+    },
+    "recognitionRegions": {
+      "workGlove": {
+        "bounds": {
+          "x0": 1104,
+          "y0": 388,
+          "x1": 1310,
+          "y1": 611
+        },
+        "reason": "Glove crown/palm and clearly attached bent thumb/two finger shapes; retaining only a left leather sliver is not glove recognition."
+      },
+      "adjustableWrench": {
+        "bounds": {
+          "x0": 1110,
+          "y0": 426,
+          "x1": 1255,
+          "y1": 512
+        },
+        "reason": "Fixed jaw, adjustable moving jaw and actual worm wheel attached to the neck; short handle extends behind glass."
+      }
+    },
+    "review": {
+      "recipe": "Heavy plain rocks glass; one ordinary cloudy broad-faced rounded freezer cube; hazy amber bourbon/lemon/light-honey sour with only thin fine honey bubble ring, no thick foam, egg or garnish. Settled 60/22.5/15 ml 3:1 syrup formula unchanged. Visible colour is somewhat warm rather than very pale.",
+      "personality": "Real glove fingers and adjustable jaw/worm-wheel wrench remain readable and compacted behind glass, but whole trace cluster is 444 px, wider than about 389 px moving-phone cover. Whole glass+paper+honest trace recognition union remains 437 px; no anonymous fragment substituted.",
+      "world": "Dark walnut room, single right practical lamp, quiet left. Ordinary cloudy ice and simple glass avoid etched-ropy motifs; long-grain wood has a broad warm reflective area and leather is heavily distressed. Candid material watch remains.",
+      "issues": [
+        "Whole bounds union x873–1317 is 444 px, exceeding roughly 434 px static 390×844 cover and about 389 px breathing crop.",
+        "Recognition union x873–1310 is 437 px; both glove and entire glass cannot be guaranteed in moving-phone cover.",
+        "Phone retention/browser/name-overlay not verified; browser review deferred by user.",
+        "Warm broad table reflection and glove microtexture may still be too glossy/busy for final material gate."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1229.0299401197606,
+        "cy": 598.5957446808511,
+        "w": 156.35928143712576,
+        "angle": -1.4990031147688179
+      },
+      "glass": {
+        "x": 1139.3532934131738,
+        "y": 554.936170212766
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 394.39316239316236,
+        "cy": 665.1063829787234,
+        "w": 173.58404558404558,
+        "angle": -1.5002848241849482
+      },
+      "glass": {
+        "x": 294.8376068376068,
+        "y": 616.5957446808511
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/lover-regular-guy/portrait.jpg",
+    "wide": "/personas/lover-regular-guy/wide.jpg",
+    "wideTag": {
+      "cx": 0.640119760479042,
+      "cy": 0.5542553191489362,
+      "w": 0.081437125748503,
+      "angle": -1.4990031147688179
+    },
+    "wideGlass": {
+      "x": 0.5934131736526946,
+      "y": 0.5138297872340426
+    },
+    "tag": {
+      "cx": 0.44017094017094016,
+      "cy": 0.5542553191489362,
+      "w": 0.19373219373219372,
+      "angle": -1.5002848241849482
+    },
+    "glass": {
+      "x": 0.32905982905982906,
+      "y": 0.5138297872340426
+    }
+  },
+  "hashes": {
+    "master": "b696d5b9013a098e5319ae10fdd4fb17a4d2a9b2b31b6855cd7516d02d38ff74",
+    "wide": "94dad1d7e46006f3bb4217bb76e115700495486b4dd251836327b3f4d76bc9ca",
+    "portrait": "85676d023d8b12cd7dae0e5decf9f46af9a4000b24975179d7f1ad0b933ae1bb"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1003.6886227544911,
+          "y0": 387.1914893617021,
+          "x1": 1276.1676646706587,
+          "y1": 722.6808510638298
+        },
+        "paper": {
+          "x0": 1112.9101796407185,
+          "y0": 557.2340425531914,
+          "x1": 1321.005988023952,
+          "y1": 637.6595744680851
+        },
+        "workGlove": {
+          "x0": 1262.3712574850301,
+          "y0": 442.3404255319149,
+          "x1": 1514.1556886227545,
+          "y1": 707.7446808510638
+        },
+        "adjustableWrench": {
+          "x0": 1262.3712574850301,
+          "y0": 476.8085106382979,
+          "x1": 1445.1736526946108,
+          "y1": 588.2553191489362
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 756.4071856287426,
+          "y0": 322.6595744680851,
+          "x1": 983.4730538922156,
+          "y1": 602.2340425531914
+        },
+        "paper": {
+          "x0": 847.4251497005988,
+          "y0": 464.36170212765956,
+          "x1": 1020.8383233532934,
+          "y1": 531.3829787234043
+        },
+        "workGlove": {
+          "x0": 971.9760479041918,
+          "y0": 368.6170212765958,
+          "x1": 1181.7964071856286,
+          "y1": 589.7872340425531
+        },
+        "adjustableWrench": {
+          "x0": 971.9760479041918,
+          "y0": 397.3404255319149,
+          "x1": 1124.311377245509,
+          "y1": 490.21276595744683
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1070.6011976047905,
+          "y0": 359.6442553191489,
+          "x1": 1361.245508982036,
+          "y1": 717.4995744680851
+        },
+        "paper": {
+          "x0": 1187.1041916167665,
+          "y0": 541.0229787234042,
+          "x1": 1409.0730538922155,
+          "y1": 626.8102127659575
+        },
+        "workGlove": {
+          "x0": 1346.5293413173654,
+          "y0": 418.46978723404254,
+          "x1": 1615.0994011976047,
+          "y1": 701.567659574468
+        },
+        "adjustableWrench": {
+          "x0": 1346.5293413173654,
+          "y0": 455.23574468085104,
+          "x1": 1541.5185628742515,
+          "y1": 574.1123404255319
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1798.2754491017965,
+          "y0": 466.01808510638296,
+          "x1": 2286.4670658682635,
+          "y1": 1067.1031914893617
+        },
+        "paper": {
+          "x0": 1993.9640718562873,
+          "y0": 770.6776595744681,
+          "x1": 2366.802395209581,
+          "y1": 914.7734042553193
+        },
+        "workGlove": {
+          "x0": 2261.748502994012,
+          "y0": 564.8265957446808,
+          "x1": 2712.8622754491016,
+          "y1": 1040.3425531914893
+        },
+        "adjustableWrench": {
+          "x0": 2261.748502994012,
+          "y0": 626.581914893617,
+          "x1": 2589.2694610778444,
+          "y1": 826.2574468085106
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.32905982905982906,
+        "y": 0.5138297872340426
+      },
+      "bounds": {
+        "glass": {
+          "x0": 22.404520417853746,
+          "y0": 302.58297872340427,
+          "x1": 235.1598480531814,
+          "y1": 564.7617021276595
+        },
+        "paper": {
+          "x0": 107.6861918328585,
+          "y0": 435.468085106383,
+          "x1": 270.1702184235518,
+          "y1": 498.3191489361703
+        },
+        "workGlove": {
+          "x0": 224.38742640075975,
+          "y0": 345.6808510638298,
+          "x1": 420.98412155745496,
+          "y1": 553.0893617021276
+        },
+        "adjustableWrench": {
+          "x0": 224.38742640075975,
+          "y0": 372.6170212765957,
+          "x1": 367.1220132953467,
+          "y1": 459.7106382978723
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.32905982905982906,
+        "y": 0.5138297872340426
+      },
+      "bounds": {
+        "glass": {
+          "x0": 24.522203228869913,
+          "y0": 334.131914893617,
+          "x1": 259.4605508072175,
+          "y1": 623.6468085106384
+        },
+        "paper": {
+          "x0": 118.69580246913578,
+          "y0": 480.8723404255319,
+          "x1": 298.1212915479582,
+          "y1": 550.2765957446809
+        },
+        "workGlove": {
+          "x0": 247.56493827160494,
+          "y0": 381.72340425531917,
+          "x1": 464.65986704653375,
+          "y1": 610.7574468085106
+        },
+        "adjustableWrench": {
+          "x0": 247.56493827160494,
+          "y0": 411.468085106383,
+          "x1": 405.18180436847103,
+          "y1": 507.64255319148936
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.32905982905982906,
+        "y": 0.5138297872340426
+      },
+      "bounds": {
+        "glass": {
+          "x0": 34.010560303893634,
+          "y0": 203.63404255319148,
+          "x1": 177.1918708452042,
+          "y1": 380.07659574468084
+        },
+        "paper": {
+          "x0": 91.4039126305793,
+          "y0": 293.06382978723406,
+          "x1": 200.75335232668567,
+          "y1": 335.3617021276596
+        },
+        "workGlove": {
+          "x0": 169.94218423551757,
+          "y0": 232.63829787234042,
+          "x1": 302.24896486229824,
+          "y1": 372.22127659574465
+        },
+        "adjustableWrench": {
+          "x0": 169.94218423551757,
+          "y0": 250.7659574468085,
+          "x1": 266.00053181386517,
+          "y1": 309.3787234042553
+        }
+      }
+    }
+  ]
+}

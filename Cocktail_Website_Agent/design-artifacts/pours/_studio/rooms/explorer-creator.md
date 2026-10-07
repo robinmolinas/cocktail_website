@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Innovator (explorer-creator)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D11 (his "yes" on the 2026-10-02 tagline, and "no means accept the current line" elsewhere: *For Good* is the one tagline that changes); routine P1s ("Apply the routine P1s": Q002); D13 (variety rules).
+- **Edits** (before → after, short): tagline (D11, Robin's yes): "Nobody remembers the problem. That's how you know you fixed it." → "You don't mind losing a weekend if nobody loses ten minutes again." (recorded in the dossier's title-block notes). whoYouAre ¶1 (Q048, the companion fix so the guest doesn't read the weekend twice): "You'll happily spend a weekend on something so you never have to spend ten minutes on it again. Somewhere in your life there's the proof: a thing that used to jam, drip or stick, until one afternoon you'd had enough of it." → "Somewhere in your life there's the proof of how you work: a thing that used to jam, drip or stick, until one afternoon you'd had enough of it. You took it apart there and then, and it hasn't jammed since." method 4 (Q002, P1: no double lime): "Squeeze 75 ml of lime juice." → "Squeeze 75 ml of lime juice, unless it's already in the bag from step 3." yours 3 (D13 V3): "I like to think the complaints bothered him long before any machine did." → "The complaints bothered him long before any machine did, I like to think."
+- **Left for Robin:** Q107 y4 "the book I took the method from" → "the freezer method I use was worked out to copy…" (Hester to confirm the paraphrase of *LI* pp. 141–142). Wren's resonance punch check on the new whoYouAre opening is still worth a look (the room's "line that lands" was the weekend line, now in the tagline).
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex Margarita (p. 166: 18.6% / 5.97 g / 0.76% shaken; the Codex prints no frozen one, p. 103). Nothing else changed.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (For Good (all three)) · [x] image brief
 - **Last change to the pour:** r7 (draft v1.2 closing line ruled in; vanilla source-note tidy; reading v3 and spec v1 unchanged)

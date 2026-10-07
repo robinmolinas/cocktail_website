@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Fugitive (outlaw-lover)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): whoYouAre ¶2 (V1, strict frame): "And the road running out has never scared you. Being parked does: someone else deciding…" → "Being parked is the real fear: someone else deciding…"; whoYouAre ¶3 (V2, announcement + rarity stamp): "And here's what that wildness gives whoever you choose: they don't have to guess. … Not many people can give that." → "And whoever you choose never has to guess. … what they'd leave for theirs."; yours 5 (V4): cut the preamble "So my proposal is this."
+- **Left for Robin:** tagline (Q086) unchanged per D11.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Stevenson and Fanny, Silverado 1880 → Vailima (Silverado Squatters; Sanchez 1920; Colvin); Wren ruled r3) · [x] drink + four checks (spec v1.2, wine only, highball, balanced (strength EDGE 9.4%, room's choice), veto-free) · [x] reading (v3) · [x] fact audit (Hester PASS, historian-audit-v2.md + N1–N2 re-checked) · [x] resonance test (Wren: ready on v2 and v3) · [x] names (≥3 + pick) (Rent-Free (all three)) · [x] image brief (Tomás r3, matched r5)
 - **Last change to the pour:** r5 (step 3: N1–N2, dossier only)

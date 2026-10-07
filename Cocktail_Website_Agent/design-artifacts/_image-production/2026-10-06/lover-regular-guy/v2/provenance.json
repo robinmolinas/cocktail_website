@@ -1,0 +1,24 @@
+{
+  "pairing": "lover-regular-guy",
+  "pour": "Any Day",
+  "version": "v2",
+  "generatedWith": "built-in image_gen",
+  "callRole": "single targeted recomposition edit",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-37b1db96-248d-44b0-bd87-e4c23414ccae.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-regular-guy/v2/master.png",
+  "masterSha256": "b696d5b9013a098e5319ae10fdd4fb17a4d2a9b2b31b6855cd7516d02d38ff74",
+  "masterDimensions": [
+    1670,
+    941
+  ],
+  "pourDossier": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/lover-regular-guy.md",
+  "sourceSha256": "d82beb0761a6a62567eb5ade4d83638c805102a63a8f413c7673659f57502d58",
+  "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-regular-guy.json",
+  "referenceInputs": [
+    "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-regular-guy/v1/master.png"
+  ],
+  "exported": false,
+  "integrated": false,
+  "status": "produced private candidate; not accepted",
+  "measurementMethod": "Manual original-detail visual bounding boxes in actual master pixels; conservative object edges, approximately 2–4 px reading tolerance."
+}

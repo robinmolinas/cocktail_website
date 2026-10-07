@@ -1,0 +1,5 @@
+# Root receipt — Can't Watch
+
+2026-10-07. Inspected actual v2 PNG at original detail. HELD candidate, not accepted. Rounded small Nick & Nora, clear reddish-amber still drink, internal orange strip and no ice/foam are visible. Plain separate hanging cream tag through cord/hole looks physically plausible. Glass is cleaner and less speckled than some other batch candidates; do not extrapolate physical appearance to approval.
+
+Folded newspaper and full sharpened wooden pencil suggest practical investigation/workaround as an inference; they are less specific than literal biography. Visible small pseudo-newspaper print remains a lettering/texture risk despite inward-fold intent. Warm thick reflective patterned tabletop and bright right window competing with lamp remain material/world holds/watch. Agent measures full and recognisable trace regions separately; no anonymous strips count as retention. One focused correction exhausted; no JPEGs, actual-name/phone/motion/browser acceptance or public integration. Current dimensions and crop metrics belong to the accompanying measurement receipt.

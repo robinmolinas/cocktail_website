@@ -1,0 +1,23 @@
+# Fact audit v1: innocent-ruler (The Little Prince), Hester r3 (2026-10-04)
+
+Audited as they stand: `mixologist-draft.md` (lead paragraph, Recipe, Method, closingLine, Checks, Image brief, Names) and `_studio/specs/innocent-ruler.json` v1, against card `fact-cards/boadas-maria-dolors-throw.md` (F1–F17) and `historian-anchors.md`. Pages re-opened in this call: Oxford pdf 489, 1671–1672 (author line), 301, 303; *Codex* pp. 61, 65, 230 (printed); LI p. 75. The reading (Wren's v1) isn't in yet: it's audited in round 4, step 2.
+
+Answer to Tomás: **nothing on record says what Boadas throws** (card, "Not found"). Neither Oxford nor the bar's page names a house drink or a Martini; the bar page has both Miquel and Maria Dolors working a shaker. So the drink is ours, and no line may say Boadas throws Martinis. Library gap for Robin: *Los cóctels del Boadas Cocktail Bar* (1990).
+
+| id | where | claim as written | verdict | fix (old → new) |
+|---|---|---|---|---|
+| T1 | draft lead | "the way Boadas has made its drinks since 1933" | **FAIL.** Oxford says Miquel and today's team throw their drinks (pdf 303), not that every drink since 1933 was thrown; the bar page has both him and her "rattling the cocktail shaker" (F10). | "the way Boadas has made its drinks since 1933" → "the technique Miquel Boadas brought to Barcelona, which his bar kept going after it had fallen out of use" (pdf 301, 303) |
+| T2 | Checks, gesture; spec version | "Oxford TOSSING, pdf 1671 (DeGroff)" | **FIX cite.** TOSSING is a stub at pdf 2045; the method is in ROLLING AND TOSSING, pdf 1671–1672, signed Dale DeGroff. Quotes ("four or five times") correct. | "Oxford TOSSING, pdf 1671" → "Oxford ROLLING AND TOSSING, pdf 1671 (Dale DeGroff)", in the draft and the spec JSON |
+| T3 | Method step 4 | "pour the drink back over the ice the same way" | **FIX.** On pdf 1671 the throw is one way; the return is the two tins brought together and poured back through the strainer. "The same way" makes it a second throw. | "Bring the tins back together and pour the drink back over the ice the same way." → "Bring the tins close together again and pour the drink straight back through the strainer onto the ice." |
+| T4 | Checks, glass and peel | "The thrown Cocktail of the 1840s-50s" | **FIX.** pdf 489 dates the scene "By then" after 1843–44: the 1840s. No 1850s on the page. Also on record: these were the "flashy, cocky young men" of the "fanciest saloons", pouring back and forth "between glasses". The glass is the show-throwers' glass, so it carries no "care" meaning; Wren, keep that scene out of the reading or tell it as theirs. | "1840s-50s" → "1840s" |
+| T5 | draft lead | "Served small … as the thrown cocktails of the 1840s were" | PASS (pdf 489: small wine or champagne glass, peel dropped in). Our departure (no rubbed rim) is owned in Checks. | — |
+| T6 | Checks, measured | "Boadas's bartenders 'shun jiggers'" | PASS for today's team and Miquel (pdf 303). Guard for the reading: never pinned on Maria Dolors by name (F16). | — |
+| T7 | Checks, structure | *Codex* p. 65 quote; p. 61 2:1, rubbed oils "linger … and overwhelm" | PASS (printed pp. 61, 65, read this call). | — |
+| T8 | Checks, balance | Arnold LI p. 75: 60 ml gin, 10–14 ml dry vermouth | PASS (Dolin dry "or your favorite", printed p. 75). | — |
+| T9 | Checks / step 1 | vermouth fresh, in the fridge (*Codex* p. 61 "deteriorates just like wine"; p. 230 refrigerate) | PASS. p. 230 is chilling advice in the carbonation chapter, not storage; the "fresh" claim stands on p. 61 alone. | — |
+| T10 | Checks, gesture | "a little air … slightly lighter than stirred, not cloudy" | PASS as labelled: Tomás's craft call, "no page measures this". Keep it out of the reading as fact. | — |
+| T11 | closingLine | "One evening, let someone else make it for you" | PASS on facts. **Motif:** *Making the Calls* (creator-ruler) closes "let someone else make the second". Tomás, turn the verb. | Tomás's call; e.g. "let someone else make it for you" → "hand someone the tins" (check it against the reading) |
+| T12 | Image brief | ribbon of drink between tins; no white jacket, no Cuban props | PASS. The "ribbon of liquid" is pdf 1671's own image. White jacket rightly banned (Day Job). | — |
+| T13 | Names | *All Right Today*, *In Good Hands*, *Every Day* | No facts. | — |
+
+**Standing guards for the reading (round 4, step 2):** "nearly fifty years", never "fifty" and never why it ended; "her husband" (C1); never "she alone"; "paved the way", not "brought it back"; the metres gained once, after the war; Vaquero dated "as of 2021"; the second-sip line relayed ("she told a writer"), paraphrased; no deathbed, no jacket, no Floridita, no club, no celebrities; no line saying what Boadas throws.

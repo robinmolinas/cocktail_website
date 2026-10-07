@@ -1,0 +1,375 @@
+{
+ "U uniform": {
+  "model": "U uniform",
+  "samples": 6000,
+  "distinct_outcomes": 127,
+  "never_observed": [
+   "caregiver-explorer",
+   "ruler-explorer",
+   "ruler-magician",
+   "sage-explorer",
+   "sage-magician"
+  ],
+  "top10_share": 0.194,
+  "max_share": 0.0255,
+  "expected_uniform_share": 0.0076,
+  "primary_shares": {
+   "Caregiver": 0.022,
+   "Creator": 0.041,
+   "Explorer": 0.117,
+   "Hero": 0.106,
+   "Innocent": 0.11,
+   "Jester": 0.124,
+   "Lover": 0.107,
+   "Magician": 0.12,
+   "Outlaw": 0.078,
+   "Regular Guy": 0.126,
+   "Ruler": 0.025,
+   "Sage": 0.023
+  },
+  "exact_tie_rate": 0.0,
+  "near_tie_rate_lt_0.05": 0.084,
+  "median_top1_margin": 0.3783,
+  "p25_top1_margin": 0.1594,
+  "one_answer_changes_top1": 0.519,
+  "one_answer_changes_primary": 0.309,
+  "after_one_change_top1_was_in_old_shortlist": 0.664,
+  "dropping_group_changes_top1": {
+   "drawnToward": 0.839,
+   "soughtFor": 0.746,
+   "gravity": 0.408,
+   "texture": 0.429,
+   "flavors": 0.047
+  },
+  "most_common": [
+   [
+    "regular-guy-caregiver",
+    0.0255
+   ],
+   [
+    "magician-creator",
+    0.0225
+   ],
+   [
+    "innocent-caregiver",
+    0.0222
+   ],
+   [
+    "lover-creator",
+    0.0213
+   ],
+   [
+    "innocent-sage",
+    0.0187
+   ],
+   [
+    "regular-guy-hero",
+    0.0177
+   ],
+   [
+    "jester-lover",
+    0.0168
+   ],
+   [
+    "jester-outlaw",
+    0.0167
+   ]
+  ],
+  "least_common_observed": [
+   [
+    "ruler-outlaw",
+    0.00017
+   ],
+   [
+    "caregiver-magician",
+    0.00033
+   ],
+   [
+    "sage-regular-guy",
+    0.00033
+   ],
+   [
+    "sage-lover",
+    0.0005
+   ],
+   [
+    "caregiver-outlaw",
+    0.0005
+   ],
+   [
+    "ruler-innocent",
+    0.00067
+   ],
+   [
+    "ruler-jester",
+    0.00067
+   ],
+   [
+    "innocent-explorer",
+    0.001
+   ]
+  ]
+ },
+ "H hesitant": {
+  "model": "H hesitant",
+  "samples": 6000,
+  "distinct_outcomes": 123,
+  "never_observed": [
+   "caregiver-magician",
+   "creator-explorer",
+   "ruler-explorer",
+   "ruler-innocent",
+   "ruler-magician",
+   "ruler-outlaw",
+   "sage-explorer",
+   "sage-magician",
+   "sage-outlaw"
+  ],
+  "top10_share": 0.214,
+  "max_share": 0.0248,
+  "expected_uniform_share": 0.0076,
+  "primary_shares": {
+   "Caregiver": 0.01,
+   "Creator": 0.035,
+   "Explorer": 0.114,
+   "Hero": 0.111,
+   "Innocent": 0.114,
+   "Jester": 0.162,
+   "Lover": 0.105,
+   "Magician": 0.127,
+   "Outlaw": 0.086,
+   "Regular Guy": 0.119,
+   "Ruler": 0.009,
+   "Sage": 0.01
+  },
+  "exact_tie_rate": 0.0,
+  "near_tie_rate_lt_0.05": 0.069,
+  "median_top1_margin": 0.4579,
+  "p25_top1_margin": 0.193,
+  "one_answer_changes_top1": 0.529,
+  "one_answer_changes_primary": 0.288,
+  "after_one_change_top1_was_in_old_shortlist": 0.613,
+  "dropping_group_changes_top1": {
+   "drawnToward": 0.876,
+   "soughtFor": 0.796,
+   "gravity": 0.22,
+   "texture": 0.294,
+   "flavors": 0.021
+  },
+  "most_common": [
+   [
+    "magician-creator",
+    0.0248
+   ],
+   [
+    "innocent-caregiver",
+    0.0242
+   ],
+   [
+    "jester-caregiver",
+    0.0242
+   ],
+   [
+    "regular-guy-caregiver",
+    0.0225
+   ],
+   [
+    "jester-sage",
+    0.022
+   ],
+   [
+    "lover-creator",
+    0.0202
+   ],
+   [
+    "jester-outlaw",
+    0.0198
+   ],
+   [
+    "outlaw-hero",
+    0.0192
+   ]
+  ],
+  "least_common_observed": [
+   [
+    "ruler-creator",
+    0.00017
+   ],
+   [
+    "ruler-jester",
+    0.00017
+   ],
+   [
+    "ruler-lover",
+    0.00017
+   ],
+   [
+    "ruler-caregiver",
+    0.00017
+   ],
+   [
+    "ruler-regular-guy",
+    0.00033
+   ],
+   [
+    "caregiver-regular-guy",
+    0.00033
+   ],
+   [
+    "sage-lover",
+    0.00033
+   ],
+   [
+    "caregiver-lover",
+    0.00033
+   ]
+  ]
+ },
+ "C coherent (circular)": {
+  "model": "C coherent (circular)",
+  "samples": 6000,
+  "distinct_outcomes": 126,
+  "never_observed": [
+   "creator-regular-guy",
+   "ruler-explorer",
+   "ruler-magician",
+   "ruler-outlaw",
+   "sage-explorer",
+   "sage-magician"
+  ],
+  "top10_share": 0.272,
+  "max_share": 0.0393,
+  "expected_uniform_share": 0.0076,
+  "primary_shares": {
+   "Caregiver": 0.029,
+   "Creator": 0.044,
+   "Explorer": 0.107,
+   "Hero": 0.086,
+   "Innocent": 0.105,
+   "Jester": 0.112,
+   "Lover": 0.09,
+   "Magician": 0.13,
+   "Outlaw": 0.072,
+   "Regular Guy": 0.131,
+   "Ruler": 0.053,
+   "Sage": 0.041
+  },
+  "exact_tie_rate": 0.0,
+  "near_tie_rate_lt_0.05": 0.07,
+  "median_top1_margin": 0.4714,
+  "p25_top1_margin": 0.1997,
+  "one_answer_changes_top1": 0.452,
+  "one_answer_changes_primary": 0.305,
+  "after_one_change_top1_was_in_old_shortlist": 0.738,
+  "dropping_group_changes_top1": {
+   "drawnToward": 0.674,
+   "soughtFor": 0.601,
+   "gravity": 0.4,
+   "texture": 0.374,
+   "flavors": 0.038
+  },
+  "most_common": [
+   [
+    "magician-creator",
+    0.0393
+   ],
+   [
+    "regular-guy-caregiver",
+    0.0387
+   ],
+   [
+    "ruler-sage",
+    0.032
+   ],
+   [
+    "jester-outlaw",
+    0.0295
+   ],
+   [
+    "innocent-caregiver",
+    0.0245
+   ],
+   [
+    "outlaw-jester",
+    0.0245
+   ],
+   [
+    "explorer-outlaw",
+    0.0233
+   ],
+   [
+    "innocent-sage",
+    0.0205
+   ]
+  ],
+  "least_common_observed": [
+   [
+    "caregiver-outlaw",
+    0.00017
+   ],
+   [
+    "caregiver-magician",
+    0.00017
+   ],
+   [
+    "sage-jester",
+    0.00017
+   ],
+   [
+    "sage-lover",
+    0.00017
+   ],
+   [
+    "sage-regular-guy",
+    0.00033
+   ],
+   [
+    "sage-outlaw",
+    0.0005
+   ],
+   [
+    "ruler-jester",
+    0.0005
+   ],
+   [
+    "lover-explorer",
+    0.0005
+   ]
+  ],
+  "latent_recovered_top1": 0.149,
+  "latent_recovered_in_shortlist": 0.322,
+  "reversed_pair_instead": 0.148,
+  "primary_recovery_by_latent_primary": {
+   "Caregiver": 0.1,
+   "Creator": 0.22,
+   "Explorer": 0.52,
+   "Hero": 0.36,
+   "Innocent": 0.4,
+   "Jester": 0.42,
+   "Lover": 0.38,
+   "Magician": 0.56,
+   "Outlaw": 0.3,
+   "Regular Guy": 0.52,
+   "Ruler": 0.19,
+   "Sage": 0.16
+  }
+ },
+ "flavour_weight_change_vs_current": {
+  "0.0": 0.043,
+  "0.3": 0.049,
+  "0.6": 0.135
+ },
+ "veto_changes_top1": {
+  "egg-white": 0.04,
+  "dairy": 0.027,
+  "gluten": 0.025,
+  "nuts": 0.159,
+  "spice": 0.036,
+  "all": 0.245
+ },
+ "empty_intake": [
+  "caregiver-creator",
+  "caregiver-explorer",
+  "caregiver-hero"
+ ]
+}

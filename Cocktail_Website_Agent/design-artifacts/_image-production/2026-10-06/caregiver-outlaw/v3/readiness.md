@@ -1,0 +1,1 @@
+Complete dossier/spec re-read again through EOF before second targeted correction. SHAcefe2c263153b4a16592375851515068896a5d9e2e77f8511a1ac261062e65dc. v2 paper too large/low and person traces still remote; final bounded correction only paper and folder/cloth positions. Recipe and world invariant. Preserve v1/v2 as provenance. No editorial changes.

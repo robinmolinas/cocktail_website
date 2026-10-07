@@ -1,0 +1,98 @@
+{
+  "pairing": "lover-innocent",
+  "pour": "Wide Open",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-innocent/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-f83c51f6-4497-459b-92bf-65174119c33f.png",
+  "sourceSha256": "4c0ed8d3df2030fdd30838f24b13bbb345dad7db90bf4176fc3800fcb5d84f1a",
+  "specSha256": "57d1e2555a519e13327fc7e58c267c41c410b168d55b289d6db9b4cce1d9bd51",
+  "masterSha256": "6a4d4cfde6cd65bd14332917ae55d1438618134f235c95333ae8b9f319252335",
+  "masterDimensions": {
+    "width": 1671,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1671,
+    940
+  ],
+  "portraitCrop": [
+    695,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1174,
+    "cy": 596,
+    "w": 140,
+    "angle": 6.4
+  },
+  "glass": {
+    "x": 1073,
+    "y": 469
+  },
+  "bounds": {
+    "glass": {
+      "x0": 962,
+      "y0": 394,
+      "x1": 1183,
+      "y1": 701
+    },
+    "paper": {
+      "x0": 1088,
+      "y0": 555,
+      "x1": 1251,
+      "y1": 632
+    }
+  },
+  "personalityBounds": {
+    "openedEnvelope": {
+      "x0": 825,
+      "y0": 518,
+      "x1": 1135,
+      "y1": 631
+    },
+    "unfoldedNote": {
+      "x0": 882,
+      "y0": 458,
+      "x1": 1135,
+      "y1": 606
+    },
+    "uprightPianoVisible": {
+      "x0": 622,
+      "y0": 0,
+      "x1": 1671,
+      "y1": 539
+    }
+  },
+  "recognitionRegions": {
+    "letterOpenFlapAndFold": {
+      "x0": 825,
+      "y0": 458,
+      "x1": 1135,
+      "y1": 631
+    },
+    "pianoKeysAttachedKeybedCase": {
+      "x0": 962,
+      "y0": 245,
+      "x1": 1223,
+      "y1": 445
+    }
+  },
+  "measurementNotes": "Original-resolution visual measurement; approximately 3–8 px edge uncertainty. Actual image 1671×941 was independently probed. Glass 307 px tall. Full glass/paper union 289 px; glass/paper plus actual note/envelope and connected piano recognition core 426 px lateral, wider than 350 px target and likely animated-phone safety. The piano is real connected room furniture extending beyond the crop, not a loose miniature keyboard; full visible furniture bounds are separately recorded. Proposed 702×940 portrait contains glass/paper/letter and recognition core, not full upright piano; it is not phone/motion/browser acceptance. Tag clean usable axis about 140 px excluding hole, below 170–200 px target.",
+  "review": {
+    "recipe": "One chilled ordinary coupe with opaque light amber-beige whole-egg whisky Flip, thin smooth aeration without thick egg-white head/mousse, no serving ice/garnish/citrus/cream/nutmeg. Warm lighting makes liquid more toffee than neutral pale beige; whole-egg texture remains plausible. Candidate Flip serving pilot, not approved serving type.",
+    "personality": "Opened envelope and blank reverse of unfolded note now overlap behind stem: explicitly inferred analogue of immediate affectionate replies. Actual upright piano's ivory/black keys remain attached to a recognizable keybed/case, grounded in historical piano-teaching anchor. Full furniture extends right/up; connected keyboard recognition and letter still span too broadly for claimed compact-phone success.",
+    "world": "Dark historic private timber reading-room bar, quiet left third and one warm practical. Correction does not remove inherited orange/amber glossy raised-ripple-looking wood or dense fine bowl droplets. Plain unlettered tag retains mild natural paper grain.",
+    "issues": [
+      "Full glass/tag/two recognition cluster 426 px, above 350 px target; animated phone hold",
+      "Tag usable 140 px, below requested 170–200 px; name fit unverified",
+      "Glossy amber/rippled wood and crossing surface marks remain material hold",
+      "Dense tiny bowl droplets remain synthetic uniform texture risk",
+      "Piano full visible furniture not contained in portrait; partial connected recognition recorded separately",
+      "Flip serving pilot only; independent recipe/serving approval needed",
+      "Actual JPEG and browser/name/motion review deferred; no acceptance claimed"
+    ]
+  }
+}

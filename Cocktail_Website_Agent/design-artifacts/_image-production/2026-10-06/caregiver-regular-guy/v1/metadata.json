@@ -1,0 +1,310 @@
+{
+  "pairing": "caregiver-regular-guy",
+  "pour": "Everybody's",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "3e81c41253c21b21c862a0c5f01c96d66715291376216049cc9d3bce440a01f5",
+  "review": {
+    "recipe": "Small footed goblet with deep brown-black coffee body and level soft ivory cream layer. Cream minor surface ripples are plausible not piped; no oat flecks/garnish/ice/cubes in drink. Oats strained out; recipe dairy/gluten unchanged.",
+    "personality": "Two coats hung equally, one cared-for dark wool and one worn damp olive, plus used hand towel reflect equivalent quiet welcome. Current wide illustrates them; narrow phone crop likely loses one coat, so HOLD until traces gathered or portrait recomposed.",
+    "world": "Warm dark walnut/private hotel-room world, muted olive/cream/burgundy, functional whisk only. Left multiple practical lights and loose room detail weaken quiet copy field; revision needed before acceptance.",
+    "issues": [
+      "HOLD: one of two equally hung coats likely lost in narrow phone crop.",
+      "Left practical lamps and room clutter need simplifying; do not integrate as final.",
+      "Export and actual name overlay tests pending specific exporter approval."
+    ]
+  },
+  "measurements": {
+    "pairing": "caregiver-regular-guy",
+    "pour": "Everybody's",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-regular-guy/v1/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-862bbb6c-4b06-4f62-abae-90f1be25493a.png",
+    "sourceSha256": "3e81c41253c21b21c862a0c5f01c96d66715291376216049cc9d3bce440a01f5",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      675,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1158,
+      "cy": 729,
+      "w": 156,
+      "angle": 2.7
+    },
+    "glass": {
+      "x": 1027,
+      "y": 582
+    },
+    "bounds": {
+      "glass": {
+        "x0": 901,
+        "y0": 390,
+        "x1": 1149,
+        "y1": 777
+      },
+      "paper": {
+        "x0": 1029,
+        "y0": 680,
+        "x1": 1248,
+        "y1": 779
+      }
+    },
+    "review": {
+      "recipe": "Small footed goblet with deep brown-black coffee body and level soft ivory cream layer. Cream minor surface ripples are plausible not piped; no oat flecks/garnish/ice/cubes in drink. Oats strained out; recipe dairy/gluten unchanged.",
+      "personality": "Two coats hung equally, one cared-for dark wool and one worn damp olive, plus used hand towel reflect equivalent quiet welcome. Current wide illustrates them; narrow phone crop likely loses one coat, so HOLD until traces gathered or portrait recomposed.",
+      "world": "Warm dark walnut/private hotel-room world, muted olive/cream/burgundy, functional whisk only. Left multiple practical lights and loose room detail weaken quiet copy field; revision needed before acceptance.",
+      "issues": [
+        "HOLD: one of two equally hung coats likely lost in narrow phone crop.",
+        "Left practical lamps and room clutter need simplifying; do not integrate as final.",
+        "Export and actual name overlay tests pending specific exporter approval."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1329.7607655502393,
+        "cy": 837.5744680851064,
+        "w": 179.13875598086125,
+        "angle": 2.7014340432991446
+      },
+      "glass": {
+        "x": 1179.33014354067,
+        "y": 668.6808510638298
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 616.4786324786324,
+        "cy": 930.6382978723404,
+        "w": 199.1111111111111,
+        "angle": 2.700512158709833
+      },
+      "glass": {
+        "x": 449.2763532763533,
+        "y": 742.9787234042552
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-regular-guy/portrait.jpg",
+    "wide": "/personas/caregiver-regular-guy/wide.jpg",
+    "wideTag": {
+      "cx": 0.6925837320574163,
+      "cy": 0.7755319148936171,
+      "w": 0.09330143540669857,
+      "angle": 2.7014340432991446
+    },
+    "wideGlass": {
+      "x": 0.6142344497607656,
+      "y": 0.6191489361702127
+    },
+    "tag": {
+      "cx": 0.688034188034188,
+      "cy": 0.7755319148936171,
+      "w": 0.2222222222222222,
+      "angle": 2.700512158709833
+    },
+    "glass": {
+      "x": 0.5014245014245015,
+      "y": 0.6191489361702127
+    }
+  },
+  "hashes": {
+    "master": "a25aef35e3849e51470c318b5d4609d69d8641f24b7b3030c598c6012ac1c5a3",
+    "wide": "97c715d00caee5bc48ae4fd8c64fc678855b0d6737eefadd8604b916381d3d8b",
+    "portrait": "8657b22cf0b1e5a33b46f2d16d7402b7a74e50c6ab26b34aeec1c7cc9c99dce8"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1034.641148325359,
+          "y0": 448.0851063829787,
+          "x1": 1319.4258373205741,
+          "y1": 892.7234042553191
+        },
+        "paper": {
+          "x0": 1181.6267942583731,
+          "y0": 781.2765957446809,
+          "x1": 1433.11004784689,
+          "y1": 895.0212765957447
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 782.200956937799,
+          "y0": 373.40425531914894,
+          "x1": 1019.5215311004786,
+          "y1": 743.936170212766
+        },
+        "paper": {
+          "x0": 904.6889952153109,
+          "y0": 651.0638297872341,
+          "x1": 1114.2583732057417,
+          "y1": 745.8510638297872
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1103.6172248803828,
+          "y0": 424.5974468085106,
+          "x1": 1407.3875598086124,
+          "y1": 898.8782978723405
+        },
+        "paper": {
+          "x0": 1260.401913875598,
+          "y0": 780.0017021276597,
+          "x1": 1528.6507177033493,
+          "y1": 901.3293617021276
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1853.732057416268,
+          "y0": 575.1191489361702,
+          "x1": 2363.971291866029,
+          "y1": 1371.7627659574468
+        },
+        "paper": {
+          "x0": 2117.0813397129186,
+          "y0": 1172.0872340425533,
+          "x1": 2567.6555023923447,
+          "y1": 1375.8797872340424
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5254848128568568,
+        "y": 0.6191489361702127
+      },
+      "bounds": {
+        "glass": {
+          "x0": 76.66616220322886,
+          "y0": 350.17021276595744,
+          "x1": 299.2962096866097,
+          "y1": 697.6468085106383
+        },
+        "paper": {
+          "x0": 191.57199316239314,
+          "y0": 610.5531914893618,
+          "x1": 388.16868831908835,
+          "y1": 699.4425531914893
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5266689124958104,
+        "y": 0.6191489361702127
+      },
+      "bounds": {
+        "glass": {
+          "x0": 83.99628338081678,
+          "y0": 386.6808510638298,
+          "x1": 329.83894245014255,
+          "y1": 770.3872340425532
+        },
+        "paper": {
+          "x0": 210.88281709401716,
+          "y0": 674.2127659574469,
+          "x1": 427.97774586894593,
+          "y1": 772.3702127659574
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5014245014245015,
+        "y": 0.6191489361702127
+      },
+      "bounds": {
+        "glass": {
+          "x0": 84.33413105413103,
+          "y0": 235.6595744680851,
+          "x1": 234.160987654321,
+          "y1": 469.5063829787234
+        },
+        "paper": {
+          "x0": 161.66412155745488,
+          "y0": 410.8936170212766,
+          "x1": 293.9709021842355,
+          "y1": 470.71489361702123
+        }
+      }
+    }
+  ]
+}

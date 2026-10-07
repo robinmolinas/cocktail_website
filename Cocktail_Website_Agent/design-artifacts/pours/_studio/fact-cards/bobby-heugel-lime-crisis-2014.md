@@ -1,7 +1,7 @@
 ---
 topic: Bobby Heugel (Anvil, Houston), packer's cases and the 2014 lime shortage; with the key lime and the lemon as cocktail citrus
 last checked: 2026-10-01
-used by: regular-guy-ruler (The People's Champion), round 2, story not yet ruled
+used by: regular-guy-ruler (The People's Champion, *Word Gets Round*), 2026-10-01; rework 2026-10-06 keeps the story and drops the Rickey (the R1-R7 extension is now dossier history for this pour)
 ---
 
 # Fact card: Bobby Heugel and the 2014 lime shortage
@@ -25,7 +25,7 @@ Opened 2026-10-01 by Hester. Every quotation below was on screen in this session
 | F4 | Heugel: his Houston bar was selling "an $8 margarita with almost no margin to begin with". | S1 | secondary, his words | Usable only as his, about his bar, 2014. |
 | F5 | Heugel's account of the trade: limes are sold by the case and by size (a case of 120 limes of one size); after packing, the mismatched leftovers go into "packer's cases", sold 30-40% below the usual price because the sizes vary; some limes are "the size of your fist"; "almost every distributor sells them". | S1 | secondary, his account | No second source for the term or the discount. Tell as "he explained", never as a market fact. |
 | F6 | Heugel, hedged: packer's cases maybe aren't so easy to find in Houston any more, "because I've told everyone", but readers elsewhere should find them. | S1 | secondary, his words | "Maybe" is his: keep it. That his own supply suffered is **our inference**. "Told everyone" is *Fine by Me*'s guest wording (Wren's trap). |
-| F7 | Heugel: the bigger problem was lime *quality*, which "hasn't been talked about a lot"; he asks why not recommend a customer a better drink made with lemon juice "and tell them why"; his bar's spoken recommendation was helping, and it was moving its menu toward lemon. | S1 | secondary, his words | Correction to my plan row: "one bar was shifting the menu" was Heugel's own bar, not another speaker. |
+| F7 | Heugel: one of the biggest problems was lime *quality* (his words "one of the biggest problems", audit v1 A5; "the bigger problem" was my slip, fixed 2026-10-06), which "hasn't been talked about a lot"; he asks why not recommend a customer a better drink made with lemon juice "and tell them why"; his bar's spoken recommendation was helping, and it was moving its menu toward lemon. | S1 | secondary, his words | Correction to my plan row: "one bar was shifting the menu" was Heugel's own bar, not another speaker. |
 | F8 | Heugel: a guest who wants a Margarita will have one; Anvil used Key limes in its house Margarita, at nearly half the price of Persian limes ("may have something to do with being in Texas"); he calls them underrated, says bartenders may dismiss them for being tiny though "their yield is really high", and that they may take "double or triple the labor", which to him is "not a huge deal". | S1 | secondary, his words | The labour taken on is the one cost on the page in his own terms. Keep his Texas hedge with the price. See C1 on yield. |
 | F9 | Heugel recalls a "pretty big lime crisis" about five years earlier. | S1 | his memory, unverified | Out. |
 | F10 | Simonson (interviews c. 2014): Heugel "now owner of many cocktail bars in Houston". Of his early years, in "undeveloped markets", he says there was no one he could talk to about drinks, "Nobody at all"; his first Tales of the Cocktail was the first time he could talk cocktails outside online forums, and he enjoyed hearing how words were pronounced (Lillet). | S2, S4 | library | Year of his first Tales not on the page. |

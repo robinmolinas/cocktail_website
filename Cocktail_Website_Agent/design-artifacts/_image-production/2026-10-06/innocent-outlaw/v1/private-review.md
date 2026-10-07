@@ -1,0 +1,3 @@
+# Original-resolution initial review — held
+
+Actual1672×941 source viewed full detail and preserved. Heavy tumbler has three irregular cloudy ice lumps and quiet still surface; apple looks like a thick wedge, not thin raw slice. Cap/key are genuinely recognizable but cap reaches source-right edge; wholevisibleunion861px, conservative recognition814px, impossible moving-phone fit. Glass480px tall and392px wide is too close. Table amber blanket reflection and glass dense droplets remain material watches. One targeted correction of actual apple slice and compact wider framing authorized. No acceptance.

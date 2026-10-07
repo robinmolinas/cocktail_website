@@ -1,0 +1,99 @@
+{
+  "pairing": "regular-guy-innocent",
+  "pour": "Good as It Is",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-innocent/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-8a6b8012-3bd5-43de-9edc-0d7d9d80c97f.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "0a06c7142b1780a5052b0b012aec46a117ec8d136953b9305dd8bd2775f07393",
+  "sourceSha256": "ed9246afc39ce9772536e3ee753d72e38e5d46770902d6e0e5ce31f43ab66d6f",
+  "specSha256": "fa75f17a43df4fb9e18cbf9d5efe885392f0bc8ebe1b5bbb57af88bad0c15de6",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    597,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 649,
+    "cy": 477,
+    "w": 140,
+    "angle": 99
+  },
+  "glass": {
+    "x": 916,
+    "y": 509
+  },
+  "bounds": {
+    "glass": {
+      "x0": 699,
+      "y0": 243,
+      "x1": 1137,
+      "y1": 776
+    },
+    "paper": {
+      "x0": 604,
+      "y0": 384,
+      "x1": 699,
+      "y1": 565
+    },
+    "bread": {
+      "x0": 1110,
+      "y0": 415,
+      "x1": 1464,
+      "y1": 687
+    },
+    "butterKnife": {
+      "x0": 1176,
+      "y0": 387,
+      "x1": 1672,
+      "y1": 608
+    },
+    "linen": {
+      "x0": 1109,
+      "y0": 440,
+      "x1": 1672,
+      "y1": 735
+    }
+  },
+  "recognitionRegions": {
+    "bread": {
+      "bounds": {
+        "x0": 1117,
+        "y0": 416,
+        "x1": 1462,
+        "y1": 683
+      },
+      "reason": "Recognizable torn bread roll with exposed crumb and butter, not a fragment."
+    },
+    "butterKnife": {
+      "bounds": {
+        "x0": 1176,
+        "y0": 387,
+        "x1": 1672,
+        "y1": 608
+      },
+      "reason": "Blade, neck and substantial handle visible, but full handle cut by raster right edge."
+    }
+  },
+  "review": {
+    "recipe": "Pale cloudy caipirinha with lime pieces in cracked ice, no foam/garnish. Prompt preserves direct build: six pieces muddled with granulated sugar, add ice/cachaça/stir. Six distinct crushed pieces cannot be reliably audited through occlusion.",
+    "personality": "Torn buttered roll explicit whoYouAre; used table butter knife inferred dinner habit, not recipe tool. Real-size recognizable but excessive spread.",
+    "world": "House timber room with quiet left; glossy granular amber table and crystalline ice remain.",
+    "issues": [
+      "Glass 533px high, far above target.",
+      "Full visible group 1068px; knife/linen clipped at source right edge. Proposed portrait loses complete bread/knife.",
+      "Six muddled lime piece count not independently confirmed.",
+      "No acceptance; sole focused correction planned."
+    ]
+  }
+}
+

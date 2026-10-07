@@ -1,0 +1,89 @@
+{
+  "pairing": "magician-hero",
+  "pour": "Worth the Trade",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-hero/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-a210e317-8074-4ec3-8e1f-f77f2bd36a45.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "e967cc6de21a5f629094eb087139fa49e999dc3392754a02a7813d12ae206b3b",
+  "sourceSha256": "23441510e1785d4ea12ffe763e05022faecdb3baa54abff479006ea6aaca631e",
+  "specSha256": "b4c6a2b7dfe606864723002af2bc77fa9d528665fe22ab6c0c16a9b617764508",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    666,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1286,
+    "cy": 596,
+    "w": 117,
+    "angle": 74
+  },
+  "glass": {
+    "x": 1081,
+    "y": 484
+  },
+  "bounds": {
+    "glass": {
+      "x0": 937,
+      "y0": 301,
+      "x1": 1226,
+      "y1": 669
+    },
+    "paper": {
+      "x0": 1214,
+      "y0": 497,
+      "x1": 1354,
+      "y1": 680
+    },
+    "mendedPouch": {
+      "x0": 678,
+      "y0": 253,
+      "x1": 1310,
+      "y1": 578
+    }
+  },
+  "recognitionRegions": {
+    "mendedPouch": {
+      "bounds": {
+        "x0": 688,
+        "y0": 265,
+        "x1": 941,
+        "y1": 575
+      },
+      "reason": "Zipped opening plus substantial repaired cloth face identify pouch despite glass occlusion."
+    },
+    "retainedZipper": {
+      "bounds": null,
+      "present": false,
+      "reason": "The separate removed old zipper disappeared during edit. The attached pouch zipper/pull is part of the pouch, NOT a second personal trace."
+    }
+  },
+  "missingEssentialTraces": [
+    "separate removed old zipper with attached pull"
+  ],
+  "review": {
+    "recipe": "Pale amber old-fashioned with one large broad wet cube, no garnish or foam. Faint fruit haze permissible but subtle; dense trapped-air/wet detail and top facet sheen remain realism concerns.",
+    "personality": "Mended pouch survives, but separate retained old zipper disappeared; attached working pouch pull cannot be counted as second trace. Repair-and-retention interpretation is source-grounded inference, not literal biography; only repair reads now.",
+    "world": "Neutral near-black historic timber and quiet left third retained. Wood flatter than batch04 but conspicuous warm glossy right reflection, uniformly granular cloth/repair and dense ice detail remain held/watch.",
+    "issues": [
+      "Sole correction exhausted; candid measured candidate, not accepted.",
+      "Second essential trace missing; no false separate-pull bounds supplied.",
+      "Glass368px high exceeds280–330px target.",
+      "Full group676px/recognizable pouch+completeglasspaper666px exceed389px moving-phone window; missing secondtrace prevents personality retention regardless.",
+      "Proposed702portrait retains depicted objects only, NOT phone or two-trace PASS.",
+      "Tag body-tied outside with lightgap and genuinely blank, but usable117px axis below170–200px goal.",
+      "Dense ice detail/raised-looking patch and warm glossy table remain material holds; current recipe unchanged.",
+      "No exporter/JPEG/browser/public/shared/source edits."
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+- **The persona:** the Scandalmonger says the outrageous thing on purpose, at the table, and takes the blame for the first line so the honest conversation can happen. The verdict is really a question, and they're waiting for one person to say it back. Some nights it's only for the gasp, and they know which (Wren, round 1).
+- **The story:** Harry Croswell, the Hudson editor who in May 1806 printed a mocking ledger of a losing candidate's election drinks ("25 glasses cock-tail"), then answered a reader with the cocktail's earliest known definition in print ("spirits of any kind, sugar, water, and bitters"), ending on a jibe at the other party. By then he'd already been convicted of libel over what he'd printed about the President; Hamilton argued his appeal. This was the plan's lead (*Imbibe!* pdf 169; Oxford COCK-TAIL; MTSU via Wayback). The runner-up, the 1853 Barnum verses, wasn't needed.
+- **The drink:** the 1806 four things with one change out in the open: aged Jamaican rum 60, banana liqueur 20 as the sugar, Angostura, 30 ml ice-cold water measured in, orange peel, in a freezer-chilled small tumbler with no ice. Veto-free; 26.6%, freeform in balance.py, justified in Checks.
+- **What failed and why:**
+  - Hester struck her own "there was no banana liqueur in 1806" (Oxford pdf 202 gives only the earliest records) → "a liqueur whose recipes only turn up about a century later" (R8, T1).
+  - "One of the most quoted in the history of American drinking" ran five of Wondrich's words (R4).
+  - The reader's "he" wasn't a historical person (R2); "ends with a dig" claimed how the piece ended (R1); the water "the way the old recipe has it" pointed at a modern recipe (R7).
+  - Wren's "you wait to see" overlapped *innocent-sage* (lint-only fix in step 3).
+- **"This is me":** "It comes out like a verdict, but you mean it as a question."
+- **Names:** *Quote Me*, 3–0. First picks: Tomás *Present Company*, Hester *It Is Said*. Also considered: *To Their Faces*, *Said at the Table*, *On the Table*.
+- **Edges:** the Giffard Banane du Brésil label is unchecked (open item, touches no veto); the libel case rests on one web page; the conviction has no year.
+- **Rule candidates:** none raised.

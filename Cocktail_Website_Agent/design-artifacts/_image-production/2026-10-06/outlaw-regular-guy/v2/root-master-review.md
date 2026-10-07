@@ -1,0 +1,4 @@
+# Where You Stand — root original master review
+
+Root inspected actual1672×941 PNG at original resolution. Clear amber still coupe and single orange peel inside read coherently; no ice/foam/rim. Small65px paper versus217px bowl hangs beside stem with hole/cord and air gap;60px axis at70degrees, name fit untested. Whole useful keys and recognisable phone body/receiver are plausible practical-help/open-door habit inferences, not literal possessions or sufficient moral-code evidence. Phone partly occluded but entire visible body/receiver recognisable, no anonymous sliver.306px glass; essential440px/including lead493px spread remains beyond moving-phone window;702portrait preserves visible group only, not browser PASS. Warm broad glossy timber/fine-pattern hold, telephone competes with drink. Functional keys allowed. No pixels establish vessel capacity. Initial + sole correction exhausted; no exports/acceptance/integration.
+

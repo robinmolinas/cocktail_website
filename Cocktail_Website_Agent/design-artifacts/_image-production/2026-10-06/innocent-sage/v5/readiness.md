@@ -1,0 +1,1 @@
+Full current innocent-sage dossier and physical spec reread completely before v5 targeted mirror/napkin correction. Recipe and editorial status unchanged. Actual1672×941 verified; exact tool source preserved. Coordinator alone exports.

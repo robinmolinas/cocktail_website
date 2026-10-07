@@ -1,0 +1,29 @@
+{
+ "pairing": "jester-hero",
+ "personality": "The Wise Talker",
+ "archetypes": "Jester × Hero",
+ "date": "2026-10-04",
+ "batch": "jester",
+ "name": "The Wink",
+ "tagline": "Things get bad. You get funnier.",
+ "epigraph": "Mezcal, eggs and milk, once mixed in prisoners' water jars. Nobody stopped them.",
+ "glassware": "a small plain earthenware cup (about 300 ml), chilled in the freezer; any small tumbler will do",
+ "contains": [
+  "egg-white",
+  "dairy"
+ ],
+ "veto_free": false,
+ "reading": "psychologist-reading-v3.md",
+ "card": "perote-texian-egg-nog.md",
+ "language_row": "Wren's Resonance on reading v3: ready. Horoscope: one borderline (\"It all gets to you\"), carried by the next sentence. Sibling swap clean against all ten Jester pours read where authored: Reassurer (*Worth the Trip*), Morale Booster (*Anyway*), Charismatic Leader (*Who's In?*, whose ending and gift were Wren's own first draft, cut), Subverter (*With the Bite In*, \"looks a size smaller\" cut), Wise Fool (*In Good Part*, \"I hope you get to hear it\" cut), Stand-up, Wacky One, Alternative Comic, Flirt, Prankster. 4-grams cleared over every pour. One \"I\"; every \"he\"/\"his\" is Trimble, the captain or the journal's writer (lint warnings accepted). No deaths, battle, anniversary, cause or toasts; Green not named; history about 46% of yours. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/perote-texian-egg-nog.md`: Thomas Jefferson Green, *Journal of the Texian Expedition Against Mier* (Harper, 1845), pp. 256–261, 277, 314–316 (archive.org `journaloftexiane00gree`; copy in `work/jester-hero/historian-src-green-1845.txt`); David Wondrich, *Imbibe!* pdf 127, 129–130; TSHA *Handbook of Texas*, \"Green, Thomas Jefferson\" (secondary). Drink: *Imbibe!* pdf 127–128 (Thomas's 1862 Egg Nogg, nutmeg); Oxford pdf 702–703 (eggnog on record from 1788); *Cocktail Codex* p. 256. Room notes: `work/jester-hero/`.",
+ "names_note": "**The Wink**, by a 2–1 vote (Wren, Hester; Tomás voted *Laugh or Swear*, having written \"I could take it\"). It's the room handing the moment to the right person (Green p. 261, \"having the wink\"); Tomás's worry: \"wink\" can lean flirtatious read cold. Also considered: *Laugh or Swear* (Tomás's pick), *Tecolote* (the captain's word for the joke; captions Trimble, needs translating), *Head Turned*, *Still Funny* (close to the tagline).",
+ "open_items": [
+  "**Not veto-free: egg and dairy**, accepted by Wren in round 3 (\"a nog without the eggs betrays it\"). The new `egg_whole` ingredient row is classed `egg-white` (the veto enum's only egg entry); no existing row was reclassified. The family's veto-free floor is held by its other pours.",
+  "**Raw egg:** the draft says use fresh eggs, pasteurised for anyone pregnant, elderly or unwell, and wash the shell, since a sip is poured into it.",
+  "**The setting has a hard edge, kept out of guest text on purpose:** the bowl was for the San Jacinto anniversary, the men were a Texian raiding force taken at Mier, seventeen had been shot at Salado four weeks before, and the toasts include \"no more white flags\" and an ethnic insult (card C1–C5). The reading names no war, side, death, anniversary or toast, and never names Green. Robin may want to judge whether this story is one the guest should be handed at all.",
+  "**Kept out on purpose:** *Imbibe!*'s gut tubes, bribe, \"some 160\" and \"cooking utensils\" (Green: bought, \"our\" utensils, no count; L1–L2); Trimble's first name and unit (not on any page); \"Tom Green\" (a different man).",
+  "**No spark:** the Matrix was consulted (the Honey row's mezcal hit is unrendered OCR, so no claim). The drink's interest is its own facts: a mezcal eggnog on record, nothing in the glass that wasn't on their list (so no nutmeg, which also keeps it off `nuts`), milk standing in for donkey's milk, and the half-shell of mezcal for whoever's on watch (Green p. 316).",
+  "**Strength:** at the edge of the band (11.9% vs 12.1); acid out by design (a nog has no citrus), justified in Checks."
+ ]
+}

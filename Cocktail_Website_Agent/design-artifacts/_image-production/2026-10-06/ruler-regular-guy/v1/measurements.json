@@ -1,0 +1,93 @@
+{
+  "pairing": "ruler-regular-guy",
+  "pour": "One Table",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-regular-guy/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-7ed12793-bed3-4c50-853e-671f0b4584c0.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "ee6d2f28717bf954356cc273d90323c98cf6f6e81568df3653ad6a8f0c8d0e49",
+  "sourceSha256": "e51650b108237de2aea282ea5e7b9085c1f70a9a57c97713c059a7e396dc5328",
+  "specSha256": "9f26d81cdc9b32370eab7816e7b21cdaab90011ab71b1d44717cf2ecf52f898d",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    760,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1344,
+    "cy": 564,
+    "w": 246,
+    "angle": 78
+  },
+  "glass": {
+    "x": 1091,
+    "y": 535
+  },
+  "bounds": {
+    "glass": {
+      "x0": 901,
+      "y0": 297,
+      "x1": 1280,
+      "y1": 774
+    },
+    "paper": {
+      "x0": 1242,
+      "y0": 379,
+      "x1": 1429,
+      "y1": 737
+    },
+    "dinnerNapkin": {
+      "x0": 478,
+      "y0": 442,
+      "x1": 917,
+      "y1": 681
+    },
+    "dinnerFork": {
+      "x0": 599,
+      "y0": 446,
+      "x1": 882,
+      "y1": 639
+    }
+  },
+  "recognitionRegions": {
+    "dinnerNapkin": {
+      "bounds": {
+        "x0": 479,
+        "y0": 512,
+        "x1": 898,
+        "y1": 680
+      },
+      "reason": "Folded navy linen napkin with open fold/hem, not a tiny cloth edge."
+    },
+    "dinnerFork": {
+      "bounds": {
+        "x0": 599,
+        "y0": 446,
+        "x1": 882,
+        "y1": 639
+      },
+      "reason": "Whole tines, connected neck and handled grip identify dinner fork."
+    }
+  },
+  "review": {
+    "recipe": "One large cube and one dropped lemon peel in clear deep amber-red large rocks; no foam/cherry/pods. Dense bubble and glitter-like contact detail remains.",
+    "personality": "Used navy napkin and whole dinner fork suggest joining a shared meal. Ordinary source-grounded place-setting inference, generic/subtle rather than unique identity. Spread left, not compact in depth.",
+    "world": "Historic private warm room and quiet left third retained; table is strongly glossy amber in right highlights.",
+    "issues": [
+      "Initial only; sole correction follows.",
+      "Glass477px high exceeds280–340px target.",
+      "951px full union far exceeds phone window and proposed portrait loses napkin/fork portions.",
+      "Tag is blank and loose outside glass but cord over rim rather than tied body.",
+      "Materials and subtle personality specificity held; not accepted."
+    ]
+  }
+}

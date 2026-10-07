@@ -9,6 +9,9 @@ mode: batch            # pour | batch | rework
 
 # The room: The Thrill Seeker (outlaw-explorer)
 
+## Collection review edits, 2026-10-06 (Tomás)
+- **Tomás (Codex pass / open items):** **Q084 (my call, applied):** lemon 20 → 22.5 ml (¾ oz) in the recipe and the spec (v1.1). Once `sloe_gin` acid went to 0% the 20 ml version sat on the acid floor (0.754%); 22.5 ml gives 16.6% / 6.59 g / 0.831%, all in range, no edges. Checks › Balance rewritten (the old "22.5 ml goes OUT" line removed, the Codex Ideal Daiquiri benchmark added); Checks › Sweep gets the 144-case re-run (sloe acid 0–0.2%: none OUT, no acid edge at 22.5 ml). No guest text names the lemon amount. `allergens.py` unchanged (`["nuts"]`). Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Clifton, 1 April 1979, as Hester scoped it (Wren ruled r3)) · [x] drink + four checks (spec v1: sloe gin sour with Cynar, shaken, coupe, contains nuts) · [x] reading (v3) · [x] fact audit (v3 passes: reading v3, draft v1.2, spec v1) · [x] resonance test (on reading v2: ready) · [x] names (≥3 + pick) (Whoopee (all three)) · [x] image brief
 - **Last change to the pour:** r6 (closing line, bow tie dropped, dossier fixes D1–D6 and T1–T4; guest reading unchanged since r5)

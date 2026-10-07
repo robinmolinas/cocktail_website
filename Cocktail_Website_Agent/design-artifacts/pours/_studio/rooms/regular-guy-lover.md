@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The One Next Door (regular-guy-lover)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): whoYouAre ¶2 (V2, announcement + rarity stamp): "Here's what deserves saying: with you, nobody has to earn their place. That's rarer than anyone admits, and it was never a consolation prize." → "With you, nobody has to earn their place, and that was never a consolation prize."; yours 5 (V5): "…and I hope you let yourself enjoy being chosen." → "…and you can simply enjoy being chosen."; closingLine (V6, corpus example): "And the next time you want to be chosen, let it show." → "Some things are worth being waited for."
+- **Left for Robin:** Q142 (declare the stirred melt in the spec) is a spec edit, for the coordinator; guest text unaffected.
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex's stirred verjus sour Four to the Floor (p. 187, liqueur by proxy). **Q142:** spec gets the stirring melt as a `water` line (40.1 ml, noted "melt … not added") plus a `judged_by_hand` line, so `balance.py` now reports 17.5% / 7.30 g / 0.693%, the drink as served, not the undiluted 24.1%. Guest text unchanged. Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Cohasset Punch, New England rum (Hester r2–r3, ruled Wren r1)) · [x] drink + four checks (spec v2 + draft v2, peach only, veto-free (Tomás r4)) · [x] reading (v3 (Wren r5; v1 r3)) · [x] fact audit (v2 (Hester r4): X1–X11 for Wren, D1 for Tomás) · [x] resonance test (ready (Wren r4–r5, reading v3)) · [x] names (≥3 + pick) (First Choice (all three, r5)) · [x] image brief (Tomás r3)
 - **Last change to the pour:** r5 (audit wording X1–X11 and D1; closing line ruled by Tomás without plan/fallback)

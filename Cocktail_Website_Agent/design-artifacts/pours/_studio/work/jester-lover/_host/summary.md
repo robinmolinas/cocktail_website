@@ -1,0 +1,15 @@
+- **The persona:** the Tease holds the good thing back on purpose and with style, chooses the moment with care and lights up when it lands. Their fears are the flat "just tell me" and the spell turning into routine, and there's one seat in the game they never take: the one where they're the one waiting (Wren, round 1).
+- **The story:** Café Brûlot, the New Orleans coffee made at the table: cinnamon and peels steep for hours in cognac and kirsch, the warm brandy runs down a clove-studded orange spiral, and only then, in the classic recipe, does the coffee go in and put the flame out. Its invention is "ascribed" to Jules Alciatore at Antoine's (Oxford pdf 381–382). This was the plan's lead and its only candidate; Wren accepted it in round 1 with guards: the order of the reveal, never the fire; no inventor; the Blue Blazer and Spanish Coffee never named.
+- **The drink:** for two demitasse cups. Cognac and kirsch steep a few hours with lemon and orange peel and cinnamon, are warmed gently with demerara syrup (never lit), and run down a clove-studded orange spiral. The chicory coffee comes last, poured by someone else whenever they choose, so the guest is the one kept waiting. Hot Old-Fashioned family; balanced (11.3%, 6.67 g/100 ml), no edges. Contains `nuts` (kirsch, safe-side).
+- **What failed and why:**
+  - Reading v1–v2 put the café drink in Paris and called it an "everyday habit". That was Hester's own shorthand; Oxford says a nineteenth-century French café drink. She struck it in round 4.
+  - Hester's strongest objection (R6 + R8): y2's "the recipe I follow" followed by "puts the flame out" read as if the guest's recipe burns, two paragraphs before y4 says it's never lit. Wren gave the flame its owner, the classic recipe, in v3.
+  - "Syrup made from dark brown sugar" became demerara (Tomás's crossing point, carried in Hester's audit). "I've moved one thing" was false next to "my own measures, two cups, never lit" and was fixed.
+  - whoYouAre was trimmed from 191 to 152 words; two motif overlaps (*hero-explorer*, *innocent-hero*) were cut.
+- **"This is me":** "And there's one seat in the game you never take: the one where you're the one waiting."
+- **Names:** *I'll Tell You Later*, 3–0. Also considered: *Something's Coming* (Tomás), *Diabolique* (Hester), *After the Plates*, *Coffee Comes Last*; *Not Yet* withdrawn (it's in *The Architect*'s reading).
+- **Edges:**
+  - Not veto-free: the kirsch is `nuts`, safe-side.
+  - The classic drink is flamed; ours is never lit, and the flame is named once.
+  - The Magician family's Spanish Coffee backup is a flamed coffee at the table: if it runs, the two sit near each other (ours unlit, at home).
+- **Rule candidates:** none raised.

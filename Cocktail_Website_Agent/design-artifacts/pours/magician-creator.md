@@ -29,8 +29,6 @@ authored_in: the room, 2026-10-01 (batch magician)
 | 60 ml | soda water, very cold | poured last |
 | 1 sprig | fresh rosemary | for the scent |
 
-**Glassware:** tall (Collins) glass, chilled, filled with ice
-**Contains:** veto-free
 
 **method**
 1. Make the syrup ahead. Warm 100 g sugar in 100 ml water, stirring, until it dissolves. Take it off the heat, add two sprigs of fresh rosemary, and leave it to steep for 20 minutes. Strain, and let it cool. It keeps a week in the fridge.
@@ -63,7 +61,7 @@ authored_in: the room, 2026-10-01 (batch magician)
 **whoYouAre**
 Someone asks you for a few words at their party, and you come back with a toast that has the room crying and then laughing. Someone calls with a broken heart, and by the end of the night there's a plan, a playlist and a joke they'll repeat for years. You don't do small, and it isn't showing off. You listen for what the person meant under what they said, and you give them that.
 
-What worries you is getting it wrong in the most literal way: doing exactly what was asked and watching it land flat, because the words were never really the wish. So you listen hard, and you give more, just in case. And with all those ideas flying, nobody thinks to turn round and ask what you'd wish for. You don't tell them either. In your head, wishes are something you grant. It gives people something rare, though. When you take a small request seriously enough to make it wonderful, you tell someone their wish mattered, and they remember that longer than whatever you made.
+What worries you is getting it wrong in the most literal way: doing exactly what was asked and watching it land flat, because the words were never really the wish. So you listen hard, and you give more, just in case. And with all those ideas flying, nobody thinks to turn round and ask what you'd wish for. You don't tell them either. In your head, wishes are something you grant. It gives people something that lasts, though. When you take a small request seriously enough to make it wonderful, you tell someone their wish mattered, and they remember that longer than whatever you made.
 
 **yours**
 

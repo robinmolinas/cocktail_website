@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Geisha (lover-caregiver)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** the decision list's lover-caregiver row: y4 "a spoonful and a half" → "a teaspoon and a half" (with Q023, the same in the recipe note); the Open item marked resolved.
+- **Edits** (before → after, short): recipe, sugar note and y4 (Q023): "a spoonful and a half" → "a teaspoon and a half" · epigraph (Q127): "from a barman said never to forget a face" → "from a barman who, people said, never forgot a face" (its Open item marked resolved) · whoYouAre ¶2 (variety, V2): cut "Very few people are ever given that." (it also echoed the tagline)
+- **Left for Robin:** tagline (Q071, D11: unchanged; it still carries "Very few people can").
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks (cold, Willard's fourths, sugar owned) · [x] reading (v3) · [x] fact audit (v3: PASS) · [x] resonance test (v3: ready) · [x] names (≥3 + pick) (Hoping You'd Come (all three)) · [x] image brief
 - **Last change to the pour:** r6 (reading v3; draft A6 + dossier strikes)

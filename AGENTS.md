@@ -99,6 +99,8 @@ When adding a new cocktail pour to the active web experience:
 
 The repository includes the full standard-library Python tooling suite under `skills/dps-tools/`.
 
+> **Which copy is canonical.** On Robin's machine the studio runs from the workspace root (`GenAI Projects/skills/dps-*`, with the live ingredient table in `skills/dps-tools/data/ingredients.json`). The `Dionysus/skills/dps-*` folders are a copy for the repository, last synced from the root on 2026-10-06 (Robin, collection review D10). Edit the root copy, then sync it into the repo one way (`rsync -a --exclude __pycache__ ../skills/dps-<name>/ skills/dps-<name>/`); never edit both.
+
 ### Key CLI Scripts
 Run from anywhere in the repository:
 

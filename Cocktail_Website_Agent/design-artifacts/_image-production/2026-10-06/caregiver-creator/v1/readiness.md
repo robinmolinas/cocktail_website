@@ -1,0 +1,1 @@
+Complete 220-line current dossier and full spec read. Recipe and physical serve settled; draft editorial status unchanged. Current source SHA256 is recorded in measurements. Historic impossible reflection replaced by ordinary finished drawer and advance preparation. Built-in image_gen used.

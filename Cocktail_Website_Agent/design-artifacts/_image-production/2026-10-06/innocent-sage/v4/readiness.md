@@ -1,0 +1,1 @@
+Full current dossier and corresponding physical spec read before targeted supporting-prop edit. Recipe/editorial status unchanged. Exact1672×941 dimensions verified and source preserved. Coordinator alone exports.

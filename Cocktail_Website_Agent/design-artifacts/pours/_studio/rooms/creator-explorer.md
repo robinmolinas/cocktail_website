@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Experimentalist (creator-explorer)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine items; D13 (variety rules, "I trust your taste judgement").
+- **Edits** (before → after, short): whoYouAre ¶2 (Q016, Robin's gentleness rule): "Most of what you try doesn't work" → "Some of what you try doesn't work". yours 3 (D13 V3, "I like to think" no longer opens the reveal; the claim stays inside the signpost): "I like to think he wasn't trying to be clever." → "He wasn't trying to be clever, I like to think."
+- **Left for Robin:** none.
+- **Hester (open items):** Collection Oxford item: no change. The book is part of the story here, and it's already named in the one form the collection now uses ("the *Oxford Companion to Spirits and Cocktails*").
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick: Off-Label) · [x] image brief
 - **Last change to the pour:** round 6 (v4)

@@ -1,0 +1,306 @@
+{
+  "pairing": "hero-magician",
+  "pour": "Day Job",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "fce0b25adef6b3cacfcc6a899cb073799cc7d8735fc574db147816b6e8b26256",
+  "review": {
+    "recipe": "Single chilled narrow stemmed glass; cloudy rose-amber shaken rum/vermouth/lime Floridita riff; single green lime peel laid on rim, no ice or foam cap.",
+    "personality": "Work jacket with worn cuff and button, consulted blank-cover booklets, quiet daily service. Morning/night paradox removed. Lime halves support recipe without dominating.",
+    "world": "Dark walnut reading-room bar, burgundy chair, one warm source, restrained neutral shadows and grain.",
+    "issues": [
+      "Supporting lime halves both look intact rather than one visibly squeezed. Hero drink itself correct; do not treat as source of physical serve change."
+    ]
+  },
+  "measurements": {
+    "pour": "Day Job",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-magician/v1/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-2bba8bc6-e3b4-4b24-8177-e0a5a8831da4.png",
+    "sourceSha256": "fce0b25adef6b3cacfcc6a899cb073799cc7d8735fc574db147816b6e8b26256",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      812,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1120,
+      "cy": 567,
+      "w": 153,
+      "angle": 17
+    },
+    "glass": {
+      "x": 1009,
+      "y": 321
+    },
+    "bounds": {
+      "glass": {
+        "x0": 846,
+        "y0": 183,
+        "x1": 1213,
+        "y1": 765
+      },
+      "paper": {
+        "x0": 1032,
+        "y0": 499,
+        "x1": 1225,
+        "y1": 639
+      }
+    },
+    "review": {
+      "recipe": "Single chilled narrow stemmed glass; cloudy rose-amber shaken rum/vermouth/lime Floridita riff; single green lime peel laid on rim, no ice or foam cap.",
+      "personality": "Work jacket with worn cuff and button, consulted blank-cover booklets, quiet daily service. Morning/night paradox removed. Lime halves support recipe without dominating.",
+      "world": "Dark walnut reading-room bar, burgundy chair, one warm source, restrained neutral shadows and grain.",
+      "issues": [
+        "Supporting lime halves both look intact rather than one visibly squeezed. Hero drink itself correct; do not treat as source of physical serve change."
+      ]
+    },
+    "pairing": "hero-magician"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1286.1244019138758,
+        "cy": 651.4468085106382,
+        "w": 175.69377990430624,
+        "angle": 17.00852072775055
+      },
+      "glass": {
+        "x": 1158.66028708134,
+        "y": 368.8085106382979
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 393.1168091168091,
+        "cy": 723.8297872340424,
+        "w": 195.28205128205127,
+        "angle": 17.0030432060219
+      },
+      "glass": {
+        "x": 251.44159544159547,
+        "y": 409.7872340425532
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/hero-magician/portrait.jpg",
+    "wide": "/personas/hero-magician/wide.jpg",
+    "wideTag": {
+      "cx": 0.6698564593301436,
+      "cy": 0.6031914893617021,
+      "w": 0.09150717703349283,
+      "angle": 17.00852072775055
+    },
+    "wideGlass": {
+      "x": 0.6034688995215312,
+      "y": 0.3414893617021277
+    },
+    "tag": {
+      "cx": 0.43874643874643876,
+      "cy": 0.6031914893617021,
+      "w": 0.21794871794871795,
+      "angle": 17.0030432060219
+    },
+    "glass": {
+      "x": 0.28062678062678065,
+      "y": 0.3414893617021277
+    }
+  },
+  "hashes": {
+    "master": "0af41f510450291b2c52aee755b2748c2a2d99936d8e20cb715c913ae6914b1f",
+    "wide": "ec818c34250cd3afe9800be02a852b5052a4f8bab7afa02d515d8e3d93e5d4d2",
+    "portrait": "a2ab845e9ba08b732513828e16fddded929eb8ca9f3c6c2468ba6b3ac8798c9b"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 971.4832535885166,
+          "y0": 210.25531914893617,
+          "x1": 1392.9186602870814,
+          "y1": 878.9361702127659
+        },
+        "paper": {
+          "x0": 1185.0717703349283,
+          "y0": 573.3191489361702,
+          "x1": 1406.6985645933014,
+          "y1": 734.1702127659574
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 729.5693779904306,
+          "y0": 175.2127659574468,
+          "x1": 1080.7655502392345,
+          "y1": 732.4468085106383
+        },
+        "paper": {
+          "x0": 907.5598086124402,
+          "y0": 477.7659574468085,
+          "x1": 1092.248803827751,
+          "y1": 611.8085106382978
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1036.248803827751,
+          "y0": 170.9123404255319,
+          "x1": 1485.77990430622,
+          "y1": 884.171914893617
+        },
+        "paper": {
+          "x0": 1264.0765550239234,
+          "y0": 558.1804255319148,
+          "x1": 1500.4784688995214,
+          "y1": 729.7548936170213
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1740.5741626794256,
+          "y0": 149.00744680851065,
+          "x1": 2495.645933014354,
+          "y1": 1347.0606382978722
+        },
+        "paper": {
+          "x0": 2123.2535885167463,
+          "y0": 799.4968085106382,
+          "x1": 2520.334928229665,
+          "y1": 1087.6882978723404
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.28062678062678065,
+        "y": 0.3414893617021277
+      },
+      "bounds": {
+        "glass": {
+          "x0": -36.88094966761635,
+          "y0": 164.31063829787234,
+          "x1": 292.57561253561255,
+          "y1": 686.8723404255319
+        },
+        "paper": {
+          "x0": 130.09158594491927,
+          "y0": 448.03829787234037,
+          "x1": 303.3480341880342,
+          "y1": 573.7404255319149
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.28062678062678065,
+        "y": 0.3414893617021277
+      },
+      "bounds": {
+        "glass": {
+          "x0": -40.91255460588795,
+          "y0": 181.44255319148937,
+          "x1": 322.8949287749288,
+          "y1": 758.4893617021276
+        },
+        "paper": {
+          "x0": 143.46943969610635,
+          "y0": 494.75319148936165,
+          "x1": 334.7905413105413,
+          "y1": 633.5617021276595
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.28062678062678065,
+        "y": 0.3414893617021277
+      },
+      "bounds": {
+        "glass": {
+          "x0": -8.674339981006657,
+          "y0": 110.57872340425533,
+          "x1": 213.04524216524217,
+          "y1": 462.25531914893617
+        },
+        "paper": {
+          "x0": 103.6958024691358,
+          "y0": 301.5234042553191,
+          "x1": 220.29492877492876,
+          "y1": 386.1191489361702
+        }
+      }
+    }
+  ]
+}

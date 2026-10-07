@@ -1,0 +1,93 @@
+{
+  "pairing": "explorer-outlaw",
+  "pour": "Fine by Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-outlaw/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-3f4ea801-ee6c-4e4b-866b-7e36af4c1e71.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "be42770f7256b57e0016ebab1aef4b80ea60e09166a797838288dcb08c53ee81",
+  "sourceSha256": "2e4b84294914bed5ffb1f0728b03fd603fe7a6d5b02e8710c8fdcf79f1aaf97c",
+  "specSha256": "c242ea39600435fab2011959caf3441b49fd437442be52f9790de965fdf8118c",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    839,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 980,
+    "cy": 599,
+    "w": 119,
+    "angle": -2
+  },
+  "glass": {
+    "x": 946,
+    "y": 505
+  },
+  "bounds": {
+    "glass": {
+      "x0": 840,
+      "y0": 246,
+      "x1": 1053,
+      "y1": 765
+    },
+    "paper": {
+      "x0": 889,
+      "y0": 563,
+      "x1": 1048,
+      "y1": 635
+    },
+    "toolPouch": {
+      "x0": 1045,
+      "y0": 420,
+      "x1": 1504,
+      "y1": 735
+    },
+    "pliers": {
+      "x0": 1083,
+      "y0": 584,
+      "x1": 1540,
+      "y1": 790
+    }
+  },
+  "recognitionRegions": {
+    "toolPouch": {
+      "bounds": {
+        "x0": 1054,
+        "y0": 423,
+        "x1": 1465,
+        "y1": 625
+      },
+      "reason": "Actual folded pouch flap/open edge plus visible stitched repair patch, not merely a cloth fragment."
+    },
+    "pliers": {
+      "bounds": {
+        "x0": 1083,
+        "y0": 584,
+        "x1": 1300,
+        "y1": 697
+      },
+      "reason": "Readable complete jaws, functional pivot and beginning of two separate handles."
+    }
+  },
+  "review": {
+    "recipe": "One tall packed-ice highball, pale amber-gold clear liquid and dropped orange peel inside, no fat layer/bacon/straw/foam. Fine bubbles present but glass remains excessively busy.",
+    "personality": "Real repaired tool pouch and functional used pliers convey self-carried work. Both recognizable; correction did not move them behind glass tightly enough.",
+    "world": "Dark walnut room and neutral left shadows preserved. One visible practical right. Dense glittery glass/ice and amber shiny timber remain a material hold.",
+    "issues": [
+      "Whole glass is519px tall, larger than425target; rim246/base765 safe-ish but base near80%vertical edge.",
+      "Complete object union700px almost fills702pxportrait with1px margins; cannot honestly fit~389px moving-phone inner window.",
+      "Recognition union625px (whole glass/paper plus repair pouch flap/patch and plier jaws/pivot), still far too wide for phone; do not claim cropped cloth edge equals pouch recognition.",
+      "Sparkling granular ice/glass and amber glossy timber persists after sole correction; anti-AI gate not passed.",
+      "No exports, glyph/browser/motion checks, integration or acceptance performed."
+    ]
+  }
+}

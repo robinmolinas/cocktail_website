@@ -1,0 +1,8 @@
+# Just Knew — v2 original-resolution handoff
+
+HELD candidate; no acceptance. Actual1602×981 PNG, exact original/copy SHA in provenance. Glass455px (v1=503), full group764px, conservative recognizable group709px. Depth overlap improved, but702portrait clips outer book portions; actual moving-phone far narrower. Do not call phone PASS or assume all personality survives.
+
+Red built Negroni-family drink, ordinary ice-filled rocks, ONE orange peel dropped inside, no foam. Bay shows at least three apparent olive regions, not confidently one leaf torn into two; exact garnish held even after sole correction. Old/new books substantial left faces and adult glove fingers/cuff recognizable. Right tiny brown patch not counted as a second/extra trace. Glove ordinary inferred walk habit, no holy imagery. Wood stays glossy amber/crackled, ice/glass densely crystalline/etched and glove uniformly scuffed: material holds/watch.
+
+Tag physics inspected at original: exterior midbody wrap below rim, curved front arc and side occlusion. Visible knot1084/488→short continuous paired tether→punched hole1105/559. Paper descends below support; largely separate outside glass with short upper silhouette overlap, not broad adhesive face. Lower edge rests on timber at y733 with contact shadow, no false floating claim. Far-side circumference/friction/load unresolved; nearest upper overlap warrants independent inspection. Plausible visible chain, not blanket pass. Smaller paper stays narrower than bowl, writable136px at75°; real name fit remains held, no scale inflation. No JPEG/exporter/browser/public/source/editorial/integration edits. Four total batch calls exhausted; stop.
+

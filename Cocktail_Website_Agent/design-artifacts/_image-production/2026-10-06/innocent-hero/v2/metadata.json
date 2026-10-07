@@ -1,0 +1,306 @@
+{
+  "pairing": "innocent-hero",
+  "pour": "Straight Up",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "1939c06dc9322a9507492a63e6370294e6532f23e054840de1d457c3307baf2e",
+  "review": {
+    "recipe": "Single thin chilled coupe, cloudy golden mango lime/juniper sour, thin natural residual froth; no ice or garnish. Unchanged recipe.",
+    "personality": "Opened brown parcel with unseen contents and used blank ticket backs gathered adjacent to glass; honest long road and delayed recognition. No trophy or invented contents.",
+    "world": "Private dark historic walnut bar, one warm right lamp, neutral near-black shadows, burgundy upholstery; used steel shaker.",
+    "issues": [
+      "Small usable tag width76px in master requires real name-overlay check; not accepted until coordinator browser review."
+    ]
+  },
+  "measurements": {
+    "pairing": "innocent-hero",
+    "pour": "Straight Up",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-hero/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-38fba587-91f5-4c54-901e-7a75cf8581d9.png",
+    "sourceSha256": "1939c06dc9322a9507492a63e6370294e6532f23e054840de1d457c3307baf2e",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      824,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1051,
+      "cy": 590,
+      "w": 76,
+      "angle": 24
+    },
+    "glass": {
+      "x": 989,
+      "y": 421
+    },
+    "bounds": {
+      "glass": {
+        "x0": 846,
+        "y0": 308,
+        "x1": 1131,
+        "y1": 731
+      },
+      "paper": {
+        "x0": 995,
+        "y0": 537,
+        "x1": 1104,
+        "y1": 644
+      }
+    },
+    "review": {
+      "recipe": "Single thin chilled coupe, cloudy golden mango lime/juniper sour, thin natural residual froth; no ice or garnish. Unchanged recipe.",
+      "personality": "Opened brown parcel with unseen contents and used blank ticket backs gathered adjacent to glass; honest long road and delayed recognition. No trophy or invented contents.",
+      "world": "Private dark historic walnut bar, one warm right lamp, neutral near-black shadows, burgundy upholstery; used steel shaker.",
+      "issues": [
+        "Small usable tag width76px in master requires real name-overlay check; not accepted until coordinator browser review."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1206.88995215311,
+        "cy": 677.8723404255319,
+        "w": 87.27272727272728,
+        "angle": 24.011323222075763
+      },
+      "glass": {
+        "x": 1135.6937799043062,
+        "y": 483.7021276595745
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 289.7321937321937,
+        "cy": 753.1914893617021,
+        "w": 97.002849002849,
+        "angle": 24.004044236690923
+      },
+      "glass": {
+        "x": 210.5982905982906,
+        "y": 537.4468085106383
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/innocent-hero/portrait.jpg",
+    "wide": "/personas/innocent-hero/wide.jpg",
+    "wideTag": {
+      "cx": 0.6285885167464115,
+      "cy": 0.6276595744680851,
+      "w": 0.045454545454545456,
+      "angle": 24.011323222075763
+    },
+    "wideGlass": {
+      "x": 0.5915071770334929,
+      "y": 0.4478723404255319
+    },
+    "tag": {
+      "cx": 0.32336182336182334,
+      "cy": 0.6276595744680851,
+      "w": 0.10826210826210826,
+      "angle": 24.004044236690923
+    },
+    "glass": {
+      "x": 0.23504273504273504,
+      "y": 0.4478723404255319
+    }
+  },
+  "hashes": {
+    "master": "cc24b1e6334fb2c27657f6576f0d120a8219fb42e1ecae5ae0e5cfd8dcb6c20e",
+    "wide": "134bfc5b33c742020cb17008939cc09374e534aed8a169069f79d4fc9ceec049",
+    "portrait": "ce9fda3072899ee15ea9404bb6da18c27ea6fbaf56b20e33b5645a8ffdda284f"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 971.4832535885166,
+          "y0": 353.8723404255319,
+          "x1": 1298.755980861244,
+          "y1": 839.8723404255319
+        },
+        "paper": {
+          "x0": 1142.5837320574165,
+          "y0": 616.9787234042553,
+          "x1": 1267.751196172249,
+          "y1": 739.9148936170212
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 729.5693779904306,
+          "y0": 294.89361702127655,
+          "x1": 1002.2966507177034,
+          "y1": 699.8936170212766
+        },
+        "paper": {
+          "x0": 872.1531100478469,
+          "y0": 514.1489361702128,
+          "x1": 976.4593301435407,
+          "y1": 616.595744680851
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1036.248803827751,
+          "y0": 324.103829787234,
+          "x1": 1385.3397129186603,
+          "y1": 842.503829787234
+        },
+        "paper": {
+          "x0": 1218.755980861244,
+          "y0": 604.7506382978723,
+          "x1": 1352.267942583732,
+          "y1": 735.8825531914894
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1740.5741626794256,
+          "y0": 406.3212765957446,
+          "x1": 2326.937799043062,
+          "y1": 1277.0712765957446
+        },
+        "paper": {
+          "x0": 2047.129186602871,
+          "y0": 877.7202127659573,
+          "x1": 2271.3875598086124,
+          "y1": 1097.9808510638297
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.23504273504273504,
+        "y": 0.4478723404255319
+      },
+      "bounds": {
+        "glass": {
+          "x0": -36.704691358024704,
+          "y0": 276.5446808510638,
+          "x1": 219.14032288698954,
+          "y1": 656.3446808510638
+        },
+        "paper": {
+          "x0": 97.05287749287749,
+          "y0": 482.1574468085106,
+          "x1": 194.90237416904085,
+          "y1": 578.2297872340425
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.23504273504273504,
+        "y": 0.4478723404255319
+      },
+      "bounds": {
+        "glass": {
+          "x0": -40.687673314339975,
+          "y0": 305.3787234042553,
+          "x1": 241.83312440645773,
+          "y1": 724.7787234042552
+        },
+        "paper": {
+          "x0": 107.01618233618234,
+          "y0": 532.4297872340425,
+          "x1": 215.06799620132955,
+          "y1": 638.5191489361702
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.23504273504273504,
+        "y": 0.4478723404255319
+      },
+      "bounds": {
+        "glass": {
+          "x0": -11.178423551756886,
+          "y0": 186.11063829787233,
+          "x1": 161.00163342830007,
+          "y1": 441.7106382978723
+        },
+        "paper": {
+          "x0": 78.83851851851851,
+          "y0": 324.4851063829787,
+          "x1": 144.6898385565052,
+          "y1": 389.1404255319149
+        }
+      }
+    }
+  ]
+}

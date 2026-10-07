@@ -1,0 +1,1 @@
+Full 216-line current dossier and 31-line spec read before v2 edit. Settled recipe; editorial status unchanged. Actual master1672×941 verified. Source exact tool-return file preserved. Export gate paused; coordinator alone exports.

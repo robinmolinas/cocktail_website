@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Saviour (hero-caregiver)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine items (close pair with *Off Duty*, from the corpus review).
+- **Edits** (before → after, short): whoYouAre ¶1 (Q110): "Something goes wrong for someone near you: the bill nobody can split, the call nobody wants to make, the mistake that was only half theirs." → "The bill nobody can split, the call nobody wants to make, the mistake that was only half theirs: it's landed on someone near you." (The queue's "someone near you is stuck with it" tripped the lint's motif check against innocent-hero, and "someone close to you" against caregiver-regular-guy, so only the clause after the colon differs from the queue.)
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (v1: Gallant, story rows; drink rows pending) · [x] drink + four checks (v1: rye/sweet vermouth 1:1, soda; balanced 14.5%; veto-free; no spark (stated)) · [x] reading (v1) · [x] fact audit (v1: X1–X6 open) · [x] resonance test (v2: ready) · [x] names (≥3 + pick) (Next One's Mine (all three); I Owe You second) · [x] image brief (v1)
 - **Last change to the pour:** r7: reading v4 (Y1; lint-only whoYouAre line)

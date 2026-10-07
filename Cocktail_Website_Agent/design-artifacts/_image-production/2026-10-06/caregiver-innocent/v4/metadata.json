@@ -1,0 +1,602 @@
+{
+  "pairing": "caregiver-innocent",
+  "pour": "Before the Room",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "1e16f17d4f994c89049a4443fd3129e8dbd4d05445533719f297cbfe8a0e3fc1",
+  "review": {
+    "recipe": "20ml fine-strained basil/cassis plus120ml Crémant in chilled flute, no ice or garnish. Transparent deep violet-red lower/pale gold-rose upper wine and real carbonation; no generated names.",
+    "personality": "Coat collar/lapelled front and folded ready handkerchief are now adjacent to hero and recognizable in calculated phone breathing windows. The full coat and handkerchief are partly cropped; wallet is optional and still not fully retained. Full portrait must not be substituted for phone view.",
+    "world": "v3 material correction largely retained: flatter low-satin long-grain walnut and plain clear glass. Right practical remains warm, bubbles dense, handkerchief/coat detail requires root full-size JPEG material review.",
+    "issues": [
+      "Candidate only: no child exports and no actual v4 JPEG review yet.",
+      "Wallet still extends beyond actual phone cover window; not counted as essential trace.",
+      "Coat/handkerchief recognition judgments need root actual JPEG and browser inspection; full trace bounds do not fit phone.",
+      "Actual short/long-name browser gate remains OS-blocked."
+    ]
+  },
+  "measurements": {
+    "pairing": "caregiver-innocent",
+    "pour": "Before the Room",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v4/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-a835d0e9-5ce4-4547-bddb-3472fe64c78d.png",
+    "sourceSha256": "1e16f17d4f994c89049a4443fd3129e8dbd4d05445533719f297cbfe8a0e3fc1",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      790,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1157,
+      "cy": 730,
+      "w": 169,
+      "angle": 7
+    },
+    "glass": {
+      "x": 988,
+      "y": 509
+    },
+    "bounds": {
+      "glass": {
+        "x0": 900,
+        "y0": 246,
+        "x1": 1072,
+        "y1": 770
+      },
+      "paper": {
+        "x0": 1034,
+        "y0": 673,
+        "x1": 1245,
+        "y1": 776
+      }
+    },
+    "personalityBounds": {
+      "coat": {
+        "x0": 1084,
+        "y0": 293,
+        "x1": 1496,
+        "y1": 615
+      },
+      "handkerchief": {
+        "x0": 1038,
+        "y0": 573,
+        "x1": 1334,
+        "y1": 692
+      },
+      "wallet": {
+        "x0": 1215,
+        "y0": 628,
+        "x1": 1434,
+        "y1": 724
+      }
+    },
+    "recognitionRegions": {
+      "coatCollarAndLapelledFront": {
+        "x0": 1084,
+        "y0": 297,
+        "x1": 1256,
+        "y1": 561
+      },
+      "foldedReadyHandkerchief": {
+        "x0": 1041,
+        "y0": 586,
+        "x1": 1249,
+        "y1": 680
+      }
+    },
+    "review": {
+      "recipe": "20ml fine-strained basil/cassis plus120ml Crémant in chilled flute, no ice or garnish. Transparent deep violet-red lower/pale gold-rose upper wine and real carbonation; no generated names.",
+      "personality": "Coat collar/lapelled front and folded ready handkerchief are now adjacent to hero and recognizable in calculated phone breathing windows. The full coat and handkerchief are partly cropped; wallet is optional and still not fully retained. Full portrait must not be substituted for phone view.",
+      "world": "v3 material correction largely retained: flatter low-satin long-grain walnut and plain clear glass. Right practical remains warm, bubbles dense, handkerchief/coat detail requires root full-size JPEG material review.",
+      "issues": [
+        "Candidate only: no child exports and no actual v4 JPEG review yet.",
+        "Wallet still extends beyond actual phone cover window; not counted as essential trace.",
+        "Coat/handkerchief recognition judgments need root actual JPEG and browser inspection; full trace bounds do not fit phone.",
+        "Actual short/long-name browser gate remains OS-blocked."
+      ]
+    },
+    "measurementScope": "Actual1672×941 master measured. Portrait x790 chosen to preserve complete glass at breathing endpoint; calculated phone windows include CSS scale/translation, not browser evidence.",
+    "calculatedPhoneMotionRisk": {
+      "scope": "Current TheReading.tsx cover/object-position rounded to0.1%; CSS .tr-frame scale1.055→1.115 and translation-1.6%,-1.2%, phases0,.25,.5,.75,1, first-screen p=0. Later scroll.bg translation and scrim are not browser-tested.",
+      "phases": [
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "phase": 0,
+          "scale": 1.055,
+          "roundedObjectPosition": [
+            0.282,
+            0.541
+          ],
+          "masterWindow": {
+            "x0": 876.7754931517069,
+            "y0": 24.502369668246445,
+            "x1": 1288.569526144163,
+            "y1": 915.4976303317535
+          },
+          "fullGlass": true,
+          "fullPaper": true,
+          "fullCoat": false,
+          "fullHandkerchief": false,
+          "fullWallet": false,
+          "coatRecognitionRegion": true,
+          "handkerchiefRecognitionRegion": true
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "phase": 0.25,
+          "scale": 1.0699999999999998,
+          "roundedObjectPosition": [
+            0.282,
+            0.541
+          ],
+          "masterWindow": {
+            "x0": 881.3996707442466,
+            "y0": 33.56766355140177,
+            "x1": 1287.4208901900797,
+            "y1": 912.0723364485982
+          },
+          "fullGlass": true,
+          "fullPaper": true,
+          "fullCoat": false,
+          "fullHandkerchief": false,
+          "fullWallet": false,
+          "coatRecognitionRegion": true,
+          "handkerchiefRecognitionRegion": true
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "phase": 0.5,
+          "scale": 1.085,
+          "roundedObjectPosition": [
+            0.282,
+            0.541
+          ],
+          "masterWindow": {
+            "x0": 885.9440398545751,
+            "y0": 42.46027649769582,
+            "x1": 1286.3520627182074,
+            "y1": 908.8197235023043
+          },
+          "fullGlass": true,
+          "fullPaper": true,
+          "fullCoat": false,
+          "fullHandkerchief": false,
+          "fullWallet": false,
+          "coatRecognitionRegion": true,
+          "handkerchiefRecognitionRegion": true
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "phase": 0.75,
+          "scale": 1.0999999999999999,
+          "roundedObjectPosition": [
+            0.282,
+            0.541
+          ],
+          "masterWindow": {
+            "x0": 890.4118653751461,
+            "y0": 51.18727272727268,
+            "x1": 1285.3597788360928,
+            "y1": 905.7327272727273
+          },
+          "fullGlass": true,
+          "fullPaper": true,
+          "fullCoat": false,
+          "fullHandkerchief": false,
+          "fullWallet": false,
+          "coatRecognitionRegion": true,
+          "handkerchiefRecognitionRegion": true
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "phase": 1,
+          "scale": 1.115,
+          "roundedObjectPosition": [
+            0.282,
+            0.541
+          ],
+          "masterWindow": {
+            "x0": 894.8062365091341,
+            "y0": 59.75533632286995,
+            "x1": 1284.4409493405612,
+            "y1": 902.8046636771301
+          },
+          "fullGlass": true,
+          "fullPaper": true,
+          "fullCoat": false,
+          "fullHandkerchief": false,
+          "fullWallet": false,
+          "coatRecognitionRegion": true,
+          "handkerchiefRecognitionRegion": true
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "phase": 0,
+          "scale": 1.055,
+          "roundedObjectPosition": [
+            0.282,
+            0.541
+          ],
+          "masterWindow": {
+            "x0": 876.9467971129566,
+            "y0": 24.50236966824634,
+            "x1": 1288.1063944872885,
+            "y1": 915.4976303317537
+          },
+          "fullGlass": true,
+          "fullPaper": true,
+          "fullCoat": false,
+          "fullHandkerchief": false,
+          "fullWallet": false,
+          "coatRecognitionRegion": true,
+          "handkerchiefRecognitionRegion": true
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "phase": 0.25,
+          "scale": 1.0699999999999998,
+          "roundedObjectPosition": [
+            0.282,
+            0.541
+          ],
+          "masterWindow": {
+            "x0": 881.5638504085562,
+            "y0": 33.567663551401765,
+            "x1": 1286.9595281935285,
+            "y1": 912.0723364485982
+          },
+          "fullGlass": true,
+          "fullPaper": true,
+          "fullCoat": false,
+          "fullHandkerchief": false,
+          "fullWallet": false,
+          "coatRecognitionRegion": true,
+          "handkerchiefRecognitionRegion": true
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "phase": 0.5,
+          "scale": 1.085,
+          "roundedObjectPosition": [
+            0.282,
+            0.541
+          ],
+          "masterWindow": {
+            "x0": 886.1012181798789,
+            "y0": 42.46027649769577,
+            "x1": 1285.892347424045,
+            "y1": 908.8197235023042
+          },
+          "fullGlass": true,
+          "fullPaper": true,
+          "fullCoat": false,
+          "fullHandkerchief": false,
+          "fullWallet": false,
+          "coatRecognitionRegion": true,
+          "handkerchiefRecognitionRegion": true
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "phase": 0.75,
+          "scale": 1.0999999999999999,
+          "roundedObjectPosition": [
+            0.282,
+            0.541
+          ],
+          "masterWindow": {
+            "x0": 890.5621602892816,
+            "y0": 51.18727272727263,
+            "x1": 1284.9015923164818,
+            "y1": 905.7327272727274
+          },
+          "fullGlass": true,
+          "fullPaper": true,
+          "fullCoat": false,
+          "fullHandkerchief": false,
+          "fullWallet": false,
+          "coatRecognitionRegion": true,
+          "handkerchiefRecognitionRegion": true
+        },
+        {
+          "viewport": [
+            430,
+            932
+          ],
+          "phase": 1,
+          "scale": 1.115,
+          "roundedObjectPosition": [
+            0.282,
+            0.541
+          ],
+          "masterWindow": {
+            "x0": 894.9497611805186,
+            "y0": 59.755336322869894,
+            "x1": 1283.9841784270839,
+            "y1": 902.8046636771301
+          },
+          "fullGlass": true,
+          "fullPaper": true,
+          "fullCoat": false,
+          "fullHandkerchief": false,
+          "fullWallet": false,
+          "coatRecognitionRegion": true,
+          "handkerchiefRecognitionRegion": true
+        }
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1328.6124401913876,
+        "cy": 838.7234042553191,
+        "w": 194.06698564593302,
+        "angle": 7.003686434592469
+      },
+      "glass": {
+        "x": 1134.5454545454545,
+        "y": 584.8085106382979
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 468.42165242165237,
+        "cy": 931.9148936170212,
+        "w": 215.7037037037037,
+        "angle": 7.001316590471017
+      },
+      "glass": {
+        "x": 252.71794871794873,
+        "y": 649.7872340425532
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-innocent/portrait.jpg",
+    "wide": "/personas/caregiver-innocent/wide.jpg",
+    "wideTag": {
+      "cx": 0.6919856459330144,
+      "cy": 0.776595744680851,
+      "w": 0.10107655502392345,
+      "angle": 7.003686434592469
+    },
+    "wideGlass": {
+      "x": 0.5909090909090909,
+      "y": 0.5414893617021277
+    },
+    "tag": {
+      "cx": 0.5227920227920227,
+      "cy": 0.776595744680851,
+      "w": 0.24074074074074073,
+      "angle": 7.001316590471017
+    },
+    "glass": {
+      "x": 0.28205128205128205,
+      "y": 0.5414893617021277
+    }
+  },
+  "hashes": {
+    "master": "cc64150fd73f04b52f49378167761d065388a3762a3cd9fde5a4330fd78fba0e",
+    "wide": "dfefca6a89c9dd2017752cc2c878593a44cfe8c5777baa740acaa9c661035e95",
+    "portrait": "9c286229d64a1ddca36f100210d4123913a4cca3b4fecfa9f0837a1f9d02438e"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1033.4928229665072,
+          "y0": 282.6382978723404,
+          "x1": 1231.0047846889952,
+          "y1": 884.6808510638298
+        },
+        "paper": {
+          "x0": 1187.3684210526317,
+          "y0": 773.2340425531914,
+          "x1": 1429.6650717703349,
+          "y1": 891.5744680851063
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 781.2440191387559,
+          "y0": 235.531914893617,
+          "x1": 945.8373205741627,
+          "y1": 737.2340425531916
+        },
+        "paper": {
+          "x0": 909.4736842105264,
+          "y0": 644.3617021276596,
+          "x1": 1111.3875598086124,
+          "y1": 742.9787234042553
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1102.3923444976076,
+          "y0": 248.12085106382978,
+          "x1": 1313.0717703349283,
+          "y1": 890.2995744680851
+        },
+        "paper": {
+          "x0": 1266.5263157894738,
+          "y0": 771.4229787234042,
+          "x1": 1524.9760765550238,
+          "y1": 897.6527659574467
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1851.6746411483252,
+          "y0": 278.6936170212765,
+          "x1": 2205.5502392344497,
+          "y1": 1357.3531914893617
+        },
+        "paper": {
+          "x0": 2127.3684210526317,
+          "y0": 1157.677659574468,
+          "x1": 2561.4832535885166,
+          "y1": 1369.7042553191488
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.28205128205128205,
+        "y": 0.5414893617021277
+      },
+      "bounds": {
+        "glass": {
+          "x0": 31.002241215574543,
+          "y0": 220.87659574468086,
+          "x1": 185.4069515669516,
+          "y1": 691.3617021276596
+        },
+        "paper": {
+          "x0": 151.2942830009497,
+          "y0": 604.268085106383,
+          "x1": 340.70936372269705,
+          "y1": 696.7489361702127
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.28205128205128205,
+        "y": 0.5414893617021277
+      },
+      "bounds": {
+        "glass": {
+          "x0": 34.04755935422601,
+          "y0": 243.90638297872343,
+          "x1": 204.55133903133907,
+          "y1": 763.4468085106383
+        },
+        "paper": {
+          "x0": 166.88189933523267,
+          "y0": 667.2723404255319,
+          "x1": 376.0464197530864,
+          "y1": 769.3957446808511
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.28205128205128205,
+        "y": 0.5414893617021277
+      },
+      "bounds": {
+        "glass": {
+          "x0": 37.092041785375116,
+          "y0": 148.6468085106383,
+          "x1": 141.00421652421656,
+          "y1": 465.27659574468083
+        },
+        "paper": {
+          "x0": 118.04687559354228,
+          "y0": 406.663829787234,
+          "x1": 245.52053181386518,
+          "y1": 468.90212765957443
+        }
+      }
+    }
+  ]
+}

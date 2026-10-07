@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>H5 prototype — Surface Tension</title>
+<!-- H5 · "Surface Tension" (2026-10-06 concept prototype, not production)
+     She is one drop of her own colour — the H2 seed — suspended in the dark.
+     No glass, no figure: a circle of liquid that is her.
+       Round 1 · What draws you right now? Touching a word makes the drop
+         REACH: a neck of her liquid stretches out, touches the word, and
+         pinches off, leaving a bead of her with it. She gives a little of
+         herself to what she is drawn to; the drop is a little smaller for it.
+         Touch the word again and the bead flows home.
+       The turn: her beads flow home and she is whole again — but each leaves
+         a mote circling her, so what drew her stays in her orbit.
+       Round 2 · What do people come to you for? Now the words COME TO HER:
+         touched, a word drifts in, meets her surface and is drawn inside,
+         where it is held as light. Touch it inside her to let it go.
+     The direction the liquid moves IS the question; nothing labels it.
+     Answers: up to three each, reversible, stored in vocabulary order — no
+     order, distance or intensity is captured (agreed with the matching owner).
+     Options: ?seed=%231287c8 (her colour)  ?motion=still -->
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair:ital,opsz,wght@0,5..1200,300..700;1,5..1200,300..700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-text: 'Playfair', 'Playfair Display', Georgia, serif;
+  --font-label: 'Jost', system-ui, sans-serif;
+  --legible: 0 1px 2px rgba(22, 11, 4, 0.26);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --glide: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --sphere-rim: rgba(255, 235, 200, 0.22);
+  --sphere-fill: radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.035) 42%, rgba(255, 235, 200, 0.06) 100%);
+  --c: #e8702a;
+  --word: clamp(92px, 11vmin, 112px);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: #060505; overflow: hidden; }
+body { color: #fbf4e8; font-family: var(--font-text); -webkit-tap-highlight-color: transparent; }
+::selection { background: color-mix(in srgb, var(--c) 40%, transparent); }
+.world { position: fixed; inset: 0; background: url('../h5-two-directions/hold-8_2.jpg') center / cover no-repeat; }
+/* the resonance nightfall, as in the app: the world dims, evenly */
+.world::after { content: ''; position: absolute; inset: 0; background: radial-gradient(130% 100% at 50% 50%, rgba(5, 4, 8, 0.62), rgba(5, 4, 8, 0.84)); }
+.mark { position: fixed; top: clamp(18px, 3.2vh, 30px); left: clamp(20px, 6.5vw, 104px); font-family: var(--font-display); font-style: italic; font-size: 20px; z-index: 6; }
+canvas { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 2; pointer-events: none; }
+
+@keyframes rise { from { opacity: 0; transform: translateY(14px); filter: blur(5px); } to { opacity: 1; transform: none; filter: none; } }
+@keyframes holdOut { to { opacity: 0; filter: blur(5px); transform: translateY(-8px); } }
+.head { position: absolute; left: 50%; top: 11%; width: min(640px, 88vw); transform: translateX(-50%); text-align: center; z-index: 4; pointer-events: none; }
+.head.out { animation: holdOut 0.6s ease forwards; }
+.head h2 { margin: 0; font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: clamp(1.4rem, 3vmin, 1.85rem); line-height: 1.25; text-shadow: var(--legible); text-wrap: balance; animation: rise 0.9s var(--ease) both; }
+.head p { margin: 0.65rem 0 0; font-size: clamp(15px, 1.9vmin, 17px); line-height: 1.5; color: rgba(245, 234, 216, 0.86); text-shadow: var(--legible); animation: rise 1s var(--ease) 0.4s both; }
+
+/* the words — small glass beads of the journey's one "choose me" material */
+.field { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.slot { position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -50%); }
+.drift { animation: driftA 6.4s ease-in-out infinite alternate; }
+.slot:nth-child(even) .drift { animation-name: driftB; animation-duration: 7.1s; }
+.slot:nth-child(3n) .drift { animation-duration: 7.7s; animation-delay: -2.2s; }
+@keyframes driftA { to { transform: translate(3px, -7px); } }
+@keyframes driftB { to { transform: translate(-4px, 6px); } }
+.word { pointer-events: auto; border: 0; background: none; padding: 6px; cursor: pointer; color: inherit; font: inherit;
+  opacity: 0; animation: rise 0.9s var(--ease) var(--d, 0ms) both; transition: transform 0.9s var(--glide), opacity 0.6s ease, filter 0.6s ease; }
+.word .glass { display: flex; align-items: center; justify-content: center; width: var(--word); aspect-ratio: 1; border-radius: 50%; padding: 0 10px; text-align: center;
+  border: 1px solid var(--sphere-rim); background: var(--sphere-fill); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px);
+  transition: border-color 0.4s ease, box-shadow 0.5s ease, transform 0.4s var(--ease); }
+.word span { font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: clamp(14px, 1.75vmin, 16.5px); line-height: 1.2; text-shadow: var(--legible); text-wrap: balance; }
+@media (hover: hover) { .word:hover .glass { border-color: rgba(255, 176, 136, 0.55); transform: scale(1.05); } }
+.word:focus-visible { outline: none; } .word:focus-visible .glass { outline: 2px solid var(--c); outline-offset: 4px; }
+/* round 1: a bead of her sits inside the glass — the rim takes her colour */
+.word.holds .glass { border-color: color-mix(in srgb, var(--c) 60%, rgba(255, 240, 220, 0.5)); box-shadow: 0 0 28px -8px var(--c); }
+.word.dim { filter: saturate(0.6) brightness(0.8); }
+@keyframes refuse { 25% { transform: translateX(-4px); } 60% { transform: translateX(3px); } }
+.word.refused .glass { animation: refuse 0.42s ease; }
+/* round 2: the chosen word travels to her and goes in */
+.word.taken { transform: translate(var(--tx), var(--ty)) scale(0.5); opacity: 0; filter: blur(3px); pointer-events: none; transition: transform 0.85s cubic-bezier(0.5, 0, 0.3, 1), opacity 0.35s ease 0.5s, filter 0.5s ease 0.35s; }
+.word.leaving { opacity: 0; filter: blur(5px); transition: opacity 0.6s ease, filter 0.6s ease; pointer-events: none; }
+
+/* what she holds — the words people come to her for, written inside her */
+.held { position: absolute; z-index: 4; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center; gap: 0.1rem; pointer-events: none; }
+.held button { pointer-events: auto; border: 0; background: none; color: #fffaf0; cursor: pointer; padding: 0.18rem 0.5rem; min-height: 30px;
+  font-family: var(--font-display); font-style: italic; font-weight: 400; font-size: clamp(13px, 1.6vmin, 15.5px); text-shadow: 0 1px 6px rgba(10, 6, 4, 0.5);
+  animation: rise 0.7s var(--ease) both; }
+.held button:focus-visible { outline: 1px solid rgba(255, 240, 220, 0.6); outline-offset: 2px; border-radius: 999px; }
+
+.next { position: absolute; left: 0; right: 0; bottom: 8%; margin: 0 auto; width: fit-content; min-height: 44px; z-index: 5;
+  font-family: var(--font-label); font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; color: rgba(245, 234, 216, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 999px; padding: 0.66rem 1.95rem 0.66rem 2.1rem; background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(4px);
+  cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.6s ease, border-color 0.4s ease, color 0.4s ease; }
+.next.ready { opacity: 1; pointer-events: auto; }
+.next.full { color: #fffaf0; border-color: color-mix(in srgb, var(--c) 55%, rgba(255, 246, 228, 0.25)); }
+.next:hover, .next:focus-visible { border-color: rgba(255, 176, 136, 0.6); outline: none; }
+
+.review { position: fixed; left: 10px; bottom: 10px; z-index: 9; display: flex; gap: 4px; font: 11px ui-monospace, Menlo, monospace; }
+.review button { font: inherit; color: #fff; background: rgba(0, 0, 0, 0.6); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 4px; padding: 4px 7px; cursor: pointer; }
+.review .sw { width: 20px; padding: 0; }
+.log { position: fixed; right: 10px; bottom: 10px; z-index: 9; font: 11px/1.4 ui-monospace, Menlo, monospace; background: rgba(0, 0, 0, 0.6); padding: 6px 9px; border-radius: 6px; white-space: pre; pointer-events: none; }
+@media (max-width: 640px) {
+  :root { --word: clamp(86px, 25vw, 104px); }
+  .head { top: 9%; }
+  .next { bottom: 5.5%; }
+  .log { bottom: 40px; font-size: 9px; }
+}
+@media (prefers-reduced-motion: reduce) { .drift { animation: none; } }
+</style>
+</head>
+<body>
+<div class="world" aria-hidden="true"></div>
+<canvas id="liquid" aria-hidden="true"></canvas>
+<div class="mark">Dionysus</div>
+<main id="stage"></main>
+<div class="log" id="log"></div>
+<div class="review" aria-hidden="true"><button onclick="location.reload()">replay</button><span id="swatches" style="display:flex;gap:3px"></span></div>
+<script>
+/* ------------------------------------------------------------------ setup */
+const q = new URLSearchParams(location.search);
+const SEEDS = ['#c8102e', '#ff6f1f', '#f2c24e', '#58b947', '#1287c8', '#7b5aa6', '#f2789f', '#5c2447'];
+const seedHex = q.get('seed') || '#ff6f1f';
+document.documentElement.style.setProperty('--c', seedHex);
+const still = q.get('motion') === 'still' || matchMedia('(prefers-reduced-motion: reduce)').matches;
+const sw = document.getElementById('swatches');
+SEEDS.forEach((h) => { const b = document.createElement('button'); b.className = 'sw'; b.style.background = h; b.title = h; b.onclick = () => { q.set('seed', h); location.search = q; }; sw.append(b); });
+
+const ROUNDS = [
+  { key: 'drawnToward', q: 'What draws you right now?', hint: 'Choose up to three.',
+    words: ['Freedom', 'Beauty', 'Mastery', 'Peace', 'Belonging', 'Pleasure', 'Wonder', 'Change', 'Mischief'] },
+  { key: 'soughtFor', q: 'What do people come to you for?', hint: 'Choose up to three.',
+    words: ['Advice', 'Comfort', 'Honesty', 'Courage', 'Ideas', 'Calm', 'Taste', 'A reality check', 'A little chaos'] },
+];
+const MAX = 3;
+const answers = { drawnToward: [], soughtFor: [] };
+const stage = document.getElementById('stage');
+const logEl = document.getElementById('log');
+const log = () => { logEl.textContent = `drawnToward: ${answers.drawnToward.join(', ') || '—'}\nsoughtFor:   ${answers.soughtFor.join(', ') || '—'}`; };
+
+const hexRgb = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+const SEED = hexRgb(seedHex);
+const IVORY = [255, 242, 222];
+const ease = (t) => 1 - Math.pow(1 - t, 3);                     // ease-out cubic
+const easeIO = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+const clamp01 = (t) => Math.max(0, Math.min(1, t));
+const lerp = (a, b, t) => a + (b - a) * t;
+const isPhone = () => innerWidth <= 640;
+
+/* ------------------------------------------------------------- the drop */
+// Her centre and size. On a phone she sits high, the words gather below her.
+const drop = { x: 0, y: 0, R: 0, R0: 0, breath: 0 };
+function placeDrop() {
+  const phone = isPhone();
+  drop.x = innerWidth / 2;
+  drop.y = innerHeight * (phone ? 0.335 : 0.565);
+  drop.R0 = phone ? Math.min(64, innerWidth * 0.165) : Math.min(96, innerHeight * 0.105);
+}
+placeDrop();
+
+// Everything liquid is a metaball. Reaches (round 1) and arrivals (round 2)
+// add their own balls each frame; the field below renders them as one body.
+const reaches = new Map();   // word → { el, state, t0, bead }
+const arrivals = new Map();  // word → { from:{x,y}, t0, state }
+const orbit = [];            // motes left by round 1's beads
+let round = 0;
+
+function wordCentre(el) {
+  const g = el.querySelector('.glass').getBoundingClientRect();
+  return { x: g.left + g.width / 2, y: g.top + g.height / 2, r: g.width / 2 };
+}
+
+/* ----------------------------------------------------------- the field */
+const cv = document.getElementById('liquid');
+const ctx = cv.getContext('2d');
+const off = document.createElement('canvas');
+const octx = off.getContext('2d');
+let CELL = 3, img = null, W = 0, H = 0;
+function resize() {
+  const dpr = Math.min(2, devicePixelRatio || 1);
+  cv.width = innerWidth * dpr; cv.height = innerHeight * dpr;
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  CELL = isPhone() ? 2.5 : 3;
+  W = Math.ceil(innerWidth / CELL); H = Math.ceil(innerHeight / CELL);
+  off.width = W; off.height = H; img = octx.createImageData(W, H);
+  placeDrop();
+}
+addEventListener('resize', resize); resize();
+
+// balls: [x, y, r, colourMix(0 = her colour … 1 = ivory light of others)]
+function render(balls) {
+  ctx.clearRect(0, 0, innerWidth, innerHeight);
+  // only compute where liquid can be
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  for (const [x, y, r] of balls) { x0 = Math.min(x0, x - r * 2.2); y0 = Math.min(y0, y - r * 2.2); x1 = Math.max(x1, x + r * 2.2); y1 = Math.max(y1, y + r * 2.2); }
+  const cx0 = Math.max(0, Math.floor(x0 / CELL)), cy0 = Math.max(0, Math.floor(y0 / CELL));
+  const cx1 = Math.min(W - 1, Math.ceil(x1 / CELL)), cy1 = Math.min(H - 1, Math.ceil(y1 / CELL));
+  const d = img.data; d.fill(0);
+  const n = balls.length;
+  const bx = new Float32Array(n), by = new Float32Array(n), br = new Float32Array(n), bm = new Float32Array(n);
+  for (let i = 0; i < n; i++) { bx[i] = balls[i][0]; by[i] = balls[i][1]; br[i] = balls[i][2] * balls[i][2]; bm[i] = balls[i][3] || 0; }
+  for (let cy = cy0; cy <= cy1; cy++) {
+    const py = cy * CELL + CELL / 2;
+    for (let cx = cx0; cx <= cx1; cx++) {
+      const px = cx * CELL + CELL / 2;
+      let f = 0, mix = 0;
+      for (let i = 0; i < n; i++) { const dx = px - bx[i], dy = py - by[i]; const c = br[i] / (dx * dx + dy * dy + 1); f += c; mix += c * bm[i]; }
+      if (f < 0.7) continue;
+      mix /= f;
+      const edge = clamp01((f - 0.86) / 0.3);                 // a soft, wet edge
+      const depth = clamp01((f - 1) / 3.2);                    // rim → core
+      const rimLight = 1 - Math.sqrt(depth);                   // the meniscus catches light
+      // her colour, darker in the body and luminous at the rim; others' light is ivory
+      const base0 = lerp(0.42, 1.0, rimLight * 0.75 + 0.25 * (1 - depth));
+      const r = lerp(SEED[0] * base0, IVORY[0], mix * 0.85) + rimLight * 38;
+      const g = lerp(SEED[1] * base0, IVORY[1], mix * 0.85) + rimLight * 30;
+      const b = lerp(SEED[2] * base0, IVORY[2], mix * 0.85) + rimLight * 24;
+      const k = (cy * W + cx) * 4;
+      d[k] = r; d[k + 1] = g; d[k + 2] = b;
+      d[k + 3] = 255 * edge * lerp(0.62, 0.9, depth);
+    }
+  }
+  octx.putImageData(img, 0, 0);
+  ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
+  ctx.drawImage(off, 0, 0, W * CELL, H * CELL);
+  // glass-like light on her body: one soft highlight, one hairline of rim light
+  const R = drop.R;
+  const hl = ctx.createRadialGradient(drop.x - R * 0.36, drop.y - R * 0.42, 0, drop.x - R * 0.36, drop.y - R * 0.42, R * 0.62);
+  hl.addColorStop(0, 'rgba(255,250,240,0.42)'); hl.addColorStop(0.5, 'rgba(255,250,240,0.08)'); hl.addColorStop(1, 'rgba(255,250,240,0)');
+  ctx.fillStyle = hl; ctx.beginPath(); ctx.arc(drop.x - R * 0.36, drop.y - R * 0.42, R * 0.62, 0, Math.PI * 2); ctx.fill();
+  ctx.strokeStyle = 'rgba(255,240,222,0.22)'; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.arc(drop.x, drop.y, R * 0.985, Math.PI * 0.95, Math.PI * 1.6); ctx.stroke();
+}
+
+/* ------------------------------------------------------------ the loop */
+const REACH_MS = still ? 1 : 720, PINCH_MS = still ? 1 : 520, HOME_MS = still ? 1 : 760, ARRIVE_MS = still ? 1 : 820;
+function frame(now) {
+  // she breathes, and she is a little smaller for every bead she has given
+  drop.breath = still ? 0 : Math.sin(now / 1400) * 0.012;
+  const given = [...reaches.values()].filter((r) => r.state !== 'home').length;
+  const taken = [...arrivals.values()].filter((a) => a.state === 'in').length;
+  const R0sq = drop.R0 * drop.R0;
+  drop.R = Math.sqrt(Math.max(R0sq * 0.6, R0sq - given * R0sq * 0.06 + taken * R0sq * 0.05)) * (1 + drop.breath);
+
+  const balls = [[drop.x, drop.y, drop.R, 0]];
+  for (const [word, rc] of reaches) {
+    const w = wordCentre(rc.el);
+    const rb = Math.max(9, w.r * 0.28);                  // a bead of her, inside the glass
+    const t = now - rc.t0;
+    let tip, neck;                                       // tip position 0..1, neck thickness 0..1
+    if (rc.state === 'reach') { const p = ease(clamp01(t / REACH_MS)); tip = p; neck = 1; if (t >= REACH_MS) { rc.state = 'pinch'; rc.t0 = now; } }
+    else if (rc.state === 'pinch') { tip = 1; neck = 1 - easeIO(clamp01(t / PINCH_MS)); if (t >= PINCH_MS) { rc.state = 'held'; rc.el.classList.add('holds'); } }
+    else if (rc.state === 'held') { tip = 1; neck = 0; }
+    else if (rc.state === 'return') { const p = easeIO(clamp01(t / HOME_MS)); tip = 1 - p; neck = Math.sin(p * Math.PI) * 0.9; if (t >= HOME_MS) { rc.state = 'home'; } }
+    else continue;
+    const sx = drop.x, sy = drop.y, ex = w.x, ey = w.y;
+    const tx = lerp(sx, ex, tip), ty = lerp(sy, ey, tip);
+    balls.push([tx, ty, rb, 0]);
+    if (neck > 0.01) {
+      // the neck: one stretched surface, thick where it leaves her and
+      // tapering to the bead. Samples are spaced by distance so they always
+      // overlap (a string of pearls otherwise). As it lets go it thins in the
+      // middle first — the way a real drop pinches off.
+      // A row of metaballs at spacing s behaves like a line of charge: its
+      // surface sits at d ≈ π·r²/s. So each sample's radius is solved from
+      // the half-thickness we want to SEE, not used as the thickness itself
+      // (that inflated the neck into a wedge).
+      const len = Math.hypot(tx - sx, ty - sy);
+      const tipT = rb * 0.42;
+      const sp = tipT * 1.1;
+      const steps = Math.max(4, Math.ceil(len / sp));
+      const s = len / steps;
+      for (let i = 1; i < steps; i++) {
+        const u = i / steps;
+        const want = lerp(drop.R * 0.3, tipT, Math.pow(u, 0.6));
+        const pinch = clamp01(neck - (1 - neck) * Math.sin(u * Math.PI) * 0.9);
+        const T = want * pinch;
+        if (T > 0.5) balls.push([lerp(sx, tx, u), lerp(sy, ty, u), Math.sqrt((T * s) / Math.PI), 0]);
+      }
+    }
+  }
+  for (const [word, rc] of reaches) if (rc.state === 'home') { reaches.delete(word); }
+
+  // round 2: a word's light, carried in to her surface, then into her
+  for (const [word, a] of arrivals) {
+    const t = now - a.t0;
+    if (a.state === 'come') {
+      const p = clamp01(t / ARRIVE_MS);
+      const e = easeIO(p);
+      const x = lerp(a.from.x, drop.x, e), y = lerp(a.from.y, drop.y, e);
+      balls.push([x, y, lerp(a.from.r * 0.3, drop.R * 0.22, e), 1]);
+      if (p >= 1) { a.state = 'in'; a.t1 = now; renderHeld(); }
+    } else if (a.state === 'in') {
+      // the light it brought settles inside her and keeps glowing there
+      const k = (now - a.t1) / 1000;
+      const ang = a.seed * 2.1 + k * 0.25;
+      balls.push([drop.x + Math.cos(ang) * drop.R * 0.38, drop.y + Math.sin(ang) * drop.R * 0.3, drop.R * 0.26 * Math.min(1, k * 2), 0.65]);
+    } else if (a.state === 'out') {
+      const p = clamp01(t / ARRIVE_MS); const e = easeIO(p);
+      balls.push([lerp(drop.x, a.from.x, e), lerp(drop.y, a.from.y, e), lerp(drop.R * 0.22, a.from.r * 0.3, e) * (1 - p * 0.6), 1]);
+      if (p >= 1) arrivals.delete(word);
+    }
+  }
+  render(balls);
+
+  // what drew her stays in her orbit: one mote of her colour per bead
+  for (const m of orbit) {
+    const a = m.a0 + (now / 1000) * m.w;
+    const x = drop.x + Math.cos(a) * drop.R * m.k, y = drop.y + Math.sin(a) * drop.R * m.k * 0.82;
+    const g = ctx.createRadialGradient(x, y, 0, x, y, 9);
+    g.addColorStop(0, 'rgba(255,248,236,0.95)'); g.addColorStop(0.35, `rgba(${SEED.join(',')},0.75)`); g.addColorStop(1, `rgba(${SEED.join(',')},0)`);
+    ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, 9, 0, Math.PI * 2); ctx.fill();
+  }
+  requestAnimationFrame(frame);
+}
+
+/* ------------------------------------------------------------ the rounds */
+function layout(n) {
+  // desktop: the words ring her at a reachable distance; phone: they gather
+  // in three rows beneath her, so every reach is a short one
+  if (isPhone()) return Array.from({ length: n }, (_, i) => ({ x: 20 + (i % 3) * 30, y: 58 + Math.floor(i / 3) * 12.2 + (i % 3 === 1 ? 2.4 : 0) }));
+  const rx = Math.min(innerWidth * 0.3, 420), ry = Math.min(innerHeight * 0.27, 240);
+  return Array.from({ length: n }, (_, i) => {
+    const a = -Math.PI / 2 + (i / n) * Math.PI * 2 + 0.2;
+    return { x: ((drop.x + Math.cos(a) * rx) / innerWidth) * 100, y: ((drop.y + Math.sin(a) * ry) / innerHeight) * 100 };
+  });
+}
+
+function startRound(ri) {
+  round = ri;
+  const r = ROUNDS[ri];
+  const pos = layout(r.words.length);
+  stage.innerHTML = `<div class="head"><h2>${r.q}</h2><p id="hint">${r.hint}</p></div>
+    <div class="field">${r.words.map((w, i) => `<div class="slot" style="--x:${pos[i].x}%;--y:${pos[i].y}%"><div class="drift"><button class="word" aria-pressed="false" data-i="${i}" style="--d:${500 + i * 90}ms"><span class="glass"><span>${w}</span></span></button></div></div>`).join('')}</div>
+    <div class="held" id="held"></div>
+    <button class="next" id="next">Continue</button>`;
+  stage.querySelectorAll('.word').forEach((b) => b.onclick = () => choose(r, b));
+  document.getElementById('next').onclick = () => seal(ri);
+  update(r);
+}
+
+function update(r) {
+  const list = answers[r.key];
+  document.getElementById('hint').textContent = list.length === 0 ? r.hint : `${list.length} of ${MAX}. Touch one again to change your mind.`;
+  const next = document.getElementById('next');
+  next.classList.toggle('ready', list.length > 0); next.classList.toggle('full', list.length >= MAX);
+  stage.querySelectorAll('.word').forEach((b) => {
+    const on = list.includes(r.words[+b.dataset.i]);
+    b.setAttribute('aria-pressed', on);
+    b.classList.toggle('dim', !on && list.length >= MAX && round === 0);
+  });
+  log();
+}
+
+function choose(r, btn) {
+  const word = r.words[+btn.dataset.i];
+  const list = answers[r.key];
+  const on = list.includes(word);
+  if (!on && list.length >= MAX) { btn.classList.add('refused'); setTimeout(() => btn.classList.remove('refused'), 430); return; }
+  if (on) list.splice(list.indexOf(word), 1); else list.push(word);
+  list.sort((a, b) => r.words.indexOf(a) - r.words.indexOf(b));      // vocabulary order: no ranking
+  if (round === 0) {
+    if (on) { const rc = reaches.get(word); if (rc) { rc.state = 'return'; rc.t0 = performance.now(); rc.el.classList.remove('holds'); } }
+    else reaches.set(word, { el: btn, state: 'reach', t0: performance.now() });
+  } else {
+    // the word comes to her: the glass travels in and is taken
+    const w = wordCentre(btn);
+    btn.style.setProperty('--tx', `${drop.x - w.x}px`); btn.style.setProperty('--ty', `${drop.y - w.y}px`);
+    btn.classList.add('taken');
+    setTimeout(() => arrivals.set(word, { from: w, t0: performance.now(), state: 'come', seed: Object.keys(Object.fromEntries(arrivals)).length + Math.random() }), still ? 0 : 380);
+  }
+  update(r);
+}
+
+// round 2's held words, written inside her; touch one to let it go
+function renderHeld() {
+  const held = document.getElementById('held');
+  if (!held) return;
+  held.style.left = drop.x + 'px'; held.style.top = drop.y + 'px';
+  const inside = [...arrivals.entries()].filter(([, a]) => a.state === 'in').map(([w]) => w)
+    .sort((a, b) => ROUNDS[1].words.indexOf(a) - ROUNDS[1].words.indexOf(b));
+  held.innerHTML = inside.map((w) => `<button aria-label="Let ${w} go">${w}</button>`).join('');
+  held.querySelectorAll('button').forEach((b, i) => b.onclick = () => release(inside[i]));
+}
+function release(word) {
+  const a = arrivals.get(word); if (!a) return;
+  a.state = 'out'; a.t0 = performance.now();
+  const list = answers.soughtFor; list.splice(list.indexOf(word), 1);
+  const btn = [...stage.querySelectorAll('.word')].find((b) => ROUNDS[1].words[+b.dataset.i] === word);
+  setTimeout(() => { if (btn) { btn.classList.remove('taken'); } }, still ? 0 : ARRIVE_MS * 0.7);
+  renderHeld(); update(ROUNDS[1]);
+}
+
+function seal(ri) {
+  const r = ROUNDS[ri];
+  stage.querySelector('.head').classList.add('out');
+  document.getElementById('next').classList.remove('ready');
+  stage.querySelectorAll('.word:not(.taken)').forEach((b) => { if (!b.classList.contains('holds')) b.classList.add('leaving'); });
+  if (ri === 0) {
+    // THE TURN: her beads flow home and she is whole again — each one
+    // leaves a mote circling her, so what drew her stays in her orbit
+    setTimeout(() => {
+      let k = 0;
+      for (const [, rc] of reaches) {
+        rc.state = 'return'; rc.t0 = performance.now(); rc.el.classList.remove('holds'); rc.el.classList.add('leaving');
+        orbit.push({ a0: -Math.PI / 2 + k * 2.1, w: 0.18 + k * 0.03, k: 1.55 + k * 0.12 }); k++;
+      }
+    }, 450);
+    setTimeout(() => startRound(1), still ? 600 : 2100);
+  } else {
+    setTimeout(() => { stage.innerHTML = `<div class="head"><h2>Drawn toward ${answers.drawnToward.join(', ').toLowerCase() || '…'}.</h2><p>Sought for ${answers.soughtFor.join(', ').toLowerCase() || '…'}. (prototype ends — the camera rises to H6)</p></div>`; }, 900);
+  }
+}
+
+log();
+startRound(0);
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>

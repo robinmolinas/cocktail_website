@@ -1,0 +1,29 @@
+{
+ "pairing": "innocent-ruler",
+ "family": "martini",
+ "style": "stirred",
+ "glass": "small wine glass (about 120 ml), chilled, no ice",
+ "serves": 1,
+ "version": "v1 (round 2, 2026-10-04; cites fixed r4 step 1, drink unchanged): a thrown dry Martini, 3:1, measured in kitchen tablespoons (3 gin : 1 dry vermouth). Thrown, never stirred or shaken: liquid and ice in one tin under a strainer, poured into an empty tin while the full one is lifted, then poured straight back through the strainer onto the ice, four or five times (Oxford ROLLING AND TOSSING, pdf 1671, Dale DeGroff); 'until the drink is perfectly cold and diluted' (Oxford BOADAS, MIGUEL pdf 301). Judged as stirred, with shaken-spirit as the heavier-throw bound (throw dilution is unmeasured in our books). Glass and peel after the thrown Cocktail of the 1840s: 'strained into a small wine or champagne glass' with a thin paring of lemon peel dropped in (Oxford COCKTAIL pdf 489); the rim is not rubbed (Codex p. 61: rubbed lemon oils linger and overwhelm). Dry vermouth fresh and kept cold (Codex p. 61: an open bottle deteriorates like wine). Sugar OUT on Arnold's stirred band by design (no sweetener in a dry Martini; Arnold's own Martini, LI p. 75, is drier still).",
+ "ingredients": [
+  {
+   "key": "gin_london_dry",
+   "ml": 45
+  },
+  {
+   "key": "dry_vermouth",
+   "ml": 15
+  }
+ ],
+ "garnish": [
+  "lemon_peel"
+ ],
+ "accepted": {
+  "checks": [
+   "initial sugar",
+   "finished sugar"
+  ],
+  "by": "Robin 2026-10-06",
+  "why": "a plain dry gin Martini, thrown: no sugar by design (D2)"
+ }
+}

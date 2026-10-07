@@ -26,7 +26,7 @@ Rules it keeps:
 """
 import datetime, hashlib, json, os, re, shutil, subprocess, sys
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(os.path.realpath(__file__))
 TOOLS_SCRIPTS = os.path.normpath(os.path.join(HERE, "..", "..", "dps-tools", "scripts"))
 sys.path.insert(0, TOOLS_SCRIPTS)
 import pourfile  # noqa: E402
@@ -321,7 +321,7 @@ def queue_rework(pairings, date):
         text = f.read()
     row = "| review %s | %s | rework queued | %s | Robin's notes from the review desk (top of each room record) |\n" % (
         date, ", ".join(pairings), date)
-    m = list(re.finditer(r"^\|.*\|\s*$", text, re.M))
+    m = list(re.finditer(r"^\|.*\|[ \t]*$", text, re.M))
     if m:
         text = text[:m[-1].end()] + "\n" + row.rstrip("\n") + text[m[-1].end():]
     else:

@@ -1,0 +1,102 @@
+{
+  "pairing": "lover-jester",
+  "pour": "Only Half Joking",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-jester/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-423e1021-e584-4a6f-a128-954cab162f69.png",
+  "sourceSha256": "b4094aba1d3f9b28a3e33edb86118d20e940b8f1a57e8f2cb2cbe05c65bce13b",
+  "masterSha256": "ae238ce88ef5db724fc2da4918d3ec90d74ef49d0650b9c58833527a46767326",
+  "masterDimensions": {
+    "width": 1602,
+    "height": 982
+  },
+  "wideCrop": [
+    0,
+    40,
+    1602,
+    900
+  ],
+  "portraitCrop": [
+    724,
+    0,
+    732,
+    980
+  ],
+  "tag": {
+    "cx": 1110,
+    "cy": 712,
+    "w": 160,
+    "angle": 9
+  },
+  "glass": {
+    "x": 985,
+    "y": 382
+  },
+  "bounds": {
+    "glass": {
+      "x0": 830,
+      "y0": 266,
+      "x1": 1142,
+      "y1": 744
+    },
+    "paper": {
+      "x0": 1005,
+      "y0": 670,
+      "x1": 1200,
+      "y1": 751
+    },
+    "garnish": {
+      "x0": 1052,
+      "y0": 250,
+      "x1": 1179,
+      "y1": 354
+    }
+  },
+  "personalityBounds": {
+    "hat": {
+      "x0": 859,
+      "y0": 414,
+      "x1": 1318,
+      "y1": 646
+    },
+    "emptyChair": {
+      "x0": 783,
+      "y0": 249,
+      "x1": 1456,
+      "y1": 720
+    }
+  },
+  "recognitionRegions": {
+    "hatCrownAndBrim": {
+      "x0": 859,
+      "y0": 414,
+      "x1": 1318,
+      "y1": 646
+    },
+    "chairBack": {
+      "x0": 787,
+      "y0": 252,
+      "x1": 1330,
+      "y1": 597
+    },
+    "emptySeatVisibleAtRight": {
+      "x0": 1317,
+      "y0": 593,
+      "x1": 1456,
+      "y1": 712
+    }
+  },
+  "measurementNotes": "Original-resolution visual edge measurements, conservative approximately 2–4 pixel uncertainty. Actual master is 1602×982, not assumed 1672×941. 369px glass/paper union (830–1200 = 370px); glass height 478px. Additional garnish bounds included in helper geometry. Full essential hat/chair recognition is not compact: union 673px. Wide crop discards top40/bottom42, preserving complete vessel/tag/garnish. Portrait preserves all photographed person bounds but phone cover cannot preserve all of them. No browser/motion acceptance claimed.",
+  "review": {
+    "recipe": "One settled pink Jasmine-riff in a plain chilled V-shaped stemmed cocktail glass, broad lemon peel on rim, no serving ice or egg-white foam. Thin surface bubble line is plausible shaken texture. Glass still exceeds requested moderate 425px height (actual 478px); not a change of serve.",
+    "personality": "Worn olive felt hat explicitly grounded in whoYouAre and empty close burgundy chair grounded in the awaiting-reply conversation. Correction puts chair behind glass and hat on its seat; adult-scale recognizable objects retained. Their full recognition region remains too wide for narrow animated phone crop.",
+    "world": "Historic private dark reading-room with shelves, warm practical lamp and quiet dark left third. Glass and blank cream paper are ordinary and unetched. Walnut has long grain/use scratches but retains pronounced warm glossy highlights, so low-satin/neutral house-material intent is not fully met.",
+    "issues": [
+      "Essential hat/chair cluster remains approximately 673px wide; phone cover/motion will lose person evidence.",
+      "Glass/paper union 370px is improved but still needs actual export cover/motion and authored-copy review.",
+      "Actual master aspect 1602×982 requires measured 900px-high wide crop.",
+      "Glass 478px high rather than requested ~425; usable plain tag axis 160px rather than preferred 170px.",
+      "Dense chilled fine speckling and warm glossy/orange tabletop highlights remain material risks.",
+      "No browser-name-overlay or animated-phone acceptance; batch review deferred."
+    ]
+  }
+}

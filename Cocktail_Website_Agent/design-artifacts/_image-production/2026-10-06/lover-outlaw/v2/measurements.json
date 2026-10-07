@@ -1,0 +1,92 @@
+{
+  "pairing": "lover-outlaw",
+  "pour": "Accomplices",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-outlaw/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-885b5f1e-1b42-4304-afb4-708a5f0c69da.png",
+  "sourceSha256": "886e1317e0757311d8208ee465121d9b4b8dfede23a6b49379ae78f14dd3217a",
+  "specSha256": "757e174f0300a20a721d6e9a9cd0d24f6bd2a78d2adddfc4a90f241213a0642e",
+  "masterSha256": "1a1b5052382e69d3de26fa2134a01b3aff12e7bd45c5c640626e95b79a57a782",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    735,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1150,
+    "cy": 699,
+    "w": 154,
+    "angle": 15.5
+  },
+  "glass": {
+    "x": 1021,
+    "y": 453
+  },
+  "bounds": {
+    "glass": {
+      "x0": 884,
+      "y0": 369,
+      "x1": 1160,
+      "y1": 762
+    },
+    "paper": {
+      "x0": 1020,
+      "y0": 618,
+      "x1": 1245,
+      "y1": 762
+    }
+  },
+  "personalityBounds": {
+    "openedChipCone": {
+      "x0": 748,
+      "y0": 513,
+      "x1": 1009,
+      "y1": 711
+    },
+    "chefJacketSleeve": {
+      "x0": 912,
+      "y0": 458,
+      "x1": 1422,
+      "y1": 709
+    }
+  },
+  "recognitionRegions": {
+    "coneOpeningAndChips": {
+      "x0": 750,
+      "y0": 531,
+      "x1": 934,
+      "y1": 703
+    },
+    "cuffButtonOpeningAndContactStain": {
+      "x0": 1143,
+      "y0": 543,
+      "x1": 1421,
+      "y1": 707
+    }
+  },
+  "measurementNotes": "Conservative original-resolution visual bounds, approximately3px edge uncertainty. Complete glass393px high; glass/paper union361px. Complete person+glass/paper union674px, recognition671px (750–1421). Proposed702x940 full portrait contains physical essentials, but portrait on390x844 exposes about434masterpx nominal,389at1.115breath. No artificial focal offset or box reduction. Tag axis excludes hole/string.",
+  "review": {
+    "recipe": "Settled stirred rye/beetroot-vermouth/curaçao Manhattan, clear deep garnet/red-brown, dropped inside orange peel,180ml chilled coupe about143ml finished; no serving ice, bubbles or foam. Deep colour is the mixologist's estimated visual direction, not experimentally measured.",
+    "personality": "Opened chip cone grounds shared kerb evening; folded actual cuff with button is more recognisable as garment than v1 cloth. Beet contact stain is physically plausible from preparation but may read as an unexplained red/blood-like mark without an ingredient cue; specificity/watch hold, not impossible two-hand prints.",
+    "world": "Historic near-black walnut room, darkleftcopyarea, restrained practical. Plain glass clear patches improve; timber remains glossy/raised-looking and amber reflection persists. Paper and white cotton show similarly emphatic embossed-looking fibre detail.",
+    "issues": [
+      "HOLD-composition: complete essentials674px and actual recognition671px cannot fit narrower phone moving cover. Correction overlaps sleeve more but does not achieve350px target.",
+      "Glass393px high rather than300px target; glass/paper361px is narrower than prior batch but no motion/glyph pass inferred.",
+      "HOLD-material-realism: glossy uneven raised-looking wood; tag and cuff share exaggerated texture.",
+      "HOLD-personality-specificity: red stain can read as unexplained mark; chips more plentiful than intended, not clearly post-sharing.",
+      "Tag actual writable axis154px at15.5deg; loaded-font name fit deferred.",
+      "One initial plus sole correction complete; no JPEG export/browser/integration/acceptance."
+    ]
+  },
+  "status": "measured-master-candidate; composition-material-personality-holds; not-accepted; browser-deferred"
+}

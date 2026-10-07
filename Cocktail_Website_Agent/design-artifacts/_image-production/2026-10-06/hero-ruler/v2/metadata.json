@@ -1,0 +1,302 @@
+{
+  "pairing": "hero-ruler",
+  "pour": "Dressed for It",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "0e224138f990e2c2e0d26064f298dbe06432a84be664195d730650b488524678",
+  "review": {
+    "recipe": "Small chilled stemmed wine glass, transparent deep amber tea-cognac Crusta, fine outside sugar crust and corrected long half-lemon peel collar, no ice.",
+    "personality": "Pressed dinner napkin and fork, neatly draped repaired jacket convey kept standards. Portrait window retains fork head, napkin and substantial jacket; no military costume.",
+    "world": "Old timber bar and worn walnut, sole right practical lamp after removal of unintended fireplace flames, neutral near-black shadows, blank cream tied tag.",
+    "issues": []
+  },
+  "measurements": {
+    "pairing": "hero-ruler",
+    "pour": "Dressed for It",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-ruler/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-8407a074-35f6-4373-996f-7f84e4310b80.png",
+    "sourceSha256": "0e224138f990e2c2e0d26064f298dbe06432a84be664195d730650b488524678",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      657,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1253,
+      "cy": 687,
+      "w": 187,
+      "angle": 5
+    },
+    "glass": {
+      "x": 1079,
+      "y": 510
+    },
+    "bounds": {
+      "glass": {
+        "x0": 934,
+        "y0": 272,
+        "x1": 1226,
+        "y1": 744
+      },
+      "paper": {
+        "x0": 1125,
+        "y0": 634,
+        "x1": 1355,
+        "y1": 737
+      }
+    },
+    "review": {
+      "recipe": "Small chilled stemmed wine glass, transparent deep amber tea-cognac Crusta, fine outside sugar crust and corrected long half-lemon peel collar, no ice.",
+      "personality": "Pressed dinner napkin and fork, neatly draped repaired jacket convey kept standards. Portrait window retains fork head, napkin and substantial jacket; no military costume.",
+      "world": "Old timber bar and worn walnut, sole right practical lamp after removal of unintended fireplace flames, neutral near-black shadows, blank cream tied tag.",
+      "issues": []
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1438.8516746411483,
+        "cy": 789.3191489361702,
+        "w": 214.73684210526315,
+        "angle": 5.002646081780173
+      },
+      "glass": {
+        "x": 1239.043062200957,
+        "y": 585.9574468085106
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 760.7065527065528,
+        "cy": 877.0212765957447,
+        "w": 238.67806267806264,
+        "angle": 5.000945031662463
+      },
+      "glass": {
+        "x": 538.6210826210827,
+        "y": 651.063829787234
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/hero-ruler/portrait.jpg",
+    "wide": "/personas/hero-ruler/wide.jpg",
+    "wideTag": {
+      "cx": 0.7494019138755981,
+      "cy": 0.7308510638297873,
+      "w": 0.1118421052631579,
+      "angle": 5.002646081780173
+    },
+    "wideGlass": {
+      "x": 0.6453349282296651,
+      "y": 0.5425531914893617
+    },
+    "tag": {
+      "cx": 0.8490028490028491,
+      "cy": 0.7308510638297873,
+      "w": 0.26638176638176636,
+      "angle": 5.000945031662463
+    },
+    "glass": {
+      "x": 0.6011396011396012,
+      "y": 0.5425531914893617
+    }
+  },
+  "hashes": {
+    "master": "c5c345ef4c039acc1cd79dd7998874e9cc5b3f81f1d6262bd1c9cbe50eec01e1",
+    "wide": "d94187cc048a9dbe66ebed6d8810e977421c36afbd361de09940dd9f03575e82",
+    "portrait": "8394a40b13290595a48d02fb1d132a11db5d067c434be2ceb7730ceae877879e"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1072.5358851674641,
+          "y0": 312.51063829787233,
+          "x1": 1407.846889952153,
+          "y1": 854.8085106382979
+        },
+        "paper": {
+          "x0": 1291.866028708134,
+          "y0": 728.4255319148937,
+          "x1": 1555.9808612440193,
+          "y1": 846.7659574468086
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 813.7799043062201,
+          "y0": 260.4255319148936,
+          "x1": 1093.2057416267942,
+          "y1": 712.3404255319149
+        },
+        "paper": {
+          "x0": 996.5550239234451,
+          "y0": 607.0212765957447,
+          "x1": 1216.6507177033493,
+          "y1": 705.6382978723404
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1144.0382775119617,
+          "y0": 279.9846808510638,
+          "x1": 1501.7033492822966,
+          "y1": 858.4357446808511
+        },
+        "paper": {
+          "x0": 1377.9904306220096,
+          "y0": 723.6272340425533,
+          "x1": 1659.7129186602872,
+          "y1": 849.8570212765958
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1921.6267942583731,
+          "y0": 332.2148936170212,
+          "x1": 2522.3923444976076,
+          "y1": 1303.831914893617
+        },
+        "paper": {
+          "x0": 2314.593301435407,
+          "y0": 1077.395744680851,
+          "x1": 2787.7990430622012,
+          "y1": 1289.422340425532
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 1,
+        "y": 0.5425531914893617
+      },
+      "bounds": {
+        "glass": {
+          "x0": 8.476733143399798,
+          "y0": 244.22127659574465,
+          "x1": 270.6056600189933,
+          "y1": 668.0170212765958
+        },
+        "paper": {
+          "x0": 179.93777777777774,
+          "y0": 569.2510638297873,
+          "x1": 386.40919278252613,
+          "y1": 661.731914893617
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 1,
+        "y": 0.5425531914893617
+      },
+      "bounds": {
+        "glass": {
+          "x0": 8.697056030389376,
+          "y0": 269.68510638297874,
+          "x1": 298.1569610636277,
+          "y1": 737.668085106383
+        },
+        "paper": {
+          "x0": 198.03555555555556,
+          "y0": 628.604255319149,
+          "x1": 426.03479582146247,
+          "y1": 730.7276595744681
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 1,
+        "y": 0.5425531914893617
+      },
+      "bounds": {
+        "glass": {
+          "x0": 63.240265906932564,
+          "y0": 164.35744680851062,
+          "x1": 239.64930674264008,
+          "y1": 449.5659574468085
+        },
+        "paper": {
+          "x0": 178.63111111111107,
+          "y0": 383.09787234042557,
+          "x1": 317.58343779677114,
+          "y1": 445.336170212766
+        }
+      }
+    }
+  ]
+}

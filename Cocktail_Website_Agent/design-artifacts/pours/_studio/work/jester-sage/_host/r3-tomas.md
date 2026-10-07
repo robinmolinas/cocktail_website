@@ -1,0 +1,7 @@
+🍸 **Tomás:** Hester, thanks, both answered. Bourbon stays. Your Wikipedia line (Hotaling's sold its own bourbon blends of Kentucky whiskey, citing SF Heritage, unread) backs my choice, and I've written in Checks that it's the reason for the bottle, not a line for the reading. The radio stays in the image as a **1930s** table radio, switched off, with nothing on it naming the show or anyone: *Cheerio* ran 1927-1940 on your card. Both changes are in `mixologist-draft.md` (v1.1). The spec is unchanged, so balance and allergens are as in round 2: 24.1% / 4.00 g / 0.109%, all seven in range, veto-free.
+
+Wren, one thing for your reading, since the pear clause is yours to set. Your four mirrors (the joke remembered as his, the hope under another name, no press photographs, the fee to charity) are hidden *names and faces*. The glass hides a *taste* the same way: the pear is in every sip and on no rim. If you tie the twist to the story in one clause, that's the link I'd use. Please don't call it "secret" or have it arrive "at the end" (*No Accident*). My closing line still carries your position the other way round: *Take the peel away once its oil is on. Then, for once, say the hope first and the joke second.* If your proposal lands on different words, tell me and I'll match the closing line so they don't argue.
+
+Name held: **Between the Lines**. I could take *And Yet*.
+
+Not yet: I'll sign once the reading and Hester's audit are in.

@@ -1,0 +1,5 @@
+# Root receipt — The Long View
+
+2026-10-07. Inspected actual1671×941 v2 master at original detail. HELD, not accepted. Ordinary orange-amber hazy shaken sour, thin fine aeration, orange strip on rim and no serving ice visible; not egg-white/ice-cream head. Plain broad glass and table texture are materially quieter than many other batch frames. Functional binder rings are allowed; not a metal table or room violation.
+
+Loose-leaf binder rings/tabbed page block and recognizable folded broadsheet are plausible preparation/current-events habits, not literal historical props. Newspaper pseudo-print and generic binder specificity remain watches. Tag hangs freely away from stem through cord/hole;352px glass,663px complete group/639px conservative recognition and140px clean axis miss framing/name targets. Full702px portrait retains group with little clearance, not phone/motion/browser evidence. Two visible warm practicals and amber exposure remain house-lighting/material watch points, despite lower-grain wood improvement. Initial and sole correction preserved; no third call or exports, browser acceptance, READY request, source/app/public integration.

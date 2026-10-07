@@ -59,9 +59,9 @@ authored_in: the room, 2026-10-01 (batch ruler)
 *A Monte Carlo barman kept his Manhattans plain. This one borrows from a regular's cocktail.*
 
 **whoYouAre**
-Someone comes back after a year away, and you ask about the interview they were dreading. You remember their sister's name. You stay with them a second longer than they expect. They go home thinking you're simply like that.
+Someone comes back after a year away, and you ask about the interview they were dreading. You remember their sister's name. You stay with them a second longer than they expect. They go home feeling remembered.
 
-You're not simply anything. You know exactly what your attention does, and you give it on purpose, because a lot holds together when you do. People who watch from further off call it charm, and sometimes mean it as a warning. They've got it backwards: it works because you mean it. You hardly mention what it costs, or the question underneath: if I stopped, would they still come? The fear is the evening it doesn't land, when someone looks past you and everything quietly drifts. And this is what your attention gives: people leave feeling they were the one who mattered, and sure enough to offer something of their own. On an ordinary evening, nobody expects to be given that.
+You know exactly what your attention does, and you give it on purpose, because a lot holds together when you do. People who watch from further off call it charm, and sometimes mean it as a warning. They've got it backwards: it works because you mean it. You hardly mention what it costs, or the question underneath: if I stopped, would they still come? The fear is the evening it doesn't land, when someone looks past you and everything quietly drifts. And this is what your attention gives: people leave feeling they were the one who mattered, and sure enough to offer something of their own. On an ordinary evening, nobody expects to be given that.
 
 **yours**
 
@@ -73,7 +73,7 @@ You're not simply anything. You know exactly what your attention does, and you g
 
 4. The cocktail I've made for you is a Manhattan, the renowned classic Ciro was pouring in Monte Carlo. Mine is rye, sweet vermouth and bitters, stirred until ice-cold, then brightened with lemon peel. To it I've added a small square of fresh pineapple, from a cocktail of that regular's own, as a London paper had it in 1887. I like to think his own was among the ones he showed Ciro. Back then a pineapple was hugely expensive, and his drink showed it off. In this glass it goes quiet: pressed with a touch of syrup, then strained out again, as a nod to what a regular brings to the bar. It still looks like a plain Manhattan. You only find the pineapple up close.
 
-5. Soon, for once, don't be "on". Let someone else carry the conversation, and let them show you something they've learned. I think you'll get your answer, and I hope it surprises you, in the best way.
+5. Soon, for once, don't be "on". Let someone else carry the conversation, and let them show you something they've learned. Then you'll see whether they'd still come, and I hope the answer surprises you, in the best way.
 
 ---
 

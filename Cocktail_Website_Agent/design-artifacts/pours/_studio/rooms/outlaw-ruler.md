@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Leading Edge (outlaw-ruler)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D8 (quince paste stays; `nuts` stands on the "may contain" label): Open item marked resolved; fallback left on file.
+- **Edits** (before → after, short): yours 3 (Q139): "though by the autumn of 2026 it still hadn't poured a drop" → "though in the autumn of 2026 it still wasn't pouring"; whoYouAre ¶2 (V1): "Catching on was never the worry. What it turns into afterwards is: run by…" → "What worries you is what it turns into afterwards: run by…"; whoYouAre ¶3 (V2, rarity stamp): cut "That's rarer than you'd think."
+- **Left for Robin:** tagline (Q087) unchanged per D11; the Oxford-name item (collection P3) waits on Hester; Anchor's pouring status to be re-checked before publishing (Open items).
+- **Hester (open items):** Collection Oxford item: yours 2 "The Oxford drinks companion calls it" → "One drinks writer calls it" (Paul Clarke signs the entry, pdf 104; the quote is his). Anchor `lineage` updated (pour + work anchors). Fact audit CR1. Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Maytag accepted by all three; F1–F23 carded, anchors v2; comeback dated 'promised, not poured') · [x] drink + four checks (spec v1: Sidecar, Old Potrero 48.5%, quince; 18.6%/6.32 g/0.841%; contains nuts (edge, syrup fallback proven)) · [x] reading (v2 (Wren r4–r5): whoYouAre 142 words, history ~48% of yours; fallback y4 written) · [x] fact audit (audit v2 pass in the file (Hester r5 grep); A15b 'some' in) · [x] resonance test (pass (Hester)) · [x] names (≥3 + pick) (Before It Had a Name (pick), Quietly Steering, The Next Edge) · [x] image brief (workbench, roll-top door, raw quince (Tomás))
 - **Last change to the pour:** Wren: 'some' bartenders; fallback y4 'needn't be cut'

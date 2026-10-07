@@ -1,0 +1,34 @@
+{
+ "pairing": "jester-innocent",
+ "family": "daiquiri",
+ "subfamily": "swizzle: a Green Swizzle built from the parts of Trinidad's bottled base (Carypton: rum, lime juice, sugar, West Indian herbs; Oxford ANGOSTURA pdf 112), no falernum; the green from a barspoon of green absinthe, Wondrich's stand-in for wormwood bitters (Imbibe! pdf 125), steeped with tangerine peel (our adaptation of Early's 1937 tip for the bitters, via Wondrich); swizzled in the glass on crushed ice until the outside frosts (Oxford SWIZZLE pdf 1963)",
+ "style": "shaken",
+ "glass": "tall Collins glass (about 350 ml), crushed ice, the swizzle stick left standing in it, no straw",
+ "serves": 1,
+ "version": "v2 (Tomás, round 4, 2026-10-04). v1's home-steeped wormwood bitters replaced by green absinthe steeped with tangerine peel: Hester r3, thujone is 'a lethal neurotoxin in high concentrations' and absinthe avoids it because it 'resists distillation' (Oxford pdf 50); a home steep isn't distilled and no page gives a safe level. Wondrich's own stand-in (Imbibe! pdf 125). Numbers unchanged within sweep. Judged on Arnold's shaken (sours) ranges: crushed ice swizzled to a frost dilutes like a shake; melt swept by hand.",
+ "ingredients": [
+  {
+   "key": "rum_white",
+   "ml": 60
+  },
+  {
+   "key": "lime_juice",
+   "ml": 25
+  },
+  {
+   "key": "simple_syrup",
+   "ml": 20
+  },
+  {
+   "key": "absinthe_verte_tangerine",
+   "ml": 5
+  },
+  {
+   "key": "angostura",
+   "dashes": 4
+  }
+ ],
+ "garnish": [
+  "swizzle_stick_left_in"
+ ]
+}

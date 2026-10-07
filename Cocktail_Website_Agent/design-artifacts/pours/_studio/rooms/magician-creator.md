@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Genie (magician-creator)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** none needed.
+- **Edits** (before → after, short): cocktail block (Q132): the duplicate "**Glassware:** … / **Contains:** veto-free" lines after the table deleted · whoYouAre ¶2 (variety, V2): "It gives people something rare, though." → "It gives people something that lasts, though." · "So this is my wish for you." kept (the Genie's, as the family review says)
+- **Left for Robin:** tagline (Q079, D11: unchanged).
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1 (persona card)) · [x] story + sourced anchors (Klemm, Campbell → Pico (Hester r2–3; ruled by Wren r3)) · [x] drink + four checks (v1 Collins d'Electra riff, 14.0% / 6.85 g / 0.875%, veto-free (ruled by Wren r4)) · [x] reading (v1 (Wren r4)) · [x] fact audit (v1: Not yet, X1–X7 (Hester r5)) · [x] resonance test (in reading v2 (Wren r5)) · [x] names (≥3 + pick) (On One Condition (Tomás, Hester; Wren yields, case for Robin); also Name Your Wish, In Return, Ten Names) · [x] image brief (in mixologist-draft.md (Tomás r4))
 - **Last change to the pour:** r7 (Y1, Checks only)

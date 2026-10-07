@@ -63,7 +63,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 **whoYouAre**
 You notice the thing that's slightly off. The line on the page that sits a millimetre low. The dish that should have come out hot. The word on a menu that doesn't mean what it says. Most people let it pass. You can't, and you'd rather seem cold than let it go out like that.
 
-People take it for pride, or for your taste. It isn't, mostly. At the end of every piece of work there's someone who'll never know what you turned down for them, and they're who you're thinking of. You hardly ever mention it, because it sounds like asking to be thanked. So your no arrives alone, without its reason. What you fear is something careless going out under a name that was meant to stand for something. And here's what that care gives: around you, good becomes normal. People raise their own bar near you, often without noticing they have, and whoever's at the end gets it as it should be. That's rare, and it's worth a lot.
+People take it for pride, or for your taste. It isn't, mostly. At the end of every piece of work there's someone who'll never know what you turned down for them, and they're who you're thinking of. You hardly ever mention it, because it sounds like asking to be thanked. So your no arrives alone, without its reason. What you fear is something careless going out under a name that was meant to stand for something. Around you, good becomes normal. People raise their own bar near you, often without noticing they have, and whoever's at the end gets it as it should be.
 
 **yours**
 

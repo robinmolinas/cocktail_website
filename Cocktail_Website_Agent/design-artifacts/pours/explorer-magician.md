@@ -54,7 +54,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 **whoYouAre**
 There's a shelf somewhere in your home that would surprise people. Very old books next to very new ones, and a couple you'd rather nobody picked up. You've gone further than the shelf, too: the silent weekend, the long walk, the course your friends teased you about. Each time you return with one thing, a line or a habit, and you want it to last through an ordinary week.
 
-Hardly anyone knows how often it slips. By Wednesday the inbox has it, and part of you decides the real answer must be somewhere else, so you start looking again. The looking doesn't scare you. A life that stops asking what it's for does. But some of it has been working for years without your noticing. The walk you take before a hard day. The song you play in the car before you go in. You'd never call those a practice, and they've been holding you up the whole time. People feel it, too. You arrive more present than most, and sometimes you hand someone exactly the line they needed, with no lecture attached. That's a rare kind of kindness.
+Nobody sees how often it slips. By Wednesday the inbox has it, and part of you decides the real answer must be somewhere else, so you start looking again. What would scare you is a life that stops asking what it's for. But some of it has been working for years without your noticing. The walk you take before a hard day. The song you play in the car before you go in. You'd never call those a practice, and they've been holding you up the whole time. People feel it, too. You arrive more present than most, and sometimes you hand someone exactly the line they needed, with no lecture attached. That line was worth every retreat.
 
 **yours**
 

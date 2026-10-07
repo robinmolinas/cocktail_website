@@ -1,0 +1,316 @@
+{
+  "pairing": "caregiver-creator",
+  "pour": "Not Only the Way",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "8c298875e9c4b627bb1eccf4dc7a47dd1a385ecec596f458f61cb55218c784a2",
+  "review": {
+    "recipe": "Exact single chilled rounded coupe, pale lime-straw softly cloudy gin/cordial, fine tiny surface bubble edge, no ice/garnish/rim. Recipe unchanged.",
+    "personality": "Mended folded linen moved close enough that repaired hem aroundx910 survives nominal phone; drawer finished edge nearx890 visible, but knob aroundx774 still outside nominal phone. Full-person cluster did not meet<=390px target.",
+    "world": "Improved flat long-grain low-satin walnut and plain unetched glass retained; uneven larger drops and clear regions remain distinct from drylinen/cream paper. Historic dark-neutral room and one warm source preserved.",
+    "issues": [
+      "Held under newly identified current animation envelope: fullglass/paper union402px > ~389px at maxbreath1.115 on430x932; nominal preanimation geometry alone insufficient.",
+      "Drawer knob remains farleft; target compact essential person cluster not completely achieved.",
+      "Tag usable160px at11deg and still protrudes72px beyond bowl; requested insidefootprint/~170px target incompletely followed.",
+      "No root export/fullJPEG/browser/name-overlay review performed. Third explicitly authorized call complete; no scaling."
+    ]
+  },
+  "measurements": {
+    "pairing": "caregiver-creator",
+    "pour": "Not Only the Way",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-creator/v7/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-0e0d6584-eb9d-4131-8289-11c3677650f3.png",
+    "sourceSha256": "8c298875e9c4b627bb1eccf4dc7a47dd1a385ecec596f458f61cb55218c784a2",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      730,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1188,
+      "cy": 660,
+      "w": 160,
+      "angle": 11
+    },
+    "glass": {
+      "x": 1040,
+      "y": 405
+    },
+    "bounds": {
+      "glass": {
+        "x0": 876,
+        "y0": 277,
+        "x1": 1206,
+        "y1": 739
+      },
+      "paper": {
+        "x0": 1056,
+        "y0": 597,
+        "x1": 1278,
+        "y1": 720
+      }
+    },
+    "review": {
+      "recipe": "Exact single chilled rounded coupe, pale lime-straw softly cloudy gin/cordial, fine tiny surface bubble edge, no ice/garnish/rim. Recipe unchanged.",
+      "personality": "Mended folded linen moved close enough that repaired hem aroundx910 survives nominal phone; drawer finished edge nearx890 visible, but knob aroundx774 still outside nominal phone. Full-person cluster did not meet<=390px target.",
+      "world": "Improved flat long-grain low-satin walnut and plain unetched glass retained; uneven larger drops and clear regions remain distinct from drylinen/cream paper. Historic dark-neutral room and one warm source preserved.",
+      "issues": [
+        "Held under newly identified current animation envelope: fullglass/paper union402px > ~389px at maxbreath1.115 on430x932; nominal preanimation geometry alone insufficient.",
+        "Drawer knob remains farleft; target compact essential person cluster not completely achieved.",
+        "Tag usable160px at11deg and still protrudes72px beyond bowl; requested insidefootprint/~170px target incompletely followed.",
+        "No root export/fullJPEG/browser/name-overlay review performed. Third explicitly authorized call complete; no scaling."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1364.2105263157894,
+        "cy": 758.2978723404256,
+        "w": 183.73205741626793,
+        "angle": 11.005708234323903
+      },
+      "glass": {
+        "x": 1194.2583732057417,
+        "y": 465.3191489361702
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 584.5698005698006,
+        "cy": 842.5531914893617,
+        "w": 204.21652421652422,
+        "angle": 11.002038680501766
+      },
+      "glass": {
+        "x": 395.6695156695157,
+        "y": 517.0212765957447
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-creator/portrait.jpg",
+    "wide": "/personas/caregiver-creator/wide.jpg",
+    "wideTag": {
+      "cx": 0.7105263157894737,
+      "cy": 0.7021276595744681,
+      "w": 0.09569377990430622,
+      "angle": 11.005708234323903
+    },
+    "wideGlass": {
+      "x": 0.6220095693779905,
+      "y": 0.4308510638297872
+    },
+    "tag": {
+      "cx": 0.6524216524216524,
+      "cy": 0.7021276595744681,
+      "w": 0.22792022792022792,
+      "angle": 11.002038680501766
+    },
+    "glass": {
+      "x": 0.4415954415954416,
+      "y": 0.4308510638297872
+    }
+  },
+  "hashes": {
+    "master": "ef4b0877b387258e9ae4d71b82a0fa36f0f23141f27249fe4437c9c44927a5a4",
+    "wide": "d9ce70606b6565e363a25e1c83299d1c3195650c0562e2c4604a0c3de2b84df3",
+    "portrait": "ac2e51c6a1449e9c6a0cd19dda90c90e95e2f3a8060df49fddb07840d6b8377a"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1005.933014354067,
+          "y0": 318.25531914893617,
+          "x1": 1384.8803827751196,
+          "y1": 849.063829787234
+        },
+        "paper": {
+          "x0": 1212.6315789473683,
+          "y0": 685.9148936170212,
+          "x1": 1467.55980861244,
+          "y1": 827.2340425531914
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 758.2775119617226,
+          "y0": 265.21276595744683,
+          "x1": 1074.0669856459328,
+          "y1": 707.5531914893617
+        },
+        "paper": {
+          "x0": 930.5263157894736,
+          "y0": 571.595744680851,
+          "x1": 1142.9665071770335,
+          "y1": 689.3617021276596
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1072.9952153110048,
+          "y0": 286.1123404255319,
+          "x1": 1477.2057416267942,
+          "y1": 852.3080851063829
+        },
+        "paper": {
+          "x0": 1293.4736842105262,
+          "y0": 678.2825531914892,
+          "x1": 1565.3971291866028,
+          "y1": 829.0229787234042
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1802.2966507177034,
+          "y0": 342.5074468085106,
+          "x1": 2481.244019138756,
+          "y1": 1293.5393617021275
+        },
+        "paper": {
+          "x0": 2172.6315789473683,
+          "y0": 1001.2308510638297,
+          "x1": 2629.377990430622,
+          "y1": 1254.427659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4415954415954416,
+        "y": 0.4308510638297872
+      },
+      "bounds": {
+        "glass": {
+          "x0": 24.99912630579294,
+          "y0": 248.71063829787235,
+          "x1": 321.2407217473884,
+          "y1": 663.5276595744681
+        },
+        "paper": {
+          "x0": 186.58545109211775,
+          "y0": 536.0297872340425,
+          "x1": 385.8752516619183,
+          "y1": 646.468085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4415954415954416,
+        "y": 0.4308510638297872
+      },
+      "bounds": {
+        "glass": {
+          "x0": 27.312668566001904,
+          "y0": 274.6425531914894,
+          "x1": 354.4420132953466,
+          "y1": 732.7106382978723
+        },
+        "paper": {
+          "x0": 205.74685660018991,
+          "y0": 591.9191489361701,
+          "x1": 425.8156885090218,
+          "y1": 713.8723404255318
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4415954415954416,
+        "y": 0.4308510638297872
+      },
+      "bounds": {
+        "glass": {
+          "x0": 42.231490978157645,
+          "y0": 167.3787234042553,
+          "x1": 241.59787274453942,
+          "y1": 446.54468085106384
+        },
+        "paper": {
+          "x0": 150.97679012345677,
+          "y0": 360.74042553191487,
+          "x1": 285.0959924026591,
+          "y1": 435.06382978723406
+        }
+      }
+    }
+  ]
+}

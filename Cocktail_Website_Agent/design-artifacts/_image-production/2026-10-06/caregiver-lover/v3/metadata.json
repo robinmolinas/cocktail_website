@@ -1,0 +1,302 @@
+{
+  "pairing": "caregiver-lover",
+  "pour": "Standing By",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "3b433893d8244d2f1333b5f730a9a37c4c5105d7bc21d4681a037ec98f1a1198",
+  "review": {
+    "recipe": "Small chilled wine glass, transparent golden amber scotch cocktail, faint haze only, long lemon peel inside, no ice.",
+    "personality": "Keys and closed envelope with repaired worn scarf convey patient homecoming presence. Portrait retains scarf and envelope/key cluster; outer key loops may be cropped on tall phones while legible key shafts survive.",
+    "world": "Old private timber reading room with worn walnut table, one practical lamp, dark neutral falloff, blank handled cream tag; no physical errors.",
+    "issues": []
+  },
+  "measurements": {
+    "pairing": "caregiver-lover",
+    "pour": "Standing By",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-lover/v3/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-3d278bdf-f36b-46f3-a956-ec9dc2a00056.png",
+    "sourceSha256": "3b433893d8244d2f1333b5f730a9a37c4c5105d7bc21d4681a037ec98f1a1198",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      725,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1238,
+      "cy": 642,
+      "w": 161,
+      "angle": 1
+    },
+    "glass": {
+      "x": 1071,
+      "y": 457
+    },
+    "bounds": {
+      "glass": {
+        "x0": 933,
+        "y0": 224,
+        "x1": 1210,
+        "y1": 709
+      },
+      "paper": {
+        "x0": 1121,
+        "y0": 598,
+        "x1": 1321,
+        "y1": 684
+      }
+    },
+    "review": {
+      "recipe": "Small chilled wine glass, transparent golden amber scotch cocktail, faint haze only, long lemon peel inside, no ice.",
+      "personality": "Keys and closed envelope with repaired worn scarf convey patient homecoming presence. Portrait retains scarf and envelope/key cluster; outer key loops may be cropped on tall phones while legible key shafts survive.",
+      "world": "Old private timber reading room with worn walnut table, one practical lamp, dark neutral falloff, blank handled cream tag; no physical errors.",
+      "issues": []
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1421.6267942583731,
+        "cy": 737.6170212765958,
+        "w": 184.8803827751196,
+        "angle": 1.0005318067936608
+      },
+      "glass": {
+        "x": 1229.8564593301435,
+        "y": 525.063829787234
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 654.7692307692307,
+        "cy": 819.5744680851064,
+        "w": 205.4928774928775,
+        "angle": 1.0001899310175226
+      },
+      "glass": {
+        "x": 441.6182336182336,
+        "y": 583.404255319149
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-lover/portrait.jpg",
+    "wide": "/personas/caregiver-lover/wide.jpg",
+    "wideTag": {
+      "cx": 0.7404306220095693,
+      "cy": 0.6829787234042554,
+      "w": 0.09629186602870814,
+      "angle": 1.0005318067936608
+    },
+    "wideGlass": {
+      "x": 0.6405502392344498,
+      "y": 0.48617021276595745
+    },
+    "tag": {
+      "cx": 0.7307692307692307,
+      "cy": 0.6829787234042554,
+      "w": 0.22934472934472935,
+      "angle": 1.0001899310175226
+    },
+    "glass": {
+      "x": 0.4928774928774929,
+      "y": 0.48617021276595745
+    }
+  },
+  "hashes": {
+    "master": "cf10012169cf63670948b35d8724558c07276b1da1c40d9f10f4551803b705d2",
+    "wide": "b3b122c1f9a842324abd218d8b3b9311799341b905d22965a5364ac2075ee8ec",
+    "portrait": "aba0f32bff02e90de6ed469579d135b1c42c8214fa1061bfff2d0b855ed81ec8"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1071.3875598086124,
+          "y0": 257.3617021276596,
+          "x1": 1389.4736842105265,
+          "y1": 814.5957446808511
+        },
+        "paper": {
+          "x0": 1287.2727272727273,
+          "y0": 687.063829787234,
+          "x1": 1516.9377990430623,
+          "y1": 785.872340425532
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 812.8229665071771,
+          "y0": 214.468085106383,
+          "x1": 1077.8947368421052,
+          "y1": 678.8297872340426
+        },
+        "paper": {
+          "x0": 992.7272727272727,
+          "y0": 572.5531914893617,
+          "x1": 1184.1148325358852,
+          "y1": 654.8936170212767
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1142.8133971291866,
+          "y0": 221.1591489361702,
+          "x1": 1482.1052631578948,
+          "y1": 815.5421276595745
+        },
+        "paper": {
+          "x0": 1373.090909090909,
+          "y0": 679.508085106383,
+          "x1": 1618.066985645933,
+          "y1": 784.903829787234
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1919.5693779904307,
+          "y0": 233.40638297872343,
+          "x1": 2489.4736842105262,
+          "y1": 1231.7840425531915
+        },
+        "paper": {
+          "x0": 2306.363636363636,
+          "y0": 1003.2893617021275,
+          "x1": 2717.846889952153,
+          "y1": 1180.3212765957446
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6469541227351818,
+        "y": 0.48617021276595745
+      },
+      "bounds": {
+        "glass": {
+          "x0": 31.33222108262109,
+          "y0": 201.12340425531914,
+          "x1": 279.99562089268755,
+          "y1": 636.5914893617021
+        },
+        "paper": {
+          "x0": 200.1001603038937,
+          "y0": 536.9276595744681,
+          "x1": 379.6405211775879,
+          "y1": 614.1446808510639
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6478351092813031,
+        "y": 0.48617021276595745
+      },
+      "bounds": {
+        "glass": {
+          "x0": 33.93558062678065,
+          "y0": 222.09361702127663,
+          "x1": 308.5259699905033,
+          "y1": 702.9659574468084
+        },
+        "paper": {
+          "x0": 220.30017701804374,
+          "y0": 592.9106382978722,
+          "x1": 418.5603859449193,
+          "y1": 678.1787234042553
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4928774928774929,
+        "y": 0.48617021276595745
+      },
+      "bounds": {
+        "glass": {
+          "x0": 74.34940170940169,
+          "y0": 135.3531914893617,
+          "x1": 241.6963342830009,
+          "y1": 428.41702127659573
+        },
+        "paper": {
+          "x0": 187.92782526115857,
+          "y0": 361.3446808510638,
+          "x1": 308.75593542260214,
+          "y1": 413.31063829787234
+        }
+      }
+    }
+  ]
+}

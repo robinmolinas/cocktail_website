@@ -1,0 +1,22 @@
+{
+  "pairing": "hero-caregiver",
+  "pour": "Next One's Mine",
+  "version": "v3",
+  "generatedWith": "built-in image_gen",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-f17cb256-7538-42ea-aea5-fb0e21bfa6cb.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-caregiver/v3/master.png",
+  "masterDimensions": [
+    1672,
+    940
+  ],
+  "masterSha256": "2579755925cb31224205e61ca78325fd181ace93a828757d1e89ae5f95cdce09",
+  "pourDossier": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/hero-caregiver.md",
+  "sourceSha256": "63d9cd12eb4e350247ca03ddd6889a43276e3f6023449672c7295a3bbb72dce3",
+  "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-caregiver.json",
+  "mode": "sole bounded correction",
+  "editTarget": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-caregiver/v2/master.png",
+  "status": "produced measured private candidate; not accepted",
+  "exported": false,
+  "integrated": false,
+  "measurementMethod": "Manual original-detail conservative bounds in master pixels; approximately 2–4 px edge-reading tolerance. Full object bounds separate from honest recognition regions."
+}

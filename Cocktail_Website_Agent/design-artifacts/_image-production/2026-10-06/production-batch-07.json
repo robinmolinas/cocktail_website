@@ -1,0 +1,866 @@
+{
+  "id": "production-batch-07",
+  "date": "2026-10-07",
+  "workflow": "User-directed production first; browser/name/motion batch later. Producer heartbeat remains PAUSED.",
+  "state": "measured-master-candidates-not-accepted",
+  "sceneCount": 7,
+  "newPairings": 7,
+  "correctedExistingPairings": 0,
+  "precedingUserRequestedCorrections": "tag-scale-corrections-v3.json; two existing pairings corrected before this batch, not counted as new",
+  "initialsPreserved": 7,
+  "targetedCorrections": 7,
+  "generatedAssetCount": 14,
+  "exportedPairs": 0,
+  "pendingExports": 7,
+  "previousPendingExports": 36,
+  "exporterPermission": "No invocation, denied-command retry or alternate bypass. Earlier unanswered scoped question names batch02 plus Only Half Joking; batch07 and current corrected versions not included.",
+  "wideRequired": [
+    1920,
+    1080
+  ],
+  "portraitRequired": [
+    896,
+    1200
+  ],
+  "generator": "built-in image_gen",
+  "skill": "/Users/robin.molinas/.codex/skills/.system/imagegen/SKILL.md",
+  "ruleFingerprintsAtReceipt": {
+    "personaImageSystem": "89e017eac50e03e4dd07015ef537732ba3f3e063533746f5e1be33963690194d",
+    "applicationDesign": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+    "continuationPlan": "7c618125b8d8c185889406a2aa0fbf1b93624ade8b2d1877f030b85110de492f"
+  },
+  "integrationState": "none; public assets unchanged",
+  "browserReadyRequestCreated": false,
+  "tagScaleRule": "User requested discreet labels; smaller actual paper must not be inflated to meet the older numeric writing target. Name/glyph fit remains untested.",
+  "compositionTrial": "Pulled-back familiar serves, full-size plausible habit traces overlapped in depth; functional metal tools allowed, no metal counter. All retain candid review holds, no final JPEG or phone acceptance.",
+  "counts": {
+    "generatedCandidatePairings": 70,
+    "currentExportedPairs": 27,
+    "measuredUnexportedMasters": 43,
+    "notYetGenerated": 45,
+    "existingPublicPairsPreserved": 17,
+    "newAccepted": 0,
+    "newIntegrated": 0,
+    "missingFinalPairs": 115
+  },
+  "items": [
+    {
+      "pairing": "sage-innocent",
+      "pour": "Nothing Escaped You",
+      "folder": "sage-innocent/v2",
+      "master": "sage-innocent/v2/master.png",
+      "prompt": "sage-innocent/v2/prompt.md",
+      "initialPrompt": "sage-innocent/v1/prompt.md",
+      "readiness": "sage-innocent/v2/readiness.md",
+      "provenance": "sage-innocent/v2/provenance.json",
+      "ownerReview": "sage-innocent/v2/review.md",
+      "rootReview": "sage-innocent/v2/root-master-review.md",
+      "measurements": "sage-innocent/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-b790f470-c00c-44ca-9039-6967eb05c30d.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "a89388f5ccc76b5a5ab6f7fec75fb7f006c55f84819f182115a868dcd2d2392c",
+      "specSha256": "6579233a22778ecd5b625600822e72607f38ac3700eb3fd49a7c1b041affa47d",
+      "masterSha256": "3a60dc9db75f563e461bd7d072537107b7bfd6c1d6c81f0096671ccbaed29471",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        760,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1119,
+        "cy": 574,
+        "w": 70,
+        "angle": 33
+      },
+      "glass": {
+        "x": 1041,
+        "y": 385
+      },
+      "bounds": {
+        "glass": {
+          "x0": 906,
+          "y0": 310,
+          "x1": 1179,
+          "y1": 673
+        },
+        "paper": {
+          "x0": 1064,
+          "y0": 520,
+          "x1": 1167,
+          "y1": 617
+        }
+      },
+      "personalityBounds": {
+        "workedNotebook": {
+          "x0": 808,
+          "y0": 428,
+          "x1": 1319,
+          "y1": 575
+        },
+        "usedPencil": {
+          "x0": 1008,
+          "y0": 522,
+          "x1": 1298,
+          "y1": 569
+        }
+      },
+      "recognitionRegions": {
+        "workedNotebook": {
+          "x0": 809,
+          "y0": 429,
+          "x1": 1319,
+          "y1": 575
+        },
+        "usedPencil": {
+          "x0": 1133,
+          "y0": 522,
+          "x1": 1298,
+          "y1": 565
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "glassHeight": 363,
+      "paperHorizontalExtent": 103,
+      "glassBowlHorizontalExtent": 273,
+      "fullGroupWidth": 511,
+      "recognitionGroupWidth": 510,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "rootVisualState": "HOLD-composition/material; appearance/personality-specificity-watch; name-fit-unverified",
+      "rootReviewNotes": "Almost colourless pale-straw still coupe, orange strip INSIDE, no serving ice/foam/rim; source pisco/verjus stirring melt preserved, not added water. Worked notebook and separate short pencil infer modest study/answering questions, not literal biography or magical crystals.363px glass/full511px group still too wide for moving phone;702px proposed portrait retains scene.103px paper smaller than273px bowl,70px usable face measured—not enlarged for old heuristic; names untested. Pencil tip partly occluded but substantial body+eraser recognizable. Dense glossy distressed timber/uniformly worn cover remain material hold and generic specificity watch."
+    },
+    {
+      "pairing": "jester-sage",
+      "pour": "Against My Better Judgement",
+      "folder": "jester-sage/v2",
+      "master": "jester-sage/v2/master.png",
+      "prompt": "jester-sage/v2/prompt.txt",
+      "initialPrompt": "jester-sage/v1/prompt.txt",
+      "readiness": "jester-sage/v2/readiness.md",
+      "provenance": "jester-sage/v2/provenance.json",
+      "ownerReview": "jester-sage/v2/master-review.md",
+      "rootReview": "jester-sage/v2/root-master-review.md",
+      "measurements": "jester-sage/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-4a4c576d-6bc1-46c7-ac13-c3f2cfd51be7.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "8254e212ad43a4543206f73896e6fcb2fe678cc88ac9a8a978343607e814dcc7",
+      "specSha256": "2052b3952e998294f49f1ce34a769fc874955f774500ac26bf11748ce5cc2871",
+      "masterSha256": "878b439729f75ba9deba14fee9be02dcc47491906b249d17da79c557ecaa4e15",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        821,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1194,
+        "cy": 540,
+        "w": 78,
+        "angle": 32.5
+      },
+      "glass": {
+        "x": 1090,
+        "y": 326
+      },
+      "bounds": {
+        "glass": {
+          "x0": 974,
+          "y0": 254,
+          "x1": 1206,
+          "y1": 577
+        },
+        "paper": {
+          "x0": 1133,
+          "y0": 498,
+          "x1": 1243,
+          "y1": 583
+        }
+      },
+      "personalityBounds": {
+        "foldedCorrespondence": {
+          "x0": 966,
+          "y0": 429,
+          "x1": 1378,
+          "y1": 530
+        },
+        "cappedInkPen": {
+          "x0": 1127,
+          "y0": 426,
+          "x1": 1336,
+          "y1": 488
+        }
+      },
+      "recognitionRegions": {
+        "foldedCorrespondence": {
+          "x0": 966,
+          "y0": 429,
+          "x1": 1378,
+          "y1": 530
+        },
+        "cappedInkPen": {
+          "x0": 1127,
+          "y0": 426,
+          "x1": 1336,
+          "y1": 488
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "glassHeight": 323,
+      "paperHorizontalExtent": 110,
+      "glassBowlHorizontalExtent": 232,
+      "fullGroupWidth": 412,
+      "recognitionGroupWidth": 412,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "rootVisualState": "HOLD-composition/material; lighting/personality-specificity/suspension-watch; name-fit-unverified",
+      "rootReviewNotes": "Clear pale amber stemmed stirred drink, no serving ice/foam/garnish; lemon oil only, peel removed as specified. Letter from whoYouAre and whole capped pen reply-habit inference are recognisable, no pseudo-writing.323px glass/full412px group near but wider than estimated389px maxbreathing phone.110px proportional paper,78px clean face, lower corner near tabletop; name/suspension unverified. Plain clean bowl improves; glossy raised wood and cooler-left/warm-right reflections held. Specificity of hidden hope/joke remains watch."
+    },
+    {
+      "pairing": "outlaw-regular-guy",
+      "pour": "Where You Stand",
+      "folder": "outlaw-regular-guy/v2",
+      "master": "outlaw-regular-guy/v2/master.png",
+      "prompt": "outlaw-regular-guy/v2/prompt.txt",
+      "initialPrompt": "outlaw-regular-guy/v1/prompt.txt",
+      "readiness": "outlaw-regular-guy/v2/readiness.md",
+      "provenance": "outlaw-regular-guy/v2/provenance.json",
+      "ownerReview": "outlaw-regular-guy/v2/master-review.md",
+      "rootReview": "outlaw-regular-guy/v2/root-master-review.md",
+      "measurements": "outlaw-regular-guy/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-85f425fa-000c-4053-a0df-73947b8ff40b.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "c52edc7d124b4ced31b7a4c38c5b87723364ee713448422faf3151ad75511d59",
+      "specSha256": "4b075753adc20c78be601630fd9333815a569546b52cadf5d1fe51d84e88c00f",
+      "masterSha256": "6492067301d84fe97d01f1c081b2a3183314f682df4b865a2f76168b6bb5b1d1",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        895,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1140,
+        "cy": 533,
+        "w": 60,
+        "angle": 70
+      },
+      "glass": {
+        "x": 1110,
+        "y": 368
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1001,
+          "y0": 302,
+          "x1": 1218,
+          "y1": 608
+        },
+        "paper": {
+          "x0": 1107,
+          "y0": 475,
+          "x1": 1172,
+          "y1": 569
+        }
+      },
+      "personalityBounds": {
+        "telephoneIncludingVisibleLead": {
+          "x0": 1040,
+          "y0": 345,
+          "x1": 1494,
+          "y1": 578
+        },
+        "householdKeyring": {
+          "x0": 1181,
+          "y0": 542,
+          "x1": 1289,
+          "y1": 611
+        },
+        "telephoneLead": {
+          "x0": 1416,
+          "y0": 427,
+          "x1": 1494,
+          "y1": 554
+        }
+      },
+      "recognitionRegions": {
+        "telephoneBodyAndReceiver": {
+          "x0": 1040,
+          "y0": 345,
+          "x1": 1441,
+          "y1": 578
+        },
+        "householdKeyring": {
+          "x0": 1181,
+          "y0": 542,
+          "x1": 1289,
+          "y1": 611
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "glassHeight": 306,
+      "paperHorizontalExtent": 65,
+      "glassBowlHorizontalExtent": 217,
+      "fullGroupWidth": 493,
+      "recognitionGroupWidth": 440,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "rootVisualState": "root-original-reviewed; material-personality-and-phone-holds",
+      "rootReviewNotes": "Root inspected actual1672×941 PNG at original resolution. Clear amber still coupe and single orange peel inside read coherently; no ice/foam/rim. Small65px paper versus217px bowl hangs beside stem with hole/cord and air gap;60px axis at70degrees, name fit untested. Whole useful keys and recognisable phone body/receiver are plausible practical-help/open-door habit inferences, not literal possessions or sufficient moral-code evidence. Phone partly occluded but entire visible body/receiver recognisable, no anonymous sliver.306px glass; essential440px/including lead493px spread remains beyond moving-phone window;702portrait preserves visible group only, not browser PASS. Warm broad glossy timber/fine-pattern hold, telephone competes with drink. Functional keys allowed. No pixels establish vessel capacity. Initial + sole correction exhausted; no exports/acceptance/integration."
+    },
+    {
+      "pairing": "outlaw-sage",
+      "pour": "Hear Me Out",
+      "folder": "outlaw-sage/v2",
+      "master": "outlaw-sage/v2/master.png",
+      "prompt": "outlaw-sage/v2/prompt.txt",
+      "initialPrompt": "outlaw-sage/v1/prompt.txt",
+      "readiness": "outlaw-sage/v2/readiness.md",
+      "provenance": "outlaw-sage/v2/provenance.json",
+      "ownerReview": "outlaw-sage/v2/private-review.md",
+      "rootReview": "outlaw-sage/v2/root-master-review.md",
+      "measurements": "outlaw-sage/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-24c9a4a1-31c0-43e9-b694-9f10406f8cad.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c",
+      "specSha256": "19cc3a721388ed1476111dafcda2feb8e33252164ba2b0373d4c7f0d5b03adff",
+      "masterSha256": "024afabac4199b3e01d9486bd8bfdc91b7b034258457b8a390f7c6749cb273e7",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        852,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1174,
+        "cy": 594,
+        "w": 105,
+        "angle": 77
+      },
+      "glass": {
+        "x": 1011,
+        "y": 560
+      },
+      "bounds": {
+        "glass": {
+          "x0": 883,
+          "y0": 407,
+          "x1": 1138,
+          "y1": 713
+        },
+        "paper": {
+          "x0": 1129,
+          "y0": 518,
+          "x1": 1217,
+          "y1": 661
+        },
+        "discussionPage": {
+          "x0": 1139,
+          "y0": 476,
+          "x1": 1527,
+          "y1": 671
+        },
+        "pencil": {
+          "x0": 1188,
+          "y0": 477,
+          "x1": 1410,
+          "y1": 631
+        }
+      },
+      "personalityBounds": {},
+      "recognitionRegions": {
+        "discussionPage": {
+          "bounds": {
+            "x0": 1220,
+            "y0": 502,
+            "x1": 1525,
+            "y1": 670
+          },
+          "reason": "Substantial blank folded paper face and layered fold/edge visible; not an anonymous cropped sliver."
+        },
+        "pencil": {
+          "bounds": {
+            "x0": 1188,
+            "y0": 477,
+            "x1": 1410,
+            "y1": 631
+          },
+          "reason": "Entire separate pencil with ferrule/eraser, graphite-painted body and sharpened point identifiable."
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "glassHeight": 306,
+      "paperHorizontalExtent": 88,
+      "glassBowlHorizontalExtent": 255,
+      "fullGroupWidth": 644,
+      "recognitionGroupWidth": 642,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "rootVisualState": "HOLD-liquid-appearance/composition/material; personality-specificity-watch; name-fit-unverified",
+      "rootReviewNotes": "Amaretto/bourbon sour over fresh cubes, thin white foam and ONE yellow lemon strip broadly flat on top, no cherry. Body remains too clear/golden for source cloudy pale gold-amber, physical-appearance hold. Discussion page blank reverse and whole worn pencil infer argument-testing rather than magic manifesto.306px glass fits height intent;644px full/642px recognition spread still too wide for moving phone,702px portrait only. Small tied88px paper and105px long face proportional; real names untested. Dense crystalline ice and glossy patterned orange-amber wood held, generic paper/pencil specificity watch."
+    },
+    {
+      "pairing": "regular-guy-innocent",
+      "pour": "Good as It Is",
+      "folder": "regular-guy-innocent/v2",
+      "master": "regular-guy-innocent/v2/master.png",
+      "prompt": "regular-guy-innocent/v2/prompt.txt",
+      "initialPrompt": "regular-guy-innocent/v1/prompt.txt",
+      "readiness": "regular-guy-innocent/v2/readiness.md",
+      "provenance": "regular-guy-innocent/v2/provenance.json",
+      "ownerReview": "regular-guy-innocent/v2/private-review.md",
+      "rootReview": "regular-guy-innocent/v2/root-master-review.md",
+      "measurements": "regular-guy-innocent/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-1401b9ba-b62b-41bf-b9c8-ace72bd10d71.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "ed9246afc39ce9772536e3ee753d72e38e5d46770902d6e0e5ce31f43ab66d6f",
+      "specSha256": "fa75f17a43df4fb9e18cbf9d5efe885392f0bc8ebe1b5bbb57af88bad0c15de6",
+      "masterSha256": "bd537e5550f41575ed60e99f85a0329d5825c25888353ab9814103103913a4b9",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        758,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 798,
+        "cy": 504,
+        "w": 92,
+        "angle": 102
+      },
+      "glass": {
+        "x": 983,
+        "y": 526
+      },
+      "bounds": {
+        "glass": {
+          "x0": 832,
+          "y0": 342,
+          "x1": 1133,
+          "y1": 711
+        },
+        "paper": {
+          "x0": 765,
+          "y0": 438,
+          "x1": 835,
+          "y1": 565
+        },
+        "bread": {
+          "x0": 1109,
+          "y0": 439,
+          "x1": 1358,
+          "y1": 645
+        },
+        "butterKnife": {
+          "x0": 1198,
+          "y0": 409,
+          "x1": 1558,
+          "y1": 656
+        },
+        "linen": {
+          "x0": 1109,
+          "y0": 451,
+          "x1": 1647,
+          "y1": 692
+        }
+      },
+      "personalityBounds": {},
+      "recognitionRegions": {
+        "bread": {
+          "bounds": {
+            "x0": 1114,
+            "y0": 440,
+            "x1": 1358,
+            "y1": 643
+          },
+          "reason": "Substantial torn buttered bread roll: crust, exposed crumb and butter visible; no anonymous fragment."
+        },
+        "butterKnife": {
+          "bounds": {
+            "x0": 1198,
+            "y0": 409,
+            "x1": 1558,
+            "y1": 656
+          },
+          "reason": "Complete separate used steel butter knife, buttered blade, neck and full recognizable handle; no miniature."
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "glassHeight": 369,
+      "paperHorizontalExtent": 70,
+      "glassBowlHorizontalExtent": 301,
+      "fullGroupWidth": 882,
+      "recognitionGroupWidth": 793,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "rootVisualState": "root-original-reviewed; material-and-composition-holds; portrait-clips-trace",
+      "rootReviewNotes": "Root inspected actual1672×941 PNG at original resolution. Pale faintly cloudy lime caipirinha reads built with cracked ice and muddled lime, no foam/garnish; six-piece count is occluded and not proven. Small freely hanging tag, visible hole/cord, 70px horizontal paper versus301px bowl;92px writing axis does not prove name fit. Buttered torn bread and complete used butter knife are recognisable real-size habit traces, not ingredient garnish or miniature; metal knife is functional and allowed. Glass369px and full882px/essential793px spread fail compactness; proposed702portrait clips knife handle and linen, explicitly not crop or phone acceptance. Amber glossy alligator-like timber, granular ice/condensation and competing blue-window light remain material/world holds. Source/spec grounded owners' full-read work; source count/moral specificity not overstated. Initial + sole correction exhausted. No JPEG/browser/acceptance/integration."
+    },
+    {
+      "pairing": "ruler-explorer",
+      "pour": "Not the Same",
+      "folder": "ruler-explorer/v2",
+      "master": "ruler-explorer/v2/master.png",
+      "prompt": "ruler-explorer/v2/prompt.txt",
+      "initialPrompt": "ruler-explorer/v1/prompt.txt",
+      "readiness": "ruler-explorer/v2/readiness.md",
+      "provenance": "ruler-explorer/v2/provenance.md",
+      "ownerReview": "ruler-explorer/v2/review.md",
+      "rootReview": "ruler-explorer/v2/root-master-review.md",
+      "measurements": "ruler-explorer/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-a77eb133-18c8-4f82-8889-b4a0e2425f45.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "9237060193ec7c6a697043b0326558415f28eb5ddeb787fb5df9aa770b239fc8",
+      "specSha256": "19e13bd27acbd34e99713a77a80220bbc5ef112d1c1e83fc7c9cdb081b9b8489",
+      "masterSha256": "fc4087fcd56de532a4f5e676ebbdc80f5f86033ffd0061161cc6bccf21843b88",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        864,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1177,
+        "cy": 635,
+        "w": 73,
+        "angle": 71
+      },
+      "glass": {
+        "x": 1126,
+        "y": 543
+      },
+      "bounds": {
+        "glass": {
+          "x0": 997,
+          "y0": 401,
+          "x1": 1255,
+          "y1": 743
+        },
+        "paper": {
+          "x0": 1136,
+          "y0": 575,
+          "x1": 1209,
+          "y1": 678
+        }
+      },
+      "personalityBounds": {
+        "recordAndSleeve": {
+          "x0": 1154,
+          "y0": 371,
+          "x1": 1528,
+          "y1": 659
+        },
+        "ticketRollAndStubs": {
+          "x0": 887,
+          "y0": 550,
+          "x1": 1158,
+          "y1": 671
+        }
+      },
+      "recognitionRegions": {
+        "record": {
+          "x0": 1290,
+          "y0": 391,
+          "x1": 1508,
+          "y1": 654
+        },
+        "ticketRoll": {
+          "x0": 946,
+          "y0": 550,
+          "x1": 1158,
+          "y1": 666
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "glassHeight": 342,
+      "paperHorizontalExtent": 73,
+      "glassBowlHorizontalExtent": 258,
+      "fullGroupWidth": 641,
+      "recognitionGroupWidth": 562,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "rootVisualState": "HOLD-composition/material; sugar/pseudo-mark/personality-specificity-watch; name-fit-unverified",
+      "rootReviewNotes": "Pale cloudy lemon sour in chilled coupe with continuous outside sugar rim, no serving ice/garnish; clear apricot coating not provable photographically. Source old songs/raffles motivate real seven-inch record/sleeve plus perforated ticket roll, not miniature symbols.342px glass/full641px/recognition562px group too wide for moving phone;702px portrait retains declared group only. Small73px paper and73px long writing face proportional, cord/hole separate. Warm glossy crossing-grain timber/over-worn sleeve, sugar granularity/droplet speckling and faint record-label pseudo-marks held/watch. Source specificity/name/motion unapproved."
+    },
+    {
+      "pairing": "sage-jester",
+      "pour": "In Good Part",
+      "folder": "sage-jester/v2",
+      "master": "sage-jester/v2/master.png",
+      "prompt": "sage-jester/v2/prompt.txt",
+      "initialPrompt": "sage-jester/v1/prompt.txt",
+      "readiness": "sage-jester/v2/readiness.md",
+      "provenance": "sage-jester/v2/provenance.md",
+      "ownerReview": "sage-jester/v2/review.md",
+      "rootReview": "sage-jester/v2/root-master-review.md",
+      "measurements": "sage-jester/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-9210e7d5-1a86-487a-b789-06cb83abbf84.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "cf5ff5df2b5c7d4ae38b5ba4d816199417adde23459a29cd1a72005e78120c5d",
+      "specSha256": "71dfef60bce273797e430c03d64b66f5a3c4b05add1bf626fc26263515e930ba",
+      "masterSha256": "d66f31fec41eb12b5a89fef50935187cae208aed422138b265edabf3a5be0fb9",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        775,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1126,
+        "cy": 554,
+        "w": 89,
+        "angle": 79
+      },
+      "glass": {
+        "x": 1078,
+        "y": 474
+      },
+      "bounds": {
+        "glass": {
+          "x0": 917,
+          "y0": 273,
+          "x1": 1241,
+          "y1": 758
+        },
+        "paper": {
+          "x0": 1085,
+          "y0": 479,
+          "x1": 1161,
+          "y1": 607
+        }
+      },
+      "personalityBounds": {
+        "newspaper": {
+          "x0": 782,
+          "y0": 451,
+          "x1": 1244,
+          "y1": 642
+        },
+        "pencil": {
+          "x0": 846,
+          "y0": 554,
+          "x1": 1020,
+          "y1": 623
+        },
+        "dinnerLinen": {
+          "x0": 1157,
+          "y0": 453,
+          "x1": 1598,
+          "y1": 656
+        }
+      },
+      "recognitionRegions": {
+        "newspaper": {
+          "x0": 782,
+          "y0": 478,
+          "x1": 1045,
+          "y1": 635
+        },
+        "pencil": {
+          "x0": 846,
+          "y0": 554,
+          "x1": 1020,
+          "y1": 623
+        },
+        "dinnerLinen": {
+          "x0": 1180,
+          "y0": 453,
+          "x1": 1597,
+          "y1": 655
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "glassHeight": 485,
+      "paperHorizontalExtent": 76,
+      "glassBowlHorizontalExtent": 324,
+      "fullGroupWidth": 816,
+      "recognitionGroupWidth": 815,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "rootVisualState": "root-original-reviewed; material-pseudo-print-personality-and-composition-holds; portrait-clips-linen",
+      "rootReviewNotes": "Root inspected actual1672×941 original PNG. Pink raspberry-red sour body with a low smooth ordinary pale-pink egg-white cap reads plausible, not ice cream; no serving ice/garnish/rim. Small76px horizontal label versus324px bowl,89px clean axis hangs through cord/hole; no name/glyph PASS. Folded newspaper and recognisable pencil form one annotation habit, not two independent personality proofs; generic linen does not establish humour/dignity. Faux newsprint/pseudo-glyph texture is an image hold.485px glass still oversized; full816px/recognition815px spread and proposed702portrait clipping121px of linen remain composition/portrait holds. Warm glossy patterned timber and speckled glass/cloth remain material watches/holds. Initial plus sole correction exhausted. No exports/browser/acceptance/integration."
+    }
+  ]
+}

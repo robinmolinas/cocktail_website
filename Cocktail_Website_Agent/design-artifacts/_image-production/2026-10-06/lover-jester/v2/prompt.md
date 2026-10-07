@@ -1,0 +1,13 @@
+# Only Half Joking — fresh missing-pair scene
+
+Use case: photorealistic-natural. A quiet unstaged photograph in a private historic walnut reading-room bar, landscape16:9. Left third dark and empty. One drink at62%width, seen with enough room around it, not a macro or a luxuryadvertisement.
+
+A moderate-size chilled V-shaped stemmed cocktail glass holds a natural bright pink, clear-to-slightly-hazy shaken drink (gin, lemon, small Campari/orange-liqueur measures, jasmine-tea syrup). One broad thin lemon peel rests simply on the rim after being expressed. No ice in the finished glass, no egg-white foam or thick foamcap; only a fine transient tinybubble edge. No flower or grapefruit. Plain thin smooth unetched glass, slight natural chill haze in a patch and a few uneven droplets with clear areas.
+
+Two close human traces directly behind the glass: an ordinary worn muted-olive felt hat with a softly bent brim set casually sideways, and a small empty burgundy chair pulled close at a diagonal towards the glass, its seat visibly empty and back turned toward the counter as if someone has just leaned in to play back a tease. The hat is near the chair's front seat/back junction, both partly behind the stem rather than spread sideways. This is warmth and teasing between friends, not a romance scene or costume. Hat silhouette and the chair's angled back/empty seat must both be recognizable.
+
+One blank smooth cream paper name tag physically tied through a punched hole to the stem by a little burgundy string, resting near the foot nearly horizontal, with a generous plain writable long field. No text or embossed pattern. Keep the complete glass, fullpaper, wholehat and recognizable angledchairback/emptyseat together in a narrow group about22%oflandscapewidth by natural depth overlap. Glass moderate about425px tall on1672px wide scene, rimaroundy290,footaroundy715, not tall to canvas edges. Use small background perspective for the chair and hat, never toy objects. All essential content sits within20–80%height. No other tabletop props.
+
+Natural one-source restrained practical lamplight fromcamera-right, neutral brown-black shadows, real cream paper and natural pink liquid. Low-satin flat long-grain dark walnut tabletop, mostlyquiet with a few contactscuffs. Mutedburgundy/olive traces, blurred old shelves, modest35mmgrain and slightsoftness. No alligatorvarnish, denseetchedglass, uniformtextures, orangegrade, HDR, CGI, glossyadfinish, hands, people, logos, pseudo-writing, symbolicstains or floatingobjects. Drinkfirst, people implied by used hat and chair second.
+
+Built-in fresh generation. One initial call, at most one focused correction.

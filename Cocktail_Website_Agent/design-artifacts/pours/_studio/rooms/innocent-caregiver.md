@@ -1,13 +1,19 @@
 ---
 pairing: innocent-caregiver
 personality: The Big Sibling
-status: flagged           # open | closed | deadlock | flagged
+status: closed            # flag resolved by Robin 2026-10-06 (collection review); open | closed | deadlock | flagged
 round: 7               # budget: 7 (pour) · 5 (rework)
 started: 2026-09-30
 mode: batch            # pour | batch | rework
 ---
 
 # The room: The Big Sibling (innocent-caregiver)
+
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D2 (accept by structure): status flagged → draft; the flag line became `accepted: balance by structure`; the Open items bullet is marked resolved, reasoning kept.
+- **Edits** (before → after, short): whoYouAre ¶2 (Q116): "Here's what that gives them, and it deserves saying out loud:" → "Here's what that gives them:" · yours 5 (variety, V4): "So pick one of the people…" → "Pick one of the people…"
+- **Left for Robin:** tagline (Q059, D11: unchanged).
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex Bamboo (p. 91: 13.1% / 3.04 g / 0.41%, OUT on the same readings). Spec `accepted.why` corrected: "(Codex p. 246)" → "(the Codex's Bamboo, p. 91; fino as a low-ABV base, p. 246)", because p. 246 is about fino, not the form. Recipe and guest text unchanged.
 
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (flor, fino only (fact-cards/flor.md, historian-anchors.md draft)) · [x] drink + four checks (Bamboo, fino core, chamomile-honey spark; strength/acid OUT justified) · [x] reading (v1) · [x] fact audit (v1: 8 fixes open) · [x] resonance test (v3 ready) · [x] names (≥3 + pick) (Night Light (all three)) · [x] image brief

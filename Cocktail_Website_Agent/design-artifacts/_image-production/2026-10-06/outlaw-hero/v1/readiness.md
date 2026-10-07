@@ -1,0 +1,9 @@
+# Can't Watch — source-ready new candidate, not accepted
+
+Full current197-line dossier and complete spec read before image. Source SHA256ce20e7665e5cb1945c287bed88cd33c8be84b5465a20e9973172742362761bc4; spec SHA256bccea97bc7f179a483d516d721ee4ad64f873effab06bd32462cbdf2279d5c32. No existing stage/public asset found for either owned pairing before freshv1.
+
+Recipe30ml branded unaged Pedro's ogogoro40%/30ml London dry gin/30ml sweet vermouth/2.5ml1:1 demerara/one orange-bitters dash. Stir20–30seconds, strain133.2ml into chilled150ml Nick & Nora. Orange peel expressed then dropped IN, not rim/lemon/cherry. Clear light reddish amber is source craft estimate, no cloud/bubbles/foam/serving ice/straw. Recipe unchanged, no unsafe unbranded bottle shown.
+
+WhoYouAre identifies unfair rule, who it serves and practical workaround by Friday, quietly helping one person at a time despite fear of helplessness. Folded newspaper is in source image brief; worn sharpened pencil is plausible inferred working habit, not literal dossier possession or historical Solarin artefact. Newspaper print folded inward avoids pseudo-writing; honest risk remains that blank fold can read generic paper. No police/handcuffs/cell/costume/maps/flags/targets. Old two-bottle-one-shadow impossible detail and recipe-dominant bottle/jigger/palm-frond inventory omitted; dark low-satin house world supersedes bright pale-wood daylight. Functional pencil ordinary, not magical.
+
+Complete current skill/references/core docs and8actual pilot/control images read/inspected this session as recorded in lover-magician/v1/readiness.md. Production first, browser later; root exports/integrates only. No draft/tagline gate, no acceptance or source/editorial changes. Actual measured bounds must retain recognizable complete objects, not arbitrary slivers.

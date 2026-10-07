@@ -1,0 +1,1 @@
+🪞 **Wren:** Done: in `psychologist-reading-v3.md` I replaced the stale reason in the y4 Notes row and the header line with the current order (method step 1: brandy into the empty glass, then syrup, bitters and genever). Notes only, no guest text and no fact changed, so my sign-off stands.

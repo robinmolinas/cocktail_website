@@ -28,12 +28,12 @@ The replacements below use those particular human details, vary their syntax, an
 | explorer-caregiver | *Left Standing* | You'd rather know it's there than have it. | **You start missing places before they've gone.** | no
 | explorer-creator | *For Good* | Nobody remembers the problem. That's how you know you fixed it. | **You don't mind losing a weekend if nobody loses ten minutes again.** | yes
 | explorer-hero | *Nothing to It* | You went first, so they knew they could. | **You make courage look easier than it felt.** | no
-| explorer-innocent | *In a Minute* | Most people need a good reason to stop. You need one to hurry. | **The best part of the walk is usually what made everyone wait.** |
-| explorer-jester | *Why Not?* | There's an easier way. It just isn't as much fun. | **You take the long way because that's where everyone perks up.** |
-| explorer-lover | *Straight Back* | One taste, and you're somewhere else entirely. You always let it take you. | **You forget the year and remember the bread.** |
-| explorer-magician | *Just Knew* | You've been doing it for years. You just never called it that. | **The things that keep you steady rarely have names.** |
-| explorer-outlaw | *Fine by Me* | Most people hear “only if” as a no. You hear a way in. | **Give you one condition and you'll be halfway through it by morning.** |
-| explorer-regular-guy | *Brought Home* | Half the people you know have eaten somewhere because of you. | **A good trip isn't finished until someone asks you for the address.** |
+| explorer-innocent | *In a Minute* | Most people need a good reason to stop. You need one to hurry. | **The best part of the walk is usually what made everyone wait.** | no
+| explorer-jester | *Why Not?* | There's an easier way. It just isn't as much fun. | **You take the long way because that's where everyone perks up.** | no
+| explorer-lover | *Straight Back* | One taste, and you're somewhere else entirely. You always let it take you. | **You forget the year and remember the bread.** | retry
+| explorer-magician | *Just Knew* | You've been doing it for years. You just never called it that. | **The things that keep you steady rarely have names.** | retty
+| explorer-outlaw | *Fine by Me* | Most people hear “only if” as a no. You hear a way in. | **Give you one condition and you'll be halfway through it by morning.** | no
+| explorer-regular-guy | *Brought Home* | Half the people you know have eaten somewhere because of you. | **A good trip isn't finished until someone asks you for the address.** | too specific to the story, not the persona
 | explorer-ruler | *Far Enough* | You'll take them anywhere. You'll bring every one of them back. | **You measure adventure by who makes it back.** |
 | explorer-sage | *Show Your Working* | You'll wait years for the real answer. Then you give it away. | **You keep a question for years, then write the answer so nobody has to trust you.** |
 

@@ -1,0 +1,40 @@
+{
+ "pairing": "sage-caregiver",
+ "family": "daiquiri",
+ "subfamily": "Collins: the Southside, long, for many years the 21 Club's house drink, undated (Oxford SOUTHSIDE pdf 1851 names it as such; Oxford's printed recipe: gin, lemon, simple syrup, half a dozen mint leaves, shaken, strained over ice, soda; the Codex files the Southside as a Daiquiri variation, p. 128), with tarragon shaken in beside the mint and the gin raised from 45 to 60 ml",
+ "style": "collins",
+ "glass": "highball glass, chilled, filled with ice",
+ "serves": 1,
+ "ingredients": [
+  {
+   "key": "gin_london_dry",
+   "ml": 60
+  },
+  {
+   "key": "lemon_juice",
+   "ml": 30
+  },
+  {
+   "key": "simple_syrup",
+   "ml": 22.5
+  },
+  {
+   "key": "mint_leaves",
+   "count": 6
+  },
+  {
+   "key": "tarragon_leaves",
+   "count": 8
+  },
+  {
+   "key": "soda_water",
+   "ml": 60,
+   "stage": "top"
+  }
+ ],
+ "garnish": [
+  "mint_sprig_clapped",
+  "tarragon_sprig_clapped"
+ ],
+ "_status": "v1 (Tomás, round 2). Oxford's measures (45 gin / 30 lemon / 22.5 simple) under a 60 ml top ran OUT on strength (11.6%, sugar and acid EDGE); the gin goes to 60 ml (the Codex Tom Collins weight, p. 138), lemon and syrup kept. Sweep: gin 47% 14.1/7.14/0.90 all in; 43% 12.9 all in; 40% EDGE strength 12.0; 37.5% OUT 11.2 -> floor 40%, 43%+ recommended. Soda 50 EDGE sugar 7.51; 75 in range (13.1%). Syrup 20 in, 25 EDGE sugar 7.78. Veto-free. v1.1 (round 3): wording only, per Hester r2 ('long' house drink, never 'still'; tarragon is 'not in Oxford's recipe', never 'the house never used it'); numbers unchanged. v1.2 (round 3): Hester audit v1 D1-D5, D7 landed (wording only); D6 kept, edge owned in Sweeps. v1.3 (r4 step 1): closing line reworded (Wren), image brief wording; drink unchanged. v1.4 (r4 step 3): Hester W8 landed (Checks row only); drink unchanged."
+}

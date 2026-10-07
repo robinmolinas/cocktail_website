@@ -1,0 +1,71 @@
+# Reading v1: The Mentor (sage-caregiver)
+
+Wren, round 3 (2026-10-02). Built on Hester's anchors r2 (`historian-anchors.md`, C1–C6) and Tomás's drink v1 (`mixologist-draft.md`, `specs/sage-caregiver.json`).
+
+## Title block
+
+**name:** Further Than Me *(my pick, held to round 4; I could take Gladly Outgrown)*
+
+**tagline:** Everyone you've helped can manage without you now. That was always the plan.
+
+**epigraph**
+*The 21 Club's house drink for many years. The second herb in it is mine.*
+
+Tagline candidates (the person):
+1. *Everyone you've helped can manage without you now. That was always the plan.* ← my pick
+2. *You'd rather be outgrown than followed.*
+3. *You help people until they don't need you. That's the part you're proudest of.*
+
+Names (the person, not only the story):
+1. **Further Than Me** ← my pick. What the Mentor wants for every one of them, in their own voice.
+2. *Gladly Outgrown* (Tomás's pick)
+3. *Their Own Now* (Tomás)
+4. *Past the House* (Tomás)
+
+## whoYouAre
+
+Someone rings with a decision they can't make and asks what you'd do. You could tell them. Usually you don't, at least not at first. You ask what they've noticed so far, you say what you'd keep an eye on, and you let them get to the end of the sentence themselves. It takes longer. You can live with being wrong. What you couldn't live with is someone following you there. What they work out for themselves is theirs, to keep or to change.
+
+Then one day they stop ringing. They've got it. Years later they explain something to you, faster and better than you'd have managed, and you feel two things at once: very proud, and slightly left behind. You only ever mention the first. That's better than any answer you could have handed them: they leave able to manage on their own, and sure they always could.
+
+## yours
+
+1. There was a time when New York's 21 Club was arguably the most famous bar in the world. Brian Rea was hired there, and Jerry Berns schooled him in the bar and restaurant business. Rea was an enthusiastic student. He became head bartender. Then he left.
+
+2. Other bars followed, then the West Coast. In 1969 he dreamed up a new job, the beverage director, who would run the bar and the drinks separately from the food. He talked to six big hospitality companies about it, and one said yes. I like to think the lessons took precisely because he carried them somewhere else: taught the bar and the restaurant as one business, he made a job out of setting them apart.
+
+3. Berns lived until 2006, so that new job came well within his lifetime. We don't know if he followed it. I like to think he did, and that he was glad the idea wasn't his. That's what I recognise in you. You've never wanted anyone to turn into a copy of you. The day someone you helped goes past you is the day you know it worked.
+
+4. The cocktail I've made for you is the Southside, a classic that was long the 21 Club's house drink: gin, fresh lemon, sugar and mint, shaken, poured over ice in a chilled highball glass and lifted with soda. It's crisp and bright, the way a long drink should be. Then I added one thing the classic recipe doesn't have, a few leaves of tarragon shaken in beside the mint, as a nod to the student who took what the house taught him somewhere new. Tarragon shares some of what makes lemon smell of lemon, so it belongs with the rest, and it brings a soft, sweet herb taste of its own. To finish, a sprig of each goes in together, both standing tall, neither one hidden behind the other.
+
+5. Think of someone you once helped who has gone further than you, in the very thing you helped them with. Don't wait for them to ring. Ask them to explain it to you, and this time let them get all the way to the end of the sentence. It isn't a debt they're paying back. It's the proof you were right about them.
+
+## Notes (facts behind the text; Hester audits)
+
+| para | claim | source |
+| --- | --- | --- |
+| epigraph | 21 Club's house drink "for many years" | Oxford SOUTHSIDE pdf 1851 (anchors: house drink). "Mine" = our tarragon (Tomás's addition), not a source claim. No "never used" absence claim. |
+| y1 | "arguably the most famous bar in the world", at a time; Rea hired; Berns schooled him in the bar and restaurant business; "enthusiastic student"; head bartender; left | Oxford REA pdf 1614. No founder role (C1). His 21 years undated. "Then he left" = "After his stint at 21". |
+| y2 | other bars, then the West Coast (1960s) | pdf 1614; C3 (no Doris Day, no bar names) |
+| y2 | 1969, new hospitality position, beverage director, bar and beverage separate from food | pdf 1614. "A new kind of job" (C5), never "first". |
+| y2 | spoke with six major corporations; one said yes | pdf 1614. Never "five turned him down". Host International unnamed in guest text. |
+| y2 | "the lessons took... setting them apart" | interpretation, inside the signpost (C6). One sentence. |
+| y3 | Berns lived until 2006; 1969 within his lifetime | pdf 1614 dates (anchors: the dates) |
+| y3 | "We don't know if he followed it. I like to think he did, and was glad" | signposted; (3) never a fact |
+| y4 | Southside: a classic; gin, lemon, sugar, mint, soda, highball, ice; long the 21's house drink | pdf 1851 ("the essential country-club quaff") |
+| y4 | tarragon not in the classic recipe | Oxford's recipe on pdf 1851 has no tarragon. "Doesn't have" refers to that printed recipe only, never to what 21 poured. "Crisp and bright": Tomás's acid at 0.90%, near the top of the band. |
+| y4 | tarragon shares lemon's scent compounds | *Flavor Matrix* pdf 270 (Tomás) |
+| y4 | "soft, sweet herb taste of its own" | Mixologist's description, Tomás to confirm |
+| y4 | one sprig of each, set in together | Tomás's method step 5 |
+| y5 | position | the guest's half: no fact |
+
+## Resonance
+
+- **The "this is me" line:** *"You can live with being wrong. What you couldn't live with is someone following you there."* It's the Sage's fear of deception turned on themselves, and it explains the Caregiver's patience: why they hold back the answer. No sibling has it (the Doctor fears saying yes and being wrong, which is about comfort against honesty, not about being followed). The line I'd hand Robin: *"It's the proof you were right about them."* (Kept off *Beside the First*'s "What you dread isn't being wrong" frame.)
+- **As the guest:** a scene anyone who's been asked "what would you do?" can check. Then the long way round, and the reason for it. Then the day the calls stop, and the two feelings with only one said aloud. The gift is stated plainly once ("better than any answer you could have handed them"). The position is earned last, in their interest, and ends on what they gain: being right about someone, not being needed.
+- **As a sceptic:** "you help people" alone would be Barnum. "Let them get to the end of the sentence", "someone following you there" and "only ever mention the first" pin it. Swap-tested against *Instead* (no "one question", no going over it on the way home), *Tried and True* (no remembering who said it), *Down the Line* (no chain: Rea's later teaching stays out), *Till Spring* (no carrying the failures), *The First Guess*, *Hoping You'd Come* and *Next One's Mine*. The 4-gram run against every pour is in my turn.
+- **The story mirrors the person:** a teacher whose student left and built a job the teacher's own house didn't have, signposted, with the gladness a signposted wish and the dates real.
+- **The drink proves it:** the house drink, kept honest (the lemon), with one thing the house didn't put in, standing level with the mint.
+- **History share:** y1–y3 story ≈ 195 of ≈ 530 words (whoYouAre + yours), under half.
+- **Callback:** "the end of the sentence" appears in whoYouAre (they let others finish) and in y5 (the roles reversed). That's deliberate.
+- **Verdict:** *ready*, pending Hester's audit and a closing line that doesn't repeat y5's words.

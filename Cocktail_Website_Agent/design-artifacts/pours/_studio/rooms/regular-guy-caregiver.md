@@ -1,13 +1,19 @@
 ---
 pairing: regular-guy-caregiver
 personality: The Good Samaritan
-status: flagged          # open | closed | deadlock | flagged
+status: closed            # flag resolved by Robin 2026-10-06 (collection review); open | closed | deadlock | flagged
 round: 5               # budget: 5 (pour, Robin 2026-10-01) · 5 (rework)
 started: 2026-10-01
 mode: batch            # pour | batch | rework
 ---
 
 # The room: The Good Samaritan (regular-guy-caregiver)
+
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D2 (shakerato acid accepted by structure): `flagged` → `draft`, `accepted:` line, the acid Open item → resolved. D7 (keep the cash machine): Wren's risk note in Open items and in Resonance now reads "Robin 2026-10-06 (D7): keep."
+- **Edits** (before → after, short): whoYouAre ¶1 (Q088): "someone who'd turned into part of the street" → "someone everyone had stopped seeing" (the figure stays, per D7); whoYouAre ¶2 (V2, corpus example): "Here's what it gives, and it deserves to be said: the people you stop for…" → "The people you stop for…"; yours 3 (Q162): "You don't sort people into the ones who've earned a hello and the ones who haven't." → "…works too: it starts with stopping, before you know a thing about them."
+- **Left for Robin:** tagline (Q089) unchanged per D11; Q140 (moka pot in the espresso note) waits on Tomás to confirm a moka shot shakes acceptably.
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", the Codex has no shaken coffee drink (its only brewed-coffee drink is the hot Irish Coffee, p. 268), so Arnold's Boozy Shakerato stays the benchmark. `accepted` reason checked: right. **Q140:** espresso note → "one shot, pulled only when you're about to shake; a stovetop moka pot works too, though the foam will be thinner" (LI p. 352: crema comes from espresso's pressure; reasoning in Checks › Makeable). Lint 0 errors.
 
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit · [x] resonance test · [x] names (≥3 + pick) (Whoever Comes In (all three)) · [x] image brief

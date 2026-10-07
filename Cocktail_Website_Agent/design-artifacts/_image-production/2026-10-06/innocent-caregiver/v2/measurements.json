@@ -1,0 +1,76 @@
+{
+  "pairing": "innocent-caregiver",
+  "pour": "Night Light",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-caregiver/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-31e77bb0-ec3d-4f16-b07c-496dda4f8d9b.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "d4e942abc39972cf7ed38e258d918f409f1fc3e36fa12ede52d55520ac2716bf",
+  "specSha256": "79ebbe340d457c56299b2c2a0e6bf3c909d0414dba7538fd3e293347f5a425c5",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    750,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1112,
+    "cy": 597,
+    "w": 214,
+    "angle": 11.3
+  },
+  "glass": {
+    "x": 931,
+    "y": 339
+  },
+  "bounds": {
+    "glass": {
+      "x0": 781,
+      "y0": 208,
+      "x1": 1085,
+      "y1": 720
+    },
+    "paper": {
+      "x0": 947,
+      "y0": 508,
+      "x1": 1239,
+      "y1": 669
+    }
+  },
+  "recognitionRegions": {
+    "blanketMendedFold": {
+      "x0": 1194,
+      "y0": 446,
+      "x1": 1402,
+      "y1": 640
+    },
+    "savedBiscuit": {
+      "x0": 1110,
+      "y0": 658,
+      "x1": 1323,
+      "y1": 753
+    }
+  },
+  "recognitionMethod": "Manual conservative rectangular bounds on actual original1672×941 image at full size; mend includes looped edge and folded wool to establish blanket, biscuit includes complete cookie. Blanket body and greaseproof wrapper outside these regions are optional.",
+  "review": {
+    "recipe": "Clear, still, transparent pale straw wine in one plain small stemmed cocktail glass with one dropped lemon-peel strip; no ice/foam/flor/rim. Colour is less amber than v1 but right practical reflects warm in bowl; strict almost-colourless colour review remains.",
+    "personality": "Complete mended blanket fold and saved biscuit recognise plainly in wide and fit proposed full702px portrait; their621px union with completeglass/paper cannot all survive434px tall-phone cover, narrower during breathing.",
+    "world": "Mostly flat low-satin long-grain walnut, plain glass, natural wool and biscuit. Neutral dark left survives. Warm visible right lamp and tabletop highlight may need root restraint review, no generatedwriting/ornamentalletching.",
+    "issues": [
+      "Master-only candidate; no exact JPEG pair or browser check performed by this assistant.",
+      "Composition risk: complete glass/paper horizontal union458px exceeds ~434px tall-phone nominal cover; essentialglass/paper/twotraceunion621px far exceeds max-breathing~389px.",
+      "Do not call full portrait equivalent to actual tall-phone cover.",
+      "Residual wine warmth against almost-colourless requirement needs root physical review.",
+      "Single permitted correction used; no further image generation in this pass."
+    ]
+  },
+  "status": "created-master; root-review-and-portrait-recomposition-needed; not-accepted"
+}

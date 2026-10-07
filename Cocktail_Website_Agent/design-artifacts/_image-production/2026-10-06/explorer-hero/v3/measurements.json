@@ -1,0 +1,52 @@
+{
+  "pairing": "explorer-hero",
+  "pour": "Nothing to It",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-hero/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-5ea85de6-34aa-4f7a-ac15-b6ca7846857b.png",
+  "sourceSha256": "f47bf1ef1109a2ce34aa6af2e59891b0a04104df1b1a8ebc83e7d1a7f287010b",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    565,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1042,
+    "cy": 636,
+    "w": 205,
+    "angle": 1.7
+  },
+  "glass": {
+    "x": 999,
+    "y": 497
+  },
+  "bounds": {
+    "glass": {
+      "x0": 849,
+      "y0": 341,
+      "x1": 1149,
+      "y1": 652
+    },
+    "paper": {
+      "x0": 906,
+      "y0": 594,
+      "x1": 1154,
+      "y1": 679
+    }
+  },
+  "review": {
+    "recipe": "Passed master: small freezer-cold200ml heavy tumbler approximatelyhalf-full clear deepamber, no ice, orange peel setaside, amber caramel pan secondary.",
+    "personality": "Cards/watch moved left but too far: watch face x651..765 while glass/paper ends1154. Complete watch-face plus drink union503px exceeds ~434px phone visibility. Some card edge/released strap remain, but this is not a confident person-trace pass.",
+    "world": "Passed dark worn walnut house, practical warm lamp, neutral shadow, actual blank thread-tied paper.",
+    "issues": [
+      "Hold: final bounded correction relocated watch/cards too far left. Narrow phone cannot preserve full watch face with whole drink/tag. No further generation after checkpoint pause.",
+      "Wide/portrait companions pending central export approval; no acceptance."
+    ]
+  }
+}

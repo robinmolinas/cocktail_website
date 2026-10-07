@@ -1,0 +1,302 @@
+{
+  "pairing": "caregiver-sage",
+  "pour": "Instead",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "c20da9d51b483be1580f68933993099178bbb6a53d350e682eb6ce866c7480bf",
+  "review": {
+    "recipe": "Clear transparent deep reddish amber chilled stirred Martinez, no ice/foam, yellow lemon strip rests on rim, small stemmed glass.",
+    "personality": "Worn open spectacles case/reading spectacles and plain paper slips with pencil convey experienced careful inquiry. Portrait retains case and spectacles; peripheral pencil/slips may be trimmed by tall-phone cover.",
+    "world": "Historic dark worn walnut reading bar, one warm lamp, natural shadows/contact wear and blank handled tag; no medical/magical props.",
+    "issues": []
+  },
+  "measurements": {
+    "pairing": "caregiver-sage",
+    "pour": "Instead",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-sage/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-b5452e4e-55c9-4056-81f1-5e4f281d607e.png",
+    "sourceSha256": "c20da9d51b483be1580f68933993099178bbb6a53d350e682eb6ce866c7480bf",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      700,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1208,
+      "cy": 665,
+      "w": 175,
+      "angle": 4
+    },
+    "glass": {
+      "x": 1008,
+      "y": 502
+    },
+    "bounds": {
+      "glass": {
+        "x0": 877,
+        "y0": 294,
+        "x1": 1177,
+        "y1": 716
+      },
+      "paper": {
+        "x0": 1071,
+        "y0": 605,
+        "x1": 1306,
+        "y1": 720
+      }
+    },
+    "review": {
+      "recipe": "Clear transparent deep reddish amber chilled stirred Martinez, no ice/foam, yellow lemon strip rests on rim, small stemmed glass.",
+      "personality": "Worn open spectacles case/reading spectacles and plain paper slips with pencil convey experienced careful inquiry. Portrait retains case and spectacles; peripheral pencil/slips may be trimmed by tall-phone cover.",
+      "world": "Historic dark worn walnut reading bar, one warm lamp, natural shadows/contact wear and blank handled tag; no medical/magical props.",
+      "issues": []
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1387.177033492823,
+        "cy": 764.0425531914894,
+        "w": 200.95693779904306,
+        "angle": 4.002120747517062
+      },
+      "glass": {
+        "x": 1157.5119617224882,
+        "y": 576.7659574468086
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 648.3874643874644,
+        "cy": 848.936170212766,
+        "w": 223.36182336182338,
+        "angle": 4.000757411088073
+      },
+      "glass": {
+        "x": 393.1168091168091,
+        "y": 640.8510638297873
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-sage/portrait.jpg",
+    "wide": "/personas/caregiver-sage/wide.jpg",
+    "wideTag": {
+      "cx": 0.722488038277512,
+      "cy": 0.7074468085106383,
+      "w": 0.10466507177033493,
+      "angle": 4.002120747517062
+    },
+    "wideGlass": {
+      "x": 0.6028708133971292,
+      "y": 0.5340425531914894
+    },
+    "tag": {
+      "cx": 0.7236467236467237,
+      "cy": 0.7074468085106383,
+      "w": 0.2492877492877493,
+      "angle": 4.000757411088073
+    },
+    "glass": {
+      "x": 0.43874643874643876,
+      "y": 0.5340425531914894
+    }
+  },
+  "hashes": {
+    "master": "cfda3b048cc8e4841ffdf44072519044bc2ab24bf7a2429594a657f03599badb",
+    "wide": "5e2337104955ef46e7f1e6a343c2b40314d42a2c7f6f39da31321daf80e2c94a",
+    "portrait": "949da8e4289342a32c935a41357e780dacb4c209a3b5753b0732fad714d6580d"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1007.0813397129187,
+          "y0": 337.7872340425532,
+          "x1": 1351.578947368421,
+          "y1": 822.6382978723404
+        },
+        "paper": {
+          "x0": 1229.8564593301435,
+          "y0": 695.1063829787233,
+          "x1": 1499.712918660287,
+          "y1": 827.2340425531914
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 759.2344497607656,
+          "y0": 281.48936170212767,
+          "x1": 1046.3157894736842,
+          "y1": 685.531914893617
+        },
+        "paper": {
+          "x0": 944.8803827751196,
+          "y0": 579.2553191489361,
+          "x1": 1169.7607655502393,
+          "y1": 689.3617021276596
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1074.22009569378,
+          "y0": 306.9463829787234,
+          "x1": 1441.6842105263158,
+          "y1": 824.1208510638297
+        },
+        "paper": {
+          "x0": 1311.846889952153,
+          "y0": 688.0868085106382,
+          "x1": 1599.6937799043062,
+          "y1": 829.0229787234042
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1804.354066985646,
+          "y0": 377.5021276595744,
+          "x1": 2421.5789473684213,
+          "y1": 1246.1936170212766
+        },
+        "paper": {
+          "x0": 2203.492822966507,
+          "y0": 1017.6989361702126,
+          "x1": 2686.9856459330144,
+          "y1": 1254.427659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6544291571892328,
+        "y": 0.5340425531914894
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1.708061538461493,
+          "y0": 263.97446808510637,
+          "x1": 271.01860284900283,
+          "y1": 642.8765957446808
+        },
+        "paper": {
+          "x0": 175.86221158594486,
+          "y0": 543.2127659574468,
+          "x1": 386.8221356125356,
+          "y1": 646.468085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.655291490621949,
+        "y": 0.5340425531914894
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1.2226461538461422,
+          "y0": 291.49787234042554,
+          "x1": 298.6129595441596,
+          "y1": 709.9063829787234
+        },
+        "paper": {
+          "x0": 193.53504881291545,
+          "y0": 599.8510638297872,
+          "x1": 426.49079430199436,
+          "y1": 713.8723404255319
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4634461258231751,
+        "y": 0.5340425531914894
+      },
+      "bounds": {
+        "glass": {
+          "x0": 58.68504615384614,
+          "y0": 177.65106382978723,
+          "x1": 239.92721139601142,
+          "y1": 432.64680851063827
+        },
+        "paper": {
+          "x0": 175.88831301044632,
+          "y0": 365.57446808510633,
+          "x1": 317.8613424501425,
+          "y1": 435.06382978723406
+        }
+      }
+    }
+  ]
+}

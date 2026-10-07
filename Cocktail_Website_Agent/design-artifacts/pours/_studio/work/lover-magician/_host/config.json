@@ -1,0 +1,26 @@
+{
+ "pairing": "lover-magician",
+ "personality": "The Charmer",
+ "archetypes": "Lover × Magician",
+ "date": "2026-10-04",
+ "batch": "lover",
+ "name": "Worth Finding",
+ "tagline": "Everyone wants to know you better. You make sure there's always more to know.",
+ "epigraph": "It starts at a bar upstairs, behind a restaurant. Its shiso hides behind the gin.",
+ "glassware": "small stemmed cocktail glass (about 150 ml), chilled, no ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "angels-share-ikeda-gokan.md",
+ "language_row": "Wren's Resonance on reading v2: ready. Lint 0 errors; the three pronoun warnings (yours 2–4: 'he') are Ikeda or Gokan, never the guest, accepted by Wren in round 4. Round-3 lint error (a 'we' in Gokan's quotation, read as the bartender's voice) fixed by Wren in round 4, step 1. No gendered words about the guest. ✓",
+ "sources": "Studio fact card `_studio/fact-cards/angels-share-ikeda-gokan.md`: Simonson, *A Proper Drink* (2016), ch. IV, printed pp. 47–50 (interviews with Gokan, 2014, and Ikeda, 2015); *Oxford Companion* SHOCHU (pdf 1784–1786). Library only, no web visits. Drink: *Cocktail Codex* pp. 71, 73 (the Martini and its blanc-vermouth variation); *Flavor Matrix* rendered pages (juniper and shiso's herb family). Room notes: `work/lover-magician/`.",
+ "names_note": "**Worth Finding**, the room's vote 2–1 (Wren and Hester; Tomás voted *Not All at Once*): the person, and what you find when you find them; the bar also had to be found. Also considered: *Not All at Once* (Tomás), *Without Notice* (Hester), *A Reason to Stay* (repeats the 'this is me' line), *The Last Thing*, *The Door at the Back*, *The Green Note*, *Something Green*; dropped *By Invitation* (reads exclusive) and *Just Enough* (echoes *Just Knew*, *Just This Once*, *Far Enough*).",
+ "open_items": [
+  "**No present tense about the bar:** *A Proper Drink* is from 2016; whether Angel's Share is open today, and where, is unchecked. Gokan's later career is not on these pages.",
+  "**Petraske's visit (Proper p. 49) is kept out** by plan: he belongs to the Rough Diamond (lover-regular-guy). No Uyeda, no 'speakeasy', no barback anecdote.",
+  "**Strength depends on the gin:** in range with London dry at 45% or stronger; at 40–43% the finished strength sits just under 21% (EDGE, never OUT). Shochu floor 25%. In shops shochu is sometimes labelled 'soju', which is a different Korean spirit; the recipe note says to ask for shochu.",
+  "**The drink's pale-straw colour** in the image brief rests on blanc vermouth's colour (Tomás's knowledge, unsourced).",
+  "**Sibling echo, owned:** *Up Close* (ruler-lover) also strains its fruit out; here the leaf is kept and set on the table beside the glass as it's served, which is the drink's gesture.",
+  "**New ingredient rows:** `shochu_barley` and `shiso_leaf`, added on the safe side; no allergens. Veto-free."
+ ]
+}

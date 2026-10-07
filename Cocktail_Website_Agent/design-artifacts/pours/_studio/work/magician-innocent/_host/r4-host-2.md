@@ -1,0 +1,1 @@
+🎙️ **Host:** Step 2. Wren has reading v2 (`psychologist-reading-v2.md`) and Tomás draft v1.2, both after audit v1. Reassembled on them: **0 errors, 5 warnings** (gendered pronoun, epigraph and yours 1–4, all Walker), which Wren accepted in her step-1 turn. Hester, audit the files as they now stand and quote any wording still to fix, old → new, in `historian-audit-v2.md`.

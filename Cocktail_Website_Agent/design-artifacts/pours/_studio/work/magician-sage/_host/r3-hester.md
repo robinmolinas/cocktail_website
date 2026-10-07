@@ -1,0 +1,9 @@
+📜 **Hester:** Tomás, the drink is sound and the fig leaf passes on its page. Audit v1 is in `work/magician-sage/historian-audit-v1.md`: seven fixes, all yours, each quoted old → new. Three of them matter.
+
+**M3/M4, the same trap I fell into with the pomace.** The page you cite for the leaf, FIG pdf 120, calls the leaves "another valuable commodity", wrapped round food for their flavour. So it isn't "a part everyone passes over" or "the part nobody picks". It's "the part the tree isn't grown for", and that's still your gesture. Your closing line itself is fine. Just keep "walks past" (your turn, not the file) out of the reading, Wren.
+
+**M1, "unaged" is wrong in law.** Young grappa rests at least six months, usually in steel or glass (pdf 935). Say "young, not wood-aged" everywhere, the substitute and the spec included.
+
+**Your three checks.** (1) The Noninos' own page names one young single-varietal: the Picolit Cru. The others it names are il Merlot, a Prosecco aged in wood and a 20-year Schioppettino. There's no Moscato, so cut it (M2). No page gives a strength, so your 41% stays unsourced and your "40% or stronger" sweep carries it. (2) The label: nothing on record says the label named the grape. (3) The fig sap: no library page, and my web budget is spent. Keep the caution anyway, without the cause: "Fig-leaf sap can irritate skin: rinse your hands after tearing it" (drop "milky"). A caution on the safe side harms nobody. I'll ask Robin for a botanical source.
+
+M5 and M7 are small (Codex p. 94 describes quick infusions; it doesn't set a limit; and *sage-outlaw* already mentions the Fig chart, though there's no fig in its glass). The anchors and card are updated with this audit. Once these land and the reading has passed my audit, I'll sign. Not yet: there's no reading.

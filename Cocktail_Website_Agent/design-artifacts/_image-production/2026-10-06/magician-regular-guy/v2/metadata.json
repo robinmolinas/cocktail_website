@@ -1,0 +1,306 @@
+{
+  "pairing": "magician-regular-guy",
+  "pour": "Cold Water First",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "cef277860acf2c375b1b332f9aaf90035e8160aac2e0dc06d486f2d0b415529e",
+  "review": {
+    "recipe": "Short wide heatproof tumbler, clear golden hot toddy, single long lemon ribbon inside; saucer inverted and damp just lifted. No ice/flame/extra garnish; only faint steam. Fully dissolved sugar, plausible fill.",
+    "personality": "Ordinary blank-back card pack and two slightly unsquared face-down cards embody explicit private-practice source; pulled-up chair invites another person. Drying functional mugs with damp towel replace obsolete impossible water arc.",
+    "world": "Dark walnut table, neutral black-brown room, dim lamp. Flame in v1 removed in v2; metal only legitimate practice mugs. No industrial surface.",
+    "issues": [
+      "Supporting cards/saucer partly cropped on very narrow phone view; dedicated portrait recompose may be required after export inspection."
+    ]
+  },
+  "measurements": {
+    "pairing": "magician-regular-guy",
+    "pour": "Cold Water First",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-regular-guy/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-e75f1210-0dce-4c1f-ae4e-e2b87e789fa9.png",
+    "sourceSha256": "cef277860acf2c375b1b332f9aaf90035e8160aac2e0dc06d486f2d0b415529e",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      776,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 886,
+      "cy": 677,
+      "w": 178,
+      "angle": -8.7
+    },
+    "glass": {
+      "x": 945,
+      "y": 489
+    },
+    "bounds": {
+      "glass": {
+        "x0": 797,
+        "y0": 314,
+        "x1": 1097,
+        "y1": 647
+      },
+      "paper": {
+        "x0": 782,
+        "y0": 630,
+        "x1": 1049,
+        "y1": 724
+      }
+    },
+    "review": {
+      "recipe": "Short wide heatproof tumbler, clear golden hot toddy, single long lemon ribbon inside; saucer inverted and damp just lifted. No ice/flame/extra garnish; only faint steam. Fully dissolved sugar, plausible fill.",
+      "personality": "Ordinary blank-back card pack and two slightly unsquared face-down cards embody explicit private-practice source; pulled-up chair invites another person. Drying functional mugs with damp towel replace obsolete impossible water arc.",
+      "world": "Dark walnut table, neutral black-brown room, dim lamp. Flame in v1 removed in v2; metal only legitimate practice mugs. No industrial surface.",
+      "issues": [
+        "Supporting cards/saucer partly cropped on very narrow phone view; dedicated portrait recompose may be required after export inspection."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1017.4162679425837,
+        "cy": 777.8297872340426,
+        "w": 204.4019138755981,
+        "angle": -8.704556799666154
+      },
+      "glass": {
+        "x": 1085.1674641148325,
+        "y": 561.8297872340426
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 140.3988603988604,
+        "cy": 864.2553191489361,
+        "w": 227.1908831908832,
+        "angle": -8.70162744118757
+      },
+      "glass": {
+        "x": 215.7037037037037,
+        "y": 624.2553191489362
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/magician-regular-guy/portrait.jpg",
+    "wide": "/personas/magician-regular-guy/wide.jpg",
+    "wideTag": {
+      "cx": 0.5299043062200957,
+      "cy": 0.7202127659574468,
+      "w": 0.10645933014354067,
+      "angle": -8.704556799666154
+    },
+    "wideGlass": {
+      "x": 0.5651913875598086,
+      "y": 0.5202127659574468
+    },
+    "tag": {
+      "cx": 0.15669515669515668,
+      "cy": 0.7202127659574468,
+      "w": 0.2535612535612536,
+      "angle": -8.70162744118757
+    },
+    "glass": {
+      "x": 0.24074074074074073,
+      "y": 0.5202127659574468
+    }
+  },
+  "hashes": {
+    "master": "372632658cee07d6cbe70a3cfebf0ace943e114a100df0c219c5bc0f5d76e7b7",
+    "wide": "d7ed9150c53db76ded3ac2952cbe7daab8f0c2957d4b74192e1f611d3e338869",
+    "portrait": "893ff4c10aab6cffeb04ad869a71feb5f931466e7493d35719f2554b5321d18d"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 915.2153110047847,
+          "y0": 360.7659574468085,
+          "x1": 1259.712918660287,
+          "y1": 743.3617021276596
+        },
+        "paper": {
+          "x0": 897.9904306220096,
+          "y0": 723.8297872340426,
+          "x1": 1204.5933014354066,
+          "y1": 831.8297872340426
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 682.6794258373205,
+          "y0": 300.6382978723404,
+          "x1": 969.7607655502393,
+          "y1": 619.468085106383
+        },
+        "paper": {
+          "x0": 668.3253588516747,
+          "y0": 603.1914893617021,
+          "x1": 923.8277511961721,
+          "y1": 693.1914893617021
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 976.2296650717703,
+          "y0": 331.4570212765957,
+          "x1": 1343.6937799043062,
+          "y1": 739.5591489361701
+        },
+        "paper": {
+          "x0": 957.8564593301436,
+          "y0": 718.7251063829788,
+          "x1": 1284.8995215311004,
+          "y1": 833.9251063829787
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1639.7607655502393,
+          "y0": 418.67234042553184,
+          "x1": 2256.9856459330144,
+          "y1": 1104.1563829787233
+        },
+        "paper": {
+          "x0": 1608.8995215311006,
+          "y0": 1069.1617021276595,
+          "x1": 2158.2296650717703,
+          "y1": 1262.6617021276595
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.026013119900096655,
+        "y": 0.5202127659574468
+      },
+      "bounds": {
+        "glass": {
+          "x0": 12.603733333333345,
+          "y0": 281.93191489361703,
+          "x1": 281.91427464387465,
+          "y1": 580.9234042553192
+        },
+        "paper": {
+          "x0": -0.861793732193723,
+          "y0": 565.6595744680851,
+          "x1": 238.82458803418808,
+          "y1": 650.0595744680851
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.025948207065447027,
+        "y": 0.5202127659574468
+      },
+      "bounds": {
+        "glass": {
+          "x0": 13.917866666666677,
+          "y0": 311.3276595744681,
+          "x1": 311.30818005698006,
+          "y1": 641.4936170212766
+        },
+        "paper": {
+          "x0": -0.9516490028489928,
+          "y0": 624.6382978723404,
+          "x1": 263.7257299145299,
+          "y1": 717.8382978723405
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.04038951940591279,
+        "y": 0.5202127659574468
+      },
+      "bounds": {
+        "glass": {
+          "x0": 8.482133333333339,
+          "y0": 189.73617021276596,
+          "x1": 189.72429857549858,
+          "y1": 390.9531914893617
+        },
+        "paper": {
+          "x0": -0.5799749287749227,
+          "y0": 380.6808510638298,
+          "x1": 160.72555213675216,
+          "y1": 437.4808510638298
+        }
+      }
+    }
+  ]
+}

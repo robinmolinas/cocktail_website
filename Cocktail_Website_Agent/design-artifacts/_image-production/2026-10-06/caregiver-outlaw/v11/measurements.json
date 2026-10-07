@@ -1,0 +1,35 @@
+{
+  "pairing": "caregiver-outlaw",
+  "pour": "Not Too Polite",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-outlaw/v11/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-592f8cd6-b4ca-40f1-9cee-599710c5a60b.png",
+  "masterDimensions": [1662,946],
+  "masterSha256": "570588a9bbc05cb127754d7a2b0f669b93ef7e1b0392e691e4a9ff376c7753a2",
+  "sourceSha256": "cefe2c263153b4a16592375851515068896a5d9e2e77f8511a1ac261062e65dc",
+  "wideCrop": [0,6,1662,934],
+  "portraitCrop": [884,4,700,938],
+  "tag": {"cx":1108,"cy":550,"w":118,"angle":-1.8},
+  "glass": {"x":1043,"y":470},
+  "bounds": {
+    "glass": {"x0":921,"y0":184,"x1":1166,"y1":748},
+    "paper": {"x0":1013,"y0":501,"x1":1178,"y1":598},
+    "clasp": {"x0":1253,"y0":653,"x1":1414,"y1":759},
+    "handkerchief": {"x0":1268,"y0":518,"x1":1573,"y1":673}
+  },
+  "recognitionRegions": {
+    "meetingFolder": {
+      "bounds": {"x0":1234,"y0":619,"x1":1454,"y1":778},
+      "reason": "Released brass clasp plus neighboring leather cover edge, layered folder leaves and corner needed to recognize a meeting folder rather than an isolated brass fitting. The farther folder body is optional."
+    },
+    "pocketHandkerchief": {
+      "bounds": {"x0":1308,"y0":535,"x1":1528,"y1":663},
+      "reason": "Bunched cotton folds and visible pocket-sized hem needed to read a gripped handkerchief. A narrow anonymous cloth strip is not equivalent; full physical object bounds remain separately recorded."
+    }
+  },
+  "review": {
+    "recipe": "One ice-full straight Collins, clear light amber liquid, one dropped orange peel inside, no foam/cherry/straw. Blue bowl visibly empty. Jaggery now opaque matte crumbly golden-brown rather than transparent amber resin. Recipe materially improved without changing the source.",
+    "personality": "Recognizable released meeting-folder clasp/cover corner and bunched pocket handkerchief are present, but spread to the right. Whole essential union x921–1573 is652masterpx; even recognition-core union x921–1528 is607px. Both exceed roughly389px phone breathing window. Full proposed portrait is not phone proof; tall-phone glass and recognizable handkerchief cannot both survive.",
+    "world": "Correct dark historic timber room, burgundy chair and neutral brown-black shadows. Walnut is flatter and more plausibly long-grain/low-satin than v10, with localized warm reflections; leather more subdued; opaque jaggery is substantially improved. Ordinary broad ice faces are better, but condensation and internal fine sparkle still denser than requested. Material gate not independently passed until actual JPEG comparison.",
+    "issues": ["HOLD: essential scene652px wide versus target~350px and phone breathing~389px", "HOLD: two recognizable person cores cannot fit with complete glass/paper even when optional folder body is excluded", "Higher tied tag improves page-copy clearance but actual authored-copy/name overlay remains untested", "Clean writable tag axis118masterpx is smaller than requested generous long-name area; actual glyph fit must be checked", "Glass/ice still carries dense droplets/fine sparkle; actual JPEG material review pending, not accepted", "Only one fresh call authorized and used; no further generation/export/scaling"]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "owner": "producer only",
+  "producerThreadId": "01a0e301-82a5-7e13-9270-2810eceb62e0",
+  "pendingBatchIds": ["pilot-caregiver-innocent-v4-phone-layout-r1"],
+  "currentWork": {
+    "productionDirection": "Robin requested image creation now and batch browser checks afterwards; old per-candidate browser-before-generation gate is deferred",
+    "latestCorrection": "hear-me-out-tag-physics-v3.md/JSON: Robin rejected unexplained rim-hook attachment. One explicit targeted built-in edit; actual1672x941 root-inspected/remeasured, source/spec unchanged. Snug exterior lower-third body loop frontarc/sideocclusion -> knot -> short downward tether -> punched paper hole, paper hangs beside glass with bottom contacting timber.75px clean axis, real name untested. Current outlaw-sage pending v2→v3 only; batch07/v2 preserved. Earlier correction gallery preserves Go On/Whoever Comes In v3 and Fine by Me v4. No count/JPEG/public changes; too-clear liquid/glossy timber/ice/phone/personality holds retained. New physical-support rule in persona-image-system.md.",
+    "phoneLayoutOwner": "producer, explicitly authorized by Robin: you fix it",
+    "phoneLayoutState": "r1 implemented; local image validation, TypeScript and private production build PASS; independent browser recheck pending",
+    "readyRequest": "requests/pilot-caregiver-innocent-v4-phone-layout-r1.json",
+    "producerChecks": "producer-checks/pilot-caregiver-innocent-v4-phone-layout-r1.json",
+    "imageMaterialState": "caregiver-innocent/v4 remains historical and held; v5 plain-material correction is generated/exported but composition and material-watch review remain. No inherited browser acceptance or changes to the layout-only immutable request.",
+    "productionBatch": "2026-10-06/production-batch-08.md, dated7 October: seven genuinely new measured nativePNG masters. Root inspected actual originals; current dossier/spec/master/generated-copy hashes, native sizes and crop/tag-axis extents verified7/7. Four1672x941/one1671x941/Far Enough1602x982/Just Knew1602x981, proper1600x900 proposed wide crops for lattertwo.14 built-in calls, initials/sole corrections preserved. Tag loops/knot/tether/hole/gravity/airgap/contact reviewed, uncertainty retained rather than absolute physicsPASS. Discreet labels; actual namefit untested. Material/phone/personality/garnish holds, Their Night lighting/unapprovedbackgroundfigures and Just Knew upperpaper overlap recorded.77 generated pairings,27 exported,50 measured/unexported,38 ungenerated. Preceding Hear Me Out v3 physicalattachmentcorrection separate/no countincrease. No JPEG invocation/denied retry/bypass/new READY/public/runtime/source/editorial changes. Browser deferred, heartbeat PAUSED; no final acceptance."
+  },
+  "consumedResults": [
+    {
+      "batchId": "pilot-caregiver-innocent-v4",
+      "disposition": "FAIL",
+      "reviewedAt": "2026-10-06T18:23:13.226Z",
+      "consumedAt": "2026-10-06T18:32:20Z",
+      "requestSha256": "7369b53422697207c33cb1a64997efcc705686b782dda802b77c8b9b35ae40b2",
+      "reportSha256": "01b84ea7ea82615b8d060d0f2c926fe0596ce5e9c70ecaa011cdfbd3e67778b5",
+      "resultSha256": "fd2f340b656107a01c23a48c6f166c8d6455d4e07f4692057c9210fd2c51b631",
+      "all16InputFingerprintsMatchAtReceipt": true,
+      "actualEvidenceInspectedByRoot": true,
+      "receipt": "design-artifacts/_image-production/2026-10-06/browser-pilot-caregiver-innocent-v4-receipt.md",
+      "rootDisposition": "HOLD: phone application layout failure and independent material-realism hold; not accepted or integrated",
+      "nextStep": "Robin authorized producer implementation; portrait-phone r1 is implemented and has new immutable request pilot-caregiver-innocent-v4-phone-layout-r1. This original FAIL remains historical. Image material correction still requires a new version and review."
+    }
+  ],
+  "monitoring": {
+    "reviewerIdentity": "Claude Code genai-projects-61",
+    "reviewerWatcherConfirmed": true,
+    "reviewerWatcherEvidence": "User-pasted reviewer callback; job766e344b reportedly checks every five minutes only while that session is idle and expires after seven days. Not independently inspected by producer.",
+    "producerHeartbeat": "PAUSED; app confirmed after Robin specifically approved pausing it",
+    "producerHeartbeatId": "dionysus-image-review-handoffs",
+    "producerHeartbeatIntervalMinutes": 5,
+    "producerHeartbeatVerification": "Supported automation_update returned PAUSED on2026-10-06; reviewer session watcher is separate and not controlled here",
+    "callbackExpected": false,
+    "callbackRoute": "User-pasted callback received; shared report polling also supported. Reviewer reports no supported direct Claude-to-Codex messaging; do not use concurrent CLI resume."
+  },
+  "releasePolicy": "Fresh browser report plus independent scene/material acceptance; root sole integration owner. No release from a PASS label alone."
+}

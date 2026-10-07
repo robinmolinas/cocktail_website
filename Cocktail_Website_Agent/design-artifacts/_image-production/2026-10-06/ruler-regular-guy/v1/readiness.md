@@ -1,0 +1,8 @@
+# Batch04 source readiness
+
+Both requested stage/public folders verified absent before writing. Full current dossier+spec read through EOF; source SHA256:e51650b108237de2aea282ea5e7b9085c1f70a9a57c97713c059a7e396dc5328; spec SHA256:9f26d81cdc9b32370eab7816e7b21cdaab90011ab71b1d44717cf2ecf52f898d. Full system imagegen skill/shared prompting+sample refs, current persona-image-system, application DESIGN, complete parallel plan, latest production README/continuation/calibration and studio applied decisions reread. Three actual house wide+portrait pilots and current compact Plain to See/Already There + hanging-tag Fine by Me controls inspected original size.
+
+Settled300ml heavy rocks/one large cube/clear deep amber-red/inside lemon strip;30ml each rye,cognac,cardamom-vermouth,5mlBen,2dashes each bitters. Cardamom strained out, no visible pods. Joining a meal from whoYouAre inferred through handled napkin/fork; ordinary but generic cue risk, not literal historical event. Daylight public-square old brief reconciled to current timber room; no jiggers or equal-measure symbols.
+
+Recipe/editorial unchanged. One initial and at most sole focused correction. Pulled-back glass target280–340px and genuine real-size depth-overlapped traces, substantial blank paper must hang outside glass from cord/hole with light gap. Honest full objects and separate conservative recognition bounds, no phone PASS from702portrait. Production-first/browser-later user direction overrides historical pause; root sole exporter/integration/tracker. Own fresh v1/v2 only. No exporter,JPEG,shared/public/UI/browser writes.
+

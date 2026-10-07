@@ -1,0 +1,15 @@
+- **The persona:** put the Naïf somewhere they're meant to sit still, and within ten minutes they're wholly absorbed in one small, ordinary thing, giving it everything, in total seriousness, and it goes gloriously wrong. Their fear is boredom, and worse, being made to sit still (Wren, round 1).
+- **The story:** Bertie Wooster at the British Empire Exhibition, Wembley, 1924 (Wodehouse, "The Rummy Affair of Old Biffy"). Bored by the exhibits and rushed past a bar, he spots a man stirring long, icy glasses with a stick, slips away to it, and a few Green Swizzles later declares that any son of his will be named Green Swizzle Wooster. The drink everyone took for Wodehouse's invention was real (Oxford pdf 945). Wren overturned the plan's lead, the Chocolate Martini as Elizabeth Taylor told it, in round 1: on Oxford's page, nobody laughed at *their* drink, and two film stars enjoying something sweet isn't this person. Hester read the story whole from Project Gutenberg and carded it.
+- **The drink:** a Green Swizzle in a tall glass of crushed ice. White rum, lime and syrup, made green by a barspoon of green absinthe steeped two days with tangerine peel (an adaptation of Eleanor Early's 1937 tip, via Wondrich). Angostura goes on top, swizzled until the glass frosts, and the stick is left standing. Veto-free; balanced, no edges.
+- **What failed and why:**
+  - Drink v1 coloured the drink with a home wormwood-and-tangerine bitters. Tomás replaced it with steeped green absinthe in round 4, which brought the strength and acid into range. Wren's y4 still described the v1 steep, with a reason ("about as bitter as anything gets") that isn't true of distilled absinthe. Hester caught the crossing in round 4 step 2, and Wren landed J1–J4.
+  - Hester struck "lifesaving"/"saved" (health ground), any island of origin (the sources conflict), and any claim that the tangerine tip was for absinthe (it was for the bitters). "More bitter" was struck from the method.
+  - Falernum was left out: a bought one can be `nuts`, and it's *Show Your Working*'s motif.
+  - The epigraph was cut to fit the 16-word cap. It now owns the fiction ("In a story").
+- **"This is me":** "You look up, and that's when you find the room."
+- **Names:** *Off the Tour*, 2–1 (Wren, Hester). Tomás, whose pick it was, voted *Three Minutes Later*. Wren dropped *Something Always Happens* because it echoes the tagline. Also considered: *Hot Bricks*, *Not for Long*.
+- **Edges:**
+  - The story is fiction about a real drink, and the reading says so.
+  - The tangerine absinthe is ours and needs two days ahead.
+  - The Chocolate Martini (Taylor, Hudson) is released from the Jester Claims.
+- **Rule candidates:** none raised.

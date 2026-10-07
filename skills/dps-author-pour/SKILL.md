@@ -11,7 +11,7 @@ Authors Dionysus pours (one cocktail + reading per personality, 132 in all) by h
 
 Each pour produces three things: the pour file (`status: draft`, or `flagged` on deadlock), its dossier inside it, and the room record, which is the conversation itself, for Robin to read. Nothing is ever approved here: only Robin approves, at the end, through the review desk.
 
-Modes: `pour <pairing>` · `batch <primary-archetype>` · `rework <pairing>` · `resume` (add `--one` to do a single pour and stop; unattended runs use `scripts/run_unattended.sh`, one fresh session per pour). Add `--headless` to run without questions to the user: deadlocks and blockers become flags, never guesses.
+Modes: `pour <pairing>` · `batch <primary-archetype>` · `plan <primary-archetype>` · `rework <pairing>` · `resume` (add `--one` to do a single pour and stop; unattended runs use `scripts/run_unattended.sh`, one fresh session per pour). Add `--headless` to run without questions to the user: deadlocks and blockers become flags, never guesses.
 
 ## Conventions
 
@@ -28,7 +28,8 @@ Load available config from `{project-root}/_bmad/core/config.yaml`, `{project-ro
 Make sure the studio exists: `python3 {tools}/studio_init.py` (idempotent; creates `{studio}` and seeds it). Then read `{studio}/index.md` and route:
 
 - **`pour <pairing>`** → one pour. Confirm the pairing exists and is unauthored: `python3 {tools}/persona.py <pairing>`. If a pour file already exists, say so and offer `rework` instead. Then run the room (`references/the-room.md`) and close it (`references/closing-the-pour.md`).
-- **`batch <primary>`** → every unauthored pairing with that primary archetype. See `references/batches-and-rework.md`.
+- **`batch <primary>`** → every unauthored pairing with that primary archetype. It starts with the family plan if `{studio}/plans/<primary>.md` doesn't exist yet. See `references/batches-and-rework.md`. Robin runs one conversation per family, several at once.
+- **`plan <primary>`** → write the family plan only (`references/family-plan.md`), then stop.
 - **`rework <pairing>`** → rerun the room on an existing pour with Robin's notes as the first constraint. See `references/batches-and-rework.md`.
 - **`resume`** → continue whatever `{studio}/index.md` and the room records show as unfinished. With `--one`, do exactly one pour (or one batch hand-over) and stop. See `references/batches-and-rework.md`.
 - **No mode given** → show where the studio stands (`python3 {tools}/registry.py`: authored, approved, flagged, veto-free floor) and ask which of the modes to run.
@@ -45,6 +46,7 @@ Make sure the studio exists: `python3 {tools}/studio_init.py` (idempotent; creat
 
 | Stage | Purpose | Location |
 | --- | --- | --- |
+| Family plan | Before a batch's first room: Wren's story tests, Hester's lead and backup stories, Tomás's drink directions, claims for the other families | `references/family-plan.md` |
 | The room | Stand up the three voices, run the conversation to agreement or deadlock | `references/the-room.md` |
 | Closing the pour | Assemble the pour, lint it through the room, update registry, record and index | `references/closing-the-pour.md` |
 | Batches, rework, resume | Many pours in sequence; Robin's notes; picking up where things stopped | `references/batches-and-rework.md` |

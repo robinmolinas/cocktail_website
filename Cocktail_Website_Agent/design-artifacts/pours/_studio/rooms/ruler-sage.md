@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Judge (ruler-sage)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D8 (malt stays): Hester's section 2 (`hester-2026-10-06.md`) applied: the Checks › Allergens clause, the Anchors "fallback only" meaning (pour and `work/ruler-sage/historian-anchors.md`), and the fallback y4 in `work/ruler-sage/psychologist-alternatives.md`; her "if the fallback is ever switched in" list added to Open items; the gluten Open item marked resolved.
+- **Edits** (before → after, short): yours 5 (Q173): cut "One thing I'd say to you, gently."; whoYouAre ¶2 (V2, announcement): "So here's what your plainness gives people, and it matters more than they ever tell you: the quietest voice gets the same answer as the loudest." → "With you, the quietest voice gets the same answer as the loudest, and it matters more than they ever tell you."
+- **Left for Robin:** Tomás to confirm "deeper gold" in the fallback y4 (only matters if the fallback is switched in).
+- **Tomás (Codex pass / open items):** **Fallback y4:** "deeper gold" → "brighter gold" in `work/ruler-sage/psychologist-alternatives.md` (saffron gives "a brilliant yellow", Oxford pdf 1072: it brightens the gold, it doesn't darken it); Open items Resolved bullet. Live pour unchanged. Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (1908 whisky commission (Wren r3)) · [x] drink + four checks (v3, balanced) · [x] reading (v3) · [x] fact audit (v2, confirmed r5) · [x] resonance test (v3, in the reading) · [x] names (≥3 + pick) (Either Way, all three r5) · [x] image brief (draft v3)
 - **Last change to the pour:** r5

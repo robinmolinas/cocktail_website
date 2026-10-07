@@ -1,0 +1,93 @@
+{
+  "pairing": "magician-hero",
+  "pour": "Worth the Trade",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-hero/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-9f0f41b4-9ae4-4f44-8f5c-b85103b1e944.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "4dd5b336bf1cf7e29a268a1b93813f6e68360b5df845563a64daacb87cd20e9d",
+  "sourceSha256": "23441510e1785d4ea12ffe763e05022faecdb3baa54abff479006ea6aaca631e",
+  "specSha256": "b4c6a2b7dfe606864723002af2bc77fa9d528665fe22ab6c0c16a9b617764508",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    831,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1440,
+    "cy": 550,
+    "w": 234,
+    "angle": 74
+  },
+  "glass": {
+    "x": 1131,
+    "y": 460
+  },
+  "bounds": {
+    "glass": {
+      "x0": 919,
+      "y0": 210,
+      "x1": 1342,
+      "y1": 711
+    },
+    "paper": {
+      "x0": 1333,
+      "y0": 381,
+      "x1": 1541,
+      "y1": 706
+    },
+    "mendedPouch": {
+      "x0": 563,
+      "y0": 198,
+      "x1": 1197,
+      "y1": 575
+    },
+    "retainedZipper": {
+      "x0": 453,
+      "y0": 528,
+      "x1": 819,
+      "y1": 672
+    }
+  },
+  "recognitionRegions": {
+    "mendedPouch": {
+      "bounds": {
+        "x0": 576,
+        "y0": 214,
+        "x1": 921,
+        "y1": 565
+      },
+      "reason": "Zipped pouch opening and substantial repaired cloth face identify a pouch, not just the patch."
+    },
+    "retainedZipper": {
+      "bounds": {
+        "x0": 453,
+        "y0": 528,
+        "x1": 819,
+        "y1": 672
+      },
+      "reason": "Whole old zipper tape/teeth and connected slider/pull remain recognizable."
+    }
+  },
+  "review": {
+    "recipe": "Pale amber, one large broad-faced cube and no garnish/foam. Dense trapped-air and wet cube detail remains.",
+    "personality": "Visibly mended olive pouch plus whole removed old zipper/pull suggest repair and retention. Inferred practical habit, not literal source biography; widely spread.",
+    "world": "Neutral dark timber room and cream paper, but warm glossy right table highlights and uniform surface microtexture remain.",
+    "issues": [
+      "Initial only; sole correction warranted.",
+      "Glass501px high; full/recognizable essential union1088px.",
+      "Proposed702 portrait loses pouch/old zipper; not phone pass.",
+      "Tag loose outside but rim attachment unclear; clean axis234px exceeds target.",
+      "Mended textile looks overemphasized/ragged; dense ice and warm glossy table held."
+    ]
+  }
+}

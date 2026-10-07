@@ -1,0 +1,52 @@
+# sage-innocent, The Prodigy: drink v1 (Tomás, round 3; Hester's T1–T3 landed; round 4 step 1: D1, spec style freeform)
+
+Spec: `_studio/specs/sage-innocent.json` (v1). Glass: coupe (about 220 ml), chilled, no ice. Contains: veto-free.
+
+## Recipe
+| amount | item | note |
+| --- | --- | --- |
+| 45 ml | pisco | any unaged Peruvian or Chilean pisco, the clear grape brandy of South America, about 40% |
+| 20 ml | orange liqueur | a clear triple sec style at 40%, such as Cointreau |
+| 10 ml | blanc vermouth | the pale, lightly sweet French style, not dry or red |
+| 50 ml | white verjus (verjus blanc) | bottled, unfermented juice pressed from wine grapes. Once open, use it within a few days |
+| 2.5 ml (½ tsp) | simple syrup | equal parts sugar and water, stirred until clear |
+| 1 strip | orange peel | |
+
+## Method
+1. Put the coupe in the freezer for 10 minutes, or fill it with ice water while you mix.
+2. Pour the pisco, orange liqueur, blanc vermouth, verjus and syrup into a mixing glass or a jar.
+3. Fill it with ice and stir for about 30 seconds, until the outside feels ice-cold. Don't shake it: shaking waters this one down too far.
+4. Empty the coupe and strain the drink into it, with no ice.
+5. Squeeze the orange peel over the top so its oils fall on the drink, then drop it in.
+
+## Checks
+| check | result |
+| --- | --- |
+| Structure | Sidecar family: a spirit, an orange liqueur and a sour. Core: 45 ml pisco. Balance: 20 ml orange liqueur and 2.5 ml syrup against 50 ml white verjus, which replaces the Sidecar's lemon. Seasoning: 10 ml blanc vermouth and the orange peel's oils. The *Codex* curbs pisco's "intense bite" with "blanc vermouth or another semisweet fortified wine" (p. 159), and it uses "a fairly large proportion of verjus to create a bright acidic backbone, especially in stirred sour drinks" (p. 187). So the method is the *Codex*'s. Putting it in a Sidecar is my riff. |
+| Balance (balance.py) | **Style `freeform`**, the rulebook's category for a drink no style fits (STUDIO-RULES check 2). A stirred sour has no style in *LI*, so I modelled the melt in the spec: balance.py's stirred formula takes 127.5 ml to 173.1 ml (35.8% dilution), and that 45.6 ml of melt is a `water` line, marked as melt and not water added. **Finished: 15.9% ABV · 6.26 g sugar/100 ml · 0.757% acid.** balance.py's nearest style for those numbers is `shaken`, the sours, so I judge them by hand against Arnold's sour finished ranges, 15–19.7 / 5.0–8.9 / 0.76–0.94. **Strength and sugar are in. Acid is on the floor, an edge at 0.757 against 0.76**, inside balance.py's edge margin. For the record: under the `stirred` style the same drink reads OUT on every range, because those ranges are for spirit-and-vermouth drinks (acid 0.10–0.14%), not sours. |
+| Why stirred, in numbers | Shaken, the same recipe dilutes more and lands at **14.4% / 5.64 g / 0.682%**: under the sour floor on strength and OUT on acid. Half the drink is verjus, so it can't afford a shaker's water. The *Codex*'s own reason is texture ("smooth, silky… shaking would introduce air bubbles", p. 187). It's clear because nothing in it is cloudy, but clarity is never the meaning: "stirred… so it stays perfectly clear" is *A Brother's Care*'s line. |
+| Sweeps | **Verjus acid (unsourced, row at 2.5%):** 2.0% gives 0.612 (OUT), 2.25% gives 0.684 (OUT), 2.5% gives 0.757 (edge), 2.75% gives 0.829 (in), 3.0% gives 0.901 (in), 3.2% gives 0.959 (edge high), 3.5% gives 1.045 (OUT). **Proven for a verjus of 2.5–3.1% acid.** **Verjus sugar (unsourced, row at 6 g):** 3 g gives 5.39, 10 g gives 7.41, both in. **Pisco strength:** 38% gives 15.5, 43% gives 16.6, 48% gives 17.8, all in. **Syrup:** none gives 16.2 / 5.47 / 0.770, all in. 5 ml gives 7.03 g and 0.744 (acid OUT), so ½ tsp is the top stop. **Without the vermouth:** 16.3 / 5.96 / 0.781, in. The vermouth is there for taste (the *Codex*'s curb on pisco's bite), not the numbers. **Verjus 45 or 55 ml:** 0.709 (OUT) or 0.801 with 15.4% (in). **Soft-verjus fallback (Checks only, never in the recipe or the reading, Wren r3):** a verjus at 2.0% plus 5 ml tartaric acid solution (*Codex* p. 195, 10 g in 100 g water) gives 15.4 / 6.05 / 0.846, in. 2.5 ml gives 0.731 (OUT). |
+| Pairings | **The spark is the one change:** the Sidecar's lemon is out, and the grapes' own acid is in (verjus: tartaric and malic, *LI* p. 61; tartaric "largely determines the acidity of the wine", *Codex* p. 195). The *Matrix* agrees: grapes "have an affinity for sour flavors", and "other prominent aromas in grape flavor are berry and citrus" (GRAPES, pdf 140). So the orange liqueur and peel sit right beside it. **Considered and set aside:** the *Matrix*'s best pairings for grapes (arugula/cress, walnuts, mustard, vinegar, honey, stone fruit, cilantro, Sichuan peppercorns). A second change would blur the one that carries the story, walnuts add a veto, and Sichuan pepper already has a pour. In the taste, pisco gives flowers and bite (*Codex* p. 159). The verjus gives a winy, fruity sourness in place of the lemon's quick, clean hit (citric acid "hits hard and fast, then fades rather quickly", *LI* p. 59). Three grape products in one glass (pisco, blanc vermouth, verjus) and one orange. How it tastes together is my own call. |
+| Story in the glass | The sourness comes from grapes, the fruit whose acid matched Pasteur's right-hand acid. His right-hand pile was "similar in every way to the natural tartaric acid of grapes" (Hester A7, F8). So the verjus carries the grapes' own acid, the familiar one of the two hands he sorted apart, and the reading says no more than that (Hester r3). Never "the very form Biot read" (Biot read the left-hand one first), never "grapes make only one form" (F19), never "the stuff Pasteur sorted" (he sorted the twin's salt). No acid powder in the recipe, so G2 (which hand is in a jar) never comes up. The gesture is the drink itself: one renowned classic, one change that carries the story, and the closing line asks the guest to let others check. |
+| Allergens (allergens.py) | contains: none. **Veto-free** (counts toward the AD-4 floor). New rows this round, both my call: `verjus_blanc` (unfermented grape juice, none of the five vetoes; sugar 6 g and acid 2.5% are unsourced standard values, swept above) and `tartaric_acid_solution` (fallback only, none; *Codex* p. 195). Existing rows as they stand: `brandy_unaged_grape`, `cointreau`, `blanc_vermouth`, `simple_syrup`, `orange_peel`. Wine fining is ignored (no named bottle). |
+| Makeable | No named bottle: pisco, orange liqueur and blanc vermouth are styles. The verjus is the one bottle a guest may hunt for. It's sold bottled (*Codex* p. 187), and the *Codex* warns it's fragile ("used within a few days", and lacking vibrancy if more than two years old, p. 187), so the recipe note says so. Kit: jigger, mixing glass or jar, bar spoon, strainer, coupe, ice. |
+| Near misses, owned | The *Codex*'s **Four to the Floor** (Devon Tarby 2014, p. 187: pisco, grapefruit liqueur, blanc vermouth, verjus, stirred, coupe) is a Corpse Reviver #2 riff. Ours is a Sidecar, with orange liqueur, more verjus and a grape-acid story, so the method is borrowed and owned here. Registry Sidecars: *Making the Calls* (cognac, coupe) and *Still Yours* (citrus vodka, saucer coupe). Pisco is new to the registry, so Sidecar · pisco · coupe is free. *In a Minute* owns tasting an ingredient on its own before it goes in: not used. A weighed acid powder is *ruler-magician*'s gesture: not used. |
+| Edges for Robin | (1) **Verjus numbers are unsourced** (Hester searched all six books: no percentage; the one direction, *Codex* p. 187, puts verjus below lemon in acid, card L5, consistent with 2.5%), and the drink is proven only for a verjus of about 2.5–3.1% acid. A softer bottle lands under the sour floor. The fallback is in Sweeps, kept out of guest text. (2) Acid sits on the sour floor (0.757 against 0.76) at the row's value. (3) Judged by hand on sour ranges because *LI* has no stirred-sour style: the spec runs `freeform` with the stirring melt modelled (nearest style `shaken`). Under `stirred` it reads OUT on ranges that are for spirit-and-vermouth drinks. (4) At 15.9% it's a lighter Sidecar than the classic, because half the drink is juice. (5) Colour in the image brief is my estimate, unsourced. |
+
+**closingLine:** *Stir it until the outside is ice-cold. Next time you know something, leave off the "I think", and let them check.*
+
+(T3, Hester: "the jar" assumed a jar when step 2 allows a mixing glass; "the outside" matches step 3. Position (a) and (b) from Wren's card, in the guest's hands. It shares no word with any name on the list. Grepped against registry closing lines: no "I think", "check" or "doubt". *In a Minute*'s "on its own before it goes in" is avoided.)
+
+## Image brief
+A pale stone table by a tall window in bright, airy morning light. Behind it, a minimal wall painted soft sky blue (Pantone 290 C). On the table, a chilled coupe, its outside lightly frosted, holds an almost colourless drink with a faint pale-straw cast and a strip of orange peel resting in it. Beside it, a small plain glass bottle with no label, holding a pale juice. An open notebook lies flat, its margins full of small, neat pencil notes and two tiny pencil sketches of crystals, each the mirror image of the other. One impossible detail: the two sketched crystals cast real shadows across the page, one shaped like a left hand and the other like a right hand. Sharp details, calm and bright, the contrast of something youthful and something exact. Must not appear: microscopes, lenses or magnifying glasses, flasks, test tubes or any lab glassware, medicine, milk, lemons, grapes or vines, a chessboard, a violin, children or any portrait, text or labels, a second drink, people.
+
+Colour note: pisco and the orange liqueur are clear, and the blanc vermouth and verjus are pale. "Almost colourless, faint pale-straw" is my estimate, unsourced. The crystal sketches and the hand shadows are only what the page says (two forms, "mirror images like a left and a right hand", Hester A2). Nothing implies which hand is in the glass.
+
+## Names
+- **Nothing Escaped You** (my pick: Vallery-Radot's "escaped even" Mitscherlich, turned to praise the guest)
+- *Are You Quite Sure?* (Wren)
+- *Before Your Eyes* (Hester)
+- *Both Hands* (Hester)
+- *Let Them Check*
+
+I could take *Before Your Eyes*.

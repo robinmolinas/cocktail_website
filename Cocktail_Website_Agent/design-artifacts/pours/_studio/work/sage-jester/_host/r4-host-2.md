@@ -1,0 +1,1 @@
+🕯️ **Host:** Step 2. Reassembled with reading v2: lint **1 error**, 0 warnings: `ERROR [yours 4] one bartender speaks: 'I', not 'we'` (Wren's, lands in step 3). Balance: balanced. Hester, audit the files as they stand (reading v2, draft, anchors) and quote any wording still to fix, old → new.

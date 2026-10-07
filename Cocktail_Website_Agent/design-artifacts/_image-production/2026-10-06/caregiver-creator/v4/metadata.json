@@ -1,0 +1,306 @@
+{
+  "pairing": "caregiver-creator",
+  "pour": "Not Only the Way",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "8c298875e9c4b627bb1eccf4dc7a47dd1a385ecec596f458f61cb55218c784a2",
+  "review": {
+    "recipe": "Exact original single chilled rounded coupe, softly cloudy pale lime-straw Gimlet, fine bubbles, no ice/garnish/rim treatment. Glass/tag preserved.",
+    "personality": "Small worn drawer now immediately behind glass on left with finished inner edge and knob; twice-folded mended linen beside base; advance cordial bottle behind right. Narrow phone predicted to retain drawer knob/finished edge and folded hem, plus substantial bottle part. Master person-quality improved without cliché.",
+    "world": "Same private historic walnut reading room, burgundy chair, one warm practical source, neutral dark shadow, restrained grain.",
+    "issues": [
+      "Actual new JPEG/geometry validation pending; browser/name overlay not available, not claimed."
+    ]
+  },
+  "measurements": {
+    "pairing": "caregiver-creator",
+    "pour": "Not Only the Way",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-creator/v4/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-08991e56-4c8f-42f7-aecc-6d37264cdbce.png",
+    "sourceSha256": "8c298875e9c4b627bb1eccf4dc7a47dd1a385ecec596f458f61cb55218c784a2",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      650,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1133,
+      "cy": 591,
+      "w": 143,
+      "angle": 22
+    },
+    "glass": {
+      "x": 1032,
+      "y": 429
+    },
+    "bounds": {
+      "glass": {
+        "x0": 886,
+        "y0": 292,
+        "x1": 1177,
+        "y1": 705
+      },
+      "paper": {
+        "x0": 1041,
+        "y0": 518,
+        "x1": 1222,
+        "y1": 663
+      }
+    },
+    "review": {
+      "recipe": "Exact original single chilled rounded coupe, softly cloudy pale lime-straw Gimlet, fine bubbles, no ice/garnish/rim treatment. Glass/tag preserved.",
+      "personality": "Small worn drawer now immediately behind glass on left with finished inner edge and knob; twice-folded mended linen beside base; advance cordial bottle behind right. Narrow phone predicted to retain drawer knob/finished edge and folded hem, plus substantial bottle part. Master person-quality improved without cliché.",
+      "world": "Same private historic walnut reading room, burgundy chair, one warm practical source, neutral dark shadow, restrained grain.",
+      "issues": [
+        "Actual new JPEG/geometry validation pending; browser/name overlay not available, not claimed."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1301.0526315789475,
+        "cy": 679.0212765957447,
+        "w": 164.21052631578948,
+        "angle": 22.010584580241378
+      },
+      "glass": {
+        "x": 1185.0717703349283,
+        "y": 492.8936170212766
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 616.4786324786324,
+        "cy": 754.468085106383,
+        "w": 182.5185185185185,
+        "angle": 22.003780388655812
+      },
+      "glass": {
+        "x": 487.56695156695156,
+        "y": 547.6595744680851
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-creator/portrait.jpg",
+    "wide": "/personas/caregiver-creator/wide.jpg",
+    "wideTag": {
+      "cx": 0.6776315789473685,
+      "cy": 0.6287234042553191,
+      "w": 0.08552631578947369,
+      "angle": 22.010584580241378
+    },
+    "wideGlass": {
+      "x": 0.6172248803827751,
+      "y": 0.4563829787234043
+    },
+    "tag": {
+      "cx": 0.688034188034188,
+      "cy": 0.6287234042553191,
+      "w": 0.2037037037037037,
+      "angle": 22.003780388655812
+    },
+    "glass": {
+      "x": 0.5441595441595442,
+      "y": 0.4563829787234043
+    }
+  },
+  "hashes": {
+    "master": "cd9f901e56236b6928e2cf9239b50e4e54a9741d9a43a837a8a7ba30cc08c938",
+    "wide": "7c2f2551ab5c978ee862f0524bc41029c9708e956f3f48ec0c3f440baeffb537",
+    "portrait": "815fe60df01d92e5e96350b18795957df06945d9fc7c109937ccf9a11aa83b78"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1017.4162679425837,
+          "y0": 335.48936170212767,
+          "x1": 1351.578947368421,
+          "y1": 810
+        },
+        "paper": {
+          "x0": 1195.4066985645934,
+          "y0": 595.1489361702128,
+          "x1": 1403.2535885167465,
+          "y1": 761.7446808510638
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 767.8468899521531,
+          "y0": 279.5744680851064,
+          "x1": 1046.3157894736842,
+          "y1": 675
+        },
+        "paper": {
+          "x0": 916.1722488038279,
+          "y0": 495.9574468085106,
+          "x1": 1089.377990430622,
+          "y1": 634.7872340425532
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1085.244019138756,
+          "y0": 304.4953191489362,
+          "x1": 1441.6842105263158,
+          "y1": 810.64
+        },
+        "paper": {
+          "x0": 1275.1004784688996,
+          "y0": 581.4655319148935,
+          "x1": 1496.8038277511962,
+          "y1": 759.1676595744681
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1822.870813397129,
+          "y0": 373.38510638297873,
+          "x1": 2421.5789473684213,
+          "y1": 1223.55
+        },
+        "paper": {
+          "x0": 2141.7703349282297,
+          "y0": 838.6085106382977,
+          "x1": 2514.1626794258373,
+          "y1": 1137.0925531914893
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5441595441595442,
+        "y": 0.4563829787234043
+      },
+      "bounds": {
+        "glass": {
+          "x0": 81.15775878442543,
+          "y0": 262.1787234042553,
+          "x1": 342.3889838556505,
+          "y1": 633
+        },
+        "paper": {
+          "x0": 220.30153846153846,
+          "y0": 465.0978723404255,
+          "x1": 382.78556505223173,
+          "y1": 595.2893617021276
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5441595441595442,
+        "y": 0.4563829787234043
+      },
+      "bounds": {
+        "glass": {
+          "x0": 89.25865147198479,
+          "y0": 289.5148936170213,
+          "x1": 377.72725546058876,
+          "y1": 698.9999999999999
+        },
+        "paper": {
+          "x0": 242.91031339031338,
+          "y0": 513.591489361702,
+          "x1": 422.3358024691358,
+          "y1": 657.3574468085105
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5441595441595442,
+        "y": 0.4563829787234043
+      },
+      "bounds": {
+        "glass": {
+          "x0": 85.92653371320039,
+          "y0": 176.44255319148937,
+          "x1": 261.7314339981006,
+          "y1": 426
+        },
+        "paper": {
+          "x0": 179.56831908831907,
+          "y0": 313.0042553191489,
+          "x1": 288.9177587844254,
+          "y1": 400.6212765957447
+        }
+      }
+    }
+  ]
+}

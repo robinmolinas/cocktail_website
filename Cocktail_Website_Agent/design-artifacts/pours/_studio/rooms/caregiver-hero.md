@@ -9,6 +9,11 @@ mode: pour            # pour | batch | rework
 
 # The room: The Rescuer (caregiver-hero)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** "Apply the routine P1s" / queue routine items (Robin 2026-10-06); no D-card touches this pour.
+- **Edits** (before → after, short): yours 1 (Q014, Wren's ground, grant the legend first): "…on its collar. That's a legend." → "…on its collar. It's a lovely picture, and almost certainly a legend."
+- **Left for Robin:** Q033 tagline (taglines unchanged, D11).
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Barry (all three)) · [x] drink + four checks (draft v2.1, thyme; T1 scoped) · [x] reading (v5) · [x] fact audit (v4: all pass) · [x] resonance test (v5) · [x] names (≥3 + pick) (Off Duty (all three)) · [x] image brief (v2: thyme on the saucer)
 - **Last change to the pour:** r8

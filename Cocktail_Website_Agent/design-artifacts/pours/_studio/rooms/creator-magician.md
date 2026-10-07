@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Makeover Artist (creator-magician)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** queue routine items; D13 (variety rules).
+- **Edits** (before → after, short): yours 2 (Q104, grammar): "boiling milk into the punch, then leave it to stand for two hours before straining it" → "pour boiling milk into the punch, leave it to stand for two hours, then strain it". yours 5 (D13 V4, no announcement before the proposal): "So here's where I'd push you. Next time something you've changed…" → "Next time something you've changed…".
+- **Left for Robin:** Q017 batch yield and keeping time (Tomás to verify the yield after clarification); Q044 tagline (D11).
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", the Codex has no milk punch; against its Ideal Daiquiri (p. 104) ours after the wash is a stronger, drier, softer sour. **Q017:** "Makes about eight drinks of 125 ml." added above the recipe table; method 7 → "…keep it in the fridge; it's at its silkiest in the first week. Throw away the curds." (yield arithmetic and LI p. 267's "within a week or so" in Checks › Makeable). Lint 0 errors.
+
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors · [x] drink + four checks · [x] reading · [x] fact audit (v1: X1–X3 open) · [x] resonance test · [x] names (≥3 + pick: Overnight) · [x] image brief
 - **Last change to the pour:** round 8 (Wren's lint fix: "Once you start on it")

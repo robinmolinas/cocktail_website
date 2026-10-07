@@ -1,0 +1,3963 @@
+{
+ "caregiver-creator": {
+  "drawnToward": [
+   "peace",
+   "belonging",
+   "mischief"
+  ],
+  "soughtFor": [
+   "comfort",
+   "ideas",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 2,
+   "grounded-dreamlike": 2
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "caregiver-explorer": {
+  "drawnToward": [
+   "peace",
+   "belonging",
+   "mischief"
+  ],
+  "soughtFor": [
+   "comfort",
+   "ideas",
+   "calm"
+  ],
+  "texture": {
+   "relaxed-excited": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 35,
+   "classic-experimental": 100,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 2
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "caregiver-hero": {
+  "drawnToward": [
+   "peace",
+   "belonging",
+   "change"
+  ],
+  "soughtFor": [
+   "comfort",
+   "courage",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 4,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 50,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "caregiver-innocent": {
+  "drawnToward": [
+   "peace",
+   "belonging"
+  ],
+  "soughtFor": [
+   "honesty",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 90,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "caregiver-jester": {
+  "drawnToward": [
+   "peace",
+   "change"
+  ],
+  "soughtFor": [
+   "advice",
+   "comfort",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 0,
+   "classic-experimental": 9,
+   "analytical-instinctive": 67,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "caregiver-lover": {
+  "drawnToward": [
+   "peace",
+   "belonging"
+  ],
+  "soughtFor": [
+   "advice",
+   "comfort",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 15,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 33
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "caregiver-magician": {
+  "drawnToward": [
+   "peace",
+   "belonging"
+  ],
+  "soughtFor": [
+   "advice",
+   "comfort",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 22,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 59
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "caregiver-outlaw": {
+  "drawnToward": [
+   "peace",
+   "belonging"
+  ],
+  "soughtFor": [
+   "comfort",
+   "calm",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 48,
+   "classic-experimental": 100,
+   "analytical-instinctive": 8,
+   "grounded-dreamlike": 1
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "caregiver-regular-guy": {
+  "drawnToward": [
+   "peace",
+   "belonging",
+   "change"
+  ],
+  "soughtFor": [
+   "comfort",
+   "honesty",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 23,
+   "classic-experimental": 0,
+   "analytical-instinctive": 73,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "caregiver-ruler": {
+  "drawnToward": [
+   "peace"
+  ],
+  "soughtFor": [
+   "advice",
+   "comfort",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 0,
+   "classic-experimental": 54,
+   "analytical-instinctive": 63,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "caregiver-sage": {
+  "drawnToward": [
+   "peace",
+   "belonging",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "advice",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 53,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-caregiver": {
+  "drawnToward": [
+   "beauty",
+   "change"
+  ],
+  "soughtFor": [
+   "comfort",
+   "ideas",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a"
+  },
+  "gravity": {
+   "solitary-social": 6,
+   "controlled-wild": 9,
+   "classic-experimental": 100,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-explorer": {
+  "drawnToward": [
+   "beauty",
+   "peace",
+   "change"
+  ],
+  "soughtFor": [
+   "ideas",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 73,
+   "classic-experimental": 95,
+   "analytical-instinctive": 60,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-hero": {
+  "drawnToward": [
+   "beauty",
+   "change"
+  ],
+  "soughtFor": [
+   "courage",
+   "ideas"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "bright-dark": "a",
+   "soft-rough": "b"
+  },
+  "gravity": {
+   "solitary-social": 59,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 7,
+   "grounded-dreamlike": 18
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-innocent": {
+  "drawnToward": [
+   "beauty",
+   "change"
+  ],
+  "soughtFor": [
+   "comfort",
+   "honesty",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 72,
+   "classic-experimental": 100,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-jester": {
+  "drawnToward": [
+   "beauty",
+   "change"
+  ],
+  "soughtFor": [
+   "ideas",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 91,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-lover": {
+  "drawnToward": [
+   "beauty",
+   "mastery",
+   "change"
+  ],
+  "soughtFor": [
+   "advice",
+   "calm",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 75,
+   "controlled-wild": 95,
+   "classic-experimental": 100,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 78
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-magician": {
+  "drawnToward": [
+   "beauty",
+   "change"
+  ],
+  "soughtFor": [
+   "comfort",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 12,
+   "classic-experimental": 100,
+   "analytical-instinctive": 59,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-outlaw": {
+  "drawnToward": [
+   "beauty",
+   "peace",
+   "change"
+  ],
+  "soughtFor": [
+   "courage",
+   "taste",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 75,
+   "classic-experimental": 100,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 24
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-regular-guy": {
+  "drawnToward": [
+   "beauty",
+   "change"
+  ],
+  "soughtFor": [
+   "honesty",
+   "ideas",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "control": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 75,
+   "controlled-wild": 43,
+   "classic-experimental": 87,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-ruler": {
+  "drawnToward": [
+   "beauty",
+   "change"
+  ],
+  "soughtFor": [
+   "taste",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 22
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "creator-sage": {
+  "drawnToward": [
+   "beauty",
+   "change"
+  ],
+  "soughtFor": [
+   "advice",
+   "ideas",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 55,
+   "classic-experimental": 90,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 24
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-caregiver": {
+  "drawnToward": [
+   "freedom"
+  ],
+  "soughtFor": [
+   "advice",
+   "comfort",
+   "ideas"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 4,
+   "controlled-wild": 51,
+   "classic-experimental": 44,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-creator": {
+  "drawnToward": [
+   "freedom"
+  ],
+  "soughtFor": [
+   "ideas",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 3,
+   "classic-experimental": 100,
+   "analytical-instinctive": 84,
+   "grounded-dreamlike": 9
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-hero": {
+  "drawnToward": [
+   "freedom",
+   "beauty",
+   "wonder"
+  ],
+  "soughtFor": [
+   "courage",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 82,
+   "classic-experimental": 22,
+   "analytical-instinctive": 98,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-innocent": {
+  "drawnToward": [
+   "freedom"
+  ],
+  "soughtFor": [
+   "honesty",
+   "ideas",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 69,
+   "classic-experimental": 4,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 81
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-jester": {
+  "drawnToward": [
+   "freedom",
+   "pleasure",
+   "wonder"
+  ],
+  "soughtFor": [
+   "advice",
+   "honesty",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-lover": {
+  "drawnToward": [
+   "freedom"
+  ],
+  "soughtFor": [
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 7,
+   "controlled-wild": 24,
+   "classic-experimental": 5,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 60
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-magician": {
+  "drawnToward": [
+   "freedom",
+   "belonging",
+   "wonder"
+  ],
+  "soughtFor": [
+   "advice",
+   "ideas",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 14,
+   "controlled-wild": 99,
+   "classic-experimental": 44,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-outlaw": {
+  "drawnToward": [
+   "freedom",
+   "peace",
+   "belonging"
+  ],
+  "soughtFor": [
+   "advice",
+   "courage",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 100,
+   "analytical-instinctive": 90,
+   "grounded-dreamlike": 58
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-regular-guy": {
+  "drawnToward": [
+   "freedom",
+   "beauty",
+   "wonder"
+  ],
+  "soughtFor": [
+   "comfort",
+   "honesty",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 4,
+   "controlled-wild": 94,
+   "classic-experimental": 0,
+   "analytical-instinctive": 81,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-ruler": {
+  "drawnToward": [
+   "freedom",
+   "wonder"
+  ],
+  "soughtFor": [
+   "taste",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 80,
+   "classic-experimental": 0,
+   "analytical-instinctive": 91,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "explorer-sage": {
+  "drawnToward": [
+   "freedom",
+   "beauty",
+   "wonder"
+  ],
+  "soughtFor": [
+   "advice",
+   "honesty",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 79,
+   "classic-experimental": 40,
+   "analytical-instinctive": 78,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-caregiver": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "comfort",
+   "courage",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 71,
+   "controlled-wild": 26,
+   "classic-experimental": 100,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-creator": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "courage",
+   "ideas",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 48,
+   "controlled-wild": 57,
+   "classic-experimental": 100,
+   "analytical-instinctive": 98,
+   "grounded-dreamlike": 31
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-explorer": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "comfort",
+   "ideas",
+   "reality-check"
+  ],
+  "texture": {
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 96,
+   "classic-experimental": 67,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-innocent": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 78,
+   "controlled-wild": 75,
+   "classic-experimental": 100,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 48
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-jester": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "courage",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 52,
+   "classic-experimental": 86,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-lover": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "courage",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 89,
+   "controlled-wild": 54,
+   "classic-experimental": 100,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 16
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-magician": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "courage",
+   "ideas",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 96,
+   "controlled-wild": 11,
+   "classic-experimental": 100,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-outlaw": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "courage",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 36,
+   "controlled-wild": 30,
+   "classic-experimental": 100,
+   "analytical-instinctive": 60,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-regular-guy": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 62,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-ruler": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "calm",
+   "taste",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "b"
+  },
+  "gravity": {
+   "solitary-social": 88,
+   "controlled-wild": 0,
+   "classic-experimental": 97,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "hero-sage": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "advice",
+   "honesty",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 26,
+   "controlled-wild": 62,
+   "classic-experimental": 100,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-caregiver": {
+  "drawnToward": [
+   "peace",
+   "wonder"
+  ],
+  "soughtFor": [
+   "advice",
+   "comfort",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 91,
+   "classic-experimental": 0,
+   "analytical-instinctive": 46,
+   "grounded-dreamlike": 47
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-creator": {
+  "drawnToward": [
+   "peace"
+  ],
+  "soughtFor": [
+   "honesty",
+   "ideas",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "quiet-loud": "a",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 91,
+   "controlled-wild": 93,
+   "classic-experimental": 50,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-explorer": {
+  "drawnToward": [
+   "peace"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "ideas"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 21,
+   "analytical-instinctive": 94,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-hero": {
+  "drawnToward": [
+   "peace",
+   "wonder"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 81,
+   "controlled-wild": 30,
+   "classic-experimental": 0,
+   "analytical-instinctive": 58,
+   "grounded-dreamlike": 72
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-jester": {
+  "drawnToward": [
+   "peace",
+   "wonder"
+  ],
+  "soughtFor": [
+   "honesty",
+   "calm",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 97,
+   "classic-experimental": 0,
+   "analytical-instinctive": 17,
+   "grounded-dreamlike": 72
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-lover": {
+  "drawnToward": [
+   "peace"
+  ],
+  "soughtFor": [
+   "honesty",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 18,
+   "controlled-wild": 96,
+   "classic-experimental": 28,
+   "analytical-instinctive": 81,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-magician": {
+  "drawnToward": [
+   "peace",
+   "wonder"
+  ],
+  "soughtFor": [
+   "ideas",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 60,
+   "controlled-wild": 28,
+   "classic-experimental": 12,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-outlaw": {
+  "drawnToward": [
+   "peace"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 51,
+   "controlled-wild": 100,
+   "classic-experimental": 90,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-regular-guy": {
+  "drawnToward": [
+   "peace",
+   "wonder"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "control": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 14,
+   "grounded-dreamlike": 66
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-ruler": {
+  "drawnToward": [
+   "peace",
+   "wonder"
+  ],
+  "soughtFor": [
+   "taste",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 99,
+   "controlled-wild": 30,
+   "classic-experimental": 21,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "innocent-sage": {
+  "drawnToward": [
+   "peace",
+   "wonder"
+  ],
+  "soughtFor": [
+   "advice",
+   "honesty",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 24,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 87
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-caregiver": {
+  "drawnToward": [
+   "pleasure",
+   "mischief"
+  ],
+  "soughtFor": [
+   "advice",
+   "comfort",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 53,
+   "classic-experimental": 99,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-creator": {
+  "drawnToward": [
+   "pleasure",
+   "mischief"
+  ],
+  "soughtFor": [
+   "ideas",
+   "taste",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 50,
+   "controlled-wild": 34,
+   "classic-experimental": 100,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 13
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-explorer": {
+  "drawnToward": [
+   "pleasure",
+   "mischief"
+  ],
+  "soughtFor": [
+   "ideas",
+   "calm",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "control": "b",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 93,
+   "classic-experimental": 27,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-hero": {
+  "drawnToward": [
+   "pleasure",
+   "mischief"
+  ],
+  "soughtFor": [
+   "courage"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 83,
+   "controlled-wild": 35,
+   "classic-experimental": 10,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-innocent": {
+  "drawnToward": [
+   "pleasure",
+   "mischief"
+  ],
+  "soughtFor": [
+   "honesty",
+   "calm",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 83,
+   "analytical-instinctive": 68,
+   "grounded-dreamlike": 99
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-lover": {
+  "drawnToward": [
+   "pleasure",
+   "mischief"
+  ],
+  "soughtFor": [
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 43,
+   "classic-experimental": 0,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 99
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-magician": {
+  "drawnToward": [
+   "pleasure",
+   "wonder",
+   "mischief"
+  ],
+  "soughtFor": [
+   "advice",
+   "ideas",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 99,
+   "controlled-wild": 17,
+   "classic-experimental": 100,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-outlaw": {
+  "drawnToward": [
+   "pleasure",
+   "mischief"
+  ],
+  "soughtFor": [
+   "courage",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 52,
+   "controlled-wild": 100,
+   "classic-experimental": 100,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 40
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-regular-guy": {
+  "drawnToward": [
+   "pleasure",
+   "mischief"
+  ],
+  "soughtFor": [
+   "honesty",
+   "ideas",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 94,
+   "classic-experimental": 0,
+   "analytical-instinctive": 73,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-ruler": {
+  "drawnToward": [
+   "pleasure",
+   "mischief"
+  ],
+  "soughtFor": [
+   "taste",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 72,
+   "controlled-wild": 20,
+   "classic-experimental": 38,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "jester-sage": {
+  "drawnToward": [
+   "pleasure",
+   "mischief"
+  ],
+  "soughtFor": [
+   "advice",
+   "calm",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 9,
+   "controlled-wild": 24,
+   "classic-experimental": 0,
+   "analytical-instinctive": 51,
+   "grounded-dreamlike": 91
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-caregiver": {
+  "drawnToward": [
+   "beauty",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "comfort",
+   "calm",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 80,
+   "controlled-wild": 0,
+   "classic-experimental": 94,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 12
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-creator": {
+  "drawnToward": [
+   "beauty",
+   "belonging",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "ideas",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 33,
+   "controlled-wild": 0,
+   "classic-experimental": 96,
+   "analytical-instinctive": 77,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-explorer": {
+  "drawnToward": [
+   "beauty",
+   "belonging",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 75,
+   "classic-experimental": 90,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 41
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-hero": {
+  "drawnToward": [
+   "beauty",
+   "belonging",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "courage",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 98,
+   "controlled-wild": 0,
+   "classic-experimental": 87,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 58
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-innocent": {
+  "drawnToward": [
+   "beauty",
+   "belonging",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "honesty",
+   "calm",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 74,
+   "controlled-wild": 25,
+   "classic-experimental": 89,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-jester": {
+  "drawnToward": [
+   "beauty",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 74,
+   "classic-experimental": 0,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 87
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-magician": {
+  "drawnToward": [
+   "beauty",
+   "pleasure",
+   "wonder"
+  ],
+  "soughtFor": [
+   "ideas",
+   "calm",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 45,
+   "controlled-wild": 0,
+   "classic-experimental": 0,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-outlaw": {
+  "drawnToward": [
+   "beauty",
+   "belonging",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "courage",
+   "taste",
+   "little-chaos"
+  ],
+  "texture": {
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 17,
+   "controlled-wild": 80,
+   "classic-experimental": 1,
+   "analytical-instinctive": 2,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-regular-guy": {
+  "drawnToward": [
+   "beauty",
+   "belonging",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "comfort",
+   "honesty",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 23,
+   "classic-experimental": 1,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-ruler": {
+  "drawnToward": [
+   "beauty",
+   "belonging",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "calm",
+   "taste",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 75,
+   "controlled-wild": 0,
+   "classic-experimental": 63,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "lover-sage": {
+  "drawnToward": [
+   "beauty",
+   "belonging",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "advice",
+   "calm",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 80,
+   "classic-experimental": 0,
+   "analytical-instinctive": 70,
+   "grounded-dreamlike": 98
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-caregiver": {
+  "drawnToward": [
+   "wonder",
+   "change"
+  ],
+  "soughtFor": [
+   "advice",
+   "comfort",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 7,
+   "classic-experimental": 100,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 30
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-creator": {
+  "drawnToward": [
+   "wonder",
+   "change"
+  ],
+  "soughtFor": [
+   "ideas",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 4,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 29,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-explorer": {
+  "drawnToward": [
+   "wonder"
+  ],
+  "soughtFor": [
+   "advice",
+   "courage",
+   "ideas"
+  ],
+  "texture": {
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 52,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 90
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-hero": {
+  "drawnToward": [
+   "wonder",
+   "change"
+  ],
+  "soughtFor": [
+   "courage"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 98,
+   "controlled-wild": 0,
+   "classic-experimental": 85,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 73
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-innocent": {
+  "drawnToward": [
+   "wonder",
+   "change"
+  ],
+  "soughtFor": [
+   "honesty",
+   "calm",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 77,
+   "controlled-wild": 11,
+   "classic-experimental": 38,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-jester": {
+  "drawnToward": [
+   "wonder",
+   "change"
+  ],
+  "soughtFor": [
+   "advice",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 18,
+   "classic-experimental": 87,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-lover": {
+  "drawnToward": [
+   "wonder",
+   "change"
+  ],
+  "soughtFor": [
+   "advice",
+   "calm",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 31,
+   "classic-experimental": 42,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-outlaw": {
+  "drawnToward": [
+   "wonder",
+   "change"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 67,
+   "controlled-wild": 100,
+   "classic-experimental": 91,
+   "analytical-instinctive": 94,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-regular-guy": {
+  "drawnToward": [
+   "wonder",
+   "change"
+  ],
+  "soughtFor": [
+   "honesty",
+   "ideas",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 12,
+   "classic-experimental": 15,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 29
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-ruler": {
+  "drawnToward": [
+   "wonder",
+   "change"
+  ],
+  "soughtFor": [
+   "ideas",
+   "calm",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 97,
+   "controlled-wild": 0,
+   "classic-experimental": 11,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 64
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "magician-sage": {
+  "drawnToward": [
+   "wonder",
+   "change"
+  ],
+  "soughtFor": [
+   "advice",
+   "calm",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 44,
+   "classic-experimental": 51,
+   "analytical-instinctive": 95,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-caregiver": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "comfort",
+   "calm",
+   "little-chaos"
+  ],
+  "texture": {
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 75,
+   "controlled-wild": 73,
+   "classic-experimental": 100,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 6
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-creator": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "ideas",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 80,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 9
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-explorer": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "ideas",
+   "calm",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 9,
+   "analytical-instinctive": 86,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-hero": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "courage"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 43,
+   "classic-experimental": 83,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-innocent": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 78,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-jester": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 3,
+   "grounded-dreamlike": 50
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-lover": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "courage",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 39,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-magician": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "comfort",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 62,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 79,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-regular-guy": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "comfort",
+   "honesty",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 97,
+   "controlled-wild": 100,
+   "classic-experimental": 42,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-ruler": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "taste",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 51,
+   "controlled-wild": 15,
+   "classic-experimental": 41,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "outlaw-sage": {
+  "drawnToward": [
+   "freedom",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "advice",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 98,
+   "controlled-wild": 91,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 96
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-caregiver": {
+  "drawnToward": [
+   "belonging",
+   "change"
+  ],
+  "soughtFor": [
+   "advice",
+   "comfort",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 67,
+   "classic-experimental": 5,
+   "analytical-instinctive": 57,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-creator": {
+  "drawnToward": [
+   "belonging"
+  ],
+  "soughtFor": [
+   "honesty",
+   "ideas",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 79,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 11
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-explorer": {
+  "drawnToward": [
+   "belonging"
+  ],
+  "soughtFor": [
+   "honesty",
+   "ideas",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 38,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 10
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-hero": {
+  "drawnToward": [
+   "belonging"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 84,
+   "controlled-wild": 42,
+   "classic-experimental": 38,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-innocent": {
+  "drawnToward": [
+   "belonging",
+   "change"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 99,
+   "classic-experimental": 0,
+   "analytical-instinctive": 51,
+   "grounded-dreamlike": 90
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-jester": {
+  "drawnToward": [
+   "belonging",
+   "wonder"
+  ],
+  "soughtFor": [
+   "honesty",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 86,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-lover": {
+  "drawnToward": [
+   "belonging"
+  ],
+  "soughtFor": [
+   "honesty",
+   "ideas",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 6
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-magician": {
+  "drawnToward": [
+   "belonging",
+   "change"
+  ],
+  "soughtFor": [
+   "ideas",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 10,
+   "classic-experimental": 6,
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 86
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-outlaw": {
+  "drawnToward": [
+   "belonging"
+  ],
+  "soughtFor": [
+   "honesty",
+   "courage",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 70,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 8
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-ruler": {
+  "drawnToward": [
+   "belonging",
+   "wonder"
+  ],
+  "soughtFor": [
+   "taste",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 82,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 2
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "regular-guy-sage": {
+  "drawnToward": [
+   "belonging"
+  ],
+  "soughtFor": [
+   "advice",
+   "honesty",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 64
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-caregiver": {
+  "drawnToward": [
+   "beauty",
+   "mastery",
+   "mischief"
+  ],
+  "soughtFor": [
+   "comfort",
+   "calm",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 0,
+   "classic-experimental": 0,
+   "analytical-instinctive": 17,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-creator": {
+  "drawnToward": [
+   "freedom",
+   "mastery",
+   "mischief"
+  ],
+  "soughtFor": [
+   "ideas",
+   "taste",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 0,
+   "classic-experimental": 60,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 79
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-explorer": {
+  "drawnToward": [],
+  "soughtFor": [
+   "ideas",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "soft-rough": "b"
+  },
+  "gravity": {
+   "solitary-social": 15,
+   "controlled-wild": 0,
+   "classic-experimental": 0,
+   "analytical-instinctive": 61,
+   "grounded-dreamlike": 35
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-hero": {
+  "drawnToward": [
+   "beauty",
+   "mastery",
+   "wonder"
+  ],
+  "soughtFor": [
+   "courage",
+   "ideas"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 0,
+   "classic-experimental": 0,
+   "analytical-instinctive": 21,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-innocent": {
+  "drawnToward": [
+   "freedom",
+   "mastery",
+   "wonder"
+  ],
+  "soughtFor": [
+   "honesty",
+   "calm",
+   "taste"
+  ],
+  "texture": {
+   "halffull-halfempty": "a",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 0,
+   "classic-experimental": 0,
+   "analytical-instinctive": 2,
+   "grounded-dreamlike": 39
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-jester": {
+  "drawnToward": [
+   "freedom",
+   "mastery",
+   "wonder"
+  ],
+  "soughtFor": [
+   "taste",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 8,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-lover": {
+  "drawnToward": [
+   "freedom",
+   "mastery",
+   "mischief"
+  ],
+  "soughtFor": [
+   "taste",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 3,
+   "classic-experimental": 0,
+   "analytical-instinctive": 45,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-magician": {
+  "drawnToward": [
+   "freedom",
+   "mastery"
+  ],
+  "soughtFor": [
+   "ideas",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "bright-dark": "b",
+   "soft-rough": "a"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 0,
+   "classic-experimental": 13,
+   "analytical-instinctive": 36,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-outlaw": {
+  "drawnToward": [
+   "freedom",
+   "mastery",
+   "wonder"
+  ],
+  "soughtFor": [
+   "taste",
+   "reality-check",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 15,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 80
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-regular-guy": {
+  "drawnToward": [
+   "mastery",
+   "pleasure",
+   "wonder"
+  ],
+  "soughtFor": [
+   "comfort",
+   "honesty",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 100,
+   "controlled-wild": 0,
+   "classic-experimental": 0,
+   "analytical-instinctive": 1,
+   "grounded-dreamlike": 0
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "ruler-sage": {
+  "drawnToward": [
+   "mastery",
+   "change",
+   "mischief"
+  ],
+  "soughtFor": [
+   "advice",
+   "honesty",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "a",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 2,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-caregiver": {
+  "drawnToward": [
+   "mastery"
+  ],
+  "soughtFor": [
+   "advice",
+   "comfort",
+   "calm"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 21,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 45
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-creator": {
+  "drawnToward": [
+   "mastery",
+   "peace",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "advice",
+   "ideas",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 79,
+   "classic-experimental": 8,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-explorer": {
+  "drawnToward": [
+   "mastery",
+   "peace",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "ideas",
+   "calm",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 40,
+   "grounded-dreamlike": 73
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-hero": {
+  "drawnToward": [
+   "beauty",
+   "peace"
+  ],
+  "soughtFor": [
+   "advice",
+   "courage"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
+   "control": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 85,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 3
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-innocent": {
+  "drawnToward": [
+   "mastery",
+   "mischief"
+  ],
+  "soughtFor": [
+   "honesty",
+   "calm"
+  ],
+  "texture": {
+   "relaxed-excited": "a",
+   "control": "b",
+   "quiet-loud": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 7,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-jester": {
+  "drawnToward": [
+   "mastery",
+   "peace",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "advice",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "a",
+   "soft-rough": "a",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 64,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 69
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-lover": {
+  "drawnToward": [
+   "mastery",
+   "peace",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "advice",
+   "taste"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a"
+  },
+  "gravity": {
+   "solitary-social": 7,
+   "controlled-wild": 97,
+   "classic-experimental": 0,
+   "analytical-instinctive": 24,
+   "grounded-dreamlike": 77
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-magician": {
+  "drawnToward": [
+   "mastery",
+   "peace",
+   "change"
+  ],
+  "soughtFor": [
+   "advice",
+   "ideas",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 9,
+   "classic-experimental": 0,
+   "analytical-instinctive": 72,
+   "grounded-dreamlike": 100
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-outlaw": {
+  "drawnToward": [
+   "beauty",
+   "mastery",
+   "peace"
+  ],
+  "soughtFor": [
+   "advice",
+   "little-chaos"
+  ],
+  "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 92,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 91
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-regular-guy": {
+  "drawnToward": [
+   "mastery",
+   "peace",
+   "pleasure"
+  ],
+  "soughtFor": [
+   "comfort",
+   "honesty",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "a",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
+   "risk": "b",
+   "bright-dark": "b",
+   "soft-rough": "b"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 3
+  },
+  "flavors": [],
+  "vetoes": []
+ },
+ "sage-ruler": {
+  "drawnToward": [
+   "mastery",
+   "peace"
+  ],
+  "soughtFor": [
+   "taste",
+   "reality-check"
+  ],
+  "texture": {
+   "sharp-smooth": "b",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "a",
+   "bright-dark": "b",
+   "soft-rough": "a",
+   "harmonic": "a"
+  },
+  "gravity": {
+   "solitary-social": 0,
+   "controlled-wild": 0,
+   "classic-experimental": 0,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 76
+  },
+  "flavors": [],
+  "vetoes": []
+ }
+}

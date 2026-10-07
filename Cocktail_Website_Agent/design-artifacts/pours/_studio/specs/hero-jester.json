@@ -1,0 +1,35 @@
+{
+ "pairing": "hero-jester",
+ "family": "daiquiri",
+ "subfamily": "tiki: the Mai Tai as Vic's 1944 formula (Oxford MAI TAI pdf 1211-1212; Joy pdf 327, his 1970 telling), one aged Jamaican rum as his was; the spark is the orgeat made at home from toasted almonds (Flavor Matrix pdf 184)",
+ "style": "shaken",
+ "glass": "double old-fashioned glass (about 350 ml), packed with crushed ice",
+ "serves": 1,
+ "version": "v1 (Tomás, round 2, 2026-10-04). Oxford's printed proportions (60 rum, one lime, 15 curaçao, 15 orgeat, 7.5 sugar syrup, pdf 1212), except the sugar syrup cut to 5 ml: Vic wrote 'a dash of Rock Candy Syrup' (Joy pdf 327), and at Oxford's 7.5 ml the finished sugar sits on the edge (9.22 g vs 8.9), as the Codex warns a Mai Tai can teeter sweet (p. 136). The bottle is Appleton 12 (Appleton Estate has been part of J. Wray and Nephew since the early 20th century, Oxford pdf 132) for Vic's long-defunct seventeen-year Wray & Nephew. The orgeat's almonds are toasted first (Matrix pdf 184).",
+ "ingredients": [
+  {
+   "key": "rum_appleton_12",
+   "ml": 60
+  },
+  {
+   "key": "lime_juice",
+   "ml": 30
+  },
+  {
+   "key": "orange_curacao",
+   "ml": 15
+  },
+  {
+   "key": "orgeat_toasted_almond",
+   "ml": 15
+  },
+  {
+   "key": "simple_syrup",
+   "ml": 5
+  }
+ ],
+ "garnish": [
+  "mint_branch",
+  "lime_shell_half"
+ ]
+}

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dionysus — music audition</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair+Display:ital,wght@1,400&display=swap">
+<style>
+  :root { --gutter: clamp(20px, 6.5vw, 104px); --ivory: #f5ead8; --vermilion: #e8702a; --font-label: 'Jost', system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100dvh; background: #0d0b09; color: var(--ivory); font-family: var(--font-label); overflow: hidden; }
+  .room { position: fixed; inset: 0; background: center / cover no-repeat; opacity: 0; transition: opacity 2.4s cubic-bezier(0.16, 1, 0.3, 1); }
+  .room.is-on { opacity: 1; }
+
+  /* THE SOUND CONTROL — proposal. The Veil pill's sibling: hairline rim,
+     near-clear glass, tracked caps. Top-right, opposite the mark, present on
+     every screen; the same place for the whole journey. */
+  .sound { position: fixed; top: 16px; right: var(--gutter); z-index: 5;
+    display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.5rem 0.95rem 0.5rem 0.8rem;
+    border-radius: 999px; border: 1px solid rgba(245, 234, 216, 0.26); background: rgba(255, 255, 255, 0.03);
+    color: rgba(245, 234, 216, 0.82); font: 400 11px/1 var(--font-label); letter-spacing: 0.24em; text-transform: uppercase;
+    cursor: pointer; transition: border-color 0.6s, color 0.6s; }
+  .sound:hover { border-color: rgba(245, 234, 216, 0.5); color: #fffaf0; }
+  .sound:focus-visible { outline: 2px solid var(--vermilion); outline-offset: 3px; }
+  .sound svg { width: 15px; height: 15px; }
+  .sound .bar { transform-origin: center bottom; transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.9s; }
+  .sound[aria-pressed="false"] .bar { transform: scaleY(0.25); opacity: 0.6; }
+  .sound[hidden] { display: none; }
+
+  /* audition tooling only — not a product surface */
+  .panel { position: fixed; left: 0; right: 0; bottom: 0; padding: 18px var(--gutter) 22px; display: grid; gap: 12px; z-index: 4; background: #0d0b09; border-top: 1px solid rgba(245,234,216,0.08); }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .row b { font-weight: 500; font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: #b08d57; min-width: 7.5rem; }
+  .row button { font: 400 12px var(--font-label); letter-spacing: 0.06em; color: rgba(245, 234, 216, 0.86);
+    border: 1px solid rgba(245, 234, 216, 0.22); background: rgba(255, 255, 255, 0.02); border-radius: 999px; padding: 0.45rem 0.9rem; cursor: pointer; }
+  .row button[aria-pressed="true"] { border-color: var(--vermilion); color: #fffaf0; }
+  .note { font-size: 12px; color: rgba(245, 234, 216, 0.66); max-width: 70ch; line-height: 1.5; }
+  .meter { height: 1px; width: min(420px, 60vw); background: rgba(245, 234, 216, 0.15); position: relative; }
+  .meter i { position: absolute; inset: 0 auto 0 0; background: var(--vermilion); width: 0; transition: width 0.12s linear; }
+</style>
+
+<div class="room" id="room-a"></div><div class="room" id="room-b"></div>
+
+<button class="sound" id="sound" aria-pressed="false" aria-label="Sound">
+  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" aria-hidden="true">
+    <path class="bar" d="M3 12V7"/><path class="bar" d="M6.5 12V4"/><path class="bar" d="M10 12V6"/><path class="bar" d="M13.5 12V8.5"/>
+  </svg>
+  <span id="sound-label">Sound off</span>
+</button>
+
+<div class="panel">
+  <div class="row" id="tracks"><b>Concept</b></div>
+  <div class="row" id="scenes"><b>Journey</b></div>
+  <div class="row"><b>Level</b><div class="meter"><i id="meter"></i></div></div>
+  <p class="note" id="note">Press <em>Sound off</em> (top right) to start: browsers only allow audio after a tap. Then step through the journey. Each step changes level and tone; the music itself never restarts. Hide this tab and come back to hear the fade out and back in.</p>
+</div>
+
+<script type="module">
+  import { SoundEngine } from './sound-engine.js';
+
+  const manifest = await (await fetch('../web/loops.json')).json();
+  const engine = new SoundEngine({ base: '../web', manifest });
+  window.__sound = engine; // audition-page only: lets a tester read the live graph
+
+  const NAMES = {
+    '01-felt-piano-back-room': '1 · Felt piano — The Back Room',
+    '02-textural-under-the-surface': '2 · Textural — Under the Surface',
+    '03-nocturne-trio-last-orders': '3 · Nocturne trio — Last Orders',
+  };
+  const RAW = '../../type/screens/raw/a_desktop_';
+  const STEPS = [
+    { scene: 'silent', label: 'Landing', img: null, note: 'Paper world. Silent; the control is already visible.' },
+    { scene: 'depths', label: 'Descent → H1–H6', img: RAW + 'h1.jpg', note: 'The bed fades in over the descent, then holds steady through every question.' },
+    { scene: 'hush', label: 'H7 trace', img: RAW + 'h5.jpg', note: 'Near-silent: low and dark while she writes her trace.' },
+    { scene: 'surfacing', label: 'H8 breath → H9 reveal', img: RAW + 'h10top.jpg', note: 'A slow opening as the reveal kindles. No hit and no new song.' },
+    { scene: 'reading', label: 'H10 reading', img: RAW + 'h10recipe.jpg', note: 'Settles under the letter, so the prose stays easy to read.' },
+  ];
+
+  let current = Object.keys(manifest)[0];
+  const tracks = document.getElementById('tracks');
+  for (const key of Object.keys(manifest)) {
+    const b = document.createElement('button');
+    b.textContent = NAMES[key] ?? key;
+    b.dataset.key = key;
+    b.onclick = async () => { current = key; if (engine.enabled) await engine.play(key); paint(); };
+    tracks.append(b);
+  }
+  const scenes = document.getElementById('scenes');
+  let step = 0, flip = false;
+  STEPS.forEach((s, i) => {
+    const b = document.createElement('button');
+    b.textContent = s.label;
+    b.onclick = () => go(i);
+    scenes.append(b);
+  });
+  function go(i) {
+    step = i;
+    const s = STEPS[i];
+    engine.setScene(s.scene);
+    const [on, off] = flip ? ['room-a', 'room-b'] : ['room-b', 'room-a'];
+    flip = !flip;
+    if (s.img) document.getElementById(on).style.backgroundImage = `url('${s.img}')`;
+    document.getElementById(on).classList.toggle('is-on', !!s.img);
+    document.getElementById(off).classList.remove('is-on');
+    document.getElementById('note').textContent = s.note;
+    paint();
+  }
+
+  const btn = document.getElementById('sound');
+  btn.onclick = async () => {
+    const on = !engine.enabled;
+    await engine.setEnabled(on);
+    if (on && engine.track !== current) await engine.play(current);
+    if (on && step === 0) go(1);
+  };
+  function paint() {
+    const st = engine.state();
+    btn.setAttribute('aria-pressed', String(st.enabled));
+    document.getElementById('sound-label').textContent = st.enabled ? 'Sound on' : 'Sound off';
+    btn.hidden = st.unavailable;   // graceful: no control if audio cannot run
+    for (const b of tracks.querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.key === current));
+    [...scenes.querySelectorAll('button')].forEach((b, i) => b.setAttribute('aria-pressed', String(i === step)));
+  }
+  engine.subscribe(paint);
+  // the stored preference shows on the control, but audio still waits for a tap
+  engine.enabled = false; paint();
+
+  // level meter (post-master), for judging the reading-level duck
+  const meter = document.getElementById('meter');
+  let analyser;
+  (function tick() {
+    if (engine.ctx && !analyser) { analyser = engine.ctx.createAnalyser(); analyser.fftSize = 2048; engine.master.connect(analyser); }
+    if (analyser) {
+      const d = new Float32Array(analyser.fftSize); analyser.getFloatTimeDomainData(d);
+      const rms = Math.sqrt(d.reduce((a, v) => a + v * v, 0) / d.length);
+      meter.style.width = Math.min(100, Math.max(0, (20 * Math.log10(rms + 1e-9) + 60) / 50 * 100)) + '%';
+    }
+    requestAnimationFrame(tick);
+  })();
+</script>
+</html>

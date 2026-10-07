@@ -55,7 +55,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 **whoYouAre**
 Someone's lamp has died, or the zip's gone on a coat, and they're already saying it's had its day. You've got the back off before they've finished the sentence. A hair grip, a folded bit of card, tape from the kitchen drawer: you use whatever's there, and it works. It looks a bit odd. It lasts for years.
 
-Quieter, though, is this. At a party where nothing's broken, you're not quite sure where to stand, and a dripping tap in the kitchen feels like being let in. What gets to you isn't something breaking. It's the shrug, and "just get a new one", because a world that throws things away has less room for you in it. So it deserves saying plainly: when you mend something, people keep their own thing, the bike they learned on or a grandparent's lamp, and the piece of their life that comes with it. And you show them what was wrong, so the impossible turns out to be ordinary.
+Quieter, though, is this. At a party where nothing's broken, you're not quite sure where to stand, and a dripping tap in the kitchen feels like being let in. What gets to you is the shrug, and "just get a new one", because a world that throws things away has less room for you in it. When you mend something, people keep their own thing, the bike they learned on or a grandparent's lamp, and the piece of their life that comes with it. And you show them what was wrong, so the impossible turns out to be ordinary.
 
 **yours**
 
@@ -67,7 +67,7 @@ Quieter, though, is this. At a party where nothing's broken, you're not quite su
 
 4. The cocktail I've made for you isn't okolehao. A true one is hard to find outside Hawaii, and not every bottle with that name on it has been made from ti root. So I made do, as a nod to that still. It's a mezcal Old-Fashioned, the cocktail at its most classic: a spirit, a little sugar, something bitter. Mezcal's agave is traditionally roasted underground for days, just as the ti was. There's no syrup and no bottle of bitters: a spoonful of orange marmalade does both jobs, sweet from the sugar and bitter from the peel. And it's best shaken in the marmalade jar itself, the nearly finished one that was on its way to the recycling, then poured through the gap under the loosened lid. The jar is the shaker and the strainer. It comes out soft orange and a little smoky, with a bitter edge and a few shreds of peel.
 
-5. So, when you're next asked round and nothing's broken, leave the dripping tap alone. Stay in the room with everyone else; the tap can wait. They didn't invite you for what you can mend. They invited you because they like having you there. And for once, you can enjoy the evening too.
+5. Next time you're asked round and nothing's broken, leave the dripping tap alone. Stay in the room with everyone else; the tap can wait. They didn't invite you for what you can mend. They invited you because they like having you there. And for once, you can enjoy the evening too.
 
 ---
 

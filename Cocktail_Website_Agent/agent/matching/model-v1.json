@@ -1,0 +1,57 @@
+{
+  "_about": "Matching model v1 (proposed 2026-10-06). Tunable data for shared/selection (AD-3). Weights are 0..1 affinities taken from the BRANDING sheet's archetype goals/fears; rationale per row in ../spec/matching-model.md. The core centres each group before scoring (see matching.py / matching-model.md), so an absent answer is neutral.",
+  "questionnaireVersion": 3,
+  "archetypes": ["Caregiver", "Creator", "Explorer", "Hero", "Innocent", "Jester", "Lover", "Magician", "Outlaw", "Regular Guy", "Ruler", "Sage"],
+  "roles": {
+    "_about": "Influence share of each answer group in the motive vector M (decides the primary) and the expression vector E (decides the secondary). Applied after each group is divided by its spread under uniform answers, so the numbers are comparable.",
+    "motive":     {"drawnToward": 1.0, "soughtFor": 0.4, "gravity": 0.5, "texture": 0.3},
+    "expression": {"drawnToward": 0.3, "soughtFor": 1.0, "gravity": 0.6, "texture": 0.7}
+  },
+  "drawnToward": {
+    "freedom":   {"Explorer": 1.0, "Outlaw": 0.6},
+    "beauty":    {"Lover": 1.0, "Creator": 0.6},
+    "mastery":   {"Hero": 1.0, "Sage": 0.5, "Ruler": 0.5},
+    "peace":     {"Innocent": 1.0, "Caregiver": 0.6, "Sage": 0.3},
+    "belonging": {"Regular Guy": 1.0, "Caregiver": 0.5, "Lover": 0.3},
+    "pleasure":  {"Jester": 1.0, "Lover": 0.6},
+    "wonder":    {"Magician": 1.0, "Innocent": 0.5, "Explorer": 0.3},
+    "change":    {"Outlaw": 0.8, "Magician": 0.6, "Creator": 0.6},
+    "mischief":  {"Jester": 0.8, "Outlaw": 0.6}
+  },
+  "soughtFor": {
+    "advice":        {"Sage": 1.0, "Ruler": 0.4, "Caregiver": 0.3},
+    "comfort":       {"Caregiver": 1.0, "Regular Guy": 0.4, "Innocent": 0.3},
+    "honesty":       {"Innocent": 0.8, "Regular Guy": 0.6, "Sage": 0.4},
+    "courage":       {"Hero": 1.0, "Outlaw": 0.4, "Explorer": 0.3},
+    "ideas":         {"Creator": 1.0, "Magician": 0.5, "Explorer": 0.3},
+    "calm":          {"Caregiver": 0.6, "Sage": 0.5, "Innocent": 0.5, "Ruler": 0.3},
+    "taste":         {"Lover": 0.8, "Creator": 0.6, "Ruler": 0.4},
+    "reality-check": {"Ruler": 0.8, "Sage": 0.6, "Regular Guy": 0.4},
+    "little-chaos":  {"Jester": 1.0, "Outlaw": 0.7, "Magician": 0.3}
+  },
+  "gravity": {
+    "_about": "[left pole, right pole]; lean t = (value-50)/50 in [-1,1].",
+    "solitary-social":        [{"Sage": 0.8, "Explorer": 0.6, "Creator": 0.4}, {"Regular Guy": 0.8, "Jester": 0.7, "Lover": 0.6, "Caregiver": 0.4}],
+    "controlled-wild":        [{"Ruler": 1.0, "Sage": 0.5, "Caregiver": 0.4, "Hero": 0.3}, {"Outlaw": 0.9, "Jester": 0.6, "Explorer": 0.5}],
+    "classic-experimental":   [{"Ruler": 0.6, "Regular Guy": 0.6, "Sage": 0.5, "Caregiver": 0.3}, {"Creator": 0.9, "Magician": 0.7, "Explorer": 0.4, "Outlaw": 0.3}],
+    "analytical-instinctive": [{"Sage": 0.9, "Ruler": 0.5, "Creator": 0.3}, {"Lover": 0.6, "Jester": 0.5, "Explorer": 0.5, "Magician": 0.5, "Hero": 0.4}],
+    "grounded-dreamlike":     [{"Regular Guy": 0.7, "Caregiver": 0.6, "Hero": 0.5, "Ruler": 0.4}, {"Magician": 0.8, "Innocent": 0.7, "Creator": 0.6, "Lover": 0.3}]
+  },
+  "texture": {
+    "_about": "[pole a, pole b] as in TheDepths BINARIES.",
+    "sharp-smooth":       [{"Sage": 0.5, "Outlaw": 0.5, "Hero": 0.4, "Ruler": 0.3}, {"Lover": 0.6, "Caregiver": 0.5, "Regular Guy": 0.4, "Magician": 0.3}],
+    "relaxed-excited":    [{"Regular Guy": 0.5, "Innocent": 0.5, "Sage": 0.4, "Caregiver": 0.3}, {"Jester": 0.6, "Explorer": 0.6, "Hero": 0.4, "Lover": 0.3}],
+    "halffull-halfempty": [{"Innocent": 0.8, "Jester": 0.4, "Caregiver": 0.3, "Hero": 0.3}, {"Outlaw": 0.5, "Sage": 0.5, "Ruler": 0.3}],
+    "control":            [{"Ruler": 0.9, "Hero": 0.5, "Sage": 0.3}, {"Outlaw": 0.6, "Jester": 0.6, "Explorer": 0.4, "Lover": 0.3}],
+    "quiet-loud":         [{"Sage": 0.6, "Caregiver": 0.4, "Innocent": 0.4, "Creator": 0.3}, {"Jester": 0.7, "Hero": 0.4, "Outlaw": 0.4, "Ruler": 0.3}],
+    "risk":               [{"Caregiver": 0.5, "Ruler": 0.5, "Innocent": 0.5, "Regular Guy": 0.4}, {"Outlaw": 0.7, "Explorer": 0.7, "Hero": 0.5, "Magician": 0.3}],
+    "bright-dark":        [{"Innocent": 0.7, "Jester": 0.4, "Caregiver": 0.3}, {"Magician": 0.6, "Outlaw": 0.6, "Lover": 0.4}],
+    "soft-rough":         [{"Caregiver": 0.6, "Innocent": 0.5, "Lover": 0.4}, {"Outlaw": 0.6, "Hero": 0.5, "Explorer": 0.5, "Regular Guy": 0.3}],
+    "harmonic":           [{"Caregiver": 0.5, "Innocent": 0.5, "Sage": 0.4, "Lover": 0.3, "Ruler": 0.3}, {"Creator": 0.6, "Outlaw": 0.6, "Jester": 0.4, "Magician": 0.3}]
+  },
+  "flavourFit": {
+    "_about": "Pour-level term: phi * sum over the guest's chosen flavours of the pour's strength for that flavour (0..1). phi is set relative to the persona margin (matching-model.md). Strength comes from the authored spec via flavour-rules.json, never from the guest.",
+    "phi": 0.15
+  },
+  "flavours": ["sweet", "bitter", "spicy", "herbal", "fruity", "citrusy", "fresh", "floral", "smoky"]
+}

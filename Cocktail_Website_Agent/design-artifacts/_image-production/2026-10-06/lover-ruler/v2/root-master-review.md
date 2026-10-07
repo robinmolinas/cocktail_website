@@ -1,0 +1,5 @@
+# Root receipt — By Design
+
+2026-10-07. Inspected actual1671×941 master at original detail. HELD candidate, not accepted. Hazy coral V-shaped pineapple/pomegranate sour has thin pale foam and no serving ice/garnish; bright dense bowl speckles need later review so shaken froth does not become a falsely carbonated/decorative surface. Paper visibly hangs clear of vessel through cord/hole.
+
+Folder/pen and knotted rose scarf are ordinary plausible inferences from negotiation and deliberate personal presentation, not literal historical artifacts. Generic closed-folder recognition/specificity remains a watch; agent retains full676px bounds and conservative563px group without substituting tiny anonymous detail.414px glass and150px usable tag miss targets;702px proposed portrait can retain full group but moving phone cannot be assumed. Warm very glossy grain-heavy table, uniformly finished leather and polished pen/glass remain material concerns. One focused correction exhausted, v1 preserved. No JPEGs, actual-name/browser/motion acceptance or integration.

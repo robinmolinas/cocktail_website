@@ -1,13 +1,20 @@
 ---
 pairing: innocent-creator
 personality: The Naive Artist
-status: flagged           # open | closed | deadlock | flagged
+status: closed            # flag resolved by Robin 2026-10-06 (collection review); open | closed | deadlock | flagged
 round: 6               # budget: 6 (pour, Robin 2026-10-01) · 5 (rework)
 started: 2026-10-01
 mode: batch            # pour | batch | rework
 ---
 
 # The room: The Naive Artist (innocent-creator)
+
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D2: status flagged → draft; flag line → `accepted: balance by structure`; Open items bullet resolved. D1: `coca_cola` is none, so the `[]` the file already carried now agrees with the tool (one sentence added to Checks › Allergens).
+- **Edits** (before → after, short): whoYouAre ¶2 (variety, V1): "The laugh, when there is one, you can live with. The day you'd dread is…" → "The day you'd dread is…"
+- **Left for Robin:** none (the reviewer's alternative tagline is unqueued; D11 keeps the current line).
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex's wine highballs (p. 201; Mimosa p. 222, 10.0%; Aperol Spritz p. 223, 8.3%). `accepted` reason checked: right. Nothing else changed.
+- **Hester (open items):** Collection Oxford item: yours 3 "The Oxford Companion admits" → "The *Oxford Companion to Spirits and Cocktails* admits" (part of the story, so the name stays, in its one form). Fact audit CR1. Lint 0 errors; the 4-gram warnings are the title itself, shared on purpose with the three other pours that keep it.
 
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Kalimotxo, rescue out (fact-cards/kalimotxo.md, historian-anchors.md)) · [x] drink + four checks (Kalimotxo over its own ice; strength OUT by design) · [x] reading (v1) · [x] fact audit (v2: 7 fixes open) · [x] resonance test (v3 ready) · [x] names (≥3 + pick) (The Way It Felt (all three)) · [x] image brief

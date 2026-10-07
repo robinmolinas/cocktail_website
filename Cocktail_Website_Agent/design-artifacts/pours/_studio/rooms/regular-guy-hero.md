@@ -9,6 +9,11 @@ mode: batch            # pour | batch | rework
 
 # The room: The Have A Go Hero (regular-guy-hero)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): whoYouAre ¶2 (V2, announcement): cut "This is what it gives."; yours 5 (V5): cut the closing wish "I hope plenty of them say yes." (the reading now ends on the gain, "…belonging to everyone who helped.").
+- **Left for Robin:** none.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Erenzo / Tuthilltown (Hester r2–r3)) · [x] drink + four checks (Manhattan on the rocks, rye + apple brandy (Tomás r2)) · [x] reading (v1 (Wren r3)) · [x] fact audit (v3 passes (Hester r5)) · [x] resonance test (ready (Wren r4)) · [x] names (≥3 + pick) (I'll Do It (all three)) · [x] image brief (Tomás r3)
 - **Last change to the pour:** round 5

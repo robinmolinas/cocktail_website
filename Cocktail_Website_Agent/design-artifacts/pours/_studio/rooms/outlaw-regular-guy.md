@@ -1,13 +1,19 @@
 ---
 pairing: outlaw-regular-guy
 personality: The Gangster
-status: flagged          # open | closed | deadlock | flagged
+status: closed            # flag resolved by Robin 2026-10-06 (collection review); open | closed | deadlock | flagged
 round: 6               # budget: 5 (pour) · 5 (rework)
 started: 2026-10-01
 mode: batch            # pour | batch | rework
 ---
 
 # The room: The Gangster (outlaw-regular-guy)
+
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D2 (acid OUT accepted by structure; the spec now reads `stirred-spirit`, balanced): `status: flagged` → `draft`, flag line → `accepted:`, Open items FLAG bullet → resolved.
+- **Edits** (before → after, short): yours 4 (Q138): "a spoonful of sugar syrup" → "a teaspoonful of sugar syrup" (Embury's own "1 teaspoonful", E2; "teaspoon of sugar syrup" tripped a motif overlap with *Asked In*); whoYouAre ¶3 (variety V1, fear turn): "It's never the rules that get to you. It's the people who write them, break them…" → "What gets to you is the people who write the rules, break them…".
+- **Left for Robin:** tagline (Q161) unchanged per D11.
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex Ideal Old-Fashioned (p. 5: 29.8% / 4.63 g vs ours 25.8% / 5.09 g, and the p. 6 'flabby' warning). Nothing else changed.
 
 ## Where things stand
 - **Must-haves:** [x] persona read · [x] story + sourced anchors (Roy Olmstead, narrowed centre (Wren ruled r3)) · [x] drink + four checks (spec v1: Embury's CANADIAN with 5 ml maple, stirred, coupe, veto-free) · [x] reading (v1) · [x] fact audit (v1 on reading v1: A2, A3, A5 open; y4 pending) · [x] resonance test (on reading v2: ready) · [x] names (≥3 + pick) (Where You Stand (all three; third-'stand' flag for Robin)) · [x] image brief

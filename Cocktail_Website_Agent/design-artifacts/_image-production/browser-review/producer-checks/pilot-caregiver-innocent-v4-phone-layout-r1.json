@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "batchId": "pilot-caregiver-innocent-v4-phone-layout-r1",
+  "owner": "producer only",
+  "checkedAt": "2026-10-06T20:40:53.999Z",
+  "requestSha256": "6a3b54a349eda6963d69c408eded9044e3eac40d4ba713f122bf8ea85adc05fa",
+  "inputFingerprints": {
+    "count": 17,
+    "allMatch": true
+  },
+  "approval": "Robin explicitly approved local image validation, TypeScript check and private production build after initial auto-review rejection",
+  "checks": {
+    "sourceDiffWhitespace": "PASS",
+    "publicImageValidation": {
+      "disposition": "PASS",
+      "pairCount": 17
+    },
+    "typescript": {
+      "disposition": "PASS",
+      "command": "npx tsc -b",
+      "exitCode": 0
+    },
+    "productionBuild": {
+      "disposition": "PASS",
+      "command": "npx vite build --outDir <fresh mktemp private directory>",
+      "exitCode": 0,
+      "outputDirectory": "dionysus-experience/output/playwright/phone-layout-r1-build.Vg3z4G",
+      "outputs": [
+        {
+          "path": "dionysus-experience/output/playwright/phone-layout-r1-build.Vg3z4G/index.html",
+          "sha256": "47ed240d4a83d83b9fcac2641384df4d78f2ed933751756282d0bdc9ed942e11"
+        },
+        {
+          "path": "dionysus-experience/output/playwright/phone-layout-r1-build.Vg3z4G/assets/index-B92n9OIr.css",
+          "sha256": "03708bd2e0e8c68432d5a005cbe45428310d4f91e398307a7961d89d4e44df96"
+        },
+        {
+          "path": "dionysus-experience/output/playwright/phone-layout-r1-build.Vg3z4G/assets/index-BmVwbkTT.js",
+          "sha256": "bfb9f05ac5fe8b143d2b98bbf44eb2509410f96ab26d76365c7f54bcf137ce10"
+        }
+      ]
+    }
+  },
+  "browser": "PENDING independent review; no successful producer-session browser run claimed",
+  "materialDisposition": "HOLD retained; local checks do not accept imagery",
+  "publicationSnapshot": "The READY request remains immutable. Its BLOCKED localVerification entries record publication before the fresh approval; this supplementary producer record provides later successful checks. No runtime inputs changed."
+}

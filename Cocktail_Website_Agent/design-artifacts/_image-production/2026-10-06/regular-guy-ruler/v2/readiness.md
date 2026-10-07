@@ -1,0 +1,3 @@
+# Correction readiness
+
+Complete201-line current dossier reread in three untruncated chunks and full current spec reread immediately before this correction. Recipe remains settled155ml Jack Rose in frozen~180ml coupe:60apple brandy/20lime/17.5pomegranate grenadine, no garnish/ice/soda. Person remains friend airline call and neighbour correspondence/appeal; no ingredient army. Shared current docs/skill/references/pilot+batch exports already read/inspected this task. Dossier SHA256d2d94c473eb6a2f4de5d60f45b1c7a7f3ffbca723e47ded44898d21a72cf65a3; spec SHA25658729d5a9851e7e1e2241047849c213ce817a5bc09b2a1d3df7e352e92d574a2. Sole focused composition correction after v1; stop after measured handoff. Root alone exports/integrates, browser batch deferred.

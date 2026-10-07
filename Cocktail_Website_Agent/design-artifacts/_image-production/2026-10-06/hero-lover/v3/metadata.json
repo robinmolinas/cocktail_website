@@ -1,0 +1,312 @@
+{
+  "pairing": "hero-lover",
+  "pour": "One Line",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "fc02abc1edf504d62bbfa8074b829b85e36840fad1681c48451b86775c011922",
+  "review": {
+    "recipe": "Single deep champagne goblet; faint straw nearly clear Vesper with broad thin lemon peel inside; frost and tiny flecks, no ice cubes or foam.",
+    "personality": "Full-size prior JPEG pair inspected: broad inner lemon peel, near-clear faint straw, frost and single deep goblet correct. Driving gloves and blank folded speech sheet visible in pair; safest right-context crop retains some glove and sheet in narrow phone, actual cover personality check pending.",
+    "world": "Worn dark walnut reading room, restrained burgundy, neutral near-black surround; v2 extinguished extra lamps/fireplace and restored quiet left.",
+    "issues": [
+      "Actual new pair export and name-font/browser checks pending."
+    ]
+  },
+  "measurements": {
+    "pour": "One Line",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-lover/v3/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-22b2a073-4ac6-4e3a-a059-01b33bff4409.png",
+    "sourceSha256": "fc02abc1edf504d62bbfa8074b829b85e36840fad1681c48451b86775c011922",
+    "wideCrop": [
+      0,
+      190,
+      1448,
+      814
+    ],
+    "portraitCrop": [
+      627,
+      126,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1025,
+      "cy": 681,
+      "w": 149,
+      "angle": 30
+    },
+    "glass": {
+      "x": 926,
+      "y": 450
+    },
+    "bounds": {
+      "glass": {
+        "x0": 748,
+        "y0": 317,
+        "x1": 1110,
+        "y1": 827
+      },
+      "paper": {
+        "x0": 939,
+        "y0": 600,
+        "x1": 1114,
+        "y1": 774
+      }
+    },
+    "review": {
+      "recipe": "Single deep champagne goblet; faint straw nearly clear Vesper with broad thin lemon peel inside; frost and tiny flecks, no ice cubes or foam.",
+      "personality": "Full-size prior JPEG pair inspected: broad inner lemon peel, near-clear faint straw, frost and single deep goblet correct. Driving gloves and blank folded speech sheet visible in pair; safest right-context crop retains some glove and sheet in narrow phone, actual cover personality check pending.",
+      "world": "Worn dark walnut reading room, restrained burgundy, neutral near-black surround; v2 extinguished extra lamps/fireplace and restored quiet left.",
+      "issues": [
+        "Actual new pair export and name-font/browser checks pending."
+      ]
+    },
+    "pairing": "hero-lover",
+    "exportRevision": {
+      "kind": "mechanical-crop-only",
+      "sourceVersion": "v2",
+      "change": "Leftward portrait crop retains full measured glass while maximizing right-hand human context.",
+      "predictedGeometryPasses": 7
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1359.1160220994475,
+        "cy": 651.4496314496314,
+        "w": 197.56906077348066,
+        "angle": 30.015237094862037
+      },
+      "glass": {
+        "x": 1227.8453038674031,
+        "y": 344.96314496314494
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 507.9886039886039,
+        "cy": 708.5106382978724,
+        "w": 190.1766381766382,
+        "angle": 30.004712884121773
+      },
+      "glass": {
+        "x": 381.6296296296296,
+        "y": 413.6170212765957
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/hero-lover/portrait.jpg",
+    "wide": "/personas/hero-lover/wide.jpg",
+    "wideTag": {
+      "cx": 0.7078729281767956,
+      "cy": 0.6031941031941032,
+      "w": 0.10290055248618785,
+      "angle": 30.015237094862037
+    },
+    "wideGlass": {
+      "x": 0.6395027624309392,
+      "y": 0.3194103194103194
+    },
+    "tag": {
+      "cx": 0.5669515669515669,
+      "cy": 0.5904255319148937,
+      "w": 0.21225071225071226,
+      "angle": 30.004712884121773
+    },
+    "glass": {
+      "x": 0.42592592592592593,
+      "y": 0.3446808510638298
+    }
+  },
+  "hashes": {
+    "master": "4d531ac17d744bd4d75e512a7455608af5fe998f9f2cd674a422b824ebec4ffb",
+    "wide": "e1d1199600b3b0af61baf2cfaa8511141604b8edf6b271d78f161135a5b08367",
+    "portrait": "630dcaf7a5e8d743c201ca1b492c533cf5f489aede30d07e518098c8c4e773f8"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 991.8232044198894,
+          "y0": 168.50122850122852,
+          "x1": 1471.8232044198894,
+          "y1": 845.1597051597051
+        },
+        "paper": {
+          "x0": 1245.0828729281768,
+          "y0": 543.980343980344,
+          "x1": 1477.1270718232045,
+          "y1": 774.8402948402949
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 746.5193370165745,
+          "y0": 140.41769041769044,
+          "x1": 1146.5193370165746,
+          "y1": 704.2997542997542
+        },
+        "paper": {
+          "x0": 957.5690607734807,
+          "y0": 453.31695331695335,
+          "x1": 1150.9392265193371,
+          "y1": 645.7002457002458
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1057.9447513812154,
+          "y0": 126.37464373464375,
+          "x1": 1569.9447513812154,
+          "y1": 848.1436855036854
+        },
+        "paper": {
+          "x0": 1328.0883977900553,
+          "y0": 526.8857002457003,
+          "x1": 1575.6022099447514,
+          "y1": 773.1363144963145
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1777.0165745856352,
+          "y0": 74.19803439803442,
+          "x1": 2637.016574585635,
+          "y1": 1286.5444717444716
+        },
+        "paper": {
+          "x0": 2230.7734806629837,
+          "y0": 746.9314496314496,
+          "x1": 2646.519337016575,
+          "y1": 1160.5555282555283
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.42592592592592593,
+        "y": 0.3446808510638298
+      },
+      "bounds": {
+        "glass": {
+          "x0": 6.3201899335232525,
+          "y0": 171.49361702127658,
+          "x1": 331.28824311490985,
+          "y1": 629.4085106382979
+        },
+        "paper": {
+          "x0": 177.78123456790124,
+          "y0": 425.59148936170214,
+          "x1": 334.8790503323837,
+          "y1": 581.8212765957446
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.42592592592592593,
+        "y": 0.3446808510638298
+      },
+      "bounds": {
+        "glass": {
+          "x0": 6.696562203228879,
+          "y0": 189.37446808510637,
+          "x1": 365.5475403608737,
+          "y1": 695.0340425531914
+        },
+        "paper": {
+          "x0": 196.03506172839502,
+          "y0": 469.9659574468085,
+          "x1": 369.5127445394112,
+          "y1": 642.4851063829786
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.42592592592592593,
+        "y": 0.3446808510638298
+      },
+      "bounds": {
+        "glass": {
+          "x0": 28.75927825261158,
+          "y0": 115.41276595744681,
+          "x1": 247.45815764482433,
+          "y1": 423.58297872340427
+        },
+        "paper": {
+          "x0": 144.15012345679014,
+          "y0": 286.41702127659573,
+          "x1": 249.8747198480532,
+          "y1": 391.55744680851063
+        }
+      }
+    }
+  ]
+}

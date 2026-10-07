@@ -1,0 +1,5 @@
+# Where You Stand — sole framing correction
+
+Full current223-line dossier and complete spec reread immediately before edit. Currentdossierc52edc7d124b4ced31b7a4c38c5b87723364ee713448422faf3151ad75511d59; spec4b075753adc20c78be601630fd9333815a569546b52cadf5d1fe51d84e88c00f. No source/recipe/editorial changes. V1 original inspected: correct clear still amber coupe/orange peel IN and discreet hangingtag; oversized foreground glass and spread phone require camera correction.
+
+Sole edit pulls entire ordinary full-size grouping farther back and overlaps phone/keys behind stem. Maintain the actual spirit-only stirred serve, no vermouth/ice/foam/carbonation. Smalltag narrower than bowl is invariant, no numericwritingwidth inflation. Telephone and usefulkeys infer helper's who-to-ask/which-door habits, not historical artefacts or symbols; source specificity watch remains. Impossiblelight-wall/maplespill/daylightonly ban reconciled per current house rules in v1 readiness. Noexports/shared/browserwrites; after this call pairing limit reached, candid measurements/holds.

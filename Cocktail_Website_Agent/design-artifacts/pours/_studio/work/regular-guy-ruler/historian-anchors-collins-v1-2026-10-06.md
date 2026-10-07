@@ -1,0 +1,31 @@
+# Anchors: regular-guy-ruler (The People's Champion), rework round 3 (2026-10-06)
+
+Hester. The story stays (Wren rw1): Bobby Heugel and the packer's cases. Facts from `fact-cards/bobby-heugel-lime-crisis-2014.md` (F refs). The first room's table, with its Rickey rows, is kept as `historian-anchors-rickey-2026-10-01.md`. Meanings are drafts for Wren to rewrite, paraphrased so no source run leaks into the reading.
+
+| kind | fact | meaning | speaksTo |
+| --- | --- | --- | --- |
+| reveal | In 2014, Houston bar owner Bobby Heugel told a drinks magazine that limes are packed by size, and that the odd-sized leftovers go into what the trade calls packer's cases, sold, by his account, for 30-40% less (*PUNCH*, 2 Apr 2014; F5). | The saving was there all along. It took someone who knew how the trade packs its fruit to tell people to ask for it. | Fairness; Belonging; drivers: provide structure |
+| gesture | He added that maybe they weren't so easy to find in Houston any more, because he'd been telling people about them (his account, with his "maybe"; F6). | Our reading only: he gave away an edge of his own. | Altruism; fear of Exclusion |
+| ingredient | He said one of the biggest problems that year was the limes' quality, which was little talked about, and asked why bars didn't recommend a better drink made with lemon, and tell the customer why (*PUNCH*; F7). Lemon is historically the commonest citrus in cocktails, because limes weren't widely available until the 1930s (Oxford, CITRIC ACID, pdf 466; F15). | The honest recommendation, with the reason given. The lemon isn't the stand-in: in cocktails it came first. | Respect; Fairness; fear of Discourtesy |
+| person | Of where he started ("undeveloped markets"), Heugel said there was nobody at all he could talk to about drinks (*A Proper Drink*, p. 293; F10). | Our reading only: he knew what it was to be left outside the conversation. | fear of Exclusion; Belonging |
+| context (not a mirror) | Spring 2014: Mexican limes were scarce and dear; the magazine blamed a bacterial disease and bad weather (*PUNCH*, the magazine's narration; F1). | The moment ordinary drinkers were about to pay more for the same drink. | Fairness; fear of Chaos |
+| drink | A Collins is, at root, a big glass of punch lengthened with soda and ice, and it's one of the best-known, longest-lasting mixed drinks (Oxford, TOM COLLINS, pdf 2041). The vodka one began to appear in the 1930s and was everywhere by the 1950s (pdf 2042). The classic Rickey has no sugar (Oxford, RICKEY, pdf 1661); a Collins has its sugar as the balance. Card `collins-vodka-collins.md` F1, F2, F5, F9. | A renowned classic that people already order at a counter, the kind you could tell a friend how to make right. | Belonging; drivers: build connection |
+| method (the measure) | One bar book builds a Collins with measured soda in the empty glass, a five-second shake, and ice last, and often sets juice and syrup about 1:1 (*Cocktail Codex* pp. 138-139; card F7, F8). Tomás's balance: in this glass the syrup is in range only at 17.5 to 20 ml (22.5 is the edge; 15 and 25 are out), and the lime from 17.5 to 27.5 ml (spec sweeps, 2026-10-06). | Our reading, on Tomás's numbers: the jigger, not a count of fruit, is what makes it the same drink every time, from any size of lime. | Control; Fairness; drivers: provide structure |
+| ingredient (vodka, optional, Wren's call) | The authors of one well-known bar book admit bartenders have talked vodka down, themselves among the worst, and call that inhospitable: plenty of people love it for being what it looks like (*Cocktail Codex* p. 69; card F11). | The trade's snobbery about the bottle ordinary people order, owned by the trade itself. | fear of Exclusion; Belonging; Respect |
+
+## What left with the Rickey (2026-10-06)
+- **riff** row: Oxford RICKEY pdf 1661 ("no sugar" in the classic) and Wondrich, *Imbibe!* pdf 118 (half a lime, or a whole one if small).
+- **method** row: Regan, *Joy*, pdf 376 (the "secret" is the amount of lime).
+- **Q007** (y4's "spread across America in the 1890s and is now the official cocktail of Washington, DC"): both were on the page (Oxford pdf 1661, the council's 2011 proclamation; pdf 1663, widespread in Washington the next summer after 1889 and "the rest of America shortly thereafter"). I passed them in audit v1 (P3) but never gave them an anchor row, which was my miss. They now leave with the drink. The queue's replacement ("already famous in the 1890s") leaves too. No Rickey, DC or 1890s line goes in guest text.
+
+## My own wordings struck in this table (anchors follow the audit)
+| ID | old (mine) | new | why |
+| --- | --- | --- | --- |
+| G1 | gesture meaning: "he gave away his own edge and joked about it" | "he gave away an edge of his own" | "joked" was struck from Resonance on 2026-10-01 (audit v2 R1) and survived here. |
+| I1 | "He said the worse problem was the limes' quality" | "one of the biggest problems that year was the limes' quality" | His words were "one of the biggest problems" (audit v1 A5). Card F7 had the same slip, now fixed. |
+| I2 | "Lemon was the usual cocktail citrus long before limes were widely available, in the 1930s" | "historically the commonest citrus in cocktails, because limes weren't widely available until the 1930s" | "long before" was mine; pdf 466 gives no span. |
+
+## Guards (carried, plus the rework's)
+Size isn't quality: no page says the odd-sized limes are as good (C6) · no yield comparison (C1) · no expert count (C2) · no opening year, no "& Refuge", no undated present tense about Heugel (C3) · Cecchini and Maloney unnamed, and no lemon drink pinned on Heugel (C4) · $25→$100 and 95% are the magazine's, dossier only · cartels never · *Proper* p. 310's crusade stays out (Campaigner ground) · **new:** no Rickey anywhere in guest text (Robin D12) · if the drink is a Buck or Mule, Oxford's own BUCK entry calls it a Rickey variant (families file, B) · "measured, not counted" rests on the new drink's page, never on Regan's or Wondrich's Rickey lines.
+
+**Dossier only (unchanged; Wren's r3 ruling and rw1 point 5):** the Key lime strand (Oxford pdf 465-466; *PUNCH*). If Tomás uses Key lime for taste, the only claim is F14 (sweeter and more acidic, so less juice and less sugar), never "the tiny fruit nobody picked".

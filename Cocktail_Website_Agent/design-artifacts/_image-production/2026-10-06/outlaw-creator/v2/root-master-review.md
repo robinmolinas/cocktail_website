@@ -1,0 +1,5 @@
+# Root receipt — Asked In
+
+2026-10-07. Inspected actual1672×941 v2 PNG at original resolution. HELD, not accepted. Short yellow lemon strip inside, one cube and small heavy tumbler/no foam visible. Gold is rendered warm amber by lighting; physical colour remains a watch. Cord passes through hole; tag broadly hangs outside glass, with lower air gap, not a pasted face. Upper paper corner approaches vessel; verify motion/name later.
+
+Unmarked wallet with handsewn edge plus whole awl read as ordinary maker habits, an inference rather than literal biography. Uniformly cracked leather and similarly mottled tool handle look over-staged; dense ice facets/sparkles and glossy grain-heavy orange walnut held.361px glass,743px full group/711px conservative recognition and148px tag miss targets; proposed702px portrait clips wallet and paper and is not an acceptable final companion. Original plus one correction preserved. No further iteration, JPEG export, browser/name acceptance, READY request or public/source/app changes.

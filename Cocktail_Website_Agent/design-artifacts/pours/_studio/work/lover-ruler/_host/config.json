@@ -1,0 +1,27 @@
+{
+ "pairing": "lover-ruler",
+ "personality": "The Sex Symbol",
+ "archetypes": "Lover × Ruler",
+ "date": "2026-10-04",
+ "batch": "lover",
+ "name": "By Design",
+ "tagline": "Everyone knows the effect you have. Almost nobody knows you designed it.",
+ "epigraph": "Named in Havana for America's Sweetheart. This one's for the one behind the curls.",
+ "glassware": "cocktail glass, chilled",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "mary-pickford.md",
+ "language_row": "Wren's Resonance on reading v3: ready. Lint 0 errors; the three pronoun warnings (yours 1–3: 'she', 'she', 'her') are Mary Pickford, never the guest, accepted by Wren in round 4. The epigraph's 'the woman behind the curls' became 'the one behind the curls' (Hester W1: no gendered word about the guest). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/mary-pickford.md`: *Oxford Companion* MARY PICKFORD (pdf 1252, Jeff Berry) and MARASCHINO (pdf 1228); *Joy of Mixology* pdf 341 (Regan). Web, secondary: PBS *American Experience*, \"Mary Pickford (1892–1979)\" (c. 2004), read whole (text saved in `work/lover-ruler/`); one archive.org full-text search for Woon 1928, nothing found. Web budget 2/2. Britannica and the Pickford Foundation not read. Drink: *Cocktail Codex* p. 47 (House Grenadine proportions, without its acids); *Flavor Matrix* pdf 248 (thyme with tropical fruit) and pdf 200 (pomegranate). Room notes: `work/lover-ruler/`.",
+ "names_note": "**By Design**, the room's vote 3–0: authorship first; the effect is real, and it was designed. Also considered: *Final Cut* (Tomás's first pick: in film, the right to decide the version everyone sees), *Top Billing*, *Above the Title*, *Sole Author* (close to the Muse's 'own hand').",
+ "open_items": [
+  "**The drink is named for her, not drunk by her:** no page says Pickford drank it, and the reading never says so. The maker is contested (Woon 1928 credits Fred Kaufman; not found in the archive.org search), so the reading names no maker.",
+  "**Ratio flipped and lime added by Tomás:** Oxford prints 30 rum to 60 pineapple, which runs about 8.5%. This drink is 60 rum, 30 pineapple, 20 lime and 12.5 thyme grenadine, and it's never called 'the original'.",
+  "**Bacardi released:** the plan reserved Bacardi for this row, but no 40% rum holds this drink in range. v2 uses a white rum of 50% or stronger (swept 47–63%, all in range; at 47% it sits at the strength floor). The reading names no bottle and no strength, so it holds if Robin prefers v1 (Bacardi, flagged OUT on strength).",
+  "**Maraschino left out** (Joy's version; `nuts`). Veto-free.",
+  "**Unsourced values:** pineapple juice (~10 g sugar, 0.8% acid; swept), and the thyme grenadine's numbers (Codex proportions without its acids). The closing line's 'the day before' matches Method step 1.",
+  "**No colour words** in the reading (pink is the Flirt's, plan guard). Fenced: Fairbanks, her later seclusion and drinking, Prohibition Cuba as more than context, scissors.",
+  "**New ingredient rows:** `rum_bacardi_carta_blanca`, `rum_white_50`, `pineapple_juice`, `thyme_grenadine`, added on the safe side; no allergens."
+ ]
+}

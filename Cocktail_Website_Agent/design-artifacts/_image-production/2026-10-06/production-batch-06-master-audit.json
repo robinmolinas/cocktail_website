@@ -1,0 +1,815 @@
+{
+  "id": "production-batch-06-master-audit",
+  "date": "2026-10-07",
+  "receiptKind": "read-only actual PNG/source/spec/original audit; not JPEG/browser/material approval",
+  "sceneCount": 7,
+  "sourceCurrent": 7,
+  "specCurrent": 7,
+  "exactOriginalCopies": 7,
+  "proposedCropExtents": 7,
+  "tagAxisExtents": 7,
+  "noExports": true,
+  "countsBefore": {
+    "generated": 56,
+    "exported": 27,
+    "pending": 29,
+    "ungenerated": 59
+  },
+  "items": [
+    {
+      "folder": "ruler-caregiver/v2",
+      "pairing": "ruler-caregiver",
+      "pour": "Go On",
+      "sourceSha256": "cf6cc557429b53ce8cb62ef73236f6cf3f35ba42160c03ceb68ace8466ffcae5",
+      "specSha256": "3519d83b234b494b40c7b9b1341c34021b7f2ba1241fdea2aefb96361a245168",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "1235231f0361cf2b322f82755190d8bec7ace210bd26e947d054d4cb90691c75",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-917612bb-9e5a-4a81-a49c-07b4a69ebcf0.png",
+      "generatedSourceMatches": true,
+      "master": "ruler-caregiver/v2/master.png",
+      "prompt": "ruler-caregiver/v2/prompt.md",
+      "initialPrompt": "ruler-caregiver/v1/prompt.md",
+      "readiness": "ruler-caregiver/v2/readiness.md",
+      "provenance": "ruler-caregiver/v2/provenance.json",
+      "measurements": "ruler-caregiver/v2/measurements.json",
+      "ownerReview": "ruler-caregiver/v2/review.md",
+      "rootReview": "ruler-caregiver/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        760,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1009,
+        "cy": 647,
+        "w": 205,
+        "angle": -6.16
+      },
+      "glass": {
+        "x": 1201,
+        "y": 459
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1071,
+          "y0": 377,
+          "x1": 1331,
+          "y1": 760
+        },
+        "paper": {
+          "x0": 880,
+          "y0": 584,
+          "x1": 1172,
+          "y1": 704
+        }
+      },
+      "personalityBounds": {
+        "pulledUpChair": {
+          "x0": 914,
+          "y0": 273,
+          "x1": 1245,
+          "y1": 615
+        },
+        "drapedCardigan": {
+          "x0": 825,
+          "y0": 264,
+          "x1": 1088,
+          "y1": 656
+        }
+      },
+      "recognitionRegions": {
+        "pulledUpChairBackAndSeat": {
+          "x0": 923,
+          "y0": 279,
+          "x1": 1245,
+          "y1": 611
+        },
+        "drapedCardigan": {
+          "x0": 825,
+          "y0": 264,
+          "x1": 1088,
+          "y1": 656
+        }
+      },
+      "missingEssentialTraces": [],
+      "glassHeight": 383,
+      "fullGroupWidth": 506,
+      "recognitionGroupWidth": 506,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "missingRecognitionRegions": [],
+      "rootVisualState": "HOLD-composition; material/appearance/personality-specificity-watch; name-fit-unverified",
+      "rootVisualSummary": "Finished clear amber-red cognac/vermouth/mandarin stemmed drink, internal mandarin-coloured peel and no ice/foam, rather than old empty waiting-glass concept. Pulled-up chair explicit; draped olive cardigan inferred listening/comfort.383px glass/full506px group remain too broad for estimated moving phone; full702px portrait retains scene.205px clean tag axis achieves intent, but actual names untested. Tag is tied separate, one lower corner resting on wood. Flatter walnut/no fireplace flame improves world; warm sheen/fine table detail and generic comfort-reading remain watches."
+    },
+    {
+      "folder": "regular-guy-hero/v2",
+      "pairing": "regular-guy-hero",
+      "pour": "I'll Do It",
+      "sourceSha256": "8a8eedf0ee37331860d256c7dee3f0aa2973c5db5678743990c2c4654f9d45b0",
+      "specSha256": "cebe74543ccf70a553696fa2bc7ad3192923c2bfd3c77c8201b20c3aa3b92b25",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "c2162f0605984429301bba4c22a50d78909a71a553f6551f2866f04441041150",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-8583b62c-cdef-459a-925f-42d8d551a1c1.png",
+      "generatedSourceMatches": true,
+      "master": "regular-guy-hero/v2/master.png",
+      "prompt": "regular-guy-hero/v2/prompt.txt",
+      "initialPrompt": "regular-guy-hero/v1/prompt.txt",
+      "readiness": "regular-guy-hero/v2/readiness.md",
+      "provenance": "regular-guy-hero/v2/provenance.json",
+      "measurements": "regular-guy-hero/v2/measurements.json",
+      "ownerReview": "regular-guy-hero/v2/private-review.md",
+      "rootReview": "regular-guy-hero/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        778,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1372,
+        "cy": 594,
+        "w": 156,
+        "angle": 24
+      },
+      "glass": {
+        "x": 1114,
+        "y": 573
+      },
+      "bounds": {
+        "glass": {
+          "x0": 983,
+          "y0": 426,
+          "x1": 1246,
+          "y1": 719
+        },
+        "paper": {
+          "x0": 1243,
+          "y0": 500,
+          "x1": 1449,
+          "y1": 681
+        },
+        "usedGloves": {
+          "x0": 798,
+          "y0": 395,
+          "x1": 1248,
+          "y1": 645
+        },
+        "newGloves": {
+          "x0": 1057,
+          "y0": 347,
+          "x1": 1457,
+          "y1": 565
+        }
+      },
+      "recognitionRegions": {
+        "usedGloves": {
+          "bounds": {
+            "x0": 800,
+            "y0": 434,
+            "x1": 1004,
+            "y1": 642
+          },
+          "reason": "Worn dark whole recognizable finger/palm section and continuation into cuff; not an anonymous edge."
+        },
+        "newGloves": {
+          "bounds": {
+            "x0": 1080,
+            "y0": 347,
+            "x1": 1457,
+            "y1": 565
+          },
+          "reason": "New string-bundled adult glove pair with folded cuffs and thumb contour; requires substantially whole bundle, not tiny cream cloth sliver. Hidden fingers retain recognition watch."
+        }
+      },
+      "missingEssentialTraces": [],
+      "glassHeight": 293,
+      "fullGroupWidth": 659,
+      "recognitionGroupWidth": 657,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "missingRecognitionRegions": [],
+      "rootVisualState": "HOLD-composition; HOLD-material; glove-recognition-watch; name-fit-unverified",
+      "rootVisualSummary": "Reddish-amber rocks Manhattan, one cube, dropped orange/no foam and free hanging tag. Contrasting used/new gloves come from source help-with-job habit; cream bundle fingers are hidden and could read folded cloth, recognition watch.293px glass meets height goal, but659px full/657px recognition group and466px glass/paper exceed estimated moving phone.156px writing axis below intent. Uniform glove dirt, sparkling granular ice and patterned glossy amber timber held.702px portrait retains declared objects, not phone proof."
+    },
+    {
+      "folder": "ruler-sage/v2",
+      "pairing": "ruler-sage",
+      "pour": "Either Way",
+      "sourceSha256": "4de73d5095393231e20e0ccac3a6bcd69f6f61c771fb4d69a6064e76e6dc609f",
+      "specSha256": "c0050505176646a233e63e56a4decd104ae44f5c2ef81e3d720e8bd3491e1424",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "eb2e8f4677a60a50c7c968bc192af6cb25da3cfdc4aafe6f9bf8874a8c73a9c1",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-88e144f4-be5a-409e-a690-95161d43aaf2.png",
+      "generatedSourceMatches": true,
+      "master": "ruler-sage/v2/master.png",
+      "prompt": "ruler-sage/v2/prompt.txt",
+      "initialPrompt": "ruler-sage/v1/prompt.txt",
+      "readiness": "ruler-sage/v2/readiness.md",
+      "provenance": "ruler-sage/v2/provenance.json",
+      "measurements": "ruler-sage/v2/measurements.json",
+      "ownerReview": "ruler-sage/v2/private-review.md",
+      "rootReview": "ruler-sage/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        855,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1433,
+        "cy": 562,
+        "w": 146,
+        "angle": 73
+      },
+      "glass": {
+        "x": 1247,
+        "y": 531
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1114,
+          "y0": 373,
+          "x1": 1381,
+          "y1": 691
+        },
+        "paper": {
+          "x0": 1365,
+          "y0": 453,
+          "x1": 1493,
+          "y1": 647
+        },
+        "phone": {
+          "x0": 890,
+          "y0": 546,
+          "x1": 1128,
+          "y1": 630
+        },
+        "spectacles": {
+          "x0": 939,
+          "y0": 491,
+          "x1": 1121,
+          "y1": 583
+        }
+      },
+      "recognitionRegions": {
+        "phone": {
+          "bounds": {
+            "x0": 893,
+            "y0": 547,
+            "x1": 1118,
+            "y1": 629
+          },
+          "reason": "Substantial screen-down phone back plus rounded lower/port edge, not isolated dark strip. Right portion concealed by vessel."
+        },
+        "spectacles": {
+          "bounds": {
+            "x0": 940,
+            "y0": 492,
+            "x1": 1118,
+            "y1": 582
+          },
+          "reason": "Whole left lens, bridge, substantial upper/right lens arc and folded temple shape recognize glasses together; right lens partly concealed, explicit recognition watch rather than using tiny isolated rim."
+        }
+      },
+      "missingEssentialTraces": [],
+      "glassHeight": 318,
+      "fullGroupWidth": 603,
+      "recognitionGroupWidth": 600,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "missingRecognitionRegions": [],
+      "rootVisualState": "HOLD-composition/tag-size; HOLD-material; personality-specificity/recognition-watch; name-fit-unverified",
+      "rootVisualSummary": "Built clear brown-amber Scotch/malt-syrup rocks with several fresh cubes and dropped orange/no foam. Screen-down phone and folded spectacles infer repeated calls/considerate review, generic specificity and partly occluded glasses watch.318px glass fits height aim but603px full/600px recognition group,379px glass/paper offers minimal motion margin.146px clean tag at73° below intent. Sparkling crystalline ice and glossy patterned amber timber held. Full702px portrait retains extents, not phone clearance."
+    },
+    {
+      "folder": "magician-explorer/v2",
+      "pairing": "magician-explorer",
+      "pour": "One More Adjustment",
+      "sourceSha256": "c4738116a08e3c86fba9dc4c1b6884298e4bfa45f2dd75836aa40c463fd85f34",
+      "specSha256": "f171ba936d57ac7df4a7c386da9e9d472e802c1dcd80e069195894341be1729d",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "7db7095fe2561601c79f317ec709516d741ffb328f95b3a3dc81a50cf5db78ef",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1602,
+        "height": 981
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-a870fb6f-4c6b-474e-b71d-44ee43b5052d.png",
+      "generatedSourceMatches": true,
+      "master": "magician-explorer/v2/master.png",
+      "prompt": "magician-explorer/v2/prompt.txt",
+      "initialPrompt": "magician-explorer/v1/prompt.txt",
+      "readiness": "magician-explorer/v2/readiness.md",
+      "provenance": "magician-explorer/v2/provenance.json",
+      "measurements": "magician-explorer/v2/measurements.json",
+      "ownerReview": "magician-explorer/v2/master-review.md",
+      "rootReview": "magician-explorer/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        40,
+        1600,
+        900
+      ],
+      "portraitCrop": [
+        730,
+        20,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1218,
+        "cy": 494,
+        "w": 140,
+        "angle": 15.7
+      },
+      "glass": {
+        "x": 1033,
+        "y": 385
+      },
+      "bounds": {
+        "glass": {
+          "x0": 925,
+          "y0": 321,
+          "x1": 1141,
+          "y1": 642
+        },
+        "paper": {
+          "x0": 1106,
+          "y0": 433,
+          "x1": 1306,
+          "y1": 562
+        }
+      },
+      "personalityBounds": {
+        "handPlane": {
+          "x0": 842,
+          "y0": 434,
+          "x1": 1027,
+          "y1": 608
+        },
+        "sandingBlock": {
+          "x0": 1042,
+          "y0": 523,
+          "x1": 1210,
+          "y1": 608
+        }
+      },
+      "recognitionRegions": {
+        "handPlane": {
+          "x0": 842,
+          "y0": 434,
+          "x1": 1027,
+          "y1": 608
+        },
+        "sandingBlock": {
+          "x0": 1042,
+          "y0": 523,
+          "x1": 1210,
+          "y1": 608
+        }
+      },
+      "missingEssentialTraces": [],
+      "glassHeight": 321,
+      "fullGroupWidth": 464,
+      "recognitionGroupWidth": 464,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "missingRecognitionRegions": [],
+      "rootVisualState": "HOLD-composition; material/appearance-watch; name-fit-unverified",
+      "rootVisualSummary": "Clear pale straw stirred coupe with yellow lemon inside/no serving ice or foam. Recognizable hand plane and separate sanding block infer the expressly adjusted shelf.321px glass fits height goal;464px complete/recognition group still exceeds estimated moving phone,140px tag below intent. Actual1602×981 PNG is not16:9;1600×900 proposed wide crop at[0,40] preserves scene. Warm glossy timber/scuffed tools and chill speckle remain watch/hold. No JPEG or motion claim."
+    },
+    {
+      "folder": "ruler-lover/v2",
+      "pairing": "ruler-lover",
+      "pour": "Up Close",
+      "sourceSha256": "fe5194fb05d02ad4bf9e556a73a6cdd96227ba291200b8a710244fc4fa03911b",
+      "specSha256": "773f6ac218274be51adcb82d3e9a10a7304fee047034f65270d414816151f436",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "516fa94cdc13351a942640feb7c2006baf79e71081304ef675d0df7690df00d1",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-8f3fa715-a9a6-43bd-ba3c-386ee954436d.png",
+      "generatedSourceMatches": true,
+      "master": "ruler-lover/v2/master.png",
+      "prompt": "ruler-lover/v2/prompt.txt",
+      "initialPrompt": "ruler-lover/v1/prompt.txt",
+      "readiness": "ruler-lover/v2/readiness.md",
+      "provenance": "ruler-lover/v2/provenance.json",
+      "measurements": "ruler-lover/v2/measurements.json",
+      "ownerReview": "ruler-lover/v2/master-review.md",
+      "rootReview": "ruler-lover/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        780,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1347,
+        "cy": 600,
+        "w": 188,
+        "angle": 3.5
+      },
+      "glass": {
+        "x": 1097,
+        "y": 391
+      },
+      "bounds": {
+        "glass": {
+          "x0": 984,
+          "y0": 313,
+          "x1": 1210,
+          "y1": 672
+        },
+        "paper": {
+          "x0": 1214,
+          "y0": 548,
+          "x1": 1461,
+          "y1": 652
+        }
+      },
+      "personalityBounds": {
+        "keptLetterEnvelope": {
+          "x0": 857,
+          "y0": 519,
+          "x1": 1155,
+          "y1": 628
+        },
+        "savedPhotographPhysical": {
+          "x0": 805,
+          "y0": 572,
+          "x1": 1110,
+          "y1": 645
+        }
+      },
+      "recognitionRegions": {
+        "keptLetterEnvelope": {
+          "x0": 857,
+          "y0": 519,
+          "x1": 1155,
+          "y1": 628
+        },
+        "savedPhotograph": null
+      },
+      "missingEssentialTraces": [],
+      "glassHeight": 359,
+      "fullGroupWidth": 656,
+      "recognitionGroupWidth": 604,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "missingRecognitionRegions": [
+        "savedPhotograph"
+      ],
+      "rootVisualState": "HOLD-source-flame-contradiction; HOLD-second-trace-recognition/composition/material; name-fit-unverified",
+      "rootVisualSummary": "Nearly clear reddish-amber small stemmed Manhattan, no ice or foam; internal lemon upper strip pale yellow with amber lower cast, appearance watch. Remembering returning people motivates kept correspondence and face-down photograph inferences, not literal source possessions. Envelope recognisable; anonymous scalloped photo reverse insufficient, second recognition explicitly null.359px glass/full656px physical group remains broad;188px tag matches intent, real names untested. Edit introduced fireplace flame contrary to dossier and competing light; glossy timber/bowl speckle held.702px portrait retains physical objects, not phone proof."
+    },
+    {
+      "folder": "outlaw-ruler/v2",
+      "pairing": "outlaw-ruler",
+      "pour": "Before It Had a Name",
+      "sourceSha256": "b623ba714273fde06e42f864554e064be9d7339cf8f5b0949f88a390e92d4ac8",
+      "specSha256": "777256ea19c93ae1ab2cce4281dfdb0ef6b38e09c85d851dd94494a7458b4ba1",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "9b0c397c0712adf22d5f7e0e0a1224559a498470c5840f9beff41cde3f8b8c2c",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-b4b4e7d2-4def-4dc3-aa81-0fa076be41e5.png",
+      "generatedSourceMatches": true,
+      "master": "outlaw-ruler/v2/master.png",
+      "prompt": "outlaw-ruler/v2/prompt.txt",
+      "initialPrompt": "outlaw-ruler/v1/prompt.txt",
+      "readiness": "outlaw-ruler/v2/readiness.md",
+      "provenance": "outlaw-ruler/v2/provenance.md",
+      "measurements": "outlaw-ruler/v2/measurements.json",
+      "ownerReview": "outlaw-ruler/v2/review.md",
+      "rootReview": "outlaw-ruler/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        737,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1133,
+        "cy": 650,
+        "w": 115,
+        "angle": 16
+      },
+      "glass": {
+        "x": 1026,
+        "y": 565
+      },
+      "bounds": {
+        "glass": {
+          "x0": 907,
+          "y0": 448,
+          "x1": 1148,
+          "y1": 780
+        },
+        "paper": {
+          "x0": 1045,
+          "y0": 599,
+          "x1": 1196,
+          "y1": 692
+        },
+        "garnish": {
+          "x0": 1051,
+          "y0": 437,
+          "x1": 1188,
+          "y1": 481
+        }
+      },
+      "personalityBounds": {
+        "microscope": {
+          "x0": 959,
+          "y0": 180,
+          "x1": 1270,
+          "y1": 717
+        },
+        "workshopKeyring": {
+          "x0": 1107,
+          "y0": 678,
+          "x1": 1245,
+          "y1": 761
+        }
+      },
+      "recognitionRegions": {
+        "microscopeEyepiecesTurretStage": {
+          "x0": 974,
+          "y0": 180,
+          "x1": 1240,
+          "y1": 505
+        },
+        "bothKeysAndRing": {
+          "x0": 1107,
+          "y0": 678,
+          "x1": 1245,
+          "y1": 761
+        }
+      },
+      "missingEssentialTraces": [],
+      "glassHeight": 332,
+      "fullGroupWidth": 363,
+      "recognitionGroupWidth": 338,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "missingRecognitionRegions": [],
+      "rootVisualState": "HOLD-tag-size; HOLD-material/lighting; composition-motion-unverified; name-fit-unverified",
+      "rootVisualSummary": "Cloudy amber-gold quince/rye coupe, orange peel rim, no ice or foam head. Full connected microscope explicitly sourced; whole workshop keys ordinary private-project inference. Functional metal allowed.332px glass/full363px group and338px recognition are compactness improvements; tall microscope top180/foot780 need motion/ultrawide review, not assumed failure.115px writable tag insufficient to claim name fit. Glossy warm timber and cool left-window second-source lighting held/watch."
+    },
+    {
+      "folder": "regular-guy-caregiver/v2",
+      "pairing": "regular-guy-caregiver",
+      "pour": "Whoever Comes In",
+      "sourceSha256": "e7d3bc1250a8854124f16a852d3a39c605d3eeca0d09564bb15b60772bb6c987",
+      "specSha256": "c757dff27db3fdde51629aef88e655f1ae7f59c6c24e9f1a14e63d770623c484",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "masterSha256": "bf626e0c8a45e317a0a2a2a032cc14b17c160730ceafb12e481e5142a9c30d41",
+      "provenanceHashMatches": true,
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "declaredDimensionsAgree": true,
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-851bf2ee-860e-4c36-a3f6-4058620ed6e7.png",
+      "generatedSourceMatches": true,
+      "master": "regular-guy-caregiver/v2/master.png",
+      "prompt": "regular-guy-caregiver/v2/prompt.txt",
+      "initialPrompt": "regular-guy-caregiver/v1/prompt.txt",
+      "readiness": "regular-guy-caregiver/v2/readiness.md",
+      "provenance": "regular-guy-caregiver/v2/provenance.md",
+      "measurements": "regular-guy-caregiver/v2/measurements.json",
+      "ownerReview": "regular-guy-caregiver/v2/review.md",
+      "rootReview": "regular-guy-caregiver/v2/root-master-review.md",
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        669,
+        0,
+        702,
+        940
+      ],
+      "tag": {
+        "cx": 1187,
+        "cy": 559,
+        "w": 190,
+        "angle": 7.5
+      },
+      "glass": {
+        "x": 979,
+        "y": 466
+      },
+      "bounds": {
+        "glass": {
+          "x0": 837,
+          "y0": 311,
+          "x1": 1122,
+          "y1": 727
+        },
+        "paper": {
+          "x0": 1026,
+          "y0": 479,
+          "x1": 1298,
+          "y1": 614
+        }
+      },
+      "personalityBounds": {
+        "emptyEspressoCupAndSaucer": {
+          "x0": 741,
+          "y0": 479,
+          "x1": 1013,
+          "y1": 647
+        },
+        "twoCoins": {
+          "x0": 768,
+          "y0": 638,
+          "x1": 899,
+          "y1": 677
+        }
+      },
+      "recognitionRegions": {
+        "emptyInteriorHandleCupBody": {
+          "x0": 749,
+          "y0": 479,
+          "x1": 959,
+          "y1": 615
+        },
+        "bothWholeCoins": {
+          "x0": 768,
+          "y0": 638,
+          "x1": 899,
+          "y1": 677
+        }
+      },
+      "missingEssentialTraces": [],
+      "glassHeight": 416,
+      "fullGroupWidth": 557,
+      "recognitionGroupWidth": 549,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tagAxisInside": true,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "jpegDimensionsVerified": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "missingRecognitionRegions": [],
+      "rootVisualState": "HOLD-composition/material; coffee-residue/coin-engraving-watch; name-fit-unverified",
+      "rootVisualSummary": "Dark-brown brandy/espresso chilled coupe with thin immediate coffee aeration, no serving ice/garnish/cream. Explicit empty consumed cup and two paid-ahead coins readable as real traces; pale open cup interior has residue, no liquid surface or second finished drink.416px glass/full557px/recognition549px group and461px glass/paper remain oversized for moving phone.190px tag meets writing intent, names untested. Glossy crossing/grain-heavy warm table, exaggerated cup exterior stains, coin pseudo-engraving and fine bowl speckle held/watch.702px portrait retains measured scene, not browser proof."
+    }
+  ]
+}

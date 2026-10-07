@@ -11,7 +11,12 @@ SPEC.json:
    "serves": 1, "melt": null,                             # bowl: fraction of extra water from the ice block (default 0.15)
    "ingredients": [{"key": "scotch_blended", "ml": 60}, {"key": "orange_bitters", "dashes": 2},
                    {"key": "sugar", "g": 127}, {"key": "sugar_cube", "count": 1}],
-   "garnish": ["lemon_peel", "sage_leaf"]}
+   "garnish": ["lemon_peel", "sage_leaf"],
+   "accepted": {"checks": ["finished sugar"], "by": "Robin 2026-10-06", "why": "a dry Martini: no sugar by design"}}
+                                                          # optional: OUT readings Robin accepted by structure
+
+An "accepted" check that reads OUT is reported as BY STRUCTURE (with who accepted it and why) and doesn't fail
+the verdict. It's never hidden: the number and range still print. Only Robin accepts (STUDIO-RULES check 2).
 
 Values come from data/ingredients.json (each with its source); ranges and formulas from data/styles.json.
 A line marked "stage": "top" (soda, tonic, sparkling wine poured last) is added after the base is diluted.
@@ -97,7 +102,7 @@ def analyse(spec):
             f = cfg["styles"][s].get("finished")
             if not f:
                 return 1e9
-            return sum(abs(fin[m] - (f[m][0] + f[m][1]) / 2) / max(f[m][1] - f[m][0], 0.5) for m in ("abv", "sugar", "acid"))
+            return sum(abs(fin[m] - (f[m][0] + f[m][1]) / 2) / max(f[m][1] - f[m][0], 0.5) for m in ("abv", "sugar", "acid") if m in f)
         res["nearest_styles"] = sorted((s for s in cfg["styles"] if s != "freeform"), key=dist)[:3]
         res["ok"] = True
         res["freeform"] = True
@@ -115,6 +120,12 @@ def analyse(spec):
     if "expected" in sd["dilution"]:
         res["checks"]["dilution"] = {"value": round(dil * 100, 1), "range": [x * 100 for x in sd["dilution"]["expected"]],
                                      "verdict": verdict(dil, sd["dilution"]["expected"], margin)}
+    acc = spec.get("accepted") or {}
+    for name in acc.get("checks", []):
+        if name in res["checks"] and res["checks"][name]["verdict"] == "OUT":
+            res["checks"][name]["verdict"] = "accepted"
+    if any(c["verdict"] == "accepted" for c in res["checks"].values()):
+        res["accepted"] = {"by": acc.get("by", ""), "why": acc.get("why", "")}
     res["ok"] = all(c["verdict"] != "OUT" for c in res["checks"].values())
     return res
 
@@ -129,13 +140,17 @@ def report(r):
                r["base_after_dilution"]["acid"], r["topped_ml"]) if "base_after_dilution" in r else "") +
            "final:   %.1f%% ABV | %.2f g sugar/100 ml | %.3f%% acid" % (r["final"]["abv"], r["final"]["sugar"], r["final"]["acid"]), ""]
     for k, c in r["checks"].items():
-        mark = {"in range": "ok  ", "edge": "EDGE", "OUT": "OUT "}[c["verdict"]]
+        mark = {"in range": "ok  ", "edge": "EDGE", "OUT": "OUT ", "accepted": "BY STRUCTURE"}[c["verdict"]]
         out.append("  %s %-16s %7.2f   range %s-%s" % (mark, k, c["value"], c["range"][0], c["range"][1]))
     out.append("")
     if r.get("freeform"):
         out.append("VERDICT: freeform - no ranges applied; nearest styles: %s. Justify the balance in Checks." % ", ".join(r["nearest_styles"]))
     else:
-        out.append("VERDICT: %s" % ("balanced (edges must be justified in the dossier)" if r["ok"] else "OUT OF RANGE - redesign or justify"))
+        if r["ok"] and r.get("accepted"):
+            out.append("VERDICT: balanced by structure - OUT readings accepted (%s: %s); edges must be justified in the dossier"
+                       % (r["accepted"]["by"], r["accepted"]["why"]))
+        else:
+            out.append("VERDICT: %s" % ("balanced (edges must be justified in the dossier)" if r["ok"] else "OUT OF RANGE - redesign or justify"))
     if r["unsourced"]:
         out.append("unsourced values used: " + ", ".join(r["unsourced"]))
     for n in r["notes"]:

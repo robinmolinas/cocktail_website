@@ -1,0 +1,5 @@
+# Up Close — sole focused correction
+
+Complete current dossier and spec reread immediately before call; unchanged physical serve/source. Dossier SHA256 fe5194fb05d02ad4bf9e556a73a6cdd96227ba291200b8a710244fc4fa03911b; spec773f6ac218274be51adcb82d3e9a10a7304fee047034f65270d414816151f436. Original-size v1 inspected and measured1672×940. Source/core/skill/control reads are documented in v1 readiness.
+
+V1 is too close and laterally spread, printed photograph faces upward and tag rests on table. This sole focused framing/person-object edit pulls camera back, overlaps envelope/photo behind stem, flips snapshot reverse, suspends tag. Pale-yellow lemon-in drink and nearly clear faint-haze reddish-amber still serve are invariant; no orange peel/ice/pulp/foam. No recipe/editorial change. Kept envelope and snapshot are source-grounded ordinary habit inferences from remembering returning people, not explicit source objects. Candid geometry/material/recognition misses must be retained; no more edits, exports or acceptance.

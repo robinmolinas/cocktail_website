@@ -1,0 +1,24 @@
+{
+ "pairing": "sage-innocent",
+ "personality": "The Prodigy",
+ "archetypes": "Sage × Innocent",
+ "date": "2026-10-02",
+ "batch": "sage",
+ "name": "Are You Quite Sure?",
+ "tagline": "You got there first. You're still glad you did.",
+ "epigraph": "A Sidecar without its lemon. The sour comes from the grape itself.",
+ "glassware": "coupe (about 220 ml), chilled, no ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v3.md",
+ "card": "pasteur-biot-racemic-acid-1848.md",
+ "language_row": "Wren's checks on v3: title block, whoYouAre and yours swap-tested against the family (in her turns); history share in yours 250 of 503 words (49.7%); lint 0 errors, 5 warnings (gendered pronouns in yours 1–5, Louis Pasteur, a historical person, accepted by Wren in r4). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/pasteur-biot-racemic-acid-1848.md`. René Vallery-Radot, *The Life of Pasteur*, tr. Mrs R. L. Devonshire (Doubleday, Page, 1920 printing; Project Gutenberg #60956), ch. II–III: secondary, period, by Pasteur's son-in-law; the Biot scene rests on Pasteur's own memory (\"as Pasteur told it\"). *The Cocktail Codex* p. 187 (verjus) and p. 195 (tartaric acid); *Liquid Intelligence* sour ranges. Web: Hester's library-first visits for the Gutenberg text.",
+ "names_note": "Split 1–1–1 in round 4: *Are You Quite Sure?* (Wren), *Nothing Escaped You* (Tomás), *Before Your Eyes* (Hester). Wren and Tomás each wrote \"I could take *Before Your Eyes*\" (Hester wrote she could take *Are You Quite Sure?* in r3). Also considered: *Both Hands*, *Let Them Check*. The pour carries Wren's title-block name until Robin picks. Picks were held until the vote.",
+ "open_items": [
+  "Name split 1–1–1, for Robin's pick (see Names considered).",
+  "Balance: balance.py reads the drink OUT on every stirred range (finished 15.9% / 6.26 g / 0.757%, dilution 35.8%). Tomás moved the spec to freeform with the stirring melt declared as a water line and judges it by hand against Arnold's shaken-sour ranges: strength and sugar in, acid an edge on the floor (0.757 vs 0.76). Kept by choice (r4 step 1).",
+  "Verjus acid (2.5%) and sugar (6 g) are unsourced standard values; the drink is proven only for a verjus of about 2.5–3.1% acid, and a softer bottle lands under the sour floor (fallback in Sweeps, out of guest text).",
+  "The colour (\"almost colourless, faint pale-straw\") is Tomás's estimate, unsourced."
+ ]
+}

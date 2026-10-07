@@ -6,6 +6,22 @@
 
 ---
 
+## Start here (session handoff — updated 2026-10-06)
+
+Robin is continuing Dionysus in three parallel tracks: experience design, cocktail collection review, and questionnaire matching. The [continuation plan](../2026-10-06-parallel-work-plan.md) records the full scope, settled choices, first deliverables, dependencies, file ownership, BMAD source map and conversation briefs. This is planned work; no new implementation or cocktail approval is implied.
+
+Continue the existing WDS propose → build → browser verification → log rhythm through focused product-evolution cycles. Read the existing brief, trigger map and scenarios. The active reveal is `TheReading.tsx`; historical Surfacing/white-bloom entries below are not the current build target. Preserve the later dark-to-dark direction, native video playback and the current image production rules.
+
+Design choices from Robin: H4 needs clearer practice and a premium Ready/Set/Go launch; remove its noninteractive history bubbles; replace the final H1 lens with **Another side of me**, retaining the entered name; keep share/save only at the bottom of the reading. H5 attraction gameplay, typography, smoother arrivals, mobile controls, background music and flavour icons need focused exploration/verification.
+
+The backend architecture is already finalized in `agent/ARCHITECTURE-SPINE.md` (2026-09-23). Its pending handoff is a `bmad-spec` refresh, not a fresh architecture phase. Preserve deterministic top-three eligible pairings followed by the Bartender's bounded choice, unchanged authored recipes/copy fallback, veto filtering, no zero-proof at launch, trace/name privacy and the shared-core seams. Reconcile the later removal of the vessel question and specify H4 timing/status before implementation. The current app still reveals a fixed pilot; coverage and integration remain work to do.
+
+Content proceeds through the existing Pour Studio review desk and Wren/Hester/Tomás reworks. All 132 pours are authored; 112 are draft, 16 flagged and 4 approved at this handoff. Preserve Robin's workbook and tagline annotations. Final images follow settled pours; natural functional metal is allowed while the environment remains predominantly dark timber, glass, paper and linen.
+
+The three tracks can audit/prototype in parallel. Shared answer meanings require a design/matching handoff; one writer owns shared UI files at a time. Carry decisions back into the existing source artifacts and record concrete checks and honest task status. The older handoffs below are dated history; later explicit decisions take precedence.
+
+---
+
 ## Start here (session handoff — updated 2026-07-09)
 
 **The Surfacing had a feel-pass** on top of the 2026-07-08 build, after Robin reviewed it live against the two real images. Seven notes, all addressed — see the 2026-07-09 log entry for the full detail. Highlights: the reveal is now **fully autoplay** (no click required — supersedes the reveal spec's "advance is strictly user-initiated" line for this beat specifically, Robin's explicit call in this session); the persona image is now a **spotlight composite** (sharp glass, softly blurred/darkened surround) rather than shown flat/full; the white-to-image condense carries a seed-coloured ember on its collapsing edge; the keepsake got section labels ("The Pour" / "The Ritual" / "The Reading") and a numbered ritual list. `TheSurfacing.tsx` and the surfacing block in `index.css` are the files to read for current behaviour — the 2026-07-08 entry below describes the superseded first-pass version.
@@ -48,8 +64,9 @@
 
 | Task | Started | Agent |
 |------|---------|-------|
-| The Surfacing — implementation plan + build (spec approved 2026-07-07) | 2026-07-07 | Claude Code |
-| Architecture phase (BMAD create-architecture) — next, per master spec §9 | pending | — |
+| Experience evolution — H4 clarity, H5 concepts, typography/mobile and reading actions | in progress 2026-10-06 — EXP-01…07 built; P-H4, P-H5, P-TYPE awaiting Robin ([brief](../evolution/analysis/2026-10-06-experience-evolution-brief.md)) | WDS / Freya |
+| Pipeline spec refresh, then matching audit and authored-catalogue integration | pending; architecture finalized 2026-09-23 | BMAD spec / matching owner |
+| Cocktail decision pack, corpus/voice review, then images for settled pours | planned 2026-10-06 | Pour Studio / review owner |
 
 **Rules:** Mark what you start. Complete it when done (move to Log). One task at a time per agent.
 
@@ -83,6 +100,19 @@
 | 01-celestes-descent | all | Front-end craft pass (a11y, mobile, copy, ending, 404 rebalance) | built | 2026-07-25 |
 | 03-edwards-audit | 3.1 | The Velvet Rope (degrade state, <320×440) | built | 2026-07-25 |
 | 01-celestes-descent | all | Coherence revamp (one grammar; H4 on-ramp; H5 in spheres; H7 frequency cut) | built | 2026-09-18 |
+| 01-celestes-descent | 1.5 | H4 history dots removed; blind-tap guard; hidden-tab replay (EXP-01/04/05) | built | 2026-10-06 |
+| 01-celestes-descent | 1.2 | H1 lens "Another side of me" (EXP-02) | built | 2026-10-06 |
+| 01-celestes-descent | 1.10–1.11 | H10 share/save bottom only (EXP-03) | built | 2026-10-06 |
+| 01-celestes-descent | 1.5 | H4 clear practice + Ready · Set · Go (P-H4) | explored | 2026-10-06 |
+| 01-celestes-descent | 1.6 | H5 two directions — A figure / B two rounds (P-H5) | explored | 2026-10-06 |
+| 01-celestes-descent | all | Type directions + flavour icons (P-TYPE) | explored | 2026-10-06 |
+| 01-celestes-descent | all | Type: keep Playfair system (alternatives declined) | approved | 2026-10-06 |
+| 01-celestes-descent | 1.7 | H6 flavour icons (icon above word) | built | 2026-10-06 |
+| 01-celestes-descent | 1.5 | H4 v2 — centred line, unlabelled rehearsal, breath count-in | explored | 2026-10-06 |
+| 01-celestes-descent | 1.5 | H4 v3 — line + "Word 1/Word 2" examples, the rise is the start | superseded by v4 | 2026-10-06 |
+| 01-celestes-descent | 1.5 | H4 v4 — instruction + one short line read in the true middle, both rise, first timed pair is "1 / 2" (larger numerals) | built in app (Robin: "perfect") | 2026-10-06 |
+| 01-celestes-descent | 1.6 | H5 "Surface Tension" (drop reaches out / takes in) | explored | 2026-10-06 |
+| 01-celestes-descent | 1.6 | H5 "A world of your own" (rounds swapped: gathers in, then reaches out; tap + carry) | built in app (Robin: "I love it") | 2026-10-06 |
 
 **Status values:** `discussed` → `wireframed` → `specified` → `explored` → `building` → `built` → `approved` | `removed`
 
@@ -93,6 +123,191 @@
 ---
 
 ## Log
+
+### 2026-10-06 (late) — H4 → H5 night slowed; H5 → H6 hand-over: "she becomes the drink"
+
+**Robin:** the screen went dark too quickly from H4 to H5, and the H5 to H6 transition "has not been worked on… make it world class".
+
+**H4 → H5:** both night veils now share one `NIGHTFALL` transition (5.5s, `cubic-bezier(0.45, 0, 0.35, 1)`) across `ascend4` and `resonance`, so it never restarts on arrival. Measured on the H5 veil at 0.5s steps: 0 → 0.03 → 0.18 → 0.37 → 0.56 → 0.83 → 0.91 → 1.0, where the old 2.4s fade was dark almost at once. Her bubble now forms 700ms in, while the night is still settling.
+
+**H5 → H6** (`ResonanceWorld.tsx`):
+- **One thesis:** she becomes the drink, in three movements.
+  1. **Gather** (0–~2.3s): the rings unwind home and the ringed words fall into her. Integration: what she is and what she wants become one body.
+  2. **Condense** (~1.1s): the bubble draws in to a dense, bright drop of her colour, and the words written inside her dissolve into its light.
+  3. **Release:** her skin lets go with one soft spread of her light. She rises as fine effervescence (rings of her light, buoyant, wobbling, popping), and `onDone` starts the camera rise at that same moment.
+- The H5 night lifts slowly (3.4s) as she lets go. Her fizz climbs on through the H6 arrival and dissolves under the question, as H6's own risers do. H6's flavours rise through it.
+- TheDepths keeps the world mounted into `finish` (`resAfterglow`) until `onGone` (last bubble, with a 9s safety). Leaving H5 now fades only the hold's words, never the canvases.
+- **Still Water:** no plume, no spatial condense; she fades in place.
+
+**Verified:**
+- Full journeys at 1440×900 and 390×844 reached H10 with no console errors, and H6 is fully interactive.
+- The world unmounted by about 6–11s after the last Continue.
+- Hand-over frames: `evolution/prototypes/h5-world/hand-*.png`.
+
+### 2026-10-06 (night) — H5 "A world of your own" built; H4 → H5 hand-over smoothed
+
+**Robin:** "I love it"; keep the bubble clean (no inner top-left arc); "include H5 and make sure the transition from H4 to H5 is smooth".
+- **Order:** his own, soughtFor first.
+- **Carry:** kept, since the prototype he approved had it on.
+- **Q12:** still 9 words (ticket 1.9 will move round 2 to the 12-word list).
+
+**Built:**
+- **`src/components/ResonanceWorld.tsx`** is the H5 hold as a self-contained imperative engine (two canvases plus DOM spheres), ported from the prototype.
+- **`TheDepths.tsx`:**
+  - `RES_QUESTIONS` now asks soughtFor first.
+  - The rev 4 sphere cluster, its state (resQ, maxResQ, resChosen, resSealing, resSealT0), toggleGlint, sealResonance, revertResonance and H5's DepthDots are removed.
+  - The world mounts for `resonance` and `ascend5`, saves each round on Continue through `onUpdate`, and fades out while the camera rises to H6 instead of vanishing.
+  - The old cluster's back-dots are gone: round 1's words stay written inside her through round 2 instead.
+- **CSS:** `.rw*` in `index.css`.
+- **DESIGN.md:** the one-drag rule now names H5's carry as the second sanctioned drag, and the Sphere section describes `.rw`.
+
+**H4 → H5 hand-over:**
+- H4's dusk now lives outside the hold, so it eases away during the rise instead of popping off with the hold.
+- Both night veils start falling during `ascend4` (2.4s), so the camera move and the darkening are one gesture.
+- Her bubble then forms in the dark at the citrus hold. The video playback rule is untouched: native 1×, true freeze.
+
+**Verified:**
+- Full journeys H1 → H10 at 1440×900 and 390×844, plus a Still Water run at 375×667, all with no console errors. Round 1 held Advice, Calm and A little chaos.
+- Round 2 geometry: words clear the head and Continue at every size (desktop 189 vs head 183, 780 vs Continue 806; 375 phone 594 vs 597).
+- Two phone fixes from the first pass:
+  - Her position is measured against the tallest head either round can show, so round 2's two-line hint no longer meets her.
+  - The writing inside her is sized to her radius and wraps long words.
+- `tsc` is clean. Lint fell from 40 to 39 problems (the removed code carried one).
+- Screenshots: `evolution/prototypes/h5-world/app-*.png`, `rm-app-*.png`.
+
+### 2026-10-06 (evening) — H4 v4 (Robin's review of v3)
+
+**Robin:** the line should be in the middle of the page, not near the top. The instruction appears first, then the description under it. The description read as AI-written, so it should be more to the point. Both lines then rise together, and the rise starts the timer. The first pair is just "1" and "2", then Sharp / Smooth and onward.
+
+**Built** in `evolution/prototypes/h4-ready-set-go/` (v3 moved to `./v3/`):
+- "Tap the word that is more you." is centred at 50% on desktop and phone. At 1.5s the line "Two at a time. Go with your gut, or let both fade." appears under it (Still Water: "Two at a time. Take your time, or let both go.").
+- At 5.6s both lines rise to the head and the "1 / 2" pair condenses on the real clock. There's no button to press first.
+- The second line fades once Sharp / Smooth arrives. The question stays.
+- The example diagnostic is unchanged for the matching owner: `example: chosen | notTouched`, outside the timing data. A timeout on 1/2 counts as notTouched.
+
+**Verified** at 1440 and 390: line midpoint at 450/900 and 422/844; the timeout path and the tap path both reach Sharp/Smooth; no errors. Screenshots: `v4-*.png`.
+
+**Built in the app** (Robin: "perfect, 1 and 2 can be a bit bigger"). In `TheDepths.tsx` (H4):
+- The Tea / Coffee rehearsal, the "Too quick to think" prompt and the PRACTICE_* timings are replaced by `H4_LINES`, `EXAMPLE_PAIR` (1 / 2) and the `H4_*_MS` beats.
+- One `.h4-line` is born in the middle and rises; the question stays "Tap the word that is more you." for all nine.
+- `.h4-dusk` dims the whole frame to 0.28 while she reads and 0.16 after the rise.
+- The example runs on the nine's clock (850 + 3400ms, readable at 250ms). `.ember.is-number` sets the numerals at clamp(2.3rem, 5.4vmin, 3.2rem); the prototype matches.
+- The hidden-tab replay and Still Water's "Let them cool" are unchanged.
+
+**Checked:**
+- `tsc -p tsconfig.app.json` is clean, and lint stays at its 40-problem baseline.
+- Full journeys at 1440×900 and 390×844 ran H1 to H10 with no console errors. The line sits mid-frame (450/900, 422/844), the example shows 1 / 2, the first real pair is Sharp / Smooth, and the hint has faded by then.
+- Screenshots: `app-v4-*.png`.
+
+### 2026-10-06 (evening) — Cycle 3: H5 "A world of your own" (Robin's reorder)
+
+**Source:** Robin's review of "Surface Tension". He liked round 2: the words coming into the circle "just made sense, it's part of you". Round 1's reaching neck felt "gamified, gimmicky". His direction: ask what people come to you for **first**, so she constitutes herself as a bubble, then let her spread toward what attracts her. His themes were gravity, planets and integration. He pointed at 21st.dev and React Bits as possible sources.
+
+**Prototype:** `evolution/prototypes/h5-world/` (served at http://localhost:5190/h5-world/; options `?seed=`, `?n=12`, `?motion=still`, `?drag=0`). The concept is described in [`evolution/analysis/2026-10-06-h5-concepts.md`](../evolution/analysis/2026-10-06-h5-concepts.md) §0.
+- **Birth:** her H2 seed opens into a bubble of her own colour: a lit skin around an empty centre.
+- **Round 1, soughtFor:** the words ride a very slow orbit around her. Touched, a word's orbit gives way and it falls in on a curve, gathering speed. It meets her skin with a ripple and stays inside her as written light, and each word fills her a little. A word can also be carried to her by hand. Touch it inside her to let it go.
+- **Turn:** she kindles once, and her first light crosses the dark. The far words appear as that light reaches them.
+- **Round 2, drawnToward:** touched, part of her light leaves her on a curve, the way matter streams between two stars, and settles around the word as a ring. Nothing stays drawn between them; the ring is the only sign it was chosen. Touched again, the ring unwinds home.
+- **End:** what draws her turns slowly with her, at its distance: her world.
+
+**Verified:** full journeys at 1440×900 and 390×844 (9 words), 390×844 and 375×667 (12 words, Still Water) with no errors and no overlaps. The answers kept vocabulary order. Carrying, short-drag return and release from inside her all work. Ivory writing inside her was checked on blue, gold, green and orange. Her interior clears as her colour brightens, so the gold seed no longer swallows the text.
+
+**Component sources** ([`evolution/analysis/2026-10-06-h5-component-sources.md`](../evolution/analysis/2026-10-06-h5-component-sources.md), a bounded audit by a separate agent):
+- React Bits is MIT + Commons Clause, so it can be used inside the app.
+- 21st.dev licences vary per component.
+- None of the shortlisted WebGL effects respects reduced motion, and most are mouse-only.
+- The app has no animation dependencies today. The prototype uses hand-written canvas only, so a production port needs no new package.
+
+**Open for Robin:**
+1. This concept versus Surface Tension.
+2. The round order swap. The matching owner confirmed the shape, weights and fixtures are unchanged, and Q12 stays attached to drawnToward. Their caveat: asking soughtFor first may prime the motive answer through social role, which would blur the A×B / B×A distinction, already the model's weakest point. Their recommendation: if Robin likes the order, ship it and log questionnaire order as a playtest variable. Drag is fine if it records exactly what a tap does.
+3. Whether to override DESIGN.md's one-drag rule so a word can be carried to her (tap stays primary).
+
+### 2026-10-06 (later) — Cycle 2: Robin's review → H4 v2, H5 "Surface Tension", decisions
+
+**Source:** Robin's review of cycle 1's prototypes, plus his decisions recorded by the type/icons/sound session.
+
+**Robin's decisions:**
+- **Type: keep Playfair Display / Playfair / Jost.** Neue Montreal, Switzer and Satoshi were seen live and declined. DESIGN.md §3 stands; the 2026-10-06-type-icons-sound role rules are historical only.
+- **H1 lens phrases at weight 400** (500 read as bold). Built by the type/icons session.
+- The H1 *question* still feels "a bit intense" next to the calm cold-open lines. A softer-Playfair comparison is in [`evolution/analysis/2026-10-06-h1-lens-type.md`](../evolution/analysis/2026-10-06-h1-lens-type.md). The recommendation, **murmur**, keeps sizes, colour and layout and swaps only the face: the question becomes variable Playfair italic 400 at `opsz` 40, the lens words the same at `opsz` 24. It loses Display's sharp hairlines on the pale top band. Root cause: the cold-open lines read calm because they sit on the dark centre, not because they use a different face. H1-only first; the whole questionnaire later, if approved. Awaiting Robin; not applied.
+- **H6 flavour icons approved and built:** icon on top, word beneath, new Fresh dewdrop. Built by the type/icons session (`FlavourIcon.tsx`); DESIGN.md §5 updated.
+- **Music:** undecided. Loops and engine are in `2026-10-06-type-icons-sound/sound/` and will come to this track as a spec.
+- **Video:** Robin's favourites are the eased candidates ("eased both" or "eased arrivals"). To judge them in the real journey there is a dev-only trial: `?video=both` / `?video=arrivals` (TheDepths `VIDEO_TRIALS`, served from :5190). Adoption still needs his pick between the two, plus a matching WebM render.
+
+**H4 v2 prototype** (`evolution/prototypes/h4-ready-set-go/`, v1 kept in `v1/`). Robin rejected the extra click and found the v1 count-in "cheesy… too powerful".
+- No "Try one first". The instruction is born at the centre of the frame and read there; the whole frame dims evenly so ivory holds on the cream smoke, with nothing behind the words.
+- It rises to the head and stays as the question for all nine.
+- The two glasses gather, then Tea/Coffee condense as an unlabelled rehearsal.
+- **Ready · Set · Go is a breath:** small italic words, opacity only, while the empty glasses gather light. The dim deepens through the breath and releases on Go.
+
+**H4 v3** (Robin, after v2): *"it makes it better"*.
+- The dim is lighter: 0.28 while reading, 0.16 in play.
+- Tea/Coffee and Ready · Set · Go are removed.
+- Two example glasses, "Word 1" / "Word 2", sit where every pair will sit, under the line (31% / 30% on phones). The mechanic is visible in one look.
+- Touching one plays the catch and starts the game; if she only reads, it starts by itself at ~6.4s. **The line rising to the head is the start.** The first pair condenses where the examples were.
+- A hidden tab re-presents the same pair, with no count-in.
+- The matching owner has been told the practice diagnostic becomes `example: chosen | notTouched`.
+- v1 and v2 are kept in subfolders. Next: build v3 into TheDepths' H4, replacing today's practice beat.
+
+**H5 "Surface Tension" prototype** (`evolution/prototypes/h5-surface-tension/`; options in [`evolution/analysis/2026-10-06-h5-concepts.md`](../evolution/analysis/2026-10-06-h5-concepts.md)). She is one drop of her seed colour, a circle, not the glass.
+- **Round 1:** the drop *reaches* for a word, and the neck pinches off, leaving a bead of her with it.
+- **The turn:** the beads flow home, leaving motes in orbit.
+- **Round 2:** the words *come to her* and are held inside her.
+
+Alternatives B (Reflection), C (Lean) and D (Gravity well) are written up. The answer shape is unchanged.
+
+**Coordination:**
+- The type/icons/sound session wrote to `src/` once (icons, lens weight). It has confirmed nothing is pending, and from now on it hands UI changes to this track as specs.
+- One writer for TheDepths/index.css is restored.
+
+### 2026-10-06 — Experience evolution cycle 1: settled changes built, prototypes for review
+
+**Agent:** Freya (WDS 8, product evolution) · **Source:** the continuation plan's experience brief and Robin's recorded decisions · **Full brief:** [`evolution/analysis/2026-10-06-experience-evolution-brief.md`](../evolution/analysis/2026-10-06-experience-evolution-brief.md)
+
+**Built and browser-verified at 1440 / 375 / 390 px with no console errors:**
+- **EXP-01** H4 kept/secret dot row removed.
+- **EXP-02** H1 "Someone else" → "Another side of me", with the name kept.
+- **EXP-03** H10 share/save only at the bottom; the cue moved into the vacated 2.2s slot.
+- **EXP-04** H4 ignores taps until a pair is readable (250ms into the condense).
+- **EXP-05** H4: a hidden or frozen tab replays the same pair instead of expiring it into a "secret".
+- **EXP-06** On ≤720px-tall phones the cluster clears the question (H1, H5).
+- **EXP-07** Invisible 44px hit areas on the Veil pill and "Start again".
+
+`tsc -p tsconfig.app.json` clean. ESLint 40, all pre-existing (HEAD 41). **Complete journeys** (landing → H10, real taps/drags, no dev jumps) pass at 390×844 and 1440×900, including the lens "Another side of me", 8 caught plus 1 faded H4 pair, and a dedication "poured for Zoë". There are no title-area actions, the bottom shows Share/Save, and there are zero console errors.
+
+**Audits (separate artifacts, no source edits):**
+- [Mobile interaction audit](../evolution/analysis/2026-10-06-mobile-interaction-audit.md): four sizes plus reduced motion, landscape, backgrounding and blind-tap probes.
+- [Type and icons comparison](../evolution/analysis/2026-10-06-type-and-icons-comparison.md).
+- [Video arrivals](../evolution/analysis/2026-10-06-video-arrivals.md): the abruptness is mostly in the footage, which is at full speed or accelerating at every hold. The source is ~24fps padded to 30.
+- **EXP-17** built: `playUntil` stops on the presented hold frame via `requestVideoFrameCallback`, with the rAF loop as fallback. RESONANCE no longer freezes on 8.166, and the one-frame overshoot/snap at RESONANCE, FINISH and SURFACE_CUT is gone (zero seeks measured).
+- Retimed eased-arrival assets wait on Robin's in-motion review (V1–V3 in the brief).
+
+**Prototypes awaiting Robin:**
+- **P-H4** (`evolution/prototypes/h4-ready-set-go/`): one instruction at her own pace, a labelled Tea/Coffee rehearsal that can be repeated, then a restrained Ready · Set · Go. The window runs from readable.
+- **P-H5** (`evolution/prototypes/h5-two-directions/`): A, the figure with light out then in; B, two plain rounds plus a turning beat.
+- **P-TYPE:** recommended Switzer for questionnaire UI with Playfair for the reading (overrides the 09-29 main-face decision, so it's Robin's call), Satoshi as fallback. Flavour icons go above the word; Spicy, Bitter and Smoky need a second pass.
+
+**Mobile decisions for Robin (D1–D5):**
+- H3 confirm-before-commit (keeps 0–100)
+- H2 tap-to-preview names
+- an inert nav mark in the depths
+- an upright veil for mid-journey landscape
+- a multi-line H7 field on phones
+
+**Coordination:** the answer format v3 is agreed with the matching owner. H4 timing/status/interruption and the H3 `moved` flag stay local UI state until `shared/answers.ts` is published. `types.ts`/`App.tsx` belong to the integration owner.
+
+**Lesson:** headless Chromium's CDP `Page.setWebLifecycleState frozen` does not stop rAF or timers. Test hidden-tab behaviour by holding rAF callbacks instead.
+
+### 2026-10-06 — Parallel continuation plan aligned with BMAD
+
+**Source:** Robin's design/content/algorithm requests and explicit request to continue building on the BMAD framework.
+
+- Created the continuation plan and reviewed it against the existing WDS, Pour Studio, pipeline spec, finalized architecture and installed BMAD help.
+- Retained the three parallel tracks and assigned artifact/file owners. Each track resumes its existing sources; shared-intake decisions feed the spec owner before matching/UI integration.
+- Corrected planning drift: hybrid selection remains a deterministic eligible shortlist plus Bartender choice; runtime recipe variants/zero-proof remain outside launch scope; trace and personal-reading privacy remain binding. Coverage will distinguish fallback, shortlist and final-choice evidence.
+- Recorded **Another side of me** (same name), removal of H4 history bubbles and bottom-only reading actions as user decisions. H4 timing interpretation and H5 game mechanics remain to validate.
+- Updated this handoff and Current section to reflect experience evolution, pending spec refresh and collection review. Preserved dated history and existing configuration. No source code, pour dossiers, approval status or canonical spec was changed by this alignment.
 
 ### 2026-09-29 — One system pass, rev 2 (Robin: "the previous version felt cleaner and more premium")
 

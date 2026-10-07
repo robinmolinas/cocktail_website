@@ -1,0 +1,341 @@
+{
+  "pairing": "hero-sage",
+  "pour": "Leave It With Me",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "aa5cb6531f0bc3f90c20b04be1922ac1cf444cdf4123438a8c2717867ea81c10",
+  "review": {
+    "recipe": "Correct settled six-serving pitcher just before first pour, two empty receiving cups secondary; no leaves/foam/garnish, pale cloudy lime drink on crushed ice. Wet ice still unusually sparkly; candidate only.",
+    "personality": "Oven-mitt repair and abandoned blank planning card/pencil follow oven-failure/improvisation. Wide scene reads; cropped portrait loses part of repair and pencil; tight phone cannot preserve full cluster. Explicit composition hold for later batch.",
+    "world": "Near-black historic room with walnut table/cream tag/olive cloth and practical lamp; wood calmer than v1 but amber table highlight and glittery wet glass remain material risks.",
+    "issues": [
+      "Not accepted or integrated; browser review intentionally deferred by user.",
+      "Shared pilot interpretation recorded v1/readiness.md; no recipe substitution.",
+      "Portrait repair and pencil not fully retained; wide recognized. Glass/paper union about445px, larger than moving phone window.",
+      "Tag writable width118px in master; long-name actual glyph fit unverified."
+    ]
+  },
+  "measurements": {
+    "pairing": "hero-sage",
+    "pour": "Leave It With Me",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-sage/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-210a2d81-503f-4084-b215-dcb496fac11a.png",
+    "sourceSha256": "aa5cb6531f0bc3f90c20b04be1922ac1cf444cdf4123438a8c2717867ea81c10",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      830,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1260,
+      "cy": 619,
+      "w": 118,
+      "angle": 8
+    },
+    "glass": {
+      "x": 1077,
+      "y": 473
+    },
+    "bounds": {
+      "glass": {
+        "x0": 892,
+        "y0": 260,
+        "x1": 1290,
+        "y1": 683
+      },
+      "paper": {
+        "x0": 1172,
+        "y0": 567,
+        "x1": 1337,
+        "y1": 668
+      }
+    },
+    "personalityBounds": {
+      "mitt": {
+        "x0": 1235,
+        "y0": 483,
+        "x1": 1641,
+        "y1": 684
+      },
+      "cardPencil": {
+        "x0": 1135,
+        "y0": 667,
+        "x1": 1598,
+        "y1": 784
+      }
+    },
+    "recognitionRegions": {
+      "repairedMittCuff": {
+        "x0": 1469,
+        "y0": 565,
+        "x1": 1568,
+        "y1": 664
+      },
+      "cardAndPencil": {
+        "x0": 1178,
+        "y0": 674,
+        "x1": 1503,
+        "y1": 781
+      }
+    },
+    "review": {
+      "recipe": "Correct settled six-serving pitcher just before first pour, two empty receiving cups secondary; no leaves/foam/garnish, pale cloudy lime drink on crushed ice. Wet ice still unusually sparkly; candidate only.",
+      "personality": "Oven-mitt repair and abandoned blank planning card/pencil follow oven-failure/improvisation. Wide scene reads; cropped portrait loses part of repair and pencil; tight phone cannot preserve full cluster. Explicit composition hold for later batch.",
+      "world": "Near-black historic room with walnut table/cream tag/olive cloth and practical lamp; wood calmer than v1 but amber table highlight and glittery wet glass remain material risks.",
+      "issues": [
+        "Not accepted or integrated; browser review intentionally deferred by user.",
+        "Shared pilot interpretation recorded v1/readiness.md; no recipe substitution.",
+        "Portrait repair and pencil not fully retained; wide recognized. Glass/paper union about445px, larger than moving phone window.",
+        "Tag writable width118px in master; long-name actual glyph fit unverified."
+      ]
+    },
+    "measurementScope": "Root observed actual1672x941 master. Coordinates manually measured approximate pixels, bounded on actual image; exporter calculates normalized values. Bounds are not fabricated phone-fit proof."
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1446.88995215311,
+        "cy": 711.1914893617021,
+        "w": 135.5023923444976,
+        "angle": 8.004200184688337
+      },
+      "glass": {
+        "x": 1236.7464114832535,
+        "y": 543.4468085106382
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 548.8319088319088,
+        "cy": 790.2127659574469,
+        "w": 150.6096866096866,
+        "angle": 8.00150007589765
+      },
+      "glass": {
+        "x": 315.25925925925924,
+        "y": 603.8297872340426
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/hero-sage/portrait.jpg",
+    "wide": "/personas/hero-sage/wide.jpg",
+    "wideTag": {
+      "cx": 0.7535885167464115,
+      "cy": 0.6585106382978724,
+      "w": 0.07057416267942583,
+      "angle": 8.004200184688337
+    },
+    "wideGlass": {
+      "x": 0.6441387559808612,
+      "y": 0.5031914893617021
+    },
+    "tag": {
+      "cx": 0.6125356125356125,
+      "cy": 0.6585106382978724,
+      "w": 0.16809116809116809,
+      "angle": 8.00150007589765
+    },
+    "glass": {
+      "x": 0.35185185185185186,
+      "y": 0.5031914893617021
+    }
+  },
+  "hashes": {
+    "master": "f40a083433d68f83a7b6e169784ff14f404d8cfa9d4c73e6ddef59374cde5fe9",
+    "wide": "668326b086cb4c2a780c187a1dcdef94401b5ae6e4696b38975175248a0d04ec",
+    "portrait": "7b28ffd925be5d3cd7ed31437c2b5a6a134997dc4980769d0a7eadc0c28c8860"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1024.3062200956938,
+          "y0": 298.72340425531917,
+          "x1": 1481.33971291866,
+          "y1": 784.7234042553192
+        },
+        "paper": {
+          "x0": 1345.8373205741627,
+          "y0": 651.4468085106382,
+          "x1": 1535.311004784689,
+          "y1": 767.4893617021277
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 773.5885167464114,
+          "y0": 248.93617021276597,
+          "x1": 1154.44976076555,
+          "y1": 653.936170212766
+        },
+        "paper": {
+          "x0": 1041.531100478469,
+          "y0": 542.8723404255319,
+          "x1": 1199.4258373205741,
+          "y1": 639.5744680851064
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1092.5933014354066,
+          "y0": 265.27829787234043,
+          "x1": 1580.0956937799042,
+          "y1": 783.6782978723404
+        },
+        "paper": {
+          "x0": 1435.5598086124403,
+          "y0": 641.5165957446808,
+          "x1": 1637.6650717703349,
+          "y1": 765.2953191489362
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1835.2153110047846,
+          "y0": 307.51276595744673,
+          "x1": 2654.0669856459326,
+          "y1": 1178.2627659574468
+        },
+        "paper": {
+          "x0": 2411.2918660287082,
+          "y0": 939.4755319148935,
+          "x1": 2750.7655502392345,
+          "y1": 1147.3851063829786
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.35185185185185186,
+        "y": 0.5031914893617021
+      },
+      "bounds": {
+        "glass": {
+          "x0": -28.852611585944935,
+          "y0": 233.4468085106383,
+          "x1": 328.4327065527066,
+          "y1": 613.2468085106383
+        },
+        "paper": {
+          "x0": 222.50389363722695,
+          "y0": 509.09361702127654,
+          "x1": 370.6246913580247,
+          "y1": 599.7787234042553
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.35185185185185186,
+        "y": 0.5031914893617021
+      },
+      "bounds": {
+        "glass": {
+          "x0": -32.09439696106363,
+          "y0": 257.7872340425532,
+          "x1": 362.4434188034188,
+          "y1": 677.1872340425532
+        },
+        "paper": {
+          "x0": 245.4698955365622,
+          "y0": 562.1744680851064,
+          "x1": 409.03456790123454,
+          "y1": 662.3148936170213
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.35185185185185186,
+        "y": 0.5031914893617021
+      },
+      "bounds": {
+        "glass": {
+          "x0": 0.8265906932573515,
+          "y0": 157.10638297872342,
+          "x1": 241.27452991452995,
+          "y1": 412.7063829787234
+        },
+        "paper": {
+          "x0": 169.98594491927824,
+          "y0": 342.61276595744675,
+          "x1": 269.6691358024691,
+          "y1": 403.64255319148936
+        }
+      }
+    }
+  ]
+}

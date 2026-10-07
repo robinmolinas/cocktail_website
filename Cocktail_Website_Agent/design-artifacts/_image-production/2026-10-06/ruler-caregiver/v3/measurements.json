@@ -1,0 +1,94 @@
+{
+  "pairing": "ruler-caregiver",
+  "pour": "Go On",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-caregiver/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-57488435-a3b5-4a87-9edd-2ceb8487c29b.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "cf6cc557429b53ce8cb62ef73236f6cf3f35ba42160c03ceb68ace8466ffcae5",
+  "specSha256": "3519d83b234b494b40c7b9b1341c34021b7f2ba1241fdea2aefb96361a245168",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    760,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1078,
+    "cy": 645.5,
+    "w": 106,
+    "angle": -15.9
+  },
+  "tagWritingAxis": {
+    "start": [
+      907,
+      658
+    ],
+    "end": [
+      1111,
+      636
+    ],
+    "note": "Conservative clean axis excludes punched-hole end and margins;205px approximately."
+  },
+  "glass": {
+    "x": 1201,
+    "y": 459
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1071,
+      "y0": 377,
+      "x1": 1331,
+      "y1": 760
+    },
+    "paper": {
+      "x0": 1012,
+      "y0": 603,
+      "x1": 1168,
+      "y1": 704
+    }
+  },
+  "personalityBounds": {
+    "pulledUpChair": {
+      "x0": 914,
+      "y0": 273,
+      "x1": 1245,
+      "y1": 615
+    },
+    "drapedCardigan": {
+      "x0": 825,
+      "y0": 264,
+      "x1": 1088,
+      "y1": 656
+    }
+  },
+  "recognitionRegions": {
+    "pulledUpChairBackAndSeat": {
+      "x0": 923,
+      "y0": 279,
+      "x1": 1245,
+      "y1": 611
+    },
+    "drapedCardigan": {
+      "x0": 825,
+      "y0": 264,
+      "x1": 1088,
+      "y1": 656
+    }
+  },
+  "review": {
+    "requestedChange": "Blank tied paper reduced from292px to156px horizontal extent (about47% narrower), no longer postcard-sized. Stem cord/hole and air gap retained; lower corner rests on timber. Finished amber-red cognac drink/internal mandarin/no ice, chair/cardigan and unlit fireplace visually preserved. Whole scene/material holds remain;106px clean face actual-name fit unverified.",
+    "invariants": "Root original-detail visual comparison, not pixel-identical claim. No recipe/source/edit status changes.",
+    "remaining": "Existing physical/personality/material/crop holds not cleared; smaller label per user replaces numerical writing-size aim, names still require actual font review."
+  },
+  "status": "user-requested-tag-scale-correction;held;not-accepted;browser-deferred",
+  "masterSha256": "4cac179ed9eadf82be706c9d51aaa8e476bfb14205ecf101931cca0a935ef5a0"
+}

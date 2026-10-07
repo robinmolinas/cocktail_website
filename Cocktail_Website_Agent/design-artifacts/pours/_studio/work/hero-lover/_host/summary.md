@@ -1,0 +1,7 @@
+- **Persona:** The Dashing Hero: the cool, quick, immaculate surface is there for the few people who matter; the feeling stays hidden because showing it would look like weakness and show what losing them would cost.
+- **Story:** the plan's lead, the Vesper, owned as fiction (*Casino Royale*, 1953): the exact order, the drink named after one person, never ordered again after her death in the novel. Wren accepted it in r1 with conditions; Hester scoped "never again" to the later books (the 2006 film stays out) and sourced the novel's deep champagne goblet from two printings. Runner-up: Calabrese and the Breakfast Martini (fails Wren's test: the care on his page is his wife's).
+- **Drink:** the order word for word (Gordon's 60, vodka 20, Lillet Blanc 10, lemon peel), shaken ice-cold, with one teaspoon of Jamaican rum poured in first, for the frozen rum drink in Jamaica that gave the name in Bryce's account. One version (v1 → v1.2): the closing line moved off "where nobody looks" (*Not Only the Way*'s motif) in r4.
+- **This is me:** "It was never the danger you were hiding. It was them."
+- **Names:** *One Line* 2–1 (Wren, Hester); Tomás voted *Exactly So*. Also *Named for Someone*, *Ice-Cold*, *Three and One*.
+- **Flag:** balance OUT on sugar by choice (0.61 g/100 ml; a dry Martini sits below the shaken-spirit range), justified in Checks. Veto-free.
+- **Rule candidates:** none new.

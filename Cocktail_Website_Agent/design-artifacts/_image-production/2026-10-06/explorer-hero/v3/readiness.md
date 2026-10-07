@@ -1,0 +1,1 @@
+Complete dossier/spec re-read again through EOF before second bounded correction; SHA f47bf1ef1109a2ce34aa6af2e59891b0a04104df1b1a8ebc83e7d1a7f287010b. Keep physical small spirit-only tumbler/tag/world; relocate only actual used cue cards and released watch to immediate left of glass so person survives narrow phone. v1/v2 preserved. No editorial changes.

@@ -1,0 +1,57 @@
+{
+  "pairing": "innocent-jester",
+  "pour": "There It Goes",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-jester/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-cce2fff6-b9b0-49ca-ad39-435ac61f9cd5.png",
+  "sourceSha256": "9272f836b83f92ab4302457bd48eeed98cf8d30fde2a71783b3d081e6401d073",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    813,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1258,
+    "cy": 649,
+    "w": 131,
+    "angle": 25
+  },
+  "glass": {
+    "x": 1164,
+    "y": 393
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1009,
+      "y0": 281,
+      "x1": 1322,
+      "y1": 748
+    },
+    "paper": {
+      "x0": 1164,
+      "y0": 578,
+      "x1": 1347,
+      "y1": 722
+    }
+  },
+  "review": {
+    "recipe": "Single chilled coupe, hazy bright orange sour with fine natural bubble edge, no garnish or ice. Exact recipe maintained.",
+    "personality": "v2 full-size pair inspected: facedown menu and worn glasses, used handkerchief. Re-centred crop retains one whole spectacle lens and nearer handkerchief portion in predicted phone view; actual browser personality retention pending.",
+    "world": "Historic dark walnut reading room, burgundy, one practical warm light, neutral deep shadow, believable used materials.",
+    "issues": [
+      "Phone personality check pending: retain clear glasses/menu and handkerchief context, not merely peripheral cloth."
+    ]
+  },
+  "exportRevision": {
+    "kind": "mechanical-crop-only",
+    "sourceVersion": "v2",
+    "change": "Portrait crop centred on measured drink focal point; unchanged pixel source and full bounds.",
+    "predictedGeometryPasses": 7
+  }
+}

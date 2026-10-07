@@ -9,6 +9,12 @@ mode: batch            # pour | batch | rework
 
 # The room: The Prankster (regular-guy-jester)
 
+## Collection review edits, 2026-10-06 (editor)
+- **Robin's decisions applied:** D13 variety rules; no D-card touches this pour.
+- **Edits** (before → after, short): yours 5 (V5): "And I hope one of them gets you back, properly." → "And one day, one of them will get you back, properly." (the gain, not a wish; "sooner or later" tripped a motif overlap with *Either Way*).
+- **Left for Robin:** none.
+- **Tomás (Codex pass / open items):** Checks › Balance: one sentence added, "**Codex benchmark (Robin 2026-10-06):** …", against the Codex grapefruit sours (Hemingway p. 120, Brown Derby p. 133): ours sweeter and sharper, in step with Arnold's Drake. Nothing else changed.
+
 ## Where things stand
 - **Must-haves:** [x] persona read (Wren r1) · [x] story + sourced anchors (Malört + Sam Mechling; anchors (Hester r3), ruled by Wren r3) · [x] drink + four checks (spec v1 + draft (Tomás r3, provisional)) · [x] reading (v1 (Wren r3)) · [x] fact audit (v2 (Hester r4): guest text clean; R13, D5, D6 citation-only) · [x] resonance test (ready (Wren r4–r5, reading v2)) · [x] names (≥3 + pick) (Got You (all three, r4)) · [x] image brief (Tomás r3)
 - **Last change to the pour:** r5 (citation-only: R13, D5, D6; closing line ruled, unchanged since r4)

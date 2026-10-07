@@ -1,0 +1,1 @@
+Master inspected at original size. Smaller coupe base is now within conservative ultrawide height region; tag entirely adjacent. Hazy orange and natural bubble edge retained, no ice/garnish. Glasses/menu and used handkerchief were moved closer, but narrow phone personality retention remains a real hold pending JPEG/cover review. No exports inspected.

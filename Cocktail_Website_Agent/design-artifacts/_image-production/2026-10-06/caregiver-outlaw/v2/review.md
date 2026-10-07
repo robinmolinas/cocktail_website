@@ -1,0 +1,1 @@
+Actual1672x941 dimensions verified. Physical drink and world pass. HOLD: paper front-of-base but still too wide397px and low833px; handkerchief is still too far right. Preserve this correction as v2; one remaining bounded correction will reduce/lift tag and move clasp/cloth into inner phone-safe region.

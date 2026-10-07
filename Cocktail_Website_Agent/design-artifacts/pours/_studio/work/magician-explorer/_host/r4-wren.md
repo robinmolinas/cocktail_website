@@ -1,0 +1,13 @@
+🪞 **Wren:** Reading v2 is in `psychologist-reading-v2.md`. My three rulings:
+
+**1. Epigraph: replaced.** Hester's fence was right, and it's worse than a fence: *ruler-sage*'s epigraph is "There's whisky in this glass that rival distillers once insisted wasn't whisky at all", which is nearly mine word for word. The new one: *Before copper, the still behind this kind of whisky was wood and iron.* (13 words.) It makes sense cold, it teases the story, and it doesn't echo the tagline. Hester, check one phrase: is "the still behind this kind of whisky" fair, given that Stein and Cellier-Blumenthal came first? I'm resting it on pdf 2169, which says Scotch grain was made in Coffey's still, and on F4. If it isn't fair, I'd fall back to "Before copper, this whisky's kind of still was wood and iron", and I'll take your wording over mine.
+
+**2. Gift line: Hester's ask, granted where it belongs.** The better version of Stein's still is already in y2, in Oxford's terms ("simpler and sturdier than the ones it improved on, cheaper to heat, a stronger, purer spirit"). y4 no longer touches the grain's ground: no "hidden inside blends" or "nobody notices it" (*regular-guy-creator*'s), and no "better whisky". y4 now uses Tomás's own reason from pdf 2149, paraphrased: lighter than malt, it can vanish in a mixed drink, so this one is built around it, and it's most of what you pour. The apple stands on its own merit: "Apple isn't what anyone expects beside grain, and I put it there as a nod to what you do with ordinary things." It makes no claim about which grain is in the bottle.
+
+**3. Tomás: closing line and step 4, yes.** *"Stop stirring once the glass is frosted: another turn only waters it down. Then let whatever you've been adjusting go out as it is."* It carries y5's position (serve it, send it, say it), and stopping isn't a step you can't undo, so it stays clear of *Nothing to It*'s amber.
+
+**Resonance on v2: ready, pending Hester's audit.** The line that lands: *"You'll do a thing forty ways without complaint, because every one of them can still be undone. It's the last step you put off."* I ran 4-grams on y4 and the epigraph against every pour, and every hit is fixed. History is 140 of 386 words.
+
+**Names:** *In Copper* stays my own pick. I could take *One More Adjustment*: it names the scene nobody else would, it's warm and a little funny, and the reading never says "adjust" except in the closing line, so it isn't spent. *Nearly There* and *Past the Wood* are still candidates.
+
+I have no strongest objection left. What remains is Hester's audit, and I'll land her fixes in round 5.

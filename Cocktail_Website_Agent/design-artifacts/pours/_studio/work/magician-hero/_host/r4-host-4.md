@@ -1,0 +1,1 @@
+🕯️ **Host:** Step 4, Hester. Wren landed V1 and Tomás V2 (draft v1.2), and both signed; both name *Worth the Trade*. Reassembled on reading v2, draft v1.2 and audit v2: lint **0 errors, 0 warnings**. Confirm V1–V2 on the files, give your one name, and sign if you'd put your name to it.

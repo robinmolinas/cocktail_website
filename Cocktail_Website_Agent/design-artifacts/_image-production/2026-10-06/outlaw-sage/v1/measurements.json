@@ -1,0 +1,93 @@
+{
+  "pairing": "outlaw-sage",
+  "pour": "Hear Me Out",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-sage/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-6825a192-982f-4414-9f81-8da00e9ae710.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "0dbc17484c430732a0e907afa83bd1c635b91b68729db98228c7b2af846dcb40",
+  "sourceSha256": "75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c",
+  "specSha256": "19cc3a721388ed1476111dafcda2feb8e33252164ba2b0373d4c7f0d5b03adff",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    800,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1203,
+    "cy": 604,
+    "w": 137,
+    "angle": 77
+  },
+  "glass": {
+    "x": 996,
+    "y": 558
+  },
+  "bounds": {
+    "glass": {
+      "x0": 834,
+      "y0": 367,
+      "x1": 1162,
+      "y1": 749
+    },
+    "paper": {
+      "x0": 1146,
+      "y0": 490,
+      "x1": 1258,
+      "y1": 691
+    },
+    "discussionPage": {
+      "x0": 1145,
+      "y0": 448,
+      "x1": 1672,
+      "y1": 679
+    },
+    "pencil": {
+      "x0": 1240,
+      "y0": 490,
+      "x1": 1563,
+      "y1": 629
+    }
+  },
+  "recognitionRegions": {
+    "discussionPage": {
+      "bounds": {
+        "x0": 1280,
+        "y0": 470,
+        "x1": 1660,
+        "y1": 669
+      },
+      "reason": "Large folded paper face and folded layered edge; visible object itself reaches raster edge."
+    },
+    "pencil": {
+      "bounds": {
+        "x0": 1240,
+        "y0": 490,
+        "x1": 1563,
+        "y1": 629
+      },
+      "reason": "Full-size recognizable graphite pencil, eraser/ferrule/body/sharpened point."
+    }
+  },
+  "review": {
+    "recipe": "Single rocks sour, thin white foam and one yellow peel broadly flat; pale golden liquid reads too clear and saturated. Ice cubes visible. Recipe amounts not independently observable.",
+    "personality": "Folded face-down discussion page and separate pencil are plausible argument-testing traces, but horizontally spread and page clipped at source right edge.",
+    "world": "Quiet dark timber house, warm practical; glossy patterned amber table and granular ice/glass texture persist.",
+    "issues": [
+      "Full glass 382px high; larger than 280–330 target.",
+      "Visible union 838px, full discussion-page object clipped at source right edge; portrait cuts page/pencil. No phone pass.",
+      "Liquid insufficiently cloudy; shiny dense ice detail and patterned table.",
+      "No acceptance; initial preserved, sole focused composition correction planned."
+    ]
+  }
+}
+

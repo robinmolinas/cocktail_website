@@ -1,0 +1,1 @@
+Full current caregiver-sage dossier/spec reread in chunks1–135 and136–EOF. SHA256c20da9d51b483be1580f68933993099178bbb6a53d350e682eb6ce866c7480bf unchanged. Correct tag extent and gather existing inquiry traces to preserve drink/person/paper on tall-phone cover. Physical recipe, world and editorial draft untouched; v1 preserved.

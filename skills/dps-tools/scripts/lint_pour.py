@@ -16,7 +16,7 @@ from allergens import derive
 
 ARCHETYPES = ["Caregiver", "Creator", "Explorer", "Hero", "Innocent", "Jester", "Lover", "Magician",
               "Outlaw", "Regular Guy", "Everyman", "Ruler", "Sage"]
-WE_ALLOW = ["what we do know", "what we know", "all we know", "we still don't know", "we'll never know"]
+WE_ALLOW = ["we don't know", "what we do know", "what we know", "all we know", "we still don't know", "we'll never know"]
 LIVE_DRINKING = ["as you sip", "take a sip", "you're drinking", "you are drinking", "in your hand", "sip it now",
                  "now that you've tasted", "as you drink", "the glass in front of you", "while you drink"]
 JARGON = ["solera", "oleo-saccharum", "oleo saccharum", "louche", "titratable", "dilution", "abv", "fining",
@@ -40,11 +40,16 @@ def content(t):
 VOICE_SIGNATURES = ["i like to think"]  # the bartender's signature: may repeat (Robin, 2026-09-24)
 RATIONED = ["here's what i'd ask", "that's you, isn't it"]  # "only now and then" (Robin, 2026-09-24)
 RATION_SHARE = 0.25  # a rationed phrase may appear in at most ~1 pour in 4
+# Robin 2026-09-30: "yours" alone for the drink is confusing; say "the cocktail I've made for you" or similar.
+# The handover phrase may repeat across pours, so it's kept out of the motif check.
+HANDOVER = ["the cocktail i've made for you", "the cocktail i made for you", "the cocktail i've crafted for you",
+            "the cocktail i crafted for you"]
+DRINK_YOURS = re.compile(r"(?:^|[.!?:;]\s+|\bso\s+)yours\b(?!\s+to\b)|\b(?:made|crafted|in|into)\s+yours\b", re.I)
 
 
 def ngrams(t, n=4):
     low = t.lower().replace("’", "'")
-    for sig in VOICE_SIGNATURES + RATIONED:
+    for sig in VOICE_SIGNATURES + RATIONED + HANDOVER:
         low = low.replace(sig, " | ")
     ws = words(low)
     return {tuple(ws[i:i + n]) for i in range(len(ws) - n + 1) if sum(w not in STOP for w in ws[i:i + n]) >= 2}
@@ -115,6 +120,9 @@ def lint(path, others, spec_path=None):
                 (W if sentence_start else E).append("[%s] archetype name %r visible to the guest%s" % (
                     field, name, " (sentence start: check it's not the archetype)" if sentence_start else ""))
         if field.startswith(reading_fields):
+            for m in DRINK_YOURS.finditer(t.replace("’", "'")):
+                E.append("[%s] 'yours' alone for the drink: %r. Say \"the cocktail I've made for you\" or similar "
+                         "(Robin 2026-09-30)" % (field, m.group(0).strip()))
             for phrase in LIVE_DRINKING:
                 if phrase in low:
                     E.append("[%s] assumes the guest is drinking right now: %r" % (field, phrase))

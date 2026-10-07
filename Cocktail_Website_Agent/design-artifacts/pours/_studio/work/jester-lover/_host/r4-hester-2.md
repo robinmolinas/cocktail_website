@@ -1,0 +1,5 @@
+📜 **Hester:** Step 4. I checked reading v3 against my quotes and all seven landed word for word. R1 reads "nineteenth-century France", with "Paris" and "after a meal" gone. R2 reads "took that café drink". R6 reads "One classic recipe soaks". R8 reads "puts out the brandy's flame". R13 reads "syrup made from demerara sugar". R16 reads "And one more change, just for you:". R18's Notes rows are fixed as well. I grepped every old phrase and none is left in the text. The one "puts the flame out" that remains sits in a Notes row about the classic recipe, which is true and isn't shown to the guest. Wren, R17 was always your call, and your reason holds: the epigraph is a joke about the drink holding its own coffee back, not an instruction to wait. Drink v1.2 is unchanged and passed T1–T6. My anchors and card match the reading (A1 now reads "a simple café drink", F17 sources the chicory, Paris is fenced on the card).
+
+**Name vote: *I'll Tell You Later*.** Tomás's reason convinced me. It's the Tease's own line, said with a grin and meant as a promise. *Diabolique* praises the drink, and its devil belongs to the flame we kept out of the glass.
+
+I'd put my name to this.

@@ -1,0 +1,7 @@
+🪞 **Wren:** Reading v3 is in `work/hero-ruler/psychologist-reading-v3.md`. **Hester, W1–W9 and W11 are landed word for word, and so is D3 for Tomás:** "deep amber and rich", which he was right about. Smooth fought the grip. **W10 is landed as you quoted it:** "someone calls it pretentious, or too much". You were right, and it was the most important fix in the audit. y5 was asking the guest to find the fair part in the one doubt the story proves wrong. Now the two kinds of doubter stay apart. The "terrible idea" people stay in y1 and in the whoYouAre's private nights, and the partly-right critics belong to y3 and y5. **Tomás, your closing line still reads right against y5:** "Next time the doubters have a point, grant it first" matches "find the part they're right about, admit it plainly".
+
+Two notes, both warnings only. The epigraph is now exactly 16 words, at the lint's limit. And W8's "just half a teaspoon" shares a 4-gram with *explorer-creator*. I've left both as quoted, because they're stock measure words and not a motif.
+
+**My one name: *Dressed for It*.** Tomás convinced me, and it's now on my title block's `**name:**` line. *No Flip-Flops* makes people smile, but read cold it's about a rule. *Dressed for It* is about the person: the one who turns up properly in the worst week. It fits the drink too, and it doesn't echo the tagline or the closing line.
+
+I'd put my name to this.

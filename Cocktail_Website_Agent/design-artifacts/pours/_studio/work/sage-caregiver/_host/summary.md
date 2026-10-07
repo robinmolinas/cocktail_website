@@ -1,0 +1,9 @@
+- **The persona:** the Mentor teaches people so that, one day, they won't need to take the Mentor's word for anything; being outgrown is the point.
+- **Story:** the plan's lead, kept: Jerry Berns schooling Brian Rea at the 21 Club, and Rea going on to invent the beverage director (Wren: accept, with conditions, r1). Runner-up: the plan's backup, Hansen and his student Percival Greig, not opened.
+- **Drink:** the Southside as Oxford prints it (gin, lemon, mint, long), with the spark: a tarragon sprig shaken in beside the mint (*Flavor Matrix*: both carry citrus compounds), two sprigs standing together in the glass. Veto-free, balanced (14.1% · sugar 7.14 · acid 0.90).
+- **Versions:** reading v1 → v3 (pronoun warnings named as Rea and Berns; Hester's audit fixes W1–W7); draft v1 → v1.4 (closing line, taste note, image brief; W8 Checks row). No version failed outright; the audit's eight wording fixes all landed in step 3.
+- **"This is me":** *"You can live with being wrong. What you couldn't live with is someone following you there."*
+- **Names:** *Further Than Me* (Wren, Hester) over *Gladly Outgrown* (Tomás), *Past the House*, *Two Sprigs*, *Their Own Now*. 2–1.
+- **Edges / flags:** none. Library gap for Robin: Rea's *B.A.S.T.A.R.D.S.* (2017) and his 2021 obituaries.
+- **Rule candidates:** none raised.
+- 4 rounds, round 4 in four steps.

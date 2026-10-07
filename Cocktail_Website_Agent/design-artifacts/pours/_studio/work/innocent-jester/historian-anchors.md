@@ -1,0 +1,16 @@
+# Anchors: The Giggler (innocent-jester), r2
+
+Hester, 2026-10-04. Card: `_studio/fact-cards/sam-ross-ginger-paper-plane.md` (F1–F20, C1–C2). All on the page today. Web visits: 2 of 2 spent in r3 (one search, one blocked fetch), for the sugar question only; nothing in this table rests on the web. Facts in the page's own words; meanings are drafts for Wren to rewrite.
+
+| kind | fact | meaning | speaksTo |
+| --- | --- | --- | --- |
+| place | In 2001 his family opened a cocktail bar called Ginger in Fitzroy, Melbourne. Most who went remember it as innovative and odd; Jason Crawley, a London bartender who moved to Australia, remembered "lots of orange plastic", like "a psychedelic spaceship" (*Proper* p. 144; F1–F3). | A whole room built for the fun of it. | Mischief, Pleasure, Bright, Loud |
+| gesture | Sebastian Reaburn, who worked there, said the menu "read like a comedy script". For one week every drink on it shared Jägermeister, and that menu was never seen again (p. 144; F4–F5). | The fun was the point, and nobody was its butt. | A little chaos, Excited |
+| safety | Jacob Briars said that at Ginger "there was no such thing as the idea anything might be wrong" (p. 144; F6). | The guest's laugh is how they check a room is safe; Ginger was a room that had already said yes. | Comfort, Belonging, The real me |
+| frown | Its "anything-goes frivolity" didn't go down well with everyone, particularly Sydney bartenders. Reaburn: it was so "tongue in cheek" that "there was a credibility gap" (pp. 144–145; F8–F9). | Being told off for delight, on the record, from outside the room. Reaburn's words with his name; never "taken seriously" in our voice. | Social, Soft |
+| drink | The Paper Plane: equal parts bourbon, Nonino Quintessentia amaro, Aperol and lemon, shaken, in a coupe. He made it for the opening menu of a new bar in Chicago where he never worked. The first recipe had Campari; Aperol soon replaced it and became the norm (p. 288; F11–F13). No year (C1). | Fun made for a room he'd never stand in. | Pleasure, Half-full, Bright |
+| name | It was named after a song by M.I.A. that he was listening to while he tried to come up with the recipe (p. 288; F14). | Named for whatever was playing. Any paper plane sailing across a room is "I like to think". | Instinctive, Excited |
+| reveal | He calls it his second most well-travelled drink. It's especially popular in Toronto, for reasons that remain a mystery to him: "essentially the official drink of Toronto", he said (p. 288; F15–F16). The quote is undated: Simonson interviewed him in August 2014 (p. 331) and published in 2016, so tell it in the past tense, with no year. | Delight travels further than anyone can explain, the way a room follows a laugh. | Belonging, Out of control, Wild |
+| ingredient | Aperol is an Italian aperitivo from 1919 Padua, vibrantly orange, less bitter and much lower in alcohol than Campari (Oxford APEROL pdf 125; F18). | The brightest thing on the bar is the first thing you see. | Bright, Aperol Orange |
+
+**Guards for the reading** (card has the full list): no year; never name The Violet Hour or its rules (*Had to Be Serious*'s); "his family's bar", never "the siblings opened it"; "Sam Ross felt that bias" is Simonson's line, not Ross's; never "his original" for the Aperol version; no song title, lyrics or sounds; no present tense about Ross.

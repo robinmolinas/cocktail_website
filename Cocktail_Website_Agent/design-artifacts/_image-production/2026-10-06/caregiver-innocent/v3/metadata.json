@@ -1,0 +1,359 @@
+{
+  "pairing": "caregiver-innocent",
+  "pour": "Before the Room",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "1e16f17d4f994c89049a4443fd3129e8dbd4d05445533719f297cbfe8a0e3fc1",
+  "review": {
+    "recipe": "Preserved20ml fine-strained basil/cassis plus120ml Crémant, chilled plain flute, transparent violet-red lower/pale gold-rose upper wine, fine carbonation, no ice or garnish.",
+    "personality": "Coat carried for another, ready folded linen handkerchief and partly tucked wallet retained in compact adjacent cluster; no literal Angel props.",
+    "world": "Plain flatter long-grain walnut and lower sheen materially improved over v2. Distinct glass/paper/cloth/leather materials; neutral left shadows survive. Right practical remains warm and bubbles dense enough to require root full-JPEG comparison.",
+    "issues": [
+      "Candidate only: root actual wide/portrait material review and browser-name gate pending."
+    ]
+  },
+  "measurements": {
+    "pairing": "caregiver-innocent",
+    "pour": "Before the Room",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/caregiver-innocent/v3/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-fb9a4ad8-a06d-4e20-aeed-88f0951f47ab.png",
+    "sourceSha256": "1e16f17d4f994c89049a4443fd3129e8dbd4d05445533719f297cbfe8a0e3fc1",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      810,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1157,
+      "cy": 730,
+      "w": 169,
+      "angle": 7
+    },
+    "glass": {
+      "x": 988,
+      "y": 509
+    },
+    "bounds": {
+      "glass": {
+        "x0": 900,
+        "y0": 247,
+        "x1": 1072,
+        "y1": 770
+      },
+      "paper": {
+        "x0": 1034,
+        "y0": 673,
+        "x1": 1245,
+        "y1": 777
+      }
+    },
+    "review": {
+      "recipe": "Preserved20ml fine-strained basil/cassis plus120ml Crémant, chilled plain flute, transparent violet-red lower/pale gold-rose upper wine, fine carbonation, no ice or garnish.",
+      "personality": "Coat carried for another, ready folded linen handkerchief and partly tucked wallet retained in compact adjacent cluster; no literal Angel props.",
+      "world": "Plain flatter long-grain walnut and lower sheen materially improved over v2. Distinct glass/paper/cloth/leather materials; neutral left shadows survive. Right practical remains warm and bubbles dense enough to require root full-JPEG comparison.",
+      "issues": [
+        "Candidate only: root actual wide/portrait material review and browser-name gate pending."
+      ]
+    },
+    "measurementScope": "Measured on actual1672×941 generated master. Per-export coordinates below are calculated crop transforms, not JPEG inspection.",
+    "calculatedExportCandidates": {
+      "wide": {
+        "pixels": {
+          "tag": {
+            "cx": 1328.6124401913876,
+            "cy": 838.7234042553192,
+            "w": 194.06698564593302,
+            "angle": 7.003686434592469
+          },
+          "glass": {
+            "x": 1134.5454545454545,
+            "y": 584.8085106382979
+          }
+        },
+        "normalized": {
+          "tag": {
+            "cx": 0.6919856459330144,
+            "cy": 0.776595744680851,
+            "w": 0.10107655502392345
+          },
+          "glass": {
+            "x": 0.5909090909090909,
+            "y": 0.5414893617021277
+          }
+        }
+      },
+      "portrait": {
+        "pixels": {
+          "tag": {
+            "cx": 442.8945868945869,
+            "cy": 931.9148936170213,
+            "w": 215.7037037037037,
+            "angle": 7.001316590471017
+          },
+          "glass": {
+            "x": 227.1908831908832,
+            "y": 649.7872340425532
+          }
+        },
+        "normalized": {
+          "tag": {
+            "cx": 0.4943019943019943,
+            "cy": 0.776595744680851,
+            "w": 0.24074074074074073
+          },
+          "glass": {
+            "x": 0.2535612535612536,
+            "y": 0.5414893617021277
+          }
+        }
+      }
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1328.6124401913876,
+        "cy": 838.7234042553191,
+        "w": 194.06698564593302,
+        "angle": 7.003686434592469
+      },
+      "glass": {
+        "x": 1134.5454545454545,
+        "y": 584.8085106382979
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 442.8945868945869,
+        "cy": 931.9148936170212,
+        "w": 215.7037037037037,
+        "angle": 7.001316590471017
+      },
+      "glass": {
+        "x": 227.1908831908832,
+        "y": 649.7872340425532
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-innocent/portrait.jpg",
+    "wide": "/personas/caregiver-innocent/wide.jpg",
+    "wideTag": {
+      "cx": 0.6919856459330144,
+      "cy": 0.776595744680851,
+      "w": 0.10107655502392345,
+      "angle": 7.003686434592469
+    },
+    "wideGlass": {
+      "x": 0.5909090909090909,
+      "y": 0.5414893617021277
+    },
+    "tag": {
+      "cx": 0.4943019943019943,
+      "cy": 0.776595744680851,
+      "w": 0.24074074074074073,
+      "angle": 7.001316590471017
+    },
+    "glass": {
+      "x": 0.2535612535612536,
+      "y": 0.5414893617021277
+    }
+  },
+  "hashes": {
+    "master": "61e4b145b7232890c64658c3dc1a079eec9bcd80b2e06ffe61201531b92b970f",
+    "wide": "a11f42fa0a4ad59955d96709e0a01b538ac7fdc4ec4a49bb2cf919461fa54346",
+    "portrait": "bfd0efcf80757ebb2a219bda9935b72bcd7a676f934cb5c3ce345fa021490bdd"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1033.4928229665072,
+          "y0": 283.7872340425532,
+          "x1": 1231.0047846889952,
+          "y1": 884.6808510638298
+        },
+        "paper": {
+          "x0": 1187.3684210526317,
+          "y0": 773.2340425531914,
+          "x1": 1429.6650717703349,
+          "y1": 892.7234042553191
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 781.2440191387559,
+          "y0": 236.48936170212767,
+          "x1": 945.8373205741627,
+          "y1": 737.2340425531916
+        },
+        "paper": {
+          "x0": 909.4736842105264,
+          "y0": 644.3617021276596,
+          "x1": 1111.3875598086124,
+          "y1": 743.936170212766
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1102.3923444976076,
+          "y0": 249.3463829787234,
+          "x1": 1313.0717703349283,
+          "y1": 890.2995744680851
+        },
+        "paper": {
+          "x0": 1266.5263157894738,
+          "y0": 771.4229787234042,
+          "x1": 1524.9760765550238,
+          "y1": 898.8782978723405
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1851.6746411483252,
+          "y0": 280.7521276595745,
+          "x1": 2205.5502392344497,
+          "y1": 1357.3531914893617
+        },
+        "paper": {
+          "x0": 2127.3684210526317,
+          "y0": 1157.677659574468,
+          "x1": 2561.4832535885166,
+          "y1": 1371.7627659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.2535612535612536,
+        "y": 0.5414893617021277
+      },
+      "bounds": {
+        "glass": {
+          "x0": 19.891130104463414,
+          "y0": 221.7744680851064,
+          "x1": 174.29584045584045,
+          "y1": 691.3617021276596
+        },
+        "paper": {
+          "x0": 140.18317188983855,
+          "y0": 604.268085106383,
+          "x1": 329.59825261158596,
+          "y1": 697.6468085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.2535612535612536,
+        "y": 0.5414893617021277
+      },
+      "bounds": {
+        "glass": {
+          "x0": 21.79684710351377,
+          "y0": 244.89787234042558,
+          "x1": 192.30062678062677,
+          "y1": 763.4468085106383
+        },
+        "paper": {
+          "x0": 154.63118708452043,
+          "y0": 667.2723404255319,
+          "x1": 363.79570750237417,
+          "y1": 770.3872340425532
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.2535612535612536,
+        "y": 0.5414893617021277
+      },
+      "bounds": {
+        "glass": {
+          "x0": 27.975232668565994,
+          "y0": 149.25106382978726,
+          "x1": 131.8874074074074,
+          "y1": 465.27659574468083
+        },
+        "paper": {
+          "x0": 108.93006647673315,
+          "y0": 406.663829787234,
+          "x1": 236.40372269705603,
+          "y1": 469.5063829787234
+        }
+      }
+    }
+  ]
+}

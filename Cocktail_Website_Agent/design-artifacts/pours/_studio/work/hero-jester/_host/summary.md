@@ -1,0 +1,13 @@
+- **The persona:** the Storyteller turns their worst days into everyone's favourite stories. The rule only they live by: the bigger the story, the worse it really was. The kindness is that the joke spares the listener. Wren's turn: never asking them to stop, only for one telling exactly as big as it was.
+- **The story:** Trader Vic Bergeron (Oxford BERGERON pdf 258; MAI TAI pdf 1209–1212; *Joy* pdf 69, 327; Difford's; Beyl, *Marina Times* 2015). He lost a leg as a child and later told it as a shark; under the legend is the plain record (the leg, the paint-to-tyres jobs, the barbecue shack Hinky Dink's, the cook who became "the Trader"). The reading grants the shark first, then the plain core, and never calls him a fraud. It was the plan's lead, accepted by Wren with a stricter guard (no cause for the leg: three versions). Backup (unused): Sidney Frank.
+- **Versions that failed:** "one change" in y4 (counted, there were several, so it's now "keeps close to his formula, and the main change is mine"); "shaken hard with crushed ice" inside Vic's own description; "a dash of sugar" (he wrote rock candy syrup); the v1 epigraph, rewritten once Hester checked F16; the closing line's "ask for one" (it read as ordering a drink).
+- **The drink:** the Mai Tai to Vic's 1944 formula: 60 ml aged Jamaican rum (Appleton 12 suggested), 30 ml lime, 15 ml dry orange curaçao, 15 ml home-made **toasted** almond orgeat, 5 ml simple syrup; crushed ice in a double Old-Fashioned glass, a mint branch and the spent lime shell. **Contains nuts.** The spark is the *Flavor Matrix*'s toasting (pdf 184), a nod to the cook he was. Closing line: *Take the almonds to gold before anything else: that's where the taste is. Next time someone asks how it went, give them what happened, nothing added.*
+- **"This is me":** "The bigger the story, the worse it really was."
+- **Names:** *Hold the Shark*, 3–0 at the vote (Tomás moved from *Ask Me Again*; Hester from *Hinky Dink's*). *Ask Me Again* goes to Robin as the alternative.
+- **Edges and flags for Robin:**
+  - Contains nuts (orgeat), so the Hero family is now at most seven veto-free.
+  - That the shark was Vic's own telling rests on Difford's alone; *Frankly Speaking* would settle it.
+  - The Appleton 12 label figures are unsourced (covered by the ABV sweep).
+  - New ingredient rows from Tomás: `orgeat_toasted_almond` [nuts], `rum_appleton_12`, `lime_shell_half`, `mint_branch`.
+- **Rule candidates:** none.
+- **Process note:** 4 rounds. Round 4 ran in four steps, plus two lint-only fixes and a citation-only tidy of the reading's closing-line note. All three signed in r4.

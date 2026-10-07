@@ -1,0 +1,306 @@
+{
+  "pairing": "caregiver-hero",
+  "pour": "Off Duty",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "945bfc61eef4d055827dd1b3fc6210a51554dbdf5fcf57400611ab45d8e7e54e",
+  "review": {
+    "recipe": "Small wide 250ml teacup,165ml clear pale honey-gold hot toddy; two removed thyme sprigs on saucer; no liquid garnish,ice,foam or lemon.",
+    "personality": "Phone placed face-down and keys now close in front of cup; pulled-out chair and set-down coat behind. Narrow phone retains complete keys and identifiable phone body, though phone corner crops.",
+    "world": "Same worn dark walnut,near-black reading room, restrained warm practical light and neutral shadows. Normal functional key metal allowed.",
+    "issues": [
+      "Long-name browser fit remains unverified; writable width107 source pixels."
+    ]
+  },
+  "measurements": {
+    "pairing": "caregiver-hero",
+    "pour": "Off Duty",
+    "master": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-3df879af-78d9-4d64-a804-6f0d273e6332.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-3df879af-78d9-4d64-a804-6f0d273e6332.png",
+    "sourceSha256": "945bfc61eef4d055827dd1b3fc6210a51554dbdf5fcf57400611ab45d8e7e54e",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      650,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1092,
+      "cy": 573,
+      "w": 107,
+      "angle": -4.6
+    },
+    "glass": {
+      "x": 1005,
+      "y": 508
+    },
+    "bounds": {
+      "glass": {
+        "x0": 811,
+        "y0": 405,
+        "x1": 1186,
+        "y1": 631
+      },
+      "paper": {
+        "x0": 1031,
+        "y0": 532,
+        "x1": 1169,
+        "y1": 610
+      }
+    },
+    "review": {
+      "recipe": "Small wide 250ml teacup,165ml clear pale honey-gold hot toddy; two removed thyme sprigs on saucer; no liquid garnish,ice,foam or lemon.",
+      "personality": "Phone placed face-down and keys now close in front of cup; pulled-out chair and set-down coat behind. Narrow phone retains complete keys and identifiable phone body, though phone corner crops.",
+      "world": "Same worn dark walnut,near-black reading room, restrained warm practical light and neutral shadows. Normal functional key metal allowed.",
+      "issues": [
+        "Long-name browser fit remains unverified; writable width107 source pixels."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1253.9712918660287,
+        "cy": 658.3404255319149,
+        "w": 122.87081339712918,
+        "angle": -4.6024362994502255
+      },
+      "glass": {
+        "x": 1154.066985645933,
+        "y": 583.6595744680851
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 564.1481481481482,
+        "cy": 731.4893617021277,
+        "w": 136.56980056980058,
+        "angle": -4.600870108860632
+      },
+      "glass": {
+        "x": 453.1054131054131,
+        "y": 648.5106382978723
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/caregiver-hero/portrait.jpg",
+    "wide": "/personas/caregiver-hero/wide.jpg",
+    "wideTag": {
+      "cx": 0.65311004784689,
+      "cy": 0.6095744680851064,
+      "w": 0.06399521531100479,
+      "angle": -4.6024362994502255
+    },
+    "wideGlass": {
+      "x": 0.6010765550239234,
+      "y": 0.5404255319148936
+    },
+    "tag": {
+      "cx": 0.6296296296296297,
+      "cy": 0.6095744680851064,
+      "w": 0.15242165242165243,
+      "angle": -4.600870108860632
+    },
+    "glass": {
+      "x": 0.5056980056980057,
+      "y": 0.5404255319148936
+    }
+  },
+  "hashes": {
+    "master": "6c2537791f577208add262b2876fed1312c39503213da4b60988801a81bdad52",
+    "wide": "56a350ef05d029afa2fb911939e306e28616dfb78e8ee50b0ab7a6a798ae7546",
+    "portrait": "1e615a145f8942b1660b67cf60b5f5faa255b44810b275d618fea3aa27dbf6d0"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 931.2918660287082,
+          "y0": 465.3191489361702,
+          "x1": 1361.913875598086,
+          "y1": 724.9787234042553
+        },
+        "paper": {
+          "x0": 1183.9234449760766,
+          "y0": 611.2340425531916,
+          "x1": 1342.3923444976076,
+          "y1": 700.8510638297872
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 696.0765550239234,
+          "y0": 387.7659574468085,
+          "x1": 1054.9282296650717,
+          "y1": 604.1489361702128
+        },
+        "paper": {
+          "x0": 906.6028708133971,
+          "y0": 509.3617021276596,
+          "x1": 1038.6602870813397,
+          "y1": 584.0425531914893
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 993.377990430622,
+          "y0": 442.9804255319149,
+          "x1": 1452.7081339712918,
+          "y1": 719.9506382978724
+        },
+        "paper": {
+          "x0": 1262.8516746411483,
+          "y0": 598.6229787234043,
+          "x1": 1431.8851674641148,
+          "y1": 694.2144680851063
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1668.5645933014355,
+          "y0": 605.9968085106382,
+          "x1": 2440.095693779904,
+          "y1": 1071.2202127659575
+        },
+        "paper": {
+          "x0": 2121.1961722488036,
+          "y0": 867.4276595744682,
+          "x1": 2405.1196172248806,
+          "y1": 1027.9914893617022
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5056980056980057,
+        "y": 0.5404255319148936
+      },
+      "bounds": {
+        "glass": {
+          "x0": 23.06807217473883,
+          "y0": 363.6382978723404,
+          "x1": 359.70624881291553,
+          "y1": 566.5574468085107
+        },
+        "paper": {
+          "x0": 220.56246913580244,
+          "y0": 477.668085106383,
+          "x1": 344.4453181386515,
+          "y1": 547.7021276595744
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5056980056980057,
+        "y": 0.5404255319148936
+      },
+      "bounds": {
+        "glass": {
+          "x0": 25.13773979107313,
+          "y0": 401.5531914893617,
+          "x1": 396.87563152896485,
+          "y1": 625.6297872340426
+        },
+        "paper": {
+          "x0": 243.22396961063626,
+          "y0": 527.472340425532,
+          "x1": 380.02351377018044,
+          "y1": 604.8085106382979
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5056980056980057,
+        "y": 0.5404255319148936
+      },
+      "bounds": {
+        "glass": {
+          "x0": 44.620094966761634,
+          "y0": 244.72340425531914,
+          "x1": 271.17280151946824,
+          "y1": 381.28510638297877
+        },
+        "paper": {
+          "x0": 177.53101614434945,
+          "y0": 321.4638297872341,
+          "x1": 260.90241215574554,
+          "y1": 368.59574468085106
+        }
+      }
+    }
+  ]
+}

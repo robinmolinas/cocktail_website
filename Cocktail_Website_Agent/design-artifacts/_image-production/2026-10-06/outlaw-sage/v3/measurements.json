@@ -1,0 +1,116 @@
+{
+  "pairing": "outlaw-sage",
+  "pour": "Hear Me Out",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-sage/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-cac32a27-a709-4c6e-ac6c-bf7e5d26c355.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "b19683d480e57ce3ca043aea3cb7f42e445911a096c45eba8a2ef5ab3bae3431",
+  "sourceSha256": "75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c",
+  "specSha256": "19cc3a721388ed1476111dafcda2feb8e33252164ba2b0373d4c7f0d5b03adff",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    852,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1143,
+    "cy": 677,
+    "w": 75,
+    "angle": 74
+  },
+  "glass": {
+    "x": 1011,
+    "y": 560
+  },
+  "bounds": {
+    "glass": {
+      "x0": 883,
+      "y0": 407,
+      "x1": 1138,
+      "y1": 713
+    },
+    "paper": {
+      "x0": 1097,
+      "y0": 608,
+      "x1": 1181,
+      "y1": 728
+    },
+    "discussionPage": {
+      "x0": 1139,
+      "y0": 476,
+      "x1": 1527,
+      "y1": 671
+    },
+    "pencil": {
+      "x0": 1188,
+      "y0": 477,
+      "x1": 1410,
+      "y1": 631
+    }
+  },
+  "recognitionRegions": {
+    "discussionPage": {
+      "bounds": {
+        "x0": 1220,
+        "y0": 502,
+        "x1": 1525,
+        "y1": 670
+      },
+      "reason": "Substantial visible folded paper face/edge, not a strip; still inferred discussion habit."
+    },
+    "pencil": {
+      "bounds": {
+        "x0": 1188,
+        "y0": 477,
+        "x1": 1410,
+        "y1": 631
+      },
+      "reason": "Visible whole pencil shaft/eraser/tip recognisable."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "snug exterior lower-third cylindrical body loop, friction-held; knot at front-right; short downward tether through punched hole; paper hangs and lower edge rests timber",
+    "loopBounds": {
+      "x0": 885,
+      "y0": 575,
+      "x1": 1132,
+      "y1": 608
+    },
+    "knot": {
+      "x": 1105,
+      "y": 598
+    },
+    "paperHole": {
+      "x": 1125,
+      "y": 627
+    },
+    "rimAttachmentRemoved": true,
+    "visibleFrontArc": true,
+    "farArcOccluded": true,
+    "continuousSupportChainObserved": true,
+    "gravityPlausible": true,
+    "paperSeparate": true,
+    "lowerEdgeContact": "timber at about y727; not falsely claimed free-floating",
+    "uncertainty": "Photograph supports a snug loop, not a measured friction/load test. Name glyph fit untested."
+  },
+  "review": {
+    "recipe": "Targeted attachment correction only. Same rocks sour/ice/white foam/one yellow lemon peel. Insufficiently cloudy liquid remains hold, not fixed by this edit.",
+    "personality": "Same inferred discussion page/pencil, full group644px/recognition642px too broad for moving phone; prior holds retained.",
+    "world": "Glossy warm patterned timber and dense crystalline ice remain held.",
+    "issues": [
+      "Actual lower body support chain replaces old unanchored rim hook.",
+      "Small blank tag actual75px writing axis, no name/font/crop acceptance.",
+      "Material, liquid appearance, personality specificity and moving-phone framing still held."
+    ]
+  }
+}

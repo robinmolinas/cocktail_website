@@ -59,7 +59,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 **whoYouAre**
 Everyone at the table is nodding along to something that isn't true, and you can feel your face giving you away. Not because you love an argument. You can spot something put on, and you've never learned how to stop noticing.
 
-Underneath sits a promise, made a long time ago, about the person you'd never turn into. You check on it more often than anyone would guess. Trouble never scared you much. What scares you is how gently it would happen: nobody forcing you, no moment you'd notice, only your own good reasons, one after another, until you're someone you once swore you'd never be.
+Underneath sits a promise, made a long time ago, about the person you'd never turn into. You check on it more often than anyone would guess. What scares you is how gently the change would come: nobody forcing you, no moment you'd notice, only your own good reasons, one after another, until you're someone you once swore you'd never be.
 
 You never got used to it, and the people who live and work beside you are better off for it. When you say so, they remember what they meant before they stopped noticing. Without someone like you, a room can talk itself into almost anything.
 
@@ -73,7 +73,7 @@ You never got used to it, and the people who live and work beside you are better
 
 4. So for you I chose the Old-Fashioned, as renowned as classics get, and built it on Armagnac, a French brandy older than cognac by at least a century and a half. Just one tablespoon of yellow Chartreuse goes in, and it does most of the sweetening, as a nod to the monks: one spoonful is all it needs. Stirred cold over ice with bitters, a strip of lemon peel squeezed over it at the end, it's deep, warm brandy with a honeyed, herbal edge: strong, golden and only lightly sweet. And a bottle that's hard to find goes a long way here.
 
-5. Here's my side of it. Keep the promise. But most people know you by what you turn down. Let someone see what it's protecting: what you love, up close, before anyone gets the chance to argue. A refusal starts arguments. Something you love, shown to someone, tends to end them. And then you're known for what you love, not only for what you refuse.
+5. Keep the promise. But most people know you by what you turn down. Let someone see what it's protecting: what you love, up close, before anyone gets the chance to argue. A refusal starts arguments. Something you love, shown to someone, tends to end them. And then you're known for what you love, not only for what you refuse.
 
 ---
 

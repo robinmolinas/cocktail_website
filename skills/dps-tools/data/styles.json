@@ -64,6 +64,38 @@
     ]
    }
   },
+  "stirred-spirit": {
+   "label": "Stirred, spirit only (no vermouth, no citrus: an Old-Fashioned or CANADIAN served up)",
+   "dilution": {
+    "formula": "stirred",
+    "expected": [
+     0.41,
+     0.49
+    ]
+   },
+   "initial": {
+    "abv": [
+     29,
+     43
+    ],
+    "sugar": [
+     5.3,
+     8.0
+    ]
+   },
+   "finished": {
+    "abv": [
+     21,
+     29
+    ],
+    "sugar": [
+     3.7,
+     5.6
+    ]
+   },
+   "family": "old-fashioned",
+   "note": "Stirred dilution and Arnold's stirred strength and sugar ranges, with no acid range: the stirred acid floor assumes vermouth (Tomás's rule candidate, outlaw-regular-guy 2026-10-01; accepted by Robin 2026-10-06, D2)."
+  },
   "shaken": {
    "label": "Shaken (sours)",
    "dilution": {
@@ -353,10 +385,6 @@
     "sugar": [
      10.0,
      13.2
-    ],
-    "acid": [
-     0.73,
-     1.0
     ]
    },
    "finished": {
@@ -367,13 +395,9 @@
     "sugar": [
      6.7,
      9.0
-    ],
-    "acid": [
-     0.49,
-     0.68
     ]
    },
-   "note": "Arnold has no flip category; judged against his egg-white ranges (the closest structure). Cocktail Codex root: the Flip. A hot flip belongs under 'hot'."
+   "note": "Arnold has no flip category; strength and sugar are judged against his egg-white ranges (the closest structure). A Flip or nog has no citrus, so no acid range applies (Robin 2026-10-06, collection review D2). Cocktail Codex root: the Flip. A hot flip belongs under 'hot'."
   },
   "freeform": {
    "label": "Freeform (anything no style fits: milk punch, jelly, frozen, spritz…)",

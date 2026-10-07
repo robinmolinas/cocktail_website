@@ -1,0 +1,3 @@
+Master visually inspected. Drink physical serve correct. Candidate hold: measured combined glass/paper horizontal span is 473 master pixels; proposed portrait's narrowest phone cover shows about435px, so full glass+tag likely cannot both survive. Actual helper test still pending; do not integrate or mark pair complete. Recompose smaller glass/tag group when export gate opens.
+
+Not an accepted image pair: no exports, seven geometry tests or browser name-overlay test yet. Export helper execution was rejected by automatic approval review for lacking an action-specific approval marker; no retry or workaround executed.

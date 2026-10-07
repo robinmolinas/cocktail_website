@@ -65,7 +65,7 @@ It's the yes you don't trust. When the people in charge finally want what you ma
 
 3. I like to think Smith faced the question you carry: was it ever good, or only good because it was forbidden? What's on the record is what he did: he went on making it, in the open. Being let in didn't make it disappear. It made it the one others copied: within a few years, people were trading on its name, and within twenty, London was being sold his as "the Real Glenlivet".
 
-4. The cocktail I've made for you starts from the Old-Fashioned, a renowned classic. The whisky is The Glenlivet 12 Year Old, from the distillery he licensed, which Oxford's drinks companion calls "subtle, even delicate". It's stirred cold over a single big cube with a teaspoon of sugar syrup and orange bitters, then finished with the oil from a lemon peel. The one addition is a tablespoon of elderflower liqueur, to bring up the flowers a well-known cocktail book already tastes in this whisky: "elegant and floral", it says. Nothing smoky, nothing raw: none of it tries to taste forbidden, as a nod to a whisky that never needed to be.
+4. The cocktail I've made for you starts from the Old-Fashioned, a renowned classic. The whisky is The Glenlivet 12 Year Old, from the distillery he licensed: a subtle, gentle malt. It's stirred cold over a single big cube with a teaspoon of sugar syrup and orange bitters, then finished with the oil from a lemon peel. The one addition is a tablespoon of elderflower liqueur, to bring up the flowers a well-known cocktail book already tastes in this whisky: "elegant and floral", it says. Nothing smoky, nothing raw: none of it tries to taste forbidden, as a nod to a whisky that never needed to be.
 
 5. So, one proposal. Make something that isn't against anything: no rule in its way, nobody to prove wrong. Then show it to the people whose approval you've never wanted. If they want it, that isn't the moment you lose. It's the moment you find out it was good. And you'll still be the one who made it.
 
@@ -120,6 +120,13 @@ Grepped v3 for every struck phrase ("judge", "sought-after", "the Livet", "years
 | B17 | *The Real One* (my name): "the real one" appears as a phrase in *Everybody's* and *On One Condition* (Tomás's grep) | Stays on Robin's list, flagged; not a pick. |
 
 **Final:** reading v3, draft v2, spec v1 pass the audit. Anchors (draft r4) consistent with all three; no struck phrase in them. I'd put my name to this.
+
+
+#### Collection review 2026-10-06 (Hester, open items)
+
+| ID | where | before | after | ruling and source |
+|---|---|---|---|---|
+| CR1 | y4, sentence 2 | "from the distillery he licensed, which Oxford's drinks companion calls "subtle, even delicate"" | "from the distillery he licensed: a subtle, gentle malt" | **Pass**, for the collection's Oxford item (one name, *the Oxford Companion to Spirits and Cocktails*, kept only where the book is part of the story). The book wasn't part of the story, and y4 already quotes a second book ("elegant and floral"). Our words, not a quote: Oxford pdf 918 ("a subtle, even delicate whisky"), and today's bottle doesn't contradict it (*Codex* p. 204 "elegant and floral"; Dwyer 2025, fruit-led, no smoke). The fence holds: no peat or sherry claim about today's bottle. |
 
 ### Resonance
 

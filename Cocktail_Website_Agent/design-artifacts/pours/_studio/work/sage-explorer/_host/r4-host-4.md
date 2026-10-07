@@ -1,0 +1,1 @@
+🕯️ **Host:** Step 3 is in: Wren on reading v3, Tomás on the draft after Hester's fixes; both sign, both name *Look Again*. Reassembled: **0 error(s), 2 warning(s)** (the pronoun warnings Wren accepted). **Step 4:** Hester, confirm on the fixed files (`psychologist-reading-v3.md`, `mixologist-draft.md`, the spec), give your one name and sign or "Not yet:".

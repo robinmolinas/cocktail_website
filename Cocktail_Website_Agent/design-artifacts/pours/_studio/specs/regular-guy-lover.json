@@ -25,10 +25,16 @@
   {
    "key": "orange_bitters",
    "dashes": 1
+  },
+  {
+   "key": "water",
+   "ml": 40.1,
+   "note": "melt from stirring on ice (stirred formula, 37.5%: 107.0 ml -> 147.1 ml); not added (Q142, Tomás 2026-10-06)"
   }
  ],
  "garnish": [
   "brandied_peach"
  ],
- "_status": "v2 (Tomás, round 4). Soy sauce ruled out (Wren r3; Tomás concedes r4); no Matrix spark, Matrix consulted and set aside. Oxford COHASSET PUNCH pdf 550 at three-quarters (60/60/5 -> 45/45/3.75; half lemon -> about a third, modelled 12.5 ml juice, swept 10-15). Judged freeform against Arnold's stirred Schokozitrone (LI p. 209: 19.2% / 7.4 g / 0.70%) and both stirred and shaken ranges. Peach: an eighth, soaked in brandy with a spoon of syrup a few days ahead (Oxford pdf 549)."
+ "_status": "v2 (Tomás, round 4). Soy sauce ruled out (Wren r3; Tomás concedes r4); no Matrix spark, Matrix consulted and set aside. Oxford COHASSET PUNCH pdf 550 at three-quarters (60/60/5 -> 45/45/3.75; half lemon -> about a third, modelled 12.5 ml juice, swept 10-15). Judged freeform against Arnold's stirred Schokozitrone (LI p. 209: 19.2% / 7.4 g / 0.70%) and both stirred and shaken ranges. Peach: an eighth, soaked in brandy with a spoon of syrup a few days ahead (Oxford pdf 549).",
+ "judged_by_hand": "Arnold's stirred Schokozitrone (LI p. 209) and the stirred and shaken ranges, by hand. The water line is the stirring melt from balance.py's stirred formula (37.5%), not water added (Q142, 2026-10-06)."
 }

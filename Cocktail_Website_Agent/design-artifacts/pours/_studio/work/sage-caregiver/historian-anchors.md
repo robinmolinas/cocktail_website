@@ -1,0 +1,31 @@
+# Anchors: sage-caregiver (The Mentor) · Hester, r2
+
+Story: Jerry Berns taught Brian Rea at the 21 Club; Rea later invented a job of his own. Card: `_studio/fact-cards/brian-rea-jerry-berns.md`.
+Every row is paraphrased (no source runs). The only quoted words are short and in the Source column.
+
+| kind | fact | meaning | speaksTo |
+|---|---|---|---|
+| person | Brian Rea (1927–2021) was an American bartender, collector and historian of the bartender's craft. His career got going properly when the 21 Club in midtown Manhattan hired him. Source: Oxford REA, BRIAN, pdf 1614 (primary tier). | The student is real and on the record. | story |
+| teaching | Jerry Berns (1907–2006) taught Rea the bar and restaurant business. Oxford's verb is "schooled", and it calls Rea "enthusiastic" (pdf 1614). Nothing on the page says how Berns taught him, what he said, or how he felt about it. | The teaching is a fact. Feelings and lessons are not: (3) is signposted only, and (4) is never a story event. | story (1) |
+| rise | Rea worked his way up to head bartender at 21, in years when Oxford calls it "arguably" the most famous bar in the world (pdf 1614). Those years are undated. His first bar job was in 1947 (somewhere else) and his West Coast years were in the 1960s. | He learned in the best-known room there was. Then he left it. Keep "arguably", and never date his 21 years. | story |
+| the turn | In 1969 Rea came up with a new hospitality job, the beverage director, which would run bar and drinks separately from food (pdf 1614). | Our reading, signposted: he was taught the bar and the restaurant as one business, and his own idea split them apart. The student went somewhere the house hadn't. Oxford never links the idea to Berns. | story (5), Wren's reading |
+| the yes | He talked to six big hospitality companies. One of them, Host International, was willing to try it and made him its director of beverage services (pdf 1614). | The success is plainly his. Say "talked to six" and "one said yes". Never "five turned him down" (not on the page). Host's title for him was "director of beverage services". | story (5) |
+| the dates | Berns died in 2006. Rea's 1969 job and everything after it fall within Berns's lifetime (pdf 1614 gives both men's dates). | This makes a signposted "I like to think Berns heard about it" honest. No page says he heard, or was glad. | reading (the ache, the position) |
+| the house drink | The Southside is a tall drink of gin, lemon, sugar, mint and soda. Oxford says it has "for many years" been the 21 Club's house drink (SOUTHSIDE, pdf 1851), with no dates. | The glass belongs to the house where the teaching happened, not to Rea. Never "the drink Rea learned" or "poured". Use "long the house drink", never "still is". | drink, epigraph |
+| the recipe | Oxford's build: 45 ml gin, 30 ml fresh lemon, 22.5 ml simple syrup and about six mint leaves, shaken hard with ice, strained into a highball glass over ice, a short top of soda, a quick stir and a mint sprig (pdf 1851). Its other two versions: a mint-steeped "mix" left in the fridge for two to three days, and rum in place of gin in Maryland's Hunt Country. | Tomás's baseline. The make-ahead mix is fenced (Wren). | drink |
+| the reputation | Oxford calls the Southside the country-club drink of New York's "plutocrats". It adds that 21 being its home did nothing to change that reputation (pdf 1851). The Chicago-speakeasy origin is a rumour, and Oxford says it's wrong. | One wry clause at most (Wren). The Chicago rumour stays out (it's the Connoisseur's correction shape). | reading (optional) |
+| his own words | Rea wrote *Brian's Booze Guide* (1976) and *Brian's Bartender Guide* (1978). Oxford says both show his humour, common sense and strong technique. *B.A.S.T.A.R.D.S.* came out in 2017 (pdf 1614–1615). I found nothing in his own words about Berns. | (3) and (4) stay where Wren put them. Library gap raised (below). | dossier |
+
+## Contested or fenced (stays out of guest text)
+- **C1 "a founder": contested, so drop the role.** Oxford pdf 1614 says Jerry Berns founded 21 "along with his brother Charlie and cousin Jerome Kreindler". DeGroff, *The Essential Cocktail* (2008; archive.org full-text OCR highlight, cut off) gives the club as "Jack and Charlie's", for "Jack Kriendler and Charles E. Berns, cousins". The two sources differ on the cousin's first name and the spelling, and on whether Jerry was among them. No library page dates the founding. The rule is "when sources disagree, the contested detail stays out", so write "Jerry Berns, at the 21 Club", with no founder, owner or "the man who ran it". This replaces Wren's r1 condition "Berns is 'a founder'".
+- **C2** "The father that Rea never had" (Oxford's phrase), foster care and the Merchant Marine: dossier only (Wren).
+- **C3** The Little Club is where Doris Day began her career (Oxford). Rea worked there later. Never "Rea worked with Doris Day". One clause at most, or out.
+- **C4** Rea's later clients, and a 1986 *NRA News* OCR highlight that lists Rea as an instructor of a bar-business course in the same volume where Berns shares "secrets for success" and is honoured by the CIA Hall of Fame (archive.org `micro_IA40706920_0459`, highlight cut off, issue unconfirmed). This is a lead only. Rea teaching others is the Visionary's chain: out.
+- **C5** "A job nobody had ever had" goes further than Oxford's "new hospitality position". Say "a new kind of job". Never "the first beverage director".
+- **C6** "He took what he was taught and…" is a causal reading. Oxford says nothing about where the idea came from: signpost it.
+
+## Web (budget 2, both spent)
+1. WebSearch, "Brian Rea" "Jerry Berns": it returned Berns obituaries only (Today/AP, *NRN*, *Boston Globe*, Dec 2006). No Rea quotation was in the results. Nothing was fetched, so nothing from them is cited.
+2. archive.org full-text search, "Brian Rea" Berns: it returned the DeGroff highlight (C1) and the 1986 *NRA News* highlight (C4). No text of *B.A.S.T.A.R.D.S.* was found.
+
+**Library gap for Robin:** *B.A.S.T.A.R.D.S.* (Rea, CreateSpace 2017) and Rea's 2021 obituaries. Either could turn (3) or (4) into fact. Without them, both stay where Wren put them.

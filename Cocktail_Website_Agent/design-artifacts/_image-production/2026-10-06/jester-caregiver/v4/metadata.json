@@ -1,0 +1,306 @@
+{
+  "pairing": "jester-caregiver",
+  "pour": "Anyway",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "4f49ef8676ff8c63c1e5cfe516cafe71d626e7dbaa7acf01cc918d1cd827a6df",
+  "review": {
+    "recipe": "Exact chilled250ml stemmed wine glass, hazy rosy amber-orange, thin natural shake froth, bare rim no pulp/seeds/ice/garnish.",
+    "personality": "Small clock beside stem and used party crown behind near game timer; all clustered tightly. Predicted narrow phone retains whole clock and crown, plus main part of timer, showing organised fun and previous theme rather than an archetype costume.",
+    "world": "Existing private dark historic walnut reading room; burgundy, one warm practical source, neutral near-black shadows, restrained grain.",
+    "issues": [
+      "Actual new pair/seven-cover validation pending; browser/name overlay unavailable, not claimed."
+    ]
+  },
+  "measurements": {
+    "pairing": "jester-caregiver",
+    "pour": "Anyway",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-caregiver/v4/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-dd8df42c-fd04-4b75-a47d-444ec8388d45.png",
+    "sourceSha256": "4f49ef8676ff8c63c1e5cfe516cafe71d626e7dbaa7acf01cc918d1cd827a6df",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      596,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1043,
+      "cy": 646,
+      "w": 164,
+      "angle": 24
+    },
+    "glass": {
+      "x": 913,
+      "y": 373
+    },
+    "bounds": {
+      "glass": {
+        "x0": 782,
+        "y0": 239,
+        "x1": 1048,
+        "y1": 736
+      },
+      "paper": {
+        "x0": 925,
+        "y0": 575,
+        "x1": 1141,
+        "y1": 735
+      }
+    },
+    "review": {
+      "recipe": "Exact chilled250ml stemmed wine glass, hazy rosy amber-orange, thin natural shake froth, bare rim no pulp/seeds/ice/garnish.",
+      "personality": "Small clock beside stem and used party crown behind near game timer; all clustered tightly. Predicted narrow phone retains whole clock and crown, plus main part of timer, showing organised fun and previous theme rather than an archetype costume.",
+      "world": "Existing private dark historic walnut reading room; burgundy, one warm practical source, neutral near-black shadows, restrained grain.",
+      "issues": [
+        "Actual new pair/seven-cover validation pending; browser/name overlay unavailable, not claimed."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1197.7033492822966,
+        "cy": 742.2127659574469,
+        "w": 188.32535885167465,
+        "angle": 24.011323222075763
+      },
+      "glass": {
+        "x": 1048.421052631579,
+        "y": 428.55319148936167
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 570.5299145299145,
+        "cy": 824.6808510638299,
+        "w": 209.32193732193733,
+        "angle": 24.004044236690923
+      },
+      "glass": {
+        "x": 404.6039886039886,
+        "y": 476.17021276595744
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/jester-caregiver/portrait.jpg",
+    "wide": "/personas/jester-caregiver/wide.jpg",
+    "wideTag": {
+      "cx": 0.6238038277511961,
+      "cy": 0.6872340425531915,
+      "w": 0.09808612440191387,
+      "angle": 24.011323222075763
+    },
+    "wideGlass": {
+      "x": 0.5460526315789473,
+      "y": 0.39680851063829786
+    },
+    "tag": {
+      "cx": 0.6367521367521367,
+      "cy": 0.6872340425531915,
+      "w": 0.2336182336182336,
+      "angle": 24.004044236690923
+    },
+    "glass": {
+      "x": 0.4515669515669516,
+      "y": 0.39680851063829786
+    }
+  },
+  "hashes": {
+    "master": "a3835ca755238188d92886ab2c53a41bf60084a593b5f0495781022cb9107976",
+    "wide": "00aa8958b10ca3ac69c8863b013f0301d71182c6330b6978fe42f83a4a34f262",
+    "portrait": "76e87b06917306f386b7cccc14fad920dd0a611410d7d89d034c317f532c16aa"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 897.9904306220096,
+          "y0": 274.59574468085106,
+          "x1": 1203.4449760765551,
+          "y1": 845.6170212765958
+        },
+        "paper": {
+          "x0": 1062.200956937799,
+          "y0": 660.6382978723404,
+          "x1": 1310.2392344497607,
+          "y1": 844.468085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 668.3253588516747,
+          "y0": 228.82978723404256,
+          "x1": 922.8708133971293,
+          "y1": 704.6808510638298
+        },
+        "paper": {
+          "x0": 805.1674641148325,
+          "y0": 550.531914893617,
+          "x1": 1011.8660287081339,
+          "y1": 703.7234042553191
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 957.8564593301436,
+          "y0": 239.54212765957448,
+          "x1": 1283.6746411483255,
+          "y1": 848.6314893617022
+        },
+        "paper": {
+          "x0": 1133.0143540669856,
+          "y0": 651.3208510638298,
+          "x1": 1397.5885167464114,
+          "y1": 847.4059574468084
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1608.8995215311006,
+          "y0": 264.2840425531915,
+          "x1": 2156.172248803828,
+          "y1": 1287.363829787234
+        },
+        "paper": {
+          "x0": 1903.1100478468898,
+          "y0": 955.9436170212764,
+          "x1": 2347.5119617224877,
+          "y1": 1285.3053191489362
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4515669515669516,
+        "y": 0.39680851063829786
+      },
+      "bounds": {
+        "glass": {
+          "x0": 58.512174738841395,
+          "y0": 214.59148936170214,
+          "x1": 297.3008547008547,
+          "y1": 660.8340425531915
+        },
+        "paper": {
+          "x0": 186.88353276353274,
+          "y0": 516.2765957446808,
+          "x1": 380.7871225071225,
+          "y1": 659.936170212766
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4515669515669516,
+        "y": 0.39680851063829786
+      },
+      "bounds": {
+        "glass": {
+          "x0": 64.31335232668566,
+          "y0": 236.96595744680855,
+          "x1": 327.9994301994302,
+          "y1": 729.7361702127658
+        },
+        "paper": {
+          "x0": 206.0694017094017,
+          "y0": 570.1063829787233,
+          "x1": 420.1904273504273,
+          "y1": 728.7446808510638
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4515669515669516,
+        "y": 0.39680851063829786
+      },
+      "bounds": {
+        "glass": {
+          "x0": 65.359012345679,
+          "y0": 144.41702127659576,
+          "x1": 226.06039886039883,
+          "y1": 444.73191489361704
+        },
+        "paper": {
+          "x0": 151.75111111111113,
+          "y0": 347.4468085106383,
+          "x1": 282.24547008547006,
+          "y1": 444.12765957446805
+        }
+      }
+    }
+  ]
+}

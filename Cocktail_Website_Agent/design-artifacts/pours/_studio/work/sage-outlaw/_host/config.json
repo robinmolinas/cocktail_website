@@ -1,0 +1,26 @@
+{
+ "pairing": "sage-outlaw",
+ "personality": "The Lone Voice",
+ "archetypes": "Sage × Outlaw",
+ "date": "2026-10-02",
+ "batch": "sage",
+ "name": "On the Record",
+ "tagline": "You don't like being the only one. You like pretending even less.",
+ "epigraph": "Port goes in twice here: once in short, then again at greater length.",
+ "glassware": "small stemmed port glass (about 150 ml), chilled, no ice",
+ "contains": [],
+ "veto_free": true,
+ "reading": "psychologist-reading-v2.md",
+ "card": "joseph-james-forrester.md",
+ "language_row": "Wren's checks on v2: title block, whoYouAre and yours swap-tested against the family (in her Resonance); name and tagline alternatives kept in `psychologist-alternatives.md`; lint 0 errors, 5 warnings (gendered pronouns in yours 1–5, Forrester, a historical person, accepted by Wren in r4 step 1). ✓",
+ "sources": "Studio fact card `_studio/fact-cards/joseph-james-forrester.md`. *Dictionary of National Biography* vol. 20 (1889), pp. 14–15, entry by Ellen Mary Clerke, read in full on Wikisource (secondary, period, signed). *The Oxford Companion to Spirits and Cocktails*, ELDER (pdf 707, primary). *The Cocktail Codex* (port, p. 250; the Bamboo shape, p. 91; p. 9). *The Flavor Matrix*, Cocoa and Fig charts (pdf 85, 121; port, red wine and tea in the Phenol group). Web (Hester's 2 visits): Wikisource (DNB) and one archive.org full-text search (`\"Forrester\" \"import duties on wines\"`), OCR highlights only, each labelled as cut off (Barr, *Drink*; *Edinburgh Review* 1867; Simpson, *Creating Wine*, 2011).",
+ "names_note": "Vote in round 4, steps 3–4: *On the Record* 2–1 (Tomás, Hester); Wren voted *The Second Time* and recorded the room's pick in her title block. Also considered: *Said Twice*, *Still There*, *At Greater Length*. Picks were held until the vote.",
+ "open_items": [
+  "FLAGGED, balance by choice: balance.py (`stirred`) reads strength (10.8% finished vs 21–29), acid (0.27% vs 0.10–0.14) and dilution (29.6% vs 41–49) OUT. Tomás keeps the wine core by choice and justifies it in Checks: a port core can't reach a spirit Martini's strength, and wine carries its own acid (the Codex's Bamboo shape; sibling *Night Light* reads the same way).",
+  "Port residual sugar has no source in the library: across 8.5–13 g/100 ml the finished sugar runs 4.99–7.08 g/100 ml, EDGE at mid-range values and OUT for the sweetest bottles. Library gap named by Hester: Mayson, *Port and the Douro* (2012).",
+  "Whether Forrester was right is contested (card C3): the reading never says he was. He shipped port and was not a disinterested party in the 1852 duties debate (C4); Hester struck her own r2 line that merged two cut-off fragments.",
+  "Hester's step-4 edge: y4's \"as a nod to his second telling\" counts the tellings, but the reading gives three (1844, 1845, 1852). If Robin wants the count exact, her fix is \"as a nod to his second telling\" → \"as a nod to his telling it again\" (not applied; the room had signed).",
+  "Unread leads on the card: the 1852 *Report* itself (his answers from q. 36), and the end of Barr's \"written off\" sentence (*Drink*, p. 84). Offley as a port brand today is unverified, so no bottle is named.",
+  "The colour in the image brief is Tomás's estimate."
+ ]
+}

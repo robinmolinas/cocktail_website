@@ -1,0 +1,40 @@
+{
+ "pairing": "sage-innocent",
+ "family": "sidecar",
+ "subfamily": "Sidecar riff on pisco, the lemon replaced by white verjus (the grapes' own acid), stirred as the Codex does its verjus sours (p. 187)",
+ "style": "freeform",
+ "judged_by_hand": "shaken (sours) finished ranges, by hand: a Sidecar is a sour, LI has no stirred-sour style (STUDIO-RULES check 2: anything else is freeform). The water line is the stirring melt from balance.py's stirred formula (stirred style: 127.5 ml -> 35.8% -> 173.1 ml), not water added; balance.py's own nearest style for the result is shaken",
+ "glass": "coupe (about 220 ml), chilled, no ice",
+ "serves": 1,
+ "version": "v1 (Tomás, round 3; round 4 step 1: style moved to freeform with the stirred melt modelled, drink unchanged). Sidecar structure (Codex: spirit, orange liqueur, sour) with the lemon out and white verjus in (Codex p. 187: 'a fairly large proportion of verjus to create a bright acidic backbone, especially in stirred sour drinks'; grapes' acids are tartaric and malic, LI p. 61). Pisco's bite curbed with blanc vermouth (Codex p. 159). Stirred: 127.5 ml -> 35.8% dilution -> 173 ml; 15.9% / 6.26 g / 0.757%, in Arnold's sour finished ranges by hand (15-19.7 / 5.0-8.9 / 0.76-0.94; acid an edge on the floor). Verjus values unsourced (6 g, 2.5%): proven for verjus acid 2.5-3.1% and sugar 3-10 g; pisco 38-48% all in. Soft verjus (2.0%) fallback, Checks only: + 5 ml tartaric solution -> 0.846%.",
+ "ingredients": [
+  {
+   "key": "brandy_unaged_grape",
+   "ml": 45
+  },
+  {
+   "key": "cointreau",
+   "ml": 20
+  },
+  {
+   "key": "blanc_vermouth",
+   "ml": 10
+  },
+  {
+   "key": "verjus_blanc",
+   "ml": 50
+  },
+  {
+   "key": "simple_syrup",
+   "ml": 2.5
+  },
+  {
+   "key": "water",
+   "ml": 45.6,
+   "note": "melt from stirring on ice (stirred formula, 35.8%); not added"
+  }
+ ],
+ "garnish": [
+  "orange_peel"
+ ]
+}
