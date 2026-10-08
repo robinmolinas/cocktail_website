@@ -38,7 +38,7 @@ const full = (): Answers => ({
     'soft-rough': 'b',
     harmonic: 'a',
   },
-  drawnToward: ['freedom', 'wonder', 'mischief'],
+  drawnToward: ['freedom', 'wonder', 'caring'],
   soughtFor: ['advice', 'honesty', 'little-chaos'],
   flavors: ['bitter', 'herbal', 'smoky'],
   vetoes: ['egg-white', 'nuts'],
@@ -61,7 +61,7 @@ describe('vocabularies', () => {
       'sharp-smooth', 'relaxed-excited', 'halffull-halfempty', 'control', 'quiet-loud',
       'risk', 'bright-dark', 'soft-rough', 'harmonic',
     ]);
-    expect(ids(DRAWN)).toEqual(['freedom', 'beauty', 'mastery', 'peace', 'belonging', 'pleasure', 'wonder', 'change', 'mischief']);
+    expect(ids(DRAWN)).toEqual(['freedom', 'beauty', 'mastery', 'peace', 'belonging', 'pleasure', 'wonder', 'change', 'knowledge', 'influence', 'making', 'caring']);
     expect(ids(SOUGHT)).toEqual(['advice', 'comfort', 'honesty', 'courage', 'ideas', 'calm', 'taste', 'reality-check', 'little-chaos']);
     expect(ids(FLAVOURS)).toEqual(['sweet', 'bitter', 'spicy', 'herbal', 'fruity', 'citrusy', 'fresh', 'floral', 'smoky']);
     expect(ids(VETOES)).toEqual(['egg-white', 'dairy', 'gluten', 'nuts', 'spice']);
@@ -92,7 +92,7 @@ describe('idFromLabel', () => {
 
 describe('canonicalWords', () => {
   it('dedupes, drops unknown ids, sorts into vocabulary order and caps at 3', () => {
-    expect(canonicalWords(DRAWN, ['mischief', 'freedom', 'freedom', 'nope'])).toEqual(['freedom', 'mischief']);
+    expect(canonicalWords(DRAWN, ['caring', 'freedom', 'freedom', 'nope'])).toEqual(['freedom', 'caring']);
     expect(canonicalWords(FLAVOURS, ['smoky', 'sweet', 'fresh', 'bitter'])).toEqual(['sweet', 'bitter', 'fresh']);
     expect(canonicalWords(SOUGHT, [])).toEqual([]);
   });

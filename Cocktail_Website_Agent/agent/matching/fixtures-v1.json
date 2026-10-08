@@ -3,7 +3,7 @@
   "drawnToward": [
    "peace",
    "belonging",
-   "mischief"
+   "caring"
   ],
   "soughtFor": [
    "comfort",
@@ -11,21 +11,19 @@
    "taste"
   ],
   "texture": {
-   "sharp-smooth": "b",
    "relaxed-excited": "b",
-   "control": "a",
+   "halffull-halfempty": "a",
    "quiet-loud": "a",
-   "risk": "a",
+   "risk": "b",
    "bright-dark": "a",
-   "soft-rough": "a",
-   "harmonic": "a"
+   "soft-rough": "a"
   },
   "gravity": {
    "solitary-social": 0,
    "controlled-wild": 0,
    "classic-experimental": 100,
-   "analytical-instinctive": 2,
-   "grounded-dreamlike": 2
+   "analytical-instinctive": 1,
+   "grounded-dreamlike": 17
   },
   "flavors": [],
   "vetoes": []
@@ -33,18 +31,18 @@
  "caregiver-explorer": {
   "drawnToward": [
    "peace",
-   "belonging",
-   "mischief"
+   "caring"
   ],
   "soughtFor": [
+   "advice",
    "comfort",
-   "ideas",
-   "calm"
+   "ideas"
   ],
   "texture": {
+   "sharp-smooth": "b",
    "relaxed-excited": "b",
+   "halffull-halfempty": "b",
    "control": "b",
-   "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "a",
    "soft-rough": "b",
@@ -52,10 +50,10 @@
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 35,
-   "classic-experimental": 100,
+   "controlled-wild": 93,
+   "classic-experimental": 35,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 2
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
@@ -63,29 +61,29 @@
  "caregiver-hero": {
   "drawnToward": [
    "peace",
-   "belonging",
-   "change"
+   "caring"
   ],
   "soughtFor": [
+   "advice",
    "comfort",
-   "courage",
-   "calm"
+   "courage"
   ],
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "b",
-   "halffull-halfempty": "b",
+   "halffull-halfempty": "a",
    "control": "a",
    "quiet-loud": "b",
    "risk": "b",
+   "bright-dark": "b",
    "soft-rough": "a",
-   "harmonic": "a"
+   "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 4,
+   "solitary-social": 91,
    "controlled-wild": 0,
-   "classic-experimental": 100,
-   "analytical-instinctive": 50,
+   "classic-experimental": 52,
+   "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -94,7 +92,8 @@
  "caregiver-innocent": {
   "drawnToward": [
    "peace",
-   "belonging"
+   "belonging",
+   "caring"
   ],
   "soughtFor": [
    "honesty",
@@ -114,7 +113,7 @@
    "solitary-social": 0,
    "controlled-wild": 0,
    "classic-experimental": 100,
-   "analytical-instinctive": 90,
+   "analytical-instinctive": 50,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -123,7 +122,7 @@
  "caregiver-jester": {
   "drawnToward": [
    "peace",
-   "change"
+   "caring"
   ],
   "soughtFor": [
    "advice",
@@ -131,8 +130,8 @@
    "little-chaos"
   ],
   "texture": {
-   "sharp-smooth": "b",
    "relaxed-excited": "b",
+   "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "b",
    "risk": "b",
@@ -142,9 +141,9 @@
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 0,
-   "classic-experimental": 9,
-   "analytical-instinctive": 67,
+   "controlled-wild": 9,
+   "classic-experimental": 45,
+   "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -153,11 +152,10 @@
  "caregiver-lover": {
   "drawnToward": [
    "peace",
-   "belonging"
+   "caring"
   ],
   "soughtFor": [
    "advice",
-   "comfort",
    "taste"
   ],
   "texture": {
@@ -172,11 +170,11 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 15,
-   "controlled-wild": 0,
-   "classic-experimental": 100,
+   "solitary-social": 100,
+   "controlled-wild": 10,
+   "classic-experimental": 67,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 33
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
@@ -184,7 +182,8 @@
  "caregiver-magician": {
   "drawnToward": [
    "peace",
-   "belonging"
+   "belonging",
+   "caring"
   ],
   "soughtFor": [
    "advice",
@@ -193,8 +192,6 @@
   ],
   "texture": {
    "sharp-smooth": "b",
-   "relaxed-excited": "b",
-   "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "a",
    "risk": "b",
@@ -203,11 +200,11 @@
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 22,
-   "controlled-wild": 0,
+   "solitary-social": 6,
+   "controlled-wild": 1,
    "classic-experimental": 100,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 59
+   "grounded-dreamlike": 100
   },
   "flavors": [],
   "vetoes": []
@@ -215,30 +212,28 @@
  "caregiver-outlaw": {
   "drawnToward": [
    "peace",
-   "belonging"
+   "change",
+   "caring"
   ],
   "soughtFor": [
    "comfort",
-   "calm",
+   "courage",
    "little-chaos"
   ],
   "texture": {
-   "sharp-smooth": "a",
-   "relaxed-excited": "b",
    "halffull-halfempty": "b",
    "control": "b",
    "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
-   "soft-rough": "a",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 48,
-   "classic-experimental": 100,
-   "analytical-instinctive": 8,
-   "grounded-dreamlike": 1
+   "solitary-social": 76,
+   "controlled-wild": 50,
+   "classic-experimental": 92,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
@@ -247,29 +242,28 @@
   "drawnToward": [
    "peace",
    "belonging",
-   "change"
+   "caring"
   ],
   "soughtFor": [
-   "comfort",
    "honesty",
+   "ideas",
    "reality-check"
   ],
   "texture": {
-   "sharp-smooth": "a",
+   "sharp-smooth": "b",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "b",
-   "quiet-loud": "b",
-   "risk": "b",
+   "quiet-loud": "a",
    "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 23,
+   "controlled-wild": 0,
    "classic-experimental": 0,
-   "analytical-instinctive": 73,
+   "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -277,11 +271,12 @@
  },
  "caregiver-ruler": {
   "drawnToward": [
-   "peace"
+   "peace",
+   "caring"
   ],
   "soughtFor": [
-   "advice",
    "comfort",
+   "taste",
    "reality-check"
   ],
   "texture": {
@@ -292,13 +287,14 @@
    "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "b",
-   "soft-rough": "a"
+   "soft-rough": "a",
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 100,
+   "solitary-social": 46,
    "controlled-wild": 0,
-   "classic-experimental": 54,
-   "analytical-instinctive": 63,
+   "classic-experimental": 50,
+   "analytical-instinctive": 25,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -308,7 +304,7 @@
   "drawnToward": [
    "peace",
    "belonging",
-   "pleasure"
+   "caring"
   ],
   "soughtFor": [
    "advice",
@@ -316,12 +312,11 @@
   ],
   "texture": {
    "sharp-smooth": "b",
-   "relaxed-excited": "b",
    "halffull-halfempty": "b",
-   "control": "a",
+   "control": "b",
    "quiet-loud": "a",
    "risk": "b",
-   "bright-dark": "b",
+   "bright-dark": "a",
    "soft-rough": "a",
    "harmonic": "a"
   },
@@ -329,8 +324,8 @@
    "solitary-social": 0,
    "controlled-wild": 0,
    "classic-experimental": 100,
-   "analytical-instinctive": 53,
-   "grounded-dreamlike": 0
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 4
   },
   "flavors": [],
   "vetoes": []
@@ -338,7 +333,8 @@
  "creator-caregiver": {
   "drawnToward": [
    "beauty",
-   "change"
+   "change",
+   "making"
   ],
   "soughtFor": [
    "comfort",
@@ -347,16 +343,18 @@
   ],
   "texture": {
    "sharp-smooth": "b",
+   "relaxed-excited": "b",
    "halffull-halfempty": "b",
    "control": "b",
+   "quiet-loud": "a",
    "risk": "a",
-   "bright-dark": "a",
-   "soft-rough": "a"
+   "soft-rough": "a",
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 6,
-   "controlled-wild": 9,
-   "classic-experimental": 100,
+   "solitary-social": 68,
+   "controlled-wild": 0,
+   "classic-experimental": 96,
    "analytical-instinctive": 0,
    "grounded-dreamlike": 0
   },
@@ -366,15 +364,14 @@
  "creator-explorer": {
   "drawnToward": [
    "beauty",
-   "peace",
-   "change"
+   "making"
   ],
   "soughtFor": [
    "ideas",
+   "calm",
    "reality-check"
   ],
   "texture": {
-   "sharp-smooth": "a",
    "relaxed-excited": "b",
    "halffull-halfempty": "a",
    "control": "b",
@@ -386,9 +383,9 @@
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 73,
-   "classic-experimental": 95,
-   "analytical-instinctive": 60,
+   "controlled-wild": 100,
+   "classic-experimental": 87,
+   "analytical-instinctive": 71,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -397,7 +394,8 @@
  "creator-hero": {
   "drawnToward": [
    "beauty",
-   "change"
+   "change",
+   "making"
   ],
   "soughtFor": [
    "courage",
@@ -412,11 +410,11 @@
    "soft-rough": "b"
   },
   "gravity": {
-   "solitary-social": 59,
+   "solitary-social": 100,
    "controlled-wild": 0,
-   "classic-experimental": 100,
-   "analytical-instinctive": 7,
-   "grounded-dreamlike": 18
+   "classic-experimental": 87,
+   "analytical-instinctive": 46,
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
@@ -424,28 +422,29 @@
  "creator-innocent": {
   "drawnToward": [
    "beauty",
-   "change"
+   "change",
+   "making"
   ],
   "soughtFor": [
-   "comfort",
    "honesty",
-   "taste"
+   "ideas",
+   "calm"
   ],
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "a",
    "halffull-halfempty": "a",
-   "control": "a",
+   "control": "b",
    "quiet-loud": "a",
    "risk": "a",
    "bright-dark": "a",
    "soft-rough": "a",
-   "harmonic": "b"
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 72,
-   "classic-experimental": 100,
+   "solitary-social": 81,
+   "controlled-wild": 93,
+   "classic-experimental": 69,
    "analytical-instinctive": 0,
    "grounded-dreamlike": 100
   },
@@ -455,14 +454,15 @@
  "creator-jester": {
   "drawnToward": [
    "beauty",
-   "change"
+   "change",
+   "making"
   ],
   "soughtFor": [
    "ideas",
    "little-chaos"
   ],
   "texture": {
-   "sharp-smooth": "a",
+   "sharp-smooth": "b",
    "relaxed-excited": "b",
    "halffull-halfempty": "a",
    "control": "b",
@@ -473,9 +473,9 @@
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 91,
-   "controlled-wild": 0,
-   "classic-experimental": 100,
+   "solitary-social": 100,
+   "controlled-wild": 25,
+   "classic-experimental": 47,
    "analytical-instinctive": 0,
    "grounded-dreamlike": 0
   },
@@ -485,12 +485,11 @@
  "creator-lover": {
   "drawnToward": [
    "beauty",
-   "mastery",
-   "change"
+   "change",
+   "making"
   ],
   "soughtFor": [
    "advice",
-   "calm",
    "taste"
   ],
   "texture": {
@@ -498,18 +497,17 @@
    "relaxed-excited": "b",
    "halffull-halfempty": "a",
    "control": "b",
-   "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "b",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 75,
-   "controlled-wild": 95,
-   "classic-experimental": 100,
-   "analytical-instinctive": 0,
-   "grounded-dreamlike": 78
+   "solitary-social": 100,
+   "controlled-wild": 55,
+   "classic-experimental": 40,
+   "analytical-instinctive": 29,
+   "grounded-dreamlike": 100
   },
   "flavors": [],
   "vetoes": []
@@ -517,11 +515,12 @@
  "creator-magician": {
   "drawnToward": [
    "beauty",
-   "change"
+   "change",
+   "making"
   ],
   "soughtFor": [
    "comfort",
-   "reality-check",
+   "ideas",
    "little-chaos"
   ],
   "texture": {
@@ -529,17 +528,17 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "a",
    "control": "a",
-   "quiet-loud": "a",
+   "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "a",
-   "harmonic": "b"
+   "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 12,
+   "controlled-wild": 13,
    "classic-experimental": 100,
-   "analytical-instinctive": 59,
+   "analytical-instinctive": 74,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -548,8 +547,8 @@
  "creator-outlaw": {
   "drawnToward": [
    "beauty",
-   "peace",
-   "change"
+   "change",
+   "making"
   ],
   "soughtFor": [
    "courage",
@@ -563,16 +562,16 @@
    "control": "b",
    "quiet-loud": "b",
    "risk": "b",
-   "bright-dark": "a",
+   "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 75,
+   "solitary-social": 19,
+   "controlled-wild": 100,
    "classic-experimental": 100,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 24
+   "grounded-dreamlike": 38
   },
   "flavors": [],
   "vetoes": []
@@ -580,7 +579,8 @@
  "creator-regular-guy": {
   "drawnToward": [
    "beauty",
-   "change"
+   "change",
+   "making"
   ],
   "soughtFor": [
    "honesty",
@@ -590,17 +590,19 @@
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "a",
+   "halffull-halfempty": "a",
    "control": "b",
+   "quiet-loud": "a",
    "risk": "a",
-   "bright-dark": "a",
+   "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 75,
-   "controlled-wild": 43,
-   "classic-experimental": 87,
-   "analytical-instinctive": 0,
+   "solitary-social": 100,
+   "controlled-wild": 46,
+   "classic-experimental": 46,
+   "analytical-instinctive": 5,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -609,29 +611,30 @@
  "creator-ruler": {
   "drawnToward": [
    "beauty",
-   "change"
+   "change",
+   "making"
   ],
   "soughtFor": [
+   "ideas",
    "taste",
    "reality-check"
   ],
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "b",
-   "halffull-halfempty": "a",
+   "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "a",
-   "soft-rough": "b",
-   "harmonic": "b"
+   "soft-rough": "b"
   },
   "gravity": {
-   "solitary-social": 0,
+   "solitary-social": 59,
    "controlled-wild": 0,
-   "classic-experimental": 100,
+   "classic-experimental": 40,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 22
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
@@ -639,7 +642,8 @@
  "creator-sage": {
   "drawnToward": [
    "beauty",
-   "change"
+   "change",
+   "making"
   ],
   "soughtFor": [
    "advice",
@@ -650,18 +654,17 @@
    "sharp-smooth": "a",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
-   "control": "a",
+   "control": "b",
    "quiet-loud": "a",
-   "bright-dark": "a",
-   "soft-rough": "a",
+   "risk": "b",
    "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 55,
-   "classic-experimental": 90,
+   "controlled-wild": 24,
+   "classic-experimental": 15,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 24
+   "grounded-dreamlike": 100
   },
   "flavors": [],
   "vetoes": []
@@ -687,9 +690,9 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 4,
-   "controlled-wild": 51,
-   "classic-experimental": 44,
+   "solitary-social": 0,
+   "controlled-wild": 31,
+   "classic-experimental": 50,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
@@ -698,28 +701,28 @@
  },
  "explorer-creator": {
   "drawnToward": [
-   "freedom"
+   "freedom",
+   "knowledge"
   ],
   "soughtFor": [
    "ideas",
    "taste"
   ],
   "texture": {
-   "sharp-smooth": "b",
    "relaxed-excited": "b",
    "halffull-halfempty": "a",
-   "control": "b",
    "quiet-loud": "a",
+   "risk": "a",
    "bright-dark": "a",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 3,
+   "controlled-wild": 46,
    "classic-experimental": 100,
-   "analytical-instinctive": 84,
-   "grounded-dreamlike": 9
+   "analytical-instinctive": 97,
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
@@ -727,28 +730,30 @@
  "explorer-hero": {
   "drawnToward": [
    "freedom",
-   "beauty",
-   "wonder"
+   "wonder",
+   "knowledge"
   ],
   "soughtFor": [
+   "comfort",
    "courage",
-   "calm"
+   "ideas"
   ],
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "b",
    "halffull-halfempty": "a",
    "control": "a",
+   "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "a",
    "soft-rough": "b",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 82,
-   "classic-experimental": 22,
-   "analytical-instinctive": 98,
+   "solitary-social": 6,
+   "controlled-wild": 60,
+   "classic-experimental": 0,
+   "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -756,11 +761,12 @@
  },
  "explorer-innocent": {
   "drawnToward": [
-   "freedom"
+   "freedom",
+   "knowledge"
   ],
   "soughtFor": [
    "honesty",
-   "ideas",
+   "courage",
    "calm"
   ],
   "texture": {
@@ -775,10 +781,10 @@
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 69,
-   "classic-experimental": 4,
+   "controlled-wild": 81,
+   "classic-experimental": 100,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 81
+   "grounded-dreamlike": 98
   },
   "flavors": [],
   "vetoes": []
@@ -786,12 +792,12 @@
  "explorer-jester": {
   "drawnToward": [
    "freedom",
-   "pleasure",
-   "wonder"
+   "wonder",
+   "knowledge"
   ],
   "soughtFor": [
    "advice",
-   "honesty",
+   "ideas",
    "little-chaos"
   ],
   "texture": {
@@ -805,8 +811,8 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 100,
+   "solitary-social": 12,
+   "controlled-wild": 95,
    "classic-experimental": 0,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 0
@@ -816,7 +822,9 @@
  },
  "explorer-lover": {
   "drawnToward": [
-   "freedom"
+   "freedom",
+   "wonder",
+   "knowledge"
   ],
   "soughtFor": [
    "taste"
@@ -824,19 +832,18 @@
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "b",
-   "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "a",
-   "risk": "b",
+   "bright-dark": "b",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 7,
-   "controlled-wild": 24,
-   "classic-experimental": 5,
+   "solitary-social": 14,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 60
+   "grounded-dreamlike": 19
   },
   "flavors": [],
   "vetoes": []
@@ -844,31 +851,29 @@
  "explorer-magician": {
   "drawnToward": [
    "freedom",
-   "belonging",
-   "wonder"
+   "wonder",
+   "knowledge"
   ],
   "soughtFor": [
-   "advice",
+   "comfort",
    "ideas",
    "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "a",
-   "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "b",
-   "risk": "a",
+   "risk": "b",
    "bright-dark": "b",
-   "soft-rough": "a",
-   "harmonic": "a"
+   "soft-rough": "a"
   },
   "gravity": {
-   "solitary-social": 14,
-   "controlled-wild": 99,
-   "classic-experimental": 44,
+   "solitary-social": 31,
+   "controlled-wild": 10,
+   "classic-experimental": 39,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 100
+   "grounded-dreamlike": 94
   },
   "flavors": [],
   "vetoes": []
@@ -876,17 +881,17 @@
  "explorer-outlaw": {
   "drawnToward": [
    "freedom",
-   "peace",
-   "belonging"
+   "wonder",
+   "knowledge"
   ],
   "soughtFor": [
-   "advice",
    "courage",
+   "taste",
    "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "a",
-   "relaxed-excited": "a",
+   "relaxed-excited": "b",
    "halffull-halfempty": "b",
    "control": "b",
    "quiet-loud": "b",
@@ -896,11 +901,11 @@
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 0,
+   "solitary-social": 1,
    "controlled-wild": 100,
-   "classic-experimental": 100,
-   "analytical-instinctive": 90,
-   "grounded-dreamlike": 58
+   "classic-experimental": 62,
+   "analytical-instinctive": 19,
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
@@ -908,27 +913,29 @@
  "explorer-regular-guy": {
   "drawnToward": [
    "freedom",
-   "beauty",
-   "wonder"
+   "wonder",
+   "knowledge"
   ],
   "soughtFor": [
-   "comfort",
    "honesty",
+   "ideas",
    "reality-check"
   ],
   "texture": {
    "sharp-smooth": "b",
-   "quiet-loud": "b",
+   "halffull-halfempty": "b",
+   "control": "b",
+   "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "a",
    "soft-rough": "b",
-   "harmonic": "b"
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 4,
-   "controlled-wild": 94,
+   "solitary-social": 80,
+   "controlled-wild": 96,
    "classic-experimental": 0,
-   "analytical-instinctive": 81,
+   "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -940,13 +947,12 @@
    "wonder"
   ],
   "soughtFor": [
+   "calm",
    "taste",
    "reality-check"
   ],
   "texture": {
-   "sharp-smooth": "a",
    "relaxed-excited": "b",
-   "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "b",
    "risk": "a",
@@ -956,9 +962,9 @@
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 80,
+   "controlled-wild": 79,
    "classic-experimental": 0,
-   "analytical-instinctive": 91,
+   "analytical-instinctive": 96,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -967,8 +973,8 @@
  "explorer-sage": {
   "drawnToward": [
    "freedom",
-   "beauty",
-   "wonder"
+   "wonder",
+   "knowledge"
   ],
   "soughtFor": [
    "advice",
@@ -979,26 +985,26 @@
    "sharp-smooth": "a",
    "relaxed-excited": "b",
    "halffull-halfempty": "b",
-   "control": "b",
    "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "a",
-   "soft-rough": "b",
+   "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 79,
-   "classic-experimental": 40,
-   "analytical-instinctive": 78,
-   "grounded-dreamlike": 0
+   "controlled-wild": 73,
+   "classic-experimental": 14,
+   "analytical-instinctive": 93,
+   "grounded-dreamlike": 10
   },
   "flavors": [],
   "vetoes": []
  },
  "hero-caregiver": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "making"
   ],
   "soughtFor": [
    "comfort",
@@ -1007,19 +1013,18 @@
   ],
   "texture": {
    "sharp-smooth": "b",
-   "relaxed-excited": "a",
-   "halffull-halfempty": "a",
+   "relaxed-excited": "b",
    "control": "b",
    "quiet-loud": "a",
    "risk": "b",
-   "bright-dark": "b",
+   "bright-dark": "a",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 71,
-   "controlled-wild": 26,
-   "classic-experimental": 100,
+   "solitary-social": 85,
+   "controlled-wild": 7,
+   "classic-experimental": 67,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
@@ -1028,10 +1033,10 @@
  },
  "hero-creator": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "making"
   ],
   "soughtFor": [
-   "courage",
    "ideas",
    "taste"
   ],
@@ -1039,45 +1044,47 @@
    "sharp-smooth": "a",
    "relaxed-excited": "a",
    "halffull-halfempty": "a",
-   "control": "a",
+   "control": "b",
    "quiet-loud": "a",
-   "risk": "a",
+   "risk": "b",
    "bright-dark": "a",
-   "soft-rough": "a",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 48,
-   "controlled-wild": 57,
+   "solitary-social": 67,
+   "controlled-wild": 22,
    "classic-experimental": 100,
-   "analytical-instinctive": 98,
-   "grounded-dreamlike": 31
+   "analytical-instinctive": 100,
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
  },
  "hero-explorer": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "influence",
+   "making"
   ],
   "soughtFor": [
-   "comfort",
-   "ideas",
-   "reality-check"
+   "honesty",
+   "courage",
+   "ideas"
   ],
   "texture": {
+   "sharp-smooth": "b",
    "relaxed-excited": "b",
-   "halffull-halfempty": "a",
    "control": "b",
-   "quiet-loud": "b",
+   "quiet-loud": "a",
    "risk": "b",
+   "bright-dark": "a",
    "soft-rough": "b",
    "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 96,
-   "classic-experimental": 67,
+   "controlled-wild": 100,
+   "classic-experimental": 12,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
@@ -1086,7 +1093,8 @@
  },
  "hero-innocent": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "making"
   ],
   "soughtFor": [
    "honesty",
@@ -1098,27 +1106,28 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "a",
    "control": "a",
-   "quiet-loud": "a",
-   "risk": "a",
    "bright-dark": "a",
+   "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 78,
-   "controlled-wild": 75,
-   "classic-experimental": 100,
+   "solitary-social": 66,
+   "controlled-wild": 74,
+   "classic-experimental": 9,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 48
+   "grounded-dreamlike": 65
   },
   "flavors": [],
   "vetoes": []
  },
  "hero-jester": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "making"
   ],
   "soughtFor": [
    "courage",
+   "calm",
    "little-chaos"
   ],
   "texture": {
@@ -1134,17 +1143,18 @@
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 52,
-   "classic-experimental": 86,
+   "controlled-wild": 67,
+   "classic-experimental": 45,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 0
+   "grounded-dreamlike": 7
   },
   "flavors": [],
   "vetoes": []
  },
  "hero-lover": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "making"
   ],
   "soughtFor": [
    "courage",
@@ -1156,17 +1166,17 @@
    "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "a",
-   "risk": "a",
+   "risk": "b",
    "bright-dark": "b",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 89,
-   "controlled-wild": 54,
-   "classic-experimental": 100,
+   "solitary-social": 100,
+   "controlled-wild": 51,
+   "classic-experimental": 0,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 16
+   "grounded-dreamlike": 34
   },
   "flavors": [],
   "vetoes": []
@@ -1185,16 +1195,15 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "a",
-   "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 96,
-   "controlled-wild": 11,
-   "classic-experimental": 100,
+   "solitary-social": 92,
+   "controlled-wild": 0,
+   "classic-experimental": 73,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 100
   },
@@ -1203,7 +1212,9 @@
  },
  "hero-outlaw": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "influence",
+   "making"
   ],
   "soughtFor": [
    "courage",
@@ -1214,16 +1225,17 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "b",
+   "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 36,
-   "controlled-wild": 30,
-   "classic-experimental": 100,
-   "analytical-instinctive": 60,
+   "solitary-social": 3,
+   "controlled-wild": 100,
+   "classic-experimental": 89,
+   "analytical-instinctive": 93,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -1231,7 +1243,8 @@
  },
  "hero-regular-guy": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "making"
   ],
   "soughtFor": [
    "honesty",
@@ -1250,8 +1263,8 @@
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 100,
-   "classic-experimental": 62,
+   "controlled-wild": 87,
+   "classic-experimental": 37,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
@@ -1260,7 +1273,8 @@
  },
  "hero-ruler": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "making"
   ],
   "soughtFor": [
    "calm",
@@ -1273,14 +1287,13 @@
    "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "b",
-   "risk": "a",
-   "bright-dark": "a",
-   "soft-rough": "b"
+   "soft-rough": "b",
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 88,
+   "solitary-social": 86,
    "controlled-wild": 0,
-   "classic-experimental": 97,
+   "classic-experimental": 37,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
@@ -1289,7 +1302,8 @@
  },
  "hero-sage": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "making"
   ],
   "soughtFor": [
    "advice",
@@ -1300,16 +1314,15 @@
    "sharp-smooth": "a",
    "relaxed-excited": "a",
    "control": "a",
-   "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "b",
-   "harmonic": "b"
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 26,
-   "controlled-wild": 62,
-   "classic-experimental": 100,
+   "solitary-social": 0,
+   "controlled-wild": 96,
+   "classic-experimental": 37,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
@@ -1319,7 +1332,8 @@
  "innocent-caregiver": {
   "drawnToward": [
    "peace",
-   "wonder"
+   "wonder",
+   "making"
   ],
   "soughtFor": [
    "advice",
@@ -1338,10 +1352,10 @@
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 91,
+   "controlled-wild": 95,
    "classic-experimental": 0,
-   "analytical-instinctive": 46,
-   "grounded-dreamlike": 47
+   "analytical-instinctive": 21,
+   "grounded-dreamlike": 57
   },
   "flavors": [],
   "vetoes": []
@@ -1358,16 +1372,16 @@
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "b",
-   "halffull-halfempty": "a",
+   "control": "a",
    "quiet-loud": "a",
+   "risk": "a",
    "bright-dark": "a",
-   "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 91,
-   "controlled-wild": 93,
-   "classic-experimental": 50,
+   "solitary-social": 83,
+   "controlled-wild": 100,
+   "classic-experimental": 56,
    "analytical-instinctive": 0,
    "grounded-dreamlike": 100
   },
@@ -1376,17 +1390,18 @@
  },
  "innocent-explorer": {
   "drawnToward": [
-   "peace"
+   "beauty",
+   "peace",
+   "wonder"
   ],
   "soughtFor": [
    "honesty",
-   "courage",
    "ideas"
   ],
   "texture": {
-   "sharp-smooth": "b",
+   "sharp-smooth": "a",
    "relaxed-excited": "b",
-   "halffull-halfempty": "b",
+   "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "a",
    "risk": "b",
@@ -1397,9 +1412,9 @@
   "gravity": {
    "solitary-social": 0,
    "controlled-wild": 100,
-   "classic-experimental": 21,
-   "analytical-instinctive": 94,
-   "grounded-dreamlike": 100
+   "classic-experimental": 0,
+   "analytical-instinctive": 92,
+   "grounded-dreamlike": 2
   },
   "flavors": [],
   "vetoes": []
@@ -1407,12 +1422,12 @@
  "innocent-hero": {
   "drawnToward": [
    "peace",
-   "wonder"
+   "wonder",
+   "making"
   ],
   "soughtFor": [
    "honesty",
-   "courage",
-   "calm"
+   "courage"
   ],
   "texture": {
    "sharp-smooth": "a",
@@ -1422,27 +1437,26 @@
    "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "a",
-   "soft-rough": "b",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 81,
-   "controlled-wild": 30,
+   "solitary-social": 47,
+   "controlled-wild": 33,
    "classic-experimental": 0,
-   "analytical-instinctive": 58,
-   "grounded-dreamlike": 72
+   "analytical-instinctive": 31,
+   "grounded-dreamlike": 49
   },
   "flavors": [],
   "vetoes": []
  },
  "innocent-jester": {
   "drawnToward": [
+   "mastery",
    "peace",
    "wonder"
   ],
   "soughtFor": [
    "honesty",
-   "calm",
    "little-chaos"
   ],
   "texture": {
@@ -1453,15 +1467,14 @@
    "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "a",
-   "soft-rough": "a",
-   "harmonic": "b"
+   "soft-rough": "a"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 97,
+   "controlled-wild": 100,
    "classic-experimental": 0,
-   "analytical-instinctive": 17,
-   "grounded-dreamlike": 72
+   "analytical-instinctive": 8,
+   "grounded-dreamlike": 79
   },
   "flavors": [],
   "vetoes": []
@@ -1478,17 +1491,15 @@
    "sharp-smooth": "b",
    "relaxed-excited": "b",
    "control": "b",
-   "quiet-loud": "b",
-   "risk": "a",
    "bright-dark": "b",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 18,
-   "controlled-wild": 96,
-   "classic-experimental": 28,
-   "analytical-instinctive": 81,
+   "solitary-social": 42,
+   "controlled-wild": 98,
+   "classic-experimental": 26,
+   "analytical-instinctive": 70,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -1516,9 +1527,9 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 60,
-   "controlled-wild": 28,
-   "classic-experimental": 12,
+   "solitary-social": 70,
+   "controlled-wild": 4,
+   "classic-experimental": 22,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 100
   },
@@ -1532,23 +1543,22 @@
   "soughtFor": [
    "honesty",
    "courage",
-   "little-chaos"
+   "calm"
   ],
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "a",
-   "halffull-halfempty": "a",
+   "halffull-halfempty": "b",
    "control": "b",
-   "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "b",
-   "harmonic": "a"
+   "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 51,
+   "solitary-social": 100,
    "controlled-wild": 100,
-   "classic-experimental": 90,
+   "classic-experimental": 79,
    "analytical-instinctive": 0,
    "grounded-dreamlike": 100
   },
@@ -1558,33 +1568,35 @@
  "innocent-regular-guy": {
   "drawnToward": [
    "peace",
-   "wonder"
+   "wonder",
+   "making"
   ],
   "soughtFor": [
    "honesty",
-   "courage",
    "reality-check"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "a",
+   "halffull-halfempty": "a",
    "control": "b",
+   "quiet-loud": "b",
    "risk": "a",
-   "bright-dark": "a",
    "soft-rough": "b"
   },
   "gravity": {
-   "solitary-social": 100,
-   "controlled-wild": 100,
+   "solitary-social": 92,
+   "controlled-wild": 97,
    "classic-experimental": 0,
-   "analytical-instinctive": 14,
-   "grounded-dreamlike": 66
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 45
   },
   "flavors": [],
   "vetoes": []
  },
  "innocent-ruler": {
   "drawnToward": [
+   "freedom",
    "peace",
    "wonder"
   ],
@@ -1604,10 +1616,10 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 99,
-   "controlled-wild": 30,
-   "classic-experimental": 21,
-   "analytical-instinctive": 0,
+   "solitary-social": 100,
+   "controlled-wild": 7,
+   "classic-experimental": 0,
+   "analytical-instinctive": 10,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -1615,6 +1627,7 @@
  },
  "innocent-sage": {
   "drawnToward": [
+   "beauty",
    "peace",
    "wonder"
   ],
@@ -1630,14 +1643,15 @@
    "quiet-loud": "a",
    "risk": "a",
    "bright-dark": "a",
+   "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 24,
+   "solitary-social": 0,
    "controlled-wild": 100,
    "classic-experimental": 0,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 87
+   "grounded-dreamlike": 67
   },
   "flavors": [],
   "vetoes": []
@@ -1645,29 +1659,29 @@
  "jester-caregiver": {
   "drawnToward": [
    "pleasure",
-   "mischief"
+   "knowledge",
+   "making"
   ],
   "soughtFor": [
-   "advice",
    "comfort",
-   "calm"
+   "calm",
+   "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "b",
-   "halffull-halfempty": "a",
    "control": "b",
-   "quiet-loud": "b",
+   "quiet-loud": "a",
    "risk": "a",
    "bright-dark": "a",
    "soft-rough": "a",
-   "harmonic": "b"
+   "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 53,
-   "classic-experimental": 99,
-   "analytical-instinctive": 0,
+   "controlled-wild": 100,
+   "classic-experimental": 40,
+   "analytical-instinctive": 39,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -1676,7 +1690,8 @@
  "jester-creator": {
   "drawnToward": [
    "pleasure",
-   "mischief"
+   "knowledge",
+   "influence"
   ],
   "soughtFor": [
    "ideas",
@@ -1687,19 +1702,17 @@
    "sharp-smooth": "a",
    "relaxed-excited": "b",
    "halffull-halfempty": "a",
-   "control": "a",
    "quiet-loud": "a",
    "risk": "a",
    "bright-dark": "a",
-   "soft-rough": "a",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 50,
-   "controlled-wild": 34,
+   "solitary-social": 75,
+   "controlled-wild": 100,
    "classic-experimental": 100,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 13
+   "grounded-dreamlike": 71
   },
   "flavors": [],
   "vetoes": []
@@ -1707,16 +1720,17 @@
  "jester-explorer": {
   "drawnToward": [
    "pleasure",
-   "mischief"
+   "knowledge",
+   "influence"
   ],
   "soughtFor": [
+   "comfort",
    "ideas",
-   "calm",
    "reality-check"
   ],
   "texture": {
-   "sharp-smooth": "b",
    "relaxed-excited": "b",
+   "halffull-halfempty": "a",
    "control": "b",
    "risk": "b",
    "bright-dark": "a",
@@ -1724,11 +1738,11 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 93,
-   "classic-experimental": 27,
+   "solitary-social": 36,
+   "controlled-wild": 100,
+   "classic-experimental": 89,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 0
+   "grounded-dreamlike": 2
   },
   "flavors": [],
   "vetoes": []
@@ -1736,7 +1750,8 @@
  "jester-hero": {
   "drawnToward": [
    "pleasure",
-   "mischief"
+   "knowledge",
+   "making"
   ],
   "soughtFor": [
    "courage"
@@ -1747,16 +1762,17 @@
    "halffull-halfempty": "a",
    "control": "a",
    "quiet-loud": "b",
+   "risk": "b",
    "bright-dark": "a",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 83,
-   "controlled-wild": 35,
-   "classic-experimental": 10,
+   "solitary-social": 100,
+   "controlled-wild": 87,
+   "classic-experimental": 4,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 0
+   "grounded-dreamlike": 4
   },
   "flavors": [],
   "vetoes": []
@@ -1764,7 +1780,8 @@
  "jester-innocent": {
   "drawnToward": [
    "pleasure",
-   "mischief"
+   "knowledge",
+   "influence"
   ],
   "soughtFor": [
    "honesty",
@@ -1776,73 +1793,74 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "a",
    "control": "a",
+   "quiet-loud": "a",
    "risk": "a",
-   "bright-dark": "a",
-   "soft-rough": "a",
-   "harmonic": "a"
+   "bright-dark": "a"
   },
   "gravity": {
    "solitary-social": 100,
    "controlled-wild": 100,
-   "classic-experimental": 83,
-   "analytical-instinctive": 68,
-   "grounded-dreamlike": 99
+   "classic-experimental": 97,
+   "analytical-instinctive": 70,
+   "grounded-dreamlike": 66
   },
   "flavors": [],
   "vetoes": []
  },
  "jester-lover": {
   "drawnToward": [
-   "pleasure",
-   "mischief"
+   "pleasure"
   ],
   "soughtFor": [
+   "advice",
+   "calm",
    "taste"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "b",
+   "halffull-halfempty": "b",
    "control": "b",
    "quiet-loud": "a",
+   "risk": "b",
    "bright-dark": "b",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 43,
+   "controlled-wild": 100,
    "classic-experimental": 0,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 99
+   "grounded-dreamlike": 89
   },
   "flavors": [],
   "vetoes": []
  },
  "jester-magician": {
   "drawnToward": [
+   "mastery",
    "pleasure",
-   "wonder",
-   "mischief"
+   "knowledge"
   ],
   "soughtFor": [
-   "advice",
    "ideas",
+   "reality-check",
    "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "a",
-   "halffull-halfempty": "b",
+   "halffull-halfempty": "a",
    "control": "a",
-   "quiet-loud": "a",
+   "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "b",
-   "soft-rough": "b",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 99,
-   "controlled-wild": 17,
+   "solitary-social": 97,
+   "controlled-wild": 80,
    "classic-experimental": 100,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 100
@@ -1852,8 +1870,8 @@
  },
  "jester-outlaw": {
   "drawnToward": [
-   "pleasure",
-   "mischief"
+   "peace",
+   "pleasure"
   ],
   "soughtFor": [
    "courage",
@@ -1864,18 +1882,18 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "b",
-   "quiet-loud": "a",
+   "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 52,
+   "solitary-social": 100,
    "controlled-wild": 100,
    "classic-experimental": 100,
-   "analytical-instinctive": 0,
-   "grounded-dreamlike": 40
+   "analytical-instinctive": 16,
+   "grounded-dreamlike": 4
   },
   "flavors": [],
   "vetoes": []
@@ -1883,28 +1901,29 @@
  "jester-regular-guy": {
   "drawnToward": [
    "pleasure",
-   "mischief"
+   "knowledge",
+   "making"
   ],
   "soughtFor": [
+   "comfort",
    "honesty",
-   "ideas",
    "reality-check"
   ],
   "texture": {
-   "sharp-smooth": "b",
+   "sharp-smooth": "a",
    "relaxed-excited": "a",
+   "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "b",
-   "risk": "a",
    "bright-dark": "a",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 94,
-   "classic-experimental": 0,
-   "analytical-instinctive": 73,
+   "controlled-wild": 100,
+   "classic-experimental": 14,
+   "analytical-instinctive": 92,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -1913,7 +1932,8 @@
  "jester-ruler": {
   "drawnToward": [
    "pleasure",
-   "mischief"
+   "wonder",
+   "making"
   ],
   "soughtFor": [
    "taste",
@@ -1932,10 +1952,10 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 72,
-   "controlled-wild": 20,
-   "classic-experimental": 38,
-   "analytical-instinctive": 0,
+   "solitary-social": 40,
+   "controlled-wild": 74,
+   "classic-experimental": 0,
+   "analytical-instinctive": 34,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -1943,8 +1963,7 @@
  },
  "jester-sage": {
   "drawnToward": [
-   "pleasure",
-   "mischief"
+   "pleasure"
   ],
   "soughtFor": [
    "advice",
@@ -1955,19 +1974,17 @@
    "sharp-smooth": "a",
    "relaxed-excited": "b",
    "halffull-halfempty": "b",
-   "control": "b",
    "quiet-loud": "a",
-   "risk": "b",
+   "risk": "a",
    "bright-dark": "a",
-   "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 9,
-   "controlled-wild": 24,
+   "solitary-social": 47,
+   "controlled-wild": 100,
    "classic-experimental": 0,
-   "analytical-instinctive": 51,
-   "grounded-dreamlike": 91
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 56
   },
   "flavors": [],
   "vetoes": []
@@ -1985,6 +2002,7 @@
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "a",
+   "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "a",
    "risk": "a",
@@ -1993,11 +2011,11 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 80,
+   "solitary-social": 100,
    "controlled-wild": 0,
-   "classic-experimental": 94,
+   "classic-experimental": 97,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 12
+   "grounded-dreamlike": 35
   },
   "flavors": [],
   "vetoes": []
@@ -2014,19 +2032,19 @@
   ],
   "texture": {
    "sharp-smooth": "a",
+   "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "a",
    "risk": "a",
-   "bright-dark": "a",
    "soft-rough": "a",
-   "harmonic": "b"
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 33,
-   "controlled-wild": 0,
-   "classic-experimental": 96,
-   "analytical-instinctive": 77,
+   "solitary-social": 13,
+   "controlled-wild": 1,
+   "classic-experimental": 100,
+   "analytical-instinctive": 33,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -2035,11 +2053,13 @@
  "lover-explorer": {
   "drawnToward": [
    "beauty",
-   "belonging",
-   "pleasure"
+   "knowledge",
+   "caring"
   ],
   "soughtFor": [
-   "reality-check"
+   "honesty",
+   "courage",
+   "ideas"
   ],
   "texture": {
    "sharp-smooth": "b",
@@ -2048,16 +2068,15 @@
    "control": "b",
    "quiet-loud": "a",
    "risk": "b",
-   "bright-dark": "a",
    "soft-rough": "b",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 75,
-   "classic-experimental": 90,
+   "solitary-social": 37,
+   "controlled-wild": 100,
+   "classic-experimental": 18,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 41
+   "grounded-dreamlike": 90
   },
   "flavors": [],
   "vetoes": []
@@ -2065,10 +2084,10 @@
  "lover-hero": {
   "drawnToward": [
    "beauty",
-   "belonging",
-   "pleasure"
+   "caring"
   ],
   "soughtFor": [
+   "honesty",
    "courage",
    "taste"
   ],
@@ -2080,14 +2099,14 @@
    "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "b",
-   "harmonic": "a"
+   "soft-rough": "b"
   },
   "gravity": {
-   "solitary-social": 98,
-   "controlled-wild": 0,
-   "classic-experimental": 87,
+   "solitary-social": 100,
+   "controlled-wild": 9,
+   "classic-experimental": 21,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 58
+   "grounded-dreamlike": 100
   },
   "flavors": [],
   "vetoes": []
@@ -2104,19 +2123,18 @@
    "taste"
   ],
   "texture": {
-   "sharp-smooth": "a",
+   "relaxed-excited": "a",
    "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "a",
    "risk": "a",
-   "bright-dark": "a",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 74,
-   "controlled-wild": 25,
-   "classic-experimental": 89,
+   "solitary-social": 0,
+   "controlled-wild": 9,
+   "classic-experimental": 58,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 100
   },
@@ -2126,9 +2144,12 @@
  "lover-jester": {
   "drawnToward": [
    "beauty",
-   "pleasure"
+   "pleasure",
+   "caring"
   ],
   "soughtFor": [
+   "ideas",
+   "reality-check",
    "little-chaos"
   ],
   "texture": {
@@ -2143,10 +2164,10 @@
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 74,
-   "classic-experimental": 0,
+   "controlled-wild": 88,
+   "classic-experimental": 13,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 87
+   "grounded-dreamlike": 100
   },
   "flavors": [],
   "vetoes": []
@@ -2154,12 +2175,12 @@
  "lover-magician": {
   "drawnToward": [
    "beauty",
-   "pleasure",
-   "wonder"
+   "influence",
+   "caring"
   ],
   "soughtFor": [
+   "honesty",
    "ideas",
-   "calm",
    "little-chaos"
   ],
   "texture": {
@@ -2167,15 +2188,16 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "a",
-   "quiet-loud": "a",
+   "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "b",
+   "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 45,
-   "controlled-wild": 0,
-   "classic-experimental": 0,
+   "solitary-social": 100,
+   "controlled-wild": 9,
+   "classic-experimental": 83,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 100
   },
@@ -2185,8 +2207,7 @@
  "lover-outlaw": {
   "drawnToward": [
    "beauty",
-   "belonging",
-   "pleasure"
+   "caring"
   ],
   "soughtFor": [
    "courage",
@@ -2194,6 +2215,7 @@
    "little-chaos"
   ],
   "texture": {
+   "sharp-smooth": "a",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "b",
@@ -2204,23 +2226,20 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 17,
-   "controlled-wild": 80,
-   "classic-experimental": 1,
-   "analytical-instinctive": 2,
-   "grounded-dreamlike": 100
+   "solitary-social": 38,
+   "controlled-wild": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 68,
+   "grounded-dreamlike": 93
   },
   "flavors": [],
   "vetoes": []
  },
  "lover-regular-guy": {
   "drawnToward": [
-   "beauty",
-   "belonging",
-   "pleasure"
+   "beauty"
   ],
   "soughtFor": [
-   "comfort",
    "honesty",
    "reality-check"
   ],
@@ -2228,19 +2247,18 @@
    "sharp-smooth": "b",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
-   "control": "a",
+   "control": "b",
    "quiet-loud": "a",
-   "risk": "b",
    "bright-dark": "b",
    "soft-rough": "b",
-   "harmonic": "b"
+   "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 23,
-   "classic-experimental": 1,
+   "controlled-wild": 35,
+   "classic-experimental": 49,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 100
+   "grounded-dreamlike": 29
   },
   "flavors": [],
   "vetoes": []
@@ -2248,29 +2266,27 @@
  "lover-ruler": {
   "drawnToward": [
    "beauty",
-   "belonging",
-   "pleasure"
+   "pleasure",
+   "caring"
   ],
   "soughtFor": [
-   "calm",
    "taste",
    "reality-check"
   ],
   "texture": {
-   "sharp-smooth": "a",
-   "relaxed-excited": "b",
    "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "b",
    "risk": "a",
+   "bright-dark": "b",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 75,
+   "solitary-social": 57,
    "controlled-wild": 0,
-   "classic-experimental": 63,
-   "analytical-instinctive": 100,
+   "classic-experimental": 0,
+   "analytical-instinctive": 89,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -2279,12 +2295,12 @@
  "lover-sage": {
   "drawnToward": [
    "beauty",
-   "belonging",
-   "pleasure"
+   "pleasure",
+   "caring"
   ],
   "soughtFor": [
    "advice",
-   "calm",
+   "honesty",
    "taste"
   ],
   "texture": {
@@ -2295,15 +2311,15 @@
    "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
-   "soft-rough": "a",
+   "soft-rough": "b",
    "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 80,
+   "controlled-wild": 18,
    "classic-experimental": 0,
-   "analytical-instinctive": 70,
-   "grounded-dreamlike": 98
+   "analytical-instinctive": 56,
+   "grounded-dreamlike": 100
   },
   "flavors": [],
   "vetoes": []
@@ -2320,19 +2336,19 @@
   ],
   "texture": {
    "sharp-smooth": "b",
-   "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "a",
-   "risk": "b",
+   "quiet-loud": "a",
    "bright-dark": "b",
-   "soft-rough": "a"
+   "soft-rough": "a",
+   "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 100,
-   "controlled-wild": 7,
+   "solitary-social": 91,
+   "controlled-wild": 0,
    "classic-experimental": 100,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 30
+   "grounded-dreamlike": 36
   },
   "flavors": [],
   "vetoes": []
@@ -2340,7 +2356,8 @@
  "magician-creator": {
   "drawnToward": [
    "wonder",
-   "change"
+   "change",
+   "influence"
   ],
   "soughtFor": [
    "ideas",
@@ -2348,20 +2365,18 @@
   ],
   "texture": {
    "sharp-smooth": "a",
-   "relaxed-excited": "b",
    "halffull-halfempty": "b",
-   "control": "a",
    "quiet-loud": "a",
    "risk": "a",
    "bright-dark": "a",
-   "soft-rough": "b",
+   "soft-rough": "a",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 4,
-   "controlled-wild": 0,
+   "solitary-social": 0,
+   "controlled-wild": 37,
    "classic-experimental": 100,
-   "analytical-instinctive": 29,
+   "analytical-instinctive": 98,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -2369,16 +2384,15 @@
  },
  "magician-explorer": {
   "drawnToward": [
-   "wonder"
+   "wonder",
+   "influence"
   ],
   "soughtFor": [
-   "advice",
-   "courage",
-   "ideas"
+   "reality-check"
   ],
   "texture": {
+   "sharp-smooth": "b",
    "relaxed-excited": "b",
-   "halffull-halfempty": "b",
    "control": "b",
    "quiet-loud": "a",
    "risk": "b",
@@ -2388,10 +2402,10 @@
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 100,
-   "classic-experimental": 52,
+   "controlled-wild": 86,
+   "classic-experimental": 100,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 90
+   "grounded-dreamlike": 56
   },
   "flavors": [],
   "vetoes": []
@@ -2399,28 +2413,26 @@
  "magician-hero": {
   "drawnToward": [
    "wonder",
-   "change"
+   "change",
+   "influence"
   ],
   "soughtFor": [
    "courage"
   ],
   "texture": {
    "sharp-smooth": "a",
-   "relaxed-excited": "b",
    "halffull-halfempty": "a",
    "control": "a",
    "quiet-loud": "b",
-   "risk": "a",
-   "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 98,
+   "solitary-social": 100,
    "controlled-wild": 0,
-   "classic-experimental": 85,
+   "classic-experimental": 100,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 73
+   "grounded-dreamlike": 94
   },
   "flavors": [],
   "vetoes": []
@@ -2428,7 +2440,8 @@
  "magician-innocent": {
   "drawnToward": [
    "wonder",
-   "change"
+   "change",
+   "influence"
   ],
   "soughtFor": [
    "honesty",
@@ -2436,18 +2449,19 @@
    "little-chaos"
   ],
   "texture": {
-   "sharp-smooth": "a",
+   "sharp-smooth": "b",
    "relaxed-excited": "a",
    "halffull-halfempty": "a",
    "control": "a",
    "quiet-loud": "a",
+   "risk": "a",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 77,
-   "controlled-wild": 11,
-   "classic-experimental": 38,
+   "solitary-social": 10,
+   "controlled-wild": 45,
+   "classic-experimental": 98,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 100
   },
@@ -2457,11 +2471,10 @@
  "magician-jester": {
   "drawnToward": [
    "wonder",
-   "change"
+   "change",
+   "influence"
   ],
   "soughtFor": [
-   "advice",
-   "reality-check",
    "little-chaos"
   ],
   "texture": {
@@ -2476,10 +2489,10 @@
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 18,
-   "classic-experimental": 87,
+   "controlled-wild": 9,
+   "classic-experimental": 84,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 100
+   "grounded-dreamlike": 98
   },
   "flavors": [],
   "vetoes": []
@@ -2487,19 +2500,18 @@
  "magician-lover": {
   "drawnToward": [
    "wonder",
-   "change"
+   "change",
+   "influence"
   ],
   "soughtFor": [
    "advice",
-   "calm",
    "taste"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "b",
-   "halffull-halfempty": "b",
    "control": "b",
-   "quiet-loud": "b",
+   "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "a",
@@ -2507,8 +2519,8 @@
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 31,
-   "classic-experimental": 42,
+   "controlled-wild": 53,
+   "classic-experimental": 45,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 100
   },
@@ -2518,7 +2530,8 @@
  "magician-outlaw": {
   "drawnToward": [
    "wonder",
-   "change"
+   "change",
+   "influence"
   ],
   "soughtFor": [
    "honesty",
@@ -2530,17 +2543,17 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "b",
-   "quiet-loud": "a",
+   "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 67,
-   "controlled-wild": 100,
-   "classic-experimental": 91,
-   "analytical-instinctive": 94,
+   "solitary-social": 36,
+   "controlled-wild": 99,
+   "classic-experimental": 100,
+   "analytical-instinctive": 45,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -2549,29 +2562,30 @@
  "magician-regular-guy": {
   "drawnToward": [
    "wonder",
-   "change"
+   "change",
+   "influence"
   ],
   "soughtFor": [
+   "comfort",
    "honesty",
-   "ideas",
    "reality-check"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "a",
-   "halffull-halfempty": "a",
-   "control": "b",
+   "halffull-halfempty": "b",
    "quiet-loud": "b",
+   "risk": "a",
    "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 12,
-   "classic-experimental": 15,
+   "controlled-wild": 43,
+   "classic-experimental": 96,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 29
+   "grounded-dreamlike": 46
   },
   "flavors": [],
   "vetoes": []
@@ -2579,10 +2593,10 @@
  "magician-ruler": {
   "drawnToward": [
    "wonder",
-   "change"
+   "change",
+   "influence"
   ],
   "soughtFor": [
-   "ideas",
    "calm",
    "reality-check"
   ],
@@ -2597,11 +2611,11 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 97,
+   "solitary-social": 95,
    "controlled-wild": 0,
-   "classic-experimental": 11,
+   "classic-experimental": 60,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 64
+   "grounded-dreamlike": 63
   },
   "flavors": [],
   "vetoes": []
@@ -2609,7 +2623,8 @@
  "magician-sage": {
   "drawnToward": [
    "wonder",
-   "change"
+   "change",
+   "knowledge"
   ],
   "soughtFor": [
    "advice",
@@ -2617,20 +2632,20 @@
    "reality-check"
   ],
   "texture": {
-   "sharp-smooth": "b",
+   "sharp-smooth": "a",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "b",
    "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
-   "harmonic": "a"
+   "soft-rough": "a"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 44,
-   "classic-experimental": 51,
-   "analytical-instinctive": 95,
+   "solitary-social": 29,
+   "controlled-wild": 0,
+   "classic-experimental": 100,
+   "analytical-instinctive": 98,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -2640,7 +2655,7 @@
   "drawnToward": [
    "freedom",
    "change",
-   "mischief"
+   "caring"
   ],
   "soughtFor": [
    "comfort",
@@ -2648,21 +2663,21 @@
    "little-chaos"
   ],
   "texture": {
+   "sharp-smooth": "b",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "a",
    "risk": "a",
    "bright-dark": "b",
-   "soft-rough": "a",
-   "harmonic": "a"
+   "soft-rough": "a"
   },
   "gravity": {
-   "solitary-social": 75,
-   "controlled-wild": 73,
-   "classic-experimental": 100,
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 84,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 6
+   "grounded-dreamlike": 47
   },
   "flavors": [],
   "vetoes": []
@@ -2670,29 +2685,30 @@
  "outlaw-creator": {
   "drawnToward": [
    "freedom",
-   "change",
-   "mischief"
+   "mastery",
+   "change"
   ],
   "soughtFor": [
    "ideas",
-   "taste"
+   "taste",
+   "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
-   "control": "b",
+   "control": "a",
+   "quiet-loud": "a",
    "risk": "a",
-   "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 100,
+   "solitary-social": 93,
    "controlled-wild": 100,
-   "classic-experimental": 80,
+   "classic-experimental": 100,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 9
+   "grounded-dreamlike": 20
   },
   "flavors": [],
   "vetoes": []
@@ -2700,8 +2716,7 @@
  "outlaw-explorer": {
   "drawnToward": [
    "freedom",
-   "change",
-   "mischief"
+   "change"
   ],
   "soughtFor": [
    "ideas",
@@ -2715,14 +2730,15 @@
    "control": "b",
    "quiet-loud": "a",
    "risk": "b",
+   "bright-dark": "a",
    "soft-rough": "b",
    "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 0,
    "controlled-wild": 100,
-   "classic-experimental": 9,
-   "analytical-instinctive": 86,
+   "classic-experimental": 7,
+   "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -2730,29 +2746,27 @@
  },
  "outlaw-hero": {
   "drawnToward": [
-   "freedom",
-   "change",
-   "mischief"
+   "change"
   ],
   "soughtFor": [
    "courage"
   ],
   "texture": {
    "sharp-smooth": "a",
-   "relaxed-excited": "a",
+   "relaxed-excited": "b",
    "halffull-halfempty": "a",
    "control": "a",
    "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "b",
-   "harmonic": "b"
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 100,
-   "controlled-wild": 43,
-   "classic-experimental": 83,
-   "analytical-instinctive": 0,
+   "solitary-social": 73,
+   "controlled-wild": 100,
+   "classic-experimental": 47,
+   "analytical-instinctive": 10,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -2761,29 +2775,30 @@
  "outlaw-innocent": {
   "drawnToward": [
    "freedom",
-   "change",
-   "mischief"
+   "peace",
+   "change"
   ],
   "soughtFor": [
    "honesty",
-   "courage",
-   "calm"
+   "calm",
+   "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "a",
    "halffull-halfempty": "a",
-   "control": "b",
+   "quiet-loud": "a",
    "risk": "a",
    "bright-dark": "b",
-   "soft-rough": "a"
+   "soft-rough": "a",
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 100,
+   "solitary-social": 98,
    "controlled-wild": 100,
-   "classic-experimental": 78,
+   "classic-experimental": 34,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 100
+   "grounded-dreamlike": 95
   },
   "flavors": [],
   "vetoes": []
@@ -2791,30 +2806,28 @@
  "outlaw-jester": {
   "drawnToward": [
    "freedom",
-   "change",
-   "mischief"
+   "mastery",
+   "change"
   ],
   "soughtFor": [
-   "reality-check",
    "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "a",
-   "relaxed-excited": "b",
+   "relaxed-excited": "a",
    "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "a",
-   "soft-rough": "a",
    "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 100,
    "controlled-wild": 100,
-   "classic-experimental": 0,
-   "analytical-instinctive": 3,
-   "grounded-dreamlike": 50
+   "classic-experimental": 4,
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 91
   },
   "flavors": [],
   "vetoes": []
@@ -2823,9 +2836,10 @@
   "drawnToward": [
    "freedom",
    "change",
-   "mischief"
+   "caring"
   ],
   "soughtFor": [
+   "advice",
    "courage",
    "taste"
   ],
@@ -2834,15 +2848,15 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "b",
+   "quiet-loud": "b",
    "bright-dark": "b",
-   "soft-rough": "a",
-   "harmonic": "a"
+   "soft-rough": "a"
   },
   "gravity": {
    "solitary-social": 100,
    "controlled-wild": 100,
-   "classic-experimental": 0,
-   "analytical-instinctive": 39,
+   "classic-experimental": 7,
+   "analytical-instinctive": 5,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -2852,11 +2866,11 @@
   "drawnToward": [
    "freedom",
    "change",
-   "mischief"
+   "caring"
   ],
   "soughtFor": [
    "comfort",
-   "reality-check",
+   "ideas",
    "little-chaos"
   ],
   "texture": {
@@ -2864,16 +2878,15 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "a",
-   "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
-   "harmonic": "b"
+   "soft-rough": "b"
   },
   "gravity": {
-   "solitary-social": 62,
-   "controlled-wild": 0,
-   "classic-experimental": 100,
-   "analytical-instinctive": 79,
+   "solitary-social": 100,
+   "controlled-wild": 100,
+   "classic-experimental": 96,
+   "analytical-instinctive": 95,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -2882,13 +2895,12 @@
  "outlaw-regular-guy": {
   "drawnToward": [
    "freedom",
-   "change",
-   "mischief"
+   "beauty",
+   "change"
   ],
   "soughtFor": [
    "comfort",
-   "honesty",
-   "reality-check"
+   "honesty"
   ],
   "texture": {
    "sharp-smooth": "a",
@@ -2896,15 +2908,16 @@
    "halffull-halfempty": "b",
    "control": "b",
    "quiet-loud": "b",
+   "risk": "a",
    "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 97,
+   "solitary-social": 100,
    "controlled-wild": 100,
-   "classic-experimental": 42,
-   "analytical-instinctive": 0,
+   "classic-experimental": 0,
+   "analytical-instinctive": 1,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -2913,8 +2926,7 @@
  "outlaw-ruler": {
   "drawnToward": [
    "freedom",
-   "change",
-   "mischief"
+   "change"
   ],
   "soughtFor": [
    "taste",
@@ -2929,15 +2941,14 @@
    "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "b",
-   "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 51,
-   "controlled-wild": 15,
-   "classic-experimental": 41,
+   "solitary-social": 71,
+   "controlled-wild": 37,
+   "classic-experimental": 0,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 0
+   "grounded-dreamlike": 54
   },
   "flavors": [],
   "vetoes": []
@@ -2945,30 +2956,31 @@
  "outlaw-sage": {
   "drawnToward": [
    "freedom",
-   "change",
-   "mischief"
+   "beauty",
+   "change"
   ],
   "soughtFor": [
    "advice",
-   "calm"
+   "calm",
+   "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
-   "control": "b",
+   "control": "a",
    "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "b",
-   "harmonic": "b"
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 98,
-   "controlled-wild": 91,
+   "solitary-social": 87,
+   "controlled-wild": 100,
    "classic-experimental": 0,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 96
+   "grounded-dreamlike": 93
   },
   "flavors": [],
   "vetoes": []
@@ -2976,7 +2988,7 @@
  "regular-guy-caregiver": {
   "drawnToward": [
    "belonging",
-   "change"
+   "making"
   ],
   "soughtFor": [
    "advice",
@@ -2986,7 +2998,6 @@
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "a",
-   "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "a",
    "risk": "a",
@@ -2996,9 +3007,9 @@
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 67,
-   "classic-experimental": 5,
-   "analytical-instinctive": 57,
+   "controlled-wild": 60,
+   "classic-experimental": 0,
+   "analytical-instinctive": 42,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -3018,15 +3029,15 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "a",
+   "quiet-loud": "a",
    "risk": "a",
-   "bright-dark": "a",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 100,
-   "classic-experimental": 79,
+   "controlled-wild": 94,
+   "classic-experimental": 81,
    "analytical-instinctive": 0,
    "grounded-dreamlike": 11
   },
@@ -3039,25 +3050,24 @@
   ],
   "soughtFor": [
    "honesty",
-   "ideas",
-   "reality-check"
+   "ideas"
   ],
   "texture": {
-   "sharp-smooth": "a",
+   "sharp-smooth": "b",
    "relaxed-excited": "b",
+   "halffull-halfempty": "b",
    "control": "b",
-   "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "a",
    "soft-rough": "b",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 0,
+   "solitary-social": 2,
    "controlled-wild": 100,
-   "classic-experimental": 38,
+   "classic-experimental": 0,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 10
+   "grounded-dreamlike": 5
   },
   "flavors": [],
   "vetoes": []
@@ -3084,8 +3094,8 @@
   },
   "gravity": {
    "solitary-social": 84,
-   "controlled-wild": 42,
-   "classic-experimental": 38,
+   "controlled-wild": 33,
+   "classic-experimental": 33,
    "analytical-instinctive": 100,
    "grounded-dreamlike": 0
   },
@@ -3094,20 +3104,19 @@
  },
  "regular-guy-innocent": {
   "drawnToward": [
+   "freedom",
    "belonging",
-   "change"
+   "making"
   ],
   "soughtFor": [
-   "honesty",
-   "courage",
-   "reality-check"
+   "honesty"
   ],
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "a",
    "halffull-halfempty": "a",
    "control": "a",
-   "quiet-loud": "a",
+   "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "a",
    "soft-rough": "a",
@@ -3115,10 +3124,10 @@
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 99,
+   "controlled-wild": 100,
    "classic-experimental": 0,
-   "analytical-instinctive": 51,
-   "grounded-dreamlike": 90
+   "analytical-instinctive": 22,
+   "grounded-dreamlike": 62
   },
   "flavors": [],
   "vetoes": []
@@ -3126,28 +3135,28 @@
  "regular-guy-jester": {
   "drawnToward": [
    "belonging",
-   "wonder"
+   "knowledge"
   ],
   "soughtFor": [
    "honesty",
-   "reality-check",
+   "ideas",
    "little-chaos"
   ],
   "texture": {
-   "sharp-smooth": "a",
    "relaxed-excited": "b",
    "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "a",
+   "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 100,
+   "controlled-wild": 97,
    "classic-experimental": 0,
-   "analytical-instinctive": 86,
+   "analytical-instinctive": 90,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -3155,18 +3164,20 @@
  },
  "regular-guy-lover": {
   "drawnToward": [
-   "belonging"
+   "belonging",
+   "knowledge",
+   "making"
   ],
   "soughtFor": [
    "honesty",
-   "ideas",
    "taste"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "b",
    "halffull-halfempty": "b",
-   "quiet-loud": "b",
+   "control": "b",
+   "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "a",
@@ -3174,10 +3185,10 @@
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 100,
+   "controlled-wild": 99,
    "classic-experimental": 0,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 6
+   "grounded-dreamlike": 2
   },
   "flavors": [],
   "vetoes": []
@@ -3185,27 +3196,30 @@
  "regular-guy-magician": {
   "drawnToward": [
    "belonging",
-   "change"
+   "knowledge"
   ],
   "soughtFor": [
+   "honesty",
    "ideas",
-   "reality-check",
    "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "a",
+   "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "a",
    "risk": "b",
-   "bright-dark": "b"
+   "bright-dark": "b",
+   "soft-rough": "b",
+   "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 10,
-   "classic-experimental": 6,
+   "controlled-wild": 24,
+   "classic-experimental": 69,
    "analytical-instinctive": 100,
-   "grounded-dreamlike": 86
+   "grounded-dreamlike": 61
   },
   "flavors": [],
   "vetoes": []
@@ -3220,7 +3234,6 @@
    "little-chaos"
   ],
   "texture": {
-   "sharp-smooth": "a",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "b",
@@ -3231,11 +3244,11 @@
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 70,
-   "controlled-wild": 100,
+   "solitary-social": 52,
+   "controlled-wild": 98,
    "classic-experimental": 0,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 8
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
@@ -3243,7 +3256,8 @@
  "regular-guy-ruler": {
   "drawnToward": [
    "belonging",
-   "wonder"
+   "wonder",
+   "making"
   ],
   "soughtFor": [
    "taste",
@@ -3251,28 +3265,28 @@
   ],
   "texture": {
    "sharp-smooth": "a",
-   "relaxed-excited": "b",
    "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "b",
-   "soft-rough": "b",
-   "harmonic": "b"
+   "soft-rough": "b"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 82,
+   "controlled-wild": 59,
    "classic-experimental": 0,
-   "analytical-instinctive": 0,
-   "grounded-dreamlike": 2
+   "analytical-instinctive": 15,
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
  },
  "regular-guy-sage": {
   "drawnToward": [
-   "belonging"
+   "belonging",
+   "wonder",
+   "making"
   ],
   "soughtFor": [
    "advice",
@@ -3291,41 +3305,40 @@
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 100,
+   "solitary-social": 61,
    "controlled-wild": 100,
    "classic-experimental": 0,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 64
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
  },
  "ruler-caregiver": {
   "drawnToward": [
-   "beauty",
-   "mastery",
-   "mischief"
+   "freedom",
+   "influence"
   ],
   "soughtFor": [
    "comfort",
    "calm",
-   "reality-check"
+   "taste"
   ],
   "texture": {
    "sharp-smooth": "b",
-   "relaxed-excited": "a",
+   "relaxed-excited": "b",
+   "halffull-halfempty": "a",
    "control": "a",
-   "quiet-loud": "b",
+   "quiet-loud": "a",
    "risk": "a",
-   "bright-dark": "a",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 100,
+   "solitary-social": 48,
    "controlled-wild": 0,
    "classic-experimental": 0,
-   "analytical-instinctive": 17,
+   "analytical-instinctive": 0,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -3333,37 +3346,35 @@
  },
  "ruler-creator": {
   "drawnToward": [
-   "freedom",
-   "mastery",
-   "mischief"
+   "influence"
   ],
   "soughtFor": [
    "ideas",
-   "taste",
-   "reality-check"
+   "taste"
   ],
   "texture": {
-   "sharp-smooth": "b",
+   "sharp-smooth": "a",
    "relaxed-excited": "a",
-   "halffull-halfempty": "b",
-   "quiet-loud": "b",
+   "control": "a",
+   "quiet-loud": "a",
    "risk": "a",
    "bright-dark": "a",
-   "soft-rough": "a",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 100,
+   "solitary-social": 84,
    "controlled-wild": 0,
-   "classic-experimental": 60,
+   "classic-experimental": 52,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 79
+   "grounded-dreamlike": 43
   },
   "flavors": [],
   "vetoes": []
  },
  "ruler-explorer": {
-  "drawnToward": [],
+  "drawnToward": [
+   "influence"
+  ],
   "soughtFor": [
    "ideas",
    "reality-check"
@@ -3371,27 +3382,27 @@
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "b",
-   "halffull-halfempty": "a",
+   "halffull-halfempty": "b",
    "control": "b",
    "quiet-loud": "b",
    "risk": "b",
-   "soft-rough": "b"
+   "bright-dark": "a",
+   "soft-rough": "b",
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 15,
-   "controlled-wild": 0,
+   "solitary-social": 0,
+   "controlled-wild": 66,
    "classic-experimental": 0,
-   "analytical-instinctive": 61,
-   "grounded-dreamlike": 35
+   "analytical-instinctive": 69,
+   "grounded-dreamlike": 24
   },
   "flavors": [],
   "vetoes": []
  },
  "ruler-hero": {
   "drawnToward": [
-   "beauty",
-   "mastery",
-   "wonder"
+   "influence"
   ],
   "soughtFor": [
    "courage",
@@ -3404,15 +3415,14 @@
    "control": "a",
    "quiet-loud": "b",
    "risk": "b",
-   "bright-dark": "a",
    "soft-rough": "b",
-   "harmonic": "b"
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 100,
+   "solitary-social": 47,
    "controlled-wild": 0,
    "classic-experimental": 0,
-   "analytical-instinctive": 21,
+   "analytical-instinctive": 26,
    "grounded-dreamlike": 0
   },
   "flavors": [],
@@ -3421,8 +3431,7 @@
  "ruler-innocent": {
   "drawnToward": [
    "freedom",
-   "mastery",
-   "wonder"
+   "influence"
   ],
   "soughtFor": [
    "honesty",
@@ -3430,9 +3439,10 @@
    "taste"
   ],
   "texture": {
+   "sharp-smooth": "a",
+   "relaxed-excited": "a",
    "halffull-halfempty": "a",
    "control": "a",
-   "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "a",
    "soft-rough": "a",
@@ -3441,21 +3451,18 @@
   "gravity": {
    "solitary-social": 100,
    "controlled-wild": 0,
-   "classic-experimental": 0,
-   "analytical-instinctive": 2,
-   "grounded-dreamlike": 39
+   "classic-experimental": 5,
+   "analytical-instinctive": 20,
+   "grounded-dreamlike": 100
   },
   "flavors": [],
   "vetoes": []
  },
  "ruler-jester": {
   "drawnToward": [
-   "freedom",
-   "mastery",
-   "wonder"
+   "influence"
   ],
   "soughtFor": [
-   "taste",
    "reality-check",
    "little-chaos"
   ],
@@ -3465,73 +3472,73 @@
    "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "b",
-   "risk": "a",
    "bright-dark": "a",
    "soft-rough": "a",
    "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 8,
+   "controlled-wild": 0,
    "classic-experimental": 0,
-   "analytical-instinctive": 0,
-   "grounded-dreamlike": 100
+   "analytical-instinctive": 18,
+   "grounded-dreamlike": 95
   },
   "flavors": [],
   "vetoes": []
  },
  "ruler-lover": {
   "drawnToward": [
-   "freedom",
-   "mastery",
-   "mischief"
+   "influence"
   ],
   "soughtFor": [
-   "taste",
-   "reality-check"
+   "taste"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "b",
    "halffull-halfempty": "b",
    "control": "b",
-   "risk": "a",
+   "quiet-loud": "b",
+   "risk": "b",
    "bright-dark": "b",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 100,
-   "controlled-wild": 3,
+   "solitary-social": 88,
+   "controlled-wild": 0,
    "classic-experimental": 0,
-   "analytical-instinctive": 45,
-   "grounded-dreamlike": 100
+   "analytical-instinctive": 14,
+   "grounded-dreamlike": 76
   },
   "flavors": [],
   "vetoes": []
  },
  "ruler-magician": {
   "drawnToward": [
-   "freedom",
-   "mastery"
+   "influence"
   ],
   "soughtFor": [
    "ideas",
-   "reality-check",
+   "calm",
    "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
+   "control": "a",
+   "quiet-loud": "b",
+   "risk": "b",
    "bright-dark": "b",
-   "soft-rough": "a"
+   "soft-rough": "a",
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 100,
+   "solitary-social": 22,
    "controlled-wild": 0,
-   "classic-experimental": 13,
-   "analytical-instinctive": 36,
+   "classic-experimental": 8,
+   "analytical-instinctive": 100,
    "grounded-dreamlike": 100
   },
   "flavors": [],
@@ -3539,9 +3546,7 @@
  },
  "ruler-outlaw": {
   "drawnToward": [
-   "freedom",
-   "mastery",
-   "wonder"
+   "influence"
   ],
   "soughtFor": [
    "taste",
@@ -3560,20 +3565,20 @@
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 100,
-   "controlled-wild": 15,
-   "classic-experimental": 0,
+   "solitary-social": 13,
+   "controlled-wild": 40,
+   "classic-experimental": 88,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 80
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
  },
  "ruler-regular-guy": {
   "drawnToward": [
-   "mastery",
-   "pleasure",
-   "wonder"
+   "freedom",
+   "influence",
+   "making"
   ],
   "soughtFor": [
    "comfort",
@@ -3582,29 +3587,29 @@
   ],
   "texture": {
    "sharp-smooth": "b",
+   "relaxed-excited": "a",
    "halffull-halfempty": "b",
-   "control": "a",
+   "control": "b",
    "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "b",
-   "soft-rough": "a",
+   "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 100,
-   "controlled-wild": 0,
+   "controlled-wild": 1,
    "classic-experimental": 0,
-   "analytical-instinctive": 1,
-   "grounded-dreamlike": 0
+   "analytical-instinctive": 0,
+   "grounded-dreamlike": 29
   },
   "flavors": [],
   "vetoes": []
  },
  "ruler-sage": {
   "drawnToward": [
-   "mastery",
-   "change",
-   "mischief"
+   "pleasure",
+   "influence"
   ],
   "soughtFor": [
    "advice",
@@ -3617,24 +3622,24 @@
    "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "a",
-   "risk": "a",
+   "risk": "b",
    "bright-dark": "b",
-   "soft-rough": "a",
-   "harmonic": "a"
+   "soft-rough": "a"
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 2,
+   "controlled-wild": 3,
    "classic-experimental": 0,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 100
+   "grounded-dreamlike": 25
   },
   "flavors": [],
   "vetoes": []
  },
  "sage-caregiver": {
   "drawnToward": [
-   "mastery"
+   "mastery",
+   "knowledge"
   ],
   "soughtFor": [
    "advice",
@@ -3643,19 +3648,19 @@
   ],
   "texture": {
    "sharp-smooth": "b",
-   "relaxed-excited": "a",
    "control": "b",
    "quiet-loud": "a",
-   "bright-dark": "a",
+   "risk": "a",
+   "bright-dark": "b",
    "soft-rough": "a",
    "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 100,
-   "classic-experimental": 21,
+   "solitary-social": 2,
+   "controlled-wild": 88,
+   "classic-experimental": 0,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 45
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
@@ -3663,8 +3668,7 @@
  "sage-creator": {
   "drawnToward": [
    "mastery",
-   "peace",
-   "pleasure"
+   "knowledge"
   ],
   "soughtFor": [
    "advice",
@@ -3674,18 +3678,17 @@
   "texture": {
    "sharp-smooth": "a",
    "relaxed-excited": "a",
-   "halffull-halfempty": "b",
    "control": "b",
    "quiet-loud": "a",
-   "risk": "b",
-   "bright-dark": "b",
-   "soft-rough": "b",
+   "risk": "a",
+   "bright-dark": "a",
+   "soft-rough": "a",
    "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 79,
-   "classic-experimental": 8,
+   "controlled-wild": 77,
+   "classic-experimental": 61,
    "analytical-instinctive": 0,
    "grounded-dreamlike": 100
   },
@@ -3696,40 +3699,40 @@
   "drawnToward": [
    "mastery",
    "peace",
-   "pleasure"
+   "knowledge"
   ],
   "soughtFor": [
+   "advice",
    "ideas",
-   "calm",
    "reality-check"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "b",
-   "halffull-halfempty": "b",
    "control": "b",
    "risk": "b",
-   "bright-dark": "b",
+   "bright-dark": "a",
    "soft-rough": "b",
    "harmonic": "a"
   },
   "gravity": {
    "solitary-social": 0,
    "controlled-wild": 100,
-   "classic-experimental": 0,
-   "analytical-instinctive": 40,
-   "grounded-dreamlike": 73
+   "classic-experimental": 9,
+   "analytical-instinctive": 90,
+   "grounded-dreamlike": 50
   },
   "flavors": [],
   "vetoes": []
  },
  "sage-hero": {
   "drawnToward": [
-   "beauty",
-   "peace"
+   "mastery",
+   "peace",
+   "knowledge"
   ],
   "soughtFor": [
-   "advice",
+   "honesty",
    "courage"
   ],
   "texture": {
@@ -3738,15 +3741,15 @@
    "halffull-halfempty": "a",
    "control": "a",
    "risk": "b",
-   "bright-dark": "b",
-   "soft-rough": "b"
+   "soft-rough": "b",
+   "harmonic": "b"
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 85,
+   "controlled-wild": 30,
    "classic-experimental": 0,
-   "analytical-instinctive": 0,
-   "grounded-dreamlike": 3
+   "analytical-instinctive": 1,
+   "grounded-dreamlike": 0
   },
   "flavors": [],
   "vetoes": []
@@ -3754,7 +3757,7 @@
  "sage-innocent": {
   "drawnToward": [
    "mastery",
-   "mischief"
+   "knowledge"
   ],
   "soughtFor": [
    "honesty",
@@ -3762,8 +3765,10 @@
   ],
   "texture": {
    "relaxed-excited": "a",
+   "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "a",
+   "risk": "a",
    "bright-dark": "a",
    "soft-rough": "a",
    "harmonic": "a"
@@ -3771,7 +3776,7 @@
   "gravity": {
    "solitary-social": 0,
    "controlled-wild": 100,
-   "classic-experimental": 7,
+   "classic-experimental": 21,
    "analytical-instinctive": 0,
    "grounded-dreamlike": 100
   },
@@ -3781,8 +3786,7 @@
  "sage-jester": {
   "drawnToward": [
    "mastery",
-   "peace",
-   "pleasure"
+   "knowledge"
   ],
   "soughtFor": [
    "advice",
@@ -3791,19 +3795,20 @@
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "b",
+   "halffull-halfempty": "a",
    "control": "b",
    "quiet-loud": "b",
-   "risk": "b",
+   "risk": "a",
    "bright-dark": "a",
    "soft-rough": "a",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 64,
+   "solitary-social": 41,
+   "controlled-wild": 67,
    "classic-experimental": 0,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 69
+   "grounded-dreamlike": 100
   },
   "flavors": [],
   "vetoes": []
@@ -3811,8 +3816,7 @@
  "sage-lover": {
   "drawnToward": [
    "mastery",
-   "peace",
-   "pleasure"
+   "knowledge"
   ],
   "soughtFor": [
    "advice",
@@ -3820,19 +3824,20 @@
   ],
   "texture": {
    "sharp-smooth": "b",
-   "relaxed-excited": "b",
    "halffull-halfempty": "b",
    "control": "b",
+   "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
-   "soft-rough": "a"
+   "soft-rough": "a",
+   "harmonic": "a"
   },
   "gravity": {
-   "solitary-social": 7,
-   "controlled-wild": 97,
+   "solitary-social": 98,
+   "controlled-wild": 100,
    "classic-experimental": 0,
-   "analytical-instinctive": 24,
-   "grounded-dreamlike": 77
+   "analytical-instinctive": 18,
+   "grounded-dreamlike": 100
   },
   "flavors": [],
   "vetoes": []
@@ -3840,19 +3845,18 @@
  "sage-magician": {
   "drawnToward": [
    "mastery",
-   "peace",
-   "change"
+   "wonder",
+   "knowledge"
   ],
   "soughtFor": [
-   "advice",
    "ideas",
+   "calm",
    "little-chaos"
   ],
   "texture": {
    "sharp-smooth": "b",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
-   "control": "b",
    "quiet-loud": "b",
    "risk": "b",
    "bright-dark": "b",
@@ -3861,7 +3865,7 @@
   },
   "gravity": {
    "solitary-social": 0,
-   "controlled-wild": 9,
+   "controlled-wild": 13,
    "classic-experimental": 0,
    "analytical-instinctive": 72,
    "grounded-dreamlike": 100
@@ -3871,12 +3875,13 @@
  },
  "sage-outlaw": {
   "drawnToward": [
-   "beauty",
    "mastery",
-   "peace"
+   "peace",
+   "knowledge"
   ],
   "soughtFor": [
    "advice",
+   "courage",
    "little-chaos"
   ],
   "texture": {
@@ -3884,17 +3889,18 @@
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "b",
+   "quiet-loud": "a",
    "risk": "b",
    "bright-dark": "b",
    "soft-rough": "b",
    "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 0,
-   "controlled-wild": 92,
-   "classic-experimental": 0,
+   "solitary-social": 13,
+   "controlled-wild": 100,
+   "classic-experimental": 22,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 91
+   "grounded-dreamlike": 100
   },
   "flavors": [],
   "vetoes": []
@@ -3902,8 +3908,7 @@
  "sage-regular-guy": {
   "drawnToward": [
    "mastery",
-   "peace",
-   "pleasure"
+   "knowledge"
   ],
   "soughtFor": [
    "comfort",
@@ -3911,51 +3916,51 @@
    "reality-check"
   ],
   "texture": {
-   "sharp-smooth": "b",
    "relaxed-excited": "a",
    "halffull-halfempty": "b",
    "control": "b",
    "quiet-loud": "a",
-   "risk": "b",
+   "risk": "a",
    "bright-dark": "b",
-   "soft-rough": "b"
+   "soft-rough": "b",
+   "harmonic": "b"
   },
   "gravity": {
-   "solitary-social": 0,
+   "solitary-social": 46,
    "controlled-wild": 100,
    "classic-experimental": 0,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 3
+   "grounded-dreamlike": 32
   },
   "flavors": [],
   "vetoes": []
  },
  "sage-ruler": {
   "drawnToward": [
-   "mastery",
-   "peace"
+   "peace",
+   "knowledge"
   ],
   "soughtFor": [
    "taste",
-   "reality-check"
+   "reality-check",
+   "little-chaos"
   ],
   "texture": {
-   "sharp-smooth": "b",
+   "sharp-smooth": "a",
    "relaxed-excited": "b",
    "halffull-halfempty": "b",
    "control": "a",
    "quiet-loud": "b",
    "risk": "a",
    "bright-dark": "b",
-   "soft-rough": "a",
-   "harmonic": "a"
+   "soft-rough": "b"
   },
   "gravity": {
-   "solitary-social": 0,
+   "solitary-social": 7,
    "controlled-wild": 0,
    "classic-experimental": 0,
    "analytical-instinctive": 0,
-   "grounded-dreamlike": 76
+   "grounded-dreamlike": 2
   },
   "flavors": [],
   "vetoes": []

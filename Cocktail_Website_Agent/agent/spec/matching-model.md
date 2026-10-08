@@ -80,13 +80,18 @@ Columns: **affects** = P (persona), R (recipe eligibility or preference), N (nar
 | --- | --- | --- | --- |
 | Freedom | Explorer 1.0, Outlaw 0.6 | Explorer's goal (Freedom, Independence). Outlaw's liberation. | — |
 | Beauty | Lover 1.0, Creator 0.6 | Lover's sensuality. Creator's aesthetic self-expression. | — |
-| Mastery | Hero 1.0, Sage 0.5, Ruler 0.5 | Hero's goal (Mastery). Sage's and Ruler's command of a field. | Carries three archetypes since Knowledge was trimmed. **Gap**, see the edit below. |
+| Mastery | Hero 1.0, Sage 0.5, Ruler 0.5 | Hero's goal (Mastery). Sage's and Ruler's command of a field. | Shares Sage with Knowledge and Ruler with Influence. |
 | Peace | Innocent 1.0, Caregiver 0.6, Sage 0.3 | Innocent's safety. Caregiver's calm. | — |
 | Belonging | Regular Guy 1.0, Caregiver 0.5, Lover 0.3 | Regular Guy's goal (Belonging). | — |
 | Pleasure | Jester 1.0, Lover 0.6 | Jester's goal (Pleasure, Enjoyment). | — |
 | Wonder | Magician 1.0, Innocent 0.5, Explorer 0.3 | Magician's transformation. Innocent's sense of wonder. | — |
 | Change | Outlaw 0.8, Magician 0.6, Creator 0.6 | Outlaw's revolution. Magician's transformation. Creator's innovation. | — |
-| Mischief | Jester 0.8, Outlaw 0.6 | Jester's humour. Outlaw's rule-breaking. | Redundant with Pleasure, Change and soughtFor's *A little chaos*. |
+| Knowledge | Sage 1.0, Explorer 0.3 | Sage's goal (Wisdom, Truth). Explorer's discovery. | Added by Q12 (2026-10-08). |
+| Influence | Ruler 1.0, Hero 0.3, Magician 0.3 | Ruler's goal (Control, Power). Hero's impact. Magician's making things happen. | Added by Q12 (2026-10-08). |
+| Making | Creator 1.0, Hero 0.3 | Creator's goal (Innovation, self-expression). Hero's achievement. | Added by Q12 (2026-10-08). |
+| Caring | Caregiver 1.0, Regular Guy 0.3, Lover 0.3 | Caregiver's goal (Service). Regular Guy's and Lover's attachment. | Added by Q12 (2026-10-08). |
+
+*Mischief* (Jester 0.8, Outlaw 0.6) was retired by Q12: it was redundant with Pleasure, Change and soughtFor's *A little chaos*. Its id is never reused.
 
 ### H5 soughtFor: *What do people often come to you for?* (expression)
 
@@ -149,15 +154,15 @@ Ambiguity:
 | Flavours (≤3 of Sweet, Bitter, Spicy, Herbal, Fruity, Citrusy, Fresh, Floral, Smoky) | Taste preference | R (preference) | Flavour-fit term φ on the pour. Never an archetype signal. |
 | Vetoes (egg-white, dairy, gluten, nuts, spice) | Must never be in the glass | R (eligibility) | Hard filter on whole pours before the shortlist. Under U, nuts changes 12% of top-1 results (14 pours contain nuts) and all five vetoes together change 20.3%. |
 
-## Recommended question edit (identified gap)
+## Question edit Q12 (adopted 2026-10-08)
 
-**Gap.** Caregiver, Creator, Ruler and Sage are primary for 2–5% of guests under uniform answers, against about 11% for the other eight. A guest answering in character as one of them gets that primary back only 10–22% of the time, against 30–56% for the others. Cause: drawnToward has no word whose core is their goal (Service, Innovation, Control, Wisdom). The 2026-09-18 overlap trims (Knowledge vs Mastery, Power and Recognition) removed exactly these, and drawnToward is the motive signal. All 132 pairings stay reachable (reachability-v1.md), so this is starved evidence, not a dead outcome.
+**Gap (nine-word round).** Caregiver, Creator, Ruler and Sage are primary for 2–5% of guests under uniform answers, against about 11% for the other eight. A guest answering in character as one of them gets that primary back only 10–22% of the time, against 30–56% for the others. Cause: drawnToward has no word whose core is their goal (Service, Innovation, Control, Wisdom). The 2026-09-18 overlap trims (Knowledge vs Mastery, Power and Recognition) removed exactly these, and drawnToward is the motive signal. All 132 pairings stay reachable (reachability-v1.md), so this is starved evidence, not a dead outcome.
 
 **A weights-only fix does not close it.** Variant A raises soughtFor's motive role from 0.4 to 0.7. It moves Caregiver recovery 0.08 → 0.12 and Ruler 0.19 → 0.16, while blurring what makes a pairing reversed.
 
 **Smallest useful edit (variant Q12):** in drawnToward, drop **Mischief** (redundant: see above) and add four goal words. drawnToward becomes 12 words.
 
-| new word (label for Robin to confirm) | affinities |
+| new word | affinities |
 | --- | --- |
 | Knowledge | Sage 1.0, Explorer 0.3 |
 | Influence | Ruler 1.0, Hero 0.3, Magician 0.3 |
@@ -173,7 +178,12 @@ Historical Q12 experiment (2026-10-06, before the validated catalogue refresh; n
 
 Cost: 12 spheres instead of 9 in the H5 cluster (4 × 3), which the design owner must check on phones. soughtFor is unchanged.
 
-Status: **recommendation, pending Robin (copy) and the design owner (layout)**. v1 ships with the current nine words until it is agreed. Re-run the coverage after the change.
+Status: **adopted 2026-10-08** (Robin asked for the twelve words; labels as proposed). The H5 world lays out the round from its word count: four rows of three on phones, the far orbit on desktop. Regenerated evidence against the validated catalogue (distribution-v1.md):
+
+- 132/132 pairings still lead the fallback on persona answers alone.
+- Primary shares under U are 0.054–0.102. Caregiver, Creator, Ruler and Sage rose from 0.022–0.041 to 0.080–0.092.
+- Recovery for those four rose from 0.10–0.22 to 0.29–0.47. Exact-pairing recovery is 0.149 → 0.146 and reversed-instead 0.147 → 0.148.
+- Outlaw is now the thinnest primary (0.078 → 0.054 under U; recovery 0.30 → 0.21), because it lost Mischief's 0.6. Watch it in playtests.
 
 ## Review cadence
 

@@ -16,7 +16,10 @@
     "pleasure":  {"Jester": 1.0, "Lover": 0.6},
     "wonder":    {"Magician": 1.0, "Innocent": 0.5, "Explorer": 0.3},
     "change":    {"Outlaw": 0.8, "Magician": 0.6, "Creator": 0.6},
-    "mischief":  {"Jester": 0.8, "Outlaw": 0.6}
+    "knowledge": {"Sage": 1.0, "Explorer": 0.3},
+    "influence": {"Ruler": 1.0, "Hero": 0.3, "Magician": 0.3},
+    "making":    {"Creator": 1.0, "Hero": 0.3},
+    "caring":    {"Caregiver": 1.0, "Regular Guy": 0.3, "Lover": 0.3}
   },
   "soughtFor": {
     "advice":        {"Sage": 1.0, "Ruler": 0.4, "Caregiver": 0.3},

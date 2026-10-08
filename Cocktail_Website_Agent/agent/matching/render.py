@@ -142,7 +142,7 @@ def dist():
         "## Reading",
         "",
         f"1. **Observed ties are model results.** Uniform exact-tie rate: {d['U uniform']['exact_tie_rate']}; near-tie rate: {d['U uniform']['near_tie_rate_lt_0.05']}. The deterministic key rule still handles ties and an empty intake.",
-        "2. **Evidence remains uneven.** Caregiver, Creator, Ruler and Sage have fewer direct motive words in the current nine-word round. The tables quantify this model's skew; the proposed Q12 edit remains a separate, pending change described in matching-model.md.",
+        "2. **Evidence is more even since Q12.** The twelve-word round gives every archetype a direct motive word; Outlaw, which lost Mischief, is now the thinnest primary. The tables quantify this model's skew; matching-model.md records the edit.",
         f"3. **Reversed pairs remain difficult.** Under C, exact recovery is {c['latent_recovered_top1']}, reversed recovery {c['reversed_pair_instead']}, and shortlist recovery {c['latent_recovered_in_shortlist']}. These are circular simulation results, not guest validation.",
         f"4. **Single-answer sensitivity.** Under U, one edit changes the pairing {d['U uniform']['one_answer_changes_top1']} of the time and the primary {d['U uniform']['one_answer_changes_primary']}; the new pairing was in the old shortlist {d['U uniform']['after_one_change_top1_was_in_old_shortlist']} of the time.",
         "5. **Group balance.** The ablation table reports each group's effect. Missing groups stay neutral; the remaining roles are never renormalized. Shipped scales remain fixed during regeneration.",

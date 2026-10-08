@@ -189,7 +189,7 @@ const RES_QUESTIONS = [
   {
     key: 'drawnToward' as const,
     prompt: 'What are you most drawn toward right now?',
-    words: ['Freedom', 'Beauty', 'Mastery', 'Peace', 'Belonging', 'Pleasure', 'Wonder', 'Change', 'Mischief'],
+    words: ['Freedom', 'Beauty', 'Mastery', 'Peace', 'Belonging', 'Pleasure', 'Wonder', 'Change', 'Knowledge', 'Influence', 'Making', 'Caring'],
   },
 ] as const;
 const RES_MAX = 3;

@@ -69,7 +69,10 @@ export const DRAWN = [
   { id: 'pleasure', label: 'Pleasure' },
   { id: 'wonder', label: 'Wonder' },
   { id: 'change', label: 'Change' },
-  { id: 'mischief', label: 'Mischief' },
+  { id: 'knowledge', label: 'Knowledge' },
+  { id: 'influence', label: 'Influence' },
+  { id: 'making', label: 'Making' },
+  { id: 'caring', label: 'Caring' },
 ] as const;
 
 // H5 round 1 · "What do people often come to you for?"

@@ -162,26 +162,39 @@ function mountWorld(host: HTMLElement, o: Opts): () => void {
   let round = 0, locked = false, words: Word[] = [];
   const answers: Record<WorldRound['key'], string[]> = { soughtFor: [], drawnToward: [] };
   const wordR = () => (words[0] ? (words[0].el.querySelector('.sphere') as HTMLElement).offsetWidth / 2 : 50);
+  // A sphere shrunk to fit is sized on the sphere itself: the phone rule in
+  // index.css sets .sphere's size directly, which an inherited value loses
+  // to. Its word shrinks with it, so the longest word still fits inside.
+  const sizeWords = (px: number | null) => words.forEach((w) => {
+    const s = w.el.querySelector<HTMLElement>('.sphere')!, t = s.querySelector<HTMLElement>('.sphere-word')!;
+    if (px === null) { s.style.removeProperty('--sphere-size'); t.style.removeProperty('--sphere-word'); return; }
+    s.style.setProperty('--sphere-size', `${px}px`);
+    t.style.setProperty('--sphere-word', `${Math.max(11, Math.min(15, px * 0.135)).toFixed(1)}px`);
+  });
   const nextTop = () => { const n = ui.querySelector<HTMLElement>('.hold-next'); return n ? n.offsetTop : window.innerHeight * 0.9; };
 
   const layout = (n: number, ri: number): (Orbit | Pt)[] => {
     const w = window.innerWidth, h = window.innerHeight;
-    const r = wordR();
     if (isPhone()) {
-      // a phone stacks them under her in threes, the same place both rounds
-      const cols = 3, rows = Math.ceil(n / cols);
-      let size = r * 2;
+      // a phone stacks them under her in threes, the same place both rounds.
+      // Twelve words (Q12, 2026-10-08) are four rows of three where the phone
+      // is tall enough and three rows of four where it is not (375×667), so
+      // no sphere is ever drawn smaller than the room forces.
+      sizeWords(null);
+      const natural = wordR() * 2;
       const top = self.y + self.R + (h < 720 ? 10 : 18);
       const avail = nextTop() - 14 - top;
-      if (avail / rows < size + 6) {
-        size = Math.max(64, avail / rows - 6);
-        host.style.setProperty('--rw-size', `${Math.floor(size)}px`);
-      }
+      const fit = (c: number) => Math.min(natural, avail / Math.ceil(n / c) - 6, w / c - 12);
+      const cols = n % 4 === 0 && fit(4) > fit(3) ? 4 : 3, rows = Math.ceil(n / cols);
+      const size = Math.max(64, Math.floor(fit(cols)));
+      if (size < natural) sizeWords(size);
       const step = Math.min(size + 18, avail / rows);
       const y0 = top + step / 2 + Math.max(0, (avail - step * rows) / 2) * 0.4;
       const colW = Math.min(w / cols, size + 26);
-      return Array.from({ length: n }, (_, i) => ({ x: self.x + ((i % cols) - 1) * colW, y: y0 + Math.floor(i / cols) * step + (i % cols === 1 ? 8 : 0) }));
+      const inner = (c: number) => c > 0 && c < cols - 1;
+      return Array.from({ length: n }, (_, i) => ({ x: self.x + ((i % cols) - (cols - 1) / 2) * colW, y: y0 + Math.floor(i / cols) * step + (inner(i % cols) ? 8 : 0) }));
     }
+    const r = wordR();
     // desktop: round 1 rides an inner orbit, close enough to fall in;
     // round 2 waits on a far one, out where only her light can reach. The
     // inner orbit turns, so it is fitted for a word passing straight overhead.

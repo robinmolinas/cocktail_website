@@ -20,7 +20,7 @@ describe('matching v1', () => {
     expect(Object.keys(model.gravity).filter((key) => !key.startsWith('_'))).toEqual(GRAVITIES.map(({ id }) => id));
     expect(Object.keys(model.texture).filter((key) => !key.startsWith('_'))).toEqual(BINARIES.map(({ id }) => id));
     expect(model.flavours).toEqual(FLAVOURS.map(({ id }) => id));
-    expect(DRAWN).toHaveLength(9);
+    expect(DRAWN).toHaveLength(12);
   });
   it('gives empty answers and midpoint gravity exactly zero signal', () => {
     const empty = scorePersona(request());
@@ -33,11 +33,11 @@ describe('matching v1', () => {
   });
   it('centres words over all options in their own round', () => {
     const drawn = scorePersona(request({ drawnToward: ['freedom'] })).groups.drawnToward;
-    expect(drawn.Explorer).toBeCloseTo(1 - 1.3 / 9, 14);
-    expect(drawn.Sage).toBeCloseTo(-0.8 / 9, 14);
-    expect(drawn['Regular Guy']).toBeCloseTo(-1 / 9, 14);
+    expect(drawn.Explorer).toBeCloseTo(1 - 1.6 / 12, 14);
+    expect(drawn.Sage).toBeCloseTo(-1.8 / 12, 14);
+    expect(drawn['Regular Guy']).toBeCloseTo(-1.3 / 12, 14);
     expect(scorePersona(request({ drawnToward: ['freedom', 'beauty'] })).groups.drawnToward.Explorer)
-      .toBeCloseTo(1 - 2 * 1.3 / 9, 14);
+      .toBeCloseTo(1 - 2 * 1.6 / 12, 14);
     expect(scorePersona(request({ soughtFor: ['comfort'] })).groups.soughtFor.Caregiver).toBeCloseTo(1 - 1.9 / 9, 14);
   });
   it('uses a linear gravity lean with no dead band', () => {

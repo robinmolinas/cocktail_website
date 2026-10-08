@@ -3,8 +3,8 @@
   "key": "caregiver-creator",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.2092,
-  "lead_margin": 2.5701,
+  "persona_margin": 3.5221,
+  "lead_margin": 3.8725,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -12,7 +12,7 @@
    "drawnToward": [
     "peace",
     "belonging",
-    "mischief"
+    "caring"
    ],
    "soughtFor": [
     "comfort",
@@ -20,21 +20,19 @@
     "taste"
    ],
    "texture": {
-    "sharp-smooth": "b",
     "relaxed-excited": "b",
-    "control": "a",
+    "halffull-halfempty": "a",
     "quiet-loud": "a",
-    "risk": "a",
+    "risk": "b",
     "bright-dark": "a",
-    "soft-rough": "a",
-    "harmonic": "a"
+    "soft-rough": "a"
    },
    "gravity": {
     "solitary-social": 0,
     "controlled-wild": 0,
     "classic-experimental": 100,
-    "analytical-instinctive": 2,
-    "grounded-dreamlike": 2
+    "analytical-instinctive": 1,
+    "grounded-dreamlike": 17
    },
    "flavors": [],
    "vetoes": []
@@ -44,26 +42,26 @@
   "key": "caregiver-explorer",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.8581,
-  "lead_margin": 1.9781,
+  "persona_margin": 3.0186,
+  "lead_margin": 3.0655,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "peace",
-    "belonging",
-    "mischief"
+    "caring"
    ],
    "soughtFor": [
+    "advice",
     "comfort",
-    "ideas",
-    "calm"
+    "ideas"
    ],
    "texture": {
+    "sharp-smooth": "b",
     "relaxed-excited": "b",
+    "halffull-halfempty": "b",
     "control": "b",
-    "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "a",
     "soft-rough": "b",
@@ -71,10 +69,10 @@
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 35,
-    "classic-experimental": 100,
+    "controlled-wild": 93,
+    "classic-experimental": 35,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 2
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -84,37 +82,37 @@
   "key": "caregiver-hero",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.3661,
-  "lead_margin": 2.3661,
+  "persona_margin": 3.9559,
+  "lead_margin": 3.9559,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "peace",
-    "belonging",
-    "change"
+    "caring"
    ],
    "soughtFor": [
+    "advice",
     "comfort",
-    "courage",
-    "calm"
+    "courage"
    ],
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "b",
-    "halffull-halfempty": "b",
+    "halffull-halfempty": "a",
     "control": "a",
     "quiet-loud": "b",
     "risk": "b",
+    "bright-dark": "b",
     "soft-rough": "a",
-    "harmonic": "a"
+    "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 4,
+    "solitary-social": 91,
     "controlled-wild": 0,
-    "classic-experimental": 100,
-    "analytical-instinctive": 50,
+    "classic-experimental": 52,
+    "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -125,15 +123,16 @@
   "key": "caregiver-innocent",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.8573,
-  "lead_margin": 2.2023,
+  "persona_margin": 3.256,
+  "lead_margin": 3.601,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "peace",
-    "belonging"
+    "belonging",
+    "caring"
    ],
    "soughtFor": [
     "honesty",
@@ -153,7 +152,7 @@
     "solitary-social": 0,
     "controlled-wild": 0,
     "classic-experimental": 100,
-    "analytical-instinctive": 90,
+    "analytical-instinctive": 50,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -166,15 +165,15 @@
   "contains": [
    "spice"
   ],
-  "persona_margin": 2.2498,
-  "lead_margin": 2.5648,
+  "persona_margin": 3.9004,
+  "lead_margin": 4.2014,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "peace",
-    "change"
+    "caring"
    ],
    "soughtFor": [
     "advice",
@@ -182,8 +181,8 @@
     "little-chaos"
    ],
    "texture": {
-    "sharp-smooth": "b",
     "relaxed-excited": "b",
+    "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "b",
     "risk": "b",
@@ -193,9 +192,9 @@
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 0,
-    "classic-experimental": 9,
-    "analytical-instinctive": 67,
+    "controlled-wild": 9,
+    "classic-experimental": 45,
+    "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -206,19 +205,18 @@
   "key": "caregiver-lover",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.2298,
-  "lead_margin": 2.3203,
+  "persona_margin": 3.6711,
+  "lead_margin": 3.793,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "peace",
-    "belonging"
+    "caring"
    ],
    "soughtFor": [
     "advice",
-    "comfort",
     "taste"
    ],
    "texture": {
@@ -233,11 +231,11 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 15,
-    "controlled-wild": 0,
-    "classic-experimental": 100,
+    "solitary-social": 100,
+    "controlled-wild": 10,
+    "classic-experimental": 67,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 33
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -247,15 +245,16 @@
   "key": "caregiver-magician",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.7323,
-  "lead_margin": 2.0354,
+  "persona_margin": 2.515,
+  "lead_margin": 2.7769,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "peace",
-    "belonging"
+    "belonging",
+    "caring"
    ],
    "soughtFor": [
     "advice",
@@ -264,8 +263,6 @@
    ],
    "texture": {
     "sharp-smooth": "b",
-    "relaxed-excited": "b",
-    "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "a",
     "risk": "b",
@@ -274,11 +271,11 @@
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 22,
-    "controlled-wild": 0,
+    "solitary-social": 6,
+    "controlled-wild": 1,
     "classic-experimental": 100,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 59
+    "grounded-dreamlike": 100
    },
    "flavors": [],
    "vetoes": []
@@ -290,38 +287,36 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 1.9673,
-  "lead_margin": 2.0287,
+  "persona_margin": 3.1813,
+  "lead_margin": 3.3973,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "peace",
-    "belonging"
+    "change",
+    "caring"
    ],
    "soughtFor": [
     "comfort",
-    "calm",
+    "courage",
     "little-chaos"
    ],
    "texture": {
-    "sharp-smooth": "a",
-    "relaxed-excited": "b",
     "halffull-halfempty": "b",
     "control": "b",
     "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
-    "soft-rough": "a",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 48,
-    "classic-experimental": 100,
-    "analytical-instinctive": 8,
-    "grounded-dreamlike": 1
+    "solitary-social": 76,
+    "controlled-wild": 50,
+    "classic-experimental": 92,
+    "analytical-instinctive": 0,
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -334,8 +329,8 @@
    "dairy",
    "gluten"
   ],
-  "persona_margin": 2.2508,
-  "lead_margin": 2.2508,
+  "persona_margin": 3.7957,
+  "lead_margin": 3.7957,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -343,29 +338,28 @@
    "drawnToward": [
     "peace",
     "belonging",
-    "change"
+    "caring"
    ],
    "soughtFor": [
-    "comfort",
     "honesty",
+    "ideas",
     "reality-check"
    ],
    "texture": {
-    "sharp-smooth": "a",
+    "sharp-smooth": "b",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "b",
-    "quiet-loud": "b",
-    "risk": "b",
+    "quiet-loud": "a",
     "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 23,
+    "controlled-wild": 0,
     "classic-experimental": 0,
-    "analytical-instinctive": 73,
+    "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -376,18 +370,19 @@
   "key": "caregiver-ruler",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.9265,
-  "lead_margin": 2.1242,
+  "persona_margin": 3.6045,
+  "lead_margin": 3.8248,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "peace"
+    "peace",
+    "caring"
    ],
    "soughtFor": [
-    "advice",
     "comfort",
+    "taste",
     "reality-check"
    ],
    "texture": {
@@ -398,13 +393,14 @@
     "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "b",
-    "soft-rough": "a"
+    "soft-rough": "a",
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 100,
+    "solitary-social": 46,
     "controlled-wild": 0,
-    "classic-experimental": 54,
-    "analytical-instinctive": 63,
+    "classic-experimental": 50,
+    "analytical-instinctive": 25,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -415,8 +411,8 @@
   "key": "caregiver-sage",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.3067,
-  "lead_margin": 2.3608,
+  "persona_margin": 3.8547,
+  "lead_margin": 3.893,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -424,7 +420,7 @@
    "drawnToward": [
     "peace",
     "belonging",
-    "pleasure"
+    "caring"
    ],
    "soughtFor": [
     "advice",
@@ -432,12 +428,11 @@
    ],
    "texture": {
     "sharp-smooth": "b",
-    "relaxed-excited": "b",
     "halffull-halfempty": "b",
-    "control": "a",
+    "control": "b",
     "quiet-loud": "a",
     "risk": "b",
-    "bright-dark": "b",
+    "bright-dark": "a",
     "soft-rough": "a",
     "harmonic": "a"
    },
@@ -445,8 +440,8 @@
     "solitary-social": 0,
     "controlled-wild": 0,
     "classic-experimental": 100,
-    "analytical-instinctive": 53,
-    "grounded-dreamlike": 0
+    "analytical-instinctive": 0,
+    "grounded-dreamlike": 4
    },
    "flavors": [],
    "vetoes": []
@@ -456,15 +451,16 @@
   "key": "creator-caregiver",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.5137,
-  "lead_margin": 3.6303,
+  "persona_margin": 4.3076,
+  "lead_margin": 4.4757,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "change"
+    "change",
+    "making"
    ],
    "soughtFor": [
     "comfort",
@@ -473,16 +469,18 @@
    ],
    "texture": {
     "sharp-smooth": "b",
+    "relaxed-excited": "b",
     "halffull-halfempty": "b",
     "control": "b",
+    "quiet-loud": "a",
     "risk": "a",
-    "bright-dark": "a",
-    "soft-rough": "a"
+    "soft-rough": "a",
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 6,
-    "controlled-wild": 9,
-    "classic-experimental": 100,
+    "solitary-social": 68,
+    "controlled-wild": 0,
+    "classic-experimental": 96,
     "analytical-instinctive": 0,
     "grounded-dreamlike": 0
    },
@@ -494,23 +492,22 @@
   "key": "creator-explorer",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.5312,
-  "lead_margin": 2.7351,
+  "persona_margin": 3.153,
+  "lead_margin": 3.4103,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "peace",
-    "change"
+    "making"
    ],
    "soughtFor": [
     "ideas",
+    "calm",
     "reality-check"
    ],
    "texture": {
-    "sharp-smooth": "a",
     "relaxed-excited": "b",
     "halffull-halfempty": "a",
     "control": "b",
@@ -522,9 +519,9 @@
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 73,
-    "classic-experimental": 95,
-    "analytical-instinctive": 60,
+    "controlled-wild": 100,
+    "classic-experimental": 87,
+    "analytical-instinctive": 71,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -538,15 +535,16 @@
    "egg-white",
    "dairy"
   ],
-  "persona_margin": 3.1607,
-  "lead_margin": 3.3412,
+  "persona_margin": 4.0473,
+  "lead_margin": 4.1869,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "change"
+    "change",
+    "making"
    ],
    "soughtFor": [
     "courage",
@@ -561,11 +559,11 @@
     "soft-rough": "b"
    },
    "gravity": {
-    "solitary-social": 59,
+    "solitary-social": 100,
     "controlled-wild": 0,
-    "classic-experimental": 100,
-    "analytical-instinctive": 7,
-    "grounded-dreamlike": 18
+    "classic-experimental": 87,
+    "analytical-instinctive": 46,
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -575,36 +573,37 @@
   "key": "creator-innocent",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.6459,
-  "lead_margin": 3.7535,
+  "persona_margin": 4.8169,
+  "lead_margin": 4.9788,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "change"
+    "change",
+    "making"
    ],
    "soughtFor": [
-    "comfort",
     "honesty",
-    "taste"
+    "ideas",
+    "calm"
    ],
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "a",
     "halffull-halfempty": "a",
-    "control": "a",
+    "control": "b",
     "quiet-loud": "a",
     "risk": "a",
     "bright-dark": "a",
     "soft-rough": "a",
-    "harmonic": "b"
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 72,
-    "classic-experimental": 100,
+    "solitary-social": 81,
+    "controlled-wild": 93,
+    "classic-experimental": 69,
     "analytical-instinctive": 0,
     "grounded-dreamlike": 100
    },
@@ -616,22 +615,23 @@
   "key": "creator-jester",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.6278,
-  "lead_margin": 2.6857,
+  "persona_margin": 3.6157,
+  "lead_margin": 3.6748,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "change"
+    "change",
+    "making"
    ],
    "soughtFor": [
     "ideas",
     "little-chaos"
    ],
    "texture": {
-    "sharp-smooth": "a",
+    "sharp-smooth": "b",
     "relaxed-excited": "b",
     "halffull-halfempty": "a",
     "control": "b",
@@ -642,9 +642,9 @@
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 91,
-    "controlled-wild": 0,
-    "classic-experimental": 100,
+    "solitary-social": 100,
+    "controlled-wild": 25,
+    "classic-experimental": 47,
     "analytical-instinctive": 0,
     "grounded-dreamlike": 0
    },
@@ -656,20 +656,19 @@
   "key": "creator-lover",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.5782,
-  "lead_margin": 2.6236,
+  "persona_margin": 4.0725,
+  "lead_margin": 4.1253,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "mastery",
-    "change"
+    "change",
+    "making"
    ],
    "soughtFor": [
     "advice",
-    "calm",
     "taste"
    ],
    "texture": {
@@ -677,18 +676,17 @@
     "relaxed-excited": "b",
     "halffull-halfempty": "a",
     "control": "b",
-    "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "b",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 75,
-    "controlled-wild": 95,
-    "classic-experimental": 100,
-    "analytical-instinctive": 0,
-    "grounded-dreamlike": 78
+    "solitary-social": 100,
+    "controlled-wild": 55,
+    "classic-experimental": 40,
+    "analytical-instinctive": 29,
+    "grounded-dreamlike": 100
    },
    "flavors": [],
    "vetoes": []
@@ -700,19 +698,20 @@
   "contains": [
    "dairy"
   ],
-  "persona_margin": 2.4444,
-  "lead_margin": 2.589,
+  "persona_margin": 3.6468,
+  "lead_margin": 3.7711,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "change"
+    "change",
+    "making"
    ],
    "soughtFor": [
     "comfort",
-    "reality-check",
+    "ideas",
     "little-chaos"
    ],
    "texture": {
@@ -720,17 +719,17 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "a",
     "control": "a",
-    "quiet-loud": "a",
+    "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "a",
-    "harmonic": "b"
+    "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 12,
+    "controlled-wild": 13,
     "classic-experimental": 100,
-    "analytical-instinctive": 59,
+    "analytical-instinctive": 74,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -741,16 +740,16 @@
   "key": "creator-outlaw",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.3642,
-  "lead_margin": 3.5948,
+  "persona_margin": 4.9588,
+  "lead_margin": 5.269,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "peace",
-    "change"
+    "change",
+    "making"
    ],
    "soughtFor": [
     "courage",
@@ -764,16 +763,16 @@
     "control": "b",
     "quiet-loud": "b",
     "risk": "b",
-    "bright-dark": "a",
+    "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 75,
+    "solitary-social": 19,
+    "controlled-wild": 100,
     "classic-experimental": 100,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 24
+    "grounded-dreamlike": 38
    },
    "flavors": [],
    "vetoes": []
@@ -785,15 +784,16 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 2.7374,
-  "lead_margin": 2.896,
+  "persona_margin": 3.7591,
+  "lead_margin": 3.9124,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "change"
+    "change",
+    "making"
    ],
    "soughtFor": [
     "honesty",
@@ -803,17 +803,19 @@
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "a",
+    "halffull-halfempty": "a",
     "control": "b",
+    "quiet-loud": "a",
     "risk": "a",
-    "bright-dark": "a",
+    "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 75,
-    "controlled-wild": 43,
-    "classic-experimental": 87,
-    "analytical-instinctive": 0,
+    "solitary-social": 100,
+    "controlled-wild": 46,
+    "classic-experimental": 46,
+    "analytical-instinctive": 5,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -824,37 +826,38 @@
   "key": "creator-ruler",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.2434,
-  "lead_margin": 3.2768,
+  "persona_margin": 4.333,
+  "lead_margin": 4.4879,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "change"
+    "change",
+    "making"
    ],
    "soughtFor": [
+    "ideas",
     "taste",
     "reality-check"
    ],
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "b",
-    "halffull-halfempty": "a",
+    "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "a",
-    "soft-rough": "b",
-    "harmonic": "b"
+    "soft-rough": "b"
    },
    "gravity": {
-    "solitary-social": 0,
+    "solitary-social": 59,
     "controlled-wild": 0,
-    "classic-experimental": 100,
+    "classic-experimental": 40,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 22
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -864,15 +867,16 @@
   "key": "creator-sage",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.575,
-  "lead_margin": 3.6663,
+  "persona_margin": 4.8318,
+  "lead_margin": 4.9608,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "change"
+    "change",
+    "making"
    ],
    "soughtFor": [
     "advice",
@@ -883,18 +887,17 @@
     "sharp-smooth": "a",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
-    "control": "a",
+    "control": "b",
     "quiet-loud": "a",
-    "bright-dark": "a",
-    "soft-rough": "a",
+    "risk": "b",
     "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 55,
-    "classic-experimental": 90,
+    "controlled-wild": 24,
+    "classic-experimental": 15,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 24
+    "grounded-dreamlike": 100
    },
    "flavors": [],
    "vetoes": []
@@ -904,8 +907,8 @@
   "key": "explorer-caregiver",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.5195,
-  "lead_margin": 3.6269,
+  "persona_margin": 3.4653,
+  "lead_margin": 3.6263,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -930,9 +933,9 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 4,
-    "controlled-wild": 51,
-    "classic-experimental": 44,
+    "solitary-social": 0,
+    "controlled-wild": 31,
+    "classic-experimental": 50,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
@@ -944,35 +947,35 @@
   "key": "explorer-creator",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.4056,
-  "lead_margin": 3.4962,
+  "persona_margin": 3.6445,
+  "lead_margin": 3.7975,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "freedom"
+    "freedom",
+    "knowledge"
    ],
    "soughtFor": [
     "ideas",
     "taste"
    ],
    "texture": {
-    "sharp-smooth": "b",
     "relaxed-excited": "b",
     "halffull-halfempty": "a",
-    "control": "b",
     "quiet-loud": "a",
+    "risk": "a",
     "bright-dark": "a",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 3,
+    "controlled-wild": 46,
     "classic-experimental": 100,
-    "analytical-instinctive": 84,
-    "grounded-dreamlike": 9
+    "analytical-instinctive": 97,
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -982,36 +985,38 @@
   "key": "explorer-hero",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.6764,
-  "lead_margin": 3.7193,
+  "persona_margin": 4.0778,
+  "lead_margin": 4.1344,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "beauty",
-    "wonder"
+    "wonder",
+    "knowledge"
    ],
    "soughtFor": [
+    "comfort",
     "courage",
-    "calm"
+    "ideas"
    ],
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "b",
     "halffull-halfempty": "a",
     "control": "a",
+    "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "a",
     "soft-rough": "b",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 82,
-    "classic-experimental": 22,
-    "analytical-instinctive": 98,
+    "solitary-social": 6,
+    "controlled-wild": 60,
+    "classic-experimental": 0,
+    "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -1022,18 +1027,19 @@
   "key": "explorer-innocent",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.3963,
-  "lead_margin": 3.4881,
+  "persona_margin": 3.5172,
+  "lead_margin": 3.6179,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "freedom"
+    "freedom",
+    "knowledge"
    ],
    "soughtFor": [
     "honesty",
-    "ideas",
+    "courage",
     "calm"
    ],
    "texture": {
@@ -1048,10 +1054,10 @@
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 69,
-    "classic-experimental": 4,
+    "controlled-wild": 81,
+    "classic-experimental": 100,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 81
+    "grounded-dreamlike": 98
    },
    "flavors": [],
    "vetoes": []
@@ -1063,20 +1069,20 @@
   "contains": [
    "gluten"
   ],
-  "persona_margin": 2.9542,
-  "lead_margin": 2.9739,
+  "persona_margin": 3.3059,
+  "lead_margin": 3.3342,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "pleasure",
-    "wonder"
+    "wonder",
+    "knowledge"
    ],
    "soughtFor": [
     "advice",
-    "honesty",
+    "ideas",
     "little-chaos"
    ],
    "texture": {
@@ -1090,8 +1096,8 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 100,
+    "solitary-social": 12,
+    "controlled-wild": 95,
     "classic-experimental": 0,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 0
@@ -1104,14 +1110,16 @@
   "key": "explorer-lover",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.9844,
-  "lead_margin": 3.2249,
+  "persona_margin": 3.2279,
+  "lead_margin": 3.465,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "freedom"
+    "freedom",
+    "wonder",
+    "knowledge"
    ],
    "soughtFor": [
     "taste"
@@ -1119,19 +1127,18 @@
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "b",
-    "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "a",
-    "risk": "b",
+    "bright-dark": "b",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 7,
-    "controlled-wild": 24,
-    "classic-experimental": 5,
+    "solitary-social": 14,
+    "controlled-wild": 100,
+    "classic-experimental": 0,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 60
+    "grounded-dreamlike": 19
    },
    "flavors": [],
    "vetoes": []
@@ -1141,39 +1148,37 @@
   "key": "explorer-magician",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.4061,
-  "lead_margin": 2.5571,
+  "persona_margin": 2.8982,
+  "lead_margin": 3.0055,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "belonging",
-    "wonder"
+    "wonder",
+    "knowledge"
    ],
    "soughtFor": [
-    "advice",
+    "comfort",
     "ideas",
     "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "a",
-    "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "b",
-    "risk": "a",
+    "risk": "b",
     "bright-dark": "b",
-    "soft-rough": "a",
-    "harmonic": "a"
+    "soft-rough": "a"
    },
    "gravity": {
-    "solitary-social": 14,
-    "controlled-wild": 99,
-    "classic-experimental": 44,
+    "solitary-social": 31,
+    "controlled-wild": 10,
+    "classic-experimental": 39,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 100
+    "grounded-dreamlike": 94
    },
    "flavors": [],
    "vetoes": []
@@ -1185,25 +1190,25 @@
   "contains": [
    "spice"
   ],
-  "persona_margin": 3.4795,
-  "lead_margin": 3.742,
+  "persona_margin": 3.7539,
+  "lead_margin": 4.0932,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "peace",
-    "belonging"
+    "wonder",
+    "knowledge"
    ],
    "soughtFor": [
-    "advice",
     "courage",
+    "taste",
     "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "a",
-    "relaxed-excited": "a",
+    "relaxed-excited": "b",
     "halffull-halfempty": "b",
     "control": "b",
     "quiet-loud": "b",
@@ -1213,11 +1218,11 @@
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 0,
+    "solitary-social": 1,
     "controlled-wild": 100,
-    "classic-experimental": 100,
-    "analytical-instinctive": 90,
-    "grounded-dreamlike": 58
+    "classic-experimental": 62,
+    "analytical-instinctive": 19,
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -1227,35 +1232,37 @@
   "key": "explorer-regular-guy",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.0245,
-  "lead_margin": 3.3558,
+  "persona_margin": 3.1779,
+  "lead_margin": 3.4213,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "beauty",
-    "wonder"
+    "wonder",
+    "knowledge"
    ],
    "soughtFor": [
-    "comfort",
     "honesty",
+    "ideas",
     "reality-check"
    ],
    "texture": {
     "sharp-smooth": "b",
-    "quiet-loud": "b",
+    "halffull-halfempty": "b",
+    "control": "b",
+    "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "a",
     "soft-rough": "b",
-    "harmonic": "b"
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 4,
-    "controlled-wild": 94,
+    "solitary-social": 80,
+    "controlled-wild": 96,
     "classic-experimental": 0,
-    "analytical-instinctive": 81,
+    "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -1266,8 +1273,8 @@
   "key": "explorer-ruler",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.1077,
-  "lead_margin": 3.1373,
+  "persona_margin": 2.996,
+  "lead_margin": 3.032,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -1277,13 +1284,12 @@
     "wonder"
    ],
    "soughtFor": [
+    "calm",
     "taste",
     "reality-check"
    ],
    "texture": {
-    "sharp-smooth": "a",
     "relaxed-excited": "b",
-    "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "b",
     "risk": "a",
@@ -1293,9 +1299,9 @@
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 80,
+    "controlled-wild": 79,
     "classic-experimental": 0,
-    "analytical-instinctive": 91,
+    "analytical-instinctive": 96,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -1306,16 +1312,16 @@
   "key": "explorer-sage",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.4651,
-  "lead_margin": 3.6384,
+  "persona_margin": 3.7454,
+  "lead_margin": 3.9483,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "beauty",
-    "wonder"
+    "wonder",
+    "knowledge"
    ],
    "soughtFor": [
     "advice",
@@ -1326,19 +1332,18 @@
     "sharp-smooth": "a",
     "relaxed-excited": "b",
     "halffull-halfempty": "b",
-    "control": "b",
     "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "a",
-    "soft-rough": "b",
+    "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 79,
-    "classic-experimental": 40,
-    "analytical-instinctive": 78,
-    "grounded-dreamlike": 0
+    "controlled-wild": 73,
+    "classic-experimental": 14,
+    "analytical-instinctive": 93,
+    "grounded-dreamlike": 10
    },
    "flavors": [],
    "vetoes": []
@@ -1348,14 +1353,15 @@
   "key": "hero-caregiver",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.5519,
-  "lead_margin": 3.7551,
+  "persona_margin": 3.9671,
+  "lead_margin": 4.1866,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "making"
    ],
    "soughtFor": [
     "comfort",
@@ -1364,19 +1370,18 @@
    ],
    "texture": {
     "sharp-smooth": "b",
-    "relaxed-excited": "a",
-    "halffull-halfempty": "a",
+    "relaxed-excited": "b",
     "control": "b",
     "quiet-loud": "a",
     "risk": "b",
-    "bright-dark": "b",
+    "bright-dark": "a",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 71,
-    "controlled-wild": 26,
-    "classic-experimental": 100,
+    "solitary-social": 85,
+    "controlled-wild": 7,
+    "classic-experimental": 67,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
@@ -1388,17 +1393,17 @@
   "key": "hero-creator",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.1514,
-  "lead_margin": 3.4086,
+  "persona_margin": 3.4015,
+  "lead_margin": 3.6253,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "making"
    ],
    "soughtFor": [
-    "courage",
     "ideas",
     "taste"
    ],
@@ -1406,19 +1411,18 @@
     "sharp-smooth": "a",
     "relaxed-excited": "a",
     "halffull-halfempty": "a",
-    "control": "a",
+    "control": "b",
     "quiet-loud": "a",
-    "risk": "a",
+    "risk": "b",
     "bright-dark": "a",
-    "soft-rough": "a",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 48,
-    "controlled-wild": 57,
+    "solitary-social": 67,
+    "controlled-wild": 22,
     "classic-experimental": 100,
-    "analytical-instinctive": 98,
-    "grounded-dreamlike": 31
+    "analytical-instinctive": 100,
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -1430,33 +1434,36 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 2.823,
-  "lead_margin": 3.074,
+  "persona_margin": 3.2129,
+  "lead_margin": 3.51,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "influence",
+    "making"
    ],
    "soughtFor": [
-    "comfort",
-    "ideas",
-    "reality-check"
+    "honesty",
+    "courage",
+    "ideas"
    ],
    "texture": {
+    "sharp-smooth": "b",
     "relaxed-excited": "b",
-    "halffull-halfempty": "a",
     "control": "b",
-    "quiet-loud": "b",
+    "quiet-loud": "a",
     "risk": "b",
+    "bright-dark": "a",
     "soft-rough": "b",
     "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 96,
-    "classic-experimental": 67,
+    "controlled-wild": 100,
+    "classic-experimental": 12,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
@@ -1468,14 +1475,15 @@
   "key": "hero-innocent",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.4146,
-  "lead_margin": 3.4146,
+  "persona_margin": 3.5933,
+  "lead_margin": 3.5933,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "making"
    ],
    "soughtFor": [
     "honesty",
@@ -1487,17 +1495,16 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "a",
     "control": "a",
-    "quiet-loud": "a",
-    "risk": "a",
     "bright-dark": "a",
+    "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 78,
-    "controlled-wild": 75,
-    "classic-experimental": 100,
+    "solitary-social": 66,
+    "controlled-wild": 74,
+    "classic-experimental": 9,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 48
+    "grounded-dreamlike": 65
    },
    "flavors": [],
    "vetoes": []
@@ -1509,17 +1516,19 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 3.5586,
-  "lead_margin": 3.8347,
+  "persona_margin": 3.824,
+  "lead_margin": 4.097,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "making"
    ],
    "soughtFor": [
     "courage",
+    "calm",
     "little-chaos"
    ],
    "texture": {
@@ -1535,10 +1544,10 @@
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 52,
-    "classic-experimental": 86,
+    "controlled-wild": 67,
+    "classic-experimental": 45,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 0
+    "grounded-dreamlike": 7
    },
    "flavors": [],
    "vetoes": []
@@ -1548,14 +1557,15 @@
   "key": "hero-lover",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.2805,
-  "lead_margin": 3.3589,
+  "persona_margin": 3.5342,
+  "lead_margin": 3.6081,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "making"
    ],
    "soughtFor": [
     "courage",
@@ -1567,17 +1577,17 @@
     "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "a",
-    "risk": "a",
+    "risk": "b",
     "bright-dark": "b",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 89,
-    "controlled-wild": 54,
-    "classic-experimental": 100,
+    "solitary-social": 100,
+    "controlled-wild": 51,
+    "classic-experimental": 0,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 16
+    "grounded-dreamlike": 34
    },
    "flavors": [],
    "vetoes": []
@@ -1587,8 +1597,8 @@
   "key": "hero-magician",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.4897,
-  "lead_margin": 2.6595,
+  "persona_margin": 2.422,
+  "lead_margin": 2.6264,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -1606,16 +1616,15 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "a",
-    "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 96,
-    "controlled-wild": 11,
-    "classic-experimental": 100,
+    "solitary-social": 92,
+    "controlled-wild": 0,
+    "classic-experimental": 73,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 100
    },
@@ -1627,14 +1636,16 @@
   "key": "hero-outlaw",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.4352,
-  "lead_margin": 3.5504,
+  "persona_margin": 3.6592,
+  "lead_margin": 3.7108,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "influence",
+    "making"
    ],
    "soughtFor": [
     "courage",
@@ -1645,16 +1656,17 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "b",
+    "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 36,
-    "controlled-wild": 30,
-    "classic-experimental": 100,
-    "analytical-instinctive": 60,
+    "solitary-social": 3,
+    "controlled-wild": 100,
+    "classic-experimental": 89,
+    "analytical-instinctive": 93,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -1667,14 +1679,15 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 3.0064,
-  "lead_margin": 3.348,
+  "persona_margin": 3.5127,
+  "lead_margin": 3.88,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "making"
    ],
    "soughtFor": [
     "honesty",
@@ -1693,8 +1706,8 @@
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 100,
-    "classic-experimental": 62,
+    "controlled-wild": 87,
+    "classic-experimental": 37,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
@@ -1706,14 +1719,15 @@
   "key": "hero-ruler",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.1031,
-  "lead_margin": 3.2122,
+  "persona_margin": 3.558,
+  "lead_margin": 3.708,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "making"
    ],
    "soughtFor": [
     "calm",
@@ -1726,14 +1740,13 @@
     "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "b",
-    "risk": "a",
-    "bright-dark": "a",
-    "soft-rough": "b"
+    "soft-rough": "b",
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 88,
+    "solitary-social": 86,
     "controlled-wild": 0,
-    "classic-experimental": 97,
+    "classic-experimental": 37,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
@@ -1745,14 +1758,15 @@
   "key": "hero-sage",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.468,
-  "lead_margin": 2.576,
+  "persona_margin": 3.0043,
+  "lead_margin": 3.1082,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "making"
    ],
    "soughtFor": [
     "advice",
@@ -1763,16 +1777,15 @@
     "sharp-smooth": "a",
     "relaxed-excited": "a",
     "control": "a",
-    "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "b",
-    "harmonic": "b"
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 26,
-    "controlled-wild": 62,
-    "classic-experimental": 100,
+    "solitary-social": 0,
+    "controlled-wild": 96,
+    "classic-experimental": 37,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
@@ -1784,15 +1797,16 @@
   "key": "innocent-caregiver",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.4735,
-  "lead_margin": 3.5509,
+  "persona_margin": 3.872,
+  "lead_margin": 3.9494,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "peace",
-    "wonder"
+    "wonder",
+    "making"
    ],
    "soughtFor": [
     "advice",
@@ -1811,10 +1825,10 @@
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 91,
+    "controlled-wild": 95,
     "classic-experimental": 0,
-    "analytical-instinctive": 46,
-    "grounded-dreamlike": 47
+    "analytical-instinctive": 21,
+    "grounded-dreamlike": 57
    },
    "flavors": [],
    "vetoes": []
@@ -1824,8 +1838,8 @@
   "key": "innocent-creator",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.3616,
-  "lead_margin": 3.5774,
+  "persona_margin": 3.4871,
+  "lead_margin": 3.7206,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -1841,16 +1855,16 @@
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "b",
-    "halffull-halfempty": "a",
+    "control": "a",
     "quiet-loud": "a",
+    "risk": "a",
     "bright-dark": "a",
-    "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 91,
-    "controlled-wild": 93,
-    "classic-experimental": 50,
+    "solitary-social": 83,
+    "controlled-wild": 100,
+    "classic-experimental": 56,
     "analytical-instinctive": 0,
     "grounded-dreamlike": 100
    },
@@ -1864,24 +1878,25 @@
   "contains": [
    "spice"
   ],
-  "persona_margin": 2.5198,
-  "lead_margin": 2.6098,
+  "persona_margin": 2.5656,
+  "lead_margin": 2.6815,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "peace"
+    "beauty",
+    "peace",
+    "wonder"
    ],
    "soughtFor": [
     "honesty",
-    "courage",
     "ideas"
    ],
    "texture": {
-    "sharp-smooth": "b",
+    "sharp-smooth": "a",
     "relaxed-excited": "b",
-    "halffull-halfempty": "b",
+    "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "a",
     "risk": "b",
@@ -1892,9 +1907,9 @@
    "gravity": {
     "solitary-social": 0,
     "controlled-wild": 100,
-    "classic-experimental": 21,
-    "analytical-instinctive": 94,
-    "grounded-dreamlike": 100
+    "classic-experimental": 0,
+    "analytical-instinctive": 92,
+    "grounded-dreamlike": 2
    },
    "flavors": [],
    "vetoes": []
@@ -1906,20 +1921,20 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 3.3433,
-  "lead_margin": 3.7231,
+  "persona_margin": 3.481,
+  "lead_margin": 3.8696,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "peace",
-    "wonder"
+    "wonder",
+    "making"
    ],
    "soughtFor": [
     "honesty",
-    "courage",
-    "calm"
+    "courage"
    ],
    "texture": {
     "sharp-smooth": "a",
@@ -1929,15 +1944,14 @@
     "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "a",
-    "soft-rough": "b",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 81,
-    "controlled-wild": 30,
+    "solitary-social": 47,
+    "controlled-wild": 33,
     "classic-experimental": 0,
-    "analytical-instinctive": 58,
-    "grounded-dreamlike": 72
+    "analytical-instinctive": 31,
+    "grounded-dreamlike": 49
    },
    "flavors": [],
    "vetoes": []
@@ -1947,19 +1961,19 @@
   "key": "innocent-jester",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.6163,
-  "lead_margin": 3.897,
+  "persona_margin": 3.645,
+  "lead_margin": 3.9756,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
+    "mastery",
     "peace",
     "wonder"
    ],
    "soughtFor": [
     "honesty",
-    "calm",
     "little-chaos"
    ],
    "texture": {
@@ -1970,15 +1984,14 @@
     "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "a",
-    "soft-rough": "a",
-    "harmonic": "b"
+    "soft-rough": "a"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 97,
+    "controlled-wild": 100,
     "classic-experimental": 0,
-    "analytical-instinctive": 17,
-    "grounded-dreamlike": 72
+    "analytical-instinctive": 8,
+    "grounded-dreamlike": 79
    },
    "flavors": [],
    "vetoes": []
@@ -1988,8 +2001,8 @@
   "key": "innocent-lover",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.0884,
-  "lead_margin": 3.2003,
+  "persona_margin": 3.1881,
+  "lead_margin": 3.3292,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -2005,17 +2018,15 @@
     "sharp-smooth": "b",
     "relaxed-excited": "b",
     "control": "b",
-    "quiet-loud": "b",
-    "risk": "a",
     "bright-dark": "b",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 18,
-    "controlled-wild": 96,
-    "classic-experimental": 28,
-    "analytical-instinctive": 81,
+    "solitary-social": 42,
+    "controlled-wild": 98,
+    "classic-experimental": 26,
+    "analytical-instinctive": 70,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -2026,8 +2037,8 @@
   "key": "innocent-magician",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.9334,
-  "lead_margin": 2.9334,
+  "persona_margin": 3.08,
+  "lead_margin": 3.08,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -2053,9 +2064,9 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 60,
-    "controlled-wild": 28,
-    "classic-experimental": 12,
+    "solitary-social": 70,
+    "controlled-wild": 4,
+    "classic-experimental": 22,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 100
    },
@@ -2067,8 +2078,8 @@
   "key": "innocent-outlaw",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.8977,
-  "lead_margin": 3.0699,
+  "persona_margin": 2.9969,
+  "lead_margin": 3.1441,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -2079,23 +2090,22 @@
    "soughtFor": [
     "honesty",
     "courage",
-    "little-chaos"
+    "calm"
    ],
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "a",
-    "halffull-halfempty": "a",
+    "halffull-halfempty": "b",
     "control": "b",
-    "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "b",
-    "harmonic": "a"
+    "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 51,
+    "solitary-social": 100,
     "controlled-wild": 100,
-    "classic-experimental": 90,
+    "classic-experimental": 79,
     "analytical-instinctive": 0,
     "grounded-dreamlike": 100
    },
@@ -2107,35 +2117,36 @@
   "key": "innocent-regular-guy",
   "status": "approved",
   "contains": [],
-  "persona_margin": 3.3703,
-  "lead_margin": 3.5473,
+  "persona_margin": 3.5753,
+  "lead_margin": 3.7844,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "peace",
-    "wonder"
+    "wonder",
+    "making"
    ],
    "soughtFor": [
     "honesty",
-    "courage",
     "reality-check"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "a",
+    "halffull-halfempty": "a",
     "control": "b",
+    "quiet-loud": "b",
     "risk": "a",
-    "bright-dark": "a",
     "soft-rough": "b"
    },
    "gravity": {
-    "solitary-social": 100,
-    "controlled-wild": 100,
+    "solitary-social": 92,
+    "controlled-wild": 97,
     "classic-experimental": 0,
-    "analytical-instinctive": 14,
-    "grounded-dreamlike": 66
+    "analytical-instinctive": 0,
+    "grounded-dreamlike": 45
    },
    "flavors": [],
    "vetoes": []
@@ -2145,13 +2156,14 @@
   "key": "innocent-ruler",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.1474,
-  "lead_margin": 3.2422,
+  "persona_margin": 3.5212,
+  "lead_margin": 3.6142,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
+    "freedom",
     "peace",
     "wonder"
    ],
@@ -2171,10 +2183,10 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 99,
-    "controlled-wild": 30,
-    "classic-experimental": 21,
-    "analytical-instinctive": 0,
+    "solitary-social": 100,
+    "controlled-wild": 7,
+    "classic-experimental": 0,
+    "analytical-instinctive": 10,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -2185,13 +2197,14 @@
   "key": "innocent-sage",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.8695,
-  "lead_margin": 3.9969,
+  "persona_margin": 4.2264,
+  "lead_margin": 4.3146,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
+    "beauty",
     "peace",
     "wonder"
    ],
@@ -2207,14 +2220,15 @@
     "quiet-loud": "a",
     "risk": "a",
     "bright-dark": "a",
+    "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 24,
+    "solitary-social": 0,
     "controlled-wild": 100,
     "classic-experimental": 0,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 87
+    "grounded-dreamlike": 67
    },
    "flavors": [],
    "vetoes": []
@@ -2224,37 +2238,37 @@
   "key": "jester-caregiver",
   "status": "draft",
   "contains": [],
-  "persona_margin": 4.2556,
-  "lead_margin": 4.4188,
+  "persona_margin": 3.5087,
+  "lead_margin": 3.6136,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "pleasure",
-    "mischief"
+    "knowledge",
+    "making"
    ],
    "soughtFor": [
-    "advice",
     "comfort",
-    "calm"
+    "calm",
+    "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "b",
-    "halffull-halfempty": "a",
     "control": "b",
-    "quiet-loud": "b",
+    "quiet-loud": "a",
     "risk": "a",
     "bright-dark": "a",
     "soft-rough": "a",
-    "harmonic": "b"
+    "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 53,
-    "classic-experimental": 99,
-    "analytical-instinctive": 0,
+    "controlled-wild": 100,
+    "classic-experimental": 40,
+    "analytical-instinctive": 39,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -2267,15 +2281,16 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 3.9248,
-  "lead_margin": 4.0887,
+  "persona_margin": 3.1257,
+  "lead_margin": 3.1762,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "pleasure",
-    "mischief"
+    "knowledge",
+    "influence"
    ],
    "soughtFor": [
     "ideas",
@@ -2286,19 +2301,17 @@
     "sharp-smooth": "a",
     "relaxed-excited": "b",
     "halffull-halfempty": "a",
-    "control": "a",
     "quiet-loud": "a",
     "risk": "a",
     "bright-dark": "a",
-    "soft-rough": "a",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 50,
-    "controlled-wild": 34,
+    "solitary-social": 75,
+    "controlled-wild": 100,
     "classic-experimental": 100,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 13
+    "grounded-dreamlike": 71
    },
    "flavors": [],
    "vetoes": []
@@ -2308,24 +2321,25 @@
   "key": "jester-explorer",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.0026,
-  "lead_margin": 3.0927,
+  "persona_margin": 2.6618,
+  "lead_margin": 2.7519,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "pleasure",
-    "mischief"
+    "knowledge",
+    "influence"
    ],
    "soughtFor": [
+    "comfort",
     "ideas",
-    "calm",
     "reality-check"
    ],
    "texture": {
-    "sharp-smooth": "b",
     "relaxed-excited": "b",
+    "halffull-halfempty": "a",
     "control": "b",
     "risk": "b",
     "bright-dark": "a",
@@ -2333,11 +2347,11 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 93,
-    "classic-experimental": 27,
+    "solitary-social": 36,
+    "controlled-wild": 100,
+    "classic-experimental": 89,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 0
+    "grounded-dreamlike": 2
    },
    "flavors": [],
    "vetoes": []
@@ -2350,15 +2364,16 @@
    "egg-white",
    "dairy"
   ],
-  "persona_margin": 4.3288,
-  "lead_margin": 4.621,
+  "persona_margin": 3.4555,
+  "lead_margin": 3.7089,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "pleasure",
-    "mischief"
+    "knowledge",
+    "making"
    ],
    "soughtFor": [
     "courage"
@@ -2369,16 +2384,17 @@
     "halffull-halfempty": "a",
     "control": "a",
     "quiet-loud": "b",
+    "risk": "b",
     "bright-dark": "a",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 83,
-    "controlled-wild": 35,
-    "classic-experimental": 10,
+    "solitary-social": 100,
+    "controlled-wild": 87,
+    "classic-experimental": 4,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 0
+    "grounded-dreamlike": 4
    },
    "flavors": [],
    "vetoes": []
@@ -2388,15 +2404,16 @@
   "key": "jester-innocent",
   "status": "draft",
   "contains": [],
-  "persona_margin": 4.6812,
-  "lead_margin": 4.8509,
+  "persona_margin": 3.5582,
+  "lead_margin": 3.7074,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "pleasure",
-    "mischief"
+    "knowledge",
+    "influence"
    ],
    "soughtFor": [
     "honesty",
@@ -2408,17 +2425,16 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "a",
     "control": "a",
+    "quiet-loud": "a",
     "risk": "a",
-    "bright-dark": "a",
-    "soft-rough": "a",
-    "harmonic": "a"
+    "bright-dark": "a"
    },
    "gravity": {
     "solitary-social": 100,
     "controlled-wild": 100,
-    "classic-experimental": 83,
-    "analytical-instinctive": 68,
-    "grounded-dreamlike": 99
+    "classic-experimental": 97,
+    "analytical-instinctive": 70,
+    "grounded-dreamlike": 66
    },
    "flavors": [],
    "vetoes": []
@@ -2430,34 +2446,37 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 4.751,
-  "lead_margin": 4.8576,
+  "persona_margin": 3.4887,
+  "lead_margin": 3.6361,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "pleasure",
-    "mischief"
+    "pleasure"
    ],
    "soughtFor": [
+    "advice",
+    "calm",
     "taste"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "b",
+    "halffull-halfempty": "b",
     "control": "b",
     "quiet-loud": "a",
+    "risk": "b",
     "bright-dark": "b",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 43,
+    "controlled-wild": 100,
     "classic-experimental": 0,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 99
+    "grounded-dreamlike": 89
    },
    "flavors": [],
    "vetoes": []
@@ -2467,36 +2486,35 @@
   "key": "jester-magician",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.8447,
-  "lead_margin": 3.0909,
+  "persona_margin": 2.5394,
+  "lead_margin": 2.7973,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
+    "mastery",
     "pleasure",
-    "wonder",
-    "mischief"
+    "knowledge"
    ],
    "soughtFor": [
-    "advice",
     "ideas",
+    "reality-check",
     "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "a",
-    "halffull-halfempty": "b",
+    "halffull-halfempty": "a",
     "control": "a",
-    "quiet-loud": "a",
+    "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "b",
-    "soft-rough": "b",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 99,
-    "controlled-wild": 17,
+    "solitary-social": 97,
+    "controlled-wild": 80,
     "classic-experimental": 100,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 100
@@ -2509,15 +2527,15 @@
   "key": "jester-outlaw",
   "status": "draft",
   "contains": [],
-  "persona_margin": 4.4431,
-  "lead_margin": 4.5785,
+  "persona_margin": 3.7487,
+  "lead_margin": 3.8817,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "pleasure",
-    "mischief"
+    "peace",
+    "pleasure"
    ],
    "soughtFor": [
     "courage",
@@ -2528,18 +2546,18 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "b",
-    "quiet-loud": "a",
+    "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 52,
+    "solitary-social": 100,
     "controlled-wild": 100,
     "classic-experimental": 100,
-    "analytical-instinctive": 0,
-    "grounded-dreamlike": 40
+    "analytical-instinctive": 16,
+    "grounded-dreamlike": 4
    },
    "flavors": [],
    "vetoes": []
@@ -2551,36 +2569,37 @@
   "contains": [
    "gluten"
   ],
-  "persona_margin": 4.4818,
-  "lead_margin": 4.6918,
+  "persona_margin": 3.5659,
+  "lead_margin": 3.773,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "pleasure",
-    "mischief"
+    "knowledge",
+    "making"
    ],
    "soughtFor": [
+    "comfort",
     "honesty",
-    "ideas",
     "reality-check"
    ],
    "texture": {
-    "sharp-smooth": "b",
+    "sharp-smooth": "a",
     "relaxed-excited": "a",
+    "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "b",
-    "risk": "a",
     "bright-dark": "a",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 94,
-    "classic-experimental": 0,
-    "analytical-instinctive": 73,
+    "controlled-wild": 100,
+    "classic-experimental": 14,
+    "analytical-instinctive": 92,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -2591,15 +2610,16 @@
   "key": "jester-ruler",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.8869,
-  "lead_margin": 4.0106,
+  "persona_margin": 2.9138,
+  "lead_margin": 3.0721,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "pleasure",
-    "mischief"
+    "wonder",
+    "making"
    ],
    "soughtFor": [
     "taste",
@@ -2618,10 +2638,10 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 72,
-    "controlled-wild": 20,
-    "classic-experimental": 38,
-    "analytical-instinctive": 0,
+    "solitary-social": 40,
+    "controlled-wild": 74,
+    "classic-experimental": 0,
+    "analytical-instinctive": 34,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -2632,15 +2652,14 @@
   "key": "jester-sage",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.6233,
-  "lead_margin": 3.7908,
+  "persona_margin": 2.9282,
+  "lead_margin": 3.0779,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "pleasure",
-    "mischief"
+    "pleasure"
    ],
    "soughtFor": [
     "advice",
@@ -2651,19 +2670,17 @@
     "sharp-smooth": "a",
     "relaxed-excited": "b",
     "halffull-halfempty": "b",
-    "control": "b",
     "quiet-loud": "a",
-    "risk": "b",
+    "risk": "a",
     "bright-dark": "a",
-    "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 9,
-    "controlled-wild": 24,
+    "solitary-social": 47,
+    "controlled-wild": 100,
     "classic-experimental": 0,
-    "analytical-instinctive": 51,
-    "grounded-dreamlike": 91
+    "analytical-instinctive": 0,
+    "grounded-dreamlike": 56
    },
    "flavors": [],
    "vetoes": []
@@ -2673,8 +2690,8 @@
   "key": "lover-caregiver",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.9561,
-  "lead_margin": 3.9703,
+  "persona_margin": 3.6743,
+  "lead_margin": 3.7347,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -2691,6 +2708,7 @@
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "a",
+    "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "a",
     "risk": "a",
@@ -2699,11 +2717,11 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 80,
+    "solitary-social": 100,
     "controlled-wild": 0,
-    "classic-experimental": 94,
+    "classic-experimental": 97,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 12
+    "grounded-dreamlike": 35
    },
    "flavors": [],
    "vetoes": []
@@ -2713,8 +2731,8 @@
   "key": "lover-creator",
   "status": "draft",
   "contains": [],
-  "persona_margin": 4.0237,
-  "lead_margin": 4.3451,
+  "persona_margin": 3.9599,
+  "lead_margin": 4.2678,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -2730,19 +2748,19 @@
    ],
    "texture": {
     "sharp-smooth": "a",
+    "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "a",
     "risk": "a",
-    "bright-dark": "a",
     "soft-rough": "a",
-    "harmonic": "b"
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 33,
-    "controlled-wild": 0,
-    "classic-experimental": 96,
-    "analytical-instinctive": 77,
+    "solitary-social": 13,
+    "controlled-wild": 1,
+    "classic-experimental": 100,
+    "analytical-instinctive": 33,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -2753,19 +2771,21 @@
   "key": "lover-explorer",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.3913,
-  "lead_margin": 2.4689,
+  "persona_margin": 2.2335,
+  "lead_margin": 2.2835,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "belonging",
-    "pleasure"
+    "knowledge",
+    "caring"
    ],
    "soughtFor": [
-    "reality-check"
+    "honesty",
+    "courage",
+    "ideas"
    ],
    "texture": {
     "sharp-smooth": "b",
@@ -2774,16 +2794,15 @@
     "control": "b",
     "quiet-loud": "a",
     "risk": "b",
-    "bright-dark": "a",
     "soft-rough": "b",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 75,
-    "classic-experimental": 90,
+    "solitary-social": 37,
+    "controlled-wild": 100,
+    "classic-experimental": 18,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 41
+    "grounded-dreamlike": 90
    },
    "flavors": [],
    "vetoes": []
@@ -2793,18 +2812,18 @@
   "key": "lover-hero",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.778,
-  "lead_margin": 3.9517,
+  "persona_margin": 3.5673,
+  "lead_margin": 3.7772,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "belonging",
-    "pleasure"
+    "caring"
    ],
    "soughtFor": [
+    "honesty",
     "courage",
     "taste"
    ],
@@ -2816,14 +2835,14 @@
     "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "b",
-    "harmonic": "a"
+    "soft-rough": "b"
    },
    "gravity": {
-    "solitary-social": 98,
-    "controlled-wild": 0,
-    "classic-experimental": 87,
+    "solitary-social": 100,
+    "controlled-wild": 9,
+    "classic-experimental": 21,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 58
+    "grounded-dreamlike": 100
    },
    "flavors": [],
    "vetoes": []
@@ -2835,8 +2854,8 @@
   "contains": [
    "egg-white"
   ],
-  "persona_margin": 3.7769,
-  "lead_margin": 4.0031,
+  "persona_margin": 3.8222,
+  "lead_margin": 4.0479,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -2852,19 +2871,18 @@
     "taste"
    ],
    "texture": {
-    "sharp-smooth": "a",
+    "relaxed-excited": "a",
     "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "a",
     "risk": "a",
-    "bright-dark": "a",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 74,
-    "controlled-wild": 25,
-    "classic-experimental": 89,
+    "solitary-social": 0,
+    "controlled-wild": 9,
+    "classic-experimental": 58,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 100
    },
@@ -2876,17 +2894,20 @@
   "key": "lover-jester",
   "status": "draft",
   "contains": [],
-  "persona_margin": 4.21,
-  "lead_margin": 4.4376,
+  "persona_margin": 4.188,
+  "lead_margin": 4.4033,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "pleasure"
+    "pleasure",
+    "caring"
    ],
    "soughtFor": [
+    "ideas",
+    "reality-check",
     "little-chaos"
    ],
    "texture": {
@@ -2901,10 +2922,10 @@
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 74,
-    "classic-experimental": 0,
+    "controlled-wild": 88,
+    "classic-experimental": 13,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 87
+    "grounded-dreamlike": 100
    },
    "flavors": [],
    "vetoes": []
@@ -2914,20 +2935,20 @@
   "key": "lover-magician",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.3432,
-  "lead_margin": 2.4645,
+  "persona_margin": 2.4213,
+  "lead_margin": 2.5138,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "pleasure",
-    "wonder"
+    "influence",
+    "caring"
    ],
    "soughtFor": [
+    "honesty",
     "ideas",
-    "calm",
     "little-chaos"
    ],
    "texture": {
@@ -2935,15 +2956,16 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "a",
-    "quiet-loud": "a",
+    "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "b",
+    "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 45,
-    "controlled-wild": 0,
-    "classic-experimental": 0,
+    "solitary-social": 100,
+    "controlled-wild": 9,
+    "classic-experimental": 83,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 100
    },
@@ -2955,16 +2977,15 @@
   "key": "lover-outlaw",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.711,
-  "lead_margin": 2.8626,
+  "persona_margin": 3.0118,
+  "lead_margin": 3.132,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "belonging",
-    "pleasure"
+    "caring"
    ],
    "soughtFor": [
     "courage",
@@ -2972,6 +2993,7 @@
     "little-chaos"
    ],
    "texture": {
+    "sharp-smooth": "a",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "b",
@@ -2982,11 +3004,11 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 17,
-    "controlled-wild": 80,
-    "classic-experimental": 1,
-    "analytical-instinctive": 2,
-    "grounded-dreamlike": 100
+    "solitary-social": 38,
+    "controlled-wild": 100,
+    "classic-experimental": 0,
+    "analytical-instinctive": 68,
+    "grounded-dreamlike": 93
    },
    "flavors": [],
    "vetoes": []
@@ -2996,19 +3018,16 @@
   "key": "lover-regular-guy",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.4791,
-  "lead_margin": 3.7364,
+  "persona_margin": 3.2909,
+  "lead_margin": 3.5214,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "beauty",
-    "belonging",
-    "pleasure"
+    "beauty"
    ],
    "soughtFor": [
-    "comfort",
     "honesty",
     "reality-check"
    ],
@@ -3016,19 +3035,18 @@
     "sharp-smooth": "b",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
-    "control": "a",
+    "control": "b",
     "quiet-loud": "a",
-    "risk": "b",
     "bright-dark": "b",
     "soft-rough": "b",
-    "harmonic": "b"
+    "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 23,
-    "classic-experimental": 1,
+    "controlled-wild": 35,
+    "classic-experimental": 49,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 100
+    "grounded-dreamlike": 29
    },
    "flavors": [],
    "vetoes": []
@@ -3038,37 +3056,35 @@
   "key": "lover-ruler",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.9185,
-  "lead_margin": 4.1144,
+  "persona_margin": 3.9098,
+  "lead_margin": 4.2122,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "belonging",
-    "pleasure"
+    "pleasure",
+    "caring"
    ],
    "soughtFor": [
-    "calm",
     "taste",
     "reality-check"
    ],
    "texture": {
-    "sharp-smooth": "a",
-    "relaxed-excited": "b",
     "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "b",
     "risk": "a",
+    "bright-dark": "b",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 75,
+    "solitary-social": 57,
     "controlled-wild": 0,
-    "classic-experimental": 63,
-    "analytical-instinctive": 100,
+    "classic-experimental": 0,
+    "analytical-instinctive": 89,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -3079,20 +3095,20 @@
   "key": "lover-sage",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.605,
-  "lead_margin": 3.6255,
+  "persona_margin": 3.7139,
+  "lead_margin": 3.7589,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "beauty",
-    "belonging",
-    "pleasure"
+    "pleasure",
+    "caring"
    ],
    "soughtFor": [
     "advice",
-    "calm",
+    "honesty",
     "taste"
    ],
    "texture": {
@@ -3103,15 +3119,15 @@
     "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
-    "soft-rough": "a",
+    "soft-rough": "b",
     "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 80,
+    "controlled-wild": 18,
     "classic-experimental": 0,
-    "analytical-instinctive": 70,
-    "grounded-dreamlike": 98
+    "analytical-instinctive": 56,
+    "grounded-dreamlike": 100
    },
    "flavors": [],
    "vetoes": []
@@ -3121,8 +3137,8 @@
   "key": "magician-caregiver",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.844,
-  "lead_margin": 3.972,
+  "persona_margin": 3.7658,
+  "lead_margin": 3.9391,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -3138,19 +3154,19 @@
    ],
    "texture": {
     "sharp-smooth": "b",
-    "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "a",
-    "risk": "b",
+    "quiet-loud": "a",
     "bright-dark": "b",
-    "soft-rough": "a"
+    "soft-rough": "a",
+    "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 100,
-    "controlled-wild": 7,
+    "solitary-social": 91,
+    "controlled-wild": 0,
     "classic-experimental": 100,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 30
+    "grounded-dreamlike": 36
    },
    "flavors": [],
    "vetoes": []
@@ -3160,15 +3176,16 @@
   "key": "magician-creator",
   "status": "draft",
   "contains": [],
-  "persona_margin": 4.0948,
-  "lead_margin": 4.451,
+  "persona_margin": 4.783,
+  "lead_margin": 5.1172,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "wonder",
-    "change"
+    "change",
+    "influence"
    ],
    "soughtFor": [
     "ideas",
@@ -3176,20 +3193,18 @@
    ],
    "texture": {
     "sharp-smooth": "a",
-    "relaxed-excited": "b",
     "halffull-halfempty": "b",
-    "control": "a",
     "quiet-loud": "a",
     "risk": "a",
     "bright-dark": "a",
-    "soft-rough": "b",
+    "soft-rough": "a",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 4,
-    "controlled-wild": 0,
+    "solitary-social": 0,
+    "controlled-wild": 37,
     "classic-experimental": 100,
-    "analytical-instinctive": 29,
+    "analytical-instinctive": 98,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -3200,23 +3215,22 @@
   "key": "magician-explorer",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.6607,
-  "lead_margin": 2.7426,
+  "persona_margin": 2.8502,
+  "lead_margin": 2.9952,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "wonder"
+    "wonder",
+    "influence"
    ],
    "soughtFor": [
-    "advice",
-    "courage",
-    "ideas"
+    "reality-check"
    ],
    "texture": {
+    "sharp-smooth": "b",
     "relaxed-excited": "b",
-    "halffull-halfempty": "b",
     "control": "b",
     "quiet-loud": "a",
     "risk": "b",
@@ -3226,10 +3240,10 @@
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 100,
-    "classic-experimental": 52,
+    "controlled-wild": 86,
+    "classic-experimental": 100,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 90
+    "grounded-dreamlike": 56
    },
    "flavors": [],
    "vetoes": []
@@ -3239,36 +3253,34 @@
   "key": "magician-hero",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.6492,
-  "lead_margin": 3.7034,
+  "persona_margin": 3.6478,
+  "lead_margin": 3.6673,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "wonder",
-    "change"
+    "change",
+    "influence"
    ],
    "soughtFor": [
     "courage"
    ],
    "texture": {
     "sharp-smooth": "a",
-    "relaxed-excited": "b",
     "halffull-halfempty": "a",
     "control": "a",
     "quiet-loud": "b",
-    "risk": "a",
-    "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 98,
+    "solitary-social": 100,
     "controlled-wild": 0,
-    "classic-experimental": 85,
+    "classic-experimental": 100,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 73
+    "grounded-dreamlike": 94
    },
    "flavors": [],
    "vetoes": []
@@ -3278,15 +3290,16 @@
   "key": "magician-innocent",
   "status": "draft",
   "contains": [],
-  "persona_margin": 4.0512,
-  "lead_margin": 4.3708,
+  "persona_margin": 4.7406,
+  "lead_margin": 5.061,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "wonder",
-    "change"
+    "change",
+    "influence"
    ],
    "soughtFor": [
     "honesty",
@@ -3294,18 +3307,19 @@
     "little-chaos"
    ],
    "texture": {
-    "sharp-smooth": "a",
+    "sharp-smooth": "b",
     "relaxed-excited": "a",
     "halffull-halfempty": "a",
     "control": "a",
     "quiet-loud": "a",
+    "risk": "a",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 77,
-    "controlled-wild": 11,
-    "classic-experimental": 38,
+    "solitary-social": 10,
+    "controlled-wild": 45,
+    "classic-experimental": 98,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 100
    },
@@ -3317,19 +3331,18 @@
   "key": "magician-jester",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.8737,
-  "lead_margin": 4.0575,
+  "persona_margin": 4.1232,
+  "lead_margin": 4.3341,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "wonder",
-    "change"
+    "change",
+    "influence"
    ],
    "soughtFor": [
-    "advice",
-    "reality-check",
     "little-chaos"
    ],
    "texture": {
@@ -3344,10 +3357,10 @@
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 18,
-    "classic-experimental": 87,
+    "controlled-wild": 9,
+    "classic-experimental": 84,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 100
+    "grounded-dreamlike": 98
    },
    "flavors": [],
    "vetoes": []
@@ -3357,27 +3370,26 @@
   "key": "magician-lover",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.7447,
-  "lead_margin": 3.7603,
+  "persona_margin": 3.9886,
+  "lead_margin": 3.9886,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "wonder",
-    "change"
+    "change",
+    "influence"
    ],
    "soughtFor": [
     "advice",
-    "calm",
     "taste"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "b",
-    "halffull-halfempty": "b",
     "control": "b",
-    "quiet-loud": "b",
+    "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "a",
@@ -3385,8 +3397,8 @@
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 31,
-    "classic-experimental": 42,
+    "controlled-wild": 53,
+    "classic-experimental": 45,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 100
    },
@@ -3398,15 +3410,16 @@
   "key": "magician-outlaw",
   "status": "approved",
   "contains": [],
-  "persona_margin": 3.8167,
-  "lead_margin": 3.9641,
+  "persona_margin": 4.3439,
+  "lead_margin": 4.4904,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "wonder",
-    "change"
+    "change",
+    "influence"
    ],
    "soughtFor": [
     "honesty",
@@ -3418,17 +3431,17 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "b",
-    "quiet-loud": "a",
+    "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 67,
-    "controlled-wild": 100,
-    "classic-experimental": 91,
-    "analytical-instinctive": 94,
+    "solitary-social": 36,
+    "controlled-wild": 99,
+    "classic-experimental": 100,
+    "analytical-instinctive": 45,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -3439,37 +3452,38 @@
   "key": "magician-regular-guy",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.3859,
-  "lead_margin": 3.5359,
+  "persona_margin": 3.3342,
+  "lead_margin": 3.4842,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "wonder",
-    "change"
+    "change",
+    "influence"
    ],
    "soughtFor": [
+    "comfort",
     "honesty",
-    "ideas",
     "reality-check"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "a",
-    "halffull-halfempty": "a",
-    "control": "b",
+    "halffull-halfempty": "b",
     "quiet-loud": "b",
+    "risk": "a",
     "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 12,
-    "classic-experimental": 15,
+    "controlled-wild": 43,
+    "classic-experimental": 96,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 29
+    "grounded-dreamlike": 46
    },
    "flavors": [],
    "vetoes": []
@@ -3479,18 +3493,18 @@
   "key": "magician-ruler",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.4864,
-  "lead_margin": 3.6288,
+  "persona_margin": 3.971,
+  "lead_margin": 4.0852,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "wonder",
-    "change"
+    "change",
+    "influence"
    ],
    "soughtFor": [
-    "ideas",
     "calm",
     "reality-check"
    ],
@@ -3505,11 +3519,11 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 97,
+    "solitary-social": 95,
     "controlled-wild": 0,
-    "classic-experimental": 11,
+    "classic-experimental": 60,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 64
+    "grounded-dreamlike": 63
    },
    "flavors": [],
    "vetoes": []
@@ -3519,15 +3533,16 @@
   "key": "magician-sage",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.5113,
-  "lead_margin": 3.7515,
+  "persona_margin": 3.6836,
+  "lead_margin": 3.9049,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "wonder",
-    "change"
+    "change",
+    "knowledge"
    ],
    "soughtFor": [
     "advice",
@@ -3535,20 +3550,20 @@
     "reality-check"
    ],
    "texture": {
-    "sharp-smooth": "b",
+    "sharp-smooth": "a",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "b",
     "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
-    "harmonic": "a"
+    "soft-rough": "a"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 44,
-    "classic-experimental": 51,
-    "analytical-instinctive": 95,
+    "solitary-social": 29,
+    "controlled-wild": 0,
+    "classic-experimental": 100,
+    "analytical-instinctive": 98,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -3561,8 +3576,8 @@
   "contains": [
    "spice"
   ],
-  "persona_margin": 3.5056,
-  "lead_margin": 3.7941,
+  "persona_margin": 3.1411,
+  "lead_margin": 3.4124,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -3570,7 +3585,7 @@
    "drawnToward": [
     "freedom",
     "change",
-    "mischief"
+    "caring"
    ],
    "soughtFor": [
     "comfort",
@@ -3578,21 +3593,21 @@
     "little-chaos"
    ],
    "texture": {
+    "sharp-smooth": "b",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "a",
     "risk": "a",
     "bright-dark": "b",
-    "soft-rough": "a",
-    "harmonic": "a"
+    "soft-rough": "a"
    },
    "gravity": {
-    "solitary-social": 75,
-    "controlled-wild": 73,
-    "classic-experimental": 100,
+    "solitary-social": 100,
+    "controlled-wild": 100,
+    "classic-experimental": 84,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 6
+    "grounded-dreamlike": 47
    },
    "flavors": [],
    "vetoes": []
@@ -3602,37 +3617,38 @@
   "key": "outlaw-creator",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.6389,
-  "lead_margin": 3.7604,
+  "persona_margin": 3.0345,
+  "lead_margin": 3.1427,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "change",
-    "mischief"
+    "mastery",
+    "change"
    ],
    "soughtFor": [
     "ideas",
-    "taste"
+    "taste",
+    "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
-    "control": "b",
+    "control": "a",
+    "quiet-loud": "a",
     "risk": "a",
-    "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 100,
+    "solitary-social": 93,
     "controlled-wild": 100,
-    "classic-experimental": 80,
+    "classic-experimental": 100,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 9
+    "grounded-dreamlike": 20
    },
    "flavors": [],
    "vetoes": []
@@ -3644,16 +3660,15 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 3.1491,
-  "lead_margin": 3.4976,
+  "persona_margin": 2.7906,
+  "lead_margin": 3.0452,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "change",
-    "mischief"
+    "change"
    ],
    "soughtFor": [
     "ideas",
@@ -3667,14 +3682,15 @@
     "control": "b",
     "quiet-loud": "a",
     "risk": "b",
+    "bright-dark": "a",
     "soft-rough": "b",
     "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 0,
     "controlled-wild": 100,
-    "classic-experimental": 9,
-    "analytical-instinctive": 86,
+    "classic-experimental": 7,
+    "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -3685,36 +3701,34 @@
   "key": "outlaw-hero",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.5042,
-  "lead_margin": 3.7092,
+  "persona_margin": 3.0229,
+  "lead_margin": 3.1775,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "freedom",
-    "change",
-    "mischief"
+    "change"
    ],
    "soughtFor": [
     "courage"
    ],
    "texture": {
     "sharp-smooth": "a",
-    "relaxed-excited": "a",
+    "relaxed-excited": "b",
     "halffull-halfempty": "a",
     "control": "a",
     "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "b",
-    "harmonic": "b"
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 100,
-    "controlled-wild": 43,
-    "classic-experimental": 83,
-    "analytical-instinctive": 0,
+    "solitary-social": 73,
+    "controlled-wild": 100,
+    "classic-experimental": 47,
+    "analytical-instinctive": 10,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -3725,37 +3739,38 @@
   "key": "outlaw-innocent",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.5334,
-  "lead_margin": 3.6194,
+  "persona_margin": 3.0931,
+  "lead_margin": 3.1476,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "change",
-    "mischief"
+    "peace",
+    "change"
    ],
    "soughtFor": [
     "honesty",
-    "courage",
-    "calm"
+    "calm",
+    "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "a",
     "halffull-halfempty": "a",
-    "control": "b",
+    "quiet-loud": "a",
     "risk": "a",
     "bright-dark": "b",
-    "soft-rough": "a"
+    "soft-rough": "a",
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 100,
+    "solitary-social": 98,
     "controlled-wild": 100,
-    "classic-experimental": 78,
+    "classic-experimental": 34,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 100
+    "grounded-dreamlike": 95
    },
    "flavors": [],
    "vetoes": []
@@ -3765,38 +3780,36 @@
   "key": "outlaw-jester",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.9955,
-  "lead_margin": 4.1566,
+  "persona_margin": 3.598,
+  "lead_margin": 3.7438,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "change",
-    "mischief"
+    "mastery",
+    "change"
    ],
    "soughtFor": [
-    "reality-check",
     "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "a",
-    "relaxed-excited": "b",
+    "relaxed-excited": "a",
     "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "a",
-    "soft-rough": "a",
     "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 100,
     "controlled-wild": 100,
-    "classic-experimental": 0,
-    "analytical-instinctive": 3,
-    "grounded-dreamlike": 50
+    "classic-experimental": 4,
+    "analytical-instinctive": 0,
+    "grounded-dreamlike": 91
    },
    "flavors": [],
    "vetoes": []
@@ -3806,8 +3819,8 @@
   "key": "outlaw-lover",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.2356,
-  "lead_margin": 3.3556,
+  "persona_margin": 2.8746,
+  "lead_margin": 2.9946,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -3815,9 +3828,10 @@
    "drawnToward": [
     "freedom",
     "change",
-    "mischief"
+    "caring"
    ],
    "soughtFor": [
+    "advice",
     "courage",
     "taste"
    ],
@@ -3826,15 +3840,15 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "b",
+    "quiet-loud": "b",
     "bright-dark": "b",
-    "soft-rough": "a",
-    "harmonic": "a"
+    "soft-rough": "a"
    },
    "gravity": {
     "solitary-social": 100,
     "controlled-wild": 100,
-    "classic-experimental": 0,
-    "analytical-instinctive": 39,
+    "classic-experimental": 7,
+    "analytical-instinctive": 5,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -3845,8 +3859,8 @@
   "key": "outlaw-magician",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.4732,
-  "lead_margin": 2.5764,
+  "persona_margin": 2.1614,
+  "lead_margin": 2.2762,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -3854,11 +3868,11 @@
    "drawnToward": [
     "freedom",
     "change",
-    "mischief"
+    "caring"
    ],
    "soughtFor": [
     "comfort",
-    "reality-check",
+    "ideas",
     "little-chaos"
    ],
    "texture": {
@@ -3866,16 +3880,15 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "a",
-    "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
-    "harmonic": "b"
+    "soft-rough": "b"
    },
    "gravity": {
-    "solitary-social": 62,
-    "controlled-wild": 0,
-    "classic-experimental": 100,
-    "analytical-instinctive": 79,
+    "solitary-social": 100,
+    "controlled-wild": 100,
+    "classic-experimental": 96,
+    "analytical-instinctive": 95,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -3886,21 +3899,20 @@
   "key": "outlaw-regular-guy",
   "status": "draft",
   "contains": [],
-  "persona_margin": 4.0634,
-  "lead_margin": 4.0769,
+  "persona_margin": 3.3745,
+  "lead_margin": 3.4105,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "change",
-    "mischief"
+    "beauty",
+    "change"
    ],
    "soughtFor": [
     "comfort",
-    "honesty",
-    "reality-check"
+    "honesty"
    ],
    "texture": {
     "sharp-smooth": "a",
@@ -3908,15 +3920,16 @@
     "halffull-halfempty": "b",
     "control": "b",
     "quiet-loud": "b",
+    "risk": "a",
     "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 97,
+    "solitary-social": 100,
     "controlled-wild": 100,
-    "classic-experimental": 42,
-    "analytical-instinctive": 0,
+    "classic-experimental": 0,
+    "analytical-instinctive": 1,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -3929,16 +3942,15 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 3.6197,
-  "lead_margin": 3.7739,
+  "persona_margin": 3.2306,
+  "lead_margin": 3.4102,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "change",
-    "mischief"
+    "change"
    ],
    "soughtFor": [
     "taste",
@@ -3953,15 +3965,14 @@
     "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "b",
-    "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 51,
-    "controlled-wild": 15,
-    "classic-experimental": 41,
+    "solitary-social": 71,
+    "controlled-wild": 37,
+    "classic-experimental": 0,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 0
+    "grounded-dreamlike": 54
    },
    "flavors": [],
    "vetoes": []
@@ -3974,38 +3985,39 @@
    "egg-white",
    "nuts"
   ],
-  "persona_margin": 3.9187,
-  "lead_margin": 4.0248,
+  "persona_margin": 3.3243,
+  "lead_margin": 3.3736,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "change",
-    "mischief"
+    "beauty",
+    "change"
    ],
    "soughtFor": [
     "advice",
-    "calm"
+    "calm",
+    "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
-    "control": "b",
+    "control": "a",
     "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "b",
-    "harmonic": "b"
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 98,
-    "controlled-wild": 91,
+    "solitary-social": 87,
+    "controlled-wild": 100,
     "classic-experimental": 0,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 96
+    "grounded-dreamlike": 93
    },
    "flavors": [],
    "vetoes": []
@@ -4015,15 +4027,15 @@
   "key": "regular-guy-caregiver",
   "status": "draft",
   "contains": [],
-  "persona_margin": 4.035,
-  "lead_margin": 4.1757,
+  "persona_margin": 4.1021,
+  "lead_margin": 4.2677,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "belonging",
-    "change"
+    "making"
    ],
    "soughtFor": [
     "advice",
@@ -4033,7 +4045,6 @@
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "a",
-    "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "a",
     "risk": "a",
@@ -4043,9 +4054,9 @@
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 67,
-    "classic-experimental": 5,
-    "analytical-instinctive": 57,
+    "controlled-wild": 60,
+    "classic-experimental": 0,
+    "analytical-instinctive": 42,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -4058,8 +4069,8 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 3.2835,
-  "lead_margin": 3.3416,
+  "persona_margin": 3.3558,
+  "lead_margin": 3.4122,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -4077,15 +4088,15 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "a",
+    "quiet-loud": "a",
     "risk": "a",
-    "bright-dark": "a",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 100,
-    "classic-experimental": 79,
+    "controlled-wild": 94,
+    "classic-experimental": 81,
     "analytical-instinctive": 0,
     "grounded-dreamlike": 11
    },
@@ -4097,8 +4108,8 @@
   "key": "regular-guy-explorer",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.6516,
-  "lead_margin": 2.7417,
+  "persona_margin": 2.728,
+  "lead_margin": 2.7761,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -4108,25 +4119,24 @@
    ],
    "soughtFor": [
     "honesty",
-    "ideas",
-    "reality-check"
+    "ideas"
    ],
    "texture": {
-    "sharp-smooth": "a",
+    "sharp-smooth": "b",
     "relaxed-excited": "b",
+    "halffull-halfempty": "b",
     "control": "b",
-    "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "a",
     "soft-rough": "b",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 0,
+    "solitary-social": 2,
     "controlled-wild": 100,
-    "classic-experimental": 38,
+    "classic-experimental": 0,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 10
+    "grounded-dreamlike": 5
    },
    "flavors": [],
    "vetoes": []
@@ -4136,8 +4146,8 @@
   "key": "regular-guy-hero",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.5325,
-  "lead_margin": 3.6616,
+  "persona_margin": 3.5786,
+  "lead_margin": 3.7545,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -4163,8 +4173,8 @@
    },
    "gravity": {
     "solitary-social": 84,
-    "controlled-wild": 42,
-    "classic-experimental": 38,
+    "controlled-wild": 33,
+    "classic-experimental": 33,
     "analytical-instinctive": 100,
     "grounded-dreamlike": 0
    },
@@ -4176,27 +4186,26 @@
   "key": "regular-guy-innocent",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.9576,
-  "lead_margin": 3.0631,
+  "persona_margin": 3.1238,
+  "lead_margin": 3.2261,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
+    "freedom",
     "belonging",
-    "change"
+    "making"
    ],
    "soughtFor": [
-    "honesty",
-    "courage",
-    "reality-check"
+    "honesty"
    ],
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "a",
     "halffull-halfempty": "a",
     "control": "a",
-    "quiet-loud": "a",
+    "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "a",
     "soft-rough": "a",
@@ -4204,10 +4213,10 @@
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 99,
+    "controlled-wild": 100,
     "classic-experimental": 0,
-    "analytical-instinctive": 51,
-    "grounded-dreamlike": 90
+    "analytical-instinctive": 22,
+    "grounded-dreamlike": 62
    },
    "flavors": [],
    "vetoes": []
@@ -4217,36 +4226,36 @@
   "key": "regular-guy-jester",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.7163,
-  "lead_margin": 4.0187,
+  "persona_margin": 3.7185,
+  "lead_margin": 4.0569,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "belonging",
-    "wonder"
+    "knowledge"
    ],
    "soughtFor": [
     "honesty",
-    "reality-check",
+    "ideas",
     "little-chaos"
    ],
    "texture": {
-    "sharp-smooth": "a",
     "relaxed-excited": "b",
     "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "a",
+    "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 100,
+    "controlled-wild": 97,
     "classic-experimental": 0,
-    "analytical-instinctive": 86,
+    "analytical-instinctive": 90,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -4257,25 +4266,27 @@
   "key": "regular-guy-lover",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.0636,
-  "lead_margin": 3.1789,
+  "persona_margin": 3.2801,
+  "lead_margin": 3.3999,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "belonging"
+    "belonging",
+    "knowledge",
+    "making"
    ],
    "soughtFor": [
     "honesty",
-    "ideas",
     "taste"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "b",
     "halffull-halfempty": "b",
-    "quiet-loud": "b",
+    "control": "b",
+    "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "a",
@@ -4283,10 +4294,10 @@
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 100,
+    "controlled-wild": 99,
     "classic-experimental": 0,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 6
+    "grounded-dreamlike": 2
    },
    "flavors": [],
    "vetoes": []
@@ -4296,35 +4307,38 @@
   "key": "regular-guy-magician",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.1799,
-  "lead_margin": 2.4084,
+  "persona_margin": 2.1772,
+  "lead_margin": 2.4101,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "belonging",
-    "change"
+    "knowledge"
    ],
    "soughtFor": [
+    "honesty",
     "ideas",
-    "reality-check",
     "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "a",
+    "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "a",
     "risk": "b",
-    "bright-dark": "b"
+    "bright-dark": "b",
+    "soft-rough": "b",
+    "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 10,
-    "classic-experimental": 6,
+    "controlled-wild": 24,
+    "classic-experimental": 69,
     "analytical-instinctive": 100,
-    "grounded-dreamlike": 86
+    "grounded-dreamlike": 61
    },
    "flavors": [],
    "vetoes": []
@@ -4334,8 +4348,8 @@
   "key": "regular-guy-outlaw",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.5369,
-  "lead_margin": 3.7165,
+  "persona_margin": 3.4351,
+  "lead_margin": 3.7465,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -4349,7 +4363,6 @@
     "little-chaos"
    ],
    "texture": {
-    "sharp-smooth": "a",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "b",
@@ -4360,11 +4373,11 @@
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 70,
-    "controlled-wild": 100,
+    "solitary-social": 52,
+    "controlled-wild": 98,
     "classic-experimental": 0,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 8
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -4374,15 +4387,16 @@
   "key": "regular-guy-ruler",
   "status": "draft",
   "contains": [],
-  "persona_margin": 3.478,
-  "lead_margin": 3.6867,
+  "persona_margin": 3.7184,
+  "lead_margin": 3.9432,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "belonging",
-    "wonder"
+    "wonder",
+    "making"
    ],
    "soughtFor": [
     "taste",
@@ -4390,21 +4404,19 @@
    ],
    "texture": {
     "sharp-smooth": "a",
-    "relaxed-excited": "b",
     "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "b",
-    "soft-rough": "b",
-    "harmonic": "b"
+    "soft-rough": "b"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 82,
+    "controlled-wild": 59,
     "classic-experimental": 0,
-    "analytical-instinctive": 0,
-    "grounded-dreamlike": 2
+    "analytical-instinctive": 15,
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -4416,14 +4428,16 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 3.5334,
-  "lead_margin": 3.7251,
+  "persona_margin": 3.7984,
+  "lead_margin": 4.0121,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "belonging"
+    "belonging",
+    "wonder",
+    "making"
    ],
    "soughtFor": [
     "advice",
@@ -4442,11 +4456,11 @@
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 100,
+    "solitary-social": 61,
     "controlled-wild": 100,
     "classic-experimental": 0,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 64
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -4456,37 +4470,36 @@
   "key": "ruler-caregiver",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.2422,
-  "lead_margin": 2.3903,
+  "persona_margin": 3.9894,
+  "lead_margin": 4.116,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "beauty",
-    "mastery",
-    "mischief"
+    "freedom",
+    "influence"
    ],
    "soughtFor": [
     "comfort",
     "calm",
-    "reality-check"
+    "taste"
    ],
    "texture": {
     "sharp-smooth": "b",
-    "relaxed-excited": "a",
+    "relaxed-excited": "b",
+    "halffull-halfempty": "a",
     "control": "a",
-    "quiet-loud": "b",
+    "quiet-loud": "a",
     "risk": "a",
-    "bright-dark": "a",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 100,
+    "solitary-social": 48,
     "controlled-wild": 0,
     "classic-experimental": 0,
-    "analytical-instinctive": 17,
+    "analytical-instinctive": 0,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -4497,38 +4510,34 @@
   "key": "ruler-creator",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.0342,
-  "lead_margin": 2.1856,
+  "persona_margin": 3.8431,
+  "lead_margin": 3.9706,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "freedom",
-    "mastery",
-    "mischief"
+    "influence"
    ],
    "soughtFor": [
     "ideas",
-    "taste",
-    "reality-check"
+    "taste"
    ],
    "texture": {
-    "sharp-smooth": "b",
+    "sharp-smooth": "a",
     "relaxed-excited": "a",
-    "halffull-halfempty": "b",
-    "quiet-loud": "b",
+    "control": "a",
+    "quiet-loud": "a",
     "risk": "a",
     "bright-dark": "a",
-    "soft-rough": "a",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 100,
+    "solitary-social": 84,
     "controlled-wild": 0,
-    "classic-experimental": 60,
+    "classic-experimental": 52,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 79
+    "grounded-dreamlike": 43
    },
    "flavors": [],
    "vetoes": []
@@ -4538,13 +4547,15 @@
   "key": "ruler-explorer",
   "status": "draft",
   "contains": [],
-  "persona_margin": 0.7564,
-  "lead_margin": 0.9536,
+  "persona_margin": 2.1691,
+  "lead_margin": 2.3109,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
-   "drawnToward": [],
+   "drawnToward": [
+    "influence"
+   ],
    "soughtFor": [
     "ideas",
     "reality-check"
@@ -4552,18 +4563,20 @@
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "b",
-    "halffull-halfempty": "a",
+    "halffull-halfempty": "b",
     "control": "b",
     "quiet-loud": "b",
     "risk": "b",
-    "soft-rough": "b"
+    "bright-dark": "a",
+    "soft-rough": "b",
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 15,
-    "controlled-wild": 0,
+    "solitary-social": 0,
+    "controlled-wild": 66,
     "classic-experimental": 0,
-    "analytical-instinctive": 61,
-    "grounded-dreamlike": 35
+    "analytical-instinctive": 69,
+    "grounded-dreamlike": 24
    },
    "flavors": [],
    "vetoes": []
@@ -4573,16 +4586,14 @@
   "key": "ruler-hero",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.1395,
-  "lead_margin": 2.3491,
+  "persona_margin": 3.8831,
+  "lead_margin": 4.1013,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "beauty",
-    "mastery",
-    "wonder"
+    "influence"
    ],
    "soughtFor": [
     "courage",
@@ -4595,15 +4606,14 @@
     "control": "a",
     "quiet-loud": "b",
     "risk": "b",
-    "bright-dark": "a",
     "soft-rough": "b",
-    "harmonic": "b"
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 100,
+    "solitary-social": 47,
     "controlled-wild": 0,
     "classic-experimental": 0,
-    "analytical-instinctive": 21,
+    "analytical-instinctive": 26,
     "grounded-dreamlike": 0
    },
    "flavors": [],
@@ -4614,16 +4624,15 @@
   "key": "ruler-innocent",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.7635,
-  "lead_margin": 1.8252,
+  "persona_margin": 3.5971,
+  "lead_margin": 3.6616,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "freedom",
-    "mastery",
-    "wonder"
+    "influence"
    ],
    "soughtFor": [
     "honesty",
@@ -4631,9 +4640,10 @@
     "taste"
    ],
    "texture": {
+    "sharp-smooth": "a",
+    "relaxed-excited": "a",
     "halffull-halfempty": "a",
     "control": "a",
-    "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "a",
     "soft-rough": "a",
@@ -4642,9 +4652,9 @@
    "gravity": {
     "solitary-social": 100,
     "controlled-wild": 0,
-    "classic-experimental": 0,
-    "analytical-instinctive": 2,
-    "grounded-dreamlike": 39
+    "classic-experimental": 5,
+    "analytical-instinctive": 20,
+    "grounded-dreamlike": 100
    },
    "flavors": [],
    "vetoes": []
@@ -4654,19 +4664,16 @@
   "key": "ruler-jester",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.8402,
-  "lead_margin": 1.9778,
+  "persona_margin": 3.697,
+  "lead_margin": 3.8473,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "freedom",
-    "mastery",
-    "wonder"
+    "influence"
    ],
    "soughtFor": [
-    "taste",
     "reality-check",
     "little-chaos"
    ],
@@ -4676,17 +4683,16 @@
     "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "b",
-    "risk": "a",
     "bright-dark": "a",
     "soft-rough": "a",
     "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 8,
+    "controlled-wild": 0,
     "classic-experimental": 0,
-    "analytical-instinctive": 0,
-    "grounded-dreamlike": 100
+    "analytical-instinctive": 18,
+    "grounded-dreamlike": 95
    },
    "flavors": [],
    "vetoes": []
@@ -4696,37 +4702,35 @@
   "key": "ruler-lover",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.9345,
-  "lead_margin": 2.0723,
+  "persona_margin": 3.7795,
+  "lead_margin": 3.8528,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "freedom",
-    "mastery",
-    "mischief"
+    "influence"
    ],
    "soughtFor": [
-    "taste",
-    "reality-check"
+    "taste"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "b",
     "halffull-halfempty": "b",
     "control": "b",
-    "risk": "a",
+    "quiet-loud": "b",
+    "risk": "b",
     "bright-dark": "b",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 100,
-    "controlled-wild": 3,
+    "solitary-social": 88,
+    "controlled-wild": 0,
     "classic-experimental": 0,
-    "analytical-instinctive": 45,
-    "grounded-dreamlike": 100
+    "analytical-instinctive": 14,
+    "grounded-dreamlike": 76
    },
    "flavors": [],
    "vetoes": []
@@ -4736,33 +4740,36 @@
   "key": "ruler-magician",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.2273,
-  "lead_margin": 1.44,
+  "persona_margin": 2.5724,
+  "lead_margin": 2.7747,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "freedom",
-    "mastery"
+    "influence"
    ],
    "soughtFor": [
     "ideas",
-    "reality-check",
+    "calm",
     "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
+    "control": "a",
+    "quiet-loud": "b",
+    "risk": "b",
     "bright-dark": "b",
-    "soft-rough": "a"
+    "soft-rough": "a",
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 100,
+    "solitary-social": 22,
     "controlled-wild": 0,
-    "classic-experimental": 13,
-    "analytical-instinctive": 36,
+    "classic-experimental": 8,
+    "analytical-instinctive": 100,
     "grounded-dreamlike": 100
    },
    "flavors": [],
@@ -4773,16 +4780,14 @@
   "key": "ruler-outlaw",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.4461,
-  "lead_margin": 1.7026,
+  "persona_margin": 2.9445,
+  "lead_margin": 3.1395,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "freedom",
-    "mastery",
-    "wonder"
+    "influence"
    ],
    "soughtFor": [
     "taste",
@@ -4801,11 +4806,11 @@
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 100,
-    "controlled-wild": 15,
-    "classic-experimental": 0,
+    "solitary-social": 13,
+    "controlled-wild": 40,
+    "classic-experimental": 88,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 80
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -4817,16 +4822,16 @@
   "contains": [
    "nuts"
   ],
-  "persona_margin": 2.0195,
-  "lead_margin": 2.1961,
+  "persona_margin": 3.7118,
+  "lead_margin": 3.9012,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery",
-    "pleasure",
-    "wonder"
+    "freedom",
+    "influence",
+    "making"
    ],
    "soughtFor": [
     "comfort",
@@ -4835,20 +4840,21 @@
    ],
    "texture": {
     "sharp-smooth": "b",
+    "relaxed-excited": "a",
     "halffull-halfempty": "b",
-    "control": "a",
+    "control": "b",
     "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "b",
-    "soft-rough": "a",
+    "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 100,
-    "controlled-wild": 0,
+    "controlled-wild": 1,
     "classic-experimental": 0,
-    "analytical-instinctive": 1,
-    "grounded-dreamlike": 0
+    "analytical-instinctive": 0,
+    "grounded-dreamlike": 29
    },
    "flavors": [],
    "vetoes": []
@@ -4860,16 +4866,15 @@
   "contains": [
    "gluten"
   ],
-  "persona_margin": 2.3466,
-  "lead_margin": 2.4576,
+  "persona_margin": 4.3689,
+  "lead_margin": 4.4746,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery",
-    "change",
-    "mischief"
+    "pleasure",
+    "influence"
    ],
    "soughtFor": [
     "advice",
@@ -4882,17 +4887,16 @@
     "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "a",
-    "risk": "a",
+    "risk": "b",
     "bright-dark": "b",
-    "soft-rough": "a",
-    "harmonic": "a"
+    "soft-rough": "a"
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 2,
+    "controlled-wild": 3,
     "classic-experimental": 0,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 100
+    "grounded-dreamlike": 25
    },
    "flavors": [],
    "vetoes": []
@@ -4902,14 +4906,15 @@
   "key": "sage-caregiver",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.429,
-  "lead_margin": 2.6797,
+  "persona_margin": 4.3573,
+  "lead_margin": 4.6126,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery"
+    "mastery",
+    "knowledge"
    ],
    "soughtFor": [
     "advice",
@@ -4918,19 +4923,19 @@
    ],
    "texture": {
     "sharp-smooth": "b",
-    "relaxed-excited": "a",
     "control": "b",
     "quiet-loud": "a",
-    "bright-dark": "a",
+    "risk": "a",
+    "bright-dark": "b",
     "soft-rough": "a",
     "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 100,
-    "classic-experimental": 21,
+    "solitary-social": 2,
+    "controlled-wild": 88,
+    "classic-experimental": 0,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 45
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -4940,16 +4945,15 @@
   "key": "sage-creator",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.7836,
-  "lead_margin": 2.7842,
+  "persona_margin": 4.5266,
+  "lead_margin": 4.53,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "mastery",
-    "peace",
-    "pleasure"
+    "knowledge"
    ],
    "soughtFor": [
     "advice",
@@ -4959,18 +4963,17 @@
    "texture": {
     "sharp-smooth": "a",
     "relaxed-excited": "a",
-    "halffull-halfempty": "b",
     "control": "b",
     "quiet-loud": "a",
-    "risk": "b",
-    "bright-dark": "b",
-    "soft-rough": "b",
+    "risk": "a",
+    "bright-dark": "a",
+    "soft-rough": "a",
     "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 79,
-    "classic-experimental": 8,
+    "controlled-wild": 77,
+    "classic-experimental": 61,
     "analytical-instinctive": 0,
     "grounded-dreamlike": 100
    },
@@ -4982,8 +4985,8 @@
   "key": "sage-explorer",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.5087,
-  "lead_margin": 1.6769,
+  "persona_margin": 2.8848,
+  "lead_margin": 3.0268,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -4991,29 +4994,28 @@
    "drawnToward": [
     "mastery",
     "peace",
-    "pleasure"
+    "knowledge"
    ],
    "soughtFor": [
+    "advice",
     "ideas",
-    "calm",
     "reality-check"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "b",
-    "halffull-halfempty": "b",
     "control": "b",
     "risk": "b",
-    "bright-dark": "b",
+    "bright-dark": "a",
     "soft-rough": "b",
     "harmonic": "a"
    },
    "gravity": {
     "solitary-social": 0,
     "controlled-wild": 100,
-    "classic-experimental": 0,
-    "analytical-instinctive": 40,
-    "grounded-dreamlike": 73
+    "classic-experimental": 9,
+    "analytical-instinctive": 90,
+    "grounded-dreamlike": 50
    },
    "flavors": [],
    "vetoes": []
@@ -5023,18 +5025,19 @@
   "key": "sage-hero",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.9041,
-  "lead_margin": 2.0377,
+  "persona_margin": 3.8256,
+  "lead_margin": 3.9494,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "beauty",
-    "peace"
+    "mastery",
+    "peace",
+    "knowledge"
    ],
    "soughtFor": [
-    "advice",
+    "honesty",
     "courage"
    ],
    "texture": {
@@ -5043,15 +5046,15 @@
     "halffull-halfempty": "a",
     "control": "a",
     "risk": "b",
-    "bright-dark": "b",
-    "soft-rough": "b"
+    "soft-rough": "b",
+    "harmonic": "b"
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 85,
+    "controlled-wild": 30,
     "classic-experimental": 0,
-    "analytical-instinctive": 0,
-    "grounded-dreamlike": 3
+    "analytical-instinctive": 1,
+    "grounded-dreamlike": 0
    },
    "flavors": [],
    "vetoes": []
@@ -5061,15 +5064,15 @@
   "key": "sage-innocent",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.5827,
-  "lead_margin": 2.861,
+  "persona_margin": 4.8523,
+  "lead_margin": 5.0037,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "mastery",
-    "mischief"
+    "knowledge"
    ],
    "soughtFor": [
     "honesty",
@@ -5077,8 +5080,10 @@
    ],
    "texture": {
     "relaxed-excited": "a",
+    "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "a",
+    "risk": "a",
     "bright-dark": "a",
     "soft-rough": "a",
     "harmonic": "a"
@@ -5086,7 +5091,7 @@
    "gravity": {
     "solitary-social": 0,
     "controlled-wild": 100,
-    "classic-experimental": 7,
+    "classic-experimental": 21,
     "analytical-instinctive": 0,
     "grounded-dreamlike": 100
    },
@@ -5100,16 +5105,15 @@
   "contains": [
    "egg-white"
   ],
-  "persona_margin": 2.0756,
-  "lead_margin": 2.1775,
+  "persona_margin": 3.4434,
+  "lead_margin": 3.5511,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "mastery",
-    "peace",
-    "pleasure"
+    "knowledge"
    ],
    "soughtFor": [
     "advice",
@@ -5118,19 +5122,20 @@
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "b",
+    "halffull-halfempty": "a",
     "control": "b",
     "quiet-loud": "b",
-    "risk": "b",
+    "risk": "a",
     "bright-dark": "a",
     "soft-rough": "a",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 64,
+    "solitary-social": 41,
+    "controlled-wild": 67,
     "classic-experimental": 0,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 69
+    "grounded-dreamlike": 100
    },
    "flavors": [],
    "vetoes": []
@@ -5140,16 +5145,15 @@
   "key": "sage-lover",
   "status": "approved",
   "contains": [],
-  "persona_margin": 2.0373,
-  "lead_margin": 2.0705,
+  "persona_margin": 3.39,
+  "lead_margin": 3.4539,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "mastery",
-    "peace",
-    "pleasure"
+    "knowledge"
    ],
    "soughtFor": [
     "advice",
@@ -5157,19 +5161,20 @@
    ],
    "texture": {
     "sharp-smooth": "b",
-    "relaxed-excited": "b",
     "halffull-halfempty": "b",
     "control": "b",
+    "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
-    "soft-rough": "a"
+    "soft-rough": "a",
+    "harmonic": "a"
    },
    "gravity": {
-    "solitary-social": 7,
-    "controlled-wild": 97,
+    "solitary-social": 98,
+    "controlled-wild": 100,
     "classic-experimental": 0,
-    "analytical-instinctive": 24,
-    "grounded-dreamlike": 77
+    "analytical-instinctive": 18,
+    "grounded-dreamlike": 100
    },
    "flavors": [],
    "vetoes": []
@@ -5179,27 +5184,26 @@
   "key": "sage-magician",
   "status": "draft",
   "contains": [],
-  "persona_margin": 1.6192,
-  "lead_margin": 1.7142,
+  "persona_margin": 2.5888,
+  "lead_margin": 2.6902,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "mastery",
-    "peace",
-    "change"
+    "wonder",
+    "knowledge"
    ],
    "soughtFor": [
-    "advice",
     "ideas",
+    "calm",
     "little-chaos"
    ],
    "texture": {
     "sharp-smooth": "b",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
-    "control": "b",
     "quiet-loud": "b",
     "risk": "b",
     "bright-dark": "b",
@@ -5208,7 +5212,7 @@
    },
    "gravity": {
     "solitary-social": 0,
-    "controlled-wild": 9,
+    "controlled-wild": 13,
     "classic-experimental": 0,
     "analytical-instinctive": 72,
     "grounded-dreamlike": 100
@@ -5221,19 +5225,20 @@
   "key": "sage-outlaw",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.8978,
-  "lead_margin": 3.1002,
+  "persona_margin": 3.8988,
+  "lead_margin": 4.1144,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "beauty",
     "mastery",
-    "peace"
+    "peace",
+    "knowledge"
    ],
    "soughtFor": [
     "advice",
+    "courage",
     "little-chaos"
    ],
    "texture": {
@@ -5241,17 +5246,18 @@
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "b",
+    "quiet-loud": "a",
     "risk": "b",
     "bright-dark": "b",
     "soft-rough": "b",
     "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 0,
-    "controlled-wild": 92,
-    "classic-experimental": 0,
+    "solitary-social": 13,
+    "controlled-wild": 100,
+    "classic-experimental": 22,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 91
+    "grounded-dreamlike": 100
    },
    "flavors": [],
    "vetoes": []
@@ -5261,16 +5267,15 @@
   "key": "sage-regular-guy",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.2199,
-  "lead_margin": 2.3311,
+  "persona_margin": 3.5556,
+  "lead_margin": 3.6152,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
     "mastery",
-    "peace",
-    "pleasure"
+    "knowledge"
    ],
    "soughtFor": [
     "comfort",
@@ -5278,21 +5283,21 @@
     "reality-check"
    ],
    "texture": {
-    "sharp-smooth": "b",
     "relaxed-excited": "a",
     "halffull-halfempty": "b",
     "control": "b",
     "quiet-loud": "a",
-    "risk": "b",
+    "risk": "a",
     "bright-dark": "b",
-    "soft-rough": "b"
+    "soft-rough": "b",
+    "harmonic": "b"
    },
    "gravity": {
-    "solitary-social": 0,
+    "solitary-social": 46,
     "controlled-wild": 100,
     "classic-experimental": 0,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 3
+    "grounded-dreamlike": 32
    },
    "flavors": [],
    "vetoes": []
@@ -5302,37 +5307,37 @@
   "key": "sage-ruler",
   "status": "draft",
   "contains": [],
-  "persona_margin": 2.4358,
-  "lead_margin": 2.7058,
+  "persona_margin": 4.459,
+  "lead_margin": 4.729,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
   "witness": {
    "drawnToward": [
-    "mastery",
-    "peace"
+    "peace",
+    "knowledge"
    ],
    "soughtFor": [
     "taste",
-    "reality-check"
+    "reality-check",
+    "little-chaos"
    ],
    "texture": {
-    "sharp-smooth": "b",
+    "sharp-smooth": "a",
     "relaxed-excited": "b",
     "halffull-halfempty": "b",
     "control": "a",
     "quiet-loud": "b",
     "risk": "a",
     "bright-dark": "b",
-    "soft-rough": "a",
-    "harmonic": "a"
+    "soft-rough": "b"
    },
    "gravity": {
-    "solitary-social": 0,
+    "solitary-social": 7,
     "controlled-wild": 0,
     "classic-experimental": 0,
     "analytical-instinctive": 0,
-    "grounded-dreamlike": 76
+    "grounded-dreamlike": 2
    },
    "flavors": [],
    "vetoes": []
