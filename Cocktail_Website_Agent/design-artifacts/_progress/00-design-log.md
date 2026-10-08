@@ -6,27 +6,27 @@
 
 ---
 
-## Start here (session handoff — updated 2026-10-06)
+## Start here — current handoff, 8 October 2026
 
-Robin is continuing Dionysus in three parallel tracks: experience design, cocktail collection review, and questionnaire matching. The [continuation plan](../2026-10-06-parallel-work-plan.md) records the full scope, settled choices, first deliverables, dependencies, file ownership, BMAD source map and conversation briefs. This is planned work; no new implementation or cocktail approval is implied.
+Read the [current experience contract](../2026-07-08-experience-master-spec.md), [continuation status](../2026-10-06-continuation-status.md) and [continuation plan](../2026-10-06-parallel-work-plan.md). The product brief, trigger map and scenarios were reconciled with the current experience in the [document review](../../_bmad-output/document-review-2026-10-08.md).
 
-Continue the existing WDS propose → build → browser verification → log rhythm through focused product-evolution cycles. Read the existing brief, trigger map and scenarios. The active reveal is `TheReading.tsx`; historical Surfacing/white-bloom entries below are not the current build target. Preserve the later dark-to-dark direction, native video playback and the current image production rules.
+H4 v4 and H5 **A world of your own** are approved and built. H5 asks soughtFor first, drawnToward second; optional carry applies to round 1. Playfair stays, H6 icons are built, Another side of me keeps the guest's name, and reading actions sit at the bottom only. The portrait scene-first layout and clean two-sheet print have recorded checks. **Spirit Within** was restored on 8 October.
 
-Design choices from Robin: H4 needs clearer practice and a premium Ready/Set/Go launch; remove its noninteractive history bubbles; replace the final H1 lens with **Another side of me**, retaining the entered name; keep share/save only at the bottom of the reading. H5 attraction gameplay, typography, smoother arrivals, mobile controls, background music and flavour icons need focused exploration/verification.
+Shared scaffold, catalogue, reading assembler and selection v1 are now present in the primary checkout. App still reveals the fixed pilot; normal journey integration, v3 capture and full privacy/parity checks remain. The backend specification is refreshed, and architecture is finalized; do not restart those phases.
 
-The backend architecture is already finalized in `agent/ARCHITECTURE-SPINE.md` (2026-09-23). Its pending handoff is a `bmad-spec` refresh, not a fresh architecture phase. Preserve deterministic top-three eligible pairings followed by the Bartender's bounded choice, unchanged authored recipes/copy fallback, veto filtering, no zero-proof at launch, trace/name privacy and the shared-core seams. Reconcile the later removal of the vessel question and specify H4 timing/status before implementation. The current app still reveals a fixed pilot; coverage and integration remain work to do.
+Robin confirmed **Knowledge, Influence, Making and Caring** in this document-review chat on 8 October, replacing Mischief in drawnToward (H5 round 2). Copy is settled; ticket 1.9 must implement twelve words and refresh coverage. The current list remains nine.
 
-Content proceeds through the existing Pour Studio review desk and Wren/Hester/Tomás reworks. All 132 pours are authored; 112 are draft, 16 flagged and 4 approved at this handoff. Preserve Robin's workbook and tagline annotations. Final images follow settled pours; natural functional metal is allowed while the environment remains predominantly dark timber, glass, paper and linen.
+Content has 4 approved, 128 draft and 0 flagged pours; the current tagline voice record reports 36 accepted lines. Images have 17 preserved public pairs and 115 generated candidates, none newly accepted/integrated. Read owner records before reusing counts. Physically settled recipes/personality may proceed to image creation without full editorial approval.
 
-The three tracks can audit/prototype in parallel. Shared answer meanings require a design/matching handoff; one writer owns shared UI files at a time. Carry decisions back into the existing source artifacts and record concrete checks and honest task status. The older handoffs below are dated history; later explicit decisions take precedence.
+Music, retimed-video adoption and focused mobile follow-ups remain open. Use one writer per shared file. The sections and entries below preserve dated history; later accepted decisions supersede older handoff instructions.
 
 ---
 
-## Start here (session handoff — updated 2026-07-09)
+## Historical handoff — 9 July 2026
 
 **The Surfacing had a feel-pass** on top of the 2026-07-08 build, after Robin reviewed it live against the two real images. Seven notes, all addressed — see the 2026-07-09 log entry for the full detail. Highlights: the reveal is now **fully autoplay** (no click required — supersedes the reveal spec's "advance is strictly user-initiated" line for this beat specifically, Robin's explicit call in this session); the persona image is now a **spotlight composite** (sharp glass, softly blurred/darkened surround) rather than shown flat/full; the white-to-image condense carries a seed-coloured ember on its collapsing edge; the keepsake got section labels ("The Pour" / "The Ritual" / "The Reading") and a numbered ritual list. `TheSurfacing.tsx` and the surfacing block in `index.css` are the files to read for current behaviour — the 2026-07-08 entry below describes the superseded first-pass version.
 
-## Start here (session handoff — updated 2026-07-08)
+## Historical handoff — 8 July 2026
 
 **THE WHOLE EXPERIENCE IS NOW FINALISED** — see `design-artifacts/2026-07-08-experience-master-spec.md`, the consolidated spec closing every open experience decision in one evening session (2026-07-07) with Robin: sharing (`/pour/:id`, persist-at-reveal, save·send, dynamic OG with inked name), **full responsive mobile journey** (per-hold adaptation + focal-map crops; velvet rope demoted to degrade state — the "desktop-first" constraint below is superseded for layout, though the no-drag lesson stands), resilience (silent LLM fallback — apology state deleted; poetic 404 incl. dead pour IDs; Still Water first-class), the Entrance side door ("taste one already poured" whisper), the "Water & Ink" sound arc (splash = loudest moment; unveiling silent but the nib), the Surfacing's final calls (whisper: **"meet the cocktail within"**; keepsake title warm ivory, seed colour in the name only), routes `/` + `/pour/:id` + poetic 404, and the Edward-lens craft floor gating "built" status. All 13 session decisions are in the spec's §10 table. **Next step: architecture** (BMAD create-architecture against the locked two-tier pipeline), then implementation plans per area — Surfacing beats 4–5 remain the next build item.
 
@@ -54,8 +54,8 @@ The three tracks can audit/prototype in parallel. Shared answer meanings require
 > Business-value items. Add links to detail files if needed.
 
 - [x] Complete product brief — Phase 1
-- [x] [Define trigger map — Phase 2](file:///Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/B-Trigger-Map/00-trigger-map.md)
-- [x] [Create user scenarios — Phase 3](file:///Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/C-UX-Scenarios/00-ux-scenarios.md)
+- [x] [Define trigger map — Phase 2](../B-Trigger-Map/00-trigger-map.md)
+- [x] [Create user scenarios — Phase 3](../C-UX-Scenarios/00-ux-scenarios.md)
 - [ ] UX Design (page specs + sketches) — Phase 4
 
 ---
@@ -64,9 +64,9 @@ The three tracks can audit/prototype in parallel. Shared answer meanings require
 
 | Task | Started | Agent |
 |------|---------|-------|
-| Experience evolution — H4 clarity, H5 concepts, typography/mobile and reading actions | in progress 2026-10-06 — EXP-01…07 built; P-H4, P-H5, P-TYPE awaiting Robin ([brief](../evolution/analysis/2026-10-06-experience-evolution-brief.md)) | WDS / Freya |
-| Pipeline spec refresh, then matching audit and authored-catalogue integration | pending; architecture finalized 2026-09-23 | BMAD spec / matching owner |
-| Cocktail decision pack, corpus/voice review, then images for settled pours | planned 2026-10-06 | Pour Studio / review owner |
+| Experience evolution — H4 clarity, H5 concepts, typography/mobile and reading actions | updated 2026-10-08 — H4/H5 built, Playfair retained; mobile/video/music follow-ups remain ([brief](../evolution/analysis/2026-10-06-experience-evolution-brief.md)) | WDS / Freya |
+| Normal journey matching integration | shared scaffold/catalogue/selection/reading built; App integration remains | BMAD spec / matching owner |
+| Tagline review and candidate image acceptance | collection revisions applied; remaining copy/image review in owner records | Pour Studio / review owner |
 
 **Rules:** Mark what you start. Complete it when done (move to Log). One task at a time per agent.
 
@@ -123,6 +123,55 @@ The three tracks can audit/prototype in parallel. Shared answer meanings require
 ---
 
 ## Log
+
+### 2026-10-08 — BMAD/WDS documents reconciled; Q12 labels settled
+
+The product brief, trigger map, scenarios, master experience specification and handoffs now describe the approved Suspended Pour, H4 v4, H5 world, current reading/privacy/mobile/print behavior and honest component-versus-integration status. Earlier full versions are preserved in the document-refresh archive; discovery/review/prototype records are explicitly historical.
+
+**Robin, this review:** keep **Knowledge, Influence, Making and Caring** as the four new drawnToward words replacing Mischief. This closes the copy question, not implementation. Ticket 1.9 retains the layout/calibration/coverage checks; current app/v1 still have nine words.
+
+No product source, pour copy, recipe, image or frozen implementation spec was changed by this document review. [Review and inventory](../../_bmad-output/document-review-2026-10-08.md).
+
+### 2026-10-08 — "Spirit Within" restored (user test)
+
+A user tester preferred "spirit within" to "cocktail within" for the double meaning: spirit as liquor, and spirit as the self. That reverses the 2026-09-29 swap. Robin asked for the phrase to change everywhere it is shown: the landing headline "Discover your **Spirit** Within" (`App.tsx`), the browser tab title and og/twitter titles (`index.html`), the share text "Meet the spirit within:" and the friend's-page door "Discover the spirit within you" (`TheReading.tsx`), the second-screen share (`VelvetRope.tsx`), and the 404 CTA (`NotFound.tsx`). The lede and the CTA still say "cocktail", and that is deliberate: the word next to the headline is what makes the pun land. Checked with `tsc -p tsconfig.app.json` and a landing screenshot at 1440 and 390 wide: no console errors, and the shorter word sits well in both. Further "spirit" ideas proposed but not built: an H8 echo line, "kindred spirit" for sharing, and "The Finish" as a label for the closing line.
+
+### 2026-10-08 — The score is in: "Glass Chords" cut into chapters
+
+**Robin:** generated two ElevenLabs takes from the "Missing Note" prompt and asked for my favourite to be integrated, "make sure that it's great".
+
+**Choice (by measurement; nobody had listened yet):**
+- **Glass Chords** follows the prompt's sections. The hush at 2:40, the rise at 2:55, the letting-go wash at 3:36 and the answer at 4:08 are all where they were asked for. It sits on one root, G♯.
+- **Resonant Crystals** is one static F drone for three minutes, then A major, then 47 s of digital silence where the answer should be.
+- Neither take kept D or the withheld third. The "missing note" idea only half survived: the answer is the chord blooming and fading, with its third faint on top.
+
+**How it plays** (`src/audio/score.ts`, `src/audio/cues.ts`, `src/audio/SoundToggle.tsx`):
+- **Re-sequenced, not linear.** `sound/src/cut_score.py` cuts the suite into eight cues. Six loop seamlessly by construction, with a correlation-adaptive seam crossfade; the letting-go and the answer play once.
+- **The stages drive it.** TheDepths reports each stage. A cue loops while she stays; a stage change crossfades forward (5 s into H5, matching the nightfall). Ascents open the low-pass as the camera moves.
+- **Chord-aware entries.** The first build crossfaded H4's G♯ into H5's B, and the two roots beat for 5 s (±3 dB at 3–10 Hz). A chapter now enters on the chord already sounding. Measured flutter: 0.7 dB step-to-step, the same as steady play.
+- **H9:** the cue starts on the release, so its wash lands on the crown (measured +1.39 s; the footage's impact is ~1.25 s and the crown peaks ~1.5 s). A gain swell makes it the loudest moment of the piece. The unveiling is then silent: −95 dB peak while the name inks.
+- **H10:** the answer blooms at +4.4 s, once the ink has finished, then the bed (`current`, low-passed to 5 kHz) rises under the letter. Going home hushes it.
+- **Ownership.** App isn't edited. The control mounts beside App in `main.tsx`, and the director finds the reading by its `.tr-root`.
+- **Sound is on by default.** This was Robin's open call, and the experience owner's recommendation was "on at the descent". The control shows "Sound on" on the landing, the door's tap unlocks audio, "off" is remembered and fetches nothing more, and a hidden tab fades and suspends.
+
+**Verified** (Chromium, no console errors):
+- full journeys at 1440×900 and 390×844, recorded off the master bus, with no clicks;
+- off from the landing, on mid-journey, tab hidden and back, the mark home mid-journey, and a reading opened without the journey (the friend's gift);
+- `npm run build` passes.
+
+The recordings for listening are `sound/score-glass-chords/journey-1440.webm` and `journey-390.webm`, with loop seam checks beside them. Not verified: Safari/iOS and a real phone speaker.
+
+### 2026-10-08 — The saved PDF had dark bands (fixed)
+
+**Robin:** "dark shadows on the pdf that shouldn't be there".
+
+**Cause:** reproduced by printing from a phone after scrolling to "Save the recipe". The reading's nav veil (`.tr-root::before`, a fixed dark gradient whose opacity follows scroll `--p`) printed as a black band across the top of both A4 sheets. The site mark printed inside it too, because the nav's `print:hidden` utility does not apply. A desktop print taken from the top of the page doesn't show it, which is why it slipped through.
+
+**Fix** (`index.css`, `@media print` only):
+- hide `.tr-root::before` and `.site-nav`;
+- strip any text-shadow and box-shadow from every element and pseudo-element in `.tr-root`.
+
+**Verified:** Chromium PDFs at 390×844 and 1440×900 (printed from the bottom), with background graphics on and off, render clean on both pages. Pages were rendered via PDFKit.
 
 ### 2026-10-06 (late) — H4 → H5 night slowed; H5 → H6 hand-over: "she becomes the drink"
 

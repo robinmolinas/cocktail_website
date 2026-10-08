@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 ## Cocktail
 
 - **name:** Built to Hold
-- **tagline:** They get the surprise. You built the room it happens in.
+- **tagline:** You build the kind of order that lets everyone else feel free.
 - **glassware:** glass punch cup with a handle (about 200 ml), no ice
 - **contains:** `[]`
 
@@ -192,7 +192,7 @@ Wren's title-block notes:
 
 **name (Wren's pick, held to the vote):** Built to Hold
 **alternates:** Four Trades · Give It the Evening · A Mind of Its Own
-**tagline:** They get the surprise. You built the room it happens in.
+**tagline:** You build the kind of order that lets everyone else feel free.
 **tagline alternates:** It all just works. That's never an accident. · You've already lived the whole evening once, in your head.
 **epigraph:** *From 1731, a London house made punch as quickly as wine is poured. Roughly like this.*
 

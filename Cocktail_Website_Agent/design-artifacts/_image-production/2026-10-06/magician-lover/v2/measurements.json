@@ -1,0 +1,128 @@
+{
+  "pairing": "magician-lover",
+  "pour": "Undimmed",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-lover/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-4e201bc6-3597-4ed3-9036-cf8f8a9d3fdb.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "b900321bfdebc22c0a862857330e9a4cf93b77aa8d16dcf9f4e1a39e559873ff",
+  "sourceSha256": "1b0c310e774d522dcf14f9fe2b7bd016e78c94b95c99b962d7b4dc02cf1d8c62",
+  "specSha256": "a51551b75bded2dc5fd993ef4f4853c06d367e275cf75958703693f1a2148b3c",
+  "roomSha256": "7edd0d4cc033e160b574af831d11e63ab7b7097d8cdd38fe093ab81455c69b34",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    670,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1116,
+    "cy": 622,
+    "w": 90,
+    "angle": 77
+  },
+  "glass": {
+    "x": 1084,
+    "y": 430
+  },
+  "bounds": {
+    "glass": {
+      "x0": 970,
+      "y0": 365,
+      "x1": 1198,
+      "y1": 726
+    },
+    "paper": {
+      "x0": 1085,
+      "y0": 566,
+      "x1": 1147,
+      "y1": 674
+    }
+  },
+  "personalityBounds": {
+    "leatherGloves": {
+      "x0": 706,
+      "y0": 496,
+      "x1": 1164,
+      "y1": 688
+    },
+    "dinnerNapkin": {
+      "x0": 996,
+      "y0": 535,
+      "x1": 1336,
+      "y1": 692
+    }
+  },
+  "recognitionRegions": {
+    "leatherGloves": {
+      "x0": 706,
+      "y0": 496,
+      "x1": 1164,
+      "y1": 688
+    },
+    "dinnerNapkin": {
+      "x0": 996,
+      "y0": 535,
+      "x1": 1336,
+      "y1": 692
+    }
+  },
+  "supportingBounds": {
+    "floatingLemonZest": {
+      "x0": 1030,
+      "y0": 404,
+      "x1": 1136,
+      "y1": 445
+    },
+    "tagAttachment": {
+      "x0": 1060,
+      "y0": 534,
+      "x1": 1113,
+      "y1": 592
+    }
+  },
+  "tagPhysics": {
+    "knotPoint": {"x": 1088, "y": 550},
+    "holePoint": {"x": 1107, "y": 585},
+    "anchor": "Visible twine wraps narrow stem below bowl, not rim",
+    "knot": "Visible front crossing/knot; knot's load-bearing structure partly occluded",
+    "tether": "Short cord descends continuously toward paper hole; visible front chain",
+    "hole": "Dark punched hole with cord entering",
+    "gravity": "Paper's upper hole is below stem anchor, body hangs downward",
+    "airGap": "Visible separation from glass; small label beside stem",
+    "contact": "Paper lower edge above table, appears freely hanging",
+    "occlusion": "Rear stem loop hidden; cannot certify complete wrap or knot load",
+    "uncertainties": [
+      "Rear loop/load-bearing knot not fully visible",
+      "Two-dimensional image cannot establish tension"
+    ],
+    "status": "visible plausible chain; uncertainty held; not physics PASS",
+    "supportRegion": {
+      "x0": 1060,
+      "y0": 534,
+      "x1": 1113,
+      "y1": 592
+    }
+  },
+  "measurementMethod": "Manual original-size pixel inspection; conservative visible whole-object rectangles, approximate axis angle; IHDR native dimensions. No export/browser or phone PASS.",
+  "review": {
+    "recipe": "Small frozen stemmed glass with colourless still no-ice liquid and yellow floating zest. Frost dominates clarity; coarse grated-strand appearance watch. No change to freezer-poured source method.",
+    "personality": "Actual recognizable glove pair and dinner napkin. Dinner and leaving early are source habits; specific belongings inferred, not explicit props. Complete conservative regions retained, not anonymous strips.",
+    "world": "Dark private timber reading-room composition; practical and neutral dark background, but varnish-like fine crackle/gloss and amber reflection remain held.",
+    "issues": [
+      "361px glass, still near upper target; conservative whole recognizable group630px exceeds389 moving-phone aim",
+      "Dense mottled frost obscures liquid; floating lemon strands coarser than fine grater zest",
+      "Table retains glossy crackle-like wear and broad amber reflection; background window competes",
+      "Gloves and napkin are inferred belongings, emotionally nonspecific; no phone acceptance"
+    ]
+  },
+  "status": "measured-master candidate, held, not accepted, browser deferred"
+}

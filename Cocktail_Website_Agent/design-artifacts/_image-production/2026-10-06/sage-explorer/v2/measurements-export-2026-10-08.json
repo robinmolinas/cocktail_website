@@ -1,0 +1,157 @@
+{
+  "pairing": "sage-explorer",
+  "pour": "Look Again",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-explorer/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-ccdefe5c-d4e4-4204-ab9d-1ecb11f14568.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "b825a4d706991cde535f6921a7407b66874d243618fc839e68511b4ab3ec07b0",
+  "sourceSha256": "1c7f9612f83dcf1d841ac7b6fddb8b51b7ac690e5e91eed39d5a83d2eb7478d3",
+  "specSha256": "d376af4449ae4e842ba360c96a4cf686b6a531d1cd5f7a6f2646cc256cdd306d",
+  "roomSha256": "0e44ecdf889fd9a93cc38b0696b120bfed38e61b535ab18c93d273d497c71852",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    813,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1353,
+    "cy": 631,
+    "w": 95,
+    "angle": 13
+  },
+  "glass": {
+    "x": 1148,
+    "y": 501
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1019,
+      "y0": 355,
+      "x1": 1278,
+      "y1": 648
+    },
+    "paper": {
+      "x0": 1287,
+      "y0": 605,
+      "x1": 1415,
+      "y1": 656
+    },
+    "lemonGarnish": {
+      "x0": 1063,
+      "y0": 425,
+      "x1": 1161,
+      "y1": 579
+    },
+    "book": {
+      "x0": 758,
+      "y0": 397,
+      "x1": 1324,
+      "y1": 550
+    },
+    "plate": {
+      "x0": 1267,
+      "y0": 445,
+      "x1": 1623,
+      "y1": 569
+    },
+    "linen": {
+      "x0": 1300,
+      "y0": 398,
+      "x1": 1657,
+      "y1": 578
+    }
+  },
+  "recognitionRegions": {
+    "book": {
+      "bounds": {
+        "x0": 760,
+        "y0": 401,
+        "x1": 1015,
+        "y1": 544
+      },
+      "reason": "Face-down green boards/spine/page edge recognize book; rear/right partly occluded by glass."
+    },
+    "plate": {
+      "bounds": {
+        "x0": 1268,
+        "y0": 450,
+        "x1": 1572,
+        "y1": 548
+      },
+      "reason": "Ceramic ellipse/edge/crumbs recognize used plate, far edge under linen."
+    },
+    "linen": {
+      "bounds": {
+        "x0": 1320,
+        "y0": 402,
+        "x1": 1638,
+        "y1": 569
+      },
+      "reason": "Distinct used cloth folds on plate; not all cloth required but still spread."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Snug external lower-body loop~572\u2013605, visible curved front arc and side occlusion, small right knot~1269/581.",
+    "loopBounds": {
+      "x0": 1026,
+      "y0": 570,
+      "x1": 1279,
+      "y1": 608
+    },
+    "knot": {
+      "x": 1269,
+      "y": 581
+    },
+    "paperHole": {
+      "x": 1308,
+      "y": 618
+    },
+    "gravity": "Continuous short down-right tether through punched hole, paper below knot lies/slopes on wood, lower edge~654 contact shadow.",
+    "paperSeparationOrContact": "Outboard paper separate from glass, no adhesive face, real wood-supported edge.",
+    "uncertainty": "Far-side closure/friction/knot load and paper local gap not provable; no mechanical PASS."
+  },
+  "objectVisibility": {
+    "book": "Right/rear board partly occluded byglass; visible bbox only.",
+    "plate": "Rear under linen; originalv1rightclipped/unknownunseenextent;v2visible.",
+    "linen": "v1rightclippedunknownextent,v2visible."
+  },
+  "review": {
+    "issues": [
+      "Glass293px improves from415px; overall depth overlap still insufficient.",
+      "Full visible group899px, recognition878px, proposed702portrait clips book/linen; movingphone fails geometry.",
+      "Sourceauthor pale gold unsourced estimate; actual quite amber/saturated, tiny bubble-like glass speckle despite noncarbonated recipe.",
+      "Glossy patterned amber timber/etchedice/dense glass speckle and second blurred warm light left held.",
+      "Personality book/supper directly/inferred grounded but may read generic late-reading scene; no final acceptance.",
+      "95px writable axis, actual glyph name fit untested."
+    ],
+    "scope": "Original-size PNG only/manual source-pixel measurements; no export/name/phone/material/final acceptance.",
+    "recipe": "Current candidate root original review preserved in version folder; recipe gate remains HELD. This field records review provenance, not acceptance.",
+    "personality": "Current candidate root original review preserved in version folder; personality gate remains HELD. This field records review provenance, not acceptance.",
+    "world": "Current candidate root original review preserved in version folder; world gate remains HELD. This field records review provenance, not acceptance.",
+    "correctionScope": "Read correctionReview and current version root review; inherited background review never clears current corrections/holds."
+  },
+  "exported": false,
+  "accepted": false,
+  "integrated": false,
+  "correctionReview": {
+    "issues": [
+      "Glass293px improves from415px; overall depth overlap still insufficient.",
+      "Full visible group899px, recognition878px, proposed702portrait clips book/linen; movingphone fails geometry.",
+      "Sourceauthor pale gold unsourced estimate; actual quite amber/saturated, tiny bubble-like glass speckle despite noncarbonated recipe.",
+      "Glossy patterned amber timber/etchedice/dense glass speckle and second blurred warm light left held.",
+      "Personality book/supper directly/inferred grounded but may read generic late-reading scene; no final acceptance.",
+      "95px writable axis, actual glyph name fit untested."
+    ],
+    "scope": "Original-size PNG only/manual source-pixel measurements; no export/name/phone/material/final acceptance."
+  }
+}

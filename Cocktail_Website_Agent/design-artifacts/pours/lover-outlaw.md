@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 ## Cocktail
 
 - **name:** Accomplices
-- **tagline:** You don't get people into trouble. You get them to drop the act.
+- **tagline:** Around you, people drop the act and like who they find underneath.
 - **glassware:** coupe (about 180 ml), chilled
 - **contains:** `[]`
 
@@ -195,7 +195,7 @@ _(none on the card)_
 Wren's title-block notes:
 
 - **name (held for the vote; my pick):** Accomplices
-- **tagline:** You don't get people into trouble. You get them to drop the act.
+- **tagline:** Around you, people drop the act and like who they find underneath.
 - **epigraph:** *A New York bar put curaçao in its Manhattan. This one adds beetroot. It stains.*
 
 ### Open items

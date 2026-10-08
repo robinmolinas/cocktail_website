@@ -1,0 +1,71 @@
+{
+  "callsUsed": 2,
+  "revisionTotalCalls": 6,
+  "generationStopped": true,
+  "exports": 0,
+  "publicWrites": 0,
+  "sharedWrites": 0,
+  "geometryChecksAreNotAcceptance": true,
+  "assets": [
+    {
+      "pairing": "magician-jester",
+      "orientation": "wide",
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v3/wide-master.png",
+      "original": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-c17fbbf1-f82c-4aba-8505-2cc1730333ca.png",
+      "native": [
+        1672,
+        941
+      ],
+      "sha": "f71ff5785192291eea17429f0f8cf175957cde8c8c4c621051df39f1d6e17c17",
+      "originalMatchesMaster": true,
+      "recordedHashMatches": true,
+      "dimensionsMatch": true,
+      "currentSourceMatches": true,
+      "currentSpecMatches": true,
+      "currentRoomMatches": true,
+      "allRecordedBoxesInRaster": true,
+      "axisEndpointsInPaperBounds": true,
+      "tagAxisEndpoints": [
+        {
+          "x": 1046.0202388407477,
+          "y": 561.0489151647773
+        },
+        {
+          "x": 1065.9797611592523,
+          "y": 654.9510848352227
+        }
+      ],
+      "notAcceptance": true
+    },
+    {
+      "pairing": "magician-jester",
+      "orientation": "portrait",
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v3/portrait-master.png",
+      "original": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-8dabc4de-77ba-442c-9231-2d5c8858a529.png",
+      "native": [
+        1084,
+        1451
+      ],
+      "sha": "7240f3b9db5b277c8763189a32998a1c701128221051360022e62ce961950c27",
+      "originalMatchesMaster": true,
+      "recordedHashMatches": true,
+      "dimensionsMatch": true,
+      "currentSourceMatches": true,
+      "currentSpecMatches": true,
+      "currentRoomMatches": true,
+      "allRecordedBoxesInRaster": true,
+      "axisEndpointsInPaperBounds": true,
+      "tagAxisEndpoints": [
+        {
+          "x": 569.5520557175577,
+          "y": 843.0764572790201
+        },
+        {
+          "x": 588.4479442824423,
+          "y": 924.9235427209799
+        }
+      ],
+      "notAcceptance": true
+    }
+  ]
+}

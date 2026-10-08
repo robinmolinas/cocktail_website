@@ -1,0 +1,100 @@
+{
+  "pairing": "ruler-jester",
+  "pour": "Who's In?",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v6/portrait-master.png",
+  "generated": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-ad8764e5-5c34-4b45-8a43-c76ae6b3eda6.png",
+  "tag": {
+    "cx": 694,
+    "cy": 1089,
+    "w": 91,
+    "angle": 20
+  },
+  "glass": {
+    "x": 598,
+    "y": 868
+  },
+  "bounds": {
+    "glass": {
+      "x0": 459,
+      "y0": 439,
+      "x1": 749,
+      "y1": 1126
+    },
+    "paper": {
+      "x0": 634,
+      "y0": 1019,
+      "x1": 755,
+      "y1": 1138
+    }
+  },
+  "personalityBounds": {
+    "phone": {
+      "x0": 239,
+      "y0": 827,
+      "x1": 477,
+      "y1": 975
+    },
+    "gloves": {
+      "x0": 121,
+      "y0": 842,
+      "x1": 479,
+      "y1": 1026
+    }
+  },
+  "kind": "portrait",
+  "masterSha256": "54d94ecaa8cf44f5e7085bdae50a86296629e6dc644f621506bde28699a39725",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-ad8764e5-5c34-4b45-8a43-c76ae6b3eda6.png",
+  "generatedSha256": "54d94ecaa8cf44f5e7085bdae50a86296629e6dc644f621506bde28699a39725",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "sourceSha256": "b30d4397433966f08272443476b0d53379352b35a6aee6f7d98fc39760c44a80",
+  "specSha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683",
+  "roomSha256": "c82c3ded462b4bef619578db493c7edefc8c7ff89cdceffe3f555f26d072ce11",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "review": {
+    "recipe": "One raspberry-red mint crushed-ice highball; two raspberries, one sprig/straw. Internal six-leaf count cannot be optically certified. Geometry more irregular than v4.",
+    "personality": "Phone and used gloves are ordinary inferred cold-outing traces, not claimed historical possessions.",
+    "world": "Same dark timber reading-room grammar. Wood directional grain improved; warm sheen and dense wet detail remain watched.",
+    "issues": [
+      "Wide straw extends above ultrawide safe height; first-frame/body protection requires recomposition or browser evidence.",
+      "Portrait full glove/phone silhouette spread exceeds conservative tall-phone lane; recognisable retained parts need actual phone inspection.",
+      "Tag face wider relative to body than quarter-width brief; no physical-scale/glyph approval.",
+      "Dense glass/ice sparkle persists; improved geometry is not final material acceptance."
+    ]
+  },
+  "measurementMethod": "Conservative manual native-pixel estimates from root original-resolution inspection; not font/glyph or mechanical load tests.",
+  "wideCrop": null,
+  "portraitCrop": [
+    10,
+    13,
+    1064,
+    1425
+  ],
+  "tagPhysics": {
+    "frontEvidence": "Low exterior/body or lower handle attachment, small knot, short continuous-looking punched-hole tether, free paper with timber contact.",
+    "status": "Hidden rear closure/friction/load uncertain; no physics PASS"
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "exported": false,
+  "exportProvenance": {
+    "batch": 14,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v6/portrait-measurements.json",
+    "originalMeasurementSha256": "be29946861827219e0888410952200f28d2629fa7c8d284197538de8c93b6ed6",
+    "previousSourceSha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8",
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {},
+  "recognitionRegions": {}
+}

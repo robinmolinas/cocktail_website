@@ -1,0 +1,96 @@
+{
+  "pairing": "innocent-ruler",
+  "pour": "Whole World",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-ruler/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-967b88ef-d7ce-48a0-9913-18bbbdab161c.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "b37a536c2dacada84c3451c4bc378e3694cee4f7616b12e5141eace9013b7c1b",
+  "specSha256": "9de665be53d17d2ff19977f1ca7efa9c6b73afeb482baf5e72414e62d62e78a4",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    773,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1249,
+    "cy": 605,
+    "w": 156,
+    "angle": 14.7
+  },
+  "glass": {
+    "x": 1106,
+    "y": 397
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1008,
+      "y0": 330,
+      "x1": 1204,
+      "y1": 665
+    },
+    "paper": {
+      "x0": 1134,
+      "y0": 543,
+      "x1": 1341,
+      "y1": 668
+    }
+  },
+  "personalityBounds": {
+    "patchedTube": {
+      "x0": 907,
+      "y0": 527,
+      "x1": 1107,
+      "y1": 634
+    },
+    "bicycleBell": {
+      "x0": 942,
+      "y0": 461,
+      "x1": 1085,
+      "y1": 550
+    }
+  },
+  "recognitionRegions": {
+    "patchedTube": {
+      "x0": 907,
+      "y0": 527,
+      "x1": 1107,
+      "y1": 634
+    },
+    "bicycleBell": {
+      "x0": 942,
+      "y0": 461,
+      "x1": 1085,
+      "y1": 548
+    }
+  },
+  "review": {
+    "recipe": "No serving ice/olive/foam, thin lemon peel dropped inside, roughly three-quarter fill. Target120ml small wine glass/87ml transparent thrown dry Martini; cold mist and shallow bowl remain noted appearance concerns, not recipe alterations.",
+    "personality": "Rolled patched old inner tube and plain used bicycle bell plausibly derive from whoYouAre's old bike kept running and daily small jobs. Full props and recognition core bounds separately measured.",
+    "world": "Historic dark walnut room; flat satin material better than raised alligator grain but warm table sheen/blue exterior window and mottled bell remain watch/holds.",
+    "issues": [
+      "Full and recognisable trace/glass/paper union434px exceeds350px intent and389px max-breathing phone window; full portrait is not phone retention. Tube recognition retains rolled silhouette plus patch, not an anonymous patch alone.",
+      "Usable hanging tag156px, below170\u2013200px intent; browser/name readability unresolved.",
+      "Cold mist much improved but lower bowl still reads hazier than transparent source drink; broad shallow round bowl approaches coupe silhouette rather than unambiguous wine glass.",
+      "Warm satin-gloss table reflection and repeated fine grain persist; blue window competes with warm practical; bell uniformly mottled patina."
+    ]
+  },
+  "status": "measured-master-candidate;held;not-accepted;browser-deferred",
+  "sourceRefresh": {
+    "previousSourceSha256": "7a265fefc7b90014c49661c0371c85827ccadc2cb95b4c243dd3024e6966c492",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** It looks small to everyone else. It's never been small to you.",
+      "+ - **tagline:** You look after a little world as if it were the whole one."
+    ]
+  }
+}

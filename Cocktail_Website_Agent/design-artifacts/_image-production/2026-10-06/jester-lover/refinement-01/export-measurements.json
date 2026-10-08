@@ -1,0 +1,171 @@
+{
+  "pairing": "jester-lover",
+  "pour": "I'll Tell You Later",
+  "asset": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v4/wide-master.png",
+  "masterSha256": "50810efb38b3cdaec3c56d36c9334326cf457a27384e0e15742891249984e8aa",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-aec976d2-d138-4809-b007-5282a2648a30.png",
+  "sourceSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+  "specSha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+  "roomSha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "designSha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+  "tag": {
+    "cx": 1260,
+    "cy": 730,
+    "w": 75,
+    "angle": 104
+  },
+  "glass": {
+    "x": 1190,
+    "y": 645
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1063,
+      "y0": 546,
+      "x1": 1314,
+      "y1": 737
+    },
+    "paper": {
+      "x0": 1225,
+      "y0": 680,
+      "x1": 1297,
+      "y1": 771
+    },
+    "rearCup": {
+      "x0": 857,
+      "y0": 427,
+      "x1": 1067,
+      "y1": 570
+    },
+    "frontSaucer": {
+      "x0": 978,
+      "y0": 628,
+      "x1": 1339,
+      "y1": 778
+    },
+    "rearSaucer": {
+      "x0": 750,
+      "y0": 503,
+      "x1": 1082,
+      "y1": 606
+    },
+    "usedOrangeSpiral": {
+      "x0": 800,
+      "y0": 487,
+      "x1": 951,
+      "y1": 576
+    },
+    "fork": {
+      "x0": 751,
+      "y0": 519,
+      "x1": 1039,
+      "y1": 606
+    },
+    "rearSteam": {
+      "x0": 900,
+      "y0": 265,
+      "x1": 986,
+      "y1": 426
+    },
+    "frontSteam": {
+      "x0": 1110,
+      "y0": 485,
+      "x1": 1188,
+      "y1": 548
+    },
+    "tagCord": {
+      "x0": 1272,
+      "y0": 630,
+      "x1": 1286,
+      "y1": 702
+    },
+    "wrappedPresent": {
+      "x0": 1048,
+      "y0": 350,
+      "x1": 1368,
+      "y1": 540
+    },
+    "openDecoy": {
+      "x0": 1290,
+      "y0": 352,
+      "x1": 1615,
+      "y1": 600
+    },
+    "frontCup": {
+      "x0": 1063,
+      "y0": 546,
+      "x1": 1314,
+      "y1": 737
+    }
+  },
+  "unknownExtents": null,
+  "review": {
+    "recipe": "Two finished dark hot coffees/two demitasses/two existing saucers, no foam/cream/ice/flame. One used orange spiral with six mapped clove heads and fork on rear saucer, not drink garnish.",
+    "personality": "Both presents fully visible; explicit present/decoy habit, concrete box/wrapping inferred. Still broad lateral layout865px.",
+    "world": "Flat long-grain structure better than alligator, but strong amber sheen and fine raised/sparkly wear remain watch/hold. One camera-right practical; books now dense ornamental background.",
+    "issues": [
+      "wide-personality-union865",
+      "front-saucer-below80percent",
+      "warm-reflective-timber-fine-relief",
+      "rear-tag-load-contact-uncertain",
+      "name-phone-browser-unchecked"
+    ],
+    "rootFindings": "Two finished coffees and six mapped clove heads on the used preparation spiral retained. Both wrapped gift and open decoy now fit in wide/portrait masters. The portrait group remains too spread out for assumed tall-phone safety."
+  },
+  "tagPhysics": {
+    "mechanism": "Thin taupe low front-cup handle loop and short punched-hole tether",
+    "anchorBounds": {
+      "x0": 1272,
+      "y0": 630,
+      "x1": 1286,
+      "y1": 681
+    },
+    "knotPoint": {
+      "x": 1282,
+      "y": 677
+    },
+    "holePoint": {
+      "x": 1276,
+      "y": 694
+    },
+    "knot": "Small dark gathering visible; rear route unknown",
+    "tether": "~18px downward frontchain; short doubled tail/strand visible",
+    "hole": "Dark punched circle near paper top",
+    "gravity": "Paper below handle attachment, loose outside china",
+    "airGap": "Outside bowl, not stuck to front cup",
+    "contact": "Lower paper edge near tabletop shadow; contact not conclusively proven",
+    "occlusion": "Rear handle loop/load occluded",
+    "uncertainties": [
+      "Rear support/load unknown",
+      "Doubled front strand",
+      "Woodcontact uncertain"
+    ],
+    "status": "held"
+  },
+  "wideCrop": [
+    4,
+    2,
+    1664,
+    936
+  ],
+  "portraitCrop": null,
+  "measurementMethod": "Copied native-specific manual measured coordinates; root viewed actual full-size image. Exact aspect-ratio crop proposes only conversion, not composition or name acceptance.",
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "rootOriginalInspected": true,
+  "exported": false,
+  "portraitMeasurementFile": "portrait-export-measurements.json"
+}

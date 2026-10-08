@@ -1,0 +1,356 @@
+{
+  "pairing": "outlaw-hero",
+  "pour": "Can't Watch",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "d7e7faacfb07e0217c832b1917aa2f5125f74062cd54362901b63d6885584f41",
+  "review": {
+    "recipe": "One small rounded stemmed Nick & Nora-style glass, almost full with transparent reddish amber, orange peel genuinely dropped inside, no ice/foam/carbonation/rim. Source150ml glass/133.2ml finished serve. Colour reads deeper orange-red than light reddish amber estimate, held/watch; no recipe reinterpretation. Smooth glass areas broadly clear; sparse fine rim chill only.",
+    "personality": "Whole folded newspaper and whole sharpened wooden pencil are recognizable, conservative bounds retained. Newspaper derives from source brief, pencil is plausible inferred habit of working out unfair rule/who it serves and workaround by Friday. No claim these are Solarin artefacts. Generic reading/writing portrait may not distinguish Maverick without prose; honest specificity risk.",
+    "world": "Historic walnut reading room with plain glass/cream hanging tag. Mostly flat timber but golden glossy repetitive fine grain and large warm reflection remain material holds; bright right window competes with practical and old daylight brief was meant to be overridden.",
+    "issues": [
+      "Glass346px high above280–330px intent; complete recognizable glass/paper/newspaper/pencil union523px exceeds350–380px intent and~389px max breathing phone. Full702portrait retains scene but is NOT phone retention.",
+      "Usable tag130px at34.3deg below170–200px intention; paper physically tied by visible cord/hole, hangs with gap; name/browser untested.",
+      "Newspaper retains generated fine grey print columns despite inward-fold instruction; pseudo-writing risk is not waived merely because no readable headline.",
+      "Drink is clear with correct orange peel inside, but deeper warm red/orange colour and broad bowl need final serving/material comparison; no volume claim from pixels.",
+      "Warm glossy repetitive fine timber/light reflects advertising-like wash; source/source-control recipe safe, material and phone acceptance held."
+    ]
+  },
+  "measurements": {
+    "pairing": "outlaw-hero",
+    "pour": "Can't Watch",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-hero/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-4e1d9674-6f6c-4c22-9053-15cc35566067.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "d7e7faacfb07e0217c832b1917aa2f5125f74062cd54362901b63d6885584f41",
+    "specSha256": "bccea97bc7f179a483d516d721ee4ad64f873effab06bd32462cbdf2279d5c32",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      675,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1206,
+      "cy": 612,
+      "w": 130,
+      "angle": 34.3
+    },
+    "glass": {
+      "x": 1025,
+      "y": 402
+    },
+    "bounds": {
+      "glass": {
+        "x0": 915,
+        "y0": 342,
+        "x1": 1135,
+        "y1": 688
+      },
+      "paper": {
+        "x0": 1095,
+        "y0": 533,
+        "x1": 1284,
+        "y1": 685
+      }
+    },
+    "personalityBounds": {
+      "foldedNewspaper": {
+        "x0": 761,
+        "y0": 510,
+        "x1": 1181,
+        "y1": 640
+      },
+      "pencil": {
+        "x0": 803,
+        "y0": 534,
+        "x1": 1053,
+        "y1": 628
+      }
+    },
+    "recognitionRegions": {
+      "foldedNewspaper": {
+        "x0": 761,
+        "y0": 510,
+        "x1": 1181,
+        "y1": 640
+      },
+      "pencil": {
+        "x0": 803,
+        "y0": 534,
+        "x1": 1053,
+        "y1": 628
+      }
+    },
+    "review": {
+      "recipe": "One small rounded stemmed Nick & Nora-style glass, almost full with transparent reddish amber, orange peel genuinely dropped inside, no ice/foam/carbonation/rim. Source150ml glass/133.2ml finished serve. Colour reads deeper orange-red than light reddish amber estimate, held/watch; no recipe reinterpretation. Smooth glass areas broadly clear; sparse fine rim chill only.",
+      "personality": "Whole folded newspaper and whole sharpened wooden pencil are recognizable, conservative bounds retained. Newspaper derives from source brief, pencil is plausible inferred habit of working out unfair rule/who it serves and workaround by Friday. No claim these are Solarin artefacts. Generic reading/writing portrait may not distinguish Maverick without prose; honest specificity risk.",
+      "world": "Historic walnut reading room with plain glass/cream hanging tag. Mostly flat timber but golden glossy repetitive fine grain and large warm reflection remain material holds; bright right window competes with practical and old daylight brief was meant to be overridden.",
+      "issues": [
+        "Glass346px high above280–330px intent; complete recognizable glass/paper/newspaper/pencil union523px exceeds350–380px intent and~389px max breathing phone. Full702portrait retains scene but is NOT phone retention.",
+        "Usable tag130px at34.3deg below170–200px intention; paper physically tied by visible cord/hole, hangs with gap; name/browser untested.",
+        "Newspaper retains generated fine grey print columns despite inward-fold instruction; pseudo-writing risk is not waived merely because no readable headline.",
+        "Drink is clear with correct orange peel inside, but deeper warm red/orange colour and broad bowl need final serving/material comparison; no volume claim from pixels.",
+        "Warm glossy repetitive fine timber/light reflects advertising-like wash; source/source-control recipe safe, material and phone acceptance held."
+      ]
+    },
+    "status": "measured-master-candidate;held;not-accepted;browser-deferred",
+    "sourceRefresh": {
+      "previousSourceSha256": "ce20e7665e5cb1945c287bed88cd33c8be84b5465a20e9973172742362761bc4",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** It's rarely your fight. That's never once stopped you.",
+        "+ - **tagline:** You can't walk past an unfair fight, even when it isn't yours."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1384.8803827751196,
+        "cy": 703.1489361702128,
+        "w": 149.2822966507177,
+        "angle": 34.31418525485782
+      },
+      "glass": {
+        "x": 1177.0334928229665,
+        "y": 461.87234042553195
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 677.7435897435897,
+        "cy": 781.2765957446809,
+        "w": 165.92592592592592,
+        "angle": 34.30506671263432
+      },
+      "glass": {
+        "x": 446.72364672364677,
+        "y": 513.1914893617021
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/outlaw-hero/portrait.jpg",
+    "wide": "/personas/outlaw-hero/wide.jpg",
+    "wideTag": {
+      "cx": 0.7212918660287081,
+      "cy": 0.6510638297872341,
+      "w": 0.07775119617224881,
+      "angle": 34.31418525485782
+    },
+    "wideGlass": {
+      "x": 0.6130382775119617,
+      "y": 0.4276595744680851
+    },
+    "tag": {
+      "cx": 0.7564102564102564,
+      "cy": 0.6510638297872341,
+      "w": 0.18518518518518517,
+      "angle": 34.30506671263432
+    },
+    "glass": {
+      "x": 0.4985754985754986,
+      "y": 0.4276595744680851
+    }
+  },
+  "hashes": {
+    "master": "f1372d3324309922d4b835a8c880fbef7a53ba9af1af61e25a50b9664d16316a",
+    "wide": "55dcd2b9419b06fe39f050cc297def0b419d46c1be102d8b5060da6542410251",
+    "portrait": "4d240f85c4b0e7dd4fb6f7d8728f1a18e7d122cfae3f15edc8461d0203e6eee2"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1050.7177033492824,
+          "y0": 392.936170212766,
+          "x1": 1303.3492822966507,
+          "y1": 790.4680851063829
+        },
+        "paper": {
+          "x0": 1257.4162679425835,
+          "y0": 612.3829787234042,
+          "x1": 1474.44976076555,
+          "y1": 787.0212765957447
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 795.5980861244019,
+          "y0": 327.44680851063833,
+          "x1": 1006.1244019138755,
+          "y1": 658.7234042553191
+        },
+        "paper": {
+          "x0": 967.8468899521531,
+          "y0": 510.31914893617017,
+          "x1": 1148.7081339712918,
+          "y1": 655.8510638297872
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1120.7655502392345,
+          "y0": 365.771914893617,
+          "x1": 1390.2392344497607,
+          "y1": 789.8059574468084
+        },
+        "paper": {
+          "x0": 1341.244019138756,
+          "y0": 599.8485106382979,
+          "x1": 1572.7464114832535,
+          "y1": 786.1293617021277
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1882.5358851674641,
+          "y0": 476.3106382978723,
+          "x1": 2335.1674641148325,
+          "y1": 1188.555319148936
+        },
+        "paper": {
+          "x0": 2252.870813397129,
+          "y0": 869.4861702127657,
+          "x1": 2641.7224880382773,
+          "y1": 1182.3797872340424
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6562979158027453,
+        "y": 0.4276595744680851
+      },
+      "bounds": {
+        "glass": {
+          "x0": 57.81442431149097,
+          "y0": 307.07234042553193,
+          "x1": 255.30882127255464,
+          "y1": 617.736170212766
+        },
+        "paper": {
+          "x0": 219.40074909781575,
+          "y0": 478.56595744680845,
+          "x1": 389.0663901234568,
+          "y1": 615.0425531914893
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6571555859571103,
+        "y": 0.4276595744680851
+      },
+      "bounds": {
+        "glass": {
+          "x0": 63.17896144349481,
+          "y0": 339.0893617021277,
+          "x1": 281.265191263058,
+          "y1": 682.1446808510636
+        },
+        "paper": {
+          "x0": 241.6131494776828,
+          "y0": 528.463829787234,
+          "x1": 428.9690469135803,
+          "y1": 679.1702127659573
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4985754985754986,
+        "y": 0.4276595744680851
+      },
+      "bounds": {
+        "glass": {
+          "x0": 93.08869895536562,
+          "y0": 206.65531914893617,
+          "x1": 225.9996201329535,
+          "y1": 415.7276595744681
+        },
+        "paper": {
+          "x0": 201.83399810066476,
+          "y0": 322.06808510638297,
+          "x1": 316.0165622032289,
+          "y1": 413.9148936170213
+        }
+      }
+    }
+  ]
+}

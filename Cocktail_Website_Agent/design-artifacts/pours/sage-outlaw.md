@@ -13,7 +13,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 ## Cocktail
 
 - **name:** On the Record
-- **tagline:** You don't like being the only one. You like pretending even less.
+- **tagline:** You say what you've found, and give the next person courage to say it too.
 - **glassware:** small stemmed port glass (about 150 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -187,7 +187,7 @@ Wren's title-block notes:
 
 **name:** On the Record *(the room's pick, 2–1; I voted The Second Time)*
 
-**tagline:** You don't like being the only one. You like pretending even less.
+**tagline:** You say what you've found, and give the next person courage to say it too.
 
 **epigraph**
 *Port goes in twice here: once in short, then again at greater length.*

@@ -1,3 +1,5 @@
+> **Dated analysis — reviewed 8 October 2026.** Preserve the measurements/proposals at their recorded date. H4 v4 and H5 world are built, Playfair is retained and icons are built. Open follow-ups are reconciled in the current evolution brief; earlier questions are not renewed approval requests. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # Dionysus experience: mobile interaction audit (2026-10-06)
 
 Read-only audit of the committed app at `c6a48cd` (branch `experience-revamp-2026-09`). It ran against a frozen git worktree served on :5181, not the live :5180 dev server. No app source was changed. Screenshots are in `2026-10-06-audit-shots/`. Names follow `<hold>-<viewport>.png`. `390rm` means the 390 reduced-motion run.

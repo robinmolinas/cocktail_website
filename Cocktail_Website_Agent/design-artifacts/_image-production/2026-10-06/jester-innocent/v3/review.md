@@ -1,0 +1,5 @@
+# Native review — Off the Tour v3
+
+Both exact originals viewed at original resolution. Fresh wide improves ordinary angular ice/torn sachet recognition but pulled-back glass target missed (464px); full chair makes full737/recognition708px union. Entire swizzle is measured, including top222, never omitted for crop claim. Native portrait1084×1451 is genuinely dedicated, not export: whole Collins/ice/stick/paper visible; physical601px high, chair still broad. Native aspect is approximately requested portrait, not exact output JPEG.
+
+Wide loop is upper body, not low clear foot; free vertical small label but air gap uncertain. Portrait adds low attachment with interrupted center arc AND retains upper line; this is a physics hold, not PASS. Paper bottom contact/shadow uncertain. Frost hides fine interior ice/prongs; no claim every chip proved angular. Table long grain present, but amber reflection and dense frost/contact texture remain; natural reflection alone is not forbidden. Recognition/name/moving-phone/copy checks unperformed. No extra call, no export, no public change.

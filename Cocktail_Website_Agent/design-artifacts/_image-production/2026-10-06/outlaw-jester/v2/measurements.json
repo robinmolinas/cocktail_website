@@ -1,0 +1,124 @@
+{
+  "pairing": "outlaw-jester",
+  "pour": "With the Bite In",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-jester/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-aa143755-d179-4610-a887-9781f9165dc1.png",
+  "sourceSha256": "62ee64561f5bc2a162c4cd7f95021fc3e16fafe0c0eef31c173bff39eb6309bf",
+  "specSha256": "d654765ae71d8ba949cd1244345e56eeba5c57278b5262f3d6a0d23be2d69b49",
+  "roomSha256": "df8d83a85dd697552fdefc77338c3b9344814f86b47c66f1798ba9cdd1bffba7",
+  "masterSha256": "a8b127a1c52e892e5276041149637a2a0db4a0c5baeeb8acac93b28e170f4796",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    866,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1093,
+    "cy": 630,
+    "w": 126,
+    "angle": 73
+  },
+  "glass": {
+    "x": 991,
+    "y": 444
+  },
+  "bounds": {
+    "glass": {
+      "x0": 875,
+      "y0": 201,
+      "x1": 1103,
+      "y1": 690
+    },
+    "paper": {
+      "x0": 1049,
+      "y0": 550,
+      "x1": 1138,
+      "y1": 709
+    },
+    "garnish": {
+      "x0": 896,
+      "y0": 287,
+      "x1": 1019,
+      "y1": 414
+    },
+    "bittersFizz": {
+      "x0": 954,
+      "y0": 258,
+      "x1": 1006,
+      "y1": 280
+    }
+  },
+  "personBounds": {
+    "recordAndSleeve": {
+      "x0": 1090,
+      "y0": 292,
+      "x1": 1672,
+      "y1": 569
+    },
+    "draftAndPencil": {
+      "x0": 1094,
+      "y0": 507,
+      "x1": 1637,
+      "y1": 721
+    }
+  },
+  "recognitionRegions": {
+    "recordAndSleeve": {
+      "x0": 1096,
+      "y0": 326,
+      "x1": 1530,
+      "y1": 569
+    },
+    "draftAndPencil": {
+      "x0": 1097,
+      "y0": 511,
+      "x1": 1630,
+      "y1": 718
+    }
+  },
+  "traceExtentNotes": {
+    "recordAndSleeve": "Full visible grooved record+blank center/hole/plain sleeve; sleeve extends off native right edge, hidden extent unknown. Recognition needs the central disc and curved grooved face, not an edge.",
+    "draftAndPencil": "Whole visible folded blank-facing paper+pencil now within native frame. Source-explicit lyric-draft format with blank reverse to avoid generated writing, not historical possession. Recognition retains pencil/fold/full readable paper object."
+  },
+  "group": {
+    "fullWidth": 797,
+    "recognitionWidth": 755
+  },
+  "tagPhysics": {
+    "supportLoop": "Snug thin exterior lower-middle body loop aroundy525–554, front arc follows round glass; rear arc occluded.",
+    "knot": "Visible knot right-front near1053,545, no rim connection.",
+    "tether": "Short uninterrupted downward cord from knot to paper hole near1073,577, outside glass.",
+    "hole": "Real punched dark hole with cream edge and cord through it.",
+    "paper": "Small plain blank luggage label, lateral width89px versusglass228px, proportional not postcard.",
+    "gravity": "Tag falls down/right from hole, bottom tip may rest timber rather than fully free-hang.",
+    "airgap": "Visible space outside right glass; left paper edge overlaps silhouette in projection only.",
+    "contact": "Bottom tip at~1082,708 meets tabletop with shadow, contact/load uncertain; NOT claimed floating clear.",
+    "uncertainty": "Rear loop hidden and exact bottom contact load unknown; still image cannot certify full mechanical chain.",
+    "assessment": "Readable external lowerbody loop/knot/down tether/hole; plausible gravity/contact, no rimhook/intersection evident. Not blanket physics/browser PASS."
+  },
+  "review": {
+    "recipe": "One darkbrown rum-cola highball, full ordinary ice, squeezed-looking lime half inside, thin fizzy collar with small red bittersdrops, no foamhead/no extra rim garnish. Amber top brightness persists with backlight; stronger uniform-cola appearance preferred.",
+    "personality": "Real-size78rpm groove/blank center/hole/plain sleeve and blank-facing folded draft+pencil recognizable, but side-by-side breadth persists despite depth request; sleeve native-cropped.",
+    "world": "Historic private timber room, no people/text/extra drinks. Crossing scratch carpet reduced but amber sheen/dense grain/luxury presentation remain.",
+    "issues": [
+      "Glass489px tall exceeds300–360px target.",
+      "Full797px/recognition755px exceeds~389px phone core.",
+      "Native master clips record sleeve; proposed702portrait clips draft/pencil right portion.",
+      "Prop repositioning only modest; full-size record remains broad, not miniaturized.",
+      "Amber glossy timber/material hierarchy persists despite sole correction.",
+      "Cola upper highlights amber versus specifieddarkbrown, ordinary light possible but appearance held.",
+      "Tag bottom contact/far arc hidden, no mechanical/browser approval."
+    ]
+  }
+}

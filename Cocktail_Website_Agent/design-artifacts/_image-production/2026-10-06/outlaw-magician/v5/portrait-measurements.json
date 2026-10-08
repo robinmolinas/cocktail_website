@@ -1,0 +1,144 @@
+{
+  "measurementMethod": "Actual new native image visually inspected. Tag, complete glass/paper bounds and focal point rechecked against the same frame; narrow liquid-only edit preserved measured object positions. Manual estimates, 5\u201312 native px tolerance. No browser or name acceptance.",
+  "masterSha256": "e9225da9a31bbd41576fed214d25629dd0cd94a99efb4fb8be3968291da31025",
+  "sourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+  "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+  "roomSha256": null,
+  "fingerprintStatus": "New native master bytes and actual dimensions measured; current source/spec fingerprints recorded.",
+  "exported": false,
+  "exportEligible": true,
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "hiddenExtents": {
+    "rearLoopClosure": null,
+    "actualKnotLoad": null,
+    "paperUnderside": null,
+    "occludedProps": null
+  },
+  "tagPhysics": {
+    "status": "Held, not physics PASS",
+    "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+  },
+  "pairing": "outlaw-magician",
+  "pour": "For Its Own Good",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v5/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11bb7-ce09-7373-89a2-724c6e3208e9/exec-0acab94c-e0fc-4bf6-a484-99d46f96fe0d.png",
+  "displayedDimensions": [
+    1086,
+    1448
+  ],
+  "proposedCrop": [
+    11,
+    11,
+    1064,
+    1425
+  ],
+  "tag": {
+    "cx": 809,
+    "cy": 1040,
+    "w": 108,
+    "angle": 10
+  },
+  "glass": {
+    "x": 590,
+    "y": 858
+  },
+  "bounds": {
+    "glass": {
+      "x0": 440,
+      "y0": 670,
+      "x1": 743,
+      "y1": 1048
+    },
+    "ice": {
+      "x0": 493,
+      "y0": 751,
+      "x1": 677,
+      "y1": 940
+    },
+    "paper": {
+      "x0": 710,
+      "y0": 982,
+      "x1": 883,
+      "y1": 1079
+    },
+    "bagVisibleOnly": {
+      "x0": 0,
+      "y0": 470,
+      "x1": 652,
+      "y1": 793
+    },
+    "binderVisibleOnly": {
+      "x0": 552,
+      "y0": 608,
+      "x1": 1086,
+      "y1": 963
+    },
+    "releasedSheetsVisibleOnly": {
+      "x0": 734,
+      "y0": 753,
+      "x1": 1086,
+      "y1": 964
+    },
+    "ringMechanismVisible": {
+      "x0": 768,
+      "y0": 709,
+      "x1": 988,
+      "y1": 832
+    }
+  },
+  "essentialObjectUnion": [
+    0,
+    470,
+    1086,
+    1079
+  ],
+  "reviewHolds": [
+    "Portrait retained landscape lateral layout; bag and binder clipped",
+    "Material roughness/gold shine",
+    "Ring action/open-gap specificity uncertain",
+    "Small side junction/hidden footloop unclear",
+    "Rejected fresh correction has closed excess binder rings, not selected",
+    "New liquid colour is lighter but recipe/material acceptance remains pending"
+  ],
+  "masterDimensions": {
+    "width": 1086,
+    "height": 1448
+  },
+  "exportProvenance": {
+    "batch": 16,
+    "previousMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-08/refinement-exports/outlaw-magician/portrait-measurements.json",
+    "previousMasterSha256": "c1b3e7571f4fc1c99f3832c9d5ed6f9cc861806563133e9ee9ddb1f32f13eb87",
+    "correctionScope": "Liquid colour/transparency only",
+    "browserOwner": "Claude",
+    "integrationOwner": "Claude"
+  },
+  "unknownBounds": {},
+  "recognitionRegions": {},
+  "portraitCrop": [
+    11,
+    11,
+    1064,
+    1425
+  ],
+  "wideCrop": [
+    11,
+    11,
+    1064,
+    1425
+  ],
+  "review": {
+    "recipe": "Single cube and light clear amber-red liquid in heavy rocks glass retained. New liquid is visibly lighter and more transparent than v3; author colour expectation is approximate. Dense cube etching remains; not final material acceptance.",
+    "personality": "Bag, opened binder and released sheets retained. Bag dominates, lateral clipping persists, taken-apart ring action still uncertain.",
+    "world": "Historic reading-room frame retained. Rough gold timber and repeated reflections remain outside liquid-only correction.",
+    "issues": "Liquid colour improved; bag dominance, clipped binder/sheets, unclear ring action, etched cube, rough glossy timber and unresolved hidden tag loop remain. Browser/name checks unperformed."
+  }
+}

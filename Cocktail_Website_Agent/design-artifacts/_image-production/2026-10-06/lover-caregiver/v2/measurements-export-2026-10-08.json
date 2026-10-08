@@ -1,0 +1,169 @@
+{
+  "pairing": "lover-caregiver",
+  "pour": "Hoping You'd Come",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-01e90524-a2f9-4117-926a-0657c5bbbd52.png",
+  "sourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+  "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+  "roomSha256": "cd07091cfe12bbf08c2df1978b01ad3cc677ddb11cec330971735dfd171fe509",
+  "masterSha256": "0b88d19239e2195a7512c6237c5345d1ce16c0d50b668fd41d73ead294844e8e",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    835,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1106,
+    "cy": 712,
+    "w": 62,
+    "angle": 60
+  },
+  "glass": {
+    "x": 1058,
+    "y": 560
+  },
+  "bounds": {
+    "glass": {
+      "x0": 976,
+      "y0": 394,
+      "x1": 1140,
+      "y1": 754
+    },
+    "paper": {
+      "x0": 1062,
+      "y0": 661,
+      "x1": 1147,
+      "y1": 752
+    },
+    "spoon": {
+      "x0": 1089,
+      "y0": 320,
+      "x1": 1142,
+      "y1": 461
+    },
+    "ice": {
+      "x0": 1032,
+      "y0": 432,
+      "x1": 1094,
+      "y1": 483
+    },
+    "applePulp": {
+      "x0": 985,
+      "y0": 469,
+      "x1": 1128,
+      "y1": 589
+    }
+  },
+  "personBounds": {
+    "chair": {
+      "x0": 776,
+      "y0": 268,
+      "x1": 1559,
+      "y1": 681
+    },
+    "warmingThrow": {
+      "x0": 1055,
+      "y0": 243,
+      "x1": 1393,
+      "y1": 664
+    }
+  },
+  "recognitionRegions": {
+    "servedSpoon": {
+      "x0": 1089,
+      "y0": 320,
+      "x1": 1142,
+      "y1": 461
+    },
+    "chair": {
+      "x0": 917,
+      "y0": 283,
+      "x1": 1519,
+      "y1": 666
+    },
+    "warmingThrow": {
+      "x0": 1062,
+      "y0": 248,
+      "x1": 1384,
+      "y1": 652
+    }
+  },
+  "traceExtentNotes": {
+    "chair": "Full visible furniture only; seat/legs hidden bytable, posterior extent unknown/null. Recognition needs recognizable back plus connected arm, not anonymous woodsliver.",
+    "warmingThrow": "Actual folded knit draped over preparedchair; hidden posterior extent unknown/null. An inferred warming habit grounded guestcold, not historicartifact."
+  },
+  "group": {
+    "fullWidth": 783,
+    "recognitionWidth": 602,
+    "physicalServeWidthIncludingSpoonAndPaper": 171,
+    "physicalServeBoundsIncludingSpoonAndPaper": {
+      "x0": 976,
+      "y0": 320,
+      "x1": 1147,
+      "y1": 754
+    },
+    "fullBoundsIncludingServedSpoonAndPersons": {
+      "x0": 776,
+      "y0": 243,
+      "x1": 1559,
+      "y1": 754
+    },
+    "recognitionBoundsIncludingServedSpoonAndPersons": {
+      "x0": 917,
+      "y0": 248,
+      "x1": 1519,
+      "y1": 754
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Subdued light taupe exteriorstem wrap belowbowl, front arcs visible, rearclosure occluded; actual2\u20133turns despite single-strand request.",
+    "knot": "Small knot1059,659 with short but fuzzy ends; no conspicuous bow.",
+    "tether": "Short continuous downward-right connector~25px to paperhole1083,677; no rimhook.",
+    "hole": "Dark punched hole visible1083,677.",
+    "gravity": "Small freeoutboard label belowknot, down-right orientation.",
+    "airgap": "Main face separated fromstem with darkgap, upperleftpaper nearstemfoot.",
+    "contact": "Lowercorner around1100,749 meets apparentfoot/timber; exactdepth/contact surface uncertain.",
+    "uncertainty": [
+      "Multiple stemwrap turns remain cord-visibility HOLD.",
+      "Rearclosure/friction/knotload not proven by still.",
+      "Foot-vs-timber contact and small uppergap uncertain."
+    ],
+    "assessment": "Plausible visible partial chain, subdued small label but multi-turn held; not physics PASS."
+  },
+  "review": {
+    "recipe": "One cold small wineglass, goldenamber/applepulp cloudy, ONE ordinary cloudy lump, spoon IN/no garnish/steam/head. Soft-looking irregular apple pieces remain, complete fullymashed state uncertain.",
+    "personality": "Empty preparedchair and foldedwarmingthrow recognize; throw explicit inference. Both broad, not compactphone.",
+    "world": "Nearblack historic timberroom/onewarmpractical/leftcopydark; glossyamber patternedtable and denseglassdroplets stillheld.",
+    "issues": [
+      "Glass360px improves543px but still above330target; spoon top320 included.",
+      "Full783/recogn602px group exceeds~389 movingphone, portrait[835..1537]clips rightchairfull and leftarmfull.",
+      "Stemloop actual2\u20133turns; latestless-visible singlethinstrand aim notfullymet.",
+      "Broad amber sheen/densegrain ontable, uniformleftglasswetpatch held.",
+      "Apple piece size/mashed softness not unequivocally established.",
+      "Small writable62px tag axis; actualnameglyph fit untested, not enlarged for target.",
+      "No JPEG, phone, authoredcopy, browser or final acceptance."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "6c8e8a522954bf401b124460cda40c3d6080c29d6132a4056d5deaa9618cd4a8",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You make people feel expected. Very few people can.",
+      "+ - **tagline:** You make room for people before you ask them to come."
+    ]
+  },
+  "unknownBounds": {
+    "garnish": null
+  }
+}

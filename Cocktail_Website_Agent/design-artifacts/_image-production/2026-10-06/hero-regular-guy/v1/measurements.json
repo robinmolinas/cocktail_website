@@ -1,0 +1,146 @@
+{
+  "pairing": "hero-regular-guy",
+  "pour": "Anyone Would Have",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-34b095c3-35db-4490-956f-80d9b504864f.png",
+  "masterDimensions": [
+    1672,
+    940
+  ],
+  "masterSha256": "64999d848d426746fee518802ecaf63964bb3e26d3e91fc1c0c866fde0f726fa",
+  "sourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+  "specSha256": "f8a537c8cce06c30d61249c6b52728fc197207c639a5dca7b217fd79cb31485b",
+  "roomSha256": "edfc4da3de477e966d211853b92b4348078c640c42b2deedacbe0d2f77d18fef",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    580,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1258,
+    "cy": 757,
+    "w": 211,
+    "angle": 14
+  },
+  "glass": {
+    "x": 886,
+    "y": 510
+  },
+  "bounds": {
+    "glass": {
+      "x0": 660,
+      "y0": 240,
+      "x1": 1106,
+      "y1": 776
+    },
+    "paper": {
+      "x0": 1112,
+      "y0": 693,
+      "x1": 1381,
+      "y1": 814
+    },
+    "torch": {
+      "x0": 314,
+      "y0": 433,
+      "x1": 681,
+      "y1": 650
+    },
+    "screwdriver": {
+      "x0": 1085,
+      "y0": 469,
+      "x1": 1621,
+      "y1": 692
+    },
+    "ice": {
+      "x0": 752,
+      "y0": 289,
+      "x1": 1017,
+      "y1": 563
+    },
+    "bitters": {
+      "x0": 827,
+      "y0": 323,
+      "x1": 967,
+      "y1": 401
+    }
+  },
+  "physicalGarnishBounds": null,
+  "hiddenExtents": {"torch": null, "screwdriver": null, "ice": null, "paperUnderside": null},
+  "recognitionRegions": {
+    "torch": {
+      "bounds": {
+        "x0": 314,
+        "y0": 433,
+        "x1": 681,
+        "y1": 650
+      },
+      "reason": "Off torch lens bezel and substantial cylindrical body/clip visibly recognizable, not anonymous edge."
+    },
+    "screwdriver": {
+      "bounds": {
+        "x0": 1085,
+        "y0": 469,
+        "x1": 1621,
+        "y1": 692
+      },
+      "reason": "Handle/connected shaft/flat blade needed together for honest identity; full visible region retained, not convenient partial."
+    }
+  },
+  "objectVisibility": {
+    "torch": "Visible portion substantial; rear behind glass hidden extent unknown/null.",
+    "screwdriver": "Complete visible handle/shaft/tip outline; underside and contact behind glass unseen.",
+    "ice": "ONE dominant tilted cube visible; refracted hidden extent unknown.",
+    "physicalGarnish": "None; no source garnish introduced.",
+    "bitters": "Three visible brown stains; two apparently on cube face/top rather than exposed liquid."
+  },
+  "supportingObjectUnion": {
+    "x0": 314,
+    "y0": 433,
+    "x1": 1621,
+    "y1": 692
+  },
+  "essentialObjectUnion": {
+    "x0": 314,
+    "y0": 240,
+    "x1": 1621,
+    "y1": 814
+  },
+  "tagPhysics": {
+    "mechanism": "Thin subdued taupe-brown low exterior clear-foot loop, front arc curves with side occlusion; no rim attachment.",
+    "knot": "Small visible right junction near1082,667; back and topology unresolved.",
+    "tetherAndHole": "Visible downward outboard strand enters punched hole; actual loose loop/tether longer than requested very short, detailed strand topology not proven.",
+    "gravity": "Paper lies downward/outboard from support, broad face resting timber.",
+    "paperSeparationOrContact": "Paper separate from glass with visible space, bottom/body rests timber with contact shadow.",
+    "uncertainties": [
+      "Hidden rear closure/friction",
+      "Knot load and overlapping strand topology",
+      "Tether longer than ideal subdued refinement",
+      "Actual short/long-name glyph fit"
+    ],
+    "status": "Visually plausible support chain, not mechanical physics PASS."
+  },
+  "review": {
+    "recipe": "One heavy rocks, rosy red slight haze/soda bubbles, ONE dominant large cube and no garnish. THREE bitters stains present; source says shake three dashes ON TOP, so two on protruding ice are not inherently a recipe violation. Artificial neat blobs and weak diffusion remain appearance/material HOLD, separately from unachieved prompt request for liquid-only placement.",
+    "personality": "Torch and screwdriver are distinct ordinary full-size preparedness tools inferred from WHO fusebox scene, not documented ownership/job. Generic household tool photograph specificity remains held. v2 tall screwdriver has uncertain leaning support.",
+    "world": "Historic walnut room/right practical/neutral-black left retained, but glossy amber patterned table/dense glass/cube hold; modern torch materially functional allowed.",
+    "issues": [
+      "Artificial neat bitters blobs/weak diffusion appearance HOLD; on-top ice placement is not inherently a recipe violation",
+      "Dense sparkling/etched cube and condensation/bubbles",
+      "Glossy patterned amber walnut",
+      "Glass exceeds300–360px intent",
+      "Whole/person group too wide for389px moving phone",
+      "Proposed702portrait clips torch; v1 also clips screwdriver/paper",
+      "v2 screwdriver blade y121 outside20–80% vertical safe intent; lean/support uncertain",
+      "Tag tether longer than ideal; hidden support held",
+      "Name fit untested",
+      "Specificity/ownership inferred"
+    ]
+  }
+}

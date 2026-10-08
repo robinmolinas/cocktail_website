@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch jester)
 ## Cocktail
 
 - **name:** Is It Just Me
-- **tagline:** You say what everybody does. Suddenly nobody's the only one.
+- **tagline:** Your most embarrassing moments make people feel better about theirs.
 - **glassware:** small stemmed glass (about 90 ml) for the rye, room temperature; tall pilsner glass (about 400 ml), chilled, for the beer
 - **contains:** `["gluten"]`
 
@@ -178,7 +178,7 @@ Wren's title-block notes:
 
 **name:** Is It Just Me (pick; Tomás agrees) · others: No Joke (Tomás) · Strange Drinks · Not Only You · A Whiskey and a Beer
 
-**tagline:** You say what everybody does. Suddenly nobody's the only one.
+**tagline:** Your most embarrassing moments make people feel better about theirs.
 
 **epigraph** (the cocktail, cold, 14 words)
 *A whiskey with a beer. In 1896, a newspaper thought that was worth a story.*

@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-30 (batch magician)
 ## Cocktail
 
 - **name:** Their Night
-- **tagline:** It was never your night. You made sure it was theirs.
+- **tagline:** You arrange the moment someone needed before they knew how to ask.
 - **glassware:** cocktail glass, chilled
 - **contains:** `[]`
 
@@ -154,7 +154,7 @@ Wren's title-block notes:
 
 **name:** Their Night (pick) · others: Under Another Name · Unasked · The Door Opens
 
-**tagline:** It was never your night. You made sure it was theirs.
+**tagline:** You arrange the moment someone needed before they knew how to ask.
 
 **epigraph** (the cocktail, cold, 13 words)
 *Reportedly, a 1911 surprise party got its own drink. The name probably went elsewhere.*

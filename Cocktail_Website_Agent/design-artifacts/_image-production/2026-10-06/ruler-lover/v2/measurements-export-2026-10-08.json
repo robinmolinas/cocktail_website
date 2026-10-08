@@ -1,0 +1,95 @@
+{
+  "pairing": "ruler-lover",
+  "pour": "Up Close",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-lover/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-8f3fa715-a9a6-43bd-ba3c-386ee954436d.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "8702edd245556439e429a3fa1517ac5f1379cf57e77a7465cd727cb7b8bab989",
+  "specSha256": "773f6ac218274be51adcb82d3e9a10a7304fee047034f65270d414816151f436",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    780,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1347,
+    "cy": 600,
+    "w": 188,
+    "angle": 3.5
+  },
+  "glass": {
+    "x": 1097,
+    "y": 391
+  },
+  "bounds": {
+    "glass": {
+      "x0": 984,
+      "y0": 313,
+      "x1": 1210,
+      "y1": 672
+    },
+    "paper": {
+      "x0": 1214,
+      "y0": 548,
+      "x1": 1461,
+      "y1": 652
+    }
+  },
+  "personalityBounds": {
+    "keptLetterEnvelope": {
+      "x0": 857,
+      "y0": 519,
+      "x1": 1155,
+      "y1": 628
+    },
+    "savedPhotographPhysical": {
+      "x0": 805,
+      "y0": 572,
+      "x1": 1110,
+      "y1": 645
+    }
+  },
+  "recognitionRegions": {
+    "keptLetterEnvelope": {
+      "x0": 857,
+      "y0": 519,
+      "x1": 1155,
+      "y1": 628
+    },
+    "savedPhotograph": null
+  },
+  "review": {
+    "recipe": "Chilled small stemmed Manhattan, reddish-amber nearly clear faint fruit haze, dropped lemon strip; no serving ice/pulp/foam. Appearance can suggest bowl speckle; pale-yellow upper peel has amber-orange lower optical cast.",
+    "personality": "Remembering returning people motivates inferred kept correspondence and snapshot, not explicit source objects or historical claims. Model made envelope instead of folded letter. V2 reverse is physically present but insufficiently distinctive to confidently recognise snapshot; honest recognition null.",
+    "world": "Historic timber reading room; quiet dark left but warm glossy wood, oversized lamp and fine speckle persist. V2 fireplace flame contradicts source ban.",
+    "issues": [
+      "Glass359px and full physical group656px miss compact moving-phone target.",
+      "Second trace photograph reverse has no convincing identifying image; recognition region is null/held, not invented from anonymous scalloped edge.",
+      "Edit introduced fireplace flame; dossier explicitly excludes flame and scene now has competing warm sources.",
+      "Low-satin intent not achieved: warm broad glossy table highlights and fine bowl speckle remain.",
+      "Lemon upper edge pale yellow but lower strip appears amber-orange through drink; garnish-colour watch.",
+      "Full702px proposed portrait retains physical objects, glass and tag but is NOT moving-phone or browser PASS."
+    ]
+  },
+  "status": "measured-master-candidate; held; not-accepted; browser-deferred",
+  "sourceRefresh": {
+    "previousSourceSha256": "fe5194fb05d02ad4bf9e556a73a6cdd96227ba291200b8a710244fc4fa03911b",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You know exactly what your attention does. And you mean all of it.",
+      "+ - **tagline:** People remember how you made them feel because you remember who they are.",
+      "- - **tagline:** You know exactly what your attention does. And you mean all of it.",
+      "+ - **tagline:** People remember how you made them feel because you remember who they are."
+    ]
+  }
+}

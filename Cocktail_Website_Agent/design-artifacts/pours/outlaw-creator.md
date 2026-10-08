@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 ## Cocktail
 
 - **name:** Asked In
-- **tagline:** Nobody had to let you. It was good before they did.
+- **tagline:** You show people what better looks like while they're still saying no.
 - **glassware:** a small tumbler, one large ice cube
 - **contains:** `[]`
 

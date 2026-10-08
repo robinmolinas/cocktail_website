@@ -1,0 +1,112 @@
+{
+  "pairing": "explorer-magician",
+  "pour": "Just Knew",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-magician/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-81f32a68-bb94-44a9-bd0c-7456ab4530ab.png",
+  "masterDimensions": [
+    1602,
+    981
+  ],
+  "masterSha256": "dd22945062f8d9f9f76d6fa63f2d2926e80f3160cbc36079d2e8a1e796961a78",
+  "sourceSha256": "70540fb3d228fc8594a3f0bc8fba1945aecea025a741f7be7ee738707759b3c2",
+  "specSha256": "4d71a6f0faab2e323a3e4b709d5e42fce268089736d7a744d3568ad774e12e45",
+  "wideCrop": [
+    0,
+    40,
+    1600,
+    900
+  ],
+  "portraitCrop": [
+    496,
+    20,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1125,
+    "cy": 651,
+    "w": 136,
+    "angle": 75
+  },
+  "glass": {
+    "x": 926,
+    "y": 508
+  },
+  "bounds": {
+    "glass": {
+      "x0": 742,
+      "y0": 280,
+      "x1": 1112,
+      "y1": 735
+    },
+    "paper": {
+      "x0": 1061,
+      "y0": 532,
+      "x1": 1187,
+      "y1": 735
+    },
+    "books": {
+      "x0": 475,
+      "y0": 430,
+      "x1": 1239,
+      "y1": 648
+    },
+    "glove": {
+      "x0": 498,
+      "y0": 304,
+      "x1": 1179,
+      "y1": 500
+    }
+  },
+  "recognitionRegions": {
+    "books": {
+      "bounds": {
+        "x0": 478,
+        "y0": 432,
+        "x1": 744,
+        "y1": 646
+      },
+      "reason": "Substantial separate old cloth binding and new paperback page block/cover at left, not anonymous single edge; book bodies continue behind glass."
+    },
+    "glove": {
+      "bounds": {
+        "x0": 498,
+        "y0": 305,
+        "x1": 746,
+        "y1": 499
+      },
+      "reason": "Substantial adult glove cuff, thumb and folded finger forms at left of glass; glove continues behind it. No recognition claimed from the isolated right brown patch."
+    }
+  },
+  "tagPhysics": {
+    "bodyLoop": "Snug-looking exterior burgundy twine encircles midbody y466\u2013506 below rim y281, curved front span plus credible side occlusion.",
+    "knot": "Visible right knot around1084/488.",
+    "tetherAndHole": "Short continuous paired strand from knot descends to punched hole near1105/559.",
+    "gravityAndContact": "Paper below knot, leans outward, bottom at y733 rests on walnut with contact shadow. Not freely suspended.",
+    "separation": "Most paper is outside right wall and separate; nearest upper edge briefly overlaps the body silhouette, but no broad adhesive-looking label face.",
+    "uncertainty": "Far-side loop and actual friction/load remain unobservable; paper lean needs timber contact. Tight upper overlap requires independent look.",
+    "status": "Plausible visible chain with contact/occlusion uncertainty, not blanket physics PASS."
+  },
+  "review": {
+    "recipe": "Single ice-filled heavy rocks vessel/red gin-Campari-sweet/dry-vermouth drink, one inside orange peel/no foam. Bay now shows at least three apparent olive regions; cannot honestly confirm exactly ONE dried leaf torn into TWO halves. Garnish remains held.",
+    "personality": "Old/new book stack now overlaps behind hero; full adult walking glove on stack recognizable at left, but large spread still wider than intended. Books explicit source; glove inferred quiet long-walk habit, not ritual costume.",
+    "world": "Timber historic room/quiet left third, but glossy amber long reflections and dense etched/sparkling ice/glass remain plain-material holds.",
+    "issues": [
+      "Glass455px rather than~300.",
+      "Full objects764px wide; conservative glass/paper/books/glove recognition709px; proposed702portrait clips outer book margins and is not a phone pass.",
+      "Bay appears as three portions rather than confidently two halves; exact garnish held.",
+      "Ice/glass crystalline microdetail, amber glossy/crackled table.",
+      "Glove overly uniform scuffed/leathery detail watch.",
+      "Tag136px writing axis, actual name fit untested; don't inflate smaller paper.",
+      "Sole correction exhausted; no JPEG/export/browser/public/acceptance."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "1152d113f10f7e8010249332511608a79d378dc4e1ca664688816fb7640ba56c",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You've been doing it for years. You just never called it that.",
+      "+ - **tagline:** You're always looking for a little magic to carry into everyday life."
+    ]
+  }
+}

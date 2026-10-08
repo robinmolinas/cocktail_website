@@ -1,0 +1,330 @@
+{
+  "pairing": "sage-magician",
+  "pour": "Plain to See",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "69fa19e99136ba47bcd1dae293e2ab75ed61b91731d655c88ff9e0be53f5feca",
+  "review": {
+    "recipe": "Plain freezer-chilled tumbler, deep amber faint haze, expressed orange peel inside, no serving ice/foam/rim/bubbles. Fill slightly above half, plausible110.1ml in200ml; cold mist at upper glass distinct from liquid.",
+    "personality": "Blank creased working-card reverse and worn pencil infer repeated careful walkthrough before sharing an idea; ordinary readable traces, no diagram or pseudo-writing.",
+    "world": "Pulled-back old walnut room with plain low-satin mostly flat table, dark neutral left, restrained lamp; right reflection still warmer/glossier than target.",
+    "issues": [
+      "Essential union394px exceeds350px target and is marginally wider than approximately389px maximum-breathing tall-phone window; actual phone motion/name readability deferred.",
+      "Glass244px high, below intended280–340px; usable tag166px, short of170px minimum target.",
+      "Warm/glossier far-right lamp reflection persists; pencil eraser partly hidden at glass edge; distant second practical visible."
+    ]
+  },
+  "measurements": {
+    "pairing": "sage-magician",
+    "pour": "Plain to See",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-magician/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-07fd24d6-47ef-409f-a51d-03a5a3d23a5e.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "69fa19e99136ba47bcd1dae293e2ab75ed61b91731d655c88ff9e0be53f5feca",
+    "specSha256": "5aeff4ffb235727d1c74407e92b573e8ca39be17d809757ec2dbb62f6d7a9d4d",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      601,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 925,
+      "cy": 657,
+      "w": 166,
+      "angle": 0.5
+    },
+    "glass": {
+      "x": 1044,
+      "y": 555
+    },
+    "bounds": {
+      "glass": {
+        "x0": 945,
+        "y0": 431,
+        "x1": 1145,
+        "y1": 675
+      },
+      "paper": {
+        "x0": 827,
+        "y0": 629,
+        "x1": 1035,
+        "y1": 687
+      }
+    },
+    "recognitionRegions": {
+      "workingCard": {
+        "x0": 776,
+        "y0": 451,
+        "x1": 949,
+        "y1": 596
+      },
+      "pencil": {
+        "x0": 751,
+        "y0": 562,
+        "x1": 950,
+        "y1": 625
+      }
+    },
+    "review": {
+      "recipe": "Plain freezer-chilled tumbler, deep amber faint haze, expressed orange peel inside, no serving ice/foam/rim/bubbles. Fill slightly above half, plausible110.1ml in200ml; cold mist at upper glass distinct from liquid.",
+      "personality": "Blank creased working-card reverse and worn pencil infer repeated careful walkthrough before sharing an idea; ordinary readable traces, no diagram or pseudo-writing.",
+      "world": "Pulled-back old walnut room with plain low-satin mostly flat table, dark neutral left, restrained lamp; right reflection still warmer/glossier than target.",
+      "issues": [
+        "Essential union394px exceeds350px target and is marginally wider than approximately389px maximum-breathing tall-phone window; actual phone motion/name readability deferred.",
+        "Glass244px high, below intended280–340px; usable tag166px, short of170px minimum target.",
+        "Warm/glossier far-right lamp reflection persists; pencil eraser partly hidden at glass edge; distant second practical visible."
+      ]
+    },
+    "status": "measured-master-candidate;not-accepted;browser-deferred"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1062.200956937799,
+        "cy": 754.8510638297872,
+        "w": 190.622009569378,
+        "angle": 0.5002659439336946
+      },
+      "glass": {
+        "x": 1198.8516746411483,
+        "y": 637.6595744680851
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 413.53846153846155,
+        "cy": 838.7234042553192,
+        "w": 211.87464387464388,
+        "angle": 0.5000949799787935
+      },
+      "glass": {
+        "x": 565.4245014245015,
+        "y": 708.5106382978724
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/sage-magician/portrait.jpg",
+    "wide": "/personas/sage-magician/wide.jpg",
+    "wideTag": {
+      "cx": 0.5532296650717703,
+      "cy": 0.698936170212766,
+      "w": 0.09928229665071771,
+      "angle": 0.5002659439336946
+    },
+    "wideGlass": {
+      "x": 0.6244019138755981,
+      "y": 0.5904255319148937
+    },
+    "tag": {
+      "cx": 0.46153846153846156,
+      "cy": 0.698936170212766,
+      "w": 0.23646723646723647,
+      "angle": 0.5000949799787935
+    },
+    "glass": {
+      "x": 0.6310541310541311,
+      "y": 0.5904255319148937
+    }
+  },
+  "hashes": {
+    "master": "120e42c7bc0a619d898ec555f64b150d5a1cffedbc918a9f36f35a9f621b84b9",
+    "wide": "7e290119a0130a8aa7bca09be496f595483ee955609c0bb1033b2564970522cd",
+    "portrait": "1dd945f4e3a0bec02c30f6acb98ab5acf798d23835298814b567c3947b1779d8"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1085.1674641148325,
+          "y0": 495.19148936170217,
+          "x1": 1314.8325358851675,
+          "y1": 775.531914893617
+        },
+        "paper": {
+          "x0": 949.665071770335,
+          "y0": 722.6808510638298,
+          "x1": 1188.5167464114834,
+          "y1": 789.3191489361702
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 824.3062200956937,
+          "y0": 412.6595744680851,
+          "x1": 1015.6937799043062,
+          "y1": 646.2765957446809
+        },
+        "paper": {
+          "x0": 711.3875598086124,
+          "y0": 602.2340425531914,
+          "x1": 910.4306220095694,
+          "y1": 657.7659574468086
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1157.511961722488,
+          "y0": 474.84425531914894,
+          "x1": 1402.488038277512,
+          "y1": 773.8740425531915
+        },
+        "paper": {
+          "x0": 1012.976076555024,
+          "y0": 717.4995744680851,
+          "x1": 1267.751196172249,
+          "y1": 788.5804255319149
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1944.2583732057415,
+          "y0": 659.518085106383,
+          "x1": 2355.7416267942585,
+          "y1": 1161.7946808510637
+        },
+        "paper": {
+          "x0": 1701.4832535885168,
+          "y0": 1067.1031914893617,
+          "x1": 2129.4258373205744,
+          "y1": 1186.4968085106384
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6310541310541311,
+        "y": 0.5904255319148937
+      },
+      "bounds": {
+        "glass": {
+          "x0": 157.23863247863244,
+          "y0": 386.9829787234043,
+          "x1": 336.77899335232667,
+          "y1": 606.063829787234
+        },
+        "paper": {
+          "x0": 51.30981956315287,
+          "y0": 564.7617021276595,
+          "x1": 238.03179487179483,
+          "y1": 616.8382978723405
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6310541310541311,
+        "y": 0.5904255319148937
+      },
+      "bounds": {
+        "glass": {
+          "x0": 173.21447293447295,
+          "y0": 427.33191489361707,
+          "x1": 371.4746818613485,
+          "y1": 669.2553191489362
+        },
+        "paper": {
+          "x0": 56.24094966761635,
+          "y0": 623.6468085106384,
+          "x1": 262.43156695156694,
+          "y1": 681.1531914893618
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6310541310541311,
+        "y": 0.5904255319148937
+      },
+      "bounds": {
+        "glass": {
+          "x0": 142.12740740740742,
+          "y0": 260.4340425531915,
+          "x1": 262.95551756885084,
+          "y1": 407.87234042553195
+        },
+        "paper": {
+          "x0": 70.83882241215572,
+          "y0": 380.07659574468084,
+          "x1": 196.50005698005697,
+          "y1": 415.12340425531914
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "pairing": "outlaw-caregiver",
+  "pour": "In One Piece",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-caregiver/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-e5c66a90-c841-4b45-bfe0-df2168313b5e.png",
+  "sourceSha256": "a581f8161075418092a2c364e3a5ab239bb6d2f03f15d78d2dea4467137e4f48",
+  "specSha256": "12c6feda7762325c9403c248e87c92b17bcb8028d37eaafbfb7dffa1aba73c90",
+  "roomSha256": "957023b8392e107e6ece1e57e53da79ed07eb26c9f487d61dcedd7184a3a9658",
+  "masterSha256": "b88d414a1d9cdfac0976602e50d4cc612cffd9b647bd7692c74b60e1fc2e094f",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    631,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1232,
+    "cy": 597,
+    "w": 100,
+    "angle": 82
+  },
+  "glass": {
+    "x": 1129,
+    "y": 526
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1029,
+      "y0": 320,
+      "x1": 1223,
+      "y1": 751
+    },
+    "paper": {
+      "x0": 1200,
+      "y0": 524,
+      "x1": 1263,
+      "y1": 656
+    },
+    "garnish": {
+      "x0": 1005,
+      "y0": 313,
+      "x1": 1207,
+      "y1": 690
+    }
+  },
+  "personBounds": {
+    "chair": {
+      "x0": 691,
+      "y0": 198,
+      "x1": 1277,
+      "y1": 605
+    },
+    "foldedCoat": {
+      "x0": 754,
+      "y0": 350,
+      "x1": 1034,
+      "y1": 575
+    }
+  },
+  "recognitionRegions": {
+    "chair": {
+      "x0": 704,
+      "y0": 202,
+      "x1": 1270,
+      "y1": 595
+    },
+    "foldedCoat": {
+      "x0": 755,
+      "y0": 352,
+      "x1": 1033,
+      "y1": 574
+    }
+  },
+  "traceExtentNotes": {
+    "chair": "Complete visible chair furniture, table/glass occlude right lower portions; hidden geometry unknown. Recognition retains curved back and leg/seat relationship, not anonymous sliver.",
+    "foldedCoat": "Visible folded olive coat with collar/sleeve/button; partly obscured by vessel/table. Ordinary quiet-care inference, not source-explicit garment."
+  },
+  "group": {
+    "fullWidth": 586,
+    "recognitionWidth": 566
+  },
+  "tagPhysics": {
+    "supportLoop": "Visible cord across exterior middle body below rim; diagonal front arc. Far arc occluded.",
+    "knot": "Visible at right body around1220,489.",
+    "tether": "Short visible continuous downward segment from knot to punched hole.",
+    "hole": "Visible punched hole around1228,547.",
+    "paper": "Small blank luggage label narrower than glass body.",
+    "gravity": "Paper hangs down from hole, not flush stuck to glass.",
+    "airgap": "Visible gap along paper right/outside glass; left edge overlaps silhouette in projection.",
+    "contact": "Bottom clear of tabletop; free suspension, not wood resting.",
+    "uncertainty": "Far loop hidden; slope/front curvature not fully verified. Attachment plausibility is not mechanical or browser approval.",
+    "assessment": "Chain visible with exterior support/knot/down tether/hole/gravity. HELD uncertainty, not blanket physics PASS."
+  },
+  "review": {
+    "recipe": "Single iced pale-gold lightly amber cognac/dry ginger ale; apparent continuous yellow whole-lemon spiral inside with short rim hook. Fine carbonation/nofoam. No ingredient/recipe change.",
+    "personality": "Pulled-out unstacked caf\u00e9 chair source-explicit; folded olive coat recognizable as ordinary quiet-care/place-kept inference. Chair/coat overly wide.",
+    "world": "Historic timber reading room; visible lamps/window removed, but amber glossy densely grained tabletop persists.",
+    "issues": [
+      "Glass431px tall exceeds300\u2013360px target.",
+      "Full essential group586px and conservative recognition group566px exceed389px phone core.",
+      "Amber gloss and crossing/swirled timber texture persist despite correction.",
+      "Dense bubbles and complex ice highlights remain; broad calm glass patches limited.",
+      "Coat is ordinary quiet-care inference, not explicit source possession.",
+      "Sloping front cord reads exterior but circumferential curvature/far-side path cannot be fully verified; no physics PASS."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "31b74355f779f31d69c8bf8622421a5e483b5198785c795da01dd6c7d28fc65d",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You never need to raise your voice. Everyone knows you could.",
+      "+ - **tagline:** You make people feel safe without making them feel small.",
+      "- **tagline:** You never need to raise your voice. Everyone knows you could.",
+      "+ **tagline:** You make people feel safe without making them feel small."
+    ]
+  }
+}

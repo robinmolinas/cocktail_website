@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-28 (batch caregiver)
 ## Cocktail
 
 - **name:** Worth the Trip
-- **tagline:** You always make them laugh at the wrong moment, but it's actually always the right one.
+- **tagline:** Your best jokes come when someone needs them most.
 - **glassware:** tall glass (highball), full of ice
 - **contains:** `["spice"]`
 

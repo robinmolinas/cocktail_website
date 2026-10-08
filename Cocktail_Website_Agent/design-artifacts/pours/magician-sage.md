@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 ## Cocktail
 
 - **name:** Already There
-- **tagline:** You can tell who someone will become. You can rarely say how.
+- **tagline:** You see who someone could become in the little things they do today.
 - **glassware:** small tulip-shaped grappa glass with an open rim (about 150 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -205,7 +205,7 @@ Wren's title-block notes:
 
 **name (Wren's vote):** Already There
 **alternates:** Something in Them · Hard to Say Why (Tomás's) · One Grape at a Time
-**tagline:** You can tell who someone will become. You can rarely say how.
+**tagline:** You see who someone could become in the little things they do today.
 **tagline alternates:** In your eyes, nobody's finished. · Your reasons are small. You're usually right.
 **epigraph:** *One grape variety made the grappa here. Grappa was first distilled like that in Friuli.*
 

@@ -1,0 +1,293 @@
+{
+  "method": "Manual estimates on original-size native image viewer; no raster transform/header/hash execution. Coordinates approximate pixels, not final export metadata or geometry approval.",
+  "dimensionsStatus": "Viewer displayed native dimensions; independently probed header dimensions not executed under root restriction.",
+  "wide": {
+    "native": {
+      "width": 1672,
+      "height": 941
+    },
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v3/wide-master.png",
+    "glass": {
+      "x": 1078,
+      "y": 457
+    },
+    "glassBounds": {
+      "x0": 912,
+      "y0": 238,
+      "x1": 1245,
+      "y1": 836
+    },
+    "serveBounds": {
+      "x0": 912,
+      "y0": 84,
+      "x1": 1283,
+      "y1": 838
+    },
+    "ice": {
+      "visibleBounds": {
+        "x0": 970,
+        "y0": 291,
+        "x1": 1115,
+        "y1": 360
+      },
+      "hiddenExtent": null,
+      "note": "One visible ordinary irregular lump, submerged extent uncertain; speckled texture held."
+    },
+    "spoon": {
+      "visibleBounds": {
+        "x0": 1133,
+        "y0": 84,
+        "x1": 1283,
+        "y1": 506
+      },
+      "hiddenExtent": null
+    },
+    "tag": {
+      "cx": 1155,
+      "cy": 752,
+      "w": 134,
+      "angle": 62,
+      "hole": {
+        "x": 1118,
+        "y": 679
+      },
+      "paperBounds": {
+        "x0": 1082,
+        "y0": 654,
+        "x1": 1234,
+        "y1": 838
+      },
+      "writingAxisNote": "Clean axis below hole only; actual glyph fit untested."
+    },
+    "props": {
+      "chair": {
+        "visibleBounds": {
+          "x0": 508,
+          "y0": 51,
+          "x1": 1665,
+          "y1": 681
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 642,
+          "y0": 61,
+          "x1": 1587,
+          "y1": 636
+        },
+        "note": "Full-size chair back, arm and empty seat; lower extent hidden behind table, not a miniature/cropped fragment."
+      },
+      "oliveThrow": {
+        "visibleBounds": {
+          "x0": 371,
+          "y0": 252,
+          "x1": 1016,
+          "y1": 707
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 409,
+          "y0": 264,
+          "x1": 923,
+          "y1": 651
+        },
+        "note": "Used knitted throw on chair arm, far left spread; occluded part behind drink not fabricated."
+      }
+    },
+    "fullVisibleEssentialUnion": {
+      "x0": 371,
+      "y0": 51,
+      "x1": 1665,
+      "y1": 838
+    },
+    "conservativeRecognitionUnion": {
+      "x0": 409,
+      "y0": 61,
+      "x1": 1587,
+      "y1": 838
+    },
+    "ambient": {
+      "lamp": {
+        "visibleBounds": {
+          "x0": 1432,
+          "y0": 0,
+          "x1": 1672,
+          "y1": 370
+        },
+        "fullBounds": null,
+        "clippedExtentUnknown": true
+      }
+    },
+    "proposedCrop": {
+      "wide": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portrait": null,
+      "note": "Dedicated portrait sibling supplied; no destructive master crop. Wide spoon violates20–80% vertical aspiration."
+    },
+    "tagPhysics": {
+      "mechanism": "Stem loop below bowl",
+      "frontArc": "Visible snug front curved taupe cord",
+      "sideOcclusion": "Sides disappear around stem; rear closure unseen",
+      "knot": "Visible tiny right-side knot near1089,645",
+      "tether": "Short descending strands to punched hole near1118,679",
+      "hole": "Clearly punched hole on paper face",
+      "gravity": "Paper below support, leaning down/outboard",
+      "separateOrContact": "Paper separated from bowl; lower edge contacts timber",
+      "uncertainties": [
+        "Closely parallel doubled wrap rather than requested single strand",
+        "Rear closure/friction/knot load unseen",
+        "Local upper paper/stem gap partly occluded"
+      ],
+      "pass": false
+    }
+  },
+  "portrait": {
+    "native": {
+      "width": 1084,
+      "height": 1451
+    },
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v3/portrait-master.png",
+    "glass": {
+      "x": 584,
+      "y": 776
+    },
+    "glassBounds": {
+      "x0": 472,
+      "y0": 641,
+      "x1": 698,
+      "y1": 1060
+    },
+    "serveBounds": {
+      "x0": 472,
+      "y0": 535,
+      "x1": 721,
+      "y1": 1063
+    },
+    "ice": {
+      "visibleBounds": {
+        "x0": 511,
+        "y0": 685,
+        "x1": 597,
+        "y1": 733
+      },
+      "hiddenExtent": null,
+      "note": "One visible protruding cloudy lump; submerged extent uncertain."
+    },
+    "spoon": {
+      "visibleBounds": {
+        "x0": 642,
+        "y0": 535,
+        "x1": 721,
+        "y1": 808
+      },
+      "hiddenExtent": null
+    },
+    "tag": {
+      "cx": 645,
+      "cy": 1005,
+      "w": 107,
+      "angle": 68,
+      "hole": {
+        "x": 617,
+        "y": 949
+      },
+      "paperBounds": {
+        "x0": 598,
+        "y0": 931,
+        "x1": 692,
+        "y1": 1063
+      },
+      "writingAxisNote": "Clean diagonal long axis excluding upper hole, actual glyph fit held."
+    },
+    "props": {
+      "chair": {
+        "visibleBounds": {
+          "x0": 219,
+          "y0": 308,
+          "x1": 1030,
+          "y1": 850
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 308,
+          "y0": 311,
+          "x1": 1024,
+          "y1": 823
+        },
+        "note": "Real chair back/seat/arm visible; lower parts hidden by table. Empty seat recognizable but broad."
+      },
+      "oliveThrow": {
+        "visibleBounds": {
+          "x0": 139,
+          "y0": 483,
+          "x1": 580,
+          "y1": 858
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 189,
+          "y0": 490,
+          "x1": 540,
+          "y1": 835
+        },
+        "note": "Recognizable used knit throw draped on arm, left spread rather than central40%."
+      }
+    },
+    "fullVisibleEssentialUnion": {
+      "x0": 139,
+      "y0": 308,
+      "x1": 1030,
+      "y1": 1063
+    },
+    "conservativeRecognitionUnion": {
+      "x0": 189,
+      "y0": 311,
+      "x1": 1024,
+      "y1": 1063
+    },
+    "ambient": {
+      "lamp": {
+        "visibleBounds": {
+          "x0": 853,
+          "y0": 57,
+          "x1": 1084,
+          "y1": 472
+        },
+        "fullBounds": null,
+        "clippedExtentUnknown": true
+      }
+    },
+    "proposedCrop": {
+      "portrait": [
+        0,
+        0,
+        1084,
+        1451
+      ],
+      "note": "Native portrait approximation3:4; exact final export root-owned. Full image is NOT tall-phone crop or motion proof."
+    },
+    "tagPhysics": {
+      "mechanism": "Low narrow-stem exterior wrap",
+      "frontArc": "Taupe arc visible on front stem",
+      "sideOcclusion": "Side strands turn around stem; rear unseen",
+      "knot": "Small right-side knot near601,930",
+      "tether": "Very short downward connection to punched hole617,949",
+      "hole": "Visible real punched hole",
+      "gravity": "Small paper hangs below support and leans outward",
+      "separateOrContact": "Lower corner visibly touches table, bowl separate",
+      "uncertainties": [
+        "Closely doubled stem cord persists",
+        "Rear knot depth/load not established",
+        "Upper paper overlaps lower stem/foot region"
+      ],
+      "pass": false
+    }
+  }
+}

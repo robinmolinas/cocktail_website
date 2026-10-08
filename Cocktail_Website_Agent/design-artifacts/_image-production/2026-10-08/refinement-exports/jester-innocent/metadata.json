@@ -1,0 +1,714 @@
+{
+  "pairing": "jester-innocent",
+  "pour": "Off the Tour",
+  "status": "private-review-export; all-acceptance-gates-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+  "review": {
+    "recipe": "One pale faint-green Collins with angular crushed ice and red Angostura atop mound, retained wooden swizzle/no straw/garnish. Internal fine snow texture not fully proved through frost; some larger transparent chips. Source volumes unobservable.",
+    "personality": "Torn used sachet and connected full-size striped folding deckchair identifiable. Chair now farther back but still broad, not compact moving-phone composition.",
+    "world": "Dark historic timber room retained. Long-grain table carries strong amber reflected sheen and repeated surface marks; glass/ice dense frost/sparkle. Material direction not fully resolved.",
+    "issues": [
+      "Low loop lies near liquid-to-base boundary, not entirely clear foot",
+      "Possible paired/double strand remains",
+      "Rear attachment/load invisible; no blanket physics PASS",
+      "Broad person group and long swizzle remain crop/motion risks",
+      "Name fit untested on small label",
+      "Timber warmth/gloss and dense frost held"
+    ]
+  },
+  "measurements": {
+    "pairing": "jester-innocent",
+    "pour": "Off the Tour",
+    "version": "v4",
+    "sourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+    "specSha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+    "roomSha256": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d",
+    "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "measurementMethod": "Conservative original-resolution visual estimates, native IHDR probed. Proposed crop is not phone/motion/name/physics acceptance.",
+    "unknownExtents": {
+      "deckchairOccludedPosterior": null,
+      "hiddenSwizzleProngs": null,
+      "allInternalIceGeometry": null
+    },
+    "review": {
+      "recipe": "One pale faint-green Collins with angular crushed ice and red Angostura atop mound, retained wooden swizzle/no straw/garnish. Internal fine snow texture not fully proved through frost; some larger transparent chips. Source volumes unobservable.",
+      "personality": "Torn used sachet and connected full-size striped folding deckchair identifiable. Chair now farther back but still broad, not compact moving-phone composition.",
+      "world": "Dark historic timber room retained. Long-grain table carries strong amber reflected sheen and repeated surface marks; glass/ice dense frost/sparkle. Material direction not fully resolved.",
+      "issues": [
+        "Low loop lies near liquid-to-base boundary, not entirely clear foot",
+        "Possible paired/double strand remains",
+        "Rear attachment/load invisible; no blanket physics PASS",
+        "Broad person group and long swizzle remain crop/motion risks",
+        "Name fit untested on small label",
+        "Timber warmth/gloss and dense frost held"
+      ]
+    },
+    "orientation": "wide",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/wide-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-d7d3a045-30a4-49aa-a220-7ce2535a3e10.png",
+    "masterSha256": "af37e19dd5be4a7fd0d2eb6179278c6511d78966f57a1ed986d34a96eb8bbff4",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      690,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1323,
+      "cy": 779,
+      "w": 65,
+      "angle": 72
+    },
+    "glass": {
+      "x": 1185,
+      "y": 570
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1070,
+        "y0": 341,
+        "x1": 1308,
+        "y1": 805
+      },
+      "paper": {
+        "x0": 1293,
+        "y0": 728,
+        "x1": 1356,
+        "y1": 824
+      },
+      "swizzle": {
+        "x0": 1258,
+        "y0": 222,
+        "x1": 1311,
+        "y1": 352
+      },
+      "iceIncludingMound": {
+        "x0": 1086,
+        "y0": 285,
+        "x1": 1300,
+        "y1": 747
+      }
+    },
+    "personBounds": {
+      "foldedDeckchair": {
+        "x0": 808,
+        "y0": 247,
+        "x1": 1214,
+        "y1": 611
+      },
+      "tornSachetAndScrap": {
+        "x0": 789,
+        "y0": 735,
+        "x1": 1054,
+        "y1": 834
+      }
+    },
+    "recognitionRegions": {
+      "foldedDeckchair": {
+        "x0": 832,
+        "y0": 253,
+        "x1": 1195,
+        "y1": 604
+      },
+      "tornSachetAndScrap": {
+        "x0": 789,
+        "y0": 735,
+        "x1": 1054,
+        "y1": 834
+      },
+      "wholeSwizzle": {
+        "x0": 1258,
+        "y0": 222,
+        "x1": 1311,
+        "y1": 352
+      },
+      "allServedIce": {
+        "x0": 1086,
+        "y0": 285,
+        "x1": 1300,
+        "y1": 747
+      }
+    },
+    "group": {
+      "fullBounds": {
+        "x0": 789,
+        "y0": 222,
+        "x1": 1356,
+        "y1": 834
+      },
+      "recognitionBounds": {
+        "x0": 789,
+        "y0": 222,
+        "x1": 1356,
+        "y1": 834
+      },
+      "fullWidth": 567,
+      "recognitionWidth": 567,
+      "physicalServeBoundsIncludingAllPhysicalObjects": {
+        "x0": 1070,
+        "y0": 222,
+        "x1": 1356,
+        "y1": 824
+      }
+    },
+    "tagPhysics": {
+      "supportLoop": "Upper cord completely removed. Continuous exterior low front arc y717–754 with side occlusion; appears two adjacent tan strands at liquid/clear-base boundary, not fully on clear foot.",
+      "knot": "Small side knot around1298,720.",
+      "tether": "Short downward cord to hole around1310,743.",
+      "hole": "Dark punched hole visible at1310,743.",
+      "gravity": "Small paper inclines down/right.",
+      "airgap": "Outboard paper projects separated from glass except tie vicinity.",
+      "contact": "Bottom edge y822 meets timber with shadow; honestly supported rather than floating.",
+      "uncertainty": [
+        "Two strand versus cord/highlight uncertain",
+        "Rear arc/load unobservable",
+        "Support height target partly missed"
+      ],
+      "assessment": "Clearer supported low attachment, not strict single-loop PASS."
+    },
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/measurements.json",
+      "originalMeasurementSha256": "1b79d5a3139333b5e73f1e7cbcddb23972d08aad58111f24ab5c5599a15db386",
+      "previousSourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "portraitMeasurementFile": "portrait-measurements.json"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1519.2344497607655,
+        "cy": 895.0212765957447,
+        "w": 74.64114832535886,
+        "angle": 72.00895250497571
+      },
+      "glass": {
+        "x": 1360.7655502392345,
+        "y": 654.8936170212767
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 562.0664206642067,
+        "cy": 894.0041350792557,
+        "w": 62.81918819188191,
+        "angle": 75.00775247750023
+      },
+      "glass": {
+        "x": 458.7453874538745,
+        "y": 727.7739490006892
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/jester-innocent/portrait.jpg",
+    "wide": "/personas/jester-innocent/wide.jpg",
+    "wideTag": {
+      "cx": 0.791267942583732,
+      "cy": 0.8287234042553191,
+      "w": 0.038875598086124404,
+      "angle": 72.00895250497571
+    },
+    "wideGlass": {
+      "x": 0.708732057416268,
+      "y": 0.6063829787234043
+    },
+    "tag": {
+      "cx": 0.6273062730627307,
+      "cy": 0.7450034458993797,
+      "w": 0.07011070110701106,
+      "angle": 75.00775247750023
+    },
+    "glass": {
+      "x": 0.5119926199261993,
+      "y": 0.6064782908339077
+    }
+  },
+  "hashes": {
+    "master": "af37e19dd5be4a7fd0d2eb6179278c6511d78966f57a1ed986d34a96eb8bbff4",
+    "wide": "0f6527ed61604b52577ab8e0ac3af13564bd9c43e3a9d5991b2291efda7db201",
+    "portrait": "4fa9ac139e5d8e8b107c6e1cbb899fe41db17ee6bfd46774cb21fcfa822341b5",
+    "portraitMaster": "e3121e2900c4ded606ee3fcb35d5d98cd1495e02f911e21c06037a04a4a387d5"
+  },
+  "geometryScope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1228.7081339712918,
+          "y0": 391.78723404255317,
+          "x1": 1502.0095693779904,
+          "y1": 924.8936170212767
+        },
+        "paper": {
+          "x0": 1484.7846889952152,
+          "y0": 836.4255319148937,
+          "x1": 1557.1291866028707,
+          "y1": 946.7234042553192
+        },
+        "swizzle": {
+          "x0": 1444.5933014354066,
+          "y0": 255.06382978723406,
+          "x1": 1505.4545454545455,
+          "y1": 404.4255319148936
+        },
+        "iceIncludingMound": {
+          "x0": 1247.0813397129186,
+          "y0": 327.44680851063833,
+          "x1": 1492.822966507177,
+          "y1": 858.2553191489362
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 943.9234449760766,
+          "y0": 326.48936170212767,
+          "x1": 1171.6746411483255,
+          "y1": 770.7446808510639
+        },
+        "paper": {
+          "x0": 1157.3205741626793,
+          "y0": 697.0212765957447,
+          "x1": 1217.6076555023924,
+          "y1": 788.936170212766
+        },
+        "swizzle": {
+          "x0": 1123.8277511961721,
+          "y0": 212.55319148936172,
+          "x1": 1174.5454545454545,
+          "y1": 337.02127659574467
+        },
+        "iceIncludingMound": {
+          "x0": 959.2344497607655,
+          "y0": 272.87234042553195,
+          "x1": 1164.019138755981,
+          "y1": 715.2127659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1310.622009569378,
+          "y0": 364.5463829787234,
+          "x1": 1602.1435406698565,
+          "y1": 933.1931914893618
+        },
+        "paper": {
+          "x0": 1583.7703349282297,
+          "y0": 838.8272340425532,
+          "x1": 1660.9377990430621,
+          "y1": 956.4782978723405
+        },
+        "swizzle": {
+          "x0": 1540.8995215311004,
+          "y0": 218.70808510638295,
+          "x1": 1605.8181818181818,
+          "y1": 378.0272340425532
+        },
+        "iceIncludingMound": {
+          "x0": 1330.22009569378,
+          "y0": 295.9165957446809,
+          "x1": 1592.3444976076555,
+          "y1": 862.1123404255319
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.6627369439071563
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2201.4354066985647,
+          "y0": 373.8973404255321,
+          "x1": 2691.1004784689,
+          "y1": 1329.046276595745
+        },
+        "paper": {
+          "x0": 2660.2392344497607,
+          "y0": 1170.5409574468088,
+          "x1": 2789.8564593301435,
+          "y1": 1368.1579787234045
+        },
+        "swizzle": {
+          "x0": 2588.2296650717703,
+          "y0": 128.93457446808532,
+          "x1": 2697.272727272727,
+          "y1": 396.54095744680865
+        },
+        "iceIncludingMound": {
+          "x0": 2234.354066985646,
+          "y0": 258.6207446808513,
+          "x1": 2674.6411483253587,
+          "y1": 1209.6526595744683
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5119926199261993,
+        "y": 0.6064782908339077
+      },
+      "bounds": {
+        "glass": {
+          "x0": 135.72829028290283,
+          "y0": 375.17574086836663,
+          "x1": 265.9513653136531,
+          "y1": 653.7946243969676
+        },
+        "paper": {
+          "x0": 256.0683640836408,
+          "y0": 597.9545141281875,
+          "x1": 289.7868388683887,
+          "y1": 655.5396278428669
+        },
+        "swizzle": {
+          "x0": 238.6277736777368,
+          "y0": 303.0489317711923,
+          "x1": 268.85813038130385,
+          "y1": 382.73742246726397
+        },
+        "iceIncludingMound": {
+          "x0": 137.47234932349323,
+          "y0": 339.6940041350793,
+          "x1": 261.30054120541206,
+          "y1": 622.3845623707788
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5119926199261993,
+        "y": 0.6064782908339077
+      },
+      "bounds": {
+        "glass": {
+          "x0": 149.540344403444,
+          "y0": 414.2935906271537,
+          "x1": 293.34118081180816,
+          "y1": 721.9627842866988
+        },
+        "paper": {
+          "x0": 282.42772447724474,
+          "y0": 660.3004824259132,
+          "x1": 319.6618696186962,
+          "y1": 723.8897312198484
+        },
+        "swizzle": {
+          "x0": 263.1686838868389,
+          "y0": 334.6464507236389,
+          "x1": 296.5510209102091,
+          "y1": 422.6436940041351
+        },
+        "iceIncludingMound": {
+          "x0": 151.46624846248466,
+          "y0": 375.1123363197795,
+          "x1": 288.20543665436657,
+          "y1": 687.2777394900069
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5119926199261993,
+        "y": 0.6064782908339077
+      },
+      "bounds": {
+        "glass": {
+          "x0": 120.80098400984008,
+          "y0": 252.4879393521709,
+          "x1": 208.43926199261995,
+          "y1": 439.9944865609924
+        },
+        "paper": {
+          "x0": 201.7881426814268,
+          "y0": 402.4148862853205,
+          "x1": 224.48019680196802,
+          "y1": 441.1688490696072
+        },
+        "swizzle": {
+          "x0": 190.0508733087331,
+          "y0": 203.947622329428,
+          "x1": 210.39547355473553,
+          "y1": 257.57684355616817
+        },
+        "iceIncludingMound": {
+          "x0": 121.97471094710949,
+          "y0": 228.6092350103377,
+          "x1": 205.30932349323496,
+          "y1": 418.85596140592696
+        }
+      }
+    }
+  ],
+  "portraitMeasurements": {
+    "pairing": "jester-innocent",
+    "pour": "Off the Tour",
+    "version": "v4",
+    "sourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+    "specSha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+    "roomSha256": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d",
+    "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "measurementMethod": "Conservative original-resolution visual estimates, native IHDR probed. Proposed crop is not phone/motion/name/physics acceptance.",
+    "unknownExtents": {
+      "deckchairOccludedPosterior": null,
+      "hiddenSwizzleProngs": null,
+      "allInternalIceGeometry": null
+    },
+    "review": {
+      "recipe": "One pale faint-green Collins with angular crushed ice and red Angostura atop mound, retained wooden swizzle/no straw/garnish. Internal fine snow texture not fully proved through frost; some larger transparent chips. Source volumes unobservable.",
+      "personality": "Torn used sachet and connected full-size striped folding deckchair identifiable. Chair now farther back but still broad, not compact moving-phone composition.",
+      "world": "Dark historic timber room retained. Long-grain table carries strong amber reflected sheen and repeated surface marks; glass/ice dense frost/sparkle. Material direction not fully resolved.",
+      "issues": [
+        "Low loop lies near liquid-to-base boundary, not entirely clear foot",
+        "Possible paired/double strand remains",
+        "Rear attachment/load invisible; no blanket physics PASS",
+        "Broad person group and long swizzle remain crop/motion risks",
+        "Name fit untested on small label",
+        "Timber warmth/gloss and dense frost held"
+      ]
+    },
+    "orientation": "portrait",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-3734d9ba-c27a-43ad-8c83-d9e3c9f13d18.png",
+    "masterSha256": "e3121e2900c4ded606ee3fcb35d5d98cd1495e02f911e21c06037a04a4a387d5",
+    "masterDimensions": {
+      "width": 1084,
+      "height": 1451
+    },
+    "wideCrop": [
+      0,
+      430,
+      1084,
+      610
+    ],
+    "portraitCrop": [
+      0,
+      0,
+      1084,
+      1451
+    ],
+    "crossOrientationCropIntended": false,
+    "tag": {
+      "cx": 680,
+      "cy": 1081,
+      "w": 76,
+      "angle": 75
+    },
+    "glass": {
+      "x": 555,
+      "y": 880
+    },
+    "bounds": {
+      "glass": {
+        "x0": 445,
+        "y0": 645,
+        "x1": 669,
+        "y1": 1124
+      },
+      "paper": {
+        "x0": 652,
+        "y0": 1028,
+        "x1": 710,
+        "y1": 1127
+      },
+      "swizzle": {
+        "x0": 622,
+        "y0": 521,
+        "x1": 674,
+        "y1": 658
+      },
+      "iceIncludingMound": {
+        "x0": 448,
+        "y0": 584,
+        "x1": 661,
+        "y1": 1070
+      }
+    },
+    "personBounds": {
+      "foldedDeckchair": {
+        "x0": 69,
+        "y0": 381,
+        "x1": 544,
+        "y1": 886
+      },
+      "tornSachetAndScrap": {
+        "x0": 290,
+        "y0": 962,
+        "x1": 458,
+        "y1": 1057
+      }
+    },
+    "recognitionRegions": {
+      "foldedDeckchair": {
+        "x0": 96,
+        "y0": 399,
+        "x1": 522,
+        "y1": 861
+      },
+      "tornSachetAndScrap": {
+        "x0": 290,
+        "y0": 962,
+        "x1": 458,
+        "y1": 1057
+      },
+      "wholeSwizzle": {
+        "x0": 622,
+        "y0": 521,
+        "x1": 674,
+        "y1": 658
+      },
+      "allServedIce": {
+        "x0": 448,
+        "y0": 584,
+        "x1": 661,
+        "y1": 1070
+      }
+    },
+    "group": {
+      "fullBounds": {
+        "x0": 69,
+        "y0": 381,
+        "x1": 710,
+        "y1": 1127
+      },
+      "recognitionBounds": {
+        "x0": 96,
+        "y0": 399,
+        "x1": 710,
+        "y1": 1127
+      },
+      "fullWidth": 641,
+      "recognitionWidth": 614,
+      "physicalServeBoundsIncludingAllPhysicalObjects": {
+        "x0": 445,
+        "y0": 521,
+        "x1": 710,
+        "y1": 1127
+      }
+    },
+    "tagPhysics": {
+      "supportLoop": "Upper line removed and previously broken low front arc now complete. Tan front loop y1028–1064 around liquid-to-clear-base boundary, appears thicker/possibly two parallel strands.",
+      "knot": "Tiny knot right around660,1026.",
+      "tether": "Short downward link about660,1027 to hole668,1045.",
+      "hole": "Dark punched hole visible668,1045.",
+      "gravity": "Paper down/right, bottom on wood.",
+      "airgap": "Mostly outboard, clear separate left edge below knot.",
+      "contact": "Bottom edge y1125 meets table; local shadow/contact credible.",
+      "uncertainty": [
+        "Rear load unobservable",
+        "Single-strand count uncertain",
+        "Loop not fully clear foot"
+      ],
+      "assessment": "Continuous front support and contact improved, strict requested single clear-foot loop remains held."
+    },
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/measurements-portrait.json",
+      "originalMeasurementSha256": "df8458faf37def551b83614a43a776dda7e34ec2840ca8875f9dfa7aa3b2ea04",
+      "previousSourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    }
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

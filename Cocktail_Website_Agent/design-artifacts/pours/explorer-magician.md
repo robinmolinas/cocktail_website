@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 ## Cocktail
 
 - **name:** Just Knew
-- **tagline:** You've been doing it for years. You just never called it that.
+- **tagline:** You're always looking for a little magic to carry into everyday life.
 - **glassware:** a rocks glass, filled with ice
 - **contains:** `[]`
 

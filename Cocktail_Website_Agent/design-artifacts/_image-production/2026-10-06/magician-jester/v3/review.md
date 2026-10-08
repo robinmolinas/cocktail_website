@@ -1,0 +1,7 @@
+# Native review — Even When You Know v3
+
+Fresh wide and dedicated portrait original-size reviewed. Exact THREE intended layers visually retained: clear bottom, tawny middle, dark red top; no ice/foam/garnish/second drink. These are intentional layers, not an AI fault. Exact75ml/45ml/10:15:20/bottle density testing cannot be certified from photographs; liquid looks fuller than approximate two-thirds source brief. Native glass572pxwide/533pxportrait exceeds pulled-back target.
+
+Large balance display removed. Ordinary used magnifier over linen and folded spectacles are source-WHO-inferred looking/shared-view traces, not historical possessions or physical density proof. Wide handle goes outside raster (unknown extent null); portrait full lens/handle end now inside frame. Specific next-person/behaviour recognition remains null. Full798pxwide/660pxportrait unions remain broad; no phone acceptance.
+
+Plain clear glass/flat long-grain wood materially improve on v2 ornamental surfaces, but warm directional reflective timber patches remain (ordinary reflection is not inherently banned). Wide fireplace adds light; portrait unlit hearth corrects it. Both retain pale multi-turn stem coil and paired/longer curved tether; small free paper with visible hole/clearance/gravity plausible, no single-strand/load PASS. Names/copy/movingphone/browser/type unapproved. Six-call revision budget completed across owned three, no additional calls or exports.

@@ -88,6 +88,7 @@ This is a vision to realise. Dionysus distils a guest's answers into one of 132 
   - At least 3 veto-free authored pours, always.
   - The launch gate needs all 132 authored and at least 12 veto-free.
   - Floors are asserted only after the safe-side ingredient-classification review.
+  - The first release serves all 132 authored pours, not only approved ones (Robin, 2026-10-08).
 - **Answer roles.**
   - Lens and seed colour never score archetypes.
   - Flavours act only as a bounded pour-level fit.
@@ -99,6 +100,7 @@ This is a vision to realise. Dionysus distils a guest's answers into one of 132 
   - Model diagnostics (per-group contributions, margins) never reach the journey, the logs or the LLM.
 - **No generated recipes.** The legacy generator (`mixology.ts` / `cocktails.ts`) and the fixed `VISIONARY_SAMPLE` reveal retire from the normal journey. Nothing may silently replace an authored recipe.
 - **Intake changes.** Any change to the H3 control type, the H5 round semantics, or a vocabulary requires a matching sign-off and a coverage re-run.
+- **H5 drawnToward has twelve words** (Q12, Robin 2026-10-08): Mischief retired; Knowledge, Influence, Making and Caring added.
 - **Voice.** Mystical, sophisticated, theatrical, intimate. The anti-references are flat SaaS tone, cartoonish magic and generic menu copy. English only.
 
 ## Non-goals
@@ -120,10 +122,7 @@ This is a vision to realise. Dionysus distils a guest's answers into one of 132 
 
 - The live journey is the only intake. The archived questionnaire docx and the persona fixtures are not inputs.
 - The answer models in distribution-v1.md (uniform, hesitant, coherent) describe the model, not the audience. Playtests replace them.
-- The flavour-rule table is a reasonable first pass until Tomás reviews it.
 
 ## Open Questions
 
-- **Q12 question edit.** H5 drawnToward (now asked second) would drop Mischief and add Knowledge, Influence, Making and Caring, for 12 words. Robin to confirm the copy; the design owner to check 12 spheres on phones.
-- **Approved-only or all authored for the first release?** With approved-only, 4 pours ship today, 3 of them veto-free, which meets the floor but makes matching nearly moot.
 - **Bartender final-choice fixtures.** Which reviewed shortlist cases count as evidence that the LLM's pick is sensible? This is a playtest design question.

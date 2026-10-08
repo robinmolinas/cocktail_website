@@ -1,0 +1,22 @@
+{
+  "batch": 13,
+  "pairing": "jester-explorer",
+  "version": "v2",
+  "operation": "sole built-in focused edit",
+  "input": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-f748bfda-8860-4401-bd64-41a1c053c14e.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v2/master.png",
+  "originalSha256": "02cc231925337af8c13c1a4e59f10356dfecb2296949f2a96e1ee084624d2d4f",
+  "copySha256": "02cc231925337af8c13c1a4e59f10356dfecb2296949f2a96e1ee084624d2d4f",
+  "nativeDimensions": [
+    1602,
+    981
+  ],
+  "sourceSha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+  "specSha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67",
+  "roomSha256": "fb2cc7baf81948067a02af2f3b79d065e4f6835de34a9c6e01993ce3fd67cc2b",
+  "promptFile": "prompt-batch13.md",
+  "readinessFile": "readiness-batch13.md",
+  "callCountForPair": 2,
+  "selection": "measured private candidate only"
+}

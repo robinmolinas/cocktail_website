@@ -1,0 +1,131 @@
+{
+  "pairing": "explorer-sage",
+  "pour": "Show Your Working",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-sage/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-fc09ceed-1340-47a6-99e4-e76dacce349b.png",
+  "sourceSha256": "356bb5a8dacbaf5b751ddf64ee8f17d6283cc0637475d2a17be98634906dafdc",
+  "specSha256": "1d2e75349fbf5a273d547dd7d516e5f8de3dda69a8fadfa544995efcbede99fb",
+  "roomSha256": "84e12f1173e25574c3c0110f0d60f5f63edfa17c4895cd84d2ccbe61a291f2a6",
+  "masterSha256": "52631cc46ae38d54caa6301616cec265daf8659a6771a7b611fa7df76fd1a223",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    834,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1242,
+    "cy": 737,
+    "w": 73,
+    "angle": 63
+  },
+  "glass": {
+    "x": 1104,
+    "y": 563
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1002,
+      "y0": 350,
+      "x1": 1205,
+      "y1": 774
+    },
+    "paper": {
+      "x0": 1190,
+      "y0": 679,
+      "x1": 1292,
+      "y1": 783
+    },
+    "mintSprig": {
+      "x0": 1074,
+      "y0": 265,
+      "x1": 1252,
+      "y1": 382
+    },
+    "crushedIce": {
+      "x0": 1003,
+      "y0": 329,
+      "x1": 1169,
+      "y1": 390
+    }
+  },
+  "personBounds": {
+    "notebookAndPencil": {
+      "x0": 670,
+      "y0": 509,
+      "x1": 1020,
+      "y1": 656
+    },
+    "copyPacketAndEnvelope": {
+      "x0": 1199,
+      "y0": 512,
+      "x1": 1535,
+      "y1": 686
+    }
+  },
+  "recognitionRegions": {
+    "notebookAndPencil": {
+      "x0": 680,
+      "y0": 511,
+      "x1": 1018,
+      "y1": 652
+    },
+    "copyPacketAndEnvelope": {
+      "x0": 1201,
+      "y0": 518,
+      "x1": 1527,
+      "y1": 682
+    }
+  },
+  "traceExtentNotes": {
+    "notebookAndPencil": "Wholevisiblebluebinding/openblankpages/pencil, rightbackoccludedglass; notebook ordinarymodern sourcebrief not historicalnotebook claim.",
+    "copyPacketAndEnvelope": "Wholevisible clippedplaincopypacket+openenvelope, backleftoccludedglass, inferredwholeanswerhandover format. No inventedwriting/cipher."
+  },
+  "group": {
+    "fullWidth": 865,
+    "recognitionWidth": 847
+  },
+  "tagPhysics": {
+    "supportLoop": "ExteriorLOWbody snugcottonloop/frontarc ~y645\u2013674, rearhidden notrim.",
+    "knot": "Visible sideknot1185,664.",
+    "tether": "Shortcontinuous down/outward cord to punchedhole1219,702.",
+    "hole": "Puncheddark hole1219,702 visible.",
+    "gravity": "Smallpaper downward/right.",
+    "airgap": "Broadface separated outboard fromglass with visiblegap, onlysupportcontact.",
+    "contact": "Tip783 rests realwood/contactshadow; notfreefloating.",
+    "uncertainty": "Rearloop/friction/posteriorknotload unobservable; realnamefituntested.",
+    "assessment": "Plausible actualchain/contact, uncertaintyheld notphysicsPASS."
+  },
+  "review": {
+    "recipe": "OneplainstraighttallZombie/cloudyamberorange (sourcecraftestimate)/wetcrushedice/topup/ONEmintsprig only; nohead/extrafruit/tikimug/flame. Ice/glassstilldenseuniform wetdetail.",
+    "personality": "Notebook/pencil privatequestionwork and clippedpacket/envelope inferredwholeanswerhandover; recognizable but genericpaperandbroadsidebyside persists.",
+    "world": "Historichouse/quietleftthird/coolwindowvisiblelampglare removed, but glossyamberdensegrainand broadsheen persists notlow-satinneutral.",
+    "issues": [
+      "Glass424px (350\u2013774) exceeds300\u2013360 target, actualallminttop265/label783.",
+      "Full865px/conservative recognition847px includes ALLservedmint/ice/paper/traces, not389movingphone.",
+      "Proposedportrait834\u20131536 cutsleftnotebookbinding/pencilpoint; no702portraitorphonePASS.",
+      "Ambergloss/densewoodgrainandweticeglass remainmaterialHELD.",
+      "Tag73pxusableaxis followsdiscreetscale; actualnamefitunknown.",
+      "Posteriorloop/friction/loadnot proven; no blanketphysicsPASS.",
+      "Tracepacket ordinaryinference, specificitynotapproved."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "eb8bf8517cfaa405a994cb270d1e7d927c668764350c811d650e034ac88bf263",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You'll wait years for the real answer. Then you give it away.",
+      "+ - **tagline:** You'll follow a question for years, then share every part of the answer."
+    ]
+  }
+}

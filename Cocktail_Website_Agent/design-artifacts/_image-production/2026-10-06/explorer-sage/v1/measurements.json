@@ -1,0 +1,121 @@
+{
+  "pairing": "explorer-sage",
+  "pour": "Show Your Working",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-sage/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-38a58f5f-7aab-44ee-a1e3-f6a773215b52.png",
+  "sourceSha256": "eb8bf8517cfaa405a994cb270d1e7d927c668764350c811d650e034ac88bf263",
+  "specSha256": "1d2e75349fbf5a273d547dd7d516e5f8de3dda69a8fadfa544995efcbede99fb",
+  "roomSha256": "84e12f1173e25574c3c0110f0d60f5f63edfa17c4895cd84d2ccbe61a291f2a6",
+  "masterSha256": "33ca2548ccc4a603545e5b2a5c37d45c8afad09a591906013797cad3171fd5ea",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    875,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1233,
+    "cy": 752,
+    "w": 109,
+    "angle": 64
+  },
+  "glass": {
+    "x": 1046,
+    "y": 500
+  },
+  "bounds": {
+    "glass": {
+      "x0": 889,
+      "y0": 188,
+      "x1": 1202,
+      "y1": 808
+    },
+    "paper": {
+      "x0": 1167,
+      "y0": 672,
+      "x1": 1307,
+      "y1": 822
+    },
+    "mintSprig": {
+      "x0": 1006,
+      "y0": 44,
+      "x1": 1282,
+      "y1": 225
+    },
+    "crushedIce": {
+      "x0": 887,
+      "y0": 141,
+      "x1": 1148,
+      "y1": 244
+    }
+  },
+  "personBounds": {
+    "notebookAndPencil": {
+      "x0": 418,
+      "y0": 405,
+      "x1": 912,
+      "y1": 611
+    },
+    "copyPacketAndEnvelope": {
+      "x0": 1186,
+      "y0": 414,
+      "x1": 1672,
+      "y1": 675
+    }
+  },
+  "recognitionRegions": {
+    "notebookAndPencil": {
+      "x0": 429,
+      "y0": 409,
+      "x1": 903,
+      "y1": 607
+    },
+    "copyPacketAndEnvelope": {
+      "x0": 1190,
+      "y0": 426,
+      "x1": 1649,
+      "y1": 664
+    }
+  },
+  "traceExtentNotes": {
+    "notebookAndPencil": "Wholevisible modernbluebinding/openplainpages/pencil, rear/rightoccludedglass; nofakewriting.",
+    "copyPacketAndEnvelope": "Clippedcopy-stack/envelope to native rightedge; unseenextentunknown, ordinaryinferred giftformat nothistoricalartifact."
+  },
+  "group": {
+    "fullWidth": 1254,
+    "recognitionWidth": 1220
+  },
+  "tagPhysics": {
+    "supportLoop": "ExteriorLOWbody curvedfrontarc y622–665/rearhidden.",
+    "knot": "Visible rightsideknot1159,650.",
+    "tether": "Continuous shortdownwardcord tohole1206,702.",
+    "hole": "Punchedhole1206,702 visible.",
+    "gravity": "Smallpaperdownright.",
+    "airgap": "Outboardclear gap betweenface/glass.",
+    "contact": "Bottom822toucheswood/contactshadow.",
+    "uncertainty": "Rearloop/friction/loadnotvisible; actualnameuntested.",
+    "assessment": "Plausiblechain/contact, notphysicsPASS."
+  },
+  "review": {
+    "recipe": "PlainclearZombie/cloudyamberorange/crushedice/ONEmintsprig only; nohead/extrafruit/flame. Denseetched-lookingwetdetail.",
+    "personality": "Modernblue notebook+pencil privatequestionwork; clippedpacket/envelope inferredwholeanswerhandover. Broadgenericpaperread.",
+    "world": "Historicemptyroom, brightcoolleftwindow/visiblelamp and glossyamber scratchedwood.",
+    "issues": [
+      "Glass620pxvs300–360, servedminttop44/foot822cropverticalrisk.",
+      "Full1254/recognition1220px includes ALLmint/ice/tag; not389phone.",
+      "Proposedportraitclipsbothpapertraces; packetnativecropped/unseenextentunknown.",
+      "Glossyamber timber/denseglassice.",
+      "Posteriorload andnamefituntested."
+    ]
+  }
+}

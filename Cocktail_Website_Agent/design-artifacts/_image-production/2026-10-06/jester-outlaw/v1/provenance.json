@@ -1,0 +1,27 @@
+{
+  "pairing": "jester-outlaw",
+  "pour": "Quote Me",
+  "batch": 11,
+  "version": "v1",
+  "mode": "generate",
+  "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-outlaw/v1/prompt-batch11.txt",
+  "readiness": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-outlaw/v1/readiness-batch11.md",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-13fa0c15-1beb-4f9f-8b26-0025efbe6e94.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-outlaw/v1/master.png",
+  "originalSha256": "34cbbb47b3e92caeefdb0568bba95ecd632611bba5a77a8df43b82014e412e7c",
+  "masterSha256": "34cbbb47b3e92caeefdb0568bba95ecd632611bba5a77a8df43b82014e412e7c",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/jester-outlaw.md",
+  "sourceSha256": "f8773e8b98bb77c15225b67dbfc21e3d944b34c253ebbc64f3c996252acd3a2e",
+  "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-outlaw.json",
+  "specSha256": "7f5485f4edccae8a156ef359801a8e409615a8a51bd424e4289bb9f6680bf97c",
+  "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-outlaw.md",
+  "roomSha256": "ca0ced5d4f1c9855ce24c153e932e367247edd2fe3d7b75239e11e1b82db843d",
+  "editTarget": null,
+  "builtInCallsForPairing": 1,
+  "targetedCorrectionCount": 0,
+  "status": "Held measured candidate; no export/browser/material/name-fit acceptance."
+}

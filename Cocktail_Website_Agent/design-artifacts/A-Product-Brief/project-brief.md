@@ -1,223 +1,57 @@
 # Product Brief: Dionysus
 
-> The strategic foundation — why this product exists, who it serves, and what success looks like.
+Created 11 June 2026 · Refreshed 8 October 2026 · Product owner: Robin
 
-**Created:** 2026-06-11
-**Author:** Robin (Strategist, Product Owner & Head Designer)
-**Agent:** Saga (Strategic Business Analyst)
-**Status:** Complete
-**Last Updated:** 2026-06-11
+## Purpose
 
----
+Dionysus is a non-commercial portfolio experience that turns a short ritual of self-reflection into an authored cocktail and a personal reading. The guest should feel seen, enjoy the craft, and want to share or make the drink. Robin directs the product, design and editorial decisions; quality determines the pace.
 
-## Strategic Summary
+The promise is expressed as **“Discover your Spirit Within”**. “Spirit” carries the double meaning of liquor and self; the supporting copy and **“Discover my cocktail”** button make the output concrete. The 8 October wording supersedes the September “Cocktail Within” headline.
 
-Dionysus is an interactive art piece disguised as a web application. It guides visitors through a serene, sumi-e ink wash personality quiz that distills their inner self into a deeply personalized cocktail — complete with a calligraphic recipe, a historically-grounded narrative explaining *why* that drink reflects who they are, and a stunning hand-painted visual of the finished cocktail.
+## Who it serves
 
-This is not a utility. It is a non-commercial, high-fidelity portfolio showcase designed to demonstrate the absolute pinnacle of what is possible when human creative direction partners with AI engineering. There are no commercial KPIs, no revenue targets, and no hard deadlines. The only metric that matters is whether a visitor feels something — whether they stay, admire, and want to share what they found.
+**Celeste, the curious self-explorer**, wants sensory discovery, a thoughtful explanation and a recipe worth keeping. She fears generic personality labels, clinical forms and AI platitudes. She may arrive on a desktop during a quiet break or on a phone in the evening.
 
-The backend orchestrates three specialized AI agents — the Historian, the Mixologist, and the Storyteller — who collaborate to craft a recommendation that is not arbitrary but *meaningful*: rooted in the historical and emotional symbolism of real ingredients, shaped by a proprietary 132-persona archetype matrix, and delivered through a narrative that makes the user feel genuinely seen.
+**Edward, the portfolio evaluator**, judges the same experience for design, engineering, responsiveness and resilience. The craft is the portfolio; the guest journey does not need technical explanations or a separate recruitment interface.
 
----
+**Danielle, the recipient of a shared pour**, admires a friend's cocktail and can begin her own journey. The recipe is a gift; the friend's private reading is withheld.
 
-## Vision
+## The current experience
 
-Create a world-class, serene web application that guides users on a magical journey of self-discovery through a sumi-e and Suminagashi-themed personality quiz, leveraging a collaborative multi-agent AI backend to generate and visually display deeply personalized cocktails representing the user's core personality.
+The Entrance leads into **The Suspended Pour**, a continuous video journey that plays at native speed and pauses for each interaction. It ends in **TheReading**, the cocktail's dark photographic room, with the owner's reading and recipe. The retired nineteen-question, six-page ink-clearing concept is historical.
 
-**Key principles:**
-- **AI Showcase Ambition:** A premier portfolio piece demonstrating AI-guided design and development at the highest level of craft.
-- **Serene, Immersive Aesthetics:** Visuals and transitions draw from Japanese sumi-e ink wash paintings, water marbling (Suminagashi), and Pottermore-style page-turn animations.
-- **Agentic Backend:** Multiple specialized AI agents (Historian, Mixologist, Storyteller) operate collaboratively to craft the recipe and a bespoke, heartfelt narrative.
-- **Web-First Output with PDF Export:** The cocktail and story are presented dynamically on the website, with the option to download a beautifully formatted PDF recipe card.
+- H1: name and perspective, including **Another side of me**; the guest's name stays theirs.
+- H2: a seed colour carried as light and lettering.
+- H3: five continuous 0–100 gravity choices.
+- H4: a centred instruction rises into the unscored **1 / 2** example, followed by nine binary word pairs. Missing choices are respected; Still Water removes the deadline.
+- H5: **A world of your own**. First, what others come to you for gathers into the central sphere; second, what draws you receives rings of its light. Each round allows up to three reversible choices. Carrying a word is an alternative to tapping in the first round.
+- H6: flavours with fine line icons, then ingredient vetoes. Glassware is fixed by the pour; there is no vessel question or Alcohol veto.
+- H7: an optional trace that stays in the browser.
+- H8–H9: the breath and dark reveal transition.
+- H10: the owner reading. Portrait phones show the unobscured scene first, then the title and text below. **Share your cocktail** and **Save the recipe** appear at the bottom only. Printing produces two clean sheets.
 
----
+The [experience specification](../2026-07-08-experience-master-spec.md) owns the detailed flow and implementation limits. [DESIGN.md](../../dionysus-experience/DESIGN.md) owns visual rules.
 
-## Target Users
+## What makes the result meaningful
 
-### Primary: The Curious Esthete & Self-Explorer
+The collection has **132 ordered pairings**: twelve archetypes, each paired with eleven different secondary archetypes. Reversing a pair changes the outcome. Primary expresses the core motive; secondary expresses how it shows. This is a creative reflection, with no claim of psychological validity.
 
-A person drawn by the sensory art of mixology and the quiet thrill of personality reflection. They are not seeking utility — they are seeking a moment of sensory curiosity and emotional connection.
+The Pour Studio authors the collection offline through psychology, history, mixology and storytelling. Every pairing has one recipe, fixed glass, sourced anchors and authored reading. At runtime, deterministic scoring selects three eligible pours; the future Bartender chooses within those three and may tailor only `yours`. Recipes and historical facts stay authored. Failed selection or tailoring uses the first-ranked pour and authored text.
 
-**Context:** Visiting the site during personal downtime — a brief, quiet workday break at their desktop, or winding down in bed on their phone in the evening.
+The distinction is essential: the runtime selects and frames the collection; it does not research or invent a new drink for each guest. The [pipeline specification](../../agent/spec/SPEC.md) and [architecture spine](../../agent/ARCHITECTURE-SPINE.md) govern this boundary.
 
-**Drivers:**
-- Mixology excitement — appreciation for cocktails as creative, exciting art forms
-- Self-discovery — desire to see how a cocktail profile reflects who they are, specifically the *why* behind the recommendation
+## Success and constraints
 
-**Frustrations:**
-- **Calculated arbitrariness** — quizzes where the outcome feels pre-programmed
-- **Cognitive load** — long, wordy questionnaires that require deep logical thinking
-- **Lack of narrative depth** — results that output a generic label without explaining why
+- First-time guests understand the interactions, finish the journey and find the result personally meaningful.
+- Motion is smooth, text legible, input equivalent on desktop and phone, and Still Water usable. Native video playback stays at 1×. Intentional choreography is judged by its approved rhythm; the old blanket four-second transition limit no longer describes the experience.
+- Different answer fixtures must reveal different authored pours. Catalogue, veto, privacy, fallback and coverage checks must pass before release.
+- The recipe and letter save cleanly, and shared gifts invite another visit without exposing the personal reading.
+- The original **>80% completion** and **>40% save** targets remain aspirations. They are not measured results; browser print opening does not prove a PDF was saved. No per-hold analytics is authorized by these targets.
 
-**How they currently solve this:**
-- Buzzfeed-style personality tests (too generic, too childish)
-- Myers-Briggs/archetype tests (too analytical, too clinical)
-- Standard mixology lists and books (lack personal reflection)
+English only. No accounts, commerce, runtime images, recipe substitutions or zero-proof variants at launch. Vetoes filter whole pours. All 132 authored pours are eligible for the first release under the strict content gate; formal editorial approval remains separately recorded.
 
-### Secondary: Creative Peers, Leads & Recruiters
+## State and next work
 
-Design directors, software engineering leads, and recruiters evaluating Robin's portfolio. They do not need separate portfolio menus — they experience the quiz as a primary user. The world-class quality of the design, animation, and engineering *is* the portfolio showcase.
+The journey and reading UI exist. Matching components are being built, but the primary app still reveals the fixed *Down the Line / The Visionary* pilot. Current component and integration status belongs in the [continuation status](../2026-10-06-continuation-status.md), not in this strategic brief.
 
----
-
-## Core Product Concept
-
-**"Distillation of the Unseen Self" — The Cocktail Within You**
-
-The app operates as an interactive, calligraphic alchemy laboratory. Instead of "building" a recipe from scratch through input selections, the application *uncovers* a complex liquid identity that already exists inside the user's mind, history, and preferences.
-
-### The Journey Structure
-
-1. **Entrance (Concealed Dark Landing):** A quiet, ink-swirling canvas. The user clicks "Discover the cocktail within you" and begins.
-2. **Journey (Ink Wash Clearing Quiz):** 19 questions across 6 pages using rapid emotional associations. The cursor acts as a bar spoon, swirling sumi-e ink washes that represent density layers of a drink. Each page answered clears a layer of dark ink, revealing clean watercolor paper beneath.
-3. **Climax (Overflow Reveal):** The ink overflows in a splash of watercolor paint. Out of the splash, calligraphy letters render the name of their cocktail, a beautiful hand-painted visual appears, and a narrative details why this recipe fits their personality.
-
-### Implementation Principles
-
-1. **Visual-First Narrative:** The climax is driven by a beautiful visual and a heartfelt story, not just text data.
-2. **Subtractive Discovery:** The quiz is an act of clearing away noise (ink) to reveal the self.
-3. **Tactile Mixology Metaphors:** Motion is structured around drink preparation physics — shaking, pouring, density, stirring, spilling.
-4. **Physical Export Utility:** A clean, print-ready PDF card bridges the digital experience to real-life usage.
-
-### Key Features
-
-- **Interactive Bar Spoon Cursor:** A Canvas fluid simulation that marbles background inks in response to mouse/touch movement.
-- **Density-Layered Quiz Transition:** Page-turn mechanics styled as sinking through 6 distinct fluid layers.
-- **The Ink Overflow Climax:** An animation of colored inks overflowing from a glass silhouette to paint the results card.
-- **Agent Storytelling Engine:** Backend API orchestration where a Historian agent researches drink origins and a Storyteller agent writes the personalized narrative.
-- **Print-Ready PDF Recipe Card:** A beautifully formatted, downloadable layout of the cocktail, ingredients, method, and history.
-
----
-
-## Competitive Landscape
-
-### Current Alternatives
-
-| Alternative | Why Users Stick With It | Where It Falls Short |
-| :--- | :--- | :--- |
-| **Cocktail Databases** (Mixel, Difford's) | Mass coverage, trusted recipes | Purely utilitarian; no personalization or emotional connection |
-| **Human Bartenders** | Direct craft, conversational | Dependent on bartender skill; no deep psychological profiling |
-| **Generic Quizzes** (Buzzfeed, MBTI) | Fun, fast, simple | Feels arbitrary; no tangible, real-world outputs |
-| **Doing Nothing** | No cognitive load | Misses discovering new flavors or understanding personality through drink craft |
-
-### Our Unfair Advantages
-
-1. **The Alchemical History Moat:** The Historian Agent connects the historical and emotional "baggage" of ingredients directly to the user's psychology. Recommendations are justified by real cocktail history and ingredient symbolism, not random tag-matching.
-2. **The 132-Persona Matrix:** A proprietary 12×11 archetype grid ensures high resolution and accuracy. Results feel earned and authentic — not a simple 4-quadrant sorting hat.
-3. **Personal Brand Credibility:** Robin's practical passion for mixology (infusions, syrups, techniques) ensures the recommended recipes are technically sound and respected by real-world drink enthusiasts.
-
-### Reality Check
-
-If a generic competitor adds a "quiz" feature, they will map results using basic hardcoded filters. Dionysus remains superior because it is an interactive art piece that treats the result as a calligraphic, narrative mirror. The competitor remains a utility; Dionysus is an emotional experience.
-
----
-
-## Success Criteria
-
-### 1. Aesthetic & Experience Fidelity (Primary)
-
-- The visual presentation across all three pages must feel like a premium, interactive painting.
-- UI rendering must maintain a consistent **60fps** on both desktop and mobile.
-- Page transitions and ink clearing animations must resolve in **under 4 seconds**.
-- Zero perceived delay or errors during multi-agent recommendation generation.
-
-### 2. User Engagement & Retention (Secondary)
-
-- **Quiz Completion Rate:** >80% for users who click "Begin," indicating that the tactile cursor and gestural transitions successfully offset the fatigue of a 19-question form.
-- **Emotional Connection:** Measured by a high rate of PDF recipe card downloads, showing users find the output valuable enough to save.
-
-### 3. Timeline Strategy
-
-- Quality-first sprints. No rushed MVP. Sequential execution of WDS phases (Trigger Mapping → UX Scenarios → Visual Design System → Canvas Fluid Prototypes) with high fidelity at every stage.
-
----
-
-## Constraints & Design Parameters
-
-### Flexible
-
-- **Timeline & Launch:** Sprints driven by quality milestones. Extra iterations on polish, physics simulations, and prompt tuning as needed.
-- **Features:** Backend agent complexity can scale during development.
-
-### Fixed
-
-- **Aesthetic Boundaries:** Calligraphy-led, container-free UI. Sumi-e and Suminagashi visual style is the core constraint. No traditional web form elements (progress bars, numbered steps, card containers).
-- **Mobile Audio:** Autoplay restrictions require that the Subtractive Soundscape is enabled only after the first user gesture.
-- **Performance Budget:** Fluid physics must run at a consistent 60fps on typical mobile screens.
-
----
-
-## Platform & Device Strategy
-
-- **Architecture:** Responsive Web Application (React + Vite + TypeScript)
-- **Device Priority:** Equal priority responsive design — desktop optimizes for wide calligraphic canvas and mouse-move velocity; mobile optimizes for touch drag/swipe gestures and tap target sizes.
-- **Interaction Models:**
-  - Mouse-hover and drag physics for the "bar-spoon" cursor (desktop)
-  - Touch swipe/drag gesture mapping for mobile liquid stirring
-  - User-initiated click to unlock Web Audio API context for the subtractive soundscape
-- **Core Technologies:**
-  - HTML5 Canvas 2D fluid solver for Suminagashi marbling
-  - Web Audio API for decrescendo-to-crescendo soundscape layers
-  - Clientside PDF generation (jspdf or similar) for recipe cards
-
----
-
-## Tone of Voice
-
-**For UI Microcopy & System Messages**
-
-### Tone Attributes
-
-1. **Serene & Immersive:** Calm, minimalist phrasing. Space is left for the visual ink wash and sensory cues to speak.
-2. **Evocative & Alchemical:** The user's journey is framed as an alchemical distillation — using mixology terms (distill, stir, preserve, deepen).
-3. **Gentle & Guiding:** Poetic, non-demanding instructions that treat the user as a partner in discovery.
-
-### Microcopy Reference
-
-| Context | Copy |
-| :--- | :--- |
-| Start Quiz CTA | "Discover the cocktail within you" |
-| Next Page | "Deepen" |
-| Final Submission | "Stir" |
-| Loading State | "Distilling your essence..." |
-| Validation Error | "Please leave your mark" |
-| PDF Download | "Preserve this recipe" |
-
-### Guidelines
-
-**Do:**
-- Use single-word or short-phrase labels that evoke the alchemical journey
-- Let the visuals carry the emotional weight — keep text sparse
-- Use cocktail and mixology metaphors consistently across all interactions
-
-**Don't:**
-- Use generic web form language ("Submit," "Next," "Error," "Download")
-- Over-explain — the mystery is part of the experience
-- Break the serene mood with exclamation marks, urgency, or casual slang
-
----
-
-## Client & Working Relationship
-
-| Field | Value |
-|-------|-------|
-| **Client** | Robin (Strategist, Product Owner & Head Designer) |
-| **Project Type** | Solo / AI showcase portfolio |
-| **Decision Style** | Fast-individual — Robin signs off on all designs and specifications |
-| **Engineering Team** | AI Developer Agents (Antigravity & Mimir) |
-| **Collaboration Style** | Highly collaborative on product strategy and design; autonomous code execution |
-| **Timeline Culture** | Quality-first, no deadline |
-
----
-
-## What's Next
-
-This Product Brief establishes the strategic foundation. Every design decision downstream traces back to what's documented here.
-
-**Phase 2: Trigger Mapping** — Map the 12×11 archetype matrix to user psychology. Define how quiz answers translate to personas and driving forces. Create the feature impact analysis that connects the questionnaire structure to the product concept.
-
----
-
-**Status:** Product Brief Complete
-**Next Phase:** Trigger Mapping (Phase 2)
-**Generated:** 2026-06-11
+Robin approved **Knowledge, Influence, Making and Caring** on 8 October, replacing Mischief in H5's drawnToward round. The production list remains nine words until ticket 1.9 implements twelve and refreshes coverage. Music and broader mobile refinement remain open. Historical discovery and decisions are preserved in `dialog/` and the [document review](../../_bmad-output/document-review-2026-10-08.md).

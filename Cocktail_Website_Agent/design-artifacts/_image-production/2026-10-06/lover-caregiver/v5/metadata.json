@@ -1,0 +1,741 @@
+{
+  "pairing": "lover-caregiver",
+  "pour": "Hoping You’d Come",
+  "status": "private-review-export; all-acceptance-gates-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+  "review": {
+    "recipe": "Cold mashed roast apple/brandy/water serve, one ice lump and spoon. Fine suspended pulp is visibly softer and less chunky than v3. Repeated/faceted fleck pattern remains and needs comparison; not final recipe/material acceptance.",
+    "personality": "Prepared empty leather chair with olive throw retained. Trace is visible but broad and lateral; recognition/crop holds remain.",
+    "world": "Dark hotel reading room and warm practical retained. Timber has strong orange gloss and repeated sheen; house-material hold remains.",
+    "issues": "Fine pulp improved; repeated flecks, doubled stem twine, broad chair/throw and glossy warm timber remain. Browser/name checks unperformed."
+  },
+  "measurements": {
+    "native": {
+      "width": 1672,
+      "height": 941
+    },
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v5/wide-corrected-master.png",
+    "glass": {
+      "x": 1078,
+      "y": 457
+    },
+    "glassBounds": {
+      "x0": 912,
+      "y0": 238,
+      "x1": 1245,
+      "y1": 836
+    },
+    "serveBounds": {
+      "x0": 912,
+      "y0": 84,
+      "x1": 1283,
+      "y1": 838
+    },
+    "ice": {
+      "visibleBounds": {
+        "x0": 970,
+        "y0": 291,
+        "x1": 1115,
+        "y1": 360
+      },
+      "hiddenExtent": null,
+      "note": "One visible ordinary irregular lump, submerged extent uncertain; speckled texture held."
+    },
+    "spoon": {
+      "visibleBounds": {
+        "x0": 1133,
+        "y0": 84,
+        "x1": 1283,
+        "y1": 506
+      },
+      "hiddenExtent": null
+    },
+    "tag": {
+      "cx": 1155,
+      "cy": 752,
+      "w": 134,
+      "angle": 62
+    },
+    "props": {
+      "chair": {
+        "visibleBounds": {
+          "x0": 508,
+          "y0": 51,
+          "x1": 1665,
+          "y1": 681
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 642,
+          "y0": 61,
+          "x1": 1587,
+          "y1": 636
+        },
+        "note": "Full-size chair back, arm and empty seat; lower extent hidden behind table, not a miniature/cropped fragment."
+      },
+      "oliveThrow": {
+        "visibleBounds": {
+          "x0": 371,
+          "y0": 252,
+          "x1": 1016,
+          "y1": 707
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 409,
+          "y0": 264,
+          "x1": 923,
+          "y1": 651
+        },
+        "note": "Used knitted throw on chair arm, far left spread; occluded part behind drink not fabricated."
+      }
+    },
+    "fullVisibleEssentialUnion": {
+      "x0": 371,
+      "y0": 51,
+      "x1": 1665,
+      "y1": 838
+    },
+    "conservativeRecognitionUnion": {
+      "x0": 409,
+      "y0": 61,
+      "x1": 1587,
+      "y1": 838
+    },
+    "ambient": {
+      "lamp": {
+        "visibleBounds": {
+          "x0": 1432,
+          "y0": 0,
+          "x1": 1672,
+          "y1": 370
+        },
+        "fullBounds": null,
+        "clippedExtentUnknown": true
+      }
+    },
+    "proposedCrop": {
+      "wide": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portrait": null,
+      "note": "Dedicated portrait sibling supplied; no destructive master crop. Wide spoon violates20–80% vertical aspiration."
+    },
+    "tagPhysics": {
+      "mechanism": "Stem loop below bowl",
+      "frontArc": "Visible snug front curved taupe cord",
+      "sideOcclusion": "Sides disappear around stem; rear closure unseen",
+      "knot": "Visible tiny right-side knot near1089,645",
+      "tether": "Short descending strands to punched hole near1118,679",
+      "hole": "Clearly punched hole on paper face",
+      "gravity": "Paper below support, leaning down/outboard",
+      "separateOrContact": "Paper separated from bowl; lower edge contacts timber",
+      "uncertainties": [
+        "Closely parallel doubled wrap rather than requested single strand",
+        "Rear closure/friction/knot load unseen",
+        "Local upper paper/stem gap partly occluded"
+      ],
+      "pass": false
+    },
+    "pairing": "lover-caregiver",
+    "pour": "Hoping You’d Come",
+    "masterSha256": "6427fe69667a463579d8462c9c688bea03fc6c8f60dd73ecc79380fe18eba9da",
+    "sourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+    "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "exportProvenance": {
+      "batch": 16,
+      "previousMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-08/refinement-exports/lover-caregiver/measurements.json",
+      "previousMasterSha256": "a9947254a653f9e544f03b9a54ecdf5735f9c4dd61d76294a40970d3fc06b0ae",
+      "correctionScope": "Liquid texture only",
+      "browserOwner": "Claude",
+      "integrationOwner": "Claude"
+    },
+    "unknownBounds": {},
+    "bounds": {
+      "glass": {
+        "x0": 912,
+        "y0": 238,
+        "x1": 1245,
+        "y1": 836
+      },
+      "paper": {
+        "x0": 1082,
+        "y0": 654,
+        "x1": 1234,
+        "y1": 838
+      },
+      "serve": {
+        "x0": 912,
+        "y0": 84,
+        "x1": 1283,
+        "y1": 838
+      }
+    },
+    "recognitionRegions": {
+      "chair": {
+        "x0": 642,
+        "y0": 61,
+        "x1": 1587,
+        "y1": 636
+      },
+      "oliveThrow": {
+        "x0": 409,
+        "y0": 264,
+        "x1": 923,
+        "y1": 651
+      }
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "review": {
+      "recipe": "Cold mashed roast apple/brandy/water serve, one ice lump and spoon. Fine suspended pulp is visibly softer and less chunky than v3. Repeated/faceted fleck pattern remains and needs comparison; not final recipe/material acceptance.",
+      "personality": "Prepared empty leather chair with olive throw retained. Trace is visible but broad and lateral; recognition/crop holds remain.",
+      "world": "Dark hotel reading room and warm practical retained. Timber has strong orange gloss and repeated sheen; house-material hold remains.",
+      "issues": "Fine pulp improved; repeated flecks, doubled stem twine, broad chair/throw and glossy warm timber remain. Browser/name checks unperformed."
+    },
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "portraitMeasurementFile": "portrait-measurements.json",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11bb7-ce09-7373-89a2-724c6e3208e9/exec-5a2604a9-0f7f-4721-a7cf-56e0ed5d875e.png",
+    "exported": false,
+    "exportEligible": true,
+    "measurementMethod": "Actual new native image visually inspected. Tag, complete glass/paper bounds and focal point rechecked against the same frame; narrow liquid-only edit preserved measured object positions. Manual estimates, 5–12 native px tolerance. No browser or name acceptance.",
+    "fingerprintStatus": "New native master bytes and actual dimensions measured; current source/spec fingerprints recorded."
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1326.3157894736842,
+        "cy": 864,
+        "w": 153.8755980861244,
+        "angle": 62.01262783616052
+      },
+      "glass": {
+        "x": 1237.8947368421052,
+        "y": 525.063829787234
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 533.1365313653137,
+        "cy": 831.1509303928326,
+        "w": 88.44280442804427,
+        "angle": 68.01077107427088
+      },
+      "glass": {
+        "x": 482.7158671586716,
+        "y": 641.7643004824259
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/lover-caregiver/portrait.jpg",
+    "wide": "/personas/lover-caregiver/wide.jpg",
+    "wideTag": {
+      "cx": 0.6907894736842105,
+      "cy": 0.8,
+      "w": 0.08014354066985646,
+      "angle": 62.01262783616052
+    },
+    "wideGlass": {
+      "x": 0.6447368421052632,
+      "y": 0.48617021276595745
+    },
+    "tag": {
+      "cx": 0.5950184501845018,
+      "cy": 0.6926257753273605,
+      "w": 0.09870848708487084,
+      "angle": 68.01077107427088
+    },
+    "glass": {
+      "x": 0.5387453874538746,
+      "y": 0.534803583735355
+    }
+  },
+  "hashes": {
+    "master": "6427fe69667a463579d8462c9c688bea03fc6c8f60dd73ecc79380fe18eba9da",
+    "wide": "2748f39b4456ca69cb01ce0b46d23c66cf2eeea998410a82bd92edd940a23c1c",
+    "portrait": "a31184c12d2d3f044316b7baab188b0d67dd3d5c883b91262b1c5c4e00c56d4c",
+    "portraitMaster": "6e2adb8ec0505f6883840392b0e403963d627d11ff6a0a157a7b4599382cb932"
+  },
+  "geometryScope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1047.2727272727273,
+          "y0": 273.4468085106383,
+          "x1": 1429.6650717703349,
+          "y1": 960.5106382978723
+        },
+        "paper": {
+          "x0": 1242.4880382775118,
+          "y0": 751.4042553191489,
+          "x1": 1417.0334928229665,
+          "y1": 962.8085106382979
+        },
+        "serve": {
+          "x0": 1047.2727272727273,
+          "y0": 96.51063829787235,
+          "x1": 1473.3014354066986,
+          "y1": 962.8085106382979
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 792.7272727272726,
+          "y0": 227.8723404255319,
+          "x1": 1111.3875598086124,
+          "y1": 800.4255319148936
+        },
+        "paper": {
+          "x0": 955.4066985645932,
+          "y0": 626.1702127659574,
+          "x1": 1100.8612440191387,
+          "y1": 802.3404255319149
+        },
+        "serve": {
+          "x0": 792.7272727272726,
+          "y0": 80.42553191489363,
+          "x1": 1147.751196172249,
+          "y1": 802.3404255319149
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1117.090909090909,
+          "y0": 238.3165957446808,
+          "x1": 1524.9760765550238,
+          "y1": 971.1846808510637
+        },
+        "paper": {
+          "x0": 1325.3205741626793,
+          "y0": 748.1378723404255,
+          "x1": 1511.5023923444976,
+          "y1": 973.635744680851
+        },
+        "serve": {
+          "x0": 1117.090909090909,
+          "y0": 49.58468085106384,
+          "x1": 1571.5215311004786,
+          "y1": 973.635744680851
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.5504545454545455
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1876.3636363636363,
+          "y0": 217.45053191489353,
+          "x1": 2561.4832535885166,
+          "y1": 1448.439893617021
+        },
+        "paper": {
+          "x0": 2226.1244019138753,
+          "y0": 1073.7909574468085,
+          "x1": 2538.8516746411483,
+          "y1": 1452.556914893617
+        },
+        "serve": {
+          "x0": 1876.3636363636363,
+          "y0": -99.56010638297874,
+          "x1": 2639.665071770335,
+          "y1": 1452.556914893617
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5387453874538746,
+        "y": 0.534803583735355
+      },
+      "bounds": {
+        "glass": {
+          "x0": 144.99916359163592,
+          "y0": 372.8490696071675,
+          "x1": 276.38494464944654,
+          "y1": 616.5678842177808
+        },
+        "paper": {
+          "x0": 218.2496432964329,
+          "y0": 541.5327360441075,
+          "x1": 272.8968265682657,
+          "y1": 618.3128876636803
+        },
+        "serve": {
+          "x0": 144.99916359163592,
+          "y0": 311.1922811853894,
+          "x1": 289.7560639606396,
+          "y1": 618.3128876636803
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5387453874538746,
+        "y": 0.534803583735355
+      },
+      "bounds": {
+        "glass": {
+          "x0": 159.76009840098396,
+          "y0": 411.72432804962096,
+          "x1": 304.8448708487085,
+          "y1": 680.8545830461751
+        },
+        "paper": {
+          "x0": 240.64806888068875,
+          "y0": 597.9958649207443,
+          "x1": 300.9930627306273,
+          "y1": 682.7815299793247
+        },
+        "serve": {
+          "x0": 159.76009840098396,
+          "y0": 343.63886974500343,
+          "x1": 319.610135301353,
+          "y1": 682.7815299793247
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5387453874538746,
+        "y": 0.534803583735355
+      },
+      "bounds": {
+        "glass": {
+          "x0": 128.5793849938499,
+          "y0": 250.92212267401794,
+          "x1": 217.00014760147604,
+          "y1": 414.94141971054444
+        },
+        "paper": {
+          "x0": 177.87591635916357,
+          "y0": 364.44383184011025,
+          "x1": 214.6526937269373,
+          "y1": 416.1157822191592
+        },
+        "serve": {
+          "x0": 128.5793849938499,
+          "y0": 209.42798070296348,
+          "x1": 225.9987207872079,
+          "y1": 416.1157822191592
+        }
+      }
+    }
+  ],
+  "portraitMeasurements": {
+    "native": {
+      "width": 1084,
+      "height": 1451
+    },
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v5/portrait-master.png",
+    "glass": {
+      "x": 584,
+      "y": 776
+    },
+    "glassBounds": {
+      "x0": 472,
+      "y0": 641,
+      "x1": 698,
+      "y1": 1060
+    },
+    "serveBounds": {
+      "x0": 472,
+      "y0": 535,
+      "x1": 721,
+      "y1": 1063
+    },
+    "ice": {
+      "visibleBounds": {
+        "x0": 511,
+        "y0": 685,
+        "x1": 597,
+        "y1": 733
+      },
+      "hiddenExtent": null,
+      "note": "One visible protruding cloudy lump; submerged extent uncertain."
+    },
+    "spoon": {
+      "visibleBounds": {
+        "x0": 642,
+        "y0": 535,
+        "x1": 721,
+        "y1": 808
+      },
+      "hiddenExtent": null
+    },
+    "tag": {
+      "cx": 645,
+      "cy": 1005,
+      "w": 107,
+      "angle": 68
+    },
+    "props": {
+      "chair": {
+        "visibleBounds": {
+          "x0": 219,
+          "y0": 308,
+          "x1": 1030,
+          "y1": 850
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 308,
+          "y0": 311,
+          "x1": 1024,
+          "y1": 823
+        },
+        "note": "Real chair back/seat/arm visible; lower parts hidden by table. Empty seat recognizable but broad."
+      },
+      "oliveThrow": {
+        "visibleBounds": {
+          "x0": 139,
+          "y0": 483,
+          "x1": 580,
+          "y1": 858
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 189,
+          "y0": 490,
+          "x1": 540,
+          "y1": 835
+        },
+        "note": "Recognizable used knit throw draped on arm, left spread rather than central40%."
+      }
+    },
+    "fullVisibleEssentialUnion": {
+      "x0": 139,
+      "y0": 308,
+      "x1": 1030,
+      "y1": 1063
+    },
+    "conservativeRecognitionUnion": {
+      "x0": 189,
+      "y0": 311,
+      "x1": 1024,
+      "y1": 1063
+    },
+    "ambient": {
+      "lamp": {
+        "visibleBounds": {
+          "x0": 853,
+          "y0": 57,
+          "x1": 1084,
+          "y1": 472
+        },
+        "fullBounds": null,
+        "clippedExtentUnknown": true
+      }
+    },
+    "proposedCrop": {
+      "portrait": [
+        0,
+        0,
+        1084,
+        1451
+      ],
+      "note": "Native portrait approximation3:4; exact final export root-owned. Full image is NOT tall-phone crop or motion proof."
+    },
+    "tagPhysics": {
+      "mechanism": "Low narrow-stem exterior wrap",
+      "frontArc": "Taupe arc visible on front stem",
+      "sideOcclusion": "Side strands turn around stem; rear unseen",
+      "knot": "Small right-side knot near601,930",
+      "tether": "Very short downward connection to punched hole617,949",
+      "hole": "Visible real punched hole",
+      "gravity": "Small paper hangs below support and leans outward",
+      "separateOrContact": "Lower corner visibly touches table, bowl separate",
+      "uncertainties": [
+        "Closely doubled stem cord persists",
+        "Rear knot depth/load not established",
+        "Upper paper overlaps lower stem/foot region"
+      ],
+      "pass": false
+    },
+    "pairing": "lover-caregiver",
+    "pour": "Hoping You’d Come",
+    "masterSha256": "6e2adb8ec0505f6883840392b0e403963d627d11ff6a0a157a7b4599382cb932",
+    "sourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+    "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+    "masterDimensions": {
+      "width": 1084,
+      "height": 1451
+    },
+    "exportProvenance": {
+      "batch": 16,
+      "previousMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-08/refinement-exports/lover-caregiver/portrait-measurements.json",
+      "previousMasterSha256": "97edf86d124cff3fc07c046cac47a143cd43b9e6b001b43a7ca198a5332b9b17",
+      "correctionScope": "Liquid texture only",
+      "browserOwner": "Claude",
+      "integrationOwner": "Claude"
+    },
+    "unknownBounds": {},
+    "bounds": {
+      "glass": {
+        "x0": 472,
+        "y0": 641,
+        "x1": 698,
+        "y1": 1060
+      },
+      "paper": {
+        "x0": 598,
+        "y0": 931,
+        "x1": 692,
+        "y1": 1063
+      },
+      "serve": {
+        "x0": 472,
+        "y0": 535,
+        "x1": 721,
+        "y1": 1063
+      }
+    },
+    "recognitionRegions": {
+      "chair": {
+        "x0": 308,
+        "y0": 311,
+        "x1": 1024,
+        "y1": 823
+      },
+      "oliveThrow": {
+        "x0": 189,
+        "y0": 490,
+        "x1": 540,
+        "y1": 835
+      }
+    },
+    "portraitCrop": [
+      0,
+      0,
+      1084,
+      1451
+    ],
+    "wideCrop": [
+      0,
+      0,
+      1084,
+      1451
+    ],
+    "review": {
+      "recipe": "Cold mashed roast apple/brandy/water serve, one ice lump and spoon. Fine suspended pulp is visibly softer and less chunky than v3. Repeated/faceted fleck pattern remains and needs comparison; not final recipe/material acceptance.",
+      "personality": "Prepared empty leather chair with olive throw retained. Trace is visible but broad and lateral; recognition/crop holds remain.",
+      "world": "Dark hotel reading room and warm practical retained. Timber has strong orange gloss and repeated sheen; house-material hold remains.",
+      "issues": "Fine pulp improved; repeated flecks, doubled stem twine, broad chair/throw and glossy warm timber remain. Browser/name checks unperformed."
+    },
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11bb7-ce09-7373-89a2-724c6e3208e9/exec-abce63ee-cd4c-4d06-ab76-503c948b7991.png",
+    "exported": false,
+    "exportEligible": true,
+    "measurementMethod": "Actual new native image visually inspected. Tag, complete glass/paper bounds and focal point rechecked against the same frame; narrow liquid-only edit preserved measured object positions. Manual estimates, 5–12 native px tolerance. No browser or name acceptance.",
+    "fingerprintStatus": "New native master bytes and actual dimensions measured; current source/spec fingerprints recorded."
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

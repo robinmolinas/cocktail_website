@@ -1,0 +1,104 @@
+{
+  "pairing": "lover-ruler",
+  "pour": "By Design",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-ruler/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-8ca34d87-26ab-4f59-a039-65a0531844e2.png",
+  "sourceSha256": "b39fdd52c25328fd6e9b3c1f4a2dbc0d0af46e37932c1e03ad72a7e0a719302f",
+  "specSha256": "e51d4662541f91f8dcaf09fea39a46f9fe97bd37021ec6b710af89f2f1a2e4d3",
+  "masterSha256": "7cf870d3996e22f9fd33cd64a44904f6a117678c49a961ff449f86f6f4241120",
+  "masterDimensions": {
+    "width": 1671,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1671,
+    940
+  ],
+  "portraitCrop": [
+    643,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 966,
+    "cy": 619,
+    "w": 150,
+    "angle": 69.5
+  },
+  "glass": {
+    "x": 888,
+    "y": 477
+  },
+  "bounds": {
+    "glass": {
+      "x0": 766,
+      "y0": 302,
+      "x1": 1009,
+      "y1": 716
+    },
+    "paper": {
+      "x0": 899,
+      "y0": 514,
+      "x1": 1030,
+      "y1": 702
+    }
+  },
+  "personalityBounds": {
+    "folderAndPen": {
+      "x0": 654,
+      "y0": 504,
+      "x1": 1330,
+      "y1": 646
+    },
+    "knottedScarf": {
+      "x0": 785,
+      "y0": 450,
+      "x1": 1324,
+      "y1": 640
+    }
+  },
+  "recognitionRegions": {
+    "folderClosurePenAndPageEdge": {
+      "x0": 995,
+      "y0": 530,
+      "x1": 1329,
+      "y1": 646
+    },
+    "scarfKnotAndDrapedEnds": {
+      "x0": 1026,
+      "y0": 462,
+      "x1": 1324,
+      "y1": 639
+    }
+  },
+  "measurementNotes": [
+    "Manual original-resolution pixel measurements; source probed1671x941 rather than requested1672.",
+    "Full group676px; conservative recognition union563px (766\u20131329). Folder recognition subregion retains closure, complete pen, page edge and drape; full folder remains independently measured.",
+    "Glass414px high; writable axis150px excludes punched-hole end, not full paper length.",
+    "Portrait includes all measured full objects but is only a proposed crop; no phone/motion/browser evidence."
+  ],
+  "review": {
+    "recipe": "Coral-red hazy pineapple/pomegranate sour in V-shaped cocktail glass; thin pale natural pineapple froth; no garnish or serving ice. No physical recipe mutation.",
+    "personality": "Folder/pen and knotted muted-rose scarf visible; inferred ordinary private habits, not literal historical artifacts. Pairing specificity derives from negotiated authorship and consciously remembered worn item.",
+    "world": "Dark timber house room; glass largely plain and tag clean cream. Table retains warm gloss and more grain than target.",
+    "issues": [
+      "Glass414px exceeds280\u2013330 target.",
+      "Full676px and recognition563px group exceed350\u2013380 moving-phone target; actual browser/motion hold.",
+      "Tag usable150px falls below170\u2013200 target despite freely hanging attachment.",
+      "Warm amber light/reflective grain-heavy tabletop remains material hold."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "aa7c947afd0bd5f225e070d23225a362d760773c7327a1bd5bdc47f7919717e8",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** Everyone knows the effect you have. Almost nobody knows you designed it.",
+      "+ - **tagline:** Your charm has an author, and it's you.",
+      "- - **Tagline:** Everyone knows the effect you have. Almost nobody knows you designed it.",
+      "+ - **Tagline:** Your charm has an author, and it's you."
+    ]
+  }
+}

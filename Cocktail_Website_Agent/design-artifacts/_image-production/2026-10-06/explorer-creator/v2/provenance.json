@@ -1,0 +1,22 @@
+{
+  "batch": 13,
+  "pairing": "explorer-creator",
+  "version": "v2",
+  "operation": "sole built-in edit",
+  "input": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-b7891874-5605-4db7-9a75-a0c014feaf6a.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v2/master.png",
+  "originalSha256": "dda609ae51e3947bbe9d6701590e872c2c5297cbb1ba1d7c9661f70ffe1913a9",
+  "copySha256": "dda609ae51e3947bbe9d6701590e872c2c5297cbb1ba1d7c9661f70ffe1913a9",
+  "nativeDimensions": [
+    1602,
+    981
+  ],
+  "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+  "specSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+  "roomSha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8",
+  "promptFile": "prompt-batch13.md",
+  "readinessFile": "readiness-batch13.md",
+  "callCountForPair": 2,
+  "selection": "measured candidate only"
+}

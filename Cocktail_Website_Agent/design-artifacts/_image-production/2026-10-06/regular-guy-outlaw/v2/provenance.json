@@ -1,0 +1,27 @@
+{
+  "pairing": "regular-guy-outlaw",
+  "pour": "Just This Once",
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-f7ee578e-4792-4c89-bc0b-59736d2ac0bd.png",
+  "originalSha256": "50c801fe49c3df2715bf8bd76d54a8a7f3c662f41f67fb79dfeba9ac41cd6d06",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-outlaw/v2/master.png",
+  "masterSha256": "50c801fe49c3df2715bf8bd76d54a8a7f3c662f41f67fb79dfeba9ac41cd6d06",
+  "masterDimensions": {
+    "width": 1671,
+    "height": 941
+  },
+  "copy": "cp -n exact tool original, no raster transformation",
+  "prompt": "prompt-batch10.txt",
+  "readiness": "readiness-batch10.md",
+  "source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/regular-guy-outlaw.md",
+  "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-outlaw.json",
+  "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-outlaw.md",
+  "sourceSha256": "19609563bfc42c6987ede3ba8d167c619a42e39cbdc3202cdd6be175c7198ee3",
+  "specSha256": "5569691b6eab1334f370265ae48f653e88ca08024573a9a0b41a925cbd326ac7",
+  "roomSha256": "14876eeec5d95e02b5a664382d975272918eb712b18a3b4be3da78b2ecd5683a",
+  "targetedCorrectionCount": 1,
+  "editTarget": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-outlaw/v1/master.png",
+  "batchCall": 4,
+  "status": "held measured candidate; root owns export/integration"
+}

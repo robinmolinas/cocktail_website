@@ -1,0 +1,23 @@
+{
+  "pairing": "hero-regular-guy",
+  "version": "v2",
+  "tool": "built-in image_gen",
+  "operation": "sole focused edit",
+  "inputMaster": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-12679003-8089-4c82-a04f-2d688ae29b85.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v2/master.png",
+  "masterSha256": "0b50e79bc7137f4e52d2744d1b6d97b300d7db7ee2f1891b66c83baa5a77d84d",
+  "generatedOriginalSha256": "0b50e79bc7137f4e52d2744d1b6d97b300d7db7ee2f1891b66c83baa5a77d84d",
+  "nativeDimensions": [
+    1672,
+    940
+  ],
+  "sourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+  "specSha256": "f8a537c8cce06c30d61249c6b52728fc197207c639a5dca7b217fd79cb31485b",
+  "roomSha256": "edfc4da3de477e966d211853b92b4348078c640c42b2deedacbe0d2f77d18fef",
+  "promptFile": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v2/prompt-batch12.txt",
+  "readinessFile": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v2/readiness-batch12.md",
+  "callCountForPairing": 2,
+  "totalBatchCallsAtFinal": 4,
+  "status": "Measured draft HELD, no exports/acceptance."
+}

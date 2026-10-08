@@ -1,0 +1,110 @@
+{
+  "measurementMethod": "Root manual visual estimate on actual original-size native image; coordinates approximate, tolerance 5–12px. Displayed dimensions not probed. NOT export-ready metadata.",
+  "masterSha256": null,
+  "sourceSha256": null,
+  "specSha256": null,
+  "roomSha256": null,
+  "fingerprintStatus": "Pending authorized checks; no historical hash reused.",
+  "exported": false,
+  "exportEligible": false,
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "hiddenExtents": {
+    "rearLoopClosure": null,
+    "actualKnotLoad": null,
+    "paperUnderside": null,
+    "occludedProps": null
+  },
+  "tagPhysics": {
+    "status": "Held, not physics PASS",
+    "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+  },
+  "pairing": "hero-innocent",
+  "pour": "Work It Out",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-23b2bf8e-12df-4603-a3d1-0788f4ec2ce4.png",
+  "displayedDimensions": [
+    1084,
+    1451
+  ],
+  "proposedCrop": [
+    10,
+    13,
+    1064,
+    1425
+  ],
+  "tag": {
+    "cx": 766,
+    "cy": 1019,
+    "w": 104,
+    "angle": 32,
+    "hole": [
+      702,
+      964
+    ]
+  },
+  "glass": {
+    "x": 539,
+    "y": 719
+  },
+  "bounds": {
+    "glass": [
+      398,
+      407,
+      682,
+      1030
+    ],
+    "physicalGarnish": [
+      489,
+      373,
+      723,
+      514
+    ],
+    "paper": [
+      671,
+      947,
+      840,
+      1060
+    ],
+    "practiceBox": [
+      678,
+      620,
+      901,
+      860
+    ],
+    "looseLid": [
+      750,
+      674,
+      1014,
+      884
+    ],
+    "pencil": [
+      796,
+      729,
+      1000,
+      850
+    ]
+  },
+  "essentialObjectUnion": [
+    398,
+    373,
+    1014,
+    1060
+  ],
+  "reviewHolds": [
+    "Practice box/lid/pencil remain lateral: approx616px whole known union, exceeding nominal590.6px tall-phone width before translation",
+    "Multiple parallel low-foot strands",
+    "Paper scale not requested28%bodywidth",
+    "Work sample still looks finished",
+    "Dense droplets/bright wood sheen",
+    "Correction allowance exhausted"
+  ]
+}

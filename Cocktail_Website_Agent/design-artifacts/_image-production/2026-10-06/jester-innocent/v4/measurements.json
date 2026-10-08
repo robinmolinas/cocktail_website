@@ -1,0 +1,161 @@
+{
+  "pairing": "jester-innocent",
+  "pour": "Off the Tour",
+  "version": "v4",
+  "sourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+  "specSha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+  "roomSha256": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d",
+  "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "measurementMethod": "Conservative original-resolution visual estimates, native IHDR probed. Proposed crop is not phone/motion/name/physics acceptance.",
+  "unknownExtents": {
+    "deckchairOccludedPosterior": null,
+    "hiddenSwizzleProngs": null,
+    "allInternalIceGeometry": null
+  },
+  "review": {
+    "recipe": "One pale faint-green Collins with angular crushed ice and red Angostura atop mound, retained wooden swizzle/no straw/garnish. Internal fine snow texture not fully proved through frost; some larger transparent chips. Source volumes unobservable.",
+    "personality": "Torn used sachet and connected full-size striped folding deckchair identifiable. Chair now farther back but still broad, not compact moving-phone composition.",
+    "world": "Dark historic timber room retained. Long-grain table carries strong amber reflected sheen and repeated surface marks; glass/ice dense frost/sparkle. Material direction not fully resolved.",
+    "issues": [
+      "Low loop lies near liquid-to-base boundary, not entirely clear foot",
+      "Possible paired/double strand remains",
+      "Rear attachment/load invisible; no blanket physics PASS",
+      "Broad person group and long swizzle remain crop/motion risks",
+      "Name fit untested on small label",
+      "Timber warmth/gloss and dense frost held"
+    ]
+  },
+  "orientation": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/wide-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-d7d3a045-30a4-49aa-a220-7ce2535a3e10.png",
+  "masterSha256": "af37e19dd5be4a7fd0d2eb6179278c6511d78966f57a1ed986d34a96eb8bbff4",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    690,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1323,
+    "cy": 779,
+    "w": 65,
+    "angle": 72
+  },
+  "glass": {
+    "x": 1185,
+    "y": 570
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1070,
+      "y0": 341,
+      "x1": 1308,
+      "y1": 805
+    },
+    "paper": {
+      "x0": 1293,
+      "y0": 728,
+      "x1": 1356,
+      "y1": 824
+    },
+    "swizzle": {
+      "x0": 1258,
+      "y0": 222,
+      "x1": 1311,
+      "y1": 352
+    },
+    "iceIncludingMound": {
+      "x0": 1086,
+      "y0": 285,
+      "x1": 1300,
+      "y1": 747
+    }
+  },
+  "personBounds": {
+    "foldedDeckchair": {
+      "x0": 808,
+      "y0": 247,
+      "x1": 1214,
+      "y1": 611
+    },
+    "tornSachetAndScrap": {
+      "x0": 789,
+      "y0": 735,
+      "x1": 1054,
+      "y1": 834
+    }
+  },
+  "recognitionRegions": {
+    "foldedDeckchair": {
+      "x0": 832,
+      "y0": 253,
+      "x1": 1195,
+      "y1": 604
+    },
+    "tornSachetAndScrap": {
+      "x0": 789,
+      "y0": 735,
+      "x1": 1054,
+      "y1": 834
+    },
+    "wholeSwizzle": {
+      "x0": 1258,
+      "y0": 222,
+      "x1": 1311,
+      "y1": 352
+    },
+    "allServedIce": {
+      "x0": 1086,
+      "y0": 285,
+      "x1": 1300,
+      "y1": 747
+    }
+  },
+  "group": {
+    "fullBounds": {
+      "x0": 789,
+      "y0": 222,
+      "x1": 1356,
+      "y1": 834
+    },
+    "recognitionBounds": {
+      "x0": 789,
+      "y0": 222,
+      "x1": 1356,
+      "y1": 834
+    },
+    "fullWidth": 567,
+    "recognitionWidth": 567,
+    "physicalServeBoundsIncludingAllPhysicalObjects": {
+      "x0": 1070,
+      "y0": 222,
+      "x1": 1356,
+      "y1": 824
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Upper cord completely removed. Continuous exterior low front arc y717–754 with side occlusion; appears two adjacent tan strands at liquid/clear-base boundary, not fully on clear foot.",
+    "knot": "Small side knot around1298,720.",
+    "tether": "Short downward cord to hole around1310,743.",
+    "hole": "Dark punched hole visible at1310,743.",
+    "gravity": "Small paper inclines down/right.",
+    "airgap": "Outboard paper projects separated from glass except tie vicinity.",
+    "contact": "Bottom edge y822 meets timber with shadow; honestly supported rather than floating.",
+    "uncertainty": [
+      "Two strand versus cord/highlight uncertain",
+      "Rear arc/load unobservable",
+      "Support height target partly missed"
+    ],
+    "assessment": "Clearer supported low attachment, not strict single-loop PASS."
+  }
+}

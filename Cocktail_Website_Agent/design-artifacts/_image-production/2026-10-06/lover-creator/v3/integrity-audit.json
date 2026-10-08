@@ -1,0 +1,71 @@
+{
+  "callsUsed": 2,
+  "revisionTotalCalls": 6,
+  "generationStopped": true,
+  "exports": 0,
+  "publicWrites": 0,
+  "sharedWrites": 0,
+  "geometryChecksAreNotAcceptance": true,
+  "assets": [
+    {
+      "pairing": "lover-creator",
+      "orientation": "wide",
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-creator/v3/wide-master.png",
+      "original": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-4c5fc6e5-7e7c-434a-a9ab-7bf9487e80c3.png",
+      "native": [
+        1672,
+        941
+      ],
+      "sha": "4dffbd8b2693e059b9c0846bcfba9403e871360d9391820292d8cfaed602a309",
+      "originalMatchesMaster": true,
+      "recordedHashMatches": true,
+      "dimensionsMatch": true,
+      "currentSourceMatches": true,
+      "currentSpecMatches": true,
+      "currentRoomMatches": true,
+      "allRecordedBoxesInRaster": true,
+      "axisEndpointsInPaperBounds": true,
+      "tagAxisEndpoints": [
+        {
+          "x": 1001.3554365936146,
+          "y": 592.3069880438561
+        },
+        {
+          "x": 1022.6445634063854,
+          "y": 677.6930119561439
+        }
+      ],
+      "notAcceptance": true
+    },
+    {
+      "pairing": "lover-creator",
+      "orientation": "portrait",
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-creator/v3/portrait-master.png",
+      "original": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-79b99113-222d-462f-a6ae-6785dfebbe86.png",
+      "native": [
+        1084,
+        1451
+      ],
+      "sha": "56f8f3bd6881b490fdf28c51e6f30273876c1466d963c9ec2a7705aa5066e906",
+      "originalMatchesMaster": true,
+      "recordedHashMatches": true,
+      "dimensionsMatch": true,
+      "currentSourceMatches": true,
+      "currentSpecMatches": true,
+      "currentRoomMatches": true,
+      "allRecordedBoxesInRaster": true,
+      "axisEndpointsInPaperBounds": true,
+      "tagAxisEndpoints": [
+        {
+          "x": 501.07705519058806,
+          "y": 902.3945789462205
+        },
+        {
+          "x": 520.922944809412,
+          "y": 971.6054210537795
+        }
+      ],
+      "notAcceptance": true
+    }
+  ]
+}

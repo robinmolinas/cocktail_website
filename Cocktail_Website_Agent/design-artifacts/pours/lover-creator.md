@@ -13,7 +13,7 @@ authored_in: the room, 2026-09-30 (batch lover)
 ## Cocktail
 
 - **name:** In Your Own Hand
-- **tagline:** People make their best things around you. So do you.
+- **tagline:** You see something worth finishing in the things people barely dare to show.
 - **glassware:** two nick-and-nora glasses (small, stemmed), chilled, each rim dipped in coarse sugar on the outside
 - **serves:** 2 (his measures fill two small glasses, about 97 ml each)
 - **contains:** `[]`
@@ -197,7 +197,7 @@ Wren's title-block notes:
 *'Juice of A Few Flowers' sounds like a joke. The handwritten card says otherwise.*
 
 **tagline** (the person)
-*People make their best things around you. So do you.*
+*You see something worth finishing in the things people barely dare to show.*
 
 **name:** **In Your Own Hand** (all three). Others for the record: *Written Down*, *A Few Flowers*, *Who's Asking*.
 

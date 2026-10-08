@@ -1,0 +1,364 @@
+{
+  "pairing": "regular-guy-caregiver",
+  "pour": "Whoever Comes In",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "bf0ac7d1bd7614cd9d3dd37d8e64f90d84ebab379eef8062c748e711c623f8e6",
+  "review": {
+    "requestedChange": "Blank tied paper reduced from272px to164px horizontal extent (about40% narrower). Small label free beside stem, clear hole/cord, no pasted paper. Dark coffee coupe/thin aeration, clearly EMPTY cup and exactly two coins visually retained. Existing glossy patterned wood/exaggerated cup-stain/composition holds remain;112px clean face actual-name fit unverified.",
+    "invariants": "Root original-detail visual comparison, not pixel-identical claim. No recipe/source/edit status changes.",
+    "remaining": "Existing physical/personality/material/crop holds not cleared; smaller label per user replaces numerical writing-size aim, names still require actual font review.",
+    "recipe": "One chilled coupe holding opaque dark-brown shaken brandy/espresso/parsnip-syrup cocktail with thin pale immediate coffee aeration. No serving ice/garnish/cream/egg/coffee bean additions. Empty consumed cup remains separate source-explicit trace.",
+    "personality": "Used empty espresso cup and two paid-ahead coins source-explicit/recognizable, no cloud/ledger/cash-machine literal scene or waiting second drink. They remain somewhat sideways rather than compactly overlapped.",
+    "world": "Plain glass and unpatterned cream hanging tag; one visible right practical. Table remains very warm glossy with crossing/grain-heavy texture; cup exterior residue still exaggerated.",
+    "correctionScope": "Read correctionReview and current version root review; inherited background review never clears current corrections/holds."
+  },
+  "measurements": {
+    "pairing": "regular-guy-caregiver",
+    "pour": "Whoever Comes In",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-caregiver/v3/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-f84c14a5-9185-44ff-995e-65205ac4252e.png",
+    "sourceSha256": "bf0ac7d1bd7614cd9d3dd37d8e64f90d84ebab379eef8062c748e711c623f8e6",
+    "specSha256": "c757dff27db3fdde51629aef88e655f1ae7f59c6c24e9f1a14e63d770623c484",
+    "masterSha256": "20266c625e0351d1195a3b1289758ebdff1ce329ca98afd395c44341821d22d0",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      669,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1125,
+      "cy": 541,
+      "w": 112,
+      "angle": 9.6
+    },
+    "glass": {
+      "x": 979,
+      "y": 466
+    },
+    "bounds": {
+      "glass": {
+        "x0": 837,
+        "y0": 311,
+        "x1": 1122,
+        "y1": 727
+      },
+      "paper": {
+        "x0": 1034,
+        "y0": 491,
+        "x1": 1198,
+        "y1": 579
+      }
+    },
+    "personalityBounds": {
+      "emptyEspressoCupAndSaucer": {
+        "x0": 741,
+        "y0": 479,
+        "x1": 1013,
+        "y1": 647
+      },
+      "twoCoins": {
+        "x0": 768,
+        "y0": 638,
+        "x1": 899,
+        "y1": 677
+      }
+    },
+    "recognitionRegions": {
+      "emptyInteriorHandleCupBody": {
+        "x0": 749,
+        "y0": 479,
+        "x1": 959,
+        "y1": 615
+      },
+      "bothWholeCoins": {
+        "x0": 768,
+        "y0": 638,
+        "x1": 899,
+        "y1": 677
+      }
+    },
+    "measurementNotes": [
+      "Actual1672x941 source probed; manual original-resolution measurements.",
+      "Only one finished cocktail. Small ceramic cup has open empty pale interior with residue, no liquid surface or waiting coffee; saucer not another serve.",
+      "Cup full bounds include saucer; conservative recognition retains full handle, empty mouth/interior and cup body, not anonymous rim/edge. Both complete coins independently measured.",
+      "Full glass/paper/cup/coins group557px (741–1298); conservative recognition549px (749–1298). Glass/paper union461px; glass416px high.",
+      "Tag190px usable clean axis measured beyond hole/clip end and within margins; full paper272px lateral extent not writable width.",
+      "702x940 portrait proposed only; no tall-phone/motion/JPEG/runtime/browser acceptance."
+    ],
+    "review": {
+      "requestedChange": "Blank tied paper reduced from272px to164px horizontal extent (about40% narrower). Small label free beside stem, clear hole/cord, no pasted paper. Dark coffee coupe/thin aeration, clearly EMPTY cup and exactly two coins visually retained. Existing glossy patterned wood/exaggerated cup-stain/composition holds remain;112px clean face actual-name fit unverified.",
+      "invariants": "Root original-detail visual comparison, not pixel-identical claim. No recipe/source/edit status changes.",
+      "remaining": "Existing physical/personality/material/crop holds not cleared; smaller label per user replaces numerical writing-size aim, names still require actual font review.",
+      "recipe": "One chilled coupe holding opaque dark-brown shaken brandy/espresso/parsnip-syrup cocktail with thin pale immediate coffee aeration. No serving ice/garnish/cream/egg/coffee bean additions. Empty consumed cup remains separate source-explicit trace.",
+      "personality": "Used empty espresso cup and two paid-ahead coins source-explicit/recognizable, no cloud/ledger/cash-machine literal scene or waiting second drink. They remain somewhat sideways rather than compactly overlapped.",
+      "world": "Plain glass and unpatterned cream hanging tag; one visible right practical. Table remains very warm glossy with crossing/grain-heavy texture; cup exterior residue still exaggerated.",
+      "correctionScope": "Read correctionReview and current version root review; inherited background review never clears current corrections/holds."
+    },
+    "status": "user-requested-tag-scale-correction;held;not-accepted;browser-deferred",
+    "sourceRefresh": {
+      "previousSourceSha256": "e7d3bc1250a8854124f16a852d3a39c605d3eeca0d09564bb15b60772bb6c987",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** Most people learn not to look. You never did.",
+        "+ - **tagline:** You stop for the people everyone else has learned to walk past."
+      ]
+    },
+    "correctionReview": {
+      "requestedChange": "Blank tied paper reduced from272px to164px horizontal extent (about40% narrower). Small label free beside stem, clear hole/cord, no pasted paper. Dark coffee coupe/thin aeration, clearly EMPTY cup and exactly two coins visually retained. Existing glossy patterned wood/exaggerated cup-stain/composition holds remain;112px clean face actual-name fit unverified.",
+      "invariants": "Root original-detail visual comparison, not pixel-identical claim. No recipe/source/edit status changes.",
+      "remaining": "Existing physical/personality/material/crop holds not cleared; smaller label per user replaces numerical writing-size aim, names still require actual font review."
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1291.866028708134,
+        "cy": 621.5744680851063,
+        "w": 128.61244019138758,
+        "angle": 9.605011274491334
+      },
+      "glass": {
+        "x": 1124.2105263157894,
+        "y": 535.4042553191489
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 582.017094017094,
+        "cy": 690.6382978723404,
+        "w": 142.95156695156695,
+        "angle": 9.601789757914304
+      },
+      "glass": {
+        "x": 395.6695156695157,
+        "y": 594.8936170212766
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/regular-guy-caregiver/portrait.jpg",
+    "wide": "/personas/regular-guy-caregiver/wide.jpg",
+    "wideTag": {
+      "cx": 0.6728468899521531,
+      "cy": 0.575531914893617,
+      "w": 0.06698564593301436,
+      "angle": 9.605011274491334
+    },
+    "wideGlass": {
+      "x": 0.5855263157894737,
+      "y": 0.4957446808510638
+    },
+    "tag": {
+      "cx": 0.6495726495726496,
+      "cy": 0.575531914893617,
+      "w": 0.15954415954415954,
+      "angle": 9.601789757914304
+    },
+    "glass": {
+      "x": 0.4415954415954416,
+      "y": 0.4957446808510638
+    }
+  },
+  "hashes": {
+    "master": "20266c625e0351d1195a3b1289758ebdff1ce329ca98afd395c44341821d22d0",
+    "wide": "224084227d928c37147d6ef37f05dcb593c193c877f7957a7ba486419d0f9ac0",
+    "portrait": "a6a4f41e35fb14a47f884735b3f939693d73075b22c1bb5ab607383416bc77aa"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 961.1483253588517,
+          "y0": 357.3191489361702,
+          "x1": 1288.421052631579,
+          "y1": 835.2765957446808
+        },
+        "paper": {
+          "x0": 1187.3684210526317,
+          "y0": 564.127659574468,
+          "x1": 1375.6937799043062,
+          "y1": 665.2340425531914
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 720.9569377990431,
+          "y0": 297.7659574468085,
+          "x1": 993.6842105263158,
+          "y1": 696.063829787234
+        },
+        "paper": {
+          "x0": 909.4736842105264,
+          "y0": 470.10638297872333,
+          "x1": 1066.4114832535886,
+          "y1": 554.3617021276596
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1025.2248803827752,
+          "y0": 327.7804255319149,
+          "x1": 1374.3157894736842,
+          "y1": 837.6017021276596
+        },
+        "paper": {
+          "x0": 1266.5263157894738,
+          "y0": 548.3761702127659,
+          "x1": 1467.4066985645934,
+          "y1": 656.2229787234043
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1722.0574162679427,
+          "y0": 412.4968085106383,
+          "x1": 2308.4210526315787,
+          "y1": 1268.837234042553
+        },
+        "paper": {
+          "x0": 2127.3684210526317,
+          "y0": 783.0287234042552,
+          "x1": 2464.7846889952157,
+          "y1": 964.177659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4415954415954416,
+        "y": 0.4957446808510638
+      },
+      "bounds": {
+        "glass": {
+          "x0": 44.74856600189932,
+          "y0": 279.2382978723404,
+          "x1": 300.59358024691363,
+          "y1": 652.7531914893617
+        },
+        "paper": {
+          "x0": 221.59582146248812,
+          "y0": 440.85531914893613,
+          "x1": 368.8189173789174,
+          "y1": 519.868085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4415954415954416,
+        "y": 0.4957446808510638
+      },
+      "bounds": {
+        "glass": {
+          "x0": 49.12129154795822,
+          "y0": 308.35319148936173,
+          "x1": 331.64208926875597,
+          "y1": 720.8127659574467
+        },
+        "paper": {
+          "x0": 244.4075973409307,
+          "y0": 486.8212765957446,
+          "x1": 406.98096866096864,
+          "y1": 574.0723404255318
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4415954415954416,
+        "y": 0.4957446808510638
+      },
+      "bounds": {
+        "glass": {
+          "x0": 55.522583095916424,
+          "y0": 187.92340425531916,
+          "x1": 227.70264007597342,
+          "y1": 439.2936170212766
+        },
+        "paper": {
+          "x0": 174.53827160493827,
+          "y0": 296.68936170212766,
+          "x1": 273.61732193732195,
+          "y1": 349.863829787234
+        }
+      }
+    }
+  ]
+}

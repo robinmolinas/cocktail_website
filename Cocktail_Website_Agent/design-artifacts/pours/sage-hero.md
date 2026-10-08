@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 ## Cocktail
 
 - **name:** At the Time
-- **tagline:** You'll let a good move look bad, and not say a word.
+- **tagline:** You see far enough ahead to let a quick win go.
 - **glassware:** heavy double old-fashioned glass (about 350 ml), one large block of coffee ice
 - **contains:** `[]`
 
@@ -179,7 +179,7 @@ Wren's title-block notes:
 
 **name:** At the Time *(the room's name, 2–1; my vote was Still in Play)*
 
-**tagline:** You'll let a good move look bad, and not say a word.
+**tagline:** You see far enough ahead to let a quick win go.
 
 **epigraph**
 *Rye, sugar, bitters, peel. The coffee is in the ice, and arrives later.*

@@ -1,0 +1,359 @@
+{
+  "pairing": "ruler-caregiver",
+  "pour": "Go On",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "cf6cc557429b53ce8cb62ef73236f6cf3f35ba42160c03ceb68ace8466ffcae5",
+  "review": {
+    "requestedChange": "Blank tied paper reduced from292px to156px horizontal extent (about47% narrower), no longer postcard-sized. Stem cord/hole and air gap retained; lower corner rests on timber. Finished amber-red cognac drink/internal mandarin/no ice, chair/cardigan and unlit fireplace visually preserved. Whole scene/material holds remain;106px clean face actual-name fit unverified.",
+    "invariants": "Root original-detail visual comparison, not pixel-identical claim. No recipe/source/edit status changes.",
+    "remaining": "Existing physical/personality/material/crop holds not cleared; smaller label per user replaces numerical writing-size aim, names still require actual font review.",
+    "recipe": "Finished still clear deep amber-red cognac Manhattan, no serving ice/foam; one thin mandarin-coloured strip dropped inside. Colour/vessel visually plausible; no historical volume/fruit identity proof from pixels.",
+    "personality": "Full-size recognizable pulled-up chair comes directly from whoYouAre; olive cardigan is ordinary inferred comfort/listening habit, not literal biography. Source old empty waiting-glass brief reconciled to finished serve. Chair is occluded naturally by counter and glass, but substantial shaped back/seat retained, not anonymous edge.",
+    "world": "Near-black historic room, burgundy/olive/cream and one diffuse out-of-frame practical. Fireplace flame removed. Table far less crackled and layout closer than v1, but warm sheen/remaining repeated fine surface detail persist.",
+    "correctionScope": "Read correctionReview and current version root review; inherited background review never clears current corrections/holds."
+  },
+  "measurements": {
+    "pairing": "ruler-caregiver",
+    "pour": "Go On",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-caregiver/v3/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-57488435-a3b5-4a87-9edd-2ceb8487c29b.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "cf6cc557429b53ce8cb62ef73236f6cf3f35ba42160c03ceb68ace8466ffcae5",
+    "specSha256": "3519d83b234b494b40c7b9b1341c34021b7f2ba1241fdea2aefb96361a245168",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      760,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1078,
+      "cy": 645.5,
+      "w": 106,
+      "angle": -15.9
+    },
+    "tagWritingAxis": {
+      "start": [
+        907,
+        658
+      ],
+      "end": [
+        1111,
+        636
+      ],
+      "note": "Conservative clean axis excludes punched-hole end and margins;205px approximately."
+    },
+    "glass": {
+      "x": 1201,
+      "y": 459
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1071,
+        "y0": 377,
+        "x1": 1331,
+        "y1": 760
+      },
+      "paper": {
+        "x0": 1012,
+        "y0": 603,
+        "x1": 1168,
+        "y1": 704
+      }
+    },
+    "personalityBounds": {
+      "pulledUpChair": {
+        "x0": 914,
+        "y0": 273,
+        "x1": 1245,
+        "y1": 615
+      },
+      "drapedCardigan": {
+        "x0": 825,
+        "y0": 264,
+        "x1": 1088,
+        "y1": 656
+      }
+    },
+    "recognitionRegions": {
+      "pulledUpChairBackAndSeat": {
+        "x0": 923,
+        "y0": 279,
+        "x1": 1245,
+        "y1": 611
+      },
+      "drapedCardigan": {
+        "x0": 825,
+        "y0": 264,
+        "x1": 1088,
+        "y1": 656
+      }
+    },
+    "review": {
+      "requestedChange": "Blank tied paper reduced from292px to156px horizontal extent (about47% narrower), no longer postcard-sized. Stem cord/hole and air gap retained; lower corner rests on timber. Finished amber-red cognac drink/internal mandarin/no ice, chair/cardigan and unlit fireplace visually preserved. Whole scene/material holds remain;106px clean face actual-name fit unverified.",
+      "invariants": "Root original-detail visual comparison, not pixel-identical claim. No recipe/source/edit status changes.",
+      "remaining": "Existing physical/personality/material/crop holds not cleared; smaller label per user replaces numerical writing-size aim, names still require actual font review.",
+      "recipe": "Finished still clear deep amber-red cognac Manhattan, no serving ice/foam; one thin mandarin-coloured strip dropped inside. Colour/vessel visually plausible; no historical volume/fruit identity proof from pixels.",
+      "personality": "Full-size recognizable pulled-up chair comes directly from whoYouAre; olive cardigan is ordinary inferred comfort/listening habit, not literal biography. Source old empty waiting-glass brief reconciled to finished serve. Chair is occluded naturally by counter and glass, but substantial shaped back/seat retained, not anonymous edge.",
+      "world": "Near-black historic room, burgundy/olive/cream and one diffuse out-of-frame practical. Fireplace flame removed. Table far less crackled and layout closer than v1, but warm sheen/remaining repeated fine surface detail persist.",
+      "correctionScope": "Read correctionReview and current version root review; inherited background review never clears current corrections/holds."
+    },
+    "status": "user-requested-tag-scale-correction;held;not-accepted;browser-deferred",
+    "masterSha256": "4cac179ed9eadf82be706c9d51aaa8e476bfb14205ecf101931cca0a935ef5a0",
+    "correctionReview": {
+      "requestedChange": "Blank tied paper reduced from292px to156px horizontal extent (about47% narrower), no longer postcard-sized. Stem cord/hole and air gap retained; lower corner rests on timber. Finished amber-red cognac drink/internal mandarin/no ice, chair/cardigan and unlit fireplace visually preserved. Whole scene/material holds remain;106px clean face actual-name fit unverified.",
+      "invariants": "Root original-detail visual comparison, not pixel-identical claim. No recipe/source/edit status changes.",
+      "remaining": "Existing physical/personality/material/crop holds not cleared; smaller label per user replaces numerical writing-size aim, names still require actual font review."
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1237.8947368421052,
+        "cy": 741.6382978723404,
+        "w": 121.7224880382775,
+        "angle": -15.908029557866744
+      },
+      "glass": {
+        "x": 1379.1387559808613,
+        "y": 527.3617021276596
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 405.88034188034186,
+        "cy": 824.0425531914894,
+        "w": 135.2934472934473,
+        "angle": -15.902867772850785
+      },
+      "glass": {
+        "x": 562.8717948717949,
+        "y": 585.9574468085107
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/ruler-caregiver/portrait.jpg",
+    "wide": "/personas/ruler-caregiver/wide.jpg",
+    "wideTag": {
+      "cx": 0.6447368421052632,
+      "cy": 0.6867021276595745,
+      "w": 0.06339712918660287,
+      "angle": -15.908029557866744
+    },
+    "wideGlass": {
+      "x": 0.7183014354066986,
+      "y": 0.48829787234042554
+    },
+    "tag": {
+      "cx": 0.452991452991453,
+      "cy": 0.6867021276595745,
+      "w": 0.150997150997151,
+      "angle": -15.902867772850785
+    },
+    "glass": {
+      "x": 0.6282051282051282,
+      "y": 0.48829787234042554
+    }
+  },
+  "hashes": {
+    "master": "4cac179ed9eadf82be706c9d51aaa8e476bfb14205ecf101931cca0a935ef5a0",
+    "wide": "d8d168a00a350389d457b0c0994c1b4d37e147d18a1ab100ef00d139a4abd45f",
+    "portrait": "e51b9a94652e870c16004fa1e3300e42e2ab804807dea2f82675a1cd106b91c2"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1229.8564593301435,
+          "y0": 433.1489361702128,
+          "x1": 1528.421052631579,
+          "y1": 873.1914893617021
+        },
+        "paper": {
+          "x0": 1162.1052631578948,
+          "y0": 692.8085106382979,
+          "x1": 1341.244019138756,
+          "y1": 808.8510638297872
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 944.8803827751196,
+          "y0": 360.9574468085106,
+          "x1": 1193.6842105263158,
+          "y1": 727.6595744680851
+        },
+        "paper": {
+          "x0": 888.421052631579,
+          "y0": 577.3404255319149,
+          "x1": 1037.7033492822966,
+          "y1": 674.0425531914893
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1311.846889952153,
+          "y0": 408.6655319148936,
+          "x1": 1630.3157894736842,
+          "y1": 878.0442553191489
+        },
+        "paper": {
+          "x0": 1239.578947368421,
+          "y0": 685.6357446808511,
+          "x1": 1430.6602870813397,
+          "y1": 809.4144680851064
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2203.492822966507,
+          "y0": 548.3585106382978,
+          "x1": 2738.4210526315787,
+          "y1": 1336.7680851063828
+        },
+        "paper": {
+          "x0": 2082.1052631578946,
+          "y0": 1013.5819148936171,
+          "x1": 2403.062200956938,
+          "y1": 1221.491489361702
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6282051282051282,
+        "y": 0.48829787234042554
+      },
+      "bounds": {
+        "glass": {
+          "x0": 128.29876543209878,
+          "y0": 338.49787234042554,
+          "x1": 361.7012345679013,
+          "y1": 682.3829787234042
+        },
+        "paper": {
+          "x0": 75.33435897435896,
+          "y0": 541.4170212765957,
+          "x1": 215.3758404558405,
+          "y1": 632.1021276595744
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6282051282051282,
+        "y": 0.48829787234042554
+      },
+      "bounds": {
+        "glass": {
+          "x0": 141.25906932573602,
+          "y0": 373.79148936170213,
+          "x1": 398.9973409306742,
+          "y1": 753.5319148936169
+        },
+        "paper": {
+          "x0": 82.77230769230772,
+          "y0": 597.8680851063829,
+          "x1": 237.4152706552707,
+          "y1": 698.0085106382977
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6282051282051282,
+        "y": 0.48829787234042554
+      },
+      "bounds": {
+        "glass": {
+          "x0": 122.48736942070276,
+          "y0": 227.80425531914892,
+          "x1": 279.5639126305793,
+          "y1": 459.23404255319144
+        },
+        "paper": {
+          "x0": 86.84307692307694,
+          "y0": 364.3659574468085,
+          "x1": 181.0890028490029,
+          "y1": 425.39574468085107
+        }
+      }
+    }
+  ]
+}

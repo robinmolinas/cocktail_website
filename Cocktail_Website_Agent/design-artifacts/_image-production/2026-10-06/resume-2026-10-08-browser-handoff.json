@@ -1,0 +1,3024 @@
+{
+  "id": "persona-resume-2026-10-08",
+  "status": "blocked",
+  "approval": "User approved pending exports and browser checks, then answered Approve all to exact execution approval question.",
+  "scope": "115 queue-selected candidates; 88 newly exported pairs; private unqueued batch14/15 refinements excluded.",
+  "browserBlockers": [
+    "Vite listen EPERM on 127.0.0.1:5179 despite escalation",
+    "Installed Chromium macOS bootstrap_check_in Permission denied (1100), SIGTRAP before page open"
+  ],
+  "registrySha256": "dd2a85bc1f4b135b12efa913a21f3ee0b7ce8fddd23fb8c8c384a496198068ca",
+  "registryPairCount": 17,
+  "acceptedNew": 0,
+  "integratedNew": 0,
+  "candidates": [
+    {
+      "pairing": "caregiver-creator",
+      "version": "v4",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-creator/v4/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "cd9f901e56236b6928e2cf9239b50e4e54a9741d9a43a837a8a7ba30cc08c938",
+        "wide": "7c2f2551ab5c978ee862f0524bc41029c9708e956f3f48ec0c3f440baeffb537",
+        "portrait": "815fe60df01d92e5e96350b18795957df06945d9fc7c109937ccf9a11aa83b78"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "5ef9a57af6b28ad9fe5fd67cecb208f8bd57622249564ccc57bda319031b4ce6",
+      "generationSourceSha256": "8c298875e9c4b627bb1eccf4dc7a47dd1a385ecec596f458f61cb55218c784a2",
+      "measurementSha256": "1bfca023c9411040c56d69fafc2057784554cf0eb686f3f3097d338c40488db1",
+      "metadataSha256": "c86f9c1a708ceae27777581aaa07849e25d3df95215950ed8a475e55fe8ceddd"
+    },
+    {
+      "pairing": "caregiver-explorer",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-explorer/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "a0d2d64188ad661175d9f1e0510cfa668d3f6be3865b375b83375be62c3c98ac",
+        "wide": "963b7675018d23a4b29921090e2d190e2c2d3936e620f29e5e3f222ceb0e38e5",
+        "portrait": "1afd6bfd0bb0b397a17b02263894ebe136ae0ceff5633b609fd4251df1a145b4"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "0bba9af6f00428013cbfbce66a516bbab8ef9ad7523adb4dbe034c2abfdb0a70",
+      "generationSourceSha256": "8861474b31e0473170e39a0a919b2e93cea2134bdbe22467653e7c6700d103b3",
+      "measurementSha256": "07f99e09cb550fcc5ecaa07ff76ec23cf920072fc6a7c55b9ed0ef166418816a",
+      "metadataSha256": "fd8cfacea742d20c8ce6971942c6d4108b7ded03cec9fbf1629a87f0d898ad15"
+    },
+    {
+      "pairing": "caregiver-hero",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-hero/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "6c2537791f577208add262b2876fed1312c39503213da4b60988801a81bdad52",
+        "wide": "56a350ef05d029afa2fb911939e306e28616dfb78e8ee50b0ab7a6a798ae7546",
+        "portrait": "1e615a145f8942b1660b67cf60b5f5faa255b44810b275d618fea3aa27dbf6d0"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "dc3918bd4c4229fd6ae47f4be2ff3220bc77b896a20328e00b9526573163fd44",
+      "generationSourceSha256": "945bfc61eef4d055827dd1b3fc6210a51554dbdf5fcf57400611ab45d8e7e54e",
+      "measurementSha256": "84d4c74f79ba24c100fa6ecd67472d35f850fb7a5efdcc913125fe64b7ebcf23",
+      "metadataSha256": "c68131152a449279ca144fe6e4901c7e8d8fc4da21f9f35176e75fcaedde018f"
+    },
+    {
+      "pairing": "caregiver-jester",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-jester/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "aaa5bd20aadc4499209cd804945f6230cf328406a1a0ccaa8bbbe49a01677101",
+        "wide": "043699dcb77115957a0b4b85549bb29a03b355a2a5d86140efb7be90eb7e423b",
+        "portrait": "822044931a6022860a41e581c15a75f29ff92e55b969421ad94fd7dae88e2358"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "74657190e29882cea1789972af176537a874de231b84f41feb5ba33991bd57e3",
+      "generationSourceSha256": "18414c77befb6a57b1cc76b9d080e61492082e9ac28deed9f0401bcd1213d997",
+      "measurementSha256": "e2f3bff8242e80b5f9fc948306f86cf8710ef210e215f0b289c7b18d158fd466",
+      "metadataSha256": "5ee4faf96ccdea7a39eeb174121ac65d84b3cf85b91233e5973dabc1fa31e9d9"
+    },
+    {
+      "pairing": "caregiver-lover",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-lover/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "cf10012169cf63670948b35d8724558c07276b1da1c40d9f10f4551803b705d2",
+        "wide": "b3b122c1f9a842324abd218d8b3b9311799341b905d22965a5364ac2075ee8ec",
+        "portrait": "aba0f32bff02e90de6ed469579d135b1c42c8214fa1061bfff2d0b855ed81ec8"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "1e173a2e82bfa33a9a770534a1d33a5a6600f0385ceb4a6e739fd20d335bf1df",
+      "generationSourceSha256": "3b433893d8244d2f1333b5f730a9a37c4c5105d7bc21d4681a037ec98f1a1198",
+      "measurementSha256": "4290069619bf6f8a39b151e303206ea3b770f13067b34977c67c80f79a4e7c31",
+      "metadataSha256": "098864c123abdb9140252079dfe204c4c8083384b000e7bf878eeab21f8ecaa5"
+    },
+    {
+      "pairing": "caregiver-outlaw",
+      "version": "v5",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-outlaw/v5/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "3cf33b3820c9a6a1dda959e81dd655094c92aa524e6fbab6e6a580ed29a084cd",
+        "wide": "a9e8700606a0a5559ca482eb2e600e1dae07415290a0dd1f133a32da1ae629ac",
+        "portrait": "189012a45a3a5aec2f14850c5ed266a5a6cf38d5ab41d98521c0b9b63e9abaec"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "ed79ca2480eb66ba4adb958b7c3340aa21c89030f355062bbe589ab2b42cb9ff",
+      "generationSourceSha256": "cefe2c263153b4a16592375851515068896a5d9e2e77f8511a1ac261062e65dc",
+      "measurementSha256": "7a9adc29a168452fd3271091e4b898e2e34ee81eeaa1bce02374e1cc2401dbac",
+      "metadataSha256": "35616def709db7f98f904f9c527332c29db002004a11ae6550cef917f6c4b5db"
+    },
+    {
+      "pairing": "caregiver-regular-guy",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-regular-guy/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "30bdb9644fd5cc4b8a59e1e8474d5ccf23edeb10cd5f9ac73c120167b3407798",
+        "wide": "28c6f4d1e664f5c65c41a6ae7b2d44d4fcdcabd20faf24b5111625691890d4f4",
+        "portrait": "21306340a422826486da8398a72bbac2a1ac0e3dc613ebafadf2bcff3b8f2938"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "f47ec46c4591f01fc95a4692729287d8943dd6123e37e1156a8fc71c1eee4167",
+      "generationSourceSha256": "3e81c41253c21b21c862a0c5f01c96d66715291376216049cc9d3bce440a01f5",
+      "measurementSha256": "e681aaa5162d9181f236c26e7055b6487f83134d86e8d4cc67c9767c883f1aa0",
+      "metadataSha256": "0a6413a8c3605148c5532f2f3bfa50e9fc7cf92827580cb65319f0483617a4a4"
+    },
+    {
+      "pairing": "caregiver-sage",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-sage/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "cfda3b048cc8e4841ffdf44072519044bc2ab24bf7a2429594a657f03599badb",
+        "wide": "5e2337104955ef46e7f1e6a343c2b40314d42a2c7f6f39da31321daf80e2c94a",
+        "portrait": "949da8e4289342a32c935a41357e780dacb4c209a3b5753b0732fad714d6580d"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "fc50f7470d226ee73b0212b1a8b5e3da759873625d7b76d2114ed8bcec71542d",
+      "generationSourceSha256": "c20da9d51b483be1580f68933993099178bbb6a53d350e682eb6ce866c7480bf",
+      "measurementSha256": "9e088e709a441ccf9a5e15a9f85cad0a987a6648379db2ac6722503275b8e214",
+      "metadataSha256": "315e6628d14b3d27c2b4cd7ce1423a5fe423096ae53a62c60ce2cf0a77cbb6e2"
+    },
+    {
+      "pairing": "explorer-caregiver",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-caregiver/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "03652f96b89ab8ec67ef31190954f22502e8881e6371ab68e6057b10d2e4c8ab",
+        "wide": "c8432afd82da71de5f336c2562c84b820a393488a4cb77badf1b2736ddfbe228",
+        "portrait": "84689d1e5037ad61e7b350b6a1152b358f81ac68ea31ac37f1263ad4a6b16ef2"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "287cffdd464409ca3361e6bb24b41942acdbb0c95aa7df9f7bde7a365c4763af",
+      "generationSourceSha256": "287cffdd464409ca3361e6bb24b41942acdbb0c95aa7df9f7bde7a365c4763af",
+      "measurementSha256": "a23613316e75b733d577e8b596bf8c68631a710d21c27ec2d0e93c16bd939826",
+      "metadataSha256": "7a0483eb175c81a856daeacfc893f01d859c44e86c5d8356bc9d9d1eda2db6aa"
+    },
+    {
+      "pairing": "explorer-hero",
+      "version": "v5",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-hero/v5/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "e04c1725b3980410bd4c7939613688a10796314843aed1a465f85a6166254d26",
+        "wide": "b64e6ccfc8c3eb436bd7357966d674644e6e6228afa7899679015063638788a7",
+        "portrait": "92a5c5c100195f4d3dc306b88ed10f0712e3c1709b7aca20897c4a80bf0d48bf"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "f47bf1ef1109a2ce34aa6af2e59891b0a04104df1b1a8ebc83e7d1a7f287010b",
+      "generationSourceSha256": "f47bf1ef1109a2ce34aa6af2e59891b0a04104df1b1a8ebc83e7d1a7f287010b",
+      "measurementSha256": "0e9434bee8296ecc848a0a0c4be85bcc5bef5638b64f0a9a70bd7a481e4085fb",
+      "metadataSha256": "c7c932bb532578215f99a97e1500fc77309bbc27cc227a6bfdd71ff3e842d5c5"
+    },
+    {
+      "pairing": "explorer-innocent",
+      "version": "v4",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-innocent/v4/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "326460ae877fbb753d2f99abbd15af15c1891e972c715d4e381a972500113f35",
+        "wide": "acd3683916af99abf50a660178a59611a45fb6926e6d614c94f7b3a41ae9c53e",
+        "portrait": "04f8397dd57f06848958cce57f115db34aea340e2351f6d36ec5e7470dbb577c"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "53a1796cbc78fd855652b59c405f96a0451cb1566337cffc7a5f31851198f00e",
+      "generationSourceSha256": "de87cc6fccf04e23e0e1cff81ceeb756e050c1b4f263fe7616740aada153e41a",
+      "measurementSha256": "43efd45169d81caf810f9bb6d49f3ec3e5a3707a24fe687cf866bedb79994742",
+      "metadataSha256": "62e8ecb302f0809535ed480b401c8e7e185053355c7565daf880e56299cd2744"
+    },
+    {
+      "pairing": "hero-lover",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-lover/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "4d531ac17d744bd4d75e512a7455608af5fe998f9f2cd674a422b824ebec4ffb",
+        "wide": "e1d1199600b3b0af61baf2cfaa8511141604b8edf6b271d78f161135a5b08367",
+        "portrait": "630dcaf7a5e8d743c201ca1b492c533cf5f489aede30d07e518098c8c4e773f8"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "459ee73f5d03827e09cf646a3183fc789823c97e0638d48627cc5ae43c6f4413",
+      "generationSourceSha256": "fc02abc1edf504d62bbfa8074b829b85e36840fad1681c48451b86775c011922",
+      "measurementSha256": "598acfe00de8f959f097ec7aa5acf0076be6ed327afe37fdee8784199ba46ed0",
+      "metadataSha256": "4e45259248adf4962caf519a5f84015f40cb18fb212800b709d325add6613c04"
+    },
+    {
+      "pairing": "hero-magician",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-magician/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "0af41f510450291b2c52aee755b2748c2a2d99936d8e20cb715c913ae6914b1f",
+        "wide": "ec818c34250cd3afe9800be02a852b5052a4f8bab7afa02d515d8e3d93e5d4d2",
+        "portrait": "298e3c30bffa21cc7b89e373c079fb73abbc0f15b3b2a216ecc298452dd58ced"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "29e75966b94cfeb0600e5a086bb3b80ab79f73b11d9fb6170f8588c7580fa78e",
+      "generationSourceSha256": "fce0b25adef6b3cacfcc6a899cb073799cc7d8735fc574db147816b6e8b26256",
+      "measurementSha256": "fff6dbbda9c0704ad7e2d3caa3953de5ac2b18cfa0d0dca4a04062bf35b7de4e",
+      "metadataSha256": "894cff068e0c54de7f65588fc814cb8343de462fe228f662037e245120ba491f"
+    },
+    {
+      "pairing": "hero-ruler",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-ruler/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "c5c345ef4c039acc1cd79dd7998874e9cc5b3f81f1d6262bd1c9cbe50eec01e1",
+        "wide": "d94187cc048a9dbe66ebed6d8810e977421c36afbd361de09940dd9f03575e82",
+        "portrait": "8394a40b13290595a48d02fb1d132a11db5d067c434be2ceb7730ceae877879e"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "1d78ff7ddbf5b5febe96b59879e632c34d9d14cef5dacd365d3b96f519428111",
+      "generationSourceSha256": "0e224138f990e2c2e0d26064f298dbe06432a84be664195d730650b488524678",
+      "measurementSha256": "2cd03dff381bfedfbe9ea7bcbafe7f1f7291394f5e37699f94461bdf0162f673",
+      "metadataSha256": "2def6bbc07adad52ecd4faf0d9ca65fedc572f6269c8c48b2b288f4363795ea6"
+    },
+    {
+      "pairing": "innocent-hero",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-hero/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "cc24b1e6334fb2c27657f6576f0d120a8219fb42e1ecae5ae0e5cfd8dcb6c20e",
+        "wide": "134bfc5b33c742020cb17008939cc09374e534aed8a169069f79d4fc9ceec049",
+        "portrait": "3909d989db75818f86e3b3d37d3eb5ed4e3fecb2cb9ce4a03878a6d5b33e8c83"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "c17a86df19d5b6c4541269cf471d2617aae8b17819ee3a409953476ead34dcd1",
+      "generationSourceSha256": "1939c06dc9322a9507492a63e6370294e6532f23e054840de1d457c3307baf2e",
+      "measurementSha256": "c83e970c7fe1fd07cf7ada8d4f15985ed849e770813068dd8888cb0a9df00d82",
+      "metadataSha256": "0d02b19967ed392573033df281a65211da17351804babd38d84cc31c00c3f1da"
+    },
+    {
+      "pairing": "innocent-jester",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-jester/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "212d108407d97053bfe95e90274e60f828f0bee9b2d9772b2f2c9ba9c6111ab1",
+        "wide": "c8f960334474ed1ab084194ca725814ca6b233c1b02fc321dd25bfd85447d735",
+        "portrait": "87d9d0a054d869c68ccd5181e88ebbfcb8ddb2d79027b95b0edde0247f973208"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "9272f836b83f92ab4302457bd48eeed98cf8d30fde2a71783b3d081e6401d073",
+      "generationSourceSha256": "9272f836b83f92ab4302457bd48eeed98cf8d30fde2a71783b3d081e6401d073",
+      "measurementSha256": "0db8afb908a7084286108798077f1027bce75eab2de1c16a790c2bbd73caea74",
+      "metadataSha256": "b37b1c1286ea56fc9b2fd7b91d3329c66a69f98e3f4718e7ebee31f4de854cf8"
+    },
+    {
+      "pairing": "innocent-sage",
+      "version": "v5",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-sage/v5/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "24d8b4952353e8f65f4e6a0e3be55e96c7b10d7b52f921948f39f67b0814536d",
+        "wide": "21bf730e8ca46c6873e6567b065cd803357d534b66730328ddf1d29f743fc39a",
+        "portrait": "db37dd7b1a05686f21e6e0bad1a49ded597259bf62ea0e7f20e674be1a083d0f"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "722810a4da6d35f35c0766d9f5fb9998f4d0f554a9d4980a714ecffde46477a3",
+      "generationSourceSha256": "722810a4da6d35f35c0766d9f5fb9998f4d0f554a9d4980a714ecffde46477a3",
+      "measurementSha256": "3e9c77ddb6d5da98fe0a86f917a49a3357e41838e305775aa8f1622c36d4b9ef",
+      "metadataSha256": "53bd5a82a7293db7b34dada5ae15c0651e6fdda9e8d25c3b2d457d0b455872b7"
+    },
+    {
+      "pairing": "jester-caregiver",
+      "version": "v4",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-caregiver/v4/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "a3835ca755238188d92886ab2c53a41bf60084a593b5f0495781022cb9107976",
+        "wide": "00aa8958b10ca3ac69c8863b013f0301d71182c6330b6978fe42f83a4a34f262",
+        "portrait": "76e87b06917306f386b7cccc14fad920dd0a611410d7d89d034c317f532c16aa"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "4f49ef8676ff8c63c1e5cfe516cafe71d626e7dbaa7acf01cc918d1cd827a6df",
+      "generationSourceSha256": "4f49ef8676ff8c63c1e5cfe516cafe71d626e7dbaa7acf01cc918d1cd827a6df",
+      "measurementSha256": "e493ef7c2271b376b5994b4e841c628f02441106a4ea9c061fb0bd3e25461d3e",
+      "metadataSha256": "330f1083dbbac510f7c64dc094025916c5eaee42e5e7bdc9e34ecd798424a6b9"
+    },
+    {
+      "pairing": "jester-creator",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-creator/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "f021f9a36b29cf9a119a7f9304d707dfaea1af794b32c7c8bcf9aa791d486cf7",
+        "wide": "29054fe5d9bc17985d5ee701a51fd2e4438e939390c7637abf7fb0429155eb59",
+        "portrait": "d21ee34f2b084a0cc17f908fa4fe1e7acf3ebb20c8b4929e4d91612343f1be17"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "be3be047a6267dc491f972e6c45a28323a2bf6c766d29c44d13c0110866d8348",
+      "generationSourceSha256": "3ee01989500824c123a6468224e41febcf7af2ecd0c598ec1a965e0f6597d937",
+      "measurementSha256": "a6c1a419d067a3ef99aa684f05b6ea58f635af381236776c5143ccb2d878fdab",
+      "metadataSha256": "1b4c94f29303cac85b28b33df26072f082bf1dcda3a76b16d7483eb6e4a8bd04"
+    },
+    {
+      "pairing": "lover-sage",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-sage/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "ef4942197c3d5ba804b9488c7aaec5e416da549195f0ffdf8770d5e4fcfb658f",
+        "wide": "e7ebdb1dce41ed1af85598d7483f70f873eb511e92c26e892f4e83edc122701f",
+        "portrait": "4ea42a09c33ceb6395c3fde4335db7da1924ad50d6af2bc06c10ab5cc68e2b87"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "2bd605148733d4f8e714e3dd0c02735e31640c91ccd3020cda5a1f7739917cd2",
+      "generationSourceSha256": "3118a3ffce43a8289d918af6b0fcbef28aecb736e30a7b788587fad72f4c24a0",
+      "measurementSha256": "2bfbd6f8f6847ca4c42edc343b7861c16e07bb8596d1dadf78b1cf7e16e5bc60",
+      "metadataSha256": "d8f37a0e09792dfcb5e45d059f5f2bba0b28fe9466fdfbf975296492611ea2e7"
+    },
+    {
+      "pairing": "magician-regular-guy",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-regular-guy/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "372632658cee07d6cbe70a3cfebf0ace943e114a100df0c219c5bc0f5d76e7b7",
+        "wide": "d7ed9150c53db76ded3ac2952cbe7daab8f0c2957d4b74192e1f611d3e338869",
+        "portrait": "893ff4c10aab6cffeb04ad869a71feb5f931466e7493d35719f2554b5321d18d"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "cef277860acf2c375b1b332f9aaf90035e8160aac2e0dc06d486f2d0b415529e",
+      "generationSourceSha256": "cef277860acf2c375b1b332f9aaf90035e8160aac2e0dc06d486f2d0b415529e",
+      "measurementSha256": "370f7630dbd7f39844f325f0a9d51a9d1834995d7955ad28b52182efd2536d9b",
+      "metadataSha256": "88e1350ef57eb9317d30a811ae7f571a9d8ae9604ae74d4491a4ec02c51d9168"
+    },
+    {
+      "pairing": "innocent-caregiver",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-caregiver/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "6d9160cc8112157cba045a8b7c9fdc091f1fc305e78971df6fa6c4a838ef620a",
+        "wide": "4b6f8bc6d4116c59d2c16c3c28a3485985a9aaa1f292547892f0553b17371e2f",
+        "portrait": "1d8fd0bf991bfc92366119cd00b5666076f238e5f5c144f79627e2dd1c5f3c5d"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "2b826c8f37b7f719750a0297f196da3e2870e5fa42ce471b21db0ffd7ce43df5",
+      "generationSourceSha256": "d4e942abc39972cf7ed38e258d918f409f1fc3e36fa12ede52d55520ac2716bf",
+      "measurementSha256": "be9b6929c92a3f2dc9c30a28e0ca421c71e9deb715dc06df38ade6bb143d1d26",
+      "metadataSha256": "336af605f4e7abbc8138a61171345f93ecd9a3f26d868c8dfb7e1d6584b00beb"
+    },
+    {
+      "pairing": "lover-regular-guy",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-regular-guy/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "b696d5b9013a098e5319ae10fdd4fb17a4d2a9b2b31b6855cd7516d02d38ff74",
+        "wide": "94dad1d7e46006f3bb4217bb76e115700495486b4dd251836327b3f4d76bc9ca",
+        "portrait": "85676d023d8b12cd7dae0e5decf9f46af9a4000b24975179d7f1ad0b933ae1bb"
+      },
+      "geometryPasses": 5,
+      "geometryTotal": 7,
+      "currentSourceSha256": "d82beb0761a6a62567eb5ade4d83638c805102a63a8f413c7673659f57502d58",
+      "generationSourceSha256": "d82beb0761a6a62567eb5ade4d83638c805102a63a8f413c7673659f57502d58",
+      "measurementSha256": "0d2664c84dd38203dfbf228df8bd87437fa61879eda3d35f29b7d383999460ab",
+      "metadataSha256": "b0f92ee34786d1f6e7a8de68bc84ee394544ef83cb185d6ce610c0c3257fb05e"
+    },
+    {
+      "pairing": "caregiver-innocent",
+      "version": "v5",
+      "metadata": "design-artifacts/_image-production/2026-10-06/caregiver-innocent/v5/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "4063c13cf4db93f2915892e46f8c405bd43e8d74bbabe40a93476ecce191f6c7",
+        "wide": "f4b00e083c45b8b7f3c8c7059881e7e8e35281d3670304ed0ae7f6f7460909a2",
+        "portrait": "097cdb677eadef010a5fa0e32f64a9afc2e519961730b699a65f5af95a18f317"
+      },
+      "geometryPasses": 6,
+      "geometryTotal": 7,
+      "currentSourceSha256": "9166339e1daa71f83fd17d2905502d53c534de161579301a36d084e0db954f02",
+      "generationSourceSha256": "1e16f17d4f994c89049a4443fd3129e8dbd4d05445533719f297cbfe8a0e3fc1",
+      "measurementSha256": "8b35c3de57d34b5bb4ecc7b1083827310ad193b936f23706ec5ea238d86f342b",
+      "metadataSha256": "557b3e8b5f7f90615f49ca1e2857365a926e3822f89f29a9a7fa5ea7f66fa36a"
+    },
+    {
+      "pairing": "hero-sage",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-sage/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "f40a083433d68f83a7b6e169784ff14f404d8cfa9d4c73e6ddef59374cde5fe9",
+        "wide": "668326b086cb4c2a780c187a1dcdef94401b5ae6e4696b38975175248a0d04ec",
+        "portrait": "7b28ffd925be5d3cd7ed31437c2b5a6a134997dc4980769d0a7eadc0c28c8860"
+      },
+      "geometryPasses": 5,
+      "geometryTotal": 7,
+      "currentSourceSha256": "aa5cb6531f0bc3f90c20b04be1922ac1cf444cdf4123438a8c2717867ea81c10",
+      "generationSourceSha256": "aa5cb6531f0bc3f90c20b04be1922ac1cf444cdf4123438a8c2717867ea81c10",
+      "measurementSha256": "785d6675cdd092798fd653d9060f73d7ac0a415dc79e5beea35046e3a7afccfb",
+      "metadataSha256": "96753c68b86576a63744ecacbecc9ca13db8ae7727f795bc8fea8991b9cd69ce"
+    },
+    {
+      "pairing": "innocent-explorer",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-explorer/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "eded185975b5b7d657f4c061ca9f18d5c2bd939e7840c324f81ac5c1c1c031f5",
+        "wide": "8c581a54767e5081738b88a3e209dd8341a43641abb3639a66346c367b2240e2",
+        "portrait": "18f3d9df7820ce94f3afa9aa27ed4df2f8a71b160d3cb396f4ce6f095390e961"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "962714e5aa17e7a729105df73e77bc54b8e7105588b768620cbe15ff8c783080",
+      "generationSourceSha256": "962714e5aa17e7a729105df73e77bc54b8e7105588b768620cbe15ff8c783080",
+      "measurementSha256": "8fedee6de1cf2a1f83fd13d5b3c065adce058d4a4d3c8bf61845a23289f05f55",
+      "metadataSha256": "00f90faec019525ece99f1ada1d41f90bf5510167a7a4aef91c8d8290691a5c6"
+    },
+    {
+      "pairing": "hero-caregiver",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-caregiver/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "2579755925cb31224205e61ca78325fd181ace93a828757d1e89ae5f95cdce09",
+        "wide": "51e3e0abfb6a14387730c1d1dc62062ec7aa173324f0e9847c531c1df1814638",
+        "portrait": "04a475bc5e68e45ee4c6b20d69fab3f2a35b269888f4d527d14feb8ade1ca4ea"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "77f0f8e79144cb1b35631feab053bd467982a2f221f275ce5e74634083696ea0",
+      "generationSourceSha256": "63d9cd12eb4e350247ca03ddd6889a43276e3f6023449672c7295a3bbb72dce3",
+      "measurementSha256": "f523d923e6d24e4d74dbf030229bfeaa8b1efee52b91d84641446d0b62b34dbb",
+      "metadataSha256": "668506f2ea86056b16bbee5b0a60ce21ff5c3d2eb272d42dcfc558c513e04f05"
+    },
+    {
+      "pairing": "lover-jester",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-jester/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "ae238ce88ef5db724fc2da4918d3ec90d74ef49d0650b9c58833527a46767326",
+        "wide": "651f4e8fbf7648f9672ac927b19a49f25808a1cff1fb3469ad67172a5d453512",
+        "portrait": "5f55764406b3e5571e72e087c9fc0ffa671ce795881f57e471f2aaf27870ecdb"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "b4094aba1d3f9b28a3e33edb86118d20e940b8f1a57e8f2cb2cbe05c65bce13b",
+      "generationSourceSha256": "b4094aba1d3f9b28a3e33edb86118d20e940b8f1a57e8f2cb2cbe05c65bce13b",
+      "measurementSha256": "fbf15438ffd0054f764080d03871e3e5936f7e81b7d3d5235fd30e6e3cc56389",
+      "metadataSha256": "cfb73cfb7e5ba1298582d52531c5c92fbb6950e1249ab8ee9ec3cc2c2366830a"
+    },
+    {
+      "pairing": "sage-outlaw",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/sage-outlaw/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "d895bf20253d319d7b9ccd8235f31b15aa7e702b77405cc922ba9a03b7128e33",
+        "wide": "07c692beb2712c0405ac01b455f899db8c5887d079d81e8e0024f09a50b58e38",
+        "portrait": "36c65e16ae19b63757d39599859b09e31cce5202a7fbce2f5a2aca41150cb087"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "dbff5f1ba68e4bec575a0c7bffdac5fa9f08ad1bdbdc4c0e0f0efa601669b15e",
+      "generationSourceSha256": "b461e0ab25ddf5cb1629ce0c82354b400ebd072617aa6502f69a439c8a84aeda",
+      "measurementSha256": "06a57935f9e77ad8c96baf127044acf34dd5007255ae44328db7e9c5f9876fbf",
+      "metadataSha256": "2968b5541b13dc7fea2ae6a6737b30fd4d95c8d9afdadbd2aad3302564b59cac"
+    },
+    {
+      "pairing": "innocent-lover",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-lover/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "7eff829d08a738c0c3663a201ab4efe7351930b179f03b4a866399d022f13941",
+        "wide": "02173ac6a5f259679550bd0ace9a9a95acae85aec055929cb3d6590ae550a396",
+        "portrait": "de00f2e21d55b4883d52e5b34c7a57bc7f87d5c30d7ef3fd7d3236966a5f2ef3"
+      },
+      "geometryPasses": 5,
+      "geometryTotal": 7,
+      "currentSourceSha256": "eafd8c6b9918b2526c6a07f09f966f4dd26b0b56385f8c82d0de0fb78e1e9910",
+      "generationSourceSha256": "eafd8c6b9918b2526c6a07f09f966f4dd26b0b56385f8c82d0de0fb78e1e9910",
+      "measurementSha256": "b3d27188d7c94d6e91c544c3119491646d061badfa6b71310affad6a5d8a2d00",
+      "metadataSha256": "6f7d3746b4957552582b6eb995114adc2e7a62beffe913286590502d29be01fc"
+    },
+    {
+      "pairing": "explorer-outlaw",
+      "version": "v4",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-outlaw/v4/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "4809197137871f86254f8f71806429c46af2c4bcb7e161375387f43d344e90c7",
+        "wide": "8a6ae514c2e7c990f0de42a843e820ac8e0b55b845b6774c2f71927314d563df",
+        "portrait": "84ee34de6c31208459f3d61bbc5acb3e55e6a2a29545803823fc248f9c467088"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "6ceac0749240c357345f239128426a07a06d3e6a261746c842c4d56ebce8424e",
+      "generationSourceSha256": "2e4b84294914bed5ffb1f0728b03fd603fe7a6d5b02e8710c8fdcf79f1aaf97c",
+      "measurementSha256": "82bc10b5c2fa9c3123676abcddd6ff3474047c85c3a0346b0afa02113e3dbda7",
+      "metadataSha256": "5642e209aede1eb701164de36802c403d76b6e259e03bb642545828973cad270"
+    },
+    {
+      "pairing": "innocent-outlaw",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-outlaw/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "9c5526163efa7a4a092ca511fd2cc61992d24b489133a1202ab73fd5ad4689fe",
+        "wide": "161a9f9348c7d1549a14ecd20c2a591afa7c59d527cba666b5608ddbabca299a",
+        "portrait": "86d977717414a11cf57b28f8de784dba64ec6f6642a91c18c75e0abcb2a0db8e"
+      },
+      "geometryPasses": 3,
+      "geometryTotal": 7,
+      "currentSourceSha256": "316998b7f12ba0dda9fefe04abc37aa5d33b8bbc720edae859dadb591ad2aa88",
+      "generationSourceSha256": "c33461857c7e996d4a8c580b0d26b18ac1e184759ff522dc992997cec7dc28a2",
+      "measurementSha256": "2dba274a4c67b9e908d14fa828ad29d4c59e8b532da99ba25e192d322c7e886a",
+      "metadataSha256": "f11b3b0c12b1459be23a32237a66e3882b37cdfeb200e34f78e8e50075f00df2"
+    },
+    {
+      "pairing": "outlaw-explorer",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-explorer/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "9322814bbfe6969e10893572a1924a0b56101176d19251bd058808b384f7e891",
+        "wide": "22831db8aadd436a8907e32a5f6b52283f348c858a5e51f38d61db2474c979cf",
+        "portrait": "b04eea599138ce96dd31a46907cd745a8e8d22f7cec4413558edadb97592a333"
+      },
+      "geometryPasses": 5,
+      "geometryTotal": 7,
+      "currentSourceSha256": "aa6033466d1f9f74208e31a32a8feb7d9f218f8fe47e428aa1599265cac31f86",
+      "generationSourceSha256": "aa6033466d1f9f74208e31a32a8feb7d9f218f8fe47e428aa1599265cac31f86",
+      "measurementSha256": "32d493ebcf30dc4e71f0abc13eed8918fcad1159a8b05ebcde8e4d113aed33b7",
+      "metadataSha256": "81d2a1483469b5ea2b09b51b6c03b3c129fb24cf1c4502390b0a6a7a2f77d3af"
+    },
+    {
+      "pairing": "regular-guy-ruler",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-ruler/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "55ce434e202c23596d7dfd1b5a76e74e39b7581ca4379d75813b03a3eb31b456",
+        "wide": "a17819f60c46061b338fb41a276802e834aa6e0abb48215e17dc2e9cf6f19069",
+        "portrait": "15381f17753ea5dfdbcde85be3afff7709b01051f8097a13c91d4e4a91e1ab0c"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "d2d94c473eb6a2f4de5d60f45b1c7a7f3ffbca723e47ded44898d21a72cf65a3",
+      "generationSourceSha256": "d2d94c473eb6a2f4de5d60f45b1c7a7f3ffbca723e47ded44898d21a72cf65a3",
+      "measurementSha256": "d68737423c754f9ec328c204c85ae03b42daaa666502a172b31ec492ca2c6eec",
+      "metadataSha256": "8df3563e955c9ca89ebf02226fd1849018c68090cd143f2e8cd1fedf7609297c"
+    },
+    {
+      "pairing": "hero-explorer",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-explorer/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "6d5e9da96c4cc8770a099cb483516536b10feecd616fb397c27396dd3b4e2e04",
+        "wide": "df05f381709f0736e23322477b6befecd94e05e5bdf40168d1449dc42b337d3f",
+        "portrait": "555bb701132d8213943d58d94829a1242d65b7d978d2fef8dcd8afb5cbb4728b"
+      },
+      "geometryPasses": 5,
+      "geometryTotal": 7,
+      "currentSourceSha256": "5b5ed774dcae580edb7e9c92257dd9370d1f453c1db60347846855c7016005cf",
+      "generationSourceSha256": "dbd8338afefaff3a1f8f60fd09ac0e622fbb327e1e90f13404d7bc3c1e6121e3",
+      "measurementSha256": "f99df44f81357741ce7e0edca346dc28382322d87edc50aec1ecb2ef241bab3b",
+      "metadataSha256": "b7dd4de77222163281051c3ecb897b614bc6de060c8b9242fa3fb46a092d2271"
+    },
+    {
+      "pairing": "lover-outlaw",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-outlaw/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "1a1b5052382e69d3de26fa2134a01b3aff12e7bd45c5c640626e95b79a57a782",
+        "wide": "f492353f32815e4acc31b4bbb2aff986a681111711c91ee50016bc13d78aabc3",
+        "portrait": "287452c198f4b6cde8351c80cddf2e5cfe446666cfbb6902f389642983b19e05"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "94ab287598e315d4d68aa66e63cd14045d409b6422d7ca8e5ea95871db76d2ad",
+      "generationSourceSha256": "886e1317e0757311d8208ee465121d9b4b8dfede23a6b49379ae78f14dd3217a",
+      "measurementSha256": "9ced6a9c15ba425b4c13cdaeeca9b1c0028add7e86d0290cfc21a55e94e03531",
+      "metadataSha256": "67942ef0627a1770dd775b3d84d5f2d36dc099eb1fcd59141e0294994092d965"
+    },
+    {
+      "pairing": "sage-magician",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/sage-magician/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "120e42c7bc0a619d898ec555f64b150d5a1cffedbc918a9f36f35a9f621b84b9",
+        "wide": "7e290119a0130a8aa7bca09be496f595483ee955609c0bb1033b2564970522cd",
+        "portrait": "1dd945f4e3a0bec02c30f6acb98ab5acf798d23835298814b567c3947b1779d8"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "69fa19e99136ba47bcd1dae293e2ab75ed61b91731d655c88ff9e0be53f5feca",
+      "generationSourceSha256": "69fa19e99136ba47bcd1dae293e2ab75ed61b91731d655c88ff9e0be53f5feca",
+      "measurementSha256": "cd672c1db6f84e87f9ba826850194d92311cb86cf7f97c36c6b69df163bda5f6",
+      "metadataSha256": "58c5ff8de232a0656f816d9072a9f1f36b24b4af1ff6424a972a7ad15733ca9b"
+    },
+    {
+      "pairing": "magician-sage",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-sage/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "073fc0a752aeb7e3c0d22d09aff669296b637efbdc90dc8271e6648a05840101",
+        "wide": "e14e64cc4da1001b044555f4088c84733d832cb4747854618959fc6fd1bb0414",
+        "portrait": "f1dce91a2a6fb4b0efad0cca3791e9c4e63daab3c1652b1d479aea69e08f2f1d"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "cac810a6b34aa0d4a06352c346bf30f2e801e7ce273c00a63b0368f4d8bf19f4",
+      "generationSourceSha256": "d765643fd671fa54a210382c790ca860669fa8c595980f8c99b3237d8430afa3",
+      "measurementSha256": "1905e52eb1ccd1c7a74e969e10a2430d319f51df697b8ddc6bbc5586e7f3d87e",
+      "metadataSha256": "9433b9534d963fff39aebaa2bbc61ac4cb80b4b8a77f1bb8efcba610e419ed00"
+    },
+    {
+      "pairing": "regular-guy-creator",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-creator/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "1db1d0aecc46265362f47c4e60adfe2b1f8dd3d9d6b8509d51a47cfc8c0e40dd",
+        "wide": "0970110502b3da53be454ec715bf31a8f8d1ea9870c583818decc75995896726",
+        "portrait": "d5f633f15ae63b7ee3ed06fd3e8c47fbab5bc0596760a9f914b851e150eab57b"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "34251fe903c4acac25671f6379fd0a1aa13c1ea11da95de084189127f40f3ddb",
+      "generationSourceSha256": "6ee63b65ec785010650bcc36196bbcbc717b062c8dfd9ab5a99bf21f6f1fa565",
+      "measurementSha256": "de647bbb379b6ca9ee8328db5998d08d5513f785c1e211671a07b5ffd176401a",
+      "metadataSha256": "f9bfa217230b8273433483fe1aff63c75bd6b9a367f658cb84922da82658c06b"
+    },
+    {
+      "pairing": "outlaw-innocent",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-innocent/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "0841d19afe4dc30e061512f97e2019ebfc22ea3148f3e8e824d2954fbab9012e",
+        "wide": "ed71489811bad356e4221dbd7f22510c6b7b775e6dd83e2852571fbd924a4279",
+        "portrait": "da85041302ff4c07d6f28799f88454d1ffb50c89ab60ed9451829ce885bef77d"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "f02d0031e64cde7f622e4352ce4ef131fe3d3f50178fc677e3001ec16b1aee91",
+      "generationSourceSha256": "4d826a6d73e4167cde3b99967ead209a59eb381d2be9eac82efc91e9eb9d3173",
+      "measurementSha256": "23a4d83fbddd9841481b8d54619d894a55759ce283691cee851dc09400ede21c",
+      "metadataSha256": "e230da0892e1877e034acae5636f0fa3a015c3f0bb135dda5bb8db916ccf1755"
+    },
+    {
+      "pairing": "ruler-hero",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-hero/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "701ae0f7be82037cd24094fe4c7b25647b27f038a9852010f8722cbbaed697d7",
+        "wide": "cfcabd69eccea0c11d79e85d3b0a5e13ee9245c66d4406d50bfc731a7ab115a4",
+        "portrait": "e9e65d87f00ec98225d61096716da8f7053e04aa1d6a1cea608d8fb34035e431"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "40324372156f2054212c7f0cb4561aab8d11fb9233e141b9575d172958f72e28",
+      "generationSourceSha256": "40324372156f2054212c7f0cb4561aab8d11fb9233e141b9575d172958f72e28",
+      "measurementSha256": "6cb8f90e5942a4add457790e62d47f290f236a31559462baaa9fed4254b23019",
+      "metadataSha256": "a00612951c68621ace5a6d01cd990ec5c2d4e1f24194e51c90dc10cee311d22c"
+    },
+    {
+      "pairing": "lover-innocent",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-innocent/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "6a4d4cfde6cd65bd14332917ae55d1438618134f235c95333ae8b9f319252335",
+        "wide": "405228cd6db785c817ef6080f90087c2c542db3869b73215f313ad8f450dd56e",
+        "portrait": "55b6a1be60e367231c9f03cbbff930704b89bc4a5196ec58ab03c91e571e3899"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "ac8a52ca5dd25b897823b426ae29e06493fe170eaef2a12af83c21f2bd0ff303",
+      "generationSourceSha256": "4c0ed8d3df2030fdd30838f24b13bbb345dad7db90bf4176fc3800fcb5d84f1a",
+      "measurementSha256": "281e65c14cc4bdf87080180e8c53900bc6bf037fe31975ff085556db63219df3",
+      "metadataSha256": "709bd8b146f9ded5c121d52a192225da290061686497e5168665c1f1cc0577eb"
+    },
+    {
+      "pairing": "sage-creator",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/sage-creator/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "ff41410a2aaee9000caa2bb4ec6344dbc42c2947b8f2fd6fda8e0136db211653",
+        "wide": "fe70e80013f5cc41a27742f251e365435698880bc0e6a910eb24892d63595e9d",
+        "portrait": "01e20d5d8fa0be495946212c89595c4cf8666f5b7e8dd26b2f9b5dec7753b07a"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "1f6f922190e27c724a248586df74e799cc7e3c33faccc84ce46ed960effa70fa",
+      "generationSourceSha256": "1f6f922190e27c724a248586df74e799cc7e3c33faccc84ce46ed960effa70fa",
+      "measurementSha256": "a6f181e143fe3ff6ee9eb5ba508841ed1b85289dbbc6c52a22af74f0349b2a7a",
+      "metadataSha256": "8bcf84424a77fd45e658d3c88b370a38dfe9978fb5950ad1881b1834b48df1f9"
+    },
+    {
+      "pairing": "hero-outlaw",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-outlaw/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "3434d85882fdcb3b1f5afe41dbcff2e73bcd53601a150c1dac972718d5c0dbfa",
+        "wide": "c88609e11e23fd1212e0daa7e6f98c28ddc1cadad984c26456b7dddf56d030e9",
+        "portrait": "d80d889f3a5284f0801dd674ecf147c2e777314fb3a2972bcc423cbfff4eea83"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "10913c8471b031a78342c8a791f8a3d1de018fcc17ccaaa836a32e6751fcca59",
+      "generationSourceSha256": "10913c8471b031a78342c8a791f8a3d1de018fcc17ccaaa836a32e6751fcca59",
+      "measurementSha256": "11fdf20c0af2f499bfec2a9e33c0cc51738852f46f27609c0bb1c9d0cd22d260",
+      "metadataSha256": "4bb2b7a013051c8fcee74eaa795990e394c9bcff8cd990d569ab4602e121ee97"
+    },
+    {
+      "pairing": "ruler-regular-guy",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-regular-guy/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "b00a5dd42714227d671856f00fe1fa04fe96e10b04c118e3e3089203d2c52d11",
+        "wide": "105fd3c701a6c153fca8a0ca861642fdc11f4229ab77aef57c26515004b60a4b",
+        "portrait": "b94f8cd935cd1a196d883670a4b52f201afe840a667530f1e25f2c882e4975c2"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "bb737281ccb18f5dedf316ff2af2a03f7d85ac48ba62de98242d3c1fef360bc0",
+      "generationSourceSha256": "e51650b108237de2aea282ea5e7b9085c1f70a9a57c97713c059a7e396dc5328",
+      "measurementSha256": "2963f9b94cef16aebe41d013086bbe0e4a9fa91e09b10a6ca50ae119288398c8",
+      "metadataSha256": "226cd82bd86437d7c675d262e83cf7a751b89d7956b0d55a2ab3fb34dd1563f1"
+    },
+    {
+      "pairing": "innocent-ruler",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-ruler/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "f0de9cff9c1e009703d33706426d522fe152518964060aecff03da078189764b",
+        "wide": "bfaf7cbd381e6e87a483e137eb9a3c9bdd6f04038baf28f545df1cd70ab086ff",
+        "portrait": "c0bfd90f2f3f5efa1931802a1d146d15220897265d0400250349145dce8e3473"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "b37a536c2dacada84c3451c4bc378e3694cee4f7616b12e5141eace9013b7c1b",
+      "generationSourceSha256": "7a265fefc7b90014c49661c0371c85827ccadc2cb95b4c243dd3024e6966c492",
+      "measurementSha256": "73a4e214b8c6866c75af23d0695ad86b7120e2f67d00da74cef5942f0d211943",
+      "metadataSha256": "53cf20abf182b8729e1e87e112d2a47eb1ea378e07a3789c19df10eda38d1c78"
+    },
+    {
+      "pairing": "regular-guy-sage",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-sage/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "514a610de39ab4431283911853d2b2b72aa7cdda84cf748d7631bc2c4ce23ea5",
+        "wide": "3aae76dce3bc31afdd5dff9455afbc4d030a017f427e7e1817d3508021195376",
+        "portrait": "bc27eec3634991371f44c85ecace03e9f64d62a82b72f381713ee95ae41ed4e0"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "96ce129d82010883b1c735874370bbcb1a75230d6c1f1259eb672005165a1a6e",
+      "generationSourceSha256": "cc3815ac1fd8187d465a2978169b823eb45c402ad018af7e42186b8b55ecb64e",
+      "measurementSha256": "9b87de103c24f27acb938d5b219e159558c1c8cfc0d2c7a970785be7e8cbea88",
+      "metadataSha256": "7aedee292160be75f3cccbbcc0896e3f0d4a942248a97b83b0b5e6db35420c79"
+    },
+    {
+      "pairing": "regular-guy-explorer",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-explorer/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "85195cc9e7580e62a8042ceba88f54fec86032f19ff7215ce4fb8f015d6b1733",
+        "wide": "583cf80ea0707cc86931b15814c818d899152e6e9f7da9051ab339a0e6ef5efe",
+        "portrait": "a037a28f3b554f2f38a970343dc185863dd944893dd92fbb51469db9acacb470"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "187a77361f07ae4865feae56582cbe7bc576fb08c49a9d146173e178c72caa04",
+      "generationSourceSha256": "2805641f663321f63dc01309a59550fac8fc121318cbf0c5990dcdd6e5b0ce6c",
+      "measurementSha256": "8529ed889e6b15178e3a46caf9939ba9a43a0a56e4fe417e002c5c517d516309",
+      "metadataSha256": "2c5a734371868b4d87a2eb6b708db932ad7a5ff2c20de2f3546fe759d9eca5b0"
+    },
+    {
+      "pairing": "ruler-creator",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-creator/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "0bf8f4ac71a146d73398b3db5fb3eec50f9c45380ee9a1538f3d543dfa96f0ce",
+        "wide": "d5d14eebabd69c7b923affa3371518a2d642a93e338cc5600a362858b04909ec",
+        "portrait": "b47cb0b5a200d270c768353dba288fc7685a6a7334b5275f752bc93b697eb113"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "aee49e28f6d76b5542c861f5133dac24c55221e3ecfaa0f8a4c11eca7e1faf6b",
+      "generationSourceSha256": "1df9787a81a8d6c54651ccbcbd9fb4b3b1222886e0b89e9e489f08696ef40143",
+      "measurementSha256": "1755bdde16937a2f727e4ade7c1ef8be0d9c783df74aac5e07ee4e65e7f1d14a",
+      "metadataSha256": "90716a1332ca9d235c5a583d0c9a445b1588953ae345fcc47aa5d054531612ef"
+    },
+    {
+      "pairing": "ruler-innocent",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-innocent/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "4daf91afdf9852fdf65926f63ac30fbcae9f7fde0dbe73e5bc874b01bddca901",
+        "wide": "648ad0759b2c6b125407cd4a846877761e73759064eafac1f02af9edba01fc08",
+        "portrait": "f5bc6089c0dab44da470e3b0fef6bfcf8f003f573dc16ec41c3cfcf004d8d221"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "197036bde4960b67e2f351f9c90f2a080adc26d3b29d73329f1d8c648b0ecf55",
+      "generationSourceSha256": "197036bde4960b67e2f351f9c90f2a080adc26d3b29d73329f1d8c648b0ecf55",
+      "measurementSha256": "c2bf131445beab7b3d910e3d690e7ab35a61ba631c49ee79b762386ee21f9dde",
+      "metadataSha256": "7055cae67ed44340783b7bedfcf98c66e7fb4c117aba976238ae03b8932b2374"
+    },
+    {
+      "pairing": "magician-hero",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-hero/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "e967cc6de21a5f629094eb087139fa49e999dc3392754a02a7813d12ae206b3b",
+        "wide": "513850ee80da552b0b7036cf78f4a6860789820a37955b18d289b12e5cfa087c",
+        "portrait": "9f4f2902781829964faafbff790e0180761624b7f7b6c00075f300c643cb05ed"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "878d86bdbe9674fa19fcda3893ae0c61ba59522cb3df9c85ac9505762199a2b0",
+      "generationSourceSha256": "23441510e1785d4ea12ffe763e05022faecdb3baa54abff479006ea6aaca631e",
+      "measurementSha256": "5bec68c81e66a28fc6b66618f4c79aab96b2668de7dc465c5e838df52c1a195a",
+      "metadataSha256": "1d15a9e1f105288d010143dea539f6c203b4d2ac71b86437202eb9aac49eb68a"
+    },
+    {
+      "pairing": "outlaw-creator",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-creator/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "7a706ef0d76db6281ca3aa3d6f340f0efdcb5c011a355b821857e3a0500c3aaf",
+        "wide": "36606561d4c12cbcb8fabf2582c4cd0ac8f6305ffd9f8d70593bcbcdec38f13e",
+        "portrait": "ce60049173826c7b6026b005b0b4a79a7873f927573db6721f58bf72d78d480e"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "7d2e5a7310a8ad453252da6f258d1ca2c8af5ff881c0ea3e33aab671f763a780",
+      "generationSourceSha256": "cbb9054f9639e8378a74d6fd4ffc8d31111b1308ef8c2e37f0218c8b6ed7c7fc",
+      "measurementSha256": "0b36f9b3c20840e3232db1bc98759bbdcbb471e5571b98478d8a4f19485901e6",
+      "metadataSha256": "6f8fe25671095841c150adf49fa06afc322c44760553585cf3b1614965e57823"
+    },
+    {
+      "pairing": "lover-magician",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-magician/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "f5310ebbfcfa7fd9268cdad7d5ceced26a4622a57d38a33124f31c7d0b0733cd",
+        "wide": "88ba76a5b67e9d6b14e0d288d7a853541244073398dfbd2a76cba924e633e524",
+        "portrait": "d1b55452a6f00ae8448fde2e04d4a3518ff95b52f143361fe604f68836cb0aff"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "7d0ea6ad60a780a1ce753a89bfd8b41780cc45fab71df24bf2847ae492900c24",
+      "generationSourceSha256": "bc439a9692e566d2bc89f675e039528e5dba836198c812d3ff4bcc3d50a5ac18",
+      "measurementSha256": "85234335f3bc0e4ae152bbf7aa9cb5b92fbccee3de391e2b318b65395b84df97",
+      "metadataSha256": "7cc65f419491966e2c88a3bb225c964f84e2161a8b358ceace5ddd524d53217b"
+    },
+    {
+      "pairing": "outlaw-hero",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-hero/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "f1372d3324309922d4b835a8c880fbef7a53ba9af1af61e25a50b9664d16316a",
+        "wide": "55dcd2b9419b06fe39f050cc297def0b419d46c1be102d8b5060da6542410251",
+        "portrait": "4d240f85c4b0e7dd4fb6f7d8728f1a18e7d122cfae3f15edc8461d0203e6eee2"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "d7e7faacfb07e0217c832b1917aa2f5125f74062cd54362901b63d6885584f41",
+      "generationSourceSha256": "ce20e7665e5cb1945c287bed88cd33c8be84b5465a20e9973172742362761bc4",
+      "measurementSha256": "8b6ea12295d628414ef817c9048d57ee83948fafde8624a4b1acc31a73cce702",
+      "metadataSha256": "96780d596475c3d1cdbe44983b1e7b558ee4577acd476fa6b9be8cb5fb5807a8"
+    },
+    {
+      "pairing": "lover-ruler",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-ruler/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "7cf870d3996e22f9fd33cd64a44904f6a117678c49a961ff449f86f6f4241120",
+        "wide": "2e9fd039362b66eb2f4c29912a218215e530ed4d3dc30766ca4229d7975a44db",
+        "portrait": "31a0d95014b753ba803b32bc5fd177670c8713f437c067c92c82e89c82fd11a6"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "b39fdd52c25328fd6e9b3c1f4a2dbc0d0af46e37932c1e03ad72a7e0a719302f",
+      "generationSourceSha256": "aa7c947afd0bd5f225e070d23225a362d760773c7327a1bd5bdc47f7919717e8",
+      "measurementSha256": "8b803359315b15c867e95e83b072ae4d7d329762761ddd55caf0fd5b2b0fe9b4",
+      "metadataSha256": "116f8c67ab23c9163279deab7ac562c9958f6889f61ece0124ab6c2d76715a54"
+    },
+    {
+      "pairing": "ruler-magician",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-magician/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "31353d8c29e46636b6b55f27ed4a5523a05b675204561863d09e72fa830242fa",
+        "wide": "b44a02d330f5d1c730f16170f4898c2e94010abc674a9a75580fe3c3d812bbcc",
+        "portrait": "da874076bf769e54d9c42dcb84e806f62620ec07d3ea095152e8c6d1a6c284a4"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "5457018d1dd14a842408777d809f3d3d364374d0f80af29bf86b7d30d02eab93",
+      "generationSourceSha256": "5457018d1dd14a842408777d809f3d3d364374d0f80af29bf86b7d30d02eab93",
+      "measurementSha256": "dbf2624e846ad94bdd2b8124702669348ba1d5ccc501c5c2b7e83f2e0de6a0b2",
+      "metadataSha256": "d867b257fe54eee22a87fd12d5da32ed9d570c2be7a7dfacb88e7edfb7112fe8"
+    },
+    {
+      "pairing": "ruler-caregiver",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-caregiver/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "4cac179ed9eadf82be706c9d51aaa8e476bfb14205ecf101931cca0a935ef5a0",
+        "wide": "d8d168a00a350389d457b0c0994c1b4d37e147d18a1ab100ef00d139a4abd45f",
+        "portrait": "e51b9a94652e870c16004fa1e3300e42e2ab804807dea2f82675a1cd106b91c2"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "cf6cc557429b53ce8cb62ef73236f6cf3f35ba42160c03ceb68ace8466ffcae5",
+      "generationSourceSha256": "cf6cc557429b53ce8cb62ef73236f6cf3f35ba42160c03ceb68ace8466ffcae5",
+      "measurementSha256": "78d463d9fb5ff9c9f444fc6be9bdeda24c7fc649fa8937183e105a35186c76ce",
+      "metadataSha256": "c9f97ed52bdc3374bbd57482afa7d20db7aa00939fd75f28a5d072c162ad79a8"
+    },
+    {
+      "pairing": "regular-guy-hero",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-hero/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "c2162f0605984429301bba4c22a50d78909a71a553f6551f2866f04441041150",
+        "wide": "bba2fd4da8a152fd56785a3069c738ff0b46d801c701178ffa93e6258096a2af",
+        "portrait": "f403aa9c7edf11325eca1a7a2b45bf3ab68feefd90a4eea136f511cb293c891f"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "8a8eedf0ee37331860d256c7dee3f0aa2973c5db5678743990c2c4654f9d45b0",
+      "generationSourceSha256": "8a8eedf0ee37331860d256c7dee3f0aa2973c5db5678743990c2c4654f9d45b0",
+      "measurementSha256": "bd33843b381dc2a840ee14450068dbb4afa9e574e0a5f09c5f78cbb7ff6b0dae",
+      "metadataSha256": "0683d5a4beb68a1d89d5c9775e6c9d03ece47829ce65b71654ae53c5fec0a1e8"
+    },
+    {
+      "pairing": "ruler-sage",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-sage/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "eb2e8f4677a60a50c7c968bc192af6cb25da3cfdc4aafe6f9bf8874a8c73a9c1",
+        "wide": "53425623c722fd85fd749c9830b818294cd6b2aa542f40a3b2b295327d1342b9",
+        "portrait": "55f1dd77fa105179883fb0ae27528954e4a929ec9b102ea771f6936373bc050a"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "f485deb6ecc6e97e1c4a013cafc2933f214ba57c7c0863baa17f04cc62485d23",
+      "generationSourceSha256": "4de73d5095393231e20e0ccac3a6bcd69f6f61c771fb4d69a6064e76e6dc609f",
+      "measurementSha256": "c59c51b5d49ccb98bc7f6bd19b2e5826a78bcff4d067c44142d3df08bf625b93",
+      "metadataSha256": "ae4a2d90579d0245ac7c7a11e920d56cd76756e3cf5cacfe97babc39b395057a"
+    },
+    {
+      "pairing": "magician-explorer",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-explorer/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "7db7095fe2561601c79f317ec709516d741ffb328f95b3a3dc81a50cf5db78ef",
+        "wide": "6b93db712a9389397c0e55a7bed1476d3c0155ac17848f4cf5df888353662c66",
+        "portrait": "b78611ec4dacc68619c497df3054f906bb1edd0fb594ef2c3275f3b4112ced9a"
+      },
+      "geometryPasses": 5,
+      "geometryTotal": 7,
+      "currentSourceSha256": "bcb378a801c7b0d2605662aabc8618d8c339b3f5d77aa27d45f98d0f5ee54668",
+      "generationSourceSha256": "c4738116a08e3c86fba9dc4c1b6884298e4bfa45f2dd75836aa40c463fd85f34",
+      "measurementSha256": "afa7f5846658e6bae3b67ae5e5efb5d5f1bd4d8c831b5c3fbfb3f6426377f6da",
+      "metadataSha256": "e420fd0e4bf6f6ace22ee33eeded73384d5a48f43c385aef29ac8e54c723e37d"
+    },
+    {
+      "pairing": "ruler-lover",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-lover/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "516fa94cdc13351a942640feb7c2006baf79e71081304ef675d0df7690df00d1",
+        "wide": "661bd791960d7584cfad0754b966249e80cbff342a0a839fab1f9bb15a68d05c",
+        "portrait": "ba69812e8a8137414970d83226276f4583db192d2825ce3c5264e016b454aa82"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "8702edd245556439e429a3fa1517ac5f1379cf57e77a7465cd727cb7b8bab989",
+      "generationSourceSha256": "fe5194fb05d02ad4bf9e556a73a6cdd96227ba291200b8a710244fc4fa03911b",
+      "measurementSha256": "1488ec30fb9f48e5434f379b11d072173d4304d143708deb90772efab2572578",
+      "metadataSha256": "fd1f1284598dcc97b3a7edf5e7fbc8e791f2c8b0396caa8d327f863094676ab1"
+    },
+    {
+      "pairing": "outlaw-ruler",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-ruler/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "9b0c397c0712adf22d5f7e0e0a1224559a498470c5840f9beff41cde3f8b8c2c",
+        "wide": "72112a7704cd7235ea05596fb1a5e792cf5de5663e6e21db6f941fd3950ee45f",
+        "portrait": "06f494d217fa6704bff8f6a33ade5501731febbdd97a8a83f5320a88e87a78f5"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "99e7811b07ad9c3b7ca4c28a93c56c0af88cd529fe6c4e4432b45226c88100ab",
+      "generationSourceSha256": "b623ba714273fde06e42f864554e064be9d7339cf8f5b0949f88a390e92d4ac8",
+      "measurementSha256": "6d2bc45cb54a1c6d4c695e27d40ac05b1a6c718d532e8af19c7422dc3fdde963",
+      "metadataSha256": "c469d51b06fd3411d5c8883ad3c9783395cd3e8f57fc0cddffe339b7febcccd0"
+    },
+    {
+      "pairing": "regular-guy-caregiver",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-caregiver/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "20266c625e0351d1195a3b1289758ebdff1ce329ca98afd395c44341821d22d0",
+        "wide": "224084227d928c37147d6ef37f05dcb593c193c877f7957a7ba486419d0f9ac0",
+        "portrait": "a6a4f41e35fb14a47f884735b3f939693d73075b22c1bb5ab607383416bc77aa"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "bf0ac7d1bd7614cd9d3dd37d8e64f90d84ebab379eef8062c748e711c623f8e6",
+      "generationSourceSha256": "e7d3bc1250a8854124f16a852d3a39c605d3eeca0d09564bb15b60772bb6c987",
+      "measurementSha256": "f8b19e0ccef6d0b2bdf735778ac835dccfc2616a59f5a2a9c9ac8ca3fb68c23a",
+      "metadataSha256": "17fcf5a313221872423433e5610834e811cdf250a0f80d834fdc2816c3634669"
+    },
+    {
+      "pairing": "sage-innocent",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/sage-innocent/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "3a60dc9db75f563e461bd7d072537107b7bfd6c1d6c81f0096671ccbaed29471",
+        "wide": "425a4f5c7204513ef9746c7cb401158a12290d46d22f7536c1b0895c77b80b1e",
+        "portrait": "4e3ff7be25212270c23f57a30f7b89375998ed44e40012927a548a5a1e89eea8"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "e2f144c259cf4b269c9731e3bc1e50cee63f308f5b312b3948d77e7c2ff78cc4",
+      "generationSourceSha256": "a89388f5ccc76b5a5ab6f7fec75fb7f006c55f84819f182115a868dcd2d2392c",
+      "measurementSha256": "6a8174fbfad6a0a28ad413aee09b9c72e09ccd9484098ee6cf2adaddbcbd272c",
+      "metadataSha256": "e9b90e4c5dcccb57b2d677d2b0712ac4404353ae1ded156cc3c303e5d3fcbe0a"
+    },
+    {
+      "pairing": "jester-sage",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-sage/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "878b439729f75ba9deba14fee9be02dcc47491906b249d17da79c557ecaa4e15",
+        "wide": "3bdb484a7efe9f9042bff996775b3019e30a790700d94e2e2cf3644fac5ac936",
+        "portrait": "ad98f5bf793dc4699feb3c77e20a71f6ebf78d9ca4dfe4c657287a9a2fbdb60a"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "650135f19726cd28669ab561625a2d9ceb7f9552390d4bc0e5bfb3e532047fcd",
+      "generationSourceSha256": "8254e212ad43a4543206f73896e6fcb2fe678cc88ac9a8a978343607e814dcc7",
+      "measurementSha256": "d74c2296b6f253a28dfe7b03da5d3a486bc29bcd8d762d45453070d507b89626",
+      "metadataSha256": "ae1c6f5ffb36aaec34915a53b001ff59aca0bcc7f37f9490b356b72b7c912b13"
+    },
+    {
+      "pairing": "outlaw-regular-guy",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-regular-guy/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "6492067301d84fe97d01f1c081b2a3183314f682df4b865a2f76168b6bb5b1d1",
+        "wide": "aa0ec48047435f7a9a9b1304d9c979dfbf1bc92a84760b310a454aa713c862b6",
+        "portrait": "f5cd3409badb940d405b17e700bbf7f2fdae6fb387373cd68f886112a6690c2c"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "c52edc7d124b4ced31b7a4c38c5b87723364ee713448422faf3151ad75511d59",
+      "generationSourceSha256": "c52edc7d124b4ced31b7a4c38c5b87723364ee713448422faf3151ad75511d59",
+      "measurementSha256": "18d9f297e24878c19de35e729a162180a8e98c4aaad00dd8983c375c4a0f10a8",
+      "metadataSha256": "6c6999088cb9f917d6a506c332ac73df9dfcbe0f3c589905ca41b8a1d14ffbe8"
+    },
+    {
+      "pairing": "outlaw-sage",
+      "version": "v3",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-sage/v3/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "b19683d480e57ce3ca043aea3cb7f42e445911a096c45eba8a2ef5ab3bae3431",
+        "wide": "62c3ac9b51768654fb32870d55aa7da48379b71f0c74fe54718e8275eb40bc03",
+        "portrait": "a71667eff6c0038ddce3cb71fd71c90cb2281ae5cfcb76bfd7408d8559db9243"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c",
+      "generationSourceSha256": "75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c",
+      "measurementSha256": "9c48ca4711a9f00df6b4d5d954c3601d4d24c47a5aa84fb5b886047040e82fd7",
+      "metadataSha256": "bc4166a6036c23ef08cfaec12fac5d0db836c41ee75fd69b4842fdedd8da0d05"
+    },
+    {
+      "pairing": "regular-guy-innocent",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-innocent/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "bd537e5550f41575ed60e99f85a0329d5825c25888353ab9814103103913a4b9",
+        "wide": "b9aa2b1f244de77f11a28e36e3ae5e359d5c04c356da930a37afbb9e3c51c84f",
+        "portrait": "9ee3be9f95eb50f49aeb9c6752131f24c3beec5b23b2b128a22918ca4d9b1263"
+      },
+      "geometryPasses": 3,
+      "geometryTotal": 7,
+      "currentSourceSha256": "ed9246afc39ce9772536e3ee753d72e38e5d46770902d6e0e5ce31f43ab66d6f",
+      "generationSourceSha256": "ed9246afc39ce9772536e3ee753d72e38e5d46770902d6e0e5ce31f43ab66d6f",
+      "measurementSha256": "32d28219dd0096b8fa3a0457a1b42fe02362041acad905abd3e77033dd467ba5",
+      "metadataSha256": "c288a1f2362ed2241eb81152d80eac8ba93252c0d6e1ab9d79781fe9f07beb39"
+    },
+    {
+      "pairing": "ruler-explorer",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-explorer/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "fc4087fcd56de532a4f5e676ebbdc80f5f86033ffd0061161cc6bccf21843b88",
+        "wide": "c73fcd11e79c3a145ea2530a70651278be45d61f01c6e2e97995e0c0161ec84b",
+        "portrait": "baf9e04f61eb308354b8df77e8bd6744ff3100783b9a5fff71e6985e3bf08e4a"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "944bffd256da9f5e1f3425decf3421b58af52cd4b9663235d1b9363512508a72",
+      "generationSourceSha256": "9237060193ec7c6a697043b0326558415f28eb5ddeb787fb5df9aa770b239fc8",
+      "measurementSha256": "00f55345432efdb685561d4d09a36703137dee833864a2c5a32f8c5b6002b529",
+      "metadataSha256": "466ddbd160f8d704129783e2598040a911a13a2f8312f53101cec8023b147451"
+    },
+    {
+      "pairing": "sage-jester",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/sage-jester/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "d66f31fec41eb12b5a89fef50935187cae208aed422138b265edabf3a5be0fb9",
+        "wide": "222d0fcb04a9b0b9be75de4eed2ca893fc8dece537a637d9161b19ef22befc99",
+        "portrait": "8c2b63ff0c58efb2c33f794716f90af45b3cbea105f71b3c62f6b2ef009c6fa7"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "9ba12828a5e2b8f1b49b42316f8a7f2d36bf6fc3848b8a457da4daa8210882bb",
+      "generationSourceSha256": "cf5ff5df2b5c7d4ae38b5ba4d816199417adde23459a29cd1a72005e78120c5d",
+      "measurementSha256": "87a9ad2835111bbe5a452c2cb19c4303c598e8f7c883f4006179b7008676d693",
+      "metadataSha256": "93093272bc1240a425af6dd2dc02f204d5b647fd219e71d445211245809284b6"
+    },
+    {
+      "pairing": "regular-guy-jester",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-jester/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "0f2fdc44f2708b7ddab5a421e81996ec83432821696038fc133c88b86e8beb78",
+        "wide": "6212ed350666d0751e8fd7dd4a6cf3e66b41c6940b31506d0fa77f07747b38ed",
+        "portrait": "8ea8ee5ab1465459b9ae1d5208f2dabf60ba5c47499ec23fbd7e127522f2fc1c"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "ab9834718f4127294c008aba05612aa8ff26aa6f13fdc99b5806ffd8f285fbea",
+      "generationSourceSha256": "ab9834718f4127294c008aba05612aa8ff26aa6f13fdc99b5806ffd8f285fbea",
+      "measurementSha256": "caafd32bf52af3181a4eb0c11b84180555150d03b20e4fdecb60ce88a59a152f",
+      "metadataSha256": "014f839d87777cb3b3c21a5bc9347e157a933a9f84952fbfd215383c7808871c"
+    },
+    {
+      "pairing": "explorer-ruler",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-ruler/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "0c16f8cdacbf58530484381b8bf54cffd3a84bf075245597a203308889b02889",
+        "wide": "4ae3529ae6b3d4046fd3d9b5213281b5bfd425b9f3b40c5c1585ecaeb64fa595",
+        "portrait": "bdbaf513a15860ff3d252921894a3e6c9397e8b44172e47341d7dd5ab3c797f6"
+      },
+      "geometryPasses": 3,
+      "geometryTotal": 7,
+      "currentSourceSha256": "de32cd7124556a5528ca7d1a7874400af4e2647b94317b27466fb49f71b3b027",
+      "generationSourceSha256": "a2162549160704ccb638f5dbfe9829c333e4bd961e1de37f40b22e2e938b5c18",
+      "measurementSha256": "de6b964729fb1c10df748fd302ca81a818c9d79e0b9204ddb70bb59849fc1eb7",
+      "metadataSha256": "fede136ad301d0376483108c90d59e5cb31c32f1fd4234de77fc44c2939b3d04"
+    },
+    {
+      "pairing": "explorer-magician",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-magician/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "dd22945062f8d9f9f76d6fa63f2d2926e80f3160cbc36079d2e8a1e796961a78",
+        "wide": "58dd9f577125d80fbc2cd76ed15a6c5c1f00f43426041e64f25dc7ca9c41b62a",
+        "portrait": "1f653b7d5ac4d50f9d3854e53e084b7f2c51be660c2337093d5d1deeb2d08afe"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "70540fb3d228fc8594a3f0bc8fba1945aecea025a741f7be7ee738707759b3c2",
+      "generationSourceSha256": "1152d113f10f7e8010249332511608a79d378dc4e1ca664688816fb7640ba56c",
+      "measurementSha256": "6f90534497be16393edddccfdc70ef85fabe5e86b5039b234ade1cda938b35d5",
+      "metadataSha256": "717f841bd3f560025d62b4efaf48daa473935f79a46e8f9544b8f307f1f73438"
+    },
+    {
+      "pairing": "regular-guy-lover",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-lover/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "856f8fd1850c74766b26b1680b6c85924bfaf304c4b5179be553ef15f01cb555",
+        "wide": "855bfa19748fbd0cbfe071e8cee769746601eaed526ea65fde7c28f50fa773e7",
+        "portrait": "8f0dff3158d139c70eb8abcb50b04454105789fa9ff0c41b22a5b29284a2d108"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "3416c45978eb072e5f6de5752ce776ed53190e23da66886338d54a4b323a8f9e",
+      "generationSourceSha256": "9ac88fa69bf096f1ee50a729688fca541bf7fe6e66d38ad2a7e20ce9b07abb66",
+      "measurementSha256": "08714aff629ef121c39f363ec3fc074e4aeec45acd4c1eac60b1be33545349ea",
+      "metadataSha256": "644f3a87f1eec803ef869dcdce39e73565a6b3a52e39cb1de8f8a948090b720c"
+    },
+    {
+      "pairing": "magician-caregiver",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-caregiver/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "a1818827f55da3dd11ecdbf3db5855a6b608b13968ce31b9162be027c0c88876",
+        "wide": "eaebfdfc2fdf883ceb333ad028eb01c30c5e0f3d91cf2e275e7ae4de64dcef2d",
+        "portrait": "def36512e5b9698b106378b71610617843cca3d2cc7cc06db765c48642861777"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "847f9c7a3aedcb144c1ba0ddf571eebb2402fa7b87df99d0f07ae4a265e6a547",
+      "generationSourceSha256": "5fa0bd865eda7ee85a7a060d896fe30712a0fe3a84e92a0288df35b71d0f12df",
+      "measurementSha256": "82d860714be655915c97a831836a885570759edfb0f6f7cdade34b0d96594b67",
+      "metadataSha256": "596af3e6b5eed3c17dda8d8303a7808e2d2db34cf7993f10ca76a16e557b6242"
+    },
+    {
+      "pairing": "jester-ruler",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-ruler/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "05a288e79f8fe4075dd61b48f54477edba752f7916b3f75326521bc78afd2bf3",
+        "wide": "4e64cd3c511b5a9e3becb86d9a4ac00eaee785b909d61fab9367242eaad72951",
+        "portrait": "83add701aabd51ba959e5f76d3474f08819a5e9af64d66fc2c4a5cf888ef68e9"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "550a1c6762d58987202ff6c1f6293d6f59399bdf76cd60346a957f5cd071e192",
+      "generationSourceSha256": "1327b36d87fb9db6d73f63fdc0af51853290c2bf1b36ad8735bd92ec4645eb22",
+      "measurementSha256": "707e2d6521b9ce964bc4462a863f37642df9ecf67805c5a17769a92d82aba223",
+      "metadataSha256": "a6fc60a851fc9a157401f72165efbe19c0d2d581c160c59c6c0bfd5c81e24715"
+    },
+    {
+      "pairing": "magician-creator",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-creator/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "3e5568d915acebe55ea81f37fa8f9f4e8764c0f6f23f8bf8d4c5322d5a1dac1b",
+        "wide": "ce2d1468f6b19000bcc928e3d673ff40bd3f884435c664e1c1da23f4d6c978f1",
+        "portrait": "8e0ca03cb627c917a9a04c4ac8001087f76df9e832748d4c7ddcc1f15091ba94"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "01ce99abcdf4067a816791a6a7e0c5872b7ef3474504887d92b8f83640ab58cb",
+      "generationSourceSha256": "01ce99abcdf4067a816791a6a7e0c5872b7ef3474504887d92b8f83640ab58cb",
+      "measurementSha256": "d43fae7516de7a07ee14effac8b12a931bdb827e4f0e872d65f20a7117acfbfc",
+      "metadataSha256": "8c059bedddbc1a1619c40d2832695f80e428c602eaad4451452b0735203aa3e2"
+    },
+    {
+      "pairing": "sage-hero",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/sage-hero/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "58a2fa4ce012327e4a844169dd936ec70f49d34c414f23236748e08f478681f2",
+        "wide": "23c024636f18976923f2a4fa2e6a2b2707e4acbe6274732498f126cfa6efd448",
+        "portrait": "c3c797b5b1f6f95646640f194da6117b42fce11ea5e6bd4c1d5fbb191d542b52"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "2e845e54df4e5f492dbbf485d11f79ee5587172fb3ac0897c0d74f27a1e8a340",
+      "generationSourceSha256": "35c59b8cf49f4572ec276b6aa6d8b2ae9e7283aab6cf0a47f90a223f3307bdee",
+      "measurementSha256": "68405415e25a704b22108d5f5c6ef1dbe246c3b9446fad2eef8da838a5803e57",
+      "metadataSha256": "0fe162df768e2492e8027467f6da093d63b14ef8390392b7f6f87d8e090ea180"
+    },
+    {
+      "pairing": "sage-caregiver",
+      "version": "v4",
+      "metadata": "design-artifacts/_image-production/2026-10-06/sage-caregiver/v4/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "3117e9e8bca1e2feb80941e1072e7f2e1e1eeb89ec17938f8364a7ec7c40407a",
+        "wide": "3a44459778c551aec5efb5b3c60ea7eed25bd173cd9f693f8c27cec82b713fea",
+        "portrait": "94744096791d2e954ce2e602ad9c6b30a3d7430cdebe06ab4a7e35386b39890d"
+      },
+      "geometryPasses": 3,
+      "geometryTotal": 7,
+      "currentSourceSha256": "281f90b78106ec55533e89169657d77875855c9c0ce90b09afdf10d92a60986b",
+      "generationSourceSha256": "28566d97e3a6601310ad54ada169c8b5beb7fa5df9dcfd2e3f792948eba646e0",
+      "measurementSha256": "c488383688f0120e2ec215e05417a385b70fa11d4ad57f13173d63f2e579bd3d",
+      "metadataSha256": "c849f6783063e3912f9e2a91f02509ce37b85ce70c4f7ed9823970a5ad110363"
+    },
+    {
+      "pairing": "sage-regular-guy",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/sage-regular-guy/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "3d4c01c100d07cffb78dee714442e9f18fac9f1c99c50dcf375eb78f8f849c6b",
+        "wide": "6a0c519394022f6decbecc9be71626f7c09118b9e59faadd3e1b323f0c347b00",
+        "portrait": "5030d26e4d32031f65e34e79fed939d039321d5ce7ecd86cda872215f6097c87"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "89d9cf57518bf9d04601470d483e75c722e01981cca1d8bb77e91db0be5a0181",
+      "generationSourceSha256": "89d9cf57518bf9d04601470d483e75c722e01981cca1d8bb77e91db0be5a0181",
+      "measurementSha256": "0769175c5380bffb24e8b476c3d298f9df0872e579fa305ff48f045faac092ee",
+      "metadataSha256": "0197164d5f020029a1b3ade6c414ab331d014360f2fe2cbf982871063b83998b"
+    },
+    {
+      "pairing": "outlaw-caregiver",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-caregiver/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "b88d414a1d9cdfac0976602e50d4cc612cffd9b647bd7692c74b60e1fc2e094f",
+        "wide": "21e1d8bb77b708b1367ee30bb1259a097a2a0905b5b0255c68d4c0670b57b977",
+        "portrait": "ae0f049dd7262538f03692382a75953b080152d49cce6541e090d226d1c629c8"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "a581f8161075418092a2c364e3a5ab239bb6d2f03f15d78d2dea4467137e4f48",
+      "generationSourceSha256": "31b74355f779f31d69c8bf8622421a5e483b5198785c795da01dd6c7d28fc65d",
+      "measurementSha256": "3b123d9413b3398458712a57264117adc83eb129d9d43803b78cf0fac8481634",
+      "metadataSha256": "1a4cc3c80894bba53ac8f17899ac807eec815ecba623fd6e86f48fbdaa0cdfff"
+    },
+    {
+      "pairing": "outlaw-jester",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-jester/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "a8b127a1c52e892e5276041149637a2a0db4a0c5baeeb8acac93b28e170f4796",
+        "wide": "e6fef2c473f30c631adf99014bd6e4e40db87bc5f348f19a4e589392535e11c1",
+        "portrait": "d8b6856f6e5cbe26eb64609e507359bf92d90d9990cc9d6a34c75f567546fd1f"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "0e4f5643f1f530d4cb2dc939912c319607592229e2887db9230b99b590bf1b9c",
+      "generationSourceSha256": "62ee64561f5bc2a162c4cd7f95021fc3e16fafe0c0eef31c173bff39eb6309bf",
+      "measurementSha256": "618c0bef317f58bb0e818a2321a457912504ae1150a714d1f9fd296c8c9b3546",
+      "metadataSha256": "016a4974b42b417baa4a4453998f44394b4056954d7656551868e8d4f24bed3d"
+    },
+    {
+      "pairing": "magician-lover",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-lover/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "b900321bfdebc22c0a862857330e9a4cf93b77aa8d16dcf9f4e1a39e559873ff",
+        "wide": "1e1629032c5253083396b9ed238860f1a0708e092c483dc96e651d0419cfff3d",
+        "portrait": "ce3565363479bba548cad0a637311c7b6e8a9d0c5bdfae097321381661af3455"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "d968a6dd5ba66d28a5099050a8ef1ddde5e0272e94e090129424efc59a6f630e",
+      "generationSourceSha256": "1b0c310e774d522dcf14f9fe2b7bd016e78c94b95c99b962d7b4dc02cf1d8c62",
+      "measurementSha256": "8e5cd9e737023ed03cb5345b81236c525229e67e98bde338abc81bbafcbff729",
+      "metadataSha256": "264cd02be0873f14b9c35538ac4742f032f0ada86bd37b55da9db21a523fda15"
+    },
+    {
+      "pairing": "lover-explorer",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-explorer/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "5a84e8491e25162f0e8b924383bd2ba1ffb1bd76d058bfed01716c27d58f4568",
+        "wide": "bb7c1920d93cf0136bb5922e1d59b8ec8bb2764b404680e5d4ffc95412529378",
+        "portrait": "54776c309b179eed0c40271adeb4beae4af7339db466b474faa98ed28d9351ec"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "e9db31bfb39c56bc0b73a6fef7105b9328e072d3919d8a47e73049fac00e56f5",
+      "generationSourceSha256": "6c9bd693c3204f1588414105093934900f54595a8bf54e534992bfd561dffbe2",
+      "measurementSha256": "f31f866d909056dd172425bcea20a4f7590e246ccf06771f4abc1d3dba9cdfa0",
+      "metadataSha256": "e32ae444d251140f673d9dc20836bcf9dc02a26c779dd557deb17b8954ffd5ad"
+    },
+    {
+      "pairing": "sage-explorer",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/sage-explorer/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "b825a4d706991cde535f6921a7407b66874d243618fc839e68511b4ab3ec07b0",
+        "wide": "c5b873753532e0ada1779cd0bc63adf884439c623345d5ada5bfd848b43ffc11",
+        "portrait": "99c3621812840693e405ae78d7effd30cee6c9f3e68c45987ecef586b3efe027"
+      },
+      "geometryPasses": 3,
+      "geometryTotal": 7,
+      "currentSourceSha256": "1c7f9612f83dcf1d841ac7b6fddb8b51b7ac690e5e91eed39d5a83d2eb7478d3",
+      "generationSourceSha256": "1c7f9612f83dcf1d841ac7b6fddb8b51b7ac690e5e91eed39d5a83d2eb7478d3",
+      "measurementSha256": "6259d4239b1ebcaec12c62808120c9cb925a48cbca81f5d66aab90a5356f0ffa",
+      "metadataSha256": "6bd82cc3587d2ce4288e52b83492190c78ecfad06a14363a9583e963e0c36365"
+    },
+    {
+      "pairing": "explorer-regular-guy",
+      "version": "v2/jpeg-review-2026-10-08",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-regular-guy/v2/jpeg-review-2026-10-08/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "ac835c715ffcced632fc70b57b6afccd7e7e0a6cee8e37d4ee494a63dbbeef9c",
+        "wide": "c827fbd152be31d27c95b4e4e51b02db4a5caf140b375111d194250f7b4ca6dd",
+        "portrait": "76ecb25e4b23fdc74a2192535d9d2900e7f9786047b7b22dc0775783a8cb3d2d"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "c7375bade943d80ed0bc2f2aab8a3c2f4c39ad46512bfb9a6ec1e4e90c5719fe",
+      "generationSourceSha256": "24ca41aac89151eea1e670f46860954065dc80bdec502e95df121308cf100840",
+      "measurementSha256": "958f61aa12639de54ac04a8375f61442087c5ba49bc51445581913e960d34ed1",
+      "metadataSha256": "1b58d7af9dbaf4adffd59cc815af11388c80375373d219c7a3f7e2f08662212c"
+    },
+    {
+      "pairing": "innocent-magician",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-magician/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "e671644b2b2cd6c8c5a3f09c9ea91cad43b28a3f09b3f98fb8297a62ec858c6b",
+        "wide": "06b39b947d40f8440c0d1b800fc72a3739bfebd1e042f14f4c7fcf95d668f02c",
+        "portrait": "ddba492b0167f6a6014d8720b47c1abca19e7942e51677483ccfaf3bd804ee10"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "889f519b47dd58e42ceaeece92f401a66fd80758ddf14475867b3a999a262cab",
+      "generationSourceSha256": "14e6fc7d73494dc48981e801b16835d07133e768d1b883c77edb311506839901",
+      "measurementSha256": "1a285a247fd202b02bc2917f6362cba5b8f45bdb2499aead03561c5b857225cf",
+      "metadataSha256": "4e5aafbf6dd68b9018f54d40bb5bd2a8c0bee8c279612e02ec0270592ba13f7c"
+    },
+    {
+      "pairing": "explorer-lover",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-lover/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "307422eef14c0325d8b5cad1e167381b5b04a95571383c0cbc56a5405dc8a132",
+        "wide": "005f64e458a584b49de61c80838a7b093f99a022bfadc9ed13cd523d29a275fb",
+        "portrait": "c45e43ff73368a69e02245353767e32870482704b56495d8483141b404bb717c"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "3c01a39cb39b175dd691e2a21102d8e7556f02716da61165496ca3823bb67c59",
+      "generationSourceSha256": "35d55c0c62c6307817fb7bc709a3e3ae453dfdb3c8900d247128ab8f4a5d7cf9",
+      "measurementSha256": "fd5862b2e47eb3fbbc3e734e7568e1d46e9aea7bef7e28bf47a17057e72605da",
+      "metadataSha256": "7d6e77b42ffe444da1ad9bb75660f28aee187b76fd7b06e3b2ac2b6c9ffaf833"
+    },
+    {
+      "pairing": "jester-hero",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-hero/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "ddc638fde183beb5ca6e91ff3393c0344e3cba4386801e9dc2e877d90ac70011",
+        "wide": "c4b093eacd82ff1223e3a0f813706c7002685afd6237d979709c459c762860ae",
+        "portrait": "0185a93a2e7c3031e97988d8aac3053dfa2c767584e25fb158a183fe57af9d44"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "82eff8508ef1525cd6c0c17434e8a123e395d73f7ebfc948e8a877beba18bed8",
+      "generationSourceSha256": "82eff8508ef1525cd6c0c17434e8a123e395d73f7ebfc948e8a877beba18bed8",
+      "measurementSha256": "0d46f7fe4948e2d64931ef34c76c266a7b8a730f83bb6ddb95552a15f53363c6",
+      "metadataSha256": "1c84bb903279b99a79ddc0544952a3f0793b0a9eaa147bf1556e00333a1194c4"
+    },
+    {
+      "pairing": "outlaw-lover",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-lover/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "79f2aefa53dc6aa6d1ab79a4ebbfac7889b21e49f2f661a36355959ad7cc81bc",
+        "wide": "9ec6be9ad722d106793be6bcc83f7c9fe5a7ab86dd36164cfbeb11d5948a3557",
+        "portrait": "16470a01a6634e593b8bf70d88d787e2877a06c3abe35850b8bf95f4fc1abcc4"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "4f73cccfab40acd456792899d8714683b0e638f986c4e62d43f400c8558da85b",
+      "generationSourceSha256": "be407e8833b844f74f01e7aaf6e381eb5d71e940e3972641067d20f4c4e402ac",
+      "measurementSha256": "dd63fe8515771b5bd32fda5f8cc2d4612cf988e960b6b2002f60764c7a11c7a0",
+      "metadataSha256": "5e0f74d6348b9aae2c099abf30614b9e21538c2cddc9548fceff59d7ecde99c2"
+    },
+    {
+      "pairing": "regular-guy-outlaw",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-outlaw/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "50c801fe49c3df2715bf8bd76d54a8a7f3c662f41f67fb79dfeba9ac41cd6d06",
+        "wide": "41b85f17bd2ff1a1fbf9e16bfa365159c178e3ab471b0618dba708466e327189",
+        "portrait": "28446ed18e2fa19ab537600eb1ac1f3b01c9e4bf0aed8e91be588c5f4075e23c"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "b382075ec5686dd8816f77315673e20023cc3cfb6f3949b30cc378751ef2f548",
+      "generationSourceSha256": "19609563bfc42c6987ede3ba8d167c619a42e39cbdc3202cdd6be175c7198ee3",
+      "measurementSha256": "629ec9d5723ae57b865139e141fde1149c35039ea5be0d76329bdcccc7dc959a",
+      "metadataSha256": "662ac36412cf9fbf84113176b5cd5546f4e8e4889bf74929c4cc95416fb26e2c"
+    },
+    {
+      "pairing": "sage-ruler",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/sage-ruler/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "4784f5734b34d35f52c667afbb6decd203ee83223f26e42b8aa054073a91075b",
+        "wide": "85f0abbf9e26c133d8083d7b7a38dae098778059ad208cd70489862f285e751a",
+        "portrait": "fbbf8738c900d4921f525ff8157a80673d230b9675fd4f021123a47804e90cc6"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "16f942c45c64cbc97d55ff80a49418e7eb50a24f4b6b4c40b4e8e9f902e3d1be",
+      "generationSourceSha256": "16f942c45c64cbc97d55ff80a49418e7eb50a24f4b6b4c40b4e8e9f902e3d1be",
+      "measurementSha256": "aec42b6db0373602e947b10bbe72f0809d7457a0a5305ef6496045b9eab41557",
+      "metadataSha256": "1e13275cfb87bc91183e4baa62804b558e41d82697633401c5b18a0a206782c8"
+    },
+    {
+      "pairing": "magician-innocent",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-innocent/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "90ba554f1d6f342740a5681726fbb491098c6332842375ee5d94a4970c2ab12f",
+        "wide": "1bdd90b4781522b48450920575fd6c05ce243f10da4c8e14f35fce88706e0630",
+        "portrait": "a5fe647208c4699135a1e9bb5128aa225e44f0bf91a27ea42bc67f766201c4fa"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "de3bcd69629a3331d3057e053bc65d95e7b2e49cae24c96d5cc6f1debcc1b80f",
+      "generationSourceSha256": "7d8cac0ac61e8e4ee7258c786570d2b8f899c9662d13b55d41bf66f508dac068",
+      "measurementSha256": "39be65d6a41beb2c11a71beffc5e39c1c858357a049b6cea263cda083ce57efe",
+      "metadataSha256": "230540afc1d4c243e39ee52801528579e5c1701f0caeb0c6ada1ea9fe7a20495"
+    },
+    {
+      "pairing": "ruler-outlaw",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-outlaw/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "a20e59e03d3bf383e2806c4a82306a21734d4191e4a58b952751ebd290a5c8de",
+        "wide": "0dff0ddfaeaead5224b9dc8a4d8297ecfaa2827cad0f0c049a5c1f32af643e0a",
+        "portrait": "098c9737d6a322ac1ce86165ac19a466a866e2acbdce444cf11df41b82d82b56"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "c138b1646bccf1be9b43e6e408012e7f77e2c93745f51b73b11acc765ac798d9",
+      "generationSourceSha256": "c138b1646bccf1be9b43e6e408012e7f77e2c93745f51b73b11acc765ac798d9",
+      "measurementSha256": "01a250778e2a571b2ec43898b37b7f040b05a9de06115c5221b544d9f49f48f4",
+      "metadataSha256": "de2f987ec090bedb26b6ed87a216edaaab77b29bf3ebe94ee5103e7f9fdeb7e5"
+    },
+    {
+      "pairing": "explorer-sage",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-sage/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "52631cc46ae38d54caa6301616cec265daf8659a6771a7b611fa7df76fd1a223",
+        "wide": "3b50fb55904db7eae0c679ce15c9a125a861c02b71852001806fd326aadcdda4",
+        "portrait": "ae32f8fce309b00f63356fc4060370011d3bfddccad4ac4f18f9a23ff4863db8"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "356bb5a8dacbaf5b751ddf64ee8f17d6283cc0637475d2a17be98634906dafdc",
+      "generationSourceSha256": "eb8bf8517cfaa405a994cb270d1e7d927c668764350c811d650e034ac88bf263",
+      "measurementSha256": "28cb1e0c666c2cf61008faf0f5d70578802bc5116bf5912c5744f989aeb6595b",
+      "metadataSha256": "42118262563c03ad6b768e6f6ccbfee0906ffe7b3bffebfab59176d991579d9a"
+    },
+    {
+      "pairing": "hero-jester",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-jester/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "0cd6339cd08ad3c6b13437f74c8c9bbbe0a00d6869d5bf89d7cf12c899acdffe",
+        "wide": "7806afefafae5db917425b256132c3ef42d0955a420a84467f3e59f417867931",
+        "portrait": "c1c89727c5ef32f359b0f587e819e482c944b2afa8ec0c969ba3c7b193283783"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "e6182ec279434f305a3a5f5c1b3178113536f5fd4e3c97d6884dfbbb8445e145",
+      "generationSourceSha256": "a5b08ea9af5a06ea5762f838dcb7d49a116803dfe8d53e578e4a860e71abc629",
+      "measurementSha256": "1bd5f3638cbd2b02ed0b1c55495190e65b93c280790383c5791b978a9b280e59",
+      "metadataSha256": "f78aecb371f2db839964746b8031b7af3a6b4a62eb3a70e57bcbd13eb594aed6"
+    },
+    {
+      "pairing": "jester-outlaw",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-outlaw/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "766fe43d8c90ad9aedcf49235c089c317d14b8a628412e1cd9403380b2b9ab73",
+        "wide": "6ea3114fe272930d793640827d249754c845174a209e0ecdef2bba1eb25d12cb",
+        "portrait": "9e3d1b3ebcaefa870949df42ae3907649a81cc488ed63c9591f88e612682d74c"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "f8773e8b98bb77c15225b67dbfc21e3d944b34c253ebbc64f3c996252acd3a2e",
+      "generationSourceSha256": "f8773e8b98bb77c15225b67dbfc21e3d944b34c253ebbc64f3c996252acd3a2e",
+      "measurementSha256": "16d16e298b7e96b80a5662b4e14485d91eea38553398768a5cb38fb732c67bc5",
+      "metadataSha256": "8ca128efa62b15e8239b321b51299ed13ee6255dc25efd827c9fc9cad07348cc"
+    },
+    {
+      "pairing": "regular-guy-magician",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/regular-guy-magician/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "e70109a6eac68429457e31e0d3f5749d480689bc51ec9b3f23791449a2328a8c",
+        "wide": "22920a3ccc1a3f993367bb31783dfd4bff38331ea019298e71278dd1b06ea396",
+        "portrait": "63811d8fde7ba044cb9e120633821df241dd338689bf71d9a5d87ae46f85115e"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "981f68948d99c623bf56882e03f5b36852de9e336af9b2e5877df75c038313ab",
+      "generationSourceSha256": "c8ce1075a500a9acfb765df2eef36092686fd4e562ecb2710595becd1a453d4b",
+      "measurementSha256": "231ce6fd5dd5958603a1af179e1315c2a3c41d5156cebe53bf410873cb779c5f",
+      "metadataSha256": "a23df78aa8cb87482289c238762dc27a79789a2d07a4b1b2f1c699b4ffc5d205"
+    },
+    {
+      "pairing": "hero-creator",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-creator/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "3ca126fa2776124bd1a1bfb6ca571ffe9c430e169706099f6fff8b8be2c40d43",
+        "wide": "42d3a4b0f935aaa855f3bf76fa56cb02c6c4e5835367308d059106a73c5e681a",
+        "portrait": "37793c2e653e1488e41fe938992c694218f86df0a7863096223d9343553d6d84"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "b88f03f698aea6b8055d4cd3b0e669b0051c8e80bb4fff755dc67633c2eb3f4f",
+      "generationSourceSha256": "c657ff96a0f41ba56c71e70e8f8a373d98680c6fe2d68536effe7ec447bf40a5",
+      "measurementSha256": "1ac408f0749126e4a88a695ce573621293b6dbb6f44003c74ba4feded3158b89",
+      "metadataSha256": "dabf1ba876061e367bad48b12d0aa557df7b8d6f648dd35aadf5f0e758eef329"
+    },
+    {
+      "pairing": "hero-innocent",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-innocent/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "09eabd4975e43ed146f6fe85184cca72711a9569461d8d19b655f9187feda363",
+        "wide": "fd1783e8116aeb0a6922943045aea27ad943464d8e44f09ce892ba29ff956cbd",
+        "portrait": "60f98354ba59bab41661d6276b75b2e37792ae61bd82b086ba5eca030e427d03"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "a06d232783c5e8afa8f8c0393b880fe1b21b4e09a92d4d163fcd8dbdf45e4be0",
+      "generationSourceSha256": "91442476a4781133587bcc71dfbca2337444459993940d774fc3e63567aac4b6",
+      "measurementSha256": "b3271844451fa470bdc716038e9a7fc118b1a3b37e442a1fd612c3795d1fc283",
+      "metadataSha256": "8639b5abe7a0bea538fe36453cfeeff457f289483e5ebd2c58a71a0a4580b0ee"
+    },
+    {
+      "pairing": "hero-regular-guy",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/hero-regular-guy/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "0b50e79bc7137f4e52d2744d1b6d97b300d7db7ee2f1891b66c83baa5a77d84d",
+        "wide": "4a692d156c49aa6f54ca3f8b66c759edbeaf98d035f22855939cd6c8bdfd7ad1",
+        "portrait": "5dd742a9195a757b6db8075fa8e95c0a06ac1e09e0949cf9a905558420548df7"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+      "generationSourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+      "measurementSha256": "9574089bca45d23fa2eed7fd3b995b1eb99a8622d345171add46fb652501e7d7",
+      "metadataSha256": "435de1f3986bce3f597c7577d3046617eb3fb41c3abc023c19e9db8619956797"
+    },
+    {
+      "pairing": "lover-caregiver",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-caregiver/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "0b88d19239e2195a7512c6237c5345d1ce16c0d50b668fd41d73ead294844e8e",
+        "wide": "2e83174db7caea94c98c0efab26f64422f556458b697a6371a4a6808854b7487",
+        "portrait": "b5367c3084a0879cd7178e0402a8221e65f8be15fe46a778cfc9c8278fd13137"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+      "generationSourceSha256": "6c8e8a522954bf401b124460cda40c3d6080c29d6132a4056d5deaa9618cd4a8",
+      "measurementSha256": "3d42db56124f5bc462a8d87a12456210605e2c85440e9bfc9cb5bd0f7316e179",
+      "metadataSha256": "9d51a8c30ab337a301cfac7134e8361e1ffc3656b06ae54dd6284dc959282672"
+    },
+    {
+      "pairing": "jester-magician",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-magician/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "5bcf9896dc51eff41d63ab69fef78594bb246cb6f91c7cde47e03519c7df41fd",
+        "wide": "be1628d729a198f9737301095404ba8441eb27cf85cf780831250da2cc1c6d12",
+        "portrait": "5758b39f14547da89c66a6cec5b8060dabe3ac655a89a95c52532731c02d98c5"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "738888b8ef651b33726c2314358e8352f5b4599a60fb43fd613c3c41260c71b2",
+      "generationSourceSha256": "896af7a4eb5de91449e7e404ab965301559fa98d7be1ef77361471d9d3805599",
+      "measurementSha256": "876395d9b213baa99957ee3fa81317448a6fc79801e1cdd8d29b2cfeb88169b8",
+      "metadataSha256": "2c4c5ab666f86ba30fd9edd2071ef0744b11bab6a786e89a2b0b58fc9419e78b"
+    },
+    {
+      "pairing": "outlaw-magician",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-magician/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "60c752a7ba451ee2ea922fa2cdc0dec9e3a37393832f4404e997d98a1c7aa073",
+        "wide": "5768ef216f4ca3894eb1461ccebe254cd3a6683bedec66de61c99880028a7b9b",
+        "portrait": "2d09891a5709a3bd94f7db8ff979af6e4a954981cd8e6d670676c7cfdc862fec"
+      },
+      "geometryPasses": 5,
+      "geometryTotal": 7,
+      "currentSourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+      "generationSourceSha256": "4b39b1d297f338877057213e35fe3edbd35d4029d6c8a9a9fd9dbde437fb8736",
+      "measurementSha256": "ae6122ea4792edae543f003aa2183aec3abdb4fbb9b9d71569f87a93af4d3ae5",
+      "metadataSha256": "1c6f9d8371ceda3001b8133b886068aae8f32fcc8d0814f57f18ab9d23e92d3d"
+    },
+    {
+      "pairing": "ruler-jester",
+      "version": "v4",
+      "metadata": "design-artifacts/_image-production/2026-10-06/ruler-jester/v4/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "73179546543f8e2e6fb1e2b928a52785376a724ca2e9149d86791a9ee2d532bc",
+        "wide": "73a964dd97167cffd8856fe2389aa9ec03264ca08c250089b8e5f11fb7e15cb0",
+        "portrait": "908fef85c6248174dbf3b904dd025add831f1c5059c3c7fdb5226f98d326fcc6"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "b30d4397433966f08272443476b0d53379352b35a6aee6f7d98fc39760c44a80",
+      "generationSourceSha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8",
+      "measurementSha256": "4935b06051e994a932e5803a1151ec2a8f0f8f475918ddda86af50db974af53c",
+      "metadataSha256": "462d2dd72b9a1fa14f4178b4e7f18a6b5d0540a4e7dcc3981f899d38a2ffda0e"
+    },
+    {
+      "pairing": "explorer-creator",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-creator/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "dda609ae51e3947bbe9d6701590e872c2c5297cbb1ba1d7c9661f70ffe1913a9",
+        "wide": "d33f4f338cb4e84ef546695e68e68c49baab05ae0abe38a0212faa570568ab86",
+        "portrait": "b9b9d168d5dcf9e8fcabe44a6593007c251a2bddb95fbf833af6585d6c991591"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+      "generationSourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+      "measurementSha256": "7386dcb89896d34b8558f9723b977c52152597b1e85f11f861fa153d9f319d5e",
+      "metadataSha256": "e44b8ee46b20f834f66c46ea0580c908541d21af94cc2be1222d3fece2f1abdd"
+    },
+    {
+      "pairing": "explorer-jester",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/explorer-jester/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "faf4811a51ab1de5f5c66be0cced84a10d9f8910d4c554ddfa62d2c050188e53",
+        "wide": "fec1221abc0daec06e8bd3833bdc3fd67a5f1b49c853d15292bfbccd12a3a54b",
+        "portrait": "2048ead9a5cca8d6b6941e0173e4adeada7dce517e4e8b218af8812aee6e6f4b"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "6ab22e983ef53eac3e23e40419d75b00cfd5a47d4c4ff4827dc79e100eb7679b",
+      "generationSourceSha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+      "measurementSha256": "752647c26c233df0a0382056676135c26ab4eebeb89c7167998e10405fc42b46",
+      "metadataSha256": "2896b85216e0c1fffbe2f2cbd28a73d009226c064dfeac005c7e277b5b690dc8"
+    },
+    {
+      "pairing": "innocent-creator",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/innocent-creator/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "38b63975c1a3766c065b77834066d3d69918650109ca2c2ae214980877707723",
+        "wide": "675929078ff983f9053ba1ff0838174b7040665d5b8b5cf9b4d919b5d97c73d5",
+        "portrait": "186ae21ee80477fa5ce8530e1b632512e20e3a2bdac38cdd805168343ce1d396"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "6232710bafafe43f3266e23cdb3a5842af3c82f6a27c021a279610f4bd7266ad",
+      "generationSourceSha256": "5bda13c71998d5c20539560bfc73235a0dcfa377e7fee916b932df372a8e8db7",
+      "measurementSha256": "72d2137c94acca016dc8c920f5bf3da717c3a5ec2d085eafb0d7f9c1b5572de9",
+      "metadataSha256": "bee189f7fef23c00cb5a5569e9ef76be92c7271f1b1906ee1cd88ff46ad9a2e2"
+    },
+    {
+      "pairing": "jester-explorer",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-explorer/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "02cc231925337af8c13c1a4e59f10356dfecb2296949f2a96e1ee084624d2d4f",
+        "wide": "27dc9f76ed8beb299c53da8b58dcf103ba2ebc33535e0e07174a0604c39ef80b",
+        "portrait": "fa89dc096e47814e4f7b2950865ff129b75be9a3724c6988f54429483d6be9e1"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "fa2a7c65465e2928c7ab6e6eca17bfac3b84c04e61b3c5ea25d37ff063c44e69",
+      "generationSourceSha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+      "measurementSha256": "ad440f6ef742f0e9b9163fee6ced29507d80f801b56dcdd0c7ba363452e50003",
+      "metadataSha256": "809b8ea7fae2d23b3720696a90a5f17762bf3b07a20e1e8258c49de8b9a3d513"
+    },
+    {
+      "pairing": "jester-innocent",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-innocent/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "8d3bd57c1476c8ef5af81eebc7f2c3793937624f70d6554c0ba983f02ac7f194",
+        "wide": "e0ac25130ada65dc3208c53c68f068445e60cac4824a1f5831e6a8f0cbf9162b",
+        "portrait": "0ffe1f43309d67a174de56dcec511647386e6fd33036ea660ef3ad80fc1ba766"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+      "generationSourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+      "measurementSha256": "36314f4defe04a9b126dfda44a15d8ecf8f819ae27c3d977cdcb48f4fb7ad7d7",
+      "metadataSha256": "466d4cf224e9b6d75388310b3439c3bbc350763c1235b92038b11348d1320416"
+    },
+    {
+      "pairing": "jester-lover",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-lover/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "a532facf49a81996217c62168cddfef570403e9b340629752816d946ffee8567",
+        "wide": "60b4c9f9d3d8408a153b89a4b885817f937d5518817add426836f44f58648458",
+        "portrait": "3d76ec7f6457454edb658cb0ddd4c0a77504240dbf1c43f525efd4068b6c3776"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "7718276b066e2c88e662622edbd05256108a3f47d235110e13af7338ee1a4c16",
+      "generationSourceSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+      "measurementSha256": "20f6b9261124f31956771b2858e5bfe9fe19f95231a9c5e212e8c163ba271c09",
+      "metadataSha256": "03f4cd06d4059285018d9e0698161a0fd04f915eaf5b92bd0c9ecfaa694df8a0"
+    },
+    {
+      "pairing": "jester-regular-guy",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/jester-regular-guy/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "dc9fc8c19f7460c20a473f82f999518f792b75827638e40c82da8052e1a29fe0",
+        "wide": "fb574d5b5a6d39957a72be681af060ecb715702d7e708e8dc42c76309c7a9290",
+        "portrait": "e5f8cad4df89724dd7b8cf0edc45c88ae4d54f3879f5cb7e44599f618e276670"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "47f6d62e4599eb516a33ecc4fcb2313e7133828b07c2cebeeaac2dd93b23c33a",
+      "generationSourceSha256": "cd9b909ee55d60451ba39fdb2c02b4115f53b4001deac21cf957bd1d73f3010d",
+      "measurementSha256": "0fccc31f69cf1da209e8358b7c79244128384ae2430987b72e161a2a9bd36cdb",
+      "metadataSha256": "495b5aa53a776001f4d71258342a4bef22ba403b50092ac1f395860495e67c3b"
+    },
+    {
+      "pairing": "lover-creator",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-creator/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "b8c34402522a17bca969dd6bb817ad1558cdaf8321d602577f8b9d9013332f54",
+        "wide": "cfe311b8e497ca4ed319bc9cbe7bfcb532036952b629b4c783fd19d427d73c2f",
+        "portrait": "659207d4bc295ceeaa2bcd679bc303af12baf626b6913781d1a38d46da1b40bf"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "699835647c6a427f3c2152ff26636205e28d0b54bb958d23b32040dced5ececa",
+      "generationSourceSha256": "63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78",
+      "measurementSha256": "7310030dbd85a8335cec7505a50de981e5fbdac73dab4861aeaa1320b4a5ea7f",
+      "metadataSha256": "46b37f49f0b38b88e297b8ddc5279569ad7ee196387b01d883de233c7f50cec3"
+    },
+    {
+      "pairing": "magician-jester",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-jester/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "7c66b1fc5e2a27fd47e1ac3b8a98f8d017a2ad367469d95dfed6c2925a84aaab",
+        "wide": "20e7e80fa73840206bdb7a234548706fe19a01ce30447e2f5f2a08f7d4d86f1f",
+        "portrait": "661cf7309bf203c60df8f4f94f244066954e292fa40d098a22f3a223a34c7058"
+      },
+      "geometryPasses": 7,
+      "geometryTotal": 7,
+      "currentSourceSha256": "dc37057b6d89ca83690b851547b45847772b55a496790b10de7836d52b7458c6",
+      "generationSourceSha256": "c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3",
+      "measurementSha256": "5df892e5f7dfe8b7cadd50fe787410988a09f0a05ffcc400f0aa6dc5a807937e",
+      "metadataSha256": "08ea640791eb09a9bec16646b79064bf1a76fe328e688d916fcccdb302830f88"
+    },
+    {
+      "pairing": "magician-ruler",
+      "version": "v2",
+      "metadata": "design-artifacts/_image-production/2026-10-06/magician-ruler/v2/metadata.json",
+      "dimensions": {
+        "wide": [
+          1920,
+          1080
+        ],
+        "portrait": [
+          896,
+          1200
+        ]
+      },
+      "hashes": {
+        "master": "0128000fb99dc6f2014e9f4082cf1711c8f8126e9aa9b0c51e60ebf4c995dcdd",
+        "wide": "3d88f4680f4cdc97b2057c96d055d73263b27d959cafb9b8563efa6800d1c395",
+        "portrait": "a29ad5f0a25b73922c02b9c6ef217f210b261eb5ceca62ab8ae153990f438621"
+      },
+      "geometryPasses": 4,
+      "geometryTotal": 7,
+      "currentSourceSha256": "d7d7a63f70a7e091c5e2f88f00b46174a591b5f9cb20e9163eb7ba8cdfb948b0",
+      "generationSourceSha256": "6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6",
+      "measurementSha256": "a8589d5adce493f546c0265e4887092c7cd0955a7625e51e51b7bf3bff57eb88",
+      "metadataSha256": "d73d78e068fc2d7858c2cf583e38a384526a4835e7a2ff1a0bb9f567ed3d826a"
+    }
+  ],
+  "runtimeFingerprints": {
+    "dionysus-experience/src/components/TheReading.tsx": "4ffe31b6ab2e3820f0551a9c59ee34caafa2bf62ee7d21055b7d055fe98e3bb6",
+    "dionysus-experience/src/index.css": "295c343a3d01dc4b2c2596655dafd27f320869a1b8f4d994f5fcf704ff43e241",
+    "dionysus-experience/shared/data/personas.ts": "dd2a85bc1f4b135b12efa913a21f3ee0b7ce8fddd23fb8c8c384a496198068ca",
+    "dionysus-experience/output/playwright/persona-resume-2026-10-08/image-review.tsx": "963b18552c32080320068fdb147107eabfcbece2a9cbce4086d47b743834fc5a",
+    "dionysus-experience/output/playwright/persona-resume-2026-10-08/run-browser-checks.mjs": "983e96d891e92c86949fe9ff810ab79c1cd128f15dba466c7e7eb632b076ab67"
+  },
+  "localVerification": {
+    "imageHeadersAndOutputHashes": "PASS115 selected pairs",
+    "publicImages": "PASS17 registered pairs",
+    "sourceFreshness": "PASS132 pours",
+    "typescript": "PASS",
+    "tests": "PASS902 tests,13 files",
+    "productionBuild": "PASS private fresh output",
+    "browserRunnerSyntax": "PASS node --check",
+    "browser": "BLOCKED; no page opened",
+    "fixtureBuild": "PASS private authored-copy fixture compiled to fresh fixture-build directory; no browser render"
+  }
+}

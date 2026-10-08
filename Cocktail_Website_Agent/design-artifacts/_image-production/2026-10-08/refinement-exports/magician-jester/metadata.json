@@ -1,0 +1,782 @@
+{
+  "pairing": "magician-jester",
+  "pour": "Even When You Know",
+  "status": "private-review-export; all-acceptance-gates-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "dc37057b6d89ca83690b851547b45847772b55a496790b10de7836d52b7458c6",
+  "review": {
+    "recipe": "One flared cordial exact clear/tawny/red layer order/no ice/garnish/foam. Exact75ml/45ml total/10:15:20 and tested density not observable. Bowl appears fuller than source approximate two-thirds; not inventing volume PASS.",
+    "personality": "Balance apparatus removed to ordinary lens/weave and spectacles; demonstrates looking by inference, no actual people/behaviour proof. Handle clipped in wide.",
+    "world": "Broad plain glass surfaces/clear stem; flatter long-grain timber improved, directional warm reflective patches remain. Lamp plus lit fireplace gives extra source.",
+    "issues": [
+      "572px glass exceeds pulled-back target",
+      "Rim184 marginal below20%941=188, foot756 around80%",
+      "798px group and wide handle clipping",
+      "Stem multicoil/paired tether remains",
+      "Warm surface reflection and extra fireplace light",
+      "Exact capacity/layer quantities and name/browser unproved"
+    ]
+  },
+  "measurements": {
+    "pairing": "magician-jester",
+    "pour": "Even When You Know",
+    "sourceSha256": "dc37057b6d89ca83690b851547b45847772b55a496790b10de7836d52b7458c6",
+    "specSha256": "aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32",
+    "roomSha256": "8b1deeee8dfaca1a4bb0fe175139c02952f33b49e52034a7e8132f3172c06e1f",
+    "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "version": "v3",
+    "measurementMethod": "Visual native-pixel estimates, complete visible extents distinguished from unknown hidden/outside; no recipe-volume/name/browser acceptance.",
+    "orientation": "wide",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v3/wide-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-c17fbbf1-f82c-4aba-8505-2cc1730333ca.png",
+    "masterSha256": "f71ff5785192291eea17429f0f8cf175957cde8c8c4c621051df39f1d6e17c17",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      865,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1056,
+      "cy": 608,
+      "w": 96,
+      "angle": 78
+    },
+    "glass": {
+      "x": 996,
+      "y": 470
+    },
+    "bounds": {
+      "glass": {
+        "x0": 874,
+        "y0": 184,
+        "x1": 1118,
+        "y1": 756
+      },
+      "paper": {
+        "x0": 1003,
+        "y0": 519,
+        "x1": 1101,
+        "y1": 667
+      },
+      "clearBottomLayer": {
+        "x0": 915,
+        "y0": 397,
+        "x1": 1069,
+        "y1": 478
+      },
+      "tawnyMiddleLayer": {
+        "x0": 908,
+        "y0": 330,
+        "x1": 1080,
+        "y1": 401
+      },
+      "darkRedTopLayer": {
+        "x0": 891,
+        "y0": 221,
+        "x1": 1097,
+        "y1": 336
+      }
+    },
+    "personBounds": {
+      "magnifierAndLinen": {
+        "x0": 1024,
+        "y0": 443,
+        "x1": 1672,
+        "y1": 724
+      },
+      "foldedSpectacles": {
+        "x0": 1140,
+        "y0": 391,
+        "x1": 1629,
+        "y1": 556
+      }
+    },
+    "recognitionRegions": {
+      "magnifier": {
+        "x0": 1101,
+        "y0": 443,
+        "x1": 1672,
+        "y1": 685
+      },
+      "foldedSpectacles": {
+        "x0": 1140,
+        "y0": 391,
+        "x1": 1629,
+        "y1": 556
+      },
+      "magnifiedWeave": {
+        "x0": 1135,
+        "y0": 485,
+        "x1": 1359,
+        "y1": 617
+      },
+      "clearBottom": {
+        "x0": 915,
+        "y0": 397,
+        "x1": 1069,
+        "y1": 478
+      },
+      "tawnyMiddle": {
+        "x0": 908,
+        "y0": 330,
+        "x1": 1080,
+        "y1": 401
+      },
+      "darkRedTop": {
+        "x0": 891,
+        "y0": 221,
+        "x1": 1097,
+        "y1": 336
+      }
+    },
+    "unknownExtents": {
+      "magnifierHandleBeyondRaster": null,
+      "linenBeyondRaster": null,
+      "magnifierHiddenUnderside": null,
+      "actualGlass75mlCapacity": null,
+      "actualLayerVolumes": null
+    },
+    "traceExtentNotes": {
+      "magnifierAndLinen": "Visible extent includes lens and connected handle exiting right raster; full unknown continuation null, not claimed complete. Apparatus reduced but lens still large.",
+      "foldedSpectacles": "Both lenses, connected bridge and folded side arms read; next-person/shared demonstration is inference, specific behavioural recognition null."
+    },
+    "group": {
+      "fullBounds": {
+        "x0": 874,
+        "y0": 184,
+        "x1": 1672,
+        "y1": 756
+      },
+      "recognitionBounds": {
+        "x0": 874,
+        "y0": 184,
+        "x1": 1672,
+        "y1": 756
+      },
+      "fullWidth": 798,
+      "recognitionWidth": 798,
+      "physicalServeBoundsIncludingAllPhysicalObjects": {
+        "x0": 874,
+        "y0": 184,
+        "x1": 1118,
+        "y1": 756
+      }
+    },
+    "tagPhysics": {
+      "supportLoop": "Pale multiple strands/turns around stem y501–522.",
+      "knot": "Visible right knot approximately1016,518.",
+      "tether": "Curved downward about35px to hole1034,547.",
+      "hole": "Dark punched hole1034,547 visible.",
+      "gravity": "Free downward/right cream paper.",
+      "airgap": "Main lower stem/label separated.",
+      "contact": "No timber contact.",
+      "uncertainty": [
+        "Multiple turns remain",
+        "Rear/load not observed",
+        "Paired tether/length larger than requested"
+      ],
+      "assessment": "Free paper chain plausible, single-strand house rule held; no physics PASS."
+    },
+    "review": {
+      "recipe": "One flared cordial exact clear/tawny/red layer order/no ice/garnish/foam. Exact75ml/45ml total/10:15:20 and tested density not observable. Bowl appears fuller than source approximate two-thirds; not inventing volume PASS.",
+      "personality": "Balance apparatus removed to ordinary lens/weave and spectacles; demonstrates looking by inference, no actual people/behaviour proof. Handle clipped in wide.",
+      "world": "Broad plain glass surfaces/clear stem; flatter long-grain timber improved, directional warm reflective patches remain. Lamp plus lit fireplace gives extra source.",
+      "issues": [
+        "572px glass exceeds pulled-back target",
+        "Rim184 marginal below20%941=188, foot756 around80%",
+        "798px group and wide handle clipping",
+        "Stem multicoil/paired tether remains",
+        "Warm surface reflection and extra fireplace light",
+        "Exact capacity/layer quantities and name/browser unproved"
+      ]
+    },
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v3/measurements.json",
+      "originalMeasurementSha256": "2eac232bf1d542d7c7706ee2288888b35225b9e50ee3001cce5e40a3d7c4ad1d",
+      "previousSourceSha256": "c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "portraitMeasurementFile": "portrait-measurements.json"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1212.6315789473683,
+        "cy": 698.5531914893618,
+        "w": 110.23923444976077,
+        "angle": 78.00619479758085
+      },
+      "glass": {
+        "x": 1143.7320574162682,
+        "y": 540
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 478.58302583025835,
+        "cy": 731.0820124052377,
+        "w": 69.43173431734317,
+        "angle": 77.00679686464215
+      },
+      "glass": {
+        "x": 434.77490774907744,
+        "y": 624.3969676085458
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/magician-jester/portrait.jpg",
+    "wide": "/personas/magician-jester/wide.jpg",
+    "wideTag": {
+      "cx": 0.631578947368421,
+      "cy": 0.6468085106382979,
+      "w": 0.05741626794258373,
+      "angle": 78.00619479758085
+    },
+    "wideGlass": {
+      "x": 0.5956937799043063,
+      "y": 0.5
+    },
+    "tag": {
+      "cx": 0.5341328413284133,
+      "cy": 0.6092350103376981,
+      "w": 0.07749077490774908,
+      "angle": 77.00679686464215
+    },
+    "glass": {
+      "x": 0.48523985239852396,
+      "y": 0.5203308063404548
+    }
+  },
+  "hashes": {
+    "master": "f71ff5785192291eea17429f0f8cf175957cde8c8c4c621051df39f1d6e17c17",
+    "wide": "ab5229d7a68352b86409cbffbc2e8ad17b4188fecbc81a89e680874a1d9072fa",
+    "portrait": "732920f9a6546de09788a169cbf6dd6f17aa34e01880db967e335db208b72a9a",
+    "portraitMaster": "31993f5e9415b08ec03b7f9fdd993f913501309d0fd442915d987a70a1b1c8ed"
+  },
+  "geometryScope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1003.6363636363636,
+          "y0": 211.40425531914894,
+          "x1": 1283.8277511961724,
+          "y1": 868.5957446808511
+        },
+        "paper": {
+          "x0": 1151.7703349282297,
+          "y0": 596.2978723404256,
+          "x1": 1264.3062200956938,
+          "y1": 766.3404255319149
+        },
+        "clearBottomLayer": {
+          "x0": 1050.7177033492824,
+          "y0": 456.1276595744681,
+          "x1": 1227.55980861244,
+          "y1": 549.1914893617021
+        },
+        "tawnyMiddleLayer": {
+          "x0": 1042.6794258373207,
+          "y0": 379.1489361702128,
+          "x1": 1240.1913875598086,
+          "y1": 460.7234042553191
+        },
+        "darkRedTopLayer": {
+          "x0": 1023.1578947368422,
+          "y0": 253.91489361702128,
+          "x1": 1259.712918660287,
+          "y1": 386.0425531914894
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 756.3636363636364,
+          "y0": 176.17021276595744,
+          "x1": 989.8564593301435,
+          "y1": 723.8297872340426
+        },
+        "paper": {
+          "x0": 879.8086124401913,
+          "y0": 496.9148936170213,
+          "x1": 973.5885167464114,
+          "y1": 638.6170212765958
+        },
+        "clearBottomLayer": {
+          "x0": 795.5980861244019,
+          "y0": 380.10638297872345,
+          "x1": 942.9665071770335,
+          "y1": 457.6595744680851
+        },
+        "tawnyMiddleLayer": {
+          "x0": 788.8995215311005,
+          "y0": 315.95744680851067,
+          "x1": 953.4928229665072,
+          "y1": 383.93617021276594
+        },
+        "darkRedTopLayer": {
+          "x0": 772.6315789473686,
+          "y0": 211.59574468085106,
+          "x1": 969.7607655502393,
+          "y1": 321.7021276595745
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1070.5454545454545,
+          "y0": 172.13787234042553,
+          "x1": 1369.4162679425838,
+          "y1": 873.1421276595745
+        },
+        "paper": {
+          "x0": 1228.5550239234449,
+          "y0": 582.6910638297873,
+          "x1": 1348.5933014354066,
+          "y1": 764.0697872340426
+        },
+        "clearBottomLayer": {
+          "x0": 1120.7655502392345,
+          "y0": 433.17617021276595,
+          "x1": 1309.3971291866028,
+          "y1": 532.444255319149
+        },
+        "tawnyMiddleLayer": {
+          "x0": 1112.1913875598086,
+          "y0": 351.0655319148936,
+          "x1": 1322.8708133971293,
+          "y1": 438.0782978723404
+        },
+        "darkRedTopLayer": {
+          "x0": 1091.3684210526317,
+          "y0": 217.48255319148933,
+          "x1": 1343.6937799043062,
+          "y1": 358.41872340425533
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1798.181818181818,
+          "y0": 151.06595744680848,
+          "x1": 2300.191387559809,
+          "y1": 1328.5340425531915
+        },
+        "paper": {
+          "x0": 2063.588516746411,
+          "y0": 840.6670212765957,
+          "x1": 2265.2153110047843,
+          "y1": 1145.3265957446808
+        },
+        "clearBottomLayer": {
+          "x0": 1882.5358851674641,
+          "y0": 589.5287234042553,
+          "x1": 2199.377990430622,
+          "y1": 756.268085106383
+        },
+        "tawnyMiddleLayer": {
+          "x0": 1868.1339712918661,
+          "y0": 451.60851063829784,
+          "x1": 2222.0095693779904,
+          "y1": 597.7627659574467
+        },
+        "darkRedTopLayer": {
+          "x0": 1833.1578947368423,
+          "y0": 227.23085106382976,
+          "x1": 2256.9856459330144,
+          "y1": 463.95957446808507
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.48523985239852396,
+        "y": 0.5203308063404548
+      },
+      "bounds": {
+        "glass": {
+          "x0": 129.94553505535055,
+          "y0": 284.43556168159887,
+          "x1": 250.8669618696187,
+          "y1": 594.4645072363887
+        },
+        "paper": {
+          "x0": 194.4757195571956,
+          "y0": 472.3142660234321,
+          "x1": 243.3093726937269,
+          "y1": 548.512749827705
+        },
+        "clearBottomLayer": {
+          "x0": 153.19965559655594,
+          "y0": 401.35079255685736,
+          "x1": 226.450135301353,
+          "y1": 444.9758787043419
+        },
+        "tawnyMiddleLayer": {
+          "x0": 148.54883148831487,
+          "y0": 365.28738800827017,
+          "x1": 230.51960639606398,
+          "y1": 406.0041350792557
+        },
+        "darkBeetRedTopLayer": {
+          "x0": 139.2471832718327,
+          "y0": 309.44727773949,
+          "x1": 240.98396063960644,
+          "y1": 369.35906271536874
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.48523985239852396,
+        "y": 0.5203308063404548
+      },
+      "bounds": {
+        "glass": {
+          "x0": 143.1723985239852,
+          "y0": 314.092350103377,
+          "x1": 276.70174661746614,
+          "y1": 656.446588559614
+        },
+        "paper": {
+          "x0": 214.43084870848705,
+          "y0": 521.5603032391455,
+          "x1": 268.35616236162355,
+          "y1": 605.7036526533426
+        },
+        "clearBottomLayer": {
+          "x0": 168.85111931119312,
+          "y0": 443.197794624397,
+          "x1": 249.73908979089785,
+          "y1": 491.37146795313583
+        },
+        "tawnyMiddleLayer": {
+          "x0": 163.71537515375158,
+          "y0": 403.37422467263957,
+          "x1": 254.23286592865932,
+          "y1": 448.3363197794624
+        },
+        "darkBeetRedTopLayer": {
+          "x0": 153.4438868388684,
+          "y0": 341.7119228118539,
+          "x1": 265.78829028290284,
+          "y1": 407.8704341833219
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.48523985239852396,
+        "y": 0.5203308063404548
+      },
+      "bounds": {
+        "glass": {
+          "x0": 115.370036900369,
+          "y0": 191.421088904204,
+          "x1": 196.74843788437883,
+          "y1": 400.066161268091
+        },
+        "paper": {
+          "x0": 158.7979335793358,
+          "y0": 317.86078566505853,
+          "x1": 191.66228782287823,
+          "y1": 369.14128187456924
+        },
+        "clearBottomLayer": {
+          "x0": 131.01972939729396,
+          "y0": 270.10337698139216,
+          "x1": 180.3162607626076,
+          "y1": 299.4624396967609
+        },
+        "tawnyMiddleLayer": {
+          "x0": 127.889790897909,
+          "y0": 245.83321847002068,
+          "x1": 183.05495694956952,
+          "y1": 273.23501033769816
+        },
+        "darkBeetRedTopLayer": {
+          "x0": 121.62991389913898,
+          "y0": 208.25361819434875,
+          "x1": 190.09731857318576,
+          "y1": 248.57339765678844
+        }
+      }
+    }
+  ],
+  "portraitMeasurements": {
+    "pairing": "magician-jester",
+    "pour": "Even When You Know",
+    "version": "v4",
+    "orientation": "portrait",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v4/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-179bf669-3b0c-4f9a-8f7e-0d65dbc39551.png",
+    "masterSha256": "31993f5e9415b08ec03b7f9fdd993f913501309d0fd442915d987a70a1b1c8ed",
+    "sourceSha256": "dc37057b6d89ca83690b851547b45847772b55a496790b10de7836d52b7458c6",
+    "specSha256": "aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32",
+    "roomSha256": "8b1deeee8dfaca1a4bb0fe175139c02952f33b49e52034a7e8132f3172c06e1f",
+    "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "masterDimensions": {
+      "width": 1084,
+      "height": 1451
+    },
+    "wideCrop": [
+      0,
+      430,
+      1084,
+      610
+    ],
+    "portraitCrop": [
+      0,
+      0,
+      1084,
+      1451
+    ],
+    "crossOrientationCropIntended": false,
+    "tag": {
+      "cx": 579,
+      "cy": 884,
+      "w": 84,
+      "angle": 77
+    },
+    "glass": {
+      "x": 526,
+      "y": 755
+    },
+    "bounds": {
+      "glass": {
+        "x0": 424,
+        "y0": 489,
+        "x1": 632,
+        "y1": 1022
+      },
+      "paper": {
+        "x0": 535,
+        "y0": 812,
+        "x1": 619,
+        "y1": 943
+      },
+      "clearBottomLayer": {
+        "x0": 464,
+        "y0": 690,
+        "x1": 590,
+        "y1": 765
+      },
+      "tawnyMiddleLayer": {
+        "x0": 456,
+        "y0": 628,
+        "x1": 597,
+        "y1": 698
+      },
+      "darkBeetRedTopLayer": {
+        "x0": 440,
+        "y0": 532,
+        "x1": 615,
+        "y1": 635
+      }
+    },
+    "personBounds": {
+      "magnifierAndFoldedFabric": {
+        "x0": 112,
+        "y0": 720,
+        "x1": 899,
+        "y1": 924
+      },
+      "foldedSpectacles": {
+        "x0": 541,
+        "y0": 734,
+        "x1": 853,
+        "y1": 861
+      }
+    },
+    "recognitionRegions": {
+      "wholeMagnifierIncludingHandle": {
+        "x0": 123,
+        "y0": 720,
+        "x1": 523,
+        "y1": 882
+      },
+      "foldedSpectacles": {
+        "x0": 541,
+        "y0": 734,
+        "x1": 853,
+        "y1": 861
+      },
+      "lensVisibleFabricWeave": {
+        "x0": 334,
+        "y0": 748,
+        "x1": 489,
+        "y1": 837
+      }
+    },
+    "unknownExtents": {
+      "fabricHiddenByGlass": null,
+      "lensActualMagnificationFactor": null,
+      "behindStemCordLoad": null
+    },
+    "group": {
+      "fullBounds": {
+        "x0": 112,
+        "y0": 489,
+        "x1": 899,
+        "y1": 1022
+      },
+      "recognitionBounds": {
+        "x0": 123,
+        "y0": 489,
+        "x1": 853,
+        "y1": 1022
+      },
+      "fullWidth": 787,
+      "recognitionWidth": 730,
+      "physicalServeBoundsIncludingAllPhysicalObjects": {
+        "x0": 424,
+        "y0": 489,
+        "x1": 632,
+        "y1": 1022
+      }
+    },
+    "tagPhysics": {
+      "supportLoop": "Fine tan wrap still upper narrow stem about786–802 just under bowl, appears paired/multiple turns, not requested single low foot stem loop.",
+      "knot": "Small knot around548,802.",
+      "tether": "Downward right continuous cord to punched hole around561,834, about34px.",
+      "hole": "Punched dark hole561,834 visible.",
+      "gravity": "Paper almost vertical/slight down-right free bottom.",
+      "airgap": "Left paper edge separated from lower stem, plausible outboard gap.",
+      "contact": "No tabletop contact, hanging paper ends943 above glass/table foot1022.",
+      "uncertainty": [
+        "Repeated turns rather than one strand",
+        "Rear loop/load unobservable",
+        "Low stem placement missed"
+      ],
+      "assessment": "Continuous tether/hole/outboard gravity visible, strict single low-loop and low-visibility request held."
+    },
+    "review": {
+      "recipe": "One narrow flared stem cordial, correct clear bottom/tawny middle/dark beet-red top, no ice/foam/garnish. Actual45ml/75ml capacity and bottle density test cannot be proven by photo.",
+      "personality": "Whole lens handle and folded spectacles moved behind glass and all inside raster; fabric now complete visible within frame. They still spread787px, not inner40% target. Lens weave visible but actual magnification/specific shared demonstration unproved; source-derived inference retained.",
+      "world": "Same dark timber room and restrained warm lamp; nearblack background but strong broad amber tabletop sheen and patterned surface remain. Plain glass broad clear areas improved relative to dense wet scenes.",
+      "issues": [
+        "Glass533px tall unchanged, much larger than pulled-back target",
+        "Full787/recognition730px exceeds central40%434px and no moving-phone claim",
+        "Stem remains upper and repeated wrap, not single low strand",
+        "Specific shared demonstration recognition null",
+        "Name fit and density/capacity/physics/browser untested",
+        "Amber timber gloss/contact texture remains",
+        "Paper shows embossed-looking ornamental loops; plain material requirement held",
+        "Traces moved to both sides of glass rather than compact inner-depth lane"
+      ]
+    },
+    "measurementMethod": "Conservative visual estimates on original native1084×1451; full object extents retained. Proposed crops not phone/name/motion/type acceptance.",
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v4/measurements-portrait.json",
+      "originalMeasurementSha256": "4bc98f1e4b48749ecaa611f349c28e0fbcda4a04230996b27b6d8823ce58c7fc",
+      "previousSourceSha256": "c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    }
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

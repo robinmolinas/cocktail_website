@@ -1,0 +1,126 @@
+{
+  "pairing": "magician-innocent",
+  "pour": "More Than One Head",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-innocent/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-a6b8b2d2-7ef2-47a1-a139-48020bfa8eac.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "0a521deaf34739e6e3a9c4091b4d7cc30c3ffbcb42875ee10ba3ed0c164e8d17",
+  "sourceSha256": "7d8cac0ac61e8e4ee7258c786570d2b8f899c9662d13b55d41bf66f508dac068",
+  "specSha256": "360fa8756c71298c5cfff5424e1424ecbf44fc9aa79d31b45b4d4d5abafc3773",
+  "roomSha256": "4abb1916eda0caa7dede7dd1eb115a54855755a5bd26165035b29cdf246ccdad",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    845,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1286,
+    "cy": 710,
+    "w": 108,
+    "angle": 37
+  },
+  "glass": {
+    "x": 1050,
+    "y": 459
+  },
+  "bounds": {
+    "glass": {
+      "x0": 896,
+      "y0": 197,
+      "x1": 1203,
+      "y1": 719
+    },
+    "paper": {
+      "x0": 1179,
+      "y0": 649,
+      "x1": 1361,
+      "y1": 768
+    },
+    "napkins": {
+      "x0": 586,
+      "y0": 295,
+      "x1": 1305,
+      "y1": 586
+    },
+    "envelopes": {
+      "x0": 1182,
+      "y0": 396,
+      "x1": 1650,
+      "y1": 613
+    },
+    "physicalGarnish": null
+  },
+  "recognitionRegions": {
+    "napkins": {
+      "bounds": {
+        "x0": 588,
+        "y0": 312,
+        "x1": 898,
+        "y1": 583
+      },
+      "reason": "Visible layered linen folds/hems suggest stack of napkins, not a microscopic swatch; exact napkin rather than towel identity remains watch."
+    },
+    "envelopes": {
+      "bounds": {
+        "x0": 1191,
+        "y0": 397,
+        "x1": 1646,
+        "y1": 611
+      },
+      "reason": "Full blank envelope faces and opening flaps recognizable; behindglass occluded portion unknown."
+    }
+  },
+  "objectVisibility": {
+    "napkins": "Folded bundle partly behind glass; unknown unseen folds. Visible outline only.",
+    "envelopes": "Packet visible with some overlap/self-occlusion; unknown hidden extent.",
+    "physicalGarnish": "No garnish as source."
+  },
+  "supportingObjectUnion": {
+    "x0": 586,
+    "y0": 295,
+    "x1": 1650,
+    "y1": 613
+  },
+  "essentialObjectUnion": {
+    "x0": 586,
+    "y0": 197,
+    "x1": 1650,
+    "y1": 768
+  },
+  "tagPhysics": {
+    "mechanism": "Exterior lowerbody arc around y604–642 at liquid/clear-foot transition, belowrim197; visible front curvature and side occlusion.",
+    "knot": "Tiny apparent crossing/knot near1187/611; hard to establish securely loaded topology.",
+    "tetherAndHole": "Two short descending strands appear to connect lower junction to punchedhole1214/669; front cord relation partly obscured by reflections.",
+    "gravity": "Paper angles downward/outboard right below support.",
+    "paperSeparationOrContact": "Paper separate from glass at right and lower face rests on timber with shadow; not broad pasted bodylabel.",
+    "uncertainties": [
+      "Knot/hidden rearloop/friction load unproven.",
+      "Loop spans liquid/foot transition rather than wholly clearbase.",
+      "Writingaxis108px/name fit untested."
+    ],
+    "status": "Plausible visible front chain/contact, uncertain mechanics held; no physics PASS."
+  },
+  "review": {
+    "recipe": "Pale rosyamber faintlyhazy sparkling ice-filled talltumbler/no garnish/foam/rim retained. Fine soda bubbles present but too dense/sparkly ordinary texture held.",
+    "personality": "Separate real-size envelopepacket and linen hostbundle from monthlydinner starter inference; no ingredient army. Spread and napkin/hope specificity held.",
+    "world": "Historic room/darkleft but glossy warm patterned wood and dense glass/ice microtexture held.",
+    "issues": [
+      "Glass522px rather than300–360.",
+      "Full1064px group fails389px movingphone; proposed702portrait clips both traces.",
+      "Napkin vs towel exact identity and host-runaway specificity inferred.",
+      "Dense etched-looking ice/allorange glossytable hold.",
+      "Smalltag108px/name fit untested; rear/knotload held.",
+      "No export/browser/acceptance."
+    ]
+  }
+}

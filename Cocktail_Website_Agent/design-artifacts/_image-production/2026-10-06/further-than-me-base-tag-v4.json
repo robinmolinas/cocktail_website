@@ -1,0 +1,57 @@
+{
+  "id": "further-than-me-base-tag-v4",
+  "date": "2026-10-07",
+  "pairing": "sage-caregiver",
+  "pour": "Further Than Me",
+  "previousVersion": "v2",
+  "intermediateVersion": "v3",
+  "currentVersion": "v4",
+  "generatedCalls": 2,
+  "userRequested": true,
+  "countIncrease": 0,
+  "master": "sage-caregiver/v4/master.png",
+  "prompt": "sage-caregiver/v4/prompt.md",
+  "initialCorrectionPrompt": "sage-caregiver/v3/prompt.md",
+  "measurements": "sage-caregiver/v4/measurements.json",
+  "rootReview": "sage-caregiver/v4/root-master-review.md",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-e36ac8c2-92a0-442d-82cd-2ec851ed95bf.png",
+  "masterSha256": "3117e9e8bca1e2feb80941e1072e7f2e1e1eeb89ec17938f8364a7ec7c40407a",
+  "sourceSha256": "28566d97e3a6601310ad54ada169c8b5beb7fa5df9dcfd2e3f792948eba646e0",
+  "specSha256": "397c3f3bc87ff0e5a67da66fb0072dd8f296c7004984c0af4ebfe077015e9eb9",
+  "tagPhysics": {
+    "mechanism": "Snug external loop lowered to upper transparent glass-foot transition: side knot~1140/680; curved front arc bottoms near y697, clear foot beneath. Much lower than v2 y583–615; not a guaranteed entirely clear-band placement.",
+    "loopBounds": {
+      "x0": 967,
+      "y0": 671,
+      "x1": 1152,
+      "y1": 700
+    },
+    "knot": {
+      "x": 1140,
+      "y": 680
+    },
+    "paperHole": {
+      "x": 1150,
+      "y": 694
+    },
+    "gravity": "Continuous short downward paired tether; blank paper outboard right with lower edge resting walnut at~764 and contact shadow.",
+    "paperSeparationOrContact": "Paper tilts outward, projects free of liquid-bearing wall; upper corner near base, bottom honest wood contact.",
+    "uncertainty": "Cord is on upper clear-foot transition, not fully below every pale-liquid projection. Rear closure/friction/knot load remain unobservable; tiny gap depth uncertain. No physics PASS."
+  },
+  "personalityChange": "Retained source-explicit telephone calls plus inferred careful-listening spectacles; added inferred olive cardigan hand-darned cuff. Restrained not minimalist identity. Cardigan remains wide-only; portrait recomposition held.",
+  "notes": [
+    "User-directed base lowering visually improved; still transition-adjacent, do not claim entirely below liquid.",
+    "Cardigan is an inferred quiet care trace, not literal biographical evidence, and missed in portrait.",
+    "Full visible group1181px with cardigan; core glass/paper/phone/herbs534px >389movingphone.",
+    "Glossy amber crackled timber/dense droplets and patterned ice remain held.",
+    "68px clean name axis, no actual name/glyph/browser acceptance."
+  ],
+  "recipeChanged": false,
+  "exported": false,
+  "accepted": false,
+  "integrated": false
+}

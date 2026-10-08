@@ -1,3 +1,5 @@
+> **Superseded pipeline reference — reviewed 8 October 2026.** The active contract is Cocktail_Website_Agent/agent/spec/SPEC.md with ARCHITECTURE-SPINE.md. Preserve this earlier record; its old output shape, missing vetoes and questionnaire assumptions are not build instructions. Current direction: [experience specification](../../../Cocktail_Website_Agent/design-artifacts/2026-07-08-experience-master-spec.md).
+
 # Output Contract — Front-end Payload
 
 The single structured payload the engine emits and the React/Vite front-end renders directly (CAP-5, CAP-7). One payload per completed quiz. Field names are indicative; lock exact keys with the front-end before build.

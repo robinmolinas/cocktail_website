@@ -13,7 +13,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 ## Cocktail
 
 - **name:** Wide Open
-- **tagline:** You've been hurt. You still love like you haven't.
+- **tagline:** You make it safe to love without pretending to care less.
 - **glassware:** coupe (about 180 ml), chilled
 - **contains:** `["egg-white"]`
 
@@ -218,7 +218,7 @@ Studio fact card `_studio/fact-cards/rita-taketsuru.md`: *Oxford Companion* TAKE
 Wren's title-block notes:
 
 - **name (the room's vote, 2–1; my vote was Unguarded):** Wide Open
-- **tagline:** You've been hurt. You still love like you haven't.
+- **tagline:** You make it safe to love without pretending to care less.
 - **epigraph:** *A Japanese whisky, a whole egg, and a love story that began in Scotland.*
 
 ### Open items

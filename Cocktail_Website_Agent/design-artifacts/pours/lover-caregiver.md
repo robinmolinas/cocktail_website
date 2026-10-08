@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-30 (batch lover)
 ## Cocktail
 
 - **name:** Hoping You'd Come
-- **tagline:** You make people feel expected. Very few people can.
+- **tagline:** You make room for people before you ask them to come.
 - **glassware:** a small wineglass (about 250 ml), one plain lump of ice
 - **contains:** `[]`
 

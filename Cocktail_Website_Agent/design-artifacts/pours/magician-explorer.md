@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 ## Cocktail
 
 - **name:** One More Adjustment
-- **tagline:** Nothing is ever only what it is. Not to you.
+- **tagline:** You keep finding a better version of things other people have written off.
 - **glassware:** coupe, chilled
 - **contains:** `[]`
 
@@ -178,7 +178,7 @@ I could take *One More Adjustment*.
 Wren's title-block notes:
 
 **name:** room's call. I could take *In Copper* (candidates below).
-**tagline:** Nothing is ever only what it is. Not to you.
+**tagline:** You keep finding a better version of things other people have written off.
 **closingLine (Tomás, ruled by Wren):** *Stop stirring once the glass is frosted: every turn after that adds water. Then let whatever you've been adjusting go out as it is.*
 **epigraph:** *The still behind this whisky was first built of wood and iron.*
 

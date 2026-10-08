@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 ## Cocktail
 
 - **name:** Tried and True
-- **tagline:** Most of what you know, somebody told you. You still remember who.
+- **tagline:** Your best advice keeps someone else's voice in the room.
 - **glassware:** small stemmed glass (about 150 ml), chilled, no ice
 - **contains:** `["nuts"]`
 
@@ -195,7 +195,7 @@ Wren's title-block notes:
 
 **name:** Tried and True *(Wren's vote, round 5; Hester and Tomás both said they could take it)*
 
-**tagline:** Most of what you know, somebody told you. You still remember who.
+**tagline:** Your best advice keeps someone else's voice in the room.
 
 **epigraph**
 

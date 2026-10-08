@@ -1,0 +1,90 @@
+{
+  "pairing": "magician-ruler",
+  "pour": "Built to Hold",
+  "asset": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-ruler/v3/master.png",
+  "masterSha256": "9aa701599858700093025bc6a91d8702922a8e31eb9aeff2448d8c624d02ad2e",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-0183fdb0-4283-4f6b-b5ce-d33deb4fa896.png",
+  "sourceSha256": "6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6",
+  "specSha256": "1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56",
+  "roomSha256": "35cf395867739ab2d96beeef48217eeb27089adfeaeab4c4e3cb6750fcea23bb",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "designSha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+  "tag": {
+    "cx": 1384,
+    "cy": 679,
+    "w": 102,
+    "angle": 53
+  },
+  "glass": {
+    "x": 1174,
+    "y": 527
+  },
+  "bounds": {
+    "glass": {
+      "x0": 902,
+      "y0": 343,
+      "x1": 1450,
+      "y1": 712
+    },
+    "paper": {
+      "x0": 1304,
+      "y0": 613,
+      "x1": 1457,
+      "y1": 743
+    },
+    "organiser": {
+      "x0": 553,
+      "y0": 345,
+      "x1": 935,
+      "y1": 553
+    },
+    "linens": {
+      "x0": 728,
+      "y0": 251,
+      "x1": 1541,
+      "y1": 448
+    }
+  },
+  "unknownExtents": null,
+  "review": {
+    "recipe": "One cold handled200ml cup with180ml hazy amber punch, no ice/garnish/steam/foam; tiny bright points cannot all be identified as droplets vs trapped air.",
+    "personality": "Used organiser and two prepared linens give quiet planning/care inferences grounded in WHO; no magic ceiling or historical replica claim.",
+    "world": "Same nearblack readingroom. Smooth directional wood rather than raised alligator varnish; broad warm reflections still prominent.",
+    "issues": [
+      "Portrait full linens/organiser spread exceeds conservative inner phone lane although substantial recognizable parts should remain; browser review needed.",
+      "Cup retains dense stippling in some patches.",
+      "Handle thread has apparent doubled short segments; rear closure/load not certified.",
+      "Loaded-name glyphs, motion and user visual approval remain pending."
+    ],
+    "rootFindings": "Cup glass is cleaner and both prepared linens/used organiser stack in depth. Same no-ice cold punch. Name fit, rear handle knot and final mobile reveal remain untested."
+  },
+  "tagPhysics": {
+    "frontEvidence": "Low exterior/body or lower handle attachment, small knot, short continuous-looking punched-hole tether, free paper with timber contact.",
+    "status": "Hidden rear closure/friction/load uncertain; no physics PASS"
+  },
+  "wideCrop": [
+    4,
+    2,
+    1664,
+    936
+  ],
+  "portraitCrop": null,
+  "measurementMethod": "Copied native-specific manual measured coordinates; root viewed actual full-size image. Exact aspect-ratio crop proposes only conversion, not composition or name acceptance.",
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "rootOriginalInspected": true,
+  "exported": false,
+  "portraitMeasurementFile": "portrait-export-measurements.json"
+}

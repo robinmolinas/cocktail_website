@@ -1,0 +1,162 @@
+{
+  "pairing": "jester-magician",
+  "pour": "The Kind You'd Want",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-6dd8531c-93ee-42ff-958c-ac06285c97bb.png",
+  "sourceSha256": "738888b8ef651b33726c2314358e8352f5b4599a60fb43fd613c3c41260c71b2",
+  "specSha256": "3ce67214f49a9e03f9d5fded29ed434c347ad55ac0e85d7af06da1780e50bd79",
+  "roomSha256": "c64e078f095d05dac035990dddac103fec9a3a181e44d2b2eb4463737a2c3e8d",
+  "masterSha256": "5bcf9896dc51eff41d63ab69fef78594bb246cb6f91c7cde47e03519c7df41fd",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    910,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1220,
+    "cy": 628,
+    "w": 48,
+    "angle": 65
+  },
+  "glass": {
+    "x": 1126,
+    "y": 515
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1042,
+      "y0": 357,
+      "x1": 1206,
+      "y1": 660
+    },
+    "paper": {
+      "x0": 1191,
+      "y0": 586,
+      "x1": 1247,
+      "y1": 662
+    },
+    "ice": {
+      "x0": 1049,
+      "y0": 384,
+      "x1": 1201,
+      "y1": 605
+    },
+    "lemonPeel": {
+      "x0": 1102,
+      "y0": 391,
+      "x1": 1204,
+      "y1": 498
+    }
+  },
+  "personBounds": {
+    "fruitBowl": {
+      "x0": 1185,
+      "y0": 364,
+      "x1": 1448,
+      "y1": 550
+    },
+    "keyring": {
+      "x0": 1202,
+      "y0": 411,
+      "x1": 1323,
+      "y1": 460
+    },
+    "emptyMugs": {
+      "x0": 1254,
+      "y0": 236,
+      "x1": 1490,
+      "y1": 360
+    }
+  },
+  "recognitionRegions": {
+    "keysUnderBananas": {
+      "x0": 1202,
+      "y0": 364,
+      "x1": 1406,
+      "y1": 461
+    },
+    "mugPair": {
+      "x0": 1255,
+      "y0": 236,
+      "x1": 1489,
+      "y1": 359
+    },
+    "turnedEmptyMugs": null
+  },
+  "traceExtentNotes": {
+    "fruitBowl": "Full actual visible bowl/bananas included. Bowl left rear obscured by glass; unseen posterior extent unknown/null.",
+    "keyring": "Actual visible ring/key head and short blades beneath bananas; hidden key lengths under fruit unknown/null, not invented.",
+    "emptyMugs": "Two actual ceramic mugs read as household objects, open empty-looking mouths. Left handle remains visible on right-facing side/front; wallward orientation not established. Specific source behavior turnedEmptyMugs recognition null; interiors only shallow visible, empty status not unequivocal."
+  },
+  "group": {
+    "fullWidth": 448,
+    "recognitionWidth": 447,
+    "physicalServeWidthIncludingAllGarnishAndPaper": 205,
+    "physicalServeBoundsIncludingAllGarnishAndPaper": {
+      "x0": 1042,
+      "y0": 357,
+      "x1": 1247,
+      "y1": 662
+    },
+    "fullBoundsIncludingPersonsAndServe": {
+      "x0": 1042,
+      "y0": 236,
+      "x1": 1490,
+      "y1": 662
+    },
+    "recognitionBoundsIncludingGenericMugShapesNotPrankPASS": {
+      "x0": 1042,
+      "y0": 236,
+      "x1": 1489,
+      "y1": 662
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Thin subdued brown exterior low-body front arc around y586\u2013599 just above clear-foot transition; curves to right side, rear arc honestly occluded. Not a rim anchor.",
+    "knot": "Small visible knot near1197,589, short ends; no bow.",
+    "tether": "Very short continuous downward connector about13px reaches paper hole1203,601.",
+    "hole": "Dark actual punched hole around1203,601 visible.",
+    "gravity": "Paper below support, slopes down-right.",
+    "airgap": "Main paper face outboard from glass with a dark gap; small upper corner sits close to glass at knot.",
+    "contact": "Lower tip near1211,660 visibly meets timber; contact shadow plausible, precise depth unresolved.",
+    "uncertainty": [
+      "Rear loop closure and friction/knot load cannot be proven by still.",
+      "Upper margin overlap at knot and exact timber-contact depth remain uncertain.",
+      "Cord is quieter and thin but warm side light gives small tan highlights."
+    ],
+    "assessment": "Visible low-loop\u2192knot\u2192very short tether\u2192hole\u2192outboard paper with plausible wood contact; partial physical support evidence, not blanket physics PASS."
+  },
+  "review": {
+    "recipe": "One ordinary straight-sided ice-filled everyday tumbler, clear golden fizzy drink, ONE lemon peel strip INSIDE, no head/cloud/rim garnish. Actual glass303px meets size range. Gold is stronger than pale-gold estimate, dense fine fizz/etched ice remain appearance/material holds.",
+    "personality": "Source-explicit keys beneath bananas read. Two empty-looking mugs identifiable, but reversal and wholly empty condition not established; source-specific second behavior recognition null. No added recipe bottle/spy prop.",
+    "world": "Historic near-black timber room, one remaining right lamp, left third quiet; table still glossy amber with dense grain, ice/glass texture dense.",
+    "issues": [
+      "Full448px and recogn447px group still exceeds~389px moving-phone target; no motion/phone acceptance.",
+      "Specific source behavior of reversed empty mugs not convincingly rendered; recognition null for turnedEmptyMugs.",
+      "Amber glossy dense-grain tabletop and crystalline wet ice/dense fizz held.",
+      "Liquid stronger gold than source pale-gold estimate under warm light; appearance watch.",
+      "Attachment rear closure/friction/load, upper gap and contact depth uncertain.",
+      "Small writable48px tag axis; actual name/glyph fit untested, no physical-paper inflation.",
+      "No JPEG, browser, authored-copy, build or final acceptance."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "896af7a4eb5de91449e7e404ab965301559fa98d7be1ef77361471d9d3805599",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** Everyone calls it trouble. Only you know the rules.",
+      "+ - **tagline:** Your mischief makes grown-ups feel like they're allowed to play."
+    ]
+  }
+}

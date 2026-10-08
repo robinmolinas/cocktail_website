@@ -1,0 +1,352 @@
+{
+  "pairing": "sage-outlaw",
+  "pour": "On the Record",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "dbff5f1ba68e4bec575a0c7bffdac5fa9f08ad1bdbdc4c0e0f0efa601669b15e",
+  "review": {
+    "recipe": "Small stemmed port glass; still transparent dark garnet/red-brown port/tea, no serving ice/foam/bubbles; expressed orange peel correctly outside beside foot. Rim/foot not clipped in master.",
+    "personality": "Folded clipped reference packet with readable paperclip/dog-ear and folded reading spectacles moved together, both recognizable at full-size. This evokes checking evidence, not documented Forrester belongings.",
+    "world": "Plain smooth glass survives without droplet etching. Mostly flat low-satin long grain remains materially distinct from paper/glass; warm right practical/table highlight still noticeable, no alligator varnish.",
+    "issues": [
+      "Complete glass520px high remains larger than425px requested.",
+      "Glass/paper/personality union575px (770–1345) exceeds~434px nominal and~389px max-breath phone window. Complete glass/paper alone409px still has motion risk; full portrait is not phone acceptance.",
+      "A narrow phone can clip the clipped-packet corner/paperclip and portions of spectacles; cannot treat generic edges as full recognizable traces.",
+      "Blank tag usable235px at2.3degrees is measured but loaded-font/name/browser pass is deferred.",
+      "One targeted correction complete. No child exports/integration; root actual JPEG review pending."
+    ]
+  },
+  "measurements": {
+    "pairing": "sage-outlaw",
+    "pour": "On the Record",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-outlaw/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-d186cbca-c606-4770-a958-b130978bc521.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "dbff5f1ba68e4bec575a0c7bffdac5fa9f08ad1bdbdc4c0e0f0efa601669b15e",
+    "specSha256": "24f5d1fd35c15d2fedbb623737047052f54389ef90b36e87584cfa98a52b70c7",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      700,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1219,
+      "cy": 705,
+      "w": 235,
+      "angle": 2.3
+    },
+    "glass": {
+      "x": 1048,
+      "y": 397
+    },
+    "bounds": {
+      "glass": {
+        "x0": 936,
+        "y0": 238,
+        "x1": 1156,
+        "y1": 758
+      },
+      "paper": {
+        "x0": 1049,
+        "y0": 649,
+        "x1": 1345,
+        "y1": 757
+      }
+    },
+    "recognitionRegions": {
+      "referencePacket": {
+        "x0": 770,
+        "y0": 575,
+        "x1": 1039,
+        "y1": 683
+      },
+      "readingSpectacles": {
+        "x0": 833,
+        "y0": 526,
+        "x1": 1148,
+        "y1": 653
+      }
+    },
+    "recipeRegions": {
+      "setAsideOrangePeel": {
+        "x0": 745,
+        "y0": 693,
+        "x1": 954,
+        "y1": 747
+      }
+    },
+    "review": {
+      "recipe": "Small stemmed port glass; still transparent dark garnet/red-brown port/tea, no serving ice/foam/bubbles; expressed orange peel correctly outside beside foot. Rim/foot not clipped in master.",
+      "personality": "Folded clipped reference packet with readable paperclip/dog-ear and folded reading spectacles moved together, both recognizable at full-size. This evokes checking evidence, not documented Forrester belongings.",
+      "world": "Plain smooth glass survives without droplet etching. Mostly flat low-satin long grain remains materially distinct from paper/glass; warm right practical/table highlight still noticeable, no alligator varnish.",
+      "issues": [
+        "Complete glass520px high remains larger than425px requested.",
+        "Glass/paper/personality union575px (770–1345) exceeds~434px nominal and~389px max-breath phone window. Complete glass/paper alone409px still has motion risk; full portrait is not phone acceptance.",
+        "A narrow phone can clip the clipped-packet corner/paperclip and portions of spectacles; cannot treat generic edges as full recognizable traces.",
+        "Blank tag usable235px at2.3degrees is measured but loaded-font/name/browser pass is deferred.",
+        "One targeted correction complete. No child exports/integration; root actual JPEG review pending."
+      ]
+    },
+    "status": "preferred-measured-master-candidate; not-accepted; browser-deferred",
+    "sourceRefresh": {
+      "previousSourceSha256": "b461e0ab25ddf5cb1629ce0c82354b400ebd072617aa6502f69a439c8a84aeda",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** You don't like being the only one. You like pretending even less.",
+        "+ - **tagline:** You say what you've found, and give the next person courage to say it too.",
+        "- **tagline:** You don't like being the only one. You like pretending even less.",
+        "+ **tagline:** You say what you've found, and give the next person courage to say it too."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1399.8086124401914,
+        "cy": 810,
+        "w": 269.85645933014354,
+        "angle": 2.301222089347962
+      },
+      "glass": {
+        "x": 1203.4449760765551,
+        "y": 456.1276595744681
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 662.4273504273505,
+        "cy": 900,
+        "w": 299.94301994302,
+        "angle": 2.3004364607218415
+      },
+      "glass": {
+        "x": 444.1709401709402,
+        "y": 506.8085106382979
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/sage-outlaw/portrait.jpg",
+    "wide": "/personas/sage-outlaw/wide.jpg",
+    "wideTag": {
+      "cx": 0.729066985645933,
+      "cy": 0.75,
+      "w": 0.14055023923444976,
+      "angle": 2.301222089347962
+    },
+    "wideGlass": {
+      "x": 0.6267942583732058,
+      "y": 0.4223404255319149
+    },
+    "tag": {
+      "cx": 0.7393162393162394,
+      "cy": 0.75,
+      "w": 0.33475783475783477,
+      "angle": 2.3004364607218415
+    },
+    "glass": {
+      "x": 0.49572649572649574,
+      "y": 0.4223404255319149
+    }
+  },
+  "hashes": {
+    "master": "d895bf20253d319d7b9ccd8235f31b15aa7e702b77405cc922ba9a03b7128e33",
+    "wide": "07c692beb2712c0405ac01b455f899db8c5887d079d81e8e0024f09a50b58e38",
+    "portrait": "36c65e16ae19b63757d39599859b09e31cce5202a7fbce2f5a2aca41150cb087"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1074.8325358851675,
+          "y0": 273.4468085106383,
+          "x1": 1327.4641148325359,
+          "y1": 870.8936170212766
+        },
+        "paper": {
+          "x0": 1204.5933014354066,
+          "y0": 745.6595744680851,
+          "x1": 1544.4976076555024,
+          "y1": 869.7446808510638
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 815.6937799043063,
+          "y0": 227.8723404255319,
+          "x1": 1026.22009569378,
+          "y1": 725.7446808510638
+        },
+        "paper": {
+          "x0": 923.8277511961721,
+          "y0": 621.3829787234042,
+          "x1": 1207.0813397129186,
+          "y1": 724.7872340425531
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1146.488038277512,
+          "y0": 238.3165957446808,
+          "x1": 1415.9617224880383,
+          "y1": 875.5931914893616
+        },
+        "paper": {
+          "x0": 1284.8995215311004,
+          "y0": 742.0102127659575,
+          "x1": 1647.4641148325359,
+          "y1": 874.367659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1925.7416267942585,
+          "y0": 262.2255319148935,
+          "x1": 2378.373205741627,
+          "y1": 1332.6510638297873
+        },
+        "paper": {
+          "x0": 2158.2296650717703,
+          "y0": 1108.273404255319,
+          "x1": 2767.224880382775,
+          "y1": 1330.5925531914893
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.8076673634972735,
+        "y": 0.4223404255319149
+      },
+      "bounds": {
+        "glass": {
+          "x0": 17.866694017093977,
+          "y0": 213.69361702127657,
+          "x1": 215.36109097815768,
+          "y1": 680.5872340425532
+        },
+        "paper": {
+          "x0": 119.30699791073124,
+          "y0": 582.7191489361702,
+          "x1": 385.0267320037986,
+          "y1": 679.6893617021276
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.8081473081051859,
+        "y": 0.4223404255319149
+      },
+      "bounds": {
+        "glass": {
+          "x0": 19.066064957264956,
+          "y0": 235.9744680851064,
+          "x1": 237.1522947768281,
+          "y1": 751.5489361702126
+        },
+        "paper": {
+          "x0": 131.08308300094967,
+          "y0": 643.4765957446808,
+          "x1": 424.5081922127255,
+          "y1": 750.5574468085105
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.7013728924384662,
+        "y": 0.4223404255319149
+      },
+      "bounds": {
+        "glass": {
+          "x0": 69.55957606837606,
+          "y0": 143.8127659574468,
+          "x1": 202.47049724596394,
+          "y1": 458.02553191489363
+        },
+        "paper": {
+          "x0": 137.82745830959163,
+          "y0": 392.16170212765957,
+          "x1": 316.653061348528,
+          "y1": 457.42127659574464
+        }
+      }
+    }
+  ]
+}

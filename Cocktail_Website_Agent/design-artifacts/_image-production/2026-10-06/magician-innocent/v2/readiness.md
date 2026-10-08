@@ -1,0 +1,3 @@
+# More Than One Head — batch11 sole correction readiness
+
+Complete current201-line dossier and full spec reread before correction; settled full152-line room/current common rules and six actual controls read/inspected this turn. Recipe/status unchanged, closed r4/all valid sign-offs/no objections. Source/spec/room hashes same as v1 readiness, to be current-audited by root. Correction targets framing/depth overlap with ordinary surfaces; napkins and separate envelopes remain monthly-dinner habit inference, not asserted ownership. Small supported paper retained. No third call, exporter or acceptance; root sole integration owner.

@@ -1,0 +1,707 @@
+{
+  "pairing": "hero-innocent",
+  "pour": "Work It Out",
+  "status": "private-review-export; all-acceptance-gates-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "a06d232783c5e8afa8f8c0393b880fe1b21b4e09a92d4d163fcd8dbdf45e4be0",
+  "review": {
+    "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+    "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+    "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+    "issues": "Practice sample still looks finished; very tall wide glass, multiple tag strands, large paper, dense droplets and616px portrait group."
+  },
+  "measurements": {
+    "measurementMethod": "Root manual visual estimate on actual original-size native image; coordinates approximate, tolerance 5–12px. Displayed dimensions not probed. NOT export-ready metadata.",
+    "masterSha256": "a08e5f7fbb2c85e4bc32abbf5b7a49c74029d7d25aac8283c11269137ae3e45b",
+    "sourceSha256": "a06d232783c5e8afa8f8c0393b880fe1b21b4e09a92d4d163fcd8dbdf45e4be0",
+    "specSha256": "23c1007beb037df6d891ee079bab110b8eb319862f35036805db0b47ce417ffc",
+    "roomSha256": null,
+    "fingerprintStatus": "Pending authorized checks; no historical hash reused.",
+    "exported": false,
+    "exportEligible": false,
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "hiddenExtents": {
+      "rearLoopClosure": null,
+      "actualKnotLoad": null,
+      "paperUnderside": null,
+      "occludedProps": null
+    },
+    "tagPhysics": {
+      "status": "Held, not physics PASS",
+      "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+    },
+    "pairing": "hero-innocent",
+    "pour": "Work It Out",
+    "asset": "wide",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/wide-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-cf1ff3f3-82bd-4459-86b1-f2e0e6008ec1.png",
+    "displayedDimensions": [
+      1672,
+      941
+    ],
+    "proposedCrop": [
+      4,
+      2,
+      1664,
+      936
+    ],
+    "tag": {
+      "cx": 1225,
+      "cy": 756,
+      "w": 110,
+      "angle": 27
+    },
+    "glass": {
+      "x": 1000,
+      "y": 480
+    },
+    "bounds": {
+      "glass": {
+        "x0": 867,
+        "y0": 190,
+        "x1": 1126,
+        "y1": 765
+      },
+      "physicalGarnish": {
+        "x0": 1000,
+        "y0": 164,
+        "x1": 1172,
+        "y1": 301
+      },
+      "paper": {
+        "x0": 1117,
+        "y0": 683,
+        "x1": 1303,
+        "y1": 795
+      },
+      "practiceBox": {
+        "x0": 1098,
+        "y0": 400,
+        "x1": 1440,
+        "y1": 620
+      },
+      "looseLid": {
+        "x0": 1320,
+        "y0": 453,
+        "x1": 1586,
+        "y1": 638
+      },
+      "pencil": {
+        "x0": 1367,
+        "y0": 499,
+        "x1": 1559,
+        "y1": 605
+      }
+    },
+    "essentialObjectUnion": [
+      867,
+      164,
+      1586,
+      795
+    ],
+    "reviewHolds": [
+      "Highball too tall in wide",
+      "Closed craftsmanship/finished-object inference remains despite loose lid",
+      "Multiple close low-foot strands and dense droplets",
+      "Bright amber sheen",
+      "No generated/font-loaded name or phone acceptance"
+    ],
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "exportProvenance": {
+      "batch": 15,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/wide-geometry.json",
+      "originalMeasurementSha256": "90f3492a752992afaaa3d76e32db724081166ae3e9c4890630ded951dfbe659b",
+      "previousSourceSha256": null,
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "recognitionRegions": {},
+    "wideCrop": [
+      4,
+      2,
+      1664,
+      936
+    ],
+    "portraitCrop": [
+      4,
+      2,
+      1664,
+      936
+    ],
+    "review": {
+      "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+      "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+      "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+      "issues": "Practice sample still looks finished; very tall wide glass, multiple tag strands, large paper, dense droplets and616px portrait group."
+    },
+    "portraitMeasurementFile": "portrait-measurements.json"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1408.8461538461538,
+        "cy": 870,
+        "w": 126.92307692307692,
+        "angle": 27
+      },
+      "glass": {
+        "x": 1149.2307692307693,
+        "y": 551.5384615384615
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 636.6315789473684,
+        "cy": 847.1578947368422,
+        "w": 87.57894736842104,
+        "angle": 32
+      },
+      "glass": {
+        "x": 445.4736842105263,
+        "y": 594.5263157894736
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/hero-innocent/portrait.jpg",
+    "wide": "/personas/hero-innocent/wide.jpg",
+    "wideTag": {
+      "cx": 0.7337740384615384,
+      "cy": 0.8055555555555556,
+      "w": 0.06610576923076923,
+      "angle": 27
+    },
+    "wideGlass": {
+      "x": 0.5985576923076923,
+      "y": 0.5106837606837606
+    },
+    "tag": {
+      "cx": 0.7105263157894737,
+      "cy": 0.7059649122807018,
+      "w": 0.09774436090225563,
+      "angle": 32
+    },
+    "glass": {
+      "x": 0.49718045112781956,
+      "y": 0.49543859649122807
+    }
+  },
+  "hashes": {
+    "master": "a08e5f7fbb2c85e4bc32abbf5b7a49c74029d7d25aac8283c11269137ae3e45b",
+    "wide": "b80c4411f2e8db93c7c5111ec50adf65bac2852a8a6e61cf889cbc5363245b14",
+    "portrait": "cec8019aba2f0cd38cb7773e2eb0752051d08a82b1f43228670f254d1989faab",
+    "portraitMaster": "db7f07b3ab4b7d449ce1d632c501916c0577af9f43137de35c3824c02bbddf0d"
+  },
+  "geometryScope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 995.7692307692308,
+          "y0": 216.92307692307693,
+          "x1": 1294.6153846153845,
+          "y1": 880.3846153846154
+        },
+        "physicalGarnish": {
+          "x0": 1149.2307692307693,
+          "y0": 186.9230769230769,
+          "x1": 1347.6923076923076,
+          "y1": 345
+        },
+        "paper": {
+          "x0": 1284.2307692307693,
+          "y0": 785.7692307692307,
+          "x1": 1498.8461538461538,
+          "y1": 915
+        },
+        "practiceBox": {
+          "x0": 1262.3076923076924,
+          "y0": 459.2307692307692,
+          "x1": 1656.923076923077,
+          "y1": 713.0769230769231
+        },
+        "looseLid": {
+          "x0": 1518.4615384615383,
+          "y0": 520.3846153846154,
+          "x1": 1825.3846153846155,
+          "y1": 733.8461538461539
+        },
+        "pencil": {
+          "x0": 1572.6923076923076,
+          "y0": 573.4615384615385,
+          "x1": 1794.2307692307693,
+          "y1": 695.7692307692308
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 749.8076923076924,
+          "y0": 180.76923076923077,
+          "x1": 998.8461538461538,
+          "y1": 733.6538461538462
+        },
+        "physicalGarnish": {
+          "x0": 877.6923076923076,
+          "y0": 155.76923076923077,
+          "x1": 1043.076923076923,
+          "y1": 287.5
+        },
+        "paper": {
+          "x0": 990.1923076923076,
+          "y0": 654.8076923076923,
+          "x1": 1169.0384615384614,
+          "y1": 762.5
+        },
+        "practiceBox": {
+          "x0": 971.9230769230769,
+          "y0": 382.6923076923077,
+          "x1": 1300.769230769231,
+          "y1": 594.2307692307692
+        },
+        "looseLid": {
+          "x0": 1185.3846153846152,
+          "y0": 433.6538461538462,
+          "x1": 1441.1538461538462,
+          "y1": 611.5384615384615
+        },
+        "pencil": {
+          "x0": 1230.576923076923,
+          "y0": 477.88461538461536,
+          "x1": 1415.1923076923076,
+          "y1": 579.8076923076924
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1062.1538461538462,
+          "y0": 178.0246153846154,
+          "x1": 1380.923076923077,
+          "y1": 885.7169230769231
+        },
+        "physicalGarnish": {
+          "x0": 1225.8461538461538,
+          "y0": 146.0246153846154,
+          "x1": 1437.5384615384614,
+          "y1": 314.64
+        },
+        "paper": {
+          "x0": 1369.8461538461538,
+          "y0": 784.7938461538461,
+          "x1": 1598.7692307692307,
+          "y1": 922.64
+        },
+        "practiceBox": {
+          "x0": 1346.4615384615386,
+          "y0": 436.4861538461538,
+          "x1": 1767.3846153846155,
+          "y1": 707.2553846153846
+        },
+        "looseLid": {
+          "x0": 1619.6923076923076,
+          "y0": 501.7169230769231,
+          "x1": 1947.076923076923,
+          "y1": 729.4092307692308
+        },
+        "pencil": {
+          "x0": 1677.5384615384614,
+          "y0": 558.3323076923077,
+          "x1": 1913.8461538461538,
+          "y1": 688.7938461538462
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.5721717171717171
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1784.0865384615386,
+          "y0": 105.42884615384622,
+          "x1": 2319.519230769231,
+          "y1": 1294.1307692307694
+        },
+        "physicalGarnish": {
+          "x0": 2059.0384615384614,
+          "y0": 51.678846153846166,
+          "x1": 2414.6153846153843,
+          "y1": 334.90000000000003
+        },
+        "paper": {
+          "x0": 2300.9134615384614,
+          "y0": 1124.6115384615384,
+          "x1": 2685.4326923076924,
+          "y1": 1356.15
+        },
+        "practiceBox": {
+          "x0": 2261.6346153846157,
+          "y0": 539.5634615384615,
+          "x1": 2968.653846153846,
+          "y1": 994.3711538461539
+        },
+        "looseLid": {
+          "x0": 2720.576923076923,
+          "y0": 649.1307692307694,
+          "x1": 3270.480769230769,
+          "y1": 1031.5826923076925
+        },
+        "pencil": {
+          "x0": 2817.7403846153843,
+          "y0": 744.2269230769232,
+          "x1": 3214.6634615384614,
+          "y1": 963.3615384615387
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.49718045112781956,
+        "y": 0.49543859649122807
+      },
+      "bounds": {
+        "glass": {
+          "x0": 110.3887969924812,
+          "y0": 233.35859649122807,
+          "x1": 278.5965162907268,
+          "y1": 602.3494736842106
+        },
+        "physicalGarnish": {
+          "x0": 164.2863408521303,
+          "y0": 213.22105263157894,
+          "x1": 302.88002506265667,
+          "y1": 296.73263157894735
+        },
+        "paper": {
+          "x0": 272.08142857142855,
+          "y0": 553.1901754385965,
+          "x1": 372.17686716791985,
+          "y1": 620.1178947368421
+        },
+        "practiceBox": {
+          "x0": 276.2273934837093,
+          "y0": 359.51438596491226,
+          "x1": 408.30598997493735,
+          "y1": 501.6617543859649
+        },
+        "looseLid": {
+          "x0": 318.87160401002507,
+          "y0": 391.4975438596491,
+          "x1": 475.23370927318297,
+          "y1": 515.8764912280701
+        },
+        "pencil": {
+          "x0": 346.11651629072685,
+          "y0": 424.0729824561403,
+          "x1": 466.94177944862156,
+          "y1": 495.738947368421
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.49718045112781956,
+        "y": 0.49543859649122807
+      },
+      "bounds": {
+        "glass": {
+          "x0": 121.56864661654134,
+          "y0": 257.68982456140355,
+          "x1": 307.314611528822,
+          "y1": 665.1536842105263
+        },
+        "physicalGarnish": {
+          "x0": 181.0858395989975,
+          "y0": 235.4526315789474,
+          "x1": 334.1300501253133,
+          "y1": 327.67157894736846
+        },
+        "paper": {
+          "x0": 300.12022556390974,
+          "y0": 610.8687719298244,
+          "x1": 410.6521553884712,
+          "y1": 684.7747368421052
+        },
+        "practiceBox": {
+          "x0": 304.6984711779449,
+          "y0": 396.99929824561406,
+          "x1": 450.5482957393483,
+          "y1": 553.9677192982456
+        },
+        "looseLid": {
+          "x0": 351.7889974937343,
+          "y0": 432.31719298245616,
+          "x1": 524.454260651629,
+          "y1": 569.6645614035086
+        },
+        "pencil": {
+          "x0": 381.874611528822,
+          "y0": 468.2891228070175,
+          "x1": 515.2977694235589,
+          "y1": 547.4273684210525
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.49718045112781956,
+        "y": 0.49543859649122807
+      },
+      "bounds": {
+        "glass": {
+          "x0": 102.89563909774438,
+          "y0": 157.04701754385965,
+          "x1": 216.09704260651625,
+          "y1": 405.3726315789474
+        },
+        "physicalGarnish": {
+          "x0": 139.16791979949875,
+          "y0": 143.49473684210525,
+          "x1": 232.43949874686717,
+          "y1": 199.69684210526316
+        },
+        "paper": {
+          "x0": 211.71248120300748,
+          "y0": 372.2891228070175,
+          "x1": 279.0752882205514,
+          "y1": 417.3305263157895
+        },
+        "practiceBox": {
+          "x0": 214.50265664160406,
+          "y0": 241.9480701754386,
+          "x1": 303.38967418546366,
+          "y1": 337.61122807017546
+        },
+        "looseLid": {
+          "x0": 243.20160401002505,
+          "y0": 263.4722807017544,
+          "x1": 348.4310776942356,
+          "y1": 347.1775438596491
+        },
+        "pencil": {
+          "x0": 261.5370426065163,
+          "y0": 285.3950877192982,
+          "x1": 342.8507268170426,
+          "y1": 333.6252631578947
+        }
+      }
+    }
+  ],
+  "portraitMeasurements": {
+    "measurementMethod": "Root manual visual estimate on actual original-size native image; coordinates approximate, tolerance 5–12px. Displayed dimensions not probed. NOT export-ready metadata.",
+    "masterSha256": "db7f07b3ab4b7d449ce1d632c501916c0577af9f43137de35c3824c02bbddf0d",
+    "sourceSha256": "a06d232783c5e8afa8f8c0393b880fe1b21b4e09a92d4d163fcd8dbdf45e4be0",
+    "specSha256": "23c1007beb037df6d891ee079bab110b8eb319862f35036805db0b47ce417ffc",
+    "roomSha256": null,
+    "fingerprintStatus": "Pending authorized checks; no historical hash reused.",
+    "exported": false,
+    "exportEligible": false,
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "hiddenExtents": {
+      "rearLoopClosure": null,
+      "actualKnotLoad": null,
+      "paperUnderside": null,
+      "occludedProps": null
+    },
+    "tagPhysics": {
+      "status": "Held, not physics PASS",
+      "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+    },
+    "pairing": "hero-innocent",
+    "pour": "Work It Out",
+    "asset": "portrait",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-23b2bf8e-12df-4603-a3d1-0788f4ec2ce4.png",
+    "displayedDimensions": [
+      1084,
+      1451
+    ],
+    "proposedCrop": [
+      10,
+      13,
+      1064,
+      1425
+    ],
+    "tag": {
+      "cx": 766,
+      "cy": 1019,
+      "w": 104,
+      "angle": 32
+    },
+    "glass": {
+      "x": 539,
+      "y": 719
+    },
+    "bounds": {
+      "glass": {
+        "x0": 398,
+        "y0": 407,
+        "x1": 682,
+        "y1": 1030
+      },
+      "physicalGarnish": {
+        "x0": 489,
+        "y0": 373,
+        "x1": 723,
+        "y1": 514
+      },
+      "paper": {
+        "x0": 671,
+        "y0": 947,
+        "x1": 840,
+        "y1": 1060
+      },
+      "practiceBox": {
+        "x0": 678,
+        "y0": 620,
+        "x1": 901,
+        "y1": 860
+      },
+      "looseLid": {
+        "x0": 750,
+        "y0": 674,
+        "x1": 1014,
+        "y1": 884
+      },
+      "pencil": {
+        "x0": 796,
+        "y0": 729,
+        "x1": 1000,
+        "y1": 850
+      }
+    },
+    "essentialObjectUnion": [
+      398,
+      373,
+      1014,
+      1060
+    ],
+    "reviewHolds": [
+      "Practice box/lid/pencil remain lateral: approx616px whole known union, exceeding nominal590.6px tall-phone width before translation",
+      "Multiple parallel low-foot strands",
+      "Paper scale not requested28%bodywidth",
+      "Work sample still looks finished",
+      "Dense droplets/bright wood sheen",
+      "Correction allowance exhausted"
+    ],
+    "masterDimensions": {
+      "width": 1084,
+      "height": 1451
+    },
+    "exportProvenance": {
+      "batch": 15,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/portrait-geometry.json",
+      "originalMeasurementSha256": "4a7411681c86bffe1230028fb63764d2ccc8d7bf43e8a5f6fb1ad5f91e0221a5",
+      "previousSourceSha256": null,
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "recognitionRegions": {},
+    "portraitCrop": [
+      10,
+      13,
+      1064,
+      1425
+    ],
+    "wideCrop": [
+      10,
+      13,
+      1064,
+      1425
+    ],
+    "review": {
+      "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+      "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+      "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+      "issues": "Practice sample still looks finished; very tall wide glass, multiple tag strands, large paper, dense droplets and616px portrait group."
+    }
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

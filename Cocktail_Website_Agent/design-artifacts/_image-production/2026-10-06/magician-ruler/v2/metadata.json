@@ -1,0 +1,442 @@
+{
+  "pairing": "magician-ruler",
+  "pour": "Built to Hold",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "d7d7a63f70a7e091c5e2f88f00b46174a591b5f9cb20e9163eb7ba8cdfb948b0",
+  "review": {
+    "recipe": "ONE small handled cold glass cup, hazy pale amber-orange, no ice/steam/foam/garnish. Style bowl not a shared vessel.",
+    "personality": "Closed organiser/tabs and two linen preparations are inferred from all-parts coordination/arrival preparedness, not explicit owned objects; generic and still broad.",
+    "world": "Dark old reading room, one right practical, no metal counter. Timber still orange-gloss/crackle and cup uniform micro-speckle remain material HOLD.",
+    "issues": [
+      "Right linen full master now retained but proposed portrait clips.",
+      "Full meaningful group 1011px wider than portrait/moving phone; app not checked.",
+      "Tiny doubled handle tether/side tail and rear load uncertain.",
+      "Hazy drink remains saturated orange in warm light and uniformly speckled, material/appearance watch.",
+      "Name overlay, physical/personality/editorial/user acceptance pending."
+    ]
+  },
+  "measurements": {
+    "pairing": "magician-ruler",
+    "pour": "Built to Hold",
+    "version": "v2",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-ruler/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-3b552dd8-7d4f-4330-8805-99264d0f7d60.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "masterSha256": "0128000fb99dc6f2014e9f4082cf1711c8f8126e9aa9b0c51e60ebf4c995dcdd",
+    "sourceSha256": "d7d7a63f70a7e091c5e2f88f00b46174a591b5f9cb20e9163eb7ba8cdfb948b0",
+    "specSha256": "1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56",
+    "roomSha256": "35cf395867739ab2d96beeef48217eeb27089adfeaeab4c4e3cb6750fcea23bb",
+    "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      635,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1271,
+      "cy": 681,
+      "w": 55,
+      "angle": 66
+    },
+    "glass": {
+      "x": 1086,
+      "y": 564
+    },
+    "bounds": {
+      "glass": {
+        "x0": 945,
+        "y0": 443,
+        "x1": 1308,
+        "y1": 690
+      },
+      "paper": {
+        "x0": 1214,
+        "y0": 629,
+        "x1": 1335,
+        "y1": 717
+      }
+    },
+    "personalityBounds": {
+      "closedLeatherOrganiser": {
+        "x0": 639,
+        "y0": 432,
+        "x1": 1050,
+        "y1": 607
+      },
+      "twoPreparedLinenNapkins": {
+        "x0": 1170,
+        "y0": 431,
+        "x1": 1650,
+        "y1": 640
+      }
+    },
+    "recognitionRegions": {
+      "closedLeatherOrganiser": {
+        "x0": 639,
+        "y0": 432,
+        "x1": 1050,
+        "y1": 607
+      },
+      "twoPreparedLinenNapkins": {
+        "x0": 1170,
+        "y0": 431,
+        "x1": 1650,
+        "y1": 640
+      }
+    },
+    "physicalRecognitionRegions": {
+      "wholeHandledCup": {
+        "x0": 945,
+        "y0": 443,
+        "x1": 1308,
+        "y1": 690
+      }
+    },
+    "supportingBounds": {
+      "cord": {
+        "x0": 1192,
+        "y0": 596,
+        "x1": 1258,
+        "y1": 675
+      },
+      "glassHandle": {
+        "x0": 1200,
+        "y0": 488,
+        "x1": 1308,
+        "y1": 635
+      }
+    },
+    "visibility": {
+      "organiser": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null,
+        "note": "Cup hides rear/side; visible closed tabbed organiser is recognisable."
+      },
+      "linen": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null,
+        "note": "Both stacked folded napkin faces visible, unseen folds unknown; proposed portrait crops outer right fabric."
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Lower integral closed handle loop, small knot, short descending punched-hole tether; paper outside glass, bottom on timber.",
+      "anchorBounds": {
+        "x0": 1203,
+        "y0": 597,
+        "x1": 1238,
+        "y1": 632
+      },
+      "knotPoint": {
+        "x": 1223,
+        "y": 606
+      },
+      "holePoint": {
+        "x": 1251,
+        "y": 645
+      },
+      "gravity": "Paper below knot and supported by tabletop.",
+      "airGap": "Broad paper face outside cup; upper shoulder near handle.",
+      "contact": "Bottom paper edge meets wood with local shadow.",
+      "uncertainties": [
+        "Doubled crossing/extra side loop and tail persist.",
+        "Rear loop closure, friction and taut load unverified.",
+        "Tiny handle intersection topology unclear; no physics PASS."
+      ],
+      "status": "Observed front attachment plausible, HOLD."
+    },
+    "recognitionUnionWidth": 1011,
+    "physicalServeRecognitionWidth": 363,
+    "physicalServeHeight": 247,
+    "cropAssessment": {
+      "wide": "Proposed 16:9 contains complete visible meaningful group.",
+      "portrait": "Proposed crop x635–1337 retains cup/tag/organiser, clips right napkins. Not portrait acceptance.",
+      "movingPhone": "1011px meaningful group much wider than ~389px phone inner window; no phone proof."
+    },
+    "recipeVariant": {
+      "chosenBranch": "Seville orange shrub; Batavia arrack; STILL fridge water",
+      "photographicProof": "Exact 180ml, temperature/chemistry and 2 napkin count cannot be measured from render."
+    },
+    "review": {
+      "recipe": "ONE small handled cold glass cup, hazy pale amber-orange, no ice/steam/foam/garnish. Style bowl not a shared vessel.",
+      "personality": "Closed organiser/tabs and two linen preparations are inferred from all-parts coordination/arrival preparedness, not explicit owned objects; generic and still broad.",
+      "world": "Dark old reading room, one right practical, no metal counter. Timber still orange-gloss/crackle and cup uniform micro-speckle remain material HOLD.",
+      "issues": [
+        "Right linen full master now retained but proposed portrait clips.",
+        "Full meaningful group 1011px wider than portrait/moving phone; app not checked.",
+        "Tiny doubled handle tether/side tail and rear load uncertain.",
+        "Hazy drink remains saturated orange in warm light and uniformly speckled, material/appearance watch.",
+        "Name overlay, physical/personality/editorial/user acceptance pending."
+      ]
+    },
+    "status": "Selected measured native candidate; held, no exports or acceptance.",
+    "rootMasterOriginalResolutionInspected": true,
+    "rootWideInspected": false,
+    "rootPortraitInspected": false,
+    "exported": false,
+    "accepted": false,
+    "integrated": false,
+    "sourceRefresh": {
+      "previousSourceSha256": "6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** They get the surprise. You built the room it happens in.",
+        "+ - **tagline:** You build the kind of order that lets everyone else feel free.",
+        "- **tagline:** They get the surprise. You built the room it happens in.",
+        "+ **tagline:** You build the kind of order that lets everyone else feel free."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1459.5215311004783,
+        "cy": 782.4255319148936,
+        "w": 63.1578947368421,
+        "angle": 66.01131919369689
+      },
+      "glass": {
+        "x": 1247.0813397129186,
+        "y": 648
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 811.7606837606837,
+        "cy": 869.3617021276596,
+        "w": 70.1994301994302,
+        "angle": 66.00404372269138
+      },
+      "glass": {
+        "x": 575.6353276353276,
+        "y": 720
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/magician-ruler/portrait.jpg",
+    "wide": "/personas/magician-ruler/wide.jpg",
+    "wideTag": {
+      "cx": 0.7601674641148325,
+      "cy": 0.7244680851063829,
+      "w": 0.03289473684210526,
+      "angle": 66.01131919369689
+    },
+    "wideGlass": {
+      "x": 0.6495215311004785,
+      "y": 0.6
+    },
+    "tag": {
+      "cx": 0.905982905982906,
+      "cy": 0.7244680851063829,
+      "w": 0.07834757834757834,
+      "angle": 66.00404372269138
+    },
+    "glass": {
+      "x": 0.6424501424501424,
+      "y": 0.6
+    }
+  },
+  "hashes": {
+    "master": "0128000fb99dc6f2014e9f4082cf1711c8f8126e9aa9b0c51e60ebf4c995dcdd",
+    "wide": "3d88f4680f4cdc97b2057c96d055d73263b27d959cafb9b8563efa6800d1c395",
+    "portrait": "a29ad5f0a25b73922c02b9c6ef217f210b261eb5ceca62ab8ae153990f438621"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1085.1674641148325,
+          "y0": 508.9787234042553,
+          "x1": 1502.0095693779904,
+          "y1": 792.7659574468086
+        },
+        "paper": {
+          "x0": 1394.066985645933,
+          "y0": 722.6808510638298,
+          "x1": 1533.0143540669858,
+          "y1": 823.7872340425532
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 824.3062200956937,
+          "y0": 424.1489361702128,
+          "x1": 1171.6746411483255,
+          "y1": 660.6382978723404
+        },
+        "paper": {
+          "x0": 1081.7224880382776,
+          "y0": 602.2340425531914,
+          "x1": 1197.5119617224882,
+          "y1": 686.4893617021277
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1157.511961722488,
+          "y0": 489.5506382978723,
+          "x1": 1602.1435406698565,
+          "y1": 792.2570212765958
+        },
+        "paper": {
+          "x0": 1487.0047846889952,
+          "y0": 717.4995744680851,
+          "x1": 1635.2153110047848,
+          "y1": 825.3463829787235
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1944.2583732057415,
+          "y0": 684.2202127659574,
+          "x1": 2691.1004784689,
+          "y1": 1192.672340425532
+        },
+        "paper": {
+          "x0": 2497.7033492822966,
+          "y0": 1067.1031914893617,
+          "x1": 2746.6507177033495,
+          "y1": 1248.2521276595744
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.9085803286269589,
+        "y": 0.6
+      },
+      "bounds": {
+        "glass": {
+          "x0": 60.05867882241216,
+          "y0": 397.7574468085106,
+          "x1": 385.9244338081672,
+          "y1": 619.531914893617
+        },
+        "paper": {
+          "x0": 301.54046419753087,
+          "y0": 564.7617021276595,
+          "x1": 410.1623825261159,
+          "y1": 643.7744680851064
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.9088084562039029,
+        "y": 0.6
+      },
+      "bounds": {
+        "glass": {
+          "x0": 65.65721405508074,
+          "y0": 439.22978723404253,
+          "x1": 425.49949325735986,
+          "y1": 684.1276595744681
+        },
+        "paper": {
+          "x0": 332.3171950617284,
+          "y0": 623.6468085106384,
+          "x1": 452.2646214624881,
+          "y1": 710.8978723404256
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.8580563728924383,
+        "y": 0.6
+      },
+      "bounds": {
+        "glass": {
+          "x0": 97.95418195631531,
+          "y0": 267.6851063829787,
+          "x1": 317.2572018993352,
+          "y1": 416.93617021276594
+        },
+        "paper": {
+          "x0": 260.4679901234568,
+          "y0": 380.07659574468084,
+          "x1": 333.5689967711301,
+          "y1": 433.25106382978726
+        }
+      }
+    }
+  ]
+}

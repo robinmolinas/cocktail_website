@@ -13,7 +13,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 ## Cocktail
 
 - **name:** Whoever Comes In
-- **tagline:** Most people learn not to look. You never did.
+- **tagline:** You stop for the people everyone else has learned to walk past.
 - **glassware:** chilled coupe
 - **contains:** `[]`
 

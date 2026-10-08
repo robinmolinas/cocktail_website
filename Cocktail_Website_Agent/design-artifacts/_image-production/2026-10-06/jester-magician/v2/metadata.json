@@ -1,0 +1,507 @@
+{
+  "pairing": "jester-magician",
+  "pour": "The Kind You'd Want",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "738888b8ef651b33726c2314358e8352f5b4599a60fb43fd613c3c41260c71b2",
+  "review": {
+    "recipe": "One ordinary straight-sided ice-filled everyday tumbler, clear golden fizzy drink, ONE lemon peel strip INSIDE, no head/cloud/rim garnish. Actual glass303px meets size range. Gold is stronger than pale-gold estimate, dense fine fizz/etched ice remain appearance/material holds.",
+    "personality": "Source-explicit keys beneath bananas read. Two empty-looking mugs identifiable, but reversal and wholly empty condition not established; source-specific second behavior recognition null. No added recipe bottle/spy prop.",
+    "world": "Historic near-black timber room, one remaining right lamp, left third quiet; table still glossy amber with dense grain, ice/glass texture dense.",
+    "issues": [
+      "Full448px and recogn447px group still exceeds~389px moving-phone target; no motion/phone acceptance.",
+      "Specific source behavior of reversed empty mugs not convincingly rendered; recognition null for turnedEmptyMugs.",
+      "Amber glossy dense-grain tabletop and crystalline wet ice/dense fizz held.",
+      "Liquid stronger gold than source pale-gold estimate under warm light; appearance watch.",
+      "Attachment rear closure/friction/load, upper gap and contact depth uncertain.",
+      "Small writable48px tag axis; actual name/glyph fit untested, no physical-paper inflation.",
+      "No JPEG, browser, authored-copy, build or final acceptance."
+    ]
+  },
+  "measurements": {
+    "pairing": "jester-magician",
+    "pour": "The Kind You'd Want",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-6dd8531c-93ee-42ff-958c-ac06285c97bb.png",
+    "sourceSha256": "738888b8ef651b33726c2314358e8352f5b4599a60fb43fd613c3c41260c71b2",
+    "specSha256": "3ce67214f49a9e03f9d5fded29ed434c347ad55ac0e85d7af06da1780e50bd79",
+    "roomSha256": "c64e078f095d05dac035990dddac103fec9a3a181e44d2b2eb4463737a2c3e8d",
+    "masterSha256": "5bcf9896dc51eff41d63ab69fef78594bb246cb6f91c7cde47e03519c7df41fd",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      910,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1220,
+      "cy": 628,
+      "w": 48,
+      "angle": 65
+    },
+    "glass": {
+      "x": 1126,
+      "y": 515
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1042,
+        "y0": 357,
+        "x1": 1206,
+        "y1": 660
+      },
+      "paper": {
+        "x0": 1191,
+        "y0": 586,
+        "x1": 1247,
+        "y1": 662
+      },
+      "ice": {
+        "x0": 1049,
+        "y0": 384,
+        "x1": 1201,
+        "y1": 605
+      },
+      "lemonPeel": {
+        "x0": 1102,
+        "y0": 391,
+        "x1": 1204,
+        "y1": 498
+      }
+    },
+    "personBounds": {
+      "fruitBowl": {
+        "x0": 1185,
+        "y0": 364,
+        "x1": 1448,
+        "y1": 550
+      },
+      "keyring": {
+        "x0": 1202,
+        "y0": 411,
+        "x1": 1323,
+        "y1": 460
+      },
+      "emptyMugs": {
+        "x0": 1254,
+        "y0": 236,
+        "x1": 1490,
+        "y1": 360
+      }
+    },
+    "recognitionRegions": {
+      "keysUnderBananas": {
+        "x0": 1202,
+        "y0": 364,
+        "x1": 1406,
+        "y1": 461
+      },
+      "mugPair": {
+        "x0": 1255,
+        "y0": 236,
+        "x1": 1489,
+        "y1": 359
+      },
+      "turnedEmptyMugs": null
+    },
+    "traceExtentNotes": {
+      "fruitBowl": "Full actual visible bowl/bananas included. Bowl left rear obscured by glass; unseen posterior extent unknown/null.",
+      "keyring": "Actual visible ring/key head and short blades beneath bananas; hidden key lengths under fruit unknown/null, not invented.",
+      "emptyMugs": "Two actual ceramic mugs read as household objects, open empty-looking mouths. Left handle remains visible on right-facing side/front; wallward orientation not established. Specific source behavior turnedEmptyMugs recognition null; interiors only shallow visible, empty status not unequivocal."
+    },
+    "group": {
+      "fullWidth": 448,
+      "recognitionWidth": 447,
+      "physicalServeWidthIncludingAllGarnishAndPaper": 205,
+      "physicalServeBoundsIncludingAllGarnishAndPaper": {
+        "x0": 1042,
+        "y0": 357,
+        "x1": 1247,
+        "y1": 662
+      },
+      "fullBoundsIncludingPersonsAndServe": {
+        "x0": 1042,
+        "y0": 236,
+        "x1": 1490,
+        "y1": 662
+      },
+      "recognitionBoundsIncludingGenericMugShapesNotPrankPASS": {
+        "x0": 1042,
+        "y0": 236,
+        "x1": 1489,
+        "y1": 662
+      }
+    },
+    "tagPhysics": {
+      "supportLoop": "Thin subdued brown exterior low-body front arc around y586–599 just above clear-foot transition; curves to right side, rear arc honestly occluded. Not a rim anchor.",
+      "knot": "Small visible knot near1197,589, short ends; no bow.",
+      "tether": "Very short continuous downward connector about13px reaches paper hole1203,601.",
+      "hole": "Dark actual punched hole around1203,601 visible.",
+      "gravity": "Paper below support, slopes down-right.",
+      "airgap": "Main paper face outboard from glass with a dark gap; small upper corner sits close to glass at knot.",
+      "contact": "Lower tip near1211,660 visibly meets timber; contact shadow plausible, precise depth unresolved.",
+      "uncertainty": [
+        "Rear loop closure and friction/knot load cannot be proven by still.",
+        "Upper margin overlap at knot and exact timber-contact depth remain uncertain.",
+        "Cord is quieter and thin but warm side light gives small tan highlights."
+      ],
+      "assessment": "Visible low-loop→knot→very short tether→hole→outboard paper with plausible wood contact; partial physical support evidence, not blanket physics PASS."
+    },
+    "review": {
+      "recipe": "One ordinary straight-sided ice-filled everyday tumbler, clear golden fizzy drink, ONE lemon peel strip INSIDE, no head/cloud/rim garnish. Actual glass303px meets size range. Gold is stronger than pale-gold estimate, dense fine fizz/etched ice remain appearance/material holds.",
+      "personality": "Source-explicit keys beneath bananas read. Two empty-looking mugs identifiable, but reversal and wholly empty condition not established; source-specific second behavior recognition null. No added recipe bottle/spy prop.",
+      "world": "Historic near-black timber room, one remaining right lamp, left third quiet; table still glossy amber with dense grain, ice/glass texture dense.",
+      "issues": [
+        "Full448px and recogn447px group still exceeds~389px moving-phone target; no motion/phone acceptance.",
+        "Specific source behavior of reversed empty mugs not convincingly rendered; recognition null for turnedEmptyMugs.",
+        "Amber glossy dense-grain tabletop and crystalline wet ice/dense fizz held.",
+        "Liquid stronger gold than source pale-gold estimate under warm light; appearance watch.",
+        "Attachment rear closure/friction/load, upper gap and contact depth uncertain.",
+        "Small writable48px tag axis; actual name/glyph fit untested, no physical-paper inflation.",
+        "No JPEG, browser, authored-copy, build or final acceptance."
+      ]
+    },
+    "sourceRefresh": {
+      "previousSourceSha256": "896af7a4eb5de91449e7e404ab965301559fa98d7be1ef77361471d9d3805599",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** Everyone calls it trouble. Only you know the rules.",
+        "+ - **tagline:** Your mischief makes grown-ups feel like they're allowed to play."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1400.956937799043,
+        "cy": 721.531914893617,
+        "w": 55.119617224880386,
+        "angle": 65.01166807041008
+      },
+      "glass": {
+        "x": 1293.0143540669858,
+        "y": 591.7021276595744
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 395.6695156695157,
+        "cy": 801.7021276595744,
+        "w": 61.264957264957275,
+        "angle": 65.004168338311
+      },
+      "glass": {
+        "x": 275.69230769230774,
+        "y": 657.4468085106383
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/jester-magician/portrait.jpg",
+    "wide": "/personas/jester-magician/wide.jpg",
+    "wideTag": {
+      "cx": 0.7296650717703349,
+      "cy": 0.6680851063829787,
+      "w": 0.028708133971291867,
+      "angle": 65.01166807041008
+    },
+    "wideGlass": {
+      "x": 0.6734449760765551,
+      "y": 0.5478723404255319
+    },
+    "tag": {
+      "cx": 0.4415954415954416,
+      "cy": 0.6680851063829787,
+      "w": 0.06837606837606838,
+      "angle": 65.004168338311
+    },
+    "glass": {
+      "x": 0.3076923076923077,
+      "y": 0.5478723404255319
+    }
+  },
+  "hashes": {
+    "master": "5bcf9896dc51eff41d63ab69fef78594bb246cb6f91c7cde47e03519c7df41fd",
+    "wide": "be1628d729a198f9737301095404ba8441eb27cf85cf780831250da2cc1c6d12",
+    "portrait": "5758b39f14547da89c66a6cec5b8060dabe3ac655a89a95c52532731c02d98c5"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1196.5550239234449,
+          "y0": 410.17021276595744,
+          "x1": 1384.8803827751196,
+          "y1": 758.2978723404256
+        },
+        "paper": {
+          "x0": 1367.6555023923445,
+          "y0": 673.2765957446808,
+          "x1": 1431.9617224880383,
+          "y1": 760.595744680851
+        },
+        "ice": {
+          "x0": 1204.5933014354066,
+          "y0": 441.1914893617021,
+          "x1": 1379.1387559808613,
+          "y1": 695.1063829787233
+        },
+        "lemonPeel": {
+          "x0": 1265.4545454545455,
+          "y0": 449.2340425531915,
+          "x1": 1382.5837320574165,
+          "y1": 572.1702127659574
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 917.1291866028707,
+          "y0": 341.8085106382979,
+          "x1": 1074.0669856459328,
+          "y1": 631.9148936170213
+        },
+        "paper": {
+          "x0": 1059.7129186602872,
+          "y0": 561.063829787234,
+          "x1": 1113.3014354066986,
+          "y1": 633.8297872340426
+        },
+        "ice": {
+          "x0": 923.8277511961721,
+          "y0": 367.6595744680851,
+          "x1": 1069.2822966507176,
+          "y1": 579.2553191489361
+        },
+        "lemonPeel": {
+          "x0": 974.5454545454545,
+          "y0": 374.3617021276596,
+          "x1": 1072.153110047847,
+          "y1": 476.8085106382979
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1276.3253588516745,
+          "y0": 384.1548936170213,
+          "x1": 1477.2057416267942,
+          "y1": 755.4910638297872
+        },
+        "paper": {
+          "x0": 1458.8325358851675,
+          "y0": 664.8017021276595,
+          "x1": 1527.4258373205741,
+          "y1": 757.9421276595745
+        },
+        "ice": {
+          "x0": 1284.8995215311004,
+          "y0": 417.2442553191489,
+          "x1": 1471.0813397129186,
+          "y1": 688.0868085106382
+        },
+        "lemonPeel": {
+          "x0": 1349.8181818181818,
+          "y0": 425.8229787234043,
+          "x1": 1474.755980861244,
+          "y1": 556.9548936170213
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2143.827751196172,
+          "y0": 507.1882978723404,
+          "x1": 2481.244019138756,
+          "y1": 1130.9170212765957
+        },
+        "paper": {
+          "x0": 2450.3827751196172,
+          "y0": 978.5872340425531,
+          "x1": 2565.598086124402,
+          "y1": 1135.0340425531913
+        },
+        "ice": {
+          "x0": 2158.2296650717703,
+          "y0": 562.7680851063828,
+          "x1": 2470.956937799043,
+          "y1": 1017.6989361702126
+        },
+        "lemonPeel": {
+          "x0": 2267.272727272727,
+          "y0": 577.1776595744681,
+          "x1": 2477.129186602871,
+          "y1": 797.4382978723404
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3076923076923077,
+        "y": 0.5478723404255319
+      },
+      "bounds": {
+        "glass": {
+          "x0": 44.59304843304842,
+          "y0": 320.54042553191493,
+          "x1": 191.81614434947772,
+          "y1": 592.5957446808511
+        },
+        "paper": {
+          "x0": 178.3506172839506,
+          "y0": 526.1531914893617,
+          "x1": 228.62191832858502,
+          "y1": 594.391489361702
+        },
+        "ice": {
+          "x0": 50.87696106362772,
+          "y0": 344.78297872340426,
+          "x1": 187.3276353276354,
+          "y1": 543.2127659574468
+        },
+        "lemonPeel": {
+          "x0": 98.4551566951567,
+          "y0": 351.06808510638297,
+          "x1": 190.0207407407408,
+          "y1": 447.14042553191496
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3076923076923077,
+        "y": 0.5478723404255319
+      },
+      "bounds": {
+        "glass": {
+          "x0": 49.03840455840455,
+          "y0": 353.96170212765963,
+          "x1": 211.61177587844253,
+          "y1": 654.3829787234043
+        },
+        "paper": {
+          "x0": 196.74226020892684,
+          "y0": 581.0127659574468,
+          "x1": 252.25511870845202,
+          "y1": 656.3659574468085
+        },
+        "ice": {
+          "x0": 55.977511870845206,
+          "y0": 380.731914893617,
+          "x1": 206.65527065527067,
+          "y1": 599.8510638297872
+        },
+        "lemonPeel": {
+          "x0": 108.51646723646726,
+          "y0": 387.67234042553196,
+          "x1": 209.62917378917376,
+          "y1": 493.7617021276596
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3076923076923077,
+        "y": 0.5478723404255319
+      },
+      "bounds": {
+        "glass": {
+          "x0": 47.713732193732184,
+          "y0": 215.71914893617023,
+          "x1": 146.79278252611584,
+          "y1": 398.8085106382979
+        },
+        "paper": {
+          "x0": 137.73067426400758,
+          "y0": 354.09361702127654,
+          "x1": 171.56254510921178,
+          "y1": 400.0170212765957
+        },
+        "ice": {
+          "x0": 51.94271604938271,
+          "y0": 232.03404255319148,
+          "x1": 143.7720797720798,
+          "y1": 365.57446808510633
+        },
+        "lemonPeel": {
+          "x0": 83.96216524216526,
+          "y0": 236.26382978723404,
+          "x1": 145.5845014245014,
+          "y1": 300.91914893617025
+        }
+      }
+    }
+  ]
+}

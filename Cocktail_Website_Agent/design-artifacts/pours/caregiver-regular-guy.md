@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-30 (batch caregiver)
 ## Cocktail
 
 - **name:** Everybody's
-- **tagline:** Everyone gets the same you. That's the whole point.
+- **tagline:** You make strangers feel as welcome as old friends.
 - **glassware:** a footed glass goblet, about 180 ml, warmed with hot water first (or any heatproof stemmed glass or small handled toddy glass of about that size)
 - **contains:** `["dairy", "gluten"]`
 

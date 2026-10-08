@@ -1,0 +1,3 @@
+# Original review v1 — The Kind You'd Want
+
+Native1672x941 inspected/copied unchanged. Oneclear goldenicefilledplainstraightglass561pxtall, ONElemonpeeldroppedINSIDE/nofoam/cloud. Densebubbles/etchedice held; colorstronggoldunderamberlightnotunequivocalpalegold. Keysunderbananas readsourcehabit, but leftmughandlefronts camera and interiorsnotprovenempty; reversedemptytrace recognitionNULL. Broad776pxgroup/proposedportraitclipsbowl/movingphoneheld. Thinbrownexteriorlowbodyarc→smallknot→shortdownhole→outboardpaperwithwoodtipcontact visuallyplausible; rearclosure/friction/load stillunknown. Smallblanklabelnotpostcard, namefituntested. Glossyambertable/twopracticalslamps held. Solecorrection running, no furtherloop/export/browser/shared writes.

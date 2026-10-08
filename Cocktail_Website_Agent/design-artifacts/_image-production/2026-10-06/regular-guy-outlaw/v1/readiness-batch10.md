@@ -1,0 +1,11 @@
+# Just This Once — batch10 pre-generation readiness
+
+Full current built-in imagegen skill/prompting/sample references, persona-image-system, application DESIGN, calibration-continuation, pilot checkpoint and applied decisions read this turn before generation. Actual six house pilot JPEGs inspected full-size; current Rent-Free originals inspected. Full201-line dossier/spec and365-line closed room read through EOF. Fresh own stage/public pair absent.
+
+Current dossier SHA25619609563bfc42c6987ede3ba8d167c619a42e39cbdc3202cdd6be175c7198ee3; spec5569691b6eab1334f370265ae48f653e88ca08024573a9a0b41a925cbd326ac7; room14876eeec5d95e02b5a664382d975272918eb712b18a3b4be3da78b2ecd5683a.
+
+Settled individual large plain500ml stemmed wine glass, ice right to top.50ml Plymouth41.2%/22.5ml fresh lemon/22.5ml1:1 simple shaken hard5seconds with ice, strained onto serving ice;90ml cold brut Champagne poured slowly, lifted once with spoon. One strip of YELLOW lemon peel expressed then dropped in, curling among ice. Pale straw slightly hazy from lemon, fine bubbles, no foam pile/rim garnish/flute. Rest of bottle poured for table remains exact source method but omitted from single finished cocktail scene. Room closed/all owners signed/no open objections; stale historical FAIL text resolved by current closed room. Draft/tagline not a physical block.
+
+Personality: whoYouAre explicitly late closed kitchen, make cook laugh, chips for six; rules bend for everyone came with. Trace1 ordinary partly open unprinted chips parcel is direct habit evidence. Trace2 six full-size wooden chip forks in sharing paper band is plausible inferred sharing evidence, not literally specified possessions. These are two recognition regions of SAME habit, not two independent biographical claims. Cheek/code/remembered fondness remain an inferential image limitation.
+
+Older impossible bubble above rim removed; burnt-orange lemon corrected to actual yellow citrus. Empty glasses/bottle/invoice/red foil/linen omitted in favour of human habit evidence, no serving method changed. Small real tied label narrower than bowl; stem-wrap/knot/downward tether/hole/gravity must be inspected, no automatic physics PASS. Full proposed portrait is not moving-phone/browser acceptance. Call3 of max4 batch; at most sole focused correction available.

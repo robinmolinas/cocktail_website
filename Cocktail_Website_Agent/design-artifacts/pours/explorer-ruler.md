@@ -13,7 +13,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 ## Cocktail
 
 - **name:** Far Enough
-- **tagline:** You'll take them anywhere. You'll bring every one of them back.
+- **tagline:** People go further with you because they trust you to bring them home.
 - **glassware:** a heavy double tumbler, one large clear cube
 - **contains:** `[]`
 

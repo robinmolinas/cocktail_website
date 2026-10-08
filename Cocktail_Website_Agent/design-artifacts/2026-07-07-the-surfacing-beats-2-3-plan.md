@@ -1,3 +1,5 @@
+> **Historical design record — reviewed 8 October 2026.** This dated plan/review remains evidence of its iteration. The current reveal is TheReading; use current image rules and accepted later decisions for new work. Current direction: [experience specification](2026-07-08-experience-master-spec.md).
+
 # The Surfacing — Beats 2–3 Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.

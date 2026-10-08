@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-28 (batch caregiver)
 ## Cocktail
 
 - **name:** Standing By
-- **tagline:** You've seen them at their worst. You're still here.
+- **tagline:** People don't have to be at their best to be loved by you.
 - **glassware:** small wine glass, chilled, no ice
 - **contains:** `[]`
 
@@ -176,7 +176,7 @@ Grepped against the registry: no clash of openings.
 Wren's title-block notes:
 
 **name (candidates; Tomás keeps the list):** Standing By (pick) · Just How It Sounded · Four Things Waiting
-**tagline:** *You've seen them at their worst. You're still here.* (pick) · alt: *You understand them. That isn't the same as agreeing.*
+**tagline:** *People don't have to be at their best to be loved by you.* (pick) · alt: *You understand them. That isn't the same as agreeing.*
 **epigraph:** *Mark Twain wrote home for four things to be waiting. Three are in this glass.* (15 words; Hester's A1 fix, trimmed under the 16-word lint; "In 1874" moves to y1, where it already is.)
 
 ### Open items

@@ -1,0 +1,162 @@
+{
+  "pairing": "jester-innocent",
+  "pour": "Off the Tour",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-3b924fc1-f139-494b-a1a5-57992a0094c2.png",
+  "sourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+  "specSha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+  "roomSha256": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d",
+  "masterSha256": "8d3bd57c1476c8ef5af81eebc7f2c3793937624f70d6554c0ba983f02ac7f194",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    790,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1225,
+    "cy": 768,
+    "w": 51,
+    "angle": 66
+  },
+  "glass": {
+    "x": 1125,
+    "y": 616
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1044,
+      "y0": 423,
+      "x1": 1205,
+      "y1": 811
+    },
+    "paper": {
+      "x0": 1190,
+      "y0": 721,
+      "x1": 1262,
+      "y1": 814
+    },
+    "ice": {
+      "x0": 1048,
+      "y0": 370,
+      "x1": 1204,
+      "y1": 773
+    },
+    "swizzle": {
+      "x0": 1044,
+      "y0": 304,
+      "x1": 1070,
+      "y1": 443
+    }
+  },
+  "personBounds": {
+    "deckchair": {
+      "x0": 648,
+      "y0": 207,
+      "x1": 1488,
+      "y1": 628
+    },
+    "sachet": {
+      "x0": 835,
+      "y0": 658,
+      "x1": 1014,
+      "y1": 722
+    }
+  },
+  "recognitionRegions": {
+    "deckchair": {
+      "x0": 677,
+      "y0": 207,
+      "x1": 1330,
+      "y1": 623
+    },
+    "sachet": {
+      "x0": 835,
+      "y0": 658,
+      "x1": 1014,
+      "y1": 722
+    },
+    "swizzle": {
+      "x0": 1044,
+      "y0": 304,
+      "x1": 1070,
+      "y1": 443
+    },
+    "ice": {
+      "x0": 1048,
+      "y0": 370,
+      "x1": 1204,
+      "y1": 773
+    }
+  },
+  "traceExtentNotes": {
+    "deckchair": "Visible bounds only; hidden lower frame/posterior load unknown. Full-size ordinary inference supported by room.",
+    "sachet": "Torn sachet and detached corner recognizable, not a historical artifact.",
+    "ice": "Angular mound visible; frosted body obscures individual submerged chip shape.",
+    "swizzle": "Full protruding stick included; underwater prongs hidden unknown."
+  },
+  "unknownExtents": {
+  "swizzleUnderwaterProngs": null,
+  "deckchairHiddenLowerFrame": null,
+  "deckchairPosterior": null,
+  "submergedIceChipShape": null,
+  "tagPosteriorSupport": null
+},
+  "group": {
+    "fullWidth": 840,
+    "recognitionWidth": 653,
+    "physicalServeBoundsIncludingAllPhysicalObjects": {
+      "x0": 1044,
+      "y0": 304,
+      "x1": 1262,
+      "y1": 814
+    },
+    "fullBounds": {
+      "x0": 648,
+      "y0": 207,
+      "x1": 1488,
+      "y1": 814
+    },
+    "recognitionBounds": {
+      "x0": 677,
+      "y0": 207,
+      "x1": 1330,
+      "y1": 814
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Subdued thin exterior lowbody front arc visible1046,710 to1194,719, sidearc occludes.",
+    "knot": "Tiny knot1198,719.",
+    "tether": "Very short downward doubledtether to1209,735.",
+    "hole": "Actual punchedhole1209,736.",
+    "gravity": "Paper below knot, leaning slightly outward.",
+    "airgap": "Most paper outboard clear of glass; top edge proximity uncertain.",
+    "contact": "Bottom814 reaches timber, plausible contact/shadow, exactload unknown.",
+    "uncertainty": "Posteriorloop hidden, no all-angle suspension proof.",
+    "assessment": "Discernible low loop/knot/tether/hole, small paper not postcard; candid uncertainty."
+  },
+  "review": {
+    "recipe": "Frosted pale faintgreen swizzle, red bitters/angular mound and woodenstick retained/no straw/no garnish. Body individual chips concealed by frosted surface; not proved throughout.",
+    "personality": "Full-size deckchair frame/stripes and torn sachet/corner readable ordinary source-inferred habit traces.",
+    "world": "Dark private house one practical; table flatter thanv1 but stillwarm amber sheen.",
+    "issues": [
+      "Glass388px exceeds330 target; full physicalserve top304 foot814",
+      "Full840/recognition653px exceeds~389 movingphone",
+      "702portrait clips chair left; not PASS",
+      "Submerged chips shape unproved through frost",
+      "Table warm amber sheen/material hold",
+      "Tag name axis51px glyphfit untested",
+      "No export/browser/acceptance"
+    ]
+  }
+}

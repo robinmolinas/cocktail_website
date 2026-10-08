@@ -1,0 +1,172 @@
+{
+  "pairing": "jester-explorer",
+  "pour": "Unrehearsed",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-f748bfda-8860-4401-bd64-41a1c053c14e.png",
+  "masterDimensions": [
+    1602,
+    981
+  ],
+  "masterSha256": "02cc231925337af8c13c1a4e59f10356dfecb2296949f2a96e1ee084624d2d4f",
+  "sourceSha256": "fa2a7c65465e2928c7ab6e6eca17bfac3b84c04e61b3c5ea25d37ff063c44e69",
+  "specSha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67",
+  "roomSha256": "fb2cc7baf81948067a02af2f3b79d065e4f6835de34a9c6e01993ce3fd67cc2b",
+  "wideCrop": [
+    1,
+    40,
+    1600,
+    900
+  ],
+  "portraitCrop": [
+    730,
+    40,
+    672,
+    900
+  ],
+  "tag": {
+    "cx": 1070,
+    "cy": 695,
+    "w": 100,
+    "angle": 55
+  },
+  "glass": {
+    "x": 909,
+    "y": 517
+  },
+  "bounds": {
+    "glass": {
+      "x0": 751,
+      "y0": 324,
+      "x1": 1067,
+      "y1": 705
+    },
+    "paper": {
+      "x0": 1011,
+      "y0": 639,
+      "x1": 1134,
+      "y1": 738
+    },
+    "speechSheet": {
+      "x0": 832,
+      "y0": 281,
+      "x1": 1386,
+      "y1": 584
+    },
+    "envelope": {
+      "x0": 1039,
+      "y0": 482,
+      "x1": 1448,
+      "y1": 654
+    },
+    "spoon": {
+      "x0": 635,
+      "y0": 455,
+      "x1": 760,
+      "y1": 583
+    },
+    "physicalGarnish": {
+      "x0": 780,
+      "y0": 519,
+      "x1": 977,
+      "y1": 620
+    },
+    "ice": {
+      "x0": 798,
+      "y0": 392,
+      "x1": 1037,
+      "y1": 601
+    }
+  },
+  "physicalGarnishBounds": {
+    "x0": 780,
+    "y0": 519,
+    "x1": 977,
+    "y1": 620
+  },
+  "iceBounds": {
+    "x0": 798,
+    "y0": 392,
+    "x1": 1037,
+    "y1": 601
+  },
+  "hiddenExtents": {
+    "ice": null,
+    "speechSheet": null,
+    "envelope": null,
+    "spoon": null
+  },
+  "recognitionRegions": {
+    "speechSheet": {
+      "bounds": {
+        "x0": 832,
+        "y0": 281,
+        "x1": 1386,
+        "y1": 584
+      },
+      "reason": "Root actual native review: whole visible roll/sheet silhouette, not anonymous spiral alone. Glass hides part of middle; unseen continuation/length unknown."
+    },
+    "envelope": {
+      "bounds": {
+        "x0": 1039,
+        "y0": 482,
+        "x1": 1448,
+        "y1": 654
+      },
+      "reason": "Root actual native review: full visible opened envelope/flap projection, not cropped edge; roll/glass hide part, unknown extent remains null. Birthday context inferred."
+    }
+  },
+  "essentialObjectUnion": {
+    "x0": 635,
+    "y0": 281,
+    "x1": 1448,
+    "y1": 738
+  },
+  "supportingObjectUnion": {
+    "x0": 635,
+    "y0": 281,
+    "x1": 1448,
+    "y1": 738
+  },
+  "objectVisibility": {
+    "speechSheet": "Full visible outer projection; overlap behind glass hides center, unseen extent unknown.",
+    "envelope": "Visible flap/body, portions under roll/glass unknown.",
+    "ice": "Curved concave walls partly visible; underwater/rear fragments obscured, count/hollow history uncertain.",
+    "physicalGarnish": "ONE broad orange peel inside drink; concealed end unknown."
+  },
+  "tagPhysics": {
+    "mechanism": "Low exterior body wrap below liquid at clear foot, front arc follows glass and disappears at sides.",
+    "knot": "Near-right loaded knot visible; strand crossings tiny.",
+    "tetherAndHole": "Downward short tether goes through punched hole, but surplus tails remain conspicuous.",
+    "gravity": "Small paper descends outboard from knot.",
+    "paperSeparationOrContact": "Lower paper rests against timber with visible contact shadow, not glued glass.",
+    "uncertainties": [
+      "Back-side loop/load/friction not visible.",
+      "Long untrimmed tails violate latest quiet-cord refinement.",
+      "Tiny knot crossing uncertain."
+    ],
+    "status": "Visible plausible support chain; quietness/independent physics review held, no PASS."
+  },
+  "review": {
+    "recipe": "Final closed r6/specv3 split base45rye15Zacapa23/10demerara/2Angostura/20water. After crack clear deep amber around broad cloudy curved shell-wall fragments,ONE expressed then dropped orange peel. Concave right fragment visible; complete former hollow cup not conclusively recognizable.",
+    "personality": "Long blank speech sheet explicit birthday opener; opened birthday-card envelope ordinary contextual inference, not explicit source object. Spoon is method evidence only, never second personality trace.",
+    "world": "Neutral timber room but amber-gloss table highlights and dense crystalline ice remain held.",
+    "issues": [
+      "Shell identity only partial, material/recipeappearance watch not cleared.",
+      "Glass larger than300px prompt.",
+      "Long rolled paper/envelope remain spread; full group exceeds389px phone, portrait misses full supporting objects.",
+      "Cord tails remain long.",
+      "Small paper real-name fit pending.",
+      "No browser/export/phone/geometry/final acceptance."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** Anyone can get the laugh. You're after the second before it.",
+      "+ - **tagline:** Your favourite laugh is the one nobody saw coming.",
+      "- **tagline:** Anyone can get the laugh. You're after the second before it.",
+      "+ **tagline:** Your favourite laugh is the one nobody saw coming."
+    ]
+  }
+}

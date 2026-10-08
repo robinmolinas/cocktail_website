@@ -1,0 +1,48 @@
+{
+  "pairing": "jester-lover",
+  "pour": "I'll Tell You Later",
+  "version": "v4",
+  "workflow": "Root-authorised bounded final correction round: wide framing + dedicated compact portrait, no retries",
+  "tool": "built-in image_gen",
+  "calls": 2,
+  "assets": {
+    "wide": {
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v4/wide-master.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "50810efb38b3cdaec3c56d36c9334326cf457a27384e0e15742891249984e8aa",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v4/wide-prompt.txt",
+      "promptSha256": "162bfa13f9fa431be2311537e4c135e8f70f5262878ce77d2684231578644a9c",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-aec976d2-d138-4809-b007-5282a2648a30.png",
+      "generatedOriginalSha256": "50810efb38b3cdaec3c56d36c9334326cf457a27384e0e15742891249984e8aa",
+      "referencedImagePaths": [
+        "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v3/wide-master.png"
+      ],
+      "measurements": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v4/wide-measurements.json"
+    },
+    "portrait": {
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v4/portrait-master.png",
+      "width": 1084,
+      "height": 1451,
+      "sha256": "e8a452193a44a1c50e60d254168d5be55c8a6a7abaf6432ffab90b4601e909dc",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v4/portrait-prompt.txt",
+      "promptSha256": "31085119834b18b1b84464b45ea67cedbe4154f47ce90ce6b9e6c284494e074f",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-d54b9f00-28d0-4b3b-a05b-7c35dce89b2f.png",
+      "generatedOriginalSha256": "e8a452193a44a1c50e60d254168d5be55c8a6a7abaf6432ffab90b4601e909dc",
+      "referencedImagePaths": [
+        "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v4/wide-master.png"
+      ],
+      "measurements": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v4/portrait-measurements.json"
+    }
+  },
+  "sourceFingerprints": {
+    "sourceSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+    "specSha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+    "roomSha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735"
+  },
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "preflight": "Complete current dossier/spec/closed room reread before each call; recovered truncated chunks before portrait; house controls viewed. Readiness persisted before wide. Both current sources unchanged.",
+  "preserve": "Exact native cp-n PNG copies; generated originals and old versions retained",
+  "status": "held candidates; no export/integration/name/mobile/browser acceptance",
+  "owner": "stirred_serves"
+}

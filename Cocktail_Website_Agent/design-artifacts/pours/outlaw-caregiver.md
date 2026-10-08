@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 ## Cocktail
 
 - **name:** In One Piece
-- **tagline:** You never need to raise your voice. Everyone knows you could.
+- **tagline:** You make people feel safe without making them feel small.
 - **glassware:** a tall glass, filled with ice
 - **contains:** `["spice"]`
 
@@ -175,7 +175,7 @@ In One Piece (Tomás; the room's pick, all three, r5–r6). Nothing Stronger (Wr
 Wren's title-block notes:
 
 **name (pick):** In One Piece
-**tagline:** You never need to raise your voice. Everyone knows you could.
+**tagline:** You make people feel safe without making them feel small.
 **epigraph:** *In honour of a night when the bar could pour only soft drinks.*
 
 ### Open items

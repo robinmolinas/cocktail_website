@@ -1,0 +1,31 @@
+{
+  "id": "whos-in-crushed-ice-v4",
+  "date": "2026-10-07",
+  "pairing": "ruler-jester",
+  "userRequest": "Correct nearly spherical AI-looking ice, then generate last ten.",
+  "selectedVersion": "v4",
+  "previousVersion": "v2",
+  "preservedUnselectedVersion": "v3",
+  "calls": 2,
+  "scope": "Only ice morphology, recipe/tag/person/scene unchanged",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v4/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-0f7cd4b5-a6a8-4a4b-9937-bc8af63f9e62.png",
+  "masterSha256": "73179546543f8e2e6fb1e2b928a52785376a724ca2e9149d86791a9ee2d532bc",
+  "sourceSha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8",
+  "specSha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683",
+  "roomSha256": "c82c3ded462b4bef619578db493c7edefc8c7ff89cdceffe3f555f26d072ce11",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "measurements": "ruler-jester/v4/measurements.json",
+  "rootReview": "ruler-jester/v4/root-master-review.md",
+  "finding": "Flatter asymmetric chip faces and fewer perfect bead silhouettes than v2/v3; rounded scallops and uniform gloss persist. Selected improvement, realism WATCH/HOLD, not fully natural/fixed/accepted.",
+  "rootActualOriginalViewed": true,
+  "wideExported": false,
+  "portraitExported": false,
+  "browser": "deferred-by-user",
+  "accepted": false,
+  "integrated": false,
+  "liveAssetsChanged": false
+}

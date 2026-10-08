@@ -1,0 +1,31 @@
+{
+  "pairing": "hero-regular-guy",
+  "pour": "Anyone Would Have",
+  "primaryCallCount": 2,
+  "correctionCallCount": 0,
+  "sourceEvidence": {
+    "dossier": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/hero-regular-guy.md",
+    "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-regular-guy.json",
+    "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-regular-guy.md",
+    "dossierSha256": null,
+    "specSha256": null,
+    "roomSha256": null,
+    "fingerprintStatus": "Not executed per batch restrictions; current full text read, closed room r7 and current D1 classification evidence."
+  },
+  "hashStatus": "No fresh hash execution authorized; all SHA values intentionally null",
+  "wide": {
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-6e8e8d06-4bac-4c1e-a684-8d8d95cabee2.png",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/wide-master.png",
+    "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/wide-prompt.txt",
+    "copy": "Exact nonoverwrite cp -n"
+  },
+  "portrait": {
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-36cf60f2-3b62-4437-a0d3-1fbf709f67e7.png",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/portrait-master.png",
+    "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/portrait-prompt.txt",
+    "reference": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/wide-master.png",
+    "copy": "Exact nonoverwrite cp -n"
+  },
+  "dimensions": "Displayed original-size coordinate canvases only; header not verified.",
+  "integration": "Root only; no exports/transforms/public/runtime/queue changes."
+}

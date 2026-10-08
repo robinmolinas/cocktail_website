@@ -1,0 +1,356 @@
+{
+  "pairing": "magician-explorer",
+  "pour": "One More Adjustment",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "bcb378a801c7b0d2605662aabc8618d8c339b3f5d77aa27d45f98d0f5ee54668",
+  "review": {
+    "recipe": "Settled chilled coupe, clear pale-straw still cocktail, single pale yellow lemon strip dropped inside; no serving ice or foam. Bowl chill haze is source-brief compatible but speckle is a visual risk.",
+    "personality": "Two ordinary full-size shelf-adjustment tools inferred from explicit whoYouAre shelf: hand plane and sanding block. Both recognisable. No notebook/alchemy/copper props.",
+    "world": "Historic private wood room, neutral dark left. Table mostly flat but broad warm glossy highlights remain; no etched glass.",
+    "issues": [
+      "Actual edited raster is 1602x981, not requested 16:9; proposed wide crop is 1600x900.",
+      "Recognisable union 464px exceeds moving-phone breathing window; full portrait retention is not phone PASS.",
+      "Usable blank tag axis about 140px, below requested 170–200px.",
+      "Fine bowl chill speckle/haze persists; right table remains warm/glossy. No additional correction allowed."
+    ]
+  },
+  "measurements": {
+    "pairing": "magician-explorer",
+    "pour": "One More Adjustment",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-explorer/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-a870fb6f-4c6b-474e-b71d-44ee43b5052d.png",
+    "masterDimensions": {
+      "width": 1602,
+      "height": 981
+    },
+    "sourceSha256": "bcb378a801c7b0d2605662aabc8618d8c339b3f5d77aa27d45f98d0f5ee54668",
+    "specSha256": "f171ba936d57ac7df4a7c386da9e9d472e802c1dcd80e069195894341be1729d",
+    "wideCrop": [
+      0,
+      40,
+      1600,
+      900
+    ],
+    "portraitCrop": [
+      730,
+      20,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1218,
+      "cy": 494,
+      "w": 140,
+      "angle": 15.7
+    },
+    "glass": {
+      "x": 1033,
+      "y": 385
+    },
+    "bounds": {
+      "glass": {
+        "x0": 925,
+        "y0": 321,
+        "x1": 1141,
+        "y1": 642
+      },
+      "paper": {
+        "x0": 1106,
+        "y0": 433,
+        "x1": 1306,
+        "y1": 562
+      }
+    },
+    "personalityBounds": {
+      "handPlane": {
+        "x0": 842,
+        "y0": 434,
+        "x1": 1027,
+        "y1": 608
+      },
+      "sandingBlock": {
+        "x0": 1042,
+        "y0": 523,
+        "x1": 1210,
+        "y1": 608
+      }
+    },
+    "recognitionRegions": {
+      "handPlane": {
+        "x0": 842,
+        "y0": 434,
+        "x1": 1027,
+        "y1": 608
+      },
+      "sandingBlock": {
+        "x0": 1042,
+        "y0": 523,
+        "x1": 1210,
+        "y1": 608
+      }
+    },
+    "review": {
+      "recipe": "Settled chilled coupe, clear pale-straw still cocktail, single pale yellow lemon strip dropped inside; no serving ice or foam. Bowl chill haze is source-brief compatible but speckle is a visual risk.",
+      "personality": "Two ordinary full-size shelf-adjustment tools inferred from explicit whoYouAre shelf: hand plane and sanding block. Both recognisable. No notebook/alchemy/copper props.",
+      "world": "Historic private wood room, neutral dark left. Table mostly flat but broad warm glossy highlights remain; no etched glass.",
+      "issues": [
+        "Actual edited raster is 1602x981, not requested 16:9; proposed wide crop is 1600x900.",
+        "Recognisable union 464px exceeds moving-phone breathing window; full portrait retention is not phone PASS.",
+        "Usable blank tag axis about 140px, below requested 170–200px.",
+        "Fine bowl chill speckle/haze persists; right table remains warm/glossy. No additional correction allowed."
+      ]
+    },
+    "status": "measured-master-candidate; held; not-accepted; browser-deferred",
+    "sourceRefresh": {
+      "previousSourceSha256": "c4738116a08e3c86fba9dc4c1b6884298e4bfa45f2dd75836aa40c463fd85f34",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** Nothing is ever only what it is. Not to you.",
+        "+ - **tagline:** You keep finding a better version of things other people have written off.",
+        "- **tagline:** Nothing is ever only what it is. Not to you.",
+        "+ **tagline:** You keep finding a better version of things other people have written off."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1461.6,
+        "cy": 544.8000000000001,
+        "w": 168,
+        "angle": 15.699999999999996
+      },
+      "glass": {
+        "x": 1239.6,
+        "y": 414
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 622.8603988603988,
+        "cy": 605.1063829787234,
+        "w": 178.6894586894587,
+        "angle": 15.702835413917331
+      },
+      "glass": {
+        "x": 386.7350427350427,
+        "y": 465.9574468085106
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/magician-explorer/portrait.jpg",
+    "wide": "/personas/magician-explorer/wide.jpg",
+    "wideTag": {
+      "cx": 0.76125,
+      "cy": 0.5044444444444445,
+      "w": 0.0875,
+      "angle": 15.699999999999996
+    },
+    "wideGlass": {
+      "x": 0.645625,
+      "y": 0.38333333333333336
+    },
+    "tag": {
+      "cx": 0.6951566951566952,
+      "cy": 0.5042553191489362,
+      "w": 0.19943019943019943,
+      "angle": 15.702835413917331
+    },
+    "glass": {
+      "x": 0.43162393162393164,
+      "y": 0.3882978723404255
+    }
+  },
+  "hashes": {
+    "master": "7db7095fe2561601c79f317ec709516d741ffb328f95b3a3dc81a50cf5db78ef",
+    "wide": "6b93db712a9389397c0e55a7bed1476d3c0155ac17848f4cf5df888353662c66",
+    "portrait": "b78611ec4dacc68619c497df3054f906bb1edd0fb594ef2c3275f3b4112ced9a"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1110,
+          "y0": 337.2,
+          "x1": 1369.2,
+          "y1": 722.4
+        },
+        "paper": {
+          "x0": 1327.2,
+          "y0": 471.59999999999997,
+          "x1": 1567.2,
+          "y1": 626.4
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 845,
+          "y0": 281,
+          "x1": 1061,
+          "y1": 602
+        },
+        "paper": {
+          "x0": 1026,
+          "y0": 393,
+          "x1": 1226,
+          "y1": 522
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1184,
+          "y0": 306.32,
+          "x1": 1460.48,
+          "y1": 717.1999999999999
+        },
+        "paper": {
+          "x0": 1415.68,
+          "y0": 449.67999999999995,
+          "x1": 1671.68,
+          "y1": 614.8
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1988.75,
+          "y0": 376.44999999999993,
+          "x1": 2453.15,
+          "y1": 1066.6
+        },
+        "paper": {
+          "x0": 2377.9,
+          "y0": 617.2499999999999,
+          "x1": 2807.9,
+          "y1": 894.5999999999999
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.514272261175781,
+        "y": 0.3882978723404255
+      },
+      "bounds": {
+        "glass": {
+          "x0": 51.53051168091159,
+          "y0": 270.2595744680851,
+          "x1": 245.43410142450136,
+          "y1": 558.4765957446808
+        },
+        "paper": {
+          "x0": 214.01453827160486,
+          "y0": 370.8212765957447,
+          "x1": 393.5548991452991,
+          "y1": 486.6468085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5154843404848422,
+        "y": 0.3882978723404255
+      },
+      "bounds": {
+        "glass": {
+          "x0": 56.2398541310541,
+          "y0": 298.43829787234046,
+          "x1": 270.3608797720798,
+          "y1": 616.7063829787234
+        },
+        "paper": {
+          "x0": 235.6653432098765,
+          "y0": 409.4851063829787,
+          "x1": 433.9255521367521,
+          "y1": 537.3872340425531
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.43162393162393164,
+        "y": 0.3882978723404255
+      },
+      "bounds": {
+        "glass": {
+          "x0": 72.87247863247862,
+          "y0": 181.8808510638298,
+          "x1": 203.36683760683763,
+          "y1": 375.8468085106383
+        },
+        "paper": {
+          "x0": 182.22191832858502,
+          "y0": 249.55744680851063,
+          "x1": 303.05002849002847,
+          "y1": 327.5063829787234
+        }
+      }
+    }
+  ]
+}

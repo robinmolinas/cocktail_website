@@ -1,0 +1,572 @@
+{
+  "pairing": "lover-creator",
+  "pour": "In Your Own Hand",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "699835647c6a427f3c2152ff26636205e28d0b54bb958d23b32040dced5ececa",
+  "review": {
+    "recipe": "Two deeper narrower NickNora-like complete chilledserves, hazyorangegold/noicefoamgarnish; coarseoutsidebothrims coherent, actual97mlvolume/outside-onlycleaninnerlip notproved.",
+    "personality": "Recognizable unfinishedpanel and usedbrushpalette, source-grounded ordinaryprivatework inferences; large broadprops.",
+    "world": "Timber still ambergloss/densewear; glass smootherpatches but even droplets linger.",
+    "issues": [
+      "Hero523px/second459px exceeds300 target",
+      "Two-servephysicalunion470px; full/recogn1003px not~389 movingphone",
+      "702portrait includesbothglass but clipsmakerpanel/palette, notPASS",
+      "Outside-onlysugar/actualvolume uncertain",
+      "Cordtanmultistrand longtail/diagonaltether hold",
+      "Woodambergloss/materialhold",
+      "Smallnameaxis74px untested",
+      "Private servingpilot notapproval; browser/exports deferred"
+    ]
+  },
+  "measurements": {
+    "pairing": "lover-creator",
+    "pour": "In Your Own Hand",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-creator/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-ab2149a4-0e2a-4260-bdd0-3a32eba37157.png",
+    "sourceSha256": "699835647c6a427f3c2152ff26636205e28d0b54bb958d23b32040dced5ececa",
+    "specSha256": "4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898",
+    "roomSha256": "a2743a7fa252cf33ca11ac4b66f551dcff12ea2a6e782797822eee516d4b9882",
+    "masterSha256": "b8c34402522a17bca969dd6bb817ad1558cdaf8321d602577f8b9d9013332f54",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      660,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1070,
+      "cy": 604,
+      "w": 74,
+      "angle": 66
+    },
+    "glass": {
+      "x": 1000,
+      "y": 515
+    },
+    "bounds": {
+      "glass": {
+        "x0": 858,
+        "y0": 252,
+        "x1": 1139,
+        "y1": 775
+      },
+      "paper": {
+        "x0": 1024,
+        "y0": 536,
+        "x1": 1114,
+        "y1": 663
+      },
+      "secondGlass": {
+        "x0": 669,
+        "y0": 218,
+        "x1": 917,
+        "y1": 677
+      },
+      "heroSugarRim": {
+        "x0": 858,
+        "y0": 252,
+        "x1": 1139,
+        "y1": 315
+      },
+      "secondSugarRim": {
+        "x0": 669,
+        "y0": 218,
+        "x1": 917,
+        "y1": 272
+      }
+    },
+    "personBounds": {
+      "unfinishedPanel": {
+        "x0": 902,
+        "y0": 100,
+        "x1": 1489,
+        "y1": 569
+      },
+      "brushPalette": {
+        "x0": 1100,
+        "y0": 535,
+        "x1": 1672,
+        "y1": 773
+      }
+    },
+    "recognitionRegions": {
+      "unfinishedPanel": {
+        "x0": 903,
+        "y0": 101,
+        "x1": 1489,
+        "y1": 568
+      },
+      "brushPalette": {
+        "x0": 1190,
+        "y0": 535,
+        "x1": 1672,
+        "y1": 751
+      },
+      "secondGlass": {
+        "x0": 669,
+        "y0": 218,
+        "x1": 917,
+        "y1": 677
+      },
+      "heroSugarRim": {
+        "x0": 858,
+        "y0": 252,
+        "x1": 1139,
+        "y1": 315
+      },
+      "secondSugarRim": {
+        "x0": 669,
+        "y0": 218,
+        "x1": 917,
+        "y1": 272
+      }
+    },
+    "traceExtentNotes": {
+      "unfinishedPanel": "Complete visible panel; ordinary private-work inference, no recognizable copyrighted painting/historic claim.",
+      "brushPalette": "Full visible woodpalette/brush to rasterright; offscreen right extent unknown null, no phone recognition by croppedstrip.",
+      "secondGlass": "Required second~97mlserve cannot be silently removed. Volumeunobservable."
+    },
+    "unknownExtents": {
+      "paletteBeyondRasterRight": null,
+      "brushBeyondRasterRight": null,
+      "tagPosteriorSupport": null,
+      "secondGlassVolume": null,
+      "heroGlassVolume": null
+    },
+    "group": {
+      "fullWidth": 1003,
+      "recognitionWidth": 1003,
+      "physicalServeBoundsIncludingAllPhysicalObjects": {
+        "x0": 669,
+        "y0": 218,
+        "x1": 1139,
+        "y1": 775
+      },
+      "fullBounds": {
+        "x0": 669,
+        "y0": 100,
+        "x1": 1672,
+        "y1": 775
+      },
+      "recognitionBounds": {
+        "x0": 669,
+        "y0": 101,
+        "x1": 1672,
+        "y1": 775
+      }
+    },
+    "tagPhysics": {
+      "supportLoop": "Tan stemcoil/paired turns near975–1013,y526 still morevisible thanrequested single subduedstrand.",
+      "knot": "Smallrightstemknot1011,530.",
+      "tether": "Paired curveddiagonal ~44px to1047,558, notveryshortdown.",
+      "hole": "Punchedhole1047,557.",
+      "gravity": "Paperoutboard belowknot, plausible suspensiontilt.",
+      "airgap": "Body clearly separatedoutboard ofstem.",
+      "contact": "No woodcontact, suspended.",
+      "uncertainty": "Rearloophidden, longtail~70px remains; actualloadunknown.",
+      "assessment": "Visible chain/no gluedpaper but userlessvisiblecord criterion HOLD."
+    },
+    "review": {
+      "recipe": "Two deeper narrower NickNora-like complete chilledserves, hazyorangegold/noicefoamgarnish; coarseoutsidebothrims coherent, actual97mlvolume/outside-onlycleaninnerlip notproved.",
+      "personality": "Recognizable unfinishedpanel and usedbrushpalette, source-grounded ordinaryprivatework inferences; large broadprops.",
+      "world": "Timber still ambergloss/densewear; glass smootherpatches but even droplets linger.",
+      "issues": [
+        "Hero523px/second459px exceeds300 target",
+        "Two-servephysicalunion470px; full/recogn1003px not~389 movingphone",
+        "702portrait includesbothglass but clipsmakerpanel/palette, notPASS",
+        "Outside-onlysugar/actualvolume uncertain",
+        "Cordtanmultistrand longtail/diagonaltether hold",
+        "Woodambergloss/materialhold",
+        "Smallnameaxis74px untested",
+        "Private servingpilot notapproval; browser/exports deferred"
+      ]
+    },
+    "sourceRefresh": {
+      "previousSourceSha256": "63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** People make their best things around you. So do you.",
+        "+ - **tagline:** You see something worth finishing in the things people barely dare to show.",
+        "- *People make their best things around you. So do you.*",
+        "+ *You see something worth finishing in the things people barely dare to show.*"
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1228.7081339712918,
+        "cy": 693.9574468085107,
+        "w": 84.97607655502392,
+        "angle": 66.01131919369689
+      },
+      "glass": {
+        "x": 1148.3253588516748,
+        "y": 591.7021276595744
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 523.3048433048433,
+        "cy": 771.0638297872341,
+        "w": 94.45014245014245,
+        "angle": 66.00404372269138
+      },
+      "glass": {
+        "x": 433.960113960114,
+        "y": 657.4468085106383
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/lover-creator/portrait.jpg",
+    "wide": "/personas/lover-creator/wide.jpg",
+    "wideTag": {
+      "cx": 0.6399521531100478,
+      "cy": 0.6425531914893617,
+      "w": 0.04425837320574163,
+      "angle": 66.01131919369689
+    },
+    "wideGlass": {
+      "x": 0.5980861244019139,
+      "y": 0.5478723404255319
+    },
+    "tag": {
+      "cx": 0.584045584045584,
+      "cy": 0.6425531914893617,
+      "w": 0.10541310541310542,
+      "angle": 66.00404372269138
+    },
+    "glass": {
+      "x": 0.4843304843304843,
+      "y": 0.5478723404255319
+    }
+  },
+  "hashes": {
+    "master": "b8c34402522a17bca969dd6bb817ad1558cdaf8321d602577f8b9d9013332f54",
+    "wide": "cfe311b8e497ca4ed319bc9cbe7bfcb532036952b629b4c783fd19d427d73c2f",
+    "portrait": "659207d4bc295ceeaa2bcd679bc303af12baf626b6913781d1a38d46da1b40bf"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 985.2631578947369,
+          "y0": 289.531914893617,
+          "x1": 1307.9425837320575,
+          "y1": 890.4255319148937
+        },
+        "paper": {
+          "x0": 1175.8851674641148,
+          "y0": 615.8297872340426,
+          "x1": 1279.2344497607655,
+          "y1": 761.7446808510638
+        },
+        "secondGlass": {
+          "x0": 768.2296650717703,
+          "y0": 250.46808510638297,
+          "x1": 1053.0143540669858,
+          "y1": 777.8297872340426
+        },
+        "heroSugarRim": {
+          "x0": 985.2631578947369,
+          "y0": 289.531914893617,
+          "x1": 1307.9425837320575,
+          "y1": 361.9148936170213
+        },
+        "secondSugarRim": {
+          "x0": 768.2296650717703,
+          "y0": 250.46808510638297,
+          "x1": 1053.0143540669858,
+          "y1": 312.51063829787233
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 741.0526315789474,
+          "y0": 241.27659574468086,
+          "x1": 1009.9521531100479,
+          "y1": 742.0212765957448
+        },
+        "paper": {
+          "x0": 899.9043062200957,
+          "y0": 513.1914893617022,
+          "x1": 986.0287081339711,
+          "y1": 634.7872340425532
+        },
+        "secondGlass": {
+          "x0": 560.1913875598086,
+          "y0": 208.72340425531914,
+          "x1": 797.5119617224881,
+          "y1": 648.1914893617021
+        },
+        "heroSugarRim": {
+          "x0": 741.0526315789474,
+          "y0": 241.27659574468086,
+          "x1": 1009.9521531100479,
+          "y1": 301.59574468085106
+        },
+        "secondSugarRim": {
+          "x0": 560.1913875598086,
+          "y0": 208.72340425531914,
+          "x1": 797.5119617224881,
+          "y1": 260.4255319148936
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1050.9473684210527,
+          "y0": 255.47404255319145,
+          "x1": 1395.1387559808613,
+          "y1": 896.4272340425532
+        },
+        "paper": {
+          "x0": 1254.2775119617224,
+          "y0": 603.5251063829787,
+          "x1": 1364.5167464114832,
+          "y1": 759.1676595744681
+        },
+        "secondGlass": {
+          "x0": 819.444976076555,
+          "y0": 213.80595744680852,
+          "x1": 1123.2153110047848,
+          "y1": 776.3251063829787
+        },
+        "heroSugarRim": {
+          "x0": 1050.9473684210527,
+          "y0": 255.47404255319145,
+          "x1": 1395.1387559808613,
+          "y1": 332.6825531914894
+        },
+        "secondSugarRim": {
+          "x0": 819.444976076555,
+          "y0": 213.80595744680852,
+          "x1": 1123.2153110047848,
+          "y1": 279.9846808510638
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1765.2631578947369,
+          "y0": 291.04468085106373,
+          "x1": 2343.397129186603,
+          "y1": 1367.645744680851
+        },
+        "paper": {
+          "x0": 2106.7942583732056,
+          "y0": 875.6617021276595,
+          "x1": 2291.961722488038,
+          "y1": 1137.0925531914893
+        },
+        "secondGlass": {
+          "x0": 1376.4114832535886,
+          "y0": 221.05531914893615,
+          "x1": 1886.6507177033495,
+          "y1": 1165.9117021276595
+        },
+        "heroSugarRim": {
+          "x0": 1765.2631578947369,
+          "y0": 291.04468085106373,
+          "x1": 2343.397129186603,
+          "y1": 420.73085106382973
+        },
+        "secondSugarRim": {
+          "x0": 1376.4114832535886,
+          "y0": 221.05531914893615,
+          "x1": 1886.6507177033495,
+          "y1": 332.2148936170212
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.4843304843304843,
+        "y": 0.5478723404255319
+      },
+      "bounds": {
+        "glass": {
+          "x0": 61.415232668566006,
+          "y0": 226.26382978723404,
+          "x1": 313.66943969610634,
+          "y1": 695.8510638297872
+        },
+        "paper": {
+          "x0": 210.4337321937322,
+          "y0": 481.25957446808513,
+          "x1": 291.22689458689456,
+          "y1": 595.2893617021276
+        },
+        "secondGlass": {
+          "x0": -108.25040835707505,
+          "y0": 195.73617021276596,
+          "x1": 114.37963912630579,
+          "y1": 607.859574468085
+        },
+        "heroSugarRim": {
+          "x0": 61.415232668566006,
+          "y0": 226.26382978723404,
+          "x1": 313.66943969610634,
+          "y1": 282.82978723404256
+        },
+        "secondSugarRim": {
+          "x0": -108.25040835707505,
+          "y0": 195.73617021276596,
+          "x1": 114.37963912630579,
+          "y1": 244.22127659574465
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.4843304843304843,
+        "y": 0.5478723404255319
+      },
+      "bounds": {
+        "glass": {
+          "x0": 67.4973599240266,
+          "y0": 249.8553191489362,
+          "x1": 346.0529534662868,
+          "y1": 768.404255319149
+        },
+        "paper": {
+          "x0": 232.05333333333328,
+          "y0": 531.4382978723405,
+          "x1": 321.2704273504273,
+          "y1": 657.3574468085106
+        },
+        "secondGlass": {
+          "x0": -119.85853751187084,
+          "y0": 216.14468085106387,
+          "x1": 125.9841215574549,
+          "y1": 671.2382978723405
+        },
+        "heroSugarRim": {
+          "x0": 67.4973599240266,
+          "y0": 249.8553191489362,
+          "x1": 346.0529534662868,
+          "y1": 312.3191489361702
+        },
+        "secondSugarRim": {
+          "x0": -119.85853751187084,
+          "y0": 216.14468085106387,
+          "x1": 125.9841215574549,
+          "y1": 269.68510638297874
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.4843304843304843,
+        "y": 0.5478723404255319
+      },
+      "bounds": {
+        "glass": {
+          "x0": 69.1977967711301,
+          "y0": 152.27234042553192,
+          "x1": 238.96129154795818,
+          "y1": 468.29787234042556
+        },
+        "paper": {
+          "x0": 169.48512820512818,
+          "y0": 323.8808510638298,
+          "x1": 223.85777777777776,
+          "y1": 400.6212765957447
+        },
+        "secondGlass": {
+          "x0": -44.98476733143401,
+          "y0": 131.72765957446808,
+          "x1": 104.84208926875593,
+          "y1": 409.08085106382975
+        },
+        "heroSugarRim": {
+          "x0": 69.1977967711301,
+          "y0": 152.27234042553192,
+          "x1": 238.96129154795818,
+          "y1": 190.3404255319149
+        },
+        "secondSugarRim": {
+          "x0": -44.98476733143401,
+          "y0": 131.72765957446808,
+          "x1": 104.84208926875593,
+          "y1": 164.35744680851062
+        }
+      }
+    }
+  ]
+}

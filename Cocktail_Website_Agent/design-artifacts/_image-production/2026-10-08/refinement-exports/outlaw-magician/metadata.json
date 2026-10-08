@@ -1,0 +1,764 @@
+{
+  "pairing": "outlaw-magician",
+  "pour": "For Its Own Good",
+  "status": "private-review-export; all-acceptance-gates-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+  "review": {
+    "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+    "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+    "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+    "issues": "Bag dominates, binder/sheets clipped, taken-apart action unclear, saturated liquid and rough gold wood. Fresh portrait correction produced excess closed rings; rejected."
+  },
+  "measurements": {
+    "measurementMethod": "Root manual visual estimate on actual original-size native image; coordinates approximate, tolerance 5–12px. Displayed dimensions not probed. NOT export-ready metadata.",
+    "masterSha256": "5876169bab0edaebe18646bd85ef3d31bf365d714a8632766b6709dcf587defb",
+    "sourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+    "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+    "roomSha256": null,
+    "fingerprintStatus": "Pending authorized checks; no historical hash reused.",
+    "exported": false,
+    "exportEligible": false,
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "hiddenExtents": {
+      "rearLoopClosure": null,
+      "actualKnotLoad": null,
+      "paperUnderside": null,
+      "occludedProps": null
+    },
+    "tagPhysics": {
+      "status": "Held, not physics PASS",
+      "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+    },
+    "pairing": "outlaw-magician",
+    "pour": "For Its Own Good",
+    "asset": "wide",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/wide-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-9e326681-af85-4ec4-a2c4-8de85bf29d40.png",
+    "displayedDimensions": [
+      1672,
+      941
+    ],
+    "proposedCrop": [
+      4,
+      2,
+      1664,
+      936
+    ],
+    "tag": {
+      "cx": 1255,
+      "cy": 749,
+      "w": 132,
+      "angle": 10
+    },
+    "glass": {
+      "x": 1000,
+      "y": 537
+    },
+    "bounds": {
+      "glass": {
+        "x0": 819,
+        "y0": 318,
+        "x1": 1185,
+        "y1": 757
+      },
+      "ice": {
+        "x0": 887,
+        "y0": 411,
+        "x1": 1108,
+        "y1": 619
+      },
+      "paper": {
+        "x0": 1145,
+        "y0": 682,
+        "x1": 1363,
+        "y1": 800
+      },
+      "bagVisibleOnly": {
+        "x0": 0,
+        "y0": 122,
+        "x1": 1027,
+        "y1": 583
+      },
+      "binderVisibleOnly": {
+        "x0": 1166,
+        "y0": 305,
+        "x1": 1672,
+        "y1": 683
+      },
+      "releasedSheetsVisibleOnly": {
+        "x0": 1318,
+        "y0": 452,
+        "x1": 1672,
+        "y1": 683
+      },
+      "ringMechanismVisible": {
+        "x0": 1278,
+        "y0": 421,
+        "x1": 1584,
+        "y1": 559
+      }
+    },
+    "essentialObjectUnion": [
+      0,
+      122,
+      1672,
+      800
+    ],
+    "reviewHolds": [
+      "Oversized lateral bag",
+      "Binder and sheets clipped at right",
+      "No left quiet copy field",
+      "Wood crackle/gold shine still inherited despite fresh prompt",
+      "Cube has more dense etched texture than intended",
+      "Approximately46.7%height glass",
+      "Ring-open action not completely demonstrated"
+    ],
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "exportProvenance": {
+      "batch": 15,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/wide-geometry.json",
+      "originalMeasurementSha256": "6be8377a24ecc2ec3c6f4ba7a048762a6f3c4e47ec5163b572feb240ee5fa360",
+      "previousSourceSha256": null,
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "recognitionRegions": {},
+    "wideCrop": [
+      4,
+      2,
+      1664,
+      936
+    ],
+    "portraitCrop": [
+      4,
+      2,
+      1664,
+      936
+    ],
+    "review": {
+      "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+      "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+      "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+      "issues": "Bag dominates, binder/sheets clipped, taken-apart action unclear, saturated liquid and rough gold wood. Fresh portrait correction produced excess closed rings; rejected."
+    },
+    "portraitMeasurementFile": "portrait-measurements.json"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1443.4615384615383,
+        "cy": 861.923076923077,
+        "w": 152.3076923076923,
+        "angle": 10
+      },
+      "glass": {
+        "x": 1149.2307692307693,
+        "y": 617.3076923076923
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 672,
+        "cy": 866.5263157894736,
+        "w": 90.94736842105263,
+        "angle": 10
+      },
+      "glass": {
+        "x": 487.57894736842104,
+        "y": 713.2631578947369
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/outlaw-magician/portrait.jpg",
+    "wide": "/personas/outlaw-magician/wide.jpg",
+    "wideTag": {
+      "cx": 0.7518028846153846,
+      "cy": 0.7980769230769231,
+      "w": 0.07932692307692307,
+      "angle": 10
+    },
+    "wideGlass": {
+      "x": 0.5985576923076923,
+      "y": 0.5715811965811965
+    },
+    "tag": {
+      "cx": 0.75,
+      "cy": 0.7221052631578947,
+      "w": 0.10150375939849623,
+      "angle": 10
+    },
+    "glass": {
+      "x": 0.5441729323308271,
+      "y": 0.5943859649122807
+    }
+  },
+  "hashes": {
+    "master": "5876169bab0edaebe18646bd85ef3d31bf365d714a8632766b6709dcf587defb",
+    "wide": "2d25a855428a439c66f40ef959a109c1b743b6d770ff57d5be2f730173b298b8",
+    "portrait": "83eb4203b5b7a78fa0d625a794f3ee56006adeb14fa0ed469644ba5050078479",
+    "portraitMaster": "c1b3e7571f4fc1c99f3832c9d5ed6f9cc861806563133e9ee9ddb1f32f13eb87"
+  },
+  "geometryScope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 940.3846153846154,
+          "y0": 364.61538461538464,
+          "x1": 1362.6923076923076,
+          "y1": 871.1538461538462
+        },
+        "ice": {
+          "x0": 1018.8461538461538,
+          "y0": 471.9230769230769,
+          "x1": 1273.8461538461538,
+          "y1": 711.9230769230769
+        },
+        "paper": {
+          "x0": 1316.5384615384617,
+          "y0": 784.6153846153846,
+          "x1": 1568.076923076923,
+          "y1": 920.7692307692307
+        },
+        "bagVisibleOnly": {
+          "x0": -4.615384615384616,
+          "y0": 138.46153846153845,
+          "x1": 1180.3846153846155,
+          "y1": 670.3846153846154
+        },
+        "binderVisibleOnly": {
+          "x0": 1340.7692307692307,
+          "y0": 349.61538461538464,
+          "x1": 1924.6153846153848,
+          "y1": 785.7692307692307
+        },
+        "releasedSheetsVisibleOnly": {
+          "x0": 1516.1538461538462,
+          "y0": 519.2307692307693,
+          "x1": 1924.6153846153848,
+          "y1": 785.7692307692307
+        },
+        "ringMechanismVisible": {
+          "x0": 1470,
+          "y0": 483.4615384615385,
+          "x1": 1823.076923076923,
+          "y1": 642.6923076923077
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 703.6538461538462,
+          "y0": 303.84615384615387,
+          "x1": 1055.576923076923,
+          "y1": 725.9615384615385
+        },
+        "ice": {
+          "x0": 769.0384615384615,
+          "y0": 393.2692307692308,
+          "x1": 981.5384615384614,
+          "y1": 593.2692307692307
+        },
+        "paper": {
+          "x0": 1017.1153846153848,
+          "y0": 653.8461538461538,
+          "x1": 1226.730769230769,
+          "y1": 767.3076923076923
+        },
+        "bagVisibleOnly": {
+          "x0": -83.84615384615384,
+          "y0": 115.38461538461537,
+          "x1": 903.6538461538462,
+          "y1": 558.6538461538462
+        },
+        "binderVisibleOnly": {
+          "x0": 1037.3076923076924,
+          "y0": 291.34615384615387,
+          "x1": 1523.846153846154,
+          "y1": 654.8076923076923
+        },
+        "releasedSheetsVisibleOnly": {
+          "x0": 1183.4615384615386,
+          "y0": 432.6923076923077,
+          "x1": 1523.846153846154,
+          "y1": 654.8076923076923
+        },
+        "ringMechanismVisible": {
+          "x0": 1145,
+          "y0": 402.8846153846154,
+          "x1": 1439.230769230769,
+          "y1": 535.5769230769231
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1003.0769230769231,
+          "y0": 335.56307692307695,
+          "x1": 1453.5384615384614,
+          "y1": 875.8707692307693
+        },
+        "ice": {
+          "x0": 1086.7692307692307,
+          "y0": 450.02461538461534,
+          "x1": 1358.7692307692307,
+          "y1": 706.0246153846153
+        },
+        "paper": {
+          "x0": 1404.3076923076924,
+          "y0": 783.5630769230769,
+          "x1": 1672.6153846153845,
+          "y1": 928.7938461538461
+        },
+        "bagVisibleOnly": {
+          "x0": -4.923076923076923,
+          "y0": 94.33230769230768,
+          "x1": 1259.076923076923,
+          "y1": 661.7169230769231
+        },
+        "binderVisibleOnly": {
+          "x0": 1430.1538461538462,
+          "y0": 319.56307692307695,
+          "x1": 2052.923076923077,
+          "y1": 784.7938461538461
+        },
+        "releasedSheetsVisibleOnly": {
+          "x0": 1617.2307692307693,
+          "y0": 500.4861538461538,
+          "x1": 2052.923076923077,
+          "y1": 784.7938461538461
+        },
+        "ringMechanismVisible": {
+          "x0": 1568,
+          "y0": 462.3323076923077,
+          "x1": 1944.6153846153845,
+          "y1": 632.1784615384615
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.542937062937063
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1684.8557692307693,
+          "y0": 384.5153846153846,
+          "x1": 2441.4903846153843,
+          "y1": 1292.0634615384615
+        },
+        "ice": {
+          "x0": 1825.4326923076922,
+          "y0": 576.775,
+          "x1": 2282.3076923076924,
+          "y1": 1006.775
+        },
+        "paper": {
+          "x0": 2358.798076923077,
+          "y0": 1137.0153846153844,
+          "x1": 2809.471153846154,
+          "y1": 1380.957692307692
+        },
+        "bagVisibleOnly": {
+          "x0": -8.26923076923077,
+          "y0": -20.676923076923146,
+          "x1": 2114.855769230769,
+          "y1": 932.3519230769231
+        },
+        "binderVisibleOnly": {
+          "x0": 2402.2115384615386,
+          "y0": 357.6403846153846,
+          "x1": 3448.269230769231,
+          "y1": 1139.082692307692
+        },
+        "releasedSheetsVisibleOnly": {
+          "x0": 2716.4423076923076,
+          "y0": 661.5346153846153,
+          "x1": 3448.269230769231,
+          "y1": 1139.082692307692
+        },
+        "ringMechanismVisible": {
+          "x0": 2633.75,
+          "y0": 597.4480769230769,
+          "x1": 3266.346153846154,
+          "y1": 882.7365384615383
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5441729323308271,
+        "y": 0.5943859649122807
+      },
+      "bounds": {
+        "glass": {
+          "x0": 123.38533834586462,
+          "y0": 390.31298245614033,
+          "x1": 302.8463909774436,
+          "y1": 614.1950877192982
+        },
+        "ice": {
+          "x0": 154.7762155388471,
+          "y0": 438.2877192982456,
+          "x1": 263.75586466165413,
+          "y1": 550.2287719298246
+        },
+        "paper": {
+          "x0": 283.3011278195488,
+          "y0": 575.1045614035088,
+          "x1": 385.7656892230576,
+          "y1": 632.5557894736842
+        },
+        "bagVisibleOnly": {
+          "x0": -137.2181704260652,
+          "y0": 271.8568421052631,
+          "x1": 248.94884711779446,
+          "y1": 463.1635087719298
+        },
+        "binderVisibleOnly": {
+          "x0": 189.72077694235588,
+          "y0": 353.5915789473684,
+          "x1": 505.9986716791981,
+          "y1": 563.8512280701755
+        },
+        "releasedSheetsVisibleOnly": {
+          "x0": 297.5158646616541,
+          "y0": 439.47228070175436,
+          "x1": 505.9986716791981,
+          "y1": 564.4435087719298
+        },
+        "ringMechanismVisible": {
+          "x0": 317.6534085213032,
+          "y0": 413.4119298245614,
+          "x1": 447.95516290726823,
+          "y1": 486.2624561403509
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5441729323308271,
+        "y": 0.5943859649122807
+      },
+      "bounds": {
+        "glass": {
+          "x0": 135.8890977443609,
+          "y0": 431.00912280701755,
+          "x1": 334.0617293233083,
+          "y1": 678.2343859649122
+        },
+        "ice": {
+          "x0": 170.5529573934837,
+          "y0": 483.9859649122807,
+          "x1": 290.8954135338346,
+          "y1": 607.598596491228
+        },
+        "paper": {
+          "x0": 312.4785714285714,
+          "y0": 635.0680701754386,
+          "x1": 425.62664160401005,
+          "y1": 698.5094736842105
+        },
+        "bagVisibleOnly": {
+          "x0": -151.8863408521303,
+          "y0": 300.20210526315793,
+          "x1": 274.5445363408521,
+          "y1": 511.4554385964912
+        },
+        "binderVisibleOnly": {
+          "x0": 209.14102756892234,
+          "y0": 390.45894736842104,
+          "x1": 558.3957644110277,
+          "y1": 622.641403508772
+        },
+        "releasedSheetsVisibleOnly": {
+          "x0": 328.17541353383456,
+          "y0": 485.2940350877193,
+          "x1": 558.3957644110277,
+          "y1": 623.2954385964912
+        },
+        "ringMechanismVisible": {
+          "x0": 350.4126065162907,
+          "y0": 456.51649122807015,
+          "x1": 494.30032581453645,
+          "y1": 536.9628070175439
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5441729323308271,
+        "y": 0.5943859649122807
+      },
+      "bounds": {
+        "glass": {
+          "x0": 114.34586466165413,
+          "y0": 262.67508771929823,
+          "x1": 235.12060150375945,
+          "y1": 413.34456140350875
+        },
+        "ice": {
+          "x0": 135.47147869674185,
+          "y0": 294.9614035087719,
+          "x1": 208.81323308270677,
+          "y1": 370.2961403508772
+        },
+        "paper": {
+          "x0": 221.96691729323308,
+          "y0": 387.03719298245613,
+          "x1": 290.92411027568926,
+          "y1": 425.70105263157893
+        },
+        "bagVisibleOnly": {
+          "x0": -61.03659147869675,
+          "y0": 182.9557894736842,
+          "x1": 198.848320802005,
+          "y1": 311.7024561403509
+        },
+        "binderVisibleOnly": {
+          "x0": 158.988671679198,
+          "y0": 237.9621052631579,
+          "x1": 371.83919799498756,
+          "y1": 379.4638596491228
+        },
+        "releasedSheetsVisibleOnly": {
+          "x0": 231.5332330827068,
+          "y0": 295.75859649122805,
+          "x1": 371.83919799498756,
+          "y1": 379.86245614035084
+        },
+        "ringMechanismVisible": {
+          "x0": 245.08551378446114,
+          "y0": 278.22035087719297,
+          "x1": 332.7767418546366,
+          "y1": 327.2477192982456
+        }
+      }
+    }
+  ],
+  "portraitMeasurements": {
+    "measurementMethod": "Root manual visual estimate on actual original-size native image; coordinates approximate, tolerance 5–12px. Displayed dimensions not probed. NOT export-ready metadata.",
+    "masterSha256": "c1b3e7571f4fc1c99f3832c9d5ed6f9cc861806563133e9ee9ddb1f32f13eb87",
+    "sourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+    "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+    "roomSha256": null,
+    "fingerprintStatus": "Pending authorized checks; no historical hash reused.",
+    "exported": false,
+    "exportEligible": false,
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "hiddenExtents": {
+      "rearLoopClosure": null,
+      "actualKnotLoad": null,
+      "paperUnderside": null,
+      "occludedProps": null
+    },
+    "tagPhysics": {
+      "status": "Held, not physics PASS",
+      "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+    },
+    "pairing": "outlaw-magician",
+    "pour": "For Its Own Good",
+    "asset": "portrait",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-27e9ab0f-0c11-4a01-9648-5cac5e718519.png",
+    "displayedDimensions": [
+      1086,
+      1448
+    ],
+    "proposedCrop": [
+      11,
+      11,
+      1064,
+      1425
+    ],
+    "tag": {
+      "cx": 809,
+      "cy": 1040,
+      "w": 108,
+      "angle": 10
+    },
+    "glass": {
+      "x": 590,
+      "y": 858
+    },
+    "bounds": {
+      "glass": {
+        "x0": 440,
+        "y0": 670,
+        "x1": 743,
+        "y1": 1048
+      },
+      "ice": {
+        "x0": 493,
+        "y0": 751,
+        "x1": 677,
+        "y1": 940
+      },
+      "paper": {
+        "x0": 710,
+        "y0": 982,
+        "x1": 883,
+        "y1": 1079
+      },
+      "bagVisibleOnly": {
+        "x0": 0,
+        "y0": 470,
+        "x1": 652,
+        "y1": 793
+      },
+      "binderVisibleOnly": {
+        "x0": 552,
+        "y0": 608,
+        "x1": 1086,
+        "y1": 963
+      },
+      "releasedSheetsVisibleOnly": {
+        "x0": 734,
+        "y0": 753,
+        "x1": 1086,
+        "y1": 964
+      },
+      "ringMechanismVisible": {
+        "x0": 768,
+        "y0": 709,
+        "x1": 988,
+        "y1": 832
+      }
+    },
+    "essentialObjectUnion": [
+      0,
+      470,
+      1086,
+      1079
+    ],
+    "reviewHolds": [
+      "Portrait retained landscape lateral layout; bag and binder clipped",
+      "Material roughness/gold shine",
+      "Light red-amber expectation became saturated deep amber-red",
+      "Ring action/open-gap specificity uncertain",
+      "Small side junction/hidden footloop unclear",
+      "Rejected fresh correction has closed excess binder rings, not selected",
+      "Correction allowance exhausted"
+    ],
+    "masterDimensions": {
+      "width": 1086,
+      "height": 1448
+    },
+    "exportProvenance": {
+      "batch": 15,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/portrait-geometry.json",
+      "originalMeasurementSha256": "634920b7c6c273bf22858d58bcae8d69c71e3e9bd51c9d126feb9a78d01d6932",
+      "previousSourceSha256": null,
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "recognitionRegions": {},
+    "portraitCrop": [
+      11,
+      11,
+      1064,
+      1425
+    ],
+    "wideCrop": [
+      11,
+      11,
+      1064,
+      1425
+    ],
+    "review": {
+      "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+      "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+      "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+      "issues": "Bag dominates, binder/sheets clipped, taken-apart action unclear, saturated liquid and rough gold wood. Fresh portrait correction produced excess closed rings; rejected."
+    }
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

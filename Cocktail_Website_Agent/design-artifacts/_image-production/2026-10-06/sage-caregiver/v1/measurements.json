@@ -1,0 +1,132 @@
+{
+  "pairing": "sage-caregiver",
+  "pour": "Further Than Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-caregiver/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-dbb8e206-83a9-4ddf-baf7-8a9ef5ecba91.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "e6e84e770ec3d2eb8a7592fb2a215d765302a61d0ce1c586765c5322255e6586",
+  "sourceSha256": "28566d97e3a6601310ad54ada169c8b5beb7fa5df9dcfd2e3f792948eba646e0",
+  "specSha256": "397c3f3bc87ff0e5a67da66fb0072dd8f296c7004984c0af4ebfe077015e9eb9",
+  "roomSha256": "c1ff52109d7ad2140eed28e15918c1ee0b451ca497994e480d49b42bf9098d2c",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    679,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1104,
+    "cy": 740,
+    "w": 100,
+    "angle": 102
+  },
+  "glass": {
+    "x": 1169,
+    "y": 504
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1023,
+      "y0": 229,
+      "x1": 1318,
+      "y1": 777
+    },
+    "paper": {
+      "x0": 1056,
+      "y0": 645,
+      "x1": 1179,
+      "y1": 804
+    },
+    "phone": {
+      "x0": 680,
+      "y0": 520,
+      "x1": 1040,
+      "y1": 651
+    },
+    "spectacles": {
+      "x0": 757,
+      "y0": 438,
+      "x1": 1034,
+      "y1": 558
+    },
+    "mintGarnish": {
+      "x0": 995,
+      "y0": 90,
+      "x1": 1240,
+      "y1": 300
+    },
+    "tarragonGarnish": {
+      "x0": 1164,
+      "y0": 34,
+      "x1": 1382,
+      "y1": 549
+    }
+  },
+  "recognitionRegions": {
+    "phone": {
+      "bounds": {
+        "x0": 681,
+        "y0": 535,
+        "x1": 1028,
+        "y1": 649
+      },
+      "reason": "Substantial whole visible smartphone body and blank screen with device outline/ports, not anonymous black corner."
+    },
+    "spectacles": {
+      "bounds": {
+        "x0": 762,
+        "y0": 439,
+        "x1": 1032,
+        "y1": 556
+      },
+      "reason": "Bridge/two actual lens rims and folded arms visible enough to recognize adult spectacles, right lens partly occluded by glass."
+    }
+  },
+  "objectVisibility": {
+    "phone": "Partly occluded behind glass; unseen right extent unknown, measured visible silhouette only.",
+    "spectacles": "Partly occluded by glass; unseen right arm extent unknown.",
+    "garnishes": "Both in raster; tarragon reaches y34 and is not protected in ultrawide."
+  },
+  "supportingObjectUnion": {
+    "x0": 680,
+    "y0": 34,
+    "x1": 1382,
+    "y1": 651
+  },
+  "tagPhysics": {
+    "mechanism": "Snug mid/lower exterior burgundy cord at y568–616 well below rim; curved front arc, disappears around both sidewalls.",
+    "knot": "Small front knot near1129/612, visible but depth/load unclear.",
+    "tetherAndHole": "Short paired strand descends into punched hole near1133/672, apparent continuity.",
+    "gravity": "Paper lies below knot and tilts downward; no upward suspension.",
+    "paperSeparationOrContact": "Top paper overlaps lower glass silhouette; lower part angles outward and bottom rests on timber at y800 with contact shadow; not broad flush pasted label.",
+    "uncertainties": [
+      "Far-side circumference/friction unobservable.",
+      "Knot is tiny; exact support/load unresolved.",
+      "Upper face overlap requires independent inspection; no blanket physics PASS."
+    ],
+    "status": "Plausible visible chain with unresolved upper overlap/knot; held."
+  },
+  "review": {
+    "recipe": "Pale lightly hazy Southside ice highball/no foam/no citrus wheel. Mint and tarragon distinct but tarragon taller than mint, contrary to equal standing height. Long visible leafy stem may be garnish, not failed straining; original alone cannot prove no loose bits.",
+    "personality": "Phone off and substantial adult spectacles recognizable; phone explicit calls, spectacles inferred careful listening. Props spread left and Mentor-specificity is a watch.",
+    "world": "Historic timber room/quiet left, but amber glossy/crackled table and dense granular ice/condensation material hold.",
+    "issues": [
+      "Glass548px rather than320; garnish total743px tall reaches y34.",
+      "Mint/tarragon not equally tall; tarragon far taller.",
+      "Full actual essential group702px; no389movingphone pass.",
+      "Tarragon clipped by ultrawide cover; native edge visibility not crop acceptance.",
+      "Sparse droplet/ordinary flat-material target not met.",
+      "Small front tag knot/upper overlap uncertain; actual100px writing axis/name fit untested.",
+      "No JPEG/export/browser/acceptance."
+    ]
+  }
+}

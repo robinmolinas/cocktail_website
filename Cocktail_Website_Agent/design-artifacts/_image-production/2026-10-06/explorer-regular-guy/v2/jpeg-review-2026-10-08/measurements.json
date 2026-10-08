@@ -1,0 +1,144 @@
+{
+  "pairing": "explorer-regular-guy",
+  "pour": "Brought Home",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-regular-guy/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-a3402603-a565-43a1-98eb-9310df4279b0.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "ac835c715ffcced632fc70b57b6afccd7e7e0a6cee8e37d4ee494a63dbbeef9c",
+  "sourceSha256": "c7375bade943d80ed0bc2f2aab8a3c2f4c39ad46512bfb9a6ec1e4e90c5719fe",
+  "specSha256": "6e51734ae0165ae6dc328d5b9d9238a4f3f17c340aa275c4fc888b9616c04d02",
+  "roomSha256": "20ca32f598052f46bec2e2792647ab4f57a1a59db8fd2e00e4026fa782fe9e00",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    615,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1224,
+    "cy": 733,
+    "w": 88,
+    "angle": 53
+  },
+  "glass": {
+    "x": 1102,
+    "y": 537
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1010,
+      "y0": 326,
+      "x1": 1193,
+      "y1": 749
+    },
+    "paper": {
+      "x0": 1163,
+      "y0": 674,
+      "x1": 1282,
+      "y1": 781
+    },
+    "guidebook": {
+      "x0": 655,
+      "y0": 541,
+      "x1": 1021,
+      "y1": 705
+    },
+    "photographs": {
+      "x0": 742,
+      "y0": 520,
+      "x1": 1020,
+      "y1": 646
+    },
+    "grapefruitGarnish": {
+      "x0": 1131,
+      "y0": 301,
+      "x1": 1269,
+      "y1": 433
+    }
+  },
+  "recognitionRegions": {
+    "guidebook": {
+      "bounds": {
+        "x0": 659,
+        "y0": 569,
+        "x1": 1015,
+        "y1": 700
+      },
+      "reason": "Substantial closed book page block/spine and cover edge; genre not provable, partly occluded by prints/glass."
+    },
+    "photographs": {
+      "bounds": {
+        "x0": 747,
+        "y0": 522,
+        "x1": 1017,
+        "y1": 643
+      },
+      "reason": "Actual doorway and street images readable; right street print partly occluded by hero but recognizable image remains."
+    }
+  },
+  "objectVisibility": {
+    "guidebook": "Behind prints/glass, full hidden rear/right extent unknown; visible silhouette measured.",
+    "photographs": "Overlap/hero hides right print edge, unknown hidden extent; substantial image content not merely white margins.",
+    "garnish": "Complete pink rim wedge visible, y301 safe-looking not formalcoverproof.",
+    "unrequestedBowl": "Removed in sole correction."
+  },
+  "supportingObjectUnion": {
+    "x0": 655,
+    "y0": 301,
+    "x1": 1269,
+    "y1": 705
+  },
+  "essentialObjectUnion": {
+    "x0": 655,
+    "y0": 301,
+    "x1": 1282,
+    "y1": 781
+  },
+  "tagPhysics": {
+    "mechanism": "Snug thin beige exterior base loop around y663\u2013691 belowrim326 and at transition from liquid to clear foot; curved front arc and side occlusion visible.",
+    "knot": "Small tied junction near1174/679, clear enough apparent support but depth/load unresolved.",
+    "tetherAndHole": "Very short continuous downward strand through hole near1191/691.",
+    "gravity": "Paper projects down/right below knot.",
+    "paperSeparationOrContact": "Paper outside right glass silhouette, loweredge rests timber around779 with shadow, not pastedlabel.",
+    "uncertainties": [
+      "Far-side closure/friction/load unknown.",
+      "Tiny knot threading partly occluded.",
+      "Loop sits at clearfoot/liquidboundary, not entirely beneath liquid."
+    ],
+    "status": "Plausible visible chain/contact, support uncertainty held; no physics PASS."
+  },
+  "review": {
+    "recipe": "Blush softly cloudy filled-ice lightly sparkling Paloma with one pinkgrapefruit rim wedge/no salt rim/foam/straw retained. More proportionate wedge, ordinary cubic contours but interiors/droplets still over-detailed.",
+    "personality": "Guidebook+two place photographs source-grounded and depth-overlapped behind hero, substantial recognizable book/photographic imagery remains. Blank cover cannot prove guidebook genre; specificity watch.",
+    "world": "Historic walnut/quietleft/practical retained, but glossy amber patterned timber and dense granular glass/ice remain hold.",
+    "issues": [
+      "Glass423px stillabove300\u2013360 target despite649\u2192423pullback.",
+      "Full627px and conservative623px glasspapergarnishrecognition exceed389movingphone.",
+      "Proposed702portrait retains visibleobjects, not phone PASS.",
+      "Glossy amber textured timber/dense droplets/etchedice held.",
+      "Smalltag88px writableaxis realnamesuntested.",
+      "Loop clearfootboundary/friction/knotload unresolved.",
+      "No JPEG/export/browser/integration/acceptance;2calls exhausted."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "24ca41aac89151eea1e670f46860954065dc80bdec502e95df121308cf100840",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** Half the people you know have eaten somewhere because of you.",
+      "+ - **tagline:** Every good find makes you think of someone."
+    ]
+  },
+  "unknownBounds": {
+    "unrequestedBowl": null
+  }
+}

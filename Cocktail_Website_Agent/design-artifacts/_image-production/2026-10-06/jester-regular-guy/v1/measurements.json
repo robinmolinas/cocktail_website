@@ -1,0 +1,200 @@
+{
+  "pairing": "jester-regular-guy",
+  "pour": "Is It Just Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-fc121029-2dd5-4641-9a6e-8a1c027fd4d3.png",
+  "masterSha256": "21d1afb8fccaf3c1548e38d62d49ec241e8e8a69ba47f67eba65b5bf878dfc42",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "cd9b909ee55d60451ba39fdb2c02b4115f53b4001deac21cf957bd1d73f3010d",
+  "specSha256": "46084d90c084171eb83263afb9ca961ace6ef705273a016f1462be70ae2a3f9f",
+  "roomSha256": "b1f6ac35f7f57de07d59fa51deaf64c6e69c6213b4f22fda97ee07e571b9796c",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    680,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 993,
+    "cy": 738,
+    "w": 77,
+    "angle": 67
+  },
+  "glass": {
+    "x": 942,
+    "y": 469
+  },
+  "bounds": {
+    "glass": {
+      "x0": 838,
+      "y0": 329,
+      "x1": 1045,
+      "y1": 806
+    },
+    "paper": {
+      "x0": 938,
+      "y0": 667,
+      "x1": 1046,
+      "y1": 795
+    }
+  },
+  "personalityBounds": {
+    "keyring": {
+      "x0": 528,
+      "y0": 580,
+      "x1": 756,
+      "y1": 693
+    },
+    "foldedLinen": {
+      "x0": 489,
+      "y0": 451,
+      "x1": 891,
+      "y1": 628
+    }
+  },
+  "recognitionRegions": {
+    "keyring": {
+      "x0": 528,
+      "y0": 580,
+      "x1": 756,
+      "y1": 693
+    },
+    "foldedLinen": {
+      "x0": 489,
+      "y0": 451,
+      "x1": 891,
+      "y1": 628
+    }
+  },
+  "supportingBounds": {
+    "beerGlass": {
+      "x0": 1037,
+      "y0": 96,
+      "x1": 1294,
+      "y1": 725
+    },
+    "beerMat": {
+      "x0": 1027,
+      "y0": 668,
+      "x1": 1319,
+      "y1": 743
+    },
+    "beerLiquid": {
+      "x0": 1040,
+      "y0": 190,
+      "x1": 1290,
+      "y1": 656
+    },
+    "beerFoam": {
+      "x0": 1040,
+      "y0": 137,
+      "x1": 1292,
+      "y1": 195
+    },
+    "ryeLiquid": {
+      "x0": 838,
+      "y0": 445,
+      "x1": 1044,
+      "y1": 594
+    },
+    "cord": {
+      "x0": 922,
+      "y0": 601,
+      "x1": 972,
+      "y1": 695
+    }
+  },
+  "physicalRecognitionRegions": {
+    "wholeUnmixedPair": {
+      "x0": 838,
+      "y0": 96,
+      "x1": 1319,
+      "y1": 806
+    },
+    "beerFoam": {
+      "x0": 1040,
+      "y0": 137,
+      "x1": 1292,
+      "y1": 195
+    },
+    "beerMat": {
+      "x0": 1027,
+      "y0": 668,
+      "x1": 1319,
+      "y1": 743
+    }
+  },
+  "visibility": {
+    "keyring": {
+      "masterClipped": false,
+      "occluded": false,
+      "unseenExtent": null
+    },
+    "foldedLinen": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Rye occludes right fold; extent unseen unknown."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Stem-supported visible V-shaped taupe chain to punched paper hole.",
+    "anchorBounds": {
+      "x0": 922,
+      "y0": 601,
+      "x1": 969,
+      "y1": 665
+    },
+    "knotPoint": {
+      "x": 949,
+      "y": 658
+    },
+    "holePoint": {
+      "x": 965,
+      "y": 686
+    },
+    "knot": "Crossing near lower stem, actual snug knot and rear loop unclear.",
+    "tether": "Long bright V-shaped doubled strands, not latest very short subdued chain.",
+    "hole": "Hole receiving cord visible.",
+    "gravity": "Paper below anchor, lower edge near wood/foot.",
+    "airGap": "Paper outboard but overlaps foot image.",
+    "contact": "Paper bottom near wood and foot; exact contact/load uncertain.",
+    "occlusion": "Rear loop hidden and topology unclear.",
+    "uncertainties": [
+      "Rear loop and knot load unknown",
+      "Long V tether",
+      "Foot/paper contact uncertain"
+    ],
+    "status": "Held"
+  },
+  "recognitionUnionWidth": 830,
+  "cropAssessment": {
+    "portrait": "702px crop preserves both vessels/paper/beer mat but clips191px linen and152px keys at left; both personality whole recognition lost.",
+    "movingPhone": "Whole recognition union830px; no phone PASS."
+  },
+  "review": {
+    "recipe": "Two unmixed amber rye/pale lager with white foam, no ice/garnish/fruit/dropped shot. Rye bowl looks large for90ml, capacity unproven; visible speckle risks carbonated appearance in still rye. Beer head present.",
+    "personality": "Keys source habit explicit in room, keyring inferred; linen ownership inferred from ordinary meal/waiter scene. Whole recognizable objects broad to left; not portrait-safe.",
+    "world": "Warm glossy crackled timber, dense repetitive beer droplets and multiple lamp/candle/window light appearance held.",
+    "issues": [
+      "Beer glass629px tall, not330px",
+      "Rye bowl appears large and speckled;90ml/still appearance held",
+      "Dense uniform beer droplets",
+      "Whole union830px; portrait clips essential linen/keys",
+      "Glossy amber crackled timber/multiple light appearance",
+      "Long V-shaped stem tether/rear loop/load uncertain",
+      "Actual tag-name/moving-phone checks deferred"
+    ]
+  },
+  "status": "Held native candidate; not exported or accepted."
+}

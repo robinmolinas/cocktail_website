@@ -1,0 +1,22 @@
+{
+  "batch": 13,
+  "pairing": "jester-explorer",
+  "version": "v1",
+  "operation": "fresh built-in generation",
+  "input": null,
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-167e9ca5-bf40-4ab2-811e-2c2b10684b76.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v1/master.png",
+  "originalSha256": "3f69095e73f44df66bfc290a3c55cdcac3b488e2c831d47836815a57de2f7b79",
+  "copySha256": "3f69095e73f44df66bfc290a3c55cdcac3b488e2c831d47836815a57de2f7b79",
+  "nativeDimensions": [
+    1672,
+    941
+  ],
+  "sourceSha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+  "specSha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67",
+  "roomSha256": "fb2cc7baf81948067a02af2f3b79d065e4f6835de34a9c6e01993ce3fd67cc2b",
+  "promptFile": "prompt-batch13.md",
+  "readinessFile": "readiness-batch13.md",
+  "callCountForPair": 1,
+  "selection": "preserved superseded initial"
+}

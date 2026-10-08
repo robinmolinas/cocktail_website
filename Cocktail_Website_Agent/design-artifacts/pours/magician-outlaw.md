@@ -9,8 +9,9 @@ authored_in: party-mode session with Robin (Historian · Mixologist · Psycholog
 
 # Pour — No Accident · The Trickster (magician-outlaw)
 
-Staging copy in the meaning-model shape. The final persona image will be
-generated from this pour (glass, colour, garnish), not the other way round.
+This file is the source for the typed store.
+`npm run import:pours` in dionysus-experience copies it in.
+The final persona image was generated from this pour (glass, colour, garnish), not the other way round.
 
 ## Cocktail
 

@@ -1,0 +1,12 @@
+{
+  "pairing": "lover-caregiver",
+  "batch": 16,
+  "sourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+  "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+  "sourceRead": "Current settled dossier and spec reviewed, including physical method, reading and original image brief",
+  "masterStrategy": "Narrow focused liquid correction on existing batch15 v3 wide/portrait; preserve composition and objects",
+  "editorialStatus": "unchanged",
+  "browserOwner": "Claude",
+  "integrationOwner": "Claude",
+  "generation": "built-in image_gen; separate orientation calls, plus one retained rejected apple-wide edit"
+}

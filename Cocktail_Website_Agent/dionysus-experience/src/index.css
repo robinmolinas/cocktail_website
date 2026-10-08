@@ -50,6 +50,42 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   color: var(--candle-ivory);
 }
 
+/* The sound control (src/audio/SoundToggle.tsx): the Veil pill's quiet
+   sibling, on the nav's line opposite the mark (centred on the mark's 24px
+   glyph), the same on every screen. Static: the bars stand when on and lie
+   down when off; they never pulse. */
+.sound-toggle {
+  position: fixed; z-index: 100;
+  top: calc(var(--gutter-top) + 12px); right: var(--gutter);
+  translate: 0 -50%;
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  padding: 0.44rem 0.8rem 0.44rem 0.78rem;
+  font-family: var(--font-label); font-weight: 400; font-size: 10px; line-height: 1;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  /* full ivory and the house hairline edge: it has to read over H2's amber
+     and H4's cream as well as the dark (no dark patch behind it) */
+  color: var(--candle-ivory); text-shadow: var(--legible);
+  border: 1px solid rgba(255, 246, 232, 0.24); border-radius: 999px;
+  background: var(--veil-pill-bg);
+  backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+  cursor: pointer;
+  transition: border-color 0.4s ease, background 0.4s ease, color 0.4s ease;
+  animation: soundIn 1.2s ease 1.1s both;
+}
+.sound-toggle:hover { border-color: var(--veil-pill-hover-border); background: var(--veil-pill-hover-bg); color: #fffaf0; }
+.sound-toggle:focus-visible { outline: 2px solid var(--vermilion); outline-offset: 3px; }
+.sound-label { margin-right: -0.22em; } /* the tracking trails the last letter */
+.sound-bars { display: inline-flex; align-items: flex-end; gap: 2px; height: 10px; }
+.sound-bars i { display: block; width: 1.5px; height: 1.5px; border-radius: 1px; background: currentColor; box-shadow: var(--legible); transition: height 0.6s var(--ease); }
+.sound-toggle.is-on .sound-bars i:nth-child(1) { height: 5px; }
+.sound-toggle.is-on .sound-bars i:nth-child(2) { height: 9px; }
+.sound-toggle.is-on .sound-bars i:nth-child(3) { height: 6.5px; }
+.sound-toggle.is-on .sound-bars i:nth-child(4) { height: 10px; }
+@keyframes soundIn { from { opacity: 0; } to { opacity: 1; } }
+@media (max-width: 640px) { .sound-toggle { gap: 0.5rem; padding: 0.42rem 0.68rem; font-size: 9.5px; } }
+@media (prefers-reduced-motion: reduce) { .sound-toggle { animation-duration: 0.01s; } .sound-bars i { transition: none; } }
+@media print { .sound-toggle { display: none !important; } }
+
 :root {
   /* type — see the @import note at the top */
   --font-display: 'Playfair Display', Georgia, serif;
@@ -1854,6 +1890,14 @@ button.grav-dot::after {
   .tr-root { color: var(--ink); min-height: auto; }
   /* the full-bleed scene, stage overlays, and arrival veil are visual-only */
   .tr-stage, .tr-intro::after, .tr-greet, .tr-scene-cue { display: none !important; }
+  /* The nav veil (.tr-root::before) is position: fixed, so print repeats it at
+     the head of every sheet. Once she has scrolled (--p = 1), which is exactly
+     when she reaches "Save the recipe", it printed as a black band across the
+     top of both pages, with the site mark riding inside it (the nav's
+     print:hidden utility does not apply). Neither belongs on paper. */
+  .tr-root::before, .site-nav { display: none !important; }
+  /* no candlelit shadow survives onto paper, on any element or pseudo-element */
+  .tr-root *, .tr-root *::before, .tr-root *::after { text-shadow: none !important; box-shadow: none !important; }
 
   /* the head of the sheet: the drink on the left, its name beside it, rather
      than a centred stamp with the title stranded underneath */

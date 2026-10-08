@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-29 (batch caregiver)
 ## Cocktail
 
 - **name:** Till Spring
-- **tagline:** You believe they'll be all right before they do.
+- **tagline:** You believe in people before they believe in themselves.
 - **glassware:** a tumbler (about 300 ml), filled with ice
 - **contains:** `[]`
 
@@ -162,7 +162,7 @@ Wren's title-block notes:
 
 **name:** Till Spring
 
-**tagline:** You believe they'll be all right before they do.
+**tagline:** You believe in people before they believe in themselves.
 
 **epigraph** (the cocktail, cold, 13 words)
 *Bitter orange and sweet orange, side by side. Neither one is hiding the other.*

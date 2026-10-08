@@ -1,0 +1,344 @@
+{
+  "pairing": "innocent-lover",
+  "pour": "The Big Words",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "eafd8c6b9918b2526c6a07f09f966f4dd26b0b56385f8c82d0de0fb78e1e9910",
+  "review": {
+    "recipe": "Transparent still dark reddish-brown stirred cocktail, plain stemmed glass, nearly full below rim; broad orange peel correctly dropped inside, no serving ice/foam/bubbles or flame. Modest bowl reflections but liquid is not hazy.",
+    "personality": "Two recognizable cassette spool windows and folded plain-backed gift card with ribbon support playlist/card source. Tiny white cassette shell marks persist and resemble pseudo-labels: not passed anti-AI gate.",
+    "world": "Framing and timber relief improve versus v1, plain glass survives. Timber remains glossy/amber in right and foreground areas; warm lamps/highlights and highly textured peel/paper remain watch points.",
+    "issues": [
+      "Material hold: timber remains warm/glossy rather than neutral low-satin requested; full root JPEG comparison needed.",
+      "Anti-AI hold: cassette has tiny pseudo-label marks despite request for entirely blank shell; no readable names/words, but manufactured-looking scribbles are not accepted wear.",
+      "Complete glass500px high and essential union603px exceed425px/approximately389px moving-phone target. Glass/paper alone507px cannot survive moving tall-phone crop intact.",
+      "Portrait[750,0,702,940] retains full physical glass/paper/two recognition cores; this is NOT proof of phone cover retention.",
+      "Tag usable242px at5.1degrees is measured; actual loaded-font/name/browser checks deferred.",
+      "One initial+one correction complete; no more polishing. No child exports, public or shared changes."
+    ]
+  },
+  "measurements": {
+    "pairing": "innocent-lover",
+    "pour": "The Big Words",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-lover/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-0f3c3961-e019-4683-81cd-5fe378a29ea8.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "eafd8c6b9918b2526c6a07f09f966f4dd26b0b56385f8c82d0de0fb78e1e9910",
+    "specSha256": "5591b3e68351ff211d8045296f258ee8e28a306bed4daeaf31a6d9f0915e0744",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      750,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1188,
+      "cy": 679,
+      "w": 242,
+      "angle": 5.1
+    },
+    "glass": {
+      "x": 995,
+      "y": 341
+    },
+    "bounds": {
+      "glass": {
+        "x0": 816,
+        "y0": 236,
+        "x1": 1174,
+        "y1": 736
+      },
+      "paper": {
+        "x0": 1010,
+        "y0": 612,
+        "x1": 1323,
+        "y1": 731
+      }
+    },
+    "recognitionRegions": {
+      "audioCassette": {
+        "x0": 996,
+        "y0": 487,
+        "x1": 1328,
+        "y1": 657
+      },
+      "giftCard": {
+        "x0": 1107,
+        "y0": 396,
+        "x1": 1419,
+        "y1": 654
+      }
+    },
+    "optionalRegions": {
+      "cardRibbon": {
+        "x0": 1364,
+        "y0": 429,
+        "x1": 1444,
+        "y1": 615
+      }
+    },
+    "review": {
+      "recipe": "Transparent still dark reddish-brown stirred cocktail, plain stemmed glass, nearly full below rim; broad orange peel correctly dropped inside, no serving ice/foam/bubbles or flame. Modest bowl reflections but liquid is not hazy.",
+      "personality": "Two recognizable cassette spool windows and folded plain-backed gift card with ribbon support playlist/card source. Tiny white cassette shell marks persist and resemble pseudo-labels: not passed anti-AI gate.",
+      "world": "Framing and timber relief improve versus v1, plain glass survives. Timber remains glossy/amber in right and foreground areas; warm lamps/highlights and highly textured peel/paper remain watch points.",
+      "issues": [
+        "Material hold: timber remains warm/glossy rather than neutral low-satin requested; full root JPEG comparison needed.",
+        "Anti-AI hold: cassette has tiny pseudo-label marks despite request for entirely blank shell; no readable names/words, but manufactured-looking scribbles are not accepted wear.",
+        "Complete glass500px high and essential union603px exceed425px/approximately389px moving-phone target. Glass/paper alone507px cannot survive moving tall-phone crop intact.",
+        "Portrait[750,0,702,940] retains full physical glass/paper/two recognition cores; this is NOT proof of phone cover retention.",
+        "Tag usable242px at5.1degrees is measured; actual loaded-font/name/browser checks deferred.",
+        "One initial+one correction complete; no more polishing. No child exports, public or shared changes."
+      ]
+    },
+    "status": "measured-master-candidate; material-and-composition-holds; not-accepted; browser-deferred"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1364.2105263157894,
+        "cy": 780.1276595744681,
+        "w": 277.89473684210526,
+        "angle": 5.10269844829299
+      },
+      "glass": {
+        "x": 1142.5837320574165,
+        "y": 391.78723404255317
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 559.0427350427351,
+        "cy": 866.8085106382979,
+        "w": 308.8774928774929,
+        "angle": 5.100963734137945
+      },
+      "glass": {
+        "x": 312.7065527065527,
+        "y": 435.3191489361702
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/innocent-lover/portrait.jpg",
+    "wide": "/personas/innocent-lover/wide.jpg",
+    "wideTag": {
+      "cx": 0.7105263157894737,
+      "cy": 0.7223404255319149,
+      "w": 0.14473684210526316,
+      "angle": 5.10269844829299
+    },
+    "wideGlass": {
+      "x": 0.5950956937799043,
+      "y": 0.3627659574468085
+    },
+    "tag": {
+      "cx": 0.6239316239316239,
+      "cy": 0.7223404255319149,
+      "w": 0.34472934472934474,
+      "angle": 5.100963734137945
+    },
+    "glass": {
+      "x": 0.349002849002849,
+      "y": 0.3627659574468085
+    }
+  },
+  "hashes": {
+    "master": "7eff829d08a738c0c3663a201ab4efe7351930b179f03b4a866399d022f13941",
+    "wide": "02173ac6a5f259679550bd0ace9a9a95acae85aec055929cb3d6590ae550a396",
+    "portrait": "de00f2e21d55b4883d52e5b34c7a57bc7f87d5c30d7ef3fd7d3236966a5f2ef3"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 937.0334928229665,
+          "y0": 271.1489361702127,
+          "x1": 1348.133971291866,
+          "y1": 845.6170212765958
+        },
+        "paper": {
+          "x0": 1159.8086124401914,
+          "y0": 703.1489361702128,
+          "x1": 1519.2344497607655,
+          "y1": 839.8723404255319
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 700.8612440191388,
+          "y0": 225.9574468085106,
+          "x1": 1043.444976076555,
+          "y1": 704.6808510638298
+        },
+        "paper": {
+          "x0": 886.5071770334928,
+          "y0": 585.9574468085107,
+          "x1": 1186.0287081339711,
+          "y1": 699.8936170212766
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 999.5023923444976,
+          "y0": 235.86553191489355,
+          "x1": 1438.0095693779904,
+          "y1": 848.6314893617022
+        },
+        "paper": {
+          "x0": 1237.1291866028707,
+          "y0": 696.6655319148937,
+          "x1": 1620.5167464114832,
+          "y1": 842.503829787234
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1678.8516746411483,
+          "y0": 258.10851063829784,
+          "x1": 2415.406698564593,
+          "y1": 1287.363829787234
+        },
+        "paper": {
+          "x0": 2077.9904306220096,
+          "y0": 1032.108510638298,
+          "x1": 2721.961722488038,
+          "y1": 1277.0712765957446
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5180097784028062,
+        "y": 0.3627659574468085
+      },
+      "bounds": {
+        "glass": {
+          "x0": -65.17072288698961,
+          "y0": 211.89787234042552,
+          "x1": 256.2065230769231,
+          "y1": 660.8340425531915
+        },
+        "paper": {
+          "x0": 108.98342716049378,
+          "y0": 549.4978723404256,
+          "x1": 389.9640919278253,
+          "y1": 656.3446808510638
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5192125311551649,
+        "y": 0.3627659574468085
+      },
+      "bounds": {
+        "glass": {
+          "x0": -72.62928167141503,
+          "y0": 233.9914893617021,
+          "x1": 282.25649230769227,
+          "y1": 729.7361702127658
+        },
+        "paper": {
+          "x0": 119.68312098765426,
+          "y0": 606.7914893617021,
+          "x1": 429.9603479582146,
+          "y1": 724.7787234042552
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.349002849002849,
+        "y": 0.3627659574468085
+      },
+      "bounds": {
+        "glass": {
+          "x0": 3.5397530864197435,
+          "y0": 142.60425531914893,
+          "x1": 219.82207027540358,
+          "y1": 444.73191489361704
+        },
+        "paper": {
+          "x0": 120.74301994301993,
+          "y0": 369.804255319149,
+          "x1": 309.839012345679,
+          "y1": 441.7106382978723
+        }
+      }
+    }
+  ]
+}

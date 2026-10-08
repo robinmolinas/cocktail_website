@@ -1,0 +1,147 @@
+{
+  "pairing": "jester-explorer",
+  "pour": "Unrehearsed",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v4/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-c8122481-cce4-4484-a0e4-fb98ef7fc52d.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "990f06e6add332351dd5519b5cd87b0ff333a2af535e37164cabbd3b95c52bf4",
+  "sourceSha256": "fa2a7c65465e2928c7ab6e6eca17bfac3b84c04e61b3c5ea25d37ff063c44e69",
+  "specSha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67",
+  "roomSha256": "fb2cc7baf81948067a02af2f3b79d065e4f6835de34a9c6e01993ce3fd67cc2b",
+  "unchangedCompanion": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v3/portrait-master.png",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    687,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1321,
+    "cy": 672,
+    "w": 93,
+    "angle": 14
+  },
+  "glass": {
+    "x": 1105,
+    "y": 515
+  },
+  "bounds": {
+    "glass": {
+      "x0": 973,
+      "y0": 356,
+      "x1": 1234,
+      "y1": 669
+    },
+    "paper": {
+      "x0": 1251,
+      "y0": 638,
+      "x1": 1379,
+      "y1": 700
+    },
+    "speechSheetVisible": {
+      "x0": 692,
+      "y0": 388,
+      "x1": 985,
+      "y1": 574
+    },
+    "envelopeVisible": {
+      "x0": 725,
+      "y0": 536,
+      "x1": 983,
+      "y1": 615
+    },
+    "iceVisible": {
+      "x0": 1003,
+      "y0": 414,
+      "x1": 1208,
+      "y1": 610
+    },
+    "orangePeel": {
+      "x0": 1093,
+      "y0": 482,
+      "x1": 1196,
+      "y1": 603
+    }
+  },
+  "physicalGarnishBounds": {
+    "x0": 1093,
+    "y0": 482,
+    "x1": 1196,
+    "y1": 603
+  },
+  "recognitionRegions": {
+    "speechSheet": {
+      "x0": 693,
+      "y0": 389,
+      "x1": 974,
+      "y1": 562
+    },
+    "envelope": {
+      "x0": 727,
+      "y0": 536,
+      "x1": 972,
+      "y1": 612
+    }
+  },
+  "hiddenExtents": {
+    "speechSheetBehindGlass": null,
+    "envelopeBehindGlass": null,
+    "submergedIce": null
+  },
+  "allSupportingObjectUnion": {
+    "x0": 692,
+    "y0": 356,
+    "x1": 1379,
+    "y1": 700
+  },
+  "tagPhysics": {
+    "mechanism": "Low exterior clearfoot bodyloop; curved front arc visible and side turn passes behind join.",
+    "knot": "Small right-side loaded-looking join visible, actualconstruction uncertain.",
+    "tetherAndHole": "Short down-right tether reaches visible dark hole.",
+    "gravity": "Paper lies outboard on wood descending from low loop; loweredge contact.",
+    "separation": "Separate paper distinct from glass with honest timber contact/shadow.",
+    "uncertainties": [
+      "Rearwrap/friction occluded.",
+      "Cord comparatively dark/thick; no support-chain unconditional pass."
+    ],
+    "status": "held for original root review"
+  },
+  "review": {
+    "recipe": "Clear amber pool/one dropped orange strip/three cloudy curved ice pieces preserved. Concave hollow cup-wall origin still not unambiguously clear; repeated crescent-chunk appearance remains source-form hold.",
+    "personality": "Handled speechpaper/envelope read as recent personal use, compact behind-left rather than huge scroll. Depth move incomplete; both remain lateral to glass.",
+    "world": "Spacious historic room preserved, neutral-dark directionalwalnut but strong warmshine. Background fire/candlelike glows plus lamp remain single-source simplicity watch.",
+    "issues": [
+      "Glass519\u2192313px33.3%height now meetsrequested30\u201335%framing direction.",
+      "Entirevisiblegroup687px fits proposed702crop with tiny15pxmargin, not389phone.",
+      "Cup-shell form/materials/facetedfoot/cordphysics/name/browser/phone remain held."
+    ]
+  },
+  "exportProvenance": {
+    "batch": 14,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v4/measurements.json",
+    "originalMeasurementSha256": "9bbd54570b311b3dc3e7aa57f8d05ab074add571c1ecf27af56c243e0ad2abf3",
+    "previousSourceSha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {},
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "portraitMeasurementFile": "portrait-measurements.json"
+}

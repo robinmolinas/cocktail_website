@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch hero)
 ## Cocktail
 
 - **name:** Someone Else's Map
-- **tagline:** Far doesn't scare you. Finished does.
+- **tagline:** Every summit gives you a better view of what you could do next.
 - **glassware:** heatproof glass mug with a handle (about 250 ml), warmed with hot water first
 - **contains:** `["nuts"]`
 
@@ -169,7 +169,7 @@ Wren's title-block notes:
 
 - **name (candidates):** *Someone Else's Map* (Wren's pick) · *What's Next* (Tomás's pick) · *Sixty Cases* · *The Next Find* · *Not Finished*
 - **closingLine (Tomás's, Wren's edit):** Pine first, then a spoon of what came next. Then ask someone what they'd like you to find.
-- **tagline:** Far doesn't scare you. Finished does.
+- **tagline:** Every summit gives you a better view of what you could do next.
 - **epigraph:** Sixty cases of the pine in this glass were all one importer could afford.
 
 ### Open items

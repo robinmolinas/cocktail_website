@@ -1,0 +1,23 @@
+{
+  "pairing": "lover-caregiver",
+  "pour": "Hoping You'd Come",
+  "batch": 12,
+  "version": 1,
+  "callOrdinal": 1,
+  "pairingCallOrdinal": 1,
+  "method": "built-in image_gen fresh",
+  "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v1/prompt-batch12.txt",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-6d4d34fc-976e-490d-bdae-a4489fbb7b8b.png",
+  "stagedMaster": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v1/master.png",
+  "originalSha256": "15017bcd6633f149778af643880e1d567bb7c3f351ffab29fcc268c77156af80",
+  "stagedSha256": "15017bcd6633f149778af643880e1d567bb7c3f351ffab29fcc268c77156af80",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "6c8e8a522954bf401b124460cda40c3d6080c29d6132a4056d5deaa9618cd4a8",
+  "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+  "roomSha256": "cd07091cfe12bbf08c2df1978b01ad3cc677ddb11cec330971735dfd171fe509",
+  "referenceImage": null,
+  "status": "preserved initial held candidate; sole correction running"
+}

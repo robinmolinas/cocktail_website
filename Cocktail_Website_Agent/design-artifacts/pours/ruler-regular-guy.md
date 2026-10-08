@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 ## Cocktail
 
 - **name:** One Table
-- **tagline:** Everyone wants you on their side. You keep ending up on both.
+- **tagline:** You give both sides a place at a table they thought they couldn't share.
 - **glassware:** large rocks glass (about 300 ml), one large ice cube
 - **contains:** `["nuts"]`
 

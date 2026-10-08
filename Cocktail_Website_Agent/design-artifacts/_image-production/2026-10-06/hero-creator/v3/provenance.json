@@ -1,0 +1,36 @@
+{
+  "pairing": "hero-creator",
+  "pour": "The Long Answer",
+  "primaryCallCount": 2,
+  "correctionCallCount": 1,
+  "sourceEvidence": {
+    "dossier": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/hero-creator.md",
+    "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-creator.json",
+    "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-creator.md",
+    "dossierSha256": null,
+    "specSha256": null,
+    "roomSha256": null,
+    "fingerprintStatus": "Not executed per batch restrictions; complete current text read, closed r7 room/current D13 wording evidence."
+  },
+  "hashStatus": "No fresh hashes executed; SHA intentionally null",
+  "wide": {
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-44a9747e-5a3c-4350-b7ac-00cc1ef33e7f.png",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/wide-master.png",
+    "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/wide-prompt.txt",
+    "copy": "Exact nonoverwrite cp -n",
+    "reference": null
+  },
+  "portrait": {
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-5cf4f4d9-7863-4f3f-bb1d-6813f4136b6b.png",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/portrait-master.png",
+    "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/portrait-prompt.txt",
+    "copy": "Exact nonoverwrite cp -n",
+    "reference": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/wide-master.png"
+  },
+  "correction": {
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v4/portrait-master.png",
+    "permission": "Root explicitly authorized one portrait correction after v3 native review; no wide correction"
+  },
+  "dimensions": "Displayed original-size coordinate canvas; header not executed",
+  "integration": "Root only; no exports/transforms/public/runtime/queue changes"
+}

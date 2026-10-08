@@ -1,0 +1,35 @@
+{
+  "pairing": "outlaw-magician",
+  "pour": "For Its Own Good",
+  "version": "v2",
+  "batch": 12,
+  "mode": "edit",
+  "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v2/actual-prompt-batch12.txt",
+  "readiness": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v2/readiness-batch12.md",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-25c3b460-5359-4eb0-ac12-681ce8518eec.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v2/master.png",
+  "originalSha256": "60c752a7ba451ee2ea922fa2cdc0dec9e3a37393832f4404e997d98a1c7aa073",
+  "masterSha256": "60c752a7ba451ee2ea922fa2cdc0dec9e3a37393832f4404e997d98a1c7aa073",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "source": {
+    "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/outlaw-magician.md",
+    "sha256": "4b39b1d297f338877057213e35fe3edbd35d4029d6c8a9a9fd9dbde437fb8736"
+  },
+  "spec": {
+    "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-magician.json",
+    "sha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996"
+  },
+  "room": {
+    "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-magician.md",
+    "sha256": "a546db17def9719823518e68b9c792e3d6eac01a16c35511c68ef0df472b803e"
+  },
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "editTarget": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-7f5eabde-add9-43b7-afd4-921ed323640b.png",
+  "builtInCallsForPair": 2,
+  "selected": true,
+  "status": "Held measured candidate; no exports/integration/browser acceptance."
+}
+

@@ -1,0 +1,471 @@
+{
+  "pairing": "jester-regular-guy",
+  "pour": "Is It Just Me",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "47f6d62e4599eb516a33ecc4fcb2313e7133828b07c2cebeeaac2dd93b23c33a",
+  "review": {
+    "recipe": "ONE serving/TWO unmixed vessels retained: amber rye in small stem glass, pale clear cold pilsner with white finger foam. No ice/fruit/garnish/dropped glass. Beer375px tall, rye277px; capacity/45ml absolute not provable. Rye retains speckle-like highlights, stillness appearance hold rather than confirmed carbonation.",
+    "personality": "Whole recognizable keyring on folded dinner linen now compact in depth. Key-checking habit explicit in closed room; physical keyring inferred. Linen ownership inferred from ordinary dinner/waiter scene, weaker specificity. Whole union522px exceeds moving-phone389px target.",
+    "world": "Pulled-back historic reading-room world. Orange glossy crackled table, window+lamp+candle multiple-light appearance and busy left chairs/window remain held; beer dense repetitive droplets.",
+    "issues": [
+      "Rye speckle/highlight stillness appearance held",
+      "Beer dense uniform droplets; capacity/fill absolute cannot be proved",
+      "Whole union522px, not moving389px phone-safe",
+      "Glossy amber crackled timber and multiple-light/window appearance",
+      "Tag small43px writing axis; actual name-fit deferred, do not inflate",
+      "Stem rear loop/knot load and paper-foot contact unknown",
+      "Linen ownership/personality specificity inferred"
+    ]
+  },
+  "measurements": {
+    "pairing": "jester-regular-guy",
+    "pour": "Is It Just Me",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-d1cb303a-fae9-40e1-bafb-fa8db92010ad.png",
+    "masterSha256": "dc9fc8c19f7460c20a473f82f999518f792b75827638e40c82da8052e1a29fe0",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "47f6d62e4599eb516a33ecc4fcb2313e7133828b07c2cebeeaac2dd93b23c33a",
+    "specSha256": "46084d90c084171eb83263afb9ca961ace6ef705273a016f1462be70ae2a3f9f",
+    "roomSha256": "b1f6ac35f7f57de07d59fa51deaf64c6e69c6213b4f22fda97ee07e571b9796c",
+    "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      740,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1124,
+      "cy": 720,
+      "w": 43,
+      "angle": 67
+    },
+    "glass": {
+      "x": 1090,
+      "y": 558
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1031,
+        "y0": 479,
+        "x1": 1153,
+        "y1": 756
+      },
+      "paper": {
+        "x0": 1088,
+        "y0": 675,
+        "x1": 1153,
+        "y1": 750
+      }
+    },
+    "personalityBounds": {
+      "keyring": {
+        "x0": 867,
+        "y0": 578,
+        "x1": 1017,
+        "y1": 660
+      },
+      "foldedLinen": {
+        "x0": 809,
+        "y0": 565,
+        "x1": 1082,
+        "y1": 679
+      }
+    },
+    "recognitionRegions": {
+      "keyring": {
+        "x0": 867,
+        "y0": 578,
+        "x1": 1017,
+        "y1": 660
+      },
+      "foldedLinen": {
+        "x0": 809,
+        "y0": 565,
+        "x1": 1082,
+        "y1": 679
+      }
+    },
+    "supportingBounds": {
+      "beerGlass": {
+        "x0": 1160,
+        "y0": 352,
+        "x1": 1316,
+        "y1": 727
+      },
+      "beerMat": {
+        "x0": 1151,
+        "y0": 694,
+        "x1": 1331,
+        "y1": 734
+      },
+      "beerLiquid": {
+        "x0": 1164,
+        "y0": 409,
+        "x1": 1312,
+        "y1": 685
+      },
+      "beerFoam": {
+        "x0": 1162,
+        "y0": 379,
+        "x1": 1314,
+        "y1": 414
+      },
+      "ryeLiquid": {
+        "x0": 1034,
+        "y0": 550,
+        "x1": 1150,
+        "y1": 632
+      },
+      "cord": {
+        "x0": 1081,
+        "y0": 639,
+        "x1": 1110,
+        "y1": 692
+      }
+    },
+    "physicalRecognitionRegions": {
+      "wholeUnmixedPair": {
+        "x0": 1031,
+        "y0": 352,
+        "x1": 1331,
+        "y1": 756
+      },
+      "beerFoam": {
+        "x0": 1162,
+        "y0": 379,
+        "x1": 1314,
+        "y1": 414
+      },
+      "beerMat": {
+        "x0": 1151,
+        "y0": 694,
+        "x1": 1331,
+        "y1": 734
+      }
+    },
+    "visibility": {
+      "keyring": {
+        "masterClipped": false,
+        "occluded": false,
+        "unseenExtent": null
+      },
+      "foldedLinen": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null,
+        "note": "Rye obscures right rear fold; hidden extent not invented."
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Stem below bowl supports small taupe descending V-like chain into punched-hole paper.",
+      "anchorBounds": {
+        "x0": 1081,
+        "y0": 639,
+        "x1": 1105,
+        "y1": 674
+      },
+      "knotPoint": {
+        "x": 1099,
+        "y": 672
+      },
+      "holePoint": {
+        "x": 1106,
+        "y": 686
+      },
+      "knot": "Tiny front crossing, true snug tied knot unclear.",
+      "tether": "Shortened front doubled V, not long bright bow; whole stem loop not discernible.",
+      "hole": "Punched hole with cord entry visible.",
+      "gravity": "Paper below stem attachment, bottom at timber/foot.",
+      "airGap": "Face outboard bowl, overlaps foot in projection.",
+      "contact": "Lower edge near timber; whether paper contacts wood or foot not proven.",
+      "occlusion": "Rear stem loop closure invisible.",
+      "uncertainties": [
+        "Rear loop and knot/load unknown",
+        "Doubled V front rather than verified single loop",
+        "Paper/foot/timber load/contact ambiguous"
+      ],
+      "status": "Held, not physics PASS"
+    },
+    "recognitionUnionWidth": 522,
+    "cropAssessment": {
+      "portrait": "702px proposal retains both complete vessels/beer foam/mat/paper and substantial whole keys+linen. This source crop has69px left and111px right union clearance, but full portrait is NOT moving389px phone; union522px remains held.",
+      "movingPhone": "Whole recognition union522px; no phone PASS."
+    },
+    "review": {
+      "recipe": "ONE serving/TWO unmixed vessels retained: amber rye in small stem glass, pale clear cold pilsner with white finger foam. No ice/fruit/garnish/dropped glass. Beer375px tall, rye277px; capacity/45ml absolute not provable. Rye retains speckle-like highlights, stillness appearance hold rather than confirmed carbonation.",
+      "personality": "Whole recognizable keyring on folded dinner linen now compact in depth. Key-checking habit explicit in closed room; physical keyring inferred. Linen ownership inferred from ordinary dinner/waiter scene, weaker specificity. Whole union522px exceeds moving-phone389px target.",
+      "world": "Pulled-back historic reading-room world. Orange glossy crackled table, window+lamp+candle multiple-light appearance and busy left chairs/window remain held; beer dense repetitive droplets.",
+      "issues": [
+        "Rye speckle/highlight stillness appearance held",
+        "Beer dense uniform droplets; capacity/fill absolute cannot be proved",
+        "Whole union522px, not moving389px phone-safe",
+        "Glossy amber crackled timber and multiple-light/window appearance",
+        "Tag small43px writing axis; actual name-fit deferred, do not inflate",
+        "Stem rear loop/knot load and paper-foot contact unknown",
+        "Linen ownership/personality specificity inferred"
+      ]
+    },
+    "status": "Held native candidate; not exported or accepted.",
+    "sourceRefresh": {
+      "previousSourceSha256": "cd9b909ee55d60451ba39fdb2c02b4115f53b4001deac21cf957bd1d73f3010d",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** You say what everybody does. Suddenly nobody's the only one.",
+        "+ - **tagline:** Your most embarrassing moments make people feel better about theirs.",
+        "- **tagline:** You say what everybody does. Suddenly nobody's the only one.",
+        "+ **tagline:** Your most embarrassing moments make people feel better about theirs."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1290.7177033492824,
+        "cy": 827.2340425531914,
+        "w": 49.377990430622006,
+        "angle": 67.01095653364663
+      },
+      "glass": {
+        "x": 1251.6746411483252,
+        "y": 641.1063829787234
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 490.1196581196582,
+        "cy": 919.1489361702128,
+        "w": 54.883190883190885,
+        "angle": 67.0039141813574
+      },
+      "glass": {
+        "x": 446.72364672364677,
+        "y": 712.3404255319149
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/jester-regular-guy/portrait.jpg",
+    "wide": "/personas/jester-regular-guy/wide.jpg",
+    "wideTag": {
+      "cx": 0.6722488038277512,
+      "cy": 0.7659574468085106,
+      "w": 0.025717703349282296,
+      "angle": 67.01095653364663
+    },
+    "wideGlass": {
+      "x": 0.6519138755980861,
+      "y": 0.5936170212765958
+    },
+    "tag": {
+      "cx": 0.5470085470085471,
+      "cy": 0.7659574468085106,
+      "w": 0.06125356125356125,
+      "angle": 67.0039141813574
+    },
+    "glass": {
+      "x": 0.4985754985754986,
+      "y": 0.5936170212765958
+    }
+  },
+  "hashes": {
+    "master": "dc9fc8c19f7460c20a473f82f999518f792b75827638e40c82da8052e1a29fe0",
+    "wide": "fb574d5b5a6d39957a72be681af060ecb715702d7e708e8dc42c76309c7a9290",
+    "portrait": "e5f8cad4df89724dd7b8cf0edc45c88ae4d54f3879f5cb7e44599f618e276670"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1183.9234449760766,
+          "y0": 550.3404255319149,
+          "x1": 1324.0191387559807,
+          "y1": 868.5957446808511
+        },
+        "paper": {
+          "x0": 1249.3779904306218,
+          "y0": 775.531914893617,
+          "x1": 1324.0191387559807,
+          "y1": 861.7021276595744
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 906.6028708133971,
+          "y0": 458.6170212765958,
+          "x1": 1023.3492822966507,
+          "y1": 723.8297872340426
+        },
+        "paper": {
+          "x0": 961.1483253588517,
+          "y0": 646.2765957446809,
+          "x1": 1023.3492822966507,
+          "y1": 718.0851063829787
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1262.8516746411483,
+          "y0": 533.6697872340426,
+          "x1": 1412.2870813397128,
+          "y1": 873.1421276595745
+        },
+        "paper": {
+          "x0": 1332.66985645933,
+          "y0": 773.8740425531915,
+          "x1": 1412.2870813397128,
+          "y1": 865.7889361702128
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2121.1961722488036,
+          "y0": 758.3265957446808,
+          "x1": 2372.2009569377988,
+          "y1": 1328.5340425531915
+        },
+        "paper": {
+          "x0": 2238.468899521531,
+          "y0": 1161.7946808510637,
+          "x1": 2372.2009569377988,
+          "y1": 1316.1829787234042
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4985754985754986,
+        "y": 0.5936170212765958
+      },
+      "bounds": {
+        "glass": {
+          "x0": 141.4800379867047,
+          "y0": 430.0808510638298,
+          "x1": 250.99965811965814,
+          "y1": 678.7914893617021
+        },
+        "paper": {
+          "x0": 192.64904083570752,
+          "y0": 606.063829787234,
+          "x1": 250.99965811965814,
+          "y1": 673.4042553191489
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4985754985754986,
+        "y": 0.5936170212765958
+      },
+      "bounds": {
+        "glass": {
+          "x0": 155.9007027540361,
+          "y0": 474.9234042553192,
+          "x1": 276.8394301994302,
+          "y1": 749.5659574468086
+        },
+        "paper": {
+          "x0": 212.4048622981956,
+          "y0": 669.2553191489362,
+          "x1": 276.8394301994302,
+          "y1": 743.6170212765958
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4985754985754986,
+        "y": 0.5936170212765958
+      },
+      "bounds": {
+        "glass": {
+          "x0": 123.89986704653371,
+          "y0": 289.43829787234046,
+          "x1": 197.60501424501422,
+          "y1": 456.81702127659577
+        },
+        "paper": {
+          "x0": 158.3358784425451,
+          "y0": 407.87234042553195,
+          "x1": 197.60501424501422,
+          "y1": 453.1914893617021
+        }
+      }
+    }
+  ]
+}

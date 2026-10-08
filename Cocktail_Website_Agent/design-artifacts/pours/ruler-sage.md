@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 ## Cocktail
 
 - **name:** Either Way
-- **tagline:** Even the people you've ruled against trust you. Especially them.
+- **tagline:** You want a fair answer, even when it means changing your mind.
 - **glassware:** old-fashioned glass (rocks glass, about 300 ml), filled with ice cubes
 - **contains:** `["gluten"]`
 
@@ -191,7 +191,7 @@ A heavy, plain old-fashioned glass on a clean, pale stone counter whose front ed
 Wren's title-block notes:
 
 - **name:** **Either Way** (my final pick, round 5; Hester's pick, and Tomás could take it: the same answer whichever side, which is the person's gift, and it doesn't echo the tagline). Also considered: *By Its Name* (mine until round 5; after C1 it rested on labelling rules in general) · *No Favourites* (Tomás's: true, but it reads as praise) · *Heard Out* · *Called What It Is*
-- **tagline:** **Even the people you've ruled against trust you. Especially them.** (alternatives in `psychologist-alternatives.md`)
+- **tagline:** **You want a fair answer, even when it means changing your mind.** (alternatives in `psychologist-alternatives.md`)
 - **epigraph:** *There's whisky in this glass that rival distillers once insisted wasn't whisky at all.*
 
 ### Open items

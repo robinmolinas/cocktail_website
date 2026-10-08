@@ -1,0 +1,182 @@
+{
+  "pairing": "outlaw-magician",
+  "pour": "For Its Own Good",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-25c3b460-5359-4eb0-ac12-681ce8518eec.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "60c752a7ba451ee2ea922fa2cdc0dec9e3a37393832f4404e997d98a1c7aa073",
+  "sourceSha256": "4b39b1d297f338877057213e35fe3edbd35d4029d6c8a9a9fd9dbde437fb8736",
+  "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+  "roomSha256": "a546db17def9719823518e68b9c792e3d6eac01a16c35511c68ef0df472b803e",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    800,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1287,
+    "cy": 658,
+    "w": 117,
+    "angle": 15
+  },
+  "glass": {
+    "x": 1045,
+    "y": 523
+  },
+  "bounds": {
+    "glass": {
+      "x0": 880,
+      "y0": 317,
+      "x1": 1208,
+      "y1": 692
+    },
+    "paper": {
+      "x0": 1198,
+      "y0": 615,
+      "x1": 1359,
+      "y1": 699
+    }
+  },
+  "personalityBounds": {
+    "weekendBag": {
+      "x0": 568,
+      "y0": 97,
+      "x1": 1095,
+      "y1": 546
+    },
+    "openedBinderAndSheets": {
+      "x0": 1198,
+      "y0": 364,
+      "x1": 1672,
+      "y1": 595
+    }
+  },
+  "recognitionRegions": {
+    "weekendBag": {
+      "x0": 568,
+      "y0": 97,
+      "x1": 1095,
+      "y1": 546
+    },
+    "openedBinderAndSheets": {
+      "x0": 1198,
+      "y0": 364,
+      "x1": 1672,
+      "y1": 595
+    }
+  },
+  "supportingBounds": {
+    "ice": {
+      "x0": 950,
+      "y0": 404,
+      "x1": 1159,
+      "y1": 596
+    },
+    "liquid": {
+      "x0": 889,
+      "y0": 449,
+      "x1": 1195,
+      "y1": 610
+    },
+    "cord": {
+      "x0": 889,
+      "y0": 579,
+      "x1": 1229,
+      "y1": 649
+    },
+    "binderRings": {
+      "x0": 1264,
+      "y0": 364,
+      "x1": 1446,
+      "y1": 459
+    },
+    "servedGarnish": null
+  },
+  "physicalRecognitionRegions": {
+    "oneCube": {
+      "x0": 950,
+      "y0": 404,
+      "x1": 1159,
+      "y1": 596
+    },
+    "servedGarnish": null
+  },
+  "visibility": {
+    "weekendBag": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Glass occludes bag; bounds encompass all visible body/strap/handle."
+    },
+    "openedBinderAndSheets": {
+      "masterClipped": true,
+      "clippedEdges": [
+        "right"
+      ],
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Native image cuts binder/sheet far-right; no invented full hidden extent."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Low exterior circumferential taupe loop with side knot and short downward tether through paper hole; wood-supported paper.",
+    "anchorBounds": {
+      "x0": 890,
+      "y0": 580,
+      "x1": 1200,
+      "y1": 626
+    },
+    "knotPoint": {
+      "x": 1190,
+      "y": 599
+    },
+    "holePoint": {
+      "x": 1221,
+      "y": 639
+    },
+    "knot": "Small visible side crossing; exact knot structure not resolved.",
+    "tether": "Short visible downward/outward strand reaches punched hole; no rim anchor.",
+    "hole": "Dark punched hole visible near paper left shoulder.",
+    "gravity": "Paper below support; lower edge rests on wood.",
+    "airGap": "Most writable face clear of glass; neck area near knot ambiguous.",
+    "contact": "Paper lower edge contacts timber with shadow.",
+    "occlusion": "Rear loop occluded; front curved strand visible.",
+    "uncertainties": [
+      "Rear closure/friction and load unknown.",
+      "Cord remains brighter/thicker than ideal subdued single strand.",
+      "Possible doubled return near knot; not unconditional physics PASS."
+    ],
+    "status": "Front chain plausible; held uncertainties."
+  },
+  "recognitionUnionWidth": 1104,
+  "cropAssessment": {
+    "portrait": "Proposed 702×940 retains glass/paper but cuts substantial bag and binder; no whole-trace retention claim.",
+    "movingPhone": "Full recognizable union far exceeds ~389 px animated phone inner window; personality held."
+  },
+  "review": {
+    "recipe": "One finished built grappa Old-Fashioned, heavy tumbler, one cube, still red-amber drink and no garnish visible. Color darkness/volume estimate remain watch.",
+    "personality": "End-on bag and opened binder in v2 are more depth-overlapped but still generic inferred travel/work traces, binder clipped.",
+    "world": "Historic room, dark walnut; flatter material than preceding batch but warm glossy right reflection and dense glass spots remain.",
+    "issues": [
+      "Personal traces inferred, not named possessions; ordinary travel/admin may not express loving disruption.",
+      "Whole bag and binder greatly exceed the moving-phone window; binder clipped at native right edge; unseen extent unknown.",
+      "Liquid darker and more saturated than source light red-amber estimate.",
+      "Dense upper-glass spots/frost and warm glossy right timber reflection remain held.",
+      "Rear loop, friction and actual knot load cannot be proved from front view.",
+      "Name fit on blank small label untested; no portrait/phone/browser acceptance."
+    ]
+  },
+  "status": "Held measured candidate; no exports/integration/browser acceptance."
+}
+

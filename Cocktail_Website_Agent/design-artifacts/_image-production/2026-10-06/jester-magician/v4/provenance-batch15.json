@@ -1,0 +1,21 @@
+{
+  "pairing": "jester-magician",
+  "date": "2026-10-08",
+  "mode": "Root-authorized sole targeted correction of own v3 portrait",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-3320fa54-1083-4008-904a-dfb62b015887.png",
+  "projectCopy": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v4/portrait-master.png",
+  "reference": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/portrait-master.png",
+  "prompt": "portrait-prompt-batch15.txt",
+  "currentSources": {
+    "dossier": "design-artifacts/pours/jester-magician.md",
+    "spec": "design-artifacts/pours/_studio/specs/jester-magician.json",
+    "room": "design-artifacts/pours/_studio/rooms/jester-magician.md",
+    "read": "Full current text read this turn before calls, unchanged recipe/editorial, no fingerprint execution or hashPASS"
+  },
+  "preservation": "cp-n exact tool source left original in place; equality hash not executed",
+  "primaryCallsThisPair": 2,
+  "correctionCallsThisPair": 1,
+  "wholeOwnerCallCount": 6,
+  "selectedComparison": "Unchanged v3/wide-master.png + unchanged v3/portrait-master.png, BOTH held; root independently reviewed and rejected v4 as selection",
+  "status": "v4 preserved alternate ONLY; no v4wide or finalJPEGs"
+}

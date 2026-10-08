@@ -1,0 +1,22 @@
+{
+  "batch": 13,
+  "pairing": "explorer-creator",
+  "version": "v1",
+  "operation": "fresh built-in generation",
+  "input": null,
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-236e5753-6bf0-4c83-b5bf-3f321631796a.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v1/master.png",
+  "originalSha256": "82bffea12a636aa1ec351124dc119820fb989fe26f3a60ad417cfe84c313a2f1",
+  "copySha256": "82bffea12a636aa1ec351124dc119820fb989fe26f3a60ad417cfe84c313a2f1",
+  "nativeDimensions": [
+    1672,
+    941
+  ],
+  "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+  "specSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+  "roomSha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8",
+  "promptFile": "prompt-batch13.md",
+  "readinessFile": "readiness-batch13.md",
+  "callCountForPair": 1,
+  "selection": "superseded by sole edit; preserved"
+}

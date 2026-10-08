@@ -1,0 +1,5 @@
+# Anyone Would Have — portrait primary readiness
+
+Before this call, complete current hero-regular-guy dossier (1–250 to EOF), complete JSON spec, and closed room (1–350 to EOF) reread. Current core rules, DESIGN/PRODUCT, batch15 plan, continuation, applied decisions and imagegen/Impeccable written guidance were fully read in this turn. Exact recipe remains one 400ml rocks, cloudy pink-red sparkling Sling, one large cube, 3 top bitters dashes, no garnish. Room r7 closed/sign-offs; current D1 is classification only, not a recipe change.
+
+Reference is own fresh v3 wide, not old v2. Torch and screwdriver are ordinary object-form inference from explicit fusebox/preparation habit, not claimed documented possessions or electrical safety. Old magical page and ingredient inventory are removed. Aim compact depth and substantially smaller vessel; geometry/name/phone/physics require actual review, not prompt compliance. Primary call 4 of 4; no corrective call for this pairing authorized. Fingerprints not freshly executed under batch restrictions; no fresh SHA or native-header verification claimed.

@@ -6,6 +6,8 @@ reviewed: 2026-09-23
 spine_modified: false
 ---
 
+> **Architecture review history — reviewed 8 October 2026.** The architecture spine contains the adopted resolutions. This preserves the findings at their date; it is not a fresh external technology/licence verification. Current direction: [experience specification](../../design-artifacts/2026-07-08-experience-master-spec.md).
+
 # Review: Tech currency of the Dionysus architecture spine
 
 ## Verdict

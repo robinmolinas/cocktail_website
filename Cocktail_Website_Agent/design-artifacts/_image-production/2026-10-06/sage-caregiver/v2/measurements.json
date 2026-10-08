@@ -1,0 +1,153 @@
+{
+  "pairing": "sage-caregiver",
+  "pour": "Further Than Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-caregiver/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-dedae367-9e47-42e0-a916-8ec23ae77112.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "2c618c410ffc14f571032cc94fc80faaffd9db81c9c30743f122c9e5a43452be",
+  "sourceSha256": "28566d97e3a6601310ad54ada169c8b5beb7fa5df9dcfd2e3f792948eba646e0",
+  "specSha256": "397c3f3bc87ff0e5a67da66fb0072dd8f296c7004984c0af4ebfe077015e9eb9",
+  "roomSha256": "c1ff52109d7ad2140eed28e15918c1ee0b451ca497994e480d49b42bf9098d2c",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    578,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1024,
+    "cy": 701,
+    "w": 91,
+    "angle": 100
+  },
+  "glass": {
+    "x": 1060,
+    "y": 545
+  },
+  "bounds": {
+    "glass": {
+      "x0": 964,
+      "y0": 349,
+      "x1": 1157,
+      "y1": 736
+    },
+    "paper": {
+      "x0": 987,
+      "y0": 635,
+      "x1": 1068,
+      "y1": 751
+    },
+    "phone": {
+      "x0": 682,
+      "y0": 563,
+      "x1": 978,
+      "y1": 651
+    },
+    "spectacles": {
+      "x0": 745,
+      "y0": 502,
+      "x1": 978,
+      "y1": 600
+    },
+    "mintGarnish": {
+      "x0": 950,
+      "y0": 256,
+      "x1": 1093,
+      "y1": 385
+    },
+    "tarragonGarnish": {
+      "x0": 1051,
+      "y0": 268,
+      "x1": 1175,
+      "y1": 571
+    }
+  },
+  "recognitionRegions": {
+    "phone": {
+      "bounds": {
+        "x0": 686,
+        "y0": 570,
+        "x1": 974,
+        "y1": 649
+      },
+      "reason": "Broad device body, blank dark screen and device edge; right end occluded."
+    },
+    "spectacles": {
+      "bounds": {
+        "x0": 747,
+        "y0": 503,
+        "x1": 976,
+        "y1": 589
+      },
+      "reason": "Left lens, bridge and substantial right lens crescent plus folded arm recognize spectacles; right lens partly occluded."
+    }
+  },
+  "objectVisibility": {
+    "phone": "Right end hidden by glass; unseen full extent unknown. Bounds visible silhouette only.",
+    "spectacles": "Right lens/arm partly hidden by glass; unseen extent unknown.",
+    "garnishes": "Mint/tarragon separately visible, upper tips256/268 nearly equal; garnish stems enter liquid. Still image cannot prove fine straining."
+  },
+  "supportingObjectUnion": {
+    "x0": 682,
+    "y0": 256,
+    "x1": 1175,
+    "y1": 651
+  },
+  "tagPhysics": {
+    "mechanism": "Snug exterior burgundy loop y583–615 below rim349; front curve follows cylinder, cord disappears at sidewalls.",
+    "knot": "Tiny visible junction near1036/615; exact knot depth/load unresolved.",
+    "tetherAndHole": "Continuous short paired strand to punched hole near1039/650.",
+    "gravity": "Paper hangs below knot, slight left tilt.",
+    "paperSeparationOrContact": "Upper paper overlaps glass silhouette, lower face projects away and lower edge y749 contacts wood with shadow; upper air gap not directly observable.",
+    "uncertainties": [
+      "Far-side closure/friction load unobservable.",
+      "Tiny knot and upper paper/glass gap uncertain.",
+      "Paper contacts timber; not whole-tag floating."
+    ],
+    "status": "Plausible visible chain/contact; uncertainties held, no physics PASS."
+  },
+  "review": {
+    "recipe": "Pale hazy gin/lemon/simple Southside+soda ice highball/no foam/citrus. Mint and tarragon tips now near-equal; one each inside plausible. Fine straining not provable from submerged garnish stems.",
+    "personality": "Phone from explicit calls and spectacles inferred thoughtful listening recognizable, depth-overlapped; right lens partly hidden and specificity inferred.",
+    "world": "Dark historic timber/quiet left/practical retained, but glossy amber alligator-like timber and dense granular glass/ice remain held.",
+    "issues": [
+      "Glass387px, improved from548 but above300–360target.",
+      "Full visible essential493px; conservative glass/paper/recognition475px >389movingphone.",
+      "702portrait contains visible group, not phone approval.",
+      "Glossy textured timber/dense glass ice material hold.",
+      "Tag91px writable axis/actual names untested.",
+      "Tiny knot/upper gap/friction uncertain.",
+      "No JPEG/browser/export/acceptance;2calls exhausted."
+    ]
+  },
+  "roomFixtures": {
+    "lamp": {
+      "bounds": {
+        "x0": 1490,
+        "y0": 0,
+        "x1": 1672,
+        "y1": 400
+      },
+      "visibility": "Optional room fixture clipped right/top; unseen extent unknown, not personality."
+    },
+    "chair": {
+      "bounds": {
+        "x0": 0,
+        "y0": 206,
+        "x1": 290,
+        "y1": 535
+      },
+      "visibility": "Optional room fixture clipped left; unseen extent unknown."
+    }
+  }
+}
+

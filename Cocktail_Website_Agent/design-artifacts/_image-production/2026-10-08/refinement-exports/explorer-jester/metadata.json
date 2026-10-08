@@ -1,0 +1,692 @@
+{
+  "pairing": "explorer-jester",
+  "pour": "Why Not?",
+  "status": "private-review-export; all-acceptance-gates-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "6ab22e983ef53eac3e23e40419d75b00cfd5a47d4c4ff4827dc79e100eb7679b",
+  "review": {
+    "recipe": "One china cup, hot brown liquid, single peel IN, no ice/egg/flame. Colour darker than v2 but exact ale shade/opacity unproved.",
+    "personality": "Clamp+spanner readable recent-use relation but large and wide; clamp partly clipped.",
+    "world": "Ceramic plain; timber remains glossy amber with busy shallow relief; clamp wear/metal texture heavy.",
+    "issues": [
+      "material-gloss-orange",
+      "clipped-clamp",
+      "wide-personality-sprawl",
+      "tag-rear-support-uncertain",
+      "paper-below-wide-central80",
+      "name/browser-unchecked"
+    ]
+  },
+  "measurements": {
+    "pairing": "explorer-jester",
+    "pour": "Why Not?",
+    "asset": "wide",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/wide-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-6d4fa5db-79d9-466f-a5c5-69bf544d2a43.png",
+    "masterSha256": "a8ac915f30d159f3030f6fa10377aa7c93454d8bff8008d1da6b7362fc2e2623",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "6ab22e983ef53eac3e23e40419d75b00cfd5a47d4c4ff4827dc79e100eb7679b",
+    "specSha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851",
+    "roomSha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6",
+    "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      970,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1388,
+      "cy": 743,
+      "w": 117,
+      "angle": 65
+    },
+    "glass": {
+      "x": 1116,
+      "y": 594
+    },
+    "bounds": {
+      "glass": {
+        "x0": 824,
+        "y0": 445,
+        "x1": 1404,
+        "y1": 738
+      },
+      "paper": {
+        "x0": 1314,
+        "y0": 655,
+        "x1": 1465,
+        "y1": 823
+      }
+    },
+    "supportingBounds": {
+      "saucer": {
+        "x0": 740,
+        "y0": 594,
+        "x1": 1410,
+        "y1": 796
+      },
+      "orangePeel": {
+        "x0": 976,
+        "y0": 504,
+        "x1": 1120,
+        "y1": 550
+      },
+      "steam": {
+        "x0": 921,
+        "y0": 257,
+        "x1": 1009,
+        "y1": 449
+      },
+      "clampedJoint": {
+        "x0": 1086,
+        "y0": 299,
+        "x1": 1310,
+        "y1": 449
+      },
+      "tagCord": {
+        "x0": 1298,
+        "y0": 590,
+        "x1": 1368,
+        "y1": 691
+      }
+    },
+    "personalityBounds": {
+      "handClamp": {
+        "x0": 938,
+        "y0": 154,
+        "x1": 1672,
+        "y1": 607
+      },
+      "spanner": {
+        "x0": 1343,
+        "y0": 182,
+        "x1": 1653,
+        "y1": 646
+      }
+    },
+    "recognitionRegions": {
+      "handClamp": {
+        "x0": 938,
+        "y0": 154,
+        "x1": 1672,
+        "y1": 607
+      },
+      "spanner": {
+        "x0": 1343,
+        "y0": 182,
+        "x1": 1653,
+        "y1": 646
+      }
+    },
+    "physicalRecognitionRegions": {
+      "cup": {
+        "x0": 824,
+        "y0": 445,
+        "x1": 1404,
+        "y1": 738
+      },
+      "saucer": {
+        "x0": 740,
+        "y0": 594,
+        "x1": 1410,
+        "y1": 796
+      },
+      "servedOrange": {
+        "x0": 976,
+        "y0": 504,
+        "x1": 1120,
+        "y1": 550
+      }
+    },
+    "visibility": {
+      "handClamp": {
+        "masterClipped": true,
+        "occluded": true,
+        "unseenExtent": null,
+        "note": "Right lower timber clamp endpoint reaches frame edge; behind cup hidden extent unknown."
+      },
+      "spanner": {
+        "masterClipped": false,
+        "occluded": false,
+        "unseenExtent": null
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Low cup-handle/saucer-region cord, rear routing uncertain",
+      "anchorBounds": {
+        "x0": 1298,
+        "y0": 590,
+        "x1": 1368,
+        "y1": 659
+      },
+      "knotPoint": {
+        "x": 1344,
+        "y": 655
+      },
+      "holePoint": {
+        "x": 1353,
+        "y": 675
+      },
+      "knot": "Small doubled dark gathering visible",
+      "tether": "Front doubled ~20px descent reaches hole; left tail ~45px",
+      "hole": "Dark punched circle and twine visible",
+      "gravity": "Paper slopes down to timber beyond saucer",
+      "airGap": "Gap from bowl visible",
+      "contact": "Bottom on timber probable with shadow",
+      "occlusion": "Route through/behind handle versus saucer edge not fully proved",
+      "uncertainties": [
+        "Actual handle loop/load hidden",
+        "Longer tail and doubled attachment",
+        "No mechanical PASS"
+      ],
+      "status": "held"
+    },
+    "recognitionUnionWidth": 932,
+    "cropAssessment": {
+      "wide": "Cup bottom y738 inside 80%; paper y823 exceeds 80%; clamp right clipped.",
+      "portraitFromWide": "Proposed 702px crop clips left saucer and clamp. Not selected portrait; dedicated companion required.",
+      "movingPhone": "932px full object union cannot fit roughly389px window; HOLD."
+    },
+    "review": {
+      "recipe": "One china cup, hot brown liquid, single peel IN, no ice/egg/flame. Colour darker than v2 but exact ale shade/opacity unproved.",
+      "personality": "Clamp+spanner readable recent-use relation but large and wide; clamp partly clipped.",
+      "world": "Ceramic plain; timber remains glossy amber with busy shallow relief; clamp wear/metal texture heavy.",
+      "issues": [
+        "material-gloss-orange",
+        "clipped-clamp",
+        "wide-personality-sprawl",
+        "tag-rear-support-uncertain",
+        "paper-below-wide-central80",
+        "name/browser-unchecked"
+      ]
+    },
+    "status": "held-candidate",
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/wide-measurements.json",
+      "originalMeasurementSha256": "f731b3ea7c0b51b5559a98b01b648a5d7f570617298cc47514872be2f9864f9b",
+      "previousSourceSha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "portraitMeasurementFile": "portrait-measurements.json"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1593.8755980861242,
+        "cy": 853.6595744680851,
+        "w": 134.35406698564594,
+        "angle": 65.01166807041008
+      },
+      "glass": {
+        "x": 1281.531100478469,
+        "y": 682.468085106383
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 650.1052631578947,
+        "cy": 804.2105263157895,
+        "w": 69.05263157894737,
+        "angle": 66
+      },
+      "glass": {
+        "x": 488.42105263157896,
+        "y": 714.1052631578948
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/explorer-jester/portrait.jpg",
+    "wide": "/personas/explorer-jester/wide.jpg",
+    "wideTag": {
+      "cx": 0.8301435406698564,
+      "cy": 0.7904255319148936,
+      "w": 0.06997607655502393,
+      "angle": 65.01166807041008
+    },
+    "wideGlass": {
+      "x": 0.6674641148325359,
+      "y": 0.6319148936170212
+    },
+    "tag": {
+      "cx": 0.7255639097744361,
+      "cy": 0.6701754385964912,
+      "w": 0.07706766917293233,
+      "angle": 66
+    },
+    "glass": {
+      "x": 0.5451127819548872,
+      "y": 0.5950877192982457
+    }
+  },
+  "hashes": {
+    "master": "a8ac915f30d159f3030f6fa10377aa7c93454d8bff8008d1da6b7362fc2e2623",
+    "wide": "0f8448d7f59b061538496353f1ddcfe7dcd91cf4dd4648fb81d78ff699e8456d",
+    "portrait": "06bbd8a886eb8df46862afe2f683ef23bcbdbeb4abcb76a9be2ce7255cbcaf16",
+    "portraitMaster": "0538f3b53ee98d0641728600c73b9d7964bda0b5bc4874c7a0df48445d5b2292"
+  },
+  "geometryScope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 946.22009569378,
+          "y0": 511.27659574468083,
+          "x1": 1612.248803827751,
+          "y1": 847.9148936170212
+        },
+        "paper": {
+          "x0": 1508.8995215311006,
+          "y0": 752.5531914893617,
+          "x1": 1682.2966507177034,
+          "y1": 945.5744680851064
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 708.5167464114833,
+          "y0": 426.06382978723406,
+          "x1": 1263.5406698564593,
+          "y1": 706.595744680851
+        },
+        "paper": {
+          "x0": 1177.4162679425838,
+          "y0": 627.1276595744681,
+          "x1": 1321.9138755980862,
+          "y1": 787.9787234042553
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1009.3014354066986,
+          "y0": 492.00170212765954,
+          "x1": 1719.732057416268,
+          "y1": 851.0825531914893
+        },
+        "paper": {
+          "x0": 1609.4928229665072,
+          "y0": 749.3634042553191,
+          "x1": 1794.4497607655503,
+          "y1": 955.2527659574469
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.513027079303675
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1695.311004784689,
+          "y0": 662.0888297872341,
+          "x1": 2888.6124401913876,
+          "y1": 1265.2324468085108
+        },
+        "paper": {
+          "x0": 2703.444976076555,
+          "y0": 1094.3760638297874,
+          "x1": 3014.1148325358854,
+          "y1": 1440.2058510638299
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5451127819548872,
+        "y": 0.5950877192982457
+      },
+      "bounds": {
+        "glass": {
+          "x0": 97.69152882205512,
+          "y0": 442.4336842105263,
+          "x1": 330.4578446115288,
+          "y1": 566.8126315789474
+        },
+        "paper": {
+          "x0": 297.88240601503753,
+          "y0": 534.2371929824561,
+          "x1": 352.3722305764411,
+          "y1": 595.2421052631579
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5451127819548872,
+        "y": 0.5950877192982457
+      },
+      "bounds": {
+        "glass": {
+          "x0": 107.51568922305765,
+          "y0": 488.5642105263158,
+          "x1": 364.5514786967418,
+          "y1": 625.9115789473684
+        },
+        "paper": {
+          "x0": 328.57954887218045,
+          "y0": 589.939649122807,
+          "x1": 388.7507769423558,
+          "y1": 657.3052631578947
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5451127819548872,
+        "y": 0.5950877192982457
+      },
+      "bounds": {
+        "glass": {
+          "x0": 97.1083709273183,
+          "y0": 297.7515789473684,
+          "x1": 253.75679197994987,
+          "y1": 381.45684210526315
+        },
+        "paper": {
+          "x0": 231.83398496240602,
+          "y0": 359.5340350877193,
+          "x1": 268.5048621553885,
+          "y1": 400.58947368421053
+        }
+      }
+    }
+  ],
+  "portraitMeasurements": {
+    "pairing": "explorer-jester",
+    "pour": "Why Not?",
+    "asset": "portrait",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v4/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-b3191841-a070-40f1-8548-74dd78b8931b.png",
+    "masterSha256": "0538f3b53ee98d0641728600c73b9d7964bda0b5bc4874c7a0df48445d5b2292",
+    "masterDimensions": {
+      "width": 1084,
+      "height": 1451
+    },
+    "sourceSha256": "6ab22e983ef53eac3e23e40419d75b00cfd5a47d4c4ff4827dc79e100eb7679b",
+    "specSha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851",
+    "roomSha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6",
+    "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "wideCrop": null,
+    "portraitCrop": [
+      10,
+      13,
+      1064,
+      1425
+    ],
+    "tag": {
+      "cx": 782,
+      "cy": 968,
+      "w": 82,
+      "angle": 66
+    },
+    "glass": {
+      "x": 590,
+      "y": 861
+    },
+    "bounds": {
+      "glass": {
+        "x0": 396,
+        "y0": 760,
+        "x1": 789,
+        "y1": 970
+      },
+      "paper": {
+        "x0": 734,
+        "y0": 915,
+        "x1": 826,
+        "y1": 1018
+      }
+    },
+    "supportingBounds": {
+      "saucer": {
+        "x0": 349,
+        "y0": 872,
+        "x1": 764,
+        "y1": 1008
+      },
+      "orangePeel": {
+        "x0": 499,
+        "y0": 805,
+        "x1": 610,
+        "y1": 849
+      },
+      "steam": {
+        "x0": 491,
+        "y0": 628,
+        "x1": 550,
+        "y1": 763
+      },
+      "clampedJoint": {
+        "x0": 595,
+        "y0": 611,
+        "x1": 743,
+        "y1": 704
+      },
+      "tagCord": {
+        "x0": 726,
+        "y0": 867,
+        "x1": 765,
+        "y1": 939
+      }
+    },
+    "personalityBounds": {
+      "handClamp": {
+        "x0": 493,
+        "y0": 514,
+        "x1": 908,
+        "y1": 840
+      },
+      "spanner": {
+        "x0": 809,
+        "y0": 564,
+        "x1": 962,
+        "y1": 902
+      }
+    },
+    "recognitionRegions": {
+      "handClamp": {
+        "x0": 493,
+        "y0": 514,
+        "x1": 908,
+        "y1": 840
+      },
+      "spanner": {
+        "x0": 809,
+        "y0": 564,
+        "x1": 962,
+        "y1": 902
+      }
+    },
+    "physicalRecognitionRegions": {
+      "cup": {
+        "x0": 396,
+        "y0": 760,
+        "x1": 789,
+        "y1": 970
+      },
+      "saucer": {
+        "x0": 349,
+        "y0": 872,
+        "x1": 764,
+        "y1": 1008
+      },
+      "servedOrange": {
+        "x0": 499,
+        "y0": 805,
+        "x1": 610,
+        "y1": 849
+      }
+    },
+    "visibility": {
+      "handClamp": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null,
+        "note": "Whole visible clamp silhouette survives portrait; lower-left portion hidden by cup."
+      },
+      "spanner": {
+        "masterClipped": false,
+        "occluded": false,
+        "unseenExtent": null
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Low actual handle-region thin taupe front loop/knot/short hole tether",
+      "anchorBounds": {
+        "x0": 726,
+        "y0": 867,
+        "x1": 760,
+        "y1": 920
+      },
+      "knotPoint": {
+        "x": 750,
+        "y": 915
+      },
+      "holePoint": {
+        "x": 758,
+        "y": 931
+      },
+      "knot": "Small doubled gathering visible",
+      "tether": "~16px short descent to hole; short tail",
+      "hole": "Visible punched circle with strand",
+      "gravity": "Paper down/outside cup",
+      "airGap": "Clear separation from bowl",
+      "contact": "Lower corner near wood shadow; exact contact not fully proven",
+      "occlusion": "Rear lowhandle support/load hidden",
+      "uncertainties": [
+        "Rear routing/load unknown",
+        "Doubled strand",
+        "Woodcontact uncertain"
+      ],
+      "status": "held"
+    },
+    "recognitionUnionWidth": 613,
+    "cropAssessment": {
+      "portrait": "Whole visible cup/saucer/tag/tools survive native and [10,13,1064,1425]. Cup+saucer248px=17.1% height; smaller than25–30% aim. Meaningful group613px=56.5% nativewidth, misses40% target.",
+      "movingPhone": "613px union exceeds~601px fullnative and~590px proposedexactcrop breathing-endwidth, plus translation clearance untested: HOLD.",
+      "wide": "Root expressly pairs unchanged v3 wide; no new wide raster."
+    },
+    "review": {
+      "recipe": "ONE hot wide china+singlepeelIN+steam,noice/egg/flame; unchanged.",
+      "personality": "Full smaller spanner now close to realclamp; union613 versus766 improved but not central40% target. Clamp inferred, spanner explicit.",
+      "world": "Timber smoother versus alligator predecessor but retains strong warm sheen; clamp heavyfinewear persists.",
+      "issues": [
+        "portrait-group613-notcentral40",
+        "portrait-phone-clearance",
+        "material-warm-sheen-wear-watch",
+        "tag-rear-load-contact-uncertain",
+        "name/browser-unchecked"
+      ]
+    },
+    "status": "held-candidate",
+    "version": "v4",
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v4/portrait-measurements.json",
+      "originalMeasurementSha256": "23f6b24d8dca3f6339a889ee7c88e7681c151323ec8d545a2c2b6ac86628c186",
+      "previousSourceSha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    }
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

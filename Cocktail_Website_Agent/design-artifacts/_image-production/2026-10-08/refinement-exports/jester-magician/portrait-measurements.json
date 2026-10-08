@@ -1,0 +1,275 @@
+{
+  "native": {
+    "width": 1084,
+    "height": 1451
+  },
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/portrait-master.png",
+  "glass": {
+    "x": 610,
+    "y": 832
+  },
+  "glassBounds": {
+    "x0": 458,
+    "y0": 620,
+    "x1": 765,
+    "y1": 1059
+  },
+  "serveBounds": {
+    "x0": 458,
+    "y0": 620,
+    "x1": 765,
+    "y1": 1059
+  },
+  "ice": {
+    "visibleBounds": {
+      "x0": 470,
+      "y0": 677,
+      "x1": 754,
+      "y1": 977
+    },
+    "fullExtent": null
+  },
+  "garnish": {
+    "type": "ONE lemon strip",
+    "visibleBounds": {
+      "x0": 551,
+      "y0": 689,
+      "x1": 731,
+      "y1": 864
+    },
+    "hiddenExtent": null
+  },
+  "tag": {
+    "cx": 860,
+    "cy": 1052,
+    "w": 150,
+    "angle": 21
+  },
+  "props": {
+    "bowl": {
+      "visibleBounds": {
+        "x0": 296,
+        "y0": 524,
+        "x1": 756,
+        "y1": 737
+      },
+      "fullObjectBounds": null,
+      "unseenExtent": null,
+      "recognitionBounds": {
+        "x0": 298,
+        "y0": 545,
+        "x1": 746,
+        "y1": 727
+      }
+    },
+    "banana": {
+      "visibleBounds": {
+        "x0": 284,
+        "y0": 487,
+        "x1": 724,
+        "y1": 622
+      },
+      "fullObjectBounds": null,
+      "unseenExtent": null,
+      "recognitionBounds": {
+        "x0": 286,
+        "y0": 493,
+        "x1": 722,
+        "y1": 618
+      }
+    },
+    "keys": {
+      "visibleBounds": {
+        "x0": 374,
+        "y0": 586,
+        "x1": 566,
+        "y1": 649
+      },
+      "fullObjectBounds": null,
+      "unseenExtent": null,
+      "recognitionBounds": {
+        "x0": 403,
+        "y0": 588,
+        "x1": 566,
+        "y1": 648
+      },
+      "underBananaHabitRecognition": null,
+      "note": "Ring/head/teeth visible in front of fruit, not confidently underneath."
+    },
+    "mug1": {
+      "visibleBounds": {
+        "x0": 382,
+        "y0": 350,
+        "x1": 648,
+        "y1": 532
+      },
+      "fullObjectBounds": null,
+      "unseenExtent": null,
+      "objectRecognitionBounds": {
+        "x0": 386,
+        "y0": 353,
+        "x1": 643,
+        "y1": 520
+      },
+      "emptyInteriorRecognition": {
+        "x0": 431,
+        "y0": 356,
+        "x1": 637,
+        "y1": 377
+      },
+      "wallwardHabitRecognition": null
+    },
+    "mug2": {
+      "visibleBounds": {
+        "x0": 617,
+        "y0": 384,
+        "x1": 879,
+        "y1": 610
+      },
+      "fullObjectBounds": null,
+      "unseenExtent": null,
+      "objectRecognitionBounds": {
+        "x0": 619,
+        "y0": 386,
+        "x1": 874,
+        "y1": 600
+      },
+      "emptyInteriorRecognition": {
+        "x0": 629,
+        "y0": 391,
+        "x1": 829,
+        "y1": 411
+      },
+      "wallwardHabitRecognition": null
+    }
+  },
+  "fullVisibleEssentialUnion": {
+    "x0": 284,
+    "y0": 350,
+    "x1": 948,
+    "y1": 1102
+  },
+  "conservativeObjectRecognitionUnion": {
+    "x0": 286,
+    "y0": 353,
+    "x1": 948,
+    "y1": 1102
+  },
+  "personSpecificHabitUnion": null,
+  "proposedCrop": {
+    "portrait": [
+      0,
+      0,
+      1084,
+      1451
+    ],
+    "note": "Full portrait sibling not moving tall-phone retention or exact-size export."
+  },
+  "tagPhysics": {
+    "mechanism": "Exterior low clear-foot wrap",
+    "frontArc": "Closely doubled parallel curved arcs",
+    "sideOcclusion": "Cord curves round side; rear unseen",
+    "knot": "Visible tiny right-side knot near751,989",
+    "tether": "Short strands descend to hole795,1020",
+    "hole": "Punched hole visible",
+    "gravity": "Paper lowered from knot to timber",
+    "separateOrContact": "Outboard paper rests on table, no apparent pasted label",
+    "uncertainties": [
+      "Parallel bands conflict with single-strand requirement",
+      "Rear closure/load/friction unknown",
+      "Local tether strand multiplicity"
+    ],
+    "pass": false
+  },
+  "pairing": "jester-magician",
+  "pour": "The Kind You\u2019d Want",
+  "masterSha256": "be8d61c0407ff38d3cdbab443d4d7dc93865f3c9dd6a63f170c9f91a4a2c726c",
+  "sourceSha256": "738888b8ef651b33726c2314358e8352f5b4599a60fb43fd613c3c41260c71b2",
+  "specSha256": "3ce67214f49a9e03f9d5fded29ed434c347ad55ac0e85d7af06da1780e50bd79",
+  "masterDimensions": {
+    "width": 1083,
+    "height": 1452
+  },
+  "exportProvenance": {
+    "batch": 15,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/manual-geometry-batch15.json",
+    "originalMeasurementSha256": "83552a322f050d132e30b752ce27307887fcd9e21e6e42f2d6489c6629c61c7b",
+    "previousSourceSha256": null,
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {},
+  "bounds": {
+    "glass": {
+      "x0": 458,
+      "y0": 620,
+      "x1": 765,
+      "y1": 1059
+    },
+    "paper": {
+      "x0": 761,
+      "y0": 987,
+      "x1": 948,
+      "y1": 1102
+    },
+    "serve": {
+      "x0": 458,
+      "y0": 620,
+      "x1": 765,
+      "y1": 1059
+    }
+  },
+  "recognitionRegions": {
+    "bowl": {
+      "x0": 298,
+      "y0": 545,
+      "x1": 746,
+      "y1": 727
+    },
+    "banana": {
+      "x0": 286,
+      "y0": 493,
+      "x1": 722,
+      "y1": 618
+    },
+    "keys": {
+      "x0": 403,
+      "y0": 588,
+      "x1": 566,
+      "y1": 648
+    }
+  },
+  "originalProposedCrop": [
+    0,
+    0,
+    1084,
+    1451
+  ],
+  "portraitCrop": [
+    0,
+    0,
+    1083,
+    1451
+  ],
+  "wideCrop": [
+    0,
+    0,
+    1083,
+    1451
+  ],
+  "review": {
+    "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+    "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+    "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+    "issues": "Keys not convincingly beneath banana, mug action unproved, dense fizzy detail and repeated footcord. v4 made glass/group/wet shine larger; not selected."
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "pairing": "explorer-creator",
+  "pour": "For Good",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v3/portrait-master.png",
+  "masterSha256": "f0778f3fe87f2e472075aa6c418d35f8bca9d32159ceccb01f2f967c807c4fdb",
+  "masterDimensions": {
+    "width": 1086,
+    "height": 1448
+  },
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-d1177f08-27b3-48cc-828d-118704ecc35d.png",
+  "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+  "specSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+  "roomSha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "designSha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+  "tag": {
+    "cx": 640,
+    "cy": 954,
+    "w": 119,
+    "angle": 66
+  },
+  "glass": {
+    "x": 548,
+    "y": 744
+  },
+  "bounds": {
+    "glass": {
+      "x0": 399,
+      "y0": 481,
+      "x1": 700,
+      "y1": 1021
+    },
+    "paper": {
+      "x0": 570,
+      "y0": 873,
+      "x1": 692,
+      "y1": 1015
+    },
+    "box": {
+      "x0": 281,
+      "y0": 740,
+      "x1": 816,
+      "y1": 947
+    },
+    "caliper": {
+      "x0": 287,
+      "y0": 686,
+      "x1": 857,
+      "y1": 807
+    },
+    "frozenServe": {
+      "x0": 413,
+      "y0": 519,
+      "x1": 691,
+      "y1": 795
+    }
+  },
+  "unknownExtents": {
+    "box": null,
+    "caliper": null
+  },
+  "review": {
+    "recipe": "One opaque off-white frozen portion in goblet, no added cube/salt/garnish. Surface slightly mounded/slushy; exact volume/count not visible.",
+    "personality": "Box and caliper recognizable ordinary fixing-habit inferences, not historical objects; screwed hinge looks ordinary fitted hardware, prior repair history not convincingly evident.",
+    "world": "Private historic timber room preserved. Excess warm sheen, dense droplets and prominent grain remain held.",
+    "issues": [
+      "Requested pulled-back wide scale missed.",
+      "Repaired-state specificity not verified.",
+      "Dense uniform wet detail and golden wood sheen remain.",
+      "Name fitting/browser/motion/physical support unapproved."
+    ],
+    "rootFindings": "Whole caliper is back in the wide frame. Frozen goblet retains one opaque portion. Dense glass stippling, repair-history specificity and phone grouping remain held."
+  },
+  "tagPhysics": {
+    "mechanism": "Single narrow taupe-looking stem wrap below bowl, stem partially occludes rear turn.",
+    "knot": "Small loaded join visible at right stem; exact knot construction unresolved.",
+    "tetherAndHole": "Continuous-looking short down-right tether enters visible punched hole.",
+    "gravity": "Paper hangs diagonally down beside stem; lower edge contacts tabletop.",
+    "separation": "Most face outboard with visible separation from stem. Paper edge meets glass-foot silhouette.",
+    "uncertainties": [
+      "Rear loop/friction not provable from one view.",
+      "Apparent extra doubled cord short section near knot; quietness not an unconditional pass."
+    ],
+    "status": "held for original root review; no physics PASS"
+  },
+  "wideCrop": null,
+  "portraitCrop": [
+    11,
+    11,
+    1064,
+    1425
+  ],
+  "measurementMethod": "Copied native-specific manual measured coordinates; root viewed actual full-size image. Exact aspect-ratio crop proposes only conversion, not composition or name acceptance.",
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "rootOriginalInspected": true,
+  "exported": false
+}

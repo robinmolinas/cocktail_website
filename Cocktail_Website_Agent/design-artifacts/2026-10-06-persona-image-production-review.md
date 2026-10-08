@@ -1,3 +1,5 @@
+> **Dated image review — reviewed 8 October 2026.** Later production counts and candidate holds live in the image queue/checkpoint. Creation needs settled recipe/serving/personality, not complete editorial approval. Generation and export do not establish image acceptance. Current direction: [experience specification](2026-07-08-experience-master-spec.md).
+
 # Persona image production review — 2026-10-06
 
 Current image-production checkpoint: see

@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 ## Cocktail
 
 - **name:** Even When You Know
-- **tagline:** You don't win arguments. You change what people see.
+- **tagline:** You make being wrong feel like discovering something wonderful.
 - **glassware:** a small stemmed pousse-café or cordial glass (about 75 ml), narrow and flared; no ice
 - **contains:** `[]`
 
@@ -243,7 +243,7 @@ _(none on the card)_
 Wren's title-block notes:
 
 - **name (held for the vote; my pick):** Even When You Know
-- **tagline:** You don't win arguments. You change what people see.
+- **tagline:** You make being wrong feel like discovering something wonderful.
 - **epigraph:** *The darkest band is on top. The clear one at the bottom is the heaviest.*
 - **closingLine:** Tomás's (see my note in Resonance)
 

@@ -1,0 +1,201 @@
+{
+  "pairing": "explorer-jester",
+  "pour": "Why Not?",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-62a542af-5730-41b9-922b-f62954a6795b.png",
+  "masterSha256": "e843dc11cd8fa1786be0b993211a5610ef03cee8423615e4ef37387cebb305d4",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 940
+  },
+  "sourceSha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+  "specSha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851",
+  "roomSha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    780,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1440,
+    "cy": 729,
+    "w": 145,
+    "angle": 17
+  },
+  "glass": {
+    "x": 1050,
+    "y": 495
+  },
+  "bounds": {
+    "glass": {
+      "x0": 835,
+      "y0": 426,
+      "x1": 1357,
+      "y1": 724
+    },
+    "paper": {
+      "x0": 1328,
+      "y0": 658,
+      "x1": 1528,
+      "y1": 792
+    }
+  },
+  "personalityBounds": {
+    "woodenClamp": {
+      "x0": 515,
+      "y0": 292,
+      "x1": 952,
+      "y1": 541
+    },
+    "spanner": {
+      "x0": 290,
+      "y0": 491,
+      "x1": 773,
+      "y1": 625
+    }
+  },
+  "recognitionRegions": {
+    "woodenClamp": {
+      "x0": 515,
+      "y0": 292,
+      "x1": 952,
+      "y1": 541
+    },
+    "spanner": {
+      "x0": 290,
+      "y0": 491,
+      "x1": 773,
+      "y1": 625
+    }
+  },
+  "supportingBounds": {
+    "saucer": {
+      "x0": 750,
+      "y0": 579,
+      "x1": 1341,
+      "y1": 775
+    },
+    "liquid": {
+      "x0": 866,
+      "y0": 465,
+      "x1": 1235,
+      "y1": 522
+    },
+    "orangePeelIn": {
+      "x0": 1025,
+      "y0": 473,
+      "x1": 1147,
+      "y1": 525
+    },
+    "visibleSteam": {
+      "x0": 983,
+      "y0": 193,
+      "x1": 1133,
+      "y1": 438
+    },
+    "clampBolt": {
+      "x0": 615,
+      "y0": 366,
+      "x1": 795,
+      "y1": 442
+    },
+    "cord": {
+      "x0": 1278,
+      "y0": 592,
+      "x1": 1369,
+      "y1": 707
+    }
+  },
+  "physicalRecognitionRegions": {
+    "wholeCupSaucerSteamPeel": {
+      "x0": 750,
+      "y0": 193,
+      "x1": 1357,
+      "y1": 775
+    },
+    "orangePeelIn": {
+      "x0": 1025,
+      "y0": 473,
+      "x1": 1147,
+      "y1": 525
+    },
+    "saucer": {
+      "x0": 750,
+      "y0": 579,
+      "x1": 1341,
+      "y1": 775
+    }
+  },
+  "visibility": {
+    "woodenClamp": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Cup hides small right lower clamp portion; all visible structure included."
+    },
+    "spanner": {
+      "masterClipped": false,
+      "occluded": false,
+      "unseenExtent": null,
+      "note": "Both ends and entire visible shank included, not one end."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Low real ceramic handle loop, not rim/body halo, descending tether through paper hole.",
+    "anchorBounds": {
+      "x0": 1278,
+      "y0": 592,
+      "x1": 1319,
+      "y1": 645
+    },
+    "knotPoint": {
+      "x": 1290,
+      "y": 609
+    },
+    "holePoint": {
+      "x": 1363,
+      "y": 700
+    },
+    "knot": "Visible wrapped lower handle and side crossing; doubled chunky cord.",
+    "tether": "Visible descending diagonal handle-to-hole span longer than very-short aim.",
+    "hole": "Punched hole visible at shoulder with loop through it.",
+    "gravity": "Paper below handle attachment.",
+    "airGap": "Most paper separated from cup/saucer, clear outboard face.",
+    "contact": "Lower-right edge appears to rest on timber with shadow; exact contact uncertain.",
+    "occlusion": "Far side handle knot/loop hidden.",
+    "uncertainties": [
+      "Posterior closure/load unknown.",
+      "Thick doubled cord/long diagonal exceeds refinement.",
+      "Paper exact contact and tension unknown."
+    ],
+    "status": "Front support understandable, held mechanics—not PASS."
+  },
+  "recognitionUnionWidth": 1238,
+  "cropAssessment": {
+    "portrait": "Proposed crop prioritizes cup/saucer; clips large spanner/clamp and paper right edge. Held, not whole-scene retention.",
+    "movingPhone": "Meaningful union exceeds ~389px current moving-phone window; no PASS."
+  },
+  "review": {
+    "recipe": "One white china hot cup/saucer, orange strip IN, natural steam, no ice/egg/flame. Liquid looks reddish/thin-translucent rather than source opaque brown; physical appearance held.",
+    "personality": "Whole homemade clamp is inferred from made drawer-part; spanner is explicit yours5. Ordinary tinkering plausible but large lateral tools dominate/feel stage-set.",
+    "world": "Historic room/one right practical; glossy warm deeply etched uniform timber and tool wood textures held.",
+    "issues": [
+      "Liquid reddish/translucent appearance vs opaque brown expected.",
+      "Whole object union1238px cannot fit portrait or moving phone.",
+      "Cup/label too large in framing; proposed portrait clips spanner/clamp/paper right.",
+      "Uniform cracked/ridged glossy amber timber persists.",
+      "Cord thick doubled and tether long; posterior support/load/contact unknown.",
+      "Tool-specific construction inferred; actual name fit untested."
+    ]
+  },
+  "status": "Held native candidate; not exported or accepted."
+}
+

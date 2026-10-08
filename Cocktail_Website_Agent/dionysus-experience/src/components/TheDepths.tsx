@@ -3,6 +3,7 @@ import type { CSSProperties } from 'react';
 import type { Answers } from '../types';
 import { FlavourIcon } from './FlavourIcon';
 import { ResonanceWorld } from './ResonanceWorld';
+import { score } from '../audio/score';
 
 // H1 · The Threshold — "The Quiet Depths"
 // The journey footage holds at the S1 depths frame (~0.6s). Two cold-open
@@ -592,6 +593,11 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     setStageState(s);
   };
 
+  // The score follows the stages (src/audio/score.ts): each one names its
+  // chapter of the music, and nothing here ever waits on it.
+  useEffect(() => { score.depths(stage); }, [stage]);
+  useEffect(() => () => score.depthsLeft(), []);
+
   const after = (ms: number, fn: () => void) => {
     timeouts.current.push(window.setTimeout(fn, ms));
   };
@@ -727,6 +733,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       setSurfacePhase('black');
       after(700, () => {
         setSurfacePhase('held');
+        score.surfaced();
         onComplete?.();
       });
       return;
@@ -737,6 +744,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     after(DARK_AT_MS + DARK_GROW_MS, () => setSurfacePhase('black'));
     after(DARK_AT_MS + DARK_GROW_MS + SURFACE_BLACK_HOLD_MS, () => {
       setSurfacePhase('held');
+      score.surfaced(); // the unveiling is silent; the score finds the reading itself
       onComplete?.();
     });
   };
@@ -1611,6 +1619,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     const t = window.setTimeout(() => {
       releaseAtRef.current = performance.now();
       setBreathReleased(true);
+      score.release(); // its wash is timed to land on the splash
     }, RELEASE_HOLD_MS);
     return () => window.clearTimeout(t);
   }, [breathShowReveal, stage]);

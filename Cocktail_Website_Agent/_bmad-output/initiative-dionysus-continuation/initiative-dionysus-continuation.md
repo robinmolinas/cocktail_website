@@ -46,6 +46,6 @@ This initiative covers the backend and data seams behind the finished front-end 
 
 - Decision: no platform-baseline epic. The app already builds and deploys on Vercel from `dionysus-experience`. Epic 1 entry 1 adds the `shared/` core and test tooling the spine requires (2026-10-06).
 - Decision: the ticket store is repo files, and the active initiative is this one (Robin, 2026-10-06).
-- Decision: pursue the Q12 drawnToward word edit (Robin, 2026-10-06). The labels stay open for his copy pass, and the build ships with 9 words until it lands.
-- Open question: is the first release approved-only (4 pours) or all authored with review gates? Epic 1's Done when holds either way. Release readiness waits on it.
+- Decision: pursue the Q12 drawnToward word edit (Robin, 2026-10-06). Robin confirmed Knowledge, Influence, Making and Caring on 2026-10-08, replacing Mischief in the second H5 round. Copy is settled; the build retains 9 words until ticket 1.9 implements 12 and refreshes coverage.
+- Decision: the first release serves all 132 authored pours, not approved-only, behind the strict launch gate and the build's content checks (Robin, 2026-10-08).
 - Waits on nothing outside this tree. Epic 2 waits on epic 1 for the shared core contracts.

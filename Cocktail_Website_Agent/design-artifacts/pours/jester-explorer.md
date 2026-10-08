@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch jester)
 ## Cocktail
 
 - **name:** Unrehearsed
-- **tagline:** Anyone can get the laugh. You're after the second before it.
+- **tagline:** Your favourite laugh is the one nobody saw coming.
 - **glassware:** rocks glass (about 300 ml), holding a shell of ordinary cloudy ice frozen in a plastic cup
 - **contains:** `[]`
 
@@ -184,7 +184,7 @@ Wren's title-block notes:
 
 **name:** Unrehearsed (my pick) · others: Just as Strange · The Second Before · Stay for the Chat · Cracked Open
 
-**tagline:** Anyone can get the laugh. You're after the second before it.
+**tagline:** Your favourite laugh is the one nobody saw coming.
 
 **epigraph** (the cocktail, cold)
 *The most familiar cocktail there is, sealed inside ice. Nobody tastes it until the ice breaks.*

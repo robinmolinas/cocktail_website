@@ -60,19 +60,19 @@ after = [3, 4]
 hitl = true
 risk = "high"
 notes = []
-unknown = "Integration owner for App.tsx/types.ts must be named; the matching owner builds it only if Robin assigns it."
+unknown = "Robin assigned the matching owner to App integration on 2026-10-08; coordinate TheDepths changes with the design writer."
 
 [[entry]]
 id = 6
 type = "story"
 title = "TheDepths writes v3 ids and browser-only diagnostics"
-description = "TheDepths imports the shared vocabularies, writes lens/seed/word/pole ids, and records IntakeDiagnostics (H4 readable-moment ms, status, interrupted, practice repeats; H3 gravityMoved) in browser state only, as agreed with the design owner."
+description = "TheDepths imports the shared vocabularies, writes lens/seed/word/pole ids, and records IntakeDiagnostics (H4 readable-moment ms, status, interrupted, unscored 1/2 example; H3 gravityMoved) in browser state only, as agreed with the design owner."
 verify = "The parity test drives identical choices by mouse and by touch and gets identical Answers; a completed journey's diagnostics exist in the browser and never appear in a RevealRequest."
 covers = ["E1-R1", "E1-R7"]
 after = [1, 5]
 hitl = true
 risk = "medium"
-unknown = "Owned by the experience design conversation's TheDepths writer; sequencing against their H4 Ready/Set/Go work."
+unknown = "Owned by the experience design conversation's TheDepths writer; preserve the already built H4 v4 instruction and timed 1/2 example."
 
 [[entry]]
 id = 7
@@ -106,7 +106,7 @@ covers = ["E1-R3", "E1-R6"]
 after = [3, 6]
 hitl = true
 risk = "medium"
-unknown = "Robin's final labels (layout fits: one word of about 9-10 chars, or two short wrapping words; no longer hint); the design owner builds the 12-word cluster modifier once the vocabulary lands. H5 concept A (ring) would need its own desktop check."
+unknown = "Labels approved by Robin 2026-10-08: Knowledge, Influence, Making, Caring. The actual ResonanceWorld 12-word geometry still needs desktop/phone checking when the vocabulary lands; earlier cluster fit evidence is not production-world acceptance."
 references = ["Dionysus/Cocktail_Website_Agent/design-artifacts/evolution/analysis/2026-10-06-h5-12-word-fit/"]
 
 [[entry]]

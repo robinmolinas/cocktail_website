@@ -1,0 +1,145 @@
+{
+  "pairing": "ruler-outlaw",
+  "pour": "Had to Be Serious",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-outlaw/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-b9791b7d-6962-412e-9ebe-240996f4b3e5.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "bece4156c2022172fb18b856e901a5926a2961cf1a1672e9e43eb88120ce8897",
+  "sourceSha256": "c138b1646bccf1be9b43e6e408012e7f77e2c93745f51b73b11acc765ac798d9",
+  "specSha256": "2a140c83936cb4c1d04bfbaa01d655a769bf7499b3e1ecb44ab2509b95283370",
+  "roomSha256": "0e142e5d1b6313cd565efb6b93e72f16fadbaba870d94710254a57b2cd6e66e9",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    609,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1212,
+    "cy": 721,
+    "w": 133,
+    "angle": 39
+  },
+  "glass": {
+    "x": 995,
+    "y": 451
+  },
+  "bounds": {
+    "glass": {
+      "x0": 854,
+      "y0": 156,
+      "x1": 1137,
+      "y1": 743
+    },
+    "paper": {
+      "x0": 1091,
+      "y0": 644,
+      "x1": 1294,
+      "y1": 786
+    },
+    "accountBook": {
+      "x0": 429,
+      "y0": 526,
+      "x1": 866,
+      "y1": 706
+    },
+    "keyring": {
+      "x0": 619,
+      "y0": 548,
+      "x1": 875,
+      "y1": 672
+    },
+    "physicalGarnish": {
+      "x0": 1010,
+      "y0": 38,
+      "x1": 1202,
+      "y1": 292
+    },
+    "cucumberGarnish": {
+      "x0": 1010,
+      "y0": 120,
+      "x1": 1135,
+      "y1": 292
+    },
+    "mintGarnish": {
+      "x0": 1024,
+      "y0": 38,
+      "x1": 1202,
+      "y1": 193
+    }
+  },
+  "recognitionRegions": {
+    "accountBook": {
+      "bounds": {
+        "x0": 433,
+        "y0": 531,
+        "x1": 860,
+        "y1": 702
+      },
+      "reason": "Closed full book/pageblock/spine recognizable; account content cannot be visually proven."
+    },
+    "keyring": {
+      "bounds": {
+        "x0": 620,
+        "y0": 550,
+        "x1": 864,
+        "y1": 667
+      },
+      "reason": "Full two ordinary keyblade/bows plus ring, ONE trace."
+    }
+  },
+  "objectVisibility": {
+    "accountBook": "Book outline visible, parts underkeys/contact selfoccluded; hidden content unknown.",
+    "keyring": "Visible keys/ring mostly full; far contact underside unknown.",
+    "garnish": "Mint/cucumber full visibleextents recorded; submerged cucumber hiddenportion unknown."
+  },
+  "supportingObjectUnion": {
+    "x0": 429,
+    "y0": 38,
+    "x1": 1202,
+    "y1": 706
+  },
+  "essentialObjectUnion": {
+    "x0": 429,
+    "y0": 38,
+    "x1": 1294,
+    "y1": 786
+  },
+  "tagPhysics": {
+    "mechanism": "Exterior loop around lowerbody y637–676 at liquid-foottransition, belowrim156; curved frontarc and sideocclusion visible.",
+    "knot": "Apparent knotnear1094/660.",
+    "tetherAndHole": "Short partly paired downward tether appears to reach paperhole1127/681; overlap tiny, loadtopology unresolved.",
+    "gravity": "Paper downright/outboard below knot.",
+    "paperSeparationOrContact": "Paper outsideglass with lowerface resting timber/shadow, uppercornernearcord/glass overlap.",
+    "uncertainties": [
+      "Rear/friction/load unproven.",
+      "Loop at transition not solelyclearbase.",
+      "Paper uppercorner nearglass occlusion; gap ambiguous there.",
+      "Tag133px/namefituntested."
+    ],
+    "status": "Apparent chain/contact, uncertain knot/rear/gap held; no physics PASS."
+  },
+  "review": {
+    "recipe": "Brightred sparkling Pimm's icefilledCollins/uprightmint/onecucumber garnish present. Physical HOLD: strawberries drawn as large whole/halved chunks rather than settled muddled pulp, interiorgreenleaflike pieces unrequested, cucumber large intact saladrounds rather than thinmuddled slices.",
+    "personality": "Closedbook/realworkkeyring recognizable standalone separatetraces, source budget/stayed inference. Wide spread and generic management specificity held.",
+    "world": "Dark historic room; glossy patterned walnut/overwornleather/dense etchedice held.",
+    "issues": [
+      "Recipe fruit-pulp/muddled condition hold, no edited recipe.",
+      "Glass587px, garnish reachesy38too high.",
+      "Full865px union exceeds389phone;702portrait clips book.",
+      "Keyheads havetiny stamp-like detail, no text intentionallyrequested, pseudo-mark watch.",
+      "Granularice/glossamberalligatorwood held.",
+      "Accountbook/keyownership inferred/nameuntested/tagrearloadheld.",
+      "No export/browser/acceptance."
+    ]
+  }
+}

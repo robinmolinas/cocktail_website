@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-26 (batch creator)
 ## Cocktail
 
 - **name:** As It Was
-- **tagline:** Everyone keeps the big days. You keep the Tuesdays.
+- **tagline:** You see the moments worth keeping in the days nobody thinks to remember.
 - **glassware:** a stemmed cocktail glass (a coupe or any small stemmed glass), from the freezer
 - **contains:** `["nuts"]`
 

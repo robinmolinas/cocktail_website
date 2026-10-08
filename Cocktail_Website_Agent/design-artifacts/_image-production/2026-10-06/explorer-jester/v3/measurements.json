@@ -1,0 +1,390 @@
+{
+  "pairing": "explorer-jester",
+  "pour": "Why Not?",
+  "version": "v3",
+  "wide": {
+    "pairing": "explorer-jester",
+    "pour": "Why Not?",
+    "asset": "wide",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/wide-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-6d4fa5db-79d9-466f-a5c5-69bf544d2a43.png",
+    "masterSha256": "a8ac915f30d159f3030f6fa10377aa7c93454d8bff8008d1da6b7362fc2e2623",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+    "specSha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851",
+    "roomSha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6",
+    "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      970,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1388,
+      "cy": 743,
+      "w": 117,
+      "angle": 65
+    },
+    "glass": {
+      "x": 1116,
+      "y": 594
+    },
+    "bounds": {
+      "glass": {
+        "x0": 824,
+        "y0": 445,
+        "x1": 1404,
+        "y1": 738
+      },
+      "paper": {
+        "x0": 1314,
+        "y0": 655,
+        "x1": 1465,
+        "y1": 823
+      }
+    },
+    "supportingBounds": {
+      "saucer": {
+        "x0": 740,
+        "y0": 594,
+        "x1": 1410,
+        "y1": 796
+      },
+      "orangePeel": {
+        "x0": 976,
+        "y0": 504,
+        "x1": 1120,
+        "y1": 550
+      },
+      "steam": {
+        "x0": 921,
+        "y0": 257,
+        "x1": 1009,
+        "y1": 449
+      },
+      "clampedJoint": {
+        "x0": 1086,
+        "y0": 299,
+        "x1": 1310,
+        "y1": 449
+      },
+      "tagCord": {
+        "x0": 1298,
+        "y0": 590,
+        "x1": 1368,
+        "y1": 691
+      }
+    },
+    "personalityBounds": {
+      "handClamp": {
+        "x0": 938,
+        "y0": 154,
+        "x1": 1672,
+        "y1": 607
+      },
+      "spanner": {
+        "x0": 1343,
+        "y0": 182,
+        "x1": 1653,
+        "y1": 646
+      }
+    },
+    "recognitionRegions": {
+      "handClamp": {
+        "x0": 938,
+        "y0": 154,
+        "x1": 1672,
+        "y1": 607
+      },
+      "spanner": {
+        "x0": 1343,
+        "y0": 182,
+        "x1": 1653,
+        "y1": 646
+      }
+    },
+    "physicalRecognitionRegions": {
+      "cup": {
+        "x0": 824,
+        "y0": 445,
+        "x1": 1404,
+        "y1": 738
+      },
+      "saucer": {
+        "x0": 740,
+        "y0": 594,
+        "x1": 1410,
+        "y1": 796
+      },
+      "servedOrange": {
+        "x0": 976,
+        "y0": 504,
+        "x1": 1120,
+        "y1": 550
+      }
+    },
+    "visibility": {
+      "handClamp": {
+        "masterClipped": true,
+        "occluded": true,
+        "unseenExtent": null,
+        "note": "Right lower timber clamp endpoint reaches frame edge; behind cup hidden extent unknown."
+      },
+      "spanner": {
+        "masterClipped": false,
+        "occluded": false,
+        "unseenExtent": null
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Low cup-handle/saucer-region cord, rear routing uncertain",
+      "anchorBounds": {
+        "x0": 1298,
+        "y0": 590,
+        "x1": 1368,
+        "y1": 659
+      },
+      "knotPoint": {
+        "x": 1344,
+        "y": 655
+      },
+      "holePoint": {
+        "x": 1353,
+        "y": 675
+      },
+      "knot": "Small doubled dark gathering visible",
+      "tether": "Front doubled ~20px descent reaches hole; left tail ~45px",
+      "hole": "Dark punched circle and twine visible",
+      "gravity": "Paper slopes down to timber beyond saucer",
+      "airGap": "Gap from bowl visible",
+      "contact": "Bottom on timber probable with shadow",
+      "occlusion": "Route through/behind handle versus saucer edge not fully proved",
+      "uncertainties": [
+        "Actual handle loop/load hidden",
+        "Longer tail and doubled attachment",
+        "No mechanical PASS"
+      ],
+      "status": "held"
+    },
+    "recognitionUnionWidth": 932,
+    "cropAssessment": {
+      "wide": "Cup bottom y738 inside 80%; paper y823 exceeds 80%; clamp right clipped.",
+      "portraitFromWide": "Proposed 702px crop clips left saucer and clamp. Not selected portrait; dedicated companion required.",
+      "movingPhone": "932px full object union cannot fit roughly389px window; HOLD."
+    },
+    "review": {
+      "recipe": "One china cup, hot brown liquid, single peel IN, no ice/egg/flame. Colour darker than v2 but exact ale shade/opacity unproved.",
+      "personality": "Clamp+spanner readable recent-use relation but large and wide; clamp partly clipped.",
+      "world": "Ceramic plain; timber remains glossy amber with busy shallow relief; clamp wear/metal texture heavy.",
+      "issues": [
+        "material-gloss-orange",
+        "clipped-clamp",
+        "wide-personality-sprawl",
+        "tag-rear-support-uncertain",
+        "paper-below-wide-central80",
+        "name/browser-unchecked"
+      ]
+    },
+    "status": "held-candidate"
+  },
+  "portrait": {
+    "pairing": "explorer-jester",
+    "pour": "Why Not?",
+    "asset": "portrait",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-5430c5b9-4c86-49b7-8074-dde03c8b822d.png",
+    "masterSha256": "896ef7b6898238e1fd7485483b7e40e2d87c7b6b7175461b332e1f637354d8b2",
+    "masterDimensions": {
+      "width": 1084,
+      "height": 1451
+    },
+    "sourceSha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+    "specSha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851",
+    "roomSha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6",
+    "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "wideCrop": null,
+    "portraitCrop": [
+      10,
+      13,
+      1064,
+      1425
+    ],
+    "tag": {
+      "cx": 814,
+      "cy": 980,
+      "w": 105,
+      "angle": 67
+    },
+    "glass": {
+      "x": 583,
+      "y": 861
+    },
+    "bounds": {
+      "glass": {
+        "x0": 354,
+        "y0": 726,
+        "x1": 829,
+        "y1": 981
+      },
+      "paper": {
+        "x0": 759,
+        "y0": 912,
+        "x1": 873,
+        "y1": 1047
+      }
+    },
+    "supportingBounds": {
+      "saucer": {
+        "x0": 292,
+        "y0": 858,
+        "x1": 810,
+        "y1": 1036
+      },
+      "orangePeel": {
+        "x0": 486,
+        "y0": 779,
+        "x1": 625,
+        "y1": 824
+      },
+      "steam": {
+        "x0": 433,
+        "y0": 547,
+        "x1": 493,
+        "y1": 731
+      },
+      "clampedJoint": {
+        "x0": 550,
+        "y0": 555,
+        "x1": 736,
+        "y1": 665
+      },
+      "tagCord": {
+        "x0": 749,
+        "y0": 860,
+        "x1": 798,
+        "y1": 939
+      }
+    },
+    "personalityBounds": {
+      "handClamp": {
+        "x0": 408,
+        "y0": 430,
+        "x1": 1036,
+        "y1": 828
+      },
+      "spanner": {
+        "x0": 785,
+        "y0": 468,
+        "x1": 1058,
+        "y1": 872
+      }
+    },
+    "recognitionRegions": {
+      "handClamp": {
+        "x0": 408,
+        "y0": 430,
+        "x1": 1036,
+        "y1": 828
+      },
+      "spanner": {
+        "x0": 785,
+        "y0": 468,
+        "x1": 1058,
+        "y1": 872
+      }
+    },
+    "physicalRecognitionRegions": {
+      "cup": {
+        "x0": 354,
+        "y0": 726,
+        "x1": 829,
+        "y1": 981
+      },
+      "saucer": {
+        "x0": 292,
+        "y0": 858,
+        "x1": 810,
+        "y1": 1036
+      },
+      "servedOrange": {
+        "x0": 486,
+        "y0": 779,
+        "x1": 625,
+        "y1": 824
+      }
+    },
+    "visibility": {
+      "handClamp": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null,
+        "note": "Whole visible clamp silhouette survives portrait; lower-left portion hidden by cup."
+      },
+      "spanner": {
+        "masterClipped": false,
+        "occluded": false,
+        "unseenExtent": null
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Low handle-region taupe doubled loop and short hole tether",
+      "anchorBounds": {
+        "x0": 749,
+        "y0": 860,
+        "x1": 798,
+        "y1": 915
+      },
+      "knotPoint": {
+        "x": 783,
+        "y": 909
+      },
+      "holePoint": {
+        "x": 790,
+        "y": 931
+      },
+      "knot": "Small gathering on lower handle/saucer region",
+      "tether": "Two short front strands descend about22px through paper hole",
+      "hole": "Visible dark circular hole",
+      "gravity": "Paper descends toward timber and sits beyond saucer",
+      "airGap": "Clear gap between paper and china",
+      "contact": "Lower tip near timber; shadow supports probable contact, not load proof",
+      "occlusion": "Posterior handle loop and precise knot load obscured",
+      "uncertainties": [
+        "Rear routing not fully visible",
+        "Doubled string rather than single strand",
+        "Contact/load unproved"
+      ],
+      "status": "held"
+    },
+    "recognitionUnionWidth": 766,
+    "cropAssessment": {
+      "portrait": "Dedicated 1084×1451 native; exact-ratio proposed1064×1425 crop retains complete visible cup/saucer/tag/tools.",
+      "movingPhone": "At390×844, native inner width about601px at1.115 scale before translation.766px whole recognition union exceeds it. Complete portrait does NOT mean moving-phone pass.",
+      "wide": "No landscape crop proposed from dedicated portrait; wide is separate master."
+    },
+    "review": {
+      "recipe": "Same one hot cup and single peel IN; no ice/egg/flame.",
+      "personality": "Both full-size tools survive native portrait; depth improved versus wide but still broad, spanner far right.",
+      "world": "Plain ceramic retained; strong glossy warm longgrain table and heavily marked clamp remain.",
+      "issues": [
+        "material-gloss-orange",
+        "clamp-heavy-wear",
+        "portrait-personality-sprawl",
+        "tag-rear-support-uncertain",
+        "name/browser-unchecked"
+      ]
+    },
+    "status": "held-candidate"
+  },
+  "status": "Two independently measured masters, not old single-master crop exporter input; root owns dedicated-pair export"
+}

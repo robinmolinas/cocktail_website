@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 ## Cocktail
 
 - **name:** Straight Back
-- **tagline:** One taste, and you're somewhere else entirely. You always let it take you.
+- **tagline:** You find something wonderful and want someone else to feel it too.
 - **glassware:** an old-fashioned glass (rocks glass), filled with crushed ice
 - **contains:** `[]`
 

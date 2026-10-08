@@ -1,3 +1,5 @@
+> **Dated collection revision record.** Later editorial progress is in [approved tagline voice](../tagline-voice-approved-2026-10-07.md), which records 36 accepted lines on 8 October. Copy acceptance does not change full-pour approval status. Current cross-track state: [continuation status](../../../2026-10-06-continuation-status.md).
+
 # What was applied, 6 October 2026
 
 Robin answered the decision pack (D1–D14) and said "Apply the routine P1s" and, on the voice rules, "Apply the changes, I trust your taste judgement". This is what landed. Every changed pour has a **"Collection review edits, 2026-10-06"** block at the top of its room record (`../rooms/<pairing>.md`), listing each edit before → after and whose decision it was. Detailed logs are in `applied/`.

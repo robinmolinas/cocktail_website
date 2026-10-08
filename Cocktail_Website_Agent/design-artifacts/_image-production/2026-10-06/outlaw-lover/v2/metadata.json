@@ -1,0 +1,415 @@
+{
+  "pairing": "outlaw-lover",
+  "pour": "Rent-Free",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "4f73cccfab40acd456792899d8714683b0e638f986c4e62d43f400c8558da85b",
+  "review": {
+    "recipe": "Pale nearly clear wine/soda, tall stemmed vessel, ice up to rim with ordinary projecting cubes; no garnish. Fine bubbles visible but busy sparkle watch.",
+    "personality": "Recognizable ordinary overnight bag/folded clothing and house key/fob inferred from one-way leaving, wish to land and unpack. Arrival stronger than specific emotional code; not literal dossier possessions.",
+    "world": "Old private reading room recognizable; walnut too glossy/rough with warm amber highlights, not accepted flat-neutral house material.",
+    "issues": [
+      "Glass434px high including projecting ice, above300–360px target.",
+      "Whole bag631px wide; substantial readable bag cannot be replaced by anonymous patch to claim389px phone retention.",
+      "Glossy repetitive rough walnut and amber reflections persist; bag textile/leather overly mottled.",
+      "Dense soda bubbles and spotted ice/condensation risk ad-like sparkle.",
+      "Rear loop/knot-load hidden; paper/foot contact uncertain; not tag-physics PASS."
+    ]
+  },
+  "measurements": {
+    "pairing": "outlaw-lover",
+    "pour": "Rent-Free",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-lover/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-7a0fe6c9-dc65-495b-a28b-367531c3d4bf.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "masterSha256": "79f2aefa53dc6aa6d1ab79a4ebbfac7889b21e49f2f661a36355959ad7cc81bc",
+    "sourceSha256": "4f73cccfab40acd456792899d8714683b0e638f986c4e62d43f400c8558da85b",
+    "specSha256": "a879424d9b0470beb32a0e90996d926a2184b4a82599ec7e216d1b1d8d06c875",
+    "roomSha256": "db226b7cdb8760065b9f93f6fbe2f56d7e8ef4d07ddf60145094fd97d1745f76",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      950,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1181,
+      "cy": 636,
+      "w": 77,
+      "angle": 74
+    },
+    "glass": {
+      "x": 1142,
+      "y": 432
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1058,
+        "y0": 263,
+        "x1": 1228,
+        "y1": 697
+      },
+      "paper": {
+        "x0": 1149,
+        "y0": 580,
+        "x1": 1210,
+        "y1": 681
+      }
+    },
+    "personalityBounds": {
+      "overnightBag": {
+        "x0": 987,
+        "y0": 306,
+        "x1": 1618,
+        "y1": 646
+      },
+      "foldedShirt": {
+        "x0": 1218,
+        "y0": 398,
+        "x1": 1419,
+        "y1": 458
+      },
+      "houseKeyAndFob": {
+        "x0": 1258,
+        "y0": 447,
+        "x1": 1370,
+        "y1": 558
+      }
+    },
+    "recognitionRegions": {
+      "overnightBag": {
+        "x0": 987,
+        "y0": 306,
+        "x1": 1618,
+        "y1": 646
+      },
+      "houseKeyAndFob": {
+        "x0": 1258,
+        "y0": 447,
+        "x1": 1370,
+        "y1": 558
+      }
+    },
+    "supportingBounds": {
+      "ice": {
+        "x0": 1070,
+        "y0": 263,
+        "x1": 1220,
+        "y1": 461
+      },
+      "stemAttachment": {
+        "x0": 1129,
+        "y0": 544,
+        "x1": 1173,
+        "y1": 601
+      },
+      "servedGarnish": null
+    },
+    "visibility": {
+      "overnightBag": {
+        "masterClipped": false,
+        "unseenExtent": "no frame clipping; internal portions behind glass unknown"
+      },
+      "foldedShirt": {
+        "occluded": true,
+        "unseenExtent": "unknown inside bag"
+      },
+      "houseKeyAndFob": {
+        "occluded": true,
+        "unseenExtent": "small rear ring/attachment hidden; not fabricated"
+      }
+    },
+    "tagPhysics": {
+      "anchor": "Visible front cotton loop around narrow stem below bowl, not rim.",
+      "knot": "Front crossing/knot visible; rear circumferential loop and load cannot be established from one view.",
+      "knotPoint": {
+        "x": 1144,
+        "y": 558
+      },
+      "holePoint": {
+        "x": 1168,
+        "y": 595
+      },
+      "tether": "Short continuous-looking downward string from front knot to punched upper paper hole.",
+      "gravity": "Paper descends below anchor, not glued to bowl.",
+      "airGap": "Paper outside bowl with visible separation from stem along broad face.",
+      "contact": "Lower edge adjacent to glass foot; contact versus overlap uncertain.",
+      "occlusion": "Stem hides rear wrap; small knot crossing cannot prove support.",
+      "uncertainties": [
+        "Rear wrap and full knot topology hidden.",
+        "Load support and lower paper/foot contact not proved."
+      ],
+      "status": "plausible front attachment chain; uncertain, not PASS"
+    },
+    "review": {
+      "recipe": "Pale nearly clear wine/soda, tall stemmed vessel, ice up to rim with ordinary projecting cubes; no garnish. Fine bubbles visible but busy sparkle watch.",
+      "personality": "Recognizable ordinary overnight bag/folded clothing and house key/fob inferred from one-way leaving, wish to land and unpack. Arrival stronger than specific emotional code; not literal dossier possessions.",
+      "world": "Old private reading room recognizable; walnut too glossy/rough with warm amber highlights, not accepted flat-neutral house material.",
+      "issues": [
+        "Glass434px high including projecting ice, above300–360px target.",
+        "Whole bag631px wide; substantial readable bag cannot be replaced by anonymous patch to claim389px phone retention.",
+        "Glossy repetitive rough walnut and amber reflections persist; bag textile/leather overly mottled.",
+        "Dense soda bubbles and spotted ice/condensation risk ad-like sparkle.",
+        "Rear loop/knot-load hidden; paper/foot contact uncertain; not tag-physics PASS."
+      ]
+    },
+    "status": "held measured master candidate; no exporter/browser/integration or acceptance",
+    "sourceRefresh": {
+      "previousSourceSha256": "be407e8833b844f74f01e7aaf6e381eb5d71e940e3972641067d20f4c4e402ac",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** You love like it's a getaway. Even where you stop is a hideout.",
+        "+ - **tagline:** You make choosing someone feel like choosing freedom."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1356.1722488038276,
+        "cy": 730.7234042553191,
+        "w": 88.42105263157895,
+        "angle": 74.00807106952068
+      },
+      "glass": {
+        "x": 1311.3875598086124,
+        "y": 496.3404255319149
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 294.8376068376068,
+        "cy": 811.9148936170212,
+        "w": 98.27920227920228,
+        "angle": 74.0028834354645
+      },
+      "glass": {
+        "x": 245.0598290598291,
+        "y": 551.4893617021277
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/outlaw-lover/portrait.jpg",
+    "wide": "/personas/outlaw-lover/wide.jpg",
+    "wideTag": {
+      "cx": 0.7063397129186603,
+      "cy": 0.676595744680851,
+      "w": 0.046052631578947366,
+      "angle": 74.00807106952068
+    },
+    "wideGlass": {
+      "x": 0.6830143540669856,
+      "y": 0.4595744680851064
+    },
+    "tag": {
+      "cx": 0.32905982905982906,
+      "cy": 0.676595744680851,
+      "w": 0.10968660968660969,
+      "angle": 74.0028834354645
+    },
+    "glass": {
+      "x": 0.27350427350427353,
+      "y": 0.4595744680851064
+    }
+  },
+  "hashes": {
+    "master": "79f2aefa53dc6aa6d1ab79a4ebbfac7889b21e49f2f661a36355959ad7cc81bc",
+    "wide": "9ec6be9ad722d106793be6bcc83f7c9fe5a7ab86dd36164cfbeb11d5948a3557",
+    "portrait": "16470a01a6634e593b8bf70d88d787e2877a06c3abe35850b8bf95f4fc1abcc4"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1214.9282296650717,
+          "y0": 302.17021276595744,
+          "x1": 1410.1435406698565,
+          "y1": 800.8085106382979
+        },
+        "paper": {
+          "x0": 1319.4258373205741,
+          "y0": 666.3829787234042,
+          "x1": 1389.4736842105265,
+          "y1": 782.4255319148936
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 932.4401913875598,
+          "y0": 251.80851063829786,
+          "x1": 1095.1196172248804,
+          "y1": 667.3404255319149
+        },
+        "paper": {
+          "x0": 1019.5215311004786,
+          "y0": 555.3191489361702,
+          "x1": 1077.8947368421052,
+          "y1": 652.0212765957447
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1295.9234449760766,
+          "y0": 268.95489361702124,
+          "x1": 1504.153110047847,
+          "y1": 800.835744680851
+        },
+        "paper": {
+          "x0": 1407.3875598086124,
+          "y0": 657.4485106382979,
+          "x1": 1482.1052631578948,
+          "y1": 781.2272340425532
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2176.7464114832537,
+          "y0": 313.6882978723404,
+          "x1": 2526.507177033493,
+          "y1": 1207.0819148936168
+        },
+        "paper": {
+          "x0": 2363.971291866029,
+          "y0": 966.236170212766,
+          "x1": 2489.4736842105262,
+          "y1": 1174.1457446808508
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.27350427350427353,
+        "y": 0.4595744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": 31.259715099715095,
+          "y0": 236.14042553191487,
+          "x1": 183.86902184235515,
+          "y1": 625.8170212765957
+        },
+        "paper": {
+          "x0": 112.95057929724594,
+          "y0": 520.7659574468086,
+          "x1": 167.7103893637227,
+          "y1": 611.4510638297872
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.27350427350427353,
+        "y": 0.4595744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": 34.33754985754986,
+          "y0": 260.7617021276596,
+          "x1": 202.8587274453941,
+          "y1": 691.0680851063829
+        },
+        "paper": {
+          "x0": 124.54594491927823,
+          "y0": 575.063829787234,
+          "x1": 185.01530864197525,
+          "y1": 675.2042553191488
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.27350427350427353,
+        "y": 0.4595744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": 36.773561253561255,
+          "y0": 158.91914893617022,
+          "x1": 139.47745489078824,
+          "y1": 421.1659574468085
+        },
+        "paper": {
+          "x0": 91.75035137701803,
+          "y0": 350.468085106383,
+          "x1": 128.6029249762583,
+          "y1": 411.4978723404255
+        }
+      }
+    }
+  ]
+}

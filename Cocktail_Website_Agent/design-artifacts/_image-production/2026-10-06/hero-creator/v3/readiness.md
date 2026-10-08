@@ -1,0 +1,19 @@
+## Preflight, 8 October 2026
+
+Preparation only; no generation or helper/export/test/hash execution. Full current production-batch-15-plan.md, calibration-continuation.md, persona-image-system.md, application DESIGN.md/PRODUCT.md and applied-summary.md read. Built-in system imagegen skill and both shared prompting references read completely; Impeccable SKILL and polish/distill/adapt/craft-floor guidance read directly. Context/helper previously refused, not retried. Own v2 original and three established public wide controls inspected at original resolution. v3 absent in scoped file listing before this note. Source text read completely; no claim of fresh source fingerprints. Root material-pilot release required before first image. Before EACH call re-read complete current dossier/spec/closed room.
+
+## Scope and review
+
+Two primary built-in calls planned: new 16:9 wide, independently recomposed portrait referencing that new wide. One correction only after specific root review permission; correction saved v4, never overwrite v3. Exact tool output source path retained; cp -n exact PNG into owned v3 only. No JPEG, transforms, hashing/helper code, browsers/tests or shared/public/source edits. No final-size/mobile/name/physics/acceptance claims.
+
+Materials: flatter dark mostly plain long-grain low-satin walnut; one restrained warm camera-right practical, neutral near-black shadow; sparse local contact wear, plain clear glass patches and ordinary smooth wet ice. No alligator varnish, glitter, uniform decorative ice/droplet pattern or overall amber wash. Wide protects full served garnish/vessel/tag in central20–80%height, left30%quiet. Dedicated portrait recognisable whole evidence stacked in depth behind vessel, target full meaningful union under~550nativepx if1084×1451, necessary-width screen only, not moving-phone proof. Small paper narrower than bowl; actual writing axis measured, no numeric enlargement.
+
+## The Long Answer — settled source evidence
+
+Current full pour: design-artifacts/pours/hero-creator.md (208lines); spec _studio/specs/hero-creator.json; closedroom _studio/rooms/hero-creator.md (270lines). Room r7 all3 sign-offs/no open objections; editorial draft unchanged. D13 collection edits alter wording only. Cocktail name The Long Answer, The Idealist.
+
+Recipe75mlbourbon40–46%,30lemon,30orange,15pomegranategrenadine,45seltzer. Short5secshake then strain over ONE large ordinary cube into heavy thick-walled round-bowled400ml BEER GOBLET; not delicate wineglass. Approx232.5mlfinished; hazy rosyorange explicitly estimated in settled reading/imagebrief, fine carbonation appropriate. One bruised mint sprig, EXACT TWO orange half-moons, ONE smallpineapplepiece, ONE darkfresh/brandykept cherry withstalk—not bright-redmarascino. No straw, seconddrink, liqueurgreen or addedfruit.
+
+Two habits: visibly opened handled envelopes with one partly withdrawn folded sheet; capped cobalt-blue pen laid casually across/rear paper. Page/message made after quietargument explicit whoYouAre; concrete envelope/pen form from settled sourceimagebrief, ownership/placement inferred, not prove exactbelief/content. No generated handwriting/pseudo-writing; blank reverse/creased paper can show recentuse without false text. No folded newspaper/bottle/fruitboard army. Old hovering envelope impossible, replaced ordinary timber support.
+
+Tag thin matte neutral SINGLEturn around narrow stem low BELOWbowl, tiny knot, short continuous downward tether through hole; small cream paper separate from glass and hangs/rests with credible shadow. v2actual has heavy repeatedstemcoil/highdensitybubbles/ornamentalwood/closeddisplaypapers; preserve vessel/garnish notthose defects. Revised freshwide scene after pilotrelease; portrait depth-stacks openedpapersandpen behindgoblet, fullobjects not anonymousedges.

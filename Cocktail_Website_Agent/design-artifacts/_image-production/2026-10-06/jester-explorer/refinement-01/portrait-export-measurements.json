@@ -1,0 +1,115 @@
+{
+  "pairing": "jester-explorer",
+  "pour": "Unrehearsed",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v3/portrait-master.png",
+  "masterSha256": "64d46600028553b748135caedc51089704cedd009d4e86162fa208872af9016b",
+  "masterDimensions": {
+    "width": 1086,
+    "height": 1448
+  },
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-e2364277-a7cd-4707-92b1-c4dbeb0ccf02.png",
+  "sourceSha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+  "specSha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67",
+  "roomSha256": "fb2cc7baf81948067a02af2f3b79d065e4f6835de34a9c6e01993ce3fd67cc2b",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "designSha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+  "tag": {
+    "cx": 806,
+    "cy": 990,
+    "w": 125,
+    "angle": 14
+  },
+  "glass": {
+    "x": 547,
+    "y": 782
+  },
+  "bounds": {
+    "glass": {
+      "x0": 388,
+      "y0": 583,
+      "x1": 703,
+      "y1": 981
+    },
+    "paper": {
+      "x0": 720,
+      "y0": 948,
+      "x1": 885,
+      "y1": 1026
+    },
+    "speechSheetVisible": {
+      "x0": 246,
+      "y0": 406,
+      "x1": 813,
+      "y1": 796
+    },
+    "envelopeVisible": {
+      "x0": 282,
+      "y0": 617,
+      "x1": 880,
+      "y1": 855
+    },
+    "iceVisible": {
+      "x0": 418,
+      "y0": 675,
+      "x1": 675,
+      "y1": 903
+    },
+    "orangePeel": {
+      "x0": 530,
+      "y0": 763,
+      "x1": 645,
+      "y1": 900
+    }
+  },
+  "unknownExtents": {
+    "speechSheetBehindGlass": null,
+    "envelopeBehindGlass": null,
+    "submergedIce": null
+  },
+  "review": {
+    "recipe": "Clear amber pool with one dropped orange peel and three curved cloudy ice pieces. Curvature present, but hollow concave cup-wall construction not unambiguously distinguishable from solid crescent chunks. Recipe-form hold remains.",
+    "personality": "Handled long folded speech sheet now ordinary used paper rather than pristine scroll. Envelope opening/context inferred from birthday; recognition partly occluded/uncertain.",
+    "world": "Historic timber room retained; directional timber rather than patterned varnish but strong amber sheen remains. Broad glass/ice highlights still densely sparkling.",
+    "issues": [
+      "Cup-shell concavity/form unresolved.",
+      "Wide group spread and oversize remains.",
+      "Heavy glass has prominent faceted lower wall instead of restrained plain glass.",
+      "Portrait envelope recognition uncertain; no phone PASS.",
+      "Material/name/physics/browser acceptance pending."
+    ],
+    "rootFindings": "Pristine scroll replaced by a handled folded long sheet and envelope. Ice remains broken concave-looking shell fragments, not standard cubes. Exact shell history and paper intent remain inference."
+  },
+  "tagPhysics": {
+    "mechanism": "Low exterior body/foot loop with front curved arc and side turn toward right knot; rear hidden by vessel.",
+    "knot": "Small brown/taupe-looking join visible to right of lower glass; exact loading uncertain.",
+    "tetherAndHole": "Short down-right tether continues into visible paper hole; strand looks heavier than fine brief.",
+    "gravity": "Paper lies outboard angled down from knot, lower edge/body on timber.",
+    "separation": "Paper separate from glass, actual tabletop contact and shadow; not free-floating.",
+    "uncertainties": [
+      "Rear wrap/foot friction hidden.",
+      "Join and side reflection interact; exact knot continuity not proven.",
+      "Cord more conspicuous than requested fine thread."
+    ],
+    "status": "held, plausible chain not physics PASS"
+  },
+  "wideCrop": null,
+  "portraitCrop": [
+    11,
+    11,
+    1064,
+    1425
+  ],
+  "measurementMethod": "Copied native-specific manual measured coordinates; root viewed actual full-size image. Exact aspect-ratio crop proposes only conversion, not composition or name acceptance.",
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "rootOriginalInspected": true,
+  "exported": false
+}

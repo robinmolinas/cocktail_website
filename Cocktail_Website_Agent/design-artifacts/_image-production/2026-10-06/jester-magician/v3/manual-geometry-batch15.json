@@ -1,0 +1,385 @@
+{
+  "method": "Manual approximate pixel bounds on original-size native view; not final export metadata. Header/hash execution not performed.",
+  "dimensionsStatus": "Viewer-displayed native dimensions, independently probed confirmation unavailable under root restriction.",
+  "wide": {
+    "native": {
+      "width": 1672,
+      "height": 941
+    },
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/wide-master.png",
+    "glass": {
+      "x": 1072,
+      "y": 462
+    },
+    "glassBounds": {
+      "x0": 849,
+      "y0": 221,
+      "x1": 1295,
+      "y1": 770
+    },
+    "serveBounds": {
+      "x0": 849,
+      "y0": 221,
+      "x1": 1295,
+      "y1": 770
+    },
+    "ice": {
+      "visibleBounds": {
+        "x0": 867,
+        "y0": 259,
+        "x1": 1273,
+        "y1": 651
+      },
+      "fullExtent": null
+    },
+    "garnish": {
+      "type": "ONE lemon strip",
+      "visibleBounds": {
+        "x0": 984,
+        "y0": 278,
+        "x1": 1224,
+        "y1": 500
+      },
+      "hiddenExtent": null
+    },
+    "tag": {
+      "cx": 1419,
+      "cy": 755,
+      "w": 203,
+      "angle": 16,
+      "hole": {
+        "x": 1329,
+        "y": 714
+      },
+      "paperBounds": {
+        "x0": 1282,
+        "y0": 677,
+        "x1": 1545,
+        "y1": 819
+      },
+      "writingAxisNote": "Blank long field excluding hole; glyphs untested."
+    },
+    "props": {
+      "bowl": {
+        "visibleBounds": {
+          "x0": 487,
+          "y0": 344,
+          "x1": 854,
+          "y1": 605
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 488,
+          "y0": 373,
+          "x1": 849,
+          "y1": 600
+        }
+      },
+      "banana": {
+        "visibleBounds": {
+          "x0": 465,
+          "y0": 289,
+          "x1": 850,
+          "y1": 451
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 468,
+          "y0": 296,
+          "x1": 848,
+          "y1": 448
+        }
+      },
+      "keys": {
+        "visibleBounds": {
+          "x0": 597,
+          "y0": 408,
+          "x1": 841,
+          "y1": 481
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 627,
+          "y0": 409,
+          "x1": 840,
+          "y1": 480
+        },
+        "underBananaHabitRecognition": null,
+        "note": "Keys identifiable, mostly front of banana; under-fruit relation not reliably shown."
+      },
+      "mug1": {
+        "visibleBounds": {
+          "x0": 576,
+          "y0": 135,
+          "x1": 926,
+          "y1": 333
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "objectRecognitionBounds": {
+          "x0": 577,
+          "y0": 139,
+          "x1": 923,
+          "y1": 324
+        },
+        "emptyInteriorRecognition": null,
+        "wallwardHabitRecognition": null
+      },
+      "mug2": {
+        "visibleBounds": {
+          "x0": 1051,
+          "y0": 143,
+          "x1": 1376,
+          "y1": 365
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "objectRecognitionBounds": {
+          "x0": 1052,
+          "y0": 145,
+          "x1": 1370,
+          "y1": 343
+        },
+        "emptyInteriorRecognition": null,
+        "wallwardHabitRecognition": null
+      }
+    },
+    "fullVisibleEssentialUnion": {
+      "x0": 465,
+      "y0": 135,
+      "x1": 1545,
+      "y1": 819
+    },
+    "conservativeObjectRecognitionUnion": {
+      "x0": 468,
+      "y0": 139,
+      "x1": 1545,
+      "y1": 819
+    },
+    "personSpecificHabitUnion": null,
+    "proposedCrop": {
+      "wide": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portrait": null,
+      "note": "Dedicated portrait supplied; no claim destructive crop retains person. Fullwide not phone PASS."
+    },
+    "tagPhysics": {
+      "mechanism": "Exterior low clear-foot body loop",
+      "frontArc": "Visible curved front low brown cord",
+      "sideOcclusion": "Sides turn around cylinder, rear unseen",
+      "knot": "Visible right-side knot near1263,679",
+      "tether": "Short continuous strands from knot to punched hole1329,714",
+      "hole": "Real dark punched hole visible",
+      "gravity": "Paper below support resting on table",
+      "separateOrContact": "Outboard paper separate from glass, honest table contact/shadow",
+      "uncertainties": [
+        "Parallel front bands rather than ONE strand",
+        "Rear closure/friction/load unknown",
+        "Several short strands obscure unique tether path"
+      ],
+      "pass": false
+    }
+  },
+  "portrait": {
+    "native": {
+      "width": 1084,
+      "height": 1451
+    },
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/portrait-master.png",
+    "glass": {
+      "x": 610,
+      "y": 832
+    },
+    "glassBounds": {
+      "x0": 458,
+      "y0": 620,
+      "x1": 765,
+      "y1": 1059
+    },
+    "serveBounds": {
+      "x0": 458,
+      "y0": 620,
+      "x1": 765,
+      "y1": 1059
+    },
+    "ice": {
+      "visibleBounds": {
+        "x0": 470,
+        "y0": 677,
+        "x1": 754,
+        "y1": 977
+      },
+      "fullExtent": null
+    },
+    "garnish": {
+      "type": "ONE lemon strip",
+      "visibleBounds": {
+        "x0": 551,
+        "y0": 689,
+        "x1": 731,
+        "y1": 864
+      },
+      "hiddenExtent": null
+    },
+    "tag": {
+      "cx": 860,
+      "cy": 1052,
+      "w": 150,
+      "angle": 21,
+      "hole": {
+        "x": 795,
+        "y": 1020
+      },
+      "paperBounds": {
+        "x0": 761,
+        "y0": 987,
+        "x1": 948,
+        "y1": 1102
+      },
+      "writingAxisNote": "Plain field long axis excluding hole; no actual glyph test."
+    },
+    "props": {
+      "bowl": {
+        "visibleBounds": {
+          "x0": 296,
+          "y0": 524,
+          "x1": 756,
+          "y1": 737
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 298,
+          "y0": 545,
+          "x1": 746,
+          "y1": 727
+        }
+      },
+      "banana": {
+        "visibleBounds": {
+          "x0": 284,
+          "y0": 487,
+          "x1": 724,
+          "y1": 622
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 286,
+          "y0": 493,
+          "x1": 722,
+          "y1": 618
+        }
+      },
+      "keys": {
+        "visibleBounds": {
+          "x0": 374,
+          "y0": 586,
+          "x1": 566,
+          "y1": 649
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "recognitionBounds": {
+          "x0": 403,
+          "y0": 588,
+          "x1": 566,
+          "y1": 648
+        },
+        "underBananaHabitRecognition": null,
+        "note": "Ring/head/teeth visible in front of fruit, not confidently underneath."
+      },
+      "mug1": {
+        "visibleBounds": {
+          "x0": 382,
+          "y0": 350,
+          "x1": 648,
+          "y1": 532
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "objectRecognitionBounds": {
+          "x0": 386,
+          "y0": 353,
+          "x1": 643,
+          "y1": 520
+        },
+        "emptyInteriorRecognition": {
+          "x0": 431,
+          "y0": 356,
+          "x1": 637,
+          "y1": 377
+        },
+        "wallwardHabitRecognition": null
+      },
+      "mug2": {
+        "visibleBounds": {
+          "x0": 617,
+          "y0": 384,
+          "x1": 879,
+          "y1": 610
+        },
+        "fullObjectBounds": null,
+        "unseenExtent": null,
+        "objectRecognitionBounds": {
+          "x0": 619,
+          "y0": 386,
+          "x1": 874,
+          "y1": 600
+        },
+        "emptyInteriorRecognition": {
+          "x0": 629,
+          "y0": 391,
+          "x1": 829,
+          "y1": 411
+        },
+        "wallwardHabitRecognition": null
+      }
+    },
+    "fullVisibleEssentialUnion": {
+      "x0": 284,
+      "y0": 350,
+      "x1": 948,
+      "y1": 1102
+    },
+    "conservativeObjectRecognitionUnion": {
+      "x0": 286,
+      "y0": 353,
+      "x1": 948,
+      "y1": 1102
+    },
+    "personSpecificHabitUnion": null,
+    "proposedCrop": {
+      "portrait": [
+        0,
+        0,
+        1084,
+        1451
+      ],
+      "note": "Full portrait sibling not moving tall-phone retention or exact-size export."
+    },
+    "tagPhysics": {
+      "mechanism": "Exterior low clear-foot wrap",
+      "frontArc": "Closely doubled parallel curved arcs",
+      "sideOcclusion": "Cord curves round side; rear unseen",
+      "knot": "Visible tiny right-side knot near751,989",
+      "tether": "Short strands descend to hole795,1020",
+      "hole": "Punched hole visible",
+      "gravity": "Paper lowered from knot to timber",
+      "separateOrContact": "Outboard paper rests on table, no apparent pasted label",
+      "uncertainties": [
+        "Parallel bands conflict with single-strand requirement",
+        "Rear closure/load/friction unknown",
+        "Local tether strand multiplicity"
+      ],
+      "pass": false
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Hold the Shark v2 — sole focused correction
+
+Completecurrent223-line dossier/spec rereadtoEOF immediatelybefore correction, full142-lineroom/currentrules/DESIGN/continuation/checkpoint/decisions and imagegenSKILL/sharedrefs readthisturn. Sixactualhouseexports inspected. Nativev1 originalviewed beforeedit. SHA dossier a5b08ea9af5a06ea5762f838dcb7d49a116803dfe8d53e578e4a860e71abc629/spec9780c0547edf09fe9d0b40583a297cd459f49e2530e20936c147e90ff7ae26e7/room9a133916de1cd11205e9d0941a2c9129b2244e2f2607687d30fa76b98d3a8be7.
+
+Exactsourcephysical350mlDOF/hazygold/toastedalmondMaiTai/crushedmound/ONEbigmintbranch+ONEsqueezedhalflimeCUTSIDEUP/nohead preserved. No ingredient/vessel/garnish/editorialchange. Notebook/pencil retelling and dampfolded roadcoat privatebad-day sourcebehavior; formatsordinaryinferrednotexplicitpossessions. Correctgiantglass/broadcoat+notebook and ambergloss in ONEsoleedit; preserveplausibleexistinglowbodyloopknotshortdownholeoutboardpaperwoodcontact. Actualresultmayheld. Pair2/batch4 FINALbuiltincall, no furthercalls/export/transform/browser/acceptance.
+

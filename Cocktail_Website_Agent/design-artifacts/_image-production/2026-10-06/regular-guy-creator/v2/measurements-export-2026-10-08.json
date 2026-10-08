@@ -1,0 +1,102 @@
+{
+  "pairing": "regular-guy-creator",
+  "pour": "Right Here",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-creator/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-373846fe-21dd-4bfb-bbdc-e76e663052a1.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "1db1d0aecc46265362f47c4e60adfe2b1f8dd3d9d6b8509d51a47cfc8c0e40dd",
+  "sourceSha256": "34251fe903c4acac25671f6379fd0a1aa13c1ea11da95de084189127f40f3ddb",
+  "specSha256": "11cd82457258dc1e2c7d9787521e4656ff5cbc5261ab88c03ed253ceee1f6a00",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    732,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1062,
+    "cy": 598,
+    "w": 151,
+    "angle": 4.6
+  },
+  "glass": {
+    "x": 1030,
+    "y": 509
+  },
+  "bounds": {
+    "glass": {
+      "x0": 902,
+      "y0": 350,
+      "x1": 1159,
+      "y1": 669
+    },
+    "paper": {
+      "x0": 944,
+      "y0": 552,
+      "x1": 1153,
+      "y1": 646
+    },
+    "ovenMitt": {
+      "x0": 808,
+      "y0": 429,
+      "x1": 1393,
+      "y1": 609
+    },
+    "offsetSpatula": {
+      "x0": 756,
+      "y0": 395,
+      "x1": 1259,
+      "y1": 578
+    }
+  },
+  "recognitionRegions": {
+    "ovenMitt": {
+      "bounds": {
+        "x0": 1149,
+        "y0": 446,
+        "x1": 1393,
+        "y1": 609
+      },
+      "reason": "Visible full padded thumb and broad folded cuff/right mitt body; a cropped thumb-tip alone is not recognition."
+    },
+    "offsetSpatula": {
+      "bounds": {
+        "x0": 756,
+        "y0": 395,
+        "x1": 1259,
+        "y1": 578
+      },
+      "reason": "Blunt flat blade plus offset/handle relationship needed; central offset is partly occluded by glass, so conservative region includes both visible ends."
+    }
+  },
+  "review": {
+    "recipe": "Plain everyday straight tumbler now has materially thinner base. Low clear pale amber/straw spirit fill with a few ordinary small cloudy tray cubes, no garnish/foam/rim, broadly follows gin/liquorice/bitters. Warm light pushes colour toward gold; exact cube count partly occluded.",
+    "personality": "Folded oven mitt and icing spatula infer the quiet home-baking talent in whoYouAre. They moved behind the glass, but their scale still spreads sideways and the offset bend is partly hidden.",
+    "world": "Historic timber room, one practical right and left dark region preserved. Glass has large clear patches, sparse droplets and broad cube faces; table remains very glossy amber with patterned contact wear.",
+    "issues": [
+      "Held composition: complete union x756\u20131393 = 637 px; conservative glass/paper+recognition union also 637 px, exceeding ~389 px moving-phone inner window.",
+      "Proposed 702 px portrait contains all full bounds with side clearance; this is NOT narrow-phone retention.",
+      "Tag clean writable axis 151 px is below requested 170\u2013200; long-name glyph test pending root.",
+      "Material hold/watch: broad amber varnish reflection and patterned table texture; minor ice-edge sparkle remains.",
+      "Spatula offset bend partly occluded; baking evidence plausible but not definitive in narrow cover.",
+      "No JPEG/browser/motion/name-overlay acceptance; correction limit reached."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "6ee63b65ec785010650bcc36196bbcbc717b062c8dfd9ab5a99bf21f6f1fa565",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You thought you had to choose. You never did.",
+      "+ - **tagline:** You make something remarkable, then go back to being one of the gang."
+    ]
+  }
+}

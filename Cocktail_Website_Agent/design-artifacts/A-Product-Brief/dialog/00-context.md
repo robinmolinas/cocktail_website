@@ -1,3 +1,5 @@
+> **Discovery history — reviewed 8 October 2026.** This records the original June discussion; completed discovery is preserved. Retired ink-quiz details and older constraints do not override later decisions. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # Context & Working Relationship
 
 **Step:** Phase 0 - Project Setup

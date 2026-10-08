@@ -9,6 +9,8 @@ ideas_generated: ['UX Motion #1', 'UX Motion #2', 'UX Motion #3', 'UX Motion #4'
 context_file: ''
 ---
 
+> **Historical exploration — reviewed 8 October 2026.** The footage rationale and earlier iterations are preserved. Current intake is the live journey/v3 contract; retired quiz fields, mocktail promises and image tinting are not current requirements. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # Brainstorming Session Results
 
 **Facilitator:** Saga
@@ -172,4 +174,3 @@ _Novelty_: Conventional quiz audio builds up; this strips down.
 
 ### Session Reflections
 The collaborative brainstorming succeeded in breaking away from typical web application forms. By focusing on sensory metaphors (ink on watercolor paper, density strata, auditory subtraction), we aligned the engineering requirements with Robin's premium aesthetic goals.
-

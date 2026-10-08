@@ -1,0 +1,358 @@
+{
+  "pairing": "jester-sage",
+  "pour": "Against My Better Judgement",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "650135f19726cd28669ab561625a2d9ceb7f9552390d4bc0e5bfb3e532047fcd",
+  "review": {
+    "recipe": "Clear pale amber still stirred cocktail in chilled stemmed glass, no serving ice/foam/garnish. Lemon expressed then removed: no peel anywhere in/on drink. Clear plain glass is promising; glass shape/capacity not physically measured from image.",
+    "personality": "Letter is explicit whoYouAre scene; used capped black pen is plausible ordinary response inference. Folded paper+whole pen recognisable, not anonymous edges. This does not establish joke/hidden-hope specificity alone; no historical Field artefact claim.",
+    "world": "Dark historic reading room; left quiet. Plain smooth glass better than prior speckle, but table remains glossy/raised-patterned with amber and cool reflections.",
+    "issues": [
+      "Glass323px is pulled back; full conservative letter+pen+glass+tag group412px still exceeds about389px maximum-breathing phone window; no phone PASS.",
+      "Proportional tag is narrow110px vs232px bowl, actual writing axis78px; long-name glyph fit deferred, do not inflate paper.",
+      "Tag physically tied and separate, but its lowest corner approaches tabletop; freely suspended clearance uncertain.",
+      "Dense raised/glossy timber and cool-left/amber-right reflections persist; not accepted natural flat-walnut material.",
+      "Correspondence+pen are recognisable everyday objects, but specificity of joke/hidden hope remains a watch; pen is inference, not source explicit object."
+    ]
+  },
+  "measurements": {
+    "pairing": "jester-sage",
+    "pour": "Against My Better Judgement",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-sage/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-4a4c576d-6bc1-46c7-ac13-c3f2cfd51be7.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "650135f19726cd28669ab561625a2d9ceb7f9552390d4bc0e5bfb3e532047fcd",
+    "specSha256": "2052b3952e998294f49f1ce34a769fc874955f774500ac26bf11748ce5cc2871",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      821,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1194,
+      "cy": 540,
+      "w": 78,
+      "angle": 32.5
+    },
+    "glass": {
+      "x": 1090,
+      "y": 326
+    },
+    "bounds": {
+      "glass": {
+        "x0": 974,
+        "y0": 254,
+        "x1": 1206,
+        "y1": 577
+      },
+      "paper": {
+        "x0": 1133,
+        "y0": 498,
+        "x1": 1243,
+        "y1": 583
+      }
+    },
+    "personalityBounds": {
+      "foldedCorrespondence": {
+        "x0": 966,
+        "y0": 429,
+        "x1": 1378,
+        "y1": 530
+      },
+      "cappedInkPen": {
+        "x0": 1127,
+        "y0": 426,
+        "x1": 1336,
+        "y1": 488
+      }
+    },
+    "recognitionRegions": {
+      "foldedCorrespondence": {
+        "x0": 966,
+        "y0": 429,
+        "x1": 1378,
+        "y1": 530
+      },
+      "cappedInkPen": {
+        "x0": 1127,
+        "y0": 426,
+        "x1": 1336,
+        "y1": 488
+      }
+    },
+    "review": {
+      "recipe": "Clear pale amber still stirred cocktail in chilled stemmed glass, no serving ice/foam/garnish. Lemon expressed then removed: no peel anywhere in/on drink. Clear plain glass is promising; glass shape/capacity not physically measured from image.",
+      "personality": "Letter is explicit whoYouAre scene; used capped black pen is plausible ordinary response inference. Folded paper+whole pen recognisable, not anonymous edges. This does not establish joke/hidden-hope specificity alone; no historical Field artefact claim.",
+      "world": "Dark historic reading room; left quiet. Plain smooth glass better than prior speckle, but table remains glossy/raised-patterned with amber and cool reflections.",
+      "issues": [
+        "Glass323px is pulled back; full conservative letter+pen+glass+tag group412px still exceeds about389px maximum-breathing phone window; no phone PASS.",
+        "Proportional tag is narrow110px vs232px bowl, actual writing axis78px; long-name glyph fit deferred, do not inflate paper.",
+        "Tag physically tied and separate, but its lowest corner approaches tabletop; freely suspended clearance uncertain.",
+        "Dense raised/glossy timber and cool-left/amber-right reflections persist; not accepted natural flat-walnut material.",
+        "Correspondence+pen are recognisable everyday objects, but specificity of joke/hidden hope remains a watch; pen is inference, not source explicit object."
+      ]
+    },
+    "status": "measured-master-candidate; held; not-accepted; browser-deferred",
+    "sourceRefresh": {
+      "previousSourceSha256": "8254e212ad43a4543206f73896e6fcb2fe678cc88ac9a8a978343607e814dcc7",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** Everyone hears the joke. Hardly anyone hears the hope.",
+        "+ - **tagline:** You make fun of the world because you haven't given up on it.",
+        "- **tagline:** Everyone hears the joke. Hardly anyone hears the hope.",
+        "+ **tagline:** You make fun of the world because you haven't given up on it."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1371.1004784688994,
+        "cy": 620.4255319148937,
+        "w": 89.56937799043062,
+        "angle": 32.513808414203595
+      },
+      "glass": {
+        "x": 1251.6746411483252,
+        "y": 374.5531914893617
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 476.0797720797721,
+        "cy": 689.3617021276597,
+        "w": 99.55555555555554,
+        "angle": 32.50493206338578
+      },
+      "glass": {
+        "x": 343.33903133903135,
+        "y": 416.17021276595744
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/jester-sage/portrait.jpg",
+    "wide": "/personas/jester-sage/wide.jpg",
+    "wideTag": {
+      "cx": 0.7141148325358851,
+      "cy": 0.574468085106383,
+      "w": 0.04665071770334928,
+      "angle": 32.513808414203595
+    },
+    "wideGlass": {
+      "x": 0.6519138755980861,
+      "y": 0.3468085106382979
+    },
+    "tag": {
+      "cx": 0.5313390313390314,
+      "cy": 0.574468085106383,
+      "w": 0.1111111111111111,
+      "angle": 32.50493206338578
+    },
+    "glass": {
+      "x": 0.3831908831908832,
+      "y": 0.3468085106382979
+    }
+  },
+  "hashes": {
+    "master": "878b439729f75ba9deba14fee9be02dcc47491906b249d17da79c557ecaa4e15",
+    "wide": "3bdb484a7efe9f9042bff996775b3019e30a790700d94e2e2cf3644fac5ac936",
+    "portrait": "ad98f5bf793dc4699feb3c77e20a71f6ebf78d9ca4dfe4c657287a9a2fbdb60a"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1118.468899521531,
+          "y0": 291.82978723404256,
+          "x1": 1384.8803827751196,
+          "y1": 662.936170212766
+        },
+        "paper": {
+          "x0": 1301.0526315789475,
+          "y0": 572.1702127659574,
+          "x1": 1427.3684210526317,
+          "y1": 669.8297872340426
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 852.0574162679426,
+          "y0": 243.19148936170214,
+          "x1": 1074.0669856459328,
+          "y1": 552.4468085106383
+        },
+        "paper": {
+          "x0": 1004.2105263157896,
+          "y0": 476.8085106382979,
+          "x1": 1109.4736842105265,
+          "y1": 558.1914893617021
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1193.0334928229665,
+          "y0": 257.9251063829787,
+          "x1": 1477.2057416267942,
+          "y1": 653.771914893617
+        },
+        "paper": {
+          "x0": 1387.7894736842106,
+          "y0": 556.9548936170213,
+          "x1": 1522.5263157894738,
+          "y1": 661.1251063829787
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2003.9234449760766,
+          "y0": 295.1617021276595,
+          "x1": 2481.244019138756,
+          "y1": 960.0606382978724
+        },
+        "paper": {
+          "x0": 2331.0526315789475,
+          "y0": 797.4382978723404,
+          "x1": 2557.3684210526317,
+          "y1": 972.4117021276595
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3831908831908832,
+        "y": 0.3468085106382979
+      },
+      "bounds": {
+        "glass": {
+          "x0": 45.31103513770178,
+          "y0": 228.05957446808512,
+          "x1": 253.57785375118704,
+          "y1": 518.0723404255319
+        },
+        "paper": {
+          "x0": 188.0456220322887,
+          "y0": 447.14042553191496,
+          "x1": 286.7928205128205,
+          "y1": 523.4595744680851
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3831908831908832,
+        "y": 0.3468085106382979
+      },
+      "bounds": {
+        "glass": {
+          "x0": 49.78115859449193,
+          "y0": 251.83829787234043,
+          "x1": 279.7630009496676,
+          "y1": 572.0893617021276
+        },
+        "paper": {
+          "x0": 207.398024691358,
+          "y0": 493.7617021276596,
+          "x1": 316.44113960113964,
+          "y1": 578.0382978723403
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3831908831908832,
+        "y": 0.3468085106382979
+      },
+      "bounds": {
+        "glass": {
+          "x0": 52.5407787274454,
+          "y0": 153.4808510638298,
+          "x1": 192.70138651471984,
+          "y1": 348.6553191489362
+        },
+        "paper": {
+          "x0": 148.599126305793,
+          "y0": 300.91914893617025,
+          "x1": 215.05458689458692,
+          "y1": 352.2808510638298
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "pairing": "hero-creator",
+  "pour": "The Long Answer",
+  "orientation": "portrait",
+  "status": "private corrected candidate, NOT accepted",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v4/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-0b24d548-2c77-4f1c-bc22-ba1601ce1251.png",
+  "source": {
+    "dossier": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/hero-creator.md",
+    "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-creator.json",
+    "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-creator.md",
+    "dossierSha256": null,
+    "specSha256": null,
+    "roomSha256": null,
+    "fingerprintStatus": "Not executed per batch restrictions; complete current text read, closed r7 room/current D13 wording evidence."
+  },
+  "sourceSha256": null,
+  "masterSha256": null,
+  "originalSha256": null,
+  "displayedCanvas": {
+    "width": 1084,
+    "height": 1451,
+    "headerVerified": false
+  },
+  "measurementMethod": "Manual original-size displayed-canvas estimates, approx +/-5–10px; no native header or hash execution.",
+  "wideCrop": null,
+  "portraitCrop": [
+    0,
+    0,
+    1084,
+    1451
+  ],
+  "companionWide": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/wide-master.png",
+  "tag": {
+    "cx": 600,
+    "cy": 996,
+    "w": 113,
+    "angle": 65
+  },
+  "glass": {
+    "x": 542,
+    "y": 829
+  },
+  "bounds": {
+    "glass": {
+      "x0": 389,
+      "y0": 661,
+      "x1": 694,
+      "y1": 1068
+    },
+    "paper": {
+      "x0": 549,
+      "y0": 930,
+      "x1": 649,
+      "y1": 1064
+    },
+    "ice": {
+      "x0": 443,
+      "y0": 686,
+      "x1": 658,
+      "y1": 847
+    },
+    "mint": {
+      "x0": 353,
+      "y0": 528,
+      "x1": 545,
+      "y1": 680
+    },
+    "orangeLeft": {
+      "x0": 478,
+      "y0": 541,
+      "x1": 573,
+      "y1": 710
+    },
+    "orangeRight": {
+      "x0": 555,
+      "y0": 563,
+      "x1": 624,
+      "y1": 702
+    },
+    "pineapple": {
+      "x0": 611,
+      "y0": 583,
+      "x1": 736,
+      "y1": 711
+    },
+    "cherryFruit": {
+      "x0": 594,
+      "y0": 649,
+      "x1": 667,
+      "y1": 727
+    },
+    "cherryStalk": {
+      "x0": 631,
+      "y0": 560,
+      "x1": 684,
+      "y1": 673
+    },
+    "openedEnvelopes": {
+      "x0": 270,
+      "y0": 823,
+      "x1": 881,
+      "y1": 980
+    },
+    "partlyWithdrawnSheet": {
+      "x0": 361,
+      "y0": 823,
+      "x1": 807,
+      "y1": 934
+    },
+    "blueCappedPen": {
+      "x0": 574,
+      "y0": 916,
+      "x1": 812,
+      "y1": 981
+    },
+    "cordVisible": {
+      "x0": 509,
+      "y0": 918,
+      "x1": 586,
+      "y1": 960
+    }
+  },
+  "recognition": {
+    "openedLetterAndSheet": {
+      "x0": 270,
+      "y0": 823,
+      "x1": 881,
+      "y1": 980
+    },
+    "blueCappedPen": {
+      "x0": 574,
+      "y0": 916,
+      "x1": 812,
+      "y1": 981
+    },
+    "mint": {
+      "x0": 353,
+      "y0": 528,
+      "x1": 545,
+      "y1": 680
+    },
+    "orangeLeft": {
+      "x0": 478,
+      "y0": 541,
+      "x1": 573,
+      "y1": 710
+    },
+    "orangeRight": {
+      "x0": 555,
+      "y0": 563,
+      "x1": 624,
+      "y1": 702
+    },
+    "orangeShapeQualification": "Two separate cut pieces visibly apparent; straight inner edges and curved rind, wedge-like perspective/partial occlusion. Exact perfect half-circle geometry not provable from view.",
+    "pineapple": {
+      "x0": 611,
+      "y0": 583,
+      "x1": 736,
+      "y1": 711
+    },
+    "cherryWithStalk": {
+      "x0": 594,
+      "y0": 560,
+      "x1": 684,
+      "y1": 727
+    },
+    "servedIce": {
+      "x0": 443,
+      "y0": 686,
+      "x1": 658,
+      "y1": 847
+    },
+    "meaningfulUnion": {
+      "x0": 270,
+      "y0": 528,
+      "x1": 881,
+      "y1": 1068
+    },
+    "unionWidth": 611
+  },
+  "hiddenExtent": null,
+  "tagPhysics": {
+    "mechanism": "Fine cotton stem turn below bowl; tiny front knot, short punched-hole tether",
+    "knotPoint": [
+      565,
+      934
+    ],
+    "holePoint": [
+      578,
+      953
+    ],
+    "tether": "Short downward/slightly outboard visible segment approx23px",
+    "gravity": "Paper face hangs down/right; bottom corner appears resting on wood",
+    "airGap": "Paper face visibly separate from stem apart from cord and overlapping upper edge",
+    "contact": "Subtle bottom corner shadow/support plausible, not mechanically proven",
+    "occlusion": "Rear turn disappears behind stem",
+    "uncertainties": [
+      "Rear knot/loop support load unknown",
+      "Strand near front turn appears doubled cotton texture; SINGLE complete turn not proved",
+      "Hole/tether can be seen front only"
+    ]
+  },
+  "review": {
+    "recipe": "Two distinct cut orange pieces replace full-wheel appearance; mint/pineapple/dark stalked cherry and ONE ice/hazy rosy orange/heavy beer goblet retained. Cut pieces are wedge-like/partly occluded, so exact semicircle precision remains watch.",
+    "personality": "Opened paper group/withdrawn sheet now behind stem, capped blue pen behind stem across paper. Three envelope count/individual boundaries partly overlapped, no hidden extent inferred.",
+    "world": "Mostly flat longitudinal wood, ordinary wet cube; warm satin shine/fine wear and dense glass drops persist, left window still bright.",
+    "issues": [
+      "611px whole recognition/serve union exceeds550 aim; paper x270–881 not requested300–820 lane; NOT phone PASS",
+      "Vessel407px high still larger than pulled-back goal",
+      "Three individual envelopes not all separately countable",
+      "Halfmoon count improved to2 visible pieces; exact shape watch",
+      "Dense dots/warm sheen/bright window watch",
+      "Posterior tag load/name fit/browser/glyph/load/header verification unresolved"
+    ]
+  }
+}

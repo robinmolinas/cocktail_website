@@ -9,15 +9,15 @@ authored_in: party-mode dry run of the authoring studio (Historian · Mixologist
 
 # Pour — A Brother's Care · The Connoisseur (sage-lover)
 
-Staging copy of the first authored pour, in the shape of the meaning model
-(`../2026-09-23-cocktail-meaning-model.md`). It moves into the typed store
-(`dionysus-experience/shared/data/pours/`) once `shared/pour.ts` and the
-validator exist. The dossier below is research only and never ships.
+The first authored pour, in the shape of the meaning model
+(`../2026-09-23-cocktail-meaning-model.md`). This file is the source:
+`npm run import:pours` in dionysus-experience copies it into the typed store.
+The dossier below is research only and never ships.
 
 ## Cocktail
 
 - **name:** A Brother's Care
-- **tagline:** Some truths last because someone loved them enough to keep them.
+- **tagline:** You know why something is wonderful, and who you want to share it with.
 - **glassware:** Nick & Nora
 - **contains:** `[]`
 

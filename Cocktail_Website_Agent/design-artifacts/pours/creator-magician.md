@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 ## Cocktail
 
 - **name:** Overnight
-- **tagline:** You change everything except the part that makes it theirs.
+- **tagline:** You see what makes someone themselves, and change everything around to let it shine.
 - **glassware:** a small tumbler (rocks glass), chilled, no ice
 - **contains:** `["dairy"]`
 
@@ -174,7 +174,7 @@ Wren's title-block notes:
 
 - **name (pick):** *Overnight*. Tomás's pick too. The overnight makeover is the one everybody believes in, and this drink really does take a night. Tomás flagged that *Four Shares* also starts "the night before". Its night is care given in advance ("I was thinking of you yesterday"). Ours is the transformation nobody sees. The motif is different, so the name stays. I've taken "the night before" out of our guest text, though, so the words themselves don't echo it (see the epigraph and yours 4).
   - runners-up: *Side Benefit* (Arnold's words; it belongs to the reading's ending) · *On Purpose* ("on purpose" already appears in three pours' text).
-- **tagline (pick):** *You change everything except the part that makes it theirs.*
+- **tagline (pick):** *You see what makes someone themselves, and change everything around to let it shine.*
   - alternates: *When it looks its worst, you're the one who isn't worried.* · *You see what's worth keeping, and change everything else.*
 - **epigraph (pick):** *Last night, this drink looked like a mistake.* (v1 opened "The night before", which is the opening of Four Shares' yours 4.)
   - alternate: *It had to curdle to come out like this.*

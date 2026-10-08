@@ -44,7 +44,7 @@ Allowed imports: `src → shared`, `api → server, shared`, `server → shared`
 
 ## Invariants & Rules
 
-### AD-1 — One canonical answer contract (v2)
+### AD-1 — One canonical answer contract (v3)
 
 - **Binds:** CAP-1; `shared/answers.ts`; every hold in `TheDepths`
 - **Prevents:** the engine scoring fields the journey never writes (the 2026-09-18 blocker); two answer shapes or option lists drifting apart

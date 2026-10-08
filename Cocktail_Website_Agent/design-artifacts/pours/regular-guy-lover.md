@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 ## Cocktail
 
 - **name:** First Choice
-- **tagline:** You're everyone's easy yes. Just once, you'd like to be someone's plan A.
+- **tagline:** People feel at home with you before they've even taken their coats off.
 - **glassware:** coupe, chilled
 - **contains:** `[]`
 

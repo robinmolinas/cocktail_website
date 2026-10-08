@@ -1,0 +1,22 @@
+# Built to Hold — complete-source readiness,7October2026
+
+Root READcomplete203linecurrentdossier/spec/144lineclosedroom, currentapplied
+D1/Tomasprecautionresolution, continuationplan/checkpoint/currentimageSystem/
+DESIGN and imagegen skillrefs. Truncatedroomsections recovered31–63/81–144.
+Viewed actualthreehousewide+portrait controls and earlierhandledchina candidate.
+Source6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6; spec1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56; room35cf395867739ab2d96beeef48217eeb27089adfeaeab4c4e3cb6750fcea23bb.
+Ruled5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347; DESIGNf30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403.
+Drafteditorialstatusunchanged; recipe/servingclosed and coherent. D1nutsflag
+resolved—oldspecstatusnotes historical, no recipechange.60arrack+40shrub+
+80stillwater =180ml in ONE~200mlHANDLEglasscup, fridgecold/noice/nofoam/no
+steam/nogarnish/rim. Stylebowl is analyticalclassification, NOT permission
+for inventedbowl/ladle/sharedcup. Hazyamberorange appearance author estimate.
+SEVILLEshrub photographedbranch; recipeallowsordinaryorange/lemon outofseason.
+Personclosed organiser/tabs+preparedlinenstack INFERRED from all-parts/event/
+arrivalpreparationWHO, notexplicitownedobjects/historicAshleyartifacts.
+Drink→person→pour; no decorativeceiling/rotatingpeel/casks/impossibleprops.
+Candidatehandledcoldcup pilot, lowrealhandle attachment supports smallpaper;
+rearload/knotdepth/gap/contact remainsreview notblanketphysicsPASS.
+Oneinitial+atmostONEfocusededit. SaveversionednativePNG/actualprompts/metadata;
+no JPEG/exportretry/bypass/CLI/API/browser/newREADY/public/runtime/source edits.
+No name/phone/material/personality/finalapproval inferred.

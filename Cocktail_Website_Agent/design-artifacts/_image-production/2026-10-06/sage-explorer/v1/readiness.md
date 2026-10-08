@@ -1,0 +1,5 @@
+# Look Again — readiness before batch10 initial
+
+Root read complete current settled dossier/spec to EOF, closed room, continuation/current image rules/application DESIGN, imagegen skill/full required references and applied decisions. Six actual pilot JPEGs inspected at original resolution. No existing master/public asset for pairing. Draft status unchanged; no open recipe objection.
+
+One300ml rocks glass cubed ice,15ml cognac/Armagnac first +45ml oude genever +6ml rich syrup +2dashesAngostura, built/stirred20seconds, expressed lemon strip droppedIN; about84ml finished liquid. Clear pale gold-amber is source author's estimate, no layers survive stir; no foam/rim/extra garnish. Genever older STYLE, not implied aged. Personality: face-down open book from source brief, late-meal plate/used linen inferred from dinner and staying late checking favourite theories. Not literal Morewood/Kämpfer belongings, not a historical reenactment. Current walnut room replaces pale marble; impossible grape-vine shadow omitted. Small label support-chain clear base is physical not metaphor. Initial plus at most one focused correction; no JPEG/export/browser/acceptance.

@@ -1,0 +1,770 @@
+{
+  "pairing": "lover-creator",
+  "pour": "In Your Own Hand",
+  "status": "private-review-export; all-acceptance-gates-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "699835647c6a427f3c2152ff26636205e28d0b54bb958d23b32040dced5ececa",
+  "review": {
+    "recipe": "Two cloudy orange-gold drinks/coarse rims/no serving ice/garnish. Narrow round stemmed bowls, but long-stem wine-like scale; exact97ml capacity/outside-only inner lips not physically proved.",
+    "personality": "Palette removed, unfinished board and whole used brush readable; board remains front-facing/broad and touches native right edge, hesitant intimate reveal not proved. Two glasses close in depth.",
+    "world": "Plain glass/stems clearer with ordinary highlights, droplets still near-uniform on bowls. Walnut long grain flatter, some reflective warm wash, reflection itself not prohibited.",
+    "issues": [
+      "Forward504px/second443px glass exceeds target",
+      "Physical two-serve458px and full835px/recogn820px group too broad for untestedphone",
+      "Board right extent clipped/unknown",
+      "Tan multi-turn stem cord remains",
+      "Upper rim278 and foot782 not comfortably central20–80%",
+      "No outside-only/97ml/name/browser proof"
+    ]
+  },
+  "measurements": {
+    "pairing": "lover-creator",
+    "pour": "In Your Own Hand",
+    "sourceSha256": "699835647c6a427f3c2152ff26636205e28d0b54bb958d23b32040dced5ececa",
+    "specSha256": "4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898",
+    "roomSha256": "a2743a7fa252cf33ca11ac4b66f551dcff12ea2a6e782797822eee516d4b9882",
+    "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "version": "v3",
+    "measurementMethod": "Conservative visual estimates at native original resolution, no physical-volume/name/phone acceptance.",
+    "orientation": "wide",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-creator/v3/wide-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-4c5fc6e5-7e7c-434a-a9ab-7bf9487e80c3.png",
+    "masterSha256": "4dffbd8b2693e059b9c0846bcfba9403e871360d9391820292d8cfaed602a309",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      805,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1012,
+      "cy": 635,
+      "w": 88,
+      "angle": 76
+    },
+    "glass": {
+      "x": 972,
+      "y": 530
+    },
+    "bounds": {
+      "glass": {
+        "x0": 837,
+        "y0": 278,
+        "x1": 1110,
+        "y1": 782
+      },
+      "paper": {
+        "x0": 967,
+        "y0": 574,
+        "x1": 1049,
+        "y1": 695
+      },
+      "secondGlass": {
+        "x0": 1061,
+        "y0": 246,
+        "x1": 1295,
+        "y1": 689
+      },
+      "heroCoarseSugarRim": {
+        "x0": 837,
+        "y0": 278,
+        "x1": 1110,
+        "y1": 334
+      },
+      "secondCoarseSugarRim": {
+        "x0": 1061,
+        "y0": 246,
+        "x1": 1295,
+        "y1": 293
+      }
+    },
+    "personBounds": {
+      "unfinishedPaintedPiece": {
+        "x0": 1252,
+        "y0": 263,
+        "x1": 1672,
+        "y1": 685
+      },
+      "usedBrush": {
+        "x0": 1187,
+        "y0": 591,
+        "x1": 1657,
+        "y1": 764
+      }
+    },
+    "recognitionRegions": {
+      "unfinishedPaintedPiece": {
+        "x0": 1267,
+        "y0": 279,
+        "x1": 1641,
+        "y1": 668
+      },
+      "usedBrush": {
+        "x0": 1187,
+        "y0": 591,
+        "x1": 1657,
+        "y1": 764
+      },
+      "secondFullServe": {
+        "x0": 1061,
+        "y0": 246,
+        "x1": 1295,
+        "y1": 689
+      },
+      "heroSugar": {
+        "x0": 837,
+        "y0": 278,
+        "x1": 1110,
+        "y1": 334
+      },
+      "secondSugar": {
+        "x0": 1061,
+        "y0": 246,
+        "x1": 1295,
+        "y1": 293
+      }
+    },
+    "unknownExtents": {
+      "unfinishedPieceOutsideRaster": null,
+      "unfinishedPiecePosterior": null,
+      "actualGlassCapacity": null,
+      "coarseSugarInnerLipCleanliness": null
+    },
+    "group": {
+      "fullBounds": {
+        "x0": 837,
+        "y0": 246,
+        "x1": 1672,
+        "y1": 782
+      },
+      "recognitionBounds": {
+        "x0": 837,
+        "y0": 246,
+        "x1": 1657,
+        "y1": 782
+      },
+      "fullWidth": 835,
+      "recognitionWidth": 820,
+      "physicalServeBoundsIncludingAllPhysicalObjects": {
+        "x0": 837,
+        "y0": 246,
+        "x1": 1295,
+        "y1": 782
+      }
+    },
+    "tagPhysics": {
+      "supportLoop": "Tan multi-strand/multiple turns visibly around stem y551–563.",
+      "knot": "Small right knot around983,563.",
+      "tether": "Curved down/right about33px to punched hole995,593.",
+      "hole": "Visible punched hole995,593.",
+      "gravity": "Paper drops down/right free edge, suspended.",
+      "airgap": "Clearance visible from main stem below upper paper.",
+      "contact": "No tabletop contact.",
+      "uncertainty": [
+        "Multiple strands/turns rather than single",
+        "Rear wrap/load unobservable",
+        "Tether longer than very-short target"
+      ],
+      "assessment": "Free paper plausible, subdued single-strand requirement not met; physics/load not blanket PASS."
+    },
+    "review": {
+      "recipe": "Two cloudy orange-gold drinks/coarse rims/no serving ice/garnish. Narrow round stemmed bowls, but long-stem wine-like scale; exact97ml capacity/outside-only inner lips not physically proved.",
+      "personality": "Palette removed, unfinished board and whole used brush readable; board remains front-facing/broad and touches native right edge, hesitant intimate reveal not proved. Two glasses close in depth.",
+      "world": "Plain glass/stems clearer with ordinary highlights, droplets still near-uniform on bowls. Walnut long grain flatter, some reflective warm wash, reflection itself not prohibited.",
+      "issues": [
+        "Forward504px/second443px glass exceeds target",
+        "Physical two-serve458px and full835px/recogn820px group too broad for untestedphone",
+        "Board right extent clipped/unknown",
+        "Tan multi-turn stem cord remains",
+        "Upper rim278 and foot782 not comfortably central20–80%",
+        "No outside-only/97ml/name/browser proof"
+      ]
+    },
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-creator/v3/measurements.json",
+      "originalMeasurementSha256": "74fd5b288c2d3e1a98c7a39154168715ce13a223876fd7af728bd7a7096a4d8a",
+      "previousSourceSha256": "63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "portraitMeasurementFile": "portrait-measurements.json"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1162.1052631578948,
+        "cy": 729.5744680851063,
+        "w": 101.05263157894737,
+        "angle": 76.00715033917433
+      },
+      "glass": {
+        "x": 1116.1722488038276,
+        "y": 608.9361702127659
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 278.55350553505536,
+        "cy": 830.3239145416954,
+        "w": 66.12546125461255,
+        "angle": -56.014377855754134
+      },
+      "glass": {
+        "x": 322.36162361623616,
+        "y": 760.8545830461751
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/lover-creator/portrait.jpg",
+    "wide": "/personas/lover-creator/wide.jpg",
+    "wideTag": {
+      "cx": 0.6052631578947368,
+      "cy": 0.675531914893617,
+      "w": 0.05263157894736842,
+      "angle": 76.00715033917433
+    },
+    "wideGlass": {
+      "x": 0.5813397129186603,
+      "y": 0.5638297872340425
+    },
+    "tag": {
+      "cx": 0.31088560885608857,
+      "cy": 0.6919365954514128,
+      "w": 0.07380073800738007,
+      "angle": -56.014377855754134
+    },
+    "glass": {
+      "x": 0.35977859778597787,
+      "y": 0.6340454858718125
+    }
+  },
+  "hashes": {
+    "master": "4dffbd8b2693e059b9c0846bcfba9403e871360d9391820292d8cfaed602a309",
+    "wide": "ad744eb96c2952cf96e95e1c7fcdba15dd00e85ee71d82eec28b36109adba5c5",
+    "portrait": "d7525fc72d75616f2a5a5f596a927a951745b8d8a4674c480bce7c4f411d6b2c",
+    "portraitMaster": "94e4d9497a0e65b05a6e90b3b96cd36d363ea53b2de8f762927fec7ed85d2290"
+  },
+  "geometryScope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 961.1483253588517,
+          "y0": 319.40425531914894,
+          "x1": 1274.641148325359,
+          "y1": 898.468085106383
+        },
+        "paper": {
+          "x0": 1110.4306220095693,
+          "y0": 659.4893617021277,
+          "x1": 1204.5933014354066,
+          "y1": 798.5106382978723
+        },
+        "secondGlass": {
+          "x0": 1218.3732057416269,
+          "y0": 282.6382978723404,
+          "x1": 1487.0813397129186,
+          "y1": 791.6170212765957
+        },
+        "heroCoarseSugarRim": {
+          "x0": 961.1483253588517,
+          "y0": 319.40425531914894,
+          "x1": 1274.641148325359,
+          "y1": 383.74468085106383
+        },
+        "secondCoarseSugarRim": {
+          "x0": 1218.3732057416269,
+          "y0": 282.6382978723404,
+          "x1": 1487.0813397129186,
+          "y1": 336.6382978723404
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 720.9569377990431,
+          "y0": 266.17021276595744,
+          "x1": 982.200956937799,
+          "y1": 748.7234042553192
+        },
+        "paper": {
+          "x0": 845.3588516746412,
+          "y0": 549.5744680851064,
+          "x1": 923.8277511961721,
+          "y1": 665.4255319148937
+        },
+        "secondGlass": {
+          "x0": 935.3110047846891,
+          "y0": 235.531914893617,
+          "x1": 1159.2344497607655,
+          "y1": 659.6808510638298
+        },
+        "heroCoarseSugarRim": {
+          "x0": 720.9569377990431,
+          "y0": 266.17021276595744,
+          "x1": 982.200956937799,
+          "y1": 319.7872340425532
+        },
+        "secondCoarseSugarRim": {
+          "x0": 935.3110047846891,
+          "y0": 235.531914893617,
+          "x1": 1159.2344497607655,
+          "y1": 280.531914893617
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1025.2248803827752,
+          "y0": 287.3378723404255,
+          "x1": 1359.6172248803828,
+          "y1": 905.0059574468086
+        },
+        "paper": {
+          "x0": 1184.4593301435407,
+          "y0": 650.0953191489363,
+          "x1": 1284.8995215311004,
+          "y1": 798.3846808510639
+        },
+        "secondGlass": {
+          "x0": 1299.598086124402,
+          "y0": 248.12085106382978,
+          "x1": 1586.22009569378,
+          "y1": 791.031489361702
+        },
+        "heroCoarseSugarRim": {
+          "x0": 1025.2248803827752,
+          "y0": 287.3378723404255,
+          "x1": 1359.6172248803828,
+          "y1": 355.9676595744681
+        },
+        "secondCoarseSugarRim": {
+          "x0": 1299.598086124402,
+          "y0": 248.12085106382978,
+          "x1": 1586.22009569378,
+          "y1": 305.72085106382974
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1722.0574162679427,
+          "y0": 344.5659574468084,
+          "x1": 2283.7320574162677,
+          "y1": 1382.0553191489362
+        },
+        "paper": {
+          "x0": 1989.5215311004786,
+          "y0": 953.8851063829788,
+          "x1": 2158.2296650717703,
+          "y1": 1202.9648936170213
+        },
+        "secondGlass": {
+          "x0": 2182.9186602870814,
+          "y0": 278.6936170212765,
+          "x1": 2664.354066985646,
+          "y1": 1190.613829787234
+        },
+        "heroCoarseSugarRim": {
+          "x0": 1722.0574162679427,
+          "y0": 344.5659574468084,
+          "x1": 2283.7320574162677,
+          "y1": 459.8425531914893
+        },
+        "secondCoarseSugarRim": {
+          "x0": 2182.9186602870814,
+          "y0": 278.6936170212765,
+          "x1": 2664.354066985646,
+          "y1": 375.4436170212765
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.35977859778597787,
+        "y": 0.6340454858718125
+      },
+      "bounds": {
+        "glass": {
+          "x0": 75.20211562115622,
+          "y0": 435.66919365954516,
+          "x1": 203.6811316113161,
+          "y1": 635.762922122674
+        },
+        "paper": {
+          "x0": 86.24782287822879,
+          "y0": 553.1660923501033,
+          "x1": 136.82553505535054,
+          "y1": 611.9145416953826
+        },
+        "requiredSecondGlass": {
+          "x0": 182.1710701107011,
+          "y0": 419.96416264645075,
+          "x1": 296.6976137761378,
+          "y1": 592.7195037904894
+        },
+        "outsideSugarRimHero": {
+          "x0": 75.20211562115622,
+          "y0": 433.9241902136457,
+          "x1": 203.09977859778596,
+          "y1": 469.98759476223296
+        },
+        "outsideSugarRimCompanion": {
+          "x0": 183.33377613776136,
+          "y0": 419.38249483115095,
+          "x1": 297.8603198031981,
+          "y1": 444.9758787043419
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.35977859778597787,
+        "y": 0.6340454858718125
+      },
+      "bounds": {
+        "glass": {
+          "x0": 82.80437884378844,
+          "y0": 481.0944176430048,
+          "x1": 224.6793111931119,
+          "y1": 702.0509993108201
+        },
+        "paper": {
+          "x0": 95.00177121771219,
+          "y0": 610.842177808408,
+          "x1": 150.85298892988928,
+          "y1": 675.7160578911097
+        },
+        "requiredSecondGlass": {
+          "x0": 200.92649446494462,
+          "y0": 463.7518952446589,
+          "x1": 327.3941943419435,
+          "y1": 654.5196416264646
+        },
+        "outsideSugarRimHero": {
+          "x0": 82.80437884378844,
+          "y0": 479.16747070985525,
+          "x1": 224.0373431734317,
+          "y1": 518.9910406616127
+        },
+        "outsideSugarRimCompanion": {
+          "x0": 202.21043050430504,
+          "y0": 463.1095796002757,
+          "x1": 328.67813038130384,
+          "y1": 491.37146795313583
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.35977859778597787,
+        "y": 0.6340454858718125
+      },
+      "bounds": {
+        "glass": {
+          "x0": 71.310012300123,
+          "y0": 293.19917298414884,
+          "x1": 157.77456334563345,
+          "y1": 427.85940730530666
+        },
+        "paper": {
+          "x0": 78.74361623616237,
+          "y0": 372.27291523087524,
+          "x1": 112.78169741697415,
+          "y1": 411.8097863542385
+        },
+        "requiredSecondGlass": {
+          "x0": 143.29859778597785,
+          "y0": 282.62991040661615,
+          "x1": 220.3733333333334,
+          "y1": 398.8917987594763
+        },
+        "outsideSugarRimHero": {
+          "x0": 71.310012300123,
+          "y0": 292.0248104755341,
+          "x1": 157.38332103321034,
+          "y1": 316.2949689869056
+        },
+        "outsideSugarRimCompanion": {
+          "x0": 144.08108241082408,
+          "y0": 282.2384562370779,
+          "x1": 221.15581795817963,
+          "y1": 299.4624396967609
+        }
+      }
+    }
+  ],
+  "portraitMeasurements": {
+    "pairing": "lover-creator",
+    "pour": "In Your Own Hand",
+    "version": "v4",
+    "orientation": "portrait",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-creator/v4/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-7defc1de-516f-4ee5-8985-e74c6238c71e.png",
+    "masterSha256": "94e4d9497a0e65b05a6e90b3b96cd36d363ea53b2de8f762927fec7ed85d2290",
+    "sourceSha256": "699835647c6a427f3c2152ff26636205e28d0b54bb958d23b32040dced5ececa",
+    "specSha256": "4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898",
+    "roomSha256": "a2743a7fa252cf33ca11ac4b66f551dcff12ea2a6e782797822eee516d4b9882",
+    "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "masterDimensions": {
+      "width": 1084,
+      "height": 1451
+    },
+    "wideCrop": [
+      0,
+      430,
+      1084,
+      610
+    ],
+    "portraitCrop": [
+      0,
+      0,
+      1084,
+      1451
+    ],
+    "crossOrientationCropIntended": false,
+    "tag": {
+      "cx": 337,
+      "cy": 1004,
+      "w": 80,
+      "angle": 124
+    },
+    "glass": {
+      "x": 390,
+      "y": 920
+    },
+    "bounds": {
+      "glass": {
+        "x0": 278,
+        "y0": 749,
+        "x1": 499,
+        "y1": 1093
+      },
+      "paper": {
+        "x0": 297,
+        "y0": 951,
+        "x1": 384,
+        "y1": 1052
+      },
+      "requiredSecondGlass": {
+        "x0": 462,
+        "y0": 722,
+        "x1": 659,
+        "y1": 1019
+      },
+      "outsideSugarRimHero": {
+        "x0": 278,
+        "y0": 746,
+        "x1": 498,
+        "y1": 808
+      },
+      "outsideSugarRimCompanion": {
+        "x0": 464,
+        "y0": 721,
+        "x1": 661,
+        "y1": 765
+      }
+    },
+    "personBounds": {
+      "unfinishedPiece": {
+        "x0": 376,
+        "y0": 540,
+        "x1": 855,
+        "y1": 896
+      },
+      "handledBrush": {
+        "x0": 489,
+        "y0": 862,
+        "x1": 1045,
+        "y1": 1000
+      }
+    },
+    "recognitionRegions": {
+      "unfinishedPiece": {
+        "x0": 390,
+        "y0": 544,
+        "x1": 850,
+        "y1": 889
+      },
+      "handledBrush": {
+        "x0": 489,
+        "y0": 862,
+        "x1": 1045,
+        "y1": 1000
+      },
+      "requiredSecondGlass": {
+        "x0": 462,
+        "y0": 722,
+        "x1": 659,
+        "y1": 1019
+      }
+    },
+    "unknownExtents": {
+      "unfinishedPiecePosterior": null,
+      "brushHiddenBristleExtent": null
+    },
+    "group": {
+      "fullBounds": {
+        "x0": 278,
+        "y0": 540,
+        "x1": 1045,
+        "y1": 1093
+      },
+      "recognitionBounds": {
+        "x0": 278,
+        "y0": 544,
+        "x1": 1045,
+        "y1": 1093
+      },
+      "fullWidth": 767,
+      "recognitionWidth": 767,
+      "physicalServeBoundsIncludingAllPhysicalObjects": {
+        "x0": 278,
+        "y0": 721,
+        "x1": 661,
+        "y1": 1093
+      }
+    },
+    "tagPhysics": {
+      "supportLoop": "Front glass has visible tan loop about940–955 near upper/mid short stem, appearing repeated turns; second glass has an unintended visible stemwrap at~900 despite requested plain companion.",
+      "knot": "Front left-side knot around382,949.",
+      "tether": "Diagonal downward short cord from knot to hole about362,976, approximately32px rather than almost-vertical tiny tether.",
+      "hole": "Dark punched hole362,976 visible.",
+      "gravity": "Paper inclines down/left with free lower edge.",
+      "airgap": "Paper projects outboard left separated from bowl/stem.",
+      "contact": "Paper bottom1052 above table1090, appears suspended; no table contact required for stem tag.",
+      "uncertainty": [
+        "Rear load invisible",
+        "Front wrap repeated turns",
+        "Unintended second stem cord",
+        "Strict low stem target missed"
+      ],
+      "assessment": "Believable tethered outboard paper but user single-strand/one tagged vessel requirement held."
+    },
+    "review": {
+      "recipe": "Two squat small-bowl stem glasses improved toward Nick-and-Nora, orange-gold softly cloudy shaken drinks and coarse outside rims, no serving ice/garnish/foam. Actual97ml capacity/measure not provable.",
+      "personality": "Unfinished artwork now directly behind glasses but became a large textured board, not modest postcard-size hesitant offering. Single full-size handled brush extends broadly right. Specific hesitation not visually proven.",
+      "world": "Historic room retained; cool window fill remains in addition to warm practical. Glass droplets relatively dense and artwork/table ornamental roughness and strong amber reflective timber remain.",
+      "issues": [
+        "Board479px wide and brush556px wide miss central40% target",
+        "Full767px group is not compact phone proof",
+        "Artwork enlarged rather than postcard",
+        "Second glass acquired unintended stemloop; front repeated turns",
+        "Front344px/companion297px high, squatter vessels improved but serving pilot not approved",
+        "Name fit/physics/browser untested",
+        "Warm glossy timber and heavily textured panel remain"
+      ]
+    },
+    "measurementMethod": "Conservative visual bounds on original native1084×1451; true visible object bounds, no invented phone/name/type acceptance.",
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-creator/v4/measurements-portrait.json",
+      "originalMeasurementSha256": "01a6f543d659f6dd2c4df431218c98f9e6f2b211150ab062685d5dc9eca80347",
+      "previousSourceSha256": "63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    }
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

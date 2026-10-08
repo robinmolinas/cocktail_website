@@ -1,0 +1,173 @@
+{
+  "pairing": "lover-creator",
+  "pour": "In Your Own Hand",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-creator/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-d454e713-fb04-4976-b949-f8e75345deff.png",
+  "sourceSha256": "63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78",
+  "specSha256": "4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898",
+  "roomSha256": "a2743a7fa252cf33ca11ac4b66f551dcff12ea2a6e782797822eee516d4b9882",
+  "masterSha256": "48a15fefd2e2b4148652d0637bbf01a12e4e3db7ed0b55b8d324c31a3e5c4d8a",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    730,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1115,
+    "cy": 658,
+    "w": 105,
+    "angle": 61
+  },
+  "glass": {
+    "x": 1010,
+    "y": 526
+  },
+  "bounds": {
+    "glass": {
+      "x0": 800,
+      "y0": 204,
+      "x1": 1221,
+      "y1": 836
+    },
+    "paper": {
+      "x0": 1056,
+      "y0": 564,
+      "x1": 1182,
+      "y1": 731
+    },
+    "secondGlass": {
+      "x0": 489,
+      "y0": 148,
+      "x1": 853,
+      "y1": 679
+    },
+    "heroSugarRim": {
+      "x0": 800,
+      "y0": 203,
+      "x1": 1221,
+      "y1": 289
+    },
+    "secondSugarRim": {
+      "x0": 489,
+      "y0": 148,
+      "x1": 853,
+      "y1": 211
+    }
+  },
+  "personBounds": {
+    "unfinishedPanel": {
+      "x0": 877,
+      "y0": 100,
+      "x1": 1489,
+      "y1": 568
+    },
+    "brushPalette": {
+      "x0": 1112,
+      "y0": 535,
+      "x1": 1672,
+      "y1": 777
+    }
+  },
+  "recognitionRegions": {
+    "unfinishedPanel": {
+      "x0": 877,
+      "y0": 100,
+      "x1": 1489,
+      "y1": 568
+    },
+    "brushPalette": {
+      "x0": 1190,
+      "y0": 536,
+      "x1": 1672,
+      "y1": 751
+    },
+    "secondGlass": {
+      "x0": 489,
+      "y0": 148,
+      "x1": 853,
+      "y1": 679
+    },
+    "heroSugarRim": {
+      "x0": 800,
+      "y0": 203,
+      "x1": 1221,
+      "y1": 289
+    },
+    "secondSugarRim": {
+      "x0": 489,
+      "y0": 148,
+      "x1": 853,
+      "y1": 211
+    }
+  },
+  "traceExtentNotes": {
+    "unfinishedPanel": "Full visible panel; paintingordinary inferred private work, no historicalreplica.",
+    "brushPalette": "Right edge runs out of frame; hiddenextent null, brush/palette recognizable actual visibleextent.",
+    "secondGlass": "Required full recipe second serve, not removablebackgroundextra."
+  },
+  "unknownExtents": {
+  "paletteBeyondRasterRight": null,
+  "brushBeyondRasterRight": null,
+  "tagPosteriorSupport": null,
+  "secondGlassVolume": null,
+  "heroGlassVolume": null
+},
+  "group": {
+    "fullWidth": 1183,
+    "recognitionWidth": 1183,
+    "physicalServeBoundsIncludingAllPhysicalObjects": {
+      "x0": 489,
+      "y0": 148,
+      "x1": 1221,
+      "y1": 836
+    },
+    "fullBounds": {
+      "x0": 489,
+      "y0": 100,
+      "x1": 1672,
+      "y1": 836
+    },
+    "recognitionBounds": {
+      "x0": 489,
+      "y0": 100,
+      "x1": 1672,
+      "y1": 836
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Tan multipleturns round narrowstem, not requested single fine strand.",
+    "knot": "Rightstemknot~1034,560.",
+    "tether": "Longdiagonalpairedtether~55px to1081,596, pluslongtails~100px.",
+    "hole": "Punchedhole~1082,596.",
+    "gravity": "Outboardpaperbelowknot, plausible tiltedhang.",
+    "airgap": "Clearpaperoutsideglass.",
+    "contact": "No timbercontact, suspended.",
+    "uncertainty": "Rearcoil/preciseloadunknown; userlessvisiblecorddirectionfailed.",
+    "assessment": "Chainvisible but multicoil/longtails conspicuous HOLD."
+  },
+  "review": {
+    "recipe": "Two noice/nogarnish orangegold shaken serves, sugarbothrims; vessel shallowbroadcoupe ratherthanconvincing small NickNora,97ml volumeunproved; outsideonlyrims uncertain.",
+    "personality": "Makerpanel/brushpalette recognizable, bothordinarysourceinferences.",
+    "world": "Woodorangeglossydensewear, denseevenmoisture/advert finish.",
+    "issues": [
+      "Hero632px and two-servephysicalunion732px",
+      "Full/recogn1183px, portraitclips secondserve/person, phoneHOLD",
+      "VesselshapeNickNoraHOLD",
+      "Coarseoutsideonlysugar uncertain",
+      "Cordmulticoil/longtailHOLD",
+      "Materialwood/dropletsHOLD",
+      "Privatepilotonly/newtype/namefit/browser notaccepted"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pairing": "jester-innocent",
+  "version": "v4",
+  "calls": 2,
+  "assetModes": [
+    "wide",
+    "portrait"
+  ],
+  "sourceReady": true,
+  "generatedWith": "built-in image_gen",
+  "assets": [
+    {
+      "orientation": "wide",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-d7d3a045-30a4-49aa-a220-7ce2535a3e10.png",
+      "stagedMaster": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/wide-master.png",
+      "sha256": "af37e19dd5be4a7fd0d2eb6179278c6511d78966f57a1ed986d34a96eb8bbff4",
+      "native": {
+        "width": 1672,
+        "height": 941
+      },
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/prompt-wide.txt",
+      "reference": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v3/wide-master.png"
+    },
+    {
+      "orientation": "portrait",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-3734d9ba-c27a-43ad-8c83-d9e3c9f13d18.png",
+      "stagedMaster": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/portrait-master.png",
+      "sha256": "e3121e2900c4ded606ee3fcb35d5d98cd1495e02f911e21c06037a04a4a387d5",
+      "native": {
+        "width": 1084,
+        "height": 1451
+      },
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/prompt-portrait.txt",
+      "reference": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v3/portrait-master.png"
+    }
+  ],
+  "sourceHashes": {
+    "dossier": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+    "spec": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+    "room": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d"
+  },
+  "originalsPreserved": true,
+  "transformsOrExports": 0
+}

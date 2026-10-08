@@ -1,3 +1,5 @@
+> **Exploration reference — reviewed 8 October 2026.** Type alternatives were declined; music remains open. Sample-engine behavior, prices/licences and recommendations are dated proposal evidence, not production implementation or a purchase decision. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # Type directions: comparison, recommendation, role rules
 
 Status: **exploration, awaiting Robin's choice.** Nothing here is applied to `dionysus-experience/`. The 2026-09-29 rule in `DESIGN.md` §3 (Playfair Display as the voice, no fourth family) stays in force until Robin picks a direction. All three directions keep the system at three families or fewer.

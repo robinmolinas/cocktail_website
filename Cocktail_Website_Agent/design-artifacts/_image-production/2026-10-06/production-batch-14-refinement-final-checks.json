@@ -1,0 +1,651 @@
+{
+  "id": "production-batch-14-refinement-final-checks",
+  "scope": "Read-only built-in JSON/hash/header/aspect/bounds/link checks. Not execution of exporter or browser, no image/UI/material/name acceptance.",
+  "checkInputs": [
+    {
+      "pairing": "explorer-creator",
+      "wideMeasurementSha256": "85234604a1094cc83d0f519a6a4b4e2ffbdbaab2515a8eb416b9d39c5b569fe2",
+      "portraitMeasurementSha256": "4d671ca07929bba4ecbfc2e2c8c6911bfa0da69f3a6cf81ec6ad661f681c8f31",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    },
+    {
+      "pairing": "explorer-jester",
+      "wideMeasurementSha256": "a1fe468d2856668512eac6989e9fa2a611df2154e01a2baa2bf324334faafb0d",
+      "portraitMeasurementSha256": "0be92f962ee6e17dfbd3c1c2fb05ab6b35a1d4f7ef45e2e8aed69329de33beee",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    },
+    {
+      "pairing": "innocent-creator",
+      "wideMeasurementSha256": "7390b9aaf2ace61906adeabb3bb4ac2d8edcd302af27e1e3f89bf2003a56379e",
+      "portraitMeasurementSha256": "cfa2773bf072fe10073f7feeba83694bb1eee7659a0dde3b64f5882b3d6ea399",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    },
+    {
+      "pairing": "jester-explorer",
+      "wideMeasurementSha256": "3deea248da00b463f065cba2c11950cece47805c86efa23403b88811c0f86d97",
+      "portraitMeasurementSha256": "cdbe6b0bc5ba415185fd32e9c6b4e8ac0ff1369dfcaa5f28da9d4ad997398fd4",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    },
+    {
+      "pairing": "jester-innocent",
+      "wideMeasurementSha256": "10a0c3cbc4abc7cb1f6a5ad8f7f18e26bb88d74ff23d869d7e208c3b8e493a1a",
+      "portraitMeasurementSha256": "efc9ca6d875dac4f8c5f69d753b40be444c73eedec80d4a85c8d203d22a3f1f3",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    },
+    {
+      "pairing": "jester-lover",
+      "wideMeasurementSha256": "631dbf378479bec8b77d01cbb6a998b919245a078d8a7f6911bcfb01f9a09190",
+      "portraitMeasurementSha256": "15f0a2fd01bb3c548568e1e3b8052165b442bc316df2f51d46046750899c40de",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    },
+    {
+      "pairing": "jester-regular-guy",
+      "wideMeasurementSha256": "5552eb1088e654b8e9c7592a22233327f4f33f079d4c73c7ab22b1e976ecd6ef",
+      "portraitMeasurementSha256": "94cb222fe350175703a826210a54bb31ac41f3bd2df16180497c0d1d42a710f6",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    },
+    {
+      "pairing": "lover-creator",
+      "wideMeasurementSha256": "cd5d770a8357d935b391ed01a2634d769d2eb4144d66fa338919656362b7d859",
+      "portraitMeasurementSha256": "8d103d7e16f2ae3532ce3716fd9cb8eb9ff9a9235870ead63ad02fb26f9797a1",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    },
+    {
+      "pairing": "magician-jester",
+      "wideMeasurementSha256": "6f23728fdd54631543efb92469d621b557c562757481b38213c809a45376cce9",
+      "portraitMeasurementSha256": "165b29484ba14ec05d470c6a01d5f6caf2eb84c152d7432348787a326b835eda",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    },
+    {
+      "pairing": "magician-ruler",
+      "wideMeasurementSha256": "0bda0ce11c6b7cded660ceecaa78bffd56af38115d3d9a803666cf179b539ac5",
+      "portraitMeasurementSha256": "f7faee401a63675937057da6d45135af7a39ac337339a1f7003fe00091687ddc",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    },
+    {
+      "pairing": "ruler-jester",
+      "wideMeasurementSha256": "24ce7013f4d582451b53a5cdcdfce4997fd2af6d894af8d44a3e715dd92543a7",
+      "portraitMeasurementSha256": "05d7bde94010d4db60ef889088ef17124fb68e5fb0a4b99e85d5c9a891a17f3a",
+      "separateMaster": true,
+      "sourcePairing": true,
+      "masterHashesCurrent": true,
+      "exactWideRatio": true,
+      "exactPortraitRatio": true,
+      "allGatesStillPending": true,
+      "noExportOutputs": true,
+      "allBoundsInNative": true
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/explorer-creator.md",
+      "sha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+      "currentSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-creator.json",
+      "sha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+      "currentSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-creator.md",
+      "sha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8",
+      "currentSha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/explorer-jester.md",
+      "sha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+      "currentSha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-jester.json",
+      "sha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851",
+      "currentSha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-jester.md",
+      "sha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6",
+      "currentSha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/innocent-creator.md",
+      "sha256": "5bda13c71998d5c20539560bfc73235a0dcfa377e7fee916b932df372a8e8db7",
+      "currentSha256": "5bda13c71998d5c20539560bfc73235a0dcfa377e7fee916b932df372a8e8db7",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-creator.json",
+      "sha256": "de86d0e08f80fbf0f1b9c226200980bbca020ebf99e3b4cb20009c87b1b9ad24",
+      "currentSha256": "de86d0e08f80fbf0f1b9c226200980bbca020ebf99e3b4cb20009c87b1b9ad24",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-creator.md",
+      "sha256": "f8cb393e26c07fa706448b1a92a4859e39216870ec6eca5bfc3c6721e4fb6b78",
+      "currentSha256": "f8cb393e26c07fa706448b1a92a4859e39216870ec6eca5bfc3c6721e4fb6b78",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/jester-explorer.md",
+      "sha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+      "currentSha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-explorer.json",
+      "sha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67",
+      "currentSha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-explorer.md",
+      "sha256": "fb2cc7baf81948067a02af2f3b79d065e4f6835de34a9c6e01993ce3fd67cc2b",
+      "currentSha256": "fb2cc7baf81948067a02af2f3b79d065e4f6835de34a9c6e01993ce3fd67cc2b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/jester-innocent.md",
+      "sha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+      "currentSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-innocent.json",
+      "sha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+      "currentSha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-innocent.md",
+      "sha256": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d",
+      "currentSha256": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/jester-lover.md",
+      "sha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+      "currentSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-lover.json",
+      "sha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+      "currentSha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-lover.md",
+      "sha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735",
+      "currentSha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/jester-regular-guy.md",
+      "sha256": "cd9b909ee55d60451ba39fdb2c02b4115f53b4001deac21cf957bd1d73f3010d",
+      "currentSha256": "cd9b909ee55d60451ba39fdb2c02b4115f53b4001deac21cf957bd1d73f3010d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-regular-guy.json",
+      "sha256": "46084d90c084171eb83263afb9ca961ace6ef705273a016f1462be70ae2a3f9f",
+      "currentSha256": "46084d90c084171eb83263afb9ca961ace6ef705273a016f1462be70ae2a3f9f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-regular-guy.md",
+      "sha256": "b1f6ac35f7f57de07d59fa51deaf64c6e69c6213b4f22fda97ee07e571b9796c",
+      "currentSha256": "b1f6ac35f7f57de07d59fa51deaf64c6e69c6213b4f22fda97ee07e571b9796c",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/lover-creator.md",
+      "sha256": "63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78",
+      "currentSha256": "63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-creator.json",
+      "sha256": "4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898",
+      "currentSha256": "4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-creator.md",
+      "sha256": "a2743a7fa252cf33ca11ac4b66f551dcff12ea2a6e782797822eee516d4b9882",
+      "currentSha256": "a2743a7fa252cf33ca11ac4b66f551dcff12ea2a6e782797822eee516d4b9882",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/magician-jester.md",
+      "sha256": "c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3",
+      "currentSha256": "c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-jester.json",
+      "sha256": "aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32",
+      "currentSha256": "aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-jester.md",
+      "sha256": "8b1deeee8dfaca1a4bb0fe175139c02952f33b49e52034a7e8132f3172c06e1f",
+      "currentSha256": "8b1deeee8dfaca1a4bb0fe175139c02952f33b49e52034a7e8132f3172c06e1f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/magician-ruler.md",
+      "sha256": "6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6",
+      "currentSha256": "6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-ruler.json",
+      "sha256": "1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56",
+      "currentSha256": "1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-ruler.md",
+      "sha256": "35cf395867739ab2d96beeef48217eeb27089adfeaeab4c4e3cb6750fcea23bb",
+      "currentSha256": "35cf395867739ab2d96beeef48217eeb27089adfeaeab4c4e3cb6750fcea23bb",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/ruler-jester.md",
+      "sha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8",
+      "currentSha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-jester.json",
+      "sha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683",
+      "currentSha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-jester.md",
+      "sha256": "c82c3ded462b4bef619578db493c7edefc8c7ff89cdceffe3f555f26d072ce11",
+      "currentSha256": "c82c3ded462b4bef619578db493c7edefc8c7ff89cdceffe3f555f26d072ce11",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/.DS_Store",
+      "sha256": "3512d39c82594b79a7bdbd9bf24f509c82a6658e14f5cc1fb69d513866924694",
+      "currentSha256": "3512d39c82594b79a7bdbd9bf24f509c82a6658e14f5cc1fb69d513866924694",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/_fallback.jpg",
+      "sha256": "76a180aa4882957c9f05365e9eab0b7c7d5d67eaecc99b52bc9406418ff8458e",
+      "currentSha256": "76a180aa4882957c9f05365e9eab0b7c7d5d67eaecc99b52bc9406418ff8458e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/caregiver-magician/portrait.jpg",
+      "sha256": "5ceb3a656561c94639515033218351b361e3cf4352e17e67b1a8241bce012736",
+      "currentSha256": "5ceb3a656561c94639515033218351b361e3cf4352e17e67b1a8241bce012736",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/caregiver-magician/wide.jpg",
+      "sha256": "25986ebc5c77fa70b0bf4a5f837c82a755cfaf8c2c0bb555c02e334c7bdc38e8",
+      "currentSha256": "25986ebc5c77fa70b0bf4a5f837c82a755cfaf8c2c0bb555c02e334c7bdc38e8",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/caregiver-ruler/portrait.jpg",
+      "sha256": "894cde7c0359a9bd95febdcb1e01e3760bbe952b7759f28b97cfa8b164205a8e",
+      "currentSha256": "894cde7c0359a9bd95febdcb1e01e3760bbe952b7759f28b97cfa8b164205a8e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/caregiver-ruler/wide.jpg",
+      "sha256": "8c91bf388636b71fa280722f2e6405e1dca81fa0bbd9dbe65ad9ee3df8c900b0",
+      "currentSha256": "8c91bf388636b71fa280722f2e6405e1dca81fa0bbd9dbe65ad9ee3df8c900b0",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-caregiver/portrait.jpg",
+      "sha256": "4926782ab3b43cac23e0f7737b3fa9189166ff3e55cc384f70f7301e5755397a",
+      "currentSha256": "4926782ab3b43cac23e0f7737b3fa9189166ff3e55cc384f70f7301e5755397a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-caregiver/wide.jpg",
+      "sha256": "d1274943c9f947b6175c1064ffac9293d046f4b4d030769dc306123a5db52f8a",
+      "currentSha256": "d1274943c9f947b6175c1064ffac9293d046f4b4d030769dc306123a5db52f8a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-explorer/portrait.jpg",
+      "sha256": "dc087a7b5e40c5531ab5da274ae0ccf1b41d7e32829ac8cafb098af6533d10b8",
+      "currentSha256": "dc087a7b5e40c5531ab5da274ae0ccf1b41d7e32829ac8cafb098af6533d10b8",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-explorer/wide.jpg",
+      "sha256": "fb9952bc4e5f6748b2de4380d9c6763be64dd53ec67374946b75aa32006d54db",
+      "currentSha256": "fb9952bc4e5f6748b2de4380d9c6763be64dd53ec67374946b75aa32006d54db",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-hero/portrait.jpg",
+      "sha256": "da4727b17e50133b5852cb511489ffa319fb868e86738aad4123c943d037c33a",
+      "currentSha256": "da4727b17e50133b5852cb511489ffa319fb868e86738aad4123c943d037c33a",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-hero/wide.jpg",
+      "sha256": "e393642e9de29d61f1044c8611720352753ec102b10c87c621f2693ad12705f9",
+      "currentSha256": "e393642e9de29d61f1044c8611720352753ec102b10c87c621f2693ad12705f9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-hero.jpg",
+      "sha256": "c3e5f6dddd29614bf790f3f6ffeac1cff07bf384999cb596c0716c4f915265ed",
+      "currentSha256": "c3e5f6dddd29614bf790f3f6ffeac1cff07bf384999cb596c0716c4f915265ed",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-innocent/portrait.jpg",
+      "sha256": "ae3833a68690c62f0c29b1b9369a3ed0a88aba5c35216ffd0d13fe3ffcab598d",
+      "currentSha256": "ae3833a68690c62f0c29b1b9369a3ed0a88aba5c35216ffd0d13fe3ffcab598d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-innocent/wide.jpg",
+      "sha256": "bdeb28b236496f53798d1f182edf2a753fac8ed33fe82cb37eeaca59350bd125",
+      "currentSha256": "bdeb28b236496f53798d1f182edf2a753fac8ed33fe82cb37eeaca59350bd125",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-jester/portrait.jpg",
+      "sha256": "d89914a9ddd4ffa9dad9861ba011d245db4bcbc95e872857a331828f5f9cb86f",
+      "currentSha256": "d89914a9ddd4ffa9dad9861ba011d245db4bcbc95e872857a331828f5f9cb86f",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-jester/wide.jpg",
+      "sha256": "87641d8d9c501fcdbac7d386dbd9295c3965ed316e482bec22714527e0099377",
+      "currentSha256": "87641d8d9c501fcdbac7d386dbd9295c3965ed316e482bec22714527e0099377",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-lover/portrait.jpg",
+      "sha256": "2afebf997ec97e12e6eed4100774439c201a74f5511ede21e42668092ed990c6",
+      "currentSha256": "2afebf997ec97e12e6eed4100774439c201a74f5511ede21e42668092ed990c6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-lover/wide.jpg",
+      "sha256": "d2ed0b6a8a68189ee9b505b9dd00d702c23d81f03615e1cf48aa6204bffca2b8",
+      "currentSha256": "d2ed0b6a8a68189ee9b505b9dd00d702c23d81f03615e1cf48aa6204bffca2b8",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-magician/portrait.jpg",
+      "sha256": "e0a51256f8b899c00320a85a124940cf6712453102dc72ffcb874f1b80cecf44",
+      "currentSha256": "e0a51256f8b899c00320a85a124940cf6712453102dc72ffcb874f1b80cecf44",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-magician/wide.jpg",
+      "sha256": "7e6377362b4aedd1099fb90a93133f1171423437614820a43d9d6bcec1531d30",
+      "currentSha256": "7e6377362b4aedd1099fb90a93133f1171423437614820a43d9d6bcec1531d30",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-outlaw/portrait.jpg",
+      "sha256": "fe122e2db2a88de276564b42234f14d9fb46beeb0f3faf2c12593c3809e2f99e",
+      "currentSha256": "fe122e2db2a88de276564b42234f14d9fb46beeb0f3faf2c12593c3809e2f99e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-outlaw/wide.jpg",
+      "sha256": "ac3c0ede6829a747a84b7d0a5235a483168d985880b051ed4c3dab656a50c7bc",
+      "currentSha256": "ac3c0ede6829a747a84b7d0a5235a483168d985880b051ed4c3dab656a50c7bc",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-regular-guy/portrait.jpg",
+      "sha256": "58e5306d0922c445ac78836621da664fa0ee6a46c523a56c97cad32396ea7f5b",
+      "currentSha256": "58e5306d0922c445ac78836621da664fa0ee6a46c523a56c97cad32396ea7f5b",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-regular-guy/wide.jpg",
+      "sha256": "500f7f785026514cd32a6d6d2dd57a7684304ea15d1454958a653b184392fea1",
+      "currentSha256": "500f7f785026514cd32a6d6d2dd57a7684304ea15d1454958a653b184392fea1",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-ruler/portrait.jpg",
+      "sha256": "3c8fd292115d5f95b41d7a4adb05ca526064fc0408c81e9b2118a13ae054dc14",
+      "currentSha256": "3c8fd292115d5f95b41d7a4adb05ca526064fc0408c81e9b2118a13ae054dc14",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-ruler/wide.jpg",
+      "sha256": "ab11c226d50d700671ccb89a05f3d83db0fe415f7ee577d40d6f1adc8d06b114",
+      "currentSha256": "ab11c226d50d700671ccb89a05f3d83db0fe415f7ee577d40d6f1adc8d06b114",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-sage/portrait.jpg",
+      "sha256": "7921f2a0cfb5fcb9d7ba1404a4b284d616a1b527c04727efc55bac0e77c9c3e6",
+      "currentSha256": "7921f2a0cfb5fcb9d7ba1404a4b284d616a1b527c04727efc55bac0e77c9c3e6",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/creator-sage/wide.jpg",
+      "sha256": "c46711bfdc6784dc6fc55cb0eaf37719c63152066b17c4a46d40d24f957bcf4e",
+      "currentSha256": "c46711bfdc6784dc6fc55cb0eaf37719c63152066b17c4a46d40d24f957bcf4e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/innocent-regular-guy/portrait.jpg",
+      "sha256": "4df74d5ee13b144b39490e3ea2c42a5aafba825bcf5f667b14bc816a8917df9e",
+      "currentSha256": "4df74d5ee13b144b39490e3ea2c42a5aafba825bcf5f667b14bc816a8917df9e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/innocent-regular-guy/wide.jpg",
+      "sha256": "fd38229a592840d3cbba6f7d4daeaf921d1feddd88587c079c9264972ed4501c",
+      "currentSha256": "fd38229a592840d3cbba6f7d4daeaf921d1feddd88587c079c9264972ed4501c",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/lover-hero/portrait.jpg",
+      "sha256": "0d6898203b58271d717993997db6a3ac995d680a9559210957c3623861e91052",
+      "currentSha256": "0d6898203b58271d717993997db6a3ac995d680a9559210957c3623861e91052",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/lover-hero/wide.jpg",
+      "sha256": "46c62a42a7e24b5b44dc9789582df1e02cacd734081f41a96b27ca9947d3be73",
+      "currentSha256": "46c62a42a7e24b5b44dc9789582df1e02cacd734081f41a96b27ca9947d3be73",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/magician-outlaw/portrait.jpg",
+      "sha256": "75b8ecfae484ccb70b914c4e56da4949ad1fa1e85df6fe2c89bd576548f797c4",
+      "currentSha256": "75b8ecfae484ccb70b914c4e56da4949ad1fa1e85df6fe2c89bd576548f797c4",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/magician-outlaw/wide.jpg",
+      "sha256": "57efddb798edab489c84a9c312238b217cfc19e6a562bc78181a9f11e33eff8d",
+      "currentSha256": "57efddb798edab489c84a9c312238b217cfc19e6a562bc78181a9f11e33eff8d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/magician-outlaw.jpg",
+      "sha256": "76a180aa4882957c9f05365e9eab0b7c7d5d67eaecc99b52bc9406418ff8458e",
+      "currentSha256": "76a180aa4882957c9f05365e9eab0b7c7d5d67eaecc99b52bc9406418ff8458e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/sage-lover/portrait.jpg",
+      "sha256": "24658c2267fe6134a37b9d5b0ca83ce49e06a99b62e8b170e44f43e923ee097e",
+      "currentSha256": "24658c2267fe6134a37b9d5b0ca83ce49e06a99b62e8b170e44f43e923ee097e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/sage-lover/wide.jpg",
+      "sha256": "7e4a597a8c04688f56f0d150f9568370a45dcd36493c948d89dffdc68bfbd9e3",
+      "currentSha256": "7e4a597a8c04688f56f0d150f9568370a45dcd36493c948d89dffdc68bfbd9e3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/sage-lover-43.jpg",
+      "sha256": "2c7e21d49c59f5d4098b957e9042a227f6d16ee27aa003f46992ef2de792f995",
+      "currentSha256": "2c7e21d49c59f5d4098b957e9042a227f6d16ee27aa003f46992ef2de792f995",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/public/personas/sage-lover.jpg",
+      "sha256": "171c8e4be497d604b45d83576f6d34aa07aa4e5c248612c2c3047e8958456599",
+      "currentSha256": "171c8e4be497d604b45d83576f6d34aa07aa4e5c248612c2c3047e8958456599",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/src/data/personas.ts",
+      "sha256": "dd2a85bc1f4b135b12efa913a21f3ee0b7ce8fddd23fb8c8c384a496198068ca",
+      "currentSha256": "dd2a85bc1f4b135b12efa913a21f3ee0b7ce8fddd23fb8c8c384a496198068ca",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/src/components/TheReading.tsx",
+      "sha256": "2d4eb8bf3630e3498364ea40a0a22ee78e366eae061d125ec17ec4d9009db539",
+      "currentSha256": "2d4eb8bf3630e3498364ea40a0a22ee78e366eae061d125ec17ec4d9009db539",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/src/index.css",
+      "sha256": "9c5ef3fe55a3bb7f97cf15c4f7359e9a935178d72843be70370e086ede141cb4",
+      "currentSha256": "9c5ef3fe55a3bb7f97cf15c4f7359e9a935178d72843be70370e086ede141cb4",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/dionysus-experience/DESIGN.md",
+      "sha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+      "currentSha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/persona-image-system.md",
+      "sha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+      "currentSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/queue.json",
+      "sha256": "25c6298b453d71bf25a184c13c23fd27bd556195527fdd26a97a691e2c9dfccc",
+      "currentSha256": "25c6298b453d71bf25a184c13c23fd27bd556195527fdd26a97a691e2c9dfccc",
+      "unchanged": true
+    }
+  ],
+  "receiptJson": [
+    {
+      "file": "production-batch-14-refinement.json",
+      "validJson": true,
+      "sha256": "e86baa464ab118af4d06c9838c1d0b6955c6b967bcb18123cd48cffb0e519eb4"
+    },
+    {
+      "file": "production-batch-14-refinement-audit.json",
+      "validJson": true,
+      "sha256": "1b7f89595158badbbb18faf3156ac836afd7e86f4c4d196a977db9f2c002eeb1"
+    },
+    {
+      "file": "production-batch-14-refinement-preservation.json",
+      "validJson": true,
+      "sha256": "719d5c4a079fe17baa2df91d1dd1a7d8152ff0ad217bb3fcf714d2be7c0113de"
+    }
+  ],
+  "brokenGalleryLinks": [],
+  "currentRuntimeCssSha256": "9c5ef3fe55a3bb7f97cf15c4f7359e9a935178d72843be70370e086ede141cb4",
+  "exporterSha256": "6f50fdfbf2a569688df8775f2ab595d4852da8b6612bb5181a45b1649cf1e708",
+  "exporterExecuted": false,
+  "syntaxCheckRun": false,
+  "buildOrBrowserRun": false,
+  "jpegsCreated": 0,
+  "queuePromoted": false,
+  "publicIntegrated": false
+}

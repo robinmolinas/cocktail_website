@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-30 (batch caregiver)
 ## Cocktail
 
 - **name:** Before the Room
-- **tagline:** Everyone breathes easier when you arrive. Nobody asks what you left at the door.
+- **tagline:** The room feels kinder once you're in it.
 - **glassware:** a flute or wide coupe, chilled
 - **contains:** `[]`
 

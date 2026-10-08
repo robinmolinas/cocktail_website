@@ -1,110 +1,34 @@
 # Business Goals & Objectives
 
-> Strategic portfolio goals and measurable success metrics for Dionysus
+Created 11 June 2026 · Refreshed 8 October 2026
 
-**Document:** Trigger Map - Business Goals
-**Created:** 2026-06-11
-**Status:** COMPLETE
+## Primary goal: a guest feels seen
 
----
+Dionysus turns curiosity into a personally meaningful cocktail, reading and keepsake. Celeste should understand the ritual, enjoy completing it and want to share or make the drink. The Suspended Pour replaces the earlier ink-clearing quiz; the underlying emotional goal remains.
 
-## Vision
+## Portfolio goal: the craft earns trust
 
-**Create a world-class, serene web application that guides users on a magical journey of self-discovery through a sumi-e and Suminagashi-themed personality quiz, leveraging a collaborative multi-agent AI backend to generate and visually display deeply personalized cocktails representing the user's core personality.**
+Edward judges coherent art direction, smooth motion, responsive controls, accessible alternatives and reliable behavior. The engineering proof is the authored catalogue, auditable matching and bounded runtime tailoring, with a silent authored fallback. Historians and mixologists work offline; they do not generate a recipe during every visit.
 
----
+## Sharing goal: the gift creates curiosity
 
-## Portfolio Objectives
+Danielle receives the cocktail and recipe, admires it and begins her own journey. The owner's private reading is withheld. Persisted pour URLs, crawler previews and house pours are planned in Epic 2; today's fragment gift is the existing implementation.
 
-### ⭐ PRIMARY GOAL: Technical & Aesthetic Showcase (THE ENGINE)
-- **Statement:** Proving world-class creative engineering and UI design capabilities. The web app must achieve absolute visual polish, running at a locked 60fps on both desktop and mobile, with page transitions resolving in under 4 seconds.
-- **Metric:** Frame rate stability (FPS) and page transition latency.
-- **Target:** 60fps average during fluid Canvas marbling; <4.0 seconds for ink clearing transitions.
-- **Timeline:** Completed at launch.
-- **Impact:** This drives ALL other objectives. If the visual craft is flawless, it peaks Celeste's curiosity and prompts peers/recruiters to trust Robin's expertise.
+## Measures and evidence
 
----
+| Objective | Desired evidence | Current interpretation |
+| --- | --- | --- |
+| Comprehension | First-time desktop/phone playtests finish H4 and distinguish H5's rounds | H4 v4 and H5 are built; broader playtests remain useful |
+| Emotional fit | Guests recognize themselves in the selected pour and reading | Requires the connected matching journey; the fixed pilot is not proof |
+| Craft | Legible, smooth, responsive interaction; Still Water; clean console and print | Verify the affected holds and layouts; source video is not a 60fps asset |
+| Completion | Original aspiration: >80% of starters complete | No measured result claimed; no new tracking implied |
+| Keepsake value | Original aspiration: >40% of finishers save | A print dialog opening is not a confirmed save |
+| Matching | Catalogue, veto, fallback, privacy and all 132 witness fixtures pass | Component completion and full journey completion are separate |
 
-### 🚀 SECONDARY GOAL: AI Orchestration Proof (Driven by Primary Goal)
-- **Objective 1: Multi-Agent Collaboration**
-  - **Statement:** Demonstrate seamless multi-agent orchestration (Historian, Mixologist, and Storyteller agents) running in the background to synthesize a meaningful cocktail recipe and narrative.
-  - **Metric:** Zero perceived latency or execution errors during recommendations.
-  - **Target:** 100% successful generation rate, with backend responses cached or streamed to ensure no disruption.
-  - **Timeline:** Completed at launch.
+The old blanket <4s ink/page-transition target is superseded by approved choreography. The 5.5s H5 nightfall is intentional; stalls and accidental delay still count as defects. Quality sets the timeline. There are no revenue targets or hard launch deadline.
 
----
+## The flywheel
 
-### 🌟 TERTIARY GOAL: Mixology Authority & Engagement (Real-World Value)
-- **Note:** These are opportunities Dionysus creates FOR the users—delivering a moment of genuine self-discovery and a physical artifact they value.
-  
-- **Objective 2: Interactive Engagement**
-  - **Statement:** Deliver an experience engaging enough that users complete the entire 19-question quiz without drop-off.
-  - **Metric:** Quiz completion rate.
-  - **Target:** >80% completion rate for users who start the quiz.
-  
-- **Objective 3: Value Preservation**
-  - **Statement:** Offer a beautifully designed, calligraphic PDF recipe card of their cocktail that users actively download and save.
-  - **Metric:** PDF download rate.
-  - **Target:** >40% of quiz finishers download the PDF.
-  - **Benefit to Users:** A custom, elegant piece of mixology art they can print, share, or recreate at home.
+Thoughtful craft → a guest feels seen → keeps and shares the cocktail → the next guest arrives → portfolio credibility grows.
 
----
-
-## The Flywheel: How Goals Connect
-
-```
-    ┌─────────────────────────────────────────────────────────┐
-    │                                                         │
-    ▼                                                         │
-[Technical/Aesthetic Showcase]                                │
-(60fps Canvas, under 4s transitions)                          │
-    │                                                         │
-    │ (Stirs excitement & trust)                              │
-    ▼                                                         │
-[Celeste's Magical Engagement] ──► [AI Orchestration Proof] ──┘
-(>80% completion, PDF downloads)  (Historian/Mixologist/Storyteller)
-```
-
-**THE ENGINE (Priority #1): Technical & Aesthetic Showcase**
-- Outstanding 60fps fluid simulation and elegant typography hook the user's visual attention immediately.
-- Transition timings under 4 seconds maintain momentum and eliminate form-fatigue.
-- This creates the flywheel: high polish inspires trust, keeping the user curious enough to finish the 19-question quiz.
-
-**Magical Engagement (Priority #2):**
-- Users (Celeste) experience the quiz as a fluid, alchemical play space rather than a generic questionnaire.
-- They complete the quiz (>80% target) and download their personalized PDF recipe card (>40% target), proving that the narrative and visual output resonate deeply.
-
-**Orchestration Proof (Priority #3):**
-- The high engagement rate puts the backend multi-agent alchemist to the test.
-- Peer evaluators and recruiters validate that the underlying architecture is not a shallow wrapper, but a solid demonstration of agentic software design.
-
----
-
-## Success Metrics Alignment
-
-### How Trigger Map Connects to Objectives:
-
-**⭐ PRIMARY: Creating Awesome Self-Explorers (Celeste) → Achieves:**
-- ✅ **Flawless interaction loops:** celeste's mouse movements stir ink beautifully, reinforcing the "magical" theme.
-- ✅ **High completion rate (>80%):** Delightful transitions prevent drop-off over the 19 questions.
-- **This drives the technical proof and portfolio value.**
-
-**🚀 SECONDARY: Celeste Shares the Magic → Achieves:**
-- ✅ **PDF downloads (>40%):** A tangible reward that represents the value of their time spent.
-- ✅ **Organic portfolio sharing:** Users showing their friends or sharing the recipe card, illustrating high-fidelity frontend capabilities.
-
-**🌟 TERTIARY: Technical Evaluators Witness the Loop → Achieves:**
-- ✅ **Portfolio credibility:** The seamless mix of design, animation, and AI orchestration establishes Robin's dual engineering/design profile.
-
----
-
-## Related Documents
-
-- **[00-trigger-map.md](00-trigger-map.md)** - Visual overview and navigation
-- **[02-celeste-the-curious.md](02-celeste-the-curious.md)** - Primary persona
-- **[03-edward-the-evaluator.md](03-edward-the-evaluator.md)** - Secondary persona
-- **[05-Key-Insights.md](05-Key-Insights.md)** - Strategic implications
-
----
-
-_Back to [Trigger Map](00-trigger-map.md)_
+[Trigger map](00-trigger-map.md) · [Product brief](../A-Product-Brief/project-brief.md) · [Current experience](../2026-07-08-experience-master-spec.md)

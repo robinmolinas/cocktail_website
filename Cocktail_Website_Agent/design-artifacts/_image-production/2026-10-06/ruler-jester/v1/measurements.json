@@ -1,0 +1,268 @@
+{
+  "pairing": "ruler-jester",
+  "pour": "Who's In?",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-04a97e84-8b9c-4ccd-b8a7-e8c69d46df76.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "488ae23736281eeb36287066bd2a56d83fd74ebf746c57bb1cb45028695d106d",
+  "sourceSha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8",
+  "specSha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683",
+  "roomSha256": "c82c3ded462b4bef619578db493c7edefc8c7ff89cdceffe3f555f26d072ce11",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    570,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1178,
+    "cy": 813,
+    "w": 87,
+    "angle": 80
+  },
+  "glass": {
+    "x": 1065,
+    "y": 553
+  },
+  "bounds": {
+    "glass": {
+      "x0": 893,
+      "y0": 251,
+      "x1": 1230,
+      "y1": 853
+    },
+    "paper": {
+      "x0": 1132,
+      "y0": 740,
+      "x1": 1218,
+      "y1": 868
+    }
+  },
+  "personalityBounds": {
+    "pairOfGloves": {
+      "x0": 389,
+      "y0": 427,
+      "x1": 924,
+      "y1": 732
+    },
+    "screenOffPhone": {
+      "x0": 542,
+      "y0": 399,
+      "x1": 831,
+      "y1": 724
+    }
+  },
+  "recognitionRegions": {
+    "pairOfGloves": {
+      "x0": 389,
+      "y0": 427,
+      "x1": 924,
+      "y1": 732
+    },
+    "screenOffPhone": {
+      "x0": 542,
+      "y0": 399,
+      "x1": 831,
+      "y1": 724
+    }
+  },
+  "supportingBounds": {
+    "wholePhysicalServe": {
+      "x0": 893,
+      "y0": 23,
+      "x1": 1271,
+      "y1": 853
+    },
+    "crushedIce": {
+      "x0": 895,
+      "y0": 164,
+      "x1": 1230,
+      "y1": 790
+    },
+    "iceMound": {
+      "x0": 895,
+      "y0": 164,
+      "x1": 1230,
+      "y1": 294
+    },
+    "mintSprig": {
+      "x0": 1005,
+      "y0": 71,
+      "x1": 1187,
+      "y1": 179
+    },
+    "raspberryOne": {
+      "x0": 977,
+      "y0": 141,
+      "x1": 1076,
+      "y1": 225
+    },
+    "raspberryTwo": {
+      "x0": 1072,
+      "y0": 149,
+      "x1": 1173,
+      "y1": 245
+    },
+    "interiorMintVisibleEnvelope": {
+      "x0": 909,
+      "y0": 345,
+      "x1": 1188,
+      "y1": 674
+    },
+    "plainStraw": {
+      "x0": 1172,
+      "y0": 23,
+      "x1": 1271,
+      "y1": 232
+    },
+    "liquidIceEnvelope": {
+      "x0": 901,
+      "y0": 273,
+      "x1": 1221,
+      "y1": 790
+    },
+    "cord": {
+      "x0": 927,
+      "y0": 690,
+      "x1": 1216,
+      "y1": 768
+    }
+  },
+  "physicalRecognitionRegions": {
+    "wholePhysicalServe": {
+      "x0": 893,
+      "y0": 23,
+      "x1": 1271,
+      "y1": 853
+    },
+    "crushedIce": {
+      "x0": 895,
+      "y0": 164,
+      "x1": 1230,
+      "y1": 790
+    },
+    "mintSprig": {
+      "x0": 1005,
+      "y0": 71,
+      "x1": 1187,
+      "y1": 179
+    },
+    "raspberryOne": {
+      "x0": 977,
+      "y0": 141,
+      "x1": 1076,
+      "y1": 225
+    },
+    "raspberryTwo": {
+      "x0": 1072,
+      "y0": 149,
+      "x1": 1173,
+      "y1": 245
+    },
+    "interiorMintVisibleEnvelope": {
+      "x0": 909,
+      "y0": 345,
+      "x1": 1188,
+      "y1": 674
+    },
+    "plainStraw": {
+      "x0": 1172,
+      "y0": 23,
+      "x1": 1271,
+      "y1": 232
+    }
+  },
+  "visibility": {
+    "pairOfGloves": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Phone/glass hide part of glove pile; full visible pair silhouette used, not fingertip-only crop."
+    },
+    "screenOffPhone": {
+      "masterClipped": false,
+      "occluded": false,
+      "unseenExtent": null,
+      "note": "Whole screen-off rectangular body visible; no invented interface/route."
+    },
+    "interiorMint": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Green visible-leaf envelope recorded; six-leaf count and hidden portions cannot be proved."
+    },
+    "physicalGarnish": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Two complete visible berry silhouettes, mint and straw measured; ice hides mint bases/straw below rim."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Snug low exterior taupe body strand, front curved arc and side knot, very short descending punched-hole tether to wood-supported label.",
+    "anchorBounds": {
+      "x0": 927,
+      "y0": 693,
+      "x1": 1205,
+      "y1": 740
+    },
+    "knotPoint": {
+      "x": 1158,
+      "y": 724
+    },
+    "holePoint": {
+      "x": 1164,
+      "y": 761
+    },
+    "knot": "Tiny visible side crossing with loop/trimmed tail; precise knot structure ambiguous.",
+    "tether": "Short descending front strand reaches paper hole; no naked-rim anchor.",
+    "hole": "Dark punched hole at narrow upper shoulder.",
+    "gravity": "Paper lower than knot and wood-supported.",
+    "airGap": "Paper broad face outside glass, separation visible; upper neck near glass ambiguous.",
+    "contact": "Lower paper edge rests on timber with local contact shadow.",
+    "occlusion": "Front arc/side crossing visible; rear body arc hidden.",
+    "uncertainties": [
+      "Rear closure and friction load unknown.",
+      "Tiny loop near knot may resemble bow/extra return.",
+      "Photo cannot prove taut continuous hidden chain."
+    ],
+    "status": "Front support plausible, not unconditional physics PASS."
+  },
+  "recognitionUnionWidth": 882,
+  "physicalServeRecognitionWidth": 378,
+  "physicalServeHeight": 830,
+  "cropAssessment": {
+    "portrait": "702 crop retains complete glass/tag/garnish/straw, but cuts much glove silhouette at left; not full personality.",
+    "movingPhone": "Whole meaningful group exceeds ~389 px moving-phone inner window. Full portrait retention is not equivalent to animated cover acceptance."
+  },
+  "recipeVariant": {
+    "allowedAdjustment": "2.5 ml extra raspberry-cumin syrup only",
+    "photographicProof": "Cannot prove tasting, amounts or six internal mint-leaf count."
+  },
+  "review": {
+    "recipe": "One individual tall packed crushed-ice raspberry-red serve, two raspberries and mint sprig/plain straw, visible internal mint. No extra citrus/foam/soda/cubes. v2 framing reduced bare vessel to 602px.",
+    "personality": "Recognizable gloves and screen-off phone; useful cold-night/planning inference but generic and still lateral.",
+    "world": "Historic dark room; v2 has one right practical and no left candle, but timber gloss/pattern and warmth remain held.",
+    "issues": [
+      "Gloves and phone are source-derived cold-night/improvised-route inferences, not explicitly named possessions; generic belongings cannot fully show inviting fun and steering.",
+      "Recognizable gloves/phone/whole served-drink group remains wider than ~389 px moving-phone window.",
+      "Wood still warm glossy with repeated crackled/ridged grain and broad advertising-like reflection; material held.",
+      "Crushed ice/droplets remain highly detailed/sparkling; physical texture watch, not accepted.",
+      "Rear body-loop closure/friction and exact knot load unverified; tiny loop/tails near knot ambiguous.",
+      "Small blank label name fit and all runtime/browser/phone states untested.",
+      "Six internal leaves and exact volume/adjustment cannot be counted/proved from photograph; occluded extent unknown."
+    ]
+  },
+  "status": "Held measured candidate; no exports/integration/browser acceptance."
+}
+

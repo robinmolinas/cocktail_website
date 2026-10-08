@@ -1,0 +1,463 @@
+{
+  "pairing": "jester-outlaw",
+  "pour": "Quote Me",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "f8773e8b98bb77c15225b67dbfc21e3d944b34c253ebbc64f3c996252acd3a2e",
+  "review": {
+    "recipe": "One plain heavy freezer-chilled small tumbler, clear still amber drink and one orange peel inside; no serving ice/foam/rim. Frost/dense tiny bright spots and warmer/higher-looking fill remain uncertainty; exact 111.6ml cannot be established photographically.",
+    "personality": "Used starter plate with put-down fork and ordinary coat are source-grounded visual inferences. Both recognizable in master but broad; scene does not prove gasp, truthful question, or private agreement.",
+    "world": "Historic dark reading-room bar, small ivory paper and actual lamp. Timber remains warm glossy with dense fine scuffs/cross-grain texture rather than target quiet neutral low-satin flat surface.",
+    "issues": [
+      "Personality grouping still much wider than phone-safe target",
+      "Proposed portrait truncates substantial trace extents",
+      "Glossy warm timber and dense scratch texture",
+      "Busy thaw/frost and tiny liquid/glass spots may suggest excess bubbles",
+      "Fill reads high relative to halfway target",
+      "Rear tag loop/load and contact uncertain",
+      "Source label ABV/sugar/allergen warning retained"
+    ]
+  },
+  "measurements": {
+    "pairing": "jester-outlaw",
+    "pour": "Quote Me",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-outlaw/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-8d2221dd-ac2d-48a6-820d-5392c6af0d7c.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "masterSha256": "766fe43d8c90ad9aedcf49235c089c317d14b8a628412e1cd9403380b2b9ab73",
+    "sourceSha256": "f8773e8b98bb77c15225b67dbfc21e3d944b34c253ebbc64f3c996252acd3a2e",
+    "specSha256": "7f5485f4edccae8a156ef359801a8e409615a8a51bd424e4289bb9f6680bf97c",
+    "roomSha256": "ca0ced5d4f1c9855ce24c153e932e367247edd2fe3d7b75239e11e1b82db843d",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      825,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1209,
+      "cy": 646,
+      "w": 72,
+      "angle": 73
+    },
+    "glass": {
+      "x": 1104,
+      "y": 539
+    },
+    "bounds": {
+      "glass": {
+        "x0": 975,
+        "y0": 383,
+        "x1": 1232,
+        "y1": 674
+      },
+      "paper": {
+        "x0": 1169,
+        "y0": 592,
+        "x1": 1255,
+        "y1": 690
+      }
+    },
+    "personalityBounds": {
+      "starterPlate": {
+        "x0": 716,
+        "y0": 448,
+        "x1": 1230,
+        "y1": 566
+      },
+      "putDownFork": {
+        "x0": 777,
+        "y0": 441,
+        "x1": 994,
+        "y1": 505
+      },
+      "coat": {
+        "x0": 913,
+        "y0": 178,
+        "x1": 1576,
+        "y1": 506
+      }
+    },
+    "recognitionRegions": {
+      "interruptedStarter": {
+        "x0": 716,
+        "y0": 441,
+        "x1": 1230,
+        "y1": 566
+      },
+      "coat": {
+        "x0": 923,
+        "y0": 180,
+        "x1": 1565,
+        "y1": 503
+      }
+    },
+    "supportingBounds": {
+      "servedOrangePeel": {
+        "x0": 1003,
+        "y0": 481,
+        "x1": 1193,
+        "y1": 621
+      },
+      "stillLiquid": {
+        "x0": 984,
+        "y0": 456,
+        "x1": 1222,
+        "y1": 642
+      },
+      "bodyTwineLoop": {
+        "x0": 982,
+        "y0": 563,
+        "x1": 1216,
+        "y1": 598
+      },
+      "downwardTether": {
+        "x0": 1183,
+        "y0": 588,
+        "x1": 1202,
+        "y1": 614
+      }
+    },
+    "physicalRecognitionRegions": {
+      "servedOrangePeel": {
+        "x0": 1003,
+        "y0": 481,
+        "x1": 1193,
+        "y1": 621
+      },
+      "ice": null
+    },
+    "garnishBounds": {
+      "servedOrangePeel": {
+        "x0": 1003,
+        "y0": 481,
+        "x1": 1193,
+        "y1": 621
+      }
+    },
+    "iceBounds": null,
+    "visibility": {
+      "coat": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null,
+        "note": "Lower folded fabric partly occluded by chair/glass. Unknown hidden extent; full visible silhouette measured, not a button-only box."
+      },
+      "starterPlate": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null
+      },
+      "putDownFork": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null
+      },
+      "servedOrangePeel": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null,
+        "note": "Full visible strip including both visible ends measured; lower/refracted portions cannot establish hidden extent."
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Snug low exterior circumferential tumbler-body twine loop, visible front curve and side occlusion; not a rim tie.",
+      "anchorBounds": {
+        "x0": 982,
+        "y0": 563,
+        "x1": 1216,
+        "y1": 598
+      },
+      "knotPoint": {
+        "x": 1173,
+        "y": 585
+      },
+      "holePoint": {
+        "x": 1196,
+        "y": 608
+      },
+      "knot": "Visible small side bow/knot; rear closure/load and circumferential friction not proven.",
+      "tether": "Short visible downward cord from side knot to paper hole.",
+      "hole": "Punched hole visible with cord passing through.",
+      "gravity": "Paper main body below attachment, hanging at a slight slant.",
+      "airGap": "Broad paper face mostly beside glass, separated; upper paper/string contact locally uncertain.",
+      "contact": "Lower paper corner appears to rest on wood with shadow; exact load sharing unknown.",
+      "occlusion": "Rear loop hidden by glass/drink; front path visible.",
+      "uncertainties": [
+        "Rear loop continuity/load unverified",
+        "Knot tension/friction cannot be proved from photograph",
+        "Upper paper-to-glass separation and bottom load sharing partly uncertain"
+      ],
+      "status": "Plausible front attachment chain; not physics PASS."
+    },
+    "recognitionUnionWidth": 860,
+    "cropAssessment": {
+      "portrait": "Proposed crop retains complete glass, blank paper and served peel. Plate/fork and outer coat silhouette are cropped; cannot claim full two-trace equivalence.",
+      "movingPhone": "Conservative personality union exceeds ~389px inner moving-phone width. No browser or phone PASS."
+    },
+    "review": {
+      "recipe": "One plain heavy freezer-chilled small tumbler, clear still amber drink and one orange peel inside; no serving ice/foam/rim. Frost/dense tiny bright spots and warmer/higher-looking fill remain uncertainty; exact 111.6ml cannot be established photographically.",
+      "personality": "Used starter plate with put-down fork and ordinary coat are source-grounded visual inferences. Both recognizable in master but broad; scene does not prove gasp, truthful question, or private agreement.",
+      "world": "Historic dark reading-room bar, small ivory paper and actual lamp. Timber remains warm glossy with dense fine scuffs/cross-grain texture rather than target quiet neutral low-satin flat surface.",
+      "issues": [
+        "Personality grouping still much wider than phone-safe target",
+        "Proposed portrait truncates substantial trace extents",
+        "Glossy warm timber and dense scratch texture",
+        "Busy thaw/frost and tiny liquid/glass spots may suggest excess bubbles",
+        "Fill reads high relative to halfway target",
+        "Rear tag loop/load and contact uncertain",
+        "Source label ABV/sugar/allergen warning retained"
+      ]
+    },
+    "status": "Held measured candidate; no export/browser/material/name-fit acceptance."
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1388.3253588516748,
+        "cy": 742.2127659574469,
+        "w": 82.67942583732058,
+        "angle": 73.00851697212887
+      },
+      "glass": {
+        "x": 1267.751196172249,
+        "y": 619.2765957446809
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 490.1196581196582,
+        "cy": 824.6808510638299,
+        "w": 91.8974358974359,
+        "angle": 73.00304272682473
+      },
+      "glass": {
+        "x": 356.1025641025641,
+        "y": 688.0851063829788
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/jester-outlaw/portrait.jpg",
+    "wide": "/personas/jester-outlaw/wide.jpg",
+    "wideTag": {
+      "cx": 0.7230861244019139,
+      "cy": 0.6872340425531915,
+      "w": 0.0430622009569378,
+      "angle": 73.00851697212887
+    },
+    "wideGlass": {
+      "x": 0.6602870813397129,
+      "y": 0.573404255319149
+    },
+    "tag": {
+      "cx": 0.5470085470085471,
+      "cy": 0.6872340425531915,
+      "w": 0.10256410256410256,
+      "angle": 73.00304272682473
+    },
+    "glass": {
+      "x": 0.3974358974358974,
+      "y": 0.573404255319149
+    }
+  },
+  "hashes": {
+    "master": "766fe43d8c90ad9aedcf49235c089c317d14b8a628412e1cd9403380b2b9ab73",
+    "wide": "6ea3114fe272930d793640827d249754c845174a209e0ecdef2bba1eb25d12cb",
+    "portrait": "9e3d1b3ebcaefa870949df42ae3907649a81cc488ed63c9591f88e612682d74c"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1119.6172248803828,
+          "y0": 440.0425531914894,
+          "x1": 1414.7368421052631,
+          "y1": 774.3829787234042
+        },
+        "paper": {
+          "x0": 1342.3923444976076,
+          "y0": 680.1702127659574,
+          "x1": 1441.1483253588517,
+          "y1": 792.7659574468086
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 853.0143540669857,
+          "y0": 366.7021276595745,
+          "x1": 1098.9473684210525,
+          "y1": 645.3191489361702
+        },
+        "paper": {
+          "x0": 1038.6602870813397,
+          "y0": 566.8085106382979,
+          "x1": 1120.956937799043,
+          "y1": 660.6382978723404
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1194.2583732057417,
+          "y0": 416.0187234042553,
+          "x1": 1509.0526315789473,
+          "y1": 772.6485106382978
+        },
+        "paper": {
+          "x0": 1431.8851674641148,
+          "y0": 672.1548936170212,
+          "x1": 1537.2248803827752,
+          "y1": 792.2570212765958
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2005.9808612440193,
+          "y0": 560.7095744680851,
+          "x1": 2534.736842105263,
+          "y1": 1159.736170212766
+        },
+        "paper": {
+          "x0": 2405.1196172248806,
+          "y0": 990.9382978723404,
+          "x1": 2582.0574162679427,
+          "y1": 1192.672340425532
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3974358974358974,
+        "y": 0.573404255319149
+      },
+      "bounds": {
+        "glass": {
+          "x0": 39.19646723646723,
+          "y0": 343.88510638297873,
+          "x1": 269.90583095916435,
+          "y1": 605.1659574468085
+        },
+        "paper": {
+          "x0": 213.3506172839506,
+          "y0": 531.5404255319149,
+          "x1": 290.55297245963914,
+          "y1": 619.531914893617
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3974358974358974,
+        "y": 0.573404255319149
+      },
+      "bounds": {
+        "glass": {
+          "x0": 43.01960113960115,
+          "y0": 379.7404255319149,
+          "x1": 297.7839696106363,
+          "y1": 668.263829787234
+        },
+        "paper": {
+          "x0": 235.33200379867048,
+          "y0": 586.9617021276597,
+          "x1": 320.58389363722694,
+          "y1": 684.1276595744681
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.3974358974358974,
+        "y": 0.573404255319149
+      },
+      "bounds": {
+        "glass": {
+          "x0": 49.245356125356125,
+          "y0": 231.42978723404255,
+          "x1": 204.50947768281102,
+          "y1": 407.26808510638296
+        },
+        "paper": {
+          "x0": 166.44862298195633,
+          "y0": 357.7191489361702,
+          "x1": 218.404710351377,
+          "y1": 416.93617021276594
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "batch": "15",
+  "date": "2026-10-08",
+  "scope": "six private refinement pairs after user accepted recommendations",
+  "status": "bounded generation complete; all candidates HELD, not final deliveries",
+  "builtInCalls": 17,
+  "callCeiling": 18,
+  "perPairCeiling": 3,
+  "rootOriginalInspection": {
+    "selectedNativeAssets": 12,
+    "actualViews": true,
+    "notBrowser": true
+  },
+  "fingerprints": "not executed; authorization unanswered; no previous hash reused",
+  "exports": {
+    "performed": false,
+    "targetsOnly": {
+      "wide": [
+        1920,
+        1080
+      ],
+      "portrait": [
+        896,
+        1200
+      ]
+    },
+    "nativeHeaderVerified": false,
+    "finalJpegsExist": false
+  },
+  "acceptance": {
+    "newAccepted": 0,
+    "newIntegrated": 0,
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false
+  },
+  "preservation": "All writes are new private artifacts and producer continuation notes. No recipe/public/runtime/queue/rule/browser-request modifications made by this pass; no byte-level preservation claim.",
+  "pairs": [
+    {
+      "key": "hero-creator",
+      "name": "The Long Answer",
+      "wide": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/wide-master.png",
+      "portrait": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v4/portrait-master.png",
+      "wideGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/wide-geometry.json",
+      "portraitGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v4/portrait-geometry.json",
+      "calls": 3,
+      "improved": "Opened letter and blue capped pen now read as recent use. Corrected portrait clearly shows two separate cut orange pieces.",
+      "held": "Exact orange half-moon shape/count in wide, dense droplets, warm sheen, envelope count/ownership,611px portrait group and tag/name fit.",
+      "sourceFingerprint": null,
+      "masterFingerprint": null,
+      "status": "held private comparison",
+      "rootOriginalInspected": true
+    },
+    {
+      "key": "hero-innocent",
+      "name": "Work It Out",
+      "wide": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/wide-master.png",
+      "portrait": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/portrait-master.png",
+      "wideGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/wide-geometry.json",
+      "portraitGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/portrait-geometry.json",
+      "calls": 3,
+      "improved": "Fresh flat directional wood is calmer than inherited crackle. Open box and loose lid/pencil show use rather than a closed pristine object.",
+      "held": "Practice sample still looks finished; very tall wide glass, multiple tag strands, large paper, dense droplets and616px portrait group.",
+      "sourceFingerprint": null,
+      "masterFingerprint": null,
+      "status": "held private comparison",
+      "rootOriginalInspected": true
+    },
+    {
+      "key": "hero-regular-guy",
+      "name": "Anyone Would Have",
+      "wide": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/wide-master.png",
+      "portrait": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/portrait-master.png",
+      "wideGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/wide-geometry.json",
+      "portraitGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/portrait-geometry.json",
+      "calls": 2,
+      "improved": "Torch and screwdriver lie flat with real table contact. Portrait whole meaningful group about535px.",
+      "held": "Wide glass still oversized; off-center portrait/tools, tiny writing axis, front cord and dense wet detail. Necessary width only, no phone PASS.",
+      "sourceFingerprint": null,
+      "masterFingerprint": null,
+      "status": "held private comparison",
+      "rootOriginalInspected": true
+    },
+    {
+      "key": "lover-caregiver",
+      "name": "Hoping You’d Come",
+      "wide": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v3/wide-master.png",
+      "portrait": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v3/portrait-master.png",
+      "wideGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v3/manual-geometry-batch15.json",
+      "portraitGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v3/manual-geometry-batch15.json",
+      "calls": 3,
+      "improved": "Smaller portrait glass with spoon, cold pulp and prepared empty chair/olive throw retained.",
+      "held": "Apple texture remains too defined/chunky; doubled stem turn, broad chair/throw. v4 had calmer wood but sharper cereal-like flakes, so not selected.",
+      "sourceFingerprint": null,
+      "masterFingerprint": null,
+      "status": "held private comparison",
+      "rootOriginalInspected": true
+    },
+    {
+      "key": "jester-magician",
+      "name": "The Kind You’d Want",
+      "wide": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/wide-master.png",
+      "portrait": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/portrait-master.png",
+      "wideGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/manual-geometry-batch15.json",
+      "portraitGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/manual-geometry-batch15.json",
+      "calls": 3,
+      "improved": "Portrait depth-stacks bowl/banana/keys and shows two dim empty household mugs, not extra cocktails.",
+      "held": "Keys not convincingly beneath banana, mug action unproved, dense fizzy detail and repeated footcord. v4 made glass/group/wet shine larger; not selected.",
+      "sourceFingerprint": null,
+      "masterFingerprint": null,
+      "status": "held private comparison",
+      "rootOriginalInspected": true
+    },
+    {
+      "key": "outlaw-magician",
+      "name": "For Its Own Good",
+      "wide": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/wide-master.png",
+      "portrait": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/portrait-master.png",
+      "wideGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/wide-geometry.json",
+      "portraitGeometry": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/portrait-geometry.json",
+      "calls": 3,
+      "improved": "Primary pair retains one ungarnished grappa/wine-syrup rocks drink with ordinary cube and small tabletop tag.",
+      "held": "Bag dominates, binder/sheets clipped, taken-apart action unclear, saturated liquid and rough gold wood. Fresh portrait correction produced excess closed rings; rejected.",
+      "sourceFingerprint": null,
+      "masterFingerprint": null,
+      "status": "held private comparison",
+      "rootOriginalInspected": true
+    }
+  ],
+  "catalogue": {
+    "generated": 115,
+    "exported": 27,
+    "unexported": 88,
+    "ungenerated": 0,
+    "existingPublic": 17,
+    "represented": 132,
+    "notApproved": true
+  },
+  "browser": "Deferred by user; heartbeat remains paused, no new READY request."
+}

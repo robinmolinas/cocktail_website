@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 ## Cocktail
 
 - **name:** Dressed for It
-- **tagline:** Everything's gone wrong, and you still set the table at seven.
+- **tagline:** You keep life's small rituals steady when everything else gives way.
 - **glassware:** small stemmed wine glass (about 200 ml), chilled, fine sugar on the outside of the rim, lined inside with a collar of lemon peel, no ice
 - **contains:** `[]`
 

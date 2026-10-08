@@ -1,0 +1,11 @@
+# Selected original review — The Kind You'd Want v2
+
+Actual native1672×941 PNG viewed at original resolution against six house controls; exact original copied without transformation. Initial plus sole focused edit only, all four batch calls resolved and stopped.
+
+One plain everyday straight-sided tumbler filled with ordinary cubes, clear golden fizz and ONE lemon-peel strip dropped INSIDE. No sour foam, cloud, rim garnish or extra finished drink. Glass303px improves561px and meets requested framing range. Liquid is stronger gold than source's pale-gold estimate under warm lighting; dense fine fizz and etched-looking ice/glass microtexture remain holds.
+
+Source-explicit keys partly under bananas read as a harmless reversible household prank, not recipe ingredients. Two recognizable ceramic mugs have empty-looking open mouths, but shallow interior visibility does not prove wholly empty vessels. The left handle is still visible side/front-facing rather than confidently toward wall; the specific turned-empty-mugs behavior has recognition null, while actual mug object recognition is separately measured. No disguised missing second source-specific trace. Full448px/recogn447px group still exceeds~389px moving-phone intent; proposed702px portrait contains visible bounds but is NOT phone acceptance.
+
+Discreet56px-wide paper hangs outboard near clear foot. Thin matte subdued brown exterior low-body front arc curves into side occlusion → small knot1197,589 → approximately13px continuous downward tether → punched hole1203,601 → paper below support. Main face has a visible gap; lower tip appears to rest on timber with contact shadow. Rear closure/friction/knot load, tiny upper margin overlap and exact contact depth remain uncertain. Quieter attachment than earlier house controls, not blanket physics PASS. Clean writable axis48px measured inside actual paper; actual names untested and physical paper never inflated.
+
+One right practical remains and near-black historic timber world/quiet left survive. Amber glossy table/dense grain and wet ice/glass texture remain material HOLD. No JPEG/exporter/browser/runtime/public/source/editorial/shared tracker writes or acceptance. Both v1/v2 preserved.

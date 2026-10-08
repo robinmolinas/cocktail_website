@@ -1,0 +1,99 @@
+{
+  "pairing": "jester-sage",
+  "pour": "Against My Better Judgement",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-sage/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-4a4c576d-6bc1-46c7-ac13-c3f2cfd51be7.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "650135f19726cd28669ab561625a2d9ceb7f9552390d4bc0e5bfb3e532047fcd",
+  "specSha256": "2052b3952e998294f49f1ce34a769fc874955f774500ac26bf11748ce5cc2871",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    821,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1194,
+    "cy": 540,
+    "w": 78,
+    "angle": 32.5
+  },
+  "glass": {
+    "x": 1090,
+    "y": 326
+  },
+  "bounds": {
+    "glass": {
+      "x0": 974,
+      "y0": 254,
+      "x1": 1206,
+      "y1": 577
+    },
+    "paper": {
+      "x0": 1133,
+      "y0": 498,
+      "x1": 1243,
+      "y1": 583
+    }
+  },
+  "personalityBounds": {
+    "foldedCorrespondence": {
+      "x0": 966,
+      "y0": 429,
+      "x1": 1378,
+      "y1": 530
+    },
+    "cappedInkPen": {
+      "x0": 1127,
+      "y0": 426,
+      "x1": 1336,
+      "y1": 488
+    }
+  },
+  "recognitionRegions": {
+    "foldedCorrespondence": {
+      "x0": 966,
+      "y0": 429,
+      "x1": 1378,
+      "y1": 530
+    },
+    "cappedInkPen": {
+      "x0": 1127,
+      "y0": 426,
+      "x1": 1336,
+      "y1": 488
+    }
+  },
+  "review": {
+    "recipe": "Clear pale amber still stirred cocktail in chilled stemmed glass, no serving ice/foam/garnish. Lemon expressed then removed: no peel anywhere in/on drink. Clear plain glass is promising; glass shape/capacity not physically measured from image.",
+    "personality": "Letter is explicit whoYouAre scene; used capped black pen is plausible ordinary response inference. Folded paper+whole pen recognisable, not anonymous edges. This does not establish joke/hidden-hope specificity alone; no historical Field artefact claim.",
+    "world": "Dark historic reading room; left quiet. Plain smooth glass better than prior speckle, but table remains glossy/raised-patterned with amber and cool reflections.",
+    "issues": [
+      "Glass323px is pulled back; full conservative letter+pen+glass+tag group412px still exceeds about389px maximum-breathing phone window; no phone PASS.",
+      "Proportional tag is narrow110px vs232px bowl, actual writing axis78px; long-name glyph fit deferred, do not inflate paper.",
+      "Tag physically tied and separate, but its lowest corner approaches tabletop; freely suspended clearance uncertain.",
+      "Dense raised/glossy timber and cool-left/amber-right reflections persist; not accepted natural flat-walnut material.",
+      "Correspondence+pen are recognisable everyday objects, but specificity of joke/hidden hope remains a watch; pen is inference, not source explicit object."
+    ]
+  },
+  "status": "measured-master-candidate; held; not-accepted; browser-deferred",
+  "sourceRefresh": {
+    "previousSourceSha256": "8254e212ad43a4543206f73896e6fcb2fe678cc88ac9a8a978343607e814dcc7",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** Everyone hears the joke. Hardly anyone hears the hope.",
+      "+ - **tagline:** You make fun of the world because you haven't given up on it.",
+      "- **tagline:** Everyone hears the joke. Hardly anyone hears the hope.",
+      "+ **tagline:** You make fun of the world because you haven't given up on it."
+    ]
+  }
+}

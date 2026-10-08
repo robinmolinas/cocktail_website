@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 ## Cocktail
 
 - **name:** Just This Once
-- **tagline:** You don't get away with things. You get let off. That's better.
+- **tagline:** You charm a yes out of people, then bring your friends along.
 - **glassware:** large wine glass (about 500 ml), filled with ice
 - **contains:** `[]`
 

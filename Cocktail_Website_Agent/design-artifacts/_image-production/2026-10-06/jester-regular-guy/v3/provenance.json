@@ -1,0 +1,38 @@
+{
+  "pairing": "jester-regular-guy",
+  "pour": "Is It Just Me",
+  "version": "v3",
+  "workflow": "fresh wide plus dedicated portrait",
+  "tool": "built-in image_gen",
+  "calls": 2,
+  "assets": {
+    "wide": {
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v3/wide-master.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "037afce16a8d468382f6541689092872632d614428d942be93a02517f1fdc302",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v3/wide-prompt.txt",
+      "promptSha256": "1f49528b53d4ad15c43e1e95e9833cdbe05b61051261c65be486671b59046e6b",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-6acb54bf-2757-4390-bc8e-815e826c2658.png",
+      "generatedOriginalSha256": "037afce16a8d468382f6541689092872632d614428d942be93a02517f1fdc302",
+      "referencedImagePaths": []
+    },
+    "portrait": {
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v3/portrait-master.png",
+      "width": 1084,
+      "height": 1451,
+      "sha256": "e6c0b4bde0b9d2bf4b8d0d3e06116220e75cd66724b51e5aa84009ff79103a88",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v3/portrait-prompt.txt",
+      "promptSha256": "508046d01d482b33215c2d717e51047152cf22a76a9d4ae667d5eb7e7bf7e5ef",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-010230aa-af9f-4442-b500-76c9ff9c8409.png",
+      "generatedOriginalSha256": "e6c0b4bde0b9d2bf4b8d0d3e06116220e75cd66724b51e5aa84009ff79103a88",
+      "referencedImagePaths": [
+        "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v3/wide-master.png"
+      ]
+    }
+  },
+  "preserve": "cp -n exact native PNG copies; originals retained",
+  "status": "candidate held; no export/integration/acceptance",
+  "sourceFingerprints": "See readiness and separate per-master measurements",
+  "owner": "stirred_serves"
+}

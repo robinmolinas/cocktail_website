@@ -1,0 +1,117 @@
+{
+  "measurementMethod": "Root manual visual estimate on actual original-size native image; coordinates approximate, tolerance 5–12px. Displayed dimensions not probed. NOT export-ready metadata.",
+  "masterSha256": null,
+  "sourceSha256": null,
+  "specSha256": null,
+  "roomSha256": null,
+  "fingerprintStatus": "Pending authorized checks; no historical hash reused.",
+  "exported": false,
+  "exportEligible": false,
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "hiddenExtents": {
+    "rearLoopClosure": null,
+    "actualKnotLoad": null,
+    "paperUnderside": null,
+    "occludedProps": null
+  },
+  "tagPhysics": {
+    "status": "Held, not physics PASS",
+    "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+  },
+  "pairing": "outlaw-magician",
+  "pour": "For Its Own Good",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-27e9ab0f-0c11-4a01-9648-5cac5e718519.png",
+  "displayedDimensions": [
+    1086,
+    1448
+  ],
+  "proposedCrop": [
+    11,
+    11,
+    1064,
+    1425
+  ],
+  "tag": {
+    "cx": 809,
+    "cy": 1040,
+    "w": 108,
+    "angle": 10,
+    "hole": [
+      741,
+      1003
+    ]
+  },
+  "glass": {
+    "x": 590,
+    "y": 858
+  },
+  "bounds": {
+    "glass": [
+      440,
+      670,
+      743,
+      1048
+    ],
+    "ice": [
+      493,
+      751,
+      677,
+      940
+    ],
+    "paper": [
+      710,
+      982,
+      883,
+      1079
+    ],
+    "bagVisibleOnly": [
+      0,
+      470,
+      652,
+      793
+    ],
+    "binderVisibleOnly": [
+      552,
+      608,
+      1086,
+      963
+    ],
+    "releasedSheetsVisibleOnly": [
+      734,
+      753,
+      1086,
+      964
+    ],
+    "ringMechanismVisible": [
+      768,
+      709,
+      988,
+      832
+    ]
+  },
+  "essentialObjectUnion": [
+    0,
+    470,
+    1086,
+    1079
+  ],
+  "reviewHolds": [
+    "Portrait retained landscape lateral layout; bag and binder clipped",
+    "Material roughness/gold shine",
+    "Light red-amber expectation became saturated deep amber-red",
+    "Ring action/open-gap specificity uncertain",
+    "Small side junction/hidden footloop unclear",
+    "Rejected fresh correction has closed excess binder rings, not selected",
+    "Correction allowance exhausted"
+  ]
+}

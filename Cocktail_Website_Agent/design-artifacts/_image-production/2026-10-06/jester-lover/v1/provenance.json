@@ -1,0 +1,27 @@
+{
+  "pairing": "jester-lover",
+  "version": 1,
+  "batch": 13,
+  "mode": "generate",
+  "editTarget": null,
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-d47658d1-7229-4f3f-b4d8-bfc192acf83d.png",
+  "originalSha256": "f430ed58448d140721bec1f624ae341f3b17322a71a0307f37494732c664fb2b",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v1/master.png",
+  "masterSha256": "f430ed58448d140721bec1f624ae341f3b17322a71a0307f37494732c664fb2b",
+  "native": {
+    "width": 1672,
+    "height": 941
+  },
+  "source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/jester-lover.md",
+  "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-lover.json",
+  "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-lover.md",
+  "sourceSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+  "specSha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+  "roomSha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v1/actual-prompt-batch13.txt",
+  "readiness": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v1/readiness-batch13.md",
+  "servingTypePilot": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v1/serving-type-pilot.md",
+  "selected": false,
+  "status": "Held native candidate; not exported or accepted."
+}

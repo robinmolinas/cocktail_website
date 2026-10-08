@@ -1,0 +1,209 @@
+{
+  "pairing": "hero-regular-guy",
+  "pour": "Anyone Would Have",
+  "status": "private candidate; no acceptance",
+  "measurementMethod": "Manual original-size visual estimates on displayed canvas; no native header or hash execution. Approximately +/-5\u201310px; coordinates must be confirmed before export.",
+  "source": {
+    "dossier": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/hero-regular-guy.md",
+    "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-regular-guy.json",
+    "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-regular-guy.md",
+    "dossierSha256": null,
+    "specSha256": null,
+    "roomSha256": null,
+    "fingerprintStatus": "Not executed per batch restrictions; current full text read, closed room r7 and current D1 classification evidence."
+  },
+  "sourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+  "masterSha256": "3a28c86778a265ea0be9e7082837c2312afce2095093a7a6937f7144624f3c12",
+  "originalSha256": null,
+  "hiddenExtent": null,
+  "orientation": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-36cf60f2-3b62-4437-a0d3-1fbf709f67e7.png",
+  "displayedCanvas": {
+    "width": 1084,
+    "height": 1451,
+    "headerVerified": false
+  },
+  "wideCrop": null,
+  "portraitCrop": [
+    0,
+    0,
+    1084,
+    1451
+  ],
+  "tag": {
+    "cx": 700,
+    "cy": 988,
+    "w": 61,
+    "angle": 15
+  },
+  "glass": {
+    "x": 599,
+    "y": 854
+  },
+  "bounds": {
+    "glass": {
+      "x0": 467,
+      "y0": 691,
+      "x1": 735,
+      "y1": 1024
+    },
+    "paper": {
+      "x0": 663,
+      "y0": 956,
+      "x1": 736,
+      "y1": 1017
+    },
+    "ice": {
+      "x0": 547,
+      "y0": 747,
+      "x1": 688,
+      "y1": 880
+    },
+    "bittersVisibleBleed": {
+      "x0": 499,
+      "y0": 779,
+      "x1": 711,
+      "y1": 849
+    },
+    "torch": {
+      "x0": 201,
+      "y0": 831,
+      "x1": 448,
+      "y1": 934
+    },
+    "screwdriver": {
+      "x0": 214,
+      "y0": 878,
+      "x1": 456,
+      "y1": 960
+    },
+    "cordVisible": {
+      "x0": 476,
+      "y0": 942,
+      "x1": 758,
+      "y1": 992
+    }
+  },
+  "recognition": {
+    "torch": {
+      "x0": 201,
+      "y0": 831,
+      "x1": 448,
+      "y1": 934
+    },
+    "screwdriver": {
+      "x0": 214,
+      "y0": 878,
+      "x1": 456,
+      "y1": 960
+    },
+    "servedIce": {
+      "x0": 547,
+      "y0": 747,
+      "x1": 688,
+      "y1": 880
+    },
+    "servedBitters": {
+      "x0": 499,
+      "y0": 779,
+      "x1": 711,
+      "y1": 849
+    },
+    "meaningfulUnion": {
+      "x0": 201,
+      "y0": 691,
+      "x1": 736,
+      "y1": 1024
+    },
+    "unionWidth": 535
+  },
+  "tagPhysics": {
+    "mechanism": "Low exterior body loop, small knot near clear foot",
+    "knotPoint": [
+      674,
+      952
+    ],
+    "holePoint": [
+      678,
+      968
+    ],
+    "tether": "Short front downward path about16px, rear not observable",
+    "gravity": "Tag hangs outboard/downward with apparent corner wood contact",
+    "airGap": "Paper stands separate from body apart from cord",
+    "contact": "Lower/right paper corner plausibly touches wood; shadow subtle",
+    "occlusion": "Cord arcs around front and vanishes at glass sides, rear unknown",
+    "uncertainties": [
+      "Cotton may show doubled strands near knot",
+      "Posterior loop/knot load and exact resting contact not proven"
+    ]
+  },
+  "review": {
+    "recipe": "Cloudy rosy pink-red, one large visible ice piece, no garnish, faint bubbles and bleeding top bitters; glass type rocks.",
+    "personality": "Whole unlit torch and screwdriver laid flat with contact. Remain on LEFT laterally rather than directly behind glass.",
+    "world": "Mostly flat long grain improved, still pronounced warm sheen/fine wear and dense droplet/bubble texture in drink; one dominant practical.",
+    "issues": [
+      "535px whole meaningful union meets numerical550 aim only; off-centre lateral objects leave little phone motion clearance, NOT mobile PASS",
+      "Small tag ~61px usable axis may hold actual-name fit",
+      "Rear support load unproved",
+      "No native header verification, final JPEG dimensions or browser/glyph/load review"
+    ]
+  },
+  "specSha256": "f8a537c8cce06c30d61249c6b52728fc197207c639a5dca7b217fd79cb31485b",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "exportProvenance": {
+    "batch": 15,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v3/portrait-geometry.json",
+    "originalMeasurementSha256": "8e424cdad360e9621dc7d8d4d005c31fb71e9db2cc1ccc78c0f65cf4e3ee83ef",
+    "previousSourceSha256": null,
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {
+    "garnish": null
+  },
+  "recognitionRegions": {
+    "torch": {
+      "x0": 201,
+      "y0": 831,
+      "x1": 448,
+      "y1": 934
+    },
+    "screwdriver": {
+      "x0": 214,
+      "y0": 878,
+      "x1": 456,
+      "y1": 960
+    },
+    "servedIce": {
+      "x0": 547,
+      "y0": 747,
+      "x1": 688,
+      "y1": 880
+    },
+    "servedBitters": {
+      "x0": 499,
+      "y0": 779,
+      "x1": 711,
+      "y1": 849
+    },
+    "meaningfulUnion": {
+      "x0": 201,
+      "y0": 691,
+      "x1": 736,
+      "y1": 1024
+    }
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

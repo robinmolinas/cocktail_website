@@ -1,0 +1,27 @@
+{
+  "pairing": "jester-regular-guy",
+  "version": 1,
+  "batch": 13,
+  "mode": "generate",
+  "editTarget": null,
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-fc121029-2dd5-4641-9a6e-8a1c027fd4d3.png",
+  "originalSha256": "21d1afb8fccaf3c1548e38d62d49ec241e8e8a69ba47f67eba65b5bf878dfc42",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v1/master.png",
+  "masterSha256": "21d1afb8fccaf3c1548e38d62d49ec241e8e8a69ba47f67eba65b5bf878dfc42",
+  "native": {
+    "width": 1672,
+    "height": 941
+  },
+  "source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/jester-regular-guy.md",
+  "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-regular-guy.json",
+  "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-regular-guy.md",
+  "sourceSha256": "cd9b909ee55d60451ba39fdb2c02b4115f53b4001deac21cf957bd1d73f3010d",
+  "specSha256": "46084d90c084171eb83263afb9ca961ace6ef705273a016f1462be70ae2a3f9f",
+  "roomSha256": "b1f6ac35f7f57de07d59fa51deaf64c6e69c6213b4f22fda97ee07e571b9796c",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v1/actual-prompt-batch13.txt",
+  "readiness": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v1/readiness-batch13.md",
+  "servingTypePilot": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v1/serving-type-pilot.md",
+  "selected": false,
+  "status": "Held native candidate; not exported or accepted."
+}

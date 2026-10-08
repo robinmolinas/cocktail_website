@@ -1,0 +1,28 @@
+{
+  "pairing": "regular-guy-magician",
+  "pour": "Good for Years",
+  "batch": 11,
+  "version": "v2",
+  "mode": "edit",
+  "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-magician/v2/prompt-batch11.txt",
+  "readiness": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-magician/v2/readiness-batch11.md",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-46bf1fef-c144-474d-b70d-9d1a3763be8d.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-magician/v2/master.png",
+  "originalSha256": "e70109a6eac68429457e31e0d3f5749d480689bc51ec9b3f23791449a2328a8c",
+  "masterSha256": "e70109a6eac68429457e31e0d3f5749d480689bc51ec9b3f23791449a2328a8c",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/regular-guy-magician.md",
+  "sourceSha256": "c8ce1075a500a9acfb765df2eef36092686fd4e562ecb2710595becd1a453d4b",
+  "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-magician.json",
+  "specSha256": "713e586ce0026d0b3d7fcb7e59f67107ec2c0e422b55174f390b706fdbdb8632",
+  "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-magician.md",
+  "roomSha256": "d0f4187c2f698285b4adfe5250b2613211ae6438fddb6c9fbc8adb1f7bb26dd0",
+  "editTarget": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-8eedaeb4-7325-4e8d-b5f2-7aed1b9b0a94.png",
+  "builtInCallsForPairing": 2,
+  "targetedCorrectionCount": 1,
+  "builtInCallsForBatch": 4,
+  "status": "Selected held measured candidate; maxfour batch11 calls reached, no export/browser/material/name acceptance."
+}

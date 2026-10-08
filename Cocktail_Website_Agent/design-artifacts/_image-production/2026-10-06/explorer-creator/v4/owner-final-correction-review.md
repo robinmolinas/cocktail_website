@@ -1,0 +1,5 @@
+ONE final correction call. Wide1672x941 original inspected full-detail. Entire caliper now inside frame; glass reduced646→401px, although still42.6%height not30–35%requested. Box/caliper whole union697px, lateral and not phone-safe. Unchanged companion is v3/portrait-master.png explicitly; no new portrait generated/copied or fabricated pair.
+
+One smooth thick frozen opaque portion/no added ice/garnish/salt retained. Mounded top and dense glass dots remain appearance watches. Box fitted screw hinge not conclusive repaired-state evidence; fixing objects remain source-based guest inference. Functional caliper scale markings are not intentional narrative copy; actual letters watch remains.
+
+Smallstemloop/short punchedhole tether/outboard paper timber-contact visible; exact tiny knot/rear load unresolved. Walnut calm longgrain but warm reflection/shine still strong; reflection alone not automatic rejection. No physics/name/material/phone/browser acceptance. No additional generation authorized beyond three overall finalcalls; no exporter/integration/shared edits.

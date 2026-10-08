@@ -1,0 +1,486 @@
+{
+  "pairing": "regular-guy-innocent",
+  "pour": "Good as It Is",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "ed9246afc39ce9772536e3ee753d72e38e5d46770902d6e0e5ce31f43ab66d6f",
+  "review": {
+    "recipe": "Pale slightly cloudy caipirinha, muddled lime pieces down among irregular cracked ice; no foam/garnish/straw/shaker. Exact six-piece count cannot be confirmed through occlusion; prompt preserves six pieces and direct glass build rather than analytical shaken style.",
+    "personality": "Torn buttered roll grounded explicit whoYouAre; used dinner butter knife plausible enjoyment inference. Both are whole identifiable real-size objects, not recipe ingredient props. Still spread right rather than compactly depth-overlapped.",
+    "world": "Timber room, left quiet, single warm shaded practical; bright window adds a second light/readability cue. Table excessively glossy amber/crackle texture, ice/glass granular/sparkly.",
+    "issues": [
+      "Glass369px high: reduced from533 but still above280–330target.",
+      "Full visible glass/paper/trace/linen union882px; glass/paper plus conservative trace recognition union793px. Misses compact350–380goal.",
+      "Proposed702portrait retains whole drink/tag/bread but cuts knife handle and linen; not crop-accepted or phone/motion/browser pass.",
+      "Lime count six not reliably audited; dense granular ice/condensation and glossy patterned table held.",
+      "Tag physically small, freely tied via hole/continuous cord; usable92px axis. Long-name glyph fit untested.",
+      "Initial and sole correction exhausted; candid candidate saved, no export/integration/acceptance."
+    ]
+  },
+  "measurements": {
+    "pairing": "regular-guy-innocent",
+    "pour": "Good as It Is",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-innocent/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-1401b9ba-b62b-41bf-b9c8-ace72bd10d71.png",
+    "masterDimensions": [
+      1672,
+      941
+    ],
+    "masterSha256": "bd537e5550f41575ed60e99f85a0329d5825c25888353ab9814103103913a4b9",
+    "sourceSha256": "ed9246afc39ce9772536e3ee753d72e38e5d46770902d6e0e5ce31f43ab66d6f",
+    "specSha256": "fa75f17a43df4fb9e18cbf9d5efe885392f0bc8ebe1b5bbb57af88bad0c15de6",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      758,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 798,
+      "cy": 504,
+      "w": 92,
+      "angle": 102
+    },
+    "glass": {
+      "x": 983,
+      "y": 526
+    },
+    "bounds": {
+      "glass": {
+        "x0": 832,
+        "y0": 342,
+        "x1": 1133,
+        "y1": 711
+      },
+      "paper": {
+        "x0": 765,
+        "y0": 438,
+        "x1": 835,
+        "y1": 565
+      },
+      "bread": {
+        "x0": 1109,
+        "y0": 439,
+        "x1": 1358,
+        "y1": 645
+      },
+      "butterKnife": {
+        "x0": 1198,
+        "y0": 409,
+        "x1": 1558,
+        "y1": 656
+      },
+      "linen": {
+        "x0": 1109,
+        "y0": 451,
+        "x1": 1647,
+        "y1": 692
+      }
+    },
+    "recognitionRegions": {
+      "bread": {
+        "bounds": {
+          "x0": 1114,
+          "y0": 440,
+          "x1": 1358,
+          "y1": 643
+        },
+        "reason": "Substantial torn buttered bread roll: crust, exposed crumb and butter visible; no anonymous fragment."
+      },
+      "butterKnife": {
+        "bounds": {
+          "x0": 1198,
+          "y0": 409,
+          "x1": 1558,
+          "y1": 656
+        },
+        "reason": "Complete separate used steel butter knife, buttered blade, neck and full recognizable handle; no miniature."
+      }
+    },
+    "review": {
+      "recipe": "Pale slightly cloudy caipirinha, muddled lime pieces down among irregular cracked ice; no foam/garnish/straw/shaker. Exact six-piece count cannot be confirmed through occlusion; prompt preserves six pieces and direct glass build rather than analytical shaken style.",
+      "personality": "Torn buttered roll grounded explicit whoYouAre; used dinner butter knife plausible enjoyment inference. Both are whole identifiable real-size objects, not recipe ingredient props. Still spread right rather than compactly depth-overlapped.",
+      "world": "Timber room, left quiet, single warm shaded practical; bright window adds a second light/readability cue. Table excessively glossy amber/crackle texture, ice/glass granular/sparkly.",
+      "issues": [
+        "Glass369px high: reduced from533 but still above280–330target.",
+        "Full visible glass/paper/trace/linen union882px; glass/paper plus conservative trace recognition union793px. Misses compact350–380goal.",
+        "Proposed702portrait retains whole drink/tag/bread but cuts knife handle and linen; not crop-accepted or phone/motion/browser pass.",
+        "Lime count six not reliably audited; dense granular ice/condensation and glossy patterned table held.",
+        "Tag physically small, freely tied via hole/continuous cord; usable92px axis. Long-name glyph fit untested.",
+        "Initial and sole correction exhausted; candid candidate saved, no export/integration/acceptance."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 916.3636363636364,
+        "cy": 579.063829787234,
+        "w": 105.64593301435407,
+        "angle": -78.00619479758086
+      },
+      "glass": {
+        "x": 1128.803827751196,
+        "y": 604.3404255319149
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 51.054131054131055,
+        "cy": 643.4042553191489,
+        "w": 117.42450142450141,
+        "angle": -78.00221315140999
+      },
+      "glass": {
+        "x": 287.1794871794872,
+        "y": 671.4893617021277
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/regular-guy-innocent/portrait.jpg",
+    "wide": "/personas/regular-guy-innocent/wide.jpg",
+    "wideTag": {
+      "cx": 0.4772727272727273,
+      "cy": 0.5361702127659574,
+      "w": 0.05502392344497608,
+      "angle": -78.00619479758086
+    },
+    "wideGlass": {
+      "x": 0.5879186602870813,
+      "y": 0.5595744680851064
+    },
+    "tag": {
+      "cx": 0.05698005698005698,
+      "cy": 0.5361702127659574,
+      "w": 0.13105413105413105,
+      "angle": -78.00221315140999
+    },
+    "glass": {
+      "x": 0.32051282051282054,
+      "y": 0.5595744680851064
+    }
+  },
+  "hashes": {
+    "master": "bd537e5550f41575ed60e99f85a0329d5825c25888353ab9814103103913a4b9",
+    "wide": "b9aa2b1f244de77f11a28e36e3ae5e359d5c04c356da930a37afbb9e3c51c84f",
+    "portrait": "9ee3be9f95eb50f49aeb9c6752131f24c3beec5b23b2b128a22918ca4d9b1263"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 955.4066985645933,
+          "y0": 392.936170212766,
+          "x1": 1301.0526315789475,
+          "y1": 816.8936170212766
+        },
+        "paper": {
+          "x0": 878.4688995215312,
+          "y0": 503.2340425531915,
+          "x1": 958.8516746411483,
+          "y1": 649.1489361702128
+        },
+        "bread": {
+          "x0": 1273.4928229665072,
+          "y0": 504.3829787234042,
+          "x1": 1559.4258373205741,
+          "y1": 741.0638297872341
+        },
+        "butterKnife": {
+          "x0": 1375.6937799043062,
+          "y0": 469.9148936170213,
+          "x1": 1789.090909090909,
+          "y1": 753.7021276595744
+        },
+        "linen": {
+          "x0": 1273.4928229665072,
+          "y0": 518.1702127659574,
+          "x1": 1891.2918660287082,
+          "y1": 795.063829787234
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 716.1722488038278,
+          "y0": 327.44680851063833,
+          "x1": 1004.2105263157896,
+          "y1": 680.7446808510638
+        },
+        "paper": {
+          "x0": 652.0574162679426,
+          "y0": 419.36170212765956,
+          "x1": 719.0430622009569,
+          "y1": 540.9574468085107
+        },
+        "bread": {
+          "x0": 981.2440191387559,
+          "y0": 420.3191489361702,
+          "x1": 1219.5215311004786,
+          "y1": 617.5531914893617
+        },
+        "butterKnife": {
+          "x0": 1066.4114832535886,
+          "y0": 391.59574468085106,
+          "x1": 1410.9090909090908,
+          "y1": 628.0851063829788
+        },
+        "linen": {
+          "x0": 981.2440191387559,
+          "y0": 431.8085106382979,
+          "x1": 1496.0765550239234,
+          "y1": 662.5531914893617
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1019.1004784688995,
+          "y0": 365.771914893617,
+          "x1": 1387.7894736842106,
+          "y1": 817.9931914893616
+        },
+        "paper": {
+          "x0": 937.0334928229665,
+          "y0": 483.4229787234043,
+          "x1": 1022.7751196172248,
+          "y1": 639.0655319148937
+        },
+        "bread": {
+          "x0": 1358.3923444976076,
+          "y0": 484.6485106382978,
+          "x1": 1663.3875598086124,
+          "y1": 737.108085106383
+        },
+        "butterKnife": {
+          "x0": 1467.4066985645934,
+          "y0": 447.88255319148936,
+          "x1": 1908.3636363636363,
+          "y1": 750.5889361702127
+        },
+        "linen": {
+          "x0": 1358.3923444976076,
+          "y0": 499.3548936170213,
+          "x1": 2017.377990430622,
+          "y1": 794.7080851063829
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1711.7703349282297,
+          "y0": 476.3106382978723,
+          "x1": 2331.0526315789475,
+          "y1": 1235.901063829787
+        },
+        "paper": {
+          "x0": 1573.9234449760766,
+          "y0": 673.9276595744681,
+          "x1": 1717.9425837320573,
+          "y1": 935.3585106382977
+        },
+        "bread": {
+          "x0": 2281.6746411483255,
+          "y0": 675.9861702127658,
+          "x1": 2793.971291866029,
+          "y1": 1100.0393617021277
+        },
+        "butterKnife": {
+          "x0": 2464.7846889952157,
+          "y0": 614.2308510638297,
+          "x1": 3205.4545454545455,
+          "y1": 1122.6829787234042
+        },
+        "linen": {
+          "x0": 2281.6746411483255,
+          "y0": 700.6882978723404,
+          "x1": 3388.5645933014353,
+          "y1": 1196.7893617021275
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0,
+        "y": 0.5595744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": 66.42993352326687,
+          "y0": 307.07234042553193,
+          "x1": 336.6381766381767,
+          "y1": 638.3872340425531
+        },
+        "paper": {
+          "x0": 6.283912630579298,
+          "y0": 393.268085106383,
+          "x1": 69.12303893637228,
+          "y1": 507.29787234042556
+        },
+        "bread": {
+          "x0": 315.09333333333336,
+          "y0": 394.1659574468085,
+          "x1": 538.6210826210827,
+          "y1": 579.1276595744681
+        },
+        "butterKnife": {
+          "x0": 394.9887939221273,
+          "y0": 367.22978723404253,
+          "x1": 718.1614434947769,
+          "y1": 589.0042553191489
+        },
+        "linen": {
+          "x0": 315.09333333333336,
+          "y0": 404.9404255319149,
+          "x1": 798.0569040835709,
+          "y1": 621.327659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0,
+        "y": 0.5595744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": 73.35627730294397,
+          "y0": 339.0893617021277,
+          "x1": 371.73789173789174,
+          "y1": 704.9489361702127
+        },
+        "paper": {
+          "x0": 6.939107312440646,
+          "y0": 434.2723404255319,
+          "x1": 76.3301804368471,
+          "y1": 560.1914893617022
+        },
+        "bread": {
+          "x0": 347.94666666666666,
+          "y0": 435.26382978723404,
+          "x1": 594.7806267806268,
+          "y1": 639.5106382978724
+        },
+        "butterKnife": {
+          "x0": 436.17245963912626,
+          "y0": 405.5191489361702,
+          "x1": 793.0408357075024,
+          "y1": 650.4170212765957
+        },
+        "linen": {
+          "x0": 347.94666666666666,
+          "y0": 447.16170212765957,
+          "x1": 881.2666286799621,
+          "y1": 686.1106382978724
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0,
+        "y": 0.5595744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": 44.706400759734095,
+          "y0": 206.65531914893617,
+          "x1": 226.55270655270655,
+          "y1": 429.6255319148936
+        },
+        "paper": {
+          "x0": 4.228983855650522,
+          "y0": 264.663829787234,
+          "x1": 46.51882241215575,
+          "y1": 341.40425531914894
+        },
+        "bread": {
+          "x0": 212.05333333333334,
+          "y0": 265.26808510638296,
+          "x1": 362.4843304843305,
+          "y1": 389.74468085106383
+        },
+        "butterKnife": {
+          "x0": 265.8218423551757,
+          "y0": 247.1404255319149,
+          "x1": 483.312440645774,
+          "y1": 396.39148936170216
+        },
+        "linen": {
+          "x0": 212.05333333333334,
+          "y0": 272.5191489361702,
+          "x1": 537.0809496676164,
+          "y1": 418.1446808510638
+        }
+      }
+    }
+  ]
+}

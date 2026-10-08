@@ -1,0 +1,5 @@
+# Whatever They Call It — root original inspection
+
+Actual original1672×941 root-inspected. Clearcolourless tequila-soda, threeapparentcubes/one oregano laidacrossupperice/no citrus/sugar/garnishrim/foamhead. Empty-lookingchippedmug+repairedcanvaspurse wholevisibleformatrecognise but mugleft/basepartlyhidden and unseenextentunknown. Mug sourceexplicit, purse authorhabit inference not literalpossession orpersonalityproof. Glass423px/full534px/recogn531px,702portrait fits visiblegroup only, not389movingphone. Tag112pxpaper<209body,106pxaxis: lowerbodyloop/frontcurve/sideocclusion→rightknot→shorttether→realhole, paperdownright/outboard/tablecontact. Rearfriction/knotload/threaddepth/localoverlap unproven, notphysicsPASS. Tableuniformcracklegloss/amberplusetchedgranularice held, brightcoolleftwindowsecond-sourcewatch. NoJPEG/browser/finalacceptance; source unchanged/initialsoleedit preserved.
+
+Disposition: HOLD-material/phone; second-light/mug-purse-specificity/ice-count/tag-load-watch; name-unverified.

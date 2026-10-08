@@ -1,0 +1,5 @@
+# For Its Own Good — private provenance
+
+2026-10-08. Three built-in image calls: fresh wide, portrait referenced to wide, then fresh portrait correction. Exact sources for current comparison pair are in provisional geometry files. Third source: /Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-f5d3528b-708e-451d-9235-b232f5f42ae5.png, preserved as portrait-correction.png. REJECTED: the binder has excess closed rings with pages still attached, so the intended dismantled action is lost; bottom glass also became patterned. Do not select it merely because objects are more central.
+
+Root personally viewed all three originals at original size. No fresh hashes/header checks run. Complete 200-line dossier, spec and full431-line closed room read; sources/recipes untouched. Bag/binder are plausible inferred contemporary traces, not historical facts. Current pair still has clipped lateral props, heavy gold sheen/raised timber wear and saturated drink appearance. Ring-open action and name/tag load unproven. Material/personality/physics/name/phone/user/editorial gates CLOSED. Three-call pairing ceiling reached.

@@ -1,0 +1,202 @@
+{
+  "pairing": "jester-outlaw",
+  "pour": "Quote Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-outlaw/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-13fa0c15-1beb-4f9f-8b26-0025efbe6e94.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "34cbbb47b3e92caeefdb0568bba95ecd632611bba5a77a8df43b82014e412e7c",
+  "sourceSha256": "f8773e8b98bb77c15225b67dbfc21e3d944b34c253ebbc64f3c996252acd3a2e",
+  "specSha256": "7f5485f4edccae8a156ef359801a8e409615a8a51bd424e4289bb9f6680bf97c",
+  "roomSha256": "ca0ced5d4f1c9855ce24c153e932e367247edd2fe3d7b75239e11e1b82db843d",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    795,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1156,
+    "cy": 667,
+    "w": 88,
+    "angle": 73
+  },
+  "glass": {
+    "x": 1016,
+    "y": 522
+  },
+  "bounds": {
+    "glass": {
+      "x0": 842,
+      "y0": 332,
+      "x1": 1184,
+      "y1": 708
+    },
+    "paper": {
+      "x0": 1098,
+      "y0": 598,
+      "x1": 1205,
+      "y1": 719
+    }
+  },
+  "personalityBounds": {
+    "starterPlate": {
+      "x0": 450,
+      "y0": 425,
+      "x1": 868,
+      "y1": 535
+    },
+    "putDownFork": {
+      "x0": 512,
+      "y0": 405,
+      "x1": 852,
+      "y1": 493
+    },
+    "coat": {
+      "x0": 877,
+      "y0": 123,
+      "x1": 1579,
+      "y1": 481
+    }
+  },
+  "recognitionRegions": {
+    "interruptedStarter": {
+      "x0": 450,
+      "y0": 405,
+      "x1": 868,
+      "y1": 535
+    },
+    "coat": {
+      "x0": 886,
+      "y0": 128,
+      "x1": 1570,
+      "y1": 478
+    }
+  },
+  "supportingBounds": {
+    "servedOrangePeel": {
+      "x0": 878,
+      "y0": 453,
+      "x1": 1132,
+      "y1": 645
+    },
+    "stillLiquid": {
+      "x0": 858,
+      "y0": 421,
+      "x1": 1168,
+      "y1": 665
+    },
+    "bodyTwineLoop": {
+      "x0": 849,
+      "y0": 571,
+      "x1": 1165,
+      "y1": 608
+    },
+    "downwardTether": {
+      "x0": 1119,
+      "y0": 597,
+      "x1": 1139,
+      "y1": 623
+    }
+  },
+  "physicalRecognitionRegions": {
+    "servedOrangePeel": {
+      "x0": 878,
+      "y0": 453,
+      "x1": 1132,
+      "y1": 645
+    },
+    "ice": null
+  },
+  "garnishBounds": {
+    "servedOrangePeel": {
+      "x0": 878,
+      "y0": 453,
+      "x1": 1132,
+      "y1": 645
+    }
+  },
+  "iceBounds": null,
+  "visibility": {
+    "coat": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Lower folded fabric partly occluded by chair/glass. Unknown hidden extent; full visible silhouette measured, not a button-only box."
+    },
+    "starterPlate": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null
+    },
+    "putDownFork": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null
+    },
+    "servedOrangePeel": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Full visible strip including both visible ends measured; lower/refracted portions cannot establish hidden extent."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Snug low exterior circumferential tumbler-body twine loop, visible front curve and side occlusion; not a rim tie.",
+    "anchorBounds": {
+      "x0": 849,
+      "y0": 571,
+      "x1": 1165,
+      "y1": 608
+    },
+    "knotPoint": {
+      "x": 1108,
+      "y": 591
+    },
+    "holePoint": {
+      "x": 1134,
+      "y": 618
+    },
+    "knot": "Visible small side bow/knot; rear closure/load and circumferential friction not proven.",
+    "tether": "Short visible downward cord from side knot to paper hole.",
+    "hole": "Punched hole visible with cord passing through.",
+    "gravity": "Paper main body below attachment, hanging at a slight slant.",
+    "airGap": "Broad paper face mostly beside glass, separated; upper paper/string contact locally uncertain.",
+    "contact": "Lower paper corner appears to rest on wood with shadow; exact load sharing unknown.",
+    "occlusion": "Rear loop hidden by glass/drink; front path visible.",
+    "uncertainties": [
+      "Rear loop continuity/load unverified",
+      "Knot tension/friction cannot be proved from photograph",
+      "Upper paper-to-glass separation and bottom load sharing partly uncertain"
+    ],
+    "status": "Plausible front attachment chain; not physics PASS."
+  },
+  "recognitionUnionWidth": 1130,
+  "cropAssessment": {
+    "portrait": "Proposed crop retains complete glass, blank paper and served peel. Plate/fork and outer coat silhouette are cropped; cannot claim full two-trace equivalence.",
+    "movingPhone": "Conservative personality union exceeds ~389px inner moving-phone width. No browser or phone PASS."
+  },
+  "review": {
+    "recipe": "One plain heavy freezer-chilled small tumbler, clear still amber drink and one orange peel inside; no serving ice/foam/rim. Frost/dense tiny bright spots and warmer/higher-looking fill remain uncertainty; exact 111.6ml cannot be established photographically.",
+    "personality": "Used starter plate with put-down fork and ordinary coat are source-grounded visual inferences. Both recognizable in master but broad; scene does not prove gasp, truthful question, or private agreement.",
+    "world": "Historic dark reading-room bar, small ivory paper and actual lamp. Timber remains warm glossy with dense fine scuffs/cross-grain texture rather than target quiet neutral low-satin flat surface.",
+    "issues": [
+      "Personality grouping still much wider than phone-safe target",
+      "Proposed portrait truncates substantial trace extents",
+      "Glossy warm timber and dense scratch texture",
+      "Busy thaw/frost and tiny liquid/glass spots may suggest excess bubbles",
+      "Fill reads high relative to halfway target",
+      "Rear tag loop/load and contact uncertain",
+      "Source label ABV/sugar/allergen warning retained"
+    ]
+  },
+  "status": "Held measured candidate; no export/browser/material/name-fit acceptance."
+}

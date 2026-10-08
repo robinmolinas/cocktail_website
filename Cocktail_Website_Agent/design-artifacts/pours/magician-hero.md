@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 ## Cocktail
 
 - **name:** Worth the Trade
-- **tagline:** Everyone remembers that you saved it. You remember what you had to change.
+- **tagline:** You know what has to change to save what matters.
 - **glassware:** old-fashioned glass (rocks glass, about 300 ml), one large ice cube
 - **contains:** `[]`
 
@@ -199,7 +199,7 @@ Registry and pours grepped: none of the four names is taken, and "trade" appears
 Wren's title-block notes:
 
 **name (pick):** Still There
-**tagline:** Everyone remembers that you saved it. You remember what you had to change.
+**tagline:** You know what has to change to save what matters.
 **closingLine (Tomás, ruled by Wren):** *Keep the quarter of Folle Blanche, however small it looks. Once it's safe, find a place again for what you had to give up.*
 **epigraph:** *Cognac was replanted on a rootstock from Texas. The grape that couldn't follow is here too.*
 

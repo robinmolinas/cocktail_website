@@ -1,0 +1,173 @@
+{
+  "pairing": "lover-creator",
+  "pour": "In Your Own Hand",
+  "sourceSha256": "63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78",
+  "specSha256": "4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898",
+  "roomSha256": "a2743a7fa252cf33ca11ac4b66f551dcff12ea2a6e782797822eee516d4b9882",
+  "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "version": "v3",
+  "measurementMethod": "Conservative visual estimates at native original resolution, no physical-volume/name/phone acceptance.",
+  "orientation": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-creator/v3/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-79b99113-222d-462f-a6ae-6785dfebbe86.png",
+  "masterSha256": "56f8f3bd6881b490fdf28c51e6f30273876c1466d963c9ec2a7705aa5066e906",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "wideCrop": [
+    0,
+    445,
+    1084,
+    610
+  ],
+  "portraitCrop": [
+    0,
+    0,
+    1084,
+    1451
+  ],
+  "crossOrientationCropIntended": false,
+  "tag": {
+    "cx": 511,
+    "cy": 937,
+    "w": 72,
+    "angle": 74
+  },
+  "glass": {
+    "x": 475,
+    "y": 853
+  },
+  "bounds": {
+    "glass": {
+      "x0": 357,
+      "y0": 642,
+      "x1": 589,
+      "y1": 1064
+    },
+    "paper": {
+      "x0": 473,
+      "y0": 883,
+      "x1": 548,
+      "y1": 983
+    },
+    "secondGlass": {
+      "x0": 565,
+      "y0": 604,
+      "x1": 760,
+      "y1": 959
+    },
+    "heroCoarseSugarRim": {
+      "x0": 357,
+      "y0": 642,
+      "x1": 589,
+      "y1": 691
+    },
+    "secondCoarseSugarRim": {
+      "x0": 565,
+      "y0": 604,
+      "x1": 760,
+      "y1": 651
+    }
+  },
+  "personBounds": {
+    "unfinishedPaintedPiece": {
+      "x0": 740,
+      "y0": 590,
+      "x1": 1084,
+      "y1": 946
+    },
+    "usedBrush": {
+      "x0": 677,
+      "y0": 861,
+      "x1": 1041,
+      "y1": 1029
+    }
+  },
+  "recognitionRegions": {
+    "unfinishedPaintedPiece": {
+      "x0": 759,
+      "y0": 604,
+      "x1": 1049,
+      "y1": 930
+    },
+    "usedBrush": {
+      "x0": 677,
+      "y0": 861,
+      "x1": 1041,
+      "y1": 1029
+    },
+    "secondFullServe": {
+      "x0": 565,
+      "y0": 604,
+      "x1": 760,
+      "y1": 959
+    },
+    "heroSugar": {
+      "x0": 357,
+      "y0": 642,
+      "x1": 589,
+      "y1": 691
+    },
+    "secondSugar": {
+      "x0": 565,
+      "y0": 604,
+      "x1": 760,
+      "y1": 651
+    }
+  },
+  "unknownExtents": {
+    "unfinishedPieceOutsideRaster": null,
+    "unfinishedPiecePosterior": null,
+    "actualGlassCapacity": null,
+    "coarseSugarInnerLipCleanliness": null
+  },
+  "group": {
+    "fullBounds": {
+      "x0": 357,
+      "y0": 590,
+      "x1": 1084,
+      "y1": 1064
+    },
+    "recognitionBounds": {
+      "x0": 357,
+      "y0": 604,
+      "x1": 1049,
+      "y1": 1064
+    },
+    "fullWidth": 727,
+    "recognitionWidth": 692,
+    "physicalServeBoundsIncludingAllPhysicalObjects": {
+      "x0": 357,
+      "y0": 604,
+      "x1": 760,
+      "y1": 1064
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Visible pale tan doubled stem turns y867–879; not one hair-thin turn.",
+    "knot": "Tiny knot at486,879.",
+    "tether": "Short downward tohole495,902,about25px.",
+    "hole": "Visiblehole495,902.",
+    "gravity": "Paper hangs down/right outboard.",
+    "airgap": "Visible stem/paper clearance below attachment.",
+    "contact": "No tabletop contact.",
+    "uncertainty": [
+      "Multiple strands/turns remain",
+      "Rear/load unknown"
+    ],
+    "assessment": "Gravity/free paper plausible; single-turn rule held, no acceptance."
+  },
+  "review": {
+    "recipe": "Dedicated same two sugared orange-gold serves, smaller in frame421/355px tall, no serving ice/garnish. Smooth narrow round cocktail bowls; exact capacities/outside-only purity not proven.",
+    "personality": "Whole brush and unfinished small board recognizable; board right/top edge touches raster, broad beside glasses rather than overlapped behind, not inner cover-safe proof.",
+    "world": "Neutral shadows/plain long-grain timber improved fromv2 but warm directional reflection/window fill visible; bowls still speckled.",
+    "issues": [
+      "Full727/recogn692px width in1084 not compact innerphone proof",
+      "Part board native right edge unknown",
+      "Multiturn stem attachment",
+      "Cool window visible extra light source",
+      "Exact serving geometry/name/browser unresolved"
+    ]
+  }
+}

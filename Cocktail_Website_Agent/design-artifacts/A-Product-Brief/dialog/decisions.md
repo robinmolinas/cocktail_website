@@ -1,3 +1,5 @@
+> **Discovery history — reviewed 8 October 2026.** This records the original June discussion; completed discovery is preserved. Retired ink-quiz details and older constraints do not override later decisions. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # Key Decisions Log
 
 **Project:** Dionysus
@@ -209,5 +211,3 @@ All strategic discovery steps (Vision, Users, Concept, Metrics, Competitive Land
 **Brief generated:** `design-artifacts/A-Product-Brief/project-brief.md`
 
 **Completion:** 2026-06-11
-
-

@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 ## Cocktail
 
 - **name:** By Design
-- **tagline:** Everyone knows the effect you have. Almost nobody knows you designed it.
+- **tagline:** Your charm has an author, and it's you.
 - **glassware:** cocktail glass, chilled
 - **contains:** `[]`
 
@@ -181,7 +181,7 @@ My pick (held to the vote): **Final Cut**. In film, the final cut is the right t
 Wren's title-block notes:
 
 - **Name (my pick, held to the vote):** By Design
-- **Tagline:** Everyone knows the effect you have. Almost nobody knows you designed it.
+- **Tagline:** Your charm has an author, and it's you.
 - **Epigraph:** Named in Havana for America's Sweetheart. This one's for the one behind the curls.
 - **"This is me" line:** People fall for what you made. Very few ask to meet the one who made it.
 

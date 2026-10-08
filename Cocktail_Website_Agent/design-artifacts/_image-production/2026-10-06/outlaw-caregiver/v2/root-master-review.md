@@ -1,0 +1,5 @@
+# In One Piece — root original inspection
+
+Actual selectedoriginal1672×941 root-inspected. Palegold icedhighball, apparentcontinuous yellowlemonspiral inside withshort rimhook is SOURCEgarnish, nottagattachment. Spiral staysinglass no magicaltabletail. Bodytagloop belowrim atmidbody/rightknot/downwardtether/punchedhole visible; smallpaper63pxwidth<194body, freehangingabovetable, mostpaperoutboard. Diagonalfrontarc/farside/intersection/tinyknotload unresolved; notphysicsPASS. Glass431px/full586px/recogn566px, proposed702portrait retains visiblechair/coat/drink/tag, not389movingphone. Chair source-explicitunstackedroomkeptopen, foldedcoat ordinaryquietcare inference; recognizablecollar/seat but not independentpersonalityproof. Occludedlowerchair/coatgeometry unknown notfullhiddenobjectmeasurement. Woodgloss/amberstronggrain/densebubbles/ice remainheld. NoJPEG/browser/material/name/finalacceptance; recipeunchanged, bothimagespreserved.
+
+Disposition: HOLD-material/phone; dense-ice/bubbles/trace-specificity/sloping-tag-loop-watch; name-unverified.

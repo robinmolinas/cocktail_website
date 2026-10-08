@@ -12,6 +12,7 @@
 // Keep it in sync with that file, and keep primary/secondary on Creator × Hero
 // or the reading will open on a scene built for a different drink.
 import type { CocktailResult } from '../types';
+import visionaryPour from '../../shared/data/pours/creator-hero.json';
 
 /** The Visionary (Creator × Hero), "Down the Line" — the approved pour. */
 export const VISIONARY_SAMPLE: CocktailResult = {
@@ -24,7 +25,7 @@ export const VISIONARY_SAMPLE: CocktailResult = {
     'Like the giant, not finished, Sagrada Familia, the Visionary has a dream that transcends the ordinary. Their pursuit of an iconic vision drives them, and even though the end may seem far away, their belief never wavers. The Visionary sees beyond what others can imagine and strives to bring that vision into existence, creating monumental works that stand the test of time.',
   primary: 'Creator',
   secondary: 'Hero',
-  tagline: 'The dream is yours. Everyone else is building on it.',
+  tagline: visionaryPour.cocktail.tagline,
   glassware: 'tall glass (a highball or Collins glass), no ice',
   flavorArc: 'citrus and cream shaken into a snowy white cloud, lifted with soda',
   colorName: 'Galliano Gold',

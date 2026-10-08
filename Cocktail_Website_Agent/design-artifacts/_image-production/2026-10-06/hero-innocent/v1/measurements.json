@@ -1,0 +1,142 @@
+{
+  "pairing": "hero-innocent",
+  "pour": "Work It Out",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-63f4701c-22c1-4b33-84b2-2f96381a191c.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "d8bf43c92d4176888f736ce4c76ded16c0127d5a51cb79d3ac93b9a6b2319b43",
+  "sourceSha256": "91442476a4781133587bcc71dfbca2337444459993940d774fc3e63567aac4b6",
+  "specSha256": "23c1007beb037df6d891ee079bab110b8eb319862f35036805db0b47ce417ffc",
+  "roomSha256": "48593eef515fc89c7ef8030f21765e768a57db36e43e7c744e18ee636911d254",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    620,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1322,
+    "cy": 764,
+    "w": 112,
+    "angle": 58
+  },
+  "glass": {
+    "x": 1109,
+    "y": 484
+  },
+  "bounds": {
+    "glass": {
+      "x0": 938,
+      "y0": 175,
+      "x1": 1275,
+      "y1": 790
+    },
+    "paper": {
+      "x0": 1244,
+      "y0": 675,
+      "x1": 1399,
+      "y1": 829
+    },
+    "practiceSample": {
+      "x0": 628,
+      "y0": 412,
+      "x1": 961,
+      "y1": 675
+    },
+    "pencil": {
+      "x0": 647,
+      "y0": 386,
+      "x1": 925,
+      "y1": 460
+    },
+    "physicalGarnish": {
+      "x0": 952,
+      "y0": 132,
+      "x1": 1269,
+      "y1": 248
+    },
+    "ice": {
+      "x0": 945,
+      "y0": 145,
+      "x1": 1260,
+      "y1": 652
+    }
+  },
+  "hiddenExtents": {"practiceSample": null, "pencil": null, "ice": null, "physicalGarnish": null, "paperUnderside": null},
+  "recognitionRegions": {
+    "practiceSample": {
+      "bounds": {
+        "x0": 746,
+        "y0": 478,
+        "x1": 945,
+        "y1": 674
+      },
+      "reason": "Visible fitted corner/finger joint gives joinery identity; tentative feedback narrative/ownership not visible fact."
+    },
+    "pencil": {
+      "bounds": {
+        "x0": 647,
+        "y0": 386,
+        "x1": 925,
+        "y1": 460
+      },
+      "reason": "Tip, wooden sharpened end and graphite pencil body all recognizable."
+    }
+  },
+  "objectVisibility": {
+    "practiceSample": "Visible silhouette only, rear/behind-glass extent unknown.",
+    "pencil": "Visible outline complete; underside hidden.",
+    "physicalGarnish": "Single visible broad orange strip; underside hidden.",
+    "ice": "Visible ice extent includes projecting top; occluded below liquid/behind glass unknown."
+  },
+  "supportingObjectUnion": {
+    "x0": 628,
+    "y0": 132,
+    "x1": 1269,
+    "y1": 675
+  },
+  "essentialObjectUnion": {
+    "x0": 628,
+    "y0": 132,
+    "x1": 1399,
+    "y1": 829
+  },
+  "tagPhysics": {
+    "mechanism": "Subdued taupe/brown loop low at clear-foot transition, curved front arc and side occlusion; exterior rather than rim.",
+    "knot": "Small right junction near1254,655; local depth uncertain.",
+    "tetherAndHole": "Short downward connection enters punched hole at paper upper-left; stacked knot strands prevent independently tracing every strand.",
+    "gravity": "Paper slants downward from support.",
+    "paperSeparationOrContact": "Outboard lower paper separated from glass, bottom rests timber with contact shadow; upper gap near knot tiny.",
+    "uncertainties": [
+      "Hidden rear closure",
+      "Loop friction and actual knot load",
+      "Tiny local attachment topology/upper gap",
+      "Actual glyph/name fit"
+    ],
+    "status": "Support intent visually plausible; not physics PASS."
+  },
+  "review": {
+    "recipe": "Tall ice-filled savoury serve, hazy amber-brown liquid, thin froth and one orange strip present; actual flavour/volumes not visually verifiable. Bright amber clear areas are an appearance watch.",
+    "personality": "Practice sample and pencil distinct recognizable inferred learning/reworking habits, not source-asserted occupation. Drawn lines/symbolic diagram-like marks on sample remain a pseudo-writing/anti-AI HOLD.",
+    "world": "Historic room and warm right practical present, but glass/ice dense/sparkly and wood glossy blanket patterned rather than flat neutral satin.",
+    "issues": [
+      "Pseudo-diagram/marks on sample remain",
+      "Dense etched-looking ice/condensation",
+      "Glossy amber patterned wood",
+      "Glass height exceeds300–360px intent",
+      "Full and recognizable group exceed389px moving-phone window; proposed702crop not phone approval",
+      "Tag small/name glyphs untested",
+      "Person narrative specificity inferred",
+      "Physics rear/load/friction/topology pending"
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "pairing": "jester-regular-guy",
+  "pour": "Is It Just Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-d1cb303a-fae9-40e1-bafb-fa8db92010ad.png",
+  "masterSha256": "dc9fc8c19f7460c20a473f82f999518f792b75827638e40c82da8052e1a29fe0",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "cd9b909ee55d60451ba39fdb2c02b4115f53b4001deac21cf957bd1d73f3010d",
+  "specSha256": "46084d90c084171eb83263afb9ca961ace6ef705273a016f1462be70ae2a3f9f",
+  "roomSha256": "b1f6ac35f7f57de07d59fa51deaf64c6e69c6213b4f22fda97ee07e571b9796c",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    740,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1124,
+    "cy": 720,
+    "w": 43,
+    "angle": 67
+  },
+  "glass": {
+    "x": 1090,
+    "y": 558
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1031,
+      "y0": 479,
+      "x1": 1153,
+      "y1": 756
+    },
+    "paper": {
+      "x0": 1088,
+      "y0": 675,
+      "x1": 1153,
+      "y1": 750
+    }
+  },
+  "personalityBounds": {
+    "keyring": {
+      "x0": 867,
+      "y0": 578,
+      "x1": 1017,
+      "y1": 660
+    },
+    "foldedLinen": {
+      "x0": 809,
+      "y0": 565,
+      "x1": 1082,
+      "y1": 679
+    }
+  },
+  "recognitionRegions": {
+    "keyring": {
+      "x0": 867,
+      "y0": 578,
+      "x1": 1017,
+      "y1": 660
+    },
+    "foldedLinen": {
+      "x0": 809,
+      "y0": 565,
+      "x1": 1082,
+      "y1": 679
+    }
+  },
+  "supportingBounds": {
+    "beerGlass": {
+      "x0": 1160,
+      "y0": 352,
+      "x1": 1316,
+      "y1": 727
+    },
+    "beerMat": {
+      "x0": 1151,
+      "y0": 694,
+      "x1": 1331,
+      "y1": 734
+    },
+    "beerLiquid": {
+      "x0": 1164,
+      "y0": 409,
+      "x1": 1312,
+      "y1": 685
+    },
+    "beerFoam": {
+      "x0": 1162,
+      "y0": 379,
+      "x1": 1314,
+      "y1": 414
+    },
+    "ryeLiquid": {
+      "x0": 1034,
+      "y0": 550,
+      "x1": 1150,
+      "y1": 632
+    },
+    "cord": {
+      "x0": 1081,
+      "y0": 639,
+      "x1": 1110,
+      "y1": 692
+    }
+  },
+  "physicalRecognitionRegions": {
+    "wholeUnmixedPair": {
+      "x0": 1031,
+      "y0": 352,
+      "x1": 1331,
+      "y1": 756
+    },
+    "beerFoam": {
+      "x0": 1162,
+      "y0": 379,
+      "x1": 1314,
+      "y1": 414
+    },
+    "beerMat": {
+      "x0": 1151,
+      "y0": 694,
+      "x1": 1331,
+      "y1": 734
+    }
+  },
+  "visibility": {
+    "keyring": {
+      "masterClipped": false,
+      "occluded": false,
+      "unseenExtent": null
+    },
+    "foldedLinen": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Rye obscures right rear fold; hidden extent not invented."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Stem below bowl supports small taupe descending V-like chain into punched-hole paper.",
+    "anchorBounds": {
+      "x0": 1081,
+      "y0": 639,
+      "x1": 1105,
+      "y1": 674
+    },
+    "knotPoint": {
+      "x": 1099,
+      "y": 672
+    },
+    "holePoint": {
+      "x": 1106,
+      "y": 686
+    },
+    "knot": "Tiny front crossing, true snug tied knot unclear.",
+    "tether": "Shortened front doubled V, not long bright bow; whole stem loop not discernible.",
+    "hole": "Punched hole with cord entry visible.",
+    "gravity": "Paper below stem attachment, bottom at timber/foot.",
+    "airGap": "Face outboard bowl, overlaps foot in projection.",
+    "contact": "Lower edge near timber; whether paper contacts wood or foot not proven.",
+    "occlusion": "Rear stem loop closure invisible.",
+    "uncertainties": [
+      "Rear loop and knot/load unknown",
+      "Doubled V front rather than verified single loop",
+      "Paper/foot/timber load/contact ambiguous"
+    ],
+    "status": "Held, not physics PASS"
+  },
+  "recognitionUnionWidth": 522,
+  "cropAssessment": {
+    "portrait": "702px proposal retains both complete vessels/beer foam/mat/paper and substantial whole keys+linen. This source crop has69px left and111px right union clearance, but full portrait is NOT moving389px phone; union522px remains held.",
+    "movingPhone": "Whole recognition union522px; no phone PASS."
+  },
+  "review": {
+    "recipe": "ONE serving/TWO unmixed vessels retained: amber rye in small stem glass, pale clear cold pilsner with white finger foam. No ice/fruit/garnish/dropped glass. Beer375px tall, rye277px; capacity/45ml absolute not provable. Rye retains speckle-like highlights, stillness appearance hold rather than confirmed carbonation.",
+    "personality": "Whole recognizable keyring on folded dinner linen now compact in depth. Key-checking habit explicit in closed room; physical keyring inferred. Linen ownership inferred from ordinary dinner/waiter scene, weaker specificity. Whole union522px exceeds moving-phone389px target.",
+    "world": "Pulled-back historic reading-room world. Orange glossy crackled table, window+lamp+candle multiple-light appearance and busy left chairs/window remain held; beer dense repetitive droplets.",
+    "issues": [
+      "Rye speckle/highlight stillness appearance held",
+      "Beer dense uniform droplets; capacity/fill absolute cannot be proved",
+      "Whole union522px, not moving389px phone-safe",
+      "Glossy amber crackled timber and multiple-light/window appearance",
+      "Tag small43px writing axis; actual name-fit deferred, do not inflate",
+      "Stem rear loop/knot load and paper-foot contact unknown",
+      "Linen ownership/personality specificity inferred"
+    ]
+  },
+  "status": "Held native candidate; not exported or accepted."
+}

@@ -1,0 +1,706 @@
+[
+  {
+    "pairing": "lover-jester",
+    "version": "v3",
+    "measurement": "design-artifacts/_image-production/2026-10-06/lover-jester/v3/measurements.json",
+    "previousSourceSha256": "b4094aba1d3f9b28a3e33edb86118d20e940b8f1a57e8f2cb2cbe05c65bce13b",
+    "currentSourceSha256": "b4094aba1d3f9b28a3e33edb86118d20e940b8f1a57e8f2cb2cbe05c65bce13b",
+    "masterSha256": "ae238ce88ef5db724fc2da4918d3ec90d74ef49d0650b9c58833527a46767326"
+  },
+  {
+    "pairing": "sage-outlaw",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/sage-outlaw/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "b461e0ab25ddf5cb1629ce0c82354b400ebd072617aa6502f69a439c8a84aeda",
+    "currentSourceSha256": "dbff5f1ba68e4bec575a0c7bffdac5fa9f08ad1bdbdc4c0e0f0efa601669b15e",
+    "masterSha256": "d895bf20253d319d7b9ccd8235f31b15aa7e702b77405cc922ba9a03b7128e33"
+  },
+  {
+    "pairing": "innocent-lover",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/innocent-lover/v2/measurements.json",
+    "previousSourceSha256": "eafd8c6b9918b2526c6a07f09f966f4dd26b0b56385f8c82d0de0fb78e1e9910",
+    "currentSourceSha256": "eafd8c6b9918b2526c6a07f09f966f4dd26b0b56385f8c82d0de0fb78e1e9910",
+    "masterSha256": "7eff829d08a738c0c3663a201ab4efe7351930b179f03b4a866399d022f13941"
+  },
+  {
+    "pairing": "explorer-outlaw",
+    "version": "v4",
+    "measurement": "design-artifacts/_image-production/2026-10-06/explorer-outlaw/v4/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "2e4b84294914bed5ffb1f0728b03fd603fe7a6d5b02e8710c8fdcf79f1aaf97c",
+    "currentSourceSha256": "6ceac0749240c357345f239128426a07a06d3e6a261746c842c4d56ebce8424e",
+    "masterSha256": "4809197137871f86254f8f71806429c46af2c4bcb7e161375387f43d344e90c7"
+  },
+  {
+    "pairing": "innocent-outlaw",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/innocent-outlaw/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "c33461857c7e996d4a8c580b0d26b18ac1e184759ff522dc992997cec7dc28a2",
+    "currentSourceSha256": "316998b7f12ba0dda9fefe04abc37aa5d33b8bbc720edae859dadb591ad2aa88",
+    "masterSha256": "9c5526163efa7a4a092ca511fd2cc61992d24b489133a1202ab73fd5ad4689fe"
+  },
+  {
+    "pairing": "outlaw-explorer",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-explorer/v2/measurements.json",
+    "previousSourceSha256": "aa6033466d1f9f74208e31a32a8feb7d9f218f8fe47e428aa1599265cac31f86",
+    "currentSourceSha256": "aa6033466d1f9f74208e31a32a8feb7d9f218f8fe47e428aa1599265cac31f86",
+    "masterSha256": "9322814bbfe6969e10893572a1924a0b56101176d19251bd058808b384f7e891"
+  },
+  {
+    "pairing": "regular-guy-ruler",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-ruler/v2/measurements.json",
+    "previousSourceSha256": "d2d94c473eb6a2f4de5d60f45b1c7a7f3ffbca723e47ded44898d21a72cf65a3",
+    "currentSourceSha256": "d2d94c473eb6a2f4de5d60f45b1c7a7f3ffbca723e47ded44898d21a72cf65a3",
+    "masterSha256": "55ce434e202c23596d7dfd1b5a76e74e39b7581ca4379d75813b03a3eb31b456"
+  },
+  {
+    "pairing": "hero-explorer",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/hero-explorer/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "dbd8338afefaff3a1f8f60fd09ac0e622fbb327e1e90f13404d7bc3c1e6121e3",
+    "currentSourceSha256": "5b5ed774dcae580edb7e9c92257dd9370d1f453c1db60347846855c7016005cf",
+    "masterSha256": "6d5e9da96c4cc8770a099cb483516536b10feecd616fb397c27396dd3b4e2e04"
+  },
+  {
+    "pairing": "lover-outlaw",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/lover-outlaw/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "886e1317e0757311d8208ee465121d9b4b8dfede23a6b49379ae78f14dd3217a",
+    "currentSourceSha256": "94ab287598e315d4d68aa66e63cd14045d409b6422d7ca8e5ea95871db76d2ad",
+    "masterSha256": "1a1b5052382e69d3de26fa2134a01b3aff12e7bd45c5c640626e95b79a57a782"
+  },
+  {
+    "pairing": "sage-magician",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/sage-magician/v2/measurements.json",
+    "previousSourceSha256": "69fa19e99136ba47bcd1dae293e2ab75ed61b91731d655c88ff9e0be53f5feca",
+    "currentSourceSha256": "69fa19e99136ba47bcd1dae293e2ab75ed61b91731d655c88ff9e0be53f5feca",
+    "masterSha256": "120e42c7bc0a619d898ec555f64b150d5a1cffedbc918a9f36f35a9f621b84b9"
+  },
+  {
+    "pairing": "magician-sage",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/magician-sage/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "d765643fd671fa54a210382c790ca860669fa8c595980f8c99b3237d8430afa3",
+    "currentSourceSha256": "cac810a6b34aa0d4a06352c346bf30f2e801e7ce273c00a63b0368f4d8bf19f4",
+    "masterSha256": "073fc0a752aeb7e3c0d22d09aff669296b637efbdc90dc8271e6648a05840101"
+  },
+  {
+    "pairing": "regular-guy-creator",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-creator/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "6ee63b65ec785010650bcc36196bbcbc717b062c8dfd9ab5a99bf21f6f1fa565",
+    "currentSourceSha256": "34251fe903c4acac25671f6379fd0a1aa13c1ea11da95de084189127f40f3ddb",
+    "masterSha256": "1db1d0aecc46265362f47c4e60adfe2b1f8dd3d9d6b8509d51a47cfc8c0e40dd"
+  },
+  {
+    "pairing": "outlaw-innocent",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-innocent/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "4d826a6d73e4167cde3b99967ead209a59eb381d2be9eac82efc91e9eb9d3173",
+    "currentSourceSha256": "f02d0031e64cde7f622e4352ce4ef131fe3d3f50178fc677e3001ec16b1aee91",
+    "masterSha256": "0841d19afe4dc30e061512f97e2019ebfc22ea3148f3e8e824d2954fbab9012e"
+  },
+  {
+    "pairing": "ruler-hero",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-hero/v2/measurements.json",
+    "previousSourceSha256": "40324372156f2054212c7f0cb4561aab8d11fb9233e141b9575d172958f72e28",
+    "currentSourceSha256": "40324372156f2054212c7f0cb4561aab8d11fb9233e141b9575d172958f72e28",
+    "masterSha256": "701ae0f7be82037cd24094fe4c7b25647b27f038a9852010f8722cbbaed697d7"
+  },
+  {
+    "pairing": "lover-innocent",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/lover-innocent/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "4c0ed8d3df2030fdd30838f24b13bbb345dad7db90bf4176fc3800fcb5d84f1a",
+    "currentSourceSha256": "ac8a52ca5dd25b897823b426ae29e06493fe170eaef2a12af83c21f2bd0ff303",
+    "masterSha256": "6a4d4cfde6cd65bd14332917ae55d1438618134f235c95333ae8b9f319252335"
+  },
+  {
+    "pairing": "sage-creator",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/sage-creator/v2/measurements.json",
+    "previousSourceSha256": "1f6f922190e27c724a248586df74e799cc7e3c33faccc84ce46ed960effa70fa",
+    "currentSourceSha256": "1f6f922190e27c724a248586df74e799cc7e3c33faccc84ce46ed960effa70fa",
+    "masterSha256": "ff41410a2aaee9000caa2bb4ec6344dbc42c2947b8f2fd6fda8e0136db211653"
+  },
+  {
+    "pairing": "hero-outlaw",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/hero-outlaw/v2/measurements.json",
+    "previousSourceSha256": "10913c8471b031a78342c8a791f8a3d1de018fcc17ccaaa836a32e6751fcca59",
+    "currentSourceSha256": "10913c8471b031a78342c8a791f8a3d1de018fcc17ccaaa836a32e6751fcca59",
+    "masterSha256": "3434d85882fdcb3b1f5afe41dbcff2e73bcd53601a150c1dac972718d5c0dbfa"
+  },
+  {
+    "pairing": "ruler-regular-guy",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-regular-guy/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "e51650b108237de2aea282ea5e7b9085c1f70a9a57c97713c059a7e396dc5328",
+    "currentSourceSha256": "bb737281ccb18f5dedf316ff2af2a03f7d85ac48ba62de98242d3c1fef360bc0",
+    "masterSha256": "b00a5dd42714227d671856f00fe1fa04fe96e10b04c118e3e3089203d2c52d11"
+  },
+  {
+    "pairing": "innocent-ruler",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/innocent-ruler/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "7a265fefc7b90014c49661c0371c85827ccadc2cb95b4c243dd3024e6966c492",
+    "currentSourceSha256": "b37a536c2dacada84c3451c4bc378e3694cee4f7616b12e5141eace9013b7c1b",
+    "masterSha256": "f0de9cff9c1e009703d33706426d522fe152518964060aecff03da078189764b"
+  },
+  {
+    "pairing": "regular-guy-sage",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-sage/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "cc3815ac1fd8187d465a2978169b823eb45c402ad018af7e42186b8b55ecb64e",
+    "currentSourceSha256": "96ce129d82010883b1c735874370bbcb1a75230d6c1f1259eb672005165a1a6e",
+    "masterSha256": "514a610de39ab4431283911853d2b2b72aa7cdda84cf748d7631bc2c4ce23ea5"
+  },
+  {
+    "pairing": "regular-guy-explorer",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-explorer/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "2805641f663321f63dc01309a59550fac8fc121318cbf0c5990dcdd6e5b0ce6c",
+    "currentSourceSha256": "187a77361f07ae4865feae56582cbe7bc576fb08c49a9d146173e178c72caa04",
+    "masterSha256": "85195cc9e7580e62a8042ceba88f54fec86032f19ff7215ce4fb8f015d6b1733"
+  },
+  {
+    "pairing": "ruler-creator",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-creator/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "1df9787a81a8d6c54651ccbcbd9fb4b3b1222886e0b89e9e489f08696ef40143",
+    "currentSourceSha256": "aee49e28f6d76b5542c861f5133dac24c55221e3ecfaa0f8a4c11eca7e1faf6b",
+    "masterSha256": "0bf8f4ac71a146d73398b3db5fb3eec50f9c45380ee9a1538f3d543dfa96f0ce"
+  },
+  {
+    "pairing": "ruler-innocent",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-innocent/v2/measurements.json",
+    "previousSourceSha256": "197036bde4960b67e2f351f9c90f2a080adc26d3b29d73329f1d8c648b0ecf55",
+    "currentSourceSha256": "197036bde4960b67e2f351f9c90f2a080adc26d3b29d73329f1d8c648b0ecf55",
+    "masterSha256": "4daf91afdf9852fdf65926f63ac30fbcae9f7fde0dbe73e5bc874b01bddca901"
+  },
+  {
+    "pairing": "magician-hero",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/magician-hero/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "23441510e1785d4ea12ffe763e05022faecdb3baa54abff479006ea6aaca631e",
+    "currentSourceSha256": "878d86bdbe9674fa19fcda3893ae0c61ba59522cb3df9c85ac9505762199a2b0",
+    "masterSha256": "e967cc6de21a5f629094eb087139fa49e999dc3392754a02a7813d12ae206b3b"
+  },
+  {
+    "pairing": "outlaw-creator",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-creator/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "cbb9054f9639e8378a74d6fd4ffc8d31111b1308ef8c2e37f0218c8b6ed7c7fc",
+    "currentSourceSha256": "7d2e5a7310a8ad453252da6f258d1ca2c8af5ff881c0ea3e33aab671f763a780",
+    "masterSha256": "7a706ef0d76db6281ca3aa3d6f340f0efdcb5c011a355b821857e3a0500c3aaf"
+  },
+  {
+    "pairing": "lover-magician",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/lover-magician/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "bc439a9692e566d2bc89f675e039528e5dba836198c812d3ff4bcc3d50a5ac18",
+    "currentSourceSha256": "7d0ea6ad60a780a1ce753a89bfd8b41780cc45fab71df24bf2847ae492900c24",
+    "masterSha256": "f5310ebbfcfa7fd9268cdad7d5ceced26a4622a57d38a33124f31c7d0b0733cd"
+  },
+  {
+    "pairing": "outlaw-hero",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-hero/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "ce20e7665e5cb1945c287bed88cd33c8be84b5465a20e9973172742362761bc4",
+    "currentSourceSha256": "d7e7faacfb07e0217c832b1917aa2f5125f74062cd54362901b63d6885584f41",
+    "masterSha256": "f1372d3324309922d4b835a8c880fbef7a53ba9af1af61e25a50b9664d16316a"
+  },
+  {
+    "pairing": "lover-ruler",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/lover-ruler/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "aa7c947afd0bd5f225e070d23225a362d760773c7327a1bd5bdc47f7919717e8",
+    "currentSourceSha256": "b39fdd52c25328fd6e9b3c1f4a2dbc0d0af46e37932c1e03ad72a7e0a719302f",
+    "masterSha256": "7cf870d3996e22f9fd33cd64a44904f6a117678c49a961ff449f86f6f4241120"
+  },
+  {
+    "pairing": "ruler-magician",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-magician/v2/measurements.json",
+    "previousSourceSha256": "5457018d1dd14a842408777d809f3d3d364374d0f80af29bf86b7d30d02eab93",
+    "currentSourceSha256": "5457018d1dd14a842408777d809f3d3d364374d0f80af29bf86b7d30d02eab93",
+    "masterSha256": "31353d8c29e46636b6b55f27ed4a5523a05b675204561863d09e72fa830242fa"
+  },
+  {
+    "pairing": "ruler-caregiver",
+    "version": "v3",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-caregiver/v3/measurements.json",
+    "previousSourceSha256": "cf6cc557429b53ce8cb62ef73236f6cf3f35ba42160c03ceb68ace8466ffcae5",
+    "currentSourceSha256": "cf6cc557429b53ce8cb62ef73236f6cf3f35ba42160c03ceb68ace8466ffcae5",
+    "masterSha256": "4cac179ed9eadf82be706c9d51aaa8e476bfb14205ecf101931cca0a935ef5a0"
+  },
+  {
+    "pairing": "regular-guy-hero",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-hero/v2/measurements.json",
+    "previousSourceSha256": "8a8eedf0ee37331860d256c7dee3f0aa2973c5db5678743990c2c4654f9d45b0",
+    "currentSourceSha256": "8a8eedf0ee37331860d256c7dee3f0aa2973c5db5678743990c2c4654f9d45b0",
+    "masterSha256": "c2162f0605984429301bba4c22a50d78909a71a553f6551f2866f04441041150"
+  },
+  {
+    "pairing": "ruler-sage",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-sage/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "4de73d5095393231e20e0ccac3a6bcd69f6f61c771fb4d69a6064e76e6dc609f",
+    "currentSourceSha256": "f485deb6ecc6e97e1c4a013cafc2933f214ba57c7c0863baa17f04cc62485d23",
+    "masterSha256": "eb2e8f4677a60a50c7c968bc192af6cb25da3cfdc4aafe6f9bf8874a8c73a9c1"
+  },
+  {
+    "pairing": "magician-explorer",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/magician-explorer/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "c4738116a08e3c86fba9dc4c1b6884298e4bfa45f2dd75836aa40c463fd85f34",
+    "currentSourceSha256": "bcb378a801c7b0d2605662aabc8618d8c339b3f5d77aa27d45f98d0f5ee54668",
+    "masterSha256": "7db7095fe2561601c79f317ec709516d741ffb328f95b3a3dc81a50cf5db78ef"
+  },
+  {
+    "pairing": "ruler-lover",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-lover/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "fe5194fb05d02ad4bf9e556a73a6cdd96227ba291200b8a710244fc4fa03911b",
+    "currentSourceSha256": "8702edd245556439e429a3fa1517ac5f1379cf57e77a7465cd727cb7b8bab989",
+    "masterSha256": "516fa94cdc13351a942640feb7c2006baf79e71081304ef675d0df7690df00d1"
+  },
+  {
+    "pairing": "outlaw-ruler",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-ruler/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "b623ba714273fde06e42f864554e064be9d7339cf8f5b0949f88a390e92d4ac8",
+    "currentSourceSha256": "99e7811b07ad9c3b7ca4c28a93c56c0af88cd529fe6c4e4432b45226c88100ab",
+    "masterSha256": "9b0c397c0712adf22d5f7e0e0a1224559a498470c5840f9beff41cde3f8b8c2c"
+  },
+  {
+    "pairing": "regular-guy-caregiver",
+    "version": "v3",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-caregiver/v3/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "e7d3bc1250a8854124f16a852d3a39c605d3eeca0d09564bb15b60772bb6c987",
+    "currentSourceSha256": "bf0ac7d1bd7614cd9d3dd37d8e64f90d84ebab379eef8062c748e711c623f8e6",
+    "masterSha256": "20266c625e0351d1195a3b1289758ebdff1ce329ca98afd395c44341821d22d0"
+  },
+  {
+    "pairing": "sage-innocent",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/sage-innocent/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "a89388f5ccc76b5a5ab6f7fec75fb7f006c55f84819f182115a868dcd2d2392c",
+    "currentSourceSha256": "e2f144c259cf4b269c9731e3bc1e50cee63f308f5b312b3948d77e7c2ff78cc4",
+    "masterSha256": "3a60dc9db75f563e461bd7d072537107b7bfd6c1d6c81f0096671ccbaed29471"
+  },
+  {
+    "pairing": "jester-sage",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/jester-sage/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "8254e212ad43a4543206f73896e6fcb2fe678cc88ac9a8a978343607e814dcc7",
+    "currentSourceSha256": "650135f19726cd28669ab561625a2d9ceb7f9552390d4bc0e5bfb3e532047fcd",
+    "masterSha256": "878b439729f75ba9deba14fee9be02dcc47491906b249d17da79c557ecaa4e15"
+  },
+  {
+    "pairing": "outlaw-regular-guy",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-regular-guy/v2/measurements.json",
+    "previousSourceSha256": "c52edc7d124b4ced31b7a4c38c5b87723364ee713448422faf3151ad75511d59",
+    "currentSourceSha256": "c52edc7d124b4ced31b7a4c38c5b87723364ee713448422faf3151ad75511d59",
+    "masterSha256": "6492067301d84fe97d01f1c081b2a3183314f682df4b865a2f76168b6bb5b1d1"
+  },
+  {
+    "pairing": "outlaw-sage",
+    "version": "v3",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-sage/v3/measurements.json",
+    "previousSourceSha256": "75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c",
+    "currentSourceSha256": "75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c",
+    "masterSha256": "b19683d480e57ce3ca043aea3cb7f42e445911a096c45eba8a2ef5ab3bae3431"
+  },
+  {
+    "pairing": "regular-guy-innocent",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-innocent/v2/measurements.json",
+    "previousSourceSha256": "ed9246afc39ce9772536e3ee753d72e38e5d46770902d6e0e5ce31f43ab66d6f",
+    "currentSourceSha256": "ed9246afc39ce9772536e3ee753d72e38e5d46770902d6e0e5ce31f43ab66d6f",
+    "masterSha256": "bd537e5550f41575ed60e99f85a0329d5825c25888353ab9814103103913a4b9"
+  },
+  {
+    "pairing": "ruler-explorer",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-explorer/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "9237060193ec7c6a697043b0326558415f28eb5ddeb787fb5df9aa770b239fc8",
+    "currentSourceSha256": "944bffd256da9f5e1f3425decf3421b58af52cd4b9663235d1b9363512508a72",
+    "masterSha256": "fc4087fcd56de532a4f5e676ebbdc80f5f86033ffd0061161cc6bccf21843b88"
+  },
+  {
+    "pairing": "sage-jester",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/sage-jester/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "cf5ff5df2b5c7d4ae38b5ba4d816199417adde23459a29cd1a72005e78120c5d",
+    "currentSourceSha256": "9ba12828a5e2b8f1b49b42316f8a7f2d36bf6fc3848b8a457da4daa8210882bb",
+    "masterSha256": "d66f31fec41eb12b5a89fef50935187cae208aed422138b265edabf3a5be0fb9"
+  },
+  {
+    "pairing": "regular-guy-jester",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-jester/v2/measurements.json",
+    "previousSourceSha256": "ab9834718f4127294c008aba05612aa8ff26aa6f13fdc99b5806ffd8f285fbea",
+    "currentSourceSha256": "ab9834718f4127294c008aba05612aa8ff26aa6f13fdc99b5806ffd8f285fbea",
+    "masterSha256": "0f2fdc44f2708b7ddab5a421e81996ec83432821696038fc133c88b86e8beb78"
+  },
+  {
+    "pairing": "explorer-ruler",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/explorer-ruler/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "a2162549160704ccb638f5dbfe9829c333e4bd961e1de37f40b22e2e938b5c18",
+    "currentSourceSha256": "de32cd7124556a5528ca7d1a7874400af4e2647b94317b27466fb49f71b3b027",
+    "masterSha256": "0c16f8cdacbf58530484381b8bf54cffd3a84bf075245597a203308889b02889"
+  },
+  {
+    "pairing": "explorer-magician",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/explorer-magician/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "1152d113f10f7e8010249332511608a79d378dc4e1ca664688816fb7640ba56c",
+    "currentSourceSha256": "70540fb3d228fc8594a3f0bc8fba1945aecea025a741f7be7ee738707759b3c2",
+    "masterSha256": "dd22945062f8d9f9f76d6fa63f2d2926e80f3160cbc36079d2e8a1e796961a78"
+  },
+  {
+    "pairing": "regular-guy-lover",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-lover/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "9ac88fa69bf096f1ee50a729688fca541bf7fe6e66d38ad2a7e20ce9b07abb66",
+    "currentSourceSha256": "3416c45978eb072e5f6de5752ce776ed53190e23da66886338d54a4b323a8f9e",
+    "masterSha256": "856f8fd1850c74766b26b1680b6c85924bfaf304c4b5179be553ef15f01cb555"
+  },
+  {
+    "pairing": "magician-caregiver",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/magician-caregiver/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "5fa0bd865eda7ee85a7a060d896fe30712a0fe3a84e92a0288df35b71d0f12df",
+    "currentSourceSha256": "847f9c7a3aedcb144c1ba0ddf571eebb2402fa7b87df99d0f07ae4a265e6a547",
+    "masterSha256": "a1818827f55da3dd11ecdbf3db5855a6b608b13968ce31b9162be027c0c88876"
+  },
+  {
+    "pairing": "jester-ruler",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/jester-ruler/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "1327b36d87fb9db6d73f63fdc0af51853290c2bf1b36ad8735bd92ec4645eb22",
+    "currentSourceSha256": "550a1c6762d58987202ff6c1f6293d6f59399bdf76cd60346a957f5cd071e192",
+    "masterSha256": "05a288e79f8fe4075dd61b48f54477edba752f7916b3f75326521bc78afd2bf3"
+  },
+  {
+    "pairing": "magician-creator",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/magician-creator/v2/measurements.json",
+    "previousSourceSha256": "01ce99abcdf4067a816791a6a7e0c5872b7ef3474504887d92b8f83640ab58cb",
+    "currentSourceSha256": "01ce99abcdf4067a816791a6a7e0c5872b7ef3474504887d92b8f83640ab58cb",
+    "masterSha256": "3e5568d915acebe55ea81f37fa8f9f4e8764c0f6f23f8bf8d4c5322d5a1dac1b"
+  },
+  {
+    "pairing": "sage-hero",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/sage-hero/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "35c59b8cf49f4572ec276b6aa6d8b2ae9e7283aab6cf0a47f90a223f3307bdee",
+    "currentSourceSha256": "2e845e54df4e5f492dbbf485d11f79ee5587172fb3ac0897c0d74f27a1e8a340",
+    "masterSha256": "58a2fa4ce012327e4a844169dd936ec70f49d34c414f23236748e08f478681f2"
+  },
+  {
+    "pairing": "sage-caregiver",
+    "version": "v4",
+    "measurement": "design-artifacts/_image-production/2026-10-06/sage-caregiver/v4/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "28566d97e3a6601310ad54ada169c8b5beb7fa5df9dcfd2e3f792948eba646e0",
+    "currentSourceSha256": "281f90b78106ec55533e89169657d77875855c9c0ce90b09afdf10d92a60986b",
+    "masterSha256": "3117e9e8bca1e2feb80941e1072e7f2e1e1eeb89ec17938f8364a7ec7c40407a"
+  },
+  {
+    "pairing": "sage-regular-guy",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/sage-regular-guy/v2/measurements.json",
+    "previousSourceSha256": "89d9cf57518bf9d04601470d483e75c722e01981cca1d8bb77e91db0be5a0181",
+    "currentSourceSha256": "89d9cf57518bf9d04601470d483e75c722e01981cca1d8bb77e91db0be5a0181",
+    "masterSha256": "3d4c01c100d07cffb78dee714442e9f18fac9f1c99c50dcf375eb78f8f849c6b"
+  },
+  {
+    "pairing": "outlaw-caregiver",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-caregiver/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "31b74355f779f31d69c8bf8622421a5e483b5198785c795da01dd6c7d28fc65d",
+    "currentSourceSha256": "a581f8161075418092a2c364e3a5ab239bb6d2f03f15d78d2dea4467137e4f48",
+    "masterSha256": "b88d414a1d9cdfac0976602e50d4cc612cffd9b647bd7692c74b60e1fc2e094f"
+  },
+  {
+    "pairing": "outlaw-jester",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-jester/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "62ee64561f5bc2a162c4cd7f95021fc3e16fafe0c0eef31c173bff39eb6309bf",
+    "currentSourceSha256": "0e4f5643f1f530d4cb2dc939912c319607592229e2887db9230b99b590bf1b9c",
+    "masterSha256": "a8b127a1c52e892e5276041149637a2a0db4a0c5baeeb8acac93b28e170f4796"
+  },
+  {
+    "pairing": "magician-lover",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/magician-lover/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "1b0c310e774d522dcf14f9fe2b7bd016e78c94b95c99b962d7b4dc02cf1d8c62",
+    "currentSourceSha256": "d968a6dd5ba66d28a5099050a8ef1ddde5e0272e94e090129424efc59a6f630e",
+    "masterSha256": "b900321bfdebc22c0a862857330e9a4cf93b77aa8d16dcf9f4e1a39e559873ff"
+  },
+  {
+    "pairing": "lover-explorer",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/lover-explorer/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "6c9bd693c3204f1588414105093934900f54595a8bf54e534992bfd561dffbe2",
+    "currentSourceSha256": "e9db31bfb39c56bc0b73a6fef7105b9328e072d3919d8a47e73049fac00e56f5",
+    "masterSha256": "5a84e8491e25162f0e8b924383bd2ba1ffb1bd76d058bfed01716c27d58f4568"
+  },
+  {
+    "pairing": "sage-explorer",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/sage-explorer/v2/measurements.json",
+    "previousSourceSha256": "1c7f9612f83dcf1d841ac7b6fddb8b51b7ac690e5e91eed39d5a83d2eb7478d3",
+    "currentSourceSha256": "1c7f9612f83dcf1d841ac7b6fddb8b51b7ac690e5e91eed39d5a83d2eb7478d3",
+    "masterSha256": "b825a4d706991cde535f6921a7407b66874d243618fc839e68511b4ab3ec07b0"
+  },
+  {
+    "pairing": "explorer-regular-guy",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/explorer-regular-guy/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "24ca41aac89151eea1e670f46860954065dc80bdec502e95df121308cf100840",
+    "currentSourceSha256": "c7375bade943d80ed0bc2f2aab8a3c2f4c39ad46512bfb9a6ec1e4e90c5719fe",
+    "masterSha256": "ac835c715ffcced632fc70b57b6afccd7e7e0a6cee8e37d4ee494a63dbbeef9c"
+  },
+  {
+    "pairing": "innocent-magician",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/innocent-magician/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "14e6fc7d73494dc48981e801b16835d07133e768d1b883c77edb311506839901",
+    "currentSourceSha256": "889f519b47dd58e42ceaeece92f401a66fd80758ddf14475867b3a999a262cab",
+    "masterSha256": "e671644b2b2cd6c8c5a3f09c9ea91cad43b28a3f09b3f98fb8297a62ec858c6b"
+  },
+  {
+    "pairing": "explorer-lover",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/explorer-lover/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "35d55c0c62c6307817fb7bc709a3e3ae453dfdb3c8900d247128ab8f4a5d7cf9",
+    "currentSourceSha256": "3c01a39cb39b175dd691e2a21102d8e7556f02716da61165496ca3823bb67c59",
+    "masterSha256": "307422eef14c0325d8b5cad1e167381b5b04a95571383c0cbc56a5405dc8a132"
+  },
+  {
+    "pairing": "jester-hero",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/jester-hero/v2/measurements.json",
+    "previousSourceSha256": "82eff8508ef1525cd6c0c17434e8a123e395d73f7ebfc948e8a877beba18bed8",
+    "currentSourceSha256": "82eff8508ef1525cd6c0c17434e8a123e395d73f7ebfc948e8a877beba18bed8",
+    "masterSha256": "ddc638fde183beb5ca6e91ff3393c0344e3cba4386801e9dc2e877d90ac70011"
+  },
+  {
+    "pairing": "outlaw-lover",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-lover/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "be407e8833b844f74f01e7aaf6e381eb5d71e940e3972641067d20f4c4e402ac",
+    "currentSourceSha256": "4f73cccfab40acd456792899d8714683b0e638f986c4e62d43f400c8558da85b",
+    "masterSha256": "79f2aefa53dc6aa6d1ab79a4ebbfac7889b21e49f2f661a36355959ad7cc81bc"
+  },
+  {
+    "pairing": "regular-guy-outlaw",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-outlaw/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "19609563bfc42c6987ede3ba8d167c619a42e39cbdc3202cdd6be175c7198ee3",
+    "currentSourceSha256": "b382075ec5686dd8816f77315673e20023cc3cfb6f3949b30cc378751ef2f548",
+    "masterSha256": "50c801fe49c3df2715bf8bd76d54a8a7f3c662f41f67fb79dfeba9ac41cd6d06"
+  },
+  {
+    "pairing": "sage-ruler",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/sage-ruler/v2/measurements.json",
+    "previousSourceSha256": "16f942c45c64cbc97d55ff80a49418e7eb50a24f4b6b4c40b4e8e9f902e3d1be",
+    "currentSourceSha256": "16f942c45c64cbc97d55ff80a49418e7eb50a24f4b6b4c40b4e8e9f902e3d1be",
+    "masterSha256": "4784f5734b34d35f52c667afbb6decd203ee83223f26e42b8aa054073a91075b"
+  },
+  {
+    "pairing": "magician-innocent",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/magician-innocent/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "7d8cac0ac61e8e4ee7258c786570d2b8f899c9662d13b55d41bf66f508dac068",
+    "currentSourceSha256": "de3bcd69629a3331d3057e053bc65d95e7b2e49cae24c96d5cc6f1debcc1b80f",
+    "masterSha256": "90ba554f1d6f342740a5681726fbb491098c6332842375ee5d94a4970c2ab12f"
+  },
+  {
+    "pairing": "ruler-outlaw",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-outlaw/v2/measurements.json",
+    "previousSourceSha256": "c138b1646bccf1be9b43e6e408012e7f77e2c93745f51b73b11acc765ac798d9",
+    "currentSourceSha256": "c138b1646bccf1be9b43e6e408012e7f77e2c93745f51b73b11acc765ac798d9",
+    "masterSha256": "a20e59e03d3bf383e2806c4a82306a21734d4191e4a58b952751ebd290a5c8de"
+  },
+  {
+    "pairing": "explorer-sage",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/explorer-sage/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "eb8bf8517cfaa405a994cb270d1e7d927c668764350c811d650e034ac88bf263",
+    "currentSourceSha256": "356bb5a8dacbaf5b751ddf64ee8f17d6283cc0637475d2a17be98634906dafdc",
+    "masterSha256": "52631cc46ae38d54caa6301616cec265daf8659a6771a7b611fa7df76fd1a223"
+  },
+  {
+    "pairing": "hero-jester",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/hero-jester/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "a5b08ea9af5a06ea5762f838dcb7d49a116803dfe8d53e578e4a860e71abc629",
+    "currentSourceSha256": "e6182ec279434f305a3a5f5c1b3178113536f5fd4e3c97d6884dfbbb8445e145",
+    "masterSha256": "0cd6339cd08ad3c6b13437f74c8c9bbbe0a00d6869d5bf89d7cf12c899acdffe"
+  },
+  {
+    "pairing": "jester-outlaw",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/jester-outlaw/v2/measurements.json",
+    "previousSourceSha256": "f8773e8b98bb77c15225b67dbfc21e3d944b34c253ebbc64f3c996252acd3a2e",
+    "currentSourceSha256": "f8773e8b98bb77c15225b67dbfc21e3d944b34c253ebbc64f3c996252acd3a2e",
+    "masterSha256": "766fe43d8c90ad9aedcf49235c089c317d14b8a628412e1cd9403380b2b9ab73"
+  },
+  {
+    "pairing": "regular-guy-magician",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/regular-guy-magician/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "c8ce1075a500a9acfb765df2eef36092686fd4e562ecb2710595becd1a453d4b",
+    "currentSourceSha256": "981f68948d99c623bf56882e03f5b36852de9e336af9b2e5877df75c038313ab",
+    "masterSha256": "e70109a6eac68429457e31e0d3f5749d480689bc51ec9b3f23791449a2328a8c"
+  },
+  {
+    "pairing": "hero-creator",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/hero-creator/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "c657ff96a0f41ba56c71e70e8f8a373d98680c6fe2d68536effe7ec447bf40a5",
+    "currentSourceSha256": "b88f03f698aea6b8055d4cd3b0e669b0051c8e80bb4fff755dc67633c2eb3f4f",
+    "masterSha256": "3ca126fa2776124bd1a1bfb6ca571ffe9c430e169706099f6fff8b8be2c40d43"
+  },
+  {
+    "pairing": "hero-innocent",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/hero-innocent/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "91442476a4781133587bcc71dfbca2337444459993940d774fc3e63567aac4b6",
+    "currentSourceSha256": "a06d232783c5e8afa8f8c0393b880fe1b21b4e09a92d4d163fcd8dbdf45e4be0",
+    "masterSha256": "09eabd4975e43ed146f6fe85184cca72711a9569461d8d19b655f9187feda363"
+  },
+  {
+    "pairing": "hero-regular-guy",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/hero-regular-guy/v2/measurements.json",
+    "previousSourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+    "currentSourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+    "masterSha256": "0b50e79bc7137f4e52d2744d1b6d97b300d7db7ee2f1891b66c83baa5a77d84d"
+  },
+  {
+    "pairing": "lover-caregiver",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/lover-caregiver/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "6c8e8a522954bf401b124460cda40c3d6080c29d6132a4056d5deaa9618cd4a8",
+    "currentSourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+    "masterSha256": "0b88d19239e2195a7512c6237c5345d1ce16c0d50b668fd41d73ead294844e8e"
+  },
+  {
+    "pairing": "jester-magician",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/jester-magician/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "896af7a4eb5de91449e7e404ab965301559fa98d7be1ef77361471d9d3805599",
+    "currentSourceSha256": "738888b8ef651b33726c2314358e8352f5b4599a60fb43fd613c3c41260c71b2",
+    "masterSha256": "5bcf9896dc51eff41d63ab69fef78594bb246cb6f91c7cde47e03519c7df41fd"
+  },
+  {
+    "pairing": "outlaw-magician",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/outlaw-magician/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "4b39b1d297f338877057213e35fe3edbd35d4029d6c8a9a9fd9dbde437fb8736",
+    "currentSourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+    "masterSha256": "60c752a7ba451ee2ea922fa2cdc0dec9e3a37393832f4404e997d98a1c7aa073"
+  },
+  {
+    "pairing": "ruler-jester",
+    "version": "v4",
+    "measurement": "design-artifacts/_image-production/2026-10-06/ruler-jester/v4/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8",
+    "currentSourceSha256": "b30d4397433966f08272443476b0d53379352b35a6aee6f7d98fc39760c44a80",
+    "masterSha256": "73179546543f8e2e6fb1e2b928a52785376a724ca2e9149d86791a9ee2d532bc"
+  },
+  {
+    "pairing": "explorer-creator",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/explorer-creator/v2/measurements.json",
+    "previousSourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+    "currentSourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+    "masterSha256": "dda609ae51e3947bbe9d6701590e872c2c5297cbb1ba1d7c9661f70ffe1913a9"
+  },
+  {
+    "pairing": "explorer-jester",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/explorer-jester/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+    "currentSourceSha256": "6ab22e983ef53eac3e23e40419d75b00cfd5a47d4c4ff4827dc79e100eb7679b",
+    "masterSha256": "faf4811a51ab1de5f5c66be0cced84a10d9f8910d4c554ddfa62d2c050188e53"
+  },
+  {
+    "pairing": "innocent-creator",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/innocent-creator/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "5bda13c71998d5c20539560bfc73235a0dcfa377e7fee916b932df372a8e8db7",
+    "currentSourceSha256": "6232710bafafe43f3266e23cdb3a5842af3c82f6a27c021a279610f4bd7266ad",
+    "masterSha256": "38b63975c1a3766c065b77834066d3d69918650109ca2c2ae214980877707723"
+  },
+  {
+    "pairing": "jester-explorer",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/jester-explorer/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+    "currentSourceSha256": "fa2a7c65465e2928c7ab6e6eca17bfac3b84c04e61b3c5ea25d37ff063c44e69",
+    "masterSha256": "02cc231925337af8c13c1a4e59f10356dfecb2296949f2a96e1ee084624d2d4f"
+  },
+  {
+    "pairing": "jester-innocent",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/jester-innocent/v2/measurements.json",
+    "previousSourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+    "currentSourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+    "masterSha256": "8d3bd57c1476c8ef5af81eebc7f2c3793937624f70d6554c0ba983f02ac7f194"
+  },
+  {
+    "pairing": "jester-lover",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/jester-lover/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+    "currentSourceSha256": "7718276b066e2c88e662622edbd05256108a3f47d235110e13af7338ee1a4c16",
+    "masterSha256": "a532facf49a81996217c62168cddfef570403e9b340629752816d946ffee8567"
+  },
+  {
+    "pairing": "jester-regular-guy",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/jester-regular-guy/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "cd9b909ee55d60451ba39fdb2c02b4115f53b4001deac21cf957bd1d73f3010d",
+    "currentSourceSha256": "47f6d62e4599eb516a33ecc4fcb2313e7133828b07c2cebeeaac2dd93b23c33a",
+    "masterSha256": "dc9fc8c19f7460c20a473f82f999518f792b75827638e40c82da8052e1a29fe0"
+  },
+  {
+    "pairing": "lover-creator",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/lover-creator/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78",
+    "currentSourceSha256": "699835647c6a427f3c2152ff26636205e28d0b54bb958d23b32040dced5ececa",
+    "masterSha256": "b8c34402522a17bca969dd6bb817ad1558cdaf8321d602577f8b9d9013332f54"
+  },
+  {
+    "pairing": "magician-jester",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/magician-jester/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3",
+    "currentSourceSha256": "dc37057b6d89ca83690b851547b45847772b55a496790b10de7836d52b7458c6",
+    "masterSha256": "7c66b1fc5e2a27fd47e1ac3b8a98f8d017a2ad367469d95dfed6c2925a84aaab"
+  },
+  {
+    "pairing": "magician-ruler",
+    "version": "v2",
+    "measurement": "design-artifacts/_image-production/2026-10-06/magician-ruler/v2/measurements-export-2026-10-08.json",
+    "previousSourceSha256": "6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6",
+    "currentSourceSha256": "d7d7a63f70a7e091c5e2f88f00b46174a591b5f9cb20e9163eb7ba8cdfb948b0",
+    "masterSha256": "0128000fb99dc6f2014e9f4082cf1711c8f8126e9aa9b0c51e60ebf4c995dcdd"
+  }
+]

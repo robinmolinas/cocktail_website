@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 ## Cocktail
 
 - **name:** In Kind
-- **tagline:** You always ask the second question. You're still hoping someone asks you one.
+- **tagline:** You take what people love seriously enough to ask the next question.
 - **glassware:** julep cup (pewter or stainless steel; any metal tumbler of about 300 ml at home)
 - **contains:** `[]`
 

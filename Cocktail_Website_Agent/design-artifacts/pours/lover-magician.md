@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 ## Cocktail
 
 - **name:** Worth Finding
-- **tagline:** Everyone wants to know you better. You make sure there's always more to know.
+- **tagline:** Getting to know you feels like finding something nobody else has found.
 - **glassware:** small stemmed cocktail glass (about 150 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -180,7 +180,7 @@ My pick (held to the vote): **Not All at Once**. It recognises how this person l
 Wren's title-block notes:
 
 - **name (held for the vote; my pick):** Worth Finding
-- **tagline:** Everyone wants to know you better. You make sure there's always more to know.
+- **tagline:** Getting to know you feels like finding something nobody else has found.
 - **epigraph:** *It starts at a bar upstairs, behind a restaurant. Its shiso hides behind the gin.*
 
 ### Open items

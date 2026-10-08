@@ -1,0 +1,127 @@
+{
+  "pairing": "innocent-magician",
+  "pour": "Let's Try It",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-magician/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-cdfd63a8-ef1c-4f8e-89a5-7b34a8b41728.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "f62ff536cf101f47edd72f3986dfa75e93de5ea36d1fcf786622cc2050b7ee63",
+  "sourceSha256": "14e6fc7d73494dc48981e801b16835d07133e768d1b883c77edb311506839901",
+  "specSha256": "1f7f9b6425e634857e3198a02d2cc8b1b9ec850f499ffc830e0dd211fa367e78",
+  "roomSha256": "d00b765c797585d02d8b83ea408820116c103f814bf88f894c97bfee6113a613",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    747,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1045,
+    "cy": 708,
+    "w": 94,
+    "angle": 57
+  },
+  "glass": {
+    "x": 916,
+    "y": 442
+  },
+  "bounds": {
+    "glass": {
+      "x0": 781,
+      "y0": 161,
+      "x1": 1049,
+      "y1": 727
+    },
+    "paper": {
+      "x0": 979,
+      "y0": 633,
+      "x1": 1125,
+      "y1": 764
+    },
+    "apron": {
+      "x0": 1028,
+      "y0": 186,
+      "x1": 1672,
+      "y1": 742
+    },
+    "benchScraper": {
+      "x0": 1080,
+      "y0": 392,
+      "x1": 1535,
+      "y1": 608
+    },
+    "physicalGarnish": null
+  },
+  "recognitionRegions": {
+    "apron": {
+      "bounds": {
+        "x0": 1039,
+        "y0": 187,
+        "x1": 1555,
+        "y1": 685
+      },
+      "reason": "Substantial folded apron body and real neckloop/ties recognize apron; right fabric/tie master-cropped."
+    },
+    "benchScraper": {
+      "bounds": {
+        "x0": 1083,
+        "y0": 396,
+        "x1": 1532,
+        "y1": 606
+      },
+      "reason": "Full blade/wood handle and edge recognize benchscraper, not anonymous steel fragment."
+    }
+  },
+  "objectVisibility": {
+    "apron": "Right cloth/tie clipped by master, unseen extent unknown; visible bounds not invented full apron extent.",
+    "benchScraper": "Visible blade/handle; far lower edge partly on cloth/self-occlusion, hidden extent unknown.",
+    "garnish": "None as source."
+  },
+  "supportingObjectUnion": {
+    "x0": 1028,
+    "y0": 186,
+    "x1": 1672,
+    "y1": 742
+  },
+  "essentialObjectUnion": {
+    "x0": 781,
+    "y0": 161,
+    "x1": 1672,
+    "y1": 764
+  },
+  "tagPhysics": {
+    "mechanism": "Beige exterior lowerbody/base loop y619–656, belowrim161; sides disappear around glass. Front arc has slack/extra angular crossing rather than clearly snug single arc.",
+    "knot": "Small apparent tied junction near991/638.",
+    "tetherAndHole": "Short downward paired strand apparently connects to punched hole1016/663.",
+    "gravity": "Paper angles downward right below knot.",
+    "paperSeparationOrContact": "Paper projects outside right glass, loweredge rests on wood with shadow, no broad pastedbodylabel.",
+    "uncertainties": [
+      "Front arc slack/crossedcord is ambiguous; no support PASS.",
+      "Rearloop/friction/load unknown.",
+      "Loop near liquidboundary rather than solely transparent foot."
+    ],
+    "status": "Visiblechain/contact but snug-front-arc ambiguity held."
+  },
+  "review": {
+    "recipe": "Clear lightermalt still highball/no garnish/foam/citrus. Ice-filled, however dense trapped-air/etched detail and fine speckles could imply carbonation; absence of soda not confidently visually proven.",
+    "personality": "Folded baking apron and benchscraper recognizable, ordinary bakingfriend hope inference not literal costume. Excessively spread right/master-cropped apron and specificity of hope vs generic baker held.",
+    "world": "Historic room/quietleft but glossy amber patterned timber, dense etchedice/over-scratched scraper held.",
+    "issues": [
+      "Glass566px rather than330.",
+      "Full891px/conservative774px glasspaperrecognition exceeds389phone;702portrait clips traces.",
+      "Apron master-cropped; unseenextent unknown.",
+      "Granularice/dense bubblelike detail material+stillness watch.",
+      "Tag94px writingaxis/nameuntested; slack frontcord held.",
+      "No JPEG/export/browser/acceptance."
+    ]
+  }
+}
+

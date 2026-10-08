@@ -1,0 +1,22 @@
+{
+  "batch": 13,
+  "pairing": "innocent-creator",
+  "version": "v1",
+  "operation": "fresh built-in generation",
+  "input": null,
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-81d854a8-c022-4776-9b66-3b3a4bd687c9.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-creator/v1/master.png",
+  "originalSha256": "15bd7032ba75212caa67b09f69ca145eda93be53377497b4c8fe0c030f9b2905",
+  "copySha256": "15bd7032ba75212caa67b09f69ca145eda93be53377497b4c8fe0c030f9b2905",
+  "nativeDimensions": [
+    1701,
+    925
+  ],
+  "sourceSha256": "5bda13c71998d5c20539560bfc73235a0dcfa377e7fee916b932df372a8e8db7",
+  "specSha256": "de86d0e08f80fbf0f1b9c226200980bbca020ebf99e3b4cb20009c87b1b9ad24",
+  "roomSha256": "f8cb393e26c07fa706448b1a92a4859e39216870ec6eca5bfc3c6721e4fb6b78",
+  "promptFile": "prompt-batch13.md",
+  "readinessFile": "readiness-batch13.md",
+  "callCountForPair": 1,
+  "selection": "preserved initial"
+}

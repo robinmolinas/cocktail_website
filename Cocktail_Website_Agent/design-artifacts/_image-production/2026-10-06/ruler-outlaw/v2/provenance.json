@@ -1,0 +1,24 @@
+{
+  "pairing": "ruler-outlaw",
+  "version": "v2",
+  "tool": "built-in image_gen",
+  "operation": "sole targeted edit of v1",
+  "referencedImagePaths": [
+    "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-outlaw/v1/master.png"
+  ],
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-outlaw/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-5c2f489c-f688-4269-8314-a8f01f145e5b.png",
+  "masterSha256": "a20e59e03d3bf383e2806c4a82306a21734d4191e4a58b952751ebd290a5c8de",
+  "generatedOriginalSha256": "a20e59e03d3bf383e2806c4a82306a21734d4191e4a58b952751ebd290a5c8de",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "sourceSha256": "c138b1646bccf1be9b43e6e408012e7f77e2c93745f51b73b11acc765ac798d9",
+  "specSha256": "2a140c83936cb4c1d04bfbaa01d655a769bf7499b3e1ecb44ab2509b95283370",
+  "roomSha256": "0e142e5d1b6313cd565efb6b93e72f16fadbaba870d94710254a57b2cd6e66e9",
+  "promptFile": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-outlaw/v2/prompt.txt",
+  "callCountForPairing": 2,
+  "batchCallCount": 4,
+  "status": "measured candidate with explicit physical/material/composition holds"
+}

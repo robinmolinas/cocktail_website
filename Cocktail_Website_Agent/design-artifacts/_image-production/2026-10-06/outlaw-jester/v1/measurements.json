@@ -1,0 +1,123 @@
+{
+  "pairing": "outlaw-jester",
+  "pour": "With the Bite In",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-jester/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-e9443a6b-b804-4654-9c5f-79b784738f5f.png",
+  "sourceSha256": "62ee64561f5bc2a162c4cd7f95021fc3e16fafe0c0eef31c173bff39eb6309bf",
+  "specSha256": "d654765ae71d8ba949cd1244345e56eeba5c57278b5262f3d6a0d23be2d69b49",
+  "roomSha256": "df8d83a85dd697552fdefc77338c3b9344814f86b47c66f1798ba9cdd1bffba7",
+  "masterSha256": "8e35351b964fcff28764e505c0ef21c08929f07d9492d27911193bbc6ee0aca1",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    793,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1055,
+    "cy": 660,
+    "w": 132,
+    "angle": 77
+  },
+  "glass": {
+    "x": 935,
+    "y": 425
+  },
+  "bounds": {
+    "glass": {
+      "x0": 798,
+      "y0": 145,
+      "x1": 1071,
+      "y1": 708
+    },
+    "paper": {
+      "x0": 996,
+      "y0": 563,
+      "x1": 1112,
+      "y1": 743
+    },
+    "garnish": {
+      "x0": 809,
+      "y0": 242,
+      "x1": 955,
+      "y1": 373
+    },
+    "bittersFizz": {
+      "x0": 886,
+      "y0": 200,
+      "x1": 968,
+      "y1": 235
+    }
+  },
+  "personBounds": {
+    "recordAndSleeve": {
+      "x0": 1051,
+      "y0": 252,
+      "x1": 1672,
+      "y1": 543
+    },
+    "draftAndPencil": {
+      "x0": 1075,
+      "y0": 499,
+      "x1": 1672,
+      "y1": 759
+    }
+  },
+  "recognitionRegions": {
+    "recordAndSleeve": {
+      "x0": 1053,
+      "y0": 280,
+      "x1": 1537,
+      "y1": 537
+    },
+    "draftAndPencil": {
+      "x0": 1080,
+      "y0": 500,
+      "x1": 1610,
+      "y1": 751
+    }
+  },
+  "traceExtentNotes": {
+    "recordAndSleeve": "Real-size grooved disc, blank central label/hole and sleeve clearly read. Sleeve right edge cropped by native master: unseen full extent unknown.",
+    "draftAndPencil": "Folded blank-facing draft+pencil. Paper edge cut at master right; full unseen extent unknown. Recognition requires pencil plus fold/blank paper, not anonymous sliver."
+  },
+  "group": {
+    "fullWidth": 874,
+    "recognitionWidth": 812
+  },
+  "tagPhysics": {
+    "supportLoop": "Snug exterior loop lowerbody aroundy536–556; curved frontarc; rear honestly occluded.",
+    "knot": "Visible knot right-front around1008,549.",
+    "tether": "Short continuous downward tether from knot to hole around1032,592.",
+    "hole": "Actual dark punched hole with edge/cord visible.",
+    "paper": "Plain blank cream luggage label narrower than glass.",
+    "gravity": "Hangs down/right from top hole, bottom tip rests timber.",
+    "airgap": "Paper hangs outside body with gap/side shadow; projection overlaps near base.",
+    "contact": "Bottom tip around1038,742 rests wood with contact shadow; not claimed freely floating.",
+    "uncertainty": "Far-side loop unseen; tether partly occludes knot/hole, contact loading cannot be verified from still.",
+    "assessment": "Attachment chain plausible at original resolution; not blanket mechanical/browser PASS."
+  },
+  "review": {
+    "recipe": "Single iced darkbrown cola highball with inside squeezed-looking lime half, thin modest fizz collar and red bittersdrops; amber lighter upperliquid appears strong/uniform mixing uncertain, held appearance risk.",
+    "personality": "Source-explicit78rpm shellac and folded lyric draft, blank back+pencil no pseudo-writing. Recognizable full-size but broad and master-cropped.",
+    "world": "Historic timber room, empty/no people; strongly glossy amber densely scratched/swirl wood persists.",
+    "issues": [
+      "Glass563px exceeds300–360px target.",
+      "Full874px/recognition812px exceeds389px phone core; proposedportrait truncates props.",
+      "Native master crops sleeve/paper right edges.",
+      "Strong amber lighter upper cola and dense ice highlights.",
+      "Amber glossy densely patterned timber contradicts material direction.",
+      "Tag contact/hidden far loop uncertain; no physics approval."
+    ]
+  }
+}

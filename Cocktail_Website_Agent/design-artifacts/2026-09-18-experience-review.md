@@ -1,3 +1,5 @@
+> **Historical design record — reviewed 8 October 2026.** This dated plan/review remains evidence of its iteration. The current reveal is TheReading; use current image rules and accepted later decisions for new work. Current direction: [experience specification](2026-07-08-experience-master-spec.md).
+
 # Dionysus — Experience Review and Revamp Brief (pre-backend)
 
 **Date:** 2026-09-18 (rev 2, after a full end-to-end run in the browser)

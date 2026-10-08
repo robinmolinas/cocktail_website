@@ -1,3 +1,5 @@
+> **Historical session record — reviewed 8 October 2026.** The current trigger map has been refreshed; this is the original generation record. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # Session Log: Trigger Mapping (Suggest Mode)
 **Date:** 2026-06-11
 **Mode:** Suggest (S)

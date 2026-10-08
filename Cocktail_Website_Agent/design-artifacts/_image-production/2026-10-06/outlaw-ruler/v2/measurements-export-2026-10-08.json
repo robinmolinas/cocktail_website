@@ -1,0 +1,110 @@
+{
+  "pairing": "outlaw-ruler",
+  "pour": "Before It Had a Name",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-ruler/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-b4b4e7d2-4def-4dc3-aa81-0fa076be41e5.png",
+  "sourceSha256": "99e7811b07ad9c3b7ca4c28a93c56c0af88cd529fe6c4e4432b45226c88100ab",
+  "specSha256": "777256ea19c93ae1ab2cce4281dfdb0ef6b38e09c85d851dd94494a7458b4ba1",
+  "masterSha256": "9b0c397c0712adf22d5f7e0e0a1224559a498470c5840f9beff41cde3f8b8c2c",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    737,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1133,
+    "cy": 650,
+    "w": 115,
+    "angle": 16
+  },
+  "glass": {
+    "x": 1026,
+    "y": 565
+  },
+  "bounds": {
+    "glass": {
+      "x0": 907,
+      "y0": 448,
+      "x1": 1148,
+      "y1": 780
+    },
+    "paper": {
+      "x0": 1045,
+      "y0": 599,
+      "x1": 1196,
+      "y1": 692
+    },
+    "garnish": {
+      "x0": 1051,
+      "y0": 437,
+      "x1": 1188,
+      "y1": 481
+    }
+  },
+  "personalityBounds": {
+    "microscope": {
+      "x0": 959,
+      "y0": 180,
+      "x1": 1270,
+      "y1": 717
+    },
+    "workshopKeyring": {
+      "x0": 1107,
+      "y0": 678,
+      "x1": 1245,
+      "y1": 761
+    }
+  },
+  "recognitionRegions": {
+    "microscopeEyepiecesTurretStage": {
+      "x0": 974,
+      "y0": 180,
+      "x1": 1240,
+      "y1": 505
+    },
+    "bothKeysAndRing": {
+      "x0": 1107,
+      "y0": 678,
+      "x1": 1245,
+      "y1": 761
+    }
+  },
+  "measurementNotes": [
+    "Actual1672x941 original-resolution master probed and manually measured.",
+    "Full glass/paper/garnish/person group363px (907\u20131270); conservative recognition338px (907\u20131245). Complete scope measured separately; recognition includes connected eyepieces, turret and stage, not a cropped anonymous strip.",
+    "Glass332px high, foot at780=82.9%height; microscope top180=19.1%. Thus horizontal grouping improved but vertical20\u201380%target misses.",
+    "Writable115px measured on clean area beyond hole/margins; full151px paper lateral span is not usable text width.",
+    "702x940 crop proposed only; no phone/motion/JPEG/runtime/browser pass."
+  ],
+  "review": {
+    "recipe": "Well-chilled coupe with pale cloudy amber-gold quince/rye Sidecar and thin orange strip rim; no serving ice, no foam head, only ordinary fine shake bubbles. Rosy quince warmth subtle/limited.",
+    "personality": "Real microscope and complete keyring identifiable and compact in depth. Microscope derives documented diagnostic work; keyring inference of protected private project, not claimed historical artifact.",
+    "world": "Dark historic walnut room with plain glass; working metal microscope remains subordinate overall though tall. Table still warm reflective/textured; a cool left window introduced another-light risk.",
+    "issues": [
+      "Usable tag115px well below170\u2013200 target though physically hanging/blank.",
+      "Glass332px slightly above280\u2013330 target; full group363px horizontal target achieved but not proofphone.",
+      "Foot below80% and microscope top just above20%; vertical crop/motion remains untested.",
+      "Warm glossy/grain-heavy table and cooler left-window light conflict with flat neutral one-source material intent.",
+      "Small remaining marked microscope/key surface texture watch; no final acceptance."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "b623ba714273fde06e42f864554e064be9d7339cf8f5b0949f88a390e92d4ac8",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** Everyone sees the rebel. Nobody sees the plan.",
+      "+ - **tagline:** Your rebellions have a plan, and a future people can join."
+    ]
+  }
+}

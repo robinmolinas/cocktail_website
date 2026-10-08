@@ -1,0 +1,209 @@
+{
+  "pairing": "hero-creator",
+  "pour": "The Long Answer",
+  "status": "private candidate; no acceptance",
+  "measurementMethod": "Manual original-size visual estimates on displayed canvas; no native header or hash execution. Approximately +/-5–10px; confirm before export.",
+  "source": {
+    "dossier": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/hero-creator.md",
+    "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-creator.json",
+    "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-creator.md",
+    "dossierSha256": null,
+    "specSha256": null,
+    "roomSha256": null,
+    "fingerprintStatus": "Not executed per batch restrictions; complete current text read, closed r7 room/current D13 wording evidence."
+  },
+  "sourceSha256": null,
+  "masterSha256": null,
+  "originalSha256": null,
+  "hiddenExtent": null,
+  "orientation": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/wide-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-44a9747e-5a3c-4350-b7ac-00cc1ef33e7f.png",
+  "displayedCanvas": {
+    "width": 1672,
+    "height": 941,
+    "headerVerified": false
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": null,
+  "dedicatedPortrait": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v4/portrait-master.png",
+  "tag": {
+    "cx": 1183,
+    "cy": 697,
+    "w": 130,
+    "angle": 64
+  },
+  "glass": {
+    "x": 1102,
+    "y": 449
+  },
+  "bounds": {
+    "glass": {
+      "x0": 925,
+      "y0": 293,
+      "x1": 1279,
+      "y1": 783
+    },
+    "paper": {
+      "x0": 1115,
+      "y0": 615,
+      "x1": 1250,
+      "y1": 779
+    },
+    "ice": {
+      "x0": 992,
+      "y0": 319,
+      "x1": 1254,
+      "y1": 527
+    },
+    "mint": {
+      "x0": 905,
+      "y0": 149,
+      "x1": 1138,
+      "y1": 315
+    },
+    "orangeDominant": {
+      "x0": 1047,
+      "y0": 175,
+      "x1": 1182,
+      "y1": 330
+    },
+    "orangeSecondVisibleEdge": {
+      "x0": 1003,
+      "y0": 295,
+      "x1": 1143,
+      "y1": 325
+    },
+    "pineapple": {
+      "x0": 1165,
+      "y0": 210,
+      "x1": 1304,
+      "y1": 320
+    },
+    "cherryFruit": {
+      "x0": 1162,
+      "y0": 280,
+      "x1": 1248,
+      "y1": 363
+    },
+    "cherryStalk": {
+      "x0": 1206,
+      "y0": 175,
+      "x1": 1266,
+      "y1": 325
+    },
+    "openedEnvelopes": {
+      "x0": 501,
+      "y0": 373,
+      "x1": 1010,
+      "y1": 623
+    },
+    "partlyWithdrawnSheet": {
+      "x0": 669,
+      "y0": 375,
+      "x1": 932,
+      "y1": 512
+    },
+    "blueCappedPen": {
+      "x0": 617,
+      "y0": 528,
+      "x1": 889,
+      "y1": 639
+    },
+    "cordVisible": {
+      "x0": 1067,
+      "y0": 606,
+      "x1": 1155,
+      "y1": 653
+    }
+  },
+  "recognition": {
+    "openedLetterAndSheet": {
+      "x0": 501,
+      "y0": 373,
+      "x1": 1010,
+      "y1": 623
+    },
+    "blueCappedPen": {
+      "x0": 617,
+      "y0": 528,
+      "x1": 889,
+      "y1": 639
+    },
+    "mint": {
+      "x0": 905,
+      "y0": 149,
+      "x1": 1138,
+      "y1": 315
+    },
+    "orangeFirst": {
+      "x0": 1047,
+      "y0": 175,
+      "x1": 1182,
+      "y1": 330
+    },
+    "orangeSecond": null,
+    "pineapple": {
+      "x0": 1165,
+      "y0": 210,
+      "x1": 1304,
+      "y1": 320
+    },
+    "cherryWithStalk": {
+      "x0": 1162,
+      "y0": 175,
+      "x1": 1266,
+      "y1": 363
+    },
+    "servedIce": {
+      "x0": 992,
+      "y0": 319,
+      "x1": 1254,
+      "y1": 527
+    },
+    "meaningfulUnion": {
+      "x0": 501,
+      "y0": 149,
+      "x1": 1304,
+      "y1": 783
+    },
+    "unionWidth": 803
+  },
+  "tagPhysics": {
+    "mechanism": "Fine low stem loop below bowl; small outboard paper",
+    "knotPoint": [
+      1134,
+      628
+    ],
+    "holePoint": [
+      1149,
+      648
+    ],
+    "tether": "Short downward front segment about25px; rear unknown",
+    "gravity": "Paper hangs down/right with lower corner appearing timber contact",
+    "airGap": "Broad paper body separate from stem; near shoulder overlaps narrow stem",
+    "contact": "Lower corner apparent wood contact, subtle shadow",
+    "occlusion": "Rear stem wrap disappears behind glass",
+    "uncertainties": [
+      "Single complete turn/load cannot be verified posteriorly",
+      "Fine strand texture near knot may appear doubled"
+    ]
+  },
+  "review": {
+    "recipe": "Hazy rosy orange round heavy beer goblet/one ice/mint/pineapple/dark cherry read. Dominant orange looks near-complete wheel; second orange edge occluded. TWO halfmoon count/shape HOLD.",
+    "personality": "Opened letters/withdrawn sheet and blue capped pen recognisable, still lateral left rather than depth.",
+    "world": "Calmer longitudinal timber, still warm sheen/fine scuffs; dense glass dot pattern rather than sparse droplets.",
+    "issues": [
+      "Full garnish begins149px above20%941=188px; vessel foot783 beyond80%=753px",
+      "Vessel490px tall exceeds pulled-back target",
+      "803px meaningful union held for phone/compact grouping",
+      "Orange second recognition null: do not invent halfmoon box",
+      "Name fit/rear tag load/browser glyph/load unresolved"
+    ]
+  }
+}

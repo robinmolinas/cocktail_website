@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 ## Cocktail
 
 - **name:** Beside the First
-- **tagline:** Everyone else calls it finished. You call it the first edition.
+- **tagline:** What everyone else calls finished, you call the first edition.
 - **glassware:** a small coupe, chilled, its rim wiped with lemon
 - **contains:** `[]`
 
@@ -170,7 +170,7 @@ Wren's title-block notes:
 
 **name:** *Beside the First* (my pick; Hester's pick too, read as "in the same book") · *Fourteen Years On* (Hester) · *Still Improving* (Tomás; repeats *Still Yours*'s "Still")
 
-**tagline:** *Everyone else calls it finished. You call it the first edition.*
+**tagline:** *What everyone else calls finished, you call the first edition.*
 Other candidates: *The one person who still questions your best work is you.* · *You know exactly why it works. That's why you can make it better.*
 
 **epigraph (the cocktail, read cold; 13 words)**

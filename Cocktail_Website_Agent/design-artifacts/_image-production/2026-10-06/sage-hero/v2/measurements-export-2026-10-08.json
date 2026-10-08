@@ -1,0 +1,139 @@
+{
+  "pairing": "sage-hero",
+  "pour": "At the Time",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-hero/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-c17e5dcd-fec1-4110-9d58-d87ae98f79db.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "58a2fa4ce012327e4a844169dd936ec70f49d34c414f23236748e08f478681f2",
+  "sourceSha256": "2e845e54df4e5f492dbbf485d11f79ee5587172fb3ac0897c0d74f27a1e8a340",
+  "specSha256": "ba260086f57e749d546ad42c729079c470c15d64521e4fc21662ca85209971ef",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    757,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1371,
+    "cy": 650,
+    "w": 82,
+    "angle": 70
+  },
+  "glass": {
+    "x": 1178,
+    "y": 433
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1012,
+      "y0": 292,
+      "x1": 1344,
+      "y1": 680
+    },
+    "paper": {
+      "x0": 1303,
+      "y0": 560,
+      "x1": 1431,
+      "y1": 704
+    },
+    "ice": {
+      "x0": 1063,
+      "y0": 372,
+      "x1": 1289,
+      "y1": 570
+    },
+    "garnish": {
+      "x0": 1058,
+      "y0": 425,
+      "x1": 1201,
+      "y1": 601
+    }
+  },
+  "personalityBounds": {
+    "threeIronKeysAndRing": {
+      "x0": 771,
+      "y0": 461,
+      "x1": 1014,
+      "y1": 610
+    },
+    "completeWatchAndStrap": {
+      "x0": 778,
+      "y0": 608,
+      "x1": 1144,
+      "y1": 822
+    }
+  },
+  "recognitionRegions": {
+    "keys": {
+      "bounds": {
+        "x0": 771,
+        "y0": 461,
+        "x1": 1014,
+        "y1": 610
+      },
+      "reason": "Three apparent shafts/teeth with ring, complete visible key format; exact joined topology not proved."
+    },
+    "watch": {
+      "bounds": {
+        "x0": 835,
+        "y0": 611,
+        "x1": 1082,
+        "y1": 781
+      },
+      "reason": "Recognisable watch face/case and substantial strap each side. Entire long strap extent separately measured; this is not the entire object."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "snug exterior lower-middle body loop, curved front arc/credible side occlusion, right knot to short downward tether through paper hole; paper besideglass and restswood",
+    "loopBounds": {
+      "x0": 1014,
+      "y0": 529,
+      "x1": 1347,
+      "y1": 577
+    },
+    "knot": {
+      "x": 1330,
+      "y": 548
+    },
+    "hole": {
+      "x": 1342,
+      "y": 579
+    },
+    "supportObserved": true,
+    "gravity": "paper hangs belowknot, bottomcontacts wood at~701 with shadow",
+    "airGap": "mostpaper outboard/separate; upperleftsilhouette overlaps glass near knot, localairgap not resolved",
+    "uncertainty": "reararc partlyhidden, friction/load not tested, tiny tether/knotdepth and upperpaper contact uncertain; not fullphysics/browser/name acceptance."
+  },
+  "review": {
+    "recipe": "One nearblackcoffee block and singleorange strip droppedinside; clearamber, noextraice/foam/rim. Coffee block loweredges may look translucent; exactopacity/liquidvolume not independently proved.",
+    "personality": "Keys/watch sourceinferred property/years, still genericpatient-owner evidence not independentpersonality proof. Watchdial tiny pseudo markings and exactthree-key topology watched.",
+    "world": "Historicdark room/rightwarmpractical, functionalsteelironallowed. Timberstillglossyamber/stronggrain and glass/ice denselysparkled, materialhold.",
+    "issues": [
+      "Glass388px versusv1~480 improvespullback but not300\u2013330target.",
+      "Full660px/recognition660px spread >389movingphone;702portrait fits visiblegroup but notphone acceptance.",
+      "Watchbottom822 risksultrawide/verticalbreathing crop.",
+      "Small82px writableaxis measured notinflated; realnamefit untested.",
+      "Paper128pxwide<glass332; plausiblesupportchain, localupperoverlapcontactuncertain.",
+      "Tiny watchdialmarks, glossywood/denseglass/coffeeopacity andpersonality specificity retained."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "35c59b8cf49f4572ec276b6aa6d8b2ae9e7283aab6cf0a47f90a223f3307bdee",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You'll let a good move look bad, and not say a word.",
+      "+ - **tagline:** You see far enough ahead to let a quick win go.",
+      "- **tagline:** You'll let a good move look bad, and not say a word.",
+      "+ **tagline:** You see far enough ahead to let a quick win go."
+    ]
+  }
+}

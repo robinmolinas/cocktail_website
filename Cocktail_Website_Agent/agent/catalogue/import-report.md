@@ -10,18 +10,17 @@ Mixologist's spec, whose units legitimately differ; they never fail the import.
 - Pours imported: 132
 - Status: draft 128, flagged 0, approved 4
 - Veto-free (empty `contains`): 105
-- Needs a decision (Robin or content owner): 1
 - Excluded trailing reading material: 19
 - Duplicate **yours** heading (ignored): 1
 - Duplicate labels: 2
 - Quantity differences (dossier vs spec): 49
 - Quantities not compared: 185
 - Inline markdown kept verbatim: 60
-- Text outside the sections (ignored): 6
+- Text outside the sections (ignored): 7
 
 ## Needs a decision (Robin or content owner)
 
-- **hero-jester** (draft): trailing closing line differs from the canonical one: draft "Take the almonds to gold before anything else: that's where the taste is. Next time someone asks how it went, give them what happened, nothing added." vs canonical "Take the almonds to gold before anything else: that's where the taste is."
+None.
 
 Pours with nothing to report: creator-hero, creator-regular-guy, innocent-jester, lover-ruler, magician-innocent, outlaw-explorer, outlaw-magician, regular-guy-ruler, ruler-hero.
 
@@ -358,13 +357,9 @@ Pours with nothing to report: creator-hero, creator-regular-guy, innocent-jester
 
 ## hero-jester (draft)
 
-**Needs a decision (Robin or content owner)**
-
-- trailing closing line differs from the canonical one: draft "Take the almonds to gold before anything else: that's where the taste is. Next time someone asks how it went, give them what happened, nothing added." vs canonical "Take the almonds to gold before anything else: that's where the taste is."
-
 **Excluded trailing reading material**
 
-- excluded trailing reading block: **closing line:** Tomás's (final: *Take the almonds to gold before anything else: that's where the taste is. Next time someone asks how it went, give them what happened, nothing added.*). It agrees with y5's position, not the creed. y5 avoids "nothing added" so the two don't repeat each other.
+- excluded trailing reading block: **closing line:** Tomás's, cut to its first sentence in the collection review (2026-10-06, D13 V6): *Take the almonds to gold before anything else: that's where the taste is.* The room's version went on: "Next time someone asks how it went, give them what happened, nothing added." It agrees with y5's position, not the creed. y5 avoids "nothing added" so the two don't repeat each other.
 
 **Quantities not compared**
 
@@ -823,8 +818,9 @@ Pours with nothing to report: creator-hero, creator-regular-guy, innocent-jester
 
 **Text outside the sections (ignored)**
 
-- text before the first section ignored: "Staging copy in the meaning-model shape. The final persona image will be"
-- text before the first section ignored: "generated from this pour (glass, colour, garnish), not the other way round."
+- text before the first section ignored: "This file is the source for the typed store."
+- text before the first section ignored: "`npm run import:pours` in dionysus-experience copies it in."
+- text before the first section ignored: "The final persona image was generated from this pour (glass, colour, garnish), not the …"
 
 ## magician-regular-guy (draft)
 
@@ -1205,10 +1201,10 @@ Pours with nothing to report: creator-hero, creator-regular-guy, innocent-jester
 
 **Text outside the sections (ignored)**
 
-- text before the first section ignored: "Staging copy of the first authored pour, in the shape of the meaning model"
-- text before the first section ignored: "(`../2026-09-23-cocktail-meaning-model.md`). It moves into the typed store"
-- text before the first section ignored: "(`dionysus-experience/shared/data/pours/`) once `shared/pour.ts` and the"
-- text before the first section ignored: "validator exist. The dossier below is research only and never ships."
+- text before the first section ignored: "The first authored pour, in the shape of the meaning model"
+- text before the first section ignored: "(`../2026-09-23-cocktail-meaning-model.md`). This file is the source:"
+- text before the first section ignored: "`npm run import:pours` in dionysus-experience copies it into the typed store."
+- text before the first section ignored: "The dossier below is research only and never ships."
 
 ## sage-magician (draft)
 

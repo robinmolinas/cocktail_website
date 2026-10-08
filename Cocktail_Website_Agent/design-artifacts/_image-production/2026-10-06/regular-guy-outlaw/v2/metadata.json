@@ -1,0 +1,455 @@
+{
+  "pairing": "regular-guy-outlaw",
+  "pour": "Just This Once",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "b382075ec5686dd8816f77315673e20023cc3cfb6f3949b30cc378751ef2f548",
+  "review": {
+    "recipe": "Exact large wine-glass ice serve with pale straw slightly hazy drink, fine sparkling bubbles and one long yellow peel strip dropped inside retained. Full visible served peel/ice bounds recorded separately from personality, hidden extents unknown. Dense spotting/ice sparkle and warm colour watch remain.",
+    "personality": "Recognizable actual chips parcel from current whoYouAre late-kitchen chips-for-six; full ordinary wood fork bundle inferred for sharing. Both same habit, not two invented biographies; six count and six-person portion not verified. Complete recognisable parcel cannot be shrunk to anonymous corner for phone claims.",
+    "world": "Historic reading-room setting and quiet dark left third improved; timber flatter thanv1 yet glossy warm reflections and fine rough repetitive grain persist, no material acceptance.",
+    "issues": [
+      "Glass465px high including projecting ice; camera pullback improved from677px but misses300–360px target.",
+      "Full chips parcel470px wide; meaningful complete group470px exceeds~389px moving-phone target.",
+      "Wood fork bundle still leftward rather than strictly behind vessel; phone may lose recognition.",
+      "Dense bowl/ice speckles and glossy warm timber reflections held.",
+      "Exact six forks and six-person quantity unverified.",
+      "Front stem chain plausible only; rear knot/load and paper-foot depth uncertain."
+    ]
+  },
+  "measurements": {
+    "pairing": "regular-guy-outlaw",
+    "pour": "Just This Once",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-outlaw/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-f7ee578e-4792-4c89-bc0b-59736d2ac0bd.png",
+    "masterDimensions": {
+      "width": 1671,
+      "height": 941
+    },
+    "masterSha256": "50c801fe49c3df2715bf8bd76d54a8a7f3c662f41f67fb79dfeba9ac41cd6d06",
+    "sourceSha256": "b382075ec5686dd8816f77315673e20023cc3cfb6f3949b30cc378751ef2f548",
+    "specSha256": "5569691b6eab1334f370265ae48f653e88ca08024573a9a0b41a925cbd326ac7",
+    "roomSha256": "14876eeec5d95e02b5a664382d975272918eb712b18a3b4be3da78b2ecd5683a",
+    "wideCrop": [
+      0,
+      0,
+      1671,
+      940
+    ],
+    "portraitCrop": [
+      780,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1262,
+      "cy": 639,
+      "w": 68,
+      "angle": 73
+    },
+    "glass": {
+      "x": 1213,
+      "y": 401
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1121,
+        "y0": 257,
+        "x1": 1308,
+        "y1": 722
+      },
+      "paper": {
+        "x0": 1226,
+        "y0": 577,
+        "x1": 1295,
+        "y1": 683
+      }
+    },
+    "personalityBounds": {
+      "chipsParcel": {
+        "x0": 840,
+        "y0": 436,
+        "x1": 1310,
+        "y1": 649
+      },
+      "sharingWoodForks": {
+        "x0": 878,
+        "y0": 413,
+        "x1": 1037,
+        "y1": 542
+      },
+      "visibleChips": {
+        "x0": 986,
+        "y0": 491,
+        "x1": 1161,
+        "y1": 562
+      }
+    },
+    "recognitionRegions": {
+      "chipsParcel": {
+        "x0": 840,
+        "y0": 436,
+        "x1": 1310,
+        "y1": 649
+      },
+      "sharingWoodForks": {
+        "x0": 878,
+        "y0": 413,
+        "x1": 1037,
+        "y1": 542
+      }
+    },
+    "supportingBounds": {
+      "lemonPeel": {
+        "x0": 1178,
+        "y0": 282,
+        "x1": 1281,
+        "y1": 469
+      },
+      "servingIce": {
+        "x0": 1131,
+        "y0": 257,
+        "x1": 1298,
+        "y1": 467
+      },
+      "stemAttachment": {
+        "x0": 1196,
+        "y0": 546,
+        "x1": 1252,
+        "y1": 602
+      },
+      "paperBand": {
+        "x0": 922,
+        "y0": 461,
+        "x1": 980,
+        "y1": 500
+      }
+    },
+    "physicalRecognitionRegions": {
+      "lemonPeel": {
+        "x0": 1178,
+        "y0": 282,
+        "x1": 1281,
+        "y1": 469
+      },
+      "servingIce": {
+        "x0": 1131,
+        "y0": 257,
+        "x1": 1298,
+        "y1": 467
+      }
+    },
+    "garnishBounds": {
+      "lemonPeel": {
+        "x0": 1178,
+        "y0": 282,
+        "x1": 1281,
+        "y1": 469
+      }
+    },
+    "visibility": {
+      "chipsParcel": {
+        "masterClipped": false,
+        "unseenExtent": "Contents behind vessel and crumpled paper unknown; visible whole parcel silhouette enclosed."
+      },
+      "sharingWoodForks": {
+        "masterClipped": false,
+        "unseenExtent": "Individual stacked fork extents hidden; exact six count unverified."
+      },
+      "lemonPeel": {
+        "masterClipped": false,
+        "unseenExtent": "Visible yellow strip curls inside ice; portions occluded by ice unknown, no hidden extent invented."
+      },
+      "servingIce": {
+        "masterClipped": false,
+        "unseenExtent": "Visible cubes enclosed; unseen cube faces/extents behind peel/liquid unknown."
+      }
+    },
+    "tagPhysics": {
+      "anchor": "Visible twine wrap across narrow stem below bowl at~1212,555, not rim.",
+      "knot": "Front crossing/knot~1217,558 visible; rear loop/knot topology and load hidden.",
+      "knotPoint": {
+        "x": 1217,
+        "y": 558
+      },
+      "holePoint": {
+        "x": 1247,
+        "y": 595
+      },
+      "tether": "Short continuous-looking diagonal downward front strand connects stem crossing to punched upper paper hole.",
+      "gravity": "Small paper face hangs below anchor; broad body outside glass.",
+      "airGap": "Clear separation along broad face beside stem; no pasted bowl contact.",
+      "contact": "Lower paper ends above/beside foot in projection; no convincing wood contact, rear depth/possible foot contact uncertain.",
+      "occlusion": "Narrow stem hides rear return; fine twine strands merge at knot.",
+      "uncertainties": [
+        "Rear circumference/complete knot topology unknown.",
+        "Front crossing may be knot but load-bearing support not proved.",
+        "Small paper/foot depth separation uncertain."
+      ],
+      "status": "plausible front support chain, uncertain; not tag-physics PASS"
+    },
+    "review": {
+      "recipe": "Exact large wine-glass ice serve with pale straw slightly hazy drink, fine sparkling bubbles and one long yellow peel strip dropped inside retained. Full visible served peel/ice bounds recorded separately from personality, hidden extents unknown. Dense spotting/ice sparkle and warm colour watch remain.",
+      "personality": "Recognizable actual chips parcel from current whoYouAre late-kitchen chips-for-six; full ordinary wood fork bundle inferred for sharing. Both same habit, not two invented biographies; six count and six-person portion not verified. Complete recognisable parcel cannot be shrunk to anonymous corner for phone claims.",
+      "world": "Historic reading-room setting and quiet dark left third improved; timber flatter thanv1 yet glossy warm reflections and fine rough repetitive grain persist, no material acceptance.",
+      "issues": [
+        "Glass465px high including projecting ice; camera pullback improved from677px but misses300–360px target.",
+        "Full chips parcel470px wide; meaningful complete group470px exceeds~389px moving-phone target.",
+        "Wood fork bundle still leftward rather than strictly behind vessel; phone may lose recognition.",
+        "Dense bowl/ice speckles and glossy warm timber reflections held.",
+        "Exact six forks and six-person quantity unverified.",
+        "Front stem chain plausible only; rear knot/load and paper-foot depth uncertain."
+      ]
+    },
+    "status": "held final measured candidate; initial+sole correction complete; no export/browser/integration/acceptance",
+    "sourceRefresh": {
+      "previousSourceSha256": "19609563bfc42c6987ede3ba8d167c619a42e39cbdc3202cdd6be175c7198ee3",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** You don't get away with things. You get let off. That's better.",
+        "+ - **tagline:** You charm a yes out of people, then bring your friends along."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1450.0538599640934,
+        "cy": 734.1702127659574,
+        "w": 78.13285457809694,
+        "angle": 72.99893479582457
+      },
+      "glass": {
+        "x": 1393.7522441651706,
+        "y": 460.7234042553191
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 615.2022792022792,
+        "cy": 815.7446808510638,
+        "w": 86.79202279202279,
+        "angle": 73.00304272682473
+      },
+      "glass": {
+        "x": 552.6609686609686,
+        "y": 511.9148936170212
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/regular-guy-outlaw/portrait.jpg",
+    "wide": "/personas/regular-guy-outlaw/wide.jpg",
+    "wideTag": {
+      "cx": 0.7552363853979653,
+      "cy": 0.6797872340425531,
+      "w": 0.040694195092758824,
+      "angle": 72.99893479582457
+    },
+    "wideGlass": {
+      "x": 0.7259126271693597,
+      "y": 0.42659574468085104
+    },
+    "tag": {
+      "cx": 0.6866096866096866,
+      "cy": 0.6797872340425531,
+      "w": 0.09686609686609686,
+      "angle": 73.00304272682473
+    },
+    "glass": {
+      "x": 0.6168091168091168,
+      "y": 0.42659574468085104
+    }
+  },
+  "hashes": {
+    "master": "50c801fe49c3df2715bf8bd76d54a8a7f3c662f41f67fb79dfeba9ac41cd6d06",
+    "wide": "41b85f17bd2ff1a1fbf9e16bfa365159c178e3ab471b0618dba708466e327189",
+    "portrait": "28446ed18e2fa19ab537600eb1ac1f3b01c9e4bf0aed8e91be588c5f4075e23c"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1288.0430879712746,
+          "y0": 295.27659574468083,
+          "x1": 1502.9084380610414,
+          "y1": 829.5319148936171
+        },
+        "paper": {
+          "x0": 1408.689407540395,
+          "y0": 662.936170212766,
+          "x1": 1487.9712746858168,
+          "y1": 784.7234042553192
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 993.3692399760623,
+          "y0": 246.06382978723403,
+          "x1": 1172.423698384201,
+          "y1": 691.2765957446809
+        },
+        "paper": {
+          "x0": 1093.9078396169957,
+          "y0": 552.4468085106383,
+          "x1": 1159.9760622381807,
+          "y1": 653.936170212766
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1373.9126271693597,
+          "y0": 261.60170212765956,
+          "x1": 1603.1023339317774,
+          "y1": 831.4740425531916
+        },
+        "paper": {
+          "x0": 1502.6020347097547,
+          "y0": 653.771914893617,
+          "x1": 1587.1693596648713,
+          "y1": 783.6782978723404
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2307.7438659485338,
+          "y0": 301.33723404255306,
+          "x1": 2692.710951526032,
+          "y1": 1258.544680851064
+        },
+        "paper": {
+          "x0": 2523.901855176541,
+          "y0": 960.0606382978724,
+          "x1": 2665.9485338120885,
+          "y1": 1178.2627659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6168091168091168,
+        "y": 0.42659574468085104
+      },
+      "bounds": {
+        "glass": {
+          "x0": 157.96698955365622,
+          "y0": 230.75319148936168,
+          "x1": 325.8372269705603,
+          "y1": 648.263829787234
+        },
+        "paper": {
+          "x0": 252.22567901234572,
+          "y0": 518.0723404255319,
+          "x1": 314.1671035137702,
+          "y1": 613.2468085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6168091168091168,
+        "y": 0.42659574468085104
+      },
+      "bounds": {
+        "glass": {
+          "x0": 174.02822412155749,
+          "y0": 254.81276595744683,
+          "x1": 359.40151946818617,
+          "y1": 715.8553191489361
+        },
+        "paper": {
+          "x0": 278.1148338081672,
+          "y0": 572.0893617021276,
+          "x1": 346.5146058879393,
+          "y1": 677.1872340425531
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6168091168091168,
+        "y": 0.42659574468085104
+      },
+      "bounds": {
+        "glass": {
+          "x0": 141.7979867046534,
+          "y0": 155.2936170212766,
+          "x1": 254.77226970560304,
+          "y1": 436.2723404255319
+        },
+        "paper": {
+          "x0": 205.23274453941121,
+          "y0": 348.6553191489362,
+          "x1": 246.91844254510926,
+          "y1": 412.7063829787234
+        }
+      }
+    }
+  ]
+}

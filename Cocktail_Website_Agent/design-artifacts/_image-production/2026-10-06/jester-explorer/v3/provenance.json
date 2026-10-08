@@ -1,0 +1,30 @@
+{
+  "callCount": 2,
+  "wide": {
+    "source": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-137e1053-d3ae-4144-ad46-1c231b9213fe.png",
+    "copy": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v3/master.png",
+    "sha256": "6f7dcb09cb253d83cb5a86af1c50193495e96162d2ad9adf2091addd846328e1",
+    "native": [
+      1672,
+      941
+    ],
+    "prompt": "prompt-wide-refinement.md",
+    "mode": "fresh"
+  },
+  "portrait": {
+    "source": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-e2364277-a7cd-4707-92b1-c4dbeb0ccf02.png",
+    "copy": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v3/portrait-master.png",
+    "sha256": "64d46600028553b748135caedc51089704cedd009d4e86162fa208872af9016b",
+    "native": [
+      1086,
+      1448
+    ],
+    "prompt": "prompt-portrait-refinement.md",
+    "reference": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-137e1053-d3ae-4144-ad46-1c231b9213fe.png",
+    "mode": "dedicated recompose"
+  },
+  "sourceSha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+  "specSha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67",
+  "roomSha256": "fb2cc7baf81948067a02af2f3b79d065e4f6835de34a9c6e01993ce3fd67cc2b",
+  "originalsPreserved": true
+}

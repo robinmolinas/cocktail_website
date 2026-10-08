@@ -1,0 +1,120 @@
+{
+  "pairing": "jester-hero",
+  "pour": "The Wink",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-hero/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-cd80ada6-c341-441f-ac7a-02694ebc31bb.png",
+  "sourceSha256": "82eff8508ef1525cd6c0c17434e8a123e395d73f7ebfc948e8a877beba18bed8",
+  "specSha256": "9f7079ada50ebddd860a3e48976a63f5260c3d04bc42ca9de11235dc917c6284",
+  "roomSha256": "690e1dd6d8df78e5c8d27d4913e9dc925f62d5fa5753a77c1565f73af51cb9d0",
+  "masterSha256": "ddc638fde183beb5ca6e91ff3393c0344e3cba4386801e9dc2e877d90ac70011",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    903,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1227,
+    "cy": 662,
+    "w": 100,
+    "angle": 88
+  },
+  "glass": {
+    "x": 1106,
+    "y": 596
+  },
+  "bounds": {
+    "glass": {
+      "x0": 932,
+      "y0": 426,
+      "x1": 1281,
+      "y1": 766
+    },
+    "paper": {
+      "x0": 1195,
+      "y0": 584,
+      "x1": 1258,
+      "y1": 728
+    },
+    "halfEggshellWithMezcal": {
+      "x0": 1302,
+      "y0": 620,
+      "x1": 1456,
+      "y1": 776
+    }
+  },
+  "personBounds": {
+    "jokeWorkingScrapsAndPencil": {
+      "x0": 661,
+      "y0": 437,
+      "x1": 960,
+      "y1": 625
+    },
+    "coatAndChair": {
+      "x0": 971,
+      "y0": 145,
+      "x1": 1665,
+      "y1": 599
+    }
+  },
+  "recognitionRegions": {
+    "jokeWorkingScrapsAndPencil": {
+      "x0": 671,
+      "y0": 441,
+      "x1": 947,
+      "y1": 619
+    },
+    "coatAndChair": {
+      "x0": 1100,
+      "y0": 248,
+      "x1": 1640,
+      "y1": 582
+    }
+  },
+  "traceExtentNotes": {
+    "jokeWorkingScrapsAndPencil": "Full visible blank-back folded scraps/pencil, rear paper portion hidden behind cup. Format inferred from private daily joke-work, no fake lettering.",
+    "coatAndChair": "Connected ordinary chair visible back145, coat laid lower with recognizable collar and repaired cuff; broad right extent1665. Full visible object union only, unseen seat/coat parts occluded behind table/cup not fabricated. Conservative recognition retains both collar and cuff, not anonymous fabric."
+  },
+  "group": {
+    "fullWidth": 1004,
+    "recognitionWidth": 969
+  },
+  "tagPhysics": {
+    "supportLoop": "Snug exterior ceramic lower-middle bodyloop belowrim, frontarc y560\u2013592 curves; rearhidden.",
+    "knot": "Sidebody visible knot near1217,577.",
+    "tether": "Short loop/cord descends fromknot toward punchedhole1221,612; overlapping cord segments ambiguous.",
+    "hole": "Punched dark hole near1221,612 visible; blank paper.",
+    "gravity": "Narrow label longaxis downward.",
+    "airgap": "No reliable airgap along broadface. Leftedgeshadow may be edge raised slightly; broadlabel lies against ceramic.",
+    "contact": "Paper bottom728 is above cupfoot766, no tabletopcontact.",
+    "uncertainty": "Actual free suspension NOT established; face-againstcup/support and overlapping tether remain uncertain.",
+    "assessment": "HELD: chain lowerbodyloop\u2192knot\u2192shortdownhole present but freehanging gap still not met; no physicsPASS."
+  },
+  "review": {
+    "recipe": "One chilled plain handleless terracotta/creamglaze cup, paleopaque softlyyellow wholeegg/milk mezcal nog with THIN fineaeration, no servingice/spice/garnish. ONE upright rinsed brown halfshell clearly holds transparentmezcal; notempty, requiredmethod7 accompaniment.",
+    "personality": "Blankbacks+pencil working and repaired coat collar/cuff ordinary inferredformats for daily hidden joke-finding/showingup; readable but still generic/broad, not source-explicit possessions.",
+    "world": "Historicdarkroom/quietleftthird; ambergloss densewoodgrain and coolupperrightwindow persist, not flatneutral practical-onlymaterial.",
+    "issues": [
+      "Glass340px target met, but shell makesphysicalservewide524px.",
+      "Fullvisiblegroup1004px/conservative recognition969px; not389movingphone.",
+      "Proposed702portrait903\u20131605 clipsjokework and outerrepair/cuff; no portrait/phoneacceptance.",
+      "Paperstillagainstceramic/no dependableairgap, tagphysicsheld.",
+      "Ambergloss/densegrain/coolwindow persists.",
+      "Traceformats inferred not directsourcepossessions; personalityspecificitynotPASS.",
+      "Hiddenchair/coat extent unknown."
+    ]
+  },
+  "unknownBounds": {
+    "garnish": null
+  }
+}

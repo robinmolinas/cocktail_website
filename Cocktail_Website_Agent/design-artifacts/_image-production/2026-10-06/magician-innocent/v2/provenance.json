@@ -1,0 +1,23 @@
+{
+  "pairing": "magician-innocent",
+  "version": "v2",
+  "tool": "built-in image_gen",
+  "operation": "sole targeted edit of v1",
+  "referencedImagePaths": [
+    "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-innocent/v1/master.png"
+  ],
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-innocent/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-e33dd9b3-4d64-4f9f-ba33-3eeb063034a8.png",
+  "masterSha256": "90ba554f1d6f342740a5681726fbb491098c6332842375ee5d94a4970c2ab12f",
+  "generatedOriginalSha256": "90ba554f1d6f342740a5681726fbb491098c6332842375ee5d94a4970c2ab12f",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "sourceSha256": "7d8cac0ac61e8e4ee7258c786570d2b8f899c9662d13b55d41bf66f508dac068",
+  "specSha256": "360fa8756c71298c5cfff5424e1424ecbf44fc9aa79d31b45b4d4d5abafc3773",
+  "roomSha256": "4abb1916eda0caa7dede7dd1eb115a54855755a5bd26165035b29cdf246ccdad",
+  "promptFile": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-innocent/v2/prompt.txt",
+  "callCountForPairing": 2,
+  "status": "measured candidate with holds"
+}

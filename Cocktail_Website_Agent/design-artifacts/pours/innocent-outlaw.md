@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch innocent)
 ## Cocktail
 
 - **name:** Fresh Air
-- **tagline:** Nobody quite believes you when you say it's enough. It is.
+- **tagline:** You know what enough feels like, and make it look like freedom.
 - **glassware:** a heavy tumbler (about 300 ml), two or three small lumps of ice
 - **contains:** `[]`
 

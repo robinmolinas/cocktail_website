@@ -1,0 +1,5 @@
+# Sole focused correction — With the Bite In
+
+Complete current195-line dossier/spec reread immediately before call. Complete341-line room/rules/imagegen skill+references/actual pilots read this turn. Dossier62ee64561f5bc2a162c4cd7f95021fc3e16fafe0c0eef31c173bff39eb6309bf; specd654765ae71d8ba949cd1244345e56eeba5c57278b5262f3d6a0d23be2d69b49; roomdf8d83a85dd697552fdefc77338c3b9344814f86b47c66f1798ba9cdd1bffba7.
+
+v1 inspected native1672×941: one icefilled highball, inside squeezed-looking lime half, thin fizz/red bitters; lowerbody loop/knot/tether/hole, tagtip woodcontact. Glass562px tall, broad record/draft spread offmaster, amber glossy scratched wood and bright amber upper liquid. Only allowed correction pulls back/overlaps true-size traces/flattens material/darkens stirred cola. Recipe/editorial unchanged; current D1 supersedes stale nuts notes. Real78rpm and folded draft are source-explicit formats, blank reverse/pencil avoids fake lyrics; not historical possessions. No export/phone/material/tag blanket PASS.

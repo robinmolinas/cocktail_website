@@ -1,0 +1,446 @@
+{
+  "pairing": "explorer-outlaw",
+  "pour": "Fine by Me",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "6ceac0749240c357345f239128426a07a06d3e6a261746c842c4d56ebce8424e",
+  "review": {
+    "requestedChange": "PASS at master only: front pasted-looking label removed; one punched blank paper tag visibly hangs outside left glass silhouette, connected to loose burgundy cord. Broad paper body has clear air gap from glass.",
+    "recipe": "Original tall packed-ice clear pale amber-gold sparkling cider/bourbon highball and one inside orange peel preserved. No foam, bacon garnish, fat layer, apples, straw or second drink.",
+    "personality": "Repaired pouch/used pliers preserved; explicitly inferred self-carried work, not a historical-object claim.",
+    "world": "Historic timber room and practical lighting preserved. Existing glossy worn timber and dense sparkling ice/droplet texture remain material holds; no broad restyling was requested.",
+    "issues": [
+      "Full/recognition span819/744px; portrait recomposition needed for all evidence and moving-phone retention not met.",
+      "128px clean writable axis is still short; actual short/long-name glyph fit at steep -68deg rotation untested.",
+      "Glossy patterned wood and sparkling dense glass/ice remain held from v3.",
+      "No JPEG exports, browser/name/motion review, final approval or public integration."
+    ]
+  },
+  "measurements": {
+    "pairing": "explorer-outlaw",
+    "pour": "Fine by Me",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-outlaw/v4/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-a472d42b-579f-44f3-945c-e68b0a7b3e7b.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "masterSha256": "4809197137871f86254f8f71806429c46af2c4bcb7e161375387f43d344e90c7",
+    "sourceSha256": "6ceac0749240c357345f239128426a07a06d3e6a261746c842c4d56ebce8424e",
+    "specSha256": "c242ea39600435fab2011959caf3441b49fd437442be52f9790de965fdf8118c",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      700,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 782,
+      "cy": 660,
+      "w": 128,
+      "angle": -68
+    },
+    "glass": {
+      "x": 946,
+      "y": 505
+    },
+    "bounds": {
+      "glass": {
+        "x0": 840,
+        "y0": 246,
+        "x1": 1053,
+        "y1": 765
+      },
+      "paper": {
+        "x0": 721,
+        "y0": 559,
+        "x1": 846,
+        "y1": 743
+      },
+      "toolPouch": {
+        "x0": 1045,
+        "y0": 420,
+        "x1": 1504,
+        "y1": 735
+      },
+      "pliers": {
+        "x0": 1083,
+        "y0": 584,
+        "x1": 1540,
+        "y1": 790
+      }
+    },
+    "recognitionRegions": {
+      "toolPouch": {
+        "bounds": {
+          "x0": 1054,
+          "y0": 423,
+          "x1": 1465,
+          "y1": 625
+        },
+        "reason": "Complete recognisable folded pouch flap/open edge plus stitched repair patch; no narrowed box to grant a pass."
+      },
+      "pliers": {
+        "bounds": {
+          "x0": 1083,
+          "y0": 584,
+          "x1": 1300,
+          "y1": 697
+        },
+        "reason": "Readable complete jaws, functional pivot and beginnings of the two separate handles."
+      }
+    },
+    "measurementNotes": "Visual measurement from actual original-resolution PNG, edges approximately3–8px uncertainty. Tag axis excludes punched hole/string/clipped upper end;128px usable along long axis, not across short width. Proposed702×940 portrait retains glass/paper and plier recognition but clips the conservative pouch region; it is a crop proposal, not an approved portrait companion. Full visible group819px; conservative glass/paper+recognition union744px; even full702px portrait cannot contain all conservative evidence. Separate portrait recomposition remains outstanding; no phone or name success.",
+    "review": {
+      "requestedChange": "PASS at master only: front pasted-looking label removed; one punched blank paper tag visibly hangs outside left glass silhouette, connected to loose burgundy cord. Broad paper body has clear air gap from glass.",
+      "recipe": "Original tall packed-ice clear pale amber-gold sparkling cider/bourbon highball and one inside orange peel preserved. No foam, bacon garnish, fat layer, apples, straw or second drink.",
+      "personality": "Repaired pouch/used pliers preserved; explicitly inferred self-carried work, not a historical-object claim.",
+      "world": "Historic timber room and practical lighting preserved. Existing glossy worn timber and dense sparkling ice/droplet texture remain material holds; no broad restyling was requested.",
+      "issues": [
+        "Full/recognition span819/744px; portrait recomposition needed for all evidence and moving-phone retention not met.",
+        "128px clean writable axis is still short; actual short/long-name glyph fit at steep -68deg rotation untested.",
+        "Glossy patterned wood and sparkling dense glass/ice remain held from v3.",
+        "No JPEG exports, browser/name/motion review, final approval or public integration."
+      ]
+    },
+    "status": "user-requested-tag-correction; measured-master-only; composition/material held; portrait-recomposition-needed",
+    "sourceRefresh": {
+      "previousSourceSha256": "2e4b84294914bed5ffb1f0728b03fd603fe7a6d5b02e8710c8fdcf79f1aaf97c",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** Most people hear \"only if\" as a no. You hear a way in.",
+        "+ - **tagline:** You hear “only if” as a yes with instructions."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 897.9904306220096,
+        "cy": 758.2978723404256,
+        "w": 146.98564593301435,
+        "angle": -68.01058053214051
+      },
+      "glass": {
+        "x": 1086.3157894736842,
+        "y": 580.2127659574469
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 104.66096866096866,
+        "cy": 842.5531914893617,
+        "w": 163.37321937321937,
+        "angle": -68.00377987213986
+      },
+      "glass": {
+        "x": 313.98290598290595,
+        "y": 644.6808510638298
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/explorer-outlaw/portrait.jpg",
+    "wide": "/personas/explorer-outlaw/wide.jpg",
+    "wideTag": {
+      "cx": 0.4677033492822967,
+      "cy": 0.7021276595744681,
+      "w": 0.07655502392344497,
+      "angle": -68.01058053214051
+    },
+    "wideGlass": {
+      "x": 0.5657894736842105,
+      "y": 0.5372340425531915
+    },
+    "tag": {
+      "cx": 0.1168091168091168,
+      "cy": 0.7021276595744681,
+      "w": 0.18233618233618235,
+      "angle": -68.00377987213986
+    },
+    "glass": {
+      "x": 0.3504273504273504,
+      "y": 0.5372340425531915
+    }
+  },
+  "hashes": {
+    "master": "4809197137871f86254f8f71806429c46af2c4bcb7e161375387f43d344e90c7",
+    "wide": "8a6ae514c2e7c990f0de42a843e820ac8e0b55b845b6774c2f71927314d563df",
+    "portrait": "84ee34de6c31208459f3d61bbc5acb3e55e6a2a29545803823fc248f9c467088"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 964.5933014354066,
+          "y0": 282.6382978723404,
+          "x1": 1209.1866028708134,
+          "y1": 878.9361702127659
+        },
+        "paper": {
+          "x0": 827.9425837320574,
+          "y0": 642.2553191489362,
+          "x1": 971.4832535885166,
+          "y1": 853.6595744680851
+        },
+        "toolPouch": {
+          "x0": 1200,
+          "y0": 482.55319148936167,
+          "x1": 1727.0813397129186,
+          "y1": 844.468085106383
+        },
+        "pliers": {
+          "x0": 1243.6363636363635,
+          "y0": 670.9787234042553,
+          "x1": 1768.421052631579,
+          "y1": 907.6595744680851
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 723.8277511961721,
+          "y0": 235.531914893617,
+          "x1": 927.6555023923445,
+          "y1": 732.4468085106383
+        },
+        "paper": {
+          "x0": 609.9521531100478,
+          "y0": 535.2127659574469,
+          "x1": 729.5693779904306,
+          "y1": 711.3829787234042
+        },
+        "toolPouch": {
+          "x0": 920,
+          "y0": 402.12765957446805,
+          "x1": 1359.2344497607655,
+          "y1": 703.7234042553191
+        },
+        "pliers": {
+          "x0": 956.3636363636363,
+          "y0": 559.1489361702128,
+          "x1": 1393.6842105263158,
+          "y1": 756.3829787234043
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1028.8995215311004,
+          "y0": 248.12085106382978,
+          "x1": 1289.799043062201,
+          "y1": 884.171914893617
+        },
+        "paper": {
+          "x0": 883.1387559808612,
+          "y0": 631.7123404255319,
+          "x1": 1036.248803827751,
+          "y1": 857.2102127659574
+        },
+        "toolPouch": {
+          "x0": 1280,
+          "y0": 461.3634042553191,
+          "x1": 1842.22009569378,
+          "y1": 847.4059574468084
+        },
+        "pliers": {
+          "x0": 1326.5454545454545,
+          "y0": 662.3506382978724,
+          "x1": 1886.3157894736842,
+          "y1": 914.8102127659575
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1728.2296650717701,
+          "y0": 278.6936170212765,
+          "x1": 2166.4593301435407,
+          "y1": 1347.0606382978722
+        },
+        "paper": {
+          "x0": 1483.3971291866028,
+          "y0": 923.0074468085106,
+          "x1": 1740.5741626794256,
+          "y1": 1301.773404255319
+        },
+        "toolPouch": {
+          "x0": 2150,
+          "y0": 636.8744680851063,
+          "x1": 3094.354066985646,
+          "y1": 1285.3053191489362
+        },
+        "pliers": {
+          "x0": 2228.181818181818,
+          "y0": 974.4702127659575,
+          "x1": 3168.4210526315787,
+          "y1": 1398.5234042553193
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.0148005682190205,
+        "y": 0.5372340425531915
+      },
+      "bounds": {
+        "glass": {
+          "x0": 122.12335346628683,
+          "y0": 220.87659574468086,
+          "x1": 313.33383779677115,
+          "y1": 686.8723404255319
+        },
+        "paper": {
+          "x0": 15.296838746438755,
+          "y0": 501.91063829787237,
+          "x1": 127.50956429249764,
+          "y1": 667.1191489361702
+        },
+        "toolPouch": {
+          "x0": 306.15222336182336,
+          "y0": 377.1063829787234,
+          "x1": 718.1973515669516,
+          "y1": 659.936170212766
+        },
+        "pliers": {
+          "x0": 340.2648919278253,
+          "y0": 524.3574468085106,
+          "x1": 750.5146165242165,
+          "y1": 709.3191489361702
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.01476363505447847,
+        "y": 0.5372340425531915
+      },
+      "bounds": {
+        "glass": {
+          "x0": 134.8565941120608,
+          "y0": 243.90638297872343,
+          "x1": 346.00371661918325,
+          "y1": 758.4893617021277
+        },
+        "paper": {
+          "x0": 16.89176980056981,
+          "y0": 554.2425531914895,
+          "x1": 140.80440037986708,
+          "y1": 736.6765957446809
+        },
+        "toolPouch": {
+          "x0": 338.07330826210824,
+          "y0": 416.4255319148936,
+          "x1": 793.0804877492877,
+          "y1": 728.7446808510639
+        },
+        "pliers": {
+          "x0": 375.74274795821464,
+          "y0": 579.0297872340426,
+          "x1": 828.7673253561253,
+          "y1": 783.2765957446809
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.022980243799915877,
+        "y": 0.5372340425531915
+      },
+      "bounds": {
+        "glass": {
+          "x0": 82.18728053181387,
+          "y0": 148.6468085106383,
+          "x1": 210.86921785375117,
+          "y1": 462.25531914893617
+        },
+        "paper": {
+          "x0": 10.294554985754992,
+          "y0": 337.77872340425535,
+          "x1": 85.81212383665718,
+          "y1": 448.9617021276596
+        },
+        "toolPouch": {
+          "x0": 206.03609344729344,
+          "y0": 253.78723404255317,
+          "x1": 483.33660626780625,
+          "y1": 444.12765957446805
+        },
+        "pliers": {
+          "x0": 228.99343437796773,
+          "y0": 352.88510638297873,
+          "x1": 505.0856660968661,
+          "y1": 477.3617021276596
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "pairing": "jester-magician",
+  "pour": "The Kind You'd Want",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-7457a454-ed2d-4f81-9768-80e34b50e75f.png",
+  "sourceSha256": "896af7a4eb5de91449e7e404ab965301559fa98d7be1ef77361471d9d3805599",
+  "specSha256": "3ce67214f49a9e03f9d5fded29ed434c347ad55ac0e85d7af06da1780e50bd79",
+  "roomSha256": "c64e078f095d05dac035990dddac103fec9a3a181e44d2b2eb4463737a2c3e8d",
+  "masterSha256": "fc136cdc2c2f7b5119d8973a9244caaae9090dd2e9e2feca2b8a0683954c2d2e",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    868,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1198,
+    "cy": 689,
+    "w": 85,
+    "angle": 65
+  },
+  "glass": {
+    "x": 1026,
+    "y": 470
+  },
+  "bounds": {
+    "glass": {
+      "x0": 876,
+      "y0": 185,
+      "x1": 1177,
+      "y1": 746
+    },
+    "paper": {
+      "x0": 1143,
+      "y0": 613,
+      "x1": 1243,
+      "y1": 747
+    },
+    "ice": {
+      "x0": 891,
+      "y0": 220,
+      "x1": 1169,
+      "y1": 639
+    },
+    "lemonPeel": {
+      "x0": 974,
+      "y0": 237,
+      "x1": 1168,
+      "y1": 442
+    }
+  },
+  "personBounds": {
+    "fruitBowl": {
+      "x0": 1168,
+      "y0": 289,
+      "x1": 1652,
+      "y1": 595
+    },
+    "keyring": {
+      "x0": 1204,
+      "y0": 367,
+      "x1": 1459,
+      "y1": 444
+    },
+    "emptyMugs": {
+      "x0": 1184,
+      "y0": 96,
+      "x1": 1511,
+      "y1": 273
+    }
+  },
+  "recognitionRegions": {
+    "keysUnderBananas": {
+      "x0": 1199,
+      "y0": 290,
+      "x1": 1568,
+      "y1": 452
+    },
+    "turnedEmptyMugs": null
+  },
+  "traceExtentNotes": {
+    "fruitBowl": "Full visible bowl/bananas measured; key portions occluded underbananas unknown/null.",
+    "keyring": "Visible ring/keyhead/blades, posterior underfruit unknown/null.",
+    "emptyMugs": "Full visible pair measured; emptyinteriors not proven and left handle fronts camera. Reversedempty behavior recognitionNULL, not a fakePASS."
+  },
+  "group": {
+    "fullWidth": 776,
+    "recognitionWidth": 692
+  },
+  "tagPhysics": {
+    "supportLoop": "Thin brown exterior lowerbodyarc belowrim aroundy615–636, rearhidden.",
+    "knot": "Smallsideknot1160,615.",
+    "tether": "Veryshort continuous downlinkto1173,640hole.",
+    "hole": "Dark punchedhole1173,640.",
+    "gravity": "Freepaperdown/right fromknot.",
+    "airgap": "Paperoutboard with visiblegapalongmainface.",
+    "contact": "Bottomcorner1190,745rests nearwood with shadow.",
+    "uncertainty": [
+      "Rearclosure/friction/load and precisecontactdepth unproved.",
+      "Frontarc slightlygoldlit/twisted, materialvisibility heldwatch."
+    ],
+    "assessment": "Partialmechanicalchain visuallyplausible, not physicsPASS."
+  },
+  "review": {
+    "recipe": "One clear goldenicefilledstraighttumbler, ONElemonstripINSIDE, fizz/nofoam/cloud. Glasslooksverytallfor everyday300ml, densebubbles/iceetch held.",
+    "personality": "Keysunderbananas source-explicit/readable. Mugreversal/emptiness not demonstrated; secondrecognitionNULL.",
+    "world": "Historicdarktimberleftquiet, but ambergloss and two warm lamps.",
+    "issues": [
+      "Glass561px not320target, fullgroup776px too broad.",
+      "Mugemptyinteriors/reversedhandles notproved; second traceNULL/held.",
+      "Denseetched-lookingice/glass/bubbles, gold ratherthanpalegold liquidwatch.",
+      "Broadambergloss timber/multiplepracticals.",
+      "Proposedportraitclipsfruitbowl; nophone/name/JPEG/browser acceptance."
+    ]
+  }
+}

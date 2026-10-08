@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-29 (batch caregiver)
 ## Cocktail
 
 - **name:** Not Too Polite
-- **tagline:** Someone had to say it. It's usually you.
+- **tagline:** You speak up for the people who aren't in the room.
 - **glassware:** a tall (Collins) glass, chilled, filled with ice
 - **contains:** `["nuts"]`
 

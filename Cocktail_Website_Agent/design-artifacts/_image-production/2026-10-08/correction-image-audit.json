@@ -1,0 +1,450 @@
+{
+  "checkedAt": "2026-10-08T14:49:35.066912+00:00",
+  "pairs": 19,
+  "uniquePairings": 17,
+  "jpegFiles": 38,
+  "dimensionsAndHashes": "PASS",
+  "sourceAndSpecFingerprints": "PASS",
+  "scope": "File/metadata checks and actual exported JPEG inspection only. Browser/name and live integration belong to Claude.",
+  "staticCropPasses": 108,
+  "staticCropTotal": 133,
+  "results": [
+    {
+      "id": "explorer-creator-batch14",
+      "pairing": "explorer-creator",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "explorer-jester-batch14",
+      "pairing": "explorer-jester",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "innocent-creator-batch14",
+      "pairing": "innocent-creator",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 6,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "jester-explorer-batch14",
+      "pairing": "jester-explorer",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "jester-innocent-batch14",
+      "pairing": "jester-innocent",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "jester-lover-batch14",
+      "pairing": "jester-lover",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "jester-regular-guy-batch14",
+      "pairing": "jester-regular-guy",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "lover-creator-batch14",
+      "pairing": "lover-creator",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "magician-jester-batch14",
+      "pairing": "magician-jester",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "magician-ruler-batch14",
+      "pairing": "magician-ruler",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "ruler-jester-batch14",
+      "pairing": "ruler-jester",
+      "batch": 14,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "hero-creator-batch15",
+      "pairing": "hero-creator",
+      "batch": 15,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 5,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "hero-innocent-batch15",
+      "pairing": "hero-innocent",
+      "batch": 15,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 3,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "hero-regular-guy-batch15",
+      "pairing": "hero-regular-guy",
+      "batch": 15,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 5,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "lover-caregiver-batch15",
+      "pairing": "lover-caregiver",
+      "batch": 15,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 6,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "jester-magician-batch15",
+      "pairing": "jester-magician",
+      "batch": 15,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 7,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "outlaw-magician-batch15",
+      "pairing": "outlaw-magician",
+      "batch": 15,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 0,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "lover-caregiver-v5-batch16",
+      "pairing": "lover-caregiver",
+      "batch": 16,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 6,
+      "staticCropTotal": 7
+    },
+    {
+      "id": "outlaw-magician-v5-batch16",
+      "pairing": "outlaw-magician",
+      "batch": 16,
+      "dimensions": {
+        "wide": {
+          "width": 1920,
+          "height": 1080
+        },
+        "portrait": {
+          "width": 896,
+          "height": 1200
+        }
+      },
+      "outputHashesMatch": true,
+      "masterHashesMatch": true,
+      "currentDossierAndSpecMatch": true,
+      "normalizedMeasurementsFiniteAndInRange": true,
+      "wideJpegInspected": true,
+      "portraitJpegInspected": true,
+      "staticCropPasses": 0,
+      "staticCropTotal": 7
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Quote Me — batch11 actual pre-call readiness
+
+Full imagegen system skill/shared prompting/sample references read; complete current persona-image-system334lines/application DESIGN566lines/calibration-continuation/parallel plan260lines/pilot checkpoint/applied decisions read through EOF, recovering truncated chunks. Six actual house wide+portrait controls viewed at original resolution. Fresh stage/public pairing absent. Complete207-line dossier, spec and235-line closed room read through EOF.
+
+Current source f8773e8b98bb77c15225b67dbfc21e3d944b34c253ebbc64f3c996252acd3a2e; spec7f5485f4edccae8a156ef359801a8e409615a8a51bd424e4289bb9f6680bf97c; roomca0ced5d4f1c9855ce24c153e932e367247edd2fe3d7b75239e11e1b82db843d.
+
+Physical settled: small200ml heavy tumbler freezer-chilled, NOICE.60ml aged Jamaican rum40–43%,20ml banana liqueur~25%,2dashes Angostura prechilled closed container2hours;30ml measured ice-cold still water excluding ice stirredfewturns, one orange peel expressed then dropped in.111.6ml clear still amber halfway, uneven frost with readable clear liquid, no foam/bubbles/rim garnish/banana slices. Giffard label data remains unchecked source warning, not physical serving ambiguity; no editorial/recipe changes. Closed room/all signatures/no objections, draft/tagline not gate.
+
+Two personality traces: used starter plate/full put-down fork from explicit dinner-of-eight/put-fork-down behavior; folded coat from explicit private agreement by the coats. Actual specific plate crumbs/coat colour are plausible ordinary scene inferences, not literal biography or readable scandal text. Can suggest interrupted dinner, cannot visually prove verdict-as-question/gasp; specificity watch. Full recognisable coat cannot be reduced to a button edge to claim crop.
+
+Old airborne newsprint/hard flash/pink neon removed; ingredients/jug/newspaper omitted to preserve drink-person hierarchy. Same historic timber room, no magical scene/people. Small exterior lower-body loop/knot/downward continuous tether/hole and paper gravity/gap/contact required, no rim/adhesive; support uncertainty measured after actual output. Aim compact389px group and moderate glass; actual misses held,702portrait not phone/browser PASS. Initialcall1/max4; only one focused correction available for this pairing.

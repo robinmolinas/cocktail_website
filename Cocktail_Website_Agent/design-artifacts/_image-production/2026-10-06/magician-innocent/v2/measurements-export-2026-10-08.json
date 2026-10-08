@@ -1,0 +1,139 @@
+{
+  "pairing": "magician-innocent",
+  "pour": "More Than One Head",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-innocent/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-e33dd9b3-4d64-4f9f-ba33-3eeb063034a8.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "90ba554f1d6f342740a5681726fbb491098c6332842375ee5d94a4970c2ab12f",
+  "sourceSha256": "de3bcd69629a3331d3057e053bc65d95e7b2e49cae24c96d5cc6f1debcc1b80f",
+  "specSha256": "360fa8756c71298c5cfff5424e1424ecbf44fc9aa79d31b45b4d4d5abafc3773",
+  "roomSha256": "4abb1916eda0caa7dede7dd1eb115a54855755a5bd26165035b29cdf246ccdad",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    813,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1244,
+    "cy": 686,
+    "w": 83,
+    "angle": 36
+  },
+  "glass": {
+    "x": 1084,
+    "y": 499
+  },
+  "bounds": {
+    "glass": {
+      "x0": 976,
+      "y0": 301,
+      "x1": 1193,
+      "y1": 696
+    },
+    "paper": {
+      "x0": 1174,
+      "y0": 642,
+      "x1": 1316,
+      "y1": 732
+    },
+    "napkins": {
+      "x0": 844,
+      "y0": 420,
+      "x1": 1508,
+      "y1": 641
+    },
+    "envelopes": {
+      "x0": 1182,
+      "y0": 383,
+      "x1": 1481,
+      "y1": 557
+    }
+  },
+  "recognitionRegions": {
+    "napkins": {
+      "bounds": {
+        "x0": 847,
+        "y0": 452,
+        "x1": 982,
+        "y1": 611
+      },
+      "reason": "Substantial layered left napkin folds/hem and compressed stack visible; not anonymous fabric strip. Right folds supporting, hidden behind glass unknown."
+    },
+    "envelopes": {
+      "bounds": {
+        "x0": 1188,
+        "y0": 385,
+        "x1": 1477,
+        "y1": 554
+      },
+      "reason": "Large envelope face/open triangular flap and packet layers recognizable, not paper edge."
+    }
+  },
+  "objectVisibility": {
+    "napkins": "Folded bundle partly behind glass; unknown unseen folds. Visible outline only.",
+    "envelopes": "Packet visible with some overlap/self-occlusion; unknown hidden extent.",
+    "physicalGarnish": "No garnish as source."
+  },
+  "supportingObjectUnion": {
+    "x0": 844,
+    "y0": 383,
+    "x1": 1508,
+    "y1": 641
+  },
+  "essentialObjectUnion": {
+    "x0": 844,
+    "y0": 301,
+    "x1": 1508,
+    "y1": 732
+  },
+  "tagPhysics": {
+    "mechanism": "Thin exterior lowerbody loop around y607\u2013635, at liquid/clearfoot transition, belowrim301. Front curvature follows cylinder and sides disappear round glass.",
+    "knot": "Tiny apparent knot/crossing near1186/616; secure loaded topology cannot be established.",
+    "tetherAndHole": "Short roughlydownward strand from junction to punchedhole1200/653; tight overlappingcord segments tiny.",
+    "gravity": "Paper falls down/outboard to right below support.",
+    "paperSeparationOrContact": "Small paper visibly outsideglass with sidegap and loweredge resting on real timber/contactshadow near731.",
+    "uncertainties": [
+      "Rearloop/friction/knotload not demonstrable.",
+      "Loop at liquidfoot transition, not entirely clearbase BELOWliquid.",
+      "Writingaxis83px/name fit untested.",
+      "Tiny junction topology unresolved."
+    ],
+    "status": "Visible plausible chain/honest contact, uncertainties held, not physics PASS."
+  },
+  "review": {
+    "recipe": "Pale rosyamber faintlyhazy sparkling cubedice/no garnish/foam/rim correct; granular dense bubbles/wetice detail still realism hold.",
+    "personality": "Distinct hostnapkins/open blank envelopepacket source-grounded monthlydinner inference retained and overlapped more, still generic hosting vs runaway-growth watch.",
+    "world": "Same historic room/darkleft; blanket glossy warm patterned table and dense etchedice remain held.",
+    "issues": [
+      "Glass395px still above300\u2013360.",
+      "Full664px/conservative630px group wider than389px movingphone; proposed702portrait nominally retains visiblegroup, not phone PASS.",
+      "Generic hosting/runaway specificity and napkin vs foldedcloth interpretation inferred.",
+      "Dense etched granularice/allorange glossytable held.",
+      "Tag83px namefitunverified/rear/knotloadheld.",
+      "No exporter/browser/integration/acceptance."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "7d8cac0ac61e8e4ee7258c786570d2b8f899c9662d13b55d41bf66f508dac068",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You never worry it won't work. You worry it will.",
+      "+ - **tagline:** You make good things happen before you're quite ready for them.",
+      "- **tagline:** You never worry it won't work. You worry it will.",
+      "+ **tagline:** You make good things happen before you're quite ready for them."
+    ]
+  },
+  "unknownBounds": {
+    "physicalGarnish": null
+  }
+}

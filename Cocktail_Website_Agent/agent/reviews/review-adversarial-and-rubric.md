@@ -6,6 +6,8 @@ lenses: [A — adversary (two conforming units that still clash), B — rubric]
 evidence: spine, .memlog.md, spec/SPEC.md (+ companions), design-artifacts/2026-07-08-experience-master-spec.md, dionysus-experience/src @ 2026-09-23
 ---
 
+> **Architecture review history — reviewed 8 October 2026.** The architecture spine contains the adopted resolutions. This preserves the findings at their date; it is not a fresh external technology/licence verification. Current direction: [experience specification](../../design-artifacts/2026-07-08-experience-master-spec.md).
+
 # Review: Dionysus architecture spine
 
 ## Verdict

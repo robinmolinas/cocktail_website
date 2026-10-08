@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 ## Cocktail
 
 - **name:** Not the Same
-- **tagline:** People think you want to change it. You're the one who loves it most.
+- **tagline:** You change the things you love so more people get to love them too.
 - **glassware:** cocktail coupe (about 200 ml), chilled, coated inside with apricot eau-de-vie, fine sugar on the outside of the rim
 - **contains:** `[]`
 

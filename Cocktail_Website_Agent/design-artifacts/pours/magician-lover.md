@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 ## Cocktail
 
 - **name:** Undimmed
-- **tagline:** You never set out to change anyone. People change around you all the same.
+- **tagline:** Your quiet attention gives people the nerve to change their lives.
 - **glassware:** small stemmed cocktail glass (about 120 ml), kept in the freezer, no ice
 - **contains:** `[]`
 
@@ -191,7 +191,7 @@ Pick: held to round 4.
 Wren's title-block notes:
 
 - **Name (my pick, held to the vote):** Not at Half
-- **Tagline:** You never set out to change anyone. People change around you all the same.
+- **Tagline:** Your quiet attention gives people the nerve to change their lives.
 - **Tagline candidates:** (2) You come in quieter than you are. People still remember you. (3) You know what you do to people. That's why you're careful.
 - **Epigraph:** Poured the way one London bar pours its Martini. That bar has a famous house rule.
 - **"This is me" line:** Everyone else heard a lovely story. You lay awake wondering whether it was them or you.

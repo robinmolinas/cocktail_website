@@ -1,3 +1,5 @@
+> **Dated analysis — reviewed 8 October 2026.** Preserve the measurements/proposals at their recorded date. H4 v4 and H5 world are built, Playfair is retained and icons are built. Open follow-ups are reconciled in the current evolution brief; earlier questions are not renewed approval requests. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # H5 component sources: React Bits, 21st.dev, Magic UI, Paper Shaders
 
 2026-10-06. A research audit only. No production code was changed.

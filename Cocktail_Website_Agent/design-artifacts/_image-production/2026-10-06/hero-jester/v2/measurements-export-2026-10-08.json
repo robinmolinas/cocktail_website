@@ -1,0 +1,139 @@
+{
+  "pairing": "hero-jester",
+  "pour": "Hold the Shark",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-jester/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-64e2fad0-0efc-415f-b567-1461dde101d1.png",
+  "sourceSha256": "e6182ec279434f305a3a5f5c1b3178113536f5fd4e3c97d6884dfbbb8445e145",
+  "specSha256": "9780c0547edf09fe9d0b40583a297cd459f49e2530e20936c147e90ff7ae26e7",
+  "roomSha256": "9a133916de1cd11205e9d0941a2c9129b2244e2f2607687d30fa76b98d3a8be7",
+  "masterSha256": "0cd6339cd08ad3c6b13437f74c8c9bbbe0a00d6869d5bf89d7cf12c899acdffe",
+  "masterDimensions": {
+    "width": 1641,
+    "height": 958
+  },
+  "wideCrop": [
+    0,
+    16,
+    1640,
+    922
+  ],
+  "portraitCrop": [
+    860,
+    16,
+    688,
+    922
+  ],
+  "tag": {
+    "cx": 1460,
+    "cy": 757,
+    "w": 80,
+    "angle": 39
+  },
+  "glass": {
+    "x": 1244,
+    "y": 613
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1090,
+      "y0": 442,
+      "x1": 1399,
+      "y1": 784
+    },
+    "paper": {
+      "x0": 1387,
+      "y0": 705,
+      "x1": 1528,
+      "y1": 800
+    },
+    "mintBranch": {
+      "x0": 1040,
+      "y0": 282,
+      "x1": 1269,
+      "y1": 468
+    },
+    "squeezedHalfLimeShell": {
+      "x0": 1266,
+      "y0": 359,
+      "x1": 1385,
+      "y1": 463
+    },
+    "crushedIceMound": {
+      "x0": 1154,
+      "y0": 383,
+      "x1": 1395,
+      "y1": 494
+    }
+  },
+  "personBounds": {
+    "scrapbookAndPencil": {
+      "x0": 609,
+      "y0": 517,
+      "x1": 1104,
+      "y1": 674
+    },
+    "foldedRaincoat": {
+      "x0": 616,
+      "y0": 324,
+      "x1": 1500,
+      "y1": 575
+    }
+  },
+  "recognitionRegions": {
+    "scrapbookAndPencil": {
+      "x0": 618,
+      "y0": 520,
+      "x1": 1102,
+      "y1": 670
+    },
+    "foldedRaincoat": {
+      "x0": 625,
+      "y0": 329,
+      "x1": 1088,
+      "y1": 569
+    }
+  },
+  "traceExtentNotes": {
+    "scrapbookAndPencil": "Wholevisibleopenblankbacknotebook/pencil, backrightoccludedglass; plainretellingwork staging frombrief notfakewriting.",
+    "foldedRaincoat": "Actualvisiblefoldedcoat+collar/cuff fullbody616\u20131500, rear/rightoccludeddrink. Conservativecore625\u20131088 includes meaningfulcollar/cuff relationship notanonymousstrip. Dampcoatordinaryinferencefrommotorwayrain, notexplicitpossession; unseenposteriorunknown."
+  },
+  "group": {
+    "fullWidth": 919,
+    "recognitionWidth": 910,
+    "physicalServeWidthIncludingAllGarnishAndPaper": 488
+  },
+  "tagPhysics": {
+    "supportLoop": "Exteriorlowbody curvedfrontarc ~y638\u2013676, rearhonestlyoccluded, wellbelowrim.",
+    "knot": "Visible rightsideknot1383,650.",
+    "tether": "Continuous cord down/outboard tohole1428,726; ~80px longerthanidealshorttether.",
+    "hole": "Darkpunchedhole1428,726 visible.",
+    "gravity": "Discreetpaperdownright/outboard.",
+    "airgap": "Broadface clearofglass/visibleairgap.",
+    "contact": "Bottompaper800restswood/contactshadow, nofreefloatingclaim.",
+    "uncertainty": "Posteriorloop/friction/knotloadnotobservable, tetherlengthwatch/namefitunknown.",
+    "assessment": "Plausible actual supportchain/contact with explicituncertainty, notphysicsPASS."
+  },
+  "review": {
+    "recipe": "One350mlDOF hazygold/toastedalmondMaiTai/wetcrushedmoundabove rim, ONEBIGfreshmintbranch, ONEspentsqueezedHALFlimeshell CUTSIDEUP pushedinice; nofoam/extrafruit/straw/spice. Plainbase, glass/icewetdetailstilldense.",
+    "personality": "Workedplainbackscrapbook/pencil retelling and dampfoldedroadcoat privatebad-dayremain sourcebehavior-grounded ordinaryinferences. Actualcollar+cuff readable, groupnotcompact/genericstillheld.",
+    "world": "Historichouse/leftthirdquiet/visiblelampwindowremoved; ambergloss densegrainbroadsheen/crackle stillmaterialheld.",
+    "issues": [
+      "Native1641\u00d7958, not1672\u00d7941; proposedwide1640\u00d7922/portrait688\u00d7922 measuredonly.",
+      "Glass342px targetroughlymet, but ALLmint+ice/lime/paper physicalservewidth488px exceeds~389movingphone.",
+      "Full919px/conservative recognition910px includesALLservedgarnish/paper andbothtracecores.",
+      "Portrait860\u20131548 retains drink/tag/garnish but losesleftnotebookspine andcoatcuff; nophonePASS.",
+      "Ambergloss/cracklesheen/denseuniformwetglassice persists.",
+      "Tagtetherlongerthanideal/posteriorloaduncertain/nameglyphfituntested.",
+      "Coat/paperformatsinferred notsourceexplicit/historical artifacts.",
+      "Notebook reads ordinary blank openbook; scrapbook-style telling not visually established."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "a5b08ea9af5a06ea5762f838dcb7d49a116803dfe8d53e578e4a860e71abc629",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- **closing line:** Tom\u00e1s's (final: *Take the almonds to gold before anything else: that's where the taste is. Next time someone asks how it went, give them what happened, nothing added.*). It agrees with y5's position, not the creed. y5 avoids \"nothing added\" so the two don't repeat each other.",
+      "+ **closing line:** Tom\u00e1s's, cut to its first sentence in the collection review (2026-10-06, D13 V6): *Take the almonds to gold before anything else: that's where the taste is.* The room's version went on: \"Next time someone asks how it went, give them what happened, nothing added.\" It agrees with y5's position, not the creed. y5 avoids \"nothing added\" so the two don't repeat each other."
+    ]
+  }
+}

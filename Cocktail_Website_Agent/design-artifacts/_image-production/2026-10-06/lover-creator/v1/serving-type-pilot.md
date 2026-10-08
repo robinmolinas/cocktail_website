@@ -1,0 +1,3 @@
+# Truthful two-serve exception pilot — not final approval
+
+Root acknowledged current two-glass brief before call. Current recipe serves TWO ~97ml chilled small Nick-and-Noras, each with coarse sugar outside rim. Total30mlgin/30orange/30grapefruit/15lime/15lemon/22.5mint syrup shaken and fine strained half each. No serving ice/garnish/mint leaves/foam. One forward hero small stem-tied tag, second vessel plain; both full served vessels/rims measured. Never depict one vessel as complete recipe. Private candidate exception only; no global two-glass approval, exports/browser/name/phone/material acceptance.

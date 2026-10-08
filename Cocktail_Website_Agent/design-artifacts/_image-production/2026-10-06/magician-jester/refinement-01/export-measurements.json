@@ -1,0 +1,127 @@
+{
+  "pairing": "magician-jester",
+  "pour": "Even When You Know",
+  "asset": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v3/wide-master.png",
+  "masterSha256": "f71ff5785192291eea17429f0f8cf175957cde8c8c4c621051df39f1d6e17c17",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-c17fbbf1-f82c-4aba-8505-2cc1730333ca.png",
+  "sourceSha256": "c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3",
+  "specSha256": "aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32",
+  "roomSha256": "8b1deeee8dfaca1a4bb0fe175139c02952f33b49e52034a7e8132f3172c06e1f",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "designSha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+  "tag": {
+    "cx": 1056,
+    "cy": 608,
+    "w": 96,
+    "angle": 78
+  },
+  "glass": {
+    "x": 996,
+    "y": 470
+  },
+  "bounds": {
+    "magnifierAndLinen": {
+      "x0": 1024,
+      "y0": 443,
+      "x1": 1672,
+      "y1": 724
+    },
+    "foldedSpectacles": {
+      "x0": 1140,
+      "y0": 391,
+      "x1": 1629,
+      "y1": 556
+    },
+    "glass": {
+      "x0": 874,
+      "y0": 184,
+      "x1": 1118,
+      "y1": 756
+    },
+    "paper": {
+      "x0": 1003,
+      "y0": 519,
+      "x1": 1101,
+      "y1": 667
+    },
+    "clearBottomLayer": {
+      "x0": 915,
+      "y0": 397,
+      "x1": 1069,
+      "y1": 478
+    },
+    "tawnyMiddleLayer": {
+      "x0": 908,
+      "y0": 330,
+      "x1": 1080,
+      "y1": 401
+    },
+    "darkRedTopLayer": {
+      "x0": 891,
+      "y0": 221,
+      "x1": 1097,
+      "y1": 336
+    }
+  },
+  "unknownExtents": {
+    "magnifierHandleBeyondRaster": null,
+    "linenBeyondRaster": null,
+    "magnifierHiddenUnderside": null,
+    "actualGlass75mlCapacity": null,
+    "actualLayerVolumes": null
+  },
+  "review": {
+    "recipe": "One flared cordial exact clear/tawny/red layer order/no ice/garnish/foam. Exact75ml/45ml total/10:15:20 and tested density not observable. Bowl appears fuller than source approximate two-thirds; not inventing volume PASS.",
+    "personality": "Balance apparatus removed to ordinary lens/weave and spectacles; demonstrates looking by inference, no actual people/behaviour proof. Handle clipped in wide.",
+    "world": "Broad plain glass surfaces/clear stem; flatter long-grain timber improved, directional warm reflective patches remain. Lamp plus lit fireplace gives extra source.",
+    "issues": [
+      "572px glass exceeds pulled-back target",
+      "Rim184 marginal below20%941=188, foot756 around80%",
+      "798px group and wide handle clipping",
+      "Stem multicoil/paired tether remains",
+      "Warm surface reflection and extra fireplace light",
+      "Exact capacity/layer quantities and name/browser unproved"
+    ],
+    "rootFindings": "Balance apparatus replaced by ordinary lens and folded spectacles; clear/tawny/red layers preserved. Portrait shows both traces whole but still spreads them sideways; patterned label and repeated high stem wrap remain held. Wide lens handle clips."
+  },
+  "tagPhysics": {
+    "supportLoop": "Pale multiple strands/turns around stem y501–522.",
+    "knot": "Visible right knot approximately1016,518.",
+    "tether": "Curved downward about35px to hole1034,547.",
+    "hole": "Dark punched hole1034,547 visible.",
+    "gravity": "Free downward/right cream paper.",
+    "airgap": "Main lower stem/label separated.",
+    "contact": "No timber contact.",
+    "uncertainty": [
+      "Multiple turns remain",
+      "Rear/load not observed",
+      "Paired tether/length larger than requested"
+    ],
+    "assessment": "Free paper chain plausible, single-strand house rule held; no physics PASS."
+  },
+  "wideCrop": [
+    4,
+    2,
+    1664,
+    936
+  ],
+  "portraitCrop": null,
+  "measurementMethod": "Copied native-specific manual measured coordinates; root viewed actual full-size image. Exact aspect-ratio crop proposes only conversion, not composition or name acceptance.",
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "rootOriginalInspected": true,
+  "exported": false,
+  "portraitMeasurementFile": "portrait-export-measurements.json"
+}

@@ -1,0 +1,5 @@
+# Final bounded portrait correction
+
+Complete current dossier, spec and 236-line closed room read to EOF immediately before call. Settled private two-serve exception remains TWO chilled small Nick-and-Noras about 97ml each: orange-gold shaken gin/four citrus/mint-syrup drink, coarse sugar OUTSIDE both rims, no serving ice/garnish/foam. Recipe/status unchanged; collection decisions resolve old balance flag. Modest unfinished piece plus handled brush are inferred from current WHO's hidden half-finished work/painting anchor, not replica/history proof. Meaningful companion glass is recipe, not an extra personality trace.
+
+Actual v3 portrait viewed original-resolution before edit. This v4 generates ONLY portrait, paired explicitly with unchanged v3 wide. One authorized correction call, no retries/export/acceptance. Current dossier SHA 63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78; spec 4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898; room a2743a7fa252cf33ca11ac4b66f551dcff12ea2a6e782797822eee516d4b9882. Tag must be single low-stem strand/short gravity tether, not a coil. Native review decides actual shortcomings.

@@ -1,0 +1,26 @@
+{
+  "pairing": "regular-guy-magician",
+  "pour": "Good for Years",
+  "batch": 11,
+  "version": "v1",
+  "mode": "generate",
+  "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-magician/v1/prompt-batch11.txt",
+  "readiness": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-magician/v1/readiness-batch11.md",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-8eedaeb4-7325-4e8d-b5f2-7aed1b9b0a94.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-magician/v1/master.png",
+  "originalSha256": "ec0e8d4cc31b920aa3fc42b19c3a35306458d7c47ed55f29d1fc37629807bc47",
+  "masterSha256": "ec0e8d4cc31b920aa3fc42b19c3a35306458d7c47ed55f29d1fc37629807bc47",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/regular-guy-magician.md",
+  "sourceSha256": "c8ce1075a500a9acfb765df2eef36092686fd4e562ecb2710595becd1a453d4b",
+  "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-magician.json",
+  "specSha256": "713e586ce0026d0b3d7fcb7e59f67107ec2c0e422b55174f390b706fdbdb8632",
+  "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-magician.md",
+  "roomSha256": "d0f4187c2f698285b4adfe5250b2613211ae6438fddb6c9fbc8adb1f7bb26dd0",
+  "builtInCallsForPairing": 1,
+  "targetedCorrectionCount": 0,
+  "status": "Preserved initial held candidate; sole correction requested, no export/acceptance."
+}

@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 ## Cocktail
 
 - **name:** Up Close
-- **tagline:** You know exactly what your attention does. And you mean all of it.
+- **tagline:** People remember how you made them feel because you remember who they are.
 - **glassware:** stemmed cocktail glass (about 180 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -190,7 +190,7 @@ Wren's title-block notes:
 
 - **name (final, my vote):** Up Close (Tomás's; I've moved to it)
 - **alternates:** A Second Longer · Nearby · Still Coming · Show Me
-- **tagline:** You know exactly what your attention does. And you mean all of it.
+- **tagline:** People remember how you made them feel because you remember who they are.
 - **epigraph:** A Monte Carlo barman kept his Manhattans plain. This one borrows from a regular's cocktail.
 
 ### Open items

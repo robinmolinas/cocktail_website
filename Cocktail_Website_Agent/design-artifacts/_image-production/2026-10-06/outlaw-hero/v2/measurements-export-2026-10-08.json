@@ -1,0 +1,97 @@
+{
+  "pairing": "outlaw-hero",
+  "pour": "Can't Watch",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-hero/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-4e1d9674-6f6c-4c22-9053-15cc35566067.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "d7e7faacfb07e0217c832b1917aa2f5125f74062cd54362901b63d6885584f41",
+  "specSha256": "bccea97bc7f179a483d516d721ee4ad64f873effab06bd32462cbdf2279d5c32",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    675,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1206,
+    "cy": 612,
+    "w": 130,
+    "angle": 34.3
+  },
+  "glass": {
+    "x": 1025,
+    "y": 402
+  },
+  "bounds": {
+    "glass": {
+      "x0": 915,
+      "y0": 342,
+      "x1": 1135,
+      "y1": 688
+    },
+    "paper": {
+      "x0": 1095,
+      "y0": 533,
+      "x1": 1284,
+      "y1": 685
+    }
+  },
+  "personalityBounds": {
+    "foldedNewspaper": {
+      "x0": 761,
+      "y0": 510,
+      "x1": 1181,
+      "y1": 640
+    },
+    "pencil": {
+      "x0": 803,
+      "y0": 534,
+      "x1": 1053,
+      "y1": 628
+    }
+  },
+  "recognitionRegions": {
+    "foldedNewspaper": {
+      "x0": 761,
+      "y0": 510,
+      "x1": 1181,
+      "y1": 640
+    },
+    "pencil": {
+      "x0": 803,
+      "y0": 534,
+      "x1": 1053,
+      "y1": 628
+    }
+  },
+  "review": {
+    "recipe": "One small rounded stemmed Nick & Nora-style glass, almost full with transparent reddish amber, orange peel genuinely dropped inside, no ice/foam/carbonation/rim. Source150ml glass/133.2ml finished serve. Colour reads deeper orange-red than light reddish amber estimate, held/watch; no recipe reinterpretation. Smooth glass areas broadly clear; sparse fine rim chill only.",
+    "personality": "Whole folded newspaper and whole sharpened wooden pencil are recognizable, conservative bounds retained. Newspaper derives from source brief, pencil is plausible inferred habit of working out unfair rule/who it serves and workaround by Friday. No claim these are Solarin artefacts. Generic reading/writing portrait may not distinguish Maverick without prose; honest specificity risk.",
+    "world": "Historic walnut reading room with plain glass/cream hanging tag. Mostly flat timber but golden glossy repetitive fine grain and large warm reflection remain material holds; bright right window competes with practical and old daylight brief was meant to be overridden.",
+    "issues": [
+      "Glass346px high above280\u2013330px intent; complete recognizable glass/paper/newspaper/pencil union523px exceeds350\u2013380px intent and~389px max breathing phone. Full702portrait retains scene but is NOT phone retention.",
+      "Usable tag130px at34.3deg below170\u2013200px intention; paper physically tied by visible cord/hole, hangs with gap; name/browser untested.",
+      "Newspaper retains generated fine grey print columns despite inward-fold instruction; pseudo-writing risk is not waived merely because no readable headline.",
+      "Drink is clear with correct orange peel inside, but deeper warm red/orange colour and broad bowl need final serving/material comparison; no volume claim from pixels.",
+      "Warm glossy repetitive fine timber/light reflects advertising-like wash; source/source-control recipe safe, material and phone acceptance held."
+    ]
+  },
+  "status": "measured-master-candidate;held;not-accepted;browser-deferred",
+  "sourceRefresh": {
+    "previousSourceSha256": "ce20e7665e5cb1945c287bed88cd33c8be84b5465a20e9973172742362761bc4",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** It's rarely your fight. That's never once stopped you.",
+      "+ - **tagline:** You can't walk past an unfair fight, even when it isn't yours."
+    ]
+  }
+}

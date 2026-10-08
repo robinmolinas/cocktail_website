@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch innocent)
 ## Cocktail
 
 - **name:** Let's Try It
-- **tagline:** You always say "probably not" first. You never mean it.
+- **tagline:** You notice the little signs that make a big hope feel possible.
 - **glassware:** a tall glass (highball, about 300 ml), filled with ice
 - **contains:** `[]`
 

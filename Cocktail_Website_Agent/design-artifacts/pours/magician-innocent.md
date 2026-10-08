@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 ## Cocktail
 
 - **name:** More Than One Head
-- **tagline:** You never worry it won't work. You worry it will.
+- **tagline:** You make good things happen before you're quite ready for them.
 - **glassware:** tall tumbler (about 400 ml), filled with ice cubes
 - **contains:** `[]`
 
@@ -192,7 +192,7 @@ Studio fact card `_studio/fact-cards/alexander-walker-johnnie-walker.md` (F1–F
 Wren's title-block notes:
 
 **name (pick):** More Than One Head
-**tagline:** You never worry it won't work. You worry it will.
+**tagline:** You make good things happen before you're quite ready for them.
 **closingLine (Tomás's, trimmed by Wren with his leave, r3):** *Thirty, sixty, a hundred and twenty. When it starts growing like that, say the "almost" out loud.*
 **epigraph:** *A whisky merchant wrote he could almost wish his business would halve. This glass doubles instead.*
 

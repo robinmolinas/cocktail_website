@@ -1,0 +1,405 @@
+{
+  "pairing": "magician-caregiver",
+  "pour": "Their Night",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "847f9c7a3aedcb144c1ba0ddf571eebb2402fa7b87df99d0f07ae4a265e6a547",
+  "review": {
+    "recipe": "Uniform dusty soft pink hazy shaken-anise cocktail in chilled stemmed glass, no garnish/serving ice/rim/egg-white foam. Some speckles/near-rim line remain; louche thickness is source unsourced craft appearance, not factual precision.105.7ml actual volume cannot be measured from image.",
+    "personality": "Ordinary full-sized scissors/spent ribbon infer completed unasked party arrangements. Whole visible scissors and entire ribbon bundle recognised, not anonymous fabric edges. Soft party background explicit source image brief; specificity/face/hand ambiguity held.",
+    "world": "Old private reading-room timber world retained, but warm glossy patterned table remains. Corrected view introduced several visible practical lights and bright left lamp, not the requested one-source restraint.",
+    "issues": [
+      "Complete glass411px high; conservative full/recognition foreground union491px vs approximately389px maximum-breathing phone estimate. No phone/motion PASS.",
+      "Proposed600,0,702,940 portrait retains glass/paper/whole scissors/recognisable ribbon bundle; source-approved background party is an additional wide cue, not evidence that phone keeps it.",
+      "Warm glossy fine-pattern timber persists; corrected v2 additionally introduced multiple practical lights/bright left lamp, breaking one-source/quiet-left direction.",
+      "People are explicitly source image brief (party underway), not arbitrary portraits. Actual soft background profiles/small lifted-hand-like shapes may remain more legible than requested no-face/no-hand; hold for later review.",
+      "Spent ribbon/scissors infer completed unasked celebration arrangements but are not explicit named source objects, historical artefacts, or proof of permission/meddling specificity.",
+      "Tag small and separate; exact knot/back-loop topology partly occluded, no absolute physics PASS. Actual name glyph fit untested.",
+      "Dusty pink haze present with near-rim speckles/line; exact natural louche thickness unsourced and capacity not measurable from photograph; no egg-white foam/garnish/serving ice depicted."
+    ]
+  },
+  "measurements": {
+    "pairing": "magician-caregiver",
+    "pour": "Their Night",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-caregiver/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-350f47fa-291c-4d09-a29c-3fb41c285c60.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "847f9c7a3aedcb144c1ba0ddf571eebb2402fa7b87df99d0f07ae4a265e6a547",
+    "specSha256": "28568235e89f324f6977148dbe4eae5354df9057ec2323e64f545454ee9c04b0",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      600,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1081,
+      "cy": 630,
+      "w": 65,
+      "angle": 80
+    },
+    "glass": {
+      "x": 1042,
+      "y": 404
+    },
+    "bounds": {
+      "glass": {
+        "x0": 915,
+        "y0": 334,
+        "x1": 1169,
+        "y1": 745
+      },
+      "paper": {
+        "x0": 1046,
+        "y0": 563,
+        "x1": 1113,
+        "y1": 676
+      }
+    },
+    "personalityBounds": {
+      "usedHouseholdScissors": {
+        "x0": 678,
+        "y0": 632,
+        "x1": 946,
+        "y1": 703
+      },
+      "spentWrappingRibbon": {
+        "x0": 800,
+        "y0": 545,
+        "x1": 1030,
+        "y1": 687
+      }
+    },
+    "recognitionRegions": {
+      "usedHouseholdScissors": {
+        "x0": 678,
+        "y0": 632,
+        "x1": 946,
+        "y1": 703
+      },
+      "spentWrappingRibbon": {
+        "x0": 800,
+        "y0": 545,
+        "x1": 1030,
+        "y1": 687
+      }
+    },
+    "supportingBounds": {
+      "sourcePartyBackground": {
+        "x0": 618,
+        "y0": 70,
+        "x1": 1267,
+        "y1": 614
+      }
+    },
+    "tagPhysics": {
+      "anchor": "Visible front cotton-twine arc wrapping narrow stem below bowl; rear loop hidden by stem as expected.",
+      "knot": "Small knot/overlapping strand bundle at stem-right; exact knot topology unresolved at image scale.",
+      "tether": "Continuous short downward-slanting tether from knot region to punched paper hole.",
+      "hole": "Dark round punched hole with twine visibly reaching/through it; no rim anchor.",
+      "gravity": "Blank paper is below its supporting stem knot, falls downward outside stem.",
+      "separation": "Visible air gap from stem and clear space above timber; no pasted-on face or table contact.",
+      "contact": "No adhesive-looking glass contact, drilled glass or naked rim attachment observed.",
+      "uncertainty": "Rear loop and exact knot depth are occluded; structured evidence is not absolute tag-physics PASS.",
+      "supportRegions": {
+        "stemLoop": {
+          "x0": 1022,
+          "y0": 530,
+          "x1": 1057,
+          "y1": 549
+        },
+        "knot": {
+          "x0": 1045,
+          "y0": 535,
+          "x1": 1060,
+          "y1": 551
+        },
+        "tether": {
+          "x0": 1049,
+          "y0": 544,
+          "x1": 1075,
+          "y1": 583
+        },
+        "hole": {
+          "x": 1071,
+          "y": 579
+        }
+      },
+      "status": "plausible visible support chain; knot/occlusion watch; not accepted"
+    },
+    "review": {
+      "recipe": "Uniform dusty soft pink hazy shaken-anise cocktail in chilled stemmed glass, no garnish/serving ice/rim/egg-white foam. Some speckles/near-rim line remain; louche thickness is source unsourced craft appearance, not factual precision.105.7ml actual volume cannot be measured from image.",
+      "personality": "Ordinary full-sized scissors/spent ribbon infer completed unasked party arrangements. Whole visible scissors and entire ribbon bundle recognised, not anonymous fabric edges. Soft party background explicit source image brief; specificity/face/hand ambiguity held.",
+      "world": "Old private reading-room timber world retained, but warm glossy patterned table remains. Corrected view introduced several visible practical lights and bright left lamp, not the requested one-source restraint.",
+      "issues": [
+        "Complete glass411px high; conservative full/recognition foreground union491px vs approximately389px maximum-breathing phone estimate. No phone/motion PASS.",
+        "Proposed600,0,702,940 portrait retains glass/paper/whole scissors/recognisable ribbon bundle; source-approved background party is an additional wide cue, not evidence that phone keeps it.",
+        "Warm glossy fine-pattern timber persists; corrected v2 additionally introduced multiple practical lights/bright left lamp, breaking one-source/quiet-left direction.",
+        "People are explicitly source image brief (party underway), not arbitrary portraits. Actual soft background profiles/small lifted-hand-like shapes may remain more legible than requested no-face/no-hand; hold for later review.",
+        "Spent ribbon/scissors infer completed unasked celebration arrangements but are not explicit named source objects, historical artefacts, or proof of permission/meddling specificity.",
+        "Tag small and separate; exact knot/back-loop topology partly occluded, no absolute physics PASS. Actual name glyph fit untested.",
+        "Dusty pink haze present with near-rim speckles/line; exact natural louche thickness unsourced and capacity not measurable from photograph; no egg-white foam/garnish/serving ice depicted."
+      ]
+    },
+    "status": "measured-master-candidate; held; not-accepted; browser-deferred",
+    "sourceRefresh": {
+      "previousSourceSha256": "5fa0bd865eda7ee85a7a060d896fe30712a0fe3a84e92a0288df35b71d0f12df",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** It was never your night. You made sure it was theirs.",
+        "+ - **tagline:** You arrange the moment someone needed before they knew how to ask.",
+        "- **tagline:** It was never your night. You made sure it was theirs.",
+        "+ **tagline:** You arrange the moment someone needed before they knew how to ask."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1241.33971291866,
+        "cy": 723.8297872340426,
+        "w": 74.64114832535886,
+        "angle": 80.00520909750506
+      },
+      "glass": {
+        "x": 1196.5550239234449,
+        "y": 464.17021276595744
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 613.925925925926,
+        "cy": 804.2553191489362,
+        "w": 82.96296296296296,
+        "angle": 80.00186100882685
+      },
+      "glass": {
+        "x": 564.1481481481482,
+        "y": 515.7446808510639
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/magician-caregiver/portrait.jpg",
+    "wide": "/personas/magician-caregiver/wide.jpg",
+    "wideTag": {
+      "cx": 0.6465311004784688,
+      "cy": 0.6702127659574468,
+      "w": 0.038875598086124404,
+      "angle": 80.00520909750506
+    },
+    "wideGlass": {
+      "x": 0.6232057416267942,
+      "y": 0.4297872340425532
+    },
+    "tag": {
+      "cx": 0.6851851851851852,
+      "cy": 0.6702127659574468,
+      "w": 0.09259259259259259,
+      "angle": 80.00186100882685
+    },
+    "glass": {
+      "x": 0.6296296296296297,
+      "y": 0.4297872340425532
+    }
+  },
+  "hashes": {
+    "master": "a1818827f55da3dd11ecdbf3db5855a6b608b13968ce31b9162be027c0c88876",
+    "wide": "eaebfdfc2fdf883ceb333ad028eb01c30c5e0f3d91cf2e275e7ae4de64dcef2d",
+    "portrait": "def36512e5b9698b106378b71610617843cca3d2cc7cc06db765c48642861777"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1050.7177033492824,
+          "y0": 383.74468085106383,
+          "x1": 1342.3923444976076,
+          "y1": 855.9574468085106
+        },
+        "paper": {
+          "x0": 1201.1483253588517,
+          "y0": 646.8510638297872,
+          "x1": 1278.086124401914,
+          "y1": 776.6808510638298
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 795.5980861244019,
+          "y0": 319.7872340425532,
+          "x1": 1038.6602870813397,
+          "y1": 713.2978723404254
+        },
+        "paper": {
+          "x0": 920.9569377990431,
+          "y0": 539.0425531914893,
+          "x1": 985.0717703349283,
+          "y1": 647.2340425531916
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1120.7655502392345,
+          "y0": 355.9676595744681,
+          "x1": 1431.8851674641148,
+          "y1": 859.6612765957447
+        },
+        "paper": {
+          "x0": 1281.2248803827752,
+          "y0": 636.6144680851063,
+          "x1": 1363.2918660287082,
+          "y1": 775.0995744680852
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1882.5358851674641,
+          "y0": 459.8425531914893,
+          "x1": 2405.1196172248806,
+          "y1": 1305.8904255319148
+        },
+        "paper": {
+          "x0": 2152.0574162679427,
+          "y0": 931.241489361702,
+          "x1": 2289.904306220096,
+          "y1": 1163.8531914893617
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6296296296296297,
+        "y": 0.4297872340425532
+      },
+      "bounds": {
+        "glass": {
+          "x0": 131.54742640075972,
+          "y0": 299.88936170212764,
+          "x1": 359.56368471035137,
+          "y1": 668.9148936170212
+        },
+        "paper": {
+          "x0": 249.14636277302947,
+          "y0": 505.5021276595744,
+          "x1": 309.29238366571695,
+          "y1": 606.9617021276596
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6296296296296297,
+        "y": 0.4297872340425532
+      },
+      "bounds": {
+        "glass": {
+          "x0": 144.84550807217477,
+          "y0": 331.15744680851066,
+          "x1": 396.6359734093067,
+          "y1": 738.659574468085
+        },
+        "paper": {
+          "x0": 274.7059449192783,
+          "y0": 558.2085106382978,
+          "x1": 341.1231149097815,
+          "y1": 670.2468085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.6296296296296297,
+        "y": 0.4297872340425532
+      },
+      "bounds": {
+        "glass": {
+          "x0": 124.75563152896486,
+          "y0": 201.82127659574468,
+          "x1": 278.2073314339981,
+          "y1": 450.17021276595744
+        },
+        "paper": {
+          "x0": 203.89804368471033,
+          "y0": 340.195744680851,
+          "x1": 244.37546058879389,
+          "y1": 408.4765957446809
+        }
+      }
+    }
+  ]
+}

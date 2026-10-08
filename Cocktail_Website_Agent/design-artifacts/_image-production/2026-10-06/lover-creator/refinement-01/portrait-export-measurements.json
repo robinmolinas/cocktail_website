@@ -1,0 +1,125 @@
+{
+  "pairing": "lover-creator",
+  "pour": "In Your Own Hand",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-creator/v4/portrait-master.png",
+  "masterSha256": "94e4d9497a0e65b05a6e90b3b96cd36d363ea53b2de8f762927fec7ed85d2290",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-7defc1de-516f-4ee5-8985-e74c6238c71e.png",
+  "sourceSha256": "63ba2c58016ccfe607f41a0c43e76fb01098afde899b09fae488a133a3971d78",
+  "specSha256": "4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898",
+  "roomSha256": "a2743a7fa252cf33ca11ac4b66f551dcff12ea2a6e782797822eee516d4b9882",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "designSha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+  "tag": {
+    "cx": 337,
+    "cy": 1004,
+    "w": 80,
+    "angle": 124
+  },
+  "glass": {
+    "x": 390,
+    "y": 920
+  },
+  "bounds": {
+    "unfinishedPiece": {
+      "x0": 376,
+      "y0": 540,
+      "x1": 855,
+      "y1": 896
+    },
+    "handledBrush": {
+      "x0": 489,
+      "y0": 862,
+      "x1": 1045,
+      "y1": 1000
+    },
+    "glass": {
+      "x0": 278,
+      "y0": 749,
+      "x1": 499,
+      "y1": 1093
+    },
+    "paper": {
+      "x0": 297,
+      "y0": 951,
+      "x1": 384,
+      "y1": 1052
+    },
+    "requiredSecondGlass": {
+      "x0": 462,
+      "y0": 722,
+      "x1": 659,
+      "y1": 1019
+    },
+    "outsideSugarRimHero": {
+      "x0": 278,
+      "y0": 746,
+      "x1": 498,
+      "y1": 808
+    },
+    "outsideSugarRimCompanion": {
+      "x0": 464,
+      "y0": 721,
+      "x1": 661,
+      "y1": 765
+    }
+  },
+  "unknownExtents": {
+    "unfinishedPiecePosterior": null,
+    "brushHiddenBristleExtent": null
+  },
+  "review": {
+    "recipe": "Two squat small-bowl stem glasses improved toward Nick-and-Nora, orange-gold softly cloudy shaken drinks and coarse outside rims, no serving ice/garnish/foam. Actual97ml capacity/measure not provable.",
+    "personality": "Unfinished artwork now directly behind glasses but became a large textured board, not modest postcard-size hesitant offering. Single full-size handled brush extends broadly right. Specific hesitation not visually proven.",
+    "world": "Historic room retained; cool window fill remains in addition to warm practical. Glass droplets relatively dense and artwork/table ornamental roughness and strong amber reflective timber remain.",
+    "issues": [
+      "Board479px wide and brush556px wide miss central40% target",
+      "Full767px group is not compact phone proof",
+      "Artwork enlarged rather than postcard",
+      "Second glass acquired unintended stemloop; front repeated turns",
+      "Front344px/companion297px high, squatter vessels improved but serving pilot not approved",
+      "Name fit/physics/browser untested",
+      "Warm glossy timber and heavily textured panel remain"
+    ],
+    "rootFindings": "Generic palette/kit removed. Portrait bowls shortened toward small Nick-and-Noras; unfinished work moved behind them, but became oversized again and both stems acquired wraps. Wide bowl scale, artwork hierarchy, cord quietness and phone framing remain held."
+  },
+  "tagPhysics": {
+    "supportLoop": "Front glass has visible tan loop about940–955 near upper/mid short stem, appearing repeated turns; second glass has an unintended visible stemwrap at~900 despite requested plain companion.",
+    "knot": "Front left-side knot around382,949.",
+    "tether": "Diagonal downward short cord from knot to hole about362,976, approximately32px rather than almost-vertical tiny tether.",
+    "hole": "Dark punched hole362,976 visible.",
+    "gravity": "Paper inclines down/left with free lower edge.",
+    "airgap": "Paper projects outboard left separated from bowl/stem.",
+    "contact": "Paper bottom1052 above table1090, appears suspended; no table contact required for stem tag.",
+    "uncertainty": [
+      "Rear load invisible",
+      "Front wrap repeated turns",
+      "Unintended second stem cord",
+      "Strict low stem target missed"
+    ],
+    "assessment": "Believable tethered outboard paper but user single-strand/one tagged vessel requirement held."
+  },
+  "wideCrop": null,
+  "portraitCrop": [
+    10,
+    13,
+    1064,
+    1425
+  ],
+  "measurementMethod": "Copied native-specific manual measured coordinates; root viewed actual full-size image. Exact aspect-ratio crop proposes only conversion, not composition or name acceptance.",
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "rootOriginalInspected": true,
+  "exported": false
+}

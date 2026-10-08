@@ -1,0 +1,27 @@
+{
+  "pairing": "jester-magician",
+  "pour": "The Kind You'd Want",
+  "date": "2026-10-08",
+  "primaryCallCount": 2,
+  "extraCallCount": 0,
+  "currentTextSources": {
+    "dossier": "design-artifacts/pours/jester-magician.md",
+    "spec": "design-artifacts/pours/_studio/specs/jester-magician.json",
+    "closedRoom": "design-artifacts/pours/_studio/rooms/jester-magician.md",
+    "read": "Full current text toEOF, hashes not executed"
+  },
+  "wide": {
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-13b2015d-b242-4a64-883b-a977dbebe36f.png",
+    "copy": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/wide-master.png",
+    "prompt": "wide-prompt-batch15.txt",
+    "mode": "Fresh built-in generation with no old raster"
+  },
+  "portrait": {
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-4fe481a4-b0e8-4acf-b001-ac75808cd58a.png",
+    "copy": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v3/portrait-master.png",
+    "prompt": "portrait-prompt-batch15.txt",
+    "mode": "Independent recomposition from own fresh wide"
+  },
+  "preservation": "cp-n exact tool source, original remains; no hash equality claim",
+  "status": "Held native candidates, no final metadata/JPEG/name/browser/physics/material acceptance"
+}

@@ -1,0 +1,5 @@
+# Further Than Me — user-directed correction, 7 October
+
+Root read complete current dossier/spec to EOF, imagegen skill and required references, current house rules/application DESIGN/continuation/checkpoint/applied decisions; inspected target v2 and six actual pilot JPEGs at original detail before this call. Draft/editorial status unchanged. Recipe/vessel/garnish remain settled: gin60/lemon30/simple22.5, mint6/tarragon8 shaken five seconds fine-strained, soda60, ice-filled highball, one mint and one tarragon standing together. Pale lightly cloudy appearance from source estimate.
+
+User explicitly requests base attachment on transparent glass and questions insufficient personality. Phone follows explicit calls; spectacles inferred listening; added worn olive cardigan with hand-darned cuff is an inferred patient-care habit, not a biographical claim. No generic teacher books/certificates. Restrained mood remains, not minimalist identity. Current dark room/blank tied paper supersede obsolete yellow-daylight kitchen/no-label brief without changing source. One bounded user-requested edit; no JPEG/public/runtime/browser/final acceptance.

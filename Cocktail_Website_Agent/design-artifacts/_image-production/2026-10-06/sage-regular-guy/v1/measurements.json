@@ -1,0 +1,126 @@
+{
+  "pairing": "sage-regular-guy",
+  "pour": "Whatever They Call It",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-regular-guy/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-471b03e6-5011-430d-a4de-946505d2f9e7.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "0da9c51883d65cf4e03a3c8afa8d25928181dc55a4fe88a901df0de4c0cade64",
+  "sourceSha256": "89d9cf57518bf9d04601470d483e75c722e01981cca1d8bb77e91db0be5a0181",
+  "specSha256": "f5c25076116b0e9575a189dead90bf2f7edd393b9f4b7f51cfeebaeae2d6365d",
+  "roomSha256": "94925bbee0969305f47ec05b35fa2fd05553da615fd356034080329cba7c2296",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    855,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1147,
+    "cy": 715,
+    "w": 119,
+    "angle": 69
+  },
+  "glass": {
+    "x": 1005,
+    "y": 481
+  },
+  "bounds": {
+    "glass": {
+      "x0": 867,
+      "y0": 206,
+      "x1": 1143,
+      "y1": 756
+    },
+    "paper": {
+      "x0": 1063,
+      "y0": 605,
+      "x1": 1219,
+      "y1": 790
+    },
+    "mug": {
+      "x0": 1140,
+      "y0": 339,
+      "x1": 1456,
+      "y1": 596
+    },
+    "purse": {
+      "x0": 1225,
+      "y0": 521,
+      "x1": 1633,
+      "y1": 682
+    },
+    "oreganoGarnish": {
+      "x0": 940,
+      "y0": 240,
+      "x1": 1081,
+      "y1": 335
+    }
+  },
+  "recognitionRegions": {
+    "mug": {
+      "bounds": {
+        "x0": 1145,
+        "y0": 342,
+        "x1": 1455,
+        "y1": 594
+      },
+      "reason": "Substantial whole mug rim/interior/body/handle; chipped and visibly no liquid."
+    },
+    "purse": {
+      "bounds": {
+        "x0": 1230,
+        "y0": 529,
+        "x1": 1627,
+        "y1": 681
+      },
+      "reason": "Full recognizable canvas zipper pouch body, opening and modest repair, not attached pull counted as second object."
+    }
+  },
+  "objectVisibility": {
+    "mug": "Full visible exterior except purse overlaps base; unseen occluded extent unknown.",
+    "purse": "Raster-visible full silhouette.",
+    "garnish": "Whole oregano sprig visible; lies generally across ice with individual leaves angled upward."
+  },
+  "supportingObjectUnion": {
+    "x0": 940,
+    "y0": 240,
+    "x1": 1633,
+    "y1": 682
+  },
+  "tagPhysics": {
+    "mechanism": "Natural thin twine around exterior lower body y566–604 below rim, curved front arc and side occlusion.",
+    "knot": "Visible front-right knot near1092/591.",
+    "tetherAndHole": "Short apparently continuous strand descends from knot to punched hole near1113/636.",
+    "gravity": "Paper lies below support and leans outward/downward.",
+    "paperSeparationOrContact": "Upper paper overlaps lower glass silhouette; rest projects outward and bottom rests at y788 on timber with shadow. Not freely floating or broad pasted label.",
+    "uncertainties": [
+      "Far-side loop/friction/load not visible.",
+      "Tether partly self-occluded by paper hole; exact threading unresolved.",
+      "Upper paper overlap requires independent look; no physics PASS."
+    ],
+    "status": "Plausible visible chain with knot/hole/overlap watches; held."
+  },
+  "review": {
+    "recipe": "Colorless tequila/soda highball with THREE apparent cubes and ONEsmall oregano sprig laid generally across upper ice. No citrus/sugar/foam. Individual leaf angle not itself upright sprig; overall horizontal garnish correct-looking.",
+    "personality": "Chipped empty mug and repaired full-size canvas purse recognizable; mug explicit brief, purse inferred valuing few practical belongings. Props side-by-side right rather than depth-overlap; exact persona specificity watch.",
+    "world": "Less orange than prior scenes, one practical/private timber room, but uniform glossy crackled wood and granular ice/glass remain material holds.",
+    "issues": [
+      "Glass550px rather than330.",
+      "Full essential group766px/conservative recognition760px, proposed702portrait clips purse.",
+      "No389movingphone margin/PASS.",
+      "Dense sparkling ice/condensation and glossy table.",
+      "Mug empty apparent, interior bottom partly hidden; no second finished drink claimed.",
+      "Tag119px at69°, actual name fit untested; attachment uncertainties retained.",
+      "No JPEG/export/browser/acceptance."
+    ]
+  }
+}

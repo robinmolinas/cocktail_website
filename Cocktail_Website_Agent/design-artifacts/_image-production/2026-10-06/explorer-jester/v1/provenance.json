@@ -1,0 +1,34 @@
+{
+  "pairing": "explorer-jester",
+  "pour": "Why Not?",
+  "batch": 13,
+  "version": "v1",
+  "mode": "generate",
+  "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v1/actual-prompt-batch13.txt",
+  "readiness": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v1/readiness-batch13.md",
+  "servingTypePilot": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v1/serving-type-pilot.md",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-62a542af-5730-41b9-922b-f62954a6795b.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v1/master.png",
+  "originalSha256": "e843dc11cd8fa1786be0b993211a5610ef03cee8423615e4ef37387cebb305d4",
+  "masterSha256": "e843dc11cd8fa1786be0b993211a5610ef03cee8423615e4ef37387cebb305d4",
+  "dimensions": {
+    "width": 1672,
+    "height": 940
+  },
+  "source": {
+    "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/explorer-jester.md",
+    "sha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416"
+  },
+  "spec": {
+    "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-jester.json",
+    "sha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851"
+  },
+  "room": {
+    "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-jester.md",
+    "sha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6"
+  },
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "selected": false,
+  "status": "Held native candidate; not exported or accepted."
+}
+

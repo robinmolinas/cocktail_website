@@ -1,3 +1,5 @@
+> **Superseded pipeline reference — reviewed 8 October 2026.** The active contract is Cocktail_Website_Agent/agent/spec/SPEC.md with ARCHITECTURE-SPINE.md. Preserve this earlier record; its old output shape, missing vetoes and questionnaire assumptions are not build instructions. Current direction: [experience specification](../../../Cocktail_Website_Agent/design-artifacts/2026-07-08-experience-master-spec.md).
+
 # Personality Model — Archetypes, Matrix, Roulette
 
 The proprietary model the Psychologist agent (CAP-2) selects from. **Canonical data:** `../../Brand Personality + Roulette.xlsx` — downstream MUST read this workbook for the actual attributes; this file explains its shape and how to use it.

@@ -1,0 +1,407 @@
+{
+  "pairing": "regular-guy-explorer",
+  "pour": "Loose on Top",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "187a77361f07ae4865feae56582cbe7bc576fb08c49a9d146173e178c72caa04",
+  "review": {
+    "recipe": "One chilled fine stemmed cocktail glass with pale cloudy yellow-green/white Margarita, thin shake froth, no salt/serving ice; wide grapefruit peel rests on rim. Bowl is coupe-like rather than angular classic cocktail glass; generic current glass spec allows cocktail glass, but old brief's classic profile needs independent judgment. Light makes liquid more yellow than green-white.",
+    "personality": "Recognizable open canvas cash pouch/coins and folded olive work apron/ties, explicit visual inferences from own stall/self-pay/handover. Correction overlaps traces, but full apron and recognition group remain too wide for moving phone.",
+    "world": "Historic near-black timber bar, one practical and cream paper. Glass has broad clear patches with limited nonuniform drops, better than filigree examples. Counter still glossy amber with raised-looking grain/surface marks rather than flat satin neutral walnut; material hold remains.",
+    "issues": [
+      "Full essential group 561 px / recognition 523 px; moving-phone composition hold",
+      "Usable tag 142 px below 170–200 target",
+      "Glass 359 px high above target; 387 px with peel",
+      "Amber glossy patterned timber remains material hold",
+      "Coupe-like cocktail glass and yellowish exposure require independent physical appearance judgment",
+      "Actual JPEG/name/browser/motion deferred; not accepted"
+    ]
+  },
+  "measurements": {
+    "pairing": "regular-guy-explorer",
+    "pour": "Loose on Top",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-explorer/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-f262522c-acb4-46c4-8b4b-2bcbab208f18.png",
+    "sourceSha256": "187a77361f07ae4865feae56582cbe7bc576fb08c49a9d146173e178c72caa04",
+    "specSha256": "8927620091dfdfbf2e27433c9b07d48a3bd75df08fdab65b365c575d07bba8ef",
+    "masterSha256": "85195cc9e7580e62a8042ceba88f54fec86032f19ff7215ce4fb8f015d6b1733",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      739,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1238,
+      "cy": 612,
+      "w": 142,
+      "angle": 11.2
+    },
+    "glass": {
+      "x": 1101,
+      "y": 407
+    },
+    "bounds": {
+      "glass": {
+        "x0": 989,
+        "y0": 312,
+        "x1": 1220,
+        "y1": 671
+      },
+      "paper": {
+        "x0": 1133,
+        "y0": 555,
+        "x1": 1315,
+        "y1": 666
+      },
+      "garnish": {
+        "x0": 1128,
+        "y0": 284,
+        "x1": 1265,
+        "y1": 404
+      }
+    },
+    "personalityBounds": {
+      "cashPouchAndCoins": {
+        "x0": 826,
+        "y0": 436,
+        "x1": 1061,
+        "y1": 617
+      },
+      "foldedApronIncludingTies": {
+        "x0": 807,
+        "y0": 391,
+        "x1": 1368,
+        "y1": 604
+      }
+    },
+    "recognitionRegions": {
+      "pouchOpeningCoinsAndClosure": {
+        "x0": 832,
+        "y0": 436,
+        "x1": 1055,
+        "y1": 615
+      },
+      "apronFoldedBibAndTies": {
+        "x0": 897,
+        "y0": 391,
+        "x1": 1352,
+        "y1": 595
+      }
+    },
+    "measurementNotes": "Original-resolution visual bounds, about 3–8 px uncertainty. Glass 359 px high (387 including peel), above 280–340 target. Full glass/tag/garnish union 326 px; essential full traces union 561 px; recognizable group 523 px. Proposed 702×940 portrait contains full visible essential group, but moving phone cannot retain it. Tag visible string/hole and physical separation; usable 142 px, below requested 170–200. No geometry/focal tricks; actual JPEG/browser not tested.",
+    "review": {
+      "recipe": "One chilled fine stemmed cocktail glass with pale cloudy yellow-green/white Margarita, thin shake froth, no salt/serving ice; wide grapefruit peel rests on rim. Bowl is coupe-like rather than angular classic cocktail glass; generic current glass spec allows cocktail glass, but old brief's classic profile needs independent judgment. Light makes liquid more yellow than green-white.",
+      "personality": "Recognizable open canvas cash pouch/coins and folded olive work apron/ties, explicit visual inferences from own stall/self-pay/handover. Correction overlaps traces, but full apron and recognition group remain too wide for moving phone.",
+      "world": "Historic near-black timber bar, one practical and cream paper. Glass has broad clear patches with limited nonuniform drops, better than filigree examples. Counter still glossy amber with raised-looking grain/surface marks rather than flat satin neutral walnut; material hold remains.",
+      "issues": [
+        "Full essential group 561 px / recognition 523 px; moving-phone composition hold",
+        "Usable tag 142 px below 170–200 target",
+        "Glass 359 px high above target; 387 px with peel",
+        "Amber glossy patterned timber remains material hold",
+        "Coupe-like cocktail glass and yellowish exposure require independent physical appearance judgment",
+        "Actual JPEG/name/browser/motion deferred; not accepted"
+      ]
+    },
+    "sourceRefresh": {
+      "previousSourceSha256": "2805641f663321f63dc01309a59550fac8fc121318cbf0c5990dcdd6e5b0ce6c",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** You never wanted to be the boss. You just couldn't bear having one.",
+        "+ - **tagline:** Your independence has a way of becoming a place other people belong."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1421.6267942583731,
+        "cy": 703.1489361702128,
+        "w": 163.0622009569378,
+        "angle": 11.20580672501254
+      },
+      "glass": {
+        "x": 1264.3062200956938,
+        "y": 467.6170212765957
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 636.9002849002849,
+        "cy": 781.2765957446809,
+        "w": 181.24216524216524,
+        "angle": 11.202073857121206
+      },
+      "glass": {
+        "x": 462.039886039886,
+        "y": 519.5744680851063
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/regular-guy-explorer/portrait.jpg",
+    "wide": "/personas/regular-guy-explorer/wide.jpg",
+    "wideTag": {
+      "cx": 0.7404306220095693,
+      "cy": 0.6510638297872341,
+      "w": 0.08492822966507177,
+      "angle": 11.20580672501254
+    },
+    "wideGlass": {
+      "x": 0.6584928229665071,
+      "y": 0.4329787234042553
+    },
+    "tag": {
+      "cx": 0.7108262108262108,
+      "cy": 0.6510638297872341,
+      "w": 0.2022792022792023,
+      "angle": 11.202073857121206
+    },
+    "glass": {
+      "x": 0.5156695156695157,
+      "y": 0.4329787234042553
+    }
+  },
+  "hashes": {
+    "master": "85195cc9e7580e62a8042ceba88f54fec86032f19ff7215ce4fb8f015d6b1733",
+    "wide": "583cf80ea0707cc86931b15814c818d899152e6e9f7da9051ab339a0e6ef5efe",
+    "portrait": "a037a28f3b554f2f38a970343dc185863dd944893dd92fbb51469db9acacb470"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1135.6937799043062,
+          "y0": 358.46808510638294,
+          "x1": 1400.956937799043,
+          "y1": 770.936170212766
+        },
+        "paper": {
+          "x0": 1301.0526315789475,
+          "y0": 637.6595744680851,
+          "x1": 1510.0478468899523,
+          "y1": 765.1914893617021
+        },
+        "garnish": {
+          "x0": 1295.311004784689,
+          "y0": 326.2978723404255,
+          "x1": 1452.6315789473683,
+          "y1": 464.17021276595744
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 866.4114832535886,
+          "y0": 298.7234042553191,
+          "x1": 1087.4641148325359,
+          "y1": 642.4468085106383
+        },
+        "paper": {
+          "x0": 1004.2105263157896,
+          "y0": 531.3829787234043,
+          "x1": 1178.3732057416269,
+          "y1": 637.6595744680851
+        },
+        "garnish": {
+          "x0": 999.4258373205741,
+          "y0": 271.9148936170213,
+          "x1": 1130.5263157894735,
+          "y1": 386.8085106382979
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1211.4066985645934,
+          "y0": 329.00595744680845,
+          "x1": 1494.3540669856459,
+          "y1": 768.971914893617
+        },
+        "paper": {
+          "x0": 1387.7894736842106,
+          "y0": 626.8102127659575,
+          "x1": 1610.7177033492824,
+          "y1": 762.8442553191488
+        },
+        "garnish": {
+          "x0": 1381.6650717703349,
+          "y0": 294.6910638297872,
+          "x1": 1549.4736842105262,
+          "y1": 441.75489361702125
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2034.7846889952154,
+          "y0": 414.55531914893606,
+          "x1": 2510.047846889952,
+          "y1": 1153.5606382978724
+        },
+        "paper": {
+          "x0": 2331.0526315789475,
+          "y0": 914.7734042553193,
+          "x1": 2705.502392344498,
+          "y1": 1143.2680851063828
+        },
+        "garnish": {
+          "x0": 2320.7655502392345,
+          "y0": 356.91702127659573,
+          "x1": 2602.6315789473683,
+          "y1": 603.9382978723404
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5591224679000855,
+        "y": 0.4329787234042553
+      },
+      "bounds": {
+        "glass": {
+          "x0": 90.13168926875588,
+          "y0": 280.13617021276593,
+          "x1": 297.50080607787277,
+          "y1": 602.4723404255319
+        },
+        "paper": {
+          "x0": 219.40074909781575,
+          "y0": 498.3191489361703,
+          "x1": 382.78247749287743,
+          "y1": 597.9829787234042
+        },
+        "garnish": {
+          "x0": 214.91224007597336,
+          "y0": 254.99574468085106,
+          "x1": 337.8973872744539,
+          "y1": 362.7404255319149
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5602226285287163,
+        "y": 0.4329787234042553
+      },
+      "bounds": {
+        "glass": {
+          "x0": 98.86579905033236,
+          "y0": 309.34468085106386,
+          "x1": 327.8563403608737,
+          "y1": 665.2893617021276
+        },
+        "paper": {
+          "x0": 241.61314947768278,
+          "y0": 550.2765957446808,
+          "x1": 422.0299396011396,
+          "y1": 660.331914893617
+        },
+        "garnish": {
+          "x0": 236.65664425451087,
+          "y0": 281.58297872340427,
+          "x1": 372.46488736942075,
+          "y1": 400.5617021276596
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5156695156695157,
+        "y": 0.4329787234042553
+      },
+      "bounds": {
+        "glass": {
+          "x0": 97.35050332383665,
+          "y0": 188.52765957446806,
+          "x1": 236.90697056030393,
+          "y1": 405.45531914893616
+        },
+        "paper": {
+          "x0": 184.346742640076,
+          "y0": 335.3617021276596,
+          "x1": 294.30032288698953,
+          "y1": 402.4340425531915
+        },
+        "garnish": {
+          "x0": 181.3260398860399,
+          "y0": 171.60851063829787,
+          "x1": 264.09329534662874,
+          "y1": 244.1191489361702
+        }
+      }
+    }
+  ]
+}

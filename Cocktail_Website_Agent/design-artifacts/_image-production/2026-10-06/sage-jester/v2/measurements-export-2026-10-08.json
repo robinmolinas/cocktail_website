@@ -1,0 +1,115 @@
+{
+  "pairing": "sage-jester",
+  "pour": "In Good Part",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-jester/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-9210e7d5-1a86-487a-b789-06cb83abbf84.png",
+  "sourceSha256": "9ba12828a5e2b8f1b49b42316f8a7f2d36bf6fc3848b8a457da4daa8210882bb",
+  "specSha256": "71dfef60bce273797e430c03d64b66f5a3c4b05add1bf626fc26263515e930ba",
+  "masterSha256": "d66f31fec41eb12b5a89fef50935187cae208aed422138b265edabf3a5be0fb9",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    775,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1126,
+    "cy": 554,
+    "w": 89,
+    "angle": 79
+  },
+  "glass": {
+    "x": 1078,
+    "y": 474
+  },
+  "bounds": {
+    "glass": {
+      "x0": 917,
+      "y0": 273,
+      "x1": 1241,
+      "y1": 758
+    },
+    "paper": {
+      "x0": 1085,
+      "y0": 479,
+      "x1": 1161,
+      "y1": 607
+    }
+  },
+  "personBounds": {
+    "newspaper": {
+      "x0": 782,
+      "y0": 451,
+      "x1": 1244,
+      "y1": 642
+    },
+    "pencil": {
+      "x0": 846,
+      "y0": 554,
+      "x1": 1020,
+      "y1": 623
+    },
+    "dinnerLinen": {
+      "x0": 1157,
+      "y0": 453,
+      "x1": 1598,
+      "y1": 656
+    }
+  },
+  "recognitionRegions": {
+    "newspaper": {
+      "x0": 782,
+      "y0": 478,
+      "x1": 1045,
+      "y1": 635
+    },
+    "pencil": {
+      "x0": 846,
+      "y0": 554,
+      "x1": 1020,
+      "y1": 623
+    },
+    "dinnerLinen": {
+      "x0": 1180,
+      "y0": 453,
+      "x1": 1597,
+      "y1": 655
+    }
+  },
+  "group": {
+    "fullWidth": 816,
+    "recognitionWidth": 815
+  },
+  "review": {
+    "recipe": "One plain chilled coupe, pink body/deeper raspberry hue below smooth pale-pink ordinary egg-white cap about finger deep; no serving ice/garnish/sugar rim. Soft froth not piped or sculpted.",
+    "personality": "Folded newspaper and tucked pencil show source annotation habit; folded dinner linen is ordinary source-scene inference but weak specificity. Newspaper/pencil are one habit, not two distinct psyche proofs.",
+    "world": "Historic dark timber reading room, one restrained practical, left dark; inherited warm glossy heavily patterned table remains held.",
+    "issues": [
+      "Glass485px tall remains far above280\u2013330 requested pullback",
+      "Full group816px /conservative recognition815px too wide for phone estimate",
+      "Proposed702px portrait clips121px of right linen full extent and recognition; not portrait/phone PASS",
+      "Newspaper retains faux/pseudo-print glyph texture, no meaningful margin annotation proof",
+      "Dinner-linen/newspaper evidence generic; humour/dignity trait not independently proven",
+      "Glossy warm crossing-grain timber; glass speckling and cloth texture need root review",
+      "Small89px blank tag axis proportional but name/font/browser unchecked; no acceptance"
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "cf5ff5df2b5c7d4ae38b5ba4d816199417adde23459a29cd1a72005e78120c5d",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You'll be the silly one, so nobody has to be the wrong one.",
+      "+ - **tagline:** Your jokes let people change their minds without losing face."
+    ]
+  }
+}

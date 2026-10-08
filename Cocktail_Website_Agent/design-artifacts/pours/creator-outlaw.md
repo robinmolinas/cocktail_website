@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 ## Cocktail
 
 - **name:** Still Yours
-- **tagline:** You liked it first. You get to like it last.
+- **tagline:** You love what you love, and somehow everyone else starts loving it too.
 - **glassware:** a saucer coupe (a wide, shallow stemmed glass), chilled
 - **contains:** `[]`
 
@@ -244,7 +244,7 @@ Registry checked (`registry.py`): no overlap.
 Wren's title-block notes:
 
 - **Name:** *Still Yours* (pick) · *Out Loud* (Tomás) · *Staff Drink* · *Take It Back* · ~~*Shrill*~~ (dropped: said of a guest, it's an insult)
-- **Tagline:** *You liked it first. You get to like it last.* (pick) · *You never waited to be told what to like.* · *You were there before it had a name.*
+- **Tagline:** *You love what you love, and somehow everyone else starts loving it too.* (review draft, 2026-10-08) · *You never waited to be told what to like.* · *You were there before it had a name.*
 - **Epigraph:** *It was made for the staff. It didn't stay there.* (pick; X4) · *Everyone knows this drink. Hardly anyone knows it was made for the staff.*
 
 ### Open items

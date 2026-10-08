@@ -1,0 +1,128 @@
+{
+  "pairing": "sage-ruler",
+  "pour": "Note to Self",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-ruler/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-f6fc38ee-99a4-4188-9ff1-df7898d6509e.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "23aee40a731dcad7dc745648fa706fd51ce7c6f68ca27c17c718285dc03bd8da",
+  "sourceSha256": "16f942c45c64cbc97d55ff80a49418e7eb50a24f4b6b4c40b4e8e9f902e3d1be",
+  "specSha256": "2c17af5470359b01840ad84d607108b68ad68d2212cc41eeb73d4ea31b28a5ca",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    692,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1329,
+    "cy": 724,
+    "w": 155,
+    "angle": 11
+  },
+  "glass": {
+    "x": 1050,
+    "y": 479
+  },
+  "bounds": {
+    "glass": {
+      "x0": 914,
+      "y0": 198,
+      "x1": 1185,
+      "y1": 755
+    },
+    "paper": {
+      "x0": 1206,
+      "y0": 650,
+      "x1": 1436,
+      "y1": 795
+    },
+    "ice": {
+      "x0": 930,
+      "y0": 241,
+      "x1": 1173,
+      "y1": 578
+    },
+    "notebook": {
+      "x0": 548,
+      "y0": 479,
+      "x1": 928,
+      "y1": 634
+    },
+    "pencil": {
+      "x0": 704,
+      "y0": 504,
+      "x1": 928,
+      "y1": 575
+    },
+    "bread": {
+      "x0": 1243,
+      "y0": 476,
+      "x1": 1510,
+      "y1": 612
+    },
+    "linen": {
+      "x0": 1176,
+      "y0": 515,
+      "x1": 1654,
+      "y1": 662
+    }
+  },
+  "recognitionRegions": {
+    "notebook": {
+      "bounds": {
+        "x0": 550,
+        "y0": 480,
+        "x1": 915,
+        "y1": 632
+      },
+      "reason": "Actual visible recognizable trace, not hidden-extent claim."
+    },
+    "bread": {
+      "bounds": {
+        "x0": 1243,
+        "y0": 476,
+        "x1": 1510,
+        "y1": 612
+      },
+      "reason": "Actual visible recognizable trace, not hidden-extent claim."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Snug low EXTERIOR bodyloop, frontarc/sideocclusion and visible rightknot.",
+    "loopBounds": {
+      "x0": 918,
+      "y0": 639,
+      "x1": 1183,
+      "y1": 693
+    },
+    "knot": {
+      "x": 1170,
+      "y": 666
+    },
+    "paperHole": {
+      "x": 1239,
+      "y": 699
+    },
+    "gravity": "Down-right short tether through punchedhole; small outboardpaper bottom rests timber belowknot.",
+    "paperSeparationOrContact": "Broad face separatedfromglass; wood-supported loweredge.",
+    "uncertainty": "Rearclosure/friction/knotload/corddepth/contact untested; no mechanical PASS."
+  },
+  "review": {
+    "issues": [
+      "Initial557pxglass/1106pxspread. Low loop at liquid/clear-foottransition; long doubled sidecord, outboardpaper restswood. Rearclosure/load unknown. Composition, material/ice/appearance/name/phone held."
+    ],
+    "scope": "Original-size nativePNG manual measurements only; no JPEG/browser/name/phone/material/personality acceptance."
+  },
+  "exported": false,
+  "accepted": false,
+  "integrated": false
+}

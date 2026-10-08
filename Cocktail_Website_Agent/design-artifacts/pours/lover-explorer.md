@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch lover)
 ## Cocktail
 
 - **name:** Curtain Call
-- **tagline:** You love every minute. Even the last one, if you let it.
+- **tagline:** Your appetite for life makes other people say yes to it.
 - **glassware:** a stemmed wine glass (about 250-300 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -178,7 +178,7 @@ Out: *Encore*. At a bar it means "one more", which is Wren's trap. Registry and 
 Wren's title-block notes:
 
 - **name (Wren's and Tomás's pick):** *Curtain Call* · also: *Full Table* (Tomás), *Lights Up*, *While It's Good* · held: *House Lights* · out: *Encore* ("one more")
-- **tagline (pick):** You love every minute. Even the last one, if you let it.
+- **tagline (pick):** Your appetite for life makes other people say yes to it.
   - alt: A good night gets better just because you're in it, loving it.
 - **epigraph:** The Bloody Mary once had a politer name, and no ice at all.
 - **closingLine (Tomás's, draft v1.4):** There's no ice in it, so it ends. Choose the night's ending yourself, before the coats come out.

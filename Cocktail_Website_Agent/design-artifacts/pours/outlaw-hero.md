@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 ## Cocktail
 
 - **name:** Can't Watch
-- **tagline:** It's rarely your fight. That's never once stopped you.
+- **tagline:** You can't walk past an unfair fight, even when it isn't yours.
 - **glassware:** a Nick & Nora, chilled
 - **contains:** `[]`
 

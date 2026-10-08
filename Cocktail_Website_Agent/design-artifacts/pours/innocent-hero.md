@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch innocent)
 ## Cocktail
 
 - **name:** Straight Up
-- **tagline:** Everyone else could see how far you'd come. You were the last to hear.
+- **tagline:** You keep getting better, and never need someone else to lose.
 - **glassware:** a thin stemmed coupe, chilled in the freezer
 - **contains:** `["nuts"]`
 

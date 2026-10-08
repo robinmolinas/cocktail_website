@@ -1,0 +1,153 @@
+{
+  "exporterSha256": "6f50fdfbf2a569688df8775f2ab595d4852da8b6612bb5181a45b1649cf1e708",
+  "explicitExecutionApproval": "User2026-10-08: I approve command",
+  "exportedPairs": [
+    {
+      "id": "lover-caregiver-v5-batch16",
+      "pairing": "lover-caregiver",
+      "name": "Hoping You’d Come",
+      "batch": 16,
+      "nativeVersions": {
+        "wide": "v5",
+        "portrait": "v5"
+      },
+      "output": "design-artifacts/_image-production/2026-10-06/lover-caregiver/v5",
+      "wide": "design-artifacts/_image-production/2026-10-06/lover-caregiver/v5/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-06/lover-caregiver/v5/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-caregiver/v5/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/lover-caregiver/portrait.jpg",
+        "wide": "/personas/lover-caregiver/wide.jpg",
+        "wideTag": {
+          "cx": 0.6907894736842105,
+          "cy": 0.8,
+          "w": 0.08014354066985646,
+          "angle": 62.01262783616052
+        },
+        "wideGlass": {
+          "x": 0.6447368421052632,
+          "y": 0.48617021276595745
+        },
+        "tag": {
+          "cx": 0.5950184501845018,
+          "cy": 0.6926257753273605,
+          "w": 0.09870848708487084,
+          "angle": 68.01077107427088
+        },
+        "glass": {
+          "x": 0.5387453874538746,
+          "y": 0.534803583735355
+        }
+      },
+      "hashes": {
+        "master": "6427fe69667a463579d8462c9c688bea03fc6c8f60dd73ecc79380fe18eba9da",
+        "wide": "2748f39b4456ca69cb01ce0b46d23c66cf2eeea998410a82bd92edd940a23c1c",
+        "portrait": "a31184c12d2d3f044316b7baab188b0d67dd3d5c883b91262b1c5c4e00c56d4c",
+        "portraitMaster": "6e2adb8ec0505f6883840392b0e403963d627d11ff6a0a157a7b4599382cb932"
+      },
+      "sourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+      "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+      "reviewNote": "Fine pulp improved; repeated flecks, doubled stem twine, broad chair/throw and glossy warm timber remain. Browser/name checks unperformed.",
+      "priorHolds": {
+        "recipe": "Cold mashed roast apple/brandy/water serve, one ice lump and spoon. Fine suspended pulp is visibly softer and less chunky than v3. Repeated/faceted fleck pattern remains and needs comparison; not final recipe/material acceptance.",
+        "personality": "Prepared empty leather chair with olive throw retained. Trace is visible but broad and lateral; recognition/crop holds remain.",
+        "world": "Dark hotel reading room and warm practical retained. Timber has strong orange gloss and repeated sheen; house-material hold remains.",
+        "issues": "Fine pulp improved; repeated flecks, doubled stem twine, broad chair/throw and glossy warm timber remain. Browser/name checks unperformed."
+      },
+      "staticGeometry": {
+        "passCount": 6,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "outlaw-magician-v5-batch16",
+      "pairing": "outlaw-magician",
+      "name": "For Its Own Good",
+      "batch": 16,
+      "nativeVersions": {
+        "wide": "v5",
+        "portrait": "v5"
+      },
+      "output": "design-artifacts/_image-production/2026-10-06/outlaw-magician/v5",
+      "wide": "design-artifacts/_image-production/2026-10-06/outlaw-magician/v5/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-06/outlaw-magician/v5/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-magician/v5/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/outlaw-magician/portrait.jpg",
+        "wide": "/personas/outlaw-magician/wide.jpg",
+        "wideTag": {
+          "cx": 0.7518028846153846,
+          "cy": 0.7980769230769231,
+          "w": 0.07932692307692307,
+          "angle": 10
+        },
+        "wideGlass": {
+          "x": 0.5985576923076923,
+          "y": 0.5715811965811965
+        },
+        "tag": {
+          "cx": 0.75,
+          "cy": 0.7221052631578947,
+          "w": 0.10150375939849623,
+          "angle": 10
+        },
+        "glass": {
+          "x": 0.5441729323308271,
+          "y": 0.5943859649122807
+        }
+      },
+      "hashes": {
+        "master": "654aaa30987ab393e9dc28adf760aed8af7dfd40cb9e913521e81dc060acb611",
+        "wide": "002971203cf3fc51085bc6d322abc4621e3611f996f9bbd88bf9b1d400ac0cc3",
+        "portrait": "495a7cc07db6512e2591ecc925bb76b007003de3b0566fbd036ec81406b9c18a",
+        "portraitMaster": "e9225da9a31bbd41576fed214d25629dd0cd94a99efb4fb8be3968291da31025"
+      },
+      "sourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+      "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+      "reviewNote": "Liquid colour improved; bag dominance, clipped binder/sheets, unclear ring action, etched cube, rough glossy timber and unresolved hidden tag loop remain. Browser/name checks unperformed.",
+      "priorHolds": {
+        "recipe": "Single cube and light clear amber-red liquid in heavy rocks glass retained. New liquid is visibly lighter and more transparent than v3; author colour expectation is approximate. Dense cube etching remains; not final material acceptance.",
+        "personality": "Bag, opened binder and released sheets retained. Bag dominates, lateral clipping persists, taken-apart ring action still uncertain.",
+        "world": "Historic reading-room frame retained. Rough gold timber and repeated reflections remain outside liquid-only correction.",
+        "issues": "Liquid colour improved; bag dominance, clipped binder/sheets, unclear ring action, etched cube, rough glossy timber and unresolved hidden tag loop remain. Browser/name checks unperformed."
+      },
+      "staticGeometry": {
+        "passCount": 0,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    }
+  ],
+  "note": "Exporter exit2 denotes preserved static geometry failures; both exact-size JPEGs and metadata were created successfully."
+}

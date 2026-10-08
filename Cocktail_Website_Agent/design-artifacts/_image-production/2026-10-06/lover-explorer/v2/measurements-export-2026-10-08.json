@@ -1,0 +1,164 @@
+{
+  "pairing": "lover-explorer",
+  "pour": "Curtain Call",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-explorer/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-a75349a8-6946-4a4a-96b5-794de1cfdc30.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "5a84e8491e25162f0e8b924383bd2ba1ffb1bd76d058bfed01716c27d58f4568",
+  "sourceSha256": "e9db31bfb39c56bc0b73a6fef7105b9328e072d3919d8a47e73049fac00e56f5",
+  "specSha256": "e971874c31120c807496b534c5016a5376cb208d2c38f6f05160821e6e8bf846",
+  "roomSha256": "5f02bb4bfce0dfbe5b10232ff821d3834ee82c69071b586777e1dd7ea7142237",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    730,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1241,
+    "cy": 653,
+    "w": 80,
+    "angle": 73
+  },
+  "glass": {
+    "x": 1203,
+    "y": 451
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1117,
+      "y0": 306,
+      "x1": 1289,
+      "y1": 712
+    },
+    "paper": {
+      "x0": 1207,
+      "y0": 594,
+      "x1": 1273,
+      "y1": 695
+    }
+  },
+  "personalityBounds": {
+    "dessertPlate": {
+      "x0": 922,
+      "y0": 570,
+      "x1": 1166,
+      "y1": 650
+    },
+    "dessertFork": {
+      "x0": 869,
+      "y0": 576,
+      "x1": 1057,
+      "y1": 637
+    },
+    "puddingRemnant": {
+      "x0": 1018,
+      "y0": 573,
+      "x1": 1094,
+      "y1": 631
+    },
+    "pocketDiary": {
+      "x0": 936,
+      "y0": 500,
+      "x1": 1270,
+      "y1": 597
+    },
+    "pencil": {
+      "x0": 1044,
+      "y0": 506,
+      "x1": 1140,
+      "y1": 565
+    }
+  },
+  "recognitionRegions": {
+    "usedDessertPlateAndFork": {
+      "x0": 869,
+      "y0": 570,
+      "x1": 1166,
+      "y1": 650
+    },
+    "pocketDiary": {
+      "x0": 936,
+      "y0": 500,
+      "x1": 1270,
+      "y1": 597
+    }
+  },
+  "supportingBounds": {
+    "physicalGarnish": null,
+    "paleFrothEdge": {
+      "x0": 1119,
+      "y0": 385,
+      "x1": 1286,
+      "y1": 407
+    },
+    "tagAttachment": {
+      "x0": 1187,
+      "y0": 573,
+      "x1": 1234,
+      "y1": 620
+    }
+  },
+  "tagPhysics": {
+    "anchor": "Visible snug narrow-stem loop below bowl, not rim",
+    "knot": "Visible front knot/crossing, rear knot-load geometry not resolved",
+    "tether": "Visible short downward cord connects stem knot to punched paper hole",
+    "hole": "Dark punched hole with cord entering",
+    "gravity": "Paper hole below stem knot; paper body descends below hole",
+    "airGap": "Visible paper/glass separation on most body; lower corner near glass foot",
+    "contact": "Lower paper edge visually near/over glass foot; contact versus free suspension ambiguous, not stated as PASS",
+    "occlusion": "Rear stem wrap hidden behind transparent reflective stem; knot load cannot be proven",
+    "uncertainties": [
+      "Rear circumferential loop and actual load-bearing knot not fully visible",
+      "Lower paper/foot contact uncertain"
+    ],
+    "knotPoint": {
+      "x": 1203,
+      "y": 583
+    },
+    "holePoint": {
+      "x": 1225,
+      "y": 611
+    },
+    "supportRegion": {
+      "x0": 1187,
+      "y0": 573,
+      "x1": 1234,
+      "y1": 620
+    },
+    "status": "plausible visible front support chain; uncertainty held; no physics PASS"
+  },
+  "measurementMethod": "Manual original-size visible object inspection, conservative full recognition rectangles, approximate writing axis/points. Native PNG IHDR1672\u00d7941. No raster transform/export/browser.",
+  "review": {
+    "recipe": "Chilled stemmed wine glass with opaque tomato-red liquid, just over half full, pale froth edge, no ice or garnish. Correct source served-up physical type; denser droplet speckles held.",
+    "personality": "Actual used dessert plate/fork/pudding and pocket diary/pencil. Meal enjoyment is explicit whoYouAre; specific used plate inferred. Diary with circled date is explicit image brief/yours5 next-date practice; actual page markings risk pseudo-writing. Whole object regions conservative, no anonymous slices.",
+    "world": "Dark old reading-room timber defines table; functional metal fork permitted. Low-key neutral shadows coexist with substantial amber specular wood, patterned room and bright window; material hold.",
+    "issues": [
+      "406px glass misses300\u2013360 aim;420px conservative whole recognizable group exceeds389 moving-phone aim",
+      "Small droplets/speckles denser than intended; froth edge thicker than minimal ring but source brief allows thin pale froth",
+      "Diary has small pseudo-writing/marks beyond the circled mark; date content not readable",
+      "Table retains repetitive fine crackle-like wear and wide amber glossy reflection; bright left window and patterned carpet/chair add competing detail",
+      "Tag rear loop/knot load hidden; paper lower-edge contact with glass foot uncertain"
+    ]
+  },
+  "status": "measured-master candidate, held, not accepted, browser deferred",
+  "sourceRefresh": {
+    "previousSourceSha256": "6c9bd693c3204f1588414105093934900f54595a8bf54e534992bfd561dffbe2",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You love every minute. Even the last one, if you let it.",
+      "+ - **tagline:** Your appetite for life makes other people say yes to it.",
+      "- - **tagline (pick):** You love every minute. Even the last one, if you let it.",
+      "+ - **tagline (pick):** Your appetite for life makes other people say yes to it."
+    ]
+  }
+}

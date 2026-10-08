@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 ## Cocktail
 
 - **name:** Who's In?
-- **tagline:** With you it feels like a party. It's also going somewhere.
+- **tagline:** People follow your lead because it feels like joining the fun.
 - **glassware:** a big glass (about 400 ml, a 14-oz highball or double old-fashioned), chilled in the freezer, packed with crushed ice and a straw
 - **contains:** `[]`
 

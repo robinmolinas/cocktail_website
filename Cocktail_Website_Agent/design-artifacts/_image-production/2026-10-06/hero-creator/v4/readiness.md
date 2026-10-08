@@ -1,0 +1,5 @@
+# The Long Answer — sole portrait correction
+
+Root explicitly authorized one correction after inspecting both v3 originals. This is the only corrective call for this pairing; v3 originals preserved. Before call, current full hero-creator dossier, JSON spec and closed r7 room reread to EOF (separate chunks); v3 portrait original viewed. Current source recipe unchanged: heavy 400ml round beer goblet, one large ice piece, hazy rosy-orange long Ward Eight; mint sprig, TWO orange half-slices, small pineapple, one dark cherry. Source fixed numbers/method preserved.
+
+Actual v3 second-halfmoon count was uncertain and dominant orange was wheel-like. Main targets: visibly two separate true half-circles and opened paper/blue pen depth repositioning. 300–820 lane is an aim only, no mobile/name/geometry approval. Still eligible material/cord/physics holds after actual output. Source/spec/room SHA and native header not executed under current restrictions; do not claim fresh hashes. Reference is own fresh v3 portrait, not v2 material raster. Root alone integration/export.

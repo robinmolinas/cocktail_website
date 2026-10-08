@@ -1,0 +1,129 @@
+{
+  "pairing": "sage-explorer",
+  "pour": "Look Again",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-explorer/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-edc2bf3b-b29e-4fb7-8428-eae7a79e4bf4.png",
+  "masterDimensions": [
+    1672,
+    940
+  ],
+  "masterSha256": "fc0cb59aadd3778c33ca611b48b2a1e4c33458ab0e33ce23e56c1499d2f842ab",
+  "sourceSha256": "1c7f9612f83dcf1d841ac7b6fddb8b51b7ac690e5e91eed39d5a83d2eb7478d3",
+  "specSha256": "d376af4449ae4e842ba360c96a4cf686b6a531d1cd5f7a6f2646cc256cdd306d",
+  "roomSha256": "0e44ecdf889fd9a93cc38b0696b120bfed38e61b535ab18c93d273d497c71852",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    745,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1419,
+    "cy": 713,
+    "w": 160,
+    "angle": 12
+  },
+  "glass": {
+    "x": 1112,
+    "y": 520
+  },
+  "bounds": {
+    "glass": {
+      "x0": 930,
+      "y0": 313,
+      "x1": 1297,
+      "y1": 728
+    },
+    "paper": {
+      "x0": 1305,
+      "y0": 665,
+      "x1": 1528,
+      "y1": 753
+    },
+    "lemonGarnish": {
+      "x0": 997,
+      "y0": 402,
+      "x1": 1115,
+      "y1": 603
+    },
+    "book": {
+      "x0": 454,
+      "y0": 371,
+      "x1": 940,
+      "y1": 545
+    },
+    "plate": {
+      "x0": 1288,
+      "y0": 445,
+      "x1": 1672,
+      "y1": 578
+    },
+    "linen": {
+      "x0": 1363,
+      "y0": 378,
+      "x1": 1672,
+      "y1": 591
+    }
+  },
+  "recognitionRegions": {
+    "book": {
+      "bounds": {
+        "x0": 456,
+        "y0": 379,
+        "x1": 935,
+        "y1": 540
+      }
+    },
+    "plate": {
+      "bounds": {
+        "x0": 1290,
+        "y0": 450,
+        "x1": 1668,
+        "y1": 576
+      }
+    },
+    "linen": {
+      "bounds": {
+        "x0": 1365,
+        "y0": 381,
+        "x1": 1670,
+        "y1": 590
+      }
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Snug lower external body-loop arc~610–655, knot~1277/630.",
+    "knot": {
+      "x": 1277,
+      "y": 630
+    },
+    "paperHole": {
+      "x": 1337,
+      "y": 682
+    },
+    "gravity": "Continuous down-right tether to punched hole; large paper lies on timber under gravity with shadow.",
+    "uncertainty": "Rear loop/knot/friction unobservable; paper oversized; not acceptance."
+  },
+  "objectVisibility": {
+    "book": "Right/rear board partly occluded byglass; visible bbox only.",
+    "plate": "Rear under linen; originalv1rightclipped/unknownunseenextent;v2visible.",
+    "linen": "v1rightclippedunknownextent,v2visible."
+  },
+  "review": {
+    "issues": [
+      "Initial superseded by focused v2 composition edit.",
+      "Sprawling group, plate/linen right-clipped and hidden extent unknown.",
+      "Palegold intent instead strongly amber, dense glass/ice and glossy pattern timber."
+    ],
+    "scope": "Original-size PNG only/manual source-pixel measurements; no export/name/phone/material/final acceptance."
+  },
+  "exported": false,
+  "accepted": false,
+  "integrated": false
+}

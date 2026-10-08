@@ -1,0 +1,9 @@
+# Hold the Shark v2 — original-resolution owner review
+
+Actualnative1641×958 PNG (notassumed1672×941) viewedoriginal. Exactcp-n master identicaloriginal. Proposedwide[0,16,1640,922] andportrait[860,16,688,922], noactualrasterexport. Glass342px442–784 improves. Physicalsource hazygoldMaiTai/350mlDOF/plainbase/crushedicemoundabove rim, ONEBIGbranch mint282–468 and ONEsqueezedSPENThalflimeCUTSIDEUP359–463: shreddedspentinterior clear, notfreshjuicywedge. Nofoam/extragarnish/straw/pineapple/cherry. ALLmint/ice/limeshell includedinbounds andrecognition union.
+
+Fullvisiblegroup919px/conservative recognition910px, physicalglass+ALLgarnish+paper488px; cannotdeclare389movingphonefit. Paper+drink/garnish survive proposedportrait, but notebookspine/mostcoatcuff lost. Foldedcoatcollar+cuff realreadable together inrecognitionregion, notanonymousstrip; notebookblankbacks+pencil distinct but inferredordinaryretellingworkformat. Coat damp-roadremain inferredfrommotorwayrain source, nothistoricalobject. Unknownposteriorbehindglass notinventedbounds.
+
+Smallpaper80pxconservativeusableaxis excludespunchedhole/endmargins; faceoutboardgap/downrightgravity/tipwoodcontact. Lowexteriorcurvedfrontloop/rearocclusion→sideknot→continuousdowntether→realhole supported, but tether~80px notidealSHORT andposteriorfriction/loadcannotbeverified. No rimhook/gluedface evident, no blanketphysicsPASS; actualnameuntested.
+
+Historichousequietleftthird/removedwindow+visiblelamp improves, but amberglossdensegrain/cracklesheen andregularwetglass/ice survive, materialHELD against sixhouseactualexports. Theirglossnotapproval. Notebook reads ordinary blank openbook, not visually proved scrapbook/retelling. Personalityspecificityheld/genericformatsinferenceexplicit. NoJPEG/browser/name/material/serving/phoneacceptance. Pairtwo/batchfourcalls exhausted STOP. Source/editorial unchanged.

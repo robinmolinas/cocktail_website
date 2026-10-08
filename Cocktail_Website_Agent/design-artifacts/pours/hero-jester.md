@@ -75,7 +75,7 @@ What nobody at the table knows is that the bigger the story, the worse it really
 
 5. So keep telling them. The shark stays: people need it, and you're good at it. But once, tell one exactly as big as it was. I'd bet the table goes just as quiet. And what they'll remember afterwards won't be the shark. It'll be you.
 
-**closing line:** Tomás's (final: *Take the almonds to gold before anything else: that's where the taste is. Next time someone asks how it went, give them what happened, nothing added.*). It agrees with y5's position, not the creed. y5 avoids "nothing added" so the two don't repeat each other.
+**closing line:** Tomás's, cut to its first sentence in the collection review (2026-10-06, D13 V6): *Take the almonds to gold before anything else: that's where the taste is.* The room's version went on: "Next time someone asks how it went, give them what happened, nothing added." It agrees with y5's position, not the creed. y5 avoids "nothing added" so the two don't repeat each other.
 
 ---
 

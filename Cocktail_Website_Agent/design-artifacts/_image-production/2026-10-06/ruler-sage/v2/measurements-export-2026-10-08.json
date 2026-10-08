@@ -1,0 +1,105 @@
+{
+  "pairing": "ruler-sage",
+  "pour": "Either Way",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-sage/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-88e144f4-be5a-409e-a690-95161d43aaf2.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "eb2e8f4677a60a50c7c968bc192af6cb25da3cfdc4aafe6f9bf8874a8c73a9c1",
+  "sourceSha256": "f485deb6ecc6e97e1c4a013cafc2933f214ba57c7c0863baa17f04cc62485d23",
+  "specSha256": "c0050505176646a233e63e56a4decd104ae44f5c2ef81e3d720e8bd3491e1424",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    855,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1433,
+    "cy": 562,
+    "w": 146,
+    "angle": 73
+  },
+  "glass": {
+    "x": 1247,
+    "y": 531
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1114,
+      "y0": 373,
+      "x1": 1381,
+      "y1": 691
+    },
+    "paper": {
+      "x0": 1365,
+      "y0": 453,
+      "x1": 1493,
+      "y1": 647
+    },
+    "phone": {
+      "x0": 890,
+      "y0": 546,
+      "x1": 1128,
+      "y1": 630
+    },
+    "spectacles": {
+      "x0": 939,
+      "y0": 491,
+      "x1": 1121,
+      "y1": 583
+    }
+  },
+  "recognitionRegions": {
+    "phone": {
+      "bounds": {
+        "x0": 893,
+        "y0": 547,
+        "x1": 1118,
+        "y1": 629
+      },
+      "reason": "Substantial screen-down phone back plus rounded lower/port edge, not isolated dark strip. Right portion concealed by vessel."
+    },
+    "spectacles": {
+      "bounds": {
+        "x0": 940,
+        "y0": 492,
+        "x1": 1118,
+        "y1": 582
+      },
+      "reason": "Whole left lens, bridge, substantial upper/right lens arc and folded temple shape recognize glasses together; right lens partly concealed, explicit recognition watch rather than using tiny isolated rim."
+    }
+  },
+  "review": {
+    "recipe": "Built blended Scotch with fully mixed settled barley malt syrup/Angostura; clear warm amber with brown depth, several fresh cubes and ONE orange strip dropped inside, no foam/rim/streaks. Sparkly angular ice/material hold.",
+    "personality": "Phone and separate folded spectacles both present; repeated-calls source anchor and considerate-review inference. Glasses right lens partly hidden, generic reflective-listening specificity watch.",
+    "world": "Historic walnut private room, neutral dark left third and single warm right practical. Broad glossy amber table reflection/patterned sheen and crystalline ice remain held.",
+    "issues": [
+      "Glass318px meets pulled-back target but hero at75% rather than62% horizontal.",
+      "Full group603px (890\u20131493); conservative recognition plus complete glass/paper600px (893\u20131493) exceeds350\u2013380 target and moving-phone~389.",
+      "Glass/paper379px offers only~10px total margin versus389px moving window; not motion clearance proof.",
+      "Blank free hanging tag clean146px at73\u00b0, below170\u2013200 intended writing axis; browser/name fit untested.",
+      "Spectacles right lens partially occluded and generic personality evidence watch.",
+      "Crystalline faceted ice/fine glass glints and broad glossy patterned amber wood hold.",
+      "Proposed702 portrait retains all recorded extents but is not narrow-phone cover acceptance."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "4de73d5095393231e20e0ccac3a6bcd69f6f61c771fb4d69a6064e76e6dc609f",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** Even the people you've ruled against trust you. Especially them.",
+      "+ - **tagline:** You want a fair answer, even when it means changing your mind.",
+      "- - **tagline:** **Even the people you've ruled against trust you. Especially them.** (alternatives in `psychologist-alternatives.md`)",
+      "+ - **tagline:** **You want a fair answer, even when it means changing your mind.** (alternatives in `psychologist-alternatives.md`)"
+    ]
+  }
+}

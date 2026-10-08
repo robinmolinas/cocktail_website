@@ -1,0 +1,5 @@
+# Final bounded portrait correction
+
+Complete current 254-line dossier, complete spec and 141-line closed room read to EOF immediately before call. Settled ONE about75ml narrow flared stem cordial with45ml total: clear white cacao10 bottom/tawny port15 middle/dark beet bourbon20 top, no ice/foam/garnish. Bottle density test/order belongs to method and is not photographic proof. D8 is resolved; status/recipe untouched. Lens/fabric and folded spectacles remain explicitly inferred ordinary examining/showing traces from current WHO, not documented historical props or proof of shared demonstration.
+
+Actual v3 portrait viewed original-resolution before edit. This v4 generates ONLY portrait and pairs with unchanged v3 wide; one authorized correction, no retries/export/acceptance. Dossier SHA c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3; spec aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32; room 8b1deeee8dfaca1a4bb0fe175139c02952f33b49e52034a7e8132f3172c06e1f. Need compact real-depth traces and single low-stem strand. Native review records any actual failures.

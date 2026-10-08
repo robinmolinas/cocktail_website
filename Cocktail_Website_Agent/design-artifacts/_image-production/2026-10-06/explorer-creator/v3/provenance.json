@@ -1,0 +1,30 @@
+{
+  "callCount": 2,
+  "wide": {
+    "source": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-39d5b710-5ff4-4dba-8fc4-6b81168b2dfe.png",
+    "copy": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v3/master.png",
+    "sha256": "7bc07428bf8bad198d9c6f2c8d34ccc302f4d64d663dc2fec89d273a410e3cd9",
+    "native": [
+      1672,
+      941
+    ],
+    "prompt": "prompt-wide-refinement.md",
+    "mode": "fresh generation, no image reference"
+  },
+  "portrait": {
+    "source": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-d1177f08-27b3-48cc-828d-118704ecc35d.png",
+    "copy": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v3/portrait-master.png",
+    "sha256": "f0778f3fe87f2e472075aa6c418d35f8bca9d32159ceccb01f2f967c807c4fdb",
+    "native": [
+      1086,
+      1448
+    ],
+    "prompt": "prompt-portrait-refinement.md",
+    "reference": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-39d5b710-5ff4-4dba-8fc4-6b81168b2dfe.png",
+    "mode": "dedicated same-scene recompose"
+  },
+  "originalsPreserved": true,
+  "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+  "specSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+  "roomSha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8"
+}

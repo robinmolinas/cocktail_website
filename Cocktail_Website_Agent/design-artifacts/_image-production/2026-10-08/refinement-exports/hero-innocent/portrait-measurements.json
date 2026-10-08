@@ -1,0 +1,138 @@
+{
+  "measurementMethod": "Root manual visual estimate on actual original-size native image; coordinates approximate, tolerance 5\u201312px. Displayed dimensions not probed. NOT export-ready metadata.",
+  "masterSha256": "db7f07b3ab4b7d449ce1d632c501916c0577af9f43137de35c3824c02bbddf0d",
+  "sourceSha256": "a06d232783c5e8afa8f8c0393b880fe1b21b4e09a92d4d163fcd8dbdf45e4be0",
+  "specSha256": "23c1007beb037df6d891ee079bab110b8eb319862f35036805db0b47ce417ffc",
+  "roomSha256": null,
+  "fingerprintStatus": "Pending authorized checks; no historical hash reused.",
+  "exported": false,
+  "exportEligible": false,
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "hiddenExtents": {
+    "rearLoopClosure": null,
+    "actualKnotLoad": null,
+    "paperUnderside": null,
+    "occludedProps": null
+  },
+  "tagPhysics": {
+    "status": "Held, not physics PASS",
+    "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+  },
+  "pairing": "hero-innocent",
+  "pour": "Work It Out",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-23b2bf8e-12df-4603-a3d1-0788f4ec2ce4.png",
+  "displayedDimensions": [
+    1084,
+    1451
+  ],
+  "proposedCrop": [
+    10,
+    13,
+    1064,
+    1425
+  ],
+  "tag": {
+    "cx": 766,
+    "cy": 1019,
+    "w": 104,
+    "angle": 32
+  },
+  "glass": {
+    "x": 539,
+    "y": 719
+  },
+  "bounds": {
+    "glass": {
+      "x0": 398,
+      "y0": 407,
+      "x1": 682,
+      "y1": 1030
+    },
+    "physicalGarnish": {
+      "x0": 489,
+      "y0": 373,
+      "x1": 723,
+      "y1": 514
+    },
+    "paper": {
+      "x0": 671,
+      "y0": 947,
+      "x1": 840,
+      "y1": 1060
+    },
+    "practiceBox": {
+      "x0": 678,
+      "y0": 620,
+      "x1": 901,
+      "y1": 860
+    },
+    "looseLid": {
+      "x0": 750,
+      "y0": 674,
+      "x1": 1014,
+      "y1": 884
+    },
+    "pencil": {
+      "x0": 796,
+      "y0": 729,
+      "x1": 1000,
+      "y1": 850
+    }
+  },
+  "essentialObjectUnion": [
+    398,
+    373,
+    1014,
+    1060
+  ],
+  "reviewHolds": [
+    "Practice box/lid/pencil remain lateral: approx616px whole known union, exceeding nominal590.6px tall-phone width before translation",
+    "Multiple parallel low-foot strands",
+    "Paper scale not requested28%bodywidth",
+    "Work sample still looks finished",
+    "Dense droplets/bright wood sheen",
+    "Correction allowance exhausted"
+  ],
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "exportProvenance": {
+    "batch": 15,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/portrait-geometry.json",
+    "originalMeasurementSha256": "4a7411681c86bffe1230028fb63764d2ccc8d7bf43e8a5f6fb1ad5f91e0221a5",
+    "previousSourceSha256": null,
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {},
+  "recognitionRegions": {},
+  "portraitCrop": [
+    10,
+    13,
+    1064,
+    1425
+  ],
+  "wideCrop": [
+    10,
+    13,
+    1064,
+    1425
+  ],
+  "review": {
+    "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+    "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+    "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+    "issues": "Practice sample still looks finished; very tall wide glass, multiple tag strands, large paper, dense droplets and616px portrait group."
+  }
+}

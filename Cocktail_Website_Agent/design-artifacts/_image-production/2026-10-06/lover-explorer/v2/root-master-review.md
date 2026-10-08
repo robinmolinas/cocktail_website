@@ -1,0 +1,5 @@
+# Curtain Call — root original inspection
+
+Actual original1672×941 root-inspected. Opaquetomatored served-upwineglass, paleedgefroth/noice/nogarnish/rim. Bowlspotsdenserthanrealcondensation, sourceappearanceexacthueauthorestimate, no chemistryapproval. Diaryactualtinycurlmarks beyond circle are pseudo-writing HOLD; mealplate/fork/puddingremnant identifiable, functionalmetal allowed. Secondpudding/schedulednextnight concretehabits are sourceexplicit, exactplate/bookobjects inference not biography. Glass406px/fullrecogn420pxgroup,702portrait retains visibleobjects but exceed389movingphone/nobreathingtest. Small66pxpaper<172bowl,80pxaxis: visible stemwrap/knot/shorttether/punchedhole, paperbelowanchor/separatealongbody; loweredgeprojectsnearfoot, actualfreegap/contactuncertain/rearloadhidden, nophysicsPASS. Glossyambercrackledwood/brightleftwindow/busycarpet and patternedchair held/watch. Noextra magicalflames/candles/radio/cast,theatre/curtain. NoJPEG/browser/name/material/finalacceptance; sourceunchanged/initialsoleedit preserved.
+
+Disposition: HOLD-material/pseudo-writing/phone; second-light/speckle/tag-foot-contact/personality-watch; name-unverified.

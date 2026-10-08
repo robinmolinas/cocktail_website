@@ -1,0 +1,162 @@
+{
+  "pairing": "jester-innocent",
+  "pour": "Off the Tour",
+  "sourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+  "specSha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+  "roomSha256": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d",
+  "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "version": "v3",
+  "measurementMethod": "Conservative visual estimates from original-resolution native PNG; not browser/name/motion acceptance.",
+  "orientation": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v3/wide-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-756d2bc7-6efb-45cb-b92c-d905b62bda24.png",
+  "masterSha256": "8cde0c8db770412e1c5589abe71a29eac467625c3cfed25af890db816ec4b900",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    690,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1308,
+    "cy": 510,
+    "w": 111,
+    "angle": 88
+  },
+  "glass": {
+    "x": 1185,
+    "y": 570
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1070,
+      "y0": 341,
+      "x1": 1308,
+      "y1": 805
+    },
+    "paper": {
+      "x0": 1285,
+      "y0": 432,
+      "x1": 1331,
+      "y1": 583
+    },
+    "swizzle": {
+      "x0": 1258,
+      "y0": 222,
+      "x1": 1311,
+      "y1": 352
+    },
+    "iceIncludingMound": {
+      "x0": 1086,
+      "y0": 285,
+      "x1": 1300,
+      "y1": 747
+    }
+  },
+  "personBounds": {
+    "foldedDeckchair": {
+      "x0": 594,
+      "y0": 151,
+      "x1": 1248,
+      "y1": 659
+    },
+    "tornSachetAndScrap": {
+      "x0": 789,
+      "y0": 735,
+      "x1": 1054,
+      "y1": 834
+    }
+  },
+  "recognitionRegions": {
+    "foldedDeckchair": {
+      "x0": 623,
+      "y0": 153,
+      "x1": 1247,
+      "y1": 653
+    },
+    "tornSachetAndScrap": {
+      "x0": 789,
+      "y0": 735,
+      "x1": 1054,
+      "y1": 834
+    },
+    "allServedIce": {
+      "x0": 1086,
+      "y0": 285,
+      "x1": 1300,
+      "y1": 747
+    },
+    "wholeSwizzle": {
+      "x0": 1258,
+      "y0": 222,
+      "x1": 1311,
+      "y1": 352
+    }
+  },
+  "unknownExtents": {
+    "deckchairOccludedPosterior": null,
+    "hiddenSwizzleProngs": null,
+    "allInternalIceChipGeometry": null
+  },
+  "group": {
+    "fullBounds": {
+      "x0": 594,
+      "y0": 151,
+      "x1": 1331,
+      "y1": 834
+    },
+    "recognitionBounds": {
+      "x0": 623,
+      "y0": 153,
+      "x1": 1331,
+      "y1": 834
+    },
+    "fullWidth": 737,
+    "recognitionWidth": 708,
+    "physicalServeBoundsIncludingAllPhysicalObjects": {
+      "x0": 1070,
+      "y0": 222,
+      "x1": 1331,
+      "y1": 805
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Front arc around exterior UPPER body y405–425, below rim; not requested clear low foot.",
+    "knot": "Small visible knot at right side approximately1302,425.",
+    "tether": "Short downward link to paper hole about1305,451.",
+    "hole": "Dark punched hole visible at1305,451.",
+    "gravity": "Paper long axis almost vertical, free lower edge.",
+    "airgap": "Paper overlaps projected outer right glass boundary; separation depth not conclusively shown.",
+    "contact": "Paper bottom y583 suspended, no timber contact despite requested contact.",
+    "uncertainty": [
+      "Rear arc/load unobservable",
+      "Low-body target missed",
+      "Clear air gap unproved"
+    ],
+    "assessment": "Plausible upper-body attachment, not strict low-body physics PASS."
+  },
+  "review": {
+    "recipe": "One pale faint-green Collins, red bitters atop angular ice, retained wood swizzle/no straw. Internal fine snow/actual volume/prongs unobservable; ice shapes some broad irregular chunks rather than nearly snow.",
+    "personality": "Torn sachet clear; connected full-size striped folding chair remains broad and scenic, not subdued compact trace.",
+    "world": "Dark timber room preserved. Long grain visible but tabletop has strong amber reflection/dense contact texture, frost/ice busy.",
+    "issues": [
+      "Glass464px exceeds pulled-back target",
+      "Full737px/recognition708px group not compact phone proof",
+      "Foot805 outside intended central80%941=753",
+      "Portrait crop clips full chair",
+      "Upper-body rather than clear-foot loop",
+      "Paper air gap and name fit unproved",
+      "Amber timber sheen/dense wet texture remain"
+    ]
+  }
+}

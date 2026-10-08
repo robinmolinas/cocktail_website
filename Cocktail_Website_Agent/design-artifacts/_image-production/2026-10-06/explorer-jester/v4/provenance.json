@@ -1,0 +1,36 @@
+{
+  "pairing": "explorer-jester",
+  "pour": "Why Not?",
+  "version": "v4",
+  "workflow": "one final authorised portrait framing correction; unchanged v3 wide explicitly paired by root",
+  "tool": "built-in image_gen",
+  "calls": 1,
+  "assets": {
+    "portrait": {
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v4/portrait-master.png",
+      "width": 1084,
+      "height": 1451,
+      "sha256": "0538f3b53ee98d0641728600c73b9d7964bda0b5bc4874c7a0df48445d5b2292",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v4/portrait-prompt.txt",
+      "promptSha256": "d293cd14e5b753d8e9eb5885b3b294947487239b883026baa9dae76de2481d73",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-b3191841-a070-40f1-8548-74dd78b8931b.png",
+      "generatedOriginalSha256": "0538f3b53ee98d0641728600c73b9d7964bda0b5bc4874c7a0df48445d5b2292",
+      "referencedImagePaths": [
+        "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/portrait-master.png"
+      ]
+    },
+    "unchangedWide": {
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/wide-master.png",
+      "sha256": "a8ac915f30d159f3030f6fa10377aa7c93454d8bff8008d1da6b7362fc2e2623",
+      "measurements": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/wide-measurements.json"
+    }
+  },
+  "sourceFingerprints": {
+    "sourceSha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+    "specSha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851",
+    "roomSha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6"
+  },
+  "preserve": "Exact native PNG cp-n; original retained; no overwritten old masters",
+  "status": "held candidate; no export/name/browser/mobile acceptance",
+  "owner": "stirred_serves"
+}

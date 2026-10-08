@@ -1,0 +1,438 @@
+{
+  "pairing": "regular-guy-hero",
+  "pour": "I'll Do It",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "8a8eedf0ee37331860d256c7dee3f0aa2973c5db5678743990c2c4654f9d45b0",
+  "review": {
+    "recipe": "Clear deep reddish-amber stirred Manhattan, ONE large ordinary cube, ONE dropped orange peel; no foam/cherry. Cube broad face survives but granular sparkly detail remains.",
+    "personality": "Two distinct used/new glove pairs retained; grounded explicit dossier help-with-job habit. New folded pair remains less immediately glove-like.",
+    "world": "Historic walnut, neutral dark left third and one right warm practical. Strong amber glossy patterned table and uniformly dust-textured gloves remain material hold.",
+    "issues": [
+      "Full group659px (798–1457), conservative recognition657px (800–1457): exceeds target350–380 and moving phone~389.",
+      "Glass293px meets pulled-back height intent, but full glass/paper466px already exceeds moving phone.",
+      "Blank free hanging tag clean156px writing axis below170–200 target; no long-name proof.",
+      "New glove finger shapes partially hidden; specificity/recognition watch.",
+      "Granular wet ice/glass glints, glossy patterned orange wood and near-uniform glove dirt hold.",
+      "702px proposed portrait retains complete declared objects, not tall-phone/browser pass."
+    ]
+  },
+  "measurements": {
+    "pairing": "regular-guy-hero",
+    "pour": "I'll Do It",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-hero/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-8583b62c-cdef-459a-925f-42d8d551a1c1.png",
+    "masterDimensions": [
+      1672,
+      941
+    ],
+    "masterSha256": "c2162f0605984429301bba4c22a50d78909a71a553f6551f2866f04441041150",
+    "sourceSha256": "8a8eedf0ee37331860d256c7dee3f0aa2973c5db5678743990c2c4654f9d45b0",
+    "specSha256": "cebe74543ccf70a553696fa2bc7ad3192923c2bfd3c77c8201b20c3aa3b92b25",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      778,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1372,
+      "cy": 594,
+      "w": 156,
+      "angle": 24
+    },
+    "glass": {
+      "x": 1114,
+      "y": 573
+    },
+    "bounds": {
+      "glass": {
+        "x0": 983,
+        "y0": 426,
+        "x1": 1246,
+        "y1": 719
+      },
+      "paper": {
+        "x0": 1243,
+        "y0": 500,
+        "x1": 1449,
+        "y1": 681
+      },
+      "usedGloves": {
+        "x0": 798,
+        "y0": 395,
+        "x1": 1248,
+        "y1": 645
+      },
+      "newGloves": {
+        "x0": 1057,
+        "y0": 347,
+        "x1": 1457,
+        "y1": 565
+      }
+    },
+    "recognitionRegions": {
+      "usedGloves": {
+        "bounds": {
+          "x0": 800,
+          "y0": 434,
+          "x1": 1004,
+          "y1": 642
+        },
+        "reason": "Worn dark whole recognizable finger/palm section and continuation into cuff; not an anonymous edge."
+      },
+      "newGloves": {
+        "bounds": {
+          "x0": 1080,
+          "y0": 347,
+          "x1": 1457,
+          "y1": 565
+        },
+        "reason": "New string-bundled adult glove pair with folded cuffs and thumb contour; requires substantially whole bundle, not tiny cream cloth sliver. Hidden fingers retain recognition watch."
+      }
+    },
+    "review": {
+      "recipe": "Clear deep reddish-amber stirred Manhattan, ONE large ordinary cube, ONE dropped orange peel; no foam/cherry. Cube broad face survives but granular sparkly detail remains.",
+      "personality": "Two distinct used/new glove pairs retained; grounded explicit dossier help-with-job habit. New folded pair remains less immediately glove-like.",
+      "world": "Historic walnut, neutral dark left third and one right warm practical. Strong amber glossy patterned table and uniformly dust-textured gloves remain material hold.",
+      "issues": [
+        "Full group659px (798–1457), conservative recognition657px (800–1457): exceeds target350–380 and moving phone~389.",
+        "Glass293px meets pulled-back height intent, but full glass/paper466px already exceeds moving phone.",
+        "Blank free hanging tag clean156px writing axis below170–200 target; no long-name proof.",
+        "New glove finger shapes partially hidden; specificity/recognition watch.",
+        "Granular wet ice/glass glints, glossy patterned orange wood and near-uniform glove dirt hold.",
+        "702px proposed portrait retains complete declared objects, not tall-phone/browser pass."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1575.5023923444976,
+        "cy": 682.468085106383,
+        "w": 179.13875598086125,
+        "angle": 24.011323222075763
+      },
+      "glass": {
+        "x": 1279.2344497607655,
+        "y": 658.3404255319149
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 758.1538461538462,
+        "cy": 758.2978723404254,
+        "w": 199.1111111111111,
+        "angle": 24.004044236690923
+      },
+      "glass": {
+        "x": 428.85470085470087,
+        "y": 731.4893617021277
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/regular-guy-hero/portrait.jpg",
+    "wide": "/personas/regular-guy-hero/wide.jpg",
+    "wideTag": {
+      "cx": 0.8205741626794258,
+      "cy": 0.6319148936170212,
+      "w": 0.09330143540669857,
+      "angle": 24.011323222075763
+    },
+    "wideGlass": {
+      "x": 0.666267942583732,
+      "y": 0.6095744680851064
+    },
+    "tag": {
+      "cx": 0.8461538461538461,
+      "cy": 0.6319148936170212,
+      "w": 0.2222222222222222,
+      "angle": 24.004044236690923
+    },
+    "glass": {
+      "x": 0.47863247863247865,
+      "y": 0.6095744680851064
+    }
+  },
+  "hashes": {
+    "master": "c2162f0605984429301bba4c22a50d78909a71a553f6551f2866f04441041150",
+    "wide": "bba2fd4da8a152fd56785a3069c738ff0b46d801c701178ffa93e6258096a2af",
+    "portrait": "f403aa9c7edf11325eca1a7a2b45bf3ab68feefd90a4eea136f511cb293c891f"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1128.803827751196,
+          "y0": 489.4468085106383,
+          "x1": 1430.8133971291866,
+          "y1": 826.0851063829787
+        },
+        "paper": {
+          "x0": 1427.3684210526317,
+          "y0": 574.468085106383,
+          "x1": 1663.9234449760766,
+          "y1": 782.4255319148936
+        },
+        "usedGloves": {
+          "x0": 916.3636363636364,
+          "y0": 453.82978723404256,
+          "x1": 1433.11004784689,
+          "y1": 741.0638297872341
+        },
+        "newGloves": {
+          "x0": 1213.77990430622,
+          "y0": 398.6808510638298,
+          "x1": 1673.11004784689,
+          "y1": 649.1489361702128
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 860.66985645933,
+          "y0": 407.8723404255319,
+          "x1": 1112.3444976076555,
+          "y1": 688.4042553191489
+        },
+        "paper": {
+          "x0": 1109.4736842105265,
+          "y0": 478.72340425531917,
+          "x1": 1306.6028708133972,
+          "y1": 652.0212765957447
+        },
+        "usedGloves": {
+          "x0": 683.6363636363636,
+          "y0": 378.19148936170217,
+          "x1": 1114.2583732057417,
+          "y1": 617.5531914893617
+        },
+        "newGloves": {
+          "x0": 931.4832535885167,
+          "y0": 332.2340425531915,
+          "x1": 1314.2583732057417,
+          "y1": 540.9574468085107
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1204.0574162679425,
+          "y0": 468.71659574468083,
+          "x1": 1526.200956937799,
+          "y1": 827.7974468085106
+        },
+        "paper": {
+          "x0": 1522.5263157894738,
+          "y0": 559.4059574468084,
+          "x1": 1774.8516746411483,
+          "y1": 781.2272340425532
+        },
+        "usedGloves": {
+          "x0": 977.4545454545455,
+          "y0": 430.72510638297877,
+          "x1": 1528.6507177033493,
+          "y1": 737.108085106383
+        },
+        "newGloves": {
+          "x0": 1294.6985645933014,
+          "y0": 371.8995744680851,
+          "x1": 1784.6507177033493,
+          "y1": 639.0655319148937
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2022.4401913875597,
+          "y0": 649.2255319148935,
+          "x1": 2563.5406698564593,
+          "y1": 1252.3691489361702
+        },
+        "paper": {
+          "x0": 2557.3684210526317,
+          "y0": 801.5553191489362,
+          "x1": 2981.1961722488036,
+          "y1": 1174.1457446808508
+        },
+        "usedGloves": {
+          "x0": 1641.818181818182,
+          "y0": 585.4117021276596,
+          "x1": 2567.6555023923447,
+          "y1": 1100.0393617021277
+        },
+        "newGloves": {
+          "x0": 2174.688995215311,
+          "y0": 486.6031914893616,
+          "x1": 2997.6555023923447,
+          "y1": 935.3585106382977
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.9403492250566747,
+        "y": 0.6095744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": -41.83047597340931,
+          "y0": 382.4936170212766,
+          "x1": 194.26509857549857,
+          "y1": 645.5702127659574
+        },
+        "paper": {
+          "x0": 191.57199316239317,
+          "y0": 448.93617021276594,
+          "x1": 376.4985648622983,
+          "y1": 611.4510638297872
+        },
+        "usedGloves": {
+          "x0": -207.90530978157648,
+          "y0": 354.6595744680851,
+          "x1": 196.06050218423556,
+          "y1": 579.1276595744681
+        },
+        "newGloves": {
+          "x0": 24.599457549857533,
+          "y0": 311.5617021276596,
+          "x1": 383.680179297246,
+          "y1": 507.29787234042556
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.9404980769016471,
+        "y": 0.6095744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": -46.855454510921135,
+          "y0": 422.3744680851064,
+          "x1": 213.85672022792028,
+          "y1": 712.8808510638298
+        },
+        "paper": {
+          "x0": 210.88281709401713,
+          "y0": 495.74468085106383,
+          "x1": 415.09083228869906,
+          "y1": 675.204255319149
+        },
+        "usedGloves": {
+          "x0": -230.24614776828105,
+          "y0": 391.63829787234044,
+          "x1": 215.83932231718904,
+          "y1": 639.5106382978724
+        },
+        "newGloves": {
+          "x0": 26.500822792022802,
+          "y0": 344.0468085106383,
+          "x1": 423.021240645774,
+          "y1": 560.1914893617022
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.9073826537760962,
+        "y": 0.6095744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": 29.384229439696114,
+          "y0": 257.4127659574468,
+          "x1": 188.2731943019943,
+          "y1": 434.45957446808507
+        },
+        "paper": {
+          "x0": 186.46077264957268,
+          "y0": 302.12765957446805,
+          "x1": 310.9137261158595,
+          "y1": 411.4978723404255
+        },
+        "usedGloves": {
+          "x0": -82.38177245963912,
+          "y0": 238.6808510638298,
+          "x1": 189.48147540360878,
+          "y1": 389.74468085106383
+        },
+        "newGloves": {
+          "x0": 74.09063019943021,
+          "y0": 209.67659574468087,
+          "x1": 315.74685052231723,
+          "y1": 341.40425531914894
+        }
+      }
+    }
+  ]
+}

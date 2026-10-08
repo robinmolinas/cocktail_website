@@ -1,0 +1,171 @@
+{
+  "pairing": "sage-caregiver",
+  "pour": "Further Than Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-caregiver/v4/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-e36ac8c2-92a0-442d-82cd-2ec851ed95bf.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "3117e9e8bca1e2feb80941e1072e7f2e1e1eeb89ec17938f8364a7ec7c40407a",
+  "sourceSha256": "281f90b78106ec55533e89169657d77875855c9c0ce90b09afdf10d92a60986b",
+  "specSha256": "397c3f3bc87ff0e5a67da66fb0072dd8f296c7004984c0af4ebfe077015e9eb9",
+  "roomSha256": "c1ff52109d7ad2140eed28e15918c1ee0b451ca497994e480d49b42bf9098d2c",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    578,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1173,
+    "cy": 727,
+    "w": 68,
+    "angle": 58
+  },
+  "glass": {
+    "x": 1060,
+    "y": 542
+  },
+  "bounds": {
+    "glass": {
+      "x0": 964,
+      "y0": 349,
+      "x1": 1158,
+      "y1": 736
+    },
+    "paper": {
+      "x0": 1127,
+      "y0": 674,
+      "x1": 1216,
+      "y1": 766
+    },
+    "phone": {
+      "x0": 682,
+      "y0": 562,
+      "x1": 978,
+      "y1": 651
+    },
+    "spectacles": {
+      "x0": 744,
+      "y0": 499,
+      "x1": 978,
+      "y1": 600
+    },
+    "mintGarnish": {
+      "x0": 950,
+      "y0": 257,
+      "x1": 1095,
+      "y1": 387
+    },
+    "tarragonGarnish": {
+      "x0": 1050,
+      "y0": 268,
+      "x1": 1175,
+      "y1": 571
+    },
+    "cardigan": {
+      "x0": 35,
+      "y0": 162,
+      "x1": 501,
+      "y1": 496
+    }
+  },
+  "recognitionRegions": {
+    "phone": {
+      "bounds": {
+        "x0": 686,
+        "y0": 570,
+        "x1": 974,
+        "y1": 649
+      },
+      "reason": "Broad blank phone body and edge, right end occluded."
+    },
+    "spectacles": {
+      "bounds": {
+        "x0": 747,
+        "y0": 502,
+        "x1": 976,
+        "y1": 589
+      },
+      "reason": "Lens rims/bridge/folded arm, right partly occluded."
+    },
+    "cardigan": {
+      "bounds": {
+        "x0": 58,
+        "y0": 174,
+        "x1": 493,
+        "y1": 490
+      },
+      "reason": "Worn knitted garment and repaired cuff recognizable wide; outside portrait."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Snug external loop lowered to upper transparent glass-foot transition: side knot~1140/680; curved front arc bottoms near y697, clear foot beneath. Much lower than v2 y583\u2013615; not a guaranteed entirely clear-band placement.",
+    "loopBounds": {
+      "x0": 967,
+      "y0": 671,
+      "x1": 1152,
+      "y1": 700
+    },
+    "knot": {
+      "x": 1140,
+      "y": 680
+    },
+    "paperHole": {
+      "x": 1150,
+      "y": 694
+    },
+    "gravity": "Continuous short downward paired tether; blank paper outboard right with lower edge resting walnut at~764 and contact shadow.",
+    "paperSeparationOrContact": "Paper tilts outward, projects free of liquid-bearing wall; upper corner near base, bottom honest wood contact.",
+    "uncertainty": "Cord is on upper clear-foot transition, not fully below every pale-liquid projection. Rear closure/friction/knot load remain unobservable; tiny gap depth uncertain. No physics PASS."
+  },
+  "objectVisibility": {
+    "phone": "Right end occluded; visible bbox only, hidden extent unknown.",
+    "spectacles": "Right lens partly hidden.",
+    "cardigan": "Full visible garment; chair may be master-clipped; added inferred trace lost byportrait."
+  },
+  "review": {
+    "issues": [
+      "User-directed base lowering visually improved; still transition-adjacent, do not claim entirely below liquid.",
+      "Cardigan is an inferred quiet care trace, not literal biographical evidence, and missed in portrait.",
+      "Full visible group1181px with cardigan; core glass/paper/phone/herbs534px >389movingphone.",
+      "Glossy amber crackled timber/dense droplets and patterned ice remain held.",
+      "68px clean name axis, no actual name/glyph/browser acceptance."
+    ],
+    "scope": "Original-size PNG only/manual source-pixel measurements; no export/name/phone/material/final acceptance.",
+    "recipe": "Pale hazy gin/lemon/simple Southside+soda ice highball/no foam/citrus. Mint and tarragon tips now near-equal; one each inside plausible. Fine straining not provable from submerged garnish stems.",
+    "personality": "Phone from explicit calls and spectacles inferred thoughtful listening recognizable, depth-overlapped; right lens partly hidden and specificity inferred.",
+    "world": "Dark historic timber/quiet left/practical retained, but glossy amber alligator-like timber and dense granular glass/ice remain held.",
+    "correctionScope": "Read correctionReview and current version root review; inherited background review never clears current corrections/holds."
+  },
+  "exported": false,
+  "accepted": false,
+  "integrated": false,
+  "sourceRefresh": {
+    "previousSourceSha256": "28566d97e3a6601310ad54ada169c8b5beb7fa5df9dcfd2e3f792948eba646e0",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** Everyone you've helped can manage without you now. That was always the plan.",
+      "+ - **tagline:** You teach people to trust their own judgement, even when it takes them beyond yours.",
+      "- **tagline:** Everyone you've helped can manage without you now. That was always the plan.",
+      "+ **tagline:** You teach people to trust their own judgement, even when it takes them beyond yours."
+    ]
+  },
+  "correctionReview": {
+    "issues": [
+      "User-directed base lowering visually improved; still transition-adjacent, do not claim entirely below liquid.",
+      "Cardigan is an inferred quiet care trace, not literal biographical evidence, and missed in portrait.",
+      "Full visible group1181px with cardigan; core glass/paper/phone/herbs534px >389movingphone.",
+      "Glossy amber crackled timber/dense droplets and patterned ice remain held.",
+      "68px clean name axis, no actual name/glyph/browser acceptance."
+    ],
+    "scope": "Original-size PNG only/manual source-pixel measurements; no export/name/phone/material/final acceptance."
+  }
+}

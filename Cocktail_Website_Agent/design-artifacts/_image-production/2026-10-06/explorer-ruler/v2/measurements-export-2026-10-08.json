@@ -1,0 +1,112 @@
+{
+  "pairing": "explorer-ruler",
+  "pour": "Far Enough",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-ruler/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-8bea9ee6-05a5-42cc-82eb-78e0ba8c4e29.png",
+  "masterDimensions": [
+    1602,
+    982
+  ],
+  "masterSha256": "0c16f8cdacbf58530484381b8bf54cffd3a84bf075245597a203308889b02889",
+  "sourceSha256": "de32cd7124556a5528ca7d1a7874400af4e2647b94317b27466fb49f71b3b027",
+  "specSha256": "e33132bdd44b5ddaa1d93766a870a2d659aeeed65d2f425113ced11cef15825b",
+  "wideCrop": [
+    0,
+    41,
+    1600,
+    900
+  ],
+  "portraitCrop": [
+    774,
+    20,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1169,
+    "cy": 631,
+    "w": 143,
+    "angle": 75
+  },
+  "glass": {
+    "x": 966,
+    "y": 502
+  },
+  "bounds": {
+    "glass": {
+      "x0": 790,
+      "y0": 293,
+      "x1": 1143,
+      "y1": 711
+    },
+    "paper": {
+      "x0": 1106,
+      "y0": 509,
+      "x1": 1233,
+      "y1": 720
+    },
+    "scarf": {
+      "x0": 1091,
+      "y0": 349,
+      "x1": 1571,
+      "y1": 723
+    },
+    "compass": {
+      "x0": 1177,
+      "y0": 390,
+      "x1": 1444,
+      "y1": 544
+    }
+  },
+  "recognitionRegions": {
+    "scarf": {
+      "bounds": {
+        "x0": 1250,
+        "y0": 522,
+        "x1": 1548,
+        "y1": 681
+      },
+      "reason": "Substantial folded wool face, sewn repair and fringe; not anonymous fabric edge."
+    },
+    "compass": {
+      "bounds": {
+        "x0": 1178,
+        "y0": 390,
+        "x1": 1443,
+        "y1": 544
+      },
+      "reason": "Complete substantial brass pocket compass face/needle/case plus attached ring."
+    }
+  },
+  "tagPhysics": {
+    "bodyLoop": "Exterior midbody burgundy twine around y453\u2013493 below rim y294, curved front arc and near-side/front-to-far-side occlusion at both glass edges.",
+    "knot": "Visible knot near1126/478 outside right wall.",
+    "tetherAndHole": "Continuous short paired cord descends from knot to punched hole near1149/539.",
+    "gravityAndContact": "Paper is below knot; its lower tip/edge rests on timber at y718 with contact shadow. Not claimed freely suspended.",
+    "separation": "Paper face visibly separate to right of body, without flush adhesive area; narrow nearest upper edge close to glass.",
+    "uncertainty": "Far-side loop and friction tension cannot be load-verified; paper tilt relies on table contact. No blanket physics pass.",
+    "status": "Plausible visible chain, still candidate pending independent review."
+  },
+  "review": {
+    "recipe": "One heavy double rocks glass, amber Scotch/plum/Angostura drink, one large cube and one orange peel INSIDE; no foam or extra finished drink. Recipe-faithful apparent serve, exact volumes invisible.",
+    "personality": "Pocket compass plus repaired olive spare scarf retained; ordinary inference from organizing walk/turning home, not expedition costume. Scarf smaller and entirely raster-visible but still spread right rather than depth-behind compact goal.",
+    "world": "Quiet left third/private timber room, but glossy amber crackled wood and dense sparkling/etched-looking ice/glass remain material holds.",
+    "issues": [
+      "Glass418px high instead of~300; correction only partly pulls back.",
+      "Whole glass/paper/scarf/compass union781px wide, conservative recognizable union758px; proposed702portrait clips scarf region/right fringe.",
+      "No moving-phone margin or phone PASS;702portrait not phone.",
+      "Writable label axis143px; actual name fit untested, keep discreet scale rather than inflate.",
+      "Compass dial has small marks/letterlike geometry: functional compass plausible, pseudo-writing risk remains unverified.",
+      "Glossy amber wood/etched ice material hold.",
+      "Bounded initial plus sole correction exhausted; no JPEG/browser/export/acceptance."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "a2162549160704ccb638f5dbfe9829c333e4bd961e1de37f40b22e2e938b5c18",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You'll take them anywhere. You'll bring every one of them back.",
+      "+ - **tagline:** People go further with you because they trust you to bring them home."
+    ]
+  }
+}

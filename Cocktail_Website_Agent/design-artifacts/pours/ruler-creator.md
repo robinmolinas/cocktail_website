@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 ## Cocktail
 
 - **name:** On Their Behalf
-- **tagline:** You'd rather seem cold than let anyone get the careless version.
+- **tagline:** Your standards are a promise to the person who'll never know what you turned down.
 - **glassware:** fine stemmed cocktail glass (about 210 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -199,7 +199,7 @@ Wren's title-block notes:
 **name candidates:** On Their Behalf (pick) · The Why With It · Learn to Like It · The Real One
 **pick:** *On Their Behalf*. It names what the person does that nobody sees, and it doesn't appear anywhere in the reading, so it isn't spent twice.
 
-**tagline (pick):** You'd rather seem cold than let anyone get the careless version.
+**tagline (pick):** Your standards are a promise to the person who'll never know what you turned down.
 - alt: People think it's your taste. It was always for them.
 - alt: Every no you give has someone behind it.
 

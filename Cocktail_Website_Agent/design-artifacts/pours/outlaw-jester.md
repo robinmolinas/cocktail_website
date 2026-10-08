@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 ## Cocktail
 
 - **name:** With the Bite In
-- **tagline:** Said straight, they'd stop you. So you make them laugh.
+- **tagline:** Your jokes give people the nerve to question who's in charge.
 - **glassware:** a tall glass, filled with ice
 - **contains:** `[]`
 

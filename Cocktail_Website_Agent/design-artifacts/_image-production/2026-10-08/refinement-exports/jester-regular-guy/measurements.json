@@ -1,0 +1,229 @@
+{
+  "pairing": "jester-regular-guy",
+  "pour": "Is It Just Me",
+  "asset": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v3/wide-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-6acb54bf-2757-4390-bc8e-815e826c2658.png",
+  "masterSha256": "037afce16a8d468382f6541689092872632d614428d942be93a02517f1fdc302",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "47f6d62e4599eb516a33ecc4fcb2313e7133828b07c2cebeeaac2dd93b23c33a",
+  "specSha256": "46084d90c084171eb83263afb9ca961ace6ef705273a016f1462be70ae2a3f9f",
+  "roomSha256": "b1f6ac35f7f57de07d59fa51deaf64c6e69c6213b4f22fda97ee07e571b9796c",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    615,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1155,
+    "cy": 723,
+    "w": 120,
+    "angle": 24
+  },
+  "glass": {
+    "x": 1030,
+    "y": 531
+  },
+  "bounds": {
+    "glass": {
+      "x0": 934,
+      "y0": 307,
+      "x1": 1128,
+      "y1": 759
+    },
+    "paper": {
+      "x0": 1067,
+      "y0": 669,
+      "x1": 1246,
+      "y1": 776
+    }
+  },
+  "supportingBounds": {
+    "beerGlass": {
+      "x0": 1133,
+      "y0": 116,
+      "x1": 1358,
+      "y1": 623
+    },
+    "beerMat": {
+      "x0": 1106,
+      "y0": 573,
+      "x1": 1382,
+      "y1": 645
+    },
+    "beerFoam": {
+      "x0": 1133,
+      "y0": 154,
+      "x1": 1358,
+      "y1": 215
+    },
+    "ryeLiquid": {
+      "x0": 936,
+      "y0": 382,
+      "x1": 1128,
+      "y1": 540
+    },
+    "beerLiquid": {
+      "x0": 1136,
+      "y0": 210,
+      "x1": 1355,
+      "y1": 581
+    },
+    "tagCord": {
+      "x0": 1014,
+      "y0": 647,
+      "x1": 1103,
+      "y1": 703
+    }
+  },
+  "personalityBounds": {
+    "keys": {
+      "x0": 742,
+      "y0": 561,
+      "x1": 933,
+      "y1": 706
+    },
+    "usedLinen": {
+      "x0": 619,
+      "y0": 526,
+      "x1": 1020,
+      "y1": 700
+    }
+  },
+  "recognitionRegions": {
+    "keys": {
+      "x0": 742,
+      "y0": 561,
+      "x1": 933,
+      "y1": 706
+    },
+    "usedLinen": {
+      "x0": 619,
+      "y0": 526,
+      "x1": 1020,
+      "y1": 700
+    }
+  },
+  "physicalRecognitionRegions": {
+    "ryeGlass": {
+      "x0": 934,
+      "y0": 307,
+      "x1": 1128,
+      "y1": 759
+    },
+    "beerGlass": {
+      "x0": 1133,
+      "y0": 116,
+      "x1": 1358,
+      "y1": 623
+    },
+    "beerFoam": {
+      "x0": 1133,
+      "y0": 154,
+      "x1": 1358,
+      "y1": 215
+    },
+    "beerMat": {
+      "x0": 1106,
+      "y0": 573,
+      "x1": 1382,
+      "y1": 645
+    },
+    "servedGarnish": null,
+    "ice": null
+  },
+  "visibility": {
+    "keys": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Overlapping keys have hidden silhouettes; visible whole-object union measured."
+    },
+    "usedLinen": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Key contact hides centre; folded silhouette fully in frame."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Low narrow-stem taupe wrap and short front diagonal to hole; tag on wood",
+    "anchorBounds": {
+      "x0": 1014,
+      "y0": 647,
+      "x1": 1060,
+      "y1": 677
+    },
+    "knotPoint": {
+      "x": 1049,
+      "y": 668
+    },
+    "holePoint": {
+      "x": 1095,
+      "y": 694
+    },
+    "knot": "Small dark front gathering",
+    "tether": "Two visible diagonal strands descend~53px to hole",
+    "hole": "Punched circle and strand apparent",
+    "gravity": "Paper rests outboard on tabletop",
+    "airGap": "Paper clear of bowl; one corner near stem foot",
+    "contact": "Wood surface beneath paper visible; shadow supports contact",
+    "occlusion": "Rear stem wrap/knot load obscured",
+    "uncertainties": [
+      "Rear support and load unproved",
+      "Doubled cord/53px diagonal longer than tiny tether"
+    ],
+    "status": "held"
+  },
+  "recognitionUnionWidth": 763,
+  "cropAssessment": {
+    "wide": "Beer y116 exceeds intended upper20% margin (188px); rye height452px/beer507px exceed pulled-back intent.",
+    "portraitFromWide": "702px crop loses right beer/mat; dedicated portrait primary.",
+    "movingPhone": "763px union much wider than roughly389px native wide-source phone window; HOLD."
+  },
+  "review": {
+    "recipe": "Two separate noice/nogarnish vessels, rye near half bowl, white beer head. Rye bright specks risk carbonation reading; whether bubbles/reflections cannot be proved.90/400ml capacity and temperatures unproved.",
+    "personality": "Whole keys on used linen visible; weak linen specificity/inferred type honest.",
+    "world": "One camera-right practical visible. Table still glossy warm relief, beer condensation dense and rye/glass bright specks.",
+    "issues": [
+      "wide-beer-upper-margin",
+      "oversized-vessels",
+      "material-warm-gloss-relief",
+      "beer-dense-droplets",
+      "rye-speckle-stillness-watch",
+      "tag-rear-load-uncertain",
+      "phone/name/browser-unchecked"
+    ]
+  },
+  "status": "held-candidate",
+  "exportProvenance": {
+    "batch": 14,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-regular-guy/v3/wide-measurements.json",
+    "originalMeasurementSha256": "88ad2af114f469d04f27479f9ff8bdf75abff9eb4fea44fceab4e29258015079",
+    "previousSourceSha256": "cd9b909ee55d60451ba39fdb2c02b4115f53b4001deac21cf957bd1d73f3010d",
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {},
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "portraitMeasurementFile": "portrait-measurements.json"
+}

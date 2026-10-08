@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 ## Cocktail
 
 - **name:** In Good Part
-- **tagline:** You'll be the silly one, so nobody has to be the wrong one.
+- **tagline:** Your jokes let people change their minds without losing face.
 - **glassware:** coupe, chilled in the freezer, no ice in the glass
 - **contains:** `["egg-white"]`
 

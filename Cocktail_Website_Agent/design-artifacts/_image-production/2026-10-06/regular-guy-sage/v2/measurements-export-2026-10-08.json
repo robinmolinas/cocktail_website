@@ -1,0 +1,98 @@
+{
+  "pairing": "regular-guy-sage",
+  "pour": "Tried and True",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-sage/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-bb86c2c2-98ad-43a7-bb20-eb608fbce1e0.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "96ce129d82010883b1c735874370bbcb1a75230d6c1f1259eb672005165a1a6e",
+  "specSha256": "1b916f3d962d024803aa93d1b29f90882348a0b11770a963d9272dcaf5caec66",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    828,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1350,
+    "cy": 660,
+    "w": 164,
+    "angle": 14.4
+  },
+  "glass": {
+    "x": 1200,
+    "y": 470
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1092,
+      "y0": 406,
+      "x1": 1309,
+      "y1": 737
+    },
+    "paper": {
+      "x0": 1231,
+      "y0": 585,
+      "x1": 1453,
+      "y1": 722
+    }
+  },
+  "personalityBounds": {
+    "addressBook": {
+      "x0": 905,
+      "y0": 592,
+      "x1": 1246,
+      "y1": 707
+    },
+    "fountainPen": {
+      "x0": 940,
+      "y0": 569,
+      "x1": 1184,
+      "y1": 635
+    }
+  },
+  "recognitionRegions": {
+    "addressBook": {
+      "x0": 905,
+      "y0": 592,
+      "x1": 1246,
+      "y1": 707
+    },
+    "fountainPen": {
+      "x0": 940,
+      "y0": 569,
+      "x1": 1184,
+      "y1": 635
+    }
+  },
+  "review": {
+    "recipe": "Transparent translucent ruby-pink stirred Blackthorn in small rounded stemmed glass; no serving ice/foam/carbonation. Source specifies119.2ml in150ml vessel and expressed dropped lemon peel. Generated peel remains orange-looking under warm light, a genuine garnish/colour hold, not a changed recipe.",
+    "personality": "Used closed unmarked tabbed pocket address book and capped fountain pen plausibly infer remembering the names behind tested useful advice and passing it on. Full recognizable object silhouettes retained, not anonymous fragments. Book still lateral despite correction intention.",
+    "world": "Quiet historic reading-room/bar with dark walnut table and neutral near-black shadows. Plain unetched glass is promising. Table and practical lighting remain overly warm/glossy with repeated fine grain; blue window and reflected lamp introduce competing light watch.",
+    "issues": [
+      "Complete glass331px high meets280\u2013340px intention, but full physical/recognisable glass+paper+book+pen union548px exceeds350px intent and389px max-breathing phone window. Full702px portrait crop retains scene but is not phone retention.",
+      "Usable hanging tag164px below170\u2013200px intent; physically tied through visible hole, freely hanging with gap. Name overlay/browser legibility unresolved.",
+      "Lemon peel is still warm orange-looking and drink reads red/amber in highlights; source requires lemon and translucent ruby-pink. No serving ice/foam present.",
+      "Warm glossy reflection and repeated fine table grain persist; not raised alligator wood but not fully neutral low-satin house calibration."
+    ]
+  },
+  "status": "measured-master-candidate;held;not-accepted;browser-deferred",
+  "sourceRefresh": {
+    "previousSourceSha256": "cc3815ac1fd8187d465a2978169b823eb45c402ad018af7e42186b8b55ecb64e",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** Most of what you know, somebody told you. You still remember who.",
+      "+ - **tagline:** Your best advice keeps someone else's voice in the room.",
+      "- **tagline:** Most of what you know, somebody told you. You still remember who.",
+      "+ **tagline:** Your best advice keeps someone else's voice in the room."
+    ]
+  }
+}

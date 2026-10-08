@@ -1,0 +1,145 @@
+{
+  "pairing": "ruler-outlaw",
+  "pour": "Had to Be Serious",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-outlaw/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-5c2f489c-f688-4269-8314-a8f01f145e5b.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "a20e59e03d3bf383e2806c4a82306a21734d4191e4a58b952751ebd290a5c8de",
+  "sourceSha256": "c138b1646bccf1be9b43e6e408012e7f77e2c93745f51b73b11acc765ac798d9",
+  "specSha256": "2a140c83936cb4c1d04bfbaa01d655a769bf7499b3e1ecb44ab2509b95283370",
+  "roomSha256": "0e142e5d1b6313cd565efb6b93e72f16fadbaba870d94710254a57b2cd6e66e9",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    572,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1190,
+    "cy": 731,
+    "w": 103,
+    "angle": 35
+  },
+  "glass": {
+    "x": 1023,
+    "y": 521
+  },
+  "bounds": {
+    "glass": {
+      "x0": 919,
+      "y0": 285,
+      "x1": 1127,
+      "y1": 754
+    },
+    "paper": {
+      "x0": 1092,
+      "y0": 674,
+      "x1": 1264,
+      "y1": 784
+    },
+    "accountBook": {
+      "x0": 608,
+      "y0": 517,
+      "x1": 928,
+      "y1": 684
+    },
+    "keyring": {
+      "x0": 727,
+      "y0": 533,
+      "x1": 929,
+      "y1": 631
+    },
+    "physicalGarnish": {
+      "x0": 1029,
+      "y0": 188,
+      "x1": 1178,
+      "y1": 388
+    },
+    "cucumberGarnish": {
+      "x0": 1029,
+      "y0": 255,
+      "x1": 1123,
+      "y1": 388
+    },
+    "mintGarnish": {
+      "x0": 1031,
+      "y0": 188,
+      "x1": 1178,
+      "y1": 327
+    }
+  },
+  "recognitionRegions": {
+    "accountBook": {
+      "bounds": {
+        "x0": 612,
+        "y0": 543,
+        "x1": 919,
+        "y1": 680
+      },
+      "reason": "Complete closed book/pageblock/spine is recognizable, not anonymous leather edge; account content unknown."
+    },
+    "keyring": {
+      "bounds": {
+        "x0": 730,
+        "y0": 536,
+        "x1": 919,
+        "y1": 627
+      },
+      "reason": "Full ring and two plain distinct key bows/blades recognizable; keys ONEtrace."
+    }
+  },
+  "objectVisibility": {
+    "accountBook": "Visible closedoutline; some rightedge behindglass/selfoccluded extent unknown, content not proven.",
+    "keyring": "Real-size ring/keys visible; contactundersides unknown.",
+    "garnish": "Full mint/cucumber visiblebounds recorded, submergedlowercucumber partly hidden unknown."
+  },
+  "supportingObjectUnion": {
+    "x0": 608,
+    "y0": 188,
+    "x1": 1178,
+    "y1": 684
+  },
+  "essentialObjectUnion": {
+    "x0": 608,
+    "y0": 188,
+    "x1": 1264,
+    "y1": 784
+  },
+  "tagPhysics": {
+    "mechanism": "Thin exterior lowerbody loop y673–708 at liquid-foottransition, belowrim285; visible curvedfrontarc and credible sideocclusion.",
+    "knot": "Tiny apparent knot/crossingnear1101/684; secureloaded topology unproven.",
+    "tetherAndHole": "Short descendingcontinuous-lookingstrand appears to reach punchedhole1127/702; glassreflection/cord overlap ambiguous.",
+    "gravity": "Paper downright/outboard below knot with loweredge timber contact.",
+    "paperSeparationOrContact": "Paper outsideglass, lowerface resting real timber/contactshadow; upperleftpaper corner verynear glass/cord, full airgap not asserted.",
+    "uncertainties": [
+      "Loop still not whollyclearfoot BELOWliquid.",
+      "Tiny knot/tether topology rearloop/friction/load unproven.",
+      "Upperleftpaper separation obscured by overlap.",
+      "Writingaxis103px/namefituntested."
+    ],
+    "status": "Visible apparent supportchain/honestcontact, mechanical uncertainties held; no physics PASS."
+  },
+  "review": {
+    "recipe": "Settled brightred sparkling Pimm's Collins/ice/uprightmint/onecucumberrim slice retained. Some irregular crushed pieces appear, but recognizable large nearwhole/neatlyhalved strawberry sections and broadintactcucumber arcs persist: muddledPULP/pressedthin condition remains physical HOLD. Greenleaflike interior detail ambiguous cucumberpeel vs unwantedmint, not asserted approved.",
+    "personality": "Separate closedbook/workkeyring sourcebudget/stayed-opening inference recognizable. Stillleftspread/too wide, generic manager and exactownership/content held/watch.",
+    "world": "Quiet darkhistoric room; blanket shiny amber patterned walnut, etchedgranular glass/ice and over-weatheredbinding held.",
+    "issues": [
+      "Recipe muddled fruit condition remains unresolved after solecorrection; no recipechange.",
+      "Glass469px rather than300–360, garnishy188 at20%border no generousclearance.",
+      "Full656px/conservative652pxgroup exceeds389movingphone; proposed702portraitnominallyretains visiblegroup but notphonePASS.",
+      "Dense glassice/bubble/woodtexture held.",
+      "Genericmanagement specificity/exactaccount content inferred, no pseudo-writing requested.",
+      "Tag103px/namefit and knotrear/friction/contactpending.",
+      "2callscomplete; no furthergeneration/export/browser/integration/acceptance."
+    ]
+  }
+}

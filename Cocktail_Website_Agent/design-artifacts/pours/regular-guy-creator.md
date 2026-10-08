@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 ## Cocktail
 
 - **name:** Right Here
-- **tagline:** You thought you had to choose. You never did.
+- **tagline:** You make something remarkable, then go back to being one of the gang.
 - **glassware:** plain kitchen tumbler (about 250 ml), three or four ordinary ice cubes from the freezer tray
 - **contains:** `["nuts"]`
 

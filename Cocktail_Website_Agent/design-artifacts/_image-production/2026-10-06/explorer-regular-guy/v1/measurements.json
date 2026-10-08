@@ -1,0 +1,139 @@
+{
+  "pairing": "explorer-regular-guy",
+  "pour": "Brought Home",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-regular-guy/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-193bd7bf-3f01-4ac8-832a-214b35d78cfd.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "c1516330e6965fdb44873c43c4447418a57e632a3e69f26f51c1056115652dbf",
+  "sourceSha256": "24ca41aac89151eea1e670f46860954065dc80bdec502e95df121308cf100840",
+  "specSha256": "6e51734ae0165ae6dc328d5b9d9238a4f3f17c340aa275c4fc888b9616c04d02",
+  "roomSha256": "20ca32f598052f46bec2e2792647ab4f57a1a59db8fd2e00e4026fa782fe9e00",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    732,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1251,
+    "cy": 758,
+    "w": 120,
+    "angle": 52
+  },
+  "glass": {
+    "x": 1078,
+    "y": 455
+  },
+  "bounds": {
+    "glass": {
+      "x0": 939,
+      "y0": 132,
+      "x1": 1218,
+      "y1": 781
+    },
+    "paper": {
+      "x0": 1165,
+      "y0": 674,
+      "x1": 1344,
+      "y1": 828
+    },
+    "guidebook": {
+      "x0": 163,
+      "y0": 449,
+      "x1": 798,
+      "y1": 738
+    },
+    "photographs": {
+      "x0": 347,
+      "y0": 460,
+      "x1": 932,
+      "y1": 698
+    },
+    "grapefruitGarnish": {
+      "x0": 1124,
+      "y0": 93,
+      "x1": 1331,
+      "y1": 296
+    },
+    "unrequestedBowl": {
+      "x0": 1513,
+      "y0": 401,
+      "x1": 1672,
+      "y1": 536
+    }
+  },
+  "recognitionRegions": {
+    "guidebook": {
+      "bounds": {
+        "x0": 169,
+        "y0": 451,
+        "x1": 789,
+        "y1": 734
+      },
+      "reason": "Substantial closed book body, spine/page block; travel genre not provable from blank cover."
+    },
+    "photographs": {
+      "bounds": {
+        "x0": 357,
+        "y0": 469,
+        "x1": 921,
+        "y1": 693
+      },
+      "reason": "Two actual photographic prints with recognizable doorway and street imagery, not anonymous reverse corners."
+    }
+  },
+  "objectVisibility": {
+    "guidebook": "Behind prints; hidden cover extent unknown; book visible bounds only.",
+    "photographs": "Two prints visible/overlap; lower print edge partly hidden, unseen extent unknown.",
+    "unrequestedBowl": "Optional empty-looking room bowl clipped by right raster; unseen extent unknown, not person/core or required ingredient."
+  },
+  "supportingObjectUnion": {
+    "x0": 163,
+    "y0": 93,
+    "x1": 1672,
+    "y1": 738
+  },
+  "essentialObjectUnion": {
+    "x0": 163,
+    "y0": 93,
+    "x1": 1344,
+    "y1": 828
+  },
+  "tagPhysics": {
+    "mechanism": "Beige exterior snug body/base loop y642–691, below rim132, front curvature and side occlusion visible; partly at lower liquid boundary rather than entirely transparent foot.",
+    "knot": "Small front-right knot near1185/681.",
+    "tetherAndHole": "Short downward strand through hole near1207/703, apparent connection.",
+    "gravity": "Paper hangs diagonally below support, downward right.",
+    "paperSeparationOrContact": "Paper outside right glass contour; lower edge rests on timber near827 with shadow, not pasted label.",
+    "uncertainties": [
+      "Hidden rear loop/friction/load unknown.",
+      "Tiny knot/hole threading partly occluded.",
+      "Base location overlaps liquid edge, not entirely transparent foot."
+    ],
+    "status": "Plausible visible chain/contact, unresolved support load, held."
+  },
+  "review": {
+    "recipe": "Soft cloudy blush ice-filled sparkling Paloma, one pink grapefruit rim wedge/no salt rim/foam/straw. Wedge oversized and high y93; fine drink speckling too uniform.",
+    "personality": "Source-explicit prints and liked guidebook recognizable but far left and enlarged; generic book travel specificity held.",
+    "world": "Historic warm walnut, but glossy amber crackled table/dense glass ice texture recurring material hold.",
+    "issues": [
+      "Glass649px rather than330, full1181px essentialgroup >389movingphone.",
+      "Proposed702portrait clips book/photograph recognition; not phone PASS.",
+      "High grapefruit wedge ultrawide crop risk.",
+      "Dense droplets/crystalline ice/glossy timber held.",
+      "Unrequested room bowl added far right; optional, clipped unseen extent unknown.",
+      "Tag120px axis actualnameuntested; support/friction/knot uncertainty.",
+      "No exports/JPEG/browser/acceptance."
+    ]
+  }
+}
+

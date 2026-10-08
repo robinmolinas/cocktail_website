@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch jester)
 ## Cocktail
 
 - **name:** For Kicks
-- **tagline:** You made it up. Now everyone says it.
+- **tagline:** You take a joke further than anyone, until everyone else is in on it.
 - **glassware:** coupe, chilled
 - **contains:** `["nuts"]`
 
@@ -232,7 +232,7 @@ Wren's title-block notes:
 
 **name:** For Kicks (my pick; see the turn) · others: Not a Phase · Fly in It · Trap One · Little Blue Bottlefly
 
-**tagline:** You made it up. Now everyone says it.
+**tagline:** You take a joke further than anyone, until everyone else is in on it.
 
 **epigraph** (the cocktail, cold, 15 words by the lint's count)
 *Three coffee beans float on top. They're meant to be flies. It's a long story.*

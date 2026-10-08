@@ -1,0 +1,5 @@
+# Work It Out — private provenance
+
+2026-10-08. Three built-in image calls; all originals preserved. One failed inherited edit, one fresh wide, one dedicated portrait. Source paths are in geometry files. Failed edit source: /Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-4cb0c7e1-a876-48a0-9683-8b6dc343479c.png. It remains as wide-edit-pilot.png and is NOT selected. Selected means current comparison candidate only, not approved.
+
+Root personally viewed selected wide and portrait at original size. Visual measurements are provisional; no fresh hashes/header checks were run. Complete settled dossier and spec read; recipe untouched. Practice box/pencil are inferred ordinary reworking evidence, not a stated profession. Open lid improves recent-use but still looks like a finished box. Cord has multiple visible close strands, not the requested single turn. Portrait props remain too lateral. Material, physics, name, phone, editorial and user gates remain closed. Three-call pairing ceiling reached; no more churn this pass.

@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-30 (batch caregiver)
 ## Cocktail
 
 - **name:** Instead
-- **tagline:** You don't say "poor you". You ask "since when?"
+- **tagline:** You care enough to ask the difficult question.
 - **glassware:** a small stemmed cocktail glass, chilled, no ice
 - **contains:** `[]`
 

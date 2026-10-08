@@ -1,0 +1,427 @@
+{
+  "pairing": "hero-creator",
+  "pour": "The Long Answer",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "b88f03f698aea6b8055d4cd3b0e669b0051c8e80bb4fff755dc67633c2eb3f4f",
+  "review": {
+    "recipe": "Current settled goblet recipe reviewed; unchanged spec. See root-master-review.md, Physical drink and person.",
+    "personality": "Letters/page/capped pen; see root-master-review.md. Recognition and specificity holds remain.",
+    "world": "Historic reading room; see root-master-review.md. Material holds remain.",
+    "issues": [
+      "Cord-visibility HOLD: soleedit thinned minimally but retained several turns/tail; not successful single-strand instruction.",
+      "Glossyamberalligatorwood/coolwindow+rightlamp/densebrightglassdroplets/ice microdetail held.",
+      "Full783px/recognition765px; proposedportrait clips letters andpen, phoneheld.",
+      "App name untested; physicalserve/fill/garnish/personality appearance unaccepted."
+    ]
+  },
+  "measurements": {
+    "pairing": "hero-creator",
+    "pour": "The Long Answer",
+    "version": "v2",
+    "state": "measured-unexported held candidate; no acceptance",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-57b4afa0-2782-40eb-ad7f-6d31b0c1440e.png",
+    "sourceSha256": "b88f03f698aea6b8055d4cd3b0e669b0051c8e80bb4fff755dc67633c2eb3f4f",
+    "specSha256": "97f064979295e88a43ac1c86d10b4f7e0fe8334e67f502cb4b46036ec6895926",
+    "roomSha256": "cea4522e7b1ac31a265e68531ec977482841c1d6736772a573014d96c8e64dc6",
+    "masterSha256": "3ca126fa2776124bd1a1bfb6ca571ffe9c430e169706099f6fff8b8be2c40d43",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      758,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1323,
+      "cy": 742,
+      "w": 125,
+      "angle": 36
+    },
+    "glass": {
+      "x": 1207,
+      "y": 544
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1037,
+        "y0": 311,
+        "x1": 1379,
+        "y1": 782
+      },
+      "paper": {
+        "x0": 1215,
+        "y0": 657,
+        "x1": 1425,
+        "y1": 809
+      }
+    },
+    "personalityBounds": {
+      "replyEnvelopesAndFoldedPage": {
+        "x0": 642,
+        "y0": 477,
+        "x1": 1159,
+        "y1": 679
+      },
+      "cappedBluePen": {
+        "x0": 707,
+        "y0": 566,
+        "x1": 964,
+        "y1": 665
+      }
+    },
+    "garnishBounds": {
+      "mint": {
+        "x0": 1025,
+        "y0": 204,
+        "x1": 1197,
+        "y1": 386
+      },
+      "twoOrangeHalfSlices": {
+        "x0": 1098,
+        "y0": 258,
+        "x1": 1279,
+        "y1": 459
+      },
+      "pineapplePiece": {
+        "x0": 1260,
+        "y0": 288,
+        "x1": 1360,
+        "y1": 389
+      },
+      "cherryAndStalk": {
+        "x0": 1222,
+        "y0": 238,
+        "x1": 1305,
+        "y1": 398
+      }
+    },
+    "physicalRecognitionRegions": {
+      "ice": {
+        "x0": 1154,
+        "y0": 390,
+        "x1": 1320,
+        "y1": 549
+      }
+    },
+    "recognitionRegions": {
+      "replyEnvelopesAndFoldedPage": {
+        "x0": 660,
+        "y0": 478,
+        "x1": 1110,
+        "y1": 679
+      },
+      "cappedBluePen": {
+        "x0": 707,
+        "y0": 566,
+        "x1": 964,
+        "y1": 665
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Tan multi-turn cord coil around short narrow stem below bowl, not naked rim. Soleedit did NOT fully deliver single thin subdued strand.",
+      "loopBounds": {
+        "x0": 1161,
+        "y0": 650,
+        "x1": 1246,
+        "y1": 681
+      },
+      "knot": {
+        "x": 1243,
+        "y": 670
+      },
+      "paperHole": {
+        "x": 1265,
+        "y": 690
+      },
+      "gravity": "Short down-right tether appears through paperhole; broadface outboardright, bottom809 onwood below support.",
+      "paperSeparationOrContact": "Broadface separated mostly fromglass; upperleftcorner/string still nearstem, localgap/loadsharingunknown; woodcontactshadow.",
+      "uncertainty": "Rearclosure/friction/knotdepth/load unknown; retained visible4turncoil and one tail to~711 remain cord-visibility HOLD. No physics PASS."
+    },
+    "rootMasterOriginalResolutionInspected": true,
+    "rootWideInspected": false,
+    "rootPortraitInspected": false,
+    "exported": false,
+    "browser": "deferred-by-user;not-run",
+    "accepted": false,
+    "integrated": false,
+    "reviewHolds": [
+      "Cord-visibility HOLD: soleedit thinned minimally but retained several turns/tail; not successful single-strand instruction.",
+      "Glossyamberalligatorwood/coolwindow+rightlamp/densebrightglassdroplets/ice microdetail held.",
+      "Full783px/recognition765px; proposedportrait clips letters andpen, phoneheld.",
+      "App name untested; physicalserve/fill/garnish/personality appearance unaccepted."
+    ],
+    "rootReview": "root-master-review.md",
+    "sourceRefresh": {
+      "previousSourceSha256": "c657ff96a0f41ba56c71e70e8f8a373d98680c6fe2d68536effe7ec447bf40a5",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** You rarely win the row. You make the thing people end up quoting.",
+        "+ - **tagline:** What you make gives people the words they were missing.",
+        "- - **Tagline:** You rarely win the row. You make the thing people end up quoting.",
+        "+ - **Tagline:** What you make gives people the words they were missing."
+      ]
+    },
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v2/master.png",
+    "review": {
+      "recipe": "Current settled goblet recipe reviewed; unchanged spec. See root-master-review.md, Physical drink and person.",
+      "personality": "Letters/page/capped pen; see root-master-review.md. Recognition and specificity holds remain.",
+      "world": "Historic reading room; see root-master-review.md. Material holds remain.",
+      "issues": [
+        "Cord-visibility HOLD: soleedit thinned minimally but retained several turns/tail; not successful single-strand instruction.",
+        "Glossyamberalligatorwood/coolwindow+rightlamp/densebrightglassdroplets/ice microdetail held.",
+        "Full783px/recognition765px; proposedportrait clips letters andpen, phoneheld.",
+        "App name untested; physicalserve/fill/garnish/personality appearance unaccepted."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1519.2344497607655,
+        "cy": 852.5106382978723,
+        "w": 143.54066985645935,
+        "angle": 36.014489763595755
+      },
+      "glass": {
+        "x": 1386.0287081339713,
+        "y": 625.0212765957447
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 721.1396011396012,
+        "cy": 947.2340425531914,
+        "w": 159.54415954415953,
+        "angle": 36.00517552698639
+      },
+      "glass": {
+        "x": 573.0826210826211,
+        "y": 694.4680851063829
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/hero-creator/portrait.jpg",
+    "wide": "/personas/hero-creator/wide.jpg",
+    "wideTag": {
+      "cx": 0.791267942583732,
+      "cy": 0.7893617021276595,
+      "w": 0.07476076555023924,
+      "angle": 36.014489763595755
+    },
+    "wideGlass": {
+      "x": 0.72188995215311,
+      "y": 0.5787234042553191
+    },
+    "tag": {
+      "cx": 0.8048433048433048,
+      "cy": 0.7893617021276595,
+      "w": 0.17806267806267806,
+      "angle": 36.00517552698639
+    },
+    "glass": {
+      "x": 0.6396011396011396,
+      "y": 0.5787234042553191
+    }
+  },
+  "hashes": {
+    "master": "3ca126fa2776124bd1a1bfb6ca571ffe9c430e169706099f6fff8b8be2c40d43",
+    "wide": "42d3a4b0f935aaa855f3bf76fa56cb02c6c4e5835367308d059106a73c5e681a",
+    "portrait": "37793c2e653e1488e41fe938992c694218f86df0a7863096223d9343553d6d84"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1190.8133971291866,
+          "y0": 357.3191489361702,
+          "x1": 1583.5406698564593,
+          "y1": 898.468085106383
+        },
+        "paper": {
+          "x0": 1395.2153110047848,
+          "y0": 754.8510638297872,
+          "x1": 1636.3636363636365,
+          "y1": 929.4893617021277
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 912.3444976076555,
+          "y0": 297.7659574468085,
+          "x1": 1239.6172248803828,
+          "y1": 748.7234042553192
+        },
+        "paper": {
+          "x0": 1082.6794258373207,
+          "y0": 629.0425531914894,
+          "x1": 1283.6363636363637,
+          "y1": 774.5744680851064
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1270.200956937799,
+          "y0": 327.7804255319149,
+          "x1": 1689.11004784689,
+          "y1": 905.0059574468086
+        },
+        "paper": {
+          "x0": 1488.2296650717703,
+          "y0": 751.8144680851065,
+          "x1": 1745.4545454545455,
+          "y1": 938.0953191489363
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.5088684719535781
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2133.5406698564593,
+          "y0": 388.3069148936172,
+          "x1": 2837.177033492823,
+          "y1": 1357.865425531915
+        },
+        "paper": {
+          "x0": 2499.7607655502393,
+          "y0": 1100.551595744681,
+          "x1": 2931.818181818182,
+          "y1": 1413.4452127659576
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.774029708454045,
+        "y": 0.5787234042553191
+      },
+      "bounds": {
+        "glass": {
+          "x0": 64.5471878442545,
+          "y0": 279.2382978723404,
+          "x1": 371.56120493827166,
+          "y1": 702.1361702127659
+        },
+        "paper": {
+          "x0": 224.33810902184234,
+          "y0": 589.9021276595745,
+          "x1": 412.85548793922135,
+          "y1": 726.3787234042553
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.7745935920722801,
+        "y": 0.5787234042553191
+      },
+      "bounds": {
+        "glass": {
+          "x0": 70.61371927825263,
+          "y0": 308.35319148936173,
+          "x1": 409.63867654320995,
+          "y1": 775.3446808510639
+        },
+        "paper": {
+          "x0": 247.0653052231719,
+          "y0": 651.4085106382979,
+          "x1": 455.23852459639136,
+          "y1": 802.1148936170214
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.6491450656204751,
+        "y": 0.5787234042553191
+      },
+      "bounds": {
+        "glass": {
+          "x0": 100.9748847103514,
+          "y0": 187.92340425531916,
+          "x1": 307.59095308641974,
+          "y1": 472.5276595744681
+        },
+        "paper": {
+          "x0": 208.51190275403607,
+          "y0": 396.9957446808511,
+          "x1": 335.38141842355174,
+          "y1": 488.8425531914894
+        }
+      }
+    }
+  ]
+}

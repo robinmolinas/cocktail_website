@@ -1,0 +1,525 @@
+{
+  "pairing": "jester-lover",
+  "pour": "I'll Tell You Later",
+  "version": "v4",
+  "wide": {
+    "pairing": "jester-lover",
+    "pour": "I'll Tell You Later",
+    "asset": "wide",
+    "version": "v4",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v4/wide-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-aec976d2-d138-4809-b007-5282a2648a30.png",
+    "masterSha256": "50810efb38b3cdaec3c56d36c9334326cf457a27384e0e15742891249984e8aa",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+    "specSha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+    "roomSha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735",
+    "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      899,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1260,
+      "cy": 730,
+      "w": 75,
+      "angle": 104
+    },
+    "glass": {
+      "x": 1190,
+      "y": 645
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1063,
+        "y0": 546,
+        "x1": 1314,
+        "y1": 737
+      },
+      "paper": {
+        "x0": 1225,
+        "y0": 680,
+        "x1": 1297,
+        "y1": 771
+      }
+    },
+    "supportingBounds": {
+      "rearCup": {
+        "x0": 857,
+        "y0": 427,
+        "x1": 1067,
+        "y1": 570
+      },
+      "frontSaucer": {
+        "x0": 978,
+        "y0": 628,
+        "x1": 1339,
+        "y1": 778
+      },
+      "rearSaucer": {
+        "x0": 750,
+        "y0": 503,
+        "x1": 1082,
+        "y1": 606
+      },
+      "usedOrangeSpiral": {
+        "x0": 800,
+        "y0": 487,
+        "x1": 951,
+        "y1": 576
+      },
+      "fork": {
+        "x0": 751,
+        "y0": 519,
+        "x1": 1039,
+        "y1": 606
+      },
+      "rearSteam": {
+        "x0": 900,
+        "y0": 265,
+        "x1": 986,
+        "y1": 426
+      },
+      "frontSteam": {
+        "x0": 1110,
+        "y0": 485,
+        "x1": 1188,
+        "y1": 548
+      },
+      "tagCord": {
+        "x0": 1272,
+        "y0": 630,
+        "x1": 1286,
+        "y1": 702
+      }
+    },
+    "personalityBounds": {
+      "wrappedPresent": {
+        "x0": 1048,
+        "y0": 350,
+        "x1": 1368,
+        "y1": 540
+      },
+      "openDecoy": {
+        "x0": 1290,
+        "y0": 352,
+        "x1": 1615,
+        "y1": 600
+      }
+    },
+    "recognitionRegions": {
+      "wrappedPresent": {
+        "x0": 1048,
+        "y0": 350,
+        "x1": 1368,
+        "y1": 540
+      },
+      "openDecoy": {
+        "x0": 1290,
+        "y0": 352,
+        "x1": 1615,
+        "y1": 600
+      }
+    },
+    "physicalRecognitionRegions": {
+      "frontCup": {
+        "x0": 1063,
+        "y0": 546,
+        "x1": 1314,
+        "y1": 737
+      },
+      "rearCup": {
+        "x0": 857,
+        "y0": 427,
+        "x1": 1067,
+        "y1": 570
+      },
+      "frontSaucer": {
+        "x0": 978,
+        "y0": 628,
+        "x1": 1339,
+        "y1": 778
+      },
+      "rearSaucer": {
+        "x0": 750,
+        "y0": 503,
+        "x1": 1082,
+        "y1": 606
+      },
+      "usedOrangeSpiral": {
+        "x0": 800,
+        "y0": 487,
+        "x1": 951,
+        "y1": 576
+      },
+      "fork": {
+        "x0": 751,
+        "y0": 519,
+        "x1": 1039,
+        "y1": 606
+      }
+    },
+    "cloveHeadPoints": [
+      {
+        "x": 825,
+        "y": 489
+      },
+      {
+        "x": 821,
+        "y": 513
+      },
+      {
+        "x": 845,
+        "y": 545
+      },
+      {
+        "x": 885,
+        "y": 515
+      },
+      {
+        "x": 907,
+        "y": 536
+      },
+      {
+        "x": 923,
+        "y": 558
+      }
+    ],
+    "cloveCountAssessment": "Six individually distinct heads visible at original resolution; spiral continuity partly occluded by turns, no extra isolated clove counted.",
+    "visibility": {
+      "wrappedPresent": {
+        "masterClipped": false,
+        "occluded": false,
+        "unseenExtent": null
+      },
+      "openDecoy": {
+        "masterClipped": false,
+        "occluded": false,
+        "unseenExtent": null
+      },
+      "rearCup": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Thin taupe low front-cup handle loop and short punched-hole tether",
+      "anchorBounds": {
+        "x0": 1272,
+        "y0": 630,
+        "x1": 1286,
+        "y1": 681
+      },
+      "knotPoint": {
+        "x": 1282,
+        "y": 677
+      },
+      "holePoint": {
+        "x": 1276,
+        "y": 694
+      },
+      "knot": "Small dark gathering visible; rear route unknown",
+      "tether": "~18px downward frontchain; short doubled tail/strand visible",
+      "hole": "Dark punched circle near paper top",
+      "gravity": "Paper below handle attachment, loose outside china",
+      "airGap": "Outside bowl, not stuck to front cup",
+      "contact": "Lower paper edge near tabletop shadow; contact not conclusively proven",
+      "occlusion": "Rear handle loop/load occluded",
+      "uncertainties": [
+        "Rear support/load unknown",
+        "Doubled front strand",
+        "Woodcontact uncertain"
+      ],
+      "status": "held"
+    },
+    "recognitionUnionWidth": 865,
+    "cropAssessment": {
+      "wide": "Full two cups/saucers/gifts/tissue inside raster. Front saucer lower edge y778 is82.7% height, beyond central20–80% requirement. Cup heights191/143px smaller than earlier. Whole meaningfulunion865px, not compact350–380 target.",
+      "portrait": "Proposed702 crop cannot contain whole rear saucer plus both gifts; original native wide is not intended portrait companion.",
+      "movingPhone": "No name/animatedcover/browser test. Dedicated companion evaluated separately; no pass."
+    },
+    "review": {
+      "recipe": "Two finished dark hot coffees/two demitasses/two existing saucers, no foam/cream/ice/flame. One used orange spiral with six mapped clove heads and fork on rear saucer, not drink garnish.",
+      "personality": "Both presents fully visible; explicit present/decoy habit, concrete box/wrapping inferred. Still broad lateral layout865px.",
+      "world": "Flat long-grain structure better than alligator, but strong amber sheen and fine raised/sparkly wear remain watch/hold. One camera-right practical; books now dense ornamental background.",
+      "issues": [
+        "wide-personality-union865",
+        "front-saucer-below80percent",
+        "warm-reflective-timber-fine-relief",
+        "rear-tag-load-contact-uncertain",
+        "name-phone-browser-unchecked"
+      ]
+    },
+    "status": "held-candidate"
+  },
+  "portrait": {
+    "pairing": "jester-lover",
+    "pour": "I'll Tell You Later",
+    "asset": "portrait",
+    "version": "v4",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v4/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-d54b9f00-28d0-4b3b-a05b-7c35dce89b2f.png",
+    "masterSha256": "e8a452193a44a1c50e60d254168d5be55c8a6a7abaf6432ffab90b4601e909dc",
+    "masterDimensions": {
+      "width": 1084,
+      "height": 1451
+    },
+    "sourceSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+    "specSha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+    "roomSha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735",
+    "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "wideCrop": null,
+    "portraitCrop": [
+      10,
+      13,
+      1064,
+      1425
+    ],
+    "tag": {
+      "cx": 761,
+      "cy": 1033,
+      "w": 82,
+      "angle": 105
+    },
+    "glass": {
+      "x": 681,
+      "y": 946
+    },
+    "bounds": {
+      "glass": {
+        "x0": 561,
+        "y0": 845,
+        "x1": 809,
+        "y1": 1041
+      },
+      "paper": {
+        "x0": 721,
+        "y0": 982,
+        "x1": 799,
+        "y1": 1082
+      }
+    },
+    "supportingBounds": {
+      "rearCup": {
+        "x0": 374,
+        "y0": 678,
+        "x1": 586,
+        "y1": 834
+      },
+      "frontSaucer": {
+        "x0": 481,
+        "y0": 931,
+        "x1": 828,
+        "y1": 1076
+      },
+      "rearSaucer": {
+        "x0": 270,
+        "y0": 757,
+        "x1": 602,
+        "y1": 872
+      },
+      "usedOrangeSpiral": {
+        "x0": 316,
+        "y0": 744,
+        "x1": 470,
+        "y1": 837
+      },
+      "fork": {
+        "x0": 275,
+        "y0": 778,
+        "x1": 552,
+        "y1": 869
+      },
+      "rearSteam": {
+        "x0": 430,
+        "y0": 517,
+        "x1": 482,
+        "y1": 678
+      },
+      "frontSteam": {
+        "x0": 635,
+        "y0": 740,
+        "x1": 689,
+        "y1": 850
+      },
+      "tagCord": {
+        "x0": 769,
+        "y0": 922,
+        "x1": 787,
+        "y1": 1000
+      }
+    },
+    "personalityBounds": {
+      "wrappedPresent": {
+        "x0": 444,
+        "y0": 549,
+        "x1": 759,
+        "y1": 755
+      },
+      "openDecoy": {
+        "x0": 690,
+        "y0": 582,
+        "x1": 999,
+        "y1": 826
+      }
+    },
+    "recognitionRegions": {
+      "wrappedPresent": {
+        "x0": 444,
+        "y0": 549,
+        "x1": 759,
+        "y1": 755
+      },
+      "openDecoy": {
+        "x0": 690,
+        "y0": 582,
+        "x1": 999,
+        "y1": 826
+      }
+    },
+    "physicalRecognitionRegions": {
+      "frontCup": {
+        "x0": 561,
+        "y0": 845,
+        "x1": 809,
+        "y1": 1041
+      },
+      "rearCup": {
+        "x0": 374,
+        "y0": 678,
+        "x1": 586,
+        "y1": 834
+      },
+      "frontSaucer": {
+        "x0": 481,
+        "y0": 931,
+        "x1": 828,
+        "y1": 1076
+      },
+      "rearSaucer": {
+        "x0": 270,
+        "y0": 757,
+        "x1": 602,
+        "y1": 872
+      },
+      "usedOrangeSpiral": {
+        "x0": 316,
+        "y0": 744,
+        "x1": 470,
+        "y1": 837
+      },
+      "fork": {
+        "x0": 275,
+        "y0": 778,
+        "x1": 552,
+        "y1": 869
+      }
+    },
+    "cloveHeadPoints": [
+      {
+        "x": 343,
+        "y": 746
+      },
+      {
+        "x": 337,
+        "y": 774
+      },
+      {
+        "x": 366,
+        "y": 805
+      },
+      {
+        "x": 403,
+        "y": 773
+      },
+      {
+        "x": 428,
+        "y": 795
+      },
+      {
+        "x": 444,
+        "y": 819
+      }
+    ],
+    "cloveCountAssessment": "Six individually distinct heads visible at original resolution; spiral continuity partly occluded by turns, no extra isolated clove counted.",
+    "visibility": {
+      "wrappedPresent": {
+        "masterClipped": false,
+        "occluded": false,
+        "unseenExtent": null
+      },
+      "openDecoy": {
+        "masterClipped": false,
+        "occluded": false,
+        "unseenExtent": null
+      },
+      "rearCup": {
+        "masterClipped": false,
+        "occluded": true,
+        "unseenExtent": null
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Low front cup actual handle thin taupe loop and short punched-hole tether",
+      "anchorBounds": {
+        "x0": 769,
+        "y0": 922,
+        "x1": 787,
+        "y1": 982
+      },
+      "knotPoint": {
+        "x": 776,
+        "y": 978
+      },
+      "holePoint": {
+        "x": 774,
+        "y": 994
+      },
+      "knot": "Small doubled gathering visible at low handle; rear routing occluded",
+      "tether": "~16px downward frontchain to hole; small doubledstrand/tail",
+      "hole": "Dark circular punched area with strand",
+      "gravity": "Paper drops below attachment outside cup",
+      "airGap": "Tag separated from china body",
+      "contact": "Loweredge near wood shadow, exact contact uncertain",
+      "occlusion": "Rear handle loop/load unknown",
+      "uncertainties": [
+        "Rear routing/load not proven",
+        "Doubled strand",
+        "Wood contact not conclusively established"
+      ],
+      "status": "held"
+    },
+    "recognitionUnionWidth": 729,
+    "cropAssessment": {
+      "portrait": "Whole two cups/two saucers/paper/gifts/used spiral/fork visible natively and exact proposed crop. Meaningful group729px=67.3% nativewidth, misses central40% target; cups196/156px smaller than earlier.",
+      "movingPhone": "729px exceeds~601px native and~590px exactcrop breathing-endwidth before translation. HOLD; full portrait not phone acceptance.",
+      "wide": "Dedicated companion, pair with v4 wide."
+    },
+    "review": {
+      "recipe": "Two finished dark hot coffees/two demitasses/two existing saucers, no foam/cream/ice/flame. Six mapped distinct clove heads on used orange spiral and fork remain on rear existing saucer; not drink garnish.",
+      "personality": "Both wrapped present and opened decoy complete but still laterally broad;729px conservative union rather than anonymous partialbox strips. Concrete gift forms inferred from explicit present/decoy habit.",
+      "world": "Same room/practical and natural china. Mostly long-grain table retains conspicuous amber reflective fine relief/specks; not restrained neutral material approval.",
+      "issues": [
+        "portrait-meaningful-union729-not40percent",
+        "moving-phone-clearance-hold",
+        "warm-reflective-fine-relief-timber",
+        "rear-tag-load/contact-uncertain",
+        "name-browser-unchecked"
+      ]
+    },
+    "status": "held-candidate"
+  },
+  "status": "held-candidate; no exports/mobile/name/browser acceptance"
+}

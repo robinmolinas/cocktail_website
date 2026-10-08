@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 ## Cocktail
 
 - **name:** The Kind You'd Want
-- **tagline:** Everyone calls it trouble. Only you know the rules.
+- **tagline:** Your mischief makes grown-ups feel like they're allowed to play.
 - **glassware:** a plain everyday tumbler (about 300 ml), filled with ice
 - **contains:** `[]`
 

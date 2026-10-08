@@ -13,7 +13,7 @@ authored_in: the room, 2026-10-04 (batch innocent)
 ## Cocktail
 
 - **name:** Whole World
-- **tagline:** It looks small to everyone else. It's never been small to you.
+- **tagline:** You look after a little world as if it were the whole one.
 - **glassware:** a small wine glass (about 120 ml), chilled in the freezer, no ice
 - **contains:** `[]`
 

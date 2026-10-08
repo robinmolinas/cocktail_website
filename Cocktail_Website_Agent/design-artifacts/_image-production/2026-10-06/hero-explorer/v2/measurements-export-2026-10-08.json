@@ -1,0 +1,100 @@
+{
+  "pairing": "hero-explorer",
+  "pour": "Someone Else's Map",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-explorer/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-7f2dd575-6daf-44c3-a4ca-583d4cf8874a.png",
+  "sourceSha256": "5b5ed774dcae580edb7e9c92257dd9370d1f453c1db60347846855c7016005cf",
+  "specSha256": "51df5b0438ae2e1708962e42715b025da041b93825f0f75aea4f55b9a8afc7fe",
+  "masterSha256": "6d5e9da96c4cc8770a099cb483516536b10feecd616fb397c27396dd3b4e2e04",
+  "masterDimensions": {
+    "width": 1671,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1670,
+    940
+  ],
+  "portraitCrop": [
+    700,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1208,
+    "cy": 646,
+    "w": 156,
+    "angle": 9.4
+  },
+  "glass": {
+    "x": 1100,
+    "y": 500
+  },
+  "bounds": {
+    "glass": {
+      "x0": 915,
+      "y0": 335,
+      "x1": 1287,
+      "y1": 673
+    },
+    "paper": {
+      "x0": 1108,
+      "y0": 589,
+      "x1": 1317,
+      "y1": 701
+    }
+  },
+  "personalityBounds": {
+    "bag": {
+      "x0": 775,
+      "y0": 117,
+      "x1": 1540,
+      "y1": 555
+    },
+    "mittens": {
+      "x0": 662,
+      "y0": 350,
+      "x1": 959,
+      "y1": 626
+    }
+  },
+  "recognitionRegions": {
+    "bagFlapAndFront": {
+      "x0": 841,
+      "y0": 144,
+      "x1": 1433,
+      "y1": 530
+    },
+    "mittenCuffsAndThumbs": {
+      "x0": 678,
+      "y0": 365,
+      "x1": 959,
+      "y1": 621
+    }
+  },
+  "review": {
+    "recipe": "Current182.5ml hot stone-pine/rum/allspice toddy in250ml heatproof handled mug; clear earthy red-amber liquid and one expressed/dropped inside lemon strip. No ice, foam, added pine garnish or mountain steam. Actual mug height338px; ordinary clear patches/glass reflections. Steam faint/almost absent, plausible hot-photo limitation.",
+    "personality": "Used open canvas shoulder satchel and rumpled grey wool mittens from the full reading/image brief. No map, medal, costume or ingredient display. Bag moved backwards and mittens nearer left, but full recognisable person evidence remains widely spread. Required complete recognition union755px, so neither tall phone nor current portrait retains it all.",
+    "world": "Dark historic room, one right warm practical, neutral cream paper/grey wool/olive canvas. Glass materials are plain, wool/canvas distinct. Correction introduced glossy raised-looking dense tabletop grain and amber warm reflection; material realism remains held.",
+    "issues": [
+      "HOLD-composition: complete bag/mittens spread x662\u20131540, full recognition union678\u20131433=755px. Narrow phone crop cannot retain these as two recognisable traces.",
+      "The planned702x940 portrait clips left mitten and right bag recognition bounds; candidate export only, not a complete accepted portrait.",
+      "Glass/paper union402px is marginal for tallest phone breathing even though full export contains both.",
+      "HOLD-material-realism: v2 walnut has dense shiny irregular raised-looking grain and a strong orange practical reflection, contrary to low-satin intent.",
+      "Usable clean tag axis156px; actual loaded-font short/long-name fitting not reviewed.",
+      "Browser checks deferred by user. Two successful built-in calls used; no third polishing call."
+    ]
+  },
+  "sourceRefresh": {
+    "previousSourceSha256": "dbd8338afefaff3a1f8f60fd09ac0e622fbb327e1e90f13404d7bc3c1e6121e3",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** Far doesn't scare you. Finished does.",
+      "+ - **tagline:** Every summit gives you a better view of what you could do next.",
+      "- - **tagline:** Far doesn't scare you. Finished does.",
+      "+ - **tagline:** Every summit gives you a better view of what you could do next."
+    ]
+  }
+}

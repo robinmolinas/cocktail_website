@@ -1,0 +1,23 @@
+{
+  "pairing": "hero-regular-guy",
+  "version": "v1",
+  "tool": "built-in image_gen",
+  "operation": "fresh",
+  "inputMaster": null,
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-34b095c3-35db-4490-956f-80d9b504864f.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v1/master.png",
+  "masterSha256": "64999d848d426746fee518802ecaf63964bb3e26d3e91fc1c0c866fde0f726fa",
+  "generatedOriginalSha256": "64999d848d426746fee518802ecaf63964bb3e26d3e91fc1c0c866fde0f726fa",
+  "nativeDimensions": [
+    1672,
+    940
+  ],
+  "sourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+  "specSha256": "f8a537c8cce06c30d61249c6b52728fc197207c639a5dca7b217fd79cb31485b",
+  "roomSha256": "edfc4da3de477e966d211853b92b4348078c640c42b2deedacbe0d2f77d18fef",
+  "promptFile": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v1/prompt-batch12.txt",
+  "readinessFile": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-regular-guy/v1/readiness-batch12.md",
+  "callCountForPairing": 1,
+  "totalBatchCallsAtFinal": 4,
+  "status": "Measured draft HELD, no exports/acceptance."
+}

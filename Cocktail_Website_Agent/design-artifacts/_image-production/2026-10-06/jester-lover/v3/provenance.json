@@ -1,0 +1,38 @@
+{
+  "pairing": "jester-lover",
+  "pour": "I'll Tell You Later",
+  "version": "v3",
+  "workflow": "fresh wide plus dedicated portrait",
+  "tool": "built-in image_gen",
+  "calls": 2,
+  "assets": {
+    "wide": {
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v3/wide-master.png",
+      "width": 1672,
+      "height": 940,
+      "sha256": "5f1b95da44eef3e07977cd131f614b6f71c1248f65103aba73c3dac9b59663a1",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v3/wide-prompt.txt",
+      "promptSha256": "dd864e835fe635da613fd7fdc8a37ab9cfffeb29f8db2ad718248877205f83b8",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-bbed2a9f-ee16-4e05-87eb-f36d537a67d8.png",
+      "generatedOriginalSha256": "5f1b95da44eef3e07977cd131f614b6f71c1248f65103aba73c3dac9b59663a1",
+      "referencedImagePaths": []
+    },
+    "portrait": {
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v3/portrait-master.png",
+      "width": 1084,
+      "height": 1451,
+      "sha256": "b3f65afc87786399597d9aab702a94bdf9f4f6223bba00f1edad71a8298f7811",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v3/portrait-prompt.txt",
+      "promptSha256": "a4b541e750f15137a6f85e081eaebd1de79c46e1abb89c75b3590e79a988f81f",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-54541353-73e6-4ad0-8735-2bd9b1fd9b1c.png",
+      "generatedOriginalSha256": "b3f65afc87786399597d9aab702a94bdf9f4f6223bba00f1edad71a8298f7811",
+      "referencedImagePaths": [
+        "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v3/wide-master.png"
+      ]
+    }
+  },
+  "preserve": "cp -n exact native PNG copies; originals retained",
+  "status": "candidate held; no export/integration/acceptance",
+  "sourceFingerprints": "See readiness and separate per-master measurements",
+  "owner": "stirred_serves"
+}

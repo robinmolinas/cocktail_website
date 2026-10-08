@@ -1,0 +1,366 @@
+{
+  "pairing": "lover-magician",
+  "pour": "Worth Finding",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "7d0ea6ad60a780a1ce753a89bfd8b41780cc45fab71df24bf2847ae492900c24",
+  "review": {
+    "recipe": "Small stemmed Martini nearly full, pale clear faint straw, no serving ice/foam/garnish. Source134.3ml in150ml glass. Shiso set on small saucer outside drink; generated pieces look like two whole leaves rather than one once-torn leaf, held. Bowl still has prominent fine chill speckling that risks a bubbly read.",
+    "personality": "Folded personal note blank reverse and recognizable garden-path photographic print plausibly infer stories/private memories offered a little at a time; not literal possessions in whoYouAre. Two distinct human evidence objects retained whole, not anonymous edges. Their persona specificity remains an inference, not a proven universally legible Charmer.",
+    "world": "Historic private reading room, dark timber, blank cream paper and right warm lamp. Glass transparent but cold texture remains; wood looks flat yet glossy repeated fine grain and orange practical wash persist.",
+    "issues": [
+      "Glass336px, near but above280–330px aim; full glass/paper/recognisable trace union588px exceeds350–380px intent and~389px moving-phone width. Full702px portrait retains scene, not phone retention.",
+      "Usable tied hanging tag155px below170–200px target; full paper/tie/hole/gap present, name overlay/browser untested.",
+      "Shiso pieces appear two separate whole leaves rather than two halves of a single torn leaf; no physical garnish in glass.",
+      "Fine glass speckling risks carbonated appearance; warm glossy grain/amber wash remain material holds.",
+      "Note/photo are grounded creative inferences from private disclosure, but ordinary scene may not communicate persona without reading; no acceptance claim."
+    ]
+  },
+  "measurements": {
+    "pairing": "lover-magician",
+    "pour": "Worth Finding",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-magician/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-a0fff9d4-75ce-4fc5-9d8b-3a3ba7da6bce.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "7d0ea6ad60a780a1ce753a89bfd8b41780cc45fab71df24bf2847ae492900c24",
+    "specSha256": "1df0536606489cf6dc625c6db198fa931730593695552ae580900918c1e7cd66",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      700,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1250,
+      "cy": 645,
+      "w": 155,
+      "angle": 19
+    },
+    "glass": {
+      "x": 1075,
+      "y": 385
+    },
+    "bounds": {
+      "glass": {
+        "x0": 978,
+        "y0": 329,
+        "x1": 1176,
+        "y1": 665
+      },
+      "paper": {
+        "x0": 1131,
+        "y0": 579,
+        "x1": 1345,
+        "y1": 692
+      }
+    },
+    "personalityBounds": {
+      "foldedNote": {
+        "x0": 793,
+        "y0": 538,
+        "x1": 1046,
+        "y1": 617
+      },
+      "photographicPrint": {
+        "x0": 757,
+        "y0": 599,
+        "x1": 1004,
+        "y1": 669
+      }
+    },
+    "recognitionRegions": {
+      "foldedNote": {
+        "x0": 793,
+        "y0": 538,
+        "x1": 1046,
+        "y1": 617
+      },
+      "photographicPrint": {
+        "x0": 757,
+        "y0": 599,
+        "x1": 1004,
+        "y1": 669
+      }
+    },
+    "supportingBounds": {
+      "saucerAndShiso": {
+        "x0": 868,
+        "y0": 489,
+        "x1": 1064,
+        "y1": 560
+      }
+    },
+    "review": {
+      "recipe": "Small stemmed Martini nearly full, pale clear faint straw, no serving ice/foam/garnish. Source134.3ml in150ml glass. Shiso set on small saucer outside drink; generated pieces look like two whole leaves rather than one once-torn leaf, held. Bowl still has prominent fine chill speckling that risks a bubbly read.",
+      "personality": "Folded personal note blank reverse and recognizable garden-path photographic print plausibly infer stories/private memories offered a little at a time; not literal possessions in whoYouAre. Two distinct human evidence objects retained whole, not anonymous edges. Their persona specificity remains an inference, not a proven universally legible Charmer.",
+      "world": "Historic private reading room, dark timber, blank cream paper and right warm lamp. Glass transparent but cold texture remains; wood looks flat yet glossy repeated fine grain and orange practical wash persist.",
+      "issues": [
+        "Glass336px, near but above280–330px aim; full glass/paper/recognisable trace union588px exceeds350–380px intent and~389px moving-phone width. Full702px portrait retains scene, not phone retention.",
+        "Usable tied hanging tag155px below170–200px target; full paper/tie/hole/gap present, name overlay/browser untested.",
+        "Shiso pieces appear two separate whole leaves rather than two halves of a single torn leaf; no physical garnish in glass.",
+        "Fine glass speckling risks carbonated appearance; warm glossy grain/amber wash remain material holds.",
+        "Note/photo are grounded creative inferences from private disclosure, but ordinary scene may not communicate persona without reading; no acceptance claim."
+      ]
+    },
+    "status": "measured-master-candidate;held;not-accepted;browser-deferred",
+    "sourceRefresh": {
+      "previousSourceSha256": "bc439a9692e566d2bc89f675e039528e5dba836198c812d3ff4bcc3d50a5ac18",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** Everyone wants to know you better. You make sure there's always more to know.",
+        "+ - **tagline:** Getting to know you feels like finding something nobody else has found.",
+        "- - **tagline:** Everyone wants to know you better. You make sure there's always more to know.",
+        "+ - **tagline:** Getting to know you feels like finding something nobody else has found."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1435.4066985645934,
+        "cy": 741.0638297872341,
+        "w": 177.99043062200957,
+        "angle": 19.00938106785751
+      },
+      "glass": {
+        "x": 1234.44976076555,
+        "y": 442.3404255319149
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 701.9943019943021,
+        "cy": 823.404255319149,
+        "w": 197.83475783475785,
+        "angle": 19.003350502833793
+      },
+      "glass": {
+        "x": 478.63247863247864,
+        "y": 491.48936170212767
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/lover-magician/portrait.jpg",
+    "wide": "/personas/lover-magician/wide.jpg",
+    "wideTag": {
+      "cx": 0.7476076555023924,
+      "cy": 0.6861702127659575,
+      "w": 0.09270334928229665,
+      "angle": 19.00938106785751
+    },
+    "wideGlass": {
+      "x": 0.6429425837320574,
+      "y": 0.4095744680851064
+    },
+    "tag": {
+      "cx": 0.7834757834757835,
+      "cy": 0.6861702127659575,
+      "w": 0.2207977207977208,
+      "angle": 19.003350502833793
+    },
+    "glass": {
+      "x": 0.5341880341880342,
+      "y": 0.4095744680851064
+    }
+  },
+  "hashes": {
+    "master": "f5310ebbfcfa7fd9268cdad7d5ceced26a4622a57d38a33124f31c7d0b0733cd",
+    "wide": "88ba76a5b67e9d6b14e0d288d7a853541244073398dfbd2a76cba924e633e524",
+    "portrait": "d1b55452a6f00ae8448fde2e04d4a3518ff95b52f143361fe604f68836cb0aff"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1123.0622009569377,
+          "y0": 378,
+          "x1": 1350.4306220095693,
+          "y1": 764.0425531914894
+        },
+        "paper": {
+          "x0": 1298.755980861244,
+          "y0": 665.2340425531914,
+          "x1": 1544.4976076555024,
+          "y1": 795.063829787234
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 855.8851674641148,
+          "y0": 315,
+          "x1": 1045.358851674641,
+          "y1": 636.7021276595746
+        },
+        "paper": {
+          "x0": 1002.2966507177034,
+          "y0": 554.3617021276596,
+          "x1": 1207.0813397129186,
+          "y1": 662.5531914893617
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1197.933014354067,
+          "y0": 349.84,
+          "x1": 1440.4593301435407,
+          "y1": 761.6187234042553
+        },
+        "paper": {
+          "x0": 1385.3397129186603,
+          "y0": 656.2229787234043,
+          "x1": 1647.4641148325359,
+          "y1": 794.7080851063829
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2012.153110047847,
+          "y0": 449.54999999999995,
+          "x1": 2419.5215311004786,
+          "y1": 1141.209574468085
+        },
+        "paper": {
+          "x0": 2326.937799043062,
+          "y0": 964.177659574468,
+          "x1": 2767.224880382775,
+          "y1": 1196.7893617021275
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.7740297084540452,
+        "y": 0.4095744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": 63.649486039886,
+          "y0": 295.4,
+          "x1": 241.3944433048433,
+          "y1": 597.0851063829788
+        },
+        "paper": {
+          "x0": 200.99786210826207,
+          "y0": 519.868085106383,
+          "x1": 393.10604824311486,
+          "y1": 621.327659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.7745935920722804,
+        "y": 0.4095744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": 69.62241823361822,
+          "y0": 326.2,
+          "x1": 265.90002507122506,
+          "y1": 659.3404255319149
+        },
+        "paper": {
+          "x0": 221.29147806267807,
+          "y0": 574.0723404255318,
+          "x1": 433.4299016144348,
+          "y1": 686.1106382978722
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.6491450656204756,
+        "y": 0.4095744680851064
+      },
+      "bounds": {
+        "glass": {
+          "x0": 100.37074415954415,
+          "y0": 198.79999999999998,
+          "x1": 219.99057321937323,
+          "y1": 401.82978723404256
+        },
+        "paper": {
+          "x0": 192.80424843304843,
+          "y0": 349.863829787234,
+          "x1": 322.090326305793,
+          "y1": 418.1446808510638
+        }
+      }
+    }
+  ]
+}

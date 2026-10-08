@@ -1,0 +1,457 @@
+{
+  "pairing": "explorer-magician",
+  "pour": "Just Knew",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "70540fb3d228fc8594a3f0bc8fba1945aecea025a741f7be7ee738707759b3c2",
+  "review": {
+    "recipe": "Single ice-filled heavy rocks vessel/red gin-Campari-sweet/dry-vermouth drink, one inside orange peel/no foam. Bay now shows at least three apparent olive regions; cannot honestly confirm exactly ONE dried leaf torn into TWO halves. Garnish remains held.",
+    "personality": "Old/new book stack now overlaps behind hero; full adult walking glove on stack recognizable at left, but large spread still wider than intended. Books explicit source; glove inferred quiet long-walk habit, not ritual costume.",
+    "world": "Timber historic room/quiet left third, but glossy amber long reflections and dense etched/sparkling ice/glass remain plain-material holds.",
+    "issues": [
+      "Glass455px rather than~300.",
+      "Full objects764px wide; conservative glass/paper/books/glove recognition709px; proposed702portrait clips outer book margins and is not a phone pass.",
+      "Bay appears as three portions rather than confidently two halves; exact garnish held.",
+      "Ice/glass crystalline microdetail, amber glossy/crackled table.",
+      "Glove overly uniform scuffed/leathery detail watch.",
+      "Tag136px writing axis, actual name fit untested; don't inflate smaller paper.",
+      "Sole correction exhausted; no JPEG/export/browser/public/acceptance."
+    ]
+  },
+  "measurements": {
+    "pairing": "explorer-magician",
+    "pour": "Just Knew",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-magician/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-81f32a68-bb94-44a9-bd0c-7456ab4530ab.png",
+    "masterDimensions": [
+      1602,
+      981
+    ],
+    "masterSha256": "dd22945062f8d9f9f76d6fa63f2d2926e80f3160cbc36079d2e8a1e796961a78",
+    "sourceSha256": "70540fb3d228fc8594a3f0bc8fba1945aecea025a741f7be7ee738707759b3c2",
+    "specSha256": "4d71a6f0faab2e323a3e4b709d5e42fce268089736d7a744d3568ad774e12e45",
+    "wideCrop": [
+      0,
+      40,
+      1600,
+      900
+    ],
+    "portraitCrop": [
+      496,
+      20,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1125,
+      "cy": 651,
+      "w": 136,
+      "angle": 75
+    },
+    "glass": {
+      "x": 926,
+      "y": 508
+    },
+    "bounds": {
+      "glass": {
+        "x0": 742,
+        "y0": 280,
+        "x1": 1112,
+        "y1": 735
+      },
+      "paper": {
+        "x0": 1061,
+        "y0": 532,
+        "x1": 1187,
+        "y1": 735
+      },
+      "books": {
+        "x0": 475,
+        "y0": 430,
+        "x1": 1239,
+        "y1": 648
+      },
+      "glove": {
+        "x0": 498,
+        "y0": 304,
+        "x1": 1179,
+        "y1": 500
+      }
+    },
+    "recognitionRegions": {
+      "books": {
+        "bounds": {
+          "x0": 478,
+          "y0": 432,
+          "x1": 744,
+          "y1": 646
+        },
+        "reason": "Substantial separate old cloth binding and new paperback page block/cover at left, not anonymous single edge; book bodies continue behind glass."
+      },
+      "glove": {
+        "bounds": {
+          "x0": 498,
+          "y0": 305,
+          "x1": 746,
+          "y1": 499
+        },
+        "reason": "Substantial adult glove cuff, thumb and folded finger forms at left of glass; glove continues behind it. No recognition claimed from the isolated right brown patch."
+      }
+    },
+    "tagPhysics": {
+      "bodyLoop": "Snug-looking exterior burgundy twine encircles midbody y466–506 below rim y281, curved front span plus credible side occlusion.",
+      "knot": "Visible right knot around1084/488.",
+      "tetherAndHole": "Short continuous paired strand from knot descends to punched hole near1105/559.",
+      "gravityAndContact": "Paper below knot, leans outward, bottom at y733 rests on walnut with contact shadow. Not freely suspended.",
+      "separation": "Most paper is outside right wall and separate; nearest upper edge briefly overlaps the body silhouette, but no broad adhesive-looking label face.",
+      "uncertainty": "Far-side loop and actual friction/load remain unobservable; paper lean needs timber contact. Tight upper overlap requires independent look.",
+      "status": "Plausible visible chain with contact/occlusion uncertainty, not blanket physics PASS."
+    },
+    "review": {
+      "recipe": "Single ice-filled heavy rocks vessel/red gin-Campari-sweet/dry-vermouth drink, one inside orange peel/no foam. Bay now shows at least three apparent olive regions; cannot honestly confirm exactly ONE dried leaf torn into TWO halves. Garnish remains held.",
+      "personality": "Old/new book stack now overlaps behind hero; full adult walking glove on stack recognizable at left, but large spread still wider than intended. Books explicit source; glove inferred quiet long-walk habit, not ritual costume.",
+      "world": "Timber historic room/quiet left third, but glossy amber long reflections and dense etched/sparkling ice/glass remain plain-material holds.",
+      "issues": [
+        "Glass455px rather than~300.",
+        "Full objects764px wide; conservative glass/paper/books/glove recognition709px; proposed702portrait clips outer book margins and is not a phone pass.",
+        "Bay appears as three portions rather than confidently two halves; exact garnish held.",
+        "Ice/glass crystalline microdetail, amber glossy/crackled table.",
+        "Glove overly uniform scuffed/leathery detail watch.",
+        "Tag136px writing axis, actual name fit untested; don't inflate smaller paper.",
+        "Sole correction exhausted; no JPEG/export/browser/public/acceptance."
+      ]
+    },
+    "sourceRefresh": {
+      "previousSourceSha256": "1152d113f10f7e8010249332511608a79d378dc4e1ca664688816fb7640ba56c",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** You've been doing it for years. You just never called it that.",
+        "+ - **tagline:** You're always looking for a little magic to carry into everyday life."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1350,
+        "cy": 733.1999999999999,
+        "w": 163.20000000000002,
+        "angle": 75.00000000000001
+      },
+      "glass": {
+        "x": 1111.2,
+        "y": 561.6
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 802.8262108262109,
+        "cy": 805.5319148936171,
+        "w": 173.58404558404558,
+        "angle": 75.00272063193073
+      },
+      "glass": {
+        "x": 548.8319088319088,
+        "y": 622.9787234042553
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/explorer-magician/portrait.jpg",
+    "wide": "/personas/explorer-magician/wide.jpg",
+    "wideTag": {
+      "cx": 0.703125,
+      "cy": 0.6788888888888889,
+      "w": 0.085,
+      "angle": 75.00000000000001
+    },
+    "wideGlass": {
+      "x": 0.57875,
+      "y": 0.52
+    },
+    "tag": {
+      "cx": 0.896011396011396,
+      "cy": 0.6712765957446809,
+      "w": 0.19373219373219372,
+      "angle": 75.00272063193073
+    },
+    "glass": {
+      "x": 0.6125356125356125,
+      "y": 0.5191489361702127
+    }
+  },
+  "hashes": {
+    "master": "dd22945062f8d9f9f76d6fa63f2d2926e80f3160cbc36079d2e8a1e796961a78",
+    "wide": "58dd9f577125d80fbc2cd76ed15a6c5c1f00f43426041e64f25dc7ca9c41b62a",
+    "portrait": "1f653b7d5ac4d50f9d3854e53e084b7f2c51be660c2337093d5d1deeb2d08afe"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 890.4,
+          "y0": 288,
+          "x1": 1334.3999999999999,
+          "y1": 834
+        },
+        "paper": {
+          "x0": 1273.1999999999998,
+          "y0": 590.4,
+          "x1": 1424.3999999999999,
+          "y1": 834
+        },
+        "books": {
+          "x0": 570,
+          "y0": 468,
+          "x1": 1486.8000000000002,
+          "y1": 729.6
+        },
+        "glove": {
+          "x0": 597.6,
+          "y0": 316.8,
+          "x1": 1414.8,
+          "y1": 552
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 662,
+          "y0": 240,
+          "x1": 1032,
+          "y1": 695
+        },
+        "paper": {
+          "x0": 981,
+          "y0": 491.99999999999994,
+          "x1": 1107,
+          "y1": 695
+        },
+        "books": {
+          "x0": 395,
+          "y0": 390,
+          "x1": 1159,
+          "y1": 608
+        },
+        "glove": {
+          "x0": 418.00000000000006,
+          "y0": 264,
+          "x1": 1099,
+          "y1": 459.99999999999994
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 949.76,
+          "y0": 253.83999999999997,
+          "x1": 1423.36,
+          "y1": 836.24
+        },
+        "paper": {
+          "x0": 1358.08,
+          "y0": 576.4,
+          "x1": 1519.36,
+          "y1": 836.24
+        },
+        "books": {
+          "x0": 608,
+          "y0": 445.84000000000003,
+          "x1": 1585.92,
+          "y1": 724.88
+        },
+        "glove": {
+          "x0": 637.44,
+          "y0": 284.56,
+          "x1": 1509.12,
+          "y1": 535.4399999999999
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1595.3,
+          "y0": 288.29999999999995,
+          "x1": 2390.7999999999997,
+          "y1": 1266.55
+        },
+        "paper": {
+          "x0": 2281.15,
+          "y0": 830.0999999999999,
+          "x1": 2552.0499999999997,
+          "y1": 1266.55
+        },
+        "books": {
+          "x0": 1021.25,
+          "y0": 610.8,
+          "x1": 2663.85,
+          "y1": 1079.5
+        },
+        "glove": {
+          "x0": 1070.7,
+          "y0": 339.9,
+          "x1": 2534.85,
+          "y1": 761.2999999999998
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 1,
+        "y": 0.5191489361702127
+      },
+      "bounds": {
+        "glass": {
+          "x0": -19.352022792022836,
+          "y0": 233.4468085106383,
+          "x1": 312.79764482431153,
+          "y1": 641.9787234042553
+        },
+        "paper": {
+          "x0": 267.01485280151945,
+          "y0": 459.7106382978723,
+          "x1": 380.12528015194675,
+          "y1": 641.9787234042553
+        },
+        "books": {
+          "x0": -259.03840455840464,
+          "y0": 368.1276595744681,
+          "x1": 426.80577397910736,
+          "y1": 563.8638297872341
+        },
+        "glove": {
+          "x0": -238.3912630579298,
+          "y0": 254.99574468085106,
+          "x1": 372.943665716999,
+          "y1": 430.9787234042553
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 1,
+        "y": 0.5191489361702127
+      },
+      "bounds": {
+        "glass": {
+          "x0": -22.033276353276364,
+          "y0": 257.7872340425532,
+          "x1": 344.7481101614435,
+          "y1": 708.9148936170212
+        },
+        "paper": {
+          "x0": 294.1917568850902,
+          "y0": 507.64255319148936,
+          "x1": 419.0956885090218,
+          "y1": 708.9148936170212
+        },
+        "books": {
+          "x0": -286.71065527065525,
+          "y0": 406.5106382978724,
+          "x1": 470.6433428300096,
+          "y1": 622.6553191489362
+        },
+        "glove": {
+          "x0": -263.91073124406455,
+          "y0": 281.58297872340427,
+          "x1": 411.16528015194683,
+          "y1": 475.9148936170212
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 1,
+        "y": 0.5191489361702127
+      },
+      "bounds": {
+        "glass": {
+          "x0": 44.51190883190881,
+          "y0": 157.10638297872342,
+          "x1": 268.0439126305793,
+          "y1": 432.04255319148933
+        },
+        "paper": {
+          "x0": 237.23274453941116,
+          "y0": 309.3787234042553,
+          "x1": 313.3544539411206,
+          "y1": 432.04255319148933
+        },
+        "books": {
+          "x0": -116.79361823361825,
+          "y0": 247.74468085106383,
+          "x1": 344.76976258309594,
+          "y1": 379.4723404255319
+        },
+        "glove": {
+          "x0": -102.89838556505225,
+          "y0": 171.60851063829787,
+          "x1": 308.52132953466287,
+          "y1": 290.04255319148933
+        }
+      }
+    }
+  ]
+}

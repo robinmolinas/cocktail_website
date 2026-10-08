@@ -1,0 +1,84 @@
+{
+  "pairing": "magician-sage",
+  "pour": "Already There",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-sage/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-3a1fa23d-4586-453f-916b-8c58610bc71e.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "cac810a6b34aa0d4a06352c346bf30f2e801e7ce273c00a63b0368f4d8bf19f4",
+  "specSha256": "afcddd19190db24ec264917037cc531aaad5d0374311f5c80101e45133e18bb4",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    749,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1181,
+    "cy": 625,
+    "w": 146,
+    "angle": 6
+  },
+  "glass": {
+    "x": 1034,
+    "y": 482
+  },
+  "bounds": {
+    "glass": {
+      "x0": 972,
+      "y0": 356,
+      "x1": 1096,
+      "y1": 640
+    },
+    "paper": {
+      "x0": 1064,
+      "y0": 598,
+      "x1": 1264,
+      "y1": 653
+    }
+  },
+  "recognitionRegions": {
+    "repairedLatch": {
+      "x0": 894,
+      "y0": 540,
+      "x1": 1086,
+      "y1": 604
+    },
+    "screwdriver": {
+      "x0": 1074,
+      "y0": 533,
+      "x1": 1306,
+      "y1": 618
+    }
+  },
+  "review": {
+    "recipe": "Plain small open-rim short-stemmed tulip grappa glass; clear nearly colourless very pale straw stirred serve, no garnish, leaves, ice, foam or bubbles. The fig leaf is infusion only and correctly absent. Smooth thin glass remains transparent.",
+    "personality": "Plain small used brass household latch with bright replacement screw and short wooden-handled screwdriver plausibly evoke noticed quiet repair from whoYouAre. Useful functional metal, not a magical or ornate archetype relic.",
+    "world": "Dark old private walnut room, quiet left, plain mostly flat long-grain table, one practical right. Restrained scene but table reflection still warm/satin-glossy in patches.",
+    "issues": [
+      "Complete essential union412px exceeds350px intent and approximately389px maximum-breathing tall-phone window; hardware still lateral, not fully depth-overlapped.",
+      "Blank tag usable146px excluding hole/thread is materially short of170\u2013200px target; later name readability unresolved.",
+      "Warm/glossier lamp reflection remains in lower table; smooth material improved but not accepted.",
+      "Tool context is plausible inference rather than literal sourced possessions; latch repair only signalled by bright screw, not unmistakably repaired to all viewers."
+    ]
+  },
+  "status": "measured-master-candidate;not-accepted;browser-deferred",
+  "sourceRefresh": {
+    "previousSourceSha256": "d765643fd671fa54a210382c790ca860669fa8c595980f8c99b3237d8430afa3",
+    "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+    "changedLines": [
+      "- - **tagline:** You can tell who someone will become. You can rarely say how.",
+      "+ - **tagline:** You see who someone could become in the little things they do today.",
+      "- **tagline:** You can tell who someone will become. You can rarely say how.",
+      "+ **tagline:** You see who someone could become in the little things they do today."
+    ]
+  }
+}

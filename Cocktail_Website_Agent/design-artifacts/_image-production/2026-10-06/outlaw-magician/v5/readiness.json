@@ -1,0 +1,12 @@
+{
+  "pairing": "outlaw-magician",
+  "batch": 16,
+  "sourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+  "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+  "sourceRead": "Current settled dossier and spec reviewed, including physical method, reading and original image brief",
+  "masterStrategy": "Narrow focused liquid correction on existing batch15 v3 wide/portrait; preserve composition and objects",
+  "editorialStatus": "unchanged",
+  "browserOwner": "Claude",
+  "integrationOwner": "Claude",
+  "generation": "built-in image_gen; separate wide and portrait calls"
+}

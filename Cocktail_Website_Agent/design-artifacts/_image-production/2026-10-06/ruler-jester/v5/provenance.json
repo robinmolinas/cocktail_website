@@ -1,0 +1,23 @@
+{
+  "status": "failed-edit-pilot; preserved-not-selected",
+  "id": "ruler-jester",
+  "v": "v5",
+  "file": "master.png",
+  "measurement": null,
+  "src": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-032e8b5b-8e0d-43ed-8677-e400f5fe3139.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v5/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-032e8b5b-8e0d-43ed-8677-e400f5fe3139.png",
+  "sha256": "85a4c21bfcfa173417de4fe25e1cf10c5de49c1f4c7f4ee4954651b02a49fc6d",
+  "width": 1672,
+  "height": 941,
+  "exactOriginalCopy": true,
+  "declaredMasterHash": null,
+  "prompts": [
+    {
+      "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v5/prompt.md",
+      "sha256": "f41f58f6cf4bc7f35a31fbd47cd9edd23e1cbe2465924ace5e051cb79a723f9a"
+    }
+  ],
+  "generatedWith": "built-in image_gen",
+  "reason": "Edit stayed too close to v4 bead-like ice; fresh generation was used next. No export/integration."
+}

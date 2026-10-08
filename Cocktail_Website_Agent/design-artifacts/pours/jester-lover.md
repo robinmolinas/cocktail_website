@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 ## Cocktail
 
 - **name:** I'll Tell You Later
-- **tagline:** You always know the perfect moment. It's never the first one.
+- **tagline:** You know how to make the waiting part of the pleasure.
 - **glassware:** two demitasse cups (small coffee cups, about 90 ml) on saucers, warmed with hot water first
 - **contains:** `["nuts"]`
 

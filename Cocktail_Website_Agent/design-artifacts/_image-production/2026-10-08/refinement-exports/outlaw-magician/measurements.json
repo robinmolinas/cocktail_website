@@ -1,0 +1,146 @@
+{
+  "measurementMethod": "Root manual visual estimate on actual original-size native image; coordinates approximate, tolerance 5\u201312px. Displayed dimensions not probed. NOT export-ready metadata.",
+  "masterSha256": "5876169bab0edaebe18646bd85ef3d31bf365d714a8632766b6709dcf587defb",
+  "sourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+  "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+  "roomSha256": null,
+  "fingerprintStatus": "Pending authorized checks; no historical hash reused.",
+  "exported": false,
+  "exportEligible": false,
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "hiddenExtents": {
+    "rearLoopClosure": null,
+    "actualKnotLoad": null,
+    "paperUnderside": null,
+    "occludedProps": null
+  },
+  "tagPhysics": {
+    "status": "Held, not physics PASS",
+    "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+  },
+  "pairing": "outlaw-magician",
+  "pour": "For Its Own Good",
+  "asset": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/wide-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-9e326681-af85-4ec4-a2c4-8de85bf29d40.png",
+  "displayedDimensions": [
+    1672,
+    941
+  ],
+  "proposedCrop": [
+    4,
+    2,
+    1664,
+    936
+  ],
+  "tag": {
+    "cx": 1255,
+    "cy": 749,
+    "w": 132,
+    "angle": 10
+  },
+  "glass": {
+    "x": 1000,
+    "y": 537
+  },
+  "bounds": {
+    "glass": {
+      "x0": 819,
+      "y0": 318,
+      "x1": 1185,
+      "y1": 757
+    },
+    "ice": {
+      "x0": 887,
+      "y0": 411,
+      "x1": 1108,
+      "y1": 619
+    },
+    "paper": {
+      "x0": 1145,
+      "y0": 682,
+      "x1": 1363,
+      "y1": 800
+    },
+    "bagVisibleOnly": {
+      "x0": 0,
+      "y0": 122,
+      "x1": 1027,
+      "y1": 583
+    },
+    "binderVisibleOnly": {
+      "x0": 1166,
+      "y0": 305,
+      "x1": 1672,
+      "y1": 683
+    },
+    "releasedSheetsVisibleOnly": {
+      "x0": 1318,
+      "y0": 452,
+      "x1": 1672,
+      "y1": 683
+    },
+    "ringMechanismVisible": {
+      "x0": 1278,
+      "y0": 421,
+      "x1": 1584,
+      "y1": 559
+    }
+  },
+  "essentialObjectUnion": [
+    0,
+    122,
+    1672,
+    800
+  ],
+  "reviewHolds": [
+    "Oversized lateral bag",
+    "Binder and sheets clipped at right",
+    "No left quiet copy field",
+    "Wood crackle/gold shine still inherited despite fresh prompt",
+    "Cube has more dense etched texture than intended",
+    "Approximately46.7%height glass",
+    "Ring-open action not completely demonstrated"
+  ],
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "exportProvenance": {
+    "batch": 15,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/wide-geometry.json",
+    "originalMeasurementSha256": "6be8377a24ecc2ec3c6f4ba7a048762a6f3c4e47ec5163b572feb240ee5fa360",
+    "previousSourceSha256": null,
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {},
+  "recognitionRegions": {},
+  "wideCrop": [
+    4,
+    2,
+    1664,
+    936
+  ],
+  "portraitCrop": [
+    4,
+    2,
+    1664,
+    936
+  ],
+  "review": {
+    "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+    "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+    "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+    "issues": "Bag dominates, binder/sheets clipped, taken-apart action unclear, saturated liquid and rough gold wood. Fresh portrait correction produced excess closed rings; rejected."
+  },
+  "portraitMeasurementFile": "portrait-measurements.json"
+}

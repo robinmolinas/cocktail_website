@@ -1,0 +1,263 @@
+{
+  "pairing": "jester-lover",
+  "pour": "I'll Tell You Later",
+  "asset": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v3/wide-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-bbed2a9f-ee16-4e05-87eb-f36d537a67d8.png",
+  "masterSha256": "5f1b95da44eef3e07977cd131f614b6f71c1248f65103aba73c3dac9b59663a1",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 940
+  },
+  "sourceSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+  "specSha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+  "roomSha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    970,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1351,
+    "cy": 744,
+    "w": 86,
+    "angle": 112
+  },
+  "glass": {
+    "x": 1250,
+    "y": 625
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1073,
+      "y0": 491,
+      "x1": 1437,
+      "y1": 759
+    },
+    "paper": {
+      "x0": 1291,
+      "y0": 682,
+      "x1": 1411,
+      "y1": 809
+    }
+  },
+  "supportingBounds": {
+    "heroSaucer": {
+      "x0": 953,
+      "y0": 613,
+      "x1": 1461,
+      "y1": 814
+    },
+    "rearCup": {
+      "x0": 845,
+      "y0": 339,
+      "x1": 1125,
+      "y1": 539
+    },
+    "rearSaucer": {
+      "x0": 699,
+      "y0": 444,
+      "x1": 1142,
+      "y1": 588
+    },
+    "usedOrangeSpiral": {
+      "x0": 772,
+      "y0": 424,
+      "x1": 970,
+      "y1": 548
+    },
+    "sixCloveHeads": {
+      "x0": 791,
+      "y0": 416,
+      "x1": 949,
+      "y1": 537
+    },
+    "fork": {
+      "x0": 708,
+      "y0": 463,
+      "x1": 1070,
+      "y1": 585
+    },
+    "frontSteam": {
+      "x0": 1195,
+      "y0": 369,
+      "x1": 1274,
+      "y1": 518
+    },
+    "rearSteam": {
+      "x0": 899,
+      "y0": 104,
+      "x1": 1042,
+      "y1": 342
+    },
+    "tagCord": {
+      "x0": 1364,
+      "y0": 622,
+      "x1": 1405,
+      "y1": 706
+    }
+  },
+  "personalityBounds": {
+    "wrappedPresent": {
+      "x0": 1082,
+      "y0": 263,
+      "x1": 1482,
+      "y1": 496
+    },
+    "openDecoy": {
+      "x0": 1383,
+      "y0": 254,
+      "x1": 1672,
+      "y1": 573
+    }
+  },
+  "recognitionRegions": {
+    "wrappedPresent": {
+      "x0": 1082,
+      "y0": 263,
+      "x1": 1482,
+      "y1": 496
+    },
+    "openDecoy": {
+      "x0": 1383,
+      "y0": 254,
+      "x1": 1672,
+      "y1": 573
+    }
+  },
+  "physicalRecognitionRegions": {
+    "heroCup": {
+      "x0": 1073,
+      "y0": 491,
+      "x1": 1437,
+      "y1": 759
+    },
+    "heroSaucer": {
+      "x0": 953,
+      "y0": 613,
+      "x1": 1461,
+      "y1": 814
+    },
+    "rearCup": {
+      "x0": 845,
+      "y0": 339,
+      "x1": 1125,
+      "y1": 539
+    },
+    "rearSaucer": {
+      "x0": 699,
+      "y0": 444,
+      "x1": 1142,
+      "y1": 588
+    },
+    "usedOrangeSpiral": {
+      "x0": 772,
+      "y0": 424,
+      "x1": 970,
+      "y1": 548
+    },
+    "fork": {
+      "x0": 708,
+      "y0": 463,
+      "x1": 1070,
+      "y1": 585
+    }
+  },
+  "cloveHeadPoints": [
+    {
+      "x": 804,
+      "y": 427
+    },
+    {
+      "x": 797,
+      "y": 457
+    },
+    {
+      "x": 830,
+      "y": 498
+    },
+    {
+      "x": 882,
+      "y": 458
+    },
+    {
+      "x": 914,
+      "y": 488
+    },
+    {
+      "x": 934,
+      "y": 520
+    }
+  ],
+  "visibility": {
+    "wrappedPresent": {
+      "masterClipped": false,
+      "occluded": false,
+      "unseenExtent": null
+    },
+    "openDecoy": {
+      "masterClipped": true,
+      "occluded": false,
+      "unseenExtent": null,
+      "note": "Right tissue/box extends off native image; no hidden extent invented."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Low actual hero handle loop and short dark taupe front descent",
+    "anchorBounds": {
+      "x0": 1364,
+      "y0": 622,
+      "x1": 1405,
+      "y1": 680
+    },
+    "knotPoint": {
+      "x": 1382,
+      "y": 677
+    },
+    "holePoint": {
+      "x": 1373,
+      "y": 697
+    },
+    "knot": "Small dark gathering visible at low handle",
+    "tether": "Short doubled front strand descends through hole",
+    "hole": "Dark punched hole visibly connected",
+    "gravity": "Paper slopes downward/outward beside saucer",
+    "airGap": "Separated from bowl",
+    "contact": "Bottom edge near timber/saucer ambiguous",
+    "occlusion": "Posterior handle loop and load hidden",
+    "uncertainties": [
+      "Rear loop/load unknown",
+      "Doubled strand/tail",
+      "Wood contact uncertain"
+    ],
+    "status": "held"
+  },
+  "recognitionUnionWidth": 973,
+  "cropAssessment": {
+    "wide": "Hero cup y759 slightly below80% of940; paper/saucer reach814. Open decoy clipped.",
+    "portraitFromWide": "702px proposed crop loses rear serve/fork atleft; dedicated portrait is primary portrait candidate.",
+    "movingPhone": "973px all essential serve/trace union exceeds narrow window; HOLD"
+  },
+  "review": {
+    "recipe": "Two finished dark coffees on two saucers, no drink garnish. Six visually distinguishable heads on one used orange spiral on rear saucer; intended90ml capacity cannot be proved from photograph.",
+    "personality": "Wrapped gift and opened decoy recognisable but right box clipped and broad.",
+    "world": "Plain porcelain useful. Timber very warm with strong relief/shine, neutral paper somewhat warm. One off-frame practical implied.",
+    "issues": [
+      "clipped-decoy",
+      "wide-serve-sprawl",
+      "material-warm-gloss-relief",
+      "tag-support-uncertainty",
+      "vessel-capacity-unproved",
+      "name/browser-unchecked"
+    ]
+  },
+  "status": "held-candidate"
+}

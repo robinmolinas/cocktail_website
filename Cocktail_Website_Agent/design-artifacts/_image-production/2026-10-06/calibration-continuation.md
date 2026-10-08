@@ -1,8 +1,179 @@
 # Latest continuation — producer handoff and bounded calibration
 
-## Latest user direction — production first, browser batch later
+## Latest six-pour refinement — 8 October2026
 
-Latest request,7 October: correct Hear Me Out's unexplained rim attachment,
+User accepted root’s recommendation (**whatever you recommend**) after another
+/impeccable review. Batch15 revisits The Long Answer, Work It Out, Anyone Would
+Have, Hoping You’d Come, The Kind You’d Want and For Its Own Good; this is NOT
+another132-pour sweep.17 built-in calls, maximum3perpair, STOP. Twelve current
+comparison native assets root personally viewed at original size. Wide/portrait
+are independent compositions; Long uses v3wide+v4portrait, all other selected
+private pairs v3wide+v3portrait. All six HELD, newaccepted/integrated0.
+
+[Receipt](production-batch-15-refinement.md), [gallery](production-batch-15-refinement-gallery.md)
+and [manifest](production-batch-15-refinement.json). All prior assets and failed
+attempts preserved. No queue/public/runtime/recipe/spec/room/rule/browser-request
+changes. This pass made no fresh fingerprint/header checks; SHA fields are null,
+manual geometry approximate/unprobed. Do NOT inherit old technical PASS claims.
+The fresh six-pair JPEG exporter/fingerprint approval question remains unanswered;
+no export/helper/hash execution or rejection bypass. Native PNGs are NOT required
+1920×1080/896×1200 reviewed final JPEGs. Browser deferred, heartbeat PAUSED.
+
+Direction improves flat timber, real-use paper/flat tools, smaller portrait
+serves and supported tags, but failures remain: Long exact halfmoon/611px group,
+Work multi-strand low tag and finished-practice-box/616px group, Hoping defined
+apple chunks, Kind keys not actually under banana, and Outlaw giant/clipped
+props/unproven dismantled-ring action/overtextured material. Hoping/Kind v4
+corrections rejected as selections because of appearance/composition regressions;
+Outlaw fresh correction rejected for closed excess binder rings. Do not continue
+an unbounded edit loop or call all recommendations fixed. Static necessary width
+is not phone PASS; actual-name/motion/vignette/physics/personality/editorial/user
+gates remain closed. Next: authorized private fingerprints/export inspection,
+and a separately bounded design correction only if needed; no READY/publishing.
+Catalogue still115generated/27exported/88unexported/0ungenerated+17existing;
+132represented means existing-or-draft coverage, not final acceptance.
+
+
+## Latest refinement — Impeccable recommendations, private branch
+
+7 October: user asked root to review with /impeccable, then **do all recommended**.
+Scope is the last TEN batch13 pours plus Who’s In?, not all132 images.
+Root/three previously authorized image owners completed35 bounded built-in
+calls:1 failed edit pilot,22 fresh wide/portrait natives,12 final corrections.
+All35 exact originals preserved; all22 selected native assets personally
+reviewed by root. Mixed wide/portrait versions are explicit in the new private
+manifest; root remains sole integration/export owner. See
+[production-batch-14-refinement.md](production-batch-14-refinement.md) and
+[gallery](production-batch-14-refinement-gallery.md); machine manifest/audit/
+preservation/final-checks are adjacent. Earlier batch13 selections/history stay
+untouched in queue.json; this is a private refinement branch, not new live or
+accepted imagery. No pairing-count inflation.
+
+Fresh material pilot after the failed inherited-ice edit, quieter handled speech
+sheet/unfinished work/used lens instead of displays, handmade card marks,
+dedicated portrait images, and low supported labels improve direction.
+Off Tour duplicate upper string removed; full caliper/gifts restored; some wide
+serves pulled back and cake/card/organiser/linen depth-grouped. DO NOT call all
+recommendations resolved: several portrait groups remain too wide, artist
+board/brush too big, glass/ice/wood too textured, stem wraps repeated/high,
+Even paper embossed, and hidden attachment/name/personality specifics held.
+3/11 portrait declared full groups fit only a nominal necessary-width screen;
+that is NOT browser or identity-retention PASS. Actual names/vignette/motion
+and original serving/material/editorial approval remain separate closed gates.
+
+Recipes/specs/rooms/rules/public/runtime and original queue unchanged:79 protected
+baseline files verified, prior22 batch13 originals intact,22 current masters
+and original-copy/dimension/source/spec/room/box/tag-axis checks true. Native
+wides1672×940/941 and portraits1084×1451/1086×1448, not final JPEG dimensions.
+Root prepared11 pairs of native-specific measured inputs in each
+refinement-01/ folder for exact1920×1080/896×1200 exports. Exporter patched for
+optional independently measured portrait and safer no-overwrite preflight,
+but no syntax/runtime/export tests or invocation: fresh action-specific JPEG
+export question unanswered. Do not retry/bypass prior export/helper rejection.
+After approval inspect code and inputs, convert a bounded private batch and
+view BOTH actual full-size JPEGs; preserve all design holds. No new READY,
+browser launch, public integration or acceptance. Heartbeat PAUSED and browser
+batch deferred.115generated/27exported/88unexported/0ungenerated+17existing;
+newaccepted/integrated0; unchanged overall132 represented is NOT132 accepted.
+
+
+## Previous user direction — production first, browser batch later
+
+Latest request,7 October: correct Who's In? nearly spherical ice, then the last TEN.
+
+Latest batch13,7 October: TEN final new measured drafts: For Good, Why Not?,
+The Way It Felt, Unrehearsed, Off the Tour, I'll Tell You Later, Is It Just Me,
+In Your Own Hand, Even When You Know and Built to Hold; plus user-requested
+Who's In? ice-only v4. Two ice edits preserved v3/v4: flatter asymmetric chip
+faces selected, rounded scallops/uniform gloss remain realism HOLD, not fully
+natural/fixed. All current selected originals root-inspected and measured;
+native PNG candidates only, no JPEG exports, name/moving-phone/browser/final
+approval. Recipes and serving distinctions retained: frozen four-portion
+batch photographed singly, cracked cup-shaped shell pieces, opaque burgundy
+wine-cola cubes, real hot cup, TWO coffees/TWO NickNoras, unmixed rye+beer,
+three layered cordial, ONE cold handled punch not a bowl. Explicit private
+serving-pilot ledger does not globally rewrite one-glass rule.
+Coffee used preparation spiral still >SIX clove-like heads: PHYSICAL COUNT
+HOLD. Crushed/frozen ice and dense droplets, amber/gloss/crackle wood, long or
+multi-turn label remnants, inferred trace specificity and broad/clipped phone
+composition held. Low real foot/body/stem/handle support front chains reviewed;
+rear closure/friction/load and air gaps uncertain, not physics PASS.
+Twenty-two bounded initial/focused-edit exact originals preserved; ten new
+and one corrected selection, no further calls. Current source/spec/room and
+native-copy fingerprints/dimensions/box/crop/tag-axis extents checked, technical
+receipt not material/user/editorial acceptance. Existing assets/runtime/rules/
+recipes/immutable browser handoffs preserved; heartbeat PAUSED, browser user-
+deferred.115generated/27exported/88measured/0ungenerated, public17,
+newaccepted/integrated0, missingfinal115. All132 pairings have existing imagery
+or new drafts, NOT132 approved usable final images. Read production-batch-13.md,
+manifest/master-audit/final-checks and whos-in-crushed-ice-v4.md. Earlier counts
+historical.
+
+Previous batch12,7 October: seven new measured drafts: The Long Answer, Work It
+Out, Anyone Would Have, Hoping You'd Come, The Kind You'd Want, For Its Own Good
+and Who's In? Latest user refinement: strings less visible. Thin matte neutral
+cord, low loop, small knot, trimmed ends and very short punched-hole tether now
+in house rules. Support evidence retained; low cords generally quieter, but
+Long Answer's coil and Hoping You'd Come's small turns remain held, not fixed.
+Seven actual native originals root-inspected; six1672×941/Anyone1672×940.
+Current source/spec/master/generated-copy hashes, dimensions and crop/tag-axis
+extents verified7/7;14 initial/sole-edit exactoriginal copies preserved. Rear
+closure/friction/load/gap/contact uncertain, not physics PASS. Recognition
+447–1104px includes all physical garnish/ice/spoon/straw; proposed portraits
+clip some traces and are not moving-phone acceptance. Work It Out's sample
+pseudo-diagrams, Anyone's screwdriver support/neat bitters blotches, apple
+texture, mug wallward/empty recognition null, binder native-right clip/unseen
+null and dark fill, glossy timber/glassice/lighting/personality/name held.
+Bitters source ON TOP can include ice; not inherently a recipe violation.
+No JPEG invocation/retry/bypass/newREADY/public/runtime/source/editorial change.
+Browser deferred, heartbeat PAUSED.105generated/27exported/78measured/
+10ungenerated, public17, newaccepted/integrated0, missingfinal115. Read
+production-batch-12.md, manifest/master-audit/final-checks and individual root
+reviews. Earlier batch counts historical.
+
+Previous batch11,7 October: seven new measured drafts: Note to Self, More Than
+One Head, Had to Be Serious, Show Your Working, Hold the Shark, Quote Me and
+Good for Years. Seven actual native originals root-inspected; six1672×941,
+Hold the Shark1641×958 with native-specific proposed crops. Current source/
+spec/master/generated-copy fingerprints, dimensions and crop/tag-axis extents
+verified7/7; all14 initial/sole-edit exactoriginal copies preserved. Discreet
+labels reviewed as loop→knot→short tether→punched hole→gravity/contact; rear
+closure/friction/load and local air gaps remain uncertain, not physics PASS.
+Had to Be Serious still shows sliced-looking fruit rather than convincing
+muddled pulp: PHYSICAL HOLD. Good for Years hairgrip/repaired-flex recognition
+is null; clipped/hidden power continuity unproven. Hold the Shark has spent
+half-lime cutsideup but a longer-than-ideal tether. Glossy wood/glass/ice,
+appearance, person-specificity and actual name fit held; recognition groups
+630–910px are not moving-phone acceptance, and several portrait crops lose
+traces. No JPEG invocation/retry/bypass/newREADY/public/runtime/source/editorial
+change. Browser deferred, heartbeatPAUSED.98generated/27exported/71measured/
+17ungenerated, public17, newaccepted/integrated0, missingfinal115. Read
+production-batch-11.md, manifest/master-audit/final-checks and individual root
+reviews. Earlier batch counts historical.
+
+Previous request,7 October: Further Than Me tag lower on transparent base and
+less minimal personality; then next batch. Previous batch10,7 October: seven new measured drafts (Look Again, Brought Home,
+Let's Try It, Straight Back, The Wink, Rent-Free, Just This Once) plus explicit
+Further Than Mev4 lower-tag/personality correction. Eight actual selected native
+PNG originals root-inspected; sixnew1672×941/Just This Once1671×941; correction
+1672×941. Current source/spec/master/generated-copy hashes, dimensions and
+crop/tag-axis extents verified7/7, all16 exactoriginal copies preserved. Smalltag
+support chains reviewed, hiddenrear/friction/load/gap/contact unresolved; Wink
+flushpaper held. Further Than Me band now upper clear-foot transition, not
+confidently entirely beneath liquid; phone/spectacles +inferred repairedcardigan
+addquietcare, cardiganwide-only/portraitlost. Recipe unchanged. Nog half-shell
+5mlmezcal is settledmethod7 requiredaccompaniment/candidatepilotexception, not
+inventedsecondglass. Fullrecognition widths470–1004px stillphoneheld; portrait
+clips severaltraces. Material/wood/glassice/lighting, stillwaterappearance and
+personality/name specificityheld; Just This Once walnut calmer, notapproval.
+No JPEG invocation/rejectedretry/bypass/newREADY/public/runtime/source/editorial
+change. Browser deferred,heartbeatPAUSED.91generated/27exported/64measured/
+24ungenerated,public17,newaccepted/integrated0,missingfinal115. Read
+production-batch-10.md/manifest/master-audit and further-than-me-base-tag-v4.md.
+Earlier batch counts historical.
+
+
+Previous focused request,7 October: correct Hear Me Out's unexplained rim attachment,
 continue next batch and check physics/realism of every tag. One targeted v3
 edit reviewed at original1672×941; current pending version advanced only.
 Snug exterior lower-body loop/front curvature/side occlusion, visible knot and
@@ -10,7 +181,8 @@ short tether through punched hole; paper hangs beside glass and contacts timber.
 No load-test/name/browser claim or other scene approval. Recipe/spec unchanged,
 prior material/appearance/personality/phone holds remain. Written support-chain
 rule added to image system. Read hear-me-out-tag-physics-v3.md/JSON; batch08
-in progress, counts unchanged until actual receipts. No exports/new READY.
+completed with seven reviewed measured drafts. Current77generated/27exported/
+50measured/38ungenerated. Correction itself changes no counts. No exports/new READY.
 
 Previous request,7 October: Go On and Whoever Comes In tags far too big,
 modify before next batch. Both v3 targeted edits now completed and actual
@@ -87,7 +259,74 @@ pair, none has final JPEG exports, and none changed the runtime/public assets.
 All used the built-in image tool, not CLI/API fallback. The complete prompt
 set is saved beside the corresponding source; no tagline text was generated.
 
-## Latest batch07 receipt —7 October
+## Latest batch10 receipt —7 October
+
+Latest batch10,7 October: seven new measured drafts (Look Again, Brought Home,
+Let's Try It, Straight Back, The Wink, Rent-Free, Just This Once) plus explicit
+Further Than Mev4 lower-tag/personality correction. Eight actual selected native
+PNG originals root-inspected; sixnew1672×941/Just This Once1671×941; correction
+1672×941. Current source/spec/master/generated-copy hashes, dimensions and
+crop/tag-axis extents verified7/7, all16 exactoriginal copies preserved. Smalltag
+support chains reviewed, hiddenrear/friction/load/gap/contact unresolved; Wink
+flushpaper held. Further Than Me band now upper clear-foot transition, not
+confidently entirely beneath liquid; phone/spectacles +inferred repairedcardigan
+addquietcare, cardiganwide-only/portraitlost. Recipe unchanged. Nog half-shell
+5mlmezcal is settledmethod7 requiredaccompaniment/candidatepilotexception, not
+inventedsecondglass. Fullrecognition widths470–1004px stillphoneheld; portrait
+clips severaltraces. Material/wood/glassice/lighting, stillwaterappearance and
+personality/name specificityheld; Just This Once walnut calmer, notapproval.
+No JPEG invocation/rejectedretry/bypass/newREADY/public/runtime/source/editorial
+change. Browser deferred,heartbeatPAUSED.91generated/27exported/64measured/
+24ungenerated,public17,newaccepted/integrated0,missingfinal115. Read
+production-batch-10.md/manifest/master-audit and further-than-me-base-tag-v4.md.
+Earlier batch counts historical.
+
+## Previous batch09 receipt —7 October
+
+Latest batch09,7 October: At the Time, Further Than Me, Whatever They Call It,
+In One Piece, With the Bite In, Undimmed and Curtain Call. Seven actual1672×941
+PNG originals root-inspected; current dossier/spec/master/generated-copy hashes,
+native sizes and crop/tag-axis extents verified7/7.14 initial/sole-correction
+images preserved. Smallpaper stem/bodyloop→knot→shorttether→punchedhole→gravity
+reviewed; hiddenrearloop/friction/knotload/uppergap/contact uncertainty held,
+not blanketphysicsPASS. Further Than Me physicalherbs included in489px
+recognition; allfullgroups420–797px remain wider than movingphone estimate.
+With the Bite In sleeve master-cropped/portraitclipsdraft; unknownunseenextent
+not invented. Undimmed frost/coarsezest, Curtain Call diarypseudo-writing,
+coffeeopacity/colaappearance, glossywood/glassice/lighting/personality/namefit
+held. No JPEG invocation/rejected retry/bypass/new READY or public/runtime/
+source/editorial change. Pending57; earlier scoped export question excludes
+batch09/current corrections. Browser deferred,heartbeatPAUSED. Read
+production-batch-09.md, manifest/master audit and individual root reviews.
+Current84generated/27exported/57measured/31ungenerated,public17,newaccepted/
+integrated0,missingfinal115. Earlier batch counts historical.
+
+## Previous batch08 receipt —7 October
+
+Seven new measured drafts: Got You, Far Enough, Just Knew, First Choice,
+Their Night, Don't Look at Me and On One Condition. Complete current dossiers,
+specs, house controls and current rules read before calls. Fourteen initial/
+sole-correction PNGs preserved. Root inspected actual selected originals;
+current source/spec/master/generated-copy fingerprints, native dimensions and
+crop/tag-axis extents verified7/7. Four1672×941, one1671×941, Far Enough1602×982
+and Just Knew1602×981; latter two have proper proposed1600×900 wide crops.
+Physical tag support chain reviewed: stem/body loop, side occlusion, knot,
+short downward tether, punched hole, paper air gap/gravity/contact. Rear-loop,
+knot depth, friction/load/contact uncertainty stays explicit, no physics PASS.
+Just Knew upper paper overlap and uncertain bay-leaf halves, Don't Look at Me
+squeezed-lime condition, Their Night multiple lights/unapproved source-explicit
+background people, glossy amber timber/ice, specificity and phone framing held.
+Full and recognition bounds include actual garnish/background; cropped linen's
+unseen extent remains unknown.702portrait is not389px moving-phone acceptance.
+Small labels follow latest user scale rule; actual name fit untested.
+77generated/27exported/50measured/38ungenerated,public17,newaccepted/integrated0,
+missingfinal115. No JPEG invocation, rejected retry/bypass, new READY or public/
+runtime/source/editorial changes. Earlier scoped export question excludes this
+batch/current corrections. Browser deferred,heartbeatPAUSED. Read
+production-batch-08.md, manifest/master audit and individual root reviews.
+Hear Me Out v3 preceding focused correction changes no pairing counts.
+
+## Previous batch07 receipt —7 October
 
 Seven genuinely new measured candidates: Nothing Escaped You, Against My Better
 Judgement, Where You Stand, Hear Me Out, Good as It Is, Not the Same and In Good
@@ -207,7 +446,8 @@ This note does not release those images or substitute for complete source
 rereads before generation.
 
 Historical selection at the receipt above was22 exported pairs. Current
-selection is27 exported pairs plus43 measured masters;70 distinct candidate
-pairings have been generated and45 remain ungenerated. Public17, new accepted0,
+selection is27 exported pairs plus88 measured masters;115 distinct candidate
+pairings have been generated and0 remain ungenerated.132 pairings have only
+existing-or-draft coverage, not final approval. Public17, new accepted0,
 new integrated0 remain unchanged. External browser PASS alone cannot clear
 root material holds.

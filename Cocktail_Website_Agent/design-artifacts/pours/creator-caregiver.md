@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-26 (batch creator)
 ## Cocktail
 
 - **name:** Quite Alive
-- **tagline:** You never say it. You make it.
+- **tagline:** You say “I love you” in things people can hold.
 - **glassware:** coupe (a stemmed cocktail glass), from the freezer
 - **contains:** `[]`
 
@@ -129,7 +129,7 @@ One generic sentence, now fixed. Pass.
 - **The Obsessed** (unauthored): the 2 a.m. present could fit someone in love with the making. What keeps it the Sculptor's is who it's for ("someone you love", "the very person it's for"). Flag this for whoever writes the Obsessed.
 
 #### 4. Punch check
-- **Tagline:** *You never say it. You make it.* It stops a scroll. Strongest.
+- **Tagline:** *You say “I love you” in things people can hold.* Revised for tagline review, 2026-10-08; awaiting Robin's review.
 - **whoYouAre opener:** the weakest in v1. v2's "You know what to make" is better.
 - **Last line of yours:** v1's "It says what you've never quite managed to" was soft and awkward. v2 has "They've always had what you made. Let them have you, making it."
 

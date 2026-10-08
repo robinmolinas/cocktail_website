@@ -1,0 +1,151 @@
+{
+  "method": "Independent manual original-size approximate pixel estimates. No header/hash execution, final exporter metadata or geometry approval.",
+  "native": {
+    "width": 1084,
+    "height": 1451,
+    "status": "Displayed native, unprobed"
+  },
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v4/portrait-master.png",
+  "status": "NOT selected, preserved alternate",
+  "glass": {
+    "x": 585,
+    "y": 775
+  },
+  "glassBounds": {
+    "x0": 474,
+    "y0": 641,
+    "x1": 699,
+    "y1": 1059
+  },
+  "serveBounds": {
+    "x0": 474,
+    "y0": 535,
+    "x1": 721,
+    "y1": 1062
+  },
+  "ice": {
+    "visibleBounds": {
+      "x0": 511,
+      "y0": 685,
+      "x1": 604,
+      "y1": 735
+    },
+    "hiddenExtent": null
+  },
+  "spoon": {
+    "visibleBounds": {
+      "x0": 642,
+      "y0": 535,
+      "x1": 721,
+      "y1": 815
+    },
+    "hiddenExtent": null
+  },
+  "pulp": {
+    "visibleBounds": {
+      "x0": 483,
+      "y0": 742,
+      "x1": 686,
+      "y1": 878
+    },
+    "note": "Sharp pale small flakes/chunks; soft loose mash correction failed"
+  },
+  "tag": {
+    "cx": 645,
+    "cy": 1004,
+    "w": 105,
+    "angle": 68,
+    "hole": {
+      "x": 617,
+      "y": 948
+    },
+    "paperBounds": {
+      "x0": 597,
+      "y0": 931,
+      "x1": 691,
+      "y1": 1062
+    }
+  },
+  "props": {
+    "chair": {
+      "visibleBounds": {
+        "x0": 221,
+        "y0": 309,
+        "x1": 1029,
+        "y1": 850
+      },
+      "fullObjectBounds": null,
+      "hiddenExtent": null,
+      "recognitionBounds": {
+        "x0": 309,
+        "y0": 314,
+        "x1": 1021,
+        "y1": 823
+      }
+    },
+    "oliveThrow": {
+      "visibleBounds": {
+        "x0": 139,
+        "y0": 482,
+        "x1": 580,
+        "y1": 857
+      },
+      "fullObjectBounds": null,
+      "hiddenExtent": null,
+      "recognitionBounds": {
+        "x0": 188,
+        "y0": 491,
+        "x1": 539,
+        "y1": 834
+      }
+    }
+  },
+  "fullVisibleEssentialUnion": {
+    "x0": 139,
+    "y0": 309,
+    "x1": 1029,
+    "y1": 1062
+  },
+  "conservativeRecognitionUnion": {
+    "x0": 188,
+    "y0": 314,
+    "x1": 1021,
+    "y1": 1062
+  },
+  "proposedCrop": {
+    "portrait": [
+      0,
+      0,
+      1084,
+      1451
+    ],
+    "note": "Native3:4ish alternate only, not finalJPEG/tall-phone approval"
+  },
+  "tagPhysics": {
+    "mechanism": "Low narrow-stem exterior loop",
+    "frontArc": "Visible taupe arc with closely parallel turns",
+    "sideOcclusion": "Sides disappear around stem, rear unseen",
+    "knot": "Small visible right knot near600,928",
+    "tether": "Short descending connection to hole617,948",
+    "hole": "Visible punched hole",
+    "gravity": "Paper below support leaning down/outboard",
+    "airGapContact": "Bowl separate, lower paper corner contacts timber",
+    "uncertainties": [
+      "Multiple fine turns persist",
+      "Rear closure/friction/load unknown",
+      "Upper paper/stem gap partly hidden"
+    ],
+    "pass": false
+  },
+  "review": {
+    "recipe": "ONE cold pulpy toddy/lump/spoon, pulp still not believable soft mash",
+    "personality": "Empty ready chair/throw unchanged broad",
+    "world": "Darker calmer timber",
+    "issues": [
+      "Sharp flakes",
+      "Doubled stem cord",
+      "Broad portrait traces",
+      "Name/phone/material/physics gates held"
+    ]
+  }
+}

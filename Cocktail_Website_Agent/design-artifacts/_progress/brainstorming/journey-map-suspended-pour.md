@@ -1,3 +1,5 @@
+> **Historical exploration — reviewed 8 October 2026.** The footage rationale and earlier iterations are preserved. Current intake is the live journey/v3 contract; retired quiz fields, mocktail promises and image tinting are not current requirements. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # The Suspended Pour — Canonical Journey Map
 
 **Date:** 2026-06-12

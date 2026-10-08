@@ -1,0 +1,142 @@
+{
+  "pairing": "magician-ruler",
+  "pour": "Built to Hold",
+  "version": "v1",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-ruler/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-ebc50ea8-6c9e-47d3-9dbb-c48b860ee9df.png",
+  "masterDimensions": {
+    "width": 1916,
+    "height": 821
+  },
+  "masterSha256": "ea176ef2e7fc5b1facab2910a09c5174324abc08b06a8478c24992df535fe104",
+  "sourceSha256": "6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6",
+  "specSha256": "1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56",
+  "roomSha256": "35cf395867739ab2d96beeef48217eeb27089adfeaeab4c4e3cb6750fcea23bb",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": [
+    228,
+    0,
+    1459,
+    820
+  ],
+  "portraitCrop": [
+    1010,
+    0,
+    612,
+    820
+  ],
+  "tag": {
+    "cx": 1591,
+    "cy": 607,
+    "w": 63,
+    "angle": 58
+  },
+  "glass": {
+    "x": 1350,
+    "y": 480
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1170,
+      "y0": 340,
+      "x1": 1625,
+      "y1": 628
+    },
+    "paper": {
+      "x0": 1512,
+      "y0": 553,
+      "x1": 1667,
+      "y1": 647
+    }
+  },
+  "personalityBounds": {
+    "closedLeatherOrganiser": {
+      "x0": 832,
+      "y0": 341,
+      "x1": 1290,
+      "y1": 524
+    },
+    "twoPreparedLinenNapkins": {
+      "x0": 1496,
+      "y0": 296,
+      "x1": 1916,
+      "y1": 548
+    }
+  },
+  "recognitionRegions": {
+    "closedLeatherOrganiser": {
+      "x0": 832,
+      "y0": 341,
+      "x1": 1290,
+      "y1": 524
+    },
+    "twoPreparedLinenNapkins": null
+  },
+  "physicalRecognitionRegions": {
+    "wholeHandledCup": {
+      "x0": 1170,
+      "y0": 340,
+      "x1": 1625,
+      "y1": 628
+    }
+  },
+  "supportingBounds": {
+    "cord": {
+      "x0": 1480,
+      "y0": 510,
+      "x1": 1564,
+      "y1": 584
+    },
+    "glassHandle": {
+      "x0": 1480,
+      "y0": 389,
+      "x1": 1625,
+      "y1": 562
+    }
+  },
+  "visibility": {
+    "linen": {
+      "masterClipped": true,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Native right-edge fabric clipped; no full napkin recognition proof."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Visible low handle crossing reaches paper hole, bottom on wood.",
+    "uncertainties": [
+      "Rear closure/load and visible crossing/tail ambiguous."
+    ],
+    "status": "HOLD"
+  },
+  "recognitionUnionWidth": 835,
+  "physicalServeRecognitionWidth": 455,
+  "physicalServeHeight": 288,
+  "cropAssessment": {
+    "wide": "Proposed only; initial frame 2.33:1 and full fabric clipped.",
+    "portrait": "Proposed only clips traces/tag; not accepted."
+  },
+  "recipeVariant": {
+    "chosenBranch": "Seville orange shrub; Batavia arrack; STILL fridge water",
+    "photographicProof": "Exact 180ml, temperature/chemistry and 2 napkin count cannot be measured from render."
+  },
+  "review": {
+    "recipe": "ONE small handled cold glass cup, hazy pale amber-orange, no ice/steam/foam/garnish. Style bowl not a shared vessel.",
+    "personality": "Closed organiser/tabs and two linen preparations are inferred from all-parts coordination/arrival preparedness, not explicit owned objects; generic and still broad.",
+    "world": "Dark old reading room, one right practical, no metal counter. Timber still orange-gloss/crackle and cup uniform micro-speckle remain material HOLD.",
+    "issues": [
+      "Right linen full master now retained but proposed portrait clips.",
+      "Full meaningful group 1011px wider than portrait/moving phone; app not checked.",
+      "Tiny doubled handle tether/side tail and rear load uncertain.",
+      "Hazy drink remains saturated orange in warm light and uniformly speckled, material/appearance watch.",
+      "Name overlay, physical/personality/editorial/user acceptance pending."
+    ]
+  },
+  "status": "Preserved initial, not selected; clipped linen/overscale/material HOLD.",
+  "rootMasterOriginalResolutionInspected": true,
+  "rootWideInspected": false,
+  "rootPortraitInspected": false,
+  "exported": false,
+  "accepted": false,
+  "integrated": false
+}

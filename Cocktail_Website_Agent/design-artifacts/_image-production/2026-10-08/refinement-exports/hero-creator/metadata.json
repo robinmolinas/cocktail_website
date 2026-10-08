@@ -1,0 +1,1310 @@
+{
+  "pairing": "hero-creator",
+  "pour": "The Long Answer",
+  "status": "private-review-export; all-acceptance-gates-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "b88f03f698aea6b8055d4cd3b0e669b0051c8e80bb4fff755dc67633c2eb3f4f",
+  "review": {
+    "recipe": "Hazy rosy orange round heavy beer goblet/one ice/mint/pineapple/dark cherry read. Dominant orange looks near-complete wheel; second orange edge occluded. TWO halfmoon count/shape HOLD.",
+    "personality": "Opened letters/withdrawn sheet and blue capped pen recognisable, still lateral left rather than depth.",
+    "world": "Calmer longitudinal timber, still warm sheen/fine scuffs; dense glass dot pattern rather than sparse droplets.",
+    "issues": [
+      "Full garnish begins149px above20%941=188px; vessel foot783 beyond80%=753px",
+      "Vessel490px tall exceeds pulled-back target",
+      "803px meaningful union held for phone/compact grouping",
+      "Orange second recognition null: do not invent halfmoon box",
+      "Name fit/rear tag load/browser glyph/load unresolved"
+    ]
+  },
+  "measurements": {
+    "pairing": "hero-creator",
+    "pour": "The Long Answer",
+    "status": "private candidate; no acceptance",
+    "measurementMethod": "Manual original-size visual estimates on displayed canvas; no native header or hash execution. Approximately +/-5–10px; confirm before export.",
+    "source": {
+      "dossier": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/hero-creator.md",
+      "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-creator.json",
+      "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-creator.md",
+      "dossierSha256": null,
+      "specSha256": null,
+      "roomSha256": null,
+      "fingerprintStatus": "Not executed per batch restrictions; complete current text read, closed r7 room/current D13 wording evidence."
+    },
+    "sourceSha256": "b88f03f698aea6b8055d4cd3b0e669b0051c8e80bb4fff755dc67633c2eb3f4f",
+    "masterSha256": "676e9685c85de0109043323697a9130c02f30e86884b71ca69020c512247a83c",
+    "originalSha256": null,
+    "hiddenExtent": null,
+    "orientation": "wide",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/wide-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-44a9747e-5a3c-4350-b7ac-00cc1ef33e7f.png",
+    "displayedCanvas": {
+      "width": 1672,
+      "height": 941,
+      "headerVerified": false
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": null,
+    "dedicatedPortrait": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v4/portrait-master.png",
+    "tag": {
+      "cx": 1183,
+      "cy": 697,
+      "w": 130,
+      "angle": 64
+    },
+    "glass": {
+      "x": 1102,
+      "y": 449
+    },
+    "bounds": {
+      "glass": {
+        "x0": 925,
+        "y0": 293,
+        "x1": 1279,
+        "y1": 783
+      },
+      "paper": {
+        "x0": 1115,
+        "y0": 615,
+        "x1": 1250,
+        "y1": 779
+      },
+      "ice": {
+        "x0": 992,
+        "y0": 319,
+        "x1": 1254,
+        "y1": 527
+      },
+      "mint": {
+        "x0": 905,
+        "y0": 149,
+        "x1": 1138,
+        "y1": 315
+      },
+      "orangeDominant": {
+        "x0": 1047,
+        "y0": 175,
+        "x1": 1182,
+        "y1": 330
+      },
+      "orangeSecondVisibleEdge": {
+        "x0": 1003,
+        "y0": 295,
+        "x1": 1143,
+        "y1": 325
+      },
+      "pineapple": {
+        "x0": 1165,
+        "y0": 210,
+        "x1": 1304,
+        "y1": 320
+      },
+      "cherryFruit": {
+        "x0": 1162,
+        "y0": 280,
+        "x1": 1248,
+        "y1": 363
+      },
+      "cherryStalk": {
+        "x0": 1206,
+        "y0": 175,
+        "x1": 1266,
+        "y1": 325
+      },
+      "openedEnvelopes": {
+        "x0": 501,
+        "y0": 373,
+        "x1": 1010,
+        "y1": 623
+      },
+      "partlyWithdrawnSheet": {
+        "x0": 669,
+        "y0": 375,
+        "x1": 932,
+        "y1": 512
+      },
+      "blueCappedPen": {
+        "x0": 617,
+        "y0": 528,
+        "x1": 889,
+        "y1": 639
+      },
+      "cordVisible": {
+        "x0": 1067,
+        "y0": 606,
+        "x1": 1155,
+        "y1": 653
+      }
+    },
+    "recognition": {
+      "openedLetterAndSheet": {
+        "x0": 501,
+        "y0": 373,
+        "x1": 1010,
+        "y1": 623
+      },
+      "blueCappedPen": {
+        "x0": 617,
+        "y0": 528,
+        "x1": 889,
+        "y1": 639
+      },
+      "mint": {
+        "x0": 905,
+        "y0": 149,
+        "x1": 1138,
+        "y1": 315
+      },
+      "orangeFirst": {
+        "x0": 1047,
+        "y0": 175,
+        "x1": 1182,
+        "y1": 330
+      },
+      "orangeSecond": null,
+      "pineapple": {
+        "x0": 1165,
+        "y0": 210,
+        "x1": 1304,
+        "y1": 320
+      },
+      "cherryWithStalk": {
+        "x0": 1162,
+        "y0": 175,
+        "x1": 1266,
+        "y1": 363
+      },
+      "servedIce": {
+        "x0": 992,
+        "y0": 319,
+        "x1": 1254,
+        "y1": 527
+      },
+      "meaningfulUnion": {
+        "x0": 501,
+        "y0": 149,
+        "x1": 1304,
+        "y1": 783
+      },
+      "unionWidth": 803
+    },
+    "tagPhysics": {
+      "mechanism": "Fine low stem loop below bowl; small outboard paper",
+      "knotPoint": [
+        1134,
+        628
+      ],
+      "holePoint": [
+        1149,
+        648
+      ],
+      "tether": "Short downward front segment about25px; rear unknown",
+      "gravity": "Paper hangs down/right with lower corner appearing timber contact",
+      "airGap": "Broad paper body separate from stem; near shoulder overlaps narrow stem",
+      "contact": "Lower corner apparent wood contact, subtle shadow",
+      "occlusion": "Rear stem wrap disappears behind glass",
+      "uncertainties": [
+        "Single complete turn/load cannot be verified posteriorly",
+        "Fine strand texture near knot may appear doubled"
+      ]
+    },
+    "review": {
+      "recipe": "Hazy rosy orange round heavy beer goblet/one ice/mint/pineapple/dark cherry read. Dominant orange looks near-complete wheel; second orange edge occluded. TWO halfmoon count/shape HOLD.",
+      "personality": "Opened letters/withdrawn sheet and blue capped pen recognisable, still lateral left rather than depth.",
+      "world": "Calmer longitudinal timber, still warm sheen/fine scuffs; dense glass dot pattern rather than sparse droplets.",
+      "issues": [
+        "Full garnish begins149px above20%941=188px; vessel foot783 beyond80%=753px",
+        "Vessel490px tall exceeds pulled-back target",
+        "803px meaningful union held for phone/compact grouping",
+        "Orange second recognition null: do not invent halfmoon box",
+        "Name fit/rear tag load/browser glyph/load unresolved"
+      ]
+    },
+    "specSha256": "97f064979295e88a43ac1c86d10b4f7e0fe8334e67f502cb4b46036ec6895926",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "exportProvenance": {
+      "batch": 15,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/wide-geometry.json",
+      "originalMeasurementSha256": "871d71448255cc8fe38d16e69f1d01edcdb42132e5a00ba31b6e267c1a6ae0b1",
+      "previousSourceSha256": null,
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "recognitionRegions": {
+      "openedLetterAndSheet": {
+        "x0": 501,
+        "y0": 373,
+        "x1": 1010,
+        "y1": 623
+      },
+      "blueCappedPen": {
+        "x0": 617,
+        "y0": 528,
+        "x1": 889,
+        "y1": 639
+      },
+      "mint": {
+        "x0": 905,
+        "y0": 149,
+        "x1": 1138,
+        "y1": 315
+      },
+      "orangeFirst": {
+        "x0": 1047,
+        "y0": 175,
+        "x1": 1182,
+        "y1": 330
+      },
+      "pineapple": {
+        "x0": 1165,
+        "y0": 210,
+        "x1": 1304,
+        "y1": 320
+      },
+      "cherryWithStalk": {
+        "x0": 1162,
+        "y0": 175,
+        "x1": 1266,
+        "y1": 363
+      },
+      "servedIce": {
+        "x0": 992,
+        "y0": 319,
+        "x1": 1254,
+        "y1": 527
+      },
+      "meaningfulUnion": {
+        "x0": 501,
+        "y0": 149,
+        "x1": 1304,
+        "y1": 783
+      }
+    },
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "portraitMeasurementFile": "portrait-measurements.json"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1358.468899521531,
+        "cy": 800.8085106382979,
+        "w": 149.2822966507177,
+        "angle": 64.01200273866215
+      },
+      "glass": {
+        "x": 1265.4545454545455,
+        "y": 515.8723404255319
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 495.94095940959414,
+        "cy": 823.7077877325983,
+        "w": 93.40221402214023,
+        "angle": 65.0118782020946
+      },
+      "glass": {
+        "x": 448,
+        "y": 685.5961405926947
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/hero-creator/portrait.jpg",
+    "wide": "/personas/hero-creator/wide.jpg",
+    "wideTag": {
+      "cx": 0.7075358851674641,
+      "cy": 0.7414893617021276,
+      "w": 0.07775119617224881,
+      "angle": 64.01200273866215
+    },
+    "wideGlass": {
+      "x": 0.6590909090909091,
+      "y": 0.4776595744680851
+    },
+    "tag": {
+      "cx": 0.5535055350553506,
+      "cy": 0.6864231564438319,
+      "w": 0.10424354243542436,
+      "angle": 65.0118782020946
+    },
+    "glass": {
+      "x": 0.5,
+      "y": 0.5713301171605789
+    }
+  },
+  "hashes": {
+    "master": "676e9685c85de0109043323697a9130c02f30e86884b71ca69020c512247a83c",
+    "wide": "063889dee97db82f29f6527d4d1ced914dcc52de6b2974fb891a8977dbda8acb",
+    "portrait": "217311cac2c20c10b1ec364505aa1f7407c22b1d6d1a6c72a85e89c817531d5d",
+    "portraitMaster": "76bfe8f41d2b1786bdf5df84876040266abbc5088f6d8829312cb9cbf7e901f3"
+  },
+  "geometryScope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1062.200956937799,
+          "y0": 336.6382978723404,
+          "x1": 1468.7081339712918,
+          "y1": 899.6170212765957
+        },
+        "paper": {
+          "x0": 1280.3827751196172,
+          "y0": 706.5957446808511,
+          "x1": 1435.4066985645934,
+          "y1": 895.0212765957447
+        },
+        "ice": {
+          "x0": 1139.1387559808613,
+          "y0": 366.51063829787233,
+          "x1": 1440,
+          "y1": 605.4893617021277
+        },
+        "mint": {
+          "x0": 1039.2344497607655,
+          "y0": 171.19148936170214,
+          "x1": 1306.7942583732058,
+          "y1": 361.9148936170213
+        },
+        "orangeDominant": {
+          "x0": 1202.2966507177034,
+          "y0": 201.06382978723403,
+          "x1": 1357.3205741626793,
+          "y1": 379.1489361702128
+        },
+        "orangeSecondVisibleEdge": {
+          "x0": 1151.7703349282297,
+          "y0": 338.93617021276594,
+          "x1": 1312.5358851674641,
+          "y1": 373.40425531914894
+        },
+        "pineapple": {
+          "x0": 1337.799043062201,
+          "y0": 241.27659574468083,
+          "x1": 1497.4162679425835,
+          "y1": 367.6595744680851
+        },
+        "cherryFruit": {
+          "x0": 1334.3540669856459,
+          "y0": 321.70212765957444,
+          "x1": 1433.11004784689,
+          "y1": 417.063829787234
+        },
+        "cherryStalk": {
+          "x0": 1384.8803827751196,
+          "y0": 201.06382978723403,
+          "x1": 1453.77990430622,
+          "y1": 373.40425531914894
+        },
+        "openedEnvelopes": {
+          "x0": 575.3110047846891,
+          "y0": 428.55319148936167,
+          "x1": 1159.8086124401914,
+          "y1": 715.7872340425532
+        },
+        "partlyWithdrawnSheet": {
+          "x0": 768.2296650717703,
+          "y0": 430.8510638297872,
+          "x1": 1070.2392344497607,
+          "y1": 588.2553191489362
+        },
+        "blueCappedPen": {
+          "x0": 708.5167464114833,
+          "y0": 606.6382978723404,
+          "x1": 1020.8612440191388,
+          "y1": 734.1702127659574
+        },
+        "cordVisible": {
+          "x0": 1225.2631578947369,
+          "y0": 696.2553191489361,
+          "x1": 1326.3157894736842,
+          "y1": 750.2553191489362
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 805.1674641148325,
+          "y0": 280.531914893617,
+          "x1": 1143.9234449760766,
+          "y1": 749.6808510638298
+        },
+        "paper": {
+          "x0": 986.9856459330142,
+          "y0": 588.8297872340426,
+          "x1": 1116.1722488038279,
+          "y1": 745.8510638297872
+        },
+        "ice": {
+          "x0": 869.2822966507176,
+          "y0": 305.4255319148936,
+          "x1": 1120,
+          "y1": 504.5744680851064
+        },
+        "mint": {
+          "x0": 786.0287081339712,
+          "y0": 142.6595744680851,
+          "x1": 1008.9952153110048,
+          "y1": 301.59574468085106
+        },
+        "orangeDominant": {
+          "x0": 921.9138755980862,
+          "y0": 167.5531914893617,
+          "x1": 1051.1004784688996,
+          "y1": 315.95744680851067
+        },
+        "orangeSecondVisibleEdge": {
+          "x0": 879.8086124401913,
+          "y0": 282.4468085106383,
+          "x1": 1013.77990430622,
+          "y1": 311.17021276595744
+        },
+        "pineapple": {
+          "x0": 1034.8325358851675,
+          "y0": 201.06382978723403,
+          "x1": 1167.846889952153,
+          "y1": 306.3829787234042
+        },
+        "cherryFruit": {
+          "x0": 1031.9617224880383,
+          "y0": 268.0851063829787,
+          "x1": 1114.2583732057417,
+          "y1": 347.55319148936167
+        },
+        "cherryStalk": {
+          "x0": 1074.0669856459328,
+          "y0": 167.5531914893617,
+          "x1": 1131.4832535885166,
+          "y1": 311.17021276595744
+        },
+        "openedEnvelopes": {
+          "x0": 399.4258373205742,
+          "y0": 357.12765957446805,
+          "x1": 886.5071770334928,
+          "y1": 596.4893617021277
+        },
+        "partlyWithdrawnSheet": {
+          "x0": 560.1913875598086,
+          "y0": 359.04255319148933,
+          "x1": 811.866028708134,
+          "y1": 490.21276595744683
+        },
+        "blueCappedPen": {
+          "x0": 510.43062200956933,
+          "y0": 505.53191489361706,
+          "x1": 770.7177033492824,
+          "y1": 611.8085106382978
+        },
+        "cordVisible": {
+          "x0": 941.0526315789474,
+          "y0": 580.2127659574468,
+          "x1": 1025.2631578947369,
+          "y1": 625.2127659574469
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1133.0143540669856,
+          "y0": 305.72085106382974,
+          "x1": 1566.622009569378,
+          "y1": 906.2314893617021
+        },
+        "paper": {
+          "x0": 1365.7416267942583,
+          "y0": 700.3421276595744,
+          "x1": 1531.1004784688996,
+          "y1": 901.3293617021276
+        },
+        "ice": {
+          "x0": 1215.0813397129186,
+          "y0": 337.5846808510638,
+          "x1": 1536,
+          "y1": 592.4953191489361
+        },
+        "mint": {
+          "x0": 1108.5167464114832,
+          "y0": 129.24425531914892,
+          "x1": 1393.9138755980862,
+          "y1": 332.6825531914894
+        },
+        "orangeDominant": {
+          "x0": 1282.4497607655503,
+          "y0": 161.108085106383,
+          "x1": 1447.8086124401914,
+          "y1": 351.0655319148936
+        },
+        "orangeSecondVisibleEdge": {
+          "x0": 1228.5550239234449,
+          "y0": 308.171914893617,
+          "x1": 1400.0382775119617,
+          "y1": 344.93787234042554
+        },
+        "pineapple": {
+          "x0": 1426.9856459330144,
+          "y0": 204.00170212765954,
+          "x1": 1597.244019138756,
+          "y1": 338.81021276595743
+        },
+        "cherryFruit": {
+          "x0": 1423.311004784689,
+          "y0": 289.78893617021276,
+          "x1": 1528.6507177033493,
+          "y1": 391.50808510638296
+        },
+        "cherryStalk": {
+          "x0": 1477.2057416267942,
+          "y0": 161.108085106383,
+          "x1": 1550.6985645933014,
+          "y1": 344.93787234042554
+        },
+        "openedEnvelopes": {
+          "x0": 613.665071770335,
+          "y0": 403.76340425531913,
+          "x1": 1237.1291866028707,
+          "y1": 710.1463829787234
+        },
+        "partlyWithdrawnSheet": {
+          "x0": 819.444976076555,
+          "y0": 406.2144680851064,
+          "x1": 1141.5885167464114,
+          "y1": 574.1123404255319
+        },
+        "blueCappedPen": {
+          "x0": 755.7511961722488,
+          "y0": 593.7208510638299,
+          "x1": 1088.9186602870814,
+          "y1": 729.7548936170213
+        },
+        "cordVisible": {
+          "x0": 1306.9473684210527,
+          "y0": 689.3123404255319,
+          "x1": 1414.7368421052631,
+          "y1": 746.912340425532
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1903.1100478468898,
+          "y0": 375.4436170212765,
+          "x1": 2631.4354066985647,
+          "y1": 1384.113829787234
+        },
+        "paper": {
+          "x0": 2294.0191387559807,
+          "y0": 1038.2840425531915,
+          "x1": 2571.7703349282297,
+          "y1": 1375.8797872340424
+        },
+        "ice": {
+          "x0": 2040.956937799043,
+          "y0": 428.9648936170213,
+          "x1": 2580,
+          "y1": 857.1351063829786
+        },
+        "mint": {
+          "x0": 1861.961722488038,
+          "y0": 79.01808510638298,
+          "x1": 2341.3397129186606,
+          "y1": 420.73085106382973
+        },
+        "orangeDominant": {
+          "x0": 2154.1148325358854,
+          "y0": 132.53936170212765,
+          "x1": 2431.866028708134,
+          "y1": 451.60851063829784
+        },
+        "orangeSecondVisibleEdge": {
+          "x0": 2063.588516746411,
+          "y0": 379.5606382978723,
+          "x1": 2351.626794258373,
+          "y1": 441.3159574468085
+        },
+        "pineapple": {
+          "x0": 2396.8899521531102,
+          "y0": 204.58723404255315,
+          "x1": 2682.870813397129,
+          "y1": 431.02340425531906
+        },
+        "cherryFruit": {
+          "x0": 2390.717703349282,
+          "y0": 348.6829787234042,
+          "x1": 2567.6555023923447,
+          "y1": 519.5393617021276
+        },
+        "cherryStalk": {
+          "x0": 2481.244019138756,
+          "y0": 132.53936170212765,
+          "x1": 2604.688995215311,
+          "y1": 441.3159574468085
+        },
+        "openedEnvelopes": {
+          "x0": 1030.7655502392345,
+          "y0": 540.1244680851063,
+          "x1": 2077.9904306220096,
+          "y1": 1054.7521276595744
+        },
+        "partlyWithdrawnSheet": {
+          "x0": 1376.4114832535886,
+          "y0": 544.2414893617021,
+          "x1": 1917.511961722488,
+          "y1": 826.2574468085106
+        },
+        "blueCappedPen": {
+          "x0": 1269.4258373205741,
+          "y0": 859.1936170212766,
+          "x1": 1829.043062200957,
+          "y1": 1087.6882978723404
+        },
+        "cordVisible": {
+          "x0": 2195.263157894737,
+          "y0": 1019.7574468085106,
+          "x1": 2376.315789473684,
+          "y1": 1116.5074468085106
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.5713301171605789
+      },
+      "bounds": {
+        "glass": {
+          "x0": 106.0529889298893,
+          "y0": 384.48242591316335,
+          "x1": 283.36565805658057,
+          "y1": 621.2212267401792
+        },
+        "paper": {
+          "x0": 199.06947109471093,
+          "y0": 540.9510682288077,
+          "x1": 257.2047724477245,
+          "y1": 618.89455547898
+        },
+        "ice": {
+          "x0": 137.44605166051662,
+          "y0": 399.0241212956582,
+          "x1": 262.4369495694957,
+          "y1": 492.67263955892486
+        },
+        "mint": {
+          "x0": 85.1242804428044,
+          "y0": 307.1206064782908,
+          "x1": 196.7440590405904,
+          "y1": 395.5341144038594
+        },
+        "orangeLeft": {
+          "x0": 157.79340713407134,
+          "y0": 314.68228807718816,
+          "x1": 213.0219434194342,
+          "y1": 412.9841488628532
+        },
+        "orangeRight": {
+          "x0": 202.55758917589174,
+          "y0": 327.4789800137836,
+          "x1": 242.67094710947106,
+          "y1": 408.33080634045484
+        },
+        "pineapple": {
+          "x0": 235.11335793357932,
+          "y0": 339.1123363197795,
+          "x1": 307.7824846248463,
+          "y1": 413.565816678153
+        },
+        "cherryFruit": {
+          "x0": 225.23035670356705,
+          "y0": 377.5024121295658,
+          "x1": 267.66912669126697,
+          "y1": 422.8725017229497
+        },
+        "cherryStalk": {
+          "x0": 246.7404182041821,
+          "y0": 325.7339765678842,
+          "x1": 277.55212792127924,
+          "y1": 391.46243969676084
+        },
+        "openedEnvelopes": {
+          "x0": 36.871980319803185,
+          "y0": 478.7126119917299,
+          "x1": 392.0786715867159,
+          "y1": 570.0344589937974
+        },
+        "partlyWithdrawnSheet": {
+          "x0": 89.7751045510455,
+          "y0": 478.7126119917299,
+          "x1": 349.0585485854858,
+          "y1": 543.2777394900069
+        },
+        "blueCappedPen": {
+          "x0": 213.60329643296438,
+          "y0": 532.8077188146106,
+          "x1": 351.9653136531365,
+          "y1": 570.6161268090972
+        },
+        "cordVisible": {
+          "x0": 175.81535055350554,
+          "y0": 533.9710544452101,
+          "x1": 220.579532595326,
+          "y1": 558.4011026878015
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.5713301171605789
+      },
+      "bounds": {
+        "glass": {
+          "x0": 116.7788929889299,
+          "y0": 424.5706409372846,
+          "x1": 312.5791389913899,
+          "y1": 685.9931082012405
+        },
+        "paper": {
+          "x0": 219.49377613776136,
+          "y0": 597.3535492763612,
+          "x1": 283.69057810578107,
+          "y1": 683.4238456237078
+        },
+        "ice": {
+          "x0": 151.44516605166052,
+          "y0": 440.6285320468642,
+          "x1": 289.46829028290284,
+          "y1": 544.0413507925568
+        },
+        "mint": {
+          "x0": 93.66804428044279,
+          "y0": 339.14266023432117,
+          "x1": 216.9259040590406,
+          "y1": 436.77463818056515
+        },
+        "orangeLeft": {
+          "x0": 173.91404674046743,
+          "y0": 347.49276361130256,
+          "x1": 234.90100861008608,
+          "y1": 456.0441075120607
+        },
+        "orangeRight": {
+          "x0": 223.34558425584254,
+          "y0": 361.6237077877326,
+          "x1": 267.6413776137761,
+          "y1": 450.9055823569952
+        },
+        "pineapple": {
+          "x0": 259.2957933579336,
+          "y0": 374.4700206753963,
+          "x1": 339.5417958179582,
+          "y1": 456.6864231564439
+        },
+        "cherryFruit": {
+          "x0": 248.38233702337027,
+          "y0": 416.8628532046864,
+          "x1": 295.2460024600246,
+          "y1": 466.9634734665748
+        },
+        "cherryStalk": {
+          "x0": 272.13515375153753,
+          "y0": 359.6967608545831,
+          "x1": 306.1594587945879,
+          "y1": 432.2784286698828
+        },
+        "openedEnvelopes": {
+          "x0": 40.38469864698649,
+          "y0": 528.6257753273605,
+          "x1": 432.62715867158676,
+          "y1": 629.4693314955204
+        },
+        "partlyWithdrawnSheet": {
+          "x0": 98.80378843788438,
+          "y0": 528.6257753273605,
+          "x1": 385.1215252152521,
+          "y1": 599.9228118538939
+        },
+        "blueCappedPen": {
+          "x0": 235.54297662976631,
+          "y0": 588.3611302549965,
+          "x1": 388.33136531365307,
+          "y1": 630.1116471399035
+        },
+        "cordVisible": {
+          "x0": 193.8150553505535,
+          "y0": 589.6457615437629,
+          "x1": 243.24659286592868,
+          "y1": 616.6230186078567
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.5713301171605789
+      },
+      "bounds": {
+        "glass": {
+          "x0": 100.13992619926199,
+          "y0": 258.7512060647829,
+          "x1": 219.4688314883149,
+          "y1": 418.07305306685043
+        },
+        "paper": {
+          "x0": 162.73869618696185,
+          "y0": 364.052377670572,
+          "x1": 201.86292742927432,
+          "y1": 416.5072363886975
+        },
+        "ice": {
+          "x0": 121.2670110701107,
+          "y0": 268.53756030323916,
+          "x1": 205.3841082410824,
+          "y1": 331.5616815988973
+        },
+        "mint": {
+          "x0": 86.0552029520295,
+          "y0": 206.68780151619572,
+          "x1": 161.17372693726938,
+          "y1": 266.18883528600963
+        },
+        "orangeLeft": {
+          "x0": 134.96049200492007,
+          "y0": 211.77670572019298,
+          "x1": 172.12851168511685,
+          "y1": 277.93246037215715
+        },
+        "orangeRight": {
+          "x0": 165.0861500615006,
+          "y0": 220.38869745003444,
+          "x1": 192.08186961869617,
+          "y1": 274.80082701585116
+        },
+        "pineapple": {
+          "x0": 186.99571955719557,
+          "y0": 228.21778084079946,
+          "x1": 235.90100861008614,
+          "y1": 278.3239145416954
+        },
+        "cherryFruit": {
+          "x0": 180.34460024600247,
+          "y0": 254.0537560303239,
+          "x1": 208.90528905289057,
+          "y1": 284.5871812543074
+        },
+        "cherryStalk": {
+          "x0": 194.82056580565808,
+          "y0": 219.2143349414197,
+          "x1": 215.55640836408367,
+          "y1": 263.4486560992419
+        },
+        "openedEnvelopes": {
+          "x0": 53.58209102091021,
+          "y0": 322.16678152997935,
+          "x1": 292.63114391143915,
+          "y1": 383.6250861474845
+        },
+        "partlyWithdrawnSheet": {
+          "x0": 89.1851414514145,
+          "y0": 322.16678152997935,
+          "x1": 263.6792127921279,
+          "y1": 365.618194348725
+        },
+        "blueCappedPen": {
+          "x0": 172.51975399754,
+          "y0": 358.5720192970365,
+          "x1": 265.6354243542435,
+          "y1": 384.01654031702276
+        },
+        "cordVisible": {
+          "x0": 147.08900369003692,
+          "y0": 359.354927636113,
+          "x1": 177.21466174661748,
+          "y1": 375.79600275671953
+        }
+      }
+    }
+  ],
+  "portraitMeasurements": {
+    "pairing": "hero-creator",
+    "pour": "The Long Answer",
+    "orientation": "portrait",
+    "status": "private corrected candidate, NOT accepted",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v4/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-0b24d548-2c77-4f1c-bc22-ba1601ce1251.png",
+    "source": {
+      "dossier": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/hero-creator.md",
+      "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-creator.json",
+      "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-creator.md",
+      "dossierSha256": null,
+      "specSha256": null,
+      "roomSha256": null,
+      "fingerprintStatus": "Not executed per batch restrictions; complete current text read, closed r7 room/current D13 wording evidence."
+    },
+    "sourceSha256": "b88f03f698aea6b8055d4cd3b0e669b0051c8e80bb4fff755dc67633c2eb3f4f",
+    "masterSha256": "76bfe8f41d2b1786bdf5df84876040266abbc5088f6d8829312cb9cbf7e901f3",
+    "originalSha256": null,
+    "displayedCanvas": {
+      "width": 1084,
+      "height": 1451,
+      "headerVerified": false
+    },
+    "measurementMethod": "Manual original-size displayed-canvas estimates, approx +/-5–10px; no native header or hash execution.",
+    "wideCrop": null,
+    "portraitCrop": [
+      0,
+      0,
+      1084,
+      1451
+    ],
+    "companionWide": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v3/wide-master.png",
+    "tag": {
+      "cx": 600,
+      "cy": 996,
+      "w": 113,
+      "angle": 65
+    },
+    "glass": {
+      "x": 542,
+      "y": 829
+    },
+    "bounds": {
+      "glass": {
+        "x0": 389,
+        "y0": 661,
+        "x1": 694,
+        "y1": 1068
+      },
+      "paper": {
+        "x0": 549,
+        "y0": 930,
+        "x1": 649,
+        "y1": 1064
+      },
+      "ice": {
+        "x0": 443,
+        "y0": 686,
+        "x1": 658,
+        "y1": 847
+      },
+      "mint": {
+        "x0": 353,
+        "y0": 528,
+        "x1": 545,
+        "y1": 680
+      },
+      "orangeLeft": {
+        "x0": 478,
+        "y0": 541,
+        "x1": 573,
+        "y1": 710
+      },
+      "orangeRight": {
+        "x0": 555,
+        "y0": 563,
+        "x1": 624,
+        "y1": 702
+      },
+      "pineapple": {
+        "x0": 611,
+        "y0": 583,
+        "x1": 736,
+        "y1": 711
+      },
+      "cherryFruit": {
+        "x0": 594,
+        "y0": 649,
+        "x1": 667,
+        "y1": 727
+      },
+      "cherryStalk": {
+        "x0": 631,
+        "y0": 560,
+        "x1": 684,
+        "y1": 673
+      },
+      "openedEnvelopes": {
+        "x0": 270,
+        "y0": 823,
+        "x1": 881,
+        "y1": 980
+      },
+      "partlyWithdrawnSheet": {
+        "x0": 361,
+        "y0": 823,
+        "x1": 807,
+        "y1": 934
+      },
+      "blueCappedPen": {
+        "x0": 574,
+        "y0": 916,
+        "x1": 812,
+        "y1": 981
+      },
+      "cordVisible": {
+        "x0": 509,
+        "y0": 918,
+        "x1": 586,
+        "y1": 960
+      }
+    },
+    "recognition": {
+      "openedLetterAndSheet": {
+        "x0": 270,
+        "y0": 823,
+        "x1": 881,
+        "y1": 980
+      },
+      "blueCappedPen": {
+        "x0": 574,
+        "y0": 916,
+        "x1": 812,
+        "y1": 981
+      },
+      "mint": {
+        "x0": 353,
+        "y0": 528,
+        "x1": 545,
+        "y1": 680
+      },
+      "orangeLeft": {
+        "x0": 478,
+        "y0": 541,
+        "x1": 573,
+        "y1": 710
+      },
+      "orangeRight": {
+        "x0": 555,
+        "y0": 563,
+        "x1": 624,
+        "y1": 702
+      },
+      "orangeShapeQualification": "Two separate cut pieces visibly apparent; straight inner edges and curved rind, wedge-like perspective/partial occlusion. Exact perfect half-circle geometry not provable from view.",
+      "pineapple": {
+        "x0": 611,
+        "y0": 583,
+        "x1": 736,
+        "y1": 711
+      },
+      "cherryWithStalk": {
+        "x0": 594,
+        "y0": 560,
+        "x1": 684,
+        "y1": 727
+      },
+      "servedIce": {
+        "x0": 443,
+        "y0": 686,
+        "x1": 658,
+        "y1": 847
+      },
+      "meaningfulUnion": {
+        "x0": 270,
+        "y0": 528,
+        "x1": 881,
+        "y1": 1068
+      },
+      "unionWidth": 611
+    },
+    "hiddenExtent": null,
+    "tagPhysics": {
+      "mechanism": "Fine cotton stem turn below bowl; tiny front knot, short punched-hole tether",
+      "knotPoint": [
+        565,
+        934
+      ],
+      "holePoint": [
+        578,
+        953
+      ],
+      "tether": "Short downward/slightly outboard visible segment approx23px",
+      "gravity": "Paper face hangs down/right; bottom corner appears resting on wood",
+      "airGap": "Paper face visibly separate from stem apart from cord and overlapping upper edge",
+      "contact": "Subtle bottom corner shadow/support plausible, not mechanically proven",
+      "occlusion": "Rear turn disappears behind stem",
+      "uncertainties": [
+        "Rear knot/loop support load unknown",
+        "Strand near front turn appears doubled cotton texture; SINGLE complete turn not proved",
+        "Hole/tether can be seen front only"
+      ]
+    },
+    "review": {
+      "recipe": "Two distinct cut orange pieces replace full-wheel appearance; mint/pineapple/dark stalked cherry and ONE ice/hazy rosy orange/heavy beer goblet retained. Cut pieces are wedge-like/partly occluded, so exact semicircle precision remains watch.",
+      "personality": "Opened paper group/withdrawn sheet now behind stem, capped blue pen behind stem across paper. Three envelope count/individual boundaries partly overlapped, no hidden extent inferred.",
+      "world": "Mostly flat longitudinal wood, ordinary wet cube; warm satin shine/fine wear and dense glass drops persist, left window still bright.",
+      "issues": [
+        "611px whole recognition/serve union exceeds550 aim; paper x270–881 not requested300–820 lane; NOT phone PASS",
+        "Vessel407px high still larger than pulled-back goal",
+        "Three individual envelopes not all separately countable",
+        "Halfmoon count improved to2 visible pieces; exact shape watch",
+        "Dense dots/warm sheen/bright window watch",
+        "Posterior tag load/name fit/browser/glyph/load/header verification unresolved"
+      ]
+    },
+    "specSha256": "97f064979295e88a43ac1c86d10b4f7e0fe8334e67f502cb4b46036ec6895926",
+    "masterDimensions": {
+      "width": 1084,
+      "height": 1451
+    },
+    "exportProvenance": {
+      "batch": 15,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-creator/v4/portrait-geometry.json",
+      "originalMeasurementSha256": "baaddcbf61c8668fb6400931a2a1934fe8cf4bb5820315f70fc3483d060ba132",
+      "previousSourceSha256": null,
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "recognitionRegions": {
+      "openedLetterAndSheet": {
+        "x0": 270,
+        "y0": 823,
+        "x1": 881,
+        "y1": 980
+      },
+      "blueCappedPen": {
+        "x0": 574,
+        "y0": 916,
+        "x1": 812,
+        "y1": 981
+      },
+      "mint": {
+        "x0": 353,
+        "y0": 528,
+        "x1": 545,
+        "y1": 680
+      },
+      "orangeLeft": {
+        "x0": 478,
+        "y0": 541,
+        "x1": 573,
+        "y1": 710
+      },
+      "orangeRight": {
+        "x0": 555,
+        "y0": 563,
+        "x1": 624,
+        "y1": 702
+      },
+      "pineapple": {
+        "x0": 611,
+        "y0": 583,
+        "x1": 736,
+        "y1": 711
+      },
+      "cherryWithStalk": {
+        "x0": 594,
+        "y0": 560,
+        "x1": 684,
+        "y1": 727
+      },
+      "servedIce": {
+        "x0": 443,
+        "y0": 686,
+        "x1": 658,
+        "y1": 847
+      },
+      "meaningfulUnion": {
+        "x0": 270,
+        "y0": 528,
+        "x1": 881,
+        "y1": 1068
+      }
+    },
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    }
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

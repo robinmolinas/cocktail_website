@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 ## Cocktail
 
 - **name:** Making the Calls
-- **tagline:** You'd rather be blamed for all of it than praised for part of it.
+- **tagline:** You'd rather answer for every detail than take credit for just your part.
 - **glassware:** a coupe (a stemmed glass with a rounded bowl), chilled
 - **contains:** `[]`
 
@@ -197,7 +197,7 @@ Studio fact card `_studio/fact-cards/audrey-saunders-pegu-club.md` (*A Proper Dr
 Wren's title-block notes:
 
 - **Name:** Making the Calls (all three). Alternates: *The Next One*, *Eighths*, *Own Measures* (Hester); *The Call*, *One Dash* (Tomás); *One More*, *Little Tiny Tweaks* (Wren).
-- **Tagline:** *You'd rather be blamed for all of it than praised for part of it.*
+- **Tagline:** *You'd rather answer for every detail than take credit for just your part.*
 - **Epigraph:** *There's one dash in this glass you'll never pick out. The rest tastes brighter for it.*
 - **Closing line (Tomás):** *Make the first one to the millilitre. Then set it down, name what you'd change, and let someone else make the second.*
 

@@ -1,0 +1,148 @@
+{
+  "pairing": "outlaw-lover",
+  "pour": "Rent-Free",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-lover/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-40f31efb-d0a8-4fce-bea3-e45367f9abf4.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "0b704dea95c4af0d10a172bfd25ae9855e98f958af6118e2df5841dbfa424554",
+  "sourceSha256": "be407e8833b844f74f01e7aaf6e381eb5d71e940e3972641067d20f4c4e402ac",
+  "specSha256": "a879424d9b0470beb32a0e90996d926a2184b4a82599ec7e216d1b1d8d06c875",
+  "roomSha256": "db226b7cdb8760065b9f93f6fbe2f56d7e8ef4d07ddf60145094fd97d1745f76",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    950,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1061,
+    "cy": 701,
+    "w": 119,
+    "angle": 74
+  },
+  "glass": {
+    "x": 1000,
+    "y": 380
+  },
+  "bounds": {
+    "glass": {
+      "x0": 865,
+      "y0": 100,
+      "x1": 1142,
+      "y1": 778
+    },
+    "paper": {
+      "x0": 1003,
+      "y0": 615,
+      "x1": 1106,
+      "y1": 765
+    }
+  },
+  "personalityBounds": {
+    "overnightBag": {
+      "x0": 1051,
+      "y0": 230,
+      "x1": 1672,
+      "y1": 761
+    },
+    "foldedShirt": {
+      "x0": 1250,
+      "y0": 340,
+      "x1": 1603,
+      "y1": 456
+    },
+    "houseKeyAndFob": {
+      "x0": 1327,
+      "y0": 443,
+      "x1": 1507,
+      "y1": 603
+    }
+  },
+  "recognitionRegions": {
+    "overnightBag": {
+      "x0": 1051,
+      "y0": 230,
+      "x1": 1672,
+      "y1": 761
+    },
+    "houseKeyAndFob": {
+      "x0": 1327,
+      "y0": 443,
+      "x1": 1507,
+      "y1": 603
+    }
+  },
+  "supportingBounds": {
+    "ice": {
+      "x0": 884,
+      "y0": 113,
+      "x1": 1130,
+      "y1": 330
+    },
+    "stemAttachment": {
+      "x0": 984,
+      "y0": 565,
+      "x1": 1038,
+      "y1": 646
+    },
+    "servedGarnish": null
+  },
+  "visibility": {
+    "overnightBag": {
+      "masterClipped": true,
+      "unseenExtent": "unknown right continuation"
+    },
+    "foldedShirt": {
+      "occluded": true,
+      "unseenExtent": "unknown inside bag"
+    },
+    "houseKeyAndFob": {
+      "occluded": true,
+      "unseenExtent": "small rear ring/attachment hidden; not fabricated"
+    }
+  },
+  "tagPhysics": {
+    "anchor": "Visible front cotton loop around narrow stem below bowl, not rim.",
+    "knot": "Front crossing/knot visible; rear circumferential loop and load cannot be established from one view.",
+    "knotPoint": {
+      "x": 1002,
+      "y": 578
+    },
+    "holePoint": {
+      "x": 1033,
+      "y": 636
+    },
+    "tether": "Short continuous-looking downward string from front knot to punched upper paper hole.",
+    "gravity": "Paper descends below anchor, not glued to bowl.",
+    "airGap": "Paper outside bowl with visible separation from stem along broad face.",
+    "contact": "Lower edge may rest near glass foot; uncertain.",
+    "occlusion": "Stem hides rear wrap; small knot crossing cannot prove support.",
+    "uncertainties": [
+      "Rear wrap and full knot topology hidden.",
+      "Load support and lower paper/foot contact not proved."
+    ],
+    "status": "plausible front attachment chain; uncertain, not PASS"
+  },
+  "review": {
+    "recipe": "Pale clear wine/soda and no garnish correct, ice quantity visibly underfilled.",
+    "personality": "Recognizable ordinary overnight bag/folded clothing and house key/fob inferred from one-way leaving, wish to land and unpack. Arrival stronger than specific emotional code; not literal dossier possessions.",
+    "world": "Old private reading room recognizable; walnut too glossy/rough with warm amber highlights, not accepted flat-neutral house material.",
+    "issues": [
+      "Ice underfilled: only floating upper cubes, not source-filled bowl.",
+      "Glass678px high instead of300–360px target.",
+      "Bag clipped at right; hidden extent unknown.",
+      "Personality630+px spread and bag overflow portrait; moving-phone failure risk.",
+      "Glossy repetitive rough walnut, strong warm wash and competing left light."
+    ]
+  },
+  "status": "held measured master candidate; no exporter/browser/integration or acceptance"
+}

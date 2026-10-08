@@ -35,8 +35,9 @@ This file is the thin strategic interface for design tooling. The deep, canonica
 product context lives in the BMAD/WDS artifacts one level up — read those before
 re-deriving anything here, and record new strategic decisions there, not here:
 
-- **Experience master spec (all locked decisions):** `../design-artifacts/2026-07-08-experience-master-spec.md`
-- **Design log + locked do-not-relitigate constraints:** `../design-artifacts/_progress/00-design-log.md`
+- **Current experience contract (reconciled 2026-10-08):** `../design-artifacts/2026-07-08-experience-master-spec.md`
+- **Current continuation status:** `../design-artifacts/2026-10-06-continuation-status.md`
+- **Design log + dated decisions:** `../design-artifacts/_progress/00-design-log.md`
 - **Product brief:** `../design-artifacts/A-Product-Brief/`
 - **Personas & trigger map:** `../design-artifacts/B-Trigger-Map/`
 - **UX scenarios:** `../design-artifacts/C-UX-Scenarios/`

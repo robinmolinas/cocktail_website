@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 ## Cocktail
 
 - **name:** The Other Berry
-- **tagline:** You don't make things strange. You notice they already are.
+- **tagline:** You make people laugh at things they'll never see the same way again.
 - **glassware:** coupe, chilled
 - **contains:** `[]`
 

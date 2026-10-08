@@ -1,0 +1,222 @@
+{
+  "pairing": "jester-lover",
+  "pour": "I'll Tell You Later",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-d47658d1-7229-4f3f-b4d8-bfc192acf83d.png",
+  "masterSha256": "f430ed58448d140721bec1f624ae341f3b17322a71a0307f37494732c664fb2b",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+  "specSha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+  "roomSha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    615,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1026,
+    "cy": 751,
+    "w": 103,
+    "angle": 64
+  },
+  "glass": {
+    "x": 814,
+    "y": 581
+  },
+  "bounds": {
+    "glass": {
+      "x0": 690,
+      "y0": 532,
+      "x1": 995,
+      "y1": 754
+    },
+    "paper": {
+      "x0": 950,
+      "y0": 676,
+      "x1": 1094,
+      "y1": 814
+    }
+  },
+  "personalityBounds": {
+    "wrappedPresent": {
+      "x0": 816,
+      "y0": 333,
+      "x1": 1136,
+      "y1": 511
+    },
+    "openDecoyBox": {
+      "x0": 1157,
+      "y0": 137,
+      "x1": 1654,
+      "y1": 531
+    }
+  },
+  "recognitionRegions": {
+    "wrappedPresent": {
+      "x0": 816,
+      "y0": 333,
+      "x1": 1136,
+      "y1": 511
+    },
+    "openDecoyBox": {
+      "x0": 1157,
+      "y0": 137,
+      "x1": 1654,
+      "y1": 531
+    }
+  },
+  "supportingBounds": {
+    "heroSaucer": {
+      "x0": 613,
+      "y0": 646,
+      "x1": 1000,
+      "y1": 798
+    },
+    "secondCup": {
+      "x0": 1045,
+      "y0": 424,
+      "x1": 1293,
+      "y1": 601
+    },
+    "secondSaucer": {
+      "x0": 980,
+      "y0": 512,
+      "x1": 1308,
+      "y1": 635
+    },
+    "extraPreparationPlate": {
+      "x0": 1147,
+      "y0": 599,
+      "x1": 1608,
+      "y1": 789
+    },
+    "usedOrangeSpiralAndCloves": {
+      "x0": 1271,
+      "y0": 606,
+      "x1": 1559,
+      "y1": 748
+    },
+    "fork": {
+      "x0": 1165,
+      "y0": 620,
+      "x1": 1585,
+      "y1": 840
+    },
+    "heroCoffee": {
+      "x0": 712,
+      "y0": 558,
+      "x1": 921,
+      "y1": 605
+    },
+    "secondCoffee": {
+      "x0": 1058,
+      "y0": 449,
+      "x1": 1227,
+      "y1": 479
+    },
+    "heroSteam": {
+      "x0": 738,
+      "y0": 283,
+      "x1": 879,
+      "y1": 545
+    },
+    "secondSteam": {
+      "x0": 1095,
+      "y0": 242,
+      "x1": 1184,
+      "y1": 438
+    },
+    "cord": {
+      "x0": 950,
+      "y0": 650,
+      "x1": 994,
+      "y1": 710
+    }
+  },
+  "physicalRecognitionRegions": {
+    "bothCupsSaucersSteam": {
+      "x0": 613,
+      "y0": 242,
+      "x1": 1308,
+      "y1": 798
+    },
+    "preparationTrace": {
+      "x0": 1147,
+      "y0": 599,
+      "x1": 1608,
+      "y1": 840
+    }
+  },
+  "visibility": {
+    "wrappedPresent": {
+      "masterClipped": false,
+      "occluded": false,
+      "unseenExtent": null
+    },
+    "openDecoyBox": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Cup/tissue occlude lower interior."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Low hero handle taupe loop and descending paper tether.",
+    "anchorBounds": {
+      "x0": 950,
+      "y0": 650,
+      "x1": 974,
+      "y1": 683
+    },
+    "knotPoint": {
+      "x": 958,
+      "y": 662
+    },
+    "holePoint": {
+      "x": 988,
+      "y": 697
+    },
+    "knot": "Small doubled crossing, precise topology uncertain.",
+    "tether": "Short downward diagonal doubled strands.",
+    "hole": "Visible punched hole receives cord.",
+    "gravity": "Paper below handle, lower corner on wood.",
+    "airGap": "Face outboard china.",
+    "contact": "Timber contact plausible not force proof.",
+    "occlusion": "Posterior handle support hidden.",
+    "uncertainties": [
+      "Rear loop/load unknown",
+      "Doubled tether",
+      "Contact load unknown"
+    ],
+    "status": "Held"
+  },
+  "recognitionUnionWidth": 1041,
+  "cropAssessment": {
+    "portrait": "702px proposal retains hero/tag and second cup; clips rear saucer? secondSaucer inside1317. Decoy and used spiral/fork largely lost; no portrait personality PASS.",
+    "movingPhone": "Whole recognition union1041px; no phone PASS."
+  },
+  "review": {
+    "recipe": "Two finished dark coffees/steam/white demitasses match settled service. Preparation has an added third plate and clearly more than6cloves, held; no served garnish/ice/cream/fire.",
+    "personality": "Recognizable wrapped present and open decoy box directly express explicit whoYouAre habit; box/wrap specificity inferred. Wide1041px recognition union.",
+    "world": "House reading-room setting; warm orange glossy repetitive timber persists and busy scene left.",
+    "issues": [
+      "Excess-clove count and added third preparation plate",
+      "Wide gift/service preparation union1041px",
+      "Glossy amber patterned timber",
+      "Tag posterior support/load uncertain",
+      "Name-fit/moving phone untested"
+    ]
+  },
+  "status": "Held native candidate; not exported or accepted."
+}

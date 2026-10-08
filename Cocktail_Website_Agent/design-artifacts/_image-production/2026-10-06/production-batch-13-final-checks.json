@@ -1,0 +1,208 @@
+{
+  "id": "production-batch-13-final-checks",
+  "technicalPassOnly": true,
+  "protectedCurrent": true,
+  "protectedCount": 47,
+  "ruleCount": 3,
+  "sourcesCurrent": true,
+  "sourceCount": 11,
+  "selectedNativeCount": 11,
+  "measured": [
+    {
+      "folder": "explorer-creator/v2",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    },
+    {
+      "folder": "explorer-jester/v2",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    },
+    {
+      "folder": "innocent-creator/v2",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    },
+    {
+      "folder": "jester-explorer/v2",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    },
+    {
+      "folder": "jester-innocent/v2",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    },
+    {
+      "folder": "jester-lover/v2",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    },
+    {
+      "folder": "jester-regular-guy/v2",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    },
+    {
+      "folder": "lover-creator/v2",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    },
+    {
+      "folder": "magician-jester/v2",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    },
+    {
+      "folder": "magician-ruler/v2",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    },
+    {
+      "folder": "ruler-jester/v4",
+      "currentOriginal": true,
+      "currentDimensions": true,
+      "cropsInside": true,
+      "measuredBoxesInside": true,
+      "tagAxisInsidePaper": true,
+      "tagPhysicsAssessmentPresent": true,
+      "rootReviewPresent": true,
+      "noExports": true
+    }
+  ],
+  "counts": {
+    "generated": 115,
+    "selected": 27,
+    "pending": 88,
+    "ungenerated": 0,
+    "existing": 17,
+    "accepted": 0,
+    "integrated": 0,
+    "missingFinal": 115,
+    "unique": 115,
+    "unrepresented": 0
+  },
+  "galleryLocalLinks": 99,
+  "missingLinks": [],
+  "receiptSelfLinkWrittenNext": true,
+  "materialAccepted": false,
+  "physicsAccepted": false,
+  "nameAccepted": false,
+  "phoneAccepted": false,
+  "browser": "deferred-by-user",
+  "newReadyRequests": false,
+  "heartbeat": "PAUSED",
+  "exportsThisBatch": 0,
+  "publicRuntimeSourceRulesUnchanged": true,
+  "originalsPreserved": 22,
+  "scope": {
+    "previousSelected27Preserved": true,
+    "previousPendingExceptCorrectionPreserved": true,
+    "otherRecordsPreserved": true,
+    "editorialRecipeFieldsPreserved": true,
+    "producerExceptBatchCorrectionPreserved": true
+  },
+  "sharedHashes": {
+    "allCurrent": true,
+    "items": [
+      {
+        "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/queue.json",
+        "sha256": "25c6298b453d71bf25a184c13c23fd27bd556195527fdd26a97a691e2c9dfccc",
+        "current": true
+      },
+      {
+        "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/browser-review/producer-state.json",
+        "sha256": "a7063baf826c8fe57d05048c08a5640b7c0e31f12002a8427d6a3f029aaeecc4",
+        "current": true
+      },
+      {
+        "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/README.md",
+        "sha256": "067d925ff37ced048e1191ce31bd38db51cbbb252c4b9218bf36e4c47dd91076",
+        "current": true
+      },
+      {
+        "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/calibration-continuation.md",
+        "sha256": "699817048af1d001560ce4adf3cbc7364790e3681f0359fe38dcee171fcf39da",
+        "current": true
+      },
+      {
+        "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/root-review.md",
+        "sha256": "05337cabf964e98af3bd643c4195e9dbebdb48dba879bca973f54a18e098efcd",
+        "current": true
+      }
+    ]
+  },
+  "rootActualSelectedOriginalViews": [
+    "ruler-jester",
+    "magician-ruler",
+    "explorer-creator",
+    "jester-explorer",
+    "innocent-creator",
+    "jester-innocent",
+    "lover-creator",
+    "magician-jester",
+    "explorer-jester",
+    "jester-lover",
+    "jester-regular-guy"
+  ]
+}

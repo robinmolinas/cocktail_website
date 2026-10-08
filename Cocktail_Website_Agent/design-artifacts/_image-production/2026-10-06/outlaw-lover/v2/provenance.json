@@ -1,0 +1,26 @@
+{
+  "pairing": "outlaw-lover",
+  "pour": "Rent-Free",
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-7a0fe6c9-dc65-495b-a28b-367531c3d4bf.png",
+  "originalSha256": "79f2aefa53dc6aa6d1ab79a4ebbfac7889b21e49f2f661a36355959ad7cc81bc",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-lover/v2/master.png",
+  "masterSha256": "79f2aefa53dc6aa6d1ab79a4ebbfac7889b21e49f2f661a36355959ad7cc81bc",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "copy": "cp -n exact original raster, no transformations",
+  "prompt": "prompt-batch10.txt",
+  "readiness": "readiness-batch10.md",
+  "source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/outlaw-lover.md",
+  "spec": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-lover.json",
+  "room": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-lover.md",
+  "sourceSha256": "be407e8833b844f74f01e7aaf6e381eb5d71e940e3972641067d20f4c4e402ac",
+  "specSha256": "a879424d9b0470beb32a0e90996d926a2184b4a82599ec7e216d1b1d8d06c875",
+  "roomSha256": "db226b7cdb8760065b9f93f6fbe2f56d7e8ef4d07ddf60145094fd97d1745f76",
+  "targetedCorrectionCount": 1,
+  "editTarget": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-lover/v1/master.png",
+  "status": "candidate only; held; root owns export/integration"
+}

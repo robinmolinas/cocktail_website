@@ -1,0 +1,136 @@
+{
+  "pairing": "lover-caregiver",
+  "pour": "Hoping You'd Come",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-6d4d34fc-976e-490d-bdae-a4489fbb7b8b.png",
+  "sourceSha256": "6c8e8a522954bf401b124460cda40c3d6080c29d6132a4056d5deaa9618cd4a8",
+  "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+  "roomSha256": "cd07091cfe12bbf08c2df1978b01ad3cc677ddb11cec330971735dfd171fe509",
+  "masterSha256": "15017bcd6633f149778af643880e1d567bb7c3f351ffab29fcc268c77156af80",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    790,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1073,
+    "cy": 728,
+    "w": 98,
+    "angle": 62
+  },
+  "glass": {
+    "x": 1003,
+    "y": 500
+  },
+  "bounds": {
+    "glass": {
+      "x0": 879,
+      "y0": 248,
+      "x1": 1128,
+      "y1": 791
+    },
+    "paper": {
+      "x0": 1007,
+      "y0": 653,
+      "x1": 1130,
+      "y1": 783
+    },
+    "spoon": {
+      "x0": 1055,
+      "y0": 140,
+      "x1": 1144,
+      "y1": 365
+    },
+    "ice": {
+      "x0": 953,
+      "y0": 304,
+      "x1": 1062,
+      "y1": 386
+    },
+    "applePulp": {
+      "x0": 895,
+      "y0": 354,
+      "x1": 1110,
+      "y1": 541
+    },
+    "garnish": null
+  },
+  "personBounds": {
+    "chair": {
+      "x0": 690,
+      "y0": 226,
+      "x1": 1598,
+      "y1": 715
+    },
+    "warmingThrow": {
+      "x0": 1013,
+      "y0": 181,
+      "x1": 1430,
+      "y1": 696
+    }
+  },
+  "recognitionRegions": {
+    "servedSpoon": { "x0": 1055, "y0": 140, "x1": 1144, "y1": 365 },
+    "chair": {
+      "x0": 818,
+      "y0": 236,
+      "x1": 1558,
+      "y1": 695
+    },
+    "warmingThrow": {
+      "x0": 1051,
+      "y0": 190,
+      "x1": 1400,
+      "y1": 683
+    }
+  },
+  "traceExtentNotes": {
+    "chair": "Full visible extent only; seat/legs occluded by tabletop and posterior extent unknown/null. Chair identity needs back plus actual arm; no anonymous sliver claim.",
+    "warmingThrow": "Visible folded/draped knit with concealed posterior portion unknown/null; ordinary person inference, not an owned historical artifact."
+  },
+  "group": {
+    "fullWidth": 908,
+    "recognitionWidth": 740,
+    "physicalServeWidthIncludingSpoonAndPaper": 265,
+    "physicalServeBoundsIncludingSpoonAndPaper": { "x0": 879, "y0": 140, "x1": 1144, "y1": 791 },
+    "fullBoundsIncludingServedSpoonAndPersons": { "x0": 690, "y0": 140, "x1": 1598, "y1": 791 }
+  },
+  "tagPhysics": {
+    "supportLoop": "Light taupe wrap around exterior narrow stem below bowl; front arcs visible, rear closure occluded.",
+    "knot": "Fuzzy multi-strand knot around1009,648; several short ends rather than quiet tiny single knot.",
+    "tether": "Continuous short diagonal downward connector to hole1041,675 approx35px, no rim anchor.",
+    "hole": "Dark punched hole visible at1041,675.",
+    "gravity": "Paper below knot slopes down-right.",
+    "airgap": "Main paper face outboard with visible dark gap from stem; left upper margin near stem.",
+    "contact": "Lower tip near foot/table y781; exact foot-vs-timber contact uncertain.",
+    "uncertainty": [
+      "Posterior loop closure, friction and knot load not demonstrated by still.",
+      "Fuzzy multi-wrap/tails and glass-reflection overlap complicate exact continuous-chain reading."
+    ],
+    "assessment": "Partial visual support chain, not physics PASS; correction planned."
+  },
+  "review": {
+    "recipe": "Cold small stemmed wineglass, one ordinary cloudy ice lump, apple pulp left in and spoon in; chunky rather than fully mashed pulp watch. No garnish/head/steam.",
+    "personality": "Empty prepared chair and folded warming throw read; throw is source-derived inference. Broad recognition, not phone-safe.",
+    "world": "Historic dark timber room with one lamp and quiet left; glossy amber table/dense wet-glass textures held.",
+    "issues": [
+      "Glass543px not330 target; spoon rises to140, vertical crop/motion risk.",
+      "Full visible person group908/recogn740px exceeds~389 moving-phone intent; proposedportrait clips rightchair recognition.",
+      "Broad orange glossy timber/dense droplet microtexture held.",
+      "Apple pulp looks irregular chunky rather than unequivocally fully soft mashed.",
+      "Stem knot multi-strand/fuzzy, not fully subdued.",
+      "Actual glyph/name, phone, JPEG and browser checks unperformed."
+    ]
+  }
+}

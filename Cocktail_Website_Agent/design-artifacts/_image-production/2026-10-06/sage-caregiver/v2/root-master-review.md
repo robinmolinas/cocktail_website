@@ -1,0 +1,5 @@
+# Further Than Me — root original inspection
+
+Actual selectedoriginal1672×941 root-inspected. Mint/tarragon distinctnearequaltips256/268; palehazyicedSouthside+soda, noextra citrus/foam. Long submergedgarnishstems notproof ofstraining. Glass387px, full493px; conservative recognition489px INCLUDES physicalherbtips/rightedge1175, correcting owner's475px withoutgarnish.702portrait fits visibleobjects, not389movingphone. Phone/spectacles recognisable but partlyhiddenrightends/arms unknown; fullbounds visibleextentonly, no unseenextentpromise. Explicitcalls phone/inferredlistener glasses ordinarybut generic evidence. Bodyloop belowrim/frontcurvature/rightocclusion→tinyknot→tether→punchedhole; paperbelowloop/bottomcontacttimber, upperfaceoverlapsglass so localairgap uncertain, notphysicsPASS. Small81pxpaper<193glass,91px axis. Timbergloss/ambertexturing/denseiceglassheld. Optionalroomchair/lamp clipping is not essentialpersonality proof. No JPEG/browser/finalacceptance; source unchanged/initialsoleedit saved.
+
+Disposition: HOLD-material/phone; tiny-tag-knot/upper-gap/herb-specificity/personality-watch; name-unverified.

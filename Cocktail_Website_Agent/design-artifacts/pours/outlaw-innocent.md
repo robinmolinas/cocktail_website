@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 ## Cocktail
 
 - **name:** Kept
-- **tagline:** You can smell a fake from across the room. The real thing, too.
+- **tagline:** You keep your promise to yourself, even when compromise sounds reasonable.
 - **glassware:** an old-fashioned glass, ice cubes
 - **contains:** `[]`
 
@@ -214,7 +214,7 @@ Kept (Wren; Tomás with tagline 3; Hester's pick was What It's For, which named 
 Wren's title-block notes:
 
 - **name:** *Kept*
-- **tagline:** You can smell a fake from across the room. The real thing, too.
+- **tagline:** You keep your promise to yourself, even when compromise sounds reasonable.
 - **epigraph:** *The makers of one bottle in this glass chose not to make more.*
 - **closingLine (Tomás's, one verb changed: "Then make the next" is *The Way It Felt*'s y5 4-gram):** *One level spoonful of the Chartreuse, and no more. Then pour one for someone who's only heard you refuse.*
 

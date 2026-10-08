@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-29 (batch caregiver)
 ## Cocktail
 
 - **name:** Fair Measure
-- **tagline:** You were never against the fun. You're why it lasts.
+- **tagline:** You think about tomorrow so everyone can enjoy tonight.
 - **glassware:** tumbler or highball glass (about 300 ml), no ice
 - **contains:** `[]`
 
@@ -150,7 +150,7 @@ Checked against `registry.py`: none of these names or the closing line is taken.
 Wren's title-block notes:
 
 - **name:** Fair Measure (Tomás's pick; I back it)
-- **tagline:** *You were never against the fun. You're why it lasts.*
+- **tagline:** *You think about tomorrow so everyone can enjoy tonight.*
 - **epigraph:** *Most of this glass is plain water. In 1740, that was an order.*
 
 ### Open items

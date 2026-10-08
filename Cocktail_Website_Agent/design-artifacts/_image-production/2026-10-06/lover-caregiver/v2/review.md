@@ -1,0 +1,9 @@
+# Selected original review — Hoping You'd Come v2
+
+Actual1672x941 original inspected at native resolution against six housecontrols; exact sourcecopynot transformed. Built-in initial+soleedit, stopped. Glass360px (improves543px), complete spoon320–461 measured as actual servedobject; one cloudyordinary lump and goldenamber drink with roastedapplepulp/no garnish/head/steam. Soft-looking pieces remain, not unequivocally completelymashed puree; keep appearancewatch. Emptychair recognizable back/connectedarm and olivewarmingthrow meaningful preparation, latter inferrednot historical property. Fullvisible group783px/recognition602px, not389movingphone. Proposed702portrait clips rightouterchair and leftarm; no mobilePASS.
+
+The COMPLETE spoon is required method4 serving evidence, not optional garnish. Its entire visible tip/handle above bowl is separately in bounds and servedSpoon recognition; physical serve union976,320–1147,754 includes it. Full and recognition unions also include the whole served spoon, glass, paper and personal traces. Width remains783/602px because spoon lies laterally inside those unions; its height is not silently omitted.
+
+Smallcreamtag outboard (fullpaper85pxwide) subduedtaupetie ratherthanburgundybelt. Visible exteriorstem arcs→smallknot1059,659→~25pxdown/righttether→realhole1083,677→paperbelow. Actual2–3wrapturns remain, despite request forsinglethinstrand; cord-visibility HOLD. Mainface separated, lowercorner maycontactfoot/timber, exactdepth/contact and rearclosure/friction/load uncertain. Never blanketphysicsPASS. Writableaxis62px measured insidecleanface, no numericinflation/actualnameclaim.
+
+Historicdarkroom/onewarmpractical/quietleft preserved; tabletopstill broad amber gloss/densegrain, glassleftwettexture remainsdense. MaterialHOLD, notapproved. No JPEG/export/browser/runtime/public/sourceeditorial/sharedtracker changes. Selectedonlyasbounded measuredhandoff; bothv1/v2 preserved.

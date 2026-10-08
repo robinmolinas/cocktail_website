@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-25 (dry run; Robin absent)
 ## Cocktail
 
 - **name:** Down the Line
-- **tagline:** The dream is yours. Everyone else is building on it.
+- **tagline:** Your dreams have gravity. People want to be part of making them real.
 - **glassware:** tall glass (a highball or Collins glass), no ice
 - **contains:** `["egg-white", "dairy"]`
 

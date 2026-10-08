@@ -17,6 +17,8 @@ date: '2026-06-17'
 requirementsBasis: 'SPEC (bmad-spec) in lieu of PRD — spec-cocktail-agent-pipeline, locked 2026-06-17'
 ---
 
+> **Superseded pipeline reference — reviewed 8 October 2026.** The active contract is Cocktail_Website_Agent/agent/spec/SPEC.md with ARCHITECTURE-SPINE.md. Preserve this earlier record; its old output shape, missing vetoes and questionnaire assumptions are not build instructions. Current direction: [experience specification](../Cocktail_Website_Agent/design-artifacts/2026-07-08-experience-master-spec.md).
+
 # Architecture Decision Document — Dionysus Cocktail Agent Pipeline
 
 _This document builds collaboratively through step-by-step discovery. Sections are appended as we work through each architectural decision together._

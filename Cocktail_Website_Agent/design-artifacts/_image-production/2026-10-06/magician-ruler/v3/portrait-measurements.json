@@ -1,0 +1,88 @@
+{
+  "pairing": "magician-ruler",
+  "pour": "Built to Hold",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-ruler/v3/portrait-master.png",
+  "generated": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-4a2f0f3f-9c60-451c-b3c5-43b46700eaf7.png",
+  "tag": {
+    "cx": 824,
+    "cy": 909,
+    "w": 80,
+    "angle": 58
+  },
+  "glass": {
+    "x": 672,
+    "y": 807
+  },
+  "bounds": {
+    "glass": {
+      "x0": 479,
+      "y0": 670,
+      "x1": 865,
+      "y1": 932
+    },
+    "paper": {
+      "x0": 768,
+      "y0": 863,
+      "x1": 879,
+      "y1": 958
+    }
+  },
+  "personalityBounds": {
+    "organiser": {
+      "x0": 249,
+      "y0": 622,
+      "x1": 632,
+      "y1": 769
+    },
+    "linens": {
+      "x0": 402,
+      "y0": 487,
+      "x1": 929,
+      "y1": 695
+    }
+  },
+  "kind": "portrait",
+  "masterSha256": "c1bc72b6afc152ffd946d5c2b60917f0f2259da4962b0355c3d7d3757cdde501",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-4a2f0f3f-9c60-451c-b3c5-43b46700eaf7.png",
+  "generatedSha256": "c1bc72b6afc152ffd946d5c2b60917f0f2259da4962b0355c3d7d3757cdde501",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "sourceSha256": "6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6",
+  "specSha256": "1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56",
+  "roomSha256": "35cf395867739ab2d96beeef48217eeb27089adfeaeab4c4e3cb6750fcea23bb",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "review": {
+    "recipe": "One cold handled200ml cup with180ml hazy amber punch, no ice/garnish/steam/foam; tiny bright points cannot all be identified as droplets vs trapped air.",
+    "personality": "Used organiser and two prepared linens give quiet planning/care inferences grounded in WHO; no magic ceiling or historical replica claim.",
+    "world": "Same nearblack readingroom. Smooth directional wood rather than raised alligator varnish; broad warm reflections still prominent.",
+    "issues": [
+      "Portrait full linens/organiser spread exceeds conservative inner phone lane although substantial recognizable parts should remain; browser review needed.",
+      "Cup retains dense stippling in some patches.",
+      "Handle thread has apparent doubled short segments; rear closure/load not certified.",
+      "Loaded-name glyphs, motion and user visual approval remain pending."
+    ]
+  },
+  "measurementMethod": "Conservative manual native-pixel estimates from root original-resolution inspection; not font/glyph or mechanical load tests.",
+  "wideCrop": null,
+  "portraitCrop": [
+    10,
+    13,
+    1064,
+    1425
+  ],
+  "tagPhysics": {
+    "frontEvidence": "Low exterior/body or lower handle attachment, small knot, short continuous-looking punched-hole tether, free paper with timber contact.",
+    "status": "Hidden rear closure/friction/load uncertain; no physics PASS"
+  },
+  "acceptance": {
+    "material": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false
+  },
+  "exported": false
+}

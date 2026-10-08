@@ -1,0 +1,153 @@
+{
+  "pairing": "innocent-creator",
+  "pour": "The Way It Felt",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-creator/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-81d854a8-c022-4776-9b66-3b3a4bd687c9.png",
+  "masterDimensions": [
+    1701,
+    925
+  ],
+  "masterSha256": "15bd7032ba75212caa67b09f69ca145eda93be53377497b4c8fe0c030f9b2905",
+  "sourceSha256": "5bda13c71998d5c20539560bfc73235a0dcfa377e7fee916b932df372a8e8db7",
+  "specSha256": "de86d0e08f80fbf0f1b9c226200980bbca020ebf99e3b4cb20009c87b1b9ad24",
+  "roomSha256": "f8cb393e26c07fa706448b1a92a4859e39216870ec6eca5bfc3c6721e4fb6b78",
+  "wideCrop": [
+    28,
+    0,
+    1644,
+    924
+  ],
+  "portraitCrop": [
+    850,
+    0,
+    690,
+    924
+  ],
+  "tag": {
+    "cx": 1165,
+    "cy": 782,
+    "w": 127,
+    "angle": 64
+  },
+  "glass": {
+    "x": 950,
+    "y": 449
+  },
+  "bounds": {
+    "glass": {
+      "x0": 773,
+      "y0": 113,
+      "x1": 1131,
+      "y1": 795
+    },
+    "paper": {
+      "x0": 1078,
+      "y0": 692,
+      "x1": 1253,
+      "y1": 843
+    },
+    "cake": {
+      "x0": 1110,
+      "y0": 320,
+      "x1": 1380,
+      "y1": 513
+    },
+    "plate": {
+      "x0": 1108,
+      "y0": 438,
+      "x1": 1439,
+      "y1": 557
+    },
+    "card": {
+      "x0": 1298,
+      "y0": 207,
+      "x1": 1667,
+      "y1": 546
+    },
+    "ice": {
+      "x0": 795,
+      "y0": 188,
+      "x1": 1110,
+      "y1": 697
+    }
+  },
+  "physicalGarnishBounds": null,
+  "iceBounds": {
+    "x0": 795,
+    "y0": 188,
+    "x1": 1110,
+    "y1": 697
+  },
+  "hiddenExtents": {
+    "ice": null,
+    "cake": null,
+    "plate": null,
+    "card": null
+  },
+  "recognitionRegions": {
+    "cake": {
+      "bounds": {
+        "x0": 1131,
+        "y0": 337,
+        "x1": 1375,
+        "y1": 507
+      },
+      "reason": "Iced top and crumb cross section recognizable real cake piece."
+    },
+    "card": {
+      "bounds": {
+        "x0": 1378,
+        "y0": 242,
+        "x1": 1627,
+        "y1": 543
+      },
+      "reason": "Folded card silhouette and blank reverse panel recognizable; drawn face hidden/unverified."
+    }
+  },
+  "essentialObjectUnion": {
+    "x0": 773,
+    "y0": 113,
+    "x1": 1667,
+    "y1": 843
+  },
+  "supportingObjectUnion": {
+    "x0": 773,
+    "y0": 113,
+    "x1": 1667,
+    "y1": 843
+  },
+  "objectVisibility": {
+    "ice": "Opaque burgundy softened cube faces visible, rear/underwater cubes and total count unknown.",
+    "cake": "Piece recognizable, left edge partly hidden by glass.",
+    "plate": "Partly overlapped by glass/cake; hidden extent unknown.",
+    "card": "Folded blank reverse, handdrawn face unseen. Full visible silhouette measured."
+  },
+  "tagPhysics": {
+    "mechanism": "Thin subdued taupe/brown low clear-foot exterior loop; curved front line follows body and disappears at sides.",
+    "knot": "Near-right tiny loaded connection visible; knot crossings indistinct.",
+    "tetherAndHole": "Very short downward cord continues into punched hole; exact tiny junction uncertain.",
+    "gravity": "Small outboard paper drops diagonally to wood.",
+    "paperSeparationOrContact": "Paper separate from glass, lower edge resting on timber with contact shadow.",
+    "uncertainties": [
+      "Back-side loop/load/friction not visible.",
+      "Tiny knot topology and cord crossing uncertain.",
+      "Actual card drawn face hidden.",
+      "Long-name writable test not done."
+    ],
+    "status": "Plausible visible support, independent physics review held; not PASS."
+  },
+  "review": {
+    "recipe": "One400ml tall Kalimotxo,100youngredwine100freshcola over about8 soft opaque burgundy cubes of same equalparts mix. Source approximate count, hidden rear cubes uncountable. Thin tanpink fizz/no thick foam, no garnish/citrus/plain waterice.",
+    "personality": "WHO explicitly cake iced day's colour and homemade drawn card; piece yellow-iced cake and blankreverse folded card represent used gift traces, card artwork hidden and unverified. Not generic ingredient array.",
+    "world": "Old timber room/leftdarkthird; nearneutral shadows, table warmer/glossier and granular glass/cube detail than requested.",
+    "issues": [
+      "Glass larger than300–360px target.",
+      "Full group exceeds389px movingphone; full portrait not phone acceptance.",
+      "Dense glass/cube surface detail held.",
+      "Warm glossy wood retained.",
+      "Card drawn face intentionally not shown, no pseudowriting.",
+      "Small blank label real-name test pending.",
+      "No physics/material/personality/browser/export/final acceptance."
+    ]
+  }
+}

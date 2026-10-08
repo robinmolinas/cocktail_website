@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 ## Cocktail
 
 - **name:** Fine by Me
-- **tagline:** Most people hear "only if" as a no. You hear a way in.
+- **tagline:** You hear “only if” as a yes with instructions.
 - **glassware:** a tall highball glass, packed with ice
 - **contains:** `["spice"]`
 

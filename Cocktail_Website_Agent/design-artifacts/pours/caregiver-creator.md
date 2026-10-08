@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-27 (batch caregiver)
 ## Cocktail
 
 - **name:** Not Only the Way
-- **tagline:** You'd never call it pride. You'd call it doing it properly.
+- **tagline:** Doing it properly is how you show you care.
 - **glassware:** a coupe (a stemmed glass with a rounded bowl), chilled
 - **contains:** `[]`
 

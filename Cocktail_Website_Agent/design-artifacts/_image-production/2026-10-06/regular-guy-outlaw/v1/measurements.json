@@ -1,0 +1,167 @@
+{
+  "pairing": "regular-guy-outlaw",
+  "pour": "Just This Once",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-outlaw/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-8ff933b0-d70a-4dcd-b489-f468ee031d56.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "c86445e3cb7c06e40f4647819cc648743278b466bfdf6697ade25064c16c976b",
+  "sourceSha256": "19609563bfc42c6987ede3ba8d167c619a42e39cbdc3202cdd6be175c7198ee3",
+  "specSha256": "5569691b6eab1334f370265ae48f653e88ca08024573a9a0b41a925cbd326ac7",
+  "roomSha256": "14876eeec5d95e02b5a664382d975272918eb712b18a3b4be3da78b2ecd5683a",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    665,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1209,
+    "cy": 693,
+    "w": 100,
+    "angle": 73
+  },
+  "glass": {
+    "x": 1148,
+    "y": 339
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1006,
+      "y0": 126,
+      "x1": 1284,
+      "y1": 803
+    },
+    "paper": {
+      "x0": 1162,
+      "y0": 608,
+      "x1": 1259,
+      "y1": 760
+    }
+  },
+  "personalityBounds": {
+    "chipsParcel": {
+      "x0": 674,
+      "y0": 380,
+      "x1": 1360,
+      "y1": 709
+    },
+    "sharingWoodForks": {
+      "x0": 710,
+      "y0": 359,
+      "x1": 946,
+      "y1": 563
+    },
+    "visibleChips": {
+      "x0": 822,
+      "y0": 478,
+      "x1": 1164,
+      "y1": 581
+    }
+  },
+  "recognitionRegions": {
+    "chipsParcel": {
+      "x0": 674,
+      "y0": 380,
+      "x1": 1360,
+      "y1": 709
+    },
+    "sharingWoodForks": {
+      "x0": 710,
+      "y0": 359,
+      "x1": 946,
+      "y1": 563
+    }
+  },
+  "supportingBounds": {
+    "lemonPeel": {
+      "x0": 1091,
+      "y0": 177,
+      "x1": 1243,
+      "y1": 443
+    },
+    "servingIce": {
+      "x0": 1026,
+      "y0": 126,
+      "x1": 1269,
+      "y1": 434
+    },
+    "stemAttachment": {
+      "x0": 1127,
+      "y0": 549,
+      "x1": 1195,
+      "y1": 636
+    },
+    "paperBand": {
+      "x0": 770,
+      "y0": 432,
+      "x1": 866,
+      "y1": 505
+    }
+  },
+  "physicalRecognitionRegions": {
+    "lemonPeel": {"x0":1091,"y0":177,"x1":1243,"y1":443},
+    "servingIce": {"x0":1026,"y0":126,"x1":1269,"y1":434}
+  },
+  "garnishBounds": {
+    "lemonPeel": {"x0":1091,"y0":177,"x1":1243,"y1":443}
+  },
+  "visibility": {
+    "chipsParcel": {
+      "masterClipped": false,
+      "unseenExtent": "Unknown contents behind vessel and paper folds."
+    },
+    "sharingWoodForks": {
+      "masterClipped": false,
+      "unseenExtent": "Individual stacked fork extents hidden; exact six count unverified."
+    },
+    "lemonPeel": {
+      "masterClipped": false,
+      "unseenExtent": "Small portions behind ice unknown; full visible yellow strip enclosed."
+    }
+  },
+  "tagPhysics": {
+    "anchor": "Visible wrap around narrow stem below bowl, not rim.",
+    "knot": "Front knot/crossing near1138,570 visible; rear load-bearing loop unknown.",
+    "knotPoint": {
+      "x": 1138,
+      "y": 570
+    },
+    "holePoint": {
+      "x": 1191,
+      "y": 631
+    },
+    "tether": "Continuous-looking diagonal downward strand from knot to punched hole.",
+    "gravity": "Paper face hangs below anchor, small proportional label.",
+    "airGap": "Broad face beside stem; no pasted bowl contact.",
+    "contact": "Lower tag near glass foot; one edge may contact foot, exact depth unknown.",
+    "occlusion": "Stem hides rear twine return and knot topology.",
+    "uncertainties": [
+      "Rear loop and knot load hidden.",
+      "Foot contact versus perspective overlap unknown."
+    ],
+    "status": "front chain plausible; uncertain, no physics PASS"
+  },
+  "review": {
+    "recipe": "Ice-filled large stemmed wine glass, pale straw slightly hazy liquid/fine bubbles and yellow long peel dropped inside align. Dense spotted glass/ice surface creates overprocessed sparkle watch.",
+    "personality": "Chips parcel recognizably grounds literal late-kitchen chips-for-six whoYouAre. Wood forks inferred sharing evidence, exact count unverified. Both traces same habit, not independent biographies.",
+    "world": "Historic reading room recognizable; walnut rough glossy and warm wash too strong; not accepted house material.",
+    "issues": [
+      "Close-up glass677px tall including projecting ice, exceeds300–360target.",
+      "Full chips parcel686px wide; target389moving-phone cannot be claimed.",
+      "Fork bundle spreads left instead of depth grouping.",
+      "Dense glass/ice speckles and glossy repetitive walnut held.",
+      "Small tag plausible front chain only; support/contact uncertainty.",
+      "Exact six forks not independently verified."
+    ]
+  },
+  "status": "held initial measured candidate; sole framing correction pending; no export/browser/acceptance"
+}

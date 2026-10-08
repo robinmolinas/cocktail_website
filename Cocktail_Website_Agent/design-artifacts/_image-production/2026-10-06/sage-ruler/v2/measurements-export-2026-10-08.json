@@ -1,0 +1,138 @@
+{
+  "pairing": "sage-ruler",
+  "pour": "Note to Self",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-ruler/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-0f13ffb9-799d-4baf-a89c-9ae6ff183d40.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "4784f5734b34d35f52c667afbb6decd203ee83223f26e42b8aa054073a91075b",
+  "sourceSha256": "16f942c45c64cbc97d55ff80a49418e7eb50a24f4b6b4c40b4e8e9f902e3d1be",
+  "specSha256": "2c17af5470359b01840ad84d607108b68ad68d2212cc41eeb73d4ea31b28a5ca",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    771,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1285,
+    "cy": 689,
+    "w": 93,
+    "angle": 8
+  },
+  "glass": {
+    "x": 1108,
+    "y": 527
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1022,
+      "y0": 350,
+      "x1": 1195,
+      "y1": 709
+    },
+    "paper": {
+      "x0": 1207,
+      "y0": 643,
+      "x1": 1347,
+      "y1": 725
+    },
+    "ice": {
+      "x0": 1030,
+      "y0": 383,
+      "x1": 1186,
+      "y1": 590
+    },
+    "notebook": {
+      "x0": 744,
+      "y0": 520,
+      "x1": 1031,
+      "y1": 650
+    },
+    "pencil": {
+      "x0": 864,
+      "y0": 541,
+      "x1": 1030,
+      "y1": 605
+    },
+    "bread": {
+      "x0": 1219,
+      "y0": 511,
+      "x1": 1432,
+      "y1": 622
+    },
+    "linen": {
+      "x0": 1194,
+      "y0": 555,
+      "x1": 1532,
+      "y1": 664
+    }
+  },
+  "recognitionRegions": {
+    "notebook": {
+      "bounds": {
+        "x0": 746,
+        "y0": 535,
+        "x1": 1019,
+        "y1": 648
+      },
+      "reason": "Actual visible recognizable trace, not hidden-extent claim."
+    },
+    "bread": {
+      "bounds": {
+        "x0": 1220,
+        "y0": 512,
+        "x1": 1430,
+        "y1": 622
+      },
+      "reason": "Actual visible recognizable trace, not hidden-extent claim."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Snug low EXTERIOR bodyloop, frontarc/sideocclusion and visible rightknot.",
+    "loopBounds": {
+      "x0": 1030,
+      "y0": 634,
+      "x1": 1193,
+      "y1": 665
+    },
+    "knot": {
+      "x": 1185,
+      "y": 645
+    },
+    "paperHole": {
+      "x": 1229,
+      "y": 672
+    },
+    "gravity": "Down-right short tether through punchedhole; small outboardpaper bottom rests timber belowknot.",
+    "paperSeparationOrContact": "Broad face separatedfromglass; wood-supported loweredge.",
+    "uncertainty": "Rearclosure/friction/knotload/corddepth/contact untested; no mechanical PASS."
+  },
+  "review": {
+    "issues": [
+      "Pulledback359pxglass/140pxpaper improve proportions. Full788px/recognition684px spread still held; proposed702portrait clips notebook/linen, recognition exceeds389px movingphone. Glossyamber/cracklewood, dense sparkly ice/glass, secondfireplusrightlamp held. Chosenpalestraw readsamber, fourcubes depth/countuncertain. Notebookandbread ordinary habits\u2014not personality approval. Outboard paperface separate/woodrest; lowarc/knot/downrighttether/hole visible, rear/friction/load/doubledcorddepth uncertain."
+    ],
+    "scope": "Original-size nativePNG manual measurements only; no JPEG/browser/name/phone/material/personality acceptance.",
+    "recipe": "Current candidate root original review preserved in version folder; recipe gate remains HELD. This field records review provenance, not acceptance.",
+    "personality": "Current candidate root original review preserved in version folder; personality gate remains HELD. This field records review provenance, not acceptance.",
+    "world": "Current candidate root original review preserved in version folder; world gate remains HELD. This field records review provenance, not acceptance.",
+    "correctionScope": "Read correctionReview and current version root review; inherited background review never clears current corrections/holds."
+  },
+  "exported": false,
+  "accepted": false,
+  "integrated": false,
+  "correctionReview": {
+    "issues": [
+      "Pulledback359pxglass/140pxpaper improve proportions. Full788px/recognition684px spread still held; proposed702portrait clips notebook/linen, recognition exceeds389px movingphone. Glossyamber/cracklewood, dense sparkly ice/glass, secondfireplusrightlamp held. Chosenpalestraw readsamber, fourcubes depth/countuncertain. Notebookandbread ordinary habits\u2014not personality approval. Outboard paperface separate/woodrest; lowarc/knot/downrighttether/hole visible, rear/friction/load/doubledcorddepth uncertain."
+    ],
+    "scope": "Original-size nativePNG manual measurements only; no JPEG/browser/name/phone/material/personality acceptance."
+  }
+}

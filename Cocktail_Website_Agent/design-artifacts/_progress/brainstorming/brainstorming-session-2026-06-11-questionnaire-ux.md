@@ -13,6 +13,8 @@ ideas_generated: ['QX #1 — Six Descents structure', 'QX #2 — Stir-to-Answer 
 context_file: ''
 ---
 
+> **Historical exploration — reviewed 8 October 2026.** The footage rationale and earlier iterations are preserved. Current intake is the live journey/v3 contract; retired quiz fields, mocktail promises and image tinting are not current requirements. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # Brainstorming Session Results — Questionnaire UX/UI
 
 **Facilitator:** Claude (Brainstorming session with Robin)

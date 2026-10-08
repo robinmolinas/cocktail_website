@@ -1,0 +1,182 @@
+{
+  "pairing": "magician-jester",
+  "pour": "Even When You Know",
+  "version": "v4",
+  "orientation": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v4/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-179bf669-3b0c-4f9a-8f7e-0d65dbc39551.png",
+  "masterSha256": "31993f5e9415b08ec03b7f9fdd993f913501309d0fd442915d987a70a1b1c8ed",
+  "sourceSha256": "dc37057b6d89ca83690b851547b45847772b55a496790b10de7836d52b7458c6",
+  "specSha256": "aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32",
+  "roomSha256": "8b1deeee8dfaca1a4bb0fe175139c02952f33b49e52034a7e8132f3172c06e1f",
+  "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "wideCrop": [
+    0,
+    430,
+    1084,
+    610
+  ],
+  "portraitCrop": [
+    0,
+    0,
+    1084,
+    1451
+  ],
+  "crossOrientationCropIntended": false,
+  "tag": {
+    "cx": 579,
+    "cy": 884,
+    "w": 84,
+    "angle": 77
+  },
+  "glass": {
+    "x": 526,
+    "y": 755
+  },
+  "bounds": {
+    "glass": {
+      "x0": 424,
+      "y0": 489,
+      "x1": 632,
+      "y1": 1022
+    },
+    "paper": {
+      "x0": 535,
+      "y0": 812,
+      "x1": 619,
+      "y1": 943
+    },
+    "clearBottomLayer": {
+      "x0": 464,
+      "y0": 690,
+      "x1": 590,
+      "y1": 765
+    },
+    "tawnyMiddleLayer": {
+      "x0": 456,
+      "y0": 628,
+      "x1": 597,
+      "y1": 698
+    },
+    "darkBeetRedTopLayer": {
+      "x0": 440,
+      "y0": 532,
+      "x1": 615,
+      "y1": 635
+    }
+  },
+  "personBounds": {
+    "magnifierAndFoldedFabric": {
+      "x0": 112,
+      "y0": 720,
+      "x1": 899,
+      "y1": 924
+    },
+    "foldedSpectacles": {
+      "x0": 541,
+      "y0": 734,
+      "x1": 853,
+      "y1": 861
+    }
+  },
+  "recognitionRegions": {
+    "wholeMagnifierIncludingHandle": {
+      "x0": 123,
+      "y0": 720,
+      "x1": 523,
+      "y1": 882
+    },
+    "foldedSpectacles": {
+      "x0": 541,
+      "y0": 734,
+      "x1": 853,
+      "y1": 861
+    },
+    "lensVisibleFabricWeave": {
+      "x0": 334,
+      "y0": 748,
+      "x1": 489,
+      "y1": 837
+    }
+  },
+  "unknownExtents": {
+    "fabricHiddenByGlass": null,
+    "lensActualMagnificationFactor": null,
+    "behindStemCordLoad": null
+  },
+  "group": {
+    "fullBounds": {
+      "x0": 112,
+      "y0": 489,
+      "x1": 899,
+      "y1": 1022
+    },
+    "recognitionBounds": {
+      "x0": 123,
+      "y0": 489,
+      "x1": 853,
+      "y1": 1022
+    },
+    "fullWidth": 787,
+    "recognitionWidth": 730,
+    "physicalServeBoundsIncludingAllPhysicalObjects": {
+      "x0": 424,
+      "y0": 489,
+      "x1": 632,
+      "y1": 1022
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Fine tan wrap still upper narrow stem about786\u2013802 just under bowl, appears paired/multiple turns, not requested single low foot stem loop.",
+    "knot": "Small knot around548,802.",
+    "tether": "Downward right continuous cord to punched hole around561,834, about34px.",
+    "hole": "Punched dark hole561,834 visible.",
+    "gravity": "Paper almost vertical/slight down-right free bottom.",
+    "airgap": "Left paper edge separated from lower stem, plausible outboard gap.",
+    "contact": "No tabletop contact, hanging paper ends943 above glass/table foot1022.",
+    "uncertainty": [
+      "Repeated turns rather than one strand",
+      "Rear loop/load unobservable",
+      "Low stem placement missed"
+    ],
+    "assessment": "Continuous tether/hole/outboard gravity visible, strict single low-loop and low-visibility request held."
+  },
+  "review": {
+    "recipe": "One narrow flared stem cordial, correct clear bottom/tawny middle/dark beet-red top, no ice/foam/garnish. Actual45ml/75ml capacity and bottle density test cannot be proven by photo.",
+    "personality": "Whole lens handle and folded spectacles moved behind glass and all inside raster; fabric now complete visible within frame. They still spread787px, not inner40% target. Lens weave visible but actual magnification/specific shared demonstration unproved; source-derived inference retained.",
+    "world": "Same dark timber room and restrained warm lamp; nearblack background but strong broad amber tabletop sheen and patterned surface remain. Plain glass broad clear areas improved relative to dense wet scenes.",
+    "issues": [
+      "Glass533px tall unchanged, much larger than pulled-back target",
+      "Full787/recognition730px exceeds central40%434px and no moving-phone claim",
+      "Stem remains upper and repeated wrap, not single low strand",
+      "Specific shared demonstration recognition null",
+      "Name fit and density/capacity/physics/browser untested",
+      "Amber timber gloss/contact texture remains",
+      "Paper shows embossed-looking ornamental loops; plain material requirement held",
+      "Traces moved to both sides of glass rather than compact inner-depth lane"
+    ]
+  },
+  "measurementMethod": "Conservative visual estimates on original native1084\u00d71451; full object extents retained. Proposed crops not phone/name/motion/type acceptance.",
+  "exportProvenance": {
+    "batch": 14,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v4/measurements-portrait.json",
+    "originalMeasurementSha256": "4bc98f1e4b48749ecaa611f349c28e0fbcda4a04230996b27b6d8823ce58c7fc",
+    "previousSourceSha256": "c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3",
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {},
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

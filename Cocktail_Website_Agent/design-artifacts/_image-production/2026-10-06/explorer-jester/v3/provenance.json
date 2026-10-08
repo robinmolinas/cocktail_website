@@ -1,0 +1,38 @@
+{
+  "pairing": "explorer-jester",
+  "pour": "Why Not?",
+  "version": "v3",
+  "workflow": "fresh wide plus dedicated portrait",
+  "tool": "built-in image_gen",
+  "calls": 2,
+  "assets": {
+    "wide": {
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/wide-master.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a8ac915f30d159f3030f6fa10377aa7c93454d8bff8008d1da6b7362fc2e2623",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/wide-prompt.txt",
+      "promptSha256": "4e4a8da787a68b961bdcd4065da4a1e1b5e63cccb499268944a6633c41eb4dc7",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-6d4fa5db-79d9-466f-a5c5-69bf544d2a43.png",
+      "generatedOriginalSha256": "a8ac915f30d159f3030f6fa10377aa7c93454d8bff8008d1da6b7362fc2e2623",
+      "referencedImagePaths": []
+    },
+    "portrait": {
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/portrait-master.png",
+      "width": 1084,
+      "height": 1451,
+      "sha256": "896ef7b6898238e1fd7485483b7e40e2d87c7b6b7175461b332e1f637354d8b2",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/portrait-prompt.txt",
+      "promptSha256": "c354f3477f5aae6ba99fff365fd7297c34a6d0b18a15caa72162307ce678f4c3",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-5430c5b9-4c86-49b7-8074-dde03c8b822d.png",
+      "generatedOriginalSha256": "896ef7b6898238e1fd7485483b7e40e2d87c7b6b7175461b332e1f637354d8b2",
+      "referencedImagePaths": [
+        "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v3/wide-master.png"
+      ]
+    }
+  },
+  "preserve": "cp -n exact native PNG copies; originals retained",
+  "status": "candidate held; no export/integration/acceptance",
+  "sourceFingerprints": "See readiness and separate per-master measurements",
+  "owner": "stirred_serves"
+}

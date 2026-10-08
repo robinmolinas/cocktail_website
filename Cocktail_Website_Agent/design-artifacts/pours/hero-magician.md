@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 ## Cocktail
 
 - **name:** Day Job
-- **tagline:** You could make the whole room feel slow. You never have.
+- **tagline:** You make difficult things look possible, and leave people feeling capable.
 - **glassware:** nick-and-nora glass (about 150 ml), chilled
 - **contains:** `[]`
 

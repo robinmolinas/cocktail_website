@@ -1,0 +1,128 @@
+{
+  "pairing": "explorer-lover",
+  "pour": "Straight Back",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-lover/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-d59ed018-ffe4-45ac-ac31-0a85477ca3b1.png",
+  "sourceSha256": "35d55c0c62c6307817fb7bc709a3e3ae453dfdb3c8900d247128ab8f4a5d7cf9",
+  "specSha256": "d2d66edd3392c5953f23ef43e42d39a0942bfb9b3adeb70fdbb0a5cd5261eb40",
+  "roomSha256": "60b9f7bdf5966dff5d70c57e76346a540b482ee5ed3c679cecac8d9280f02a28",
+  "masterSha256": "307422eef14c0325d8b5cad1e167381b5b04a95571383c0cbc56a5405dc8a132",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    804,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1172,
+    "cy": 705,
+    "w": 77,
+    "angle": 65
+  },
+  "glass": {
+    "x": 997,
+    "y": 565
+  },
+  "bounds": {
+    "glass": {
+      "x0": 835,
+      "y0": 371,
+      "x1": 1156,
+      "y1": 755
+    },
+    "paper": {
+      "x0": 1125,
+      "y0": 642,
+      "x1": 1217,
+      "y1": 760
+    },
+    "blackberry": {
+      "x0": 990,
+      "y0": 308,
+      "x1": 1076,
+      "y1": 393
+    },
+    "lemonWedge": {
+      "x0": 1067,
+      "y0": 289,
+      "x1": 1187,
+      "y1": 450
+    },
+    "crushedIceMound": {
+      "x0": 875,
+      "y0": 332,
+      "x1": 1117,
+      "y1": 414
+    }
+  },
+  "personBounds": {
+    "breadAndSideplate": {
+      "x0": 1138,
+      "y0": 453,
+      "x1": 1449,
+      "y1": 650
+    },
+    "leafAndLinen": {
+      "x0": 1363,
+      "y0": 519,
+      "x1": 1672,
+      "y1": 691
+    }
+  },
+  "recognitionRegions": {
+    "breadAndSideplate": {
+      "x0": 1144,
+      "y0": 454,
+      "x1": 1438,
+      "y1": 644
+    },
+    "leafAndLinen": {
+      "x0": 1380,
+      "y0": 531,
+      "x1": 1585,
+      "y1": 655
+    }
+  },
+  "traceExtentNotes": {
+    "breadAndSideplate": "Whole visible torn loafend/sideplate; back-left portions occluded by glass; bread source-explicit sensorysharing habit, plate ordinary inferred format.",
+    "leafAndLinen": "Whole visible leaf recognition core, folded linen clipped at right master edge so off-frame extent unknown. Bruised-green leaf, species/linen inferred not garnish; distant side-by-side not compact."
+  },
+  "group": {
+    "fullWidth": 837,
+    "recognitionWidth": 750
+  },
+  "tagPhysics": {
+    "supportLoop": "Exterior cotton lower-body loop ~y639–679; curved front arc, rear honestly hidden, no rim anchor.",
+    "knot": "Right knot/tie near1142,646 visibly overlaps support side; load path partly hidden by glass edge.",
+    "tether": "Short cord descends to punched hole near1152,667.",
+    "hole": "Visible dark punched hole at1152,667; paper remains blank.",
+    "gravity": "Label falls down-right, not horizontal postcard.",
+    "airgap": "Outside glass right edge with visible separation except cord/topcorner proximity.",
+    "contact": "Bottom paper near760 meets table with small contactshadow; do not call fully suspended.",
+    "uncertainty": "Rearloop/supportfriction and knot junction partially occluded; exact load path cannot be certified from single view.",
+    "assessment": "Discreet actual exterior attachment/downward label/contact plausible, not blanketphysicsPASS."
+  },
+  "review": {
+    "recipe": "Cloudy pale lemon-straw Bramble, physical red-purple threads/darklowpool, one blackberry top/one lemon wedge rim, wetcrushed mound/no foam/herbs in drink. Some ice facets coarse and decorative; plain base improved overv1.",
+    "personality": "Torn breadend sharing and bruisedleaf scent habit source-grounded; plate/linen inferred formats, recognisable but still spread to right rather than depthoverlap.",
+    "world": "Dark historic library/quietleftthird, but orange glossy dense-grain table persists and many wetdetails too regular; not materialapproval.",
+    "issues": [
+      "Glass384px high exceeds300–360; glass+allgarnish vertical289–760.",
+      "Fullvisiblegroup837px/recognition750px, not389movingphone-safe.",
+      "Proposed702portrait includesglass/tag/bread but clips leaf recognition and linen; portrait not acceptance.",
+      "Glossyambergrain/scratch sheen persists, dense droplets/coarseice details.",
+      "Supportknot/rearloop friction uncertain; bottomlabel contactswood.",
+      "Native rightlinen cropped; unseenextentunknown."
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "generate",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-382a6f95-53b3-4413-83cb-ed69aaf106c8.png",
+  "originalSha256": "b4c2f255c51bb95e8392d5ddf6bce71f21b0a29e1ef49ee006218f9dcd9d0203",
+  "masterSha256": "b4c2f255c51bb95e8392d5ddf6bce71f21b0a29e1ef49ee006218f9dcd9d0203",
+  "stagedMaster": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-explorer/v1/master.png",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourcePath": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/lover-explorer.md",
+  "sourceSha256": "6c9bd693c3204f1588414105093934900f54595a8bf54e534992bfd561dffbe2",
+  "specPath": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-explorer.json",
+  "specSha256": "e971874c31120c807496b534c5016a5376cb208d2c38f6f05160821e6e8bf846",
+  "roomPath": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-explorer.md",
+  "roomSha256": "5f02bb4bfce0dfbe5b10232ff821d3834ee82c69071b586777e1dd7ea7142237",
+  "prompt": "prompt-batch09.txt",
+  "readiness": "readiness-batch09.md",
+  "targetedCorrectionCount": 0,
+  "editTarget": null,
+  "reviewStatus": "measured-master candidate, held, not accepted, browser deferred"
+}
+

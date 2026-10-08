@@ -1,0 +1,36 @@
+{
+  "pairing": "ruler-jester",
+  "pour": "Who's In?",
+  "version": "v1",
+  "batch": 12,
+  "mode": "generate",
+  "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v1/actual-prompt-batch12.txt",
+  "readiness": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v1/readiness-batch12.md",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-04a97e84-8b9c-4ccd-b8a7-e8c69d46df76.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v1/master.png",
+  "originalSha256": "488ae23736281eeb36287066bd2a56d83fd74ebf746c57bb1cb45028695d106d",
+  "masterSha256": "488ae23736281eeb36287066bd2a56d83fd74ebf746c57bb1cb45028695d106d",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "source": {
+    "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/ruler-jester.md",
+    "sha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8"
+  },
+  "spec": {
+    "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-jester.json",
+    "sha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683"
+  },
+  "room": {
+    "path": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-jester.md",
+    "sha256": "c82c3ded462b4bef619578db493c7edefc8c7ff89cdceffe3f555f26d072ce11"
+  },
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "editTarget": null,
+  "builtInCallsForPair": 2,
+  "builtInCallsForBatch": 4,
+  "selected": false,
+  "status": "Held measured candidate; no exports/integration/browser acceptance."
+}
+

@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 ## Cocktail
 
 - **name:** Before It Had a Name
-- **tagline:** Everyone sees the rebel. Nobody sees the plan.
+- **tagline:** Your rebellions have a plan, and a future people can join.
 - **glassware:** a well-chilled coupe
 - **contains:** `["nuts"]`
 

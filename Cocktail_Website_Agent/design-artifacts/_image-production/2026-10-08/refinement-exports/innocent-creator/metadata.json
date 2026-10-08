@@ -1,0 +1,725 @@
+{
+  "pairing": "innocent-creator",
+  "pour": "The Way It Felt",
+  "status": "private-review-export; all-acceptance-gates-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "6232710bafafe43f3266e23cdb3a5842af3c82f6a27c021a279610f4bd7266ad",
+  "review": {
+    "recipe": "Dark red-brown wine-cola with opaque burgundy cubes and thin fizz, no added garnish. Cube count/ratio not measurable from view. Cubes have broad faces but dense sparkle/wet dots remain.",
+    "personality": "Recognizable hand-spread icing/cake crumb and modest folded card with two hand-colour crayon patches; explicit source gestures. No discernible words; not claiming exact card drawing.",
+    "world": "Private dark historic walnut room; directional grain rather than crackled ornament, but prominent wet/gloss detail remains appearance watch.",
+    "issues": [
+      "Vessel oversized relative to brief.",
+      "Two traces still laterally spread, portrait lane request missed.",
+      "Dense wet sparkling surface detail.",
+      "Real-name/phone/browser/material/support acceptance pending."
+    ]
+  },
+  "measurements": {
+    "pairing": "innocent-creator",
+    "pour": "The Way It Felt",
+    "sourceSha256": "6232710bafafe43f3266e23cdb3a5842af3c82f6a27c021a279610f4bd7266ad",
+    "specSha256": "de86d0e08f80fbf0f1b9c226200980bbca020ebf99e3b4cb20009c87b1b9ad24",
+    "roomSha256": "f8cb393e26c07fa706448b1a92a4859e39216870ec6eca5bfc3c6721e4fb6b78",
+    "houseRuleSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "physicalGarnishBounds": null,
+    "hiddenExtents": {
+      "cakeBehindGlass": null,
+      "cardBack": null
+    },
+    "tagPhysics": {
+      "mechanism": "Fine brown/taupe exterior wrap near clear lower foot; front arc follows vessel contour and side turns disappear behind glass.",
+      "knot": "Small join at right foot, partly overlaid by edge reflection; mechanical detail uncertain.",
+      "tetherAndHole": "Short continuous-looking tether into dark visible punched paper hole.",
+      "gravity": "Paper outboard down from support, most lower edge rests timber with contact shadow.",
+      "separation": "Paper appears separate from glass rather than pasted; hole close to foot.",
+      "uncertainties": [
+        "Exact knot/rear load and glass friction not provable.",
+        "Cord overlaps bright clear-foot reflection; continuity at knot remains held."
+      ],
+      "status": "plausible visual chain, not physics PASS"
+    },
+    "review": {
+      "recipe": "Dark red-brown wine-cola with opaque burgundy cubes and thin fizz, no added garnish. Cube count/ratio not measurable from view. Cubes have broad faces but dense sparkle/wet dots remain.",
+      "personality": "Recognizable hand-spread icing/cake crumb and modest folded card with two hand-colour crayon patches; explicit source gestures. No discernible words; not claiming exact card drawing.",
+      "world": "Private dark historic walnut room; directional grain rather than crackled ornament, but prominent wet/gloss detail remains appearance watch.",
+      "issues": [
+        "Vessel oversized relative to brief.",
+        "Two traces still laterally spread, portrait lane request missed.",
+        "Dense wet sparkling surface detail.",
+        "Real-name/phone/browser/material/support acceptance pending."
+      ]
+    },
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-creator/v3/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-dc8cc68f-a83f-4cdb-afef-3467acb3626d.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "masterSha256": "15511d7d5c871bf2ac4cdcedcbc10266e3887a3205ea3178a077bc6c8265ba96",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      825,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1177,
+      "cy": 746,
+      "w": 138,
+      "angle": 12
+    },
+    "glass": {
+      "x": 964,
+      "y": 504
+    },
+    "bounds": {
+      "glass": {
+        "x0": 834,
+        "y0": 247,
+        "x1": 1093,
+        "y1": 755
+      },
+      "paper": {
+        "x0": 1077,
+        "y0": 688,
+        "x1": 1250,
+        "y1": 788
+      },
+      "cake": {
+        "x0": 1072,
+        "y0": 421,
+        "x1": 1308,
+        "y1": 605
+      },
+      "plate": {
+        "x0": 1073,
+        "y0": 527,
+        "x1": 1369,
+        "y1": 639
+      },
+      "card": {
+        "x0": 1350,
+        "y0": 339,
+        "x1": 1631,
+        "y1": 637
+      },
+      "frozenCubes": {
+        "x0": 851,
+        "y0": 281,
+        "x1": 1082,
+        "y1": 651
+      }
+    },
+    "recognitionRegions": {
+      "cake": {
+        "x0": 1090,
+        "y0": 425,
+        "x1": 1301,
+        "y1": 602
+      },
+      "card": {
+        "x0": 1351,
+        "y0": 339,
+        "x1": 1629,
+        "y1": 635
+      }
+    },
+    "allSupportingObjectUnion": {
+      "x0": 834,
+      "y0": 247,
+      "x1": 1631,
+      "y1": 788
+    },
+    "phoneAssessment": "797px full support union. Proposed702portrait crops handmade card. Separate dedicated portrait not proof of same-master cover.",
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-creator/v3/measurements.json",
+      "originalMeasurementSha256": "b7d89119594e1901034e2f363ff63e8a1ad1a4bbde0426c8a47279ac5828133d",
+      "previousSourceSha256": "5bda13c71998d5c20539560bfc73235a0dcfa377e7fee916b932df372a8e8db7",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "portraitMeasurementFile": "portrait-measurements.json"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1351.578947368421,
+        "cy": 857.1063829787233,
+        "w": 158.4688995215311,
+        "angle": 12.006197807739904
+      },
+      "glass": {
+        "x": 1106.9856459330142,
+        "y": 579.063829787234
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 597.3333333333333,
+        "cy": 878.4530386740331,
+        "w": 82.50460405156538,
+        "angle": 11.047901526284168
+      },
+      "glass": {
+        "x": 453.7753222836096,
+        "y": 692.817679558011
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/innocent-creator/portrait.jpg",
+    "wide": "/personas/innocent-creator/wide.jpg",
+    "wideTag": {
+      "cx": 0.7039473684210527,
+      "cy": 0.7936170212765957,
+      "w": 0.08253588516746412,
+      "angle": 12.006197807739904
+    },
+    "wideGlass": {
+      "x": 0.5765550239234449,
+      "y": 0.5361702127659574
+    },
+    "tag": {
+      "cx": 0.6666666666666666,
+      "cy": 0.7320441988950276,
+      "w": 0.09208103130755065,
+      "angle": 11.047901526284168
+    },
+    "glass": {
+      "x": 0.5064456721915286,
+      "y": 0.5773480662983426
+    }
+  },
+  "hashes": {
+    "master": "15511d7d5c871bf2ac4cdcedcbc10266e3887a3205ea3178a077bc6c8265ba96",
+    "wide": "042843402e9d08332136669a1452a0df3c44788786b14a133162e194d944ff3d",
+    "portrait": "6dd557d52c9c1c08f8eeb27874c30fdc53cac7c49b5d49081f6fab1dd02c194c",
+    "portraitMaster": "7c190049aa615d3d760c9f052f7a8ffeb261f78344494496fdf722af2b823e87"
+  },
+  "geometryScope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 957.7033492822967,
+          "y0": 283.7872340425532,
+          "x1": 1255.1196172248804,
+          "y1": 867.4468085106383
+        },
+        "paper": {
+          "x0": 1236.7464114832535,
+          "y0": 790.4680851063829,
+          "x1": 1435.4066985645934,
+          "y1": 905.3617021276596
+        },
+        "cake": {
+          "x0": 1231.0047846889952,
+          "y0": 483.7021276595745,
+          "x1": 1502.0095693779904,
+          "y1": 695.1063829787233
+        },
+        "plate": {
+          "x0": 1232.153110047847,
+          "y0": 605.4893617021277,
+          "x1": 1572.0574162679425,
+          "y1": 734.1702127659574
+        },
+        "card": {
+          "x0": 1550.2392344497607,
+          "y0": 389.48936170212767,
+          "x1": 1872.9186602870814,
+          "y1": 731.8723404255319
+        },
+        "frozenCubes": {
+          "x0": 977.2248803827752,
+          "y0": 322.8510638297872,
+          "x1": 1242.4880382775118,
+          "y1": 747.9574468085106
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 718.0861244019139,
+          "y0": 236.48936170212767,
+          "x1": 965.9330143540672,
+          "y1": 722.8723404255319
+        },
+        "paper": {
+          "x0": 950.622009569378,
+          "y0": 658.7234042553191,
+          "x1": 1116.1722488038279,
+          "y1": 754.468085106383
+        },
+        "cake": {
+          "x0": 945.8373205741627,
+          "y0": 403.0851063829787,
+          "x1": 1171.6746411483255,
+          "y1": 579.2553191489361
+        },
+        "plate": {
+          "x0": 946.7942583732058,
+          "y0": 504.5744680851064,
+          "x1": 1230.047846889952,
+          "y1": 611.8085106382978
+        },
+        "card": {
+          "x0": 1211.8660287081339,
+          "y0": 324.5744680851064,
+          "x1": 1480.7655502392345,
+          "y1": 609.8936170212766
+        },
+        "frozenCubes": {
+          "x0": 734.354066985646,
+          "y0": 269.0425531914894,
+          "x1": 955.4066985645932,
+          "y1": 623.2978723404256
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1021.5502392344498,
+          "y0": 249.3463829787234,
+          "x1": 1338.7942583732058,
+          "y1": 871.9165957446809
+        },
+        "paper": {
+          "x0": 1319.1961722488038,
+          "y0": 789.8059574468084,
+          "x1": 1531.1004784688996,
+          "y1": 912.3591489361702
+        },
+        "cake": {
+          "x0": 1313.0717703349283,
+          "y0": 462.5889361702127,
+          "x1": 1602.1435406698565,
+          "y1": 688.0868085106382
+        },
+        "plate": {
+          "x0": 1314.2966507177034,
+          "y0": 592.4953191489361,
+          "x1": 1676.8612440191387,
+          "y1": 729.7548936170213
+        },
+        "card": {
+          "x0": 1653.5885167464114,
+          "y0": 362.09531914893614,
+          "x1": 1997.77990430622,
+          "y1": 727.303829787234
+        },
+        "frozenCubes": {
+          "x0": 1042.3732057416269,
+          "y0": 291.0144680851064,
+          "x1": 1325.3205741626793,
+          "y1": 744.4612765957446
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.5255029013539649
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1715.8851674641148,
+          "y0": 248.32819148936187,
+          "x1": 2248.755980861244,
+          "y1": 1294.051595744681
+        },
+        "paper": {
+          "x0": 2215.8373205741627,
+          "y0": 1156.1313829787234,
+          "x1": 2571.7703349282297,
+          "y1": 1361.9824468085108
+        },
+        "cake": {
+          "x0": 2205.5502392344497,
+          "y0": 606.5090425531916,
+          "x1": 2691.1004784689,
+          "y1": 985.2750000000001
+        },
+        "plate": {
+          "x0": 2207.6076555023924,
+          "y0": 824.7111702127661,
+          "x1": 2816.602870813397,
+          "y1": 1055.2643617021279
+        },
+        "card": {
+          "x0": 2777.5119617224877,
+          "y0": 437.71117021276604,
+          "x1": 3355.645933014354,
+          "y1": 1051.147340425532
+        },
+        "frozenCubes": {
+          "x0": 1750.861244019139,
+          "y0": 318.3175531914895,
+          "x1": 2226.1244019138753,
+          "y1": 1079.9664893617023
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5064456721915286,
+        "y": 0.5773480662983426
+      },
+      "bounds": {
+        "glass": {
+          "x0": 131.361620626151,
+          "y0": 350.88950276243094,
+          "x1": 263.0857213014119,
+          "y1": 623.0911602209944
+        },
+        "paper": {
+          "x0": 255.54205033763049,
+          "y0": 591.6160220994475,
+          "x1": 333.8801718845918,
+          "y1": 638.8287292817679
+        },
+        "cakeVisible": {
+          "x0": 90.74185389809699,
+          "y0": 380.6160220994475,
+          "x1": 138.90529158993246,
+          "y1": 465.71546961325964
+        },
+        "plateVisible": {
+          "x0": 61.14745242480046,
+          "y0": 430.74309392265195,
+          "x1": 272.3702394106814,
+          "y1": 487.86464088397787
+        },
+        "cardVisible": {
+          "x0": 148.189809699202,
+          "y0": 268.121546961326,
+          "x1": 259.6040270104358,
+          "y1": 353.80386740331494
+        },
+        "frozenCubesVisible": {
+          "x0": 139.48557397176182,
+          "y0": 372.45580110497235,
+          "x1": 256.1223327194598,
+          "y1": 586.3701657458564
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5064456721915286,
+        "y": 0.5773480662983426
+      },
+      "bounds": {
+        "glass": {
+          "x0": 144.72206261510127,
+          "y0": 387.475138121547,
+          "x1": 290.18042971147946,
+          "y1": 688.0580110497237
+        },
+        "paper": {
+          "x0": 281.8502148557397,
+          "y0": 653.3011049723757,
+          "x1": 368.356292203806,
+          "y1": 705.4364640883978
+        },
+        "cakeVisible": {
+          "x0": 99.86705954573358,
+          "y0": 420.3011049723757,
+          "x1": 153.05227747084098,
+          "y1": 514.2734806629835
+        },
+        "plateVisible": {
+          "x0": 67.18698588090851,
+          "y0": 475.6546961325967,
+          "x1": 300.43300184162064,
+          "y1": 538.732044198895
+        },
+        "cardVisible": {
+          "x0": 163.3048496009822,
+          "y0": 296.0773480662984,
+          "x1": 286.3357151626764,
+          "y1": 390.6933701657459
+        },
+        "frozenCubesVisible": {
+          "x0": 153.69306322897478,
+          "y0": 411.2900552486188,
+          "x1": 282.4910006138735,
+          "y1": 647.5082872928177
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5064456721915286,
+        "y": 0.5773480662983426
+      },
+      "bounds": {
+        "glass": {
+          "x0": 117.54313075506442,
+          "y0": 236.1436464088398,
+          "x1": 206.1915776550031,
+          "y1": 419.3314917127072
+        },
+        "paper": {
+          "x0": 201.11479435236342,
+          "y0": 398.1491712707182,
+          "x1": 253.83523634131367,
+          "y1": 429.9226519337016
+        },
+        "cakeVisible": {
+          "x0": 90.20660527931247,
+          "y0": 256.1491712707182,
+          "x1": 122.61991405770411,
+          "y1": 313.41988950276243
+        },
+        "plateVisible": {
+          "x0": 70.28999386126455,
+          "y0": 289.8839779005525,
+          "x1": 212.43992633517493,
+          "y1": 328.3259668508287
+        },
+        "cardVisible": {
+          "x0": 128.868262737876,
+          "y0": 180.44198895027625,
+          "x1": 203.84844689993858,
+          "y1": 238.1049723756906
+        },
+        "frozenCubesVisible": {
+          "x0": 123.01043585021483,
+          "y0": 250.6574585635359,
+          "x1": 201.50531614487414,
+          "y1": 394.61878453038673
+        }
+      }
+    }
+  ],
+  "portraitMeasurements": {
+    "pairing": "innocent-creator",
+    "pour": "The Way It Felt",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-creator/v4/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-f50f1f83-54cc-4b7b-b674-f5f62559575c.png",
+    "masterDimensions": {
+      "width": 1086,
+      "height": 1448
+    },
+    "masterSha256": "7c190049aa615d3d760c9f052f7a8ffeb261f78344494496fdf722af2b823e87",
+    "sourceSha256": "6232710bafafe43f3266e23cdb3a5842af3c82f6a27c021a279610f4bd7266ad",
+    "specSha256": "de86d0e08f80fbf0f1b9c226200980bbca020ebf99e3b4cb20009c87b1b9ad24",
+    "roomSha256": "f8cb393e26c07fa706448b1a92a4859e39216870ec6eca5bfc3c6721e4fb6b78",
+    "unchangedCompanion": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-creator/v3/master.png",
+    "portraitCrop": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "wideCrop": [
+      0,
+      458,
+      1086,
+      610
+    ],
+    "tag": {
+      "cx": 724,
+      "cy": 1060,
+      "w": 100,
+      "angle": 11
+    },
+    "glass": {
+      "x": 550,
+      "y": 836
+    },
+    "bounds": {
+      "glass": {
+        "x0": 436,
+        "y0": 602,
+        "x1": 663,
+        "y1": 1069
+      },
+      "paper": {
+        "x0": 650,
+        "y0": 1015,
+        "x1": 785,
+        "y1": 1096
+      },
+      "cakeVisible": {
+        "x0": 366,
+        "y0": 653,
+        "x1": 449,
+        "y1": 799
+      },
+      "plateVisible": {
+        "x0": 315,
+        "y0": 739,
+        "x1": 679,
+        "y1": 837
+      },
+      "cardVisible": {
+        "x0": 465,
+        "y0": 460,
+        "x1": 657,
+        "y1": 607
+      },
+      "frozenCubesVisible": {
+        "x0": 450,
+        "y0": 639,
+        "x1": 651,
+        "y1": 1006
+      }
+    },
+    "physicalGarnishBounds": null,
+    "recognitionRegions": {
+      "cake": {
+        "x0": 366,
+        "y0": 656,
+        "x1": 441,
+        "y1": 796
+      },
+      "card": {
+        "x0": 466,
+        "y0": 460,
+        "x1": 650,
+        "y1": 606
+      }
+    },
+    "hiddenExtents": {
+      "cakeBehindGlass": null,
+      "cardBottomBehindGlass": null,
+      "plateBehindGlass": null
+    },
+    "objectExtentNotes": {
+      "cake": "Most right face occluded by foreground glass; visible icing and sponge crumb recognizable. Complete hidden extent unknown.",
+      "card": "Lower peach patch partly occluded by rim/glass; handmade crayon gesture visible; not claiming unseen lower card extent."
+    },
+    "allSupportingObjectUnion": {
+      "x0": 315,
+      "y0": 460,
+      "x1": 785,
+      "y1": 1096
+    },
+    "tagPhysics": {
+      "mechanism": "Low clearfoot external brown/taupe loop/front arc/side disappear behind glass.",
+      "knot": "Very small rightfoot join partly hidden by reflection.",
+      "tetherAndHole": "Short downward tether appears continuous into visible paper hole.",
+      "gravity": "Paper outboard lies down from join with timber loweredge contact.",
+      "separation": "Paper distinctly separate fromglass; contacts wood not floated.",
+      "uncertainties": [
+        "Exact loaded knot and rearwrap/friction hidden.",
+        "Support intersects foot reflection; no unconditional physics pass."
+      ],
+      "status": "held for root original review"
+    },
+    "review": {
+      "recipe": "Burgundy opaque wine-cola freezer cubes/dark ruby pool/thin fizz/no garnish preserved. Exact8cubes not countable; dense sparkles/bubbles remain material watch.",
+      "personality": "Cake now behind glass with recognizable sponge/uneven icing; modest folded crayon card aboveglass instead of sidearmy. Essential identities retained with honest occlusion.",
+      "world": "Depth-group pulledback and room preserved; plain directional walnut but warm sheen/dense surface remains.",
+      "issues": [
+        "Glass467px32.3% meetsrequestedapprox30% direction.",
+        "Full visible supportunion470px43.3% slightly>central40%target.",
+        "Cake/card hidden extents unknown; meaningful visible regions measured.",
+        "Name/support/material/browser/phone acceptance pending."
+      ]
+    },
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-creator/v4/measurements-portrait.json",
+      "originalMeasurementSha256": "7cc6b65f4b23d3dfebf86fe69e05392391329ef7ff04d4f5dfd24797cd754c90",
+      "previousSourceSha256": "5bda13c71998d5c20539560bfc73235a0dcfa377e7fee916b932df372a8e8db7",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    }
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-30 (batch hero)
 ## Cocktail
 
 - **name:** The Long Answer
-- **tagline:** You rarely win the row. You make the thing people end up quoting.
+- **tagline:** What you make gives people the words they were missing.
 - **glassware:** a large, heavy, round-bowled beer glass (about 400 ml), with one large piece of ice
 - **contains:** `[]`
 
@@ -196,7 +196,7 @@ Studio fact card `_studio/fact-cards/g-selmer-fougner.md` (*Oxford Companion*: F
 Wren's title-block notes:
 
 - **Name:** *The Long Answer* (Tomás's; my pick now). Also considered: *No Stupid Questions* (mine, second), *Open Question*, *Neither*.
-- **Tagline:** You rarely win the row. You make the thing people end up quoting.
+- **Tagline:** What you make gives people the words they were missing.
 - **Epigraph:** This glass starts from a reader's letter to a New York paper, in 1934.
 
 ### Open items

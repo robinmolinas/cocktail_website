@@ -1,0 +1,212 @@
+{
+  "native": {
+    "width": 1084,
+    "height": 1451
+  },
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v3/portrait-master.png",
+  "glass": {
+    "x": 584,
+    "y": 776
+  },
+  "glassBounds": {
+    "x0": 472,
+    "y0": 641,
+    "x1": 698,
+    "y1": 1060
+  },
+  "serveBounds": {
+    "x0": 472,
+    "y0": 535,
+    "x1": 721,
+    "y1": 1063
+  },
+  "ice": {
+    "visibleBounds": {
+      "x0": 511,
+      "y0": 685,
+      "x1": 597,
+      "y1": 733
+    },
+    "hiddenExtent": null,
+    "note": "One visible protruding cloudy lump; submerged extent uncertain."
+  },
+  "spoon": {
+    "visibleBounds": {
+      "x0": 642,
+      "y0": 535,
+      "x1": 721,
+      "y1": 808
+    },
+    "hiddenExtent": null
+  },
+  "tag": {
+    "cx": 645,
+    "cy": 1005,
+    "w": 107,
+    "angle": 68
+  },
+  "props": {
+    "chair": {
+      "visibleBounds": {
+        "x0": 219,
+        "y0": 308,
+        "x1": 1030,
+        "y1": 850
+      },
+      "fullObjectBounds": null,
+      "unseenExtent": null,
+      "recognitionBounds": {
+        "x0": 308,
+        "y0": 311,
+        "x1": 1024,
+        "y1": 823
+      },
+      "note": "Real chair back/seat/arm visible; lower parts hidden by table. Empty seat recognizable but broad."
+    },
+    "oliveThrow": {
+      "visibleBounds": {
+        "x0": 139,
+        "y0": 483,
+        "x1": 580,
+        "y1": 858
+      },
+      "fullObjectBounds": null,
+      "unseenExtent": null,
+      "recognitionBounds": {
+        "x0": 189,
+        "y0": 490,
+        "x1": 540,
+        "y1": 835
+      },
+      "note": "Recognizable used knit throw draped on arm, left spread rather than central40%."
+    }
+  },
+  "fullVisibleEssentialUnion": {
+    "x0": 139,
+    "y0": 308,
+    "x1": 1030,
+    "y1": 1063
+  },
+  "conservativeRecognitionUnion": {
+    "x0": 189,
+    "y0": 311,
+    "x1": 1024,
+    "y1": 1063
+  },
+  "ambient": {
+    "lamp": {
+      "visibleBounds": {
+        "x0": 853,
+        "y0": 57,
+        "x1": 1084,
+        "y1": 472
+      },
+      "fullBounds": null,
+      "clippedExtentUnknown": true
+    }
+  },
+  "proposedCrop": {
+    "portrait": [
+      0,
+      0,
+      1084,
+      1451
+    ],
+    "note": "Native portrait approximation3:4; exact final export root-owned. Full image is NOT tall-phone crop or motion proof."
+  },
+  "tagPhysics": {
+    "mechanism": "Low narrow-stem exterior wrap",
+    "frontArc": "Taupe arc visible on front stem",
+    "sideOcclusion": "Side strands turn around stem; rear unseen",
+    "knot": "Small right-side knot near601,930",
+    "tether": "Very short downward connection to punched hole617,949",
+    "hole": "Visible real punched hole",
+    "gravity": "Small paper hangs below support and leans outward",
+    "separateOrContact": "Lower corner visibly touches table, bowl separate",
+    "uncertainties": [
+      "Closely doubled stem cord persists",
+      "Rear knot depth/load not established",
+      "Upper paper overlaps lower stem/foot region"
+    ],
+    "pass": false
+  },
+  "pairing": "lover-caregiver",
+  "pour": "Hoping You\u2019d Come",
+  "masterSha256": "97edf86d124cff3fc07c046cac47a143cd43b9e6b001b43a7ca198a5332b9b17",
+  "sourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+  "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "exportProvenance": {
+    "batch": 15,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-caregiver/v3/manual-geometry-batch15.json",
+    "originalMeasurementSha256": "7c5393661b98b0adf4de59c67adaa5e59298035db2d303b815530301bbe16d5d",
+    "previousSourceSha256": null,
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {},
+  "bounds": {
+    "glass": {
+      "x0": 472,
+      "y0": 641,
+      "x1": 698,
+      "y1": 1060
+    },
+    "paper": {
+      "x0": 598,
+      "y0": 931,
+      "x1": 692,
+      "y1": 1063
+    },
+    "serve": {
+      "x0": 472,
+      "y0": 535,
+      "x1": 721,
+      "y1": 1063
+    }
+  },
+  "recognitionRegions": {
+    "chair": {
+      "x0": 308,
+      "y0": 311,
+      "x1": 1024,
+      "y1": 823
+    },
+    "oliveThrow": {
+      "x0": 189,
+      "y0": 490,
+      "x1": 540,
+      "y1": 835
+    }
+  },
+  "portraitCrop": [
+    0,
+    0,
+    1084,
+    1451
+  ],
+  "wideCrop": [
+    0,
+    0,
+    1084,
+    1451
+  ],
+  "review": {
+    "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+    "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+    "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+    "issues": "Apple texture remains too defined/chunky; doubled stem turn, broad chair/throw. v4 had calmer wood but sharper cereal-like flakes, so not selected."
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

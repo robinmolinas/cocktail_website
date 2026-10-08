@@ -1,0 +1,357 @@
+{
+  "pairing": "ruler-innocent",
+  "pour": "Say So / The Diva",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "197036bde4960b67e2f351f9c90f2a080adc26d3b29d73329f1d8c648b0ecf55",
+  "review": {
+    "recipe": "V-shaped glass, no serving ice/foam, yellow lemon strip inside and pale gold drink are visible. Micro-sparkle/haze makes the liquid less transparently still than required; held, not recipe acceptance.",
+    "personality": "Real-size vinyl single and refolded napkin plausibly infer choosing music and improving the table for everybody; not literal biography. They remain spread rather than overlapped tightly.",
+    "world": "Old upholstered burgundy chair, warm shaded practical and neutral-dark left room fit broad house palette. Table retains amber sheen and dense repeated grain; glass overly polished.",
+    "issues": [
+      "420px glass exceeds280–330px intent; full glass/paper/traces union784px, conservative recognition union784px. Full702px portrait clips right folded napkin; no portrait acceptance, let alone phone/motion.",
+      "Tag is visibly free of glass with continuous cord and hole, but conservative writable axis116px is below170–200px goal. Real-name and breathing review deferred.",
+      "Clear drink retains speckled microbubble/condensation-like sparkle and strong gold warmth; pale transparent physical appearance remains held.",
+      "Walnut still orange/glossy with repetitive fine grain; one focused correction exhausted, not further texture iteration."
+    ]
+  },
+  "measurements": {
+    "pairing": "ruler-innocent",
+    "pour": "Say So / The Diva",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-innocent/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-dd18b7cb-3b28-46b5-a328-7398007970e7.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "197036bde4960b67e2f351f9c90f2a080adc26d3b29d73329f1d8c648b0ecf55",
+    "specSha256": "8f6341416adf2b4baa3c139657380932d7ddf9701ef3facfa1c232a86854a463",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      805,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 919,
+      "cy": 612,
+      "w": 116,
+      "angle": -68.75
+    },
+    "tagWritingAxis": {
+      "start": [
+        898,
+        666
+      ],
+      "end": [
+        940,
+        558
+      ],
+      "note": "Conservative blank writing line excludes punched hole and paper edges; approximately116px, below intent."
+    },
+    "glass": {
+      "x": 1003,
+      "y": 365
+    },
+    "bounds": {
+      "glass": {
+        "x0": 866,
+        "y0": 311,
+        "x1": 1138,
+        "y1": 731
+      },
+      "paper": {
+        "x0": 850,
+        "y0": 512,
+        "x1": 978,
+        "y1": 691
+      }
+    },
+    "personalityBounds": {
+      "vinylAndSleeve": {
+        "x0": 984,
+        "y0": 467,
+        "x1": 1500,
+        "y1": 636
+      },
+      "foldedNapkin": {
+        "x0": 1155,
+        "y0": 565,
+        "x1": 1634,
+        "y1": 736
+      }
+    },
+    "recognitionRegions": {
+      "vinylRecord": {
+        "x0": 1146,
+        "y0": 503,
+        "x1": 1500,
+        "y1": 594
+      },
+      "foldedNapkin": {
+        "x0": 1155,
+        "y0": 565,
+        "x1": 1634,
+        "y1": 736
+      }
+    },
+    "review": {
+      "recipe": "V-shaped glass, no serving ice/foam, yellow lemon strip inside and pale gold drink are visible. Micro-sparkle/haze makes the liquid less transparently still than required; held, not recipe acceptance.",
+      "personality": "Real-size vinyl single and refolded napkin plausibly infer choosing music and improving the table for everybody; not literal biography. They remain spread rather than overlapped tightly.",
+      "world": "Old upholstered burgundy chair, warm shaded practical and neutral-dark left room fit broad house palette. Table retains amber sheen and dense repeated grain; glass overly polished.",
+      "issues": [
+        "420px glass exceeds280–330px intent; full glass/paper/traces union784px, conservative recognition union784px. Full702px portrait clips right folded napkin; no portrait acceptance, let alone phone/motion.",
+        "Tag is visibly free of glass with continuous cord and hole, but conservative writable axis116px is below170–200px goal. Real-name and breathing review deferred.",
+        "Clear drink retains speckled microbubble/condensation-like sparkle and strong gold warmth; pale transparent physical appearance remains held.",
+        "Walnut still orange/glossy with repetitive fine grain; one focused correction exhausted, not further texture iteration."
+      ]
+    },
+    "status": "measured-master-candidate;held;not-accepted;browser-deferred"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1055.311004784689,
+        "cy": 703.1489361702128,
+        "w": 133.20574162679426,
+        "angle": -68.76029005066191
+      },
+      "glass": {
+        "x": 1151.7703349282297,
+        "y": 419.36170212765956
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 145.5042735042735,
+        "cy": 781.2765957446809,
+        "w": 148.05698005698005,
+        "angle": -68.75367610952715
+      },
+      "glass": {
+        "x": 252.71794871794873,
+        "y": 465.9574468085106
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/ruler-innocent/portrait.jpg",
+    "wide": "/personas/ruler-innocent/wide.jpg",
+    "wideTag": {
+      "cx": 0.5496411483253588,
+      "cy": 0.6510638297872341,
+      "w": 0.06937799043062201,
+      "angle": -68.76029005066191
+    },
+    "wideGlass": {
+      "x": 0.5998803827751196,
+      "y": 0.3882978723404255
+    },
+    "tag": {
+      "cx": 0.1623931623931624,
+      "cy": 0.6510638297872341,
+      "w": 0.16524216524216523,
+      "angle": -68.75367610952715
+    },
+    "glass": {
+      "x": 0.28205128205128205,
+      "y": 0.3882978723404255
+    }
+  },
+  "hashes": {
+    "master": "4daf91afdf9852fdf65926f63ac30fbcae9f7fde0dbe73e5bc874b01bddca901",
+    "wide": "648ad0759b2c6b125407cd4a846877761e73759064eafac1f02af9edba01fc08",
+    "portrait": "f5bc6089c0dab44da470e3b0fef6bfcf8f003f573dc16ec41c3cfcf004d8d221"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 994.4497607655502,
+          "y0": 357.3191489361702,
+          "x1": 1306.7942583732058,
+          "y1": 839.8723404255319
+        },
+        "paper": {
+          "x0": 976.0765550239234,
+          "y0": 588.2553191489362,
+          "x1": 1123.0622009569377,
+          "y1": 793.9148936170213
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 748.7081339712918,
+          "y0": 297.7659574468085,
+          "x1": 1008.9952153110048,
+          "y1": 699.8936170212766
+        },
+        "paper": {
+          "x0": 733.3971291866029,
+          "y0": 490.21276595744683,
+          "x1": 855.8851674641148,
+          "y1": 661.5957446808511
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1060.7464114832535,
+          "y0": 327.7804255319149,
+          "x1": 1393.9138755980862,
+          "y1": 842.503829787234
+        },
+        "paper": {
+          "x0": 1041.1483253588517,
+          "y0": 574.1123404255319,
+          "x1": 1197.933014354067,
+          "y1": 793.4825531914894
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1781.7224880382773,
+          "y0": 412.4968085106383,
+          "x1": 2341.3397129186606,
+          "y1": 1277.0712765957446
+        },
+        "paper": {
+          "x0": 1748.8038277511962,
+          "y0": 826.2574468085106,
+          "x1": 2012.153110047847,
+          "y1": 1194.7308510638297
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.15682622284598524,
+        "y": 0.3882978723404255
+      },
+      "bounds": {
+        "glass": {
+          "x0": 17.092242355175685,
+          "y0": 279.2382978723404,
+          "x1": 261.2671331433998,
+          "y1": 656.3446808510638
+        },
+        "paper": {
+          "x0": 2.7290134852801415,
+          "y0": 459.7106382978723,
+          "x1": 117.63484444444447,
+          "y1": 620.4297872340426
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.15643488052674695,
+        "y": 0.3882978723404255
+      },
+      "bounds": {
+        "glass": {
+          "x0": 18.874371889838564,
+          "y0": 308.35319148936173,
+          "x1": 288.5082560303893,
+          "y1": 724.7787234042552
+        },
+        "paper": {
+          "x0": 3.0135551756885093,
+          "y0": 507.64255319148936,
+          "x1": 129.9000888888889,
+          "y1": 685.1191489361702
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.2434977348092102,
+        "y": 0.3882978723404255
+      },
+      "bounds": {
+        "glass": {
+          "x0": 11.502836087369428,
+          "y0": 187.92340425531916,
+          "x1": 175.82906590693258,
+          "y1": 441.7106382978723
+        },
+        "paper": {
+          "x0": 1.8365872744539402,
+          "y0": 309.3787234042553,
+          "x1": 79.16657777777779,
+          "y1": 417.54042553191493
+        }
+      }
+    }
+  ]
+}

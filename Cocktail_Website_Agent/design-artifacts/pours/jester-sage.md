@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 ## Cocktail
 
 - **name:** Against My Better Judgement
-- **tagline:** Everyone hears the joke. Hardly anyone hears the hope.
+- **tagline:** You make fun of the world because you haven't given up on it.
 - **glassware:** cocktail glass (about 180 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -219,7 +219,7 @@ _(none on the card)_
 Wren's title-block notes:
 
 **name:** Against My Better Judgement
-**tagline:** Everyone hears the joke. Hardly anyone hears the hope.
+**tagline:** You make fun of the world because you haven't given up on it.
 **epigraph:** Bourbon, stirred dry. A four-line poem about San Francisco's 1906 fire ends on whiskey.
 
 v1 → v2: Hester's audit R1–R7 landed as quoted, except R4, where her wording collides with two pours ("than a century later": *The First Guess*, *Anyway*) and became "a hundred and more years on". Her "Manhattan made with dry vermouth" gift is in y5, with no year. y5's tie now uses Tomás's link (a taste in every sip, on no rim, as a name and face kept off). whoYouAre is cut from 197 words to about 150 (host lint warning). "his"/"him" in y3–y4 are Charles K. Field, a historical person: accepted.

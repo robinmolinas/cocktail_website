@@ -13,7 +13,7 @@ authored_in: the room, 2026-10-01 (batch innocent)
 ## Cocktail
 
 - **name:** Night Light
-- **tagline:** You were small too. You looked after them anyway.
+- **tagline:** You find your courage in making someone else feel safe.
 - **glassware:** a small stemmed cocktail glass, chilled, no ice
 - **contains:** `[]`
 

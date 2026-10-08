@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 ## Cocktail
 
 - **name:** Rosetta
-- **tagline:** Other people like things. You fall for them.
+- **tagline:** The things you love become worlds you never finish exploring.
 - **glassware:** a stemmed water goblet or a large wine glass (240 ml or more)
 - **contains:** `[]`
 

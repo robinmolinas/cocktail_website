@@ -1,0 +1,155 @@
+{
+  "pairing": "jester-explorer",
+  "pour": "Unrehearsed",
+  "sourceSha256": "fa2a7c65465e2928c7ab6e6eca17bfac3b84c04e61b3c5ea25d37ff063c44e69",
+  "specSha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67",
+  "roomSha256": "fb2cc7baf81948067a02af2f3b79d065e4f6835de34a9c6e01993ce3fd67cc2b",
+  "houseRuleSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "hiddenExtents": {
+    "speechSheetBehindGlass": null,
+    "envelopeBehindGlass": null,
+    "submergedIce": null
+  },
+  "tagPhysics": {
+    "mechanism": "Low exterior body/foot loop with front curved arc and side turn toward right knot; rear hidden by vessel.",
+    "knot": "Small brown/taupe-looking join visible to right of lower glass; exact loading uncertain.",
+    "tetherAndHole": "Short down-right tether continues into visible paper hole; strand looks heavier than fine brief.",
+    "gravity": "Paper lies outboard angled down from knot, lower edge/body on timber.",
+    "separation": "Paper separate from glass, actual tabletop contact and shadow; not free-floating.",
+    "uncertainties": [
+      "Rear wrap/foot friction hidden.",
+      "Join and side reflection interact; exact knot continuity not proven.",
+      "Cord more conspicuous than requested fine thread."
+    ],
+    "status": "held, plausible chain not physics PASS"
+  },
+  "review": {
+    "recipe": "Clear amber pool with one dropped orange peel and three curved cloudy ice pieces. Curvature present, but hollow concave cup-wall construction not unambiguously distinguishable from solid crescent chunks. Recipe-form hold remains.",
+    "personality": "Handled long folded speech sheet now ordinary used paper rather than pristine scroll. Envelope opening/context inferred from birthday; recognition partly occluded/uncertain.",
+    "world": "Historic timber room retained; directional timber rather than patterned varnish but strong amber sheen remains. Broad glass/ice highlights still densely sparkling.",
+    "issues": [
+      "Cup-shell concavity/form unresolved.",
+      "Wide group spread and oversize remains.",
+      "Heavy glass has prominent faceted lower wall instead of restrained plain glass.",
+      "Portrait envelope recognition uncertain; no phone PASS.",
+      "Material/name/physics/browser acceptance pending."
+    ]
+  },
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v3/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-e2364277-a7cd-4707-92b1-c4dbeb0ccf02.png",
+  "masterDimensions": {
+    "width": 1086,
+    "height": 1448
+  },
+  "masterSha256": "64d46600028553b748135caedc51089704cedd009d4e86162fa208872af9016b",
+  "portraitCrop": [
+    0,
+    0,
+    1086,
+    1448
+  ],
+  "wideCrop": [
+    0,
+    405,
+    1086,
+    610
+  ],
+  "tag": {
+    "cx": 806,
+    "cy": 990,
+    "w": 125,
+    "angle": 14
+  },
+  "glass": {
+    "x": 547,
+    "y": 782
+  },
+  "bounds": {
+    "glass": {
+      "x0": 388,
+      "y0": 583,
+      "x1": 703,
+      "y1": 981
+    },
+    "paper": {
+      "x0": 720,
+      "y0": 948,
+      "x1": 885,
+      "y1": 1026
+    },
+    "speechSheetVisible": {
+      "x0": 246,
+      "y0": 406,
+      "x1": 813,
+      "y1": 796
+    },
+    "envelopeVisible": {
+      "x0": 282,
+      "y0": 617,
+      "x1": 880,
+      "y1": 855
+    },
+    "iceVisible": {
+      "x0": 418,
+      "y0": 675,
+      "x1": 675,
+      "y1": 903
+    },
+    "orangePeel": {
+      "x0": 530,
+      "y0": 763,
+      "x1": 645,
+      "y1": 900
+    }
+  },
+  "physicalGarnishBounds": {
+    "x0": 530,
+    "y0": 763,
+    "x1": 645,
+    "y1": 900
+  },
+  "recognitionRegions": {
+    "speechSheet": {
+      "x0": 335,
+      "y0": 406,
+      "x1": 704,
+      "y1": 585
+    }
+  },
+  "recognitionCandidates": {
+    "envelope": {
+      "x0": 695,
+      "y0": 617,
+      "x1": 879,
+      "y1": 852
+    }
+  },
+  "recognitionNotes": {
+    "envelope": "Open flap/right body shape candidate, but overlaps speech-sheet folds and most body hidden behind glass. Do not count anonymous paper wing as confirmed second trace."
+  },
+  "allSupportingObjectUnion": {
+    "x0": 246,
+    "y0": 406,
+    "x1": 885,
+    "y1": 1026
+  },
+  "phoneAssessment": "639px complete support union in1086portrait, depth stacking markedly improved and glass398px. Essential envelope recognition still unresolved; union59%width leaves little moving-phone margin, no phone/glyph/browser PASS.",
+  "exportProvenance": {
+    "batch": 14,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-explorer/v3/measurements-portrait.json",
+    "originalMeasurementSha256": "b23dd6e52c8dc3d6059cf2c78d3978faa6147f85751b8d75a058f5a99b67424e",
+    "previousSourceSha256": "68533cea6c414c5a4b9fe56d332e3889acfcc2503e7af0b3988005cc7ae8c192",
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {},
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

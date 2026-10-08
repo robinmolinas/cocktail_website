@@ -87,6 +87,14 @@ is a puzzle and must be removed.
 
 ### Tag
 
+- Cord visibility clarification,2026-10-07: keep the label attachment subdued,
+  not a visual belt or flourish. Use thin matte neutral taupe/brown cotton
+  twine, a small knot, trimmed ends and a very short downward tether. Place
+  the body loop low near the clear glass foot where the vessel allows, or
+  around the narrow stem below its bowl. Avoid bright contrasting bands,
+  large bows and long diagonal cords. Preserve enough visible front arc,
+  side occlusion, knot and punched-hole connection to explain support;
+  never hide attachment failure or make the paper look glued to the glass.
 - Attachment physics clarification,2026-10-07: a believable support chain is
   required, not just paper near the drink. For stemware, wrap the narrow stem
   below the bowl. For stemless tumblers/highballs, use a snug friction-held

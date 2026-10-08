@@ -1,0 +1,263 @@
+{
+  "pairing": "regular-guy-magician",
+  "pour": "Good for Years",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/regular-guy-magician/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-8eedaeb4-7325-4e8d-b5f2-7aed1b9b0a94.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "ec0e8d4cc31b920aa3fc42b19c3a35306458d7c47ed55f29d1fc37629807bc47",
+  "sourceSha256": "c8ce1075a500a9acfb765df2eef36092686fd4e562ecb2710595becd1a453d4b",
+  "specSha256": "713e586ce0026d0b3d7fcb7e59f67107ec2c0e422b55174f390b706fdbdb8632",
+  "roomSha256": "d0f4187c2f698285b4adfe5250b2613211ae6438fddb6c9fbc8adb1f7bb26dd0",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    797,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1381,
+    "cy": 727,
+    "w": 102,
+    "angle": 73
+  },
+  "glass": {
+    "x": 1144,
+    "y": 572
+  },
+  "bounds": {
+    "glass": {
+      "x0": 951,
+      "y0": 346,
+      "x1": 1340,
+      "y1": 791
+    },
+    "paper": {
+      "x0": 1316,
+      "y0": 643,
+      "x1": 1438,
+      "y1": 798
+    }
+  },
+  "personalityBounds": {
+    "foldedCoat": {
+      "x0": 518,
+      "y0": 220,
+      "x1": 1365,
+      "y1": 616
+    },
+    "zipperTrack": {
+      "x0": 683,
+      "y0": 302,
+      "x1": 903,
+      "y1": 590
+    },
+    "putativeHairGrip": {
+      "x0": 718,
+      "y0": 427,
+      "x1": 769,
+      "y1": 541
+    },
+    "oldLamp": {
+      "x0": 986,
+      "y0": 0,
+      "x1": 1558,
+      "y1": 524
+    },
+    "lampFlex": {
+      "x0": 1550,
+      "y0": 281,
+      "x1": 1672,
+      "y1": 512
+    },
+    "metalUprightTape": {
+      "x0": 1401,
+      "y0": 216,
+      "x1": 1449,
+      "y1": 312
+    },
+    "plugSocket": {
+      "x0": 1547,
+      "y0": 195,
+      "x1": 1657,
+      "y1": 351
+    }
+  },
+  "recognitionRegions": {
+    "coatWithZip": {
+      "x0": 521,
+      "y0": 223,
+      "x1": 1363,
+      "y1": 614
+    },
+    "oldLamp": {
+      "x0": 986,
+      "y0": 0,
+      "x1": 1558,
+      "y1": 524
+    },
+    "repairedFlex": null,
+    "hairGrip": null
+  },
+  "supportingBounds": {
+    "oneLargeCube": {
+      "x0": 1042,
+      "y0": 422,
+      "x1": 1239,
+      "y1": 663
+    },
+    "inherentMarmaladePeelShreds": {
+      "x0": 998,
+      "y0": 486,
+      "x1": 1203,
+      "y1": 659
+    },
+    "slightlyHazyLiquid": {
+      "x0": 960,
+      "y0": 448,
+      "x1": 1329,
+      "y1": 729
+    },
+    "bodyTwineLoop": {
+      "x0": 958,
+      "y0": 605,
+      "x1": 1328,
+      "y1": 671
+    },
+    "downTether": {
+      "x0": 1324,
+      "y0": 637,
+      "x1": 1356,
+      "y1": 672
+    }
+  },
+  "physicalRecognitionRegions": {
+    "oneLargeCube": {
+      "x0": 1042,
+      "y0": 422,
+      "x1": 1239,
+      "y1": 663
+    },
+    "inherentMarmaladePeelShreds": {
+      "x0": 998,
+      "y0": 486,
+      "x1": 1203,
+      "y1": 659
+    },
+    "addedGarnish": null
+  },
+  "iceBounds": {
+    "oneLargeCube": {
+      "x0": 1042,
+      "y0": 422,
+      "x1": 1239,
+      "y1": 663
+    }
+  },
+  "garnishBounds": {
+    "addedGarnish": null,
+    "inherentMarmaladePeelShreds": {
+      "x0": 998,
+      "y0": 486,
+      "x1": 1203,
+      "y1": 659
+    }
+  },
+  "visibility": {
+    "coat": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null
+    },
+    "oldLamp": {
+      "masterClipped": true,
+      "clippedEdges": [
+        "top"
+      ],
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Top of shade clipped. Full visible lamp preserved in bounds; missing shade height unknown."
+    },
+    "lampFlex": {
+      "masterClipped": true,
+      "clippedEdges": [
+        "right"
+      ],
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Visible plug/cord but lamp base connection hidden; no electrical safety/supply proof."
+    },
+    "ice": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "One visible ordinary cube; underside/refraction extent unknown."
+    },
+    "inherentPeelShreds": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Visible shreds full envelope measured; hidden count/extents unknown."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Snug exterior low tumbler-body twine loop well below rim, visible front curve with side occlusion.",
+    "anchorBounds": {
+      "x0": 958,
+      "y0": 605,
+      "x1": 1328,
+      "y1": 671
+    },
+    "knotPoint": {
+      "x": 1320,
+      "y": 636
+    },
+    "holePoint": {
+      "x": 1347,
+      "y": 663
+    },
+    "knot": "Side knot/bow visible; rear closure and friction load not proved.",
+    "tether": "Short downward continuation to punched hole visible.",
+    "hole": "Visible punched circular paper hole with cord through it.",
+    "gravity": "Main blank paper body below attachment, slants down beside tumbler.",
+    "airGap": "Most paper face outside glass with apparent separation; near top overlap/contact locally unclear.",
+    "contact": "Bottom edge appears to rest on timber with shadow; exact suspended/shared load unknown.",
+    "occlusion": "Rear body wrap concealed by drink/glass.",
+    "uncertainties": [
+      "Rear continuity/friction/load unverified",
+      "Upper paper/glass contact uncertain",
+      "Bottom wood contact/load sharing uncertain"
+    ],
+    "status": "Plausible front chain only, not physics PASS."
+  },
+  "cropAssessment": {
+    "portrait": "Complete vessel/paper/cube/shreds within proposed702crop, but coat zip left area and lamp right/top extents cropped. Not full two-trace retention.",
+    "movingPhone": "Whole recognizable coat/lamp union1037px exceeds389px target; no moving-phone/browser/name PASS."
+  },
+  "recognitionUnionWidth": 1037,
+  "review": {
+    "recipe": "Small tumbler with ONE large cube, pale amber-orange hazy mezcal/marmalade; inherent peel shreds inside, no added garnish. Liquid is saturated warm orange and shreds look long/coarse rather than two/three thin shreds; dense droplets/tiny spots and cracked-looking cube texture watch.",
+    "personality": "Source coat zip/hair grip and taped-flex lamp. Coat/zip recognizable, particular grip identification uncertain/null. Actual tape is on metal upright, NOT flex: repaired-flex recognition null/hold. Lamp shade clipped. Normal full-size objects but spread.",
+    "world": "Historic reading-room; one actual lamp, functional brass permitted. Dark walnut is glossy warm dense scratch/cross-grain texture, not neutral quiet low-satin target.",
+    "issues": [
+      "Lamp tape on metal upright rather than flexible cord",
+      "Repaired-flex trace missing/null",
+      "Hair grip identification uncertain/null",
+      "Lamp shade clipped at top and flex at right",
+      "Glass445px and broad whole-trace1037px grouping",
+      "Portrait cuts personality; moving phone untested/held",
+      "Saturated warm orange/coarse peel/dense small spots",
+      "Glossy amber dense timber texture",
+      "Tag rear load/contact unknown"
+    ]
+  },
+  "status": "Preserved initial held candidate; sole correction requested, no export/acceptance."
+}

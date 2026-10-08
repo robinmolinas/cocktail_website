@@ -1,0 +1,37 @@
+{
+  "selection": "Private review candidates selected by root after native view, not acceptance",
+  "callCount": 2,
+  "roundTotalCalls": 4,
+  "generationStopped": true,
+  "assets": [
+    {
+      "orientation": "wide",
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/wide-master.png",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-d7d3a045-30a4-49aa-a220-7ce2535a3e10.png",
+      "sha256": "af37e19dd5be4a7fd0d2eb6179278c6511d78966f57a1ed986d34a96eb8bbff4",
+      "native": {
+        "width": 1672,
+        "height": 941
+      },
+      "measurements": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/measurements.json",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/prompt-wide.txt"
+    },
+    {
+      "orientation": "portrait",
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/portrait-master.png",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-3734d9ba-c27a-43ad-8c83-d9e3c9f13d18.png",
+      "sha256": "e3121e2900c4ded606ee3fcb35d5d98cd1495e02f911e21c06037a04a4a387d5",
+      "native": {
+        "width": 1084,
+        "height": 1451
+      },
+      "measurements": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/measurements-portrait.json",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/prompt-portrait.txt"
+    }
+  ],
+  "pairedWide": "v4",
+  "exports": 0,
+  "browserAcceptance": false,
+  "recipeEditorialChanges": false,
+  "remainingFailures": "See review.md and measurements review/tagPhysics; all residual issues held, no further calls."
+}

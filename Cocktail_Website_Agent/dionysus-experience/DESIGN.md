@@ -87,16 +87,14 @@ components:
 
 **Creative North Star: "The Speakeasy Behind the Fortune Teller's Parlor"**
 
-Dionysus is one continuous pour told in two materials — **ink on paper** above
-the surface, **light in dark liquid** below (the "Water & Ink" identity). The
-landing world is warm paper, sumi ink, and a vermilion seal: a printed
-invitation. The journey world (the Suspended Pour, holds H1–H9) is near-black
-liquid where everything luminous — candlelight ivory text, glass bubbles,
-seed-coloured motes — floats against darkness. The two worlds meet once, at
-the descent into the drink; the reveal never leaves the dark (locked
-2026-07-10, "one stroke of dark"): the splash sinks to black the same way the
-threshold descent does, and the persona scene kindles out of that black from
-the drop's seed-coloured ember.
+Dionysus is a continuous dark journey: the photographic spotlight hero invites
+her into light suspended in liquid, and the cocktail's room emerges through
+that same dark. The reveal never leaves the darkness (locked 2026-07-10,
+"one stroke of dark"). Near-black liquid, candlelight ivory, glass spheres
+and seed-coloured motes carry the experience. The warm paper/ink palette
+serves print and preserved paper-era references; it does not require a paper
+landing or an ink-clearing quiz. The seed is light and lettering, never a
+tint over the persona scene.
 
 This system explicitly rejects flat SaaS-style dashboards, cartoonish or
 childish "magic" (wizard hats, bright neon), cliché generic cocktail menus,
@@ -105,7 +103,7 @@ panel, or a box: interface elements are bubbles, drops, motes, rings, and
 underlined lines of handwriting, suspended in the dark.
 
 **Key Characteristics:**
-- Two worlds, one voice: warm paper above, candlelit depths below.
+- One voice: candlelit screens and a warm printed keepsake.
 - Darkness is the canvas; light (and *her* seed colour) is the paint.
 - Circles and pills only — the system has no rectangles, no cards.
 - Motion is choreography, not decoration: every hold has an entrance, a
@@ -386,8 +384,32 @@ screen-wide glows on commit.
   glow on either (a lit Share read as a red shadow).
 - **Way-onward pill** (`.hold-next`): see the hold grammar.
 - **Quiet action** (`.tr-quiet`): Jost, muted, hairline underline — "Start again".
+- **Sound control** (`SoundToggle` → `.sound-toggle`, mounted beside App in
+  `main.tsx`): a small hairline pill on the nav's line, opposite the mark,
+  centred on the mark's glyph, the same on every screen (the landing included,
+  so she can see how to stop the music before it starts). Jost tracked caps in
+  full ivory with `--legible`, so it reads over H2's amber and H4's cream with
+  no dark behind it. Four static bars stand when on and lie down when off;
+  they never pulse. Hidden in print.
 - **Focus:** `outline: 2px solid var(--vermilion)` with offset; focus states
   must survive the dark.
+
+### The score (sound)
+One director, `src/audio/score.ts`, plays one ElevenLabs suite cut into chapter
+cues (`src/audio/cues.ts`; the cutting script and rights live in
+`../design-artifacts/2026-10-06-type-icons-sound/sound/`). TheDepths reports
+its stages; nothing waits on the music, and it fails silently. Rules:
+- **Silence frames it.** The landing is silent; the depths swell in out of the
+  descent; the unveiling (the name inking) is silent.
+- **One chapter, one cue.** A cue loops while she stays; a stage change
+  crossfades forward, and ascents brighten the low-pass as the camera moves.
+  A chapter enters on the chord already sounding (two roots crossfaded beat
+  against each other in the bass).
+- **H7 is a hush; H8 is the one rise.** The H9 wash lands on the splash, the
+  loudest moment of the piece; H10 blooms the answer, then the gentlest bed
+  under the letter.
+- **Sound is on by default and remembered.** Audio still waits for her first
+  touch (the door). "Off" fetches nothing more.
 
 ### Inputs
 - **Style:** no boxes — a bare bottom border only, Playfair Display italic in
@@ -495,12 +517,12 @@ subtracts another gap from it, so it holds slightly *less*. The two columns
 earn their place against one readable 126mm column, not against each other.
 
 ### The reading room's first screen (H10)
-Title, tagline, then **Share your cocktail** and **Save the recipe** as
-equal house pills — they are the page's two jobs (traction and keepsake), so
-they sit with the title, and repeat after the letter. The cue beneath reads
-"Your recipe and reading". On phones the pills drop their tails
-("Share" / "Save") to share one row. Once scrolled, a top scrim keeps the
-reading from printing under the nav mark.
+The title and tagline introduce the cocktail; **Share your cocktail** and
+**Save the recipe** appear **only after the letter**, as equal house pills
+(Robin, 2026-10-06). The opening cue reads "Your recipe and reading". On phones
+the bottom pills shorten to "Share" / "Save". Portrait phones show the
+unobscured scene first and place title/reading below. The screen nav scrim
+keeps text from passing under the mark; it and the mark are hidden in print.
 
 ### The room (H10 background)
 The persona scene is the page's background, never a plate on it. Nothing

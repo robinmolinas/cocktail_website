@@ -1,0 +1,148 @@
+{
+  "pairing": "outlaw-lover",
+  "pour": "Rent-Free",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-lover/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-7a0fe6c9-dc65-495b-a28b-367531c3d4bf.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "79f2aefa53dc6aa6d1ab79a4ebbfac7889b21e49f2f661a36355959ad7cc81bc",
+  "sourceSha256": "be407e8833b844f74f01e7aaf6e381eb5d71e940e3972641067d20f4c4e402ac",
+  "specSha256": "a879424d9b0470beb32a0e90996d926a2184b4a82599ec7e216d1b1d8d06c875",
+  "roomSha256": "db226b7cdb8760065b9f93f6fbe2f56d7e8ef4d07ddf60145094fd97d1745f76",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    950,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1181,
+    "cy": 636,
+    "w": 77,
+    "angle": 74
+  },
+  "glass": {
+    "x": 1142,
+    "y": 432
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1058,
+      "y0": 263,
+      "x1": 1228,
+      "y1": 697
+    },
+    "paper": {
+      "x0": 1149,
+      "y0": 580,
+      "x1": 1210,
+      "y1": 681
+    }
+  },
+  "personalityBounds": {
+    "overnightBag": {
+      "x0": 987,
+      "y0": 306,
+      "x1": 1618,
+      "y1": 646
+    },
+    "foldedShirt": {
+      "x0": 1218,
+      "y0": 398,
+      "x1": 1419,
+      "y1": 458
+    },
+    "houseKeyAndFob": {
+      "x0": 1258,
+      "y0": 447,
+      "x1": 1370,
+      "y1": 558
+    }
+  },
+  "recognitionRegions": {
+    "overnightBag": {
+      "x0": 987,
+      "y0": 306,
+      "x1": 1618,
+      "y1": 646
+    },
+    "houseKeyAndFob": {
+      "x0": 1258,
+      "y0": 447,
+      "x1": 1370,
+      "y1": 558
+    }
+  },
+  "supportingBounds": {
+    "ice": {
+      "x0": 1070,
+      "y0": 263,
+      "x1": 1220,
+      "y1": 461
+    },
+    "stemAttachment": {
+      "x0": 1129,
+      "y0": 544,
+      "x1": 1173,
+      "y1": 601
+    },
+    "servedGarnish": null
+  },
+  "visibility": {
+    "overnightBag": {
+      "masterClipped": false,
+      "unseenExtent": "no frame clipping; internal portions behind glass unknown"
+    },
+    "foldedShirt": {
+      "occluded": true,
+      "unseenExtent": "unknown inside bag"
+    },
+    "houseKeyAndFob": {
+      "occluded": true,
+      "unseenExtent": "small rear ring/attachment hidden; not fabricated"
+    }
+  },
+  "tagPhysics": {
+    "anchor": "Visible front cotton loop around narrow stem below bowl, not rim.",
+    "knot": "Front crossing/knot visible; rear circumferential loop and load cannot be established from one view.",
+    "knotPoint": {
+      "x": 1144,
+      "y": 558
+    },
+    "holePoint": {
+      "x": 1168,
+      "y": 595
+    },
+    "tether": "Short continuous-looking downward string from front knot to punched upper paper hole.",
+    "gravity": "Paper descends below anchor, not glued to bowl.",
+    "airGap": "Paper outside bowl with visible separation from stem along broad face.",
+    "contact": "Lower edge adjacent to glass foot; contact versus overlap uncertain.",
+    "occlusion": "Stem hides rear wrap; small knot crossing cannot prove support.",
+    "uncertainties": [
+      "Rear wrap and full knot topology hidden.",
+      "Load support and lower paper/foot contact not proved."
+    ],
+    "status": "plausible front attachment chain; uncertain, not PASS"
+  },
+  "review": {
+    "recipe": "Pale nearly clear wine/soda, tall stemmed vessel, ice up to rim with ordinary projecting cubes; no garnish. Fine bubbles visible but busy sparkle watch.",
+    "personality": "Recognizable ordinary overnight bag/folded clothing and house key/fob inferred from one-way leaving, wish to land and unpack. Arrival stronger than specific emotional code; not literal dossier possessions.",
+    "world": "Old private reading room recognizable; walnut too glossy/rough with warm amber highlights, not accepted flat-neutral house material.",
+    "issues": [
+      "Glass434px high including projecting ice, above300–360px target.",
+      "Whole bag631px wide; substantial readable bag cannot be replaced by anonymous patch to claim389px phone retention.",
+      "Glossy repetitive rough walnut and amber reflections persist; bag textile/leather overly mottled.",
+      "Dense soda bubbles and spotted ice/condensation risk ad-like sparkle.",
+      "Rear loop/knot-load hidden; paper/foot contact uncertain; not tag-physics PASS."
+    ]
+  },
+  "status": "held measured master candidate; no exporter/browser/integration or acceptance"
+}

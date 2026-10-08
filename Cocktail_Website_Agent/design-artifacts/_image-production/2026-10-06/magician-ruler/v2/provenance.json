@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "version": "v2",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-ruler/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-3b552dd8-7d4f-4330-8805-99264d0f7d60.png",
+  "masterSha256": "0128000fb99dc6f2014e9f4082cf1711c8f8126e9aa9b0c51e60ebf4c995dcdd",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6",
+  "specSha256": "1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56",
+  "roomSha256": "35cf395867739ab2d96beeef48217eeb27089adfeaeab4c4e3cb6750fcea23bb",
+  "prompt": "v2/prompt.md",
+  "parent": "../v1/master.png",
+  "callsForPair": 2,
+  "rootActualNativeViewed": true,
+  "exported": false,
+  "accepted": false
+}

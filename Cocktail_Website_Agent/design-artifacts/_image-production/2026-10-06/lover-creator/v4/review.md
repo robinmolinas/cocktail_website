@@ -1,0 +1,5 @@
+# Original-size portrait correction review
+
+Native1084×1451 exact original viewed/probed. Two glasses now squat, front344px/companion297px high, clear improvement from winegoblet silhouette; outside coarse sugar and orange-gold/no ice/garnish retained. Capacity97ml is not photo-proven. Artwork moved behind but enlarged to479px-wide decorative textured panel, not modest postcard. Brush556px long still broad right. Full/recognition group767px is not compact inner40% or moving-phone acceptance.
+
+Front wrap still looks like multiple tan turns at midstem; companion unexpectedly has its own stem loop though requested plain. Front continuous tether/hole/paper gravity visible, outboard separation plausible, rear load unknown. No strict tag physics PASS. Small80px writable axis name untested. Amber timber reflection/dense panel texture and cool window fill held. Specific hesitation to show unfinished work remains an inference, recognition null. One correction call done, no retry/export. Pair explicitly with unchanged lover-creator/v3 wide; no v4 wide was generated.

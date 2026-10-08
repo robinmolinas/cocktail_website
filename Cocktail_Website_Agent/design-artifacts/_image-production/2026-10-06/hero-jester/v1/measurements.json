@@ -1,0 +1,127 @@
+{
+  "pairing": "hero-jester",
+  "pour": "Hold the Shark",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-jester/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-95bbd480-e987-4054-b853-85e6dbef1b54.png",
+  "sourceSha256": "a5b08ea9af5a06ea5762f838dcb7d49a116803dfe8d53e578e4a860e71abc629",
+  "specSha256": "9780c0547edf09fe9d0b40583a297cd459f49e2530e20936c147e90ff7ae26e7",
+  "roomSha256": "9a133916de1cd11205e9d0941a2c9129b2244e2f2607687d30fa76b98d3a8be7",
+  "masterSha256": "c44abfb4a52458c65c705aeadc8d43a2764fcebf4683b68ab8e7035de289774d",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    910,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1475,
+    "cy": 728,
+    "w": 127,
+    "angle": 42
+  },
+  "glass": {
+    "x": 1199,
+    "y": 541
+  },
+  "bounds": {
+    "glass": {
+      "x0": 995,
+      "y0": 319,
+      "x1": 1404,
+      "y1": 752
+    },
+    "paper": {
+      "x0": 1387,
+      "y0": 658,
+      "x1": 1568,
+      "y1": 779
+    },
+    "mintBranch": {
+      "x0": 928,
+      "y0": 105,
+      "x1": 1210,
+      "y1": 356
+    },
+    "squeezedHalfLimeShell": {
+      "x0": 1233,
+      "y0": 208,
+      "x1": 1371,
+      "y1": 337
+    },
+    "crushedIceMound": {
+      "x0": 1078,
+      "y0": 240,
+      "x1": 1389,
+      "y1": 363
+    }
+  },
+  "personBounds": {
+    "scrapbookAndPencil": {
+      "x0": 431,
+      "y0": 357,
+      "x1": 1009,
+      "y1": 517
+    },
+    "foldedRaincoat": {
+      "x0": 282,
+      "y0": 139,
+      "x1": 1563,
+      "y1": 487
+    }
+  },
+  "recognitionRegions": {
+    "scrapbookAndPencil": {
+      "x0": 435,
+      "y0": 362,
+      "x1": 1006,
+      "y1": 513
+    },
+    "foldedRaincoat": {
+      "x0": 286,
+      "y0": 176,
+      "x1": 1015,
+      "y1": 461
+    }
+  },
+  "traceExtentNotes": {
+    "scrapbookAndPencil": "Wholevisibleopenblankbackscrapbook/pencil, rearoccludedglass; ordinaryretellingformat.",
+    "foldedRaincoat": "Broadcoat, collarANDcuff together inrecordedcore; rear/rightoccludedglass, hiddenextentunknown. Road-raincoat ordinaryinferencefrommotorwayrainnotexplicitpossession."
+  },
+  "group": {
+    "fullWidth": 1286,
+    "recognitionWidth": 1282
+  },
+  "tagPhysics": {
+    "supportLoop": "ExteriorLOWbody curvedfront y569–615/rearhidden.",
+    "knot": "Visible sideknot1379,584.",
+    "tether": "Continuousdownwardtether tohole1435,680, ~96px longerthanrequestedshort.",
+    "hole": "Punchedhole1435,680.",
+    "gravity": "Smallpaperdownright/outboard.",
+    "airgap": "Broadface separatefromglass clearoutboardgap.",
+    "contact": "Bottom779restswood/contactshadow.",
+    "uncertainty": "Posteriorloop/friction/knotloadunproven; tetherlength/namefitwatch.",
+    "assessment": "Plausibleoutsidechain/contact, notPASS."
+  },
+  "review": {
+    "recipe": "HazyGOLDMaiTai350mlDOF/crushedmoundabove rim/ONEBIGmintbranch/ONEspentsqueezedhalflimeCUTSIDEUP. Nofoam/extrafruit/straw.",
+    "personality": "Blankbackscrapbook+pencil retelling; damproadcoat privatebad-dayremainordinaryinference, broadnotcompact.",
+    "world": "Historicroom but brightcoolwindow+visiblelamp/glossyamber table.",
+    "issues": [
+      "Glass433pxvs300–360, servedminttop105/foot779.",
+      "Full1286/recognition1282 includes ALLmint/limeshell/ice/paper, not389phone.",
+      "Portraitlosescoatcollar/cuff+mostnotebook.",
+      "Glossyamber/densewetice+coatdroplets.",
+      "Tagtetherlong/posteriorloaduncertain/namefituntested."
+    ]
+  }
+}

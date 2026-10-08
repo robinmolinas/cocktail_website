@@ -70,7 +70,7 @@ This epic covers the shared core and the App's local reveal. It is not the serve
   - Integration owner: `App.tsx`, `types.ts` and `TheReading` props (entries 5 and 7).
   - One writer per file at a time, per the continuation plan.
 - Decision (2026-10-06): the bounded final choice is built here as a core rule (`boundedPick`). The LLM call that exercises it is epic 2.
-- Decision (2026-10-06): the reveal uses all authored pours, with status visible in development. Whether release is approved-only is the initiative's open question.
+- Decision (2026-10-06): the reveal uses all authored pours, with status visible in development. Release also serves all 132 authored pours (Robin, 2026-10-08).
 - Assumption: the dossier markdown layout (Cocktail table, `**contains:**`, Anchors table, Reading blocks) is stable enough to parse. The import fails loudly on any deviation and never guesses.
-- Unknown: entry 9 (Q12 words) waits on Robin's labels and the design owner's 12-sphere layout check.
-- Known gap: personas.ts / image registry. 17 image pairs exist and 3 are approved pilots. The rest fall back to `_fallback.jpg` per AD-11. That is not a blocker, and it is recorded for the image owner.
+- Unknown: entry 9 (Q12 words) has Robin's label approval as of 2026-10-08: Knowledge, Influence, Making, Caring. Implementation, coverage refresh and the actual 12-sphere world-layout check remain.
+- Known gap: personas.ts / image registry. 17 public image pairs exist; the image queue separately records 115 generated candidate scenes, none newly accepted/integrated at the 2026-10-08 document check. Missing registered pairs use `_fallback.jpg` per AD-11. That is not a blocker, and it is recorded for the image owner.

@@ -1,0 +1,403 @@
+{
+  "pairing": "magician-hero",
+  "pour": "Worth the Trade",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "878d86bdbe9674fa19fcda3893ae0c61ba59522cb3df9c85ac9505762199a2b0",
+  "review": {
+    "recipe": "Pale amber old-fashioned with one large broad wet cube, no garnish or foam. Faint fruit haze permissible but subtle; dense trapped-air/wet detail and top facet sheen remain realism concerns.",
+    "personality": "Mended pouch survives, but separate retained old zipper disappeared; attached working pouch pull cannot be counted as second trace. Repair-and-retention interpretation is source-grounded inference, not literal biography; only repair reads now.",
+    "world": "Neutral near-black historic timber and quiet left third retained. Wood flatter than batch04 but conspicuous warm glossy right reflection, uniformly granular cloth/repair and dense ice detail remain held/watch.",
+    "issues": [
+      "Sole correction exhausted; candid measured candidate, not accepted.",
+      "Second essential trace missing; no false separate-pull bounds supplied.",
+      "Glass368px high exceeds280–330px target.",
+      "Full group676px/recognizable pouch+completeglasspaper666px exceed389px moving-phone window; missing secondtrace prevents personality retention regardless.",
+      "Proposed702portrait retains depicted objects only, NOT phone or two-trace PASS.",
+      "Tag body-tied outside with lightgap and genuinely blank, but usable117px axis below170–200px goal.",
+      "Dense ice detail/raised-looking patch and warm glossy table remain material holds; current recipe unchanged.",
+      "No exporter/JPEG/browser/public/shared/source edits."
+    ]
+  },
+  "measurements": {
+    "pairing": "magician-hero",
+    "pour": "Worth the Trade",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-hero/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-a210e317-8074-4ec3-8e1f-f77f2bd36a45.png",
+    "masterDimensions": [
+      1672,
+      941
+    ],
+    "masterSha256": "e967cc6de21a5f629094eb087139fa49e999dc3392754a02a7813d12ae206b3b",
+    "sourceSha256": "878d86bdbe9674fa19fcda3893ae0c61ba59522cb3df9c85ac9505762199a2b0",
+    "specSha256": "b4c6a2b7dfe606864723002af2bc77fa9d528665fe22ab6c0c16a9b617764508",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      666,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1286,
+      "cy": 596,
+      "w": 117,
+      "angle": 74
+    },
+    "glass": {
+      "x": 1081,
+      "y": 484
+    },
+    "bounds": {
+      "glass": {
+        "x0": 937,
+        "y0": 301,
+        "x1": 1226,
+        "y1": 669
+      },
+      "paper": {
+        "x0": 1214,
+        "y0": 497,
+        "x1": 1354,
+        "y1": 680
+      },
+      "mendedPouch": {
+        "x0": 678,
+        "y0": 253,
+        "x1": 1310,
+        "y1": 578
+      }
+    },
+    "recognitionRegions": {
+      "mendedPouch": {
+        "bounds": {
+          "x0": 688,
+          "y0": 265,
+          "x1": 941,
+          "y1": 575
+        },
+        "reason": "Zipped opening plus substantial repaired cloth face identify pouch despite glass occlusion."
+      },
+      "retainedZipper": {
+        "bounds": null,
+        "present": false,
+        "reason": "The separate removed old zipper disappeared during edit. The attached pouch zipper/pull is part of the pouch, NOT a second personal trace."
+      }
+    },
+    "missingEssentialTraces": [
+      "separate removed old zipper with attached pull"
+    ],
+    "review": {
+      "recipe": "Pale amber old-fashioned with one large broad wet cube, no garnish or foam. Faint fruit haze permissible but subtle; dense trapped-air/wet detail and top facet sheen remain realism concerns.",
+      "personality": "Mended pouch survives, but separate retained old zipper disappeared; attached working pouch pull cannot be counted as second trace. Repair-and-retention interpretation is source-grounded inference, not literal biography; only repair reads now.",
+      "world": "Neutral near-black historic timber and quiet left third retained. Wood flatter than batch04 but conspicuous warm glossy right reflection, uniformly granular cloth/repair and dense ice detail remain held/watch.",
+      "issues": [
+        "Sole correction exhausted; candid measured candidate, not accepted.",
+        "Second essential trace missing; no false separate-pull bounds supplied.",
+        "Glass368px high exceeds280–330px target.",
+        "Full group676px/recognizable pouch+completeglasspaper666px exceed389px moving-phone window; missing secondtrace prevents personality retention regardless.",
+        "Proposed702portrait retains depicted objects only, NOT phone or two-trace PASS.",
+        "Tag body-tied outside with lightgap and genuinely blank, but usable117px axis below170–200px goal.",
+        "Dense ice detail/raised-looking patch and warm glossy table remain material holds; current recipe unchanged.",
+        "No exporter/JPEG/browser/public/shared/source edits."
+      ]
+    },
+    "sourceRefresh": {
+      "previousSourceSha256": "23441510e1785d4ea12ffe763e05022faecdb3baa54abff479006ea6aaca631e",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** Everyone remembers that you saved it. You remember what you had to change.",
+        "+ - **tagline:** You know what has to change to save what matters.",
+        "- **tagline:** Everyone remembers that you saved it. You remember what you had to change.",
+        "+ **tagline:** You know what has to change to save what matters."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1476.7464114832535,
+        "cy": 684.7659574468086,
+        "w": 134.35406698564594,
+        "angle": 74.00807106952068
+      },
+      "glass": {
+        "x": 1241.33971291866,
+        "y": 556.0851063829787
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 791.3390313390314,
+        "cy": 760.8510638297872,
+        "w": 149.33333333333331,
+        "angle": 74.0028834354645
+      },
+      "glass": {
+        "x": 529.6866096866097,
+        "y": 617.8723404255319
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/magician-hero/portrait.jpg",
+    "wide": "/personas/magician-hero/wide.jpg",
+    "wideTag": {
+      "cx": 0.7691387559808612,
+      "cy": 0.6340425531914894,
+      "w": 0.06997607655502393,
+      "angle": 74.00807106952068
+    },
+    "wideGlass": {
+      "x": 0.6465311004784688,
+      "y": 0.5148936170212766
+    },
+    "tag": {
+      "cx": 0.8831908831908832,
+      "cy": 0.6340425531914894,
+      "w": 0.16666666666666666,
+      "angle": 74.0028834354645
+    },
+    "glass": {
+      "x": 0.5911680911680912,
+      "y": 0.5148936170212766
+    }
+  },
+  "hashes": {
+    "master": "e967cc6de21a5f629094eb087139fa49e999dc3392754a02a7813d12ae206b3b",
+    "wide": "513850ee80da552b0b7036cf78f4a6860789820a37955b18d289b12e5cfa087c",
+    "portrait": "9f4f2902781829964faafbff790e0180761624b7f7b6c00075f300c643cb05ed"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1075.9808612440193,
+          "y0": 345.82978723404256,
+          "x1": 1407.846889952153,
+          "y1": 768.6382978723403
+        },
+        "paper": {
+          "x0": 1394.066985645933,
+          "y0": 571.0212765957447,
+          "x1": 1554.8325358851675,
+          "y1": 781.2765957446809
+        },
+        "mendedPouch": {
+          "x0": 778.5645933014354,
+          "y0": 290.68085106382983,
+          "x1": 1504.3062200956938,
+          "y1": 664.0851063829788
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 816.6507177033494,
+          "y0": 288.1914893617021,
+          "x1": 1093.2057416267942,
+          "y1": 640.531914893617
+        },
+        "paper": {
+          "x0": 1081.7224880382776,
+          "y0": 475.8510638297872,
+          "x1": 1215.6937799043062,
+          "y1": 651.0638297872341
+        },
+        "mendedPouch": {
+          "x0": 568.8038277511962,
+          "y0": 242.2340425531915,
+          "x1": 1173.5885167464114,
+          "y1": 553.404255319149
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1147.7129186602872,
+          "y0": 315.5251063829787,
+          "x1": 1501.7033492822966,
+          "y1": 766.5208510638297
+        },
+        "paper": {
+          "x0": 1487.0047846889952,
+          "y0": 555.7293617021277,
+          "x1": 1658.488038277512,
+          "y1": 780.0017021276597
+        },
+        "mendedPouch": {
+          "x0": 830.4688995215311,
+          "y0": 256.69957446808513,
+          "x1": 1604.5933014354066,
+          "y1": 654.9974468085107
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1927.7990430622012,
+          "y0": 391.9117021276595,
+          "x1": 2522.3923444976076,
+          "y1": 1149.4436170212764
+        },
+        "paper": {
+          "x0": 2497.7033492822966,
+          "y0": 795.3797872340425,
+          "x1": 2785.7416267942585,
+          "y1": 1172.0872340425533
+        },
+        "mendedPouch": {
+          "x0": 1394.9282296650717,
+          "y0": 293.10319148936173,
+          "x1": 2695.2153110047843,
+          "y1": 962.1191489361702
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.9646430870323398,
+        "y": 0.5148936170212766
+      },
+      "bounds": {
+        "glass": {
+          "x0": 11.582781386514682,
+          "y0": 270.2595744680851,
+          "x1": 271.01860284900283,
+          "y1": 600.6765957446808
+        },
+        "paper": {
+          "x0": 260.2461811965811,
+          "y0": 446.2425531914894,
+          "x1": 385.9244338081671,
+          "y1": 610.5531914893618
+        },
+        "mendedPouch": {
+          "x0": -220.92198594491933,
+          "y0": 227.1617021276596,
+          "x1": 346.4255544159545,
+          "y1": 518.9702127659575
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.9647313162587458,
+        "y": 0.5148936170212766
+      },
+      "bounds": {
+        "glass": {
+          "x0": 12.126957644824301,
+          "y0": 298.43829787234046,
+          "x1": 298.6129595441596,
+          "y1": 663.3063829787234
+        },
+        "paper": {
+          "x0": 286.717347008547,
+          "y0": 492.77021276595747,
+          "x1": 425.49949325736,
+          "y1": 674.2127659574469
+        },
+        "mendedPouch": {
+          "x0": -244.62001291547955,
+          "y0": 250.84680851063834,
+          "x1": 381.88224729344734,
+          "y1": 573.0808510638299
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.945102750922423,
+        "y": 0.5148936170212766
+      },
+      "bounds": {
+        "glass": {
+          "x0": 65.33059221272555,
+          "y0": 181.8808510638298,
+          "x1": 239.9272113960114,
+          "y1": 404.2468085106383
+        },
+        "paper": {
+          "x0": 232.6775247863248,
+          "y0": 300.3148936170213,
+          "x1": 317.25720189933526,
+          "y1": 410.8936170212766
+        },
+        "mendedPouch": {
+          "x0": -91.1418104463438,
+          "y0": 152.87659574468086,
+          "x1": 290.6750176638177,
+          "y1": 349.25957446808513
+        }
+      }
+    }
+  ]
+}

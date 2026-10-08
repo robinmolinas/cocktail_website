@@ -1,0 +1,3 @@
+# Root-authorized sole portrait correction
+
+Full current settled source/spec/closed room and current house rules read this turn before calls; cold recipe/personality settled and unchanged. Root personally viewed all4primaries, authorized ONE targeted portrait correction per owned pair. This is Hoping's sole correction (overall call5of6), reference is own v3 portrait already viewed original-size. v3 fresh wide and portrait remain preserved; root chooses explicit mixed-version pair. Change only excessive apple chunkiness toward soft loose mash, calmer material reflections and single fine stem turn. Retain ONE cloudy lump/spoon, ready chair/olive throw/small outboard blank tag, no hot/strained/garnish interpretation. No exporter/code/hash/header/browser/acceptance claims.

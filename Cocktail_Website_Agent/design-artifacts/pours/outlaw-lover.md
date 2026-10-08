@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 ## Cocktail
 
 - **name:** Rent-Free
-- **tagline:** You love like it's a getaway. Even where you stop is a hideout.
+- **tagline:** You make choosing someone feel like choosing freedom.
 - **glassware:** a tall stemmed wine glass, filled with ice
 - **contains:** `[]`
 

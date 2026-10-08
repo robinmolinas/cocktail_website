@@ -1,0 +1,106 @@
+{
+  "pairing": "ruler-jester",
+  "pour": "Who's In?",
+  "asset": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v7/master.png",
+  "generated": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-56b0452f-c487-4d8f-a94c-8ec10adc4657.png",
+  "tag": {
+    "cx": 1216,
+    "cy": 711,
+    "w": 54,
+    "angle": 17
+  },
+  "glass": {
+    "x": 1153,
+    "y": 585
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1071,
+      "y0": 317,
+      "x1": 1250,
+      "y1": 738
+    },
+    "paper": {
+      "x0": 1176,
+      "y0": 674,
+      "x1": 1256,
+      "y1": 747
+    }
+  },
+  "personalityBounds": {
+    "phone": {
+      "x0": 909,
+      "y0": 548,
+      "x1": 1080,
+      "y1": 645
+    },
+    "gloves": {
+      "x0": 832,
+      "y0": 550,
+      "x1": 1084,
+      "y1": 674
+    }
+  },
+  "kind": "wide",
+  "masterSha256": "6903cdf351a0ce0a415c1bc5b492abaeb4b546a26ed037bbc1230641e9dea31d",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-56b0452f-c487-4d8f-a94c-8ec10adc4657.png",
+  "generatedSha256": "6903cdf351a0ce0a415c1bc5b492abaeb4b546a26ed037bbc1230641e9dea31d",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "b30d4397433966f08272443476b0d53379352b35a6aee6f7d98fc39760c44a80",
+  "specSha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683",
+  "roomSha256": "c82c3ded462b4bef619578db493c7edefc8c7ff89cdceffe3f555f26d072ce11",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "review": {
+    "recipe": "ONE raspberry-red mint crushed-ice highball with TWO raspberries, sprig and plain straw. Irregular crushed faces more plausible than v4 beads; internal count/volumes not optically proved.",
+    "personality": "Switched-off phone and recognisable knitted gloves immediately behind the drink: ordinary inferred interrupted-outing/new-plan traces, not literal train/platform or historical possessions.",
+    "world": "Dark timber hotel reading room, warm shaded practical, broad directional wood rather than alligator distress. Warm sheen still watched.",
+    "issues": [
+      "Complete serve pulled back to roughly45% of native height, not requested33%. Above/below space improves ultrawide eligibility but is not a browser pass.",
+      "Tiny writing axis untested with live names; proportional tag still wider than quarter of glass body.",
+      "Hidden rear knot/closure cannot be certified from this front frame.",
+      "Phone/glove recognition and dense wet ice surfaces need final editorial/name/crop review."
+    ]
+  },
+  "measurementMethod": "Conservative manual native-pixel estimates from root original-resolution inspection; not font/glyph or mechanical load tests.",
+  "wideCrop": [
+    4,
+    2,
+    1664,
+    936
+  ],
+  "portraitCrop": null,
+  "tagPhysics": {
+    "frontEvidence": "Low exterior/body or lower handle attachment, small knot, short continuous-looking punched-hole tether, free paper with timber contact.",
+    "status": "Hidden rear closure/friction/load uncertain; no physics PASS"
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "exported": false,
+  "id": "ruler-jester",
+  "version": "v7",
+  "file": "master.png",
+  "src": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-56b0452f-c487-4d8f-a94c-8ec10adc4657.png",
+  "pairedPortrait": "../v6/portrait-master.png",
+  "exportProvenance": {
+    "batch": 14,
+    "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-jester/v7/wide-measurements.json",
+    "originalMeasurementSha256": "b466e64f217015190b6ddfb053d5569b2bcae298da71d6f5813d2dbafaf58b0e",
+    "previousSourceSha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8",
+    "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+    "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+  },
+  "unknownBounds": {},
+  "recognitionRegions": {},
+  "portraitMeasurementFile": "portrait-measurements.json"
+}

@@ -1,3 +1,5 @@
+> **Exploration reference — reviewed 8 October 2026.** Type alternatives were declined; music remains open. Sample-engine behavior, prices/licences and recommendations are dated proposal evidence, not production implementation or a purchase decision. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # Background music: three concepts, production path, rights, integration
 
 Status: **concept sketches for Robin to audition.** They are not production masters and are not wired into the app. I synthesised them; I could not listen to them. They are checked by measurement (seam continuity, loudness, peaks, spectrograms), not by ear. Robin's ear is the test.

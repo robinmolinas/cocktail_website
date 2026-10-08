@@ -1,0 +1,190 @@
+{
+  "pairing": "explorer-jester",
+  "pour": "Why Not?",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-jester/v4/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-b3191841-a070-40f1-8548-74dd78b8931b.png",
+  "masterSha256": "0538f3b53ee98d0641728600c73b9d7964bda0b5bc4874c7a0df48445d5b2292",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "sourceSha256": "0b78a3bd3afc66405d2eb513a64e24549a5abdd0cacc3c13f5457749b907d416",
+  "specSha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851",
+  "roomSha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": null,
+  "portraitCrop": [
+    10,
+    13,
+    1064,
+    1425
+  ],
+  "tag": {
+    "cx": 782,
+    "cy": 968,
+    "w": 82,
+    "angle": 66
+  },
+  "glass": {
+    "x": 590,
+    "y": 861
+  },
+  "bounds": {
+    "glass": {
+      "x0": 396,
+      "y0": 760,
+      "x1": 789,
+      "y1": 970
+    },
+    "paper": {
+      "x0": 734,
+      "y0": 915,
+      "x1": 826,
+      "y1": 1018
+    }
+  },
+  "supportingBounds": {
+    "saucer": {
+      "x0": 349,
+      "y0": 872,
+      "x1": 764,
+      "y1": 1008
+    },
+    "orangePeel": {
+      "x0": 499,
+      "y0": 805,
+      "x1": 610,
+      "y1": 849
+    },
+    "steam": {
+      "x0": 491,
+      "y0": 628,
+      "x1": 550,
+      "y1": 763
+    },
+    "clampedJoint": {
+      "x0": 595,
+      "y0": 611,
+      "x1": 743,
+      "y1": 704
+    },
+    "tagCord": {
+      "x0": 726,
+      "y0": 867,
+      "x1": 765,
+      "y1": 939
+    }
+  },
+  "personalityBounds": {
+    "handClamp": {
+      "x0": 493,
+      "y0": 514,
+      "x1": 908,
+      "y1": 840
+    },
+    "spanner": {
+      "x0": 809,
+      "y0": 564,
+      "x1": 962,
+      "y1": 902
+    }
+  },
+  "recognitionRegions": {
+    "handClamp": {
+      "x0": 493,
+      "y0": 514,
+      "x1": 908,
+      "y1": 840
+    },
+    "spanner": {
+      "x0": 809,
+      "y0": 564,
+      "x1": 962,
+      "y1": 902
+    }
+  },
+  "physicalRecognitionRegions": {
+    "cup": {
+      "x0": 396,
+      "y0": 760,
+      "x1": 789,
+      "y1": 970
+    },
+    "saucer": {
+      "x0": 349,
+      "y0": 872,
+      "x1": 764,
+      "y1": 1008
+    },
+    "servedOrange": {
+      "x0": 499,
+      "y0": 805,
+      "x1": 610,
+      "y1": 849
+    }
+  },
+  "visibility": {
+    "handClamp": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Whole visible clamp silhouette survives portrait; lower-left portion hidden by cup."
+    },
+    "spanner": {
+      "masterClipped": false,
+      "occluded": false,
+      "unseenExtent": null
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Low actual handle-region thin taupe front loop/knot/short hole tether",
+    "anchorBounds": {
+      "x0": 726,
+      "y0": 867,
+      "x1": 760,
+      "y1": 920
+    },
+    "knotPoint": {
+      "x": 750,
+      "y": 915
+    },
+    "holePoint": {
+      "x": 758,
+      "y": 931
+    },
+    "knot": "Small doubled gathering visible",
+    "tether": "~16px short descent to hole; short tail",
+    "hole": "Visible punched circle with strand",
+    "gravity": "Paper down/outside cup",
+    "airGap": "Clear separation from bowl",
+    "contact": "Lower corner near wood shadow; exact contact not fully proven",
+    "occlusion": "Rear lowhandle support/load hidden",
+    "uncertainties": [
+      "Rear routing/load unknown",
+      "Doubled strand",
+      "Woodcontact uncertain"
+    ],
+    "status": "held"
+  },
+  "recognitionUnionWidth": 613,
+  "cropAssessment": {
+    "portrait": "Whole visible cup/saucer/tag/tools survive native and [10,13,1064,1425]. Cup+saucer248px=17.1% height; smaller than25–30% aim. Meaningful group613px=56.5% nativewidth, misses40% target.",
+    "movingPhone": "613px union exceeds~601px fullnative and~590px proposedexactcrop breathing-endwidth, plus translation clearance untested: HOLD.",
+    "wide": "Root expressly pairs unchanged v3 wide; no new wide raster."
+  },
+  "review": {
+    "recipe": "ONE hot wide china+singlepeelIN+steam,noice/egg/flame; unchanged.",
+    "personality": "Full smaller spanner now close to realclamp; union613 versus766 improved but not central40% target. Clamp inferred, spanner explicit.",
+    "world": "Timber smoother versus alligator predecessor but retains strong warm sheen; clamp heavyfinewear persists.",
+    "issues": [
+      "portrait-group613-notcentral40",
+      "portrait-phone-clearance",
+      "material-warm-sheen-wear-watch",
+      "tag-rear-load-contact-uncertain",
+      "name/browser-unchecked"
+    ]
+  },
+  "status": "held-candidate",
+  "version": "v4"
+}

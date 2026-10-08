@@ -1,0 +1,404 @@
+{
+  "pairing": "lover-jester",
+  "pour": "Only Half Joking",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "b4094aba1d3f9b28a3e33edb86118d20e940b8f1a57e8f2cb2cbe05c65bce13b",
+  "review": {
+    "recipe": "One settled pink Jasmine-riff in a plain chilled V-shaped stemmed cocktail glass, broad lemon peel on rim, no serving ice or egg-white foam. Thin surface bubble line is plausible shaken texture. Glass still exceeds requested moderate 425px height (actual 478px); not a change of serve.",
+    "personality": "Worn olive felt hat explicitly grounded in whoYouAre and empty close burgundy chair grounded in the awaiting-reply conversation. Correction puts chair behind glass and hat on its seat; adult-scale recognizable objects retained. Their full recognition region remains too wide for narrow animated phone crop.",
+    "world": "Historic private dark reading-room with shelves, warm practical lamp and quiet dark left third. Glass and blank cream paper are ordinary and unetched. Walnut has long grain/use scratches but retains pronounced warm glossy highlights, so low-satin/neutral house-material intent is not fully met.",
+    "issues": [
+      "Essential hat/chair cluster remains approximately 673px wide; phone cover/motion will lose person evidence.",
+      "Glass/paper union 370px is improved but still needs actual export cover/motion and authored-copy review.",
+      "Actual master aspect 1602×982 requires measured 900px-high wide crop.",
+      "Glass 478px high rather than requested ~425; usable plain tag axis 160px rather than preferred 170px.",
+      "Dense chilled fine speckling and warm glossy/orange tabletop highlights remain material risks.",
+      "No browser-name-overlay or animated-phone acceptance; batch review deferred."
+    ]
+  },
+  "measurements": {
+    "pairing": "lover-jester",
+    "pour": "Only Half Joking",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/lover-jester/v3/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-423e1021-e584-4a6f-a128-954cab162f69.png",
+    "sourceSha256": "b4094aba1d3f9b28a3e33edb86118d20e940b8f1a57e8f2cb2cbe05c65bce13b",
+    "masterSha256": "ae238ce88ef5db724fc2da4918d3ec90d74ef49d0650b9c58833527a46767326",
+    "masterDimensions": {
+      "width": 1602,
+      "height": 982
+    },
+    "wideCrop": [
+      0,
+      40,
+      1602,
+      900
+    ],
+    "portraitCrop": [
+      724,
+      0,
+      732,
+      980
+    ],
+    "tag": {
+      "cx": 1110,
+      "cy": 712,
+      "w": 160,
+      "angle": 9
+    },
+    "glass": {
+      "x": 985,
+      "y": 382
+    },
+    "bounds": {
+      "glass": {
+        "x0": 830,
+        "y0": 266,
+        "x1": 1142,
+        "y1": 744
+      },
+      "paper": {
+        "x0": 1005,
+        "y0": 670,
+        "x1": 1200,
+        "y1": 751
+      },
+      "garnish": {
+        "x0": 1052,
+        "y0": 250,
+        "x1": 1179,
+        "y1": 354
+      }
+    },
+    "personalityBounds": {
+      "hat": {
+        "x0": 859,
+        "y0": 414,
+        "x1": 1318,
+        "y1": 646
+      },
+      "emptyChair": {
+        "x0": 783,
+        "y0": 249,
+        "x1": 1456,
+        "y1": 720
+      }
+    },
+    "recognitionRegions": {
+      "hatCrownAndBrim": {
+        "x0": 859,
+        "y0": 414,
+        "x1": 1318,
+        "y1": 646
+      },
+      "chairBack": {
+        "x0": 787,
+        "y0": 252,
+        "x1": 1330,
+        "y1": 597
+      },
+      "emptySeatVisibleAtRight": {
+        "x0": 1317,
+        "y0": 593,
+        "x1": 1456,
+        "y1": 712
+      }
+    },
+    "measurementNotes": "Original-resolution visual edge measurements, conservative approximately 2–4 pixel uncertainty. Actual master is 1602×982, not assumed 1672×941. 369px glass/paper union (830–1200 = 370px); glass height 478px. Additional garnish bounds included in helper geometry. Full essential hat/chair recognition is not compact: union 673px. Wide crop discards top40/bottom42, preserving complete vessel/tag/garnish. Portrait preserves all photographed person bounds but phone cover cannot preserve all of them. No browser/motion acceptance claimed.",
+    "review": {
+      "recipe": "One settled pink Jasmine-riff in a plain chilled V-shaped stemmed cocktail glass, broad lemon peel on rim, no serving ice or egg-white foam. Thin surface bubble line is plausible shaken texture. Glass still exceeds requested moderate 425px height (actual 478px); not a change of serve.",
+      "personality": "Worn olive felt hat explicitly grounded in whoYouAre and empty close burgundy chair grounded in the awaiting-reply conversation. Correction puts chair behind glass and hat on its seat; adult-scale recognizable objects retained. Their full recognition region remains too wide for narrow animated phone crop.",
+      "world": "Historic private dark reading-room with shelves, warm practical lamp and quiet dark left third. Glass and blank cream paper are ordinary and unetched. Walnut has long grain/use scratches but retains pronounced warm glossy highlights, so low-satin/neutral house-material intent is not fully met.",
+      "issues": [
+        "Essential hat/chair cluster remains approximately 673px wide; phone cover/motion will lose person evidence.",
+        "Glass/paper union 370px is improved but still needs actual export cover/motion and authored-copy review.",
+        "Actual master aspect 1602×982 requires measured 900px-high wide crop.",
+        "Glass 478px high rather than requested ~425; usable plain tag axis 160px rather than preferred 170px.",
+        "Dense chilled fine speckling and warm glossy/orange tabletop highlights remain material risks.",
+        "No browser-name-overlay or animated-phone acceptance; batch review deferred."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1330.3370786516855,
+        "cy": 806.4000000000001,
+        "w": 191.76029962546815,
+        "angle": 9.011065517356501
+      },
+      "glass": {
+        "x": 1180.5243445692884,
+        "y": 410.4
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 472.4808743169399,
+        "cy": 871.8367346938776,
+        "w": 195.84699453551912,
+        "angle": 9.003226168304824
+      },
+      "glass": {
+        "x": 319.4754098360656,
+        "y": 467.7551020408163
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/lover-jester/portrait.jpg",
+    "wide": "/personas/lover-jester/wide.jpg",
+    "wideTag": {
+      "cx": 0.6928838951310862,
+      "cy": 0.7466666666666667,
+      "w": 0.09987515605493133,
+      "angle": 9.011065517356501
+    },
+    "wideGlass": {
+      "x": 0.614856429463171,
+      "y": 0.38
+    },
+    "tag": {
+      "cx": 0.5273224043715847,
+      "cy": 0.726530612244898,
+      "w": 0.2185792349726776,
+      "angle": 9.003226168304824
+    },
+    "glass": {
+      "x": 0.35655737704918034,
+      "y": 0.38979591836734695
+    }
+  },
+  "hashes": {
+    "master": "ae238ce88ef5db724fc2da4918d3ec90d74ef49d0650b9c58833527a46767326",
+    "wide": "651f4e8fbf7648f9672ac927b19a49f25808a1cff1fb3469ad67172a5d453512",
+    "portrait": "5f55764406b3e5571e72e087c9fc0ffa671ce795881f57e471f2aaf27870ecdb"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 994.7565543071162,
+          "y0": 271.2,
+          "x1": 1368.689138576779,
+          "y1": 844.8000000000001
+        },
+        "paper": {
+          "x0": 1204.4943820224719,
+          "y0": 756,
+          "x1": 1438.2022471910113,
+          "y1": 853.2
+        },
+        "garnish": {
+          "x0": 1260.8239700374534,
+          "y0": 252,
+          "x1": 1413.0337078651685,
+          "y1": 376.8
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 748.9637952559301,
+          "y0": 226,
+          "x1": 1060.574282147316,
+          "y1": 704
+        },
+        "paper": {
+          "x0": 923.7453183520599,
+          "y0": 630,
+          "x1": 1118.5018726591761,
+          "y1": 711
+        },
+        "garnish": {
+          "x0": 970.6866416978778,
+          "y0": 210,
+          "x1": 1097.5280898876406,
+          "y1": 314
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1061.0736579275906,
+          "y0": 235.92000000000002,
+          "x1": 1459.9350811485642,
+          "y1": 847.76
+        },
+        "paper": {
+          "x0": 1284.7940074906367,
+          "y0": 753.04,
+          "x1": 1534.0823970037454,
+          "y1": 856.72
+        },
+        "garnish": {
+          "x0": 1344.8789013732835,
+          "y0": 215.44,
+          "x1": 1507.2359550561798,
+          "y1": 348.56
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1782.27215980025,
+          "y0": 258.20000000000005,
+          "x1": 2452.234706616729,
+          "y1": 1285.9
+        },
+        "paper": {
+          "x0": 2158.052434456929,
+          "y0": 1126.8,
+          "x1": 2576.7790262172284,
+          "y1": 1300.95
+        },
+        "garnish": {
+          "x0": 2258.976279650437,
+          "y0": 223.79999999999998,
+          "x1": 2531.685393258427,
+          "y1": 447.4
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.35655737704918034,
+        "y": 0.38979591836734695
+      },
+      "bounds": {
+        "glass": {
+          "x0": 5.616211293260463,
+          "y0": 229.08571428571426,
+          "x1": 274.220364298725,
+          "y1": 640.7510204081633
+        },
+        "paper": {
+          "x0": 156.27559198542804,
+          "y0": 577.0204081632653,
+          "x1": 324.15318761384333,
+          "y1": 646.7795918367347
+        },
+        "garnish": {
+          "x0": 196.73839708561025,
+          "y0": 215.3061224489796,
+          "x1": 306.0740619307833,
+          "y1": 304.8734693877551
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.35655737704918034,
+        "y": 0.38979591836734695
+      },
+      "bounds": {
+        "glass": {
+          "x0": 5.9652094717668405,
+          "y0": 252.9714285714286,
+          "x1": 302.57548269581054,
+          "y1": 707.5591836734693
+        },
+        "paper": {
+          "x0": 172.3331511839708,
+          "y0": 637.1836734693877,
+          "x1": 357.7145719489981,
+          "y1": 714.2163265306122
+        },
+        "garnish": {
+          "x0": 217.01482695810563,
+          "y0": 237.75510204081635,
+          "x1": 337.75041894353365,
+          "y1": 336.6612244897959
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.35655737704918034,
+        "y": 0.38979591836734695
+      },
+      "bounds": {
+        "glass": {
+          "x0": 24.2943533697632,
+          "y0": 154.17142857142855,
+          "x1": 205.06112932604734,
+          "y1": 431.21632653061226
+        },
+        "paper": {
+          "x0": 125.68597449908924,
+          "y0": 388.3265306122449,
+          "x1": 238.66520947176684,
+          "y1": 435.2734693877551
+        },
+        "garnish": {
+          "x0": 152.9168670309654,
+          "y0": 144.89795918367346,
+          "x1": 226.49821493624773,
+          "y1": 205.17551020408163
+        }
+      }
+    }
+  ]
+}

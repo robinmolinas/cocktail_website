@@ -1,0 +1,117 @@
+{
+  "pairing": "jester-hero",
+  "pour": "The Wink",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-hero/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-2c1811ee-38f8-4fea-9d98-8e116cbe22d7.png",
+  "sourceSha256": "82eff8508ef1525cd6c0c17434e8a123e395d73f7ebfc948e8a877beba18bed8",
+  "specSha256": "9f7079ada50ebddd860a3e48976a63f5260c3d04bc42ca9de11235dc917c6284",
+  "roomSha256": "690e1dd6d8df78e5c8d27d4913e9dc925f62d5fa5753a77c1565f73af51cb9d0",
+  "masterSha256": "0ce8cf323cee099268c4bb247f726eb849cae31a407d5062058d0549b60f3dd7",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    832,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1205,
+    "cy": 674,
+    "w": 117,
+    "angle": 86
+  },
+  "glass": {
+    "x": 1060,
+    "y": 603
+  },
+  "bounds": {
+    "glass": {
+      "x0": 846,
+      "y0": 394,
+      "x1": 1276,
+      "y1": 808
+    },
+    "paper": {
+      "x0": 1170,
+      "y0": 582,
+      "x1": 1245,
+      "y1": 753
+    },
+    "halfEggshellWithMezcal": {
+      "x0": 1303,
+      "y0": 623,
+      "x1": 1480,
+      "y1": 810
+    },
+    "garnish": null
+  },
+  "personBounds": {
+    "jokeWorkingScrapsAndPencil": {
+      "x0": 529,
+      "y0": 410,
+      "x1": 867,
+      "y1": 608
+    },
+    "coatAndChair": {
+      "x0": 883,
+      "y0": 18,
+      "x1": 1638,
+      "y1": 583
+    }
+  },
+  "recognitionRegions": {
+    "jokeWorkingScrapsAndPencil": {
+      "x0": 535,
+      "y0": 412,
+      "x1": 851,
+      "y1": 604
+    },
+    "coatAndChair": {
+      "x0": 1000,
+      "y0": 20,
+      "x1": 1590,
+      "y1": 565
+    }
+  },
+  "traceExtentNotes": {
+    "jokeWorkingScrapsAndPencil": "Full visible blank-back folded scraps and pencil, rear portions hidden behind cup. Daily hidden joke-finding source behavior; paper/pencil format inferred, not fake writing.",
+    "coatAndChair": "Coat collar plus repaired cuff on connected ordinary chair; collar top18, broad coat right1638. Chair lower extent and coat back hidden by table/cup, unseenextentunknown. Ordinary coat possession/repair inferred for repeated showingup, not explicit sourceartifact."
+  },
+  "group": {
+    "fullWidth": 1109,
+    "recognitionWidth": 1055
+  },
+  "tagPhysics": {
+    "supportLoop": "Exteriorcup middlebody curved frontarc y541–580, rearhidden; belowrim.",
+    "knot": "Visible right knot near1193,567 atsidebody.",
+    "tether": "Short cord towardpaperhole1203,617, partly overlapped.",
+    "hole": "Visible punchedhole near1203,617.",
+    "gravity": "Paper longaxis downwards but broadface appears laid AGAINSTcup, not free.",
+    "airgap": "No reliable airgap behind broadpaperface; loweredge has narrow shadow only.",
+    "contact": "Paper bottom753 above cupfoot808, no apparent tabletopcontact.",
+    "uncertainty": "Flushpaperface/ceramic support suggests stuck/pressedlabel, unacceptable freehanging ambiguity.",
+    "assessment": "HELD tagphysics: lowerbodychain present but no reliable freepaper gap; sole correction requested."
+  },
+  "review": {
+    "recipe": "Paleopaque softlyyellow wholeegg/milk mezcal nog with thinfineaeration; plain handleless terracottacup/creaminterior. Noice/garnish/spice. ONEupright brown halfshell visibly holds clearmezcal; required accompaniment notempty.",
+    "personality": "Blankback scraps/pencil and wornrepaired collar/cuff, inferredordinaryformats for dailywork/showingup; readable but broad and generic, not source-explicit possessions.",
+    "world": "Historichousedark room but glossyamber densegrain table and coolrightwindow visible.",
+    "issues": [
+      "Cup414px versus300–360target.",
+      "Full1109px/recognition1055px group; portraitlosesjokeworkandrightcoat.",
+      "Broadtagfaceflushcup/noairgap, physicsheld.",
+      "Glossyambergrain/coolwindow rather than one restrainedpractical.",
+      "Coattoo tall/broad; not389movingphone.",
+      "Sourceinferredtraces specificitynotPASS."
+    ]
+  }
+}

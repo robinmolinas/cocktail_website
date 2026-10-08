@@ -1,0 +1,185 @@
+{
+  "pairing": "magician-jester",
+  "pour": "Even When You Know",
+  "sourceSha256": "c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3",
+  "specSha256": "aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32",
+  "roomSha256": "8b1deeee8dfaca1a4bb0fe175139c02952f33b49e52034a7e8132f3172c06e1f",
+  "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "version": "v3",
+  "measurementMethod": "Visual native-pixel estimates, complete visible extents distinguished from unknown hidden/outside; no recipe-volume/name/browser acceptance.",
+  "orientation": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v3/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-8dabc4de-77ba-442c-9231-2d5c8858a529.png",
+  "masterSha256": "7240f3b9db5b277c8763189a32998a1c701128221051360022e62ce961950c27",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "wideCrop": [
+    0,
+    430,
+    1084,
+    610
+  ],
+  "portraitCrop": [
+    0,
+    0,
+    1084,
+    1451
+  ],
+  "crossOrientationCropIntended": false,
+  "tag": {
+    "cx": 579,
+    "cy": 884,
+    "w": 84,
+    "angle": 77
+  },
+  "glass": {
+    "x": 528,
+    "y": 756
+  },
+  "bounds": {
+    "glass": {
+      "x0": 424,
+      "y0": 489,
+      "x1": 632,
+      "y1": 1022
+    },
+    "paper": {
+      "x0": 535,
+      "y0": 812,
+      "x1": 616,
+      "y1": 942
+    },
+    "clearBottomLayer": {
+      "x0": 464,
+      "y0": 690,
+      "x1": 590,
+      "y1": 765
+    },
+    "tawnyMiddleLayer": {
+      "x0": 456,
+      "y0": 628,
+      "x1": 597,
+      "y1": 698
+    },
+    "darkRedTopLayer": {
+      "x0": 440,
+      "y0": 532,
+      "x1": 615,
+      "y1": 635
+    }
+  },
+  "personBounds": {
+    "magnifierAndLinen": {
+      "x0": 430,
+      "y0": 741,
+      "x1": 1084,
+      "y1": 997
+    },
+    "foldedSpectacles": {
+      "x0": 689,
+      "y0": 692,
+      "x1": 1025,
+      "y1": 835
+    }
+  },
+  "recognitionRegions": {
+    "magnifier": {
+      "x0": 592,
+      "y0": 741,
+      "x1": 1058,
+      "y1": 927
+    },
+    "foldedSpectacles": {
+      "x0": 689,
+      "y0": 692,
+      "x1": 1025,
+      "y1": 835
+    },
+    "magnifiedWeave": {
+      "x0": 617,
+      "y0": 772,
+      "x1": 788,
+      "y1": 877
+    },
+    "sharedNextViewerBehaviour": null,
+    "clearBottom": {
+      "x0": 464,
+      "y0": 690,
+      "x1": 590,
+      "y1": 765
+    },
+    "tawnyMiddle": {
+      "x0": 456,
+      "y0": 628,
+      "x1": 597,
+      "y1": 698
+    },
+    "darkRedTop": {
+      "x0": 440,
+      "y0": 532,
+      "x1": 615,
+      "y1": 635
+    }
+  },
+  "unknownExtents": {
+    "linenBeyondRaster": null,
+    "magnifierHiddenUnderside": null,
+    "actualGlass75mlCapacity": null,
+    "actualLayerVolumes": null
+  },
+  "traceExtentNotes": {
+    "magnifierAndLinen": "Whole lens, handle joint, handle and end cap now visible inside raster; linen continues beyond right edge, hidden extent null. Lens not phone-safe merely because portrait contains it.",
+    "foldedSpectacles": "Whole connected lens/bridge/folded arms recognizable, shared viewer interpretation not proved."
+  },
+  "group": {
+    "fullBounds": {
+      "x0": 424,
+      "y0": 489,
+      "x1": 1084,
+      "y1": 1022
+    },
+    "recognitionBounds": {
+      "x0": 424,
+      "y0": 489,
+      "x1": 1058,
+      "y1": 1022
+    },
+    "fullWidth": 660,
+    "recognitionWidth": 634,
+    "physicalServeBoundsIncludingAllPhysicalObjects": {
+      "x0": 424,
+      "y0": 489,
+      "x1": 632,
+      "y1": 1022
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Pale multiple thin stem turns y791–804.",
+    "knot": "Visible right knot547,805.",
+    "tether": "Down/right paired link approximately34px tohole559,835.",
+    "hole": "Punched dark hole559,835.",
+    "gravity": "Paper freely down/right.",
+    "airgap": "Visible separation from main lower stem.",
+    "contact": "No timber contact.",
+    "uncertainty": [
+      "Multiple pale stem turns remain",
+      "Rear/load not observed",
+      "Tether longer than very short"
+    ],
+    "assessment": "Gravity/free paper plausible but single-subdued-strand constraint held; no acceptance."
+  },
+  "review": {
+    "recipe": "Same exact three clear/tawny/red bands/one flared cordial/no garnish/ice/foam; exact dimensions/volume/density test not photo-proof. Bowl looks fuller than approximate two-thirds.",
+    "personality": "Reduced ordinary looking traces, complete magnifier handle visible. Still laterally broad rather than depth-overlapped compact; sharing reason inferred only.",
+    "world": "Plain clear glass and distinct lens/fabric. Hearth unlit and one warm lamp; planed long grain quieter but warm reflective satin/sheeny timber remains.",
+    "issues": [
+      "533px glass",
+      "Full660px/recogn634px width in1084 untested moving-phone",
+      "Linen clips native right frame",
+      "Multiple pale stem turns/paired longer tether",
+      "Name/copymotion/browser/type not approved"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "measurementPath": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/measurements.json",
+    "sourceEqualsStaged": true,
+    "hashMatchesMetadata": true,
+    "nativeDimensionsMatch": true,
+    "dimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "invalidBoxes": [],
+    "tagAxisEndpoints": [
+      {
+        "x": 1312.9569476828142,
+        "y": 748.0906632204075
+      },
+      {
+        "x": 1333.0430523171858,
+        "y": 809.9093367795925
+      }
+    ],
+    "tagAxisWithinPaperRectangle": true,
+    "currentSourceMatches": true,
+    "currentSpecMatches": true,
+    "currentRoomMatches": true,
+    "scope": "Integrity only, no actual glyph, optical layer-density, phone, animation or tag-physics acceptance"
+  },
+  {
+    "measurementPath": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v4/measurements-portrait.json",
+    "sourceEqualsStaged": true,
+    "hashMatchesMetadata": true,
+    "nativeDimensionsMatch": true,
+    "dimensions": {
+      "width": 1084,
+      "height": 1451
+    },
+    "invalidBoxes": [],
+    "tagAxisEndpoints": [
+      {
+        "x": 670.1648762861042,
+        "y": 1044.2948186010153
+      },
+      {
+        "x": 689.8351237138958,
+        "y": 1117.7051813989847
+      }
+    ],
+    "tagAxisWithinPaperRectangle": true,
+    "currentSourceMatches": true,
+    "currentSpecMatches": true,
+    "currentRoomMatches": true,
+    "scope": "Integrity only, no actual glyph, optical layer-density, phone, animation or tag-physics acceptance"
+  }
+]

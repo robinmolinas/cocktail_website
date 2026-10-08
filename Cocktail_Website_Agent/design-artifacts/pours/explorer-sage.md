@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 ## Cocktail
 
 - **name:** Show Your Working
-- **tagline:** You'll wait years for the real answer. Then you give it away.
+- **tagline:** You'll follow a question for years, then share every part of the answer.
 - **glassware:** a tall Zombie glass, filled with crushed ice
 - **contains:** `[]`
 

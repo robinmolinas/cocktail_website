@@ -1,0 +1,153 @@
+{
+  "pairing": "explorer-creator",
+  "pour": "For Good",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-b7891874-5605-4db7-9a75-a0c014feaf6a.png",
+  "masterDimensions": [
+    1602,
+    981
+  ],
+  "masterSha256": "dda609ae51e3947bbe9d6701590e872c2c5297cbb1ba1d7c9661f70ffe1913a9",
+  "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+  "specSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+  "roomSha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8",
+  "wideCrop": [
+    1,
+    40,
+    1600,
+    900
+  ],
+  "portraitCrop": [
+    740,
+    40,
+    672,
+    900
+  ],
+  "tag": {
+    "cx": 995,
+    "cy": 699,
+    "w": 112,
+    "angle": 70
+  },
+  "glass": {
+    "x": 928,
+    "y": 398
+  },
+  "bounds": {
+    "glass": {
+      "x0": 766,
+      "y0": 240,
+      "x1": 1092,
+      "y1": 772
+    },
+    "paper": {
+      "x0": 943,
+      "y0": 625,
+      "x1": 1049,
+      "y1": 767
+    },
+    "frozenMix": {
+      "x0": 781,
+      "y0": 252,
+      "x1": 1085,
+      "y1": 510
+    },
+    "repairBox": {
+      "x0": 947,
+      "y0": 430,
+      "x1": 1506,
+      "y1": 731
+    },
+    "calipers": {
+      "x0": 1097,
+      "y0": 399,
+      "x1": 1480,
+      "y1": 605
+    }
+  },
+  "physicalGarnishBounds": null,
+  "iceBounds": null,
+  "frozenServingBounds": {
+    "x0": 781,
+    "y0": 252,
+    "x1": 1085,
+    "y1": 510
+  },
+  "hiddenExtents": {
+    "repairBox": null,
+    "calipers": null,
+    "freezerBag": null
+  },
+  "recognitionRegions": {
+    "wholeVisibleRepairBox": {
+      "bounds": {
+        "x0": 947,
+        "y0": 430,
+        "x1": 1506,
+        "y1": 731
+      },
+      "reason": "Root actual native review: include entire visible box silhouette, not catch alone; repair history and hidden rear face remain unknown."
+    },
+    "repairCatch": {
+      "bounds": {
+        "x0": 1095,
+        "y0": 524,
+        "x1": 1182,
+        "y1": 619
+      },
+      "reason": "Mounted catch on wooden lid is recognizable; repair history inferred, not optically proved."
+    },
+    "calipers": {
+      "bounds": {
+        "x0": 1098,
+        "y0": 402,
+        "x1": 1480,
+        "y1": 605
+      },
+      "reason": "Caliper jaws, beam and slider together recognizable; tiny scale marks remain."
+    }
+  },
+  "essentialObjectUnion": {
+    "x0": 766,
+    "y0": 240,
+    "x1": 1506,
+    "y1": 772
+  },
+  "supportingObjectUnion": {
+    "x0": 947,
+    "y0": 399,
+    "x1": 1506,
+    "y1": 731
+  },
+  "objectVisibility": {
+    "repairBox": "Visible outer silhouette; back face unknown.",
+    "calipers": "Visible full beam and jaws; underside/contact hidden.",
+    "freezerBag": "Absent after edit."
+  },
+  "tagPhysics": {
+    "mechanism": "Thin subdued taupe wrap around narrow stem; front turn visible, disappears at stem sides.",
+    "knot": "Small loaded junction at front-right stem visible, exact crossed strands uncertain.",
+    "tetherAndHole": "Short downward cord continues into punched hole; edge overlap modest.",
+    "gravity": "Paper drops from support, angled down toward wood/foot.",
+    "paperSeparationOrContact": "Outboard paper overlaps clear foot in projection; lower corner near surface; exact contact not proved.",
+    "uncertainties": [
+      "Far-side cord/friction cannot be verified from single view.",
+      "Cord strand crossing at tiny knot is uncertain.",
+      "Lower paper contact versus tiny air gap unclear."
+    ],
+    "status": "Plausible visible chain, held for independent original review; no physics PASS."
+  },
+  "review": {
+    "recipe": "ONE portion ~263ml from FOUR-serving frozen batch,350ml chilled goblet. Frozen mix supplies ice; no added cube, salt, garnish or whipped foam. Pale opaque frozen texture; actual volume unmeasurable from photograph.",
+    "personality": "Repair catch and calipers ordinary inferred guest habits from jam/stick repair, never historic Martinez/Hobart artifacts. Repair history not visibly provable.",
+    "world": "Historic timber room; table remains too glossy/amber with exaggerated wear and glass dense stippling.",
+    "issues": [
+      "Glass larger than300–360px target.",
+      "Full group exceeds389px moving-phone window and portrait crops caliper/right box.",
+      "Dense condensation/material hold.",
+      "Scale marks on calipers remain lettering watch.",
+      "Small tag real-name test pending.",
+      "No crop/phone/browser/export/final acceptance."
+    ]
+  }
+}

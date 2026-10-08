@@ -1,0 +1,124 @@
+{
+  "pairing": "innocent-creator",
+  "pour": "The Way It Felt",
+  "sourceSha256": "5bda13c71998d5c20539560bfc73235a0dcfa377e7fee916b932df372a8e8db7",
+  "specSha256": "de86d0e08f80fbf0f1b9c226200980bbca020ebf99e3b4cb20009c87b1b9ad24",
+  "roomSha256": "f8cb393e26c07fa706448b1a92a4859e39216870ec6eca5bfc3c6721e4fb6b78",
+  "houseRuleSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "physicalGarnishBounds": null,
+  "hiddenExtents": {
+    "cakeBehindGlass": null,
+    "cardBack": null
+  },
+  "tagPhysics": {
+    "mechanism": "Fine brown/taupe exterior wrap near clear lower foot; front arc follows vessel contour and side turns disappear behind glass.",
+    "knot": "Small join at right foot, partly overlaid by edge reflection; mechanical detail uncertain.",
+    "tetherAndHole": "Short continuous-looking tether into dark visible punched paper hole.",
+    "gravity": "Paper outboard down from support, most lower edge rests timber with contact shadow.",
+    "separation": "Paper appears separate from glass rather than pasted; hole close to foot.",
+    "uncertainties": [
+      "Exact knot/rear load and glass friction not provable.",
+      "Cord overlaps bright clear-foot reflection; continuity at knot remains held."
+    ],
+    "status": "plausible visual chain, not physics PASS"
+  },
+  "review": {
+    "recipe": "Dark red-brown wine-cola with opaque burgundy cubes and thin fizz, no added garnish. Cube count/ratio not measurable from view. Cubes have broad faces but dense sparkle/wet dots remain.",
+    "personality": "Recognizable hand-spread icing/cake crumb and modest folded card with two hand-colour crayon patches; explicit source gestures. No discernible words; not claiming exact card drawing.",
+    "world": "Private dark historic walnut room; directional grain rather than crackled ornament, but prominent wet/gloss detail remains appearance watch.",
+    "issues": [
+      "Vessel oversized relative to brief.",
+      "Two traces still laterally spread, portrait lane request missed.",
+      "Dense wet sparkling surface detail.",
+      "Real-name/phone/browser/material/support acceptance pending."
+    ]
+  },
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-creator/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-dc8cc68f-a83f-4cdb-afef-3467acb3626d.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "15511d7d5c871bf2ac4cdcedcbc10266e3887a3205ea3178a077bc6c8265ba96",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    825,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1177,
+    "cy": 746,
+    "w": 138,
+    "angle": 12
+  },
+  "glass": {
+    "x": 964,
+    "y": 504
+  },
+  "bounds": {
+    "glass": {
+      "x0": 834,
+      "y0": 247,
+      "x1": 1093,
+      "y1": 755
+    },
+    "paper": {
+      "x0": 1077,
+      "y0": 688,
+      "x1": 1250,
+      "y1": 788
+    },
+    "cake": {
+      "x0": 1072,
+      "y0": 421,
+      "x1": 1308,
+      "y1": 605
+    },
+    "plate": {
+      "x0": 1073,
+      "y0": 527,
+      "x1": 1369,
+      "y1": 639
+    },
+    "card": {
+      "x0": 1350,
+      "y0": 339,
+      "x1": 1631,
+      "y1": 637
+    },
+    "frozenCubes": {
+      "x0": 851,
+      "y0": 281,
+      "x1": 1082,
+      "y1": 651
+    }
+  },
+  "recognitionRegions": {
+    "cake": {
+      "x0": 1090,
+      "y0": 425,
+      "x1": 1301,
+      "y1": 602
+    },
+    "card": {
+      "x0": 1351,
+      "y0": 339,
+      "x1": 1629,
+      "y1": 635
+    }
+  },
+  "allSupportingObjectUnion": {
+    "x0": 834,
+    "y0": 247,
+    "x1": 1631,
+    "y1": 788
+  },
+  "phoneAssessment": "797px full support union. Proposed702portrait crops handmade card. Separate dedicated portrait not proof of same-master cover."
+}

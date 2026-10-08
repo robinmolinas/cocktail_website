@@ -1,0 +1,135 @@
+{
+  "pairing": "sage-caregiver",
+  "pour": "Further Than Me",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-caregiver/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-705e1b6b-1c84-4b18-a2c0-57544a84a9c5.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "959467dc87c7e65a371a58cd38e066434057d442785a7ca1d095063ead756816",
+  "sourceSha256": "28566d97e3a6601310ad54ada169c8b5beb7fa5df9dcfd2e3f792948eba646e0",
+  "specSha256": "397c3f3bc87ff0e5a67da66fb0072dd8f296c7004984c0af4ebfe077015e9eb9",
+  "roomSha256": "c1ff52109d7ad2140eed28e15918c1ee0b451ca497994e480d49b42bf9098d2c",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    578,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1172,
+    "cy": 720,
+    "w": 68,
+    "angle": 58
+  },
+  "glass": {
+    "x": 1060,
+    "y": 542
+  },
+  "bounds": {
+    "glass": {
+      "x0": 964,
+      "y0": 349,
+      "x1": 1158,
+      "y1": 736
+    },
+    "paper": {
+      "x0": 1127,
+      "y0": 663,
+      "x1": 1213,
+      "y1": 755
+    },
+    "phone": {
+      "x0": 682,
+      "y0": 562,
+      "x1": 978,
+      "y1": 651
+    },
+    "spectacles": {
+      "x0": 744,
+      "y0": 499,
+      "x1": 978,
+      "y1": 600
+    },
+    "mintGarnish": {
+      "x0": 950,
+      "y0": 257,
+      "x1": 1095,
+      "y1": 387
+    },
+    "tarragonGarnish": {
+      "x0": 1050,
+      "y0": 268,
+      "x1": 1175,
+      "y1": 571
+    },
+    "cardigan": {
+      "x0": 35,
+      "y0": 162,
+      "x1": 501,
+      "y1": 496
+    }
+  },
+  "recognitionRegions": {
+    "phone": {
+      "bounds": {
+        "x0": 686,
+        "y0": 570,
+        "x1": 974,
+        "y1": 649
+      }
+    },
+    "spectacles": {
+      "bounds": {
+        "x0": 747,
+        "y0": 502,
+        "x1": 976,
+        "y1": 589
+      }
+    },
+    "cardigan": {
+      "bounds": {
+        "x0": 58,
+        "y0": 174,
+        "x1": 493,
+        "y1": 490
+      }
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "External snug lower body/base-transition loop; front arc y654–681; still immediately beside pale liquid, not requested fully transparent-base placement.",
+    "knot": {
+      "x": 1139,
+      "y": 666
+    },
+    "paperHole": {
+      "x": 1149,
+      "y": 681
+    },
+    "gravity": "Short down tether; small paper hangs outboard right and rests timber at~753.",
+    "uncertainty": "Rear loop/friction/knot load unobservable; needed lower-base focused edit."
+  },
+  "objectVisibility": {
+    "phone": "Right end occluded; visible bbox only, hidden extent unknown.",
+    "spectacles": "Right lens partly hidden.",
+    "cardigan": "Full visible garment; chair may be master-clipped; added inferred trace lost byportrait."
+  },
+  "review": {
+    "issues": [
+      "Intermediate superseded by v4 due cord still high.",
+      "Cardigan adds inferred care trace but lies far left of drink and is lost by proposed portrait.",
+      "Glossy amber crackled timber/dense droplets and patterned ice; no material or name acceptance."
+    ],
+    "scope": "Original-size PNG only/manual source-pixel measurements; no export/name/phone/material/final acceptance."
+  },
+  "exported": false,
+  "accepted": false,
+  "integrated": false
+}

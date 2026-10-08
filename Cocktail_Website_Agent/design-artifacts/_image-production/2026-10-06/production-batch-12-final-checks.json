@@ -1,0 +1,235 @@
+{
+  "id": "production-batch-12-final-checks",
+  "date": "2026-10-07",
+  "status": "PASS-private-native-continuity-only",
+  "scope": "Read-only original copy/dimension/source/spec/closed-room/provenance/registration/protected continuity; NOT image acceptance or JPEG/mechanics/material/personality/name/phone/browser approval",
+  "selectedMasters": 7,
+  "preservedNativeVersions": [
+    {
+      "pairing": "hero-creator",
+      "version": "v1",
+      "masterSha256": "157a4d932e3ed1ed87e14eb7dc19e4f4f3abbb2a355ae9acc216c27da8fe6a4f",
+      "sourceSha256": "c657ff96a0f41ba56c71e70e8f8a373d98680c6fe2d68536effe7ec447bf40a5",
+      "specSha256": "97f064979295e88a43ac1c86d10b4f7e0fe8334e67f502cb4b46036ec6895926",
+      "roomSha256": "cea4522e7b1ac31a265e68531ec977482841c1d6736772a573014d96c8e64dc6",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "hero-creator",
+      "version": "v2",
+      "masterSha256": "3ca126fa2776124bd1a1bfb6ca571ffe9c430e169706099f6fff8b8be2c40d43",
+      "sourceSha256": "c657ff96a0f41ba56c71e70e8f8a373d98680c6fe2d68536effe7ec447bf40a5",
+      "specSha256": "97f064979295e88a43ac1c86d10b4f7e0fe8334e67f502cb4b46036ec6895926",
+      "roomSha256": "cea4522e7b1ac31a265e68531ec977482841c1d6736772a573014d96c8e64dc6",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "hero-innocent",
+      "version": "v1",
+      "masterSha256": "d8bf43c92d4176888f736ce4c76ded16c0127d5a51cb79d3ac93b9a6b2319b43",
+      "sourceSha256": "91442476a4781133587bcc71dfbca2337444459993940d774fc3e63567aac4b6",
+      "specSha256": "23c1007beb037df6d891ee079bab110b8eb319862f35036805db0b47ce417ffc",
+      "roomSha256": "48593eef515fc89c7ef8030f21765e768a57db36e43e7c744e18ee636911d254",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "hero-innocent",
+      "version": "v2",
+      "masterSha256": "09eabd4975e43ed146f6fe85184cca72711a9569461d8d19b655f9187feda363",
+      "sourceSha256": "91442476a4781133587bcc71dfbca2337444459993940d774fc3e63567aac4b6",
+      "specSha256": "23c1007beb037df6d891ee079bab110b8eb319862f35036805db0b47ce417ffc",
+      "roomSha256": "48593eef515fc89c7ef8030f21765e768a57db36e43e7c744e18ee636911d254",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "hero-regular-guy",
+      "version": "v1",
+      "masterSha256": "64999d848d426746fee518802ecaf63964bb3e26d3e91fc1c0c866fde0f726fa",
+      "sourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+      "specSha256": "f8a537c8cce06c30d61249c6b52728fc197207c639a5dca7b217fd79cb31485b",
+      "roomSha256": "edfc4da3de477e966d211853b92b4348078c640c42b2deedacbe0d2f77d18fef",
+      "dimensions": {
+        "width": 1672,
+        "height": 940
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "hero-regular-guy",
+      "version": "v2",
+      "masterSha256": "0b50e79bc7137f4e52d2744d1b6d97b300d7db7ee2f1891b66c83baa5a77d84d",
+      "sourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+      "specSha256": "f8a537c8cce06c30d61249c6b52728fc197207c639a5dca7b217fd79cb31485b",
+      "roomSha256": "edfc4da3de477e966d211853b92b4348078c640c42b2deedacbe0d2f77d18fef",
+      "dimensions": {
+        "width": 1672,
+        "height": 940
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "lover-caregiver",
+      "version": "v1",
+      "masterSha256": "15017bcd6633f149778af643880e1d567bb7c3f351ffab29fcc268c77156af80",
+      "sourceSha256": "6c8e8a522954bf401b124460cda40c3d6080c29d6132a4056d5deaa9618cd4a8",
+      "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+      "roomSha256": "cd07091cfe12bbf08c2df1978b01ad3cc677ddb11cec330971735dfd171fe509",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "lover-caregiver",
+      "version": "v2",
+      "masterSha256": "0b88d19239e2195a7512c6237c5345d1ce16c0d50b668fd41d73ead294844e8e",
+      "sourceSha256": "6c8e8a522954bf401b124460cda40c3d6080c29d6132a4056d5deaa9618cd4a8",
+      "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+      "roomSha256": "cd07091cfe12bbf08c2df1978b01ad3cc677ddb11cec330971735dfd171fe509",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "jester-magician",
+      "version": "v1",
+      "masterSha256": "fc136cdc2c2f7b5119d8973a9244caaae9090dd2e9e2feca2b8a0683954c2d2e",
+      "sourceSha256": "896af7a4eb5de91449e7e404ab965301559fa98d7be1ef77361471d9d3805599",
+      "specSha256": "3ce67214f49a9e03f9d5fded29ed434c347ad55ac0e85d7af06da1780e50bd79",
+      "roomSha256": "c64e078f095d05dac035990dddac103fec9a3a181e44d2b2eb4463737a2c3e8d",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "jester-magician",
+      "version": "v2",
+      "masterSha256": "5bcf9896dc51eff41d63ab69fef78594bb246cb6f91c7cde47e03519c7df41fd",
+      "sourceSha256": "896af7a4eb5de91449e7e404ab965301559fa98d7be1ef77361471d9d3805599",
+      "specSha256": "3ce67214f49a9e03f9d5fded29ed434c347ad55ac0e85d7af06da1780e50bd79",
+      "roomSha256": "c64e078f095d05dac035990dddac103fec9a3a181e44d2b2eb4463737a2c3e8d",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "outlaw-magician",
+      "version": "v1",
+      "masterSha256": "df1330a130fde87f600866d422e5e9c9c2c0f361ccb8e11d44408255818818a4",
+      "sourceSha256": "4b39b1d297f338877057213e35fe3edbd35d4029d6c8a9a9fd9dbde437fb8736",
+      "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+      "roomSha256": "a546db17def9719823518e68b9c792e3d6eac01a16c35511c68ef0df472b803e",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "outlaw-magician",
+      "version": "v2",
+      "masterSha256": "60c752a7ba451ee2ea922fa2cdc0dec9e3a37393832f4404e997d98a1c7aa073",
+      "sourceSha256": "4b39b1d297f338877057213e35fe3edbd35d4029d6c8a9a9fd9dbde437fb8736",
+      "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+      "roomSha256": "a546db17def9719823518e68b9c792e3d6eac01a16c35511c68ef0df472b803e",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "ruler-jester",
+      "version": "v1",
+      "masterSha256": "488ae23736281eeb36287066bd2a56d83fd74ebf746c57bb1cb45028695d106d",
+      "sourceSha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8",
+      "specSha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683",
+      "roomSha256": "c82c3ded462b4bef619578db493c7edefc8c7ff89cdceffe3f555f26d072ce11",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    },
+    {
+      "pairing": "ruler-jester",
+      "version": "v2",
+      "masterSha256": "fd7de28678626d1c3da368b49ed85626c8438b59f58d9e69a278d864e6431bb3",
+      "sourceSha256": "334f2216b57af09ba030c9a57f886b92bf43e3c7733c1bac707a32be4f7a8bd8",
+      "specSha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683",
+      "roomSha256": "c82c3ded462b4bef619578db493c7edefc8c7ff89cdceffe3f555f26d072ce11",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "exactOriginal": true,
+      "noExports": true
+    }
+  ],
+  "protectedFingerprintCount": 50,
+  "protectedFingerprintsUnchanged": true,
+  "rulesSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "designSha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+  "planSha256": "7c618125b8d8c185889406a2aa0fbf1b93624ade8b2d1877f030b85110de492f",
+  "counts": {
+    "generated": 105,
+    "exported": 27,
+    "measuredUnexported": 78,
+    "notYetGenerated": 10,
+    "publicPreserved": 17,
+    "newAccepted": 0,
+    "newIntegrated": 0,
+    "missingFinal": 115
+  },
+  "deduplicated": true,
+  "priorExportsAndPendingPreserved": true,
+  "recipeEditorialInventoryPreserved": true,
+  "producerOnlyBatchFieldChanged": true,
+  "heartbeat": "PAUSED",
+  "browser": "deferred-by-user;not-run",
+  "galleryLinksPresentBeforeReceipt": 58,
+  "receiptSelfLink": "PASS after receipt write: all59 local gallery links exist, including this JSON",
+  "galleryLinksPresentAfterReceipt": 59,
+  "noExports": true,
+  "noNewReady": true,
+  "publicRuntimeUnchanged": true,
+  "materialPersonalityNamePhoneHeld": true,
+  "cordVisibilityHold": "Long Answer coil/Hoping small turns remain; no universal quiet-string success",
+  "acceptance": false
+}

@@ -1,0 +1,1480 @@
+{
+  "createdAt": "2026-10-08T14:49:35.066912+00:00",
+  "liveDraftBaseline": "53b988a",
+  "generationAndExportOwner": "Codex",
+  "browserAndNameOwner": "Claude",
+  "liveSwapOwner": "Claude",
+  "candidatePairs": 19,
+  "uniquePairings": 17,
+  "liveSwapsPerformedByCodex": 0,
+  "newCorrections": [
+    "lover-caregiver-v5-batch16",
+    "outlaw-magician-v5-batch16"
+  ],
+  "candidates": [
+    {
+      "id": "explorer-creator-batch14",
+      "pairing": "explorer-creator",
+      "name": "For Good",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v4",
+        "portrait": "v3"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/explorer-creator",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/explorer-creator/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/explorer-creator/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/explorer-creator/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/explorer-creator/portrait.jpg",
+        "wide": "/personas/explorer-creator/wide.jpg",
+        "wideTag": {
+          "cx": 0.6399521531100478,
+          "cy": 0.698936170212766,
+          "w": 0.05203349282296651,
+          "angle": 67.01095653364663
+        },
+        "wideGlass": {
+          "x": 0.5986842105263158,
+          "y": 0.5414893617021277
+        },
+        "tag": {
+          "cx": 0.5893186003683242,
+          "cy": 0.6588397790055248,
+          "w": 0.10957642725598526,
+          "angle": 66.09468967381609
+        },
+        "glass": {
+          "x": 0.5046040515653776,
+          "y": 0.5138121546961326
+        }
+      },
+      "hashes": {
+        "master": "064c40b8e688e269632c9b7e214e81a562b1f1dbf7be8fc52aacccc6a5c2fccd",
+        "wide": "904c01ab53150ccbe6de3818c7f2df18d7fa12cbfc774de5a604429631fa5bc0",
+        "portrait": "85d5c8f5daf5c4d0be792cb918680d153bed0714da07d5687ba87f1160875cb7",
+        "portraitMaster": "f0778f3fe87f2e472075aa6c418d35f8bca9d32159ceccb01f2f967c807c4fdb"
+      },
+      "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+      "specSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+      "reviewNote": "One frozen opaque portion and caliper visible. Dense frozen stippling, glossy timber and broad trace composition remain held.",
+      "priorHolds": {
+        "recipe": "One smooth opaque off-white frozen goblet portion, no separate cubes/garnish/salt. Surface slightly mounded and dense condensation remain.",
+        "personality": "Whole ordinary box and full caliper retained inside frame. Hinge fitted but modest prior repair not clearly distinguishable; source-inferred fixing belongings.",
+        "world": "Pulled-back room now more spacious. Directional walnut with warm practical reflection, still prominent uniformwetgrain/shine watch.",
+        "issues": [
+          "Glass401px/42.6%height still above30–35% target, but reduced from646px.",
+          "Whole caliper unclipped; lateral697pxgroup still not narrow-phone.",
+          "Repair-specificity/name/material/physics/browser remain pending."
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "explorer-jester-batch14",
+      "pairing": "explorer-jester",
+      "name": "Why Not?",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v4"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/explorer-jester",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/explorer-jester/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/explorer-jester/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/explorer-jester/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/explorer-jester/portrait.jpg",
+        "wide": "/personas/explorer-jester/wide.jpg",
+        "wideTag": {
+          "cx": 0.8301435406698564,
+          "cy": 0.7904255319148936,
+          "w": 0.06997607655502393,
+          "angle": 65.01166807041008
+        },
+        "wideGlass": {
+          "x": 0.6674641148325359,
+          "y": 0.6319148936170212
+        },
+        "tag": {
+          "cx": 0.7255639097744361,
+          "cy": 0.6701754385964912,
+          "w": 0.07706766917293233,
+          "angle": 66
+        },
+        "glass": {
+          "x": 0.5451127819548872,
+          "y": 0.5950877192982457
+        }
+      },
+      "hashes": {
+        "master": "a8ac915f30d159f3030f6fa10377aa7c93454d8bff8008d1da6b7362fc2e2623",
+        "wide": "0f8448d7f59b061538496353f1ddcfe7dcd91cf4dd4648fb81d78ff699e8456d",
+        "portrait": "06bbd8a886eb8df46862afe2f683ef23bcbdbeb4abcb76a9be2ce7255cbcaf16",
+        "portraitMaster": "0538f3b53ee98d0641728600c73b9d7964bda0b5bc4874c7a0df48445d5b2292"
+      },
+      "sourceSha256": "6ab22e983ef53eac3e23e40419d75b00cfd5a47d4c4ff4827dc79e100eb7679b",
+      "specSha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851",
+      "reviewNote": "Hot cup, saucer, steam, orange peel, clamp and spanner retained. Portrait spanner visible. Repeated timber sheen and trace/serve proportions remain held.",
+      "priorHolds": {
+        "recipe": "One china cup, hot brown liquid, single peel IN, no ice/egg/flame. Colour darker than v2 but exact ale shade/opacity unproved.",
+        "personality": "Clamp+spanner readable recent-use relation but large and wide; clamp partly clipped.",
+        "world": "Ceramic plain; timber remains glossy amber with busy shallow relief; clamp wear/metal texture heavy.",
+        "issues": [
+          "material-gloss-orange",
+          "clipped-clamp",
+          "wide-personality-sprawl",
+          "tag-rear-support-uncertain",
+          "paper-below-wide-central80",
+          "name/browser-unchecked"
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "innocent-creator-batch14",
+      "pairing": "innocent-creator",
+      "name": "The Way It Felt",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v4"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/innocent-creator",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/innocent-creator/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/innocent-creator/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/innocent-creator/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/innocent-creator/portrait.jpg",
+        "wide": "/personas/innocent-creator/wide.jpg",
+        "wideTag": {
+          "cx": 0.7039473684210527,
+          "cy": 0.7936170212765957,
+          "w": 0.08253588516746412,
+          "angle": 12.006197807739904
+        },
+        "wideGlass": {
+          "x": 0.5765550239234449,
+          "y": 0.5361702127659574
+        },
+        "tag": {
+          "cx": 0.6666666666666666,
+          "cy": 0.7320441988950276,
+          "w": 0.09208103130755065,
+          "angle": 11.047901526284168
+        },
+        "glass": {
+          "x": 0.5064456721915286,
+          "y": 0.5773480662983426
+        }
+      },
+      "hashes": {
+        "master": "15511d7d5c871bf2ac4cdcedcbc10266e3887a3205ea3178a077bc6c8265ba96",
+        "wide": "042843402e9d08332136669a1452a0df3c44788786b14a133162e194d944ff3d",
+        "portrait": "6dd557d52c9c1c08f8eeb27874c30fdc53cac7c49b5d49081f6fab1dd02c194c",
+        "portraitMaster": "7c190049aa615d3d760c9f052f7a8ffeb261f78344494496fdf722af2b823e87"
+      },
+      "sourceSha256": "6232710bafafe43f3266e23cdb3a5842af3c82f6a27c021a279610f4bd7266ad",
+      "specSha256": "de86d0e08f80fbf0f1b9c226200980bbca020ebf99e3b4cb20009c87b1b9ad24",
+      "reviewNote": "Burgundy wine-cola cubes, handmade two-colour card and cake retained. Both portrait traces visible. Ice/material detail and proportions remain held.",
+      "priorHolds": {
+        "recipe": "Dark red-brown wine-cola with opaque burgundy cubes and thin fizz, no added garnish. Cube count/ratio not measurable from view. Cubes have broad faces but dense sparkle/wet dots remain.",
+        "personality": "Recognizable hand-spread icing/cake crumb and modest folded card with two hand-colour crayon patches; explicit source gestures. No discernible words; not claiming exact card drawing.",
+        "world": "Private dark historic walnut room; directional grain rather than crackled ornament, but prominent wet/gloss detail remains appearance watch.",
+        "issues": [
+          "Vessel oversized relative to brief.",
+          "Two traces still laterally spread, portrait lane request missed.",
+          "Dense wet sparkling surface detail.",
+          "Real-name/phone/browser/material/support acceptance pending."
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 6,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "jester-explorer-batch14",
+      "pairing": "jester-explorer",
+      "name": "Unrehearsed",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v4",
+        "portrait": "v3"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-explorer",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-explorer/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-explorer/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-explorer/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/jester-explorer/portrait.jpg",
+        "wide": "/personas/jester-explorer/wide.jpg",
+        "wideTag": {
+          "cx": 0.7900717703349283,
+          "cy": 0.7148936170212766,
+          "w": 0.05562200956937799,
+          "angle": 14.007153697247817
+        },
+        "wideGlass": {
+          "x": 0.6608851674641149,
+          "y": 0.5478723404255319
+        },
+        "tag": {
+          "cx": 0.7421731123388582,
+          "cy": 0.6837016574585635,
+          "w": 0.1151012891344383,
+          "angle": 14.060026123003794
+        },
+        "glass": {
+          "x": 0.503683241252302,
+          "y": 0.5400552486187845
+        }
+      },
+      "hashes": {
+        "master": "990f06e6add332351dd5519b5cd87b0ff333a2af535e37164cabbd3b95c52bf4",
+        "wide": "fa27da4f7a9b5bf47d696aaf5377d60b791cd07781b7fd98cebb6c861b4954da",
+        "portrait": "e09de7414c66f88b6a66f57b38e7405a3bb3eab2ac79555e025fe6b80891f3fa",
+        "portraitMaster": "64d46600028553b748135caedc51089704cedd009d4e86162fa208872af9016b"
+      },
+      "sourceSha256": "fa2a7c65465e2928c7ab6e6eca17bfac3b84c04e61b3c5ea25d37ff063c44e69",
+      "specSha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67",
+      "reviewNote": "Cup-shaped shell pieces, peel, folded paper and envelope retained. Fold intent and natural ice material remain uncertain; glossy wood/cord holds retained.",
+      "priorHolds": {
+        "recipe": "Clear amber pool/one dropped orange strip/three cloudy curved ice pieces preserved. Concave hollow cup-wall origin still not unambiguously clear; repeated crescent-chunk appearance remains source-form hold.",
+        "personality": "Handled speechpaper/envelope read as recent personal use, compact behind-left rather than huge scroll. Depth move incomplete; both remain lateral to glass.",
+        "world": "Spacious historic room preserved, neutral-dark directionalwalnut but strong warmshine. Background fire/candlelike glows plus lamp remain single-source simplicity watch.",
+        "issues": [
+          "Glass519→313px33.3%height now meetsrequested30–35%framing direction.",
+          "Entirevisiblegroup687px fits proposed702crop with tiny15pxmargin, not389phone.",
+          "Cup-shell form/materials/facetedfoot/cordphysics/name/browser/phone remain held."
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "jester-innocent-batch14",
+      "pairing": "jester-innocent",
+      "name": "Off the Tour",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v4",
+        "portrait": "v4"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-innocent",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-innocent/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-innocent/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-innocent/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/jester-innocent/portrait.jpg",
+        "wide": "/personas/jester-innocent/wide.jpg",
+        "wideTag": {
+          "cx": 0.791267942583732,
+          "cy": 0.8287234042553191,
+          "w": 0.038875598086124404,
+          "angle": 72.00895250497571
+        },
+        "wideGlass": {
+          "x": 0.708732057416268,
+          "y": 0.6063829787234043
+        },
+        "tag": {
+          "cx": 0.6273062730627307,
+          "cy": 0.7450034458993797,
+          "w": 0.07011070110701106,
+          "angle": 75.00775247750023
+        },
+        "glass": {
+          "x": 0.5119926199261993,
+          "y": 0.6064782908339077
+        }
+      },
+      "hashes": {
+        "master": "af37e19dd5be4a7fd0d2eb6179278c6511d78966f57a1ed986d34a96eb8bbff4",
+        "wide": "0f6527ed61604b52577ab8e0ac3af13564bd9c43e3a9d5991b2291efda7db201",
+        "portrait": "4fa9ac139e5d8e8b107c6e1cbb899fe41db17ee6bfd46774cb21fcfa822341b5",
+        "portraitMaster": "e3121e2900c4ded606ee3fcb35d5d98cd1495e02f911e21c06037a04a4a387d5"
+      },
+      "sourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+      "specSha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+      "reviewNote": "Crushed ice, bitters top, spoon and opened packet retained in both orientations. Repeated ice texture, low cord geometry and glossy timber remain held.",
+      "priorHolds": {
+        "recipe": "One pale faint-green Collins with angular crushed ice and red Angostura atop mound, retained wooden swizzle/no straw/garnish. Internal fine snow texture not fully proved through frost; some larger transparent chips. Source volumes unobservable.",
+        "personality": "Torn used sachet and connected full-size striped folding deckchair identifiable. Chair now farther back but still broad, not compact moving-phone composition.",
+        "world": "Dark historic timber room retained. Long-grain table carries strong amber reflected sheen and repeated surface marks; glass/ice dense frost/sparkle. Material direction not fully resolved.",
+        "issues": [
+          "Low loop lies near liquid-to-base boundary, not entirely clear foot",
+          "Possible paired/double strand remains",
+          "Rear attachment/load invisible; no blanket physics PASS",
+          "Broad person group and long swizzle remain crop/motion risks",
+          "Name fit untested on small label",
+          "Timber warmth/gloss and dense frost held"
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "jester-lover-batch14",
+      "pairing": "jester-lover",
+      "name": "I'll Tell You Later",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v4",
+        "portrait": "v4"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-lover",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-lover/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-lover/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-lover/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/jester-lover/portrait.jpg",
+        "wide": "/personas/jester-lover/wide.jpg",
+        "wideTag": {
+          "cx": 0.7535885167464115,
+          "cy": 0.776595744680851,
+          "w": 0.04485645933014354,
+          "angle": -76.00715033917433
+        },
+        "wideGlass": {
+          "x": 0.7117224880382775,
+          "y": 0.6861702127659575
+        },
+        "tag": {
+          "cx": 0.7058270676691729,
+          "cy": 0.7157894736842105,
+          "w": 0.07706766917293233,
+          "angle": -75.00000000000001
+        },
+        "glass": {
+          "x": 0.6306390977443609,
+          "y": 0.6547368421052632
+        }
+      },
+      "hashes": {
+        "master": "50810efb38b3cdaec3c56d36c9334326cf457a27384e0e15742891249984e8aa",
+        "wide": "6d0d903eb8ced603b98f3a5eb3eb7b6d40bb1fc78429e84d87283e1b48fac21f",
+        "portrait": "572282498613ad1ff2e4bb48fc104859b71a8eedd6ad057d741cd90372ba5e79",
+        "portraitMaster": "e8a452193a44a1c50e60d254168d5be55c8a6a7abaf6432ffab90b4601e909dc"
+      },
+      "sourceSha256": "7718276b066e2c88e662622edbd05256108a3f47d235110e13af7338ee1a4c16",
+      "specSha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+      "reviewNote": "Settled two-coffee exception retained with clove-studded preparation peel, fork, gift boxes and tissue. Physical clove count, handle connection, prop breadth and orange wood remain held.",
+      "priorHolds": {
+        "recipe": "Two finished dark hot coffees/two demitasses/two existing saucers, no foam/cream/ice/flame. One used orange spiral with six mapped clove heads and fork on rear saucer, not drink garnish.",
+        "personality": "Both presents fully visible; explicit present/decoy habit, concrete box/wrapping inferred. Still broad lateral layout865px.",
+        "world": "Flat long-grain structure better than alligator, but strong amber sheen and fine raised/sparkly wear remain watch/hold. One camera-right practical; books now dense ornamental background.",
+        "issues": [
+          "wide-personality-union865",
+          "front-saucer-below80percent",
+          "warm-reflective-timber-fine-relief",
+          "rear-tag-load-contact-uncertain",
+          "name-phone-browser-unchecked"
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "jester-regular-guy-batch14",
+      "pairing": "jester-regular-guy",
+      "name": "Is It Just Me",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v3"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-regular-guy",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-regular-guy/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-regular-guy/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-regular-guy/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/jester-regular-guy/portrait.jpg",
+        "wide": "/personas/jester-regular-guy/wide.jpg",
+        "wideTag": {
+          "cx": 0.6907894736842105,
+          "cy": 0.7691489361702127,
+          "w": 0.07177033492822966,
+          "angle": 24.011323222075763
+        },
+        "wideGlass": {
+          "x": 0.6160287081339713,
+          "y": 0.5648936170212766
+        },
+        "tag": {
+          "cx": 0.6156015037593985,
+          "cy": 0.7101754385964912,
+          "w": 0.1156015037593985,
+          "angle": 25
+        },
+        "glass": {
+          "x": 0.5093984962406015,
+          "y": 0.5803508771929825
+        }
+      },
+      "hashes": {
+        "master": "037afce16a8d468382f6541689092872632d614428d942be93a02517f1fdc302",
+        "wide": "10adc927b11e791afe9e4f1d26b22354609105b8daff398aa2d818cf18eb3579",
+        "portrait": "cd02df0b4ad0f493d1132c8cd60196717e9efa3c39a3dce75f8f10ad0fefe8e9",
+        "portraitMaster": "e6c0b4bde0b9d2bf4b8d0d3e06116220e75cd66724b51e5aa84009ff79103a88"
+      },
+      "sourceSha256": "47f6d62e4599eb516a33ecc4fcb2313e7133828b07c2cebeeaac2dd93b23c33a",
+      "specSha256": "46084d90c084171eb83263afb9ca961ace6ef705273a016f1462be70ae2a3f9f",
+      "reviewNote": "Settled unmixed spirit and beer exception retained with keys on cloth. Low stem wrap, long paper and wet/gold timber remain held.",
+      "priorHolds": {
+        "recipe": "Two separate noice/nogarnish vessels, rye near half bowl, white beer head. Rye bright specks risk carbonation reading; whether bubbles/reflections cannot be proved.90/400ml capacity and temperatures unproved.",
+        "personality": "Whole keys on used linen visible; weak linen specificity/inferred type honest.",
+        "world": "One camera-right practical visible. Table still glossy warm relief, beer condensation dense and rye/glass bright specks.",
+        "issues": [
+          "wide-beer-upper-margin",
+          "oversized-vessels",
+          "material-warm-gloss-relief",
+          "beer-dense-droplets",
+          "rye-speckle-stillness-watch",
+          "tag-rear-load-uncertain",
+          "phone/name/browser-unchecked"
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "lover-creator-batch14",
+      "pairing": "lover-creator",
+      "name": "In Your Own Hand",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v4"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/lover-creator",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/lover-creator/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/lover-creator/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/lover-creator/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/lover-creator/portrait.jpg",
+        "wide": "/personas/lover-creator/wide.jpg",
+        "wideTag": {
+          "cx": 0.6052631578947368,
+          "cy": 0.675531914893617,
+          "w": 0.05263157894736842,
+          "angle": 76.00715033917433
+        },
+        "wideGlass": {
+          "x": 0.5813397129186603,
+          "y": 0.5638297872340425
+        },
+        "tag": {
+          "cx": 0.31088560885608857,
+          "cy": 0.6919365954514128,
+          "w": 0.07380073800738007,
+          "angle": -56.014377855754134
+        },
+        "glass": {
+          "x": 0.35977859778597787,
+          "y": 0.6340454858718125
+        }
+      },
+      "hashes": {
+        "master": "4dffbd8b2693e059b9c0846bcfba9403e871360d9391820292d8cfaed602a309",
+        "wide": "ad744eb96c2952cf96e95e1c7fcdba15dd00e85ee71d82eec28b36109adba5c5",
+        "portrait": "d7525fc72d75616f2a5a5f596a927a951745b8d8a4674c480bce7c4f411d6b2c",
+        "portraitMaster": "94e4d9497a0e65b05a6e90b3b96cd36d363ea53b2de8f762927fec7ed85d2290"
+      },
+      "sourceSha256": "699835647c6a427f3c2152ff26636205e28d0b54bb958d23b32040dced5ececa",
+      "specSha256": "4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898",
+      "reviewNote": "Settled two-Nick-and-Nora exception retained with painted card and brush. Portrait group is centered. Dense droplets, sugar rim, broad painting and doubled cord remain held.",
+      "priorHolds": {
+        "recipe": "Two cloudy orange-gold drinks/coarse rims/no serving ice/garnish. Narrow round stemmed bowls, but long-stem wine-like scale; exact97ml capacity/outside-only inner lips not physically proved.",
+        "personality": "Palette removed, unfinished board and whole used brush readable; board remains front-facing/broad and touches native right edge, hesitant intimate reveal not proved. Two glasses close in depth.",
+        "world": "Plain glass/stems clearer with ordinary highlights, droplets still near-uniform on bowls. Walnut long grain flatter, some reflective warm wash, reflection itself not prohibited.",
+        "issues": [
+          "Forward504px/second443px glass exceeds target",
+          "Physical two-serve458px and full835px/recogn820px group too broad for untestedphone",
+          "Board right extent clipped/unknown",
+          "Tan multi-turn stem cord remains",
+          "Upper rim278 and foot782 not comfortably central20–80%",
+          "No outside-only/97ml/name/browser proof"
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "magician-jester-batch14",
+      "pairing": "magician-jester",
+      "name": "Even When You Know",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v4"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/magician-jester",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/magician-jester/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/magician-jester/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/magician-jester/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/magician-jester/portrait.jpg",
+        "wide": "/personas/magician-jester/wide.jpg",
+        "wideTag": {
+          "cx": 0.631578947368421,
+          "cy": 0.6468085106382979,
+          "w": 0.05741626794258373,
+          "angle": 78.00619479758085
+        },
+        "wideGlass": {
+          "x": 0.5956937799043063,
+          "y": 0.5
+        },
+        "tag": {
+          "cx": 0.5341328413284133,
+          "cy": 0.6092350103376981,
+          "w": 0.07749077490774908,
+          "angle": 77.00679686464215
+        },
+        "glass": {
+          "x": 0.48523985239852396,
+          "y": 0.5203308063404548
+        }
+      },
+      "hashes": {
+        "master": "f71ff5785192291eea17429f0f8cf175957cde8c8c4c621051df39f1d6e17c17",
+        "wide": "ab5229d7a68352b86409cbffbc2e8ad17b4188fecbc81a89e680874a1d9072fa",
+        "portrait": "732920f9a6546de09788a169cbf6dd6f17aa34e01880db967e335db208b72a9a",
+        "portraitMaster": "31993f5e9415b08ec03b7f9fdd993f913501309d0fd442915d987a70a1b1c8ed"
+      },
+      "sourceSha256": "dc37057b6d89ca83690b851547b45847772b55a496790b10de7836d52b7458c6",
+      "specSha256": "aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32",
+      "reviewNote": "Three-layer cordial retained with magnifier and spectacles on cloth. Portrait tools remain recognizable; repeated stem turns, layer plausibility and material texture remain held.",
+      "priorHolds": {
+        "recipe": "One flared cordial exact clear/tawny/red layer order/no ice/garnish/foam. Exact75ml/45ml total/10:15:20 and tested density not observable. Bowl appears fuller than source approximate two-thirds; not inventing volume PASS.",
+        "personality": "Balance apparatus removed to ordinary lens/weave and spectacles; demonstrates looking by inference, no actual people/behaviour proof. Handle clipped in wide.",
+        "world": "Broad plain glass surfaces/clear stem; flatter long-grain timber improved, directional warm reflective patches remain. Lamp plus lit fireplace gives extra source.",
+        "issues": [
+          "572px glass exceeds pulled-back target",
+          "Rim184 marginal below20%941=188, foot756 around80%",
+          "798px group and wide handle clipping",
+          "Stem multicoil/paired tether remains",
+          "Warm surface reflection and extra fireplace light",
+          "Exact capacity/layer quantities and name/browser unproved"
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "magician-ruler-batch14",
+      "pairing": "magician-ruler",
+      "name": "Built to Hold",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v4"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/magician-ruler",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/magician-ruler/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/magician-ruler/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/magician-ruler/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/magician-ruler/portrait.jpg",
+        "wide": "/personas/magician-ruler/wide.jpg",
+        "wideTag": {
+          "cx": 0.8293269230769231,
+          "cy": 0.7232905982905983,
+          "w": 0.06129807692307692,
+          "angle": 53
+        },
+        "wideGlass": {
+          "x": 0.703125,
+          "y": 0.5608974358974359
+        },
+        "tag": {
+          "cx": 0.6898496240601504,
+          "cy": 0.6898245614035088,
+          "w": 0.06578947368421052,
+          "angle": 59
+        },
+        "glass": {
+          "x": 0.5159774436090225,
+          "y": 0.6119298245614035
+        }
+      },
+      "hashes": {
+        "master": "9aa701599858700093025bc6a91d8702922a8e31eb9aeff2448d8c624d02ad2e",
+        "wide": "b5f3e81cc74326f321d714dcf45b95fa9551e8a2b1398c54ee780caa732512bc",
+        "portrait": "a6bb0155a60e7666ee5331af589d5ca03304b4f4e34c4fc2ea94eb4d2c214572",
+        "portraitMaster": "ba4bd2a0213b19b7dec876e29a822c35e07a8612f370a65f09b1d393420f46e4"
+      },
+      "sourceSha256": "d7d7a63f70a7e091c5e2f88f00b46174a591b5f9cb20e9163eb7ba8cdfb948b0",
+      "specSha256": "1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56",
+      "reviewNote": "One cold handled punch retained with folded cloth and leather organiser. No invented steam. World warmth/gloss, trace specificity and handle tie remain held.",
+      "priorHolds": {
+        "recipe": "One cold handled200ml cup with180ml hazy amber punch, no ice/garnish/steam/foam; tiny bright points cannot all be identified as droplets vs trapped air.",
+        "personality": "Used organiser and two prepared linens give quiet planning/care inferences grounded in WHO; no magic ceiling or historical replica claim.",
+        "world": "Same nearblack readingroom. Smooth directional wood rather than raised alligator varnish; broad warm reflections still prominent.",
+        "issues": [
+          "Portrait full linens/organiser spread exceeds conservative inner phone lane although substantial recognizable parts should remain; browser review needed.",
+          "Cup retains dense stippling in some patches.",
+          "Handle thread has apparent doubled short segments; rear closure/load not certified.",
+          "Loaded-name glyphs, motion and user visual approval remain pending."
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "ruler-jester-batch14",
+      "pairing": "ruler-jester",
+      "name": "Who's In?",
+      "batch": 14,
+      "nativeVersions": {
+        "wide": "v7",
+        "portrait": "v6"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/ruler-jester",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/ruler-jester/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/ruler-jester/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/ruler-jester/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/ruler-jester/portrait.jpg",
+        "wide": "/personas/ruler-jester/wide.jpg",
+        "wideTag": {
+          "cx": 0.7283653846153846,
+          "cy": 0.7574786324786325,
+          "w": 0.03245192307692308,
+          "angle": 17
+        },
+        "wideGlass": {
+          "x": 0.6905048076923077,
+          "y": 0.6228632478632479
+        },
+        "tag": {
+          "cx": 0.6428571428571429,
+          "cy": 0.7550877192982456,
+          "w": 0.08552631578947369,
+          "angle": 20
+        },
+        "glass": {
+          "x": 0.5526315789473685,
+          "y": 0.6
+        }
+      },
+      "hashes": {
+        "master": "6903cdf351a0ce0a415c1bc5b492abaeb4b546a26ed037bbc1230641e9dea31d",
+        "wide": "419a85820391524a57fd887bfd38ca25da982c92648299bb019848d6ba2e53c2",
+        "portrait": "7555849494e445bd8d9bfb552cc6c942f17ed177045e38179872ed8f442334f9",
+        "portraitMaster": "54d94ecaa8cf44f5e7085bdae50a86296629e6dc644f621506bde28699a39725"
+      },
+      "sourceSha256": "b30d4397433966f08272443476b0d53379352b35a6aee6f7d98fc39760c44a80",
+      "specSha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683",
+      "reviewNote": "Crushed raspberry drink, mint, straw, gloves and phone retained. Flatter ice chips are still glossy/repetitive; trace recognition and low body tie remain held.",
+      "priorHolds": {
+        "recipe": "ONE raspberry-red mint crushed-ice highball with TWO raspberries, sprig and plain straw. Irregular crushed faces more plausible than v4 beads; internal count/volumes not optically proved.",
+        "personality": "Switched-off phone and recognisable knitted gloves immediately behind the drink: ordinary inferred interrupted-outing/new-plan traces, not literal train/platform or historical possessions.",
+        "world": "Dark timber hotel reading room, warm shaded practical, broad directional wood rather than alligator distress. Warm sheen still watched.",
+        "issues": [
+          "Complete serve pulled back to roughly45% of native height, not requested33%. Above/below space improves ultrawide eligibility but is not a browser pass.",
+          "Tiny writing axis untested with live names; proportional tag still wider than quarter of glass body.",
+          "Hidden rear knot/closure cannot be certified from this front frame.",
+          "Phone/glove recognition and dense wet ice surfaces need final editorial/name/crop review."
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "hero-creator-batch15",
+      "pairing": "hero-creator",
+      "name": "The Long Answer",
+      "batch": 15,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v4"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-creator",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-creator/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-creator/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-creator/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/hero-creator/portrait.jpg",
+        "wide": "/personas/hero-creator/wide.jpg",
+        "wideTag": {
+          "cx": 0.7075358851674641,
+          "cy": 0.7414893617021276,
+          "w": 0.07775119617224881,
+          "angle": 64.01200273866215
+        },
+        "wideGlass": {
+          "x": 0.6590909090909091,
+          "y": 0.4776595744680851
+        },
+        "tag": {
+          "cx": 0.5535055350553506,
+          "cy": 0.6864231564438319,
+          "w": 0.10424354243542436,
+          "angle": 65.0118782020946
+        },
+        "glass": {
+          "x": 0.5,
+          "y": 0.5713301171605789
+        }
+      },
+      "hashes": {
+        "master": "676e9685c85de0109043323697a9130c02f30e86884b71ca69020c512247a83c",
+        "wide": "063889dee97db82f29f6527d4d1ced914dcc52de6b2974fb891a8977dbda8acb",
+        "portrait": "217311cac2c20c10b1ec364505aa1f7407c22b1d6d1a6c72a85e89c817531d5d",
+        "portraitMaster": "76bfe8f41d2b1786bdf5df84876040266abbc5088f6d8829312cb9cbf7e901f3"
+      },
+      "sourceSha256": "b88f03f698aea6b8055d4cd3b0e669b0051c8e80bb4fff755dc67633c2eb3f4f",
+      "specSha256": "97f064979295e88a43ac1c86d10b4f7e0fe8334e67f502cb4b46036ec6895926",
+      "reviewNote": "Fruit-and-mint garnish, cold round goblet, paper/envelopes and pen retained. Portrait paper group visible. Oversized serve, shiny timber, dense droplets/ice and low cord remain held.",
+      "priorHolds": {
+        "recipe": "Hazy rosy orange round heavy beer goblet/one ice/mint/pineapple/dark cherry read. Dominant orange looks near-complete wheel; second orange edge occluded. TWO halfmoon count/shape HOLD.",
+        "personality": "Opened letters/withdrawn sheet and blue capped pen recognisable, still lateral left rather than depth.",
+        "world": "Calmer longitudinal timber, still warm sheen/fine scuffs; dense glass dot pattern rather than sparse droplets.",
+        "issues": [
+          "Full garnish begins149px above20%941=188px; vessel foot783 beyond80%=753px",
+          "Vessel490px tall exceeds pulled-back target",
+          "803px meaningful union held for phone/compact grouping",
+          "Orange second recognition null: do not invent halfmoon box",
+          "Name fit/rear tag load/browser glyph/load unresolved"
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 5,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "hero-innocent-batch15",
+      "pairing": "hero-innocent",
+      "name": "Work It Out",
+      "batch": 15,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v3"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-innocent",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-innocent/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-innocent/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-innocent/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/hero-innocent/portrait.jpg",
+        "wide": "/personas/hero-innocent/wide.jpg",
+        "wideTag": {
+          "cx": 0.7337740384615384,
+          "cy": 0.8055555555555556,
+          "w": 0.06610576923076923,
+          "angle": 27
+        },
+        "wideGlass": {
+          "x": 0.5985576923076923,
+          "y": 0.5106837606837606
+        },
+        "tag": {
+          "cx": 0.7105263157894737,
+          "cy": 0.7059649122807018,
+          "w": 0.09774436090225563,
+          "angle": 32
+        },
+        "glass": {
+          "x": 0.49718045112781956,
+          "y": 0.49543859649122807
+        }
+      },
+      "hashes": {
+        "master": "a08e5f7fbb2c85e4bc32abbf5b7a49c74029d7d25aac8283c11269137ae3e45b",
+        "wide": "b80c4411f2e8db93c7c5111ec50adf65bac2852a8a6e61cf889cbc5363245b14",
+        "portrait": "cec8019aba2f0cd38cb7773e2eb0752051d08a82b1f43228670f254d1989faab",
+        "portraitMaster": "db7f07b3ab4b7d449ce1d632c501916c0577af9f43137de35c3824c02bbddf0d"
+      },
+      "sourceSha256": "a06d232783c5e8afa8f8c0393b880fe1b21b4e09a92d4d163fcd8dbdf45e4be0",
+      "specSha256": "23c1007beb037df6d891ee079bab110b8eb319862f35036805db0b47ce417ffc",
+      "reviewNote": "Tall iced serve, orange peel, open wooden box/lid and pencil retained. Portrait props visible. Doubled cord, ice/droplet texture and glossy amber timber remain held.",
+      "priorHolds": {
+        "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+        "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+        "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+        "issues": "Practice sample still looks finished; very tall wide glass, multiple tag strands, large paper, dense droplets and616px portrait group."
+      },
+      "staticGeometry": {
+        "passCount": 3,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "hero-regular-guy-batch15",
+      "pairing": "hero-regular-guy",
+      "name": "Anyone Would Have",
+      "batch": 15,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v3"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-regular-guy",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-regular-guy/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-regular-guy/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/hero-regular-guy/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/hero-regular-guy/portrait.jpg",
+        "wide": "/personas/hero-regular-guy/wide.jpg",
+        "wideTag": {
+          "cx": 0.7380382775119617,
+          "cy": 0.7648936170212766,
+          "w": 0.06638755980861244,
+          "angle": 16.00807471014752
+        },
+        "wideGlass": {
+          "x": 0.6285885167464115,
+          "y": 0.5085106382978724
+        },
+        "tag": {
+          "cx": 0.6457564575645757,
+          "cy": 0.6809097174362508,
+          "w": 0.05627306273062731,
+          "angle": 15.007756112903763
+        },
+        "glass": {
+          "x": 0.5525830258302583,
+          "y": 0.5885596140592695
+        }
+      },
+      "hashes": {
+        "master": "4e24f59e1baed743e1dcceb92c11cb41bf33ded59f8adcb8d35ba0683c8c9a67",
+        "wide": "5ffb55157e16e82c71e5b790755e3c1032d3eaa0c41aeba559a7f52ab11c806e",
+        "portrait": "d4c7ae61369f64b8a0ebbbf092a25f3c03ff444fdb3d2178707e31a1958eb225",
+        "portraitMaster": "3a28c86778a265ea0be9e7082837c2312afce2095093a7a6937f7144624f3c12"
+      },
+      "sourceSha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc",
+      "specSha256": "f8a537c8cce06c30d61249c6b52728fc197207c639a5dca7b217fd79cb31485b",
+      "reviewNote": "Single-cube pink-red serve and bitters retained with flashlight/screwdriver. Wide drink dominates; screwdriver support, dense cube texture and wood gloss remain held.",
+      "priorHolds": {
+        "recipe": "Cloudy pink-red single rocks, ONE ice cube, no garnish. Soda bubbles appropriate. Three main top bitter bleeds visible; original dash count not independently provable.",
+        "personality": "Both ordinary inferred fusebox-readiness tools lie flat with timber support; not an electrical-safety assertion. Strong recognisable full forms, laterally spread.",
+        "world": "Flatter longitudinal wood versus old alligator; warm reflection/scuffed detailed grain and dense glass dots persist.",
+        "issues": [
+          "Glass about609px high versus330 target; rim above20% and foot below80% wide height",
+          "959px meaningful union: phone/compact grouping HOLD",
+          "Dense condensation and warm shine watch",
+          "Low cord single-strand/rear load uncertain",
+          "Name fit and all browser cover/glyph/load gates not tested"
+        ]
+      },
+      "staticGeometry": {
+        "passCount": 5,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "lover-caregiver-batch15",
+      "pairing": "lover-caregiver",
+      "name": "Hoping You’d Come",
+      "batch": 15,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v3"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/lover-caregiver",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/lover-caregiver/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/lover-caregiver/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/lover-caregiver/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/lover-caregiver/portrait.jpg",
+        "wide": "/personas/lover-caregiver/wide.jpg",
+        "wideTag": {
+          "cx": 0.6907894736842105,
+          "cy": 0.8,
+          "w": 0.08014354066985646,
+          "angle": 62.01262783616052
+        },
+        "wideGlass": {
+          "x": 0.6447368421052632,
+          "y": 0.48617021276595745
+        },
+        "tag": {
+          "cx": 0.5950184501845018,
+          "cy": 0.6926257753273605,
+          "w": 0.09870848708487084,
+          "angle": 68.01077107427088
+        },
+        "glass": {
+          "x": 0.5387453874538746,
+          "y": 0.534803583735355
+        }
+      },
+      "hashes": {
+        "master": "a9947254a653f9e544f03b9a54ecdf5735f9c4dd61d76294a40970d3fc06b0ae",
+        "wide": "dbddd6b0cf4fa4906669f8b69ed55c506c5e485ff50b588e3dd3ee0c27724ce5",
+        "portrait": "54566a2fb7e8c4f4ced20ff6b1e7330c818bfccf40d3466139d2933d25497f57",
+        "portraitMaster": "97edf86d124cff3fc07c046cac47a143cd43b9e6b001b43a7ca198a5332b9b17"
+      },
+      "sourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+      "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+      "reviewNote": "v3 comparison: distinct pale apple chunks persist in amber liquid. Chair/olive throw retained. Doubled cord and broad composition remain held; prefer testing the later v5 liquid edit.",
+      "priorHolds": {
+        "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+        "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+        "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+        "issues": "Apple texture remains too defined/chunky; doubled stem turn, broad chair/throw. v4 had calmer wood but sharper cereal-like flakes, so not selected."
+      },
+      "staticGeometry": {
+        "passCount": 6,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": false,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "jester-magician-batch15",
+      "pairing": "jester-magician",
+      "name": "The Kind You’d Want",
+      "batch": 15,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v3"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-magician",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-magician/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-magician/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/jester-magician/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/jester-magician/portrait.jpg",
+        "wide": "/personas/jester-magician/wide.jpg",
+        "wideTag": {
+          "cx": 0.8486842105263158,
+          "cy": 0.8031914893617021,
+          "w": 0.12141148325358851,
+          "angle": 16.00807471014752
+        },
+        "wideGlass": {
+          "x": 0.6411483253588517,
+          "y": 0.49148936170212765
+        },
+        "tag": {
+          "cx": 0.7940904893813481,
+          "cy": 0.7250172294968987,
+          "w": 0.13850415512465375,
+          "angle": 20.99268640236751
+        },
+        "glass": {
+          "x": 0.5632502308402585,
+          "y": 0.5733976567884218
+        }
+      },
+      "hashes": {
+        "master": "3f860d585ce163e8ca083a07293f1af0c1cec3a9fdd9a38526b5af5125ecb3e8",
+        "wide": "41d1ad93c9cb727bd9c88f3951b6f82177eac2b0ab96b8b44959ef78b7a5cd5f",
+        "portrait": "88d207b25d907ef151d7faf8f1dbc54aa525e4fc92edfc294e7002ab45dc72a1",
+        "portraitMaster": "be8d61c0407ff38d3cdbab443d4d7dc93865f3c9dd6a63f170c9f91a4a2c726c"
+      },
+      "sourceSha256": "738888b8ef651b33726c2314358e8352f5b4599a60fb43fd613c3c41260c71b2",
+      "specSha256": "3ce67214f49a9e03f9d5fded29ed434c347ad55ac0e85d7af06da1780e50bd79",
+      "reviewNote": "Iced pale amber serve, lemon peel, banana/key bowl and two mugs retained. Mugs are partial/occluded traces; dense ice detail and gold timber remain held.",
+      "priorHolds": {
+        "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+        "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+        "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+        "issues": "Keys not convincingly beneath banana, mug action unproved, dense fizzy detail and repeated footcord. v4 made glass/group/wet shine larger; not selected."
+      },
+      "staticGeometry": {
+        "passCount": 7,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "outlaw-magician-batch15",
+      "pairing": "outlaw-magician",
+      "name": "For Its Own Good",
+      "batch": 15,
+      "nativeVersions": {
+        "wide": "v3",
+        "portrait": "v3"
+      },
+      "output": "design-artifacts/_image-production/2026-10-08/refinement-exports/outlaw-magician",
+      "wide": "design-artifacts/_image-production/2026-10-08/refinement-exports/outlaw-magician/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-08/refinement-exports/outlaw-magician/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-08/refinement-exports/outlaw-magician/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/outlaw-magician/portrait.jpg",
+        "wide": "/personas/outlaw-magician/wide.jpg",
+        "wideTag": {
+          "cx": 0.7518028846153846,
+          "cy": 0.7980769230769231,
+          "w": 0.07932692307692307,
+          "angle": 10
+        },
+        "wideGlass": {
+          "x": 0.5985576923076923,
+          "y": 0.5715811965811965
+        },
+        "tag": {
+          "cx": 0.75,
+          "cy": 0.7221052631578947,
+          "w": 0.10150375939849623,
+          "angle": 10
+        },
+        "glass": {
+          "x": 0.5441729323308271,
+          "y": 0.5943859649122807
+        }
+      },
+      "hashes": {
+        "master": "5876169bab0edaebe18646bd85ef3d31bf365d714a8632766b6709dcf587defb",
+        "wide": "2d25a855428a439c66f40ef959a109c1b743b6d770ff57d5be2f730173b298b8",
+        "portrait": "83eb4203b5b7a78fa0d625a794f3ee56006adeb14fa0ed469644ba5050078479",
+        "portraitMaster": "c1b3e7571f4fc1c99f3832c9d5ed6f9cc861806563133e9ee9ddb1f32f13eb87"
+      },
+      "sourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+      "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+      "reviewNote": "v3 comparison: saturated amber-red liquid persists. Oversized bag and clipped binder/sheets retained. Ring action, dense cube texture and rough gold timber remain held; prefer testing the later v5 colour edit.",
+      "priorHolds": {
+        "recipe": "Preserved batch15 actual-original review and current settled dossier/spec. recipe quality holds remain; this is a private comparison export, not final acceptance.",
+        "personality": "Preserved batch15 actual-original review and current settled dossier/spec. personality quality holds remain; this is a private comparison export, not final acceptance.",
+        "world": "Preserved batch15 actual-original review and current settled dossier/spec. world quality holds remain; this is a private comparison export, not final acceptance.",
+        "issues": "Bag dominates, binder/sheets clipped, taken-apart action unclear, saturated liquid and rough gold wood. Fresh portrait correction produced excess closed rings; rejected."
+      },
+      "staticGeometry": {
+        "passCount": 0,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": false,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "lover-caregiver-v5-batch16",
+      "pairing": "lover-caregiver",
+      "name": "Hoping You’d Come",
+      "batch": 16,
+      "nativeVersions": {
+        "wide": "v5",
+        "portrait": "v5"
+      },
+      "output": "design-artifacts/_image-production/2026-10-06/lover-caregiver/v5",
+      "wide": "design-artifacts/_image-production/2026-10-06/lover-caregiver/v5/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-06/lover-caregiver/v5/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-06/lover-caregiver/v5/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/lover-caregiver/portrait.jpg",
+        "wide": "/personas/lover-caregiver/wide.jpg",
+        "wideTag": {
+          "cx": 0.6907894736842105,
+          "cy": 0.8,
+          "w": 0.08014354066985646,
+          "angle": 62.01262783616052
+        },
+        "wideGlass": {
+          "x": 0.6447368421052632,
+          "y": 0.48617021276595745
+        },
+        "tag": {
+          "cx": 0.5950184501845018,
+          "cy": 0.6926257753273605,
+          "w": 0.09870848708487084,
+          "angle": 68.01077107427088
+        },
+        "glass": {
+          "x": 0.5387453874538746,
+          "y": 0.534803583735355
+        }
+      },
+      "hashes": {
+        "master": "6427fe69667a463579d8462c9c688bea03fc6c8f60dd73ecc79380fe18eba9da",
+        "wide": "2748f39b4456ca69cb01ce0b46d23c66cf2eeea998410a82bd92edd940a23c1c",
+        "portrait": "a31184c12d2d3f044316b7baab188b0d67dd3d5c883b91262b1c5c4e00c56d4c",
+        "portraitMaster": "6e2adb8ec0505f6883840392b0e403963d627d11ff6a0a157a7b4599382cb932"
+      },
+      "sourceSha256": "41199bbe7f02a35839ce04d5aa9d643fb2c35b9a6aedab42166ceb0ecc5cae00",
+      "specSha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe",
+      "reviewNote": "Fine pulp improved; repeated flecks, doubled stem twine, broad chair/throw and glossy warm timber remain. Browser/name checks unperformed.",
+      "priorHolds": {
+        "recipe": "Cold mashed roast apple/brandy/water serve, one ice lump and spoon. Fine suspended pulp is visibly softer and less chunky than v3. Repeated/faceted fleck pattern remains and needs comparison; not final recipe/material acceptance.",
+        "personality": "Prepared empty leather chair with olive throw retained. Trace is visible but broad and lateral; recognition/crop holds remain.",
+        "world": "Dark hotel reading room and warm practical retained. Timber has strong orange gloss and repeated sheen; house-material hold remains.",
+        "issues": "Fine pulp improved; repeated flecks, doubled stem twine, broad chair/throw and glossy warm timber remain. Browser/name checks unperformed."
+      },
+      "staticGeometry": {
+        "passCount": 6,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    },
+    {
+      "id": "outlaw-magician-v5-batch16",
+      "pairing": "outlaw-magician",
+      "name": "For Its Own Good",
+      "batch": 16,
+      "nativeVersions": {
+        "wide": "v5",
+        "portrait": "v5"
+      },
+      "output": "design-artifacts/_image-production/2026-10-06/outlaw-magician/v5",
+      "wide": "design-artifacts/_image-production/2026-10-06/outlaw-magician/v5/wide.jpg",
+      "portrait": "design-artifacts/_image-production/2026-10-06/outlaw-magician/v5/portrait.jpg",
+      "metadata": "design-artifacts/_image-production/2026-10-06/outlaw-magician/v5/metadata.json",
+      "runtimeCandidate": {
+        "src": "/personas/outlaw-magician/portrait.jpg",
+        "wide": "/personas/outlaw-magician/wide.jpg",
+        "wideTag": {
+          "cx": 0.7518028846153846,
+          "cy": 0.7980769230769231,
+          "w": 0.07932692307692307,
+          "angle": 10
+        },
+        "wideGlass": {
+          "x": 0.5985576923076923,
+          "y": 0.5715811965811965
+        },
+        "tag": {
+          "cx": 0.75,
+          "cy": 0.7221052631578947,
+          "w": 0.10150375939849623,
+          "angle": 10
+        },
+        "glass": {
+          "x": 0.5441729323308271,
+          "y": 0.5943859649122807
+        }
+      },
+      "hashes": {
+        "master": "654aaa30987ab393e9dc28adf760aed8af7dfd40cb9e913521e81dc060acb611",
+        "wide": "002971203cf3fc51085bc6d322abc4621e3611f996f9bbd88bf9b1d400ac0cc3",
+        "portrait": "495a7cc07db6512e2591ecc925bb76b007003de3b0566fbd036ec81406b9c18a",
+        "portraitMaster": "e9225da9a31bbd41576fed214d25629dd0cd94a99efb4fb8be3968291da31025"
+      },
+      "sourceSha256": "a76066a2300ecc4ca8ee54b9677fe3516da0f8ab2c2a5d6351d5e48a67b7acce",
+      "specSha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996",
+      "reviewNote": "Liquid colour improved; bag dominance, clipped binder/sheets, unclear ring action, etched cube, rough glossy timber and unresolved hidden tag loop remain. Browser/name checks unperformed.",
+      "priorHolds": {
+        "recipe": "Single cube and light clear amber-red liquid in heavy rocks glass retained. New liquid is visibly lighter and more transparent than v3; author colour expectation is approximate. Dense cube etching remains; not final material acceptance.",
+        "personality": "Bag, opened binder and released sheets retained. Bag dominates, lateral clipping persists, taken-apart ring action still uncertain.",
+        "world": "Historic reading-room frame retained. Rough gold timber and repeated reflections remain outside liquid-only correction.",
+        "issues": "Liquid colour improved; bag dominance, clipped binder/sheets, unclear ring action, etched cube, rough glossy timber and unresolved hidden tag loop remain. Browser/name checks unperformed."
+      },
+      "staticGeometry": {
+        "passCount": 0,
+        "total": 7,
+        "scope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance."
+      },
+      "status": "exported; inspected JPEGs; visual holds retained; Claude browser/name review pending",
+      "recommendedForComparison": true,
+      "acceptance": {
+        "material": false,
+        "personality": false,
+        "physics": false,
+        "name": false,
+        "browser": false,
+        "user": false,
+        "integrated": false
+      },
+      "browserOwner": "Claude",
+      "nameOverlayOwner": "Claude",
+      "liveSwapOwner": "Claude",
+      "liveSwapPerformedByCodex": false
+    }
+  ]
+}

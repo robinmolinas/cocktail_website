@@ -1,0 +1,178 @@
+{
+  "pairing": "magician-jester",
+  "pour": "Even When You Know",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-fb4c71c1-e0d2-4267-bf3a-bb5c4767ef66.png",
+  "sourceSha256": "c98659f788e69f52811fca9180b1771284c7b233b928cddb4306e3af2efa0bd3",
+  "specSha256": "aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32",
+  "roomSha256": "8b1deeee8dfaca1a4bb0fe175139c02952f33b49e52034a7e8132f3172c06e1f",
+  "masterSha256": "9628f356ae69694dd22f4b75ab4d15730d3d9dfcca4b204c41efcb28017c8c55",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    800,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1122,
+    "cy": 613,
+    "w": 111,
+    "angle": 75
+  },
+  "glass": {
+    "x": 1064,
+    "y": 469
+  },
+  "bounds": {
+    "glass": {
+      "x0": 948,
+      "y0": 150,
+      "x1": 1184,
+      "y1": 780
+    },
+    "paper": {
+      "x0": 1080,
+      "y0": 529,
+      "x1": 1169,
+      "y1": 691
+    },
+    "clearLayer": {
+      "x0": 999,
+      "y0": 408,
+      "x1": 1135,
+      "y1": 459
+    },
+    "tawnyLayer": {
+      "x0": 995,
+      "y0": 347,
+      "x1": 1138,
+      "y1": 412
+    },
+    "redLayer": {
+      "x0": 975,
+      "y0": 229,
+      "x1": 1156,
+      "y1": 349
+    }
+  },
+  "personBounds": {
+    "balance": {
+      "x0": 210,
+      "y0": 0,
+      "x1": 839,
+      "y1": 477
+    },
+    "magnifierFabric": {
+      "x0": 0,
+      "y0": 525,
+      "x1": 786,
+      "y1": 833
+    }
+  },
+  "recognitionRegions": {
+    "balance": {
+      "x0": 212,
+      "y0": 47,
+      "x1": 839,
+      "y1": 477
+    },
+    "magnifierFabric": {
+      "x0": 0,
+      "y0": 525,
+      "x1": 578,
+      "y1": 786
+    },
+    "magnifiedWeave": {
+      "x0": 326,
+      "y0": 555,
+      "x1": 547,
+      "y1": 698
+    },
+    "clearLayer": {
+      "x0": 999,
+      "y0": 408,
+      "x1": 1135,
+      "y1": 459
+    },
+    "tawnyLayer": {
+      "x0": 995,
+      "y0": 347,
+      "x1": 1138,
+      "y1": 412
+    },
+    "redLayer": {
+      "x0": 975,
+      "y0": 229,
+      "x1": 1156,
+      "y1": 349
+    }
+  },
+  "traceExtentNotes": {
+    "balance": "Top finial clipped at raster0, hiddenextent null; connected stand/pans/weights visible. Wooddrawer support separate supporting furniture, visiblebbox164,451–858,588 notpersontrace.",
+    "magnifierFabric": "Handle clippedleft, hiddenextent null. Wovenfabric underlens visibly enlarged, no literalrefractionproof. Full fabricvisibleextent included.",
+    "layers": "Correct threebandsorder; actualml and densitymethod not proved byphoto."
+  },
+  "unknownExtents": {
+    "balanceFinialBeyondRasterTop": null,
+    "magnifierHandleBeyondRasterLeft": null,
+    "balancePosterior": null,
+    "tagPosteriorSupport": null
+  },
+  "group": {
+    "fullWidth": 1184,
+    "recognitionWidth": 1184,
+    "physicalServeBoundsIncludingAllPhysicalObjects": {
+      "x0": 948,
+      "y0": 150,
+      "x1": 1184,
+      "y1": 780
+    },
+    "fullBounds": {
+      "x0": 0,
+      "y0": 0,
+      "x1": 1184,
+      "y1": 833
+    },
+    "recognitionBounds": {
+      "x0": 0,
+      "y0": 47,
+      "x1": 1184,
+      "y1": 786
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Single thin tan strandround narrowstem aroundy519, rearoccluded.",
+    "knot": "Smallrightknot1090,527 with~19pxupwardtail.",
+    "tether": "~25px doubleddown to1106,554.",
+    "hole": "Hole1107,555.",
+    "gravity": "Paperbelowknot, hangs outward.",
+    "airgap": "Outboardpaper clearsstem.",
+    "contact": "No tablecontact, paper suspended.",
+    "uncertainty": "Visiblechain plausible buttail notfullytrimmed/cordstilllighttan; hiddenrearloadunknown.",
+    "assessment": "Smallpaperbody separate, notglued, chainvisible with uncertainty."
+  },
+  "review": {
+    "recipe": "Correct threebands clearbottom/tawnyambermiddle/darkredtop, singleflaredstemcordial/noicegarnishfoam. Volume10/15/20 densitytest not photographically proved.",
+    "personality": "Fullsize connectedbalance and actualmagnifier overwovenfabric, explicitly inferred honestdemonstration traces, no historic artifact claim.",
+    "world": "Darkhouse smoothglass but tableambergloss/crackle.",
+    "issues": [
+      "Vessel630px vs300 target",
+      "Full1184/recogn1184px broadgroup; leftcopyobjects",
+      "Balancefinial/handle clippednativeextentunknown",
+      "702portraitclipsbothtraces; movingphoneHOLD",
+      "Actualvolume/newbottle densitytest unobservable",
+      "Woodambergloss/HDRhold",
+      "Namefit/browser/typeacceptance deferred"
+    ]
+  }
+}

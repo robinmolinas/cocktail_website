@@ -1,0 +1,121 @@
+{
+  "pairing": "explorer-creator",
+  "pour": "For Good",
+  "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+  "specSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+  "roomSha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8",
+  "houseRuleSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "physicalGarnishBounds": null,
+  "hiddenExtents": {
+    "box": null,
+    "caliper": null
+  },
+  "tagPhysics": {
+    "mechanism": "Single narrow taupe-looking stem wrap below bowl, stem partially occludes rear turn.",
+    "knot": "Small loaded join visible at right stem; exact knot construction unresolved.",
+    "tetherAndHole": "Continuous-looking short down-right tether enters visible punched hole.",
+    "gravity": "Paper hangs diagonally down beside stem; lower edge contacts tabletop.",
+    "separation": "Most face outboard with visible separation from stem. Paper edge meets glass-foot silhouette.",
+    "uncertainties": [
+      "Rear loop/friction not provable from one view.",
+      "Apparent extra doubled cord short section near knot; quietness not an unconditional pass."
+    ],
+    "status": "held for original root review; no physics PASS"
+  },
+  "review": {
+    "recipe": "One opaque off-white frozen portion in goblet, no added cube/salt/garnish. Surface slightly mounded/slushy; exact volume/count not visible.",
+    "personality": "Box and caliper recognizable ordinary fixing-habit inferences, not historical objects; screwed hinge looks ordinary fitted hardware, prior repair history not convincingly evident.",
+    "world": "Private historic timber room preserved. Excess warm sheen, dense droplets and prominent grain remain held.",
+    "issues": [
+      "Requested pulled-back wide scale missed.",
+      "Repaired-state specificity not verified.",
+      "Dense uniform wet detail and golden wood sheen remain.",
+      "Name fitting/browser/motion/physical support unapproved."
+    ]
+  },
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v3/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-39d5b710-5ff4-4dba-8fc4-6b81168b2dfe.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "7bc07428bf8bad198d9c6f2c8d34ccc302f4d64d663dc2fec89d273a410e3cd9",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    770,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1081,
+    "cy": 718,
+    "w": 145,
+    "angle": 65
+  },
+  "glass": {
+    "x": 976,
+    "y": 481
+  },
+  "bounds": {
+    "glass": {
+      "x0": 791,
+      "y0": 157,
+      "x1": 1161,
+      "y1": 803
+    },
+    "paper": {
+      "x0": 1000,
+      "y0": 629,
+      "x1": 1145,
+      "y1": 799
+    },
+    "box": {
+      "x0": 1064,
+      "y0": 477,
+      "x1": 1650,
+      "y1": 712
+    },
+    "caliperVisible": {
+      "x0": 1175,
+      "y0": 354,
+      "x1": 1672,
+      "y1": 518
+    },
+    "frozenServe": {
+      "x0": 806,
+      "y0": 203,
+      "x1": 1151,
+      "y1": 542
+    }
+  },
+  "recognitionRegions": {
+    "box": {
+      "x0": 1064,
+      "y0": 481,
+      "x1": 1648,
+      "y1": 711
+    },
+    "caliper": {
+      "x0": 1175,
+      "y0": 354,
+      "x1": 1472,
+      "y1": 501
+    }
+  },
+  "objectExtentNotes": {
+    "caliper": "Visible shaft clipped at image right. Complete extent UNKNOWN, not claimed as full object."
+  },
+  "allSupportingObjectUnion": {
+    "x0": 791,
+    "y0": 157,
+    "x1": 1672,
+    "y1": 803
+  },
+  "phoneAssessment": "881px visible union plus unseen clipped caliper fails narrow moving-phone target. Proposed portrait crop clips traces; dedicated portrait is separate source, not same-master success."
+}

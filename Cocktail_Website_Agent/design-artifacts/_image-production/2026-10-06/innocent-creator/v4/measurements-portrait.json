@@ -1,0 +1,128 @@
+{
+  "pairing": "innocent-creator",
+  "pour": "The Way It Felt",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-creator/v4/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-f50f1f83-54cc-4b7b-b674-f5f62559575c.png",
+  "masterDimensions": [
+    1086,
+    1448
+  ],
+  "masterSha256": "7c190049aa615d3d760c9f052f7a8ffeb261f78344494496fdf722af2b823e87",
+  "sourceSha256": "5bda13c71998d5c20539560bfc73235a0dcfa377e7fee916b932df372a8e8db7",
+  "specSha256": "de86d0e08f80fbf0f1b9c226200980bbca020ebf99e3b4cb20009c87b1b9ad24",
+  "roomSha256": "f8cb393e26c07fa706448b1a92a4859e39216870ec6eca5bfc3c6721e4fb6b78",
+  "unchangedCompanion": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/innocent-creator/v3/master.png",
+  "portraitCrop": [
+    0,
+    0,
+    1086,
+    1448
+  ],
+  "wideCrop": [
+    0,
+    458,
+    1086,
+    610
+  ],
+  "tag": {
+    "cx": 724,
+    "cy": 1060,
+    "w": 100,
+    "angle": 11
+  },
+  "glass": {
+    "x": 550,
+    "y": 836
+  },
+  "bounds": {
+    "glass": {
+      "x0": 436,
+      "y0": 602,
+      "x1": 663,
+      "y1": 1069
+    },
+    "paper": {
+      "x0": 650,
+      "y0": 1015,
+      "x1": 785,
+      "y1": 1096
+    },
+    "cakeVisible": {
+      "x0": 366,
+      "y0": 653,
+      "x1": 449,
+      "y1": 799
+    },
+    "plateVisible": {
+      "x0": 315,
+      "y0": 739,
+      "x1": 679,
+      "y1": 837
+    },
+    "cardVisible": {
+      "x0": 465,
+      "y0": 460,
+      "x1": 657,
+      "y1": 607
+    },
+    "frozenCubesVisible": {
+      "x0": 450,
+      "y0": 639,
+      "x1": 651,
+      "y1": 1006
+    }
+  },
+  "physicalGarnishBounds": null,
+  "recognitionRegions": {
+    "cake": {
+      "x0": 366,
+      "y0": 656,
+      "x1": 441,
+      "y1": 796
+    },
+    "card": {
+      "x0": 466,
+      "y0": 460,
+      "x1": 650,
+      "y1": 606
+    }
+  },
+  "hiddenExtents": {
+    "cakeBehindGlass": null,
+    "cardBottomBehindGlass": null,
+    "plateBehindGlass": null
+  },
+  "objectExtentNotes": {
+    "cake": "Most right face occluded by foreground glass; visible icing and sponge crumb recognizable. Complete hidden extent unknown.",
+    "card": "Lower peach patch partly occluded by rim/glass; handmade crayon gesture visible; not claiming unseen lower card extent."
+  },
+  "allSupportingObjectUnion": {
+    "x0": 315,
+    "y0": 460,
+    "x1": 785,
+    "y1": 1096
+  },
+  "tagPhysics": {
+    "mechanism": "Low clearfoot external brown/taupe loop/front arc/side disappear behind glass.",
+    "knot": "Very small rightfoot join partly hidden by reflection.",
+    "tetherAndHole": "Short downward tether appears continuous into visible paper hole.",
+    "gravity": "Paper outboard lies down from join with timber loweredge contact.",
+    "separation": "Paper distinctly separate fromglass; contacts wood not floated.",
+    "uncertainties": [
+      "Exact loaded knot and rearwrap/friction hidden.",
+      "Support intersects foot reflection; no unconditional physics pass."
+    ],
+    "status": "held for root original review"
+  },
+  "review": {
+    "recipe": "Burgundy opaque wine-cola freezer cubes/dark ruby pool/thin fizz/no garnish preserved. Exact8cubes not countable; dense sparkles/bubbles remain material watch.",
+    "personality": "Cake now behind glass with recognizable sponge/uneven icing; modest folded crayon card aboveglass instead of sidearmy. Essential identities retained with honest occlusion.",
+    "world": "Depth-group pulledback and room preserved; plain directional walnut but warm sheen/dense surface remains.",
+    "issues": [
+      "Glass467px32.3% meetsrequestedapprox30% direction.",
+      "Full visible supportunion470px43.3% slightly>central40%target.",
+      "Cake/card hidden extents unknown; meaningful visible regions measured.",
+      "Name/support/material/browser/phone acceptance pending."
+    ]
+  }
+}

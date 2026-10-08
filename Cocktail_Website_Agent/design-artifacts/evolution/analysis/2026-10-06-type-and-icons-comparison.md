@@ -1,3 +1,5 @@
+> **Dated analysis — reviewed 8 October 2026.** Preserve the measurements/proposals at their recorded date. H4 v4 and H5 world are built, Playfair is retained and icons are built. Open follow-ups are reconciled in the current evolution brief; earlier questions are not renewed approval requests. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # Type directions and flavour marks — comparison (2026-10-06)
 
 These are prototypes only. Nothing under `dionysus-experience/src` was touched. The CSS that matters (`.hold-q`, `.hold-hint`, `.sphere`, `.sphere-word`, `.ember`, `.tr-*`, `.cta`, `.hold-next`) was copied into the prototypes, and only the families, sizes and spacing were swapped for role tokens.

@@ -12,5 +12,7 @@ carries the locked constraints from the design log as Named Rules.
 **For BMAD/WDS agents (wds-7-design-system and friends):** do not author a
 second design-system document in this folder. Read, extend, or amend
 `DESIGN.md` in place — it is the single source of truth for visual decisions.
-Strategic/experience decisions stay where they always were: the master spec
-and `_progress/00-design-log.md`.
+Strategic/experience decisions stay in the current master spec
+(reconciled 2026-10-08) and `_progress/00-design-log.md`. Current reveal:
+TheReading; H4 v4 and H5 A world of your own are built. The historical
+TheSurfacing scan above is provenance, not a component to restore.

@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 ## Cocktail
 
 - **name:** Good for Years
-- **tagline:** Everyone says get a new one. You've already got the back off.
+- **tagline:** You find years of life in the things people were ready to throw away.
 - **glassware:** small tumbler, one large cube
 - **contains:** `[]`
 

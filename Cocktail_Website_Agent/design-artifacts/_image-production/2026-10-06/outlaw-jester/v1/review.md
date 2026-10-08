@@ -1,0 +1,5 @@
+# Native original review — With the Bite In v1
+
+Exact original inspected at1672×941, SHA256 8e35351b964fcff28764e505c0ef21c08929f07d9492d27911193bbc6ee0aca1, copied cp-n without resizing. Inside lime HALF has pinched/uneven flesh and sits among normal ice; thin fizz collar/red bittersdrops, no egg head or extra garnish. Upper liquid very amber, lower darkbrown; one stir not visually assured. Glass563px rather than300–360. Full874px/recognition812px cluster, sleeve/draft cropped at native right edge. Neither702portrait nor phone approved.
+
+Record groove/blank center/hole and folded draft+pencil genuinely recognizable, source-explicit formats, not miniature/historical possessions; blank backside avoids pseudo-writing. Lowerbody support cord, knot, downward tether and actual punchedhole read, tagtip visibly contacts timber. Rear loop/contact loading uncertain; not physics PASS. Glossy amber wood, dense grain/scratches and intricate ice reflections remain materially held. One focused correction running; no third permitted. No export/integration/browser actions.

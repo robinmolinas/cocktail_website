@@ -1,0 +1,5 @@
+Third and LAST authorized finalcall. Wide1672x941 original inspected and exactcopied. Glass519→313px (33.3%height), allserve/tag centralvertical and wholegroup visible. Foldsheet/envelope reduced/spatially pulledback, but still behindleft rather than trulydepthstacked. Union687px/proposed702crop margin15px—not389movingphone or browserPASS. Unchanged portrait explicitly v3/portrait-master.png; no newlyfabricatedpair.
+
+One droppedpeel/clearamber/threecloudycurvedpieces preserved. Main unresolved source-form HOLD: requested concave hollow cupwalls still look like solidcrescentchunks in places, so nohonest iceapproval. Strongfaceted glassfoot/wet highlights and warmtable sheen remain materialwatches. Fire/candle-like blurredbackgroundglows plus lamp deviate strictsingle-source simplicity despite quiet room.
+
+Lowbodywrap/rightjoin/short down-holetether/outboardpaper timbercontact plausible, rear friction/loading/knot uncertain. Smaller writingaxis not provennamefit. Materials/personality/physics/name/phone/browser allpending. Stop after3finalcalls,9totalrefinementcalls. Noexport/shared/public/source/integrationchanges; allpreviousmasters/rootreviews preserved.

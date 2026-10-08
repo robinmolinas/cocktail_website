@@ -1,0 +1,173 @@
+{
+  "pairing": "magician-ruler",
+  "pour": "Built to Hold",
+  "version": "v2",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-ruler/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-3b552dd8-7d4f-4330-8805-99264d0f7d60.png",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "masterSha256": "0128000fb99dc6f2014e9f4082cf1711c8f8126e9aa9b0c51e60ebf4c995dcdd",
+  "sourceSha256": "6a22f8d1c4b6e27a50d9fd470ea02a898ba0405c3300161544714702edbb5cf6",
+  "specSha256": "1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56",
+  "roomSha256": "35cf395867739ab2d96beeef48217eeb27089adfeaeab4c4e3cb6750fcea23bb",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    635,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1271,
+    "cy": 681,
+    "w": 55,
+    "angle": 66
+  },
+  "glass": {
+    "x": 1086,
+    "y": 564
+  },
+  "bounds": {
+    "glass": {
+      "x0": 945,
+      "y0": 443,
+      "x1": 1308,
+      "y1": 690
+    },
+    "paper": {
+      "x0": 1214,
+      "y0": 629,
+      "x1": 1335,
+      "y1": 717
+    }
+  },
+  "personalityBounds": {
+    "closedLeatherOrganiser": {
+      "x0": 639,
+      "y0": 432,
+      "x1": 1050,
+      "y1": 607
+    },
+    "twoPreparedLinenNapkins": {
+      "x0": 1170,
+      "y0": 431,
+      "x1": 1650,
+      "y1": 640
+    }
+  },
+  "recognitionRegions": {
+    "closedLeatherOrganiser": {
+      "x0": 639,
+      "y0": 432,
+      "x1": 1050,
+      "y1": 607
+    },
+    "twoPreparedLinenNapkins": {
+      "x0": 1170,
+      "y0": 431,
+      "x1": 1650,
+      "y1": 640
+    }
+  },
+  "physicalRecognitionRegions": {
+    "wholeHandledCup": {
+      "x0": 945,
+      "y0": 443,
+      "x1": 1308,
+      "y1": 690
+    }
+  },
+  "supportingBounds": {
+    "cord": {
+      "x0": 1192,
+      "y0": 596,
+      "x1": 1258,
+      "y1": 675
+    },
+    "glassHandle": {
+      "x0": 1200,
+      "y0": 488,
+      "x1": 1308,
+      "y1": 635
+    }
+  },
+  "visibility": {
+    "organiser": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Cup hides rear/side; visible closed tabbed organiser is recognisable."
+    },
+    "linen": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Both stacked folded napkin faces visible, unseen folds unknown; proposed portrait crops outer right fabric."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Lower integral closed handle loop, small knot, short descending punched-hole tether; paper outside glass, bottom on timber.",
+    "anchorBounds": {
+      "x0": 1203,
+      "y0": 597,
+      "x1": 1238,
+      "y1": 632
+    },
+    "knotPoint": {
+      "x": 1223,
+      "y": 606
+    },
+    "holePoint": {
+      "x": 1251,
+      "y": 645
+    },
+    "gravity": "Paper below knot and supported by tabletop.",
+    "airGap": "Broad paper face outside cup; upper shoulder near handle.",
+    "contact": "Bottom paper edge meets wood with local shadow.",
+    "uncertainties": [
+      "Doubled crossing/extra side loop and tail persist.",
+      "Rear loop closure, friction and taut load unverified.",
+      "Tiny handle intersection topology unclear; no physics PASS."
+    ],
+    "status": "Observed front attachment plausible, HOLD."
+  },
+  "recognitionUnionWidth": 1011,
+  "physicalServeRecognitionWidth": 363,
+  "physicalServeHeight": 247,
+  "cropAssessment": {
+    "wide": "Proposed 16:9 contains complete visible meaningful group.",
+    "portrait": "Proposed crop x635–1337 retains cup/tag/organiser, clips right napkins. Not portrait acceptance.",
+    "movingPhone": "1011px meaningful group much wider than ~389px phone inner window; no phone proof."
+  },
+  "recipeVariant": {
+    "chosenBranch": "Seville orange shrub; Batavia arrack; STILL fridge water",
+    "photographicProof": "Exact 180ml, temperature/chemistry and 2 napkin count cannot be measured from render."
+  },
+  "review": {
+    "recipe": "ONE small handled cold glass cup, hazy pale amber-orange, no ice/steam/foam/garnish. Style bowl not a shared vessel.",
+    "personality": "Closed organiser/tabs and two linen preparations are inferred from all-parts coordination/arrival preparedness, not explicit owned objects; generic and still broad.",
+    "world": "Dark old reading room, one right practical, no metal counter. Timber still orange-gloss/crackle and cup uniform micro-speckle remain material HOLD.",
+    "issues": [
+      "Right linen full master now retained but proposed portrait clips.",
+      "Full meaningful group 1011px wider than portrait/moving phone; app not checked.",
+      "Tiny doubled handle tether/side tail and rear load uncertain.",
+      "Hazy drink remains saturated orange in warm light and uniformly speckled, material/appearance watch.",
+      "Name overlay, physical/personality/editorial/user acceptance pending."
+    ]
+  },
+  "status": "Selected measured native candidate; held, no exports or acceptance.",
+  "rootMasterOriginalResolutionInspected": true,
+  "rootWideInspected": false,
+  "rootPortraitInspected": false,
+  "exported": false,
+  "accepted": false,
+  "integrated": false
+}

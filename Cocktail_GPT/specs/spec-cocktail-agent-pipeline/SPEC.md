@@ -10,6 +10,8 @@ sources:
   - ../../../Cocktail_Website_Agent/Knowledge base/cocktail_counsel_knowledge_base.md
 ---
 
+> **Superseded pipeline reference — reviewed 8 October 2026.** The active contract is Cocktail_Website_Agent/agent/spec/SPEC.md with ARCHITECTURE-SPINE.md. Preserve this earlier record; its old output shape, missing vetoes and questionnaire assumptions are not build instructions. Current direction: [experience specification](../../../Cocktail_Website_Agent/design-artifacts/2026-07-08-experience-master-spec.md).
+
 > **Canonical contract.** This SPEC and the files in `companions:` are the complete, preservation-validated contract for what to build, test, and validate. Source documents in frontmatter are for traceability only. The questionnaire, the Brand Personality + Roulette workbook, the ingredient inventory, and the persona fixtures are **live source data downstream MUST read** — mapped in `pipeline-stages.md` and `personality-model.md`, not duplicated here.
 
 # Dionysus — Cocktail Personality Agent Pipeline

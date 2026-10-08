@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-28 (batch caregiver)
 ## Cocktail
 
 - **name:** Serviceable
-- **tagline:** You care about people you'll never meet.
+- **tagline:** For someone you care about, you'll keep looking as long as it takes.
 - **glassware:** highball glass, filled with ice
 - **contains:** `[]`
 
@@ -178,7 +178,7 @@ Pick: ***Serviceable***. It's the only one that is the story, the person and a s
 Wren's title-block notes:
 
 - **name:** *Serviceable* (pick; Tomás backs it). Runner-up *Fixed Air* (now F11). Also on record: *The Wrong Cure*, *Somewhere Else*, *The Long Way Round*.
-- **tagline:** *You care about people you'll never meet.*
+- **tagline:** *For someone you care about, you'll keep looking as long as it takes.*
 - **epigraph:** *The fizz in this glass was once meant to cure sailors. It never did.* (14 words; no "he"; claims no single maker. Fallback, Hester's: *Soda water was once meant to cure sailors. It never did.*)
 
 ### Open items

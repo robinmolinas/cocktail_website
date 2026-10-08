@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 ## Cocktail
 
 - **name:** Don't Look at Me
-- **tagline:** You hardly crack a smile. You're having the best time in the room.
+- **tagline:** Your straight face brings out everyone else's funniest side.
 - **glassware:** large plain tumbler (about 350 ml), three ice cubes
 - **contains:** `[]`
 
@@ -201,7 +201,7 @@ Wren's title-block notes:
 (Step 3 vote. Also considered: *Don't Look at Me* (Hester), *Dry Wit* (Tomás), *Not the Author*, *The Feed*.)
 Why mine: it names the gift, which is the positive frame Robin likes in a title, and it's true of the drink's story (the colonel's stories all landed on the bar's drink). The phrase doesn't appear in the reading, so the name doesn't spend a line.
 
-**tagline:** You hardly crack a smile. You're having the best time in the room.
+**tagline:** Your straight face brings out everyone else's funniest side.
 Candidates: (2) They get the laugh. It comes off you. (3) People think you put up with them. You picked them. ("You're the sensible one" struck: *Fair Measure* owns "People call you the sensible one".)
 
 **epigraph:** *Named after a regular, mixed by the bartender. The regular denied being its author.*

@@ -1,0 +1,405 @@
+{
+  "pairing": "ruler-magician",
+  "pour": "The Long View",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "5457018d1dd14a842408777d809f3d3d364374d0f80af29bf86b7d30d02eab93",
+  "review": {
+    "recipe": "One chilled stemmed sour glass, opaque hazy ordinary-orange/amber sour, thin fine pale aeration corrected from v1 thick head, orange strip on rim, no serving ice. No egg/cream/lemon/lime or invented garnish.",
+    "personality": "Loose-leaf rings, tabs and handled pages plus folded broadsheet recognizable; source-grounded inference of ready preparation/following events, not an archival replica or claimed historical artifact. Printed column texture remains unverified non-readable detail.",
+    "world": "Glass plain with broad clear patches and sparse uneven drops. Table flatter/lower-grain than older batch04 controls, but scene remains warm and includes two visible practical lamps.",
+    "issues": [
+      "Glass352px slightly exceeds280–330 requested.",
+      "663px full group and639px conservative recognition group exceed350–380 moving-phone target.",
+      "140px usable writing axis below170–200 target although tag is freely tied and clean.",
+      "Generated binder/newspaper column marks unverified and potentially pseudo-writing; no readable claim intended.",
+      "Warm scene/two visible practical sources do not fully meet one-source neutral house treatment.",
+      "No crop/JPEG/runtime/browser acceptance; root review pending."
+    ]
+  },
+  "measurements": {
+    "pairing": "ruler-magician",
+    "pour": "The Long View",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-magician/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-a761c197-dd1b-4da1-a42d-9f2d68cacb2e.png",
+    "sourceSha256": "5457018d1dd14a842408777d809f3d3d364374d0f80af29bf86b7d30d02eab93",
+    "specSha256": "ec92e2b724b7f0c3b89c08439486ac766e75ced8ea69ecb53944f4c63dd8ddbc",
+    "masterSha256": "31353d8c29e46636b6b55f27ed4a5523a05b675204561863d09e72fa830242fa",
+    "masterDimensions": {
+      "width": 1671,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1671,
+      940
+    ],
+    "portraitCrop": [
+      782,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1247,
+      "cy": 618,
+      "w": 140,
+      "angle": 10
+    },
+    "glass": {
+      "x": 1103,
+      "y": 486
+    },
+    "bounds": {
+      "glass": {
+        "x0": 981,
+        "y0": 357,
+        "x1": 1226,
+        "y1": 709
+      },
+      "paper": {
+        "x0": 1141,
+        "y0": 559,
+        "x1": 1325,
+        "y1": 675
+      },
+      "garnish": {
+        "x0": 1070,
+        "y0": 341,
+        "x1": 1254,
+        "y1": 377
+      }
+    },
+    "personalityBounds": {
+      "looseLeafBinder": {
+        "x0": 806,
+        "y0": 468,
+        "x1": 1465,
+        "y1": 608
+      },
+      "foldedBroadsheet": {
+        "x0": 802,
+        "y0": 550,
+        "x1": 1102,
+        "y1": 637
+      }
+    },
+    "recognitionRegions": {
+      "binderRingsPageBlockAndTabs": {
+        "x0": 850,
+        "y0": 505,
+        "x1": 1442,
+        "y1": 597
+      },
+      "broadsheetFoldColumnsAndLayers": {
+        "x0": 803,
+        "y0": 554,
+        "x1": 1102,
+        "y1": 637
+      }
+    },
+    "measurementNotes": [
+      "Original-resolution visual measurements, actual1671x941 probed (not1672).",
+      "Complete glass/tag/garnish union344px;352px full glass height,368px from peel top through foot.",
+      "Full glass/tag/personality union663px; conservative recognition union639px (803–1442). No anonymous strip counted as full recognition.",
+      "Paper full184px lateral extent is NOT writable axis: conservative140px usable clean axis excludes hole/clipped end/margins.",
+      "Proposed portrait x782–1484 retains all full objects, but only about20px left and19px right clearance. Full portrait is not phone/motion/browser evidence."
+    ],
+    "review": {
+      "recipe": "One chilled stemmed sour glass, opaque hazy ordinary-orange/amber sour, thin fine pale aeration corrected from v1 thick head, orange strip on rim, no serving ice. No egg/cream/lemon/lime or invented garnish.",
+      "personality": "Loose-leaf rings, tabs and handled pages plus folded broadsheet recognizable; source-grounded inference of ready preparation/following events, not an archival replica or claimed historical artifact. Printed column texture remains unverified non-readable detail.",
+      "world": "Glass plain with broad clear patches and sparse uneven drops. Table flatter/lower-grain than older batch04 controls, but scene remains warm and includes two visible practical lamps.",
+      "issues": [
+        "Glass352px slightly exceeds280–330 requested.",
+        "663px full group and639px conservative recognition group exceed350–380 moving-phone target.",
+        "140px usable writing axis below170–200 target although tag is freely tied and clean.",
+        "Generated binder/newspaper column marks unverified and potentially pseudo-writing; no readable claim intended.",
+        "Warm scene/two visible practical sources do not fully meet one-source neutral house treatment.",
+        "No crop/JPEG/runtime/browser acceptance; root review pending."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1432.8186714542192,
+        "cy": 710.0425531914893,
+        "w": 160.86175942549372,
+        "angle": 9.99934852559811
+      },
+      "glass": {
+        "x": 1267.3608617594255,
+        "y": 558.3829787234043
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 593.5042735042734,
+        "cy": 788.936170212766,
+        "w": 178.6894586894587,
+        "angle": 10.001861341039278
+      },
+      "glass": {
+        "x": 409.7094017094017,
+        "y": 620.4255319148937
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/ruler-magician/portrait.jpg",
+    "wide": "/personas/ruler-magician/wide.jpg",
+    "wideTag": {
+      "cx": 0.7462597247157391,
+      "cy": 0.6574468085106383,
+      "w": 0.08378216636744465,
+      "angle": 9.99934852559811
+    },
+    "wideGlass": {
+      "x": 0.6600837821663674,
+      "y": 0.5170212765957447
+    },
+    "tag": {
+      "cx": 0.6623931623931624,
+      "cy": 0.6574468085106383,
+      "w": 0.19943019943019943,
+      "angle": 10.001861341039278
+    },
+    "glass": {
+      "x": 0.45726495726495725,
+      "y": 0.5170212765957447
+    }
+  },
+  "hashes": {
+    "master": "31353d8c29e46636b6b55f27ed4a5523a05b675204561863d09e72fa830242fa",
+    "wide": "b44a02d330f5d1c730f16170f4898c2e94010abc674a9a75580fe3c3d812bbcc",
+    "portrait": "da874076bf769e54d9c42dcb84e806f62620ec07d3ea095152e8c6d1a6c284a4"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1127.181328545781,
+          "y0": 410.17021276595744,
+          "x1": 1408.689407540395,
+          "y1": 814.5957446808511
+        },
+        "paper": {
+          "x0": 1311.023339317774,
+          "y0": 642.2553191489362,
+          "x1": 1522.4416517055656,
+          "y1": 775.531914893617
+        },
+        "garnish": {
+          "x0": 1229.443447037702,
+          "y0": 391.78723404255317,
+          "x1": 1440.8617594254938,
+          "y1": 433.1489361702128
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 859.3177737881508,
+          "y0": 341.8085106382979,
+          "x1": 1093.9078396169957,
+          "y1": 678.8297872340426
+        },
+        "paper": {
+          "x0": 1012.5194494314783,
+          "y0": 535.2127659574469,
+          "x1": 1188.7013764213048,
+          "y1": 646.2765957446809
+        },
+        "garnish": {
+          "x0": 944.5362058647518,
+          "y0": 326.48936170212767,
+          "x1": 1120.7181328545782,
+          "y1": 360.9574468085106
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1202.326750448833,
+          "y0": 384.1548936170213,
+          "x1": 1502.6020347097547,
+          "y1": 815.5421276595745
+        },
+        "paper": {
+          "x0": 1398.4248952722921,
+          "y0": 631.7123404255319,
+          "x1": 1623.93776181927,
+          "y1": 773.8740425531915
+        },
+        "garnish": {
+          "x0": 1311.4063435068822,
+          "y0": 364.5463829787234,
+          "x1": 1536.91921005386,
+          "y1": 408.6655319148936
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2019.5332136445243,
+          "y0": 507.1882978723404,
+          "x1": 2523.901855176541,
+          "y1": 1231.7840425531915
+        },
+        "paper": {
+          "x0": 2348.916816277678,
+          "y0": 923.0074468085106,
+          "x1": 2727.707959305805,
+          "y1": 1161.7946808510637
+        },
+        "garnish": {
+          "x0": 2202.7528426092163,
+          "y0": 474.2521276595744,
+          "x1": 2581.543985637343,
+          "y1": 548.3585106382978
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.45726495726495725,
+        "y": 0.5170212765957447
+      },
+      "bounds": {
+        "glass": {
+          "x0": 68.81371320037984,
+          "y0": 320.54042553191493,
+          "x1": 288.7506552706553,
+          "y1": 636.5914893617021
+        },
+        "paper": {
+          "x0": 212.44600189933527,
+          "y0": 501.91063829787237,
+          "x1": 377.623133903134,
+          "y1": 606.063829787234
+        },
+        "garnish": {
+          "x0": 148.7091737891738,
+          "y0": 306.17446808510635,
+          "x1": 313.88630579297245,
+          "y1": 338.49787234042554
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.45726495726495725,
+        "y": 0.5170212765957447
+      },
+      "bounds": {
+        "glass": {
+          "x0": 75.6852041785375,
+          "y0": 353.96170212765963,
+          "x1": 318.5539601139601,
+          "y1": 702.9659574468085
+        },
+        "paper": {
+          "x0": 234.29337132003803,
+          "y0": 554.2425531914895,
+          "x1": 416.6927635327636,
+          "y1": 669.2553191489362
+        },
+        "garnish": {
+          "x0": 163.91099715099716,
+          "y0": 338.09787234042557,
+          "x1": 346.31038936372266,
+          "y1": 373.79148936170213
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.45726495726495725,
+        "y": 0.5170212765957447
+      },
+      "bounds": {
+        "glass": {
+          "x0": 72.61963912630578,
+          "y0": 215.71914893617023,
+          "x1": 220.63407407407408,
+          "y1": 428.41702127659573
+        },
+        "paper": {
+          "x0": 169.2821272554606,
+          "y0": 337.77872340425535,
+          "x1": 280.4439886039886,
+          "y1": 407.87234042553195
+        },
+        "garnish": {
+          "x0": 126.38814814814813,
+          "y0": 206.05106382978724,
+          "x1": 237.55000949667618,
+          "y1": 227.80425531914892
+        }
+      }
+    }
+  ]
+}

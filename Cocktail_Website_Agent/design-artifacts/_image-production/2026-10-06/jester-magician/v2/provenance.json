@@ -1,0 +1,24 @@
+{
+  "pairing": "jester-magician",
+  "pour": "The Kind You'd Want",
+  "batch": 12,
+  "version": 2,
+  "callOrdinal": 4,
+  "pairingCallOrdinal": 2,
+  "method": "built-in image_gen sole focused edit",
+  "actualPrompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v2/prompt-batch12.txt",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-6dd8531c-93ee-42ff-958c-ac06285c97bb.png",
+  "stagedMaster": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-magician/v2/master.png",
+  "originalSha256": "5bcf9896dc51eff41d63ab69fef78594bb246cb6f91c7cde47e03519c7df41fd",
+  "stagedSha256": "5bcf9896dc51eff41d63ab69fef78594bb246cb6f91c7cde47e03519c7df41fd",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourceSha256": "896af7a4eb5de91449e7e404ab965301559fa98d7be1ef77361471d9d3805599",
+  "specSha256": "3ce67214f49a9e03f9d5fded29ed434c347ad55ac0e85d7af06da1780e50bd79",
+  "roomSha256": "c64e078f095d05dac035990dddac103fec9a3a181e44d2b2eb4463737a2c3e8d",
+  "referenceImage": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-7457a454-ed2d-4f81-9768-80e34b50e75f.png",
+  "personaImageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "status": "selected measured held candidate; bounded generation stopped"
+}

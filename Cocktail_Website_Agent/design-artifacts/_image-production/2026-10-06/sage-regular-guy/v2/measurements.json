@@ -1,0 +1,158 @@
+{
+  "pairing": "sage-regular-guy",
+  "pour": "Whatever They Call It",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-regular-guy/v2/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-02caf605-26fb-42f5-951d-9ca380304908.png",
+  "masterDimensions": [
+    1672,
+    941
+  ],
+  "masterSha256": "3d4c01c100d07cffb78dee714442e9f18fac9f1c99c50dcf375eb78f8f849c6b",
+  "sourceSha256": "89d9cf57518bf9d04601470d483e75c722e01981cca1d8bb77e91db0be5a0181",
+  "specSha256": "f5c25076116b0e9575a189dead90bf2f7edd393b9f4b7f51cfeebaeae2d6365d",
+  "roomSha256": "94925bbee0969305f47ec05b35fa2fd05553da615fd356034080329cba7c2296",
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    928,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1206,
+    "cy": 698,
+    "w": 106,
+    "angle": 72
+  },
+  "glass": {
+    "x": 1108,
+    "y": 522
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1003,
+      "y0": 311,
+      "x1": 1212,
+      "y1": 734
+    },
+    "paper": {
+      "x0": 1153,
+      "y0": 617,
+      "x1": 1265,
+      "y1": 758
+    },
+    "mug": {
+      "x0": 1194,
+      "y0": 421,
+      "x1": 1426,
+      "y1": 623
+    },
+    "purse": {
+      "x0": 1222,
+      "y0": 568,
+      "x1": 1537,
+      "y1": 693
+    },
+    "oreganoGarnish": {
+      "x0": 1046,
+      "y0": 337,
+      "x1": 1167,
+      "y1": 412
+    }
+  },
+  "recognitionRegions": {
+    "mug": {
+      "bounds": {
+        "x0": 1199,
+        "y0": 423,
+        "x1": 1421,
+        "y1": 606
+      },
+      "reason": "Substantial empty interior/rim, chipped front ceramic body and attached handle recognizable, hero and purse obscure lower left/base."
+    },
+    "purse": {
+      "bounds": {
+        "x0": 1226,
+        "y0": 577,
+        "x1": 1534,
+        "y1": 689
+      },
+      "reason": "Substantial full-size olive canvas body, zipper and attached repair recognizable; not anonymous cloth edge."
+    }
+  },
+  "objectVisibility": {
+    "mug": "Glass hides left and purse hides lower base; complete unseen extent unknown, measured visible silhouette.",
+    "purse": "Most body visible; rear/under extent hidden by itself/mug, unknown.",
+    "garnish": "One small rounded-leaf oregano sprig lies diagonally/flat over upper ice; individual leaf elevated, not second standing sprig.",
+    "ice": "Three apparent main cubes visible; lower refraction can obscure exact boundaries, not quantitative physical proof."
+  },
+  "supportingObjectUnion": {
+    "x0": 1046,
+    "y0": 337,
+    "x1": 1537,
+    "y1": 693
+  },
+  "tagPhysics": {
+    "mechanism": "Snug thin beige exterior loop around lower body y588–612 below rim311; visible curved front arc and side occlusion, not rim attachment.",
+    "knot": "Visible small tied knot on front-right near1177/606; crossed thread structure readable, load depth unresolved.",
+    "tetherAndHole": "Short continuous downward strand from knot through punched reinforced hole near1187/639, no disconnected halo.",
+    "gravity": "Paper below knot slopes downward right, no upward suspension.",
+    "paperSeparationOrContact": "Paper projects outside right glass contour, light gap at middle right, bottom edge contacts timber at y756 with contact shadow; not pasted body label.",
+    "uncertainties": [
+      "Far-side loop/friction load unobservable.",
+      "Tiny knot depth and threading behind hole partly self-occluded.",
+      "Actual paper contact seen; not claim entire tag floating."
+    ],
+    "status": "Visible support chain plausible, friction/load uncertainty held, no physics PASS."
+  },
+  "review": {
+    "recipe": "Colorless clear built tequila+soda highball with three apparent ordinary cubes, one small oregano sprig laid on upper ice; no citrus/sugar/foam/straw. Thin fine soda bubble surface ring not thick foam. Cube boundaries refracted; exact physical count not proven beyond visible three.",
+    "personality": "Source-explicit empty chipped mug plus repaired canvas purse inferred few practical kept things. Both recognizable and mug behind hero, but purse still spread right rather than tight depth group; specificity inference watch.",
+    "world": "Dark walnut private room, quiet left, but crackled glossy amber table and etched/granular ice dense sparkle remain material hold; cool window plus practical is second-light watch.",
+    "issues": [
+      "Glass423px still above300–360 target after pullback.",
+      "Full visible group534px, conservative531px glass/paper/recognition, >389movingphone.",
+      "Proposed702portrait retains visible props, not narrow-phone PASS.",
+      "Uniform crackled glossy wood/ice-glass sparkle held.",
+      "Tag106px writable axis; actual name fit untested.",
+      "Friction/knot-load uncertainty, no blanket physics PASS.",
+      "Cool window/practical two-light watch.",
+      "No JPEG/browser/export/integration;2calls exhausted."
+    ]
+  },
+  "roomFixtures": {
+    "lamp": {
+      "bounds": {
+        "x0": 1530,
+        "y0": 0,
+        "x1": 1672,
+        "y1": 252
+      },
+      "visibility": "Optional room light clipped right/top; unseen extent unknown."
+    },
+    "books": {
+      "bounds": {
+        "x0": 1124,
+        "y0": 170,
+        "x1": 1526,
+        "y1": 255
+      },
+      "visibility": "Optional blurry room background books, not essential person traces; no decipherable generated text claimed."
+    },
+    "window": {
+      "bounds": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 250,
+        "y1": 282
+      },
+      "visibility": "Optional room fixture cropped top/left; cool light watch."
+    }
+  }
+}
+

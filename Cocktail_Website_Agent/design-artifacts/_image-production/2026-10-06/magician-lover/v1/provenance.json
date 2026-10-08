@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "generate",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-4f5e0162-39a4-4e7b-a758-63c1f82dc723.png",
+  "originalSha256": "1b4b208814f3c2c58d2e5ee91c90bd0e53829fdae7fd5c83a04f4becae6d5f7d",
+  "masterSha256": "1b4b208814f3c2c58d2e5ee91c90bd0e53829fdae7fd5c83a04f4becae6d5f7d",
+  "stagedMaster": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-lover/v1/master.png",
+  "nativeDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "sourcePath": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/magician-lover.md",
+  "sourceSha256": "1b0c310e774d522dcf14f9fe2b7bd016e78c94b95c99b962d7b4dc02cf1d8c62",
+  "specPath": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-lover.json",
+  "specSha256": "a51551b75bded2dc5fd993ef4f4853c06d367e275cf75958703693f1a2148b3c",
+  "roomPath": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-lover.md",
+  "roomSha256": "7edd0d4cc033e160b574af831d11e63ab7b7097d8cdd38fe093ab81455c69b34",
+  "prompt": "prompt-batch09.txt",
+  "readiness": "readiness-batch09.md",
+  "targetedCorrectionCount": 0,
+  "editTarget": null,
+  "reviewStatus": "measured-master candidate, held, not accepted, browser deferred"
+}
+

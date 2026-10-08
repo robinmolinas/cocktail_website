@@ -1,0 +1,161 @@
+{
+  "pairing": "jester-innocent",
+  "pour": "Off the Tour",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-b1da811b-3473-442b-9957-bafea98d0548.png",
+  "sourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+  "specSha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+  "roomSha256": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d",
+  "masterSha256": "b1a55f7c0834cb0a505b3b297840964d31d4208786df2833fe7ec6783f797313",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    850,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1278,
+    "cy": 797,
+    "w": 78,
+    "angle": 69
+  },
+  "glass": {
+    "x": 1134,
+    "y": 555
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1005,
+      "y0": 253,
+      "x1": 1260,
+      "y1": 858
+    },
+    "paper": {
+      "x0": 1227,
+      "y0": 725,
+      "x1": 1329,
+      "y1": 860
+    },
+    "ice": {
+      "x0": 1007,
+      "y0": 161,
+      "x1": 1260,
+      "y1": 799
+    },
+    "swizzle": {
+      "x0": 1002,
+      "y0": 65,
+      "x1": 1038,
+      "y1": 278
+    }
+  },
+  "personBounds": {
+    "deckchair": {
+      "x0": 628,
+      "y0": 193,
+      "x1": 1440,
+      "y1": 658
+    },
+    "sachet": {
+      "x0": 730,
+      "y0": 635,
+      "x1": 970,
+      "y1": 714
+    }
+  },
+  "recognitionRegions": {
+    "deckchair": {
+      "x0": 637,
+      "y0": 193,
+      "x1": 1410,
+      "y1": 652
+    },
+    "sachet": {
+      "x0": 730,
+      "y0": 635,
+      "x1": 970,
+      "y1": 714
+    },
+    "swizzle": {
+      "x0": 1002,
+      "y0": 65,
+      "x1": 1038,
+      "y1": 278
+    },
+    "ice": {
+      "x0": 1007,
+      "y0": 161,
+      "x1": 1260,
+      "y1": 799
+    }
+  },
+  "traceExtentNotes": {
+    "deckchair": "Visible bounds only; hidden lower frame/posterior load unknown. Full-size ordinary inference supported by room.",
+    "sachet": "Torn sachet and detached corner recognizable, not a historical artifact.",
+    "ice": "Angular mound visible; frosted body obscures individual submerged chip shape.",
+    "swizzle": "Full protruding stick included; underwater prongs hidden unknown."
+  },
+  "unknownExtents": {
+  "swizzleUnderwaterProngs": null,
+  "deckchairHiddenLowerFrame": null,
+  "deckchairPosterior": null,
+  "submergedIceChipShape": null,
+  "tagPosteriorSupport": null
+},
+  "group": {
+    "fullWidth": 812,
+    "recognitionWidth": 773,
+    "physicalServeBoundsIncludingAllPhysicalObjects": {
+      "x0": 1002,
+      "y0": 65,
+      "x1": 1329,
+      "y1": 860
+    },
+    "fullBounds": {
+      "x0": 628,
+      "y0": 65,
+      "x1": 1440,
+      "y1": 860
+    },
+    "recognitionBounds": {
+      "x0": 637,
+      "y0": 65,
+      "x1": 1410,
+      "y1": 860
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Thin lower exterior arc across front curves round sides; posterior occluded.",
+    "knot": "Visible small knot near1241,718.",
+    "tether": "Short doubled down tether toward1253,744.",
+    "hole": "Punched dark hole visible1254,744.",
+    "gravity": "Paper below knot, tilted outward.",
+    "airgap": "Outboard paper mostly separated from glass.",
+    "contact": "Bottom near wood; exact contact/load unknown.",
+    "uncertainty": "Posterior support hidden, tilt/contact not proven.",
+    "assessment": "Plausible visible chain; not universal physics PASS."
+  },
+  "review": {
+    "recipe": "Pale faintgreen frosted Collins/red upperice/swizzle/no straw coherent; internal crushedice shape hidden by frost.",
+    "personality": "Real chair and torn sachet readable; chair broad.",
+    "world": "Dark house but table overamber/glossy/densewear.",
+    "issues": [
+      "Glass605px instead330; stick y65 exceeds vertical guard",
+      "Full812/recognition773px not movingphone~389",
+      "Portrait clips chair",
+      "Internal crushedice angularity unproved",
+      "Ambergloss wood hold",
+      "Name fit/browser deferred"
+    ]
+  }
+}

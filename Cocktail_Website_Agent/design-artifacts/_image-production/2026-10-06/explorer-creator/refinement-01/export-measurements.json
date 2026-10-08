@@ -1,0 +1,105 @@
+{
+  "pairing": "explorer-creator",
+  "pour": "For Good",
+  "asset": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v4/master.png",
+  "masterSha256": "064c40b8e688e269632c9b7e214e81a562b1f1dbf7be8fc52aacccc6a5c2fccd",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-80c3c452-9cf2-4d4e-9928-de3618f7cf34.png",
+  "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+  "specSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+  "roomSha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "designSha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+  "tag": {
+    "cx": 1070,
+    "cy": 657,
+    "w": 87,
+    "angle": 67
+  },
+  "glass": {
+    "x": 1001,
+    "y": 509
+  },
+  "bounds": {
+    "glass": {
+      "x0": 887,
+      "y0": 309,
+      "x1": 1117,
+      "y1": 710
+    },
+    "paper": {
+      "x0": 1019,
+      "y0": 601,
+      "x1": 1115,
+      "y1": 708
+    },
+    "box": {
+      "x0": 1056,
+      "y0": 501,
+      "x1": 1485,
+      "y1": 666
+    },
+    "caliper": {
+      "x0": 1117,
+      "y0": 423,
+      "x1": 1584,
+      "y1": 544
+    },
+    "frozenServe": {
+      "x0": 895,
+      "y0": 338,
+      "x1": 1109,
+      "y1": 543
+    }
+  },
+  "unknownExtents": {
+    "boxBehindGlass": null
+  },
+  "review": {
+    "recipe": "One smooth opaque off-white frozen goblet portion, no separate cubes/garnish/salt. Surface slightly mounded and dense condensation remain.",
+    "personality": "Whole ordinary box and full caliper retained inside frame. Hinge fitted but modest prior repair not clearly distinguishable; source-inferred fixing belongings.",
+    "world": "Pulled-back room now more spacious. Directional walnut with warm practical reflection, still prominent uniformwetgrain/shine watch.",
+    "issues": [
+      "Glass401px/42.6%height still above30–35% target, but reduced from646px.",
+      "Whole caliper unclipped; lateral697pxgroup still not narrow-phone.",
+      "Repair-specificity/name/material/physics/browser remain pending."
+    ],
+    "rootFindings": "Whole caliper is back in the wide frame. Frozen goblet retains one opaque portion. Dense glass stippling, repair-history specificity and phone grouping remain held."
+  },
+  "tagPhysics": {
+    "mechanism": "Low narrow stem-loop, front arc visible, rear hidden by stem.",
+    "knot": "Tiny join at stemright; exact loaded construction not proven.",
+    "tetherAndHole": "Short continuous diagonal/down tether enters visible punched hole.",
+    "gravity": "Paper points down-right; lower edge honestly contacts timber.",
+    "separation": "Outboard paper distinct from stem with gap; bottom adjacent foot.",
+    "uncertainties": [
+      "Rear load/friction unresolved.",
+      "Stem reflection and small knot limit mechanical reading."
+    ],
+    "status": "held, no physics PASS"
+  },
+  "wideCrop": [
+    4,
+    2,
+    1664,
+    936
+  ],
+  "portraitCrop": null,
+  "measurementMethod": "Copied native-specific manual measured coordinates; root viewed actual full-size image. Exact aspect-ratio crop proposes only conversion, not composition or name acceptance.",
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "rootOriginalInspected": true,
+  "exported": false,
+  "portraitMeasurementFile": "portrait-export-measurements.json"
+}

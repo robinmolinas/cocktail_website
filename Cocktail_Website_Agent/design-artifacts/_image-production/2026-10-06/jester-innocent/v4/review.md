@@ -1,0 +1,5 @@
+# Original-size v4 correction review
+
+Both exact originals viewed and native dimensions probed: wide1672×941; dedicated portrait1084×1451. Upper cord removed. Low front curve now continuous, small outboard paper visibly meets timber; better than duplicate upper/lower v3. However cord lies near liquid boundary rather than wholly clear foot; tan paired line/thickness makes single-strand count uncertain. Rear load never visible. No tag physics PASS.
+
+Recipe appearance retained: one pale greenish Collins, red bitters ON TOP of angular ice mound, real wood swizzle/no straw or garnish. Internal bashed-snow geometry/prongs hidden and not asserted. Wide glass464px, portrait479px, long stick included. Full groups567/641px, recognition567/614px; neither is phone acceptance. Chair farther back but still broad. Torn sachet recognizable; connection to specific breakfast problem inferred. Surface remains warm glossy/dense repeated grain; ice/frost busy. Small tag width65/76px yields unresolved actual-font name fit. No retries, exports, browser, or shared edits. Two authorized calls done.

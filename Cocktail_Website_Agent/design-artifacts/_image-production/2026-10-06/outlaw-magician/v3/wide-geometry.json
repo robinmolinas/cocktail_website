@@ -1,0 +1,117 @@
+{
+  "measurementMethod": "Root manual visual estimate on actual original-size native image; coordinates approximate, tolerance 5–12px. Displayed dimensions not probed. NOT export-ready metadata.",
+  "masterSha256": null,
+  "sourceSha256": null,
+  "specSha256": null,
+  "roomSha256": null,
+  "fingerprintStatus": "Pending authorized checks; no historical hash reused.",
+  "exported": false,
+  "exportEligible": false,
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "hiddenExtents": {
+    "rearLoopClosure": null,
+    "actualKnotLoad": null,
+    "paperUnderside": null,
+    "occludedProps": null
+  },
+  "tagPhysics": {
+    "status": "Held, not physics PASS",
+    "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+  },
+  "pairing": "outlaw-magician",
+  "pour": "For Its Own Good",
+  "asset": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-magician/v3/wide-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-9e326681-af85-4ec4-a2c4-8de85bf29d40.png",
+  "displayedDimensions": [
+    1672,
+    941
+  ],
+  "proposedCrop": [
+    4,
+    2,
+    1664,
+    936
+  ],
+  "tag": {
+    "cx": 1255,
+    "cy": 749,
+    "w": 132,
+    "angle": 10,
+    "hole": [
+      1187,
+      712
+    ]
+  },
+  "glass": {
+    "x": 1000,
+    "y": 537
+  },
+  "bounds": {
+    "glass": [
+      819,
+      318,
+      1185,
+      757
+    ],
+    "ice": [
+      887,
+      411,
+      1108,
+      619
+    ],
+    "paper": [
+      1145,
+      682,
+      1363,
+      800
+    ],
+    "bagVisibleOnly": [
+      0,
+      122,
+      1027,
+      583
+    ],
+    "binderVisibleOnly": [
+      1166,
+      305,
+      1672,
+      683
+    ],
+    "releasedSheetsVisibleOnly": [
+      1318,
+      452,
+      1672,
+      683
+    ],
+    "ringMechanismVisible": [
+      1278,
+      421,
+      1584,
+      559
+    ]
+  },
+  "essentialObjectUnion": [
+    0,
+    122,
+    1672,
+    800
+  ],
+  "reviewHolds": [
+    "Oversized lateral bag",
+    "Binder and sheets clipped at right",
+    "No left quiet copy field",
+    "Wood crackle/gold shine still inherited despite fresh prompt",
+    "Cube has more dense etched texture than intended",
+    "Approximately46.7%height glass",
+    "Ring-open action not completely demonstrated"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "pairing": "hero-innocent",
+  "version": "v1",
+  "tool": "built-in image_gen",
+  "operation": "fresh",
+  "inputMaster": null,
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-63f4701c-22c1-4b33-84b2-2f96381a191c.png",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v1/master.png",
+  "masterSha256": "d8bf43c92d4176888f736ce4c76ded16c0127d5a51cb79d3ac93b9a6b2319b43",
+  "generatedOriginalSha256": "d8bf43c92d4176888f736ce4c76ded16c0127d5a51cb79d3ac93b9a6b2319b43",
+  "nativeDimensions": [
+    1672,
+    941
+  ],
+  "sourceSha256": "91442476a4781133587bcc71dfbca2337444459993940d774fc3e63567aac4b6",
+  "specSha256": "23c1007beb037df6d891ee079bab110b8eb319862f35036805db0b47ce417ffc",
+  "roomSha256": "48593eef515fc89c7ef8030f21765e768a57db36e43e7c744e18ee636911d254",
+  "promptFile": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v1/prompt-batch12.txt",
+  "readinessFile": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v1/readiness-batch12.md",
+  "callCountForPairing": 1,
+  "status": "Measured draft held; no export or acceptance"
+}

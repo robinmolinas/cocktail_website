@@ -13,7 +13,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 ## Cocktail
 
 - **name:** One Line
-- **tagline:** All that cool is for someone.
+- **tagline:** You keep your cool so the people you love can breathe.
 - **glassware:** deep champagne goblet (about 200 ml), chilled
 - **contains:** `[]`
 

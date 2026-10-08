@@ -98,6 +98,23 @@ Inferred from his 26 direct edits (`_studio/robin-edits.md`). In each rule, the 
 - **A familiar touchstone from outside the bar is welcome.** A well-known book, or an everyday story like the Post-it Note, can make the point land faster. Use at most one per reading. Hester still sources any fact in it.
 - **One vivid word beats a general one** ("a *rowdy* kitchen goes quieter").
 
+### Tagline voice learned from Robin's review (2026-10-07–08)
+
+Inferred from the taglines reviewed with Robin and the accepted examples in `_studio/tagline-voice-approved-2026-10-07.md`. Robin asked for these rules to guide edits to the remaining collection on 2026-10-08.
+
+- **Recognise and welcome the person at the reveal.** Lead with a specific trait or gift they can feel good about. The Saviour reassures people; the Gentle Giant offers safety. Their difficulty receiving help or the effort of restraint belongs later in the reading.
+- **Describe the personality before giving its conclusion.** The Spiritualist looks for magic in everyday life. Realising how much already keeps them steady is an earned discovery for the reading, not the opening tagline.
+- **Connect the action to its motive.** The Researcher's persistence matters because someone they care about needs help. Capture the drive that keeps the behaviour going, not just a generic compliment or the first visible act.
+- **Make sense before the narrative.** Use plain, natural words. A guest should recognise the line without a historical anecdote, cocktail explanation or metaphor that the reading has to unlock. Choose details that reveal a recurring trait rather than one narrow scene.
+- **Keep any tension gentle and generous.** The Judge can change their mind to reach a fair answer; the line need not say their own side looks bad. The Understanding Spouse offers love through difficult days; lead with that gift rather than what it costs them.
+- **Distinguish nearby personas by their motive and way of acting.** The Sense Seeker shares what moved them; the Tourist thinks of someone when making a discovery. The Rescuer moves quickly; the Saviour takes responsibility. The Healer believes in people before they believe in themselves.
+- **Let each observation find its own shape.** Read candidates together and vary rhythm, sentence openings and perspective. Avoid making the set a repeated two-sentence public impression/private correction, a mass comparison or a single sentence template. A warm line can still be specific and incisive; humour remains welcome.
+- **Preserve the force of the idea.** Robin's next review rejected several Creator rewrites as basic, weak or cheesy. Warmth should keep the recognisable drive or perception: making as a love language, involuntary variation, the gravity of a vision, or perspective changed through humour. A line should reveal something rather than only praise a good quality.
+- **Keep strong originals.** Robin chose the original Minimalist line and preferred the original Experimentalist line. Variety is a collection-level concern, not a reason to erase the wit or precision of an individual line.
+- **Use vivid language when it earns its place.** Metaphor is welcome when it reads naturally before the narrative and sharpens recognition. Robin's direction about the Visionary's gravity is an example; metaphors that only become clear after the story still need revision.
+- **Provide persona context for review.** Give the person's motive and distinctive behaviour alongside the before and after. A cocktail name and label alone do not give Robin enough to assess the fit.
+- **Let a precise image carry the insight.** Robin particularly loved the accepted Obsessed line, “The things you love become worlds you never finish exploring”. It conveys the depth and ongoing discovery in devotion immediately. Use its emotional precision as a reference; keep the image itself distinctive to that persona.
+
 ### Variety across the collection (Robin 2026-10-06)
 
 Guests compare pours with friends, so what matters is the pattern of moves across readings, not any one phrase. Accepted from the collection review (Robin, D13: "Apply the changes, I trust your taste judgement"). Each rule keeps the rules above (the kindness is still said once per reading; "I like to think" stays the signature). The numbers are targets across the collection, not quotas for one pour.

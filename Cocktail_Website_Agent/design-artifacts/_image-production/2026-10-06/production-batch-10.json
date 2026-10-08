@@ -1,0 +1,1151 @@
+{
+  "id": "production-batch-10",
+  "date": "2026-10-07",
+  "direction": "User-directed Further Than Me base/personality correction first, next ready batch; browser checks deferred",
+  "builtInTool": "image_gen",
+  "sceneCount": 8,
+  "newPairings": 7,
+  "correctedPairings": 1,
+  "generatedCalls": 16,
+  "newPairingCalls": 14,
+  "correctionCalls": 2,
+  "tagPhysicsAssessments": 8,
+  "rootOriginalInspection": true,
+  "counts": {
+    "generatedCandidates": 91,
+    "exportedPairs": 27,
+    "measuredUnexported": 64,
+    "notYetGenerated": 24,
+    "publicPairsPreserved": 17,
+    "newAccepted": 0,
+    "newIntegrated": 0,
+    "missingFinal": 115
+  },
+  "rulesSha256": "fc57d6f8021dff5ac03507697d0adb4b40396905f1bc8117046e3045493d699d",
+  "designSha256": "f30532da6a773e84a06192ac5824f2159dc9a24b29fb9f1e431ac55490a60403",
+  "continuationSha256": "7c618125b8d8c185889406a2aa0fbf1b93624ade8b2d1877f030b85110de492f",
+  "correction": {
+    "id": "further-than-me-base-tag-v4",
+    "date": "2026-10-07",
+    "pairing": "sage-caregiver",
+    "pour": "Further Than Me",
+    "previousVersion": "v2",
+    "intermediateVersion": "v3",
+    "currentVersion": "v4",
+    "generatedCalls": 2,
+    "userRequested": true,
+    "countIncrease": 0,
+    "master": "sage-caregiver/v4/master.png",
+    "prompt": "sage-caregiver/v4/prompt.md",
+    "initialCorrectionPrompt": "sage-caregiver/v3/prompt.md",
+    "measurements": "sage-caregiver/v4/measurements.json",
+    "rootReview": "sage-caregiver/v4/root-master-review.md",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-e36ac8c2-92a0-442d-82cd-2ec851ed95bf.png",
+    "masterSha256": "3117e9e8bca1e2feb80941e1072e7f2e1e1eeb89ec17938f8364a7ec7c40407a",
+    "sourceSha256": "28566d97e3a6601310ad54ada169c8b5beb7fa5df9dcfd2e3f792948eba646e0",
+    "specSha256": "397c3f3bc87ff0e5a67da66fb0072dd8f296c7004984c0af4ebfe077015e9eb9",
+    "tagPhysics": {
+      "mechanism": "Snug external loop lowered to upper transparent glass-foot transition: side knot~1140/680; curved front arc bottoms near y697, clear foot beneath. Much lower than v2 y583–615; not a guaranteed entirely clear-band placement.",
+      "loopBounds": {
+        "x0": 967,
+        "y0": 671,
+        "x1": 1152,
+        "y1": 700
+      },
+      "knot": {
+        "x": 1140,
+        "y": 680
+      },
+      "paperHole": {
+        "x": 1150,
+        "y": 694
+      },
+      "gravity": "Continuous short downward paired tether; blank paper outboard right with lower edge resting walnut at~764 and contact shadow.",
+      "paperSeparationOrContact": "Paper tilts outward, projects free of liquid-bearing wall; upper corner near base, bottom honest wood contact.",
+      "uncertainty": "Cord is on upper clear-foot transition, not fully below every pale-liquid projection. Rear closure/friction/knot load remain unobservable; tiny gap depth uncertain. No physics PASS."
+    },
+    "personalityChange": "Retained source-explicit telephone calls plus inferred careful-listening spectacles; added inferred olive cardigan hand-darned cuff. Restrained not minimalist identity. Cardigan remains wide-only; portrait recomposition held.",
+    "notes": [
+      "User-directed base lowering visually improved; still transition-adjacent, do not claim entirely below liquid.",
+      "Cardigan is an inferred quiet care trace, not literal biographical evidence, and missed in portrait.",
+      "Full visible group1181px with cardigan; core glass/paper/phone/herbs534px >389movingphone.",
+      "Glossy amber crackled timber/dense droplets and patterned ice remain held.",
+      "68px clean name axis, no actual name/glyph/browser acceptance."
+    ],
+    "recipeChanged": false,
+    "exported": false,
+    "accepted": false,
+    "integrated": false
+  },
+  "items": [
+    {
+      "pairing": "sage-explorer",
+      "pour": "Look Again",
+      "folder": "sage-explorer/v2",
+      "master": "sage-explorer/v2/master.png",
+      "prompt": "sage-explorer/v2/prompt.md",
+      "initialPrompt": "sage-explorer/v1/prompt.md",
+      "readiness": "sage-explorer/v2/readiness.md",
+      "provenance": "sage-explorer/v2/provenance.json",
+      "ownerReview": "sage-explorer/v2/review.md",
+      "rootReview": "sage-explorer/v2/root-master-review.md",
+      "measurements": "sage-explorer/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-ccdefe5c-d4e4-4204-ab9d-1ecb11f14568.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "1c7f9612f83dcf1d841ac7b6fddb8b51b7ac690e5e91eed39d5a83d2eb7478d3",
+      "specSha256": "d376af4449ae4e842ba360c96a4cf686b6a531d1cd5f7a6f2646cc256cdd306d",
+      "masterSha256": "b825a4d706991cde535f6921a7407b66874d243618fc839e68511b4ab3ec07b0",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        813,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1353,
+        "cy": 631,
+        "w": 95,
+        "angle": 13
+      },
+      "glass": {
+        "x": 1148,
+        "y": 501
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1019,
+          "y0": 355,
+          "x1": 1278,
+          "y1": 648
+        },
+        "paper": {
+          "x0": 1287,
+          "y0": 605,
+          "x1": 1415,
+          "y1": 656
+        },
+        "lemonGarnish": {
+          "x0": 1063,
+          "y0": 425,
+          "x1": 1161,
+          "y1": 579
+        },
+        "book": {
+          "x0": 758,
+          "y0": 397,
+          "x1": 1324,
+          "y1": 550
+        },
+        "plate": {
+          "x0": 1267,
+          "y0": 445,
+          "x1": 1623,
+          "y1": 569
+        },
+        "linen": {
+          "x0": 1300,
+          "y0": 398,
+          "x1": 1657,
+          "y1": 578
+        }
+      },
+      "personalityBounds": {},
+      "recognitionRegions": {
+        "book": {
+          "bounds": {
+            "x0": 760,
+            "y0": 401,
+            "x1": 1015,
+            "y1": 544
+          },
+          "reason": "Face-down green boards/spine/page edge recognize book; rear/right partly occluded by glass."
+        },
+        "plate": {
+          "bounds": {
+            "x0": 1268,
+            "y0": 450,
+            "x1": 1572,
+            "y1": 548
+          },
+          "reason": "Ceramic ellipse/edge/crumbs recognize used plate, far edge under linen."
+        },
+        "linen": {
+          "bounds": {
+            "x0": 1320,
+            "y0": 402,
+            "x1": 1638,
+            "y1": 569
+          },
+          "reason": "Distinct used cloth folds on plate; not all cloth required but still spread."
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "tagPhysics": {
+        "mechanism": "Snug external lower-body loop~572–605, visible curved front arc and side occlusion, small right knot~1269/581.",
+        "loopBounds": {
+          "x0": 1026,
+          "y0": 570,
+          "x1": 1279,
+          "y1": 608
+        },
+        "knot": {
+          "x": 1269,
+          "y": 581
+        },
+        "paperHole": {
+          "x": 1308,
+          "y": 618
+        },
+        "gravity": "Continuous short down-right tether through punched hole, paper below knot lies/slopes on wood, lower edge~654 contact shadow.",
+        "paperSeparationOrContact": "Outboard paper separate from glass, no adhesive face, real wood-supported edge.",
+        "uncertainty": "Far-side closure/friction/knot load and paper local gap not provable; no mechanical PASS."
+      },
+      "tagPhysicsAssessmentPresent": true,
+      "glassHeight": 293,
+      "paperHorizontalExtent": 128,
+      "glassBowlHorizontalExtent": 259,
+      "fullGroupWidth": 899,
+      "recognitionGroupWidth": 878,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "version": "v2",
+      "fullSourceReadByOwner": true,
+      "newPairing": true,
+      "generatedCalls": 2,
+      "rootVisualState": "HOLD-material/portrait/phone/personality; tag-support/name-unverified",
+      "reviewNotes": "Smaller rocks glass and paper; face-down book/used supper remain spread. Amber glossy wood/dense glass-ice, extra left practical and pale-gold appearance held. Proposed portrait clips essential traces.",
+      "state": "measured draft held; no final acceptance; awaiting scoped local export permission"
+    },
+    {
+      "pairing": "explorer-regular-guy",
+      "pour": "Brought Home",
+      "folder": "explorer-regular-guy/v2",
+      "master": "explorer-regular-guy/v2/master.png",
+      "prompt": "explorer-regular-guy/v2/prompt.txt",
+      "initialPrompt": "explorer-regular-guy/v1/prompt-batch10.txt",
+      "readiness": "explorer-regular-guy/v2/readiness.md",
+      "provenance": "explorer-regular-guy/v2/provenance.json",
+      "ownerReview": "explorer-regular-guy/v2/private-review.md",
+      "rootReview": "explorer-regular-guy/v2/root-master-review.md",
+      "measurements": "explorer-regular-guy/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-a3402603-a565-43a1-98eb-9310df4279b0.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "24ca41aac89151eea1e670f46860954065dc80bdec502e95df121308cf100840",
+      "specSha256": "6e51734ae0165ae6dc328d5b9d9238a4f3f17c340aa275c4fc888b9616c04d02",
+      "masterSha256": "ac835c715ffcced632fc70b57b6afccd7e7e0a6cee8e37d4ee494a63dbbeef9c",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        615,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1224,
+        "cy": 733,
+        "w": 88,
+        "angle": 53
+      },
+      "glass": {
+        "x": 1102,
+        "y": 537
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1010,
+          "y0": 326,
+          "x1": 1193,
+          "y1": 749
+        },
+        "paper": {
+          "x0": 1163,
+          "y0": 674,
+          "x1": 1282,
+          "y1": 781
+        },
+        "guidebook": {
+          "x0": 655,
+          "y0": 541,
+          "x1": 1021,
+          "y1": 705
+        },
+        "photographs": {
+          "x0": 742,
+          "y0": 520,
+          "x1": 1020,
+          "y1": 646
+        },
+        "grapefruitGarnish": {
+          "x0": 1131,
+          "y0": 301,
+          "x1": 1269,
+          "y1": 433
+        },
+        "unrequestedBowl": null
+      },
+      "personalityBounds": {},
+      "recognitionRegions": {
+        "guidebook": {
+          "bounds": {
+            "x0": 659,
+            "y0": 569,
+            "x1": 1015,
+            "y1": 700
+          },
+          "reason": "Substantial closed book page block/spine and cover edge; genre not provable, partly occluded by prints/glass."
+        },
+        "photographs": {
+          "bounds": {
+            "x0": 747,
+            "y0": 522,
+            "x1": 1017,
+            "y1": 643
+          },
+          "reason": "Actual doorway and street images readable; right street print partly occluded by hero but recognizable image remains."
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "tagPhysics": {
+        "mechanism": "Snug thin beige exterior base loop around y663–691 belowrim326 and at transition from liquid to clear foot; curved front arc and side occlusion visible.",
+        "knot": "Small tied junction near1174/679, clear enough apparent support but depth/load unresolved.",
+        "tetherAndHole": "Very short continuous downward strand through hole near1191/691.",
+        "gravity": "Paper projects down/right below knot.",
+        "paperSeparationOrContact": "Paper outside right glass silhouette, loweredge rests timber around779 with shadow, not pastedlabel.",
+        "uncertainties": [
+          "Far-side closure/friction/load unknown.",
+          "Tiny knot threading partly occluded.",
+          "Loop sits at clearfoot/liquidboundary, not entirely beneath liquid."
+        ],
+        "status": "Plausible visible chain/contact, support uncertainty held; no physics PASS."
+      },
+      "tagPhysicsAssessmentPresent": true,
+      "glassHeight": 423,
+      "paperHorizontalExtent": 119,
+      "glassBowlHorizontalExtent": 183,
+      "fullGroupWidth": 627,
+      "recognitionGroupWidth": 623,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "version": "v2",
+      "fullSourceReadByOwner": true,
+      "newPairing": true,
+      "generatedCalls": 2,
+      "rootVisualState": "HOLD-material/portrait/phone/personality; tag-support/name-unverified",
+      "reviewNotes": "Paloma and pink grapefruit wedge; place photos + book recognizable but phone spread, glossy wood/ice and base-transition knot uncertainty held.",
+      "state": "measured draft held; no final acceptance; awaiting scoped local export permission"
+    },
+    {
+      "pairing": "innocent-magician",
+      "pour": "Let's Try It",
+      "folder": "innocent-magician/v2",
+      "master": "innocent-magician/v2/master.png",
+      "prompt": "innocent-magician/v2/prompt.txt",
+      "initialPrompt": "innocent-magician/v1/prompt.txt",
+      "readiness": "innocent-magician/v2/readiness.md",
+      "provenance": "innocent-magician/v2/provenance.json",
+      "ownerReview": "innocent-magician/v2/private-review.md",
+      "rootReview": "innocent-magician/v2/root-master-review.md",
+      "measurements": "innocent-magician/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-e61acc3c-0f89-44f2-a521-8bf5ad086eab.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "14e6fc7d73494dc48981e801b16835d07133e768d1b883c77edb311506839901",
+      "specSha256": "1f7f9b6425e634857e3198a02d2cc8b1b9ec850f499ffc830e0dd211fa367e78",
+      "masterSha256": "e671644b2b2cd6c8c5a3f09c9ea91cad43b28a3f09b3f98fb8297a62ec858c6b",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        823,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1057,
+        "cy": 655,
+        "w": 71,
+        "angle": 57
+      },
+      "glass": {
+        "x": 956,
+        "y": 467
+      },
+      "bounds": {
+        "glass": {
+          "x0": 859,
+          "y0": 268,
+          "x1": 1053,
+          "y1": 667
+        },
+        "paper": {
+          "x0": 1004,
+          "y0": 599,
+          "x1": 1106,
+          "y1": 695
+        },
+        "apron": {
+          "x0": 1039,
+          "y0": 382,
+          "x1": 1501,
+          "y1": 685
+        },
+        "benchScraper": {
+          "x0": 1074,
+          "y0": 468,
+          "x1": 1427,
+          "y1": 647
+        },
+        "physicalGarnish": null
+      },
+      "personalityBounds": {},
+      "recognitionRegions": {
+        "apron": {
+          "bounds": {
+            "x0": 1049,
+            "y0": 384,
+            "x1": 1495,
+            "y1": 677
+          },
+          "reason": "Neck loop plus a substantial folded apron body/side ties recognizable as apron; not anonymous fabric patch."
+        },
+        "benchScraper": {
+          "bounds": {
+            "x0": 1077,
+            "y0": 471,
+            "x1": 1424,
+            "y1": 645
+          },
+          "reason": "Complete functional steel blade and wooden handle recognizable, not a tiny hardware fragment."
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "tagPhysics": {
+        "mechanism": "Thin beige exterior body/base loop around y580–608 below rim268; curved front arc follows cylinder and disappears at side edges. Loop sits at lower liquid/clear-foot boundary, not entirely below liquid.",
+        "knot": "Small apparent tied junction at approximately1013/591 on right/front side; tiny crossing cannot prove a secure loaded knot.",
+        "tetherAndHole": "Short strand appears to descend from junction to punched hole approximately1030/621; partly dense glass/cord overlap around junction leaves exact topology uncertain.",
+        "gravity": "Small paper angles down/right below support, not hovering upward.",
+        "paperSeparationOrContact": "Paper projects outside right glass with visible side separation; lower edge rests on timber near695 with contact shadow. Honest resting support, not claim of floating air gap across entire paper.",
+        "uncertainties": [
+          "Far-side loop and friction/load not demonstrable in one frame.",
+          "Knot/tether topology tiny and partly overlapping glass; no physics PASS.",
+          "Loop not wholly on transparent base below liquid as requested.",
+          "Clean writable axis about71px; name fit untested, do not enlarge merely to meet old heuristic."
+        ],
+        "status": "Visible plausible front support chain with honest table contact; secure knot/rear-loop/friction remain held."
+      },
+      "tagPhysicsAssessmentPresent": true,
+      "glassHeight": 399,
+      "paperHorizontalExtent": 102,
+      "glassBowlHorizontalExtent": 194,
+      "fullGroupWidth": 642,
+      "recognitionGroupWidth": 636,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "version": "v2",
+      "fullSourceReadByOwner": true,
+      "newPairing": true,
+      "generatedCalls": 2,
+      "rootVisualState": "HOLD-material/portrait/phone/personality; tag-support/name-unverified",
+      "reviewNotes": "Apron + separate scraper from baking-friend hope. Still-water drink has bubblelike speckle; glossy wood/ice, lighting and phone spread held.",
+      "state": "measured draft held; no final acceptance; awaiting scoped local export permission"
+    },
+    {
+      "pairing": "explorer-lover",
+      "pour": "Straight Back",
+      "folder": "explorer-lover/v2",
+      "master": "explorer-lover/v2/master.png",
+      "prompt": "explorer-lover/v2/prompt-batch10.txt",
+      "initialPrompt": "explorer-lover/v1/prompt-batch10.txt",
+      "readiness": "explorer-lover/v2/readiness-batch10.md",
+      "provenance": "explorer-lover/v2/provenance.json",
+      "ownerReview": "explorer-lover/v2/review.md",
+      "rootReview": "explorer-lover/v2/root-master-review.md",
+      "measurements": "explorer-lover/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-d59ed018-ffe4-45ac-ac31-0a85477ca3b1.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "35d55c0c62c6307817fb7bc709a3e3ae453dfdb3c8900d247128ab8f4a5d7cf9",
+      "specSha256": "d2d66edd3392c5953f23ef43e42d39a0942bfb9b3adeb70fdbb0a5cd5261eb40",
+      "masterSha256": "307422eef14c0325d8b5cad1e167381b5b04a95571383c0cbc56a5405dc8a132",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        804,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1172,
+        "cy": 705,
+        "w": 77,
+        "angle": 65
+      },
+      "glass": {
+        "x": 997,
+        "y": 565
+      },
+      "bounds": {
+        "glass": {
+          "x0": 835,
+          "y0": 371,
+          "x1": 1156,
+          "y1": 755
+        },
+        "paper": {
+          "x0": 1125,
+          "y0": 642,
+          "x1": 1217,
+          "y1": 760
+        },
+        "blackberry": {
+          "x0": 990,
+          "y0": 308,
+          "x1": 1076,
+          "y1": 393
+        },
+        "lemonWedge": {
+          "x0": 1067,
+          "y0": 289,
+          "x1": 1187,
+          "y1": 450
+        },
+        "crushedIceMound": {
+          "x0": 875,
+          "y0": 332,
+          "x1": 1117,
+          "y1": 414
+        }
+      },
+      "personalityBounds": {
+        "breadAndSideplate": {
+          "x0": 1138,
+          "y0": 453,
+          "x1": 1449,
+          "y1": 650
+        },
+        "leafAndLinen": {
+          "x0": 1363,
+          "y0": 519,
+          "x1": 1672,
+          "y1": 691
+        }
+      },
+      "recognitionRegions": {
+        "breadAndSideplate": {
+          "x0": 1144,
+          "y0": 454,
+          "x1": 1438,
+          "y1": 644
+        },
+        "leafAndLinen": {
+          "x0": 1380,
+          "y0": 531,
+          "x1": 1585,
+          "y1": 655
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "tagPhysics": {
+        "supportLoop": "Exterior cotton lower-body loop ~y639–679; curved front arc, rear honestly hidden, no rim anchor.",
+        "knot": "Right knot/tie near1142,646 visibly overlaps support side; load path partly hidden by glass edge.",
+        "tether": "Short cord descends to punched hole near1152,667.",
+        "hole": "Visible dark punched hole at1152,667; paper remains blank.",
+        "gravity": "Label falls down-right, not horizontal postcard.",
+        "airgap": "Outside glass right edge with visible separation except cord/topcorner proximity.",
+        "contact": "Bottom paper near760 meets table with small contactshadow; do not call fully suspended.",
+        "uncertainty": "Rearloop/supportfriction and knot junction partially occluded; exact load path cannot be certified from single view.",
+        "assessment": "Discreet actual exterior attachment/downward label/contact plausible, not blanketphysicsPASS."
+      },
+      "tagPhysicsAssessmentPresent": true,
+      "glassHeight": 384,
+      "paperHorizontalExtent": 92,
+      "glassBowlHorizontalExtent": 321,
+      "fullGroupWidth": 837,
+      "recognitionGroupWidth": 750,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "version": "v2",
+      "fullSourceReadByOwner": true,
+      "newPairing": true,
+      "generatedCalls": 2,
+      "rootVisualState": "HOLD-material/portrait/phone/personality; tag-support/name-unverified",
+      "reviewNotes": "Bramble red-purple drizzle/crushed ice, bread-sharing and crushed-leaf scent source habits. Portrait misses leaf, linen native-clipped; glossy wood/ice held.",
+      "state": "measured draft held; no final acceptance; awaiting scoped local export permission"
+    },
+    {
+      "pairing": "jester-hero",
+      "pour": "The Wink",
+      "folder": "jester-hero/v2",
+      "master": "jester-hero/v2/master.png",
+      "prompt": "jester-hero/v2/prompt-batch10.txt",
+      "initialPrompt": "jester-hero/v1/prompt-batch10.txt",
+      "readiness": "jester-hero/v2/readiness-batch10.md",
+      "provenance": "jester-hero/v2/provenance.json",
+      "ownerReview": "jester-hero/v2/review.md",
+      "rootReview": "jester-hero/v2/root-master-review.md",
+      "measurements": "jester-hero/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-cd80ada6-c341-441f-ac7a-02694ebc31bb.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "82eff8508ef1525cd6c0c17434e8a123e395d73f7ebfc948e8a877beba18bed8",
+      "specSha256": "9f7079ada50ebddd860a3e48976a63f5260c3d04bc42ca9de11235dc917c6284",
+      "masterSha256": "ddc638fde183beb5ca6e91ff3393c0344e3cba4386801e9dc2e877d90ac70011",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        903,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1227,
+        "cy": 662,
+        "w": 100,
+        "angle": 88
+      },
+      "glass": {
+        "x": 1106,
+        "y": 596
+      },
+      "bounds": {
+        "glass": {
+          "x0": 932,
+          "y0": 426,
+          "x1": 1281,
+          "y1": 766
+        },
+        "paper": {
+          "x0": 1195,
+          "y0": 584,
+          "x1": 1258,
+          "y1": 728
+        },
+        "halfEggshellWithMezcal": {
+          "x0": 1302,
+          "y0": 620,
+          "x1": 1456,
+          "y1": 776
+        },
+        "garnish": null
+      },
+      "personalityBounds": {
+        "jokeWorkingScrapsAndPencil": {
+          "x0": 661,
+          "y0": 437,
+          "x1": 960,
+          "y1": 625
+        },
+        "coatAndChair": {
+          "x0": 971,
+          "y0": 145,
+          "x1": 1665,
+          "y1": 599
+        }
+      },
+      "recognitionRegions": {
+        "jokeWorkingScrapsAndPencil": {
+          "x0": 671,
+          "y0": 441,
+          "x1": 947,
+          "y1": 619
+        },
+        "coatAndChair": {
+          "x0": 1100,
+          "y0": 248,
+          "x1": 1640,
+          "y1": 582
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "tagPhysics": {
+        "supportLoop": "Snug exterior ceramic lower-middle bodyloop belowrim, frontarc y560–592 curves; rearhidden.",
+        "knot": "Sidebody visible knot near1217,577.",
+        "tether": "Short loop/cord descends fromknot toward punchedhole1221,612; overlapping cord segments ambiguous.",
+        "hole": "Punched dark hole near1221,612 visible; blank paper.",
+        "gravity": "Narrow label longaxis downward.",
+        "airgap": "No reliable airgap along broadface. Leftedgeshadow may be edge raised slightly; broadlabel lies against ceramic.",
+        "contact": "Paper bottom728 is above cupfoot766, no tabletopcontact.",
+        "uncertainty": "Actual free suspension NOT established; face-againstcup/support and overlapping tether remain uncertain.",
+        "assessment": "HELD: chain lowerbodyloop→knot→shortdownhole present but freehanging gap still not met; no physicsPASS."
+      },
+      "tagPhysicsAssessmentPresent": true,
+      "glassHeight": 340,
+      "paperHorizontalExtent": 63,
+      "glassBowlHorizontalExtent": 349,
+      "fullGroupWidth": 1004,
+      "recognitionGroupWidth": 969,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "version": "v2",
+      "fullSourceReadByOwner": true,
+      "newPairing": true,
+      "generatedCalls": 2,
+      "rootVisualState": "HOLD-tag-flush/material/portrait/phone/personality; name-unverified",
+      "reviewNotes": "Nog in earthenware with method-required mezcal half-shell. Blank joke-work/repaired coat inferred; tag still flush against ceramic, wide group and cool window held.",
+      "state": "measured draft held; no final acceptance; awaiting scoped local export permission"
+    },
+    {
+      "pairing": "outlaw-lover",
+      "pour": "Rent-Free",
+      "folder": "outlaw-lover/v2",
+      "master": "outlaw-lover/v2/master.png",
+      "prompt": "outlaw-lover/v2/prompt-batch10.txt",
+      "initialPrompt": "outlaw-lover/v1/prompt-batch10.txt",
+      "readiness": "outlaw-lover/v2/readiness-batch10.md",
+      "provenance": "outlaw-lover/v2/provenance.json",
+      "ownerReview": "outlaw-lover/v2/master-review.md",
+      "rootReview": "outlaw-lover/v2/root-master-review.md",
+      "measurements": "outlaw-lover/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-7a0fe6c9-dc65-495b-a28b-367531c3d4bf.png",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sourceSha256": "be407e8833b844f74f01e7aaf6e381eb5d71e940e3972641067d20f4c4e402ac",
+      "specSha256": "a879424d9b0470beb32a0e90996d926a2184b4a82599ec7e216d1b1d8d06c875",
+      "masterSha256": "79f2aefa53dc6aa6d1ab79a4ebbfac7889b21e49f2f661a36355959ad7cc81bc",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "portraitCrop": [
+        950,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1181,
+        "cy": 636,
+        "w": 77,
+        "angle": 74
+      },
+      "glass": {
+        "x": 1142,
+        "y": 432
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1058,
+          "y0": 263,
+          "x1": 1228,
+          "y1": 697
+        },
+        "paper": {
+          "x0": 1149,
+          "y0": 580,
+          "x1": 1210,
+          "y1": 681
+        }
+      },
+      "personalityBounds": {
+        "overnightBag": {
+          "x0": 987,
+          "y0": 306,
+          "x1": 1618,
+          "y1": 646
+        },
+        "foldedShirt": {
+          "x0": 1218,
+          "y0": 398,
+          "x1": 1419,
+          "y1": 458
+        },
+        "houseKeyAndFob": {
+          "x0": 1258,
+          "y0": 447,
+          "x1": 1370,
+          "y1": 558
+        },
+        "ice": {
+          "x0": 1070,
+          "y0": 263,
+          "x1": 1220,
+          "y1": 461
+        },
+        "stemAttachment": {
+          "x0": 1129,
+          "y0": 544,
+          "x1": 1173,
+          "y1": 601
+        },
+        "servedGarnish": null
+      },
+      "recognitionRegions": {
+        "overnightBag": {
+          "x0": 987,
+          "y0": 306,
+          "x1": 1618,
+          "y1": 646
+        },
+        "houseKeyAndFob": {
+          "x0": 1258,
+          "y0": 447,
+          "x1": 1370,
+          "y1": 558
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "tagPhysics": {
+        "anchor": "Visible front cotton loop around narrow stem below bowl, not rim.",
+        "knot": "Front crossing/knot visible; rear circumferential loop and load cannot be established from one view.",
+        "knotPoint": {
+          "x": 1144,
+          "y": 558
+        },
+        "holePoint": {
+          "x": 1168,
+          "y": 595
+        },
+        "tether": "Short continuous-looking downward string from front knot to punched upper paper hole.",
+        "gravity": "Paper descends below anchor, not glued to bowl.",
+        "airGap": "Paper outside bowl with visible separation from stem along broad face.",
+        "contact": "Lower edge adjacent to glass foot; contact versus overlap uncertain.",
+        "occlusion": "Stem hides rear wrap; small knot crossing cannot prove support.",
+        "uncertainties": [
+          "Rear wrap and full knot topology hidden.",
+          "Load support and lower paper/foot contact not proved."
+        ],
+        "status": "plausible front attachment chain; uncertain, not PASS"
+      },
+      "tagPhysicsAssessmentPresent": true,
+      "glassHeight": 434,
+      "paperHorizontalExtent": 61,
+      "glassBowlHorizontalExtent": 170,
+      "fullGroupWidth": 631,
+      "recognitionGroupWidth": 631,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "version": "v2",
+      "fullSourceReadByOwner": true,
+      "newPairing": true,
+      "generatedCalls": 2,
+      "rootVisualState": "HOLD-material/portrait/phone/personality; tag-support/name-unverified",
+      "reviewNotes": "Wine/soda ice wine glass, no bay served. Arrival/unpacking bag and key inferred; broad bag/phone, material/sparkle and rear stem-wrap held.",
+      "state": "measured draft held; no final acceptance; awaiting scoped local export permission"
+    },
+    {
+      "pairing": "regular-guy-outlaw",
+      "pour": "Just This Once",
+      "folder": "regular-guy-outlaw/v2",
+      "master": "regular-guy-outlaw/v2/master.png",
+      "prompt": "regular-guy-outlaw/v2/prompt-batch10.txt",
+      "initialPrompt": "regular-guy-outlaw/v1/prompt-batch10.txt",
+      "readiness": "regular-guy-outlaw/v2/readiness-batch10.md",
+      "provenance": "regular-guy-outlaw/v2/provenance.json",
+      "ownerReview": "regular-guy-outlaw/v2/master-review.md",
+      "rootReview": "regular-guy-outlaw/v2/root-master-review.md",
+      "measurements": "regular-guy-outlaw/v2/measurements.json",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-f7ee578e-4792-4c89-bc0b-59736d2ac0bd.png",
+      "dimensions": {
+        "width": 1671,
+        "height": 941
+      },
+      "sourceSha256": "19609563bfc42c6987ede3ba8d167c619a42e39cbdc3202cdd6be175c7198ee3",
+      "specSha256": "5569691b6eab1334f370265ae48f653e88ca08024573a9a0b41a925cbd326ac7",
+      "masterSha256": "50c801fe49c3df2715bf8bd76d54a8a7f3c662f41f67fb79dfeba9ac41cd6d06",
+      "sourceUnchanged": true,
+      "specUnchanged": true,
+      "exactOriginalCopy": true,
+      "provenanceHashMatches": true,
+      "declaredDimensionsAgree": true,
+      "filesPresent": true,
+      "initialMasterPreserved": true,
+      "initialPromptPreserved": true,
+      "wideCrop": [
+        0,
+        0,
+        1671,
+        940
+      ],
+      "portraitCrop": [
+        780,
+        0,
+        702,
+        940
+      ],
+      "cropExtentsInside": true,
+      "allMeasuredBoxesInside": true,
+      "tag": {
+        "cx": 1262,
+        "cy": 639,
+        "w": 68,
+        "angle": 73
+      },
+      "glass": {
+        "x": 1213,
+        "y": 401
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1121,
+          "y0": 257,
+          "x1": 1308,
+          "y1": 722
+        },
+        "paper": {
+          "x0": 1226,
+          "y0": 577,
+          "x1": 1295,
+          "y1": 683
+        }
+      },
+      "personalityBounds": {
+        "chipsParcel": {
+          "x0": 840,
+          "y0": 436,
+          "x1": 1310,
+          "y1": 649
+        },
+        "sharingWoodForks": {
+          "x0": 878,
+          "y0": 413,
+          "x1": 1037,
+          "y1": 542
+        },
+        "visibleChips": {
+          "x0": 986,
+          "y0": 491,
+          "x1": 1161,
+          "y1": 562
+        },
+        "lemonPeel": {
+          "x0": 1178,
+          "y0": 282,
+          "x1": 1281,
+          "y1": 469
+        },
+        "servingIce": {
+          "x0": 1131,
+          "y0": 257,
+          "x1": 1298,
+          "y1": 467
+        },
+        "stemAttachment": {
+          "x0": 1196,
+          "y0": 546,
+          "x1": 1252,
+          "y1": 602
+        },
+        "paperBand": {
+          "x0": 922,
+          "y0": 461,
+          "x1": 980,
+          "y1": 500
+        }
+      },
+      "recognitionRegions": {
+        "chipsParcel": {
+          "x0": 840,
+          "y0": 436,
+          "x1": 1310,
+          "y1": 649
+        },
+        "sharingWoodForks": {
+          "x0": 878,
+          "y0": 413,
+          "x1": 1037,
+          "y1": 542
+        }
+      },
+      "missingRecognitionRegions": [],
+      "tagAxisInside": true,
+      "tagPhysics": {
+        "anchor": "Visible twine wrap across narrow stem below bowl at~1212,555, not rim.",
+        "knot": "Front crossing/knot~1217,558 visible; rear loop/knot topology and load hidden.",
+        "knotPoint": {
+          "x": 1217,
+          "y": 558
+        },
+        "holePoint": {
+          "x": 1247,
+          "y": 595
+        },
+        "tether": "Short continuous-looking diagonal downward front strand connects stem crossing to punched upper paper hole.",
+        "gravity": "Small paper face hangs below anchor; broad body outside glass.",
+        "airGap": "Clear separation along broad face beside stem; no pasted bowl contact.",
+        "contact": "Lower paper ends above/beside foot in projection; no convincing wood contact, rear depth/possible foot contact uncertain.",
+        "occlusion": "Narrow stem hides rear return; fine twine strands merge at knot.",
+        "uncertainties": [
+          "Rear circumference/complete knot topology unknown.",
+          "Front crossing may be knot but load-bearing support not proved.",
+          "Small paper/foot depth separation uncertain."
+        ],
+        "status": "plausible front support chain, uncertain; not tag-physics PASS"
+      },
+      "tagPhysicsAssessmentPresent": true,
+      "glassHeight": 465,
+      "paperHorizontalExtent": 69,
+      "glassBowlHorizontalExtent": 187,
+      "fullGroupWidth": 470,
+      "recognitionGroupWidth": 470,
+      "rootMasterOriginalResolutionInspected": true,
+      "rootWideInspected": false,
+      "rootPortraitInspected": false,
+      "exported": false,
+      "finalMetadataPresent": false,
+      "browser": "deferred-by-user;not-run",
+      "accepted": false,
+      "integrated": false,
+      "version": "v2",
+      "fullSourceReadByOwner": true,
+      "newPairing": true,
+      "generatedCalls": 2,
+      "rootVisualState": "HOLD-phone/framing/ice; timber/material-watch; tag-rear-contact/name-unverified",
+      "reviewNotes": "French75 over ice with yellow peel IN. Chips parcel + sharing forks source-grounded/inferred; calmer walnut but phone/framing/material watch remains.",
+      "state": "measured draft held; no final acceptance; awaiting scoped local export permission"
+    }
+  ],
+  "technicalAudit": "production-batch-10-master-audit.json",
+  "exporter": "Not invoked; no rejected retry/bypass/transform. Earlier unanswered scope excludes batches03–10/current corrections.",
+  "browser": "user-deferred; no new READY",
+  "heartbeat": "PAUSED",
+  "liveAssetsChanged": false,
+  "recipeChanged": false,
+  "editorialChanged": false
+}

@@ -1,12 +1,12 @@
 project_name: Dionysus
-project_type: greenfield
+project_type: brownfield
 product_complexity: complex
 tech_stack: react
-component_library: tailwind
+component_library: none # Tailwind is styling; custom components own the experience
 root_folder: Dionysus/Cocktail_Website_Agent/design-artifacts
 existing_materials:
   has_materials: true
-  description: "Brand spreadsheets and files in Cocktail_GPT; React/Vite template codebase in Cocktail_Website_Agent."
+  description: "Brand spreadsheets and files in Cocktail_GPT; Active React/Vite app, shared matching components and Pour Studio in Cocktail_Website_Agent."
 brief_level: complete
 strategic_analysis: full
 working_relationship:
@@ -25,7 +25,7 @@ stepsCompleted:
   - step-10a-platform-strategy.md
   - step-11-tone-of-voice.md
   - step-12-create-product-brief.md
-vision: "Create a world-class, serene web application that guides users on a magical journey of self-discovery through a sumi-e and Suminagashi-themed personality quiz, leveraging a collaborative multi-agent AI backend to generate and visually display deeply personalized cocktails representing the user's core personality."
+vision: "Guide guests through the Suspended Pour into one of 132 authored cocktails and a personal reading; offline craft, auditable matching and bounded live tailoring."
 users:
   primary:
     profile: "Curious Esthete & Self-Explorer"
@@ -36,29 +36,32 @@ users:
     needs: "Experiencing the quiz as a primary user, evaluating layout, performance, and animation quality"
 product_concept:
   name: "Distillation of the Unseen Self (The Cocktail Within You)"
-  description: "A visually led, multi-agent AI personality alchemist that distills the user's inner self into a deeply personalized, calligraphic cocktail recipe and historical narrative. Suminagashi fluid physics on the quiz canvas wash away layers of ink to reveal watercolor paper, culminating in a colorful paint overflow that prints the final cocktail."
+  description: "A native-video personality journey with glass spheres, dark photographic reading rooms, fixed authored recipes and a printable keepsake."
 success_criteria:
-  performance: "Interactive fluid animation runs smoothly at 60fps on desktop and mobile"
-  transition_time: "Page transitions and ink clearing complete in under 4 seconds"
-  engagement: "Achieve >80% quiz completion rate despite 19-question length"
-  output_value: "High PDF recipe card download rate indicating strong narrative/aesthetic alignment"
+  performance: "Smooth UI motion on desktop and phone; native 1x source video, reduced-motion alternatives"
+  transition_time: "Approved per-hold choreography; no blanket four-second ceiling"
+  engagement: "Original >80% completion aspiration; no measured result claimed"
+  output_value: "Original >40% save aspiration; clean two-sheet print; print opening is not a confirmed save"
 competitive_moats:
-  moat_1: "Alchemical History AI: Narratives connect ingredient historical origins and emotional symbolism directly to the user's psychology."
-  moat_2: "Proprietary 12x11 Matrix: Maps 19 questions to 132 unique personalities."
+  moat_1: "Authored Meaning: sourced cocktail history and a personal reading grounded in the offline Pour Studio."
+  moat_2: "Ordered 12x11 Matrix: auditable matching across 132 distinct pairings; not a psychological assessment."
   moat_3: "Mixology Authority: Authentically designed around Robin's real-world expertise in syrups, infusions, and craft cocktail preparation."
 constraints:
   timeline: "Flexible (portfolio showcase, quality-first, personal timeline)"
   budget: "Personal, non-commercial budget bounds"
-  brand: "Sumi-e and Suminagashi calligraphic art style, container-free minimalist UI"
-  technical: "HTML5 Canvas fluid dynamics optimized for mobile 60fps; sound activation requires user-initiated click"
+  brand: "Mystical, sophisticated, theatrical, intimate; dark photographic world, light and lettering, container-free UI"
+  technical: "Native video and custom Canvas effects; fixed recipes, browser-only trace/diagnostics, gesture-gated non-blocking audio seam"
 platform_strategy:
   architecture: "Responsive Web Application (React + Vite + TypeScript)"
   device_priority: "Equal priority responsive design (Desktop cinematic layout, Mobile touch-friendly and fluid layout)"
-  interaction_models: "Mouse-hover spoon cursor physics, Mobile touch-drag liquid stirring gestures, User click-to-activate soundscape"
-  core_technologies: "HTML5 Canvas/WebGL fluid solver, Web Audio API soundscape layers, Clientside PDF generation (jspdf)"
+  interaction_models: "Click/touch choices; continuous H3 mote drag; optional H5 round-1 word carry equivalent to tap; keyboard and Still Water alternatives"
+  core_technologies: "React, Vite, TypeScript, Tailwind; custom Canvas effects; shared pure matching core; browser print CSS"
 
 
 
 
 
 
+
+reviewed_on: 2026-10-08
+current_experience: Dionysus/Cocktail_Website_Agent/design-artifacts/2026-07-08-experience-master-spec.md

@@ -13,7 +13,7 @@ authored_in: the room, 2026-10-01 (batch innocent)
 ## Cocktail
 
 - **name:** The Way It Felt
-- **tagline:** You never saw what was wrong with it. Nor did anyone it was for.
+- **tagline:** Your creations get the feeling right before the rules get a say.
 - **glassware:** tall glass (about 400 ml), filled with the frozen Kalimotxo cubes
 - **contains:** `[]`
 

@@ -1,0 +1,259 @@
+{
+  "pairing": "jester-lover",
+  "pour": "I'll Tell You Later",
+  "asset": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-lover/v3/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-54541353-73e6-4ad0-8735-2bd9b1fd9b1c.png",
+  "masterSha256": "b3f65afc87786399597d9aab702a94bdf9f4f6223bba00f1edad71a8298f7811",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "sourceSha256": "0a2804ee1b80c6e90d5f8d3556df429f88cb609522e3c4f0b00e8b0fb56fe8cc",
+  "specSha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6",
+  "roomSha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735",
+  "imageSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "wideCrop": null,
+  "portraitCrop": [
+    10,
+    13,
+    1064,
+    1425
+  ],
+  "tag": {
+    "cx": 778,
+    "cy": 1115,
+    "w": 101,
+    "angle": 110
+  },
+  "glass": {
+    "x": 680,
+    "y": 974
+  },
+  "bounds": {
+    "glass": {
+      "x0": 495,
+      "y0": 830,
+      "x1": 883,
+      "y1": 1126
+    },
+    "paper": {
+      "x0": 714,
+      "y0": 1044,
+      "x1": 839,
+      "y1": 1181
+    }
+  },
+  "supportingBounds": {
+    "heroSaucer": {
+      "x0": 375,
+      "y0": 944,
+      "x1": 899,
+      "y1": 1191
+    },
+    "rearCup": {
+      "x0": 380,
+      "y0": 584,
+      "x1": 667,
+      "y1": 800
+    },
+    "rearSaucer": {
+      "x0": 214,
+      "y0": 700,
+      "x1": 691,
+      "y1": 860
+    },
+    "usedOrangeSpiral": {
+      "x0": 294,
+      "y0": 666,
+      "x1": 509,
+      "y1": 804
+    },
+    "sixCloveHeads": {
+      "x0": 310,
+      "y0": 660,
+      "x1": 481,
+      "y1": 794
+    },
+    "fork": {
+      "x0": 226,
+      "y0": 714,
+      "x1": 588,
+      "y1": 856
+    },
+    "frontSteam": {
+      "x0": 680,
+      "y0": 675,
+      "x1": 760,
+      "y1": 832
+    },
+    "rearSteam": {
+      "x0": 417,
+      "y0": 286,
+      "x1": 514,
+      "y1": 585
+    },
+    "tagCord": {
+      "x0": 793,
+      "y0": 970,
+      "x1": 834,
+      "y1": 1075
+    }
+  },
+  "personalityBounds": {
+    "wrappedPresent": {
+      "x0": 348,
+      "y0": 428,
+      "x1": 722,
+      "y1": 659
+    },
+    "openDecoy": {
+      "x0": 573,
+      "y0": 374,
+      "x1": 999,
+      "y1": 673
+    }
+  },
+  "recognitionRegions": {
+    "wrappedPresent": {
+      "x0": 348,
+      "y0": 428,
+      "x1": 722,
+      "y1": 659
+    },
+    "openDecoy": {
+      "x0": 573,
+      "y0": 374,
+      "x1": 999,
+      "y1": 673
+    }
+  },
+  "physicalRecognitionRegions": {
+    "heroCup": {
+      "x0": 495,
+      "y0": 830,
+      "x1": 883,
+      "y1": 1126
+    },
+    "heroSaucer": {
+      "x0": 375,
+      "y0": 944,
+      "x1": 899,
+      "y1": 1191
+    },
+    "rearCup": {
+      "x0": 380,
+      "y0": 584,
+      "x1": 667,
+      "y1": 800
+    },
+    "rearSaucer": {
+      "x0": 214,
+      "y0": 700,
+      "x1": 691,
+      "y1": 860
+    },
+    "usedOrangeSpiral": {
+      "x0": 294,
+      "y0": 666,
+      "x1": 509,
+      "y1": 804
+    },
+    "fork": {
+      "x0": 226,
+      "y0": 714,
+      "x1": 588,
+      "y1": 856
+    }
+  },
+  "cloveHeadPoints": [
+    {
+      "x": 329,
+      "y": 674
+    },
+    {
+      "x": 319,
+      "y": 709
+    },
+    {
+      "x": 354,
+      "y": 756
+    },
+    {
+      "x": 412,
+      "y": 716
+    },
+    {
+      "x": 444,
+      "y": 752
+    },
+    {
+      "x": 469,
+      "y": 783
+    }
+  ],
+  "visibility": {
+    "wrappedPresent": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Bottom partly behind rear cup; full visible silhouette measured."
+    },
+    "openDecoy": {
+      "masterClipped": false,
+      "occluded": true,
+      "unseenExtent": null,
+      "note": "Tissue partly overlaps rear box; no hidden extent invented."
+    }
+  },
+  "tagPhysics": {
+    "mechanism": "Thin low hero handle-region loop, short hole tether",
+    "anchorBounds": {
+      "x0": 793,
+      "y0": 970,
+      "x1": 834,
+      "y1": 1047
+    },
+    "knotPoint": {
+      "x": 812,
+      "y": 1021
+    },
+    "holePoint": {
+      "x": 800,
+      "y": 1067
+    },
+    "knot": "Small gathering on lower handle",
+    "tether": "Doubled strands approximately46px down to hole",
+    "hole": "Visible circle and dark strand",
+    "gravity": "Paper hangs outward and down beside saucer",
+    "airGap": "Bowl separation visible",
+    "contact": "Lower edge near tabletop but exact contact not clear",
+    "occlusion": "Rear handle support/load unknown",
+    "uncertainties": [
+      "Rear loop/load not proved",
+      "Tether not as short as requested",
+      "Lower paper contact uncertain"
+    ],
+    "status": "held"
+  },
+  "recognitionUnionWidth": 785,
+  "cropAssessment": {
+    "portrait": "Dedicated native retains both finished cups/saucers, all used peel/fork and both whole visible gift silhouettes. Exact crop [10,13,1064,1425].",
+    "movingPhone": "~601px native inner width at390×844 breathing scale1.115 versus785px full served/person union; HOLD.430×932 similar width before translation.",
+    "wide": "No landscape crop proposed from this dedicated portrait."
+  },
+  "review": {
+    "recipe": "Two finished dark coffees on two saucers; ONE used spiral has six distinguishable clove heads.90ml capacity remains intent/unproved.",
+    "personality": "Both gifts now within native frame and in depth; still wide meaningful union.",
+    "world": "Plain ceramic useful; table remains warm shiny fine relief and paper gift has dense fibrous mottling.",
+    "issues": [
+      "portrait-serve-personality-sprawl",
+      "material-warm-gloss-relief-watch",
+      "giftpaper-dense-mottling",
+      "tag-support-contact-uncertain",
+      "vessel-capacity-unproved",
+      "name/browser-unchecked"
+    ]
+  },
+  "status": "held-candidate"
+}

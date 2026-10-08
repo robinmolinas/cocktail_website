@@ -1,0 +1,117 @@
+{
+  "pairing": "outlaw-caregiver",
+  "pour": "In One Piece",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/outlaw-caregiver/v1/master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-b9bd8bcc-b406-481d-adfe-36b857d40714.png",
+  "sourceSha256": "31b74355f779f31d69c8bf8622421a5e483b5198785c795da01dd6c7d28fc65d",
+  "specSha256": "12c6feda7762325c9403c248e87c92b17bcb8028d37eaafbfb7dffa1aba73c90",
+  "roomSha256": "957023b8392e107e6ece1e57e53da79ed07eb26c9f487d61dcedd7184a3a9658",
+  "masterSha256": "260519e34cebe2e0e5641252f8da9a67a44144368879d02f163742de89bbeb96",
+  "masterDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "wideCrop": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "portraitCrop": [
+    627,
+    0,
+    702,
+    940
+  ],
+  "tag": {
+    "cx": 1290,
+    "cy": 523,
+    "w": 133,
+    "angle": 82
+  },
+  "glass": {
+    "x": 1154,
+    "y": 452
+  },
+  "bounds": {
+    "glass": {
+      "x0": 1027,
+      "y0": 177,
+      "x1": 1279,
+      "y1": 732
+    },
+    "paper": {
+      "x0": 1250,
+      "y0": 427,
+      "x1": 1329,
+      "y1": 594
+    },
+    "garnish": {
+      "x0": 995,
+      "y0": 166,
+      "x1": 1223,
+      "y1": 649
+    }
+  },
+  "personBounds": {
+    "chair": {
+      "x0": 542,
+      "y0": 181,
+      "x1": 1049,
+      "y1": 634
+    },
+    "foldedCoat": {
+      "x0": 612,
+      "y0": 341,
+      "x1": 1033,
+      "y1": 567
+    }
+  },
+  "recognitionRegions": {
+    "chair": {
+      "x0": 543,
+      "y0": 183,
+      "x1": 1001,
+      "y1": 633
+    },
+    "foldedCoat": {
+      "x0": 614,
+      "y0": 342,
+      "x1": 1033,
+      "y1": 566
+    }
+  },
+  "traceExtentNotes": {
+    "chair": "Complete visible chair furniture, table/glass occlude right lower portions; hidden geometry unknown. Recognition retains curved back and leg/seat relationship, not anonymous sliver.",
+    "foldedCoat": "Visible folded olive coat with collar/sleeve/button; partly obscured by vessel/table. Ordinary quiet-care inference, not source-explicit garment."
+  },
+  "group": {
+    "fullWidth": 787,
+    "recognitionWidth": 786
+  },
+  "tagPhysics": {
+    "supportLoop": "Visible cord across exterior middle body below rim; diagonal front arc. Far arc occluded.",
+    "knot": "Visible at right body around1277,380.",
+    "tether": "Short visible continuous downward segment from knot to punched hole.",
+    "hole": "Visible dark punched hole around1281,454.",
+    "paper": "Small blank luggage label narrower than glass body.",
+    "gravity": "Paper hangs down from hole, not flush stuck to glass.",
+    "airgap": "Visible gap along paper right/outside glass; left edge overlaps silhouette in projection.",
+    "contact": "Bottom clear of tabletop; free suspension, not wood resting.",
+    "uncertainty": "Far loop hidden; slope/front curvature not fully verified. Attachment plausibility is not mechanical or browser approval.",
+    "assessment": "Chain visible with exterior support/knot/down tether/hole/gravity. HELD uncertainty, not blanket physics PASS."
+  },
+  "review": {
+    "recipe": "Single iced pale-gold lightly amber cognac/dry ginger ale; apparent continuous yellow whole-lemon spiral inside with short rim hook. Fine carbonation/nofoam. No ingredient/recipe change.",
+    "personality": "Pulled-out unstacked café chair source-explicit; folded olive coat recognizable as ordinary quiet-care/place-kept inference. Chair/coat overly wide.",
+    "world": "Historic timber reading room, multiple lights/cool window/strong amber glossy tabletop.",
+    "issues": [
+      "Glass555px tall exceeds300–360px target.",
+      "Full essential group787px exceeds389px phone core.",
+      "Two visible practical sources and cool window; amber glossy densely scored timber.",
+      "Dense bubbles/ice highlights reduce smooth clear patches.",
+      "Chair and coat spread laterally; coat inference weaker than source-explicit chair.",
+      "Loop slope/curvature and far-side occlusion remain uncertain; no physics PASS."
+    ]
+  }
+}

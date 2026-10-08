@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 ## Cocktail
 
 - **name:** Loose on Top
-- **tagline:** You never wanted to be the boss. You just couldn't bear having one.
+- **tagline:** Your independence has a way of becoming a place other people belong.
 - **glassware:** cocktail glass (about 200 ml), chilled, no salt
 - **contains:** `[]`
 

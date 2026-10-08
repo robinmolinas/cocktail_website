@@ -1,0 +1,34 @@
+{
+  "id": "further-than-me-base-tag-v4-technical-receipt",
+  "scope": "Exact native PNG copies/current source-spec/native dimensions/proposed extents only; root visually inspected but material/personality/name/phone/physics approval NOT implied.",
+  "variants": [
+    {
+      "version": "v3",
+      "masterSha256": "959467dc87c7e65a371a58cd38e066434057d442785a7ca1d095063ead756816",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "exactGeneratedCopyVerified": true,
+      "originalSizeRootInspected": true,
+      "proposedCropsOnly": true
+    },
+    {
+      "version": "v4",
+      "masterSha256": "3117e9e8bca1e2feb80941e1072e7f2e1e1eeb89ec17938f8364a7ec7c40407a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "exactGeneratedCopyVerified": true,
+      "originalSizeRootInspected": true,
+      "proposedCropsOnly": true
+    }
+  ],
+  "currentVersion": "v4",
+  "recipeChanged": false,
+  "countIncrease": 0,
+  "accepted": false,
+  "integrated": false,
+  "exported": false
+}

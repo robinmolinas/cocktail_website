@@ -1,0 +1,355 @@
+{
+  "pairing": "ruler-hero",
+  "pour": "A Place Kept",
+  "status": "image-production-reviewed; browser-name-overlay-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "40324372156f2054212c7f0cb4561aab8d11fb9233e141b9575d172958f72e28",
+  "review": {
+    "recipe": "Small stemmed wine glass, hazy tawny sour beneath crimson wine float, no serving ice/garnish/egg head. Float remains visually substantial and needs independent15ml proportion judgment.",
+    "personality": "Occupied coat peg with recognisable collar and sleeve, worn keys; source-grounded interpretations of keeping daily places for others. Compact lateral recognition improves; high collar/peg threatens ultrawide retention.",
+    "world": "Dark historic timber room and natural glass; table remains glossy/rippled amber with fine surface scratches rather than desired flat neutral low-satin.",
+    "issues": [
+      "Tag usable95px, not requested170–200px; long-name fit held",
+      "Coat collar/peg high at y91; ultrawide recognition hold",
+      "Glossy amber raised-looking timber and fine bowl speckling hold",
+      "Wine float proportion appears heavy; independent recipe review needed",
+      "Deferred actual JPEG and browser/name/motion checks; not accepted"
+    ]
+  },
+  "measurements": {
+    "pairing": "ruler-hero",
+    "pour": "A Place Kept",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-hero/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-16f0d1c1-b0f8-4ebf-aec3-04d1a251e5db.png",
+    "sourceSha256": "40324372156f2054212c7f0cb4561aab8d11fb9233e141b9575d172958f72e28",
+    "specSha256": "c3ad940c27cb71221280b15cab53130bec0bdad760905aed9bd0030a5d628b37",
+    "masterSha256": "701ae0f7be82037cd24094fe4c7b25647b27f038a9852010f8722cbbaed697d7",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      730,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1126,
+      "cy": 570,
+      "w": 95,
+      "angle": -1.3
+    },
+    "glass": {
+      "x": 1052,
+      "y": 469
+    },
+    "bounds": {
+      "glass": {
+        "x0": 974,
+        "y0": 364,
+        "x1": 1129,
+        "y1": 707
+      },
+      "paper": {
+        "x0": 1061,
+        "y0": 542,
+        "x1": 1184,
+        "y1": 599
+      }
+    },
+    "personalityBounds": {
+      "coat": {
+        "x0": 884,
+        "y0": 91,
+        "x1": 1265,
+        "y1": 617
+      },
+      "keys": {
+        "x0": 1066,
+        "y0": 601,
+        "x1": 1246,
+        "y1": 677
+      },
+      "peg": {
+        "x0": 1110,
+        "y0": 103,
+        "x1": 1182,
+        "y1": 161
+      }
+    },
+    "recognitionRegions": {
+      "coatCollarSleevePeg": {
+        "x0": 972,
+        "y0": 91,
+        "x1": 1249,
+        "y1": 471
+      },
+      "keysRingShafts": {
+        "x0": 1066,
+        "y0": 601,
+        "x1": 1246,
+        "y1": 677
+      }
+    },
+    "measurementNotes": "Original-resolution visual bounds, uncertainty approximately3–8px. Full glass/paper union210px; glass343px tall. Full essential coat/peg/keys plus glass/paper381px wide, recognition union277px wide. Coat/peg recognition starts y91 outside requested20–80% vertical and likely ultrawide trim. Tag usable95px, below170–200px target. No narrowed bounds/focal substitution. Proposed portrait contains full visible objects, not proof of phone/motion/browser acceptance.",
+    "review": {
+      "recipe": "Small stemmed wine glass, hazy tawny sour beneath crimson wine float, no serving ice/garnish/egg head. Float remains visually substantial and needs independent15ml proportion judgment.",
+      "personality": "Occupied coat peg with recognisable collar and sleeve, worn keys; source-grounded interpretations of keeping daily places for others. Compact lateral recognition improves; high collar/peg threatens ultrawide retention.",
+      "world": "Dark historic timber room and natural glass; table remains glossy/rippled amber with fine surface scratches rather than desired flat neutral low-satin.",
+      "issues": [
+        "Tag usable95px, not requested170–200px; long-name fit held",
+        "Coat collar/peg high at y91; ultrawide recognition hold",
+        "Glossy amber raised-looking timber and fine bowl speckling hold",
+        "Wine float proportion appears heavy; independent recipe review needed",
+        "Deferred actual JPEG and browser/name/motion checks; not accepted"
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1293.0143540669858,
+        "cy": 654.8936170212767,
+        "w": 109.0909090909091,
+        "angle": -1.3006912518761138
+      },
+      "glass": {
+        "x": 1208.0382775119617,
+        "y": 538.8510638297872
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 505.43589743589746,
+        "cy": 727.6595744680851,
+        "w": 121.25356125356126,
+        "angle": -1.3002468757135024
+      },
+      "glass": {
+        "x": 410.985754985755,
+        "y": 598.7234042553192
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/ruler-hero/portrait.jpg",
+    "wide": "/personas/ruler-hero/wide.jpg",
+    "wideTag": {
+      "cx": 0.6734449760765551,
+      "cy": 0.6063829787234043,
+      "w": 0.056818181818181816,
+      "angle": -1.3006912518761138
+    },
+    "wideGlass": {
+      "x": 0.6291866028708134,
+      "y": 0.498936170212766
+    },
+    "tag": {
+      "cx": 0.5641025641025641,
+      "cy": 0.6063829787234043,
+      "w": 0.13532763532763534,
+      "angle": -1.3002468757135024
+    },
+    "glass": {
+      "x": 0.4586894586894587,
+      "y": 0.498936170212766
+    }
+  },
+  "hashes": {
+    "master": "701ae0f7be82037cd24094fe4c7b25647b27f038a9852010f8722cbbaed697d7",
+    "wide": "cfcabd69eccea0c11d79e85d3b0a5e13ee9245c66d4406d50bfc731a7ab115a4",
+    "portrait": "e9e65d87f00ec98225d61096716da8f7053e04aa1d6a1cea608d8fb34035e431"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1118.468899521531,
+          "y0": 418.21276595744683,
+          "x1": 1296.4593301435407,
+          "y1": 812.2978723404254
+        },
+        "paper": {
+          "x0": 1218.3732057416269,
+          "y0": 622.7234042553191,
+          "x1": 1359.6172248803828,
+          "y1": 688.2127659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 852.0574162679426,
+          "y0": 348.51063829787233,
+          "x1": 1000.3827751196172,
+          "y1": 676.9148936170212
+        },
+        "paper": {
+          "x0": 935.3110047846891,
+          "y0": 518.936170212766,
+          "x1": 1053.0143540669858,
+          "y1": 573.5106382978723
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1193.0334928229665,
+          "y0": 392.7336170212766,
+          "x1": 1382.88995215311,
+          "y1": 813.0910638297871
+        },
+        "paper": {
+          "x0": 1299.598086124402,
+          "y0": 610.8782978723405,
+          "x1": 1450.2583732057417,
+          "y1": 680.7336170212766
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2003.9234449760766,
+          "y0": 521.5978723404255,
+          "x1": 2322.822966507177,
+          "y1": 1227.6670212765955
+        },
+        "paper": {
+          "x0": 2182.9186602870814,
+          "y0": 888.0127659574468,
+          "x1": 2435.9808612440193,
+          "y1": 1005.3478723404255
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4586894586894587,
+        "y": 0.498936170212766
+      },
+      "bounds": {
+        "glass": {
+          "x0": 108.86814814814814,
+          "y0": 326.82553191489365,
+          "x1": 248.01192782526118,
+          "y1": 634.795744680851
+        },
+        "paper": {
+          "x0": 186.96820512820517,
+          "y0": 486.6468085106383,
+          "x1": 297.38552706552707,
+          "y1": 537.8255319148936
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4586894586894587,
+        "y": 0.498936170212766
+      },
+      "bounds": {
+        "glass": {
+          "x0": 119.91498575498578,
+          "y0": 360.9021276595745,
+          "x1": 273.5666476733143,
+          "y1": 700.9829787234041
+        },
+        "paper": {
+          "x0": 206.15817663817666,
+          "y0": 537.3872340425531,
+          "x1": 328.0882051282051,
+          "y1": 593.9021276595744
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.4586894586894587,
+        "y": 0.498936170212766
+      },
+      "bounds": {
+        "glass": {
+          "x0": 99.65766381766383,
+          "y0": 219.94893617021276,
+          "x1": 193.2994491927825,
+          "y1": 427.20851063829787
+        },
+        "paper": {
+          "x0": 152.21789173789173,
+          "y0": 327.5063829787234,
+          "x1": 226.52717948717947,
+          "y1": 361.9489361702128
+        }
+      }
+    }
+  ]
+}

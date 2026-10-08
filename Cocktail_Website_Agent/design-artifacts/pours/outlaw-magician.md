@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 ## Cocktail
 
 - **name:** For Its Own Good
-- **tagline:** Everyone else keeps it going. You love it enough to end it.
+- **tagline:** You know when letting something end is how you keep it alive.
 - **glassware:** a heavy old-fashioned glass, one large cube
 - **contains:** `[]`
 
@@ -186,7 +186,7 @@ Wren's title-block notes:
 
 **name (pick):** For Its Own Good
 **alternatives:** In Support (second, all three agree) · One Only · Taken Down a Rank
-**tagline (pick):** Everyone else keeps it going. You love it enough to end it.
+**tagline (pick):** You know when letting something end is how you keep it alive.
 **tagline alternatives:** You only end what you love. · Somebody has to end it properly. Usually it's you, and usually it's love.
 
 **epigraph**

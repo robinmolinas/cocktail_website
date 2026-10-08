@@ -1,0 +1,5 @@
+# Final bounded correction readiness
+
+Root explicitly authorizes Off wide+portrait, Hand portrait only and Even portrait only, four calls maximum total, no retries. Off current complete settled dossier/spec/closed room reread to EOF; built-in imagegen SKILL and both required references reread. Current shared rules/controls reviewed in primary v3 preflight, current source hashes will be verified again. Actual v3 wide original viewed before edit. v4 absent before write; v1–v3 preserved.
+
+Settled350ml Collins/pale greenish swizzle/crushed ice/red Angostura ON TOP/WOOD swizzle left in/no straw or garnish unchanged. Correct only duplicate/upper-body cord and support one small paper from one complete clear-foot exteriorloop; chair farther back quiet. Torn sachet source-derived and connected full-size chair preserved. Method/nearly-snow internal ice/prongs/current density volumes not asserted photo PASS. Exact originals/geometry required. Root soleexport/integration; no public/shared writes. After two Off calls stop this pairing regardless remaining defects.

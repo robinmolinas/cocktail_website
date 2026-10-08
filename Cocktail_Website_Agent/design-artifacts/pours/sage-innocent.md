@@ -13,7 +13,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 ## Cocktail
 
 - **name:** Nothing Escaped You
-- **tagline:** You got there first. You're still glad you did.
+- **tagline:** You know more than people expect, and make them glad they asked.
 - **glassware:** coupe (about 220 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -185,7 +185,7 @@ Wren's title-block notes:
 
 **name:** Are You Quite Sure? *(my pick; I could take Before Your Eyes)*
 
-**tagline:** You got there first. You're still glad you did.
+**tagline:** You know more than people expect, and make them glad they asked.
 
 **epigraph**
 *A Sidecar without its lemon. The sour comes from the grape itself.*

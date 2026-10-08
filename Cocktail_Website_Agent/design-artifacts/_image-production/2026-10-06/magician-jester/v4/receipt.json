@@ -1,0 +1,25 @@
+{
+  "selection": "Private review candidates selected by root after native view, not acceptance",
+  "callCount": 1,
+  "roundTotalCalls": 4,
+  "generationStopped": true,
+  "assets": [
+    {
+      "orientation": "portrait",
+      "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v4/portrait-master.png",
+      "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-179bf669-3b0c-4f9a-8f7e-0d65dbc39551.png",
+      "sha256": "31993f5e9415b08ec03b7f9fdd993f913501309d0fd442915d987a70a1b1c8ed",
+      "native": {
+        "width": 1084,
+        "height": 1451
+      },
+      "measurements": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v4/measurements-portrait.json",
+      "prompt": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/magician-jester/v4/prompt-portrait.txt"
+    }
+  ],
+  "pairedWide": "Unchanged v3 wide, see paired-assets.json",
+  "exports": 0,
+  "browserAcceptance": false,
+  "recipeEditorialChanges": false,
+  "remainingFailures": "See review.md and measurements review/tagPhysics; all residual issues held, no further calls."
+}

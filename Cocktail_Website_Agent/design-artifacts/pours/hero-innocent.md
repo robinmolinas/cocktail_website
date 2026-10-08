@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 ## Cocktail
 
 - **name:** Work It Out
-- **tagline:** There's more to you than this. You just can't prove it yet.
+- **tagline:** You know there's more in you, and keep working until it shows.
 - **glassware:** tall highball glass (about 400 ml), filled with ice
 - **contains:** `[]`
 

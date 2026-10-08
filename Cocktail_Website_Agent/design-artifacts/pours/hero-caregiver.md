@@ -12,7 +12,7 @@ authored_in: the room, 2026-09-30 (batch hero)
 ## Cocktail
 
 - **name:** Next One's Mine
-- **tagline:** You'll take anything on for anyone. Except a favour.
+- **tagline:** People breathe easier when you say, “Leave it with me.”
 - **glassware:** tall glass (highball, about 350 ml), filled with ice
 - **contains:** `[]`
 

@@ -1,0 +1,109 @@
+{
+  "measurementMethod": "Root manual visual estimate on actual original-size native image; coordinates approximate, tolerance 5–12px. Displayed dimensions not probed. NOT export-ready metadata.",
+  "masterSha256": null,
+  "sourceSha256": null,
+  "specSha256": null,
+  "roomSha256": null,
+  "fingerprintStatus": "Pending authorized checks; no historical hash reused.",
+  "exported": false,
+  "exportEligible": false,
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  },
+  "hiddenExtents": {
+    "rearLoopClosure": null,
+    "actualKnotLoad": null,
+    "paperUnderside": null,
+    "occludedProps": null
+  },
+  "tagPhysics": {
+    "status": "Held, not physics PASS",
+    "support": "Visible small side junction, short tether through hole, paper rests timber; hidden closure/friction/load unresolved."
+  },
+  "pairing": "hero-innocent",
+  "pour": "Work It Out",
+  "asset": "wide",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/hero-innocent/v3/wide-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-cf1ff3f3-82bd-4459-86b1-f2e0e6008ec1.png",
+  "displayedDimensions": [
+    1672,
+    941
+  ],
+  "proposedCrop": [
+    4,
+    2,
+    1664,
+    936
+  ],
+  "tag": {
+    "cx": 1225,
+    "cy": 756,
+    "w": 110,
+    "angle": 27,
+    "hole": [
+      1146,
+      704
+    ]
+  },
+  "glass": {
+    "x": 1000,
+    "y": 480
+  },
+  "bounds": {
+    "glass": [
+      867,
+      190,
+      1126,
+      765
+    ],
+    "physicalGarnish": [
+      1000,
+      164,
+      1172,
+      301
+    ],
+    "paper": [
+      1117,
+      683,
+      1303,
+      795
+    ],
+    "practiceBox": [
+      1098,
+      400,
+      1440,
+      620
+    ],
+    "looseLid": [
+      1320,
+      453,
+      1586,
+      638
+    ],
+    "pencil": [
+      1367,
+      499,
+      1559,
+      605
+    ]
+  },
+  "essentialObjectUnion": [
+    867,
+    164,
+    1586,
+    795
+  ],
+  "reviewHolds": [
+    "Highball too tall in wide",
+    "Closed craftsmanship/finished-object inference remains despite loose lid",
+    "Multiple close low-foot strands and dense droplets",
+    "Bright amber sheen",
+    "No generated/font-loaded name or phone acceptance"
+  ]
+}

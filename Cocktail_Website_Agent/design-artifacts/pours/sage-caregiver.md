@@ -12,7 +12,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 ## Cocktail
 
 - **name:** Further Than Me
-- **tagline:** Everyone you've helped can manage without you now. That was always the plan.
+- **tagline:** You teach people to trust their own judgement, even when it takes them beyond yours.
 - **glassware:** highball glass, chilled, filled with ice
 - **contains:** `[]`
 
@@ -163,7 +163,7 @@ Wren's title-block notes:
 
 **name:** Further Than Me *(my pick, held to round 4; I could take Gladly Outgrown)*
 
-**tagline:** Everyone you've helped can manage without you now. That was always the plan.
+**tagline:** You teach people to trust their own judgement, even when it takes them beyond yours.
 
 **epigraph**
 *The Southside, for many years the 21 Club's house drink. The second herb is mine.*

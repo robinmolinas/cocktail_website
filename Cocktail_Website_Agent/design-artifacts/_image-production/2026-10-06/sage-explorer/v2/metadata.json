@@ -1,0 +1,587 @@
+{
+  "pairing": "sage-explorer",
+  "pour": "Look Again",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "1c7f9612f83dcf1d841ac7b6fddb8b51b7ac690e5e91eed39d5a83d2eb7478d3",
+  "review": {
+    "issues": [
+      "Glass293px improves from415px; overall depth overlap still insufficient.",
+      "Full visible group899px, recognition878px, proposed702portrait clips book/linen; movingphone fails geometry.",
+      "Sourceauthor pale gold unsourced estimate; actual quite amber/saturated, tiny bubble-like glass speckle despite noncarbonated recipe.",
+      "Glossy patterned amber timber/etchedice/dense glass speckle and second blurred warm light left held.",
+      "Personality book/supper directly/inferred grounded but may read generic late-reading scene; no final acceptance.",
+      "95px writable axis, actual glyph name fit untested."
+    ],
+    "scope": "Original-size PNG only/manual source-pixel measurements; no export/name/phone/material/final acceptance.",
+    "recipe": "Current candidate root original review preserved in version folder; recipe gate remains HELD. This field records review provenance, not acceptance.",
+    "personality": "Current candidate root original review preserved in version folder; personality gate remains HELD. This field records review provenance, not acceptance.",
+    "world": "Current candidate root original review preserved in version folder; world gate remains HELD. This field records review provenance, not acceptance.",
+    "correctionScope": "Read correctionReview and current version root review; inherited background review never clears current corrections/holds."
+  },
+  "measurements": {
+    "pairing": "sage-explorer",
+    "pour": "Look Again",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/sage-explorer/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a0e301-82a5-7e13-9270-2810eceb62e0/exec-ccdefe5c-d4e4-4204-ab9d-1ecb11f14568.png",
+    "masterDimensions": [
+      1672,
+      941
+    ],
+    "masterSha256": "b825a4d706991cde535f6921a7407b66874d243618fc839e68511b4ab3ec07b0",
+    "sourceSha256": "1c7f9612f83dcf1d841ac7b6fddb8b51b7ac690e5e91eed39d5a83d2eb7478d3",
+    "specSha256": "d376af4449ae4e842ba360c96a4cf686b6a531d1cd5f7a6f2646cc256cdd306d",
+    "roomSha256": "0e44ecdf889fd9a93cc38b0696b120bfed38e61b535ab18c93d273d497c71852",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      813,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1353,
+      "cy": 631,
+      "w": 95,
+      "angle": 13
+    },
+    "glass": {
+      "x": 1148,
+      "y": 501
+    },
+    "bounds": {
+      "glass": {
+        "x0": 1019,
+        "y0": 355,
+        "x1": 1278,
+        "y1": 648
+      },
+      "paper": {
+        "x0": 1287,
+        "y0": 605,
+        "x1": 1415,
+        "y1": 656
+      },
+      "lemonGarnish": {
+        "x0": 1063,
+        "y0": 425,
+        "x1": 1161,
+        "y1": 579
+      },
+      "book": {
+        "x0": 758,
+        "y0": 397,
+        "x1": 1324,
+        "y1": 550
+      },
+      "plate": {
+        "x0": 1267,
+        "y0": 445,
+        "x1": 1623,
+        "y1": 569
+      },
+      "linen": {
+        "x0": 1300,
+        "y0": 398,
+        "x1": 1657,
+        "y1": 578
+      }
+    },
+    "recognitionRegions": {
+      "book": {
+        "bounds": {
+          "x0": 760,
+          "y0": 401,
+          "x1": 1015,
+          "y1": 544
+        },
+        "reason": "Face-down green boards/spine/page edge recognize book; rear/right partly occluded by glass."
+      },
+      "plate": {
+        "bounds": {
+          "x0": 1268,
+          "y0": 450,
+          "x1": 1572,
+          "y1": 548
+        },
+        "reason": "Ceramic ellipse/edge/crumbs recognize used plate, far edge under linen."
+      },
+      "linen": {
+        "bounds": {
+          "x0": 1320,
+          "y0": 402,
+          "x1": 1638,
+          "y1": 569
+        },
+        "reason": "Distinct used cloth folds on plate; not all cloth required but still spread."
+      }
+    },
+    "tagPhysics": {
+      "mechanism": "Snug external lower-body loop~572–605, visible curved front arc and side occlusion, small right knot~1269/581.",
+      "loopBounds": {
+        "x0": 1026,
+        "y0": 570,
+        "x1": 1279,
+        "y1": 608
+      },
+      "knot": {
+        "x": 1269,
+        "y": 581
+      },
+      "paperHole": {
+        "x": 1308,
+        "y": 618
+      },
+      "gravity": "Continuous short down-right tether through punched hole, paper below knot lies/slopes on wood, lower edge~654 contact shadow.",
+      "paperSeparationOrContact": "Outboard paper separate from glass, no adhesive face, real wood-supported edge.",
+      "uncertainty": "Far-side closure/friction/knot load and paper local gap not provable; no mechanical PASS."
+    },
+    "objectVisibility": {
+      "book": "Right/rear board partly occluded byglass; visible bbox only.",
+      "plate": "Rear under linen; originalv1rightclipped/unknownunseenextent;v2visible.",
+      "linen": "v1rightclippedunknownextent,v2visible."
+    },
+    "review": {
+      "issues": [
+        "Glass293px improves from415px; overall depth overlap still insufficient.",
+        "Full visible group899px, recognition878px, proposed702portrait clips book/linen; movingphone fails geometry.",
+        "Sourceauthor pale gold unsourced estimate; actual quite amber/saturated, tiny bubble-like glass speckle despite noncarbonated recipe.",
+        "Glossy patterned amber timber/etchedice/dense glass speckle and second blurred warm light left held.",
+        "Personality book/supper directly/inferred grounded but may read generic late-reading scene; no final acceptance.",
+        "95px writable axis, actual glyph name fit untested."
+      ],
+      "scope": "Original-size PNG only/manual source-pixel measurements; no export/name/phone/material/final acceptance.",
+      "recipe": "Current candidate root original review preserved in version folder; recipe gate remains HELD. This field records review provenance, not acceptance.",
+      "personality": "Current candidate root original review preserved in version folder; personality gate remains HELD. This field records review provenance, not acceptance.",
+      "world": "Current candidate root original review preserved in version folder; world gate remains HELD. This field records review provenance, not acceptance.",
+      "correctionScope": "Read correctionReview and current version root review; inherited background review never clears current corrections/holds."
+    },
+    "exported": false,
+    "accepted": false,
+    "integrated": false,
+    "correctionReview": {
+      "issues": [
+        "Glass293px improves from415px; overall depth overlap still insufficient.",
+        "Full visible group899px, recognition878px, proposed702portrait clips book/linen; movingphone fails geometry.",
+        "Sourceauthor pale gold unsourced estimate; actual quite amber/saturated, tiny bubble-like glass speckle despite noncarbonated recipe.",
+        "Glossy patterned amber timber/etchedice/dense glass speckle and second blurred warm light left held.",
+        "Personality book/supper directly/inferred grounded but may read generic late-reading scene; no final acceptance.",
+        "95px writable axis, actual glyph name fit untested."
+      ],
+      "scope": "Original-size PNG only/manual source-pixel measurements; no export/name/phone/material/final acceptance."
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1553.6842105263158,
+        "cy": 724.9787234042553,
+        "w": 109.0909090909091,
+        "angle": 13.00667982457966
+      },
+      "glass": {
+        "x": 1318.2775119617224,
+        "y": 575.6170212765958
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 689.2307692307693,
+        "cy": 805.5319148936171,
+        "w": 121.25356125356126,
+        "angle": 13.002385692924628
+      },
+      "glass": {
+        "x": 427.5783475783476,
+        "y": 639.5744680851064
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/sage-explorer/portrait.jpg",
+    "wide": "/personas/sage-explorer/wide.jpg",
+    "wideTag": {
+      "cx": 0.8092105263157895,
+      "cy": 0.6712765957446809,
+      "w": 0.056818181818181816,
+      "angle": 13.00667982457966
+    },
+    "wideGlass": {
+      "x": 0.6866028708133971,
+      "y": 0.5329787234042553
+    },
+    "tag": {
+      "cx": 0.7692307692307693,
+      "cy": 0.6712765957446809,
+      "w": 0.13532763532763534,
+      "angle": 13.002385692924628
+    },
+    "glass": {
+      "x": 0.4772079772079772,
+      "y": 0.5329787234042553
+    }
+  },
+  "hashes": {
+    "master": "b825a4d706991cde535f6921a7407b66874d243618fc839e68511b4ab3ec07b0",
+    "wide": "c5b873753532e0ada1779cd0bc63adf884439c623345d5ada5bfd848b43ffc11",
+    "portrait": "99c3621812840693e405ae78d7effd30cee6c9f3e68c45987ecef586b3efe027"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1170.1435406698565,
+          "y0": 407.87234042553195,
+          "x1": 1467.55980861244,
+          "y1": 744.5106382978723
+        },
+        "paper": {
+          "x0": 1477.8947368421052,
+          "y0": 695.1063829787233,
+          "x1": 1624.8803827751196,
+          "y1": 753.7021276595744
+        },
+        "lemonGarnish": {
+          "x0": 1220.66985645933,
+          "y0": 488.29787234042556,
+          "x1": 1333.2057416267942,
+          "y1": 665.2340425531914
+        },
+        "book": {
+          "x0": 870.4306220095693,
+          "y0": 456.1276595744681,
+          "x1": 1520.3827751196172,
+          "y1": 631.9148936170213
+        },
+        "plate": {
+          "x0": 1454.9282296650717,
+          "y0": 511.27659574468083,
+          "x1": 1863.7320574162682,
+          "y1": 653.7446808510639
+        },
+        "linen": {
+          "x0": 1492.822966507177,
+          "y0": 457.27659574468083,
+          "x1": 1902.7751196172248,
+          "y1": 664.0851063829788
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 895.1196172248804,
+          "y0": 339.8936170212766,
+          "x1": 1142.9665071770335,
+          "y1": 620.4255319148937
+        },
+        "paper": {
+          "x0": 1151.578947368421,
+          "y0": 579.2553191489361,
+          "x1": 1274.0669856459328,
+          "y1": 628.0851063829788
+        },
+        "lemonGarnish": {
+          "x0": 937.224880382775,
+          "y0": 406.9148936170213,
+          "x1": 1031.0047846889952,
+          "y1": 554.3617021276596
+        },
+        "book": {
+          "x0": 645.3588516746412,
+          "y0": 380.10638297872345,
+          "x1": 1186.9856459330142,
+          "y1": 526.5957446808511
+        },
+        "plate": {
+          "x0": 1132.4401913875597,
+          "y0": 426.06382978723406,
+          "x1": 1473.11004784689,
+          "y1": 544.7872340425532
+        },
+        "linen": {
+          "x0": 1164.019138755981,
+          "y0": 381.06382978723406,
+          "x1": 1505.6459330143541,
+          "y1": 553.404255319149
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1248.153110047847,
+          "y0": 381.70382978723404,
+          "x1": 1565.3971291866028,
+          "y1": 740.7846808510639
+        },
+        "paper": {
+          "x0": 1576.421052631579,
+          "y0": 688.0868085106382,
+          "x1": 1733.2057416267942,
+          "y1": 750.5889361702127
+        },
+        "lemonGarnish": {
+          "x0": 1302.047846889952,
+          "y0": 467.4910638297872,
+          "x1": 1422.0861244019138,
+          "y1": 656.2229787234043
+        },
+        "book": {
+          "x0": 928.4593301435407,
+          "y0": 433.17617021276595,
+          "x1": 1621.7416267942583,
+          "y1": 620.6825531914893
+        },
+        "plate": {
+          "x0": 1551.9234449760766,
+          "y0": 492.00170212765954,
+          "x1": 1987.9808612440193,
+          "y1": 643.967659574468
+        },
+        "linen": {
+          "x0": 1592.3444976076555,
+          "y0": 434.4017021276596,
+          "x1": 2029.6267942583731,
+          "y1": 654.9974468085107
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2096.507177033493,
+          "y0": 503.0712765957446,
+          "x1": 2629.377990430622,
+          "y1": 1106.2148936170213
+        },
+        "paper": {
+          "x0": 2647.8947368421054,
+          "y0": 1017.6989361702126,
+          "x1": 2911.244019138756,
+          "y1": 1122.6829787234042
+        },
+        "lemonGarnish": {
+          "x0": 2187.0334928229663,
+          "y0": 647.1670212765957,
+          "x1": 2388.6602870813394,
+          "y1": 964.177659574468
+        },
+        "book": {
+          "x0": 1559.5215311004786,
+          "y0": 589.5287234042553,
+          "x1": 2724.0191387559807,
+          "y1": 904.4808510638297
+        },
+        "plate": {
+          "x0": 2606.7464114832537,
+          "y0": 688.3372340425532,
+          "x1": 3339.1866028708137,
+          "y1": 943.5925531914893
+        },
+        "linen": {
+          "x0": 2674.6411483253587,
+          "y0": 591.5872340425532,
+          "x1": 3409.1387559808613,
+          "y1": 962.1191489361702
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.6245290193730298,
+        "y": 0.5329787234042553
+      },
+      "bounds": {
+        "glass": {
+          "x0": 34.92302830009487,
+          "y0": 318.74468085106383,
+          "x1": 267.4277956315289,
+          "y1": 581.8212765957446
+        },
+        "paper": {
+          "x0": 275.50711187084516,
+          "y0": 543.2127659574468,
+          "x1": 390.41294283000946,
+          "y1": 589.0042553191489
+        },
+        "lemonGarnish": {
+          "x0": 74.42190769230763,
+          "y0": 381.59574468085106,
+          "x1": 162.3966845204178,
+          "y1": 519.868085106383
+        },
+        "book": {
+          "x0": -199.37714264007607,
+          "y0": 356.4553191489362,
+          "x1": 308.7220786324786,
+          "y1": 493.82978723404256
+        },
+        "plate": {
+          "x0": 257.5530757834757,
+          "y0": 399.55319148936167,
+          "x1": 577.1349181386514,
+          "y1": 510.88936170212764
+        },
+        "linen": {
+          "x0": 287.1772353276353,
+          "y0": 357.3531914893617,
+          "x1": 607.6567794871795,
+          "y1": 518.9702127659575
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.6254659652593664,
+        "y": 0.5329787234042553
+      },
+      "bounds": {
+        "glass": {
+          "x0": 37.90078480531807,
+          "y0": 351.97872340425533,
+          "x1": 294.64775536562195,
+          "y1": 642.4851063829788
+        },
+        "paper": {
+          "x0": 303.5694647673314,
+          "y0": 599.8510638297872,
+          "x1": 430.4559984805318,
+          "y1": 650.4170212765957
+        },
+        "lemonGarnish": {
+          "x0": 81.5180307692307,
+          "y0": 421.3829787234043,
+          "x1": 178.66553314339973,
+          "y1": 574.0723404255319
+        },
+        "book": {
+          "x0": -220.82878784425458,
+          "y0": 393.6212765957447,
+          "x1": 340.24760341880335,
+          "y1": 545.3191489361702
+        },
+        "plate": {
+          "x0": 283.7434438746438,
+          "y0": 441.2127659574468,
+          "x1": 636.6466157644822,
+          "y1": 564.1574468085107
+        },
+        "linen": {
+          "x0": 316.45637834757827,
+          "y0": 394.6127659574468,
+          "x1": 670.3508512820513,
+          "y1": 573.0808510638299
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.4772079772079772,
+        "y": 0.5329787234042553
+      },
+      "bounds": {
+        "glass": {
+          "x0": 74.77242165242166,
+          "y0": 214.51063829787236,
+          "x1": 231.244824311491,
+          "y1": 391.55744680851063
+        },
+        "paper": {
+          "x0": 236.68208926875596,
+          "y0": 365.57446808510633,
+          "x1": 314.01207977207974,
+          "y1": 396.39148936170216
+        },
+        "lemonGarnish": {
+          "x0": 101.35460588793921,
+          "y0": 256.8085106382979,
+          "x1": 160.56037986704655,
+          "y1": 349.863829787234
+        },
+        "book": {
+          "x0": -82.90826210826211,
+          "y0": 239.88936170212767,
+          "x1": 259.03528964862295,
+          "y1": 332.3404255319149
+        },
+        "plate": {
+          "x0": 224.59927825261158,
+          "y0": 268.8936170212766,
+          "x1": 439.67331433998095,
+          "y1": 343.8212765957447
+        },
+        "linen": {
+          "x0": 244.5359164292498,
+          "y0": 240.4936170212766,
+          "x1": 460.21409306742646,
+          "y1": 349.25957446808513
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "pairing": "jester-innocent",
+  "pour": "Off the Tour",
+  "sourceSha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d",
+  "specSha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da",
+  "roomSha256": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d",
+  "personaSystemSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+  "version": "v3",
+  "measurementMethod": "Conservative visual estimates from original-resolution native PNG; not browser/name/motion acceptance.",
+  "orientation": "portrait",
+  "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/jester-innocent/v3/portrait-master.png",
+  "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-91b8-7773-b6b2-06e78aabb750/exec-e1e9e18d-d3a8-4396-85a5-8cb3b1b2db97.png",
+  "masterSha256": "83b7c076ca0b6473feccc4b6f7996be499c0a0c3a650d273997ef7183c2fa635",
+  "masterDimensions": {
+    "width": 1084,
+    "height": 1451
+  },
+  "wideCrop": [
+    0,
+    421,
+    1084,
+    610
+  ],
+  "portraitCrop": [
+    0,
+    0,
+    1084,
+    1451
+  ],
+  "crossOrientationCropIntended": false,
+  "tag": {
+    "cx": 679,
+    "cy": 1061,
+    "w": 100,
+    "angle": 78
+  },
+  "glass": {
+    "x": 557,
+    "y": 884
+  },
+  "bounds": {
+    "glass": {
+      "x0": 445,
+      "y0": 645,
+      "x1": 669,
+      "y1": 1124
+    },
+    "paper": {
+      "x0": 643,
+      "y0": 984,
+      "x1": 710,
+      "y1": 1121
+    },
+    "swizzle": {
+      "x0": 622,
+      "y0": 521,
+      "x1": 674,
+      "y1": 658
+    },
+    "iceIncludingMound": {
+      "x0": 448,
+      "y0": 584,
+      "x1": 661,
+      "y1": 1070
+    }
+  },
+  "personBounds": {
+    "foldedDeckchair": {
+      "x0": 156,
+      "y0": 272,
+      "x1": 832,
+      "y1": 882
+    },
+    "tornSachetAndScrap": {
+      "x0": 290,
+      "y0": 962,
+      "x1": 458,
+      "y1": 1057
+    }
+  },
+  "recognitionRegions": {
+    "foldedDeckchair": {
+      "x0": 185,
+      "y0": 273,
+      "x1": 830,
+      "y1": 879
+    },
+    "tornSachetAndScrap": {
+      "x0": 290,
+      "y0": 962,
+      "x1": 458,
+      "y1": 1057
+    },
+    "allServedIce": {
+      "x0": 448,
+      "y0": 584,
+      "x1": 661,
+      "y1": 1070
+    },
+    "wholeSwizzle": {
+      "x0": 622,
+      "y0": 521,
+      "x1": 674,
+      "y1": 658
+    }
+  },
+  "unknownExtents": {
+    "deckchairOccludedPosterior": null,
+    "hiddenSwizzleProngs": null,
+    "allInternalIceChipGeometry": null
+  },
+  "group": {
+    "fullBounds": {
+      "x0": 156,
+      "y0": 272,
+      "x1": 832,
+      "y1": 1124
+    },
+    "recognitionBounds": {
+      "x0": 185,
+      "y0": 273,
+      "x1": 830,
+      "y1": 1124
+    },
+    "fullWidth": 676,
+    "recognitionWidth": 645,
+    "physicalServeBoundsIncludingAllPhysicalObjects": {
+      "x0": 445,
+      "y0": 521,
+      "x1": 710,
+      "y1": 1124
+    }
+  },
+  "tagPhysics": {
+    "supportLoop": "Low body y978–1000 has visible left and right portions but front center missing; old upper-body circumferential line remains y710.",
+    "knot": "Right-side knot approximately655,986.",
+    "tether": "Short downward to punched hole666,1006.",
+    "hole": "Visible dark hole666,1006.",
+    "gravity": "Paper drops down/right freely.",
+    "airgap": "Small right-side clearance partly visible; projected overlap near upper paper.",
+    "contact": "Bottom1121 approximately foot1124, plausible tabletop contact but shadow not decisive.",
+    "uncertainty": [
+      "Interrupted low front arc",
+      "Possible retained second upper loop",
+      "Rear/load/contact unobservable"
+    ],
+    "assessment": "HELD: interrupted low loop and retained upper line, no blanket physics PASS."
+  },
+  "review": {
+    "recipe": "Same one Collins/angular mound/red top/retained wooden stick. Frost conceals internal shape/prongs; green slightly saturated/slushy chunks rather than nearly snow.",
+    "personality": "Same actual chair and torn sachet, closer sachet; chair remains large scenic furniture.",
+    "world": "Dedicated portrait contains whole serve, but retained timber reflection/dense condensation remain. No claiming all reflection unrealistic; dense ornamental-looking surface is concern.",
+    "issues": [
+      "479px glass, physical601px high with swizzle",
+      "Recognition645px of1084 not tested moving-phone cover/name",
+      "Old upper cord line retained and low front arc interrupted",
+      "Paper contact/gap uncertain",
+      "Strong amber reflections and dense ice/frost texture"
+    ]
+  }
+}

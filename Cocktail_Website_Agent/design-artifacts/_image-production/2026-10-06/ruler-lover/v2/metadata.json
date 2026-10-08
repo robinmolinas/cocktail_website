@@ -1,0 +1,355 @@
+{
+  "pairing": "ruler-lover",
+  "pour": "Up Close",
+  "status": "needs-recomposition",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "8702edd245556439e429a3fa1517ac5f1379cf57e77a7465cd727cb7b8bab989",
+  "review": {
+    "recipe": "Chilled small stemmed Manhattan, reddish-amber nearly clear faint fruit haze, dropped lemon strip; no serving ice/pulp/foam. Appearance can suggest bowl speckle; pale-yellow upper peel has amber-orange lower optical cast.",
+    "personality": "Remembering returning people motivates inferred kept correspondence and snapshot, not explicit source objects or historical claims. Model made envelope instead of folded letter. V2 reverse is physically present but insufficiently distinctive to confidently recognise snapshot; honest recognition null.",
+    "world": "Historic timber reading room; quiet dark left but warm glossy wood, oversized lamp and fine speckle persist. V2 fireplace flame contradicts source ban.",
+    "issues": [
+      "Glass359px and full physical group656px miss compact moving-phone target.",
+      "Second trace photograph reverse has no convincing identifying image; recognition region is null/held, not invented from anonymous scalloped edge.",
+      "Edit introduced fireplace flame; dossier explicitly excludes flame and scene now has competing warm sources.",
+      "Low-satin intent not achieved: warm broad glossy table highlights and fine bowl speckle remain.",
+      "Lemon upper edge pale yellow but lower strip appears amber-orange through drink; garnish-colour watch.",
+      "Full702px proposed portrait retains physical objects, glass and tag but is NOT moving-phone or browser PASS."
+    ]
+  },
+  "measurements": {
+    "pairing": "ruler-lover",
+    "pour": "Up Close",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/ruler-lover/v2/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-e2d6-7243-8118-d7a02367fd9b/exec-8f3fa715-a9a6-43bd-ba3c-386ee954436d.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "sourceSha256": "8702edd245556439e429a3fa1517ac5f1379cf57e77a7465cd727cb7b8bab989",
+    "specSha256": "773f6ac218274be51adcb82d3e9a10a7304fee047034f65270d414816151f436",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      780,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1347,
+      "cy": 600,
+      "w": 188,
+      "angle": 3.5
+    },
+    "glass": {
+      "x": 1097,
+      "y": 391
+    },
+    "bounds": {
+      "glass": {
+        "x0": 984,
+        "y0": 313,
+        "x1": 1210,
+        "y1": 672
+      },
+      "paper": {
+        "x0": 1214,
+        "y0": 548,
+        "x1": 1461,
+        "y1": 652
+      }
+    },
+    "personalityBounds": {
+      "keptLetterEnvelope": {
+        "x0": 857,
+        "y0": 519,
+        "x1": 1155,
+        "y1": 628
+      },
+      "savedPhotographPhysical": {
+        "x0": 805,
+        "y0": 572,
+        "x1": 1110,
+        "y1": 645
+      }
+    },
+    "recognitionRegions": {
+      "keptLetterEnvelope": {
+        "x0": 857,
+        "y0": 519,
+        "x1": 1155,
+        "y1": 628
+      },
+      "savedPhotograph": null
+    },
+    "review": {
+      "recipe": "Chilled small stemmed Manhattan, reddish-amber nearly clear faint fruit haze, dropped lemon strip; no serving ice/pulp/foam. Appearance can suggest bowl speckle; pale-yellow upper peel has amber-orange lower optical cast.",
+      "personality": "Remembering returning people motivates inferred kept correspondence and snapshot, not explicit source objects or historical claims. Model made envelope instead of folded letter. V2 reverse is physically present but insufficiently distinctive to confidently recognise snapshot; honest recognition null.",
+      "world": "Historic timber reading room; quiet dark left but warm glossy wood, oversized lamp and fine speckle persist. V2 fireplace flame contradicts source ban.",
+      "issues": [
+        "Glass359px and full physical group656px miss compact moving-phone target.",
+        "Second trace photograph reverse has no convincing identifying image; recognition region is null/held, not invented from anonymous scalloped edge.",
+        "Edit introduced fireplace flame; dossier explicitly excludes flame and scene now has competing warm sources.",
+        "Low-satin intent not achieved: warm broad glossy table highlights and fine bowl speckle remain.",
+        "Lemon upper edge pale yellow but lower strip appears amber-orange through drink; garnish-colour watch.",
+        "Full702px proposed portrait retains physical objects, glass and tag but is NOT moving-phone or browser PASS."
+      ]
+    },
+    "status": "measured-master-candidate; held; not-accepted; browser-deferred",
+    "sourceRefresh": {
+      "previousSourceSha256": "fe5194fb05d02ad4bf9e556a73a6cdd96227ba291200b8a710244fc4fa03911b",
+      "reason": "Reviewed current full dossier diff against exact generation source; tagline/closing-line editorial changes only; recipe/spec and image brief unchanged.",
+      "changedLines": [
+        "- - **tagline:** You know exactly what your attention does. And you mean all of it.",
+        "+ - **tagline:** People remember how you made them feel because you remember who they are.",
+        "- - **tagline:** You know exactly what your attention does. And you mean all of it.",
+        "+ - **tagline:** People remember how you made them feel because you remember who they are."
+      ]
+    }
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1546.7942583732058,
+        "cy": 689.3617021276596,
+        "w": 215.88516746411483,
+        "angle": 3.5018570705277607
+      },
+      "glass": {
+        "x": 1259.712918660287,
+        "y": 449.2340425531915
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 723.6923076923077,
+        "cy": 765.9574468085107,
+        "w": 239.95441595441596,
+        "angle": 3.5006632403196383
+      },
+      "glass": {
+        "x": 404.6039886039886,
+        "y": 499.1489361702128
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/ruler-lover/portrait.jpg",
+    "wide": "/personas/ruler-lover/wide.jpg",
+    "wideTag": {
+      "cx": 0.805622009569378,
+      "cy": 0.6382978723404256,
+      "w": 0.11244019138755981,
+      "angle": 3.5018570705277607
+    },
+    "wideGlass": {
+      "x": 0.6561004784688995,
+      "y": 0.41595744680851066
+    },
+    "tag": {
+      "cx": 0.8076923076923077,
+      "cy": 0.6382978723404256,
+      "w": 0.2678062678062678,
+      "angle": 3.5006632403196383
+    },
+    "glass": {
+      "x": 0.4515669515669516,
+      "y": 0.41595744680851066
+    }
+  },
+  "hashes": {
+    "master": "516fa94cdc13351a942640feb7c2006baf79e71081304ef675d0df7690df00d1",
+    "wide": "661bd791960d7584cfad0754b966249e80cbff342a0a839fab1f9bb15a68d05c",
+    "portrait": "ba69812e8a8137414970d83226276f4583db192d2825ce3c5264e016b454aa82"
+  },
+  "geometryScope": "Calculated cover positions mirror current TheReading.tsx. Not a browser/name-font test.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1129.9521531100477,
+          "y0": 359.6170212765958,
+          "x1": 1389.4736842105265,
+          "y1": 772.0851063829788
+        },
+        "paper": {
+          "x0": 1394.066985645933,
+          "y0": 629.6170212765957,
+          "x1": 1677.7033492822966,
+          "y1": 749.1063829787234
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 861.6267942583731,
+          "y0": 299.6808510638298,
+          "x1": 1077.8947368421052,
+          "y1": 643.404255319149
+        },
+        "paper": {
+          "x0": 1081.7224880382776,
+          "y0": 524.6808510638298,
+          "x1": 1318.0861244019138,
+          "y1": 624.2553191489362
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1205.2822966507176,
+          "y0": 330.23148936170213,
+          "x1": 1482.1052631578948,
+          "y1": 770.1974468085107
+        },
+        "paper": {
+          "x0": 1487.0047846889952,
+          "y0": 618.2314893617021,
+          "x1": 1789.5502392344497,
+          "y1": 745.6868085106383
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 2024.4976076555022,
+          "y0": 416.61382978723407,
+          "x1": 2489.4736842105262,
+          "y1": 1155.6191489361702
+        },
+        "paper": {
+          "x0": 2497.7033492822966,
+          "y0": 900.363829787234,
+          "x1": 3005.8851674641146,
+          "y1": 1114.4489361702126
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.8992365355593956,
+        "y": 0.41595744680851066
+      },
+      "bounds": {
+        "glass": {
+          "x0": -32.85345792972464,
+          "y0": 281.0340425531915,
+          "x1": 170.0271498575498,
+          "y1": 603.3702127659575
+        },
+        "paper": {
+          "x0": 173.61795707502367,
+          "y0": 492.03404255319145,
+          "x1": 395.3503027540361,
+          "y1": 585.4127659574468
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.899487979528096,
+        "y": 0.41595744680851066
+      },
+      "bounds": {
+        "glass": {
+          "x0": -36.942444064577415,
+          "y0": 310.336170212766,
+          "x1": 187.09159202279196,
+          "y1": 666.2808510638297
+        },
+        "paper": {
+          "x0": 191.0567962013295,
+          "y0": 543.3361702127659,
+          "x1": 435.9081542260209,
+          "y1": 646.4510638297871
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": false,
+      "objectPosition": {
+        "x": 0.8435486432207746,
+        "y": 0.41595744680851066
+      },
+      "bounds": {
+        "glass": {
+          "x0": 35.42563494776826,
+          "y0": 189.13191489361702,
+          "x1": 171.96139943019938,
+          "y1": 406.05957446808515
+        },
+        "paper": {
+          "x0": 174.3779616334283,
+          "y0": 331.131914893617,
+          "x1": 323.600677682811,
+          "y1": 393.97446808510637
+        }
+      }
+    }
+  ]
+}

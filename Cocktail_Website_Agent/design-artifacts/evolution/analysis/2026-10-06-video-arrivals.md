@@ -1,3 +1,5 @@
+> **Dated analysis — reviewed 8 October 2026.** Preserve the measurements/proposals at their recorded date. H4 v4 and H5 world are built, Playfair is retained and icons are built. Open follow-ups are reconciled in the current evolution brief; earlier questions are not renewed approval requests. Current direction: [experience specification](../../2026-07-08-experience-master-spec.md).
+
 # Video arrivals: why the holds feel abrupt (2026-10-06)
 
 Analysis only. Nothing under `dionysus-experience/src` or `public/` was touched. Candidates are in `design-artifacts/evolution/prototypes/video-arrivals/`.

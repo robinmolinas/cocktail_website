@@ -1,0 +1,663 @@
+{
+  "pairing": "explorer-creator",
+  "pour": "For Good",
+  "status": "private-review-export; all-acceptance-gates-pending",
+  "generatedWith": "built-in image_gen",
+  "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+  "review": {
+    "recipe": "One smooth opaque off-white frozen goblet portion, no separate cubes/garnish/salt. Surface slightly mounded and dense condensation remain.",
+    "personality": "Whole ordinary box and full caliper retained inside frame. Hinge fitted but modest prior repair not clearly distinguishable; source-inferred fixing belongings.",
+    "world": "Pulled-back room now more spacious. Directional walnut with warm practical reflection, still prominent uniformwetgrain/shine watch.",
+    "issues": [
+      "Glass401px/42.6%height still above30–35% target, but reduced from646px.",
+      "Whole caliper unclipped; lateral697pxgroup still not narrow-phone.",
+      "Repair-specificity/name/material/physics/browser remain pending."
+    ]
+  },
+  "measurements": {
+    "pairing": "explorer-creator",
+    "pour": "For Good",
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v4/master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-80c3c452-9cf2-4d4e-9928-de3618f7cf34.png",
+    "masterDimensions": {
+      "width": 1672,
+      "height": 941
+    },
+    "masterSha256": "064c40b8e688e269632c9b7e214e81a562b1f1dbf7be8fc52aacccc6a5c2fccd",
+    "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+    "specSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+    "roomSha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8",
+    "unchangedCompanion": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v3/portrait-master.png",
+    "wideCrop": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "portraitCrop": [
+      880,
+      0,
+      702,
+      940
+    ],
+    "tag": {
+      "cx": 1070,
+      "cy": 657,
+      "w": 87,
+      "angle": 67
+    },
+    "glass": {
+      "x": 1001,
+      "y": 509
+    },
+    "bounds": {
+      "glass": {
+        "x0": 887,
+        "y0": 309,
+        "x1": 1117,
+        "y1": 710
+      },
+      "paper": {
+        "x0": 1019,
+        "y0": 601,
+        "x1": 1115,
+        "y1": 708
+      },
+      "box": {
+        "x0": 1056,
+        "y0": 501,
+        "x1": 1485,
+        "y1": 666
+      },
+      "caliper": {
+        "x0": 1117,
+        "y0": 423,
+        "x1": 1584,
+        "y1": 544
+      },
+      "frozenServe": {
+        "x0": 895,
+        "y0": 338,
+        "x1": 1109,
+        "y1": 543
+      }
+    },
+    "physicalGarnishBounds": null,
+    "recognitionRegions": {
+      "box": {
+        "x0": 1057,
+        "y0": 506,
+        "x1": 1485,
+        "y1": 665
+      },
+      "caliper": {
+        "x0": 1117,
+        "y0": 423,
+        "x1": 1584,
+        "y1": 544
+      }
+    },
+    "hiddenExtents": {
+      "boxBehindGlass": null
+    },
+    "allSupportingObjectUnion": {
+      "x0": 887,
+      "y0": 309,
+      "x1": 1584,
+      "y1": 710
+    },
+    "tagPhysics": {
+      "mechanism": "Low narrow stem-loop, front arc visible, rear hidden by stem.",
+      "knot": "Tiny join at stemright; exact loaded construction not proven.",
+      "tetherAndHole": "Short continuous diagonal/down tether enters visible punched hole.",
+      "gravity": "Paper points down-right; lower edge honestly contacts timber.",
+      "separation": "Outboard paper distinct from stem with gap; bottom adjacent foot.",
+      "uncertainties": [
+        "Rear load/friction unresolved.",
+        "Stem reflection and small knot limit mechanical reading."
+      ],
+      "status": "held, no physics PASS"
+    },
+    "review": {
+      "recipe": "One smooth opaque off-white frozen goblet portion, no separate cubes/garnish/salt. Surface slightly mounded and dense condensation remain.",
+      "personality": "Whole ordinary box and full caliper retained inside frame. Hinge fitted but modest prior repair not clearly distinguishable; source-inferred fixing belongings.",
+      "world": "Pulled-back room now more spacious. Directional walnut with warm practical reflection, still prominent uniformwetgrain/shine watch.",
+      "issues": [
+        "Glass401px/42.6%height still above30–35% target, but reduced from646px.",
+        "Whole caliper unclipped; lateral697pxgroup still not narrow-phone.",
+        "Repair-specificity/name/material/physics/browser remain pending."
+      ]
+    },
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v4/measurements.json",
+      "originalMeasurementSha256": "6841d2f71587ec2dac1280cc22e9c3f6f91af98a1ba59d0dc937ae2c728cacc1",
+      "previousSourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    },
+    "portraitMeasurementFile": "portrait-measurements.json"
+  },
+  "exportPixels": {
+    "wide": {
+      "tag": {
+        "cx": 1228.7081339712918,
+        "cy": 754.8510638297872,
+        "w": 99.90430622009569,
+        "angle": 67.01095653364663
+      },
+      "glass": {
+        "x": 1149.4736842105265,
+        "y": 584.8085106382979
+      }
+    },
+    "portrait": {
+      "tag": {
+        "cx": 528.0294659300184,
+        "cy": 790.6077348066298,
+        "w": 98.1804788213628,
+        "angle": 66.09468967381609
+      },
+      "glass": {
+        "x": 452.12523020257834,
+        "y": 616.5745856353591
+      }
+    }
+  },
+  "runtimeCandidate": {
+    "src": "/personas/explorer-creator/portrait.jpg",
+    "wide": "/personas/explorer-creator/wide.jpg",
+    "wideTag": {
+      "cx": 0.6399521531100478,
+      "cy": 0.698936170212766,
+      "w": 0.05203349282296651,
+      "angle": 67.01095653364663
+    },
+    "wideGlass": {
+      "x": 0.5986842105263158,
+      "y": 0.5414893617021277
+    },
+    "tag": {
+      "cx": 0.5893186003683242,
+      "cy": 0.6588397790055248,
+      "w": 0.10957642725598526,
+      "angle": 66.09468967381609
+    },
+    "glass": {
+      "x": 0.5046040515653776,
+      "y": 0.5138121546961326
+    }
+  },
+  "hashes": {
+    "master": "064c40b8e688e269632c9b7e214e81a562b1f1dbf7be8fc52aacccc6a5c2fccd",
+    "wide": "904c01ab53150ccbe6de3818c7f2df18d7fa12cbfc774de5a604429631fa5bc0",
+    "portrait": "85d5c8f5daf5c4d0be792cb918680d153bed0714da07d5687ba87f1160875cb7",
+    "portraitMaster": "f0778f3fe87f2e472075aa6c418d35f8bca9d32159ceccb01f2f967c807c4fdb"
+  },
+  "geometryScope": "Static calculated cover bounds only; excludes breathing/translation, full trace recognition, loaded names and browser acceptance.",
+  "geometry": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1018.5645933014354,
+          "y0": 355.02127659574467,
+          "x1": 1282.6794258373207,
+          "y1": 815.7446808510639
+        },
+        "paper": {
+          "x0": 1170.1435406698565,
+          "y0": 690.5106382978723,
+          "x1": 1280.3827751196172,
+          "y1": 813.4468085106382
+        },
+        "box": {
+          "x0": 1212.6315789473683,
+          "y0": 575.6170212765958,
+          "x1": 1705.2631578947369,
+          "y1": 765.1914893617021
+        },
+        "caliper": {
+          "x0": 1282.6794258373207,
+          "y0": 486,
+          "x1": 1818.9473684210525,
+          "y1": 625.0212765957447
+        },
+        "frozenServe": {
+          "x0": 1027.751196172249,
+          "y0": 388.3404255319149,
+          "x1": 1273.4928229665072,
+          "y1": 623.872340425532
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 768.8038277511962,
+          "y0": 295.8510638297872,
+          "x1": 988.8995215311004,
+          "y1": 679.7872340425532
+        },
+        "paper": {
+          "x0": 895.1196172248804,
+          "y0": 575.4255319148936,
+          "x1": 986.9856459330142,
+          "y1": 677.8723404255319
+        },
+        "box": {
+          "x0": 930.5263157894736,
+          "y0": 479.6808510638298,
+          "x1": 1341.0526315789475,
+          "y1": 637.6595744680851
+        },
+        "caliper": {
+          "x0": 988.8995215311004,
+          "y0": 405,
+          "x1": 1435.7894736842104,
+          "y1": 520.8510638297872
+        },
+        "frozenServe": {
+          "x0": 776.4593301435407,
+          "y0": 323.6170212765958,
+          "x1": 981.2440191387559,
+          "y1": 519.8936170212767
+        }
+      }
+    },
+    {
+      "viewport": [
+        2048,
+        1036
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1086.468899521531,
+          "y0": 325.32936170212764,
+          "x1": 1368.1913875598086,
+          "y1": 816.7676595744681
+        },
+        "paper": {
+          "x0": 1248.153110047847,
+          "y0": 683.1846808510637,
+          "x1": 1365.7416267942583,
+          "y1": 814.3165957446809
+        },
+        "box": {
+          "x0": 1293.4736842105262,
+          "y0": 560.6314893617022,
+          "x1": 1818.9473684210527,
+          "y1": 762.8442553191488
+        },
+        "caliper": {
+          "x0": 1368.1913875598086,
+          "y0": 465.03999999999996,
+          "x1": 1940.2105263157894,
+          "y1": 613.3293617021276
+        },
+        "frozenServe": {
+          "x0": 1096.267942583732,
+          "y0": 360.8697872340426,
+          "x1": 1358.3923444976076,
+          "y1": 612.1038297872341
+        }
+      }
+    },
+    {
+      "viewport": [
+        3440,
+        1440
+      ],
+      "kind": "wide",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.46
+      },
+      "bounds": {
+        "glass": {
+          "x0": 1824.9282296650717,
+          "y0": 408.3797872340425,
+          "x1": 2298.133971291866,
+          "y1": 1233.8425531914893
+        },
+        "paper": {
+          "x0": 2096.507177033493,
+          "y0": 1009.4648936170211,
+          "x1": 2294.0191387559807,
+          "y1": 1229.7255319148935
+        },
+        "box": {
+          "x0": 2172.6315789473683,
+          "y0": 803.613829787234,
+          "x1": 3055.263157894737,
+          "y1": 1143.2680851063828
+        },
+        "caliper": {
+          "x0": 2298.133971291866,
+          "y0": 643.05,
+          "x1": 3258.9473684210525,
+          "y1": 892.1297872340424
+        },
+        "frozenServe": {
+          "x0": 1841.3875598086124,
+          "y0": 468.07659574468084,
+          "x1": 2281.6746411483255,
+          "y1": 890.0712765957446
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5046040515653776,
+        "y": 0.5138121546961326
+      },
+      "bounds": {
+        "glass": {
+          "x0": 110.33350521792508,
+          "y0": 280.3618784530387,
+          "x1": 284.9985021485574,
+          "y1": 595.1132596685082
+        },
+        "paper": {
+          "x0": 209.56179251074275,
+          "y0": 508.8480662983425,
+          "x1": 280.35624309392267,
+          "y1": 591.6160220994475
+        },
+        "box": {
+          "x0": 41.86018416206258,
+          "y0": 431.3259668508287,
+          "x1": 352.3112584407612,
+          "y1": 551.9806629834254
+        },
+        "caliper": {
+          "x0": 45.341878453038646,
+          "y0": 399.8508287292818,
+          "x1": 376.1028360957643,
+          "y1": 470.378453038674
+        },
+        "frozenServe": {
+          "x0": 118.45745856353588,
+          "y0": 302.5110497237569,
+          "x1": 279.7759607120933,
+          "y1": 463.3839779005525
+        }
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5046040515653776,
+        "y": 0.5138121546961326
+      },
+      "bounds": {
+        "glass": {
+          "x0": 121.50266421117249,
+          "y0": 309.5939226519337,
+          "x1": 314.37917740945363,
+          "y1": 657.1629834254144
+        },
+        "paper": {
+          "x0": 231.07702885205643,
+          "y0": 561.9033149171271,
+          "x1": 309.2528913443831,
+          "y1": 653.3011049723757
+        },
+        "box": {
+          "x0": 45.88994475138122,
+          "y0": 476.29834254143645,
+          "x1": 388.7103253529773,
+          "y1": 609.5331491712708
+        },
+        "caliper": {
+          "x0": 49.73465930018415,
+          "y0": 441.5414364640884,
+          "x1": 414.9825414364641,
+          "y1": 519.4226519337017
+        },
+        "frozenServe": {
+          "x0": 130.47366482504603,
+          "y0": 334.0524861878453,
+          "x1": 308.6121055862492,
+          "y1": 511.69889502762436
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "kind": "portrait",
+      "intact": true,
+      "objectPosition": {
+        "x": 0.5046040515653776,
+        "y": 0.5138121546961326
+      },
+      "bounds": {
+        "glass": {
+          "x0": 103.28554941682015,
+          "y0": 188.67955801104975,
+          "x1": 220.8326089625537,
+          "y1": 400.5027624309392
+        },
+        "paper": {
+          "x0": 170.06477593615716,
+          "y0": 342.4475138121547,
+          "x1": 217.7084346224678,
+          "y1": 398.1491712707182
+        },
+        "box": {
+          "x0": 57.20397790055248,
+          "y0": 290.27624309392263,
+          "x1": 266.1331368937999,
+          "y1": 371.475138121547
+        },
+        "caliper": {
+          "x0": 59.54710865561693,
+          "y0": 269.09392265193367,
+          "x1": 282.14453038674037,
+          "y1": 316.55801104972375
+        },
+        "frozenServe": {
+          "x0": 108.75285451197053,
+          "y0": 203.58563535911603,
+          "x1": 217.31791282995704,
+          "y1": 311.8508287292818
+        }
+      }
+    }
+  ],
+  "portraitMeasurements": {
+    "pairing": "explorer-creator",
+    "pour": "For Good",
+    "sourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+    "specSha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195",
+    "roomSha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8",
+    "houseRuleSha256": "d5fa30eaa42b7c3c0d32fb4387b07e9e268e70a5d4b2c17f1e5ad06394802347",
+    "physicalGarnishBounds": null,
+    "hiddenExtents": {
+      "box": null,
+      "caliper": null
+    },
+    "tagPhysics": {
+      "mechanism": "Single narrow taupe-looking stem wrap below bowl, stem partially occludes rear turn.",
+      "knot": "Small loaded join visible at right stem; exact knot construction unresolved.",
+      "tetherAndHole": "Continuous-looking short down-right tether enters visible punched hole.",
+      "gravity": "Paper hangs diagonally down beside stem; lower edge contacts tabletop.",
+      "separation": "Most face outboard with visible separation from stem. Paper edge meets glass-foot silhouette.",
+      "uncertainties": [
+        "Rear loop/friction not provable from one view.",
+        "Apparent extra doubled cord short section near knot; quietness not an unconditional pass."
+      ],
+      "status": "held for original root review; no physics PASS"
+    },
+    "review": {
+      "recipe": "One opaque off-white frozen portion in goblet, no added cube/salt/garnish. Surface slightly mounded/slushy; exact volume/count not visible.",
+      "personality": "Box and caliper recognizable ordinary fixing-habit inferences, not historical objects; screwed hinge looks ordinary fitted hardware, prior repair history not convincingly evident.",
+      "world": "Private historic timber room preserved. Excess warm sheen, dense droplets and prominent grain remain held.",
+      "issues": [
+        "Requested pulled-back wide scale missed.",
+        "Repaired-state specificity not verified.",
+        "Dense uniform wet detail and golden wood sheen remain.",
+        "Name fitting/browser/motion/physical support unapproved."
+      ]
+    },
+    "master": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v3/portrait-master.png",
+    "generatedSource": "/Users/robin.molinas/.codex/generated_images/01a11201-4165-7ea1-8601-6d2b023b1c52/exec-d1177f08-27b3-48cc-828d-118704ecc35d.png",
+    "masterDimensions": {
+      "width": 1086,
+      "height": 1448
+    },
+    "masterSha256": "f0778f3fe87f2e472075aa6c418d35f8bca9d32159ceccb01f2f967c807c4fdb",
+    "portraitCrop": [
+      0,
+      0,
+      1086,
+      1448
+    ],
+    "wideCrop": [
+      0,
+      418,
+      1086,
+      610
+    ],
+    "tag": {
+      "cx": 640,
+      "cy": 954,
+      "w": 119,
+      "angle": 66
+    },
+    "glass": {
+      "x": 548,
+      "y": 744
+    },
+    "bounds": {
+      "glass": {
+        "x0": 399,
+        "y0": 481,
+        "x1": 700,
+        "y1": 1021
+      },
+      "paper": {
+        "x0": 570,
+        "y0": 873,
+        "x1": 692,
+        "y1": 1015
+      },
+      "box": {
+        "x0": 281,
+        "y0": 740,
+        "x1": 816,
+        "y1": 947
+      },
+      "caliper": {
+        "x0": 287,
+        "y0": 686,
+        "x1": 857,
+        "y1": 807
+      },
+      "frozenServe": {
+        "x0": 413,
+        "y0": 519,
+        "x1": 691,
+        "y1": 795
+      }
+    },
+    "recognitionRegions": {
+      "box": {
+        "x0": 282,
+        "y0": 782,
+        "x1": 815,
+        "y1": 947
+      },
+      "caliper": {
+        "x0": 287,
+        "y0": 686,
+        "x1": 441,
+        "y1": 802
+      }
+    },
+    "allSupportingObjectUnion": {
+      "x0": 281,
+      "y0": 481,
+      "x1": 857,
+      "y1": 1021
+    },
+    "phoneAssessment": "576px full supporting union in1086px portrait; pulled-back vessel540px. No clipped objects, but front-to-back caliper request missed (still transverse). Dedicated tall-phone cover not mechanically/browser tested. No PASS.",
+    "exportProvenance": {
+      "batch": 14,
+      "originalMeasurement": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/_image-production/2026-10-06/explorer-creator/v3/measurements-portrait.json",
+      "originalMeasurementSha256": "ad7cad4d42bcd701332c12320dad5b830db86a070f28e1cf6b3397a4422ec772",
+      "previousSourceSha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14",
+      "sourceNote": "Current dossier/spec fingerprints recorded; unchanged current recipe spec checked against the live selected generation. Original source/geometry and all photographic holds are preserved.",
+      "manualTolerance": "Retains original manually estimated geometry; actual name and phone checks belong to Claude."
+    },
+    "unknownBounds": {},
+    "acceptance": {
+      "material": false,
+      "personality": false,
+      "physics": false,
+      "name": false,
+      "browser": false,
+      "user": false,
+      "integrated": false
+    }
+  },
+  "acceptance": {
+    "material": false,
+    "personality": false,
+    "physics": false,
+    "name": false,
+    "browser": false,
+    "user": false,
+    "integrated": false
+  }
+}

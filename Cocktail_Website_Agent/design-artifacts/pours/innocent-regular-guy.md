@@ -12,7 +12,7 @@ authored_in: party-mode session with Robin (Historian · Mixologist · Psycholog
 ## Cocktail
 
 - **name:** Four Shares
-- **tagline:** The world is kinder with you in it.
+- **tagline:** You make belonging feel as simple as pulling up another chair.
 - **glassware:** a punch bowl with one big block of ice, ladled into small cups
 - **contains:** `[]`
 - **serves:** 14 (small cups, ladled)

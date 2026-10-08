@@ -1,0 +1,5 @@
+# With the Bite In — root original inspection
+
+Actual selectedoriginal1672×941 root-inspected. Darkcola lowerbody/amber-litupperhalf, ordinaryice/limehalfinside visiblysqueezedlooking/thin fizzycollar/redbittersdrops. Noaddedfoamhead/garnish/shadowgrin. Source-explicitrecord anddraft have blankfaces, pencilordinary, recognisable fullformats but huge rightbreadth/native sleeveclippedunseenextentunknown. Glass489px/full797px/recogn755px;702portrait losesdraft/rightpencil, notphonePASS. Small89pxpaper<228body supportedexteriorlowerloop→rightknot→shortcord→hole, hangsdownrightand bottomtipcontactswood. Rearloop/upperprojectiongap/tinyknot/contactload uncertain notphysicsPASS. Timber flatter thaninitial but amber gloss/densegrain persists, glass/iceornamentaltexture watched. Liquidcolourappearance needslaterreview. Props expresssongwriter/truth-throughhumour sourceinference, not literalhistoricrecord/independentpersonality approval. NoJPEG/browser/finalacceptance, initial+soleedit preserved/sourceunchanged.
+
+Disposition: HOLD-material/appearance/phone/portrait; tag-contact/record-scale/trace-specificity-watch; name-unverified.
