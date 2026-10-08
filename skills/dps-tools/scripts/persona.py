@@ -7,7 +7,7 @@ Usage:
   persona.py --list [--primary Sage] [--status]   all 132 pairings (with pour status)
 
 Sources (read-only):
-  - dionysus-experience/src/data/archetypes.ts           name, essence, story, goal, fear
+  - dionysus-experience/shared/data/archetypes.ts        name, essence, story, goal, fear
   - agent/data/Brand Personality + Roulette.xlsx          PERSONALITY row (brands, example, colour, imagery,
                                                           drivers) + BRANDING rows for BOTH archetypes
                                                           (drivers, goals, fears, personality, audience, tone)
@@ -18,7 +18,7 @@ Pairing keys follow spine AD-11: lowercase "primary-secondary", spaces -> dashes
 import html, json, os, re, sys, zipfile
 from _common import APP, POURS
 
-ARCH_TS = os.path.join(APP, "dionysus-experience", "src", "data", "archetypes.ts")
+ARCH_TS = os.path.join(APP, "dionysus-experience", "shared", "data", "archetypes.ts")
 XLSX = os.path.join(APP, "agent", "data", "Brand Personality + Roulette.xlsx")
 IMAGES = os.path.join(APP, "dionysus-experience", "public", "personas")
 

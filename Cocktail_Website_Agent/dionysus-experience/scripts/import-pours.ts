@@ -20,7 +20,7 @@ import process from 'node:process';
 import { fileURLToPath } from 'node:url';
 import { buildStore } from '../shared/import/build.ts';
 import { classifyDrift } from '../shared/import/drift.ts';
-import { loadersModule, renderReport, stableJson } from '../shared/import/emit.ts';
+import { loadersModule, renderReport, stableJson, staticModule } from '../shared/import/emit.ts';
 
 const APP = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -113,6 +113,7 @@ function main(): number {
   outputs.set(OUT.catalogue, stableJson(store.catalogue));
   for (const pour of store.pours) outputs.set(`${OUT.pours}/${pour.pairing}.json`, stableJson(pour));
   outputs.set(`${OUT.pours}/index.ts`, loadersModule(pairings));
+  outputs.set(`${OUT.pours}/static.ts`, staticModule(pairings));
   outputs.set(
     OUT.manifest,
     stableJson({

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { buildStore, type StoreSources } from './build';
-import { loadersModule, renderReport, stableJson } from './emit';
+import { loadersModule, renderReport, stableJson, staticModule } from './emit';
 import { FIXTURE_RULES, FIXTURE_SPEC, FIXTURE_TABLE, fixtureDossier } from './fixtures';
 
 const sources = (overrides: Partial<StoreSources> = {}): StoreSources => ({
@@ -142,10 +142,32 @@ describe('buildStore', () => {
         stableJson(store.catalogue),
         ...store.pours.map(stableJson),
         loadersModule(store.pours.map((p) => p.pairing)),
+        staticModule(store.pours.map((p) => p.pairing)),
         renderReport({ pairings: store.pours.map((p) => p.pairing), statuses: new Map(store.pours.map((p) => [p.pairing, p.status])), warnings: store.warnings, vetoFree: 0 }),
       ].join('\u0000');
     };
     expect(render()).toBe(render());
+  });
+});
+
+describe('staticModule', () => {
+  it('has only imported keys, in deterministic order, with no invented sparse entries', () => {
+    const rendered = staticModule(['hero-creator', 'creator-hero']);
+    expect(rendered).toBe(staticModule(['creator-hero', 'hero-creator']));
+    expect(rendered).toContain("import pour0 from './creator-hero.json';");
+    expect(rendered).toContain("import pour1 from './hero-creator.json';");
+    expect(rendered).toContain("  'creator-hero': pour0 as AuthoredPour,");
+    expect(rendered).toContain("  'hero-creator': pour1 as AuthoredPour,");
+    expect(rendered).not.toContain('hero-hero');
+    expect(rendered).not.toContain('caregiver-creator');
+    expect(rendered).toMatch(/Partial<Record<PairingKey, AuthoredPour>>/);
+    expect(rendered).toMatch(/\n$/);
+  });
+
+  it('renders an empty development store without importing pours', () => {
+    const rendered = staticModule([]);
+    expect(rendered).not.toContain('import pour');
+    expect(rendered).toContain('AUTHORED_POURS: Partial<Record<PairingKey, AuthoredPour>> = {\n};');
   });
 });
 
