@@ -11,13 +11,13 @@ These figures describe the **model under stated answer assumptions, not the real
 | --- | --- | --- | --- |
 | distinct top-1 outcomes (of 132) | 127 | 123 | 126 |
 | largest single-outcome share (uniform = 0.0076) | 0.0255 | 0.0248 | 0.0393 |
-| share of the 10 most common outcomes | 0.194 | 0.214 | 0.272 |
+| share of the 10 most common outcomes | 0.193 | 0.214 | 0.272 |
 | exact top-1/top-2 ties | 0.0 | 0.0 | 0.0 |
-| near ties (margin < 0.05) | 0.085 | 0.069 | 0.07 |
-| median top-1 margin | 0.3783 | 0.4578 | 0.4715 |
+| near ties (margin < 0.05) | 0.085 | 0.07 | 0.071 |
+| median top-1 margin | 0.3775 | 0.4578 | 0.4714 |
 | one changed answer changes the top-1 | 0.519 | 0.529 | 0.452 |
-| one changed answer changes the primary | 0.309 | 0.288 | 0.304 |
-| after one change, new top-1 was in the old shortlist | 0.664 | 0.613 | 0.738 |
+| one changed answer changes the primary | 0.309 | 0.288 | 0.305 |
+| after one change, new top-1 was in the old shortlist | 0.664 | 0.613 | 0.737 |
 
 **Primary share by archetype** (expected if even: 0.083)
 
@@ -57,15 +57,15 @@ These figures describe the **model under stated answer assumptions, not the real
 
 | group | U uniform | H hesitant | C coherent (circular) |
 | --- | --- | --- | --- |
-| drawnToward | 0.84 | 0.876 | 0.674 |
-| soughtFor | 0.746 | 0.797 | 0.602 |
+| drawnToward | 0.839 | 0.876 | 0.675 |
+| soughtFor | 0.747 | 0.797 | 0.602 |
 | gravity | 0.408 | 0.22 | 0.399 |
-| texture | 0.429 | 0.293 | 0.374 |
-| flavors | 0.046 | 0.021 | 0.037 |
+| texture | 0.428 | 0.293 | 0.374 |
+| flavors | 0.047 | 0.021 | 0.037 |
 
-**Flavour weight φ** (current 0.15), under U: share of top-1 results that change against the current φ: {'0.0': 0.043, '0.3': 0.048, '0.6': 0.135}.
+**Flavour weight φ** (current 0.15), under U: share of top-1 results that change against the current φ: {'0.0': 0.043, '0.3': 0.05, '0.6': 0.135}.
 
-**Vetoes**, under U: share of top-1 results that change when the veto is set: {'egg-white': 0.04, 'dairy': 0.026, 'gluten': 0.025, 'nuts': 0.12, 'spice': 0.026, 'all': 0.203}. Current contains counts: {'egg-white': 5, 'dairy': 4, 'gluten': 4, 'nuts': 14, 'spice': 4}.
+**Vetoes**, under U: share of top-1 results that change when the veto is set: {'egg-white': 0.04, 'dairy': 0.026, 'gluten': 0.025, 'nuts': 0.12, 'spice': 0.026, 'all': 0.202}. Current contains counts: {'egg-white': 5, 'dairy': 4, 'gluten': 4, 'nuts': 14, 'spice': 4}.
 
 **Empty intake** (no answers at all): every score is 0, so the result is decided by the pairingKey tie-break: ['caregiver-creator', 'caregiver-explorer', 'caregiver-hero']. The journey cannot normally produce this, because H3 always commits a value.
 

@@ -3,7 +3,7 @@
   "provenance": {
     "shared/selection/model-v1.json": "920c1125b9e021032ea5710d5c14481b9bc7fec89ac8a24c4e763176e7c1da87",
     "shared/selection/model-v1.scales.json": "bbc1aad0ea6a245e3348ba19e13125a637baeb483274dc12095e9d4dd6adc069",
-    "shared/data/catalogue.json": "151bea621af29731f08611a669f9fc950394879731d3e79f16916421fc8f9bf5",
+    "shared/data/catalogue.json": "222338f80ee4246532b5cb664e34a1ec8d01093e031cbfe1574e36868d11301d",
     "../agent/matching/fixtures-v1.json": "f33a6e6a74ab380f66b3254b62ef5db89e0e571fef5b33fdf3bef856b0878452",
     "../agent/matching/matching.py": "eca26c09de95ed7a312f97f5d1a145af1ce2b61c4bc476a8ce2be3a9f5a246ac",
     "../agent/matching/export-fixtures.py": "579d14e87fcec1dd68427f5a2d16c0fed485443f21449dddbe214f12158d742d"
@@ -7036,7 +7036,7 @@
       "shortlist": [
         "explorer-regular-guy",
         "sage-ruler",
-        "caregiver-explorer"
+        "jester-hero"
       ]
     },
     {
@@ -8894,7 +8894,7 @@
         },
         "pairings": {
           "caregiver-creator": 0.9917116098920209,
-          "caregiver-explorer": 2.0963413371345028,
+          "caregiver-explorer": 2.051341337134503,
           "caregiver-hero": 0.5945715277018495,
           "caregiver-innocent": 1.7416697152715037,
           "caregiver-jester": 4.981962754468378,
@@ -8979,7 +8979,7 @@
           "magician-lover": -0.8439995034744974,
           "magician-outlaw": 1.9193114652282355,
           "magician-regular-guy": -0.3822896726574063,
-          "magician-ruler": -2.9418245540600227,
+          "magician-ruler": -2.9868245540600227,
           "magician-sage": -2.0279366828815126,
           "outlaw-caregiver": 0.06979110937565441,
           "outlaw-creator": -0.30402274422854986,
