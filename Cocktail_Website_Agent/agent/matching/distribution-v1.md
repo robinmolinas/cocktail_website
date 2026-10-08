@@ -4,8 +4,8 @@ These figures describe the **model under stated answer assumptions, not the real
 
 **Answer models** (seeded simulation, 6,000 samples each; 132 authored, 105 veto-free):
 - **U uniform:** every option is equally likely; 1–3 words per H5 round; each H4 pair is a, b or missed (45/45/10%); H3 uniform 0–100; 0–3 flavours.
-- **H hesitant:** H3 clusters near the middle (normal, mean 50, sd 18); 1–2 words per round; 30% of H4 pairs missed; 0–2 flavours.
-- **C coherent:** a hidden pairing answers in character, with options drawn in proportion to exp(2 × affinity to primary + 0.7 × affinity to secondary). This is **circular**: it uses the model's own affinities, so it measures whether a persona that answers as the weights assume comes back. It does not measure whether people really answer that way.
+- **H hesitant:** H3 clusters near the middle (normal, mean 50, sd 18); the uniform sample's H5 words are truncated to at most two and flavours to at most two; 37% of H4 pairs are missed in expectation (10% initially absent, then 30% of the remaining 90% removed).
+- **C coherent:** a hidden pairing answers in character, with word options drawn in proportion to exp(2 × (affinity to primary + 0.7 × affinity to secondary)). This is **circular**: it uses the model's own affinities, so it measures whether a persona that answers as the weights assume comes back. It does not measure whether people really answer that way.
 
 | metric | U uniform | H hesitant | C coherent (circular) |
 | --- | --- | --- | --- |

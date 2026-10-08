@@ -62,7 +62,8 @@ def sample_uniform(model, rng):
 
 
 def sample_hesitant(model, rng):
-    """H: midpoint-heavy sliders (N(50,18)), 1-2 words, 30% of H4 pairs missed, 0-2 flavours."""
+    """H: midpoint-heavy sliders (N(50,18)), at most 2 words/round and 2 flavours;
+    H4 misses 37% in expectation: 10% absent, then 30% of the remaining 90%."""
     a = sample_uniform(model, rng)
     a["drawnToward"] = a["drawnToward"][: int(rng.integers(1, 3))]
     a["soughtFor"] = a["soughtFor"][: int(rng.integers(1, 3))]

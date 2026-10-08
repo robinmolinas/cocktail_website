@@ -1,6 +1,6 @@
 # Intake contract: Answers v3 and browser-only diagnostics
 
-Status: **agreed 2026-10-06** between the matching owner and the experience design owner. It refreshes the AD-1 field list. Vocabularies are declared once in `shared/answers.ts`; `TheDepths` imports them. Labels are display copy and may change without a version bump. Ids are permanent.
+Status: **agreed 2026-10-06** between the matching owner and the experience design owner. It refreshes the AD-1 field list. Vocabularies are declared once in `shared/answers.ts`; `TheDepths` imports them. Labels are display copy and may change without a version bump. Ids are permanent. Robin approved Q12 labels Knowledge, Influence, Making and Caring on 2026-10-08, replacing Mischief in drawnToward (round 2). The twelve-word vocabulary below is implemented, with coverage refreshed (ticket 1.9).
 
 ## Wire: `Answers` → `RevealRequest`
 
@@ -37,9 +37,9 @@ These fields are never on the wire, never scored in v3, never logged server-side
 | --- | --- |
 | `h4Mode: 'timed' \| 'untimed'` | `untimed` = Still Water (reduced motion): no deadline, plus an explicit "let them cool". |
 | `texture[key].status` | One of `chosen`, `timedOut`, `skipped` (explicit let-them-cool), `notPresented`. |
-| `texture[key].ms` | For `chosen`: milliseconds from the **readable moment** to the catch. The readable moment is when both words are fully condensed (opacity reaches 1, ≈420 ms after the pair mounts), never while the instruction or the example glasses are showing. |
+| `texture[key].ms` | For `chosen`: milliseconds from the **readable moment** to the catch. The readable moment is when the pair becomes readable and catchable (the current UI catch threshold is 250 ms after the pair mounts), never while the instruction or the example glasses are showing. |
 | `texture[key].interrupted` | The tab was hidden during the window. The UI pauses the pair and re-presents the **same** pair on return, with no count-in. The final status comes from the re-presentation, so a hidden tab never yields `timedOut`. |
-| `example` | `'chosen' \| 'notTouched'`. The H4 example glasses ("Word 1" / "Word 2", no clock) are shown while the instruction is read. Touching one starts the game; otherwise it starts by itself after about 6.4 s. Never scored. This replaced the timed Tea/Coffee practice and the Ready/Set/Go (Robin, 2026-10-06). |
+| `example` | `'chosen' \| 'notTouched'`. The unscored H4 example is **1 / 2**, on the real pair clock after the centred instruction rises. A catch records chosen; letting it expire records notTouched. The nine personality pairs follow. It replaced Word 1/Word 2, Tea/Coffee and Ready/Set/Go (Robin, 2026-10-06). |
 | `gravityMoved[key]` | Whether the mote moved before commit. It separates an active midpoint from an untouched 50. |
 
 Timing becomes a scored input only after playtests compare models with and without it. That would require a new answer version with a coarse field on the wire, so both shells score the same thing (matching-model.md §Timing).
@@ -51,7 +51,7 @@ The design owner agreed these. Changing any of them needs matching sign-off and 
 - H3 stays a continuous 0–100 lean on every device. A tap-to-pole or stepped control would change the value distribution the scales were calibrated on.
 - H5 stays two distinct, reversible rounds of at most 3 words each:
   - round 1 = *what others come to you for* (`soughtFor`);
-  - round 2 = *what draws you* (`drawnToward`), where a word may also be carried into the circle, giving exactly the tap's answer.
+  - round 2 = *what draws you* (`drawnToward`), selected by tapping to ring a word. Carrying into the circle is a **round-1 soughtFor** alternative and gives exactly the tap's answer.
   - Order is Robin's 2026-10-06 decision. It is not an input, but it is a playtest variable, because the first round may prime the second.
 - Movement distance and tap order are decorative and never captured.
 - Desktop and mobile write identical `Answers` for identical choices. The parity test compares the two.

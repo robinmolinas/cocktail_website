@@ -162,7 +162,7 @@ Ambiguity:
 
 **Smallest useful edit (variant Q12):** in drawnToward, drop **Mischief** (redundant: see above) and add four goal words. drawnToward becomes 12 words.
 
-| new word | affinities |
+| new word (label approved by Robin 2026-10-08) | affinities |
 | --- | --- |
 | Knowledge | Sage 1.0, Explorer 0.3 |
 | Influence | Ruler 1.0, Hero 0.3, Magician 0.3 |
@@ -176,14 +176,16 @@ Historical Q12 experiment (2026-10-06, before the validated catalogue refresh; n
 - Exact-pairing recovery goes 0.137 → 0.151.
 - Reversed-instead goes 0.148 → 0.136.
 
-Cost: 12 spheres instead of 9 in the H5 cluster (4 × 3), which the design owner must check on phones. soughtFor is unchanged.
+Cost: 12 spheres instead of 9 in H5's second round. soughtFor is unchanged.
 
-Status: **adopted 2026-10-08** (Robin asked for the twelve words; labels as proposed). The H5 world lays out the round from its word count: four rows of three on phones, the far orbit on desktop. Regenerated evidence against the validated catalogue (distribution-v1.md):
+Status: **adopted 2026-10-08** (Robin asked for the twelve words; labels as proposed). The H5 world lays out the round from its word count: four rows of three on phones, three rows of four on short phones (375×667), the far orbit on desktop. Regenerated evidence against the validated catalogue (distribution-v1.md):
 
 - 132/132 pairings still lead the fallback on persona answers alone.
 - Primary shares under U are 0.054–0.102. Caregiver, Creator, Ruler and Sage rose from 0.022–0.041 to 0.080–0.092.
 - Recovery for those four rose from 0.10–0.22 to 0.29–0.47. Exact-pairing recovery is 0.149 → 0.146 and reversed-instead 0.147 → 0.148.
 - Outlaw is now the thinnest primary (0.078 → 0.054 under U; recovery 0.30 → 0.21), because it lost Mischief's 0.6. Watch it in playtests.
+
+These are simulated answer models, not observed production results.
 
 ## Review cadence
 
