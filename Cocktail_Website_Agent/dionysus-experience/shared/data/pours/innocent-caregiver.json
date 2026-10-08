@@ -1,0 +1,121 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Sherry barrels for fino aren't filled to the top, and in the space left, a layer of yeast called flor grows on the young wine: a protective barrier that keeps the air off it (F1, F13, C1; Codex p. 245, sherry.wine). No fraction.",
+      "kind": "ingredient",
+      "meaning": "a cover over the smaller one, kept there all the time",
+      "speaksTo": "the smaller hand at the crossing"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It forms by itself, from yeasts native to the region and already in the air there (F4; sherry.wine \"indigenous ambient yeasts\", Luyten). Never \"nobody adds it\" (G6).",
+      "kind": "ingredient",
+      "meaning": "the care came by itself (our reading; never \"before anyone asked\", Not Only the Way's epigraph)",
+      "speaksTo": "a reflex from childhood that never switched off"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "There's always air at the top of the barrel, and a little more comes through the wood; the flor sits between it and the wine and uses up most of the oxygen itself, so the wine stays protected (F13; Luyten \"consuming most of it\"; F5 scoped: the Consejo's breathing sentence is about oxygen from moving the wine).",
+      "kind": "gesture",
+      "meaning": "effort, not being used up: the air that would change the young wine reaches the flor first (our reading, signposted)",
+      "speaksTo": "it gets to you first, and by the time it reaches them it's smaller"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Its work stays in the wine: the Codex credits the flor with fino's dry, yeasty character, and much of its dryness comes from its years under the flor, and the flor makes most of the compound behind its almond aroma and its sharp nose (F8, F14, F15; Codex p. 247, *Molecules* 2022, sherry.wine). Never \"bread\" (G5) or salt (fino's own, Codex p. 245) as the flor's; never apple (G3).",
+      "kind": "lineage",
+      "meaning": "what you gave goes on with them",
+      "speaksTo": "some of them are calm now and couldn't tell you where they got it"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It stays over the wine for years: every sherry ages at least two years, and a five-year-old fino was sampled still under an intense white film (F6 all sherry, F7; no fixed fino term, C2).",
+      "kind": "watch",
+      "meaning": "a watch kept over time, not one rescue: every day, for years",
+      "speaksTo": "\"the dark got smaller\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Bamboo: sherry at the core and \"the vermouths surround the sherry\" (Codex p. 91, printed with amontillado); *Imbibe!* pdf 210 says \"a fino or an amontillado\"; on record by 1886 in St. Paul; a staple by 1900. Origin contested (Boothby/Eppinger, Wondrich's hedge, Codex's Japan): none in the reading. Fino \"can be lost\" among spirits (Codex p. 246).",
+      "kind": "drink",
+      "meaning": "the young one kept at the centre, with nothing loud around it",
+      "speaksTo": "(Tomás's build)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Chamomile honey: the *Flavor Matrix* lists honey among grape's best pairings (pdf 140; sherry maps to Grape); the *Codex* says honey \"loves chamomile\" and that lemon, honey and chamomile together are \"warming and, for some people, tinged with nostalgia\" (p. 92).",
+      "kind": "spark",
+      "meaning": "the nights the watch was kept (our reading; never that it calms or helps sleep)",
+      "speaksTo": "staying awake because someone littler was frightened of the dark"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "The fino needs only quiet company. Let one of them know you were scared too.",
+    "contains": [],
+    "glassware": "a small stemmed cocktail glass, chilled, no ice",
+    "method": [
+      "Make the syrup ahead. Pour the just-boiled water over the chamomile and leave it for 5 minutes, then take the tea out and squeeze it. Stir the honey into the warm tea until it's smooth, and let it cool. Keep it in a closed jar in the fridge and use it within about two weeks.",
+      "Put the glass in the freezer, or fill it with ice and water while you mix.",
+      "Pour the fino, both vermouths, the syrup and the bitters into a mixing glass or a jar, and give it a stir so the syrup dissolves.",
+      "Fill it with ice and stir with a long spoon for about 30 seconds, until the outside is very cold. The melting ice is part of the drink: it adds about a third to what you poured.",
+      "Empty the serving glass if you filled it, and strain the drink in. No ice in the glass.",
+      "Cut a strip of lemon peel, just the yellow part. Twist it over the glass so its oil falls on the drink, then drop it in.",
+      "Cork the fino and put it back in the fridge. Once it's open it fades quickly, so use it within a week or so."
+    ],
+    "name": "Night Light",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "fino sherry, a fresh bottle",
+        "note": "from the driest end of sherry, made under the flor. Look for a recent bottling date. A manzanilla (a fino from the seaside town of Sanlúcar) works too"
+      },
+      {
+        "amount": "15 ml",
+        "item": "dry (white) vermouth"
+      },
+      {
+        "amount": "15 ml",
+        "item": "blanc (sweet white) vermouth"
+      },
+      {
+        "amount": "1 tsp (5 ml)",
+        "item": "chamomile honey syrup, homemade (below)",
+        "note": "fino is so dry that a little honey gives the drink more body"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "orange bitters"
+      },
+      {
+        "amount": "1 strip",
+        "item": "lemon peel"
+      },
+      {
+        "amount": "",
+        "item": "*for the syrup:* 50 ml just-boiled water, 1 chamomile tea bag (or 1 tablespoon dried chamomile flowers), 50 ml light runny honey (acacia or a light clover)",
+        "note": "makes about 100 ml, enough for about twenty drinks"
+      }
+    ],
+    "tagline": "You were small too. You looked after them anyway."
+  },
+  "pairing": "innocent-caregiver",
+  "personality": "The Big Sibling",
+  "reading": {
+    "epigraph": "Part of the taste in this glass comes from something that stayed behind in the barrel.",
+    "whoYouAre": [
+      "You were small too. People forget that part. You were the one holding the smaller hand at the crossing, saving the last biscuit, staying awake because someone littler was frightened of the dark. No one had asked. It just seemed obvious that anyone you loved should be safe, and if nobody else was watching, you would. You were never less scared of the dark. You just had someone to be calm for.",
+      "You still do it. When something goes wrong, the calm voice comes out before you've decided anything. And underneath it, whenever someone you love gets hurt, part of you is already asking what you should have seen, as if it had been your watch. Here's what that gives them: the ones who grew up near you learned from you that the dark can be got through. Some of them are calm in it now, and they couldn't tell you where they got it."
+    ],
+    "yours": [
+      "Fino sits at the driest end of sherry, and it's made in a way I still find surprising. Its barrels aren't filled to the top. Once the young wine is in the barrel, a pale layer of yeast grows across its surface. It forms by itself: the people who make sherry say it comes from yeasts already in the air of that part of Spain. It's called flor, and it stays over the wine for years.",
+      "What it does is keep the air off. There's always air in the space left at the top, and a little more comes through the wood, and air would turn a fino into a different wine, darker and heavier. The flor sits between that air and the wine and breathes up most of the oxygen itself, so the wine underneath stays protected. The air that would change the wine reaches the flor first. I like to think that's the whole job. Not a rescue. Just being the one it reaches first, every day, for years.",
+      "That's what you've done since before you were tall. The fright, the bad news, the thing that would have spoiled their night: it gets to you first, and by the time it reaches them, it's smaller. Most of the time they never knew it was there. That's how you've always cared. Everyone close to you has felt safe without ever having to think about it, and that was you.",
+      "The cocktail I've made for you is built on fino. It's delicate, and beside anything loud it can get lost, so no spirit goes in with it, just a little dry and a little sweet white vermouth around it, the way the Bamboo is built, a famous classic already on record by 1886. The flor itself is left in the barrel, but you can still taste its work: the dry, yeasty edge and the hint of almond in the smell are mostly the flor's. I sweetened it with a teaspoon of honey stirred into chamomile, the tea people make at bedtime, for all the nights you stayed awake so someone smaller wasn't alone in the dark.",
+      "Pick one of the people you watched over, one who's grown now, and tell them about one time back then when you were scared too, while you were the one being calm. They can carry it now. I think they'll be glad to know what reached you first, and prouder of you than you'd guess."
+    ]
+  },
+  "status": "draft"
+}

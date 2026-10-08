@@ -1,0 +1,100 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Asked to run Pegu Club in New York (it opened in August 2005; the year of the pitch isn't given), Audrey Saunders was clear about what she wanted, in her own words: \"I want a project where I'm making the calls.\" Every detail was worried over (the logo alone took months, she said), and nothing reached the menu, classic or new, until it had survived her testing. (F1, F2, F3, F5)",
+      "kind": "motive",
+      "meaning": "The whole of it, or not at all: the calls, not the credit. Her motive is on the record, so it may be told as fact.",
+      "speaksTo": "texture: In control · lens: The real me"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Toby Maloney, her first head bartender, describes her testing: she gave the specs, sipped, set the glass down, gave new specs, and they made another, with little tiny tweaks each time. She gave the **answer** each time: new measures, not a ratio to work from. (F8)",
+      "kind": "scene",
+      "meaning": "She didn't remake it herself; she sent it back and said what she tasted. That she *chose* this over doing it herself is **our reading**, signposted.",
+      "speaksTo": "soughtFor: Honesty · drawnToward: Mastery"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Jim Meehan, on the opening staff, later named the flaw in that method: palates differ, \"There is no perfect drink.\" In the same account: \"That is the way I develop cocktails now.\" (F9)",
+      "kind": "turn",
+      "meaning": "The standard outlived the admission that it can't be perfect. What passed on was the sending back, not a perfect drink. Nothing about the bars her staff later opened (Visionary's chain: dossier only).",
+      "speaksTo": "soughtFor: Courage · lens: The real me"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Her own account of her Tantris Sidecar: starting from a Sidecar ratio (\"say\" ¾ lemon, 1 Cointreau, 1½ Cognac) she split parts inside it, lemon with pineapple, Cognac with Calvados, some Cointreau with Chartreuse, to riff \"but to stay within the parameters\"; then she added simple syrup. (F10) Our drink holds those three amounts (45 / 30 / 22.5 ml) and makes its own swaps inside them. Holding them to the millilitre is **our** rule, not hers.",
+      "kind": "frame",
+      "meaning": "Invention inside a structure you set yourself. The frame is hers; the swaps are ours: never \"her recipe\", never \"her Tantris\".",
+      "speaksTo": "drawnToward: Mastery · Classic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "*Flavor Matrix*: honey's best pairings include citrus and alcohol, and olive is listed among its surprising pairings (pdf 148); the table-grape entry lists honey among grape's best pairings (pdf 140; Cognac mapped to Grape by the studio's rule, check 3). Brine values in our table are unsourced; plain, unstuffed green olives only.",
+      "kind": "ingredient (spark)",
+      "meaning": "One unexpected element, given a job (rounding the edges) and measured: nothing in the glass without a reason. Tomás's row; I've checked the pages.",
+      "speaksTo": "texture: Controlled · Harmonic"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Make the first one to the millilitre. Then set it down, name what you'd change, and let someone else make the second.",
+    "contains": [],
+    "glassware": "a coupe (a stemmed glass with a rounded bowl), chilled",
+    "method": [
+      "Put a coupe in the freezer, or fill it with ice and water while you mix.",
+      "Stir a teaspoon of honey into a teaspoon of warm water until it runs. Let it cool. You'll use 7.5 ml.",
+      "Measure everything into a shaker: Cognac, orange liqueur, honey syrup, lemon, and one dash of the brine from a jar of plain green olives. Measure it, don't guess: the drink holds a strong-sweet-sour frame to the millilitre.",
+      "Fill with ice, shake hard for about 10 seconds, strain into the cold glass.",
+      "Squeeze the lemon peel over the top so its oils fall on the drink, then drop it in."
+    ],
+    "name": "Making the Calls",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "Cognac (any VS or VSOP)"
+      },
+      {
+        "amount": "22.5 ml",
+        "item": "orange liqueur (triple sec, Cointreau style)"
+      },
+      {
+        "amount": "7.5 ml",
+        "item": "honey syrup (honey and warm water, 1:1, cooled)",
+        "note": "inside the sweet part"
+      },
+      {
+        "amount": "22.5 ml",
+        "item": "fresh lemon juice"
+      },
+      {
+        "amount": "1 dash",
+        "item": "brine from a jar of plain green olives (not stuffed)",
+        "note": "works like a pinch of salt"
+      },
+      {
+        "amount": "1",
+        "item": "strip of lemon peel"
+      }
+    ],
+    "tagline": "You'd rather be blamed for all of it than praised for part of it."
+  },
+  "pairing": "creator-ruler",
+  "personality": "The Auteur",
+  "reading": {
+    "epigraph": "There's one dash in this glass you'll never pick out. The rest tastes brighter for it.",
+    "whoYouAre": [
+      "You have the picture before anything starts: how the evening runs, how the room looks, what comes first and what comes last. After that, every piece has to match it, and you can't leave one that doesn't. You send it back, with a note, and then again, until it's right.",
+      "People say you're hard to please. The ones who stayed know it's simpler than that: it's the whole of it you care about, never only your part. What you rarely admit is the other habit, the one after everyone's gone home: quietly redoing someone else's part yourself, because fixing it felt quicker than explaining. Nobody asked you to take it all on. You just can't bear to see it come out ordinary. And the people beside you end up doing the best work they've ever done, sometimes without knowing why."
+    ],
+    "yours": [
+      "Before Pegu Club opened in New York in 2005, a bartender named Audrey Saunders was asked to run it, and she was clear about one thing. In her words: \"I want a project where I'm making the calls.\" The logo alone took months. Nothing reached the menu, not even a classic, until it had passed her tasting.",
+      "The people who worked there remember how that went. She'd give them the measures and taste what they made. Then she'd set the glass down and give them new measures, and they'd make another. \"Little tiny tweaks,\" one of them called it. The book that tells the story says an eighth of an ounce could turn into a federal case. Later, another of her bartenders named the flaw in working like that: there is no perfect drink. And in the same breath: \"That is the way I develop cocktails now.\"",
+      "I think you'd have known that bar the moment you walked in. Not for the fuss. For what sat under it. The part I keep coming back to is who made the next drink. It wasn't her. She tasted, she gave new measures, and they made it again. I like to think that's how, for one of them at least, her way of tasting became his.",
+      "This drink borrows the frame of one of hers. She started one of her drinks from her own measures for a Sidecar (brandy, orange liqueur, lemon), and split what went inside each part. This one keeps those measures to the millilitre; what's inside them is mine. Cognac. Orange liqueur, with a little honey inside the sweet part. Lemon. And one dash of brine from plain green olives: too little to taste as salt, enough to make everything else sit right. Nobody will ever name it.",
+      "Next time someone's part comes back not quite right, you'll feel the old pull to stay late and redo it yourself. Leave it on the table instead. Point to exactly what's wrong, and let them make it again. You'll still be making the calls. You just won't be the only one who knows why."
+    ]
+  },
+  "status": "draft"
+}

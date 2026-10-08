@@ -1,0 +1,120 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Simonson calls him perhaps \"the most mild-mannered person in the cocktail industry\", soft-spoken, \"in a world of brassy characters\", and says there was \"nothing safe or boring about his business\" (*Proper* p. 240; F1).",
+      "kind": "character (someone else's words)",
+      "meaning": "The quiet one who goes anyway, in the book's words, attributed. Never that he was afraid (G1).",
+      "speaksTo": "doesn't look the part; the drive is inside"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "As a student in Austria (Vienna, says Oxford) he met Alpine pine liqueur, and thought it would sell in Colorado's ski towns. He went back to Austria \"to find an example\" and brought over Zirbenz, made for two centuries (*Proper* p. 240; Oxford pdf 975; F2–F3).",
+      "kind": "lineage (the start)",
+      "meaning": "He went after a kind of drink he'd met abroad. He found the bottle when he got there: never \"went for Zirbenz\" (G2).",
+      "speaksTo": "needs something named to go after"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Zirbenz is made by the Josef Hofer family distillery in Austria, since 1797 (Haus Alpenz catalogue 2026; *PUNCH* 2015; F14).",
+      "kind": "makers (credit)",
+      "meaning": "Say who made it, plainly. He found it; they made it (G7).",
+      "speaksTo": "gives: brings back what nobody near could get"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He could afford only one pallet, sixty cases; none of the big distributors were interested, so a one-man wine outfit carried it. Sold as an après-ski tradition, \"the product struggled, but there were places where it did well\" (*Proper* p. 240; F5–F6).",
+      "kind": "risk (on the page)",
+      "meaning": "The risk is real and his own; the counterweight always comes with it (G3, G4).",
+      "speaksTo": "fear: a comfortable life that asks nothing of them"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Of bartenders meeting Zirbenz: \"warm, if bemusing\"; \"the conifer is hardly an essential bar ingredient\" (*PUNCH* 2015; F13).",
+      "kind": "his own words",
+      "meaning": "He knew how odd the prize was, and went anyway. Usable as a light touch; not a fear.",
+      "speaksTo": "the prize matters a little less than they say"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"With the Alpine liqueur under his belt\", he asked Aspen's best liquor store what they would be interested in carrying, and that \"would become his modus operandi\"; he asked bartenders on both coasts what he should be importing or creating (Meehan asked for Batavia arrack) (*Proper* pp. 240–241; F7–F8).",
+      "kind": "reveal (what came next)",
+      "meaning": "The first prize became a way of never running out of things to find. \"Missing\" is our gloss (G5).",
+      "speaksTo": "one true thing: finished scares them more than far"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In the decade before 2016, a visit by Seed to a cocktail bar \"was always an occasion\": nobody knew what rare bottle he'd \"pull from his bag\" (*Proper* p. 240; F11). Oxford: Alpenz imported things \"long absent from the American market\", \"in response to demands from bartenders\", until they became a \"near necessity in serious cocktail bars\" (pdf 975; F10).",
+      "kind": "reveal (the bag)",
+      "meaning": "Others' wants became his next map. He mostly imported what existed abroad: never \"revived\" (G6).",
+      "speaksTo": "gives: makes far-off things feel reachable"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Pine first, then a spoon of what came next. Then ask someone what they'd like you to find.",
+    "contains": [
+      "nuts"
+    ],
+    "glassware": "heatproof glass mug with a handle (about 250 ml), warmed with hot water first",
+    "method": [
+      "Fill the glass mug with hot water and leave it for a minute to warm, then tip the water out.",
+      "Pour in the stone-pine liqueur first, then the rum.",
+      "Add the teaspoon of allspice dram, the lemon juice and the demerara syrup.",
+      "Top with the hot water and stir a few times so it all comes together.",
+      "Squeeze the strip of lemon peel over the top of the mug so its oils fall on the drink, then drop it in. Drink it while it's hot."
+    ],
+    "name": "Someone Else's Map",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "Zirbenz Stone Pine Liqueur of the Alps (recommended)",
+        "note": "or any Alpine stone-pine liqueur (Zirbenlikör) of about 35%; made in Austria by Josef Hofer, a family distillery since 1797"
+      },
+      {
+        "amount": "15 ml",
+        "item": "aged rum",
+        "note": "any aged rum of 37.5 to 45%"
+      },
+      {
+        "amount": "1 teaspoon (5 ml)",
+        "item": "allspice dram (pimento dram)"
+      },
+      {
+        "amount": "7.5 ml",
+        "item": "fresh lemon juice"
+      },
+      {
+        "amount": "1 teaspoon (5 ml)",
+        "item": "demerara syrup"
+      },
+      {
+        "amount": "105 ml",
+        "item": "hot water, just off the boil"
+      },
+      {
+        "amount": "1 strip",
+        "item": "lemon peel"
+      }
+    ],
+    "tagline": "Far doesn't scare you. Finished does."
+  },
+  "pairing": "hero-explorer",
+  "personality": "The Quest Seeker",
+  "reading": {
+    "epigraph": "Sixty cases of the pine in this glass were all one importer could afford.",
+    "whoYouAre": [
+      "The medal's still round your neck, or the last exam's handed in, or the record you hunted for two years is finally on the shelf. Everyone's pleased for you. And by that evening you're quietly reading up on the next one.",
+      "People call it restless. It isn't, quite. What you dread is finished: a comfortable life that asks nothing of you, a map with nothing left on it. Going after something far away and hard to get is how you find out what you're made of, and once you know, you need something new to find out about. And you never return empty-handed. You turn up with things nobody near you could have got, and you make far away look like somewhere people can actually go. Everyone you know lives a bigger life because you went. No prize on your shelf is worth as much."
+    ],
+    "yours": [
+      "Eric Seed was a student in Austria when he first came across the pine liqueur of the Alps, and he thought it would sell in Colorado's ski towns. One writer calls him perhaps the most mild-mannered person in the cocktail business, soft-spoken among loud characters, and then adds that there was \"nothing safe or boring about his business\". Seed went back to Austria to find a pine liqueur he could bring over, and returned with Zirbenz, which the Hofer family distillery has made since 1797.",
+      "He could afford one pallet: sixty cases. None of the big distributors were interested, so a one-man wine business carried it, sold as a drink for after skiing. It struggled, though in some places it did well, and a Denver bartender took it on. Years later Seed said the conifer \"is hardly an essential bar ingredient\". Back then, with that first bottle behind him, he walked into the best liquor store in Aspen and asked what they'd like to carry. That became his way of working. He asked bartenders on both coasts what he should bring over, and went and found it: one asked for Batavia arrack, a rum-like spirit from Indonesia. For a decade, by one writer's account, a visit from Seed to a cocktail bar was an occasion, and nobody knew what rare bottle he'd pull out of his bag.",
+      "The pine was never the whole point, I like to think. It took him somewhere, it showed him he could, and then came the question you know well: what now? As I see it, his way out was to stop waiting for something new to find him, and to ask other people what they'd like him to find. That way, the map never runs out. You've had that flat evening more times than you'd admit, and his way out is one you can borrow.",
+      "The cocktail I've made for you is a toddy, the classic warm winter drink, for the end of a cold day. The pine goes in first, Zirbenz or any Alpine stone-pine liqueur, three parts to one of aged rum, a pairing its importer suggests for toddies. Then a teaspoon of allspice dram, the kind of bottle Seed might pull out of that bag. I added it for the find that comes next, so the first prize and the one after share a glass. A little lemon, a touch of brown sugar syrup, hot water, all in a glass mug warmed first, and last, lemon zest twisted above the steam, for its scent. It takes a reddish tint from the pine, and it smells of pine, with spice underneath.",
+      "So the next evening you arrive and it goes flat, don't go looking for a bigger mountain straight away. Ask a friend what they've stopped hoping to find: the book that's out of print, the song they half remember, the place they always meant to see. Then go and get it. You'll never be short of somewhere to go, and a friend gets the thing they'd given up on. I hope your list stays long."
+    ]
+  },
+  "status": "draft"
+}

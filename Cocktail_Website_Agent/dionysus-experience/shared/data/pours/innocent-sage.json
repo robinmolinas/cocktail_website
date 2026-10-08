@@ -1,0 +1,126 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "In his book on bartending, Regan tells newcomers to expect mistakes and to learn from them, and gives one of his own as the example (*Joy* pdf 133).",
+      "kind": "mirror",
+      "meaning": "He told it on himself, for the next person's sake. Whether he was glad is not on the page: any warmth is the bartender's, signposted.",
+      "speaksTo": "why it's you; the gift is safe to receive"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Once he was working behind a bar, he made Scotch Sours \"for a while\" whenever Whiskey Sours were ordered: where he'd come from, England, asking for whisky gets you Scotch (*Joy* pdf 133).",
+      "kind": "mirror",
+      "meaning": "An honest mistake, made by following the rule he'd learned somewhere else, and repeated until someone said.",
+      "speaksTo": "story"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A waitress caught it, and only then did he learn what he was doing wrong. She is unnamed; \"caught\" is the only thing the page says she did (*Joy* pdf 133).",
+      "kind": "mirror",
+      "meaning": "Being caught was how he learned. Nothing about her manner, words or rank.",
+      "speaksTo": "reveal; the guest's gift"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His doubt has two halves: maybe the customers never noticed; maybe they did and didn't tell him (*Joy* pdf 133).",
+      "kind": "mirror",
+      "meaning": "He can't know which, and either way the mistake went on in the glass until she caught it. Keep both halves; never \"their silence\" alone.",
+      "speaksTo": "whoYouAre; the fear of being humoured"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Whiskey Sour in his own book: bourbon or rye, fresh lemon, simple syrup, shaken, a chilled sour glass (or a rocks glass on ice), cherry and half an orange wheel (*Joy* pdf 406; chart pdf 219).",
+      "kind": "drink",
+      "meaning": "The correction made right. Any change from this is ours, never \"his recipe\".",
+      "speaksTo": "drink as proof"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The sour is an American drink of the 1850s (first in print in 1857), and the Whiskey Sour is one of the few that kept the old name (Oxford SOUR pdf 1837–1838).",
+      "kind": "lineage",
+      "meaning": "A renowned classic, with its family on record since the 1850s.",
+      "speaksTo": "let the drink sound worth having"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The sour glass was given a stem so the hand wouldn't warm the drink (Oxford SOUR pdf 1838).",
+      "kind": "lineage",
+      "meaning": "Tomás's glass has a reason in the record.",
+      "speaksTo": "drink; image"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In the same book he advises muddling lemon wedges with granulated sugar for a Whiskey Sour: he says the sugar works the zest and makes a much fresher-tasting drink (*Joy* pdf 151).",
+      "kind": "drink",
+      "meaning": "The touch is his own later advice, so the correction is made right by the man who made the mistake. \"Fresher\" is his claim, told as his. Ours muddles the squeezed shell, not wedges: owned.",
+      "speaksTo": "the twist tied to the story"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Sugar muddled with citrus is also *Good as It Is*'s method (lime, Caipirinha, citing *Joy* pdf 173 and 151).",
+      "kind": "caution",
+      "meaning": "Technique shared, not taken; no \"grind the oil out of the skin\" in guest text, and never \"new\".",
+      "speaksTo": "sibling fence"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Ready-made sour mix was nearly universal in bars from the 1960s through the 1980s (Oxford SOUR pdf 1838–1839).",
+      "kind": "caution",
+      "meaning": "Fresh lemon is our \"made right\". Never a claim about what his Scotch Sours held.",
+      "speaksTo": "drink paragraph; Checks"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Press the sugar into the peel until it smells of lemon. One little step, and the whole glass is fresher.",
+    "contains": [],
+    "glassware": "a small stemmed sour glass (about 180 ml), chilled in the freezer, no ice",
+    "method": [
+      "Put the sour glass in the freezer for 10 minutes.",
+      "Cut a lemon in half. Squeeze one half and measure 20 ml of juice into the shaker.",
+      "Cut the squeezed half into four pieces and drop them in with the sugar. Press them with a muddler (or the end of a rolling pin) until the sugar is wet and smells of lemon. Press, don't grind: shredded white pith turns bitter.",
+      "Add the bourbon, fill the shaker with ice and shake well for about 12 seconds.",
+      "Strain into the cold glass through the shaker's strainer and a small kitchen sieve, so no peel or sugar grains get through.",
+      "Hold it by the stem, so your hand doesn't warm it."
+    ],
+    "name": "Just So You Know",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "bourbon",
+        "note": "any bourbon of 40 to 46%; not bottled-in-bond or barrel proof"
+      },
+      {
+        "amount": "20 ml",
+        "item": "fresh lemon juice",
+        "note": "from half a medium lemon, measured"
+      },
+      {
+        "amount": "2 1/2 tsp (about 11 g)",
+        "item": "white sugar",
+        "note": "granulated, pressed into the squeezed lemon half"
+      }
+    ],
+    "tagline": "You tell people what you'd want to be told."
+  },
+  "pairing": "innocent-sage",
+  "personality": "The Wise Kid",
+  "reading": {
+    "epigraph": "A Whiskey Sour, as it was ordered. For a while, one bartender made it with Scotch.",
+    "whoYouAre": [
+      "There's a crumb on someone's chin at dinner, or a typo on the first slide that everyone has already read, or a colleague whose name someone has been saying wrong for a year. Most people saw it. Maybe they thought it wasn't their place, or that it was kinder to leave it. You go over, quietly, and say so, to that person and nobody else. It never felt brave to you. It just seemed like what you'd want, if it were you.",
+      "There's a second after that you never mention. You've said it, and for a second you wait to see whether you're in trouble. At some point someone told you the truth was rude, and part of you still listens for it. And what hurts more is the reverse: finding out that people you trust watched you get something wrong and said nothing, to be nice.",
+      "Your way hands people the chance to fix it while it's still small, and it counts for a lot. Being told by you never feels like being caught out. It's being trusted to take it."
+    ],
+    "yours": [
+      "Gary Regan was a bartender from England who later wrote a book on making drinks. He turns up more than once in my stories; this one I keep for you. In the book he tells newcomers to expect mistakes, and gives one of his own. Once he had a job behind a bar, for a while, whenever someone ordered a Whiskey Sour, he made a Scotch Sour. In England, ask for whisky and you get Scotch. The Whiskey Sour is an American classic, and in his book it's made with bourbon or rye.",
+      "No customer put him right. Maybe none of them noticed, he writes, \"Or if they did, they certainly didn't tell me.\" A waitress caught it. That's all he says about her: no name, no words. Only that until she did, he hadn't learned what he was doing wrong.",
+      "Whoever else noticed, if anyone did, let him carry on. I like to think she did him the kind of favour you do, and treated him as someone who could take it. \"Caught\" is his word, but he doesn't use it as a complaint: he set the story down in print, against himself, for anyone starting out. That's what you rarely get to see after you've said it: the mistake fixed, then handed on to whoever comes next.",
+      "The cocktail I've made for you is the drink that was ordered, a Whiskey Sour: bourbon, sugar and fresh lemon, a renowned classic, served chilled, in a small stemmed glass. It borrows one tip from the same book: granulated sugar pressed into the lemon. The sugar works at the peel, he wrote, and the drink tastes fresher for it. I did it as a nod to what follows a catch like hers. He was put right, and then he passed on something better. Telling someone doesn't end with them being fixed. Sometimes it's how they get good.",
+      "So when you spot the next one, say it, and don't stand there waiting for the verdict. I'd bet most people are glad, even if it takes them years to get round to saying so. And you've done this for plenty of people without ever asking for it back. Pick someone close and ask them to do the same for you. It's your turn to be told."
+    ]
+  },
+  "status": "draft"
+}

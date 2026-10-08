@@ -1,0 +1,112 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The Sauza name, founded in 1873, left the family and passed from one company to the next: a Spanish firm, then Allied Domecq, Fortune Brands, Beam and Suntory. (A1, F1-F2; Oxford SAUZA pdf 1742) No year of sale (C1); never \"sold six times\".",
+      "kind": "lineage",
+      "meaning": "A lot of business went on around a name.",
+      "speaksTo": "story: everyone around the Dude is scheming, shouting"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "By his own account, when the business, its two industrial distilleries and most of the fields were sold, his grandfather kept the estate in Tequila, with growing agave and an old distillery he had made into a museum. (A2, W2; *Distiller* 2025) The grandfather's reason isn't on record (card W2 note): never \"kept it for him\".",
+      "kind": "reveal",
+      "meaning": "What stayed was small, and at the time it was a museum, not a business.",
+      "speaksTo": "story: the rug that really tied the room together"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In his words: he felt the tequilas on sale had lost something next to the ones he drank with his grandfather, and thought getting the old distillery going again would be a fun project. (A3, W3; *Distiller* 2025) Taste judgement attributed to him.",
+      "kind": "motive",
+      "meaning": "He went back to what he knew from living it, and he didn't frame it as a crusade.",
+      "speaksTo": "essence: True wisdom is keeping things real · story: Everything this person knows was learned by living"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford: barred from using the family name, he chose Los Abuelos for his forebears, then a rum's trademark forced him to rename it Fortaleza; the brand has no tie to Sauza. (A4, F6; pdf 1742-1743) \"Barred\", \"forced\" (G1). The old distillery was called La Fortaleza (W2): two facts side by side, no \"because\" (G7).",
+      "kind": "name",
+      "meaning": "He was refused one name and forced off another, and neither was his choice; the tequila never carried the first (v1.2: \"the name was lost twice\" was mine and went too far). The tequila didn't depend on its name.",
+      "speaksTo": "story: don't take the bait"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Sauza's basic line is mixto, at least 51 percent agave, and its agave goes through a diffuser: shredded raw, broken down with steam and chemicals. Diffusers came in around 1999-2003 to answer a real agave shortage. (A5, F3-F4; pdf 1743-1744, MIXTO pdf 1338, DIFFUSER pdf 647) Sauza also has 100% agave lines.",
+      "kind": "contrast",
+      "meaning": "The fast way exists for a reason; he took the slow one. No sneer at anyone's bottle.",
+      "speaksTo": "Wren's (4): what they didn't do"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A tahona is a big stone wheel pulled round a stone bed to crush the cooked agave; the type of mill goes back to ancient Greece and Rome, and reached Mexico probably in the 17th century. (A6, F7; TAHONA pdf 1971) Other tequilas use one too (F8).",
+      "kind": "ingredient",
+      "meaning": "Plain and old, and by his own account less efficient than a modern mill (v1.1: \"heavy and slow, and it works\" was mine, not on any page).",
+      "speaksTo": "imagery: everyday objects, comfort and honesty, minimal polish"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In his words, the stone wheel is considerably less efficient than modern mills, and their year's output is a day's work for a big factory, so they won't make the most tequila or earn the most from it. (A7, W5, W10; *Distiller* 2025)",
+      "kind": "refusal",
+      "meaning": "What he passed up was on the record, as his own choice.",
+      "speaksTo": "fear: Deception (turned: no pretending it's the efficient way)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "As of 2025, more than twenty years after he started, they still cook in a brick oven, crush with the stone wheel, ferment in small wooden vats and distil in small copper pot stills, on the family's estate; they grow some agave there and buy the rest. (A8, W3, W5-W6; *Distiller* 2025) Bartenders' praise and \"best\" stay his words (G5).",
+      "kind": "lasting",
+      "meaning": "It held. Wren's condition 3, met as a dated fact; quality claims stay his.",
+      "speaksTo": "Wren's (3): it lasted"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Pinch the oregano once and lay it on the ice. It's the smallest thing in the glass, and the one you'd miss.",
+    "contains": [],
+    "glassware": "tall highball glass (about 300 ml), three ice cubes",
+    "method": [
+      "Pour the tequila into a tall glass and add three ice cubes.",
+      "Stir for three seconds, just enough to chill it.",
+      "Pour in the cold soda water and stir once.",
+      "Pinch the oregano sprig once between finger and thumb to wake its scent, and lay it on the ice.",
+      "No lime, no sugar. The soda turns the tequila citrusy by itself."
+    ],
+    "name": "Whatever They Call It",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "50 ml",
+        "item": "Fortaleza Blanco tequila (the standard one, not the Still Strength), recommended",
+        "note": "it can be hard to find: any blanco tequila made with a tahona, the old stone wheel, does the same job"
+      },
+      {
+        "amount": "125 ml",
+        "item": "cold soda water",
+        "note": "straight from the fridge"
+      },
+      {
+        "amount": "1",
+        "item": "small sprig of fresh oregano",
+        "note": "pinched once, laid on the ice"
+      }
+    ],
+    "tagline": "You let almost everything go. Just not the part that matters."
+  },
+  "pairing": "sage-regular-guy",
+  "personality": "The Dude",
+  "reading": {
+    "epigraph": "Built for a tequila that had to find a name twice. Stone still crushes its agave.",
+    "whoYouAre": [
+      "Two hours into the evening, the table is arguing about something that sounds important: who said what, whose fault it was, what to call it. You've let all of it go. It isn't that you can't follow it. You followed it once, a while back, and found out how little of it was worth the heat. But buried in all that noise there's one small thing nobody else noticed was the point, and that one you won't let go.",
+      "Your ease took effort, though nobody sees it. You've been pulled into someone else's story before, and found yourself carrying part of something that wasn't true. So now you step back early. And because you step back, people sometimes decide you don't care. You do. You care about very few things, and you care about those all the way.",
+      "That gives people something, and they rarely say it: with you, nobody has to win. The temperature drops. When someone wants an argument to go quiet, they bring it to you."
+    ],
+    "yours": [
+      "Sauza was founded in 1873, and the name grew into one of the biggest in tequila. Then the business was sold, and the name passed from one company to the next: a Spanish firm, then Allied Domecq, Fortune Brands, Beam and Suntory. Today its agave goes through a diffuser, a big industrial machine that breaks it down with steam and chemicals. It came in when agave ran short, and it gets more out of every plant.",
+      "One piece stayed in the family. As Guillermo Erickson Sauza, the founder's great-great-grandson, tells it, his grandfather kept the family estate in the town of Tequila, and on it an old distillery he'd turned into a museum. Guillermo felt the tequilas he could buy had lost something next to the ones he'd drunk with his grandfather, and he thought getting the old place running again would be a fun project. He wasn't allowed to put the family name on it. He called it Los Abuelos, for the grandfathers before him, and then a rum's trademark forced him to change that too. The name it ended up with was Fortaleza. The old distillery had been called La Fortaleza. Maybe one led to the other. I like to think so.",
+      "A name is what everyone fights over. Guillermo lost two, and kept the old way going. Over twenty years later, they still cook the agave slowly in a brick oven and crush it with a tahona, a big stone wheel pulled round and round a stone bed, which he'll tell you is far less efficient than a modern mill. As he puts it, they won't make the most tequila, or earn the most from it. I like to think the name was never the part he cared about most.",
+      "You'd have understood Guillermo straight away. Everyone else was busy with the name: who owned it, who could use it, what to put on the bottle instead. What mattered to him was smaller than all that: a piece of land, an old stone wheel, and a taste he remembered from drinking with his grandfather. You know that kind of small.",
+      "So the cocktail I've made for you is the simplest long drink there is, and one of the best: Fortaleza Blanco, or another blanco made with a stone wheel, with cold soda and nothing else poured in. No lime, no sugar, nothing covering it up. With soda, a blanco tequila turns bright and citrusy all by itself. The one extra is a sprig of oregano, pinched once and laid on the ice, as a nod to the small thing nobody thought to pick. It shares a note with the tequila, so it brings out something already there.",
+      "Your way has one cost, though. Because you let so much go, people take your ease for not caring. Next time the table's arguing and the thing you care about is caught in the middle of it, don't just keep hold of it quietly. Tell them, out loud, that it matters to you. The people who thought you were easy about everything will be surprised. Then they'll trust your ease even more, because they'll know it was always your choice."
+    ]
+  },
+  "status": "draft"
+}

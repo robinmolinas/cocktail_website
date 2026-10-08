@@ -1,0 +1,119 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Café Brûlot's roots are a nineteenth-century French café drink, coffee and eau-de-vie simply mixed and set alight; in New Orleans it became a coffee service made at the table, in several intricate steps (Oxford pdf 381; F1, F3).",
+      "kind": "lineage",
+      "meaning": "A simple café drink was turned into an event served at the table. That's what the Tease does to an ordinary evening.",
+      "speaksTo": "Fear: \"the moment the spell turns into routine\"; gift: an ordinary thing made worth looking forward to"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In the classic recipe the coffee comes in at the end, and pouring it puts the flame out (Oxford pdf 382; Commander's via *Joy* pdf 262; Antoine's 1978 cookbook and Brennan's 1961, OCR highlights; F9–F12; one unsigned web account differs, C2).",
+      "kind": "reveal",
+      "meaning": "The thing everyone came for arrives last, and nobody is fooled: they can see it coming.",
+      "speaksTo": "\"they give away a little, hold back the rest and enjoy every second of the effect\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "One classic recipe, the Oxford Companion's, has most of the ingredients steep for several hours before anything happens at the table (pdf 381; F7, C4).",
+      "kind": "wait",
+      "meaning": "The waiting starts long before anyone sits down. Tell it as \"the recipe I follow\", never as Antoine's.",
+      "speaksTo": "\"the best … is the wait\" (persona; the phrase \"best part\" is *Curtain Call*'s, don't reuse it)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Its invention has been ascribed to Jules Alciatore, son of the founder of Antoine's, which still runs on St Louis Street (Oxford pdf 381; F2, C3).",
+      "kind": "person",
+      "meaning": "\"It's said\", no decade. Whoever brings it enjoying the faces is our reading, signposted (\"I like to think…\"). No page records anyone's enjoyment.",
+      "speaksTo": "\"relish the effect they have on you\" (signposted only)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Kirsch, a clear eau-de-vie distilled from cherries and their pits, with almond-like notes, goes into the classic (Oxford pdf 1135, 698; F14).",
+      "kind": "ingredient",
+      "meaning": "The surprise bottle in a coffee: the drink sounds worth having. Pits on the page carry the `nuts` veto.",
+      "speaksTo": "\"Nothing about it is crude\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Galatoire's (opened 1905) and Commander's Palace make it too; to many it's part of eating in New Orleans (Oxford pdf 381, 332; F4, F5).",
+      "kind": "renown",
+      "meaning": "A renowned classic, not one house's oddity.",
+      "speaksTo": "the drink sounds worth having (rulebook)"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Run the brandy down the peel. Then give someone else the coffee, and let the timing be theirs.",
+    "contains": [
+      "nuts"
+    ],
+    "glassware": "two demitasse cups (small coffee cups, about 90 ml) on saucers, warmed with hot water first",
+    "method": [
+      "A few hours ahead (3 to 4 is plenty), put the lemon and orange peel strips and the broken half cinnamon stick in a small jar with the cognac and kirsch. Close it and leave it.",
+      "When you're nearly ready, make the coffee and keep it hot. Fill the two cups with hot water to warm them. Cut the orange spiral and push the 6 cloves into it.",
+      "Lift the peels and cinnamon out of the jar. Pour the spirits and the syrup into a small pan and warm them over a low heat until they just steam, under a minute. Never let it bubble, and never light it.",
+      "Empty the cups. Hold the clove spiral over the first cup on a fork and pour half the warm spirits slowly down it, so they run over the peel and the cloves. Do the same over the second cup.",
+      "Hand the coffee to someone else. They pour 50 ml into each cup, whenever they like. Stir once and drink it hot."
+    ],
+    "name": "I'll Tell You Later",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "30 ml",
+        "item": "VS cognac",
+        "note": "steeped a few hours ahead with the peels and cinnamon"
+      },
+      {
+        "amount": "15 ml",
+        "item": "kirsch (clear, unsweetened cherry brandy)",
+        "note": "steeped with the cognac; two parts cognac to one of kirsch, as in Oxford's recipe"
+      },
+      {
+        "amount": "1 strip each",
+        "item": "lemon peel and orange peel, no white pith",
+        "note": "steeped in the spirits, then lifted out"
+      },
+      {
+        "amount": "half",
+        "item": "cinnamon stick, broken into pieces",
+        "note": "steeped in the spirits, then lifted out"
+      },
+      {
+        "amount": "17.5 ml",
+        "item": "demerara syrup (equal weights demerara sugar and water)",
+        "note": "warmed with the spirits"
+      },
+      {
+        "amount": "1",
+        "item": "orange-peel spiral (half an orange, cut round in one long strip), studded with 6 cloves",
+        "note": "the warm spirits run down it into the cups"
+      },
+      {
+        "amount": "100 ml",
+        "item": "hot coffee with chicory (New Orleans style; or any dark-roast filter coffee), freshly made",
+        "note": "added at the end, 50 ml a cup, by someone else"
+      }
+    ],
+    "tagline": "You always know the perfect moment. It's never the first one."
+  },
+  "pairing": "jester-lover",
+  "personality": "The Tease",
+  "reading": {
+    "epigraph": "A New Orleans coffee that keeps you waiting for the coffee.",
+    "whoYouAre": [
+      "You've had the best news of your week since lunchtime, and you haven't said a word. It can wait until the plates are cleared. The present comes out last, after a decoy that gets a groan. Someone asks why you're smiling, you say \"I'll tell you later\", and they lean closer. The real pleasure is watching it reach their faces.",
+      "You choose the moment with care, and you light up when it comes. It isn't a no that you dread. It's a flat \"just tell me\" from someone who's stopped playing along, or the day your little delays become what everyone expects. And there's one seat in the game you never take: the one where you're the one waiting.",
+      "So here it is: you give people something to look forward to. With you, an ordinary evening gets a reason to linger, and a tease is an invitation into the game."
+    ],
+    "yours": [
+      "In nineteenth-century France, cafés served a plain little drink: coffee and a spirit, simply mixed. New Orleans took that café drink and turned it into Café Brûlot, a coffee prepared at the table over several careful steps. It's said Jules Alciatore first made it at Antoine's, the restaurant his father founded, which still serves on St Louis Street. Galatoire's and Commander's Palace make it too, and to many people it's part of eating in New Orleans.",
+      "One classic recipe soaks cinnamon and peels of lemon and orange for hours in cognac and kirsch, a clear cherry brandy. Then the warm brandy runs down a long spiral of orange peel studded with cloves. Only then, in the classic recipe, comes the coffee, the very thing everyone ordered, and pouring it in puts out the brandy's flame.",
+      "Nobody is fooled. Everyone there knows the coffee is coming. And I like to think the person carrying it out enjoys every face while choosing the moment. That's you, teasing, exactly. Coffee after dinner is about the most ordinary thing there is, and New Orleans gave it a build-up. You do that to an ordinary evening.",
+      "The cocktail I've made for you follows the classic recipe's order, in my own measures, for two little coffee cups, and it's never lit. Cognac and kirsch sit for a few hours with the peels and cinnamon. Then they're warmed gently with syrup made from demerara sugar, and run down a clove-studded orange spiral into the cups. It's warm, dark and spiced, with the cherry as the surprise. The coffee, made with chicory the New Orleans way, comes in at the end. And one more change, just for you: someone else pours the coffee, whenever they choose.",
+      "So, one evening soon, let someone else decide when. Let them keep their news until the plates are cleared, or hand you the present after the decoy. Sit in their seat for once and enjoy not knowing. You'll feel what you've been giving people all along, and you'll find the game is even better with two. I hope someone keeps you guessing."
+    ]
+  },
+  "status": "draft"
+}

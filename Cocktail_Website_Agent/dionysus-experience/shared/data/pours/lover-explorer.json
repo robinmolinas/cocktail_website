@@ -1,0 +1,129 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The son of the postmaster of Skunk Hollow, New York, he made millions on Broadway, starting with *Within the Law* in 1912: \"a twenty-five-year career encompassing 150 plays\" (Oxford, GAIGE, CROSBY, pdf 861).",
+      "kind": "story",
+      "meaning": "His trade was nights that end. Every play has a closing night (our reading, Wren's reframe, signposted).",
+      "speaksTo": "one true thing: it's never the bill, it's the lights coming up"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His true passions, fine vintages and cooking, \"lay outside the theater\" (pdf 861).",
+      "kind": "story",
+      "meaning": "His true passions weren't the show. They were the table.",
+      "speaksTo": "the feast; permission to enjoy"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "After the 1929 crash he looked to those passions \"for livelihood\": a monthly Cellar and Pantry column in *Country Life* (pdf 861). He kept producing into the mid-1930s (*Othello* and *Macbeth*, 1935: Shaw 2019, relaying the *NYT* obituary).",
+      "kind": "turn",
+      "meaning": "When the big party stopped, what he loved all along carried him. It changed the party's shape, not his whole life.",
+      "speaksTo": "fear: when the music stops"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 1937 NBC broadcast his daily radio programme, *Kitchen Cavalcade* (pdf 861, citing *Radio Daily*, 16 Sep 1937).",
+      "kind": "after",
+      "meaning": "He shared the pleasure every day with strangers he'd never meet. The party went out on the air.",
+      "speaksTo": "gives: permission to enjoy things without apologising"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His cocktail guide (1941: M. Barrows imprint in the *J. Am. Dietetic Assoc.* review, Aug 1942; \"Copyright 1941\" on the 1946 fifth printing) had celebrity contributions and was one of the vectors through which the Bloody Mary spread (pdf 861). Gaston Lauryssen, host at the St. Regis, gave it the Red Snapper: 2 oz tomato juice to 2 oz vodka, with Worcestershire and salt among its seasonings (the OCR cuts off after them) (guide p. 57, OCR of the 1946 fifth printing, F17). Joy says it was served straight up as a cocktail (pdf 249). Oxford: the Red Snapper is \"the more genteel name\" for the earliest Bloody Mary at the St. Regis (pdf 1624, F18).",
+      "kind": "drink",
+      "meaning": "Equal parts, short, no ice to keep it going: a drink that has an end (Tomás's physics; our reading).",
+      "speaksTo": "the drink as proof: an ending chosen on a good note"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His home was Watch Hill Farm, Peekskill (UP obituary, *Kingston Daily Freeman*, 8 Mar 1949). His private press was in the barn, \"overlooking the loveliest of flower gardens\", and it printed dinner menus among its dozen books, one of them for the Wine & Food Society of New York's tasting at the Waldorf-Astoria on 29 April 1941 (*Print* 2:2, Summer 1941).",
+      "kind": "home",
+      "meaning": "Even his press printed invitations to the table.",
+      "speaksTo": "colour, optional"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "*Dining with My Friends* (Crown, 1949) came out after his death in March 1949. *Saturday Review* calls it \"posthumously published\". Its contents run as dinners, his first, then his friends' (OCR of the contents page; the text is unread).",
+      "kind": "after (Wren, r3)",
+      "meaning": "The company outlasted the host (our reading).",
+      "speaksTo": "fear answered: the people don't vanish"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "*Curtain Call*. The theatre was his trade (F1), and the cheer at a show's end belongs to the guest. The name makes no claim about his count or his curtains.",
+      "kind": "name",
+      "meaning": "An ending people applaud.",
+      "speaksTo": "the turn: the ending loved, not feared"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The glass is served up with no ice (spec; the guide's drink was served straight up, Joy pdf 249).",
+      "kind": "ritual",
+      "meaning": "Nothing keeps it going, so it ends (Tomás's physics).",
+      "speaksTo": "position: choose the night's ending"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "There's no ice in it, so it ends. Choose the night's ending yourself, before the coats come out.",
+    "contains": [],
+    "glassware": "a stemmed wine glass (about 250-300 ml), chilled, no ice",
+    "method": [
+      "Fill the wine glass with ice and water to chill it while you mix.",
+      "Pour the vodka, tomato juice, manzanilla and lemon juice into a shaker, and add the celery salt and the salt.",
+      "Fill the shaker with ice and shake for ten seconds. No longer: tomato goes thin and frothy if you keep shaking.",
+      "Empty the glass and strain the drink into it. No ice in the glass: it's served up, as a cocktail."
+    ],
+    "name": "Curtain Call",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "vodka",
+        "note": "any plain vodka"
+      },
+      {
+        "amount": "45 ml",
+        "item": "tomato juice",
+        "note": "a good plain bottled one, not a Bloody Mary mix: as much tomato as vodka, as in his cocktail guide"
+      },
+      {
+        "amount": "15 ml",
+        "item": "manzanilla sherry",
+        "note": "or any fino: bone-dry, and it brings the savoury depth the Worcestershire used to"
+      },
+      {
+        "amount": "15 ml",
+        "item": "fresh lemon juice"
+      },
+      {
+        "amount": "a small pinch",
+        "item": "celery salt"
+      },
+      {
+        "amount": "a small pinch",
+        "item": "fine salt",
+        "note": "leave it out if your tomato juice is already salted"
+      }
+    ],
+    "tagline": "You love every minute. Even the last one, if you let it."
+  },
+  "pairing": "lover-explorer",
+  "personality": "The Pleasure Seeker",
+  "reading": {
+    "epigraph": "The Bloody Mary once had a politer name, and no ice at all.",
+    "whoYouAre": [
+      "You say yes first, every time. Yes to the cold sea in May, to the dish nobody else at the table dares to order (and then everyone wants a forkful), to walking on somewhere after dinner because the night's too good to end there. You enjoy things properly, out loud, and it's catching. With you around, people stop feeling guilty about the long lunch on a weekday, or the second pudding.",
+      "It's never the bill you mind. It's the lights coming up. You can feel the end of a good night coming long before anyone reaches for a coat, sometimes right in the middle of the best part, and that's partly why you enjoy things so hard. Nobody's there for the ride home, when everyone goes back to their own lives and the noise stops all at once. The fear under it is a plain one: that when the music stops, you'll be the one left in the quiet. Still, you make enjoying things feel safe, and people remember who did that for them."
+    ],
+    "yours": [
+      "Crosby Gaige was the son of the postmaster in a place called Skunk Hollow, New York, and he became one of Broadway's leading producers, in a career that took in some 150 plays. But his true passions lay outside the theatre: fine wine and cooking.",
+      "After the crash of 1929, he started making his living from those two loves too. He wrote a monthly column called Cellar and Pantry, and in 1937 NBC started broadcasting his daily radio programme, *Kitchen Cavalcade*. There was a printing press in the barn on his farm, and among the things it printed were dinner menus.",
+      "I like to think that after some 150 plays, he knew what every good show knows: it ends while people still want more, and that's why they come back. You'd have understood each other. The big party of the Twenties stopped in 1929, the moment you'd dread most, and what he did was lay a longer table, one that people he'd never meet could join every day on the radio. His last book is called *Dining with My Friends*. His own dinners come first, and then his friends' follow.",
+      "The cocktail I've made for you starts from a recipe in his cocktail guide of 1941, a witty book with recipes sent in by famous names, and one of the ways the Bloody Mary spread. Gaston Lauryssen of New York's St. Regis hotel sent him his hotel's version, under the politer name it went by there: the Red Snapper. It had as much vodka as tomato juice, with Worcestershire sauce and salt among its seasonings, and it was served straight up, as a cocktail, not over ice. The equal parts and the glass without ice both stay. I took out the Worcestershire and put in a splash of manzanilla, a bone-dry Spanish sherry, so his cellar and his kitchen share the glass. With fresh lemon and a pinch of celery salt, it's savoury, bright and properly cold. And because it's served up, it's short, and it has a real ending. I wanted that for you.",
+      "One night soon, when it's at its very best, the table loud and nobody watching the time, be the one who ends it. Not because you're tired, and not to be sensible. Say it out loud: this was perfect. Then name the next one, and the date. You'll leave on the best note instead of the last one, and you'll find out what happens when the music stops. Nobody vanishes. They ask you when. And may the next one be even better."
+    ]
+  },
+  "status": "draft"
+}

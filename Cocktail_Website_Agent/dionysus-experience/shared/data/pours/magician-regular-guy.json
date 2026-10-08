@@ -1,0 +1,156 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "In his 1862 book Thomas warned the beginner not to scald himself, and said getting good at throwing the liquid between the mugs meant practising \"for some time with cold water\" (F2; Imbibe! pdf 142, Oxford ROCKS pdf 1672).",
+      "kind": "practice",
+      "meaning": "The show everyone remembers starts with a quiet rehearsal nobody sees. It's his advice to others, not a record of his own hours.",
+      "speaksTo": "hide (the private practice); test 1"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He gave little guidance for the throw itself; the one observation Oxford singles out is that cold-water practice (F3; Oxford pdf 1672).",
+      "kind": "practice",
+      "meaning": "For the throw, nearly all the advice he left is \"practise\" (never \"secret\", never what he \"thought worth\").",
+      "speaksTo": "hide; possible proposal image (let one person into the practice)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The scald warning sits in the same sentence as the practice (F2).",
+      "kind": "risk",
+      "meaning": "The flop is admitted up front, in the maker's own book.",
+      "speaksTo": "fear; test 4"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 1883 a Chicago bartender sniffed that it was a drink for the country, where people cared more for watching the blaze than for the drink (F6; Oxford pdf 298, Imbibe! pdf 142). A put-down, paraphrased; never \"jays\".",
+      "kind": "crowd",
+      "meaning": "Ordinary people, there for the minute of wonder, not the recipe. The sneer looks down from the first-class bars (\"seldom called for over a first-class bar\"); where the speaker worked isn't on the page. The Entertainer's point in reverse.",
+      "speaksTo": "give (anyone let in); tests 2-3"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Nineteenth-century drinkers wrote enthusiastic accounts of flaming arcs that Oxford says defy gravity (F16, L3).",
+      "kind": "crowd",
+      "meaning": "The minute grew in the retelling. Label: the arcs are a legend; the enthusiasm is on the record.",
+      "speaksTo": "test 3 (optional)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Bartenders took it up with rum and brandy, and it stayed popular through the 1890s (F9; Imbibe! pdf 142; Oxford pdf 297 \"until the beginning of the twentieth century\").",
+      "kind": "spread",
+      "meaning": "The joy spread past its maker.",
+      "speaksTo": "test 5"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Nearly dead by 1900, it came back about a century later in the cocktail revival (F9, F10).",
+      "kind": "spread",
+      "meaning": "What holds.",
+      "speaksTo": "test 5"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Under the fire it's a hot Scotch toddy: Scotch, boiling water, sugar, lemon peel; Thomas's 1862 book called for Scotch alone (F1, F11).",
+      "kind": "drink",
+      "meaning": "The drink under the show (Wren's ruling).",
+      "speaksTo": "Tomás"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Wondrich: from the mixing side, the Blazer is \"merely a Scotch Whisky Skin\" plus the usual mixing method and fire (F17; Imbibe! pdf 141). Thomas's 1862 Skin is Scotch, a piece of lemon peel and boiling water, with no sugar (F18; pdf 140).",
+      "kind": "drink",
+      "meaning": "The drink under the show, in a historian's words.",
+      "speaksTo": "Tomás; Wren's ruling"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The 1863 recipe, known through Campbell's 1867 reprint, mixes Scotch and Irish whisky in the same mug (F19; Imbibe! pdf 142).",
+      "kind": "drink",
+      "meaning": "Two whiskies in one glass is on the page. \"Two strangers\" is our reading, never his reason.",
+      "speaksTo": "Tomás; Wren (the laugh between people)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The same recipe ends \"pour mixture into glass blazing, and cover with cup\" (F19).",
+      "kind": "gesture",
+      "meaning": "The cover on the page most likely put the flame out (our inference). Our saucer is our own method, told as ours.",
+      "speaksTo": "Tomás"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "David Wondrich writes that Thomas's bar cellar held barrels of fifteen-year-old Caol Ila malt (F21; Imbibe! pdf 137; \"the brand Thomas had in his cellars\", pdf 142). The distillery's first official single malt bottling came only in 2002 (F22; Oxford pdf 402). Caol Ila 12 is 43% (F23).",
+      "kind": "bottle",
+      "meaning": "The same distillery, not the same whisky. Recommended, \"on Wondrich's word\"; substitute any Islay single malt.",
+      "speaksTo": "Tomás"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A modern maker's advice: dim the lights so the audience sees the flames, and so do you: \"you want to see the flames\" (F15; Imbibe! pdf 143, Wondrich, not Thomas).",
+      "kind": "attention",
+      "meaning": "The thrower's eyes are on the fire. Any line about where the maker looked is \"I like to think…\", and it can't say they weren't watching the fire.",
+      "speaksTo": "test 6"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Lift the saucer yourself. Then practise the next trick with someone.",
+    "contains": [],
+    "glassware": "a small heatproof glass tumbler (about 300 ml), warmed with hot water first",
+    "method": [
+      "Fill the tumbler with hot water to warm it, then pour that water away.",
+      "Put the sugar and the lemon peel in the glass. Press the peel into the sugar with the back of a spoon a few times, so the sugar pulls out the oil in the peel.",
+      "Pour in the water, just off the boil, and stir until the sugar has disappeared.",
+      "Add both whiskies and stir once.",
+      "Cover the glass with a saucer, so the lemon and the smoke stay in the glass instead of drifting into the room.",
+      "Lift the saucer off just before you drink it, and smell it before the first sip."
+    ],
+    "name": "Cold Water First",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "30 ml",
+        "item": "Caol Ila 12 Islay single malt Scotch whisky (43%), recommended",
+        "note": "from the distillery whose malt Thomas kept in barrels in his cellar, the historian David Wondrich writes; or any Islay single malt at ordinary bottling strength (40–46%)"
+      },
+      {
+        "amount": "30 ml",
+        "item": "Irish single pot still whiskey (40–46%)",
+        "note": "his recipe from the following year mixed Scotch and Irish (half and half, as Wondrich reads it)"
+      },
+      {
+        "amount": "14 g",
+        "item": "demerara sugar",
+        "note": "a slightly heaped tablespoon"
+      },
+      {
+        "amount": "1",
+        "item": "piece of lemon peel, pared in one go, no white pith",
+        "note": "one long piece, as Wondrich advises"
+      },
+      {
+        "amount": "150 ml",
+        "item": "water, just off the boil",
+        "note": "about two-thirds of a cup"
+      }
+    ],
+    "tagline": "You practise alone so that strangers can laugh together."
+  },
+  "pairing": "magician-regular-guy",
+  "personality": "The Entertainer",
+  "reading": {
+    "epigraph": "People came to watch the fire. This is what was underneath it.",
+    "whoYouAre": [
+      "A pack of cards on a kitchen table, or at a bus stop while the bus is late, and for one minute the ordinary world goes strange. Grown-ups turn back into children. Whoever happened to be standing there gets it.",
+      "People think you do it for the gasp. The gasp is lovely, but what you really practise for is the second after, when two people who've never met look at each other and laugh. You're the only one there who knows how it's done, so you don't get the wonder. You get their faces, and that's what you came for. What you'd rarely say is how much it matters, and how much you dread the silence where that laugh should be, in front of people who owe you nothing. That's what the hours are against, and what they buy is a minute in which you turn a bus stop full of strangers into a room. Very few people can do that with a pack of cards."
+    ],
+    "yours": [
+      "The Blue Blazer is one of the drinks Jerry Thomas is remembered for: hot whisky set alight and poured back and forth between two mugs in a long arc of blue fire. In his 1862 book he gave almost no instructions for the throw. What he did give was a warning to beginners not to scald themselves, and one piece of advice: to get good at it, you'd have to practise for some time with cold water.",
+      "By the 1880s the smart bars had tired of it. In 1883 a Chicago bartender sniffed that it was a drink for the country, where people cared more for watching the blaze than for the drink. I'd take that as the compliment he didn't mean. It nearly vanished by 1900 and came back about a hundred years later.",
+      "I like to think every bartender who threw one started the way the book said: at an empty bar before opening, pouring cold water from mug to mug, and missing, with nobody to impress. That's the bit of you strangers never get: the cold water. For the throw itself, it's nearly all the advice Thomas left.",
+      "The cocktail I've made for you starts from what was in the mugs while the crowd watched the fire. Take away the fire and the pouring, says David Wondrich, the historian, and the Blazer is \"merely a Scotch Whisky Skin\": whisky, lemon peel and boiling water. Thomas's recipe from the following year mixes Scotch and Irish whisky in one mug, so I've kept both. One is a gently smoky Scotch from the island of Islay, ideally Caol Ila, the distillery whose malt Thomas kept in his cellar, Wondrich writes. The other is an Irish whiskey made the old way, in a pot still, round and rich. We don't know why he mixed them. My guess is that two whiskies that rarely share a glass get on better than anyone expects, and I kept both as a nod to what you do at bus stops. Demerara sugar and one long ribbon of lemon peel go into a warm glass, then the boiling water, then the whiskies. His recipe ends by covering the glass, most likely to put the flame out. I've kept the cover and given it a new job: a saucer keeps the lemon and the smoke in while it steeps. The fire went into the smoke. And the saucer coming off is the one reveal that's just for you.",
+      "So when you're learning the next one, don't wait until it's perfect. Let one person watch you practise, spills and all. You'll find they laugh just as much, and you'll be in the laugh instead of watching it from behind the cards."
+    ]
+  },
+  "status": "draft"
+}

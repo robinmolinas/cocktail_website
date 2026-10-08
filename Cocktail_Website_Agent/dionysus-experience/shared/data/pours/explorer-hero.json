@@ -1,0 +1,134 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Blanton's became the first single-barrel bourbon brand, introduced in 1984; the modern practice was pioneered that year by Elmer T. Lee (Oxford, BLANTON'S pdf 283; SINGLE BARREL pdf 1806)",
+      "kind": "lineage",
+      "meaning": "The first is Oxford's own sentence, scoped to the brand",
+      "speaksTo": "the first, solid on the page"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Albert Blanton bottled one particularly good barrel for himself or as gifts to insiders, a practice not uncommon among executives of his era (Oxford pdf 283); Lee: the idea was \"what I had learned from Colonel Blanton\" (*Whisky Magazine* 85, 2010)",
+      "kind": "story",
+      "meaning": "Something kept inside the trade, that Lee put on a shelf in front of everyone",
+      "speaksTo": "private, then in front of everyone"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Lee spent his working life at one plant: engineer from 1949, manager by 1969 (*Boston Globe*, 22 July 2013)",
+      "kind": "story",
+      "meaning": "The years nobody saw",
+      "speaksTo": "the preparation"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Others had launched premium bourbons and withdrawn them for lack of interest; \"the audience gathered slowly\" (*Boston Globe*, 2013)",
+      "kind": "story",
+      "meaning": "Failure would have been public; it held steadily",
+      "speaksTo": "done where failure would be seen; the steady doing"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Lee: \"I had no idea it would become as worldwide as it is\"; other distillers \"followed suit … three to four years after\" (*Whisky Magazine*, 2010)",
+      "kind": "story",
+      "meaning": "Understatement in his own words; others followed",
+      "speaksTo": "the shrug is for the next person"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Asked if a bourbon could carry his name: \"Yes, provided you let me pick the bourbon that goes in it\" (*Whisky Magazine*, 2010); named 1986 (WhiskyCast, 2013)",
+      "kind": "story",
+      "meaning": "The work mattered more to him than the name",
+      "speaksTo": "understatement"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Single barrels carry all the variations of one barrel, where most whiskey is poured together from many barrels for consistency (Oxford pdf 1806); Blanton's barrels chosen within a flavour profile (pdf 283)",
+      "kind": "ingredient",
+      "meaning": "The barrel goes out alone",
+      "speaksTo": "Tomás: nothing blends it away"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Bourbon must be at least 51 percent corn by US regulation, most substantially more (Oxford, CORN pdf 583)",
+      "kind": "ingredient",
+      "meaning": "Tomás's corn–caramel pairing (Matrix pdf 88) stands on the grain, not on any one bottle's recipe",
+      "speaksTo": "the spark"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Bourbon ages in new oak charred inside; charring turns some of the wood's own sugars to caramel, giving caramel and toffee notes (Oxford, WHISKY, BOURBON pdf 2140; CHARRING, TOASTING pdf 437)",
+      "kind": "ingredient",
+      "meaning": "The pan does to the sugar what the char did to the wood: the caramel meets the barrel, it doesn't cover it",
+      "speaksTo": "the spark (cooked to amber)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Old-Fashioned is an example of what the \"original\" cocktail was like; the first known definition (1806): spirits, sugar, water and bitters (Oxford, OLD-FASHIONED COCKTAIL pdf 1427); in the cocktail revival it \"reached dizzying heights of popularity\" (Oxford, COCKTAIL pdf 491); named among the classics (CLASSIC COCKTAIL pdf 473)",
+      "kind": "lineage",
+      "meaning": "The renowned classic clause in y4",
+      "speaksTo": "let the drink sound worth having"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Take the sugar off at amber. And when they ask, let them hear how close it came.",
+    "contains": [],
+    "glassware": "a small tumbler (about 200 ml), chilled in the freezer, no ice",
+    "method": [
+      "Make the caramel syrup ahead. Put 1 tablespoon of water in a small heavy pan and pour 200 g of white sugar on top. Heat it on medium without stirring, just swirling the pan now and then, and watch it the whole time. It goes clear, then pale gold, then deep amber. Take it off the heat at deep amber, as soon as it smells toasted and before any smoke rises: past that point it turns bitter in seconds. Stand back and slowly pour in 200 ml of hot water. It will spit and boil hard, and the caramel will set into lumps. Put the pan back on a low heat and stir until everything has dissolved, then let it bubble gently for a minute or two more, until it's about as thick as runny honey. Let it cool and keep it in a closed jar in the fridge. It makes enough for about 25 drinks.",
+      "Put a small tumbler in the freezer for at least 10 minutes.",
+      "Read the strength on your bottle's label. Up to 47.5% (95 proof), use 60 ml of bourbon and no water. If it's stronger, the bourbon and cold water together make 60 ml: up to 51.5%, 55 ml of bourbon and 5 ml of water; up to 57%, 50 ml and 10 ml; up to 63%, 45 ml and 15 ml; up to 70%, 40 ml and 20 ml. If you're between two, take the one with more water.",
+      "In a mixing glass or jar, pour 1½ teaspoons of caramel syrup, 2 dashes of Angostura, then the bourbon (and the water, if you need it). Fill it with ice and stir steadily for about 30 seconds, until the outside of the glass feels very cold.",
+      "Strain into the cold tumbler. Don't add ice.",
+      "Squeeze the orange peel over the top, skin side down, so its oils fall on the drink. Rub it once around the rim, then set it aside."
+    ],
+    "name": "Nothing to It",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "Blanton's Original Single Barrel bourbon (recommended), or any single-barrel bourbon",
+        "note": "one barrel, bottled on its own; if your bottle is stronger than 47.5%, pour less and make up the 60 ml with water (step 3)"
+      },
+      {
+        "amount": "0-20 ml",
+        "item": "cold water, only for a bottle stronger than 47.5% (none for Blanton's)",
+        "note": "measured from the label (step 3)"
+      },
+      {
+        "amount": "1½ teaspoons (7.5 ml)",
+        "item": "caramel syrup, made at home (step 1)",
+        "note": "sugar taken to deep amber and no further"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "1",
+        "item": "strip of orange peel",
+        "note": "for its scent only"
+      }
+    ],
+    "tagline": "You went first, so they knew they could."
+  },
+  "pairing": "explorer-hero",
+  "personality": "The Pioneer",
+  "reading": {
+    "epigraph": "One barrel, bottled alone, used to stay inside the trade. Then someone put it on sale.",
+    "whoYouAre": [
+      "The top of the high board, the whole pool gone quiet, everyone looking up. Years later it's a microphone, or a first day in a place where you don't know a soul. You've gone through it so many times in your head that you know every step of it. From the outside, it looks as if you were made for this.",
+      "You're scared every time. Nobody's ever been able to tell. What gets you up there isn't a lack of fear. It's a bigger one: the day you could have gone and didn't, and knowing it for the rest of your life. So you go. And afterwards, when people ask, you make it sound like very little. That isn't modesty. You've seen what happens when something looks impossible: nobody tries. So you make it look possible, and somebody behind you decides they could do it too. Hardly anyone knows you do that on purpose. It's one of the most generous things a person can do for whoever comes after them, and you do it every time."
+    ],
+    "yours": [
+      "Most whiskey is poured together from many barrels before it's bottled, sometimes a great many, so every bottle tastes the same. A single barrel doesn't get that. Whatever that one barrel became is what goes in the bottle. In Kentucky, Albert Blanton, whose name the distillery in Frankfort once carried, used to bottle one particularly good barrel on its own, for himself or as a gift to people in the trade. Other distillery bosses of his time did it too. It stayed with him and the people he gave it to.",
+      "Elmer T. Lee had joined the same distillery in 1949, and worked under Blanton. When new owners asked Lee for a premium bourbon, the idea, he said, was what he'd learned from Colonel Blanton. In 1984, Lee and his staff did it in front of everyone: barrels bottled one at a time, and sold. It was the first single-barrel bourbon brand. Other fine bourbons had been launched before and taken off the shelves for lack of interest. This one's audience gathered slowly, and then, as Lee told it, the other distillers followed, three or four years later. \"I had no idea,\" he said, \"it would become as worldwide as it is.\" When the owners asked if a bourbon could carry his own name, he said yes, provided he could pick the bourbon that went in it. At ninety, he was still picking.",
+      "I don't know if Lee was nervous. I like to think he was, a little, and that nobody could tell. This is the part of the story that's about you. Years of learning something where it was safe. Then one day doing it on a shelf, where anyone could judge it. And twenty-five years later, still no speech: \"I had no idea.\" You know that shrug, because it's the one you use. And it did what it always does for you: it made the thing look possible, and the others followed.",
+      "The cocktail I've made for you is an Old-Fashioned, the oldest shape a cocktail has and one of the best loved, made with one single-barrel bourbon and no other whiskey. I'd pour Blanton's, or any single-barrel bourbon. The sugar is my change. Every bourbon barrel is charred inside, and the charring turns some of the wood's own sugars to caramel. So instead of the usual sugar, I do the same to it: it's cooked in a pan to deep amber, taken off the heat before it can turn bitter, and loosened with water, to bring out what the barrel already has, not to cover it. I did that for you, because you know exactly how far to go, and when to stop. Two dashes of Angostura, a long stir over ice, and it's poured, small and cold, into a tumbler from the freezer, with no ice. Last, the oil from an orange peel, for its scent, and the peel set aside.",
+      "After the next thing everyone watched you do, don't make it sound like nothing. Find the person who's thinking of going next, and tell them you were terrified, and that you went. Your steadiness showed them it could be done. Your fear will show them they don't have to be fearless to do it. And you get back something you've been giving away every time you shrugged: how much it took."
+    ]
+  },
+  "status": "draft"
+}

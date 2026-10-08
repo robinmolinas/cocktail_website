@@ -1,0 +1,123 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Joseph James Forrester, born in Hull in 1809, went to Oporto in 1831 to join his uncle's port house, Offley, Forrester & Webber; the DNB calls him a merchant and wine shipper (F1, F2).",
+      "kind": "person",
+      "meaning": "He spoke from inside the trade, about wine he shipped. What he said came from what he'd seen, not from a theory.",
+      "speaksTo": "values evidence over approval"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 1844 he published a pamphlet on the port trade without his name on it, *A Word or Two on Port Wine*; eight editions ran out fast (F4, C1).",
+      "kind": "reveal (the first telling)",
+      "meaning": "Plenty of people wanted a copy. That says there was demand, not that anyone agreed.",
+      "speaksTo": "Not afraid to share what they have discovered and what they know"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The DNB says he blamed abuses in how port was made and handled, and the Douro Wine Company's monopoly (created 1756), with its heavy export taxes and its limits on what could be shipped, for the slump in the trade (F5, F6).",
+      "kind": "official version",
+      "meaning": "He named the way things were officially run, not a rival.",
+      "speaksTo": "challenges conventional wisdom · a comfortable lie becoming the official truth"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He was easily identified as the author, and \"bitterly attacked by the persons interested\", meaning people with a stake in the trade as it was (F7). The people of the wine country backed him warmly (F8, one clause at most).",
+      "kind": "cost",
+      "meaning": "Leaving his name off didn't keep him out of it. The attack came from those with something to lose; it says nothing about whether he was right.",
+      "speaksTo": "everyone important wants them to stop"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In May 1852 he gave evidence, as Mr. J. J. Forrester, to the Commons Select Committee on Import Duties on Wines, setting out at greater length every abuse the pamphlet had summarised (F10–F12). A bibliography lists more of his writing on the same subject in 1845 (F13).",
+      "kind": "the second telling",
+      "meaning": "After the attack he said it again, with more of it, under his own name and on the record.",
+      "speaksTo": "he kept saying so"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford: elderberries were used to darken port and add fruit, and by the 1840s Forrester railed against them (F14). Whether his charges held is disputed (C3).",
+      "kind": "ingredient",
+      "meaning": "What he wrote about was in the glass itself. We tell what he said, never that he was proved right.",
+      "speaksTo": "evidence over approval"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He had a stake too: he shipped port, and a 2011 history counts him among the people in the 1852 debate on Britain's wine import duties who weren't disinterested (C4).",
+      "kind": "counterweight",
+      "meaning": "He wasn't a saint and needn't be. A person can be right, or partly right, and still have something to gain.",
+      "speaksTo": "(for Wren: the crank and purity traps)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "No source gives a reason for the anonymity (L1).",
+      "kind": "motive (ours only)",
+      "meaning": "Signposted only: \"I like to think he hoped the pages would be judged on their own.\"",
+      "speaksTo": "loneliness is often the price"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "*Codex* p. 250: port is a fortified wine from the Douro Valley, a blend of several Portuguese grapes, fortified with young grape brandy partway through fermentation; red styles are ruby, vintage, late-bottled vintage, tawny, colheita.",
+      "kind": "ingredient (drink)",
+      "meaning": "Port is his subject, so it's the core, not a seasoning (plan).",
+      "speaksTo": "—"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Ruby first, then twice the tawny. Make the second pour the bigger one.",
+    "contains": [],
+    "glassware": "small stemmed port glass (about 150 ml), chilled, no ice",
+    "method": [
+      "Make the tea: steep 2 bags of plain black tea in 150 ml of just-boiled water for 8 minutes, twice as long as for a cup, so it comes out strong and a little drying. Lift the bags out, let it cool, and keep it in the fridge (it lasts two days).",
+      "Put the glass in the freezer for 10 minutes.",
+      "In a mixing glass or a jar, pour the ruby first, then the tawny, then the cold tea.",
+      "Fill with ice and stir for about 15 seconds, until the outside of the glass is cold.",
+      "Strain into the chilled glass, with no ice.",
+      "Squeeze the orange peel over the top so its oils fall on the drink, then set it aside."
+    ],
+    "name": "On the Record",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "20 ml",
+        "item": "ruby port",
+        "note": "a young, non-vintage ruby"
+      },
+      {
+        "amount": "40 ml",
+        "item": "10-year-old tawny port",
+        "note": "any tawny with \"10 years old\" on the label"
+      },
+      {
+        "amount": "25 ml",
+        "item": "cold strong black tea",
+        "note": "plain black tea (not Earl Grey or any flavoured tea), no sugar, no milk: 2 tea bags in 150 ml just-boiled water for 8 minutes, then cooled in the fridge"
+      },
+      {
+        "amount": "1 strip",
+        "item": "orange peel"
+      }
+    ],
+    "tagline": "You don't like being the only one. You like pretending even less."
+  },
+  "pairing": "sage-outlaw",
+  "personality": "The Lone Voice",
+  "reading": {
+    "epigraph": "Port goes in twice here: once in short, then again at greater length.",
+    "whoYouAre": [
+      "You looked into it properly: the figures behind the plan everyone's excited about, the story the family has told for years, the way things have always been done at work. And it doesn't hold. So you said so, plainly, with what you'd found. The room went quiet, and not the good kind.",
+      "Here's what you don't show. You don't enjoy standing there on your own, not at all. Part of you hopes you're wrong, because being wrong would make life simpler. So you check it again, usually late, and it's still there. Then you say it again, with more of it. What you can't live with is the comfortable version becoming the official one, with nobody having said a word.",
+      "And often, later, someone finds you, a little quietly, to say they'd wondered the same. Because you said it first, they get to say it second. That's a gift, though it rarely feels like one at the time."
+    ],
+    "yours": [
+      "In 1831 a young man born in Hull, Joseph James Forrester, went out to Oporto, in Portugal, to join his uncle, a partner in a port house there. He became a merchant and wine shipper, and over the years he came to believe the trade was being badly run: port mishandled in the making, and the Douro Wine Company, which held a monopoly dating from 1756, taxed exports heavily and limited how much could be shipped. He blamed both for the slump the port trade was in.",
+      "In 1844 he set it out in a pamphlet, without his name on it. It ran through eight printings fast, so plenty of people wanted a copy. He was easily found out anyway, and bitterly attacked by those with a stake in the trade as it was. I like to think he'd hoped the pages would be judged on their own.",
+      "What he did next is why I thought of you. He didn't go quiet. By the next year he had more on the same subject in print. And in 1852 he gave evidence to a committee of the House of Commons, under his own name this time, setting out at greater length every abuse his pamphlet had summed up. He wasn't on his own: the people of the wine country backed him warmly. He had a stake too: he shipped port himself, and what that committee was weighing was Britain's duty on wine. And not everyone since agrees he was right about all of it. But what stays with me is the order of things. First the attack, then more of the argument, not less. Most people only ever see the first time you say something. They don't see you checking it again, and coming back with more.",
+      "So the cocktail I've made for you is port, twice. It's stirred and served like a Martini, with port where the gin would be: first a short measure of young ruby, fresh and fruity, then twice as much tawny, a blend of wines from several years. The same kind of wine, said again at greater length, as a nod to the way he kept saying it. Port tends to be sweet, and rather than add anything to make it go down easier, I dried it with strong, cold black tea. On the flavour chart I work from, port and tea sit in the same family of aromas. Orange oil goes on top, and it's served with no ice, in a small, chilled port glass.",
+      "Let me leave you with this. When a room goes cold on you, it's tempting to read it as an answer. On bad nights it feels like proof you're wrong. On good ones, like proof you're right. It's neither. Forrester was attacked by the people with a stake and backed by the people of the wine country, and neither of those settled whether he was right. So the next time it goes quiet, let it, and go back to what you found. If it's still there, say it again, with more of it. And if one day it isn't, you'll be the one who says so, out loud. That's exactly why people can trust what you tell them."
+    ]
+  },
+  "status": "draft"
+}

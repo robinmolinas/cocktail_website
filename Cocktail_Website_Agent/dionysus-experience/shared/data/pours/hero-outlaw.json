@@ -1,0 +1,120 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "In 2003 LeNell Smothers opened a wine and liquor shop at the far end of Van Brunt Street in Red Hook, Brooklyn, almost on the waterfront. Her chronicler jokes that you could hardly pick a better spot to hide a business. Bartenders came out to it anyway. (*Proper* p. 237; F1–F3)",
+      "kind": "place",
+      "meaning": "It looked like the worst bet on the map, and the people who needed it made the trip. The doubtful look and the dependable thing are both true at once.",
+      "speaksTo": "lens: The real me · texture: Risk taker"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In her own words (to Simonson, 2014), she knew how hard many things were to find if you were into classic cocktails. While friends in the trade worried about buying big cases of Hennessy at a good price, she went after odd cases of Italian amaro. (*Proper* p. 238; F7, F9)",
+      "kind": "motive (on the record)",
+      "meaning": "She stocked for the people who needed it, not for the easy sale. Her reason is hers, on the record; nothing beyond it is claimed.",
+      "speaksTo": "drawnToward: Mastery · soughtFor: Honesty"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Her shelves held bourbons not distributed in New York, rye at a time when hardly anyone stocked it, rye from Kentucky barrels she chose herself, amari and cachaça. Other liquor stores didn't bother with slow-selling stock like this, though much of it could be bought. (*Proper* pp. 237–239; F4, F8, F18)",
+      "kind": "stock",
+      "meaning": "What you came for was there, without fuss. Never \"nobody else had it\"; never \"she lost money\".",
+      "speaksTo": "gravity: Instinctive"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "She broke local liquor rules to stock Peychaud's and Underberg bitters, which counted as food, so grocery-store goods. (*Proper* p. 237; F5)",
+      "kind": "rule",
+      "meaning": "A small rule, bent to have what her customers needed, never for show. One clause, never glamour.",
+      "speaksTo": "drawnToward: Mischief · Freedom"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The shop became famous among drinkers, and so did she, often as much for her temper as for her shelves (Simonson's word: \"cantankerous\"). Being told off by her became almost a rite of passage for regulars. (*Proper* p. 238; F11, F14)",
+      "kind": "reputation",
+      "meaning": "Grant the bad name first, with a grin: it's other people's view, and it's half true.",
+      "speaksTo": "texture: Rough · Loud"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "On his first visit, Damon Boelte started unwrapping the tissue paper round a bottle of the Red Hook Rye and she yelled at him on the spot. She later hired him; he went on to design the cocktail programmes at two Brooklyn bars. (*Proper* p. 238; F12–F13)",
+      "kind": "gesture",
+      "meaning": "Two plain facts side by side. The page never links them; any link is \"I like to think…\".",
+      "speaksTo": "gravity: Social"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Boelte says that when he tells people he worked at LeNell's, they're amazed. (*Proper* p. 239; F17)",
+      "kind": "legacy",
+      "meaning": "The place with the bad temper became the name people were proud to have on their record.",
+      "speaksTo": "Leave a mark"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Underberg is a bitters that a bar book gives as an example of a digestif, a drink meant to help digestion. Its country and recipe are not in our books (unsourced). (*Joy* pdf 419; F19)",
+      "kind": "ingredient",
+      "meaning": "The odd, bitter bottle the rules filed with the groceries, in the glass because she stocked it anyway.",
+      "speaksTo": "flavours: bitter · dark"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Sorghum syrup is made by pressing the stalks of sorghum, a grass related to sugar cane, and boiling down the juice (Oxford pdf 1834). A flavour reference book pairs syrups of this kind with grain (*Matrix* pdf 240). In her own words, her Southern background meant bourbon had to play a major role (*Proper* p. 238). (F7, F20, F21)",
+      "kind": "ingredient",
+      "meaning": "Our touch, chosen with her own words about where she came from in mind. That the syrup is Southern is not on any page we hold: say it as the bartender's choice (\"I chose…\"), never as the syrup's history.",
+      "speaksTo": "flavours: dark · drawnToward: Mischief"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Stir the sorghum in first: once it's cold, it clings. Then tell one person you'll be there, ahead of time.",
+    "contains": [],
+    "glassware": "small rocks glass (single old-fashioned, about 200 ml), one large ice cube",
+    "method": [
+      "Spoon the sorghum syrup and the Underberg into the glass.",
+      "Pour in the rye and stir with a bar spoon until the syrup has disappeared into the whiskey, about fifteen seconds. Do it before the ice: once it's cold, the syrup clings to the spoon.",
+      "Add one large ice cube and stir for another twenty to thirty seconds, until the outside of the glass feels cold.",
+      "Squeeze the strip of orange peel over the top so its oils fall on the drink, then drop it in."
+    ],
+    "name": "No Promises",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "straight rye whiskey, 40-43%",
+        "note": "any straight rye at that strength; stronger bottles run too hot over one cube"
+      },
+      {
+        "amount": "7.5 ml (1½ teaspoons)",
+        "item": "sorghum syrup",
+        "note": "pure sorghum syrup; or pure cane syrup. Measure it: half a teaspoon either way tips the balance"
+      },
+      {
+        "amount": "5 ml (1 teaspoon)",
+        "item": "Underberg",
+        "note": "recommended; or another digestif bitters"
+      },
+      {
+        "amount": "1 strip",
+        "item": "orange peel"
+      }
+    ],
+    "tagline": "You never said you'd come. You always do."
+  },
+  "pairing": "hero-outlaw",
+  "personality": "The Lovable Rogue",
+  "reading": {
+    "epigraph": "This glass holds grocery-store bitters. A Brooklyn liquor shop wasn't supposed to sell them.",
+    "whoYouAre": [
+      "A friend asks if you can help on moving day. \"Probably,\" you say, with a grin that convinces nobody. On the day you're the first one there, with a van you borrowed from someone you won't name, and you leave after the last box is in. People introduce you with a warning: don't believe a word they say. You've never minded the warning.",
+      "Here's what it hides. You don't say you'll be there, because saying it out loud is a leash to you, and breaking it would be worse than anything they could call you. So you keep the bar low and clear it every time. You'd rather surprise them than let them down. When something really matters, your friends stop asking who's sensible and call you. You're the proof that someone can be rough round the edges and completely dependable, and to them that beats a good name any day."
+    ],
+    "yours": [
+      "In 2003, LeNell Smothers opened a wine and liquor shop at the far end of Van Brunt Street in Brooklyn, almost on the waterfront. One drinks writer jokes that if you wanted to hide a business from its customers, you could hardly have picked a better spot. Bartenders found it regardless. She'd filled it with what they were looking for: bourbons not distributed in New York, rye when hardly anyone stocked it, a rye bottled from Kentucky barrels she'd chosen herself, bitter Italian liqueurs, and bitters that local liquor rules said belonged in a grocery store. She stocked those anyway.",
+      "Most liquor shops didn't bother with bottles that sold slowly. She told that writer, in 2014, that she knew how hard many of those things were to find if you loved classic cocktails, and while friends in the trade worried about buying Hennessy by the case at a good price, she went after odd cases of amaro, the bitter liqueur Italy makes from herbs. She was famous for her shelves, and often just as famous for her temper. Being told off by her became almost an initiation for her regulars. The first time Damon Boelte walked in, he started peeling the tissue paper off one of her bottles of rye, and she yelled at him on the spot. Later, she hired him. He says people are amazed when he tells them he worked at LeNell's.",
+      "The shop, I like to think, was a lot like you. It looked like the last place you'd count on, with a sharp word waiting at the counter, and it had exactly what you came for. And the people she told off were the ones most devoted to the place. That's you, as far as I can see. You give people every reason to expect nothing, and then you're the one who's there. You never ask them to rely on you. They just find out they can.",
+      "The cocktail I've made for you is a straight-rye Old-Fashioned. That's the great classic of whiskey, sugar and bitters, here with rye, the whiskey she stocked when hardly anyone did. I swapped the usual bitters for a teaspoon of Underberg bitters, as a nod to the rule she bent so her customers could have it. The sweetness is a spoon and a half of sorghum syrup, the pressed juice of sorghum stalks boiled down into syrup, because its sweetness sits well with rye. It's stirred over a single block of ice in a short, heavy glass, with orange peel twisted above it for its oils. Deep, dark, bitter at the edges, and exactly what you'd drive to the end of the street for.",
+      "Next time someone you'd go anywhere for has a big day coming, skip the grin and the \"probably\". Say yes, plainly, the week before. You won't lose an inch of your freedom: you were always going to go. What changes is theirs. For once they get to know, instead of hope. And you might find the warning was never what they believed about you."
+    ]
+  },
+  "status": "draft"
+}

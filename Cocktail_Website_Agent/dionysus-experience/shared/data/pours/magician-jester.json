@@ -1,0 +1,168 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The Pousse Café is an after-dinner drink of coloured liqueurs poured one on top of another, so they sit in separate bands (F1; Oxford pdf 1557).",
+      "kind": "lineage",
+      "meaning": "The drink shows everything it's made of. Nothing is hidden behind a mix.",
+      "speaksTo": "test 1 (honest)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Nothing holds the bands apart but their different weights: the heaviest goes in first, and liqueurs, heavier for their sugar, usually sit under the spirits (F3; Oxford pdf 1557, LAYERING pdf 1169).",
+      "kind": "reveal",
+      "meaning": "Our reading: the explanation is one plain sentence, and the bands still look as if they shouldn't hold. Knowing it's weight doesn't stop the eye.",
+      "speaksTo": "the one true thing; test 3; position (\"it won't stop working\")"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Each one is poured slowly over the back of an upturned spoon so it settles gently on the one below; spirits mix in easily and are hard to layer (F2, F4; Oxford pdf 1557, 1559, 1169).",
+      "kind": "method",
+      "meaning": "Our reading: hurry, and the bands run together. Care is what keeps it legible. Tomás owns how this is said in the method.",
+      "speaksTo": "fear (unintended results); test 5"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Every recipe has to be tried, because weights vary from bottle to bottle; Oxford's sample says they can be lightened with vodka (F6; Oxford pdf 1559; *Joy* pdf 153).",
+      "kind": "test",
+      "meaning": "Knowing the rule doesn't promise the result; the maker still checks it in the glass. Our reading, signposted if used.",
+      "speaksTo": "fear; hide (the reason under the play)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The name is French, literally \"push coffee\": at first any liqueur or spirit taken after dinner, from at least the late 1700s in Paris. When it came to mean the layered drink is unclear (F7, F8; Oxford pdf 1557).",
+      "kind": "name",
+      "meaning": "Optional colour: a plain name for a drink that turned into something to look at. Never \"invented in France\" (L1).",
+      "speaksTo": "optional"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "By 1903 a bartender's guide called for its own small stemmed glass, about 45 ml (F10; Oxford pdf 1558).",
+      "kind": "glass",
+      "meaning": "Built to be looked at: it got a glass of its own.",
+      "speaksTo": "Tomás (glass); image"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Late nineteenth-century recipes had three to six layers; by the early twentieth century six or seven were normal, and Oxford reports hearing of eleven and fourteen (F9; pdf 1558).",
+      "kind": "reports",
+      "meaning": "Scale, as Oxford's report only (\"one hears of\"). The showpiece and steady hand stay out (Entertainer).",
+      "speaksTo": "optional; test 2"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It slid out of fashion after the Second World War (F11). In 1972 someone wrote to Amy Vanderbilt's etiquette column that bars used to serve \"a fascinating drink\" and \"You never see them any more. What happened?\" Vanderbilt quoted the proprietor of New York's Le Mistral: today they were being shaken before serving (F12, F13; pdf 1558).",
+      "kind": "cost",
+      "meaning": "The bands got mixed into one drink. \"Fascinating\" is the letter-writer's word, and the shaking is one New York owner's account, relayed (the page doesn't say what kind of place Le Mistral was). Never \"bars stopped\", never Vanderbilt's own view.",
+      "speaksTo": "test 5 (the world stopped bothering); fear"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford: the classic was still honoured in New Orleans, where Nick Castrogiovannoni (1893–1979) of Nick's Big Train Bar had a local name for making dozens a night, with as many as thirty-four layers (F14; pdf 1558). His 1979 obituary was headed \"Famed Mixologist 'Mr. Nick' Is Dead\" (F15; Oxford's bibliography).",
+      "kind": "person",
+      "meaning": "Someone kept making it, dozens a night, for the people who asked. Why he did is not on the page: \"I like to think…\" only. No year for his bar (C5); \"as many as\" stays; never a \"record\" (C4).",
+      "speaksTo": "test 4 (made for others to see); give"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 1980 a Washington paper suggested asking for one to stump a bartender (F16; pdf 1559).",
+      "kind": "cost",
+      "meaning": "Optional second cost line.",
+      "speaksTo": "test 5"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford offers two possible reasons the revival passed it by: a 1940 writer's line that it succeeded only through the eye, or that old recipes are hard to remake because the liqueurs' weights have changed (F17; pdf 1559).",
+      "kind": "counterweight",
+      "meaning": "Never state either reason as the cause. The drink must answer the first one in the glass (C1): good to taste, band by band.",
+      "speaksTo": "Tomás; test 3"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "White crème de cacao is a chocolate liqueur with a lot of sugar; the white kind is typically made by redistilling the spirit with cacao (Oxford pdf 596; *LI* p. 136: 24% and 39.5% sugar).",
+      "kind": "ingredient",
+      "meaning": "Clear as water, tastes of chocolate, and it's the heaviest thing in the glass. The look and the weight disagree (our reading). Never \"white chocolate\" (that has milk, *Matrix* pdf 84).",
+      "speaksTo": "the one true thing; Tomás"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Regan: heavy, syrupy liqueurs (crème de cacao among them) sink; spirits such as whiskey usually float on almost any liqueur because they have no sugar (*Joy* pdf 153–154); Oxford gives the spirits' lightness to their high alcohol (LAYERING pdf 1169).",
+      "kind": "ingredient",
+      "meaning": "Why the darkest layer can sit on top: strong spirit with next to no sugar, never \"because there's no sugar\" alone. The densities in the draft are Tomás's estimates, never figures in guest text.",
+      "speaksTo": "test 3; Tomás"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In the *Flavor Matrix*, beet is one of cocoa's surprise pairings; red wine and whiskey are among cocoa's best, and wine among beet's (pdf 84, pdf 48).",
+      "kind": "spark",
+      "meaning": "The pair you'd bet against, at opposite ends of the glass, with the port between them. \"One of\", never \"the best\". Port as \"a red wine\" is Tomás's gloss.",
+      "speaksTo": "test 2; Tomás"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Pour the darkest layer last, and slowest. Then explain how it works: it'll still look upside down.",
+    "contains": [],
+    "glassware": "a small stemmed pousse-café or cordial glass (about 75 ml), narrow and flared; no ice",
+    "method": [
+      "Make the beetroot bourbon first, on the day or up to a few days ahead. Put the grated beetroot in a jar and pour the bourbon over it. Stir, and leave it at room temperature for about 30 minutes, tasting every few minutes. Stop when it's deep red and tastes of the earth as much as of the bourbon.",
+      "Strain it through a sieve lined with a coffee filter, into a clean bottle, and keep it in the fridge. Use it within a few days: the red fades in the light.",
+      "The first time you use new bottles, test them: pour a teaspoon of crème de cacao into a shot glass and run a few drops of port down the side onto it, then a few drops of the beetroot bourbon. Every brand weighs a little differently, so even makers who know the rule check it in the glass.",
+      "Pour the crème de cacao into the glass. Wipe off any drops on the inside of the glass above it.",
+      "Hold a teaspoon upside down inside the glass, the tip just touching the side, a finger's width above the clear layer. Pour the port onto the back of the spoon, slowly, so it runs down the glass and settles on the clear layer.",
+      "Raise the spoon to just above the port and pour the beetroot bourbon the same way, slower still. If you rush it, the layers run into each other, and they won't come apart again.",
+      "Serve it straight away. It's drunk from the top down: the red first, the clear last."
+    ],
+    "name": "Even When You Know",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "10 ml",
+        "item": "white crème de cacao",
+        "note": "the bottom layer, and the heaviest. Clear as water, and it tastes of chocolate (2 teaspoons)"
+      },
+      {
+        "amount": "15 ml",
+        "item": "tawny port",
+        "note": "the middle layer; a 10-year-old if you have one, any tawny if not (1 tablespoon)"
+      },
+      {
+        "amount": "20 ml",
+        "item": "beetroot bourbon (below)",
+        "note": "the top layer, the darkest and the lightest (4 teaspoons)"
+      },
+      {
+        "amount": "",
+        "item": "**For the beetroot bourbon** (enough for about 12 drinks)"
+      },
+      {
+        "amount": "250 ml",
+        "item": "bourbon (40–45%)",
+        "note": "any bourbon you like neat"
+      },
+      {
+        "amount": "60 g",
+        "item": "raw beetroot, peeled and coarsely grated",
+        "note": "about one small beetroot"
+      }
+    ],
+    "tagline": "You don't win arguments. You change what people see."
+  },
+  "pairing": "magician-jester",
+  "personality": "The Illusionist",
+  "reading": {
+    "epigraph": "The darkest band is on top. The clear one underneath is the heaviest.",
+    "whoYouAre": [
+      "Someone at dinner is certain of something. You don't argue. You put a thing on the table, say nothing, and wait. Then comes the moment you love: what they were so sure of tips over, and they laugh. A minute later they're showing the next person as if it had been their own idea, and you let them.",
+      "You always have a reason, though. You picked that thing because you wanted them to see something differently, and it mattered to you that they did. You keep how it works, and why, to yourself, because you think the fun would turn into a lesson once it's explained. And you watch their faces all along, because that moment can tip the wrong way, into feeling foolish or played. You'd never want that for anyone. It's why nothing you show is fake. It's all right there, and the eye still won't believe it. So with you, being wrong becomes a pleasure. They walk away with one certainty looser, and glad of it."
+    ],
+    "yours": [
+      "Through the later 1800s, bar guide after bar guide in America printed a drink named the Pousse Café. Liqueurs were poured one on top of another, each usually trickled slowly off an upturned spoon, so it settled on the one below as a band of colour. Nothing keeps the bands apart but their weight. The sweetest liqueurs are the heaviest, so they go in first, and the spirits, with no sugar, go last, on top. Early in the twentieth century six or seven bands were normal, and you hear of eleven, even fourteen.",
+      "It's an honest drink. Everything in it is right there to see, and the explanation takes one sentence. It still looks as if it shouldn't stay put. After World War II it slowly faded from bars. In 1972 someone wrote to Amy Vanderbilt's etiquette column about \"a fascinating drink\" bars used to serve: \"You never see them any more. What happened?\" Vanderbilt's answer passed on what the owner of Le Mistral, in New York, had said: they were being shaken now, before serving.",
+      "In New Orleans, Nick Castrogiovannoni, a bartender at Nick's Big Train Bar, was known locally for making dozens of them a night, with as many as thirty-four bands. Whatever kept Nick at it, I like to think part of it was the faces: someone who knows perfectly well it's only weight, and still can't quite believe the glass. That's what you build for people. It's true, and it doesn't look it.",
+      "The cocktail I've made for you is a Pousse Café, the old after-dinner classic, in three bands. White crème de cacao goes in first: clear as water, tasting of chocolate, and the heaviest. Tawny port is next. Last, poured slowest, comes bourbon steeped for half an hour with raw beetroot: deep red, and the lightest of the three, because it's strong spirit with next to no sugar. So the darkest band ends up highest, and your eye will tell you the glass is upside down even once you know why. That's there as a nod to you. Beetroot and chocolate are a pairing you'd bet against, and the port carries one to the other: an earthy whiskey first, then rich port tasting of dried fruit, then a last small taste of chocolate. Rush that final pour and the bands run together for good. It's the pour you'd guard.",
+      "Once, try it backwards. Show someone how it works first, before they've even looked, and then let them look. You're afraid that once it's worked out, the fun is over. It isn't. Knowing it's sugar doesn't move a single band, and knowing how you did it won't stop them seeing it. And they get something a surprise alone can't give them: they get to see it from your side, and still be amazed."
+    ]
+  },
+  "status": "draft"
+}

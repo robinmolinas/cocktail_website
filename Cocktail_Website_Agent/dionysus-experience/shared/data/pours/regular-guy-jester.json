@@ -1,0 +1,122 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Jeppson's Malört is a bitter, wormwood-based liqueur in a Swedish schnapps style; through the second half of the twentieth century it was a Chicago dive-bar rite of passage for locals and for out-of-towners willing to try it. (Oxford pdf 1103; F1, F2)",
+      "kind": "ingredient",
+      "meaning": "The bitter thing is offered, not forced: \"willing\" is the line holding.",
+      "speaksTo": "fear: Exclusion · Wren"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It is still \"practically a rite of passage for residents and visitors\" (WBEZ 2023). Visitors who let a Chicagoan order for them often pull a face, and the face has a name: the Malört face (*The Ringer* 2019; F4, F6; no coiner, M4).",
+      "kind": "custom",
+      "meaning": "Being got is how you're let in, and the newcomer agrees to it (\"trusted\").",
+      "speaksTo": "goal: Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Sam Mechling, working as a bouncer at a wine bar, was dared by someone at work to try it; the colleague told him it tasted like a kitchen junk drawer, and it did. (WBEZ 2023; M1, M2)",
+      "kind": "person",
+      "meaning": "He was got first. \"Dared\" is said of an adult who chose to try it, never aimed at the guest.",
+      "speaksTo": "Wren"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He then introduced it to his friends at birthday parties and gatherings, obsessed with their first reactions; later, at the Malört nights he ran, he bought people's drinks with his own money and sold T-shirts to break even. (WBEZ 2023; M3, M5, M6)",
+      "kind": "passing on",
+      "meaning": "He passed on the way he'd been let in. The paying is at his events, not the birthdays.",
+      "speaksTo": "goal: Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The brand's owner, Pat Gabelick, turned up unannounced with her lawyer at the bar where he worked; the meeting was tense at first. He showed them a letter he'd tried to send her months before, saying how much he loved the drink, with a cheque from the T-shirt profits; the post office had returned it. (WBEZ 2023 only; M7, M8)",
+      "kind": "turn",
+      "meaning": "The fear of being shut out, made literal; then a plain letter, no joke. \"The letter got him in\" is Wren's \"I like to think\", not fact (though WBEZ does say the mood changed after it).",
+      "speaksTo": "fear: Exclusion · Wren"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Instead of suing him, she hired him. In his words, he went from expecting to be \"financially destroyed\" to \"a dream job\" in about five minutes. Looking back (2023), he said the drink gave him new friends. (WBEZ 2023; *The Ringer* 2019; M9, M10, M12)",
+      "kind": "reveal",
+      "meaning": "Taken in by the very house his jokes were about. Never \"she laughed\"; T-shirts never called illegal (Scoundrel's ground). No years.",
+      "speaksTo": "goal: Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A named reviewer found \"clear grapefruit peel notes\" in Malört itself (Drink Spirits, Geoff Kleinman, 2012), and one of the descriptions Mechling collected and liked best compared it to an aspirin wrapped in grapefruit peel (*The Ringer* 2019; B5, B6). Grapefruit juice is \"bitter-tart\" (*Codex* p. 120); small amounts of salt suppress bitter flavours (Oxford pdf 1721; B9).",
+      "kind": "pairing",
+      "meaning": "The grapefruit is in the bottle's own taste, so it isn't forced on it. Salt softens both bitters.",
+      "speaksTo": "Tomás"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Grapefruit juice frozen into cubes and shaken with the spirit to slush, maple and salt, strained into a chilled coupe, after Arnold's Shaken Drake (*Liquid Intelligence* p. 149), whose spirit is kümmel, a German caraway liqueur (aquavit is its Scandinavian cousin), with a little vodka.",
+      "kind": "method",
+      "meaning": "Our riff, never Arnold's recipe; ours swaps his kümmel for Malört.",
+      "speaksTo": "Tomás"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Jeppson's Malört, 35% ABV, sold as a liqueur (maker's page, B2); made in Chicago by CH Distillery (Oxford pdf 1103, B1); sold in 30 US states (maker, B8). Substitute style: a Swedish besk (bäsk) brännvin, the bitter wormwood schnapps the maker says Malört belongs to.",
+      "kind": "bottle",
+      "meaning": "Named because the custom is this bottle (22 bartenders' affidavits, *The Ringer*; B3).",
+      "speaksTo": "Tomás"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Freeze the grapefruit hours ahead. Pour it for someone new, and let that be the only setup.",
+    "contains": [],
+    "glassware": "coupe, chilled",
+    "method": [
+      "At least four hours before, squeeze and strain the grapefruit. Pour 30 ml into each of two spaces in an ice-cube tray and freeze.",
+      "Put the coupe in the freezer to chill.",
+      "Pour the Malört, the maple syrup and the salt into a shaker. Add the two grapefruit cubes and no other ice.",
+      "Close the shaker and shake as hard as you can for at least 30 seconds, until the cubes have turned to slush and you can't hear any lumps. The shaker will get very cold.",
+      "Strain it into the frozen coupe and serve at once. There's no garnish."
+    ],
+    "name": "Got You",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "Jeppson's Malört",
+        "note": "recommended: the bottle the custom is about; or any Swedish besk (bitter wormwood spirit) of 35% or stronger"
+      },
+      {
+        "amount": "60 ml",
+        "item": "fresh white grapefruit juice, strained",
+        "note": "frozen hours ahead as two ice cubes: they're the only ice in the shaker"
+      },
+      {
+        "amount": "1 tsp (5 ml)",
+        "item": "maple syrup",
+        "note": "dark, robust; it rounds off the grapefruit's bitterness"
+      },
+      {
+        "amount": "a generous pinch",
+        "item": "fine salt",
+        "note": "salt tames bitterness, and this drink has plenty"
+      }
+    ],
+    "tagline": "You only play jokes on the people you want to keep."
+  },
+  "pairing": "regular-guy-jester",
+  "personality": "The Prankster",
+  "reading": {
+    "epigraph": "Built on Chicago's bitter liqueur for willing visitors. The face they pull has a name.",
+    "whoYouAre": [
+      "You don't play jokes on just anyone. The new one at work, a friend's quiet cousin, the neighbour who's only just started coming to the barbecue: they're who you pick. Salt in the sugar bowl, a made-up house rule, a serious look held a beat too long. Then you watch. The moment their face cracks and they laugh is the moment they're in, and a week later they're telling it themselves: the day you got them.",
+      "Someone got you first, and you rarely mention it. That's how you got in, and every joke since has been you passing it on. You remember the one that didn't land, too: the face that never came round. It's why you can feel the line before you reach it. And there's a smaller worry you'd never admit: if nobody ever gets you back, you start to wonder whether you're really in. Here's what you give, and it should be said plainly: a stranger leaves with a story that makes them one of you. People feel claimed. That lasts a lot longer than the laugh."
+    ],
+    "yours": [
+      "For decades, Chicago's dive bars have poured a bitter wormwood liqueur called Jeppson's Malört for anyone willing to try it, locals and visitors alike. It's practically a rite of passage. Visitors who let a Chicagoan order for them often pull a face, and it has a name: the Malört face.",
+      "Sam Mechling was got too. He was working the door at a wine bar when someone at work dared him to try it, and told him it tasted like the junk drawer everyone has in their kitchen. Then he did what you'd have done. He brought it to his friends' birthdays and gatherings, for the look on their faces. Later he ran Malört nights, buying people's drinks himself and selling T-shirts to cover it.",
+      "Then the drink's owner, Pat Gabelick, turned up, unannounced, with her lawyer at the bar where he worked. He expected to be, in his words, \"financially destroyed\". Instead he showed them a letter he'd tried to send her months before, saying how much he loved the drink, with a cheque from the T-shirt money. The post office had sent it back. Instead of suing him, she hired him, and long afterwards he said the drink had brought him new friends. I like to think the jokes got him noticed, but the letter got him in. That's you, I'd bet: the joke is how you show it, and underneath there's always a letter like that.",
+      "The cocktail I've made for you puts Malört up front, a full measure and nothing hidden, because nobody's being caught out tonight. It's shaken with grapefruit juice frozen into cubes hours ahead, a method I took from a book on how drinks work, so the cold comes from fruit instead of water. A spoon of maple and some salt go in too, and it's strained, ice-cold, into a coupe. Grapefruit is bitter as well, and the salt softens both, so each makes the other good. One reviewer even found grapefruit peel in the taste of Malört itself. I chose it as a nod to Sam, who kept bringing the bitter thing to his friends. It comes out sharp, bright and much friendlier than its reputation.",
+      "Keep playing your jokes. They work. But once, with someone you've decided to keep, do what that letter did: no joke to hide behind, just what you're glad they're here for. It feels more exposed than any prank. It's also the surest way to learn you're in, because people answer plain words in kind. And one day, one of them will get you back, properly."
+    ]
+  },
+  "status": "draft"
+}

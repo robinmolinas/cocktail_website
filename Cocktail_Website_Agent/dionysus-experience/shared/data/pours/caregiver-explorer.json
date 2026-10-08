@@ -1,0 +1,102 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Joseph Priestley, an English clergyman who experimented on the side, made water fizz by hanging a bowl of it above a fermenting beer vat. (P F1; Oxford SODA WATER pdf 1826)",
+      "kind": "story (person)",
+      "meaning": "Curiosity in an odd place: the chase itself, the part they love and half-hide.",
+      "speaksTo": "drawnToward: Wonder · soughtFor: Ideas"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In his own words, he thought the water would be \"particularly serviceable\" to sailors at sea, by preventing or curing scurvy. He took it first to the Admiralty, who sent him to the College of Physicians; they approved, and a trial was ordered on the King's ships. The Navy put his apparatus aboard Captain Cook's ships. (P F3, F4, F6; Priestley 1772 Preface; Pawley 2008)",
+      "kind": "story (motive, on record)",
+      "meaning": "Care aimed at strangers far out at sea. A motive we may state as fact, because he wrote it down.",
+      "speaksTo": "soughtFor: Comfort · drawnToward: Change"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It didn't cure scurvy. The theory behind it (scurvy as a kind of rot that fixed air might stop) was wrong. He'd hoped it would help other \"putrid\" diseases too. (P F5, F7, F14; Pawley 2008; Priestley 1772 pp. 17–20)",
+      "kind": "story (the dead end)",
+      "meaning": "The dead end nobody applauds.",
+      "speaksTo": "lens: The real me · soughtFor: Honesty"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He published a way anyone could make it (chalk and oil of vitriol, P F12), in a one-shilling pamphlet, and never went into the business. Schweppe read the accounts and made it a trade. (P F2, F8; Oxford pdf 1826–27; C1–C2)",
+      "kind": "story (given, not a business)",
+      "meaning": "The work outlives the worker; his name isn't on the bottle.",
+      "speaksTo": "drawnToward: Change"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Soda water entered mixed drinks steadily only from the 1820s, about fifty years later; whole families followed, highballs, Collinses and fizzes among them. (P F9; Oxford pdf 1827–28)",
+      "kind": "lineage (the glass)",
+      "meaning": "\"Most of your kindness will reach people who never learn your name\": every drink topped with soda. He's one of its makers, not the only one (Bergman the same year; Schweppe built on both).",
+      "speaksTo": "lens: My future self"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Hops are the flower cones used to flavour and bitter beer (Oxford HOPS pdf 1030; LI p. 216); whisky can be described as \"distilled beer\" (Oxford BEER pdf 247). In his own pamphlet Priestley notes the gas is found ready-made over fermenting liquor \"at a public brewery or distillery\" (P F13). The *Flavor Matrix* puts hops among citrus's complementary aromas (pdf 21): the lemon peel.",
+      "kind": "ingredient (spark)",
+      "meaning": "The places his gas came from, brewery and distillery, in one glass, without the beer. Our nod, owned (\"I steep…\").",
+      "speaksTo": "drawnToward: Wonder · soughtFor: Ideas"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"Particularly serviceable\" is Priestley's own phrase for what he hoped the water would be for sailors; the pamphlet uses \"serviceable\" again for putrid diseases (P F3, F14; Priestley 1772 Preface, p. 17). (If *Fixed Air* is picked instead: the period name for carbon dioxide, P F11.)",
+      "kind": "name (*Serviceable*, the pick)",
+      "meaning": "What this person wants to be for others, in his word; and \"good enough\", for someone who never thinks their own work is.",
+      "speaksTo": "soughtFor: Comfort"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Pour the soda slowly, down the side. And when something doesn't work, say so: someone out there needs to know.",
+    "contains": [],
+    "glassware": "highball glass, filled with ice",
+    "method": [
+      "Fill a highball glass with ice, then pour in the hopped whisky.",
+      "Pour the soda water in slowly, down the inside of the glass, so it keeps its bubbles.",
+      "Stir once, gently, only to bring them together.",
+      "Twist the strip of lemon peel once, as if wringing it, and slide it down into the glass. It stays there and scents the drink as you sip."
+    ],
+    "name": "Serviceable",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "50 ml",
+        "item": "blended scotch whisky, steeped with dried hops",
+        "note": "Any unpeated blended scotch. Steep 4 g of dried aroma hops (from a home-brew shop) in 250 ml of the whisky for about two hours at room temperature, then strain it through a coffee filter. This makes five drinks."
+      },
+      {
+        "amount": "125 ml",
+        "item": "soda water, very cold, from a freshly opened bottle",
+        "note": "Poured last. It's the part that began with him."
+      },
+      {
+        "amount": "1",
+        "item": "long strip of lemon peel",
+        "note": "Twisted once as it goes in, and left in the glass."
+      }
+    ],
+    "tagline": "You care about people you'll never meet."
+  },
+  "pairing": "caregiver-explorer",
+  "personality": "The Researcher",
+  "reading": {
+    "epigraph": "The fizz in this glass was once meant to cure sailors. It never did.",
+    "whoYouAre": [
+      "When someone you care about is told there's nothing more to be done, you don't quite accept it. That same evening you're reading, comparing, writing down questions for the next appointment, finding the one person who might know. Not because you think you're cleverer than the experts. Because \"that's just how it is\" has never once been enough for you when someone is hurting. Walking away feels like breaking a promise to others, but most importantly to yourself.",
+      "Some of what you try goes nowhere. Those tries never make it into the story you tell, but you keep them, every one. And here's something I'd guess you've never said out loud: you love it a little. The not-knowing, the chase. Some days that feels almost wrong, as if it made it about you. It doesn't. It's why you're still looking after everyone else has stopped, and why your care so often reaches people you'll never meet."
+    ],
+    "yours": [
+      "Joseph Priestley was an English clergyman who ran experiments on the side. He found that a bowl of water hung over a vat of fermenting beer came back sparkling. What he had in mind was sailors. In his day scurvy, a disease that struck them at sea, was thought to be a kind of rot, and that gas seemed able to stop rot. So he hoped his fizzy water might cure it. He wrote that it could be \"particularly serviceable\" to them.",
+      "He didn't take it to a shop. He took it to the Navy. The doctors they sent him to approved it, and a trial was ordered on the King's ships. He published a way anyone could copy, with chalk and acid, and never went into the business himself. And it was no cure. His water was only water and gas.",
+      "Others took it up after him, and half a century later soda water found its way into famous mixed drinks: the highball, the Collins, the fizz. Every one of them owes something to a man who was trying to help sailors. It failed at what he'd hoped for them, and turned out useful in a way he never planned. I like to think that's how it often goes for you. You look hard for one answer, for someone else's sake, and what you find turns up years later, somewhere you'll never see, helping someone who will never know your name. (If you've never read Mitch Albom's \"the five people you meet in Heaven\", you'd love it).",
+      "The cocktail I've made for you is the plainest but crispest drink those bubbles made possible: whisky and soda, tall, over ice. Whisky starts life as a kind of beer, so I steep it with dried hops, the flower that gives beer its bitterness. That's my own nod to the vat he started with; the record doesn't say what was in his. Then very cold soda, poured slowly and stirred once, and a long strip of lemon peel, twisted once as it goes in, and left in the glass. More than two thirds of the glass is the kind of fizzy water he hoped would be a cure. It's also what makes it a highball.",
+      "Don't hide the tries that went nowhere. Someone else is about to set off down the same road, and what you found there could save them the trip. One wrong answer ended up in drinks all over the world. Post-it Notes were born from a failed experiment to create a super-strong adhesive. And stop treating the love of the looking as the selfish part. It's what carries the help out of the room."
+    ]
+  },
+  "status": "draft"
+}

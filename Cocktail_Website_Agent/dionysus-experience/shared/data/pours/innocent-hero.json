@@ -1,0 +1,126 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The day after seeing the Tom Cruise film *Cocktail*, in 1994, he asked the boss of the village pub he worked in to buy him a cocktail shaker (*Proper* p. 206, F1–F2).",
+      "kind": "story",
+      "meaning": "The road starts with one plain request, not a plan to win.",
+      "speaksTo": "They never set out to win anything; they set out to get a bit better at the work."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In the late 1990s he barbacked at a formal Prague bar every weekend, five hours each way by train, and ran a restaurant in Slovakia during the week (*Proper* p. 206, F5).",
+      "kind": "road",
+      "meaning": "The long honest road, shown in hours, with no shortcut.",
+      "speaksTo": "Got there with nothing but the work."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Prague bar's owner asked \"What about the hair?\", and he trimmed his dreadlocks back a bit (*Proper* p. 206, F4).",
+      "kind": "doubt",
+      "meaning": "Someone wondered if he belonged; he answered by adjusting, not arguing.",
+      "speaksTo": "Being doubted, and going on anyway. (The fear of being called a cheat stays the guest's: C3.)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "At Paparazzi in Bratislava the menu changed with every trip he took; when he wasn't travelling he studied in internet cafés and translated articles into Slovak (*Proper* pp. 206–207, F6–F8).",
+      "kind": "study",
+      "meaning": "Learning in the open, from whatever he could reach.",
+      "speaksTo": "Study, never borrowing: the work is visibly theirs."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "On a whim he posted that menu to a new award in New Orleans; at its first ceremony Paparazzi won Best Cocktail Menu, and two months later a package came. He didn't know his bar had won until he opened his mail (*Proper* p. 205, F10–F11; year 2007 per Tales' archive, F12, never told: C1).",
+      "kind": "mail",
+      "meaning": "Everyone in that room knew before he did.",
+      "speaksTo": "\"Everyone else could see how far you'd come. You were the last to hear.\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Of all the places around the world where the cocktail revival took hold (\"all the crucibles of the cocktail revival the world over\"), Robert Simonson gives Vadrna \"the prize for obscure and improbable\", for the destination bar he built and the bartenders he trained (*Proper* p. 205, F13).",
+      "kind": "judgement",
+      "meaning": "The recognition comes from outside, in someone else's words; his place, not a life story (audit v2 R4).",
+      "speaksTo": "Others see the distance; they don't."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "No year, no trophy, no \"for years\", no \"got the shaker\", no Trnava population, no \"overnight\", no \"nobody believed in him\" (C1, C2, F2, F5, F11; Wren r1).",
+      "kind": "fence",
+      "meaning": "Accuracy is the kindness for a guest who fears being caught in something not quite true.",
+      "speaksTo": "Keeps the reading honest."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "After a visit to London he threw out Paparazzi's thick glassware and simple garnishes and brought in tropical fruits imported from Holland (*Proper* pp. 206–207, F7); the day after the film he had asked for a shaker (p. 206, F2). Paparazzi already served Daiquiris when he started (p. 206, F6).",
+      "kind": "lineage",
+      "meaning": "A thin chilled coupe, a shaken sour and tropical fruit carry the story. The Daiquiri shape was the house style, and the recipe is ours, never his or Paparazzi's. The bare rim is the *Codex* Basic Sour's (p. 106), ours, never his London lesson (audit A1). Mango is our pick, not named on the page (A2).",
+      "speaksTo": "What he learned abroad is in the glass as study, not a reward."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Borovička is \"the Czechoslovak version of gin\" (Oxford pdf 1710); one Slovak borovička has its own geographical indication, *Spišská borovička*, 39.7–40.3% vol (Slovak IP office GI dossier). Nothing says he poured it.",
+      "kind": "bridge",
+      "meaning": "Any tie to where his road began is \"I like to think\", and never makes Zemné his home (F3).",
+      "speaksTo": "(Wren's wording.)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The *Flavor Matrix* pairs mango with dill \"thanks mainly to the woody, piney aromas of both\" (pdf 251); juniper's oils give \"piney-camphorous notes\" (Oxford JUNIPER pdf 1123).",
+      "kind": "spark",
+      "meaning": "The fruit he went out and learned shares a piney note with the juniper spirit (never \"its strongest note\": A4).",
+      "speaksTo": "What they learned on the road tastes as if it had always been theirs: the answer to \"borrowed\"."
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "No garnish. And when good news comes, let it in first.",
+    "contains": [
+      "nuts"
+    ],
+    "glassware": "a thin stemmed coupe, chilled in the freezer",
+    "method": [
+      "The day before, or up to two weeks ahead, make the mango syrup. Weigh 250 g ripe, peeled mango flesh and 250 g white sugar, blend until smooth and the sugar has dissolved, then press it through a fine sieve. Keep it covered in the fridge.",
+      "Put the coupe in the freezer for ten minutes.",
+      "Pour the borovička, lime juice and mango syrup into a shaker. (Some borovičkas have a little sugar added: if yours tastes sweet on its own, use 15 ml of syrup.)",
+      "Fill it with ice, close it, and shake firmly for about twelve seconds, until the outside of the shaker is frosted.",
+      "Strain into the cold glass, through a small tea sieve to catch the ice chips. No garnish."
+    ],
+    "name": "Straight Up",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "65 ml",
+        "item": "borovička (a juniper spirit from Slovakia and the Czech Republic)",
+        "note": "Or, if you can't find it, a juniper-led London dry gin."
+      },
+      {
+        "amount": "22.5 ml",
+        "item": "fresh lime juice"
+      },
+      {
+        "amount": "17.5 ml",
+        "item": "blended mango syrup (homemade, below)",
+        "note": "Tropical fruit, the kind he brought into his drinks after a trip to London. Mango is related to cashew and pistachio, so if nuts are a worry, leave this one aside."
+      }
+    ],
+    "tagline": "Everyone else could see how far you'd come. You were the last to hear."
+  },
+  "pairing": "innocent-hero",
+  "personality": "The Underdog",
+  "reading": {
+    "epigraph": "Mango and juniper, from far apart, have a note in common. It was always there.",
+    "whoYouAre": [
+      "You never set out to win anything. You wanted to get a little better at the thing in front of you, then a little better again. So you rarely turn round to see how far it has taken you. Other people do, and when they mention it, you're honestly surprised.",
+      "And when something good comes your way, there's a moment before the happiness. You replay how it happened, checking it was all fair, as if someone might ask. Somewhere along the road you learned that good things can be taken back, and you couldn't bear anyone thinking you hadn't got there honestly.",
+      "What you don't notice is that you never suspect anyone else. When someone you know gets the job or the prize, you're simply glad, and sure they got there fairly too. Not many people manage that, and it's a gift: people watch you take the straight road and start to believe it goes somewhere."
+    ],
+    "yours": [
+      "It starts with a cocktail shaker. In 1994, the day after he saw the Tom Cruise film *Cocktail*, a Slovak named Stanislav Vadrna asked the boss of the village pub where he worked to buy him one. Later he wanted to work at a formal cocktail bar in Prague. He had long dreadlocks then, and the owner asked, \"What about the hair?\" He trimmed it back a bit. Then every weekend he rode the train five hours to Prague to work there as a barback, the bartender's helper, while running a restaurant in Slovakia during the week.",
+      "At Paparazzi in Bratislava, the bar he later ran, the menu changed with every trip he took: after London, out went the thick glassware and in came tropical fruit. When he wasn't travelling, he sat in internet cafés, translating articles about cocktails into Slovak. Then, on a whim, he posted his menu to a brand-new award in New Orleans. Two months after its first ceremony, a package arrived. He didn't know Paparazzi had won Best Cocktail Menu until he opened his mail.",
+      "A room in New Orleans knew before he did. Of all the places around the world where the cocktail revival took hold, the writer Robert Simonson calls Vadrna's the most improbable. I don't think any of it was luck. He learned from everyone he could reach, and the menu he sent was one he'd made himself. If it had been you opening that package, I suspect you'd have checked it twice, looking for the mistake. There wasn't one. That's your road too: no shortcut and no plan to win, only the next thing, done well, until other people notice.",
+      "The cocktail I've made for you is a sour, of the same family as the Daiquiri, one of the most famous drinks there is. It's shaken, because the day after that film he asked for a shaker, and it goes into a thin, chilled glass. The base is borovička, a juniper spirit from the country he was born in. With it go lime and a mango syrup, as a nod to the tropical fruit he brought into Paparazzi after London. And here's what I love about it: mango and juniper have a piney note in common. The fruit comes from far away, and it tastes as if it had always been there. That's what happens to anything you learn by doing the work: it ends up yours.",
+      "So when something good finds you again, don't search it for the catch. You remember how you got there, and nobody handed you any of it. Someone near you is watching to see whether the long way pays off. Show them it does. The checking can wait, and I'd bet it never finds anything."
+    ]
+  },
+  "status": "draft"
+}

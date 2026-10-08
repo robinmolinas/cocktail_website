@@ -1,0 +1,110 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The Cohasset Punch (rum, sweet vermouth, lemon, a piece of preserved peach) was a Chicago fixture from the 1890s until 1986 (Oxford Companion, COHASSET PUNCH, pdf 549, David Wondrich).",
+      "kind": "lineage",
+      "meaning": "The neighbourhood's own drink: there for ninety years, never needing to explain itself.",
+      "speaksTo": "Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "As Oxford tells it, Williams, who kept a Chicago saloon, was a guest at a summer house in Cohasset, Massachusetts, when the party decided New England made the best punches. He \"was not satisfied with the verdict\" and wired his partner, Tom Newman, to make a new punch and ship a keg of it, express. It \"rapidly won over the crowd\" (Oxford pdf 549, citing a 1902 trade paper; later tellings differ on who mixed it, so the story is framed as Oxford's).",
+      "kind": "origin",
+      "meaning": "Not content to be the comfortable second thought: they sent something good, and it was picked.",
+      "speaksTo": "fear of Exclusion; Connection"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Newman's punch was \"Medford Rum–based\" (Oxford pdf 549). Medford is a Massachusetts town about five miles north of Boston, and by then its name stood for New England rum in general (Oxford, RUM, MEDFORD, pdf 1699). An early bar guide prints the Cohasset Punch with \"New England rum\" (Paul E. Lowe, *Drinks: How to Mix and How to Serve*).",
+      "kind": "ingredient",
+      "meaning": "The case against New England's punch was made with New England's own rum, and it won. Why he used it, and whether anyone noticed, is not on record: only \"I like to think…\".",
+      "speaksTo": "Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The punch was bottled from 1899 and printed in 1901, but the saloon's regulars agreed neither version \"did the drink true justice\". At the bar it came with a brandy-soaked piece of peach and was stirred \"at length\" (Oxford pdf 549).",
+      "kind": "gesture",
+      "meaning": "The people who knew it best chose it made by hand, by someone who knew them, over its packaged self.",
+      "speaksTo": "Intimacy; Connection"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Our version follows Oxford's printed spec (pdf 550: muddled lemon, amber rum, sweet vermouth, rich syrup, orange bitters, stirred, coupe, brandied or canned peach) at three-quarters size. The bar stirred it \"at length\" and served a peach soaked in brandy \"and some liqueur\" until soft (pdf 549). The full minute's stir and the spoonful of syrup in the peach jar are ours.",
+      "kind": "riff",
+      "meaning": "The familiar thing, given care ahead of time, made the way the people who knew it best liked it.",
+      "speaksTo": "Intimacy; Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 1916 the drink passed to the Ladner brothers. After Repeal their bar put up a neon lighthouse sign: \"Home of Cohasset Punch\". The sign and the punch stayed a Chicago fixture until 1986 (Oxford pdf 549–550).",
+      "kind": "place",
+      "meaning": "A drink a place was proud to be the home of.",
+      "speaksTo": "Belonging"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Give the peach its few days in the brandy. Some things are worth being waited for.",
+    "contains": [],
+    "glassware": "coupe, chilled",
+    "method": [
+      "A few days ahead (at least a night; they keep a week in the fridge): cut a ripe peach, or drained canned peach halves, into eighths. Put the slices in a clean jar, cover them with brandy, add a spoonful of sugar syrup (or of the can's syrup), put the lid on and leave them in the fridge until they're soft right through.",
+      "Put a coupe in the freezer.",
+      "Cut about a third of a lemon into small pieces and press them hard in the bottom of a mixing glass or jar with a muddler (the end of a rolling pin works), so they give up their juice and the oil in the peel.",
+      "Add the rum, the vermouth, the sugar syrup and the bitters.",
+      "Fill the glass with ice and stir for a long time, a full minute. Stirring keeps the drink round and smooth. Shaking would make it frothy.",
+      "Lift a peach slice out of the jar and put it in the bottom of the cold coupe. Pour the drink over it through the strainer and a tea strainer, to catch the bits of lemon."
+    ],
+    "name": "First Choice",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "amber rum",
+        "note": "an aged rum made from molasses, the kind New England once made"
+      },
+      {
+        "amount": "45 ml",
+        "item": "sweet (red) vermouth",
+        "note": "half the drink, and most of its sweetness"
+      },
+      {
+        "amount": "about a third of a lemon",
+        "item": "fresh lemon, cut into small pieces",
+        "note": "pressed in the glass for its juice and the oil in its peel"
+      },
+      {
+        "amount": "¾ teaspoon (3.75 ml)",
+        "item": "rich sugar syrup (2 parts sugar to 1 part water, by weight)"
+      },
+      {
+        "amount": "1 dash",
+        "item": "orange bitters"
+      },
+      {
+        "amount": "1 slice",
+        "item": "brandied peach",
+        "note": "an eighth of a peach, soaked in brandy for a few days until soft right through"
+      }
+    ],
+    "tagline": "You're everyone's easy yes. Just once, you'd like to be someone's plan A."
+  },
+  "pairing": "regular-guy-lover",
+  "personality": "The One Next Door",
+  "reading": {
+    "epigraph": "Chicago's answer to New England's punch was made with New England rum.",
+    "whoYouAre": [
+      "Half past eight on a Friday, your phone lights up: \"free tonight?\" You know what it means. Something else fell through. And you nearly always are free, and you nearly always go, and ten minutes after you arrive they've kicked their shoes off and they're telling you about their week. People are at ease with you in a way they aren't anywhere else. Families take to you on the first visit. New people get brought to meet you first, because with you nobody has to try.",
+      "What you don't tell anyone is that you'd like, now and then, to be the plan and not the fallback. Not the easy option: the one somebody picked on purpose. You don't say it, because wanting something out loud feels like a fuss, and you've never wanted to be the one causing it. So you stay gracious, and part of you wonders whether you'll always be liked by everyone and picked first by no one. With you, nobody has to earn their place, and that was never a consolation prize."
+    ],
+    "yours": [
+      "In the 1890s, the story goes, a Chicago saloon keeper named Williams was a guest at a summer house in Cohasset, Massachusetts, when the party agreed that New England made the best punch. Williams wasn't satisfied with the verdict. He wired his partner, Tom Newman, to make a new punch and ship it by the keg, express. It came, and it won the room over.",
+      "And here's the twist. Chicago's answer to New England was made with New England rum, from Medford, a few miles north of Boston. Whether Newman meant anything by it, nobody can say: bar books of the day called for that rum by name. But I like to think that crowd was won over by something they'd known all along, in a glass they didn't expect.",
+      "Then it won Chicago. It was bottled, and its recipe printed, but the regulars agreed neither did it justice. They wanted it as the bar served it: stirred at length, with a piece of peach soaked in brandy until soft. Later owners put up a neon lighthouse that read \"Home of Cohasset Punch\", and the drink stayed for about ninety years.",
+      "A whole city felt at home with this drink, and in the story, it began because one guest wouldn't let the matter rest. The cocktail I've made for you is the Cohasset Punch, a Chicago classic: an aged amber rum and sweet vermouth (wine with herbs steeped in it, then sweetened) in equal parts, lemon pressed for its juice, a little syrup, orange bitters. That bar always stirred it, and at length, so I stir it for a full minute. The peach can start as an everyday tin. You cut it small and soak it in brandy for some days, until it's soft right through, like the slice they got at the bar, not the half peach the printed recipe usually turned into. I did it that way for the people who could tell the difference, and because something familiar, given a few days' care, is worth coming back for.",
+      "In that story, Williams was a guest in someone else's house. He could simply have agreed. Instead he sent for something better, and let the room decide. When you next notice you're someone's easy option, don't be gracious about it. Let them see you'd like to be first. Whoever picks you then won't be settling. They'll know exactly what they've got, and you can simply enjoy being chosen."
+    ]
+  },
+  "status": "draft"
+}

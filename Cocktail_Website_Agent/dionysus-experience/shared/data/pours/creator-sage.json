@@ -1,0 +1,108 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Jerry Thomas's *How to Mix Drinks* (1862) was the first book to give the Cocktail a section of its own: thirteen recipes, among them the plain brandy, gin and whiskey Cocktails that Wondrich calls the three \"standard\" ones. (F1; *Imbibe!* pdf 173, 179)",
+      "kind": "standard",
+      "meaning": "He wrote down the standard. He didn't invent the Cocktail: it was defined in print by 1843 (F18).",
+      "speaksTo": "drawnToward: Mastery · Classic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 1876 the book was reprinted with a supplement of new drinks. In it Thomas added three \"Improved\" Cocktails: orange curaçao out, maraschino in, a dash of absinthe, and Angostura allowed. Absinthe was the fad bottle of the 1870s and 1880s, \"everywhere\" (Wondrich). (F2, F3, F18)",
+      "kind": "turn",
+      "meaning": "The master went back to his own standard fourteen years on and changed it. **Why** he did it isn't on record (\"I like to think…\" only). Absinthe was fashionable, not new.",
+      "speaksTo": "soughtFor: Courage · lens: The real me"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The 1862 recipes stayed in the book; the Improved ones were added in a supplement at the back of the same book (Wondrich: \"that groundbreaking 1876 Appendix\"). (F5, *Imbibe!* pdf 17, 179)",
+      "kind": "beside",
+      "meaning": "Refusing to settle, and respecting the structure: the old version is left standing. \"Beside\" means *in the same book*, not on the facing page. \"On purpose\" is our reading.",
+      "speaksTo": "texture: Structured · Considered"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Wondrich calls the improvement \"a subtle one\" and reads the Sazerac as the Improved Whiskey Cocktail; Oxford agrees it was \"virtually identical\" apart from the absinthe rinse. The Sazerac, first in print 1899, is New Orleans's official cocktail (since 2008). (F6, F7, F16, F17)",
+      "kind": "legacy",
+      "meaning": "His correction outlived him (d. 1885) under another name. \"Better\" is Wondrich's word, never ours stated as fact. The Sazerac's origin story stays out.",
+      "speaksTo": "lens: Legacy"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Green Chartreuse, 55%, 130 botanicals, made under Carthusian monks to a formula a handful of them know. It grew out of the order's intense, medicinal \"long life\" elixir (sold since at least 1764); green was first sold in 1840. It reaches cocktail books only in the 1880s. (F14, F19; Oxford pdf 439)",
+      "kind": "ingredient (ours)",
+      "meaning": "Our change, in his dash slot: a teaspoon of the herbal liqueur where his absinthe went. Never \"his\".",
+      "speaksTo": "drawnToward: Classic · soughtFor: Discovery"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Orange liqueur in place of the maraschino: Wondrich's own suggestion for the Improved Cocktail (*Imbibe!* pdf 180, F9), taken because maraschino is nuts in our table. Thomas used curaçao in his 1862 plain brandy and gin Cocktails, \"but not\" in his Whiskey Cocktail (*Imbibe!* pdf 176).",
+      "kind": "ingredient (not ours)",
+      "meaning": "The historian's swap, not the bartender's change: the one change of ours stays the Chartreuse.",
+      "speaksTo": "drawnToward: Classic"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Taste it next to the one you already know. Then decide.",
+    "contains": [],
+    "glassware": "a small coupe, chilled, its rim wiped with lemon",
+    "method": [
+      "Put a small coupe in the freezer, or fill it with ice and water while you mix.",
+      "Empty the glass if you filled it, and run the cut side of a lemon wedge around the rim.",
+      "Measure the rye, the syrup, the orange liqueur and the bitters into a shaker. Add the teaspoon of green Chartreuse last, on its own.",
+      "Fill the shaker with ice and shake hard for about 10 seconds.",
+      "Strain into the cold glass.",
+      "Twist the strip of lemon peel over the glass to spray its oil onto the drink, then drop it in."
+    ],
+    "name": "Beside the First",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "rye whiskey (any, 40–50%)"
+      },
+      {
+        "amount": "7.5 ml",
+        "item": "simple syrup (sugar and water, 1:1)"
+      },
+      {
+        "amount": "2.5 ml (½ tsp)",
+        "item": "orange liqueur (triple sec, Cointreau style)",
+        "note": "instead of the cherry liqueur of 1876"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "5 ml (1 tsp)",
+        "item": "green Chartreuse",
+        "note": "where he put his dash of absinthe"
+      },
+      {
+        "amount": "1",
+        "item": "strip of lemon peel, plus a lemon wedge for the rim"
+      }
+    ],
+    "tagline": "Everyone else calls it finished. You call it the first edition."
+  },
+  "pairing": "creator-sage",
+  "personality": "The Old Master",
+  "reading": {
+    "epigraph": "Its first author came back fourteen years later and added an 'Improved' one.",
+    "whoYouAre": [
+      "People bring you what they've made so you can tell them it's right. Often it is, and you say so. But alone with something you made years ago, the one people still quote back to you, you keep asking whether it could be better. Not because it failed. Because it didn't, and everyone stopped looking.",
+      "What you dread is settling into being right, becoming the way it's always been done, with everyone too respectful to mention it. So you question it yourself, first. And because you'll do that to your own best work, the ones who work with you feel free to do it to theirs."
+    ],
+    "yours": [
+      "In 1862 a bartender called Jerry Thomas published *How to Mix Drinks*, the first book to give the cocktail a section of its own: thirteen recipes. In 1876 the book came out again, and Thomas had gone back to his own cocktails. He added three new ones and called them \"Improved\", with a cherry liqueur and a dash of absinthe, the fashionable bottle of the day.",
+      "He didn't tear out the old recipes. The plain ones stayed where they were, and the improved ones went in at the back of the same book. The historian who wrote the book on his drinks calls the change \"a subtle one\". It outlasted him, though. That historian reads the Sazerac, now New Orleans's official cocktail, as Thomas's improved whiskey cocktail under another name.",
+      "I like to think nobody would have blamed him for leaving it alone, since it was his book and it worked. That's what I see in you. You'd rather ask the hard question about your own work than wait for someone else to find the courage. And you never throw the old one away. You put the new one next to it, so anyone can see what changed, and why.",
+      "So this drink starts from his improved whiskey cocktail: rye, plain syrup and bitters, with half a teaspoon of orange liqueur instead of his cherry one, the same swap his historian makes. It's shaken hard with ice and strained into a small chilled glass whose rim has been wiped with lemon. There's one change of mine, and it sits where he made his. Instead of his dash of absinthe, a full teaspoon of green Chartreuse, a herbal liqueur that grew out of a monks' medicine and is still made under Carthusian monks, to a recipe only a few of them know. American cocktail books only took it up in the 1880s. His change was a whisper. This one you can taste.",
+      "Here's where I'd take a stand. Take the thing you're best known for, the one everyone says not to touch, and change one thing in it. Don't replace it. Show the two side by side, and let people choose. You'll learn the most from the ones who choose the old one."
+    ]
+  },
+  "status": "draft"
+}

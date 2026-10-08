@@ -1,0 +1,106 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Ada \"Coley\" Coleman went to work at Claridge's after her father died in 1899. She started in the hotel's flower shop, making buttonholes for gentlemen, before she was moved to the bar, where the wine butler taught her to make a Manhattan. From 1903 she worked the Savoy's American Bar, where customers took her for the head bartender (her title is contested, C6). Oxford judges her the most famous woman bartender in Britain in her 1920s heyday. (F1, F2, F3; Oxford, COLEMAN, ADA, pdf 554)",
+      "kind": "lineage (person)",
+      "meaning": "Small things made by hand for other people to wear, long before she made a drink. The hands came first; the bar came later.",
+      "speaksTo": "drawnToward: Beauty · lens: The real me"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Charles Hawtrey, actor and impresario, one of her regulars, came in worn out from overwork and asked her to make him \"quite alive\" again (the *Sphere*, 1926). She told the *People* (1925) that she spent hours experimenting until she had a new cocktail for him. (F4, F5)",
+      "kind": "motive (on the record)",
+      "meaning": "The hours are a fact, in her own words. *Why* she spent them isn't on the record: fondness, pride and duty are all our reading, so signpost them (\"I like to think…\"). The shape we can state: his answer wasn't a word, it was a thing made for him alone.",
+      "speaksTo": "soughtFor: Comfort · drawnToward: Mastery · texture: Quiet"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Gin and sweet vermouth, with a small measure of Fernet-Branca: one of the first cocktails to use it. In that small dose it adds depth without making the drink plainly bitter. (F6, F9)",
+      "kind": "ingredient",
+      "meaning": "What made it his was the smallest thing in the glass. The care is in the measure, not the size.",
+      "speaksTo": "soughtFor: Taste · texture: Harmonic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford gives the Fernet as a range, 5–10 ml (F6; C2 for other proportions). Tasting off the spoon and adding only what the person needs is **our method**. No source says Coleman made it that way.",
+      "kind": "gesture (Tomás's method, not hers)",
+      "meaning": "Made to measure: her hours for one tired man, done in a minute for someone you know. (Pitfall: modern technique as origin. Never say \"as she did\".)",
+      "speaksTo": "lens: The real me · texture: In control"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It's the only one of her drinks known to survive, and the first canonical cocktail definitively credited to a woman bartender. The cocktail revival took it up again for its early, unusual Fernet. (F8, F10)",
+      "kind": "survival",
+      "meaning": "Of everything she made, the one we *know* lasted is the one made for one person (some *Savoy Cocktail Book* drinks may be hers: say \"known to survive\" (or the bartender's \"I know of\"), never \"the only one\"; no \"we\", per the one-voice rule). That's a fact; what it *means* is ours. Own the coincidence plainly.",
+      "speaksTo": "lens: The real me · drawnToward: Belonging"
+    },
+    {
+      "dossierOnly": true,
+      "fact": "In 1920s slang, \"hanky panky\" meant trickery or conjuring, not its modern sense. (F7)",
+      "kind": "name (dossier only)",
+      "meaning": "**Not in the reading** (Wren: tricks belong to *No Accident*, and here it would make her care look like sleight of hand). Kept here so nobody \"explains\" the name wrongly.",
+      "speaksTo": "n/a"
+    },
+    {
+      "dossierOnly": true,
+      "fact": "In December 1925 she and her colleague Kitty Burgess were retired from the Savoy bar, and Harry Craddock took over. (F11; C5)",
+      "kind": "exit (dossier only)",
+      "meaning": "**Not in the reading.** It's a different story (being displaced), and the reason is only Oxford's \"it appears\".",
+      "speaksTo": "n/a"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Look up before you pour. That's the recipe.",
+    "contains": [],
+    "glassware": "coupe (a stemmed cocktail glass), from the freezer",
+    "method": [
+      "Put a coupe in the freezer.",
+      "Pour the gin and the vermouth into a jar or mixing glass, then add one barspoon of Fernet-Branca (about 5 ml).",
+      "Fill it with ice and stir for about thirty seconds, until the outside of the glass is very cold.",
+      "Taste a drop off the spoon. Then look up at the person it's for. Are they worn out tonight, and do they need the bitter? If they do, add another half spoon and stir a few more turns. Never more than two spoons in all.",
+      "Strain it into the cold glass. Squeeze the orange peel over the top so its oils fall on the drink, and drop it in.",
+      "Hand it to them yourself."
+    ],
+    "name": "Quite Alive",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "London dry gin"
+      },
+      {
+        "amount": "30 ml",
+        "item": "sweet vermouth"
+      },
+      {
+        "amount": "5–10 ml",
+        "item": "Fernet-Branca (recommended; or any dark, minty Italian fernet)",
+        "note": "the measure is the person"
+      },
+      {
+        "amount": "1 strip",
+        "item": "orange peel"
+      }
+    ],
+    "tagline": "You never say it. You make it."
+  },
+  "pairing": "creator-caregiver",
+  "personality": "The Sculptor",
+  "reading": {
+    "epigraph": "The smallest thing in this glass is what made it someone's.",
+    "whoYouAre": [
+      "When someone you love is having a hard time, you rarely know what to say. You know what to make: a meal from scratch, a card you started three times, a present you were still finishing at two in the morning because one small thing wasn't right yet. People call it perfectionism. It isn't. To you, a shortcut says \"you weren't worth the time\". So you never take one.",
+      "What they're really holding is proof that someone looked closely at them. What you rarely let anyone see is what it costs you: the evenings you vanish into it, sometimes away from the very person it's for. And the quiet hope, each time you hand it over, that they'll understand what it was saying."
+    ],
+    "yours": [
+      "In the 1920s, the most famous woman bartender in Britain was Ada Coleman, known as Coley, at the Savoy in London. She didn't start behind a bar. She began at another London hotel, in its flower shop, making buttonholes for gentlemen to wear. Small things, made by hand, for someone else.",
+      "One of her regulars was the actor Charles Hawtrey. He came in once worn out from overwork and asked her to make him \"quite alive\" again. By her own account, she spent hours experimenting until she had something new for him: gin, sweet vermouth and a little Fernet-Branca, a dark, bitter Italian digestif, the kind once sold in pharmacies. It became the Hanky Panky.",
+      "Coley made drinks at the Savoy for more than twenty years. Of everything she made, the only drink of hers known to survive is the one she made for one tired man. That's a coincidence, and I won't pretend it's more. But I like to think she understood what you understand: you can't really tell someone \"I can see how tired you are\". You can make them something, take the time it takes, and let it say that for you.",
+      "So the cocktail I've made for you is her drink, made to measure: gin, sweet vermouth and a barspoon of Fernet, stirred with ice until it's very cold. In a small dose, the Fernet gives it depth without making it plainly bitter. Then you taste a drop off the spoon, and look up at the person it's for before you decide whether they need a little more.",
+      "One thing, though. You do your best work alone, out of sight, and hand it over finished. Next time you make something for someone, this or anything else, don't vanish to do it. Make it where they can see you. Let them watch you taste, look up, and add a little more because of the day they've had. They've always had what you made. Let them have you, making it."
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,118 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "In 1872 Antonin Baudoin, a pharmacist in Cognac, drew two botanists' attention to a black, sooty growth on walls and roof tiles near the distilleries (F2; Scott et al., *Mycologia* 2007). It *looked* like soot, and nobody is recorded as taking it for soot (L1).",
+      "kind": "discovery",
+      "meaning": "someone who wouldn't leave a strange thing at \"it's nothing\"",
+      "speaksTo": "\"drew two botanists' attention to a black growth\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He printed his own short study (1878, 15 pages, titled for \"the nostoc of the walls of Cognac\"): blue-green algae. He was wrong (F4; BnF record; Scott \"incorrectly\"). Never \"first\" for his answer (C4: the botanists' suggestion came in 1872).",
+      "kind": "wrong answer",
+      "meaning": "asking out loud, and getting it wrong, in print",
+      "speaksTo": "\"offer your guess, even if you suspect it's wrong\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 1881 Richon and Petit described it and filed it as *Torula compniacensis*, \"from Cognac\" (F5, F6). *Torula* was a catch-all: more than 300 kinds have been put in it over its history, and nearly all have since been moved out (F7, Scott citing Crane 2001). Never glossed as a yeast (G3).",
+      "kind": "catch-all",
+      "meaning": "the label that closes the subject",
+      "speaksTo": "\"The worst answer, to you, is a label\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "For decades the science went almost silent (one 1961 study). Industry-commissioned studies on three continents kept naming the same ordinary everywhere-fungi (F8).",
+      "kind": "label",
+      "meaning": "\"it's just a…\", said to close the subject",
+      "speaksTo": "\"oh, it's just a…\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "More than a century later (no decade: C1), a team showed it didn't fit the group it had been put in (*Torula*), or any similar one (Scott: in a known order, Capnodiales), and gave it a group (genus) of its own, and named that *Baudoinia*, \"in honor of Antonin Baudoin\" (F10). Rogers' account of their reason: he first brought it to scientists' attention (F11, secondary). The species name was kept.",
+      "kind": "honour",
+      "meaning": "being wrong didn't keep the asker's name off the answer",
+      "speaksTo": "\"the people who finally got it right put his name on it anyway\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Its nearest known relatives live on rock in Antarctica (F12; never \"only\", C2). It feeds on alcohol escaping ageing barrels but is believed to live on something else too, being millions of years older than any barrel (F1, F13; Oxford pdf 238 \"it is believed\"). No simple formula predicts its growth (F14).",
+      "kind": "open question",
+      "meaning": "the answer that opens the next question",
+      "speaksTo": "\"Nobody is quite sure what.\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Two regional bottles from around Cognac. VSOP cognac: by law at least four years in wood (Oxford pdf 546), and cognac's wood is oak (pdf 1404). White Pineau des Charentes: fresh grape juice stopped with young cognac from the same farm before it becomes wine (Oxford pdf 1518, 1315; *Codex* p. 74), 16–22%, at least 18 months' ageing with at least 12 in oak (INAO).",
+      "kind": "drink",
+      "meaning": "the strange thing is in what's already here",
+      "speaksTo": "\"two bottles from around Cognac\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Sichuan peppercorns steeped in part of the cognac (Tomás). Grapes pair with \"spices with citrus notes\" like these (Matrix pdf 140). A faint tingle on the lips is Tomás's taste claim. **Dossier only, never in the copy:** *Zanthoxylum*, citrus family, not related to black pepper (D6, secondary).",
+      "kind": "spark",
+      "meaning": "a small question in the glass",
+      "speaksTo": "\"a small question in the glass, the kind you've never been able to leave alone\""
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Ask what's in it before anyone tells you what it is.",
+    "contains": [
+      "spice"
+    ],
+    "glassware": "a small tulip-shaped glass (about 180 ml), chilled, no ice",
+    "method": [
+      "Beforehand: lightly crush 1 level teaspoon of Sichuan peppercorns with the back of a spoon. Leave them in 60 ml of the cognac for 20 minutes, then strain them out. That makes enough for four drinks, and it lasts.",
+      "Put the glass in the freezer for 10 minutes.",
+      "Pour 30 ml cognac, 15 ml of the peppercorn cognac and 35 ml Pineau into a mixing glass or jar.",
+      "Fill it with ice and stir for about 30 seconds, until the outside of the jar is very cold.",
+      "Strain into the cold glass. No ice in the glass.",
+      "Hold the lemon peel over the drink, skin side down, and squeeze it so its oils fall on the surface. Then set the peel aside."
+    ],
+    "name": "The First Guess",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "30 ml",
+        "item": "VSOP cognac",
+        "note": "any VSOP: by law it has spent at least four years in wood"
+      },
+      {
+        "amount": "15 ml",
+        "item": "cognac steeped with Sichuan peppercorns",
+        "note": "made beforehand (see Method); it gives a faint tingle on the lips"
+      },
+      {
+        "amount": "35 ml",
+        "item": "Pineau des Charentes (white)",
+        "note": "the Cognac region's own aperitif: grape juice stopped with young cognac before it could become wine, the cognac from the same farm, then rested in oak; any white Pineau"
+      },
+      {
+        "amount": "1",
+        "item": "strip of lemon peel",
+        "note": "squeezed over the top, then set aside"
+      }
+    ],
+    "tagline": "Your questions are how everyone else starts looking."
+  },
+  "pairing": "innocent-explorer",
+  "personality": "The Free Spirit",
+  "reading": {
+    "epigraph": "From around Cognac, where something growing on the walls was misnamed for over a century.",
+    "whoYouAre": [
+      "When someone says \"actually, nobody's really sure\", most people sigh. You light up. You ask why: why the form needs that box, why a thing is called what it's called, why everyone does it this way. You're not making a point. You'd honestly like to know, and you're secretly hoping the answer will be stranger than you expected. It usually is.",
+      "Not everyone hears it that way. Over the years a few of your questions got you told off: \"because I said so\", the sigh, the look across the table. So now you ask lightly, with a smile, as if it hardly matters. It matters. The worst answer, to you, is a label: \"oh, it's just a…\", handed over to close the subject, so that nobody looks again. And yet around you, people do look again. With you, \"I don't know\" stops being embarrassing and becomes the start of the fun, and people need that more than they'll ever tell you."
+    ],
+    "yours": [
+      "In 1872, a pharmacist in Cognac named Antonin Baudoin drew two botanists' attention to a black growth on the walls and roof tiles near the distilleries. It looked like soot. A few years later he printed his own short study of it. His answer was that it was a kind of blue-green algae. He was wrong.",
+      "Others filed it under a catch-all name that more than three hundred kinds of fungus have been put under over the years, nearly all of them moved out since. Then for decades the science went almost silent, and the studies that did look kept calling it the ordinary sort of fungus found everywhere. It wasn't. More than a century after Baudoin's first look, a team of scientists showed it didn't fit the group it had been put in, or any similar one, and gave it a group of its own, named after him, as the man who first brought it to scientists' attention. Its nearest known relatives live on rock in Antarctica. It feeds on the spirit that escapes ageing barrels, yet it's millions of years older than any barrel, so it's thought to live on something else too. Nobody is quite sure what.",
+      "I like to think Baudoin felt what you feel the moment someone says \"it's just…\": that it wasn't, quite. He wrote fifteen pages on it, and guessed wrong in print. Then the people who finally got it right put his name on it anyway. That's what your questions do. Even the ones that land wrong get other people looking, and what they find is often stranger than anyone guessed.",
+      "The cocktail I've made for you is stirred over ice until it's icy, then poured without it, the way a Martini is, from two bottles from around Cognac. One is a cognac aged for years in oak. The other is Pineau des Charentes, the region's aperitif: sweet grape juice stopped with young cognac from the same farm before it could become wine, then rested in oak too. Into part of the cognac I've steeped a few Sichuan peppercorns. You'll feel them as a faint tingle on your lips before the warmth comes through, a small question in the glass, the kind you've never been able to leave alone. I've poured it into a tulip-shaped glass, narrow at the top, to keep the scent with you. I like to think of it as a little of what escapes the barrels, kept for you this time.",
+      "So when a question next comes to you, don't make it small. Ask it properly, and offer your guess, even if you suspect it's wrong. Being wrong didn't keep Baudoin's name off it. It got the whole thing looked at. And I'd bet the real answer turns out stranger than your guess. That's the part you'll enjoy most."
+    ]
+  },
+  "status": "draft"
+}

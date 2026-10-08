@@ -1,0 +1,136 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "In colonial American taverns a hot drink was often a flip: beer or cider, rum and molasses or sugar, heated by plunging in an iron rod heated in the fire until it glowed. The red-hot metal caramelised the sugars and toasted the grain. (F1, F16; Oxford pdf 812–813; *LI* p. 177)",
+      "kind": "the old way",
+      "meaning": "The long way was once the ordinary way. \"Often\", never \"usually\" (A3). Taverns only, never sailors or shipbuilders (F15).",
+      "speaksTo": "Explorer: freedom from the ready-made"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "As Arnold tells it, eggs came in around the Civil War, boiling water replaced the iron, and \"something crucial was lost\". (F2; *LI* p. 177)",
+      "kind": "what was lost",
+      "meaning": "The easy way won and took something with it. The whole sentence carries his channel (A4).",
+      "speaksTo": "fear: Entrapment (the ready-made life)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Arnold decided to bring the poker back to taste what had gone missing. He tried a soldering copper (sometimes a penny taste), cast iron, steel and hot stones (which he thought better of serving), then built his own electric pokers for the New York bar he opened with David Chang in 2012. (F3, F6, F7; *LI* pp. 45, 177, 179–180; *Proper* pp. 225–226)",
+      "kind": "bringing it back",
+      "meaning": "The deliberate long way, with the pot right there. Motive on record: taste. One laugh only (the penny). No duration (\"a winter\", struck, A8). Past tense for the bar; never \"he opened\" alone (B1). Never \"invented\" the poker (F10).",
+      "speaksTo": "one true thing: the long way is the fun; drawnToward: Originality"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "One writer on the cocktail revival (Simonson) described a kid-like \"why not?\" enthusiasm in everything he did. (F12; *Proper* p. 224)",
+      "kind": "the \"why not?\"",
+      "meaning": "Simonson's portrait, never Arnold's quote, and never \"knew him\" (A7). \"Charlatan\" stays out.",
+      "speaksTo": "goal: Enjoyment"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "When somebody is making a poker drink, \"everybody perks up a bit\". (F5; *LI* p. 177)",
+      "kind": "the room",
+      "meaning": "The gift: people lean in. \"Perk up\", never \"turn round\" or watching (A9; *The Entertainer*).",
+      "speaksTo": "gift: the room perks up"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "To his taste the poker beats the pan; Oxford independently records that the iron caramelised the sugars and toasted the grain. (F4; *LI* p. 177; Oxford pdf 813)",
+      "kind": "it was better (his)",
+      "meaning": "\"He was right about the iron\" is our reading on Oxford's page; \"better\" is his taste (A10, A11). Caramelises *some* of the sugar.",
+      "speaksTo": "the long way works"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His best faux-poker for a kitchen burns the sugar in a pan (then flambés the liquor; we keep only the sugar). (F8; *LI* p. 184)",
+      "kind": "the kitchen stand-in",
+      "meaning": "Our glass. \"The part I've kept\" (A13). No flame, no \"amber\", no edge-of-burning beat (*Nothing to It*). \"Arnold doesn't assume you will either\", never \"neither does Arnold\" (A13). Never hand anyone the hot pan (S2).",
+      "speaksTo": "drink: burnt sugar instead of a syrup you could just pour"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He serves hot drinks in wide teacups, because tall cups concentrate the alcohol vapour. (*LI* pp. 182–183)",
+      "kind": "the cup",
+      "meaning": "His reason, not \"the smell reaches you first\" (A14).",
+      "speaksTo": "drink: teacup"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Get someone to pour the ale in while you stir. Then you both built it.",
+    "contains": [
+      "gluten"
+    ],
+    "glassware": "a wide china teacup (about 200 ml), warmed with hot water first",
+    "method": [
+      "Fill the teacup with hot water to warm it. Measure everything else and set it beside the stove, because once the sugar is ready the rest goes in quickly.",
+      "Put the sugar in a small heavy pan over a medium-high heat. Don't stir: swirl the pan now and then as it melts, and let it go dark brown and smell toasty.",
+      "Take the pan off the heat and pour in the water. It will spit and steam, and the sugar will seize into a lump, so keep your face and hands back. Put the pan on a low heat and stir until the lump has melted again.",
+      "Pour in the ale while you stir (this goes best with two people, one pouring and one stirring). Warm it until it steams, but don't let it boil.",
+      "Take the pan off the heat and away from the flame. Stir in the rum, lemon, bitters and salt.",
+      "Empty the teacup and pour the drink in. Squeeze the orange peel over the top so its oils fall on the drink, then drop it in."
+    ],
+    "name": "Why Not?",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "11 g",
+        "item": "white sugar",
+        "note": "about 2½ level teaspoons; use 9 g if your ale tastes sweet"
+      },
+      {
+        "amount": "30 ml",
+        "item": "water",
+        "note": "2 tablespoons, to loosen the sugar once it's dark"
+      },
+      {
+        "amount": "90 ml",
+        "item": "malty Belgian-style abbey ale (dubbel style, 6–8%)",
+        "note": "low in hops, as Arnold chooses for hot drinks"
+      },
+      {
+        "amount": "30 ml",
+        "item": "aged rum (40–43%)",
+        "note": "colonial taverns heated rum with beer and sugar"
+      },
+      {
+        "amount": "5 ml",
+        "item": "fresh lemon juice",
+        "note": "1 teaspoon; Arnold uses acid sparingly in hot drinks"
+      },
+      {
+        "amount": "3 dashes",
+        "item": "orange bitters"
+      },
+      {
+        "amount": "1",
+        "item": "small pinch of fine salt"
+      },
+      {
+        "amount": "1",
+        "item": "strip of orange peel",
+        "note": "squeezed over the top, then dropped in"
+      }
+    ],
+    "tagline": "There's an easier way. It just isn't as much fun."
+  },
+  "pairing": "explorer-jester",
+  "personality": "The Mad Inventor",
+  "reading": {
+    "epigraph": "Taverns heated drinks like this with a red-hot iron. This one burns its sugar instead.",
+    "whoYouAre": [
+      "There's a perfectly good way to do it, and everybody knows it. Then there's your way: three extra steps, a part you made from something at the back of a drawer, and someone in the doorway asking what on earth you're doing. It lit you up the moment you thought of it, and that was reason enough.",
+      "Some of it falls over. You laugh first, and loudest. What you don't laugh at is the kind voice that says \"you could just buy one\". It's said with a smile, as common sense, and it lands harder than any collapse, because it turns the best part of your week into a waste of time. What you'd hate most is a life with nothing left to build. Here's what your long way gives people: the kitchen gets louder when you start, and an ordinary job becomes the most interesting thing in the house. When it works, nobody is more surprised than you, and the surprise is catching."
+    ],
+    "yours": [
+      "In the taverns of colonial America, a hot drink on a cold night was often a flip: ale, rum and sugar, heated by plunging in an iron rod that had sat in the fire until it glowed. The red-hot metal did more than warm the drink. It caramelised the sugar and toasted the grain. Then, as Dave Arnold tells it, eggs came into the flip around the time of the Civil War, boiling water took the iron's place, and something crucial was lost.",
+      "Arnold, who happens to have written one of the books I mix from, decided to bring the iron back, to taste what had gone missing. A pot would have heated the drink. He tried a soldering copper first, which sometimes made the drink taste, as he put it, like sucking on a penny. Then cast iron, then steel, then hot stones, which worked, though he thought better of serving people drinks with stones in them. In the end he built his own electric pokers, for the New York bar he opened with David Chang in 2012. One writer on the cocktail revival described a kid-like \"why not?\" in everything he did. And when a poker drink was being made, Arnold wrote, everybody perked up a bit.",
+      "The pot was never really an option, I like to think. You'd know. There's always a pot: the easy way, right there, that would do the job well enough. And there's the other way, the one that takes trial after trial, and leaves everybody perking up. You take the second one because it's the fun one. What makes me smile is that he was right about the iron. It does something a pot doesn't: it caramelises some of the sugar and toasts the grain, right inside the drink. The long way wasn't only more fun. To his taste, it was better. Not every time. But more often than the people who say \"you could just\" would like to admit.",
+      "The cocktail I've made for you is a hot flip, the kind colonial taverns served before the eggs came in, and a popular one: a malty abbey ale and rum, the taverns' own spirit, here an aged one, with a teaspoon of lemon, three dashes of orange bitters and a little salt added. I don't expect you to keep an iron in the fire, and Arnold doesn't assume you will either. His own stand-in for a kitchen, the best he's come up with, starts by burning the sugar dark in a pan, and that part I've kept: it gives a toasty, burnt-sugar taste a plain syrup doesn't have. It's the long way round to sweetening a drink, when you could just pour the syrup, and it's there as a nod to the poker and to everyone who'd rather build it. It comes in a warm, wide teacup, the way he insists, because a tall mug traps the fumes, with a strip of orange zest pinched over it.",
+      "So when you next hear \"you could just…\", don't explain. Explaining makes it sound like a defence, and it was never one. Hand them the other end instead: the spanner, the bit that needs holding, the ale to pour. Let them be there when it works. I'd bet they'll want to do the next one with you."
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,109 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "David Wondrich, a drinks historian: distillers who were trying to bring back lost spirits often turned to him for the know-how (*Proper* p. 241; W F1).",
+      "kind": "person",
+      "meaning": "The one who knew. \"Had the directions but couldn't drive the car\" is Simonson's phrase: paraphrase it or attribute it, never as Wondrich's words.",
+      "speaksTo": "Sage: wisdom · Advice"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "An old friend of his had started a distillery in Oregon (Ransom), which had been making brandies and eaux-de-vie. The friend had been thinking about making a gin for a while (*Proper* p. 241; Seestedt in Tales of the Cocktail, 2016, secondary; W F2, F10).",
+      "kind": "person",
+      "meaning": "The friend's own plan, the one he was hoping to hear was fine. NAME: see C1. Safest is \"an old friend with a distillery in Oregon\".",
+      "speaksTo": "Wren"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Wondrich advised him to make an Old Tom instead, a sweeter gin from the 1800s. In the friend's own words, \"David suggested an Old Tom.\" He had never heard of it (*Proper* p. 241; Tales 2016; W F3, F10).",
+      "kind": "turn",
+      "meaning": "A plan met by someone who knew something the planner didn't, and said so. VERBS: \"advised\", \"suggested\", \"told him about\", \"offered\". NEVER \"refused\", \"said no\", \"talked him out of\", \"stopped\", \"saved\", \"spared\". No motive for Wondrich is on record: any \"why\" is \"I like to think\".",
+      "speaksTo": "goal: Service · Honesty · Advice"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"He did.\" (*Proper* p. 241). Ransom Old Tom reached the market the year after Hayman's (2007), so in 2008. Oxford names the two among the old spirits the revival brought back, and by its writing at least a dozen gins called themselves Old Tom (Oxford OLD TOM GIN pdf 1438; W F5).",
+      "kind": "held",
+      "meaning": "The advice was taken, and what he pointed to came to exist, with others following. NOT \"the first\" or \"the only\" on Oxford's word: Oxford names two and ranks neither. The only sourced \"first\" is the *Codex* p. 68: \"Hayman's was the first to reach the United States\", so \"the first of the revived Old Toms reached America\" is fine (audit v4, R6). Also \"essentially unavailable\" by the late 1900s, never \"gone for decades\" (R5). NOT \"saved his distillery\": nothing says what a plain gin would have done.",
+      "speaksTo": "A reality check"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Gary Regan, writing on the Martinez, gives Ransom as the Old Tom he \"highly\" recommends (*Joy* pdf 336). The *Codex* describes it as lightly aged (p. 68) (W F7, F8).",
+      "kind": "held (others' words)",
+      "meaning": "Someone with no stake vouches for it. Use as \"a bartender who had no part in it recommends it\", or leave it in the dossier.",
+      "speaksTo": "Wren"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In his own book, Wondrich recommends Ransom for an older-style Old Tom and adds a \"fair warning\" that he had a hand in developing it (*Imbibe!* pdf 68; W F6).",
+      "kind": "candour (optional)",
+      "meaning": "He tells you what he knows and what his stake is in the same breath. That's the Sage side's fear of being deceived, answered. Paraphrase it: \"fair warning\" is his phrase, so quote only those two words if at all.",
+      "speaksTo": "fear: Deception · Honesty"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Wondrich is the editor-in-chief of the *Oxford Companion*, and he signs its OLD TOM GIN entry (pdf 1439).",
+      "kind": "coincidence (own it)",
+      "meaning": "If the reading uses any Oxford fact about Old Tom, own it in one plain clause (\"the same man later wrote the encyclopedia entry on it\"). He is also quoted as an authority in *Beside the First* and *As It Was*: that's fine, because here he is the person, not the citation.",
+      "speaksTo": "Wren"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Twist the lemon over it. Then tell someone what they haven't heard of yet.",
+    "contains": [],
+    "glassware": "a small stemmed cocktail glass, chilled, no ice",
+    "method": [
+      "Put the glass in the freezer, or fill it with ice and water while you mix.",
+      "Pour the gin, the vermouth and both bitters into a mixing glass or a jar. Most Martinez recipes add a little maraschino, a cherry liqueur, here. This one leaves it out, and nothing goes in its place.",
+      "Fill it with ice and stir with a long spoon for about 30 seconds, until the outside is very cold. The melting ice is part of the drink: it adds about two-fifths to what you poured.",
+      "Empty the serving glass if you filled it, and strain the drink in. No ice in the glass.",
+      "Cut a strip of lemon peel, just the yellow part. Twist it over the glass so its oil falls on the drink, then rest it on the rim."
+    ],
+    "name": "Instead",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "Ransom Old Tom gin (recommended), or any Old Tom gin",
+        "note": "the gin from the story: an old, slightly sweet style, this one with a little time in barrel"
+      },
+      {
+        "amount": "30 ml",
+        "item": "sweet (red) vermouth"
+      },
+      {
+        "amount": "1 dash",
+        "item": "aromatic bitters"
+      },
+      {
+        "amount": "1 dash",
+        "item": "orange bitters"
+      },
+      {
+        "amount": "1 strip",
+        "item": "lemon peel"
+      }
+    ],
+    "tagline": "You don't say \"poor you\". You ask \"since when?\""
+  },
+  "pairing": "caregiver-sage",
+  "personality": "The Doctor",
+  "reading": {
+    "epigraph": "Someone wanted to make a gin. A friend knew an older one worth making.",
+    "whoYouAre": [
+      "Someone tells you about a pain they've had for weeks, and before they've finished you've asked \"since when?\" You won't tell them it's probably nothing. Not until you know it's nothing. And when a friend comes to you hoping you'll say the plan is fine, you ask the one question they were hoping nobody would. Kindly. But you ask it, because you know to ask from experience.",
+      "Yes would be so much easier, and for an evening they'd like you more for it. You say no anyway, and then you go over it all the way home, wondering if you were too hard. You weren't. You'd just rather be the one who said no than the one who said yes and was wrong."
+    ],
+    "yours": [
+      "In the 2000s, some distillers set out to bring back spirits that had simply disappeared. A few had the will but not the know-how, so they went to David Wondrich, a drinks historian. (Later he edited the *Oxford Companion to Spirits and Cocktails* and wrote its Old Tom entry, so some of what I tell you is his.) He knew the way to things he couldn't make himself. One of his old friends had started a distillery in Oregon called Ransom, and wanted to make a gin.",
+      "What Wondrich gave him wasn't a verdict on the plan. It was an instead: make an Old Tom, a sweeter, older style of gin that bars used in the 1800s, and by the late 1900s all but impossible to buy. His friend had never heard of it. He made it. Ransom's Old Tom came out in 2008, a year after the first of the revived Old Toms reached America, and at least one bartender's book recommends it by name. In his own book, Wondrich points you to it, and in the same sentence warns you that he had a hand in developing it.",
+      "You know the moment before that. A friend tells you the plan, and you can already see the trouble in it. You're good at the question, and you ask it even when it costs you the evening. But I like to think this is the part of you people keep: not the question itself, but that you already knew what to do instead, and you handed it over, and told them what you had riding on it.",
+      "The cocktail I've made for you starts from that gin. It's a Martinez, one of the Martini's early names, in print by 1884 and believed to have been made with Old Tom from the start: twice as much Old Tom as sweet vermouth, the way one bartender suggests for today's taste, and two dashes of bitters, stirred until cold. Old Tom is the sweeter kind of gin. But among the sweetened gins of the 1800s, it was the strong one, the one they added the least sugar and water to. That seemed right for you.",
+      "Go on asking the question. It's the right one. But the next time a friend's plan isn't fine, don't leave them with only the no. Tell them what you'd make instead. They may never have heard of it. That's exactly why it has to come from you."
+    ]
+  },
+  "status": "draft"
+}

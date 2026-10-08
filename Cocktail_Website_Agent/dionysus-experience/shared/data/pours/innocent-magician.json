@@ -1,0 +1,129 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "On a day out trout fishing with his father-in-law, sitting in Tasmania's highlands, the two of them talked over what the island already had: water they thought among the best in the world, good barley, a climate that seemed fine for whisky. And nobody was making any. (SB, Lark; no year, C5)",
+      "kind": "setting",
+      "meaning": "Our reading: the hope was built from what was in front of them, not wished from nowhere. It was a conversation between two people.",
+      "speaksTo": "The one true thing (a hope built from things noticed, close by); test limb (1)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Lyn arrived and said, in effect, let's try it. (SB, Lark quoting her; never her exact \"give it a go\", which echoes the Have A Go Hero)",
+      "kind": "yes",
+      "meaning": "The first answer the idea got was a yes, from his wife, who had just arrived. Lyn is in the story from the first day, never \"he alone\".",
+      "speaksTo": "Wren's Lyn condition; the gift (someone keeps the hope going)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Neither of them had distilled before: he was a land surveyor, she a survey draftsman. (SB, narration)",
+      "kind": "no-proof",
+      "meaning": "Our reading: the hope came well ahead of any proof.",
+      "speaksTo": "Test limb (1)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The island had whisky distilleries by the late 1820s and early 1830s. (Oxford pdf 171)",
+      "kind": "before",
+      "meaning": "What they hoped for had been there before.",
+      "speaksTo": "Test limb (2) (about something near, already there)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "From 1901 the law required a licensed distiller to run a very large still, so for most of the century only big industrial firms distilled. After the 1970s, Australians turned to cheaper imports and away from local brands, and the big whisky makers stopped. (pdf 172; stopping date conflicts, pdf 172 vs 2173, so no date)",
+      "kind": "the-no",
+      "meaning": "The \"no\" on the page is a rule and a market, not a person. \"A country had stopped hoping its whisky could be good\" is our reading: signpost it.",
+      "speaksTo": "Test limb (2); the guest's \"don't get your hopes up\" stays in the guest's half"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"Stymied by regulation\", in his words. In 1992 he persuaded the government to rewrite the rule on how big a still had to be (pdf 2173; pdf 172 \"lobbied\"). As he tells it, politicians helped \"instantly\". (SB)",
+      "kind": "the-ask",
+      "meaning": "A rule from 1901, still standing in 1992 (no page says whether anyone had questioned it before him). Nobody on the page scolded him: as he tells it, the help came at once.",
+      "speaksTo": "Wren's position direction (\"an old rule nobody has checked\")"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"Lyn and I were the first ones to get a licence.\" (SB, 1992)",
+      "kind": "licence",
+      "meaning": "Shared, again. No \"first in N years\" (C4).",
+      "speaksTo": "Lyn clause"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Within two weeks, a phone call at 10 at night: John Grant of Glenfarclas in Scotland, offering to help them make good whisky. His reason, as Lark remembers it: someone's first whisky should be a good one, so they'll go on to explore the rest. (SB, Grant relayed by Lark)",
+      "kind": "the-call",
+      "meaning": "Someone far away kept the hope going for them before there was any whisky.",
+      "speaksTo": "The gift (keeping hope for others); bridge to limb (3)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"As other producers came along, I thought I should help them as well\" (SB, Lark, with Grant's words in mind). Oxford: several craft distillers soon followed in his footsteps (pdf 172). Most of Australia's distilleries are now in Tasmania (pdf 2173).",
+      "kind": "passed-on",
+      "meaning": "The help he was given, he passed on, on his own record: the hope opened a door for others, and he held it open.",
+      "speaksTo": "Test limb (3); Wren's question \"did he help the ones who followed?\" (yes)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Tasmanian distillers tend to use local brewing malt; the local peat gives different aromatics; wine and fortified-wine casks, often small (pdf 2173). Craft spirits there are often much dearer (pdf 172).",
+      "kind": "glass",
+      "meaning": "For Tomás: island-grounded material (malt, peat, small fortified casks) that isn't honey; and a sourced Makeable flag on price.",
+      "speaksTo": "Drink v1; Makeable check"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "The Glenfarclas goes in last. Then find out what's really in the way.",
+    "contains": [],
+    "glassware": "a tall glass (highball, about 300 ml), filled with ice",
+    "method": [
+      "Fill a tall glass with ice.",
+      "Pour in the Lark, then the cold water, and stir a few turns, until the outside of the glass feels cold.",
+      "Add the two teaspoons of Glenfarclas last, over the top, and give it one more turn."
+    ],
+    "name": "Let's Try It",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "Lark Classic Cask Tasmanian single malt whisky (43%), recommended",
+        "note": "or any Tasmanian single malt, 40-46%; not cask strength. If you can't find a Tasmanian one, any single malt of 40-46% aged at least partly in wine, sherry or port casks"
+      },
+      {
+        "amount": "110 ml",
+        "item": "cold still water",
+        "note": "from the fridge; not sparkling"
+      },
+      {
+        "amount": "10 ml (2 teaspoons)",
+        "item": "Glenfarclas single malt Scotch whisky, recommended",
+        "note": "or any Scotch single malt; added last"
+      },
+      {
+        "amount": "to fill",
+        "item": "ice",
+        "note": "ordinary cubes"
+      }
+    ],
+    "tagline": "You always say \"probably not\" first. You never mean it."
+  },
+  "pairing": "innocent-magician",
+  "personality": "The Dreamer",
+  "reading": {
+    "epigraph": "Tasmania's new whisky began on a fishing trip: good water, good barley, and nobody making any.",
+    "whoYouAre": [
+      "Little things add up for you. The friend who lights up whenever baking comes up. The job advert you know would suit someone perfectly. The two people at a party who keep ending up talking to each other. Put enough of them together and you can see how something could turn out, well ahead of everyone else. To you, that isn't wishing. It's where the signs point.",
+      "But you learned early to keep it quiet. \"Don't get your hopes up\" was nearly always said kindly, by people who loved you. So now every hope comes with a little \"probably not\" in front of it, said first, to beat everyone else to it. What you dread is the look afterwards, and worse, someone telling you that you got their hopes up.",
+      "And still you don't stop. When a person close to you puts a hope down, you quietly pick it up and keep it for them until they're ready to have it back. Most people just tell them to be realistic."
+    ],
+    "yours": [
+      "Tasmania, the island south of mainland Australia, owes its whisky today to a fishing trip. Bill Lark and his father-in-law were sitting up in the highlands, talking over what the island already had: some of the best water in the world, as they saw it, good barley, and a climate that seemed fine for whisky. And nobody was making any. Then Bill's wife, Lyn, arrived, heard the idea and said, more or less, that they should try it. Neither Bill nor Lyn had ever distilled.",
+      "What stood in the way was an old rule. Since 1901, Australian law had asked for stills so big that only large industrial firms could distil, and by then even the big whisky makers had stopped: Australians had turned to cheaper imports and away from their own brands. I like to think a whole country had been told not to get its hopes up about its whisky. In 1992 Bill persuaded the government to rewrite the rule, and, as he tells it, the politicians helped at once. Lyn and Bill were the first to get a licence.",
+      "Within two weeks of the licence, the phone rang at ten at night. It was John Grant, of the Glenfarclas distillery in Scotland, offering to help them make good whisky. His reason, as Bill remembers it: if somebody tastes whisky for the first time from the Larks' distillery, it should be a good first time. As others on the island started distilling, Bill decided he should help them too.",
+      "This is where you come in. The idea that day wasn't a wish. They'd looked at what was in front of them and added it up. The \"no\", when it came, wasn't a person at all, just a rule that had stood since 1901. And once the door was open, Bill held it for the ones coming after him, the way a distillery in Scotland had held it for him. That's what you do with other people's hopes. You keep them going until they can carry them again, and some of them come true because you did.",
+      "The cocktail I've made for you is a whisky highball, one of the great simple drinks, made still: a Tasmanian single malt, Lark's own if you can find it, with cold water over ice, for the water and barley they talked about that day. The last thing in is two teaspoons of Glenfarclas, the Scotch from the distillery whose call came at ten at night. It's there for the help that turns up before there's anything to show for it, and for the hopes you keep for other people.",
+      "Whenever you can see how something could go, for yourself or for someone close, drop the \"probably not\". Say what you've added up, plainly, and then find out what's really in the way. It's often smaller than the hope: an old rule, a form, one person nobody has thought to ask. And sometimes the first answer is a yes."
+    ]
+  },
+  "status": "draft"
+}

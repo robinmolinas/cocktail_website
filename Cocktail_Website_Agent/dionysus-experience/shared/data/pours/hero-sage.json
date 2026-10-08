@@ -1,0 +1,142 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The family story goes that Cox, with American visitors to serve, found he had no gin left (Oxford pdf 621; Puig to Wolfe, 1970).",
+      "kind": "story",
+      "meaning": "The plan broke with people there to see it.",
+      "speaksTo": "yours: story"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He had a local rum, but the family says he feared the visitors wouldn't like it (Oxford pdf 621).",
+      "kind": "story",
+      "meaning": "A doubt about the answer before anyone tasted it; the worry is the family's report, so the reading signposts it.",
+      "speaksTo": "whoYouAre; yours: reveal"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "So, in the family's telling, he picked limes from his own garden tree and added juice and sugar to soften the rum, and swizzled it in a pitcher with shaved ice (Oxford pdf 621).",
+      "kind": "story",
+      "meaning": "He solved it with what was within reach, and the fix for his worry is the drink's balance.",
+      "speaksTo": "yours: why it's you; drink"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford says he made the first Daiquiri or at least oversaw its making, long after Caribbean people had mixed rum, lime and sugar (pdf 621).",
+      "kind": "lineage",
+      "meaning": "A renowned classic; his part is the occasion, not the invention of the mix.",
+      "speaksTo": "yours; epigraph guard"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "One of his engineers recalled in 1935 that it was more a group effort among Cox and his crew (Oxford pdf 621).",
+      "kind": "lineage",
+      "meaning": "One clause of honesty; not the point.",
+      "speaksTo": "yours (one clause)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Later newspaper accounts say that for years he gave it no name and called it his rum sour (Oxford pdf 623; no number, C3).",
+      "kind": "story",
+      "meaning": "The fix worked and he never stopped to name it.",
+      "speaksTo": "yours: proposal"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Meanwhile he kept introducing it to bars in Santiago, where a bartender made a single-glass version (Oxford pdf 623).",
+      "kind": "story",
+      "meaning": "He didn't drop the answer; he kept handing it out unnamed.",
+      "speaksTo": "guard on the proposal"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Bacardi moved distilling to Puerto Rico in 1936 and left Cuba after the revolution; Wondrich writes of the lack of true Cuban Bacardi (Oxford pdf 182; *Imbibe!* pdf 241).",
+      "kind": "ingredient",
+      "meaning": "Cox's bottle isn't on today's shelf; the recipe names a style.",
+      "speaksTo": "drink; Checks"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Year (1896 vs 1898), who named it and when, the clock, his pleasure: contested or absent (C1–C3; card \"Not on any page\").",
+      "kind": "guard",
+      "meaning": "Keep out, or signpost as the bartender's reading.",
+      "speaksTo": "audit"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "*Codex* lists makrut as a different lime from the juicing limes; its juice is harsh and its fragrant leaves are the part recommended for muddling (*Codex* p. 117; Oxford pdf 465).",
+      "kind": "ingredient",
+      "meaning": "The spark comes from another tree, and on that tree the leaf is the useful part; never \"thrown away\", never \"the same tree\".",
+      "speaksTo": "drink; Checks; image"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford counts kaffir lime leaves among garnish leaves that may work only on the nose (pdf 865); *Codex* says a Daiquiri needs adjusting because citrus varies fruit to fruit (p. 105).",
+      "kind": "guard",
+      "meaning": "The leaves bring scent; exact ml fixes the volume, not the fruit.",
+      "speaksTo": "Checks; reading"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Pour all six in one go, along the row and back. And the next time the plan falls apart, admit you're having fun.",
+    "contains": [],
+    "glassware": "six small tumblers (about 180 ml), chilled in the freezer; a pitcher (about 1.5 litres)",
+    "method": [
+      "Put six small tumblers in the freezer for 10 minutes.",
+      "Pour the lime juice into the pitcher, add the sugar, and stir until no grains are left on the bottom: about a minute.",
+      "Tear each makrut leaf in half and drop the halves into the lime. Press them against the bottom of the pitcher with a muddler or the end of a rolling pin, five times each, until they smell strongly of lime.",
+      "Add the rum.",
+      "Fill the pitcher about two-thirds with the crushed ice. Swizzle for 30 seconds by the clock: push a long spoon down to the bottom and work it up and down through the ice, turning it as you go.",
+      "Lift the leaves out with the spoon.",
+      "Pour straight away into the six tumblers, ice and all, along the row and back, so every glass gets the same."
+    ],
+    "name": "Leave It With Me",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "300 ml",
+        "item": "white rum, light and dry (Spanish-style, unaged or lightly aged, 37.5-45%; not spiced, not sweetened)",
+        "note": "the kind of rum that was there when the gin wasn't"
+      },
+      {
+        "amount": "100 ml",
+        "item": "fresh lime juice (about 3 to 4 limes), measured"
+      },
+      {
+        "amount": "50 g",
+        "item": "caster sugar (granulated works, it takes longer)",
+        "note": "dissolved in the lime, no syrup: rum, lime and sugar, nothing else"
+      },
+      {
+        "amount": "4",
+        "item": "makrut lime leaves, fresh or frozen",
+        "note": "lime's scent, without more sour; they come out before you pour"
+      },
+      {
+        "amount": "about 500 g",
+        "item": "crushed ice (a bag of cubes in a tea towel, hit with a rolling pin)"
+      }
+    ],
+    "serves": "6 (one pitcher, six small tumblers)",
+    "tagline": "The plan's gone. Now it gets interesting."
+  },
+  "pairing": "hero-sage",
+  "personality": "The Problem Solver",
+  "reading": {
+    "epigraph": "The first was made in a pitcher, a family story goes, when the gin ran out.",
+    "whoYouAre": [
+      "The oven gives up an hour before twelve people arrive. Someone says the evening's ruined, someone else starts looking up takeaways, and you're already at the open fridge, asking what you've got. You'd never wish it on anyone. But when the plan breaks and every face turns to you, a small part of you lights up. You keep that quiet. It hardly seems fair to enjoy someone else's emergency.",
+      "The bit you never mention is the blank before the answer comes. They're all looking at you, and there's nothing there yet. That blank is your nightmare, and somehow the whole fun of it too, because a puzzle that couldn't beat you wouldn't be worth solving. So you keep a level face through it, and no one learns how close it felt. And here's what it does for everyone else: the moment you ask what there is to work with, the room stops panicking and starts looking. Everyone gets something to do with their hands, and a little of your nerve. That's a real gift, and most people never notice who started it."
+    ],
+    "yours": [
+      "In the 1890s, Jennings Cox ran an iron-mining company near Daiquirí, a port town in the east of Cuba. The family story goes that he had some American visitors to serve, and found he'd run out of gin. He did have rum, from a distillery in Santiago, under thirty miles away. But he worried, the family says, that it wouldn't suit the Americans' taste.",
+      "So, in the family's telling, he picked limes from a tree in his own garden, added their juice and some sugar to soften the rum, and swizzled it all in a pitcher with shaved ice. It went down well at once, the accounts say. One of his engineers later remembered it as more of a group effort among Cox and his crew, and maybe it was. People in the Caribbean had been mixing rum, limes and sugar for two centuries by then, but the Daiquiri, a renowned classic today, goes back to him: he made the first one, or at least oversaw its making. And for years afterwards, the old newspaper accounts say, he simply called it his rum sour, and kept taking it to the bars of Santiago.",
+      "I like to think none of his visitors saw the worry the family remembered. They saw a man with a pitcher and a handful of limes. I recognise you in that: the answer arrives with a level face, and the doubt stays behind it. And then there's the name. He'd solved a problem with visitors to serve, and for years he went on handing the answer round as just his rum sour. Whether he enjoyed that day isn't known, but I like to think he did. You'd do the same: you hand the answer over plainly, and nobody hears how much you loved finding it.",
+      "The cocktail I've made for you is built like that pitcher, for six: a Daiquiri in the shape the family story gives it. White rum and fresh lime, with sugar stirred into the lime until it's gone, swizzled on crushed ice for thirty seconds and poured straight away into six small chilled tumblers, so nobody waits longer than anyone else. A Daiquiri always asks for some quick thinking, because limes vary in sourness from one fruit to the next. I've measured everything a measure can fix, and the limes are yours to judge. My only addition is four makrut lime leaves, pressed into the lime and lifted out before you pour. Makrut is a different lime, with harsh juice but fragrant leaves, so the answer comes from the part of the tree you'd never think to squeeze. The leaves bring lime's scent without making the drink any sharper. They're there as one more answer to his worry, and as a nod to the question you always ask first: what else is there? It's icy, bright and fresh, and the lime carries right through it.",
+      "When every face next turns to you and nothing has come yet, tell them the truth, smiling: this is the bit you love most. Watch what that does. They stop waiting for you to produce an answer and start hunting with you, and the blank isn't yours alone any more. It becomes a game the whole room is playing, and you can love it in the open."
+    ]
+  },
+  "status": "draft"
+}

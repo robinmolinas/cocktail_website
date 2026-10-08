@@ -1,0 +1,114 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "George Smith (1792-1871), a tenant of the Duke of Gordon, made whisky illegally in Glenlivet from at least 1815 (Oxford GLENLIVET pdf 917).",
+      "kind": "person",
+      "meaning": "Made without anyone's say-so, on ground that wasn't his.",
+      "speaksTo": "Wren's point 1; the gift (made before anyone allowed it)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The glen's illicit whisky already had a name: in 1822 the King's Chamberlain looked everywhere for \"pure Glenlivet\", not to be had outside the Highlands, and the king reportedly drank nothing else (Oxford pdf 917; Grant, *Memoirs of a Highland Lady*, 1898, p. 373). Glenlivet's, not Smith's by name.",
+      "kind": "story",
+      "meaning": "The people who made the rules wanted the forbidden thing.",
+      "speaksTo": "Wren's point 2; the hidden doubt (good, or only good because forbidden?)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Grant (at home in the Highlands, not in Edinburgh; her father sent word) had her store of it emptied for the king's household. It was \"long in wood, long in uncorked bottles, mild as milk\", with \"the true contraband goût in it\" (Grant p. 373): long-aged, gentle, and prized partly for tasting forbidden. Paraphrase in the reading; quote at most \"mild as milk\".",
+      "kind": "story",
+      "meaning": "The doubt is on the page: some of its charm was that it wasn't allowed. Yet what she describes first is how it was made: time, and gentleness.",
+      "speaksTo": "the hidden doubt; the position (it stands on its own)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The duke pushed the 1823 Excise Act to bring illicit distillers into the law, urged Smith to apply, and in 1824 his was the first licensed distillery in Speyside (Oxford pdf 917).",
+      "kind": "story",
+      "meaning": "The way in is offered by the people in charge, and he takes it.",
+      "speaksTo": "Wren's point 3; the fear (being absorbed)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His former colleagues threatened him when he applied (Oxford pdf 917, his own words). No fire, no pistols.",
+      "kind": "story",
+      "meaning": "Saying yes cost him with his own side.",
+      "speaksTo": "the second cost (own crowd)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Within his first years as a licensed distiller, others were already trading on his whisky's name (Oxford SPIRITS MEASURE pdf 1879, \"in the 1820s\"). By 1844 it was being sold in London as \"the Real Glenlivet\", the first scotch promoted there; he opened a second distillery in 1840 and moved to Minmore in 1859 (pdf 917).",
+      "kind": "story",
+      "meaning": "After the yes it was still wanted, in his lifetime: the thing stood on its own, without the wall.",
+      "speaksTo": "Wren's point 4; the position"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Glenlivet 12, recommended: \"subtle, even delicate\", a benchmark (Oxford pdf 918); today's bottle is fruit-led, \"pineapple, apricot, white grapes and peach\" on the nose (Dwyer, *The Whiskey Wash*, 2025, secondary). Today's bottle, from the distillery he licensed; not his whisky.",
+      "kind": "ingredient",
+      "meaning": "Whatever the spark does, it draws out what's already in the malt.",
+      "speaksTo": "the drink; the position"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Stir it for twenty seconds, then leave it be. It holds up on its own.",
+    "contains": [],
+    "glassware": "a small tumbler, one large ice cube",
+    "method": [
+      "Make the syrup ahead: stir the sugar into the hot water until it's completely clear, then let it cool.",
+      "Put the syrup, the elderflower liqueur and the bitters in a small tumbler. Pour in the whisky.",
+      "Add one large ice cube and stir for 20 to 30 seconds, until the outside of the glass feels cold. Don't stir longer: more melted ice would thin the whisky.",
+      "Peel a strip of lemon peel, about the length of your thumb, with as little of the white as you can. Hold it skin side down over the glass and squeeze it so its oils fall on the drink, then drop it in."
+    ],
+    "name": "Asked In",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "The Glenlivet 12 Year Old (recommended)",
+        "note": "from the distillery George Smith licensed in 1824; or any unpeated Speyside single malt that isn't sherry-cask"
+      },
+      {
+        "amount": "15 ml (1 tablespoon)",
+        "item": "elderflower liqueur",
+        "note": "brings up the flowers already in the whisky"
+      },
+      {
+        "amount": "5 ml (1 teaspoon)",
+        "item": "rich sugar syrup, homemade (below)"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "orange bitters"
+      },
+      {
+        "amount": "1 strip",
+        "item": "lemon peel"
+      },
+      {
+        "amount": "",
+        "item": "*for the syrup:* 100 g white sugar, 50 ml hot water",
+        "note": "stir until clear and let cool; makes about 110 ml, keeps a month in a closed jar in the fridge"
+      }
+    ],
+    "tagline": "Nobody had to let you. It was good before they did."
+  },
+  "pairing": "outlaw-creator",
+  "personality": "The Rule Breaker",
+  "reading": {
+    "epigraph": "Before anyone made it legally, a king's chamberlain was looking everywhere for whisky from this glen.",
+    "whoYouAre": [
+      "Tell you no, and you'll make it anyway. Usually you'd already started. The best things you've made began without anyone's say-so, often on ground that wasn't yours, and they turned out better than what was allowed. A no has never stopped you. If anything, it shows you where to begin.",
+      "It's the yes you don't trust. When the people in charge finally want what you made, something in you goes cold, as if being let in were the first step to being owned. And underneath sits a question you've never quite asked anyone: is it good, or only good because it isn't allowed? What I see is this. Much of what everyone takes for granted now, someone like you made first, before anyone agreed it could be done. You show people what better looks like while they're still saying no, and it matters to far more people than ever say so."
+    ],
+    "yours": [
+      "By 1822, the whisky made illegally in Glenlivet already had a name. When the king visited Edinburgh that year, a woman whose family sent some wrote later that his chamberlain was looking everywhere for it. Her father sent word to her at home to empty her own store, and it went to the palace. She remembered it as whisky that had waited a long time in the cask and then in the bottle, \"mild as milk\", with the real taste of contraband in it. As if being forbidden were part of the flavour.",
+      "Since at least 1815, one of Glenlivet's illegal distillers had been George Smith, a tenant of the Duke of Gordon. The duke had done much to promote a new law, in 1823, that encouraged distillers like him to \"go legal\", and he urged Smith to take out a licence. Smith did. In 1824 his became the first licensed distillery in Speyside, and his old colleagues threatened him.",
+      "I like to think Smith faced the question you carry: was it ever good, or only good because it was forbidden? What's on the record is what he did: he went on making it, in the open. Being let in didn't make it disappear. It made it the one others copied: within a few years, people were trading on its name, and within twenty, London was being sold his as \"the Real Glenlivet\".",
+      "The cocktail I've made for you starts from the Old-Fashioned, a renowned classic. The whisky is The Glenlivet 12 Year Old, from the distillery he licensed: a subtle, gentle malt. It's stirred cold over a single big cube with a teaspoon of sugar syrup and orange bitters, then finished with the oil from a lemon peel. The one addition is a tablespoon of elderflower liqueur, to bring up the flowers a well-known cocktail book already tastes in this whisky: \"elegant and floral\", it says. Nothing smoky, nothing raw: none of it tries to taste forbidden, as a nod to a whisky that never needed to be.",
+      "So, one proposal. Make something that isn't against anything: no rule in its way, nobody to prove wrong. Then show it to the people whose approval you've never wanted. If they want it, that isn't the moment you lose. It's the moment you find out it was good. And you'll still be the one who made it."
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,118 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The Rob Roy's most credible origin is a bar by the Hoboken ferry in the mid-1890s: a salesman asked for a cocktail made with his new scotch, when scotch wasn't used in cocktails, and bartender Henry August Orphal invented one on the spot.",
+      "kind": "lineage",
+      "meaning": "Someone listened, so that a stranger's taste could be understood: the Lover half, connection through understanding.",
+      "speaksTo": "soughtFor: Taste, Advice · drawnToward: Mastery"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "An earlier Rob Roy (1873) was lost to a garbled newspaper recipe. The surviving story is known because Orphal's brother wrote it down in 1941. A grand hotel (the Fifth Avenue) served it as \"new\" in 1897, when it was already about two years old.",
+      "kind": "lineage",
+      "meaning": "The true story over the famous one; getting it right is a way of caring: the Sage half, and the fear of deception answered.",
+      "speaksTo": "soughtFor: Honesty · lens: The real me"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Stirred, not shaken: shaking beats in air bubbles and clouds the drink, stirring keeps it clear.",
+      "kind": "gesture",
+      "meaning": "Nothing hidden; you can see all the way through it.",
+      "speaksTo": "gravity: Analytical · texture: Harmonic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Dry oloroso matures in a solera: the oldest barrel is drawn from but never fully emptied, then topped up from the next oldest.",
+      "kind": "ingredient",
+      "meaning": "Every glass keeps a little of what came before: patience, depth.",
+      "speaksTo": "gravity: Classic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Two sherries, one dry (walnut aroma, no nuts) and one sweet (PX, raisin), stay distinguishable in the glass.",
+      "kind": "ingredient",
+      "meaning": "Discernment is the gift. Two voices you can tell apart, not an unresolved blur (Sage fears ambiguity).",
+      "speaksTo": "texture: Sharp/Smooth · soughtFor: Taste"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Early Rob Roys were scotch, vermouth and orange bitters (often equal parts). This one keeps the orange bitters.",
+      "kind": "riff",
+      "meaning": "A nod to the first version: respect for origins.",
+      "speaksTo": "gravity: Classic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Sage is a surprising pairing for both citrus and honey.",
+      "kind": "pairing",
+      "meaning": "Chosen for flavour alone.",
+      "speaksTo": "drawnToward: Wonder, Pleasure"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Sip it slowly. It was made to be understood, not finished.",
+    "contains": [],
+    "glassware": "Nick & Nora",
+    "method": [
+      "Chill a Nick & Nora glass.",
+      "Stir the scotch, vermouth, both sherries and the bitters with ice until very cold.",
+      "Strain into the chilled glass.",
+      "Squeeze the lemon peel over the top so its oils fall on the drink, then set it aside.",
+      "Slap the sage leaf once between your palms and lay it on the surface."
+    ],
+    "name": "A Brother's Care",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "blended scotch"
+      },
+      {
+        "amount": "20 ml",
+        "item": "sweet vermouth"
+      },
+      {
+        "amount": "10 ml",
+        "item": "dry oloroso sherry",
+        "note": "a little of what came before"
+      },
+      {
+        "amount": "5 ml",
+        "item": "Pedro Ximénez sherry"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "orange bitters",
+        "note": "how it was first made"
+      },
+      {
+        "amount": "1",
+        "item": "fresh sage leaf",
+        "note": "for the taste, nothing else"
+      },
+      {
+        "amount": "1 strip",
+        "item": "lemon peel"
+      }
+    ],
+    "tagline": "Some truths last because someone loved them enough to keep them."
+  },
+  "pairing": "sage-lover",
+  "personality": "The Connoisseur",
+  "reading": {
+    "epigraph": "Nothing in this glass is pretending. You'd know if it were.",
+    "whoYouAre": [
+      "You're a scientist of the senses. You notice what other people miss: the second flavour hiding behind the first, the moment a drink changes in the glass. And you've taught yourself to put it into words.",
+      "Among your friends, you're the one people ask before they choose: the restaurant, the song, the gift, the place to go. It isn't because yours is the loudest opinion. It's because you can always say *why*. That's your gift. You don't just know that something is good, you know what makes it so. It's also how you love people. When you find something wonderful you can't keep it to yourself, and nothing makes you happier than watching someone discover it through you. What you can't forgive is being fooled: the label that promises too much, the story told only to impress."
+    ],
+    "yours": [
+      "You may know a story about this drink's ancestor, the Rob Roy. It's usually told with a grand New York hotel in it. The hotel did serve it, but only once the drink was already a couple of years old. The truer story is more specific and more niche. In the 1890s a salesman walked into a working bar by the Hoboken ferry with a new scotch and asked for a cocktail made with it. Nobody mixed scotch back then. The bartender could have said no. Instead he listened, and invented something on the spot, so that a stranger's whisky could be understood.",
+      "That story nearly didn't survive. An earlier Rob Roy, twenty years before, was lost when a newspaper printed its recipe wrong. This one lasted because the bartender's brother took the trouble, nearly fifty years later, to write down what really happened. That's you, isn't it? You're the one who takes the trouble. You'd rather have the true story than the famous one, because for you, getting it right is a way of caring.",
+      "So I made it the way it would resonate with you: the purest truth, with no frills for show. It's stirred rather than shaken, so it stays perfectly clear and you can see all the way through it. There are two sherries in it: a dry one that smells of walnuts, though there isn't a nut in the glass, and a very sweet one that tastes of raisins. They don't blur together. You'll be able to tell them apart, and for someone like you, that's the pleasure. The dry sherry is aged in rows of barrels where the oldest is never completely emptied, so every glass keeps a little of what came before. And a single sage leaf, because sage goes surprisingly well with orange and honey.",
+      "Here's what I'd ask of you. When you do have this in front of you, take the first sip without naming anything. No notes, no verdict. Name it all on the second, if you still want to. Then try the same thing the next time anything delights you: a meal, a song, a person. Let the first moment go unexplained. You've spent years making sure pleasure tells you the truth. It will. You can put the notebook down."
+    ]
+  },
+  "status": "approved"
+}

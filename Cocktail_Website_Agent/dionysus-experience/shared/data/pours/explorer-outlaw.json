@@ -1,0 +1,140 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Lee came to bartending from IT work (\"an IT administrator\", one of two \"refugees from the tech world\"). Proper p. 165 (F1).",
+      "kind": "person",
+      "meaning": "Came in from outside the trade, without credentials.",
+      "speaksTo": "whoYouAre, y1"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Lee did not invent fat-washing (Proper p. 275, F12). Eben Freeman told him about the technique (Lee and Deragon, PUNCH 2019; Proper p. 231). Where and who first fat-washed at WD-50 stays out (C2, C3).",
+      "kind": "lineage",
+      "meaning": "He took a route someone else had found; what he added was putting it on a menu.",
+      "speaksTo": "y1"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A regular at PDT had bacon fat he didn't know what to do with (Tien Ho, \"a regular of ours\", Proper p. 275). Lee asked about it, as a joke at first, then asked for some: \"Hey, can I have some of it?\" (Lee, PUNCH 2019, F19). Chang: \"Don would always ask for things\" (F19).",
+      "kind": "story",
+      "meaning": "Asking for the odd thing nobody wants, half as a joke.",
+      "speaksTo": "epigraph, whoYouAre, y2"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Lee took the concept to Jim Meehan, who was wary (Lee, PUNCH). Meehan was worried about the barbacks' time and consistency, so Lee could put it on the menu only if he did all the infusions himself: \"In true Don Lee fashion, he did.\" Meehan: \"definitely his idea\" (PUNCH 2019, F20). Meehan's intent beyond that worry isn't on record, so any \"meant to put him off\" is signposted.",
+      "kind": "story",
+      "meaning": "\"Only if\" heard as a way in: carrying the whole load instead of waiting.",
+      "speaksTo": "tagline, whoYouAre, y2, y3"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It became PDT's best-known and best-selling cocktail (Proper p. 275, F15). It inspired a whole genre of fat-washed drinks (Proper p. 275); PUNCH names nuts, chorizo and olive oil (2019).",
+      "kind": "story",
+      "meaning": "The route stayed open, and others took it their own way.",
+      "speaksTo": "y2, y4"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Freeman, given a sample early on, said Lee's version was better than his own and that he was impressed (PUNCH 2019, F22).",
+      "kind": "person",
+      "meaning": "Credit runs both ways: no timid foil.",
+      "speaksTo": "y2"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Lee is proud of the drink and also troubled by it: he said it's the drink that will \"probably\" follow him to the grave (Proper p. 276, F17).",
+      "kind": "person",
+      "meaning": "The fear: being known for the one thing.",
+      "speaksTo": "y3, y5"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Later, an environmental cocktail group (Trash Tiki) held it up as a sustainability drink. Lee granted you could say that, but said it \"certainly was not what we were thinking\" (PUNCH 2019, F23).",
+      "kind": "story",
+      "meaning": "The route goes places the maker never meant.",
+      "speaksTo": "y3"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Printed recipe: 2 oz Benton's-bacon-fat-washed Four Roses bourbon, ¼ oz Grade B maple, 2 dashes Angostura, orange zest; one large cube, stirred. Wash: 1½ oz fat melted, combined with 750 ml bourbon, 4 h at room temperature, 2 h in the freezer, fat lifted, strained through cloth (Proper pp. 275–276, page images, F18, F25). Bottle printed as \"Four Roses bourbon\"; \"Yellow Label\" is Lee's word in PUNCH, and not today's name on record.",
+      "kind": "ingredient",
+      "meaning": "Meehan's terms are in the glass: the guest does the washing.",
+      "speaksTo": "y4"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Benton's bacon is dry-cured by hand with salt, brown sugar and black pepper, about three weeks, then smoked two to three days over hickory in a wood-stove smokehouse, Madisonville, Tennessee (maker's product page; Heritage Foods; F26).",
+      "kind": "ingredient",
+      "meaning": "The smoke and the pepper, for Checks and the spice question.",
+      "speaksTo": "y4, Checks"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "No year (2007 vs 2008, C1). No \"a regular at WD-50\" (C2). No \"first\", no \"introduced fat-washing\". No \"didn't ask\". No \"Freeman never served it\" (Wren r3: kept-inside-then-sold shape). No speakeasy, no phone booth. No \"Yellow Label\" as a current bottle. \"Trail-blazing\" is WD-50's word (p. 230), never Lee's.",
+      "kind": "fence",
+      "meaning": "Keeps the reading inside the record and off sibling ground.",
+      "speaksTo": "all"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Wash the whole bottle yourself. And when it starts following you around, let it.",
+    "contains": [
+      "spice"
+    ],
+    "glassware": "a tall highball glass, packed with ice",
+    "method": [
+      "**Wash the bourbon (about 6 hours, the same day).** Cook the bacon slowly over low heat until the fat has run clear and the edges are crisp, not burnt: fat from overcooked bacon tastes bad. Measure 3 tablespoons (45 ml) of the melted fat. Stir it into a 750 ml bottle of bourbon in a wide container that can go in the freezer. Cover it and leave it at room temperature for 4 hours, then put it in the freezer for 2 hours. The fat sets into a solid layer on top. Lift it off, then pour the bourbon through a clean cloth or a coffee filter back into its bottle. It keeps in the fridge for up to 2 months.",
+      "In a tall glass, stir together 45 ml of the washed bourbon, the maple syrup and the bitters until the maple has dissolved.",
+      "Fill the glass with ice and stir for 3 seconds.",
+      "Pour in the cold cider and stir once.",
+      "Twist the orange peel over the top so its oils fall on the drink, then drop it in."
+    ],
+    "name": "Fine by Me",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "Four Roses bourbon (40%), washed with Benton's bacon fat (recommended), or any straight bourbon washed with the fat of a smoky, dry-cured country bacon",
+        "note": "you wash it yourself, a whole bottle at a time. It's made with pork fat, so it isn't for anyone who doesn't eat pork"
+      },
+      {
+        "amount": "7.5 ml (1½ teaspoons)",
+        "item": "maple syrup, dark (Grade B style)",
+        "note": "as in Lee's recipe"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "135 ml",
+        "item": "dry sparkling cider, 7% or under, well chilled"
+      },
+      {
+        "amount": "1",
+        "item": "large piece of orange peel"
+      }
+    ],
+    "tagline": "Most people hear \"only if\" as a no. You hear a way in."
+  },
+  "pairing": "explorer-outlaw",
+  "personality": "The Trailblazer",
+  "reading": {
+    "epigraph": "The bourbon in this glass owes a lot to someone's leftover bacon fat, and a joke.",
+    "whoYouAre": [
+      "Somebody once told you, \"You can, if you do all of it yourself.\" They thought that would be the end of it. You said fine, and spent your own evenings on it without a word of complaint, because a hard yes is still a yes. You ask for odd things too, half as a joke, and you're often the only one who comes away with them.",
+      "You suspected the \"only if\" was meant to put you off. You took it anyway, in plain sight, with a grin. What frightens you comes later, when the thing you made becomes the thing you're known for, and everyone expects you to keep making it. But here's what your stubbornness gives people: because you carried it the first time, nobody after you has to. They get the yes for free. That's a generous thing to leave behind."
+    ],
+    "yours": [
+      "Don Lee came to bartending from a job in IT. Eben Freeman, a New York barman, told him about fat-washing: stir a melted fat into a spirit, freeze it, lift the fat away, and the flavour stays behind. You may have heard Lee invented it. It's often told that way, but he didn't.",
+      "A regular at PDT, the bar where Lee worked, had a lot of bacon fat and no idea what to do with it. Lee asked about it, as a joke at first, then asked for some. When he took the idea to Jim Meehan, who ran the bar, Meehan was wary, and fairly: infusions take staff time. Lee could put it on the menu if he did all the infusions himself. In Meehan's words, \"in true Don Lee fashion, he did.\" Early on, Freeman tried Lee's version and said it was better than his own. It became the bar's best-selling drink, and it set off a whole run of fat-washed drinks, made with nuts, chorizo, even olive oil.",
+      "Whatever Meehan expected, I like to think Lee heard a yes, and got to work. So would you. The rest of it comes later. Lee is proud of the drink, but it nags at him too: he once said it's the one that will probably follow him around for the rest of his life. Years on, an environmental cocktail group even held it up as a sustainable drink. He granted you could see it that way, but said it certainly wasn't what they'd been thinking. I'd guess you know that feeling, of watching something you started go places you never meant it to.",
+      "The cocktail I've made for you starts where his did: bourbon washed with bacon fat, the way his recipe is printed, with Benton's bacon from Tennessee and Four Roses bourbon if you can get them, or a smoky dry-cured bacon and any straight bourbon. You make it yourself, so the washing is yours to do: warm the fat, stir it into the bourbon, wait four hours, freeze it for two, lift the fat off and strain. A little maple, Angostura bitters and a twist of orange peel, as in his Old-Fashioned. Then I take it somewhere his recipe doesn't go: a tall glass packed with ice, topped with a crisp, dry sparkling cider, so the apple meets the smoke and the maple. I did that as a nod to everyone who took his idea their own way.",
+      "So let it follow you. Being known for something isn't a fence around you. It's the mark you meant to leave, even if you'd never say so, and it carries on without you holding it up. Walk on to the next odd thing whenever you like, and be glad, out loud, that you made this one."
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,140 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "James \"Jimmie\" Charters, barman at the Dingo in Montparnasse, Paris, from 1924 (he came \"as assistant barman\") (F2).",
+      "kind": "person",
+      "meaning": "A real room with a real person running the bar: standing, not a title.",
+      "speaksTo": "Authority on loan: the one everyone in the room looks to."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His credo: success behind the bar comes from \"an ability to understand the man or woman I am serving, to enter into his joys or woes\", so they feel \"the need of me as a person rather than a servant\" (F1; *Joy* pdf 114–115 credits Cody's book).",
+      "kind": "motive (on record, ghost-told)",
+      "meaning": "The authority is spent on understanding people. Use a paraphrase in the reading and quote at most \"joys or woes\".",
+      "speaksTo": "The one true thing: they give people a hearing."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His job, as he listed it: \"settle fights, listen to intimate confidences, prevent jealousies, arrange parties, and crack jokes. I never worked so hard in all my life\" (F4).",
+      "kind": "fact (his own list)",
+      "meaning": "Listening sits right next to settling fights, and he calls it work.",
+      "speaksTo": "Hidden: the patience takes effort and isn't temperament."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Fights were \"to be avoided at all costs\". He could \"usually\" smell one coming (his \"usually\") and would try jokes or a drink on the house. \"Usually the free drink works\": they \"forget their quarrel and drink to each other, or both drink to me, or in some way forget to be angry\" (F5).",
+      "kind": "method (his rule)",
+      "meaning": "He answers heat with a welcome, not force, and the angry ones stay. (\"Usually\" is his word: keep it, it isn't \"always\".)",
+      "speaksTo": "Gift: even the angry one leaves still welcome. Fear: chaos on their watch."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He couldn't stop a regular's credit \"for fear he will be angry, walk out, and everything will be gone\" (F7).",
+      "kind": "cost (on record)",
+      "meaning": "Keeping people in the room cost him money and nerve.",
+      "speaksTo": "It visibly costs them something. The private fear is that it comes apart anyway."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It didn't always work: once he \"had to carry\" the brawlers \"out, one at a time\" (F9).",
+      "kind": "counterweight",
+      "meaning": "A calm that sometimes failed. It isn't a saint's story.",
+      "speaksTo": "\"I listened too long and it came apart anyway\": honest, and gentle."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "When customers bought him drinks, he kept look-alikes under the bar (bitters and water, cordial and water) and raised \"the appropriate glass\", because \"I believe in always drinking what the client drinks!\" (F12).",
+      "kind": "habit (on record)",
+      "meaning": "He matched them glass for glass while keeping a clear head. *Our reading:* the steady face kept for everyone.",
+      "speaksTo": "Hidden: people check their face first, so they keep it steady. **Guard C8:** never \"fooled them\"."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A cocktail he invented at the Dingo: cognac, with a sixth each of Pernod, Amer-Picon, Mandarin and sweet cherry brandy, shaken, \"either drunk straight or diluted with a little soda\" (F11). The cognac share is OCR-garbled; 2/6 is our inference.",
+      "kind": "ingredient lineage (his own drink)",
+      "meaning": "A real house drink to riff from. Only \"a cocktail he invented at the Dingo\" is fact; the proportions are not his unless confirmed, and anything we change is ours.",
+      "speaksTo": "The glass as proof (Tomás's call)."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Arnold's \"Languishing Ice Manhattans\" (*Liquid Intelligence* pp. 87–88): one Manhattan stirred 15 seconds, then left on its ice 90 seconds before straining, came out \"almost identical\" to one stirred and strained at once. He says letting ice sit \"for upward of 2 minutes won't ruin the drink\"; the extra dilution is \"remarkably negligible\" (rye, not rum: applying it to our drink is Tomás's craft call). Condition (p. 87): \"reasonably short (a couple minutes)\" and ice \"fairly large (not shaved)\".",
+      "kind": "method (the drink's gesture)",
+      "meaning": "The stirred drink can wait while someone finishes.",
+      "speaksTo": "The one true thing: let them finish."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He had boxed professionally (F3).",
+      "kind": "guard",
+      "meaning": "One clause at most: the Gentle Giant's shape (*In One Piece*).",
+      "speaksTo": "none (out of the recognition)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Bob/T scene (fists unclenching, \"Have a drink… Make it a whisky and a Pernod, Jimmie\") is Bob's calm, not Jimmie's (F13).",
+      "kind": "guard",
+      "meaning": "Never told as Jimmie's act.",
+      "speaksTo": "none"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Let it wait on the ice until they've said everything. Then strain it, and give your answer.",
+    "contains": [],
+    "glassware": "cocktail glass (about 180 ml), chilled",
+    "method": [
+      "Chill the glass in the freezer, or fill it with ice water while you mix.",
+      "Put the cognac, sweet vermouth, mandarin liqueur and bitters in a mixing glass or jar. Fill it with ordinary ice cubes (not crushed).",
+      "Stir for about 15 seconds, until the outside of the glass feels cold.",
+      "If someone's still talking, stop stirring and leave the spoon where it is. The drink can sit on its ice for a minute and a half or so without getting watery.",
+      "When they've finished, empty the serving glass and strain the drink into it.",
+      "Squeeze the mandarin peel over the top so its oils fall on the drink, then drop it in."
+    ],
+    "name": "Go On",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "cognac",
+        "note": "any VS or VSOP cognac, 40% or stronger"
+      },
+      {
+        "amount": "30 ml",
+        "item": "sweet vermouth"
+      },
+      {
+        "amount": "7.5 ml (1½ tsp)",
+        "item": "mandarin liqueur",
+        "note": "any mandarin liqueur made on brandy or cognac; for the Mandarin in the cocktail Jimmie invented at the Dingo"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "1",
+        "item": "strip of mandarin peel",
+        "note": "squeezed over the top, then dropped in; a clementine works"
+      }
+    ],
+    "tagline": "Most of the fights you've stopped never happened."
+  },
+  "pairing": "ruler-caregiver",
+  "personality": "The Caring Leader",
+  "reading": {
+    "epigraph": "This drink can sit on its ice while someone finishes talking. Someone once timed it.",
+    "whoYouAre": [
+      "You hear it before anyone else does. A joke at dinner that lands a little too hard. A voice going up half a note in a meeting. A group chat going quiet in the wrong way. By the time the others notice, you've already pulled up a chair, asked the one who's upset what they meant, and let them say all of it.",
+      "People take you for easygoing. You aren't. You're listening the whole time, because when people are in your care, you'd rather hear the hard thing tonight than watch it break something later. You could settle most of it with one word, and you rarely use it. You'd rather they finish. It matters more than you think: people say the real thing around you, because they're sure you'll hear all of it. You never mention how hard you work at it, or the fear underneath: that the one time you miss it, it all comes apart, and someone you were looking after pays for it."
+    ],
+    "yours": [
+      "In 1924, a barman called Jimmie Charters started at the Dingo, a bar in Montparnasse, Paris, as the assistant. Years later he told his story to a writer, Morrill Cody, and the job he described went a long way past the drinks. He was there to settle fights, to listen when people confided in him, to stop jealousies before they started, and to crack jokes. He'd never worked so hard in his life, he said.",
+      "Fights, he said, were to be avoided at all costs. He could usually smell one coming, and then he'd do anything to stop it. He'd try a drink on the house, and usually, he said, the free drink worked. And this is what gets me: the two who'd been about to fight would drink to each other, or both drink to him, or one way or another forget to be angry. It didn't always work. Once a fight broke out anyway, and he had to carry one side out, one at a time.",
+      "I like to think the drink was never the point, and that he wasn't deciding who was right. He was turning two people back towards each other before anyone got hurt, and that's what you do. He also admitted what it cost him. When a regular ran up a big tab, he couldn't stop the credit, for fear they'd get angry, walk out, and everything would be gone. I think you know that fear. It's the no you swallow to keep the room together.",
+      "The cocktail I've made for you is a Manhattan, one of the most famous classics, the one so many others were built on. I've made it on cognac instead of whiskey, with a small spoon of mandarin liqueur and the oil from a mandarin peel, as a nod to the cognac and the Mandarin in the cocktail Jimmie invented at the Dingo. It's rich and warm, and the first thing you'll smell is mandarin. And it's stirred on purpose. Dave Arnold, who wrote a whole book on the science of cocktails, once left Manhattans sitting on their ice for a minute and a half before straining them, and could find almost no difference. So this one can wait a minute or two on its ice while someone finishes what they're saying.",
+      "You're right to hear people out, and they're right to trust you for it. But one day the kind thing will be the no: the tab stopped, the plan called off, the decision made before everyone agrees. Say it plainly, once they've finished. The people you listened to won't walk out. They stayed because you listened, and that's exactly why your no will hold."
+    ]
+  },
+  "status": "draft"
+}

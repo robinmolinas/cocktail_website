@@ -1,0 +1,114 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The Vesper (gin, vodka, Lillet, once sold as Kina Lillet) is the first cocktail James Bond orders in Fleming's first novel, *Casino Royale* (1953). Fiction, owned in one clause (Oxford VESPER pdf 2099; F1).",
+      "kind": "lineage",
+      "meaning": "The guest may know the name; the part they don't know is the gift.",
+      "speaksTo": "lens: The real me; gravities: Classic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He asks for \"a dry martini\", then \"One. In a deep champagne goblet.\", and gives the measures himself: three of Gordon's, one of vodka, half a measure of Kina Lillet, shaken very well until ice-cold, then a large thin slice of lemon peel (novel, archive.org OCR highlights of two printings; Oxford pdf 2099; F2–F3).",
+      "kind": "gesture",
+      "meaning": "The style is the precision: one drink, specified to the half measure.",
+      "speaksTo": "drawnToward: Mastery; gravities: Controlled; texture: Sharp"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The drink is presented as his invention on the spot and at first has no name; later he borrows his colleague Vesper Lynd's name and christens it the Vesper (Oxford pdf 2099; F4).",
+      "kind": "name",
+      "meaning": "Our reading: the drink takes its name from a person.",
+      "speaksTo": "drawnToward: Belonging; driver: BUILD CONNECTION"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford: after her death at the end of the book, he never drinks it again. The book closes on her death, so this covers Fleming's later books; films out (Oxford pdf 2099; *Shaken Not Stirred*, OCR highlight; F5, C1).",
+      "kind": "loss",
+      "meaning": "Our reading, signposted (\"I like to think\"): the feeling shows only as something he stops doing.",
+      "speaksTo": "lens: The real me; texture: Quiet; fear: Weakness"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Fleming inscribed his longtime friend Ivar Bryce's copy \"For Ivar, who mixed the first Vesper\"; Bryce recalled making the cocktail with Fleming's help (Oxford pdf 2099; F6–F7, C4).",
+      "kind": "person",
+      "meaning": "In print the drink is the character's; in the inscription, the credit goes to a friend.",
+      "speaksTo": "driver: BUILD CONNECTION; drawnToward: Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Bryce's account (Oxford: \"apparently\"): the name came from a drink of frozen rum with fruit and herbs, served at a country house in Jamaica and announced by the butler as Vespers. The page names no rum style or origin; our Jamaican rum is our choice for the place (F7).",
+      "kind": "spark",
+      "meaning": "The teaspoon under the order is our ode to where the name was served, tied in one clause.",
+      "speaksTo": "texture: Smooth, Dark; gravities: Controlled"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"Kina\" (French for quinine) left Lillet's name in 1986; the cut in bitterness came in 1917 (Oxford pdf 2099–2100). *Codex* p. 74: Kina Lillet had a bit more cinchona than today's (F8, C3).",
+      "kind": "ingredient",
+      "meaning": "Today's Lillet Blanc makes the order; never \"can't be made\", never \"the same bottle\".",
+      "speaksTo": "flavours: Bitter, Citrusy"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "The rum goes in first, under the order. Once, tell one of them they're the reason.",
+    "contains": [],
+    "glassware": "deep champagne goblet (about 200 ml), chilled",
+    "method": [
+      "Chill the glass: half an hour in the freezer, or fill it with ice and water while you work.",
+      "Pour the teaspoon of rum into the shaker first.",
+      "Then make the order exactly as it was given: three measures of gin, one of vodka, half a measure of Lillet.",
+      "Fill the shaker with ice and shake it very well, until the outside of the tin is ice-cold (about 10 to 15 seconds).",
+      "Empty the glass, and strain the drink into it.",
+      "Squeeze the lemon peel over the top so its oils fall on the drink, then drop it in."
+    ],
+    "name": "One Line",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "1 teaspoon (5 ml)",
+        "item": "Jamaican rum, white or aged",
+        "note": "not spiced, not sweetened; goes in first. Jamaican is my choice, for the island where the drink behind the name was served"
+      },
+      {
+        "amount": "60 ml (three measures)",
+        "item": "Gordon's London Dry gin, recommended",
+        "note": "the gin the order names; or any London dry gin"
+      },
+      {
+        "amount": "20 ml (one measure)",
+        "item": "vodka",
+        "note": "any plain vodka"
+      },
+      {
+        "amount": "10 ml (half a measure)",
+        "item": "Lillet Blanc",
+        "note": "the aperitif wine once sold as Kina Lillet"
+      },
+      {
+        "amount": "1 large, thin slice",
+        "item": "lemon peel",
+        "note": "cut wide, with as little white pith as you can"
+      }
+    ],
+    "tagline": "All that cool is for someone."
+  },
+  "pairing": "hero-lover",
+  "personality": "The Dashing Hero",
+  "reading": {
+    "epigraph": "Ordered down to the half measure, shaken ice-cold, then named after one person.",
+    "whoYouAre": [
+      "The car slides on an icy bend with a friend beside you, and by the time it stops you've got them laughing. The wedding speech goes missing an hour before, and you've written a new one, with a joke about the old. People say nothing seems to touch you. They're wrong about why.",
+      "It's never for the room. It's for one person in it. The more someone matters, the cooler you get, because if the feeling showed, it might look like weakness. So you love in exact, unspoken ways: you know the date they'd rather not mention, and you never let on that you noticed. It was never the danger you were hiding. It was them. Around you, anyone you love gets to feel light, because the fear in the room comes to you and goes back as a joke. That's how you protect people. It matters more than the style ever could."
+    ],
+    "yours": [
+      "In Ian Fleming's first novel, *Casino Royale* (1953), James Bond asks the barman for a dry Martini. \"One,\" he adds. \"In a deep champagne goblet.\" Then he gives the measures himself, down to the half: three of Gordon's gin, one of vodka, half a measure of Kina Lillet, shaken very well until it's ice-cold, with a large thin slice of lemon peel. It's fiction, of course. The drink is real, and it's still on cocktail lists.",
+      "In the book, the drink is Bond's own invention, and at first it has no name. Later he gives it one: Vesper, after Vesper Lynd, a woman he works with. After he loses her, at the end of the book, he never drinks it again in any of Fleming's books. I like to think that was the only way he'd let it show.",
+      "I recognise you in that order. The precision, three and one and a half, shaken until it's ice-cold, is the part everyone sees. The name is the part meant for one person. And if you've ever lost someone, I'd guess you kept it to yourself. There's just a place you stopped going back to, or a thing you quietly stopped doing, and nobody near you knows why.",
+      "The cocktail I've made for you is built on Bond's order, word for word: Gordon's, the gin the order names, then vodka and Lillet Blanc, the aperitif wine once sold as Kina Lillet, in his three, one and a half, shaken hard, in a chilled champagne goblet, with that large slice of lemon peel. Under it is the one thing that's mine: a teaspoon of rum, poured in before anything else. In the story Fleming's friend Ivar Bryce told, the name came from a frozen rum drink served at a country house in Jamaica, which the butler announced with \"Vespers are served\". The rum is my nod to that frozen rum drink, and I chose a Jamaican one for the place. It starts from a famous classic, and it's bone-dry, very cold, bright with lemon peel, and the rum only shows at the very end, to someone who knows to look for it.",
+      "No speech required. In his friend's copy of the book, Fleming wrote: \"For Ivar, who mixed the first Vesper.\" So pick one of the people all that cool is for, and give them their line, plainly, on a day when nothing's gone wrong. It'll take more nerve than anything you've ever made look easy. And I'd bet it's what they keep of you."
+    ]
+  },
+  "status": "draft"
+}

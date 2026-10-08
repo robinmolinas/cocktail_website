@@ -1,0 +1,138 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "In 1965 Fritz Maytag bought control of Anchor, a failing San Francisco brewery whose beer had often gone sour. He brought his microscope in to work out why, and the brewery took ten years to show a profit. (F1, F8; Oxford ANCHOR DISTILLING pdf 103; Lucchesi, *SF Chronicle* Q&A 2015)",
+      "kind": "person",
+      "meaning": "They saw it before it had a name, and they stayed with it while it was fragile.",
+      "speaksTo": "story test 1 + 3 · goal: Revolution"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He came from the washing-machine family, and by his own account he spent his whole nest egg on the brewery. (F7; Abate, *SF Chronicle* 2010, his 2000 words to Ostler)",
+      "kind": "person",
+      "meaning": "The risk was real and it was his. Say it once, plainly.",
+      "speaksTo": "driver: Leave a mark"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford calls what he made of Anchor the vanguard of craft beer. A San Francisco paper later called the brewery's beers the first drops of what became a flood of small-brewery beer, and by the 1980s other breweries were following his lead, Sierra Nevada among them. (F1, F18; pdf 103; Holbrook, *SF Chronicle* 2004; Abate 2010)",
+      "kind": "movement",
+      "meaning": "They give a new thing a shape that other people can follow.",
+      "speaksTo": "story test 2 · Ruler: provide structure"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Even so, he kept his own brewery small. Around 1992 he decided it didn't have to keep growing, and in 1996 he said, emphatically, that he didn't want it to get too big. (F10; Burlingham, *Small Giants* 2016 ed.; Acitelli 2013; Stanford 1996 via *Alta* 2023)",
+      "kind": "person (counterweight)",
+      "meaning": "The wave was other people's. The wheel they kept was their own. Wren's call; see N3.",
+      "speaksTo": "fear: Powerlessness (losing the wheel)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 1993 he started a distillery in a corner of the brewery's warehouse, to make rye whiskey the way early American distillers had. Until the whiskey had aged and he knew it was good, it was a secret from all but a few employees. (F2, F6, F20; pdf 103; Abate 2010; Holbrook, *SF Chronicle* 2004)",
+      "kind": "reveal",
+      "meaning": "The plan stays behind a door until it's right. Once the first edge had grown up, they went looking for the next one.",
+      "speaksTo": "hide: the plan · story test 3"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford calls Old Potrero the first modern small-distillery whiskey to reach the market, and says it was perhaps fired too early across the bows of the American whiskey industry. (F3; pdf 103)",
+      "kind": "lineage",
+      "meaning": "Early isn't safe. They go anyway. Say it as a writer's judgement: Paul Clarke signs the entry (pdf 104), so \"one drinks writer\" in guest text (2026-10-06).",
+      "speaksTo": "Outlaw: Risk Taking"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A wave of new ryes from small distilleries began with Old Potrero, and by the 2010s rye's growth was being driven by the cocktail revival. (F4, F21; Oxford pdf 2165)",
+      "kind": "lineage",
+      "meaning": "The edge they start goes mainstream in other people's glasses.",
+      "speaksTo": "what they give: it grows up"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 2010, at 72, he sold Anchor and stayed on as chairman emeritus. Of the new owners, he said \"I plan to do whatever Keith says, to help them do well.\" (Keith Greggor was the new chief executive.) (F11, F12; pdf 103; Ross, *SF Chronicle* 2010)",
+      "kind": "gesture",
+      "meaning": "Handing over the wheel, and offering a hand with it. His reasons for selling aren't on record; see N4.",
+      "speaksTo": "fear turned to gift (Wren's call)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Thirteen years after he sold, the owners after him closed the brewery (July 2023). A new owner bought it in May 2024 and has promised it back. As of autumn 2026 the old labels are approved again, but no beer has been poured. (F14–F16; SF Chronicle 2026; SF Standard, May and Sep 2026; *American Craft Beer* Jul 2026)",
+      "kind": "ending",
+      "meaning": "The fear came true after them, and it isn't the end. Date it (\"last I read, in 2026\").",
+      "speaksTo": "fear: tamed by the mainstream · Outlaw check: the ending holds today"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Old Potrero is still made from 100% malted rye in San Francisco. Today's core bottles are a six-year straight rye (48.5%) and a six-year toasted-barrel rye (51.2%), the second first sold as an 18th-century style. (F17; oldpotrero.com, 2026-10-01)",
+      "kind": "bottle",
+      "meaning": "The edge they went to is in the glass. It's today's bottle, never his.",
+      "speaksTo": "the drink as proof"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Mash the quince until no lumps are left. Then pick what you'll steer yourself, and let the rest run.",
+    "contains": [
+      "nuts"
+    ],
+    "glassware": "a well-chilled coupe",
+    "method": [
+      "Loosen the quince: put 30 g of quince paste (a slice about the size of a matchbox) in a cup with 30 ml of just-boiled water and mash it with a fork until no lumps are left. Let it cool. That's enough for three drinks, and it keeps in the fridge for a few days.",
+      "Put the coupe in the freezer.",
+      "Pour the loosened quince, the lemon juice, the Cointreau and the rye into a shaker.",
+      "Fill the shaker with ice and shake hard for about 12 seconds, until the outside is frosty.",
+      "Strain it into the cold coupe through the shaker's strainer and a small fine sieve held underneath, which catches any bits of quince.",
+      "Hold the orange peel over the drink, skin side down, and squeeze it so its oils fall on the top. Then lay it on the rim."
+    ],
+    "name": "Before It Had a Name",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml (1½ oz)",
+        "item": "Old Potrero Straight Rye whiskey (48.5%)",
+        "note": "recommended; the Toasted Barrel bottling (51.2%) works too; or any straight rye of 40-51%"
+      },
+      {
+        "amount": "22.5 ml (¾ oz)",
+        "item": "Cointreau",
+        "note": "or any orange liqueur of the triple sec style, about 40%"
+      },
+      {
+        "amount": "22.5 ml (¾ oz)",
+        "item": "fresh lemon juice",
+        "note": "squeezed the same day"
+      },
+      {
+        "amount": "15 ml (1 tbsp)",
+        "item": "loosened quince paste",
+        "note": "plain membrillo (quince, sugar and lemon, with no nuts in the ingredients) mashed with an equal weight of just-boiled water; check the pack for a nut warning"
+      },
+      {
+        "amount": "1 strip",
+        "item": "orange peel",
+        "note": "squeezed over the top"
+      }
+    ],
+    "tagline": "Everyone sees the rebel. Nobody sees the plan."
+  },
+  "pairing": "outlaw-ruler",
+  "personality": "The Leading Edge",
+  "reading": {
+    "epigraph": "Old Potrero began as a brewer's next idea, once other brewers had followed his lead.",
+    "whoYouAre": [
+      "You catch it before anyone has a word for it: a sound, a look, an idea a few people keep circling. And you're the one who gives it a shape, a name, a place, a first version people can point at and join.",
+      "People see the rebel. They don't see the plan, and you prefer it that way, because wanting to steer sounds like the very thing you were all against. So you steer quietly. What worries you is what it turns into afterwards: run by people who never got it, smoothed out for everyone, your hands nowhere near it.",
+      "And here's the good of it: most new things die young, talked out of it or copied badly. The ones you start tend to grow up, because someone was steering while they were fragile."
+    ],
+    "yours": [
+      "In 1965, when factory beer ruled America, Fritz Maytag, from the washing-machine family, bought a failing San Francisco brewery called Anchor. Its beer, he admitted later, wasn't good: a lot of the time it was sort of sour. He brought in a microscope and, in his words, spent his whole nest egg on the brewery. It took ten years to make money.",
+      "What he'd started caught on: a San Francisco paper later called his beers the first drops of a tsunami. Others opened the breweries that followed. His own, he kept small. And in 1993 he set up stills in a corner of the brewery to make rye whiskey, a secret from all but a few of his staff. One drinks writer calls it an early, \"perhaps too early\", shot across the bows of American whisky.",
+      "When he sold, in 2010, the man who'd steered it for forty-five years said he'd do whatever the new boss said, to help them do well. Thirteen years later, under other owners, the brewery went quiet. A new owner has promised it back, though in the autumn of 2026 it still wasn't pouring. That's your fear, come true long after he'd let go. But look at what didn't stop: the small breweries everywhere, and a wave of new small-distillery ryes that the same book says began with his. I like to think that's why he could offer to take orders. He'd never needed the whole wave. Only to start it, and keep one part small enough to steer himself.",
+      "The cocktail I've made for you is a rye Sidecar, after the renowned classic of brandy, orange liqueur and lemon, shaken hard over ice, then strained twice, the second time through a fine sieve, into a well-chilled coupe. The rye is Old Potrero, the name his first rye was sold under, though today's bottles are aged longer than that first one, and there's more of it than anything else. Where some bartenders add a little syrup, I add quince paste instead, loosened with hot water. Quince is a fruit hardly anyone eats raw, so hard and mouth-puckering it takes real work, and then it's wonderful, with a strong perfume. I chose it as a nod to a sour beer he took on, and put right.",
+      "So let me steer, just once. When something you started takes off, don't try to hold on to all of it. Decide what you'll keep steering yourself, and do it properly. Let the rest run in other people's hands. That isn't it getting away from you. It's how you'll know it was real. And it leaves you free for the next thing nobody has a name for yet."
+    ]
+  },
+  "status": "draft"
+}

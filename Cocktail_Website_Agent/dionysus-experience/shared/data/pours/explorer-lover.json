@@ -1,0 +1,121 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Bradsell grew up on the Isle of Wight (Oxford pdf 335).",
+      "kind": "person",
+      "meaning": "The place the taste took him back to.",
+      "speaksTo": "the one true thing: a taste that takes them somewhere whole"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A cider supplier brought three liqueurs; at the mûre he said he was \"back in that blackberry patch on the Isle of Wight. It was spot-on, that flavor\" (Proper p. 31; Oxford pdf 336).",
+      "kind": "story",
+      "meaning": "One taste, of three, took him somewhere whole, at once.",
+      "speaksTo": "the one true thing; hidden: how hard a sensation hits"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He made a British drink with gin, lemon and sugar when \"the scene was totally vodka\", with a blackberry liqueur hardly anyone thought of (Proper pp. 25, 31).",
+      "kind": "story",
+      "meaning": "He went with the taste, not the fashion.",
+      "speaksTo": "goal: freedom, an appetite nobody has to approve"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford: he cut a Singapore Sling he'd made at the Zanzibar down into a short drink at Fred's, and gave it a more British name (pdf 336). The name, Bramble, is the wild blackberry bush (Cambridge Dictionary).",
+      "kind": "lineage",
+      "meaning": "The taste gave the drink its fruit.",
+      "speaksTo": "guard: never \"the taste gave him the whole drink\"; never \"named after the bush\" as his motive"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It \"became popular straight off\" at Fred's Club, a members' club, and soon crossed the Atlantic (Proper p. 31).",
+      "kind": "story",
+      "meaning": "Other people got the blackberry too.",
+      "speaksTo": "given: handing people a sensation"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Crème de mûre in the Bramble is a blackberry liqueur (Oxford pdf 336; Proper p. 25); French *mûre* also means mulberry (Larousse), and Oxford's MULBERRY entry (pdf 1368) differs.",
+      "kind": "ingredient",
+      "meaning": "The blackberry is really in the glass.",
+      "speaksTo": "story test clause 4"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "*Flavor Matrix* BERRY: vinegar among the best pairings (pdf 52); balsamic on the Berry chart (pdf 53). Our riff: half a teaspoon in the drizzle.",
+      "kind": "ingredient",
+      "meaning": "A cook's pairing makes the blackberry taste riper. The change is ours.",
+      "speaksTo": "the eyebrow across the table, then the taste"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Pour the blackberry on last, so it's tasted first. Then slide the glass across the table, and wait.",
+    "contains": [],
+    "glassware": "an old-fashioned glass (rocks glass), filled with crushed ice",
+    "method": [
+      "Fill the glass with crushed ice. A tea towel and a rolling pin will crush it fine.",
+      "Shake the gin, lemon juice and syrup hard with ice for about 12 seconds, until the shaker is too cold to hold comfortably. Strain into the glass.",
+      "Pile on more crushed ice, so it stands in a little mound above the rim.",
+      "In a small glass, stir the balsamic vinegar into the crème de mûre. Pour it slowly over the top of the ice, so it runs down through the drink in dark threads.",
+      "Put the blackberry on top and the lemon wedge on the rim."
+    ],
+    "name": "Straight Back",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "London dry gin",
+        "note": "any London dry, 40% or stronger"
+      },
+      {
+        "amount": "22.5 ml",
+        "item": "fresh lemon juice"
+      },
+      {
+        "amount": "15 ml",
+        "item": "simple syrup (equal parts sugar and water)"
+      },
+      {
+        "amount": "15 ml",
+        "item": "crème de mûre (blackberry liqueur)",
+        "note": "check that the label says blackberry; the balsamic is stirred into it"
+      },
+      {
+        "amount": "½ tsp (2.5 ml)",
+        "item": "balsamic vinegar",
+        "note": "the dark, sweet Italian kind; the vinegar, not a thick glaze"
+      },
+      {
+        "amount": "1",
+        "item": "fresh blackberry",
+        "note": "on top"
+      },
+      {
+        "amount": "1",
+        "item": "lemon wedge",
+        "note": "on the rim"
+      }
+    ],
+    "tagline": "One taste, and you're somewhere else entirely. You always let it take you."
+  },
+  "pairing": "explorer-lover",
+  "personality": "The Sense Seeker",
+  "reading": {
+    "epigraph": "The cider man also brought three liqueurs. One of them tasted like an island.",
+    "whoYouAre": [
+      "Someone opens a jar, and before anyone has said a word you're standing in a kitchen you haven't been in for years. A smell on a stairwell, the first bite of a plum, and you're somewhere else, completely. You can't always remember what year it was. You can remember exactly what the bread tasted like. And whatever is in front of you now, you're really tasting it.",
+      "What you play down is how hard it hits. You say \"mm, lovely\", because you've seen the eyebrow go up across the table: it's only bread. It's never only bread to you. What frightens you is a life with the senses turned down, on a menu somebody else chose. Or a meal with someone who isn't tasting, which is lonelier than eating alone. And look what you do with good things. You tear off the warm end of the loaf and hand it over. You crush a leaf under someone's nose: \"smell this\". Years later, the taste that takes them somewhere has you in it. That's a lovely thing to leave in someone's life."
+    ],
+    "yours": [
+      "A man who supplied cider to the London bar where Dick Bradsell worked once brought in three liqueurs: a blackcurrant, a raspberry and a blackberry. It was the blackberry that did it. As soon as he tried it, he said, he was \"back in that blackberry patch on the Isle of Wight\", the island where he grew up. \"It was spot-on, that flavour.\"",
+      "He made a drink around it, with gin, lemon and sugar: a British drink, at a time when, as he put it, the scene was totally vodka. He started from a drink he already had, a Singapore Sling he'd made at another club, and cut it down into a short one. The blackberry gave it its fruit, and he gave it a more British name: the Bramble, the wild bush that blackberries grow on. At Fred's, the Soho members' club where he worked, it was popular straight off, and before long it had crossed the Atlantic.",
+      "Hardly anyone was thinking about blackberry liqueur then, and he went with it. I like to think that, for a second, people at Fred's stood in a blackberry patch on an island they'd never seen, and nobody had to tell them. That's how it is with you. A taste doesn't only please you. It takes you somewhere, and you can't help wanting to take someone along.",
+      "The cocktail I've made for you is a Bramble, now a modern classic: gin, lemon juice and a little sugar, shaken and poured over crushed ice, then the blackberry liqueur poured slowly over the top, so it runs down through the ice in dark threads, and a fresh blackberry to finish. My change is in that pour. Into the blackberry liqueur I stir balsamic vinegar, no more than half a teaspoon, the dark, sweet Italian kind: a cook's pairing for berries. I like to think the berries he remembered were the ones eaten warm off the bush at the end of summer, soft and almost like wine, so the vinegar is there to make the blackberry taste riper and darker, the way those do. It's the sort of thing that raises an eyebrow. Then people taste it.",
+      "Find the taste that takes you somewhere, the one you could never quite explain, and give it to someone you love. Cook it, pick it, track it down. Don't tell them the story first. Just hand it over, and then let them tell you where it took them. You've been taking people into your places for years. This time you'll get to go into one of theirs, and you'll know that the person across the table is tasting too."
+    ]
+  },
+  "status": "draft"
+}

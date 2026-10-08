@@ -1,0 +1,135 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "By the end of the 1970s the ordinary Margarita was mostly sour mix, cheap triple sec and not much tequila. At the family restaurant where Julio Bermejo tended bar in San Francisco, a plain neighbourhood place, the Margaritas used fresh lime but also sour mix and cheap blended tequila.",
+      "kind": "before (what he refused)",
+      "meaning": "The crowded, mediocre version was the norm, and nobody there was asking for anything else.",
+      "speaksTo": "lens: The real me · soughtFor: A reality check"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In the mid-1980s he tasted a 100% agave tequila and decided to sell only tequila made that way (100% agave), though it cost about four times as much and he raised prices by 75 cents. He described it as a decision made as a young person with no authority. People were slow to notice.",
+      "kind": "motive (on the record)",
+      "meaning": "The first cut cost him and nobody applauded. The unseen work (Wren): leaving out is harder than putting in. His own words may be paraphrased; anything more about *why* is signposted.",
+      "speaksTo": "soughtFor: Honesty · texture: Quiet"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He threw out the sour mix. Later, once agave syrup reached the US, he used it in place of the orange liqueur. The drink came together slowly, over years: tequila, fresh lime and agave syrup, nothing else. Year not established.",
+      "kind": "subtraction (the turn)",
+      "meaning": "Nothing added, three things taken out. What's left shows the spirit instead of covering it.",
+      "speaksTo": "drawnToward: Beauty · texture: Harmonic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He called it the house Margarita. Other people gave it the restaurant's name.",
+      "kind": "name",
+      "meaning": "He didn't sign it. Nobody credits what isn't there, and he didn't ask them to.",
+      "speaksTo": "drawnToward: Peace · texture: Quiet"
+    },
+    {
+      "dossierOnly": true,
+      "fact": "Because it's so simple it turns up in ordinary places: in 2014 a Denny's in New York offered it.",
+      "kind": "reach (dossier only)",
+      "meaning": "Not in the reading (Wren, v1; I agreed in round 4: read cold it's the sting, and the reading is the shortest in the set). Kept for Robin.",
+      "speaksTo": "texture: Half-full"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He thins his agave syrup with an equal amount of water so it pours cleanly and none is left clinging to the spoon or jigger.",
+      "kind": "gesture (his, on the record)",
+      "meaning": "The one habit of his that goes in the glass. Never \"his recipe\": the measures are Tomás's (Bermejo's own run out of range on acid).",
+      "speaksTo": "texture: Smooth · texture: In control"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Tequila is by law made from blue agave; agave syrup is commonly made from blue agave too. This recipe names blue agave syrup, so the syrup and the tequila come from the same plant.",
+      "kind": "ingredient (our build)",
+      "meaning": "The spark was already in the drink: one choice that made another thing unnecessary. **Only true if the recipe names blue agave syrup.** Never claim it of Bermejo's own drink.",
+      "speaksTo": "drawnToward: Wonder · texture: Harmonic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Clear ice made at home: water freezes slowly from the top of an open, insulated cooler; the growing crystals push air and impurities into the last water to freeze, which is drained or cut away (*Liquid Intelligence* pp. 68–70).",
+      "kind": "gesture (our build, not his)",
+      "meaning": "Not in the reading (cut in v2); lives in the recipe, method step 1 and the closing line. It's clear because of how it froze; the cut only removes what the freezing pushed out. Never \"clear because it was cut\" (audit X4). Tomás's gesture from *Liquid Intelligence* p. 69, never Bermejo's or Tommy's.",
+      "speaksTo": "soughtFor: Calm · texture: Bright"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Margarita is traditionally served with a salted rim. Some bartenders salt only half the rim so the guest can choose each sip or skip it, and a properly balanced drink doesn't need the salt.",
+      "kind": "salt (our build)",
+      "meaning": "The one thing kept that isn't needed: there for the drink's history and for the guest's choice. It's the ending's proof. Never \"he salted half\".",
+      "speaksTo": "texture: Half-full · soughtFor: Calm"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Cut the cloudy part off the ice. Then stop cutting.",
+    "contains": [],
+    "glassware": "rocks glass (a short, heavy tumbler), salt on half the rim, one large clear ice cube",
+    "method": [
+      "A day or two ahead, make the clear ice (above).",
+      "Rub the cut side of a squeezed lime half around the outside of the rim (the outside only), halfway round the glass only. Roll that wet half in a saucer of salt. The other half stays bare.",
+      "Put your clear cube in the glass.",
+      "Pour the tequila, the lime juice and the thinned agave syrup into a shaker.",
+      "Fill the shaker with ice and shake hard for about ten seconds, until the outside is too cold to hold.",
+      "Strain it over the clear cube. Nothing on top."
+    ],
+    "name": "Half a Rim",
+    "preparations": [
+      {
+        "text": "stir equal parts blue agave syrup and water until they're one. Keeps two weeks in the fridge. (He thins his so none of it stays behind in the measure.)",
+        "title": "Thinned agave syrup"
+      },
+      {
+        "text": "(a day or two ahead): fill a small picnic cooler with hot tap water, leave it on the counter to cool, then put it in the freezer with the lid off. It freezes from the top down, pushing the air and the cloudiness into the last water to freeze. Take it out before it's frozen solid, tip the block out and cut away the cloudy part. Let the block sit until it looks wet and clear, not frosty. Then score it with a bread knife and tap the back of the blade with a rolling pin until one large cube splits off. Keep the spares in a bag in the freezer.",
+        "title": "Clear ice"
+      }
+    ],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "100% agave blanco tequila"
+      },
+      {
+        "amount": "22.5 ml",
+        "item": "fresh lime juice"
+      },
+      {
+        "amount": "20 ml",
+        "item": "thinned blue agave syrup (below)",
+        "note": "the same plant as the tequila"
+      },
+      {
+        "amount": "1",
+        "item": "large clear ice cube (below)",
+        "note": "made a day ahead, with the cloudy part cut off"
+      },
+      {
+        "amount": "a pinch",
+        "item": "kosher salt, for half the rim",
+        "note": "not needed; there if you want it"
+      }
+    ],
+    "tagline": "You take things away, and somehow there's more."
+  },
+  "pairing": "creator-innocent",
+  "personality": "The Minimalist",
+  "reading": {
+    "epigraph": "Its maker called it the house Margarita. Other people named it after the restaurant.",
+    "whoYouAre": [
+      "You rewrite a message three times, and every time it gets shorter. The last version looks like it took a minute. Most of what you make is what you said no to.",
+      "You don't want less. You want to feel each thing properly, and too much of anything drowns it out. Some people mistake the quiet for coldness, or for plain. The ones who know you know it's room: what you make leaves space, and people find their own meaning in it."
+    ],
+    "yours": [
+      "In the mid-1980s, Julio Bermejo was back behind the bar of his family's restaurant in San Francisco, an ordinary neighbourhood place, pouring Margaritas the usual way: fresh lime, but sour mix too, cheap tequila, orange liqueur. Then he tasted a tequila made only from agave, and decided the bar would pour nothing but tequila made that way, at about four times the cost. He made that call, he says, \"as a young person with no authority\".",
+      "Over the years the sour mix went, and then the orange liqueur, with agave syrup in its place. What was left was tequila, lime, a little agave, and nothing to hide behind. He called it the house Margarita. Other people gave it the restaurant's name.",
+      "I like to think you'd recognise those years: all that work, to end up with less. Nobody thanks you for what isn't there.",
+      "So this one keeps his three ingredients and his habit of thinning the syrup with water, so none of it clings to the spoon. The measures are mine. The syrup is blue agave, the same plant the tequila comes from.",
+      "Sometimes you cut one thing too many, and it's usually the one that was only there because you loved it. The salt on this glass isn't needed. It's there on one side, in case you want it. Leave one thing like that in whatever you make next. Not because it's needed. Because you like it."
+    ]
+  },
+  "status": "draft"
+}

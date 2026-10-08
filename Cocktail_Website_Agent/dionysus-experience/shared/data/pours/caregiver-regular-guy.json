@@ -1,0 +1,98 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Late in 1944 or early in 1945, Joe Sheridan, a chef at the flying-boat station at Foynes, Ireland, was asked to come up with something special to greet a group of dignitaries touring the site. Irish Coffee is credited to him. (Oxford IRISH COFFEE pdf 1075; card F1)",
+      "kind": "person",
+      "meaning": "The one who gets asked when something needs doing, and just does it.",
+      "speaksTo": "soughtFor: Comfort · drawnToward: Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "By 1947 \"Gaelic Coffee\", as it was first known, was being offered to all travellers deplaning at Shannon. (pdf 1076; F2)",
+      "kind": "lineage",
+      "meaning": "Made for a few, then offered to everyone the same (the \"same\" is our reading).",
+      "speaksTo": "drawnToward: Belonging · gravity: Social · lens: The real me"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Fame brought adulteration: syrup replaced the original sugar cubes, glasses got bigger than the original 180 ml footed goblet, and canned cream replaced fresh. Some revival bars, such as the Dead Rabbit, pride themselves on making it the way Sheridan did. (pdf 1076–1077; F4, F6)",
+      "kind": "gesture",
+      "meaning": "No lesser version when the room gets busy.",
+      "speaksTo": "texture: Soft · gravity: Grounded"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oats went into Irish pure pot-still whiskey alongside the malted and raw barley until the 1950s (Oxford OATS pdf 1414; SINGLE POT STILL pdf 1808; oats card F2). The era, not Sheridan's bottle (not on record), and not today's whiskey. No share of the mash is given (C1). \"Making the mash easier\" is contested (C2) and is not anchored.",
+      "kind": "ingredient",
+      "meaning": "In there alongside the others, doing its bit; in this glass, the one thing added to the original serve, made for the one who always gets the house pour.",
+      "speaksTo": "texture: Harmonic · drawnToward: Belonging (Hester's proposal; Wren to set)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Original serve: a footed glass goblet of 180 ml, sugar cubes, fresh cream. Oxford's modern recipe prefers brown or demerara cubes. Our spec (v2.1): 2 cubes, 40 ml whiskey (5 ml under Oxford's 45), 80 ml coffee, 30 ml cream steeped with toasted rolled oats, strained, whipped fresh; the numbers and the oats are ours. (pdf 1076–1077; F7)",
+      "kind": "glass",
+      "meaning": "Two cubes for all; the small care is the warm glass and the cream whipped fresh.",
+      "speaksTo": "texture: Harmonic · gravity: Grounded"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Two cubes for everyone. For one person, ask how they take it.",
+    "contains": [
+      "dairy",
+      "gluten"
+    ],
+    "glassware": "a footed glass goblet, about 180 ml, warmed with hot water first (or any heatproof stemmed glass or small handled toddy glass of about that size)",
+    "method": [
+      "**The oat cream, for two glasses.** Put 2 tablespoons (about 10 g) of rolled oats in a dry frying pan over a medium heat. Stir them all the time for 3 to 4 minutes, until they're golden and smell like warm biscuits. Tip them onto a plate and let them cool right down.",
+      "Stir the oats into 80 ml of cold heavy cream in a jar and leave it in the fridge for at least two hours (it keeps until the next day). Pour it through a sieve, pressing the oats with a spoon to get the cream out, and throw the oats away. You'll have about 65 ml. Keep it cold.",
+      "For each glass, put 30 ml of the oat cream in a cold bowl and whisk it by hand until it thickens and just starts to hold soft peaks, about double its volume. Stop before it goes stiff.",
+      "Fill the goblet with hot water, leave it a minute, then pour the water away.",
+      "Drop in two brown sugar cubes and pour in 80 ml of hot coffee. Stir until the sugar has gone.",
+      "Add 40 ml of Irish whiskey and stir once more.",
+      "Spoon the cream gently onto the top, over the back of the spoon, so it floats and covers the coffee right to the rim. Don't stir after this: it's drunk hot through the cool cream.",
+      "For the next person, whip the cream again."
+    ],
+    "name": "Everybody's",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "2",
+        "item": "brown or demerara sugar cubes",
+        "note": "cubes, not syrup: syrup came in when it got famous"
+      },
+      {
+        "amount": "80 ml",
+        "item": "hot fresh coffee (filter or drip, not espresso)"
+      },
+      {
+        "amount": "40 ml",
+        "item": "Irish whiskey (a standard 40% bottle)"
+      },
+      {
+        "amount": "30 ml",
+        "item": "toasted-oat cream, whipped by hand just before",
+        "note": "heavy cream steeped with rolled oats toasted in a dry pan, then strained; 80 ml of cream and 2 tablespoons of oats make enough for two glasses"
+      }
+    ],
+    "tagline": "Everyone gets the same you. That's the whole point."
+  },
+  "pairing": "caregiver-regular-guy",
+  "personality": "The Nurse",
+  "reading": {
+    "epigraph": "First made for a few important visitors. By 1947, everyone off the plane was offered one.",
+    "whoYouAre": [
+      "Something small goes wrong in a room full of people. Someone arrives soaked, a glass goes over, somebody's aunt doesn't know a soul. Before it's become a thing, you're there with a towel, a dustpan, a chair and a name. You didn't wait to be asked. Sitting there watching would have felt stranger.",
+      "And everyone gets the same you. The friend of twenty years and the new neighbour, the boss and the person clearing the plates: the same question about their week, the same cup, made the same way. Having favourites feels a bit selfish to you, a bit unfair, so you don't. What you'd rarely admit is that the people closest to you get exactly what everyone gets. Not a bit more. They'd never say so."
+    ],
+    "yours": [
+      "Late in 1944, or early in 1945, Joe Sheridan was a chef at Foynes, in Ireland, a station for flying boats, the planes that landed on water. He was asked to come up with something special to greet some important visitors. He made hot coffee with Irish whiskey and sugar, under a head of cream, in a small glass on a foot.",
+      "It started as a welcome for a few. It didn't stay that way. By 1947 it was being offered to every traveller getting off a plane at Shannon: not only the important ones. Everyone. Later it reached San Francisco, got famous, and fame did what fame does: syrup instead of sugar cubes, bigger glasses, cream from a can. Some of the bars that brought it back pride themselves on making it the way Sheridan did.",
+      "I like to think that was the part that was really his. Not the recipe: that it went to everyone the same, the visitor with a title and the next passenger off the plane. You'd have done it exactly that way. You don't keep a better version for the people who matter. Everyone who comes in gets the real one.",
+      "The cocktail I've made for you keeps the shape of his: a small glass on a foot, sugar cubes, hot coffee, Irish whiskey and fresh cream. The glass is warmed with hot water first. The cubes are brown, two of them: it began with cubes, and the syrup only came with fame. There's a little less whiskey than today's usual recipe, so the coffee under the cream stays gentle. What I've added for you is in the cream. Rolled oats go into a dry pan until they smell like warm biscuits, sit in the cold cream for a couple of hours, and are strained out, so only their taste stays. Oats had their place in Irish whiskey: until the 1950s, they went into the old pot-still Irish whiskey alongside the barley. I like to think that's you: in there alongside everyone, doing your bit. Then the cream is whipped by hand until it only just holds, and spooned on so it floats.",
+      "Don't change a thing about how you treat everyone. But being fair to everyone was never meant to mean that nobody gets to be special. Somewhere there's someone close to you who has been getting the same you as the new neighbour, and has never once complained. Give them something nobody else gets. Not more work: an evening, a call that isn't checking in, the good cup. The first of these drinks was made for a few particular guests. Let someone be yours."
+    ]
+  },
+  "status": "draft"
+}

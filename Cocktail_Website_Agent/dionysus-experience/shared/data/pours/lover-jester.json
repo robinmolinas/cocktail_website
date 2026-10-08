@@ -1,0 +1,161 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Someone Harrington knew came into the Townhouse and asked for a drink he'd never made before (Proper p. 58; request is Proper only).",
+      "kind": "fact",
+      "meaning": "An invitation to play, not a dare.",
+      "speaksTo": "the opening move: someone throws the ball"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Harrington says he thought for about twenty seconds, swapped Campari in for the bitters and lemon in for lime, and made it once (Proper p. 58; Oxford pdf 1099).",
+      "kind": "fact",
+      "meaning": "Quick, light, made for one person on the spot.",
+      "speaksTo": "the Flirt's speed; Tomás's spec (F3)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "One of the first two people to taste it told him he'd invented grapefruit juice; in both tellings the joke opens as praise (Proper p. 58; Oxford pdf 1099). Who said it and the exact words: contested (C2).",
+      "kind": "fact",
+      "meaning": "Our reading, signposted: the tease was the compliment.",
+      "speaksTo": "the one true thing (teasing is how they compliment); someone played back"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He named the drink after the man he made it for, Matt Jasmin (Proper p. 58; Oxford pdf 1099).",
+      "kind": "fact",
+      "meaning": "Our reading, signposted: the plain compliment said out loud. No motive on record.",
+      "speaksTo": "letting the compliment out of the tease"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Years later he realised he'd spelled the name wrong: one letter too many, an \"e\" the real name doesn't have; Proper adds it was by then too late (Proper p. 58; Oxford pdf 1099 for the misspelling).",
+      "kind": "fact",
+      "meaning": "The sincere thing, given a little clumsily, and kept.",
+      "speaksTo": "the second fear: getting the real thing slightly wrong"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His 1998 book carried the drink to bartenders across the country and abroad; Oxford names it a candidate modern classic and a drink used to introduce people to gin and Campari (Proper p. 58; Oxford pdf 473, 971). Told beside the misspelling, never sequenced with it.",
+      "kind": "fact",
+      "meaning": "The name, extra letter and all, is the one people order.",
+      "speaksTo": "what the guest gains"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A riff on the Pegu Club (Oxford pdf 1099, 971; Proper p. 58).",
+      "kind": "lineage",
+      "meaning": "One owned clause or nothing (*Making the Calls*).",
+      "speaksTo": "—"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Year (1990 vs mid-1990s, C1); who teased (C2); \"architecture school\" (C3); Chez Panisse (C5); \"dared\" (plan shorthand, mine).",
+      "kind": "legend/out",
+      "meaning": "—",
+      "speaksTo": "—"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Tomás adds 12.5 ml of jasmine tea syrup to Harrington's four measures (spec v1). The printed recipe has no jasmine (Proper p. 58; Oxford pdf 1099).",
+      "kind": "ours",
+      "meaning": "The misspelled name played back: the \"e\" spells the friend's name the way English spells the flower (Jasmin is the French and German spelling). Our riff, never \"his recipe\".",
+      "speaksTo": "playing back; the compliment let out, a letter off"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Matrix's OLIVE + JASMINE row gives benzyl acetate (fruit, honey, jasmine), also shared with tea (Matrix pdf 296, rendered).",
+      "kind": "fact",
+      "meaning": "Tea carries a compound the book lists among jasmine's aromas; nothing more (no gin or Campari pairing on the page).",
+      "speaksTo": "Tomás's Pairings"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Explorer's reserved \"jasmine and frangipani, per Baker\" was a backup never poured (grep of every pour file).",
+      "kind": "claim",
+      "meaning": "Jasmine here comes through the name, not Baker; owned in one clause (audit J1).",
+      "speaksTo": "Claims"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Townhouse Bar & Grill was in Emeryville, an industrial East Bay area near Oakland (Proper p. 54).",
+      "kind": "fact",
+      "meaning": "Setting only.",
+      "speaksTo": "y1"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Proper p. 55 says the Jasmine would become a modern classic; Oxford pdf 473 lists it among candidates for becoming a classic (audit r4, W2).",
+      "kind": "fact",
+      "meaning": "The label is attributed (\"went on to be called\"), not asserted.",
+      "speaksTo": "y3"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Put in the jasmine Harrington's spelling promised. Then pay one compliment with no tease around it, even if it comes out a letter off.",
+    "contains": [],
+    "glassware": "cocktail glass (about 180-200 ml), chilled",
+    "method": [
+      "Make the syrup first (it keeps about a week in the fridge): pour 100 ml of water just off the boil over 2 teaspoons (about 5 g) of plain jasmine green tea, leave it 3 minutes, strain, and stir in 100 g of white sugar until it dissolves. Let it cool.",
+      "Put a cocktail glass in the freezer.",
+      "Measure the gin, lemon, Cointreau, Campari and 2½ teaspoons (12.5 ml) of the jasmine syrup into a shaker.",
+      "Fill the shaker three-quarters with ice and shake hard until the outside is too cold to hold.",
+      "Strain into the cold glass.",
+      "Squeeze the lemon peel over the top so its oils fall on the drink, then rest it on the rim."
+    ],
+    "name": "Only Half Joking",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "London dry gin",
+        "note": "any London dry, 37.5% or stronger"
+      },
+      {
+        "amount": "22.5 ml",
+        "item": "fresh lemon juice",
+        "note": "squeezed today"
+      },
+      {
+        "amount": "7.5 ml",
+        "item": "Cointreau",
+        "note": "as the recipe prints it; or any clear orange liqueur (triple sec) at 40%"
+      },
+      {
+        "amount": "7.5 ml",
+        "item": "Campari",
+        "note": "as the recipe prints it; it brings the pink and the bitter"
+      },
+      {
+        "amount": "12.5 ml",
+        "item": "jasmine tea syrup",
+        "note": "homemade: plain jasmine green tea and sugar, equal weights (see Method)"
+      },
+      {
+        "amount": "1",
+        "item": "lemon peel",
+        "note": "a wide strip, for the top"
+      }
+    ],
+    "tagline": "Every tease is a compliment. The fun is seeing who catches it."
+  },
+  "pairing": "lover-jester",
+  "personality": "The Flirt",
+  "reading": {
+    "epigraph": "Named for a friend, with one letter too many. This glass finally has jasmine in it.",
+    "whoYouAre": [
+      "You don't tell people you like them. You tell them their coffee order is a cry for help, that they've clearly been practising that walk, that you'll allow the hat, just this once. Then you watch. If they grin and send one back, something starts between the two of you that nobody nearby can quite follow.",
+      "Every one of those was a compliment. You just couldn't hand it over plain, because plain is too easy to turn down. Said as a joke, a no costs nobody anything, you included. What stays with you is the one who takes it at face value and looks a little hurt, or smiles politely and lets it drop, and the joke left hanging with only you holding it. And being teased by you feels like being picked. People walk away from you funnier and better-looking than they came in. That's what your teasing hands them."
+    ],
+    "yours": [
+      "At a bar called the Townhouse, in Emeryville near Oakland, a friend asked the bartender, Paul Harrington, for a drink Harrington had never made before. He says he gave it twenty seconds' thought. He took a classic he loved, put Campari in place of its bitters and lemon in place of its lime, made it once, and handed it over. In his words, it was a beautiful pink.",
+      "One of the first people to taste it told him he'd just invented grapefruit juice. The praise came first, then the joke. I like to think that's the whole trick, and it's your trick too: the compliment, sent sideways, to see if it's caught. Harrington also did the thing you find hardest. He said it outright, with no joke around it: he named the drink after his friend, Matt Jasmin.",
+      "And Harrington got it slightly wrong. Years later he realised he'd been spelling the name with an \"e\" on the end, a letter Matt's name doesn't have. By then, it was too late. His 1998 book carried the drink to bartenders around the world, and it went on to be called a modern classic, extra letter and all. I recognise you in that: when you finally say the nice thing out loud, you're sure it'll come out a little wrong. His did. It still carries his friend's name, near enough.",
+      "The cocktail I've made for you is built on that Jasmine. It's gin and squeezed lemon with small measures of Cointreau and Campari, shaken hard and poured very cold into a frosted stemmed glass, with the oils of a lemon peel misted across it. All of Harrington's measures are there. My one addition is a little syrup made from jasmine tea. That extra \"e\" spells his friend's name the way English spells the flower, and the recipe Harrington printed has no jasmine in it. I've put some in, years late, as my tease played back to him. The syrup softens the tartness, so it ends up bright, a little bitter and softly scented.",
+      "Next time someone plays back, don't send another tease. Tell them what the last one was hiding: that they're funny, that they're good company, that the hat is actually great. Once, plainly. It may come out clumsy. Harrington's came out with a letter too many, and it stuck. Plenty of people you like have no idea how much, and the ones you tell will play back hardest of all."
+    ]
+  },
+  "status": "draft"
+}

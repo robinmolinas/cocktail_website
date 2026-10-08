@@ -1,0 +1,120 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The Gaja house in Barbaresco was founded in 1859. Angelo took over at 21, in 1961, and he's credited with bringing Barbaresco out of obscurity. In the 1980s his single-vineyard Barbarescos made a sensation (O'Keefe, *The Wine News*, 2006).",
+      "kind": "story",
+      "meaning": "He built the very thing he would later take apart.",
+      "speaksTo": "test 4 (loved the old thing); hidden"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "As those single vineyards grew in prestige, the family's own Barbaresco, from fourteen vineyards and always the house's \"historic wine\", started being called \"normale\" or \"basic\" and seen as lesser, \"which I never intended\" (Gaja, to O'Keefe, 2006).",
+      "kind": "story",
+      "meaning": "Something good dying politely: the house's oldest wine demoted by habit, and by his own success.",
+      "speaksTo": "fear; test 1"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In late 1999, starting with the 1996 vintage, he moved his single-vineyard Barbarescos out of Barbaresco's top classification to the wider regional name (Langhe Nebbiolo, per O'Keefe). He said it was \"in support of Barbaresco\", so the house would have \"one Barbaresco only\" (O'Keefe 2006).",
+      "kind": "reveal",
+      "meaning": "He broke the thing he loved, on purpose, and said why.",
+      "speaksTo": "the one true thing; test 2"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The move also let him add a little Barbera, which Barbaresco's rules prohibit. He said it was for freshness, which Nebbiolo sometimes lacks in hot years (O'Keefe 2006; Decanter 2019 twice; the percentage differs, 5% or \"up to 15%\").",
+      "kind": "guard",
+      "meaning": "Two reasons, both his. The reading never says it was only for the family wine. Say \"a little Barbera\", no number.",
+      "speaksTo": "counterweight"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It shocked the wine world. Rumours said he wanted foreign grapes, critics in Italy and abroad lamented Barbaresco's reputation, and he knew what journalists \"have said and continue to say\" (O'Keefe 2006).",
+      "kind": "cost",
+      "meaning": "Blamed for the break, not thanked for the reason.",
+      "speaksTo": "price; test 3"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The predicted exodus after him didn't happen. Barbaresco's producers held firm on the wine's character, and O'Keefe judged that this gave Barbaresco \"a sense of identity\" (2006).",
+      "kind": "ending",
+      "meaning": "The thing he was blamed for damaging stood up for itself.",
+      "speaksTo": "test 5; gift"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "From the 2013 vintage, Gaia Gaja and her siblings took the three single-vineyard wines back into Barbaresco, now all Nebbiolo, \"thanks also to the support of our father\"; \"every generation has its own path to follow\" (Decanter 2019). Still labelled Barbaresco DOP, 2020–2023 vintages (US importer's page, fetched 2026-10-01).",
+      "kind": "ending",
+      "meaning": "What grew back was the old thing itself, by the next hands, with his blessing, and it holds today.",
+      "speaksTo": "test 5 (past the page); gift"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The syrup's wine, a young Langhe Nebbiolo, carries the very regional name Gaja moved his single-vineyard Barbarescos down to (O'Keefe 2006: \"to Langhe Nebbiolo DOC\"; Decanter 2019: \"the 'Langhe' denomination\"). Owned in one clause (audit v2, O1).",
+      "kind": "coincidence",
+      "meaning": "The plain name holds the drink: a coincidence, said as one, never as his choice.",
+      "speaksTo": "drink as proof; rule (coincidences owned)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Grappa is Italian pomace brandy: the skins, seeds and stems left after grapes are pressed for wine. The young kind (giovane) rests at least six months in steel or glass. It's sold at a minimum of 37.5% (Oxford GRAPPA pdf 935).",
+      "kind": "ingredient",
+      "meaning": "The part the winemaker leaves behind, made into the drink's core.",
+      "speaksTo": "drink as proof"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Warm the wine, never boil it. Then take apart what you love, and leave room for someone to put it back.",
+    "contains": [],
+    "glassware": "a heavy old-fashioned glass, one large cube",
+    "method": [
+      "Make the syrup ahead. Put the Nebbiolo and the sugar in a small pan over low heat and stir until the sugar has dissolved. Don't let it boil: it should still taste of the wine. Let it cool, then bottle it and keep it in the fridge.",
+      "Put the syrup and the bitters in the glass. Add the grappa and stir to mix.",
+      "Add the large ice cube and stir about fifteen times, until the glass feels cold. Serve it straight away, with no garnish."
+    ],
+    "name": "For Its Own Good",
+    "preparations": [
+      {
+        "text": "(makes about 400 ml; keeps in the fridge for about a week, my estimate): 250 ml dry young Nebbiolo (a Langhe Nebbiolo) and 250 g white sugar.",
+        "title": "Nebbiolo syrup"
+      }
+    ],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "young grappa",
+        "note": "giovane or bianco, not wood-aged, 37.5-43% (a Piedmont grappa, if you can find one); Italy's spirit made from the skins, seeds and stems left once grapes are pressed for wine"
+      },
+      {
+        "amount": "10 ml",
+        "item": "Nebbiolo syrup (below)",
+        "note": "a young Langhe Nebbiolo warmed with its own weight of sugar; it's the only sweetness in the drink"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "orange bitters"
+      }
+    ],
+    "tagline": "Everyone else keeps it going. You love it enough to end it."
+  },
+  "pairing": "outlaw-magician",
+  "personality": "The Disrupter",
+  "reading": {
+    "epigraph": "This glass's grape made one winemaker famous. Then he demoted his own famous wines.",
+    "whoYouAre": [
+      "Someone says \"but that's how it's always been\", and you feel it before you can explain it. It's still standing, but it stopped being alive a while ago: the trip nobody enjoys any more, the group that meets because it always has, the way of working everyone defends and nobody would choose today. Sooner or later you're the one who says so. Then you're the one who ends it, and the one they're cross with.",
+      "Here's the thing, though: you only ever break the things you love. Nobody fights that hard over something they don't care about. And afterwards you miss it, often more than the ones who were angry with you. You tell no one, in case it's taken for an apology. Your real fear is quieter than any row. It's something good being kept going out of politeness, year after year, until nobody remembers why it mattered, and you, who saw it, said nothing.",
+      "And it's worth saying plainly: because of you, the thing they loved gets a second life, the cross ones included. They rarely thank you at the time. But what grows back is usually better, and very often it's still theirs. That's love too: the kind that's willing to end things."
+    ],
+    "yours": [
+      "Angelo Gaja's family house in Barbaresco, in north-west Italy, was founded in 1859. He's credited with bringing Barbaresco, a wine made from the Nebbiolo grape, out of obscurity. His single-vineyard wines became famous.",
+      "But as they grew famous, the family's own Barbaresco, always the house's \"historic wine\", started being called \"normale\", the lesser bottle. \"Which I never intended,\" he said. So, starting with the 1996 vintage, he took those single-vineyard wines out of Barbaresco's top classification, down to a plainer regional name. In his words, it was \"in support of Barbaresco\", so that the house would have one Barbaresco only. It also freed him to add a little Barbera, which the rules didn't allow, for freshness, he said. So there were two reasons, and both were his. It shocked the wine world, and critics mourned Barbaresco's reputation.",
+      "I like to think the first reason was the one that mattered to him: his own famous wines taken down a rank, so the house's own would stop being second best. And look at what grew back. Barbaresco's other producers held to what it was, and a wine writer living in Italy judged that it gave Barbaresco a sense of identity. Then, from the 2013 vintage, his children brought those three wines back into Barbaresco, all Nebbiolo now, with his support. \"Every generation has its own path to follow,\" his daughter Gaia said.",
+      "The cocktail I've made for you is a grappa Old-Fashioned: the famous classic, built on young grappa, Italy's spirit made from the skins, seeds and stems left once grapes are pressed for wine. Its only sweetness is a syrup of young Langhe Nebbiolo, warmed gently with sugar and never boiled. As it happens, that's the plainer name his famous wines were moved down to. I chose it as a nod to the family wine he put first, the one people had started calling basic: here, a plain young wine is what holds the drink together. Then orange bitters, two dashes, and one big cube; it's stirred only until the tumbler feels cold. No garnish. Strong and cold, with the red wine underneath.",
+      "When you next end something you love, say why while you're doing it: that it's for the thing's sake. Then leave the rebuilding to someone else, even if they bring back something that looks a lot like the old way. That isn't your break being undone. It's what it was for. And you get to love the thing again, without carrying it alone."
+    ]
+  },
+  "status": "draft"
+}

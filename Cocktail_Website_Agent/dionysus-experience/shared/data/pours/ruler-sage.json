@@ -1,0 +1,136 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "In the 1830s Lowland distillers took up continuous stills and made a light, clean grain whisky cheap enough for city factory workers (Oxford pdf 2149; card F1).",
+      "kind": "story",
+      "meaning": "The case starts with the bottle the least-heard drinker could afford.",
+      "speaksTo": "what they give: the quietest person gets the same answer as the loudest"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The old pot-still malt makers said the new spirit wasn't whisky at all; the argument was heated (pdf 2149; F2), and not only in Scotland (the Dublin distillers, pdf 541; F12). The pot-still makers are the \"traditional\" side (pdf 70).",
+      "kind": "story",
+      "meaning": "One side had age and craft on its side; the comfortable story was \"only ours is real\".",
+      "speaksTo": "the comfortable story nobody bothered to check"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A British commission took evidence in person in 1908 from across the spirits trade (pdf 317, 1697, 875; F6).",
+      "kind": "story",
+      "meaning": "Everyone heard before the call.",
+      "speaksTo": "both sides heard"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It set definitions and labelling rules, banned neither blending nor the word whisky on column-still spirit (pdf 70; F4); the definition later books quote rests on grain and malt and names no still (F5, secondary).",
+      "kind": "story",
+      "meaning": "A decision, not a split: the newcomer was whisky, and the name now had to mean something.",
+      "speaksTo": "a decision, not a compromise; clear rules protect people"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The grain side was the larger one: in 1877 six of the largest Scottish grain distillers formed an alliance (pdf 666; F7). The page gives size, not money.",
+      "kind": "counterweight",
+      "meaning": "Never the underdog's win: it was the drinker, not the distiller, who had less. Keeps the reading honest.",
+      "speaksTo": "fairness over being liked"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford hedges it: settled \"legally, anyway\" (pdf 2149; F3); and in the decades after, the authenticity argument won the public through marketing (pdf 70; F8).",
+      "kind": "cost",
+      "meaning": "The ruling stood; being liked for it didn't follow.",
+      "speaksTo": "what they hide: it costs them; they don't owe the room its agreement"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Grain whisky's acceptance as its own category goes back to the commission, and today it is most often used to make blended whisky (pdf 2149; F9).",
+      "kind": "lineage",
+      "meaning": "The call stood: blended Scotch in this glass is honest and legal, not a lesser bottle.",
+      "speaksTo": "the decision stood; no snobbery"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Blended Scotch is malt and grain whisky together (Oxford pdf 2132, 209; F11), and blending pot- and column-still spirit had been legal since 1860 (pdf 284; F10).",
+      "kind": "lineage",
+      "meaning": "The glass holds both sides of the argument.",
+      "speaksTo": "the decision stood; one rule for both"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The definition later books quote asks that the grain's starch be turned to sugar by malt (F5, secondary). Malt is one requirement among others (cereal grain, distillation); no still is named.",
+      "kind": "ingredient",
+      "meaning": "The malt syrup is the definition in the glass. Never \"the one thing\", never \"the law\" (C2).",
+      "speaksTo": "tie the twist to the story in one clause: one rule, whichever side"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Malt sits on the Grain flavour wheel (Matrix pdf 137); citrus is a Grain best pairing (pdf 136), hence the orange peel.",
+      "kind": "pairing",
+      "meaning": "A place on the wheel, not a taste claim.",
+      "speaksTo": "the spark is sourced, not decoration"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "If Robin takes the veto-free version: honey is a Grain best pairing (Matrix pdf 136; the subtypes are wheat, barley, oats, farro and quinoa; corn is its own entry, pdf 88, with no honey), and saffron steeped in spirit gives a bright yellow (Oxford pdf 1072).",
+      "kind": "fallback only",
+      "meaning": "Honey goes with grain (barley on the page), which is where the definition began, not the still. Never \"for both whiskies equally\" (grain whisky is often corn, pdf 2149).",
+      "speaksTo": "as above"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Stir until you can't see the malt. Then say what you've decided, and let the argument go on without you.",
+    "contains": [
+      "gluten"
+    ],
+    "glassware": "old-fashioned glass (rocks glass, about 300 ml), filled with ice cubes",
+    "method": [
+      "Make the malt syrup: stir 1 tablespoon of barley malt syrup into 2 tablespoons of rich sugar syrup (2 parts sugar to 1 part water by weight, dissolved warm) until no streaks are left. It keeps in the fridge for weeks.",
+      "Put the malt syrup and the bitters in the glass, add the whisky, and stir to mix.",
+      "Fill the glass with ice cubes and stir for about 20 seconds, until the outside of the glass is cold.",
+      "Squeeze the orange peel over the top so its oils fall on the drink, then drop it in."
+    ],
+    "name": "Either Way",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "blended Scotch whisky",
+        "note": "any blend, 40-43%: malt and grain whisky together"
+      },
+      {
+        "amount": "7.5 ml (1½ tsp)",
+        "item": "malt syrup",
+        "note": "1 part barley malt syrup (from a jar, the baking shelf) to 2 parts rich sugar syrup, stirred smooth; up to 1¾ tsp if your malt syrup is dark"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "aromatic bitters (Angostura)"
+      },
+      {
+        "amount": "1",
+        "item": "orange peel strip",
+        "note": "squeezed over the top, then dropped in"
+      }
+    ],
+    "tagline": "Even the people you've ruled against trust you. Especially them."
+  },
+  "pairing": "ruler-sage",
+  "personality": "The Judge",
+  "reading": {
+    "epigraph": "There's whisky in this glass that rival distillers once insisted wasn't whisky at all.",
+    "whoYouAre": [
+      "Two friends fall out, and sooner or later each of them tells you their side. You hear both out to the end, and you ask for the bits that don't flatter them. Then you tell them plainly what you think happened, and it's rarely what either of them hoped. And here's the odd part: when trouble comes round again, it's the one you disagreed with who calls first.",
+      "People assume plain speaking is easy for you. It isn't, not once. You want to be liked as much as anyone, and later, alone, you replay the conversation, half hoping someone will show you what you missed. What you won't put up with is the kind-sounding fudge, the \"let's not make a fuss\", because you know who pays for it, and it's never the person saying it. It's the quietest one there. With you, the quietest voice gets the same answer as the loudest, and it matters more than they ever tell you."
+    ],
+    "yours": [
+      "For decades, distillers argued about a word. In the 1830s, whisky makers in the Lowlands took up a new kind of still, one that could run without stopping, and made a light, pure grain whisky cheap enough for city factory workers. The makers of malt whisky, from the old pot stills, said the new spirit wasn't whisky at all. They had age and tradition on their side. The grain side had the size: in 1877, six of the biggest grain distillers joined forces.",
+      "In 1908 a British commission sat and took evidence in person from across the spirits trade. Where it landed was plain. Whisky was a spirit distilled from cereal grain, its starch turned to sugar by malt, and nothing in that said which still. The new spirit was whisky. Blending stayed legal, and the commission set out what a label could claim.",
+      "That settled the law, not the argument. Over decades of marketing, the idea that the older whisky is the real one has largely won people over. The ruling stood anyway. That will be familiar to you: a call that went against the side with age and tradition, and then held, liked or not. I like to think the people it looked after most weren't in the room at all: whoever was buying the cheaper bottle.",
+      "The cocktail I've made for you starts from one of the most renowned classics of all, the Old-Fashioned. I make it with blended Scotch: malt and grain whisky together, the two whiskies that argument was about. Only the sugar is different. I sweeten it with a syrup made partly from barley malt, which the commission's definition asked of every whisky, whatever still it came from. That's as a nod to how you treat people: one rule, whichever side they're on. The malt makes it rounder and warmer than plain sugar would. Angostura goes in as well, the glass is a heavy one packed with ice, and last, orange peel is squeezed above it for its scent.",
+      "Once everyone's been heard and you've made the call, you've done the fair part. You don't also owe the room its agreement. Some of them will never come round, and that doesn't make the call any less fair. If the evidence ever changes, it'll find you, because you're the one who always asks for it. Until then, take the evening off from deciding. You've earned the nights when nobody needs an answer from you."
+    ]
+  },
+  "status": "draft"
+}

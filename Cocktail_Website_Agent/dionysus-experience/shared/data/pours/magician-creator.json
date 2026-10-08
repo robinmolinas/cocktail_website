@@ -1,0 +1,133 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "At the Campbell Apartment (1999) the management picked ten drinks from an old hotel bar book because they \"sounded cool\", and gave the bartenders no recipes (*Proper* p. 135, Klemm).",
+      "kind": "story",
+      "meaning": "The ask arrived as names only. Hearing what was wanted under the words is the whole job.",
+      "speaksTo": "summoned; hears the wish under the words"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The opening bartenders (\"we\") taught themselves the drinks from the ingredients alone; Klemm: \"I thought, This is kind of cool\" (*Proper* p. 135).",
+      "kind": "story",
+      "meaning": "The overflow as delight, not duty. Plural: he wasn't alone.",
+      "speaksTo": "the overflow is joy"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "One drink called for maraschino liqueur; Klemm learned it was a real liqueur, not the \"maraschino juice\" bartenders were using, and bought the one bottle Astor Wines had (*Proper* p. 135). The liqueur is clear and distilled from marasca cherries; the cocktail cherry sits in sugar syrup (Oxford pdf 1227, 1229).",
+      "kind": "near-miss",
+      "meaning": "The word, taken at its most literal, gives a drink nobody meant. He went and found the real one. \"Syrup from the cherry jar\" is our gloss.",
+      "speaksTo": "fear: a wish granted exactly as worded, with a result nobody wanted"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Nobody knew where to buy orange bitters, so \"they\" (unnamed) mixed Cointreau and Angostura together as a stand-in (*Proper* p. 135).",
+      "kind": "stand-in",
+      "meaning": "Something out of nothing. Who \"they\" were, and when, isn't said. A lead for Tomás, not a spec.",
+      "speaksTo": "makes something out of nothing"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "At Pico (opened early 2001; the drinks are undated) Klemm offered a deal: he'd improve the lagging bar if he could create original cocktails; the owners agreed (*Proper* p. 135, Simonson's paraphrase).",
+      "kind": "position",
+      "meaning": "Offer the help, and say in the same offer what you'd like in return. The offer was his (nobody asked him first; he didn't \"say yes\" to anyone), and the page doesn't say the bar improved.",
+      "speaksTo": "hidden wish: freedom, one thing made their own way"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Klemm: \"They were all original. I wanted them to relate to the kitchen.\" \"I got a lot of press.\" (*Proper* p. 136)",
+      "kind": "his words",
+      "meaning": "The wish in his own voice, and it still served the house.",
+      "speaksTo": "the wish, said out loud once"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Tom Collins is \"one of the best known and enduring mixed drinks of all time\" (Oxford TOM COLLINS pdf 2041).",
+      "kind": "lineage",
+      "meaning": "The frame we built on is a renowned classic.",
+      "speaksTo": "let the drink sound worth having"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "For the Collins d'Electra, gin and vodka, he created a fresh rosemary syrup (*Proper* p. 135). No other part of the recipe is given.",
+      "kind": "lineage",
+      "meaning": "The drink made with the freedom he asked for. Ours is a riff on it, never \"his recipe\".",
+      "speaksTo": "what they give"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Mix the stand-in first: that's the ask. Clap the rosemary last: that one's for you.",
+    "contains": [],
+    "glassware": "tall (Collins) glass, chilled, filled with ice",
+    "method": [
+      "Make the syrup ahead. Warm 100 g sugar in 100 ml water, stirring, until it dissolves. Take it off the heat, add two sprigs of fresh rosemary, and leave it to steep for 20 minutes. Strain, and let it cool. It keeps a week in the fridge.",
+      "In a small glass, stir the orange liqueur and the Angostura together. That's your stand-in for orange bitters.",
+      "Chill a tall glass and fill it with ice.",
+      "Pour the gin, vodka, lemon juice, rosemary syrup and the stand-in into a shaker with ice. Shake for about five seconds, just long enough to chill them.",
+      "Strain into the glass, top with the soda, and give it one gentle stir from the bottom.",
+      "Clap the rosemary sprig once between your hands to wake its scent, and stand it in the glass."
+    ],
+    "name": "On One Condition",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "30 ml",
+        "item": "London dry gin"
+      },
+      {
+        "amount": "30 ml",
+        "item": "vodka",
+        "note": "gin and vodka together, the two spirits the book names for this drink"
+      },
+      {
+        "amount": "30 ml",
+        "item": "fresh lemon juice"
+      },
+      {
+        "amount": "20 ml",
+        "item": "fresh rosemary syrup (homemade)",
+        "note": "the herb he chose for it"
+      },
+      {
+        "amount": "1 tsp (5 ml)",
+        "item": "orange liqueur (Cointreau or any clear triple sec)",
+        "note": "stirred with the bitters: the stand-in for orange bitters Klemm describes at the Campbell Apartment"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "60 ml",
+        "item": "soda water, very cold",
+        "note": "poured last"
+      },
+      {
+        "amount": "1 sprig",
+        "item": "fresh rosemary",
+        "note": "for the scent"
+      }
+    ],
+    "tagline": "Nobody gets what they asked you for. They get what they meant."
+  },
+  "pairing": "magician-creator",
+  "personality": "The Genie",
+  "reading": {
+    "epigraph": "There are no orange bitters in this glass. Two other bottles stand in for them.",
+    "whoYouAre": [
+      "Someone asks you for a few words at their party, and you come back with a toast that has the room crying and then laughing. Someone calls with a broken heart, and by the end of the night there's a plan, a playlist and a joke they'll repeat for years. You don't do small, and it isn't showing off. You listen for what the person meant under what they said, and you give them that.",
+      "What worries you is getting it wrong in the most literal way: doing exactly what was asked and watching it land flat, because the words were never really the wish. So you listen hard, and you give more, just in case. And with all those ideas flying, nobody thinks to turn round and ask what you'd wish for. You don't tell them either. In your head, wishes are something you grant. It gives people something that lasts, though. When you take a small request seriously enough to make it wonderful, you tell someone their wish mattered, and they remember that longer than whatever you made."
+    ],
+    "yours": [
+      "In 1999 a bar opened inside New York's Grand Central Terminal, in what had once been a railroad executive's private office: the Campbell Apartment. The management picked ten drinks from an old hotel bar book, because the names sounded good, and handed them over with no recipes. The bartenders taught themselves the drinks from the ingredients alone, although most customers wanted a light beer anyway. One of them, Eben Klemm, remembered thinking: this is kind of cool.",
+      "Half the drinks called for orange bitters, and nobody knew where to buy them, so Cointreau and Angostura got mixed together to stand in for them. Another called for maraschino. Klemm found out it was a real liqueur, clear and made from cherries, not the \"maraschino juice\" bartenders were pouring, which I take to be the syrup from a jar of cocktail cherries. So he went to Astor Wines and bought the one bottle the shop had. Taken at its word, I'd say, that recipe would have made a drink nobody meant.",
+      "At Pico, a Tribeca restaurant that opened in 2001, the bar was lagging, and Klemm offered a deal: he'd improve the bar if he could create original cocktails. The owners agreed. \"They were all original,\" he said later. \"I wanted them to relate to the kitchen.\" I like to think that's the whole secret: when he finally asked for something, it was to do it his own way, and his own way still had their kitchen in mind. You'll build something out of ten names and no recipe, and you'll go and find the real thing rather than hand someone the jar. What you almost never do is what he did at Pico: offer your help and, in the same offer, say what you want.",
+      "The cocktail I've made for you starts from one of those Pico drinks, the Collins d'Electra. Gin, vodka and a fresh rosemary syrup he created for it are all that's known of it, so everything else is my own, built like a Tom Collins, one of the great tall classics: lemon, a glass full of ice, soda on top, a sprig of rosemary for the scent. And I've added one small thing from the Campbell Apartment, as a nod to the stand-in mixed there when nobody knew where to buy orange bitters: a teaspoon of Cointreau, mixed first with a couple of dashes of Angostura. It's tall, bright and herbal, with a warm orange edge underneath, and I like to think the rosemary is where you can taste the kitchen.",
+      "So this is my wish for you. Whoever asks for your help next, say yes the way you always do, and before you start, name the one part you'd like to make entirely on your own terms. It isn't taking. It's usually where the best thing you make for them comes from, and for once, one of the wishes granted will be yours."
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,127 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "*The Pink Lady*, a musical comedy, opened at New York's New Amsterdam theater in 1911, starring Hazel Dawn (Oxford pdf 1521).",
+      "kind": "story",
+      "meaning": "The occasion: someone else's big season.",
+      "speaksTo": "the moment belongs to the other person"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "As she told it (to a correspondent of William Grimes; Oxford pdf 1521, bibliography pdf 1522), the drink was created for a surprise party in her honour at Murray's Roman Gardens on 42nd Street. No date for the telling (C1).",
+      "kind": "story",
+      "meaning": "A night arranged for someone who didn't ask for it; what she kept was the party.",
+      "speaksTo": "help given unasked; reassurance: it was right"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Who arranged the party and who made the drink are not on record (Oxford pdf 1521).",
+      "kind": "story",
+      "meaning": "Absent from the record, not from the room (Wren). Anything about them is signposted.",
+      "speaksTo": "unseen care; no thanks wanted"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The 1911 Pink Lady was a jigger of ojen, a sweetened Spanish anís, shaken with Peychaud's and Angostura bitters (Oxford pdf 1521; sweetness: Monti 2021, *Tales* 2016, secondary).",
+      "kind": "lineage",
+      "meaning": "The drink made for the night.",
+      "speaksTo": "what they give"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Pink Lady that entered the books is probably a different drink: Jacques Straub's gin and applejack, 1913 (Oxford pdf 1521).",
+      "kind": "lineage",
+      "meaning": "The name probably went on without the drink made for her (keep Oxford's \"probably\"). The coarsening the page describes is Straub's drink's (C2).",
+      "speaksTo": "fear: a kindness becomes something unmeant once out of their hands"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Straub's version (not the party's) was later simplified; by the end of Prohibition it was usually gin, grenadine and egg white, \"crude but effective\" (Oxford pdf 1521).",
+      "kind": "lineage",
+      "meaning": "What the name turned into in other hands.",
+      "speaksTo": "fear: unintended results"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In New Orleans the 1911 ojen drink became known as the \"Pink Shimmy\" (Oxford pdf 1521; undated).",
+      "kind": "story",
+      "meaning": "The drink from that night didn't disappear; it carried on under another name. Nothing about credit (C7).",
+      "speaksTo": "help that lasts beyond their hands"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Anise oil clouds when cold water goes in; chill-filtering can prevent it (Oxford ANISE SPIRITS pdf 115; LOUCHE pdf 1195). Thickness in our glass unsourced: \"hazy\".",
+      "kind": "craft",
+      "meaning": "The haze is physics, owned in one clause.",
+      "speaksTo": "—"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Peychaud's colours ojen pink (*Peychaud's New Orleans Cocktails*, 1935, p. 27: \"until colored pink\").",
+      "kind": "craft",
+      "meaning": "\"Pink from the bitters\", never the point.",
+      "speaksTo": "—"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Our one change: three quarters of the sweet anise swapped for a dry anís (Spanish law: seco ≤50 g/l sugar, RD 164/2014 art. 6).",
+      "kind": "craft",
+      "meaning": "The help works underneath, unseen.",
+      "speaksTo": "what they give; unthanked"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Shake it until the tin is ice-cold. This time, don't slip out early.",
+    "contains": [],
+    "glassware": "cocktail glass, chilled",
+    "method": [
+      "Chill the cocktail glass: put it in the freezer, or fill it with ice water while you mix.",
+      "Put both anís and both bitters in a shaker with plenty of ice. Shake hard for about 12 seconds, until the tin is ice-cold.",
+      "It turns hazy as the cold water from the ice goes in. That's the anise, not a mistake.",
+      "Empty the glass if you filled it with water, and strain the drink in."
+    ],
+    "name": "Their Night",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "15 ml",
+        "item": "Spanish anís dulce, 35%",
+        "note": "sweet anise, like the ojen the 1911 drink used"
+      },
+      {
+        "amount": "45 ml",
+        "item": "Spanish anís seco, 40 to 50%",
+        "note": "a dry anise with far less sugar: the one thing I've changed"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Peychaud's bitters",
+        "note": "it turns the drink pink"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      }
+    ],
+    "tagline": "It was never your night. You made sure it was theirs."
+  },
+  "pairing": "magician-caregiver",
+  "personality": "The Fairy Godparent",
+  "reading": {
+    "epigraph": "Reportedly, a 1911 surprise party got its own drink. The name probably went elsewhere.",
+    "whoYouAre": [
+      "You notice what someone needs before they've said it, and you act before anyone asks. By the time their big day comes, it's done: the call made, the table booked, the right people quietly in the room. And you're at the back, or not there at all, because it was never meant to be about you.",
+      "What you'd never admit is the question that comes after: did I have the right? Help nobody asked for can land wrong, and you know it, so part of you is always listening for the moment a kindness turns out to be meddling. Most of the time it doesn't, because you only do it for people you've watched closely enough to know. Help nobody has to thank you for is help nobody has to repay. You hand someone a moment that is completely their own."
+    ],
+    "yours": [
+      "In 1911 a musical called *The Pink Lady* opened at New York's New Amsterdam theatre, starring a young actress named Hazel Dawn. A drink was named after the show, and as she told it, it was first made for a surprise party in her honour at Murray's Roman Gardens on 42nd Street. The 1911 Pink Lady was a measure of ojen, a sweet Spanish anise liqueur, shaken with Peychaud's and Angostura bitters.",
+      "Who arranged that party, or who made the drink, isn't on record. And the name probably didn't stay with their drink: in 1913 a drinks book printed a Pink Lady made with gin and applejack, and that's the one that went into the recipe books. In other hands it got simpler and cruder, until by the end of Prohibition most bars made it with gin, grenadine and egg white.",
+      "That's the worry you carry: something kind you set up, taken out of your hands and put on something you'd never have made. But look at what lasted. The drink from that night didn't disappear. In New Orleans it carried on under another name, the Pink Shimmy. And I like to think it matters that, when Hazel Dawn told the story, she told it as a party in her honour: the name wandered off, and the night stayed hers. That's exactly what your kind of help is for.",
+      "The cocktail I've made for you starts from the Pink Lady of that night, not the one that went into the books: Spanish anise shaken with Peychaud's and Angostura bitters. I've changed one thing, as a nod to whoever made it first. Three quarters of the sweet anise is swapped for a dry one, with far less sugar. You won't see it. It just takes the edge off the sweetness, so what was a sweet liqueur with bitters becomes a proper cocktail, and nobody will thank it for any of that. It reaches the glass hazy, because anise clouds when it meets cold water, and pink from the bitters.",
+      "Keep doing it without asking. The people you do it for are the ones you know well enough. Only, when you've arranged someone's moment, don't leave before it arrives. A surprise is the one kind of help you can see land: the door opens, the room shouts, and for a second they can't speak. Be there for that second. That's how you'll know you had the right."
+    ]
+  },
+  "status": "draft"
+}

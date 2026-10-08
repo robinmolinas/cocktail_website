@@ -1,0 +1,111 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "In 2014, Houston bar owner Bobby Heugel told a drinks magazine that limes are packed by size, and that the odd-sized leftovers go into what the trade calls packer's cases, sold, by his account, for 30-40% less (*PUNCH*, 2 Apr 2014; F5).",
+      "kind": "reveal",
+      "meaning": "The saving was there all along. It took someone who knew how the trade packs its fruit to tell people to ask for it.",
+      "speaksTo": "Fairness; Belonging; drivers: provide structure"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He added that maybe they weren't so easy to find in Houston any more, because he'd been telling people about them (his account, with his \"maybe\"; F6).",
+      "kind": "gesture",
+      "meaning": "Our reading only: he gave away an edge of his own.",
+      "speaksTo": "Altruism; fear of Exclusion"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He said one of the biggest problems that year was the limes' quality, which was little talked about, and asked why bars didn't recommend a better drink made with lemon, and tell the customer why (*PUNCH*; F7). Lemon is historically the commonest citrus in cocktails, because limes weren't widely available until the 1930s (Oxford, CITRIC ACID, pdf 466; F15).",
+      "kind": "ingredient",
+      "meaning": "The honest recommendation, with the reason given. The lemon isn't the stand-in: in cocktails it came first.",
+      "speaksTo": "Respect; Fairness; fear of Discourtesy"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Of where he started (\"undeveloped markets\"), Heugel said there was nobody at all he could talk to about drinks (*A Proper Drink*, p. 293; F10).",
+      "kind": "person",
+      "meaning": "Our reading only: he knew what it was to be left outside the conversation.",
+      "speaksTo": "fear of Exclusion; Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Spring 2014: Mexican limes were scarce and dear; the magazine blamed a bacterial disease and bad weather (*PUNCH*, the magazine's narration; F1).",
+      "kind": "context (not a mirror)",
+      "meaning": "The moment ordinary drinkers were about to pay more for the same drink.",
+      "speaksTo": "Fairness; fear of Chaos"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Jack Rose (applejack, lime, grenadine) was one of three popular drinks, with the Bronx and the Clover Club, that in the 1900s made it acceptable for a cocktail to contain citrus juice (Oxford, JACK ROSE, pdf 1089). Oxford calls it \"a solid classic\" (pdf 1090), and the *Cocktail Codex* prints it as a classic, made with straight apple brandy (p. 129). Card `jack-rose.md` F1, F7, F9; C1 (Oxford's base is applejack).",
+      "kind": "drink",
+      "meaning": "A classic in print by 1899: the kind you tell a friend how to make right.",
+      "speaksTo": "Belonging; drivers: build connection"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "By 1913, as the drink spread beyond downtown New York, its mixed citrus gave way to straight lemon or the trendier lime (Oxford pdf 1089; card F6).",
+      "kind": "lineage (the lemon)",
+      "meaning": "Lemon or lime was settled by taste and fashion in this drink's own past. Here it's settled by tasting.",
+      "speaksTo": "Respect; Fairness"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "*Codex*: the lime is the counterpoint that cuts the grenadine's richness (p. 129; card F9). Tomás's balance: lime in range only at 17.5 to 22.5 ml (15 and 25 OUT), and grenadine OUT at 22.5 ml (spec sweeps, 2026-10-06).",
+      "kind": "method (the measure)",
+      "meaning": "Our reading, on Tomás's numbers: the jigger, not a count of fruit, is what makes it the same drink every time, from any size of lime.",
+      "speaksTo": "Control; Fairness; drivers: provide structure"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Juice the odd-sized limes. Then make one for the friend who always guesses.",
+    "contains": [],
+    "glassware": "coupe (about 180 ml), chilled in the freezer",
+    "method": [
+      "Put a coupe in the freezer.",
+      "Squeeze a lime and a lemon. Taste a drop of each juice. Use whichever tastes better today, and if anyone asks, tell them why.",
+      "Measure 20 ml of that juice into a shaker with 17.5 ml (3½ teaspoons) of grenadine and 60 ml of apple brandy. Measured out, it makes no difference what size the lime was.",
+      "Shake hard with ice for about 12 seconds.",
+      "Strain into the cold coupe. No garnish."
+    ],
+    "name": "Word Gets Round",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "apple brandy",
+        "note": "a Calvados or an American straight apple brandy, 40 to 50%; not applejack, which is blended with neutral spirit"
+      },
+      {
+        "amount": "20 ml",
+        "item": "fresh lime juice",
+        "note": "measured, not counted: any size of lime will do, so buy the odd-sized ones if your shop sells them cheaper. Or use lemon, if the lemons taste better that day"
+      },
+      {
+        "amount": "17.5 ml",
+        "item": "grenadine",
+        "note": "made from pomegranate: equal weights of 100% pomegranate juice and sugar, shaken in a closed jar until the sugar has gone. If you buy it, check the label says pomegranate. Measure it as carefully as the juice"
+      }
+    ],
+    "tagline": "Nobody near you pays extra for not knowing."
+  },
+  "pairing": "regular-guy-ruler",
+  "personality": "The People's Champion",
+  "reading": {
+    "epigraph": "Limes are packed by size, a bartender said. Odd ones go cheap. Measures don't mind.",
+    "whoYouAre": [
+      "Your neighbour's parking fine came back cancelled, because you knew which sentence the appeal needed. A friend got their money back from the airline in one call, with you beside them saying what to ask for. You know which form actually gets read, and that you're allowed to ask for a name. All of it matters on the day a letter arrives and someone you love goes pale.",
+      "You'd rather not admit that you like knowing. It's a kind of power, though you wouldn't use the word. And when someone offers you a seat where things get decided, you come up with a reason to say no. Knowing this much already puts you near the side of the counter that says no. One step further, and you're afraid your own people would start to see you as one of them.",
+      "Because of you, people who'd have paid full price, signed the wrong thing or taken no for an answer didn't. You put what you know on the side of the people nobody told. That counts for a great deal more than you let it."
+    ],
+    "yours": [
+      "In the spring of 2014, limes in America suddenly got scarce and expensive. A drinks magazine blamed a bacterial disease and bad weather, and asked bartenders for advice. One of them was Bobby Heugel, who owned a bar called Anvil, in Houston.",
+      "He gave away a trick of the trade. Limes are packed by size, he explained, each case holding fruit that matches. The odd sizes left over, some as big as your fist, go into what the trade calls a packer's case, and by his account it sells for 30 to 40% less. Almost every distributor has them, he said, though maybe not so many in Houston any more, because he'd been spreading the word. Then he said one of the biggest troubles with that year's limes was their quality, and asked why bars didn't recommend a better drink made with lemon, and tell the customer why.",
+      "He wasn't a newcomer. He owned the bar, and he gave the saving away anyway: to his own city first, by his account, then to anyone who read the magazine. Of where he started, he once said there'd been nobody at all he could talk to about drinks. I like to think he remembered that. I think you would. You know what it's like to be the one nobody told, and you've made sure your own people never are.",
+      "The cocktail I've made for you is a Jack Rose, a classic worth knowing. I make it with apple brandy, fresh lime and grenadine, shaken hard, then poured into a coupe you've frozen first. It's rosy red, with warm apple under bright pomegranate and lime. The balance is narrow, so the lime and the grenadine are both measured, and the lime is never counted, as a nod to Heugel's trick: measured out, it makes no difference what size the lime was. Its grenadine is pomegranate juice with sugar dissolved in it. By 1913, the Jack Rose was being made with lemon, or with lime, the newer fashion, so that choice goes back a long way. If the lemons are better that day, use lemon, and tell whoever's drinking why.",
+      "Say yes when you're next offered a seat where things get decided. You're afraid it would put you behind that counter, on the side that says no. It needn't, as long as you keep telling your people everything you know. From there you'll have more to share, and more people to share it with."
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,117 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Each agave flowers once, on a stalk that can grow 20 cm a day, then dies; its pollen and nectar come at night, and bats do most of the pollinating (Oxford, AGAVE pdf 74).",
+      "kind": "ingredient",
+      "meaning": "The plant's one flower is its whole life's spending: a thing that's there once, and then gone.",
+      "speaksTo": "one true thing: grief in advance; \"gone\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "As tequila grew, producers stopped letting agaves flower; that took a main food from the nectar bats, whose migration paths shifted, and thinned the crop's genetic diversity (Oxford, AGAVE pdf 77).",
+      "kind": "story",
+      "meaning": "What everyone else was enjoying (more tequila) was quietly thinning something out.",
+      "speaksTo": "sees what's thinning while others enjoy it"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A flowered agave is lost to the still: the sugar goes to the flower's nectar and the plant \"is no longer useful for tequila production\" (Univ. of Gothenburg, 2024, on *Environmental Research Communications*); the ecologist Rodrigo Medellín said letting it bloom is \"considered a waste\", since it can't be harvested for tequila (*Edible Philly*, 2016).",
+      "kind": "cost",
+      "meaning": "Holding back isn't free: the flower is paid for with the harvest.",
+      "speaksTo": "the pull to take; it cost them"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "David Suro-Piñera, who produces tequila (Siembra Azul, \"Produced by David Suro\", *Codex* p. 164) and co-founded the Tequila Interchange Project, helped start the Bat Friendly programme with Medellín: at least 5% of the agaves left to flower, bats seen feeding (batfriendly.org; *Natural Areas Journal* 36(4), 2016).",
+      "kind": "person",
+      "meaning": "Someone inside the trade chose to leave some of the harvest standing.",
+      "speaksTo": "not taking; hands places back whole"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "One of his own tequilas, Siembra Valles Ancestral, is on the programme's first list, 2016 (batfriendly.org).",
+      "kind": "person",
+      "meaning": "He held his own bottle to it, not only other people's.",
+      "speaksTo": "not taking, in practice"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His reason, in his words: bringing back the bats' food came from \"the necessity of genetic strength\", healthier plants (*PhillyVoice*, 2023).",
+      "kind": "person",
+      "meaning": "Care for the wild and for the plant's future are the same act.",
+      "speaksTo": "gives: keeps a thing going for later"
+    },
+    {
+      "dossierOnly": true,
+      "fact": "He has given \"more than we can afford\" to the project, and wants it \"totally independent… run by new people\" (*Edible Philly*, 2016, his words).",
+      "kind": "person (dossier only, Wren r4)",
+      "meaning": "He built it and won't own it.",
+      "speaksTo": "loves things they refuse to own"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The lesser long-nosed bat came off the US endangered list in 2018, the first bat removed for recovery (EDF, 2018); it had many causes, and tequila is never credited. A second pollinator, the Mexican long-nosed bat, is still endangered (BCI, 2021).",
+      "kind": "caveat",
+      "meaning": "Something is still alive, and not all of it is safe: no doom, no rescue.",
+      "speaksTo": "fear: coming back to find it gone"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"The bats came back and the flowers were gone\" is our reading of Oxford's \"shift in their migratory paths\". Signpost with \"I like to think\".",
+      "kind": "inference",
+      "meaning": "The persona's own fear, handed to the bats.",
+      "speaksTo": "fear"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Nothing goes on top. Drink it while it's cold: you can miss it later.",
+    "contains": [],
+    "glassware": "a copita (a small tulip-shaped tasting glass), chilled, no ice",
+    "method": [
+      "Put the glass in the freezer for ten minutes, or fill it with ice and water while you mix.",
+      "Pour the tequila, the vermouth and the spoon of peach liqueur into a mixing glass or a jar.",
+      "Fill it with ice and stir with a long spoon for about 20 seconds, until the outside feels very cold. The melting ice is part of the drink: it adds about two-fifths to what you poured.",
+      "Empty the serving glass if you filled it, and strain the drink in. No ice, no peel, and nothing on top.",
+      "It's at its best in the first few minutes, while it's at its coldest."
+    ],
+    "name": "Left Standing",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "Siembra Azul Blanco tequila (recommended), or any 100% agave tequila blanco",
+        "note": "David Suro-Piñera's own blanco: the plant, and nothing from it but this"
+      },
+      {
+        "amount": "22.5 ml",
+        "item": "French-style blanc vermouth",
+        "note": "delicate and herbal"
+      },
+      {
+        "amount": "1 teaspoon (5 ml)",
+        "item": "crème de pêche (peach liqueur)",
+        "note": "one spoon only: fruit, not a flower"
+      }
+    ],
+    "tagline": "You'd rather know it's there than have it."
+  },
+  "pairing": "explorer-caregiver",
+  "personality": "The Conservationist",
+  "reading": {
+    "epigraph": "The plant behind this glass flowers once in its life. Most are harvested first.",
+    "whoYouAre": [
+      "Every time you return to a place you love, you're bracing before you arrive. The café that might have closed. The field that might be houses now. The woods at the end of the lane, with a car park where the gate was. Everyone else sees the view. You're counting what's left.",
+      "You start missing things while they're still here. So you touch them as little as you can. You don't pick the flower. The stone stays where it was. The path looks the way you found it. People sometimes take that for strictness, and you'd rather they did. It's easier than saying how much it hurts to watch something thin out while everyone around you is still enjoying it. And easier than admitting the fear under that one: that some day you'll be part of the reason it went. But here's what your care does, whether anyone thanks you or not. When other people arrive, there's still something there for them to love."
+    ],
+    "yours": [
+      "The agave, the plant tequila is made from, grows for years before it flowers, and it flowers only once. A stalk shoots up from its heart, sometimes twenty centimetres in a day. It makes its nectar at night, and bats come for it and carry the pollen. Then the plant dies. As tequila grew, producers stopped letting their agaves flower. A plant spends the sugar in its heart on that one flower, and once it has flowered it's no use to the still. Stopping the flowers took away a main food of the nectar bats, and their migrations shifted.",
+      "David Suro-Piñera produces tequila. With a bat scientist, Rodrigo Medellín, he helped start a programme that asks growers to let some of their agaves flower, at least five in every hundred, and to show that bats have fed from them. Letting them bloom, Medellín said, is \"considered a waste\": a plant that flowers can't be harvested for tequila. One of Suro-Piñera's own tequilas was on the programme's first list. And his reason, in his own words, wasn't only the bats. It was \"the necessity of genetic strength\": plants left to flower make the crop stronger for later. The lesser long-nosed bat, one of the agave's bats, came off the US endangered list in 2018, the first bat ever taken off because it had recovered. Its recovery had many causes.",
+      "The bats, I like to think, came back one year to the fields they'd always fed from and found the flowers gone. That's your fear, exactly. What Suro-Piñera asked for is what you already do everywhere you go: leave some of it standing, even when taking it would make perfect sense, so there's something there for whoever comes next. His reason is yours too. You don't hold back only because you're soft about wild things. You hold back because you feel responsible for what a place will be long after you've left it.",
+      "The cocktail I've made for you is a Martini, the drink with more poems and jokes to its name than almost any other, made with blanco tequila: the clear kind that never sees a barrel, made from agave alone. I'd pour Suro-Piñera's Siembra Azul, though it isn't the bottle on that first list. A delicate, herbal blanc vermouth goes with it. No peel, no garnish, so nothing is laid over the plant's own smell. Then one teaspoon of peach liqueur. When an agave flowers, its sugar goes to the nectar instead of the still, and I like to think that spoon is the sweetness the still never got. I chose fruit rather than a flower. You'd leave the flower where it grows, and a peach is there to be picked. It's served small and very cold, without ice, so it's at its best in the first few minutes. It asks you to pay attention while it's there.",
+      "You don't have to be the only one watching. The next place you're afraid of losing, don't go alone. Take someone and show them what you see: the thing that's thinning out, the one nobody else has noticed yet. Then there are two of you who'd notice if it went. And I think you'll find that watching it with someone feels less like grieving and more like what it really is: loving it while it's here."
+    ]
+  },
+  "status": "draft"
+}

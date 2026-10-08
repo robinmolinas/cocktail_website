@@ -1,0 +1,139 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Early in 2004 Dushan Zaric and Jason Kosmas left Schiller's and took its bar manager with them; two colleagues from Pravda, the same owner's bar, joined them. The owner, Kosmas said, \"was not happy with us.\" (*Proper* p. 155; Oxford pdf 721: five partners)",
+      "kind": "event",
+      "meaning": "They didn't leave alone. Others came with them.",
+      "speaksTo": "hidden: under the \"come on\" is \"please come\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "They opened that autumn in a former pastry shop in the West Village. From the first day, whoever was still there when the bar closed was given homemade chicken soup, free. (*Proper* pp. 155–156; Oxford pdf 721)",
+      "kind": "event",
+      "meaning": "The care went to whoever was still there.",
+      "speaksTo": "fear: kept only for the noise"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The food was partly business (Zaric had seen hungry customers leave Pravda) and partly where they came from: a European background, where eating and drinking went together. No page gives a reason for the soup itself. (*Proper* p. 155)",
+      "kind": "motive",
+      "meaning": "Told plainly, as food, partly business.",
+      "speaksTo": "honesty (Wren's condition 4)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Some of the other cocktail people, Kosmas said, looked at them as if they couldn't be serious \"because people are having too much fun there\". Among the cocktail elite the bar never had a name for the best drinks. (*Proper* pp. 156–157)",
+      "kind": "scorn",
+      "meaning": "The cost: written off for the fun.",
+      "speaksTo": "fear"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Zaric was plain about it. By his own account they weren't the best mixologists: \"We chose to play a different card in order to provide experience.\" (*Proper* p. 157)",
+      "kind": "person",
+      "meaning": "They never claimed to be the serious bar in disguise. The experience was the point.",
+      "speaksTo": "gift; guards the reveal (never \"secretly serious\")"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The staff stayed. Zaric put the very low turnover down to one thing: \"they feel they had a hand in creating this\", and he meant the waitresses and busboys too. Some of its bartenders have never worked anywhere else. (*Proper* p. 156)",
+      "kind": "mirror",
+      "meaning": "People stay where they had a hand in it.",
+      "speaksTo": "position; Wren's centre"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Simonson writes that the customers could sense how close and content the staff were. (*Proper* p. 156)",
+      "kind": "people",
+      "meaning": "The guests felt what the staff had.",
+      "speaksTo": "gift"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A colleague remembered Zaric as deep and intense and Kosmas as happy and easy-going; Simonson says they put both into one bar. (*Proper* p. 153)",
+      "kind": "person (optional)",
+      "meaning": "The loud room had both in it from the start.",
+      "speaksTo": "hidden"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "When other serious bars measured with jiggers, they poured by eye, served food and didn't shun vodka. (Oxford pdf 721; Kosmas, *Proper* p. 157)",
+      "kind": "rule (optional)",
+      "meaning": "The rules they broke were the scene's, and they broke them together.",
+      "speaksTo": "Outlaw limb. Near *Who's In?*: Wren's call"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford notes the bar's Manhattan adds curaçao. Curaçao turns up in some of the Manhattan's earliest printed recipes (Jerry Thomas's guide, 1887). (Oxford pdf 533; *Imbibe!* pdf 195; *Joy* pdf 330)",
+      "kind": "drink (optional)",
+      "meaning": "Only if Tomás keeps curaçao; never \"the original\", never their measures.",
+      "speaksTo": "none on its own"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Slice the beetroot yourself and leave the red on. Then ask someone to something dull, and keep whoever comes.",
+    "contains": [],
+    "glassware": "coupe (about 180 ml), chilled",
+    "method": [
+      "Peel and slice the beetroot with your bare hands. Your fingers will go red. Leave them.",
+      "Steep the slices in the sweet vermouth for about 12 hours, covered, then strain. It keeps in the fridge.",
+      "Put a coupe in the freezer.",
+      "Pour the rye, the beetroot vermouth, the curaçao and the bitters into a mixing glass or a jar.",
+      "Fill it with ice and stir for about 30 seconds, until the outside of the glass is very cold.",
+      "Strain into the cold coupe.",
+      "Squeeze the orange peel over the top so its oils fall on the drink, then drop it in."
+    ],
+    "name": "Accomplices",
+    "preparations": [
+      {
+        "text": "50 g peeled raw beetroot, thinly sliced, in 250 ml sweet vermouth. Cover and leave at room temperature for about 12 hours, then strain and keep it in the fridge.",
+        "title": "Beetroot sweet vermouth (makes enough for eight)"
+      }
+    ],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "straight rye whiskey",
+        "note": "any straight rye; proved from 40% to 50%"
+      },
+      {
+        "amount": "30 ml",
+        "item": "beetroot sweet vermouth",
+        "note": "sweet vermouth steeped with raw beetroot (below); the change I made"
+      },
+      {
+        "amount": "7.5 ml",
+        "item": "orange curaçao, dry style",
+        "note": "Employees Only's Manhattan adds curaçao; the measure is mine"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "1 strip",
+        "item": "orange peel"
+      }
+    ],
+    "tagline": "You don't get people into trouble. You get them to drop the act."
+  },
+  "pairing": "lover-outlaw",
+  "personality": "The Bad Influence",
+  "reading": {
+    "epigraph": "A New York bar put curaçao in its Manhattan. This one adds beetroot. It stains.",
+    "whoYouAre": [
+      "Two hours into a polite evening, you lean over and whisper, \"Coming?\" Twenty minutes later the two of you are sitting on a kerb with chips, laughing too loudly. Then they tell you something they've never told anyone. You weren't getting them into trouble. You were getting through to them.",
+      "People call you a bad influence, and you let them, because it's half true and it makes a better story. The rest of it: polite feels lonely to you. It keeps everyone at arm's length, you included. You don't want an audience. You want accomplices. Under every \"come on\" there's a \"please come\", and you'd rather raise the stakes than say that plainly. What you dread is being kept for the noise: loved as the wild one and never really known, or made sensible and quietly dropped. That's your gift: around you, people drop the act. They say the honest thing, the funny thing, and they like who they are when they're with you."
+    ],
+    "yours": [
+      "Early in 2004, Jason Kosmas and Dushan Zaric left their jobs at Schiller's, in New York, taking its bar manager with them. Two more colleagues joined them. The owner, Kosmas said, wasn't happy with them. That autumn the five opened Employees Only. They broke the scene's rules together: they poured by eye while other serious bars measured, and they served food.",
+      "Some of the other cocktail people, as Kosmas felt it, looked at them as if they couldn't really care about their drinks \"because people are having too much fun there\". Zaric was plain about it. They weren't the best mixologists, he said, and they \"chose to play a different card in order to provide experience\".",
+      "And from opening day, whoever was still there when the bar closed was given homemade chicken soup, free. The food was partly business: Zaric had seen hungry customers leave a bar he'd worked at before. Partly it was their European background, where food and drink belong together. And the staff stayed. Very few ever left. One reason Zaric gave: they felt \"they had a hand in creating this\". I like to think that's why your people stay too. Not for the noise, but because with you, they got to help make it. The dare is what they talk about. What they remember is that you wanted them there.",
+      "The cocktail I've made for you is a rye Manhattan, a classic the whole world knows, with curaçao (an orange liqueur), which Employees Only added to theirs. My change is the vermouth. It's steeped for about twelve hours with raw beetroot that you peel and slice yourself, and your fingers will go red. I put it there as a nod to that hand in it: you can't make this drink without it marking you. Stirred over ice, it goes into a coupe, a glass they used too. It tastes rich and smooth, earthy and sweet beneath the rye, with orange oil on top.",
+      "You don't have to keep raising the stakes to keep people. Some time soon, plan something with nothing to dare in it: a Sunday food shop, soup on the stove, a film you've both seen twice. See who's glad to be there. Those are your accomplices, and they always were. They'll still be around when nothing's happening, and you get to be known for more than the noise."
+    ]
+  },
+  "status": "draft"
+}

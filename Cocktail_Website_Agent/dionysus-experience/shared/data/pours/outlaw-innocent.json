@@ -1,0 +1,141 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Chartreuse is a monastic herbal liqueur made under Carthusian supervision, \"in the foothills of the French Alps for most of its history\" (Oxford pdf 439).",
+      "kind": "place",
+      "meaning": "Where the no was said.",
+      "speaksTo": "y1"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Chartreuse's cocktail \"golden age\" is the cocktail renaissance, and it \"probably has never been more popular\" (Oxford pdf 440, c. 2021).",
+      "kind": "popularity",
+      "meaning": "The world wanted more, right when they stopped.",
+      "speaksTo": "y1, y3"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 2021 the monks decided **not to increase** production, and in January 2023 a letter from Chartreuse to its trade partners (\"dear valuable partner\") announced allocation (*Daily Pour* 2023, quoting the letter; VinePair).",
+      "kind": "decision",
+      "meaning": "The refusal, dated. \"Not more\", never \"less\".",
+      "speaksTo": "y2, epigraph"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The letter's primary goal: \"protect their monastic life and devote their time to solitude and prayer\"; and the monks \"are not looking to grow the liquor beyond what they need to sustain their order\" (*Daily Pour*).",
+      "kind": "reason",
+      "meaning": "The no says what it's for. That's the reading's position.",
+      "speaksTo": "y2, y3, y5"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The same letter sets allocation to \"core and historical markets\" and protects bar channels (*Daily Pour*).",
+      "kind": "counterweight",
+      "meaning": "It's a trade letter too. The hype reading is owned as the bartender's own first thought, never denied and never claimed.",
+      "speaksTo": "y3"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Shortages in places, backorders, some bartenders using stand-ins (Aperol in \"The First Word\") (VinePair, anecdotal).",
+      "kind": "price",
+      "meaning": "The price of a no, paid in other people's disappointment. The order's lost sales are never stated.",
+      "speaksTo": "y2"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Armagnac is \"France's oldest commercial spirit\", older than cognac \"by at least 150 years\" (Oxford pdf 137).",
+      "kind": "base (ours)",
+      "meaning": "Our choice of base. The story claims nothing for it.",
+      "speaksTo": "y4"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "One tablespoon (15 ml) of yellow Chartreuse supplies most of the sugar in an Armagnac Old-Fashioned (spec v2; Codex p. 29, a sweet liqueur in place of sugar).",
+      "kind": "glass (ours)",
+      "meaning": "\"Only what's needed\", in the glass: our nod, signposted.",
+      "speaksTo": "y4"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Yellow Chartreuse's flavour is \"honeyed and herbal\" (*Codex* p. 188); the drink at 31.3% / 7.11 g sits just under Arnold's built centre (spec v2, `balance.py`): \"strong… only lightly sweet\", never \"dry\".",
+      "kind": "taste (ours)",
+      "meaning": "The glass described in the source's terms.",
+      "speaksTo": "y4"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The letter covers \"the Chartreuse liqueurs\", plural (C7): yellow is under the same allocation. The 43% and the product list are *The Daily Pour*'s narration (C10), not the letter.",
+      "kind": "allocation scope",
+      "meaning": "\"A bottle that's hard to find\" is true of the bottle in the glass.",
+      "speaksTo": "y4, Makeable"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "One level spoonful of the Chartreuse, and no more. Then pour one for someone who's only heard you refuse.",
+    "contains": [],
+    "glassware": "an old-fashioned glass, ice cubes",
+    "method": [
+      "Make the syrup ahead: stir the sugar into the hot water until it's completely clear, then let it cool.",
+      "Fill a level tablespoon with yellow Chartreuse and tip it into an old-fashioned glass. Add the half teaspoon of syrup and the bitters, then pour in the Armagnac.",
+      "Fill the glass with ice cubes and stir for about 20 seconds, until the outside of the glass feels cold.",
+      "Peel a strip of lemon peel about the length of your thumb, with as little of the white as you can. Hold it skin side down over the glass and squeeze it so its oils fall on the drink, then drop it in."
+    ],
+    "name": "Kept",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "Armagnac",
+        "note": "France's oldest commercial spirit, a grape brandy from Gascony; any blended VS or VSOP Armagnac at 40%. If yours is stronger, see the note below"
+      },
+      {
+        "amount": "15 ml (1 level tablespoon)",
+        "item": "yellow Chartreuse",
+        "note": "the Carthusians' herbal liqueur, and most of the drink's sweetness. One spoonful, and no more"
+      },
+      {
+        "amount": "2.5 ml (½ teaspoon)",
+        "item": "rich sugar syrup, homemade (below)"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "aromatic bitters (Angostura style)"
+      },
+      {
+        "amount": "1 strip",
+        "item": "lemon peel"
+      },
+      {
+        "amount": "",
+        "item": "*for the syrup:* 100 g white sugar, 50 ml hot water",
+        "note": "stir until clear and let cool; makes about 110 ml, keeps a month in a closed jar in the fridge"
+      },
+      {
+        "amount": "",
+        "item": "*stronger Armagnac (over 40%):*",
+        "note": "pour less of it and make up to 60 ml with cold water: 56 ml + 4 ml water at 43%, 53 ml + 7 ml at 45%, 50 ml + 10 ml at 48%, 46 ml + 14 ml at 52%, 43 ml + 17 ml at 56%"
+      }
+    ],
+    "tagline": "You can smell a fake from across the room. The real thing, too."
+  },
+  "pairing": "outlaw-innocent",
+  "personality": "The Adolescent",
+  "reading": {
+    "epigraph": "The makers of one bottle in this glass chose not to make more.",
+    "whoYouAre": [
+      "Everyone at the table is nodding along to something that isn't true, and you can feel your face giving you away. Not because you love an argument. You can spot something put on, and you've never learned how to stop noticing.",
+      "Underneath sits a promise, made a long time ago, about the person you'd never turn into. You check on it more often than anyone would guess. What scares you is how gently the change would come: nobody forcing you, no moment you'd notice, only your own good reasons, one after another, until you're someone you once swore you'd never be.",
+      "You never got used to it, and the people who live and work beside you are better off for it. When you say so, they remember what they meant before they stopped noticing. Without someone like you, a room can talk itself into almost anything."
+    ],
+    "yours": [
+      "Chartreuse is a monks' liqueur of herbs, made in the foothills of the French Alps. By around 2021 it had probably never been more popular. The new wave of cocktail bars had made it a favourite, and more and more people wanted it.",
+      "So, quietly, the monks decided not to make more than they already did. In January 2023, a letter from Chartreuse told the businesses that sell it that from then on there would only be a set amount for each of them. The first reason it gave was to protect the monks' life of solitude and prayer, and it said they had no wish to make more than the order needed to keep going. In many places, shelves emptied. Some bartenders who'd built drinks around it had to find stand-ins.",
+      "If you're suspecting a clever way to make a bottle more wanted, I wondered that too, at first. But the reason was put in writing, to the very businesses asking for more. Nobody was wrong to love it. I like to think the monks simply wouldn't turn into a bigger version of themselves, one with no room left for the life they'd chosen, and that their no wasn't there to push anyone away, only to hold on to something. I hear the same no in you.",
+      "So for you I chose the Old-Fashioned, as renowned as classics get, and built it on Armagnac, a French brandy older than cognac by at least a century and a half. Just one tablespoon of yellow Chartreuse goes in, and it does most of the sweetening, as a nod to the monks: one spoonful is all it needs. Stirred cold over ice with bitters, a strip of lemon peel squeezed over it at the end, it's deep, warm brandy with a honeyed, herbal edge: strong, golden and only lightly sweet. And a bottle that's hard to find goes a long way here.",
+      "Keep the promise. But most people know you by what you turn down. Let someone see what it's protecting: what you love, up close, before anyone gets the chance to argue. A refusal starts arguments. Something you love, shown to someone, tends to end them. And then you're known for what you love, not only for what you refuse."
+    ]
+  },
+  "status": "draft"
+}

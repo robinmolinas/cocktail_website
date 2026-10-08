@@ -1,0 +1,111 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Kazuo Uyeda, a Tokyo bartender from 1966, opened his own small bar, Tender, in Ginza in 1997. In a book he wrote in 2000 he said Westerners focus on results, while his tradition respects the process. (U F1, F4)",
+      "kind": "person",
+      "meaning": "The care lives in how a thing is made, not only in what it turns out to be.",
+      "speaksTo": "goal: Service · Wren"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Asked about his shake (by a London bar consultant, on a forum: physical motion or state of mind?), he said it was about fine bubbles that make a drink mellow and easy to drink. (U F5, secondary: relayed, quoted by Regan)",
+      "kind": "motive (on record, relayed)",
+      "meaning": "The method was for the person drinking, not for the one shaking. Label: \"he once told a colleague\".",
+      "speaksTo": "Wren"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "When he taught in New York, speaking through a translator (he spoke next to no English), a line of his (\"nobody can do the hard shake but me\", as Boehm reports it) was heard as a boast. The man who brought him says he meant: I can't do your shake; I can do my shake. In his own relayed words: \"I have my way, but it is not only the way.\" (U F6, F8)",
+      "kind": "turn",
+      "meaning": "Pride in the making, heard as selfishness, when it left room for everyone else's way. NO year (C2). NEVER \"the best\"/\"better\" (C1).",
+      "speaksTo": "fear: Selfishness · Wren"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Bartenders who tested shaking styles found essentially no difference in the drink (no \"later\": order vs the NY event unclear, U C2). (U F9)",
+      "kind": "test",
+      "meaning": "If used: the tests measured the drink. \"The care was never in the drink alone\" is the bartender's **I like to think**, never fact. Never \"pointless\". Klemm's \"show\" line: dossier only.",
+      "speaksTo": "Wren"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "One of Tender's signature drinks was a Gimlet (Oxford UYEDA names the Grasshopper as his signature), described as velvety and jade-coloured. (U F10)",
+      "kind": "glass",
+      "meaning": "Ours is a Gimlet in his honour, not his: the library doesn't say how he made his (cordial or fresh lime). Never \"his Gimlet\", \"his recipe\".",
+      "speaksTo": "Tomás"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Lime cordial began as a way to keep lime juice for long sea voyages; in 1867, the year British merchant ships were required to carry lime juice against scurvy, Lauchlan Rose of Edinburgh patented an alcohol-free way to preserve it. (R F1–F3)",
+      "kind": "ingredient (lineage)",
+      "meaning": "Optional, one clause at most. It was made to keep people well, far away. Rose's motive: not on record.",
+      "speaksTo": "goal: Service"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "*Flavor Matrix*, Citrus (pdf 80): caraway is listed among citrus's surprise pairings; citrus aroma is \"based largely on woody or pine aromas\", and \"citron\" comes from the Greek word for cedar. (Checked on screen, round 4.)",
+      "kind": "ingredient (spark)",
+      "meaning": "The unseen step: a seed nobody picks out, in a cordial made before anyone arrives. Tomás's row; pages checked. Matrix also: most citrus today is \"the result of centuries of careful breeding\" (same page, \"most varieties\", not every lime).",
+      "speaksTo": "Tomás"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Method: shake \"whatever way your arms like to shake\"; reading: \"however you shake\" (\"your way\" cut, round 6). Tests found style makes essentially no difference (U F9).",
+      "kind": "gesture",
+      "meaning": "Humility in the method, from his \"not only the way\". Our instruction, not his.",
+      "speaksTo": "Tomás"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "When someone says it's good, say caraway.",
+    "contains": [],
+    "glassware": "a coupe (a stemmed glass with a rounded bowl), chilled",
+    "method": [
+      "Make the cordial first, a day or an hour ahead. Peel the zest from 4 limes, just the green part. Squeeze the limes, and more if you need them, to get 150 ml of juice.",
+      "Put the sugar, the water, the zest and the caraway seeds in a small pan. Warm it gently, stirring, until the sugar has disappeared. Don't let it boil.",
+      "Take it off the heat, stir in the lime juice and leave it for 20 minutes.",
+      "Strain it through a fine sieve into a clean bottle and keep it in the fridge. It's best within a week.",
+      "When it's time, put a coupe in the freezer, or fill it with ice and water while you mix.",
+      "Pour the gin and the cordial into a shaker, fill it with ice and shake hard for about 10 seconds, whatever way your arms like to shake.",
+      "Empty the glass if you filled it, and strain the drink in. No garnish."
+    ],
+    "name": "Not Only the Way",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "London dry gin (40% or stronger)"
+      },
+      {
+        "amount": "45 ml",
+        "item": "lime and caraway cordial, homemade (below)",
+        "note": "the part nobody sees, and the whole of the balance"
+      },
+      {
+        "amount": "",
+        "item": "*for the cordial:* 150 ml fresh lime juice, 90 g sugar, 90 ml water, the zest of 4 limes, 1 tsp caraway seeds",
+        "note": "some London dry gin makers used caraway the same way: a little, to accent the flavour, not change it"
+      }
+    ],
+    "tagline": "You'd never call it pride. You'd call it doing it properly."
+  },
+  "pairing": "caregiver-creator",
+  "personality": "The Craftsman",
+  "reading": {
+    "epigraph": "Two things in this glass. The second was made before anyone asked for it.",
+    "whoYouAre": [
+      "You have a way of doing things. How a shelf goes up, how a sauce is started, how the spare bed gets made for someone coming to stay. There's an order to it, and you keep to it when you're the only one there. Especially then. Whoever sleeps in that bed will never know about the corner you tucked twice. They'll just sleep well, that's how you share that you care, and that's enough for you.",
+      "What you rarely say out loud is how proud you are of it. Pride feels like making it about you, so you call it \"just doing it properly\" and give the credit to the thing. And once or twice, explaining your way, you've watched someone hear \"my way is better\". You never meant that. You meant: this is the way I know how to look after you."
+    ],
+    "yours": [
+      "Kazuo Uyeda began working behind a bar in Tokyo in 1966, and in 1997 opened his own, Tender, in Ginza, a district where a drink can take a quarter of an hour to arrive. He spent years on a way of shaking that sends the ice round the shaker in a pattern instead of back and forth. It's known as the hard shake: hard to master, not hard on the arm. He wrote that in the West people look at results, while in Japan, at heart, they \"respect the process\".",
+      "When he showed it in New York, he spoke next to no English, and a translator was used. What reached the room was \"Nobody can do the hard shake but me\", and people heard a boast. The man who brought him over says he meant something humbler: \"I can't do your shake. I can do my shake.\" Asked about it once, he said it was about fine bubbles that make a drink \"mellow and easy to drink\". And he added, \"I have my way, but it is not only the way.\" When bartenders tested it, they found that a good, vigorous shake of any style makes much the same drink.",
+      "I don't read that as the end of his story. I like to think it's the heart of it. The care was never only in the drink. It was in holding himself to his way for whoever sat down in front of him, and leaving room for everyone else's. That's you. Proud of how you do it, and glad when someone else does it their own way.",
+      "One of his signatures was a Gimlet, a renowned classic, \"velvety\" and jade-green. \"Not Only the Way\" isn't exactly his: it's gin and a lime cordial you make yourself. Lime cordial was first made to keep lime juice good on long sea voyages. In the cocktail I've made for you, the cordial is sugar, water, lime zest and a teaspoon of caraway seeds, the kind in some rye breads, warmed until the sugar disappears. Then fresh lime juice goes in off the heat, and it all steeps for twenty minutes. Nobody will name the caraway. It's just why the lime tastes rounder. Made once, it waits in the fridge for the next six people. Then you shake it however you shake.",
+      "When someone thanks you for something you made, I think I know what you say: \"oh, it was nothing.\" I'd like you to stop saying it. Give them the order you did it in, the corner you tucked twice. That isn't boasting. People love to hear that you've cared for them. Your method provides comfort and support to them, value it. It's the only part of the gift they'd never know to ask about."
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,117 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Joe Scialom (1910–2004), an Egyptian-born chemist educated in Paris, left a pharmaceutical career in 1938 to tend bar at Shepheard's Hotel, Cairo. (F1, F2; Oxford pdf 1767)",
+      "kind": "person",
+      "meaning": "He left medicine and kept the job of making people feel better, only now it came with a laugh. **His motive is not on record**: \"I like to think…\" only.",
+      "speaksTo": "goal: Service"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His signature was a hangover cure built on gin and brandy, the Suffering Bastard. (F4; Oxford pdf 1767; *Proper* p. 264, \"a sort of hangover cure for his guests\")",
+      "kind": "drink",
+      "meaning": "The care was for the morning after, the worst hour, and the name is a joke about that hour (our reading: whether it made anyone laugh is not on record). **Who named it is not on record (L2)**: \"I've never found out who named it\" (true of us; in v3), never \"nobody knows\" and never \"he named it\".",
+      "speaksTo": "goal: Service · Jester: Humor"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "As Jeff Berry tells it (Oxford pdf 1767): one morning in October 1942 his regulars from the Eighth Army were sent to El Alamein after a marathon night at the bar; from the front they cabled him for the cure; he sent four gallons in Thermoses by taxi. (F5)",
+      "kind": "story (Berry's account)",
+      "meaning": "He went to where it was worst, with exactly what they'd asked for. Always attributed (\"as Jeff Berry tells it\"). The year lives only inside the attribution: *Proper* p. 264 dates the drink to \"the late '40s\" (C1). \"Regulars\", not \"officers\": the page doesn't say what rank they were.",
+      "speaksTo": "fear: Selfishness (turned to service) · drivers: Build connection"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The drink helped win the battle: the journalists at the bar seized on that story; Oxford calls it highly unlikely. (F6, L1)",
+      "kind": "legend (labelled)",
+      "meaning": "The joke got remembered, and the care got delivered. Told only as the journalists' version, and denied in the same breath.",
+      "speaksTo": "Jester: Humor · fear: Selfishness"
+    },
+    {
+      "dossierOnly": true,
+      "fact": "The press that came from it made his career: corporate mixologist for Hilton International, then Manhattan bars, until 1977. (F7)",
+      "kind": "after (optional)",
+      "meaning": "Dossier only. The joke outlived the war. Not needed in the reading, and it risks a museum label.",
+      "speaksTo": "n/a"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Ours keeps his gin-and-brandy base (F4, Oxford pdf 1767) and replaces the rest: fresh lime for cordial, a cooked ginger and toasted cumin syrup (adapted from the Matrix Ginger Mule syrup, pdf 135) plus soda for ginger beer. Cooking turns raw ginger's gingerol into zingerone, \"less spice and a strong pine aroma\" (Matrix pdf 132).",
+      "kind": "drink (ours)",
+      "meaning": "\"The gin and brandy together are his. The rest is mine.\" Never \"his recipe\", \"the way he made it\" or \"the original\" (C2: two printed versions disagree). The Matrix supports *less sting*, not *warmth*: warmth is Ryu's, signposted.",
+      "speaksTo": "goal: Service · Jester: Humor"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Add the soda when you get there. Then let them do the talking.",
+    "contains": [
+      "spice"
+    ],
+    "glassware": "tall glass (highball), full of ice",
+    "method": [
+      "**The syrup (the day before, or an hour ahead).** Toast a teaspoon of cumin seeds in a dry saucepan for about a minute, until you can smell them. Add a 10 cm piece of fresh ginger, peeled and thinly sliced, plus 480 ml water and 200 g sugar. Bring to a boil, then simmer for 5 minutes, stirring until the sugar has dissolved. Take it off the heat, cover it and let it cool. Strain into a clean bottle and keep it in the fridge. It makes about 560 ml.",
+      "Fill a tall glass with ice. Pour in the brandy, gin, lime juice, syrup and bitters, and stir for a few seconds.",
+      "Pour the cold soda water on top, then give one slow stir, lifting from the bottom.",
+      "Clap the mint sprig once between your palms and tuck it in beside the ice.",
+      "**To take it to someone:** mix everything except the ice and soda in a clean bottle and keep it cold. Add the ice and soda when you get there, because soda goes flat in a bottle. The lime is best the same day."
+    ],
+    "name": "Worth the Trip",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "30 ml",
+        "item": "brandy (cognac or any VS grape brandy)",
+        "note": "the brandy and gin together are the Suffering Bastard's; the rest is mine"
+      },
+      {
+        "amount": "30 ml",
+        "item": "London dry gin",
+        "note": "the other half"
+      },
+      {
+        "amount": "20 ml",
+        "item": "fresh lime juice",
+        "note": "squeezed the same day"
+      },
+      {
+        "amount": "35 ml",
+        "item": "cooked ginger and cumin syrup",
+        "note": "homemade, below, adapted from the *Flavor Matrix*'s ginger syrup; anything from 30 to 40 ml keeps it balanced"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "100 ml",
+        "item": "soda water, cold",
+        "note": "poured on last"
+      },
+      {
+        "amount": "1 sprig",
+        "item": "fresh mint",
+        "note": "give it a clap between your hands so it smells as you drink"
+      }
+    ],
+    "tagline": "You always make them laugh at the wrong moment, but it's actually always the right one."
+  },
+  "pairing": "caregiver-jester",
+  "personality": "The Reassurer",
+  "reading": {
+    "epigraph": "The story goes that the drink behind this one reached the front by taxi.",
+    "whoYouAre": [
+      "When something goes badly for someone, you're the one who says the thing that makes them laugh. Not straight away. You wait. You read them first, you work out how bad it is, and sometimes you keep the line to yourself because it's too early. Then, at the right moment, you say it, and for a second everything weighs a little less. They laugh, they're half embarrassed to be laughing, and then they breathe out.",
+      "People sometimes take it to mean you don't take things seriously. It's the other way round. You don't joke because it isn't serious. You joke because it is. The worry underneath it all is that the joke was really for you, to make it easier to stand there. It wasn't. It was how you told them you'd seen exactly how bad it was, and that they weren't in it alone."
+    ],
+    "yours": [
+      "Joe Scialom trained as a chemist. In 1938 he left a career in pharmaceuticals to tend bar at Shepheard's Hotel in Cairo, and his signature drink there was a cure for the morning after. It was called the Suffering Bastard. I've never found out who named it. I like to think it was someone fond of the people drinking it, because that's the only way you can call someone that.",
+      "As Jeff Berry tells it, one morning in October 1942 his regulars from the Eighth Army were sent out to El Alamein after a long night. From the front, they cabled Scialom for the cure. He sent four gallons of it in Thermoses, by taxi.",
+      "The journalists at the bar seized on it, and the version they printed was that his drink helped win the battle. Maybe, but it almost certainly didn't. The battle is the part that gets repeated. I'd rather tell you about the taxi.",
+      "The taxi is the part I think is yours. People remember that you made them laugh, it's your method of delivery. They don't always notice that you came to where it was worst, with exactly what they needed, and that the laugh was how you delivered it. So this one is long and bright, and the soda goes on last, so the lift is the first thing anyone notices. Under it, the ginger is cooked, which takes some of the bite out, and I like to think that's what makes it feel warm rather than sharp. There's a little toasted cumin under the ginger. The gin and brandy together are his. The rest is mine, and it's made to travel: you bottle everything but the soda, and the fizz comes last, once you're there.",
+      "The laugh is how you get in. Don't let it become how you get out. When the laugh comes, don't reach for the second line. Let the quiet after it happen. You're good company there too, without saying a thing."
+    ]
+  },
+  "status": "draft"
+}

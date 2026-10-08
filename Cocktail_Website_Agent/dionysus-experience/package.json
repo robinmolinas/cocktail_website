@@ -3,10 +3,16 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
   "scripts": {
     "dev": "vite",
     "validate:images": "node scripts/validate-persona-images.mjs",
-    "build": "npm run validate:images && tsc -b && vitest run && vite build",
+    "import:pours": "node --experimental-strip-types scripts/import-pours.ts",
+    "import:pours:check": "node --experimental-strip-types scripts/import-pours.ts --check",
+    "import:pours:fresh": "node --experimental-strip-types scripts/import-pours.ts --check --if-sources",
+    "build": "npm run validate:images && npm run import:pours:fresh && tsc -b && vitest run && vite build",
     "test": "vitest run",
     "lint": "eslint .",
     "preview": "vite preview"

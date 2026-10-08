@@ -1,0 +1,115 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The hospice's canons and their servants went out for travellers lost or trapped in snow; over time the canons began taking dogs with them. (NMBE, F7; secondary)",
+      "kind": "story",
+      "meaning": "The rescuers were people, and the dogs went with them.",
+      "speaksTo": "Going out before anyone asks"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The dogs' main role was finding the way back to the hospice in heavy blizzards. (NMBE, F5)",
+      "kind": "story",
+      "meaning": "The real work was knowing the way home in the chaos, not carrying anything.",
+      "speaksTo": "Order brought into chaos"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Barry \"is said to have\" helped rescue 40 people (museum's hedge). (NMBE, F4)",
+      "kind": "story",
+      "meaning": "Keep the hedge in the reading.",
+      "speaksTo": "Service"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The brandy keg on the collar: a legend. No painter named (origin unverified). (card L1)",
+      "kind": "legend-struck",
+      "meaning": "The famous version has the help wrong.",
+      "speaksTo": "The truer story first"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"Killed by a French soldier who mistook him for a wolf\": the museum calls it a legend. (NMBE, F3)",
+      "kind": "legend-struck",
+      "meaning": "He wasn't lost to the rescue.",
+      "speaksTo": "Fear of being the one who's lost"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He spent his last two years in retirement, brought to Bern at the prior's request, and died there in 1814. (NMBE, F1–F2)",
+      "kind": "story",
+      "meaning": "The rescuer was allowed to stop.",
+      "speaksTo": "Letting someone else take over"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"Someone looked after him\": not on the page. Only as \"I like to think…\".",
+      "kind": "inference",
+      "meaning": "Wren's position, signposted.",
+      "speaksTo": "Being the one who needs help"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The hospice's own table (food, drink for travellers): nothing sourced in the library or NMBE. No anchor.",
+      "kind": "none",
+      "meaning": "The drink cannot claim a hospice origin.",
+      "speaksTo": "—"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Two minutes for the thyme. Spend them sitting down.",
+    "contains": [],
+    "glassware": "a wide teacup (about 250 ml), warmed with hot water first; not a tall mug",
+    "method": [
+      "Fill the teacup with hot water to warm it, then pour that water away.",
+      "Put the honey and the thyme sprigs in the cup. Press the thyme into the honey with the back of a spoon a few times, just enough to bruise it.",
+      "Pour in 110 ml of water that has just come off the boil and stir until the honey has disappeared.",
+      "Leave it for two minutes. Then lift the thyme out.",
+      "Stir in the whiskey.",
+      "Hand it over while it's hot."
+    ],
+    "name": "Off Duty",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "Irish whiskey (40–46%)",
+        "note": "no brandy in this one, and that's on purpose"
+      },
+      {
+        "amount": "2 level tsp (10 ml)",
+        "item": "runny honey (clover or wildflower)"
+      },
+      {
+        "amount": "2",
+        "item": "fresh thyme sprigs",
+        "note": "in for two minutes, then out: the part somebody else has to wait for"
+      },
+      {
+        "amount": "110 ml",
+        "item": "water, just off the boil",
+        "note": "just under half a cup"
+      }
+    ],
+    "tagline": "Everyone else is still deciding. You've already gone."
+  },
+  "pairing": "caregiver-hero",
+  "personality": "The Rescuer",
+  "reading": {
+    "epigraph": "Nobody makes this one for themselves. And it won't wait.",
+    "whoYouAre": [
+      "Something goes wrong: a fall on the stairs, a phone call at two in the morning, a friend's voice that isn't quite right. By the time anyone else has decided what to do, you're already moving. You don't feel brave. You feel clear. You're the one saying \"you call, you hold this, stay with them\", and it's the surest you ever feel.",
+      "Nobody sees the part that comes later. When everyone's safe and home, your hands start to shake, or you lie awake until four. And the quiet weeks can be harder than the bad nights, because with nobody to go out for, you're not sure what you're for. Standing back has always felt to you like the worst kind of selfishness. So you've never let anyone come out for you. You'd rather be the one who comes."
+    ],
+    "yours": [
+      "The hospice on the Great St Bernard Pass has been run by canons since the eleventh century, and they and their servants went out into the snow to find travellers who were lost. Over time they began taking dogs with them. The picture everyone knows is a dog with a little barrel of brandy on its collar. It's a lovely picture, and almost certainly a legend. The dogs' real work was plainer: finding the way back to the hospice through a blizzard.",
+      "The most famous of them was Barry. He is said to have helped rescue forty people. There's a story that he was killed by a French soldier who mistook him for a wolf, and the museum in Bern that keeps him calls that a legend too. What's on record is quieter. Barry retired for his last two years, was brought to Bern at the prior's request, and died there in 1814.",
+      "We don't know who looked after him in those two years, but I like to think someone did: that after all the nights of going out, someone else finally did the going, and he let them. The rescues get told. That part doesn't. You know the first part by heart. Finding the way back through the worst of it is the one thing you never doubt. It's the second part you've never allowed.",
+      "So this isn't a drink you carry out to anyone. It's a hot one: Irish whiskey, and a little honey stirred into hot water, in a wide cup. Two sprigs of thyme sit in the honey and water for two minutes and come out before the whiskey goes in, and whoever's making it waits with you. There's no brandy in it, and that's on purpose. And it's hot for one reason: it doesn't last. Put it aside for a better moment and the moment's gone. It has to be made for you, and you have to be there when it's ready.",
+      "You won't ask for help in a crisis. I know that, and I'm not going to argue with it. So turn it round. On some ordinary evening, when nothing's wrong and nobody needs you, let someone make you this, and sit down while they do. Let them do the going, just once."
+    ]
+  },
+  "status": "draft"
+}

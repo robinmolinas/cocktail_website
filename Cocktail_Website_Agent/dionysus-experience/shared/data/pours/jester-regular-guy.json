@@ -1,0 +1,129 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Scots and Irish drinkers already washed a whisky down with beer or ale. American drinkers chased whisky with iced water and thought beer an outlandish substitute. (F3)",
+      "kind": "habit elsewhere",
+      "meaning": "What's ordinary on one side of the sea is odd on the other. **Reading:** \"In Scotland and Ireland it was already ordinary\" (Q1). The oddness was American, not one saloon's (C3b). Never \"whole countries\" (A11) or \"all along\".",
+      "speaksTo": "one true thing: what feels like one person's oddity is already ordinary somewhere; drawnToward: Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "About fifty years later the *New York Herald* printed a story about a man who ordered beer and whisky together in a New York saloon, and the consternation it caused the bartender and the regulars. One of the regulars says they've heard of strange drinks in their time. (F5; Oxford pdf 306, citing 5 Apr 1896)",
+      "kind": "the order (core)",
+      "meaning": "One person orders, in front of the regulars, and they find it strange. It rests on Oxford alone (C1): no plot, no \"comedy\", no gloss on \"A False Alarm\". \"Dismay\" is fine (A5). No inner state (\"what felt natural\", A10), no gender for the regular (A6), no \"queer\", no \"side by side\".",
+      "speaksTo": "the guest is the 1896 man: early, not odd; fear: Exclusion, being the only odd one; position seed (say \"I do this\")"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Habits changed, the pair became less outlandish, and by the 1930s it had a name that stuck. (F6, F8)",
+      "kind": "turned ordinary",
+      "meaning": "Early, not alone. \"Within a few decades\" is fine. Never \"common enough to need a name\" (A11). The 1930s date is said once (Q2 note).",
+      "speaksTo": "goal: Belonging; gravity: Social"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The first form of the name was \"Boilermaker and His Helper\", after a skilled metalworker and the extra muscle working beside him; by the 1940s it was just \"Boilermaker\". (F8)",
+      "kind": "the name",
+      "meaning": "A name taken from ordinary work. No namer (C4; the union says nobody knows, F15).",
+      "speaksTo": "texture only; trap: \"His Helper\" is the Straight Man's shape; no namer"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In December 1933 a Yonkers columnist, William A. Spring, under the subhead \"The Bartenders Guyed\", wrote up about sixty of his town's bartenders by name, each with a specialty and, for most, a one-line joke or compliment. The column hedges \"if the licenses come through\". One line reads only: \"Dave Ray—Boilermaker and His Helper.\" (F14, OCR; C2)",
+      "kind": "the column (second beat)",
+      "meaning": "At the table, naming everyone, with the joke on all of them at once, and the plainest drink gets the one line with no joke (\"I like to think\" carries why). Spring is named before any \"his\" (A9). \"Every bartender in town\", never \"a whole town\" (A13). \"December 1933\", no day. Never \"first\". No word \"Prohibition\".",
+      "speaksTo": "one true thing in a person: at the table, not the head of it; names what everyone sees, with the joke on all of them at once; soughtFor: Honesty; gravity: Social, Grounded; \"fondly\" signposted"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The revival brought it back as a menu item, with spirits and beers paired in creative ways, some still a shot of rye and a glass of lager. (F11)",
+      "kind": "back on menus",
+      "meaning": "The ordinary order is worth having now. Paraphrase Oxford; \"renowned\" is ours and isn't used; \"good\" is the bartender's word (A14).",
+      "speaksTo": "drink worth having; gravity: Classic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 1948 Billy Rose explained the name to his readers as straight rye with a beer chaser. (F9)",
+      "kind": "the whiskey",
+      "meaning": "Rye is the story's own whiskey, and it comes first, then the beer (the closing line, D8). Spec: 45 ml of straight rye, 50% if possible, never under 45%.",
+      "speaksTo": "drink: straight rye, the name's own whiskey"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The *Flavor Matrix* lists beer as a surprise pairing for stone fruit, with apricot among its main subtypes (pdf 236). The *Codex* starts dried fruit at 1:4 by weight to the spirit (p. 99) and has you taste an infusion often, strain it and refrigerate it (pp. 94–95). Spec: 60 g of chopped dried apricots to 250 ml of rye, six to eight hours, strained.",
+      "kind": "spark (Tomás)",
+      "meaning": "Something from the cupboard, inside the plain order. **Reading:** \"you find it when you taste it\" (Q3), never \"only\". The effect on taste is Tomás's or signposted (A15). Apricot with rye is his craft call, and so is the 6–8 hour room-temperature steep (D2). No aroma claim for dried fruit. Not \"an afternoon\" (D3), \"overnight\" or \"a day ahead\".",
+      "speaksTo": "Tomás"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "`gluten` (undistilled beer). `nuts` ruled out 2026-10-06 under Robin's evidence rule (no source says dried fruit is packed with nuts; *Codex* p. 37's \"botanically related\" is a flavour note).",
+      "kind": "allergens",
+      "meaning": "Guest text says only \"If you avoid nuts, check the pack for a nut warning\": the guest's own pack label is the evidence that counts. Never \"dried fruit is often packed with nuts\" as fact.",
+      "speaksTo": "Tomás"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "A sip of the rye, then the beer. And when you tell your story, start with \"I\".",
+    "contains": [
+      "gluten"
+    ],
+    "glassware": "small stemmed glass (about 90 ml) for the rye, room temperature; tall pilsner glass (about 400 ml), chilled, for the beer",
+    "method": [
+      "Chop the dried apricots and put them in a clean jar. Pour the rye over them, close the jar and shake it.",
+      "Leave it at room temperature for six to eight hours, shaking now and then. From the fourth hour, taste a drop every hour or so. Strain it when the rye tastes clearly of apricot but still tastes of rye.",
+      "Strain it through a sieve lined with a paper coffee filter into a clean bottle. Keep it in the fridge, and take it out a little before you pour.",
+      "Chill the pilsner glass in the freezer for ten minutes. Tilt it, pour the beer down the side, then straighten the glass at the end so it finishes with a finger of foam.",
+      "Pour 45 ml of the apricot rye into the small glass. Set the two down next to each other.",
+      "Sip the rye, then the beer. Nothing goes in either glass."
+    ],
+    "name": "Is It Just Me",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml (1½ oz)",
+        "item": "apricot rye (below)",
+        "note": "straight rye whiskey, 50% if you can find it, nothing under 45%"
+      },
+      {
+        "amount": "330 ml (a bottle)",
+        "item": "German-style pilsner, very cold",
+        "note": "a pale, crisp, bitter lager; any brewery"
+      },
+      {
+        "amount": "*for the apricot rye*",
+        "item": ""
+      },
+      {
+        "amount": "250 ml",
+        "item": "straight rye whiskey, 50% (or at least 45%)",
+        "note": "the whiskey the name meant in 1948: \"straight rye with a beer chaser\""
+      },
+      {
+        "amount": "60 g (8 to 10)",
+        "item": "dried apricots, chopped",
+        "note": "straight from the kitchen cupboard; strained out before serving. If you avoid nuts, check the pack for a nut warning."
+      }
+    ],
+    "tagline": "You say what everybody does. Suddenly nobody's the only one."
+  },
+  "pairing": "jester-regular-guy",
+  "personality": "The Stand-up",
+  "reading": {
+    "epigraph": "A whiskey with a beer. In 1896, a newspaper thought that was worth a story.",
+    "whoYouAre": [
+      "You're the one who says it. Not the clever thing, the true one: that everybody waves back at someone who was waving at the person behind them, that everybody answers \"you too\" when the waiter says \"enjoy your meal\". There's half a second of quiet, then the whole table laughs, and somebody says, \"I thought that was just me.\" That's the sound you're after. An evening where everyone stays polite and nobody admits to anything is your idea of a very long night.",
+      "You keep one part quiet. Every one of those starts with you. You're the one who waved back. You say \"everybody does this\" because it's kinder, and safer, than \"I do\". So you're always in the joke, and hardly ever what it's about. Somewhere under the laughing is a small worry that one day you'll say it and the table will go quiet, and it really will be only you. It hardly ever is. And people go home feeling a little less strange than when they came. You did that, with one true sentence."
+    ],
+    "yours": [
+      "A whiskey with a beer beside it looks too simple to have a history. In America, though, it came late. Scots and Irish drinkers already followed their whisky with a beer, but Americans used iced water, and thought beer an odd thing to chase it with. Then a newspaper, the *New York Herald*, ran a story in 1896 about a man who walked into a saloon and ordered both, and about the dismay of the bartender and the regulars. One of the regulars said they'd heard of strange drinks in their time.",
+      "He was early, not odd. Habits changed, and by the 1930s the order had a name that stuck: \"Boilermaker and His Helper\", after a skilled metalworker and the extra muscle who worked beside him. In December 1933, a Yonkers columnist named William A. Spring, whose town's bars were still waiting for their licences, wrote up about sixty local bartenders by name, each with a specialty and, for most, a one-line joke or a compliment. One line reads, in full: \"Dave Ray—Boilermaker and His Helper.\" There's no joke on it at all, and I like to think Spring knew the plainest drink in town didn't need one.",
+      "I like to think of that man in 1896 as someone you'd get on with. He ordered it at the bar, in front of the regulars, and they found it strange. It wasn't only his. That's what you do at a table. You say the thing everybody does, and it stops being one person's oddity and becomes everyone's. Spring did it to every bartender in town in one column, with the joke on all of them at once.",
+      "The cocktail I've made for you is that order, done properly: a straight rye, which is what the name meant in 1948, and a very cold German-style pilsner, a pairing that's back on bar menus now. Two glasses, nothing in between, as plain as Dave Ray's line. My one change comes from the kitchen cupboard: a handful of dried apricots, chopped and left in the rye for several hours, then strained out. Beer is one of stone fruit's surprising partners, and I like to think the cold, bitter beer brings the apricot forward. The apricot is inside the rye, and you only find it by tasting. That's how your best lines work: they sound like everybody's, and underneath they're your own.",
+      "So swap one word. When you catch yourself saying \"everybody does this\", say \"I do this\" instead. The laugh still comes, I promise, and this time you're inside it, not telling it. People enjoy you for the joke. They feel close to you for the confession. And you'll find what that order in 1896 turned out to show: it was never just one person's."
+    ]
+  },
+  "status": "draft"
+}

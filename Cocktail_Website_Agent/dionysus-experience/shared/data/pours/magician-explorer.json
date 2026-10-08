@@ -1,0 +1,113 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Coffey's first stills were wood and iron, one column; \"soon replaced\" by two copper columns with perforated copper plates (Oxford, COFFEY, AENEAS, pdf 541). Undated; one prototype design on the page, no count.",
+      "kind": "story",
+      "meaning": "The trying happens where it can still be changed; the finished version is the one in copper (our reading, signposted).",
+      "speaksTo": "the hundred reversible tries; the gift of the better version"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He had spent 24 years in the excise, from the lowest grade (1800) to inspector-general of excise in Ireland, and left it in 1824, at forty-four, to buy a Dublin distillery, Dodder Bank (pdf 541; pdf 752 \"until 1824\"). Before any patent (C1: 1828/1830/1831).",
+      "kind": "story",
+      "meaning": "The irreversible step came first, before the result was proven. That he couldn't go back is our reading.",
+      "speaksTo": "the fear of the last step; the position"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford's own \"better\": simpler, sturdier, easier to make, cheaper to heat, a stronger and purer spirit (pdf 541); more effective than Stein's (pdf 2169); easier to install than Cellier-Blumenthal's (pdf 1901). He \"greatly improved\" Stein's design (pdf 541).",
+      "kind": "story",
+      "meaning": "Better in the still's terms, not \"better whisky\". Made from a design others had started.",
+      "speaksTo": "the gift: an ordinary thing, returned better"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The leading Irish distillers \"initially scorned\" it; in 1878 the four big Dublin firms printed that these stills yield whiskey no more than wine or beer (pdf 541, *Truths about Whiskey*).",
+      "kind": "story",
+      "meaning": "The doubters on record; date the quote 1878.",
+      "speaksTo": "the hidden hope (kept quiet until proven)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Within ten years of the patent, thirteen Irish distilleries had it; Scotland's first was Grange in 1834, eleven more by 1850 (pdf 541). It made continuous distillation commercially viable (COFFEY STILL, pdf 543).",
+      "kind": "story",
+      "meaning": "Once it was out, it could not be taken from him: the result held.",
+      "speaksTo": "the position: a result nobody can take from you"
+    },
+    {
+      "dossierOnly": true,
+      "fact": "Its spirit was \"purer (and thus blander)\" (pdf 2169); Ireland resisted \"successfully\" (1887: 5 of 28, export only, pdf 2153).",
+      "kind": "counterweight (dossier)",
+      "meaning": "Never \"everyone came round\" or \"the doubters were wrong\"; Scotland, not Ireland, took it up.",
+      "speaksTo": "guard"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Coffey's still was \"adapted to distilling grain\" (pdf 541); Scotch grain whisky is made in column stills, today mostly from maize or soft winter wheat with some malted barley (WHISKY, GRAIN, pdf 2149). The base is a style; its grain depends on the bottle. On its own it \"easily disappears in a mixed drink\" (pdf 2149).",
+      "kind": "lineage",
+      "meaning": "The base is the still's spirit, not the 1830 recipe: no page names what Coffey's own still ran on.",
+      "speaksTo": "the drink"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Stop stirring once the glass is frosted: every turn after that adds water. Then let whatever you've been adjusting go out as it is.",
+    "contains": [],
+    "glassware": "coupe, chilled",
+    "method": [
+      "Put the coupe in the freezer, or fill it with ice water while you mix.",
+      "Pour the grain whisky, blanc vermouth, calvados and syrup into a mixing glass or a jar.",
+      "Fill it with ice and stir for about 30 seconds, until the outside of the glass is frosted cold.",
+      "Stop there: more stirring keeps adding water. Empty the coupe and strain the drink into it.",
+      "Squeeze the lemon peel over the top so its oils fall on the drink, then drop it in."
+    ],
+    "name": "One More Adjustment",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "single grain Scotch whisky",
+        "note": "a style, no brand: a younger bottling, 40% or stronger; past about twelve years it \"tends to taste mostly of the barrel\" (Oxford)"
+      },
+      {
+        "amount": "25 ml",
+        "item": "blanc vermouth",
+        "note": "the pale, gently sweet kind (Dolin Blanc or similar), not dry and not red"
+      },
+      {
+        "amount": "1 barspoon (5 ml)",
+        "item": "calvados",
+        "note": "apple brandy from Normandy; any calvados will do"
+      },
+      {
+        "amount": "1 barspoon (5 ml)",
+        "item": "simple syrup",
+        "note": "equal parts sugar and water, stirred until clear"
+      },
+      {
+        "amount": "1 strip",
+        "item": "lemon peel",
+        "note": "squeezed over the top, then dropped in"
+      }
+    ],
+    "tagline": "Nothing is ever only what it is. Not to you."
+  },
+  "pairing": "magician-explorer",
+  "personality": "The Alchemist",
+  "reading": {
+    "epigraph": "The still behind this whisky was first built of wood and iron.",
+    "whoYouAre": [
+      "Right now, something you've made is nearly there. A recipe, a piece of writing, a shelf, a plan. Everyone who's seen it says it's done. Only you can tell what's still off, so you change it, bit by bit, and you note each change so you can always find your way back.",
+      "You'll do a thing forty ways without complaint, because every one of them can still be undone. It's the last step you put off: the moment it's served, sent, signed or said, and can't be taken back. So it waits, sometimes long after it's ready. What you hide even better is the hope. People see someone careful, a little sceptical, who wants to see proof. Underneath, you believe almost anything can become something better, and you want that to be true more than you'd ever say before it works. Give you something everyone else has written off, and in time you'll hand back a better one. The people close to you start to believe things can get better, because they've seen you make it so."
+    ],
+    "yours": [
+      "Aeneas Coffey spent twenty-four years in Ireland's excise, the service that taxed spirits and chased the illegal stills. He started at the lowest grade and rose to inspector-general of excise in Ireland. Then, in 1824, at forty-four, he left and bought a distillery in Dublin.",
+      "His first still was made of wood and iron, a single column. It was soon replaced by two columns of copper. The new still was simpler and sturdier than the design it improved on, cheaper to heat, and it made a stronger, purer spirit from grain, in one continuous run. Ireland's biggest distillers scorned it; as late as 1878 they were printing that these things made whiskey no more than they made wine or beer. Scotland took it up, from 1834 on, and it went on to change the whole British spirits industry.",
+      "Why he began in wood and iron, we don't know, but I like to think it was where he could still change his mind, and the copper was where he stopped. And notice the order: he'd left the excise first, years before any patent. That's the step you find hardest. Not the forty tries. The copper.",
+      "The cocktail I've made for you is a Martini built on single grain Scotch whisky, the spirit stills like his still make in Scotland. It's lighter than malt whisky, and in a mixed drink it can easily vanish, so I built this one for it to lead. It's most of what you pour, stirred very cold with a blanc vermouth, pale and gently sweet, and a bar spoon each of syrup and calvados, the apple brandy of Normandy, with lemon oil on top. Apple isn't what anyone expects beside grain, and I put it there as a nod to what you do with ordinary things. Clean, bright and quietly surprising.",
+      "When something you've made is nearly there again and your hand goes back for one more change, ask who the change is for. If it's for the thing, make it. If it's for you, put it in copper: serve it, send it, say it. A result you can't take back is also one nobody can take away from you. And then, at last, you get to enjoy it finished."
+    ]
+  },
+  "status": "draft"
+}

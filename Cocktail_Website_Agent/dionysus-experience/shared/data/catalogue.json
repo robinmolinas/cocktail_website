@@ -1,0 +1,2172 @@
+[
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0.8,
+      "sweet": 1
+    },
+    "pairing": "caregiver-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0.3,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "caregiver-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "caregiver-hero",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "caregiver-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "spice"
+    ],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0.5,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0.8,
+      "sweet": 1
+    },
+    "pairing": "caregiver-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "caregiver-lover",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 1,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0.3,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "caregiver-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "caregiver-outlaw",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "dairy",
+      "gluten"
+    ],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "caregiver-regular-guy",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "caregiver-ruler",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "caregiver-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.6,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.6,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "creator-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.8,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.6,
+      "fruity": 0,
+      "herbal": 0.6,
+      "smoky": 0,
+      "spicy": 0.24,
+      "sweet": 1
+    },
+    "pairing": "creator-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "egg-white",
+      "dairy"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0.6,
+      "floral": 0.3,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "creator-hero",
+    "status": "approved"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "creator-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "creator-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 1,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "creator-lover",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "dairy"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "creator-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.3,
+      "fruity": 1,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "creator-outlaw",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0.3,
+      "fresh": 0,
+      "fruity": 0.3,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "creator-regular-guy",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.5,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "creator-ruler",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0.3,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0.5
+    },
+    "pairing": "creator-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0.5,
+      "fresh": 0,
+      "fruity": 0.3,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "explorer-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "explorer-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "explorer-hero",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.3,
+      "citrusy": 0.6,
+      "floral": 0.3,
+      "fresh": 0,
+      "fruity": 0.3,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "explorer-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "gluten"
+    ],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0.3,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "explorer-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "explorer-lover",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 1,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "explorer-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "spice"
+    ],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 1,
+      "fresh": 0.8,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "explorer-outlaw",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 1,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "explorer-regular-guy",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.3,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "explorer-ruler",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.3,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0.48,
+      "sweet": 1
+    },
+    "pairing": "explorer-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0.5
+    },
+    "pairing": "hero-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "hero-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 1,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 1,
+      "smoky": 0,
+      "spicy": 0.24,
+      "sweet": 0
+    },
+    "pairing": "hero-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0.3,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.3,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "hero-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "hero-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.3,
+      "citrusy": 0,
+      "floral": 0.3,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "hero-lover",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.3,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.3,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "hero-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.3,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0.5
+    },
+    "pairing": "hero-outlaw",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 1,
+      "herbal": 1,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "hero-regular-guy",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0.3,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.5,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "hero-ruler",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "hero-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.3,
+      "citrusy": 0,
+      "floral": 0.3,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "innocent-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 1,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "innocent-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "spice"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.5,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0.6,
+      "sweet": 0
+    },
+    "pairing": "innocent-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 1,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "innocent-hero",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 1,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 1,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "innocent-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.6,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.6,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "innocent-lover",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "innocent-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "innocent-outlaw",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "innocent-regular-guy",
+    "status": "approved"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.3,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "innocent-ruler",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "innocent-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0.24,
+      "sweet": 0
+    },
+    "pairing": "jester-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "jester-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0.5
+    },
+    "pairing": "jester-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "egg-white",
+      "dairy"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 1,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "jester-hero",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "jester-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0.3,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0.24,
+      "sweet": 0.5
+    },
+    "pairing": "jester-lover",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 1,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "jester-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "jester-outlaw",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "gluten"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0
+    },
+    "pairing": "jester-regular-guy",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0
+    },
+    "pairing": "jester-ruler",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "jester-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.5,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "lover-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 1,
+      "fruity": 1,
+      "herbal": 1,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "lover-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "lover-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0
+    },
+    "pairing": "lover-hero",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "egg-white"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 1,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "lover-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.6,
+      "citrusy": 1,
+      "floral": 0.6,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "lover-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0.5,
+      "fresh": 0.3,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "lover-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0.5
+    },
+    "pairing": "lover-outlaw",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "lover-regular-guy",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0.6,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "lover-ruler",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.3,
+      "fruity": 0,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "lover-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 1,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "magician-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 1,
+      "floral": 1,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 1,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "magician-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0.5,
+      "fresh": 0,
+      "fruity": 0.3,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "magician-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "magician-hero",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "magician-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "magician-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.15,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.15,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "magician-lover",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "magician-outlaw",
+    "status": "approved"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0.3,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 1,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "magician-regular-guy",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0.3,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "magician-ruler",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0.5,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "magician-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "spice"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0.5,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0.8,
+      "sweet": 0
+    },
+    "pairing": "outlaw-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0.6,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "outlaw-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0.6,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0.6,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "outlaw-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "outlaw-hero",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.5,
+      "herbal": 0.6,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "outlaw-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.8,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "outlaw-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "outlaw-lover",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "outlaw-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0.3,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "outlaw-regular-guy",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 1
+    },
+    "pairing": "outlaw-ruler",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "egg-white",
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "outlaw-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.5,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "regular-guy-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.6,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "regular-guy-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "regular-guy-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0.5
+    },
+    "pairing": "regular-guy-hero",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "regular-guy-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 1,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 1,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "regular-guy-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "regular-guy-lover",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 1,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "regular-guy-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "regular-guy-outlaw",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "regular-guy-ruler",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "regular-guy-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.5,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "ruler-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.3,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.48,
+      "fruity": 0,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "ruler-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.3,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "ruler-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "ruler-hero",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.5,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "ruler-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0.48,
+      "sweet": 1
+    },
+    "pairing": "ruler-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0.5
+    },
+    "pairing": "ruler-lover",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0
+    },
+    "pairing": "ruler-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 1,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "ruler-outlaw",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "nuts"
+    ],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.5,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0.8,
+      "sweet": 0
+    },
+    "pairing": "ruler-regular-guy",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "gluten"
+    ],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "ruler-sage",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 1,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "sage-caregiver",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "sage-creator",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0.5,
+      "fresh": 0,
+      "fruity": 0.3,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "sage-explorer",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 1
+    },
+    "pairing": "sage-hero",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.3,
+      "citrusy": 1,
+      "floral": 0.3,
+      "fresh": 0.8,
+      "fruity": 0.5,
+      "herbal": 0.3,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "sage-innocent",
+    "status": "draft"
+  },
+  {
+    "contains": [
+      "egg-white"
+    ],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0.6,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 1
+    },
+    "pairing": "sage-jester",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.15,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "sage-lover",
+    "status": "approved"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.24,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 0.6,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0.4,
+      "sweet": 0.5
+    },
+    "pairing": "sage-magician",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0.5,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0,
+      "fruity": 1,
+      "herbal": 0.5,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0.5
+    },
+    "pairing": "sage-outlaw",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 0,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "sage-regular-guy",
+    "status": "draft"
+  },
+  {
+    "contains": [],
+    "flavour": {
+      "bitter": 0,
+      "citrusy": 0,
+      "floral": 0,
+      "fresh": 0.8,
+      "fruity": 0,
+      "herbal": 0,
+      "smoky": 1,
+      "spicy": 0,
+      "sweet": 0
+    },
+    "pairing": "sage-ruler",
+    "status": "draft"
+  }
+]

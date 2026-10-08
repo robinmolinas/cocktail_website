@@ -1,0 +1,123 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "From 2004 Conigliaro put Manhattans and El Presidentes in glass vessels for years, to see how they evolved (*Proper* pp. 228, 236; purpose is Simonson's narration)",
+      "kind": "story",
+      "meaning": "An everyday drink, made and drunk in minutes, given years",
+      "speaksTo": "the one true thing: more time than anyone else would give an ordinary thing"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His own reason: oxidation might help a premixed cocktail if controlled the way it is when wine ages (Oxford, BARREL-AGED COCKTAILS pdf 216, his words)",
+      "kind": "story",
+      "meaning": "He asked what time does to an ordinary thing, borrowing the question from wine; open, not blank",
+      "speaksTo": "patience as trust: expecting the world to be interesting"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "At Roka, for years, \"nobody paid a bit of attention\" to the idea; \"No one was interested\" (*Proper* p. 228, his words)",
+      "kind": "story",
+      "meaning": "The cost is time and other people's indifference, not a fight",
+      "speaksTo": "the \"come on\" they've heard all their life"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In October 2009 Jeffrey Morgenthaler tried the five-year-old Manhattan at 69 Colebrooke Row, off the menu, after a tip to ask for it (Oxford pdf 216-217; *PUNCH*, 19 June 2019)",
+      "kind": "story",
+      "meaning": "The thing given time reached someone because he asked",
+      "speaksTo": "the gift reaching others"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Back in Portland, Morgenthaler and his bartenders aged a Manhattan in a small barrel that had held Madeira, and settled on about six weeks (Oxford pdf 217; *Proper*'s Negroni recipe says seven, so \"weeks\")",
+      "kind": "story",
+      "meaning": "The hurried one's version: weeks in wood, not years in glass",
+      "speaksTo": "time vs hurry, told warmly"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Before long bars across the US, then the world, were barrel-aging cocktails; by 2010 on menus everywhere (Oxford pdf 217; *Proper* p. 236). Wood-aged bottled cocktails existed around 1900, unconnected (Oxford pdf 216)",
+      "kind": "lineage",
+      "meaning": "It turned out to matter; never \"first\"; barrels spread, not his bottles",
+      "speaksTo": "now and then, the thing they gave time to matters to everyone"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "El Presidente: rum, vermouth, dashes of curaçao and grenadine; first printed in Havana in 1915 and widely popular at home and abroad (Oxford, EL PRESIDENTE pdf 715). Oxford's recipe is white Cuban rum and sweet white vermouth 45 ml each, 5 ml each curaçao and grenadine, stirred (pdf 716). Ours (spec v1) is 60 white rum, 15 blanc vermouth, 10 Madeira, 7.5 curaçao, 2.5 grenadine: the proportions are ours. One of the two drinks Conigliaro aged in glass (*Proper* p. 228)",
+      "kind": "ingredient",
+      "meaning": "The ordinary thing he gave years to, made the day it's poured; a Cuban classic, never \"renowned\" (its popularity didn't outlast the 1950s, pdf 716)",
+      "speaksTo": "the one true thing, in the glass; let the drink sound worth having"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Madeira is a wine \"marked by oxidation\" (Oxford, ALDEHYDES pdf 88); by law every DO Madeira waits about two years or more before sale, in wood or heated (Portaria 38/2015 and 39/2015)",
+      "kind": "ingredient",
+      "meaning": "Time and air used on purpose, which is Conigliaro's wine question (the Madeira in Morgenthaler's first barrel, Oxford pdf 217, stays in the dossier: Wren r5)",
+      "speaksTo": "patience you can taste the day it's made; \"years\", never oak (M1); the barrel is not in the reading"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Try a spoon of the Madeira on its own before it goes in. It took its time getting here.",
+    "contains": [],
+    "glassware": "a small stemmed wine glass (about 200 ml), chilled, no ice",
+    "method": [
+      "Put the glass in the freezer for ten minutes, or fill it with ice and water while you mix.",
+      "Before anything else, pour a little of the Madeira into a spoon and taste it on its own.",
+      "Pour the rum, the vermouth, the Madeira, the curaçao and the grenadine into a mixing glass or a jar.",
+      "Fill it with ice and stir with a long spoon for about 20 seconds, until the outside feels very cold. The melting ice is part of the drink: it adds about two-fifths to what you poured.",
+      "Empty the serving glass if you filled it, and strain the drink in. No ice.",
+      "Hold the strip of orange peel over the glass, skin side down, and squeeze it so its oils fall on the drink. Then drop it in."
+    ],
+    "name": "In a Minute",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "white rum, Cuban style (a full-flavoured white rum)"
+      },
+      {
+        "amount": "15 ml",
+        "item": "Dolin Blanc vermouth (recommended), or any sweet white (blanc) vermouth",
+        "note": "the sweet white style the original was made with"
+      },
+      {
+        "amount": "10 ml",
+        "item": "rainwater Madeira",
+        "note": "a wine that has already had its years"
+      },
+      {
+        "amount": "1½ teaspoons (7.5 ml)",
+        "item": "orange curaçao"
+      },
+      {
+        "amount": "½ teaspoon (2.5 ml)",
+        "item": "grenadine, made from pomegranate",
+        "note": "for colour as much as sweetness"
+      },
+      {
+        "amount": "1 strip",
+        "item": "orange peel"
+      }
+    ],
+    "tagline": "Most people need a good reason to stop. You need one to hurry."
+  },
+  "pairing": "explorer-innocent",
+  "personality": "The Discoverer",
+  "reading": {
+    "epigraph": "Someone once put drinks like this in bottles for years, to see what time would do.",
+    "whoYouAre": [
+      "On any walk, you're a few steps behind. Something stopped you: frost that's stayed only in the shadow of a fence, a bee climbing into a flower the wrong way round, a sign you've passed a hundred times and have only now read properly. Somewhere up ahead, someone says \"come on\". You've been hearing \"come on\" for as long as you can remember.",
+      "You were never dawdling. You wanted to see what it would do. You don't often say how much a small thing can make your day, because it can sound naive, and there's an old, faint guilt about holding everyone up. It isn't being slow that scares you. It's getting busy, and sure, and one day walking straight past something without feeling the tug, and not even missing it. The people who walk with you see more than they would on their own. The ordinary comes back to them new. That's what your slowness gives them, and every so often the thing you stopped for turns out to matter to everyone."
+    ],
+    "yours": [
+      "A Manhattan is usually drunk within minutes of being made. Around 2004, in London, a bartender named Tony Conigliaro started putting some aside instead: Manhattans, and a Cuban classic called the El Presidente, in glass, for years. His question came from wine. Wine changes slowly as it ages, and he wondered whether a mixed drink could be helped by ageing too, if it was done with the same care. For years he tried to interest his customers in the idea. Nobody paid it a bit of attention, he said.",
+      "In 2009 he opened a bar of his own, a small one on a side street in Islington. That October, a bartender from Portland, Oregon, Jeffrey Morgenthaler, was in town, and was told to ask for the Manhattan that wasn't on the menu. It was five years old. Conigliaro told him the years had brought its flavours together. Morgenthaler, by his own account, thought it tasted like a Manhattan. He went home and tried the idea anyway, in a small wooden barrel, where it takes weeks instead of years. His first batch was gone in a week or two, and before long bars across the world were ageing cocktails in barrels.",
+      "I like to think Conigliaro gave that bottle its years because he trusted there was something in it, while nobody else was interested yet. That's you. You give an ordinary thing more time than anyone else would, before there's any sign it'll be worth it. And look at what travelled. Not the taste: the man who took the idea home could hardly tell. It was the idea, and the question under it: what happens if you don't hurry? You hand people that question all the time, and some of them take it further than you'd ever have guessed.",
+      "The cocktail I've made for you is an El Presidente, a Cuban classic that became popular far beyond Havana, and a stirred one: white rum and a sweet white vermouth, with a little orange curaçao and half a spoon of grenadine for its colour. My real change is in the wine. I've swapped part of the vermouth for Madeira, a wine the law won't let anyone sell until it has had years, because Conigliaro's question came from wine. So some of the time he was asking about is in there already. It's stirred cold and served in a little stemmed wine glass, chilled first, with an orange peel twisted over it, and it's ready the moment it's made. You're usually the one giving things time. This once, somebody else did the waiting for you.",
+      "Busy comes for everyone, and the stopping goes first. You won't hear it go. So have one thing going that can't be hurried: a cutting in a jar on the windowsill, a question you haven't looked up yet. Look in on it now and then. And when someone up ahead says \"come on\", take the minute. It's usually the best one of the walk."
+    ]
+  },
+  "status": "draft"
+}

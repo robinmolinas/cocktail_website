@@ -1,0 +1,128 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Croswell, a newspaper editor in Hudson, New York, was convicted of libel for publishing an article alleging that President Jefferson had paid a writer (James Callender) to attack Washington and Adams (MTSU, M1). Whether it was true: not ours to say (C4). No year in guest text (C2).",
+      "kind": "price",
+      "meaning": "He printed it about the most powerful man in the country, and paid in court. The reading says \"he printed that\", never whether it was so.",
+      "speaksTo": "story test: aimed up, price paid"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "At his trial he was not allowed to prove the truth of what he'd said, or his intent in publishing it (MTSU, M2).",
+      "kind": "price",
+      "meaning": "He wasn't allowed to show it was true, or why he'd said it. Note: intent was shut out too, so never \"they only asked whether he should have said it\".",
+      "speaksTo": "fear: the gasp absorbed, the question never asked"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "On appeal, Alexander Hamilton argued that a free press meant the right to publish the truth \"with good motives, and for justifiable ends\" (MTSU, M3). A judge, James Kent, agreed that truth should be a defence; the court split and the conviction stood (M4, M6).",
+      "kind": "turn",
+      "meaning": "Truth told for a reason should count.",
+      "speaksTo": "gives: turn \"how dare you\" into \"is it true?\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "By Hamilton's own rule, true words said with bad motives could still be punished (MTSU, Vile's gloss, M5).",
+      "kind": "counterweight",
+      "meaning": "The rule doesn't cover the nights it's only for the gasp, and this guest knows which nights those are.",
+      "speaksTo": "hides: some nights it's only the gasp; position: keep the ones you'd stand behind"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In May 1806, after the conviction, his paper printed a mocking ledger of a losing candidate's election drinks, \"Gain: Nothing\", among them 25 glasses of cock-tail (*Imbibe!* pdf 169, F3).",
+      "kind": "story",
+      "meaning": "A joke at the other side's voters, made in print, and partisan: the reading takes no side and can say gently it was for the gasp too.",
+      "speaksTo": "hides: they enjoy it"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A reader wrote in to ask what a cock-tail was. Croswell's answer: spirits of any kind, sugar, water and bitters. Then he added that people said it suited a candidate of that party, because once you'd swallowed a glass you were ready to swallow anything else (*Imbibe!* pdf 169, F5–F6; Oxford pdf 493, F9). It's the first time we know of that the name and the recipe were printed together (Oxford).",
+      "kind": "story",
+      "meaning": "The drink is defined by a jibe: the line he's remembered for is the cheek. Manners as swallowing things is Wren's reading, signposted.",
+      "speaksTo": "one true thing; story test: the line outlived the price"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Eleven days later a rival paper in Pittsfield, Massachusetts, printed a letter attacking him, with a swipe at him for \"publishing grog stories\" (*Imbibe!* pdf 169, F8).",
+      "kind": "reaction",
+      "meaning": "The gasp is on record, in print, from the other side.",
+      "speaksTo": "story test: reaction on record"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Wondrich calls the answer one of the most famous and often repeated quotations in American drinking; with small changes, the definition described the cocktail for four generations (*Imbibe!* pdf 169, F7).",
+      "kind": "legacy",
+      "meaning": "The jibe outlived the trial: people still quote it.",
+      "speaksTo": "driver: LEAVE A MARK"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford's Cock-Tail: a raw sugar cube muddled with a little water and bitters, a spirit, cold water to taste, stirred, in a small Old-Fashioned glass (pdf 494, F10). The 1806 formula says \"spirits of any kind\"; our aged rum is ours, not his (C5).",
+      "kind": "lineage",
+      "meaning": "Nothing hidden: four things, named up front, as he printed them.",
+      "speaksTo": "the drink: the definition itself"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Name the banana as you pour it. Then ask who else thinks so, while everyone's still at the table.",
+    "contains": [],
+    "glassware": "small tumbler (about 200 ml), chilled in the freezer, no ice",
+    "method": [
+      "At least two hours ahead, put the rum, banana liqueur and bitters in a small jar or plastic bottle (not filled to the brim), close it, and put it in the freezer. Put the tumbler in the freezer too.",
+      "Just before serving, fill a jug with water and ice and let it stand for a few minutes.",
+      "Pour the cold mix into the frozen tumbler. Measure in 30 ml of the ice-cold water from the jug, and none of the ice.",
+      "Stir a few turns with a spoon.",
+      "Hold the orange peel skin side down over the glass and squeeze it, so its oils fall on the drink. Drop it in."
+    ],
+    "name": "Quote Me",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "aged Jamaican rum (40-43%; not spiced, not sweetened)",
+        "note": "the spirit; many aged Jamaican rums carry a stewed-banana taste"
+      },
+      {
+        "amount": "20 ml",
+        "item": "Giffard Banane du Brésil banana liqueur (about 25%), recommended for its real bananas, or any banana liqueur of about 25% (a sweeter *crème de banane*: 15 ml)",
+        "note": "the sugar, given as banana, out in the open"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters",
+        "note": "the bitters"
+      },
+      {
+        "amount": "30 ml",
+        "item": "ice-cold still water, poured from a jug of water and ice",
+        "note": "the water, measured: none of the ice goes in"
+      },
+      {
+        "amount": "1",
+        "item": "strip of orange peel",
+        "note": "squeezed over the top, then dropped in"
+      }
+    ],
+    "tagline": "Rooms get more honest around you. Rarely politer."
+  },
+  "pairing": "jester-outlaw",
+  "personality": "The Scandalmonger",
+  "reading": {
+    "epigraph": "The cocktail's earliest known definition in print comes with a dig at the other side.",
+    "whoYouAre": [
+      "Dinner, eight of you, and everyone has spent the starter praising something nobody there actually likes. You put your fork down and say so, in the bluntest words available. There's a gasp. Somebody laughs and turns it into a cough. Then you watch for whoever will say it back.",
+      "Hardly anyone hears it right. It comes out like a verdict, but you mean it as a question. You enjoy the gasp, and you won't pretend you don't. And often you go too far on purpose: once you've said the outrageous version, the honest one everybody's been sitting on suddenly sounds mild, and someone dares. What wears you down is good manners doing their quiet work: the gasp smoothed over, someone offering round the potatoes, and the same people agreeing with you afterwards, by the coats, where it doesn't count.",
+      "It's time someone told you what that's worth: you take the blame for the first line so the honest conversation can happen in the room. You turn \"how dare you\" into \"hang on, is that true?\" Not everyone thanks you for it. They should."
+    ],
+    "yours": [
+      "In May 1806, in Hudson, a river town in New York, a newspaper editor called Harry Croswell printed a mocking ledger of a losing candidate's election drinks. Under \"Gain\", it said \"Nothing\". Among the losses were twenty-five glasses of \"cock-tail\". A reader wrote in, never having heard of it. Was it local? Was it new?",
+      "Croswell's answer is the earliest known definition of the cocktail in print: spirits of any kind, sugar, water, bitters. Then came the dig. It was said, he added, that the drink suited a candidate of that party, because anyone who'd \"swallowed a glass of it\" was \"ready to swallow anything else\". A rival paper printed a letter attacking him, with a swipe at his \"publishing grog stories\". His answer is still among the most quoted lines on American drinking.",
+      "By then Croswell had already been convicted of libel, for printing that the President had paid a writer to attack Washington and Adams. Whether that was true isn't mine to say, and at his trial the court wouldn't let him prove it, or explain why he'd printed it. Alexander Hamilton took his appeal and argued that a free press meant the right to publish the truth \"with good motives, and for justifiable ends\". The judges split, and the conviction stood. I like to think you'd have recognised Croswell at once: he put in print what was being said behind hands, and I'd bet he enjoyed the cock-tail line enormously. Hamilton's rule has a catch you know too: true words said with bad motives wouldn't have been covered. Some nights it's only for the gasp, and you can tell which ones. The others, the ones with a reason behind them, you'd stand behind anywhere.",
+      "The cocktail I've made for you starts from Croswell's four things, with a spirit of my choosing: aged rum from Jamaica, a little bitters, and a measure of water, as his definition has it, poured in ice-cold, all served without ice in a glass frozen beforehand. Last comes a bright pinch of orange oil, with its peel dropped in. My one change is the sugar: it arrives as a banana liqueur, a liqueur whose recipes only turn up about a century later. Many aged Jamaican rums already have a taste of stewed banana in them. I put it in plain sight as a nod to Croswell's line: the banana that's often already in the rum, said out loud. Expect something rich, round and smooth, and far better than it sounds when you say \"banana\" at a dinner party.",
+      "Keep saying it. A room needs someone who will. But when the gasp next gets smoothed over and the potatoes start going round, don't reach for a bigger line. Ask it as the question it always was, out loud, and then wait. Someone usually answers. Then you get the conversation you came for, there and then, while it still counts."
+    ]
+  },
+  "status": "draft"
+}

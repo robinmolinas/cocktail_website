@@ -1,0 +1,126 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Journalists founded the Clover Club in Philadelphia in the 1880s; judges, lawyers and bankers made up the other half. It dined once a month at a Philadelphia hotel, and it had set out to enjoy good eating, deep drinking and giving politicians a hard time.",
+      "kind": "place",
+      "meaning": "Insiders at a grand table, with permission to tease the powerful. The licence came with the seat.",
+      "speaksTo": "essence: reveals the truth using humour · Wren (2) aimed up"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Politicians were at the table, invited. In the club's first two years its guests included two former governors and an attorney-general, alongside generals, judges and actors.",
+      "kind": "guests",
+      "meaning": "The joke was made to the face of the person it was about, at a dinner they had been asked to. Their audience was the king, not the crowd.",
+      "speaksTo": "Wren (3) from the inside, with licence"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "At every dinner, after the oysters, the president stood and drank to \"Our Guests\" from a silver loving cup. The guests then drank from it standing, while the members stayed seated.",
+      "kind": "gesture",
+      "meaning": "The guests were honoured, and on their feet, before anyone teased them. The welcome came before the wit. Signposted only (\"I like to think\"): the book gives no reason for the custom.",
+      "speaksTo": "give: someone can be wrong and keep their dignity"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The club's own book (1884) says a battle of wits started with the speeches, before the coffee, and that it sprang from the wine. It claims the wit was kindly meant, taken in good part, and seldom fell on barren ground.",
+      "kind": "reveal",
+      "meaning": "By their own account, the jokes were meant to land and to grow. That's the club's claim about itself, made once in print: tell it as \"the book claims\", never as a habit (\"they liked to say\") and never as proof that anyone changed their mind.",
+      "speaksTo": "Wren (4) the point stuck (claimed) · fear: Deception"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Each new member was welcomed with some ceremony, and after a few meetings the club got a baby's chair and a rattle for it; the book lists the members who sat, or should have sat, in the chair. And the club made a rule against any rule that smacked of formality or foolishness.",
+      "kind": "self-mockery",
+      "meaning": "They made themselves the silly ones first. The licence to tease the guests started at home.",
+      "speaksTo": "hide: cleverer than they let on · Jester goal: Humor"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The club had its own cocktail. Its recipe first turns up in 1901, when the head bartender at the Waldorf-Astoria gave it to a paper, the *New York Press*: gin, lemon, raspberry syrup and egg white. By 1910 it was everywhere.",
+      "kind": "lineage",
+      "meaning": "A frothy pink drink over a full measure of gin. It looks like the least serious thing on the menu, and it isn't (Wren C6, signposted, never a fact).",
+      "speaksTo": "the drink as proof"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It didn't come back after Prohibition, and in 1934 *Esquire* named it one of the ten worst cocktails.",
+      "kind": "fall",
+      "meaning": "The drink's own story, laughed at. Never a verdict on the guest (Wren C3), and never \"the worst\".",
+      "speaksTo": "Jester fear: being taken for the merely silly"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It was more or less forgotten until the late 2000s, when a new bar took its name and gave it a second life.",
+      "kind": "return",
+      "meaning": "One clause, the drink's story only. No bar, no name, no \"proved right\".",
+      "speaksTo": "lineage only"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Wine was on the club's own table: members paid for their own wine, and the club's book mentions its wine and its champagne. The 1901 recipe has no wine in it.",
+      "kind": "ingredient",
+      "meaning": "The wine in the raspberry comes from the club's table, not from its recipe: a riff on the drink, drawn from the dinner. Ours, never \"their recipe\", and never \"red\" for what they drank.",
+      "speaksTo": "the drink as proof · the spark (Tomás)"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Froth it before the ice goes in. Then tell one joke tonight that's for nobody's good.",
+    "contains": [
+      "egg-white"
+    ],
+    "glassware": "coupe, chilled in the freezer, no ice in the glass",
+    "method": [
+      "Up to a week ahead, make the syrup. Put the raspberries, sugar and wine in a blender and blend on low until you can't feel any sugar grains, about a minute. Leave it 30 minutes, then press it through a fine sieve to take out the seeds. Jar it and keep it in the fridge.",
+      "Put the coupe in the freezer.",
+      "Crack an egg, keep the white, and whisk it lightly with a fork for a few seconds so it pours. Measure 15 ml.",
+      "Pour the gin, lemon juice, syrup and egg white into a shaker. Close it and shake hard with no ice for about 10 seconds, so the white turns to froth.",
+      "Open it, fill it with ice, and shake hard again for 12 to 15 seconds, until the outside is too cold to hold comfortably.",
+      "Strain it into the cold coupe through a small tea strainer held over the glass, so the froth comes out smooth."
+    ],
+    "name": "In Good Part",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "Plymouth gin, recommended",
+        "note": "as Oxford's Clover Club recipe prints it; or any soft, earthy dry gin, less juniper-led than a London dry, about 41-44%"
+      },
+      {
+        "amount": "15 ml",
+        "item": "fresh lemon juice",
+        "note": "squeezed the same day"
+      },
+      {
+        "amount": "35 ml",
+        "item": "raspberry and red wine syrup",
+        "note": "homemade: 100 g fresh raspberries, 100 g white sugar and 100 ml dry young red wine (a Cabernet Sauvignon style), blended cold and sieved; makes about 250 ml, enough for seven drinks; keeps a week in the fridge"
+      },
+      {
+        "amount": "15 ml",
+        "item": "egg white",
+        "note": "about half a large white, loosened with a fork first so it pours"
+      }
+    ],
+    "tagline": "You'll be the silly one, so nobody has to be the wrong one."
+  },
+  "pairing": "sage-jester",
+  "personality": "The Wise Fool",
+  "reading": {
+    "epigraph": "A club that teased politicians over dinner had a drink of its own. It was pink.",
+    "whoYouAre": [
+      "Someone at the table has started to believe their own story. A boss, an old friend who's done well, the relative everyone humours. You don't correct them. Correcting them would cost them something with everyone watching. So you make it funny, carefully, aimed at them and not at the room, and they're the one laughing hardest. Nothing else happens that night. A week later, quietly, they've dropped it. Nobody mentions the joke, least of all you.",
+      "It sounded like a quip. It took you most of the evening. Nobody guesses how much the untrue thing bothered you while you were smiling: you can sit with almost anything except a story everyone has agreed to believe. The room that frightens you is the one where nobody's allowed to laugh, because that's where it stays true for good. And there's a cost you rarely mention. When you mean something about your own life, people are still waiting for the funny part.",
+      "So here it is, plainly, because it's worth something: you let people be wrong and keep their dignity. It's kinder than honesty on its own, and much harder."
+    ],
+    "yours": [
+      "In Philadelphia in the 1880s, some journalists started a dining club, the Clover Club. Once a month they had dinner at a hotel there, and they had set out to enjoy good food, plenty of drink and teasing politicians.",
+      "Politicians were at the table. They'd been invited: in its first two years the club's guests included two former governors and an attorney-general. The guests were toasted from a silver loving cup, then drank from it standing while the members stayed seated. Then came the speeches, and what the club's own book called a \"war of wit\". The book claims it was kindly meant and well received. And after a few meetings, the club got a baby's chair and a rattle for welcoming each new member.",
+      "I recognise you in that. They didn't shout from outside. They asked the powerful to dinner, honoured them first, and they'd already made themselves look ridiculous with a rattle. I like to think that's why a guest could laugh along: nobody at that table had to lose face to hear it. You do the same. You go first as the silly one, so the person it's about can take it home.",
+      "The club had its own cocktail: gin, lemon, raspberry syrup and egg white. Its recipe first turns up in 1901, when the Waldorf-Astoria's head bartender gave it to a paper, the *New York Press*. In 1934 *Esquire* named it one of the ten worst cocktails, and it was all but forgotten until a new bar named itself after it, late in the 2000s, and poured it as its own. It's a classic again, and the cocktail I've made for you is a Clover Club, with a syrup of my own: I make the raspberry syrup with red wine instead of water, as a nod to those dinners, where the wit came with the wine. It looks like the least serious thing you could order, pink under a soft cap of froth. Underneath is a full measure of gin, and the raspberry tastes deeper, of fruit and wine rather than sweets. You only find that out by tasting it. I like to think your best jokes work the same way.",
+      "Keep telling the truth like that. The people who've been wrong around you are luckier than they know. But every joke of yours is working for something: the truth, the face, whoever it's about. Now and then, make one that carries nothing at all, daft from start to finish, just because it makes you laugh. That club kept a baby's rattle, after all."
+    ]
+  },
+  "status": "draft"
+}

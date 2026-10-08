@@ -1,0 +1,110 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Less than four months after the wartime ban took effect (30 June 1919), and before national Prohibition, the Greenwich Village Inn that Barney Gallant ran was raided, and he was arrested with half a dozen of his waiters (*Joy* pdf 59).",
+      "kind": "setting",
+      "meaning": "An ordinary working night. The trouble landed on the people carrying the trays.",
+      "speaksTo": "no emergency; Grounded"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He agreed to plead guilty on condition that the waiters were set free (*Joy* pdf 59).",
+      "kind": "reveal",
+      "meaning": "A trade made calmly, with a condition: his name on the record, theirs off it.",
+      "speaksTo": "one true thing: takes the cost for specific people (\"put it on me\"); In control, Controlled"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He was sentenced to thirty days in jail and served far less (*Joy* pdf 59).",
+      "kind": "cost",
+      "meaning": "It cost him something real, and it wasn't martyrdom. The plain size of it takes the halo off.",
+      "speaksTo": "truth, told plainly; Classic"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "At his later club (West Third Street, from 1924) the house rules told guests not to overtip their waiter (\"Why be a chump?\") and to check the bill (*Joy* pdf 59–60).",
+      "kind": "caveat",
+      "meaning": "One act, not a saint. Good business and a good deed sat in the same man.",
+      "speaksTo": "trap: praise; Grounded"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His name was Gallant (*Joy* pdf 59).",
+      "kind": "name",
+      "meaning": "A coincidence owned once, about him, never pointed at the guest.",
+      "speaksTo": "—"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In the saloons of the 1870s–80s, acquaintances drank in rounds, taking turns to pay (or rolling dice for it), so few stopped at one, and a strong Cocktail was too much. Oxford reads vermouth as \"one solution\": by the early 1880s, spirit and vermouth half and half (the Manhattan and its siblings) (Oxford, COCKTAIL pdf 490; MANHATTAN pdf 1221). Not dated to 1919 or to Gallant's bar.",
+      "kind": "gesture (lead for the glass)",
+      "meaning": "The round is the bar's own ledger. The Saviour always gets the next one in.",
+      "speaksTo": "fear: owing; position: let one stand unpaid"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Whether the waiters went free is implied by the condition, not stated. When (never \"that night\": the page dates neither the plea nor any release) and what they felt or owed are nowhere on the page.",
+      "kind": "inference",
+      "meaning": "Only as signposted wonder (\"I've always wondered…\"), never as a claim about them or him.",
+      "speaksTo": "hides: can't bear to owe"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Let someone get this one. Don't get the next.",
+    "contains": [],
+    "glassware": "tall glass (highball, about 350 ml), filled with ice",
+    "method": [
+      "Fill a tall glass to the top with ice.",
+      "Measure 45 ml of rye into the glass. Then fill the same jigger to the same line with sweet vermouth and pour that in too.",
+      "Shake in the Angostura (two dashes) and stir five or six turns with a long spoon, just to chill.",
+      "Top with the cold soda water, then lift the drink once, gently, with the spoon.",
+      "Squeeze a strip of lemon peel over the top of the glass so its oils fall on the drink, then drop it in."
+    ],
+    "name": "Next One's Mine",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "straight rye whiskey"
+      },
+      {
+        "amount": "45 ml",
+        "item": "sweet (Italian red) vermouth",
+        "note": "the same measure as the rye: half the weight is the vermouth's"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "120 ml",
+        "item": "soda water, cold",
+        "note": "added last"
+      },
+      {
+        "amount": "1 strip",
+        "item": "lemon peel"
+      }
+    ],
+    "tagline": "You'll take anything on for anyone. Except a favour."
+  },
+  "pairing": "hero-caregiver",
+  "personality": "The Saviour",
+  "reading": {
+    "epigraph": "The vermouth in this glass is there because hardly anyone stopped after the first.",
+    "whoYouAre": [
+      "The bill nobody can split, the call nobody wants to make, the mistake that was only half theirs: it's landed on someone near you. You don't rush. You weigh it up, quietly, and then you say it: \"Put it on me.\" And they go home lighter. That's the kindness in you, and it counts for more than you'll ever let anyone say.",
+      "The other half is harder. Someone does you a small kindness, a lift, a meal, an evening of their time, and it's paid back within the week, with a little extra. Owing anyone, even briefly, feels like weakness to you, like leaving a door open that someone could walk through. So your books are always in credit. Plenty of people owe you something. You've never asked for any of it back."
+    ],
+    "yours": [
+      "In 1919, months before national Prohibition began, a wartime law had already made selling drink illegal. That year, the Greenwich Village Inn in New York, which a man named Barney Gallant ran, was raided, and he was arrested along with half a dozen of his waiters. Barney agreed to plead guilty on one condition: that his waiters were let go.",
+      "He was sentenced to thirty days in jail, and he served far less. Yes, his name really was Gallant. You could say it was his place to answer for, and maybe it was simply good business. But I like to think it was more than that: that he looked at his waiters, who'd only been carrying the trays, and decided the cost was his.",
+      "You'd have made the same decision, and you'd have called it only fair. What I've always wondered is how it felt for those waiters, going home owing someone that much. You've stood where Barney stood more times than you can count. You've never let yourself stand where they did.",
+      "The cocktail I've made for you comes out of the old saloons, where people at the bar drank in rounds, taking turns to pay, and hardly anyone stopped after the first. A strong drink was too much for that, and one answer was to split the whisky half and half with vermouth, a wine flavoured with herbs: that's where the Manhattan, a renowned classic, and its family come from. So I kept the equal split, the way the Manhattan's early recipes often had it: rye and sweet vermouth, poured to the same line twice, with bitters, then let it run long over ice with soda and a twist of lemon. The rye dry, the vermouth dark and bittersweet, all of it cold and bright. I kept the split for what you won't allow yourself: something else carrying half the weight, so everyone can keep going.",
+      "So when someone does something for you, don't pay it back. No dinner in return, no bigger present, no \"I'll get you back for this\". Every time you square it straight away, you take something from them: the feeling you get every time you say \"put it on me\". Let them keep that. And for once, you get to be the one who's let off."
+    ]
+  },
+  "status": "draft"
+}

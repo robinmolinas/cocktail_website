@@ -1,0 +1,115 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Milk punch (in general, bowl or bottle) is on record from 1688; the earliest written recipe is from 1711. Oxford doesn't date the curdled kind to 1688; our earliest curdled recipe on the page is Franklin's (1763). In the bottled kind, milk is curdled and strained out, and what's left is smooth and stable. It kept without a fridge: bottles were found in Charles Dickens's cellar after his death in 1870 (no age given).",
+      "kind": "lineage (the bottled punch)",
+      "meaning": "A makeover that holds (Wren). The after wasn't a trick for one evening; people put it in the cellar.",
+      "speaksTo": "drawnToward: Change · lens: The best version of me"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Benjamin Franklin wrote a milk-punch recipe into a 1763 letter: boiling milk goes into the punch, it stands two hours, then it's run through a jelly-bag \"till it is clear\" (his words; for the dossier, not the reveal word), then bottled.",
+      "kind": "gesture (written down, 1763)",
+      "meaning": "The ruined-looking middle is written into the recipe as a wait. Nobody panics in a recipe. Franklin wrote it down; he didn't invent it.",
+      "speaksTo": "gravity: Instinctive · soughtFor: Ideas"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Dave Arnold made alcoholic Arnold Palmers for a film crew in 2012, and everyone agreed they weren't very good. Afterwards he washed tea vodka with milk: the astringency fell away, the tea flavour stayed strong, and the drink went on his bar's menu.",
+      "kind": "the turn (before and after, on the record)",
+      "meaning": "Not turned into something else: more like itself. The harsh edge goes and the tea stays. \"That's so you\", said of a drink.",
+      "speaksTo": "lens: The best version of me · texture: Bright"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The curds are what do it: the milk's casein binds the harsh, astringent compounds and leaves with them. You stir the curds gently so they gather the free casein, and don't break them up.",
+      "kind": "mechanism (the ruin does the work)",
+      "meaning": "The mess is the method. The part that looks like failure is the part doing the work, and only the one who's seen it before can stand there calmly.",
+      "speaksTo": "gravity: Experimental · texture: Excited"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Arnold found an \"unintended side benefit\": the whey stays behind, so the washed spirit comes out silky. It fades over about a week.",
+      "kind": "side benefit (the silk)",
+      "meaning": "The Magician's fear is unintended results; here the unintended result is the best bit. Said lightly.",
+      "speaksTo": "drawnToward: Beauty"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Tamarind: a brown, sticky pulp whose sour is mostly tartaric acid, reputed to be both the most acidic and the sweetest fruit; the *Flavor Matrix* gives it as a surprise partner for dairy. Jerry Thomas printed a Tamarind Punch in 1867. In ours (v2) it gives most of the sour (about 60%, Tomás's arithmetic), with 10 ml lime; together they break the milk.",
+      "kind": "ingredient (our build, the spark)",
+      "meaning": "Tomás's build, not history's milk punch. The least glamorous thing in the pantry given the lead, and it still tastes of tamarind at the end (Wren's guard).",
+      "speaksTo": "flavours: Fruity · soughtFor: Taste"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount (batch)",
+    "closingLine": "Leave it overnight, and don't fix what you find.",
+    "contains": [
+      "dairy"
+    ],
+    "glassware": "a small tumbler (rocks glass), chilled, no ice",
+    "method": [
+      "Put the tea in the rum in a jar, shake it, and leave it 20 to 30 minutes, until it's as dark as strong tea. Strain out the leaves.",
+      "Make the tamarind water.",
+      "Mix the tea rum, tamarind water, lime and demerara syrup in a jug. Taste it. It should be too sour to enjoy: the milk softens it. If it isn't, add lime a little at a time until it is.",
+      "Pour the milk into a large bowl. Pour the punch into the milk slowly, stirring gently as you go (the punch into the milk, never the milk into the punch). Within a minute or so the milk breaks into soft curds, like scrambled egg in cloudy liquid. It looks ruined. That's right.",
+      "Stop stirring. Leave it an hour.",
+      "Set a sieve lined with a paper coffee filter over a clean jug, and pour everything in, curds and all. The first cup runs cloudy: pour it back over the curds. Once the curds have settled on the filter, they do the cleaning. Leave it to drip in the fridge overnight. Don't press it.",
+      "Bottle what came through and keep it in the fridge; it's at its silkiest in the first week. Throw away the curds.",
+      "Pour it cold from the bottle into a chilled small tumbler, about 125 ml. No ice."
+    ],
+    "name": "Overnight",
+    "preparations": [
+      {
+        "text": "150 g block of sour, seedless tamarind pulp (from a supermarket's world-food aisle or an Asian grocer; the packet should not say \"sweet\"). Break it up into a bowl, pour on 375 ml just-boiled water, leave 30 minutes, mash it with a fork, and press it through a sieve with the back of a spoon. Keep 360 ml.",
+        "title": "Tamarind water"
+      }
+    ],
+    "recipe": [
+      {
+        "amount": "480 ml",
+        "item": "aged rum, steeped with 15 g loose black tea",
+        "note": "the milk softens the tea's harsh edge and leaves its flavour"
+      },
+      {
+        "amount": "360 ml",
+        "item": "tamarind water (below)",
+        "note": "the star; sour tamarind, never sweet"
+      },
+      {
+        "amount": "80 ml",
+        "item": "fresh lime juice"
+      },
+      {
+        "amount": "60 ml",
+        "item": "demerara syrup (equal weights demerara sugar and hot water)"
+      },
+      {
+        "amount": "240 ml",
+        "item": "cold whole milk",
+        "note": "it curdles, and the curds are strained out"
+      }
+    ],
+    "recipeIntro": "Makes about eight drinks of 125 ml.",
+    "tagline": "You change everything except the part that makes it theirs."
+  },
+  "pairing": "creator-magician",
+  "personality": "The Makeover Artist",
+  "reading": {
+    "epigraph": "Last night, this drink looked like a mistake.",
+    "whoYouAre": [
+      "Show you almost anything and you see what it could be: the chair someone put out on the pavement, a friend's flat, the haircut they've had since school. Once you start on it, you'll change nearly everything, except the one thing that makes it theirs. You find that part first, and build the rest around it. So the words you're hoping for at the end aren't \"I'd never have recognised it.\" They're \"That's so you.\"",
+      "What nobody sees is the middle. There's always a point where it looks worse than when you started: the room stripped to the walls, the paint half on, a friend at the mirror not sure what you've done. You're the only one who isn't worried. You've been through enough middles to know the mess is part of how it works. What worries you comes later, once you've gone: that it all slides back, or that it turns out in some way you didn't mean. What stays is how you looked at them: as if the best of them was worth moving everything else for. Most people have never been looked at like that."
+    ],
+    "yours": [
+      "In 2012, Dave Arnold was asked to make Arnold Palmers, iced tea and lemonade, with alcohol in them, for a film crew. He made several. Everyone agreed they weren't very good. Afterwards he tried something that sounds like a way to make it worse: he poured his tea-flavoured vodka into milk. The milk curdled, which looks exactly like a mistake. But the curds do the work. They catch the harsh, drying edge of the tea and carry it off with them, and what comes through is smooth. The tea flavour, he wrote, was still very strong. It went on his bar's menu. It had also come out silky, which he hadn't planned at all. He called that an \"unintended side benefit\".",
+      "He wasn't the first to curdle a drink on purpose. Milk punch is on record from 1688, and by 1763 Benjamin Franklin was writing the curdled kind into a letter: pour boiling milk into the punch, leave it to stand for two hours, then strain it. The part where it looks ruined is right there in the recipe, written as a wait. And made that way, it kept. Bottles of it were found in Charles Dickens's cellar after he died.",
+      "Here's what I see in it, and it's only my reading. Nobody turned that tea into something else. The harsh part went, and what was left tasted more like itself. And the part that looked like failure was the part doing the work. You've known that for a long time. It's how you can stand in the middle of a mess and not flinch.",
+      "The one I'd make you starts with tamarind: a brown, sticky pulp, about the least glamorous thing in a kitchen. It's most of the sour in the drink, with a little lime, and together they break the milk. With them go aged rum steeped with black tea, and a little brown sugar. It's made a day ahead: all of it stirred into milk, left to curdle, and strained back through its own curds. What comes through is smooth, softer than what went in, and it still tastes of tamarind. It's poured cold, from the bottle. Whoever drinks it never sees the middle.",
+      "Next time something you've changed comes out differently from the picture in your head, don't fix it straight away. Give it a night. Look at it the way you'd look at that chair on the pavement. Arnold was only trying to get rid of a harsh edge, and he got silk. Some of your best work will be the part you didn't mean."
+    ]
+  },
+  "status": "draft"
+}

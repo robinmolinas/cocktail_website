@@ -1,0 +1,127 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The word \"rickhouse\" comes from \"rick\", the name for the wooden structure that holds up the barrels. (A1, F1; RICKHOUSE pdf 1665)",
+      "kind": "name",
+      "meaning": "The place is called after what carries the weight, not after its walls.",
+      "speaksTo": "driver: PROVIDE STRUCTURE"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In Kentucky, whisky ages in tall warehouses where the barrels rest in wooden racks. (A2, F2; BARREL STORAGE SYSTEMS pdf 219) No floor count (C1).",
+      "kind": "story",
+      "meaning": "Still how it's done today: a structure that stands.",
+      "speaksTo": "story: build it so that it stands"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In the simplest of them, the racks are joined into the core of the building, the floors are fixed to the racks, and the walls are only a covering put round it all. (A3, F4; pdf 219-220) Never \"every rickhouse\".",
+      "kind": "reveal",
+      "meaning": "What holds it up is inside, out of sight; the visible part carries nothing.",
+      "speaksTo": "story: the beam that was never really load-bearing (turned inside out) · fear: Deception"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "That covering can be brick, wood or corrugated tin. (A4, F4; pdf 220)",
+      "kind": "story",
+      "meaning": "The covering could be any of the three, and it isn't what carries the weight (v2: \"it doesn't matter\" was mine and went too far; the page never says the covering is irrelevant to the whisky).",
+      "speaksTo": "the decorative part can belong to anyone (Wren r1)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The barrels lie side-on to the aisles, so any one can be rolled out and moved, say from the hot top floor to the cooler bottom. (A5, F5; pdf 220) \"Can\", never \"are\": rotation is not widely used (C2, pdf 218).",
+      "kind": "story",
+      "meaning": "Built so it can be adjusted later, whether or not anyone does.",
+      "speaksTo": "story: test it in their head"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A great deal of air moves through a rickhouse, and that air, like the option of moving barrels, helps the whisky age evenly. (A6, F6; pdf 220; v2: the page credits the air to the rickhouse, not to \"open racks\", and says it helps, not that it's \"what lets\")",
+      "kind": "reveal",
+      "meaning": "The space is part of how it works. Built in with the racks, not left by chance; it serves the whisky, it holds nothing up (G4).",
+      "speaksTo": "essence: Vision and precision"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A newer way stands barrels upright on pallets, packed tight. It saves room and gives up the air. Irish and several Canadian distillers use it more and more. (A7, F7; pdf 220)",
+      "kind": "twin",
+      "meaning": "The tidier version, with a real trade-off. Never a failure or cheap; tight single-story warehouses are another sound route to even ageing (F10, pdf 218).",
+      "speaksTo": "Wren's shadow: packing it too tight"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "No designer or date is on record for the rickhouse; the page's only date is the older pyramid stack's. (A8, F8, G1; pdf 219)",
+      "kind": "inference",
+      "meaning": "Limb (1), a frame laid out before it was filled, is our inference: it lives in the guest's own scene, never \"someone drew it\".",
+      "speaksTo": "story: draw the plan"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Bourbon must age in new, charred oak; in Kentucky's hot, fairly dry summers it generally gets stronger as it ages, as water leaves before alcohol. Bourbon need not be made in Kentucky, but most is. (A9, F12-F13; WHISKY, BOURBON pdf 2138, 2140)",
+      "kind": "ingredient",
+      "meaning": "Why the glass holds bourbon: it's what the racks hold. Tomás's to use or not.",
+      "speaksTo": "Sage: Understanding"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Add the water and the peel, and that's your last job tonight. Then be a guest at your own evening.",
+    "contains": [],
+    "glassware": "small coupe, chilled, no ice",
+    "method": [
+      "The night before, stir the bourbon, popcorn syrup and bitters together in a small plastic bottle, or a jar with plenty of space at the top (glass can crack in the freezer if it's too full), close it and put it in the freezer. With no water in it yet, it won't freeze.",
+      "Ten minutes before serving, put the coupe in the freezer too.",
+      "Fill a jug with water and ice, and measure out 30 ml of the cold water, leaving the ice behind.",
+      "Pour the jar into the cold coupe, add the water and stir three or four times with a spoon.",
+      "Squeeze the peel over the top so its oils fall on the drink, then lay it on the rim or drop it in."
+    ],
+    "name": "What It Rests On",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "Kentucky straight bourbon",
+        "note": "any, 40 to 45%; if yours is 46 to 50%, use 40 ml of water below instead of 30"
+      },
+      {
+        "amount": "7.5 ml (1½ tsp)",
+        "item": "popcorn syrup",
+        "note": "100 g demerara sugar dissolved in 100 ml hot water; off the heat, stir in about 20 g plain popcorn (2½ cups, from about 2 tablespoons of kernels, popped dry or in a little plain oil, with no butter), cover for 30 minutes, then press it through a sieve. Makes about 120 ml; keeps a week in the fridge. If you use bought popcorn, check the pack: butter is dairy, and coconut oil counts as nuts"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "30 ml",
+        "item": "ice-cold water",
+        "note": "measured from a jug of water and ice, with no ice going in"
+      },
+      {
+        "amount": "1 strip",
+        "item": "orange or lemon peel",
+        "note": "whichever you have"
+      }
+    ],
+    "tagline": "People lean on what you make without ever wondering why it holds."
+  },
+  "pairing": "sage-creator",
+  "personality": "The Architect",
+  "reading": {
+    "epigraph": "Bourbon's grain is at least half corn. This glass hides a little more in the syrup.",
+    "whoYouAre": [
+      "By the time you say \"that'll work\", you've already watched it fall down a dozen ways. The trip for twelve, the move, the kitchen that has to feed everyone at once: you've walked through it in your mind, found where it gives, and fixed it while everybody else was still choosing dates. So your calm yes has a whole night of no behind it, and nobody ever hears that part.",
+      "You don't much mind how something looks. Someone else can pick the colours and the name. What you can't trust is a thing that only looks sound: the confident arrangement nobody has tested, the promise with nothing underneath. You'll say \"not yet\" to something everyone loves before you'll watch people stand on it.",
+      "They rarely know it, but this is what you give them. Nothing goes wrong, so nobody asks why. They get to enjoy the evening without once thinking about the floor, and that is care, even if it never gets called that."
+    ],
+    "yours": [
+      "In Kentucky, where most bourbon is made, barrels age in tall warehouses called rickhouses. The name comes from \"rick\", the word for the wooden structure the barrels rest in. In the simplest rickhouses, the racks aren't just inside the building. They are the building: joined into one frame, with the floors fixed onto it and the walls only a covering wrapped round the outside. It can be brick, wood or tin, and none of them takes the weight.",
+      "A great deal of air moves through a rickhouse, and that air helps the whisky age evenly. Each barrel lies side-on to the aisle, so it can be rolled out and moved if it ever needs to be. There's a newer, tidier way: barrels stood upright on pallets and packed tight. It saves plenty of space, at the cost of the air, and it's a fair trade for the distillers who choose it. But I like to think the open racks hold a lesson: their gaps were built in from the start.",
+      "I see you in that building. People notice the walls: the easy evening, the trip where nothing went wrong. Nobody sees the frame you set up underneath it in the nights before, with every weak spot already found. And you're happy to leave it unseen. Admiring the racks was never the point. They just have to take the weight.",
+      "So the cocktail I've made for you is a bourbon Old-Fashioned, the renowned classic, with what carries it hidden inside. By law, at least half of bourbon's grain is corn, and none of it shows in the glass. As a nod to the frame nobody sees, I steeped the sugar syrup with popcorn, so a toasted corn note sits quietly under the whiskey. It's mixed the night before and kept in the freezer, and its water is measured out rather than left to the ice, so what you pour is exactly what you meant. The only thing on show is a strip of peel, orange or lemon, whichever you have. Like the walls, it's the part that could be anything.",
+      "One thing I'd push you on, though. When it's for people who matter to you, you fill every gap, because a gap is one more thing that could go wrong. Next time you lay out a weekend for them, check every part as usual, and then put the gaps in yourself, as carefully as anything else: a chair nobody's been given, an afternoon with no name on it. You'll simply have given them some air, and in my experience that's where the best of a weekend usually happens."
+    ]
+  },
+  "status": "draft"
+}

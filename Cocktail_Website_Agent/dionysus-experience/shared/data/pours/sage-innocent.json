@@ -1,0 +1,125 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "A Berlin chemist, Mitscherlich, had written that the salts of tartaric acid and of its strange twin from a tartaric-acid works were alike in crystal form and make-up, yet only one turned polarised light. It seemed beyond men like Mitscherlich and Biot.",
+      "kind": "lineage",
+      "meaning": "The older answer was an honest miss, not a bluff.",
+      "speaksTo": "Wren's (4): an earlier senior answer, wrong on the record"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "At 25, just made a doctor, Pasteur noticed tiny facets on the crystals that Mitscherlich had missed. His first idea about them failed (the twin's crystals had them too), but they came in two forms, mirror images like a left and a right hand, and he sorted them by hand into two piles; each pile turned the light the opposite way.",
+      "kind": "reveal",
+      "meaning": "What they knew was something they saw for themselves, by looking closely at what others had looked past. (v1.2: \"harder than anyone thought worth it\" was mine, not on the page.)",
+      "speaksTo": "essence: knows more than you'd expect them to · story: a mind that runs ahead with wide-open eyes"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Biot, 74, who had studied this kind of light for thirty years, asked \"Are you quite sure?\" and said he'd like to investigate \"that young man's results\". His biographer says he found it hard to believe someone so new had managed it.",
+      "kind": "doubt",
+      "meaning": "The doubt was about who was saying it.",
+      "speaksTo": "fear: Being patronised"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Pasteur wrote asking to see Biot, wanting to convince him (biographer); Biot offered to verify the results. Biot used his own acid, had the salt made in front of him, set the dish in a corner of his room where nobody could touch it for two days, then made up the solutions and read the result himself.",
+      "kind": "test",
+      "meaning": "Being checked is being taken seriously: Pasteur answered by showing. (v1.2: \"asked to be checked\" and \"hid\" were mine.)",
+      "speaksTo": "Wren's (3): they answered by showing"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "When it came out as Pasteur said, Biot took his arm and, as Pasteur told it, called him \"my dear child\" and said he had loved the sciences so much that this made his heart beat. (French \"mon cher enfant\", our translation.)",
+      "kind": "blessing",
+      "meaning": "The words that usually sting were said by the one who had checked, as a blessing.",
+      "speaksTo": "story: the delight never went out of it"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His biographer says that when he explained his work, no question surprised him and he never laughed at not knowing.",
+      "kind": "gift",
+      "meaning": "They give everyone the respect they once had to wait for.",
+      "speaksTo": "fear: Being patronised (turned into what they give)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Tartaric acid is the main acid of grapes, first found in the crust inside wine barrels. The twin Pasteur sorted split into a right-hand acid, like the grapes' own, and a new left-hand one, and Biot read the left one first. (A7, L1, F3, F8, F18) Never \"grapes make only one form\" (F19) and never which hand is in a jar of powder (G2).",
+      "kind": "ingredient",
+      "meaning": "The grapes' own acid was the familiar half; what nobody had seen was its other hand.",
+      "speaksTo": "goal: Wisdom/Knowledge · essence: knows more than you'd expect them to"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Verjus is pressed from wine grapes before they've ripened, bottled unfermented, and the *Codex* uses a lot of it as the acid in stirred sours. Grapes' acids are tartaric and malic. (A8, L4; *Codex* p. 187, *LI* p. 61) The grapes are picked unripe on purpose.",
+      "kind": "riff",
+      "meaning": "The sour in the glass comes from the grape itself, the fruit whose acid he took apart (our reading; never about the guest's age, and nobody called the grapes \"not ready\").",
+      "speaksTo": "story: a mind that runs ahead with wide-open eyes"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Stir it until the outside is ice-cold. Next time you know something, leave off the \"I think\", and let them check.",
+    "contains": [],
+    "glassware": "coupe (about 220 ml), chilled, no ice",
+    "method": [
+      "Put the coupe in the freezer for 10 minutes, or fill it with ice water while you mix.",
+      "Pour the pisco, orange liqueur, blanc vermouth, verjus and syrup into a mixing glass or a jar.",
+      "Fill it with ice and stir for about 30 seconds, until the outside feels ice-cold. Don't shake it: shaking waters this one down too far.",
+      "Empty the coupe and strain the drink into it, with no ice.",
+      "Squeeze the orange peel over the top so its oils fall on the drink, then drop it in."
+    ],
+    "name": "Nothing Escaped You",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "pisco",
+        "note": "any unaged Peruvian or Chilean pisco, the clear grape brandy of South America, about 40%"
+      },
+      {
+        "amount": "20 ml",
+        "item": "orange liqueur",
+        "note": "a clear triple sec style at 40%, such as Cointreau"
+      },
+      {
+        "amount": "10 ml",
+        "item": "blanc vermouth",
+        "note": "the pale, lightly sweet French style, not dry or red"
+      },
+      {
+        "amount": "50 ml",
+        "item": "white verjus (verjus blanc)",
+        "note": "bottled, unfermented juice pressed from wine grapes. Once open, use it within a few days"
+      },
+      {
+        "amount": "2.5 ml (½ tsp)",
+        "item": "simple syrup",
+        "note": "equal parts sugar and water, stirred until clear"
+      },
+      {
+        "amount": "1 strip",
+        "item": "orange peel"
+      }
+    ],
+    "tagline": "You got there first. You're still glad you did."
+  },
+  "pairing": "sage-innocent",
+  "personality": "The Prodigy",
+  "reading": {
+    "epigraph": "A Sidecar without its lemon. The sour comes from the grape itself.",
+    "whoYouAre": [
+      "Someone is explaining your own subject to you, slowly, as if to a child. You've known it for years, better than they do. You smile, you let them finish, and you put \"I think\" in front of the part you're sure of. You learned that early, along with everything else: people hear who's talking before they hear what's said.",
+      "Being doubted doesn't hurt. A real \"show me\" is a kind of respect. The pat on the head does, from someone who never looked, and so does finding out that the confident voice was bluffing all along.",
+      "And the delight never went out of it. You give everyone the thing you once had to wait for: you never talk down to anybody. Ask you anything and you answer the real question. People leave a conversation with you feeling cleverer than before. Nobody forgets how that felt."
+    ],
+    "yours": [
+      "In Paris in 1848, Louis Pasteur was a chemist of twenty-five, just made a doctor. A senior Berlin chemist, Mitscherlich, had written about two salts. One came from tartaric acid, the main acid of grapes, the other from a strange twin found at a tartaric-acid works. Their crystals looked alike, yet in water only the first turned polarised light (light that vibrates in one direction) to one side. Pasteur noticed tiny facets on the crystals that Mitscherlich had missed. His first idea about them didn't work, so he looked closer: the twin's crystals came in two shapes, mirror images, like a left hand and a right. He sorted them into two piles, and each turned the light the opposite way.",
+      "Jean-Baptiste Biot, seventy-four, was an authority on that kind of light. \"Are you quite sure?\" he asked, and said he'd like to investigate \"that young man's results\". His biographer says Biot could hardly believe someone so new had managed it. Pasteur wrote and asked to show him. Biot offered to check it, brought his own acid, watched the salt being made, put the dish out of reach for two days, then made up the solutions and read the result himself. It was as Pasteur said. Biot took his arm and, as Pasteur told it, said: \"My dear child, I have loved the sciences so much in my life that this makes my heart beat.\"",
+      "My dear child. Those are the words you've been talked down to with, and here they come from the one person who had checked, as a blessing. I like to think that's what you've been hoping for since you were small: not to be believed on sight, but to be looked at properly. The doubt was never the insult. The insult is someone who never looks, and you've learned to tell the two apart faster than most. You've had plenty of practice. Pasteur's biographer adds that when he explained his chemistry, no question surprised him, and he never laughed at anyone for not knowing. That part is you as well.",
+      "The cocktail I've made for you is a Sidecar, a renowned classic, built on pisco, South America's clear grape brandy, with a little blanc vermouth (the pale, lightly sweet kind) and an orange liqueur. The change that matters: the lemon is gone, and white verjus, juice pressed from wine grapes before they ripen, gives the sour instead. I swapped it as a nod to Pasteur: the sourness is the grapes' own acid, and its tartaric is the familiar one of the two hands he sorted apart. It's stirred very cold and served up, bright and winy, with orange peel to finish.",
+      "So when someone doubts what you know, don't shrink and don't argue. Show them, the way he did, and let them look for themselves. The ones worth keeping will look. You've waited long enough to be believed. You don't have to wait to be heard. And I hope that more than once in your life, someone who checked takes your arm."
+    ]
+  },
+  "status": "draft"
+}

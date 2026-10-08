@@ -1,0 +1,124 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Félix Kir (1876–1968), a priest, became mayor of Dijon in 1945 (Oxford KIR pdf 1133; Joy pdf 315). The end year is contested (Oxford: until his death in 1968; Joy: \"until 1965\"), so the reading gives no end year and no length.",
+      "kind": "story",
+      "meaning": "a man of service before the drink carried his name",
+      "speaksTo": "the calm is chosen and carried in"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford: \"highly respected French resistance veteran\" (pdf 1133). Joy: \"revered for his work in the French resistance during World War II\" (pdf 315). Neither says what he did. (Secondary, card F8–F10: arrested in 1940 and 1943, condemned to death, shot and wounded in 1944. Dossier only.)",
+      "kind": "story",
+      "meaning": "what he'd been through was real, and it isn't what people came to him for",
+      "speaksTo": "the half nobody sees"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The drink is older than his name. Blanc Cassis is white wine and crème de cassis, and an earlier mayor, Henri Barabant, made it the official drink at the city's receptions (pdf 1133). The year and place of invention are contested (pdf 1133 vs pdf 2097), so they stay out.",
+      "kind": "story",
+      "meaning": "he didn't invent it; he poured what was already there",
+      "speaksTo": "calm brought in, not made"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Joy: \"He served what came to be known as the Kir at official functions\" (pdf 315). No source says *every*.",
+      "kind": "story",
+      "meaning": "a welcome, repeated",
+      "speaksTo": "the one who brings it in"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The name came after his election (pdf 1133). One Oxford account says the press renamed it \"as a tribute to him\" in the 1950s, after he drank nothing else in Paris (pdf 2097). The mechanism is contested (card C1), so the reading says only \"came to be known by his name\".",
+      "kind": "story",
+      "meaning": "the name came from who he was, not from anything he claimed",
+      "speaksTo": "known, but only by half"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His death in 1968 \"came at the very beginning\" of two decades of international vogue. Beard called it the \"favorite aperitif\" in 1970 (pdf 1133). Never \"he never saw it travel\": he took it to Paris himself (pdf 2097).",
+      "kind": "story",
+      "meaning": "he died just as the world was taking it up",
+      "speaksTo": "no credit asked"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Crème de cassis is a blackcurrant liqueur: the fruit is macerated in neutral alcohol, filtered and sugared, with at least 400 g of sugar per litre under French law. *Cassis de Dijon* is a protected name (Oxford CRÈME DE CASSIS pdf 597). Never \"syrup\".",
+      "kind": "lineage",
+      "meaning": "the dark heart of the glass belongs to Burgundy",
+      "speaksTo": "(none)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Kir Royale: crémant de Bourgogne or champagne in place of the still wine (pdf 1133). \"In the 1970s, the bubbles made their appearance\" (pdf 2097). So the sparkling glass is not the one he poured.",
+      "kind": "drink",
+      "meaning": "our cocktail starts from his glass and changes the wine",
+      "speaksTo": "(none)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Flavor Matrix, BERRY (pdf 52): basil is a \"Surprise Pairing\" for berries, and currants appear among the berries' substitutes. The book doesn't pair basil with blackcurrant by name: that step is Tomás's.",
+      "kind": "drink",
+      "meaning": "the spark, claimed at its true scope",
+      "speaksTo": "the part nobody expects arrives first"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The bubbles lift the basil's scent before the first sip (Tomás's own knowledge, unsourced).",
+      "kind": "our reading",
+      "meaning": "the basil is the first thing you meet",
+      "speaksTo": "\"meet the rest of you\" (y5)"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Let the Crémant carry the basil up. Then say one thing you'd usually leave outside.",
+    "contains": [],
+    "glassware": "a flute or wide coupe, chilled",
+    "method": [
+      "Put 8–10 fresh basil leaves in a small jug. Add the crème de cassis.",
+      "Press the leaves gently with a muddler or the back of a spoon for about 20 seconds — you want the oils, not pulp.",
+      "Fine-strain the basil cassis through a tea strainer into the chilled flute or wide coupe. Discard the leaves.",
+      "Pour the ice-cold Crémant slowly down the side of the glass. Do not stir.",
+      "Serve immediately."
+    ],
+    "name": "Before the Room",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "8–10 leaves",
+        "item": "fresh sweet basil",
+        "note": "muddle briefly in the cassis; fine-strain out before building"
+      },
+      {
+        "amount": "20 ml",
+        "item": "crème de cassis",
+        "note": "a sweet blackcurrant liqueur; the basil-muddled cassis is what goes in the glass"
+      },
+      {
+        "amount": "120 ml",
+        "item": "Crémant de Bourgogne",
+        "note": "sparkling wine from Burgundy, Kir's own region; or any dry sparkling wine; add last, over the cassis, down the side of the glass, no stir"
+      }
+    ],
+    "tagline": "Everyone breathes easier when you arrive. Nobody asks what you left at the door."
+  },
+  "pairing": "caregiver-innocent",
+  "personality": "The Angel",
+  "reading": {
+    "epigraph": "Everyone expects the cassis. The basil gets there first.",
+    "whoYouAre": [
+      "People think calm just comes to you. It doesn't. You bring it in with you, the way you'd bring a coat for someone who didn't think to. A rowdy kitchen goes quieter when you walk into it. Someone who was about to cry starts talking instead. Two people halfway through an argument remember that they like each other. Nobody thanks you, because nobody saw you do anything. You just came in.",
+      "Hardly anyone has seen you in a mood. Cross over nothing. Wanting the window seat, the last slice, an evening that's only yours. You keep all of that on the other side of the door. Somewhere you learned that being good is what keeps your place, and that wanting too much might cost you it. So the people who love you know half of you. It's the easy half, for them."
+    ],
+    "yours": [
+      "Félix Kir became mayor of Dijon in 1945. He hadn't invented the drink he's remembered for: Blanc Cassis, white wine and a measure of crème de cassis, the dark liqueur made from Burgundy's black currants, had been drunk in Burgundy for years before him. He served it at the city's receptions, set it out, and welcomed people with it. It came to be known by his name, and he died just as the rest of the world was taking it up.",
+      "He was also a respected veteran of the Resistance. We don't know what that meant for him, or what he brought into those receptions with him, but I like to think he understood what a glass does. You hand one to someone and the moment fills up: they thank you, they start talking, and nobody thinks to ask how you are. They knew the glass he handed them, and very little of what he carried in.",
+      "I think your calm works the same way. It's real, and it's generous, and it's also the safest place in the room to stand. If you're the one steadying everyone, nobody's looking at you, and nobody's cross with you, because you're never cross first. And as long as you only ever bring the calm, you never have to find out whether they'd love you with the rest. That's what it costs. Not that nobody sees the rest of you. That you never get to hear the answer.",
+      "The cocktail I've made for you starts from the one he poured, with two changes. Crémant de Bourgogne, Burgundy's sparkling wine, takes the place of the still white wine, built in the glass, not shaken. And before the Crémant goes in, a few basil leaves are pressed into the cassis and strained away. A Kir is supposed to taste of cassis. The bubbles carry the basil up, so the first thing you meet is the part nobody expected. I wanted that part first.",
+      "So start with whoever you're surest of. When they ask where you'd like to sit, don't say you don't mind. Say the window. And when something small makes you cross, let it reach your face before you smooth it over. It's a small thing to ask, and it will feel enormous. I don't think anyone will leave. I think they'll finally meet the rest of you."
+    ]
+  },
+  "status": "draft"
+}

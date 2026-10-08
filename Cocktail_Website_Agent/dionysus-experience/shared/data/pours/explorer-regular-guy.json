@@ -1,0 +1,126 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Ron Cooper was in Oaxaca on holiday with friends (Oxford, COOPER, RON pdf 573); in his own telling, a New Year's trip through Mexico that friends invited him on and he led, in Oaxaca \"to drink a little mezcal\" (VinePair 2021; F13).",
+      "kind": "story",
+      "meaning": "Company and a way back from the start: a trip, not an exile.",
+      "speaksTo": "whoYouAre, yours y1"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A policeman at a roadside checkpoint said his uncle made mezcal in the mountains; Cooper asked if he could get some (\"Really, can I get some?\"), and was told to come back the next day; it was unlike anything he'd had (VinePair 2021; F14). \"He came back\" is our close inference.",
+      "kind": "story",
+      "meaning": "The step past the usual: someone asked, and came back for it.",
+      "speaksTo": "yours y1"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He brought a couple of litres home and tasted them with friends: \"Everyone went crazy for it\"; a chef friend asked when he could bring in more (VinePair 2021; F15).",
+      "kind": "story",
+      "meaning": "The trip finished at his own table, told to friends.",
+      "speaksTo": "the one true thing; yours y2"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "\"I wanted to bring them back to the U.S. to share with friends, but I wasn't allowed\" (JBF 2016; F16; the reading quotes only \"but I wasn't allowed\"); he got the licences \"to make it available for me and my friends\" (VinePair 2021; F18).",
+      "kind": "motive (on record)",
+      "meaning": "Sharing was the reason, in his words, not our reading.",
+      "speaksTo": "yours y3 (why it's you)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "When he went back (a three-month trip to make art, with the mezcal hunting alongside; never \"for more\"), the border let him keep only a little, and he poured most of a jug of Chichicapa mezcal away (VinePair 2021, his account; F18; no number, C4).",
+      "kind": "fear",
+      "meaning": "Stuck = a find you can't bring home. He fixed the way back, not the trip.",
+      "speaksTo": "whoYouAre (fear)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He named the first mezcals after the villages where they were made, Chichicapa and San Luis del Río (Proper p. 248; Oxford pdf 573); sold as it is, not blended to suit a brand (Oxford, DEL MAGUEY pdf 638).",
+      "kind": "gift",
+      "meaning": "He came home with the address: the credit goes to the place.",
+      "speaksTo": "yours y3–y4; drink (named bottle)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Slowly placed in bars, and many drinkers took it straight (Proper p. 248); a cult following, then bartenders \"clamored\" (Oxford pdf 573).",
+      "kind": "outcome",
+      "meaning": "It came to be loved at home. No scale.",
+      "speaksTo": "yours y4"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He calls it \"a famous Mexican dicho\": you don't find mezcal, mezcal finds you (VinePair 2021; F22). In English it's a popular expression in the drinks trade (*Fortune*, 4 Aug 2019); I found no Mexican source for it independent of him, and Oxford's two recorded dichos are others (pdf 1288, 1291).",
+      "kind": "saying",
+      "meaning": "The villages' answer to \"discovered\". Cold epigraph: \"They say\", not \"in Mexico\"; in the reading, \"in Mexico\" only as his (\"a Mexican saying he quotes\").",
+      "speaksTo": "epigraph; y1 at most once"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Buy the honey on a street near home you've never walked down. It still counts.",
+    "contains": [],
+    "glassware": "a tall highball glass (about 300 ml), filled with ice",
+    "method": [
+      "Make the honey syrup ahead. In a small jar, stir 1 tablespoon of runny honey into 1 tablespoon of warm (not boiling) water until smooth, then let it cool. If your honey has set hard, stand the jar in hot water first so it runs. Keep it equal parts: a thicker syrup makes the drink too sweet. This makes enough for two drinks, and the rest keeps in the fridge.",
+      "Squeeze the grapefruit and the lime.",
+      "In a tall glass, pour the honey syrup, 1 teaspoon of lime, the grapefruit juice and the mezcal, then add a small pinch of salt. Stir until the honey and the salt have disappeared.",
+      "Fill the glass with ice. Top with the cold sparkling water, then lift the drink once from the bottom with a long spoon.",
+      "Set a grapefruit wedge on the rim."
+    ],
+    "name": "Brought Home",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "50 ml",
+        "item": "Del Maguey Chichicapa mezcal (recommended), or any unaged espadín mezcal of at least 40% that names its village on the label",
+        "note": "the village's name is on the bottle"
+      },
+      {
+        "amount": "15 ml",
+        "item": "honey syrup: equal parts runny honey and warm water, made with a honey from where you live (any runny honey works)",
+        "note": "the other place name in the glass, and most of its sweetness"
+      },
+      {
+        "amount": "30 ml",
+        "item": "fresh pink grapefruit juice (white works too)"
+      },
+      {
+        "amount": "1 teaspoon (5 ml)",
+        "item": "fresh lime juice"
+      },
+      {
+        "amount": "a small pinch",
+        "item": "fine salt",
+        "note": "as in the Paloma"
+      },
+      {
+        "amount": "100 ml",
+        "item": "cold sparkling water"
+      },
+      {
+        "amount": "1",
+        "item": "grapefruit wedge"
+      }
+    ],
+    "tagline": "Half the people you know have eaten somewhere because of you."
+  },
+  "pairing": "explorer-regular-guy",
+  "personality": "The Tourist",
+  "reading": {
+    "epigraph": "Two places go into this glass: a village in Mexico, and wherever you live.",
+    "whoYouAre": [
+      "You're halfway through the best meal of the trip, down a street the guidebook didn't mention, and you're already working out who you'll tell. You'll come home with the name of the place, what to order and who to ask for.",
+      "Truth is, you like the guidebook. Around people who brag about never booking anything, you leave the return ticket out. Softer still: the best night of a trip is sometimes the one after it, at your own table, telling it. Not because you didn't love being there. Because a find isn't finished until someone you love has heard about it. So the one trip you'd never book is the one with no way back: stuck somewhere, even somewhere beautiful, with no one to tell. You bring it home instead, and everyone who stayed gets to go a little. That's what you give them: the world, handed round, with directions."
+    ],
+    "yours": [
+      "Ron Cooper had been drinking mezcal for years, the everyday kind, and he'd always bring a bottle back for his friends. Then one New Year he led some friends on a trip through Mexico. At a checkpoint in Oaxaca, in the south, he told a policeman they'd come \"to drink a little mezcal\". The policeman said his uncle made mezcal up in the mountains. Cooper asked if he could get some. The uncle was coming down the next day: come back tomorrow, and there'd be some. Cooper came back. It was, in his words, \"mind-blowing\", unlike anything he'd had.",
+      "He bought a couple of litres, took them home and poured them for his friends. \"Everyone went crazy for it.\" Coming home from a later trip, he was told at the border he could bring in only a little, and he had to pour most of a big jug away, a jug from a village called Chichicapa. He did it \"tearfully\". He'd wanted to bring it home to share with friends, he said later, \"but I wasn't allowed\". So he got the licences to bring it in properly, and he named the first mezcals after the villages where they were made.",
+      "He quotes a Mexican saying: you don't find mezcal, mezcal finds you. The villages had it all along. What he did is what you do with every good find: he didn't keep it, and he didn't pass it off as his. He brought it home and put the village's name on the bottle, and anyone who loved it knew where to send their thanks. And I like to think what hurt at the border wasn't the mezcal going down the drain. It was the friends at home who'd never taste it. You'd feel it the same way.",
+      "The cocktail I've made for you is a Paloma, the long, bright drink people say Mexico orders instead of the Margarita, made here with mezcal instead of tequila, so it's smoky as well as sharp. I'd pour Del Maguey's Chichicapa: the village on that jug he had to pour away, and one of the first two he named on a bottle. Fresh grapefruit and a little lime give it its edge, and it's built in a tall glass, then filled with ice and lengthened with sparkling water. The sweetening is my change. Many bartenders make their own grapefruit soda, with sugar. I use honey, and I'd ask for a honey from near where you live, a jar from one place rather than a blend. Most of the drink's sweetness is that honey, so the glass doesn't work without it. That's for you. Home is half the trip for you, so it goes in with the same respect as the village. Two places, both named, and neither one the lesser. Any runny honey will do.",
+      "You don't need a ticket to go one street further. Away, you give a place everything: the market, the side street, the tip from someone who lives there. At home, you take the same road to the same shop. Try the street after it. Ask the person behind the counter where they'd eat. I'd bet there's a find twenty minutes from your door that nobody you know has heard of yet, and you're the one who'll tell them. That's a whole trip, and you'll be home in time to tell it."
+    ]
+  },
+  "status": "draft"
+}

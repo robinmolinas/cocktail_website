@@ -1,0 +1,115 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "In Naples, someone having a coffee at the bar pays for a second one before leaving, for someone who can't afford one (NPR 2013; Mancini, Global Informality Project; *Euronews* 2020).",
+      "kind": "gesture",
+      "meaning": "Kindness done as an ordinary purchase, at the price of one more coffee.",
+      "speaksTo": "Altruism; everyday kindness"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Whoever comes in later asks whether there's a suspended coffee, and is served (NPR 2013; Mancini).",
+      "kind": "reveal",
+      "meaning": "The one who asks is served as a customer. The question puts nobody in front of anyone.",
+      "speaksTo": "Belonging; fear of Exclusion; Fairness"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "One Italian scholar (Mancini) reads the question as \"a gentle query\": a direct \"Would you pay for a coffee for me?\" would stress the economic difference between two people, so the coffee seems to fall \"from the clouds\", not from the giver's hands. Interpretation, his.",
+      "kind": "reading",
+      "meaning": "The custom's own wording treats the person as someone, not as a problem.",
+      "speaksTo": "Respect; fear of Discourtesy and Indifference"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "A city's custom with no known first giver. How old it is isn't known: the sources say about a century, or the end of the Second World War, or that one can only speculate.",
+      "kind": "lineage",
+      "meaning": "Not one hero: ordinary people, one coffee at a time.",
+      "speaksTo": "Belonging; quiet kindness"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The giver doesn't choose: the coffee is for \"an unidentified future customer\" (Mancini), whoever \"entered later\" (De Crescenzo to NPR).",
+      "kind": "gesture",
+      "meaning": "Something left waiting for the ones you'll miss, stood on the one who walks in.",
+      "speaksTo": "Altruism; not passing by on the other side of the road"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Espresso's texture \"dies fairly quickly\" and a *caffè shakerato* (espresso shaken with ice and a little sugar) \"must be consumed very quickly\" (*Liquid Intelligence* pp. 352–353). Ours adds brandy and no cream; Arnold warns that liquor throws off a shakerato's body (p. 354).",
+      "kind": "riff",
+      "meaning": "A cup can't wait; what waits is the payment. So the coffee is made only when someone is there.",
+      "speaksTo": "Fairness; Belonging"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The *Flavor Matrix* lists coffee among the best pairings for root vegetables (celery root, parsnip, salsify), which are \"most commonly roasted or boiled and puréed\" (pdf 224).",
+      "kind": "ingredient",
+      "meaning": "The syrup is the part made ahead, for whoever comes later. Never a picture of people.",
+      "speaksTo": "Altruism"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The *Codex* pairs cognac with a coffee liqueur in a hot toddy, *In Hot Water* (Brittany Fells, 2014; p. 38).",
+      "kind": "pairing",
+      "meaning": "Brandy and coffee is an established pairing.",
+      "speaksTo": "—"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Make the syrup before you know who it's for.",
+    "contains": [],
+    "glassware": "chilled coupe",
+    "method": [
+      "Ahead of time: peel and slice 250 g of parsnips and roast them at 200°C for about 35 minutes, until the edges are brown. Simmer them for 10 minutes with 250 g sugar and 250 ml water, let it cool, then strain, pressing on the parsnips. You'll have about 400 ml, enough for twenty-odd drinks. Keep it in the fridge.",
+      "Chill the glass.",
+      "When someone's actually there, pull one espresso. Never before: it loses its texture fast.",
+      "Put the brandy, the syrup and the salt in a shaker, then the espresso. Fill it with ice and shake hard for about 10 seconds.",
+      "Strain into the cold glass and drink it at once: the texture doesn't last."
+    ],
+    "name": "Whoever Comes In",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "brandy",
+        "note": "an aged grape brandy, such as a VS cognac or a Spanish brandy"
+      },
+      {
+        "amount": "30 ml",
+        "item": "espresso",
+        "note": "one shot, pulled only when you're about to shake; a stovetop moka pot works too, though the foam will be thinner"
+      },
+      {
+        "amount": "15 ml",
+        "item": "roasted parsnip syrup",
+        "note": "made ahead; the jar keeps about a week in the fridge"
+      },
+      {
+        "amount": "2 drops",
+        "item": "salt water",
+        "note": "or a small pinch of salt"
+      }
+    ],
+    "tagline": "Most people learn not to look. You never did."
+  },
+  "pairing": "regular-guy-caregiver",
+  "personality": "The Good Samaritan",
+  "reading": {
+    "epigraph": "Part of this drink is made days ahead. The rest waits until someone's there.",
+    "whoYouAre": [
+      "Most people pick up a knack from living among strangers: looking through someone. The person sitting by the cash machine with a paper cup, the one talking to nobody on the bus, the tourist turning the map round for the third time. Everyone else's eyes slide past. Your eyes stop. You say hello. You ask where they're trying to get to. For a minute, someone everyone had stopped seeing is just a person in the queue again.",
+      "What people miss is the cost. The ones you walk past, because you were late or tired, follow you home for longer than all the times you stopped. You'd hate to be called good. You're just more afraid of a street where everyone has stopped looking, where anyone could end up being stepped round, you included. The people you stop for get to be someone, not a problem. And everyone watching learns that stopping is normal."
+    ],
+    "yours": [
+      "Naples has an old custom called the *caffè sospeso*, the suspended coffee. Someone having a coffee at the bar pays for a second one before they leave, for someone who can't afford one. Nobody knows how old it is, or how it began; the stories don't agree. It doesn't belong to anyone in particular. It's just something people there do, one coffee at a time.",
+      "Later, somebody comes in and asks at the bar: is there a suspended coffee? If there is, they're served like any other customer. One Italian scholar reads that question as the gentle part. Nobody has to say \"would you pay for a coffee for me?\", so the difference between the two of them never has to be said out loud. The coffee arrives, as the scholar puts it, \"from the clouds\", not from somebody's hand.",
+      "I like to think the people who keep it going see whoever walks in next the way you see a stranger: as someone, not a problem. And whoever pays never chooses who gets it. It's for whoever comes in. That's how your kindness works too: it starts with stopping, before you know a thing about them.",
+      "The cocktail I've made for you is built the way the custom works. Part of it is made days ahead, as a nod to the coffee paid for someone who hasn't come in yet: a syrup of roasted parsnips, sweet and a little earthy, with enough in the jar for twenty-odd drinks, waiting in the fridge for whoever's next. The rest is only made when someone's actually there, because espresso loses its texture fast. One shot, pulled fresh, shaken hard with brandy, the syrup and two drops of salt water, poured into a cold coupe and drunk at once. It starts from the Italian *shakerato*, espresso shaken with ice and lightly sweetened; I've added the brandy. Coffee is listed among parsnip's best pairings in the flavour book I trust most: think of carrot cake with a strong coffee.",
+      "You can't stop for every one. Nobody can, and the ones you miss will come back to you later. So leave something waiting for them: a coffee paid ahead at the place you go every morning, an hour given somewhere they'll come in after you've gone. Then, some morning when you're late and you hurry past, you'll know something's already there for them, and they won't follow you home."
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,145 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Ralph Erenzo, a climber for about thirty years, had camped for about twenty-five of them on climbing trips to the Gunks, at a spot with no toilets, no running water and no management. That's why he decided to open a campground (his own account, Gunks Climbers' Coalition interview, c. 2015; card F4).",
+      "kind": "story",
+      "meaning": "A shortcoming everyone had put up with for years, and the one who decided to do something about it.",
+      "speaksTo": "test 2; the one true thing"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 2001 he bought the old Tuthilltown gristmill property near Gardiner, NY, to run a campground for climbers visiting the Shawangunk Ridge. His neighbours objected (Oxford HUDSON pdf 1037; card F1).",
+      "kind": "story",
+      "meaning": "The first go, made in public and blocked.",
+      "speaksTo": "test 3"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Three years with no income and legal fees. One neighbour said the aim was to stall him until his money ran out and he had to sell. That's Erenzo's memory of it, and it's about the campground, not the distillery (GCC interview, c. 2015; card F5).",
+      "kind": "cost",
+      "meaning": "The doubters, out loud.",
+      "speaksTo": "test 3; the fear (\"who asked you?\")"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Erenzo asked the local zoning officer what he could do with the land. He was told it lay in an agricultural district, where farming was his right, and that a winery counts as farming (GCC interview, c. 2015; card F6).",
+      "kind": "turn",
+      "meaning": "He was pointed in a direction. He didn't find the law (the Trailblazer fence).",
+      "speaksTo": "fence: *Fine by Me*"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 2007 the AP called Erenzo and Brian Lee \"unlikely spirit makers\". Erenzo had run a climbing gym in Manhattan, and Lee was a broadcast engineer. Lee joked that his only fermenting had been cinnamon buns with his kids (AP, 15 July 2007, via NBC News; cards F7–F8).",
+      "kind": "amateurs",
+      "meaning": "No title, no training, and a joke about it.",
+      "speaksTo": "test 1; \"let it be funny\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Erenzo, 2007: about two and a half years \"from a dead stop knowing nothing about it\" to a working still. In 2017 he said he started with no prior knowledge, from instructions on the internet. Lee learned the fermenting and installed the still (AP 2007; *Whiskey Reviewer* 2017; cards F9–F11).",
+      "kind": "learning",
+      "meaning": "Learning the job while doing it, in plain view.",
+      "speaksTo": "test 4; hides (reads up at night)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Gable was recruited when the distillery was founded, while he was still at university. Ralph, recalling it in 2021: \"I'm building a distillery – I need your help!\" Gable learned distilling \"from the ground up\" (*Hudson Valley One*, 11 May 2021; card F13). The page calls it a \"call for help\". It never says the call was by phone, and it gives no reason for it.",
+      "kind": "gift",
+      "meaning": "Saying the second half out loud: \"I need your help\".",
+      "speaksTo": "test 6; the position"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Tuthilltown's first product was a vodka from New York apples. In 2007 came Hudson Manhattan Rye, 92 proof, from 100% New York rye (Oxford pdf 1037; card F3). The AP reported that the apple vodka kept a faint apple taste (card F21).",
+      "kind": "lineage",
+      "meaning": "Their first go (apples) beside what they got good at (rye).",
+      "speaksTo": "the drink; the spark"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "June 2015: the state's agriculture department said Tuthilltown was \"one of more than 100 craft distilleries\" operating in New York, and its commissioner called it \"a model for beverage producers across the state\" (NYS Agriculture and Markets, 12 June 2015; card F16). It says nothing about cause, and nothing about the Act.",
+      "kind": "result",
+      "meaning": "What they started reached others, as the state said it.",
+      "speaksTo": "test 5 (Wren r3: stands alone)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Hudson Manhattan Rye was renamed **Do The Rye Thing** in 2020, with a new recipe: 95% rye and 5% malted barley. It is bottled at 46% and called a New York straight rye. The brand is wholly owned by William Grant & Sons (*The Spirits Business*, 15 Sep 2020; hudsonwhiskey.com, fetched 2026-10-01; card F22–F24).",
+      "kind": "bottle",
+      "meaning": "Today's bottle descends from the amateurs' rye, but it isn't the 2007 bottle: never \"100% New York rye\" for today's bottle, and never \"theirs\".",
+      "speaksTo": "the drink: makeable, honest"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "*Cocktail Codex* p. 22: pull back the base and add another spirit \"like apple brandy, to accent the primary spirit\"; rye and apple brandy are \"a magical, crowd-pleasing combination\".",
+      "kind": "pairing",
+      "meaning": "The split base is craft as well as story. That's one book's praise, not \"famously\".",
+      "speaksTo": "the drink"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Make it before you've practised, with someone watching. Ask for a hand before you need one.",
+    "contains": [],
+    "glassware": "rocks glass, one large cube",
+    "method": [
+      "Put a large ice cube in the rocks glass to chill it while you mix.",
+      "Pour the rye, apple brandy, vermouth, syrup and bitters into a mixing glass or a jar, and fill it with ice.",
+      "Stir for about 30 seconds, until the outside of the glass is very cold.",
+      "Strain it over the large cube.",
+      "Squeeze the orange peel over the top, skin side down, so its oils fall on the drink, then drop it in."
+    ],
+    "name": "I'll Do It",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml",
+        "item": "Hudson Do The Rye Thing New York straight rye (recommended)",
+        "note": "the rye line those amateurs began, sold today under this name; or any straight rye, ideally one distilled in New York State"
+      },
+      {
+        "amount": "15 ml",
+        "item": "American apple brandy",
+        "note": "bottled-in-bond (50%) if you can find it; any American apple brandy of 40% or more works"
+      },
+      {
+        "amount": "30 ml",
+        "item": "sweet vermouth",
+        "note": "a red Italian-style vermouth"
+      },
+      {
+        "amount": "½ tsp",
+        "item": "demerara syrup",
+        "note": "equal parts demerara sugar and hot water, stirred until clear, then cooled"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "1",
+        "item": "strip of orange peel",
+        "note": "for the top"
+      }
+    ],
+    "tagline": "You say yes before you know how."
+  },
+  "pairing": "regular-guy-hero",
+  "personality": "The Have A Go Hero",
+  "reading": {
+    "epigraph": "The rye this drink calls for was first made in a barn, by amateurs.",
+    "whoYouAre": [
+      "Someone says it in the pub, on the doorstep or in the group chat: somebody really ought to do something about it. The broken bench, the club with no treasurer, the school play nobody will run. Everyone nods. Before you can stop yourself, you've said \"I'll do it\", and only later, doing the washing-up, do you realise you've no idea how.",
+      "Nobody hears about the evenings: the videos, the forums, the cousin who might know. You're out of your depth most of the way through, and you know it. The words you dread are \"who asked you?\", and worse, the doubters turning out to be right. You go anyway, partly because if you thought about it any longer, you wouldn't. The thing everyone was waiting for somebody to fix gets fixed. And because you so plainly need a hand, people who'd never have volunteered end up holding the ladder. It counts for more than you know: what was everyone's complaint becomes something they did together."
+    ],
+    "yours": [
+      "For about twenty-five years, Ralph Erenzo had camped on climbing trips to New York's Shawangunk Ridge with no toilets and no running water. So in 2001 he bought an old mill near the ridge to give climbers a proper campground. The neighbours objected. One of them, as Erenzo remembers it, told him the aim was to stall until his money ran out.",
+      "When the campground stalled, Erenzo asked the town's zoning officer what he could do with the land, and heard that a winery counts as farming. So Erenzo and Brian Lee, a broadcast engineer, set out to make spirits instead. Neither had any idea how. Lee joked that the only fermenting he'd ever done was cinnamon buns with his children. By Erenzo's count it took about two and a half years, from knowing nothing, to switching the still on and making alcohol. He said later that he worked from instructions he found online. And right at the start, Erenzo had asked his son, Gable, too: \"I'm building a distillery – I need your help!\"",
+      "Their first bottles held a vodka made from New York apples. Later came their whiskeys, among them a rye from New York grain. By 2015 the state counted more than a hundred craft distilleries, and its agriculture commissioner called Tuthilltown a model for producers across the state. I like to think the best thing Erenzo made there wasn't in a bottle. It was that call for help: what he was about to try, and that he couldn't do it alone, in a single sentence, long before he knew how. You always say the first half. It's the second half you swallow.",
+      "The cocktail I've made for you is a Manhattan, one of the great classics: rye stirred with sweet vermouth (a red, wine-based aperitif with herbs) and bitters, then poured over a single large ice cube, and an orange peel pinched over it so its oils land on the drink. It's built for Hudson's rye, sold today as Do The Rye Thing, the line those amateurs began, if you can find it. Beside the rye there's a little apple brandy, as a nod to the apples they started with. It isn't their vodka. It's their first go, kept next to the thing they got good at, and one of my favourite cocktail books calls rye with apple brandy magical. It comes out deep and warm, a little sweet, and brighter for the apple.",
+      "So, when \"I'll do it\" next comes out of your mouth, finish the sentence: \"and I'll need a hand.\" Say it at the start, while you still don't know how, and say who you'd like. You worry it'll show how out of your depth you are. It will, a little. It's also the reason they'll come. The job gets done sooner, nobody waits for the experts, and the thing you started ends up belonging to everyone who helped."
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,134 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "Alfred Barnard (1837–1918), an English journalist, is regarded as the first whisky writer (Oxford BARNARD pdf 211).",
+      "kind": "person",
+      "meaning": "Keep \"regarded as\". Warmth and humour come with him (A8), so he is never a cold figure.",
+      "speaksTo": "stance; Wren's (4)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In 1885 a London trade journal, *Harper's Weekly Gazette*, commissioned him to tour all the whisky distilleries; the reports were published two years later, in 1887, as *The Whisky Distilleries of the United Kingdom* (pdf 211; 1887 also pdf 402, 1079, 2153, 2177).",
+      "kind": "commission",
+      "meaning": "He was sent by the trade, not independent. \"Sent to visit every distillery\" is the commission's aim; no page counts the ones he reached. Never the 1889 edition as the first (C2).",
+      "speaksTo": "story (setting)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "His tour took in Ireland: 28 distilleries working there in 1887 (pdf 2153; 18 in today's republic, 10 in the north, pdf 1079).",
+      "kind": "scope",
+      "meaning": "Say \"Britain and Ireland\", not Oxford's loose \"Britain\".",
+      "speaksTo": "story (setting)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford notes the precision of his writing about the small details of much of the equipment at each distillery (pdf 211).",
+      "kind": "detail",
+      "meaning": "Wren's (1): the dull detail on show. \"Much of\", not all.",
+      "speaksTo": "whoYouAre; story"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Later Oxford entries measure change from his 1887 figures (pdf 1079: 18 in the republic in 1887, three by the 1960s; pdf 2153); his still-house pictures are captioned as he found them in the 1880s (pdf 2150, 2168); Oxford calls it the earliest and most accurate account, and the template for many later books (pdf 211); reprinted 1987 (pdf 212).",
+      "kind": "still counted from",
+      "meaning": "Wren's (2): later writers still count from his figures. Not \"everyone trusts it\". The fall needs its date, \"by the 1960s\" (audit v1 H1). \"Most accurate\" is Oxford's judgement, attributed.",
+      "speaksTo": "reveal"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford says his book barely mentions casks (pdf 211). Single source, Oxford's characterisation; the book itself is unread (library gap).",
+      "kind": "the gap",
+      "meaning": "Wren's (3): our reading only: even this record has a gap, and later writers still count from it. No reason given (C1), no \"missed\", no \"never\".",
+      "speaksTo": "why it's you"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford's reason for the gap (casks thought unimportant, pdf 211) is contradicted by PAXARETE pdf 1483 (19th-century producers prized ex-sherry casks).",
+      "kind": "conflict",
+      "meaning": "Kept out of guest text. Paxarete never appears: pairing it with the gap makes a miss (G1), and sherry is the Connoisseur's.",
+      "speaksTo": "dossier only"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford pairs his fussy love of detail with a sociable, funny man, whose accounts are dotted with lively scenes from the journey and read as a travelogue (pdf 211).",
+      "kind": "warmth",
+      "meaning": "Wren's (4), on the page. Paraphrase only: Oxford's phrases are copy risks.",
+      "speaksTo": "whoYouAre; tone"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He was in the end a freelance journalist who also wrote shorter pieces for individual distilleries (pdf 211).",
+      "kind": "not independent",
+      "meaning": "Guard: never \"independent\"; the distillery names stay out.",
+      "speaksTo": "guard"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "In Britain, whisky and soda took over from brandy and soda, becoming the standard once vine disease hit the cognac supply in the second half of the nineteenth century (HIGHBALL pdf 1005).",
+      "kind": "drink context",
+      "meaning": "One clause at most, never the reason for the drink. Date it \"the second half of the century\", the page's span; the standard among soda drinks, not Britain's standard drink (audit v1 H4).",
+      "speaksTo": "the drink"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Vanillin is among the compounds an oak barrel gives a spirit (MATURATION pdf 1265; BOTANICAL pdf 321).",
+      "kind": "cask flavour",
+      "meaning": "Supports Tomás's vanilla as a nod to the cask. Never \"the vanilla is the cask\".",
+      "speaksTo": "the drink (spark)"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Ease the first cube in slowly. Then leave the hunch in the margin, where someone will find it.",
+    "contains": [],
+    "glassware": "tall highball glass (about 300 ml), chilled in the freezer, 1-inch ice cubes added one at a time",
+    "method": [
+      "Put the glass in the freezer for at least 15 minutes, and the soda in the fridge.",
+      "Pour the whisky and the vanilla into the cold glass.",
+      "Lower one ice cube in with a bar spoon so it doesn't crack, and wait about 10 seconds.",
+      "Stir slowly until drops form on the outside of the glass, about 10 seconds.",
+      "Add one or two more cubes, until the ice is two-thirds of the way up, and stir briefly.",
+      "Pour in just enough soda that the ice doesn't float. Push the spoon to the bottom, raise the lowest cube about an inch, and lower it again: that mixes it without knocking out the bubbles.",
+      "Add a last cube and the rest of the soda. Stir once, a single turn, and serve straight away."
+    ],
+    "name": "Note to Self",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "50 ml",
+        "item": "unpeated Highland single malt Scotch whisky",
+        "note": "ideally one whose label says it was aged in bourbon casks, with no sherry or wine finish"
+      },
+      {
+        "amount": "⅛ teaspoon",
+        "item": "pure vanilla extract",
+        "note": "the real thing, not \"vanilla flavouring\"; oak casks give whisky some of the same flavour"
+      },
+      {
+        "amount": "100 ml",
+        "item": "soda water or seltzer, very cold",
+        "note": "straight from the fridge; two parts soda to one of whisky"
+      }
+    ],
+    "tagline": "Impressive is easy. Exact is what you're after."
+  },
+  "pairing": "sage-ruler",
+  "personality": "The Scientist",
+  "reading": {
+    "epigraph": "A careful 1887 book on whisky hardly mentions casks. The vanilla here is for them.",
+    "whoYouAre": [
+      "You know when the boiler was last serviced, what the meter read in March, and how long bread really takes in your oven, not what the packet says. When an argument starts about how things used to be, you don't join in. You fetch the notes.",
+      "Some people mistake that for coolness. It isn't. Writing it down is how you keep a messy world still enough to think in. And, though you rarely admit it, it's one of the things you enjoy most. You're better company than your notebook suggests.",
+      "What haunts you is the thing you never thought to write down, the one that mattered after all, in a column you didn't make. But when someone needs to know what really changed, nobody has to guess. They count from your numbers, and the count holds."
+    ],
+    "yours": [
+      "In 1885 a London trade paper sent a journalist called Alfred Barnard to visit every whisky distillery in Britain and Ireland. Two years later his reports came out as one book, *The Whisky Distilleries of the United Kingdom*. He's regarded as the first whisky writer. He set down the small details of much of the equipment at each distillery, and a modern reference book on spirits calls his book the earliest and most accurate account of the industry in its day.",
+      "Writers still count from his numbers. In 1887 he found eighteen distilleries working in what is now the Republic of Ireland. By the 1960s there were three, and that fall is still measured from his eighteen. Old pictures of still houses are captioned as he found them. And yet his book hardly mentions the casks. We don't know why. For all his fussing over detail, he was sociable and funny, and he dotted his reports with scenes from the journey, so the book reads as a travel story too. A hundred years on, it was reprinted.",
+      "I like to think two things kept it on the shelf: everything he did write down can be checked, and you can tell he was enjoying himself. I see you in both. Your notes will have a gap somewhere. Everyone's do. His gap hasn't stopped people counting from his book.",
+      "So the cocktail I've made for you is a true classic, the whisky highball: whisky and soda, which took over from brandy and soda in Britain in the second half of the nineteenth century. It's an unpeated Highland single malt, ideally one whose label says it was aged in bourbon casks, lengthened with two parts very cold soda. It's built step by step, and every step has a reason. A frozen glass and cold soda keep the bubbles. The first cube is lowered in slowly, so it doesn't crack. The bottom cube is lifted once, to mix it without knocking out the fizz. I've added one touch: a little real vanilla, as a nod to the casks his book hardly mentions, since oak casks give whisky some of that same flavour. It's there in the recipe, like everything else.",
+      "A last thought, and it isn't about the numbers. Keep the readings, the dates and the bread times exactly as you do. But put yourself in the notes too: the joke, the hunch, the part you loved. The numbers are what people will check. You are what they'll want to read."
+    ]
+  },
+  "status": "draft"
+}

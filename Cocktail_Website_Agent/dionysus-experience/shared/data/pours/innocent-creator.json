@@ -1,0 +1,103 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "The Kalimotxo is red wine and cola in equal parts, usually over ice, and immensely popular in the Basque Country. Oxford's recipe: a tall glass of ice, stir (F1; Oxford pdf 386). Called a Basque-country classic (F9, Schaap 2013).",
+      "kind": "drink",
+      "meaning": "something plain and obvious that the people it's for love as it is",
+      "speaksTo": "\"It's obviously lovely.\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Spaniards were probably mixing wine and cola decades before it had this name, since the 1920s at least (F2, Oxford \"likely\"; F11 council, flat). Its older names include \"Rioja Libre\" (R1). So say **named**, never **invented**.",
+      "kind": "lineage",
+      "meaning": "it was always obvious to the people drinking it; nobody needed permission (our reading)",
+      "speaksTo": "\"It hasn't crossed your mind that there's a proper way to do it.\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The name \"Kalimotxo\" spread through the Basque Country and Navarre and was popular by the early 1980s, then spread across Spain (F11, F14; council account via EFE 2022, secondary). Its root is **a friend's nickname** and nothing more (C1). Elsewhere it's *bambus* across much of the former Yugoslavia, *vadász* in Hungary (F5, F13; never Chile's name, which is contested).",
+      "kind": "name",
+      "meaning": "a thing made for the people nearby that travelled on their love for it alone",
+      "speaksTo": "\"the people it's for can always tell\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "An undated scene, told by a writer in the *Guardian* (2012): in a Granada tapas bar, his partner poured cola into a glass of the good local red, and the barman came down the bar pointing. The house wine from the barrel is the one you mix, this bottle isn't (F10, F15). Craft agrees: nobody puts a grand wine in it (F8, *Codex* p. 18). The knowing's wider verdict: Oxford files it among drinks with \"no baggage and no rules\" and says many felt they gave up complexity and elegance (F6, pdf 1332, scoped to the whole canon).",
+      "kind": "frown",
+      "meaning": "the rule, explained, pointing, to someone who didn't see the problem",
+      "speaksTo": "\"Someone explains, kindly, how it's usually done. You nod.\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The version of its history considered the most reliable comes from a book edited by a Bilbao artists' collective, Funky Project. Oxford admits the name doesn't sound authoritative, and takes them at their word because Bilbao takes the drink seriously (F4, pdf 386; paraphrase only, never \"not very authoritative-sounding\").",
+      "kind": "reveal",
+      "meaning": "the people it's for are the authority, and the big book deferred to them",
+      "speaksTo": "\"You still don't see what was wrong with it.\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Its taste has been likened to sangria (F12; Oxford pdf 386, Schaap 2013).",
+      "kind": "taste",
+      "meaning": "worth having as it is, with no wink (our reading)",
+      "speaksTo": "\"It's obviously lovely.\""
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Ordinary ice dilutes a drink as it chills it: no chilling without dilution (*LI* p. 84, Tomás). Cubes frozen from the same equal parts melt into more of the drink, not into water. The cola in the tray goes flat, so the fizz comes from the fresh pour (Tomás's spec, pending).",
+      "kind": "spark",
+      "meaning": "what you make should stay as you made it, to the last sip (our reading, said to the guest in y4)",
+      "speaksTo": "\"It looks like how the thing felt\""
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Stir once, over its own ice. How it's usually done can wait until they've tasted it.",
+    "contains": [],
+    "glassware": "tall glass (about 400 ml), filled with the frozen Kalimotxo cubes",
+    "method": [
+      "**The cubes (at least 6 hours ahead).** Stir 150 ml red wine and 150 ml cola together in a jug until the fizz settles, so the tray doesn't foam over. Pour into an ice-cube tray (a silicone one is easiest: the cubes come out soft) and freeze on the coldest setting. They freeze softer than water ice, a bit like an ice lolly.",
+      "Put the wine and a fresh bottle of cola in the fridge, so both are cold.",
+      "Fill a tall glass to the top with the cubes, straight from the freezer.",
+      "Pour in the wine, then the cola, slowly: it foams up on the cubes.",
+      "Stir once, gently, and serve it straight away."
+    ],
+    "name": "The Way It Felt",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "100 ml",
+        "item": "young Spanish red wine, unoaked (a young Rioja or Garnacha, the kind poured by the glass)",
+        "note": "fridge-cold; never a grand bottle"
+      },
+      {
+        "amount": "100 ml",
+        "item": "Coca-Cola, recommended (or any full-sugar cola)",
+        "note": "fridge-cold, freshly opened: the fizz comes from this pour"
+      },
+      {
+        "amount": "about 8 cubes (a glassful)",
+        "item": "cubes frozen from the same half and half",
+        "note": "made first, below; they melt into more of the drink, not water"
+      }
+    ],
+    "tagline": "You never saw what was wrong with it. Nor did anyone it was for."
+  },
+  "pairing": "innocent-creator",
+  "personality": "The Naive Artist",
+  "reading": {
+    "epigraph": "Half red wine, half cola. There's a right bottle to mix, apparently.",
+    "whoYouAre": [
+      "What you've made, you hand over straight away: a cake iced the colour the day felt, a card you drew instead of buying one, a birthday song with one verse too many. It's obviously lovely. It hasn't crossed your mind that there's a proper way to do it.",
+      "Then someone explains, kindly, how it's usually done. You nod. You still don't see what was wrong with it. The day you'd dread is the one when the explanation starts to make sense. Because what you make rarely looks like the thing. It looks like how the thing felt, and the people it's for can always tell. That's rarer than getting it right, and it's worth more."
+    ],
+    "yours": [
+      "In the Basque Country, people pour red wine and cola into a tall glass of ice, half and half, and call it a Kalimotxo. Spaniards had probably been mixing the two since at least the 1920s. The name, the story goes, came at a festival in Algorta in 1972, after a friend's nickname, and within about ten years it had caught on through the Basque Country and Navarre. In much of the former Yugoslavia it's bambus; in Hungary, vadász.",
+      "People who know wine have their doubts. A writer in the *Guardian* once remembered a tapas bar in Granada where his partner started pouring cola into a glass of the good local red. The barman saw it and came down the bar, pointing: the house wine from the barrel is the one you mix, and this bottle, you don't.",
+      "In Bilbao, they take it seriously. The most trusted account of its history was put together by an artists' collective there called Funky Project. The *Oxford Companion to Spirits and Cocktails* admits that doesn't sound much like an authority, then takes them at their word anyway, for that very reason.",
+      "I like to think you'd have done what the Basques did: looked at the wine and the cola, and not seen the problem. So the cocktail I've made for you is a Kalimotxo, the way they pour it: red wine and Coca-Cola, half and half, stirred. My red is a young Spanish one, the kind poured by the glass. It's a Basque classic, dark, cold and fizzy, a little like sangria. I haven't corrected a thing. The one change is the ice. It's the same drink, frozen into cubes first, so as it melts it turns into more of itself, never into water, so nothing waters it down. The fizz comes from the fresh pour. That's for you: something you make should still be what you made, right to the last of it.",
+      "So when someone next explains the proper way, listen. Some of it will be useful. Then make the next thing the way it looked to you, and hand it straight to whoever you made it for, before anyone else sees it. They'll see what you meant. And you'll get to enjoy making it again, the way you did before anyone explained."
+    ]
+  },
+  "status": "draft"
+}

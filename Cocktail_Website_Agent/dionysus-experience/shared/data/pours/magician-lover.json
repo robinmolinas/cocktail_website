@@ -1,0 +1,102 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "A small hotel bar in London is known around the world for its Martini, made at the table from a trolley (A1; F1–F2; Oxford DUKES BAR pdf 689, primary).",
+      "kind": "place",
+      "meaning": "The effect is real, and it's what people come for.",
+      "speaksTo": "test 1 · y1"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Gin (or vodka) poured frozen straight from the bottle into the glass, with a dash of vermouth from a dasher and a lemon twist; never shaken or stirred (A2; F2–F3; Oxford pdf 689, primary).",
+      "kind": "gesture",
+      "meaning": "Nothing is done to make it gentler: it arrives whole. (\"Chose not to weaken it\" is ours: signpost.)",
+      "speaksTo": "test 2 · y1–y2"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Oxford calls the result unusually strong and concentrated (A3; F4; Oxford pdf 689, primary).",
+      "kind": "story",
+      "meaning": "The strength is the drink's, never the guest's.",
+      "speaksTo": "test 1 · y2 (drink only)"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "That strength is why the bar has a house rule: two Martinis at most per guest. Oxford calls the rule famous (A4; F5; Oxford pdf 689, primary).",
+      "kind": "story",
+      "meaning": "The care went into a rule, not into the glass. Who made it, when, and why in their words: not on any page. Any motive or \"telling you the truth\" gets \"I like to think\".",
+      "speaksTo": "test 2–3 · y2"
+    },
+    {
+      "dossierOnly": true,
+      "fact": "The house's own bar page (Feb 2021) celebrates the Martini and doesn't mention the rule (A5; F10; dukeshotel.com via Wayback, secondary web).",
+      "kind": "story",
+      "meaning": "Dossier only; it's why \"said out loud\" stays our reading.",
+      "speaksTo": "dossier"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Film stars, politicians and royals have sought refuge in its intimate, wood-panelled room; in 1988 Amis put it among the best places of its kind in London, perhaps the best (A6; F7–F8; Oxford pdf 689, primary).",
+      "kind": "place",
+      "meaning": "People seek it out, and they come for refuge, not for a wild night.",
+      "speaksTo": "test 4 · y2 or y3"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Other bars copied the cart: the Connaught's 2008 Martini trolley was a nod to the Dukes' (A7; F9; *A Proper Drink* p. 218, secondary library).",
+      "kind": "lineage",
+      "meaning": "Optional: the way it's done became a model.",
+      "speaksTo": "test 3 · optional"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Grate the lemon over the top and leave it floating. Then let people see the whole of you, and trust them with the choosing.",
+    "contains": [],
+    "glassware": "small stemmed cocktail glass (about 120 ml), kept in the freezer, no ice",
+    "method": [
+      "Put the bottle of vodka and the glass in the freezer, ideally the night before, and at least four hours ahead. The vodka won't freeze, but it will pour thick and slow.",
+      "Take out the glass. Pour in the teaspoon of dry vermouth and tilt the glass round so it coats the inside. Leave it in.",
+      "Pour the vodka straight from the freezer into the glass. Don't stir it, don't shake it, and add no ice.",
+      "Grate the zest of a quarter of a lemon finely over the top, just the yellow skin, so it lies on the surface where it can be seen. Serve straight away."
+    ],
+    "name": "Undimmed",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "1 tsp (5 ml)",
+        "item": "dry vermouth",
+        "note": "any French-style dry vermouth, kept in the fridge once opened"
+      },
+      {
+        "amount": "60 ml",
+        "item": "vodka",
+        "note": "any unflavoured vodka, 40% or stronger, kept in the freezer"
+      },
+      {
+        "amount": "¼ lemon",
+        "item": "lemon zest",
+        "note": "a few strokes on a fine grater, the yellow only, over the top so it floats on the drink"
+      }
+    ],
+    "tagline": "You never set out to change anyone. People change around you all the same."
+  },
+  "pairing": "magician-lover",
+  "personality": "The Siren",
+  "reading": {
+    "epigraph": "Poured the way one London bar pours its Martini. That bar has a famous house rule.",
+    "whoYouAre": [
+      "You hardly said anything at that dinner. You asked one question and really listened to the answer. A few weeks later they'd left the job, or booked the flight, or finally said the thing they'd been holding back for years, and they told you it started that night. Everyone else heard a lovely story. You lay awake wondering whether it was them or you.",
+      "You know what you can do to people without even trying, so you come in quieter than you are. You stand nearer the door, make the joke at your own expense, leave a little early, save the big question for another time. Everyone thinks it's just your manner. It's a decision you make again every evening, because underneath it is one fear: someone losing their footing because of you. And here's what you seldom hear back: people come away from you more like themselves, with the nerve for something they were already half-ready to do. You give people that, and you never take anything for it."
+    ],
+    "yours": [
+      "In a small hotel in London there's an intimate, wood-panelled bar that's known around the world for its Martini. It's made at your table, from a trolley: frozen gin, or vodka, poured straight from the bottle, plus a little vermouth from a dasher bottle and lemon peel, twisted. Nobody shakes it and nobody stirs it.",
+      "With no ice melting into it, it reaches you almost as strong as it left the bottle: a Martini of unusual strength. So the bar has a famous house rule: no more than two per guest. Film stars, politicians and royals have gone there for refuge, and in 1988 the novelist Kingsley Amis called it one of the best bars of its kind in London, perhaps the best of all.",
+      "I like to think that rule is the bar's kindness: rather than make the drink weaker to make it safer, it left it whole and was honest about what it is. You've done the opposite for years. You soften yourself before anyone asks, so nobody ever has to be careful around you.",
+      "The cocktail I've made for you is a Martini, a renowned classic, poured the way that bar pours its own: straight from a freezer-cold bottle into the glass, never stirred, never shaken. That bar makes it with gin or vodka, and I've chosen vodka, with just a teaspoon of French-style dry vermouth, so nothing stands in front of it. It's ice-cold and perfectly clear. And instead of a twist, I grate the zest of a quarter of a lemon onto it and leave it floating, all of it out in the open, as a nod to that famous rule.",
+      "So stop coming in at half. Being careful never meant shrinking. It means being honest about who you are. Ask the big question at the dinner, and stay until the end. Then trust people with what they do next. That part belongs to them. Without that weight, I'd bet you enjoy the evening as much as everyone else does."
+    ]
+  },
+  "status": "draft"
+}

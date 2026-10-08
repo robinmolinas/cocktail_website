@@ -1,0 +1,127 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "A Chicago bar opened in spring 2011 with no counter to stand at; an Old-Fashioned (one of the most familiar cocktails, Oxford pdf 1429) arrived sealed inside a ball of ice that was cracked open at the table, and the drink ran out into the glass (*Proper* pp. 234-235, F1, F5, F10; *Reader* 2011, F7).",
+      "kind": "story",
+      "meaning": "One of the most familiar drinks, in a form nobody expected.",
+      "speaksTo": "They play with what the room expects to happen next."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "About a month in, a critic described the ice cracked by the server and counted it among the drinks played, more quietly, for comedy (*Reader*, 26 May 2011, F7).",
+      "kind": "story",
+      "meaning": "Someone saw the joke from the start.",
+      "speaksTo": "The one laugh they want: the unrehearsed one."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Chicago's cocktail crowd received it \"rather coolly at first\" (*Proper* p. 235, F11); the 2011 critic said the servers had little time to talk about the drinks, and that in the wrong mood they might seem \"chilly, impersonal\" (*Reader*, F13).",
+      "kind": "reception",
+      "meaning": "Cleverness without company reads as cold.",
+      "speaksTo": "Their hidden fear: that the strangeness reads as cold, people left outside it."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Charles Joly, who took over the drinks in August 2012 (*Time Out* 2014, F15), said later it had \"lacked a sense of hospitality\" (*Proper* p. 235, said in 2014, F12).",
+      "kind": "person",
+      "meaning": "The criticism came from the man who would run it, looking back.",
+      "speaksTo": "Caring whether it lands, and admitting it."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "With Joly the drinks stayed every bit as strange, but now came with a bartender's joke and a conversation (*Proper* p. 235, Simonson's narration, F17). Joly: \"hospitality, the booze and a good time\" (*Time Out* 2014, F18).",
+      "kind": "turn",
+      "meaning": "Explaining didn't break it; leaving people alone with it did.",
+      "speaksTo": "The position: keep the strange, stay for the chat."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "Nothing says the change answered the cool reception: it came with a new person (*Proper* p. 235, F16; F15).",
+      "kind": "fence",
+      "meaning": "Any link is the bartender's \"I like to think\".",
+      "speaksTo": "Keeps the reading honest."
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The ice-sealed drink began as an Old-Fashioned (*PUNCH* 2017, F9; *Proper* p. 235, F5). No spirit is named.",
+      "kind": "lineage",
+      "meaning": "Our Old-Fashioned is a riff on the idea, never their recipe.",
+      "speaksTo": "(Tomás: spec pending.)"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Crack it in front of them. Then don't leave the table.",
+    "contains": [],
+    "glassware": "rocks glass (about 300 ml), holding a shell of ordinary cloudy ice frozen in a plastic cup",
+    "method": [
+      "Fill the plastic cup almost to the top with water and put it in the freezer. Leave it for three to four hours, until the sides have frozen hard, about a finger's width thick, with a skin of ice across the top and water still liquid in the middle. Freezers vary, so check from the third hour: press the top with a spoon.",
+      "While it freezes, mix the drink in a small jug or jar: rye, rum, demerara syrup, bitters and the cold water. Put it in the freezer beside the cup. It's too strong to freeze at home, so it'll just get very cold.",
+      "When the shell is ready, break a hole in the top with the handle of a spoon, about the width of a thumb, and pour out the water that hasn't frozen. Squeeze the plastic cup gently and slide the shell out.",
+      "Stand the shell in the rocks glass, hole up, and pour the cold drink in through the hole, right before you take it to the table. If a little doesn't fit, keep it and pour it in after the crack.",
+      "At the table, in front of the person it's for, tap the shell firmly with the back of a spoon. It cracks, and the drink runs out into the glass over the broken ice.",
+      "Squeeze the orange peel over the top so its oils fall on the drink, and drop it in."
+    ],
+    "name": "Unrehearsed",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "45 ml (1½ oz)",
+        "item": "straight rye whiskey",
+        "note": "50% is ideal; anything from 40% works"
+      },
+      {
+        "amount": "15 ml (½ oz)",
+        "item": "Ron Zacapa 23 rum (recommended)",
+        "note": "or any aged Spanish-style rum, not spiced, about 40%"
+      },
+      {
+        "amount": "10 ml (2 tsp)",
+        "item": "demerara syrup",
+        "note": "demerara sugar and water, equal weights, stirred until dissolved"
+      },
+      {
+        "amount": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "amount": "20 ml (4 tsp)",
+        "item": "cold water",
+        "note": "measured in now; it does the job stirring with ice would"
+      },
+      {
+        "amount": "1 strip",
+        "item": "orange peel",
+        "note": "squeezed over after the ice is cracked"
+      },
+      {
+        "amount": "*for the ice*",
+        "item": ""
+      },
+      {
+        "amount": "1",
+        "item": "plastic cup of water (about 200–250 ml)",
+        "note": "a cup that fits inside your rocks glass; ordinary tap water, cloudy ice is fine"
+      }
+    ],
+    "tagline": "Anyone can get the laugh. You're after the second before it."
+  },
+  "pairing": "jester-explorer",
+  "personality": "The Alternative Comic",
+  "reading": {
+    "epigraph": "The most familiar cocktail there is, sealed inside ice. Nobody tastes it until the ice breaks.",
+    "whoYouAre": [
+      "It's a birthday, and you've been asked to say something short. You do: one sentence, read slowly from a very long sheet of paper. There's a second where nobody knows whether they're allowed to laugh. You let it run a little longer than is comfortable. Then it goes, and it's a laugh nobody planned, not even you. The evening where everyone laughs on cue, at the punchline they could see coming from the door, bores you to tears.",
+      "Here's the part that doesn't show: you're watching every face. You'd never explain one of your jokes, because explaining feels like taking it apart while everyone watches. So when one doesn't land, you keep a straight face and take it home with you. What you'd least like to hear is that it came across as cold, that someone thought it was on them, or felt left outside it. It almost never is. And it's a rare thing you give people: a real reaction instead of a polite one. For a second nobody has to know how to feel, and the night everyone's still describing weeks later is usually one you were at."
+    ],
+    "yours": [
+      "In the spring of 2011, a bar opened in Chicago with no bar in it. There was no counter to lean on: the drinks came to the table, from stations at the back that looked more like a laboratory. The chef behind it, Grant Achatz, said they wanted to mix the newest techniques with tradition in a way they thought hadn't been done. One writer picks out an Old-Fashioned as perhaps the finest: the most expected cocktail there is, sealed inside a ball of ice, set in a rocks glass. At the table the ice was cracked, and the drink ran out over it.",
+      "Chicago's cocktail crowd didn't warm to it at first. A critic that first spring watched the server crack the ice and counted it among the drinks played, quietly, for laughs. The same review found the drinks could feel a little cold, because nobody had time to talk about them. Funny and cold, in the same week. In the summer of 2012 Charles Joly took over the drinks, and he said later it hadn't felt like a bar: it lacked a sense of hospitality. He didn't make the drinks ordinary. They stayed every bit as strange, but now a bartender came with them, to joke and to talk. It had to be, in his words, about \"hospitality, the booze and a good time.\"",
+      "I like to think that critic put a finger on exactly the thing you worry about. The strange part was never the problem. The joke was there from the first week, and somebody laughed. What was missing was someone staying in the room with it. You know that second better than anyone, the one where people don't yet know whether they're allowed to laugh. It's a better second with someone beside them in it.",
+      "The cocktail I've made for you brings that idea home. Inside is the renowned classic, a rye Old-Fashioned: rye, demerara sugar, Angostura bitters and orange peel. It's a drink with as many recipes as bartenders, and the whole craft of it is restraint, so it's made exactly. It waits, cold and already diluted, in a shell of ordinary cloudy ice from your own freezer. A home freezer can't freeze a drink that strong, so plain ice holds it like a cup. Whoever made it cracks the shell at the table with one tap of a spoon, while whoever it's for looks on, and the drink runs out over its own broken ice. Nothing in the bottle is strange. The joke is all in how it arrives, which, if you ask me, is you exactly.",
+      "So keep every strange thing you had planned. Don't explain it beforehand, and don't make it sensible. Just don't disappear straight after. Stay for the second that follows, and for the conversation after that. Nobody needed the joke taken apart. They needed someone in it with them. The ones who weren't sure the first time are the ones who'll come back for whatever you try next."
+    ]
+  },
+  "status": "draft"
+}

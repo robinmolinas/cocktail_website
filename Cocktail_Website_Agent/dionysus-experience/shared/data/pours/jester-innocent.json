@@ -1,0 +1,139 @@
+{
+  "anchors": [
+    {
+      "dossierOnly": false,
+      "fact": "In a Wodehouse story first printed in 1924, Bertie Wooster tags along, as a friend, when a stern older man takes Bertie's friend round the British Empire Exhibition at Wembley to broaden the friend's mind. The older man leads and the two young men trail behind (W2, W3; C1).",
+      "kind": "story (fiction)",
+      "meaning": "The improving afternoon, being herded. The broadening was meant for the friend. Fiction, owned in one clause. (fear: being made to sit still)",
+      "speaksTo": "drawnToward: Wonder; texture: Bright"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "At lunch, every time Bertie started a joke, the older man stopped him with a stare. The one he got to the end, a borrowed one about Wembley, earned a waggled eyebrow, and he felt like rubbish (W1a, W1).",
+      "kind": "story (fiction)",
+      "meaning": "The hush, on the page. (hidden: \"not now\" lands as \"be less of yourself\")",
+      "speaksTo": "soughtFor: A little chaos"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He says plainly that exhibitions have never been his thing: the crowd, the shuffling, and a stuffed fish and a jar of seeds that others find thrilling, but not him (W4).",
+      "kind": "story (fiction)",
+      "meaning": "Boredom, in his own voice. (fear: boredom)",
+      "speaksTo": "drawnToward: Pleasure"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The older man had rushed them past a bar where a man was stirring tall glasses with ice in them, using a stick. That small sight was what Bertie wanted to see more of (W5).",
+      "kind": "story (fiction)",
+      "meaning": "One small, ordinary thing takes all the attention. (one true thing)",
+      "speaksTo": "drawnToward: Wonder; texture: Excited"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "He and his friend slip off to it. The barman is kind, seems to know what they want, and tells them the drinks are called Green Swizzles. As soon as he has the name, Bertie vows that any son of his will be registered as Green Swizzle Wooster (W6–W8; C2: paraphrase only).",
+      "kind": "story (fiction)",
+      "meaning": "A small pleasure taken with total seriousness, which is why it's funny.",
+      "speaksTo": "drawnToward: Pleasure; texture: Excited"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The Green Swizzle was a real West Indian drink. In 1924 it was one of the two drinks featured at the West Indies pavilion at Wembley (Oxford pdf 756, F3).",
+      "kind": "drink",
+      "meaning": "The part that sounds invented happened. (second thing)",
+      "speaksTo": "drawnToward: Wonder"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "It was long believed to be fiction, until old newspapers showed it had been real and, for a time, popular at least in the Caribbean (Oxford pdf 945, F2). The page names no one who believed it.",
+      "kind": "reception",
+      "meaning": "Taken for a story, and it was real. Never \"everyone\" or \"the experts\". One sentence of fact; never on the guest.",
+      "speaksTo": "texture: Bright"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "The recipes of the time differ, but they agree on gin or rum, a sweet base, bitters made by steeping wormwood in strong spirit, and ice, whisked with a stick rolled between the palms (Oxford pdf 945, 1963; *Imbibe!* pdf 124; F4, F5, F8). In Trinidad the sweet base was Carypton, a bottled mix of rum, lime, sugar and West Indian herbs, trademarked in 1907 and long discontinued (Oxford pdf 112; *Imbibe!* pdf 124).",
+      "kind": "drink",
+      "meaning": "Ours is rebuilt from the parts that Trinidad bottle listed. That's my build, never \"Carypton's recipe\" and never \"the glass Bertie drank\".",
+      "speaksTo": "drawnToward: Pleasure"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "For the wormwood bitters, which have to be made, Wondrich's own stand-in is a wormwood-forward absinthe (*Imbibe!* pdf 125). Absinthe is a spirit made with wormwood, aniseed and fennel. It's green from the leaves' chlorophyll, and a small amount works in cocktails much like bitters (Oxford pdf 48–50). Wondrich credits the tip of tangerine peel in the *bitters* to Eleanor Early's 1937 Caribbean travel book (pdf 125). Steeping the tangerine in the absinthe for two days is ours (Tomás, v2).",
+      "kind": "drink (spark)",
+      "meaning": "The one part made slowly, by hand, for one small thing. The tangerine is the bright note. Never \"Early's way with absinthe\", and never \"sounds made up\".",
+      "speaksTo": "soughtFor: A little chaos; texture: Bright"
+    },
+    {
+      "dossierOnly": false,
+      "fact": "You stop swizzling when the outside of the glass is well frosted (Oxford SWIZZLE pdf 1963).",
+      "kind": "method",
+      "meaning": "The glass tells you when to stop, not an audience. Frost is a method word only.",
+      "speaksTo": "drawnToward: Wonder"
+    }
+  ],
+  "cocktail": {
+    "amountHeader": "amount",
+    "closingLine": "Spin the stick between your palms until the glass goes white. Then go back for whatever you were hurried past.",
+    "contains": [],
+    "glassware": "tall Collins glass (about 350 ml), crushed ice, the swizzle stick left standing in it, no straw",
+    "method": [
+      "**Two days ahead, make the tangerine absinthe.** Peel one tangerine thinly with a vegetable peeler, orange skin only, none of the white. Put the peel in a small clean jar with 100 ml green absinthe (the wormwood-forward kind) and close it. Leave it two days somewhere cool, and shake it once a day. Strain it and bottle it. A barspoon makes one drink, so the bottle makes about twenty.",
+      "Make crushed ice. Wrap a tray of ice cubes in a clean tea towel and bash it with a rolling pin until it's nearly snow.",
+      "Pour the rum, lime, syrup and one barspoon of the tangerine absinthe into the tall glass.",
+      "Fill the glass about four-fifths with crushed ice.",
+      "Stand the swizzle stick in the drink with its prongs at the bottom. Hold the handle between flat palms and rub your hands back and forth so the stick spins, moving it slowly up and down. Keep going until the outside of the glass turns white with frost, about 20 to 30 seconds.",
+      "Pack more crushed ice on top until it mounds over the rim. Dash the Angostura over the ice. Leave the stick in the glass."
+    ],
+    "name": "Off the Tour",
+    "preparations": [],
+    "recipe": [
+      {
+        "amount": "60 ml",
+        "item": "white rum, a flavourful one (about 40%)",
+        "note": "Wondrich's advice for this drink: \"a flavorful white one\""
+      },
+      {
+        "amount": "25 ml",
+        "item": "fresh lime juice (about one lime)",
+        "note": "measure it: 30 ml makes it too sharp"
+      },
+      {
+        "amount": "20 ml",
+        "item": "simple syrup (1:1, white sugar and water)"
+      },
+      {
+        "amount": "5 ml (1 barspoon)",
+        "item": "green absinthe steeped with tangerine peel (method, step 1)",
+        "note": "the green in the Green Swizzle. Use one barspoon, no more"
+      },
+      {
+        "amount": "4 dashes",
+        "item": "Angostura bitters, dashed on top at the end",
+        "note": "a dark-red band over the green"
+      },
+      {
+        "amount": "1",
+        "item": "wooden swizzle stick, left standing in the glass",
+        "note": "no stick? a bar spoon does the same job"
+      }
+    ],
+    "tagline": "Nobody believes your stories. They all happened."
+  },
+  "pairing": "jester-innocent",
+  "personality": "The Naïf",
+  "reading": {
+    "epigraph": "A Green Swizzle, Wembley, 1924. In a story, Bertie Wooster vowed to name a son after it.",
+    "whoYouAre": [
+      "You're somewhere you're meant to sit still: a hotel breakfast with its little rules, a waiting room, the long middle of a speech. Ten minutes, and something small has caught you. The sachet that won't tear. The toaster that sends the bread round twice. You give it all your attention, because right then it's the only problem in the world. It all goes sideways, and nobody there forgets how. You look up, and that's when you find the room.",
+      "You never set out to be funny. The part you laugh off is the hush: the \"not now\", the hand on your arm. Being told to sit still has always sounded like being told to be less, and what you dread is managing it, and nothing happening at all. Hushing you would cost everyone else their best stories, the dull mornings they still tell, fondly, years later. And after you, nobody needs to pretend the rules made sense."
+    ],
+    "yours": [
+      "In 1924, at Wembley, the West Indies pavilion of the British Empire Exhibition poured the Green Swizzle. P. G. Wodehouse put Bertie Wooster there that year, in a story, tagging along with a friend who was being taken round to have his mind broadened. At lunch, every joke Bertie started had been stopped by a stare, and the one he finished got a waggled eyebrow. Now it's a stuffed fish and a jar of seeds, and exhibitions, he admits, have never been his thing.",
+      "Then, rushed past a bar, he spots a man stirring long, icy glasses with a stick, and the urge to see more of him won't go away. He and his friend slip away to it, and the moment the barman tells him what they're called, Bertie vows that any son of his will be named Green Swizzle Wooster.",
+      "For years, the Green Swizzle itself was taken for fiction. It wasn't: old newspapers show it was real, and for a while quite popular in the Caribbean.",
+      "The cocktail I've made for you is a Green Swizzle, a Caribbean classic, rebuilt from the parts listed for an old Trinidad bottled base, discontinued decades ago. Mine are white rum, fresh lime and sugar. The green comes from a barspoon of green absinthe, a spirit made with wormwood, that I steep with tangerine peel for two days. The tangerine is a travel writer's tip for the old wormwood bitters, passed on by a drinks historian; I borrowed it for the absinthe, and I put it in for you: the bright thing that turns up in the middle of something grim. Then the stick does the stirring. You give it your whole attention for about half a minute, and the glass tells you when to stop. It comes out tall, pale and very cold, with four dashes of Angostura on top, and it gets gentler as you go.",
+      "I like to think you'd have seen the man with the stick before anyone else on the tour did, and stopped. Next time you're being steered past the one thing you'd actually like to see, look round for the other person who's had about enough. There usually is one. Go together. Give it all your attention, and if something wonderful comes of it, make a promise far too big for it. Somebody will be telling that afternoon for years, and it'll all be true."
+    ]
+  },
+  "status": "draft"
+}
