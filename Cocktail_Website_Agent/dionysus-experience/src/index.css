@@ -1585,12 +1585,37 @@ button.grav-dot::after {
 .tr-amount { font-family: var(--font-label); color: var(--gold); min-width: 4.6rem; font-variant-numeric: tabular-nums; font-size: 0.86rem; letter-spacing: 0.02em; padding-top: 0.2rem; }
 .tr-item { font-family: var(--font-text); color: var(--keepsake-body); font-size: 1.04rem; line-height: 1.5; }
 .tr-item em { color: var(--keepsake-muted); font-style: italic; }
+/* an authored *em* inside a note (already italic) turns upright */
+.tr-item em em { font-style: normal; }
 
 .tr-ritual { list-style: none; counter-reset: tr-step; padding: 0; margin: 0; }
 .tr-ritual li { position: relative; padding: 0.5rem 0 0.5rem 2.3rem; counter-increment: tr-step;
   font-family: var(--font-text); color: var(--keepsake-body); font-size: 1.04rem; line-height: 1.62; }
 .tr-ritual li::before { content: counter(tr-step); position: absolute; left: 0; top: 0.66rem; color: var(--gold); font-family: var(--font-label);
   font-variant-numeric: tabular-nums; font-size: 0.82rem; }
+
+/* the authored card's own furniture (1.5): the batch note, the measure's
+   heading when it is not plain "amount", the glass, any preparation made
+   ahead, and the closing line the ritual ends on. Same materials as above:
+   brass label face for headings, the reading face for words. */
+.tr-item strong, .tr-ritual li strong, .tr-prep-text strong { font-weight: 600; color: var(--keepsake-title); }
+.tr-ritual li em, .tr-prep-text em { font-style: italic; }
+.tr-pour-note { font-family: var(--font-text); color: var(--keepsake-muted); font-size: 0.98rem; line-height: 1.55; font-style: italic; margin: 0 0 0.9rem; }
+.tr-amount-head { font-family: var(--font-label); color: var(--gold); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; margin: 0 0 0.2rem; }
+.tr-glass { font-family: var(--font-text); color: var(--keepsake-body); font-size: 1.04rem; line-height: 1.5; margin: 0.9rem 0 0; }
+.tr-glass-label { font-family: var(--font-label); color: var(--gold); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; margin-right: 0.6rem; }
+.tr-prep { margin-top: 1.4rem; }
+.tr-prep-title { font-family: var(--font-label); color: var(--gold); font-size: 0.78rem; letter-spacing: 0.08em; margin: 0 0 0.35rem; }
+.tr-prep-text { font-family: var(--font-text); color: var(--keepsake-body); font-size: 1rem; line-height: 1.6; margin: 0; }
+.tr-ritual-close {
+  position: relative; margin: 1.6rem 0 0; padding-top: 1.2rem;
+  font-family: var(--font-display); font-style: italic;
+  font-size: clamp(1.06rem, 1.2vw, 1.2rem); line-height: 1.5; color: var(--keepsake-title);
+}
+.tr-ritual-close::before {
+  content: ''; position: absolute; top: 0; left: 0; width: 3.2rem; height: 1px;
+  background: linear-gradient(to right, var(--gold), transparent);
+}
 
 /* ================= MOVEMENT TWO · the letter ==================
    Who she is, in the fortune teller's voice. A change of material and of
@@ -1604,9 +1629,6 @@ button.grav-dot::after {
 /* .tr-why p (0,1,1) outranks these bare classes, which is how "The Reading"
    label rendered at body size beside "The Pour" — qualify them */
 .tr-why .tr-private { margin: 0; color: var(--keepsake-muted); font-size: 1rem; line-height: 1.75; max-width: 34ch; }
-/* the essence now sits above the epigraph, so the scale only ever climbs into
-   the voice instead of dipping through its smallest step on the way there */
-.tr-essence { color: var(--keepsake-muted); font-size: 0.95rem; font-style: italic; margin: 0 0 1.5rem; }
 .tr-why .tr-epigraph { font-family: var(--font-display); font-style: italic; font-weight: 400;
   font-size: clamp(1.34rem, 1.9vw, 1.74rem); line-height: 1.32; color: var(--keepsake-title);
   margin: 0 0 2.1rem; max-width: 30ch; text-wrap: pretty;
@@ -1616,22 +1638,6 @@ button.grav-dot::after {
    start rather than eight identical blocks */
 .tr-why .tr-epigraph + p { font-size: 1.16rem; line-height: 1.66; color: var(--keepsake-title); margin-top: 0; }
 .tr-why p:last-of-type { margin-bottom: 0; }
-
-/* the pour's own last words. They used to render as an anonymous grey
-   paragraph while an orphaned "The ink has settled" — a leftover from the
-   retired nib reveal — took the ending it was written for. */
-.tr-why .tr-closing {
-  position: relative;
-  margin: 3.2rem 0 0;
-  padding-top: 1.8rem;
-  font-family: var(--font-display); font-style: italic;
-  font-size: clamp(1.06rem, 1.2vw, 1.2rem); line-height: 1.5;
-  color: var(--keepsake-title);
-}
-.tr-why .tr-closing::before {
-  content: ''; position: absolute; top: 0; left: 0; width: 3.2rem; height: 1px;
-  background: linear-gradient(to right, var(--gold), transparent);
-}
 
 /* the spine: her colour rising through the margin as she reads. The one thing
    that makes four screens of prose feel navigable, and it stays a line of
@@ -1886,7 +1892,7 @@ button.grav-dot::after {
   .tr-hero-inner > * { animation: none !important; opacity: 1 !important; transform: none !important; filter: none !important; }
   /* every one of these carried a dark text-shadow for the candlelit room; on
      paper that prints as a grey smudge behind the type */
-  .tr-kicker, .tr-title, .tr-for, .tr-why .tr-epigraph, .tr-why .tr-closing { text-shadow: none !important; }
+  .tr-kicker, .tr-title, .tr-for, .tr-why .tr-epigraph { text-shadow: none !important; }
   .tr-kicker { color: var(--gold) !important; font-size: 7.4pt !important; letter-spacing: 0.22em !important; margin-bottom: 4mm !important; }
   .tr-title { color: var(--ink) !important; font-size: 38pt !important; line-height: 1.0 !important; }
   .tr-for   { color: #4a4238 !important; font-size: 12pt !important; margin-top: 5mm !important; max-width: 30ch; }
@@ -1916,13 +1922,19 @@ button.grav-dot::after {
   .tr-ing li { border-bottom-color: rgba(22,20,15,0.14) !important; padding: 1.9mm 0 !important; }
   .tr-ritual li { font-size: 9.4pt !important; line-height: 1.5 !important; padding: 1.6mm 0 1.6mm 7mm !important; color: #2e2921 !important; }
   .tr-ritual li::before { color: var(--gold) !important; font-size: 8pt !important; top: 1.7mm !important; }
+  .tr-pour-note, .tr-glass, .tr-prep-text { font-size: 9.4pt !important; line-height: 1.45 !important; color: #2e2921 !important; }
+  .tr-item strong, .tr-ritual li strong, .tr-prep-text strong { color: #2e2921 !important; }
+  .tr-amount-head, .tr-glass-label, .tr-prep-title { color: var(--gold) !important; font-size: 7.2pt !important; }
+  .tr-prep { margin-top: 3mm !important; break-inside: avoid; }
+  .tr-ritual-close { color: var(--ink) !important; font-size: 11pt !important; margin-top: 4mm !important; padding-top: 3mm !important; text-shadow: none !important; }
+  .tr-ritual-close::before { background: var(--gold) !important; width: 18mm; }
 
   /* The letter takes the second sheet and must never need a third. Two columns
      hold roughly twice what one does, and --letter-fit (a function of this
      pour's own length, set in TheReading.tsx) takes up whatever slack is left —
      so a long reading steps down a size rather than spilling onto page three.
-     The epigraph, its label and the closing line span both columns, which also
-     gives the page a head and a foot. */
+     The epigraph and its label span both columns, which also gives the page
+     a head. */
   .tr-why {
     break-before: page;
     margin-top: 0 !important;
@@ -1933,24 +1945,11 @@ button.grav-dot::after {
     widows: 2;
   }
   .tr-why .tr-label,
-  .tr-why .tr-essence,
-  .tr-why .tr-epigraph,
-  .tr-why .tr-closing { column-span: all; }
-  /* .tr-why p outranks a bare .tr-essence (0,1,1 beats 0,1,0) even with
-     !important on both, so these have to be qualified or the attribution
-     silently renders at body size */
-  .tr-why .tr-essence { color: #6a5f52 !important; font-size: calc(8.8pt * var(--letter-fit, 1)) !important; margin-bottom: 4mm !important; }
+  .tr-why .tr-epigraph { column-span: all; }
   .tr-why .tr-epigraph { color: var(--ink) !important; font-size: calc(18pt * var(--letter-fit, 1)) !important; margin-bottom: 7mm !important; max-width: 34ch; }
   /* tighter leading than the screen's 1.72: the columns are a narrower measure */
   .tr-why p { color: #2e2921 !important; font-size: calc(10pt * var(--letter-fit, 1)) !important; line-height: 1.58 !important; margin: calc(4.2mm * var(--letter-fit, 1)) 0 !important; }
   .tr-why .tr-epigraph + p { font-size: calc(10.5pt * var(--letter-fit, 1)) !important; color: #2e2921 !important; }
-  .tr-why .tr-closing {
-    color: var(--ink) !important;
-    font-size: calc(12.5pt * var(--letter-fit, 1)) !important;
-    margin-top: 7mm !important; padding-top: 5mm !important;
-    break-inside: avoid;
-  }
-  .tr-why .tr-closing::before { background: var(--gold) !important; width: 24mm; }
   .tr-private { color: #6a5f52 !important; }
 
   /* screen-only furniture */

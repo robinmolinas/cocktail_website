@@ -12,19 +12,21 @@
 //   the Veil pill. No boxes, no cards.
 
 import { useEffect, useState, type CSSProperties } from 'react';
-import { VISIONARY_SAMPLE } from '../data/sampleResult';
-import { pourLinkFor } from '../engine/pourLink';
 
 export default function VelvetRope({ onAnyway }: { onAnyway: () => void }) {
   const [note, setNote] = useState<string | null>(null);
   const [exemplar, setExemplar] = useState<string | null>(null);
 
   // the house pour travels the same way any shared pour does — no separate
-  // build, no server: the exemplar is an ordinary #pour= link
+  // build, no server: the exemplar is an ordinary #pour= link to the approved
+  // Creator × Hero pour ("Down the Line"), poured for no one in particular
   useEffect(() => {
     let cancelled = false;
-    pourLinkFor({ from: '', color: '#c8102e', result: VISIONARY_SAMPLE })
-      .then((url) => { if (!cancelled) setExemplar(url); });
+    // (the link module loads lazily: it carries zod, which the landing never needs)
+    import('../engine/pourLink')
+      .then(({ pourLinkFor }) => pourLinkFor({ pairing: 'creator-hero', name: '', seed: 'campari-red' }))
+      .then((url) => { if (!cancelled) setExemplar(url); })
+      .catch(() => { /* the exemplar simply stays absent */ });
     return () => { cancelled = true; };
   }, []);
 
@@ -32,7 +34,7 @@ export default function VelvetRope({ onAnyway }: { onAnyway: () => void }) {
     const url = window.location.origin;
     try {
       if (navigator.share) {
-        await navigator.share({ title: 'Dionysus', text: 'The cocktail within, on a wider table:', url });
+        await navigator.share({ title: 'Dionysus', text: 'The spirit within, on a wider table:', url });
         return;
       }
       await navigator.clipboard.writeText(url);

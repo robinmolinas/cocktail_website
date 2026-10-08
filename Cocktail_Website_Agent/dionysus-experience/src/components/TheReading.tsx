@@ -12,18 +12,33 @@
 // H9.5 (intro) plays the arrival: black → the weather gathers → the cocktail
 // kindles out of the dark → the text writes itself in. H10.5 is the settled
 // state. Nothing here touches the locked TheSurfacing reveal; styles are .tr-.
-import { useEffect, useRef, useState, type CSSProperties } from 'react';
+import { Fragment, useEffect, useRef, useState, type CSSProperties } from 'react';
 import { DevNav, type DevJumpTarget, type DevPage } from './TheDepths';
-import { personaImageFor } from '../data/personas';
-import type { CocktailResult } from '../types';
+import { SEEDS } from '../../shared/answers';
+import type { Reading } from '../../shared/reading';
 import CtaButton from './CtaButton';
 import { pourLinkFor } from '../engine/pourLink';
+import { inlineTokens } from '../engine/inline';
 
+// The house amber, for a journey that never chose a seed colour.
+const DEFAULT_SEED_HEX = '#e8702a';
+
+// The authored copy's inline emphasis, rendered from engine/inline's tokens.
+function Inline({ text }: { text: string }) {
+  return (
+    <>
+      {inlineTokens(text).map((token, i) =>
+        token.kind === 'break' ? <br key={i} />
+          : token.kind === 'strong' ? <strong key={i}>{token.text}</strong>
+          : token.kind === 'em' ? <em key={i}>{token.text}</em>
+          : <Fragment key={i}>{token.text}</Fragment>,
+      )}
+    </>
+  );
+}
 
 export default function TheReading({
-  result,
-  seed = '#c8102e',
-  name = '',
+  reading,
   intro = false,
   gift = false,
   onMeetYourOwn,
@@ -31,11 +46,9 @@ export default function TheReading({
   onDevJump,
   onDevPage,
 }: {
-  result: CocktailResult;
-  /** the seed colour, used only as light (the cue spark) — never on the image */
-  seed?: string;
-  /** her name, inked into the scene's own paper tag */
-  name?: string;
+  /** the assembled reading: the authored pour, her name (inked into the
+   *  scene's own paper tag) and her seed (used only as light, never on the image) */
+  reading: Reading;
   /** play the from-black arrival */
   intro?: boolean;
   /** H11: this pour arrived through a shared link. The viewer is the friend,
@@ -55,8 +68,8 @@ export default function TheReading({
     return () => document.documentElement.classList.remove('reading-room');
   }, []);
 
-  const meta = personaImageFor(result.primary, result.secondary);
-  const readingLines = result.whyYou.slice(1); // [0] is the epigraph
+  const { cocktail, persona: meta, name } = reading;
+  const seed = SEEDS.find((option) => option.id === reading.seed)?.hex ?? DEFAULT_SEED_HEX;
   const rootRef = useRef<HTMLDivElement>(null);
   const bgRef = useRef<HTMLImageElement>(null);
   const frameRef = useRef<HTMLDivElement>(null);
@@ -87,9 +100,6 @@ export default function TheReading({
   // true once the name should be visible: immediately for settled, after the
   // arrival delay for intro (clip-path inside will-change+mask breaks pure CSS)
   const [named, setNamed] = useState(!intro);
-  // a shared link carries no reading (shareKeepsake strips whyYou), so never
-  // render an empty epigraph where the guest's copy should be
-  const epigraph = result.whyYou[0];
 
   // Until every persona has a 16:9 companion, a portrait master still has to fill
   // a landscape frame. Cover it, but hold the crop on the drink (the glass point
@@ -126,9 +136,9 @@ export default function TheReading({
   // half times past the longest reading the studio has ever written.
   const PAGE_CHARS = 2900;
   const letterChars =
-    result.whyYou.join(' ').length +
-    (result.closingLine?.length ?? 0) +
-    result.archetypeEssence.length;
+    reading.epigraph.length +
+    reading.whoYouAre.join(' ').length +
+    reading.yours.join(' ').length;
   const letterFit = Math.min(1, Math.max(0.5, Math.sqrt(PAGE_CHARS / Math.max(letterChars, 1))));
 
   // Scroll progress 0→1 across the first ~3/4 viewport: drives the plate's glide
@@ -271,17 +281,9 @@ export default function TheReading({
   const [shareNote, setShareNote] = useState<string | null>(null);
 
   const shareKeepsake = async () => {
-    const text = `Dionysus read me and poured “${result.cocktailName}”. Meet the cocktail within:`;
-    const url = await pourLinkFor({
-      from: inkName,
-      color: seed,
-      result: {
-        ...result,
-        whyYou: [],
-        archetypeStory: '',
-        agentLines: { psychologist: '', historian: '', mixologist: '', storyteller: '' },
-      },
-    });
+    const text = `Dionysus read me and poured “${cocktail.name}”. Meet the spirit within:`;
+    // the link carries who and which pour, never the reading (AD-10)
+    const url = await pourLinkFor({ pairing: reading.pairing, name: inkName, seed: reading.seed });
     if (navigator.share) {
       try {
         await navigator.share({ title: 'Dionysus', text, url });
@@ -328,7 +330,7 @@ export default function TheReading({
       {/* H11: the cocktail title surfaces from the dark; its dedication follows */}
       {gift && intro && (
         <div className="tr-greet" role="status">
-          <strong className="tr-greet-name">{result.cocktailName}</strong>
+          <strong className="tr-greet-name">{cocktail.name}</strong>
           <span className="tr-greet-rule" aria-hidden="true" />
           <p className="tr-greet-line">
             {inkName
@@ -369,7 +371,7 @@ export default function TheReading({
           the landscape crop — and the dedication is set as type here because
           the inked tag belongs to the hidden scene above. */}
       <figure className="tr-print-plate">
-        <img src={meta.src} alt={`${result.cocktailName}, poured by Dionysus`} />
+        <img src={meta.src} alt={`${cocktail.name}, poured by Dionysus`} />
         {inkName ? <figcaption className="tr-print-for">Poured for {inkName}</figcaption> : null}
       </figure>
       {/* Portrait phones let the named photograph arrive alone, then reveal
@@ -389,13 +391,13 @@ export default function TheReading({
           {/* the archetype, not the engine's pairing key: "SAGE × LOVER" is
               how the result is computed, not anything the reader asked for */}
           <p className="tr-kicker">
-            {result.archetypeName}
+            {reading.archetype.name}
             {/* print carries the dedication under the plate instead, so it is
                 not said twice on one page */}
             {inkName ? <span className="tr-kicker-for">{'\u00A0·'} poured for {inkName}</span> : null}
           </p>
-          <h1 className="tr-title" id="tr-title">{result.cocktailName}</h1>
-          <p className="tr-for">{result.tagline}</p>
+          <h1 className="tr-title" id="tr-title">{cocktail.name}</h1>
+          <p className="tr-for">{cocktail.tagline}</p>
           {/* Share and save live only at the bottom (Robin, 2026-10-06): the
               arrival belongs to the cocktail, the actions to the end. */}
           <a className="tr-cue" href="#tr-reading">
@@ -421,26 +423,46 @@ export default function TheReading({
           <div className="tr-card-cols">
             <div className="tr-section">
               <p className="tr-label">The Pour</p>
+              {cocktail.recipeIntro || cocktail.serves ? (
+                <p className="tr-pour-note">
+                  {cocktail.serves ? <Inline text={cocktail.serves} /> : null}
+                  {cocktail.serves && cocktail.recipeIntro ? ' · ' : null}
+                  {cocktail.recipeIntro ? <Inline text={cocktail.recipeIntro} /> : null}
+                </p>
+              ) : null}
+              {/* the measure's own heading only when it says more than "amount" */}
+              {cocktail.amountHeader !== 'amount' ? (
+                <p className="tr-amount-head">{cocktail.amountHeader}</p>
+              ) : null}
               <ul className="tr-ing">
-                {result.ingredients.map((ing) => (
-                  <li key={ing.item}>
-                    <span className="tr-amount">{ing.amount}</span>
+                {cocktail.recipe.map((line, i) => (
+                  <li key={i}>
+                    <span className="tr-amount"><Inline text={line.amount} /></span>
                     <span className="tr-item">
-                      {ing.item}
-                      {ing.note ? <em> · {ing.note}</em> : null}
+                      <Inline text={line.item} />
+                      {line.note ? <em> · <Inline text={line.note} /></em> : null}
                     </span>
                   </li>
                 ))}
               </ul>
+              <p className="tr-glass"><span className="tr-glass-label">Glass</span> <Inline text={cocktail.glassware} /></p>
+              {cocktail.preparations.map((prep, i) => (
+                <div className="tr-prep" key={i}>
+                  <p className="tr-prep-title"><Inline text={prep.title} /></p>
+                  <p className="tr-prep-text"><Inline text={prep.text} /></p>
+                </div>
+              ))}
             </div>
 
             <div className="tr-section">
               <p className="tr-label">The Ritual</p>
               <ol className="tr-ritual">
-                {result.procedure.map((step, i) => (
-                  <li key={i}>{step}</li>
+                {cocktail.method.map((step, i) => (
+                  <li key={i}><Inline text={step} /></li>
                 ))}
               </ol>
+              {/* the pour's own last words end the ritual (AD-5) */}
+              <p className="tr-ritual-close"><Inline text={cocktail.closingLine} /></p>
             </div>
           </div>
         </div>
@@ -461,20 +483,16 @@ export default function TheReading({
               {/* the spine: her colour rising through the margin as she reads */}
               <div className="tr-spine" aria-hidden="true"><span /></div>
               <p className="tr-label">The Reading</p>
-              {/* the essence sits ABOVE the epigraph now. It used to fall
-                  between the two loudest elements on the page (1.72rem display,
-                  then 0.86rem, then 0.98rem body), which inverted the hierarchy
-                  at exactly the moment the voice should take over. */}
-              <p className="tr-essence">{result.archetypeName}, {result.archetypeEssence}.</p>
-              {epigraph ? <p className="tr-epigraph">{epigraph}</p> : null}
-              {readingLines.map((line, i) => (
-                <p key={i}>{line}</p>
+              {/* the letter opens on the epigraph (Robin, 2026-10-08: no
+                  archetype essence line; the name stays in the kicker), then
+                  who she is, then the passage about her cocktail */}
+              <p className="tr-epigraph"><Inline text={reading.epigraph} /></p>
+              {reading.whoYouAre.map((paragraph, i) => (
+                <p key={`who-${i}`}><Inline text={paragraph} /></p>
               ))}
-              {/* the pour's own last words, set apart as the ending it was
-                  written to be — this is what retired "The ink has settled" */}
-              {result.closingLine ? (
-                <p className="tr-closing">{result.closingLine}</p>
-              ) : null}
+              {reading.yours.map((paragraph, i) => (
+                <p key={`yours-${i}`}><Inline text={paragraph} /></p>
+              ))}
             </>
           )}
           {/* the guest keeps the recipe (master spec §2) but the page has one
@@ -482,7 +500,7 @@ export default function TheReading({
           <div className="tr-actions">
             {gift ? (
               <CtaButton onClick={onMeetYourOwn}>
-                Discover the cocktail within you
+                Discover the spirit within you
               </CtaButton>
             ) : (
               <>

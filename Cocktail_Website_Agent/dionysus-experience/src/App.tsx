@@ -1,15 +1,29 @@
-import { useEffect, useRef, useState } from 'react';
+import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
-import type { Answers, CocktailResult } from './types';
-import { personaImageFor } from './data/personas';
+import type { Answers } from './types';
+import type { Reading } from '../shared/reading';
 import TheDepths, { type DevJumpTarget, type DevPage } from './components/TheDepths';
-import TheReading from './components/TheReading';
 import NotFound from './components/NotFound';
 import VelvetRope from './components/VelvetRope';
 import { isUnsupportedViewport } from './engine/viewport';
-import { VISIONARY_SAMPLE } from './data/sampleResult';
 import CtaButton from './components/CtaButton';
-import { decodePour, pourFromLocation } from './engine/pourLink';
+import { pourFromLocation } from './engine/pourHash';
+import { isJourneyFixture, JOURNEY_FIXTURES } from './engine/fixtures';
+
+// The reveal and the reading room carry the authored registry (~1.5 MB), and
+// the link schema carries zod, so none of them is in the landing bundle: they
+// load on the way to the reveal (H9's letting-go) or when a gift link opens.
+const loadReveal = () => import('./engine/reveal');
+const loadPourLink = () => import('./engine/pourLink');
+const loadReading = () => import('./components/TheReading');
+const TheReading = lazy(loadReading);
+
+// Dev pages (H10, H10.5, H11) render this approved pour: Creator × Hero,
+// "Down the Line", which has its full artwork and calibrated tag.
+const DEV_PAIRING = 'creator-hero';
+
+// How long the dark may hold for the reveal before the guest is taken home.
+const REVEAL_TIMEOUT_MS = 10_000;
 
 const BG_IMAGE_1 = "/first.png";
 const BG_IMAGE_2 = "/reveal.png";
@@ -77,6 +91,13 @@ const DEFAULT_ANSWERS: Answers = {
   insight: '',
 };
 
+// Dev only: `?fixture=dawn` or `?fixture=night` preloads a whole journey's
+// answers, so a walkthrough can jump to H9 and seal real answers.
+const devFixture = import.meta.env.DEV ? new URLSearchParams(window.location.search).get('fixture') : null;
+const INITIAL_ANSWERS: Answers = import.meta.env.DEV && isJourneyFixture(devFixture)
+  ? JOURNEY_FIXTURES[devFixture]
+  : DEFAULT_ANSWERS;
+
 function App() {
   // a #pour= link opens in the dark and stays there while the payload decodes —
   // the gift unveils out of that black, the same one-stroke grammar as H9. An
@@ -88,11 +109,16 @@ function App() {
   // 'in' sinks the world into the dark, 'out' surfaces the next one from it.
   // Every change of world passes through this one veil.
   const [descending, setDescending] = useState<null | 'in' | 'out'>(null);
-  const [answers, setAnswers] = useState<Answers>(DEFAULT_ANSWERS);
-  const [result, setResult] = useState<CocktailResult | null>(null);
-  // gift mode: the sharer's identity, rebuilt from the link so the reading can
-  // ink their name onto the tag and thread their seed colour as usual
-  const [giftAnswers, setGiftAnswers] = useState<Answers | null>(null);
+  const [answers, setAnswers] = useState<Answers>(INITIAL_ANSWERS);
+  // the latest answers, for the reveal started from TheDepths' own timers
+  const answersRef = useRef(answers);
+  useEffect(() => { answersRef.current = answers; }, [answers]);
+  // the reading on show: the owner's (H10) or, in gift mode, the sharer's,
+  // assembled from the link so it carries their name and seed colour
+  const [reading, setReading] = useState<Reading | null>(null);
+  // the reveal in flight (see startReveal). Every exit clears it, so a late
+  // resolve fails finishDepths' supersede check instead of forcing 'reading'.
+  const pendingReveal = useRef<Promise<Reading | null> | null>(null);
 
   // bumped on every arrival so re-entering the same view remounts and replays
   // the choreography from the top (declared here because the pour effect below
@@ -108,16 +134,20 @@ function App() {
     const openPour = () => {
       const encoded = pourFromLocation();
       if (!encoded) return;
-      decodePour(encoded).then((pour) => {
+      const gift = loadPourLink().then(({ decodePour }) => decodePour(encoded)).then(async (pour) => {
+        if (!pour) return null;
+        const [{ readingFor }] = await Promise.all([loadReveal(), loadReading()]);
+        return readingFor(pour.pairing, pour.name, pour.seed);
+      });
+      gift.catch(() => null).then((giftReading) => {
         if (cancelled) return;
-        if (!pour) {
+        if (!giftReading) {
           // a broken link never strands the guest — the invitation opens instead
           window.history.replaceState(null, '', window.location.pathname);
           setPhase('landing');
           return;
         }
-        setGiftAnswers({ ...DEFAULT_ANSWERS, name: pour.from, color: pour.color });
-        setResult(pour.result);
+        setReading(giftReading);
         setReadingTake((n) => n + 1); // remount so the arrival replays from the top
         setPhase('gift');
       });
@@ -135,10 +165,10 @@ function App() {
   // darkens over the keepsake, the borrowed pour is shed under the dark, and
   // she opens at H1 to begin her own ritual
   const beginOwnJourney = () => {
+    pendingReveal.current = null;
     descendIntoDepths(() => {
       window.history.replaceState(null, '', window.location.pathname);
-      setGiftAnswers(null);
-      setResult(null);
+      setReading(null);
       setAnswers(DEFAULT_ANSWERS);
     });
   };
@@ -213,6 +243,7 @@ function App() {
   // over whatever page is leaving, then the depths open at H1. `prepare` runs
   // under full dark, where any state shedding is invisible.
   const descendIntoDepths = (prepare?: () => void) => {
+    pendingReveal.current = null;
     setLeaving(true);
     setDescending('in');
     window.setTimeout(() => {
@@ -235,39 +266,53 @@ function App() {
   const crossAnyway = () => { setRoped(false); descendIntoDepths(); };
 
   // TheDepths fires onPrepare at the letting-go (~1.6s before the handoff):
-  // the result is distilled HERE and the persona image pre-decoded, so the
-  // black-on-black cut into TheSurfacing carries no decode stall — the
-  // emergence starts the instant the black lands (no stop in the flow).
-  // craftCocktail may not be pure, so the prepared result is kept in a ref
-  // and finishDepths reuses it rather than rolling a second one.
-  const preparedResult = useRef<CocktailResult | null>(null);
-  const prepareReveal = () => {
-    // For testing: lock output to approved cocktail "Down the Line" (The Visionary) which has full artwork and copy
-    const r = VISIONARY_SAMPLE;
-    preparedResult.current = r;
-    const meta = personaImageFor(r.primary, r.secondary);
-    const img = new Image();
-    // the reading opens on the wide scene when the persona has one
-    img.src = meta.wide ?? meta.src;
-    img.decode?.().catch(() => { /* decode failure only costs the head start */ });
+  // the reveal starts HERE — the registry and the reading room load, the
+  // journey's answers select the authored pour, and its persona image is
+  // pre-decoded — so the black-on-black cut carries no stall. finishDepths
+  // awaits the same promise rather than selecting twice. A reveal that
+  // cannot be built resolves to null, and the guest is taken home.
+  const startReveal = (): Promise<Reading | null> => {
+    const journey = answersRef.current;
+    const built = Promise.all([loadReveal(), loadReading()])
+      .then(([{ revealReading }]) => {
+        const revealed = revealReading(journey);
+        const img = new Image();
+        // the reading opens on the wide scene when the persona has one
+        img.src = revealed.persona.wide ?? revealed.persona.src;
+        img.decode?.().catch(() => { /* decode failure only costs the head start */ });
+        return revealed;
+      })
+      .catch(() => null);
+    // a chunk load that hangs must not hold the dark forever: give up, go home
+    const timeout = new Promise<null>((resolve) => window.setTimeout(() => resolve(null), REVEAL_TIMEOUT_MS));
+    const pending = Promise.race([built, timeout]);
+    pendingReveal.current = pending;
+    return pending;
   };
+  const prepareReveal = () => { startReveal(); };
 
   // TheDepths fires this at full black — the reading mounts black-on-black, so
   // the cut is invisible and the arrival kindles straight out of the breath's
-  // own dark.
+  // own dark. The reveal normally settled during the letting-go; if not, the
+  // dark simply holds until it does.
   const finishDepths = () => {
-    // For testing: lock output to approved cocktail "Down the Line" (The Visionary)
-    const r = VISIONARY_SAMPLE;
-    setResult(r);
-    setReadingIntro(true);
-    setReadingTake((n) => n + 1);
-    setPhase('reading');
+    const pending = pendingReveal.current ?? startReveal();
+    pending.then((revealed) => {
+      if (pendingReveal.current !== pending) return; // superseded by a newer reveal
+      pendingReveal.current = null;
+      if (!revealed) { goHome(); return; }
+      setReading(revealed);
+      setReadingIntro(true);
+      setReadingTake((n) => n + 1);
+      setPhase('reading');
+    });
   };
 
   // Dev-only: the reveal's quick-nav sends the journey back to any hold —
   // TheDepths remounts and lands straight on the target (initialJump).
   const [devJump, setDevJump] = useState<DevJumpTarget | null>(null);
   const devNavigate = (target: DevJumpTarget) => {
+    pendingReveal.current = null;
     setDevJump(target);
     setPhase('depths');
   };
@@ -277,29 +322,31 @@ function App() {
   const [readingIntro, setReadingIntro] = useState(false);
 
   // Dev-only: H10 opens the cocktail page (the owner's keepsake), H11 the same
-  // keepsake as the invited friend sees it. A result is distilled on the spot
-  // when the journey hasn't produced one yet.
+  // keepsake as the invited friend sees it. Both use the creator-hero fixture
+  // ("Down the Line") so the room renders with its designed scene and
+  // calibrated tag coords, whatever the journey has answered so far.
   const devPage = (page: DevPage) => {
-    // H9.5 / H10.5 — the alternate keepsake, always shown with the approved
-    // Visionary pour ("Down the Line") so it reads as designed.
-    if (page === 'reading' || page === 'reading-in') {
-      setResult(VISIONARY_SAMPLE);
-      setReadingIntro(page === 'reading-in');
+    Promise.all([loadReveal(), loadReading()]).then(([{ readingFor, seedFromHex }]) => {
+      const seed = seedFromHex(answers.color);
+      if (page === 'reading' || page === 'reading-in') {
+        setReading(readingFor(DEV_PAIRING, answers.name.trim(), seed));
+        setReadingIntro(page === 'reading-in');
+        setReadingTake((n) => n + 1);
+        setPhase('reading');
+        return;
+      }
+      // H11 · the friend's arrival
+      setReading(readingFor(DEV_PAIRING, answers.name.trim() || 'Celeste', seed));
       setReadingTake((n) => n + 1);
-      setPhase('reading');
-      return;
-    }
-    // H11 · the friend's arrival, always shown with the Visionary sample so the
-    // reading room renders with its designed 4:3 scene and calibrated tag coords.
-    setResult(VISIONARY_SAMPLE);
-    setGiftAnswers({ ...DEFAULT_ANSWERS, name: answers.name.trim() || 'Celeste', color: answers.color });
-    setPhase('gift');
+      setPhase('gift');
+    }).catch(() => goHome());
   };
 
   // The way back out. It used to be a hard cut straight to the Entrance —
   // the one transition in the experience that wasn't a transition. Now it
   // wears the same veil as the way in, sinking before the Entrance surfaces.
   const goHome = () => {
+    pendingReveal.current = null;
     setLeaving(false);
     setDescending('in');
     window.setTimeout(() => {
@@ -307,8 +354,7 @@ function App() {
       if (window.location.hash || window.location.pathname !== '/') {
         window.history.replaceState(null, '', '/');
       }
-      setGiftAnswers(null);
-      setResult(null);
+      setReading(null);
       setPhase('landing');
       setDescending('out');
       window.setTimeout(() => setDescending(null), 900);
@@ -349,7 +395,7 @@ function App() {
           <div className={`landing-copy ${leaving ? 'hero-exit' : ''}`}>
             <h1 className="landing-title">
               <span className="landing-kicker hero-anim hero-reveal" style={{ animationDelay: '0.25s' }}>Discover your</span>
-              <span className="landing-name hero-anim hero-reveal" style={{ animationDelay: '0.42s' }}>Cocktail<br />Within</span>
+              <span className="landing-name hero-anim hero-reveal" style={{ animationDelay: '0.42s' }}>Spirit<br />Within</span>
             </h1>
             <p className="landing-lede hero-anim hero-fade" style={{ animationDelay: '0.7s' }}>
               There’s a cocktail out there that resonates with who you are, the one
@@ -381,36 +427,37 @@ function App() {
       {/* H10 · the reading. The journey's destination: the cocktail's own room,
           arriving out of the breath's dark. `key` remounts it when the arrival
           is re-triggered, so the choreography replays from the top. */}
-      {phase === 'reading' && result && (
-        <TheReading
-          key={`${readingIntro ? 'in' : 'settled'}-${readingTake}`}
-          result={result}
-          seed={answers.color}
-          name={answers.name.trim()}
-          intro={readingIntro}
-          onPourAgain={goHome}
-          onDevJump={import.meta.env.DEV ? devNavigate : undefined}
-          onDevPage={import.meta.env.DEV ? devPage : undefined}
-        />
+      {phase === 'reading' && reading && (
+        <Suspense fallback={null}>
+          <TheReading
+            key={`${readingIntro ? 'in' : 'settled'}-${readingTake}`}
+            reading={reading}
+            intro={readingIntro}
+            onPourAgain={goHome}
+            onDevJump={import.meta.env.DEV ? devNavigate : undefined}
+            onDevPage={import.meta.env.DEV ? devPage : undefined}
+          />
+        </Suspense>
       )}
 
       {/* H11 · the friend's arrival. The same room, but the light in it is hers:
           it opens on the sharer's name alone in the dark, inks that name onto
           the tag in her seed colour (master spec §2), and hands the guest the
-          recipe without the reading. While the pour decodes, giftAnswers is null
-          and the frame stays black, so the gift unveils out of that same dark. */}
-      {phase === 'gift' && result && giftAnswers && (
-        <TheReading
-          key={`gift-${readingTake}`}
-          result={result}
-          seed={giftAnswers.color}
-          name={giftAnswers.name.trim()}
-          intro
-          gift
-          onMeetYourOwn={beginOwnJourney}
-          onDevJump={import.meta.env.DEV ? devNavigate : undefined}
-          onDevPage={import.meta.env.DEV ? devPage : undefined}
-        />
+          recipe without the reading. While the pour decodes and assembles,
+          `reading` is null and the frame stays black, so the gift unveils out
+          of that same dark. */}
+      {phase === 'gift' && reading && (
+        <Suspense fallback={null}>
+          <TheReading
+            key={`gift-${readingTake}`}
+            reading={reading}
+            intro
+            gift
+            onMeetYourOwn={beginOwnJourney}
+            onDevJump={import.meta.env.DEV ? devNavigate : undefined}
+            onDevPage={import.meta.env.DEV ? devPage : undefined}
+          />
+        </Suspense>
       )}
 
       {/* the poetic 404 · a glass that was never poured (master spec §4) */}

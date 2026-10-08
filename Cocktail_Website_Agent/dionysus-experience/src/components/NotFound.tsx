@@ -273,7 +273,7 @@ export default function NotFound({ onHome }: { onHome: () => void }) {
           since evaporated. Your own glass still waits.
         </p>
         <div className="nf-cta nf-rise" style={{ '--d': '0.42s' } as CSSProperties}>
-          <CtaButton onClick={onHome}>Discover your cocktail within</CtaButton>
+          <CtaButton onClick={onHome}>Discover your spirit within</CtaButton>
         </div>
         <span className="nf-sr">Error 404. This page could not be found.</span>
       </div>
