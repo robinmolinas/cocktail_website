@@ -1,10 +1,10 @@
 """Matching model v1, reference implementation (analysis only).
 
 The production scorer is the TypeScript core (shared/selection, AD-3). This
-module mirrors it so the reachability and distribution analysis can run
-before the core exists. Both read model-v1.json; the core also ships the
-group scales computed here (model-v1.scales.json), so the two cannot drift
-on constants. Pure functions, no randomness.
+module mirrors it for reachability and distribution analysis. Both read
+the model, shipped scales and validated catalogue from shared/. Analysis
+never replaces the scales during report regeneration. Pure functions,
+no randomness.
 
 Score, per matching-model.md:
   M[a] = sum_g roleM[g] * G_g(answers)[a] / scale[g]      motive    -> primary
@@ -15,22 +15,25 @@ G_g is the group's centred contribution, so an absent answer is 0 (neutral).
 
 import json
 import os
-import re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 APP = os.path.dirname(os.path.dirname(HERE))  # Cocktail_Website_Agent
-POURS = os.path.join(APP, "design-artifacts", "pours")
-SPECS = os.path.join(POURS, "_studio", "specs")
-# The live Pour Studio tooling sits at the workspace root (skills/), not the
-# stale copy inside Dionysus/skills (116 vs 345 ingredients on 2026-10-06).
-INGREDIENTS = os.path.join(os.path.dirname(os.path.dirname(APP)), "skills", "dps-tools", "data", "ingredients.json")
+SHARED = os.path.join(APP, "dionysus-experience", "shared")
+MODEL_PATH = os.path.join(SHARED, "selection", "model-v1.json")
+SCALES_PATH = os.path.join(SHARED, "selection", "model-v1.scales.json")
+CATALOGUE_PATH = os.path.join(SHARED, "data", "catalogue.json")
 
 GROUPS = ("drawnToward", "soughtFor", "gravity", "texture")
 
 
-def load_model(path=os.path.join(HERE, "model-v1.json")):
+def load_model(path=MODEL_PATH):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_scales(path=SCALES_PATH):
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)["scales"]
 
 
 def pairing_key(primary, secondary):
@@ -142,64 +145,21 @@ class Model:
 
 
 # -- catalogue -----------------------------------------------------------------
-AMOUNT_ML = ("ml",)
-
-
-def _amount_factor(ing):
-    ml = ing.get("ml")
-    if isinstance(ml, (int, float)):
-        return 1.0 if ml >= 20 else 0.6 if ml >= 7.5 else 0.3
-    return 0.3  # dashes, drops, pieces, barspoons, leaves
-
-
-def load_catalogue(model):
-    """One record per ordered pairing: key, primary, secondary, status, contains, flavour strengths."""
-    with open(os.path.join(HERE, "flavour-rules.json"), encoding="utf-8") as f:
-        rules = json.load(f)["rules"]
-    with open(INGREDIENTS, encoding="utf-8") as f:
-        table = json.load(f)["ingredients"]
-    slug = {a.lower().replace(" ", "-"): a for a in model.arch}
-    cat = {}
-    for p in model.arch:
-        for s in model.arch:
-            if p == s:
-                continue
-            key = pairing_key(p, s)
-            dossier = os.path.join(POURS, key + ".md")
-            spec_path = os.path.join(SPECS, key + ".json")
-            rec = {"key": key, "primary": p, "secondary": s, "authored": False}
-            if os.path.exists(dossier) and os.path.exists(spec_path):
-                with open(dossier, encoding="utf-8") as f:
-                    head = f.read(6000)
-                m = re.search(r"^status:\s*(\S+)", head, re.M)
-                c = re.search(r"\*\*contains:\*\*\s*`?(\[[^\]]*\])", head)
-                with open(spec_path, encoding="utf-8") as f:
-                    spec = json.load(f)
-                strength = {fl: 0.0 for fl in model.flavours}
-                sugar_g = vol = 0.0
-                for ing in spec["ingredients"]:
-                    k = ing["key"]
-                    for fl, rs in rules.items():
-                        for pattern, base in rs:
-                            if re.search(pattern, k):
-                                strength[fl] = min(1.0, max(strength[fl], base * _amount_factor(ing)))
-                    if isinstance(ing.get("ml"), (int, float)) and ing.get("stage") != "top":
-                        vol += ing["ml"]
-                        sugar_g += ing["ml"] * (table.get(k, {}).get("sugar") or 0) / 100
-                rec.update(
-                    authored=True,
-                    status=m.group(1) if m else "unknown",
-                    contains=json.loads(c.group(1)) if c else None,
-                    flavour=strength,
-                    sugar_conc=(sugar_g / vol * 100) if vol else 0.0,
-                )
-            cat[key] = rec
-    authored = [r for r in cat.values() if r["authored"]]
-    ranked = sorted(r["sugar_conc"] for r in authored)
-    if ranked:
-        t1, t2 = ranked[len(ranked) // 3], ranked[2 * len(ranked) // 3]
-        for r in authored:
-            r["flavour"]["sweet"] = 1.0 if r["sugar_conc"] >= t2 else 0.5 if r["sugar_conc"] >= t1 else 0.0
+def load_catalogue(model, path=CATALOGUE_PATH):
+    """Read the validated shared store; missing ordered pairs stay unauthored."""
+    with open(path, encoding="utf-8") as f:
+        records = json.load(f)
+    cat = {
+        pairing_key(p, s): {"key": pairing_key(p, s), "primary": p, "secondary": s, "authored": False}
+        for p in model.arch for s in model.arch if p != s
+    }
+    seen = set()
+    for record in records:
+        key = record["pairing"]
+        if key not in cat or key in seen:
+            raise ValueError(f"invalid or duplicate pairing in shared catalogue: {key}")
+        seen.add(key)
+        cat[key].update(authored=True, status=record["status"], contains=record["contains"], flavour=record["flavour"])
     return cat
 
 

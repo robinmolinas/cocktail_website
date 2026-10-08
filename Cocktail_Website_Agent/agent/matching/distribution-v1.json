@@ -21,25 +21,25 @@
    "Innocent": 0.11,
    "Jester": 0.124,
    "Lover": 0.107,
-   "Magician": 0.12,
+   "Magician": 0.121,
    "Outlaw": 0.078,
    "Regular Guy": 0.126,
    "Ruler": 0.025,
    "Sage": 0.023
   },
   "exact_tie_rate": 0.0,
-  "near_tie_rate_lt_0.05": 0.084,
+  "near_tie_rate_lt_0.05": 0.085,
   "median_top1_margin": 0.3783,
-  "p25_top1_margin": 0.1594,
+  "p25_top1_margin": 0.1596,
   "one_answer_changes_top1": 0.519,
   "one_answer_changes_primary": 0.309,
   "after_one_change_top1_was_in_old_shortlist": 0.664,
   "dropping_group_changes_top1": {
-   "drawnToward": 0.839,
+   "drawnToward": 0.84,
    "soughtFor": 0.746,
    "gravity": 0.408,
    "texture": 0.429,
-   "flavors": 0.047
+   "flavors": 0.046
   },
   "most_common": [
    [
@@ -144,16 +144,16 @@
   },
   "exact_tie_rate": 0.0,
   "near_tie_rate_lt_0.05": 0.069,
-  "median_top1_margin": 0.4579,
-  "p25_top1_margin": 0.193,
+  "median_top1_margin": 0.4578,
+  "p25_top1_margin": 0.1938,
   "one_answer_changes_top1": 0.529,
   "one_answer_changes_primary": 0.288,
   "after_one_change_top1_was_in_old_shortlist": 0.613,
   "dropping_group_changes_top1": {
    "drawnToward": 0.876,
-   "soughtFor": 0.796,
+   "soughtFor": 0.797,
    "gravity": 0.22,
-   "texture": 0.294,
+   "texture": 0.293,
    "flavors": 0.021
   },
   "most_common": [
@@ -171,7 +171,7 @@
    ],
    [
     "regular-guy-caregiver",
-    0.0225
+    0.0223
    ],
    [
     "jester-sage",
@@ -256,17 +256,17 @@
   },
   "exact_tie_rate": 0.0,
   "near_tie_rate_lt_0.05": 0.07,
-  "median_top1_margin": 0.4714,
+  "median_top1_margin": 0.4715,
   "p25_top1_margin": 0.1997,
   "one_answer_changes_top1": 0.452,
-  "one_answer_changes_primary": 0.305,
+  "one_answer_changes_primary": 0.304,
   "after_one_change_top1_was_in_old_shortlist": 0.738,
   "dropping_group_changes_top1": {
    "drawnToward": 0.674,
-   "soughtFor": 0.601,
-   "gravity": 0.4,
+   "soughtFor": 0.602,
+   "gravity": 0.399,
    "texture": 0.374,
-   "flavors": 0.038
+   "flavors": 0.037
   },
   "most_common": [
    [
@@ -337,8 +337,8 @@
    ]
   ],
   "latent_recovered_top1": 0.149,
-  "latent_recovered_in_shortlist": 0.322,
-  "reversed_pair_instead": 0.148,
+  "latent_recovered_in_shortlist": 0.321,
+  "reversed_pair_instead": 0.147,
   "primary_recovery_by_latent_primary": {
    "Caregiver": 0.1,
    "Creator": 0.22,
@@ -356,20 +356,50 @@
  },
  "flavour_weight_change_vs_current": {
   "0.0": 0.043,
-  "0.3": 0.049,
+  "0.3": 0.048,
   "0.6": 0.135
  },
  "veto_changes_top1": {
   "egg-white": 0.04,
-  "dairy": 0.027,
+  "dairy": 0.026,
   "gluten": 0.025,
-  "nuts": 0.159,
-  "spice": 0.036,
-  "all": 0.245
+  "nuts": 0.12,
+  "spice": 0.026,
+  "all": 0.203
  },
  "empty_intake": [
   "caregiver-creator",
   "caregiver-explorer",
   "caregiver-hero"
- ]
+ ],
+ "_analysis": {
+  "date": "2026-10-08",
+  "samples": 6000,
+  "authored": 132,
+  "veto_free": 105,
+  "veto_counts": {
+   "egg-white": 5,
+   "dairy": 4,
+   "gluten": 4,
+   "nuts": 14,
+   "spice": 4
+  },
+  "phi": 0.15,
+  "shipped_scales": {
+   "drawnToward": 0.373354188709406,
+   "soughtFor": 0.3470070243067422,
+   "gravity": 0.3031359776327876,
+   "texture": 0.5334146511187519
+  },
+  "reachability_regenerated": true,
+  "source_hashes": {
+   "model": "920c1125b9e021032ea5710d5c14481b9bc7fec89ac8a24c4e763176e7c1da87",
+   "scales": "bbc1aad0ea6a245e3348ba19e13125a637baeb483274dc12095e9d4dd6adc069",
+   "catalogue": "151bea621af29731f08611a669f9fc950394879731d3e79f16916421fc8f9bf5"
+  },
+  "output_hashes": {
+   "reachability-v1.json": "260fc55a6bbb055a627221572d3a60156bf510564fe68b3f4ab27bc10e57d518",
+   "fixtures-v1.json": "f33a6e6a74ab380f66b3254b62ef5db89e0e571fef5b33fdf3bef856b0878452"
+  }
+ }
 }

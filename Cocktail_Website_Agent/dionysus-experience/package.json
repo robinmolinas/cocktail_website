@@ -12,8 +12,9 @@
     "import:pours": "node --experimental-strip-types scripts/import-pours.ts",
     "import:pours:check": "node --experimental-strip-types scripts/import-pours.ts --check",
     "import:pours:fresh": "node --experimental-strip-types scripts/import-pours.ts --check --if-sources",
-    "build": "npm run validate:images && npm run import:pours:fresh && tsc -b && vitest run && vite build",
-    "test": "vitest run",
+    "selection:reference:check": "node --experimental-strip-types scripts/check-selection-reference.ts",
+    "build": "npm run validate:images && npm run import:pours:fresh && npm run selection:reference:check && tsc -b && vitest run && vite build",
+    "test": "npm run selection:reference:check && vitest run",
     "lint": "eslint .",
     "preview": "vite preview"
   },

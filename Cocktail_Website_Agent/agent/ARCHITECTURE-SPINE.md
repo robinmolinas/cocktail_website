@@ -74,7 +74,7 @@ Allowed imports: `src → shared`, `api → server, shared`, `server → shared`
   3. Drop pairings with no authored cocktail or whose cocktail contains any of the guest's vetoes.
   4. Take the top 3, breaking ties by `pairingKey` ascending.
 
-  The Bartender picks one of them. A non-shortlist answer means `shortlist[0]`. No RNG anywhere. Weight values and the pairing formula are tunable data, living only in the core; v1 is specified in `spec/matching-model.md` (data `matching/model-v1.json`), with scores compared rounded to 9 decimals.
+  The Bartender picks one of them. A non-shortlist answer means `shortlist[0]`. No RNG anywhere. Weight values and the pairing formula are tunable data, living only in the core; v1 is specified in `spec/matching-model.md` (data `../dionysus-experience/shared/selection/model-v1.json`), with scores compared rounded to 9 decimals.
 
 ### AD-4 — Vetoes steer the match; the pool can never be empty
 

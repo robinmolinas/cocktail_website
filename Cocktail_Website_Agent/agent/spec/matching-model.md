@@ -1,6 +1,6 @@
 # Matching model v1: signals, weights, pair formula, missing answers
 
-Status: **proposed 2026-10-06** (matching owner). This document is the contract for CAP-2 and CAP-8. AD-3 makes the values tunable core data. The values live in `../matching/model-v1.json` and `model-v1.scales.json`; the core imports them as data and never re-types them. Evidence: `../matching/reachability-v1.md` and `distribution-v1.md`. Re-run `../matching/analyze.py` and `render.py` after any change to weights, vocabulary or catalogue.
+Status: **implemented in story 1.3, 2026-10-08** (matching owner). This document is the contract for CAP-2 and CAP-8. AD-3 makes the values tunable core data. The values live in `../../dionysus-experience/shared/selection/model-v1.json` and `model-v1.scales.json`; TypeScript and Python read the same data. Evidence: `../matching/reachability-v1.md` and `distribution-v1.md`. Re-run `../matching/analyze.py`, `render.py` and `export-fixtures.py` after any change to weights, vocabulary or catalogue. The normal analysis reads shipped scales unchanged; it never recalibrates or overwrites them. Tests and builds check the exported reference's source hashes before comparing shortlists.
 
 The questionnaire is a playful reflection, **not a validated psychological assessment**, and nothing in the product may claim otherwise.
 
@@ -43,7 +43,7 @@ S(p, s) = M[p] + E[s] + φ · Σ_{f ∈ guest flavours} strength(pour(p,s), f)  
 
 Determinism covers steps 1–3 and the fallback. It promises nothing about which of the three the LLM picks.
 
-The catalogue floors (AD-4) guarantee a full shortlist for every veto set: ≥3 veto-free pours in development, all 132 plus ≥12 veto-free for launch. On the 2026-10-06 dossier claims, 99 of 132 are veto-free. That figure is only asserted after the ingredient-classification review.
+The catalogue floors (AD-4) guarantee a full shortlist for every veto set: ≥3 veto-free pours in development, all 132 plus ≥12 veto-free for launch. The validated shared catalogue has 132 authored pours, 105 veto-free, in the evidence regenerated on 2026-10-08. Draft, flagged and approved pours remain eligible; only absence from the supplied store or a matching veto removes a pour.
 
 ## Missing and conflicting answers
 
@@ -147,7 +147,7 @@ Ambiguity:
 | answer | meaning | affects | handling |
 | --- | --- | --- | --- |
 | Flavours (≤3 of Sweet, Bitter, Spicy, Herbal, Fruity, Citrusy, Fresh, Floral, Smoky) | Taste preference | R (preference) | Flavour-fit term φ on the pour. Never an archetype signal. |
-| Vetoes (egg-white, dairy, gluten, nuts, spice) | Must never be in the glass | R (eligibility) | Hard filter on whole pours before the shortlist. Under U, nuts changes 16% of top-1 results (20 pours contain nuts) and all five vetoes together change 25%. |
+| Vetoes (egg-white, dairy, gluten, nuts, spice) | Must never be in the glass | R (eligibility) | Hard filter on whole pours before the shortlist. Under U, nuts changes 12% of top-1 results (14 pours contain nuts) and all five vetoes together change 20.3%. |
 
 ## Recommended question edit (identified gap)
 
@@ -164,7 +164,7 @@ Ambiguity:
 | Making | Creator 1.0, Hero 0.3 |
 | Caring | Caregiver 1.0, Regular Guy 0.3, Lover 0.3 |
 
-Measured effect, same simulation:
+Historical Q12 experiment (2026-10-06, before the validated catalogue refresh; not part of the shipped model):
 
 - Primary shares go to 0.05–0.10 for every archetype.
 - Recovery for the four thin archetypes rises to 0.30–0.47.

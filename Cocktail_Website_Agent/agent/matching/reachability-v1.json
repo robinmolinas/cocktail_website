@@ -207,7 +207,7 @@
   "status": "draft",
   "contains": [],
   "persona_margin": 2.2298,
-  "lead_margin": 2.3019,
+  "lead_margin": 2.3203,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -288,7 +288,6 @@
   "key": "caregiver-outlaw",
   "status": "draft",
   "contains": [
-   "dairy",
    "nuts"
   ],
   "persona_margin": 1.9673,
@@ -378,7 +377,7 @@
   "status": "draft",
   "contains": [],
   "persona_margin": 1.9265,
-  "lead_margin": 2.1534,
+  "lead_margin": 2.1242,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -981,7 +980,7 @@
  },
  {
   "key": "explorer-hero",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 3.6764,
   "lead_margin": 3.7193,
@@ -1265,7 +1264,7 @@
  },
  {
   "key": "explorer-ruler",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 3.1077,
   "lead_margin": 3.143,
@@ -1547,7 +1546,7 @@
  },
  {
   "key": "hero-lover",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 3.2805,
   "lead_margin": 3.3589,
@@ -1627,9 +1626,7 @@
  {
   "key": "hero-outlaw",
   "status": "draft",
-  "contains": [
-   "nuts"
-  ],
+  "contains": [],
   "persona_margin": 3.4352,
   "lead_margin": 3.5504,
   "leads_fallback": "persona alone",
@@ -1785,7 +1782,7 @@
  },
  {
   "key": "innocent-caregiver",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 3.4735,
   "lead_margin": 3.5509,
@@ -1825,7 +1822,7 @@
  },
  {
   "key": "innocent-creator",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 3.3616,
   "lead_margin": 3.5774,
@@ -1949,9 +1946,7 @@
  {
   "key": "innocent-jester",
   "status": "draft",
-  "contains": [
-   "spice"
-  ],
+  "contains": [],
   "persona_margin": 3.6163,
   "lead_margin": 3.897,
   "leads_fallback": "persona alone",
@@ -2148,7 +2143,7 @@
  },
  {
   "key": "innocent-ruler",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 3.1474,
   "lead_margin": 3.2422,
@@ -2350,7 +2345,7 @@
  },
  {
   "key": "jester-hero",
-  "status": "flagged",
+  "status": "draft",
   "contains": [
    "egg-white",
    "dairy"
@@ -2436,7 +2431,7 @@
    "nuts"
   ],
   "persona_margin": 4.751,
-  "lead_margin": 4.8444,
+  "lead_margin": 4.8576,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -2554,8 +2549,7 @@
   "key": "jester-regular-guy",
   "status": "draft",
   "contains": [
-   "gluten",
-   "nuts"
+   "gluten"
   ],
   "persona_margin": 4.4818,
   "lead_margin": 4.6918,
@@ -2595,10 +2589,10 @@
  },
  {
   "key": "jester-ruler",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 3.8869,
-  "lead_margin": 4.0001,
+  "lead_margin": 4.0106,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -2717,7 +2711,7 @@
  },
  {
   "key": "lover-creator",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 4.0237,
   "lead_margin": 4.3451,
@@ -2837,7 +2831,7 @@
  },
  {
   "key": "lover-innocent",
-  "status": "flagged",
+  "status": "draft",
   "contains": [
    "egg-white"
   ],
@@ -3003,7 +2997,7 @@
   "status": "draft",
   "contains": [],
   "persona_margin": 3.4791,
-  "lead_margin": 3.6909,
+  "lead_margin": 3.7364,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -3045,7 +3039,7 @@
   "status": "draft",
   "contains": [],
   "persona_margin": 3.9185,
-  "lead_margin": 4.1931,
+  "lead_margin": 4.1144,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -3484,9 +3478,7 @@
  {
   "key": "magician-ruler",
   "status": "draft",
-  "contains": [
-   "nuts"
-  ],
+  "contains": [],
   "persona_margin": 3.4864,
   "lead_margin": 3.5835,
   "leads_fallback": "persona alone",
@@ -3772,9 +3764,7 @@
  {
   "key": "outlaw-jester",
   "status": "draft",
-  "contains": [
-   "nuts"
-  ],
+  "contains": [],
   "persona_margin": 3.9955,
   "lead_margin": 4.1566,
   "leads_fallback": "persona alone",
@@ -3894,7 +3884,7 @@
  },
  {
   "key": "outlaw-regular-guy",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 4.0634,
   "lead_margin": 4.0769,
@@ -4023,7 +4013,7 @@
  },
  {
   "key": "regular-guy-caregiver",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 4.035,
   "lead_margin": 4.1757,
@@ -4268,7 +4258,7 @@
   "status": "draft",
   "contains": [],
   "persona_margin": 3.0636,
-  "lead_margin": 3.2182,
+  "lead_margin": 3.1789,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -4307,7 +4297,7 @@
   "status": "draft",
   "contains": [],
   "persona_margin": 2.1799,
-  "lead_margin": 2.387,
+  "lead_margin": 2.4084,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -4385,7 +4375,7 @@
   "status": "draft",
   "contains": [],
   "persona_margin": 3.478,
-  "lead_margin": 3.598,
+  "lead_margin": 3.6867,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -4427,7 +4417,7 @@
    "nuts"
   ],
   "persona_margin": 3.5334,
-  "lead_margin": 3.7406,
+  "lead_margin": 3.7251,
   "leads_fallback": "persona alone",
   "shortlist": "reachable (leads)",
   "final_choice": "selectable (in shortlist), not yet observed",
@@ -4547,9 +4537,7 @@
  {
   "key": "ruler-explorer",
   "status": "draft",
-  "contains": [
-   "nuts"
-  ],
+  "contains": [],
   "persona_margin": 0.7564,
   "lead_margin": 0.9536,
   "leads_fallback": "persona alone",
@@ -4624,7 +4612,7 @@
  },
  {
   "key": "ruler-innocent",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 1.7635,
   "lead_margin": 1.8252,
@@ -4784,9 +4772,7 @@
  {
   "key": "ruler-outlaw",
   "status": "draft",
-  "contains": [
-   "nuts"
-  ],
+  "contains": [],
   "persona_margin": 1.4461,
   "lead_margin": 1.7026,
   "leads_fallback": "persona alone",
@@ -5073,7 +5059,7 @@
  },
  {
   "key": "sage-innocent",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 2.5827,
   "lead_margin": 2.861,
@@ -5233,7 +5219,7 @@
  },
  {
   "key": "sage-outlaw",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 2.8978,
   "lead_margin": 3.1002,
@@ -5273,7 +5259,7 @@
  },
  {
   "key": "sage-regular-guy",
-  "status": "flagged",
+  "status": "draft",
   "contains": [],
   "persona_margin": 2.2199,
   "lead_margin": 2.3311,

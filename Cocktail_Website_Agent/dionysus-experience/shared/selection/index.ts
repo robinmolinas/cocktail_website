@@ -1,11 +1,12 @@
 // Selection contract (AD-3, AD-4). Deterministic up to the shortlist; no RNG.
 //
-// 1.1 ships the contract with a stub score: every pairing scores 0, so the
-// shortlist is the first 3 eligible pairings by key. 1.3 passes the authored
-// scorer as `score`. Mirrors agent/matching/matching.py select_shortlist().
+// Default scoring implements matching v1 over the supplied catalogue.
 
 import type { RevealRequest, Veto } from '../answers';
 import { comparePairingKeys, type PairingKey } from '../pairing';
+import catalogue from '../data/catalogue.json';
+import { CatalogueEntrySchema } from '../data/schema';
+import { round9, scorePairing, scorePersona, type FlavourStrengths } from './scoring';
 
 export const SHORTLIST_SIZE = 3;
 
@@ -14,27 +15,31 @@ export const SHORTLIST_SIZE = 3;
 export type EligibilityRecord = {
   pairing: PairingKey;
   contains: readonly Veto[];
+  flavour?: FlavourStrengths;
 };
 
 export type ScoreFn = (req: RevealRequest, pairing: PairingKey) => number;
 
-const stubScore: ScoreFn = () => 0;
-
-// Scores are compared rounded to 9 decimals, so float noise never decides.
-const round9 = (score: number) => Math.round(score * 1e9) / 1e9;
+const productionCatalogue = CatalogueEntrySchema.array().parse(catalogue);
 
 // Drop records whose cocktail contains any of the guest's vetoes, sort by
 // score descending then pairingKey ascending, take the top 3. Fewer than 3
 // eligible → whatever exists; the pool floor is the store validator's job.
 export function selectShortlist(
   req: RevealRequest,
-  records: readonly EligibilityRecord[],
-  score: ScoreFn = stubScore,
+  records: readonly EligibilityRecord[] = productionCatalogue,
+  score?: ScoreFn,
 ): PairingKey[] {
   const vetoes = new Set<Veto>(req.vetoes);
+  const persona = score === undefined ? scorePersona(req) : undefined;
   return records
     .filter((record) => !record.contains.some((item) => vetoes.has(item)))
-    .map((record) => ({ pairing: record.pairing, score: round9(score(req, record.pairing)) }))
+    .map((record) => ({
+      pairing: record.pairing,
+      score: round9(score === undefined
+        ? scorePairing(persona!, record.pairing, req.flavors, record.flavour)
+        : score(req, record.pairing)),
+    }))
     .sort((a, b) => b.score - a.score || comparePairingKeys(a.pairing, b.pairing))
     .slice(0, SHORTLIST_SIZE)
     .map((entry) => entry.pairing);

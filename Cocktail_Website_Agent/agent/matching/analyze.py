@@ -3,7 +3,6 @@
   uv run --with scipy --with numpy python -I analyze.py [--phi X] [--samples N]
 
 Writes (next to this file):
-  model-v1.scales.json        group spreads the core must ship with the weights
   reachability-v1.md / .json  132-row layered report
   distribution-v1.md / .json  outcome frequencies, ties, sensitivity, group influence
   fixtures-v1.json            one witness answer set per reachable pairing (core test fixtures)
@@ -12,10 +11,13 @@ Simulation uses a seeded generator; the model itself has no randomness.
 """
 
 import argparse
+import hashlib
 import itertools
 import json
 import os
 import sys
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import numpy as np
 from scipy.optimize import LinearConstraint, Bounds, milp
@@ -25,6 +27,19 @@ import matching as mt  # noqa: E402
 
 HERE = mt.HERE
 VETOES = ["egg-white", "dairy", "gluten", "nuts", "spice"]
+
+
+def source_hashes():
+    hashes = {}
+    for name, path in (("model", mt.MODEL_PATH), ("scales", mt.SCALES_PATH), ("catalogue", mt.CATALOGUE_PATH)):
+        with open(path, "rb") as source:
+            hashes[name] = hashlib.sha256(source.read()).hexdigest()
+    return hashes
+
+
+def require_unchanged_sources(snapshot):
+    if source_hashes() != snapshot:
+        raise RuntimeError("analysis inputs changed during the run; rerun analyze.py")
 
 
 # ---------------------------------------------------------------- answer models
@@ -351,14 +366,13 @@ def main():
     ap.add_argument("--phi", type=float, default=None)
     ap.add_argument("--skip-reach", action="store_true")
     args = ap.parse_args()
+    snapshot = source_hashes()
     spec = mt.load_model()
     if args.phi is not None:
         spec["flavourFit"]["phi"] = args.phi
-    model = mt.Model(spec)
-    model.scales = calibrate(model, np.random.default_rng(20261006))
-    with open(os.path.join(HERE, "model-v1.scales.json"), "w") as f:
-        json.dump({"_about": "Group spreads under answer model U (calibrate() in analyze.py, seed 20261006, 20000 samples). The core divides each group's centred score by these.", "scales": model.scales}, f, indent=1)
+    model = mt.Model(spec, mt.load_scales())
     cat = mt.load_catalogue(model)
+    require_unchanged_sources(snapshot)
     print("scales", model.scales)
 
     dist = {}
@@ -382,6 +396,19 @@ def main():
     dist["flavour_weight_change_vs_current"] = phi_sens
     dist["veto_changes_top1"] = veto_sens
     dist["empty_intake"] = mt.select_shortlist(model, cat, {})[0]
+    dist["_analysis"] = {
+        "date": datetime.now(ZoneInfo("Europe/Paris")).date().isoformat(),
+        "samples": args.samples,
+        "authored": sum(r["authored"] for r in cat.values()),
+        "veto_free": sum(r["authored"] and not r["contains"] for r in cat.values()),
+        "veto_counts": {v: sum(r["authored"] and v in r["contains"] for r in cat.values()) for v in VETOES},
+        "phi": model.spec["flavourFit"]["phi"],
+        "shipped_scales": model.scales,
+        "reachability_regenerated": False,
+        "source_hashes": snapshot,
+        "output_hashes": {},
+    }
+    require_unchanged_sources(snapshot)
     with open(os.path.join(HERE, "distribution-v1.json"), "w") as f:
         json.dump(dist, f, indent=1)
     print("phi", phi_sens, "veto", veto_sens, "empty", dist["empty_intake"])
@@ -390,10 +417,18 @@ def main():
         return
     feas = Feasibility(model, cat)
     rows = reachability(model, cat, feas)
+    require_unchanged_sources(snapshot)
     with open(os.path.join(HERE, "reachability-v1.json"), "w") as f:
         json.dump(rows, f, indent=1)
     with open(os.path.join(HERE, "fixtures-v1.json"), "w") as f:
         json.dump({r["key"]: r["witness"] for r in rows if r["witness"]}, f, indent=1)
+    for name in ("reachability-v1.json", "fixtures-v1.json"):
+        with open(os.path.join(HERE, name), "rb") as source:
+            dist["_analysis"]["output_hashes"][name] = hashlib.sha256(source.read()).hexdigest()
+    require_unchanged_sources(snapshot)
+    dist["_analysis"]["reachability_regenerated"] = True
+    with open(os.path.join(HERE, "distribution-v1.json"), "w") as f:
+        json.dump(dist, f, indent=1)
     from collections import Counter
     print(Counter(r["leads_fallback"].split(" [")[0] for r in rows))
     print(Counter(r["shortlist"] for r in rows))
