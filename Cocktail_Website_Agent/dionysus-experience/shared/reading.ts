@@ -104,7 +104,7 @@ function cloneCocktail(cocktail: Cocktail): Cocktail {
 function clonePersona(persona: PersonaImageMeta): PersonaImageMeta {
   return {
     ...persona,
-    tag: { ...persona.tag },
+    ...(persona.tag ? { tag: { ...persona.tag } } : {}),
     glass: { ...persona.glass },
     ...(persona.wideTag ? { wideTag: { ...persona.wideTag } } : {}),
     ...(persona.wideGlass ? { wideGlass: { ...persona.wideGlass } } : {}),

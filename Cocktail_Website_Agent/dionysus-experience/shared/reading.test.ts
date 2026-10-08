@@ -229,12 +229,8 @@ describe('assembleReading with isolated fixtures', () => {
     }
   });
 
-  it('uses the exact existing image fallback when geometry is unregistered', () => {
-    expect(assembleReading('caregiver-creator', null, 'Robin', null).persona).toEqual({
-      src: '/personas/_fallback.jpg',
-      tag: { cx: 0.77, cy: 0.916, w: 0.26, angle: -17 },
-      glass: { x: 0.5, y: 0.34 },
-    });
+  it('carries the registered image geometry for the pairing', () => {
+    expect(assembleReading('caregiver-creator', null, 'Robin', null).persona).toEqual(personaImageFor('Caregiver', 'Creator'));
     expect(assembleReading('caregiver-creator', null, 'Robin', null).cocktail).toEqual(AUTHORED_POURS['caregiver-creator']!.cocktail);
   });
 
@@ -324,7 +320,7 @@ describe('assembleReading with isolated fixtures', () => {
     result.yours[0] = 'changed';
     result.copy!.yours[0] = 'changed';
     result.persona.src = 'changed';
-    result.persona.tag.cx = 0;
+    if (result.persona.tag) result.persona.tag.cx = 0;
     result.persona.glass.x = 0;
     if (result.persona.wideTag) result.persona.wideTag.cx = 0;
     if (result.persona.wideGlass) result.persona.wideGlass.x = 0;

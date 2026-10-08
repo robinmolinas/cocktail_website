@@ -7,7 +7,7 @@ import { ALL_PAIRINGS, pairingKey, parsePairingKey } from '../pairing';
 import { validateCatalogue } from '../validate';
 import catalogue from './catalogue.json';
 import { ARCHETYPE_PAIRINGS } from './archetypes';
-import { personaImageFor } from './personas';
+import { PERSONA_FALLBACK, personaImageFor } from './personas';
 import { POUR_LOADERS } from './pours';
 import { AUTHORED_POURS } from './pours/static';
 import type { AuthoredPour } from './schema';
@@ -43,22 +43,23 @@ describe(`the committed store (${strict ? 'STRICT_STORE=1' : 'development'})`, (
     for (const pour of pours) expect(identities.get(pour.pairing)?.name).toBe(pour.personality);
   });
 
-  it('has 17 registered images with geometry, and the existing fallback for the rest', () => {
-    let registered = 0;
+  it('has a registered scene with geometry for all 132 pairings', () => {
     for (const key of ALL_PAIRINGS) {
       const identity = parsePairingKey(key)!;
       const image = personaImageFor(identity.primary, identity.secondary);
-      if (image.src !== '/personas/_fallback.jpg') {
-        registered++;
-        expect(image.src).toBe(`/personas/${key}/portrait.jpg`);
-        expect(image.wide).toBe(`/personas/${key}/wide.jpg`);
-        expect(image.wideTag).toBeDefined();
-        expect(image.wideGlass).toBeDefined();
-      }
+      expect(image.src).toBe(`/personas/${key}/portrait.jpg`);
+      expect(image.wide).toBe(`/personas/${key}/wide.jpg`);
       expect(image.tag).toBeDefined();
+      expect(image.wideTag).toBeDefined();
       expect(image.glass).toBeDefined();
+      expect(image.wideGlass).toBeDefined();
     }
-    expect(registered).toBe(17);
+  });
+
+  it('falls back to a stand-in with no glass and no tag for an unregistered key', () => {
+    expect(personaImageFor('Nobody', 'Else')).toEqual(PERSONA_FALLBACK);
+    expect(PERSONA_FALLBACK.tag).toBeUndefined();
+    expect(PERSONA_FALLBACK.wideTag).toBeUndefined();
   });
 });
 
