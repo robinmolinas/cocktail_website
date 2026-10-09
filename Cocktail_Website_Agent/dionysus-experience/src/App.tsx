@@ -28,19 +28,20 @@ const REVEAL_TIMEOUT_MS = 10_000;
 // Landing artwork variants
 const ORIGINAL_BEFORE = "/first.png";
 const ORIGINAL_REVEAL = "/reveal.png";
-const TWO_WORLDS_BEFORE = "/landing-trial/two-worlds-before-v5.webp";
-const TWO_WORLDS_REVEAL = "/landing-trial/two-worlds-revealed-v5.webp";
-const CENTERED_BEFORE = "/landing-trial/two-worlds-before-v2.png";
-const CENTERED_REVEAL = "/landing-trial/two-worlds-revealed-v2.png";
+const CENTERED_BEFORE = "/landing-trial/option-3a-before.webp";
+const CENTERED_REVEAL = "/landing-trial/option-3a-revealed-flower-inset-v2.webp";
+const EMBERS_BEFORE = "/landing-trial/option-3b-before.webp";
+const EMBERS_REVEAL = "/landing-trial/option-3b-revealed.webp";
 
-type LandingVariant = 'original' | 'two-worlds' | 'centered';
+type LandingVariant = 'original' | 'centered' | 'embers';
 
 const LANDING_ARTWORK: Record<LandingVariant, { before: string; reveal: string; pathname: string }> = {
-  original: { before: ORIGINAL_BEFORE, reveal: ORIGINAL_REVEAL, pathname: '/' },
-  'two-worlds': { before: TWO_WORLDS_BEFORE, reveal: TWO_WORLDS_REVEAL, pathname: '/homepage-2' },
+  original: { before: ORIGINAL_BEFORE, reveal: ORIGINAL_REVEAL, pathname: '/homepage-1' },
   centered: { before: CENTERED_BEFORE, reveal: CENTERED_REVEAL, pathname: '/homepage-3' },
+  embers: { before: EMBERS_BEFORE, reveal: EMBERS_REVEAL, pathname: '/homepage-3b' },
 };
 
+// Retired Option 2 URLs now open the current Option 3 direction.
 export const isHomepage2Path = (pathname: string): boolean => {
   const p = pathname.toLowerCase().replace(/\/+$/, '');
   return p === '/homepage-2' || p === '/other-homepage' || p === '/homepage2';
@@ -48,7 +49,7 @@ export const isHomepage2Path = (pathname: string): boolean => {
 
 export const isHomepage3Path = (pathname: string): boolean => {
   const p = pathname.toLowerCase().replace(/\/+$/, '');
-  return p === '/homepage-3' || p === '/homepage3';
+  return p === '/homepage-3' || p === '/homepage3' || p === '/homepage-3a' || p === '/homepage3a' || p === '/homepage-3b' || p === '/homepage3b';
 };
 
 export const isLandingPath = (pathname: string): boolean => {
@@ -57,20 +58,25 @@ export const isLandingPath = (pathname: string): boolean => {
 };
 
 const getInitialLandingVariant = (): LandingVariant => {
-  if (typeof window === 'undefined') return 'original';
+  if (typeof window === 'undefined') return 'centered';
   const params = new URLSearchParams(window.location.search);
-  const landingParam = params.get('landing') || params.get('v');
-  if (landingParam === '3' || landingParam === 'centered' || landingParam === 'homepage-3') {
+  const landingParam = (params.get('landing') || params.get('v') || '').toLowerCase();
+  if (landingParam === '3b' || landingParam === 'embers' || landingParam === 'homepage-3b') {
+    return 'embers';
+  }
+  if (landingParam === '3' || landingParam === '3a' || landingParam === 'centered' || landingParam === 'homepage-3' || landingParam === 'homepage-3a') {
     return 'centered';
   }
   if (landingParam === '2' || landingParam === 'two-worlds' || landingParam === 'other' || landingParam === 'homepage-2') {
-    return 'two-worlds';
+    return 'centered';
   }
   if (landingParam === '1' || landingParam === 'original' || landingParam === 'homepage-1') {
     return 'original';
   }
-  if (isHomepage3Path(window.location.pathname)) return 'centered';
-  return isHomepage2Path(window.location.pathname) ? 'two-worlds' : 'original';
+  const pathname = window.location.pathname.toLowerCase().replace(/\/+$/, '');
+  if (pathname === '/homepage-3b' || pathname === '/homepage3b') return 'embers';
+  if (pathname === '/homepage-1' || pathname === '/original') return 'original';
+  return 'centered';
 };
 
 // The cursor spotlight: the second world (reveal.png) is painted full-bleed and
@@ -429,9 +435,10 @@ function App() {
     window.setTimeout(() => {
       // clear a share hash or an unknown pathname so the entrance owns a clean path
       if (window.location.hash || (!isLandingPath(window.location.pathname) && window.location.pathname !== '/')) {
-        const dest = isHomepage2Path(window.location.pathname) || isHomepage3Path(window.location.pathname) ? window.location.pathname : '/';
+        const dest = isLandingPath(window.location.pathname) ? window.location.pathname : '/';
         window.history.replaceState(null, '', dest);
       }
+      setLandingVariant(getInitialLandingVariant());
       setReading(null);
       setPhase('landing');
       setDescending('out');
@@ -486,23 +493,27 @@ function App() {
               onClick={() => selectVariant('original')}
               aria-pressed={landingVariant === 'original'}
             >
-              Original
-            </button>
-            <button
-              type="button"
-              className={`landing-variant-btn ${landingVariant === 'two-worlds' ? 'is-active' : ''}`}
-              onClick={() => selectVariant('two-worlds')}
-              aria-pressed={landingVariant === 'two-worlds'}
-            >
-              Option 2
+              Option 1
             </button>
             <button
               type="button"
               className={`landing-variant-btn ${landingVariant === 'centered' ? 'is-active' : ''}`}
               onClick={() => selectVariant('centered')}
               aria-pressed={landingVariant === 'centered'}
+              aria-label="Option 3A: Soft glow"
+              title="Option 3A: Soft glow"
             >
-              Option 3
+              3A · Glow
+            </button>
+            <button
+              type="button"
+              className={`landing-variant-btn ${landingVariant === 'embers' ? 'is-active' : ''}`}
+              onClick={() => selectVariant('embers')}
+              aria-pressed={landingVariant === 'embers'}
+              aria-label="Option 3B: Hidden embers"
+              title="Option 3B: Hidden embers"
+            >
+              3B · Ember
             </button>
           </div>
 

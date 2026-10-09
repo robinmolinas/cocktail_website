@@ -251,7 +251,7 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   }
 }
 
-/* Switcher to compare landing page variants (/, /homepage-2 and /homepage-3). */
+/* Compare Option 1 with the two Option 3 treatments. */
 .landing-variant-switch {
   position: fixed;
   z-index: 100;
@@ -298,6 +298,11 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
 
 .landing-variant-btn:hover {
   color: var(--candle-ivory);
+}
+
+.landing-variant-btn:focus-visible {
+  outline: 2px solid var(--vermilion);
+  outline-offset: 2px;
 }
 
 .landing-variant-btn.is-active {
