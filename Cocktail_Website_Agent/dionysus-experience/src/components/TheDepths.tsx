@@ -1377,7 +1377,28 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     if (stage !== 'finish' || finBeat !== 'flavors') return;
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const n = FIN_FLAVORS.length;
-    const st = FIN_FLAVORS.map(() => ({ p: -1, xo: 0, op: 0 }));
+    // p is the climb (0 = foot of the band, 1 = head); below 0 a sphere is
+    // still down in the depths, not yet condensed. Arrival (user test,
+    // 2026-10-09): nothing starts near the top — a sphere that appears under
+    // the question and dissolves at once reads as "I missed it". A few start
+    // low in the band, the rest are still below and condense in over the
+    // first seconds, in a shuffled order so the field never fills left to right.
+    const st = FIN_FLAVORS.map(() => ({ p: 0, xo: 0, op: 0, init: false, delay: 0 }));
+    let base: number[] = [];
+    const lay = (cols: number) => {
+      // Starts cover most of one cycle — a few low in the band, the rest
+      // still below — so the field stays scattered for good instead of
+      // climbing as one front. Where spheres share a lane (phones) they keep
+      // their even spacing; the lane leads take the top slice of that cycle
+      // and the rest trail beneath them.
+      const hi = 0.32;
+      const lo = hi - 0.92 / Math.ceil(n / cols);
+      base = Array.from({ length: cols }, (_, k) => lo + ((hi - lo) * k) / Math.max(1, cols - 1) + (Math.random() - 0.5) * 0.05);
+      for (let k = base.length - 1; k > 0; k--) {
+        const j = Math.floor(Math.random() * (k + 1));
+        [base[k], base[j]] = [base[j], base[k]];
+      }
+    };
     const smooth = (a: number, b: number, v: number) => {
       const t = Math.min(1, Math.max(0, (v - a) / (b - a)));
       return t * t * (3 - 2 * t);
@@ -1401,14 +1422,27 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       const yBot = h * 0.875 - 40 - size * 0.5;
       const travel = Math.max(size, yBot - yTop);
       const held = finCaughtRef.current;
+      if (!base.length) lay(cols);
+      // the pour settles: everything climbs a little quicker while the field
+      // fills, easing to the resting pace (one shared factor, so spacing holds)
+      const arrival = 1 + 1.4 * (1 - smooth(0, 7000, now - t0));
       const pts: { x: number; y: number; lane: number; held: boolean }[] = [];
       for (let i = 0; i < n; i++) {
         const lane = i % cols;
         const inLane = Math.floor((n - 1 - lane) / cols) + 1;
         const s0 = st[i];
-        if (s0.p < 0) s0.p = (Math.floor(i / cols) / inLane + lane * 0.618) % 1; // golden stagger across lanes
+        if (!s0.init) {
+          s0.init = true;
+          const slot = Math.floor(i / cols) / inLane; // even spacing within a shared lane (phones)
+          // reduced motion keeps the old still field, spread across the band
+          s0.p = reduced ? (slot + lane * 0.618) % 1 : base[lane % base.length] - slot;
+          s0.delay = Math.random() * 650;
+        }
         const isHeld = held.includes(FIN_FLAVORS[i]);
-        if (!isHeld && !reduced) s0.p = (s0.p + dt / (21000 - (lane % 3) * 1800)) % 1;
+        if (!isHeld && !reduced) {
+          s0.p += (dt * arrival) / (21000 - (lane % 3) * 1800);
+          if (s0.p >= 1) s0.p -= 1;
+        }
         pts.push({ x: gutter + laneW * (lane + 0.5), y: yBot - s0.p * travel, lane, held: isHeld });
       }
       for (let i = 0; i < n; i++) {
@@ -1428,9 +1462,9 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
         }
         s0.xo += (xo - s0.xo) * Math.min(1, dt / 140);
         // condense in at the foot of the band, dissolve at its head; a held
-        // sphere is always whole. The field arrives one sphere at a time.
+        // sphere is always whole. The low ones arrive in no particular order.
         const band = smooth(0, 0.13, s0.p) * (1 - smooth(0.85, 1, s0.p));
-        const entrance = reduced ? 1 : smooth(0, 1, (now - t0 - 250 - i * 120) / 700);
+        const entrance = reduced ? 1 : smooth(0, 1, (now - t0 - 250 - s0.delay) / 700);
         const target = (pt.held ? 1 : reduced ? 1 : band) * entrance;
         s0.op += (target - s0.op) * Math.min(1, dt / 160);
         const el = finFloatRefs.current[i];

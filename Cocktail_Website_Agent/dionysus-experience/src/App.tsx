@@ -25,8 +25,36 @@ const DEV_PAIRING = 'creator-hero';
 // How long the dark may hold for the reveal before the guest is taken home.
 const REVEAL_TIMEOUT_MS = 10_000;
 
-const BG_IMAGE_1 = "/first.png";
-const BG_IMAGE_2 = "/reveal.png";
+// Landing artwork variants
+const ORIGINAL_BEFORE = "/first.png";
+const ORIGINAL_REVEAL = "/reveal.png";
+const TWO_WORLDS_BEFORE = "/landing-trial/two-worlds-before-v5.webp";
+const TWO_WORLDS_REVEAL = "/landing-trial/two-worlds-revealed-v5.webp";
+
+type LandingVariant = 'original' | 'two-worlds';
+
+export const isHomepage2Path = (pathname: string): boolean => {
+  const p = pathname.toLowerCase().replace(/\/+$/, '');
+  return p === '/homepage-2' || p === '/other-homepage' || p === '/homepage2';
+};
+
+export const isLandingPath = (pathname: string): boolean => {
+  const p = pathname.toLowerCase().replace(/\/+$/, '');
+  return p === '' || p === '/' || p === '/homepage-1' || p === '/original' || isHomepage2Path(p);
+};
+
+const getInitialLandingVariant = (): LandingVariant => {
+  if (typeof window === 'undefined') return 'original';
+  const params = new URLSearchParams(window.location.search);
+  const landingParam = params.get('landing') || params.get('v');
+  if (landingParam === '2' || landingParam === 'two-worlds' || landingParam === 'other' || landingParam === 'homepage-2') {
+    return 'two-worlds';
+  }
+  if (landingParam === '1' || landingParam === 'original' || landingParam === 'homepage-1') {
+    return 'original';
+  }
+  return isHomepage2Path(window.location.pathname) ? 'two-worlds' : 'original';
+};
 
 // The cursor spotlight: the second world (reveal.png) is painted full-bleed and
 // masked to a soft circle that follows the pointer. The circle is a pure CSS
@@ -35,11 +63,11 @@ const BG_IMAGE_2 = "/reveal.png";
 // spotlight tracks the cursor with zero React re-renders and no canvas readback.
 // Before the first mouse move the origin sits off-screen (-999px), so nothing is
 // revealed — the same cold open as before.
-function RevealLayer({ image, layerRef }: { image: string; layerRef: React.RefObject<HTMLDivElement | null> }) {
+function RevealLayer({ image, layerRef, animationClassName = '' }: { image: string; layerRef: React.RefObject<HTMLDivElement | null>; animationClassName?: string }) {
   return (
     <div
       ref={layerRef}
-      className="reveal-spotlight absolute inset-0 bg-center bg-cover bg-no-repeat z-30 pointer-events-none"
+      className={`reveal-spotlight absolute inset-0 bg-center bg-cover bg-no-repeat z-30 pointer-events-none ${animationClassName}`}
       style={{ backgroundImage: `url('${image}')` }}
     />
   );
@@ -58,9 +86,10 @@ function RevealLayer({ image, layerRef }: { image: string; layerRef: React.RefOb
 // not for gifts that failed to decode.
 type Phase = 'landing' | 'depths' | 'gift' | 'reading' | 'notfound';
 
-// The one real route is '/'. Anything else reached the app by mistake.
+// Valid routes are landing routes ('/', '/homepage-2', '/other-homepage') or a #pour= link.
+// Anything else reached the app by mistake.
 const isUnknownRoute = (): boolean =>
-  !pourFromLocation() && window.location.pathname !== '/';
+  !pourFromLocation() && !isLandingPath(window.location.pathname);
 
 const DEFAULT_ANSWERS: Answers = {
   name: '',
@@ -105,6 +134,32 @@ function App() {
   const [phase, setPhase] = useState<Phase>(() =>
     pourFromLocation() ? 'gift' : isUnknownRoute() ? 'notfound' : 'landing',
   );
+  const [landingVariant, setLandingVariant] = useState<LandingVariant>(getInitialLandingVariant);
+
+  // Sync landing page variant with browser history (back/forward)
+  useEffect(() => {
+    const onPopState = () => {
+      setLandingVariant(getInitialLandingVariant());
+    };
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, []);
+
+  // Preload trial and original images so alternating between them is instantaneous
+  useEffect(() => {
+    const p1 = new Image(); p1.src = TWO_WORLDS_BEFORE;
+    const p2 = new Image(); p2.src = TWO_WORLDS_REVEAL;
+    const p3 = new Image(); p3.src = ORIGINAL_BEFORE;
+    const p4 = new Image(); p4.src = ORIGINAL_REVEAL;
+  }, []);
+
+  const selectVariant = (variant: LandingVariant) => {
+    setLandingVariant(variant);
+    const targetPath = variant === 'two-worlds' ? '/homepage-2' : '/';
+    if (window.location.pathname !== targetPath) {
+      window.history.pushState(null, '', targetPath);
+    }
+  };
   const [leaving, setLeaving] = useState(false);
   // 'in' sinks the world into the dark, 'out' surfaces the next one from it.
   // Every change of world passes through this one veil.
@@ -350,9 +405,10 @@ function App() {
     setLeaving(false);
     setDescending('in');
     window.setTimeout(() => {
-      // clear a share hash or an unknown pathname so the entrance owns a clean '/'
-      if (window.location.hash || window.location.pathname !== '/') {
-        window.history.replaceState(null, '', '/');
+      // clear a share hash or an unknown pathname so the entrance owns a clean path
+      if (window.location.hash || (!isLandingPath(window.location.pathname) && window.location.pathname !== '/')) {
+        const dest = isHomepage2Path(window.location.pathname) ? window.location.pathname : '/';
+        window.history.replaceState(null, '', dest);
       }
       setReading(null);
       setPhase('landing');
@@ -383,13 +439,42 @@ function App() {
       </nav>
 
       {phase === 'landing' && (
-        <section className="relative w-full overflow-hidden h-screen bg-[#0d0b09]" style={{ height: '100dvh' }}>
+        <section
+          className={`relative w-full overflow-hidden h-screen bg-[#0d0b09] ${landingVariant === 'two-worlds' ? 'landing-two-worlds' : ''}`}
+          style={{ height: '100dvh' }}
+        >
           <div
             className={`absolute inset-0 bg-center bg-cover bg-no-repeat z-10 hero-zoom ${leaving ? 'hero-descend' : ''}`}
-            style={{ backgroundImage: `url('${BG_IMAGE_1}')` }}
+            style={{
+              backgroundImage: `url('${landingVariant === 'two-worlds' ? TWO_WORLDS_BEFORE : ORIGINAL_BEFORE}')`,
+            }}
           />
 
-          <RevealLayer image={BG_IMAGE_2} layerRef={revealRef} />
+          <RevealLayer
+            image={landingVariant === 'two-worlds' ? TWO_WORLDS_REVEAL : ORIGINAL_REVEAL}
+            layerRef={revealRef}
+            animationClassName={landingVariant === 'two-worlds' ? `hero-zoom ${leaving ? 'hero-descend' : ''}` : ''}
+          />
+
+          {/* Alternate between both landing page versions */}
+          <div className="landing-variant-switch print:hidden" role="group" aria-label="Cover version">
+            <button
+              type="button"
+              className={`landing-variant-btn ${landingVariant === 'original' ? 'is-active' : ''}`}
+              onClick={() => selectVariant('original')}
+              aria-pressed={landingVariant === 'original'}
+            >
+              Original
+            </button>
+            <button
+              type="button"
+              className={`landing-variant-btn ${landingVariant === 'two-worlds' ? 'is-active' : ''}`}
+              onClick={() => selectVariant('two-worlds')}
+              aria-pressed={landingVariant === 'two-worlds'}
+            >
+              Option 2
+            </button>
+          </div>
 
           <div className="landing-fade" aria-hidden="true" />
           <div className={`landing-copy ${leaving ? 'hero-exit' : ''}`}>

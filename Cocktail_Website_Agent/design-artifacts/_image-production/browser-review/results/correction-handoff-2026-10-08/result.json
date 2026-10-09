@@ -1,0 +1,186 @@
+{
+ "schemaVersion": 1,
+ "batchId": "correction-handoff-2026-10-08",
+ "reviewer": "Claude Code",
+ "reviewedAt": "2026-10-08",
+ "browser": "Playwright 1.60.0 headless Chromium",
+ "baseline": "53b988a",
+ "scope": "browser/name gates and live swap only; material/personality holds unchanged; acceptance flags untouched",
+ "viewports": [
+  "1920x1080",
+  "1440x900",
+  "390x844@2x (+scroll)"
+ ],
+ "names": [
+  "Ada",
+  "Alexandria-Rose"
+ ],
+ "integration": {
+  "swapped": [
+   "explorer-creator",
+   "innocent-creator",
+   "jester-explorer",
+   "jester-lover",
+   "lover-creator",
+   "ruler-jester"
+  ],
+  "committed": false,
+  "validateImages": "132 OK",
+  "tsc": "clean",
+  "vitest": "925/925"
+ },
+ "cases": [
+  {
+   "id": "explorer-creator-batch14",
+   "pairing": "explorer-creator",
+   "verdict": "swapped-live",
+   "nameFit": "PASS",
+   "rendered": "screenshots/rendered/R-explorer-creator.png",
+   "static": "screenshots/static/explorer-creator-batch14.png"
+  },
+  {
+   "id": "explorer-jester-batch14",
+   "pairing": "explorer-jester",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": "screenshots/rendered/R-explorer-jester.png",
+   "static": "screenshots/static/explorer-jester-batch14.png"
+  },
+  {
+   "id": "innocent-creator-batch14",
+   "pairing": "innocent-creator",
+   "verdict": "swapped-live",
+   "nameFit": "PASS",
+   "rendered": "screenshots/rendered/R-innocent-creator.png",
+   "static": "screenshots/static/innocent-creator-batch14.png"
+  },
+  {
+   "id": "jester-explorer-batch14",
+   "pairing": "jester-explorer",
+   "verdict": "swapped-live",
+   "nameFit": "PASS",
+   "rendered": "screenshots/rendered/R-jester-explorer.png",
+   "static": "screenshots/static/jester-explorer-batch14.png"
+  },
+  {
+   "id": "jester-innocent-batch14",
+   "pairing": "jester-innocent",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": "screenshots/rendered/R-jester-innocent.png",
+   "static": "screenshots/static/jester-innocent-batch14.png"
+  },
+  {
+   "id": "jester-lover-batch14",
+   "pairing": "jester-lover",
+   "verdict": "swapped-live",
+   "nameFit": "PASS",
+   "rendered": "screenshots/rendered/R-jester-lover.png",
+   "static": "screenshots/static/jester-lover-batch14.png"
+  },
+  {
+   "id": "jester-regular-guy-batch14",
+   "pairing": "jester-regular-guy",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": null,
+   "static": "screenshots/static/jester-regular-guy-batch14.png"
+  },
+  {
+   "id": "lover-creator-batch14",
+   "pairing": "lover-creator",
+   "verdict": "swapped-live",
+   "nameFit": "PASS",
+   "rendered": "screenshots/rendered/R-lover-creator.png",
+   "static": "screenshots/static/lover-creator-batch14.png"
+  },
+  {
+   "id": "magician-jester-batch14",
+   "pairing": "magician-jester",
+   "verdict": "robin-decision",
+   "nameFit": null,
+   "rendered": "screenshots/rendered/R-magician-jester.png",
+   "static": "screenshots/static/magician-jester-batch14.png"
+  },
+  {
+   "id": "magician-ruler-batch14",
+   "pairing": "magician-ruler",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": null,
+   "static": "screenshots/static/magician-ruler-batch14.png"
+  },
+  {
+   "id": "ruler-jester-batch14",
+   "pairing": "ruler-jester",
+   "verdict": "swapped-live",
+   "nameFit": "FAIL-long-name-1920 (also fails on live)",
+   "rendered": "screenshots/rendered/R-ruler-jester.png",
+   "static": "screenshots/static/ruler-jester-batch14.png"
+  },
+  {
+   "id": "hero-creator-batch15",
+   "pairing": "hero-creator",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": "screenshots/rendered/R-hero-creator.png",
+   "static": "screenshots/static/hero-creator-batch15.png"
+  },
+  {
+   "id": "hero-innocent-batch15",
+   "pairing": "hero-innocent",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": null,
+   "static": "screenshots/static/hero-innocent-batch15.png"
+  },
+  {
+   "id": "hero-regular-guy-batch15",
+   "pairing": "hero-regular-guy",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": null,
+   "static": "screenshots/static/hero-regular-guy-batch15.png"
+  },
+  {
+   "id": "lover-caregiver-batch15",
+   "pairing": "lover-caregiver",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": null,
+   "static": "screenshots/static/lover-caregiver-batch15.png"
+  },
+  {
+   "id": "jester-magician-batch15",
+   "pairing": "jester-magician",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": null,
+   "static": "screenshots/static/jester-magician-batch15.png"
+  },
+  {
+   "id": "outlaw-magician-batch15",
+   "pairing": "outlaw-magician",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": null,
+   "static": "screenshots/static/outlaw-magician-batch15.png"
+  },
+  {
+   "id": "lover-caregiver-v5-batch16",
+   "pairing": "lover-caregiver",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": "screenshots/rendered/R-lover-caregiver.png",
+   "static": "screenshots/static/lover-caregiver-v5-batch16.png"
+  },
+  {
+   "id": "outlaw-magician-v5-batch16",
+   "pairing": "outlaw-magician",
+   "verdict": "held",
+   "nameFit": null,
+   "rendered": "screenshots/rendered/R-outlaw-magician.png",
+   "static": "screenshots/static/outlaw-magician-v5-batch16.png"
+  }
+ ]
+}

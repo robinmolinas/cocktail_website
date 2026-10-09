@@ -295,14 +295,14 @@ const PERSONA_IMAGES: Record<string, PersonaImageMeta> = {
     wideGlass: { x: 0.582, y: 0.533 },
     glass: { x: 0.368, y: 0.533 },
   },
-  // For Good (v2)
+  // For Good (wide v4, portrait v3)
   'explorer-creator': {
     src: '/personas/explorer-creator/portrait.jpg',
     wide: '/personas/explorer-creator/wide.jpg',
-    tag: { cx: 0.379, cy: 0.732, w: 0.167, angle: 70 },
-    wideTag: { cx: 0.621, cy: 0.732, w: 0.07, angle: 70 },
-    wideGlass: { x: 0.579, y: 0.398 },
-    glass: { x: 0.28, y: 0.398 },
+    tag: { cx: 0.589, cy: 0.659, w: 0.11, angle: 66.1 },
+    wideTag: { cx: 0.64, cy: 0.699, w: 0.052, angle: 67 },
+    wideGlass: { x: 0.599, y: 0.541 },
+    glass: { x: 0.505, y: 0.514 },
   },
   // Nothing to It (v5)
   'explorer-hero': {
@@ -493,14 +493,14 @@ const PERSONA_IMAGES: Record<string, PersonaImageMeta> = {
     wideGlass: { x: 0.557, y: 0.361 },
     glass: { x: 0.258, y: 0.361 },
   },
-  // The Way It Felt (v2)
+  // The Way It Felt (wide v3, portrait v4)
   'innocent-creator': {
     src: '/personas/innocent-creator/portrait.jpg',
     wide: '/personas/innocent-creator/wide.jpg',
-    tag: { cx: 0.446, cy: 0.761, w: 0.155, angle: 61 },
-    wideTag: { cx: 0.693, cy: 0.761, w: 0.065, angle: 61 },
-    wideGlass: { x: 0.598, y: 0.531 },
-    glass: { x: 0.22, y: 0.531 },
+    tag: { cx: 0.667, cy: 0.732, w: 0.092, angle: 11 },
+    wideTag: { cx: 0.704, cy: 0.794, w: 0.083, angle: 12 },
+    wideGlass: { x: 0.577, y: 0.536 },
+    glass: { x: 0.506, y: 0.577 },
   },
   // The First Guess (v2)
   'innocent-explorer': {
@@ -592,14 +592,14 @@ const PERSONA_IMAGES: Record<string, PersonaImageMeta> = {
     wideGlass: { x: 0.725, y: 0.428 },
     glass: { x: 0.517, y: 0.428 },
   },
-  // Unrehearsed (v2)
+  // Unrehearsed (wide v4, portrait v3)
   'jester-explorer': {
     src: '/personas/jester-explorer/portrait.jpg',
     wide: '/personas/jester-explorer/wide.jpg',
-    tag: { cx: 0.506, cy: 0.728, w: 0.149, angle: 55 },
-    wideTag: { cx: 0.668, cy: 0.728, w: 0.062, angle: 55 },
-    wideGlass: { x: 0.568, y: 0.53 },
-    glass: { x: 0.266, y: 0.53 },
+    tag: { cx: 0.742, cy: 0.684, w: 0.115, angle: 14.1 },
+    wideTag: { cx: 0.79, cy: 0.715, w: 0.056, angle: 14 },
+    wideGlass: { x: 0.661, y: 0.548 },
+    glass: { x: 0.504, y: 0.54 },
   },
   // The Wink (v2)
   'jester-hero': {
@@ -619,14 +619,14 @@ const PERSONA_IMAGES: Record<string, PersonaImageMeta> = {
     wideGlass: { x: 0.673, y: 0.655 },
     glass: { x: 0.477, y: 0.655 },
   },
-  // I'll Tell You Later (v2)
+  // I'll Tell You Later (v4)
   'jester-lover': {
     src: '/personas/jester-lover/portrait.jpg',
     wide: '/personas/jester-lover/wide.jpg',
-    tag: { cx: 0.499, cy: 0.788, w: 0.117, angle: 67.0 },
-    wideTag: { cx: 0.688, cy: 0.788, w: 0.049, angle: 67.0 },
-    wideGlass: { x: 0.583, y: 0.643 },
-    glass: { x: 0.249, y: 0.643 },
+    tag: { cx: 0.706, cy: 0.716, w: 0.077, angle: -75 },
+    wideTag: { cx: 0.754, cy: 0.777, w: 0.045, angle: -76 },
+    wideGlass: { x: 0.712, y: 0.686 },
+    glass: { x: 0.631, y: 0.655 },
   },
   // The Kind You'd Want (v2)
   'jester-magician': {
@@ -682,14 +682,14 @@ const PERSONA_IMAGES: Record<string, PersonaImageMeta> = {
     wideGlass: { x: 0.633, y: 0.596 },
     glass: { x: 0.318, y: 0.596 },
   },
-  // In Your Own Hand (v2)
+  // In Your Own Hand (wide v3, portrait v4)
   'lover-creator': {
     src: '/personas/lover-creator/portrait.jpg',
     wide: '/personas/lover-creator/wide.jpg',
-    tag: { cx: 0.584, cy: 0.643, w: 0.105, angle: 66.0 },
-    wideTag: { cx: 0.64, cy: 0.643, w: 0.044, angle: 66.0 },
-    wideGlass: { x: 0.598, y: 0.548 },
-    glass: { x: 0.484, y: 0.548 },
+    tag: { cx: 0.311, cy: 0.692, w: 0.074, angle: -56 },
+    wideTag: { cx: 0.605, cy: 0.676, w: 0.053, angle: 76 },
+    wideGlass: { x: 0.581, y: 0.564 },
+    glass: { x: 0.36, y: 0.634 },
   },
   // Curtain Call (v2)
   'lover-explorer': {
@@ -1096,14 +1096,14 @@ const PERSONA_IMAGES: Record<string, PersonaImageMeta> = {
     wideGlass: { x: 0.6, y: 0.388 },
     glass: { x: 0.282, y: 0.388 },
   },
-  // Who's In? (v4)
+  // Who's In? (wide v7, portrait v6)
   'ruler-jester': {
     src: '/personas/ruler-jester/portrait.jpg',
     wide: '/personas/ruler-jester/wide.jpg',
-    tag: { cx: 0.802, cy: 0.771, w: 0.07, angle: 80.0 },
-    wideTag: { cx: 0.755, cy: 0.771, w: 0.029, angle: 80.0 },
-    wideGlass: { x: 0.708, y: 0.59 },
-    glass: { x: 0.689, y: 0.59 },
+    tag: { cx: 0.643, cy: 0.755, w: 0.086, angle: 20 },
+    wideTag: { cx: 0.728, cy: 0.757, w: 0.032, angle: 17 },
+    wideGlass: { x: 0.691, y: 0.623 },
+    glass: { x: 0.553, y: 0.6 },
   },
   // Up Close (v2)
   'ruler-lover': {
