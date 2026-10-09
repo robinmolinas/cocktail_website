@@ -30,29 +30,46 @@ const ORIGINAL_BEFORE = "/first.png";
 const ORIGINAL_REVEAL = "/reveal.png";
 const TWO_WORLDS_BEFORE = "/landing-trial/two-worlds-before-v5.webp";
 const TWO_WORLDS_REVEAL = "/landing-trial/two-worlds-revealed-v5.webp";
+const CENTERED_BEFORE = "/landing-trial/two-worlds-before-v2.png";
+const CENTERED_REVEAL = "/landing-trial/two-worlds-revealed-v2.png";
 
-type LandingVariant = 'original' | 'two-worlds';
+type LandingVariant = 'original' | 'two-worlds' | 'centered';
+
+const LANDING_ARTWORK: Record<LandingVariant, { before: string; reveal: string; pathname: string }> = {
+  original: { before: ORIGINAL_BEFORE, reveal: ORIGINAL_REVEAL, pathname: '/' },
+  'two-worlds': { before: TWO_WORLDS_BEFORE, reveal: TWO_WORLDS_REVEAL, pathname: '/homepage-2' },
+  centered: { before: CENTERED_BEFORE, reveal: CENTERED_REVEAL, pathname: '/homepage-3' },
+};
 
 export const isHomepage2Path = (pathname: string): boolean => {
   const p = pathname.toLowerCase().replace(/\/+$/, '');
   return p === '/homepage-2' || p === '/other-homepage' || p === '/homepage2';
 };
 
+export const isHomepage3Path = (pathname: string): boolean => {
+  const p = pathname.toLowerCase().replace(/\/+$/, '');
+  return p === '/homepage-3' || p === '/homepage3';
+};
+
 export const isLandingPath = (pathname: string): boolean => {
   const p = pathname.toLowerCase().replace(/\/+$/, '');
-  return p === '' || p === '/' || p === '/homepage-1' || p === '/original' || isHomepage2Path(p);
+  return p === '' || p === '/' || p === '/homepage-1' || p === '/original' || isHomepage2Path(p) || isHomepage3Path(p);
 };
 
 const getInitialLandingVariant = (): LandingVariant => {
   if (typeof window === 'undefined') return 'original';
   const params = new URLSearchParams(window.location.search);
   const landingParam = params.get('landing') || params.get('v');
+  if (landingParam === '3' || landingParam === 'centered' || landingParam === 'homepage-3') {
+    return 'centered';
+  }
   if (landingParam === '2' || landingParam === 'two-worlds' || landingParam === 'other' || landingParam === 'homepage-2') {
     return 'two-worlds';
   }
   if (landingParam === '1' || landingParam === 'original' || landingParam === 'homepage-1') {
     return 'original';
   }
+  if (isHomepage3Path(window.location.pathname)) return 'centered';
   return isHomepage2Path(window.location.pathname) ? 'two-worlds' : 'original';
 };
 
@@ -135,6 +152,8 @@ function App() {
     pourFromLocation() ? 'gift' : isUnknownRoute() ? 'notfound' : 'landing',
   );
   const [landingVariant, setLandingVariant] = useState<LandingVariant>(getInitialLandingVariant);
+  const landingArtwork = LANDING_ARTWORK[landingVariant];
+  const isPairedLanding = landingVariant !== 'original';
 
   // Sync landing page variant with browser history (back/forward)
   useEffect(() => {
@@ -145,19 +164,22 @@ function App() {
     return () => window.removeEventListener('popstate', onPopState);
   }, []);
 
-  // Preload trial and original images so alternating between them is instantaneous
+  // Preload each cover pair so switching options is instantaneous.
   useEffect(() => {
-    const p1 = new Image(); p1.src = TWO_WORLDS_BEFORE;
-    const p2 = new Image(); p2.src = TWO_WORLDS_REVEAL;
-    const p3 = new Image(); p3.src = ORIGINAL_BEFORE;
-    const p4 = new Image(); p4.src = ORIGINAL_REVEAL;
+    for (const { before, reveal } of Object.values(LANDING_ARTWORK)) {
+      const beforeImage = new Image(); beforeImage.src = before;
+      const revealImage = new Image(); revealImage.src = reveal;
+    }
   }, []);
 
   const selectVariant = (variant: LandingVariant) => {
     setLandingVariant(variant);
-    const targetPath = variant === 'two-worlds' ? '/homepage-2' : '/';
-    if (window.location.pathname !== targetPath) {
-      window.history.pushState(null, '', targetPath);
+    const target = new URL(window.location.href);
+    target.pathname = LANDING_ARTWORK[variant].pathname;
+    target.searchParams.delete('landing');
+    target.searchParams.delete('v');
+    if (window.location.href !== target.href) {
+      window.history.pushState(null, '', target.pathname + target.search + target.hash);
     }
   };
   const [leaving, setLeaving] = useState(false);
@@ -407,7 +429,7 @@ function App() {
     window.setTimeout(() => {
       // clear a share hash or an unknown pathname so the entrance owns a clean path
       if (window.location.hash || (!isLandingPath(window.location.pathname) && window.location.pathname !== '/')) {
-        const dest = isHomepage2Path(window.location.pathname) ? window.location.pathname : '/';
+        const dest = isHomepage2Path(window.location.pathname) || isHomepage3Path(window.location.pathname) ? window.location.pathname : '/';
         window.history.replaceState(null, '', dest);
       }
       setReading(null);
@@ -440,23 +462,23 @@ function App() {
 
       {phase === 'landing' && (
         <section
-          className={`relative w-full overflow-hidden h-screen bg-[#0d0b09] ${landingVariant === 'two-worlds' ? 'landing-two-worlds' : ''}`}
+          className={`relative w-full overflow-hidden h-screen bg-[#0d0b09] ${isPairedLanding ? 'landing-two-worlds' : ''}`}
           style={{ height: '100dvh' }}
         >
           <div
             className={`absolute inset-0 bg-center bg-cover bg-no-repeat z-10 hero-zoom ${leaving ? 'hero-descend' : ''}`}
             style={{
-              backgroundImage: `url('${landingVariant === 'two-worlds' ? TWO_WORLDS_BEFORE : ORIGINAL_BEFORE}')`,
+              backgroundImage: `url('${landingArtwork.before}')`,
             }}
           />
 
           <RevealLayer
-            image={landingVariant === 'two-worlds' ? TWO_WORLDS_REVEAL : ORIGINAL_REVEAL}
+            image={landingArtwork.reveal}
             layerRef={revealRef}
-            animationClassName={landingVariant === 'two-worlds' ? `hero-zoom ${leaving ? 'hero-descend' : ''}` : ''}
+            animationClassName={isPairedLanding ? `hero-zoom ${leaving ? 'hero-descend' : ''}` : ''}
           />
 
-          {/* Alternate between both landing page versions */}
+          {/* Compare the landing artwork options. */}
           <div className="landing-variant-switch print:hidden" role="group" aria-label="Cover version">
             <button
               type="button"
@@ -473,6 +495,14 @@ function App() {
               aria-pressed={landingVariant === 'two-worlds'}
             >
               Option 2
+            </button>
+            <button
+              type="button"
+              className={`landing-variant-btn ${landingVariant === 'centered' ? 'is-active' : ''}`}
+              onClick={() => selectVariant('centered')}
+              aria-pressed={landingVariant === 'centered'}
+            >
+              Option 3
             </button>
           </div>
 

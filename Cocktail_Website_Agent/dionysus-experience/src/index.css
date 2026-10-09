@@ -251,7 +251,7 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   }
 }
 
-/* Switcher to compare landing page variants (/ and /homepage-2) */
+/* Switcher to compare landing page variants (/, /homepage-2 and /homepage-3). */
 .landing-variant-switch {
   position: fixed;
   z-index: 100;
