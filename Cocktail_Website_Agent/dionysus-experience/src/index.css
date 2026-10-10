@@ -243,73 +243,12 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
     background: linear-gradient(to top, rgba(8, 6, 5, 0.92) 0%, rgba(8, 6, 5, 0.7) 48%, transparent 100%);
     pointer-events: none;
   }
-  /* Keep both trial profiles in the upper frame, using the same crop for both layers. */
+  /* Keep both profiles in the upper frame, using the same crop for both layers. */
   .landing-two-worlds .hero-zoom,
   .landing-two-worlds .reveal-spotlight {
     background-size: auto min(52dvh, 100vw);
     background-position: center 2dvh;
   }
-}
-
-/* Compare Option 1 with the two Option 3 treatments. */
-.landing-variant-switch {
-  position: fixed;
-  z-index: 100;
-  top: calc(var(--gutter-top) + 12px);
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: inline-flex;
-  align-items: center;
-  gap: 3px;
-  padding: 3px;
-  border-radius: 999px;
-  background: rgba(13, 11, 9, 0.78);
-  border: 1px solid rgba(245, 234, 216, 0.18);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
-  pointer-events: auto;
-  user-select: none;
-}
-
-@media (max-width: 640px) {
-  .landing-variant-switch {
-    top: calc(var(--gutter-top) + 38px);
-    transform: translateX(-50%);
-  }
-}
-
-.landing-variant-btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.35rem 0.82rem;
-  border-radius: 999px;
-  border: 1px solid transparent;
-  background: transparent;
-  font-family: var(--font-label);
-  font-size: 0.72rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: rgba(245, 234, 216, 0.55);
-  cursor: pointer;
-  transition: color 0.25s ease, background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
-  white-space: nowrap;
-}
-
-.landing-variant-btn:hover {
-  color: var(--candle-ivory);
-}
-
-.landing-variant-btn:focus-visible {
-  outline: 2px solid var(--vermilion);
-  outline-offset: 2px;
-}
-
-.landing-variant-btn.is-active {
-  color: #fffaf0;
-  background: rgba(245, 234, 216, 0.12);
-  border-color: rgba(232, 112, 42, 0.35);
-  box-shadow: 0 0 10px -2px rgba(232, 112, 42, 0.25);
 }
 
 /* THE HOUSE PILL (CtaButton) */

@@ -1,18 +1,22 @@
 # Dionysus — Option 3 evolution · 2026-10-09
 
-Two lighting levels evolve the accepted [centered Option 3](../../../dionysus-experience/public/landing-trial/two-worlds-revealed-v2.png) toward [Option 1's somber, fading light](../../../dionysus-experience/public/first.png). **3A · Soft glow** gently reduces the broad amber wash; **3B · Hidden embers** lets more of the rim and atmosphere disappear into darkness. Both retain the centered, anonymous man and woman, starry darkness, rich ingredients and chest discoveries, the man's highball, and the woman's coupe.
+**Final selection · 2026-10-10:** Robin settled on **3A · Soft glow**, including the latest inward flower-garnish edit. [Open the homepage](http://localhost:5180/). The application now uses and preloads only this before/reveal pair; the comparison controls and alternate-artwork selection logic are removed. The images were not altered during finalization. Prior versions and the dated comparison evidence below remain as history.
+
+Finalization checks passed: full production build (132 persona pairings, pour-store freshness, selection-reference hashes, TypeScript, 17 test files / 925 tests, Vite), focused App.tsx lint and diff whitespace checks. The existing large reveal-chunk warning remains. Output: `/private/tmp/dionysus-settled-3a-final-build-2026-10-10`. The local server still listens on port 5180. Live browser verification retains the limitations recorded below.
+
+The comparison explored two lighting levels evolving the accepted [centered Option 3](../../../dionysus-experience/public/landing-trial/two-worlds-revealed-v2.png) toward [Option 1's somber, fading light](../../../dionysus-experience/public/first.png). **3A · Soft glow** gently reduces the broad amber wash; **3B · Hidden embers** lets more of the rim and atmosphere disappear into darkness. Both retain the centered, anonymous man and woman, starry darkness, rich ingredients and chest discoveries, the man's highball, and the woman's coupe.
 
 Ingredients, glasses and garnishes stay inside their owner's silhouette. The woman's ivory blossom is enclosed in the back-of-head interior, and her coupe and orange petal garnish sit deeper in the neck/chest. Native-artwork review found no visible protrusion; the latest 3A correction gives the orange garnish additional inward breathing room. Existing headline, prose, CTA, layout and spotlight interaction remain pinned; runtime compositing is unverified.
 
 Open the existing local server:
 
-| Trial | URL | Selection |
+| Entry | URL | Current artwork |
 | --- | --- | --- |
-| Option 1 | [localhost:5180/homepage-1](http://localhost:5180/homepage-1) | Original reference |
-| 3A · Glow | [localhost:5180/homepage-3](http://localhost:5180/homepage-3) | Soft glow; also `/homepage-3a` and the default `/` |
-| 3B · Ember | [localhost:5180/homepage-3b](http://localhost:5180/homepage-3b) | Hidden embers |
+| Homepage | [localhost:5180](http://localhost:5180/) | Selected 3A · Soft glow |
+| Former Option 3 links | [homepage-3](http://localhost:5180/homepage-3), [homepage-3b](http://localhost:5180/homepage-3b) | Selected 3A · Soft glow |
+| Former Option 1/2 links | [homepage-1](http://localhost:5180/homepage-1), [homepage-2](http://localhost:5180/homepage-2) | Selected 3A · Soft glow |
 
-The active selector and preload registry contain only Option 1, 3A and 3B. Retired Option 2 paths and query aliases resolve to 3A; historical masters remain preserved. Selector actions clear `landing`/`v` overrides, preserve unrelated query arguments, and support route-based refresh/back resolution. Selected buttons expose `aria-pressed`; 3A/3B have descriptive accessible names and an existing-token focus ring.
+Former trial paths remain homepage aliases so existing links work. Variant query parameters no longer select alternative imagery. Only the selected 3A files are referenced by the active homepage and its preload loop. The spotlight, paired-layer crop, entrance/exit motion, headline and CTA retain their accepted behavior.
 
 | Delivery | Native size, each layer | Before | Revealed | Pair total |
 | --- | --- | --- | --- | --- |

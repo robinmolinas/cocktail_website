@@ -25,61 +25,29 @@ const DEV_PAIRING = 'creator-hero';
 // How long the dark may hold for the reveal before the guest is taken home.
 const REVEAL_TIMEOUT_MS = 10_000;
 
-// Landing artwork variants
-const ORIGINAL_BEFORE = "/first.png";
-const ORIGINAL_REVEAL = "/reveal.png";
-const CENTERED_BEFORE = "/landing-trial/option-3a-before.webp";
-const CENTERED_REVEAL = "/landing-trial/option-3a-revealed-flower-inset-v2.webp";
-const EMBERS_BEFORE = "/landing-trial/option-3b-before.webp";
-const EMBERS_REVEAL = "/landing-trial/option-3b-revealed.webp";
-
-type LandingVariant = 'original' | 'centered' | 'embers';
-
-const LANDING_ARTWORK: Record<LandingVariant, { before: string; reveal: string; pathname: string }> = {
-  original: { before: ORIGINAL_BEFORE, reveal: ORIGINAL_REVEAL, pathname: '/homepage-1' },
-  centered: { before: CENTERED_BEFORE, reveal: CENTERED_REVEAL, pathname: '/homepage-3' },
-  embers: { before: EMBERS_BEFORE, reveal: EMBERS_REVEAL, pathname: '/homepage-3b' },
+// Settled homepage artwork: Option 3A with the inward flower garnish.
+const LANDING_ARTWORK = {
+  before: '/landing-trial/option-3a-before.webp',
+  reveal: '/landing-trial/option-3a-revealed-flower-inset-v2.webp',
 };
 
-// Retired Option 2 URLs now open the current Option 3 direction.
-export const isHomepage2Path = (pathname: string): boolean => {
+// Keep the shared trial URLs working; they all open the settled homepage.
+const isHomepage2Path = (pathname: string): boolean => {
   const p = pathname.toLowerCase().replace(/\/+$/, '');
   return p === '/homepage-2' || p === '/other-homepage' || p === '/homepage2';
 };
 
-export const isHomepage3Path = (pathname: string): boolean => {
+const isHomepage3Path = (pathname: string): boolean => {
   const p = pathname.toLowerCase().replace(/\/+$/, '');
   return p === '/homepage-3' || p === '/homepage3' || p === '/homepage-3a' || p === '/homepage3a' || p === '/homepage-3b' || p === '/homepage3b';
 };
 
-export const isLandingPath = (pathname: string): boolean => {
+const isLandingPath = (pathname: string): boolean => {
   const p = pathname.toLowerCase().replace(/\/+$/, '');
   return p === '' || p === '/' || p === '/homepage-1' || p === '/original' || isHomepage2Path(p) || isHomepage3Path(p);
 };
 
-const getInitialLandingVariant = (): LandingVariant => {
-  if (typeof window === 'undefined') return 'centered';
-  const params = new URLSearchParams(window.location.search);
-  const landingParam = (params.get('landing') || params.get('v') || '').toLowerCase();
-  if (landingParam === '3b' || landingParam === 'embers' || landingParam === 'homepage-3b') {
-    return 'embers';
-  }
-  if (landingParam === '3' || landingParam === '3a' || landingParam === 'centered' || landingParam === 'homepage-3' || landingParam === 'homepage-3a') {
-    return 'centered';
-  }
-  if (landingParam === '2' || landingParam === 'two-worlds' || landingParam === 'other' || landingParam === 'homepage-2') {
-    return 'centered';
-  }
-  if (landingParam === '1' || landingParam === 'original' || landingParam === 'homepage-1') {
-    return 'original';
-  }
-  const pathname = window.location.pathname.toLowerCase().replace(/\/+$/, '');
-  if (pathname === '/homepage-3b' || pathname === '/homepage3b') return 'embers';
-  if (pathname === '/homepage-1' || pathname === '/original') return 'original';
-  return 'centered';
-};
-
-// The cursor spotlight: the second world (reveal.png) is painted full-bleed and
+// The cursor spotlight: the revealed world is painted full-bleed and
 // masked to a soft circle that follows the pointer. The circle is a pure CSS
 // radial-gradient mask positioned by two custom properties (--mx/--my); the
 // smoothed rAF loop in App writes those straight to this element's style, so the
@@ -109,7 +77,7 @@ function RevealLayer({ image, layerRef, animationClassName = '' }: { image: stri
 // not for gifts that failed to decode.
 type Phase = 'landing' | 'depths' | 'gift' | 'reading' | 'notfound';
 
-// Valid routes are landing routes ('/', '/homepage-2', '/other-homepage') or a #pour= link.
+// Valid routes are the homepage, its retired trial aliases or a #pour= link.
 // Anything else reached the app by mistake.
 const isUnknownRoute = (): boolean =>
   !pourFromLocation() && !isLandingPath(window.location.pathname);
@@ -157,37 +125,13 @@ function App() {
   const [phase, setPhase] = useState<Phase>(() =>
     pourFromLocation() ? 'gift' : isUnknownRoute() ? 'notfound' : 'landing',
   );
-  const [landingVariant, setLandingVariant] = useState<LandingVariant>(getInitialLandingVariant);
-  const landingArtwork = LANDING_ARTWORK[landingVariant];
-  const isPairedLanding = landingVariant !== 'original';
-
-  // Sync landing page variant with browser history (back/forward)
+  // Preload the selected pair so the spotlight has its artwork ready.
   useEffect(() => {
-    const onPopState = () => {
-      setLandingVariant(getInitialLandingVariant());
-    };
-    window.addEventListener('popstate', onPopState);
-    return () => window.removeEventListener('popstate', onPopState);
-  }, []);
-
-  // Preload each cover pair so switching options is instantaneous.
-  useEffect(() => {
-    for (const { before, reveal } of Object.values(LANDING_ARTWORK)) {
-      const beforeImage = new Image(); beforeImage.src = before;
-      const revealImage = new Image(); revealImage.src = reveal;
+    for (const image of Object.values(LANDING_ARTWORK)) {
+      const landingImage = new Image(); landingImage.src = image;
     }
   }, []);
 
-  const selectVariant = (variant: LandingVariant) => {
-    setLandingVariant(variant);
-    const target = new URL(window.location.href);
-    target.pathname = LANDING_ARTWORK[variant].pathname;
-    target.searchParams.delete('landing');
-    target.searchParams.delete('v');
-    if (window.location.href !== target.href) {
-      window.history.pushState(null, '', target.pathname + target.search + target.hash);
-    }
-  };
   const [leaving, setLeaving] = useState(false);
   // 'in' sinks the world into the dark, 'out' surfaces the next one from it.
   // Every change of world passes through this one veil.
@@ -438,7 +382,6 @@ function App() {
         const dest = isLandingPath(window.location.pathname) ? window.location.pathname : '/';
         window.history.replaceState(null, '', dest);
       }
-      setLandingVariant(getInitialLandingVariant());
       setReading(null);
       setPhase('landing');
       setDescending('out');
@@ -469,53 +412,21 @@ function App() {
 
       {phase === 'landing' && (
         <section
-          className={`relative w-full overflow-hidden h-screen bg-[#0d0b09] ${isPairedLanding ? 'landing-two-worlds' : ''}`}
+          className="relative w-full overflow-hidden h-screen bg-[#0d0b09] landing-two-worlds"
           style={{ height: '100dvh' }}
         >
           <div
             className={`absolute inset-0 bg-center bg-cover bg-no-repeat z-10 hero-zoom ${leaving ? 'hero-descend' : ''}`}
             style={{
-              backgroundImage: `url('${landingArtwork.before}')`,
+              backgroundImage: `url('${LANDING_ARTWORK.before}')`,
             }}
           />
 
           <RevealLayer
-            image={landingArtwork.reveal}
+            image={LANDING_ARTWORK.reveal}
             layerRef={revealRef}
-            animationClassName={isPairedLanding ? `hero-zoom ${leaving ? 'hero-descend' : ''}` : ''}
+            animationClassName={`hero-zoom ${leaving ? 'hero-descend' : ''}`}
           />
-
-          {/* Compare the landing artwork options. */}
-          <div className="landing-variant-switch print:hidden" role="group" aria-label="Cover version">
-            <button
-              type="button"
-              className={`landing-variant-btn ${landingVariant === 'original' ? 'is-active' : ''}`}
-              onClick={() => selectVariant('original')}
-              aria-pressed={landingVariant === 'original'}
-            >
-              Option 1
-            </button>
-            <button
-              type="button"
-              className={`landing-variant-btn ${landingVariant === 'centered' ? 'is-active' : ''}`}
-              onClick={() => selectVariant('centered')}
-              aria-pressed={landingVariant === 'centered'}
-              aria-label="Option 3A: Soft glow"
-              title="Option 3A: Soft glow"
-            >
-              3A · Glow
-            </button>
-            <button
-              type="button"
-              className={`landing-variant-btn ${landingVariant === 'embers' ? 'is-active' : ''}`}
-              onClick={() => selectVariant('embers')}
-              aria-pressed={landingVariant === 'embers'}
-              aria-label="Option 3B: Hidden embers"
-              title="Option 3B: Hidden embers"
-            >
-              3B · Ember
-            </button>
-          </div>
 
           <div className="landing-fade" aria-hidden="true" />
           <div className={`landing-copy ${leaving ? 'hero-exit' : ''}`}>

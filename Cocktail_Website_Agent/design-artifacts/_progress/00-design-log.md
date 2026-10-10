@@ -124,6 +124,18 @@ Music, retimed-video adoption and focused mobile follow-ups remain open. Use one
 
 ## Log
 
+### 2026-10-10 — Entrance artwork settled: 3A · Soft glow
+
+**Source:** Robin — "ok we're settling for 3A".
+
+The chosen homepage is the centered two-person **3A · Soft glow** pair, including the latest orange flower-garnish edit that moves the garnish inward from the woman's throat edge. Preserve its somber lighting, rich internal ingredients and chest discoveries, anonymous profiles, the man's highball and the woman's coupe. The approved files are `dionysus-experience/public/landing-trial/option-3a-before.webp` and `option-3a-revealed-flower-inset-v2.webp`; [masters and exact prompts](../landing-option-3-evolution/2026-10-09/README.md) remain in the dated artifact folder.
+
+The comparison controls and alternate-artwork selection/preloading logic were retired. `/` now uses only the chosen pair; shared trial URLs remain aliases to that same homepage. Headline, CTA, spotlight, paired crop and transition choreography retain their accepted behavior. Earlier variants remain preserved as exploration history.
+
+**Validation:** production build, 17 test files / 925 tests, focused App.tsx lint and diff whitespace checks passed. Existing large reveal-chunk warning remains. Live browser verification was unavailable on this host; no new image generation or full browser certification is claimed.
+
+---
+
 ### 2026-10-08 — BMAD/WDS documents reconciled; Q12 labels settled
 
 The product brief, trigger map, scenarios, master experience specification and handoffs now describe the approved Suspended Pour, H4 v4, H5 world, current reading/privacy/mobile/print behavior and honest component-versus-integration status. Earlier full versions are preserved in the document-refresh archive; discovery/review/prototype records are explicitly historical.
