@@ -400,7 +400,9 @@ cues (`src/audio/cues.ts`; the cutting script and rights live in
 `../design-artifacts/2026-10-06-type-icons-sound/sound/`). TheDepths reports
 its stages; nothing waits on the music, and it fails silently. Rules:
 - **Silence frames it.** The landing is silent; the depths swell in out of the
-  descent; the unveiling (the name inking) is silent.
+  descent. The music never drops out mid-journey: under the unveiling (the
+  name inking) the H9 wash rings out quietly until the answer takes it over
+  (a silent unveiling read as the music breaking, Robin 2026-10-11).
 - **One chapter, one cue.** A cue loops while she stays; a stage change
   crossfades forward, and ascents brighten the low-pass as the camera moves.
   A chapter enters on the chord already sounding (two roots crossfaded beat

@@ -209,14 +209,25 @@ class Score {
     }
   }
 
-  /** the dark has taken the frame: the unveiling is silent, then the reading */
+  /** the dark has taken the frame: the wash rings out under the unveiling
+   *  until the answer takes it over. (It used to be cut here for a silent
+   *  unveiling; Robin, 2026-10-11: the ~4 s blank before the answer read as
+   *  the music breaking, not as a held breath.) */
   surfaced() {
     this.mark('surfaced');
     this.surfacedAt = performance.now();
+    // nothing to restart: the letting-go is a one-shot that decays by itself
+    // (−23 → −53 dB over its last 8 s) and ends on its own if no reading comes
     this.want = null;
     const ctx = this.ctx;
-    if (ctx && this.scene) glide(ctx, this.scene.gain, 0, 0.35); // gone before the nib starts (~2.7 s)
-    this.later(3000, () => { if (!this.want) this.stopAll(0.2); });
+    if (ctx && this.scene && this.filter) {
+      // down from the splash's push, the tail receding into the dark…
+      glide(ctx, this.scene.gain, 1, 0.6);
+      glide(ctx, this.filter.frequency, 7000, 1.2);
+      // …then held up a little as it decays, so it is still there, quietly,
+      // when the answer arrives over it
+      this.scene.gain.setTargetAtTime(1.8, ctx.currentTime + 1.6, 1.6);
+    }
     this.watchReading();
   }
 
