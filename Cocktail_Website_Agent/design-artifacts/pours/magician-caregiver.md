@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch magician)
 
 - **name:** Their Night
 - **tagline:** You arrange the moment someone needed before they knew how to ask.
+- **words:** Velvety · Aniseed · Spiced
 - **glassware:** cocktail glass, chilled
 - **contains:** `[]`
 

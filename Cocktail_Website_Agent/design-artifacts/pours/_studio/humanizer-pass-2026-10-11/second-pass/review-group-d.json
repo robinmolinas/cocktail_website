@@ -1,0 +1,387 @@
+{
+  "verdict": "pass_after_corrections",
+  "reviewed": {
+    "readings": 33,
+    "edited_readings": 32,
+    "retained_readings": 1,
+    "paragraph_or_field_replacements": 93,
+    "readings_with_concerns": 0,
+    "readings_without_concerns": 33,
+    "initial_readings_with_concerns": 6,
+    "resolved_findings": 6
+  },
+  "compared_to": {
+    "audit": "second-pass/group-d.json",
+    "audit_sha256": "ccc5ee1a7f64f287cf8fc49fe7ffb1da2ed242ef8bcbc6e3972b7d8a390ef458",
+    "second_pass_snapshot": "second-pass/baseline.json",
+    "initial_baseline": "baseline.json",
+    "initial_review_audit_sha256": "878286371db25b465358856e7ef41a0cb087f77cee7a99b9b54098ad46db96c0"
+  },
+  "review_scope": "Read all 33 proposed Readings in full context, all 93 replacement before/after strings, and the initial-to-second-snapshot differences. Review concerns focus on concrete semantic or qualification changes. No source or root-audit edits.",
+  "summary": "All six local findings are resolved in final sources and both audit records. The 33 substantively reviewed Readings pass; the original findings and evidence remain below alongside the corrected paragraphs. No new concerns found in the six corrected Readings. Sage-ruler also restores the original took-over wording.",
+  "already_corrected_passages": "The corrected regular-guy-explorer pleasure, ruler-innocent obligation, regular-guy-ruler permission and ruler-magician/ruler-sage timing passages were reviewed and are consistent with the snapshots.",
+  "readings": [
+    {
+      "pairing": "regular-guy-caregiver",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "The missed strangers, universal-indifference fear, dignity gift, suspended-coffee uncertainty and advance-help proposal remain. No new drink mechanics or historical motives."
+    },
+    {
+      "pairing": "regular-guy-creator",
+      "verdict": "pass_after_correction",
+      "concerns": [
+        {
+          "field": "yours 3",
+          "category": "qualification_scope",
+          "issue": "The historical talent/place/fame interpretation becomes a direct statement, while 'I like to think' now qualifies only the guest's recognition.",
+          "suggested_correction": "Move 'I like to think' before 'his talent had turned up right where life had put him', retaining the rest of the paragraph's interpretation under that signpost.",
+          "severity": "minor",
+          "evidence": {
+            "initial_baseline": "3. He'd lived forty years by then a couple of miles from where he was born, and he argued one idea hard, sometimes short-temperedly: a big distillery doesn't have to make worse spirit than a small one. I like to think you'd recognise that: the talent turned up right where life had put him, and once it was noticed, he didn't leave the place behind; he stood up for it.",
+            "second_pass_before": "3. He'd lived forty years by then a couple of miles from where he was born, and he argued one idea hard, sometimes short-temperedly: a big distillery doesn't have to make worse spirit than a small one. I like to think you'd recognise that: the talent turned up right where life had put him, and once it was noticed, he didn't leave the place behind; he stood up for it.",
+            "proposed_after": "3. By then he'd lived forty years a couple of miles from where he was born. He argued hard, sometimes short-temperedly, that a big distillery doesn't have to make worse spirit than a small one. His talent had turned up right where life had put him; being noticed didn't make him leave the place behind. He stood up for it, and I like to think you'd recognise yourself in that."
+          },
+          "status": "resolved",
+          "resolution": {
+            "corrected_after": "3. By then he'd lived forty years a couple of miles from where he was born. He argued hard, sometimes short-temperedly, that a big distillery doesn't have to make worse spirit than a small one. I like to think his talent turned up right where life had put him, and that being noticed didn't make him leave the place behind: he stood up for it. You'd recognise yourself in that.",
+            "confirmed_in_source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/regular-guy-creator.md",
+            "source_sha256": "b3911d40a604b8bb0dccb2f6b3426caf2a77ceb30052d5f21e74b6e21282fa09",
+            "confirmed_in_group_d_and_root_edits": true,
+            "meaning_confirmation": "The signature now encompasses both the talent/place interpretation and the response to recognition."
+          }
+        }
+      ],
+      "review_note": "Hidden talent, belonging fear, pride/gift, gin botanicals and liquorice connection remain; the interpretation signpost needs its original scope.",
+      "resolution_note": "The signature now encompasses both the talent/place interpretation and the response to recognition."
+    },
+    {
+      "pairing": "regular-guy-explorer",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "The autonomy motive, unspoken corner/running-it worry, gift of room for others, brand choices, tight-bottom/loose-top mechanics and shared-freedom proposal remain; no new pleasure is assigned to the current worry."
+    },
+    {
+      "pairing": "regular-guy-hero",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Private self-teaching, feared rejection and doubters, shared effort, history/uncertainty and apple/rye pairing all remain. 'A share in' retains the proposal's shared ownership without new claims."
+    },
+    {
+      "pairing": "regular-guy-innocent",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Keeps the bread scene, knowledgeable plain preference, condescending half-smile and exclusion fear, relief gift and plain-caipirinha choice; the historian and bartender interpretations retain their signposts."
+    },
+    {
+      "pairing": "regular-guy-jester",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Keeps initiation, memory of the failed face, reciprocity worry and claimed-belonging gift, plus the letter's signposted meaning and plain-words proposal. No drink change."
+    },
+    {
+      "pairing": "regular-guy-lover",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains fallback longing and gracious concealment, the uneared place gift, legend and Newman uncertainty, stirred/soaked peach mechanism and direct wish to be chosen."
+    },
+    {
+      "pairing": "regular-guy-magician",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains repair examples, discomfort without a role, fear of disposability, preserved-life gift and letting others see an ordinary fix. Historical qualifications, marmalade-jar mechanics and social-presence proposal remain."
+    },
+    {
+      "pairing": "regular-guy-outlaw",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains personal yes versus impersonal rejection, the ethical limit, shared-benefit gift, bill qualification, French-75 ice/dilution and the owed-request proposal."
+    },
+    {
+      "pairing": "regular-guy-ruler",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains advocacy knowledge, hidden enjoyment, fear of being seen on the refusing side, overlooked-people gift and the lime-size/measurement link. The corrected future paragraph does not expand permission."
+    },
+    {
+      "pairing": "regular-guy-sage",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains filtering inherited advice, debt to the named giver, questioned confidence and fear of the chain ending, kindness to two people, blind-tasting interpretation and adjustable 60-ml rule."
+    },
+    {
+      "pairing": "ruler-caregiver",
+      "verdict": "pass_after_correction",
+      "concerns": [
+        {
+          "field": "whoYouAre",
+          "category": "fear_scope",
+          "issue": "'Cost someone you were looking after' can mean losing that person, where the original fear is that the person bears the harm of the missed warning.",
+          "suggested_correction": "Use 'one missed warning could bring it all apart, leaving someone you were looking after to pay for it'.",
+          "severity": "minor",
+          "evidence": {
+            "initial_baseline": "You hear it before anyone else does. A joke at dinner that lands a little too hard. A voice going up half a note in a meeting. A group chat going quiet in the wrong way. By the time the others notice, you've already pulled up a chair, asked the one who's upset what they meant, and let them say all of it.\n\nPeople take you for easygoing. You aren't. You're listening the whole time, because when people are in your care, you'd rather hear the hard thing tonight than watch it break something later. You could settle most of it with one word, and you rarely use it. You'd rather they finish. It matters more than you think: people say the real thing around you, because they're sure you'll hear all of it. You never mention how hard you work at it, or the fear underneath: that the one time you miss it, it all comes apart, and someone you were looking after pays for it.",
+            "second_pass_before": "You hear it before anyone else does. A joke at dinner that lands a little too hard. A voice going up half a note in a meeting. A group chat going quiet in the wrong way. By the time the others notice, you've already pulled up a chair, asked the one who's upset what they meant, and let them say all of it.\n\nPeople take you for easygoing. You aren't. You're listening the whole time, because when people are in your care, you'd rather hear the hard thing tonight than watch it break something later. You could settle most of it with one word, and you rarely use it. You'd rather they finish. People say the real thing around you, because they're sure you'll hear all of it. You never mention how hard you work at it, or the fear underneath: that the one time you miss it, it all comes apart, and someone you were looking after pays for it.",
+            "proposed_after": "You hear the joke at dinner that lands a little too hard, the voice going up half a note in a meeting, the group chat going quiet in the wrong way. By the time anyone else notices, you've pulled up a chair and asked the person who's upset what they meant. You let them say all of it.\n\nPeople take you for easygoing, unaware of how hard you're listening. When people are in your care, you'd rather hear the hard thing tonight than watch it break something later. You could settle most of it with one word, but you rarely use it; you'd rather they finish. Around you, people say the real thing because they're sure you'll hear them out. You keep the effort to yourself, along with the fear that one missed warning could bring it all apart and cost someone you were looking after."
+          },
+          "status": "resolved",
+          "resolution": {
+            "corrected_after": "You hear the joke at dinner that lands a little too hard, the voice going up half a note in a meeting, the group chat going quiet in the wrong way. By the time anyone else notices, you've pulled up a chair and asked the person who's upset what they meant. You let them say all of it.\n\nPeople take you for easygoing, unaware of how hard you're listening. When people are in your care, you'd rather hear the hard thing tonight than watch it break something later. You could settle most of it with one word, but you rarely use it; you'd rather they finish. Around you, people say the real thing because they're sure you'll hear them out. You keep the effort to yourself, along with the fear that one missed warning could bring it all apart, leaving someone you were looking after to pay for it.",
+            "confirmed_in_source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/ruler-caregiver.md",
+            "source_sha256": "5325752f54075ff0017bf8982fc4859b9925047c37d96a0a43c7211006c46e75",
+            "confirmed_in_group_d_and_root_edits": true,
+            "meaning_confirmation": "The person cared for bears the harm; the sentence no longer suggests losing that person."
+          }
+        }
+      ],
+      "review_note": "The listening motive, use of authority, honest-speech gift, tab fear, cognac/mandarin nod and drink waiting mechanism are retained.",
+      "resolution_note": "The person cared for bears the harm; the sentence no longer suggests losing that person."
+    },
+    {
+      "pairing": "ruler-creator",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Preserves the recipient-focused standard, hidden reason for refusing, careless-name fear and raised-standard gift. Chappell's imagined influence remains explicitly unknowable and signposted; the Daisy/vermouth mechanism remains unchanged."
+    },
+    {
+      "pairing": "ruler-explorer",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Keeps the street-party specifics, concealed love, reputational fear, preservation-through-change gift and all historical dates/qualifications. Love remains an interpretation; apricot-coated glass and participation proposal remain."
+    },
+    {
+      "pairing": "ruler-hero",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Keeps the unseen daily promise, privately lost plan/weekend/name, fear of perceived weakness, future-security gift and the once-only acknowledgment proposal. Historical uncertainty and wine-float mechanism remain."
+    },
+    {
+      "pairing": "ruler-innocent",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Keeps the whole-room hope, hidden vulnerability, unresponsive-room fear, better-night gift and self-deprecating request. The correction avoids adding obligation; Chalker and imagined Budapest/Tokaji claims retain their signposts."
+    },
+    {
+      "pairing": "ruler-jester",
+      "verdict": "pass_after_correction",
+      "concerns": [
+        {
+          "field": "yours 5",
+          "category": "proposal_scope",
+          "issue": "Keeping a hand on the wheel suggests concurrent control, whereas the original proposal leaves the evening to the other person and follows while not knowing the destination.",
+          "suggested_correction": "Replace the concurrent-control sentence with 'You won't lose the wheel by letting someone else steer for once'.",
+          "severity": "minor",
+          "evidence": {
+            "initial_baseline": "5. Before you go, a thought, and I mean it kindly. Somewhere near you is someone who never makes the first joke, because you always do. When the evening next falls apart, wait a moment. Leave it to them, and follow wherever it goes. You won't lose the wheel. What you'll get is something you almost never have: the fun of not knowing where you're going while someone else steers.",
+            "second_pass_before": "5. Somewhere near you is someone who never makes the first joke, because you always do. When the evening next falls apart, wait a moment. Leave it to them, and follow wherever it goes. You won't lose the wheel. What you'll get is something you almost never have: the fun of not knowing where you're going while someone else steers.",
+            "proposed_after": "5. Someone near you never makes the first joke because you always do. When the evening next falls apart, wait a moment and follow wherever they take it. You can keep your hand on the wheel and still let someone else steer for once. You'll get the fun you almost never have: not knowing where you're going."
+          },
+          "status": "resolved",
+          "resolution": {
+            "corrected_after": "5. Someone near you never makes the first joke because you always do. When the evening next falls apart, wait a moment and follow wherever they take it. You won't lose the wheel by letting someone else steer for once. You'll get the fun you almost never have: not knowing where you're going.",
+            "confirmed_in_source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/ruler-jester.md",
+            "source_sha256": "f2722d7cfaf2bbef8e4fc3d33fc1b6e759c1edc0d2aa87614236749553e26c38",
+            "confirmed_in_group_d_and_root_edits": true,
+            "meaning_confirmation": "The guest follows another person without simultaneous steering, while keeping the original reassurance about their authority."
+          }
+        }
+      ],
+      "review_note": "The fun-as-leadership motive, uncertainty/failure fear, adventurous gift, LAB chronology and three-way tasting/drink mechanism remain.",
+      "resolution_note": "The guest follows another person without simultaneous steering, while keeping the original reassurance about their authority."
+    },
+    {
+      "pairing": "ruler-lover",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains deliberate sincere attention, unseen effort, fear of being passed over and whether people return, reciprocation gift, Prince-of-Wales uncertainty and pineapple mechanism; final uncertainty and blessing remain."
+    },
+    {
+      "pairing": "ruler-magician",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Preserves hurt while unheard, steadiness in crisis, public-defeat fear and holding-sentence gift. The corrected book timing is faithful; speculative motive remains signposted and orange-acid adjustment unchanged."
+    },
+    {
+      "pairing": "ruler-outlaw",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains wanting ordered leadership, staying to maintain it, fear of becoming the old resisting authority, lived-better-way gift, Maloney's two-sided reflection and concrete support for the next maker."
+    },
+    {
+      "pairing": "ruler-regular-guy",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains a real side, action on the other's ground, fear of forced choice and entrenched division, bringing both halves together and the full-self proposal. Bergeron's unknown motive stays signposted; equal measures/cardamom remain."
+    },
+    {
+      "pairing": "ruler-sage",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains wanting to be liked, private reconsideration, refusal of the fudge that hurts the quietest, equal-answer gift and freedom to stop judging. The corrected commission chronology, label/definition claims and malt mechanism remain."
+    },
+    {
+      "pairing": "sage-caregiver",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains the feared wrong answer, self-owned learning, simultaneous pride/being-left-behind, independent-capability gift, both historical interpretations and the tarragon/mint student link."
+    },
+    {
+      "pairing": "sage-creator",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains unseen testing, refusal to trust untested appearance, floor-supported care gift and the deliberate-space proposal. Rickhouse facts and qualifications, popcorn/premeasured/freezer mechanism and peel choice remain."
+    },
+    {
+      "pairing": "sage-explorer",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains quick delight, private checking, fear of confident error and the cost of letting a favourite go, plus respect for another person's half-idea. All Sylvius/Morewood/Kämpfer qualifications and genever/brandy layering remain."
+    },
+    {
+      "pairing": "sage-hero",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains chosen early loss, concealed cost, feared missed move after trust and steadiness gift. Moses's feelings and outcomes stay explicitly unknown; the modest evidence, coffee-block arrival and carrying-on proposal remain."
+    },
+    {
+      "pairing": "sage-innocent",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains condescending audience, protective 'I think', respectful checking versus unexamined patronising certainty and generous hearing gift. Pasteur/Biot observations, direct quotes and the tartaric/verjus change remain; final arm-taking hope survives."
+    },
+    {
+      "pairing": "sage-jester",
+      "verdict": "pass_after_correction",
+      "concerns": [
+        {
+          "field": "whoYouAre",
+          "category": "fear_scope",
+          "issue": "'Nobody can laugh' is ambiguous about ability; the original fear specifically concerns a room where nobody is allowed to laugh at the accepted story.",
+          "suggested_correction": "Use 'You fear a room where nobody is allowed to laugh, because the story stays true there for good'.",
+          "severity": "minor",
+          "evidence": {
+            "initial_baseline": "Someone at the table has started to believe their own story. A boss, an old friend who's done well, the relative everyone humours. You don't correct them. Correcting them would cost them something with everyone watching. So you make it funny, carefully, aimed at them and not at the room, and they're the one laughing hardest. Nothing else happens that night. A week later, quietly, they've dropped it. Nobody mentions the joke, least of all you.\n\nIt sounded like a quip. It took you most of the evening. Nobody guesses how much the untrue thing bothered you while you were smiling: you can sit with almost anything except a story everyone has agreed to believe. The room that frightens you is the one where nobody's allowed to laugh, because that's where it stays true for good. And there's a cost you rarely mention. When you mean something about your own life, people are still waiting for the funny part.\n\nSo here it is, plainly, because it's worth something: you let people be wrong and keep their dignity. It's kinder than honesty on its own, and much harder.",
+            "second_pass_before": "Someone at the table has started to believe their own story. A boss, an old friend who's done well, the relative everyone humours. You don't correct them. Correcting them would cost them something with everyone watching. So you make it funny, carefully, aimed at them and not at the room, and they're the one laughing hardest. Nothing else happens that night. A week later, quietly, they've dropped it. Nobody mentions the joke, least of all you.\n\nIt sounded like a quip. It took you most of the evening. Nobody guesses how much the untrue thing bothered you while you were smiling: you can sit with almost anything except a story everyone has agreed to believe. The room that frightens you is the one where nobody's allowed to laugh, because that's where it stays true for good. And there's a cost you rarely mention. When you mean something about your own life, people are still waiting for the funny part.\n\nYou let people be wrong and keep their dignity. It's kinder than honesty on its own, and much harder.",
+            "proposed_after": "A boss, an old friend who's done well, the relative everyone humours: someone at the table has started to believe their own story. Correcting them in front of everyone would cost them something, so you find a way to make it funny. You aim it carefully at them, and they're the one laughing hardest. Nothing else happens that night. A week later they've quietly dropped the story, and nobody mentions the joke, least of all you.\n\nYou spent most of the evening on what sounded like a quip. While smiling, you were bothered by the untrue thing; you can sit with almost anything except a story everyone has agreed to believe. You fear a room where nobody can laugh, because the story stays true there for good. You rarely mention the other cost: when you mean something about your own life, people still wait for the funny part.\n\nYou let people be wrong and keep their dignity. That takes more care, and is kinder, than honesty alone."
+          },
+          "status": "resolved",
+          "resolution": {
+            "corrected_after": "A boss, an old friend who's done well, the relative everyone humours: someone at the table has started to believe their own story. Correcting them in front of everyone would cost them something, so you find a way to make it funny. You aim it carefully at them, and they're the one laughing hardest. Nothing else happens that night. A week later they've quietly dropped the story, and nobody mentions the joke, least of all you.\n\nYou spent most of the evening on what sounded like a quip. While smiling, you were bothered by the untrue thing; you can sit with almost anything except a story everyone has agreed to believe. You fear a room where nobody is allowed to laugh, because the story stays true there for good. You rarely mention the other cost: when you mean something about your own life, people still wait for the funny part.\n\nYou let people be wrong and keep their dignity. That takes more care, and is kinder, than honesty alone.",
+            "confirmed_in_source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/sage-jester.md",
+            "source_sha256": "aae477e9d44cb25efe43df98f3162023a2274dfea6269324167592b1f7d587e2",
+            "confirmed_in_group_d_and_root_edits": true,
+            "meaning_confirmation": "The fear is explicitly about permission to laugh at the accepted story."
+          }
+        }
+      ],
+      "review_note": "Dignity-preserving targeting, delayed correction, private effort and inability to speak seriously about their own life remain. Clover Club history and wine-syrup mechanism are unchanged.",
+      "resolution_note": "The fear is explicitly about permission to laugh at the accepted story."
+    },
+    {
+      "pairing": "sage-lover",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retained source is unchanged; its authored sensory discernment, fooled-label fear, sharing-pleasure gift, Rob Roy story, distinct sherries/sage and unnamed-first-sip proposal remain exactly."
+    },
+    {
+      "pairing": "sage-magician",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains whole-plan care, feared collectively propagated error and independent-capability gift. Jackson's imagined sleeplessness/grouping motive stays doubly qualified; grain distinctions, tamarind balance and small-group trial remain."
+    },
+    {
+      "pairing": "sage-outlaw",
+      "verdict": "pass",
+      "concerns": [],
+      "review_note": "Retains privately wanting to be wrong, checking/returning alone, fear of the comfortable official version and others' voice gift. Forrester's interests and contested accuracy stay explicit; port ratios/tea and public-correction proposal remain."
+    },
+    {
+      "pairing": "sage-regular-guy",
+      "verdict": "pass_after_correction",
+      "concerns": [
+        {
+          "field": "yours 4",
+          "category": "added_historical_action",
+          "issue": "The proposed 'argued' asserts an actual dispute where the original says others were busy with naming/ownership matters.",
+          "suggested_correction": "Replace 'While everyone else argued over who owned the name' with 'While everyone else was busy with who owned the name'.",
+          "severity": "minor",
+          "evidence": {
+            "initial_baseline": "4. You'd have understood Guillermo straight away. Everyone else was busy with the name: who owned it, who could use it, what to put on the bottle instead. What mattered to him was smaller than all that: a piece of land, an old stone wheel, and a taste he remembered from drinking with his grandfather. You know that kind of small.",
+            "second_pass_before": "4. You'd have understood Guillermo straight away. Everyone else was busy with the name: who owned it, who could use it, what to put on the bottle instead. What mattered to him was smaller than all that: a piece of land, an old stone wheel, and a taste he remembered from drinking with his grandfather. You know that kind of small.",
+            "proposed_after": "4. You'd have understood Guillermo straight away. While everyone else argued over who owned the name, who could use it and what belonged on the bottle, he cared about a piece of land, an old stone wheel and the taste he remembered from drinking with his grandfather. You know why something that small can matter."
+          },
+          "status": "resolved",
+          "resolution": {
+            "corrected_after": "4. You'd have understood Guillermo straight away. While everyone else was busy with who owned the name, who could use it and what belonged on the bottle, he cared about a piece of land, an old stone wheel and the taste he remembered from drinking with his grandfather. You know why something that small can matter.",
+            "confirmed_in_source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/sage-regular-guy.md",
+            "source_sha256": "fe095d947c9d7885e48b027eb52c96626505a40a05f94111a901bffdc0f75936",
+            "confirmed_in_group_d_and_root_edits": true,
+            "meaning_confirmation": "Naming/ownership concerns no longer assert a new historical argument."
+          }
+        }
+      ],
+      "review_note": "Chosen ease, prior involvement in an untrue story, intensely cared-for small matters and de-escalation gift remain. Names, production facts, name-origin uncertainty and tequila/oregano mechanism remain.",
+      "resolution_note": "Naming/ownership concerns no longer assert a new historical argument."
+    },
+    {
+      "pairing": "sage-ruler",
+      "verdict": "pass_after_correction",
+      "concerns": [
+        {
+          "field": "whoYouAre",
+          "category": "emotional_force",
+          "issue": "Enjoyment remains concealed but loses being one of the guest's greatest pleasures; 'worry' also lowers the force of the original haunting fear.",
+          "suggested_correction": "Restore the degree of pleasure with 'It's one of the things you enjoy most, though you rarely admit it' and the persistent fear with 'The detail you never thought to record haunts you: the one that matters later in a column you didn't make'.",
+          "severity": "minor",
+          "evidence": {
+            "initial_baseline": "You know when the boiler was last serviced, what the meter read in March, and how long bread really takes in your oven, not what the packet says. When an argument starts about how things used to be, you don't join in. You fetch the notes.\n\nSome people mistake that for coolness. It isn't. Writing it down is how you keep a messy world still enough to think in. And, though you rarely admit it, it's one of the things you enjoy most. You're better company than your notebook suggests.\n\nWhat haunts you is the thing you never thought to write down, the one that mattered after all, in a column you didn't make. But when someone needs to know what really changed, nobody has to guess. They count from your numbers, and the count holds.",
+            "second_pass_before": "You know when the boiler was last serviced, what the meter read in March, and how long bread really takes in your oven, not what the packet says. When an argument starts about how things used to be, you don't join in. You fetch the notes.\n\nSome people mistake that for coolness. It isn't. Writing it down is how you keep a messy world still enough to think in. And, though you rarely admit it, it's one of the things you enjoy most. You're better company than your notebook suggests.\n\nWhat haunts you is the thing you never thought to write down, the one that mattered after all, in a column you didn't make. But when someone needs to know what really changed, nobody has to guess. They count from your numbers, and the count holds.",
+            "proposed_after": "You know when the boiler was last serviced, what the meter read in March, and how long bread takes in your oven, whatever the packet says. When an argument starts about how things used to be, you fetch the notes.\n\nWriting things down keeps a messy world still enough to think in. You enjoy it more than you admit, though some people mistake it for coolness. You're better company than your notebook suggests.\n\nYou worry about the detail you never thought to record, the one that matters later in a column you didn't make. When people need to know what changed, though, they can count from your numbers without guessing. The count holds."
+          },
+          "status": "resolved",
+          "resolution": {
+            "corrected_after": "You know when the boiler was last serviced, what the meter read in March, and how long bread takes in your oven, whatever the packet says. When an argument starts about how things used to be, you fetch the notes.\n\nWriting things down keeps a messy world still enough to think in. It's one of the things you enjoy most, though you rarely admit it. Some people mistake it for coolness. You're better company than your notebook suggests.\n\nThe detail you never thought to record haunts you: the one that matters later in a column you didn't make. When people need to know what changed, though, they can count from your numbers without guessing. The count holds.",
+            "confirmed_in_source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/sage-ruler.md",
+            "source_sha256": "6c2c49b9c61aaa0885e00f04510e4fe35c28ebe7e5cd5b75d4f1745ee69ac95c",
+            "confirmed_in_group_d_and_root_edits": true,
+            "meaning_confirmation": "The strongest private pleasure and the haunting unrecorded-detail fear are both restored."
+          }
+        }
+      ],
+      "review_note": "Record-based reliability, gap reassurance, Barnard's sociability and historical cask uncertainty remain; all highball quantities, coldness, cube handling and vanilla nod remain.",
+      "resolution_note": "The strongest private pleasure and the haunting unrecorded-detail fear are both restored."
+    }
+  ],
+  "structural_checks": {
+    "exact_audit_replay": true,
+    "outside_reading_regions_unchanged": true,
+    "schema_and_closing_lines_unchanged": true,
+    "numbering_dates_and_digits_preserved": true,
+    "quoted_strings_preserved": true,
+    "signature_count_preserved": true,
+    "Robin_fragments_preserved": true,
+    "approved_sources_unchanged": true,
+    "all_final_sources_match_audit": true
+  },
+  "resolution_review": {
+    "scope": "Reread the six corrected full Readings, compared each corrected paragraph to retained review evidence, and verified all 33 final sources against audit replay. Sources and root audit were read-only; only this review was updated.",
+    "group_d_sha256": "ccc5ee1a7f64f287cf8fc49fe7ffb1da2ed242ef8bcbc6e3972b7d8a390ef458",
+    "root_edits_sha256": "ccc5ee1a7f64f287cf8fc49fe7ffb1da2ed242ef8bcbc6e3972b7d8a390ef458",
+    "root_edits_equal_group_d": true,
+    "all_33_final_sources_match_exact_audit_replay": true,
+    "all_six_findings_resolved": true,
+    "new_concerns": [],
+    "previous_confirmed_group_d_sha256": "1cae2c0ac43e7da241f9d68a8b1ddca010668137bca6b7f8278297c05324c2db",
+    "previous_confirmed_root_edits_sha256": "1cae2c0ac43e7da241f9d68a8b1ddca010668137bca6b7f8278297c05324c2db"
+  },
+  "additional_correction_confirmation": {
+    "pairing": "sage-ruler",
+    "field": "yours 4",
+    "status": "confirmed",
+    "reviewed_proposal_phrase": "which replaced brandy and soda in Britain",
+    "restored_phrase": "which took over from brandy and soda in Britain",
+    "second_pass_before": "4. So the cocktail I've made for you is a true classic, the whisky highball: whisky and soda, which took over from brandy and soda in Britain in the second half of the nineteenth century. It's an unpeated Highland single malt, ideally one whose label says it was aged in bourbon casks, lengthened with two parts very cold soda. It's built step by step, and every step has a reason. A frozen glass and cold soda keep the bubbles. The first cube is lowered in slowly, so it doesn't crack. The bottom cube is lifted once, to mix it without knocking out the fizz. I've added one touch: a little real vanilla, as a nod to the casks his book hardly mentions, since oak casks give whisky some of that same flavour. It's there in the recipe, like everything else.",
+    "corrected_after": "4. The cocktail I've made for you is a true classic, the whisky highball: whisky and soda, which took over from brandy and soda in Britain in the second half of the nineteenth century. I use an unpeated Highland single malt, ideally labelled as aged in bourbon casks, and two parts very cold soda. Each step has its reason. The glass is frozen and the soda cold to keep the bubbles. Lower the first cube slowly so it doesn't crack, then lift the bottom cube once to mix without knocking out the fizz. I've added a little real vanilla for the casks his book barely mentions; oak gives whisky some of that same flavour. The vanilla is written into the recipe, like everything else.",
+    "meaning_confirmation": "The historic shift retains the original took-over wording; all quantities and highball mechanics remain unchanged."
+  }
+}

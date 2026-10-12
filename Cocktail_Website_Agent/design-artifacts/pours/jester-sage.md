@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 
 - **name:** Against My Better Judgement
 - **tagline:** You make fun of the world because you haven't given up on it.
+- **words:** Silky · Fruity · Dry
 - **glassware:** cocktail glass (about 180 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -58,7 +59,7 @@ The letter says the changes are "for your convenience". You have a line about it
 
 Here's what they miss. You only notice the gap because you still know how it should be. Under every joke is a picture of something better, and you've never quite given it up. You keep that part quiet. A joke is hard to laugh at; a hope is easy. What wears you out is the pretending: a dinner where everyone agrees to call it fine, and it goes on and on. Further down sits a fear you rarely say: that one day it won't be funny any more.
 
-This matters more than people know. When something's absurd, you make it possible to laugh at it without giving up on it. After your line, everyone breathes out.
+When something's absurd, you make it possible to laugh at it without giving up on it. After your line, everyone breathes out.
 
 **yours**
 

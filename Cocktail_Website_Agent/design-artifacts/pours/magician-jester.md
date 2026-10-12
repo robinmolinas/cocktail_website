@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 
 - **name:** Even When You Know
 - **tagline:** You make being wrong feel like discovering something wonderful.
+- **words:** Decadent · Earthy · Chocolatey
 - **glassware:** a small stemmed pousse-café or cordial glass (about 75 ml), narrow and flared; no ice
 - **contains:** `[]`
 

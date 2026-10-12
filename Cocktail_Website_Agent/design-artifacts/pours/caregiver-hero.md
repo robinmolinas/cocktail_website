@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-28 (batch caregiver)
 
 - **name:** Off Duty
 - **tagline:** When someone needs help, you're already on your way.
+- **words:** Comforting · Honeyed · Herbal
 - **glassware:** a wide teacup (about 250 ml), warmed with hot water first; not a tall mug
 - **contains:** `[]`
 

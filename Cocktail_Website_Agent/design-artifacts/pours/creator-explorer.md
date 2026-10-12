@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-26 (batch creator)
 
 - **name:** Off-Label
 - **tagline:** You've never made the same thing twice. Not even when you tried.
+- **words:** Vivid · Bittersweet · Aromatic
 - **glassware:** coupe (a stemmed cocktail glass), chilled
 - **contains:** `[]`
 

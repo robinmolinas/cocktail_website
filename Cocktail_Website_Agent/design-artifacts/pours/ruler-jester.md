@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** Who's In?
 - **tagline:** People follow your lead because it feels like joining the fun.
+- **words:** Vibrant · Fruity · Minty
 - **glassware:** a big glass (about 400 ml, a 14-oz highball or double old-fashioned), chilled in the freezer, packed with crushed ice and a straw
 - **contains:** `[]`
 
@@ -75,7 +76,7 @@ Nobody calls it being in charge, because to them it feels like being asked along
 
 4. The cocktail I've made for you is a vodka Daiquiri, built like a Mojito, in the kind of big glass LAB served so many of its drinks in, with crushed ice heaped above the rim. I chose raspberries for it, blended cold into a syrup, so the bold red comes from the fruit alone, with a pinch of toasted cumin in the syrup, a turn you won't see coming that works out, and lime and mint leaves that stay in: bright and generous. Then it's over to you. When you make it, taste it through the straw and make one of those three calls: a few more mint leaves, a little more syrup, or a dash of bitters. That step is there as a nod to those bartenders tasting in all that noise, and the drink is built so that whichever call you make, it holds.
 
-5. Before you go, a thought, and I mean it kindly. Somewhere near you is someone who never makes the first joke, because you always do. When the evening next falls apart, wait a moment. Leave it to them, and follow wherever it goes. You won't lose the wheel. What you'll get is something you almost never have: the fun of not knowing where you're going while someone else steers.
+5. Somewhere near you is someone who never makes the first joke, because you always do. When the evening next falls apart, wait a moment. Leave it to them, and follow wherever it goes. You won't lose the wheel. What you'll get is something you almost never have: the fun of not knowing where you're going while someone else steers.
 
 ---
 

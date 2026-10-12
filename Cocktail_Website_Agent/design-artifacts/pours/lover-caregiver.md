@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch lover)
 
 - **name:** Hoping You'd Come
 - **tagline:** You make room for people before you ask them to come.
+- **words:** Plush · Appley · Mellow
 - **glassware:** a small wineglass (about 250 ml), one plain lump of ice
 - **contains:** `[]`
 
@@ -57,7 +58,7 @@ authored_in: the room, 2026-09-30 (batch lover)
 **whoYouAre**
 Someone's coming over. Long before they get there, you've been at it: the chair moved nearer the heater for the one who always feels the cold, the music down to where people can talk, the light just so. By the time they walk in, it looks as if it all happened by itself. That's the idea. Nobody should feel they put you to any trouble. They should just feel expected.
 
-What you'd never tell them is: I was hoping you'd come. All that getting ready is how you hope without asking. A room made ready can't be turned down, and a plain question can. The thought you don't let yourself stay with is the ready room with nobody in it. Here's what people take home from your evenings, even when they couldn't say why: the feeling that someone had them in mind before they arrived.
+What you'd never tell them is: I was hoping you'd come. All that getting ready is how you hope without asking. A room made ready can't be turned down, and a plain question can. The thought you don't let yourself stay with is the ready room with nobody in it. People leave your evenings with the feeling that someone had them in mind before they arrived, even when they couldn't say why.
 
 **yours**
 

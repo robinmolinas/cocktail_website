@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 
 - **name:** Still Yours
 - **tagline:** You love what you love, and somehow everyone else starts loving it too.
+- **words:** Vibrant · Fruity · Tart
 - **glassware:** a saucer coupe (a wide, shallow stemmed glass), chilled
 - **contains:** `[]`
 

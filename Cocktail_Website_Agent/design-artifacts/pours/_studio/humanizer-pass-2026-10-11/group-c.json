@@ -1,0 +1,569 @@
+[
+  {
+    "pairing": "lover-caregiver",
+    "decision": "edited",
+    "reason": "Retain the preparation-as-hope portrait, the deliberately short hinge about the ready rooms, and the warm full-house wish; only the introduction to the kindness needs easing.",
+    "preserved_voice": [
+      "heater chair and lowered music",
+      "fear of the ready room with nobody in it",
+      "Willard memory story and signposted numbered-room interpretation",
+      "roasted apples ready before the guests",
+      "specific invitation and full-house wish"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Here's what people take home from your evenings, even when they couldn't say why: the feeling that someone had them in mind before they arrived.",
+        "after": "People leave your evenings with the feeling that someone had them in mind before they arrived, even when they couldn't say why.",
+        "reason": "State the concrete kindness directly, keeping the feeling of having been expected and the guests' inability to name it."
+      }
+    ]
+  },
+  {
+    "pairing": "lover-creator",
+    "decision": "retained",
+    "reason": "Retain the full reading: the unfinished work, the maker/reason distinction and the two glasses make the contrasts purposeful, and the last question is a real invitation.",
+    "preserved_voice": [
+      "friends showing their unfinished work first",
+      "fear of being loved as someone else's idea",
+      "Gerald Murphy's handwritten card and exact measures",
+      "mint from the Bailey letter, joined as the bartender's idea",
+      "request to show unfinished work and put the maker's name on it"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "lover-explorer",
+    "decision": "retained",
+    "reason": "Retain the full reading: the lights-up fear and the night ended at its height give the short lines a concrete purpose, while the dossier explicitly protects the ending from a restraint reading.",
+    "preserved_voice": [
+      "cold sea in May and second pudding",
+      "private ride home and fear of the quiet",
+      "Gaige's Skunk Hollow, radio and dinner-menu history",
+      "manzanilla joining his cellar and kitchen",
+      "ending one good night and naming the next date"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "lover-hero",
+    "decision": "retained",
+    "reason": "Retain the full reading: its contrasts explain the actual confusion between being needed and wanted, and the coat, platform and warm welcome keep the point lived rather than abstract.",
+    "preserved_voice": [
+      "three-hundred-mile visit in the good coat",
+      "fear in the second before seeing their face",
+      "Nellie Bly's reported words and travel qualifications",
+      "wine unspecified in her book, Bordeaux owned as a choice",
+      "room-temperature toast linked to the fire and bareheaded farewell",
+      "visit to someone doing well without help"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "lover-innocent",
+    "decision": "retained",
+    "reason": "Retain the full reading: the reply-time image, the advice resisted and the open eggshell carry a specific stance, so the lyrical sentences and tender wish earn their place.",
+    "preserved_voice": [
+      "immediate messages and within-the-week affection",
+      "fear of deliberately waiting three hours",
+      "Rita's response left unknown and her actual teaching work",
+      "lavender passing through an unbroken eggshell",
+      "silky egg, froth, demerara and amber-beige drink",
+      "future reply now and wish for love answered"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "lover-jester",
+    "decision": "edited",
+    "reason": "Retain the coffee-order and hat jokes, the fear of the joke hanging, and the clumsy compliment proposal; remove only the sentence that repeats the already stated gift.",
+    "preserved_voice": [
+      "coffee order, walk and hat teasing",
+      "feeling picked and leaving funnier and better-looking",
+      "Harrington's account and contested taster kept unnamed",
+      "extra e and jasmine-tea syrup as a tease played back",
+      "bright, bitter and softly scented drink",
+      "one plain compliment when someone plays back"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": " That's what your teasing hands them.",
+        "after": "",
+        "reason": "The preceding two sentences already state the gift of feeling picked and leaving funnier and better-looking; this closer repeats it."
+      }
+    ]
+  },
+  {
+    "pairing": "lover-magician",
+    "decision": "edited",
+    "reason": "Retain the motive of giving someone a reason to stay, the loneliness behind the last withheld thing and the unasked leaf gesture; only the announcement before the motive is unnecessary.",
+    "preserved_voice": [
+      "door slightly open and stories revealed a little at a time",
+      "fear that finding ends once the person is known",
+      "Ikeda's account and the writer's two-sided closed door",
+      "gin, shochu and removed shiso leaf joined as the bartender's idea",
+      "clean, cold and hard-to-place green scent",
+      "telling one person the saved thing before they earn it"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Here's the part they miss. ",
+        "after": "",
+        "reason": "Begin with the specific motive instead of announcing a revelation; the distinction between being chased and giving someone a reason to stay remains."
+      }
+    ]
+  },
+  {
+    "pairing": "lover-outlaw",
+    "decision": "edited",
+    "reason": "Retain the kerb-and-chips scene, the audience/accomplices distinction and the gentle ordinary-plan proposal; the gift can be stated without its label.",
+    "preserved_voice": [
+      "please come beneath come on",
+      "two-sided fear of being kept for noise or made sensible and dropped",
+      "Employees Only's reported scorn and staff turnover qualification",
+      "beetroot marking the fingers as a nod to a hand in creating it",
+      "rich, smooth, earthy rye Manhattan",
+      "Sunday food shop, soup or a twice-seen film"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "That's your gift: around you, people drop the act.",
+        "after": "Around you, people drop the act.",
+        "reason": "Name the kindness through what people do around the guest, without introducing it as a gift label."
+      }
+    ]
+  },
+  {
+    "pairing": "lover-regular-guy",
+    "decision": "edited",
+    "reason": "Retain the car-noise scene, the unsaid feeling, thirty-copy story and busy-hands proposal; make the kindness sentence direct without cutting its assurance or value.",
+    "preserved_voice": [
+      "the mention heard as an ask and Saturday under the car",
+      "fear of the day it is too late to check",
+      "Siegal's account with business possibility before signposted pride",
+      "thirty seconds and thirty copies owned as coincidence",
+      "third less honey so the bourbon gets a word in",
+      "one line said while busy and loved ones learning why"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Here's what your way gives the people you love: they never have to find the words to ask, and they never owe you a thank-you.",
+        "after": "The people you love never have to find the words to ask, and they never owe you a thank-you.",
+        "reason": "State the two concrete freedoms directly, retaining the following assurance about where loved ones can lean and its value."
+      }
+    ]
+  },
+  {
+    "pairing": "lover-ruler",
+    "decision": "retained",
+    "reason": "Retain the full reading: the deliberately made effect and the person behind it are distinct, the Pickford curls make the trap specific, and the ending offers company rather than a verdict.",
+    "preserved_voice": [
+      "voice, pause and remembered clothes chosen deliberately",
+      "loneliness of the maker behind the effect",
+      "Pickford's United Artists freedom and curl-cutting account",
+      "homemade pomegranate-thyme grenadine as a nod to the maker",
+      "choice of next version while the choice is still theirs"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "lover-sage",
+    "decision": "edited",
+    "reason": "Retain the full-table loneliness, the long-version invitation and the cold fragrant julep; only the announcement before the private room judgement needs simplifying.",
+    "preserved_voice": [
+      "second question about the book and the remembered page",
+      "three-page letter and feeling unmet at a full table",
+      "usually credited ode and around-2000 recollection",
+      "the ode's steps and owned departure of churning",
+      "frosted cup, mint scent and quietly strong drink",
+      "give the long version to the room"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Here's the thing you'd never tell the table: you've decided most rooms aren't the place for it.",
+        "after": "You'd never tell the table that you've decided most rooms aren't the place for it.",
+        "reason": "Keep the private judgement and its concealment in one natural sentence, removing the staged introduction."
+      }
+    ]
+  },
+  {
+    "pairing": "magician-caregiver",
+    "decision": "retained",
+    "reason": "Retain the full reading: the surprise's second answers the question of whether help was wanted, and the name wandering is a concrete counterpart to the guest's fear.",
+    "preserved_voice": [
+      "arrangements made before anyone asks",
+      "private question about the right to help",
+      "Hazel Dawn's story, absent arranger and probable name transfer",
+      "sweet anise partly swapped for dry as a nod to the unseen maker",
+      "hazy pink from anise and bitters",
+      "stay for the door opening and surprise landing"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "magician-creator",
+    "decision": "edited",
+    "reason": "Retain the generous overflow and the wish motif, all of the attributed reconstruction and the warm orange-rosemary drink; remove only the proposal's announcement.",
+    "preserved_voice": [
+      "toast and broken heart transformed into more than requested",
+      "fear of a literal ask landing flat",
+      "Klemm's quoted kitchen motive and jar-syrup gloss owned",
+      "Cointreau and Angostura stand-in as a nod to the Campbell Apartment",
+      "tall, bright, herbal drink with warm orange edge",
+      "name the one part to make on the guest's own terms"
+    ],
+    "edits": [
+      {
+        "field": "yours[5]",
+        "before": "So this is my wish for you. ",
+        "after": "",
+        "reason": "The following instruction already makes the wish concrete, and the paragraph ends by returning the wish motif to the guest."
+      }
+    ]
+  },
+  {
+    "pairing": "magician-explorer",
+    "decision": "retained",
+    "reason": "Retain the full reading: wood and copper give the final step a physical image, and the finished-result lines add agency rather than repeat a generic lesson.",
+    "preserved_voice": [
+      "forty changes recorded so each can be undone",
+      "fear of serving, sending or signing the last step",
+      "unknown wood-and-iron reason followed by I like to think",
+      "single-grain whisky led Martini with calvados as the ordinary-thing nod",
+      "clean, bright and quietly surprising drink",
+      "ask who the next change is for, then serve or send"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "magician-hero",
+    "decision": "retained",
+    "reason": "Retain the full reading: the part sacrificed, the saved vineyard and the floral grape's return make the short reassurances specific and gentle.",
+    "preserved_voice": [
+      "making the hard change and carrying it afterwards",
+      "fear of consequences not intended",
+      "Texas rootstock, dates and vineyard loss preserved",
+      "Folle Blanche surviving further south",
+      "quarter Armagnac and gooseberry edge returning what gave way",
+      "look for and bring back the part that made room"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "magician-innocent",
+    "decision": "edited",
+    "reason": "Retain the failure/success contrast, the guilty almost and the joyful doubling; remove two introductions that announce the fear and gift already stated in concrete terms.",
+    "preserved_voice": [
+      "dinner becoming a fixture and the group of forty",
+      "fear of success growing in directions not picked",
+      "Alexander Walker's exact qualified 1885 quotation",
+      "nickname spelling and family response",
+      "doubling 30/60/120 measures and strawberry as many fruits carried as one",
+      "say the almost and give someone half to hold"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "What hardly anyone guesses is this. ",
+        "after": "",
+        "reason": "Let the distinctive fear of success begin the paragraph without a run-up; its purposeful failure/success contrast remains."
+      },
+      {
+        "field": "whoYouAre[2]",
+        "before": "And here's what the joy gives everyone else: a lot of the good things around you are only there because you couldn't wait to begin them.",
+        "after": "A lot of the good things around you are only there because you couldn't wait to begin them.",
+        "reason": "The concrete good things and the guest's eagerness already say the gift plainly; remove its announcement."
+      }
+    ]
+  },
+  {
+    "pairing": "magician-jester",
+    "decision": "retained",
+    "reason": "Retain the full reading: certainty tipping, honest visible bands and the heaviest clear layer create the intended paradox; the final explanation adds shared perspective rather than restating surprise.",
+    "preserved_voice": [
+      "quiet object put on the table and laughter passed on",
+      "fear of someone feeling foolish or played",
+      "Pousse Cafe weights, band counts and etiquette account",
+      "beetroot bourbon creating the darkest lightest band",
+      "chocolate, dried-fruit port and earthy whiskey sequence",
+      "show how it works before the look"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "magician-lover",
+    "decision": "edited",
+    "reason": "Retain the decision to come in quieter, the unchosen effect and the whole-strength Martini; remove only here's from the appreciation sentence while preserving that it is seldom heard back.",
+    "preserved_voice": [
+      "quiet dinner question and later life choice",
+      "fear of another person losing footing",
+      "Dukes pour and famous two-Martini rule",
+      "kindness interpretation held inside I like to think",
+      "freezer-cold clear vodka with all lemon zest visible",
+      "ask the big question and trust the next step to them"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "And here's what you seldom hear back: people come away from you more like themselves, with the nerve for something they were already half-ready to do.",
+        "after": "What you seldom hear back is that people come away from you more like themselves, with the nerve for something they were already half-ready to do.",
+        "reason": "Remove the announcement while preserving the important fact that the guest seldom hears this appreciation back."
+      }
+    ]
+  },
+  {
+    "pairing": "magician-outlaw",
+    "decision": "retained",
+    "reason": "Retain the entire pour byte-for-byte because Robin approved it in full; the strings, gift inside the trick and truth at the bottom are intentional reference wording, including the staged moves.",
+    "preserved_voice": [
+      "fully approved reference status and complete original text",
+      "strings tugged and planned mischief",
+      "Seger's hoax and confession with motive signposted",
+      "bitters-soaked sugar cube dissolving without stirring",
+      "bright dry top and sweeter darker bitter finish",
+      "gift inside the next trick and stay to show how"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "magician-regular-guy",
+    "decision": "retained",
+    "reason": "Retain the full reading: the bus stop becoming a room, cold-water practice and saucer reveal give the lyricism a concrete setting and keep the entertainer's pleasure distinct.",
+    "preserved_voice": [
+      "strangers laughing after the gasp",
+      "fear of silence and hours of practice",
+      "Thomas's warning and Wondrich's Scotch Whisky Skin wording",
+      "unknown mixed-whisky reason and bartender's guess",
+      "smoke and lemon kept under the saucer",
+      "one person watching practice, spills and all"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "magician-ruler",
+    "decision": "retained",
+    "reason": "Retain the full reading: the on-duty kindness wording is a rulebook reference, and the narrator's smile at Ashley's return is an earned personal reaction rather than an empty announcement.",
+    "preserved_voice": [
+      "evening rehearsed in every way it could go wrong",
+      "fear of a piece with a mind of its own",
+      "whole room carefree and worth every minute on duty",
+      "Ashley's shrub marked it seems and lost recipe owned",
+      "arrack as loud piece with sharp bright warm shrub",
+      "give the unplanned piece one evening"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "magician-sage",
+    "decision": "edited",
+    "reason": "Retain the tiny reasons, the faith people grow into and the qualified Nonino story; remove only the standalone announcement before the kindness that the paragraph already says plainly.",
+    "preserved_voice": [
+      "small repair noticed when others decided the person was finished",
+      "fear of seeing only a hope and prompting the person to act",
+      "faith usually received only from someone who loves them",
+      "family account, freshly pressed picolit and printed working",
+      "fig leaf as a nod to looking twice at the already used",
+      "show reasons so the other person grows at their own pace"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[3]",
+        "before": "And here's your gift to whoever is near you. ",
+        "after": "",
+        "reason": "The following sentences already make the faith given to people explicit and describe its unusual generosity; begin with that distinctive observation."
+      }
+    ]
+  },
+  {
+    "pairing": "outlaw-caregiver",
+    "decision": "edited",
+    "reason": "Retain deliberate gentleness, power exhausted and the exact final strength/person turn reserved to this pour; make the gift sentence direct without altering the protection.",
+    "preserved_voice": [
+      "gentleness chosen repeatedly and temper never used",
+      "fear of being unable to protect someone who matters",
+      "Black Cat licence, court ruling and witness qualification",
+      "soft drink leading as a nod to the alcohol-free party",
+      "cognac strength underneath the pale dry ginger ale and long lemon spiral",
+      "stay and give what remains, including presence"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Here's the gift in it: when you're there, nobody has to fight.",
+        "after": "When you're there, nobody has to fight.",
+        "reason": "The direct consequence states the kindness clearly and preserves the quiet tone of the protection scene."
+      }
+    ]
+  },
+  {
+    "pairing": "outlaw-creator",
+    "decision": "edited",
+    "reason": "Retain distrust of yes, the named uncertainty about forbidden quality and the quiet maker ending; begin the proposal on the thing to make rather than announcing it.",
+    "preserved_voice": [
+      "making before say-so and fear of being owned",
+      "doubt whether the thing is good or only forbidden",
+      "Grant's remembered whisky and Smith licence chronology",
+      "Smith question inside I like to think",
+      "Glenlivet flowers drawn out with elderflower",
+      "make without an enemy and show it to the people in charge"
+    ],
+    "edits": [
+      {
+        "field": "yours[5]",
+        "before": "So, one proposal. ",
+        "after": "",
+        "reason": "Begin on the concrete instruction; the retained ending still answers the fear of being owned."
+      }
+    ]
+  },
+  {
+    "pairing": "outlaw-explorer",
+    "decision": "retained",
+    "reason": "Retain the full reading: chosen helplessness and the long-life plan are an actual tension, and the invitations turn the final proposal into a specific action beyond a stunt.",
+    "preserved_voice": [
+      "lake, rope swing and laughing friends",
+      "fear of life decided by someone else",
+      "Kirke's reports, first recorded jumps and unknown invitation sender",
+      "sloe sweetness and Cynar artichoke as the flinch transformed",
+      "take one chosen piece back and send invitations"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "outlaw-hero",
+    "decision": "retained",
+    "reason": "Retain the full reading: its private helplessness and public rule challenge make the negative clauses meaningful, and the equal measures express the exact historical point.",
+    "preserved_voice": [
+      "working out the rule and back way for someone else",
+      "doing something to stop feeling helpless",
+      "Solarin non-drinker, deliberate arrest and same-year ban ending",
+      "event left unknown before signposted interpretation",
+      "equal ogogoro and gin as one rule for both",
+      "pick the repeat rule and challenge it where people can see"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "outlaw-innocent",
+    "decision": "retained",
+    "reason": "Retain the full reading: the quiet promise, monks' written reason and taste of what is protected give the refusal/love contrast a real subject; the narrator's initial doubt is candid and qualified.",
+    "preserved_voice": [
+      "face giving away the false agreement",
+      "fear of gradual self-change through good reasons",
+      "Chartreuse popularity probably and around 2021 preserved",
+      "2023 letter's stated solitude-and-prayer reason",
+      "one tablespoon of yellow Chartreuse as the nod",
+      "show what the promise protects before refusal is debated"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "outlaw-jester",
+    "decision": "retained",
+    "reason": "Retain the full reading: the joke stopped being a reflex, the censored song and the borrowed line show why the humour and last compact turn belong to this voice.",
+    "preserved_voice": [
+      "table laugh and late head-of-table laugh",
+      "fear of the point removed from a copied joke",
+      "Lord Invader, Belasco and song theft account",
+      "teasing interpretation inside I like to think",
+      "Trinidad rum and doubled lime keeping the popular song sharp",
+      "make another joke and aim it higher"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "outlaw-lover",
+    "decision": "retained",
+    "reason": "Retain the full reading: chosen stopping versus being caught answers an actual guest fear, and the candle, mine tunnel and bay leaf carry the romance with clear signposting.",
+    "preserved_voice": [
+      "whole lives chosen against advice",
+      "fear of being parked and inheriting rules again",
+      "Stevenson and Fanny's reported journey and mine wine storage",
+      "single-candle ending held inside I like to think",
+      "California white chilled with bay as nod to tunnel and canyon",
+      "ask what would be left and choose an adventure in stopping"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "outlaw-magician",
+    "decision": "edited",
+    "reason": "Retain the love-driven break, grief kept private and children's rebuilding; remove two announced insights while keeping their specific claims and the joke about the cross ones.",
+    "preserved_voice": [
+      "breaking only loved things and missing them afterwards",
+      "fear of something kept going until its meaning is forgotten",
+      "Gaja's two reasons and children's return to Barbaresco",
+      "first-reason interpretation signposted",
+      "Langhe syrup coincidence explicitly owned",
+      "say why, hand over the rebuilding and love it again"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Here's the thing, though: you only ever break the things you love.",
+        "after": "You only ever break the things you love.",
+        "reason": "The distinctive observation carries the turn on its own; keep the love, grief and fear in the rest of the paragraph."
+      },
+      {
+        "field": "whoYouAre[3]",
+        "before": "And it's worth saying plainly: because of you, the thing they loved gets a second life, the cross ones included.",
+        "after": "Because of you, the thing they loved gets a second life, the cross ones included.",
+        "reason": "Say the kindness plainly through the second life and its beneficiaries, preserving the small joke about the cross ones."
+      }
+    ]
+  },
+  {
+    "pairing": "outlaw-regular-guy",
+    "decision": "retained",
+    "reason": "Retain the full reading: the unwritten line becomes a public word through one trusted person, and the exact maple measure keeps the aphorism attached to an action.",
+    "preserved_voice": [
+      "informal doors opening without making someone feel small",
+      "private line that makes people feel safe",
+      "fear of rule-makers pushing others around while exempting themselves",
+      "Olmstead's guilt, weapons rule and five-to-four decision",
+      "one flat teaspoon maple with sweetness limit",
+      "tell one trusted person the line and accept accountability"
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "outlaw-ruler",
+    "decision": "edited",
+    "reason": "Retain the rebel's quiet steering, the specific feared handover and the playful let-me-steer proposal; only the gift announcement is dispensable.",
+    "preserved_voice": [
+      "giving a new idea its first name and shape",
+      "fear of it run by people who never understood it",
+      "Maytag's sour beer, ten years and quoted spending",
+      "dated autumn-2026 brewery status and perhaps-too-early attribution",
+      "quince worked into the rye Sidecar as a nod to the beer put right",
+      "keep steering one part and leave room for the next unnamed thing"
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre[3]",
+        "before": "And here's the good of it: most new things die young, talked out of it or copied badly.",
+        "after": "Most new things die young, talked out of it or copied badly.",
+        "reason": "Remove the gift announcement while keeping the risks and the next sentence's clear account of what the guest gives new things."
+      }
+    ]
+  },
+  {
+    "pairing": "outlaw-sage",
+    "decision": "retained",
+    "reason": "Retain the full reading: the bartender taking a side at the opening of the proposal mirrors the guest's challenge, so it is an earned position rather than a generic run-up.",
+    "preserved_voice": [
+      "taking the other side while privately agreeing",
+      "fear of questions dismissed and decisions left untested",
+      "Morgenthaler's exact quotations and attributed boast",
+      "teasing interpretation signposted",
+      "no syrup and sherry vinegar defending the neglected side",
+      "argue for an actual love and let others challenge it"
+    ],
+    "edits": []
+  }
+]

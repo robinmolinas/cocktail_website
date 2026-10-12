@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 
 - **name:** Loose on Top
 - **tagline:** Your independence has a way of becoming a place other people belong.
+- **words:** Vibrant · Citrusy · Tart
 - **glassware:** cocktail glass (about 200 ml), chilled, no salt
 - **contains:** `[]`
 

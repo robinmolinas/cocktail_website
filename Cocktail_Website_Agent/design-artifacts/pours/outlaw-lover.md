@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 
 - **name:** Rent-Free
 - **tagline:** You make choosing someone feel like choosing freedom.
+- **words:** Breezy · Dry · Herbal
 - **glassware:** a tall stemmed wine glass, filled with ice
 - **contains:** `[]`
 

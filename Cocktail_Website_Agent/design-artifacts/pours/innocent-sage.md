@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch innocent)
 
 - **name:** Just So You Know
 - **tagline:** You tell people what you'd want to be told.
+- **words:** Bright · Zesty · Rounded
 - **glassware:** a small stemmed sour glass (about 180 ml), chilled in the freezer, no ice
 - **contains:** `[]`
 

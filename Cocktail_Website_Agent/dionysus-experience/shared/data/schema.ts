@@ -21,6 +21,9 @@ export const MIN_ANCHORS = 3;
 const text = z.string().min(1);
 const pairing = z.enum(ALL_PAIRINGS as unknown as readonly [PairingKey, ...PairingKey[]]);
 const veto = z.enum(VETOES.map((option) => option.id) as unknown as readonly [Veto, ...Veto[]]);
+// A menu word (Tomás's three, 2026-10-12): one familiar, capitalised word
+// about the drink itself, never about the guest.
+const menuWord = z.string().regex(/^\p{Lu}\p{Ll}+(?:-\p{Ll}+)?$/u, 'a menu word is one capitalised word');
 const flavourId = z.enum(FLAVOURS.map((option) => option.id) as unknown as readonly [FlavourId, ...FlavourId[]]);
 
 // Unique, in vocabulary order (the import canonicalises the declared list).
@@ -49,6 +52,8 @@ export const PreparationSchema = z.strictObject({
 export const CocktailSchema = z.strictObject({
   name: text,
   tagline: text,
+  // what the glass is like, in three words: "Dreamy · Creamy · Floral"
+  words: z.array(menuWord).length(3),
   glassware: text,
   serves: text.optional(),
   recipeIntro: text.optional(),

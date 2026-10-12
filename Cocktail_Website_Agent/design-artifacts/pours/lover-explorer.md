@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch lover)
 
 - **name:** Curtain Call
 - **tagline:** Your appetite for life makes other people say yes to it.
+- **words:** Silky · Savoury · Tangy
 - **glassware:** a stemmed wine glass (about 250-300 ml), chilled, no ice
 - **contains:** `[]`
 

@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 
 - **name:** Worth Finding
 - **tagline:** Getting to know you feels like finding something nobody else has found.
+- **words:** Alluring · Herbal · Silky
 - **glassware:** small stemmed cocktail glass (about 150 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -61,7 +62,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 **whoYouAre**
 You're easy to talk to and hard to finish. After an evening with you, people have said more than they meant to, and know a little less about you than they'd like. So they come back. Each time you give them a bit more: a story you don't tell at work, a look that says you noticed, a door left slightly open.
 
-Here's the part they miss. You don't keep something back to be chased. You keep it back so there's still a reason to stay. At some point you decided that once someone has seen all of you, the finding is over, and they'll go. So there's always one thing you haven't said yet. And it works: people feel they've found something in you that no one else has. They're right. That's what you hand them: a sense of discovery most people never get from anyone. It's worth a great deal. But behind that last thing, you're on your own.
+You don't keep something back to be chased. You keep it back so there's still a reason to stay. At some point you decided that once someone has seen all of you, the finding is over, and they'll go. So there's always one thing you haven't said yet. And it works: people feel they've found something in you that no one else has. They're right. That's what you hand them: a sense of discovery most people never get from anyone. It's worth a great deal. But behind that last thing, you're on your own.
 
 **yours**
 

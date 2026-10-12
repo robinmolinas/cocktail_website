@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 
 - **name:** Fine by Me
 - **tagline:** You hear “only if” as a yes with instructions.
+- **words:** Rustic · Smoky · Sparkling
 - **glassware:** a tall highball glass, packed with ice
 - **contains:** `["spice"]`
 

@@ -10,7 +10,8 @@ export type FixtureOptions = {
   anchors?: string;
   yours?: string;
   afterYours?: string;
-  omit?: ('name' | 'tagline' | 'closingLine' | 'epigraph')[];
+  omit?: ('name' | 'tagline' | 'words' | 'closingLine' | 'epigraph')[];
+  words?: string;
 };
 
 const ANCHORS = `| kind | fact | meaning | speaksTo |
@@ -41,6 +42,7 @@ export function fixtureDossier(o: FixtureOptions = {}): string {
     '',
     omit.has('name') ? '' : '- **name:** Down the Line',
     omit.has('tagline') ? '' : '- **tagline:** The dream is yours.',
+    omit.has('words') ? '' : `- **words:** ${o.words ?? 'Dreamy · Creamy · Floral'}`,
     '- **glassware:** tall glass, no ice',
     `- **contains:** ${o.contains ?? '`["egg-white", "dairy"]`'}`,
     o.serves ? `- **serves:** ${o.serves}` : '',

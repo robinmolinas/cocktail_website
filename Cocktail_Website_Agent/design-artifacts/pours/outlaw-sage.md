@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 
 - **name:** Hear Me Out
 - **tagline:** You'll argue the other side. Sometimes it's even yours.
+- **words:** Velvety · Nutty · Tangy
 - **glassware:** an old-fashioned glass, fresh ice
 - **contains:** `["egg-white", "nuts"]`
 

@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-04 (batch innocent)
 
 - **name:** Whole World
 - **tagline:** You look after a little world as if it were the whole one.
+- **words:** Silky · Dry · Clean
 - **glassware:** a small wine glass (about 120 ml), chilled in the freezer, no ice
 - **contains:** `[]`
 
@@ -59,7 +60,7 @@ authored_in: the room, 2026-10-04 (batch innocent)
 **whoYouAre**
 Someone asks what you've been up to, and you say "nothing much, just the usual". You mean the herbs on the windowsill, the friend you've rung every week since school, the old bike you keep running. To anyone else it looks small. It has never once struck you that small makes it matter less. Other people ask how big it is. You ask whether it's all right today.
 
-You keep the small jobs small by doing them early: the drip seen to the day it starts, the hurt feelings sorted out before dinner. Nobody notices those. They aren't meant to be noticed. And you never mention the fear. Miss one day, and it feels as if all of it could slip. So you shrug and call it your little thing, because the seriousness gets smiled at. But look at what that care does for everyone near you. Whatever you're looking after is safe, and anyone close to you learns that a small thing taken seriously is worth more than a big thing taken lightly. With you, nothing small is ever only small.
+You keep the small jobs small by doing them early: the drip seen to the day it starts, the hurt feelings sorted out before dinner. Nobody notices those. They aren't meant to be noticed. And you never mention the fear. Miss one day, and it feels as if all of it could slip. So you shrug and call it your little thing, because the seriousness gets smiled at. Whatever you're looking after is safe, and anyone close to you learns that a small thing taken seriously is worth more than a big thing taken lightly. With you, nothing small is ever only small.
 
 **yours**
 

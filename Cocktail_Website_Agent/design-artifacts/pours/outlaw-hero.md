@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 
 - **name:** Can't Watch
 - **tagline:** You can't walk past an unfair fight, even when it isn't yours.
+- **words:** Lush · Earthy · Herbal
 - **glassware:** a Nick & Nora, chilled
 - **contains:** `[]`
 

@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 
 - **name:** Wide Open
 - **tagline:** You make it safe to love without pretending to care less.
+- **words:** Plush · Silky · Floral
 - **glassware:** coupe (about 180 ml), chilled
 - **contains:** `["egg-white"]`
 

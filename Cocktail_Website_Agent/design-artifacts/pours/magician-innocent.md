@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 
 - **name:** More Than One Head
 - **tagline:** You make good things happen before you're quite ready for them.
+- **words:** Buoyant · Fruity · Fizzy
 - **glassware:** tall tumbler (about 400 ml), filled with ice cubes
 - **contains:** `[]`
 
@@ -55,7 +56,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 **whoYouAre**
 You start things. A dinner that turns into a monthly fixture. A small idea that ends up as a group of forty. A side project that people you've never met now ask you about. Usually you start before you're quite ready, because the excitement won't wait, and finding out as you go is half the fun.
 
-What hardly anyone guesses is this. Failure isn't what keeps you up. Success is: the kind that keeps going faster than you can follow, in directions you didn't pick, with your name on it. So you keep one small wish to yourself: that it would slow down for a week. You keep it quiet, because who complains when something's working? That wish doesn't betray the joy. It's the price of it. And here's what the joy gives everyone else: a lot of the good things around you are only there because you couldn't wait to begin them.
+Failure isn't what keeps you up. Success is: the kind that keeps going faster than you can follow, in directions you didn't pick, with your name on it. So you keep one small wish to yourself: that it would slow down for a week. You keep it quiet, because who complains when something's working? That wish doesn't betray the joy. It's the price of it. A lot of the good things around you are only there because you couldn't wait to begin them.
 
 **yours**
 

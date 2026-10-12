@@ -17,8 +17,11 @@ import { DevNav, type DevJumpTarget, type DevPage } from './TheDepths';
 import { SEEDS } from '../../shared/answers';
 import type { Reading } from '../../shared/reading';
 import CtaButton from './CtaButton';
-import { pourLinkFor } from '../engine/pourLink';
+import { keepLinkFor, pourLinkFor } from '../engine/pourLink';
+import { keptFromLocation, pourFromLocation } from '../engine/pourHash';
+import { isRememberedPour, rememberPour } from '../engine/kept';
 import { inlineTokens } from '../engine/inline';
+import { qrPath } from '../engine/qr';
 
 // The house amber, for a journey that never chose a seed colour.
 const DEFAULT_SEED_HEX = '#e8702a';
@@ -97,6 +100,19 @@ export default function TheReading({
     ? new URLSearchParams(window.location.search).get('name') ?? 'Celeste'
     : '';
   const inkName = name || devName;
+  // A #pour= link can bring the owner back rather than a friend: their keep
+  // link, or their own share link opened on the device that poured it (user
+  // test, 2026-10-12: people shared the cocktail to themselves and lost the
+  // reading). Either way the room hands back the whole reading. Only a link
+  // can bring them back: the dev H11 preview has none and stays the friend's.
+  const [owned] = useState(() =>
+    gift && pourFromLocation() !== null
+    && (keptFromLocation() || isRememberedPour({ pairing: reading.pairing, name: inkName, seed: reading.seed })),
+  );
+  const guest = gift && !owned;
+  useEffect(() => {
+    if (!guest) rememberPour({ pairing: reading.pairing, name: inkName, seed: reading.seed });
+  }, [guest, reading.pairing, reading.seed, inkName]);
   // true once the name should be visible: immediately for settled, after the
   // arrival delay for intro (clip-path inside will-change+mask breaks pure CSS)
   const [named, setNamed] = useState(!intro);
@@ -141,13 +157,21 @@ export default function TheReading({
     reading.yours.join(' ').length;
   const letterFit = Math.min(1, Math.max(0.5, Math.sqrt(PAGE_CHARS / Math.max(letterChars, 1))));
 
+  // The reading opens at its top, once. Not in the effect below: that one re-runs
+  // whenever the scene swaps between its wide and portrait crops, and printing
+  // swaps it (an A4 sheet matches the portrait query), so "The recipe as a PDF"
+  // used to drop her back at the top on closing the print dialog. Turning a
+  // tablet or resizing past 900px did the same.
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // Scroll progress 0→1 across the first ~3/4 viewport: drives the plate's glide
   // to the right, the pool of night on the left, and the hero's fade. Transform
   // and opacity only, written to one custom property on the root.
   useEffect(() => {
     const el = rootRef.current;
     if (!el) return;
-    window.scrollTo(0, 0);
     let raf = 0;
     const apply = () => {
       raf = 0;
@@ -278,25 +302,10 @@ export default function TheReading({
     return () => clearTimeout(t);
   }, [intro, gift]);
 
-  const [shareNote, setShareNote] = useState<string | null>(null);
-
-  const shareKeepsake = async () => {
-    const text = `Dionysus read me and poured “${cocktail.name}”. Meet the spirit within:`;
-    // the link carries who and which pour, never the reading (AD-10)
-    const url = await pourLinkFor({ pairing: reading.pairing, name: inkName, seed: reading.seed });
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: 'Dionysus', text, url });
-      } catch {
-        /* she closed the sheet */
-      }
-      return;
-    }
-    const payload = `${text} ${url}`;
-    let copied: boolean;
+  const copyText = async (payload: string): Promise<boolean> => {
     try {
       await navigator.clipboard.writeText(payload);
-      copied = true;
+      return true;
     } catch {
       const ta = document.createElement('textarea');
       ta.value = payload;
@@ -304,17 +313,134 @@ export default function TheReading({
       ta.style.opacity = '0';
       document.body.appendChild(ta);
       ta.select();
+      let copied: boolean;
       try {
         copied = document.execCommand('copy');
       } catch {
         copied = false;
       }
       ta.remove();
+      return copied;
     }
-    // never a raw error (master spec §2) — the failure stays in the world
-    setShareNote(copied ? 'Link copied' : 'The ink would not take — try once more');
-    setTimeout(() => setShareNote(null), 2200);
   };
+
+  // The page's two pills each unfold their ways in place (user test,
+  // 2026-10-12), one row open at a time.
+  // · Share: the link, or the card. Both carry the gift link, which opens on
+  //   the recipe and keeps the reading private (AD-10).
+  // · Keep: a link for themselves (the keep link, which opens the whole
+  //   reading again), a card for their photos whose QR code is that same
+  //   link, or the PDF, the printed keepsake it always was.
+  type Way = 'share' | 'keep';
+  const [open, setOpen] = useState<Way | null>(null);
+  const [note, setNote] = useState<{ way: Way; text: string } | null>(null);
+  const links = useRef<Partial<Record<Way, Promise<string>>>>({});
+  const cards = useRef<Partial<Record<Way, Promise<Blob>>>>({});
+  const noteFor = (way: Way, text: string) => {
+    const next = { way, text };
+    setNote(next);
+    window.setTimeout(() => setNote((n) => (n === next ? null : n)), 2800);
+  };
+  const linkFor = (way: Way) => {
+    const payload = { pairing: reading.pairing, name: inkName, seed: reading.seed };
+    return (links.current[way] ??= way === 'keep' ? keepLinkFor(payload) : pourLinkFor(payload));
+  };
+  const cardFor = (way: Way) =>
+    (cards.current[way] ??= linkFor(way).then((url) =>
+      import('../engine/card').then(({ renderCard }) => renderCard({ ...reading, name: inkName }, seed, url, way)),
+    ));
+  // opening warms the link and the card, so the share sheet still opens inside
+  // the tap that asked for it (Safari drops a share that waits too long)
+  const toggle = (way: Way) => {
+    setOpen((o) => (o === way ? null : way));
+    void linkFor(way);
+    cardFor(way).catch(() => { delete cards.current[way]; });
+  };
+
+  // the three words tell a friend what kind of drink it is before they tap
+  const shareText = `Dionysus read me and poured “${cocktail.name}”: ${cocktail.words.join(', ').toLowerCase()}. Meet the spirit within:`;
+
+  const sendLink = async (way: Way) => {
+    const url = await linkFor(way);
+    const text = way === 'share' ? shareText : `My cocktail, “${cocktail.name}”, its recipe and my reading:`;
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: way === 'share' ? 'Dionysus' : `Dionysus · ${cocktail.name}`, text, url });
+      } catch {
+        /* she closed the sheet */
+      }
+      return;
+    }
+    // a friend gets the invitation with the link; their own copy is just the link
+    const copied = await copyText(way === 'share' ? `${text} ${url}` : url);
+    // never a raw error (master spec §2) — the failure stays in the world
+    noteFor(way, !copied ? 'The ink would not take — try once more'
+      : way === 'share' ? 'Link copied' : 'Link copied. It opens your whole reading.');
+  };
+
+  // when no share sheet will take the picture (an in-app browser, an older
+  // phone, a refused share), the card itself appears under its row: pressing
+  // and holding an image is the one way to send or save it that works everywhere
+  const [shownCard, setShownCard] = useState<{ way: Way; src: string } | null>(null);
+  const showCard = (way: Way, blob: Blob) => {
+    const reader = new FileReader();
+    reader.onload = () => setShownCard({ way, src: String(reader.result) });
+    reader.readAsDataURL(blob);
+  };
+
+  const sendCard = async (way: Way) => {
+    let blob: Blob;
+    let url: string;
+    try {
+      [blob, url] = await Promise.all([cardFor(way), linkFor(way)]);
+    } catch {
+      delete cards.current[way];
+      noteFor(way, 'The card would not print — try once more');
+      return;
+    }
+    const slug = cocktail.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    const file = new File([blob], `dionysus-${slug || 'cocktail'}.jpg`, { type: 'image/jpeg' });
+    const phone = window.matchMedia('(pointer: coarse)').matches;
+    // The card goes as the picture itself, through the share sheet (WhatsApp,
+    // Messages, AirDrop…). A shared card carries the invitation and the link
+    // as its caption, since a friend can't scan a code on their own screen; a
+    // kept one goes alone, so "Save Image" stays on offer. A desktop keeping it
+    // simply downloads it.
+    if ((phone || way === 'share') && navigator.canShare?.({ files: [file] })) {
+      try {
+        await navigator.share(way === 'share'
+          ? { files: [file], text: `${shareText} ${url}` }
+          : { files: [file], title: cocktail.name });
+        return;
+      } catch (err) {
+        if ((err as Error).name === 'AbortError') return;
+      }
+    }
+    if (phone) {
+      showCard(way, blob);
+      return;
+    }
+    const href = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = href;
+    a.download = file.name;
+    a.click();
+    window.setTimeout(() => URL.revokeObjectURL(href), 4000);
+    noteFor(way, way === 'share' ? 'Card saved. Attach it to any message.' : 'Card saved');
+  };
+
+  // the printed keepsake carries the way back: the owner's PDF a QR code to
+  // their keep link (the whole reading), a guest's to the gift it came from
+  const [printQr, setPrintQr] = useState<{ size: number; d: string } | null>(null);
+  useEffect(() => {
+    let live = true;
+    const payload = { pairing: reading.pairing, name: inkName, seed: reading.seed };
+    (guest ? pourLinkFor(payload) : keepLinkFor(payload))
+      .then(qrPath)
+      .then((qr) => { if (live) setPrintQr(qr); })
+      .catch(() => { /* the page prints without it */ });
+    return () => { live = false; };
+  }, [guest, inkName, reading.pairing, reading.seed]);
 
   return (
     <div
@@ -333,9 +459,11 @@ export default function TheReading({
           <strong className="tr-greet-name">{cocktail.name}</strong>
           <span className="tr-greet-rule" aria-hidden="true" />
           <p className="tr-greet-line">
-            {inkName
-              ? <>a cocktail made for {inkName}, poured by Dionysus.</>
-              : <>a cocktail, poured by Dionysus.</>}
+            {owned
+              ? <>{inkName ? `welcome back, ${inkName}.` : 'welcome back.'} The cocktail Dionysus made for you.</>
+              : inkName
+                ? <>a cocktail made for {inkName}, poured by Dionysus.</>
+                : <>a cocktail, poured by Dionysus.</>}
           </p>
         </div>
       )}
@@ -397,11 +525,35 @@ export default function TheReading({
             {inkName ? <span className="tr-kicker-for">{'\u00A0·'} poured for {inkName}</span> : null}
           </p>
           <h1 className="tr-title" id="tr-title">{cocktail.name}</h1>
+          {/* the glass in three words, where a menu puts them: under the drink's
+              name, before the line about her. Every word leads with its point;
+              the one that would open a line is trimmed at the margin (CSS).
+              The commas are for screen readers. */}
+          <p className="tr-words">
+            <span className="tr-words-run">
+              {cocktail.words.map((word, i) => (
+                <span className="tr-word" key={i} style={{ '--w': i } as CSSProperties}>
+                  <span className="tr-word-dot" aria-hidden="true">·</span>
+                  {word}
+                  {i < cocktail.words.length - 1 ? <span className="sr-only">,</span> : null}
+                </span>
+              ))}
+            </span>
+          </p>
           <p className="tr-for">{cocktail.tagline}</p>
+          {/* print only: the paper's way back to the screen */}
+          {printQr ? (
+            <figure className="tr-print-qr" aria-hidden="true">
+              <svg viewBox={`-3 -3 ${printQr.size + 6} ${printQr.size + 6}`} shapeRendering="crispEdges">
+                <path d={printQr.d} />
+              </svg>
+              <figcaption>{guest ? 'Scan to find this cocktail again' : 'Scan to return to your reading'}</figcaption>
+            </figure>
+          ) : null}
           {/* Share and save live only at the bottom (Robin, 2026-10-06): the
               arrival belongs to the cocktail, the actions to the end. */}
           <a className="tr-cue" href="#tr-reading">
-            {gift ? 'The recipe' : 'Your recipe and reading'}
+            {guest ? 'The recipe' : 'Your recipe and reading'}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M12 5v14M19 12l-7 7-7-7" />
             </svg>
@@ -468,7 +620,7 @@ export default function TheReading({
         </div>
 
         <div className="tr-section tr-why" ref={letterRef}>
-          {gift ? (
+          {guest ? (
             <>
               <p className="tr-label">The Reading</p>
               {/* the guest is told what they are not being shown; the absence is
@@ -498,20 +650,55 @@ export default function TheReading({
           {/* the guest keeps the recipe (master spec §2) but the page has one
               real destination, so the door out is the only loud thing here */}
           <div className="tr-actions">
-            {gift ? (
+            {guest ? (
               <CtaButton onClick={onMeetYourOwn}>
                 Discover the spirit within you
               </CtaButton>
             ) : (
               <>
                 {/* The page's two jobs, as equals (Robin, 2026-09-29): share is
-                    what brings the next guest, save is her keepsake. Share was
+                    what brings the next guest, keep is theirs. Share was
                     a 0.78rem underline beside the pill; it now leads, with her
                     colour on its rim. Starting again stays the quiet one. */}
-                <CtaButton icon="share" onClick={shareKeepsake}>{shareNote ?? 'Share your cocktail'}</CtaButton>
-                <CtaButton icon="save" onClick={() => window.print()}>Save the recipe</CtaButton>
-                {onPourAgain && (
-                  <button type="button" className="tr-quiet" onClick={onPourAgain}>
+                <CtaButton icon="share" onClick={() => toggle('share')} ariaExpanded={open === 'share'} ariaControls="tr-ways-share">
+                  {/* a narrow row keeps both pills on one line as "Share" /
+                      "Keep"; the rest stays for screen readers */}
+                  Share<span className="tr-long"> your cocktail</span>
+                </CtaButton>
+                {/* each pill's ways unfold in place under the pills: quiet
+                    underlines, never a menu or a modal */}
+                <div id="tr-ways-share" className={`tr-keep${open === 'share' ? ' tr-keep-open' : ''}`} inert={open !== 'share'}>
+                  <div className="tr-keep-inner">
+                    <button type="button" className="tr-quiet" onClick={() => sendLink('share')}>Send the link</button>
+                    <button type="button" className="tr-quiet" onClick={() => sendCard('share')}>Send the card</button>
+                    <span className="tr-keep-note" role="status">{note?.way === 'share' ? note.text : null}</span>
+                    {shownCard?.way === 'share' ? (
+                      <figure className="tr-card-shown">
+                        <img src={shownCard.src} alt={`The card for ${cocktail.name}`} />
+                        <figcaption>Press and hold the card to send or save it.</figcaption>
+                      </figure>
+                    ) : null}
+                  </div>
+                </div>
+                <CtaButton icon="save" onClick={() => toggle('keep')} ariaExpanded={open === 'keep'} ariaControls="tr-ways-keep">
+                  Keep<span className="tr-long"> your cocktail</span>
+                </CtaButton>
+                <div id="tr-ways-keep" className={`tr-keep${open === 'keep' ? ' tr-keep-open' : ''}`} inert={open !== 'keep'}>
+                  <div className="tr-keep-inner">
+                    <button type="button" className="tr-quiet" onClick={() => sendLink('keep')}>A link for myself</button>
+                    <button type="button" className="tr-quiet" onClick={() => sendCard('keep')}>A card for my photos</button>
+                    <button type="button" className="tr-quiet" onClick={() => window.print()}>The recipe as a PDF</button>
+                    <span className="tr-keep-note" role="status">{note?.way === 'keep' ? note.text : null}</span>
+                    {shownCard?.way === 'keep' ? (
+                      <figure className="tr-card-shown">
+                        <img src={shownCard.src} alt={`The card for ${cocktail.name}`} />
+                        <figcaption>Press and hold the card to send or save it.</figcaption>
+                      </figure>
+                    ) : null}
+                  </div>
+                </div>
+                {(onPourAgain ?? (owned ? onMeetYourOwn : undefined)) && (
+                  <button type="button" className="tr-quiet" onClick={onPourAgain ?? onMeetYourOwn}>
                     Start again
                   </button>
                 )}

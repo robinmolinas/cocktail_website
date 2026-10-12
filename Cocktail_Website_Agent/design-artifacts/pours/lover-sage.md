@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 
 - **name:** In Kind
 - **tagline:** You take what people love seriously enough to ask the next question.
+- **words:** Refreshing · Minty · Icy
 - **glassware:** julep cup (pewter or stainless steel; any metal tumbler of about 300 ml at home)
 - **contains:** `[]`
 
@@ -60,7 +61,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 **whoYouAre**
 At dinner, a friend mentions the book that got them through a bad winter. The talk moves on. You don't. You ask what it was about that book, then about the one page they still think of, and half an hour later the two of you are somewhere the rest of the table never went. You take what people love seriously, and they remember who did.
 
-You do the easy talk well enough: the trains, the weather. But you feel the evening sliding past on the surface, and later you write three pages to someone who wasn't there. At some point you started keeping the long version for the one person you're sure will follow it. Here's the thing you'd never tell the table: you've decided most rooms aren't the place for it. Sometimes you're right. But it means you can sit at a full table and still feel unmet. Not an empty room: a full one.
+You do the easy talk well enough: the trains, the weather. But you feel the evening sliding past on the surface, and later you write three pages to someone who wasn't there. At some point you started keeping the long version for the one person you're sure will follow it. You'd never tell the table that you've decided most rooms aren't the place for it. Sometimes you're right. But it means you can sit at a full table and still feel unmet. Not an empty room: a full one.
 
 **yours**
 

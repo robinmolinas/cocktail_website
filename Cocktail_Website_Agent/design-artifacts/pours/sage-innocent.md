@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 
 - **name:** Nothing Escaped You
 - **tagline:** You know more than people expect, and make them glad they asked.
+- **words:** Vibrant · Fruity · Tart
 - **glassware:** coupe (about 220 ml), chilled, no ice
 - **contains:** `[]`
 

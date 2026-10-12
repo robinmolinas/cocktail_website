@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 
 - **name:** Plain to See
 - **tagline:** You take a yes more seriously than a no.
+- **words:** Bracing · Tangy · Spiced
 - **glassware:** small tumbler (about 200 ml), chilled in the freezer, no ice
 - **contains:** `[]`
 
@@ -72,7 +73,7 @@ So you never hand anyone an answer to obey. You give them a way of seeing it, pl
 
 4. So the cocktail I've made for you is a renowned whiskey classic, an Old-Fashioned, with its whisky drawn from two countries. Canadians often call their whisky "rye", a name from the days when it was wheat whisky flavoured with rye; today most of it is made mainly from corn, usually with a little rye for flavour. American rye whiskey must be at least half rye. Same name, the grains usually swapped, side by side in one glass. To honour his guide to how whiskies relate, I used a guide of my own, a chart of which flavours go together, and looked for a flavour that goes with both grains. I found tamarind, dark and sour, and it gives the drink the sourness it needs to balance. Stirred with ice in a jar, it's strained into a frozen glass with none, and finished with oil pressed from orange peel.
 
-5. Let me be honest with you about one habit. You keep the next idea back until you're sure, and you'll never feel quite sure enough. But look at what you've already done to it: you've made it simple enough to see through. People who take up an idea like that aren't following blindly. So share it before it's big. A flaw found among a few friends costs a laugh. And if there's no flaw, you get what you were after all along: people doing something better, their own way, because of what you showed them.
+5. You keep the next idea back until you're sure, and you'll never feel quite sure enough. But look at what you've already done to it: you've made it simple enough to see through. People who take up an idea like that aren't following blindly. So share it before it's big. A flaw found among a few friends costs a laugh. And if there's no flaw, you get what you were after all along: people doing something better, their own way, because of what you showed them.
 
 ---
 

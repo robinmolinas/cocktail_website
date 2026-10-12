@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch jester)
 
 - **name:** Unrehearsed
 - **tagline:** Your favourite laugh is the one nobody saw coming.
+- **words:** Luscious · Spiced · Rounded
 - **glassware:** rocks glass (about 300 ml), holding a shell of ordinary cloudy ice frozen in a plastic cup
 - **contains:** `[]`
 
@@ -59,7 +60,7 @@ authored_in: the room, 2026-10-01 (batch jester)
 **whoYouAre**
 It's a birthday, and you've been asked to say something short. You do: one sentence, read slowly from a very long sheet of paper. There's a second where nobody knows whether they're allowed to laugh. You let it run a little longer than is comfortable. Then it goes, and it's a laugh nobody planned, not even you. The evening where everyone laughs on cue, at the punchline they could see coming from the door, bores you to tears.
 
-Here's the part that doesn't show: you're watching every face. You'd never explain one of your jokes, because explaining feels like taking it apart while everyone watches. So when one doesn't land, you keep a straight face and take it home with you. What you'd least like to hear is that it came across as cold, that someone thought it was on them, or felt left outside it. It almost never is. And it's a rare thing you give people: a real reaction instead of a polite one. For a second nobody has to know how to feel, and the night everyone's still describing weeks later is usually one you were at.
+You're watching every face. You'd never explain one of your jokes, because explaining feels like taking it apart while everyone watches. So when one doesn't land, you keep a straight face and take it home with you. What you'd least like to hear is that it came across as cold, that someone thought it was on them, or felt left outside it. It almost never is. And it's a rare thing you give people: a real reaction instead of a polite one. For a second nobody has to know how to feel, and the night everyone's still describing weeks later is usually one you were at.
 
 **yours**
 

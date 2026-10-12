@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01, reworked 2026-10-06 (batch regular-guy)
 
 - **name:** Word Gets Round
 - **tagline:** Nobody near you pays extra for not knowing.
+- **words:** Juicy · Fruity · Tart
 - **glassware:** coupe (about 180 ml), chilled in the freezer
 - **contains:** `[]`
 

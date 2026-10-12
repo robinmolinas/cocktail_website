@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch hero)
 
 - **name:** The Long Answer
 - **tagline:** What you make gives people the words they were missing.
+- **words:** Sunny · Fruity · Zesty
 - **glassware:** a large, heavy, round-bowled beer glass (about 400 ml), with one large piece of ice
 - **contains:** `[]`
 

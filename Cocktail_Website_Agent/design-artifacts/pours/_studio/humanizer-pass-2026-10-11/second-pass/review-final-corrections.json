@@ -1,0 +1,54 @@
+{
+  "verdict": "confirmed",
+  "scope": "Read-only confirmation of the two final studio clarifications and the restored hero-jester ending. No sources or audits changed. Review-group-d hashes and existing corrected-source evidence metadata refreshed.",
+  "audit_hashes": {
+    "group_d": "ccc5ee1a7f64f287cf8fc49fe7ffb1da2ed242ef8bcbc6e3972b7d8a390ef458",
+    "root_edits": "ccc5ee1a7f64f287cf8fc49fe7ffb1da2ed242ef8bcbc6e3972b7d8a390ef458",
+    "group_b": "538d5df920d739d90312fb10b041b9651dd046f7d949ca78a0c94dc3d0806725"
+  },
+  "checks": [
+    {
+      "pairing": "sage-hero",
+      "field": "yours 3",
+      "status": "confirmed",
+      "prior_paragraph": "3. We don't know how it felt to him while he was buying. I like to think it felt like a price paid early, with nothing to show yet and everyone shaking their heads. You'd recognise making the move before it could be judged, the stretch of looking wrong, and a first try before the one that made the difference. I like the modest size of the ending. We don't know if he got everything he went downtown for; we have a history saying Seven Grand made the difference and one man calling it, \"to me\", the turning point. I suspect you'd trust that more than a triumphant ending.",
+      "final_paragraph": "3. We don't know how it felt to him while he was buying. I like to think it felt like a price paid early, with nothing to show yet and everyone shaking their heads. You'd recognise making the move before it could be judged, the stretch of looking wrong, and a first try before the one that made the difference. I like the modest size of the ending. We don't know if he got everything he went downtown for; the record is a history saying Seven Grand made the difference and one man calling it, \"to me\", the turning point. I suspect you'd trust that more than a triumphant ending.",
+      "source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/sage-hero.md",
+      "source_sha256": "ab447c2a00d7b263254ac9ad1eb5665dd922f7368efe2bc58e657781b1427821",
+      "meaning": "The full result remains explicitly unknown. The smaller record remains attributed to a history and one man qualified by \"to me\"; the clarification adds no success claim.",
+      "audit_match": true
+    },
+    {
+      "pairing": "sage-ruler",
+      "field": "yours 3",
+      "status": "confirmed",
+      "prior_paragraph": "3. I like to think people kept the book for the details they could check and the pleasure he took in collecting them. I see both in your notes. A gap hasn't stopped people counting from his book, and the gap somewhere in yours won't erase the rest either. Everyone leaves one.",
+      "final_paragraph": "3. I like to think people kept the book for the details they could check and the pleasure he took in collecting them. I see both in your notes. A gap hasn't stopped people counting from his book, and the gap somewhere in your notes won't erase the rest either. Everyone leaves one.",
+      "source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/sage-ruler.md",
+      "source_sha256": "6c2c49b9c61aaa0885e00f04510e4fe35c28ebe7e5cd5b75d4f1745ee69ac95c",
+      "meaning": "Names the notes as the location of the gap, preserving the reassurance that an omission does not erase the remaining record.",
+      "audit_match": true
+    },
+    {
+      "pairing": "hero-jester",
+      "field": "yours[5]",
+      "status": "confirmed",
+      "requested_exact_paragraph": "5. Keep telling them: the shark stays, because people need it and you're good at it. Once, though, tell one exactly as big as it was. I'd bet the table goes just as quiet. And what they'll remember afterwards won't be the shark. It'll be you.",
+      "final_paragraph": "5. Keep telling them: the shark stays, because people need it and you're good at it. Once, though, tell one exactly as big as it was. I'd bet the table goes just as quiet. And what they'll remember afterwards won't be the shark. It'll be you.",
+      "original_three_sentence_end": "I'd bet the table goes just as quiet. And what they'll remember afterwards won't be the shark. It'll be you.",
+      "source": "/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/design-artifacts/pours/hero-jester.md",
+      "source_sha256": "00a041e95ff338ce3a165020ee52130620c0438f07736676ac0acca790fdabd3",
+      "meaning": "The exact requested paragraph and all three original final sentences are restored. The shark remains, the guest still tells one story at its actual size, and the final focus returns to the guest.",
+      "audit_match": true,
+      "original_ending_match": true
+    }
+  ],
+  "verification": {
+    "group_d_equals_root_edits": true,
+    "all_33_group_d_final_sources_match_audit_replay": true,
+    "three_revised_paragraphs_match_final_sources_and_audits": true,
+    "protected_regions_and_labels_unchanged": true,
+    "quotes_digits_and_signature_preserved": true,
+    "no_source_or_audit_writes": true
+  }
+}

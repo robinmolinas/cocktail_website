@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** Go On
 - **tagline:** Most of the fights you've stopped never happened.
+- **words:** Warming · Citrusy · Rounded
 - **glassware:** cocktail glass (about 180 ml), chilled
 - **contains:** `[]`
 
@@ -60,7 +61,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 **whoYouAre**
 You hear it before anyone else does. A joke at dinner that lands a little too hard. A voice going up half a note in a meeting. A group chat going quiet in the wrong way. By the time the others notice, you've already pulled up a chair, asked the one who's upset what they meant, and let them say all of it.
 
-People take you for easygoing. You aren't. You're listening the whole time, because when people are in your care, you'd rather hear the hard thing tonight than watch it break something later. You could settle most of it with one word, and you rarely use it. You'd rather they finish. It matters more than you think: people say the real thing around you, because they're sure you'll hear all of it. You never mention how hard you work at it, or the fear underneath: that the one time you miss it, it all comes apart, and someone you were looking after pays for it.
+People take you for easygoing. You aren't. You're listening the whole time, because when people are in your care, you'd rather hear the hard thing tonight than watch it break something later. You could settle most of it with one word, and you rarely use it. You'd rather they finish. People say the real thing around you, because they're sure you'll hear all of it. You never mention how hard you work at it, or the fear underneath: that the one time you miss it, it all comes apart, and someone you were looking after pays for it.
 
 **yours**
 

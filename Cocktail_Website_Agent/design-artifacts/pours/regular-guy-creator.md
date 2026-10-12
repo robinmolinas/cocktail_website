@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 
 - **name:** Right Here
 - **tagline:** You make something remarkable, then go back to being one of the gang.
+- **words:** Rich · Herbal · Rounded
 - **glassware:** plain kitchen tumbler (about 250 ml), three or four ordinary ice cubes from the freezer tray
 - **contains:** `["nuts"]`
 
@@ -53,7 +54,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 **whoYouAre**
 There's something you're good at that doesn't match the picture people have of you. A cake nobody believed you'd made. A song you only sing in the car. A drawing on the back of a work envelope. When someone finds out and says "you never said", you laugh and change the subject. Part of you has always believed you had to pick: be good at it, or stay one of them.
 
-The truth is, you want both. And you've got one thing wrong: when it shows, nobody you love thinks you've got above yourself. They're proud it's one of theirs who did it. That's your gift to them, more than the cake or the song: it shows them what someone like them can do.
+You want both. When it shows, nobody you love thinks you've got above yourself. They're proud it's one of theirs who did it. That's your gift to them, more than the cake or the song: it shows them what someone like them can do.
 
 **yours**
 

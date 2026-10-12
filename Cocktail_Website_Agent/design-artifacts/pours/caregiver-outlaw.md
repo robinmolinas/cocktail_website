@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-29 (batch caregiver)
 
 - **name:** Not Too Polite
 - **tagline:** You speak up for the people who aren't in the room.
+- **words:** Bright · Zesty · Toasty
 - **glassware:** a tall (Collins) glass, chilled, filled with ice
 - **contains:** `["nuts"]`
 

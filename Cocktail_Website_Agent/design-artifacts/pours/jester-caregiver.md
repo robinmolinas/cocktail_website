@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch jester)
 
 - **name:** Anyway
 - **tagline:** You decide it's going to be a good night. Then you make it one.
+- **words:** Vibrant · Citrusy · Aromatic
 - **glassware:** stemmed wine glass (about 250 ml), chilled
 - **contains:** `[]`
 
@@ -56,7 +57,7 @@ authored_in: the room, 2026-09-30 (batch jester)
 **whoYouAre**
 It's a grey week, or a long wait, or a birthday nobody's quite in the mood for, and you've decided it's going to be good anyway. So you think of something: a silly game with proper rules, a theme, a time to turn up. Half the fun is that you took it seriously. People who would never start anything themselves find they've joined in, and even the one who swore they wouldn't ends up laughing.
 
-There's a list, though, and only you have it: the ones that didn't take. The quiz nobody got into. The evening that stayed flat however hard you pushed it. Everyone else forgot them by the next morning. You didn't, because under all the fun is the thing you dread most: a gloom nobody could lift, and you the one who couldn't lift it. Here's what those nights gave people, even the flat ones. They could tell that someone wanted the evening to be good for them. That's what your fun was for all along, and it matters more than whether the game worked.
+There's a list, though, and only you have it: the ones that didn't take. The quiz nobody got into. The evening that stayed flat however hard you pushed it. Everyone else forgot them by the next morning. You didn't, because under all the fun is the thing you dread most: a gloom nobody could lift, and you the one who couldn't lift it. Even on the flat nights, people could tell that someone wanted the evening to be good for them. That's what your fun was for all along, and it matters more than whether the game worked.
 
 **yours**
 

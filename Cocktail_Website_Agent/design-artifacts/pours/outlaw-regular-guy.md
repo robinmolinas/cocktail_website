@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 
 - **name:** Where You Stand
 - **tagline:** You know how things really get done. You also know what you'll never do.
+- **words:** Silky · Rounded · Spiced
 - **glassware:** a coupe, chilled
 - **contains:** `[]`
 

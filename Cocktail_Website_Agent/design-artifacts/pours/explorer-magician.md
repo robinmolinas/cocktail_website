@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 
 - **name:** Just Knew
 - **tagline:** You're always looking for a little magic to carry into everyday life.
+- **words:** Silky · Bittersweet · Herbal
 - **glassware:** a rocks glass, filled with ice
 - **contains:** `[]`
 

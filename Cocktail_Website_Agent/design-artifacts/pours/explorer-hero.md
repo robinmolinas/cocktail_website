@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 
 - **name:** Nothing to It
 - **tagline:** You went first, so they knew they could.
+- **words:** Rich · Caramelised · Spiced
 - **glassware:** a small tumbler (about 200 ml), chilled in the freezer, no ice
 - **contains:** `[]`
 

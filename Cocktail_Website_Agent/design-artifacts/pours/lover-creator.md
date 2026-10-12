@@ -14,6 +14,7 @@ authored_in: the room, 2026-09-30 (batch lover)
 
 - **name:** In Your Own Hand
 - **tagline:** You see something worth finishing in the things people barely dare to show.
+- **words:** Vibrant · Juicy · Minty
 - **glassware:** two nick-and-nora glasses (small, stemmed), chilled, each rim dipped in coarse sugar on the outside
 - **serves:** 2 (his measures fill two small glasses, about 97 ml each)
 - **contains:** `[]`

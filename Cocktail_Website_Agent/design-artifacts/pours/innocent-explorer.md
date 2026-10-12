@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch innocent)
 
 - **name:** The First Guess
 - **tagline:** Your questions are how everyone else starts looking.
+- **words:** Silky · Fruity · Tingling
 - **glassware:** a small tulip-shaped glass (about 180 ml), chilled, no ice
 - **contains:** `["spice"]`
 

@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 
 - **name:** Got You
 - **tagline:** You only play jokes on the people you want to keep.
+- **words:** Bracing · Bitter · Grapefruity
 - **glassware:** coupe, chilled
 - **contains:** `[]`
 
@@ -56,7 +57,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 **whoYouAre**
 You don't play jokes on just anyone. The new one at work, a friend's quiet cousin, the neighbour who's only just started coming to the barbecue: they're who you pick. Salt in the sugar bowl, a made-up house rule, a serious look held a beat too long. Then you watch. The moment their face cracks and they laugh is the moment they're in, and a week later they're telling it themselves: the day you got them.
 
-Someone got you first, and you rarely mention it. That's how you got in, and every joke since has been you passing it on. You remember the one that didn't land, too: the face that never came round. It's why you can feel the line before you reach it. And there's a smaller worry you'd never admit: if nobody ever gets you back, you start to wonder whether you're really in. Here's what you give, and it should be said plainly: a stranger leaves with a story that makes them one of you. People feel claimed. That lasts a lot longer than the laugh.
+Someone got you first, and you rarely mention it. That's how you got in, and every joke since has been you passing it on. You remember the one that didn't land, too: the face that never came round. It's why you can feel the line before you reach it. And there's a smaller worry you'd never admit: if nobody ever gets you back, you start to wonder whether you're really in. A stranger leaves with a story that makes them one of you. People feel claimed. That lasts a lot longer than the laugh.
 
 **yours**
 

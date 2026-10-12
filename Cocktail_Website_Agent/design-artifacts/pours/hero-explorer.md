@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch hero)
 
 - **name:** Someone Else's Map
 - **tagline:** Every summit gives you a better view of what you could do next.
+- **words:** Woodland · Piney · Spiced
 - **glassware:** heatproof glass mug with a handle (about 250 ml), warmed with hot water first
 - **contains:** `["nuts"]`
 

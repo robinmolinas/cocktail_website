@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 
 - **name:** In a Minute
 - **tagline:** The smallest things can stop you in your tracks. You let them, they're here for a reason.
+- **words:** Luscious · Fruity · Rounded
 - **glassware:** a small stemmed wine glass (about 200 ml), chilled, no ice
 - **contains:** `[]`
 

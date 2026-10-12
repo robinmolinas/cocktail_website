@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-29 (batch caregiver)
 
 - **name:** Fair Measure
 - **tagline:** You think about tomorrow so everyone can enjoy tonight.
+- **words:** Breezy · Tangy · Rounded
 - **glassware:** tumbler or highball glass (about 300 ml), no ice
 - **contains:** `[]`
 

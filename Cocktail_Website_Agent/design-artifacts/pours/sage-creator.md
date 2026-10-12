@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 
 - **name:** What It Rests On
 - **tagline:** People lean on what you make without ever wondering why it holds.
+- **words:** Mellow · Toasty · Spiced
 - **glassware:** small coupe, chilled, no ice
 - **contains:** `[]`
 
@@ -59,7 +60,7 @@ By the time you say "that'll work", you've already watched it fall down a dozen 
 
 You don't much mind how something looks. Someone else can pick the colours and the name. What you can't trust is a thing that only looks sound: the confident arrangement nobody has tested, the promise with nothing underneath. You'll say "not yet" to something everyone loves before you'll watch people stand on it.
 
-They rarely know it, but this is what you give them. Nothing goes wrong, so nobody asks why. They get to enjoy the evening without once thinking about the floor, and that is care, even if it never gets called that.
+Nothing goes wrong, so nobody asks why. They get to enjoy the evening without once thinking about the floor, and that is care, even if it never gets called that.
 
 **yours**
 
@@ -71,7 +72,7 @@ They rarely know it, but this is what you give them. Nothing goes wrong, so nobo
 
 4. So the cocktail I've made for you is a bourbon Old-Fashioned, the renowned classic, with what carries it hidden inside. By law, at least half of bourbon's grain is corn, and none of it shows in the glass. As a nod to the frame nobody sees, I steeped the sugar syrup with popcorn, so a toasted corn note sits quietly under the whiskey. It's mixed the night before and kept in the freezer, and its water is measured out rather than left to the ice, so what you pour is exactly what you meant. The only thing on show is a strip of peel, orange or lemon, whichever you have. Like the walls, it's the part that could be anything.
 
-5. One thing I'd push you on, though. When it's for people who matter to you, you fill every gap, because a gap is one more thing that could go wrong. Next time you lay out a weekend for them, check every part as usual, and then put the gaps in yourself, as carefully as anything else: a chair nobody's been given, an afternoon with no name on it. You'll simply have given them some air, and in my experience that's where the best of a weekend usually happens.
+5. When it's for people who matter to you, you fill every gap, because a gap is one more thing that could go wrong. Next time you lay out a weekend for them, check every part as usual, and then put the gaps in yourself, as carefully as anything else: a chair nobody's been given, an afternoon with no name on it. You'll simply have given them some air, and in my experience that's where the best of a weekend usually happens.
 
 ---
 

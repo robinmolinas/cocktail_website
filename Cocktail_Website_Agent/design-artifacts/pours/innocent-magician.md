@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch innocent)
 
 - **name:** Let's Try It
 - **tagline:** You notice the little signs that make a big hope feel possible.
+- **words:** Gentle · Malty · Light
 - **glassware:** a tall glass (highball, about 300 ml), filled with ice
 - **contains:** `[]`
 
@@ -67,7 +68,7 @@ And still you don't stop. When a person close to you puts a hope down, you quiet
 
 3. Within two weeks of the licence, the phone rang at ten at night. It was John Grant, of the Glenfarclas distillery in Scotland, offering to help them make good whisky. His reason, as Bill remembers it: if somebody tastes whisky for the first time from the Larks' distillery, it should be a good first time. As others on the island started distilling, Bill decided he should help them too.
 
-4. This is where you come in. The idea that day wasn't a wish. They'd looked at what was in front of them and added it up. The "no", when it came, wasn't a person at all, just a rule that had stood since 1901. And once the door was open, Bill held it for the ones coming after him, the way a distillery in Scotland had held it for him. That's what you do with other people's hopes. You keep them going until they can carry them again, and some of them come true because you did.
+4. The idea that day wasn't a wish. They'd looked at what was in front of them and added it up. The "no", when it came, wasn't a person at all, just a rule that had stood since 1901. And once the door was open, Bill held it for the ones coming after him, the way a distillery in Scotland had held it for him. That's what you do with other people's hopes. You keep them going until they can carry them again, and some of them come true because you did.
 
 5. The cocktail I've made for you is a whisky highball, one of the great simple drinks, made still: a Tasmanian single malt, Lark's own if you can find it, with cold water over ice, for the water and barley they talked about that day. The last thing in is two teaspoons of Glenfarclas, the Scotch from the distillery whose call came at ten at night. It's there for the help that turns up before there's anything to show for it, and for the hopes you keep for other people.
 

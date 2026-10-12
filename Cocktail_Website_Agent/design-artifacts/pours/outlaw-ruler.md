@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 
 - **name:** Before It Had a Name
 - **tagline:** Your rebellions have a plan, and a future people can join.
+- **words:** Luscious · Fruity · Tart
 - **glassware:** a well-chilled coupe
 - **contains:** `["nuts"]`
 
@@ -61,7 +62,7 @@ You catch it before anyone has a word for it: a sound, a look, an idea a few peo
 
 People see the rebel. They don't see the plan, and you prefer it that way, because wanting to steer sounds like the very thing you were all against. So you steer quietly. What worries you is what it turns into afterwards: run by people who never got it, smoothed out for everyone, your hands nowhere near it.
 
-And here's the good of it: most new things die young, talked out of it or copied badly. The ones you start tend to grow up, because someone was steering while they were fragile.
+Most new things die young, talked out of it or copied badly. The ones you start tend to grow up, because someone was steering while they were fragile.
 
 **yours**
 

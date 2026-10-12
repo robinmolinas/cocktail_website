@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 
 - **name:** Whoopee
 - **tagline:** You'll jump off almost anything. As long as it was your idea.
+- **words:** Juicy · Fruity · Bittersweet
 - **glassware:** a coupe, chilled
 - **contains:** `["nuts"]`
 

@@ -4,17 +4,20 @@
 
 type Icon = 'arrow' | 'share' | 'save' | 'none';
 
-export default function CtaButton({ onClick, children, arrow = true, icon }: {
+export default function CtaButton({ onClick, children, arrow = true, icon, ariaExpanded, ariaControls }: {
   onClick?: () => void;
   children: React.ReactNode;
   /** the arrow marks actions that lead somewhere; save/copy actions drop it */
   arrow?: boolean;
   /** overrides `arrow` — share and save carry their own glyph */
   icon?: Icon;
+  /** for a pill that unfolds something in place ("Keep your cocktail") */
+  ariaExpanded?: boolean;
+  ariaControls?: string;
 }) {
   const glyph: Icon = icon ?? (arrow ? 'arrow' : 'none');
   return (
-    <button type="button" onClick={onClick} className="cta group">
+    <button type="button" onClick={onClick} className="cta group" aria-expanded={ariaExpanded} aria-controls={ariaControls}>
       {/* the sweep is rounded and GPU-composited itself, so its slide never
           clips against the pill's curved border (the left-edge artifact) */}
       <span className="cta-sweep" aria-hidden="true" />

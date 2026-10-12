@@ -1553,10 +1553,32 @@ button.grav-dot::after {
   font-size: clamp(1.02rem, 1.36vw, 1.35rem); color: var(--candle-ivory); opacity: 0.93; margin: 1.15rem 0 0; line-height: 1.42;
   text-wrap: pretty; max-width: 34ch;
   text-shadow: 0 1px 18px rgba(0,0,0,0.9); }
+/* The glass in three words (Tomás's menu line, 2026-10-12), under the name
+   the way a menu sets a drink's description: the label voice, but in candle
+   ivory so it does not read as a second kicker, brass points between. The
+   name and its words are one group; the line about her stands apart below.
+   The words arrive last, one at a time, after her line has landed. */
+.tr-hero-inner > .tr-words { animation: none; }
+.tr-words { font-family: var(--font-label); font-size: clamp(0.7rem, 0.84vw, 0.8rem); font-weight: 500;
+  letter-spacing: 0.24em; text-transform: uppercase; color: var(--candle-ivory); line-height: 1.8;
+  margin: 0.85rem 0 0; text-shadow: 0 1px 10px rgba(0,0,0,0.9); }
+.tr-words + .tr-for { margin-top: 1.35rem; }
+.tr-word { display: inline-block; white-space: nowrap;
+  animation: tr-sip 1.8s var(--ease) both; animation-delay: calc(2.1s + var(--w, 0) * 0.45s + var(--stage, 0s)); }
+/* Each word leads with a brass point in a 1.45em box (-0.24em takes back the
+   previous word's trailing tracking, so the point sits centred in the gap).
+   The run starts one box left of the margin and the clip trims it there: the
+   first word's point, and any point a narrow screen wraps to a line's start,
+   are never seen. */
+.tr-words { clip-path: inset(-1em -2em -1em 0); }
+.tr-words-run { display: block; margin-left: -1.21em; }
+.tr-word-dot { display: inline-block; width: 1.45em; margin-left: -0.24em; text-align: center;
+  letter-spacing: 0; color: var(--gold); }
+@keyframes tr-sip { from { opacity: 0; transform: translateY(7px); filter: blur(6px); } to { opacity: 0.9; transform: none; filter: none; } }
 /* the way down to the recipe. It carried a blinking seed-coloured dot, which
    asked for attention without saying anything; the arrow's slow bob is the
    cue, the words say what is below. */
-.tr-cue {--d: 2.2s; position: relative; display: inline-flex; align-items: center; gap: 0.55rem; margin-top: clamp(1.4rem, 2.8vh, 2.2rem);
+.tr-cue {--d: 3.3s; position: relative; display: inline-flex; align-items: center; gap: 0.55rem; margin-top: clamp(1.4rem, 2.8vh, 2.2rem);
   font-family: var(--font-label); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase;
   color: var(--candle-ivory); opacity: 0.72;
   text-decoration: none; pointer-events: auto; white-space: nowrap;
@@ -1692,7 +1714,15 @@ button.grav-dot::after {
 
 /* one action is the point of this page; the other two are not. They used to be
    three identical pills, which is no hierarchy at all. */
-.tr-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-top: 3.6rem; }
+.tr-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-top: 3.6rem;
+  container-type: inline-size; }
+/* Share and Keep always sit side by side, their labels on one line. Where the
+   row cannot hold "Share your cocktail" beside "Keep your cocktail" (phones, a
+   narrow letter column) they shorten to "Share" / "Keep"; the words stay in
+   the accessible name. */
+@container (max-width: 470px) {
+  .tr-long { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
 .tr-actions .tr-quiet { margin-left: 1rem; }
 .tr-quiet-row { display: flex; flex-wrap: wrap; gap: 1.6rem; }
 .tr-quiet { font-family: var(--font-label); font-size: 0.78rem; letter-spacing: 0.05em;
@@ -1704,6 +1734,31 @@ button.grav-dot::after {
 .tr-quiet::before { content: ''; position: absolute; inset: -8px -10px; }
 .tr-quiet:hover { color: var(--candle-ivory); border-bottom-color: var(--c); }
 .tr-quiet:focus-visible { outline: 2px solid var(--c); outline-offset: 4px; border-radius: 999px; }
+
+/* "Keep your cocktail": its three ways to keep it unfold under the pills as a
+   row of quiet underlines, slowly, like the rest of the room. The row is last
+   visually but follows the pill in the tab order. Its padding gives the
+   underlines' touch targets and focus rings room inside the clip. */
+.tr-keep { order: 1; flex-basis: 100%; display: grid; grid-template-rows: 0fr; opacity: 0;
+  transition: grid-template-rows 0.9s var(--ease), opacity 0.8s var(--ease); }
+.tr-keep-open { grid-template-rows: 1fr; opacity: 1; }
+.tr-keep-inner { min-height: 0; overflow: hidden; display: flex; flex-wrap: wrap; align-items: baseline;
+  gap: 0.9rem 1.9rem; padding: 0.9rem 0.8rem 0.5rem; margin-left: -0.8rem;
+  transform: translateY(-0.4rem); transition: transform 0.9s var(--ease); }
+.tr-keep-open .tr-keep-inner { transform: none; }
+/* flush with the pills: the "Start again" offset is not theirs */
+.tr-actions .tr-keep .tr-quiet { margin-left: 0; }
+.tr-keep-note { font-family: var(--font-display); font-style: italic; font-size: 0.92rem; color: var(--keepsake-muted); }
+.tr-keep-note:empty { display: none; }
+/* the card itself, when no share sheet will take it: shown whole under its
+   row, to be pressed and held (save or send), like any picture */
+.tr-card-shown { flex-basis: 100%; margin: 0.6rem 0 0.4rem; display: flex; flex-direction: column; gap: 0.8rem; }
+.tr-card-shown img { width: min(62vw, 15rem); aspect-ratio: 9 / 16; height: auto; border-radius: 6px;
+  -webkit-touch-callout: default; user-select: auto; }
+.tr-card-shown figcaption { font-family: var(--font-display); font-style: italic; font-size: 0.92rem; color: var(--keepsake-muted); }
+@media (prefers-reduced-motion: reduce) {
+  .tr-keep, .tr-keep-inner { transition: none; }
+}
 
 /* the surfaces we did not draw still belong to the room */
 .tr-root ::selection { background: color-mix(in oklab, var(--c) 32%, transparent); color: #fffaf0; }
@@ -1730,6 +1785,7 @@ button.grav-dot::after {
   .tr-hero { max-width: none; padding: 0 var(--gutter) 8vh; }
   /* nowrap is a desktop-only guard; on a phone it would clip off the edge */
   .tr-kicker { white-space: normal; letter-spacing: 0.22em; }
+  .tr-words { letter-spacing: 0.22em; }
   .tr-reading { margin-left: 0; padding: 0 var(--gutter) 18vh; max-width: none; }
   .tr-why { max-width: 36rem; margin-top: clamp(3.6rem, 7vh, 5rem); }
   /* the pool's bleed is measured against the column's own 7vw padding here, so
@@ -1793,6 +1849,7 @@ button.grav-dot::after {
   .tr-frame { animation: none; transform: scale(var(--rest)); }
   .tr-cue svg { animation: none; }
   .tr-hero-inner > *, .tr-scene-cue { animation: none !important; opacity: 1; transform: none; filter: none; }
+  .tr-word { animation: none !important; opacity: 0.9; transform: none; filter: none; }
   .tr-intro .tr-frame { animation: none; opacity: 1; filter: none; transform: scale(var(--rest)); }
   .tr-tagname.tr-inking { animation: none; opacity: 1; clip-path: inset(-25% -10% -25% 0); }
   .tr-intro::after { animation-duration: 0.35s; }
@@ -1810,6 +1867,9 @@ button.grav-dot::after {
    locked reveal does, before her room is allowed to kindle. The guest gets the
    same cocktail and the same recipe; the reading stays hers. */
 .tr-gift { --greet: 2.9s; }
+
+/* the printed keepsake's QR code is paper only */
+.tr-print-qr { display: none; }
 
 /* -------- H11: the name hangs alone in the dark -------- */
 .tr-greet {
@@ -1939,16 +1999,32 @@ button.grav-dot::after {
     opacity: 1 !important; pointer-events: auto;
     break-inside: avoid;
   }
-  .tr-hero-inner > * { animation: none !important; opacity: 1 !important; transform: none !important; filter: none !important; }
+  .tr-hero-inner > *, .tr-word { animation: none !important; opacity: 1 !important; transform: none !important; filter: none !important; }
   /* every one of these carried a dark text-shadow for the candlelit room; on
      paper that prints as a grey smudge behind the type */
   .tr-kicker, .tr-title, .tr-for, .tr-why .tr-epigraph { text-shadow: none !important; }
   .tr-kicker { color: var(--gold) !important; font-size: 7.4pt !important; letter-spacing: 0.22em !important; margin-bottom: 4mm !important; }
   .tr-title { color: var(--ink) !important; font-size: 38pt !important; line-height: 1.0 !important; }
+  .tr-words { color: var(--ink) !important; font-size: 8pt !important; letter-spacing: 0.22em !important; margin-top: 3.5mm !important; text-shadow: none !important; }
+  .tr-word-dot { color: var(--gold) !important; }
   .tr-for   { color: #4a4238 !important; font-size: 12pt !important; margin-top: 5mm !important; max-width: 30ch; }
   .tr-cue   { display: none !important; }
   .tr-kicker-for { display: none !important; }
   .tr-spacer { display: none !important; }
+  /* the way back, at the foot of the title block: it sits level with the
+     plate's foot, so it costs the recipe no height */
+  .tr-print-qr {
+    display: flex !important; align-items: center; gap: 4mm;
+    margin: 7mm 0 0; break-inside: avoid;
+  }
+  .tr-print-qr svg { width: 21mm; height: 21mm; flex: none; fill: var(--ink); }
+  .tr-print-qr figcaption {
+    max-width: 34mm;
+    font-family: var(--font-label);
+    font-size: 7pt; font-weight: 500; line-height: 1.6;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--gold) !important;
+  }
 
   /* the recipe, still two columns, still on page one */
   .tr-reading {

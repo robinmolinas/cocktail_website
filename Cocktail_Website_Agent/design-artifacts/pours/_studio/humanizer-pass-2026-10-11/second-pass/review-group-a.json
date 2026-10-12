@@ -1,0 +1,577 @@
+{
+  "verdict": "pass",
+  "reviewed_counts": {
+    "readings": 33,
+    "edited_readings": 32,
+    "retained_readings": 1,
+    "paragraph_replacements": 91,
+    "readings_with_concerns": 0,
+    "concerns": 0
+  },
+  "scope": "Read-only independent review of every full Reading and all exact before/after replacements in group-a.json against the second-pass baseline, the initial baseline for original intent and prior differences, and current source files.",
+  "conclusion": "No concrete loss or addition of meaning requiring correction was found. Private motive/fear/gift intensity, historical attribution and interpretive scope, drink mechanics, specific imagery and distinct voices are preserved across the substantive editorial changes.",
+  "verification": {
+    "audit_replay": "All 91 replacements replay uniquely and exactly to the current source files.",
+    "protected_regions": "Source before ## Reading and from ## Dossier onward matches both snapshots byte-for-byte.",
+    "approval": "Approved creator-hero remains wholly identical to the initial source.",
+    "protected_fragments": "All 67 applicable exact protected fragments that occur in the original guest Reading remain.",
+    "schema_numbers_signature": "Numbered paragraph markers, numeric sequences and I like to think signature counts match the second-pass snapshot.",
+    "quotations": "Exact quoted text is preserved as a multiset. Creator-lover moves “nice” before “no” within the comparison, without altering either quote or its emotional ranking.",
+    "manual_scope": "Each edited sentence was reviewed in paragraph and full-reading context for history caveats, causal intent, chronology, sensory scope and proposal.",
+    "execution": "No source edits, project validators, importer or other project modules were run."
+  },
+  "readings": [
+    {
+      "pairing": "caregiver-creator",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "Pride is still private because it feels selfish, and being mistaken for a boast still hurts the care intended by the method.",
+      "evidence": [
+        "The tucked corner, quietly held process, “just doing it properly” and “my way is better” retain their individual force.",
+        "The signature still covers care in keeping Uyeda’s way while leaving room for others. The hard-shake test, quotes, homemade cordial and invitation to reveal the work are intact."
+      ]
+    },
+    {
+      "pairing": "caregiver-explorer",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "yours[2]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The historical paragraph and drink preparation have clearer rhythm without changing the failed cure or the altruistic, privately enjoyable search.",
+      "evidence": [
+        "Navy rather than shop, approval by doctors, a trial on the King’s ships, chalk and acid, no commercial business and “only water and gas” remain.",
+        "Cold soda is still poured slowly and stirred once; lemon is twisted once and left in. The hop addition retains the caveat that the historical vat’s contents are unknown."
+      ]
+    },
+    {
+      "pairing": "caregiver-hero",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[5]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "Moving the unseen aftermath within the paragraph retains the shaking hands, late wakefulness, fear of purposeless quiet and reluctance to receive help.",
+      "evidence": [
+        "“When everyone’s safe and home” still precedes the hands shaking or staying awake until four. Quiet weeks remain harder than emergencies.",
+        "The ordinary evening proposal still asks the guest to sit while someone else makes the time-sensitive hot drink. Barry’s rescue and death legends remain explicitly distinguished from the recorded retirement."
+      ]
+    },
+    {
+      "pairing": "caregiver-innocent",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The revised sentences retain the cost of conditional belonging and the unanswered question of whether others would love the whole guest.",
+      "evidence": [
+        "Mood, window seat, last slice and private evening remain the concealed wants. Being good keeps a place; wanting too much might cost it.",
+        "Calm remains generous and protective while sparing the guest from testing love for the rest of them. Kir’s unknown private experience stays qualified, and the basil-first invitation remains."
+      ]
+    },
+    {
+      "pairing": "caregiver-jester",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "whoYouAre[2]",
+        "yours[5]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The emotional reading remains serious care delivered through a timely joke, with the feared self-serving motive countered by the same gift of recognition and companionship.",
+      "evidence": [
+        "The guest still reads the person first, sometimes withholds a joke as too early, and receives an embarrassed laugh followed by relief.",
+        "“You joke because it is serious” and “they weren’t in it alone” retain the intended reassurance. Staying in the quiet after the laugh preserves the original proposal. Taxi attribution, battle caveat and travelling drink are unchanged."
+      ]
+    },
+    {
+      "pairing": "caregiver-lover",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "yours[3]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "Combining the opening clauses retains patient understanding, and the Livy mapping still turns staying into permission for gentle honesty.",
+      "evidence": [
+        "The bad day in the first word, waiting for the loved person to arrive at it, and the worst completing the picture remain.",
+        "No scene or departure is still the manner of honesty; “I like to think” still qualifies Livy’s ability to do it because she was staying. No letter quotation, drink substitution or future proposal changes."
+      ]
+    },
+    {
+      "pairing": "caregiver-magician",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The revision keeps bitterness as an honest part of care, sweetness beside it, and the private burden of people who did not mend.",
+      "evidence": [
+        "Not coping still explains why help tastes bitter. Revisiting what was missed, responsibility for mending and the conviction that believing in people was worthwhile remain.",
+        "The signature still covers Picon’s memory and sweet-beside-bitter motive; no claim of cure is added. Modern amer, sweet-orange peel in pomegranate sugar, soda then floated cognac and the uncovered bitter finish remain."
+      ]
+    },
+    {
+      "pairing": "caregiver-outlaw",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "yours[3]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The first-to-speak action still conceals rehearsal and fear, and the historical mapping retains wins arriving after the guest has moved on.",
+      "evidence": [
+        "The absent person, meeting, school gate and family table remain. Racing heart and hands still shaking after praise preserve the courage’s private cost.",
+        "Heyrick’s imagined heart is still under the signature; her never seeing the end and the guest’s wins mostly happening elsewhere remain. Her quotes, dates and jaggery qualification are unchanged."
+      ]
+    },
+    {
+      "pairing": "caregiver-regular-guy",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[5]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "Equality remains both the guest’s gift and their difficulty with giving loved ones something particular. The proposal retains special treatment without extra work.",
+      "evidence": [
+        "The twenty-year friend, new neighbour, boss and plate-clearer still receive the same question and cup. Favourites still feel selfish or unfair.",
+        "Sheridan’s equal welcome is still an interpretation under the signature. The close person has still never complained, and an evening, different call or good cup remains the concrete invitation."
+      ]
+    },
+    {
+      "pairing": "caregiver-ruler",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "whoYouAre[2]",
+        "yours[3]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The limits still serve continuation of pleasure, with hidden fear of collapse and blame for taking a night off. Fairness and personal taste remain the gift.",
+      "evidence": [
+        "“one more, then home”, the account check, home text and Sunday call remain concrete habits.",
+        "The July 1970 mourning interpretation remains qualified, with “Up spirits!”, measure and hour intact. Four-to-one measured water, no ice and vinegar in syrup remain unchanged."
+      ]
+    },
+    {
+      "pairing": "caregiver-sage",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[2]",
+        "yours[3]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The hard no still carries a private fear of having been too harsh; the constructive alternative and disclosure remain what people receive beyond the question.",
+      "evidence": [
+        "Saying yes still buys only an evening’s approval. Replaying the no on the way home and preferring no to a wrong yes remain.",
+        "Old Tom remains Wondrich’s proposed alternative, unfamiliar to his friend, released in 2008 after the first revival and recommended with disclosed involvement. The signature still qualifies what people remember of the guest’s constructive help."
+      ]
+    },
+    {
+      "pairing": "creator-caregiver",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "whoYouAre[2]",
+        "yours[1]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The motive remains giving time as proof of worth, with concealed cost and hope of being understood. The flower-shop history retains chronology and handwork.",
+      "evidence": [
+        "The restarted card and two-in-the-morning present remain; a shortcut still says “you weren’t worth the time”. The evenings away from the intended recipient and quiet hope remain.",
+        "Coley still made buttonholes by hand at another London hotel before bartending. Hawtrey’s request, experimenting, the surviving drink’s coincidence caveat and Fernet adjusted for the person remain."
+      ]
+    },
+    {
+      "pairing": "creator-explorer",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[4]",
+        "yours[5]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The five revisions retain discovery rather than repetition, ease with failed attempts, and permission for others to adapt an idea.",
+      "evidence": [
+        "Following instructions until departure, hidden failed attempts, the closed-door feeling and “let me try something” remain.",
+        "The signature still covers Gonzalez wanting to find out. Bitters and whiskey proportions, competition outcome, lemongrass substitution, each alternative spirit and returning to a half-tried idea without freezing it remain."
+      ]
+    },
+    {
+      "pairing": "creator-hero",
+      "source_decision": "retained",
+      "verdict": "pass",
+      "reviewed_fields": [],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The approved reading is wholly retained. Its fear of trimming the vision and its recognition of collaborative labour remain necessary to the meaning.",
+      "evidence": [
+        "The entire source equals the initial approved baseline.",
+        "Ramos’s hired Black shakers, thirty-five men by Mardi Gras 1915, shared labour and freely given recipe remain. The proposal still asks for the full vision written clearly enough for another person to carry."
+      ]
+    },
+    {
+      "pairing": "creator-innocent",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[5]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The guest still seeks room to feel each part rather than mere sparseness. The proposal preserves one loved, unnecessary detail.",
+      "evidence": [
+        "The repeatedly shortened message remains the scene, and too much still drowns out the thing to be felt. Others retain room to find their meaning.",
+        "Salt remains on one side only, optional rather than needed, and the next thing retains something simply because the guest likes it. Bermejo’s gradual subtraction and ingredient choice are untouched."
+      ]
+    },
+    {
+      "pairing": "creator-jester",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[4]",
+        "yours[5]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The guest’s honest observations still risk being dismissed as a joke. The tomato preparation and removal of the advance apology preserve character and proposal.",
+      "evidence": [
+        "The strange combinations, laughter, sting of being treated as only joking and refusal to sand an idea into conformity remain.",
+        "The daiquiri still uses tomato in strawberry’s place, with ripe cherry tomatoes blended cold with sugar and vanilla. The Court’s tariff/botany distinction remains; the drink is still no deception."
+      ]
+    },
+    {
+      "pairing": "creator-lover",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "whoYouAre[2]",
+        "yours[3]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "Repeated refinement still conceals love, and “nice” still hurts more than rejection because the desired response is shared feeling rather than praise.",
+      "evidence": [
+        "Song, recipe, imperceptibly changed drawing, explanatory details and “I love it” sounding excessive remain.",
+        "The clear green becoming cloud, louche’s two meanings, cranberry first, absinthe next, dropwise iced water and one stir turning rose remain. Only quote order changed: “nice” and “no” retain exact words."
+      ]
+    },
+    {
+      "pairing": "creator-magician",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "whoYouAre[2]",
+        "yours[1]",
+        "yours[3]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The preserved core of the person remains the centre of transformation, and the later worry remains unintended reversal rather than the messy middle.",
+      "evidence": [
+        "Chair, flat and haircut, recognising the person, stripped walls, half-on paint and mirror uncertainty remain, as do fear of sliding back and being valued at their best.",
+        "Arnold’s 2012 failed drinks, tea vodka poured into milk, curds removing harshness, strong tea flavour, menu and unplanned silk retain attribution and sequence. “It’s only my reading” still qualifies tea being more itself."
+      ]
+    },
+    {
+      "pairing": "creator-outlaw",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The guest’s involuntary trend-setting still collides with respected people’s eye-rolling. The revision makes the original autonomy argument explicit rather than replacing it.",
+      "evidence": [
+        "Things loved before others, surprise at imitation, lower quality and letting things go after popularity remain.",
+        "Cecchini’s origin date remains tentative, and the 2026 “Last I read” qualification is intact. Three basil leaves still add scent and taste without measurable sugar, acidity or strength to his proportions."
+      ]
+    },
+    {
+      "pairing": "creator-regular-guy",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "Keeping the ordinary remains a defence against a whole year becoming a blur; the record’s detail and the distinction between historical colour and modern balance remain clear.",
+      "evidence": [
+        "The shrug, fear of showing off and everyday life worth keeping remain.",
+        "Violet is still part of Ensslin’s documented drink, rather than decoration. Two dashes/teaspoon equivalence remains approximate; pale sky blue, modern balance, frozen stemmed glass and orris comparison remain."
+      ]
+    },
+    {
+      "pairing": "creator-ruler",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "Exacting standards, private redoing and the gift of others’ best work remain. The mapping still locates teaching in someone else making the next attempt.",
+      "evidence": [
+        "Redoing another person’s work after everyone leaves, speed versus explanation and inability to accept ordinary remain.",
+        "Saunders still tastes and changes measures before others remake. Her method becoming a bartender’s is still qualified by “I like to think” and “for one of them at least”. Honey within the sweet part and a single untasteable dash of olive brine remain."
+      ]
+    },
+    {
+      "pairing": "creator-sage",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The guest still questions successful work because success stopped further scrutiny, and the new version stays beside the old.",
+      "evidence": [
+        "Fear of becoming the accepted way and enabling others to question their own work remain untouched.",
+        "The half-teaspoon orange swap, shaken preparation, lemon-wiped rim and full-teaspoon Chartreuse in absinthe’s place remain. Monastic origin, guarded recipe and 1880s American uptake are preserved."
+      ]
+    },
+    {
+      "pairing": "explorer-caregiver",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "whoYouAre[2]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The edits retain anticipatory grief, hidden responsibility and the gift of leaving places available to the next person.",
+      "evidence": [
+        "Café, field, woods and car park remain feared changes. Leaving flower, stone and path intact remains concrete, with strictness hiding hurt and fear of contributing to loss.",
+        "Agave timing, bats, five-in-a-hundred flowering, genetic strength and multiple causes of recovery retain all qualifications. Peach rather than picked flower and the shared watch proposal are untouched."
+      ]
+    },
+    {
+      "pairing": "explorer-creator",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "whoYouAre[2]",
+        "yours[3]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "Annoyance still initiates durable repair, and fear remains becoming resigned to “it’s always been like that”. The hidden work still gives other people their afternoons.",
+      "evidence": [
+        "The jam, drip or stick, immediate disassembly, repeated form and slow queue remain.",
+        "The signature still qualifies Martinez being driven by complaints. Convenience-store answer, burned-out blenders and customers receiving cold drinks without knowing the problem remain; frozen-bag method and vanilla are untouched."
+      ]
+    },
+    {
+      "pairing": "explorer-hero",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The larger fear of lasting regret still drives action despite terror, while the deliberate gift of making things look possible remains explicit.",
+      "evidence": [
+        "High board, microphone, first day, private rehearsal and purposeful understatement remain.",
+        "Lee’s nervousness remains unknown then imagined under the signature. Twenty-five years, the quote, others following and single-barrel story retain chronology. Deep-amber sugar off heat before bitterness, water, stir, no serving ice and orange oil remain."
+      ]
+    },
+    {
+      "pairing": "explorer-innocent",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[5]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The attentive pace still conceals guilt and fear of losing the tug of curiosity. The idea travelling rather than a convincing taste difference remains the historical turn.",
+      "evidence": [
+        "Small things can still make the day; being busy and sure of oneself threatens unnoticed loss of attention, and companions still see the ordinary anew.",
+        "Conigliaro’s trust is still qualified. Morgenthaler’s inability to taste much difference remains, along with the travelling question and the unhurried cutting/question proposal. Five-year bottle, barrel timing and Madeira mechanism are untouched."
+      ]
+    },
+    {
+      "pairing": "explorer-jester",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[5]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The long, entertaining route remains valuable beyond efficiency, and the quiet hurt from “you could just buy one” remains stronger than failure.",
+      "evidence": [
+        "First and loudest laughter at collapse, dismissal with a kind smile, fear of nothing left to build and contagious surprise remain.",
+        "The signature still qualifies rejecting the pot. Grain toasting and sugar caramelisation remain, superiority is still to Arnold’s taste rather than universal, and spanner/holding/ale invite another person into the result."
+      ]
+    },
+    {
+      "pairing": "explorer-lover",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "Memory through taste, concealed intensity and fear of muted senses or an untasting companion remain; sharing a sensory place stays the gift.",
+      "evidence": [
+        "Bread, warm end of loaf, leaf under a nose, eyebrow and “smell this” remain. Loneliness despite company remains explicit.",
+        "The imagined warm end-of-summer berries remain under the signature. Gin/lemon/sugar shaken then blackberry poured through crushed ice, dark threads, fresh berry and at most half a teaspoon of balsamic remain."
+      ]
+    },
+    {
+      "pairing": "explorer-magician",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[5]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The search still matters by giving language to an existing practice, while fear of stopping the search and the unrecognised daily supports remain.",
+      "evidence": [
+        "Wednesday’s inbox, walk before a hard day, song before entering and the helpful line without a lecture remain.",
+        "The signature still qualifies the unnamed hour rather than workshops as the identification. Regan’s lack of qualification and “I just knew it worked” remain; naming the ordinary support still counts alongside retreats."
+      ]
+    },
+    {
+      "pairing": "explorer-outlaw",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[1]",
+        "yours[3]",
+        "yours[5]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "A conditional yes still invites determination and leaves later people a free yes; later fear of being trapped by reputation remains.",
+      "evidence": [
+        "Suspecting the “only if”, taking it with a grin and others expecting repeats remain.",
+        "Freeman remains the source of fat-washing and Lee is still not its inventor. The signature still covers Lee hearing a yes; his pride, nagging reputation and unintended sustainability remain. Being known for one thing still permits moving on."
+      ]
+    },
+    {
+      "pairing": "explorer-regular-guy",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The wish to return and tell loved people remains the trip’s completion. Named local honey still gives home equal respect with the mezcal village.",
+      "evidence": [
+        "Guidebook, concealed return ticket, sometimes-best night at the home table and fear of no way back remain.",
+        "Village credit remains visible and imagined pain for friends unable to taste remains under the signature. Chichicapa, grapefruit, lime, ice, sparkling water, honey replacing sugar and single-place honey with any runny fallback remain."
+      ]
+    },
+    {
+      "pairing": "explorer-ruler",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[1]",
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "The guest’s concealed desire for the summit, private failure file and fear of stranding people remain, with trusted turning back still the gift.",
+      "evidence": [
+        "Quiet head count, swallowing disappointment to spare others and knowing every person can return remain.",
+        "Shackleton’s food-as-road-home reading remains explicitly “I think”, with both food and weather real. Exact quotes and dates remain; fresh plum syrup stays distinct from preserved depot plums and the whisky recreation is unchanged."
+      ]
+    },
+    {
+      "pairing": "explorer-sage",
+      "source_decision": "edited",
+      "verdict": "pass",
+      "reviewed_fields": [
+        "whoYouAre[2]",
+        "yours[3]",
+        "yours[4]"
+      ],
+      "concerns": [],
+      "proposed_corrections": [],
+      "finding": "A true but empty answer still starts a long pursuit, and the fear of inaccessible understanding remains opposite to the gift of a complete answer shared freely.",
+      "evidence": [
+        "The older-than-friendships question, perceived know-it-all, inability to rest without understanding and free whole answer remain.",
+        "Berry’s motive remains qualified, a no remains tolerable, and years beside ordinary work remain. Named Zombie parts, grapefruit and cinnamon separately, greater fresh balance and homemade falernum preserve drink mechanics."
+      ]
+    }
+  ]
+}

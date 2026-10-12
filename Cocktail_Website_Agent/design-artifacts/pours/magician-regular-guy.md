@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch magician)
 
 - **name:** Cold Water First
 - **tagline:** You practise alone so that strangers can laugh together.
+- **words:** Cosy · Smoky · Steamy
 - **glassware:** a small heatproof glass tumbler (about 300 ml), warmed with hot water first
 - **contains:** `[]`
 

@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 
 - **name:** I'll Do It
 - **tagline:** You say yes before you know how.
+- **words:** Plush · Fruity · Spiced
 - **glassware:** rocks glass, one large cube
 - **contains:** `[]`
 
@@ -60,7 +61,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 **whoYouAre**
 Someone says it in the pub, on the doorstep or in the group chat: somebody really ought to do something about it. The broken bench, the club with no treasurer, the school play nobody will run. Everyone nods. Before you can stop yourself, you've said "I'll do it", and only later, doing the washing-up, do you realise you've no idea how.
 
-Nobody hears about the evenings: the videos, the forums, the cousin who might know. You're out of your depth most of the way through, and you know it. The words you dread are "who asked you?", and worse, the doubters turning out to be right. You go anyway, partly because if you thought about it any longer, you wouldn't. The thing everyone was waiting for somebody to fix gets fixed. And because you so plainly need a hand, people who'd never have volunteered end up holding the ladder. It counts for more than you know: what was everyone's complaint becomes something they did together.
+Nobody hears about the evenings: the videos, the forums, the cousin who might know. You're out of your depth most of the way through, and you know it. The words you dread are "who asked you?", and worse, the doubters turning out to be right. You go anyway, partly because if you thought about it any longer, you wouldn't. The thing everyone was waiting for somebody to fix gets fixed. And because you so plainly need a hand, people who'd never have volunteered end up holding the ladder. What was everyone's complaint becomes something they did together.
 
 **yours**
 

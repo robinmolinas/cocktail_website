@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 
 - **name:** Look Again
 - **tagline:** The more you like an answer, the harder you look at it.
+- **words:** Mellow · Malty · Rounded
 - **glassware:** rocks glass (about 300 ml), filled with ice cubes
 - **contains:** `[]`
 

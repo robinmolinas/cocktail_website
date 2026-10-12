@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch hero)
 
 - **name:** Anyone Would Have
 - **tagline:** When it counts, you've already done it a hundred times.
+- **words:** Juicy · Fruity · Fizzy
 - **glassware:** large rocks glass (about 400 ml), one large ice cube
 - **contains:** `["nuts"]`
 

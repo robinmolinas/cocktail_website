@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-27 (batch caregiver)
 
 - **name:** Not Only the Way
 - **tagline:** Doing it properly is how you show you care.
+- **words:** Bright · Zesty · Aromatic
 - **glassware:** a coupe (a stemmed glass with a rounded bowl), chilled
 - **contains:** `[]`
 
@@ -64,7 +65,7 @@ What you rarely say out loud is how proud you are of it. Pride feels like making
 
 2. When he showed it in New York, he spoke next to no English, and a translator was used. What reached the room was "Nobody can do the hard shake but me", and people heard a boast. The man who brought him over says he meant something humbler: "I can't do your shake. I can do my shake." Asked about it once, he said it was about fine bubbles that make a drink "mellow and easy to drink". And he added, "I have my way, but it is not only the way." When bartenders tested it, they found that a good, vigorous shake of any style makes much the same drink.
 
-3. I don't read that as the end of his story. I like to think it's the heart of it. The care was never only in the drink. It was in holding himself to his way for whoever sat down in front of him, and leaving room for everyone else's. That's you. Proud of how you do it, and glad when someone else does it their own way.
+3. I like to think the care was never only in the drink. It was in holding himself to his way for whoever sat down in front of him, and leaving room for everyone else's. That's you. Proud of how you do it, and glad when someone else does it their own way.
 
 4. One of his signatures was a Gimlet, a renowned classic, "velvety" and jade-green. "Not Only the Way" isn't exactly his: it's gin and a lime cordial you make yourself. Lime cordial was first made to keep lime juice good on long sea voyages. In the cocktail I've made for you, the cordial is sugar, water, lime zest and a teaspoon of caraway seeds, the kind in some rye breads, warmed until the sugar disappears. Then fresh lime juice goes in off the heat, and it all steeps for twenty minutes. Nobody will name the caraway. It's just why the lime tastes rounder. Made once, it waits in the fridge for the next six people. Then you shake it however you shake.
 

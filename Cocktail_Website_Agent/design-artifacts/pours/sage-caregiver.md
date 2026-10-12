@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 
 - **name:** Further Than Me
 - **tagline:** You teach people to trust their own judgement, even when it takes them beyond yours.
+- **words:** Refreshing · Zesty · Herbal
 - **glassware:** highball glass, chilled, filled with ice
 - **contains:** `[]`
 

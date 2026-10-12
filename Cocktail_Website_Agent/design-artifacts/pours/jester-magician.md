@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 
 - **name:** The Kind You'd Want
 - **tagline:** Your mischief makes grown-ups feel like they're allowed to play.
+- **words:** Breezy · Appley · Fizzy
 - **glassware:** a plain everyday tumbler (about 300 ml), filled with ice
 - **contains:** `[]`
 

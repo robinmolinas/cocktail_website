@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-26 (batch creator)
 
 - **name:** As It Was
 - **tagline:** You see the moments worth keeping in the days nobody thinks to remember.
+- **words:** Delicate · Floral · Tart
 - **glassware:** a stemmed cocktail glass (a coupe or any small stemmed glass), from the freezer
 - **contains:** `["nuts"]`
 
@@ -67,7 +68,7 @@ Ask you about it and you'll shrug: it's nothing, just a picture. Making a fuss o
 
 4. So the cocktail I've made for you has his violet put back: a teaspoon of the violet liqueur, about what his book's two dashes come to. The rest is a modern balance, not his: gin, lemon, a little sugar and a teaspoon of maraschino, shaken and poured into a stemmed glass straight from the freezer. Only the colour is his. It isn't purple. It's a pale sky blue. And many London dry gins carry orris, the root of an iris, whose scent has long been compared to fresh violets, so the violet isn't a stranger in the glass.
 
-5. One thing I'd ask. Stop calling it nothing. Somewhere in everything you've kept this year there's an ordinary day that someone else has already forgotten. Print it, and give it to the person in it. They don't know yet what their Tuesday looked like. You do.
+5. Stop calling it nothing. Somewhere in everything you've kept this year there's an ordinary day that someone else has already forgotten. Print it, and give it to the person in it. They don't know yet what their Tuesday looked like. You do.
 
 ---
 

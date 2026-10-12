@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch innocent)
 
 - **name:** Straight Up
 - **tagline:** You keep getting better, and never need someone else to lose.
+- **words:** Sunny · Tropical · Zesty
 - **glassware:** a thin stemmed coupe, chilled in the freezer
 - **contains:** `["nuts"]`
 

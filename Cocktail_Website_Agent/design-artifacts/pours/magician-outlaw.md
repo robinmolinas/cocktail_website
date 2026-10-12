@@ -17,6 +17,7 @@ The final persona image was generated from this pour (glass, colour, garnish), n
 
 - **name:** No Accident
 - **tagline:** You never break a rule by accident.
+- **words:** Lively · Bittersweet · Sparkling
 - **glassware:** champagne flute
 - **contains:** `[]`
 

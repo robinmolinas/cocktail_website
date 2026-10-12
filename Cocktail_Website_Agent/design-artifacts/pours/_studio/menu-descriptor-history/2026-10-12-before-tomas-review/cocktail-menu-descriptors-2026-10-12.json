@@ -1,0 +1,3444 @@
+{
+  "schemaVersion": 1,
+  "authoredDate": "2026-10-12",
+  "status": "draft-for-review",
+  "count": 132,
+  "voice": "Three menu words blending sensory detail with evocative character; category and ordering are flexible.",
+  "basis": "Predicted from current authored recipes, methods, flavour checks and available studio dialogue. These are editorial descriptions, not results from tasting the drinks.",
+  "sourceCoverage": {
+    "pours": 132,
+    "specs": 132,
+    "roomLogs": 129,
+    "withoutSeparateRoomLogs": [
+      "innocent-regular-guy",
+      "magician-outlaw",
+      "sage-lover"
+    ],
+    "legacyContext": "The three original approved pours have their rationale and lineage in their dossiers and the studio rulebook."
+  },
+  "cocktails": [
+    {
+      "pairing": "caregiver-creator",
+      "cocktail": "Not Only the Way",
+      "personality": "The Craftsman",
+      "words": [
+        "Gracious",
+        "Zesty",
+        "Aromatic"
+      ],
+      "caption": "Gracious · Zesty · Aromatic",
+      "rationale": "Fresh lime anchors the Gimlet; caraway supplies aroma. The cordial made ahead for someone gives Gracious its place.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-creator.md",
+          "sha256": "072de3dffb95049918bd04e85307ffcf53e2e2711b652693225d8a111777b025"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-creator.json",
+          "sha256": "40ae4ae99081e03ff4fcb84344efe13ab981f4efec7fc2e2abcea0d1117348da"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-creator.md",
+          "sha256": "ce733fbcc10caab6ee3a375ae4f4d85f8539bfce00d9031a02e50169cbfb33f1"
+        }
+      }
+    },
+    {
+      "pairing": "caregiver-explorer",
+      "cocktail": "Serviceable",
+      "personality": "The Researcher",
+      "words": [
+        "Curious",
+        "Malty",
+        "Fizzy"
+      ],
+      "caption": "Curious · Malty · Fizzy",
+      "rationale": "Unpeated blended Scotch keeps the grain character; hops add a beer-like accent and soda brings bubbles. Curious fits the experimental lineage.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-explorer.md",
+          "sha256": "0bba9af6f00428013cbfbce66a516bbab8ef9ad7523adb4dbe034c2abfdb0a70"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-explorer.json",
+          "sha256": "b9058b4f326df583fa64f6eed5250d6b17845ee474735e7560541c89a4fdbb89"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-explorer.md",
+          "sha256": "67796de74f6993cefa9544e8ac4ef619f29e25dceb9f292c061112a74ca0dff4"
+        }
+      }
+    },
+    {
+      "pairing": "caregiver-hero",
+      "cocktail": "Off Duty",
+      "personality": "The Rescuer",
+      "words": [
+        "Comforting",
+        "Honeyed",
+        "Herbal"
+      ],
+      "caption": "Comforting · Honeyed · Herbal",
+      "rationale": "A hot whiskey-and-honey cup carries the scent of briefly steeped thyme. Comforting describes the welcoming gesture of someone making it for you.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-hero.md",
+          "sha256": "dc3918bd4c4229fd6ae47f4be2ff3220bc77b896a20328e00b9526573163fd44"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-hero.json",
+          "sha256": "51c926c61b875bfb261c11f59eeb6a3d5c8e86690910f6c4d636f7976231fb0e"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-hero.md",
+          "sha256": "c33cdf807296c742ad852668702ee4272cbc3d3627f9c0d489218acb99f3d733"
+        }
+      }
+    },
+    {
+      "pairing": "caregiver-innocent",
+      "cocktail": "Before the Room",
+      "personality": "The Angel",
+      "words": [
+        "Graceful",
+        "Fruity",
+        "Sparkling"
+      ],
+      "caption": "Graceful · Fruity · Sparkling",
+      "rationale": "Blackcurrant and basil meet dry sparkling wine. Graceful evokes the gently built glass and the person who changes a room quietly.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-innocent.md",
+          "sha256": "9166339e1daa71f83fd17d2905502d53c534de161579301a36d084e0db954f02"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-innocent.json",
+          "sha256": "b6460b8ddbcdb1d67b8af3b7a68229360d37211097dd71764a144467b557ab0c"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-innocent.md",
+          "sha256": "cbf81aa11f7686f81e5c548d2f325a43c068160321d6a81531465e7eaa8fe391"
+        }
+      }
+    },
+    {
+      "pairing": "caregiver-jester",
+      "cocktail": "Worth the Trip",
+      "personality": "The Reassurer",
+      "words": [
+        "Playful",
+        "Gingery",
+        "Fizzy"
+      ],
+      "caption": "Playful · Gingery · Fizzy",
+      "rationale": "Cooked ginger, cumin, lime and soda make an aromatic long drink. Playful belongs to the well-timed humour around its story.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-jester.md",
+          "sha256": "74657190e29882cea1789972af176537a874de231b84f41feb5ba33991bd57e3"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-jester.json",
+          "sha256": "db7f59ccdaff98591c677e0fda89dcb547c46950c8b13f7d5fbf95c2951275a9"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-jester.md",
+          "sha256": "2bacbf88de13e1c00360268853f48ac061a36e0d1ff115d018874b57bb0a447d"
+        }
+      }
+    },
+    {
+      "pairing": "caregiver-lover",
+      "cocktail": "Standing By",
+      "personality": "The Understanding Spouse",
+      "words": [
+        "Devoted",
+        "Rounded",
+        "Fruity"
+      ],
+      "caption": "Devoted · Rounded · Fruity",
+      "rationale": "Passion-fruit syrup rounds a Scotch cocktail with bitters and lemon oil. Devoted comes from the small, attentive addition to a familiar order.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-lover.md",
+          "sha256": "1e173a2e82bfa33a9a770534a1d33a5a6600f0385ceb4a6e739fd20d335bf1df"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-lover.json",
+          "sha256": "e93a67c03e6235197ead95fc21bf25952d8c88c80fd9049f26372125266cad6c"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-lover.md",
+          "sha256": "7695ec6589538518c9424e507e9d6d3e7497e67e78f8cf99dce0a62151695826"
+        }
+      }
+    },
+    {
+      "pairing": "caregiver-magician",
+      "cocktail": "Till Spring",
+      "personality": "The Healer",
+      "words": [
+        "Radiant",
+        "Citrusy",
+        "Bittersweet"
+      ],
+      "caption": "Radiant · Citrusy · Bittersweet",
+      "rationale": "Orange amer and sweet orange-peel syrup keep bitter and sweet together; soda adds sparkle. Radiant carries that orange brightness and the hopeful reading.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-magician.md",
+          "sha256": "962372fac547bb14dd161b27fe987f7abf3362c778b1a174d8a84fd973865138"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-magician.json",
+          "sha256": "74c09063844237bc1e9d32065d4ea08da6b88cc0123fdcd82619f465445bf976"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-magician.md",
+          "sha256": "db8214862baa9cea3b67eab4c157f499f6cdd96fd31d7986c2fa4c01d6397323"
+        }
+      }
+    },
+    {
+      "pairing": "caregiver-outlaw",
+      "cocktail": "Not Too Polite",
+      "personality": "The Campaigner",
+      "words": [
+        "Feisty",
+        "Zesty",
+        "Fizzy"
+      ],
+      "caption": "Feisty · Zesty · Fizzy",
+      "rationale": "Gin, lemon and soda keep the Collins bright; jaggery adds darker sugar notes. Feisty evokes the purposeful sugar swap and speaking up.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-outlaw.md",
+          "sha256": "ed79ca2480eb66ba4adb958b7c3340aa21c89030f355062bbe589ab2b42cb9ff"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-outlaw.json",
+          "sha256": "4644aa87cb14c1e65de9abdafef3942bb98e936a1940b9b507b857150e4b435b"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-outlaw.md",
+          "sha256": "a2f63b6267b2557b7fc448de6fad7ac98b4798df1bd539e5b17270cf9a921ad0"
+        }
+      }
+    },
+    {
+      "pairing": "caregiver-regular-guy",
+      "cocktail": "Everybody's",
+      "personality": "The Nurse",
+      "words": [
+        "Generous",
+        "Roasty",
+        "Creamy"
+      ],
+      "caption": "Generous · Roasty · Creamy",
+      "rationale": "Hot coffee and Irish whiskey sit under toasted-oat cream. Generous evokes the hospitality of the drink rather than its portion size.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-regular-guy.md",
+          "sha256": "f47ec46c4591f01fc95a4692729287d8943dd6123e37e1156a8fc71c1eee4167"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-regular-guy.json",
+          "sha256": "a083817a2ff3330a146039a1063c1ea63df82e8176841f64608670244757f5c2"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-regular-guy.md",
+          "sha256": "271abe762ae4e68fccc3f7c57f3ac73c19e1cd44c981896f1f6eec9131221c20"
+        }
+      }
+    },
+    {
+      "pairing": "caregiver-ruler",
+      "cocktail": "Fair Measure",
+      "personality": "The Nanny",
+      "words": [
+        "Sociable",
+        "Tangy",
+        "Rumish"
+      ],
+      "caption": "Sociable · Tangy · Rumish",
+      "rationale": "Rum remains perceptible in a long, still grog; lime and sherry vinegar provide tang. Sociable fits a measured drink made to let the evening last.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-ruler.md",
+          "sha256": "078be4bdf4d7e3516231fc52d0c136df083a4a62431c9f9c00424318d9654506"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-ruler.json",
+          "sha256": "b5e627771a1f55cc539f4d90d8bf4526590cc140cf51e5addc550e1c07c259a0"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-ruler.md",
+          "sha256": "e4ea1a69f38dff0f4e024a9965e7a1d7b3811b4c1e193b19cd52b9a7da2011a5"
+        }
+      }
+    },
+    {
+      "pairing": "caregiver-sage",
+      "cocktail": "Instead",
+      "personality": "The Doctor",
+      "words": [
+        "Assured",
+        "Herbal",
+        "Rounded"
+      ],
+      "caption": "Assured · Herbal · Rounded",
+      "rationale": "Old Tom gin, sweet vermouth and bitters make a rounded Martinez-like drink. Assured fits the considered choice of an older gin style.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/caregiver-sage.md",
+          "sha256": "fc50f7470d226ee73b0212b1a8b5e3da759873625d7b76d2114ed8bcec71542d"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/caregiver-sage.json",
+          "sha256": "61b49b9a5aa089f0520a9bc7820a3411221cc2ad7f78d0fbd835b8c899bf62a3"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/caregiver-sage.md",
+          "sha256": "b46b8ead8db777bedd96a237818a99accdaee4c0494ad82f7e07e8b84db265d2"
+        }
+      }
+    },
+    {
+      "pairing": "creator-caregiver",
+      "cocktail": "Quite Alive",
+      "personality": "The Sculptor",
+      "words": [
+        "Intimate",
+        "Herbal",
+        "Velvety"
+      ],
+      "caption": "Intimate · Herbal · Velvety",
+      "rationale": "Gin and a little Fernet give herbal depth; vermouth and stirring give smoothness. Intimate comes from fitting the measure to one person.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-caregiver.md",
+          "sha256": "39205ec0559646cc8df6f91fb33403b9d55220b49f3a252fedd60a4deba2502a"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-caregiver.json",
+          "sha256": "7c94f85301b625697bfeb457174c8b16a152688c1a3de5a5f46730a83762406b"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-caregiver.md",
+          "sha256": "86ff0ccf2bddb23450599ce621f82b62b0829a307ca74092f827a37a2dbd6ee9"
+        }
+      }
+    },
+    {
+      "pairing": "creator-explorer",
+      "cocktail": "Off-Label",
+      "personality": "The Experimentalist",
+      "words": [
+        "Adventurous",
+        "Bittersweet",
+        "Aromatic"
+      ],
+      "caption": "Adventurous · Bittersweet · Aromatic",
+      "rationale": "Aromatic bitters form the core, balanced by lemon and lemongrass syrup. Adventurous reflects the open spirit slot and deliberate experiment.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-explorer.md",
+          "sha256": "51fe7dbef130fcf0c2ecd414daca30c55bacff57ffd289255f59a6a801fa2c19"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-explorer.json",
+          "sha256": "6ff4d2cf2a5822e94c49039b4ef386fb45e773e4c9a087e621be1aecbd26e246"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-explorer.md",
+          "sha256": "3d4926827d749576af6ef2ed3ba22ff315527c92ef46106c4fc6b8e143e29eee"
+        }
+      }
+    },
+    {
+      "pairing": "creator-hero",
+      "cocktail": "Down the Line",
+      "personality": "The Visionary",
+      "words": [
+        "Dreamy",
+        "Creamy",
+        "Floral"
+      ],
+      "caption": "Dreamy · Creamy · Floral",
+      "rationale": "Cream and egg white build the cloudlike fizz; orange flower water supplies a floral accent. Dreamy belongs to both the glass and the Visionary's imagination.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-hero.md",
+          "sha256": "d56bb2b89265581478aff08e6b46c10329b9295da0f3de168d3626455171ff13"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-hero.json",
+          "sha256": "18f588b7ac9507c887d386b10e55de7a0d35d9c605b493bbedd0a27aff776078"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-hero.md",
+          "sha256": "df4f4830dec04e4dc8bd1924434943bd9d7b9f376a95ec4319b61aef58344d5f"
+        }
+      }
+    },
+    {
+      "pairing": "creator-innocent",
+      "cocktail": "Half a Rim",
+      "personality": "The Minimalist",
+      "words": [
+        "Effortless",
+        "Zesty",
+        "Clean"
+      ],
+      "caption": "Effortless · Zesty · Clean",
+      "rationale": "Blanco tequila, lime and blue-agave syrup make a stripped-back Margarita. Effortless describes the finished impression, despite the care behind it.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-innocent.md",
+          "sha256": "ec71f7d2b1229e6c7b877405355aac5ae7540b3e1def21c73e119e216da15581"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-innocent.json",
+          "sha256": "036bae8bde6b550282dea52b2058a45da06ddcdf9fe89b6f53e26a491425a01b"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-innocent.md",
+          "sha256": "d76c017b1bbb94233f94afd0b43d79a79351bebbd0c94dcdc1b6f3c8237ceea8"
+        }
+      }
+    },
+    {
+      "pairing": "creator-jester",
+      "cocktail": "The Other Berry",
+      "personality": "The Surrealist",
+      "words": [
+        "Mischievous",
+        "Fruity",
+        "Tangy"
+      ],
+      "caption": "Mischievous · Fruity · Tangy",
+      "rationale": "Tomato-vanilla syrup tastes of ripe red fruit first, brightened by rum and lime, with a slight savoury undertone. Mischievous evokes its strawberry-daiquiri expectation being gently overturned.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-jester.md",
+          "sha256": "00437c99171a76aedc25658d0d02248e8180ba74f0d80c2dcab4caca0ef900c8"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-jester.json",
+          "sha256": "fa840cf0cd09e92e0257929db8689121a7e8b548fcf8853db70fabef0afefbc7"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-jester.md",
+          "sha256": "a400a619cfa4afd15a68a23570f97c26caa96065d480aa6587ec387dc45fbacd"
+        }
+      }
+    },
+    {
+      "pairing": "creator-lover",
+      "cocktail": "Rosetta",
+      "personality": "The Obsessed",
+      "words": [
+        "Mesmerising",
+        "Aniseed",
+        "Silky"
+      ],
+      "caption": "Mesmerising · Aniseed · Silky",
+      "rationale": "Absinthe's anise and bitter herbs meet cranberry syrup and cold water. The changing louche earns Mesmerising; Silky refers to the diluted anise-oil texture.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-lover.md",
+          "sha256": "25c1d028c1df83556875747e77d6d8b480ddb8ef09c52324228a4d35a08330c0"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-lover.json",
+          "sha256": "3af405606b8c3a20f5101879437b9f1642993f4a7cb470423c090c6fb7709366"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-lover.md",
+          "sha256": "13d1a797911ce1038cfffc2a9a97977a1bdcc8699c4ad975376fdeef5755c4b8"
+        }
+      }
+    },
+    {
+      "pairing": "creator-magician",
+      "cocktail": "Overnight",
+      "personality": "The Makeover Artist",
+      "words": [
+        "Enchanting",
+        "Tart",
+        "Silky"
+      ],
+      "caption": "Enchanting · Tart · Silky",
+      "rationale": "Tamarind, lime and tea remain after milk clarification gives the rum punch a soft body. Enchanting evokes its overnight transformation.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-magician.md",
+          "sha256": "36695845140568d86a1b5dbec75c6b079d74abdd8f041acf147746b20d1c4a0f"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-magician.json",
+          "sha256": "650b5d323c69d17ab3477118979a867cd5b8a4a58b7a84610e526409722ca599"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-magician.md",
+          "sha256": "ca7b5f1f4041239a040ddfc6d3aa5b5b12659e10b1f84398c2115a490d61606c"
+        }
+      }
+    },
+    {
+      "pairing": "creator-outlaw",
+      "cocktail": "Still Yours",
+      "personality": "The Trend Setter",
+      "words": [
+        "Liberating",
+        "Fruity",
+        "Tart"
+      ],
+      "caption": "Liberating · Fruity · Tart",
+      "rationale": "Citrus and cranberry stay deliberately tart, with basil as a green accent. Liberating comes from the invitation to enjoy your own taste openly.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-outlaw.md",
+          "sha256": "031c15afe951275047cf03ecf70ef008acabb5076643d0c0f1b5c2d6f739adf8"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-outlaw.json",
+          "sha256": "9d45b30a1154a5d0b4eeaa83fa578c9df56a6bf8a73d7d65dfc622bb1c5efa42"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-outlaw.md",
+          "sha256": "8057d83b26d0fb306d83dd4353dcee9bdb41b146596ea01d46b1dd153d259894"
+        }
+      }
+    },
+    {
+      "pairing": "creator-regular-guy",
+      "cocktail": "As It Was",
+      "personality": "The Photographer",
+      "words": [
+        "Nostalgic",
+        "Floral",
+        "Tart"
+      ],
+      "caption": "Nostalgic · Floral · Tart",
+      "rationale": "Violet liqueur scents the gin-and-lemon sour, with maraschino beneath it. Nostalgic evokes keeping an ordinary moment as it was.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-regular-guy.md",
+          "sha256": "ded4c827d255b929ed9a4e313d8498fb3df111feaf1bad9e36768341f36aca96"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-regular-guy.json",
+          "sha256": "d795a583ff9e10dfcc6888002c853f1845feec8163ed7309d14632b2c265f4de"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-regular-guy.md",
+          "sha256": "5fbc274c1bf6585fb71fc958f00f099ed13d47d6b0947089f155dec442b5cf05"
+        }
+      }
+    },
+    {
+      "pairing": "creator-ruler",
+      "cocktail": "Making the Calls",
+      "personality": "The Auteur",
+      "words": [
+        "Commanding",
+        "Citrusy",
+        "Rounded"
+      ],
+      "caption": "Commanding · Citrusy · Rounded",
+      "rationale": "Cognac, orange and lemon give the Sidecar spine; honey rounds it and a dash of olive brine seasons it. Commanding reflects the deliberate composition.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-ruler.md",
+          "sha256": "bd1a013b221a0324f7ccde13d96f8339efbbf6e8e5e6e4cb70ffcc846d685992"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-ruler.json",
+          "sha256": "0bcf25e0158378c16e2035248f1825dae8047407978274482f8812537d3149cf"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-ruler.md",
+          "sha256": "947785fa6a82143d0143b9f02c6019da2195b9aa988244b4bec97bba40dc737d"
+        }
+      }
+    },
+    {
+      "pairing": "creator-sage",
+      "cocktail": "Beside the First",
+      "personality": "The Old Master",
+      "words": [
+        "Refined",
+        "Herbal",
+        "Spiced"
+      ],
+      "caption": "Refined · Herbal · Spiced",
+      "rationale": "Rye and aromatic bitters carry warm spice; green Chartreuse adds herbs in the seasoning slot. Refined evokes revisiting an old drink through one considered change.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/creator-sage.md",
+          "sha256": "ccf03318c68f2753aaa8cc8dd88943b5b325db3521a4d9ff57624e202e3aa059"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/creator-sage.json",
+          "sha256": "87d4efa02eedc5633d7b822c5c79b872909e9d1c0408261123cfd4297f6a4d17"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/creator-sage.md",
+          "sha256": "e26869652711172a554ec7790516b458fb700ee72bcda66971c98a033dd69ba5"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-caregiver",
+      "cocktail": "Left Standing",
+      "personality": "The Conservationist",
+      "words": [
+        "Delicate",
+        "Fruity",
+        "Herbal"
+      ],
+      "caption": "Delicate · Fruity · Herbal",
+      "rationale": "Blanco tequila and blanc vermouth meet just a teaspoon of peach liqueur. Delicate describes the small fruit accent and the restraint of leaving flowers alone.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-caregiver.md",
+          "sha256": "b14478b84ce059e97c6b1c747c2b56311595c91a6ce8802744c90b04b676c4de"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-caregiver.json",
+          "sha256": "8af6c12f90647ed5110b2234b1432b18e4900c725f475e76a4986f5f8ad12369"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-caregiver.md",
+          "sha256": "ddc2747a4d28ac1abf9a40573717ce6e7f8155f672ae81db7d27f6a82dba71a3"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-creator",
+      "cocktail": "For Good",
+      "personality": "The Innovator",
+      "words": [
+        "Inventive",
+        "Zesty",
+        "Frosty"
+      ],
+      "caption": "Inventive · Zesty · Frosty",
+      "rationale": "A frozen Margarita base gains vanilla beside the orange, with fresh lime added for serving. Inventive comes from solving the freezing and dilution in advance.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-creator.md",
+          "sha256": "73da70bacfa920f57aaaf4a271fac8d52e455a24488216bd7864bab343192f14"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-creator.json",
+          "sha256": "d0de8abc47c7280fd3d815f56300ddd7f230d4b380fadf9f00cdf22668487195"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-creator.md",
+          "sha256": "27dd648ee87535c6dde832fb48f93166ab6c65d24a7a10809fd2c77e03033be8"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-hero",
+      "cocktail": "Nothing to It",
+      "personality": "The Pioneer",
+      "words": [
+        "Intrepid",
+        "Caramelised",
+        "Spiced"
+      ],
+      "caption": "Intrepid · Caramelised · Spiced",
+      "rationale": "Deep-amber caramel syrup seasons a single-barrel bourbon Old-Fashioned with bitters. Intrepid evokes being first to step forward.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-hero.md",
+          "sha256": "f47bf1ef1109a2ce34aa6af2e59891b0a04104df1b1a8ebc83e7d1a7f287010b"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-hero.json",
+          "sha256": "75a0d76b3b7112a0ed81017e0fff621edf9a07a869f2f181b4a448a648b99dfd"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-hero.md",
+          "sha256": "b442a8c8dc8e13bb61feb82d96106234a40ab386407c82672d05487960fe3835"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-innocent",
+      "cocktail": "In a Minute",
+      "personality": "The Discoverer",
+      "words": [
+        "Wonderstruck",
+        "Fruity",
+        "Rounded"
+      ],
+      "caption": "Wonderstruck · Fruity · Rounded",
+      "rationale": "White rum, blanc vermouth, Madeira and orange curaçao give layered fruit and mellow wine depth. Wonderstruck evokes noticing something worth pausing for.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-innocent.md",
+          "sha256": "53a1796cbc78fd855652b59c405f96a0451cb1566337cffc7a5f31851198f00e"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-innocent.json",
+          "sha256": "ed0bace2d81c84813748c9cdafda8938cbe51a937d3898eae659563fd49cd271"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-innocent.md",
+          "sha256": "c3892b395ef9c4045121177c16c820fb24b61b429068ddff5364fd11d0730258"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-jester",
+      "cocktail": "Why Not?",
+      "personality": "The Mad Inventor",
+      "words": [
+        "Eccentric",
+        "Malty",
+        "Toasty"
+      ],
+      "caption": "Eccentric · Malty · Toasty",
+      "rationale": "Malty ale and aged rum meet darkened sugar in a hot flip without egg. Eccentric fits the elaborate route to the toasted-sugar flavour.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-jester.md",
+          "sha256": "6ab22e983ef53eac3e23e40419d75b00cfd5a47d4c4ff4827dc79e100eb7679b"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-jester.json",
+          "sha256": "2a74744d07d675301d87179cb763eb8dc35a92c42af0b2abf5fd9a957ba22851"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-jester.md",
+          "sha256": "9b7bf5147240c6c5c698d34e38fb872363360f46e7454b018654dd14dcaf92b6"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-lover",
+      "cocktail": "Straight Back",
+      "personality": "The Sense Seeker",
+      "words": [
+        "Nostalgic",
+        "Fruity",
+        "Tangy"
+      ],
+      "caption": "Nostalgic · Fruity · Tangy",
+      "rationale": "Blackberry liqueur arrives first over gin and lemon, with balsamic in the drizzle. Nostalgic belongs to the scent-led return to a remembered place.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-lover.md",
+          "sha256": "3c01a39cb39b175dd691e2a21102d8e7556f02716da61165496ca3823bb67c59"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-lover.json",
+          "sha256": "d2d66edd3392c5953f23ef43e42d39a0942bfb9b3adeb70fdbb0a5cd5261eb40"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-lover.md",
+          "sha256": "60b9f7bdf5966dff5d70c57e76346a540b482ee5ed3c679cecac8d9280f02a28"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-magician",
+      "cocktail": "Just Knew",
+      "personality": "The Spiritualist",
+      "words": [
+        "Enigmatic",
+        "Bittersweet",
+        "Herbal"
+      ],
+      "caption": "Enigmatic · Bittersweet · Herbal",
+      "rationale": "Campari and two vermouths keep bitter and sweet level, with bay leaf in the gin build. Enigmatic evokes recognising something before explaining it.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-magician.md",
+          "sha256": "70540fb3d228fc8594a3f0bc8fba1945aecea025a741f7be7ee738707759b3c2"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-magician.json",
+          "sha256": "4d71a6f0faab2e323a3e4b709d5e42fce268089736d7a744d3568ad774e12e45"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-magician.md",
+          "sha256": "7c23a603b387093c5a1d431dde474ccc06902db3aad986c821a00eca5204427c"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-outlaw",
+      "cocktail": "Fine by Me",
+      "personality": "The Trailblazer",
+      "words": [
+        "Audacious",
+        "Smoky",
+        "Sparkling"
+      ],
+      "caption": "Audacious · Smoky · Sparkling",
+      "rationale": "Bacon-washed bourbon brings smoke beside maple; dry sparkling cider lengthens it. Audacious fits making an unconventional drink by doing the work yourself.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-outlaw.md",
+          "sha256": "6ceac0749240c357345f239128426a07a06d3e6a261746c842c4d56ebce8424e"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-outlaw.json",
+          "sha256": "c242ea39600435fab2011959caf3441b49fd437442be52f9790de965fdf8118c"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-outlaw.md",
+          "sha256": "7b60ebdd1b3fc32007f5d637d87eec2a279ec50659cace0affefa0fb5a8d7a8c"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-regular-guy",
+      "cocktail": "Brought Home",
+      "personality": "The Tourist",
+      "words": [
+        "Adventurous",
+        "Smoky",
+        "Zesty"
+      ],
+      "caption": "Adventurous · Smoky · Zesty",
+      "rationale": "Mezcal meets grapefruit, lime, honey and sparkling water. Adventurous reflects bringing a place's taste home to share.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-regular-guy.md",
+          "sha256": "c7375bade943d80ed0bc2f2aab8a3c2f4c39ad46512bfb9a6ec1e4e90c5719fe"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-regular-guy.json",
+          "sha256": "6e51734ae0165ae6dc328d5b9d9238a4f3f17c340aa275c4fc888b9616c04d02"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-regular-guy.md",
+          "sha256": "20ca32f598052f46bec2e2792647ab4f57a1a59db8fd2e00e4026fa782fe9e00"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-ruler",
+      "cocktail": "Far Enough",
+      "personality": "The Expedition Leader",
+      "words": [
+        "Steadfast",
+        "Fruity",
+        "Spiced"
+      ],
+      "caption": "Steadfast · Fruity · Spiced",
+      "rationale": "Rich plum syrup adds fruit to a blended-malt Scotch Old-Fashioned with aromatic bitters. Steadfast comes from keeping the way back in mind.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-ruler.md",
+          "sha256": "de32cd7124556a5528ca7d1a7874400af4e2647b94317b27466fb49f71b3b027"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-ruler.json",
+          "sha256": "e33132bdd44b5ddaa1d93766a870a2d659aeeed65d2f425113ced11cef15825b"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-ruler.md",
+          "sha256": "421b5c2112c4c3e217a1d033ad5c46035dec61304a7e40991d8bd7d7768b68e3"
+        }
+      }
+    },
+    {
+      "pairing": "explorer-sage",
+      "cocktail": "Show Your Working",
+      "personality": "The Genius",
+      "words": [
+        "Spellbinding",
+        "Tropical",
+        "Spiced"
+      ],
+      "caption": "Spellbinding · Tropical · Spiced",
+      "rationale": "Three rums, lime and grapefruit meet cinnamon, clove and anise accents. Spellbinding evokes the Zombie's intricate construction, with its coded mix made legible.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/explorer-sage.md",
+          "sha256": "356bb5a8dacbaf5b751ddf64ee8f17d6283cc0637475d2a17be98634906dafdc"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/explorer-sage.json",
+          "sha256": "1d2e75349fbf5a273d547dd7d516e5f8de3dda69a8fadfa544995efcbede99fb"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/explorer-sage.md",
+          "sha256": "84e12f1173e25574c3c0110f0d60f5f63edfa17c4895cd84d2ccbe61a291f2a6"
+        }
+      }
+    },
+    {
+      "pairing": "hero-caregiver",
+      "cocktail": "Next One's Mine",
+      "personality": "The Saviour",
+      "words": [
+        "Generous",
+        "Bittersweet",
+        "Fizzy"
+      ],
+      "caption": "Generous · Bittersweet · Fizzy",
+      "rationale": "Equal measures of rye and sweet vermouth are lengthened with soda and finished with bitters. Generous reflects sharing the weight rather than a large serve.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-caregiver.md",
+          "sha256": "77f0f8e79144cb1b35631feab053bd467982a2f221f275ce5e74634083696ea0"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-caregiver.json",
+          "sha256": "5a548ecdcc5143be78affeede719d19138149816f387371c7cb5ea1e6bd7d037"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-caregiver.md",
+          "sha256": "11d2b66d67d4908984afa88d181183ac42bab00076f5a95066501f4ccdf41a27"
+        }
+      }
+    },
+    {
+      "pairing": "hero-creator",
+      "cocktail": "The Long Answer",
+      "personality": "The Idealist",
+      "words": [
+        "Optimistic",
+        "Fruity",
+        "Zesty"
+      ],
+      "caption": "Optimistic · Fruity · Zesty",
+      "rationale": "Bourbon meets fresh lemon, orange and pomegranate, with seltzer and mint. Optimistic belongs to the bright, long drink and the patiently made argument.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-creator.md",
+          "sha256": "b88f03f698aea6b8055d4cd3b0e669b0051c8e80bb4fff755dc67633c2eb3f4f"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-creator.json",
+          "sha256": "97f064979295e88a43ac1c86d10b4f7e0fe8334e67f502cb4b46036ec6895926"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-creator.md",
+          "sha256": "cea4522e7b1ac31a265e68531ec977482841c1d6736772a573014d96c8e64dc6"
+        }
+      }
+    },
+    {
+      "pairing": "hero-explorer",
+      "cocktail": "Someone Else's Map",
+      "personality": "The Quest Seeker",
+      "words": [
+        "Adventurous",
+        "Piney",
+        "Spiced"
+      ],
+      "caption": "Adventurous · Piney · Spiced",
+      "rationale": "Stone-pine liqueur, rum and allspice make a hot, aromatic cup. Adventurous evokes choosing the next route after an achievement.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-explorer.md",
+          "sha256": "5b5ed774dcae580edb7e9c92257dd9370d1f453c1db60347846855c7016005cf"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-explorer.json",
+          "sha256": "51df5b0438ae2e1708962e42715b025da041b93825f0f75aea4f55b9a8afc7fe"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-explorer.md",
+          "sha256": "8ffbe4b7e1500584090c43dfa752bb39dae706c23b84054db8b38588517c1099"
+        }
+      }
+    },
+    {
+      "pairing": "hero-innocent",
+      "cocktail": "Work It Out",
+      "personality": "The Initiate",
+      "words": [
+        "Intriguing",
+        "Savoury",
+        "Rounded"
+      ],
+      "caption": "Intriguing · Savoury · Rounded",
+      "rationale": "Cold beef broth and sherry give a vodka long drink savoury depth, with orange lifting it. Intriguing fits a less familiar steakhouse drink discovered through practice.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-innocent.md",
+          "sha256": "a06d232783c5e8afa8f8c0393b880fe1b21b4e09a92d4d163fcd8dbdf45e4be0"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-innocent.json",
+          "sha256": "23c1007beb037df6d891ee079bab110b8eb319862f35036805db0b47ce417ffc"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-innocent.md",
+          "sha256": "48593eef515fc89c7ef8030f21765e768a57db36e43e7c744e18ee636911d254"
+        }
+      }
+    },
+    {
+      "pairing": "hero-jester",
+      "cocktail": "Hold the Shark",
+      "personality": "The Storyteller",
+      "words": [
+        "Exuberant",
+        "Tropical",
+        "Nutty"
+      ],
+      "caption": "Exuberant · Tropical · Nutty",
+      "rationale": "Aged Jamaican rum, lime and curaçao meet toasted-almond orgeat and a big mint branch. Exuberant reflects the storytelling around a lime-forward Mai Tai.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-jester.md",
+          "sha256": "e6182ec279434f305a3a5f5c1b3178113536f5fd4e3c97d6884dfbbb8445e145"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-jester.json",
+          "sha256": "9780c0547edf09fe9d0b40583a297cd459f49e2530e20936c147e90ff7ae26e7"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-jester.md",
+          "sha256": "9a133916de1cd11205e9d0941a2c9129b2244e2f2607687d30fa76b98d3a8be7"
+        }
+      }
+    },
+    {
+      "pairing": "hero-lover",
+      "cocktail": "One Line",
+      "personality": "The Dashing Hero",
+      "words": [
+        "Dashing",
+        "Dry",
+        "Aromatic"
+      ],
+      "caption": "Dashing · Dry · Aromatic",
+      "rationale": "A Vesper-like gin-and-vodka drink is bone-dry and lemon-scented, with a small Jamaican-rum addition. Dashing fits the decisive, neatly delivered order.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-lover.md",
+          "sha256": "459ee73f5d03827e09cf646a3183fc789823c97e0638d48627cc5ae43c6f4413"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-lover.json",
+          "sha256": "a59e1eaec3eb699858c265368de8965e14e50fa75175e6772ba7c5adc84917e1"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-lover.md",
+          "sha256": "c826fe34e5022f54d2a2b20e5f9862b3c0cd88154d33b43ab923560dfb1fb55a"
+        }
+      }
+    },
+    {
+      "pairing": "hero-magician",
+      "cocktail": "Day Job",
+      "personality": "The Superhero",
+      "words": [
+        "Unexpected",
+        "Chocolatey",
+        "Tart"
+      ],
+      "caption": "Unexpected · Chocolatey · Tart",
+      "rationale": "Clear crème de cacao supplies chocolate beneath rum, vermouth and lime. Unexpected evokes a quiet-looking drink with a flavour you would not see coming.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-magician.md",
+          "sha256": "74f4004fc00603cd242a5b358517e04ecafb55ecb46a1959955c88187aae836f"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-magician.json",
+          "sha256": "c4a9b3d5c1aa4fcea29cf76f8ea937a587f34de81cad22d2e827926474b3defb"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-magician.md",
+          "sha256": "50a93a52edeb6bbbeb4d2d57ad4150de45124f1199a4f80c676935f64e61e332"
+        }
+      }
+    },
+    {
+      "pairing": "hero-outlaw",
+      "cocktail": "No Promises",
+      "personality": "The Lovable Rogue",
+      "words": [
+        "Roguish",
+        "Herbal",
+        "Bittersweet"
+      ],
+      "caption": "Roguish · Herbal · Bittersweet",
+      "rationale": "Rye meets dark sorghum sweetness and digestif bitters. Roguish belongs to the grin and the dependable action behind an unreliable promise.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-outlaw.md",
+          "sha256": "5c716b9763cf0afc2bbe8b5b60c966c75c8941f68770670db9ceb8f00d2cd5c1"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-outlaw.json",
+          "sha256": "28cbfd7abb4df6683afb8a438a739c0788a79177b16684e1f39fe7d18898672f"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-outlaw.md",
+          "sha256": "8df31826558e62c5826c99b816b44e91834d26bffa124d86d048e5a9803d0183"
+        }
+      }
+    },
+    {
+      "pairing": "hero-regular-guy",
+      "cocktail": "Anyone Would Have",
+      "personality": "The Firefighter",
+      "words": [
+        "Heartening",
+        "Fruity",
+        "Fizzy"
+      ],
+      "caption": "Heartening · Fruity · Fizzy",
+      "rationale": "Cherry liqueur and lime make the gin-and-Bénédictine build fruity; soda and bitters finish it. Heartening reflects practical help with no fuss.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-regular-guy.md",
+          "sha256": "fc701b15e4f34657821617b6a8e645235a7ed8c730ca951dd1f3c26f473987cc"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-regular-guy.json",
+          "sha256": "f8a537c8cce06c30d61249c6b52728fc197207c639a5dca7b217fd79cb31485b"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-regular-guy.md",
+          "sha256": "edfc4da3de477e966d211853b92b4348078c640c42b2deedacbe0d2f77d18fef"
+        }
+      }
+    },
+    {
+      "pairing": "hero-ruler",
+      "cocktail": "Dressed for It",
+      "personality": "The Warrior",
+      "words": [
+        "Resolute",
+        "Citrusy",
+        "Spiced"
+      ],
+      "caption": "Resolute · Citrusy · Spiced",
+      "rationale": "Tea-steeped cognac carries orange curaçao, aromatic bitters and a lemon-peel collar. Resolute evokes keeping a considered form when circumstances fray.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-ruler.md",
+          "sha256": "1d78ff7ddbf5b5febe96b59879e632c34d9d14cef5dacd365d3b96f519428111"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-ruler.json",
+          "sha256": "74af92342d4f590e56c2fb59537cfcb81805c53672f1c6d7fbfc2c10c6981c0d"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-ruler.md",
+          "sha256": "de4c416edd38fae558a02a10d848c8d7b9fde0231a932e9f116de0dbb1e2d38a"
+        }
+      }
+    },
+    {
+      "pairing": "hero-sage",
+      "cocktail": "Leave It With Me",
+      "personality": "The Problem Solver",
+      "words": [
+        "Ingenious",
+        "Zesty",
+        "Icy"
+      ],
+      "caption": "Ingenious · Zesty · Icy",
+      "rationale": "Rum, lime and sugar make a crushed-ice Daiquiri bowl; makrut leaves add lime scent. Ingenious fits solving the drink with what is available.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/hero-sage.md",
+          "sha256": "b8f16b388380ecaa210221b44a787a25f40cf003699f85729666ce8bfbb5ef91"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/hero-sage.json",
+          "sha256": "f4adb8f1deeaa8f070af136df6873fbdc0d56bb3509a7f8b6ea719a60d2e176b"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/hero-sage.md",
+          "sha256": "8d7b80f88832909dee99d84e906b137e4abaa21bfe208b82c176b72a1e3e75ab"
+        }
+      }
+    },
+    {
+      "pairing": "innocent-caregiver",
+      "cocktail": "Night Light",
+      "personality": "The Big Sibling",
+      "words": [
+        "Gentle",
+        "Honeyed",
+        "Savoury"
+      ],
+      "caption": "Gentle · Honeyed · Savoury",
+      "rationale": "Fino sherry supplies dry, yeasty and subtly salty depth; chamomile honey gives body beside two vermouths. Gentle reflects the small, attentive sweetening.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-caregiver.md",
+          "sha256": "0851dab7da3ba71af1f28b3dfd2b27b4f2c3ecf2afb0ac143996e17c3052dc48"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-caregiver.json",
+          "sha256": "79ebbe340d457c56299b2c2a0e6bf3c909d0414dba7538fd3e293347f5a425c5"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-caregiver.md",
+          "sha256": "9c6d5c21f1f247475dbd74ac20df452f3e1e0072470b430be63dad81aa276db6"
+        }
+      }
+    },
+    {
+      "pairing": "innocent-creator",
+      "cocktail": "The Way It Felt",
+      "personality": "The Naive Artist",
+      "words": [
+        "Carefree",
+        "Fruity",
+        "Fizzy"
+      ],
+      "caption": "Carefree · Fruity · Fizzy",
+      "rationale": "Young red wine and cola make the fruity, bubbly Kalimotxo; matching frozen cubes preserve it. Carefree evokes handing over something made for the pleasure of it.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-creator.md",
+          "sha256": "a481020b0072e2e641e2a3b930e54c9e08eaa7c7722f16c5c36ef23ea74b8e6b"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-creator.json",
+          "sha256": "de86d0e08f80fbf0f1b9c226200980bbca020ebf99e3b4cb20009c87b1b9ad24"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-creator.md",
+          "sha256": "f8cb393e26c07fa706448b1a92a4859e39216870ec6eca5bfc3c6721e4fb6b78"
+        }
+      }
+    },
+    {
+      "pairing": "innocent-explorer",
+      "cocktail": "The First Guess",
+      "personality": "The Free Spirit",
+      "words": [
+        "Curious",
+        "Fruity",
+        "Tingling"
+      ],
+      "caption": "Curious · Fruity · Tingling",
+      "rationale": "Cognac and white Pineau bring grape fruitiness and oak; Sichuan peppercorn adds a faint lip tingle. Curious belongs to the delighted second question.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-explorer.md",
+          "sha256": "962714e5aa17e7a729105df73e77bc54b8e7105588b768620cbe15ff8c783080"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-explorer.json",
+          "sha256": "c614d28e0f092ab88079ab04acb0544b3f700151fdae7c476f2d2c836e4448c5"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-explorer.md",
+          "sha256": "c594d5b59c211d61a119158c2a145b0e3408a930b6ce69c91f2aa1f465ab3576"
+        }
+      }
+    },
+    {
+      "pairing": "innocent-hero",
+      "cocktail": "Straight Up",
+      "personality": "The Underdog",
+      "words": [
+        "Sunny",
+        "Tropical",
+        "Zesty"
+      ],
+      "caption": "Sunny · Tropical · Zesty",
+      "rationale": "Mango syrup brightens a juniper-spirit sour with fresh lime. Sunny reflects its open fruit character and the unshowy pleasure of getting better.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-hero.md",
+          "sha256": "c17a86df19d5b6c4541269cf471d2617aae8b17819ee3a409953476ead34dcd1"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-hero.json",
+          "sha256": "f10f944316feef65c667ed9464eae3d9cf4f32b20ceb40aa7210c062fdda6dc4"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-hero.md",
+          "sha256": "865d25ae818e94a7ba58173221e2b99f715eb4100409ccb260acf6dfb6cee2bd"
+        }
+      }
+    },
+    {
+      "pairing": "innocent-jester",
+      "cocktail": "There It Goes",
+      "personality": "The Giggler",
+      "words": [
+        "Joyful",
+        "Citrusy",
+        "Bittersweet"
+      ],
+      "caption": "Joyful · Citrusy · Bittersweet",
+      "rationale": "Lemon, Aperol and Amaro Nonino meet bourbon, with salt rounding bitter edges. Joyful fits the bright balance and the spontaneous laugh.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-jester.md",
+          "sha256": "9272f836b83f92ab4302457bd48eeed98cf8d30fde2a71783b3d081e6401d073"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-jester.json",
+          "sha256": "d1321d4b1548b61cc4fd572163887a8cc8d9d9912f24232d8dd6b3eb03951db8"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-jester.md",
+          "sha256": "288656a4a4711333d3cad35c6b4e8758f15f5c3f2ebb112ef8b90f03e50311be"
+        }
+      }
+    },
+    {
+      "pairing": "innocent-lover",
+      "cocktail": "The Big Words",
+      "personality": "The Teenage Heart-throb",
+      "words": [
+        "Devoted",
+        "Fruity",
+        "Bittersweet"
+      ],
+      "caption": "Devoted · Fruity · Bittersweet",
+      "rationale": "Jamaican rum and vermouth meet dark orange amaro and a generous orange peel. Devoted reflects affection delivered openly rather than in hints.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-lover.md",
+          "sha256": "eafd8c6b9918b2526c6a07f09f966f4dd26b0b56385f8c82d0de0fb78e1e9910"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-lover.json",
+          "sha256": "5591b3e68351ff211d8045296f258ee8e28a306bed4daeaf31a6d9f0915e0744"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-lover.md",
+          "sha256": "3e39d95c8b8d8bd6fffdbc382d223841bebe0292c893d28fd61864d6344275ed"
+        }
+      }
+    },
+    {
+      "pairing": "innocent-magician",
+      "cocktail": "Let's Try It",
+      "personality": "The Dreamer",
+      "words": [
+        "Hopeful",
+        "Malty",
+        "Light"
+      ],
+      "caption": "Hopeful · Malty · Light",
+      "rationale": "A long, still whisky drink pairs Tasmanian malt with a small Scotch addition. Light describes the water-lengthened serve; Hopeful belongs to the reading's possibility.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-magician.md",
+          "sha256": "0e31715157840e4ec8b1f44469bfa551fb254545af34f0f2ffccdf334d0db807"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-magician.json",
+          "sha256": "1f7f9b6425e634857e3198a02d2cc8b1b9ec850f499ffc830e0dd211fa367e78"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-magician.md",
+          "sha256": "d00b765c797585d02d8b83ea408820116c103f814bf88f894c97bfee6113a613"
+        }
+      }
+    },
+    {
+      "pairing": "innocent-outlaw",
+      "cocktail": "Fresh Air",
+      "personality": "The Outsider",
+      "words": [
+        "Rustic",
+        "Appley",
+        "Tart"
+      ],
+      "caption": "Rustic · Appley · Tart",
+      "rationale": "Aged rum meets sharp, still farmhouse cider and raw apple. Rustic evokes the orchard-like simplicity of the Stone Fence, with no promise of fizz.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-outlaw.md",
+          "sha256": "1578f703658ce9825e80150daa386974bbc78e14215ee79b736c3ac982faa1bc"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-outlaw.json",
+          "sha256": "1b3fd51f025a0e80c252422e82a669d87b59772b087b32571a3e911585134ff6"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-outlaw.md",
+          "sha256": "d46a3fd1066fdd1ae4fee0ed2e72d6e3fa8afcfdfd9204be37a03150313ab98b"
+        }
+      }
+    },
+    {
+      "pairing": "innocent-regular-guy",
+      "cocktail": "Four Shares",
+      "personality": "The True Friend",
+      "words": [
+        "Convivial",
+        "Citrusy",
+        "Rounded"
+      ],
+      "caption": "Convivial · Citrusy · Rounded",
+      "rationale": "Rum, lemon oils, lemon juice and black tea build a shared punch. Convivial comes from the bowl and the care taken the night before.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-regular-guy.md",
+          "sha256": "abc68799f46b0c5b9d8efee1acc92aa1a64e5b68f8cf1c486b1f77d568cb485c"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-regular-guy.json",
+          "sha256": "76213f5d74f28dc05f18a8050fb2bbec5f9269cb78d232c31b15507e01438c13"
+        },
+        "room": null
+      }
+    },
+    {
+      "pairing": "innocent-ruler",
+      "cocktail": "Whole World",
+      "personality": "The Little Prince",
+      "words": [
+        "Elegant",
+        "Dry",
+        "Clean"
+      ],
+      "caption": "Elegant · Dry · Clean",
+      "rationale": "A measured gin Martini with a proper tablespoon of dry vermouth and lemon peel. Elegant evokes enjoying the ordinary classic without making it austere.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-ruler.md",
+          "sha256": "0c8af1f67c7052397a20e356ad3b406cf5482e8ffa9758c27381db71f60eeefa"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-ruler.json",
+          "sha256": "9de665be53d17d2ff19977f1ca7efa9c6b73afeb482baf5e72414e62d62e78a4"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-ruler.md",
+          "sha256": "a5fb305e9a35f204b8e236462cf0ca460053957603b3f365cb5fb266d40c7998"
+        }
+      }
+    },
+    {
+      "pairing": "innocent-sage",
+      "cocktail": "Just So You Know",
+      "personality": "The Wise Kid",
+      "words": [
+        "Candid",
+        "Zesty",
+        "Rounded"
+      ],
+      "caption": "Candid · Zesty · Rounded",
+      "rationale": "Bourbon and lemon are sweetened with sugar ground into the squeezed peel. Candid fits the small, useful truth offered kindly.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/innocent-sage.md",
+          "sha256": "722810a4da6d35f35c0766d9f5fb9998f4d0f554a9d4980a714ecffde46477a3"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/innocent-sage.json",
+          "sha256": "7b0c7a499829307bc13469865999c66a9c3b7d2e7ae20fd74a85c1713496027e"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/innocent-sage.md",
+          "sha256": "505daa9533e5c2e3f7b6598f719a8061cfac2d5004b2727a54e33f043ede3801"
+        }
+      }
+    },
+    {
+      "pairing": "jester-caregiver",
+      "cocktail": "Anyway",
+      "personality": "The Morale Booster",
+      "words": [
+        "Upbeat",
+        "Citrusy",
+        "Aromatic"
+      ],
+      "caption": "Upbeat · Citrusy · Aromatic",
+      "rationale": "Orange peel and cracked coriander scent a gin-and-vermouth drink with red aromatic bitters. Upbeat belongs to making a grey occasion good anyway.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-caregiver.md",
+          "sha256": "075b5da6aa8f73922774a459f652f0abf60f306aea923c4477a7aa5b8457b5ca"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-caregiver.json",
+          "sha256": "42ef8f166c1432081971bbeee36550397170de90107782852477591eac21d478"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-caregiver.md",
+          "sha256": "48b8383d3afc07a916496ab814186e36ff4a727d963296d5aee9e667fd6dd008"
+        }
+      }
+    },
+    {
+      "pairing": "jester-creator",
+      "cocktail": "For Kicks",
+      "personality": "The Wacky One",
+      "words": [
+        "Quirky",
+        "Nutty",
+        "Tart"
+      ],
+      "caption": "Quirky · Nutty · Tart",
+      "rationale": "Scotch and Irish whiskey meet lemon and almond orgeat; coffee beans sit on top. Quirky reflects taking a small absurdity one step further.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-creator.md",
+          "sha256": "be3be047a6267dc491f972e6c45a28323a2bf6c766d29c44d13c0110866d8348"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-creator.json",
+          "sha256": "6aa3484876dc95b7bc1e8f4c5666973a629410ffdc41ca7b32372dd2ed0909c8"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-creator.md",
+          "sha256": "2b11f80e7c6e6336cad4208f8b881c6de468ec31a38a3a03d92e9ed58ab55921"
+        }
+      }
+    },
+    {
+      "pairing": "jester-explorer",
+      "cocktail": "Unrehearsed",
+      "personality": "The Alternative Comic",
+      "words": [
+        "Impish",
+        "Spiced",
+        "Rounded"
+      ],
+      "caption": "Impish · Spiced · Rounded",
+      "rationale": "Rye and aged rum are sweetened with demerara and aromatic bitters, then revealed by cracked ice. Impish comes from the deliberate play in the service.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-explorer.md",
+          "sha256": "eb6a48c97a2cf35a9c4d57a7b277507edfb42bbbfba36a0f0229f188a0dbe59e"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-explorer.json",
+          "sha256": "e341a93a328c4a139aeb50780f256ff7e0c7819315e027037a9143a658bdda67"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-explorer.md",
+          "sha256": "fb2cc7baf81948067a02af2f3b79d065e4f6835de34a9c6e01993ce3fd67cc2b"
+        }
+      }
+    },
+    {
+      "pairing": "jester-hero",
+      "cocktail": "The Wink",
+      "personality": "The Wise Talker",
+      "words": [
+        "Roguish",
+        "Creamy",
+        "Smoky"
+      ],
+      "caption": "Roguish · Creamy · Smoky",
+      "rationale": "Mezcal, whole egg and milk make a creamy flip; a little mezcal is served separately in the shell. Roguish evokes the joke beside the generous glass.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-hero.md",
+          "sha256": "82eff8508ef1525cd6c0c17434e8a123e395d73f7ebfc948e8a877beba18bed8"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-hero.json",
+          "sha256": "9f7079ada50ebddd860a3e48976a63f5260c3d04bc42ca9de11235dc917c6284"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-hero.md",
+          "sha256": "690e1dd6d8df78e5c8d27d4913e9dc925f62d5fa5753a77c1565f73af51cb9d0"
+        }
+      }
+    },
+    {
+      "pairing": "jester-innocent",
+      "cocktail": "Off the Tour",
+      "personality": "The Naïf",
+      "words": [
+        "Carefree",
+        "Zesty",
+        "Aniseed"
+      ],
+      "caption": "Carefree · Zesty · Aniseed",
+      "rationale": "Rum and lime stay fresh under a tangerine-scented absinthe accent and bitters. Carefree evokes stepping outside the expected routine.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-innocent.md",
+          "sha256": "45a8811e8ff5bc7c2e43182fc355953322a79c54171de25909f72dbfde6c4d4d"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-innocent.json",
+          "sha256": "033530fd89eadb0f50bb9664041d6acfd0a4778df57552e0940e12eca57709da"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-innocent.md",
+          "sha256": "8e82be6149989d417cbcb30c369f52513d41d6a227e74e476571a8653442c64d"
+        }
+      }
+    },
+    {
+      "pairing": "jester-lover",
+      "cocktail": "I'll Tell You Later",
+      "personality": "The Tease",
+      "words": [
+        "Alluring",
+        "Roasty",
+        "Spiced"
+      ],
+      "caption": "Alluring · Roasty · Spiced",
+      "rationale": "Cognac and kirsch meet coffee, cinnamon and cloves, poured through a citrus spiral. Alluring belongs to the slowly revealed, aromatic service.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-lover.md",
+          "sha256": "ee99333c0d2a2951dae6596c62217b8362c1ef892f80213a852e5b8bdbae5b6a"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-lover.json",
+          "sha256": "75b8c2f5e6db060022514366a7901e4ee976449e068afa41cc2c1157cd41dbd6"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-lover.md",
+          "sha256": "d93627f8248032536864009db41e9eb91daa1c1f8c3e924b360195711582c735"
+        }
+      }
+    },
+    {
+      "pairing": "jester-magician",
+      "cocktail": "The Kind You'd Want",
+      "personality": "The Elf/Imp",
+      "words": [
+        "Impish",
+        "Appley",
+        "Fizzy"
+      ],
+      "caption": "Impish · Appley · Fizzy",
+      "rationale": "Apple brandy and dry vermouth are sweetened lightly and topped with soda. Impish reflects the small prepared trick that makes the room more fun.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-magician.md",
+          "sha256": "738888b8ef651b33726c2314358e8352f5b4599a60fb43fd613c3c41260c71b2"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-magician.json",
+          "sha256": "3ce67214f49a9e03f9d5fded29ed434c347ad55ac0e85d7af06da1780e50bd79"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-magician.md",
+          "sha256": "c64e078f095d05dac035990dddac103fec9a3a181e44d2b2eb4463737a2c3e8d"
+        }
+      }
+    },
+    {
+      "pairing": "jester-outlaw",
+      "cocktail": "Quote Me",
+      "personality": "The Scandalmonger",
+      "words": [
+        "Outspoken",
+        "Fruity",
+        "Rounded"
+      ],
+      "caption": "Outspoken · Fruity · Rounded",
+      "rationale": "Banana liqueur brings the Jamaican rum's fruit character into the open; measured water softens the spirit. Outspoken fits saying the thing plainly.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-outlaw.md",
+          "sha256": "ec150d4bc9558a8d5e01ed038764e349c3f6a885e2d265cbb3f180891f07f484"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-outlaw.json",
+          "sha256": "7f5485f4edccae8a156ef359801a8e409615a8a51bd424e4289bb9f6680bf97c"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-outlaw.md",
+          "sha256": "ca0ced5d4f1c9855ce24c153e932e367247edd2fe3d7b75239e11e1b82db843d"
+        }
+      }
+    },
+    {
+      "pairing": "jester-regular-guy",
+      "cocktail": "Is It Just Me",
+      "personality": "The Stand-up",
+      "words": [
+        "Convivial",
+        "Malty",
+        "Fruity"
+      ],
+      "caption": "Convivial · Malty · Fruity",
+      "rationale": "Apricot-steeped rye is served beside crisp pilsner. Convivial describes the two-glass encounter; the fruit and malt come from different parts of it.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-regular-guy.md",
+          "sha256": "47f6d62e4599eb516a33ecc4fcb2313e7133828b07c2cebeeaac2dd93b23c33a"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-regular-guy.json",
+          "sha256": "46084d90c084171eb83263afb9ca961ace6ef705273a016f1462be70ae2a3f9f"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-regular-guy.md",
+          "sha256": "b1f6ac35f7f57de07d59fa51deaf64c6e69c6213b4f22fda97ee07e571b9796c"
+        }
+      }
+    },
+    {
+      "pairing": "jester-ruler",
+      "cocktail": "Don't Look at Me",
+      "personality": "The Straight Man",
+      "words": [
+        "Deadpan",
+        "Dry",
+        "Fizzy"
+      ],
+      "caption": "Deadpan · Dry · Fizzy",
+      "rationale": "Rye, lime and sparkling mineral water make an unsweetened Rickey. Deadpan evokes the quiet delivery; Dry means there is no added sugar.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-ruler.md",
+          "sha256": "550a1c6762d58987202ff6c1f6293d6f59399bdf76cd60346a957f5cd071e192"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-ruler.json",
+          "sha256": "1102c953b4ceb43568c0f2325d85979dde89b57f597df5468610b14be9d3d38a"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-ruler.md",
+          "sha256": "d19e6dfef74ac3ce48d4dd6165bb353283f8e586232a30c5f28d543b4b899677"
+        }
+      }
+    },
+    {
+      "pairing": "jester-sage",
+      "cocktail": "Against My Better Judgement",
+      "personality": "The Cynic",
+      "words": [
+        "Wry",
+        "Fruity",
+        "Dry"
+      ],
+      "caption": "Wry · Fruity · Dry",
+      "rationale": "Bourbon and dry vermouth gain just enough pear syrup to balance them. Wry fits a dry-seeming drink with a little sweetness left in it.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/jester-sage.md",
+          "sha256": "b66ef03e4941302c3cea39fabc6f21f855f9f75a27c7c071bb07945637693ed3"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/jester-sage.json",
+          "sha256": "2052b3952e998294f49f1ce34a769fc874955f774500ac26bf11748ce5cc2871"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/jester-sage.md",
+          "sha256": "af0a640bd36429da2e74e557ec6406fd581b2973651bf7be7f63c1cf5c7f4b26"
+        }
+      }
+    },
+    {
+      "pairing": "lover-caregiver",
+      "cocktail": "Hoping You'd Come",
+      "personality": "The Geisha",
+      "words": [
+        "Welcoming",
+        "Fruity",
+        "Mellow"
+      ],
+      "caption": "Welcoming · Fruity · Mellow",
+      "rationale": "Roasted apple, brandy, sugar and water make a soft, cooled fruit drink. Welcoming belongs to the preparation done before the guest arrives.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-caregiver.md",
+          "sha256": "a7002eb4249be943539b71e2ac48bfb1bae8e6f316e86da58f73a3803f144c30"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-caregiver.json",
+          "sha256": "050c93b0d662e1db75a5000745d4b9a2b72647ec8dd9a272f631e347bdc540fe"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-caregiver.md",
+          "sha256": "cd07091cfe12bbf08c2df1978b01ad3cc677ddb11cec330971735dfd171fe509"
+        }
+      }
+    },
+    {
+      "pairing": "lover-creator",
+      "cocktail": "In Your Own Hand",
+      "personality": "The Muse",
+      "words": [
+        "Inspiring",
+        "Juicy",
+        "Minty"
+      ],
+      "caption": "Inspiring · Juicy · Minty",
+      "rationale": "Four fresh citrus juices lead a gin drink sweetened with mint syrup. Inspiring evokes encouraging something another person is still making.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-creator.md",
+          "sha256": "699835647c6a427f3c2152ff26636205e28d0b54bb958d23b32040dced5ececa"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-creator.json",
+          "sha256": "4c1fd1b2f6f189ca761aae8768bb3dd90f374790a0f25b6484ffedf5a0978898"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-creator.md",
+          "sha256": "a2743a7fa252cf33ca11ac4b66f551dcff12ea2a6e782797822eee516d4b9882"
+        }
+      }
+    },
+    {
+      "pairing": "lover-explorer",
+      "cocktail": "Curtain Call",
+      "personality": "The Pleasure Seeker",
+      "words": [
+        "Daring",
+        "Savoury",
+        "Tangy"
+      ],
+      "caption": "Daring · Savoury · Tangy",
+      "rationale": "Tomato, dry sherry, lemon and celery salt give a vodka drink savoury bite. Daring fits the guest's readiness to say yes to a different pleasure.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-explorer.md",
+          "sha256": "e9db31bfb39c56bc0b73a6fef7105b9328e072d3919d8a47e73049fac00e56f5"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-explorer.json",
+          "sha256": "e971874c31120c807496b534c5016a5376cb208d2c38f6f05160821e6e8bf846"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-explorer.md",
+          "sha256": "5f02bb4bfce0dfbe5b10232ff821d3834ee82c69071b586777e1dd7ea7142237"
+        }
+      }
+    },
+    {
+      "pairing": "lover-hero",
+      "cocktail": "Out of Your Way",
+      "personality": "The Knight in Shining Armour",
+      "words": [
+        "Gallant",
+        "Fruity",
+        "Spiced"
+      ],
+      "caption": "Gallant · Fruity · Spiced",
+      "rationale": "Red wine carries the fruit beside rye, demerara and bitters. Gallant evokes going out of your way; no citrus juice or sour structure is implied.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-hero.md",
+          "sha256": "8a0abda1241fffaf68159a7f74f6f84eed1e9fb15974c30f1d789c8402227366"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-hero.json",
+          "sha256": "fd3edf13ac2a87e57341dfe9028b3ef378d235c53be3140084619a592e6c59b0"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-hero.md",
+          "sha256": "fddd170c4947bf633f4e7051f1e7e071bfa36e60ffe19edacd73e55fd6f9f031"
+        }
+      }
+    },
+    {
+      "pairing": "lover-innocent",
+      "cocktail": "Wide Open",
+      "personality": "The Pure Heart",
+      "words": [
+        "Tender",
+        "Silky",
+        "Floral"
+      ],
+      "caption": "Tender · Silky · Floral",
+      "rationale": "Whisky and whole egg make a rich, silky flip with a faint lavender scent absorbed through the shell. Tender fits the openly affectionate reading.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-innocent.md",
+          "sha256": "ac8a52ca5dd25b897823b426ae29e06493fe170eaef2a12af83c21f2bd0ff303"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-innocent.json",
+          "sha256": "57d1e2555a519e13327fc7e58c267c41c410b168d55b289d6db9b4cce1d9bd51"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-innocent.md",
+          "sha256": "77c029f6fbec1a2f5082ffafeef222014999158868cffe7ebe329f7f0df4e028"
+        }
+      }
+    },
+    {
+      "pairing": "lover-jester",
+      "cocktail": "Only Half Joking",
+      "personality": "The Flirt",
+      "words": [
+        "Flirtatious",
+        "Floral",
+        "Tart"
+      ],
+      "caption": "Flirtatious · Floral · Tart",
+      "rationale": "Jasmine-tea syrup makes its flowers literal beside gin, lemon and a little Campari. Flirtatious comes from the half-joking invitation around it.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-jester.md",
+          "sha256": "025f8ccf33ebeff312c19244891edd402e2ef43390322be8270bcf0571345629"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-jester.json",
+          "sha256": "b70867d39ecc4e800390811be6af2a2df9bf63c07902220ad4559c9b4dfcb83a"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-jester.md",
+          "sha256": "0223f632e765ec23aa90f89d6ab1a9481ef3af1f0a151a46a9f546ad26b853ba"
+        }
+      }
+    },
+    {
+      "pairing": "lover-magician",
+      "cocktail": "Worth Finding",
+      "personality": "The Charmer",
+      "words": [
+        "Alluring",
+        "Herbal",
+        "Silky"
+      ],
+      "caption": "Alluring · Herbal · Silky",
+      "rationale": "Gin, shochu and blanc vermouth are stirred with shiso and strained clear. Alluring evokes the quiet depth behind an easy first conversation.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-magician.md",
+          "sha256": "c806042450381c8fc3a369782366a4cb4f9eb7f272c5f950d58455cfb24c46f1"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-magician.json",
+          "sha256": "1df0536606489cf6dc625c6db198fa931730593695552ae580900918c1e7cd66"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-magician.md",
+          "sha256": "b4819f29aff682dbd5b1b6ba604283b75c2232f3950789cbf18792db3dc103da"
+        }
+      }
+    },
+    {
+      "pairing": "lover-outlaw",
+      "cocktail": "Accomplices",
+      "personality": "The Bad Influence",
+      "words": [
+        "Tempting",
+        "Earthy",
+        "Bittersweet"
+      ],
+      "caption": "Tempting · Earthy · Bittersweet",
+      "rationale": "Beetroot-steeped sweet vermouth adds earthy sweetness beneath rye and curaçao. Tempting comes from the invitation to leave the polite evening together.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-outlaw.md",
+          "sha256": "1ec0bd1b86a8c0023e264b1f0d653c8caa2598b65165b8f3b48604aa4c138eaa"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-outlaw.json",
+          "sha256": "757e174f0300a20a721d6e9a9cd0d24f6bd2a78d2adddfc4a90f241213a0642e"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-outlaw.md",
+          "sha256": "784ae528713ba551af420bdb355b7ebd76d8d9dcc233c9327a64b2db149d6c22"
+        }
+      }
+    },
+    {
+      "pairing": "lover-regular-guy",
+      "cocktail": "Any Day",
+      "personality": "The Rough Diamond",
+      "words": [
+        "Lovable",
+        "Honeyed",
+        "Zesty"
+      ],
+      "caption": "Lovable · Honeyed · Zesty",
+      "rationale": "Bourbon, lemon and honey make a direct Gold Rush. Lovable reflects the unshowy care of a familiar, dependable drink.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-regular-guy.md",
+          "sha256": "d545c7e4def8bb3a85a117f79377cc6516c951e7f85fc1b5084ce61ec475df61"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-regular-guy.json",
+          "sha256": "f46881b7332c3f54e68fc625764e94112afce468c6cd4194cb2ad26be95c3ad1"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-regular-guy.md",
+          "sha256": "1696d29453fcb360f73f6eb22a9ce426f8fcdca3b668579fee3eb3e0ce862730"
+        }
+      }
+    },
+    {
+      "pairing": "lover-ruler",
+      "cocktail": "By Design",
+      "personality": "The Sex Symbol",
+      "words": [
+        "Seductive",
+        "Tropical",
+        "Tart"
+      ],
+      "caption": "Seductive · Tropical · Tart",
+      "rationale": "Pineapple and pomegranate meet strong white rum and fresh lime, with thyme in the syrup. Seductive evokes the deliberate, vivid construction.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-ruler.md",
+          "sha256": "b39fdd52c25328fd6e9b3c1f4a2dbc0d0af46e37932c1e03ad72a7e0a719302f"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-ruler.json",
+          "sha256": "e51d4662541f91f8dcaf09fea39a46f9fe97bd37021ec6b710af89f2f1a2e4d3"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-ruler.md",
+          "sha256": "ba2bf58c4acd0cd37b3422cee19dcea34e03034df180f030d5a19f0ccce4e131"
+        }
+      }
+    },
+    {
+      "pairing": "lover-sage",
+      "cocktail": "In Kind",
+      "personality": "The Romantic",
+      "words": [
+        "Romantic",
+        "Minty",
+        "Icy"
+      ],
+      "caption": "Romantic · Minty · Icy",
+      "rationale": "Bourbon and rich syrup sit under a large mint bouquet on pounded ice. Romantic belongs to the Julep's ode and the remembered detail offered back.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/lover-sage.md",
+          "sha256": "48f236c7e1fae579d945262d6f005d63bbd8ac8447e8b7d396d341ffee84f71b"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/lover-sage.json",
+          "sha256": "f654da6df66dbc1e869d8120eb9686d33dbcf6b26824f137c94f9d524e5e2b01"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/lover-sage.md",
+          "sha256": "297fedad726217aa2a335f4a9e3031a9d7624eb6b482069e0a84a71169a9d9db"
+        }
+      }
+    },
+    {
+      "pairing": "magician-caregiver",
+      "cocktail": "Their Night",
+      "personality": "The Fairy Godparent",
+      "words": [
+        "Enchanting",
+        "Aniseed",
+        "Spiced"
+      ],
+      "caption": "Enchanting · Aniseed · Spiced",
+      "rationale": "Sweet and dry Spanish anise spirits turn hazy when shaken; aromatic bitters add spice. Enchanting reflects the quiet work that makes someone else's night.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-caregiver.md",
+          "sha256": "847f9c7a3aedcb144c1ba0ddf571eebb2402fa7b87df99d0f07ae4a265e6a547"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-caregiver.json",
+          "sha256": "28568235e89f324f6977148dbe4eae5354df9057ec2323e64f545454ee9c04b0"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-caregiver.md",
+          "sha256": "4ca16930f9fa0ee103516777f0d9caf48d263a507c891934b02d28ee914a5f08"
+        }
+      }
+    },
+    {
+      "pairing": "magician-creator",
+      "cocktail": "On One Condition",
+      "personality": "The Genie",
+      "words": [
+        "Generous",
+        "Zesty",
+        "Herbal"
+      ],
+      "caption": "Generous · Zesty · Herbal",
+      "rationale": "Gin and vodka meet lemon, rosemary syrup and soda, with orange seasoning. Generous evokes making more of a request than the guest expected.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-creator.md",
+          "sha256": "3e1ad386b009e08e641c92dd018d039b60634cba747c51e520fdf834f6bdd47f"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-creator.json",
+          "sha256": "e6ea8d8c0c21206a47fd95944f1a2f0e08f6d3a30065428d46a83a5167085b70"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-creator.md",
+          "sha256": "6dccf72c8125b924e735f99768cba41f1ec48f5148875b55151142c6ced3f516"
+        }
+      }
+    },
+    {
+      "pairing": "magician-explorer",
+      "cocktail": "One More Adjustment",
+      "personality": "The Alchemist",
+      "words": [
+        "Intriguing",
+        "Mellow",
+        "Fruity"
+      ],
+      "caption": "Intriguing · Mellow · Fruity",
+      "rationale": "Light grain whisky, blanc vermouth and a teaspoon of calvados make a rounded stirred drink. Intriguing reflects a small adjustment that reveals another possibility.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-explorer.md",
+          "sha256": "bcb378a801c7b0d2605662aabc8618d8c339b3f5d77aa27d45f98d0f5ee54668"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-explorer.json",
+          "sha256": "f171ba936d57ac7df4a7c386da9e9d472e802c1dcd80e069195894341be1729d"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-explorer.md",
+          "sha256": "6f4164b92371f006f1f2afa5bb670b197e4c80dbcaeec932067cc1a4a974085b"
+        }
+      }
+    },
+    {
+      "pairing": "magician-hero",
+      "cocktail": "Worth the Trade",
+      "personality": "The Good Wizard",
+      "words": [
+        "Hopeful",
+        "Floral",
+        "Tangy"
+      ],
+      "caption": "Hopeful · Floral · Tangy",
+      "rationale": "Young Folle Blanche Armagnac adds flowers beside cognac; green-gooseberry syrup supplies the tang. Hopeful belongs to saving something while accepting a change.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-hero.md",
+          "sha256": "878d86bdbe9674fa19fcda3893ae0c61ba59522cb3df9c85ac9505762199a2b0"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-hero.json",
+          "sha256": "b4c6a2b7dfe606864723002af2bc77fa9d528665fe22ab6c0c16a9b617764508"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-hero.md",
+          "sha256": "e53ea53a5e83a4a2d27c848b9715944b08215d128bf4936062aa446a16d3187a"
+        }
+      }
+    },
+    {
+      "pairing": "magician-innocent",
+      "cocktail": "More Than One Head",
+      "personality": "The Sorcerer's Apprentice",
+      "words": [
+        "Buoyant",
+        "Fruity",
+        "Fizzy"
+      ],
+      "caption": "Buoyant · Fruity · Fizzy",
+      "rationale": "Strawberry-lemon cordial, blended Scotch and soda build a bright, expanding highball. Buoyant evokes the idea that grows beyond its first maker.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-innocent.md",
+          "sha256": "f0ee25772e4d38b1527635e3e9ca454bbf2f54e55ef902cd4dbabe1490e934b0"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-innocent.json",
+          "sha256": "360fa8756c71298c5cfff5424e1424ecbf44fc9aa79d31b45b4d4d5abafc3773"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-innocent.md",
+          "sha256": "4abb1916eda0caa7dede7dd1eb115a54855755a5bd26165035b29cdf246ccdad"
+        }
+      }
+    },
+    {
+      "pairing": "magician-jester",
+      "cocktail": "Even When You Know",
+      "personality": "The Illusionist",
+      "words": [
+        "Mesmerising",
+        "Earthy",
+        "Chocolatey"
+      ],
+      "caption": "Mesmerising · Earthy · Chocolatey",
+      "rationale": "Beetroot bourbon, tawny port and clear cacao liqueur arrive in separate layers. Mesmerising comes from seeing how the trick works and still watching it.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-jester.md",
+          "sha256": "dc37057b6d89ca83690b851547b45847772b55a496790b10de7836d52b7458c6"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-jester.json",
+          "sha256": "aba7a723cb354e0f887b160dd1ad828e50fdce26f07894dea2aae449dfd35a32"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-jester.md",
+          "sha256": "8b1deeee8dfaca1a4bb0fe175139c02952f33b49e52034a7e8132f3172c06e1f"
+        }
+      }
+    },
+    {
+      "pairing": "magician-lover",
+      "cocktail": "Undimmed",
+      "personality": "The Siren",
+      "words": [
+        "Magnetic",
+        "Dry",
+        "Citrusy"
+      ],
+      "caption": "Magnetic · Dry · Citrusy",
+      "rationale": "Freezer-cold vodka meets a little dry vermouth and freshly grated lemon zest. Magnetic reflects the intense, spare impression of the drink and its quiet reading.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-lover.md",
+          "sha256": "ab529a9cae1fc2c2cea68f84222cdeff2ba0587cdd1a19c37b77d0bd3c05d871"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-lover.json",
+          "sha256": "a51551b75bded2dc5fd993ef4f4853c06d367e275cf75958703693f1a2148b3c"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-lover.md",
+          "sha256": "7edd0d4cc033e160b574af831d11e63ab7b7097d8cdd38fe093ab81455c69b34"
+        }
+      }
+    },
+    {
+      "pairing": "magician-outlaw",
+      "cocktail": "No Accident",
+      "personality": "The Trickster",
+      "words": [
+        "Mischievous",
+        "Bittersweet",
+        "Sparkling"
+      ],
+      "caption": "Mischievous · Bittersweet · Sparkling",
+      "rationale": "Bourbon, orange liqueur and bitters meet dry champagne over a sugar cube. Mischievous belongs to the sweetness changing the drink as the cube dissolves.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-outlaw.md",
+          "sha256": "8ea126e76eb0208d2c4803ee6cc9e5956050935cdf209dcfcbcd19071e246e60"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-outlaw.json",
+          "sha256": "a5636074a572249271f9cc2d9f1da74cdb30c975deffde89068b45f5f02cc7d2"
+        },
+        "room": null
+      }
+    },
+    {
+      "pairing": "magician-regular-guy",
+      "cocktail": "Cold Water First",
+      "personality": "The Entertainer",
+      "words": [
+        "Dazzling",
+        "Smoky",
+        "Steamy"
+      ],
+      "caption": "Dazzling · Smoky · Steamy",
+      "rationale": "Islay and Irish whiskies meet demerara, lemon peel and hot water. Dazzling evokes the performer's craft; Steamy is the served temperature, not a health claim.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-regular-guy.md",
+          "sha256": "cef277860acf2c375b1b332f9aaf90035e8160aac2e0dc06d486f2d0b415529e"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-regular-guy.json",
+          "sha256": "a182431524aa8c9860ac8b6d812a66e8b3bc96004878b393a92b50d277ce0a59"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-regular-guy.md",
+          "sha256": "33079916c2abd79fb27cfc3c220bb3a6c71d9058c6fa01c5bc1d1f142cc8ea38"
+        }
+      }
+    },
+    {
+      "pairing": "magician-ruler",
+      "cocktail": "Built to Hold",
+      "personality": "The Omnipotent One",
+      "words": [
+        "Assured",
+        "Funky",
+        "Tangy"
+      ],
+      "caption": "Assured · Funky · Tangy",
+      "rationale": "Pungent Batavia arrack meets a sweet-sour Seville-orange shrub and still water. Assured fits a drink assembled to hold its intended balance.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-ruler.md",
+          "sha256": "d7d7a63f70a7e091c5e2f88f00b46174a591b5f9cb20e9163eb7ba8cdfb948b0"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-ruler.json",
+          "sha256": "1517dbe7cac2c03eae6f329390cb317a405e0589d0d9d3a7893cde01b18b8c56"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-ruler.md",
+          "sha256": "35cf395867739ab2d96beeef48217eeb27089adfeaeab4c4e3cb6750fcea23bb"
+        }
+      }
+    },
+    {
+      "pairing": "magician-sage",
+      "cocktail": "Already There",
+      "personality": "The Clairvoyant",
+      "words": [
+        "Intriguing",
+        "Herbal",
+        "Silky"
+      ],
+      "caption": "Intriguing · Herbal · Silky",
+      "rationale": "Young grappa meets sweet blanc vermouth scented with fig leaf. Herbal refers to leaf and vermouth, not fig fruit; Intriguing evokes seeing value in an overlooked part.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/magician-sage.md",
+          "sha256": "ae4e7a54030217b91fbf97a13b06cf133eac3abe9a1c2aa8396d7349dea269a0"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/magician-sage.json",
+          "sha256": "afcddd19190db24ec264917037cc531aaad5d0374311f5c80101e45133e18bb4"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/magician-sage.md",
+          "sha256": "2ad7b3cc286904a956213a5ea8faef300d8441b22c45640b890a450052f947d1"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-caregiver",
+      "cocktail": "In One Piece",
+      "personality": "The Gentle Giant",
+      "words": [
+        "Gentle",
+        "Gingery",
+        "Fizzy"
+      ],
+      "caption": "Gentle · Gingery · Fizzy",
+      "rationale": "Cognac and pale dry ginger ale are poured around a long lemon-peel spiral. Gentle reflects the drink's rounded long form and the considerate gesture.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-caregiver.md",
+          "sha256": "fde8da37e6107b799c77f2927178be646c7b9f3876fb535b621bb4a64cf38608"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-caregiver.json",
+          "sha256": "12c6feda7762325c9403c248e87c92b17bcb8028d37eaafbfb7dffa1aba73c90"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-caregiver.md",
+          "sha256": "957023b8392e107e6ece1e57e53da79ed07eb26c9f487d61dcedd7184a3a9658"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-creator",
+      "cocktail": "Asked In",
+      "personality": "The Rule Breaker",
+      "words": [
+        "Unconventional",
+        "Floral",
+        "Rounded"
+      ],
+      "caption": "Unconventional · Floral · Rounded",
+      "rationale": "Unpeated Speyside malt gains elderflower beside orange bitters. Unconventional comes from entering on your own terms; Floral is the actual liqueur accent.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-creator.md",
+          "sha256": "fcc5b36f0599f97188e7d95f08a5da76b3dc2005dc474218f9ea53d0d380426d"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-creator.json",
+          "sha256": "3dead215938fcc4effd5b2beab2c957774aaa37dd8a1738669188fb101e04d56"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-creator.md",
+          "sha256": "e022ee25c0bed4ca96eb1be9747fde6f77e668fccc3860b54fad197e313e2a5c"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-explorer",
+      "cocktail": "Whoopee",
+      "personality": "The Thrill Seeker",
+      "words": [
+        "Daring",
+        "Fruity",
+        "Bittersweet"
+      ],
+      "caption": "Daring · Fruity · Bittersweet",
+      "rationale": "Sloe gin and lemon meet dry gin and a small Cynar addition. Daring reflects the willing leap; sweet fruit and bitter seasoning remain both perceptible.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-explorer.md",
+          "sha256": "aa6033466d1f9f74208e31a32a8feb7d9f218f8fe47e428aa1599265cac31f86"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-explorer.json",
+          "sha256": "345bcfe3f368217d5c46cf87ab0c1b547b820f44884baa248239e851c3ca9d04"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-explorer.md",
+          "sha256": "9b0a0d29e122b327d3dd1313db0c4af1bf6cc23d6ae0e292b10da0459ae17aeb"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-hero",
+      "cocktail": "Can't Watch",
+      "personality": "The Maverick",
+      "words": [
+        "Defiant",
+        "Earthy",
+        "Herbal"
+      ],
+      "caption": "Defiant · Earthy · Herbal",
+      "rationale": "Palm-sap spirit and gin meet sweet vermouth and orange oils. Earthy comes from the named spirit's sourced tasting description; Defiant belongs to the rule challenged.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-hero.md",
+          "sha256": "d7e7faacfb07e0217c832b1917aa2f5125f74062cd54362901b63d6885584f41"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-hero.json",
+          "sha256": "bccea97bc7f179a483d516d721ee4ad64f873effab06bd32462cbdf2279d5c32"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-hero.md",
+          "sha256": "a101f72dcbfc88c9f029853a4e5b7a3118d60ced32ab5ac9671b4e72fd669884"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-innocent",
+      "cocktail": "Kept",
+      "personality": "The Adolescent",
+      "words": [
+        "Uncompromising",
+        "Herbal",
+        "Rounded"
+      ],
+      "caption": "Uncompromising · Herbal · Rounded",
+      "rationale": "Armagnac is seasoned with yellow Chartreuse, bitters and a small syrup measure. Uncompromising evokes keeping the thing worth keeping rather than reflexively refusing it.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-innocent.md",
+          "sha256": "f02d0031e64cde7f622e4352ce4ef131fe3d3f50178fc677e3001ec16b1aee91"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-innocent.json",
+          "sha256": "96eda36d939db02a3b9742e41812e3a019d580ebdfb73aad0931e584afe65073"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-innocent.md",
+          "sha256": "a21c3428a51522132e7cebd9b7c3a59b1452b7e79788a6662c8b592b1c2b4334"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-jester",
+      "cocktail": "With the Bite In",
+      "personality": "The Subverter",
+      "words": [
+        "Irreverent",
+        "Zesty",
+        "Fizzy"
+      ],
+      "caption": "Irreverent · Zesty · Fizzy",
+      "rationale": "Aged rum, cola, lime and bitters make a familiar long drink with its bite kept in. Irreverent fits puncturing the shared pretence.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-jester.md",
+          "sha256": "0e4f5643f1f530d4cb2dc939912c319607592229e2887db9230b99b590bf1b9c"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-jester.json",
+          "sha256": "d654765ae71d8ba949cd1244345e56eeba5c57278b5262f3d6a0d23be2d69b49"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-jester.md",
+          "sha256": "df8d83a85dd697552fdefc77338c3b9344814f86b47c66f1798ba9cdd1bffba7"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-lover",
+      "cocktail": "Rent-Free",
+      "personality": "The Fugitive",
+      "words": [
+        "Liberating",
+        "Dry",
+        "Herbal"
+      ],
+      "caption": "Liberating · Dry · Herbal",
+      "rationale": "Dry white wine takes bay-leaf scent overnight, then becomes a light spritzer. Liberating evokes choosing your own way; there is no added sugar.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-lover.md",
+          "sha256": "4f73cccfab40acd456792899d8714683b0e638f986c4e62d43f400c8558da85b"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-lover.json",
+          "sha256": "a879424d9b0470beb32a0e90996d926a2184b4a82599ec7e216d1b1d8d06c875"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-lover.md",
+          "sha256": "db226b7cdb8760065b9f93f6fbe2f56d7e8ef4d07ddf60145094fd97d1745f76"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-magician",
+      "cocktail": "For Its Own Good",
+      "personality": "The Disrupter",
+      "words": [
+        "Provocative",
+        "Fruity",
+        "Bold"
+      ],
+      "caption": "Provocative · Fruity · Bold",
+      "rationale": "Young grappa is sweetened with Nebbiolo wine syrup and orange bitters. Provocative fits giving the once-dismissed spirit the central place in the drink.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-magician.md",
+          "sha256": "cbade9a12de397423397a343c1e012fbd9307cc50bfcb7a48da9dedde444e837"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-magician.json",
+          "sha256": "1a3338e2c7920e17b6220b80650bb903fa42ec1a3b52cb4f50e55d025d25a996"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-magician.md",
+          "sha256": "a546db17def9719823518e68b9c792e3d6eac01a16c35511c68ef0df472b803e"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-regular-guy",
+      "cocktail": "Where You Stand",
+      "personality": "The Gangster",
+      "words": [
+        "Loyal",
+        "Rounded",
+        "Spiced"
+      ],
+      "caption": "Loyal · Rounded · Spiced",
+      "rationale": "Canadian whisky meets measured maple syrup, a little curaçao and bitters. Loyal reflects knowing where you stand; Rounded comes from the controlled sweetening.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-regular-guy.md",
+          "sha256": "c52edc7d124b4ced31b7a4c38c5b87723364ee713448422faf3151ad75511d59"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-regular-guy.json",
+          "sha256": "4b075753adc20c78be601630fd9333815a569546b52cadf5d1fe51d84e88c00f"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-regular-guy.md",
+          "sha256": "eab1ffadd7c6087438bcddda53085643e7a52e11e99932eb8a7920871a91d1ff"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-ruler",
+      "cocktail": "Before It Had a Name",
+      "personality": "The Leading Edge",
+      "words": [
+        "Audacious",
+        "Fruity",
+        "Tart"
+      ],
+      "caption": "Audacious · Fruity · Tart",
+      "rationale": "Rye and triple sec meet lemon and perfumed quince paste. Audacious fits recognising and giving form to something before it has a familiar name.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-ruler.md",
+          "sha256": "2ad5f57964b5b104473214f390948bc0780b2ff2acae2b1ecbf58b7bf56b793f"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-ruler.json",
+          "sha256": "777256ea19c93ae1ab2cce4281dfdb0ef6b38e09c85d851dd94494a7458b4ba1"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-ruler.md",
+          "sha256": "d45b555ea75fb56325fe36bf631e408068b4b04cf6c637fcac3423d47f41dff7"
+        }
+      }
+    },
+    {
+      "pairing": "outlaw-sage",
+      "cocktail": "Hear Me Out",
+      "personality": "The Devil's Advocate",
+      "words": [
+        "Contrarian",
+        "Nutty",
+        "Velvety"
+      ],
+      "caption": "Contrarian · Nutty · Velvety",
+      "rationale": "Amaretto brings the almond-like flavour; bourbon, lemon and sherry vinegar balance it under egg-white foam. Contrarian evokes questioning the easy verdict on a sweet bottle.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/outlaw-sage.md",
+          "sha256": "75953bd7cfd67049ed99bf81b5ec73e04b8a92366d554ec71f1a150b7f977e6c"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/outlaw-sage.json",
+          "sha256": "19cc3a721388ed1476111dafcda2feb8e33252164ba2b0373d4c7f0d5b03adff"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/outlaw-sage.md",
+          "sha256": "8b57eafe5cb84b4f072d17632637e6f19cbec87038eb1e09f23da91be967b84a"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-caregiver",
+      "cocktail": "Whoever Comes In",
+      "personality": "The Good Samaritan",
+      "words": [
+        "Welcoming",
+        "Roasty",
+        "Earthy"
+      ],
+      "caption": "Welcoming · Roasty · Earthy",
+      "rationale": "Espresso and roasted-parsnip syrup are shaken with brandy. Welcoming evokes the open invitation; roast and root flavours give it depth beyond plain coffee.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-caregiver.md",
+          "sha256": "bf0ac7d1bd7614cd9d3dd37d8e64f90d84ebab379eef8062c748e711c623f8e6"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-caregiver.json",
+          "sha256": "c757dff27db3fdde51629aef88e655f1ae7f59c6c24e9f1a14e63d770623c484"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-caregiver.md",
+          "sha256": "3666fc0c80a945590f57ab0241e56c6b424682d23cc346a6200e96e5436b1e44"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-creator",
+      "cocktail": "Right Here",
+      "personality": "The Hidden Talent",
+      "words": [
+        "Unassuming",
+        "Herbal",
+        "Rounded"
+      ],
+      "caption": "Unassuming · Herbal · Rounded",
+      "rationale": "Liquorice-root syrup draws out a botanical note in juniper-led gin, with aromatic bitters. Unassuming belongs to a familiar-looking drink with a quietly distinctive skill.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-creator.md",
+          "sha256": "bb5d5e1cfc8230018c7645806ca83e96a3c2d021b94221ff62b5337dfa23391c"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-creator.json",
+          "sha256": "11cd82457258dc1e2c7d9787521e4656ff5cbc5261ab88c03ed253ceee1f6a00"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-creator.md",
+          "sha256": "5d6826a113d703c2fcad9fd631f2873d4a48217fc46fd7a2a7eb935515108174"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-explorer",
+      "cocktail": "Loose on Top",
+      "personality": "The Entrepreneur",
+      "words": [
+        "Spirited",
+        "Citrusy",
+        "Tart"
+      ],
+      "caption": "Spirited · Citrusy · Tart",
+      "rationale": "Blanco tequila, triple sec and lime make a Margarita, lifted with grapefruit peel. Spirited evokes making your own opening rather than the alcohol's strength alone.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-explorer.md",
+          "sha256": "187a77361f07ae4865feae56582cbe7bc576fb08c49a9d146173e178c72caa04"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-explorer.json",
+          "sha256": "8927620091dfdfbf2e27433c9b07d48a3bd75df08fdab65b365c575d07bba8ef"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-explorer.md",
+          "sha256": "2178d893ccfb19d18fd98b6a2ea6970ff2522de5120d5f797af1c8a9ccb6c7c3"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-hero",
+      "cocktail": "I'll Do It",
+      "personality": "The Have A Go Hero",
+      "words": [
+        "Gutsy",
+        "Fruity",
+        "Spiced"
+      ],
+      "caption": "Gutsy · Fruity · Spiced",
+      "rationale": "Apple brandy joins rye in a vermouth-and-bitters drink. Gutsy belongs to the willingness to help before knowing the whole job.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-hero.md",
+          "sha256": "f3b4f00c9647476a39d79a733a2ff2171a2c232aefbd320151ecaf02bce724d3"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-hero.json",
+          "sha256": "cebe74543ccf70a553696fa2bc7ad3192923c2bfd3c77c8201b20c3aa3b92b25"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-hero.md",
+          "sha256": "ca118ea9a6261a0e3923958195cb874de447a433cf32494f1b78762df8ca72ec"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-innocent",
+      "cocktail": "Good as It Is",
+      "personality": "The Bumpkin",
+      "words": [
+        "Carefree",
+        "Zesty",
+        "Icy"
+      ],
+      "caption": "Carefree · Zesty · Icy",
+      "rationale": "Cachaça meets lime pieces, coarse sugar and cracked ice. Carefree evokes enjoying the uncomplicated pleasure of a Caipirinha without dressing it up.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-innocent.md",
+          "sha256": "0bbc20e53dc0d2c21ac04b8e2d45ae98ab887f4a0a0a099d84f1757b0b87fe1d"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-innocent.json",
+          "sha256": "fa75f17a43df4fb9e18cbf9d5efe885392f0bc8ebe1b5bbb57af88bad0c15de6"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-innocent.md",
+          "sha256": "3ce5c95b2389d5e8da311a8b7cb7865a7373e9c7902c472a1d39b6a4df30864b"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-jester",
+      "cocktail": "Got You",
+      "personality": "The Prankster",
+      "words": [
+        "Cheeky",
+        "Bitter",
+        "Grapefruity"
+      ],
+      "caption": "Cheeky · Bitter · Grapefruity",
+      "rationale": "Malört and frozen grapefruit supply a pronounced bitter-tart profile, rounded with maple and salt. Cheeky evokes the willing prank, without promising a gentle drink.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-jester.md",
+          "sha256": "aa5bec266152ff757032304ab7ccbe8fe686a27e1a194fde42d54bc0ada210b1"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-jester.json",
+          "sha256": "b29980bb7f1fc79f1f6dfc3f6433adb7da6f5eb142fda55f6f892d460072e776"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-jester.md",
+          "sha256": "ab952b5702b736431337c20cc3e52b7b01d0ba2827681063549f6475f59df868"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-lover",
+      "cocktail": "First Choice",
+      "personality": "The One Next Door",
+      "words": [
+        "Affectionate",
+        "Fruity",
+        "Rounded"
+      ],
+      "caption": "Affectionate · Fruity · Rounded",
+      "rationale": "Amber rum and sweet vermouth meet lemon and a soft brandied peach. Affectionate belongs to making time for an ordinary ingredient to become someone's first choice.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-lover.md",
+          "sha256": "f89f1d2d49caa753002575070036e322840922918c2617032957645871e36042"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-lover.json",
+          "sha256": "c9056cedc2978c10f548bb34ace48ae44fb4ec006ee8e45593a4e4bcd17a2838"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-lover.md",
+          "sha256": "6ff4a20380b1f5525856ed43486698470f6715f4c8c91c0464e91eda59c98dc2"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-magician",
+      "cocktail": "Good for Years",
+      "personality": "The Mechanic",
+      "words": [
+        "Lovable",
+        "Smoky",
+        "Bittersweet"
+      ],
+      "caption": "Lovable · Smoky · Bittersweet",
+      "rationale": "Mezcal meets orange marmalade for both sugar and bitter peel. Lovable comes from the unpretentious marmalade-jar gesture; the drink remains spirit-forward.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-magician.md",
+          "sha256": "d53f5fdaad14996b87ae7efcb9978d642a0fde68a8cb2bd906eb44cc67aeb3e9"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-magician.json",
+          "sha256": "713e586ce0026d0b3d7fcb7e59f67107ec2c0e422b55174f390b706fdbdb8632"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-magician.md",
+          "sha256": "d0f4187c2f698285b4adfe5250b2613211ae6438fddb6c9fbc8adb1f7bb26dd0"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-outlaw",
+      "cocktail": "Just This Once",
+      "personality": "The Scoundrel",
+      "words": [
+        "Irresistible",
+        "Zesty",
+        "Sparkling"
+      ],
+      "caption": "Irresistible · Zesty · Sparkling",
+      "rationale": "Gin, lemon and syrup are lengthened with brut champagne. Irresistible evokes the charm of asking successfully for just one exception.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-outlaw.md",
+          "sha256": "4e468776f47b86a4b1cce7437724ad19f640e0cf2071fc53489a23559f962ba2"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-outlaw.json",
+          "sha256": "5569691b6eab1334f370265ae48f653e88ca08024573a9a0b41a925cbd326ac7"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-outlaw.md",
+          "sha256": "14876eeec5d95e02b5a664382d975272918eb712b18a3b4be3da78b2ecd5683a"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-ruler",
+      "cocktail": "Word Gets Round",
+      "personality": "The People's Champion",
+      "words": [
+        "Empowering",
+        "Fruity",
+        "Tart"
+      ],
+      "caption": "Empowering · Fruity · Tart",
+      "rationale": "Apple brandy, pomegranate grenadine and measured lime or lemon make a fruit-led sour. Empowering comes from the reading's shared practical knowledge, not an alcohol effect.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-ruler.md",
+          "sha256": "d2d94c473eb6a2f4de5d60f45b1c7a7f3ffbca723e47ded44898d21a72cf65a3"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-ruler.json",
+          "sha256": "58729d5a9851e7e1e2241047849c213ce817a5bc09b2a1d3df7e352e92d574a2"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-ruler.md",
+          "sha256": "b066538b8be65baef5d907d9d65f368910f34c7ec7948dfd6b1bbec9e5012ad8"
+        }
+      }
+    },
+    {
+      "pairing": "regular-guy-sage",
+      "cocktail": "Tried and True",
+      "personality": "The Everyman",
+      "words": [
+        "Familiar",
+        "Fruity",
+        "Herbal"
+      ],
+      "caption": "Familiar · Fruity · Herbal",
+      "rationale": "Sloe gin and dry gin meet dry vermouth, with the gin split adjusted to the bottle's sweetness. Familiar evokes the remembered advice behind the repeatable recipe.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/regular-guy-sage.md",
+          "sha256": "539f8ac7e9c2f284bee34bda366c0a2a24263d9072fb229b32339f49cb4dd815"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/regular-guy-sage.json",
+          "sha256": "1b916f3d962d024803aa93d1b29f90882348a0b11770a963d9272dcaf5caec66"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/regular-guy-sage.md",
+          "sha256": "16645e6c55fc599224fe3b6fe412d18e060d5632acab9a146fc7847b4cfe53d2"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-caregiver",
+      "cocktail": "Go On",
+      "personality": "The Caring Leader",
+      "words": [
+        "Gracious",
+        "Citrusy",
+        "Rounded"
+      ],
+      "caption": "Gracious · Citrusy · Rounded",
+      "rationale": "Cognac and sweet vermouth are scented with mandarin liqueur and peel. Gracious comes from letting the conversation finish before delivering the drink.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-caregiver.md",
+          "sha256": "6ed665cb2644bce768c4c7bb3e0ff57c046b5cea0bf26419e55f368c7538e392"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-caregiver.json",
+          "sha256": "3519d83b234b494b40c7b9b1341c34021b7f2ba1241fdea2aefb96361a245168"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-caregiver.md",
+          "sha256": "0f463fc98e67cf518fa2315f05ba4dddb8b7a203045455e2ca2f25e131652340"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-creator",
+      "cocktail": "On Their Behalf",
+      "personality": "The Perfectionist",
+      "words": [
+        "Polished",
+        "Citrusy",
+        "Tart"
+      ],
+      "caption": "Polished · Citrusy · Tart",
+      "rationale": "Bourbon, lemon and curaçao form a Daisy with a little dry vermouth and soda. Polished reflects the deliberate finish and care offered on another's behalf.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-creator.md",
+          "sha256": "cf65d6c87f55fdb8e0b28b0c3244769e62f23da98112a71a82891c0a575eecfe"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-creator.json",
+          "sha256": "8990be04c28207278cc101bfc083e32defec2d7da90905c09848aa30f8d53754"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-creator.md",
+          "sha256": "8b1df9d62dbe9bd101508362c096772982e373740368b84f6d644d5f9fae8e9e"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-explorer",
+      "cocktail": "Not the Same",
+      "personality": "The Reformer",
+      "words": [
+        "Elegant",
+        "Zesty",
+        "Fruity"
+      ],
+      "caption": "Elegant · Zesty · Fruity",
+      "rationale": "A vodka-and-lemon sour enters a glass coated with dry apricot eau-de-vie. Elegant comes from preserving the old gesture while changing the drink around it.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-explorer.md",
+          "sha256": "1cffdd30c8def791c5734aad91010348966911a4cefcbf0f108321d89fa97e88"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-explorer.json",
+          "sha256": "19e13bd27acbd34e99713a77a80220bbc5ef112d1c1e83fc7c9cdb081b9b8489"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-explorer.md",
+          "sha256": "9db40c21444ad637504cee967654713dffbc2d70c9595d87aaf11d5078535b5e"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-hero",
+      "cocktail": "A Place Kept",
+      "personality": "The Noble Ruler",
+      "words": [
+        "Noble",
+        "Fruity",
+        "Tart"
+      ],
+      "caption": "Noble · Fruity · Tart",
+      "rationale": "A lemon-and-bourbon sour sits beneath a float of dry red wine. Noble evokes the place kept for others; the wine gives the fruit at the opening sip.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-hero.md",
+          "sha256": "25eaf0aeb95c79a1b7d2fd0cf3fb49d8e8ce86f382296594122b045821f571f6"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-hero.json",
+          "sha256": "c3ad940c27cb71221280b15cab53130bec0bdad760905aed9bd0030a5d628b37"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-hero.md",
+          "sha256": "7780353530008d75ae3c6184bb3a0bc05340c09eb989e1d76cebff1d08150135"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-innocent",
+      "cocktail": "Say So",
+      "personality": "The Diva",
+      "words": [
+        "Opulent",
+        "Herbal",
+        "Luscious"
+      ],
+      "caption": "Opulent · Herbal · Luscious",
+      "rationale": "Dry vermouth and gin meet sweet Tokaji wine and orange bitters. Luscious refers to the wine's rich sweetness; Opulent evokes asking for the version you truly want.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-innocent.md",
+          "sha256": "48810514b2c10960d9f785a71d951fe3ea815e3493346a97a5cbb5b41f6a10d2"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-innocent.json",
+          "sha256": "8f6341416adf2b4baa3c139657380932d7ddf9701ef3facfa1c232a86854a463"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-innocent.md",
+          "sha256": "eedfdf219eb5ab3bf2ba6b9049ca3e85562e24a4350a3fba96726eac4715c28b"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-jester",
+      "cocktail": "Who's In?",
+      "personality": "The Charismatic Leader",
+      "words": [
+        "Charismatic",
+        "Fruity",
+        "Minty"
+      ],
+      "caption": "Charismatic · Fruity · Minty",
+      "rationale": "Raspberry-cumin syrup, lime and mint make a vivid vodka drink on crushed ice. Charismatic comes from inviting others into the next small choice.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-jester.md",
+          "sha256": "a9a23e40214f9214df47899619b28b6e32b5122fff8404b9d03829b25e682f22"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-jester.json",
+          "sha256": "0f1e04f81a4958691d5ac6a2557a63b4e78b89359f85ebd658e792a8d6fa1683"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-jester.md",
+          "sha256": "c82c3ded462b4bef619578db493c7edefc8c7ff89cdceffe3f555f26d072ce11"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-lover",
+      "cocktail": "Up Close",
+      "personality": "The Magnetic Leader",
+      "words": [
+        "Magnetic",
+        "Fruity",
+        "Spiced"
+      ],
+      "caption": "Magnetic · Fruity · Spiced",
+      "rationale": "Fresh pineapple is strained out of a rye-and-vermouth drink but leaves its taste beside bitters. Magnetic reflects attention that remains after the gesture.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-lover.md",
+          "sha256": "9a4f2dec62a81214f1e13e26e509a7f7e799c13088036c0bdcf83ffc412af3fd"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-lover.json",
+          "sha256": "773f6ac218274be51adcb82d3e9a10a7304fee047034f65270d414816151f436"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-lover.md",
+          "sha256": "822872cf06e9df585594a001bddeeaf96505aaae5e72939e067f2e3bb843aa71"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-magician",
+      "cocktail": "The Long View",
+      "personality": "The Legend",
+      "words": [
+        "Majestic",
+        "Citrusy",
+        "Tart"
+      ],
+      "caption": "Majestic · Citrusy · Tart",
+      "rationale": "Rye and a little rum meet orange juice sharpened with citrus acids. Majestic evokes the long view carried by a substantial, bright sour.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-magician.md",
+          "sha256": "5457018d1dd14a842408777d809f3d3d364374d0f80af29bf86b7d30d02eab93"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-magician.json",
+          "sha256": "ec92e2b724b7f0c3b89c08439486ac766e75ced8ea69ecb53944f4c63dd8ddbc"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-magician.md",
+          "sha256": "f6008164fedc81fcf1ce6f339e5376a2caf5617e721555ec687e1ac22766fba1"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-outlaw",
+      "cocktail": "Had to Be Serious",
+      "personality": "The Revolutionary",
+      "words": [
+        "Rebellious",
+        "Fruity",
+        "Fizzy"
+      ],
+      "caption": "Rebellious · Fruity · Fizzy",
+      "rationale": "Pimm's keeps strawberry, cucumber and mint, while Peychaud's joins it beside lemon and soda. Rebellious belongs to letting the new idea into an existing structure.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-outlaw.md",
+          "sha256": "c138b1646bccf1be9b43e6e408012e7f77e2c93745f51b73b11acc765ac798d9"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-outlaw.json",
+          "sha256": "2a140c83936cb4c1d04bfbaa01d655a769bf7499b3e1ecb44ab2509b95283370"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-outlaw.md",
+          "sha256": "0e142e5d1b6313cd565efb6b93e72f16fadbaba870d94710254a57b2cd6e66e9"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-regular-guy",
+      "cocktail": "One Table",
+      "personality": "The People's Representative",
+      "words": [
+        "Diplomatic",
+        "Spiced",
+        "Silky"
+      ],
+      "caption": "Diplomatic · Spiced · Silky",
+      "rationale": "Rye and cognac share a stirred vermouth drink, with cardamom and Bénédictine. Diplomatic evokes bringing both sides in without disguising either spirit.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-regular-guy.md",
+          "sha256": "d441549fbbc37aa3cfeaeb4179bae43bb127f94321914293eb4e4d5e70ed8d86"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-regular-guy.json",
+          "sha256": "9f26d81cdc9b32370eab7816e7b21cdaab90011ab71b1d44717cf2ecf52f898d"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-regular-guy.md",
+          "sha256": "a826509dd24a991ac676b234665b91e44f1998193f85e3d7c418b4d00bfe3a62"
+        }
+      }
+    },
+    {
+      "pairing": "ruler-sage",
+      "cocktail": "Either Way",
+      "personality": "The Judge",
+      "words": [
+        "Composed",
+        "Malty",
+        "Rounded"
+      ],
+      "caption": "Composed · Malty · Rounded",
+      "rationale": "Blended Scotch is sweetened with a little barley-malt syrup and aromatic bitters. Composed fits hearing the argument through before reaching a decision.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/ruler-sage.md",
+          "sha256": "a5af839fece46706d288445f9f3c530359f59f4587b20c8d06780f7c93e0e9b1"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/ruler-sage.json",
+          "sha256": "c0050505176646a233e63e56a4decd104ae44f5c2ef81e3d720e8bd3491e1424"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/ruler-sage.md",
+          "sha256": "2f81933885837809d7585d731df7747d1761731d2435fe326820373ae506c3fc"
+        }
+      }
+    },
+    {
+      "pairing": "sage-caregiver",
+      "cocktail": "Further Than Me",
+      "personality": "The Mentor",
+      "words": [
+        "Encouraging",
+        "Zesty",
+        "Herbal"
+      ],
+      "caption": "Encouraging · Zesty · Herbal",
+      "rationale": "Mint and tarragon are shaken with gin and lemon, then finished with soda. Encouraging belongs to the invitation to discover what the other person now knows.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-caregiver.md",
+          "sha256": "281f90b78106ec55533e89169657d77875855c9c0ce90b09afdf10d92a60986b"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-caregiver.json",
+          "sha256": "397c3f3bc87ff0e5a67da66fb0072dd8f296c7004984c0af4ebfe077015e9eb9"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/sage-caregiver.md",
+          "sha256": "c1ff52109d7ad2140eed28e15918c1ee0b451ca497994e480d49b42bf9098d2c"
+        }
+      }
+    },
+    {
+      "pairing": "sage-creator",
+      "cocktail": "What It Rests On",
+      "personality": "The Architect",
+      "words": [
+        "Ingenious",
+        "Toasty",
+        "Spiced"
+      ],
+      "caption": "Ingenious · Toasty · Spiced",
+      "rationale": "Popcorn-steeped demerara syrup gives a bourbon Old-Fashioned a toasted grain accent. Ingenious evokes the hidden construction that makes the finished thing work.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-creator.md",
+          "sha256": "7c38df0b92c05fe28d3a6099e558c707cef13383521dc8c3ef236a05f9009f14"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-creator.json",
+          "sha256": "12fe4894bbd2afd62132061b0c888c94527d8a59e350cb3fe7a4cf2b26063ca2"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/sage-creator.md",
+          "sha256": "03222dfe7128ba2d46a235c43aa2a670426d9a128533021343cb8a05c17f544e"
+        }
+      }
+    },
+    {
+      "pairing": "sage-explorer",
+      "cocktail": "Look Again",
+      "personality": "The Philosopher",
+      "words": [
+        "Reflective",
+        "Malty",
+        "Rounded"
+      ],
+      "caption": "Reflective · Malty · Rounded",
+      "rationale": "Old-style genever keeps its malt character over a small brandy base, with syrup and bitters. Reflective comes from looking behind a neat explanation.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-explorer.md",
+          "sha256": "1c7f9612f83dcf1d841ac7b6fddb8b51b7ac690e5e91eed39d5a83d2eb7478d3"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-explorer.json",
+          "sha256": "d376af4449ae4e842ba360c96a4cf686b6a531d1cd5f7a6f2646cc256cdd306d"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/sage-explorer.md",
+          "sha256": "0e44ecdf889fd9a93cc38b0696b120bfed38e61b535ab18c93d273d497c71852"
+        }
+      }
+    },
+    {
+      "pairing": "sage-hero",
+      "cocktail": "At the Time",
+      "personality": "The Grandmaster",
+      "words": [
+        "Contemplative",
+        "Roasty",
+        "Bold"
+      ],
+      "caption": "Contemplative · Roasty · Bold",
+      "rationale": "Barrel-proof rye gives the opening Old-Fashioned its presence; the coffee block adds roast as it melts. Contemplative belongs to the drink's unfolding over time.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-hero.md",
+          "sha256": "80c300de60eec4d005e5014b8ca100b9262e939a7dde93ad1e09b3c9bbdeb1b1"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-hero.json",
+          "sha256": "ba260086f57e749d546ad42c729079c470c15d64521e4fc21662ca85209971ef"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/sage-hero.md",
+          "sha256": "8274e0870a3ef31e59283741642fc8819a52187fa09df21f2270b72c0491d4e3"
+        }
+      }
+    },
+    {
+      "pairing": "sage-innocent",
+      "cocktail": "Nothing Escaped You",
+      "personality": "The Prodigy",
+      "words": [
+        "Luminous",
+        "Fruity",
+        "Tart"
+      ],
+      "caption": "Luminous · Fruity · Tart",
+      "rationale": "Pisco, orange liqueur and blanc vermouth meet white verjus. Luminous evokes a clear, precise drink; the grapes' acid supplies its actual tartness.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-innocent.md",
+          "sha256": "e2f144c259cf4b269c9731e3bc1e50cee63f308f5b312b3948d77e7c2ff78cc4"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-innocent.json",
+          "sha256": "6579233a22778ecd5b625600822e72607f38ac3700eb3fd49a7c1b041affa47d"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/sage-innocent.md",
+          "sha256": "3d66a120b91cf8f7ec75ea833f925ad83266e62352b63b3f3378b2bdc569ea32"
+        }
+      }
+    },
+    {
+      "pairing": "sage-jester",
+      "cocktail": "In Good Part",
+      "personality": "The Wise Fool",
+      "words": [
+        "Witty",
+        "Fruity",
+        "Velvety"
+      ],
+      "caption": "Witty · Fruity · Velvety",
+      "rationale": "Raspberry and red-wine syrup deepen a gin sour beneath egg-white froth. Witty fits a soft-looking drink with an adult fruit-and-wine depth.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-jester.md",
+          "sha256": "4bb166f9a3752f7c1cf5f6f2479249d18a3a2a88510198eae95c7244004bd271"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-jester.json",
+          "sha256": "71dfef60bce273797e430c03d64b66f5a3c4b05add1bf626fc26263515e930ba"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/sage-jester.md",
+          "sha256": "2eb0958ef10831382a6aa8e9105da8f720d6db0c0c402df8f17557bc17dadf0e"
+        }
+      }
+    },
+    {
+      "pairing": "sage-lover",
+      "cocktail": "A Brother's Care",
+      "personality": "The Connoisseur",
+      "words": [
+        "Discerning",
+        "Nutty",
+        "Herbal"
+      ],
+      "caption": "Discerning · Nutty · Herbal",
+      "rationale": "Scotch, vermouth and two sherries are finished with sage. Nutty describes oloroso's aroma, not a nut ingredient; Discerning reflects its layered sensory attention.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-lover.md",
+          "sha256": "d1cd667bdfea436e33e4cf61603cb6907a112c7e4706300f39c2d85c23289f7f"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-lover.json",
+          "sha256": "b3d909dc7f18d496b839f70145e6e597525e9edf0309adda42be4bf4e1aaa446"
+        },
+        "room": null
+      }
+    },
+    {
+      "pairing": "sage-magician",
+      "cocktail": "Plain to See",
+      "personality": "The Game-Changer",
+      "words": [
+        "Revelatory",
+        "Tangy",
+        "Spiced"
+      ],
+      "caption": "Revelatory · Tangy · Spiced",
+      "rationale": "Two different whiskies called rye meet tamarind water, demerara and bitters. Revelatory comes from the change in how the familiar name is understood.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-magician.md",
+          "sha256": "de14146363d27e5ad092646be90af43535b49cbc65dd7810404970653aec5f7e"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-magician.json",
+          "sha256": "5aeff4ffb235727d1c74407e92b573e8ca39be17d809757ec2dbb62f6d7a9d4d"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/sage-magician.md",
+          "sha256": "01a71f9886b5ce9c61af7705e8f8ddd0f8607893c4d5a07f1b333d90ab7b52ee"
+        }
+      }
+    },
+    {
+      "pairing": "sage-outlaw",
+      "cocktail": "On the Record",
+      "personality": "The Lone Voice",
+      "words": [
+        "Resolute",
+        "Fruity",
+        "Rich"
+      ],
+      "caption": "Resolute · Fruity · Rich",
+      "rationale": "Ruby and tawny port meet strong black tea, which adds a drying edge to sweet wine. Resolute fits holding a carefully examined view; the drink is not labelled dry.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-outlaw.md",
+          "sha256": "8b0a7e0e524d22ea2891a9405ec4be4c2950acc68d93fa591e0322f6e3c69705"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-outlaw.json",
+          "sha256": "24f5d1fd35c15d2fedbb623737047052f54389ef90b36e87584cfa98a52b70c7"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/sage-outlaw.md",
+          "sha256": "8a61fbe457e8ef1e963af0eb3158450f4888e26e25200c66c0eee1394c4b8657"
+        }
+      }
+    },
+    {
+      "pairing": "sage-regular-guy",
+      "cocktail": "Whatever They Call It",
+      "personality": "The Dude",
+      "words": [
+        "Easygoing",
+        "Herbal",
+        "Fizzy"
+      ],
+      "caption": "Easygoing · Herbal · Fizzy",
+      "rationale": "Blanco tequila is lengthened with soda and scented with oregano on the ice. Easygoing evokes letting the plain pleasure stand without joining the argument.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-regular-guy.md",
+          "sha256": "89d9cf57518bf9d04601470d483e75c722e01981cca1d8bb77e91db0be5a0181"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-regular-guy.json",
+          "sha256": "f5c25076116b0e9575a189dead90bf2f7edd393b9f4b7f51cfeebaeae2d6365d"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/sage-regular-guy.md",
+          "sha256": "94925bbee0969305f47ec05b35fa2fd05553da615fd356034080329cba7c2296"
+        }
+      }
+    },
+    {
+      "pairing": "sage-ruler",
+      "cocktail": "Note to Self",
+      "personality": "The Scientist",
+      "words": [
+        "Curious",
+        "Vanilla",
+        "Fizzy"
+      ],
+      "caption": "Curious · Vanilla · Fizzy",
+      "rationale": "Unpeated Scotch and soda gain a measured touch of vanilla extract. Curious belongs to making one observable change and recording what it does.",
+      "sources": {
+        "pour": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/sage-ruler.md",
+          "sha256": "1aa0aeaffe6ca435d364f8af124cb5400091fe8714690ecce172435dfb8a7ba1"
+        },
+        "spec": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/specs/sage-ruler.json",
+          "sha256": "2c17af5470359b01840ad84d607108b68ad68d2212cc41eeb73d4ea31b28a5ca"
+        },
+        "room": {
+          "path": "Cocktail_Website_Agent/design-artifacts/pours/_studio/rooms/sage-ruler.md",
+          "sha256": "27e87f1694ac27e1ccdf2398b91d77031b63932c0662a48ce406bb5691df2725"
+        }
+      }
+    }
+  ]
+}

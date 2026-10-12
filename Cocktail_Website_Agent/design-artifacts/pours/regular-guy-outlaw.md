@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 
 - **name:** Just This Once
 - **tagline:** You charm a yes out of people, then bring your friends along.
+- **words:** Lively · Zesty · Sparkling
 - **glassware:** large wine glass (about 500 ml), filled with ice
 - **contains:** `[]`
 
@@ -61,7 +62,7 @@ It's ten past ten, and the kitchen closed at ten. You go up to the counter, make
 
 People say you get away with everything. You don't. You get let off, which is different: someone decided to, because it's you. Every "go on, then" is a small proof you're still wanted. What you dread was never the telling-off. It's the one who doesn't look up, says "rules are rules", and handles you like a stranger.
 
-There's a code in it, though you'd laugh at the word: you only try it on someone who can afford to say yes. And here's what you never get credit for. When a rule bends for you, it bends for everyone you came with.
+There's a code in it, though you'd laugh at the word: you only try it on someone who can afford to say yes. When a rule bends for you, it bends for everyone you came with, though you never get credit for it.
 
 **yours**
 

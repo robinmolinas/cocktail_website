@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 
 - **name:** Worth the Trade
 - **tagline:** You know what has to change to save what matters.
+- **words:** Delicate · Floral · Tangy
 - **glassware:** old-fashioned glass (rocks glass, about 300 ml), one large ice cube
 - **contains:** `[]`
 

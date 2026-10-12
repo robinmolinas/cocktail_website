@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 
 - **name:** Why Not?
 - **tagline:** There's an easier way, but it just isn't as much fun.
+- **words:** Cosy · Malty · Toasty
 - **glassware:** a wide china teacup (about 200 ml), warmed with hot water first
 - **contains:** `["gluten"]`
 

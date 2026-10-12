@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 
 - **name:** Day Job
 - **tagline:** You make difficult things look possible, and leave people feeling capable.
+- **words:** Luscious · Chocolatey · Tart
 - **glassware:** nick-and-nora glass (about 150 ml), chilled
 - **contains:** `[]`
 
@@ -71,7 +72,7 @@ Ask which of the two is the costume, and you'd hesitate. Years ago, without quit
 
 4. The cocktail I've made for you starts from the Floridita, with two changes of my own. It's white rum, red vermouth, a little crème de cacao (a chocolate liqueur as clear as water), and grenadine and orange curaçao, one spoonful of each, shaken hard and strained into a slim stemmed glass that's been in the freezer. My first change is half a lime instead of a whole one, because a whole one makes it too sharp. Squeeze it with your fingers, the way he squeezed his limes. The second change is the twist: the lime's own peel instead of orange, so the lime that balances the drink scents it too. You'd only notice it if you knew, and that felt like you. It tastes of chocolate and lime, and it's a delicious one.
 
-5. One thing to take with you. People will keep introducing you by what you can do: "this is the one who can sort anything out." When it happens again, let them, and then add something about you that has nothing to do with it: the song you can't stop playing, the town you'd move to tomorrow, something you're hopeless at. Watch which one they ask about. And let the quiet one be introduced too. It was never the disguise.
+5. People will keep introducing you by what you can do: "this is the one who can sort anything out." When it happens again, let them, and then add something about you that has nothing to do with it: the song you can't stop playing, the town you'd move to tomorrow, something you're hopeless at. Watch which one they ask about. And let the quiet one be introduced too. It was never the disguise.
 
 **closing line:** Tomás's: *Half the lime, squeezed by hand. When you're next introduced, bring up something the introduction doesn't cover.* It agrees with y5's position and borrows none of y5's words (R4).
 

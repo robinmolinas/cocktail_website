@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 
 - **name:** Quote Me
 - **tagline:** Rooms get more honest around you. Rarely politer.
+- **words:** Lush · Fruity · Spiced
 - **glassware:** small tumbler (about 200 ml), chilled in the freezer, no ice
 - **contains:** `[]`
 
@@ -59,7 +60,7 @@ Dinner, eight of you, and everyone has spent the starter praising something nobo
 
 Hardly anyone hears it right. It comes out like a verdict, but you mean it as a question. You enjoy the gasp, and you won't pretend you don't. And often you go too far on purpose: once you've said the outrageous version, the honest one everybody's been sitting on suddenly sounds mild, and someone dares. What wears you down is good manners doing their quiet work: the gasp smoothed over, someone offering round the potatoes, and the same people agreeing with you afterwards, by the coats, where it doesn't count.
 
-It's time someone told you what that's worth: you take the blame for the first line so the honest conversation can happen in the room. You turn "how dare you" into "hang on, is that true?" Not everyone thanks you for it. They should.
+You take the blame for the first line so the honest conversation can happen in the room. You turn "how dare you" into "hang on, is that true?" Not everyone thanks you for it. They should.
 
 **yours**
 

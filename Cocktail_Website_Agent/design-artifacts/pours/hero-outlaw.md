@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 
 - **name:** No Promises
 - **tagline:** You never said you'd come. You always do.
+- **words:** Warming · Herbal · Bittersweet
 - **glassware:** small rocks glass (single old-fashioned, about 200 ml), one large ice cube
 - **contains:** `[]`
 
@@ -55,7 +56,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 **whoYouAre**
 A friend asks if you can help on moving day. "Probably," you say, with a grin that convinces nobody. On the day you're the first one there, with a van you borrowed from someone you won't name, and you leave after the last box is in. People introduce you with a warning: don't believe a word they say. You've never minded the warning.
 
-Here's what it hides. You don't say you'll be there, because saying it out loud is a leash to you, and breaking it would be worse than anything they could call you. So you keep the bar low and clear it every time. You'd rather surprise them than let them down. When something really matters, your friends stop asking who's sensible and call you. You're the proof that someone can be rough round the edges and completely dependable, and to them that beats a good name any day.
+You don't say you'll be there, because saying it out loud is a leash to you, and breaking it would be worse than anything they could call you. So you keep the bar low and clear it every time. You'd rather surprise them than let them down. When something really matters, your friends stop asking who's sensible and call you. You're the proof that someone can be rough round the edges and completely dependable, and to them that beats a good name any day.
 
 **yours**
 

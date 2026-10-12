@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 
 - **name:** With the Bite In
 - **tagline:** Your jokes give people the nerve to question who's in charge.
+- **words:** Lively · Zesty · Fizzy
 - **glassware:** a tall glass, filled with ice
 - **contains:** `[]`
 

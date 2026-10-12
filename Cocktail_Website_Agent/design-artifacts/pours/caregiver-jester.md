@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-28 (batch caregiver)
 
 - **name:** Worth the Trip
 - **tagline:** Your best jokes come when someone needs them most.
+- **words:** Lively · Gingery · Fizzy
 - **glassware:** tall glass (highball), full of ice
 - **contains:** `["spice"]`
 

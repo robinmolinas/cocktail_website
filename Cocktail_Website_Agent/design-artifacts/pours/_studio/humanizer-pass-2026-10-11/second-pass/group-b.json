@@ -1,0 +1,1213 @@
+[
+  {
+    "pairing": "hero-caregiver",
+    "decision": "edited",
+    "reason": "Reworked the receiving paragraph into spoken sentences and gave the sensory sentence a subject. The ledger and open-door images remain; the gift and the exact split still do the emotional work.",
+    "meaning": {
+      "motive": "Take a specific person's cost deliberately while keeping no debts of their own.",
+      "fear": "Receiving a kindness feels like weakness or an open door.",
+      "gift": "Others go home lighter because the guest takes the burden without asking repayment.",
+      "story": "Gallant's conditional guilty plea; the waiters' feelings remain wondered about.",
+      "drink": "Equal rye and vermouth share the weight in a long Manhattan highball.",
+      "proposal": "Let someone give a kindness without paying it straight back."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "Receiving a small kindness is harder: a lift, a meal, an evening of someone's time. Within the week you've paid it back, with a little extra. Owing anyone, even briefly, feels like weakness, like leaving a door open that someone could walk through. You keep your books in credit. Plenty of people owe you something, and you've never asked for any of it back.",
+        "reason": "Moves from the vague 'other half' to the actual difficulty, then joins the final ledger statements without losing any habit.",
+        "before": "The other half is harder. Someone does you a small kindness, a lift, a meal, an evening of their time, and it's paid back within the week, with a little extra. Owing anyone, even briefly, feels like weakness to you, like leaving a door open that someone could walk through. So your books are always in credit. Plenty of people owe you something. You've never asked for any of it back."
+      },
+      {
+        "field": "yours[4]",
+        "after": "4. The cocktail I've made for you comes out of the old saloons, where people at the bar drank in rounds, taking turns to pay, and hardly anyone stopped after the first. A strong drink was too much for that, and one answer was to split the whisky half and half with vermouth, a wine flavoured with herbs: that's where the Manhattan, a renowned classic, and its family come from. So I kept the equal split, the way the Manhattan's early recipes often had it: rye and sweet vermouth, poured to the same line twice, with bitters, then let it run long over ice with soda and a twist of lemon. The rye is dry, the vermouth dark and bittersweet, and the whole drink is cold and bright. I kept the split for what you won't allow yourself: something else carrying half the weight, so everyone can keep going.",
+        "reason": "Turns the sensory fragment into natural speech while preserving all four qualities and every drink claim.",
+        "before": "4. The cocktail I've made for you comes out of the old saloons, where people at the bar drank in rounds, taking turns to pay, and hardly anyone stopped after the first. A strong drink was too much for that, and one answer was to split the whisky half and half with vermouth, a wine flavoured with herbs: that's where the Manhattan, a renowned classic, and its family come from. So I kept the equal split, the way the Manhattan's early recipes often had it: rye and sweet vermouth, poured to the same line twice, with bitters, then let it run long over ice with soda and a twist of lemon. The rye dry, the vermouth dark and bittersweet, all of it cold and bright. I kept the split for what you won't allow yourself: something else carrying half the weight, so everyone can keep going."
+      }
+    ],
+    "meaning_checks": [
+      "Repayment within the week, the extra, open-door fear and unclaimed debts all remain.",
+      "The 1:1 rye/vermouth, historical qualifiers and dry/dark/bittersweet/cold/bright description are unchanged."
+    ],
+    "preserved_voice": [
+      "\"Put it on me\" followed by repayment within the week, with a little extra",
+      "Barney Gallant's qualified motive under \"I like to think\" and the waiters under \"What I've always wondered\"",
+      "Equal rye and vermouth carrying half the weight, with the dry, dark, cold and bright description",
+      "The future proposal gives the guest the relief they habitually offer others"
+    ]
+  },
+  {
+    "pairing": "hero-creator",
+    "decision": "edited",
+    "reason": "Reworked the making paragraph and the Fougner connection to stop arguing with an imagined objection in clipped lines. The guest's doubt is kept, then answered through what their work gives people.",
+    "meaning": {
+      "motive": "Say what matters through a made thing when the words fail in an argument.",
+      "fear": "Staying quiet when it mattered; wondering whether making is hiding.",
+      "gift": "Give others words and room to join without being talked down to.",
+      "story": "Fougner's patient daily column and the readers who supplied the Ward Eight letter.",
+      "drink": "The reader's long Ward Eight with real pomegranate and mint sharing a scent.",
+      "proposal": "Publish the finished thing and sincerely ask what others think."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "Then you make something: a page, a song, a picture, a menu, a message that took all evening. You put into it everything you couldn't say, plainly, and mean every word. Sometimes you wonder whether making things instead of arguing is just a nicer way of hiding. But an argument changes one mind, if you're lucky, while what you make travels. It gives people the words they were missing and room to join in without being talked down to. Making it is your way of standing up for something, and it brings people together.",
+        "reason": "Keeps the real doubt and all five examples while combining the stop-start denial and comparison into a coherent explanation.",
+        "before": "Then you make something: a page, a song, a picture, a menu, a message that took all evening. In that, you say all of it, plainly, and you mean every word. Sometimes you wonder whether making things instead of arguing is just a nicer way of hiding. It isn't. An argument changes one mind, if you're lucky. What you make travels. It gives people the words they were missing, and room to join in without anyone being talked down to. That's your way of standing up for something, and it brings people together."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. He stood up for what he believed in through that daily column, I like to think, giving people a place to ask without being laughed at and to say so when they knew better. You do the same through what you make. More than one reader wrote to him about a single Boston drink, and one of those letters holds the recipe behind the cocktail I've made for you.",
+        "reason": "Makes the imagined stance and the guest connection plain without a speech/column flourish or an invitation to look at the next sentence.",
+        "before": "3. This was his way of standing up for something, I like to think: not with a speech, but with a daily column, where nobody was laughed at for asking and anyone who knew better could say so. It's your way too. And look at what came back when he asked. More than one reader wrote to him about a single Boston drink, and one of those letters holds the recipe behind the cocktail I've made for you."
+      }
+    ],
+    "meaning_checks": [
+      "Making is still the guest's argument, with the fear of hiding and the explicit communal gift retained.",
+      "Fougner's imagined stance and welcoming column remain inside 'I like to think'; the readers' letter and all y4 claims remain."
+    ],
+    "preserved_voice": [
+      "Words arriving on the way home and the draft that waits",
+      "The explicit gift of words and room to join in without condescension",
+      "Fougner's stance remains under \"I like to think\"",
+      "Real pomegranate and the reader's mint share a scent, and the highly potent drink retains its appeal",
+      "The concrete instruction to publish the work and mean the question"
+    ]
+  },
+  {
+    "pairing": "hero-explorer",
+    "decision": "edited",
+    "reason": "Smoothed the circular explanation of needing a new challenge and rewrote the toddy's ingredient fragments as actions. Kept the map, the gift of a bigger life, and the narrator's final blessing.",
+    "meaning": {
+      "motive": "Find out what they are made of by pursuing something distant and difficult.",
+      "fear": "A comfortable finished life with nothing left to seek.",
+      "gift": "Make far-away things and possibilities reachable for everyone near them.",
+      "story": "Seed's first pallet of Zirbenz leads, in the narrator's interpretation, to asking others what to find.",
+      "drink": "Pine toddy with allspice for the next find, rum, lemon and warm spice.",
+      "proposal": "Borrow a friend's abandoned wish as the next quest."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "People call you restless, though that's not quite it. What you dread is being finished: a comfortable life that asks nothing of you, a map with nothing left on it. Going after something far away and hard to get is how you find out what you're made of. Once you know, you need a new challenge. You never return empty-handed: you turn up with things nobody near you could have got, and make far away look like somewhere people can actually go. Everyone you know lives a bigger life because you went. That's worth more than any prize on your shelf.",
+        "reason": "Clarifies the imperfect outside label and separates the drive from its consequence, preserving the particular fear and generosity.",
+        "before": "People call it restless. It isn't, quite. What you dread is finished: a comfortable life that asks nothing of you, a map with nothing left on it. Going after something far away and hard to get is how you find out what you're made of, and once you know, you need something new to find out about. And you never return empty-handed. You turn up with things nobody near you could have got, and you make far away look like somewhere people can actually go. Everyone you know lives a bigger life because you went. No prize on your shelf is worth as much."
+      },
+      {
+        "field": "yours[4]",
+        "after": "4. The cocktail I've made for you is a toddy, the classic warm winter drink, for the end of a cold day. The pine goes in first, Zirbenz or any Alpine stone-pine liqueur, three parts to one of aged rum, a pairing its importer suggests for toddies. Then I add a teaspoon of allspice dram, the kind of bottle Seed might pull out of that bag. I added it for the find that comes next, so the first prize and the one after share a glass. A little lemon, a touch of brown sugar syrup and hot water go into the glass mug, warmed first. Last, I twist lemon zest above the steam for its scent. It takes a reddish tint from the pine, and it smells of pine, with spice underneath.",
+        "reason": "Makes the preparation readable as bartender speech, retaining the first pine, later dram, warmed mug and last scented zest.",
+        "before": "4. The cocktail I've made for you is a toddy, the classic warm winter drink, for the end of a cold day. The pine goes in first, Zirbenz or any Alpine stone-pine liqueur, three parts to one of aged rum, a pairing its importer suggests for toddies. Then a teaspoon of allspice dram, the kind of bottle Seed might pull out of that bag. I added it for the find that comes next, so the first prize and the one after share a glass. A little lemon, a touch of brown sugar syrup, hot water, all in a glass mug warmed first, and last, lemon zest twisted above the steam, for its scent. It takes a reddish tint from the pine, and it smells of pine, with spice underneath."
+      }
+    ],
+    "meaning_checks": [
+      "The desire to test oneself, fear of finished comfort, returned finds and value above trophies all remain.",
+      "All toddy ratios, bottle/style choices, uncertainty about Seed's bag, colour and aromas remain; 'I hope your list stays long' is unchanged."
+    ],
+    "preserved_voice": [
+      "The flat evening after a medal, exam or long-sought record",
+      "The fear of a comfortable finished life, and the gift of making distant things reachable",
+      "\"I like to think\", \"As I see it\", attribution and all historical qualifications",
+      "The pine-first toddy and allspice as the next find, with its reddish colour and scent",
+      "The friend's book, song or place as a concrete future quest"
+    ]
+  },
+  {
+    "pairing": "hero-innocent",
+    "decision": "edited",
+    "reason": "Rewrote the two psychological paragraphs to join the private admission naturally and replace a generic 'some answers' maxim with the guest's specific dependency. The unfinished potential and eagerness to learn retain their force.",
+    "meaning": {
+      "motive": "Prove the ability they believe is still unseen by learning from people they admire.",
+      "fear": "Being asked in front of the person they want to impress and having nothing to show.",
+      "gift": "Teachers feel their effort valued when the guest returns having worked on a hard word.",
+      "story": "Baum's unexplained verdict and DeGroff's orange answer found at a Chinese restaurant.",
+      "drink": "Bullshot kept savoury, with both orange touches as the answer DeGroff found himself.",
+      "proposal": "Take 'not quite' away and seek an answer beyond the mentor."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "after": "Someone you look up to tries something you've worked hard on and says, \"Not quite.\" Nothing else. You smile, say you'll have another go, and that night you're still turning it over, long after they've forgotten they said it. You'd never admit how much one sentence from the right person can move you, or why it matters so much: you're sure there's more in you than anyone has seen so far, and you don't have the proof yet.",
+        "reason": "Joins the dangling 'Or why' to the admission it belongs to while preserving the silence, overnight brooding and hidden confidence.",
+        "before": "Someone you look up to tries something you've worked hard on and says, \"Not quite.\" Nothing else. You smile, say you'll have another go, and that night you're still turning it over, long after they've forgotten they said it. You'd never admit how much one sentence from the right person can move you. Or why: you're sure there's more in you than anyone has seen so far, and you don't have the proof yet."
+      },
+      {
+        "field": "whoYouAre[2]",
+        "after": "What you dread is being asked to show what you can do in front of the very person you wanted to impress, and having nothing to show. You listen to people who know more as if every word might be the key. People love teaching you because you take a hard word home and come back with something; that's a gift to them. Still, part of you waits for them to hand you an answer you'll have to find for yourself.",
+        "reason": "Makes the fear direct and the teacher's gift part of the same sentence, then states the real dependency without an aphoristic closer.",
+        "before": "What you dread is the day it's for real: being asked for it properly, in front of the very person you wanted to impress, and having nothing to show. So you listen to people who know more as if every word might be the key. It's also your gift to them. People love teaching you, because you take a hard word home and come back with something. But part of you is still waiting for them to hand you the answer. Some answers nobody can hand you."
+      }
+    ],
+    "meaning_checks": [
+      "The 'Not quite' quotation, unnamed admired person's silence and unseen potential remain.",
+      "The real test is still in front of the admired person; returning with something is still the explicit gift, and all DeGroff history/drink/proposal wording is intact."
+    ],
+    "preserved_voice": [
+      "\"Not quite\" turned over at night and the fear of having no proof",
+      "The gift of taking a hard word home and returning with something",
+      "Baum's imagined inability to hand over the answer stays under \"I like to think\"",
+      "Orange as DeGroff's own answer, including both orange touches and the savoury amber description",
+      "The future proposal to seek the answer away from the teacher"
+    ]
+  },
+  {
+    "pairing": "hero-jester",
+    "decision": "edited",
+    "reason": "Reworked the interpretation and proposal to let the plain life carry the point, without a chain of explanatory closers. The shark, the humour and the recognition of the guest remain.",
+    "meaning": {
+      "motive": "Make a struggle into an adventure worth keeping and telling.",
+      "fear": "A plain bad day sounding weak or so small it is forgotten.",
+      "gift": "Help listeners believe their own bad weeks will pass and may become funny.",
+      "story": "Vic's shark story alongside the already compelling plain record.",
+      "drink": "Mai Tai with home-toasted almond syrup as a nod to Vic the cook.",
+      "proposal": "Keep the adventure but tell one story at its actual size."
+    },
+    "edits": [
+      {
+        "field": "yours[3]",
+        "after": "3. I like to think he knew the shark was the better line at a table. Yet the jobs that didn't last, the borrowed money, a cook paying his way in meals and the name that grew out of it make a terrific story without a shark. It was his all along, just as your own plain version is yours. The version you tell does people good; it's a gift. But the one you leave out would hold the table just as well.",
+        "reason": "Combines the repeated assurance that the plain version is good into its concrete evidence while retaining the imagined motive and both versions' worth.",
+        "before": "3. I like to think he knew the shark was the better line at a table. But look at the plain version again: the jobs that didn't last, the borrowed money, a cook paying his way in meals, and a name that grew out of it. None of it needs a shark. It's a terrific story as it stands, and it was his all along. So is your own. The version you tell is a gift, and it does people good. The one you leave out would hold the table just as well."
+      },
+      {
+        "field": "yours[5]",
+        "after": "5. Keep telling them: the shark stays, because people need it and you're good at it. Once, though, tell one exactly as big as it was. I'd bet the table goes just as quiet. And what they'll remember afterwards won't be the shark. It'll be you.",
+        "reason": "Join the opening instruction and reassurance while keeping the distinctive shark/person ending explicitly reserved for In One Piece by the studio.",
+        "before": "5. So keep telling them. The shark stays: people need it, and you're good at it. But once, tell one exactly as big as it was. I'd bet the table goes just as quiet. And what they'll remember afterwards won't be the shark. It'll be you."
+      }
+    ],
+    "meaning_checks": [
+      "No historical facts in the plain record were added or removed; the shark's motive remains under 'I like to think'.",
+      "The performed version is still a gift, the plain version still holds the table, and the future proposal keeps both rather than asking the guest to stop telling."
+    ],
+    "preserved_voice": [
+      "The motorway story with plum-sized hail and the repeatable lorry impression",
+      "The unspoken hard-shoulder fear and the reassurance listeners take home",
+      "\"Maybe a shark really did. The odds are against it\" and both \"I like to think\" interpretations",
+      "The home-toasted almond syrup as a nod to Vic the cook",
+      "The future instruction to keep the shark and tell one event at its true size"
+    ]
+  },
+  {
+    "pairing": "hero-lover",
+    "decision": "edited",
+    "reason": "Rewrote the hidden-motive paragraph so the person and feeling are clear. The original's useful public/private tension survives without the repeated 'It was never' reveal.",
+    "meaning": {
+      "motive": "Use outward cool and precise private care to protect one loved person.",
+      "fear": "Showing feeling looking like weakness.",
+      "gift": "Loved people can feel light because their fear returns as a joke.",
+      "story": "Bond's precise Vesper order, its private name and absence after loss.",
+      "drink": "The exact Vesper order with a teaspoon of Jamaican rum for the name's origin.",
+      "proposal": "Give one loved person a plain line on an ordinary day."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "It's one person in the room you're doing it for. The more someone matters, the cooler you get, because showing the feeling might look like weakness. So you love in exact, unspoken ways: you know the date they'd rather not mention, and never let on that you noticed. What you're hiding is how much they matter to you. Anyone you love gets to feel light around you, because the fear in the room comes to you and goes back as a joke. That's how you protect them, and it matters more than the style ever could.",
+        "reason": "Explains the pronoun in 'It was them' and combines the protection and its value, retaining the precise date and the transformation of fear into a joke.",
+        "before": "It's never for the room. It's for one person in it. The more someone matters, the cooler you get, because if the feeling showed, it might look like weakness. So you love in exact, unspoken ways: you know the date they'd rather not mention, and you never let on that you noticed. It was never the danger you were hiding. It was them. Around you, anyone you love gets to feel light, because the fear in the room comes to you and goes back as a joke. That's how you protect people. It matters more than the style ever could."
+      }
+    ],
+    "meaning_checks": [
+      "The apparent calm is still for one loved person, and emotional exposure remains the fear.",
+      "Unspoken date recognition and protection as a valued gift remain; no Bond, Fleming, rum or proposal claims were touched."
+    ],
+    "preserved_voice": [
+      "Jokes protecting one loved person rather than performed for the room",
+      "Fear of revealing feeling, paired with the explicit gift of lightness",
+      "Fiction ownership, Fleming's-book scope, and the \"I like to think\" reading of loss",
+      "The exact Bond order, a teaspoon of Jamaican rum as the name's private origin, and the bone-dry lemon appeal",
+      "The future invitation to give a loved person their line on an ordinary day"
+    ]
+  },
+  {
+    "pairing": "hero-magician",
+    "decision": "edited",
+    "reason": "Rebuilt the jacket interpretation as a connected observation rather than a ladder of pronouncements about the real self. The choice, costume image and unadvertised drink still carry the recognition.",
+    "meaning": {
+      "motive": "Use exceptional ability for others while choosing to be unobtrusive.",
+      "fear": "Losing ability feels like disappearing; the quiet self seems a disguise.",
+      "gift": "Make others capable when the guest could instead make them feel small.",
+      "story": "Constante keeps his working jacket and daily craft; a lasting Floridita is absent from his booklets.",
+      "drink": "Half a hand-squeezed lime and its own peel in a chocolate-lime Floridita.",
+      "proposal": "Add an ordinary private interest or failing to an introduction based on ability."
+    },
+    "edits": [
+      {
+        "field": "yours[3]",
+        "after": "3. I like to think the point was his choice to put on the jacket, morning after morning, when he no longer needed it. You'd probably call your ability the real you; I see it more as the jacket you put on for other people. The person underneath is the one who chooses to help. And one of the drinks Constante made that lasted is the one that isn't in any of his booklets.",
+        "reason": "Makes the jacket/self comparison explicit in ordinary speech, preserving the repeated voluntary work and the enduring unprinted drink.",
+        "before": "3. I like to think the jacket was the point: he no longer needed it, and he chose it anyway, morning after morning. I recognise you in that. You'd probably call the ability the real you. I'd call it the jacket: you put it on for other people. Who you are is the one who keeps choosing to. And of everything he made, one of the drinks that lasted is the one that isn't in any of his booklets."
+      }
+    ],
+    "meaning_checks": [
+      "The motive for the jacket stays under 'I like to think', with 'probably' and the bartender's personal reading of the guest retained.",
+      "The underlying identity remains the person choosing to help; Floridita's survival and absence from all booklets are unchanged."
+    ],
+    "preserved_voice": [
+      "An easily missed guest choosing not to outshine others",
+      "Fear of going rusty and the explicit gift of making others capable",
+      "Every historical qualification and \"I like to think\" about the daily jacket",
+      "Half a hand-squeezed lime and its own peel, with the chocolate-and-lime appeal",
+      "The concrete instruction to introduce a song, town or weakness outside the ability"
+    ]
+  },
+  {
+    "pairing": "hero-outlaw",
+    "decision": "edited",
+    "reason": "Reworked the shop/guest connection and the proposal's unclear pronoun. The rogue's low expectations and reliability remain together, with the original cautious hope about what friends really believe.",
+    "meaning": {
+      "motive": "Help without feeling leashed by a spoken promise.",
+      "fear": "Letting someone down after giving their word.",
+      "gift": "Dependable action despite a rough reputation.",
+      "story": "LeNell's unlikely shop and sharp temper conceal the stock customers needed.",
+      "drink": "Rye Old-Fashioned, Underberg for her bent rule and sorghum for its pairing.",
+      "proposal": "Give a plain yes before the big day so a friend can know rather than hope."
+    },
+    "edits": [
+      {
+        "field": "yours[3]",
+        "after": "3. The shop, I like to think, was a lot like you: a sharp word waiting at the counter of the last place you'd count on, and exactly what you came for waiting there too. The people she told off were the ones most devoted to the place. You do much the same, as far as I can see. You give people every reason to expect nothing, then turn up when it matters. They learn they can rely on you without you ever asking them to.",
+        "reason": "Joins the repeated recognition lines into a clear comparison, keeping both the doubtful appearance and the reliable action.",
+        "before": "3. The shop, I like to think, was a lot like you. It looked like the last place you'd count on, with a sharp word waiting at the counter, and it had exactly what you came for. And the people she told off were the ones most devoted to the place. That's you, as far as I can see. You give people every reason to expect nothing, and then you're the one who's there. You never ask them to rely on you. They just find out they can."
+      },
+      {
+        "field": "yours[5]",
+        "after": "5. Next time someone you'd go anywhere for has a big day coming, skip the grin and the \"probably\". Say yes, plainly, the week before. You won't lose an inch of your freedom: you were always going to go. The difference is that they get to know you will, instead of hoping. And you might find the warning was never what they believed about you.",
+        "reason": "Replaces 'What changes is theirs' and its separate explanation with the specific reassurance the friend gains.",
+        "before": "5. Next time someone you'd go anywhere for has a big day coming, skip the grin and the \"probably\". Say yes, plainly, the week before. You won't lose an inch of your freedom: you were always going to go. What changes is theirs. For once they get to know, instead of hope. And you might find the warning was never what they believed about you."
+      }
+    ],
+    "meaning_checks": [
+      "The unreliable appearance, sharp word, supplied need and devoted customers retain the original scope and the same signposts.",
+      "The promise still comes a week before, preserves freedom, and gives certainty to the friend; the guest's discovery stays 'might'."
+    ],
+    "preserved_voice": [
+      "\"Probably\" on moving day, the borrowed van and the warning",
+      "Spoken promises as a leash, and dependable action as the gift",
+      "LeNell's story, attributions, and the shop comparison under \"I like to think\"",
+      "Underberg as the rule bent for customers and the deep, dark rye description",
+      "The future instruction to give a plain yes a week before the big day"
+    ]
+  },
+  {
+    "pairing": "hero-regular-guy",
+    "decision": "edited",
+    "reason": "Made the fear direct, shortened the repeated 'day' construction, and rebuilt the Marco connection without an abstract failing/being-enough contrast. The ordinary preparation and modest shrug remain specific.",
+    "meaning": {
+      "motive": "Prepare quietly to be enough when someone needs help, sharing all credit.",
+      "fear": "Letting a person down; being singled out feels like exclusion.",
+      "gift": "Hundreds of unseen ordinary days make bad days easier for others.",
+      "story": "Marco's unanswered Sling order leads to books and consistent craft.",
+      "drink": "Rememberable equal-measure early Singapore Sling, made properly for the waiting guest.",
+      "proposal": "Continue practising and trust others' preparation too."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "after": "The lights go out in the middle of a party, and you already know where the fuse box is. The car won't start on the way to the airport, and you've got the number saved. Afterwards, you shrug: anyone would have done the same. But you know that isn't quite true. You found the fuse box the week you moved in. You drove the route the day before. You don't trust yourself to be at your best when it happens, so you prepare while everything's ordinary.",
+        "reason": "Keeps preparation driven by distrust of crisis performance without repeating 'the day' as a slogan.",
+        "before": "The lights go out in the middle of a party, and you already know where the fuse box is. The car won't start on the way to the airport, and you've got the number saved. Afterwards, you shrug: anyone would have done the same. But you know that isn't quite true. You found the fuse box the week you moved in. You drove the route the day before. You don't trust yourself to be at your best on the day, so you don't leave anything to the day."
+      },
+      {
+        "field": "whoYouAre[2]",
+        "after": "You'd never say you're afraid of being the one who wasn't enough when someone was counting on you. So you practise quietly for things that may never happen, and when it goes well you hand the credit to everyone else. Being singled out has always felt a bit like being left out. Everyone near you gets through a bad day more easily because of a hundred ordinary ones you never mention. That's how you care for people, and it deserves more than a shrug.",
+        "reason": "Starts on the actual fear, preserving the belonging tension and valued gift without a vague hidden-why setup or an unneeded pride denial.",
+        "before": "What you'd never say is why. It isn't pride. You're afraid of being the one who wasn't enough when someone was counting on you. So you practise, quietly, for things that may never happen, and when it goes well you hand the credit to everyone else. Being singled out has always felt a bit like being left out. But everyone near you gets through a bad day more easily because of a hundred ordinary ones you never mention. That's how you care for people, and it deserves more than a shrug."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. I like to think Marco never quite forgot that guest waiting at the bar for a drink nobody there could make. Nobody had done anything wrong; someone had asked, and no one was ready. I think that's the moment you practise against: being the one who isn't enough when it matters. You put in the hours nobody sees, then shrug when it all goes fine. Like Marco, you'd rather be known for getting it right every time.",
+        "reason": "Keeps the imagined memory visibly signposted and joins the explanatory fragments into a human account of the guest's preparation.",
+        "before": "3. That guest at the bar, waiting for a drink nobody there could make: I like to think he never quite forgot them. Nobody had done anything wrong. Someone had simply asked, and nobody was ready. I think that's the moment you practise against: not failing, but being the one who wasn't enough when it mattered. So you put in the hours nobody sees, and when the day comes and goes fine, you shrug. Like Marco, you'd rather be known for getting it right every time."
+      }
+    ],
+    "meaning_checks": [
+      "All party, airport, prior fuse-box and route details remain; the hundred-day gift and exclusion fear remain.",
+      "Marco's memory is still imagined, nobody is blamed, and the preference for consistency is unchanged; no historical or drink paragraph is touched."
+    ],
+    "preserved_voice": [
+      "The fuse box found earlier and the route driven the previous day",
+      "Fear of not being enough, belonging through shared credit, and the gift of easier hard days",
+      "Marco's qualifications, attributed claims and the waiting guest under \"I like to think\"",
+      "The one-of-each 1913 Sling, the cloudy rosy colour and bleeding bitters",
+      "The concrete proposal to practise and then trust others' hours"
+    ]
+  },
+  {
+    "pairing": "hero-ruler",
+    "decision": "edited",
+    "reason": "Rebuilt the long psychological paragraph so the crisis, private doubt and respect follow each other directly. Kept the specific standards, the eye-rolls and the guest's fear of wobbling.",
+    "meaning": {
+      "motive": "Keep standards when things go wrong so people still count.",
+      "fear": "Wobbling in public and admitting that the rules support the guest too.",
+      "gift": "Offer others respect through continuing to expect something of them.",
+      "story": "Cure's dress code and Bodenheimer's willingness to work on fair criticism.",
+      "drink": "A dressed Brandy Crusta with tea's quiet firm grip.",
+      "proposal": "Admit and fix the fair part of criticism while keeping the rest."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "You know it is, even if you seldom explain why. In a crisis, people watch whoever's in front to see how serious it is. A rule that's still being kept tells them it isn't over. You rarely admit that the rules hold you up too, or that some nights you've agreed with every person who told you it was a terrible idea. What you guard against is wobbling in front of them. In their worst week, you still expect something of people, so they still count. That's respect, and most people never think to offer it.",
+        "reason": "Breaks the chained explanation into its real sequence and states the respect directly, without staging the gift as a revelation.",
+        "before": "It is, and you know why, even if you seldom explain it. In a crisis, people watch whoever's in front to see how serious it is, and a rule that's still being kept tells them it isn't over. You rarely admit that the rules hold you up too, or that some nights you've agreed with every person who told you it was a terrible idea. What you guard against is wobbling in front of them. But look at what your rules give people: in their worst week, someone still expects something of them, so they still count. That's respect, and most people never think to offer it."
+      }
+    ],
+    "meaning_checks": [
+      "The kept rule still signals that it isn't over for the people facing the crisis; doubt and every doubter remain part of the hidden cost.",
+      "The gift is still respect through expectations in the worst week; all Cure claims, tea mechanics and proposal remain unchanged."
+    ],
+    "preserved_voice": [
+      "Ironed and on time during the worst week",
+      "Rules holding the guest up and giving others respect",
+      "The qualified view of Cure and the dress code under \"I like to think\"",
+      "Tea's firm grip in a deep amber Crusta as a nod to quiet firmness",
+      "The concrete future instruction to admit and fix the fair part of a criticism"
+    ]
+  },
+  {
+    "pairing": "hero-sage",
+    "decision": "edited",
+    "reason": "Reworked the fear/pleasure paragraph and the preparation sentence. The paradox stays, but the 'whole fun' and puzzle maxim now read as a specific experience rather than stacked assertions.",
+    "meaning": {
+      "motive": "Enjoy solving a difficult puzzle for people while hiding that enjoyment.",
+      "fear": "The empty moment before an answer arrives.",
+      "gift": "Turn panic into shared activity and give others nerve.",
+      "story": "Cox's family-story pitcher solution and unshown worry.",
+      "drink": "Six-way Daiquiri with makrut leaves as another useful answer from a tree.",
+      "proposal": "Admit the blank is the loved part and turn the hunt into a shared game."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "You never mention the blank before the answer comes, when they're all looking at you and there's nothing there yet. That blank terrifies you, and somehow it's the whole fun of it too: a puzzle with no chance of beating you wouldn't be worth solving. You keep a level face, so no one learns how close it felt. The moment you ask what there is to work with, the room stops panicking and starts looking. Everyone gets something to do with their hands and a little of your nerve. That's a real gift, and most people never notice who started it.",
+        "reason": "Connects the private blank, its danger and its pleasure while keeping the precise effect of the guest's first question.",
+        "before": "The bit you never mention is the blank before the answer comes. They're all looking at you, and there's nothing there yet. That blank is your nightmare, and somehow the whole fun of it too, because a puzzle that couldn't beat you wouldn't be worth solving. So you keep a level face through it, and no one learns how close it felt. The moment you ask what there is to work with, the room stops panicking and starts looking. Everyone gets something to do with their hands, and a little of your nerve. That's a real gift, and most people never notice who started it."
+      },
+      {
+        "field": "yours[4]",
+        "after": "4. The cocktail I've made for you is built like that pitcher, for six: a Daiquiri in the shape the family story gives it. White rum and fresh lime go into it, with sugar stirred into the lime until it's gone. I swizzle it on crushed ice for thirty seconds and pour straight away into six small chilled tumblers, so nobody waits longer than anyone else. A Daiquiri always asks for some quick thinking, because limes vary in sourness from one fruit to the next. I've measured everything a measure can fix, and the limes are yours to judge. My only addition is four makrut lime leaves, pressed into the lime and lifted out before you pour. Makrut is a different lime, with harsh juice but fragrant leaves, so the answer comes from the part of the tree you'd never think to squeeze. The leaves bring lime's scent without making the drink any sharper. They're there as one more answer to his worry, and as a nod to the question you always ask first: what else is there? It's icy, bright and fresh, and the lime carries right through it.",
+        "reason": "Gives the long recipe fragment an actor and two complete sentences, preserving dissolution, ice, timing, six glasses and equal waiting.",
+        "before": "4. The cocktail I've made for you is built like that pitcher, for six: a Daiquiri in the shape the family story gives it. White rum and fresh lime, with sugar stirred into the lime until it's gone, swizzled on crushed ice for thirty seconds and poured straight away into six small chilled tumblers, so nobody waits longer than anyone else. A Daiquiri always asks for some quick thinking, because limes vary in sourness from one fruit to the next. I've measured everything a measure can fix, and the limes are yours to judge. My only addition is four makrut lime leaves, pressed into the lime and lifted out before you pour. Makrut is a different lime, with harsh juice but fragrant leaves, so the answer comes from the part of the tree you'd never think to squeeze. The leaves bring lime's scent without making the drink any sharper. They're there as one more answer to his worry, and as a nod to the question you always ask first: what else is there? It's icy, bright and fresh, and the lime carries right through it."
+      }
+    ],
+    "meaning_checks": [
+      "The puzzle's real chance of defeating the guest, concealed closeness and explicit gift all remain.",
+      "All family qualifications, both 'I like to think' claims, makrut number and sensory properties remain; preparation order and timing are preserved."
+    ],
+    "preserved_voice": [
+      "Twelve guests due when the oven fails, and secret enjoyment of the puzzle",
+      "Fear of the blank and the explicit gift of nerve and something to do",
+      "Every family-story, newspaper and engineer qualification and both \"I like to think\" signposts",
+      "Four makrut leaves as another answer to the rum worry, with their fragrant rather than sharp contribution",
+      "The future proposal to admit enjoyment so everyone hunts together"
+    ]
+  },
+  {
+    "pairing": "innocent-caregiver",
+    "decision": "edited",
+    "reason": "Reworked the protective mechanism and the guest connection to reduce repeated explanation. Retained the strong opening about being small and scared too; the flor's facts and the narrator's imagined daily watch stay distinct.",
+    "meaning": {
+      "motive": "Keep daily watch so a smaller loved person feels safe.",
+      "fear": "Missing something that reaches someone on their watch, despite being scared too.",
+      "gift": "Others experience safety without having to think about the protection.",
+      "story": "Flor protects young fino over years by consuming most oxygen.",
+      "drink": "Fino at the Bamboo's centre and bedtime chamomile honey for the watched-over nights.",
+      "proposal": "Tell a grown person about one night the protector was scared too."
+    },
+    "edits": [
+      {
+        "field": "yours[2]",
+        "after": "2. The flor keeps the air off the wine. There's always air in the space at the top of the barrel, and a little more comes through the wood; it would turn fino into a different wine, darker and heavier. The flor sits between the air and the wine and breathes up most of the oxygen itself, keeping the wine underneath protected. The air that would change it reaches the flor first. I like to think of it as a watch kept every day for years.",
+        "reason": "Separates the linked biological claims and turns the 'whole job / not a rescue / just' fragments into one signposted image of continual watch.",
+        "before": "2. What it does is keep the air off. There's always air in the space left at the top, and a little more comes through the wood, and air would turn a fino into a different wine, darker and heavier. The flor sits between that air and the wine and breathes up most of the oxygen itself, so the wine underneath stays protected. The air that would change the wine reaches the flor first. I like to think that's the whole job. Not a rescue. Just being the one it reaches first, every day, for years."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. You've been doing much the same since before you were tall. The fright, the bad news, whatever would have spoiled their night reaches you first; by the time it gets to them, it's smaller. Most of the time they never knew it was there. That's how you've cared for everyone close to you, giving them a safety they never had to think about.",
+        "reason": "Keeps the diminished fright and unseen care while combining three closing explanations of the same gift.",
+        "before": "3. That's what you've done since before you were tall. The fright, the bad news, the thing that would have spoiled their night: it gets to you first, and by the time it reaches them, it's smaller. Most of the time they never knew it was there. That's how you've always cared. Everyone close to you has felt safe without ever having to think about it, and that was you."
+      }
+    ],
+    "meaning_checks": [
+      "Flor still sits between air and wine, consumes most rather than all oxygen, and protects for years; the watch metaphor remains under 'I like to think'.",
+      "The guest's smallness, fear, softened news and safety for everyone close remain; chamomile is still a bedtime nod with no medicinal promise."
+    ],
+    "preserved_voice": [
+      "The smaller hand, last biscuit and nights awake in the dark",
+      "Fear of missing harm during the guest's watch, and others learning calm from them",
+      "Flor's protective work and \"I like to think\" about the daily job",
+      "Fino at the Bamboo's centre and chamomile honey for the watched-over nights",
+      "The future proposal to tell a grown person about one time the protector was scared too"
+    ]
+  },
+  {
+    "pairing": "innocent-creator",
+    "decision": "edited",
+    "reason": "Joined the nod, misunderstanding and feeling/appearance distinction into a natural paragraph. Kept the cake, extra song verse and uncommon gift; the method is not framed as a failure.",
+    "meaning": {
+      "motive": "Make something that shows how the occasion felt without needing a proper method.",
+      "fear": "Losing that instinct when somebody's correction begins to make sense.",
+      "gift": "The intended recipient recognises the feeling behind the made thing.",
+      "story": "Kalimotxo's ordinary drinkers, wine rules and the artists' authority.",
+      "drink": "Uncorrected equal wine/cola with drink-frozen cubes so it remains itself.",
+      "proposal": "Learn what is useful, then hand the next creation straight to its recipient."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "Then someone explains, kindly, how it's usually done. You nod, still not seeing what was wrong with it. What you dread is the day that explanation starts to make sense. What you make rarely looks like the thing itself; it looks like how it felt, and the people it's for can always tell. That's rarer than getting it right, and worth more.",
+        "reason": "Replaces the chained corrective fragments and dangling 'Because' with connected speech while preserving recognition, dread and the gift's value.",
+        "before": "Then someone explains, kindly, how it's usually done. You nod. You still don't see what was wrong with it. The day you'd dread is the one when the explanation starts to make sense. Because what you make rarely looks like the thing. It looks like how the thing felt, and the people it's for can always tell. That's rarer than getting it right, and it's worth more."
+      }
+    ],
+    "meaning_checks": [
+      "The person still hands over a lovely creation before thinking about rules and fears internalising the correction.",
+      "Feeling over appearance, the recipient's recognition and the same comparative value remain; the drink and all historical caveats are untouched."
+    ],
+    "preserved_voice": [
+      "The cake coloured like the day and the birthday song's extra verse",
+      "Fear of the proper explanation making sense and the gift of showing how something felt",
+      "All probably/story-goes qualifications and the Basques under \"I like to think\"",
+      "Equal wine and cola frozen as ice, fizz from the fresh pour, and the dark cold sangria-like appeal",
+      "The future proposal to hand the next creation to its intended person first"
+    ]
+  },
+  {
+    "pairing": "innocent-explorer",
+    "decision": "retained",
+    "reason": "Retained after rereading: the repeated 'look again' names the actual activity the guest encourages, and the brief corrections answer attributed labels or false identification. Its questions, scientific surprises and restrained tingle already sound individual and conversational.",
+    "meaning": {
+      "motive": "Ask genuinely, hoping uncertainty will lead somewhere stranger.",
+      "fear": "A rebuff or catch-all label closing inquiry.",
+      "gift": "Make 'I don't know' safe and enjoyable for others.",
+      "story": "Baudoin's wrong printed guess brings attention to a fungus later named for him.",
+      "drink": "Cognac and Pineau with a faint Sichuan tingle as a question.",
+      "proposal": "Ask fully and offer a guess despite possible error."
+    },
+    "edits": [],
+    "meaning_checks": [
+      "All uncertainty about the fungus's other nourishment and Baudoin's imagined reaction remains signposted.",
+      "The grin after rebuffs, explicit gift, peppercorn tingle and concrete invitation to guess are all present without a generic closing lesson."
+    ],
+    "preserved_voice": [
+      "Lighting up at uncertainty and hoping the answer is stranger",
+      "Lightly asked questions after being told off, and permission for others to admit ignorance",
+      "Baudoin's guessed answer under \"I like to think\" and the thought-to-live qualification",
+      "Sichuan's faint lip tingle as a question in the glass, with the barrel scent kept for the guest",
+      "The future instruction to ask fully and offer a guess even when it might be wrong"
+    ]
+  },
+  {
+    "pairing": "innocent-hero",
+    "decision": "edited",
+    "reason": "Reworked the aroma-to-learning connection so it speaks to this guest rather than asserting a rule about everything anyone learns. Kept the delighted bartender reaction and all reasons for the shaker, glass and fruit.",
+    "meaning": {
+      "motive": "Keep improving honestly without setting out to win.",
+      "fear": "Success being taken back or looking undeserved.",
+      "gift": "Let others believe the honest long road goes somewhere.",
+      "story": "Vadrna's work and learning become a winning menu before he knows.",
+      "drink": "Shaken borovička sour with mango for the tropical fruit; shared piney aroma makes the distant familiar.",
+      "proposal": "Enjoy the earned success and show someone that the long way pays."
+    },
+    "edits": [
+      {
+        "field": "yours[4]",
+        "after": "4. The cocktail I've made for you is a sour, of the same family as the Daiquiri, one of the most famous drinks there is. It's shaken, because the day after that film he asked for a shaker, and it goes into a thin, chilled glass. The base is borovička, a juniper spirit from the country he was born in. With it go lime and a mango syrup, as a nod to the tropical fruit he brought into Paparazzi after London. I love that mango and juniper have a piney note in common. The fruit comes from far away, yet tastes as if it had always been there. That's how it feels when you've learned something by doing the work: it becomes your own.",
+        "reason": "Keeps the shared aroma and emotional ownership, replacing the universal aphorism with the guest's felt experience.",
+        "before": "4. The cocktail I've made for you is a sour, of the same family as the Daiquiri, one of the most famous drinks there is. It's shaken, because the day after that film he asked for a shaker, and it goes into a thin, chilled glass. The base is borovička, a juniper spirit from the country he was born in. With it go lime and a mango syrup, as a nod to the tropical fruit he brought into Paparazzi after London. And here's what I love about it: mango and juniper have a piney note in common. The fruit comes from far away, and it tastes as if it had always been there. That's what happens to anything you learn by doing the work: it ends up yours."
+      }
+    ],
+    "meaning_checks": [
+      "Mango/juniper's common piney note and the distant fruit tasting at home are identical claims.",
+      "The source of each drink choice, effort becoming personal knowledge, and all Vadrna dates, hours, names and cautious comparisons remain."
+    ],
+    "preserved_voice": [
+      "Getting a little better without setting out to win",
+      "Fear that good things can be taken back and trust in others' deserved success",
+      "All Vadrna dates, hours, awards, quotes and uncertainty in the guest comparison",
+      "The shaken thin glass, borovička and mango as the study travelled, with their shared piney note",
+      "The future proposal to let someone see that the long way pays off"
+    ]
+  },
+  {
+    "pairing": "innocent-jester",
+    "decision": "edited",
+    "reason": "Rebuilt the drink paragraph to explain the two liqueurs without nested parenthesis and connect the salt's purpose in spoken sentences. The precise sensory intention, drink appeal and personal parallel remain.",
+    "meaning": {
+      "motive": "Laugh fully at what moves them rather than perform a joke.",
+      "fear": "Being told off until laughter stops; being alone when the room does not follow.",
+      "gift": "Make others feel funny and free to laugh.",
+      "story": "Ginger's permissive fun carries, in the narrator's view, through Ross's Paper Plane and Toronto.",
+      "drink": "Paper Plane with less lemon and five salt-water drops to lift others' flavours as the laugh lifts jokes.",
+      "proposal": "Let the laugh go and give another suppressed laugh permission."
+    },
+    "edits": [
+      {
+        "field": "yours[4]",
+        "after": "4. The cocktail I've made for you is the Paper Plane, a modern classic, with two small changes of mine. It's bourbon, fresh lemon, Aperol, a bright orange Italian aperitif that's gently bitter, and Amaro Nonino, an Italian bitter herbal liqueur made on grappa. Grappa is a brandy distilled from the grape skins, stems and seeds left once the juice is pressed out for wine. I shake it until the shaker's uncomfortable to hold, then pour it off the ice into a coupe that's been waiting in the freezer. I've taken a little of the lemon out so it's bright rather than sharp, and added five drops of salted water. The water isn't meant to taste salty. It brings nothing of its own, but makes everything around it come forward and takes the frown off the bitter. I put it there for you, because that's what your laugh does for other people's jokes.",
+        "reason": "Untangles definitions, supplies the bartender as actor and joins the two alterations without changing any ingredient, preparation or salt claim.",
+        "before": "4. The cocktail I've made for you is the Paper Plane, a modern classic, with two small changes of mine. It's bourbon, Aperol (a bright orange Italian aperitif, gently bitter), Amaro Nonino (an Italian bitter herbal liqueur made on grappa, a brandy distilled from the grape skins, stems and seeds left once the juice is pressed out for wine) and fresh lemon. It's shaken until the shaker's uncomfortable to hold, and poured off the ice into a coupe that's been waiting in the freezer. I've taken a little of the lemon out, so it's bright rather than sharp. Then I've added five drops of salted water. It isn't meant to taste salty. It brings nothing of its own; it makes everything around it come forward, and it takes the frown off the bitter. I put it there for you, because that's what your laugh does for other people's jokes."
+      }
+    ],
+    "meaning_checks": [
+      "Aperol's colour/bitterness and Nonino's grappa origin are preserved; grappa still includes skins, stems and seeds from wine pressing.",
+      "The freezer coupe, uncomfortable-to-hold shake, reduced lemon, five drops and non-salty intention remain, with the same joke-lifting link."
+    ],
+    "preserved_voice": [
+      "Eyes watering while trying to say \"sorry, go on\"",
+      "Fear of being told off until laughter stops, and making others feel funny",
+      "The attributed Ginger quotes, Toronto uncertainty, and both \"I like to think\" interpretations",
+      "Reduced lemon and five salted-water drops lifting surrounding flavours as laughter lifts a joke",
+      "The future instruction to spot another suppressed laugh and let both go"
+    ]
+  },
+  {
+    "pairing": "innocent-lover",
+    "decision": "edited",
+    "reason": "Replaced the winning/not-stopping fragments with a direct recognition of persistence. Preserved every historical limit and the romantic reading of Hegeman's deliberate sincerity.",
+    "meaning": {
+      "motive": "Love aloud, fully, even when aware of how it looks.",
+      "fear": "Ridicule of sincerity tempting smaller words next time.",
+      "gift": "Loved people have public proof and never need to wonder.",
+      "story": "Brooklyn keeps proposing its cocktail despite jokes and no permanently dominant recipe.",
+      "drink": "Club rum Brooklyn announces itself through high-squeezed orange peel.",
+      "proposal": "Keep the big words the same size after laughter."
+    },
+    "edits": [
+      {
+        "field": "yours[4]",
+        "after": "4. I see you in the way Brooklyn kept asking, even though no Brooklyn has ever really stuck. I like to think Hegeman knew exactly how a pint of cider and ginger ale sounded when he called it a cocktail, and said it plainly because he meant it. When someone laughed, sooner or later somebody else in Brooklyn picked it up, at full size.",
+        "reason": "Names the behaviour the narrator recognises without a staged contrast between winning and stopping.",
+        "before": "4. That, to me, is you. Not the winning, because no Brooklyn has ever really stuck. The not stopping. I like to think Hegeman knew exactly how a pint of cider and ginger ale sounded when he called it a cocktail, and said it plainly because he meant it. When someone laughed, sooner or later somebody else in Brooklyn picked it up, at full size."
+      }
+    ],
+    "meaning_checks": [
+      "No Brooklyn 'really stuck' remains the same historical scope, and Hegeman's imagined self-awareness stays inside 'I like to think'.",
+      "The full-sized public love, fear after a smirk, announced orange and thirty-three-recipe proposal callback are untouched."
+    ],
+    "preserved_voice": [
+      "The birthday card that runs onto its back and words spoken first",
+      "Fear of ridicule for sincerity and proof of being loved aloud",
+      "Apparently, reported, attributed and \"I like to think\" qualifications throughout the Brooklyn stories",
+      "Strong Jamaican rum, burnt-orange liqueur and high-squeezed peel announcing a quiet club drink",
+      "The future proposal to keep words at full size after somebody laughs"
+    ]
+  },
+  {
+    "pairing": "innocent-magician",
+    "decision": "edited",
+    "reason": "Rebuilt the opening's list of fragments and the story connection's repeated denials. The hope remains grounded in things noticed, and the shared door still carries help forward.",
+    "meaning": {
+      "motive": "Add up nearby signs of a possible good future before others see it.",
+      "fear": "Being blamed for hopes raised, leading to a pre-emptive 'probably not'.",
+      "gift": "Keep another person's hope alive until they can carry it again.",
+      "story": "The Larks' grounded idea meets a still-size rule and Grant's help, later passed on.",
+      "drink": "Still Tasmanian highball for water/barley with Glenfarclas last for early help.",
+      "proposal": "State the signs, drop the hedge and investigate the actual obstacle."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "after": "Little things add up for you: the friend who lights up whenever baking comes up, the job advert you know would suit someone perfectly, the two people at a party who keep ending up talking to each other. Put enough of them together and you can see how something could turn out, well ahead of everyone else. You're following the signs you can see.",
+        "reason": "Keeps all three genuinely different observations while making the list and its conclusion sound like one thought, rather than staged fragments.",
+        "before": "Little things add up for you. The friend who lights up whenever baking comes up. The job advert you know would suit someone perfectly. The two people at a party who keep ending up talking to each other. Put enough of them together and you can see how something could turn out, well ahead of everyone else. To you, that isn't wishing. It's where the signs point."
+      },
+      {
+        "field": "yours[4]",
+        "after": "4. They'd built the idea from what was in front of them, and the \"no\" was a rule that had stood since 1901. Once the door was open, Bill held it for the ones coming after him, the way a distillery in Scotland had held it for him. That's what you do with other people's hopes: keep them going until they can carry them again. Some of them come true because you did.",
+        "reason": "States the evidence and real obstacle directly, joining the hope/gift connection instead of defining it through two needless negatives.",
+        "before": "4. The idea that day wasn't a wish. They'd looked at what was in front of them and added it up. The \"no\", when it came, wasn't a person at all, just a rule that had stood since 1901. And once the door was open, Bill held it for the ones coming after him, the way a distillery in Scotland had held it for him. That's what you do with other people's hopes. You keep them going until they can carry them again, and some of them come true because you did."
+      }
+    ],
+    "meaning_checks": [
+      "The perfect-fit advert, baking response and recurring party conversation all remain, as does seeing possibility before others.",
+      "The quoted 'no', 1901 rule, Bill passing on Scotland's help and eventual fulfilled hopes retain their scope; all historical qualifiers and Lyn's part remain."
+    ],
+    "preserved_voice": [
+      "The bakery, advert and party signs adding up before others see them",
+      "\"Probably not\" defending hope, and keeping another person's hope for them",
+      "Lyn's role, Grant's remembered motive, all attribution and \"I like to think\"",
+      "Still Tasmanian highball with Glenfarclas as the early help, tied to water and barley",
+      "The future instruction to state the evidence and find the actual obstacle"
+    ]
+  },
+  {
+    "pairing": "innocent-outlaw",
+    "decision": "edited",
+    "reason": "Reworked the fear paragraph to connect the kind invitation to its cost, retaining the real tension of loving the people who want more. The house/outdoors image and the two exact quoted invitations stay.",
+    "meaning": {
+      "motive": "Choose a modest satisfying life and remain kind to people who want more for them.",
+      "fear": "A kindly job or favour pulling them back into a life where they turn sour.",
+      "gift": "Make enough a chosen possibility and leave people lighter.",
+      "story": "Thoreau's apples suit the outdoor room; Emerson loves and doubts the same person.",
+      "drink": "Sharp still Stone Fence with raw apple for the fruit kept from the mill.",
+      "proposal": "Invite a concerned loved person into the chosen life rather than defend it."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "Living with less was easy; being loved by people who think you're wasting yourself is harder. \"You could do so much more.\" They mean it kindly, which is why you don't argue. Nobody will drag you back in. What worries you is someone kind offering a job you'd be good at or a favour \"just for a while\". Once you're back indoors, the part of you they liked would turn sour.",
+        "reason": "Joins the meaningful easy/hard comparison and makes the feared invitation specific without a staged 'quieter fear' and separate reversal.",
+        "before": "Living with less was easy. Being loved by people who think you're wasting yourself is harder. \"You could do so much more.\" They mean it kindly, which is why you don't argue. And under that sits a quieter fear. No one will drag you back in. But someone kind might ask, with a job you'd be good at or a favour \"just for a while\", and once you're back indoors, the part of you they liked would turn sour."
+      }
+    ],
+    "meaning_checks": [
+      "Both exact quotations, refusal of coercion, kindly offer, unsuitable indoors and souring are retained.",
+      "The guest still cares about the askers and gives others permission for enough; all Thoreau/Emerson attribution and cider claims remain."
+    ],
+    "preserved_voice": [
+      "The wedding question answered with the usual walk and work",
+      "Fear of a kindly invitation bringing the guest indoors and turning them sour",
+      "Making enough a choice and letting others leave lighter",
+      "Thoreau's own assertions, Emerson's quoted mixed judgement, and \"I like to think\"",
+      "Sharp still cider, no softening sugar and raw apple for the fruit kept in the field",
+      "The future proposal to invite a concerned person along"
+    ]
+  },
+  {
+    "pairing": "innocent-regular-guy",
+    "decision": "retained",
+    "reason": "Retained wholly unchanged because Robin approved the complete pour. Reread in this pass as the rhythm and generosity reference, including the intentional concise contrasts and the invitation to be cared for.",
+    "meaning": {
+      "motive": "Believe the best, forgive and quietly stay with people.",
+      "fear": "Being left out, saying the wrong thing or letting someone down.",
+      "gift": "Make everyone feel included and safe.",
+      "story": "Shared punch, uncertain name and four shares as the bartender's interpretation.",
+      "drink": "Slow overnight lemon oil syrup honours time given to others in a shared rum/tea punch.",
+      "proposal": "Make the bowl without an occasion and receive it when struggling."
+    },
+    "edits": [],
+    "meaning_checks": [
+      "The source is identical to both pass snapshots; no prose, schema or surrounding content changed.",
+      "The explicit gift, name uncertainty, signature, time-giving drink and concrete receive-care proposal all remain."
+    ],
+    "preserved_voice": [
+      "Choosing to believe the best and quietly staying when things go wrong",
+      "Fear of being left out turned into including everyone",
+      "The origin mystery, \"Maybe\" and the bartender's \"I like to think\"",
+      "Overnight lemon oil syrup honouring time given to others",
+      "The concrete invitation to make punch without an occasion and accept the bowl when struggling"
+    ]
+  },
+  {
+    "pairing": "innocent-ruler",
+    "decision": "edited",
+    "reason": "Reworked the unseen jobs, second-sip interpretation and long preparation sentence. Removed the generic 'nothing small' closer while keeping the concrete value of small care and every historical limit.",
+    "meaning": {
+      "motive": "Tend a small world through early daily care.",
+      "fear": "One missed day letting everything slip; seriousness being smiled at.",
+      "gift": "Keep what is cared for safe and show that small things matter.",
+      "story": "Boadas's small room and continuing throw grow sturdier than a single keeper.",
+      "drink": "Spoon-measured thrown dry Martini, with care as its only display.",
+      "proposal": "Look at what is going right and enjoy what all those days built."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "You keep the small jobs small by doing them early: the drip seen to the day it starts, the hurt feelings sorted out before dinner. They go unnoticed, as they're meant to. What you never mention is the fear that missing one day could let all of it slip. You shrug and call it your little thing because the seriousness gets smiled at. Whatever you're looking after is safe, and anyone close to you learns that a small thing taken seriously is worth more than a big thing taken lightly.",
+        "reason": "Connects the private fear and modest naming in complete sentences, ending on the actual lesson others receive instead of restating smallness.",
+        "before": "You keep the small jobs small by doing them early: the drip seen to the day it starts, the hurt feelings sorted out before dinner. Nobody notices those. They aren't meant to be noticed. And you never mention the fear. Miss one day, and it feels as if all of it could slip. So you shrug and call it your little thing, because the seriousness gets smiled at. Whatever you're looking after is safe, and anyone close to you learns that a small thing taken seriously is worth more than a big thing taken lightly. With you, nothing small is ever only small."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. I like to think what mattered in the throw was the second sip: the drink being right for this person, tonight. That's how you measure things too, by whether it's all right today, whatever its size, its numbers or who notices. A gesture that had fallen out of use almost everywhere was kept alive in that small room. As of 2021 it could be seen in many of the city's bars, and an apprentice who started there in 1970 owned the place. What she looked after grew sturdier than any one keeper, and all the days she gave it are part of why.",
+        "reason": "Keeps the interpretation signposted, states the guest's measure positively and separates the survival evidence without introducing a new chronology.",
+        "before": "3. I like to think the throw was never about the stream, but about the second sip: the drink being right, for this person, tonight. That's how you measure things too. Not by size, or numbers, or who's noticed, but by whether it's all right today. And there's something in her story for the part of you that's scared. A gesture that had fallen out of use almost everywhere was kept alive in that small room, and as of 2021 it could be seen in many of the city's bars, and an apprentice who started there in 1970 owned the place. In the end, what she looked after grew sturdier than any one keeper, and all the days she gave it are part of why."
+      },
+      {
+        "field": "yours[4]",
+        "after": "4. The cocktail I've made for you is a dry gin Martini, the great classic, made with the throw Boadas kept going. I measure three tablespoons of gin and one of dry vermouth with a spoon, as a nod to a bar whose founder shunned the jigger, as its bartenders still did in 2021. Then I throw it between two tins four or five times, till it's cold, and strain it into a little wine glass, with a thin curl of lemon peel dropped in. We don't know which drinks Boadas throws, so this one is mine. I kept it to two bottles because, for you, the care should be the whole of it: nothing in it is there to impress. It's bright, cold and clean, and it tastes that way because someone paid attention.",
+        "reason": "Turns the 70-word recipe fragment into the bartender's measuring and throwing actions, retaining quantities, equipment, glass, peel and uncertainty.",
+        "before": "4. The cocktail I've made for you is a dry gin Martini, the great classic, made with the throw Boadas kept going. Three tablespoons of gin and one of dry vermouth, measured with a spoon as a nod to a bar whose founder shunned the jigger, as its bartenders still did in 2021, then thrown between two tins four or five times, till it's cold, and poured through the strainer into a little wine glass, with a thin curl of lemon peel dropped in. We don't know which drinks Boadas throws, so this one is mine. I kept it to two bottles because, for you, the care should be the whole of it: nothing in it is there to impress. It's bright, cold and clean, and it tastes that way because someone paid attention."
+      }
+    ],
+    "meaning_checks": [
+      "2021 scope, 1970 apprentice and all Boadas lineage details retain the original chronology; the second-sip interpretation remains under 'I like to think'.",
+      "Three tablespoons/one, spoon/jigger choice, two tins, four or five throws and thin peel are intact; straining still retains the original strainer action."
+    ],
+    "preserved_voice": [
+      "Windowsill herbs, weekly calls and the old bike",
+      "Fear that missing one day could let everything slip, and the gift of making small things safe",
+      "\"I like to think\" about the second sip and every date/as-of qualification",
+      "Spoon-measured thrown Martini as attention without extra ingredients",
+      "The future instruction to see what is already going right before checking duties"
+    ]
+  },
+  {
+    "pairing": "innocent-sage",
+    "decision": "edited",
+    "reason": "Reworked the repeated second of waiting and the correction/improvement connection. Kept the private delivery, the uncertainty about customers, and the short invitation to take the guest's turn.",
+    "meaning": {
+      "motive": "Privately tell the useful truth they would want to hear themselves.",
+      "fear": "Being punished for honesty; trusted people letting them stay wrong to be kind.",
+      "gift": "Give a chance to fix a small mistake as an act of trust.",
+      "story": "Regan's Scotch Sours, a waitress's catch and two possible reasons customers said nothing.",
+      "drink": "The ordered Whiskey Sour, using Regan's later sugar/lemon tip for something better after correction.",
+      "proposal": "Keep telling and ask a trusted person for the same correction."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "After you've said it, there's a second when you wait to see whether you're in trouble. You never mention that. At some point someone told you the truth was rude, and part of you still listens for it. What hurts more is finding out that people you trust watched you get something wrong and said nothing, to be nice.",
+        "reason": "Removes the duplicate setup of the same second, keeping its hesitation and the greater hurt of kindly silence.",
+        "before": "There's a second after that you never mention. You've said it, and for a second you wait to see whether you're in trouble. At some point someone told you the truth was rude, and part of you still listens for it. And what hurts more is the reverse: finding out that people you trust watched you get something wrong and said nothing, to be nice."
+      },
+      {
+        "field": "yours[4]",
+        "after": "4. The cocktail I've made for you is the drink that was ordered, a Whiskey Sour: bourbon, sugar and fresh lemon, a renowned classic, served chilled, in a small stemmed glass. It borrows one tip from the same book: granulated sugar pressed into the lemon. The sugar works at the peel, he wrote, and the drink tastes fresher for it. I did it as a nod to what follows a catch like hers. He was put right, then passed on something better. Sometimes a correction is how someone starts getting good.",
+        "reason": "Keeps correction and later improvement as distinct outcomes without restating the first as a general negative lesson.",
+        "before": "4. The cocktail I've made for you is the drink that was ordered, a Whiskey Sour: bourbon, sugar and fresh lemon, a renowned classic, served chilled, in a small stemmed glass. It borrows one tip from the same book: granulated sugar pressed into the lemon. The sugar works at the peel, he wrote, and the drink tastes fresher for it. I did it as a nod to what follows a catch like hers. He was put right, and then he passed on something better. Telling someone doesn't end with them being fixed. Sometimes it's how they get good."
+      }
+    ],
+    "meaning_checks": [
+      "Truth being called rude and a friend's silent tolerance remain the two fears, with the same greater hurt.",
+      "Regan's lemon tip remains attributed, the bartender's nod remains explicit, and improvement is still only 'Sometimes'."
+    ],
+    "preserved_voice": [
+      "The crumb, typo and mispronounced colleague corrected privately",
+      "Fear of being called rude and of trusted people's kindly silence",
+      "The gift of a correction that feels like trust",
+      "Both customer-noticing possibilities and \"I like to think\" about the waitress",
+      "Lemon worked with sugar as the corrected bartender's later contribution",
+      "The concrete proposal to ask a trusted person for the same favour"
+    ]
+  },
+  {
+    "pairing": "jester-caregiver",
+    "decision": "edited",
+    "reason": "Reworked the private list and the comparison between failed and good evenings. The flops, responsibility and kindness remain, with the original personal invitations left for warmth.",
+    "meaning": {
+      "motive": "Give fun a shape so people can join and feel cared for.",
+      "fear": "Being unable to lift a gloom no one else can shift either.",
+      "gift": "Even a flat event tells people their evening mattered to someone.",
+      "story": "Walsh's failed baby theme precedes her remembered cocktail party; the imagined care includes hard-to-win guests.",
+      "drink": "A whole-orange Bronx with coriander and Peychaud's for her Sazerac guests.",
+      "proposal": "Keep the list as learning and throw the next event anyway."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "There's a list you keep to yourself: the quiz nobody got into, the evening that stayed flat however hard you pushed it. Everyone else forgot them by the next morning. You didn't. The fear beneath all the fun is that you'll be the one who can't lift a gloom nobody else can shift either. Even on the flat nights, people could tell that someone wanted the evening to be good for them. That's what your fun was for all along, and it matters more than whether the game worked.",
+        "reason": "Makes the list's examples part of one recollection and names the particular fear without the repetitive couldn't-lift construction.",
+        "before": "There's a list, though, and only you have it: the ones that didn't take. The quiz nobody got into. The evening that stayed flat however hard you pushed it. Everyone else forgot them by the next morning. You didn't, because under all the fun is the thing you dread most: a gloom nobody could lift, and you the one who couldn't lift it. Even on the flat nights, people could tell that someone wanted the evening to be good for them. That's what your fun was for all along, and it matters more than whether the game worked."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. It's the cocktail party people remember. But it might never have come without the ones before it, and I like to think she knew it. It's the same with your list: the flat evenings taught you what people will join in with and what they won't. And among the drinks that Sunday there were a few Sazeracs, served to the older guests who were set in their ways. I like to think that was someone making sure even the hardest ones to win over had something there for them. That's you, too.",
+        "reason": "States what failures contribute instead of debating whether they are the opposite of success.",
+        "before": "3. It's the cocktail party people remember. But it might never have come without the ones before it, and I like to think she knew it. It's the same with the list you keep. The flat evenings on it aren't the opposite of the good ones. They're how you learned what people will join in with, and what they won't. And among the drinks that Sunday there were a few Sazeracs, served to the older guests who were set in their ways. I like to think that was someone making sure even the hardest ones to win over had something there for them. That's you, too."
+      }
+    ],
+    "meaning_checks": [
+      "The quiz, pushed flat evening, forgotten-next-morning scope and unliftable gloom remain.",
+      "Both 'I like to think' claims preserve their uncertainty; the hardest older guests, Sazeracs, explicit care and future second party remain."
+    ],
+    "preserved_voice": [
+      "Silly games given serious rules so others can join",
+      "Fear of unliftable gloom and proof that someone wanted a good evening for them",
+      "Walsh's first-on-record scope, imagined learning and Sazerac choice under \"I like to think\"",
+      "Whole-orange Bronx with coriander and Peychaud's for the harder-to-win guests",
+      "The future proposal to laugh about a flat night and plan the next one"
+    ]
+  },
+  {
+    "pairing": "jester-creator",
+    "decision": "edited",
+    "reason": "The distinctive opening and coffee-bean joke already work. I recast the fear paragraph and the historical connection so their ideas unfold in speech, without losing the quietly alarming prospect of conformity or the joke about promotion.",
+    "meaning": {
+      "motive": "Carries an offhand joke on until it becomes a word, ritual or thing to wear.",
+      "fear": "Could quietly become normal and lose the silliness others expect them to outgrow.",
+      "gift": "Makes other people feel freer to be ridiculous.",
+      "story": "McElhone carried the Bar Flies joke through a society, wartime departure and return.",
+      "drink": "Cameron's Kick mixes Scotch and Irish whiskey; extra lemon and almond brighten it, with three coffee-bean flies for the society.",
+      "proposal": "Manage the serious stretch, then resume the word, ritual and thing to wear that others have missed."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "At every age, someone has expected you to grow out of it. What you don't say is that you could be normal tomorrow, and nobody would stop you. What frightens you, more than any look across a room, is how quietly it could happen. Around you, other people let themselves be a bit ridiculous too. They feel freer than they'd ever think to tell you, and that's a bigger gift than being taken seriously.",
+        "reason": "Joins the repeated normality explanation into one thought and lets the fear lead naturally to the freedom given to others.",
+        "before": "At every age, someone has expected you to grow out of it. What you don't say is that you could. Normal isn't a mystery to you: you could do it tomorrow, and nobody would stop you. That's the part that frightens you, more than any look across a room: how quietly it could happen. Meanwhile, next to you, other people get to be a bit ridiculous too, and they are. They feel freer around you than they'd ever think to tell you. That's a bigger gift than being taken seriously."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. Harry took someone else's joke and kept it going past the point where most people would have stopped, much as you do. In 1940, as the war closed in, he locked his papers in a safe, buried it and left. After the war he returned to the bar and picked up where he left off, and a later booklet lists him as the society's president: \"Exalted Blue Bottle Fly\". He'd been promoted. I like to think the silliness was one of the things he kept safe.",
+        "reason": "Replaces three clipped introductions with a single connection while retaining the comic promotion and the signposted thought about what he kept safe.",
+        "before": "3. The joke wasn't his. He just wouldn't let it end where most people would have, which is exactly what you do with a joke. And he kept it going. In 1940, as the war closed in, he locked his papers in a safe, buried it and left. After the war he returned to the bar and picked up where he left off, and a later booklet lists him as the society's president: \"Exalted Blue Bottle Fly\". He'd been promoted. I like to think the silliness was one of the things he kept safe."
+      }
+    ],
+    "meaning_checks": [
+      "Harry still carries a joke he did not originate; wartime actions, chronology and the later booklet's title are unchanged.",
+      "The prospect of becoming normal remains possible, quiet and frightening; the explicit freedom given to others remains.",
+      "All recipe details, sensory claims, the epigraph and the concrete return to the old ritual are retained."
+    ],
+    "preserved_voice": [
+      "The daft word, habitual clothing and unagreed ritual kept alive",
+      "Fear of quietly choosing normal and the gift of others' freedom to be ridiculous",
+      "The bar's-own-book qualification, \"My guess\", \"I like to think\" and exact fly titles",
+      "Scotch and Irish whiskey with coffee-bean flies borrowed explicitly from sambuca",
+      "The future proposal to return to the silliness after a serious stretch"
+    ]
+  },
+  {
+    "pairing": "jester-explorer",
+    "decision": "edited",
+    "reason": "The birthday scene and the precise ice mechanism have character and remain. I rewrote the worry and connection paragraphs, then made the future invitation flow without repeatedly opposing the joke to the company.",
+    "meaning": {
+      "motive": "Wants an unplanned laugh and keeps trying unfamiliar forms.",
+      "fear": "A joke may feel cold, be taken personally or leave somebody outside it.",
+      "gift": "Gives people a real reaction and a memorable night.",
+      "story": "The Chicago bar's ice-shell Old-Fashioned was strange and funny, but Joly made hospitality accompany that strangeness.",
+      "drink": "An exact rye Old-Fashioned waits cold and diluted in a home-freezer ice shell; its maker cracks it at the table.",
+      "proposal": "Keep the strange joke and stay for the uncertain second and conversation afterwards."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "You're watching every face. You never explain a joke; it feels like taking it apart while everyone watches. When one doesn't land, you keep a straight face and take it home with you. You'd hate to hear that it came across as cold, that someone thought the joke was on them or felt left outside it. It almost never is. What you give people is rare: a real reaction instead of a polite one. For a second nobody has to know how to feel, and weeks later they're usually still describing a night you were at.",
+        "reason": "Unwinds the repeated explanation and negative clauses while retaining the fear's three forms and the gift of a real reaction.",
+        "before": "You're watching every face. You'd never explain one of your jokes, because explaining feels like taking it apart while everyone watches. So when one doesn't land, you keep a straight face and take it home with you. What you'd least like to hear is that it came across as cold, that someone thought it was on them, or felt left outside it. It almost never is. And it's a rare thing you give people: a real reaction instead of a polite one. For a second nobody has to know how to feel, and the night everyone's still describing weeks later is usually one you were at."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. I like to think that critic put a finger on exactly the thing you worry about. The strange drink got a laugh from the first week; what it needed was someone to stay in the room with it. You know the second when people aren't yet sure they're allowed to laugh. Having someone beside them makes it easier.",
+        "reason": "Carries the original signposted interpretation through one continuous thought instead of a sequence of abstract contrasts.",
+        "before": "3. I like to think that critic put a finger on exactly the thing you worry about. The strange part was never the problem. The joke was there from the first week, and somebody laughed. What was missing was someone staying in the room with it. You know that second better than anyone, the one where people don't yet know whether they're allowed to laugh. It's a better second with someone beside them in it."
+      },
+      {
+        "field": "yours[5]",
+        "after": "5. Keep every strange thing you had planned, without explaining it beforehand or making it sensible. Then stay for the uncertain second that follows, and for the conversation afterwards. People can join you in the joke without having it taken apart for them. The ones who weren't sure the first time are the ones who'll come back for whatever you try next.",
+        "reason": "Makes the practical proposal conversational and removes the repeated explanation of what the audience did and did not need.",
+        "before": "5. So keep every strange thing you had planned. Don't explain it beforehand, and don't make it sensible. Just don't disappear straight after. Stay for the second that follows, and for the conversation after that. Nobody needed the joke taken apart. They needed someone in it with them. The ones who weren't sure the first time are the ones who'll come back for whatever you try next."
+      }
+    ],
+    "meaning_checks": [
+      "The first-week laugh and missing company remain inside the same 'I like to think' interpretation.",
+      "The fear still covers coldness, a joke being taken personally and exclusion; the real-versus-polite reaction remains a purposeful contrast.",
+      "The proposal still keeps the joke unexplained and strange, with the guest staying through the uncertain moment and conversation."
+    ],
+    "preserved_voice": [
+      "One short sentence read from a long sheet and the uncomfortable beat before laughter",
+      "Watching faces, taking a failed joke home, and fear of leaving someone outside it",
+      "The gift of a real rather than expected reaction",
+      "All reception attributions and \"I like to think\" about the critic's insight",
+      "A restrained rye Old-Fashioned in a cloudy home-made ice shell, cracked with its maker present",
+      "The future proposal to keep the strange joke and stay for the conversation"
+    ]
+  },
+  {
+    "pairing": "jester-hero",
+    "decision": "edited",
+    "reason": "The journal scene, narrator's interpretation and eggshell detail remain intact. I eased the opening's repeated fragments and the future paragraph's vague struggle metaphor, keeping the exhaustion and the warmth of someone else taking a turn.",
+    "meaning": {
+      "motive": "Keeps a joke ready for others through weeks of trouble.",
+      "fear": "The morning no joke comes will expose what they have been holding off.",
+      "gift": "Helps people remain themselves while trouble is happening to them.",
+      "story": "Texas prisoners made eggnog at Perote; Trimble's owl and later roll-call help show laughter and nerve together.",
+      "drink": "Joven-mezcal eggnog uses the prison list with whole milk replacing donkey's; a teaspoon in an eggshell recalls a guard's sip.",
+      "proposal": "Go in even on an unfunny morning and let someone else find the joke."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "after": "It's been bad for weeks now, long enough that everyone has run out of things to say. You're still funny, quietly turning up every morning with something, the way some people bring coffee. When it gets worse, people glance at you before they decide how worried to be.",
+        "reason": "Turns the chained fragments into spoken sentences while keeping the duration, quiet humour and coffee comparison.",
+        "before": "It's been bad for a while now. Not one bad day: weeks of it, the kind where everyone has run out of things to say. And you're still funny. Not loud, just there every morning with something, the way some people bring coffee. When it gets worse, people glance at you before they decide how worried to be."
+      },
+      {
+        "field": "yours[5]",
+        "after": "5. Some day the joke won't come. On that morning, go in anyway and just be there, even if you've got nothing funny to say. My guess is that someone else will find the joke for once, because you've been showing them how every day. I'd love you to be there to laugh at it.",
+        "reason": "Replaces the unclear 'it wins' aphorism and repeated permission with the same concrete, reassuring invitation.",
+        "before": "5. Some day the joke won't come. That isn't the day it wins. On the morning you've got nothing, let it not come. Go in anyway, unfunny, and just be there. My guess is that on that morning someone else will find the joke for once, because you've been showing them how every day. I'd love you to be there to laugh at it."
+      }
+    ],
+    "meaning_checks": [
+      "The trouble still lasts weeks, and people still use the guest's face to judge their worry.",
+      "The central fear and explicit gift remain verbatim in the second personality paragraph.",
+      "The narrator's guess about another person's joke and the final wish are preserved; all Perote facts and drink details remain unchanged."
+    ],
+    "preserved_voice": [
+      "Weeks of difficulty and a joke brought each morning like coffee",
+      "Fear of the morning nothing comes, and others kept as themselves by laughter",
+      "Raids in both directions, journal scope, and the nerve under \"I like to think\"",
+      "Milk substitution, nutmeg omitted from the list, and the eggshell nod to the guard's sip",
+      "The future instruction to turn up unfunny and be there for someone else's joke"
+    ]
+  },
+  {
+    "pairing": "jester-innocent",
+    "decision": "edited",
+    "reason": "The tour and drink passages already speak naturally and retain their particular wit. I reworked the fear paragraph where repeated 'and' clauses obscured the cost of becoming quiet, while preserving the small comic opening.",
+    "meaning": {
+      "motive": "Follows an absorbing small thing even when expected to sit still.",
+      "fear": "Learning to be still and less themselves until nothing happens.",
+      "gift": "Gives others lasting, fond stories and relief from pretending the rules made sense.",
+      "story": "Wodehouse's Bertie escapes the dull exhibition tour to watch the Green Swizzle; the drink itself proved real.",
+      "drink": "A Trinidad-derived Green Swizzle uses tangerine-steeped green absinthe as the bright surprise, swizzled cold with Angostura.",
+      "proposal": "Find another bored person, stop together and give the interesting thing full attention."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "You never set out to be funny. You laugh off the hush, the \"not now\", the hand on your arm, though being told to sit still has always sounded like being told to be less. You dread getting good at it and finding that nothing happens any more. Everyone else would lose their best stories: those dull mornings they still tell, fondly, years later. After you, nobody needs to pretend the rules made sense.",
+        "reason": "Makes the feared outcome plain and connects it to the stories given to others without the tangled conjunctions.",
+        "before": "You never set out to be funny. The part you laugh off is the hush: the \"not now\", the hand on your arm. Being told to sit still has always sounded like being told to be less, and what you dread is managing it, and nothing happening at all. Hushing you would cost everyone else their best stories, the dull mornings they still tell, fondly, years later. And after you, nobody needs to pretend the rules made sense."
+      }
+    ],
+    "meaning_checks": [
+      "The quoted hush, touch on the arm, fear of becoming less and empty outcome all remain.",
+      "The gift remains the fondly retold dull mornings and release from false reverence for rules.",
+      "Fiction is still identified as fiction; the historical correction, borrowed tangerine idea and signposted future connection stay unchanged."
+    ],
+    "preserved_voice": [
+      "The untorn sachet and toaster that sends bread round twice",
+      "The hush heard as being told to be less, and the gift of cherished dull-morning stories",
+      "Fiction ownership, the real Green Swizzle distinction, and \"I like to think\"",
+      "Two-day tangerine absinthe as the bright thing in a grim middle, with the pale cold drink becoming gentler",
+      "The future invitation to leave the tour with another bored person and make a too-big promise"
+    ]
+  },
+  {
+    "pairing": "jester-lover",
+    "decision": "edited",
+    "reason": "The opening and final blessing are warm and specific. I made the fear and coffee connection less staged, preserving the enjoyment of timing and the unfamiliar waiting seat.",
+    "meaning": {
+      "motive": "Chooses the moment of news or a gift for the pleasure of anticipation and faces lighting up.",
+      "fear": "Someone stops playing along, or the little delays become predictable.",
+      "gift": "Gives people something to look forward to and a reason to linger.",
+      "story": "New Orleans made plain coffee and spirit into Café Brûlot's careful anticipation of the known coffee.",
+      "drink": "An unlit, two-cup version follows the steeping and warm-spice order, with another person choosing when to pour the chicory coffee.",
+      "proposal": "Let someone else delay the news or present and enjoy waiting in their seat."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "You choose the moment with care, and you light up when it comes. What you dread is a flat \"just tell me\" from someone who's stopped playing along, or the day your little delays become what everyone expects. You're always the one choosing when; you never take the seat of the person waiting.",
+        "reason": "Removes the needless contrast with rejection and makes the guest's usual control of timing easier to hear.",
+        "before": "You choose the moment with care, and you light up when it comes. It isn't a no that you dread. It's a flat \"just tell me\" from someone who's stopped playing along, or the day your little delays become what everyone expects. And there's one seat in the game you never take: the one where you're the one waiting."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. Everyone knows the coffee is coming; the pleasure is in waiting for it. I like to think the person carrying it out enjoys watching their faces as they choose the moment, just as you do. New Orleans gave ordinary after-dinner coffee a build-up, and you do that for an ordinary evening.",
+        "reason": "Combines the repeated recognition and analogy into a relaxed connection while keeping the bartender's enjoyment explicitly signposted.",
+        "before": "3. Nobody is fooled. Everyone there knows the coffee is coming. And I like to think the person carrying it out enjoys every face while choosing the moment. That's you, teasing, exactly. Coffee after dinner is about the most ordinary thing there is, and New Orleans gave it a build-up. You do that to an ordinary evening."
+      }
+    ],
+    "meaning_checks": [
+      "The flat response and predictability remain the two fears; waiting remains the seat the guest has not taken.",
+      "The historical uncertainty about the originator, all classic preparation steps and all changes in the two-cup drink remain verbatim.",
+      "The pleasure of known anticipation, explicit invitation gift and the final wish to be kept guessing remain."
+    ],
+    "preserved_voice": [
+      "News held until plates clear and a decoy before the present",
+      "Fear of routine or \"just tell me\", and giving ordinary evenings a reason to linger",
+      "The 'It's said' invention and \"I like to think\" about choosing the moment",
+      "Warm dark spiced coffee service without flame, with someone else choosing when coffee goes in",
+      "The future instruction to take the waiting seat and enjoy not knowing"
+    ]
+  },
+  {
+    "pairing": "jester-magician",
+    "decision": "edited",
+    "reason": "The safe-trick rules and lasting-surprise connection carried too many clipped announcements. I gave them a more relaxed rhythm while keeping the playful keys and mugs, the exact care for each person, and both signposted thoughts about the phone booth.",
+    "meaning": {
+      "motive": "Makes personal, reversible little tricks that let grown-ups play.",
+      "fear": "A trick lands wrong and becomes somebody's bad day.",
+      "gift": "Makes surprise safe in a house.",
+      "story": "Shebairo's straight-faced phone-booth entrance to the bar stayed long after its first joke.",
+      "drink": "A labelled bottle of apple-brandy highball mix remains ready in the fridge after its maker has gone.",
+      "proposal": "Keep the careful rules, but leave a lasting personal surprise in a coat or borrowed book."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "Nobody spots the rules, but every trick fits one person and can be put right in seconds. The mugs go back, and the keys turn up before anyone's late. For every trick people see, there are a few you decided against because of who'd be on the end of it. You're afraid of the one that lands wrong and becomes somebody's bad day, so you keep them small, and gone by teatime.",
+        "reason": "Joins the small reversible examples and fear into a spoken sequence without reducing the guest's careful selection.",
+        "before": "Nobody spots the rules. Every trick fits one person, and everything can be put right in seconds. The mugs go back. The keys turn up before anyone's late. For every trick people see, there are a few you decided against, because of who'd be on the end of it. What you're afraid of is the trick that lands wrong and becomes somebody's bad day. So you keep them small, and gone by teatime."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. I like to think that's exactly the joke you'd make: a phone booth in a hot-dog shop, where a phone booth has every right to be, played completely straight, without a wink. Nobody gets hurt; the worst that can happen is you open a door and find a bar. His stayed long past teatime. And I like to think it went on catching somebody new on a quiet weeknight, years after he first thought of it, without him there to watch it land.",
+        "reason": "Lets the straight-faced joke and its lasting difference unfold together, retaining both historical-interpretation signposts.",
+        "before": "3. I like to think that's exactly the joke you'd make, and exactly how you'd make it: played completely straight. No wink, just a phone booth in a hot-dog shop, where a phone booth has every right to be. Nobody gets hurt. The worst that can happen is you open a door and find a bar. But there's one difference from yours. His wasn't put back by teatime. It stayed. And I like to think it went on catching somebody new on a quiet weeknight, years after he first thought of it, without him there to watch it land."
+      },
+      {
+        "field": "yours[5]",
+        "after": "5. Keep your rules; they're why people let you in. Then make a surprise that lasts beyond this afternoon: a note in the pocket of a coat they won't wear until winter, or a line written inside a book you lend. Leave it to land while you're somewhere else. Months from now someone will find it, grin at nobody, and know exactly who it was.",
+        "reason": "Turns the repeated lasting-versus-temporary instructions into one concrete invitation, preserving the discovery without the maker present.",
+        "before": "5. Keep your rules. They're why people let you in. But make one that stays. Not a trick for this afternoon: a surprise built into something that lasts. A note in the pocket of a coat they won't wear until winter. A line written inside a book you lend. You won't be there when it lands, and that's the point. Months from now someone will find it, grin at nobody, and know exactly who it was."
+      }
+    ],
+    "meaning_checks": [
+      "All tricks still fit one person, can be put right quickly and are selected to avoid causing a bad day.",
+      "Both 'I like to think' clauses remain, with the straight-faced reading and future quiet-weeknight discovery inside them.",
+      "The labelled, transparent drink and both coat/book proposals remain; the future discovery still occurs without the guest there."
+    ],
+    "preserved_voice": [
+      "Keys under bananas and mugs facing the wall",
+      "Fear of a wrong landing, tricks put right before harm, and safe play for adults",
+      "Get Smart attribution, careful \"arguably\" and both \"I like to think\" passages",
+      "Labelled apple-brandy highball waiting after its maker leaves, tied to the lasting door",
+      "The winter coat note or lent-book line as a concrete future surprise"
+    ]
+  },
+  {
+    "pairing": "jester-outlaw",
+    "decision": "edited",
+    "reason": "The opening, blunt gift and demanding historical paragraph earn their contrasts and remain. I rewrote the overloaded drink paragraph so the ingredients, later banana liqueur and reason for it each have room.",
+    "meaning": {
+      "motive": "Says the outrageous version to let others voice the honest thing.",
+      "fear": "Politeness smothers the question and pushes agreement into private.",
+      "gift": "Takes the blame for the first line so honest conversation can happen in the room.",
+      "story": "Croswell's cocktail definition came with a political dig; the libel appeal separated truth with good motives from mere provocation.",
+      "drink": "Aged Jamaican rum follows spirits, bitters and cold water, with banana liqueur saying the rum's existing banana taste out loud.",
+      "proposal": "When manners smooth over the gasp, ask the real question aloud and wait."
+    },
+    "edits": [
+      {
+        "field": "yours[4]",
+        "after": "4. The cocktail I've made for you starts from Croswell's four things. I chose aged rum from Jamaica for the spirit, with a little bitters and a measure of water, as his definition has it. The water goes in ice-cold, and I serve it without ice in a glass frozen beforehand. Last comes a bright pinch of orange oil, with its peel dropped in. My one change is the sugar, which arrives as a banana liqueur; recipes for that liqueur only turn up about a century later. Many aged Jamaican rums already taste of stewed banana. I put it in plain sight for you, as a nod to Croswell's line: the banana that's often already in the rum, said out loud. Expect something rich, round and smooth, and far better than it sounds when you say \"banana\" at a dinner party.",
+        "reason": "Unwinds the long recipe sentence and duplicate liqueur wording while keeping the four-part definition and the conspicuous-banana joke.",
+        "before": "4. The cocktail I've made for you starts from Croswell's four things, with a spirit of my choosing: aged rum from Jamaica, a little bitters, and a measure of water, as his definition has it, poured in ice-cold, all served without ice in a glass frozen beforehand. Last comes a bright pinch of orange oil, with its peel dropped in. My one change is the sugar: it arrives as a banana liqueur, a liqueur whose recipes only turn up about a century later. Many aged Jamaican rums already have a taste of stewed banana in them. I put it in plain sight as a nod to Croswell's line: the banana that's often already in the rum, said out loud. Expect something rich, round and smooth, and far better than it sounds when you say \"banana\" at a dinner party."
+      }
+    ],
+    "meaning_checks": [
+      "The historical section and all quotes, trial qualifications and interpretation remain unchanged.",
+      "The water is still ice-cold, the glass frozen, service without ice and the orange oil/peel last.",
+      "The banana liqueur remains the only change, its later chronology remains qualified by 'about', and the rum's banana taste remains limited to many aged Jamaican rums."
+    ],
+    "preserved_voice": [
+      "The dinner gasp and laugh disguised as a cough",
+      "Fear of the truth deferred to the coats, and taking blame so an honest conversation can happen",
+      "Croswell's allegation never made fact, his motive signposted, and Hamilton's quoted limits",
+      "Banana liqueur saying the rum's existing flavour aloud, with the rich smooth dinner-party joke",
+      "The future instruction to ask the actual question and wait through the potatoes"
+    ]
+  },
+  {
+    "pairing": "jester-regular-guy",
+    "decision": "edited",
+    "reason": "The social scene and understated drink have a particular warmth. I removed the repeated fragment structure from the hidden confession and shortened the explanatory analogy while retaining its shared-oddity meaning.",
+    "meaning": {
+      "motive": "Gets the table to recognise shared small embarrassments.",
+      "fear": "The confession may be theirs alone and the table may fall quiet.",
+      "gift": "Makes others go home feeling less strange.",
+      "story": "The apparently odd 1896 whiskey-and-beer order became the plain Boilermaker, with Spring sharing jokes around the town.",
+      "drink": "Straight rye with cold pilsner hides a personal apricot infusion beneath the plain order.",
+      "proposal": "Say 'I do this' instead of 'everybody does this' and let the laugh become a confession."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "You keep one part quiet: every one of those stories starts with you. You're the one who waved back. Saying \"everybody does this\" feels kinder, and safer, than \"I do\", so you're always in the joke and hardly ever what it's about. Under the laughing is a small worry that one day the table will go quiet and it really will be only you. It hardly ever is. People go home feeling a little less strange than when they came, and you did that with one true sentence.",
+        "reason": "Makes the private confession and safety motive a connected thought while keeping the worry and explicit gift.",
+        "before": "You keep one part quiet. Every one of those starts with you. You're the one who waved back. You say \"everybody does this\" because it's kinder, and safer, than \"I do\". So you're always in the joke, and hardly ever what it's about. Somewhere under the laughing is a small worry that one day you'll say it and the table will go quiet, and it really will be only you. It hardly ever is. And people go home feeling a little less strange than when they came. You did that, with one true sentence."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. I like to think you'd get on with that man in 1896. He ordered in front of the regulars, and they found it strange, though the habit was already shared. You do much the same at a table: say the thing everybody does, and one person's oddity becomes everyone's. Spring did it to every bartender in town in one column, sharing the joke among all of them.",
+        "reason": "Removes the repeated table analogy and clipped 'It wasn't only his' while retaining the shared custom and collective joke.",
+        "before": "3. I like to think of that man in 1896 as someone you'd get on with. He ordered it at the bar, in front of the regulars, and they found it strange. It wasn't only his. That's what you do at a table. You say the thing everybody does, and it stops being one person's oddity and becomes everyone's. Spring did it to every bartender in town in one column, with the joke on all of them at once."
+      }
+    ],
+    "meaning_checks": [
+      "All exact quotations in the personality paragraph remain, with the same first-person versus everybody distinction.",
+      "The man still orders publicly in 1896; the shared custom remains grounded in the earlier Scots and Irish paragraph and under the same interpretation.",
+      "All Spring facts, the apricot-infusion details, sensory interpretation and concrete word-swap proposal remain unchanged."
+    ],
+    "preserved_voice": [
+      "The wave returned to the wrong person and \"you too\" to a waiter",
+      "Fear of the table going quiet and the gift of feeling less strange",
+      "The order's early/odd contrast, attribution and all three \"I like to think\" passages",
+      "Dried apricot found by tasting the rye, with cold bitter beer bringing it forward signposted",
+      "The future instruction to swap everybody for I and accept closeness"
+    ]
+  },
+  {
+    "pairing": "jester-ruler",
+    "decision": "edited",
+    "reason": "The quiet partner's scene is strong. I recast the hidden enjoyment and the Williamson analogy to avoid repeated denials and slogan-like declarations, retaining the two-person act and the pleasure of choosing a ridiculous friend.",
+    "meaning": {
+      "motive": "Plays the steady partner so another person's comic act works.",
+      "fear": "People mistake the act for a grown-up who does not get the joke.",
+      "gift": "Makes the people beside them their funniest.",
+      "story": "Rickey had the name and conflicting origin stories while Williamson had the drink; both were needed.",
+      "drink": "Rye from Shoo's and the colonel's reportedly preferred Apollinaris give each partner a part in a dry Rickey.",
+      "proposal": "Let the loudest friend see the laugh they have wanted, and share the fun openly."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "You hide how much you're enjoying it. You need them to be ridiculous; in a room where everyone behaves, you're bored within the hour. People think you put up with the loudest person at the table, when you picked them. Your fear is being taken at face value, as the grown-up who doesn't get the joke, though you get it before anyone. You give everyone near you someone steady to play against, and next to you they're at their funniest.",
+        "reason": "Connects enjoyment, the chosen friend and fear into speech, then makes the same comic support explicit as the gift.",
+        "before": "How much you're enjoying it is the bit you hide best. You'd never say it, but you need them to be ridiculous. Put you in a room where everyone behaves and you're bored within the hour. People think you put up with the loudest person at the table. You picked them. Your fear is being taken at face value, as the grown-up who doesn't get the joke. You get it before anyone. And that's a gift to everyone near you: next to you, they're at their funniest, because someone steady is there to play it against."
+      },
+      {
+        "field": "yours[3]",
+        "after": "3. I like to think George Williamson loved hearing each new version of how the drink started, then quietly poured it again. The colonel had the name and the stories, and the bartender had the drink. They needed each other, as the steady one would have known. You understand that too: you want the act to work, and you're happy for someone else's name to go on it. It works because you're there.",
+        "reason": "Keeps the imagined quiet partnership within its signpost and replaces the repeated act/name contrast with a continuous analogy.",
+        "before": "3. George Williamson, I like to think, loved it, and heard each new version of how the drink started, said nothing, and poured it again. The colonel had the name and the stories. The bartender had the drink. It doesn't work without both of them, and the steady one knows that better than anyone. So do you. You don't want the name on it. You want the act to work, and the act works because of you."
+      }
+    ],
+    "meaning_checks": [
+      "The bar history and all competing lime accounts, dates and the 'it's said' and 'reportedly' qualifiers remain unchanged.",
+      "Williamson's enjoyment and quiet response still sit inside 'I like to think'; the two-partner interpretation is retained.",
+      "The hidden fun, chosen loud friend, fear of being misunderstood and gift of a steady comic partner all remain, as do both drink contributions and the practical invitation to laugh openly."
+    ],
+    "preserved_voice": [
+      "A quiet word or look releasing the loud friend's laugh",
+      "Fear of being read as a humourless adult and giving others their funniest moment",
+      "Three Rickey accounts, reportedly preferred water, and both \"I like to think\" interpretations",
+      "Shoo's rye and Rickey's mineral water each contributing to a long bone-dry drink",
+      "The future invitation to let the partner see the guest laugh"
+    ]
+  },
+  {
+    "pairing": "jester-sage",
+    "decision": "edited",
+    "reason": "The poem, radio history and pear connection remain. I made the concealed hope paragraph easier to hear and the final invitation more direct, keeping the vulnerability, relief and affectionate wager.",
+    "meaning": {
+      "motive": "Uses a truthful joke to expose the gap between what is and what could be better.",
+      "fear": "Hope is easier to laugh at, and one day the absurdity may stop being funny.",
+      "gift": "Lets people laugh at what is absurd without giving up on it.",
+      "story": "Field's Hotaling poem countered blame after the fire; his later anonymous radio hope served the same care.",
+      "drink": "A dry bourbon Manhattan hides ripe-pear syrup as a nod to the hope sent without Field's name or face.",
+      "proposal": "Keep the jokes but tell someone the hope aloud before joking."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "after": "You notice the gap because you still know how it should be. Under every joke is a picture of something better, and you've never quite given it up. You keep that part quiet: a joke is hard to laugh at, but a hope is easy. The pretending wears you out, especially a dinner where everyone keeps agreeing to call it fine. And you rarely say your deeper fear aloud: that one day it won't be funny any more.",
+        "reason": "Removes staged concealment language and the winding dinner clause while retaining the purposeful joke-versus-hope contrast and deeper fear.",
+        "before": "Here's what they miss. You only notice the gap because you still know how it should be. Under every joke is a picture of something better, and you've never quite given it up. You keep that part quiet. A joke is hard to laugh at; a hope is easy. What wears you out is the pretending: a dinner where everyone agrees to call it fine, and it goes on and on. Further down sits a fear you rarely say: that one day it won't be funny any more."
+      },
+      {
+        "field": "yours[4]",
+        "after": "4. I think you'd understand him. Both the jibe and the hope come from caring how it turns out. Making fun of the claim stood up for the city, and the poetry carried the same care, without the joke. Usually people only see one of those sides.",
+        "reason": "Recasts abstract root language as an ordinary explanation of the same care expressed twice.",
+        "before": "4. I think you'd understand him. The jibe and the hope have one root: caring how it turns out. Making fun of the claim stood up for the city. The poetry was the same care, without the joke. Usually only one of the two gets seen."
+      },
+      {
+        "field": "yours[6]",
+        "after": "6. Keep the jokes; plenty of people get through the week because of them. Once, though, tell someone how you think things could be, as yourself, before a joke can get there first. Your hope might get laughed at. I'd bet it gets listened to, and I'd love you to find out.",
+        "reason": "Merges the repeated invitation to say the hope while keeping the risk, narrator's wager and warm final wish.",
+        "before": "6. Keep the jokes. Plenty of people get through the week because of them. But once, say the hope out loud, as yourself, before a joke can get there first. Tell someone how you think things could be. It might get laughed at. I'd bet it gets listened to, and I'd love you to find out."
+      }
+    ],
+    "meaning_checks": [
+      "The hope remains concealed by the guest, vulnerable to laughter and linked to the fear of losing humour.",
+      "The shared care remains the interpretation; the anonymous radio hope stays under another name.",
+      "The poem, all disaster/radio facts and qualifiers, drink quantities and hidden pear meaning remain unchanged; all six numbered paragraphs remain."
+    ],
+    "preserved_voice": [
+      "\"For your convenience\" met with a true line and a groaning table",
+      "Quiet hope beneath the jibe and fear that absurdity will stop being funny",
+      "The concrete gift of laughing without giving up and letting everyone breathe out",
+      "Field's credited verse, the chronology and \"I like to think\" about his chosen anonymity",
+      "Pear sweetness hidden throughout the dry Manhattan as the unnamed hope",
+      "The future instruction to speak the hope in the guest's own name before the joke"
+    ]
+  }
+]

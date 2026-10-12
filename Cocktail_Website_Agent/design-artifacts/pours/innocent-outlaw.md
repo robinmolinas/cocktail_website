@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch innocent)
 
 - **name:** Fresh Air
 - **tagline:** You know what enough feels like, and make it look like freedom.
+- **words:** Rustic · Appley · Tart
 - **glassware:** a heavy tumbler (about 300 ml), two or three small lumps of ice
 - **contains:** `[]`
 
@@ -60,7 +61,7 @@ At a wedding or a birthday, someone asks what you're up to these days. You tell 
 
 Living with less was easy. Being loved by people who think you're wasting yourself is harder. "You could do so much more." They mean it kindly, which is why you don't argue. And under that sits a quieter fear. No one will drag you back in. But someone kind might ask, with a job you'd be good at or a favour "just for a while", and once you're back indoors, the part of you they liked would turn sour.
 
-Your way does something for people, and someone should tell you. After an afternoon with you, they go home wanting a little less, and lighter for it. You make "enough" look like a choice, not a defeat, and you show them someone can say no and stay kind.
+After an afternoon with you, they go home wanting a little less, and lighter for it. You make "enough" look like a choice, not a defeat, and you show them someone can say no and stay kind.
 
 **yours**
 

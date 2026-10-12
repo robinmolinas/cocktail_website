@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch explorer)
 
 - **name:** For Good
 - **tagline:** You don't mind losing a weekend if nobody loses ten minutes again.
+- **words:** Luscious · Zesty · Frosty
 - **glassware:** a large stemmed goblet (about 350 ml), chilled, no salt rim
 - **contains:** `[]`
 

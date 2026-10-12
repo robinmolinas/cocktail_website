@@ -1,0 +1,131 @@
+{
+  "reviewed": 132,
+  "edited": 56,
+  "retained": 76,
+  "local_edits": 60,
+  "approved_pours_unchanged": [
+    "creator-hero",
+    "innocent-regular-guy",
+    "magician-outlaw",
+    "sage-lover"
+  ],
+  "protected_fragments_checked": 68,
+  "preserved": [
+    "all text before Reading and from Dossier onward",
+    "Reading field labels and numbered paragraphs",
+    "numeric details and direct quotations",
+    "I like to think signatures",
+    "all epigraphs",
+    "approved complete pours",
+    "recorded Robin edit fragments"
+  ],
+  "source_audit_replay": true,
+  "errors": [],
+  "edited_pairings": [
+    "caregiver-creator",
+    "caregiver-magician",
+    "creator-caregiver",
+    "creator-regular-guy",
+    "creator-sage",
+    "explorer-caregiver",
+    "hero-magician",
+    "hero-outlaw",
+    "hero-sage",
+    "innocent-caregiver",
+    "innocent-creator",
+    "innocent-magician",
+    "innocent-outlaw",
+    "innocent-ruler",
+    "jester-caregiver",
+    "jester-explorer",
+    "jester-lover",
+    "jester-outlaw",
+    "jester-sage",
+    "lover-caregiver",
+    "lover-jester",
+    "lover-magician",
+    "lover-outlaw",
+    "lover-regular-guy",
+    "lover-sage",
+    "magician-creator",
+    "magician-innocent",
+    "magician-lover",
+    "magician-sage",
+    "outlaw-caregiver",
+    "outlaw-creator",
+    "outlaw-magician",
+    "outlaw-ruler",
+    "regular-guy-creator",
+    "regular-guy-hero",
+    "regular-guy-innocent",
+    "regular-guy-jester",
+    "regular-guy-lover",
+    "regular-guy-magician",
+    "regular-guy-outlaw",
+    "regular-guy-sage",
+    "ruler-caregiver",
+    "ruler-creator",
+    "ruler-explorer",
+    "ruler-hero",
+    "ruler-innocent",
+    "ruler-jester",
+    "ruler-lover",
+    "ruler-regular-guy",
+    "ruler-sage",
+    "sage-creator",
+    "sage-hero",
+    "sage-jester",
+    "sage-magician",
+    "sage-outlaw",
+    "sage-ruler"
+  ],
+  "application": {
+    "pours_checked": 132,
+    "pours_updated": 56,
+    "changed_fields": [
+      "whoYouAre",
+      "yours"
+    ],
+    "all_other_pour_data_unchanged": true,
+    "catalogue_and_import_report_unchanged": true,
+    "manifest_changed_only_for_edited_sources": true
+  },
+  "studio_validation": {
+    "baseline_errors": 0,
+    "current_errors": 0,
+    "baseline_warnings": 448,
+    "current_warnings": 448,
+    "warning_text_changes": [
+      {
+        "pairing": "caregiver-creator",
+        "added": [
+          "[yours 3] gendered pronoun 'himself': fine for a historical person, never for the guest"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "outlaw-magician",
+        "added": [
+          "whoYouAre is 197 words (the examples run ~90-150): punchier?"
+        ],
+        "removed": [
+          "whoYouAre is 206 words (the examples run ~90-150): punchier?"
+        ]
+      }
+    ],
+    "new_motif_overlap_warnings": []
+  },
+  "application_checks": {
+    "source_import_check": "passed: 132 pours, 105 veto-free",
+    "image_pairings": "passed: 132",
+    "selection_reference": "passed",
+    "type_check": "passed",
+    "test_files": 17,
+    "tests_passed": 925,
+    "production_build": "passed in a fresh folder and in dist with existing-output cleanup disabled",
+    "normal_build_cleanup": "EPERM removing existing dist/assets, including after an approved escalated retry",
+    "diff_whitespace_check": "passed"
+  }
+}

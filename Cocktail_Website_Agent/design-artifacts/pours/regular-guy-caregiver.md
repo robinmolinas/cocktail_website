@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 
 - **name:** Whoever Comes In
 - **tagline:** You stop for the people everyone else has learned to walk past.
+- **words:** Velvety · Roasty · Earthy
 - **glassware:** chilled coupe
 - **contains:** `[]`
 

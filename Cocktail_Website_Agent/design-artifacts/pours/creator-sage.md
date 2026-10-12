@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 
 - **name:** Beside the First
 - **tagline:** What everyone else calls finished, you call the first edition.
+- **words:** Bracing · Herbal · Spiced
 - **glassware:** a small coupe, chilled, its rim wiped with lemon
 - **contains:** `[]`
 
@@ -68,7 +69,7 @@ What you dread is settling into being right, becoming the way it's always been d
 
 4. So this drink starts from his improved whiskey cocktail: rye, plain syrup and bitters, with half a teaspoon of orange liqueur instead of his cherry one, the same swap his historian makes. It's shaken hard with ice and strained into a small chilled glass whose rim has been wiped with lemon. There's one change of mine, and it sits where he made his. Instead of his dash of absinthe, a full teaspoon of green Chartreuse, a herbal liqueur that grew out of a monks' medicine and is still made under Carthusian monks, to a recipe only a few of them know. American cocktail books only took it up in the 1880s. His change was a whisper. This one you can taste.
 
-5. Here's where I'd take a stand. Take the thing you're best known for, the one everyone says not to touch, and change one thing in it. Don't replace it. Show the two side by side, and let people choose. You'll learn the most from the ones who choose the old one.
+5. Take the thing you're best known for, the one everyone says not to touch, and change one thing in it. Don't replace it. Show the two side by side, and let people choose. You'll learn the most from the ones who choose the old one.
 
 **closingLine (Tomás, with Beside the First):** *Taste it next to the one you already know. Then decide.*
 

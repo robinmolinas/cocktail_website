@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 
 - **name:** Kept
 - **tagline:** You keep your promise to yourself, even when compromise sounds reasonable.
+- **words:** Luscious · Herbal · Spiced
 - **glassware:** an old-fashioned glass, ice cubes
 - **contains:** `[]`
 

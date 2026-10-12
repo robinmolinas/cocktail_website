@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 
 - **name:** Good as It Is
 - **tagline:** Impressing you is hard. Delighting you is easy.
+- **words:** Vibrant · Zesty · Icy
 - **glassware:** rocks glass (double old-fashioned, about 300 ml), filled with cracked ice
 - **contains:** `[]`
 
@@ -60,7 +61,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 **whoYouAre**
 At the wedding with seven courses and a little card for each, what you remember is the bread. Warm, with too much butter. You said so with your mouth still full, and you meant it. You know what the foam on the fish was meant to be. You've heard the words, and you can use them if you have to. You just liked the bread more.
 
-What stings isn't being called plain. It's the half-smile that says you liked it because you don't know any better. So in some rooms you turn yourself down a notch, and more than once you've ordered the clever thing just to keep your seat at the table. That costs you more than it shows. What you're really afraid of is being let in as the sweet one, and never as one of them. But watch what happens on the nights you don't turn it down. Someone leans over and admits the bread was the best bit for them too. Then someone else does. It's worth more than it looks: with you there, people can stop performing and just enjoy it.
+What stings isn't being called plain. It's the half-smile that says you liked it because you don't know any better. So in some rooms you turn yourself down a notch, and more than once you've ordered the clever thing just to keep your seat at the table. That costs you more than it shows. What you're really afraid of is being let in as the sweet one, and never as one of them. But watch what happens on the nights you don't turn it down. Someone leans over and admits the bread was the best bit for them too. Then someone else does. With you there, people can stop performing and just enjoy it.
 
 **yours**
 

@@ -62,4 +62,17 @@ describe('pour links', () => {
       expect(await decodePour(bad)).toBeNull();
     }
   });
+
+  it('reads a keep link as the same pour', async () => {
+    const payload = { pairing: 'sage-lover', name: 'Ada', seed: null } as const;
+    expect(await decodePour('k' + (await encodePour(payload)))).toEqual(payload);
+    expect(await decodePour('k' + (await frame(payload, 'p')))).toEqual(payload);
+  });
+
+  it('treats a doubled or bare keep mark as broken', async () => {
+    const encoded = await encodePour({ pairing: 'sage-lover', name: 'Ada', seed: null });
+    for (const bad of ['k', 'kk' + encoded, 'kx' + encoded.slice(1)]) {
+      expect(await decodePour(bad)).toBeNull();
+    }
+  });
 });

@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch caregiver)
 
 - **name:** Everybody's
 - **tagline:** You make strangers feel as welcome as old friends.
+- **words:** Comforting · Roasty · Creamy
 - **glassware:** a footed glass goblet, about 180 ml, warmed with hot water first (or any heatproof stemmed glass or small handled toddy glass of about that size)
 - **contains:** `["dairy", "gluten"]`
 

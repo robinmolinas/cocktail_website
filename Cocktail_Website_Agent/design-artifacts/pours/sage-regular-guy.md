@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 
 - **name:** Whatever They Call It
 - **tagline:** You let almost everything go. Just not the part that matters.
+- **words:** Breezy · Herbal · Fizzy
 - **glassware:** tall highball glass (about 300 ml), three ice cubes
 - **contains:** `[]`
 

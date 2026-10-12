@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 
 - **name:** Built to Hold
 - **tagline:** You build the kind of order that lets everyone else feel free.
+- **words:** Bold · Funky · Tangy
 - **glassware:** glass punch cup with a handle (about 200 ml), no ice
 - **contains:** `[]`
 

@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-01 (batch innocent)
 
 - **name:** Night Light
 - **tagline:** You find your courage in making someone else feel safe.
+- **words:** Gentle · Honeyed · Savoury
 - **glassware:** a small stemmed cocktail glass, chilled, no ice
 - **contains:** `[]`
 
@@ -60,7 +61,7 @@ authored_in: the room, 2026-10-01 (batch innocent)
 **whoYouAre**
 You were small too. People forget that part. You were the one holding the smaller hand at the crossing, saving the last biscuit, staying awake because someone littler was frightened of the dark. No one had asked. It just seemed obvious that anyone you loved should be safe, and if nobody else was watching, you would. You were never less scared of the dark. You just had someone to be calm for.
 
-You still do it. When something goes wrong, the calm voice comes out before you've decided anything. And underneath it, whenever someone you love gets hurt, part of you is already asking what you should have seen, as if it had been your watch. Here's what that gives them: the ones who grew up near you learned from you that the dark can be got through. Some of them are calm in it now, and they couldn't tell you where they got it.
+You still do it. When something goes wrong, the calm voice comes out before you've decided anything. And underneath it, whenever someone you love gets hurt, part of you is already asking what you should have seen, as if it had been your watch. The ones who grew up near you learned from you that the dark can be got through. Some of them are calm in it now, and they couldn't tell you where they got it.
 
 **yours**
 

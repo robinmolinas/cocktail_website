@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 
 - **name:** One More Adjustment
 - **tagline:** You keep finding a better version of things other people have written off.
+- **words:** Mellow · Fruity · Rounded
 - **glassware:** coupe, chilled
 - **contains:** `[]`
 

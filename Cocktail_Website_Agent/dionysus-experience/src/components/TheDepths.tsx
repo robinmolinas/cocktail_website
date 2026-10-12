@@ -1421,11 +1421,20 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       const yTop = headBottom + size * 0.5 + 8;
       const yBot = h * 0.875 - 40 - size * 0.5;
       const travel = Math.max(size, yBot - yTop);
-      const held = finCaughtRef.current;
       if (!base.length) lay(cols);
       // the pour settles: everything climbs a little quicker while the field
       // fills, easing to the resting pace (one shared factor, so spacing holds)
       const arrival = 1 + 1.4 * (1 - smooth(0, 7000, now - t0));
+      const held = finCaughtRef.current;
+      // a sphere slows as it dissolves under the question, like a bubble
+      // meeting the surface: ~2 s longer to go, so it never seems snatched
+      // away (user test, 2026-10-12). The full-strength climb is unchanged.
+      // A shared lane (phones) slows as one, so its spacing holds.
+      const surface = new Array<number>(cols).fill(1);
+      for (let i = 0; i < n; i++) {
+        if (!st[i].init || held.includes(FIN_FLAVORS[i])) continue;
+        surface[i % cols] = Math.min(surface[i % cols], 1 - 0.58 * smooth(0.8, 0.92, st[i].p));
+      }
       const pts: { x: number; y: number; lane: number; held: boolean }[] = [];
       for (let i = 0; i < n; i++) {
         const lane = i % cols;
@@ -1440,7 +1449,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
         }
         const isHeld = held.includes(FIN_FLAVORS[i]);
         if (!isHeld && !reduced) {
-          s0.p += (dt * arrival) / (21000 - (lane % 3) * 1800);
+          s0.p += (dt * arrival * surface[lane]) / (21000 - (lane % 3) * 1800);
           if (s0.p >= 1) s0.p -= 1;
         }
         pts.push({ x: gutter + laneW * (lane + 0.5), y: yBot - s0.p * travel, lane, held: isHeld });

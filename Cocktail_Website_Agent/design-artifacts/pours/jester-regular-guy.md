@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch jester)
 
 - **name:** Is It Just Me
 - **tagline:** Your most embarrassing moments make people feel better about theirs.
+- **words:** Brisk · Malty · Fruity
 - **glassware:** small stemmed glass (about 90 ml) for the rye, room temperature; tall pilsner glass (about 400 ml), chilled, for the beer
 - **contains:** `["gluten"]`
 

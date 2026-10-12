@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 
 - **name:** By Design
 - **tagline:** Your charm has an author, and it's you.
+- **words:** Luscious · Tropical · Tart
 - **glassware:** cocktail glass, chilled
 - **contains:** `[]`
 

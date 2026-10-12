@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 
 - **name:** The Wink
 - **tagline:** Things get bad. You get funnier.
+- **words:** Plush · Creamy · Smoky
 - **glassware:** a small plain earthenware cup (about 300 ml), chilled in the freezer; any small tumbler will do
 - **contains:** `["egg-white", "dairy"]`
 

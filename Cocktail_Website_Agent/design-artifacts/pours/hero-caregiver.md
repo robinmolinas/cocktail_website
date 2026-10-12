@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch hero)
 
 - **name:** Next One's Mine
 - **tagline:** People breathe easier when you say, “Leave it with me.”
+- **words:** Breezy · Bittersweet · Fizzy
 - **glassware:** tall glass (highball, about 350 ml), filled with ice
 - **contains:** `[]`
 

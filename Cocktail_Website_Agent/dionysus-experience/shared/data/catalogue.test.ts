@@ -43,6 +43,16 @@ describe(`the committed store (${strict ? 'STRICT_STORE=1' : 'development'})`, (
     for (const pour of pours) expect(identities.get(pour.pairing)?.name).toBe(pour.personality);
   });
 
+  // Tomás's menu rule: the three words describe the glass, so none may
+  // repeat a word of the cocktail's name or the personality's title.
+  it('keeps the menu words clear of the name and the title', () => {
+    const echoes = pours.flatMap((pour) => {
+      const said = new Set(`${pour.cocktail.name} ${pour.personality}`.toLowerCase().match(/\p{L}+/gu) ?? []);
+      return pour.cocktail.words.filter((word) => said.has(word.toLowerCase())).map((word) => `${pour.pairing}: ${word}`);
+    });
+    expect(echoes).toEqual([]);
+  });
+
   it('has a registered scene with geometry for all 132 pairings', () => {
     for (const key of ALL_PAIRINGS) {
       const identity = parsePairingKey(key)!;
@@ -79,6 +89,7 @@ function guestFields(pour: AuthoredPour): [string, string][] {
     ['personality', pour.personality],
     ['name', c.name],
     ['tagline', c.tagline],
+    ['words', c.words.join(' · ')],
     ['glassware', c.glassware],
     ['serves', c.serves ?? ''],
     ['recipeIntro', c.recipeIntro ?? ''],

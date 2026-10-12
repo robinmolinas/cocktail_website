@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 
 - **name:** I'll Tell You Later
 - **tagline:** You know how to make the waiting part of the pleasure.
+- **words:** Cosy · Roasty · Spiced
 - **glassware:** two demitasse cups (small coffee cups, about 90 ml) on saucers, warmed with hot water first
 - **contains:** `["nuts"]`
 
@@ -58,7 +59,7 @@ You've had the best news of your week since lunchtime, and you haven't said a wo
 
 You choose the moment with care, and you light up when it comes. It isn't a no that you dread. It's a flat "just tell me" from someone who's stopped playing along, or the day your little delays become what everyone expects. And there's one seat in the game you never take: the one where you're the one waiting.
 
-So here it is: you give people something to look forward to. With you, an ordinary evening gets a reason to linger, and a tease is an invitation into the game.
+You give people something to look forward to. With you, an ordinary evening gets a reason to linger, and a tease is an invitation into the game.
 
 **yours**
 

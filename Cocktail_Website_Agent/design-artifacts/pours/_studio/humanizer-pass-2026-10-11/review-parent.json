@@ -1,0 +1,154 @@
+{
+  "verdict": "pass",
+  "reviewed_readings": 23,
+  "reviewed_local_replacements": 25,
+  "scope": "Independent preservation review of all edited regular-guy-, ruler-, and sage- readings in group-d.json. Source files and shared reports were not edited.",
+  "method": "Read every audit before/after and the current complete guest Reading, including neighboring paragraphs. Compared all audit replacements with baseline.json and verified exact reconstruction confined to Reading using standard-library code. Reviewed persona motive, fear and explicit gift; affectionate bartender voice; drink mechanisms; historical attributions and qualifications; and concrete future proposals.",
+  "findings": "No substantive meaning, hidden-persona information, earned warmth, drink mechanism, factual qualification or future action was lost. The cuts remove announcements, repeated setup or generic grading while leaving the specific gift, interpretation or instruction in the surrounding prose.",
+  "concerns": [],
+  "verification": {
+    "audit_replay": "All 25 replacements reproduce the current 23 guest sections exactly.",
+    "outside_reading": "All content before Reading and from Dossier onward is byte-for-byte identical to baseline for the reviewed files.",
+    "validator_execution": "None; official studio validation belongs to the parent."
+  },
+  "readings": [
+    {
+      "pairing": "regular-guy-creator",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The talent/belonging wish remains explicit, as do the fear of getting above oneself, family pride, gift of showing what one of them can do and show-it-at-home proposal. The deleted phrases only announce truth and correction."
+    },
+    {
+      "pairing": "regular-guy-hero",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The unrecognised amateur effort and feared who-asked-you judgement remain. People holding the ladder and turning a complaint into shared achievement still state the gift concretely; the ask-for-a-hand proposal and deep/warm apple drink are intact."
+    },
+    {
+      "pairing": "regular-guy-innocent",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The hidden wish to be admitted as an equal, cost of ordering the clever thing and bread-loving pleasure remain. Letting others stop performing states the gift directly; the small-dare invitation stays warm and concrete."
+    },
+    {
+      "pairing": "regular-guy-jester",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The earlier prank that did not land, worry about never being got back and inherited belonging ritual remain. The stranger becoming one of you, feeling claimed and lasting beyond the laugh still give explicit value. The unguarded welcome proposal remains."
+    },
+    {
+      "pairing": "regular-guy-lover",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "Only the announcement of a twist was removed. New England rum in Chicago punch, uncertainty about intent, bar-book attribution and I like to think remain exactly; the fallback hurt and invitation to enjoy being chosen are unaffected."
+    },
+    {
+      "pairing": "regular-guy-magician",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The party-with-nothing-broken scene still shows insecurity and feeling useful as the way in. Fear of a throwaway world, preserving somebody's own thing and the stay-in-the-room invitation all remain; the removed lead-in adds no hidden information."
+    },
+    {
+      "pairing": "regular-guy-outlaw",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The replacement explicitly retains both shared benefit and never getting credit. Fear of being handled as a stranger, care to ask only someone able to say yes and the plain ask without charm remain; no drink or attribution wording changes."
+    },
+    {
+      "pairing": "regular-guy-sage",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The following sentence still says some advice was wrong, was let go quietly and that naming the error feels like letting the source down. Nothing substantive about selective inheritance is lost. The two-person kindness and teach-the-changed-part proposal remain."
+    },
+    {
+      "pairing": "ruler-caregiver",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "Listening, swallowed authority and fear that missing trouble hurts someone remain. People trusting the guest to hear all of it still gives the exact benefit; the considerate no proposal and permission to wait while someone speaks preserve tenderness."
+    },
+    {
+      "pairing": "ruler-creator",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The removed I-love introduction is an announcement of interest. Collins's remembered attribution, guests-before-self lesson, kindly nobody-is-a-snob aside and bartender's personal interpretation all remain. The ending still says please do not lower the bar and explains how the reason travels as care."
+    },
+    {
+      "pairing": "ruler-explorer",
+      "verdict": "pass",
+      "replacements_reviewed": 2,
+      "preservation_evidence": "Nobody guesses and loving the old version more than its defenders remain in the replacement, so the hidden affection is preserved exactly in meaning. The second cut removes only a request announcement; say-the-love-first and enjoy-the-place gains remain."
+    },
+    {
+      "pairing": "ruler-hero",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The kept paragraph still names the cost of a promise, reassures that the promise holds and gives others the chance to thank the guest. The disappearing personal plan/weekend, fear of making reliance uncertain and red-wine-for-what-stung link remain."
+    },
+    {
+      "pairing": "ruler-innocent",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The cut removes only the gift announcement. Because the guest spoke, everyone gets a better night, including those unable to ask; wanted-it-too and it-matters lines remain. Hidden hope, demand-as-strength and grin-before-asking proposal stay affectionate."
+    },
+    {
+      "pairing": "ruler-jester",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The removed kindly phrase announces tone. The actual proposal remains gentle: a near companion gets to try the first joke, the guest need not lose the wheel and gets the fun of following. Hidden enjoyment of steering, uncertainty and cancelled-plan gift remain."
+    },
+    {
+      "pairing": "ruler-lover",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The replacement retains both feeling uniquely valued and confidence to offer something back. Intentional sincere attention, fear people would stop coming, hidden cost and nobody-expects-that appreciation remain. The on/off invitation and warm hope are unchanged."
+    },
+    {
+      "pairing": "ruler-regular-guy",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "Only a proposal announcement was removed. Leaving part of oneself at the door, the own-side question, don't-pour-less instruction and both-and-still-me answer remain; the equal-spirit/cardamom mechanics and affection are unaffected."
+    },
+    {
+      "pairing": "ruler-sage",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The specific surprising behaviour remains: the person disagreed with calls first next time. Desire to be liked, private replay, concern for the quietest person and equal answer remain. The evidence-based confidence and earned evening off are unchanged."
+    },
+    {
+      "pairing": "sage-creator",
+      "verdict": "pass",
+      "replacements_reviewed": 2,
+      "preservation_evidence": "Both removed passages are announcements. The calm yes with unheard night of no, nothing-goes-wrong so nobody-asks and explicit that-is-care clause retain unseen labour and its worth. The second cut keeps the fear behind filled gaps, intentional air and personal best-weekend experience."
+    },
+    {
+      "pairing": "sage-hero",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The removed phrase announces what the bartender wants heard. The paragraph still gives the full reassurance: unseen traps are possible despite care, a loss does not vindicate doubters, and the guest retains what makes them good. Hidden unchosen-loss fear and steadiness-as-kindness remain."
+    },
+    {
+      "pairing": "sage-jester",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The exact dignity gift remains, followed by kinder-than-honesty and much-harder appreciation. The effort behind the quip, intolerance of collectively agreed untruth and inability to be heard seriously remain; the silly-for-its-own-sake proposal is intact."
+    },
+    {
+      "pairing": "sage-magician",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "Only staged candour was cut. The unending certainty threshold, idea already made transparent, safe small-group flaw and gain of people doing better independently remain. Shared-error fear, explicit generosity, whisky relationship and tamarind rationale are unaffected."
+    },
+    {
+      "pairing": "sage-outlaw",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "Only a send-off announcement was cut. The proposal retains both directions of temptation, reaction not settling truth, rechecking evidence and saying an eventual correction out loud. Reluctance to stand alone, first-speaker gift and all Forrester qualifications remain."
+    },
+    {
+      "pairing": "sage-ruler",
+      "verdict": "pass",
+      "replacements_reviewed": 1,
+      "preservation_evidence": "The concrete numbers-versus-self distinction still appears after the cut: keep exact readings and add the joke, hunch and loved part. Enjoyment concealed by the notebook, fear of an omitted column and dependable-count gift remain. The personable final line and vanilla/cask nod are untouched."
+    }
+  ]
+}

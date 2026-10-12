@@ -380,10 +380,11 @@ screen-wide glows on commit.
 - **Shape:** full pill (999px radius), always.
 - **House pill** (`CtaButton` → `.cta`): frosted, Jost 500, vermilion sweep on
   hover, glyph trailing (arrow = leads somewhere; share/save glyphs). Glyphs are
-  always the house vermilion. Share and Save are equals — same pill, no seed
+  always the house vermilion. Share and Keep are equals — same pill, no seed
   glow on either (a lit Share read as a red shadow).
 - **Way-onward pill** (`.hold-next`): see the hold grammar.
-- **Quiet action** (`.tr-quiet`): Jost, muted, hairline underline — "Start again".
+- **Quiet action** (`.tr-quiet`): Jost, muted, hairline underline — "Start again",
+  and the three ways to keep the cocktail.
 - **Sound control** (`SoundToggle` → `.sound-toggle`, mounted beside App in
   `main.tsx`): a small hairline pill on the nav's line, opposite the mark,
   centred on the mark's glyph, the same on every screen (the landing included,
@@ -520,9 +521,46 @@ earn their place against one readable 126mm column, not against each other.
 
 ### The reading room's first screen (H10)
 The title and tagline introduce the cocktail; **Share your cocktail** and
-**Save the recipe** appear **only after the letter**, as equal house pills
-(Robin, 2026-10-06). The opening cue reads "Your recipe and reading". On phones
-the bottom pills shorten to "Share" / "Save". Portrait phones show the
+**Keep your cocktail** appear **only after the letter**, as equal house pills
+(Robin, 2026-10-06; Keep replaced "Save the recipe" 2026-10-12). The opening
+cue reads "Your recipe and reading". Where the row cannot hold both full
+labels side by side (phones, a narrow letter column), the pills shorten to
+"Share" / "Keep", so they always stand level on one line.
+
+**The three words (2026-10-12).** Each cocktail carries three menu words
+about the glass itself, never the guest (Tomás's review; `- **words:**` in
+each dossier's Cocktail block, exactly three, none repeating the name or the
+personality title). They sit where a menu puts them, under the title and
+before the tagline: the name and its words are one group, the line about
+her stands apart below. Set in the label voice (Jost caps, 0.24em) but in
+candle ivory, so they never read as a second kicker; brass points between.
+They arrive last, one word at a time (`tr-sip`, 0.45 s apart, after the
+tagline has landed); the reading cue follows them. When a narrow screen
+wraps them, the point that would open a line is clipped at the margin, so
+every line begins with a word. The same line runs in ink on the PDF, in
+ivory between the title and the seed hairline on the card (one line, the
+size gives before the line does), and in the share text: "…poured “Down the
+Line”: dreamy, creamy, floral."
+
+**Keeping it (2026-10-12).** Testers shared the cocktail *to themselves* to
+keep it and got the friend's view, without the reading. Each pill now unfolds
+its ways as quiet underlines in place under the pills (never a menu or a
+modal), one row open at a time. **Share** stays the gift: **Send the link** or
+**Send the card** (the card below, its QR code to the gift link, captioned
+"scan for the recipe"). **Keep** offers **A link for myself** (a keep link, `#pour=k…`, which opens the whole
+reading with "welcome back, {name}."), **A card for my photos** (a 1080×1920
+picture: portrait master with the name inked on its tag, type below on the
+night, a paper-label QR code back to the keep link; `src/engine/card.ts`.
+It is sent as the picture itself, a ~230 KB JPEG, through the share sheet,
+so it lands in WhatsApp as a photo; a shared card carries the invitation and
+link as its caption. Where no sheet will take it, the card appears under its
+row to press and hold) and
+**The recipe as a PDF** (the print keepsake, which carries a QR code at the
+foot of its title block: the owner's to the keep link, a guest's to the gift
+link; it sits level with the plate's foot, so the recipe keeps page one). The device also remembers its
+own pours (`src/engine/kept.ts`), so an owner opening their own share link on
+that device gets the reading too. Neither is a lock: the reading is authored
+per pairing, and a forwarded keep link shows it to whoever holds it. Portrait phones show the
 unobscured scene first and place title/reading below. The screen nav scrim
 keeps text from passing under the mark; it and the mark are hidden in print.
 

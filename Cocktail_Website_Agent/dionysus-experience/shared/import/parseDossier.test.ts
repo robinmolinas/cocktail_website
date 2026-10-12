@@ -32,6 +32,7 @@ describe('parseDossier: standard pour', () => {
 
   it('copies guest text verbatim, unwrapping only the epigraph and closing line', () => {
     expect(pour.cocktail.name).toBe('Down the Line');
+    expect(pour.cocktail.words).toEqual(['Dreamy', 'Creamy', 'Floral']);
     expect(pour.cocktail.closingLine).toBe("Pass the shaker. Just don't let it stop.");
     expect(pour.reading.epigraph).toBe('Anyone can have the recipe.');
     expect(pour.reading.whoYouAre).toEqual(['You see the finished thing first.', 'What they don’t see is the arithmetic.']);
@@ -158,6 +159,14 @@ describe('parseDossier: broken dossiers fail with every problem listed', () => {
 
   it('a non-veto value in contains', () => {
     expect(failed(fixtureDossier({ contains: '`["egg-white", "alcohol"]`' })).join('\n')).toMatch(/non-veto value.*alcohol/);
+  });
+
+  it('missing, miscounted or sentence-like menu words', () => {
+    expect(failed(fixtureDossier({ omit: ['words'] })).join('\n')).toMatch(/missing \*\*words:\*\*/);
+    expect(failed(fixtureDossier({ words: 'Dreamy · Creamy' })).join('\n')).toMatch(/needs three words/);
+    expect(failed(fixtureDossier({ words: 'Dreamy, Creamy, Floral' })).join('\n')).toMatch(/needs three words/);
+    expect(failed(fixtureDossier({ words: 'Dreamy · creamy · Floral' })).join('\n')).toMatch(/cocktail\.words\.1: a menu word/);
+    expect(failed(fixtureDossier({ words: 'Dreamy · Very creamy · Floral' })).join('\n')).toMatch(/cocktail\.words\.1: a menu word/);
   });
 
   it('veto_free disagreeing with contains', () => {

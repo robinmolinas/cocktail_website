@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-28 (batch caregiver)
 
 - **name:** Standing By
 - **tagline:** People don't have to be at their best to be loved by you.
+- **words:** Mellow · Fruity · Spiced
 - **glassware:** small wine glass, chilled, no ice
 - **contains:** `[]`
 

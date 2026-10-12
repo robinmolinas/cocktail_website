@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch innocent)
 
 - **name:** There It Goes
 - **tagline:** You find it funny first. Then everyone does.
+- **words:** Joyful · Citrusy · Bittersweet
 - **glassware:** a coupe (about 180–200 ml), chilled
 - **contains:** `[]`
 

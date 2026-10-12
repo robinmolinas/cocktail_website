@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch jester)
 
 - **name:** For Kicks
 - **tagline:** You take a joke further than anyone, until everyone else is in on it.
+- **words:** Velvety · Nutty · Tart
 - **glassware:** coupe, chilled
 - **contains:** `["nuts"]`
 

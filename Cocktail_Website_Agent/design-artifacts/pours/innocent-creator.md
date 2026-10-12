@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-01 (batch innocent)
 
 - **name:** The Way It Felt
 - **tagline:** Your creations get the feeling right before the rules get a say.
+- **words:** Buoyant · Fruity · Fizzy
 - **glassware:** tall glass (about 400 ml), filled with the frozen Kalimotxo cubes
 - **contains:** `[]`
 
@@ -64,7 +65,7 @@ Then someone explains, kindly, how it's usually done. You nod. You still don't s
 
 3. In Bilbao, they take it seriously. The most trusted account of its history was put together by an artists' collective there called Funky Project. The *Oxford Companion to Spirits and Cocktails* admits that doesn't sound much like an authority, then takes them at their word anyway, for that very reason.
 
-4. I like to think you'd have done what the Basques did: looked at the wine and the cola, and not seen the problem. So the cocktail I've made for you is a Kalimotxo, the way they pour it: red wine and Coca-Cola, half and half, stirred. My red is a young Spanish one, the kind poured by the glass. It's a Basque classic, dark, cold and fizzy, a little like sangria. I haven't corrected a thing. The one change is the ice. It's the same drink, frozen into cubes first, so as it melts it turns into more of itself, never into water, so nothing waters it down. The fizz comes from the fresh pour. That's for you: something you make should still be what you made, right to the last of it.
+4. I like to think you'd have done what the Basques did: looked at the wine and the cola, and not seen the problem. So the cocktail I've made for you is a Kalimotxo, the way they pour it: red wine and Coca-Cola, half and half, stirred. My red is a young Spanish one, the kind poured by the glass. It's a Basque classic, dark, cold and fizzy, a little like sangria. I haven't corrected a thing. The one change is the ice. It's the same drink, frozen into cubes first, so as it melts it turns into more of itself, never into water. The fizz comes from the fresh pour. That's for you: something you make should still be what you made, right to the last of it.
 
 5. So when someone next explains the proper way, listen. Some of it will be useful. Then make the next thing the way it looked to you, and hand it straight to whoever you made it for, before anyone else sees it. They'll see what you meant. And you'll get to enjoy making it again, the way you did before anyone explained.
 

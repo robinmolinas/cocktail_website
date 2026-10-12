@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 
 - **name:** Tried and True
 - **tagline:** Your best advice keeps someone else's voice in the room.
+- **words:** Silky · Fruity · Herbal
 - **glassware:** small stemmed glass (about 150 ml), chilled, no ice
 - **contains:** `["nuts"]`
 
@@ -63,7 +64,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 **whoYouAre**
 A friend starts a new job tomorrow and is sure they'll get it all wrong. You tell them what an old neighbour used to say: learn everyone's name on the first day, and the rest can wait. It's exactly right, and they write it down. Half of what you know came like that, with somebody's name on it, and you still hear their voice when you say it.
 
-Here's the bit you don't say: you didn't hold on to all of it. Some of what you were told turned out to be wrong, and you let those bits go quietly, because saying so would feel like letting them down. What's left, you've tried for yourself. You can't always say why it works, only who told you, and when someone asks for the reason, you doubt yourself. The real fear is the day nobody asks. If it stops with you, a little of them stops too.
+Some of what you were told turned out to be wrong, and you let those bits go quietly, because saying so would feel like letting them down. What's left, you've tried for yourself. You can't always say why it works, only who told you, and when someone asks for the reason, you doubt yourself. The real fear is the day nobody asks. If it stops with you, a little of them stops too.
 
 But each time you say "as my neighbour used to say", that neighbour is in the room again, and someone leaves with something to use tomorrow. You do a kindness to two people at once.
 

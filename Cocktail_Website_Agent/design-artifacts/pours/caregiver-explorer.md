@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-28 (batch caregiver)
 
 - **name:** Serviceable
 - **tagline:** For someone you care about, you'll keep looking as long as it takes.
+- **words:** Brisk · Malty · Fizzy
 - **glassware:** highball glass, filled with ice
 - **contains:** `[]`
 

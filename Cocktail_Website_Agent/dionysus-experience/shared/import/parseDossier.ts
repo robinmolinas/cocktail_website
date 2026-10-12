@@ -22,7 +22,7 @@ export type ParseResult =
   | { ok: false; errors: string[]; warnings: string[] };
 
 const VETO_IDS: readonly string[] = VETOES.map((option) => option.id);
-const BULLET_LABELS = ['name', 'tagline', 'glassware', 'contains', 'serves'] as const;
+const BULLET_LABELS = ['name', 'tagline', 'words', 'glassware', 'contains', 'serves'] as const;
 type BulletLabel = (typeof BULLET_LABELS)[number];
 
 const BOLD_LINE = /^\*\*(.+?)\*\*\s*(.*)$/;
@@ -506,6 +506,12 @@ export function parseDossier(markdown: string, expectedPairing?: string): ParseR
   const anchors = parseAnchors(sections.get('Anchors') ?? [], errors);
   const reading = parseReading(sections.get('Reading') ?? [], cocktail.closingLine, errors, warnings);
 
+  // `- **words:** Dreamy · Creamy · Floral`: exactly three, middot-separated.
+  const rawWords = cocktail.bullets.words;
+  const words = rawWords?.split('·').map((word) => word.trim());
+  if (rawWords === undefined) errors.push('missing **words:**');
+  else if (words?.length !== 3) errors.push(`**words:** needs three words separated by " · ", got ${quote(rawWords)}`);
+
   if (vetoFree !== null && cocktail.contains !== undefined && vetoFree !== (cocktail.contains.length === 0)) {
     errors.push(`frontmatter veto_free: ${vetoFree} disagrees with contains ${JSON.stringify(cocktail.contains)}`);
   }
@@ -517,6 +523,7 @@ export function parseDossier(markdown: string, expectedPairing?: string): ParseR
     cocktail: {
       name: cocktail.bullets.name,
       tagline: cocktail.bullets.tagline,
+      words,
       glassware: cocktail.bullets.glassware,
       ...(cocktail.bullets.serves !== undefined ? { serves: cocktail.bullets.serves } : {}),
       ...(cocktail.recipeIntro !== undefined ? { recipeIntro: cocktail.recipeIntro } : {}),

@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 
 - **name:** Off the Tour
 - **tagline:** Nobody believes your stories. They all happened.
+- **words:** Sunny · Zesty · Aniseed
 - **glassware:** tall Collins glass (about 350 ml), crushed ice, the swizzle stick left standing in it, no straw
 - **contains:** `[]`
 

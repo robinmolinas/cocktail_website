@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** On Their Behalf
 - **tagline:** Your standards are a promise to the person who'll never know what you turned down.
+- **words:** Bright · Citrusy · Tart
 - **glassware:** fine stemmed cocktail glass (about 210 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -69,7 +70,7 @@ People take it for pride, or for your taste. It isn't, mostly. At the end of eve
 
 1. In 1990s London, the hottest bars were pouring fruit "Martinis". People loved those drinks, and plenty still do. A bartender from Camden called Wayne Collins hated them, and wrote an article against them in a magazine called *Class*. His quarrel was with the name. As he told Robert Simonson in 2014, he didn't like that it was called a Martini.
 
-2. Here's the part I love. The way Collins remembers it, he'd ask why anyone would drink gin and vermouth, and his teacher, Lee Chappell, would tell him he'd better start liking it, because it was for the guests, not for him. Chappell, by the way, ran a place in Covent Garden called the Long Island Iced Tea Shop. Nobody in this story is a snob.
+2. The way Collins remembers it, he'd ask why anyone would drink gin and vermouth, and his teacher, Lee Chappell, would tell him he'd better start liking it, because it was for the guests, not for him. Chappell, by the way, ran a place in Covent Garden called the Long Island Iced Tea Shop. Nobody in this story is a snob.
 
 3. I can't know what was in Collins's head when he wrote that article, but I like to think it was Chappell's lesson: not his own taste, but a promise made to someone else, about what a name should mean. He didn't stop at no, either. In 2000, as bar manager at High Holborn, he put on a menu of drinks he'd found in old books, ones that weren't on other London menus. That bar, as one London bartender put it, influenced a lot of people, and the training programme he built, Mixxit, is credited with driving up service standards in the trade. That's the shape of what you do: the no comes with a better yes behind it, and people around you start holding the same line.
 

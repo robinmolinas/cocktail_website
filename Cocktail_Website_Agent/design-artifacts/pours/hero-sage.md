@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 
 - **name:** Leave It With Me
 - **tagline:** The plan's gone. Now it gets interesting.
+- **words:** Refreshing · Zesty · Icy
 - **glassware:** six small tumblers (about 180 ml), chilled in the freezer; a pitcher (about 1.5 litres)
 - **contains:** `[]`
 - **serves:** 6 (one pitcher, six small tumblers)
@@ -62,7 +63,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 **whoYouAre**
 The oven gives up an hour before twelve people arrive. Someone says the evening's ruined, someone else starts looking up takeaways, and you're already at the open fridge, asking what you've got. You'd never wish it on anyone. But when the plan breaks and every face turns to you, a small part of you lights up. You keep that quiet. It hardly seems fair to enjoy someone else's emergency.
 
-The bit you never mention is the blank before the answer comes. They're all looking at you, and there's nothing there yet. That blank is your nightmare, and somehow the whole fun of it too, because a puzzle that couldn't beat you wouldn't be worth solving. So you keep a level face through it, and no one learns how close it felt. And here's what it does for everyone else: the moment you ask what there is to work with, the room stops panicking and starts looking. Everyone gets something to do with their hands, and a little of your nerve. That's a real gift, and most people never notice who started it.
+The bit you never mention is the blank before the answer comes. They're all looking at you, and there's nothing there yet. That blank is your nightmare, and somehow the whole fun of it too, because a puzzle that couldn't beat you wouldn't be worth solving. So you keep a level face through it, and no one learns how close it felt. The moment you ask what there is to work with, the room stops panicking and starts looking. Everyone gets something to do with their hands, and a little of your nerve. That's a real gift, and most people never notice who started it.
 
 **yours**
 

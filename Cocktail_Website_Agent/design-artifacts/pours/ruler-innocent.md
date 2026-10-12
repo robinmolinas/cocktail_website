@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** Say So
 - **tagline:** You won't settle for fine. Not with wonderful right there.
+- **words:** Luscious · Herbal · Rounded
 - **glassware:** large V-shaped cocktail glass (about 250 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -59,7 +60,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 **whoYouAre**
 You walk in and you know at once. Wrong table, the light's too harsh, and that song isn't helping. So you say so, kindly, usually. If nothing happens, a little less kindly. And it's never only your own evening you're asking for. You want all of it right: the room, the glass, the music, everyone at their best.
 
-People hear a demand. What you're really saying is that you still think it can be lovely. Most people stopped expecting that years ago. You didn't. You rarely let that part show, because hope is easy to laugh at, and a demand at least sounds strong. And you mind being called difficult more than you let on. What you dread is asking, watching nobody move, and then the whole thing sliding, bit by bit, into a mess. So here's what your asking gives. Because you said something, everyone gets the better night, including the ones who'd never have asked. Most of them wanted it too. It matters more than anyone thinks to tell you.
+People hear a demand. What you're really saying is that you still think it can be lovely. Most people stopped expecting that years ago. You didn't. You rarely let that part show, because hope is easy to laugh at, and a demand at least sounds strong. And you mind being called difficult more than you let on. What you dread is asking, watching nobody move, and then the whole thing sliding, bit by bit, into a mess. Because you said something, everyone gets the better night, including the ones who'd never have asked. Most of them wanted it too. It matters more than anyone thinks to tell you.
 
 **yours**
 

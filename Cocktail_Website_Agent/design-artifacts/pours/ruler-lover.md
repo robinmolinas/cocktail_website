@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** Up Close
 - **tagline:** People remember how you made them feel because you remember who they are.
+- **words:** Lush · Fruity · Spiced
 - **glassware:** stemmed cocktail glass (about 180 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -61,7 +62,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 **whoYouAre**
 Someone comes back after a year away, and you ask about the interview they were dreading. You remember their sister's name. You stay with them a second longer than they expect. They go home feeling remembered.
 
-You know exactly what your attention does, and you give it on purpose, because a lot holds together when you do. People who watch from further off call it charm, and sometimes mean it as a warning. They've got it backwards: it works because you mean it. You hardly mention what it costs, or the question underneath: if I stopped, would they still come? The fear is the evening it doesn't land, when someone looks past you and everything quietly drifts. And this is what your attention gives: people leave feeling they were the one who mattered, and sure enough to offer something of their own. On an ordinary evening, nobody expects to be given that.
+You know exactly what your attention does, and you give it on purpose, because a lot holds together when you do. People who watch from further off call it charm, and sometimes mean it as a warning. They've got it backwards: it works because you mean it. You hardly mention what it costs, or the question underneath: if I stopped, would they still come? The fear is the evening it doesn't land, when someone looks past you and everything quietly drifts. People leave feeling they were the one who mattered, and sure enough to offer something of their own. On an ordinary evening, nobody expects to be given that.
 
 **yours**
 

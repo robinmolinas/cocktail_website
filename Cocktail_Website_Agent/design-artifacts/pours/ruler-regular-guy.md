@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** One Table
 - **tagline:** You give both sides a place at a table they thought they couldn't share.
+- **words:** Velvety · Spiced · Herbal
 - **glassware:** large rocks glass (about 300 ml), one large ice cube
 - **contains:** `["nuts"]`
 
@@ -73,7 +74,7 @@ You don't do it with a speech. You've never won anyone round with an argument, a
 
 4. The cocktail I've made for you is the Vieux Carré, a renowned New Orleans classic, with the proportions of its first printed recipe: rye, cognac and sweet vermouth in three equal measures, none cut back for another. I didn't change either spirit. I steeped the vermouth overnight with green cardamom, as a nod to the ground the two sides share: of the three measures, the vermouth is the one that belongs to neither, and cardamom goes with both the grain behind the rye and the grape behind the cognac. It's stirred, rich and deep, with the rye's spice and the cognac's softer fruit each as clear as the other, and the cardamom warm in the vermouth between them.
 
-5. One thing, though. When you go over to the other side, you tend to leave a little of yourself at the door, so they feel safe. Your own side notices, and that's where the question comes from. Don't pour less of yourself. It was never your quietness they trusted. It's that you came as you are and stayed. And when your own side asks again, you'll have your answer: both, and still me.
+5. When you go over to the other side, you tend to leave a little of yourself at the door, so they feel safe. Your own side notices, and that's where the question comes from. Don't pour less of yourself. It was never your quietness they trusted. It's that you came as you are and stayed. And when your own side asks again, you'll have your answer: both, and still me.
 
 **closing line (Tomás, r4):** *Put the cardamom in the vermouth, never in either spirit. Next time you cross over, bring all of yourself.*
 

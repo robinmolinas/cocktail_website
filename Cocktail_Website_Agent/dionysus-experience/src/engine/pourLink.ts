@@ -11,6 +11,11 @@
 // Format: one version character, then the base64url payload.
 //   'g' — gzip via CompressionStream (the normal path)
 //   'p' — plain UTF-8 (fallback for browsers without CompressionStream)
+// A keep link (the owner's own copy, "Keep your cocktail" on H10) is the same
+// payload behind one leading 'k'. It asks the room to open the reading for
+// its owner; it does not lock anything, and the reading is authored per
+// pairing, so a forwarded keep link shows the reading to whoever holds it.
+//
 // decodePour is tolerant: any failure returns null and the app opens as the
 // plain invitation instead — a broken link must never strand a guest. An old
 // full-result payload, an unknown pairing or any extra field counts as broken.
@@ -18,6 +23,7 @@
 import { z } from 'zod';
 import { SEEDS, type SeedKey } from '../../shared/answers';
 import { isPairingKey, type PairingKey } from '../../shared/pairing';
+import { KEEP_MARK } from './pourHash';
 
 export interface PourPayload {
   pairing: PairingKey;
@@ -74,9 +80,10 @@ export async function encodePour(payload: PourPayload): Promise<string> {
 
 export async function decodePour(encoded: string): Promise<PourPayload | null> {
   try {
-    const kind = encoded[0];
+    const body = encoded.startsWith(KEEP_MARK) ? encoded.slice(KEEP_MARK.length) : encoded;
+    const kind = body[0];
     if (kind !== 'g' && kind !== 'p') return null;
-    const bytes = unb64url(encoded.slice(1));
+    const bytes = unb64url(body.slice(1));
     const raw = kind === 'g' ? await pipe(bytes, new DecompressionStream('gzip')) : bytes;
     const parsed = PourPayloadSchema.safeParse(JSON.parse(new TextDecoder().decode(raw)));
     if (!parsed.success) return null;
@@ -91,4 +98,9 @@ export async function pourLinkFor(payload: PourPayload): Promise<string> {
   return `${window.location.origin}/#pour=${await encodePour(payload)}`;
 }
 
-export { pourFromLocation } from './pourHash';
+/** The owner's own link: the same pour, opened with its reading. */
+export async function keepLinkFor(payload: PourPayload): Promise<string> {
+  return `${window.location.origin}/#pour=${KEEP_MARK}${await encodePour(payload)}`;
+}
+
+export { pourFromLocation, keptFromLocation } from './pourHash';

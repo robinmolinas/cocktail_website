@@ -97,6 +97,7 @@ function cloneCocktail(cocktail: Cocktail): Cocktail {
     recipe: cocktail.recipe.map((line) => ({ ...line })),
     preparations: cocktail.preparations.map((preparation) => ({ ...preparation })),
     method: [...cocktail.method],
+    words: [...cocktail.words],
     contains: [...cocktail.contains],
   };
 }

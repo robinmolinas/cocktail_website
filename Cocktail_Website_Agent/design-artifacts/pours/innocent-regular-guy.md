@@ -13,6 +13,7 @@ authored_in: party-mode session with Robin (Historian · Mixologist · Psycholog
 
 - **name:** Four Shares
 - **tagline:** You make belonging feel as simple as pulling up another chair.
+- **words:** Lush · Citrusy · Aromatic
 - **glassware:** a punch bowl with one big block of ice, ladled into small cups
 - **contains:** `[]`
 - **serves:** 14 (small cups, ladled)

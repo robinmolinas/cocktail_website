@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 
 - **name:** Undimmed
 - **tagline:** Your quiet attention gives people the nerve to change their lives.
+- **words:** Glacial · Dry · Citrusy
 - **glassware:** small stemmed cocktail glass (about 120 ml), kept in the freezer, no ice
 - **contains:** `[]`
 
@@ -52,7 +53,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 **whoYouAre**
 You hardly said anything at that dinner. You asked one question and really listened to the answer. A few weeks later they'd left the job, or booked the flight, or finally said the thing they'd been holding back for years, and they told you it started that night. Everyone else heard a lovely story. You lay awake wondering whether it was them or you.
 
-You know what you can do to people without even trying, so you come in quieter than you are. You stand nearer the door, make the joke at your own expense, leave a little early, save the big question for another time. Everyone thinks it's just your manner. It's a decision you make again every evening, because underneath it is one fear: someone losing their footing because of you. And here's what you seldom hear back: people come away from you more like themselves, with the nerve for something they were already half-ready to do. You give people that, and you never take anything for it.
+You know what you can do to people without even trying, so you come in quieter than you are. You stand nearer the door, make the joke at your own expense, leave a little early, save the big question for another time. Everyone thinks it's just your manner. It's a decision you make again every evening, because underneath it is one fear: someone losing their footing because of you. What you seldom hear back is that people come away from you more like themselves, with the nerve for something they were already half-ready to do. You give people that, and you never take anything for it.
 
 **yours**
 

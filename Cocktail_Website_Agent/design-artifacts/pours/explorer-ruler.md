@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 
 - **name:** Far Enough
 - **tagline:** People go further with you because they trust you to bring them home.
+- **words:** Plush · Fruity · Spiced
 - **glassware:** a heavy double tumbler, one large clear cube
 - **contains:** `[]`
 

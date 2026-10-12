@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch outlaw)
 
 - **name:** Asked In
 - **tagline:** You show people what better looks like while they're still saying no.
+- **words:** Delicate · Floral · Rounded
 - **glassware:** a small tumbler, one large ice cube
 - **contains:** `[]`
 
@@ -67,7 +68,7 @@ It's the yes you don't trust. When the people in charge finally want what you ma
 
 4. The cocktail I've made for you starts from the Old-Fashioned, a renowned classic. The whisky is The Glenlivet 12 Year Old, from the distillery he licensed: a subtle, gentle malt. It's stirred cold over a single big cube with a teaspoon of sugar syrup and orange bitters, then finished with the oil from a lemon peel. The one addition is a tablespoon of elderflower liqueur, to bring up the flowers a well-known cocktail book already tastes in this whisky: "elegant and floral", it says. Nothing smoky, nothing raw: none of it tries to taste forbidden, as a nod to a whisky that never needed to be.
 
-5. So, one proposal. Make something that isn't against anything: no rule in its way, nobody to prove wrong. Then show it to the people whose approval you've never wanted. If they want it, that isn't the moment you lose. It's the moment you find out it was good. And you'll still be the one who made it.
+5. Make something that isn't against anything: no rule in its way, nobody to prove wrong. Then show it to the people whose approval you've never wanted. If they want it, that isn't the moment you lose. It's the moment you find out it was good. And you'll still be the one who made it.
 
 ---
 

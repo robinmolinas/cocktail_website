@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 
 - **name:** At the Time
 - **tagline:** You see far enough ahead to let a quick win go.
+- **words:** Warming · Roasty · Bold
 - **glassware:** heavy double old-fashioned glass (about 350 ml), one large block of coffee ice
 - **contains:** `[]`
 
@@ -72,7 +73,7 @@ When everyone wants the quick win, you can sit through the slow one, and whoever
 
 4. The cocktail I've made for you is a famous classic, the Old-Fashioned, built strong on a barrel-proof rye, because Seven Grand was a whiskey bar (the rye is my choice). It's sweetened with demerara, seasoned with Angostura, stirred cold, poured over one block of frozen black coffee, with the oil of an orange peel added last. Anyone who knows an Old-Fashioned may think I've got the ice wrong. The first sips are the Old-Fashioned alone, strong and good on their own. Then, as the block melts, the coffee gathers in a dark ring around it, and one slow swirl brings it in, its roast meeting the toasted side of the grain. The coffee is in the ice because of those years downtown: the move is made first, and nobody can taste it yet.
 
-5. Now, the thing I'd want you to hear. One day there'll be a trap you don't see. Not because you weren't paying attention: you were, more closely than anyone at the table. Some things can't be read from where anyone is sitting. When it happens, it doesn't mean the people who doubted you were right. Take that loss as plainly as you take the ones you choose, and carry on. You'll have lost a piece you didn't mean to give. You'll still have everything that made you good at this.
+5. One day there'll be a trap you don't see. Not because you weren't paying attention: you were, more closely than anyone at the table. Some things can't be read from where anyone is sitting. When it happens, it doesn't mean the people who doubted you were right. Take that loss as plainly as you take the ones you choose, and carry on. You'll have lost a piece you didn't mean to give. You'll still have everything that made you good at this.
 
 ---
 

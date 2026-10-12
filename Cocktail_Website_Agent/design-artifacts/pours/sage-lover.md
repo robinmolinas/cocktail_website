@@ -18,6 +18,7 @@ The dossier below is research only and never ships.
 
 - **name:** A Brother's Care
 - **tagline:** You know why something is wonderful, and who you want to share it with.
+- **words:** Lush · Nutty · Herbal
 - **glassware:** Nick & Nora
 - **contains:** `[]`
 

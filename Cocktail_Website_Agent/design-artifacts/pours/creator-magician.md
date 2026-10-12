@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 
 - **name:** Overnight
 - **tagline:** You see what makes someone themselves, and change everything around to let it shine.
+- **words:** Velvety · Tart · Mellow
 - **glassware:** a small tumbler (rocks glass), chilled, no ice
 - **contains:** `["dairy"]`
 

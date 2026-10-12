@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 
 - **name:** Work It Out
 - **tagline:** You know there's more in you, and keep working until it shows.
+- **words:** Silky · Savoury · Rounded
 - **glassware:** tall highball glass (about 400 ml), filled with ice
 - **contains:** `[]`
 

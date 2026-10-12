@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 
 - **name:** Only Half Joking
 - **tagline:** Every tease is a compliment. The fun is seeing who catches it.
+- **words:** Delicate · Floral · Tart
 - **glassware:** cocktail glass (about 180-200 ml), chilled
 - **contains:** `[]`
 
@@ -63,7 +64,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 **whoYouAre**
 You don't tell people you like them. You tell them their coffee order is a cry for help, that they've clearly been practising that walk, that you'll allow the hat, just this once. Then you watch. If they grin and send one back, something starts between the two of you that nobody nearby can quite follow.
 
-Every one of those was a compliment. You just couldn't hand it over plain, because plain is too easy to turn down. Said as a joke, a no costs nobody anything, you included. What stays with you is the one who takes it at face value and looks a little hurt, or smiles politely and lets it drop, and the joke left hanging with only you holding it. And being teased by you feels like being picked. People walk away from you funnier and better-looking than they came in. That's what your teasing hands them.
+Every one of those was a compliment. You just couldn't hand it over plain, because plain is too easy to turn down. Said as a joke, a no costs nobody anything, you included. What stays with you is the one who takes it at face value and looks a little hurt, or smiles politely and lets it drop, and the joke left hanging with only you holding it. And being teased by you feels like being picked. People walk away from you funnier and better-looking than they came in.
 
 **yours**
 

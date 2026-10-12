@@ -1,0 +1,1085 @@
+{
+  "reviewed": 132,
+  "edited": 125,
+  "retained": 7,
+  "paragraph_or_field_replacements": 305,
+  "approved_pours_unchanged": [
+    "creator-hero",
+    "innocent-regular-guy",
+    "magician-outlaw",
+    "sage-lover"
+  ],
+  "protected_fragments_checked": 68,
+  "protected_guest_reading_fragments_checked": 68,
+  "source_audit_replay": true,
+  "independent_meaning_review": {
+    "a": "pass",
+    "b": "pass",
+    "c": "pass",
+    "d": "pass_after_corrections"
+  },
+  "preserved": [
+    "All text before Reading and from Dossier onward",
+    "Reading field labels and paragraph numbers",
+    "Numeric details and exact quotations",
+    "I like to think signatures",
+    "Epigraphs and closing lines",
+    "Complete approved pours and recorded Robin edit fragments"
+  ],
+  "edited_pairings": [
+    "caregiver-creator",
+    "caregiver-explorer",
+    "caregiver-hero",
+    "caregiver-innocent",
+    "caregiver-jester",
+    "caregiver-lover",
+    "caregiver-magician",
+    "caregiver-outlaw",
+    "caregiver-regular-guy",
+    "caregiver-ruler",
+    "caregiver-sage",
+    "creator-caregiver",
+    "creator-explorer",
+    "creator-innocent",
+    "creator-jester",
+    "creator-lover",
+    "creator-magician",
+    "creator-outlaw",
+    "creator-regular-guy",
+    "creator-ruler",
+    "creator-sage",
+    "explorer-caregiver",
+    "explorer-creator",
+    "explorer-hero",
+    "explorer-innocent",
+    "explorer-jester",
+    "explorer-lover",
+    "explorer-magician",
+    "explorer-outlaw",
+    "explorer-regular-guy",
+    "explorer-ruler",
+    "explorer-sage",
+    "hero-caregiver",
+    "hero-creator",
+    "hero-explorer",
+    "hero-innocent",
+    "hero-jester",
+    "hero-lover",
+    "hero-magician",
+    "hero-outlaw",
+    "hero-regular-guy",
+    "hero-ruler",
+    "hero-sage",
+    "innocent-caregiver",
+    "innocent-creator",
+    "innocent-hero",
+    "innocent-jester",
+    "innocent-lover",
+    "innocent-magician",
+    "innocent-outlaw",
+    "innocent-ruler",
+    "innocent-sage",
+    "jester-caregiver",
+    "jester-creator",
+    "jester-explorer",
+    "jester-hero",
+    "jester-innocent",
+    "jester-lover",
+    "jester-magician",
+    "jester-outlaw",
+    "jester-regular-guy",
+    "jester-ruler",
+    "jester-sage",
+    "lover-caregiver",
+    "lover-creator",
+    "lover-explorer",
+    "lover-hero",
+    "lover-innocent",
+    "lover-jester",
+    "lover-magician",
+    "lover-outlaw",
+    "lover-regular-guy",
+    "lover-sage",
+    "magician-caregiver",
+    "magician-creator",
+    "magician-explorer",
+    "magician-hero",
+    "magician-innocent",
+    "magician-jester",
+    "magician-lover",
+    "magician-regular-guy",
+    "magician-sage",
+    "outlaw-caregiver",
+    "outlaw-creator",
+    "outlaw-explorer",
+    "outlaw-hero",
+    "outlaw-innocent",
+    "outlaw-jester",
+    "outlaw-lover",
+    "outlaw-magician",
+    "outlaw-regular-guy",
+    "outlaw-ruler",
+    "outlaw-sage",
+    "regular-guy-caregiver",
+    "regular-guy-creator",
+    "regular-guy-explorer",
+    "regular-guy-hero",
+    "regular-guy-innocent",
+    "regular-guy-jester",
+    "regular-guy-lover",
+    "regular-guy-magician",
+    "regular-guy-outlaw",
+    "regular-guy-ruler",
+    "regular-guy-sage",
+    "ruler-caregiver",
+    "ruler-creator",
+    "ruler-explorer",
+    "ruler-hero",
+    "ruler-innocent",
+    "ruler-jester",
+    "ruler-lover",
+    "ruler-magician",
+    "ruler-outlaw",
+    "ruler-regular-guy",
+    "ruler-sage",
+    "sage-caregiver",
+    "sage-creator",
+    "sage-explorer",
+    "sage-hero",
+    "sage-innocent",
+    "sage-jester",
+    "sage-magician",
+    "sage-outlaw",
+    "sage-regular-guy",
+    "sage-ruler"
+  ],
+  "retained_pairings": [
+    "creator-hero",
+    "innocent-explorer",
+    "innocent-regular-guy",
+    "lover-ruler",
+    "magician-outlaw",
+    "magician-ruler",
+    "sage-lover"
+  ],
+  "source_hashes": {
+    "caregiver-creator": "7ba39c2aefd70a0964b49344dbbc34648ab38a12379455b1c161feb1fda69fd2",
+    "caregiver-explorer": "eda6e2be73906ee927586d8df144406445a0256f791fb069ba9e4917a0af5152",
+    "caregiver-hero": "01bf7ddfa0581f021dd084e3c461ae82c6b70e9fb9b37b05fbb35a3c09ed7dfe",
+    "caregiver-innocent": "43f11f5ab499bcfed73a0974dbbbec5c84b3b4e16f4258c43b440f2dfb0ba8c3",
+    "caregiver-jester": "e0dc9447929de418584ff8232e0eedf680e76d17bb27308e2cb9f4749cbc3d77",
+    "caregiver-lover": "8ffac8cf940245c29f10ec6f6001e22c9db2c2db49e49af6d6aa0c6fa37df08f",
+    "caregiver-magician": "3d290d29eb0a914f7ee75a824005b8179314ebca20e2afca309dadaf3a3ffd42",
+    "caregiver-outlaw": "94619975d1e6a5f50a62ce12c0023d5df0373d20aa2e6046f266901f00a191ac",
+    "caregiver-regular-guy": "09594cd660cb8c57b047ca50de4964022db5a2562fb26a5b6e7d8674a2ae4020",
+    "caregiver-ruler": "01f9494bb32fb84055da5cfd90ab7283a17ba63906dafc943cfc94e97f926e58",
+    "caregiver-sage": "21f6bb8f402ebf7399efd80a8b7c755b6bd1f52cf9920498c00b513a54828501",
+    "creator-caregiver": "68cdff6f808fa1cb818907b66392fab838af095b3559667256238ae54241ebf8",
+    "creator-explorer": "85665fff6020b75e32ce89107f10f8cc3cfb263ff2ff32ebcafd4d3c3ae88e0b",
+    "creator-hero": "d56bb2b89265581478aff08e6b46c10329b9295da0f3de168d3626455171ff13",
+    "creator-innocent": "018f94ab1044d6e16e2c982192626b6254a82ea75d5d2a6273083cd56651cd8f",
+    "creator-jester": "c8e9d6bce9fb2e38a53ac12e1d65647bc6632481645810dd23cec5bd3d99caec",
+    "creator-lover": "e5957f7698f9f6db439788f0d5908ee916ca8c6b7daab56f0ca19e768a59b5c4",
+    "creator-magician": "4c73f4178e6c9041426341bd65da001df9607bb6bcf93ff3cb4e61d8889b2079",
+    "creator-outlaw": "76a981c4a43efea99b634343ef1d8af9fe3ced022792773208f5c24567fea3fe",
+    "creator-regular-guy": "7df9ff63dfa67f25e9697403ff0f7f0f84f7a4a4f7fdfa3897081eeb267a9796",
+    "creator-ruler": "1b51a88036d550343f5a58b0adc9fb1896480150022819ab5b2835d9f8015375",
+    "creator-sage": "fc728ec057fe8e0081bef90bd881388dcc3ada007aa8b9e1b0ebe2c8158ec3ce",
+    "explorer-caregiver": "6f705779b6797390b172ee0039a9bf3c98297c5cd8048789482547cd70384836",
+    "explorer-creator": "6568f8117e285ec408e9ef55b144549199f854810f2a9cb45cb112c205da962d",
+    "explorer-hero": "b02f8eafc73641bc8e36f50b63831db0f24c8041fd18d4eed0c87e0e9f81853a",
+    "explorer-innocent": "3fc6b415fd02144710f5d9a49085f6b3d8d949719a9925e7133f65f8ff4c2221",
+    "explorer-jester": "ba04697bd7c63c5f79d6688d75b636c45a186a25afe8c0ea06f62df3a6215a56",
+    "explorer-lover": "02702b108a2fe32af9b9a864b68e37e32114dd27bc709c19eba6ed8548d04fe7",
+    "explorer-magician": "e73205facca8c5560b57d1ee7c0f048b8dc0315c43834157e0316b4f6dba50aa",
+    "explorer-outlaw": "dd7c3505f5858ff4fbb8b605e2e27198acdc0a7cbcdcc9061d8a564362799e4b",
+    "explorer-regular-guy": "5bc5e1d5bc5aaf8e8df49d69965ae4ce831d99038b8e31828bedaf00d114900d",
+    "explorer-ruler": "875006f9a1e3632b14fff5119305a5e5c3e57d59352ddad195670af4fb0a446c",
+    "explorer-sage": "06b9d8125320cf03cb4675552617b3948ccb8706cb3ef9afd6f08b6c02d2c2d7",
+    "hero-caregiver": "c74a89fb702153eb1b2aca9213ced4140deb2143535f5b088fa3e293e0a334ba",
+    "hero-creator": "d2c5761342afc732eb0a039324c821e1c6b73a3cd0e10fdf1f3e1feb01dd9cf4",
+    "hero-explorer": "a01ceae24a23bc83f9cf28ddd0a921d418c737abbc897d88cd09ace2a7eb7c5f",
+    "hero-innocent": "e0c11b1546af04e6146353f0995ab0561e32789b3c5cc6bec785596695275bd3",
+    "hero-jester": "00a041e95ff338ce3a165020ee52130620c0438f07736676ac0acca790fdabd3",
+    "hero-lover": "3d590807c7c0f3092ef96bafb1b89673c58a2a0030836f40a268e938185ec77f",
+    "hero-magician": "1d5659e80f0f6478094e4336bc38495a99b519f81b77bc6715eea2c493a57c62",
+    "hero-outlaw": "55eacf465e298183c40274ec3690d8f240979c9cd2f7d095e5c94ba9690b3199",
+    "hero-regular-guy": "ef353c1de4d83c2a37bd95a217f59eee784c03941a1ec0ff98659b0dace99d81",
+    "hero-ruler": "6031c26fdab6467a3cf188fef0ec786bc7918f639f225212ef6f8652fa94d4f3",
+    "hero-sage": "dd473b838251003bd49ec1ef12425b89babc52514a67f2d9b27736204bd5063f",
+    "innocent-caregiver": "677135fdb8e824809f2c5ed6eb23d67317920c74e883605c6c073ccb283103d4",
+    "innocent-creator": "f288e54eb50bbeb106e2c23c10af97e541f5b7e0470ba48b022437e4e52d2ac3",
+    "innocent-explorer": "962714e5aa17e7a729105df73e77bc54b8e7105588b768620cbe15ff8c783080",
+    "innocent-hero": "6c36e9c74e11e992d8a43faa0a85658ab2a4dd658e667334169543438fde08ad",
+    "innocent-jester": "6544365eb1963ce04c439dfbcad70b574371596ec1827376fafc5ec295984e09",
+    "innocent-lover": "961600691eadb13f7dc7e2bdda9e5fe03621b64c6fc56ae86b88e665acf30102",
+    "innocent-magician": "2aad3a9f3a69cb3be385fb6163df6b01c0e8784f1c5c657082480e896d34a81b",
+    "innocent-outlaw": "320a55f75c048aeb70f009358ef37f34120c95f0218c20533aeff761b76f2779",
+    "innocent-regular-guy": "abc68799f46b0c5b9d8efee1acc92aa1a64e5b68f8cf1c486b1f77d568cb485c",
+    "innocent-ruler": "650c479302eb9acfb4a526cb3bf9ff45e82a6ea3858fbdbeefd0f1ea34046954",
+    "innocent-sage": "be03f60b9a8cfc9f450f7b69bdf2d46462e0a4e94fdc89b2a6bbc551573ae9a1",
+    "jester-caregiver": "e91ebf2994b3cf0a49ee28a0387d8930922c3c9271f4d592aa13426c1b37b83d",
+    "jester-creator": "380264d2f740a438e370d76289a1858ad61e7d4e67010e33a9f7d7044069e3cd",
+    "jester-explorer": "177c0a88c854d6ac8536cdf1237433c0f4e0a8e92f671065aa969ff2becdea3c",
+    "jester-hero": "8ddd52e174618271553512bcafed786acb020985a264c03674e370535c5f3d2b",
+    "jester-innocent": "57cfc23d1b328ae951e12015f0378bac0797c6c5e6d3de9cd23150aef6c79db9",
+    "jester-lover": "d033b8911e8a9ea75b3632ba4bc2fc1340a570de3cad3af6c22ea637a8301e3a",
+    "jester-magician": "c683ffb686852d00d93bb8503aaaeaafb30e6d9b3442ebabb37d0802cb3029bc",
+    "jester-outlaw": "dd1c116cb94fcc25f82f7f3920de0742fb1b5f60243bf20a0514bb697252fb30",
+    "jester-regular-guy": "f4018f526b7e6af24de6e27923975cd0847463eb2c5909a27c41d0854922a06e",
+    "jester-ruler": "32fb730b36825102570e74a3d01564fdf79f1f97cfd6b58e5b3165adf54b7155",
+    "jester-sage": "747026b531e0a4af676226ab1643ad0db2b6d57a6619aa4f44a3db31fd4c8472",
+    "lover-caregiver": "91fb0fe33069b60de8e7f6fa9b359a237eefc1a78eb3249a61762fc70a2d826a",
+    "lover-creator": "a54cda9d5e6603360e4ab65a9101397a4c2a5a70cde978cc661ece8e9784de39",
+    "lover-explorer": "d1078586dd97e8d42e400fcafd4278ee1daff674929cb10e43616951b41e9713",
+    "lover-hero": "3119cc6ec5f503aed5952453538e03f6e6c1a740e9ee1e88c64a219f685006d9",
+    "lover-innocent": "1a89aff1798216cb1be6271afdef1ee23daaa4910ca76d8dd65f13769df1c931",
+    "lover-jester": "32faff7025108f681d9e568aeec465c3f5b63bb4a7e3471e69028f38bbd049e4",
+    "lover-magician": "1a80a54040c6f8e9708b709f830fac3e1c0fd6f1f4a478d36b3baeba54e0012e",
+    "lover-outlaw": "00eadeb8cde923514ef450d6df746a1827582545c5aac59d5e45225a17b89c6f",
+    "lover-regular-guy": "5fe80473f043c43bbcd3af5ba5ccd63465305148fda73527c6d41308cd8f3ec1",
+    "lover-ruler": "b39fdd52c25328fd6e9b3c1f4a2dbc0d0af46e37932c1e03ad72a7e0a719302f",
+    "lover-sage": "a38622b12189bbbe11b711e2091eda263086054204a23064dc02e46c8dbd2ba5",
+    "magician-caregiver": "a5cc3f43a4dfa37805fc974c284f4a154f835c8fe0487c5e540247706a8fe662",
+    "magician-creator": "ff2f586a98f3afae3c7e936e98a345d1fee0dc86209cfddda7d6aa5c262821ec",
+    "magician-explorer": "ea44e3cde95df2dcbbe14a59ca119159415366d4bfe31fe73095e843dde61d0e",
+    "magician-hero": "677a6911e544e8c3736510374372cbdd8445ba03576c36b9052eeac2d0d7027c",
+    "magician-innocent": "ab7ecf1ebcdb012457d7ee4a7ce5d8759ab0301b530a5c59ddbcd8c7cc24ad08",
+    "magician-jester": "d948e0d992358767ace0969409f7e73cbf5afc8db39a5eb557fd6b0039df0204",
+    "magician-lover": "a6d6bd4bccc4d8b15644128881258e391db7350fbfafe44f22ff631ff04890ae",
+    "magician-outlaw": "8ea126e76eb0208d2c4803ee6cc9e5956050935cdf209dcfcbcd19071e246e60",
+    "magician-regular-guy": "8f6dd352d64ac81c8c60717990a43a02db48b3a7a4d3b99179cf1d3aaf4b24ae",
+    "magician-ruler": "d7d7a63f70a7e091c5e2f88f00b46174a591b5f9cb20e9163eb7ba8cdfb948b0",
+    "magician-sage": "6aadc9f1bf3eca194182c966f0d9bc8f6dea3c7b67aaeaf85f718ec9039c15f4",
+    "outlaw-caregiver": "883acf6fedc0a8a8a4554f2f566e0fbd5b78136a7ea2622349e169612f3b925b",
+    "outlaw-creator": "47b97aeb175ee56aa863530fb7378475e2a2aa72fec8f3ff87c2c2ea2ebf8f3f",
+    "outlaw-explorer": "7a915684982ccd324b0f13be9e0f475943edc34ecead778a68c9f405993ae9cc",
+    "outlaw-hero": "d3e8efe7cb85caf0ae8f18399c25b941a5144086a313300d9dbc6a0c194e1856",
+    "outlaw-innocent": "b743463c7171480140d1d533ad2f9471ab59cb9577de71452401f13e888cd8fe",
+    "outlaw-jester": "81dd55a6bf6b8cf58c2bcf783cbd7090aba69b4bd4a32452e98c0c807d062847",
+    "outlaw-lover": "8c70d21dc9a8bfa8ffc24a1aaee170b93f1c411a3d5638c073f3f36d7cbc6d60",
+    "outlaw-magician": "8bcfd4eb763b74b9e725de97f9a5586e5dc1404c321cbf72c69a1160d633e25c",
+    "outlaw-regular-guy": "76a41ff9b7cc83cf1bc396293f2cc113ec97d2c2691ff4298de83969d7837193",
+    "outlaw-ruler": "7c5c4c67f74b2de86780e4e7471daa8f023c540909390a78e3a7b5e39815687e",
+    "outlaw-sage": "416939bb23c458fc2fee2cab29b6c7c15b632b52eef7bfd81d74e37059155767",
+    "regular-guy-caregiver": "5c0a93cfff83b95cfc3725981b38edc432124c894bced77bea1daf3bc4a1f535",
+    "regular-guy-creator": "b3911d40a604b8bb0dccb2f6b3426caf2a77ceb30052d5f21e74b6e21282fa09",
+    "regular-guy-explorer": "5171a5d6d6da02ec8fb6cc492f5dd72a6fe715f18024bae753ffc49bc1a8cba2",
+    "regular-guy-hero": "710a2b17b2ea03610d502516f8f681c6fb8623ed5467190b9b3578c1c822fe07",
+    "regular-guy-innocent": "06f4210fafc7dc0febdf147955986731a7bd43cade4fcc6c25bee31fed6a1122",
+    "regular-guy-jester": "816f4ccca982b617f419794852533dd43d14ab53c5cb12b790f601be1669fb94",
+    "regular-guy-lover": "ec53a9d405a46877885de4b1ce5e5b59a96c643112b1593659c853de8585e6a9",
+    "regular-guy-magician": "47d6fd762b613219d6175314ff50d507f944a64a976680a8c4b91ea465cb98bd",
+    "regular-guy-outlaw": "4da53e949cf4891197df11704ae289a6e9c1bfbbffee4af9daa6c05f7b2393a5",
+    "regular-guy-ruler": "202bcaa707479b37bf8ee88ff164c2c8a35bcc0104cb133a1341ac519756f44b",
+    "regular-guy-sage": "4e80ec5eace422de86bf05640d5b2ddef67be3433dd20165cf64aba7e3b0657e",
+    "ruler-caregiver": "5325752f54075ff0017bf8982fc4859b9925047c37d96a0a43c7211006c46e75",
+    "ruler-creator": "ad3093ce600a23d0b36d56061d91dd998a105c261b5108f5e755c849954595c7",
+    "ruler-explorer": "8654b80e15e91bc7c2c8853922f274def8cf181662db06b72989a36c17642169",
+    "ruler-hero": "8aa7afbc00de838d0e8b9df9154cb0bd6f867e5e63d56170aff879e699100da4",
+    "ruler-innocent": "48154d24cb23c71506a4a0701995b4c08c5b712de8a5be40422cc497144830ae",
+    "ruler-jester": "f2722d7cfaf2bbef8e4fc3d33fc1b6e759c1edc0d2aa87614236749553e26c38",
+    "ruler-lover": "12e54ce61377678f57e085dd44c308efc9da7c0dd0a190d7ff094edf85fd72d9",
+    "ruler-magician": "b9765bed2cfdebde070694fc9c193c327ed5065886ecc967e9252b0c59443b6f",
+    "ruler-outlaw": "4cef7e717976d8481420ccf166fa3ff9abff3787a33d17a867347caae5e62338",
+    "ruler-regular-guy": "db63a899dc7ac574e19fff64f7f5d1fad0a53d60ebef0ea6437dc5a3c3d2e5ac",
+    "ruler-sage": "13617b9ce0ba17acfbce4def77ee40cd18127f329cec733f2bcf572a7055d2b2",
+    "sage-caregiver": "92ed5185cdf6b0d5d3b6319267705a3904708c59bd7b4d8df574a07e9f2248d1",
+    "sage-creator": "b8e61ac9d2714722e67b2ebb3985fc8d93cd516d9d1fd07a09ee84ecf68f0d42",
+    "sage-explorer": "c8f6104527a93cfbce9f012999bab15150c74b6f543facd48d653aa63593efa6",
+    "sage-hero": "ab447c2a00d7b263254ac9ad1eb5665dd922f7368efe2bc58e657781b1427821",
+    "sage-innocent": "5fb070cfebb189331bee6f0b3901eea59c6a3ce1449424e581f7bcb78e0d300f",
+    "sage-jester": "aae477e9d44cb25efe43df98f3162023a2274dfea6269324167592b1f7d587e2",
+    "sage-lover": "d1cd667bdfea436e33e4cf61603cb6907a112c7e4706300f39c2d85c23289f7f",
+    "sage-magician": "f267bb3796725302821f9300e9fb27158da4cbd6afc3a78870efd485b268ca66",
+    "sage-outlaw": "29c3e5ff80951e564559ab793db238eae1ba5b65ca1721b716b4ac56c43b60fe",
+    "sage-regular-guy": "fe095d947c9d7885e48b027eb52c96626505a40a05f94111a901bffdc0f75936",
+    "sage-ruler": "6c2c49b9c61aaa0885e00f04510e4fe35c28ebe7e5cd5b75d4f1745ee69ac95c"
+  },
+  "errors": [],
+  "application": {
+    "pours_checked": 132,
+    "pours_updated": 125,
+    "changed_reading_fields": [
+      "whoYouAre",
+      "yours"
+    ],
+    "all_other_pour_data_unchanged": true,
+    "catalogue_and_import_report_unchanged": true,
+    "manifest_changed_only_for_edited_sources": true,
+    "final_source_hashes_match_manifest": true,
+    "errors": []
+  },
+  "studio_validation": {
+    "baseline_errors": 0,
+    "current_errors": 0,
+    "baseline_warnings": 448,
+    "current_warnings": 615,
+    "added_advisories": 184,
+    "removed_advisories": 17,
+    "added_categories": {
+      "shared four-word phrases": 172,
+      "historical-person pronouns": 12
+    },
+    "warning_text_changes": [
+      {
+        "pairing": "caregiver-creator",
+        "added": [
+          "motif overlap with sage-creator: you've cared for them"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "caregiver-hero",
+        "added": [
+          "motif overlap with caregiver-sage: you'd rather be the",
+          "motif overlap with creator-magician: nobody sees that part",
+          "motif overlap with regular-guy-jester: and it's the surest",
+          "motif overlap with ruler-caregiver: by the time anyone; the time anyone else"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "caregiver-innocent",
+        "added": [
+          "motif overlap with magician-creator: nobody thinks to ask",
+          "motif overlap with ruler-explorer: the people who love"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "caregiver-jester",
+        "added": [
+          "motif overlap with sage-lover: keep it to yourself"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "caregiver-lover",
+        "added": [
+          "[yours 3] gendered pronoun 'she': fine for a historical person, never for the guest",
+          "motif overlap with creator-caregiver: when someone you love"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'her': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "caregiver-regular-guy",
+        "added": [
+          "motif overlap with creator-explorer: making it the way"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "caregiver-ruler",
+        "added": [
+          "motif overlap with creator-caregiver: where they can see",
+          "motif overlap with sage-regular-guy: say out loud that"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "caregiver-sage",
+        "added": [
+          "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+          "motif overlap with caregiver-hero: you'd rather be the"
+        ],
+        "removed": [
+          "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "creator-caregiver",
+        "added": [
+          "motif overlap with caregiver-lover: when someone you love",
+          "motif overlap with caregiver-ruler: where they can see"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "creator-explorer",
+        "added": [
+          "motif overlap with caregiver-regular-guy: making it the way",
+          "motif overlap with creator-jester: and sugar shaken with",
+          "motif overlap with explorer-regular-guy: to make their own"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "creator-innocent",
+        "added": [
+          "motif overlap with explorer-hero: you'd recognise those years",
+          "motif overlap with regular-guy-explorer: because you like it; simply because you like"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "creator-jester",
+        "added": [
+          "motif overlap with creator-explorer: and sugar shaken with"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "creator-lover",
+        "added": [
+          "motif overlap with hero-innocent: it matters so much; why it matters so"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "creator-magician",
+        "added": [
+          "motif overlap with caregiver-hero: nobody sees that part",
+          "motif overlap with regular-guy-jester: it's why you can"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "creator-outlaw",
+        "added": [
+          "motif overlap with jester-caregiver: you keep to yourself",
+          "motif overlap with magician-sage: you give people the"
+        ],
+        "removed": [
+          "motif overlap with ruler-caregiver: before anyone else does"
+        ]
+      },
+      {
+        "pairing": "creator-ruler",
+        "added": [
+          "motif overlap with outlaw-hero: you can't bear to",
+          "motif overlap with ruler-lover: keep coming back to"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "creator-sage",
+        "added": [
+          "motif overlap with explorer-lover: half a teaspoon of"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "explorer-creator",
+        "added": [
+          "motif overlap with explorer-outlaw: you know that feeling",
+          "motif overlap with explorer-ruler: hear yourself say it",
+          "motif overlap with jester-creator: let it go you",
+          "motif overlap with outlaw-jester: keep quiet about how; one day you'll hear; you keep quiet about",
+          "motif overlap with regular-guy-explorer: you keep quiet about",
+          "motif overlap with sage-jester: you find a way"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "explorer-hero",
+        "added": [
+          "motif overlap with creator-innocent: you'd recognise those years",
+          "motif overlap with explorer-jester: make it sound like",
+          "motif overlap with lover-hero: in front of everyone",
+          "motif overlap with sage-jester: in front of everyone"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "explorer-jester",
+        "added": [
+          "motif overlap with explorer-hero: make it sound like"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "explorer-lover",
+        "added": [
+          "motif overlap with creator-sage: half a teaspoon of"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "explorer-outlaw",
+        "added": [
+          "motif overlap with explorer-creator: you know that feeling",
+          "motif overlap with outlaw-hero: you'd never say so"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "explorer-regular-guy",
+        "added": [
+          "motif overlap with creator-explorer: to make their own",
+          "motif overlap with magician-regular-guy: that's what you give"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "explorer-ruler",
+        "added": [
+          "motif overlap with explorer-creator: hear yourself say it"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "hero-creator",
+        "added": [
+          "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "hero-explorer",
+        "added": [
+          "motif overlap with hero-innocent: you dread is being",
+          "motif overlap with lover-outlaw: you dread is being",
+          "motif overlap with lover-regular-guy: that's worth more than"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "hero-innocent",
+        "added": [
+          "motif overlap with creator-lover: it matters so much; why it matters so",
+          "motif overlap with hero-explorer: you dread is being",
+          "motif overlap with lover-outlaw: you dread is being"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "hero-magician",
+        "added": [
+          "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+          "motif overlap with ruler-jester: a joke that lands"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "hero-outlaw",
+        "added": [
+          "motif overlap with jester-regular-guy: do much the same"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "hero-regular-guy",
+        "added": [
+          "motif overlap with lover-explorer: you're afraid of being",
+          "motif overlap with regular-guy-innocent: you're afraid of being"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "hero-sage",
+        "added": [
+          "motif overlap with magician-innocent: then there's the name"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "innocent-jester",
+        "added": [
+          "motif overlap with sage-creator: you'll have given them"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "innocent-magician",
+        "added": [
+          "motif overlap with outlaw-innocent: before there's anything to"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "innocent-ruler",
+        "added": [
+          "[yours 3] gendered pronoun 'she': fine for a historical person, never for the guest"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'her': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "jester-caregiver",
+        "added": [
+          "motif overlap with creator-outlaw: you keep to yourself"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "jester-creator",
+        "added": [
+          "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+          "motif overlap with explorer-creator: let it go you"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "jester-explorer",
+        "added": [
+          "motif overlap with regular-guy-magician: stay in the room",
+          "motif overlap with sage-jester: and take it home"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "jester-lover",
+        "added": [
+          "motif overlap with regular-guy-magician: let them keep their",
+          "motif overlap with ruler-lover: soon let someone else"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "jester-regular-guy",
+        "added": [
+          "motif overlap with hero-outlaw: do much the same"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "lover-caregiver",
+        "added": [
+          "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "lover-explorer",
+        "added": [
+          "motif overlap with hero-regular-guy: you're afraid of being",
+          "motif overlap with regular-guy-innocent: you're afraid of being"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "lover-hero",
+        "added": [
+          "motif overlap with explorer-hero: in front of everyone",
+          "motif overlap with lover-regular-guy: people you love never; the people you love",
+          "motif overlap with regular-guy-creator: the people you love",
+          "motif overlap with sage-jester: in front of everyone"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "lover-innocent",
+        "added": [
+          "motif overlap with regular-guy-innocent: you've heard all the"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "lover-magician",
+        "added": [
+          "motif overlap with lover-sage: some point you decided",
+          "motif overlap with ruler-caregiver: what it feels like",
+          "motif overlap with ruler-innocent: the drink comes out",
+          "motif overlap with ruler-regular-guy: right you give them",
+          "motif overlap with sage-explorer: and still want to"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "lover-outlaw",
+        "added": [
+          "motif overlap with hero-explorer: you dread is being",
+          "motif overlap with hero-innocent: you dread is being",
+          "motif overlap with outlaw-innocent: get to be known"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "lover-regular-guy",
+        "added": [
+          "motif overlap with hero-explorer: that's worth more than",
+          "motif overlap with lover-hero: people you love never; the people you love",
+          "motif overlap with regular-guy-creator: the people you love"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "lover-sage",
+        "added": [
+          "motif overlap with lover-magician: some point you decided"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "magician-creator",
+        "added": [
+          "motif overlap with caregiver-innocent: nobody thinks to ask",
+          "motif overlap with sage-outlaw: you come back with"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "magician-innocent",
+        "added": [
+          "motif overlap with hero-sage: then there's the name"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "magician-jester",
+        "added": [
+          "motif overlap with ruler-magician: you want people to",
+          "motif overlap with sage-magician: want people to see; you want people to"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "magician-lover",
+        "added": [
+          "motif overlap with regular-guy-explorer: as everyone else does",
+          "motif overlap with sage-innocent: you give people that"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "magician-regular-guy",
+        "added": [
+          "motif overlap with explorer-regular-guy: that's what you give",
+          "motif overlap with sage-regular-guy: rarely say how much; say how much that"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "magician-sage",
+        "added": [
+          "motif overlap with creator-outlaw: you give people the"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "outlaw-caregiver",
+        "added": [
+          "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "outlaw-hero",
+        "added": [
+          "motif overlap with creator-ruler: you can't bear to",
+          "motif overlap with explorer-outlaw: you'd never say so"
+        ],
+        "removed": [
+          "whoYouAre is 196 words (the examples run ~90-150): punchier?"
+        ]
+      },
+      {
+        "pairing": "outlaw-innocent",
+        "added": [
+          "motif overlap with innocent-magician: before there's anything to",
+          "motif overlap with lover-outlaw: get to be known"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "outlaw-jester",
+        "added": [
+          "motif overlap with explorer-creator: keep quiet about how; one day you'll hear; you keep quiet about",
+          "motif overlap with regular-guy-explorer: you keep quiet about",
+          "motif overlap with regular-guy-outlaw: a telling off you"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "outlaw-magician",
+        "added": [],
+        "removed": [
+          "whoYouAre is 197 words (the examples run ~90-150): punchier?"
+        ]
+      },
+      {
+        "pairing": "outlaw-regular-guy",
+        "added": [
+          "motif overlap with regular-guy-lover: keep that to yourself"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "outlaw-sage",
+        "added": [
+          "motif overlap with sage-magician: a better way to"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "regular-guy-creator",
+        "added": [
+          "motif overlap with lover-hero: the people you love",
+          "motif overlap with lover-regular-guy: the people you love",
+          "motif overlap with regular-guy-ruler: doesn't have to make",
+          "motif overlap with ruler-magician: and change the subject"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "regular-guy-explorer",
+        "added": [
+          "motif overlap with creator-innocent: because you like it; simply because you like",
+          "motif overlap with explorer-creator: you keep quiet about",
+          "motif overlap with magician-lover: as everyone else does",
+          "motif overlap with outlaw-jester: you keep quiet about"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "regular-guy-innocent",
+        "added": [
+          "motif overlap with hero-regular-guy: you're afraid of being",
+          "motif overlap with lover-explorer: you're afraid of being",
+          "motif overlap with lover-innocent: you've heard all the"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "regular-guy-jester",
+        "added": [
+          "motif overlap with caregiver-hero: and it's the surest",
+          "motif overlap with creator-magician: it's why you can"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "regular-guy-lover",
+        "added": [
+          "motif overlap with outlaw-regular-guy: keep that to yourself"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "regular-guy-magician",
+        "added": [
+          "motif overlap with jester-explorer: stay in the room",
+          "motif overlap with jester-lover: let them keep their",
+          "motif overlap with sage-creator: enjoy the evening without"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "regular-guy-outlaw",
+        "added": [
+          "motif overlap with outlaw-jester: a telling off you"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "regular-guy-ruler",
+        "added": [
+          "motif overlap with regular-guy-creator: doesn't have to make",
+          "motif overlap with ruler-magician: you'd rather not admit"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "ruler-caregiver",
+        "added": [
+          "motif overlap with caregiver-hero: by the time anyone; the time anyone else",
+          "motif overlap with lover-magician: what it feels like",
+          "motif overlap with ruler-lover: you keep the effort",
+          "motif overlap with sage-outlaw: in the wrong way; quiet in the wrong"
+        ],
+        "removed": [
+          "motif overlap with creator-outlaw: before anyone else does"
+        ]
+      },
+      {
+        "pairing": "ruler-explorer",
+        "added": [
+          "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+          "motif overlap with caregiver-innocent: the people who love",
+          "motif overlap with sage-outlaw: his own name to"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "ruler-hero",
+        "added": [
+          "motif overlap with sage-hero: you carry it quietly; you get to stop"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "ruler-innocent",
+        "added": [
+          "motif overlap with lover-magician: the drink comes out"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "ruler-jester",
+        "added": [
+          "motif overlap with hero-magician: a joke that lands",
+          "motif overlap with ruler-outlaw: admit how much you"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "ruler-lover",
+        "added": [
+          "motif overlap with creator-ruler: keep coming back to",
+          "motif overlap with jester-lover: soon let someone else",
+          "motif overlap with ruler-caregiver: you keep the effort"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "ruler-magician",
+        "added": [
+          "motif overlap with magician-jester: you want people to",
+          "motif overlap with regular-guy-creator: and change the subject",
+          "motif overlap with regular-guy-ruler: you'd rather not admit",
+          "motif overlap with sage-magician: lie awake thinking of; you lie awake thinking; you want people to"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "ruler-outlaw",
+        "added": [
+          "motif overlap with ruler-jester: admit how much you"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "ruler-regular-guy",
+        "added": [
+          "motif overlap with lover-magician: right you give them",
+          "motif overlap with sage-lover: you'll be able to"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "sage-caregiver",
+        "added": [
+          "motif overlap with sage-hero: don't know if he; we don't know if",
+          "motif overlap with sage-outlaw: you couldn't live with"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "sage-creator",
+        "added": [
+          "motif overlap with caregiver-creator: you've cared for them",
+          "motif overlap with innocent-jester: you'll have given them",
+          "motif overlap with regular-guy-magician: enjoy the evening without",
+          "motif overlap with sage-regular-guy: while everyone else was"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "sage-explorer",
+        "added": [
+          "motif overlap with lover-magician: and still want to",
+          "motif overlap with sage-regular-guy: you let it go"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "sage-hero",
+        "added": [
+          "motif overlap with ruler-hero: you carry it quietly; you get to stop",
+          "motif overlap with sage-caregiver: don't know if he; we don't know if"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "sage-innocent",
+        "added": [
+          "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+          "motif overlap with magician-lover: you give people that"
+        ],
+        "removed": [
+          "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "sage-jester",
+        "added": [
+          "motif overlap with explorer-creator: you find a way",
+          "motif overlap with explorer-hero: in front of everyone",
+          "motif overlap with jester-explorer: and take it home",
+          "motif overlap with lover-hero: in front of everyone"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "sage-lover",
+        "added": [
+          "motif overlap with caregiver-jester: keep it to yourself",
+          "motif overlap with ruler-regular-guy: you'll be able to"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "sage-magician",
+        "added": [
+          "motif overlap with magician-jester: want people to see; you want people to",
+          "motif overlap with outlaw-sage: a better way to",
+          "motif overlap with ruler-magician: lie awake thinking of; you lie awake thinking; you want people to"
+        ],
+        "removed": []
+      },
+      {
+        "pairing": "sage-outlaw",
+        "added": [
+          "[yours 5] gendered pronoun 'him': fine for a historical person, never for the guest",
+          "motif overlap with magician-creator: you come back with",
+          "motif overlap with ruler-caregiver: in the wrong way; quiet in the wrong",
+          "motif overlap with ruler-explorer: his own name to",
+          "motif overlap with sage-caregiver: you couldn't live with"
+        ],
+        "removed": [
+          "[yours 5] gendered pronoun 'he': fine for a historical person, never for the guest"
+        ]
+      },
+      {
+        "pairing": "sage-regular-guy",
+        "added": [
+          "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+          "motif overlap with caregiver-ruler: say out loud that",
+          "motif overlap with magician-regular-guy: rarely say how much; say how much that",
+          "motif overlap with sage-creator: while everyone else was",
+          "motif overlap with sage-explorer: you let it go"
+        ],
+        "removed": [
+          "[yours 4] gendered pronoun 'him': fine for a historical person, never for the guest"
+        ]
+      }
+    ],
+    "advisory_review": "The new four-word matches are shared ordinary language about care, fear, relationships and bar technique. Reviewed for repeated distinctive metaphors or borrowed scenes; the final revisions preserve the original scenes and individual meanings. Historical-person pronoun advisories refer to sourced people, not the guest."
+  },
+  "application_checks": {
+    "source_import_check": "passed: 132 pours, 105 veto-free",
+    "image_pairings": "passed: 132",
+    "selection_reference": "passed",
+    "type_check": "passed",
+    "test_files": 17,
+    "tests_passed": 925,
+    "production_build": "passed with existing-output cleanup disabled; the existing dist cleanup permission issue was already established during the first pass",
+    "diff_whitespace_check": "passed"
+  },
+  "tracked_change_scope": {
+    "counts": {
+      "sources": 125,
+      "source manifest": 1,
+      "application pours": 125
+    },
+    "unexpected_paths": []
+  }
+}

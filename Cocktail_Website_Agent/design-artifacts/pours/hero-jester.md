@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 
 - **name:** Hold the Shark
 - **tagline:** Your worst days become everyone's favourite stories.
+- **words:** Lush · Nutty · Zesty
 - **glassware:** double old-fashioned glass (about 350 ml), packed with crushed ice
 - **contains:** `["nuts"]`
 

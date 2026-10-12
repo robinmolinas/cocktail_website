@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 
 - **name:** Half a Rim
 - **tagline:** You take things away, and somehow there's more.
+- **words:** Brisk · Zesty · Clean
 - **glassware:** rocks glass (a short, heavy tumbler), salt on half the rim, one large clear ice cube
 - **contains:** `[]`
 

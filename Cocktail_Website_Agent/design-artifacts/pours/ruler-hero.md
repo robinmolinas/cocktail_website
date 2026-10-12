@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** A Place Kept
 - **tagline:** When you say there's room for everyone, there is.
+- **words:** Luscious · Fruity · Tart
 - **glassware:** small stemmed wine glass (about 250 ml), chilled, no ice in the glass
 - **contains:** `[]`
 
@@ -70,7 +71,7 @@ You said there'd be a place for all of them. You never said what it cost you. So
 
 4. The cocktail I've made for you is a New York Sour, a renowned classic. Mine is bourbon, fresh lemon and sugar, shaken cold and poured without ice, sharp and clean. I'd make it with Jim Beam, since it carries the name he ended up with, though any Kentucky straight bourbon will do. Then one thing goes over the top: a float of dry red wine, a thin red band above the tawny sour. Only the wine shows, and it brings a little dry pucker to the bright sour. Back in 1883, a bartender in Chicago told a reporter the wine made the drink look good and taste better. I put it there for the one thing in this story that stung.
 
-5. One request, then. When keeping a promise costs you something, say so, once, to someone you kept the place for. The promise won't look any weaker. It'll look exactly like what it is: something you care about enough to pay for. And they'll finally get the chance to thank you, which you so rarely allow.
+5. When keeping a promise costs you something, say so, once, to someone you kept the place for. The promise won't look any weaker. It'll look exactly like what it is: something you care about enough to pay for. And they'll finally get the chance to thank you, which you so rarely allow.
 
 ---
 

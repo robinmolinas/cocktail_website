@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch explorer)
 
 - **name:** Brought Home
 - **tagline:** Every good find makes you think of someone.
+- **words:** Bright · Smoky · Honeyed
 - **glassware:** a tall highball glass (about 300 ml), filled with ice
 - **contains:** `[]`
 

@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-25 (dry run; Robin absent)
 
 - **name:** Down the Line
 - **tagline:** Your dreams have gravity. People want to be part of making them real.
+- **words:** Dreamy · Creamy · Floral
 - **glassware:** tall glass (a highball or Collins glass), no ice
 - **contains:** `["egg-white", "dairy"]`
 

@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 
 - **name:** In Good Part
 - **tagline:** Your jokes let people change their minds without losing face.
+- **words:** Plush · Fruity · Tangy
 - **glassware:** coupe, chilled in the freezer, no ice in the glass
 - **contains:** `["egg-white"]`
 
@@ -62,7 +63,7 @@ Someone at the table has started to believe their own story. A boss, an old frie
 
 It sounded like a quip. It took you most of the evening. Nobody guesses how much the untrue thing bothered you while you were smiling: you can sit with almost anything except a story everyone has agreed to believe. The room that frightens you is the one where nobody's allowed to laugh, because that's where it stays true for good. And there's a cost you rarely mention. When you mean something about your own life, people are still waiting for the funny part.
 
-So here it is, plainly, because it's worth something: you let people be wrong and keep their dignity. It's kinder than honesty on its own, and much harder.
+You let people be wrong and keep their dignity. It's kinder than honesty on its own, and much harder.
 
 **yours**
 

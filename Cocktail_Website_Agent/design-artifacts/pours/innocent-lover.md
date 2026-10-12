@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch innocent)
 
 - **name:** The Big Words
 - **tagline:** You've never loved anything a little.
+- **words:** Lush · Fruity · Bittersweet
 - **glassware:** a cocktail glass (about 180 ml), chilled
 - **contains:** `[]`
 

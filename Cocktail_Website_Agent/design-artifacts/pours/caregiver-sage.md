@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch caregiver)
 
 - **name:** Instead
 - **tagline:** You care enough to ask the difficult question.
+- **words:** Mellow · Herbal · Aromatic
 - **glassware:** a small stemmed cocktail glass, chilled, no ice
 - **contains:** `[]`
 

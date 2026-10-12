@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** Had to Be Serious
 - **tagline:** You didn't just tear it down. You stayed to run it.
+- **words:** Refreshing · Fruity · Fizzy
 - **glassware:** Collins glass, filled with ice
 - **contains:** `[]`
 

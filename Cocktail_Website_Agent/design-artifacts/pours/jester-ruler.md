@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch jester)
 
 - **name:** Don't Look at Me
 - **tagline:** Your straight face brings out everyone else's funniest side.
+- **words:** Bracing · Dry · Fizzy
 - **glassware:** large plain tumbler (about 350 ml), three ice cubes
 - **contains:** `[]`
 

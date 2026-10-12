@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch magician)
 
 - **name:** On One Condition
 - **tagline:** Nobody gets what they asked you for. They get what they meant.
+- **words:** Refreshing · Zesty · Herbal
 - **glassware:** tall (Collins) glass, chilled, filled with ice
 - **contains:** `[]`
 
@@ -73,7 +74,7 @@ What worries you is getting it wrong in the most literal way: doing exactly what
 
 4. The cocktail I've made for you starts from one of those Pico drinks, the Collins d'Electra. Gin, vodka and a fresh rosemary syrup he created for it are all that's known of it, so everything else is my own, built like a Tom Collins, one of the great tall classics: lemon, a glass full of ice, soda on top, a sprig of rosemary for the scent. And I've added one small thing from the Campbell Apartment, as a nod to the stand-in mixed there when nobody knew where to buy orange bitters: a teaspoon of Cointreau, mixed first with a couple of dashes of Angostura. It's tall, bright and herbal, with a warm orange edge underneath, and I like to think the rosemary is where you can taste the kitchen.
 
-5. So this is my wish for you. Whoever asks for your help next, say yes the way you always do, and before you start, name the one part you'd like to make entirely on your own terms. It isn't taking. It's usually where the best thing you make for them comes from, and for once, one of the wishes granted will be yours.
+5. Whoever asks for your help next, say yes the way you always do, and before you start, name the one part you'd like to make entirely on your own terms. It isn't taking. It's usually where the best thing you make for them comes from, and for once, one of the wishes granted will be yours.
 
 ---
 

@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** Not the Same
 - **tagline:** You change the things you love so more people get to love them too.
+- **words:** Delicate · Zesty · Fruity
 - **glassware:** cocktail coupe (about 200 ml), chilled, coated inside with apricot eau-de-vie, fine sugar on the outside of the rim
 - **contains:** `[]`
 
@@ -60,7 +61,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 **whoYouAre**
 Every summer there's the same street party, and every summer a few more people find a reason to miss it. You're the one who suggests the Saturday instead of the Sunday, and the neighbours nobody ever thought to knock for. You keep the food everyone brings, the old songs, the raffle with the terrible prizes. Someone who's been coming for thirty years tells you it won't be the same. It isn't. The next summer, the street is full.
 
-Here's the part nobody guesses: you love the old version more than the people defending it. You argue with dates and numbers, because "I'd hate to lose this" sounds soft, so the ones who love it too can hear someone wrecking it. The row doesn't scare you. What does is the change you pushed for turning out to be what finishes it off, and everyone remembering it was you. And look what you leave instead: the things people love are still there, with more people in them, because someone cared enough to change them. Nobody says so at the time. Someone should.
+Nobody guesses that you love the old version more than the people defending it. You argue with dates and numbers, because "I'd hate to lose this" sounds soft, so the ones who love it too can hear someone wrecking it. The row doesn't scare you. What does is the change you pushed for turning out to be what finishes it off, and everyone remembering it was you. And look what you leave instead: the things people love are still there, with more people in them, because someone cared enough to change them. Nobody says so at the time. Someone should.
 
 **yours**
 
@@ -72,7 +73,7 @@ Here's the part nobody guesses: you love the old version more than the people de
 
 4. The cocktail I've made for you is Hobday's most enduring drink, the Lemon Drop, made the elegant way it was first served, before it shrank into a shot: up, in a sugar-rimmed glass. Mine is a chilled coupe, and I take the sugar all the way round. The lemon is squeezed fresh, the way his bar made its juices, to order. It tastes of the lemon candy it's named after, sweet and bright. The change is in the glass. In a Chicago bar guide from 1900, James Maloney gave a set of drinks that went into a glass coated inside with apricot liqueur, a sweet red one. I do the same with a clear, dry apricot brandy. Half a teaspoon is enough to coat the glass and hold the rim's sugar in place, and I tip none of it out. It's there as a nod to what you do: the old thing kept on purpose, holding the new one. The apricot reaches you first, then the lemon.
 
-5. One thing I'd like you to try. You keep the love behind the sensible reasons, and that's why the people defending the old version hear an enemy. Let them hear the love first, before the dates and the numbers. They'll find someone on their side, because you always were. And once the place is full again, don't stand by the wall checking that it held. Go in and enjoy it. It was always as much yours as theirs.
+5. You keep the love behind the sensible reasons, and that's why the people defending the old version hear an enemy. Let them hear the love first, before the dates and the numbers. They'll find someone on their side, because you always were. And once the place is full again, don't stand by the wall checking that it held. Go in and enjoy it. It was always as much yours as theirs.
 
 **closing line (Tomás, draft v1):** *Coat the glass before you pour. And before you change anything, say what you're keeping.*
 

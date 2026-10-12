@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch lover)
 
 - **name:** Any Day
 - **tagline:** Nobody you love ever has to ask you. They only have to mention it.
+- **words:** Mellow · Honeyed · Zesty
 - **glassware:** rocks glass, one large plain cube (the biggest cube your freezer makes; not clear, not cut)
 - **contains:** `[]`
 
@@ -58,7 +59,7 @@ authored_in: the room, 2026-09-30 (batch lover)
 **whoYouAre**
 Someone you love mentions that the car's making that noise again. That's all. They'd never ask, and they don't need to: you heard it, because it's exactly how you'd have said it. By Saturday you're flat on your back underneath it, and neither of you makes a thing of it. A mention is enough. What comes back isn't a card or a speech. It's the thing done, for as long as it takes.
 
-The sentence you've never quite managed is the other one, the one that says why. The feeling's there, full size. Said out loud, it sounds like someone else's words, so it stays put, and you tell yourself they know. Mostly they do. But now and then, on a long drive home, you think about the day it'll be too late to check. Here's what your way gives the people you love: they never have to find the words to ask, and they never owe you a thank-you. They always know where they can lean. That's worth more than any speech.
+The sentence you've never quite managed is the other one, the one that says why. The feeling's there, full size. Said out loud, it sounds like someone else's words, so it stays put, and you tell yourself they know. Mostly they do. But now and then, on a long drive home, you think about the day it'll be too late to check. The people you love never have to find the words to ask, and they never owe you a thank-you. They always know where they can lean. That's worth more than any speech.
 
 **yours**
 

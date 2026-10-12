@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 
 - **name:** Straight Back
 - **tagline:** You find something wonderful and want someone else to feel it too.
+- **words:** Juicy · Fruity · Tangy
 - **glassware:** an old-fashioned glass (rocks glass), filled with crushed ice
 - **contains:** `[]`
 

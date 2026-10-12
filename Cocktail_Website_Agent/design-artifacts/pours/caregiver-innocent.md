@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch caregiver)
 
 - **name:** Before the Room
 - **tagline:** The room feels kinder once you're in it.
+- **words:** Lively · Fruity · Sparkling
 - **glassware:** a flute or wide coupe, chilled
 - **contains:** `[]`
 

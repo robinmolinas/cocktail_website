@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch magician)
 
 - **name:** Already There
 - **tagline:** You see who someone could become in the little things they do today.
+- **words:** Intriguing · Herbal · Silky
 - **glassware:** small tulip-shaped grappa glass with an open rim (about 150 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -57,7 +58,7 @@ There's someone in your life that everyone has quietly made up their mind about.
 
 That's the part nobody hears. Your reasons are so small that, said out loud, they'd sound like nothing, so you hand over the conclusion and keep the reasons. It's also why you can seem a little mysterious. Underneath sits a worry you seldom admit: that what you saw in someone was only what you hoped to see, and they went ahead because you said so.
 
-And here's your gift to whoever is near you. In your eyes, nobody is ever finished. People grow into the place you kept for them, and plenty never find out who kept it. Most people only get that kind of faith from someone who loves them. You hand it out on far less.
+In your eyes, nobody is ever finished. People grow into the place you kept for them, and plenty never find out who kept it. Most people only get that kind of faith from someone who loves them. You hand it out on far less.
 
 **yours**
 

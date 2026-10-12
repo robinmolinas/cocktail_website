@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 
 - **name:** One Line
 - **tagline:** You keep your cool so the people you love can breathe.
+- **words:** Bracing · Dry · Aromatic
 - **glassware:** deep champagne goblet (about 200 ml), chilled
 - **contains:** `[]`
 

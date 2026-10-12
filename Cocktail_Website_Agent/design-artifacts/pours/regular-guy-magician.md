@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 
 - **name:** Good for Years
 - **tagline:** You find years of life in the things people were ready to throw away.
+- **words:** Smouldering · Citrusy · Bittersweet
 - **glassware:** small tumbler, one large cube
 - **contains:** `[]`
 
@@ -55,7 +56,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 **whoYouAre**
 Someone's lamp has died, or the zip's gone on a coat, and they're already saying it's had its day. You've got the back off before they've finished the sentence. A hair grip, a folded bit of card, tape from the kitchen drawer: you use whatever's there, and it works. It looks a bit odd. It lasts for years.
 
-Quieter, though, is this. At a party where nothing's broken, you're not quite sure where to stand, and a dripping tap in the kitchen feels like being let in. What gets to you is the shrug, and "just get a new one", because a world that throws things away has less room for you in it. When you mend something, people keep their own thing, the bike they learned on or a grandparent's lamp, and the piece of their life that comes with it. And you show them what was wrong, so the impossible turns out to be ordinary.
+At a party where nothing's broken, you're not quite sure where to stand, and a dripping tap in the kitchen feels like being let in. What gets to you is the shrug, and "just get a new one", because a world that throws things away has less room for you in it. When you mend something, people keep their own thing, the bike they learned on or a grandparent's lamp, and the piece of their life that comes with it. And you show them what was wrong, so the impossible turns out to be ordinary.
 
 **yours**
 

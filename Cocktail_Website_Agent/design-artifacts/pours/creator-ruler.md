@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 
 - **name:** Making the Calls
 - **tagline:** You'd rather answer for every detail than take credit for just your part.
+- **words:** Luscious · Citrusy · Rounded
 - **glassware:** a coupe (a stemmed glass with a rounded bowl), chilled
 - **contains:** `[]`
 

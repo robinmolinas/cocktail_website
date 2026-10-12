@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 
 - **name:** Note to Self
 - **tagline:** Impressive is easy. Exact is what you're after.
+- **words:** Mellow · Vanilla · Fizzy
 - **glassware:** tall highball glass (about 300 ml), chilled in the freezer, 1-inch ice cubes added one at a time
 - **contains:** `[]`
 
@@ -73,7 +74,7 @@ What haunts you is the thing you never thought to write down, the one that matte
 
 4. So the cocktail I've made for you is a true classic, the whisky highball: whisky and soda, which took over from brandy and soda in Britain in the second half of the nineteenth century. It's an unpeated Highland single malt, ideally one whose label says it was aged in bourbon casks, lengthened with two parts very cold soda. It's built step by step, and every step has a reason. A frozen glass and cold soda keep the bubbles. The first cube is lowered in slowly, so it doesn't crack. The bottom cube is lifted once, to mix it without knocking out the fizz. I've added one touch: a little real vanilla, as a nod to the casks his book hardly mentions, since oak casks give whisky some of that same flavour. It's there in the recipe, like everything else.
 
-5. A last thought, and it isn't about the numbers. Keep the readings, the dates and the bread times exactly as you do. But put yourself in the notes too: the joke, the hunch, the part you loved. The numbers are what people will check. You are what they'll want to read.
+5. Keep the readings, the dates and the bread times exactly as you do. But put yourself in the notes too: the joke, the hunch, the part you loved. The numbers are what people will check. You are what they'll want to read.
 
 ---
 

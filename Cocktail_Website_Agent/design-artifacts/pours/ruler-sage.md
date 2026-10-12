@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** Either Way
 - **tagline:** You want a fair answer, even when it means changing your mind.
+- **words:** Rich · Malty · Rounded
 - **glassware:** old-fashioned glass (rocks glass, about 300 ml), filled with ice cubes
 - **contains:** `["gluten"]`
 
@@ -55,7 +56,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 *There's whisky in this glass that rival distillers once insisted wasn't whisky at all.*
 
 **whoYouAre**
-Two friends fall out, and sooner or later each of them tells you their side. You hear both out to the end, and you ask for the bits that don't flatter them. Then you tell them plainly what you think happened, and it's rarely what either of them hoped. And here's the odd part: when trouble comes round again, it's the one you disagreed with who calls first.
+Two friends fall out, and sooner or later each of them tells you their side. You hear both out to the end, and you ask for the bits that don't flatter them. Then you tell them plainly what you think happened, and it's rarely what either of them hoped. When trouble comes round again, it's the one you disagreed with who calls first.
 
 People assume plain speaking is easy for you. It isn't, not once. You want to be liked as much as anyone, and later, alone, you replay the conversation, half hoping someone will show you what you missed. What you won't put up with is the kind-sounding fudge, the "let's not make a fuss", because you know who pays for it, and it's never the person saying it. It's the quietest one there. With you, the quietest voice gets the same answer as the loudest, and it matters more than they ever tell you.
 

@@ -1,0 +1,293 @@
+{
+  "verdict": "pass",
+  "reviewed_records": 33,
+  "reviewed_replacements": 64,
+  "edited_readings": 30,
+  "retained_readings": 3,
+  "concrete_concerns": [],
+  "method": "Read every current full Reading and each full original replacement paragraph from the second-pass snapshot, including neighboring historical, drink and proposal context. Independently checked source meaning, emotional force, attribution, uncertainty, sensory claims and bartender voice. Reviewed all edit reasons and meaning records. Source dossiers and group-c audit were read-only.",
+  "parent_corrections": {
+    "lover_innocent": "Confirmed the gift remains limited to everyone the guest loves and is given without earning.",
+    "lover_magician": "Confirmed the opening preserves keeping something back so the person stays, rather than to be chased."
+  },
+  "checks": {
+    "exact_audit_replay": "passed",
+    "unique_replacement_strings": "passed",
+    "outside_reading_bytes": "passed",
+    "protected_fragments_and_approved_source": "passed",
+    "number_tokens_and_exact_quotations": "passed",
+    "inference_marker_counts_and_scope": "passed",
+    "schema_labels_and_numbering": "passed",
+    "history_paragraphs_1_and_2": "unchanged",
+    "epigraphs": "unchanged",
+    "psychology_gift_strength_and_proposals": "passed independent reading",
+    "cocktail_mechanics_and_sensory_claims": "passed independent reading",
+    "natural_distinct_voice": "passed independent reading"
+  },
+  "records": [
+    {
+      "pairing": "lover-caregiver",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The prepared-room identification remains an observation linked to the already-signposted Willard speculation. The direct invitation retains its rejected-versus-hoped-for stakes and the full-house wish; all Apple Toddy mechanics are unchanged.",
+      "replacements_reviewed": 2,
+      "source_sha256": "91fb0fe33069b60de8e7f6fa9b359a237eefc1a78eb3249a61762fc70a2d826a"
+    },
+    {
+      "pairing": "lover-creator",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The half-made private work, safety of inspiring others, fear of distant idealisation and unasked making all remain. The proposal still asks for unfinished work in the guest's hand, and the bartender's closing question keeps its warmth.",
+      "replacements_reviewed": 2,
+      "source_sha256": "a54cda9d5e6603360e4ab65a9101397a4c2a5a70cde978cc661ece8e9784de39"
+    },
+    {
+      "pairing": "lover-explorer",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The reorganised fear still explains enjoying the night intensely and preserves the lonely ride home. Ending a perfect evening, naming a date, and discovering that people return remain concrete. The cellar/kitchen and served-up drink links are untouched.",
+      "replacements_reviewed": 2,
+      "source_sha256": "d1078586dd97e8d42e400fcafd4278ee1daff674929cb10e43616951b41e9713"
+    },
+    {
+      "pairing": "lover-hero",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The whole visible journey, reliable arrival and unmistakable love remain, as does the hidden need-as-proof confusion. The coat, three-hundred-mile scene and better forms of proof stay specific; Bly's uncertain wine and warm-serving connection are unchanged.",
+      "replacements_reviewed": 2,
+      "source_sha256": "3119cc6ec5f503aed5952453538e03f6e6c1a740e9ee1e88c64a219f685006d9"
+    },
+    {
+      "pairing": "lover-innocent",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The parent's corrected gift sentence keeps the original scope: everyone the guest loves receives unearned love. Hurt, deliberate risk, private bruises and the three-hour fear remain. Rita's imagined willingness and later openness stay under I like to think; the unchanged egg-shell metaphor has its own signpost.",
+      "replacements_reviewed": 2,
+      "source_sha256": "1a89aff1798216cb1be6271afdef1ee23daaa4910ca76d8dd65f13769df1c931"
+    },
+    {
+      "pairing": "lover-jester",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The compliment disguised as a joke still protects both people from rejection, with the hurt/polite non-return kept specific. The hat callback, plain compliment, clumsiness and stronger return remain; jasmine's spelling joke and mechanics are unchanged.",
+      "replacements_reviewed": 2,
+      "source_sha256": "32faff7025108f681d9e568aeec465c3f5b63bb4a7e3471e69028f38bbd049e4"
+    },
+    {
+      "pairing": "lover-magician",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The parent-corrected opening preserves staying rather than chasing as the motive. The last secret, feared departure, rare gift of discovery and resulting solitude remain explicit. The shiso rewrite keeps all scent/mechanical claims; the proposal still gives the secret before it is earned and asks the guest to experience complete closeness.",
+      "replacements_reviewed": 3,
+      "source_sha256": "1a80a54040c6f8e9708b709f830fac3e1c0fd6f1f4a478d36b3baeba54e0012e"
+    },
+    {
+      "pairing": "lover-outlaw",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Accomplices replace an audience while please-come remains hidden beneath come-on. Both feared outcomes and the gift of self-liking are unchanged. Free soup, business/background explanations, staff retention and shared-creation attribution all survive; the wanted-there memory still carries the warmth.",
+      "replacements_reviewed": 2,
+      "source_sha256": "00eadeb8cde923514ef450d6df746a1827582545c5aac59d5e45225a17b89c6f"
+    },
+    {
+      "pairing": "lover-regular-guy",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The unasked car repair keeps its duration and absence of display. The reflection hears help inside the money problem, retains months and thirty copies, and the proposal keeps the exact affectionate line and busy-hands settings. The pride remains an explicitly uncertain interpretation after the possible business reason.",
+      "replacements_reviewed": 3,
+      "source_sha256": "5fe80473f043c43bbcd3af5ba5ccd63465305148fda73527c6d41308cd8f3ec1"
+    },
+    {
+      "pairing": "lover-ruler",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Retained source is exactly the snapshot. The deliberately made effect, maker's loneliness, safe enlivening, Pickford image trap, homemade drink and self-chosen next version all remain.",
+      "replacements_reviewed": 0,
+      "source_sha256": "b39fdd52c25328fd6e9b3c1f4a2dbc0d0af46e37932c1e03ad72a7e0a719302f"
+    },
+    {
+      "pairing": "lover-sage",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The full-table loneliness, withheld long version and private judgment of a room all survive the reorder. McMillian's giving the ode a voice remains under I like to think; I doubt still qualifies the audience-selection inference. The unchanged julep and full-room proposal retain specific warmth.",
+      "replacements_reviewed": 2,
+      "source_sha256": "a38622b12189bbbe11b711e2091eda263086054204a23064dc02e46c8dbd2ba5"
+    },
+    {
+      "pairing": "magician-caregiver",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Unasked kindness can still be meddling, with close observation justifying it and no thanks or repayment owed. The Pink Shimmy's survival is factual, while the night remaining Hazel's stays signposted. Staying for the surprise is still the concrete answer to the guest's private right-to-help question.",
+      "replacements_reviewed": 2,
+      "source_sha256": "a5cc3f43a4dfa37805fc974c284f4a154f835c8fe0487c5e540247706a8fe662"
+    },
+    {
+      "pairing": "magician-creator",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The literal request versus real wish, compensating generosity and unspoken wish of one's own remain. The proposal's own-terms sentence retains the benefit to the recipient and the guest's granted wish. The reconstruction, missing bitters and bartender-owned recipe choices remain unchanged.",
+      "replacements_reviewed": 2,
+      "source_sha256": "ff2f586a98f3afae3c7e936e98a345d1fee0dc86209cfddda7d6aa5c262821ec"
+    },
+    {
+      "pairing": "magician-explorer",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Reversible trials, delayed irreversible delivery and privately ardent hope remain distinct. Forty ways, the signed option and close people's belief stay present. The Coffey paragraph retains unknown motive, I like to think, excise-before-patent order, and copper as the hard choice.",
+      "replacements_reviewed": 3,
+      "source_sha256": "ea44e3cde95df2dcbbe14a59ca119159415366d4bfe31fe73095e843dde61d0e"
+    },
+    {
+      "pairing": "magician-hero",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The edit preserves relief mixed with remembered sacrifice, all three loss examples and unintended consequences. The guest still weighs costs, makes the call and carries it, with saved things named as the gift. The Folle Blanche restoration, quantity and acid mechanism are unchanged.",
+      "replacements_reviewed": 1,
+      "source_sha256": "677a6911e544e8c3736510374372cbdd8445ba03576c36b9052eeac2d0d7027c"
+    },
+    {
+      "pairing": "magician-innocent",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Eager beginnings, forty-person example, runaway success, unchosen direction and private week-long pause remain. Allowing a pause while retaining delight expresses the same mixed feeling. The exact Walker quotation, unwelcome nickname, 1886 employees and qualified second-head interpretation all survive.",
+      "replacements_reviewed": 3,
+      "source_sha256": "ab7ecf1ebcdb012457d7ee4a7ce5d8759ab0301b530a5c59ddbcd8c7cc24ad08"
+    },
+    {
+      "pairing": "magician-jester",
+      "verdict": "pass",
+      "findings": [],
+      "note": "An honest surprise still aims to change a view without humiliating anyone, with workings and purpose hidden for fear of a lesson. The gift of pleasant uncertainty remains exact. Explaining before looking retains the backwards experiment, sugar/weight mechanism and shared viewpoint.",
+      "replacements_reviewed": 2,
+      "source_sha256": "d948e0d992358767ace0969409f7e73cbf5afc8db39a5eb557fd6b0039df0204"
+    },
+    {
+      "pairing": "magician-lover",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The next-dinner action preserves the big question and staying until the end, replacing the shrinking aphorism with direct reassurance. Responsibility for subsequent choices remains with others, and the bartender's I'd bet keeps the predicted enjoyment qualified.",
+      "replacements_reviewed": 1,
+      "source_sha256": "a6d6bd4bccc4d8b15644128881258e391db7350fbfafe44f22ff631ff04890ae"
+    },
+    {
+      "pairing": "magician-outlaw",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Fully approved source remains exactly the snapshot. Planned mischief, care beneath it, ignored-versus-caught fear, attributed hoax motive, changing drink and gift-bearing disruption remain intact.",
+      "replacements_reviewed": 0,
+      "source_sha256": "8ea126e76eb0208d2c4803ee6cc9e5956050935cdf209dcfcbcd19071e246e60"
+    },
+    {
+      "pairing": "magician-regular-guy",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The guest still cannot share the audience's wonder and instead seeks their faces and shared laugh. The dread of silence in front of unindebted strangers and hours of practice remain; the explicit bus-stop-to-room gift stays concrete. Cold-water speculation, two-whisky guess and private saucer reveal are unchanged.",
+      "replacements_reviewed": 1,
+      "source_sha256": "8f6dd352d64ac81c8c60717990a43a02db48b3a7a4d3b99179cf1d3aaf4b24ae"
+    },
+    {
+      "pairing": "magician-ruler",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Retained source is exactly the snapshot. The rehearsal and duty, unplanned independent piece, explicitly valued carefree-room gift, lost-recipe qualifications and chance to be surprised all remain.",
+      "replacements_reviewed": 0,
+      "source_sha256": "d7d7a63f70a7e091c5e2f88f00b46174a591b5f9cb20e9163eb7ba8cdfb948b0"
+    },
+    {
+      "pairing": "magician-sage",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Tiny private reasons, mysterious appearance and hope-versus-evidence worry remain. The grappa interpretation keeps I like to think, imperfect outcomes and long outside ridicule. Giving the observed evidence rather than transferring a hope retains independent growth and the final shared recognition.",
+      "replacements_reviewed": 3,
+      "source_sha256": "6aadc9f1bf3eca194182c966f0d9bc8f6dea3c7b67aaeaf85f718ec9039c15f4"
+    },
+    {
+      "pairing": "outlaw-caregiver",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The only edited paragraph still connects staying open and soft drinks to lost licence/power under I like to think. Strength versus what remains after it runs out is still explicit. The chosen gentleness, feared insufficiency, soft-drink lead and stay-until-morning proposal are unchanged.",
+      "replacements_reviewed": 1,
+      "source_sha256": "883acf6fedc0a8a8a4554f2f566e0fbd5b78136a7ea2622349e169612f3b925b"
+    },
+    {
+      "pairing": "outlaw-creator",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Admission-as-ownership fear and doubt about forbidden quality survive alongside the gift of showing better before permission. The proposal still removes an enemy, invites formerly unwanted approval and preserves authorship. No Glenlivet attribution or drink claim changes.",
+      "replacements_reviewed": 2,
+      "source_sha256": "47b97aeb175ee56aa863530fb7378475e2a2aa72fec8f3ff87c2c2ea2ebf8f3f"
+    },
+    {
+      "pairing": "outlaw-explorer",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The three specific adventure scenes survive their joined sentence. The invitations remain explicitly unknown and imagined as purposeful, and choice of authority remains the point of the Kirke comparison. Reclaiming one unchosen life-plan piece, making the decision public and the bartender's wish for the long life remain concrete.",
+      "replacements_reviewed": 3,
+      "source_sha256": "7a915684982ccd324b0f13be9e0f475943edc34ecead778a68c9f405993ae9cc"
+    },
+    {
+      "pairing": "outlaw-hero",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The helplessness of waiting through channels and the private relief from costly action remain. Quiet individual fixes still deliver a real escape from rules, while tomorrow's next affected person remains the unresolved cost. The non-drinker, unknown arrest mechanism, equal-spirit drink and public-rule proposal are unchanged.",
+      "replacements_reviewed": 2,
+      "source_sha256": "d3e8efe7cb85caf0ae8f18399c25b941a5144086a313300d9dbc6a0c194e1856"
+    },
+    {
+      "pairing": "outlaw-innocent",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The old promise and unnoticed gradual self-change through one's own good reasons retain their force. Showing the love protected by refusal still precedes an argument, remains a tendency rather than a guarantee, and makes the guest known for love too. All monks' stated reasons and inference markers stay unchanged.",
+      "replacements_reviewed": 2,
+      "source_sha256": "b743463c7171480140d1d533ad2f9471ab59cb9577de71452401f13e888cd8fe"
+    },
+    {
+      "pairing": "outlaw-jester",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The shortened gift paragraph still says authority becomes ordinary, less frightening, and gives people nerve. Chosen aim, never punching down, sincerity kept secret and dread of a borrowed emptied line all remain. The lime rewrite only gives the already-squeezed-and-dropped lime a full sentence.",
+      "replacements_reviewed": 2,
+      "source_sha256": "81dd55a6bf6b8cf58c2bcf783cbd7090aba69b4bd4a32452e98c0c807d062847"
+    },
+    {
+      "pairing": "outlaw-lover",
+      "verdict": "pass",
+      "findings": [],
+      "note": "All three decisive scenes, usually-against-advice scope and love-as-way-out survive. The proposal retains the conditional leave-if-controlled and chosen-place stop, replacing the two definitions with the same freedom to stay. The mine/bay/wine mechanism and qualified chosen-stopping image are unchanged.",
+      "replacements_reviewed": 2,
+      "source_sha256": "8c70d21dc9a8bfa8ffc24a1aaee170b93f1c411a3d5638c073f3f36d7cbc6d60"
+    },
+    {
+      "pairing": "outlaw-magician",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Only loved things are broken, grief is private for fear of an apparent apology, and polite lifeless continuation remains the fear. Letting others rebuild still permits the old shape to return without betraying the break's purpose. Both Gaja reasons and the later children's return remain intact.",
+      "replacements_reviewed": 2,
+      "source_sha256": "8bcfd4eb763b74b9e725de97f9a5586e5dc1404c321cbf72c69a1160d633e25c"
+    },
+    {
+      "pairing": "outlaw-regular-guy",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The unwritten non-negotiable limit, concealment because it would sound soft, and reliable safety/standing remain. The proposal still exposes it to a trusted person's equal accountability and turns it into a given word. Removing the opaque cost sentence adds no obligation or changed boundary.",
+      "replacements_reviewed": 2,
+      "source_sha256": "76a41ff9b7cc83cf1bc396293f2cc113ec97d2c2691ff4298de83969d7837193"
+    },
+    {
+      "pairing": "outlaw-ruler",
+      "verdict": "pass",
+      "findings": [],
+      "note": "The rebel appearance still conceals steering because control sounds contrary to the movement; feared takeover and smoothing remain. All 2010/forty-five/thirteen/2026 details, ownership scope and rye attribution survive. The limited steering motive is kept entirely in I like to think, and the next idea remains the handover's gain.",
+      "replacements_reviewed": 3,
+      "source_sha256": "7c5c4c67f74b2de86780e4e7471daa8f023c540909390a78e3a7b5e39815687e"
+    },
+    {
+      "pairing": "outlaw-sage",
+      "verdict": "pass",
+      "findings": [],
+      "note": "Private agreement and deliberate testing remain beside the shielded actual view and fear of dismissed questions. The gift is still concrete preparedness for a boss's objection; the removed unlimited-survival boast adds no meaning. The proposal keeps a loved view, exact quoted defence and the qualified chance for one's own ideas to survive.",
+      "replacements_reviewed": 3,
+      "source_sha256": "416939bb23c458fc2fee2cab29b6c7c15b632b52eef7bfd81d74e37059155767"
+    }
+  ]
+}

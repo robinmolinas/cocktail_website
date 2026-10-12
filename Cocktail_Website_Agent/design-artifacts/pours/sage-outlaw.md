@@ -14,6 +14,7 @@ authored_in: the room, 2026-10-02 (batch sage)
 
 - **name:** On the Record
 - **tagline:** You say what you've found, and give the next person courage to say it too.
+- **words:** Luscious · Fruity · Tannic
 - **glassware:** small stemmed port glass (about 150 ml), chilled, no ice
 - **contains:** `[]`
 
@@ -72,7 +73,7 @@ And often, later, someone finds you, a little quietly, to say they'd wondered th
 
 4. So the cocktail I've made for you is port, twice. It's stirred and served like a Martini, with port where the gin would be: first a short measure of young ruby, fresh and fruity, then twice as much tawny, a blend of wines from several years. The same kind of wine, said again at greater length, as a nod to the way he kept saying it. Port tends to be sweet, and rather than add anything to make it go down easier, I dried it with strong, cold black tea. On the flavour chart I work from, port and tea sit in the same family of aromas. Orange oil goes on top, and it's served with no ice, in a small, chilled port glass.
 
-5. Let me leave you with this. When a room goes cold on you, it's tempting to read it as an answer. On bad nights it feels like proof you're wrong. On good ones, like proof you're right. It's neither. Forrester was attacked by the people with a stake and backed by the people of the wine country, and neither of those settled whether he was right. So the next time it goes quiet, let it, and go back to what you found. If it's still there, say it again, with more of it. And if one day it isn't, you'll be the one who says so, out loud. That's exactly why people can trust what you tell them.
+5. When a room goes cold on you, it's tempting to read it as an answer. On bad nights it feels like proof you're wrong. On good ones, like proof you're right. It's neither. Forrester was attacked by the people with a stake and backed by the people of the wine country, and neither of those settled whether he was right. So the next time it goes quiet, let it, and go back to what you found. If it's still there, say it again, with more of it. And if one day it isn't, you'll be the one who says so, out loud. That's exactly why people can trust what you tell them.
 
 ---
 

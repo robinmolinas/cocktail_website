@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch hero)
 
 - **name:** Dressed for It
 - **tagline:** You keep life's small rituals steady when everything else gives way.
+- **words:** Bracing · Citrusy · Dry
 - **glassware:** small stemmed wine glass (about 200 ml), chilled, fine sugar on the outside of the rim, lined inside with a collar of lemon peel, no ice
 - **contains:** `[]`
 

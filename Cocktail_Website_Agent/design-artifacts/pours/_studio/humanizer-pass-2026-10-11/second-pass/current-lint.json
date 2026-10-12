@@ -1,0 +1,1271 @@
+{
+  "caregiver-creator": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'himself': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with sage-creator: you've cared for them"
+    ]
+  },
+  "caregiver-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with outlaw-innocent: strip of lemon peel"
+    ]
+  },
+  "caregiver-hero": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-sage: you'd rather be the",
+      "motif overlap with creator-magician: nobody sees that part",
+      "motif overlap with innocent-ruler: in we don't know",
+      "motif overlap with regular-guy-jester: and it's the surest",
+      "motif overlap with ruler-caregiver: by the time anyone; the time anyone else"
+    ]
+  },
+  "caregiver-innocent": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with magician-creator: nobody thinks to ask",
+      "motif overlap with ruler-explorer: the people who love",
+      "motif overlap with ruler-hero: we don't know what"
+    ]
+  },
+  "caregiver-jester": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with sage-lover: keep it to yourself"
+    ]
+  },
+  "caregiver-lover": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with creator-caregiver: when someone you love"
+    ]
+  },
+  "caregiver-magician": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "caregiver-outlaw": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "[yours 5] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "motif overlap with explorer-regular-guy: in a tall glass"
+    ]
+  },
+  "caregiver-regular-guy": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with creator-explorer: making it the way"
+    ]
+  },
+  "caregiver-ruler": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with creator-caregiver: where they can see",
+      "motif overlap with sage-regular-guy: say out loud that"
+    ]
+  },
+  "caregiver-sage": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-hero: you'd rather be the",
+      "motif overlap with creator-explorer: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails",
+      "motif overlap with innocent-creator: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails",
+      "motif overlap with outlaw-sage: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails",
+      "motif overlap with sage-hero: by the late s"
+    ]
+  },
+  "creator-caregiver": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-lover: when someone you love",
+      "motif overlap with caregiver-ruler: where they can see"
+    ]
+  },
+  "creator-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 5] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-regular-guy: making it the way",
+      "motif overlap with caregiver-sage: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails",
+      "motif overlap with creator-jester: and sugar shaken with",
+      "motif overlap with explorer-regular-guy: to make their own",
+      "motif overlap with innocent-creator: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails",
+      "motif overlap with outlaw-sage: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails"
+    ]
+  },
+  "creator-hero": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "creator-innocent": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with explorer-hero: you'd recognise those years",
+      "motif overlap with regular-guy-explorer: because you like it; simply because you like"
+    ]
+  },
+  "creator-jester": {
+    "errors": [],
+    "warnings": [
+      "motif overlap with creator-explorer: and sugar shaken with"
+    ]
+  },
+  "creator-lover": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] jargon 'louche': explained in plain words?",
+      "[yours 4] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "motif overlap with hero-innocent: it matters so much; why it matters so"
+    ]
+  },
+  "creator-magician": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 5] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-hero: nobody sees that part",
+      "motif overlap with regular-guy-jester: it's why you can"
+    ]
+  },
+  "creator-outlaw": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with jester-caregiver: you keep to yourself",
+      "motif overlap with magician-sage: you give people the",
+      "motif overlap with outlaw-innocent: lemon peel squeezed over"
+    ]
+  },
+  "creator-regular-guy": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "creator-ruler": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'hers': fine for a historical person, never for the guest",
+      "motif overlap with outlaw-hero: you can't bear to",
+      "motif overlap with ruler-lover: keep coming back to"
+    ]
+  },
+  "creator-sage": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with explorer-lover: half a teaspoon of"
+    ]
+  },
+  "explorer-caregiver": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "explorer-creator": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with explorer-outlaw: you know that feeling",
+      "motif overlap with explorer-ruler: hear yourself say it",
+      "motif overlap with hero-ruler: just half a teaspoon",
+      "motif overlap with jester-creator: let it go you",
+      "motif overlap with outlaw-jester: keep quiet about how; one day you'll hear; you keep quiet about",
+      "motif overlap with regular-guy-explorer: you keep quiet about",
+      "motif overlap with sage-jester: you find a way"
+    ]
+  },
+  "explorer-hero": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'himself': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with creator-innocent: you'd recognise those years",
+      "motif overlap with explorer-jester: make it sound like",
+      "motif overlap with lover-hero: in front of everyone",
+      "motif overlap with sage-jester: in front of everyone"
+    ]
+  },
+  "explorer-innocent": {
+    "errors": [],
+    "warnings": [
+      "tagline over 14 words",
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "explorer-jester": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with explorer-hero: make it sound like"
+    ]
+  },
+  "explorer-lover": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with creator-sage: half a teaspoon of"
+    ]
+  },
+  "explorer-magician": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "explorer-outlaw": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with explorer-creator: you know that feeling",
+      "motif overlap with outlaw-hero: you'd never say so"
+    ]
+  },
+  "explorer-regular-guy": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-outlaw: in a tall glass",
+      "motif overlap with creator-explorer: to make their own",
+      "motif overlap with magician-regular-guy: that's what you give"
+    ]
+  },
+  "explorer-ruler": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "motif overlap with explorer-creator: hear yourself say it"
+    ]
+  },
+  "explorer-sage": {
+    "errors": [],
+    "warnings": [
+      "[closingLine] jargon 'falernum': explained in plain words?",
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] jargon 'falernum': explained in plain words?",
+      "[yours 5] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[method 1] jargon 'falernum': explained in plain words?",
+      "[recipe note] jargon 'falernum': explained in plain words?"
+    ]
+  },
+  "hero-caregiver": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "hero-creator": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "hero-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "motif overlap with hero-innocent: you dread is being",
+      "motif overlap with lover-outlaw: you dread is being",
+      "motif overlap with lover-regular-guy: that's worth more than"
+    ]
+  },
+  "hero-innocent": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'himself': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with creator-lover: it matters so much; why it matters so",
+      "motif overlap with hero-explorer: you dread is being",
+      "motif overlap with lover-outlaw: you dread is being"
+    ]
+  },
+  "hero-jester": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "hero-lover": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 5] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "hero-magician": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with magician-jester: cr me de cacao",
+      "motif overlap with ruler-jester: a joke that lands"
+    ]
+  },
+  "hero-outlaw": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 2] jargon 'amaro': explained in plain words?",
+      "[yours 3] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "motif overlap with innocent-lover: spoon and a half",
+      "motif overlap with jester-regular-guy: do much the same"
+    ]
+  },
+  "hero-regular-guy": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with lover-explorer: you're afraid of being",
+      "motif overlap with regular-guy-innocent: you're afraid of being"
+    ]
+  },
+  "hero-ruler": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with explorer-creator: just half a teaspoon"
+    ]
+  },
+  "hero-sage": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with magician-innocent: then there's the name"
+    ]
+  },
+  "innocent-caregiver": {
+    "errors": [],
+    "warnings": []
+  },
+  "innocent-creator": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-sage: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails",
+      "motif overlap with creator-explorer: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails",
+      "motif overlap with outlaw-sage: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails"
+    ]
+  },
+  "innocent-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "innocent-hero": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "innocent-jester": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] jargon 'amaro': explained in plain words?",
+      "motif overlap with sage-creator: you'll have given them"
+    ]
+  },
+  "innocent-lover": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with hero-outlaw: spoon and a half"
+    ]
+  },
+  "innocent-magician": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "motif overlap with outlaw-innocent: before there's anything to"
+    ]
+  },
+  "innocent-outlaw": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "innocent-regular-guy": {
+    "errors": [],
+    "warnings": []
+  },
+  "innocent-ruler": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-hero: in we don't know",
+      "motif overlap with outlaw-caregiver: we don't know which"
+    ]
+  },
+  "innocent-sage": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "jester-caregiver": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "motif overlap with creator-outlaw: you keep to yourself"
+    ]
+  },
+  "jester-creator": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] jargon 'orgeat': explained in plain words?",
+      "[method 2] jargon 'orgeat': explained in plain words?",
+      "motif overlap with explorer-creator: let it go you"
+    ]
+  },
+  "jester-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with regular-guy-magician: stay in the room",
+      "motif overlap with sage-jester: and take it home"
+    ]
+  },
+  "jester-hero": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'himself': fine for a historical person, never for the guest"
+    ]
+  },
+  "jester-innocent": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "jester-lover": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with regular-guy-magician: let them keep their",
+      "motif overlap with ruler-lover: soon let someone else"
+    ]
+  },
+  "jester-magician": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "jester-outlaw": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "jester-regular-guy": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with hero-outlaw: do much the same"
+    ]
+  },
+  "jester-ruler": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "jester-sage": {
+    "errors": [],
+    "warnings": [
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'him': fine for a historical person, never for the guest"
+    ]
+  },
+  "lover-caregiver": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "lover-creator": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "lover-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with hero-regular-guy: you're afraid of being",
+      "motif overlap with regular-guy-innocent: you're afraid of being"
+    ]
+  },
+  "lover-hero": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "motif overlap with explorer-hero: in front of everyone",
+      "motif overlap with lover-regular-guy: people you love never; the people you love",
+      "motif overlap with regular-guy-creator: the people you love",
+      "motif overlap with sage-jester: in front of everyone"
+    ]
+  },
+  "lover-innocent": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "motif overlap with regular-guy-innocent: you've heard all the",
+      "motif overlap with sage-hero: we don't know how"
+    ]
+  },
+  "lover-jester": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "lover-magician": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with lover-sage: some point you decided",
+      "motif overlap with ruler-caregiver: what it feels like",
+      "motif overlap with ruler-innocent: the drink comes out",
+      "motif overlap with ruler-regular-guy: right you give them",
+      "motif overlap with sage-explorer: and still want to"
+    ]
+  },
+  "lover-outlaw": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with hero-explorer: you dread is being",
+      "motif overlap with hero-innocent: you dread is being",
+      "motif overlap with outlaw-innocent: get to be known"
+    ]
+  },
+  "lover-regular-guy": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with hero-explorer: that's worth more than",
+      "motif overlap with lover-hero: people you love never; the people you love",
+      "motif overlap with regular-guy-creator: the people you love"
+    ]
+  },
+  "lover-ruler": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'her': fine for a historical person, never for the guest"
+    ]
+  },
+  "lover-sage": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "motif overlap with lover-magician: some point you decided"
+    ]
+  },
+  "magician-caregiver": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'she': fine for a historical person, never for the guest"
+    ]
+  },
+  "magician-creator": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-innocent: nobody thinks to ask",
+      "motif overlap with sage-outlaw: you come back with"
+    ]
+  },
+  "magician-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "magician-hero": {
+    "errors": [],
+    "warnings": []
+  },
+  "magician-innocent": {
+    "errors": [],
+    "warnings": [
+      "[epigraph] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with hero-sage: then there's the name"
+    ]
+  },
+  "magician-jester": {
+    "errors": [],
+    "warnings": [
+      "motif overlap with hero-magician: cr me de cacao",
+      "motif overlap with ruler-magician: you want people to",
+      "motif overlap with sage-magician: want people to see; you want people to"
+    ]
+  },
+  "magician-lover": {
+    "errors": [],
+    "warnings": [
+      "motif overlap with regular-guy-explorer: as everyone else does",
+      "motif overlap with sage-innocent: you give people that"
+    ]
+  },
+  "magician-outlaw": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "magician-regular-guy": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with explorer-regular-guy: that's what you give",
+      "motif overlap with sage-regular-guy: rarely say how much; say how much that",
+      "motif overlap with sage-ruler: we don't know why"
+    ]
+  },
+  "magician-ruler": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "magician-sage": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'she': fine for a historical person, never for the guest",
+      "motif overlap with creator-outlaw: you give people the"
+    ]
+  },
+  "outlaw-caregiver": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with innocent-ruler: we don't know which"
+    ]
+  },
+  "outlaw-creator": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "outlaw-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "outlaw-hero": {
+    "errors": [],
+    "warnings": [
+      "[epigraph] gendered pronoun 'himself': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'himself': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'himself': fine for a historical person, never for the guest",
+      "motif overlap with creator-ruler: you can't bear to",
+      "motif overlap with explorer-outlaw: you'd never say so"
+    ]
+  },
+  "outlaw-innocent": {
+    "errors": [],
+    "warnings": [
+      "motif overlap with caregiver-explorer: strip of lemon peel",
+      "motif overlap with creator-outlaw: lemon peel squeezed over",
+      "motif overlap with innocent-magician: before there's anything to",
+      "motif overlap with lover-outlaw: get to be known"
+    ]
+  },
+  "outlaw-jester": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with explorer-creator: keep quiet about how; one day you'll hear; you keep quiet about",
+      "motif overlap with regular-guy-explorer: you keep quiet about",
+      "motif overlap with regular-guy-outlaw: a telling off you"
+    ]
+  },
+  "outlaw-lover": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "outlaw-magician": {
+    "errors": [],
+    "warnings": [
+      "[epigraph] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "outlaw-regular-guy": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with regular-guy-lover: keep that to yourself"
+    ]
+  },
+  "outlaw-ruler": {
+    "errors": [],
+    "warnings": [
+      "[epigraph] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "outlaw-sage": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-sage: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails",
+      "motif overlap with creator-explorer: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails",
+      "motif overlap with innocent-creator: companion to spirits and; oxford companion to spirits; the oxford companion to; to spirits and cocktails",
+      "motif overlap with sage-magician: a better way to"
+    ]
+  },
+  "regular-guy-caregiver": {
+    "errors": [],
+    "warnings": []
+  },
+  "regular-guy-creator": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with lover-hero: the people you love",
+      "motif overlap with lover-regular-guy: the people you love",
+      "motif overlap with regular-guy-ruler: doesn't have to make",
+      "motif overlap with ruler-magician: and change the subject"
+    ]
+  },
+  "regular-guy-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 5] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with creator-innocent: because you like it; simply because you like",
+      "motif overlap with explorer-creator: you keep quiet about",
+      "motif overlap with magician-lover: as everyone else does",
+      "motif overlap with outlaw-jester: you keep quiet about"
+    ]
+  },
+  "regular-guy-hero": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest"
+    ]
+  },
+  "regular-guy-innocent": {
+    "errors": [],
+    "warnings": [
+      "motif overlap with hero-regular-guy: you're afraid of being",
+      "motif overlap with lover-explorer: you're afraid of being",
+      "motif overlap with lover-innocent: you've heard all the"
+    ]
+  },
+  "regular-guy-jester": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'her': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-hero: and it's the surest",
+      "motif overlap with creator-magician: it's why you can"
+    ]
+  },
+  "regular-guy-lover": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 5] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with outlaw-regular-guy: keep that to yourself"
+    ]
+  },
+  "regular-guy-magician": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with jester-explorer: stay in the room",
+      "motif overlap with jester-lover: let them keep their",
+      "motif overlap with sage-creator: enjoy the evening without"
+    ]
+  },
+  "regular-guy-outlaw": {
+    "errors": [],
+    "warnings": [
+      "[epigraph] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with outlaw-jester: a telling off you"
+    ]
+  },
+  "regular-guy-ruler": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with regular-guy-creator: doesn't have to make",
+      "motif overlap with ruler-magician: you'd rather not admit"
+    ]
+  },
+  "regular-guy-sage": {
+    "errors": [],
+    "warnings": []
+  },
+  "ruler-caregiver": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-hero: by the time anyone; the time anyone else",
+      "motif overlap with lover-magician: what it feels like",
+      "motif overlap with ruler-lover: you keep the effort",
+      "motif overlap with sage-outlaw: in the wrong way; quiet in the wrong"
+    ]
+  },
+  "ruler-creator": {
+    "errors": [],
+    "warnings": [
+      "tagline over 14 words",
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest"
+    ]
+  },
+  "ruler-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-innocent: the people who love",
+      "motif overlap with sage-outlaw: his own name to"
+    ]
+  },
+  "ruler-hero": {
+    "errors": [],
+    "warnings": [
+      "[epigraph] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-innocent: we don't know what",
+      "motif overlap with sage-hero: you carry it quietly; you get to stop"
+    ]
+  },
+  "ruler-innocent": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'himself': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with lover-magician: the drink comes out"
+    ]
+  },
+  "ruler-jester": {
+    "errors": [],
+    "warnings": [
+      "motif overlap with hero-magician: a joke that lands",
+      "motif overlap with ruler-outlaw: admit how much you"
+    ]
+  },
+  "ruler-lover": {
+    "errors": [],
+    "warnings": [
+      "[epigraph] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with creator-ruler: keep coming back to",
+      "motif overlap with jester-lover: soon let someone else",
+      "motif overlap with ruler-caregiver: you keep the effort"
+    ]
+  },
+  "ruler-magician": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with magician-jester: you want people to",
+      "motif overlap with regular-guy-creator: and change the subject",
+      "motif overlap with regular-guy-ruler: you'd rather not admit",
+      "motif overlap with sage-magician: lie awake thinking of; you lie awake thinking; you want people to"
+    ]
+  },
+  "ruler-outlaw": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with ruler-jester: admit how much you"
+    ]
+  },
+  "ruler-regular-guy": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with lover-magician: right you give them",
+      "motif overlap with sage-lover: you'll be able to"
+    ]
+  },
+  "ruler-sage": {
+    "errors": [],
+    "warnings": []
+  },
+  "sage-caregiver": {
+    "errors": [],
+    "warnings": [
+      "tagline over 14 words",
+      "[yours 1] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with sage-hero: don't know if he; we don't know if",
+      "motif overlap with sage-outlaw: you couldn't live with"
+    ]
+  },
+  "sage-creator": {
+    "errors": [],
+    "warnings": [
+      "motif overlap with caregiver-creator: you've cared for them",
+      "motif overlap with innocent-jester: you'll have given them",
+      "motif overlap with regular-guy-magician: enjoy the evening without",
+      "motif overlap with sage-regular-guy: while everyone else was"
+    ]
+  },
+  "sage-explorer": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "motif overlap with lover-magician: and still want to",
+      "motif overlap with sage-regular-guy: you let it go"
+    ]
+  },
+  "sage-hero": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'himself': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-sage: by the late s",
+      "motif overlap with lover-innocent: we don't know how",
+      "motif overlap with ruler-hero: you carry it quietly; you get to stop",
+      "motif overlap with sage-caregiver: don't know if he; we don't know if"
+    ]
+  },
+  "sage-innocent": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 5] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with magician-lover: you give people that"
+    ]
+  },
+  "sage-jester": {
+    "errors": [],
+    "warnings": [
+      "motif overlap with explorer-creator: you find a way",
+      "motif overlap with explorer-hero: in front of everyone",
+      "motif overlap with jester-explorer: and take it home",
+      "motif overlap with lover-hero: in front of everyone"
+    ]
+  },
+  "sage-lover": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-jester: keep it to yourself",
+      "motif overlap with ruler-regular-guy: you'll be able to"
+    ]
+  },
+  "sage-magician": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with magician-jester: want people to see; you want people to",
+      "motif overlap with outlaw-sage: a better way to",
+      "motif overlap with ruler-magician: lie awake thinking of; you lie awake thinking; you want people to"
+    ]
+  },
+  "sage-outlaw": {
+    "errors": [],
+    "warnings": [
+      "tagline over 14 words",
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 5] gendered pronoun 'him': fine for a historical person, never for the guest",
+      "motif overlap with magician-creator: you come back with",
+      "motif overlap with ruler-caregiver: in the wrong way; quiet in the wrong",
+      "motif overlap with ruler-explorer: his own name to",
+      "motif overlap with sage-caregiver: you couldn't live with"
+    ]
+  },
+  "sage-regular-guy": {
+    "errors": [],
+    "warnings": [
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "motif overlap with caregiver-ruler: say out loud that",
+      "motif overlap with magician-regular-guy: rarely say how much; say how much that",
+      "motif overlap with sage-creator: while everyone else was",
+      "motif overlap with sage-explorer: you let it go"
+    ]
+  },
+  "sage-ruler": {
+    "errors": [],
+    "warnings": [
+      "[yours 1] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 2] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "[yours 3] gendered pronoun 'he': fine for a historical person, never for the guest",
+      "[yours 4] gendered pronoun 'his': fine for a historical person, never for the guest",
+      "motif overlap with magician-regular-guy: we don't know why"
+    ]
+  }
+}

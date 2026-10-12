@@ -1,0 +1,505 @@
+[
+  {
+    "pairing": "regular-guy-caregiver",
+    "decision": "retained",
+    "reason": "The suspended coffee, lost espresso texture and missed strangers make the generosity and its cost specific. The contrasts distinguish recognition from charity and preserve the sourced scholar's interpretation.",
+    "preserved_voice": [
+      "Most people pick up a knack from living among strangers: looking through someone.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "regular-guy-creator",
+    "decision": "edited",
+    "reason": "State the actual wish and correction without announcing a truth or scolding the guest.",
+    "preserved_voice": [
+      "There's something you're good at that doesn't match the picture people have of you.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "The truth is, you want both. And you've got one thing wrong: when it shows, nobody you love thinks you've got above yourself.",
+        "after": "You want both. When it shows, nobody you love thinks you've got above yourself.",
+        "reason": "State the actual wish and correction without announcing a truth or scolding the guest."
+      }
+    ]
+  },
+  {
+    "pairing": "regular-guy-explorer",
+    "decision": "retained",
+    "reason": "The freedom/community tension and tight-bottom, loose-top drink mechanic are interdependent. The final correction answers the guest's real fear of losing independence.",
+    "preserved_voice": [
+      "You started something of your own.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "regular-guy-hero",
+    "decision": "edited",
+    "reason": "The shared achievement states the gift; the introduction only grades its importance.",
+    "preserved_voice": [
+      "Someone says it in the pub, on the doorstep or in the group chat: somebody really ought to do something about it.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "It counts for more than you know: what was everyone's complaint becomes something they did together.",
+        "after": "What was everyone's complaint becomes something they did together.",
+        "reason": "The shared achievement states the gift; the introduction only grades its importance."
+      }
+    ]
+  },
+  {
+    "pairing": "regular-guy-innocent",
+    "decision": "edited",
+    "reason": "Keep the explicit gift and remove the announcement of its worth.",
+    "preserved_voice": [
+      "At the wedding with seven courses and a little card for each, what you remember is the bread.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "It's worth more than it looks: with you there, people can stop performing and just enjoy it.",
+        "after": "With you there, people can stop performing and just enjoy it.",
+        "reason": "Keep the explicit gift and remove the announcement of its worth."
+      }
+    ]
+  },
+  {
+    "pairing": "regular-guy-jester",
+    "decision": "edited",
+    "reason": "Say the gift directly; the surrounding sentences still name belonging and its lasting value.",
+    "preserved_voice": [
+      "You don't play jokes on just anyone.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "Here's what you give, and it should be said plainly: a stranger leaves with a story that makes them one of you.",
+        "after": "A stranger leaves with a story that makes them one of you.",
+        "reason": "Say the gift directly; the surrounding sentences still name belonging and its lasting value."
+      }
+    ]
+  },
+  {
+    "pairing": "regular-guy-lover",
+    "decision": "edited",
+    "reason": "Let the surprising fact carry the reveal without announcing the twist.",
+    "preserved_voice": [
+      "Half past eight on a Friday, your phone lights up: \"free tonight?\" You know what it means.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "yours 2",
+        "before": "2. And here's the twist. Chicago's answer to New England was made with New England rum,",
+        "after": "2. Chicago's answer to New England was made with New England rum,",
+        "reason": "Let the surprising fact carry the reveal without announcing the twist."
+      }
+    ]
+  },
+  {
+    "pairing": "regular-guy-magician",
+    "decision": "edited",
+    "reason": "Move straight into the specific scene that reveals the hidden insecurity.",
+    "preserved_voice": [
+      "Someone's lamp has died, or the zip's gone on a coat, and they're already saying it's had its day.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "Quieter, though, is this. At a party where nothing's broken,",
+        "after": "At a party where nothing's broken,",
+        "reason": "Move straight into the specific scene that reveals the hidden insecurity."
+      }
+    ]
+  },
+  {
+    "pairing": "regular-guy-outlaw",
+    "decision": "edited",
+    "reason": "Keep both the gift and its lack of recognition while removing the staged announcement.",
+    "preserved_voice": [
+      "It's ten past ten, and the kitchen closed at ten.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "And here's what you never get credit for. When a rule bends for you, it bends for everyone you came with.",
+        "after": "When a rule bends for you, it bends for everyone you came with, though you never get credit for it.",
+        "reason": "Keep both the gift and its lack of recognition while removing the staged announcement."
+      }
+    ]
+  },
+  {
+    "pairing": "regular-guy-ruler",
+    "decision": "retained",
+    "reason": "The ordinary appeals, insider knowledge and seat at the counter carry the motive clearly. The measured-lime distinction is a concrete drink mechanism, and the closing appreciation is warm in this context.",
+    "preserved_voice": [
+      "Your neighbour's parking fine came back cancelled, because you knew which sentence the appeal needed.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "regular-guy-sage",
+    "decision": "edited",
+    "reason": "The following sentence already says some advice was quietly discarded and why the guest does not say so.",
+    "preserved_voice": [
+      "A friend starts a new job tomorrow and is sure they'll get it all wrong.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "Here's the bit you don't say: you didn't hold on to all of it. Some of what you were told turned out to be wrong,",
+        "after": "Some of what you were told turned out to be wrong,",
+        "reason": "The following sentence already says some advice was quietly discarded and why the guest does not say so."
+      }
+    ]
+  },
+  {
+    "pairing": "ruler-caregiver",
+    "decision": "edited",
+    "reason": "Keep the specific benefit of being heard; remove the generic valuation before it.",
+    "preserved_voice": [
+      "You hear it before anyone else does.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "It matters more than you think: people say the real thing around you, because they're sure you'll hear all of it.",
+        "after": "People say the real thing around you, because they're sure you'll hear all of it.",
+        "reason": "Keep the specific benefit of being heard; remove the generic valuation before it."
+      }
+    ]
+  },
+  {
+    "pairing": "ruler-creator",
+    "decision": "edited",
+    "reason": "The teacher's quoted lesson already carries the narrator's interest; retain the attribution and the guest-first contrast.",
+    "preserved_voice": [
+      "You notice the thing that's slightly off.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "yours 2",
+        "before": "2. Here's the part I love. The way Collins remembers it,",
+        "after": "2. The way Collins remembers it,",
+        "reason": "The teacher's quoted lesson already carries the narrator's interest; retain the attribution and the guest-first contrast."
+      }
+    ]
+  },
+  {
+    "pairing": "ruler-explorer",
+    "decision": "edited",
+    "reason": "Preserve the hidden affection and comparison while stating them directly.; Remove the announcement before the existing concrete request; keep its rationale and the invitation to enjoy the place.",
+    "preserved_voice": [
+      "Every summer there's the same street party, and every summer a few more people find a reason to miss it.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "Here's the part nobody guesses: you love the old version more than the people defending it.",
+        "after": "Nobody guesses that you love the old version more than the people defending it.",
+        "reason": "Preserve the hidden affection and comparison while stating them directly."
+      },
+      {
+        "field": "yours 5",
+        "before": "5. One thing I'd like you to try. You keep the love behind the sensible reasons,",
+        "after": "5. You keep the love behind the sensible reasons,",
+        "reason": "Remove the announcement before the existing concrete request; keep its rationale and the invitation to enjoy the place."
+      }
+    ]
+  },
+  {
+    "pairing": "ruler-hero",
+    "decision": "edited",
+    "reason": "Start on the actual situation and instruction; keep the promise's cost and the chance to be thanked.",
+    "preserved_voice": [
+      "When you tell people there's a place for them, they stop worrying.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "yours 5",
+        "before": "5. One request, then. When keeping a promise costs you something,",
+        "after": "5. When keeping a promise costs you something,",
+        "reason": "Start on the actual situation and instruction; keep the promise's cost and the chance to be thanked."
+      }
+    ]
+  },
+  {
+    "pairing": "ruler-innocent",
+    "decision": "edited",
+    "reason": "The next sentence states exactly what everyone gains; keep its explicit appreciation and warm final line.",
+    "preserved_voice": [
+      "You walk in and you know at once.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "So here's what your asking gives. Because you said something,",
+        "after": "Because you said something,",
+        "reason": "The next sentence states exactly what everyone gains; keep its explicit appreciation and warm final line."
+      }
+    ]
+  },
+  {
+    "pairing": "ruler-jester",
+    "decision": "edited",
+    "reason": "Remove the conversational run-up and keep the full generous proposal and its benefit.",
+    "preserved_voice": [
+      "The last train's cancelled, and there are twelve of you on a cold platform.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "yours 5",
+        "before": "5. Before you go, a thought, and I mean it kindly. Somewhere near you",
+        "after": "5. Somewhere near you",
+        "reason": "Remove the conversational run-up and keep the full generous proposal and its benefit."
+      }
+    ]
+  },
+  {
+    "pairing": "ruler-lover",
+    "decision": "edited",
+    "reason": "State the gift directly while keeping the feeling of being chosen and the confidence to offer something back.",
+    "preserved_voice": [
+      "Someone comes back after a year away, and you ask about the interview they were dreading.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "And this is what your attention gives: people leave feeling they were the one who mattered,",
+        "after": "People leave feeling they were the one who mattered,",
+        "reason": "State the gift directly while keeping the feeling of being chosen and the confidence to offer something back."
+      }
+    ]
+  },
+  {
+    "pairing": "ruler-magician",
+    "decision": "retained",
+    "reason": "The quiet stretches, circles and stars, and acid-adjusted orange form a precise connection. The proposal's contrast answers the guest's belief that only a crisis makes them worth hearing.",
+    "preserved_voice": [
+      "On an ordinary day you can seem like too much.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "ruler-outlaw",
+    "decision": "retained",
+    "reason": "The rota, budget and wet Tuesday distinguish governing from rebellion. The ending names the next person's autonomy without erasing the guest's contribution, and both drink components remain explained.",
+    "preserved_voice": [
+      "You were the one who said the old way was finished.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "ruler-regular-guy",
+    "decision": "edited",
+    "reason": "Remove a generic proposal announcement; preserve the specific instruction to bring all of yourself.",
+    "preserved_voice": [
+      "A family stops speaking over a seating plan.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "yours 5",
+        "before": "5. One thing, though. When you go over to the other side,",
+        "after": "5. When you go over to the other side,",
+        "reason": "Remove a generic proposal announcement; preserve the specific instruction to bring all of yourself."
+      }
+    ]
+  },
+  {
+    "pairing": "ruler-sage",
+    "decision": "edited",
+    "reason": "The surprising return call is clear without announcing that it is odd.",
+    "preserved_voice": [
+      "Two friends fall out, and sooner or later each of them tells you their side.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "And here's the odd part: when trouble comes round again,",
+        "after": "When trouble comes round again,",
+        "reason": "The surprising return call is clear without announcing that it is odd."
+      }
+    ]
+  },
+  {
+    "pairing": "sage-caregiver",
+    "decision": "retained",
+    "reason": "The proud/slightly-left-behind tension, student's new job and two herb sprigs are earned. The proposal contrasts debt with proof for a concrete reason.",
+    "preserved_voice": [
+      "Someone rings with a decision they can't make and asks what you'd do.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "sage-creator",
+    "decision": "edited",
+    "reason": "The adjacent sentence already explains why the work is unseen, and the following one explicitly calls it care.; Remove the announcement; preserve the specific gaps, air and the bartender's personal experience.",
+    "preserved_voice": [
+      "By the time you say \"that'll work\", you've already watched it fall down a dozen ways.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "They rarely know it, but this is what you give them. Nothing goes wrong,",
+        "after": "Nothing goes wrong,",
+        "reason": "The adjacent sentence already explains why the work is unseen, and the following one explicitly calls it care."
+      },
+      {
+        "field": "yours 5",
+        "before": "5. One thing I'd push you on, though. When it's for people who matter to you,",
+        "after": "5. When it's for people who matter to you,",
+        "reason": "Remove the announcement; preserve the specific gaps, air and the bartender's personal experience."
+      }
+    ]
+  },
+  {
+    "pairing": "sage-explorer",
+    "decision": "retained",
+    "reason": "The love of an idea explains the checking, and every historical qualification matters. The final invitation turns private investigation into shared pleasure without a generic closer.",
+    "preserved_voice": [
+      "Over dinner, a friend explains a lovely theory about how something famous really began.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "sage-hero",
+    "decision": "edited",
+    "reason": "Begin with the actual reassurance and keep all the limitations, lost-piece image and invitation to carry on.",
+    "preserved_voice": [
+      "You turned down the offer everyone said you'd regret.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "yours 5",
+        "before": "5. Now, the thing I'd want you to hear. One day there'll be a trap you don't see.",
+        "after": "5. One day there'll be a trap you don't see.",
+        "reason": "Begin with the actual reassurance and keep all the limitations, lost-piece image and invitation to carry on."
+      }
+    ]
+  },
+  {
+    "pairing": "sage-innocent",
+    "decision": "retained",
+    "reason": "The contrast between being doubted and being patronised is the persona's defining distinction. Biot's quoted words, the two hands and verjus link deserve retention.",
+    "preserved_voice": [
+      "Someone is explaining your own subject to you, slowly, as if to a child.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "sage-jester",
+    "decision": "edited",
+    "reason": "Name the gift directly; retain the next sentence's kindness and difficulty.",
+    "preserved_voice": [
+      "Someone at the table has started to believe their own story.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "whoYouAre",
+        "before": "So here it is, plainly, because it's worth something: you let people be wrong and keep their dignity.",
+        "after": "You let people be wrong and keep their dignity.",
+        "reason": "Name the gift directly; retain the next sentence's kindness and difficulty."
+      }
+    ]
+  },
+  {
+    "pairing": "sage-lover",
+    "decision": "retained",
+    "reason": "The complete pour is explicitly approved by Robin. Its sensory detail, signature contrasts and proposal remain exactly as authored.",
+    "preserved_voice": [
+      "You're a scientist of the senses.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "sage-magician",
+    "decision": "edited",
+    "reason": "Remove staged candour; preserve the costly hesitation, transparent idea and concrete early-sharing proposal.",
+    "preserved_voice": [
+      "You've seen how something could work better: the way the team runs its week, how the family shares out the holidays, the fix a friend has needed for years.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "yours 5",
+        "before": "5. Let me be honest with you about one habit. You keep the next idea back",
+        "after": "5. You keep the next idea back",
+        "reason": "Remove staged candour; preserve the costly hesitation, transparent idea and concrete early-sharing proposal."
+      }
+    ]
+  },
+  {
+    "pairing": "sage-outlaw",
+    "decision": "edited",
+    "reason": "Remove the chat-style send-off and keep the nuanced distinction between reception and evidence.",
+    "preserved_voice": [
+      "You looked into it properly: the figures behind the plan everyone's excited about, the story the family has told for years, the way things have always been done at work.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "yours 5",
+        "before": "5. Let me leave you with this. When a room goes cold on you,",
+        "after": "5. When a room goes cold on you,",
+        "reason": "Remove the chat-style send-off and keep the nuanced distinction between reception and evidence."
+      }
+    ]
+  },
+  {
+    "pairing": "sage-regular-guy",
+    "decision": "retained",
+    "reason": "The heat of the argument, lost names and stone wheel make the selective care specific. The explicitly unspoken gift and the final choice are important to the guest's recognition.",
+    "preserved_voice": [
+      "Two hours into the evening, the table is arguing about something that sounds important: who said what, whose fault it was, what to call it.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": []
+  },
+  {
+    "pairing": "sage-ruler",
+    "decision": "edited",
+    "reason": "Start on the instruction and retain both exact records and the guest's own presence in the notes.",
+    "preserved_voice": [
+      "You know when the boiler was last serviced, what the meter read in March, and how long bread really takes in your oven, not what the packet says.",
+      "Historical claims and qualifiers, sensory detail, explicit gift, drink-to-story connection, and proposal retained."
+    ],
+    "edits": [
+      {
+        "field": "yours 5",
+        "before": "5. A last thought, and it isn't about the numbers. Keep the readings,",
+        "after": "5. Keep the readings,",
+        "reason": "Start on the instruction and retain both exact records and the guest's own presence in the notes."
+      }
+    ]
+  }
+]

@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch ruler)
 
 - **name:** The Long View
 - **tagline:** The worse it gets, the clearer you are.
+- **words:** Radiant · Citrusy · Tart
 - **glassware:** stemmed sour glass (about 240 ml), chilled, no ice
 - **contains:** `[]`
 

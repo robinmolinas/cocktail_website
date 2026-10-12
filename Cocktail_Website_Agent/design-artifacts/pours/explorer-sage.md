@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch explorer)
 
 - **name:** Show Your Working
 - **tagline:** You'll follow a question for years, then share every part of the answer.
+- **words:** Lush · Citrusy · Spiced
 - **glassware:** a tall Zombie glass, filled with crushed ice
 - **contains:** `[]`
 

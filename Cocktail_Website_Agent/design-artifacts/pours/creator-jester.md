@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 
 - **name:** The Other Berry
 - **tagline:** You make people laugh at things they'll never see the same way again.
+- **words:** Sunny · Fruity · Tangy
 - **glassware:** coupe, chilled
 - **contains:** `[]`
 

@@ -1,0 +1,1401 @@
+[
+  {
+    "pairing": "lover-caregiver",
+    "decision": "edited",
+    "reason": "Reworked yours[3], yours[5]. Replace the staged negative and two fragments with one personal observation; preserve the ready-room identification and famous-memory distinction. Join the command fragments and repeated definitions of hoping and asking into a practical invitation, keeping the exact casual phrase and warm wish.",
+    "meaning": {
+      "motive": "Prepare for people as a way of hoping they will come.",
+      "fear": "The ready room with nobody in it, and a direct invitation that can be declined.",
+      "gift": "People feel expected because someone had them in mind before arrival.",
+      "story": "Willard remembered guests and had numbered doors; ready-room motive stays interpreted.",
+      "drink": "Apple Toddy roasted and readied before arrival, with less sugar and Wondrich-attributed brandy.",
+      "proposal": "Ask the specific person plainly and let them hear they were hoped for."
+    },
+    "edits": [
+      {
+        "field": "yours[3]",
+        "before": "3. That's where I see you in him. Not the famous memory. The rooms made ready anyway.",
+        "after": "3. I see you in those rooms made ready anyway, more than in his famous memory.",
+        "reason": "Replace the staged negative and two fragments with one personal observation; preserve the ready-room identification and famous-memory distinction."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. So next time you're getting a room ready, add the one thing you always leave out. Ask. Not \"come by sometime\": the plain sentence, to the person you're hoping will come. Getting ready is how you hope. Asking is how they find out they were hoped for. And I wish you a full house.",
+        "after": "5. Next time you're getting a room ready, ask the person you're hoping will come. Say it plainly, rather than \"come by sometime\". You've already put your hope into the room; let them hear that they were hoped for too. And I wish you a full house.",
+        "reason": "Join the command fragments and repeated definitions of hoping and asking into a practical invitation, keeping the exact casual phrase and warm wish."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Prepare for people as a way of hoping they will come. Fear: The ready room with nobody in it, and a direct invitation that can be declined. Explicit gift: People feel expected because someone had them in mind before arrival.",
+      "story_and_drink": "Preserved: Willard remembered guests and had numbered doors; ready-room motive stays interpreted. Drink: Apple Toddy roasted and readied before arrival, with less sugar and Wondrich-attributed brandy.",
+      "proposal": "Preserved: Ask the specific person plainly and let them hear they were hoped for.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "heater chair and lowered music",
+      "fear of the ready room with nobody in it",
+      "Willard memory story and signposted numbered-room interpretation",
+      "roasted apples ready before the guests",
+      "specific invitation and full-house wish"
+    ]
+  },
+  {
+    "pairing": "lover-creator",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[5]. Ease the tangled opening and repeated abstraction while keeping the unfinished work, safety in inspiration and loneliness of being known as an idea. Replace consecutive negative fragments and the maker/reason slogan with an ordinary invitation to share unfinished work and be known up close; retain the bartender's direct question.",
+    "meaning": {
+      "motive": "Inspire others while privately making work of one's own.",
+      "fear": "Own work judged, or being loved only as someone else's idea.",
+      "gift": "Attention makes people braver and helps them finish their work.",
+      "story": "Murphys as inspiration; Gerald's card and painting show the maker behind the charm.",
+      "drink": "Exact citrus measures, outside sugar rim and mint from the Bailey, joined as the bartender's idea.",
+      "proposal": "Show unfinished work back, to be known as a maker as well as an inspiration."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "You make things too, and there's usually something of yours, half done, that nobody has seen. It's lovely to be someone's reason, and it feels safer than being judged on your own work. But the you in their songs is their idea of you, and an idea is easy to love from a distance. People have made beautiful things out of you. Very few have asked what you're making.",
+        "after": "You make things too. Usually there's something half done that nobody has seen. Being someone's reason is lovely, and feels safer than having your own work judged. But the person in their songs is their idea of you, easy to love from a distance. They've made beautiful things out of you; very few have asked what you're making.",
+        "reason": "Ease the tangled opening and repeated abstraction while keeping the unfinished work, safety in inspiration and loneliness of being known as an idea."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. So when someone shows you what they're working on, show them something of yours back. Not the polished version, and not so they'll praise it: the unfinished one, in your own hand. Let one person see the maker, not the reason. That's how you get known up close. And since hardly anyone asks, I will: what are you making?",
+        "after": "5. When someone shows you what they're working on, show them something unfinished of yours, in your own hand. You don't need to polish it or invite praise. Give them a chance to know the person making it, as well as the person who inspires them. And since hardly anyone asks, I will: what are you making?",
+        "reason": "Replace consecutive negative fragments and the maker/reason slogan with an ordinary invitation to share unfinished work and be known up close; retain the bartender's direct question."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Inspire others while privately making work of one's own. Fear: Own work judged, or being loved only as someone else's idea. Explicit gift: Attention makes people braver and helps them finish their work.",
+      "story_and_drink": "Preserved: Murphys as inspiration; Gerald's card and painting show the maker behind the charm. Drink: Exact citrus measures, outside sugar rim and mint from the Bailey, joined as the bartender's idea.",
+      "proposal": "Preserved: Show unfinished work back, to be known as a maker as well as an inspiration.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "friends showing their unfinished work first",
+      "fear of being loved as someone else's idea",
+      "Gerald Murphy's handwritten card and exact measures",
+      "mint from the Bailey letter, joined as the bartender's idea",
+      "request to show unfinished work and put the maker's name on it"
+    ]
+  },
+  {
+    "pairing": "lover-explorer",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[5]. State the fear once rather than explaining the same ending three ways; preserve the bill contrast, coat, sudden quiet, ride home and partial motive for enjoyment. Give the ending a conversational sequence instead of alternating commands and dramatic fragments; preserve the same motivation, next-date instruction, reassurance and wish.",
+    "meaning": {
+      "motive": "Enjoy life visibly and encourage others to enjoy it.",
+      "fear": "The good night ending and being left in the quiet afterwards.",
+      "gift": "Enjoyment feels safe rather than guilty around the guest.",
+      "story": "Gaige's theatre, wine, cooking, radio and friends' dinners; ending interpretation signposted.",
+      "drink": "Equal vodka and tomato, served up; manzanilla joins his cellar and kitchen.",
+      "proposal": "End one night at its best, say why and name the next night and date."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "It's never the bill you mind. It's the lights coming up. You can feel the end of a good night coming long before anyone reaches for a coat, sometimes right in the middle of the best part, and that's partly why you enjoy things so hard. Nobody's there for the ride home, when everyone goes back to their own lives and the noise stops all at once. The fear under it is a plain one: that when the music stops, you'll be the one left in the quiet. Still, you make enjoying things feel safe, and people remember who did that for them.",
+        "after": "It's the lights coming up that you mind, never the bill. Sometimes you feel a good night ending right in the middle of its best part, long before anyone reaches for a coat. You're afraid of being left in the quiet afterwards, when everyone goes back to their own lives and the noise stops all at once. That's partly why you enjoy things so hard. Nobody's there for the ride home. Still, you make enjoying things feel safe, and people remember who did that for them.",
+        "reason": "State the fear once rather than explaining the same ending three ways; preserve the bill contrast, coat, sudden quiet, ride home and partial motive for enjoyment."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. One night soon, when it's at its very best, the table loud and nobody watching the time, be the one who ends it. Not because you're tired, and not to be sensible. Say it out loud: this was perfect. Then name the next one, and the date. You'll leave on the best note instead of the last one, and you'll find out what happens when the music stops. Nobody vanishes. They ask you when. And may the next one be even better.",
+        "after": "5. One night soon, when it's at its very best, the table loud and nobody watching the time, be the one who ends it. Leave because it was perfect, rather than because you're tired or trying to be sensible. Say so out loud, then name the next night and the date. When the music stops, the people don't vanish; they'll want to know when you're doing it again. You'll have left on the best note instead of the last one. And may the next one be even better.",
+        "reason": "Give the ending a conversational sequence instead of alternating commands and dramatic fragments; preserve the same motivation, next-date instruction, reassurance and wish."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Enjoy life visibly and encourage others to enjoy it. Fear: The good night ending and being left in the quiet afterwards. Explicit gift: Enjoyment feels safe rather than guilty around the guest.",
+      "story_and_drink": "Preserved: Gaige's theatre, wine, cooking, radio and friends' dinners; ending interpretation signposted. Drink: Equal vodka and tomato, served up; manzanilla joins his cellar and kitchen.",
+      "proposal": "Preserved: End one night at its best, say why and name the next night and date.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "cold sea in May and second pudding",
+      "private ride home and fear of the quiet",
+      "Gaige's Skunk Hollow, radio and dinner-menu history",
+      "manzanilla joining his cellar and kitchen",
+      "ending one good night and naming the next date"
+    ]
+  },
+  {
+    "pairing": "lover-hero",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[1], whoYouAre[2]. Connect the arrival, promise and visible love in full sentences, retaining the coat, distance, weekday, whole room and distinction from cards or calls. Simplify the repeated negative proof clauses and tense shift without changing the private doubt or the distinction between need and love.",
+    "meaning": {
+      "motive": "Keep a promise of love through the whole visible journey.",
+      "fear": "Being unneeded mistaken for being unloved, in the second before seeing their face.",
+      "gift": "Loved people know the guest will come, and everyone sees how loved they are.",
+      "story": "Bly's journey, platform self-consciousness, welcome and English wine toast.",
+      "drink": "Bordeaux owned as a choice; rye and warm serving tied to the fire and bareheaded farewell.",
+      "proposal": "Visit someone doing well without help, simply for their company."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "before": "Someone you love says it's a shame you can't make it. It's three hundred miles away, in the middle of the week. You don't argue. On the night, you're there, on time, in your good coat, and the whole room turns round. That's how you love. Not a card, not a call. You said you'd come, so you come, the whole way, with everyone watching. Anyone you love never has to wonder whether you'll be there, and everyone around them can see how loved they are. Nobody forgets being loved like that.",
+        "after": "Someone you love says it's a shame you can't make it. It's three hundred miles away, in the middle of the week. You don't argue. On the night, you're there on time, in your good coat, and the whole room turns round. You've said you'd come, so you make the whole journey and show your love by being there, in front of everyone, rather than sending a card or making a call. The people you love never have to wonder whether you'll turn up, and everyone around them can see how loved they are. Nobody forgets that.",
+        "reason": "Connect the arrival, promise and visible love in full sentences, retaining the coat, distance, weekday, whole room and distinction from cards or calls."
+      },
+      {
+        "field": "whoYouAre[2]",
+        "before": "It was never the distance. It's the second before you see their face, when you don't know yet whether they're glad you came, or whether they'd have been fine without you. You'd never admit it, but somewhere along the way, being needed started to feel like the proof that you're loved. It isn't the only proof. Most of the time, it isn't even the best one.",
+        "after": "The distance has never been the difficult part. It's the second before you see their face, when you don't know whether they're glad you came or would have been fine without you. You'd never admit it, but somewhere along the way, being needed started to feel like proof that you're loved. It isn't the only proof, and most of the time there are better ones.",
+        "reason": "Simplify the repeated negative proof clauses and tense shift without changing the private doubt or the distinction between need and love."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Keep a promise of love through the whole visible journey. Fear: Being unneeded mistaken for being unloved, in the second before seeing their face. Explicit gift: Loved people know the guest will come, and everyone sees how loved they are.",
+      "story_and_drink": "Preserved: Bly's journey, platform self-consciousness, welcome and English wine toast. Drink: Bordeaux owned as a choice; rye and warm serving tied to the fire and bareheaded farewell.",
+      "proposal": "Preserved: Visit someone doing well without help, simply for their company.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "three-hundred-mile visit in the good coat",
+      "fear in the second before seeing their face",
+      "Nellie Bly's reported words and travel qualifications",
+      "wine unspecified in her book, Bordeaux owned as a choice",
+      "room-temperature toast linked to the fire and bareheaded farewell",
+      "visit to someone doing well without help"
+    ]
+  },
+  {
+    "pairing": "lover-innocent",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[3]. Connect the innocence assumption to the actual hurt and choice; replace the abstract rarity claim with the specific unconditional love given, retaining advice, private bruises and the three-hour fear. Join the signposted interpretation and make the personal recognition conversational, keeping the first-yes/staying-open distinction and exact television fact.",
+    "meaning": {
+      "motive": "Love openly despite having been hurt and knowing the risk.",
+      "fear": "Deliberately becoming careful, shown in the three-hour delayed reply.",
+      "gift": "Others can say how much they care and receive love without earning it.",
+      "story": "Taketsuru and Rita's marriage, failed firm plan and shared move; her motive remains interpreted.",
+      "drink": "Nikka Flip with lavender scent through an unbroken egg shell, linked to remaining open.",
+      "proposal": "Hear the advice, then love again as before and reply now rather than waiting on purpose."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Most people call it innocence. They assume nobody's ever hurt you. Somebody has, more than once, and every time you knew exactly what you were risking. You've heard all the advice: be careful, make them wait, don't show your hand so soon. You decided long ago that being hurt costs less than being careful. The bruises stay private, because showing them only brings the advice back. The thing you're quietly afraid of is the evening you notice you've waited three hours to reply, on purpose. And next to you, nobody has to pretend to care less than they do. They say it back. Love you don't have to earn is the rarest kind, and you give it to everyone you love.",
+        "after": "Most people call it innocence, as if nobody's ever hurt you. Somebody has, more than once, and every time you knew exactly what you were risking. You've heard all the advice: be careful, make them wait, don't show your hand so soon. You decided long ago that being hurt costs less than being careful. You keep the bruises private because showing them only brings the advice back. What frightens you is the evening you notice you've waited three hours to reply, on purpose. Next to you, nobody has to pretend to care less than they do. They say it back. Everyone you love gets that love without having to earn it.",
+        "reason": "Connect the innocence assumption to the actual hurt and choice; replace the abstract rarity claim with the specific unconditional love given, retaining advice, private bruises and the three-hour fear."
+      },
+      {
+        "field": "yours[3]",
+        "before": "3. I like to think she knew exactly what she was risking, and said yes anyway. And when the plan fell through, she didn't take any of it back. That's the part I recognise in you: not the yes, which anyone can admire, but the staying open when it didn't go to plan. In 2014, Japanese television made a morning drama of their story, and told it as what it was, a love story.",
+        "after": "3. I like to think she knew exactly what she was risking when she said yes, and didn't take it back when the plan fell through. Anyone can admire that first yes; I recognise you in the way she stayed open afterwards. In 2014, Japanese television made a morning drama of their story, and told it as what it was, a love story.",
+        "reason": "Join the signposted interpretation and make the personal recognition conversational, keeping the first-yes/staying-open distinction and exact television fact."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Love openly despite having been hurt and knowing the risk. Fear: Deliberately becoming careful, shown in the three-hour delayed reply. Explicit gift: Others can say how much they care and receive love without earning it.",
+      "story_and_drink": "Preserved: Taketsuru and Rita's marriage, failed firm plan and shared move; her motive remains interpreted. Drink: Nikka Flip with lavender scent through an unbroken egg shell, linked to remaining open.",
+      "proposal": "Preserved: Hear the advice, then love again as before and reply now rather than waiting on purpose.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "immediate messages and within-the-week affection",
+      "fear of deliberately waiting three hours",
+      "Rita's response left unknown and her actual teaching work",
+      "lavender passing through an unbroken eggshell",
+      "silky egg, froth, demerara and amber-beige drink",
+      "future reply now and wish for love answered"
+    ]
+  },
+  {
+    "pairing": "lover-jester",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[5]. Untangle the long fear sentence and let the returned or unreturned tease connect the emotional cost to the gift, preserving the vulnerability and playful compliment. Join the command, once-plainly fragment and clumsiness into ordinary speech, retaining all three possible compliments and the misspelling reassurance.",
+    "meaning": {
+      "motive": "Send compliments sideways through teasing and look for a return.",
+      "fear": "Plain affection rejected, or a tease taken literally and left hanging.",
+      "gift": "Being picked by the teasing makes people feel funnier and better-looking.",
+      "story": "Harrington's praise-and-grapefruit joke, Matt Jasmin name and extra e; conflict guards stay.",
+      "drink": "Jasmine syrup supplies the flower the misspelling promised and softens the tartness.",
+      "proposal": "When someone plays back, give one plain sincere compliment even if clumsy."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Every one of those was a compliment. You just couldn't hand it over plain, because plain is too easy to turn down. Said as a joke, a no costs nobody anything, you included. What stays with you is the one who takes it at face value and looks a little hurt, or smiles politely and lets it drop, and the joke left hanging with only you holding it. And being teased by you feels like being picked. People walk away from you funnier and better-looking than they came in.",
+        "after": "Every one of those was a compliment. You couldn't hand it over plain, because that feels too easy to turn down. Said as a joke, a no costs neither of you anything. The one that stays with you is the person who takes the tease at face value and looks hurt, or smiles politely and lets it drop. Then you're left holding a joke nobody sent back. But when it works, being teased by you feels like being picked. People walk away from you funnier and better-looking than they came in.",
+        "reason": "Untangle the long fear sentence and let the returned or unreturned tease connect the emotional cost to the gift, preserving the vulnerability and playful compliment."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. Next time someone plays back, don't send another tease. Tell them what the last one was hiding: that they're funny, that they're good company, that the hat is actually great. Once, plainly. It may come out clumsy. Harrington's came out with a letter too many, and it stuck. Plenty of people you like have no idea how much, and the ones you tell will play back hardest of all.",
+        "after": "5. Next time someone plays back, tell them what the last tease was hiding instead of sending another: that they're funny, that they're good company, that the hat is actually great. Say it plainly once, even if it comes out clumsy. Harrington's came out with a letter too many, and it stuck. Plenty of people you like have no idea how much; the ones you tell will play back hardest of all.",
+        "reason": "Join the command, once-plainly fragment and clumsiness into ordinary speech, retaining all three possible compliments and the misspelling reassurance."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Send compliments sideways through teasing and look for a return. Fear: Plain affection rejected, or a tease taken literally and left hanging. Explicit gift: Being picked by the teasing makes people feel funnier and better-looking.",
+      "story_and_drink": "Preserved: Harrington's praise-and-grapefruit joke, Matt Jasmin name and extra e; conflict guards stay. Drink: Jasmine syrup supplies the flower the misspelling promised and softens the tartness.",
+      "proposal": "Preserved: When someone plays back, give one plain sincere compliment even if clumsy.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "coffee order, walk and hat teasing",
+      "feeling picked and leaving funnier and better-looking",
+      "Harrington's account and contested taster kept unnamed",
+      "extra e and jasmine-tea syrup as a tease played back",
+      "bright, bitter and softly scented drink",
+      "one plain compliment when someone plays back"
+    ]
+  },
+  {
+    "pairing": "lover-magician",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[4], yours[5]. State the motive and fear without the chase/stay formula, then join the discovery and loneliness instead of announcing and separately grading the gift. Split the sentence chained by three ands into the chemical relationship and its sensory result, preserving every spirit, method, scent, sensory claim and leaf gesture. Make the abstract closeness/reason-to-stay turn an ordinary human relationship, keeping the early disclosure, fear, reassurance and discovery the guest gains.",
+    "meaning": {
+      "motive": "Keep a little undiscovered so someone has a reason to stay.",
+      "fear": "Once completely known, the discovery ends and the person leaves.",
+      "gift": "People experience a particular discovery in the guest, while the guest remains alone behind the last withheld thing.",
+      "story": "Angel's Share reserve, Ikeda recognised, Gokan outside and the two-sided closed door.",
+      "drink": "Gin-led Martini joins Ikeda's practices and ingredients; shiso removed and handed over as a nod to the door.",
+      "proposal": "Tell the saved thing before it is earned, and experience closeness without another secret."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "You don't keep something back to be chased. You keep it back so there's still a reason to stay. At some point you decided that once someone has seen all of you, the finding is over, and they'll go. So there's always one thing you haven't said yet. And it works: people feel they've found something in you that no one else has. They're right. That's what you hand them: a sense of discovery most people never get from anyone. It's worth a great deal. But behind that last thing, you're on your own.",
+        "after": "You keep something back so there's still a reason to stay; getting them to chase you isn't what you're after. At some point you decided that once someone has seen all of you, there's nothing left to find, and they'll go. So there's always one thing you haven't said. People do feel they've discovered something in you that no one else has, and they're right. You give them a kind of discovery most people never get from anyone. But keeping that last thing to yourself leaves you on your own.",
+        "reason": "State the motive and fear without the chase/stay formula, then join the discovery and loneliness instead of announcing and separately grading the gift."
+      },
+      {
+        "field": "yours[4]",
+        "before": "4. The cocktail I've made for you is a Martini, the renowned classic, built from two things Ikeda brought to that bar: Martinis stirred the way he'd learned them in Japan, and new drinks with Japanese ingredients like shochu and shiso leaf. Joining them in one glass is my idea. Shochu is a clear Japanese spirit with less alcohol than gin, so gin takes the lead, with a pale vermouth. A torn green shiso leaf is stirred with them, then lifted out and set beside the glass as it's served, as a nod to that door at the back. Shiso and juniper share a compound with a cedar-and-pine scent, and in the glass the shiso slips in behind the gin, and what you get is clean, cold and green in a way you can't quite place. The leaf is there to be handed over.",
+        "after": "4. The cocktail I've made for you is a Martini, the renowned classic, built from two things Ikeda brought to that bar: Martinis stirred the way he'd learned them in Japan, and new drinks with Japanese ingredients like shochu and shiso leaf. Joining them in one glass is my idea. Shochu is a clear Japanese spirit with less alcohol than gin, so gin takes the lead, with a pale vermouth. A torn green shiso leaf is stirred with them, then lifted out and set beside the glass as it's served, as a nod to that door at the back. Shiso and juniper share a compound with a cedar-and-pine scent. The drink comes out clean, cold and green in a way you can't quite place, with the shiso slipping in behind the gin. The leaf is there to be handed over.",
+        "reason": "Split the sentence chained by three ands into the chemical relationship and its sensory result, preserving every spirit, method, scent, sensory claim and leaf gesture."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. So tell one person what you've been saving. Not when they've earned it: before. You're afraid there'll be nothing left to stay for. I don't think that's how it works with you. Being known completely is the one kind of closeness you've always kept from yourself, and it's the kind that doesn't need a reason to stay. They'll stay anyway. Let yourself find out.",
+        "after": "5. Tell one person what you've been saving, before you think they've earned it. You're afraid that once it's said, there'll be nothing left to stay for. I don't think that's how it works with you. Someone can know you completely and still want to stay, without another secret to find. That's the closeness you've kept from yourself. Let yourself find out what it feels like when they stay anyway.",
+        "reason": "Make the abstract closeness/reason-to-stay turn an ordinary human relationship, keeping the early disclosure, fear, reassurance and discovery the guest gains."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Keep a little undiscovered so someone has a reason to stay. Fear: Once completely known, the discovery ends and the person leaves. Explicit gift: People experience a particular discovery in the guest, while the guest remains alone behind the last withheld thing.",
+      "story_and_drink": "Preserved: Angel's Share reserve, Ikeda recognised, Gokan outside and the two-sided closed door. Drink: Gin-led Martini joins Ikeda's practices and ingredients; shiso removed and handed over as a nod to the door.",
+      "proposal": "Preserved: Tell the saved thing before it is earned, and experience closeness without another secret.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "door slightly open and stories revealed a little at a time",
+      "fear that finding ends once the person is known",
+      "Ikeda's account and the writer's two-sided closed door",
+      "gin, shochu and removed shiso leaf joined as the bartender's idea",
+      "clean, cold and hard-to-place green scent",
+      "telling one person the saved thing before they earn it"
+    ]
+  },
+  {
+    "pairing": "lover-outlaw",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[3]. Join the polite-loneliness and audience/accomplice fragments into flowing speech, keeping the hidden plea, both sides of the fear and the explicit freedom people feel. Keep the source account and quote intact while joining fragment pairs; replace the noise/dare/remembrance restatement with one signposted recognition of shared making and being wanted.",
+    "meaning": {
+      "motive": "Find accomplices and honesty where politeness feels lonely.",
+      "fear": "Being kept only for noise, or made sensible and dropped.",
+      "gift": "People drop the act and like themselves around the guest.",
+      "story": "Employees Only colleagues, scorn, free soup and very low turnover; shared-creating motive signposted.",
+      "drink": "Beetroot steeped vermouth marks the fingers as a nod to a hand in creating the bar.",
+      "proposal": "Plan an ordinary food shop, soup or familiar film and see who wants the company."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "People call you a bad influence, and you let them, because it's half true and it makes a better story. The rest of it: polite feels lonely to you. It keeps everyone at arm's length, you included. You don't want an audience. You want accomplices. Under every \"come on\" there's a \"please come\", and you'd rather raise the stakes than say that plainly. What you dread is being kept for the noise: loved as the wild one and never really known, or made sensible and quietly dropped. Around you, people drop the act. They say the honest thing, the funny thing, and they like who they are when they're with you.",
+        "after": "People call you a bad influence, and you let them, because it's half true and it makes a better story. But polite evenings feel lonely to you, keeping everyone at arm's length, you included. You want accomplices to join you, instead of an audience to watch. Under every \"come on\" there's a \"please come\", and you'd rather raise the stakes than say that plainly. What you dread is being kept for the noise: loved as the wild one and never really known, or made sensible and quietly dropped. Around you, people drop the act. They say the honest thing, the funny thing, and they like who they are when they're with you.",
+        "reason": "Join the polite-loneliness and audience/accomplice fragments into flowing speech, keeping the hidden plea, both sides of the fear and the explicit freedom people feel."
+      },
+      {
+        "field": "yours[3]",
+        "before": "3. And from opening day, whoever was still there when the bar closed was given homemade chicken soup, free. The food was partly business: Zaric had seen hungry customers leave a bar he'd worked at before. Partly it was their European background, where food and drink belong together. And the staff stayed. Very few ever left. One reason Zaric gave: they felt \"they had a hand in creating this\". I like to think that's why your people stay too. Not for the noise, but because with you, they got to help make it. The dare is what they talk about. What they remember is that you wanted them there.",
+        "after": "3. From opening day, whoever was still there when the bar closed was given homemade chicken soup, free. The food was partly business: Zaric had seen hungry customers leave a bar he'd worked at before. It also came from their European background, where food and drink belong together. The staff stayed; very few ever left. One reason Zaric gave was that they felt \"they had a hand in creating this\". I like to think your people stay for the same reason: with you, they got to help make it. They'll tell the dare as a story, and remember that you wanted them there.",
+        "reason": "Keep the source account and quote intact while joining fragment pairs; replace the noise/dare/remembrance restatement with one signposted recognition of shared making and being wanted."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Find accomplices and honesty where politeness feels lonely. Fear: Being kept only for noise, or made sensible and dropped. Explicit gift: People drop the act and like themselves around the guest.",
+      "story_and_drink": "Preserved: Employees Only colleagues, scorn, free soup and very low turnover; shared-creating motive signposted. Drink: Beetroot steeped vermouth marks the fingers as a nod to a hand in creating the bar.",
+      "proposal": "Preserved: Plan an ordinary food shop, soup or familiar film and see who wants the company.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "please come beneath come on",
+      "two-sided fear of being kept for noise or made sensible and dropped",
+      "Employees Only's reported scorn and staff turnover qualification",
+      "beetroot marking the fingers as a nod to a hand in creating it",
+      "rich, smooth, earthy rye Manhattan",
+      "Sunday food shop, soup or a twice-seen film"
+    ]
+  },
+  {
+    "pairing": "lover-regular-guy",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[1], yours[3], yours[5]. Keep the exact unsaid-ask scene while replacing a second mention-is-enough statement and the card/speech opposition with the action that answers it. Turn the money/help and speech/months fragments into one natural recognition, retaining the unsaid request, sustained help and specific thirty-copy expression of pride. Bring the three fragmentary settings into the instruction, keeping the exact spoken line, eyes-on-road condition and gain of loved ones knowing why.",
+    "meaning": {
+      "motive": "Hear an unasked need and answer with sustained work rather than a speech.",
+      "fear": "The day it is too late to check whether loved people know why.",
+      "gift": "Loved people can lean without finding words to ask or owing thanks.",
+      "story": "Siegal funds the friend, buys thirty copies; possible business motive kept before pride interpretation.",
+      "drink": "Gold Rush order with a third less honey, thirty-second shake and explicitly owned thirty coincidence.",
+      "proposal": "Say one exact line of affection while hands are busy, so people know why."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "before": "Someone you love mentions that the car's making that noise again. That's all. They'd never ask, and they don't need to: you heard it, because it's exactly how you'd have said it. By Saturday you're flat on your back underneath it, and neither of you makes a thing of it. A mention is enough. What comes back isn't a card or a speech. It's the thing done, for as long as it takes.",
+        "after": "Someone you love mentions that the car's making that noise again. That's all. They'd never ask, and they don't need to: you heard it, because it's exactly how you'd have said it. By Saturday you're flat on your back underneath it, and neither of you makes a thing of it. You answer by getting it done, for as long as it takes, with no card or speech to go with it.",
+        "reason": "Keep the exact unsaid-ask scene while replacing a second mention-is-enough statement and the card/speech opposition with the action that answers it."
+      },
+      {
+        "field": "yours[3]",
+        "before": "3. You'd have heard it too. Not a money problem: help, from someone who hadn't asked. And you'd have answered in the same language: no speech, just months of turning up. And when you're proud of someone, you'd rather buy thirty copies than say so.",
+        "after": "3. You'd hear the need for help in that money problem, even though no one had asked, and answer it by turning up for months without a speech. When you're proud of someone, you'd rather buy thirty copies than say so.",
+        "reason": "Turn the money/help and speech/months fragments into one natural recognition, retaining the unsaid request, sustained help and specific thirty-copy expression of pride."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. Forget the speech. Nobody who loves you is waiting for one. You need one line, said while you're busy with something else. Under the car. Halfway through the job. On the drive home, eyes on the road. \"I'd do this for you any day\" is plenty. They've always known where they can lean. Now they'll know why.",
+        "after": "5. Nobody who loves you is waiting for a speech. Try one line while you're busy with something else: under the car, halfway through the job, or on the drive home with your eyes on the road. \"I'd do this for you any day\" is plenty. They've always known where they can lean; now they'll know why.",
+        "reason": "Bring the three fragmentary settings into the instruction, keeping the exact spoken line, eyes-on-road condition and gain of loved ones knowing why."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Hear an unasked need and answer with sustained work rather than a speech. Fear: The day it is too late to check whether loved people know why. Explicit gift: Loved people can lean without finding words to ask or owing thanks.",
+      "story_and_drink": "Preserved: Siegal funds the friend, buys thirty copies; possible business motive kept before pride interpretation. Drink: Gold Rush order with a third less honey, thirty-second shake and explicitly owned thirty coincidence.",
+      "proposal": "Preserved: Say one exact line of affection while hands are busy, so people know why.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "the mention heard as an ask and Saturday under the car",
+      "fear of the day it is too late to check",
+      "Siegal's account with business possibility before signposted pride",
+      "thirty seconds and thirty copies owned as coincidence",
+      "third less honey so the bourbon gets a word in",
+      "one line said while busy and loved ones learning why"
+    ]
+  },
+  {
+    "pairing": "lover-ruler",
+    "decision": "retained",
+    "reason": "Retained after a fresh full review. The made/maker rhythm names the actual split between a deliberately created image and the lonely person behind it. The care during a daring evening, Pickford's curls and choosing a new version give the compact turns specific meaning.",
+    "meaning": {
+      "motive": "Create the personal effect deliberately and steer warmth safely.",
+      "fear": "Loved as the created image while the person behind it stays lonely.",
+      "gift": "People feel more alive and safe in the evening the guest steers.",
+      "story": "Pickford's created name, United Artists freedom and curls becoming a constraint.",
+      "drink": "Rum-led dry riff with homemade pomegranate-thyme grenadine as a nod to the maker of the image.",
+      "proposal": "Choose a next version while the choice remains theirs and let people see the choice."
+    },
+    "edits": [],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Create the personal effect deliberately and steer warmth safely. Fear: Loved as the created image while the person behind it stays lonely. Explicit gift: People feel more alive and safe in the evening the guest steers.",
+      "story_and_drink": "Preserved: Pickford's created name, United Artists freedom and curls becoming a constraint. Drink: Rum-led dry riff with homemade pomegranate-thyme grenadine as a nod to the maker of the image.",
+      "proposal": "Preserved: Choose a next version while the choice remains theirs and let people see the choice.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "voice, pause and remembered clothes chosen deliberately",
+      "loneliness of the maker behind the effect",
+      "Pickford's United Artists freedom and curl-cutting account",
+      "homemade pomegranate-thyme grenadine as a nod to the maker",
+      "choice of next version while the choice is still theirs"
+    ]
+  },
+  {
+    "pairing": "lover-sage",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[3]. Place the private judgement beside the choice it produces, and say the full-table loneliness once rather than repeating it as a negative/positive closer. Give the abstract being-answered explanation an actor and action, preserving prior circulation, generations, hotel-bar setting and both interpretive signposts.",
+    "meaning": {
+      "motive": "Take people's loves seriously and seek a full-depth reply.",
+      "fear": "Feeling unmet at a full table after judging the room unworthy of the long version.",
+      "gift": "People remember the guest who took their loved book seriously.",
+      "story": "McMillian shares researched history and gives the usually attributed old ode a voice; interpretation and doubt signposted.",
+      "drink": "Mint Julep follows the ode, with owned churning departure and pounded dry ice.",
+      "proposal": "Offer the long version to the whole room rather than only the trusted listener."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "You do the easy talk well enough: the trains, the weather. But you feel the evening sliding past on the surface, and later you write three pages to someone who wasn't there. At some point you started keeping the long version for the one person you're sure will follow it. You'd never tell the table that you've decided most rooms aren't the place for it. Sometimes you're right. But it means you can sit at a full table and still feel unmet. Not an empty room: a full one.",
+        "after": "You do the easy talk well enough: the trains, the weather. But you feel the evening sliding past on the surface, and later you write three pages to someone who wasn't there. At some point you decided most rooms weren't the place for that, though you'd never tell the table. You keep the long version for the one person you're sure will follow it. Sometimes you're right about the room. It can still leave you feeling unmet, even at a full table.",
+        "reason": "Place the private judgement beside the choice it produces, and say the full-table loneliness once rather than repeating it as a negative/positive closer."
+      },
+      {
+        "field": "yours[3]",
+        "before": "3. It had been reprinted and quoted for decades before him. But I like to think that's what being answered looks like: someone, generations later, taking a long piece of writing seriously enough to give it a voice, in a hotel bar, where most talk is small. It's the reply you hope for whenever you send the long version. And it's the risk you rarely take, because I doubt he waited to find out who at the bar deserved it.",
+        "after": "3. It had been reprinted and quoted for decades before him. I like to think he gave it the reply you hope for when you send someone the long version: he took the writing seriously enough to give it a voice, generations later, in a hotel bar where most talk is small. I doubt he waited to find out who at the bar deserved it. That's the risk you rarely take.",
+        "reason": "Give the abstract being-answered explanation an actor and action, preserving prior circulation, generations, hotel-bar setting and both interpretive signposts."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Take people's loves seriously and seek a full-depth reply. Fear: Feeling unmet at a full table after judging the room unworthy of the long version. Explicit gift: People remember the guest who took their loved book seriously.",
+      "story_and_drink": "Preserved: McMillian shares researched history and gives the usually attributed old ode a voice; interpretation and doubt signposted. Drink: Mint Julep follows the ode, with owned churning departure and pounded dry ice.",
+      "proposal": "Preserved: Offer the long version to the whole room rather than only the trusted listener.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "second question about the book and the remembered page",
+      "three-page letter and feeling unmet at a full table",
+      "usually credited ode and around-2000 recollection",
+      "the ode's steps and owned departure of churning",
+      "frosted cup, mint scent and quietly strong drink",
+      "give the long version to the room"
+    ]
+  },
+  {
+    "pairing": "magician-caregiver",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[3]. Untangle the question and worry, then replace the repeated help/thank/repay aphorism with the concrete unencumbered moment the guest gives. Join the survival announcement and short repetitions into the specific New Orleans outcome, retaining the worry and fully signposted night/name interpretation.",
+    "meaning": {
+      "motive": "Arrange an unasked kindness that belongs to its recipient.",
+      "fear": "Having no right to intervene, or the kindness becoming meddling and leaving the guest's hands.",
+      "gift": "A moment of their own with no obligation of thanks or repayment.",
+      "story": "Hazel Dawn's reported surprise party; probable name transfer while original drink survives as Pink Shimmy.",
+      "drink": "Sweet anise partly replaced by dry as a nod to the unseen first maker.",
+      "proposal": "Stay to see the surprise land and learn that help was wanted."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "What you'd never admit is the question that comes after: did I have the right? Help nobody asked for can land wrong, and you know it, so part of you is always listening for the moment a kindness turns out to be meddling. Most of the time it doesn't, because you only do it for people you've watched closely enough to know. Help nobody has to thank you for is help nobody has to repay. You hand someone a moment that is completely their own.",
+        "after": "Afterwards comes a question you'd never admit to: did I have the right? Help nobody asked for can land wrong, and part of you is always listening for the moment kindness turns into meddling. Most of the time it doesn't, because you only do this for people you've watched closely enough to know. You give them a moment completely their own, with no thanks expected and nothing to repay.",
+        "reason": "Untangle the question and worry, then replace the repeated help/thank/repay aphorism with the concrete unencumbered moment the guest gives."
+      },
+      {
+        "field": "yours[3]",
+        "before": "3. That's the worry you carry: something kind you set up, taken out of your hands and put on something you'd never have made. But look at what lasted. The drink from that night didn't disappear. In New Orleans it carried on under another name, the Pink Shimmy. And I like to think it matters that, when Hazel Dawn told the story, she told it as a party in her honour: the name wandered off, and the night stayed hers. That's exactly what your kind of help is for.",
+        "after": "3. You know that worry: something kind you set up is taken out of your hands and put on something you'd never have made. But the drink from that night survived in New Orleans under another name, the Pink Shimmy. And I like to think it matters that, when Hazel Dawn told the story, she told it as a party in her honour: the name wandered off, and the night stayed hers. That's exactly what your kind of help is for.",
+        "reason": "Join the survival announcement and short repetitions into the specific New Orleans outcome, retaining the worry and fully signposted night/name interpretation."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Arrange an unasked kindness that belongs to its recipient. Fear: Having no right to intervene, or the kindness becoming meddling and leaving the guest's hands. Explicit gift: A moment of their own with no obligation of thanks or repayment.",
+      "story_and_drink": "Preserved: Hazel Dawn's reported surprise party; probable name transfer while original drink survives as Pink Shimmy. Drink: Sweet anise partly replaced by dry as a nod to the unseen first maker.",
+      "proposal": "Preserved: Stay to see the surprise land and learn that help was wanted.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "arrangements made before anyone asks",
+      "private question about the right to help",
+      "Hazel Dawn's story, absent arranger and probable name transfer",
+      "sweet anise partly swapped for dry as a nod to the unseen maker",
+      "hazy pink from anise and bitters",
+      "stay for the door opening and surprise landing"
+    ]
+  },
+  {
+    "pairing": "magician-creator",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[5]. Simplify the literal-wish fear and combine the duplicated lasting-gift explanation, keeping the extra effort as insurance and the hidden wish nobody asks about. Replace the unprompted it-isn't-taking defence with the positive reason for asking, preserving the yes, named freedom, usual benefit and wish granted to the guest.",
+    "meaning": {
+      "motive": "Hear the wish under the request and make more than was asked.",
+      "fear": "A literal request granted exactly and missing what was meant.",
+      "gift": "Taking a small wish seriously leaves a memory longer than the object made.",
+      "story": "Klemm reconstructs from names and ingredients, finds real maraschino and asks for original kitchen-linked drinks.",
+      "drink": "Collins d'Electra reconstruction and orange-bitters stand-in explicitly owned, with rosemary kitchen tie signposted.",
+      "proposal": "Name one part to make on their own terms inside the next yes."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "What worries you is getting it wrong in the most literal way: doing exactly what was asked and watching it land flat, because the words were never really the wish. So you listen hard, and you give more, just in case. And with all those ideas flying, nobody thinks to turn round and ask what you'd wish for. You don't tell them either. In your head, wishes are something you grant. It gives people something that lasts, though. When you take a small request seriously enough to make it wonderful, you tell someone their wish mattered, and they remember that longer than whatever you made.",
+        "after": "You're afraid of doing exactly what was asked and watching it land flat, because the words weren't really the wish. So you listen hard and give more, just in case. With all those ideas flying, nobody thinks to ask what you'd wish for, and you don't tell them. In your head, wishes are something you grant. When you take a small request seriously enough to make it wonderful, people come away knowing their wish mattered. They remember that longer than whatever you made.",
+        "reason": "Simplify the literal-wish fear and combine the duplicated lasting-gift explanation, keeping the extra effort as insurance and the hidden wish nobody asks about."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. Whoever asks for your help next, say yes the way you always do, and before you start, name the one part you'd like to make entirely on your own terms. It isn't taking. It's usually where the best thing you make for them comes from, and for once, one of the wishes granted will be yours.",
+        "after": "5. Whoever asks for your help next, say yes the way you always do, and before you start, name the one part you'd like to make entirely on your own terms. Your own way is usually where the best thing you make for them comes from. And for once, one of the wishes granted will be yours.",
+        "reason": "Replace the unprompted it-isn't-taking defence with the positive reason for asking, preserving the yes, named freedom, usual benefit and wish granted to the guest."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Hear the wish under the request and make more than was asked. Fear: A literal request granted exactly and missing what was meant. Explicit gift: Taking a small wish seriously leaves a memory longer than the object made.",
+      "story_and_drink": "Preserved: Klemm reconstructs from names and ingredients, finds real maraschino and asks for original kitchen-linked drinks. Drink: Collins d'Electra reconstruction and orange-bitters stand-in explicitly owned, with rosemary kitchen tie signposted.",
+      "proposal": "Preserved: Name one part to make on their own terms inside the next yes.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "toast and broken heart transformed into more than requested",
+      "fear of a literal ask landing flat",
+      "Klemm's quoted kitchen motive and jar-syrup gloss owned",
+      "Cointreau and Angostura stand-in as a nod to the Campbell Apartment",
+      "tall, bright, herbal drink with warm orange edge",
+      "name the one part to make on the guest's own terms"
+    ]
+  },
+  {
+    "pairing": "magician-explorer",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[1], whoYouAre[2], yours[3]. Integrate the standalone examples and connect the changes to their record, keeping all four examples and reversibility. Untangle the final-step fear and hidden hope, and connect the concrete improvement to the confidence it gives others without three repetitions of the same better-things explanation. Keep the uncertainty and signposted material interpretation intact, then replace notice-the-order staging and three dramatic fragments with the actual chronology and recognition.",
+    "meaning": {
+      "motive": "Improve by reversible trials, driven by private belief things can become better.",
+      "fear": "The final served/sent/signed/said result cannot be taken back.",
+      "gift": "Returning a better version gives close people confidence that things can improve.",
+      "story": "Coffey's excise departure, wood/iron then copper still; unknown material reason and interpretation remain.",
+      "drink": "Single-grain whisky leads a Martini with calvados as a nod to ordinary things made surprising.",
+      "proposal": "Ask who the final change is for, then serve, send or say the finished result."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "before": "Right now, something you've made is nearly there. A recipe, a piece of writing, a shelf, a plan. Everyone who's seen it says it's done. Only you can tell what's still off, so you change it, bit by bit, and you note each change so you can always find your way back.",
+        "after": "Right now, something you've made is nearly there: a recipe, a piece of writing, a shelf, a plan. Everyone who's seen it says it's done. Only you can tell what's still off, so you change it bit by bit, noting each change so you can always find your way back.",
+        "reason": "Integrate the standalone examples and connect the changes to their record, keeping all four examples and reversibility."
+      },
+      {
+        "field": "whoYouAre[2]",
+        "before": "You'll do a thing forty ways without complaint, because every one of them can still be undone. It's the last step you put off: the moment it's served, sent, signed or said, and can't be taken back. So it waits, sometimes long after it's ready. What you hide even better is the hope. People see someone careful, a little sceptical, who wants to see proof. Underneath, you believe almost anything can become something better, and you want that to be true more than you'd ever say before it works. Give you something everyone else has written off, and in time you'll hand back a better one. The people close to you start to believe things can get better, because they've seen you make it so.",
+        "after": "You'll do a thing forty ways without complaint, because every one can still be undone. What you put off is serving it, sending it, signing it or saying it, when you can't take it back. Sometimes it waits long after it's ready. People see someone careful and a little sceptical, wanting to see proof. You believe almost anything can become better, though you won't say how much you want it to be true until it works. Give you something everyone else has written off, and in time you'll hand back a better one. Seeing you do that lets the people close to you believe things can get better too.",
+        "reason": "Untangle the final-step fear and hidden hope, and connect the concrete improvement to the confidence it gives others without three repetitions of the same better-things explanation."
+      },
+      {
+        "field": "yours[3]",
+        "before": "3. Why he began in wood and iron, we don't know, but I like to think it was where he could still change his mind, and the copper was where he stopped. And notice the order: he'd left the excise first, years before any patent. That's the step you find hardest. Not the forty tries. The copper.",
+        "after": "3. Why he began in wood and iron, we don't know, but I like to think it was where he could still change his mind, and the copper was where he stopped. He'd already left the excise, years before any patent. Forty tries are easy by comparison; choosing the copper is the difficult part for you.",
+        "reason": "Keep the uncertainty and signposted material interpretation intact, then replace notice-the-order staging and three dramatic fragments with the actual chronology and recognition."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Improve by reversible trials, driven by private belief things can become better. Fear: The final served/sent/signed/said result cannot be taken back. Explicit gift: Returning a better version gives close people confidence that things can improve.",
+      "story_and_drink": "Preserved: Coffey's excise departure, wood/iron then copper still; unknown material reason and interpretation remain. Drink: Single-grain whisky leads a Martini with calvados as a nod to ordinary things made surprising.",
+      "proposal": "Preserved: Ask who the final change is for, then serve, send or say the finished result.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "forty changes recorded so each can be undone",
+      "fear of serving, sending or signing the last step",
+      "unknown wood-and-iron reason followed by I like to think",
+      "single-grain whisky led Martini with calvados as the ordinary-thing nod",
+      "clean, bright and quietly surprising drink",
+      "ask who the next change is for, then serve or send"
+    ]
+  },
+  {
+    "pairing": "magician-hero",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2]. Replace hesitant fragments and vague what-it-might-do wording with a clear account of the cost and unintended consequences, keeping all examples, responsibility and explicit saving gift.",
+    "meaning": {
+      "motive": "Make and carry the change needed to save something.",
+      "fear": "Unintended consequences and the part sacrificed despite success.",
+      "gift": "Things that would have been lost are still here because of the guest.",
+      "story": "Cognac loss and Texas roots, Ugni Blanc replacement and Folle Blanche surviving in Armagnac.",
+      "drink": "Quarter Folle Blanche Armagnac returns what gave way, with gooseberry acid and flowers.",
+      "proposal": "After saving it, look for the part that made way and bring some back."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Afterwards, while the others are relieved, a part of you isn't, quite. Something had to give so the rest could hold: the old name over the door, the bigger room, the side of the project someone loved most. It worked, and you still think about that part. What you fear is what it might do that you didn't mean. It's why people trust you with the change: you weigh what it will take before anyone else thinks to ask, then you make the call anyway, and carry it yourself. Because of you, things that would have been lost altogether are still here.",
+        "after": "Afterwards, you can't quite share everyone else's relief. The change worked, but something had to give: the old name over the door, the bigger room, the side of the project someone loved most. You still think about that part, and worry about consequences you never intended. People trust you with the change because you weigh what it will take before anyone else thinks to ask, then make the call anyway and carry it yourself. Things that would have been lost altogether are still here because of you.",
+        "reason": "Replace hesitant fragments and vague what-it-might-do wording with a clear account of the cost and unintended consequences, keeping all examples, responsibility and explicit saving gift."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Make and carry the change needed to save something. Fear: Unintended consequences and the part sacrificed despite success. Explicit gift: Things that would have been lost are still here because of the guest.",
+      "story_and_drink": "Preserved: Cognac loss and Texas roots, Ugni Blanc replacement and Folle Blanche surviving in Armagnac. Drink: Quarter Folle Blanche Armagnac returns what gave way, with gooseberry acid and flowers.",
+      "proposal": "Preserved: After saving it, look for the part that made way and bring some back.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "making the hard change and carrying it afterwards",
+      "fear of consequences not intended",
+      "Texas rootstock, dates and vineyard loss preserved",
+      "Folle Blanche surviving further south",
+      "quarter Armagnac and gooseberry edge returning what gave way",
+      "look for and bring back the part that made room"
+    ]
+  },
+  {
+    "pairing": "magician-innocent",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[1], whoYouAre[2], yours[3]. Give the three real outcomes a sentence instead of a row of fragments, preserving the forty-person group, unknown people and delight in learning before readiness. State the distinctive success fear directly and replace the price-of-joy aphorism with the actual coexistence of delight and wanting a pause, keeping the hidden wish and gift. Connect the letter, unwanted direction and shared head without chained negative fragments; preserve the exact almost quote, 1886 chronology, employees and whatever-the-reason signpost.",
+    "meaning": {
+      "motive": "Start with eager delight before readiness, learning as things grow.",
+      "fear": "Success runs ahead in unchosen directions with their name on it.",
+      "gift": "Good things exist because the guest could not wait to start them.",
+      "story": "Walker's exact almost wish, family-disliked nickname and employees joining; second-head interpretation qualified.",
+      "drink": "Doubling highball, multi-maker blend and strawberry as many fruits carried as one.",
+      "proposal": "Share the almost wish and give someone half to hold while the success keeps growing."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "before": "You start things. A dinner that turns into a monthly fixture. A small idea that ends up as a group of forty. A side project that people you've never met now ask you about. Usually you start before you're quite ready, because the excitement won't wait, and finding out as you go is half the fun.",
+        "after": "You start things that grow: a dinner becomes a monthly fixture, a small idea ends up as a group of forty, a side project draws questions from people you've never met. Usually you begin before you're quite ready, because the excitement won't wait and finding out as you go is half the fun.",
+        "reason": "Give the three real outcomes a sentence instead of a row of fragments, preserving the forty-person group, unknown people and delight in learning before readiness."
+      },
+      {
+        "field": "whoYouAre[2]",
+        "before": "Failure isn't what keeps you up. Success is: the kind that keeps going faster than you can follow, in directions you didn't pick, with your name on it. So you keep one small wish to yourself: that it would slow down for a week. You keep it quiet, because who complains when something's working? That wish doesn't betray the joy. It's the price of it. A lot of the good things around you are only there because you couldn't wait to begin them.",
+        "after": "What keeps you up is success growing faster than you can follow, in directions you didn't pick, with your name on it. You keep one small wish to yourself: that it would slow down for a week. Who complains when something's working? You can want a pause and still be delighted with what you started. A lot of the good things around you are only there because you couldn't wait to begin them.",
+        "reason": "State the distinctive success fear directly and replace the price-of-joy aphorism with the actual coexistence of delight and wanting a pause, keeping the hidden wish and gift."
+      },
+      {
+        "field": "yours[3]",
+        "before": "3. When I read that letter, I hear you. Not in the size of it, but in the \"almost\": the delight and the alarm in one breath, and a wish nobody would really want granted. And then the name: the thing picked up a name out in the world, and nobody asked the family. That's the mess you're afraid of. Not a disaster. A direction you didn't pick. In 1886, a year on from the letter, the business became a limited company and brought long-standing employees in alongside his sons. Whatever the reason, I like to think that was the second head he'd been wishing for.",
+        "after": "3. I hear you in the \"almost\" of that letter: delight and alarm together, and a wish nobody would really want granted. Then there's the name the thing picked up out in the world, without anyone asking the family. That's the mess you fear, something taking a direction you didn't pick rather than going wrong altogether. In 1886, a year on from the letter, the business became a limited company and brought long-standing employees in alongside his sons. Whatever the reason, I like to think that was the second head he'd been wishing for.",
+        "reason": "Connect the letter, unwanted direction and shared head without chained negative fragments; preserve the exact almost quote, 1886 chronology, employees and whatever-the-reason signpost."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Start with eager delight before readiness, learning as things grow. Fear: Success runs ahead in unchosen directions with their name on it. Explicit gift: Good things exist because the guest could not wait to start them.",
+      "story_and_drink": "Preserved: Walker's exact almost wish, family-disliked nickname and employees joining; second-head interpretation qualified. Drink: Doubling highball, multi-maker blend and strawberry as many fruits carried as one.",
+      "proposal": "Preserved: Share the almost wish and give someone half to hold while the success keeps growing.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "dinner becoming a fixture and the group of forty",
+      "fear of success growing in directions not picked",
+      "Alexander Walker's exact qualified 1885 quotation",
+      "nickname spelling and family response",
+      "doubling 30/60/120 measures and strawberry as many fruits carried as one",
+      "say the almost and give someone half to hold"
+    ]
+  },
+  {
+    "pairing": "magician-jester",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[5]. Give the selection, withheld explanation and watched-for hurt clear relationships, keeping the honesty of the demonstration and the pleasure of certainty loosening. Condense repeated order instructions and the it-isn't rebuttal into the physical sugar/band example and the shared view, retaining the exact future experiment and gain.",
+    "meaning": {
+      "motive": "Use an honest visible surprise to loosen a certainty.",
+      "fear": "Explanation turns fun into a lesson, or someone feels foolish or played.",
+      "gift": "People enjoy being wrong and leave with one certainty looser.",
+      "story": "Pousse Cafe weight layers, etiquette account and Nick's many bands; motive remains uncertain and signposted.",
+      "drink": "Three layers with dark light beetroot bourbon above clear heavy cacao reverse the expected visual order.",
+      "proposal": "Explain before the look, sharing their viewpoint without ending the amazement."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "You always have a reason, though. You picked that thing because you wanted them to see something differently, and it mattered to you that they did. You keep how it works, and why, to yourself, because you think the fun would turn into a lesson once it's explained. And you watch their faces all along, because that moment can tip the wrong way, into feeling foolish or played. You'd never want that for anyone. It's why nothing you show is fake. It's all right there, and the eye still won't believe it. So with you, being wrong becomes a pleasure. They walk away with one certainty looser, and glad of it.",
+        "after": "You choose each thing because there's something you want people to see differently, and it matters to you that they do. You keep the workings and the reason to yourself, afraid the fun will become a lesson once it's explained. All the while, you watch their faces for the moment surprise might turn into feeling foolish or played. You'd never want that for anyone, so nothing you show is fake. Everything is there to see, and the eye still won't believe it. With you, people can enjoy being wrong. They walk away with one certainty looser, and glad of it.",
+        "reason": "Give the selection, withheld explanation and watched-for hurt clear relationships, keeping the honesty of the demonstration and the pleasure of certainty loosening."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. Once, try it backwards. Show someone how it works first, before they've even looked, and then let them look. You're afraid that once it's worked out, the fun is over. It isn't. Knowing it's sugar doesn't move a single band, and knowing how you did it won't stop them seeing it. And they get something a surprise alone can't give them: they get to see it from your side, and still be amazed.",
+        "after": "5. Once, show someone how it works before they've looked, then let them look. You're afraid explaining it will finish the fun, but knowing it's sugar doesn't move a single band. Knowing how you did it won't stop them seeing it. They'll get something a surprise alone can't give: the chance to see it from your side, and still be amazed.",
+        "reason": "Condense repeated order instructions and the it-isn't rebuttal into the physical sugar/band example and the shared view, retaining the exact future experiment and gain."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Use an honest visible surprise to loosen a certainty. Fear: Explanation turns fun into a lesson, or someone feels foolish or played. Explicit gift: People enjoy being wrong and leave with one certainty looser.",
+      "story_and_drink": "Preserved: Pousse Cafe weight layers, etiquette account and Nick's many bands; motive remains uncertain and signposted. Drink: Three layers with dark light beetroot bourbon above clear heavy cacao reverse the expected visual order.",
+      "proposal": "Preserved: Explain before the look, sharing their viewpoint without ending the amazement.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "quiet object put on the table and laughter passed on",
+      "fear of someone feeling foolish or played",
+      "Pousse Cafe weights, band counts and etiquette account",
+      "beetroot bourbon creating the darkest lightest band",
+      "chocolate, dried-fruit port and earthy whiskey sequence",
+      "show how it works before the look"
+    ]
+  },
+  {
+    "pairing": "magician-lover",
+    "decision": "edited",
+    "reason": "Reworked yours[5]. Turn the half/shrinking/careful definitions into a direct dinner proposal and ordinary account of responsibility, keeping self-honesty, staying, others' agency and the guest's enjoyment.",
+    "meaning": {
+      "motive": "Quiet an unchosen effect on people to protect their footing.",
+      "fear": "Someone acts because of the guest and loses their footing.",
+      "gift": "People leave more like themselves, with nerve for a half-ready step and no price asked.",
+      "story": "Dukes' full-strength trolley Martini and famous two limit; kindness stays interpreted.",
+      "drink": "Clear freezer-cold vodka Martini with visible quarter-lemon zest as a nod to the rule.",
+      "proposal": "Ask the big dinner question, stay and trust others with their own next choice."
+    },
+    "edits": [
+      {
+        "field": "yours[5]",
+        "before": "5. So stop coming in at half. Being careful never meant shrinking. It means being honest about who you are. Ask the big question at the dinner, and stay until the end. Then trust people with what they do next. That part belongs to them. Without that weight, I'd bet you enjoy the evening as much as everyone else does.",
+        "after": "5. At the next dinner, ask the big question and stay until the end. You can be careful with people by being honest about who you are; you don't have to make yourself smaller. Then trust them with what they do next. Their choice belongs to them. Without carrying that weight, I'd bet you enjoy the evening as much as everyone else does.",
+        "reason": "Turn the half/shrinking/careful definitions into a direct dinner proposal and ordinary account of responsibility, keeping self-honesty, staying, others' agency and the guest's enjoyment."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Quiet an unchosen effect on people to protect their footing. Fear: Someone acts because of the guest and loses their footing. Explicit gift: People leave more like themselves, with nerve for a half-ready step and no price asked.",
+      "story_and_drink": "Preserved: Dukes' full-strength trolley Martini and famous two limit; kindness stays interpreted. Drink: Clear freezer-cold vodka Martini with visible quarter-lemon zest as a nod to the rule.",
+      "proposal": "Preserved: Ask the big dinner question, stay and trust others with their own next choice.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "quiet dinner question and later life choice",
+      "fear of another person losing footing",
+      "Dukes pour and famous two-Martini rule",
+      "kindness interpretation held inside I like to think",
+      "freezer-cold clear vodka with all lemon zest visible",
+      "ask the big question and trust the next step to them"
+    ]
+  },
+  {
+    "pairing": "magician-outlaw",
+    "decision": "retained",
+    "reason": "Retained in full because Robin approved this complete reference pour. Its strings, gift inside the trick, confession and truth at the bottom remain in the exact approved wording.",
+    "meaning": {
+      "motive": "Challenge received strings through planned mischief with care inside.",
+      "fear": "Being ignored rather than being caught.",
+      "gift": "Every trick invites people to see differently and leaves a gift.",
+      "story": "Seger's Seelbach hoax and confession; extra motive stays signposted.",
+      "drink": "Never-stirred bitters-soaked sugar cube changes the bright dry top into a sweeter darker bitter end.",
+      "proposal": "Make the next disruption a trick with a gift and stay to show how; fully approved wording stays untouched."
+    },
+    "edits": [],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Challenge received strings through planned mischief with care inside. Fear: Being ignored rather than being caught. Explicit gift: Every trick invites people to see differently and leaves a gift.",
+      "story_and_drink": "Preserved: Seger's Seelbach hoax and confession; extra motive stays signposted. Drink: Never-stirred bitters-soaked sugar cube changes the bright dry top into a sweeter darker bitter end.",
+      "proposal": "Preserved: Make the next disruption a trick with a gift and stay to show how; fully approved wording stays untouched.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "fully approved reference status and complete original text",
+      "strings tugged and planned mischief",
+      "Seger's hoax and confession with motive signposted",
+      "bitters-soaked sugar cube dissolving without stirring",
+      "bright dry top and sweeter darker bitter finish",
+      "gift inside the next trick and stay to show how"
+    ]
+  },
+  {
+    "pairing": "magician-regular-guy",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2]. Untangle the fear and practice-cost sentence, replace the abstract what-hours-buy phrasing with the actual one-minute gift, and keep the gasp/wonder/faces distinctions.",
+    "meaning": {
+      "motive": "Practise for strangers' shared laugh after the gasp.",
+      "fear": "Silence where the laugh should be, in front of people who owe nothing.",
+      "gift": "Turn strangers at a bus stop into a room for a minute.",
+      "story": "Thomas's Blue Blazer, cold-water practice and public disdain; imagined practice is signposted.",
+      "drink": "Scotch/Irish Whisky Skin with a smoke-and-lemon saucer reveal; source and guessed motives stay.",
+      "proposal": "Let one person watch imperfect practice and join the laugh."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "People think you do it for the gasp. The gasp is lovely, but what you really practise for is the second after, when two people who've never met look at each other and laugh. You're the only one there who knows how it's done, so you don't get the wonder. You get their faces, and that's what you came for. What you'd rarely say is how much it matters, and how much you dread the silence where that laugh should be, in front of people who owe you nothing. That's what the hours are against, and what they buy is a minute in which you turn a bus stop full of strangers into a room. Very few people can do that with a pack of cards.",
+        "after": "People think you do it for the gasp, and the gasp is lovely. But you practise for the second after, when two people who've never met look at each other and laugh. You know how it's done, so you don't get their wonder; you get their faces, which is what you came for. You rarely say how much that matters, or how you dread the silence where the laugh should be, in front of people who owe you nothing. Those hours of practice help you turn a bus stop full of strangers into a room for a minute. That's what you give them with a pack of cards.",
+        "reason": "Untangle the fear and practice-cost sentence, replace the abstract what-hours-buy phrasing with the actual one-minute gift, and keep the gasp/wonder/faces distinctions."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Practise for strangers' shared laugh after the gasp. Fear: Silence where the laugh should be, in front of people who owe nothing. Explicit gift: Turn strangers at a bus stop into a room for a minute.",
+      "story_and_drink": "Preserved: Thomas's Blue Blazer, cold-water practice and public disdain; imagined practice is signposted. Drink: Scotch/Irish Whisky Skin with a smoke-and-lemon saucer reveal; source and guessed motives stay.",
+      "proposal": "Preserved: Let one person watch imperfect practice and join the laugh.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "strangers laughing after the gasp",
+      "fear of silence and hours of practice",
+      "Thomas's warning and Wondrich's Scotch Whisky Skin wording",
+      "unknown mixed-whisky reason and bartender's guess",
+      "smoke and lemon kept under the saucer",
+      "one person watching practice, spills and all"
+    ]
+  },
+  {
+    "pairing": "magician-ruler",
+    "decision": "retained",
+    "reason": "Retained after a fresh full review. Holding all of it so others can put it down is a precise image of the guest's duty and gift, not an abstract substitute for one. The bartender's smile, other hands at the counter and loud arrack preserve a distinctive, coherent voice, including the valued-duty wording from Robin's reference.",
+    "meaning": {
+      "motive": "Hold and rehearse all pieces so an evening works.",
+      "fear": "An unplanned piece has a mind of its own.",
+      "gift": "Others can put it down and a whole room is carefree; exact valued-duty line retained.",
+      "story": "Ashley's planned four trades, other hands at counter and the punch trade outgrowing them; unknown reasons stay.",
+      "drink": "Lost recipe openly reconstructed with Seville shrub and loud Batavia arrack given a place.",
+      "proposal": "Give the unplanned piece the evening and let their own world surprise them."
+    },
+    "edits": [],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Hold and rehearse all pieces so an evening works. Fear: An unplanned piece has a mind of its own. Explicit gift: Others can put it down and a whole room is carefree; exact valued-duty line retained.",
+      "story_and_drink": "Preserved: Ashley's planned four trades, other hands at counter and the punch trade outgrowing them; unknown reasons stay. Drink: Lost recipe openly reconstructed with Seville shrub and loud Batavia arrack given a place.",
+      "proposal": "Preserved: Give the unplanned piece the evening and let their own world surprise them.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "evening rehearsed in every way it could go wrong",
+      "fear of a piece with a mind of its own",
+      "whole room carefree and worth every minute on duty",
+      "Ashley's shrub marked it seems and lost recipe owned",
+      "arrack as loud piece with sharp bright warm shrub",
+      "give the unplanned piece one evening"
+    ]
+  },
+  {
+    "pairing": "magician-sage",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[3], yours[5]. Give the withheld evidence and private doubt a direct cause and consequence, preserving the smallness of the reasons, mystery and fear of another person acting on a hope. State the existing-use counterweight without a nothing-was-rescued run-up and phrase the partial-rightness recognition naturally; preserve the signposted smell, foreign ridicule, duration and Italian/traditional counterweights. Untangle the long proposal by giving the concrete evidence first, retaining the family-account qualification, label analogy, freedom from carrying hope, own pace and eventual self-earned result.",
+    "meaning": {
+      "motive": "See potential through tiny reasons kept privately.",
+      "fear": "What was seen was only a hope, and someone acted because the guest said so.",
+      "gift": "People grow into the place kept for them, receiving unusually generous faith.",
+      "story": "Noninos separate fresh picolit pomace and print working; house accounts and imperfect outcome remain qualified.",
+      "drink": "Single-grape grappa Martini with fragrant fig leaf as a nod to looking twice at the already used.",
+      "proposal": "Show the small evidence so someone can grow at their own pace and own the result."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "That's the part nobody hears. Your reasons are so small that, said out loud, they'd sound like nothing, so you hand over the conclusion and keep the reasons. It's also why you can seem a little mysterious. Underneath sits a worry you seldom admit: that what you saw in someone was only what you hoped to see, and they went ahead because you said so.",
+        "after": "Your reasons seem so small that saying them aloud would make them sound like nothing. You give people the conclusion and keep the reasons, which can make you seem a little mysterious. What you seldom admit is the worry that you saw only what you hoped to see, and someone went ahead because you said so.",
+        "reason": "Give the withheld evidence and private doubt a direct cause and consequence, preserving the smallness of the reasons, mystery and fear of another person acting on a hope."
+      },
+      {
+        "field": "yours[3]",
+        "before": "3. Nothing was rescued. Grappa was already being made. They only looked at it differently, one grape at a time, and I like to think Giannola could already smell what was in the picolit that nobody had kept apart long enough to find. Abroad, the laughing went on for nearly twenty more years. And not everything went the way the new grappa promised: most grappa is still drunk in Italy, and the traditional style has come back. I recognise you in that. Not right about everything, but right about the part that mattered, years before most people could see it.",
+        "after": "3. Grappa was already being made; they looked at it differently, one grape at a time. I like to think Giannola could already smell what was in the picolit that nobody had kept apart long enough to find. Abroad, the laughing went on for nearly twenty more years. And not everything went the way the new grappa promised: most grappa is still drunk in Italy, and the traditional style has come back. I recognise that in you: you can be mistaken about some of it and still see the part that matters, years before most people.",
+        "reason": "State the existing-use counterweight without a nothing-was-rescued run-up and phrase the partial-rightness recognition naturally; preserve the signposted smell, foreign ridicule, duration and Italian/traditional counterweights."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. When you next see where someone's heading, show them what you saw, not just where you think they'll end up, the way the Noninos, as the family tells it, printed their working on the label: the evening they stayed behind, the small thing they fixed. Then they aren't carrying your hope. They're holding your reasons, and they can grow into them at their own pace. When they get there, they'll know they did it themselves. And you won't be the only one who can see it anymore.",
+        "after": "5. When you next see where someone's heading, tell them about the evening they stayed behind or the small thing they fixed. Show them your reasons as well as where you think they'll end up, the way the Noninos, as the family tells it, printed their working on the label. Then they can grow at their own pace with reasons they can see for themselves, instead of carrying your hope. When they get there, they'll know they did it themselves, and you won't be the only one who sees it anymore.",
+        "reason": "Untangle the long proposal by giving the concrete evidence first, retaining the family-account qualification, label analogy, freedom from carrying hope, own pace and eventual self-earned result."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: See potential through tiny reasons kept privately. Fear: What was seen was only a hope, and someone acted because the guest said so. Explicit gift: People grow into the place kept for them, receiving unusually generous faith.",
+      "story_and_drink": "Preserved: Noninos separate fresh picolit pomace and print working; house accounts and imperfect outcome remain qualified. Drink: Single-grape grappa Martini with fragrant fig leaf as a nod to looking twice at the already used.",
+      "proposal": "Preserved: Show the small evidence so someone can grow at their own pace and own the result.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "small repair noticed when others decided the person was finished",
+      "fear of seeing only a hope and prompting the person to act",
+      "faith usually received only from someone who loves them",
+      "family account, freshly pressed picolit and printed working",
+      "fig leaf as a nod to looking twice at the already used",
+      "show reasons so the other person grows at their own pace"
+    ]
+  },
+  {
+    "pairing": "outlaw-caregiver",
+    "decision": "edited",
+    "reason": "Reworked yours[3]. Keep the entire licence/presence interpretation inside its signature signpost, and replace the not-strength fragments with the public strength and less-seen continued care.",
+    "meaning": {
+      "motive": "Choose gentleness and stand beside the person who cannot answer back.",
+      "fear": "Strength is insufficient to protect someone who matters.",
+      "gift": "People feel safe without having to fight or feel small.",
+      "story": "Stoumen's licence fight and alcohol-free party; presence after lost power remains interpreted.",
+      "drink": "Horse's Neck soft drink leads for the party, with cognac strength underneath and whole lemon spiral.",
+      "proposal": "Stay when strength cannot fix it, give what remains and preserve the exact final person/strength turn."
+    },
+    "edits": [
+      {
+        "field": "yours[3]",
+        "before": "3. I like to think that night says more about Sol Stoumen than the court case does: the licence was his power, it was gone, and he stayed open for them and poured soft drinks. People rarely see that side of you. Not the strength. What you do once the strength has run out.",
+        "after": "3. I like to think that night says more about Sol Stoumen than the court case does: he stayed open for them and poured soft drinks after losing the licence that had been his power. People see your strength. They rarely see what you do when it runs out.",
+        "reason": "Keep the entire licence/presence interpretation inside its signature signpost, and replace the not-strength fragments with the public strength and less-seen continued care."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Choose gentleness and stand beside the person who cannot answer back. Fear: Strength is insufficient to protect someone who matters. Explicit gift: People feel safe without having to fight or feel small.",
+      "story_and_drink": "Preserved: Stoumen's licence fight and alcohol-free party; presence after lost power remains interpreted. Drink: Horse's Neck soft drink leads for the party, with cognac strength underneath and whole lemon spiral.",
+      "proposal": "Preserved: Stay when strength cannot fix it, give what remains and preserve the exact final person/strength turn.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "gentleness chosen repeatedly and temper never used",
+      "fear of being unable to protect someone who matters",
+      "Black Cat licence, court ruling and witness qualification",
+      "soft drink leading as a nod to the alcohol-free party",
+      "cognac strength underneath the pale dry ginger ale and long lemon spiral",
+      "stay and give what remains, including presence"
+    ]
+  },
+  {
+    "pairing": "outlaw-creator",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[5]. Connect the private quality doubt and public gift without the underneath/what-I-see staging, retaining the distinct fear of yes and ownership. Replace the moment-you-lose/moment-you-find-out formula with a plain account of accepting the evidence without losing the maker's identity, preserving the exact enemy-free experiment.",
+    "meaning": {
+      "motive": "Make better things before permission, then question the yes.",
+      "fear": "Being admitted means being owned; quality may depend on being forbidden.",
+      "gift": "People see better before it is allowed, benefiting far more than thank the guest.",
+      "story": "Grant's remembered illicit Glenlivet, Smith's licence and continued copying; private question remains interpreted.",
+      "drink": "Glenlivet Old-Fashioned with elderflower lifting existing flowers rather than trying to taste forbidden.",
+      "proposal": "Make with no enemy and let approval confirm quality without erasing who made it."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "It's the yes you don't trust. When the people in charge finally want what you made, something in you goes cold, as if being let in were the first step to being owned. And underneath sits a question you've never quite asked anyone: is it good, or only good because it isn't allowed? What I see is this. Much of what everyone takes for granted now, someone like you made first, before anyone agreed it could be done. You show people what better looks like while they're still saying no, and it matters to far more people than ever say so.",
+        "after": "It's the yes you don't trust. When the people in charge finally want what you made, something in you goes cold, as if being let in were the first step to being owned. You also carry a question you've never quite asked anyone: is it good, or only good because it isn't allowed? Yet much of what everyone takes for granted now was first made by someone like you, before anyone agreed it could be done. You show people what better looks like while they're still saying no, and it matters to far more people than ever say so.",
+        "reason": "Connect the private quality doubt and public gift without the underneath/what-I-see staging, retaining the distinct fear of yes and ownership."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. Make something that isn't against anything: no rule in its way, nobody to prove wrong. Then show it to the people whose approval you've never wanted. If they want it, that isn't the moment you lose. It's the moment you find out it was good. And you'll still be the one who made it.",
+        "after": "5. Make something that isn't against anything: no rule in its way, nobody to prove wrong. Then show it to the people whose approval you've never wanted. If they want it, let yourself hear that it was good. Their approval doesn't undo your part in it: you'll still be the one who made it.",
+        "reason": "Replace the moment-you-lose/moment-you-find-out formula with a plain account of accepting the evidence without losing the maker's identity, preserving the exact enemy-free experiment."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Make better things before permission, then question the yes. Fear: Being admitted means being owned; quality may depend on being forbidden. Explicit gift: People see better before it is allowed, benefiting far more than thank the guest.",
+      "story_and_drink": "Preserved: Grant's remembered illicit Glenlivet, Smith's licence and continued copying; private question remains interpreted. Drink: Glenlivet Old-Fashioned with elderflower lifting existing flowers rather than trying to taste forbidden.",
+      "proposal": "Preserved: Make with no enemy and let approval confirm quality without erasing who made it.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "making before say-so and fear of being owned",
+      "doubt whether the thing is good or only forbidden",
+      "Grant's remembered whisky and Smith licence chronology",
+      "Smith question inside I like to think",
+      "Glenlivet flowers drawn out with elderflower",
+      "make without an enemy and show it to the people in charge"
+    ]
+  },
+  {
+    "pairing": "outlaw-explorer",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[1], yours[3], yours[5]. Make the three concrete invitations a sentence with the friends' response, retaining the lake, swing, overnight plan, groan and lasting story. Put the invitation and authority recognition into the bartender's own sentences instead of negative fragments, preserving the unknown sender, signposted intention, exact quote and later fun account. Remove the staged bigger-drop/it-isn't-a-bridge sequence and connect the metaphor directly to the unchosen life plan; keep the limited reclaiming, public commitment and Kirke statement.",
+    "meaning": {
+      "motive": "Choose a moment of helplessness that frees them from others' decisions.",
+      "fear": "Polite life planned by someone else, with no choices of their own.",
+      "gift": "Turn what scares people into shared fun and permission to feel alive.",
+      "story": "Recorded bungee jumps, Kirke's accounts and unknown posted invitations; intention stays interpreted.",
+      "drink": "Sloe sour with Cynar artichoke edge as the flinch turned into a remembered pleasure.",
+      "proposal": "Reclaim one piece of the unchosen life plan and send public invitations to it."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "before": "The cold lake in March. The rope swing nobody else will try. The plan that sounded mad at dinner and is happening by morning. Your friends groan. Then they come, and it turns into the night they're still telling people about years later.",
+        "after": "Your friends groan at the cold lake in March, the rope swing nobody else will try, the plan that sounded mad at dinner and is happening by morning. Then they come, and it turns into the night they're still telling people about years later.",
+        "reason": "Make the three concrete invitations a sentence with the friends' response, retaining the lake, swing, overnight plan, groan and lasting story."
+      },
+      {
+        "field": "yours[3]",
+        "before": "3. A journalist who met Kirke wrote that the printed invitations had already gone out, so there was no backing out. Who posted them, we don't know. I like to think someone did it on purpose, closing the way back before anyone else could close it for them. That's you: not the jump, the invitations. Kirke once said the club was against \"little, important bourgeois instructors\" telling people they had to pass exams before they were allowed to try a sport. Not the danger. Who gets to decide. And years later he said he was glad his stunts had given people some fun.",
+        "after": "3. A journalist who met Kirke wrote that the printed invitations had already gone out, so there was no backing out. Who posted them, we don't know. I like to think someone did it on purpose, closing the way back before anyone else could close it for them. I see you in those invitations more than in the jump. Kirke once said the club was against \"little, important bourgeois instructors\" telling people they had to pass exams before they were allowed to try a sport. That's the part that reminds me of you: who gets to decide. And years later he said he was glad his stunts had given people some fun.",
+        "reason": "Put the invitation and authority recognition into the bartender's own sentences instead of negative fragments, preserving the unknown sender, signposted intention, exact quote and later fun account."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. So I'd never tell you to stop jumping. I'd point you at a bigger drop. It isn't off a bridge. It's the plan for your life that somebody sensible drew up, a little at a time, that you've half stopped noticing you never chose. You don't have to tear it up. Take one piece of it back, the way you'd step off an edge: decide, tell people, send the invitations, so there's no backing out. Kirke said life is very long without those brief moments. I'd add one thing. The long part can be yours too.",
+        "after": "5. Keep jumping. There's a bigger drop in the plan for your life that somebody sensible drew up, a little at a time, and that you've half stopped noticing you never chose. You don't have to tear it up. Take one piece back, the way you'd step off an edge: decide, tell people, send the invitations, so there's no backing out. Kirke said life is very long without those brief moments. I'd like the long part to be yours too.",
+        "reason": "Remove the staged bigger-drop/it-isn't-a-bridge sequence and connect the metaphor directly to the unchosen life plan; keep the limited reclaiming, public commitment and Kirke statement."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Choose a moment of helplessness that frees them from others' decisions. Fear: Polite life planned by someone else, with no choices of their own. Explicit gift: Turn what scares people into shared fun and permission to feel alive.",
+      "story_and_drink": "Preserved: Recorded bungee jumps, Kirke's accounts and unknown posted invitations; intention stays interpreted. Drink: Sloe sour with Cynar artichoke edge as the flinch turned into a remembered pleasure.",
+      "proposal": "Preserved: Reclaim one piece of the unchosen life plan and send public invitations to it.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "lake, rope swing and laughing friends",
+      "fear of life decided by someone else",
+      "Kirke's reports, first recorded jumps and unknown invitation sender",
+      "sloe sweetness and Cynar artichoke as the flinch transformed",
+      "take one chosen piece back and send invitations"
+    ]
+  },
+  {
+    "pairing": "outlaw-hero",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], whoYouAre[3]. Join the rejected motives and long waiting list into the actual drive and fear, retaining the hidden self-directed relief and willingness to pay a cost. Replace the announcement that the gift is real and the it-works/other-half fragments with the successful back way and remaining rule, keeping the exact kindness and next-person consequence.",
+    "meaning": {
+      "motive": "Cannot watch harm continue, and finds a way round the rule for others.",
+      "fear": "Forced waiting and helplessness, privately relieved through action.",
+      "gift": "The rules cease to be the end of the matter for the people helped.",
+      "story": "Solarin deliberately arrested as a non-drinker; mechanism unknown before signposted interpretation.",
+      "drink": "Equal ogogoro/gin Martini represents one rule for both, with attributed Pedro's toffee and orange.",
+      "proposal": "Challenge one repeat rule publicly so it changes for everyone and need not be watched again."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "People put it down to nerve, or a taste for trouble. It's neither. It's that you can't watch. Being told to wait, to go through the proper channels, to leave it to the people who run things while it carries on happening: that's the thing that truly frightens you. And there's a part you'd never say out loud: some of it is for you. Doing something, even something that costs you, is how you stop feeling helpless.",
+        "after": "People put it down to nerve or a taste for trouble. You do it because you can't bear to watch it carry on while you're told to wait, go through the proper channels and leave it to the people who run things. That helplessness is what truly frightens you. Some of it is for you, though you'd never say so: doing something, even at a cost to yourself, is how you stop feeling helpless.",
+        "reason": "Join the rejected motives and long waiting list into the actual drive and fear, retaining the hidden self-directed relief and willingness to pay a cost."
+      },
+      {
+        "field": "whoYouAre[3]",
+        "before": "So you fix it, quietly, one person at a time: a rule bent just for them, a back way found. It works. What it gives people is real: with you around, \"those are the rules\" stops being the end of the matter, and that matters more than you let yourself think. But you know the other half. The rule is still there in the morning, and so is the next person it lands on.",
+        "after": "You find quiet ways round it, one person at a time: a rule bent just for them, a back way that works. With you around, \"those are the rules\" stops being the end of the matter, and that matters more than you let yourself think. But the rule is still there in the morning, and so is the next person it lands on.",
+        "reason": "Replace the announcement that the gift is real and the it-works/other-half fragments with the successful back way and remaining rule, keeping the exact kindness and next-person consequence."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Cannot watch harm continue, and finds a way round the rule for others. Fear: Forced waiting and helplessness, privately relieved through action. Explicit gift: The rules cease to be the end of the matter for the people helped.",
+      "story_and_drink": "Preserved: Solarin deliberately arrested as a non-drinker; mechanism unknown before signposted interpretation. Drink: Equal ogogoro/gin Martini represents one rule for both, with attributed Pedro's toffee and orange.",
+      "proposal": "Preserved: Challenge one repeat rule publicly so it changes for everyone and need not be watched again.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "working out the rule and back way for someone else",
+      "doing something to stop feeling helpless",
+      "Solarin non-drinker, deliberate arrest and same-year ban ending",
+      "event left unknown before signposted interpretation",
+      "equal ogogoro and gin as one rule for both",
+      "pick the repeat rule and challenge it where people can see"
+    ]
+  },
+  {
+    "pairing": "outlaw-innocent",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[5]. Give the long-held promise an ordinary subject and make the gradual-change fear flow, preserving the private checking, lack of coercion or noticeable moment, and successive good reasons. Turn the repeated refusal/love aphorisms into a direct invitation and its qualified effect on arguments, preserving the promise, timing and wider way of being known.",
+    "meaning": {
+      "motive": "Keep a long-held promise about who not to become.",
+      "fear": "Gentle self-change through successive good reasons, without coercion or a noticed moment.",
+      "gift": "People recall what they meant before a room talked itself into an untruth.",
+      "story": "Chartreuse probably popular around 2021, 2023 written reason protecting solitude/prayer; motive interpreted.",
+      "drink": "Armagnac Old-Fashioned with one tablespoon yellow Chartreuse as all it needs.",
+      "proposal": "Show the love the refusal protects and become known for more than refusing."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Underneath sits a promise, made a long time ago, about the person you'd never turn into. You check on it more often than anyone would guess. What scares you is how gently the change would come: nobody forcing you, no moment you'd notice, only your own good reasons, one after another, until you're someone you once swore you'd never be.",
+        "after": "Long ago, you promised yourself there was a person you'd never turn into. You check on that promise more often than anyone would guess. What frightens you is how gently you could change, without anyone forcing you or a moment you'd notice: only your own good reasons, one after another, until you're someone you once swore you'd never be.",
+        "reason": "Give the long-held promise an ordinary subject and make the gradual-change fear flow, preserving the private checking, lack of coercion or noticeable moment, and successive good reasons."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. Keep the promise. But most people know you by what you turn down. Let someone see what it's protecting: what you love, up close, before anyone gets the chance to argue. A refusal starts arguments. Something you love, shown to someone, tends to end them. And then you're known for what you love, not only for what you refuse.",
+        "after": "5. Keep the promise, and let someone see what it protects, up close, before there's anything to argue about. Most people know you by what you turn down. Showing them what you love tends to end the arguments a refusal starts. You get to be known for that love as well as what you refuse.",
+        "reason": "Turn the repeated refusal/love aphorisms into a direct invitation and its qualified effect on arguments, preserving the promise, timing and wider way of being known."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Keep a long-held promise about who not to become. Fear: Gentle self-change through successive good reasons, without coercion or a noticed moment. Explicit gift: People recall what they meant before a room talked itself into an untruth.",
+      "story_and_drink": "Preserved: Chartreuse probably popular around 2021, 2023 written reason protecting solitude/prayer; motive interpreted. Drink: Armagnac Old-Fashioned with one tablespoon yellow Chartreuse as all it needs.",
+      "proposal": "Preserved: Show the love the refusal protects and become known for more than refusing.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "face giving away the false agreement",
+      "fear of gradual self-change through good reasons",
+      "Chartreuse popularity probably and around 2021 preserved",
+      "2023 letter's stated solitude-and-prayer reason",
+      "one tablespoon of yellow Chartreuse as the nod",
+      "show what the promise protects before refusal is debated"
+    ]
+  },
+  {
+    "pairing": "outlaw-jester",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[3], yours[4]. Let the concrete release from fear state the gift, without the more-than-a-laugh opener and repeated real-gift grading. Give the lime fragment a verb while preserving the exact preparation, sweetness job, Trinidad/Angostura relationship, doubling and song link.",
+    "meaning": {
+      "motive": "Aim a chosen joke at authority where a plain sentence would be stopped.",
+      "fear": "The joke copied with its point removed, or sincerity making others stop it.",
+      "gift": "Laughing at ordinary power gives people nerve and less fear.",
+      "story": "Lord Invader, Belasco, Amsterdam, court and follow-up songs; creative-origin meaning signposted.",
+      "drink": "Trinidad rum and Coca-Cola with doubled lime keeps popular sweetness sharp as a nod to the song.",
+      "proposal": "Make another joke, aimed higher, rather than spending the evening proving ownership."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[3]",
+        "before": "And what you give is more than a laugh. When a room laughs at whatever's in charge, it sees how ordinary the thing really is, and fears it less. That's how you hand people their nerve back, and it's a real gift, whatever you call it.",
+        "after": "When a room laughs at whatever's in charge, people see how ordinary it is and fear it less. Your jokes give them their nerve back.",
+        "reason": "Let the concrete release from fear state the gift, without the more-than-a-laugh opener and repeated real-gift grading."
+      },
+      {
+        "field": "yours[4]",
+        "before": "4. The cocktail I've made for you is rum and Coca-Cola. It's older than the song, and simple, but made properly it's a classic worth asking for by name, long and cold over plenty of ice. The rum I'd pick is from Trinidad, from the same house as the Angostura bitters that go on last, so the island reaches you before anything else. And the lime, squeezed and dropped into the glass, to cut through the cola's sweetness. I doubled the lime in the recipe I started from, as a nod to the song: sweet enough for everyone to sing, and still sharp.",
+        "after": "4. The cocktail I've made for you is rum and Coca-Cola. It's older than the song, and simple, but made properly it's a classic worth asking for by name, long and cold over plenty of ice. The rum I'd pick is from Trinidad, from the same house as the Angostura bitters that go on last, so the island reaches you before anything else. The lime is squeezed and dropped into the glass to cut through the cola's sweetness. I doubled the lime in the recipe I started from, as a nod to the song: sweet enough for everyone to sing, and still sharp.",
+        "reason": "Give the lime fragment a verb while preserving the exact preparation, sweetness job, Trinidad/Angostura relationship, doubling and song link."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Aim a chosen joke at authority where a plain sentence would be stopped. Fear: The joke copied with its point removed, or sincerity making others stop it. Explicit gift: Laughing at ordinary power gives people nerve and less fear.",
+      "story_and_drink": "Preserved: Lord Invader, Belasco, Amsterdam, court and follow-up songs; creative-origin meaning signposted. Drink: Trinidad rum and Coca-Cola with doubled lime keeps popular sweetness sharp as a nod to the song.",
+      "proposal": "Preserved: Make another joke, aimed higher, rather than spending the evening proving ownership.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "table laugh and late head-of-table laugh",
+      "fear of the point removed from a copied joke",
+      "Lord Invader, Belasco and song theft account",
+      "teasing interpretation inside I like to think",
+      "Trinidad rum and doubled lime keeping the popular song sharp",
+      "make another joke and aim it higher"
+    ]
+  },
+  {
+    "pairing": "outlaw-lover",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[1], yours[5]. Keep the abrupt decisions as vivid opening images while joining the fragment row and removing a repeated connective, preserving their speed, advice resisted and escape motive. Keep the conditional choice and chosen-place adventure, replacing the repeated caught/stopping definitions with the freedom the guest keeps by choosing to stay.",
+    "meaning": {
+      "motive": "Choose people and whole lives all at once as love and a way out.",
+      "fear": "Someone else parks them and the new life acquires the old life's rules.",
+      "gift": "The chosen person knows they were picked above everything, inspiring courage in others.",
+      "story": "Stevenson and Fanny's journeys, bunkhouse, mine wine and later home; chosen-stopping interpretation stays.",
+      "drink": "California white wine highball chilled overnight with bay as a nod to the mine tunnel and scented canyon.",
+      "proposal": "Ask what would be left, leave control if needed, or choose a place and make staying the adventure."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "before": "A one-way ticket. A job left on a Friday. A family dinner where you finally told them, and the table went quiet. You've chosen people, places and whole lives like that: all at once, and usually against advice. And every time, choosing and getting free felt like the same thing. Whoever you fell for was also the way out.",
+        "after": "A one-way ticket, a job left on a Friday, a family dinner where you finally told them and the table went quiet: you've chosen people, places and whole lives like that, all at once and usually against advice. Every time, choosing and getting free felt like the same thing. Whoever you fell for was also the way out.",
+        "reason": "Keep the abrupt decisions as vivid opening images while joining the fragment row and removing a repeated connective, preserving their speed, advice resisted and escape motive."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. When the pull to go comes again, ask yourself what you'd be leaving. If it's someone deciding for you, go. If it isn't, stop, on purpose, in a place of your choosing, and make that the adventure. Being caught means someone else chose where you'd end up. Stopping means you did.",
+        "after": "5. When the pull to go comes again, ask yourself what you'd be leaving. If it's someone deciding for you, go. If it isn't, stop on purpose in a place of your choosing, and make that the adventure. You can stay and still be the one who chose where you ended up.",
+        "reason": "Keep the conditional choice and chosen-place adventure, replacing the repeated caught/stopping definitions with the freedom the guest keeps by choosing to stay."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Choose people and whole lives all at once as love and a way out. Fear: Someone else parks them and the new life acquires the old life's rules. Explicit gift: The chosen person knows they were picked above everything, inspiring courage in others.",
+      "story_and_drink": "Preserved: Stevenson and Fanny's journeys, bunkhouse, mine wine and later home; chosen-stopping interpretation stays. Drink: California white wine highball chilled overnight with bay as a nod to the mine tunnel and scented canyon.",
+      "proposal": "Preserved: Ask what would be left, leave control if needed, or choose a place and make staying the adventure.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "whole lives chosen against advice",
+      "fear of being parked and inheriting rules again",
+      "Stevenson and Fanny's reported journey and mine wine storage",
+      "single-candle ending held inside I like to think",
+      "California white chilled with bay as nod to tunnel and canyon",
+      "ask what would be left and choose an adventure in stopping"
+    ]
+  },
+  {
+    "pairing": "outlaw-magician",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[5]. Join love and private grief without the generic nobody-fights maxim, and make the quiet decline and silence one clear fear instead of a staged reveal. Explain the apparent undoing through the original purpose rather than two opposing fragments, keeping the reason said aloud, handover, possible old form and renewed shared love.",
+    "meaning": {
+      "motive": "End only loved things so they can live again.",
+      "fear": "Polite preservation erases meaning while the guest sees it and says nothing.",
+      "gift": "The loved thing gets a second life, including for people angry at the break.",
+      "story": "Gaja demotion has two stated reasons, not one; children restore the wines with his support.",
+      "drink": "Young Langhe syrup supports grappa, with the regional-name coincidence openly owned.",
+      "proposal": "Say why during the ending and leave rebuilding to others, even if the old shape returns."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "You only ever break the things you love. Nobody fights that hard over something they don't care about. And afterwards you miss it, often more than the ones who were angry with you. You tell no one, in case it's taken for an apology. Your real fear is quieter than any row. It's something good being kept going out of politeness, year after year, until nobody remembers why it mattered, and you, who saw it, said nothing.",
+        "after": "You only ever break the things you love, and afterwards you miss them, often more than the people who were angry with you. You tell no one, in case it's taken for an apology. Your real fear is quieter than any row: watching something good go on out of politeness, year after year, until nobody remembers why it mattered, and never saying what you saw.",
+        "reason": "Join love and private grief without the generic nobody-fights maxim, and make the quiet decline and silence one clear fear instead of a staged reveal."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. When you next end something you love, say why while you're doing it: that it's for the thing's sake. Then leave the rebuilding to someone else, even if they bring back something that looks a lot like the old way. That isn't your break being undone. It's what it was for. And you get to love the thing again, without carrying it alone.",
+        "after": "5. When you next end something you love, say why while you're doing it: that it's for the thing's sake. Then leave the rebuilding to someone else, even if they bring back something that looks a lot like the old way. Bringing it back doesn't undo the reason you ended it. You wanted it to live again, and now you get to love it without carrying it alone.",
+        "reason": "Explain the apparent undoing through the original purpose rather than two opposing fragments, keeping the reason said aloud, handover, possible old form and renewed shared love."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: End only loved things so they can live again. Fear: Polite preservation erases meaning while the guest sees it and says nothing. Explicit gift: The loved thing gets a second life, including for people angry at the break.",
+      "story_and_drink": "Preserved: Gaja demotion has two stated reasons, not one; children restore the wines with his support. Drink: Young Langhe syrup supports grappa, with the regional-name coincidence openly owned.",
+      "proposal": "Preserved: Say why during the ending and leave rebuilding to others, even if the old shape returns.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "breaking only loved things and missing them afterwards",
+      "fear of something kept going until its meaning is forgotten",
+      "Gaja's two reasons and children's return to Barbaresco",
+      "first-reason interpretation signposted",
+      "Langhe syrup coincidence explicitly owned",
+      "say why, hand over the rebuilding and love it again"
+    ]
+  },
+  {
+    "pairing": "outlaw-regular-guy",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[5]. Replace repeated introductions to the line with the actual limits and discretion, preserving non-negotiability, fear of sounding soft, reliable safety and certainty of standing. Remove the opaque cost phrase that restates the established refusal to cross the line, and make the change from private habit to given word a specific act of accountability.",
+    "meaning": {
+      "motive": "Know the informal routes while keeping an unwritten non-negotiable line.",
+      "fear": "Rule-makers push others around while breaking their own rules.",
+      "gift": "Reliable limits let people feel safe and know where they stand.",
+      "story": "Guilty Olmstead's no-guns rule and unlawful wiretapping, Brandeis dissent; no innocence excuse added.",
+      "drink": "Canadian whisky and one exact maple teaspoon, with sweetness limit and held-line link.",
+      "proposal": "Tell a trusted person the line, invite equal accountability and give a public word."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "Behind all that, there's a line. You've got one, and you've never needed to write it down. There are things you won't do, whatever they'd win you, and you keep that to yourself, because out loud it would sound soft. But it's why the people near you feel safe. They may not know exactly where the line is. They know you won't cross it. That matters more than you'd guess: with you, nobody has to wonder where they stand.",
+        "after": "You've never needed to write down your line. There are things you won't do, whatever they'd win you. You keep that to yourself because saying it aloud would sound soft, but it's why the people near you feel safe. They may not know exactly where the line is, yet they know you won't cross it. With you, nobody has to wonder where they stand.",
+        "reason": "Replace repeated introductions to the line with the actual limits and discretion, preserving non-negotiability, fear of sounding soft, reliable safety and certainty of standing."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. You make more of the rules around you than you'd ever admit: who gets helped, and how, and what's never done. So let one person you trust in on where your line is, and let them hold you to it, as you'd hold anyone else. It costs you nothing you'd ever spend. And once someone else can see it, your line isn't a habit any more. It's your word.",
+        "after": "5. You make more of the rules around you than you'd ever admit: who gets helped, and how, and what's never done. Let one person you trust in on where your line is, and let them hold you to it, as you'd hold anyone else. Once you've said it to someone else, you've given your word.",
+        "reason": "Remove the opaque cost phrase that restates the established refusal to cross the line, and make the change from private habit to given word a specific act of accountability."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Know the informal routes while keeping an unwritten non-negotiable line. Fear: Rule-makers push others around while breaking their own rules. Explicit gift: Reliable limits let people feel safe and know where they stand.",
+      "story_and_drink": "Preserved: Guilty Olmstead's no-guns rule and unlawful wiretapping, Brandeis dissent; no innocence excuse added. Drink: Canadian whisky and one exact maple teaspoon, with sweetness limit and held-line link.",
+      "proposal": "Preserved: Tell a trusted person the line, invite equal accountability and give a public word.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "informal doors opening without making someone feel small",
+      "private line that makes people feel safe",
+      "fear of rule-makers pushing others around while exempting themselves",
+      "Olmstead's guilt, weapons rule and five-to-four decision",
+      "one flat teaspoon maple with sweetness limit",
+      "tell one trusted person the line and accept accountability"
+    ]
+  },
+  {
+    "pairing": "outlaw-ruler",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[2], yours[3], yours[5]. Connect the hidden planning preference to its motive and give the takeover fear a complete sentence, preserving the rebel appearance and smoothing-out risk. Replace the look-what-didn't-stop staging and whole-wave/only fragments with the surviving movement and a single signposted motive, preserving every date, duration, owner scope and attribution. Keep the bartender's steering joke and concrete handover, replacing the getting-away/real opposition with the actual evidence of an idea living in other hands.",
+    "meaning": {
+      "motive": "Give an emerging idea form and quietly steer it while fragile.",
+      "fear": "Others who do not understand smooth it out and take the controls.",
+      "gift": "New things survive and grow because the guest steers them.",
+      "story": "Maytag's brewery and secret rye, dated closure/revival and later waves; motive stays signposted.",
+      "drink": "Old Potrero rye Sidecar with worked quince as a nod to sour beer put right; today's ageing caveat retained.",
+      "proposal": "Keep steering one chosen part while other hands run the rest, freeing space for a next idea."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[2]",
+        "before": "People see the rebel. They don't see the plan, and you prefer it that way, because wanting to steer sounds like the very thing you were all against. So you steer quietly. What worries you is what it turns into afterwards: run by people who never got it, smoothed out for everyone, your hands nowhere near it.",
+        "after": "People see the rebel and miss the plan. You prefer that: wanting to steer sounds like the very thing you were all against. So you steer quietly. You worry about it ending up in the hands of people who never got it, smoothed out for everyone, with you nowhere near the controls.",
+        "reason": "Connect the hidden planning preference to its motive and give the takeover fear a complete sentence, preserving the rebel appearance and smoothing-out risk."
+      },
+      {
+        "field": "yours[3]",
+        "before": "3. When he sold, in 2010, the man who'd steered it for forty-five years said he'd do whatever the new boss said, to help them do well. Thirteen years later, under other owners, the brewery went quiet. A new owner has promised it back, though in the autumn of 2026 it still wasn't pouring. That's your fear, come true long after he'd let go. But look at what didn't stop: the small breweries everywhere, and a wave of new small-distillery ryes that the same book says began with his. I like to think that's why he could offer to take orders. He'd never needed the whole wave. Only to start it, and keep one part small enough to steer himself.",
+        "after": "3. When he sold, in 2010, the man who'd steered it for forty-five years said he'd do whatever the new boss said, to help them do well. Thirteen years later, under other owners, the brewery went quiet. A new owner has promised it back, though in the autumn of 2026 it still wasn't pouring. That's your fear, come true long after he'd let go. Yet the small breweries everywhere carried on, as did the wave of new small-distillery ryes that the same book says began with his. I like to think he could offer to take orders because he'd only needed to start the wave and keep one part small enough to steer himself.",
+        "reason": "Replace the look-what-didn't-stop staging and whole-wave/only fragments with the surviving movement and a single signposted motive, preserving every date, duration, owner scope and attribution."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. So let me steer, just once. When something you started takes off, don't try to hold on to all of it. Decide what you'll keep steering yourself, and do it properly. Let the rest run in other people's hands. That isn't it getting away from you. It's how you'll know it was real. And it leaves you free for the next thing nobody has a name for yet.",
+        "after": "5. So let me steer, just once. When something you started takes off, don't try to hold on to all of it. Decide what you'll keep steering yourself, and do it properly. Let the rest run in other people's hands. You'll see that it was real, and be free for the next thing nobody has a name for yet.",
+        "reason": "Keep the bartender's steering joke and concrete handover, replacing the getting-away/real opposition with the actual evidence of an idea living in other hands."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Give an emerging idea form and quietly steer it while fragile. Fear: Others who do not understand smooth it out and take the controls. Explicit gift: New things survive and grow because the guest steers them.",
+      "story_and_drink": "Preserved: Maytag's brewery and secret rye, dated closure/revival and later waves; motive stays signposted. Drink: Old Potrero rye Sidecar with worked quince as a nod to sour beer put right; today's ageing caveat retained.",
+      "proposal": "Preserved: Keep steering one chosen part while other hands run the rest, freeing space for a next idea.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "giving a new idea its first name and shape",
+      "fear of it run by people who never understood it",
+      "Maytag's sour beer, ten years and quoted spending",
+      "dated autumn-2026 brewery status and perhaps-too-early attribution",
+      "quince worked into the rye Sidecar as a nod to the beer put right",
+      "keep steering one part and leave room for the next unnamed thing"
+    ]
+  },
+  {
+    "pairing": "outlaw-sage",
+    "decision": "edited",
+    "reason": "Reworked whoYouAre[1], whoYouAre[3], yours[5]. Keep the settled trigger, actual private agreement and deliberate opposing role, while replacing the repeated argued/tested/agreed definitions with the test the guest wants. Replace the unbounded survive-almost-anything claim and thank-you injunction with the specific preparedness the guest gives others, preserving the boss example and absent immediate thanks. Retain the purposeful narrator taking a side, but replace the no-escape-hatch fragments and repeated pushback instruction with a direct exposure of the guest's own view; preserve the exact quoted defence and qualified gain.",
+    "meaning": {
+      "motive": "Take the other side to test an idea, even when privately agreeing.",
+      "fear": "Dismissed questions mean decisions others were not permitted to test.",
+      "gift": "Others have an answer ready for the real objection.",
+      "story": "Morgenthaler grants old Sour weaknesses and fixes them; exact quotes and pleasing-teasing inference stay.",
+      "drink": "Amaretto Sour with no syrup, less lemon and sherry vinegar defending the side nobody takes.",
+      "proposal": "Argue openly for a loved view, exposing the real self to challenge without the quoted escape."
+    },
+    "edits": [
+      {
+        "field": "whoYouAre[1]",
+        "before": "Someone says it's settled, and something in you sits up. It isn't that you think they're wrong. Often you think they're right. But nobody has argued with it yet, and an idea nobody has argued with hasn't been tested. It's only been agreed with. So you take the other side.",
+        "after": "Someone says it's settled, and something in you sits up. Often you think they're right, but nobody has argued with the idea yet. You take the other side to find out whether it stands up to a challenge, instead of leaving it at agreement.",
+        "reason": "Keep the settled trigger, actual private agreement and deliberate opposing role, while replacing the repeated argued/tested/agreed definitions with the test the guest wants."
+      },
+      {
+        "field": "whoYouAre[3]",
+        "before": "Nobody says thank you in the moment. They should. An idea that's survived you can survive almost anything, and when the real objection comes, from a boss, say, the others already have the answer, because you made them find it.",
+        "after": "An idea you've tested is ready for the objections they'll meet elsewhere, from a boss, say. The others already have an answer because you made them find it, even if nobody says thank you in the moment.",
+        "reason": "Replace the unbounded survive-almost-anything claim and thank-you injunction with the specific preparedness the guest gives others, preserving the boss example and absent immediate thanks."
+      },
+      {
+        "field": "yours[5]",
+        "before": "5. Here's my side, and I mean it. Keep testing everything: people are better for it, even the ones who sigh. But now and then, argue for something you actually love, and say plainly that it's what you think. No escape hatch, no \"just for the sake of argument\". Let them push back on you for a change. You may find your own ideas survive you too, and everyone else finally gets to argue with the real you.",
+        "after": "5. Here's my side, and I mean it. Keep testing everything: people are better for it, even the ones who sigh. But now and then, argue for something you actually love, and say plainly that it's what you think. Let them challenge a view that's yours, without \"just for the sake of argument\" to protect it. You may find your own ideas survive you too, and everyone else finally gets to argue with the real you.",
+        "reason": "Retain the purposeful narrator taking a side, but replace the no-escape-hatch fragments and repeated pushback instruction with a direct exposure of the guest's own view; preserve the exact quoted defence and qualified gain."
+      }
+    ],
+    "meaning_checks": {
+      "comparison": "Entire current reading reviewed, then edited paragraphs compared with the original baseline and this pass's snapshot. Final paragraphs reread for voice and loss of meaning.",
+      "psychology": "Preserved: Take the other side to test an idea, even when privately agreeing. Fear: Dismissed questions mean decisions others were not permitted to test. Explicit gift: Others have an answer ready for the real objection.",
+      "story_and_drink": "Preserved: Morgenthaler grants old Sour weaknesses and fixes them; exact quotes and pleasing-teasing inference stay. Drink: Amaretto Sour with no syrup, less lemon and sherry vinegar defending the side nobody takes.",
+      "proposal": "Preserved: Argue openly for a loved view, exposing the real self to challenge without the quoted escape.",
+      "claims": "No historical/drink claim, chronology, scope, name, quoted wording, date, amount or sensory claim was added or dropped. Rephrased interpretations remain the bartender's own; all I like to think signatures and actual caveats remain.",
+      "evidence": "Exact snapshot replay, protected-region bytes, epigraphs/closing lines, paragraph labels, all history paragraphs 1–2, numeric sequences, exact quotations and caveat counts verified with standard-library code."
+    },
+    "preserved_voice": [
+      "taking the other side while privately agreeing",
+      "fear of questions dismissed and decisions left untested",
+      "Morgenthaler's exact quotations and attributed boast",
+      "teasing interpretation signposted",
+      "no syrup and sherry vinegar defending the neglected side",
+      "argue for an actual love and let others challenge it"
+    ]
+  }
+]

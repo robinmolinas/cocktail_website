@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-27 (batch creator)
 
 - **name:** Rosetta
 - **tagline:** The things you love become worlds you never finish exploring.
+- **words:** Hypnotic · Aniseed · Silky
 - **glassware:** a stemmed water goblet or a large wine glass (240 ml or more)
 - **contains:** `[]`
 

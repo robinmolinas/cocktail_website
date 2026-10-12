@@ -8,3 +8,11 @@ export function pourFromLocation(): string | null {
   const m = window.location.hash.match(/^#pour=(.+)$/);
   return m ? m[1] : null;
 }
+
+/** A keep link (the owner's own copy) marks its pour with one leading 'k'. */
+export const KEEP_MARK = 'k';
+
+/** Whether the current URL is the owner's keep link rather than a gift. */
+export function keptFromLocation(): boolean {
+  return pourFromLocation()?.startsWith(KEEP_MARK) ?? false;
+}

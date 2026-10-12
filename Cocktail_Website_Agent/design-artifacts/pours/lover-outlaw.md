@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 
 - **name:** Accomplices
 - **tagline:** Around you, people drop the act and like who they find underneath.
+- **words:** Lush · Earthy · Bittersweet
 - **glassware:** coupe (about 180 ml), chilled
 - **contains:** `[]`
 
@@ -62,7 +63,7 @@ authored_in: the room, 2026-10-04 (batch lover)
 **whoYouAre**
 Two hours into a polite evening, you lean over and whisper, "Coming?" Twenty minutes later the two of you are sitting on a kerb with chips, laughing too loudly. Then they tell you something they've never told anyone. You weren't getting them into trouble. You were getting through to them.
 
-People call you a bad influence, and you let them, because it's half true and it makes a better story. The rest of it: polite feels lonely to you. It keeps everyone at arm's length, you included. You don't want an audience. You want accomplices. Under every "come on" there's a "please come", and you'd rather raise the stakes than say that plainly. What you dread is being kept for the noise: loved as the wild one and never really known, or made sensible and quietly dropped. That's your gift: around you, people drop the act. They say the honest thing, the funny thing, and they like who they are when they're with you.
+People call you a bad influence, and you let them, because it's half true and it makes a better story. The rest of it: polite feels lonely to you. It keeps everyone at arm's length, you included. You don't want an audience. You want accomplices. Under every "come on" there's a "please come", and you'd rather raise the stakes than say that plainly. What you dread is being kept for the noise: loved as the wild one and never really known, or made sensible and quietly dropped. Around you, people drop the act. They say the honest thing, the funny thing, and they like who they are when they're with you.
 
 **yours**
 

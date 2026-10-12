@@ -23,6 +23,7 @@ function fixturePour(pairing: PairingKey, personality: string): AuthoredPour {
     cocktail: {
       name: 'Fixture Pour',
       tagline: 'A small light in the glass.',
+      words: ['Bright', 'Clean', 'Cold'],
       glassware: 'Coupe',
       serves: '1',
       recipeIntro: 'Keep the glass cold.',

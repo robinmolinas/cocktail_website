@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch lover)
 
 - **name:** Out of Your Way
 - **tagline:** Some people send their love. You bring it.
+- **words:** Mellow · Fruity · Spiced
 - **glassware:** stemmed red wine glass (about 250 ml), at room temperature, no ice
 - **contains:** `[]`
 

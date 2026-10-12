@@ -13,6 +13,7 @@ authored_in: the room, 2026-10-01 (batch regular-guy)
 
 - **name:** First Choice
 - **tagline:** People feel at home with you before they've even taken their coats off.
+- **words:** Mellow · Fruity · Rounded
 - **glassware:** coupe, chilled
 - **contains:** `[]`
 
@@ -62,7 +63,7 @@ What you don't tell anyone is that you'd like, now and then, to be the plan and 
 
 1. In the 1890s, the story goes, a Chicago saloon keeper named Williams was a guest at a summer house in Cohasset, Massachusetts, when the party agreed that New England made the best punch. Williams wasn't satisfied with the verdict. He wired his partner, Tom Newman, to make a new punch and ship it by the keg, express. It came, and it won the room over.
 
-2. And here's the twist. Chicago's answer to New England was made with New England rum, from Medford, a few miles north of Boston. Whether Newman meant anything by it, nobody can say: bar books of the day called for that rum by name. But I like to think that crowd was won over by something they'd known all along, in a glass they didn't expect.
+2. Chicago's answer to New England was made with New England rum, from Medford, a few miles north of Boston. Whether Newman meant anything by it, nobody can say: bar books of the day called for that rum by name. But I like to think that crowd was won over by something they'd known all along, in a glass they didn't expect.
 
 3. Then it won Chicago. It was bottled, and its recipe printed, but the regulars agreed neither did it justice. They wanted it as the bar served it: stirred at length, with a piece of peach soaked in brandy until soft. Later owners put up a neon lighthouse that read "Home of Cohasset Punch", and the drink stayed for about ninety years.
 

@@ -13,6 +13,7 @@ authored_in: the room, 2026-09-30 (batch explorer)
 
 - **name:** Left Standing
 - **tagline:** You'd rather know it's there than have it.
+- **words:** Delicate · Fruity · Herbal
 - **glassware:** a copita (a small tulip-shaped tasting glass), chilled, no ice
 - **contains:** `[]`
 
@@ -55,7 +56,7 @@ authored_in: the room, 2026-09-30 (batch explorer)
 **whoYouAre**
 Every time you return to a place you love, you're bracing before you arrive. The café that might have closed. The field that might be houses now. The woods at the end of the lane, with a car park where the gate was. Everyone else sees the view. You're counting what's left.
 
-You start missing things while they're still here. So you touch them as little as you can. You don't pick the flower. The stone stays where it was. The path looks the way you found it. People sometimes take that for strictness, and you'd rather they did. It's easier than saying how much it hurts to watch something thin out while everyone around you is still enjoying it. And easier than admitting the fear under that one: that some day you'll be part of the reason it went. But here's what your care does, whether anyone thanks you or not. When other people arrive, there's still something there for them to love.
+You start missing things while they're still here. So you touch them as little as you can. You don't pick the flower. The stone stays where it was. The path looks the way you found it. People sometimes take that for strictness, and you'd rather they did. It's easier than saying how much it hurts to watch something thin out while everyone around you is still enjoying it. And easier than admitting the fear under that one: that some day you'll be part of the reason it went. When other people arrive, your care means there's still something there for them to love, whether anyone thanks you or not.
 
 **yours**
 
