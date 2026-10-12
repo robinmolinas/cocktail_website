@@ -139,6 +139,10 @@ Two palettes, one per world, joined by the eight data-driven seed colours.
 - **Paper** (#f4efe6): the paper world's body background, always washed with
   the `paper-wash` radial gradients and the SVG `grain` overlay — never flat.
 - **Deep Night** (#0d0b09): the depths' base dark; the Surfacing's frame.
+- **Reading-room Night** (#060505, `--night`): the ground of the cocktail
+  page (H10/H11) and its overlays, one step darker and cooler than Deep
+  Night. Recorded 2026-10-12 as it already ships (the review found the gap);
+  keep the two distinct unless Robin decides to merge them.
 - **Candle Ivory** (#f5ead8): all text over the dark world, usually at
   0.5–0.92 alpha depending on rank; full-strength #fffaf0 on hover/chosen.
 - **Ember** (#ffb088): the warm interactive glow of the depths — input carets,
@@ -295,15 +299,36 @@ tabular, scanned rather than read; two columns above 1100px.
 | item / step | 0.95rem / 1.5–1.66 | body ivory; notes in muted italic |
 
 **The letter** — the reading. Prose in the fortune teller's voice, one measure,
-its own rhythm.
+its own rhythm, in **four movements** (Robin, 2026-10-12; chosen over an
+annotated margin and a moving camera after testing all three). The studio
+writes every letter to one shape, and each movement opens on one line said
+aloud:
+
+1. **"This is you, {the personality}."** — `whoYouAre`, at lead size.
+2. **"The inspiration for your cocktail."** — the epigraph, then the story,
+   its reveal and why it is you (`yours` up to the last two paragraphs). The
+   epigraph is about the cocktail and teases the story, so on screen it opens
+   the story, not the letter (Robin: at the top it spoke about the drink where
+   she expected herself). Print keeps it as the head of sheet two.
+3. **"The cocktail I've made for you: {name}."** — the drink-as-proof
+   paragraph ("So this is his drink…"), then the recipe card itself. The
+   recipe used to come before the letter; now it arrives where the story
+   arrives at the drink. The whole line is italic, the name included (a roman
+   name inside the italic line read as a mistake, Robin 2026-10-12).
+4. **"Before you go."** — the proposal, at lead size like who-you-are, then
+   Share and Keep.
+
+The order is load-bearing: the proof paragraph says "his drink" and recaps
+the story, so it can only follow it. A guest still gets the recipe first and
+no letter.
 
 | step | size | notes |
 | --- | --- | --- |
 | section label | 0.66rem, 0.22em, uppercase | brass |
-| attribution | 0.82rem | muted; the archetype line, *above* the epigraph |
-| epigraph | clamp(1.34rem, 1.9vw, 1.74rem) | Playfair italic, title ivory, max 30ch |
-| lead paragraph | 1.07rem / 1.66 | title ivory — the letter's one entry point |
-| body | 0.99rem / 1.72 | body ivory, measure held to 36rem (~67ch) |
+| movement line | clamp(1.5rem, 2vw, 1.86rem) / 1.2 | Playfair Display italic, title ivory, balanced; its mark on the spine |
+| epigraph (opens the story) | clamp(1.18rem, 1.4vw, 1.34rem) / 1.42 | Playfair Display italic, body ivory, max 32ch |
+| lead (who you are, the proposal) | clamp(1.14rem, 1.24vw, 1.26rem) / 1.66 | title ivory: the two places the letter speaks straight to her |
+| body (the story, the proof) | 1.1rem / 1.76 | body ivory, measure held to 36rem (~67ch) |
 | closing line | clamp(1.06rem, 1.2vw, 1.2rem) | Playfair italic; the pour's own last words |
 | quiet action | 0.78rem | muted, hairline underline |
 
@@ -490,8 +515,11 @@ sphere choice: on H4 the rings read as quick and flat (see the catch above).
 A hairline in the letter's left margin, filling with `--c` from `--rp` (the
 guest's progress through the reading, written from `TheReading.tsx`). It is
 how four screens of prose stay navigable without a scrollbar, a percentage or
-a chapter list. Light in the margin — inside the Seed Colour Rule. Hidden
-below 1100px, where the column has no margin to hold it, and in print.
+a chapter list. Each movement's opening line has a 7px mark on it, night
+with a faint ivory ring until she reaches that movement, then lit in `--c`.
+Light in the margin — inside the Seed Colour Rule. Hidden below 1100px, where
+the column has no margin to hold it, and in print (the movement lines carry
+the way on phones).
 
 The browser scrollbar still exists as a native affordance, but it recedes into
 the room: a 7px deep-night rail with a low-contrast warm-grey thumb, brightening
@@ -503,9 +531,9 @@ cut through the dark experience.
 The page is the white — nothing prints a background. **Sheet one** is the
 reason to press print: the portrait plate, the cocktail's name, and the whole
 recipe in two columns, never split across a break, so it can be pinned up on
-its own. **Sheet two** is the letter: label, attribution and epigraph spanning
-the full width as a head, the reading in two columns beneath, and the pour's
-closing line spanning the foot.
+its own. **Sheet two** is the letter: the epigraph alone spans the full width
+as its head, one sentence per line (no "The Reading" label over it since
+2026-10-12, matching the screen), and the reading runs in two columns beneath.
 
 **The Two Sheets Rule.** It is never three. The letter scales to its own
 length via `--letter-fit` (set in `TheReading.tsx`): printed column height goes
@@ -616,7 +644,8 @@ A brush line with imperceptible ticks and an irregular ink-blob thumb
   Glass Rule) — the seed colour is lettering and light only.
 - **Don't** slow, scrub, or variable-rate the journey video, ever.
 - **Don't** show chapter labels or numbers to the user; the journey reads as
-  one continuous experience.
+  one continuous experience. (The reading's movement lines are not labels:
+  they are sentences in Dionysus's voice, unnumbered — Robin, 2026-10-12.)
 - **Don't** let the nav mark and the page copy sit on different left edges —
   both hang from `--gutter`.
 - **Don't** add drag interactions; every depth interaction is a click/touch.

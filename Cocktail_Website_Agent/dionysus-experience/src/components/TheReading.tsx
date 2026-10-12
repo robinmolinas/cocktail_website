@@ -12,7 +12,7 @@
 // H9.5 (intro) plays the arrival: black → the weather gathers → the cocktail
 // kindles out of the dark → the text writes itself in. H10.5 is the settled
 // state. Nothing here touches the locked TheSurfacing reveal; styles are .tr-.
-import { Fragment, useEffect, useRef, useState, type CSSProperties } from 'react';
+import { Fragment, useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
 import { DevNav, type DevJumpTarget, type DevPage } from './TheDepths';
 import { SEEDS } from '../../shared/answers';
 import type { Reading } from '../../shared/reading';
@@ -22,6 +22,12 @@ import { keptFromLocation, pourFromLocation } from '../engine/pourHash';
 import { isRememberedPour, rememberPour } from '../engine/kept';
 import { inlineTokens } from '../engine/inline';
 import { qrPath } from '../engine/qr';
+
+// The letter's four movements (Robin chose this layout, 2026-10-12), in the
+// order the studio writes every letter: who you are; the story, its reveal and
+// why it is you; the drink as proof; a proposal. Each opens on one line said
+// aloud, so she always knows where she is in the reading.
+type Movement = 'who' | 'story' | 'cocktail' | 'proposal';
 
 // The house amber, for a journey that never chose a seed colour.
 const DEFAULT_SEED_HEX = '#e8702a';
@@ -181,6 +187,10 @@ export default function TheReading({
       // the hero's actions fade with it; once they are ghosts they must stop
       // catching clicks meant for the reading scrolling beneath them
       el.classList.toggle('tr-scrolled', p > 0.4);
+      // the letter's movements: each one's mark on the spine lights once begun
+      el.querySelectorAll<HTMLElement>('.tr-part').forEach((part) => {
+        part.classList.toggle('tr-part-on', part.getBoundingClientRect().top < vh * 0.55);
+      });
       // --rp: how far through the letter she is (0 at its first line, 1 at its
       // last). The margin spine fills with her seed colour from this, which is
       // the only thing that makes four screens of prose feel navigable — and it
@@ -442,6 +452,88 @@ export default function TheReading({
     return () => { live = false; };
   }, [guest, inkName, reading.pairing, reading.seed]);
 
+  // ---- the recipe, built once: the guest's page, the owner's story, print ----
+  const recipeCard = (
+      <div className="tr-card">
+        <div className="tr-card-pool" aria-hidden="true" />
+        <div className="tr-card-cols">
+          <div className="tr-section">
+            <p className="tr-label">The Pour</p>
+            {cocktail.recipeIntro || cocktail.serves ? (
+              <p className="tr-pour-note">
+                {cocktail.serves ? <Inline text={cocktail.serves} /> : null}
+                {cocktail.serves && cocktail.recipeIntro ? ' · ' : null}
+                {cocktail.recipeIntro ? <Inline text={cocktail.recipeIntro} /> : null}
+              </p>
+            ) : null}
+            {/* the measure's own heading only when it says more than "amount" */}
+            {cocktail.amountHeader !== 'amount' ? (
+              <p className="tr-amount-head">{cocktail.amountHeader}</p>
+            ) : null}
+            <ul className="tr-ing">
+              {cocktail.recipe.map((line, i) => (
+                <li key={i}>
+                  <span className="tr-amount"><Inline text={line.amount} /></span>
+                  <span className="tr-item">
+                    <Inline text={line.item} />
+                    {line.note ? <em> · <Inline text={line.note} /></em> : null}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="tr-glass"><span className="tr-glass-label">Glass</span> <Inline text={cocktail.glassware} /></p>
+            {cocktail.preparations.map((prep, i) => (
+              <div className="tr-prep" key={i}>
+                <p className="tr-prep-title"><Inline text={prep.title} /></p>
+                <p className="tr-prep-text"><Inline text={prep.text} /></p>
+              </div>
+            ))}
+          </div>
+
+          <div className="tr-section">
+            <p className="tr-label">The Ritual</p>
+            <ol className="tr-ritual">
+              {cocktail.method.map((step, i) => (
+                <li key={i}><Inline text={step} /></li>
+              ))}
+            </ol>
+            {/* the pour's own last words end the ritual (AD-5) */}
+            <p className="tr-ritual-close"><Inline text={cocktail.closingLine} /></p>
+          </div>
+        </div>
+      </div>
+  );
+
+  // ---- the letter's movements ----
+  const yoursCount = reading.yours.length;
+  const proposalAt = yoursCount - 1;
+  const proofAt = yoursCount - 2;
+  const storyAt = reading.yours.map((_, i) => i).slice(0, proofAt);
+  const yoursParagraph = (i: number) => (
+    <div className="tr-para" key={`yours-${i}`}>
+      <p><Inline text={reading.yours[i]} /></p>
+    </div>
+  );
+  const epigraphSentences = reading.epigraph.split(/(?<=[.!?…])\s+(?=[A-Z‘“"])/);
+  // "This is you, the Visionary." — every personality title starts with "The"
+  const personality = reading.archetype.name.replace(/^The /, 'the ');
+  const opener: Record<Movement, ReactNode> = {
+    who: <>This is you, {personality}.</>,
+    story: <>The inspiration for your cocktail.</>,
+    // all italic, like the other three lines (Robin: a roman name read as a mistake)
+    cocktail: <>The cocktail I’ve made for you: {cocktail.name}.</>,
+    proposal: <>Before you go.</>,
+  };
+  const movement = (id: Movement, children: ReactNode) => (
+    <section className={`tr-part tr-part-${id}`} aria-labelledby={`tr-part-${id}`}>
+      <h2 className="tr-opener" id={`tr-part-${id}`}>
+        <span className="tr-opener-mark" aria-hidden="true" />
+        {opener[id]}
+      </h2>
+      {children}
+    </section>
+  );
+
   return (
     <div
       ref={rootRef}
@@ -553,7 +645,7 @@ export default function TheReading({
           {/* Share and save live only at the bottom (Robin, 2026-10-06): the
               arrival belongs to the cocktail, the actions to the end. */}
           <a className="tr-cue" href="#tr-reading">
-            {guest ? 'The recipe' : 'Your recipe and reading'}
+            {guest ? 'The recipe' : 'Your reading and recipe'}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M12 5v14M19 12l-7 7-7-7" />
             </svg>
@@ -570,54 +662,10 @@ export default function TheReading({
            its own spine. Neither is a panel; the card sits on a pool of night
            (the system's way of raising contrast) and nothing here is a box. */}
       <section className="tr-reading" id="tr-reading">
-        <div className="tr-card">
-          <div className="tr-card-pool" aria-hidden="true" />
-          <div className="tr-card-cols">
-            <div className="tr-section">
-              <p className="tr-label">The Pour</p>
-              {cocktail.recipeIntro || cocktail.serves ? (
-                <p className="tr-pour-note">
-                  {cocktail.serves ? <Inline text={cocktail.serves} /> : null}
-                  {cocktail.serves && cocktail.recipeIntro ? ' · ' : null}
-                  {cocktail.recipeIntro ? <Inline text={cocktail.recipeIntro} /> : null}
-                </p>
-              ) : null}
-              {/* the measure's own heading only when it says more than "amount" */}
-              {cocktail.amountHeader !== 'amount' ? (
-                <p className="tr-amount-head">{cocktail.amountHeader}</p>
-              ) : null}
-              <ul className="tr-ing">
-                {cocktail.recipe.map((line, i) => (
-                  <li key={i}>
-                    <span className="tr-amount"><Inline text={line.amount} /></span>
-                    <span className="tr-item">
-                      <Inline text={line.item} />
-                      {line.note ? <em> · <Inline text={line.note} /></em> : null}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-              <p className="tr-glass"><span className="tr-glass-label">Glass</span> <Inline text={cocktail.glassware} /></p>
-              {cocktail.preparations.map((prep, i) => (
-                <div className="tr-prep" key={i}>
-                  <p className="tr-prep-title"><Inline text={prep.title} /></p>
-                  <p className="tr-prep-text"><Inline text={prep.text} /></p>
-                </div>
-              ))}
-            </div>
-
-            <div className="tr-section">
-              <p className="tr-label">The Ritual</p>
-              <ol className="tr-ritual">
-                {cocktail.method.map((step, i) => (
-                  <li key={i}><Inline text={step} /></li>
-                ))}
-              </ol>
-              {/* the pour's own last words end the ritual (AD-5) */}
-              <p className="tr-ritual-close"><Inline text={cocktail.closingLine} /></p>
-            </div>
-          </div>
-        </div>
+        {/* A guest's page is the recipe. The owner's recipe now lives inside
+            the letter, where the story arrives at the drink; this copy stays
+            for print, where the recipe keeps page one (the Two Sheets Rule). */}
+        <div className={guest ? undefined : 'tr-card-print'}>{recipeCard}</div>
 
         <div className="tr-section tr-why" ref={letterRef}>
           {guest ? (
@@ -634,17 +682,41 @@ export default function TheReading({
             <>
               {/* the spine: her colour rising through the margin as she reads */}
               <div className="tr-spine" aria-hidden="true"><span /></div>
-              <p className="tr-label">The Reading</p>
-              {/* the letter opens on the epigraph (Robin, 2026-10-08: no
-                  archetype essence line; the name stays in the kicker), then
-                  who she is, then the passage about her cocktail */}
-              <p className="tr-epigraph"><Inline text={reading.epigraph} /></p>
-              {reading.whoYouAre.map((paragraph, i) => (
-                <p key={`who-${i}`}><Inline text={paragraph} /></p>
-              ))}
-              {reading.yours.map((paragraph, i) => (
-                <p key={`yours-${i}`}><Inline text={paragraph} /></p>
-              ))}
+              {/* print keeps the epigraph as the head of sheet two, on its own
+                  (no "The Reading" label over it, Robin 2026-10-12); on screen it
+                  opens the story it teases (Robin, 2026-10-12: at the top of the
+                  reading it spoke about the cocktail where she expected herself) */}
+              <p className="tr-epigraph tr-epigraph-print">
+                {epigraphSentences.map((sentence, i) => (
+                  <span className="tr-epigraph-line" key={i}><Inline text={sentence} /></span>
+                ))}
+              </p>
+
+              {movement('who', <>
+                {reading.whoYouAre.map((paragraph, i) => (
+                  <p key={`who-${i}`}><Inline text={paragraph} /></p>
+                ))}
+              </>)}
+
+              {movement('story', <>
+                <p className="tr-epigraph tr-epigraph-lead">
+                  {/* one line per sentence, so the aphorism turns at its own break */}
+                  {epigraphSentences.map((sentence, i) => (
+                    <span className="tr-epigraph-line" key={i}><Inline text={sentence} /></span>
+                  ))}
+                </p>
+                {storyAt.map(yoursParagraph)}
+              </>)}
+
+              {movement('cocktail', <>
+                {yoursParagraph(proofAt)}
+                {/* the drink as proof, then the drink itself */}
+                <div className="tr-card-inline">{recipeCard}</div>
+              </>)}
+
+              {movement('proposal', <>
+                {yoursParagraph(proposalAt)}
+              </>)}
             </>
           )}
           {/* the guest keeps the recipe (master spec §2) but the page has one
