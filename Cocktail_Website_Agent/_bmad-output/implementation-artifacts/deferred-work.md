@@ -51,7 +51,7 @@
   evidence: 1.8 blind-hunter review. walkJourney returns once h1.tr-title has appeared and the network is idle. Driving navigator.share, the clipboard and the PDF needs per-browser stubs. Fits Epic 2, when sharing gains /pour/:id.
 - source_spec: `spec-1-8-privacy-and-parity-end-to-end-checks.md`
   summary: The e2e journeys pace themselves with about 60 fixed sleeps, and the timed diagnostics test depends on a narrow window (a 900 ms main-thread freeze, then a tap 150 ms later inside the 600 ms pause). It may be flaky on a loaded or CI machine. Unverified: medium if true.
-  evidence: 3 of 3 consecutive local runs passed (7/7). It would be settled by running the suite under CPU throttling (CDP Emulation.setCPUThrottlingRate 4) or on CI, and by replacing sleeps with waits on hold state where a run fails.
+  evidence: **Observed once, 2026-10-13:** 5 of 7 failed on the first run in a freshly installed worktree, straight after `npm run build`. The failures included both gift-link tests, which barely use sleeps, so dev-server load is likely. Not reproduced in the next 3 runs, including one from a cold Vite cache. Before that, 3 of 3 runs passed. It would be settled by running the suite under CPU throttling (CDP Emulation.setCPUThrottlingRate 4) or on CI, and by replacing sleeps with waits on hold state where a run fails.
 - source_spec: `spec-1-8-privacy-and-parity-end-to-end-checks.md`
   summary: AGENTS.md's repo map and commands don't list `e2e/` or `npm run e2e`.
   evidence: 1.8 blind-hunter review. AGENTS.md is agent context, so it is deferred with the 1.7 AGENTS.md completeness entry.
