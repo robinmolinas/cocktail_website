@@ -12,7 +12,7 @@
 // H9.5 (intro) plays the arrival: black → the weather gathers → the cocktail
 // kindles out of the dark → the text writes itself in. H10.5 is the settled
 // state. Nothing here touches the locked TheSurfacing reveal; styles are .tr-.
-import { Fragment, useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
+import { Fragment, useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
 import { DevNav, type DevJumpTarget, type DevPage } from './TheDepths';
 import { SEEDS } from '../../shared/answers';
 import type { Reading } from '../../shared/reading';
@@ -84,6 +84,7 @@ export default function TheReading({
   const frameRef = useRef<HTMLDivElement>(null);
   const tagRef = useRef<HTMLSpanElement>(null);
   const letterRef = useRef<HTMLDivElement>(null);
+  const heroRef = useRef<HTMLElement>(null);
   // Portrait phones use the 3:4 master; landscape phones, tablets and desktops
   // use the 16:9 room. The tag transform and glow follow the selected master.
   const [portraitScene, setPortraitScene] = useState(() =>
@@ -163,6 +164,22 @@ export default function TheReading({
     reading.yours.join(' ').length;
   const letterFit = Math.min(1, Math.max(0.5, Math.sqrt(PAGE_CHARS / Math.max(letterChars, 1))));
 
+  // Portrait phones: the photograph gives up exactly the height its caption
+  // needs, so the name, its three words and the line about her are on the
+  // first screen (Robin, phone test 2026-10-13: before, the photograph filled
+  // the screen and the title waited a scroll below). The CSS clamps the scene
+  // to a floor, so a very long caption pushes the cue, not the glass, away.
+  useLayoutEffect(() => {
+    const root = rootRef.current;
+    const hero = heroRef.current;
+    if (!root || !hero || !portraitScene) return;
+    const measure = () => root.style.setProperty('--hero-h', `${Math.ceil(hero.offsetHeight)}px`);
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(hero);
+    return () => { ro.disconnect(); root.style.removeProperty('--hero-h'); };
+  }, [portraitScene]);
+
   // The reading opens at its top, once. Not in the effect below: that one re-runs
   // whenever the scene swaps between its wide and portrait crops, and printing
   // swaps it (an A4 sheet matches the portrait query), so "The recipe as a PDF"
@@ -215,8 +232,8 @@ export default function TheReading({
       const iw = img?.naturalWidth ?? 0;
       const ih = img?.naturalHeight ?? 0;
       if (!iw || !ih) return;
-      const vw = window.innerWidth || 1;
-      const vh = window.innerHeight || 1;
+      const vw = frameRef.current?.clientWidth || window.innerWidth || 1;
+      const vh = frameRef.current?.clientHeight || window.innerHeight || 1;
       const cover = Math.max(vw / iw, vh / ih);
       const contain = Math.min(vw / iw, vh / ih);
       el.style.setProperty('--fit', (contain / cover).toFixed(4));
@@ -274,8 +291,10 @@ export default function TheReading({
       el.style.top = `${top + tagBox.cy * ph}px`;
       el.style.width = `${w}px`;
       el.style.transform = `translate(-50%, -50%) rotate(${tagBox.angle}deg)`;
-      // fit the name to the writable width, whatever its length
-      el.style.fontSize = `${Math.max(Math.min(w * 0.26, (w * 1.5) / Math.max(inkName.length, 1)), 10)}px`;
+      // fit the name to the writable width, whatever its length. The floor is
+      // 7px, not 10: a phone's scene is shorter than the screen now, so a small
+      // tag (the coupe's is ~40px wide) cut "Bartholomew" at "Bartholom".
+      el.style.fontSize = `${Math.max(Math.min(w * 0.26, (w * 1.5) / Math.max(inkName.length, 1)), 7)}px`;
     };
 
     const onScroll = () => { if (!raf) raf = requestAnimationFrame(apply); };
@@ -289,7 +308,11 @@ export default function TheReading({
     bgEl?.addEventListener('load', onLoad);
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onResize);
+    // the phone scene's height follows its caption, not the window
+    const frameRo = new ResizeObserver(() => { fit(); inkTag(); });
+    if (frameRef.current) frameRo.observe(frameRef.current);
     return () => {
+      frameRo.disconnect();
       bgEl?.removeEventListener('load', onLoad);
       window.removeEventListener('scroll', onScroll);
       window.removeEventListener('resize', onResize);
@@ -594,18 +617,10 @@ export default function TheReading({
         <img src={meta.src} alt={`${cocktail.name}, poured by Dionysus`} />
         {inkName ? <figcaption className="tr-print-for">Poured for {inkName}</figcaption> : null}
       </figure>
-      {/* Portrait phones let the named photograph arrive alone, then reveal
-          the copy beneath it. This link is outside the aria-hidden scene. */}
-      <a className="tr-cue tr-scene-cue" href="#tr-title">
-        Your cocktail
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-          <path d="M12 5v14M19 12l-7 7-7-7" />
-        </svg>
-      </a>
       {/* On desktop this clears the fixed poster; on portrait phones it
-          reserves the full-bleed photograph before the in-flow caption. */}
+          reserves the photograph, sized to leave its caption on screen. */}
       <div className="tr-spacer" aria-hidden="true" />
-      <header className="tr-hero">
+      <header className="tr-hero" ref={heroRef}>
         <div className="tr-hero-inner">
           {/* nbsp binds the separator to the name so it never orphans onto line 2 */}
           {/* the archetype, not the engine's pairing key: "SAGE × LOVER" is

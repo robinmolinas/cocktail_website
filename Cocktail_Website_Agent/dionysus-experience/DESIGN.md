@@ -385,7 +385,9 @@ footage "got super dark"). No dark patches or falls of shadow behind text.
   stack at 12.5% from the top — except H0, which is only the bare line, and
   H2, whose question sits in the centre of the colour ring.
 - **the choice** — centred: spheres, the seed ring, the gravity line, the
-  written line.
+  written line. On phones (≤640px) the gravity line runs almost edge to edge,
+  so its two words sit *above* their ends, like the marks on a scale, never on
+  the line (Robin's phone test, 2026-10-13).
 - **`.hold-next`** — the way onward: the Veil pill — hairline rim, near-clear
   glass, Jost 400 at 11px, 0.24em tracking. Deliberately quiet: a heavier,
   filled version read as "too bold". At 12.5% from the foot; `.is-inline` puts
@@ -589,7 +591,7 @@ link; it sits level with the plate's foot, so the recipe keeps page one). The de
 own pours (`src/engine/kept.ts`), so an owner opening their own share link on
 that device gets the reading too. Neither is a lock: the reading is authored
 per pairing, and a forwarded keep link shows it to whoever holds it. Portrait phones show the
-unobscured scene first and place title/reading below. The screen nav scrim
+unobscured scene with its caption beneath it on the first screen, the reading below. The screen nav scrim
 keeps text from passing under the mark; it and the mark are hidden in print.
 
 ### The room (H10 background)
@@ -603,13 +605,19 @@ area. There is no contained frame, feathered card edge or black side gutter.
 The drink, its physical tag and essential personality evidence must remain
 inside the protected centre defined in the Persona Image System.
 
-**Portrait-phone reveal (2026-10-06 mobile correction).** The full-bleed room
-occupies the first screen with its physical name tag unobscured. A quiet
-"Your cocktail" cue leads to the title and tagline immediately below; these
-and the recipe/reading follow in normal document flow. On portrait phones
-only, the opening photograph scrolls away rather than remaining behind the
-copy. No caption is superimposed on the tag, and no bottom vignette buries the
-ink. Desktop, tablet-landscape and landscape-phone poster behavior is retained.
+**Portrait-phone reveal (2026-10-06 mobile correction; 2026-10-13 caption
+on the first screen).** The full-bleed room fills the first screen *less its
+caption*: the scene's height is `100svh` minus the measured hero (kicker,
+name, three words, tagline, cue; `--hero-h` in TheReading.tsx), floored at
+`54svh` so a long name pushes the cue, never the glass, off screen. Robin's
+phone test: a first screen of photograph alone made the title wait a scroll.
+The old "Your cocktail" scene cue is gone; the caption itself is the cue. The
+recipe/reading follow in normal document flow, and on portrait phones only the
+opening photograph scrolls away rather than remaining behind the copy. The
+scene's last 8% dissolves into Night so it never stops at a hard edge over the
+caption; the tag crop keeps the ink above that band. No caption is
+superimposed on the tag, and no vignette buries the ink. Because the scene
+paints smaller, the inked name may shrink to 7px to stay on a small tag. Desktop, tablet-landscape and landscape-phone poster behavior is retained.
 This is a responsive sequence within the same dark world, not a contained
 photograph, a new card, a recipe change or a tint over the drink.
 

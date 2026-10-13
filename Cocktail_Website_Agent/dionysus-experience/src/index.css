@@ -895,6 +895,11 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   .grav-track { left: 6%; right: 6%; height: 150px; }
   .grav-mote { width: 36px; height: 36px; margin-top: -18px; }
   .grav-mote-drag { width: 44px; height: 44px; margin-top: -22px; }
+  /* The widened track runs under the poles, so the words sat on the line
+     (Robin, phone test 2026-10-13). Lift each word above its own end of the
+     line, like the marks on a scale; the size lets the longest pair
+     (Analytical · Instinctive) clear each other at 320px. */
+  .grav-pole { top: calc(50% - 2.7rem); font-size: clamp(1.7rem, 8.4vw, 2.2rem); }
 }
 
 /* progress dots — one language across every multi-step hold: a 7px ringed
@@ -1260,9 +1265,15 @@ button.grav-dot::after {
 }
 .breath-frag {
   position: absolute;
-  left: var(--x);
+  /* the spot, pulled in until half the widest echo still clears the edge —
+     on a phone a 74vw echo centred at 28% hung off the left side. The canvas
+     motes start from the same clamp (breathSpotX in TheDepths.tsx). */
+  left: clamp(calc(min(210px, 37vw) + 1rem), var(--x), calc(100% - min(210px, 37vw) - 1rem));
   top: var(--y);
   transform: translate(-50%, -50%);
+  /* sized to its own line, not to the room left of its spot, so the clamp
+     above centres the whole echo and it never wraps narrow near an edge */
+  width: max-content;
   max-width: min(420px, 74vw);
   text-align: center;
   font-size: clamp(1.02rem, 2.2vmin, 1.3rem);
@@ -1593,8 +1604,6 @@ button.grav-dot::after {
    brings the next guest, save is her keepsake — so they sit with the title
    instead of four screens down, after the letter. (They repeat at the end.) */
 .tr-scrolled .tr-cue { pointer-events: none; }
-/* Only portrait phones need a way from the image-only opening to its caption. */
-.tr-scene-cue { display: none; }
 
 @keyframes tr-rise { from { opacity: 0; transform: translateY(22px); filter: blur(12px); } to { opacity: 1; transform: none; filter: none; } }
 @keyframes tr-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(3px); } }
@@ -1870,9 +1879,13 @@ button.grav-dot::after {
 /* Portrait phones: one full-bleed named scene, then its caption, then the
    reading. Copy never sits over paper, glass or personal traces. These are
    consecutive parts of the same dark room, not a contained photo or card.
-   Keep the existing image crop, ink mapping and arrival/breathing scales. */
+   Keep the existing image crop, ink mapping and arrival/breathing scales.
+   The scene is the first screen less its caption (--hero-h, measured in
+   TheReading.tsx), so the name, its words and her line arrive in view with
+   it; the floor keeps the glass a photograph when a long caption wraps. */
 @media screen and (max-width: 900px) and (orientation: portrait) {
-  .tr-stage { position: absolute; bottom: auto; height: 100svh; }
+  .tr-stage, .tr-spacer { height: max(54svh, calc(100svh - var(--hero-h, 0px))); }
+  .tr-stage { position: absolute; bottom: auto; }
   .tr-hero {
     position: relative; bottom: auto;
     padding: 1.5rem var(--gutter) 1.5rem;
@@ -1884,19 +1897,13 @@ button.grav-dot::after {
   .tr-kicker, .tr-title, .tr-for { overflow-wrap: anywhere; }
   .tr-reading { padding-top: clamp(3rem, 7svh, 4rem); }
   .tr-scrolled .tr-cue { pointer-events: auto; }
-  .tr-scene-cue {
-    position: absolute; z-index: 5;
-    left: var(--gutter);
-    top: calc(100svh - 44px - max(1rem, env(safe-area-inset-bottom)));
-    display: inline-flex; min-height: 44px; margin: 0;
-    opacity: 0.9; text-shadow: 0 1px 2px rgba(13,11,9,0.5);
-    animation: tr-rise 1.35s var(--ease) both;
-  }
-  .tr-scene-cue::before { inset: 0 -12px; }
-  .tr-intro .tr-scene-cue { animation-delay: calc(5.9s + var(--greet)); }
   /* The caption now has its own dark space. Do not bury the physical tag to
      make overlaid copy readable. Only the nav end of the scene needs a veil. */
-  .tr-vig { background: linear-gradient(to bottom, rgba(6,5,5,0.28), transparent 18%); }
+  .tr-vig { background: linear-gradient(to bottom, rgba(6,5,5,0.28), transparent 18%),
+    /* the scene now ends above the fold, so its foot dissolves into the
+       room's night instead of stopping at a hard edge over the caption. Only
+       the last 8%: the crop holds the tag above that, so the ink stays clear. */
+    linear-gradient(to top, var(--night) 0, rgba(6,5,5,0.55) 3%, transparent 8%); }
   /* Reading no longer crosses the image on phones, so a scroll-driven black
      scrim over the name is unnecessary as well. */
   .tr-scrim { background: none; }
@@ -1911,7 +1918,7 @@ button.grav-dot::after {
 @media (prefers-reduced-motion: reduce) {
   .tr-frame { animation: none; transform: scale(var(--rest)); }
   .tr-cue svg { animation: none; }
-  .tr-hero-inner > *, .tr-scene-cue { animation: none !important; opacity: 1; transform: none; filter: none; }
+  .tr-hero-inner > * { animation: none !important; opacity: 1; transform: none; filter: none; }
   .tr-word { animation: none !important; opacity: 0.9; transform: none; filter: none; }
   .tr-intro .tr-frame { animation: none; opacity: 1; filter: none; transform: scale(var(--rest)); }
   .tr-tagname.tr-inking { animation: none; opacity: 1; clip-path: inset(-25% -10% -25% 0); }
@@ -2018,7 +2025,7 @@ button.grav-dot::after {
   }
   .tr-root { color: var(--ink); min-height: auto; }
   /* the full-bleed scene, stage overlays, and arrival veil are visual-only */
-  .tr-stage, .tr-intro::after, .tr-greet, .tr-scene-cue { display: none !important; }
+  .tr-stage, .tr-intro::after, .tr-greet { display: none !important; }
   /* The nav veil (.tr-root::before) is position: fixed, so print repeats it at
      the head of every sheet. Once she has scrolled (--p = 1), which is exactly
      when she reaches "Save the recipe", it printed as a black band across the

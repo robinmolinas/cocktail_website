@@ -110,6 +110,13 @@ const BREATH_SPOTS = [
   { x: 50, y: 26 }, { x: 36, y: 72 }, { x: 70, y: 42 }, { x: 28, y: 46 },
   { x: 50, y: 70 },
 ];
+// The spot's x on screen, pulled in until half the widest echo (min(420px,
+// 74vw), see .breath-frag) clears the edge — the same clamp as the CSS, so a
+// mote leaves from where its echo actually was.
+const breathSpotX = (x: number, w: number) => {
+  const half = Math.min(210, w * 0.37) + 16;
+  return Math.min(Math.max((x / 100) * w, half), w - half);
+};
 // Keep in sync with the logo if it ever changes.
 // Concept 05: The Zen Coupe (Continuous Line)
 // Coordinate space: 24 × 24 (matches App.tsx viewBox). Center: (12, 12).
@@ -1790,7 +1797,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
           const raw = (elapsed - start) / BREATH_MOTE_FLIGHT_MS;
           const ease = raw < 0.5 ? 2 * raw * raw : 1 - Math.pow(-2 * raw + 2, 2) / 2;
           const spot = BREATH_SPOTS[i % BREATH_SPOTS.length];
-          const sx = (spot.x / 100) * w;
+          const sx = breathSpotX(spot.x, w);
           const sy = (spot.y / 100) * h;
           const mx = sx + (anchors[i].x - sx) * ease;
           const my = sy + (anchors[i].y - sy) * ease;
