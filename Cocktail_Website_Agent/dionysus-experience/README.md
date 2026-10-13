@@ -19,19 +19,19 @@ Deployed live on Vercel: [https://dionysus.vercel.app](https://dionysus.vercel.a
    - **H7 · The Trace**: Sealing one personal reflection.
    - **H8 · The Breath**: Echoes assembling along the continuous-line spirit silhouette.
    - **H9 · The Surfacing**: The drop falls, the crown splashes, and the dark takes the frame.
-3. **The Surfacing & Keepsake** (`TheSurfacing.tsx`, `TheReading.tsx`) — Unveiling of the bespoke cocktail portrait:
+3. **The Reading & Keepsake** (`TheReading.tsx`) — Unveiling of the authored cocktail portrait:
    - Authored persona imagery (`public/personas/<pairing>/portrait.jpg` and `wide.jpg`).
    - Detailed recipe (exact ingredients, glassware, ice, technique).
    - Sensory tasting notes and step-by-step ritual.
-   - Comprehensive narrative reading by the Psychologist, Historian, and Mixologist.
+   - The authored reading in four movements, written for each pairing in the Pour Studio by its psychologist, historian and mixologist.
 
 ---
 
-## Engine & Scoring (`src/engine/mixology.ts`)
+## Matching & Reading (`shared/`)
 
-- Maps user choices across the **12 Jungian archetypes**.
-- Resolves the top two archetypes into one of **132 primary × secondary pairings** (`src/data/archetypes.ts`).
-- Composes recipe, modifiers, allergies, and zero-proof substitutions deterministically.
+- The journey writes Answers v3 ids (`shared/answers.ts`, vocabularies in `shared/vocab.ts`).
+- `shared/selection` scores them against the **12 archetypes** and shortlists three of the **132 primary × secondary pairings** (`shared/data/archetypes.ts`), leaving out any pour holding a chosen veto. The reveal takes the shortlist's first pour (`boundedPick(shortlist, null)`) until the Bartender chooses within it (Epic 2).
+- `shared/reading.ts` assembles the selected pair's authored pour into one Reading. The pours are authored in `design-artifacts/pours/` and imported into `shared/data/pours` with `npm run import:pours`. Recipes are authored, never generated.
 
 ---
 
@@ -58,4 +58,4 @@ npm run validate:images
 Active personas are stored in `public/personas/<pairing>/`:
 - `portrait.jpg`: 896 × 1200 px JPEG
 - `wide.jpg`: 1920 × 1080 px JPEG
-Registered in `src/data/personas.ts`.
+Registered in `shared/data/personas.ts`.

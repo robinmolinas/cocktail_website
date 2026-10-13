@@ -222,14 +222,14 @@ decorative pseudo-writing, flawless symmetry, and generic cinematic bokeh.
 **The Tag Rule.** Every scene includes one blank physical cream tag, tied to
 the glass and fully inside frame. It is slightly handled, never typeset inside
 the source image. Its writable area and angle are recorded per asset in
-`src/data/personas.ts`; the user's name is the only coloured ink added by the
+`shared/data/personas.ts`; the user's name is the only coloured ink added by the
 interface.
 
 Canonical asset layout:
 
 - `public/personas/<pairing>/portrait.jpg` — 896×1200, print and keepsake.
 - `public/personas/<pairing>/wide.jpg` — 1920×1080, 16:9 immersive reading room.
-- `src/data/personas.ts` — portrait/wide paths, tag transforms and glass focal
+- `shared/data/personas.ts` — portrait/wide paths, tag transforms and glass focal
   point, keyed by the stable `<primary>-<secondary>` pairing.
 
 The wide master is composed full-bleed, not contained. Keep its left 30–35%

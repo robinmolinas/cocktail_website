@@ -30,9 +30,9 @@ It translates an individual's psychology, tastes, and choices into a single besp
 │   │   │   └── journey.mp4        # Core journey video asset
 │   │   ├── src/
 │   │   │   ├── components/        # TheDepths, TheReading, TheSurfacing, CtaButton, etc.
-│   │   │   ├── data/              # personas.ts, archetypes.ts, cocktails.ts
-│   │   │   ├── engine/            # mixology.ts (deterministic scoring & cocktail composition)
+│   │   │   ├── engine/            # intake record, reveal, share links (wraps shared/)
 │   │   │   └── index.css          # Design system & custom animation tokens
+│   │   ├── shared/                # Pure core: answers + vocab, selection, reading, data/ (archetypes, personas, pours)
 │   │   └── scripts/               # validate-persona-images.mjs
 │   ├── design-artifacts/          # UX specifications & pour design
 │   │   └── pours/                 # Pour dossiers (<pairing>.md), STUDIO-RULES.md
@@ -84,7 +84,7 @@ When adding a new cocktail pour to the active web experience:
    - `portrait.jpg`: Exactly **896 × 1200 px** JPEG
    - `wide.jpg`: Exactly **1920 × 1080 px** JPEG
 2. **Directory**: Place under `Cocktail_Website_Agent/dionysus-experience/public/personas/<pairing>/`.
-3. **Registration**: Register the pairing in `src/data/personas.ts` with tag and glass focal coordinates.
+3. **Registration**: Register the pairing in `shared/data/personas.ts` with tag and glass focal coordinates.
 4. **Validation**: Run `npm run validate:images` (built into `npm run build`).
 
 ### Visual & Experience Principles

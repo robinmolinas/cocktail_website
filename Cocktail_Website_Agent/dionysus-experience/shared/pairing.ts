@@ -1,8 +1,8 @@
 // Permanent pairing keys (AD-11). Key values are never renamed or removed.
 //
-// The archetype list mirrors `ArchetypeId` in src/data/archetypes.ts; it is
-// re-declared here because shared/ never imports from src/ (the data file
-// moves into shared/data/ in 1.7).
+// The archetype list mirrors `ArchetypeId` in shared/data/archetypes.ts. It is
+// re-declared here so the pairing keys never load that data file, which
+// carries all 132 identities and their stories.
 
 export const ARCHETYPES = [
   'Caregiver',

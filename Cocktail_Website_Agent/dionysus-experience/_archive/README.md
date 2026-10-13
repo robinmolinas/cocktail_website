@@ -21,4 +21,4 @@ Archived on 2026-07-24 during an Impeccable audit cleanup.
 | `InkFlood.tsx` | The old ink-flood transition |
 | `App.css` | Vite scaffold CSS, never imported |
 
-To revive any of these, move it back under `src/` and restore its imports.
+To revive any of these, move it back under `src/` and restore its imports. Some of those imports no longer exist: `src/types.ts`, `src/data/questions.ts`, `src/data/personas.ts` and the rest of the pilot engine were removed in story 1.7 (2026-10-13). Recover them from commit cf75d74, or port the component to the shared core (`shared/answers.ts`, `shared/reading.ts`, `shared/data/`).

@@ -15,7 +15,7 @@ never copied into a pour.
 | Mixologist | *Liquid Intelligence* — Dave Arnold | craft/science reference | dilution, temperature, stirring vs. shaking, clarity, gesture anchors |
 | Mixologist | *The Flavor Matrix* — James Briscione & Brooke Parkhurst (scanned, no text layer: needs OCR) | pairing reference | why ingredients pair, aroma compounds, ingredient-nature anchors |
 | Psychologist | Its own expertise as a practising psychologist (personality, motivation, fear, self-image) | expert | reads each persona and writes epigraph, whoYouAre and the "why it's you" in `yours`; no book behind it |
-| Psychologist | `Cocktail_Website_Agent/dionysus-experience/src/data/archetypes.ts` | persona profiles | goal, fear, essence and story of each of the 132 personalities |
+| Psychologist | `Cocktail_Website_Agent/dionysus-experience/shared/data/archetypes.ts` | persona profiles | goal, fear, essence and story of each of the 132 personalities |
 | Psychologist | `Cocktail_Website_Agent/Knowledge base/cocktail_counsel_knowledge_base.md` §1.14–1.15, §2 | house canon | principles (seen, not solved; history as a mirror), emotional logic |
 
 Searchable text of every book (with page markers and citation rules) is in `_text/`, see `_text/README.md`.

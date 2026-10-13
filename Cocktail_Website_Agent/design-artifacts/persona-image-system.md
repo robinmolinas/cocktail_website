@@ -2,7 +2,7 @@
 
 Status: production rule for the 132 pre-authored cocktail portraits  
 Visual source of truth: `dionysus-experience/DESIGN.md`  
-Runtime registry: `dionysus-experience/src/data/personas.ts`
+Runtime registry: `dionysus-experience/shared/data/personas.ts` (was `src/data/personas.ts` until 2026-10-13)
 
 Production readiness and review: `2026-10-06-persona-image-production-review.md`.
 Clarified 2026-10-06: functional metal is allowed; the bar/table and overall
@@ -121,7 +121,7 @@ is a puzzle and must be removed.
 - No text is generated on the tag. The app adds the user's name later.
 - Tag centre, writable width and angle are measured separately on the actual
   portrait and wide exports. Hand off these measurements to the single
-  integration owner for `src/data/personas.ts`; never copy generic coordinates.
+  integration owner for `shared/data/personas.ts`; never copy generic coordinates.
 
 ## 4. Variable personality grammar
 
@@ -290,7 +290,7 @@ bar/table or industrial backdrop; chrome-dominated room.
    windows; explicitly distinguish optional partly cropped props from essential
    evidence. Geometry passing for glass/paper alone is not scene acceptance.
    One integration owner copies accepted exports to `public/personas` and
-   registers `src`, `wide` and metadata in `src/data/personas.ts`.
+   registers `src`, `wide` and metadata in `shared/data/personas.ts`.
 10. The integration owner verifies the name overlay with a short name and a long name, desktop and
    portrait viewport. The name must remain on paper after cover cropping.
    A static font-size heuristic is only a risk screen: hitting a minimum font

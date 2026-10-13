@@ -1,8 +1,10 @@
 // Generated from 'Brand Personality + Roulette.xlsx' — PERSONALITY sheet (132 archetype pairings).
-// Primary x Secondary brand-archetype matrix used by the Dionysus engine.
+// The identity of each primary x secondary pairing (name, essence, story, goal,
+// fear), read by shared/reading. The archetype list itself is shared/pairing's.
 
-export type ArchetypeId =
-  'Caregiver' | 'Creator' | 'Explorer' | 'Hero' | 'Innocent' | 'Jester' | 'Lover' | 'Magician' | 'Outlaw' | 'Regular Guy' | 'Ruler' | 'Sage';
+import type { Archetype } from '../pairing';
+
+export type ArchetypeId = Archetype;
 
 export interface ArchetypePairing {
   primary: ArchetypeId;
