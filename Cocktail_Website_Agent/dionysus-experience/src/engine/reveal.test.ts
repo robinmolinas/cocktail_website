@@ -1,29 +1,34 @@
 import { describe, expect, it } from 'vitest';
 import { AUTHORED_POURS } from '../../shared/data/pours/static';
 import { selectShortlist } from '../../shared/selection';
-import type { Answers } from '../types';
 import { JOURNEY_FIXTURES } from './fixtures';
 import { toRevealRequest } from './intake';
+import { emptyRecord, type IntakeRecord, type JourneyAnswers } from './record';
 import { readingFor, revealReading } from './reveal';
 
-const sparse: Answers = {
-  ...JOURNEY_FIXTURES.dawn,
-  name: '', lens: null, color: '#e8702a', colorTouched: false,
-  gravity: {}, texture: {}, drawnToward: [], soughtFor: [], flavors: [], allergies: '',
+const withAnswers = (patch: Partial<JourneyAnswers>): IntakeRecord => {
+  const base = emptyRecord();
+  return { ...base, answers: { ...base.answers, ...patch } };
 };
+
+const sparse = emptyRecord();
 
 // The reference witness for Creator × Hero ("Down the Line", which holds
 // dairy and egg white), written the way TheDepths writes it.
-const visionary: Answers = {
-  ...sparse,
+const visionary = withAnswers({
   name: 'Celeste',
-  drawnToward: ['Beauty', 'Change', 'Making'],
-  soughtFor: ['Courage', 'Ideas'],
-  texture: { 'sharp-smooth': 'Sharp', 'halffull-halfempty': 'Half-full', control: 'In control', 'quiet-loud': 'Loud', 'bright-dark': 'Bright', 'soft-rough': 'Rough' },
+  drawnToward: ['beauty', 'change', 'making'],
+  soughtFor: ['courage', 'ideas'],
+  texture: { 'sharp-smooth': 'a', 'halffull-halfempty': 'a', control: 'a', 'quiet-loud': 'b', 'bright-dark': 'a', 'soft-rough': 'b' },
   gravity: { 'solitary-social': 100, 'controlled-wild': 0, 'classic-experimental': 87, 'analytical-instinctive': 46, 'grounded-dreamlike': 0 },
-};
+});
 
 describe('revealReading', () => {
+  it('reveals the same authored pours as before 1.6 (dawn regular-guy-caregiver, night magician-outlaw)', () => {
+    expect(revealReading(JOURNEY_FIXTURES.dawn).pairing).toBe('regular-guy-caregiver');
+    expect(revealReading(JOURNEY_FIXTURES.night).pairing).toBe('magician-outlaw');
+  });
+
   it('reveals different authored pours for different journeys, each the shortlist head', () => {
     const dawn = revealReading(JOURNEY_FIXTURES.dawn);
     const night = revealReading(JOURNEY_FIXTURES.night);
@@ -36,7 +41,7 @@ describe('revealReading', () => {
       expect(reading.whoYouAre).toEqual(pour.reading.whoYouAre);
       expect(reading.yours).toEqual(pour.reading.yours);
       expect(reading.copy).toBeNull();
-      expect(reading.name).toBe(fixture.name);
+      expect(reading.name).toBe(fixture.answers.name);
     }
     expect(dawn.seed).toBe('galliano-gold');
     expect(night.seed).toBe('cassis-plum');
@@ -46,13 +51,23 @@ describe('revealReading', () => {
     expect(revealReading(JOURNEY_FIXTURES.night).pairing).toBe(revealReading(JOURNEY_FIXTURES.night).pairing);
   });
 
+  it('ignores the trace and the diagnostics', () => {
+    const noisy: IntakeRecord = {
+      ...JOURNEY_FIXTURES.dawn,
+      trace: 'something else entirely',
+      diagnostics: { ...JOURNEY_FIXTURES.dawn.diagnostics, h4Mode: 'untimed', example: 'chosen' },
+    };
+    expect(revealReading(noisy).pairing).toBe(revealReading(JOURNEY_FIXTURES.dawn).pairing);
+  });
+
   it('honours a dairy veto', () => {
     const open = revealReading(visionary);
     expect(open.pairing).toBe('creator-hero');
     expect(open.cocktail.contains).toContain('dairy');
-    const vetoed = revealReading({ ...visionary, allergies: 'Dairy' });
+    const dairyFree: IntakeRecord = { ...visionary, answers: { ...visionary.answers, vetoes: ['dairy'] } };
+    const vetoed = revealReading(dairyFree);
     expect(vetoed.cocktail.contains).not.toContain('dairy');
-    expect(vetoed.pairing).toBe(selectShortlist(toRevealRequest({ ...visionary, allergies: 'Dairy' }))[0]);
+    expect(vetoed.pairing).toBe(selectShortlist(toRevealRequest(dairyFree))[0]);
   });
 
   it('reveals a valid authored pour for a sparse journey', () => {

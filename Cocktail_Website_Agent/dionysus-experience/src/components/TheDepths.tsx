@@ -1,6 +1,25 @@
 import { useEffect, useRef, useState } from 'react';
 import type { CSSProperties } from 'react';
-import type { Answers } from '../types';
+import {
+  BINARIES,
+  DRAWN,
+  FLAVOURS,
+  GRAVITIES,
+  LENSES,
+  SEEDS as SEED_VOCAB,
+  SOUGHT,
+  VETOES,
+  MAX_WORDS,
+  type BinaryKey,
+  type FlavourId,
+  type GravityKey,
+  type Pole,
+  type SeedKey,
+  type TextureDiagnostic,
+  type TextureStatus,
+  type Veto,
+} from '../../shared/vocab';
+import { flavoursInOrder, labelsToIds, vetoesInOrder, type DiagnosticsPatch, type IntakeRecord, type JourneyAnswers } from '../engine/record';
 import { FlavourIcon } from './FlavourIcon';
 import { ResonanceWorld } from './ResonanceWorld';
 import { score } from '../audio/score';
@@ -171,11 +190,10 @@ const SURFACE_BLACK_HOLD_MS = 150; // full black → onComplete. A beat, not a s
 // fourteen bare 14px labels, hand-scattered at unrelated bearings, on the
 // darkest frame in the film, with the catch signalled only by a 13px dot
 // changing colour. Nothing in the layout said "these are choices".
-//   · Nine words per round, not twelve/fourteen — each one gets room to be
-//     read and to be a comfortable target. The cuts are the overlaps:
-//     Recognition/Power fold into each other, Knowledge into Mastery,
-//     Energy and Fun into A little chaos, Perspective into Advice,
-//     Leadership into Courage, Protection into Comfort.
+//   · Fewer words than the old twelve/fourteen, so each one gets room to be
+//     read and to be a comfortable target: soughtFor has nine, and
+//     drawnToward has twelve since Q12 (2026-10-08: Knowledge, Influence,
+//     Making and Caring replaced Mischief).
 //   · Each word rides inside a Glass Sphere — the journey's established
 //     "choose me" affordance (H1's lenses, H6's flavours) — so H1, H5 and H6
 //     now speak one language instead of three.
@@ -188,19 +206,21 @@ const SURFACE_BLACK_HOLD_MS = 150; // full black → onComplete. A beat, not a s
 // asked FIRST, so she constitutes herself before she reaches for anything.
 // Order changes nothing in the answer shape or the matching model; the
 // matching owner logs questionnaire order as a playtest variable.
+// The words are the shared vocabularies' labels (shared/vocab.ts), in
+// vocabulary order; ResonanceWorld seals labels, mapped back to ids at onSeal.
 const RES_QUESTIONS = [
   {
     key: 'soughtFor' as const,
     prompt: 'What do people often come to you for?',
-    words: ['Advice', 'Comfort', 'Honesty', 'Courage', 'Ideas', 'Calm', 'Taste', 'A reality check', 'A little chaos'],
+    vocab: SOUGHT,
   },
   {
     key: 'drawnToward' as const,
     prompt: 'What are you most drawn toward right now?',
-    words: ['Freedom', 'Beauty', 'Mastery', 'Peace', 'Belonging', 'Pleasure', 'Wonder', 'Change', 'Knowledge', 'Influence', 'Making', 'Caring'],
+    vocab: DRAWN,
   },
 ] as const;
-const RES_MAX = 3;
+const RES_MAX = MAX_WORDS;
 // H4 → H5: night falls over the ~2.5s rise and keeps falling after it, so the
 // world dims like dusk, not like a light switched off. Same value on both
 // stages, so the transition never restarts at the arrival.
@@ -216,16 +236,19 @@ const NIGHTFALL = 'opacity 5.5s cubic-bezier(0.45, 0, 0.35, 1)';
 // The glass beat is gone (Robin, 2026-09-29). Each persona's pour has its own
 // fixed glass (agent/spec/SPEC.md: vessel "does not change the recipe"), so
 // asking for one promised something the reveal could not keep — choose a
-// coupe, be handed a highball. The drinkScales it wrote default to 50 in
-// mixology.ts. Rev 4 rose the flavours through the frame at a smaller size,
+// coupe, be handed a highball. Rev 4 rose the flavours through the frame at a smaller size,
 // which is what made this hold feel like a different product from H5.
-const FIN_MAX_FLAVORS = 3;
-const FIN_FLAVORS = ['Sweet', 'Bitter', 'Spicy', 'Herbal', 'Fruity', 'Citrusy', 'Fresh', 'Floral', 'Smoky'];
+const FIN_MAX_FLAVORS = MAX_WORDS;
+// Both lists are the shared vocabularies (shared/vocab.ts); the holds keep ids,
+// and FIN_FLAVORS[i] / FIN_VETOES[i] stay index-stable for the sphere refs.
+const FIN_FLAVORS = FLAVOURS;
+const FIN_FLAVOR_IDS: readonly FlavourId[] = FLAVOURS.map((f) => f.id);
 // "Alcohol" was dropped from this list (Robin, 2026-09-29 rev 2): this is a
-// question about what she can't have, and alcohol isn't an allergen. That was
-// also the only way to ask for a zero-proof pour — mixology.ts still honours
-// /alcohol/ in `allergies`, so a future zero-proof entry point can reuse it.
-const FIN_VETOES = ['Egg whites', 'Dairy', 'Gluten', 'Nuts', 'Spice'];
+// question about what she can't have, and alcohol isn't an allergen. Vetoes
+// are a closed v3 enum with no alcohol, so a future zero-proof entry point
+// would need a new v3 field.
+const FIN_VETOES = VETOES;
+const FIN_VETO_IDS: readonly Veto[] = VETOES.map((v) => v.id);
 
 // H7 · The Trace — "The Still Surface" (rev 3: one question, not two)
 // On the foam-dome hold (~10.7s) the journey goes near-silent — the chapter
@@ -261,17 +284,8 @@ const H4_LINES = {
   hintStill: 'Two at a time. Take your time, or let both go.',
 };
 
-const BINARIES = [
-  { key: 'sharp-smooth', a: 'Sharp', b: 'Smooth' },
-  { key: 'relaxed-excited', a: 'Relaxed', b: 'Excited' },
-  { key: 'halffull-halfempty', a: 'Half-full', b: 'Half-empty' },
-  { key: 'control', a: 'In control', b: 'Out of control' },
-  { key: 'quiet-loud', a: 'Quiet', b: 'Loud' },
-  { key: 'risk', a: 'Risk averse', b: 'Risk taker' },
-  { key: 'bright-dark', a: 'Bright', b: 'Dark' },
-  { key: 'soft-rough', a: 'Soft', b: 'Rough' },
-  { key: 'harmonic', a: 'Harmonic', b: 'Disharmonic' },
-];
+// The nine pairs are the shared BINARIES (shared/vocab.ts): pole `a` is the
+// left ember, pole `b` the right.
 
 const FROZEN_MS = 850;  // a calm beat: both embers hang suspended, pulsing
 // Rev 2 (2026-09-18 review): 2550 gave a 3.4s round, which is enough time to
@@ -280,6 +294,9 @@ const FROZEN_MS = 850;  // a calm beat: both embers hang suspended, pulsing
 // without softening the "don't think" instinct the hold exists for.
 const THAW_MS = 3400;   // then they cool — the pulse weakens, they shrink and dim
 const ROUND_MS = FROZEN_MS + THAW_MS; // total catch window per binary
+// A pair is readable, and catchable, this long after it mounts (~93% condensed):
+// the "readable moment" the diagnostics time a catch from (intake-contract.md).
+const H4_READABLE_MS = 250;
 
 // The on-ramp's beats. 16 words at ~200 words/min is ~4.8s from the line,
 // so it rises at 5.6s; the example condenses as the line arrives at the head.
@@ -297,41 +314,45 @@ type H4Line = 'off' | 'in' | 'hint' | 'up' | 'quiet';
 const prefersReducedMotion = () =>
   typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-// First pole lives on the dark crimson cloud (left), second on the cream (right).
-const GRAVITIES = [
-  { key: 'solitary-social', left: 'Solitary', right: 'Social' },
-  { key: 'controlled-wild', left: 'Controlled', right: 'Wild' },
-  { key: 'classic-experimental', left: 'Classic', right: 'Experimental' },
-  { key: 'analytical-instinctive', left: 'Analytical', right: 'Instinctive' },
-  { key: 'grounded-dreamlike', left: 'Grounded', right: 'Dreamlike' },
-];
+// The five polarities are the shared GRAVITIES (shared/vocab.ts). The first
+// pole lives on the dark crimson cloud (left), the second on the cream (right).
 
 // H8 · Composes the breath's echoes from the canonical Answers. Everything
 // here is allusion in her own words EXCEPT the trace — the scenario's
 // standing privacy rule: the one true thing is never echoed verbatim,
 // anywhere, ever. It gets one fixed allusion line, always last.
-const buildBreathEchoes = (a: Answers): string[] => {
+// The answers hold ids; every echo looks its label up in the shared vocab.
+const labelOf = (vocab: readonly { id: string; label: string }[], id: string) =>
+  vocab.find((option) => option.id === id)?.label ?? '';
+const buildBreathEchoes = (a: JourneyAnswers, trace: string): string[] => {
   const lower = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
   const out: string[] = [];
   if (a.name.trim()) out.push(`for ${a.name.trim()}`);
-  if (a.lens) out.push(`poured for ${lower(a.lens)}`);
-  if (a.colorName) out.push(`${a.colorName} runs through it`);
-  const grav = Object.entries(a.gravity);
+  const lens = a.lens ? labelOf(LENSES, a.lens) : '';
+  if (lens) out.push(`poured for ${lower(lens)}`);
+  const colorName = a.seed ? labelOf(SEED_VOCAB, a.seed) : '';
+  if (colorName) out.push(`${colorName} runs through it`);
+  const grav = GRAVITIES.flatMap((g) => {
+    const v = a.gravity[g.id];
+    return v === undefined ? [] : [{ pair: g, v }];
+  });
   if (grav.length) {
-    const [key, v] = grav.reduce((best, cur) => (Math.abs(cur[1] - 50) > Math.abs(best[1] - 50) ? cur : best));
-    const pair = GRAVITIES.find((g) => g.key === key);
-    if (pair && Math.abs(v - 50) > 8) out.push(`leaning ${(v < 50 ? pair.left : pair.right).toLowerCase()}`);
+    const { pair, v } = grav.reduce((best, cur) => (Math.abs(cur.v - 50) > Math.abs(best.v - 50) ? cur : best));
+    if (Math.abs(v - 50) > 8) out.push(`leaning ${(v < 50 ? pair.left : pair.right).toLowerCase()}`);
   }
-  const textures = Object.values(a.texture);
+  const textures = BINARIES.flatMap((b) => {
+    const pole = a.texture[b.id];
+    return pole ? [pole === 'a' ? b.a : b.b] : [];
+  });
   if (textures.length) out.push(`${textures[0].toLowerCase()}, when no one is asking`);
   if (textures.length < BINARIES.length) out.push('and a part of you it keeps secret');
-  if (a.drawnToward.length) out.push(`drawn toward ${a.drawnToward.slice(0, 2).map((w) => w.toLowerCase()).join(' & ')}`);
-  if (a.soughtFor.length) out.push(`what they come to you for: ${a.soughtFor[0].toLowerCase()}`);
-  if (a.flavors.length) out.push(`${a.flavors.map((w) => w.toLowerCase()).join(', ')} on the tongue`);
-  const firstWard = a.allergies.split(',').map((s) => s.trim()).filter(Boolean)[0];
-  if (firstWard) out.push(`never ${firstWard.toLowerCase()}`);
+  if (a.drawnToward.length) out.push(`drawn toward ${a.drawnToward.slice(0, 2).map((id) => labelOf(DRAWN, id).toLowerCase()).join(' & ')}`);
+  if (a.soughtFor.length) out.push(`what they come to you for: ${labelOf(SOUGHT, a.soughtFor[0]).toLowerCase()}`);
+  if (a.flavors.length) out.push(`${a.flavors.map((id) => labelOf(FLAVOURS, id).toLowerCase()).join(', ')} on the tongue`);
+  const firstWard = a.vetoes[0];
+  if (firstWard) out.push(`never ${labelOf(VETOES, firstWard).toLowerCase()}`);
   const capped = out.slice(0, 8);
-  if (a.insight.trim()) capped.push('…and the one thing you told only the ink');
+  if (trace.trim()) capped.push('…and the one thing you told only the ink');
   if (capped.length < 3) capped.push('the glass is listening', 'what settles now settles true');
   return capped;
 };
@@ -341,34 +362,29 @@ const LINES = [
   'There are no right answers, only honest ones.',
 ];
 
-// The six lenses for "Who is this cocktail for?"
-const LENSES = [
-  'The real me',
-  'The me I’m becoming',
-  'The night version of me',
-  'My inner child',
-  'The me I used to be',
-  // Was "Someone else" (Robin, 2026-10-06): the cocktail is always hers, and
-  // the dedication keeps her name — this lens is another version of her, never
-  // another person's drink.
-  'Another side of me',
-];
+// The six lenses for "Who is this cocktail for?" are the shared LENSES
+// (shared/vocab.ts). "Another side of me" was "Someone else" (Robin,
+// 2026-10-06): the cocktail is always hers, and the dedication keeps her name
+// — this lens is another version of her, never another person's drink.
 
 // Each colour is a real pour. The hue is the answer; the name is the whisper.
 // `s` varies the droplet size so the ring feels found, not arranged.
 // The template is liqueur + colour (Robin, 2026-09-18 — a liqueur-only cut
 // was tried and reverted). These flow on into the breath's echo
 // ("… runs through it") and the reading, so they have to read as a phrase.
-const SEEDS = [
-  { name: 'Campari Red', hex: '#c8102e', s: 1.0 },
-  { name: 'Aperol Orange', hex: '#ff6f1f', s: 0.86 },
-  { name: 'Galliano Gold', hex: '#f2c24e', s: 1.12 },
-  { name: 'Midori Green', hex: '#58b947', s: 0.92 },
-  { name: 'Curaçao Blue', hex: '#1287c8', s: 1.05 },
-  { name: 'Violette Purple', hex: '#7b5aa6', s: 0.88 },
-  { name: 'Pamplemousse Rosé', hex: '#f2789f', s: 0.97 },
-  { name: 'Cassis Plum', hex: '#5c2447', s: 1.08 },
-];
+// The ids, names and hexes are the shared SEEDS (shared/vocab.ts); the size
+// is UI-only.
+const SEED_SIZE: Record<SeedKey, number> = {
+  'campari-red': 1.0,
+  'aperol-orange': 0.86,
+  'galliano-gold': 1.12,
+  'midori-green': 0.92,
+  'curacao-blue': 1.05,
+  'violette-purple': 0.88,
+  'pamplemousse-rose': 0.97,
+  'cassis-plum': 1.08,
+};
+const SEEDS = SEED_VOCAB.map((seed) => ({ id: seed.id, name: seed.label, hex: seed.hex, s: SEED_SIZE[seed.id] }));
 
 // Loose elliptical ring (percent positions inside the seed stage container).
 const SEED_POS = [
@@ -425,7 +441,7 @@ export function DevNav({ onJump, onPage }: { onJump: (target: DevJumpTarget) => 
       <button className="rounded border border-white/20 px-1.5 py-0.5 hover:bg-white/10" onClick={() => onJump('gravity')}>H3 gravity</button>
       <button className="rounded border border-white/20 px-1.5 py-0.5 hover:bg-white/10" onClick={() => onJump(-1)}>H4 example</button>
       {BINARIES.map((b, i) => (
-        <button key={b.key} className="rounded border border-white/20 px-1.5 py-0.5 hover:bg-white/10" onClick={() => onJump(i)}>H4·{i}</button>
+        <button key={b.id} className="rounded border border-white/20 px-1.5 py-0.5 hover:bg-white/10" onClick={() => onJump(i)}>H4·{i}</button>
       ))}
       <button className="rounded border border-white/20 px-1.5 py-0.5 hover:bg-white/10" onClick={() => onJump('resonance')}>H5</button>
       <button className="rounded border border-white/20 px-1.5 py-0.5 hover:bg-white/10" onClick={() => onJump('finish')}>H6</button>
@@ -502,7 +518,20 @@ function DepthDots({
   );
 }
 
-export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, initialJump, onDevPage }: { answers: Answers; onUpdate: (patch: Partial<Answers>) => void; onPrepare?: () => void; onComplete?: () => void; initialJump?: DevJumpTarget; onDevPage?: (page: DevPage) => void }) {
+// The journey writes Answers v3 ids straight into App's IntakeRecord:
+// `onUpdate` for the answers, `onTrace` for H7, `onDiagnostics` for the
+// browser-only diagnostics (intake-contract.md), which never reach a request.
+export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, onPrepare, onComplete, initialJump, onDevPage }: {
+  record: IntakeRecord;
+  onUpdate: (patch: Partial<JourneyAnswers>) => void;
+  onTrace: (trace: string) => void;
+  onDiagnostics: (patch: DiagnosticsPatch) => void;
+  onPrepare?: () => void;
+  onComplete?: () => void;
+  initialJump?: DevJumpTarget;
+  onDevPage?: (page: DevPage) => void;
+}) {
+  const answers = record.answers;
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -522,9 +551,12 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // to a whisper so the footage leads again. It returns in full at the reveal.
   const [tintPhase, setTintPhase] = useState<'bloom' | 'memory'>('bloom');
   const trackRef = useRef<HTMLDivElement>(null);
-  const gravValues = useRef<Record<string, number>>({ ...(answers?.gravity || {}) });
+  const gravValues = useRef<Partial<Record<GravityKey, number>>>({ ...answers.gravity });
+  // diagnostics: whether each mote was moved by pointer or key before commit
+  // (sticky once true), so an active midpoint reads apart from an untouched 50
+  const gravMoved = useRef<Partial<Record<GravityKey, boolean>>>({ ...record.diagnostics.gravityMoved });
   const [gravRound, setGravRound] = useState(0);
-  const [maxGravRound, setMaxGravRound] = useState(() => Math.max(0, Object.keys(answers?.gravity || {}).length));
+  const [maxGravRound, setMaxGravRound] = useState(() => Math.max(0, Object.keys(answers.gravity).length));
   const [gravX, setGravX] = useState(50);
   const [gravDragging, setGravDragging] = useState(false);
   const [gravCommitted, setGravCommitted] = useState(false);
@@ -544,13 +576,21 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // ref — the preference is sampled once at mount and never changes mid-hold
   const [stillWater] = useState(prefersReducedMotion);
   const stillWaterRef = useRef(stillWater); // for the rAF loop, which runs outside render
+  // diagnostics: Still Water is the untimed H4 (sampled once, like stillWater)
+  useEffect(() => {
+    onDiagnostics({ h4Mode: stillWater ? 'untimed' : 'timed' });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const hAnswered = useRef(false);
   // The embers are live while still invisible (practice's reading beat) or
   // barely condensed (a new pair); a tap then answered words she could not
   // read (2026-10-06 audit). Set by the round's rAF 250ms into the condense,
   // when they are ~93% in. The fade at the end stays catchable, as before.
   const hReadable = useRef(false);
-  const hResults = useRef<Record<string, string>>({});
+  const hResults = useRef<Partial<Record<BinaryKey, Pole>>>({ ...answers.texture });
+  // the tab was hidden while the current pair was up; it is re-presented and
+  // its final status says so (intake-contract.md: interrupted)
+  const hInterrupted = useRef(false);
   const skipHiddenKickoff = useRef(false); // set by debugJump so it doesn't race the natural kickoff
   const [hStage, setHStage] = useState<HiddenStage>('intro');
   const [hLine, setHLine] = useState<H4Line>('off');
@@ -559,7 +599,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const resCanvasRef = useRef<HTMLCanvasElement>(null);
   const resGlintRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const finFloatRefs = useRef<(HTMLDivElement | null)[]>([]); // H6: the rising carriers the flavour spheres ride in
-  const finCaughtRef = useRef<string[]>([]);
+  const finCaughtRef = useRef<FlavourId[]>([]);
   const resChosenRef = useRef<number[]>([]); // mirror for the canvas loop (avoids stale closures)
   const resSparks = useRef<Spark[]>([]); // bubble particles: catch-fizz / release / gather / notice, plus the continuous streams
   const resDust = useRef<Mote[] | null>(null); // the ambient fine-bubble field
@@ -571,9 +611,9 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // H6 · The Pour — its spheres register into resGlintRefs, so the resonance
   // canvas (fizz, pops) serves both holds
   const [finBeat, setFinBeat] = useState<FinBeat>('flavors');
-  const [maxFinBeat, setMaxFinBeat] = useState(() => (answers?.flavors?.length ? 1 : 0));
-  const [finCaught, setFinCaught] = useState<string[]>([]); // flavours committed, in catch order
-  const [finBanished, setFinBanished] = useState<string[]>([]);
+  const [maxFinBeat, setMaxFinBeat] = useState(() => (answers.flavors.length ? 1 : 0));
+  const [finCaught, setFinCaught] = useState<FlavourId[]>([]); // flavours committed, in catch order (stored in vocabulary order)
+  const [finBanished, setFinBanished] = useState<Veto[]>([]);
   const [finLeaving, setFinLeaving] = useState(false); // a beat is exiting — its head, pill and spheres go
   const [finSealed, setFinSealed] = useState(false);
   // H0 · the name, let go
@@ -886,7 +926,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const pickLens = (i: number) => {
     if (chosen !== null) return;
     setChosen(i);
-    onUpdate({ lens: LENSES[i] });
+    onUpdate({ lens: LENSES[i].id });
     after(1150, () => {
       setStage('ascend1');
       playUntil(HOLD_SEED, () => setStage('seed'));
@@ -897,7 +937,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     if (seedChosen !== null) return;
     setSeedChosen(i);
     setHoverSeed(null);
-    onUpdate({ color: SEEDS[i].hex, colorName: SEEDS[i].name, colorTouched: true });
+    onUpdate({ seed: SEEDS[i].id });
     after(1150, () => {
       setStage('ascend2');
       playUntil(HOLD_GRAVITY, () => setStage('gravity'));
@@ -906,9 +946,13 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     after(2700, () => setTintPhase('memory'));
   };
 
+  // the mote moved by her hand (pointer or key) this round, for diagnostics
+  const markGravMoved = () => { gravMoved.current[GRAVITIES[gravRound].id] = true; };
+
   const gravMoveTo = (clientX: number) => {
     const r = trackRef.current?.getBoundingClientRect();
     if (!r) return 50;
+    markGravMoved();
     const v = Math.max(0, Math.min(100, ((clientX - r.left) / r.width) * 100));
     setGravX(v);
     return v;
@@ -917,8 +961,9 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const commitGravity = (v: number) => {
     const currentRound = gravRound;
     const pair = GRAVITIES[currentRound];
-    gravValues.current[pair.key] = Math.round(v);
+    gravValues.current[pair.id] = Math.min(100, Math.max(0, Math.round(v)));
     onUpdate({ gravity: { ...gravValues.current } });
+    onDiagnostics({ gravityMoved: { [pair.id]: gravMoved.current[pair.id] === true } });
     setGravCommitted(true);
     setGravBreaths((b) => b + 1);
     const isLast = currentRound === GRAVITIES.length - 1;
@@ -933,7 +978,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
         const nextRound = currentRound + 1;
         setGravRound(nextRound);
         setMaxGravRound((prev) => Math.max(prev, nextRound));
-        const savedVal = gravValues.current[GRAVITIES[nextRound]?.key];
+        const savedVal = gravValues.current[GRAVITIES[nextRound].id];
         setGravX(savedVal !== undefined ? savedVal : 50);
         setGravCommitted(false);
       }
@@ -943,11 +988,11 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   const revertGravity = (targetIndex: number) => {
     if (gravCommitted) return;
     if (targetIndex === gravRound) return;
-    const canJump = targetIndex <= maxGravRound || gravValues.current[GRAVITIES[targetIndex]?.key] !== undefined;
+    const canJump = targetIndex <= maxGravRound || gravValues.current[GRAVITIES[targetIndex].id] !== undefined;
     if (!canJump) return;
 
     setGravRound(targetIndex);
-    const savedVal = gravValues.current[GRAVITIES[targetIndex]?.key];
+    const savedVal = gravValues.current[GRAVITIES[targetIndex].id];
     setGravX(savedVal !== undefined ? savedVal : 50);
     setGravDragging(false);
     trackRef.current?.focus();
@@ -1042,10 +1087,33 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     after(gap, () => startHRound(next));
   };
 
-  const startHRound = (i: number) => {
+  // H4 diagnostics (intake-contract.md). Round -1 is the example: it records
+  // only chosen / notTouched. A real pair records its final status, carrying
+  // `interrupted` when it had to be re-presented after a hidden tab.
+  const recordPair = (i: number, status: TextureStatus, ms?: number) => {
+    if (i < 0) { onDiagnostics({ example: status === 'chosen' ? 'chosen' : 'notTouched' }); return; }
+    const d: TextureDiagnostic = { status };
+    if (ms !== undefined) d.ms = ms;
+    if (hInterrupted.current) d.interrupted = true;
+    onDiagnostics({ texture: { [BINARIES[i].id]: d } });
+  };
+  // A pair that ends without a catch leaves its texture key absent.
+  const recordNoChoice = (i: number, status: 'timedOut' | 'skipped') => {
+    if (i >= 0) {
+      const key = BINARIES[i].id;
+      if (hResults.current[key] !== undefined) {
+        delete hResults.current[key];
+        onUpdate({ texture: { ...hResults.current } });
+      }
+    }
+    recordPair(i, status);
+  };
+
+  const startHRound = (i: number, represented = false) => {
     if (hRaf.current) cancelAnimationFrame(hRaf.current);
     hAnswered.current = false;
     hReadable.current = false;
+    hInterrupted.current = represented;
     setHRound(i);
     setHStage('play');
     hStart.current = performance.now();
@@ -1059,17 +1127,27 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       // she was away. The pair she never saw must not expire into a "secret"
       // (2026-10-06 mobile audit; agreed with the matching owner): hide it and
       // present the same pair again.
+      // An approximation: any frame gap over 500 ms counts (a hidden tab, a
+      // frozen tab, or a long main-thread stall), not only a hidden tab.
       if (now - lastFrame > 500) {
+        // the pause: nothing can be caught or let cool until the pair returns
+        hAnswered.current = true;
+        hReadable.current = false;
         paintDrops(0);
-        after(600, () => startHRound(i));
+        after(600, () => startHRound(i, true));
         return;
       }
       lastFrame = now;
       const elapsed = now - hStart.current;
-      if (elapsed >= 250) hReadable.current = true;
+      if (elapsed >= H4_READABLE_MS) hReadable.current = true;
       paintDrops(elapsed);
       if (elapsed >= roundMs) {
-        if (!hAnswered.current) { setHStage('gap'); advanceHidden(i + 1); }
+        if (!hAnswered.current) {
+          hAnswered.current = true;
+          recordNoChoice(i, 'timedOut');
+          setHStage('gap');
+          advanceHidden(i + 1);
+        }
         return;
       }
       hRaf.current = requestAnimationFrame(tick);
@@ -1083,23 +1161,26 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     if (hStage !== 'play' || hAnswered.current) return;
     hAnswered.current = true;
     if (hRaf.current) cancelAnimationFrame(hRaf.current);
+    recordNoChoice(hRound, 'skipped');
     setHStage('gap');
     advanceHidden(hRound + 1);
   };
 
-  const catchDrop = (side: 'a' | 'b') => {
+  // `at` is the tap's event time, on the same clock as performance.now()
+  const catchDrop = (side: Pole, at: number) => {
     if (hStage !== 'play' || hAnswered.current) return;
     // Only a word she can read can be chosen (see hReadable)
     if (!hReadable.current) return;
     hAnswered.current = true;
     if (hRaf.current) cancelAnimationFrame(hRaf.current);
+    // ms from the readable moment (the 250 ms catch threshold) to the catch
+    const ms = Math.max(0, Math.round(at - hStart.current - H4_READABLE_MS));
     if (hRound >= 0) {
       // round -1 is the example (1 / 2): it teaches the motion, not the data
-      const bin = BINARIES[hRound];
-      const word = side === 'a' ? bin.a : bin.b;
-      hResults.current[bin.key] = word;
+      hResults.current[BINARIES[hRound].id] = side;
       onUpdate({ texture: { ...hResults.current } });
     }
+    recordPair(hRound, 'chosen', hRound >= 0 ? ms : undefined);
     // The catch (rev 5 — Robin: the flash-and-double-ring read as quick and
     // flat). The chosen sphere fills with her colour from its centre, lets a
     // column of fine fizz loose, then rises and dissolves into the drink —
@@ -1367,7 +1448,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // above (running for 'finish' too) gives the chosen flavours H5's fizz.
   useEffect(() => {
     if (stage !== 'finish') return;
-    resChosenRef.current = finBeat === 'flavors' ? finCaught.map((w) => FIN_FLAVORS.indexOf(w)) : [];
+    resChosenRef.current = finBeat === 'flavors' ? finCaught.map((id) => FIN_FLAVOR_IDS.indexOf(id)) : [];
   }, [stage, finBeat, finCaught]);
 
   useEffect(() => { finCaughtRef.current = finCaught; }, [finCaught]);
@@ -1439,7 +1520,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
       // A shared lane (phones) slows as one, so its spacing holds.
       const surface = new Array<number>(cols).fill(1);
       for (let i = 0; i < n; i++) {
-        if (!st[i].init || held.includes(FIN_FLAVORS[i])) continue;
+        if (!st[i].init || held.includes(FIN_FLAVOR_IDS[i])) continue;
         surface[i % cols] = Math.min(surface[i % cols], 1 - 0.58 * smooth(0.8, 0.92, st[i].p));
       }
       const pts: { x: number; y: number; lane: number; held: boolean }[] = [];
@@ -1454,7 +1535,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
           s0.p = reduced ? (slot + lane * 0.618) % 1 : base[lane % base.length] - slot;
           s0.delay = Math.random() * 650;
         }
-        const isHeld = held.includes(FIN_FLAVORS[i]);
+        const isHeld = held.includes(FIN_FLAVOR_IDS[i]);
         if (!isHeld && !reduced) {
           s0.p += (dt * arrival * surface[lane]) / (21000 - (lane % 3) * 1800);
           if (s0.p >= 1) s0.p -= 1;
@@ -1499,7 +1580,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // Beat 1: choose the flavours — H5's toggle, word for word
   const catchFlavor = (i: number) => {
     if (finBeat !== 'flavors' || finLeaving) return;
-    const word = FIN_FLAVORS[i];
+    const word = FIN_FLAVOR_IDS[i];
     const c = glintCenter(resGlintRefs.current[i]);
     if (finCaught.includes(word)) {
       if (c) spawnSparks(c.x, c.y, 'release');
@@ -1520,7 +1601,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
 
   // Every beat leaves the same way H5 does: the chosen surface a beat apart,
   // the rest let go where they are, the question and the pill fade.
-  const exitSpheres = (words: string[], chosen: string[]) => {
+  const exitSpheres = (words: readonly string[], chosen: readonly string[]) => {
     words.forEach((w, i) => {
       const el = resGlintRefs.current[i];
       if (!el) return;
@@ -1528,16 +1609,17 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
         el.style.setProperty('--k', `${chosen.indexOf(w) * 90}ms`);
         el.classList.add('sphere-surface');
       } else {
-        el.classList.add(chosen.length >= FIN_MAX_FLAVORS && words === FIN_FLAVORS ? 'sphere-dissolve-dim' : 'sphere-dissolve');
+        el.classList.add(chosen.length >= FIN_MAX_FLAVORS && words === FIN_FLAVOR_IDS ? 'sphere-dissolve-dim' : 'sphere-dissolve');
       }
     });
   };
 
   const sealCatch = () => {
     if (finCaught.length === 0 || finLeaving) return;
-    onUpdate({ flavors: finCaught });
+    // stored in vocabulary order: catch order is decorative, never captured
+    onUpdate({ flavors: flavoursInOrder(finCaught) });
     setFinLeaving(true);
-    exitSpheres(FIN_FLAVORS, finCaught);
+    exitSpheres(FIN_FLAVOR_IDS, finCaught);
     after(1250, () => {
       setFinLeaving(false);
       setFinBeat('ward');
@@ -1551,7 +1633,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
     if (targetBeatIdx === 1 && finBeat === 'ward') return;
     if (targetBeatIdx === 1 && maxFinBeat < 1) return;
 
-    const currentWords = finBeat === 'flavors' ? FIN_FLAVORS : FIN_VETOES;
+    const currentWords: readonly string[] = finBeat === 'flavors' ? FIN_FLAVOR_IDS : FIN_VETO_IDS;
     currentWords.forEach((_, i) => {
       const el = resGlintRefs.current[i];
       if (el) {
@@ -1567,7 +1649,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // behind, struck, and touching it blows the bubble back.
   const toggleWard = (i: number) => {
     if (finLeaving || finSealed) return;
-    const word = FIN_VETOES[i];
+    const word = FIN_VETO_IDS[i];
     const popping = !finBanished.includes(word);
     if (popping) {
       const c = glintCenter(resGlintRefs.current[i]);
@@ -1578,10 +1660,10 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
 
   const sealWard = () => {
     if (finSealed) return;
-    onUpdate({ allergies: finBanished.join(', ') });
+    onUpdate({ vetoes: vetoesInOrder(finBanished) });
     setFinSealed(true);
     setFinLeaving(true);
-    exitSpheres(FIN_VETOES, []);
+    exitSpheres(FIN_VETO_IDS, []);
     after(1100, () => {
       setStage('ascend6');
       playUntil(HOLD_TRACE, () => setStage('trace'));
@@ -1610,7 +1692,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // read as a camera flash rather than a breath let out.)
   const sealTrace = () => {
     if (traceSealed) return;
-    onUpdate({ insight: traceText.trim() });
+    onTrace(traceText.trim());
     setTraceSealed(true);
     const burst = Math.min(14, 6 + Math.round(traceText.length / 8));
     for (let k = 0; k < burst; k++) after(k * 40, releaseTraceMote);
@@ -1647,7 +1729,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
   // exactly one cycle plays before the condense.
   useEffect(() => {
     if (stage !== 'breath') return;
-    breathFrags.current = buildBreathEchoes(answers);
+    breathFrags.current = buildBreathEchoes(answers, record.trace);
     setBreathPhase('still');
     setBreathShowReveal(false);
     setBreathReleased(false);
@@ -2115,8 +2197,8 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
               <h2 className="hold-q">Who is this cocktail for?</h2>
             </div>
             <div className="sphere-cluster is-lens">
-              {LENSES.map((label, i) => (
-                <div key={label} className="sphere-drift">
+              {LENSES.map((lens, i) => (
+                <div key={lens.id} className="sphere-drift">
                   <button
                     type="button"
                     onClick={() => pickLens(i)}
@@ -2125,7 +2207,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                     }`}
                     style={{ '--c': '#ffb088', '--d': `${200 + i * 90}ms`, '--k': '420ms' } as CSSProperties}
                   >
-                    <span className="sphere"><span className="sphere-word">{label}</span></span>
+                    <span className="sphere"><span className="sphere-word">{lens.label}</span></span>
                   </button>
                 </div>
               ))}
@@ -2264,13 +2346,13 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                 // lets it go where it rests — the keyboard mirror of the drag
                 const STEP = 4;
                 if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') {
-                  e.preventDefault(); setGravHinted(true); setGravX((v) => Math.max(0, v - STEP));
+                  e.preventDefault(); setGravHinted(true); markGravMoved(); setGravX((v) => Math.max(0, v - STEP));
                 } else if (e.key === 'ArrowRight' || e.key === 'ArrowUp') {
-                  e.preventDefault(); setGravHinted(true); setGravX((v) => Math.min(100, v + STEP));
+                  e.preventDefault(); setGravHinted(true); markGravMoved(); setGravX((v) => Math.min(100, v + STEP));
                 } else if (e.key === 'Home') {
-                  e.preventDefault(); setGravHinted(true); setGravX(0);
+                  e.preventDefault(); setGravHinted(true); markGravMoved(); setGravX(0);
                 } else if (e.key === 'End') {
-                  e.preventDefault(); setGravHinted(true); setGravX(100);
+                  e.preventDefault(); setGravHinted(true); markGravMoved(); setGravX(100);
                 } else if (e.key === 'Enter' || e.key === ' ') {
                   e.preventDefault(); commitGravity(gravX);
                 }
@@ -2291,7 +2373,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
 
             <div className="depth-dots">
               {GRAVITIES.map((g, i) => {
-                const hasAnswer = gravValues.current[g.key] !== undefined;
+                const hasAnswer = gravValues.current[g.id] !== undefined;
                 const isCurrent = i === gravRound;
                 const isClickable = !gravCommitted && !isCurrent && (i <= maxGravRound || hasAnswer);
                 const isFilled = i < gravRound || (i === gravRound && gravCommitted) || hasAnswer;
@@ -2303,7 +2385,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                 if (isClickable) {
                   return (
                     <button
-                      key={g.key}
+                      key={g.id}
                       type="button"
                       onClick={() => revertGravity(i)}
                       className="grav-dot is-clickable"
@@ -2315,7 +2397,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
 
                 return (
                   <span
-                    key={g.key}
+                    key={g.id}
                     className="grav-dot"
                     aria-current={isCurrent ? 'step' : undefined}
                     style={style}
@@ -2346,7 +2428,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                     type="button"
                     className={`ember${hRound === -1 ? ' is-number' : ''}`}
                     style={{ '--x': '33%', '--c': seedHex } as CSSProperties}
-                    onClick={() => catchDrop('a')}
+                    onClick={(e) => catchDrop('a', e.timeStamp)}
                   >
                     <span className="sphere"><span className="sphere-word">{hRound === -1 ? EXAMPLE_PAIR.a : BINARIES[hRound].a}</span></span>
                   </button>
@@ -2355,7 +2437,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                     type="button"
                     className={`ember${hRound === -1 ? ' is-number' : ''}`}
                     style={{ '--x': '67%', '--c': seedHex } as CSSProperties}
-                    onClick={() => catchDrop('b')}
+                    onClick={(e) => catchDrop('b', e.timeStamp)}
                   >
                     <span className="sphere"><span className="sphere-word">{hRound === -1 ? EXAMPLE_PAIR.b : BINARIES[hRound].b}</span></span>
                   </button>
@@ -2383,15 +2465,19 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
           <ResonanceWorld
             key={resWorldKey}
             rounds={[
-              { key: RES_QUESTIONS[0].key, prompt: RES_QUESTIONS[0].prompt, words: [...RES_QUESTIONS[0].words] },
-              { key: RES_QUESTIONS[1].key, prompt: RES_QUESTIONS[1].prompt, words: [...RES_QUESTIONS[1].words] },
+              { key: RES_QUESTIONS[0].key, prompt: RES_QUESTIONS[0].prompt, words: RES_QUESTIONS[0].vocab.map((o) => o.label) },
+              { key: RES_QUESTIONS[1].key, prompt: RES_QUESTIONS[1].prompt, words: RES_QUESTIONS[1].vocab.map((o) => o.label) },
             ]}
             max={RES_MAX}
             seedHex={seedHex}
             still={stillWater}
             // rising to H6, her words go and her fizz carries on up
             leaving={stage !== 'resonance'}
-            onSeal={(key, words) => onUpdate({ [key]: words } as Partial<Answers>)}
+            // ResonanceWorld seals labels; the answers keep ids, in vocabulary order
+            onSeal={(key, words) => {
+              if (key === 'soughtFor') onUpdate({ soughtFor: labelsToIds(SOUGHT, words) });
+              else onUpdate({ drawnToward: labelsToIds(DRAWN, words) });
+            }}
             onDone={() => {
               setResAfterglow(true);
               setStage('ascend5');
@@ -2424,11 +2510,11 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                   </p>
                 </div>
                 <div className="sphere-field">
-                  {FIN_FLAVORS.map((w, i) => {
-                    const lit = finCaught.includes(w);
+                  {FIN_FLAVORS.map((flavour, i) => {
+                    const lit = finCaught.includes(flavour.id);
                     const dim = !lit && finCaught.length >= FIN_MAX_FLAVORS;
                     return (
-                      <div key={w} ref={(el) => { finFloatRefs.current[i] = el; }} className="sphere-float">
+                      <div key={flavour.id} ref={(el) => { finFloatRefs.current[i] = el; }} className="sphere-float">
                         <button
                           ref={(el) => { resGlintRefs.current[i] = el; }}
                           type="button"
@@ -2437,7 +2523,7 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                           style={{ '--c': seedHex, '--d': '0ms' } as CSSProperties}
                           onClick={() => catchFlavor(i)}
                         >
-                          <span className="sphere is-flavour"><FlavourIcon name={w} /><span className="sphere-word">{w}</span></span>
+                          <span className="sphere is-flavour"><FlavourIcon name={flavour.id} /><span className="sphere-word">{flavour.label}</span></span>
                         </button>
                       </div>
                     );
@@ -2467,22 +2553,22 @@ export default function TheDepths({ answers, onUpdate, onPrepare, onComplete, in
                 {/* the same spheres, rising up from the depths into a still
                     cluster this time — something to look over carefully */}
                 <div className="sphere-cluster is-rising">
-                  {FIN_VETOES.map((w, i) => {
-                    const popped = finBanished.includes(w);
+                  {FIN_VETOES.map((veto, i) => {
+                    const popped = finBanished.includes(veto.id);
                     return (
-                      <div key={w} className="sphere-drift">
+                      <div key={veto.id} className="sphere-drift">
                         <button
                           ref={(el) => { resGlintRefs.current[i] = el; }}
                           type="button"
                           aria-pressed={popped}
-                          aria-label={popped ? `${w}, left out` : w}
+                          aria-label={popped ? `${veto.label}, left out` : veto.label}
                           className={`sphere-btn ${popped ? 'is-popped' : ''}`}
                           style={{ '--c': seedHex, '--d': `${200 + i * 140}ms` } as CSSProperties}
                           onClick={() => toggleWard(i)}
                         >
                           <span className="sphere-slot">
                             <span key={popped ? 'popped' : 'whole'} className="sphere" />
-                            <span className="sphere-word">{w}</span>
+                            <span className="sphere-word">{veto.label}</span>
                           </span>
                         </button>
                       </div>

@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
-import type { Answers } from './types';
+import { emptyRecord, mergeDiagnostics, type DiagnosticsPatch, type IntakeRecord, type JourneyAnswers } from './engine/record';
 import type { Reading } from '../shared/reading';
 import TheDepths, { type DevJumpTarget, type DevPage } from './components/TheDepths';
 import NotFound from './components/NotFound';
@@ -82,41 +82,13 @@ type Phase = 'landing' | 'depths' | 'gift' | 'reading' | 'notfound';
 const isUnknownRoute = (): boolean =>
   !pourFromLocation() && !isLandingPath(window.location.pathname);
 
-const DEFAULT_ANSWERS: Answers = {
-  name: '',
-  lens: null,
-  answerStyle: null,
-  childhood: null,
-  city: '',
-  age: '',
-  gender: null,
-  color: '#e8702a',
-  colorName: '',
-  colorTouched: false,
-  gravity: {},
-  selfScales: {},
-  personality: null,
-  interpersonal: null,
-  workEthic: null,
-  emotional: null,
-  creativity: null,
-  moodScales: {},
-  texture: {},
-  drawnToward: [],
-  soughtFor: [],
-  styles: [],
-  flavors: [],
-  drinkScales: {},
-  allergies: '',
-  insight: '',
-};
-
 // Dev only: `?fixture=dawn` or `?fixture=night` preloads a whole journey's
-// answers, so a walkthrough can jump to H9 and seal real answers.
+// intake record, so a walkthrough can jump to H9 and seal real answers.
 const devFixture = import.meta.env.DEV ? new URLSearchParams(window.location.search).get('fixture') : null;
-const INITIAL_ANSWERS: Answers = import.meta.env.DEV && isJourneyFixture(devFixture)
-  ? JOURNEY_FIXTURES[devFixture]
-  : DEFAULT_ANSWERS;
+// Each journey opens on a fresh record (the fixture, in dev, when one is asked for).
+const initialRecord = (): IntakeRecord => import.meta.env.DEV && isJourneyFixture(devFixture)
+  ? structuredClone(JOURNEY_FIXTURES[devFixture])
+  : emptyRecord();
 
 function App() {
   // a #pour= link opens in the dark and stays there while the payload decodes —
@@ -136,10 +108,33 @@ function App() {
   // 'in' sinks the world into the dark, 'out' surfaces the next one from it.
   // Every change of world passes through this one veil.
   const [descending, setDescending] = useState<null | 'in' | 'out'>(null);
-  const [answers, setAnswers] = useState<Answers>(INITIAL_ANSWERS);
-  // the latest answers, for the reveal started from TheDepths' own timers
-  const answersRef = useRef(answers);
-  useEffect(() => { answersRef.current = answers; }, [answers]);
+  // The browser's intake record: TheDepths writes Answers v3 ids into
+  // `answers`, plus the trace and the diagnostics, which stay in the browser.
+  // The reveal request is projected from `answers` alone (engine/intake).
+  const [record, setRecord] = useState<IntakeRecord>(initialRecord);
+  // the latest record, for the reveal started from TheDepths' own timers
+  const recordRef = useRef(record);
+  useEffect(() => { recordRef.current = record; }, [record]);
+  // every journey (the threshold, the gift's invitation) starts on a fresh
+  // record, so a second pour never carries the first one's answers or diagnostics
+  const freshRecord = () => setRecord(initialRecord());
+
+  // Dev only, compiled out of production: a read hook for walkthroughs and
+  // parity checks. It returns the request minus the name, and the
+  // diagnostics; never the trace. It loads the request projection lazily, so
+  // zod stays out of the landing bundle even in dev.
+  useEffect(() => {
+    if (!import.meta.env.DEV) return;
+    const w = window as Window & { __dionysusIntake?: () => Promise<unknown> };
+    w.__dionysusIntake = async () => {
+      const { toRevealRequest } = await import('./engine/intake');
+      const current = recordRef.current;
+      const request: Partial<ReturnType<typeof toRevealRequest>> = { ...toRevealRequest(current) };
+      delete request.name;
+      return { request, diagnostics: current.diagnostics };
+    };
+    return () => { delete w.__dionysusIntake; };
+  }, []);
   // the reading on show: the owner's (H10) or, in gift mode, the sharer's,
   // assembled from the link so it carries their name and seed colour
   const [reading, setReading] = useState<Reading | null>(null);
@@ -196,7 +191,7 @@ function App() {
     descendIntoDepths(() => {
       window.history.replaceState(null, '', window.location.pathname);
       setReading(null);
-      setAnswers(DEFAULT_ANSWERS);
+      freshRecord();
     });
   };
 
@@ -261,8 +256,14 @@ function App() {
     };
   }, [phase]);
 
-  const updateAnswers = (patch: Partial<Answers>) => {
-    setAnswers((prev) => ({ ...prev, ...patch }));
+  const updateAnswers = (patch: Partial<JourneyAnswers>) => {
+    setRecord((prev) => ({ ...prev, answers: { ...prev.answers, ...patch } }));
+  };
+  const updateTrace = (trace: string) => {
+    setRecord((prev) => ({ ...prev, trace }));
+  };
+  const updateDiagnostics = (patch: DiagnosticsPatch) => {
+    setRecord((prev) => ({ ...prev, diagnostics: mergeDiagnostics(prev.diagnostics, patch) }));
   };
 
   // The descent: the one door into the depths, shared by every entrance —
@@ -288,9 +289,9 @@ function App() {
   const [roped, setRoped] = useState(false);
   const beginJourney = () => {
     if (isUnsupportedViewport()) { setRoped(true); return; }
-    descendIntoDepths();
+    descendIntoDepths(freshRecord);
   };
-  const crossAnyway = () => { setRoped(false); descendIntoDepths(); };
+  const crossAnyway = () => { setRoped(false); descendIntoDepths(freshRecord); };
 
   // TheDepths fires onPrepare at the letting-go (~1.6s before the handoff):
   // the reveal starts HERE — the registry and the reading room load, the
@@ -299,7 +300,7 @@ function App() {
   // awaits the same promise rather than selecting twice. A reveal that
   // cannot be built resolves to null, and the guest is taken home.
   const startReveal = (): Promise<Reading | null> => {
-    const journey = answersRef.current;
+    const journey = recordRef.current;
     const built = Promise.all([loadReveal(), loadReading()])
       .then(([{ revealReading }]) => {
         const revealed = revealReading(journey);
@@ -309,7 +310,11 @@ function App() {
         img.decode?.().catch(() => { /* decode failure only costs the head start */ });
         return revealed;
       })
-      .catch(() => null);
+      .catch((error: unknown) => {
+        // dev only, and the error alone: never the record, the trace or the name
+        if (import.meta.env.DEV) console.error('[dionysus] reveal failed', error);
+        return null;
+      });
     // a chunk load that hangs must not hold the dark forever: give up, go home
     const timeout = new Promise<null>((resolve) => window.setTimeout(() => resolve(null), REVEAL_TIMEOUT_MS));
     const pending = Promise.race([built, timeout]);
@@ -353,17 +358,17 @@ function App() {
   // ("Down the Line") so the room renders with its designed scene and
   // calibrated tag coords, whatever the journey has answered so far.
   const devPage = (page: DevPage) => {
-    Promise.all([loadReveal(), loadReading()]).then(([{ readingFor, seedFromHex }]) => {
-      const seed = seedFromHex(answers.color);
+    Promise.all([loadReveal(), loadReading()]).then(([{ readingFor }]) => {
+      const { name, seed } = record.answers;
       if (page === 'reading' || page === 'reading-in') {
-        setReading(readingFor(DEV_PAIRING, answers.name.trim(), seed));
+        setReading(readingFor(DEV_PAIRING, name.trim(), seed));
         setReadingIntro(page === 'reading-in');
         setReadingTake((n) => n + 1);
         setPhase('reading');
         return;
       }
       // H11 · the friend's arrival
-      setReading(readingFor(DEV_PAIRING, answers.name.trim() || 'Celeste', seed));
+      setReading(readingFor(DEV_PAIRING, name.trim() || 'Celeste', seed));
       setReadingTake((n) => n + 1);
       setPhase('gift');
     }).catch(() => goHome());
@@ -452,8 +457,10 @@ function App() {
 
       {phase === 'depths' && (
         <TheDepths
-          answers={answers}
+          record={record}
           onUpdate={updateAnswers}
+          onTrace={updateTrace}
+          onDiagnostics={updateDiagnostics}
           onPrepare={prepareReveal}
           onComplete={finishDepths}
           initialJump={import.meta.env.DEV ? devJump ?? undefined : undefined}

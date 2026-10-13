@@ -31,8 +31,12 @@
   **Resolved 2026-10-08, document review:** The renderer now uses each row's computed final_choice and labels the witness column without claiming every witness leads. Reachability Markdown was regenerated; all current 132 still lead.
   evidence: Baseline render.py hardcodes selectable for every row and labels all witnesses as leading; analyze.py can produce unreachable/unverified or top-three-only rows, though all current 132 lead (B10, low).
 - source_spec: `spec-1-5-app-reveals-the-selected-authored-pour.md`
-  summary: TheDepths' private option lists (lenses, seed hexes, poles, words, flavours, vetoes) are not tested against the shared v3 vocabularies, so a copy edit there silently drops answers to neutral.
+  summary: ~~TheDepths' private option lists (lenses, seed hexes, poles, words, flavours, vetoes) are not tested against the shared v3 vocabularies, so a copy edit there silently drops answers to neutral.~~
+  **Resolved 2026-10-13 (1.6):** TheDepths has no private option lists any more. It imports the vocabularies from the zod-free shared/vocab.ts and writes Answers v3 ids straight into App's IntakeRecord; src/engine/intake.ts is now a projection of `record.answers` with a strict parse, and the label→id mapping is gone. Only H5's sealed labels are mapped back to ids at TheDepths' boundary, against lists derived from the same vocab.
   evidence: src/engine/intake.ts maps labels via idFromLabel and drops unknowns; no test imports TheDepths' lists. Closes when 1.6 makes TheDepths write v3 ids directly.
 - source_spec: `spec-1-5-app-reveals-the-selected-authored-pour.md`
   summary: No automated test drives App's reveal wiring (journey answers → revealed reading; failed reveal or broken gift → landing).
   evidence: the repo has no component or e2e harness; 1.5 was verified by a manual Playwright walkthrough. Fits 1.8's end-to-end checks.
+- source_spec: `spec-1-6-thedepths-writes-v3-ids-and-browser-diagnostics.md`
+  summary: The H4/H3 diagnostics logic (chosen ms = t − 250, timedOut/skipped clearing the texture key, interrupted on re-present, taps ignored during the 600 ms pause, example chosen/notTouched, gravityMoved) has no committed test; it was verified only by ad-hoc Playwright scripts.
+  evidence: The logic lives in TheDepths closures, the vitest environment is node with no component harness, and 1.6 ruled out a committed Playwright suite. Fits 1.8's journey smoke, which can read `window.__dionysusIntake()` in a dev build. It extends the 1.5 entry "No automated test drives App's reveal wiring", which now also covers the record reset and updateTrace/updateDiagnostics.
