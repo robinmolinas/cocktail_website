@@ -132,6 +132,22 @@ class EvidenceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "not regenerated"):
             render.reach()
 
+    def test_phi_experiment_leaves_shipped_evidence_alone(self):
+        self.run_analysis()
+        shipped = {name: (self.root / name).read_bytes() for name in ("distribution-v1.json", "reachability-v1.json", "fixtures-v1.json")}
+        self.run_analysis("--phi", "0.6")
+        for name, original in shipped.items():
+            with self.subTest(name=name):
+                self.assertEqual((self.root / name).read_bytes(), original)
+        experiment = self.root / "experiments" / "phi-0.6"
+        meta = json.loads((experiment / "distribution-v1.json").read_text())["_analysis"]
+        self.assertEqual(meta["phi"], 0.6)
+        self.assertTrue((experiment / "fixtures-v1.json").exists())
+        # its reports say they are an experiment; the shipped ones do not
+        self.assertEqual(render.experiment_note(meta), [])
+        with patch.object(render, "HERE", str(experiment)):
+            self.assertIn("Experiment, not the shipped model.** Flavour weight φ = 0.6", "".join(render.experiment_note(meta)))
+
 
 if __name__ == "__main__":
     unittest.main()

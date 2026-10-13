@@ -50,11 +50,26 @@ npm run build
 # Run image validation script alone
 npm run validate:images
 
+# Selection reference check and unit tests (vitest)
+npm test
+
+# Lint
+npm run lint
+
+# Re-import the authored pours from the dossiers (import:pours:check verifies without writing)
+npm run import:pours
+
 # End-to-end privacy and parity checks: the real journey in Chromium on
 # desktop (mouse) and phone (touch), about 5 minutes; not part of build.
 # Needs Playwright's Chromium once (npx playwright install chromium) and a
 # network connection (fonts, analytics script). Its dev server uses port 5199.
+# A failure also reports the page's errors and loads (a reload shows as a
+# repeated URL), the journey video's state, the dev server's recent log, the
+# URL and a screenshot path.
 npm run e2e
+# A page renderer four times slower; and the dev server's log printed live
+E2E_CPU_THROTTLE=4 npm run e2e
+E2E_VITE_LOG=info npm run e2e
 ```
 
 ---

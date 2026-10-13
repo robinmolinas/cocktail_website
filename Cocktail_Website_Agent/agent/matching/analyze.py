@@ -2,7 +2,9 @@
 
   uv run --with scipy --with numpy python -I analyze.py [--phi X] [--samples N]
 
-Writes (next to this file):
+Writes (next to this file; a --phi run is an experiment and writes to
+experiments/phi-X/ instead, so it never replaces the shipped evidence or the
+fixtures the selection tests read; render it with render.py experiments/phi-X):
   reachability-v1.md / .json  132-row layered report
   distribution-v1.md / .json  outcome frequencies, ties, sensitivity, group influence
   fixtures-v1.json            one witness answer set per reachable pairing (core test fixtures)
@@ -369,8 +371,11 @@ def main():
     args = ap.parse_args()
     snapshot = source_hashes()
     spec = mt.load_model()
+    out = HERE
     if args.phi is not None:
         spec["flavourFit"]["phi"] = args.phi
+        out = os.path.join(HERE, "experiments", f"phi-{args.phi:g}")
+        os.makedirs(out, exist_ok=True)
     model = mt.Model(spec, mt.load_scales())
     cat = mt.load_catalogue(model)
     require_unchanged_sources(snapshot)
@@ -410,7 +415,7 @@ def main():
         "output_hashes": {},
     }
     require_unchanged_sources(snapshot)
-    with open(os.path.join(HERE, "distribution-v1.json"), "w") as f:
+    with open(os.path.join(out, "distribution-v1.json"), "w") as f:
         json.dump(dist, f, indent=1)
     print("phi", phi_sens, "veto", veto_sens, "empty", dist["empty_intake"])
 
@@ -419,16 +424,16 @@ def main():
     feas = Feasibility(model, cat)
     rows = reachability(model, cat, feas)
     require_unchanged_sources(snapshot)
-    with open(os.path.join(HERE, "reachability-v1.json"), "w") as f:
+    with open(os.path.join(out, "reachability-v1.json"), "w") as f:
         json.dump(rows, f, indent=1)
-    with open(os.path.join(HERE, "fixtures-v1.json"), "w") as f:
+    with open(os.path.join(out, "fixtures-v1.json"), "w") as f:
         json.dump({r["key"]: r["witness"] for r in rows if r["witness"]}, f, indent=1)
     for name in ("reachability-v1.json", "fixtures-v1.json"):
-        with open(os.path.join(HERE, name), "rb") as source:
+        with open(os.path.join(out, name), "rb") as source:
             dist["_analysis"]["output_hashes"][name] = hashlib.sha256(source.read()).hexdigest()
     require_unchanged_sources(snapshot)
     dist["_analysis"]["reachability_regenerated"] = True
-    with open(os.path.join(HERE, "distribution-v1.json"), "w") as f:
+    with open(os.path.join(out, "distribution-v1.json"), "w") as f:
         json.dump(dist, f, indent=1)
     from collections import Counter
     print(Counter(r["leads_fallback"].split(" [")[0] for r in rows))

@@ -14,7 +14,8 @@
   **Resolved 2026-10-08:** Both notes updated to reflect that `npm run import:pours` is the copy mechanism and the file is the source.
 
 - source_spec: `/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/_bmad-output/implementation-artifacts/spec-1-3-selection-core-matching-model-v1.md`
-  summary: Keep experimental --phi analysis outputs separate from canonical shipped-model evidence.
+  summary: ~~Keep experimental --phi analysis outputs separate from canonical shipped-model evidence.~~
+  **Resolved 2026-10-13 (1.10):** a `--phi X` run now writes to `agent/matching/experiments/phi-X/` (render it with `render.py experiments/phi-X`), so it can no longer replace distribution-v1, reachability-v1 or the fixtures the selection tests read. `test_evidence.py` pins it.
   evidence: Baseline analyze.py already overwrites distribution, reachability and witnesses under --phi; effective phi is recorded now, but reachability prose still implies shipped configuration (B3, medium).
 
 - source_spec: `/Users/robin.molinas/Documents/GenAI Projects/Dionysus/Cocktail_Website_Agent/_bmad-output/implementation-artifacts/spec-1-3-selection-core-matching-model-v1.md`
@@ -44,7 +45,8 @@
   **Resolved 2026-10-13 (1.8):** `npm run e2e` asserts chosen with an integer ms, timedOut with the texture key absent, interrupted on a re-present with the paused tap ignored, the example's notTouched and chosen, untimed with skipped in Still Water, and keyboard gravityMoved false versus true. Not pinned: the exact 250 ms offset in `ms` (only an integer ≥ 0 is asserted), and the `ms` of a re-presented pair.
   evidence: The logic lives in TheDepths closures, the vitest environment is node with no component harness, and 1.6 ruled out a committed Playwright suite. Fits 1.8's journey smoke, which can read `window.__dionysusIntake()` in a dev build. It extends the 1.5 entry "No automated test drives App's reveal wiring", which now also covers the record reset and updateTrace/updateDiagnostics.
 - source_spec: `spec-1-7-retire-legacy-engine-and-retired-answer-fields.md`
-  summary: The AGENTS.md repo map is incomplete beside the lines 1.7 edited. `components/` still lists TheSurfacing (archived), `scripts/` names only validate-persona-images.mjs, and the new `shared/` line leaves out `import/` and `validate.ts`. The app README's Run & Build section also omits `npm test`, `npm run lint` and `npm run import:pours`.
+  summary: ~~The AGENTS.md repo map is incomplete beside the lines 1.7 edited. `components/` still lists TheSurfacing (archived), `scripts/` names only validate-persona-images.mjs, and the new `shared/` line leaves out `import/` and `validate.ts`. The app README's Run & Build section also omits `npm test`, `npm run lint` and `npm run import:pours`.~~
+  **Resolved 2026-10-13 (1.10):** the map and command list are refreshed (components, shared/import and validate, scripts, e2e/, agent/), and the README lists npm test, lint and import:pours.
   evidence: 1.7 blind-hunter review. AGENTS.md is agent context, so per the build rules its completeness pass is deferred rather than patched here. Owner: whoever next refreshes the project context (bmad-project-context).
 - source_spec: `spec-1-8-privacy-and-parity-end-to-end-checks.md`
   summary: The e2e suite stops at the reading's arrival and never exercises H10's leaving actions (Share, Save, keep link, card/QR, PDF). These are where the name legitimately leaves the device in the {pairing, name, seed} link, and where a future regression could add more.
@@ -52,6 +54,8 @@
 - source_spec: `spec-1-8-privacy-and-parity-end-to-end-checks.md`
   summary: The e2e journeys pace themselves with about 60 fixed sleeps, and the timed diagnostics test depends on a narrow window (a 900 ms main-thread freeze, then a tap 150 ms later inside the 600 ms pause). It may be flaky on a loaded or CI machine. Unverified: medium if true.
   evidence: **Observed once, 2026-10-13:** 5 of 7 failed on the first run in a freshly installed worktree, straight after `npm run build`. The failures included both gift-link tests, which barely use sleeps, so dev-server load is likely. Not reproduced in the next 3 runs, including one from a cold Vite cache. Before that, 3 of 3 runs passed. It would be settled by running the suite under CPU throttling (CDP Emulation.setCPUThrottlingRate 4) or on CI, and by replacing sleeps with waits on hold state where a run fails.
+  **Updated 2026-10-13 (1.10):** `E2E_CPU_THROTTLE=4 npm run e2e` passed 7/7. That shows the fixed pauses survive a page renderer four times slower; it does not show they survive a loaded machine or dev server. They were kept. A cold Vite cache with `npm run build` running alongside reproduced a failure once in four attempts: desktop only, with the H1 "The real me" button gone 1.5 s after it appeared, no page error and no Vite re-optimise logged. Cause not found. A failure now reports page errors, any Vite reload, the URL and a screenshot path, so the next one names its cause. Still open: medium if it recurs on a quiet machine; run the suite alone, not beside a build.
 - source_spec: `spec-1-8-privacy-and-parity-end-to-end-checks.md`
-  summary: AGENTS.md's repo map and commands don't list `e2e/` or `npm run e2e`.
+  summary: ~~AGENTS.md's repo map and commands don't list `e2e/` or `npm run e2e`.~~
+  **Resolved 2026-10-13 (1.10):** both are listed now, with the 1.7 map refresh.
   evidence: 1.8 blind-hunter review. AGENTS.md is agent context, so it is deferred with the 1.7 AGENTS.md completeness entry.

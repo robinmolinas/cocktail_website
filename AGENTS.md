@@ -29,11 +29,14 @@ It translates an individual's psychology, tastes, and choices into a single besp
 │   │   │   ├── personas/          # Active persona image pairs (portrait.jpg, wide.jpg)
 │   │   │   └── journey.mp4        # Core journey video asset
 │   │   ├── src/
-│   │   │   ├── components/        # TheDepths, TheReading, TheSurfacing, CtaButton, etc.
+│   │   │   ├── components/        # TheDepths (journey), ResonanceWorld, TheReading, VelvetRope, CtaButton, etc.
 │   │   │   ├── engine/            # intake record, reveal, share links (wraps shared/)
 │   │   │   └── index.css          # Design system & custom animation tokens
-│   │   ├── shared/                # Pure core: answers + vocab, selection, reading, data/ (archetypes, personas, pours)
-│   │   └── scripts/               # validate-persona-images.mjs
+│   │   ├── shared/                # Pure core: answers + vocab, selection, reading, validate,
+│   │   │                          # data/ (archetypes, personas, pours, catalogue), import/ (dossier → pours)
+│   │   ├── scripts/               # validate-persona-images, import-pours, selection reference + landing bundle checks
+│   │   └── e2e/                   # End-to-end privacy and parity journeys (npm run e2e)
+│   ├── agent/                     # Spec, ARCHITECTURE-SPINE.md, matching model + analysis (matching/)
 │   ├── design-artifacts/          # UX specifications & pour design
 │   │   └── pours/                 # Pour dossiers (<pairing>.md), STUDIO-RULES.md
 │   │       └── _studio/           # Pour Studio workspace (specs, fact-cards, rooms, registry)
@@ -71,8 +74,17 @@ npm run dev
 # Run automated image validation & full production build
 npm run build
 
+# Run the selection reference check and unit tests (vitest)
+npm test
+
 # Run linting
 npm run lint
+
+# Re-import the authored pours from the dossiers
+npm run import:pours
+
+# End-to-end privacy and parity checks in Chromium (about 5 minutes; not part of build)
+npm run e2e
 
 # Validate persona images only
 npm run validate:images

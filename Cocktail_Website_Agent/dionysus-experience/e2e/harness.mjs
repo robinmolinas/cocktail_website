@@ -9,11 +9,23 @@ import { createHash } from 'node:crypto';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { createServer } from 'vite';
+import { createLogger, createServer } from 'vite';
 import { chromium } from 'playwright';
 
 export const APP_ROOT = fileURLToPath(new URL('..', import.meta.url));
 export const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// Everything the dev server logs (dep re-optimising, reloads, errors), kept so
+// a failure can quote it; E2E_VITE_LOG=info also prints it.
+const serverLog = [];
+function recordingLogger() {
+  const base = createLogger(process.env.E2E_VITE_LOG ?? 'error');
+  const keep = (level) => (msg, options) => {
+    serverLog.push(`${new Date().toISOString().slice(11, 23)} ${level} ${String(msg).replace(/\x1b\[[0-9;]*m/g, '')}`);
+    base[level](msg, options);
+  };
+  return { ...base, info: keep('info'), warn: keep('warn'), warnOnce: keep('warnOnce'), error: keep('error') };
+}
 
 // Its own port and cache, so it never disturbs a dev server already running
 // on 5180 (worktrees share node_modules).
@@ -23,7 +35,8 @@ export async function startServer() {
     configFile: join(APP_ROOT, 'vite.config.ts'),
     // one cache per checkout, so two worktrees' runs never race on it
     cacheDir: join(tmpdir(), `dionysus-e2e-vite-${createHash('sha1').update(APP_ROOT).digest('hex').slice(0, 8)}`),
-    logLevel: 'error',
+    logLevel: 'info',
+    customLogger: recordingLogger(),
     server: { port: 5199, strictPort: false, host: 'localhost' },
   });
   await server.listen();
@@ -63,12 +76,55 @@ export async function openPage({ viewport, touch = false, reducedMotion = 'no-pr
     });
   }
   const page = await context.newPage();
+  // E2E_CPU_THROTTLE=4 runs the page on a CPU four times slower, to prove the
+  // driver's waits hold on a loaded or CI machine
+  const throttle = Number(process.env.E2E_CPU_THROTTLE ?? 1);
+  if (throttle > 1) {
+    const cdp = await context.newCDPSession(page);
+    await cdp.send('Emulation.setCPUThrottlingRate', { rate: throttle });
+  }
   const errors = [];
   const requests = [];
+  // every main-frame load: a reload the test did not ask for (Vite's client
+  // reloads silently on a dep re-optimise) shows as a repeated URL
+  const navigations = [];
   page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
+  page.on('framenavigated', (frame) => {
+    if (frame === page.mainFrame()) navigations.push(`${new Date().toISOString().slice(11, 23)} ${frame.url()}`);
+  });
   page.on('pageerror', (error) => errors.push(String(error)));
   page.on('request', (request) => requests.push({ url: request.url(), method: request.method(), body: request.postData() ?? '' }));
-  return { browser, page, errors, requests, close: () => browser.close() };
+  return { browser, page, errors, requests, navigations, close: () => browser.close() };
+}
+
+/**
+ * Runs a test body; a failure also reports what the page logged, its loads,
+ * the dev server's recent log, and a screenshot of where it stood.
+ */
+export async function explained(session, body) {
+  try {
+    return await body();
+  } catch (error) {
+    const lines = [];
+    if (session.errors.length) lines.push(`page errors: ${session.errors.join(' | ')}`);
+    lines.push(`page loads: ${session.navigations.join(' | ')}`);
+    // the journey advances when the video reaches each hold, so a stalled
+    // video stalls the journey with no error at all
+    const video = await session.page.evaluate(() => {
+      const v = document.querySelector('video');
+      return v && { t: Number(v.currentTime.toFixed(2)), paused: v.paused, readyState: v.readyState, networkState: v.networkState, error: v.error?.code ?? null };
+    }).catch(() => null);
+    if (video) lines.push(`video: ${JSON.stringify(video)}`);
+    if (serverLog.length) lines.push(`dev server: ${serverLog.slice(-8).join(' | ')}`);
+    const shot = join(tmpdir(), `dionysus-e2e-failure-${Date.now()}.png`);
+    if (await session.page.screenshot({ path: shot }).then(() => true, () => false)) lines.push(`at ${session.page.url()}, screenshot ${shot}`);
+    // node prints the stack, which captured the message when it was thrown
+    const extra = lines.map((line) => `\n  ${line}`).join('');
+    const original = error.message;
+    error.message += extra;
+    if (typeof error.stack === 'string') error.stack = error.stack.replace(original, error.message);
+    throw error;
+  }
 }
 
 async function center(locator) {

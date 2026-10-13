@@ -17,6 +17,7 @@ import {
   DESKTOP,
   PHONE,
   clickEmber,
+  explained,
   expectedPour,
   openAtHold,
   openPage,
@@ -47,7 +48,7 @@ describe('the journey on desktop and phone', () => {
   for (const device of [DESKTOP, PHONE]) {
     test(`${device.label}: reveals the shared core's pour, and nothing private leaves the browser`, { timeout: JOURNEY_MS }, async () => {
       const session = await openPage({ viewport: device.viewport, touch: device.touch, hideDevNav: true });
-      try {
+      await explained(session, async () => {
         const { title, intake } = await walkJourney(session.page, { url: server.url, touch: device.touch });
         const { request, diagnostics } = intake;
 
@@ -104,9 +105,7 @@ describe('the journey on desktop and phone', () => {
 
         assert.deepEqual(session.errors, [], 'the page logged errors');
         runs[device.label] = { title, request, statuses: Object.fromEntries(BINARY_KEYS.map((key) => [key, diagnostics.texture[key].status])), diagnostics };
-      } finally {
-        await session.close();
-      }
+      }).finally(() => session.close());
     });
   }
 
@@ -126,7 +125,7 @@ describe('H4 and H3 diagnostics', () => {
   test('timed: expiry, a catch, a timeout and a paused re-present', { timeout: 120_000 }, async () => {
     const session = await openPage({ viewport: DESKTOP.viewport });
     const { page } = session;
-    try {
+    await explained(session, async () => {
       await openAtHold(page, server.url, 'H4 example');
       await page.locator('.ember.is-number').first().waitFor();
       // the 1/2 example expires untouched
@@ -161,15 +160,13 @@ describe('H4 and H3 diagnostics', () => {
       // a timed-out pair leaves no answer; the paused tap changed nothing
       assert.deepEqual(request.texture, { 'sharp-smooth': 'a', 'halffull-halfempty': 'b' });
       assert.deepEqual(session.errors, []);
-    } finally {
-      await session.close();
-    }
+    }).finally(() => session.close());
   });
 
   test('Still Water: untimed, let them cool, and keyboard gravity', { timeout: 120_000 }, async () => {
     const session = await openPage({ viewport: DESKTOP.viewport, reducedMotion: 'reduce' });
     const { page } = session;
-    try {
+    await explained(session, async () => {
       await openAtHold(page, server.url, 'H3 gravity');
       const track = page.locator('.grav-track');
       await track.waitFor();
@@ -205,16 +202,14 @@ describe('H4 and H3 diagnostics', () => {
       assert.equal(diagnostics.gravityMoved['solitary-social'], false);
       assert.equal(diagnostics.gravityMoved['controlled-wild'], true);
       assert.deepEqual(session.errors, []);
-    } finally {
-      await session.close();
-    }
+    }).finally(() => session.close());
   });
 });
 
 describe('gift links', () => {
   test('a broken link opens the landing', { timeout: 60_000 }, async () => {
     const session = await openPage({ viewport: PHONE.viewport, touch: true });
-    try {
+    await explained(session, async () => {
       const { page } = session;
       // a link that won't decompress, and a well-formed one naming no pour
       const unknown = 'p' + Buffer.from(JSON.stringify({ pairing: 'nobody-else', name: 'Celeste', seed: null })).toString('base64url');
@@ -226,15 +221,13 @@ describe('gift links', () => {
         assert.ok(!page.url().includes('#pour='), 'the broken link was left in the address bar');
       }
       assert.deepEqual(session.errors, []);
-    } finally {
-      await session.close();
-    }
+    }).finally(() => session.close());
   });
 
   test('a valid link opens its pour, with the sharer\'s name', { timeout: 60_000 }, async () => {
     const session = await openPage({ viewport: PHONE.viewport, touch: true });
     const { page } = session;
-    try {
+    await explained(session, async () => {
       await page.goto(`${server.url}/`);
       const { hash, name } = await page.evaluate(async () => {
         const { encodePour } = await import('/src/engine/pourLink.ts');
@@ -248,8 +241,6 @@ describe('gift links', () => {
       assert.equal((await page.locator('h1.tr-title').textContent())?.trim(), name);
       await page.getByText('Celeste').first().waitFor({ timeout: 10000 });
       assert.deepEqual(session.errors, []);
-    } finally {
-      await session.close();
-    }
+    }).finally(() => session.close());
   });
 });
