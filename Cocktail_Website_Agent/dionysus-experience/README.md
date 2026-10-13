@@ -49,6 +49,12 @@ npm run build
 
 # Run image validation script alone
 npm run validate:images
+
+# End-to-end privacy and parity checks: the real journey in Chromium on
+# desktop (mouse) and phone (touch), about 5 minutes; not part of build.
+# Needs Playwright's Chromium once (npx playwright install chromium) and a
+# network connection (fonts, analytics script). Its dev server uses port 5199.
+npm run e2e
 ```
 
 ---

@@ -16,6 +16,7 @@
     "build": "npm run validate:images && npm run import:pours:fresh && npm run selection:reference:check && tsc -b && vitest run && vite build && npm run bundle:landing:check",
     "bundle:landing:check": "node scripts/check-landing-bundle.mjs",
     "test": "npm run selection:reference:check && vitest run",
+    "e2e": "node --test --test-concurrency=1 e2e/journey.e2e.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
