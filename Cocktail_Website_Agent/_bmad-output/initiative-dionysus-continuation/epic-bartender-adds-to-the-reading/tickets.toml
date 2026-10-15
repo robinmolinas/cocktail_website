@@ -1,0 +1,92 @@
+# tickets.toml — epic 2's planned stories, in build order.
+# Draft for Robin's review (2026-10-15). Entries 1, 2, 3, 4 and 6 can run in parallel.
+
+[[entry]]
+id = 1
+type = "story"
+title = "Clean the name and put it in the movement lines"
+description = "shared/name.ts adds addressName and displayName (clean, case-fix, first name, drop when it does not look like a name, using a hand-written EN/FR insult list and a non-name/injection list); TheReading's 'This is you' and 'Before you go' lines carry addressName, and the hero, card, PDF and keep link use displayName. No AI involved."
+verify = "A vitest set of about 60 tricky names (emoji, full names, all-caps, non-Latin scripts, insults, injection phrases, empty) each comes out clean or null; desktop and phone walkthroughs show 'Before you go, Robin.' and the plain line for a dropped name."
+covers = ["E2-R1", "E2-R2"]
+after = []
+hitl = false
+risk = "low"
+
+[[entry]]
+id = 2
+type = "spike"
+title = "Bartender prompt, placement and model on measured latency"
+description = "An offline script calls OpenRouter with fixture guests (pour + answers + trace) and the add-don't-rewrite contract {who, proposal}, compares 2-3 candidate models and both placements, and records quality samples and latency (median and slowest) for Robin."
+verify = "A report with side-by-side samples per model, the latency distribution against the 7 s server budget, the chosen ladder and the prompt checked in under agent/bartender/."
+covers = ["E2-R4", "E2-R9"]
+after = []
+hitl = true
+risk = "high"
+unknown = "Whether a model fast enough for 9 s writes well enough in Robin's voice; needs Robin's OpenRouter key."
+
+[[entry]]
+id = 3
+type = "story"
+title = "Trace boundaries: pre-check, acceptAddition and the red-team set"
+description = "shared/ adds the trace pre-check (insult and instruction-like traces withheld), acceptAddition (length, digits, new proper nouns, URLs/markup, blocklist, one {name} slot) and assembleReading's additions with the {name} fill; a red-team fixture set of insults, injection, distress, other languages and emoji."
+verify = "vitest shows every red-team case either withheld at the pre-check or rejected at acceptAddition, with no unsafe text reaching a Reading; assembleReading leaves every authored word verbatim for all 132 pours."
+covers = ["E2-R3", "E2-R4", "E2-R5"]
+after = []
+hitl = false
+risk = "high"
+
+[[entry]]
+id = 4
+type = "story"
+title = "POST /api/reveal on Vercel with a stubbed Bartender"
+description = "The api/ and server/ shells, vercel.json and the api tsconfig: strict RevealRequest with trace, the OpenRouter client over fetch with data_collection deny and a 7 s ladder budget, the Upstash 10/min/IP rate limit, one log line per reveal with nothing personal, and the degradation paths returning {who:null, proposal:null}."
+verify = "Tests cover no key, timeout, 429, schema skew and an unknown-key 400; a preview deploy answers within budget with the stub; no log line contains the trace."
+covers = ["E2-R3", "E2-R6"]
+after = []
+hitl = true
+risk = "medium"
+unknown = "Upstash account needed for the rate limit; the shell can land first with it disabled."
+
+[[entry]]
+id = 5
+type = "story"
+title = "App asks at H7 seal and the breath waits"
+description = "App fires the reveal at H7 seal, the H8 breath waits until ready or the 9 s cap, TheReading renders the additions, and the additions are remembered on the device with the pour so the keep link reopens them there."
+verify = "e2e: with a stubbed API the additions appear; with a slow, failing or 429 API the authored reading appears inside the cap with no error; the trace appears only in the /api/reveal body."
+covers = ["E2-R3", "E2-R7"]
+after = [1, 2, 3, 4]
+hitl = false
+risk = "medium"
+
+[[entry]]
+id = 6
+type = "story"
+title = "Rewrite the breath echo and the privacy line"
+description = "Robin writes the breath echo that replaces 'the one thing you told only the ink' and the quiet privacy line near Share, so neither promises the trace is secret; the build lands them."
+verify = "Robin approves both lines in the running app on desktop and phone."
+covers = ["E2-R8"]
+after = []
+hitl = true
+risk = "low"
+
+[[entry]]
+id = 7
+type = "story"
+title = "Blind review, red-team pass and phone latency"
+description = "About 30 fixture guests reviewed blind by Robin (authored vs personal), the red-team set run end to end through the live model, and the slowest-case latency measured on a phone over 4G; the prompt and limits are tuned until all three pass."
+verify = "Robin's review sheet shows the personal version at least as good; no red-team output surfaces unsafe text; slowest measured reveal under 9 s."
+covers = ["E2-R9"]
+after = [5, 6]
+hitl = true
+risk = "high"
+
+[[entry]]
+id = 8
+type = "story"
+title = "Production deploy with key, limits and the ops check"
+description = "Set the production env vars (OpenRouter key, model ladder, Upstash), confirm the credit limit and training-off setting, deploy, and document the weekly authored-ratio check."
+verify = "A production journey shows the additions; a forced failure shows the authored reading; the log line has no personal data."
+covers = ["E2-R6"]
+after = [7]
+hitl = true
+risk = "medium"

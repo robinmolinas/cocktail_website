@@ -13,7 +13,7 @@ status: in-progress
 
 ## Description
 
-This initiative is the matching-and-integration track of the 2026-10-06 continuation plan. The live journey reveals one fixed pilot (*Down the Line*) for everyone, and the legacy engine scores questions the journey no longer asks. The refreshed spec (`agent/spec/SPEC.md`, CAP-1–CAP-8) and the architecture spine (AD-1–AD-14) define the target. Answers v3 feed a deterministic shortlist over the 132 authored pours. The Bartender then makes a bounded pick and tailors `yours`, with the authored text served verbatim as the fallback. Experience design, collection review, images and sound continue in their own conversations and artifacts. Here they are touch points.
+This initiative is the matching-and-integration track of the 2026-10-06 continuation plan. The live journey reveals one fixed pilot (*Down the Line*) for everyone, and the legacy engine scores questions the journey no longer asks. The refreshed spec (`agent/spec/SPEC.md`, CAP-1–CAP-8) and the architecture spine (AD-1–AD-14) define the target. Answers v3 feed a deterministic shortlist over the 132 authored pours. The guest gets the top pour. Since 2026-10-15 (Robin), the Bartender then adds two short passages to the reading, built from the H7 trace and the answers, and the authored text stands alone as the fallback. Experience design, collection review, images and sound continue in their own conversations and artifacts. Here they are touch points.
 
 ## Outcome
 
@@ -22,9 +22,9 @@ A first-time guest receives, in-session, the authored cocktail of the pairing th
 ## Done when
 
 1. A full desktop and mobile journey reveals the authored pour selected from its answers, not the fixed pilot, for any of the 132 coverage fixtures.
-2. The live Bartender path picks within the shortlist and tailors `yours`. Every failure path serves `shortlist[0]` with the authored text, and the guest sees no error.
+2. The live Bartender adds to "This is you" and "Before you go" within the 9 s breath, and the name, cleaned, sits in the movement lines. Every failure path serves the authored text alone, and the guest sees no error (epic 2). Pours persist and share by link (epic 3).
 3. The catalogue validator passes the development floors in build. The strict launch gate (all 132 authored and at least 12 veto-free, after the classification review) passes before release.
-4. The privacy checks hold: no trace, trace-derived text or diagnostics on the wire; no name in the LLM prompt; no personal reading stored or shown on a pour link.
+4. The privacy checks hold: the trace only in the reveal request, never logged or stored; no diagnostics on the wire; no name in the LLM prompt; no personal reading stored or shown on a pour link (amended 2026-10-15).
 5. The CAP-8 reachability and distribution reports are regenerated against the shipped model and catalogue. Production is deployed on Vercel.
 
 ## Boundaries
@@ -35,7 +35,7 @@ This initiative covers the backend and data seams behind the finished front-end 
 - Touch point: pour dossiers, specs, `contains` classification and approval status. Owner: cocktail review conversation (Pour Studio). Epic 1 imports them read-only.
 - Touch point: persona images and geometry (`personas.ts`). Owner: image production. They are registered by one integration owner.
 - Touch point: audio director. Owner: experience design, per the spine's Audio convention.
-- Tracer path across epics: fixture answers → `selectShortlist` → `assembleReading` → TheReading (epic 1), then the same request through `POST /api/reveal` (epic 2).
+- Tracer path across epics: fixture answers → `selectShortlist` → `assembleReading` → TheReading (epic 1), then the same request through `POST /api/reveal` (epic 2), then the pour link (epic 3).
 
 ## References
 

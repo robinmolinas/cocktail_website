@@ -15,7 +15,7 @@ sources:
   - ../../design-artifacts/A-Product-Brief/project-brief.md
 ---
 
-> **Canonical contract** (refreshed 2026-10-06; the decision record is `.memlog.md`, with the 2026-06-17 history in `.decision-log.md`). This SPEC and its `companions:` are what to build, test and validate. Where it conflicts with a pre-refresh copy, this version wins. `ARCHITECTURE-SPINE.md` governs technical seams.
+> **Canonical contract** (refreshed 2026-10-06, epic 2 decisions 2026-10-15; the decision record is `.memlog.md`, with the 2026-06-17 history in `.decision-log.md`). This SPEC and its `companions:` are what to build, test and validate. Where it conflicts with a pre-refresh copy, this version wins. `ARCHITECTURE-SPINE.md` governs technical seams.
 
 # Dionysus: Cocktail Personality Pipeline
 
@@ -27,14 +27,14 @@ This is a vision to realise. Dionysus distils a guest's answers into one of 132 
 
 - **CAP-1**
   - **intent:** The guest's journey produces one canonical, versioned intake that selection and tailoring consume.
-  - **success:** A completed journey yields `Answers` v3 per intake-contract.md. Every value is a stable vocabulary id or explicitly absent. Desktop and mobile produce identical `Answers` for identical choices. Diagnostics and trace stay in the browser.
+  - **success:** A completed journey yields `Answers` v3 per intake-contract.md. Every value is a stable vocabulary id or explicitly absent. Desktop and mobile produce identical `Answers` for identical choices. Diagnostics stay in the browser. The trace leaves it only inside the reveal request, for the Bartender (Robin, 2026-10-15).
 
 - **CAP-2**
-  - **intent:** Choose the guest's personality with a hybrid: deterministic scoring narrows to the three best eligible pairings, then the Bartender picks one.
+  - **intent:** Choose the guest's personality deterministically: scoring ranks the eligible pairings and the guest gets the top one. The Bartender does not pick (Robin, 2026-10-15).
   - **success:**
-    - The same answers give the same ranked shortlist in both shells.
+    - The same answers give the same ranked shortlist and the same pour in both shells.
     - Vetoed and unauthored pours never appear.
-    - A pick outside the shortlist, or any failure, serves `shortlist[0]`.
+    - The served pour is `shortlist[0]`.
     - Ties resolve by pairingKey.
     - The guest's answers, judged by a human reviewer in playtests, "feel like them".
 
@@ -53,17 +53,18 @@ This is a vision to realise. Dionysus distils a guest's answers into one of 132 
 - **CAP-5**
   - **intent:** (Tier B) The matched pour is presented so it reads as made for this guest.
   - **success:**
-    - The Bartender tailors only `yours`, weaving in 2–3 of the guest's answers.
-    - The output passes `acceptTailoring`.
-    - Otherwise the authored passage is served verbatim.
-    - The name and trace never reach the LLM.
-    - On playtests it reads as personal.
+    - Add, don't rewrite (Robin, 2026-10-15). The Bartender adds one short passage to "This is you" (`whoYouAre`) and one to "Before you go" (the proposal paragraph). Every authored word stays verbatim. The story and cocktail movements are never touched.
+    - When a trace was written, the "This is you" addition must use it. Answers are a secondary source (at most one echo).
+    - Each addition passes the core guard (length, no new facts, no unsafe content). A failed one is dropped and the authored text stands alone, silently.
+    - The name appears in the two movement lines, cleaned on the device, or not at all. It never reaches the LLM; an addition may hold a `{name}` slot the device fills.
+    - The whole call fits the H8 breath: hard cap 9 s from the request, judged on the slowest case.
+    - In a blind side-by-side review, the personal version reads at least as well as the authored one.
 
 - **CAP-6**
   - **intent:** Keep the two-tier split: authored offline, matched and tailored live.
   - **success:**
     - All 132 pours are authored and reviewable offline, with approval status visible in development.
-    - The runtime generates nothing but the tailored `yours` and the pick.
+    - The runtime generates nothing but the two short additions.
     - Release requires the review gates.
 
 - **CAP-7**
@@ -80,7 +81,7 @@ This is a vision to realise. Dionysus distils a guest's answers into one of 132 
   - Selection is bounded to the 12 × 11 ordered matrix of the BRANDING/PERSONALITY workbook.
   - A × B and B × A are distinct.
   - Primary = core motive. Secondary = how it shows (matching-model.md).
-  - Determinism covers the shortlist and fallback only. It is not a promise about the LLM's final choice.
+  - Selection is fully deterministic: the same answers always give the same pour (2026-10-15).
 - **Vetoes.**
   - `egg-white | dairy | gluten | nuts | spice` remove whole pours before the shortlist.
   - No substitution, no recipe variants, no zero-proof at launch. Alcohol is not a veto.
@@ -94,8 +95,9 @@ This is a vision to realise. Dionysus distils a guest's answers into one of 132 
   - Flavours act only as a bounded pour-level fit.
   - H4 timing and status are browser-only and unscored until playtests justify them under a new answer version.
 - **Privacy.**
-  - The trace and anything derived from it never leave the browser.
-  - The name never reaches the LLM.
+  - The trace goes only to the Bartender, as data inside the reveal request. It is never logged, stored server-side or written to a pour record, and the Bartender treats it as quoted material, never as instructions. Insults and prompt injection in the trace (or the answers) can never surface in the reading (Robin, 2026-10-15).
+  - The name never reaches the LLM. It is cleaned on the device and dropped when it does not look like a name.
+  - Guest-facing copy never promises the trace is secret.
   - Personal readings are never persisted or shown on a pour link.
   - Model diagnostics (per-group contributions, margins) never reach the journey, the logs or the LLM.
 - **No generated recipes.** The legacy generator (`mixology.ts` / `cocktails.ts`) and the fixed `VISIONARY_SAMPLE` reveal retire from the normal journey. Nothing may silently replace an authored recipe.
@@ -114,7 +116,7 @@ This is a vision to realise. Dionysus distils a guest's answers into one of 132 
 
 ## Success signal
 
-- A first-time guest finishes the journey and receives, in-session, the authored cocktail of a pairing chosen from their answers (not the fixed pilot), with a `yours` passage woven from their answers. They share or save it.
+- A first-time guest finishes the journey and receives, in-session, the authored cocktail of a pairing chosen from their answers (not the fixed pilot), with the authored reading plus two short additions built from their trace and answers, and their name in the movement lines, all within the breath. They share or save it.
 - Before release, the CAP-8 report shows all 132 pairings at least reaching the shortlist.
 - The coverage, fallback, veto, floor and privacy tests pass.
 
@@ -125,4 +127,4 @@ This is a vision to realise. Dionysus distils a guest's answers into one of 132 
 
 ## Open Questions
 
-- **Bartender final-choice fixtures.** Which reviewed shortlist cases count as evidence that the LLM's pick is sensible? This is a playtest design question.
+- None open. (Bartender final-choice fixtures: resolved 2026-10-15, the LLM pick is retired.)

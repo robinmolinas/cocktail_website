@@ -8,7 +8,14 @@ covers = ["CAP-1", "CAP-2", "CAP-4", "CAP-6", "CAP-7", "CAP-8"]
 
 [[epic]]
 id = 2
-slug = "epic-live-bartender-and-pours"
-title = "The Bartender tailors the reading; pours persist and share"
-covers = ["CAP-2", "CAP-5", "CAP-7"]
-after = [{ epic = 1, needs = "shared/ core: Answers v3 schema, selectShortlist, assembleReading, acceptTailoring" }]
+slug = "epic-bartender-adds-to-the-reading"
+title = "The Bartender adds to the reading"
+covers = ["CAP-1", "CAP-5", "CAP-6", "CAP-7"]
+after = [{ epic = 1, needs = "shared/ core: Answers v3 schema, selectShortlist, assembleReading" }]
+
+[[epic]]
+id = 3
+slug = "epic-pours-persist-and-share"
+title = "Pours persist and share by link"
+covers = ["CAP-7"]
+after = [{ epic = 2, needs = "POST /api/reveal" }]

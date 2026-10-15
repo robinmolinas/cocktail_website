@@ -7,7 +7,7 @@ paradigm: 'functional core, imperative shell'
 scope: 'Everything behind the finished dionysus-experience front-end: answer contract, selection, the Bartender call, pour persistence, sharing + OG, routing, house pours, the 132-cocktail store, audio seam, deploy & ops envelope'
 status: final
 created: '2026-06-17'
-updated: '2026-10-06'
+updated: '2026-10-15'
 binds: [CAP-1, CAP-2, CAP-4, CAP-5, CAP-6, CAP-7]
 sources:
   - spec/SPEC.md
@@ -21,6 +21,16 @@ companions:
 ---
 
 # Architecture Spine — Dionysus
+
+> **Amendment A, 2026-10-15 (Robin, epic 2 inception).** It overrides the rules marked *amended* below. The rest of the spine stands.
+>
+> - **Trace (AD-2):** the trace now travels in `RevealRequest`, trimmed, ≤120 chars and free of control characters, for the Bartender only. It is never logged, stored, written to a pour record or echoed in an error. It enters the prompt as delimited, quoted data under rules that forbid following it, and a pre-check and an output guard catch insults and injection. The name is **not** sent in epic 2 (no pour record yet), and it still never reaches the LLM.
+> - **Pick (AD-3, AD-6):** the Bartender no longer picks. The pour is `shortlist[0]`, so `boundedPick` stays as a core rule with nothing feeding it.
+> - **Additions, not tailoring (AD-5, AD-6):** `LiveCopy` becomes `{who: string | null, proposal: string | null}`, one short passage each. `assembleReading` appends `who` after the authored `whoYouAre` and `proposal` after the authored proposal paragraph, and fills a `{name}` slot from the cleaned name, or drops the sentence holding it. The authored text is never rewritten. `acceptTailoring` is replaced by `acceptAddition(kind, text, context)`: length bounds, no digits or new proper nouns (no invented facts), no URLs or markup, no blocklisted words, at most one `{name}` and nothing else in braces. A failed addition becomes `null`.
+> - **Name:** `shared/name.ts` cleans the H1 name on the device (`addressName` for the first name in sentences, `displayName` for hero, card and PDF), or returns `null`. The movement lines read "This is you, {name}: the …" and "Before you go, {name}.", and without a name they fall back to the current lines.
+> - **Timing (AD-9):** `App` fires the reveal request when **H7 seals**, not at H6. The breath waits until ready or a 9 s cap from the request. The server budget is ≤7 s. A failure means no additions, silently.
+> - **Model (AD-12):** the ladder is chosen by the epic 2 spike on measured latency and quality. A paid fast model is allowed behind a credit limit, because `:free` rungs are too slow and rate-limited for the 9 s breath. `data_collection: 'deny'` stays.
+> - **Moved to epic 3:** pour persistence and `pourId` (AD-7), house pours (AD-8), `/pour/:id` share links (AD-10), OG and share HTML (AD-13), and the pour read path and router (AD-14). The Upstash rate limit stays in epic 2, on `/api/reveal`.
 
 ## Design Paradigm
 
@@ -58,13 +68,13 @@ Allowed imports: `src → shared`, `api → server, shared`, `server → shared`
 
   H4 status/timing and H3 `gravityMoved` are `IntakeDiagnostics`: browser only, never on the wire, never scored. No `vessel` (the H6 glass beat was removed 2026-09-29; each pour's glass is fixed). Every option list (lenses, seeds, gravities, binaries, words, flavours, vetoes) is declared once in the core with permanent ids, and `TheDepths` imports it. Retired quiz fields are deleted, not kept as optional. A new question means a new field here first.
 
-### AD-2 — The trace never leaves the browser; neither does the name reach the LLM
+### AD-2 — The trace never leaves the browser; neither does the name reach the LLM *(amended 2026-10-15, see Amendment A)*
 
 - **Binds:** CAP-1, CAP-5; `POST /api/reveal`; the Bartender prompt; logs
 - **Prevents:** "the one thing you told only the ink" reaching a server, an LLM provider or storage; a guest's identity reaching a model provider
 - **Rule:** The wire request is `RevealRequest` = `Answers` minus `trace`, a `z.strictObject` at **every** nesting level, so unknown keys are rejected with 400. The client parses it with the same schema before sending. No server code, prompt, log line or record contains trace-derived text. `name` is sent (it's needed for the pour record) but it never goes into the prompt; the assembler adds it after the Bartender returns.
 
-### AD-3 — Selection is deterministic up to the shortlist
+### AD-3 — Selection is deterministic up to the shortlist *(amended 2026-10-15, see Amendment A)*
 
 - **Binds:** CAP-2; `shared/selection/`
 - **Prevents:** client and server picking different personalities; the shortlist varying between runs
@@ -92,7 +102,7 @@ Allowed imports: `src → shared`, `api → server, shared`, `server → shared`
 
   `Reading` = archetype identity + authored pour (cocktail, epigraph, whoYouAre, yours) + persona image geometry + name + seed + optional `LiveCopy`. The fallback is authored text, never text generated from answers. `CocktailResult` and `agentLines` retire.
 
-### AD-6 — Live tailoring keeps the author's voice and never touches the recipe
+### AD-6 — Live tailoring keeps the author's voice and never touches the recipe *(amended 2026-10-15, see Amendment A)*
 
 - **Binds:** CAP-5; `server/bartender/`, `shared/reading.ts`
 - **Prevents:** the LLM inventing meaning or facts; the live passage drifting from Robin's; copy that doesn't fit the reading layout
@@ -118,7 +128,7 @@ Allowed imports: `src → shared`, `api → server, shared`, `server → shared`
   - House pours render the **owner view**, reading shown.
   - The SPA picks one from the side-door interaction, with no server call and nothing persisted. `/pour/house-*` resolves the same constants.
 
-### AD-9 — Reveal orchestration and the silent fallback
+### AD-9 — Reveal orchestration and the silent fallback *(amended 2026-10-15, see Amendment A)*
 
 - **Binds:** master spec §4; `App`, `TheDepths` H6/H8
 - **Prevents:** two components firing or awaiting the reveal; the reveal stalling on the LLM; a visible error
@@ -148,7 +158,7 @@ Allowed imports: `src → shared`, `api → server, shared`, `server → shared`
 
   A pairing with no image uses `_fallback.jpg`. The meaning model is specified in `../design-artifacts/2026-09-23-cocktail-meaning-model.md`. The v1 procedural generation (`cocktails.ts` SPIRITS / `mixology.ts` `craftCocktail`) retires.
 
-### AD-12 — LLM access: one provider, a config ladder, privacy flags
+### AD-12 — LLM access: one provider, a config ladder, privacy flags *(amended 2026-10-15, see Amendment A)*
 
 - **Binds:** `server/bartender/`
 - **Prevents:** provider SDKs spreading through the code; paid calls by accident; guest data used for model training
@@ -200,7 +210,7 @@ Allowed imports: `src → shared`, `api → server, shared`, `server → shared`
 | Types & boundaries | Three tsconfigs: app (`src` + `shared`, DOM), api (`api` + `server` + `shared`, Node, `jsx: react-jsx`), node (tooling). `shared` gets ES lib only. `build` runs `tsc -b` over all. Imports are extensionless and relative |
 | Tests | vitest over the core: selection determinism, veto filter + pool floor, `pairingKey`, `acceptTailoring`, `assembleReading`, nested-strict rejection, the store validator, and a contract test that builds `RevealRequest`s with the same helper the SPA uses. One Playwright smoke: `/pour/house-trickster` renders, a dead id gives the 404 |
 | Content gate | The validator runs in `build`. A pour counts as authored only when it has a complete cocktail (incl. `closingLine`, `contains`), ≥3 anchors, `epigraph`, `whoYouAre` and `yours`. It always enforces the AD-4 floor (≥3 veto-free); `STRICT_STORE=1` (launch) enforces all 132. Unauthored pairings are excluded from selection until written |
-| Privacy | No trace server-side; no name to the LLM; provider data-collection denied; names are stored with pours (kept forever); one quiet in-world privacy line near Share (copy written during build); deletion on request is done by hand |
+| Privacy | *(amended, see Amendment A: trace to the Bartender only, never logged or stored)* No trace server-side; no name to the LLM; provider data-collection denied; names are stored with pours (kept forever); one quiet in-world privacy line near Share (copy written during build); deletion on request is done by hand |
 | Audio | A single `src/audio` director owns all playback. Assets in `public/audio` are prefetched on idle and unlocked + played on the Entrance CTA gesture, so the click is the first sound. Audio never gates a phase or video transition and fails silently. Still Water keeps the bed and drops transients |
 
 ## Stack
