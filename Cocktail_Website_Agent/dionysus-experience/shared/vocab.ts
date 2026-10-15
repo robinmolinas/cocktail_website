@@ -47,7 +47,9 @@ export const BINARIES = [
   { id: 'sharp-smooth', a: 'Sharp', b: 'Smooth' },
   { id: 'relaxed-excited', a: 'Relaxed', b: 'Excited' },
   { id: 'halffull-halfempty', a: 'Half-full', b: 'Half-empty' },
-  { id: 'control', a: 'In control', b: 'Out of control' },
+  // Was "In control / Out of control" until 2026-10-15: one side read as the
+  // better answer. Same id and poles, so the weights are unchanged.
+  { id: 'control', a: 'Planned', b: 'Spontaneous' },
   { id: 'quiet-loud', a: 'Quiet', b: 'Loud' },
   { id: 'risk', a: 'Risk averse', b: 'Risk taker' },
   { id: 'bright-dark', a: 'Bright', b: 'Dark' },

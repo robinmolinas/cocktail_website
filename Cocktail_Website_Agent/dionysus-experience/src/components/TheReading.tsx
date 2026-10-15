@@ -773,7 +773,7 @@ export default function TheReading({
                 <div id="tr-ways-keep" className={`tr-keep${open === 'keep' ? ' tr-keep-open' : ''}`} inert={open !== 'keep'}>
                   <div className="tr-keep-inner">
                     <button type="button" className="tr-quiet" onClick={() => sendLink('keep')}>A link for myself</button>
-                    <button type="button" className="tr-quiet" onClick={() => sendCard('keep')}>A card for my photos</button>
+                    <button type="button" className="tr-quiet" onClick={() => sendCard('keep')}>As an image</button>
                     <button type="button" className="tr-quiet" onClick={() => window.print()}>The recipe as a PDF</button>
                     <span className="tr-keep-note" role="status">{note?.way === 'keep' ? note.text : null}</span>
                     {shownCard?.way === 'keep' ? (

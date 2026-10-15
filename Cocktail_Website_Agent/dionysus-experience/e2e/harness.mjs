@@ -134,7 +134,7 @@ async function center(locator) {
 }
 
 /** The first texture word of each H4 pair, in order (shared BINARIES pole a). */
-export const BINARY_A = ['Sharp', 'Relaxed', 'Half-full', 'In control', 'Quiet', 'Risk averse', 'Bright', 'Soft', 'Harmonic'];
+export const BINARY_A = ['Sharp', 'Relaxed', 'Half-full', 'Planned', 'Quiet', 'Risk averse', 'Bright', 'Soft', 'Harmonic'];
 
 /**
  * The one set of choices both devices make. Word lists are deliberately out

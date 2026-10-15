@@ -1,4 +1,4 @@
-// The calling card: "Keep your cocktail" → "A card for my photos", and
+// The calling card: "Keep your cocktail" → "As an image", and
 // "Share your cocktail" → "Send the card" (H10).
 //
 // A 1080×1920 phone-shaped picture, because the camera roll is where people

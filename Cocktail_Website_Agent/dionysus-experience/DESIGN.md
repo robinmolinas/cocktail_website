@@ -578,7 +578,7 @@ its ways as quiet underlines in place under the pills (never a menu or a
 modal), one row open at a time. **Share** stays the gift: **Send the link** or
 **Send the card** (the card below, its QR code to the gift link, captioned
 "scan for the recipe"). **Keep** offers **A link for myself** (a keep link, `#pour=k…`, which opens the whole
-reading with "welcome back, {name}."), **A card for my photos** (a 1080×1920
+reading with "welcome back, {name}."), **As an image** (a 1080×1920
 picture: portrait master with the name inked on its tag, type below on the
 night, a paper-label QR code back to the keep link; `src/engine/card.ts`.
 It is sent as the picture itself, a ~230 KB JPEG, through the share sheet,

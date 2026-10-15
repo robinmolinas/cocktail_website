@@ -135,7 +135,7 @@ Ambiguity: Controlled and In control (H4) are near-duplicates for Ruler. Both ar
 | Sharp / Smooth | Sage 0.5, Outlaw 0.5, Hero 0.4, Ruler 0.3 | Lover 0.6, Caregiver 0.5, Regular Guy 0.4, Magician 0.3 |
 | Relaxed / Excited | Regular Guy 0.5, Innocent 0.5, Sage 0.4, Caregiver 0.3 | Jester 0.6, Explorer 0.6, Hero 0.4, Lover 0.3 |
 | Half-full / Half-empty | Innocent 0.8, Jester 0.4, Caregiver 0.3, Hero 0.3 | Outlaw 0.5, Sage 0.5, Ruler 0.3 |
-| In control / Out of control | Ruler 0.9, Hero 0.5, Sage 0.3 | Outlaw 0.6, Jester 0.6, Explorer 0.4, Lover 0.3 |
+| Planned / Spontaneous (was In control / Out of control until 2026-10-15; same id `control`) | Ruler 0.9, Hero 0.5, Sage 0.3 | Outlaw 0.6, Jester 0.6, Explorer 0.4, Lover 0.3 |
 | Quiet / Loud | Sage 0.6, Caregiver 0.4, Innocent 0.4, Creator 0.3 | Jester 0.7, Hero 0.4, Outlaw 0.4, Ruler 0.3 |
 | Risk averse / Risk taker | Caregiver 0.5, Ruler 0.5, Innocent 0.5, Regular Guy 0.4 | Outlaw 0.7, Explorer 0.7, Hero 0.5, Magician 0.3 |
 | Bright / Dark | Innocent 0.7, Jester 0.4, Caregiver 0.3 | Magician 0.6, Outlaw 0.6, Lover 0.4 |

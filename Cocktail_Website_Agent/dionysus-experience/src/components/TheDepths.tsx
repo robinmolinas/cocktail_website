@@ -298,11 +298,13 @@ const ROUND_MS = FROZEN_MS + THAW_MS; // total catch window per binary
 // the "readable moment" the diagnostics time a catch from (intake-contract.md).
 const H4_READABLE_MS = 250;
 
-// The on-ramp's beats. 16 words at ~200 words/min is ~4.8s from the line,
-// so it rises at 5.6s; the example condenses as the line arrives at the head.
+// The on-ramp's beats. 16 words at ~200 words/min is ~4.8s from the line.
+// It rose at 5.6s until 2026-10-15, when Robin's playtests saw guests tap the
+// dark expecting something to happen; it now rises at 4.6s. The example
+// condenses as the line arrives at the head.
 const H4_LINE_MS = 350;
 const H4_HINT_MS = 1500;
-const H4_RISE_MS = 5600;
+const H4_RISE_MS = 4600;
 const H4_RISE_SETTLE_MS = 1100;
 type H4Line = 'off' | 'in' | 'hint' | 'up' | 'quiet';
 
