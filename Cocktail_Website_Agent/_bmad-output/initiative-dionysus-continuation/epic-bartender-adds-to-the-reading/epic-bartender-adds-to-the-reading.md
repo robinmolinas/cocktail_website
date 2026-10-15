@@ -75,7 +75,13 @@ This epic covers the name cleaner, the movement lines, `/api/reveal` and the Bar
 - Decision (Robin, 2026-10-15): the LLM pick is dropped. Sharing and persistence move to epic 3.
 - Decision (2026-10-15): lanes.
   - Entries 1, 2, 3, 4 and 6 have no prerequisites and can run at the same time, in separate worktrees.
-  - Entry 5 joins them.
+  - One writer per file:
+    - 2.1 owns `shared/name.ts` and TheReading's movement lines.
+    - 2.3 owns `shared/reading.ts` (`LiveCopy`, `acceptAddition`, `assembleReading`) and `shared/trace.ts`.
+    - 2.4 owns `RevealRequest` in `shared/answers.ts`, plus `api/`, `server/` and `vercel.json`.
+    - 2.2 writes only `agent/bartender/`.
+  - 2.3's length limits start as parameters, and 2.2's measured lengths set them.
+  - Entry 5 joins them and updates epic 1's e2e privacy test, which today asserts no trace on the wire.
   - Entries 7 and 8 close the epic.
 - Assumption: with no trace, the Bartender still adds both passages from the answers alone. Robin may prefer no call at all in that case (faster and cheaper). To confirm at entry 2.
 - Assumption: the "This is you" passage goes after the authored paragraphs, and the "Before you go" line after the proposal paragraph. Entry 2 tests both placements.
