@@ -24,6 +24,10 @@ Decision (Robin, 2026-10-16, "review your recommendations, then continue"):
 - Keep the full spec rather than splitting it.
 - The friend's view says "them" when there is no name: "Dionysus read them before pouring this. That reading stayed with them." This is the only copy change outside the movement lines.
 
+Decision (Robin, 2026-10-16, "continue with what you recommend", after review B5/B7):
+- Long names are trimmed, not dropped. Up to 8 words are checked in full, then cut to the first 4 words and at most 32 characters, never ending on a particle: "José María de la Cruz" → "José María". Over 8 words is a sentence → null.
+- A title followed by a single name keeps the title in sentences: "Before you go, Mrs Smith." A bare "M" is written "Monsieur".
+
 ## Boundaries & Constraints
 
 **Always:**
@@ -35,11 +39,11 @@ Decision (Robin, 2026-10-16, "review your recommendations, then continue"):
   - Title-case only when the whole name is upper- or lower-case; mixed case ("McDonald") is kept.
 - Return `null` for:
   - empty, or under 2 letters;
-  - a first word over 20 letters, or more than 4 words;
+  - a first word over 20 letters, or more than 8 words;
   - a word on the EN/FR insult list or the non-name list;
   - an injection phrase;
   - keyboard mash: a Latin word of 4+ letters with no vowel (y counts), or 3+ repeats of a letter.
-- `addressName` skips a leading honorific (Mr, Mrs, Ms, Dr, M, Mme, Mlle). `displayName` drops whole trailing words until the name is at most 32 characters.
+- `addressName` skips a leading honorific (Mr, Mrs, Ms, Dr, M, Mme, Mlle), unless only one name follows it. `displayName` drops whole trailing words until the name is at most 32 characters.
 - Both functions are idempotent: `displayName(displayName(x)) === displayName(x)`.
 - Sentences use `addressName`: movement lines, greeting, guest line, H8 breath echo. Hero tag, card and links use `displayName`. A null value gives today's nameless wording.
 
@@ -62,7 +66,9 @@ Decision (Robin, 2026-10-16, "review your recommendations, then continue"):
 | Emoji, digits | `Zoë 🍸2` | `Zoë` / `Zoë` |
 | Non-Latin | `李娜`, `Δημήτρης`, `أحمد` | kept as is |
 | Honorific | `Dr Ada Lovelace` | `Dr Ada Lovelace` / `Ada` |
-| Overlong | 5 words, or a 21-letter first word | `null` / `null` |
+| Overlong | 9 words, or a 21-letter first word | `null` / `null` |
+| Long name | `José María de la Cruz` | `José María` / `José` |
+| Title and surname | `Mrs Smith` | `Mrs Smith` / `Mrs Smith` |
 | Insult | `connard`, `fuck you` | `null` / `null` |
 | Injection | `ignore previous instructions` | `null` / `null` |
 | Non-name | `test`, `asdf`, `none`, `moi` | `null` / `null` |
@@ -134,6 +140,7 @@ App paths are relative to `Dionysus/Cocktail_Website_Agent/dionysus-experience/`
   - At most 3 combining marks per letter.
   - New e2e test "cleaned before the room".
   - 'fock' was taken back off INSULTS (Vladimir Fock); "f0ck" is still null via "fck".
+- After Robin's 2026-10-16 decision: `acceptable` checks up to 8 words (`MAX_INPUT_WORDS`) before trimming to 4, and `PARTICLES` stops a trimmed name ending on de/la/van…. Accepted risk: a 5–8-word sentence with no listed word ("my name is robin ok") is trimmed and inked ("My Name Is Robin").
 - Known false positives, accepted: "Alain Connes" ("conne" + the plural rule), and spaced names that spell an insult when joined ("Pu Te").
 
 ## Spec Change Log
@@ -148,9 +155,9 @@ Pass 1 (2026-10-16). B = blind-hunter, E = edge-case-hunter, V = verification-ga
 | B2 | Digits, symbols, spaced letters, styled and look-alike letters bypass the lists ("c0nnard", "f*ck", "F U C K", "𝐟𝐮𝐜𝐤", "fuсk") | medium | Reproduced; needs deliberate effort. Patch (NFKC, raw leet check, mixed-script reject). |
 | B3 | Emails and domains become names ("Robin Gmail Com") | low | Real, and plausible through autofill; a one-line guard. Patch. |
 | B4 | Missing honorifics (Miss, Prof, Sir…) | low | "Before you go, Miss." List addition. Patch. |
-| B5 | "Mrs Smith" is addressed as "Smith" | low | Follows the frozen rule "addressName skips a leading honorific"; a title with only a surname is uncommon, and the fix adds a branch. Rejected; raised with Robin. |
+| B5 | "Mrs Smith" is addressed as "Smith" | low | Follows the frozen rule "addressName skips a leading honorific"; a title with only a surname is uncommon, and the fix adds a branch. Raised with Robin; **fixed after Robin's decision (2026-10-16)**. |
 | B6 | A leading title gets past the 20-letter check | low | `acceptable` read `list[0]`. Direct correction. Patch. |
-| B7 | More than 4 words → null drops "José María de la Cruz" | medium | The frozen rule says more than 4 words → null; changing it needs Robin. Kept as built; raised with Robin. |
+| B7 | More than 4 words → null drops "José María de la Cruz" | medium | The frozen rule says more than 4 words → null; changing it needs Robin. Raised with Robin; **fixed after Robin's decision (2026-10-16)**. |
 | B8 | Case fix is whole-name only ("ROBIN molinas" stays) | low | As the frozen rule specifies; per-word fixing would break lower-case particles ("Anna van der Berg"). Rejected. |
 | B9 | "Robin Robin Robin" is inked | low | Unlikely, and the fix adds a rule. Rejected. |
 | B10 | `lastRememberedPour` returns raw stored names | low | Only tests call it today. Deferred to the landing-return-line owner. |

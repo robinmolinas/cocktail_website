@@ -45,11 +45,18 @@ const CLEANED: [string, string, string][] = [
   ['Dr Ada Lovelace', 'Dr Ada Lovelace', 'Ada'],
   ['Dr. Ada Lovelace', 'Dr Ada Lovelace', 'Ada'],
   ['mme claire dubois', 'Mme Claire Dubois', 'Claire'],
-  ['M. Dupont', 'M Dupont', 'Dupont'],
-  ['Mlle Chloé', 'Mlle Chloé', 'Chloé'],
+  ['M. Dupont', 'M Dupont', 'Monsieur Dupont'],
+  ['Mlle Chloé', 'Mlle Chloé', 'Mlle Chloé'],
   ['J Robert Oppenheimer', 'J Robert Oppenheimer', 'Robert'],
   // the long name loses whole trailing words to fit the tag
   ['Maria Fernanda Gonzalez Villanueva', 'Maria Fernanda Gonzalez', 'Maria'],
+  // 5 to 8 words keep the first four, never ending on a particle (Robin, 2026-10-16)
+  ['Anne Marie Claire Louise Dupont', 'Anne Marie Claire Louise', 'Anne'],
+  ['José María de la Cruz', 'José María', 'José'],
+  ['maría del carmen garcía de la fuente', 'María Del Carmen García', 'María'],
+  // a title with one name keeps the title in sentences (Robin, 2026-10-16)
+  ['Mrs Smith', 'Mrs Smith', 'Mrs Smith'],
+  ['Dr Ada', 'Dr Ada', 'Dr Ada'],
   // real names that sound like slang, and words that contain slang
   ['Dick Van Dyke', 'Dick Van Dyke', 'Dick'],
   ['Fanny', 'Fanny', 'Fanny'],
@@ -70,15 +77,15 @@ const CLEANED: [string, string, string][] = [
   ['Bo', 'Bo', 'Bo'],
   // review fixes: real names the stricter rules must still keep
   ['Ｒｏｂｉｎ', 'Robin', 'Robin'],
-  ['Miss Chloé', 'Miss Chloé', 'Chloé'],
+  ['Miss Chloé', 'Miss Chloé', 'Miss Chloé'],
   ['Mx Sam Lee', 'Mx Sam Lee', 'Sam'],
   ['Prof. Marie Curie', 'Prof Marie Curie', 'Marie'],
   ['Sir Ian McKellen', 'Sir Ian McKellen', 'Ian'],
-  ['madame claire', 'Madame Claire', 'Claire'],
-  ['Monsieur Hulot', 'Monsieur Hulot', 'Hulot'],
-  ['Mademoiselle Chanel', 'Mademoiselle Chanel', 'Chanel'],
-  ['Mister Rogers', 'Mister Rogers', 'Rogers'],
-  ['Dr Abcdefghijklmnopqrst', 'Dr Abcdefghijklmnopqrst', 'Abcdefghijklmnopqrst'],
+  ['madame claire', 'Madame Claire', 'Madame Claire'],
+  ['Monsieur Hulot', 'Monsieur Hulot', 'Monsieur Hulot'],
+  ['Mademoiselle Chanel', 'Mademoiselle Chanel', 'Mademoiselle Chanel'],
+  ['Mister Rogers', 'Mister Rogers', 'Mister Rogers'],
+  ['Dr Abcdefghijklmnopqrst', 'Dr Abcdefghijklmnopqrst', 'Dr Abcdefghijklmnopqrst'],
   ['Kim Ok-ja', 'Kim Ok-ja', 'Kim'],
   ['Hana Ok', 'Hana Ok', 'Hana'],
   ['Anna Toi', 'Anna Toi', 'Anna'],
@@ -100,7 +107,10 @@ const NULLED: string[] = [
   // too little
   '', '   ', 'J', '🍸🍸', '123', '!!!', '-', '’', '娜', 'Dr', 'Mr Mrs',
   // overlong
-  'Anne Marie Claire Louise Dupont',
+  // more than 8 words reads as a sentence
+  'this is not my name it is a whole sentence',
+  // an insult past the trim point still nulls
+  'Anne Marie Claire Louise Dupont connard',
   'Abcdefghijklmnopqrstu',
   'Wolfeschlegelsteinhausen Bergerdorff',
   // insults, EN and FR, any case or accent

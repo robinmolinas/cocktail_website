@@ -17,6 +17,8 @@
 
 const APOSTROPHE = '’';
 const MAX_WORDS = 4;
+// longer than this reads as a sentence, not a name; 5 to 8 words are trimmed
+const MAX_INPUT_WORDS = 8;
 const MAX_FIRST_WORD_LETTERS = 20;
 const MAX_DISPLAY_CHARS = 32;
 
@@ -169,6 +171,12 @@ const VOWEL = /[aeiouyæœø]/u;
 const mashed = (token: string): boolean =>
   (LATIN_WORD.test(token) && [...token].length >= 4 && !VOWEL.test(token)) || /(\p{L})\1\1/u.test(token);
 
+// name particles a trimmed name must not end on
+const PARTICLES: ReadonlySet<string> = new Set([
+  'de', 'del', 'della', 'des', 'di', 'da', 'das', 'do', 'dos', 'du', 'la', 'le', 'van', 'von', 'der', 'den', 'ter',
+  'y', 'e', 'bin', 'ibn', 'al', 'el', 'ben', 'mac', 'st',
+]);
+
 const isHonorific = (word: string): boolean => HONORIFICS.has(fold(word));
 
 /** A word she can be called by: not a title, at least two letters. */
@@ -179,8 +187,8 @@ const mixedScript = (word: string): boolean =>
   /\p{Script=Latin}/u.test(word) && /[\p{Script=Cyrillic}\p{Script=Greek}]/u.test(word);
 
 /** Whether a list of cleaned words is a name worth inking. */
-function acceptable(list: string[]): boolean {
-  if (list.length === 0 || list.length > MAX_WORDS) return false;
+function acceptable(list: string[], maxWords = MAX_WORDS): boolean {
+  if (list.length === 0 || list.length > maxWords) return false;
   if (letterCount(list.join('')) < 2) return false;
   const first = list.find((word) => !isHonorific(word));
   if (first === undefined || letterCount(first) > MAX_FIRST_WORD_LETTERS) return false;
@@ -203,22 +211,33 @@ export function displayName(raw: string | null | undefined): string | null {
   const text = raw.normalize('NFKC');
   if (rawRejected(text)) return null;
   let list = words(text);
-  if (!acceptable(list)) return null;
+  // every word is checked before any is trimmed away
+  if (!acceptable(list, MAX_INPUT_WORDS)) return null;
   // shouting or all lower-case is fixed; mixed case ("McDonald") is hers
   const joined = list.join(' ');
   if (joined === joined.toUpperCase() || joined === joined.toLowerCase()) list = list.map(titleWord);
-  // whole trailing words go until the name fits the tag
+  // a long name keeps its first words (Robin, 2026-10-16: José María de la
+  // Cruz is still named): whole trailing words go until it fits the tag, and
+  // never ends on a particle ("José María", not "José María de la")
+  list = list.slice(0, MAX_WORDS);
   while (list.length > 0 && [...list.join(' ')].length > MAX_DISPLAY_CHARS) list = list.slice(0, -1);
+  while (list.length > 1 && PARTICLES.has(fold(list[list.length - 1]))) list = list.slice(0, -1);
   return acceptable(list) ? list.join(' ') : null;
 }
 
 /**
  * The first name, for sentences: "This is you, Robin: the Visionary." Skips a
  * leading honorific (Dr Ada Lovelace → Ada) or a lone initial (J Robert → Robert).
+ * A title with one name after it keeps the title (Robin, 2026-10-16: "Before
+ * you go, Mrs Smith.", never "Smith"); a bare M becomes Monsieur.
  */
 export function addressName(raw: string | null | undefined): string | null {
   const display = displayName(raw);
   if (display === null) return null;
-  const first = display.split(' ').find(addressable);
+  const list = display.split(' ');
+  if (list.length === 2 && isHonorific(list[0]) && addressable(list[1])) {
+    return displayName(`${fold(list[0]) === 'm' ? 'Monsieur' : list[0]} ${list[1]}`);
+  }
+  const first = list.find(addressable);
   return first === undefined ? null : displayName(first);
 }
