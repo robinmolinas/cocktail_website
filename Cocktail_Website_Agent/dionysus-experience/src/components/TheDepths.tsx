@@ -23,6 +23,7 @@ import { flavoursInOrder, labelsToIds, vetoesInOrder, type DiagnosticsPatch, typ
 import { FlavourIcon } from './FlavourIcon';
 import { ResonanceWorld } from './ResonanceWorld';
 import { score } from '../audio/score';
+import { addressName } from '../../shared/name';
 
 // H1 · The Threshold — "The Quiet Depths"
 // The journey footage holds at the S1 depths frame (~0.6s). Two cold-open
@@ -329,7 +330,8 @@ const labelOf = (vocab: readonly { id: string; label: string }[], id: string) =>
 const buildBreathEchoes = (a: JourneyAnswers, trace: string): string[] => {
   const lower = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
   const out: string[] = [];
-  if (a.name.trim()) out.push(`for ${a.name.trim()}`);
+  const address = addressName(a.name);
+  if (address) out.push(`for ${address}`);
   const lens = a.lens ? labelOf(LENSES, a.lens) : '';
   if (lens) out.push(`poured for ${lower(lens)}`);
   const colorName = a.seed ? labelOf(SEED_VOCAB, a.seed) : '';

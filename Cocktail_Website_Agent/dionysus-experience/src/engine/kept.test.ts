@@ -14,6 +14,8 @@ const memory = (seed: Record<string, string> = {}): Storage => {
 };
 
 const ada = { pairing: 'sage-lover', name: 'Ada', seed: null };
+// fourteen names the cleaner keeps, so each is a different pour
+const NAMES = ['Ada', 'Bea', 'Cleo', 'Dora', 'Elio', 'Faye', 'Gus', 'Hana', 'Iris', 'Jude', 'Kai', 'Lena', 'Milo', 'Nora'];
 
 describe('kept pours', () => {
   it('remembers a pour exactly, name and seed included', () => {
@@ -26,11 +28,28 @@ describe('kept pours', () => {
 
   it('keeps the newest first, once, and at most twelve', () => {
     const store = memory();
-    for (let i = 0; i < 14; i++) rememberPour({ ...ada, name: `n${i}` }, store);
-    rememberPour({ ...ada, name: 'n5' }, store);
-    expect(lastRememberedPour(store)?.name).toBe('n5');
+    for (const name of NAMES) rememberPour({ ...ada, name }, store);
+    rememberPour({ ...ada, name: 'Faye' }, store);
+    expect(lastRememberedPour(store)?.name).toBe('Faye');
     expect(JSON.parse(store.getItem('dionysus.kept')!)).toHaveLength(12);
-    expect(isRememberedPour({ ...ada, name: 'n0' }, store)).toBe(false);
+    expect(isRememberedPour({ ...ada, name: 'Ada' }, store)).toBe(false);
+  });
+
+  it('knows a pour stored under a raw name by its cleaned name, and back', () => {
+    const store = memory();
+    // stored before the cleaner (2.1): the name exactly as typed
+    rememberPour({ ...ada, name: 'ROBIN 🍸' }, store);
+    expect(isRememberedPour({ ...ada, name: 'Robin' }, store)).toBe(true);
+    // a link written before the cleaner, reopened after it
+    const fresh = memory();
+    rememberPour({ ...ada, name: 'Robin' }, fresh);
+    expect(isRememberedPour({ ...ada, name: '  robin ' }, fresh)).toBe(true);
+    expect(isRememberedPour({ ...ada, name: 'Robine' }, fresh)).toBe(false);
+    // a name the cleaner drops is the nameless pour
+    const nameless = memory();
+    rememberPour({ ...ada, name: '' }, nameless);
+    expect(isRememberedPour({ ...ada, name: 'asdf' }, nameless)).toBe(true);
+    expect(isRememberedPour({ ...ada, name: 'Robin' }, nameless)).toBe(false);
   });
 
   it('forgets nothing it cannot read and never throws', () => {

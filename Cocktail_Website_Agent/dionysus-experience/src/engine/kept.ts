@@ -7,12 +7,18 @@
 // only in this browser. Any storage failure (private mode, quota, disabled)
 // simply means the device remembers nothing.
 
+import { displayName } from '../../shared/name';
+
 type KeptPour = { pairing: string; name: string; seed: string | null };
 
 const KEY = 'dionysus.kept';
 const LIMIT = 12;
 
-const same = (a: KeptPour, b: KeptPour) => a.pairing === b.pairing && a.name === b.name && a.seed === b.seed;
+// Names compare cleaned (2.1): a device that stored a raw name before the
+// cleaner, or a link that still carries one, still knows its owner.
+const cleaned = (name: string) => displayName(name) ?? '';
+const same = (a: KeptPour, b: KeptPour) =>
+  a.pairing === b.pairing && cleaned(a.name) === cleaned(b.name) && a.seed === b.seed;
 
 const storage = (): Storage | null => {
   try {

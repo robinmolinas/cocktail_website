@@ -59,3 +59,9 @@
   summary: ~~AGENTS.md's repo map and commands don't list `e2e/` or `npm run e2e`.~~
   **Resolved 2026-10-13 (1.10):** both are listed now, with the 1.7 map refresh.
   evidence: 1.8 blind-hunter review. AGENTS.md is agent context, so it is deferred with the 1.7 AGENTS.md completeness entry.
+- source_spec: `spec-2-1-clean-the-name-movement-lines.md`
+  summary: The H8 breath echo's switch to `addressName` (TheDepths `buildBreathEchoes`) has no test; going back to the raw name would put "for ROBIN 🍸" or an insult in the breath with every check green.
+  evidence: 2.1 verification-gap review. `buildBreathEchoes` is private to TheDepths, and vitest has no component harness (node env, `src/engine/**` only). Testing it means extracting it into a pure `src/engine/` module; 2.5 or 2.6, which both touch the breath, are the natural owners.
+- source_spec: `spec-2-1-clean-the-name-movement-lines.md`
+  summary: `kept.ts` `lastRememberedPour` still returns names stored raw before 2.1 (e.g. "ROBIN 🍸"); only the comparison is cleaned.
+  evidence: 2.1 blind-hunter review. Only tests call it today, so nothing raw is inked yet. Whoever builds the landing return line (awaiting Robin's App.tsx OK) must show `displayName(pour.name)`, or clean on read here.

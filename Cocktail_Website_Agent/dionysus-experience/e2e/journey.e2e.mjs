@@ -243,4 +243,34 @@ describe('gift links', () => {
       assert.deepEqual(session.errors, []);
     }).finally(() => session.close());
   });
+
+  // story 2.1: the room inks the cleaned name, never the raw one from the link
+  test('a link\'s name is cleaned before the room inks it, or dropped', { timeout: 60_000 }, async () => {
+    const session = await openPage({ viewport: PHONE.viewport, touch: true });
+    const { page } = session;
+    const open = async (name) => {
+      await page.goto(`${server.url}/`);
+      const hash = await page.evaluate(async (n) => {
+        const { encodePour } = await import('/src/engine/pourLink.ts');
+        return `#pour=${await encodePour({ pairing: 'creator-hero', name: n, seed: 'galliano-gold' })}`;
+      }, name);
+      await page.goto('about:blank');
+      await page.goto(`${server.url}/${hash}`);
+      await page.locator('h1.tr-title').waitFor({ timeout: 30000 });
+    };
+    await explained(session, async () => {
+      await open('ROBIN 🍸');
+      await page.locator('.tr-tagname').waitFor({ state: 'attached', timeout: 10000 });
+      assert.equal((await page.locator('.tr-tagname').textContent())?.trim(), 'Robin');
+      assert.match((await page.locator('.tr-greet-line').textContent()) ?? '', /made for Robin,/);
+      assert.ok(!(await page.content()).includes('ROBIN 🍸'), 'the raw name is in the page');
+
+      await open('connard');
+      await page.locator('.tr-private').waitFor({ timeout: 10000 });
+      assert.equal(await page.locator('.tr-tagname').count(), 0);
+      assert.match((await page.locator('.tr-private').textContent()) ?? '', /Dionysus read them/);
+      assert.ok(!(await page.content()).toLowerCase().includes('connard'), 'the insult is in the page');
+      assert.deepEqual(session.errors, []);
+    }).finally(() => session.close());
+  });
 });

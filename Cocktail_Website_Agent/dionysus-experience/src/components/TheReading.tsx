@@ -22,6 +22,7 @@ import { keptFromLocation, pourFromLocation } from '../engine/pourHash';
 import { isRememberedPour, rememberPour } from '../engine/kept';
 import { inlineTokens } from '../engine/inline';
 import { qrPath } from '../engine/qr';
+import { addressName, displayName } from '../../shared/name';
 
 // The letter's four movements (Robin chose this layout, 2026-10-12), in the
 // order the studio writes every letter: who you are; the story, its reveal and
@@ -106,7 +107,11 @@ export default function TheReading({
   const devName = import.meta.env.DEV
     ? new URLSearchParams(window.location.search).get('name') ?? 'Celeste'
     : '';
-  const inkName = name || devName;
+  // Every surface inks the cleaned name, or none (2.1): the full one on the
+  // tag, card, PDF and links; the first one in sentences. The gift path's
+  // name comes from a link another device wrote, so it is cleaned here too.
+  const inkName = displayName(name || devName) ?? '';
+  const address = addressName(name || devName);
   // A #pour= link can bring the owner back rather than a friend: their keep
   // link, or their own share link opened on the device that poured it (user
   // test, 2026-10-12: people shared the cocktail to themselves and lost the
@@ -541,11 +546,11 @@ export default function TheReading({
   // "This is you, the Visionary." — every personality title starts with "The"
   const personality = reading.archetype.name.replace(/^The /, 'the ');
   const opener: Record<Movement, ReactNode> = {
-    who: <>This is you, {personality}.</>,
+    who: address ? <>This is you, {address}: {personality}.</> : <>This is you, {personality}.</>,
     story: <>The inspiration for your cocktail.</>,
     // all italic, like the other three lines (Robin: a roman name read as a mistake)
     cocktail: <>The cocktail I’ve made for you: {cocktail.name}.</>,
-    proposal: <>Before you go.</>,
+    proposal: address ? <>Before you go, {address}.</> : <>Before you go.</>,
   };
   const movement = (id: Movement, children: ReactNode) => (
     <section className={`tr-part tr-part-${id}`} aria-labelledby={`tr-part-${id}`}>
@@ -575,9 +580,9 @@ export default function TheReading({
           <span className="tr-greet-rule" aria-hidden="true" />
           <p className="tr-greet-line">
             {owned
-              ? <>{inkName ? `welcome back, ${inkName}.` : 'welcome back.'} The cocktail Dionysus made for you.</>
-              : inkName
-                ? <>a cocktail made for {inkName}, poured by Dionysus.</>
+              ? <>{address ? `welcome back, ${address}.` : 'welcome back.'} The cocktail Dionysus made for you.</>
+              : address
+                ? <>a cocktail made for {address}, poured by Dionysus.</>
                 : <>a cocktail, poured by Dionysus.</>}
           </p>
         </div>
@@ -689,8 +694,8 @@ export default function TheReading({
               {/* the guest is told what they are not being shown; the absence is
                   the point, and it is the reason the door below exists */}
               <p className="tr-private">
-                Dionysus read {inkName || 'her'} before pouring this. That reading
-                stayed with {inkName || 'her'}. <em>Yours is still unpoured.</em>
+                Dionysus read {address ?? 'them'} before pouring this. That reading
+                stayed with {address ?? 'them'}. <em>Yours is still unpoured.</em>
               </p>
             </>
           ) : (
