@@ -97,4 +97,9 @@ This epic covers the name cleaner, the movement lines, `/api/reveal` and the Bar
     - The additions are checked by `acceptAddition`. Its length limits (`ADDITION_LIMITS`: who 40–280, proposal 20–200, quote run 6) are placeholders until the spike measures real lengths.
   - **2.4**: import `TRACE_MAX` and `cleanTrace` from `shared/trace.ts`; don't add a second copy to `shared/answers.ts`. The 2.3 version also strips zero-width and BOM characters, lone surrogates and private-use code points. Replace `interimGuard` with `acceptAddition(kind, text, additionContext(pairing, trace))`, so the server-side check also enforces the trace-quote rule.
   - **2.5**: keep the raw additions (with the `{name}` slot) plus the address on the device, not the text as shown. `assembleReading(pairing, copy, name, seed, address, trace?)` re-fills the name. Feeding shown text back in can drop a name that is also a swear (such as "Dick").
-  - **Open for Robin (before 2.7)**: a trace that mentions suicide or self-harm gets a gentle tone, but the guest is still served a cocktail. Decide whether that path should also offer a quiet support line, or skip the addition and the drink framing.
+- Decision (Robin, 2026-10-16): when a trace speaks of self-harm or suicide, the Bartender answers gently (`care`), and the reading also shows one quiet support line that Robin writes.
+  - The line never mentions what the guest wrote.
+  - `needsSupport(raw)` in `shared/trace.ts` decides on the device, even when the pre-check withholds the trace. The answer never travels.
+  - Ambiguous phrases ("this heat will kill me", "en finir avec…") set `care` but not the line.
+  - 2.6 writes the line and chooses the helplines per locale. Robin checks the numbers.
+  - 2.5 renders the line.

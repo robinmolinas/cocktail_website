@@ -148,20 +148,31 @@ export const SWEARS: readonly string[] = [
 ];
 
 /** Self-harm and suicide wording, first and second person. Sets `care` in a trace; blocked in an addition. */
-export const SELF_HARM: readonly string[] = [
-  // first person
+/** First-person self-harm and suicide wording: what a guest might write about themselves. */
+export const SELF_HARM_FIRST_PERSON: readonly string[] = [
   'kill myself', 'killing myself', 'suicide', 'suicidal', 'self harm', 'harm myself', 'hurt myself', 'cut myself',
   'cutting myself', 'end my life', 'ending my life', 'take my own life', 'end it all', 'want to die', 'wanna die',
   'wanted to die', 'wanting to die', 'wish i could die', 'no reason to live', 'rather be dead', 'kill me',
   'don t want to be here anymore', 'do not want to be here anymore',
   'wish i was dead', 'wish i were dead', 'better off dead', 'overdose', 'hang myself', 'slit my wrists',
-  'me tuer', 'me suicider', 'suicidaire', 'en finir', 'veux mourir', 'envie de mourir', 'me faire du mal',
-  'veux disparaitre', 'plus envie de vivre', 'me pendre',
-  // second person (the Bartender speaks to "you")
+  'me tuer', 'me suicider', 'suicidaire', 'en finir', 'en finir avec la vie', 'veux mourir', 'envie de mourir',
+  'me faire du mal', 'veux disparaitre', 'plus envie de vivre', 'me pendre',
+];
+
+/** Second-person forms, blocked in an addition (the Bartender speaks to "you"). */
+export const SELF_HARM_SECOND_PERSON: readonly string[] = [
   'wish you were dead', 'end your life', 'ending your life', 'take your own life',
   'hurt yourself', 'harm yourself', 'cut yourself', 'cutting yourself', 'hang yourself', 'killing yourself',
   'slit your wrists', 'te tuer', 'te suicider', 'te faire du mal',
 ];
+
+/** Self-harm and suicide wording. Sets `care` in a trace; blocked in an addition. */
+export const SELF_HARM: readonly string[] = [...SELF_HARM_FIRST_PERSON, ...SELF_HARM_SECOND_PERSON];
+
+// Terms too ambiguous to show a support line on their own: "this heat will
+// kill me", "en finir avec ce dossier". They still set `care`.
+const SUPPORT_AMBIGUOUS = new Set(['kill me', 'en finir']);
+const SUPPORT_TERMS: readonly string[] = SELF_HARM_FIRST_PERSON.filter((term) => !SUPPORT_AMBIGUOUS.has(term));
 
 /** Every listed term, for the output guard. */
 export const BLOCKLIST: readonly string[] = [...HARD_INSULTS, ...MILD_INSULTS, ...SWEARS, ...SELF_HARM];
@@ -357,6 +368,18 @@ export function containsInsult(text: string): boolean {
 /** True when the text holds self-harm wording. */
 export function containsSelfHarm(text: string): boolean {
   return typeof text === 'string' && findTerm(foldForMatch(text), SELF_HARM) !== null;
+}
+
+/**
+ * True when the guest's own trace speaks of self-harm or suicide, so the
+ * reading shows Robin's quiet support line (Robin, 2026-10-16). Judged on the
+ * cleaned trace whether or not the pre-check withholds it ("fuck this, I want
+ * to die" is withheld yet still needs the line). Runs in the browser; the
+ * answer never travels.
+ */
+export function needsSupport(raw: unknown): boolean {
+  const trace = cleanTrace(raw);
+  return trace !== null && findTerm(foldForMatch(trace), SUPPORT_TERMS) !== null;
 }
 
 /**

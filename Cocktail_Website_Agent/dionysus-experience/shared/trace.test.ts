@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { RED_TEAM_TRACES } from './redteam';
 import {
   BLOCKLIST, cleanTrace, containsInsult, containsSelfHarm, foldForMatch, HARD_INSULTS, hasInstructionPhrasing,
-  looksLikeInstruction, MILD_INSULTS, mildInsultTarget, screenTrace, SELF_HARM, SWEARS, TRACE_MAX,
+  looksLikeInstruction, MILD_INSULTS, mildInsultTarget, needsSupport, screenTrace, SELF_HARM, SWEARS, TRACE_MAX,
 } from './trace';
 
 describe('cleanTrace', () => {
@@ -234,5 +234,33 @@ describe('the shared lists', () => {
     expect(looksLikeInstruction('the sea at dawn')).toBe(false);
     expect(hasInstructionPhrasing('<b>bold</b>')).toBe(false);
     expect(looksLikeInstruction('<b>bold</b>')).toBe(true);
+  });
+});
+
+describe('needsSupport', () => {
+  it.each([
+    'thinking about suicide again', 'some nights I want to die', 'last winter I wanted to die', 'no reason to live lately',
+    "I don't want to be here anymore", 'parfois je veux mourir', 'je pense à me pendre', "plus envie de vivre depuis l'été",
+    'je veux en finir avec la vie', 'su1c1de', 'thinking about sui​cide',
+  ])('shows the support line for self-harm wording: %s', (raw) => {
+    expect(needsSupport(raw)).toBe(true);
+  });
+
+  it('still shows it when the pre-check withholds the trace', () => {
+    expect(screenTrace('fuck this, I want to die').withheld).toBe('insult');
+    expect(needsSupport('fuck this, I want to die')).toBe(true);
+  });
+
+  it.each([
+    'I miss my father', 'I felt like an idiot at the wedding', 'this heat will kill me', 'en finir avec ce dossier',
+    'kill yourself', 'the sea at dawn', '', '   ', null, 42,
+  ])('does not show it for: %j', (raw) => {
+    expect(needsSupport(raw)).toBe(false);
+  });
+
+  it('agrees with the red team: every support trace also sets care', () => {
+    for (const entry of RED_TEAM_TRACES) {
+      if (entry.expect === null && needsSupport(entry.trace)) expect(entry.care, entry.id).toBe(true);
+    }
   });
 });
