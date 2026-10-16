@@ -65,3 +65,6 @@
 - source_spec: `spec-2-1-clean-the-name-movement-lines.md`
   summary: `kept.ts` `lastRememberedPour` still returns names stored raw before 2.1 (e.g. "ROBIN 🍸"); only the comparison is cleaned.
   evidence: 2.1 blind-hunter review. Only tests call it today, so nothing raw is inked yet. Whoever builds the landing return line (awaiting Robin's App.tsx OK) must show `displayName(pour.name)`, or clean on read here.
+- source_spec: `spec-2-3-trace-boundaries-and-red-team-set.md`
+  summary: Two hand-written EN/FR insult lists will exist once 2.1 lands: `shared/name.ts` (names) and `shared/trace.ts` (`HARD_INSULTS`/`MILD_INSULTS`/`SWEARS`).
+  evidence: Lanes 2.1 and 2.3 ran in parallel with one writer per file (epic 2 notes). Both lists drop "connard" and "fuck you", and both exempt real names (Dick, Kike). Once 2.1 is merged, make `name.ts` reuse `findTerm`/`foldForMatch` and `HARD_INSULTS` from `trace.ts` (at 2.5, or in a sweep), so the two lists can't drift.

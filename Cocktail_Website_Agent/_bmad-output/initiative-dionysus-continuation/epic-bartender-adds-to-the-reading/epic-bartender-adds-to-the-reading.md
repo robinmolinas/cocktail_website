@@ -91,3 +91,10 @@ This epic covers the name cleaner, the movement lines, `/api/reveal` and the Bar
   - Upstash Redis through the Vercel Marketplace (blocks entry 4's rate limit, not its shell);
   - the two copy lines (entry 6);
   - any real H7 traces from earlier playtests, for the fixtures.
+- Handoff from 2.3 (merged 6b45d41, 2026-10-16):
+  - **2.2**:
+    - `screenTrace(raw)` in `shared/trace.ts` returns `{trace, withheld, care}`. The prompt must read `care`. Robin's decision: when the guest is hard on themselves ("I felt like an idiot", "je suis conne") or uses self-harm wording, the trace passes with `care: true`, and the Bartender must answer with empathy.
+    - The additions are checked by `acceptAddition`. Its length limits (`ADDITION_LIMITS`: who 40–280, proposal 20–200, quote run 6) are placeholders until the spike measures real lengths.
+  - **2.4**: import `TRACE_MAX` and `cleanTrace` from `shared/trace.ts`; don't add a second copy to `shared/answers.ts`. The 2.3 version also strips zero-width and BOM characters, lone surrogates and private-use code points. Replace `interimGuard` with `acceptAddition(kind, text, additionContext(pairing, trace))`, so the server-side check also enforces the trace-quote rule.
+  - **2.5**: keep the raw additions (with the `{name}` slot) plus the address on the device, not the text as shown. `assembleReading(pairing, copy, name, seed, address, trace?)` re-fills the name. Feeding shown text back in can drop a name that is also a swear (such as "Dick").
+  - **Open for Robin (before 2.7)**: a trace that mentions suicide or self-harm gets a gentle tone, but the guest is still served a cocktail. Decide whether that path should also offer a quiet support line, or skip the addition and the drink framing.
