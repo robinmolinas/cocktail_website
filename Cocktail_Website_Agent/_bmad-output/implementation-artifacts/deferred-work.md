@@ -59,3 +59,6 @@
   summary: ~~AGENTS.md's repo map and commands don't list `e2e/` or `npm run e2e`.~~
   **Resolved 2026-10-13 (1.10):** both are listed now, with the 1.7 map refresh.
   evidence: 1.8 blind-hunter review. AGENTS.md is agent context, so it is deferred with the 1.7 AGENTS.md completeness entry.
+- source_spec: `spec-2-3-trace-boundaries-and-red-team-set.md`
+  summary: Two hand-written EN/FR insult lists will exist once 2.1 lands: `shared/name.ts` (names) and `shared/trace.ts` (`HARD_INSULTS`/`MILD_INSULTS`/`SWEARS`).
+  evidence: Lanes 2.1 and 2.3 ran in parallel with one writer per file (epic 2 notes). Both lists drop "connard" and "fuck you", and both exempt real names (Dick, Kike). Once 2.1 is merged, make `name.ts` reuse `findTerm`/`foldForMatch` and `HARD_INSULTS` from `trace.ts` (at 2.5, or in a sweep), so the two lists can't drift.
