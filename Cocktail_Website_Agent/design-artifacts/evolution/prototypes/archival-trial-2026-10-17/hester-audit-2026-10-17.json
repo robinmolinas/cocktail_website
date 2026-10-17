@@ -1,0 +1,932 @@
+{
+ "caregiver-creator": {
+  "verdict": "pass",
+  "dateline": "Ginza, Tokyo, 1997",
+  "trueStory": true,
+  "why": "Tender opened in Ginza in 1997 (the story's first scene, and the bar where he kept his way). The New York turn can't carry the dateline because its year is contested (2009 vs 2010, card C2), and the reading hedges every quotation by its channel (translator, Boehm, a forum relay).",
+  "source": "fact card kazuo-uyeda-hard-shake F1, F5-F8, C2; Oxford UYEDA pdf 2078, TENDER BAR pdf 1998; Proper p. 208"
+ },
+ "caregiver-explorer": {
+  "verdict": "fix",
+  "dateline": "England",
+  "trueStory": true,
+  "why": "1772 is safe for the pamphlet only (card C1). Set over a story that opens with the beer-vat discovery, which Oxford dates 1771, it reads as the year of the discovery, and my notes give no year for that. The story itself is on record, in Priestley's own Preface and in Pawley.",
+  "source": "fact card joseph-priestley-soda-water F1, F3-F4, F7, C1; caregiver-explorer.md Open items ('no year given for the discovery'); Priestley 1772 Preface"
+ },
+ "caregiver-hero": {
+  "verdict": "pass",
+  "dateline": "Bern, 1814",
+  "trueStory": true,
+  "why": "The museum's page, which I re-read today, says it word for word: Barry died in 1814 in Bern, where he spent his last two years in retirement, brought there at the prior's request. That retirement is the story's turn. The two legends are labelled as legends in the reading and the 40 rescues keep 'is said to have'.",
+  "source": "fact card barry-st-bernard F1-F4; nmbe.ch/en/exhibitions/barry (re-fetched 2026-10-17)"
+ },
+ "caregiver-innocent": {
+  "verdict": "pass",
+  "dateline": "Dijon, 1945",
+  "trueStory": true,
+  "why": "Kir became mayor of Dijon in 1945. Oxford, Joy and Sycomore agree on the start year, and only the end year is contested (C2). The reading keeps the contested invention date and the naming mechanism out, and signposts the inner life.",
+  "source": "fact card felix-kir F1, F11, F13, C1-C2; Oxford KIR pdf 1133; Joy pdf 315"
+ },
+ "caregiver-jester": {
+  "verdict": "pass",
+  "dateline": "Shepheard's Hotel, Cairo",
+  "trueStory": true,
+  "why": "The place is right and correctly has no year: 1942 lives only inside Berry's account, and Proper says 'the late '40s' (C1). The Oxford entry is signed by Jeff Berry, so 'As Jeff Berry tells it' is exact, and the battle claim is told as the journalists' version and denied.",
+  "source": "fact card joe-scialom-suffering-bastard F2, F5-F6, C1; Oxford SCIALOM pdf 1767 (signed Jeff Berry, re-read); Proper p. 264 (re-read)"
+ },
+ "caregiver-lover": {
+  "verdict": "pass",
+  "dateline": "London, 1874",
+  "trueStory": true,
+  "why": "The letter was written from London on 2 January 1874, and that's the reading's own first scene. The swearing morning has no date and no house on record (F10 guard), and the reading marks it off as 'the way he told it years later', so the dateline belongs to the letter alone.",
+  "source": "fact card twain-livy-cocktail F1, F10; MTP UCCL 01028; Paine 1912 ch. CIV"
+ },
+ "caregiver-magician": {
+  "verdict": "pass",
+  "dateline": "Algeria, the 1830s",
+  "trueStory": true,
+  "why": "Oxford: he joined the Armée d'Afrique in 1830, caught the fever in Africa, and it 'prompted him in 1837', so the fever falls in the 1830s. The cause is Oxford's and the reading hedges it ('The way it's told'), and the motive is signposted.",
+  "source": "Oxford PICON pdf 1509 (re-read); fact card gaetan-picon-amer-picon F2-F5"
+ },
+ "caregiver-outlaw": {
+  "verdict": "pass",
+  "dateline": "Leicester, 1824",
+  "trueStory": true,
+  "why": "The 1824 pamphlet was 'first published' in Leicester (the second printing's Advertisement), and she lived there. Every quotation in the story is from the pamphlet itself, and the Act is dated 1833 without 'freed'.",
+  "source": "fact card elizabeth-heyrick-sugar-abstention F2-F3, F6-F7, F10-F12, F21-F22"
+ },
+ "caregiver-regular-guy": {
+  "verdict": "pass",
+  "dateline": "Foynes, Ireland, 1944–45",
+  "trueStory": true,
+  "why": "Oxford: created late 1944 or early 1945 at the Foynes flying-boat station by chef Joe Sheridan, citing the press of the time. The span is the record's own, and the reading's 'I like to think' covers who decided to offer it to everyone.",
+  "source": "fact card joe-sheridan-irish-coffee F1-F2, C1; Oxford IRISH COFFEE pdf 1075-1076"
+ },
+ "caregiver-ruler": {
+  "verdict": "pass",
+  "dateline": "West Indies, 1740",
+  "trueStory": true,
+  "why": "Oxford dates the order to 1740 and places Vernon as commander of the Royal Navy's West Indies Station, and 'West Indies' is the safe scope (Port Royal is secondary only). The name is told as 'Legend has it', as the record hedges it ('reportedly').",
+  "source": "Oxford GROG pdf 951 and SPIRITS IN THE MILITARY pdf 1868 (re-read); fact card grog-admiral-vernon F1, F6-F7, F10"
+ },
+ "caregiver-sage": {
+  "verdict": "pass",
+  "dateline": "Oregon, the 2000s",
+  "trueStory": true,
+  "why": "Ransom is in Oregon, where the friend's plan and the gin were made (Proper p. 241; Oxford: 'Ransom Old Tom, from Oregon', 2008). No year for the advice itself (C2), and 'the 2000s' already passed audit v4 as the reading's own span. Where the advice was given isn't on record, so Oregon is the story's setting, not a claim about the lunch.",
+  "source": "Proper p. 241 (pdf 255, re-read); Oxford OLD TOM GIN pdf 1438; fact card david-wondrich-ransom-old-tom F2-F6, C2; caregiver-sage audit v4"
+ },
+ "creator-caregiver": {
+  "verdict": "pass",
+  "dateline": "The Savoy, London",
+  "trueStory": true,
+  "why": "Hawtrey's request was made in the Savoy's American Bar (Oxford: 'came into the bar'), so the place is right. Leaving the year out is correct: mid-1921 is only Oxford's 'likely' (C4), and the only firm limit is before 1923. The story tells the naming without the contested first-sip line (C3), and the hours of experimenting come from her own words.",
+  "source": "Oxford HANKY PANKY pdf 966 (re-read: Sphere/People accounts, 'likely date… mid-1921'); fact card hanky-panky F3-F5, C3, C4"
+ },
+ "creator-explorer": {
+  "verdict": "pass",
+  "dateline": "Brooklyn",
+  "trueStory": true,
+  "why": "Gonzalez made the Trinidad Sour at Clover Club in Brooklyn. No year is right because the sources say 2008 and 2009 (C1). The told-he-wouldn't-sell-it scene is his account only (C3), and the story signposts it ('The way he tells it').",
+  "source": "fact card angostura-trinidad-sour F8, F10, C1, C3; Oxford ANGOSTURA pdf 113; Proper p. 315"
+ },
+ "creator-hero": {
+  "verdict": "pass",
+  "dateline": "New Orleans, 1915",
+  "trueStory": true,
+  "why": "Thirty-five shakermen at Mardi Gras 1915 is the story's central moment, and the story states that year itself. Ramos was then at the Stag Saloon in New Orleans, so the place and the year belong together. No invention year and no shake time are given (C1, C2).",
+  "source": "Imbibe! pdf 111 (re-read: 'During Mardi Gras, 1915, he had thirty-five shakermen on'); fact card ramos-gin-fizz F7, C1-C3"
+ },
+ "creator-innocent": {
+  "verdict": "pass",
+  "dateline": "San Francisco, the mid-1980s",
+  "trueStory": true,
+  "why": "The turn is Bermejo tasting Herradura and switching to 100% agave in the mid-1980s, at Tommy's in San Francisco. Both the span and the quote are on p. 81. The disputed 1990 date for the finished drink (C1) correctly stays out.",
+  "source": "Proper pp. 80-81, 84; fact card tommys-margarita F2-F4, F7, C1"
+ },
+ "creator-jester": {
+  "verdict": "pass",
+  "dateline": "New York, 1886",
+  "trueStory": true,
+  "why": "In spring 1886 the Nixes brought the tomatoes into the port of New York and sued the port's collector there. The story opens on that event, and the dictionary trial is also a New York scene, so the place and year match. The 1893 ruling came from the Supreme Court in Washington. 'Four men named Nix' follows the corrected card (no 'family').",
+  "source": "Nix v. Hedden, 149 U.S. 304 (1893), via fact card tomato F1-F4 (opinion re-checked round 5); Flavor Matrix pdf 52 (F5)"
+ },
+ "creator-lover": {
+  "verdict": "pass",
+  "dateline": "Louisiana, 1993",
+  "trueStory": true,
+  "why": "Proper places the 1993 remark in 'the Louisiana petroleum industry', so the place and year are one event. The story keeps the bottles undated (never 'pre-ban'), uses his own 'a lot better', and signposts the justice motive as what he says.",
+  "source": "Proper p. 244 (re-read: 'In 1993, Ted Breaux heard a lab colleague…'); fact card ted-breaux-absinthe F1-F3, F5, F6"
+ },
+ "creator-magician": {
+  "verdict": "pass",
+  "dateline": "2012",
+  "trueStory": true,
+  "why": "The central moment is Arnold's 2012 Arnold Palmers and the milk-washed tea vodka. Neither the card nor LI p. 263 names where it happened (the bar is unnamed), so a year-only dateline is correct. The Franklin 1763 and Dickens lines are on Oxford and LI.",
+  "source": "Liquid Intelligence p. 263, 267; Oxford MILK PUNCH pdf 1305; fact card clarified-milk-punch F2-F4, F7, F9, F14"
+ },
+ "creator-outlaw": {
+  "verdict": "pass",
+  "dateline": "Lower Manhattan",
+  "trueStory": true,
+  "why": "The Odeon is in Tribeca, which the story calls lower Manhattan. 1988 is only 'most likely' (C3), and a dateline can't carry that hedge, so leaving the year out is correct. The San Francisco recipe is given 'by his account' (C1). The 2026 present-tense line is dated and rests on Lascelles.",
+  "source": "Oxford COSMOPOLITAN pdf 585; Proper pp. 42-44; fact card cosmopolitan-toby-cecchini F2, F5, F6, F9, F17, F19, C1, C3"
+ },
+ "creator-regular-guy": {
+  "verdict": "pass",
+  "dateline": "New York, 1916",
+  "trueStory": true,
+  "why": "Ensslin, a bartender at the Hotel Wallick in Times Square, published Recipes for Mixed Drinks there in 1916. That publication is the story's central record, and the story states the year. The story never says he invented the drink (C3) or why Craddock dropped the violette.",
+  "source": "Oxford ENSSLIN pdf 728 (re-read: 'Wallick, in Times Square'); Imbibe! pdf 241-243; fact card hugo-ensslin-aviation F2-F4, F9, F12, F14"
+ },
+ "creator-ruler": {
+  "verdict": "pass",
+  "dateline": "New York, 2005",
+  "trueStory": true,
+  "why": "Pegu Club opened in New York in August 2005, and the tastings the story tells were the bar's building and early years. The year of the pitch isn't given and must not be stated (audit X1). The dateline doesn't claim it: it is the bar's year, and the story's first line already frames the pitch as before that.",
+  "source": "Proper p. 161 (re-read: 'left Bemelmans in January 2005… didn't open until August'), pp. 160, 162-163; Oxford PEGU CLUB pdf 1490; fact card audrey-saunders-pegu-club F1-F9; creator-ruler historian-audit X1"
+ },
+ "creator-sage": {
+  "verdict": "pass",
+  "dateline": "1876",
+  "trueStory": true,
+  "why": "The central moment is Thomas's 1876 reprint with the supplement of Improved Cocktails. Imbibe! does name the publisher, Dick & Fitzgerald of New York, but the card doesn't carry it and the story names no place, so a year-only dateline is safe. The Sazerac line is labelled as the historian's reading.",
+  "source": "Imbibe! pdf 17, 173, 179-180, 183-184; Oxford SAZERAC pdf 1753; fact card jerry-thomas-improved-cocktail F1-F7, F16-F18"
+ },
+ "explorer-caregiver": {
+  "verdict": "pass",
+  "dateline": "Mexico",
+  "trueStory": true,
+  "why": "The story's ground is Mexico's tequila agave fields and their bats; it's undated in the reading, and every line is on the card with its hedges (Medellín's 'waste', Suro's own reason, 'many causes', the bats' return under 'I like to think'). I would not add 2016: it dates only the programme's first list on batfriendly.org, which C1 contests as 'certification', and the story's central moment carries no year.",
+  "source": "fact card bat-friendly-agave-suro F4 (Oxford AGAVE pdf 77), F7, F12, F14, F16, F20; C1, C5-C7"
+ },
+ "explorer-creator": {
+  "verdict": "pass",
+  "dateline": "Dallas, the early 1970s",
+  "trueStory": true,
+  "why": "Martinez's restaurant and machine were in Dallas; 'the early 1970s' is the card's own ruling for the 1971 (Oxford MARGARITA, NMAH, AP, VinePair) vs 1973 (Oxford FROZEN DAIQUIRI) conflict. The story keeps the Slurpee as inspiration, says 'he' adapted but 'they' made it, and marks the trial and error 'as he tells it'.",
+  "source": "fact card mariano-martinez-frozen-margarita C1, F1, F5-F15; Oxford pdf 1237, 854"
+ },
+ "explorer-hero": {
+  "verdict": "pass",
+  "dateline": "Frankfort, Kentucky, 1984",
+  "trueStory": true,
+  "why": "The launch at the Frankfort distillery in 1984 is the central moment. The year agrees in every source (only the owners' ask, 1983/1984, conflicts, and the story doesn't date it). Blanton's habit is left undated, as the guards require.",
+  "source": "fact card elmer-t-lee-blantons F1-F4, F12, C1; Oxford BLANTON'S pdf 283, SINGLE BARREL pdf 1806"
+ },
+ "explorer-innocent": {
+  "verdict": "pass",
+  "dateline": "Islington, London, 2009",
+  "trueStory": true,
+  "why": "69 Colebrooke Row opened in 2009 on a side street in Islington (Proper p. 228), and Morgenthaler tasted the five-year-old Manhattan there that October (Oxford pdf 216-217; PUNCH 2019, 22 Oct 2009). The place and the year belong to the same night, and Morgenthaler's 'tasted like a Manhattan' is carried in his own words.",
+  "source": "fact card tony-conigliaro-aged-cocktails F5-F7, F11-F13, F18; Proper pp. 228, 236; Oxford pdf 216-217"
+ },
+ "explorer-jester": {
+  "verdict": "pass",
+  "dateline": "New York, 2012",
+  "trueStory": true,
+  "why": "Proper printed pp. 225-226 (pdf 239-240, re-read today): Arnold opened Booker & Dax with David Chang at the back of Ssäm Bar in the East Village in 2012, and that's the bar his electric pokers were built for. His trials are undated ('a few years ago', LI p. 177), so 2012 attaches to the bar where the story lands, which is how the reading tells it.",
+  "source": "Proper pp. 225-226 (pdf 239-240); fact card dave-arnold-red-hot-poker F2-F7, F10, F12; LI pp. 177-182"
+ },
+ "explorer-lover": {
+  "verdict": "pass",
+  "dateline": "Soho, London",
+  "trueStory": true,
+  "why": "Bradsell made the Bramble at Fred's Club, a Soho members' club (Oxford pdf 336; Proper p. 31, re-read today: 'Fred's Club, London'). The year stays out because of the conflict between Oxford's 1989 and Proper's 1991 or '92 ('Bradsell was not sure'). The story is his own on-record account.",
+  "source": "fact card bramble-dick-bradsell F2-F9, guards; Proper p. 31 (pdf 45); Oxford BRAMBLE pdf 336"
+ },
+ "explorer-magician": {
+  "verdict": "pass",
+  "dateline": "New York, 1973",
+  "trueStory": true,
+  "why": "The hour before his shift was in his first New York bar job, and Regan dates that start himself ('In 1973, when I first started tending bar in New York'); Oxford's 'early 1970s' agrees. The naming is kept as his later look back (C2), and 'seaside town' is on Joy pdf 119.",
+  "source": "fact card gary-regan-mindful-bartending F2-F8, C1-C2; Joy pdf 119, 133; Oxford pdf 1634"
+ },
+ "explorer-outlaw": {
+  "verdict": "pass",
+  "dateline": "New York",
+  "trueStory": true,
+  "why": "PDT, St. Mark's Place, New York, is where the drink was made. The year stays out because of the conflict between Proper's 2007 (p. 275, re-read today) and Oxford's 2008 (pdf 762). The story follows the PUNCH account (pitched, Meehan wary) rather than 'we just put it on the menu' (C4). Its nuts, chorizo and olive oil are anchored to PUNCH 2019.",
+  "source": "fact card don-lee-bentons-old-fashioned C1, C4, F12-F22; Proper p. 275 (pdf 289); dossier anchors row 'story'"
+ },
+ "explorer-regular-guy": {
+  "verdict": "pass",
+  "dateline": "Oaxaca, Mexico",
+  "trueStory": true,
+  "why": "The find (the checkpoint, the uncle's mezcal) is in Oaxaca on both Oxford (COOPER pdf 573) and Cooper's own account. No year, because the card's C1 and C3 conflict over 1986 vs 1990 and the two trips. The border scene is a later trip, told as one, with no number.",
+  "source": "fact card del-maguey-oaxaca-old-fashioned F12-F18, F22, C1, C3-C4; Oxford pdf 573, 638"
+ },
+ "explorer-ruler": {
+  "verdict": "pass",
+  "dateline": "Antarctica, 1909",
+  "trueStory": true,
+  "why": "Every dated event in the story is 1909: New Year, 6 and 9 January at 88° 23′ S on the polar plateau, then home on 4 March. All of it is in Shackleton's own book, and the reading uses no hour (C4).",
+  "source": "fact card shackleton-nimrod-mackinlays F2-F17, F23, S1; Shackleton 1911 (PG 69138) lines 3532-3652, 4095",
+  "image": {
+   "verdict": "fix",
+   "caption": "The furthest south, 9 January 1909",
+   "credit": "From Shackleton's account of the expedition (1911) · public domain",
+   "why": "The moment and the caption hold up. Shackleton's own book has a plate of the same three-men-and-Union-Jack scene captioned 'Farthest South, January 9, 1909', and his text has the flags hoisted at 88° 23′ that morning. The caption names nobody and doesn't say 'the party', so it's safe with four men south and one behind the camera. The public-domain reasoning doesn't hold as written. (1) The 1911 plate (PG 69138, img_pg_149, facing p. 149) is a different exposure from the Commons scan: the poses, mitts and flag-pole spacing differ. So 'published in 1909' is shown only for the moment, not for this photograph. (2) The photographer isn't settled. Commons lists Shackleton as 'Artist', but by AWI's own credit he stands in the frame. Secondary pages most often name Marshall (d. 1963), which would undo a 'died 70 years ago' basis, and unpublished US works run life + 70. (3) The UK line 'pre-1957 photograph, 70 years from publication' isn't the old-law rule (the 1911 Act counted from the negative). Fix: swap in Shackleton's published plate, which is public domain in the US by pre-1929 publication and carries his own caption and date (scan the 1909 *Heart of the Antarctic* plate if it's the same one, and credit that edition instead). Or keep this scan only once its pre-1929 publication or its photographer's term is shown."
+  }
+ },
+ "explorer-sage": {
+  "verdict": "pass",
+  "dateline": "Los Angeles, 1979",
+  "trueStory": true,
+  "why": "Proper printed p. 258 (pdf 272, re-read today): 'When he turned twenty-one in 1979', Berry asked Ray at the Tiki-Ti on Sunset Boulevard, Los Angeles, and got 'Rum and fruit juice'. That's the pull and the scene the story opens on. The reading keeps C2 (the 1979 question is about every drink, not yet the Zombie) and calls the notebook find 'what he calls the original'.",
+  "source": "Proper p. 258 (pdf 272); fact card jeff-berry-zombie F2-F3, F6-F12, C1-C2"
+ },
+ "hero-caregiver": {
+  "verdict": "pass",
+  "dateline": "Greenwich Village, 1919",
+  "trueStory": true,
+  "why": "The raid and the plea on condition the waiters went free happened at the Greenwich Village Inn less than four months after the wartime law of 30 June 1919, so 1919 is safe and goes with the place. The reading keeps the guards: 'ran', not owned; served far less than thirty days; no act named, no 'first'.",
+  "source": "fact card barney-gallant F1-F4, C1-C4; Joy pdf 59"
+ },
+ "hero-creator": {
+  "verdict": "pass",
+  "dateline": "New York, 1933",
+  "trueStory": true,
+  "why": "The Sun's daily column began on 20 October 1933 in New York and the story opens there. The Carter letter's contested year (C1) isn't in the dateline, and every line of the reading sits on Oxford's FOUGNER entry.",
+  "source": "fact card g-selmer-fougner F4, F6-F11, C1; Oxford FOUGNER pdf 833-834"
+ },
+ "hero-explorer": {
+  "verdict": "pass",
+  "dateline": "Colorado",
+  "trueStory": true,
+  "why": "The pallet, the one-man distributor, the Denver bartender and the Aspen store all happened in Colorado. Leaving the year out is right: C1 allows only 'by 2005', and the dateline format has no room for that.",
+  "source": "fact card eric-seed-zirbenz F2-F7, F13, C1; Proper pp. 240-241; PUNCH 2015"
+ },
+ "hero-innocent": {
+  "verdict": "pass",
+  "dateline": "New York, the mid-eighties",
+  "trueStory": true,
+  "why": "Aurora was in New York, and the anchors rule out any single year (1984 or 1985, C3/C7) while 'the mid-1980s' is safe. The dateline matches the reading's own words. Both tellings are DeGroff's own, and the reading uses the shared ground ('his beef-broth drink').",
+  "source": "fact card joe-baum-dale-degroff-bullshot F4-F6, F16, C1-C3, C7; historian-anchors 'No year anywhere'; Proper pp. 10-12; Oxford pdf 374-375, 633"
+ },
+ "hero-jester": {
+  "verdict": "pass",
+  "dateline": "Oakland, 1934",
+  "trueStory": true,
+  "why": "The barbecue shack opened in Oakland in 1934 (Oxford), and the shack is the pivot of the plain version. The reading presents the shark as his own telling and a popular belief ('The odds are against it'), and hedges the nickname as one writer's, so the core told as fact is on the record.",
+  "source": "fact card trader-vic-bergeron F2-F8, F12, L1, C6; Oxford BERGERON pdf 258; Beyl 2015"
+ },
+ "hero-lover": {
+  "verdict": "pass",
+  "dateline": "1953",
+  "trueStory": false,
+  "why": "The scene is Bond's order in Fleming's novel, fiction, and the reading says so itself. 1953 is the novel's publication year (Oxford). No real place belongs to the scene, so a year with no place is the honest form.",
+  "source": "fact card vesper-casino-royale F1-F5, C1; Oxford VESPER pdf 2099"
+ },
+ "hero-magician": {
+  "verdict": "pass",
+  "dateline": "Havana, 1935",
+  "trueStory": true,
+  "why": "He bought the Floridita in Havana in 1935, and that same year he told Sugrue about his drink a day, so the place and the year belong together. The contested start year (1912/1914) and booklet years stay out.",
+  "source": "fact card constante-ribalaigua-floridita F2, F5, F7-F9, F14-F15, C1-C2; Oxford RIBALAIGUA pdf 1655-1656, FLORIDITA pdf 821"
+ },
+ "hero-outlaw": {
+  "verdict": "pass",
+  "dateline": "Brooklyn, 2003",
+  "trueStory": true,
+  "why": "She opened the shop in 2003 at the end of Van Brunt Street in Red Hook, Brooklyn. The reading keeps 'when hardly anyone stocked rye', dates her words to 2014, and never links the telling-off to the hire.",
+  "source": "fact card lenell-smothers-red-hook F1, F4-F5, F7-F14, C3, C7; Proper pp. 237-239"
+ },
+ "hero-regular-guy": {
+  "verdict": "pass",
+  "dateline": "The Pacific Northwest",
+  "trueStory": true,
+  "why": "p. 72 gives no city and no year for the Singapore Sling night. Casa U-Betcha ran in both Seattle and Portland, so 'the Pacific Northwest' is the most the record supports (audit v1 H10). The reading presents 'didn't sit right' as the book's version ('As his story is told').",
+  "source": "fact card marco-dionysos P1-P2, N1-N2; Proper p. 72; historian-audit-v1 H10"
+ },
+ "hero-ruler": {
+  "verdict": "pass",
+  "dateline": "New Orleans, 2009",
+  "trueStory": true,
+  "why": "Cure opened in 2009 in Freret, New Orleans, and two sources agree on that. The reading keeps the counterweights (Kohnke loved it, the 'couldn't afford' line, his concession on service) and says nothing about whether the dress code survived.",
+  "source": "fact card neal-bodenheimer-cure F2-F15, F20; Proper pp. 284-287; The Gannet 2015"
+ },
+ "hero-sage": {
+  "verdict": "pass",
+  "dateline": "Daiquirí, Cuba, the 1890s",
+  "trueStory": true,
+  "why": "Oxford dates the first Daiquiri to 1896 and the Codex legend to 1898, so 'the 1890s' is safe (C1). The scene happens at his home (the garden limes), and Oxford places his house in Daiquirí (pdf 623, as of 1909). I reopened both pages: the 1896 house is an inference from that, a mild one. The story is true on a hedged basis: the reading presents the scene as the family's account in every paragraph and keeps 'made the first, or at least oversaw', but Oxford's COCKTAIL entry calls the scene 'the legend of the Daiquiri' (pdf 502). See the note for Robin.",
+  "source": "fact card jennings-cox-daiquiri F1-F13, C1, C4; Oxford DAIQUIRI pdf 621, 623 (reopened 2026-10-17), COCKTAIL pdf 502"
+ },
+ "innocent-caregiver": {
+  "verdict": "pass",
+  "dateline": "Andalusia",
+  "trueStory": true,
+  "why": "Fino and its flor are made in the sherry country of Andalusia, which matches the reading's 'the air of that part of Spain'. No year is safe: the card allows only 'for years' (C2). The reading tells the process as documented, and 'it forms by itself' keeps to guard G6.",
+  "source": "flor.md F4 (Consejo Regulador sherry.wine; Luyten), F12 (Oxford pdf 346), C2, G6"
+ },
+ "innocent-creator": {
+  "verdict": "pass",
+  "dateline": "Algorta, 1972",
+  "trueStory": true,
+  "why": "Oxford gives Algorta and 1972 (pdf 386), and the Getxo council account via EFE gives the festival in Algorta on 12 Aug 1972, so the place and year belong together and only the year is stated (C2). The reading hedges the contested parts ('the story goes', 'a friend's nickname', C1/C3). Its core (the Granada barman, Oxford trusting Funky Project) is first-person press and Oxford's own text, undated as F15 requires.",
+  "source": "kalimotxo.md F3, F4, F10, F11, F14, F15, C1–C3; Oxford pdf 386"
+ },
+ "innocent-explorer": {
+  "verdict": "pass",
+  "dateline": "Cognac, 1872",
+  "trueStory": true,
+  "why": "In 1872 Baudoin brought the sooty growth near the Cognac distilleries to two botanists' attention, which is the story's opening moment. The reading keeps 1872 for that and leaves the 1878 pamphlet undated ('a few years later'), as C3 requires. 'Nearest known relatives' keeps to C2, and there's no decade for the renaming (C1).",
+  "source": "baudoinia-compniacensis.md F2, F4, C1–C3; Scott et al., Mycologia 99(4) 2007, intro"
+ },
+ "innocent-hero": {
+  "verdict": "pass",
+  "dateline": "Slovakia, 1994",
+  "trueStory": true,
+  "why": "The 1994 shaker scene took place in the village pub in Zemné, Slovakia, and Slovakia had been independent since 1993, so the place and year belong together. The award year (2007 vs 2008, C1) is rightly kept off the dateline, and 'Slovakia' also covers Bratislava, where the parcel arrived. The reading keeps 'asked' (F2) and gives no span (C6).",
+  "source": "stanislav-vadrna-paparazzi.md F1, F2, F5, F11, C1, C6; Simonson, A Proper Drink pp. 205–206"
+ },
+ "innocent-jester": {
+  "verdict": "pass",
+  "dateline": "Melbourne, 2001",
+  "trueStory": true,
+  "why": "Ginger opened in 2001 in Fitzroy, Melbourne, and its opening is the story's centre. The Paper Plane's contested year stays out (C1), and the Toronto quote stays undated (F16). Every characterisation in the reading is quoted from a named witness on the record.",
+  "source": "sam-ross-ginger-paper-plane.md F1, F3, F4, F6, F9, F16, C1; A Proper Drink pp. 144, 168, 288"
+ },
+ "innocent-lover": {
+  "verdict": "pass",
+  "dateline": "Brooklyn, 1910",
+  "trueStory": true,
+  "why": "The central scene is Hegeman's July 1910 Brooklyn, mixed at a café at the Brooklyn end of the bridge by a man living in Brooklyn, and his motive is in his own reported words. The 1883 and 1945 beats are told with Oxford's 'apparently' and the Eagle's dates.",
+  "source": "brooklyn-cocktail.md F2, F7, F8, F9, F14, F15; Cincinnati Enquirer 7 Jul 1910 p. 4; Kansas City Star 4 Jul 1910 p. 7"
+ },
+ "innocent-magician": {
+  "verdict": "pass",
+  "dateline": "Tasmania, 1992",
+  "trueStory": true,
+  "why": "1992 is safe for the law change and the licence (C6: Oxford pdf 2173 and Spirits Business 2022 agree, and pdf 172's 'early 1990s' fits), and the licence and the Grant call happened in Tasmania. The fishing-trip year stays out (C5). The reading attributes Lark's account ('as he tells it', 'as Bill remembers it').",
+  "source": "bill-lark-tasmania.md F8–F12, C5, C6; Oxford pdf 172, 2173; Spirits Business 21 Nov 2022"
+ },
+ "innocent-outlaw": {
+  "verdict": "pass",
+  "dateline": "New England",
+  "trueStory": true,
+  "why": "Thoreau's wild-apple pastures are New England's in his own essay ('extinct in New England'). No year is right here, because the essay's 1862 heading is a publication date, not when the walks happened. Every claim in the reading is attributed to Thoreau's or Emerson's printed words.",
+  "source": "thoreau-wild-apples-stone-fence.md W1, W6, W7, W9, W15, E4, E6, E9, C4; Excursions (1863), Gutenberg #9846"
+ },
+ "innocent-regular-guy": {
+  "verdict": "pass",
+  "dateline": "India, the 1600s",
+  "trueStory": true,
+  "why": "Oxford puts the earliest record with the English in India: the EIC letter of 1632, and Mundy in Surat 1628–30 recording 'four shares'. The reading hedges the origin ('Nobody knows exactly') and the five-ingredients story ('Maybe').",
+  "source": "Oxford PUNCH pdf 1576–1578; PUNCH BOWLS pdf 1580–1581; innocent-regular-guy.md Sources rows"
+ },
+ "innocent-ruler": {
+  "verdict": "pass",
+  "dateline": "Barcelona, 1933",
+  "trueStory": true,
+  "why": "Boadas opened in Barcelona in 1933 (Oxford pdf 303), the reading's opening fact. The pairing is true, and nothing in the record forbids the year. The throw's survival is attributed ('it was said', Oxford's 'paving the way'), and her quote is told through the writer who heard it.",
+  "source": "boadas-maria-dolors-throw.md F1, F6, F8, F9, F10, F13–F16; Oxford pdf 301, 303, 1671"
+ },
+ "innocent-sage": {
+  "verdict": "pass",
+  "dateline": "New York",
+  "trueStory": true,
+  "why": "The dateline holds, but the flag behind it was wrong: Joy pdf 133 itself places the anecdote in New York ('In 1973, I arrived in New York…', then 'when I eventually got a position', then the Scotch Sours). 1973 dates his arrival, not the mistake, and WC4 fences it, so the dateline names the place only. The reading keeps both halves of his doubt and gives the waitress only 'caught'.",
+  "source": "Joy of Mixology pdf 133 (re-opened); gary-regan-mindful-bartending.md W2–W4, WC1, WC4"
+ },
+ "jester-caregiver": {
+  "verdict": "pass",
+  "dateline": "St. Louis, 1917",
+  "trueStory": true,
+  "why": "Clara Bell Walsh's Sunday cocktail hour in St. Louis, early 1917, and the baby-party theme before it are both on Oxford's page. The reading keeps the card's scopes: no month, no venue, the paper left unnamed, 'didn't catch on', and the Sazerac motive signposted.",
+  "source": "card clara-bell-walsh-cocktail-party.md F1-F4, F6, C1-C3; Oxford COCKTAIL PARTY pdf 512"
+ },
+ "jester-creator": {
+  "verdict": "pass",
+  "dateline": "Paris, 1924",
+  "trueStory": true,
+  "why": "Oxford dates the IBF's founding at Harry's New York Bar, Paris, to 1924, independently of the bar's 1927 book. The book's comic origin is signposted ('the way a Paris bar's own book tells it'), and Shanghai and Buenos Aires are both on the 1927 list of traps.",
+  "source": "card harry-mcelhone-international-bar-flies.md F4, F5, F20, C1; Oxford pdf 1272; Barflies and Cocktails (1927) printed pp. 84-85, 91-92"
+ },
+ "jester-explorer": {
+  "verdict": "pass",
+  "dateline": "Chicago, 2011",
+  "trueStory": true,
+  "why": "The Aviary opened in Chicago in spring 2011 and the ice-sealed Old-Fashioned is on the record, so the dateline is right. But the story the guest reads is the reading before my audit: 'perhaps the finest', 'the most expected cocktail there is', 'because nobody had time to talk', 'in the same week', 'somebody laughed' and 'hadn't felt like a bar' all failed my audit (A1-A6). Wren's reading v5 fixed them, but the fixes never reached the dossier or the JSON.",
+  "source": "card aviary-charles-joly.md F1, F5, F7, F13, F15, F23; A Proper Drink p. 235 ('The ultimate Aviary cocktail was perhaps In the Rock', re-read today); dossier Fact audit A1-A6; work/jester-explorer/historian-audit-v3.md; psychologist-reading-v5.md"
+ },
+ "jester-hero": {
+  "verdict": "pass",
+  "dateline": "Perote, Mexico, 1843",
+  "trueStory": true,
+  "why": "The egg-nog on the San Jacinto anniversary (21 April 1843) at Perote, the owl and 'Tecolote' are all in Green's own journal. 'Riveted' and 'turned round, frowned' are his words, re-read today. The ingredients were bought, which the reading's 'got hold of' respects.",
+  "source": "card perote-texian-egg-nog.md F4-F12, C5, L1; Green, Journal of the Texian Expedition (1845) pp. 259-261, 314-315 (work/jester-hero/historian-src-green-1845.txt)"
+ },
+ "jester-innocent": {
+  "verdict": "pass",
+  "dateline": "Wembley, 1924",
+  "trueStory": false,
+  "why": "The central scene is Bertie Wooster in a Wodehouse story, so 'A true story' must stay off. Wembley and 1924 belong together: the story was first printed in 1924 and set at the exhibition, and the West Indies pavilion really did pour the Green Swizzle that year.",
+  "source": "card green-swizzle-wodehouse.md W2-W8, F2-F3, C1, G1; Oxford GREEN SWIZZLE pdf 945, WORLD'S FAIRS pdf 756"
+ },
+ "jester-lover": {
+  "verdict": "pass",
+  "dateline": "New Orleans",
+  "trueStory": true,
+  "why": "Place only is right. C3 rules out any decade, and Antoine's 1840 is the restaurant's founding year, not the drink's, so it would pair a place and a year from different events. The drink's history is on Oxford's page, and the attribution keeps its 'it's said'.",
+  "source": "card cafe-brulot.md F2-F4, F8-F9, C1-C4; Oxford CAFÉ BRÛLOT pdf 381-382"
+ },
+ "jester-magician": {
+  "verdict": "pass",
+  "dateline": "New York, 2007",
+  "trueStory": true,
+  "why": "PDT opened in 2007, three sources agree, and the card allows the year. The door idea, 'A little Get Smart' and the 'arguably' are Shebairo's and Simonson's on the page. The reading never puts a date on Shebairo's quote.",
+  "source": "card brian-shebairo-pdt-phone-booth.md F1-F3, F5-F7, F10; A Proper Drink pp. 229, 242, 269-270; Oxford pdf 521"
+ },
+ "jester-outlaw": {
+  "verdict": "pass",
+  "dateline": "Hudson, New York, 1806",
+  "trueStory": true,
+  "why": "The ledger (6 May 1806) and the definition (13 May 1806) were both printed in Croswell's Hudson paper. The conviction appears with no year (C2), Jefferson's payment stays an allegation, and the jibe keeps its 'it was said'.",
+  "source": "card harry-croswell-cock-tail.md F2-F8, M1-M6, C1-C6; Imbibe! pdf 169; Oxford COCK-TAIL pdf 493-494"
+ },
+ "jester-regular-guy": {
+  "verdict": "pass",
+  "dateline": "New York, 1896",
+  "trueStory": true,
+  "why": "1896 and New York belong to the same event: the New York Herald's item of 5 April 1896. Oxford's page doesn't say which city the saloon was in, but the reading claims only that the paper ran the story, and the 1933 Yonkers column is in New York too. The 1896 item rests on Oxford alone (C1), and that's enough for what the reading says.",
+  "source": "card boilermaker.md F3, F5, F8, F14, C1-C2; Oxford BOILERMAKER pdf 306 (re-read today: 'the New York Herald could publish a story about a man who went into a saloon')"
+ },
+ "jester-ruler": {
+  "verdict": "pass",
+  "dateline": "Washington, 1889",
+  "trueStory": true,
+  "why": "Oxford says the drink and its name were going round Shoomaker's, Washington, 'by the end of 1889', which the reading's first sentence follows. The authorship and the lime are told as contested accounts, never as fact, and the 1893 and 1895 dates are on the page.",
+  "source": "card george-williamson-joe-rickey.md F2-F3, F7-F12, C1-C2; Oxford RICKEY pdf 1661-1663"
+ },
+ "jester-sage": {
+  "verdict": "fix",
+  "dateline": "San Francisco, after the 1906 fire",
+  "trueStory": true,
+  "why": "The story's central moment is Field's verse, and my card bars giving the verse a year: L6 says never 'in 1906, a poem', and G3 says to measure every span from the fire. 'San Francisco, 1906' puts the verse in 1906. The fire's year is safe only when it's scoped to the fire. If the longer form reads badly, the fallback is 'San Francisco'.",
+  "source": "card charles-k-field-hotaling-verse.md L6, G3, F4-F5, F10 (Minnick 2024; no library page); dossier jester-sage.md lineage row ('never \"in 1906\" for the poem')"
+ },
+ "lover-caregiver": {
+  "verdict": "pass",
+  "dateline": "New York",
+  "trueStory": true,
+  "why": "The City Hotel stood on lower Broadway, New York (Oxford CITY HOTEL pdf 469), and leaving the year off is right: card C1 allows only 1843 and 1848 as dates, and neither is the story's moment. The memory anecdote is told in the reading as 'a story people told', which matches Oxford's own framing (F4). Willard, the job and the numbered doors are all primary.",
+  "source": "fact card orsamus-willard F3, F4, F6, F9, C1; Oxford WILLARD pdf 2192-94, CITY HOTEL pdf 469"
+ },
+ "lover-creator": {
+  "verdict": "pass",
+  "dateline": "Antibes, the 1920s",
+  "trueStory": true,
+  "why": "The beach near Antibes as a gathering place passed audit v3 y1 against Gastronomica 7:2. The Murphys were at Antibes from 1922 (audit v1 A1) and the 1923 Paris show is F7, so 'the 1920s' fits the scene. Note: the recipe card itself is undated, on New York hotel notepaper (U4), so the dateline belongs to the setting, not to the card.",
+  "source": "fact card gerald-murphy F1, F3, F7, U4; Gastronomica 7:2 (Price 2007); lover-creator audit v1 A1, v3 y1"
+ },
+ "lover-explorer": {
+  "verdict": "pass",
+  "dateline": "New York, 1929",
+  "trueStory": true,
+  "why": "Oxford puts the turn 'after the 1929 crash' (F2), and Gaige, Broadway, the farm at Peekskill and NBC are all in New York. The dateline names the crash year, not the collapse of his theatre, so card F9's guard ('never when the curtain fell on Broadway in 1929') holds.",
+  "source": "fact card crosby-gaige F1-F3, F9, F12; Oxford GAIGE pdf 861"
+ },
+ "lover-hero": {
+  "verdict": "pass",
+  "dateline": "Amiens, 1889",
+  "trueStory": true,
+  "why": "The platform scene at Amiens is in her own book, ch. III-IV. She left on 14 November 1889 (F15), and card L2 allows 'in 1889' while keeping the exact day out.",
+  "source": "fact card nellie-bly-amiens F2-F8, F15, L2; Bly 1890 ch. III-IV"
+ },
+ "lover-innocent": {
+  "verdict": "pass",
+  "dateline": "Scotland, 1920",
+  "trueStory": true,
+  "why": "The January 1920 marriage in Scotland is F3 (Oxford pdf 1975) plus F6 (Itoh 2001, an OCR fragment), and it falls outside the contested years (C1 voyage and arrival, C2 Torii). Place and year belong to the same event. Rita's feelings are signposted, and Massan is told as drama.",
+  "source": "fact card rita-taketsuru F3, F6, C1, C2; Oxford TAKETSURU pdf 1975"
+ },
+ "lover-jester": {
+  "verdict": "pass",
+  "dateline": "Emeryville",
+  "trueStory": true,
+  "why": "The Townhouse, Emeryville is agreed in Oxford and Proper (F1). Leaving the year off is required: C1 has 1990 against the mid-1990s, both from Harrington himself. The reading uses 'he says' and 'in his words', and keeps the grapefruit-line speaker unnamed (C2).",
+  "source": "fact card paul-harrington-jasmine F1, F5, C1, C2; Proper p. 58; Oxford JASMINE pdf 1099"
+ },
+ "lover-magician": {
+  "verdict": "pass",
+  "dateline": "New York, 1994",
+  "trueStory": true,
+  "why": "Proper p. 48: it 'opened without notice in 1994' in the East Village (F3, F5). That is the reading's opening scene. Ikeda (1996) and Gokan (2006) follow at the same bar.",
+  "source": "fact card angels-share-ikeda-gokan F3, F5-F7, F13; Proper pp. 47-50"
+ },
+ "lover-outlaw": {
+  "verdict": "pass",
+  "dateline": "New York, 2004",
+  "trueStory": true,
+  "why": "The leaving (early 2004) and the opening (that autumn, Hudson Street) are both 2004 (Proper p. 155, Oxford pdf 721). The quotes are on the record, and the motive is given for the food, not the soup, as C7 requires.",
+  "source": "fact card employees-only-zaric-kosmas F1-F6, C7; Proper p. 155; Oxford pdf 721"
+ },
+ "lover-regular-guy": {
+  "verdict": "pass",
+  "dateline": "New York, the late 1990s",
+  "trueStory": true,
+  "why": "The broke renovation on Eldridge Street came before the New Year's Eve 1999 opening (F2, F3, F4, Proper p. 88), so 'the late 1990s' is safe. The 2000/2001 conflict (C1) is the Gold Rush's, not this scene's. 'I bought thirty copies' is on the record (F8), and the pride is signposted.",
+  "source": "fact card t-j-siegal-gold-rush F2-F4, F8, C1; Proper pp. 88, 93"
+ },
+ "lover-ruler": {
+  "verdict": "pass",
+  "dateline": "1928",
+  "trueStory": true,
+  "why": "PBS P10 dates the cut to 1928, the year her mother died, and gives no place, so the year alone is correct on our card. New York is well attested outside the card (see report), but it isn't carded.",
+  "source": "fact card mary-pickford P4, P5, P8-P10, C6, C10; PBS American Experience (work/lover-ruler/historian-pbs-pickford-2026-10-04.txt)"
+ },
+ "lover-sage": {
+  "verdict": "pass",
+  "dateline": "New Orleans, around 2000",
+  "trueStory": true,
+  "why": "This is his own recollection (ICE MALLET pdf 1066), at the Ritz-Carlton in New Orleans. The reading keeps 'he recalls', and the dateline keeps 'around'. The ode is credited 'usually', which matches C2.",
+  "source": "fact card chris-mcmillian-mint-julep-ode F4-F6, W2, C2; Oxford pdf 1066, 1273; audit r4 y2a"
+ },
+ "magician-caregiver": {
+  "verdict": "pass",
+  "dateline": "New York, 1911",
+  "trueStory": true,
+  "why": "The show opened at the New Amsterdam in 1911, and the card treats the party as the 1911 one (the ojen drink is in the SF Chronicle, May 1911). Murray's on 42nd Street is in New York. The origin is Dawn's relayed account, and the reading hedges it ('as she told it', 'probably'), so the label holds.",
+  "source": "card pink-lady-hazel-dawn F1, F3-F6, C1, C3 (Oxford pdf 1521-1522); historian-audit-v4 R4"
+ },
+ "magician-creator": {
+  "verdict": "pass",
+  "dateline": "New York, 1999",
+  "trueStory": true,
+  "why": "The Campbell Apartment was newly opened in 1999 inside Grand Central. The undated Pico deal (2001-2003) is also in New York, so the place covers the whole story and the year marks where it opens. Every beat is Simonson's narration or Klemm on the record, and the reading signposts its own glosses ('which I take to be', 'I'd say').",
+  "source": "card eben-klemm-campbell-pico F3-F5, F8-F12, F15 (Proper pp. 134-136)"
+ },
+ "magician-explorer": {
+  "verdict": "pass",
+  "dateline": "Dublin, 1824",
+  "trueStory": true,
+  "why": "The central act is leaving the excise in 1824 and buying the Dodder Bank Distillery in Dublin. The card's C2 makes 1824 the only safe year, and no patent year is stated (C1). The wood-and-iron reason is signposted as ours (R2).",
+  "source": "card aeneas-coffey F3, F4, C1-C2 (Oxford COFFEY pdf 541, 752)"
+ },
+ "magician-hero": {
+  "verdict": "pass",
+  "dateline": "Cognac, 1893",
+  "trueStory": true,
+  "why": "Oxford dates the vineyard's low point (40,000 ha) to 1893, in Cognac's own vineyard. No phylloxera arrival year is stated (C7), and nobody is credited with the rootstock (C1). The Folle Blanche cause and its survival in Armagnac match the record.",
+  "source": "card cognac-phylloxera-folle-blanche F2-F4, F6, C1, C3-C4, C7 (Oxford COGNAC pdf 545-546, ARMAGNAC pdf 139)"
+ },
+ "magician-innocent": {
+  "verdict": "fix",
+  "dateline": "1885",
+  "trueStory": true,
+  "why": "Kilmarnock is where John Walker's 1820 shop was. The 1885 letter has no place on the page (no recipient or setting, card C3, and the firm had a London office from about 1871), so 'Kilmarnock, 1885' pairs the place of one event with the year of another. The year alone is safe. The story itself is Oxford's, with 'It seems' and 'I like to think' kept.",
+  "source": "card alexander-walker-johnnie-walker F1, F4-F6, F9-F10, C3-C6 (Oxford JOHNNIE WALKER pdf 1111-1112)"
+ },
+ "magician-jester": {
+  "verdict": "pass",
+  "dateline": "New Orleans",
+  "trueStory": true,
+  "why": "The story turns on Nick Castrogiovannoni in New Orleans, and Oxford gives no years for his bar work (C5), so place-only is right. The bar-guide history, the 1972 Vanderbilt letter and Nick's 'local fame' and 'as many as thirty-four' are all on Oxford's page with its hedges. His motive is signposted.",
+  "source": "card pousse-cafe F2-F4, F9, F11-F14, C4-C5 (Oxford POUSSE CAFÉ pdf 1557-1559)"
+ },
+ "magician-lover": {
+  "verdict": "pass",
+  "dateline": "London",
+  "trueStory": true,
+  "why": "C2 says to give London alone, because Oxford's Mayfair and Amis's St James's conflict. The ritual is undated beyond the 1980s, the rule is undated, and 1988 is only Amis's review, so place-only is correct. The ritual, the 'unusual strength', the famous two-Martini rule and the refuge line are all Oxford's. The kindness reading is signposted.",
+  "source": "card dukes-bar-martini F1-F8, C2, C3 (Oxford DUKES BAR pdf 689)"
+ },
+ "magician-outlaw": {
+  "verdict": "pass",
+  "dateline": "Louisville, 1995",
+  "trueStory": true,
+  "why": "Seger made the drink in 1995 at the Seelbach in Louisville and confessed in 2016 (Simonson, NYT, as relayed). The dateline avoids the invented 1912/c.1917 year the dossier bans. The reading tells the legend only as the hoax and calls it invented, so the hoax and the confession are the documented record.",
+  "source": "magician-outlaw.md Sources + anchors (Oxford CLASSIC COCKTAILS pdf 473; Spirits Business Nov 2016 reporting NYT Oct 2016)"
+ },
+ "magician-regular-guy": {
+  "verdict": "pass",
+  "dateline": "1862",
+  "trueStory": true,
+  "why": "The central moment is the cold-water advice in Thomas's 1862 book. The card names no place for it, and the practice has none, so year-only is right. The reading dates the book, not a first appearance in print (C1), and never says 'invented' (C2). The 1883 Chicago sneer and 'nearly vanished by 1900' are Oxford's and Imbibe!'s.",
+  "source": "card jerry-thomas-blue-blazer F1-F3, F6-F7, F9, C1-C2 (Imbibe! pdf 142; Oxford pdf 297-298, 1672)"
+ },
+ "magician-ruler": {
+  "verdict": "pass",
+  "dateline": "London, 1731",
+  "trueStory": true,
+  "why": "In 1731 Ashley took the lease of the Ludgate Hill tavern and renamed it. The shrub is labelled 'it seems' (C1), the hands are Mrs. Gaywood's (C2), the 1750s handover and his death in 1776 'with his son' follow F19, and the motives are signposted.",
+  "source": "card james-ashley-london-punch-house F2-F3, F8, F11-F15, F19, C1-C2 (Oxford ASHLEY pdf 160-163, PUNCH pdf 1328)"
+ },
+ "magician-sage": {
+  "verdict": "pass",
+  "dateline": "Friuli, 1973",
+  "trueStory": true,
+  "why": "The house dates the first picolit grappa to 1 December 1973 in Friuli, and C2 rules 'in 1973' safe (Oxford gives 'early 1970s'). The family-sourced lines carry 'the family says' or 'she says', the first-drop legend is left out, and the ridicule is scoped to abroad.",
+  "source": "card nonino-monovitigno-grappa F3-F4, F8-F9, H2-H5, C2, C5 (Oxford GRAPPA pdf 936, POLI pdf 1544; grappanonino.it history)"
+ },
+ "outlaw-caregiver": {
+  "verdict": "pass",
+  "dateline": "San Francisco, 1949–1963",
+  "trueStory": true,
+  "why": "The fight runs from the 1949 Board ruling to the licence taken just before Halloween 1963, all at the Black Cat in San Francisco. The span fits Kamiya's fourteen years, which the reading credits to him. The court case and the soft-drinks night are on two trusted pages, and the reading hedges the witness.",
+  "source": "sol-stoumen-black-cat.md F1-F9 (Stoumen v. Reilly 1951; Kamiya, SF Chronicle 2014; NPS); F11 conflict (last night) not touched by the dateline"
+ },
+ "outlaw-creator": {
+  "verdict": "pass",
+  "dateline": "Glenlivet, Scotland, 1824",
+  "trueStory": true,
+  "why": "The central moment, Smith's licence and his old colleagues' threats, is Glenlivet in 1824 (Oxford). The 1822 king's-visit opening comes from Grant's memoir, which the reading tells as her memory.",
+  "source": "george-smith-glenlivet.md F1-F6, F6b, F8, F10 (Oxford GLENLIVET pdf 917; Grant, Memoirs p. 373)"
+ },
+ "outlaw-explorer": {
+  "verdict": "pass",
+  "dateline": "Bristol, 1979",
+  "trueStory": true,
+  "why": "The jumps were made from the Clifton Suspension Bridge, Bristol, on 1 April 1979. Every detail the reading tells sits on named secondaries (GWR, NYT, ITV, Country Life, Telegraph), and the card's conflicts (scarf or mask, the charge, time in custody, police stake-out) are all kept out. The library has nothing on the jumps: it is documented, but on the web only.",
+  "source": "david-kirke-clifton-bungee.md F1-F3, F4, F7, F8, F10, F11, F13-F15, F18"
+ },
+ "outlaw-hero": {
+  "verdict": "pass",
+  "dateline": "Nigeria, 1968",
+  "trueStory": true,
+  "why": "No page gives a place for the arrest, so the country is the right scope. 1968 is Oxford's year for the arrest, and the 14 Sep 1968 Lagos headline backs it. Conflict C1 contests when the ban ended, not the year of the arrest. The reading keeps 'How it went, we don't know' and ties the ban's end to the year only, not to him as the cause.",
+  "source": "tai-solarin-ogogoro.md F5, F6, C1, 'Not found' (Oxford OGOGORO pdf 1417-1418; Lagos Daily Times 14 Sep 1968 p. 3, cited, unread)"
+ },
+ "outlaw-innocent": {
+  "verdict": "pass",
+  "dateline": "the French Alps, 2023",
+  "trueStory": true,
+  "why": "The place is Oxford's own wording for where Chartreuse is made ('foothills of the French Alps'), and the letter came from Voiron, in the same massif. The year is the January 2023 letter, which is the moment the reading tells. The reading gives the 2021 decision no year, and 'a letter from Chartreuse' keeps the right author.",
+  "source": "chartreuse-2023-cap.md C2, C4, C7-C9 (Oxford CHARTREUSE pdf 439-440; The Daily Pour, 2 Mar 2023); historian-audit-v1 A1"
+ },
+ "outlaw-jester": {
+  "verdict": "pass",
+  "dateline": "Trinidad, 1943",
+  "trueStory": true,
+  "why": "The year attaches to the reading's own dated event: Amsterdam heard the song in Trinidad in September 1943 (Khan; Baron). The writing month conflicts (Baron has Dec 1942-Jan 1943), so the dateline gives no month, and 1943 is safe for both the writing and the hearing. The court finding, the 200,000 records, the payment seven years late and the later songs are all on primary or scholarly pages.",
+  "source": "lord-invader-rum-and-coca-cola.md F1, F2, F3, F6, F7, F9, F12, F13, F15 (Khan v. Leo Feist 1947; Baron v. Leo Feist 1948; SFW 40454 booklet pp. 4-5, 12-13, 23-24)"
+ },
+ "outlaw-lover": {
+  "verdict": "pass",
+  "dateline": "Napa Valley, 1880",
+  "trueStory": true,
+  "why": "The central moment is the Silverado summer after the wedding of 19 May 1880. The year is on the record, and the reading's 'the next spring' after 1879 points to it. The bunkhouse stood on Mount Saint Helena, which Stevenson places at the north end of 'this pleasant Napa Valley', so the region is accurate, and the reading itself says 'above the Napa Valley'. The sources are Stevenson's own book and his sister-in-law's memoir.",
+  "source": "stevenson-fanny-silverado.md F2, F4, F6-F9, F11; The Silverado Squatters (Gutenberg #516), opening chapter ('This pleasant Napa Valley is, at its north end, blockaded by' the mountain), re-read today"
+ },
+ "outlaw-magician": {
+  "verdict": "pass",
+  "dateline": "Barbaresco, 1999",
+  "trueStory": true,
+  "why": "O'Keefe dates the decision to late 1999, applying from the 1996 vintage. That fits the reading's 'starting with the 1996 vintage', because a vintage is declassified when it is released. The place is the Gaja house's own village and appellation. The two reasons, the critics' reaction and the 2013 return are all in the record's words.",
+  "source": "angelo-gaja-barbaresco.md G1-G3, G5, G6, G7, G9, C1 (O'Keefe, The Wine News 2006; Decanter 2019a/b); dossier anchors 'reveal' row"
+ },
+ "outlaw-regular-guy": {
+  "verdict": "pass",
+  "dateline": "Seattle, 1920–1928",
+  "trueStory": true,
+  "why": "The span runs from his 1920 arrest and dismissal from the Seattle police to the 1928 Supreme Court ruling on the Seattle wiretaps. Seattle was his base for all of it. The no-guns rule is paraphrased with no quotation marks, which is the card's guard. The bribery counterweight and the 5-4 vote are on the Court's own record.",
+  "source": "roy-olmstead.md F1-F4, F6, F10, F11, F14, F16 (HistoryLink 4015; Olmstead v. United States, 277 U.S. 438, LII; FJC 2010)"
+ },
+ "outlaw-ruler": {
+  "verdict": "pass",
+  "dateline": "San Francisco, 1965",
+  "trueStory": true,
+  "why": "Maytag bought Anchor in San Francisco in 1965 (Oxford), and that is the reading's opening moment. The sour beer, the microscope, the nest egg and the ten years are his own words in the Chronicle. The ending is dated in the text ('autumn of 2026').",
+  "source": "fritz-maytag-anchor.md F1, F3, F6-F8, F11, F12, F14-F16, F18, F20, F21 (Oxford ANCHOR DISTILLING pdf 103, pdf 2165; Lucchesi, SF Chronicle 2015; Holbrook 2004; Ross and Abate 2010)"
+ },
+ "outlaw-sage": {
+  "verdict": "pass",
+  "dateline": "Portland, 2012",
+  "trueStory": true,
+  "why": "The post went up on 9 February 2012, written by a Portland bartender (Oxford lists his Portland bars). The opening line, the 'It needs help' concession and the readers' ribbing (including 'still an Amaretto Sour?') are all on the post's own page. The 1974 and 1980s background is Oxford's.",
+  "source": "jeffrey-morgenthaler-amaretto-sour.md F1-F2, F5-F7, F9, F15, F16 (Morgenthaler post 9 Feb 2012, saved text; Oxford AMARETTO SOUR pdf 97, TODDY pdf 2034)"
+ },
+ "regular-guy-caregiver": {
+  "verdict": "pass",
+  "dateline": "Naples",
+  "trueStory": true,
+  "why": "The custom is documented in Naples, and the reading keeps C1: no date or era, and both origin legends stay out. The scholar's reading is told as his. Place only is right.",
+  "source": "caffe-sospeso.md C1, L1, L2; dossier Conflicts C1"
+ },
+ "regular-guy-creator": {
+  "verdict": "pass",
+  "dateline": "Fife, Scotland, 2005",
+  "trueStory": true,
+  "why": "In 2005 he joined the gin team at Cameronbridge in Fife (Oxford), and the story turns on that move. The year isn't in any conflict (C1 to C5 are about No. Ten, Malacca and inference).",
+  "source": "tom-nichol-tanqueray.md F4, F6 (Oxford NICHOL pdf 1388)"
+ },
+ "regular-guy-explorer": {
+  "verdict": "pass",
+  "dateline": "Amsterdam, 1976",
+  "trueStory": true,
+  "why": "Café Pacifico opened in Amsterdam in 1976 (Proper p. 79). The only year conflict is when Bayly met him (C3), and the dateline doesn't use it. Every motive in the reading is Estes's own words or is signposted.",
+  "source": "tomas-estes-cafe-pacifico.md F3, F6, C3, C6 (A Proper Drink p. 79)"
+ },
+ "regular-guy-hero": {
+  "verdict": "pass",
+  "dateline": "Gardiner, New York, 2001",
+  "trueStory": true,
+  "why": "Erenzo bought the Tuthilltown mill at Gardiner in 2001 (Oxford), and 2001 is one of the two years the dossier allows. The licence and fee years (C1, C2) stay out.",
+  "source": "ralph-erenzo-tuthilltown.md F1, F23; dossier Conflicts C1-C3 (Oxford HUDSON pdf 1037)"
+ },
+ "regular-guy-innocent": {
+  "verdict": "fix",
+  "dateline": "Brazil",
+  "trueStory": true,
+  "why": "1944 is the year Andrade described the São Paulo city version (F4), which is a side detail. The story's central moment, the third way that took the name caipirinha, has no place or year on the page beyond 'known throughout Brazil by the end of the 1960s', and Smith disputes that it was a separate drink (C1). 'SÃO PAULO, 1944' reads as the caipirinha's birthplace and birth year. The story itself is hedged ('as one historian tells it'), so it stays a true story.",
+  "source": "caipirinha.md F4, F6, F7, C1 (Oxford CAIPIRINHA pdf 383-384; CACHAÇA pdf 380)"
+ },
+ "regular-guy-jester": {
+  "verdict": "pass",
+  "dateline": "Chicago",
+  "trueStory": true,
+  "why": "The dossier and card say to keep years out (WBEZ has the late 2000s and around 2012; The Ringer has 2011), so place only. The hiring is on two independent sources. The letter and cheque come from WBEZ alone but are told plainly, as the card allows.",
+  "source": "jeppsons-malort-sam-mechling.md M1-M10, Dates conflict"
+ },
+ "regular-guy-lover": {
+  "verdict": "pass",
+  "dateline": "Cohasset, Massachusetts, the 1890s",
+  "trueStory": false,
+  "why": "The origin has three rival versions (C1) and the reading frames it as 'the story goes', so false is right. The legend has to stay labelled. Cohasset (Crane's summer house) appears in every version, and the 1890s is Oxford's decade, backed by the 1900 poster and the 1934 Tribune's 1890s dinners.",
+  "source": "cohasset-punch-medford-rum.md F1, F2, F9, F11, C1, C2 (Oxford pdf 549)"
+ },
+ "regular-guy-magician": {
+  "verdict": "pass",
+  "dateline": "Hawaii, before 1800",
+  "trueStory": true,
+  "why": "Distilling arrived 'before the year 1800' (Alexander 1891 p. 157). Oxford says the 1790s, and the Aloha State Daily rival account (after 1778) also falls before 1800, so the time is safe under C5. Stevenson is 'usually credited' and the name's reason is 'said to', matching the hedges on record.",
+  "source": "okolehao.md F2, F3, F5, F8, C5 (Alexander p. 157; Oxford pdf 1419)"
+ },
+ "regular-guy-outlaw": {
+  "verdict": "pass",
+  "dateline": "New York",
+  "trueStory": true,
+  "why": "Ford hand-sold Plymouth in New York (Proper p. 109). C1 bars a start year (late 1990s vs 2002), so place only is right. The Blacknell quote and the bartender trips are on pp. 109-111.",
+  "source": "simon-ford-plymouth.md F3, F8, C1 (A Proper Drink pp. 109-111)"
+ },
+ "regular-guy-ruler": {
+  "verdict": "pass",
+  "dateline": "Houston, 2014",
+  "trueStory": true,
+  "why": "Heugel's advice ran in PUNCH on 2 April 2014, given as the owner of Anvil in Houston, and Houston is the city whose supply he says he'd talked up. The place and the year belong to the same event.",
+  "source": "bobby-heugel-lime-crisis-2014.md S1, F1, F4, F6"
+ },
+ "regular-guy-sage": {
+  "verdict": "pass",
+  "dateline": "Frant, England, 2016",
+  "trueStory": true,
+  "why": "The 2016 World Sloe Gin Championships at the George Inn, Frant, with three judges tasting blind and putting the top six home-made entries above every commercial one. This rests on Ellis's reproduction of the 2016 press release. Rye News (18 Jan 2017) carries the same judges and the same blind-tasting sentence, so it is now two outlets, though both trace back to one press release.",
+  "source": "sloe-gin.md S1, S11, S15, S17, S18 (Oxford SLOE GIN pdf 1814; Severn Bites 16 Dec 2016; ryenews.org.uk 18 Jan 2017)"
+ },
+ "ruler-caregiver": {
+  "verdict": "pass",
+  "dateline": "Paris, 1924",
+  "trueStory": true,
+  "why": "He joined the Dingo in Montparnasse in 1924 as assistant barman, and the job the story describes is the one he did there from that year. The account is his memoir as told to Morrill Cody, and the reading flags that channel ('he told his story to a writer', 'he said'). The interpretation sits under 'I like to think'.",
+  "source": "fact card jimmie-charters-dingo F2, F4, F5, F7, F9 (memoir OCR, 1937); C1 channel"
+ },
+ "ruler-creator": {
+  "verdict": "pass",
+  "dateline": "London, the 1990s",
+  "trueStory": true,
+  "why": "'The 1990s' dates the setting the reading already gives ('In 1990s London'; Proper p. 39 puts the fruit 'Martinis' at the Met Bar and LAB in the late 1990s). Proper p. 101 places the Class article right after LAB's 1999 story, but the page gives it no date. Collins's motive is his own on-record words, and the link to Chappell is signposted.",
+  "source": "Proper pp. 39, 101-102 (re-read: article undated, follows LAB 1999 passage); card wayne-collins-high-holborn F2-F7, F13; dossier anchors row 'refusal' (no date)"
+ },
+ "ruler-explorer": {
+  "verdict": "pass",
+  "dateline": "San Francisco, 1969",
+  "trueStory": true,
+  "why": "Henry Africa's opened in San Francisco in 1969. The account of the blackened windows and the plants is Hobday's own, and the reading marks it as his ('he remembered', 'he said later'). Re-read Oxford: he took the name legally 'a few years before it closed in 1986'. The fact that he never said why sits under 'I like to think'.",
+  "source": "Oxford HENRY AFRICA'S pdf 995 (re-read lines on name change and 1986); card henry-africa-fern-bars-lemon-drop F1, F12-F15, F6, F8, F10, F11"
+ },
+ "ruler-hero": {
+  "verdict": "pass",
+  "dateline": "Kentucky, 1933",
+  "trueStory": true,
+  "why": "At Repeal, late in 1933, he gathered the family. The distillery was rebuilt at Clermont and Old Tub stood near Bardstown, so 'Kentucky' is safe without naming a contested site. The family's words are told as family memory, 'chagrin' is credited as Oxford's word, and the motive is signposted.",
+  "source": "Oxford JIM BEAM pdf 1105 (card jim-beam-repeal F2, F5-F9); Cowdery 2024 (Clermont, Bardstown); C2, C5, C8"
+ },
+ "ruler-innocent": {
+  "verdict": "pass",
+  "dateline": "Melbourne, 1997",
+  "trueStory": true,
+  "why": "Chalker opened Gin Palace on a Melbourne laneway in 1997. His reasons and his brief are his own words as Simonson reports them, and the 90-percent figure is attributed to him ('by his account').",
+  "source": "Proper pp. 140-142; card vernon-chalker-gin-palace F1-F7, F9, F10"
+ },
+ "ruler-jester": {
+  "verdict": "pass",
+  "dateline": "London, 1996",
+  "trueStory": true,
+  "why": "1996 is the school's opening (Proper p. 99), which the story itself gives as the start of its arc. The bar has no year on the record (card C2), and the dateline doesn't give it one. 'London, late 1990s' is fenced off by C4, a guard against sharing the sibling's opening. Everything else comes from participants on the record, and the order of school and bar is kept neutral.",
+  "source": "Proper pp. 97-101 (p. 101 re-read: 1999 slow months, Time Out review); card lab-london-academy-of-bartenders F2-F5, F13-F14, C2, C4"
+ },
+ "ruler-lover": {
+  "verdict": "pass",
+  "dateline": "Monte Carlo, 1888",
+  "trueStory": true,
+  "why": "His own bar opened in 1888 just off the Casino square, and the story's centre, the Prince of Wales showing him cocktails, happens at that bar after 1888 (and before 1901). The reading hedges 'about 1885' for the earlier post. 'Never had to win him over' follows Oxford's counterweight.",
+  "source": "Oxford CIRO'S pdf 460-461 (card ciro-capozzi F2, F4-F7); COCKTAIL pdf 491"
+ },
+ "ruler-magician": {
+  "verdict": "pass",
+  "dateline": "New York, 1933",
+  "trueStory": true,
+  "why": "The central moment is the December 1933 interview in Brooklyn and the book on sale before Repeal. Both sit in New York City and both are dated by the 1933 press, which settles the 1933-versus-1934 conflict. No year is given for his leaving the trade (C1). The circles and the stars are on the record in his own reported words.",
+  "source": "Brooklyn Daily Eagle 1 Dec 1933 p. 2 (card patrick-gavin-duffy F5, F7, F8, F10, F11, F13); C1"
+ },
+ "ruler-outlaw": {
+  "verdict": "pass",
+  "dateline": "Chicago, 2007",
+  "trueStory": true,
+  "why": "The Violet Hour opened in Chicago in 2007 with him behind the bar, and the reading doesn't claim he owned it. His cringe and his defence of the seriousness are his own undated words, told as 'he has since said'. Joly's family-tree line and the Rogue Cocktails contribution are on the page.",
+  "source": "Proper pp. 280-283, 286-287 (card toby-maloney-violet-hour F3, F6, F12, F14-F17)"
+ },
+ "ruler-regular-guy": {
+  "verdict": "pass",
+  "dateline": "New Orleans, the 1930s",
+  "trueStory": true,
+  "why": "Bergeron created it at the Monteleone in the 1930s. The span follows guard C6: never 1938, since the recipe was printed in 1937. The story keeps the hotel's own legend out (C5). The honour to the quarter is on the record via Arthur, and the reason for pairing the two spirits is signposted.",
+  "source": "Oxford VIEUX CARRE pdf 2102; Arthur 1937 via OCR (card vieux-carre-walter-bergeron F2, F3, F9, F12, C5, C6); Imbibe! pdf 182"
+ },
+ "ruler-sage": {
+  "verdict": "pass",
+  "dateline": "Britain, 1908",
+  "trueStory": true,
+  "why": "1908 is the year the commission sat and took evidence, which is the use the card allows (C2). The reading gives no year for the final definition, and it never states the contested 'grain whisky' label condition (C1). 'Britain' follows the card's 'a British commission' and avoids 'Royal'.",
+  "source": "Oxford pdf 317, 1697, 875 (sittings), 2149, 70, 666; card whisky-commission-1908 F1-F8, C1, C2"
+ },
+ "sage-caregiver": {
+  "verdict": "pass",
+  "dateline": "West Coast, 1969",
+  "trueStory": true,
+  "why": "The story turns on the 1969 beverage-director idea. Oxford puts Rea's move to the West Coast in the 1960s, just before the 1969 entry, so the place is a close inference rather than a stated location, and it uses the reading's own words. Berns's approval is signposted ('I like to think').",
+  "source": "fact card brian-rea-jerry-berns F6-F8; Oxford REA, BRIAN pdf 1614 (read on the page: 'In the 1960s Rea relocated to the West Coast ... In 1969, Rea dreamed up')"
+ },
+ "sage-creator": {
+  "verdict": "pass",
+  "dateline": "Kentucky",
+  "trueStory": true,
+  "why": "Kentucky is where the rickhouse system is used (present tense on the page), and card G1 allows no date or person. Every fact in the story is on Oxford's pages and the lesson is signposted, so 'A true story' is accurate. It does sit oddly over a description that has no event in it.",
+  "source": "fact card kentucky-rickhouse F2, F4-F7, G1; Oxford BARREL STORAGE SYSTEMS pdf 219-220"
+ },
+ "sage-explorer": {
+  "verdict": "pass",
+  "dateline": "1824",
+  "trueStory": true,
+  "why": "1824 is the year of Morewood's essay, the story's central moment. Under G2, Leiden is only Morewood's word, and no place for the essay is on the card, so the year alone is right. The story tells the true history of a legend, keeping Oxford's 'seems', 'probably' and 'begun'.",
+  "source": "fact card sylvius-morewood-genever F2-F3, F7-F10, G2, G4; Oxford SYLVIUS pdf 1968"
+ },
+ "sage-hero": {
+  "verdict": "fix",
+  "dateline": "Downtown Los Angeles",
+  "trueStory": true,
+  "why": "The only date on the page is 'By the late 1990s', for his burnout, the sale of his company and the turn to real estate. Card F4 rules that it doesn't date the downtown buying, which is the story's central moment and is undated (Golden Gopher and Seven Grand are 2000s, with the years kept out under U1-U2). So 'Los Angeles, the late 1990s' would date the core of the story to its prelude. Place only, and 'downtown' is on the page.",
+  "source": "fact card cedd-moses-seven-grand F4-F10, U1-U3; A Proper Drink p. 279 (read on the page)"
+ },
+ "sage-innocent": {
+  "verdict": "pass",
+  "dateline": "Paris, 1848",
+  "trueStory": true,
+  "why": "Biot's test took place at the Collège de France in Paris. The card marks 'in 1848' as safe (a strong inference from the sequence; no month). The reading attributes the doubt to the biographer and the line to Pasteur's own retelling.",
+  "source": "fact card pasteur-biot-racemic-acid-1848 F9-F13, 'The year 1848'; Vallery-Radot ch. II"
+ },
+ "sage-jester": {
+  "verdict": "pass",
+  "dateline": "Philadelphia, the 1880s",
+  "trueStory": true,
+  "why": "Ruling C2 gives 'in the 1880s' because 1881, 1882 and the late 1880s conflict. The guests and the rattle are from the club's own 1884 book, and the reading tags the wit as 'the book claims'.",
+  "source": "fact card clover-club-philadelphia F4-F9, C2; club book 1884 (archive.org cloverclubfromcl00phil)"
+ },
+ "sage-lover": {
+  "verdict": "pass",
+  "dateline": "Hoboken, the 1890s",
+  "trueStory": true,
+  "why": "Oxford puts Duke's House 'across from the New York ferry in Hoboken, New Jersey'. The drink was in circulation by the end of 1895, the musical opened in 1894, and the Fifth Avenue Hotel called it 'new' in 1897. So the place and the span belong together. The origin is Oxford's 'most creditable' of several claims (a 1941 letter from the bartender's brother; 'other circumstances check out'), and the reading names that channel.",
+  "source": "Oxford ROB ROY pdf 1667 (read on the page); Imbibe! pdf 203; dossier sage-lover.md lineage rows"
+ },
+ "sage-magician": {
+  "verdict": "pass",
+  "dateline": "1977",
+  "trueStory": true,
+  "why": "1977 is the year of The World Guide to Beer, the story's central moment. No place for the book is on the card, so the year alone is right. The doubt ('kept him up at night') is signposted.",
+  "source": "fact card michael-jackson-beer-whisky-writer F3-F5, F7, F9-F10, L1; Oxford JACKSON pdf 1091"
+ },
+ "sage-outlaw": {
+  "verdict": "pass",
+  "dateline": "Oporto, 1844",
+  "trueStory": true,
+  "why": "Forrester had lived and traded in Oporto since 1831, and the attack came from 'the persons interested' in the port trade there, so the story's 1844 moment is set in Oporto, even though Barr has the pamphlet printed in London. The reading hedges the cost, his stake and whether he was right (C3-C4).",
+  "source": "fact card joseph-james-forrester F2, F4-F8, F10, C1-C4; DNB vol. 20 p. 14"
+ },
+ "sage-regular-guy": {
+  "verdict": "pass",
+  "dateline": "Tequila, Mexico",
+  "trueStory": true,
+  "why": "The estate and the old La Fortaleza distillery are in the town of Tequila. The launch year (C3) and the sale year (C1) conflict, so place only is right. The reading attributes his account and his motive to him and signposts the link between the two names (G7).",
+  "source": "fact card fortaleza-guillermo-erickson-sauza W2-W5, C1-C3, G7; Distiller 2025; Oxford SAUZA pdf 1742-1743"
+ },
+ "sage-ruler": {
+  "verdict": "pass",
+  "dateline": "Britain and Ireland, 1885",
+  "trueStory": true,
+  "why": "The commission dates from 1885, and the card's ruling C3 sets the scope as 'Britain and Ireland' (the Irish counts are on pdf 1079 and 2153). The reading carries 'regarded as' and the attributed 'earliest and most accurate', and keeps the cask gap as 'we don't know why'.",
+  "source": "fact card alfred-barnard F1-F7, C1, C3; Oxford BARNARD pdf 211"
+ }
+}

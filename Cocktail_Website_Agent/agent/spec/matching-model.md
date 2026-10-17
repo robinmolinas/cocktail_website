@@ -91,7 +91,7 @@ Columns: **affects** = P (persona), R (recipe eligibility or preference), N (nar
 | Making | Creator 1.0, Hero 0.3 | Creator's goal (Innovation, self-expression). Hero's achievement. | Added by Q12 (2026-10-08). |
 | Caring | Caregiver 1.0, Regular Guy 0.3, Lover 0.3 | Caregiver's goal (Service). Regular Guy's and Lover's attachment. | Added by Q12 (2026-10-08). |
 
-*Mischief* (Jester 0.8, Outlaw 0.6) was retired by Q12: it was redundant with Pleasure, Change and soughtFor's *A little chaos*. Its id is never reused.
+*Mischief* (Jester 0.8, Outlaw 0.6) was retired by Q12: it was redundant with Pleasure, Change and soughtFor's *A little chaos*. Its id is never reused. (Since 2026-10-17 the *label* Mischief names soughtFor's `little-chaos`; the drawnToward id stays retired.)
 
 ### H5 soughtFor: *What do people often come to you for?* (expression)
 
@@ -104,8 +104,8 @@ Columns: **affects** = P (persona), R (recipe eligibility or preference), N (nar
 | Ideas | Creator 1.0, Magician 0.5, Explorer 0.3 | Creator's imagination. | — |
 | Calm | Caregiver 0.6, Sage 0.5, Innocent 0.5, Ruler 0.3 | A steadying presence. | Overlaps with Comfort, so it is kept diffuse. |
 | Taste | Lover 0.8, Creator 0.6, Ruler 0.4 | Lover's sensuality. Creator's aesthetics. Ruler's status. | — |
-| A reality check | Ruler 0.8, Sage 0.6, Regular Guy 0.4 | Ruler's control and confidence. Sage's clarity. | — |
-| A little chaos | Jester 1.0, Outlaw 0.7, Magician 0.3 | Jester's fun. Outlaw's disruption. | — |
+| Clarity (was A reality check) | Ruler 0.8, Sage 0.6, Regular Guy 0.4 | Ruler's control and confidence. Sage's clarity. | — |
+| Mischief (was A little chaos) | Jester 1.0, Outlaw 0.7, Magician 0.3 | Jester's fun. Outlaw's disruption. | — |
 
 ### H3 gravity (lean −1 … +1)
 

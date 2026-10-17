@@ -1,12 +1,14 @@
-/* One family speaks, one labels (2026-09-29 type pass). Playfair Display is the
-   voice — every question, choice word and title. Playfair (the same designer's
-   optical-size cut) carries the reading text at small sizes, where Display's
-   hairlines break up over footage. Jost — the open Futura, the geometric sans
-   the Didones were paired with on 1920s bar cards — labels, numbers, buttons. */
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair:ital,opsz,wght@0,5..1200,300..700;1,5..1200,300..700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap');
+/* One voice speaks, one book explains, one sans labels. Playfair Display is the
+   voice — every question, choice word and title. EB Garamond carries the
+   reading text (hints, the reading's prose, the recipe): calmer and narrower
+   than the Playfair text cut it replaced (designer review, specimen
+   direction C, Robin 2026-10-17). Cormorant Garamond 600 is the H3 pole words
+   only. Jost — the open Futura, the geometric sans the Didones were paired
+   with on 1920s bar cards — labels, numbers, buttons. */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=Cormorant+Garamond:ital,wght@1,600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap');
 @import "tailwindcss";
 
-body { font-family: var(--font-text); font-optical-sizing: auto; }
+body { font-family: var(--font-text); }
 
 /* The reading is a dark room all the way to the browser chrome. The root owns
    the viewport scrollbar, so styling only .tr-root leaves a bright system rail
@@ -89,7 +91,10 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
 :root {
   /* type — see the @import note at the top */
   --font-display: 'Playfair Display', Georgia, serif;
-  --font-text: 'Playfair', 'Playfair Display', Georgia, serif;
+  --font-text: 'EB Garamond', Georgia, serif;
+  /* H3's two pole words only. Cormorant's x-height is ~3/4 of Playfair
+     Display's, so its sizes run ×1.33 to read at the same size. */
+  --font-pole: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
   --font-label: 'Jost', 'Futura', system-ui, sans-serif;
 
   /* one left edge for the whole site: nav mark, landing copy, reading */
@@ -136,6 +141,17 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   --veil-pill-hover-border: rgba(255, 176, 136, 0.6);
   --veil-pill-hover-bg: rgba(255, 176, 136, 0.08);
 }
+
+/* No shadow at all where the water is dark (playtest, 2026-10-17: the
+   designer read the hairline as a drop shadow). H0–H5 sit on deep footage or
+   on her night; H6–H8 keep it until the new film, because they rise through
+   pale foam. */
+section[data-stage='arrive'], section[data-stage='lines'], section[data-stage='name'],
+section[data-stage='lens'], section[data-stage='ascend1'], section[data-stage='seed'],
+section[data-stage='ascend2'], section[data-stage='gravity'], section[data-stage='ascend3'],
+section[data-stage='hidden'], section[data-stage='ascend4'], section[data-stage='resonance'],
+section[data-stage='ascend5'] { --legible: 0 0 0 transparent; }
+section[data-stage='resonance'] .rw-held button { text-shadow: none; }
 
 /* --------- keyboard focus in the dark world (design system: vermilion) --------- */
 /* Every interactive affordance in the depths shows the same vermilion ring on
@@ -216,7 +232,7 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   position: absolute; z-index: 50;
   right: var(--gutter);
   bottom: clamp(3rem, 11vh, 6.5rem);
-  width: min(19rem, calc(100vw - 2 * var(--gutter)));
+  width: min(21rem, calc(100vw - 2 * var(--gutter)));
   display: flex; flex-direction: column; align-items: flex-end; gap: 1.35rem;
   text-align: right;
 }
@@ -226,6 +242,8 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   color: rgba(245, 234, 216, 0.62);
   text-wrap: pretty;
 }
+/* the time, then what she will do: two short lines, never a broken one */
+.landing-note-line { display: block; }
 /* phone / portrait: the silhouette fills the upper frame and there is no
    pointer to lead across it, so everything settles at the foot, left-aligned
    on the gutter, over a fall of shadow — title, paragraph, then the door
@@ -389,6 +407,29 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   gap: 0.7rem;
   text-align: center;
   pointer-events: none;
+}
+/* MIDDLE, THEN RISE (playtest, 2026-10-17). The question arrives alone at
+   the centre of the frame, where the eye already is, holds for a breath, then
+   glides up to its place as the choice condenses beneath it — so it is read
+   first and never has to be looked up for. The head sits at top 12.5% of a
+   full-frame hold, so the centre is 37.5dvh below it (less half its own
+   height). The choice waits on --settle, set on the hold's root. */
+@keyframes headSettle {
+  0% { opacity: 0; transform: translateY(calc(37.5dvh - 50%)); filter: blur(4px); }
+  24% { opacity: 1; transform: translateY(calc(37.5dvh - 50%)); filter: blur(0); }
+  50% { transform: translateY(calc(37.5dvh - 50%)); }
+  100% { opacity: 1; transform: none; filter: blur(0); }
+}
+@keyframes bodyIn { from { opacity: 0; } to { opacity: 1; } }
+.hold-arriving { --settle: 1.35s; }
+.hold-head.is-arriving { animation: headSettle 2.7s cubic-bezier(0.45, 0, 0.2, 1) both; }
+.hold-head.is-arriving .hold-q { animation: none; }
+.hold-head.is-arriving .hold-hint { animation: heroFadeUp 1s ease 0.5s both; }
+/* the choice layer: same box as the hold, so nothing inside it moves */
+.hold-body { position: absolute; inset: 0; animation: bodyIn 1s ease var(--settle, 0s) both; }
+@media (prefers-reduced-motion: reduce) {
+  .hold-head.is-arriving { animation: heroFadeUp 0.6s ease both; }
+  .hold-arriving { --settle: 0.3s; }
 }
 @keyframes holdOut { to { opacity: 0; filter: blur(5px); transform: translateY(-8px); } }
 .hold-head.is-leaving { animation: holdOut 0.6s ease forwards; }
@@ -569,7 +610,7 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
   padding: 6px;
   cursor: pointer;
   opacity: 0;
-  animation: sphereIn 0.9s var(--ease) var(--d, 0ms) both;
+  animation: sphereIn 0.9s var(--ease) calc(var(--settle, 0s) + var(--d, 0ms)) both;
 }
 
 .sphere {
@@ -622,6 +663,8 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
 }
 
 /* the field is full — the unchosen recede */
+/* a chosen sphere sits above the rest (playtest, 2026-10-17) */
+.sphere-drift:has(> .sphere-btn.is-lit), .sphere-float:has(> .sphere-btn.is-lit) { z-index: 2; }
 .sphere-btn.is-dim { opacity: 0.42; filter: saturate(0.55); transition: opacity 0.5s ease, filter 0.5s ease; }
 
 /* a gentle refusal, not an error (on the sphere, not the button: the button's
@@ -838,10 +881,12 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
 .grav-pole {
   position: absolute;
   top: 50%;
-  font-family: var(--font-display);
+  /* Cormorant 600 (Robin, specimen 2026-10-17; the thin 300 vanished on the
+     cream cloud). Sizes are Playfair's ×1.33, so the word keeps its size. */
+  font-family: var(--font-pole);
   font-style: italic;
-  font-weight: 500;
-  font-size: clamp(2rem, 5.6vmin, 3.4rem);
+  font-weight: 600;
+  font-size: clamp(2.66rem, 7.45vmin, 4.5rem);
   line-height: 1;
   color: #fbf4e8;
   text-shadow: var(--legible);
@@ -899,7 +944,7 @@ html.reading-room::-webkit-scrollbar-corner { background: #080706; }
      (Robin, phone test 2026-10-13). Lift each word above its own end of the
      line, like the marks on a scale; the size lets the longest pair
      (Analytical · Instinctive) clear each other at 320px. */
-  .grav-pole { top: calc(50% - 2.7rem); font-size: clamp(1.7rem, 8.4vw, 2.2rem); }
+  .grav-pole { top: calc(50% - 2.7rem); font-size: clamp(2.1rem, 10.4vw, 2.93rem); }
 }
 
 /* progress dots — one language across every multi-step hold: a 7px ringed
@@ -982,6 +1027,19 @@ button.grav-dot::after {
 }
 .h4-line.in .h4-q, .h4-line.hint .h4-hint { opacity: 1; filter: none; }
 .h4-line.quiet .h4-hint { opacity: 0; filter: blur(4px); transition-duration: 0.6s; }
+/* after the example the question goes too: the pair and the "or" between
+   them say it (designer playtest, 2026-10-17). Kept in the DOM for readers. */
+.h4-line.quiet .h4-q { opacity: 0; filter: blur(6px); transition-duration: 1.2s; }
+.ember-or {
+  position: absolute; left: 50%; top: 50%; translate: -50% -50%;
+  font-family: var(--font-display); font-style: italic; font-weight: 400;
+  font-size: clamp(1.05rem, 2.3vmin, 1.35rem); letter-spacing: 0.02em;
+  color: rgba(245, 234, 216, 0.86); pointer-events: none;
+  /* in step with the pair: paintDrops condenses them over 420 ms, ease-out cubic */
+  animation: bodyIn 0.42s cubic-bezier(0.33, 1, 0.68, 1) both;
+  transition: opacity 0.5s ease, filter 0.5s ease;
+}
+.ember-or.is-gone { opacity: 0; filter: blur(4px); animation: none; }
 @media (prefers-reduced-motion: reduce) { .h4-line, .h4-q { transition-duration: 0.3s; } }
 /* the example's 1 and 2 read larger than words: a glyph, not a question */
 .ember.is-number .sphere-word { --sphere-word: clamp(2.3rem, 5.4vmin, 3.2rem); }
@@ -1147,6 +1205,10 @@ button.grav-dot::after {
 .rw-word:focus-visible .sphere { outline: 2px solid var(--c); outline-offset: 4px; }
 .rw-word.is-unseen { animation: none; opacity: 0; pointer-events: none; }
 .rw-word.is-found { animation: sphereIn 1.4s var(--ease) both; }
+/* Arrived once, for good (playtest, 2026-10-17: a word let go blinked out and
+   back). The states below toggle animation off and on; without this, removing
+   is-lifting or is-dragging replayed the entrance from opacity 0. */
+.rw-word.is-arrived { animation: none; opacity: 1; }
 .rw-word.is-dim { filter: saturate(0.6) brightness(0.78); }
 .rw-word.is-refused .sphere { animation: sphereRefuse 0.42s ease; }
 .rw-word.is-falling, .rw-word.is-lifting { animation: none; opacity: 1; pointer-events: none; transition: none; }
@@ -1159,6 +1221,9 @@ button.grav-dot::after {
   box-shadow: 0 0 34px -12px var(--c), inset 0 0 22px -14px var(--c);
 }
 .rw-word.is-leaving { animation: none; opacity: 0; filter: blur(6px); pointer-events: none; }
+/* the word in hand, or chosen, passes over the others, never under them */
+.rw-slot:has(.rw-word[aria-pressed="true"]), .rw-slot:has(.rw-word.is-ringed) { z-index: 2; }
+.rw-slot:has(.rw-word.is-dragging), .rw-slot:has(.rw-word.is-falling), .rw-slot:has(.rw-word.is-lifting) { z-index: 3; }
 /* what she holds: the words people come to her for, written inside her */
 .rw-held { position: absolute; translate: -50% -50%; display: flex; flex-direction: column; align-items: center; pointer-events: none; }
 .rw-held button {
@@ -1196,6 +1261,10 @@ button.grav-dot::after {
   opacity: 0; pointer-events: none;
   will-change: transform, opacity;
 }
+/* sinking back as a bead (H6 loop): the word and icon go before the sphere
+   draws in, and return as it swells again at the foot */
+/* the word holds until the bead is well formed, and is back as soon as it swells */
+.sphere-float .sphere-word, .sphere-float .flavour-icon { opacity: calc(1 - clamp(0, (var(--bead, 0) - 0.45) * 3.4, 1)); }
 
 /* Beat 2's spheres rise up from the depths into their places, a beat apart
    — the flavours' rise, settling instead of passing through */
@@ -1590,15 +1659,17 @@ button.grav-dot::after {
    asked for attention without saying anything; the arrow's slow bob is the
    cue, the words say what is below. */
 .tr-cue {--d: 3.3s; position: relative; display: inline-flex; align-items: center; gap: 0.55rem; margin-top: clamp(1.4rem, 2.8vh, 2.2rem);
-  font-family: var(--font-label); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase;
-  color: var(--candle-ivory); opacity: 0.72;
+  font-family: var(--font-label); font-size: 0.8rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--candle-ivory); opacity: 0.88;
   text-decoration: none; pointer-events: auto; white-space: nowrap;
   text-shadow: 0 1px 12px rgba(0,0,0,0.9); transition: opacity 0.5s var(--ease); }
 /* the tap target reaches the 44px floor without changing the glyphs */
 .tr-cue::before { content: ''; position: absolute; inset: -16px; }
 .tr-cue:hover { opacity: 1; }
 .tr-cue:focus-visible { opacity: 1; outline: 2px solid var(--c, #e8702a); outline-offset: 4px; border-radius: 3px; }
-.tr-cue svg { width: 13px; height: 13px; opacity: 0.85; animation: tr-bob 2.5s ease-in-out infinite; }
+/* playtest, 2026-10-17: people clicked rather than scrolled, the cue too faint
+   to say there was more below. A touch larger and brighter, a longer bob. */
+.tr-cue svg { width: 15px; height: 15px; opacity: 0.95; animation: tr-bob 2.2s ease-in-out infinite; }
 
 /* SHARE + SAVE on the first screen. They are the page's two jobs — share
    brings the next guest, save is her keepsake — so they sit with the title
@@ -1606,7 +1677,7 @@ button.grav-dot::after {
 .tr-scrolled .tr-cue { pointer-events: none; }
 
 @keyframes tr-rise { from { opacity: 0; transform: translateY(22px); filter: blur(12px); } to { opacity: 1; transform: none; filter: none; } }
-@keyframes tr-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(3px); } }
+@keyframes tr-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
 
 /* ---------- H9.5 · the arrival, out of the breath's dark ---------- */
 .tr-intro .tr-frame { animation: tr-open 7s var(--ease) both calc(0.3s + var(--greet)),
@@ -1779,6 +1850,33 @@ button.grav-dot::after {
 }
 /* the recipe, where the story arrives at the drink */
 .tr-card-inline { margin-top: clamp(3.4rem, 8vh, 5rem); }
+
+/* "Doesn't know it's a true story" (designer review, 2026-10-17): the story
+   opens on its place and year, set like a caption under an engraving, and says
+   plainly that it happened. Only where the dossier calls it the record; a
+   legend keeps its dateline without the claim. (0,3,0) to outrank
+   .tr-why p and .tr-why p:last-of-type. */
+.tr-why .tr-part .tr-dateline {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.9rem;
+  margin: -0.5rem 0 1.9rem;
+  font-family: var(--font-label); font-weight: 500; font-size: 0.68rem; line-height: 1.5;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold);
+}
+.tr-dateline-true { display: inline-flex; align-items: center; gap: 0.9rem; color: var(--keepsake-muted); }
+.tr-dateline-true::before { content: ''; width: 1.6rem; height: 1px; background: currentColor; opacity: 0.6; }
+/* The archival-image trial (one pour first): the record itself, a public-domain
+   photograph, untinted, never generated. It breaks the measure a little, as a
+   plate in a book does, and carries its date in the dateline's voice. */
+.tr-archival { margin: clamp(2.8rem, 7vh, 3.8rem) 0; max-width: 40rem; }
+.tr-archival img { display: block; width: 100%; height: auto; border-radius: 2px;
+  filter: grayscale(1) brightness(0.86) contrast(1.04); }
+.tr-archival figcaption { display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; margin-top: 0.85rem;
+  font-family: var(--font-label); font-weight: 500; font-size: 0.66rem; line-height: 1.5;
+  letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); }
+.tr-archival-credit { color: var(--keepsake-muted); letter-spacing: 0.12em; }
+.tr-archival + .tr-para > p { margin-top: 0; }
+@media (max-width: 640px) { .tr-archival { margin-left: calc(-1 * var(--gutter)); margin-right: calc(-1 * var(--gutter)); }
+  .tr-archival figcaption { padding: 0 var(--gutter); } }
 
 
 /* one action is the point of this page; the other two are not. They used to be
@@ -2146,6 +2244,10 @@ button.grav-dot::after {
   /* tighter leading than the screen's 1.72: the columns are a narrower measure */
   .tr-why p { color: #2e2921 !important; font-size: calc(10pt * var(--letter-fit, 1)) !important; line-height: 1.58 !important; margin: calc(4.2mm * var(--letter-fit, 1)) 0 !important; }
   .tr-why .tr-epigraph + p { font-size: calc(10.5pt * var(--letter-fit, 1)) !important; color: #2e2921 !important; }
+  .tr-why .tr-part .tr-dateline { color: #8a6a3a !important; font-size: calc(6.5pt * var(--letter-fit, 1)) !important; margin: 0 0 calc(2.5mm * var(--letter-fit, 1)) !important; }
+  .tr-archival { break-inside: avoid; margin: calc(4mm * var(--letter-fit, 1)) 0 !important; }
+  .tr-archival img { filter: grayscale(1); }
+  .tr-archival figcaption { color: #6a5f52 !important; font-size: 6pt !important; }
   .tr-private { color: #6a5f52 !important; }
   /* the letter's screen furniture stays on screen; the recipe prints from its
      page-one copy, so the two sheets keep their shape */

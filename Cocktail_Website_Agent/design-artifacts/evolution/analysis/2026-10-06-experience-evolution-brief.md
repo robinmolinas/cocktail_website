@@ -4,6 +4,8 @@ Created 6 October 2026 · Reconciled 8 October 2026 · Experience owner: WDS/Fre
 
 Continue focused product evolution against the [current experience contract](../../2026-07-08-experience-master-spec.md) and [design log](../../_progress/00-design-log.md). The original prototype descriptions and early findings are preserved in the [archive](../../_archive/2026-10-08-document-refresh/evolution/analysis/2026-10-06-experience-evolution-brief.md).
 
+> **Superseded in part, 17 October 2026:** the [designer playtest review](2026-10-17-designer-playtest-review.md) changed the type (EB Garamond text and Cormorant poles; Playfair Display stays), adopted the eased-both film, added going back a question, and added datelines and archival images to the reading. Read it first.
+
 ## Settled and built
 
 | Slice | Decision and evidence |

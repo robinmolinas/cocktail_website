@@ -195,6 +195,22 @@ function App() {
     });
   };
 
+  // The journey writes no history of its own, so a back-swipe (trackpad,
+  // iPhone edge, Android back) used to leave the site mid-question and lose
+  // every answer (playtest, 2026-10-17). While she is in the depths one
+  // same-URL entry sits on top; a back lands on it and is put straight back,
+  // so she never leaves the site, and TheDepths, listening to the same back,
+  // takes her back one question instead. Same URL, so no hashchange fires
+  // and a #pour= link is never touched.
+  useEffect(() => {
+    if (phase !== 'depths') return;
+    const here = window.location.pathname + window.location.search + window.location.hash;
+    window.history.pushState({ dionysus: 'depths' }, '', here);
+    const stay = () => { window.history.pushState({ dionysus: 'depths' }, '', here); };
+    window.addEventListener('popstate', stay);
+    return () => window.removeEventListener('popstate', stay);
+  }, [phase]);
+
   const mouse = useRef({ x: -999, y: -999 });
   const smooth = useRef({ x: -999, y: -999 });
   const rafRef = useRef<number | undefined>(undefined);
@@ -441,15 +457,17 @@ function App() {
             </h1>
             <p className="landing-lede hero-anim hero-fade" style={{ animationDelay: '0.7s' }}>
               There’s a cocktail out there that resonates with who you are, the one
-              that represents your innermost self. Through a series of short
-              questions, we distill your essence into a cocktail made for you alone.
+              that holds your innermost self. We distill it for you alone, and you
+              leave with its recipe and the story of who it was made for.
             </p>
           </div>
           {/* The door sits bottom-right on purpose: the pointer has to cross the
               frame to reach it, and on the way it uncovers the cocktail hidden
               in the image (the reveal spotlight follows the pointer). */}
           <div className={`landing-go hero-anim hero-fade ${leaving ? 'hero-exit' : ''}`} style={{ animationDelay: '0.9s' }}>
-            <p className="landing-note">About five minutes. You leave with the recipe and a reading of why it’s yours.</p>
+            {/* what she will do, not what she leaves with: that is the lede's
+                (playtest, 2026-10-17: the two said the same thing twice) */}
+            <p className="landing-note">About five minutes.<span className="landing-note-line"> A few questions, answered on instinct.</span></p>
             <CtaButton onClick={beginJourney}>Discover my cocktail</CtaButton>
           </div>
         </section>

@@ -79,28 +79,33 @@ import { addressName } from '../../shared/name';
 // frozen through all nine; the
 // last catch rises to the resonance hold (~8.2s). No chapter cards.
 
-// Dev-only video trial (2026-10-06 video audit): `?video=arrivals` or
-// `?video=both` plays a retimed candidate, with the camera eased into each
-// hold (and out of it, for "both"), in the real journey, so it can be judged
-// in place before any asset swap. Served by the prototype server on :5190
-// (design-artifacts/evolution/prototypes). import.meta.env.DEV strips it from
-// production builds. Holds are 30fps frame numbers.
+// The film is the eased cut since 2026-10-17 (playtest: "the movement should
+// be done before the question arrives"; Robin picked "eased both"). Each move
+// decelerates to a true stop in the pixels themselves and eases out again, at
+// native 1× with no playbackRate or scrubbing, and the 24→30 fps judder of the
+// original is gone (2026-10-06 video audit). Holds are 30 fps frame numbers,
+// so every freeze lands inside a frame. The original 15 s film and its
+// timings are kept beside the prototypes (design-artifacts/evolution/
+// prototypes/video-arrivals/original/).
+//
+// Dev-only: `?video=arrivals` plays the arrivals-only candidate from the
+// prototype server on :5190 for comparison. import.meta.env.DEV strips it.
+const VIDEO_FILM = { frames: [31, 82, 154, 255, 354, 414, 477, 537], cut: 568 / 30 } as const;
 const VIDEO_TRIALS = {
-  arrivals: { src: 'http://localhost:5190/video-arrivals/journey-eased-arrivals-24p.mp4', frames: [31, 73, 136, 228, 318, 369, 423, 474], cut: 16.841667 },
-  both: { src: 'http://localhost:5190/video-arrivals/journey-eased-both-24p.mp4', frames: [31, 82, 154, 255, 354, 414, 477, 537], cut: 18.941667 },
+  arrivals: { src: 'http://localhost:5190/video-arrivals/journey-eased-arrivals-24p.mp4', frames: [31, 73, 136, 228, 318, 369, 423, 474], cut: 505 / 30 },
 } as const;
 const trialKey = import.meta.env.DEV && typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('video') : null;
-const VIDEO_TRIAL = trialKey === 'arrivals' || trialKey === 'both' ? VIDEO_TRIALS[trialKey] : null;
-const trialHold = (i: number, fallback: number) => (VIDEO_TRIAL ? VIDEO_TRIAL.frames[i] / 30 : fallback);
+const VIDEO_TRIAL = trialKey === 'arrivals' ? VIDEO_TRIALS[trialKey] : null;
+const filmHold = (i: number) => (VIDEO_TRIAL ?? VIDEO_FILM).frames[i] / 30;
 
-const HOLD_DEPTHS = trialHold(0, 0.6);
-const HOLD_SEED = trialHold(1, 1.5);
-const HOLD_GRAVITY = trialHold(2, 3.1);
-const HOLD_HIDDEN = trialHold(3, 5.7);
-const HOLD_RESONANCE = trialHold(4, 8.2);
-const HOLD_FINISH = trialHold(5, 9.4);
-const HOLD_TRACE = trialHold(6, 10.7);
-const HOLD_BREATH = trialHold(7, 11.9);
+const HOLD_DEPTHS = filmHold(0);
+const HOLD_SEED = filmHold(1);
+const HOLD_GRAVITY = filmHold(2);
+const HOLD_HIDDEN = filmHold(3);
+const HOLD_RESONANCE = filmHold(4);
+const HOLD_FINISH = filmHold(5);
+const HOLD_TRACE = filmHold(6);
+const HOLD_BREATH = filmHold(7);
 
 // H8 · The Breath — "What the Ink Remembers" (rev 2: "There You Are")
 // Atop the crown (~11.9s), the latency pocket: the LLM distillation will
@@ -160,7 +165,7 @@ const SPIRIT_DOT = { x: 12, y: 9.6, r: 0.8 };
 // picks up from full black via onComplete.
 const RELEASE_HOLD_MS = 1500;  // "there you are." held before the letting go
 const RELEASE_FALL_MS = 1150;  // the drop's fall, quadratic ease-in
-const SURFACE_CUT = VIDEO_TRIAL ? VIDEO_TRIAL.cut : 12.95; // freeze here — the pull-back must never show the video's glass
+const SURFACE_CUT = (VIDEO_TRIAL ?? VIDEO_FILM).cut; // freeze here — the pull-back must never show the video's glass
 const DARK_AT_MS = 380;         // the dark starts flooding this far into the splash (crown visible, then taken)
 const DARK_GROW_MS = 1100;      // veil flood + film sink to full black (sync: surfaceSinkIn/surfaceFilmSink in index.css)
 const SURFACE_BLACK_HOLD_MS = 150; // full black → onComplete. A beat, not a stop: the flow
@@ -279,6 +284,11 @@ const FIN_VETO_IDS: readonly Veto[] = VETOES.map((v) => v.id);
 const EXAMPLE_PAIR = { a: '1', b: '2' };
 // 16 words (6 + 10), which is what H4_RISE_MS is measured against: keep them
 // in step if either line changes. The line stays as the question for all nine.
+// H6's flavour cycle: the share of it spent rising; the rest is the bead
+// sinking back to the foot (see the beat-1 loop). Wordless for ~4 s in all
+// (Robin, 2026-10-17: 10 s was far too long); the sink is ~2.3 s of it.
+const RISE = 0.9;
+
 const H4_LINES = {
   prompt: 'Tap the word that is more you.',
   hint: 'Two at a time. Go with your gut, or let both fade.',
@@ -335,7 +345,9 @@ const buildBreathEchoes = (a: JourneyAnswers, trace: string): string[] => {
   const lens = a.lens ? labelOf(LENSES, a.lens) : '';
   if (lens) out.push(`poured for ${lower(lens)}`);
   const colorName = a.seed ? labelOf(SEED_VOCAB, a.seed) : '';
-  if (colorName) out.push(`${colorName} runs through it`);
+  // the colour is a mood, not an ingredient (it carries no weight in the
+  // matching), so the echo remembers the choice and claims nothing of the glass
+  if (colorName) out.push(`${colorName}, the first drop`);
   const grav = GRAVITIES.flatMap((g) => {
     const v = a.gravity[g.id];
     return v === undefined ? [] : [{ pair: g, v }];
@@ -352,7 +364,12 @@ const buildBreathEchoes = (a: JourneyAnswers, trace: string): string[] => {
   if (textures.length < BINARIES.length) out.push('and a part of you it keeps secret');
   if (a.drawnToward.length) out.push(`drawn toward ${a.drawnToward.slice(0, 2).map((id) => labelOf(DRAWN, id).toLowerCase()).join(' & ')}`);
   if (a.soughtFor.length) out.push(`what they come to you for: ${labelOf(SOUGHT, a.soughtFor[0]).toLowerCase()}`);
-  if (a.flavors.length) out.push(`${a.flavors.map((id) => labelOf(FLAVOURS, id).toLowerCase()).join(', ')} on the tongue`);
+  // about her, not the drink: flavours only nudge close candidates (copy pass,
+  // 2026-10-17; was "… on the tongue")
+  if (a.flavors.length) {
+    const fl = a.flavors.map((id) => labelOf(FLAVOURS, id).toLowerCase());
+    out.push(`a taste for ${fl.length > 1 ? `${fl.slice(0, -1).join(', ')} & ${fl[fl.length - 1]}` : fl[0]}`);
+  }
   const firstWard = a.vetoes[0];
   if (firstWard) out.push(`never ${labelOf(VETOES, firstWard).toLowerCase()}`);
   const capped = out.slice(0, 8);
@@ -375,7 +392,7 @@ const LINES = [
 // `s` varies the droplet size so the ring feels found, not arranged.
 // The template is liqueur + colour (Robin, 2026-09-18 — a liqueur-only cut
 // was tried and reverted). These flow on into the breath's echo
-// ("… runs through it") and the reading, so they have to read as a phrase.
+// ("…, the first drop") and the reading, so they have to read as a phrase.
 // The ids, names and hexes are the shared SEEDS (shared/vocab.ts); the size
 // is UI-only.
 const SEED_SIZE: Record<SeedKey, number> = {
@@ -544,6 +561,11 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
   const videoRvfc = useRef<number | undefined>(undefined);
   const timeouts = useRef<number[]>([]);
   const stageRef = useRef<Stage>('arrive');
+  const rewindRef = useRef<HTMLCanvasElement>(null);
+  // a hold she returns to keeps what she had given it (the arrival effects
+  // below would otherwise wipe it for a fresh slate)
+  const restoreFinish = useRef(false);
+  const restoreTrace = useRef(false);
 
   const [stage, setStageState] = useState<Stage>('arrive');
   const [lineIdx, setLineIdx] = useState(0);
@@ -758,6 +780,154 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
     }
     setStage(target);
   };
+
+  // Back one question (designer playtest, 2026-10-17). The back gesture used
+  // to do nothing; now it returns her to the question before, with what she
+  // gave it still there where the hold can show it (her name, the gravity
+  // marks, the flavours and leave-outs, the trace). One tap answers on H1
+  // and H2, so those open fresh; H4 is timed, so it plays again from its
+  // line. The film never runs backwards or scrubs: the frame she is on is
+  // held on a canvas, the footage is set once to the earlier hold under it,
+  // and the held frame dissolves away, the same water at an earlier depth.
+  // From the breath on the drink is being made, so there is no going back.
+  const rewindTo = (hold: number) => {
+    const v = videoRef.current;
+    const c = rewindRef.current;
+    if (!v) return;
+    if (c && v.readyState >= 2 && Math.abs(v.currentTime - hold) > 0.05) {
+      const dpr = Math.min(2, window.devicePixelRatio || 1);
+      const w = v.clientWidth;
+      const h = v.clientHeight;
+      c.width = Math.round(w * dpr);
+      c.height = Math.round(h * dpr);
+      const ctx = c.getContext('2d');
+      if (ctx && v.videoWidth) {
+        // object-fit: cover, drawn by hand
+        const k = Math.max(w / v.videoWidth, h / v.videoHeight);
+        const dw = v.videoWidth * k;
+        const dh = v.videoHeight * k;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.drawImage(v, (w - dw) / 2, (h - dh) / 2, dw, dh);
+        c.style.transform = v.style.transform;
+        c.style.transition = 'none';
+        c.style.opacity = '1';
+        let done = false;
+        const dissolve = () => {
+          if (done) return;
+          done = true;
+          v.removeEventListener('seeked', dissolve);
+          requestAnimationFrame(() => {
+            c.style.transition = 'opacity 1.3s cubic-bezier(0.45, 0, 0.35, 1)';
+            c.style.opacity = '0';
+          });
+        };
+        v.addEventListener('seeked', dissolve);
+        window.setTimeout(dissolve, 700); // a slow seek still lets go
+      }
+    }
+    v.pause();
+    v.currentTime = hold;
+  };
+
+  const goBack = () => {
+    const at = stageRef.current;
+    if (at === 'arrive' || at === 'lines' || at === 'name' || at === 'breath' || at === 'surface') return;
+    // whatever was in flight (a commit's exit, an ascent) is called off
+    timeouts.current.forEach((t) => window.clearTimeout(t));
+    timeouts.current = [];
+    stopVideoWatch();
+    if (hRaf.current) cancelAnimationFrame(hRaf.current);
+
+    // within a hold first: the gravity rounds, then H6's two beats
+    if (at === 'gravity') {
+      const to = gravCommitted ? gravRound : gravRound - 1;
+      if (to >= 0) {
+        setGravCommitted(false);
+        setGravDragging(false);
+        setGravRound(to);
+        const saved = gravValues.current[GRAVITIES[to].id];
+        setGravX(saved !== undefined ? saved : 50);
+        return;
+      }
+    }
+    if (at === 'finish' && (finBeat === 'ward' || finLeaving)) {
+      resGlintRefs.current.forEach((el) => {
+        el?.classList.remove('sphere-surface', 'sphere-dissolve', 'sphere-dissolve-dim', 'is-refused');
+        el?.style.removeProperty('--k');
+      });
+      setFinLeaving(false);
+      setFinSealed(false);
+      if (finBeat === 'ward') {
+        setFinCaught([...answers.flavors]);
+        setFinBeat('flavors');
+      }
+      return;
+    }
+
+    // the question before, by where she is now (an ascent is still leaving
+    // the hold it rose from, so it goes back to that one)
+    const to: Partial<Record<Stage, Stage>> = {
+      lens: 'name', ascend1: 'lens',
+      seed: 'lens', ascend2: 'seed',
+      gravity: 'seed', ascend3: 'gravity',
+      hidden: 'gravity', ascend4: 'hidden',
+      resonance: 'hidden', ascend5: 'resonance',
+      finish: 'resonance', ascend6: 'finish',
+      trace: 'finish', ascend7: 'trace',
+    };
+    const target = to[at];
+    if (!target) return;
+    if (target === 'name') {
+      setNameSealed(false);
+      setChosen(null);
+    } else if (target === 'lens') {
+      rewindTo(HOLD_DEPTHS);
+      setChosen(null);
+      setSeedChosen(null);
+      setHoverSeed(null);
+      setTintPhase('bloom');
+    } else if (target === 'seed') {
+      rewindTo(HOLD_SEED);
+      setSeedChosen(null);
+      setHoverSeed(null);
+      setTintPhase('bloom');
+    } else if (target === 'gravity') {
+      rewindTo(HOLD_GRAVITY);
+      const last = GRAVITIES.length - 1;
+      setGravRound(last);
+      const saved = gravValues.current[GRAVITIES[last].id];
+      setGravX(saved !== undefined ? saved : 50);
+      setGravCommitted(false);
+      setGravDragging(false);
+      setHStage('intro');
+      setHLine('off');
+    } else if (target === 'hidden') {
+      rewindTo(HOLD_HIDDEN);
+      setResAfterglow(false);
+    } else if (target === 'resonance') {
+      rewindTo(HOLD_RESONANCE);
+      setResAfterglow(false);
+      setResWorldKey((k) => k + 1);
+    } else if (target === 'finish') {
+      rewindTo(HOLD_FINISH);
+      restoreFinish.current = true;
+    } else if (target === 'trace') {
+      rewindTo(HOLD_TRACE);
+      restoreTrace.current = true;
+    }
+    setStage(target);
+  };
+
+  // App keeps her on the site when she goes back (its history guard); the
+  // same back, heard here, is the step back a question. The listener reads
+  // the latest goBack through a ref, so it never acts on a stale hold.
+  const goBackRef = useRef(goBack);
+  useEffect(() => { goBackRef.current = goBack; });
+  useEffect(() => {
+    const onBack = () => goBackRef.current();
+    window.addEventListener('popstate', onBack);
+    return () => window.removeEventListener('popstate', onBack);
+  }, []);
 
   // Dev-only: when the reveal's quick-nav sends us back, land straight on the
   // requested hold instead of replaying the arrival. A short beat lets the
@@ -1483,7 +1653,9 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
       // climbing as one front. Where spheres share a lane (phones) they keep
       // their even spacing; the lane leads take the top slice of that cycle
       // and the rest trail beneath them.
-      const hi = 0.32;
+      // the leads start low (playtest, 2026-10-17: was 0.32), so the question
+      // and its hint have a few seconds clear above them before any arrive
+      const hi = 0.1;
       const lo = hi - 0.92 / Math.ceil(n / cols);
       base = Array.from({ length: cols }, (_, k) => lo + ((hi - lo) * k) / Math.max(1, cols - 1) + (Math.random() - 0.5) * 0.05);
       for (let k = base.length - 1; k > 0; k--) {
@@ -1516,7 +1688,10 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
       if (!base.length) lay(cols);
       // the pour settles: everything climbs a little quicker while the field
       // fills, easing to the resting pace (one shared factor, so spacing holds)
-      const arrival = 1 + 1.4 * (1 - smooth(0, 7000, now - t0));
+      // Nothing climbs while the question is still centred (headSettle's
+      // 1.35 s hold), and the quicker start is gentler than it was (1.4).
+      const settled = reduced ? 1 : smooth(1350, 1600, now - t0);
+      const arrival = settled * (1 + 0.7 * (1 - smooth(1350, 8350, now - t0)));
       const held = finCaughtRef.current;
       // a sphere slows as it dissolves under the question, like a bubble
       // meeting the surface: ~2 s longer to go, so it never seems snatched
@@ -1524,10 +1699,12 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
       // A shared lane (phones) slows as one, so its spacing holds.
       const surface = new Array<number>(cols).fill(1);
       for (let i = 0; i < n; i++) {
-        if (!st[i].init || held.includes(FIN_FLAVOR_IDS[i])) continue;
-        surface[i % cols] = Math.min(surface[i % cols], 1 - 0.58 * smooth(0.8, 0.92, st[i].p));
+        if (!st[i].init || held.includes(FIN_FLAVOR_IDS[i]) || st[i].p >= RISE) continue;
+        // slowed only while its word can still be read, then back to pace
+        const k = st[i].p / RISE;
+        surface[i % cols] = Math.min(surface[i % cols], 1 - 0.58 * smooth(0.78, 0.86, k) * (1 - smooth(0.9, 0.94, k)));
       }
-      const pts: { x: number; y: number; lane: number; held: boolean }[] = [];
+      const pts: { x: number; y: number; lane: number; held: boolean; bead: number; drift: number; unseen: boolean }[] = [];
       for (let i = 0; i < n; i++) {
         const lane = i % cols;
         const inLane = Math.floor((n - 1 - lane) / cols) + 1;
@@ -1541,10 +1718,25 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
         }
         const isHeld = held.includes(FIN_FLAVOR_IDS[i]);
         if (!isHeld && !reduced) {
-          s0.p += (dt * arrival * surface[lane]) / (21000 - (lane % 3) * 1800);
+          // the climb's pace is unchanged: the rise is RISE of the cycle
+          s0.p += (dt * arrival * surface[lane] * RISE) / (21000 - (lane % 3) * 1800);
           if (s0.p >= 1) s0.p -= 1;
         }
-        pts.push({ x: gutter + laneW * (lane + 0.5), y: yBot - s0.p * travel, lane, held: isHeld });
+        // The loop, made visible (playtest, 2026-10-17: people raced the
+        // flavours, sure they were gone for good). Under the question a sphere
+        // no longer dissolves: it draws in to a small faint bead, sinks back
+        // down beside its lane, and swells into the whole sphere again at the
+        // foot. Rising is the first RISE of the cycle, the sinking the rest.
+        // Reduced motion keeps the still field (no return).
+        const rising = reduced || s0.p < RISE;
+        const q = reduced ? s0.p : s0.p / RISE;
+        const u = rising ? 0 : (s0.p - RISE) / (1 - RISE);
+        const bead = rising ? (q < 0 ? 1 : Math.max(1 - smooth(0, 0.08, q), smooth(0.88, 1, q))) : 1;
+        const y = rising ? yBot - q * travel : yTop + smooth(0, 1, u) * travel;
+        // the bead sinks between the lanes, so it passes beside the risers
+        const side = lane === cols - 1 ? -1 : 1;
+        const drift = rising ? 0 : side * Math.sin(u * Math.PI) * laneW * 0.5;
+        pts.push({ x: gutter + laneW * (lane + 0.5), y, lane, held: isHeld, bead: isHeld ? 0 : bead, drift, unseen: !reduced && rising && q < 0 });
       }
       for (let i = 0; i < n; i++) {
         const s0 = st[i];
@@ -1562,18 +1754,21 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
           }
         }
         s0.xo += (xo - s0.xo) * Math.min(1, dt / 140);
-        // condense in at the foot of the band, dissolve at its head; a held
-        // sphere is always whole. The low ones arrive in no particular order.
-        const band = smooth(0, 0.13, s0.p) * (1 - smooth(0.85, 1, s0.p));
-        const entrance = reduced ? 1 : smooth(0, 1, (now - t0 - 250 - s0.delay) / 700);
-        const target = (pt.held ? 1 : reduced ? 1 : band) * entrance;
+        // a bead is a faint, small sphere with no word; a held sphere is
+        // always whole. Before its first climb a sphere is still down in the
+        // depths, unseen. The low ones arrive in no particular order.
+        const entrance = reduced ? 1 : smooth(0, 1, (now - t0 - 1350 - s0.delay) / 700);
+        const target = (pt.held || reduced ? 1 : (pt.unseen ? 0 : 1 - 0.35 * pt.bead)) * entrance;
         s0.op += (target - s0.op) * Math.min(1, dt / 160);
         const el = finFloatRefs.current[i];
         if (!el) continue;
-        el.style.transform = `translate3d(${(pt.x + s0.xo - size / 2).toFixed(1)}px, ${(pt.y - size / 2).toFixed(1)}px, 0)`;
+        const scale = 1 - 0.64 * (reduced ? 0 : pt.bead);
+        el.style.transform = `translate3d(${(pt.x + s0.xo + pt.drift - size / 2).toFixed(1)}px, ${(pt.y - size / 2).toFixed(1)}px, 0) scale(${scale.toFixed(3)})`;
         el.style.opacity = s0.op.toFixed(3);
-        el.style.filter = s0.op > 0.98 ? 'none' : `blur(${((1 - s0.op) * 4).toFixed(2)}px)`;
-        el.style.pointerEvents = s0.op > 0.45 ? 'auto' : 'none';
+        el.style.setProperty('--bead', (reduced ? 0 : pt.bead).toFixed(3));
+        el.style.zIndex = pt.bead > 0.5 ? '0' : '';
+        el.style.filter = s0.op > 0.98 ? 'none' : `blur(${((1 - s0.op) * 3).toFixed(2)}px)`;
+        el.style.pointerEvents = s0.op > 0.45 && pt.bead < 0.3 ? 'auto' : 'none';
       }
       raf = requestAnimationFrame(tick);
     };
@@ -1709,11 +1904,15 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
   // Fresh slate whenever the finish hold begins (natural arrival or debug jump).
   useEffect(() => {
     if (stage !== 'finish') return;
-    setFinBeat('flavors');
-    setFinCaught([]);
-    setFinBanished([]);
+    const back = restoreFinish.current;
+    restoreFinish.current = false;
+    // back from H7: she lands on the last beat, her picks as she left them
+    setFinBeat(back ? 'ward' : 'flavors');
+    setFinCaught(back ? [...answers.flavors] : []);
+    setFinBanished(back ? [...answers.vetoes] : []);
     setFinLeaving(false);
     setFinSealed(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stage]);
 
   // Fresh slate whenever the trace hold begins (natural arrival or debug
@@ -1722,8 +1921,10 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
   useEffect(() => {
     if (stage !== 'trace') return;
     bubbles.current = [];
-    setTraceText('');
+    setTraceText(restoreTrace.current ? record.trace : '');
+    restoreTrace.current = false;
     setTraceSealed(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stage]);
 
   // H8 · The Breath — one composed cycle of echoes, then the drop condenses.
@@ -2029,6 +2230,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
   return (
     <section
       className="relative w-full overflow-hidden bg-black"
+      data-stage={stage}
       style={{ height: '100dvh' }}
       onClick={skipLines}
     >
@@ -2068,6 +2270,9 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
           </>
         )}
       </video>
+
+      {/* back a question: the frame she was on, dissolving onto the earlier hold */}
+      <canvas ref={rewindRef} className="absolute inset-0 z-0 h-full w-full pointer-events-none" style={{ opacity: 0, transformOrigin: '50% 38%' }} aria-hidden="true" />
 
       {/* arrival from black + the breathing of the held frame */}
       <div className="depth-veil absolute inset-0 z-10 pointer-events-none" />
@@ -2196,8 +2401,8 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
         )}
 
         {stage === 'lens' && (
-          <div className="absolute inset-0">
-            <div className={`hold-head ${chosen !== null ? 'is-leaving' : ''}`}>
+          <div className="absolute inset-0 hold-arriving">
+            <div className={`hold-head is-arriving ${chosen !== null ? 'is-leaving' : ''}`}>
               <h2 className="hold-q">Who is this cocktail for?</h2>
             </div>
             <div className="sphere-cluster is-lens">
@@ -2271,8 +2476,8 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
         )}
 
         {stage === 'gravity' && (
-          <div className="absolute inset-0">
-            <div className="hold-head">
+          <div className="absolute inset-0 hold-arriving">
+            <div className="hold-head is-arriving">
               <h2 className="hold-q">Choose your gravity</h2>
               {gravRound === 0 && !gravHinted && (
                 <p className="hold-hint">Drag the glow toward the side that pulls you, and let go where it feels true</p>
@@ -2297,6 +2502,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
               }}
             />
 
+            <div className="hold-body">
             <div key={gravRound} className={`grav-pair ${gravCommitted ? 'grav-pair-out' : ''}`}>
               <span
                 className="grav-pole grav-pole-left"
@@ -2409,6 +2615,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                 );
               })}
             </div>
+            </div>
           </div>
         )}
 
@@ -2436,6 +2643,10 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                   >
                     <span className="sphere"><span className="sphere-word">{hRound === -1 ? EXAMPLE_PAIR.a : BINARIES[hRound].a}</span></span>
                   </button>
+                  {/* the question, said once, then only "or" between the two
+                      (designer playtest, 2026-10-17): the line above goes
+                      quiet once the real pairs begin */}
+                  <span className={`ember-or ${hStage === 'play' ? '' : 'is-gone'}`} aria-hidden="true">or</span>
                   <button
                     ref={dropBRef}
                     type="button"
@@ -2504,15 +2715,20 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
             />
 
             {finBeat === 'flavors' && (
-              <div className="absolute inset-0">
-                <div className={`hold-head ${finLeaving ? 'is-leaving' : ''}`}>
-                  <h2 className="hold-q">What flavours are calling you?</h2>
+              <div className="absolute inset-0 hold-arriving">
+                <div className={`hold-head is-arriving ${finLeaving ? 'is-leaving' : ''}`}>
+                  <h2 className="hold-q">Which flavours do you lean towards?</h2>
                   <p className="hold-hint">
+                    {/* they loop, and people raced them as if they would not
+                        (playtest, 2026-10-17): the hint says they come back */}
                     {finCaught.length === 0
-                      ? 'Catch up to three as they rise'
-                      : `${finCaught.length} of ${FIN_MAX_FLAVORS} chosen. Select one again to change your mind.`}
+                      ? 'Catch up to three. They come round again, so take your time.'
+                      : finCaught.length < FIN_MAX_FLAVORS
+                        ? `${finCaught.length} of ${FIN_MAX_FLAVORS} chosen. The others come round again.`
+                        : `${finCaught.length} of ${FIN_MAX_FLAVORS} chosen. Select one again to change your mind.`}
                   </p>
                 </div>
+                <div className="hold-body">
                 <div className="sphere-field">
                   {FIN_FLAVORS.map((flavour, i) => {
                     const lit = finCaught.includes(flavour.id);
@@ -2541,12 +2757,13 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                 >
                   Continue
                 </button>
+                </div>
               </div>
             )}
 
             {finBeat === 'ward' && (
-              <div className="absolute inset-0">
-                <div className={`hold-head ${finLeaving ? 'is-leaving' : ''}`}>
+              <div className="absolute inset-0 hold-arriving">
+                <div className={`hold-head is-arriving ${finLeaving ? 'is-leaving' : ''}`}>
                   <h2 className="hold-q">What should never touch your glass?</h2>
                   <p className="hold-hint">
                     {finBanished.length === 0
@@ -2554,6 +2771,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                       : `${finBanished.length} left out. Select one again to bring it back.`}
                   </p>
                 </div>
+                <div className="hold-body">
                 {/* the same spheres, rising up from the depths into a still
                     cluster this time — something to look over carefully */}
                 <div className="sphere-cluster is-rising">
@@ -2587,21 +2805,23 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                 >
                   Continue
                 </button>
+                </div>
               </div>
             )}
           </div>
         )}
 
         {stage === 'trace' && (
-          <div className="trace-stage absolute inset-0">
+          <div className="trace-stage absolute inset-0 hold-arriving">
             <form
               className="absolute inset-0"
               onSubmit={(e) => { e.preventDefault(); sealTrace(); }}
             >
-              <div className={`hold-head ${traceSealed ? 'is-leaving' : ''}`}>
+              <div className={`hold-head is-arriving ${traceSealed ? 'is-leaving' : ''}`}>
                 <h2 className="hold-q">Leave one trace of yourself</h2>
                 <p className="hold-hint">A memory, a flavour you loved once, a place you carry. The ink keeps it.</p>
               </div>
+              <div className="hold-body">
               <div className="trace-input-row">
                 <input
                   ref={traceInputRef}
@@ -2630,6 +2850,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
               >
                 Continue
               </button>
+              </div>
             </form>
           </div>
         )}

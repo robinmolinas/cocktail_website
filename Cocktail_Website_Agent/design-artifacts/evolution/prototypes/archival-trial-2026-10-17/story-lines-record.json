@@ -1,0 +1,845 @@
+{
+ "caregiver-creator": {
+  "dateline": "Ginza, Tokyo, 1997",
+  "trueStory": true,
+  "pull": "And he added, \"I have my way, but it is not only the way.\"",
+  "source": "fact card kazuo-uyeda-hard-shake F1; Oxford TENDER BAR pdf 1998"
+ },
+ "caregiver-explorer": {
+  "dateline": "England, 1772",
+  "trueStory": true,
+  "pull": "He didn't take it to a shop. He took it to the Navy.",
+  "source": "fact card joseph-priestley-soda-water C1 (1772 pamphlet safe); Priestley 1772 Preface",
+  "flag": "1772 is the pamphlet/Navy-trial year the dossier allows (C1); the reading itself states no year, so drop to \"England\" if Robin prefers."
+ },
+ "caregiver-hero": {
+  "dateline": "Bern, 1814",
+  "trueStory": true,
+  "pull": "Barry retired for his last two years, was brought to Bern at the prior's request, and died there in 1814.",
+  "source": "fact card barry-st-bernard F1–F2 (NMBE)",
+  "flag": "Dateline uses Barry's retirement in Bern (the only dated fact); the rescues on the Great St Bernard Pass have no safe year."
+ },
+ "caregiver-innocent": {
+  "dateline": "Dijon, 1945",
+  "trueStory": true,
+  "pull": "He served it at the city's receptions, set it out, and welcomed people with it.",
+  "source": "fact card felix-kir; Oxford KIR pdf 1133"
+ },
+ "caregiver-jester": {
+  "dateline": "Shepheard's Hotel, Cairo",
+  "trueStory": true,
+  "pull": "From the front, they cabled Scialom for the cure. He sent four gallons of it in Thermoses, by taxi.",
+  "source": "fact card joe-scialom-suffering-bastard F2; Oxford pdf 1767",
+  "flag": "No year: 1942 lives only inside Berry's attribution and conflicts with Proper's \"late '40s\" (C1)."
+ },
+ "caregiver-lover": {
+  "dateline": "London, 1874",
+  "trueStory": true,
+  "pull": "She sat up in bed and repeated his last remark back to him, word for word: \"I wanted you to hear just how it sounded.\"",
+  "source": "Mark Twain Project letter UCCL 01028 (2 Jan 1874)"
+ },
+ "caregiver-magician": {
+  "dateline": "Algeria, the 1830s",
+  "trueStory": true,
+  "pull": "By 1840 he had a recipe: bitter orange peel and sweet orange peel together, with bitter roots and a bark.",
+  "source": "Oxford PICON pdf 1509"
+ },
+ "caregiver-outlaw": {
+  "dateline": "Leicester, 1824",
+  "trueStory": true,
+  "pull": "She asked what \"a few individuals, or a few families\" could possibly do, and answered: \"It can do wonders.\"",
+  "source": "Heyrick 1824 pamphlet; fact card elizabeth-heyrick F1–F2"
+ },
+ "caregiver-regular-guy": {
+  "dateline": "Foynes, Ireland, 1944–45",
+  "trueStory": true,
+  "pull": "By 1947 it was being offered to every traveller getting off a plane at Shannon: not only the important ones.",
+  "source": "Oxford IRISH COFFEE pdf 1075; fact card joe-sheridan F1"
+ },
+ "caregiver-ruler": {
+  "dateline": "West Indies, 1740",
+  "trueStory": true,
+  "pull": "And he had it mixed in the open, in a half-barrel, so nobody could think they'd been given short measure.",
+  "source": "Oxford GROG pdf 951; fact card grog-admiral-vernon F1"
+ },
+ "caregiver-sage": {
+  "dateline": "Oregon, the 2000s",
+  "trueStory": true,
+  "pull": "In his own book, Wondrich points you to it, and in the same sentence warns you that he had a hand in developing it.",
+  "source": "Proper p. 241; Oxford OLD TOM pdf 1438 (2008 release)",
+  "flag": "No year for the advice itself (C2); \"the 2000s\" is the reading's own span."
+ },
+ "creator-caregiver": {
+  "dateline": "The Savoy, London",
+  "trueStory": true,
+  "pull": "He came in once worn out from overwork and asked her to make him \"quite alive\" again.",
+  "source": "Oxford COLEMAN, ADA pdf 554; fact card hanky-panky F1–F4",
+  "flag": "No safe year: 1921 is only Oxford's \"likely\" (C4), so place only."
+ },
+ "creator-explorer": {
+  "dateline": "Brooklyn",
+  "trueStory": true,
+  "pull": "The bitters became the base. The whiskey, just half an ounce, became the accent.",
+  "source": "fact card angostura-trinidad-sour; Proper p. 315",
+  "flag": "No safe year: sources give 2008 and 2009 (C1), so place only."
+ },
+ "creator-hero": {
+  "dateline": "New Orleans, 1915",
+  "trueStory": true,
+  "pull": "Beside each bartender stood one or two young Black men hired only to shake.",
+  "source": "fact card ramos-gin-fizz F7 (Mardi Gras 1915)"
+ },
+ "creator-innocent": {
+  "dateline": "San Francisco, the mid-1980s",
+  "trueStory": true,
+  "pull": "He made that call, he says, \"as a young person with no authority\".",
+  "source": "Proper p. 81; fact card tommys-margarita"
+ },
+ "creator-jester": {
+  "dateline": "New York, 1886",
+  "trueStory": true,
+  "pull": "At the trial, both sides read dictionaries aloud.",
+  "source": "Nix v. Hedden 149 U.S. 304; fact card tomato F1",
+  "flag": "Dateline uses the 1886 import at the port of New York; the ruling itself is 1893 (Supreme Court), if Robin prefers the verdict."
+ },
+ "creator-lover": {
+  "dateline": "Louisiana, 1993",
+  "trueStory": true,
+  "pull": "He bought a book about absinthe, read it three times, got in touch with its author, and started trying to distil it himself.",
+  "source": "Proper pp. 244–245; fact card ted-breaux-absinthe"
+ },
+ "creator-magician": {
+  "dateline": "2012",
+  "trueStory": true,
+  "pull": "Bottles of it were found in Charles Dickens's cellar after he died.",
+  "source": "Liquid Intelligence p. 263; fact card clarified-milk-punch",
+  "flag": "No place named in the story or card (Arnold's bar is unnamed), so the dateline is the year only."
+ },
+ "creator-outlaw": {
+  "dateline": "Lower Manhattan",
+  "trueStory": true,
+  "pull": "By 1990 it was all over New York, and it became the one drink of its time that nearly everyone knew by name.",
+  "source": "Proper pp. 42–44 (the Odeon)",
+  "flag": "No safe year: the dossier says \"most likely 1988, never flat\", so place only."
+ },
+ "creator-regular-guy": {
+  "dateline": "New York, 1916",
+  "trueStory": true,
+  "pull": "In 1930, a far more famous London cocktail book printed the Aviation without the violette. There's no record of why.",
+  "source": "Oxford ENSSLIN pdf 728; fact card hugo-ensslin-aviation"
+ },
+ "creator-ruler": {
+  "dateline": "New York, 2005",
+  "trueStory": true,
+  "pull": "The book that tells the story says an eighth of an ounce could turn into a federal case.",
+  "source": "Oxford PEGU CLUB pdf 1490; Proper pp. 160–165"
+ },
+ "creator-sage": {
+  "dateline": "1876",
+  "trueStory": true,
+  "pull": "He added three new ones and called them \"Improved\", with a cherry liqueur and a dash of absinthe, the fashionable bottle of the day.",
+  "source": "Imbibe! pdf 17, 179; fact card jerry-thomas-improved-cocktail",
+  "flag": "No place named in the story or card for the 1876 edition, so the dateline is the year only."
+ },
+ "explorer-caregiver": {
+  "dateline": "Mexico",
+  "trueStory": true,
+  "pull": "Letting them bloom, Medellín said, is \"considered a waste\": a plant that flowers can't be harvested for tequila.",
+  "source": "fact card bat-friendly-agave-suro; batfriendly.org; Natural Areas Journal 2016",
+  "flag": "No safe year in the story itself; the anchors give the programme's first list as 2016 (batfriendly.org), so 'Mexico, 2016' is possible if Robin accepts it."
+ },
+ "explorer-creator": {
+  "dateline": "Dallas, the early 1970s",
+  "trueStory": true,
+  "pull": "The answer wasn't in a bar. It was at a 7-Eleven, in the Slurpee machine.",
+  "source": "fact card mariano-martinez-frozen-margarita C1 (\"early 1970s\" satisfies 1971/1973); NMAH 2005.0226.01"
+ },
+ "explorer-hero": {
+  "dateline": "Frankfort, Kentucky, 1984",
+  "trueStory": true,
+  "pull": "In 1984, Lee and his staff did it in front of everyone: barrels bottled one at a time, and sold.",
+  "source": "fact card elmer-t-lee-blantons; Oxford BLANTON'S pdf 283 (launch 1984 agrees everywhere)"
+ },
+ "explorer-innocent": {
+  "dateline": "Islington, London, 2009",
+  "trueStory": true,
+  "pull": "For years he tried to interest his customers in the idea. Nobody paid it a bit of attention, he said.",
+  "source": "fact card tony-conigliaro-aged-cocktails; Oxford pdf 216-217; PUNCH 2019 (Oct 2009 visit)"
+ },
+ "explorer-jester": {
+  "dateline": "New York, 2012",
+  "trueStory": true,
+  "pull": "Then cast iron, then steel, then hot stones, which worked, though he thought better of serving people drinks with stones in them.",
+  "source": "fact card dave-arnold-red-hot-poker; Proper pp. 225-226 (bar with David Chang, 2012)"
+ },
+ "explorer-lover": {
+  "dateline": "Soho, London",
+  "trueStory": true,
+  "pull": "As soon as he tried it, he said, he was \"back in that blackberry patch on the Isle of Wight\", the island where he grew up.",
+  "source": "fact card bramble-dick-bradsell F7 (Fred's Club, Soho; Oxford pdf 336)",
+  "flag": "No year: dossier rules it out (Oxford 1989 vs Proper 1991 or '92), so the dateline is place only."
+ },
+ "explorer-magician": {
+  "dateline": "New York, 1973",
+  "trueStory": true,
+  "pull": "Years later he looked back and called that hour meditating, in effect, though he hadn't known it at the time: \"I just knew it worked.\"",
+  "source": "fact card gary-regan-mindful-bartending F2; Joy of Mixology pdf 119"
+ },
+ "explorer-outlaw": {
+  "dateline": "New York",
+  "trueStory": true,
+  "pull": "It became the bar's best-selling drink, and it set off a whole run of fat-washed drinks, made with nuts, chorizo, even olive oil.",
+  "source": "fact card don-lee-bentons-old-fashioned; Proper p. 275 (PDT)",
+  "flag": "No year: dossier rules it out (Proper 2007 vs Oxford 2008), so the dateline is place only."
+ },
+ "explorer-regular-guy": {
+  "dateline": "Oaxaca, Mexico",
+  "trueStory": true,
+  "pull": "The policeman said his uncle made mezcal up in the mountains.",
+  "source": "fact card del-maguey-oaxaca-old-fashioned; Oxford COOPER pdf 573; VinePair 2021",
+  "flag": "No year: dossier rules out all dates (1986 vs 1990 for the find), so the dateline is place only."
+ },
+ "explorer-ruler": {
+  "dateline": "Antarctica, 1909",
+  "trueStory": true,
+  "pull": "\"But all this was not the Pole,\" he wrote. \"And how sadly I realised that I need not say.\"",
+  "source": "fact card shackleton-nimrod-mackinlays; Shackleton in the Antarctic (1911); SPRI"
+ },
+ "explorer-sage": {
+  "dateline": "Los Angeles, 1979",
+  "trueStory": true,
+  "pull": "Whatever the drink, Ray gave the same reply: \"Rum and fruit juice.\"",
+  "source": "fact card jeff-berry-zombie F2; Proper p. 258 (Tiki-Ti, Sunset Boulevard, 1979)"
+ },
+ "hero-caregiver": {
+  "dateline": "Greenwich Village, 1919",
+  "trueStory": true,
+  "pull": "Barney agreed to plead guilty on one condition: that his waiters were let go.",
+  "source": "fact card barney-gallant; Joy of Mixology pdf 59"
+ },
+ "hero-creator": {
+  "dateline": "New York, 1933",
+  "trueStory": true,
+  "pull": "One wanted to know whether all scotch was really made in Australia.",
+  "source": "fact card g-selmer-fougner; Oxford FOUGNER pdf 833 (column from 20 Oct 1933)"
+ },
+ "hero-explorer": {
+  "dateline": "Colorado",
+  "trueStory": true,
+  "pull": "Years later Seed said the conifer \"is hardly an essential bar ingredient\".",
+  "source": "fact card eric-seed-zirbenz; Proper p. 240 (Colorado ski towns, Aspen)",
+  "flag": "No year in the story; dossier allows only 'by 2005' (2004 vs 2005 start), so the dateline is place only."
+ },
+ "hero-innocent": {
+  "dateline": "New York, the mid-eighties",
+  "trueStory": true,
+  "pull": "One day Baum tasted his beef-broth drink and said: \"There's something wrong with it. Fix it.\"",
+  "source": "fact card joe-baum-dale-degroff-bullshot C3 (\"the mid-1980s\" safe; 1984 vs 1985)"
+ },
+ "hero-jester": {
+  "dateline": "Oakland, 1934",
+  "trueStory": true,
+  "pull": "Four years later the shack became Trader Vic's, and by the time he died there were more than twenty, across North America, Europe and Japan.",
+  "source": "fact card trader-vic-bergeron; Oxford BERGERON pdf 258 (shack 1934)"
+ },
+ "hero-lover": {
+  "dateline": "1953",
+  "trueStory": false,
+  "pull": "It's fiction, of course. The drink is real, and it's still on cocktail lists.",
+  "source": "fact card vesper-casino-royale; Oxford VESPER pdf 2099 (Casino Royale, 1953)",
+  "flag": "trueStory false: the story is Bond's order in Fleming's novel, fiction by its own admission; and the book's casino town is fictional, so the dateline is the publication year only."
+ },
+ "hero-magician": {
+  "dateline": "Havana, 1935",
+  "trueStory": true,
+  "pull": "He told a journalist in 1935 that he made up a new drink every day, \"as self discipline\".",
+  "source": "fact card constante-ribalaigua-floridita F5, F9; Oxford pdf 1655-1656"
+ },
+ "hero-outlaw": {
+  "dateline": "Brooklyn, 2003",
+  "trueStory": true,
+  "pull": "She was famous for her shelves, and often just as famous for her temper.",
+  "source": "fact card lenell-smothers-red-hook F1; Proper p. 237"
+ },
+ "hero-regular-guy": {
+  "dateline": "The Pacific Northwest",
+  "trueStory": true,
+  "pull": "Marco asked two senior bartenders, and neither of them knew the recipe.",
+  "source": "fact card marco-dionysos P1-P2; Proper p. 72 (audit H10: no city, no year)",
+  "flag": "No year and no city on record for the Singapore Sling night, so the dateline is 'The Pacific Northwest' alone."
+ },
+ "hero-ruler": {
+  "dateline": "New Orleans, 2009",
+  "trueStory": true,
+  "pull": "What he did give the bar was a dress code: no shorts, no flip-flops, no baseball caps.",
+  "source": "fact card neal-bodenheimer-cure; Proper p. 285; The Gannet 2015"
+ },
+ "hero-sage": {
+  "dateline": "Daiquirí, Cuba, the 1890s",
+  "trueStory": true,
+  "pull": "And for years afterwards, the old newspaper accounts say, he simply called it his rum sour, and kept taking it to the bars of Santiago.",
+  "source": "fact card jennings-cox-daiquiri C1 (\"In the 1890s\" passes; 1896 vs 1898); Oxford pdf 621",
+  "flag": "trueStory true on a hedged basis: the scene is the Cox family's telling relayed by Oxford, which itself says he made the first Daiquiri or oversaw it; Robin may prefer false."
+ },
+ "innocent-caregiver": {
+  "dateline": "Andalusia",
+  "trueStory": true,
+  "pull": "The flor sits between that air and the wine and breathes up most of the oxygen itself, so the wine underneath stays protected.",
+  "source": "fact card flor.md F4 (Andalucía; sherry.wine, Luyten); no year: C2 'for years' only"
+ },
+ "innocent-creator": {
+  "dateline": "Algorta, 1972",
+  "trueStory": true,
+  "pull": "In Bilbao, they take it seriously. The most trusted account of its history was put together by an artists' collective there called Funky Project.",
+  "source": "fact card kalimotxo.md C2 (Oxford pdf 386 gives 1972; council 12 Aug 1972)"
+ },
+ "innocent-explorer": {
+  "dateline": "Cognac, 1872",
+  "trueStory": true,
+  "pull": "Its nearest known relatives live on rock in Antarctica.",
+  "source": "fact card baudoinia-compniacensis.md F2; Scott et al., Mycologia 2007 (1872 = his raising it; C3)"
+ },
+ "innocent-hero": {
+  "dateline": "Slovakia, 1994",
+  "trueStory": true,
+  "pull": "Two months after its first ceremony, a package arrived. He didn't know Paparazzi had won Best Cocktail Menu until he opened his mail.",
+  "source": "fact card stanislav-vadrna-paparazzi.md F1–F2; Simonson, A Proper Drink p. 206",
+  "flag": "Award year is fenced (C1: 2007 vs 2008), so the dateline uses the story's stated 1994 shaker scene rather than the central Bratislava win."
+ },
+ "innocent-jester": {
+  "dateline": "Melbourne, 2001",
+  "trueStory": true,
+  "pull": "Sebastian Reaburn, who worked there, said the menu \"read like a comedy script\".",
+  "source": "fact card sam-ross-ginger-paper-plane.md F1; A Proper Drink p. 144"
+ },
+ "innocent-lover": {
+  "dateline": "Brooklyn, 1910",
+  "trueStory": true,
+  "pull": "In 1945 the Bronx borough president teased that Brooklyn still had no cocktail, and offered one made with vinegar and DDT.",
+  "source": "fact card brooklyn-cocktail.md F7; Cincinnati Enquirer 7 Jul 1910, Kansas City Star 4 Jul 1910"
+ },
+ "innocent-magician": {
+  "dateline": "Tasmania, 1992",
+  "trueStory": true,
+  "pull": "Within two weeks of the licence, the phone rang at ten at night.",
+  "source": "fact card bill-lark-tasmania.md C6 (1992 safe: Oxford pdf 2173, Spirits Business 2022)"
+ },
+ "innocent-outlaw": {
+  "dateline": "New England",
+  "trueStory": true,
+  "pull": "Indoors, he wrote, it tasted like another fruit: one he took out of his desk was \"sour enough to set a squirrel's teeth on edge\".",
+  "source": "fact card thoreau-wild-apples-stone-fence.md W15 (Thoreau, 'Wild Apples', Excursions 1863); no year in the story (C4)",
+  "flag": "No safe year: the story states none and the essay's date (1862) isn't marked safe (C4), so the dateline is place only, and 'New England' is the card's region, not a town the story names."
+ },
+ "innocent-regular-guy": {
+  "dateline": "India, the 1600s",
+  "trueStory": true,
+  "pull": "Some bowls even had words painted inside that only appeared once everyone had had their share: \"Drink fair.\" \"One bowl more.\"",
+  "source": "Oxford PUNCH pdf 1576–1578 (Mundy, Surat c. 1630; EIC letter 1632)"
+ },
+ "innocent-ruler": {
+  "dateline": "Barcelona, 1933",
+  "trueStory": true,
+  "pull": "Her best teachers, she told him, were always the guests, and she read it in their faces after the second sip.",
+  "source": "fact card boadas-maria-dolors-throw.md F1; Oxford pdf 303 and Boadas history page"
+ },
+ "innocent-sage": {
+  "dateline": "New York",
+  "trueStory": true,
+  "pull": "Once he had a job behind a bar, for a while, whenever someone ordered a Whiskey Sour, he made a Scotch Sour.",
+  "source": "fact card gary-regan-mindful-bartending.md F2 (Joy pdf 119, 133: he began tending bar in New York); WC4 bars any year",
+  "flag": "The story names no place or year (WC4 fences date, bar and arrival); 'New York' is inferred from card F2, where he started bartending, and the anecdote's page doesn't name the city."
+ },
+ "jester-caregiver": {
+  "dateline": "St. Louis, 1917",
+  "trueStory": true,
+  "pull": "She'd tried other party themes before it, and in one of them the guests dressed up as babies and drank from bottles.",
+  "source": "fact card clara-bell-walsh-cocktail-party.md; Oxford COCKTAIL PARTY pdf 512"
+ },
+ "jester-creator": {
+  "dateline": "Paris, 1924",
+  "trueStory": true,
+  "pull": "By 1927 it had over five thousand members, and branches, called traps, from Shanghai to Buenos Aires.",
+  "source": "fact card harry-mcelhone-international-bar-flies.md F5; the bar's 1927 book (dossier Sources still 'provisional')",
+  "flag": "The story leans on the bar's own 1927 book ('the way a Paris bar's own book tells it'), and the dossier's Sources section is still marked 'provisional'."
+ },
+ "jester-explorer": {
+  "dateline": "Chicago, 2011",
+  "trueStory": true,
+  "pull": "At the table the ice was cracked, and the drink ran out over it.",
+  "source": "A Proper Drink pp. 234–235; Chicago Reader 26 May 2011 (F1, F7); dossier Sources 'provisional'"
+ },
+ "jester-hero": {
+  "dateline": "Perote, Mexico, 1843",
+  "trueStory": true,
+  "pull": "As one prisoner's journal tells it, the captain turned, frowned, and couldn't decide whether to laugh or swear.",
+  "source": "fact card perote-texian-egg-nog.md; Green, Journal of the Texian Expedition (1845) p. 259–261"
+ },
+ "jester-innocent": {
+  "dateline": "Wembley, 1924",
+  "trueStory": false,
+  "pull": "For years, the Green Swizzle itself was taken for fiction.",
+  "source": "fact card green-swizzle-wodehouse.md C1 ('a story from 1924', Saturday Evening Post 27 Sep 1924); Oxford WORLD'S FAIRS pdf 756",
+  "flag": "trueStory false: the core scene is Bertie Wooster in a Wodehouse short story (the dossier labels every story row 'fiction'); only the Green Swizzle and the 1924 Wembley exhibition are real, so Robin may want a different label than 'A true story' here."
+ },
+ "jester-lover": {
+  "dateline": "New Orleans",
+  "trueStory": true,
+  "pull": "Then the warm brandy runs down a long spiral of orange peel studded with cloves.",
+  "source": "fact card cafe-brulot.md; Oxford CAFÉ BRÛLOT pdf 381 (no decade: C3)",
+  "flag": "No safe date: the dossier bars any decade (C3) and Antoine's 1840 is owned by a sibling pour, so the dateline is place only."
+ },
+ "jester-magician": {
+  "dateline": "New York, 2007",
+  "trueStory": true,
+  "pull": "\"A little Get Smart,\" he called it, after the 1960s TV spy spoof whose hero steps into a phone booth and dials a number.",
+  "source": "fact card brian-shebairo-pdt-phone-booth.md; Oxford pdf 521, A Proper Drink pp. 229, 242, 270"
+ },
+ "jester-outlaw": {
+  "dateline": "Hudson, New York, 1806",
+  "trueStory": true,
+  "pull": "Under \"Gain\", it said \"Nothing\". Among the losses were twenty-five glasses of \"cock-tail\".",
+  "source": "fact card harry-croswell-cock-tail.md; Imbibe! pdf 168–170 (May 1806 Balance)"
+ },
+ "jester-regular-guy": {
+  "dateline": "New York, 1896",
+  "trueStory": true,
+  "pull": "One line reads, in full: \"Dave Ray—Boilermaker and His Helper.\"",
+  "source": "Oxford pdf 306 citing New York Herald 5 Apr 1896 (card boilermaker.md F5; C1)",
+  "flag": "The 1896 Herald item rests on Oxford alone: Hester couldn't find it in the scanned issue (C1), though the 1933 Yonkers column was read on the page."
+ },
+ "jester-ruler": {
+  "dateline": "Washington, 1889",
+  "trueStory": true,
+  "pull": "And in 1895, when he wrote his recipe out by hand for a newspaper, the lime was in it.",
+  "source": "fact card george-williamson-joe-rickey.md; Oxford RICKEY pdf 1663 ('by the end of 1889')"
+ },
+ "jester-sage": {
+  "dateline": "San Francisco, 1906",
+  "trueStory": true,
+  "pull": "A whiskey warehouse, A. P. Hotaling's, came through the disaster. People had saved it: its own workers among them, with the fire department and the Navy.",
+  "source": "fact card charles-k-field-hotaling-verse.md F4–F5 (Minnick 2024); the fire is dated, the verse is not (L6)",
+  "flag": "The dossier has no library page for this story (web sources only: Minnick 2024, Stanford OAC); the verse is 'credited' to Field, never dated."
+ },
+ "lover-caregiver": {
+  "dateline": "New York",
+  "trueStory": true,
+  "pull": "When he went home to Massachusetts, his house had a number on every room door.",
+  "source": "fact card orsamus-willard; Oxford pdf 2192-94 (no date, C1)"
+ },
+ "lover-creator": {
+  "dateline": "Antibes, the 1920s",
+  "trueStory": true,
+  "pull": "But among the Murphys' papers at Yale there's a card in Gerald's handwriting, headed \"Juice of A Few Flowers\".",
+  "source": "fact card gerald-murphy; Gastronomica 7:2"
+ },
+ "lover-explorer": {
+  "dateline": "New York, 1929",
+  "trueStory": true,
+  "pull": "There was a printing press in the barn on his farm, and among the things it printed were dinner menus.",
+  "source": "fact card crosby-gaige; Oxford GAIGE pdf 861"
+ },
+ "lover-hero": {
+  "dateline": "Amiens, 1889",
+  "trueStory": true,
+  "pull": "Then she stepped onto the platform, and the Vernes were standing there, waiting for her.",
+  "source": "Bly's own book, ch. III; card F2"
+ },
+ "lover-innocent": {
+  "dateline": "Scotland, 1920",
+  "trueStory": true,
+  "pull": "In January 1920 he married her daughter, Rita Cowan, and she went to Japan with him.",
+  "source": "Oxford pdf 1975; marriage Jan 1920 not in C1/C2"
+ },
+ "lover-jester": {
+  "dateline": "Emeryville",
+  "trueStory": true,
+  "pull": "One of the first people to taste it told him he'd just invented grapefruit juice.",
+  "source": "Proper p. 58; Oxford pdf 1099 (no year, C1)"
+ },
+ "lover-magician": {
+  "dateline": "New York, 1994",
+  "trueStory": true,
+  "pull": "Shingo Gokan, who came from Tokyo in 2006, worked there six years before he had a single friend who was a bartender.",
+  "source": "A Proper Drink (Simonson) F3, F5"
+ },
+ "lover-outlaw": {
+  "dateline": "New York, 2004",
+  "trueStory": true,
+  "pull": "They broke the scene's rules together: they poured by eye while other serious bars measured, and they served food.",
+  "source": "Proper p. 155; Oxford pdf 721"
+ },
+ "lover-regular-guy": {
+  "dateline": "New York, the late 1990s",
+  "trueStory": true,
+  "pull": "Siegal's answer, as he tells it, is four words: \"I bought thirty copies.\"",
+  "source": "Proper pp. 87-88 (F2); audit y1"
+ },
+ "lover-ruler": {
+  "dateline": "1928",
+  "trueStory": true,
+  "pull": "When D. W. Griffith offered her five dollars a day, she asked for ten, and got it.",
+  "source": "fact card mary-pickford P10 (PBS)",
+  "flag": "Place left off: the story and fact card never say where Pickford cut her curls, so the dateline is the year alone."
+ },
+ "lover-sage": {
+  "dateline": "New Orleans, around 2000",
+  "trueStory": true,
+  "pull": "Before Hurricane Katrina, he was one of the few in the city trying anything adventurous behind a bar.",
+  "source": "Oxford ICE MALLET pdf 1066 (his recollection)"
+ },
+ "magician-caregiver": {
+  "dateline": "New York, 1911",
+  "trueStory": true,
+  "pull": "The 1911 Pink Lady was a measure of ojen, a sweet Spanish anise liqueur, shaken with Peychaud's and Angostura bitters.",
+  "source": "Oxford via Wondrich/Grimes; card F3"
+ },
+ "magician-creator": {
+  "dateline": "New York, 1999",
+  "trueStory": true,
+  "pull": "So he went to Astor Wines and bought the one bottle the shop had.",
+  "source": "A Proper Drink (Simonson)"
+ },
+ "magician-explorer": {
+  "dateline": "Dublin, 1824",
+  "trueStory": true,
+  "pull": "His first still was made of wood and iron, a single column.",
+  "source": "Oxford COFFEY pdf 541-543; card C2 (1824 safe)"
+ },
+ "magician-hero": {
+  "dateline": "Cognac, 1893",
+  "trueStory": true,
+  "pull": "Folle Blanche, the region's floral grape, didn't suit grafting: its bunches grew so tight that they rotted.",
+  "source": "Oxford COGNAC pdf 545-546 (F1, F4)"
+ },
+ "magician-innocent": {
+  "dateline": "Kilmarnock, 1885",
+  "trueStory": true,
+  "pull": "Between 1865 and 1880 the business grew fourfold, and from 1880 it boomed.",
+  "source": "Oxford pdf 1111-1112; 1885 letter"
+ },
+ "magician-jester": {
+  "dateline": "New Orleans",
+  "trueStory": true,
+  "pull": "Early in the twentieth century six or seven bands were normal, and you hear of eleven, even fourteen.",
+  "source": "Oxford pdf 1558 (F14), Nick undated"
+ },
+ "magician-lover": {
+  "dateline": "London",
+  "trueStory": true,
+  "pull": "So the bar has a famous house rule: no more than two per guest.",
+  "source": "Oxford; Amis 1988 (C2: say London)"
+ },
+ "magician-outlaw": {
+  "dateline": "Louisville, 1995",
+  "trueStory": true,
+  "pull": "In 2016 he admitted he had invented the drink himself, and the story with it.",
+  "source": "Simonson NYT 2016 via Spirits Business",
+  "flag": "The story is true, but it is the true story of a hoax (the drink's 'history' was invented), so the 'A true story' label may read as a wink here."
+ },
+ "magician-regular-guy": {
+  "dateline": "1862",
+  "trueStory": true,
+  "pull": "In 1883 a Chicago bartender sniffed that it was a drink for the country, where people cared more for watching the blaze than for the drink.",
+  "source": "card jerry-thomas-blue-blazer F2; Imbibe! pdf 142",
+  "flag": "Place left off: the fact card never names where Thomas's 1862 book appeared, so the dateline is the year alone."
+ },
+ "magician-ruler": {
+  "dateline": "London, 1731",
+  "trueStory": true,
+  "pull": "His chief bartender, Mrs. Gaywood, and the young women under her put each drink together in front of the guest.",
+  "source": "Oxford ASHLEY pdf 160-163"
+ },
+ "magician-sage": {
+  "dateline": "Friuli, 1973",
+  "trueStory": true,
+  "pull": "In 1973, Giannola and Benito Nonino, of Friuli in Italy's north-east, did something small and new.",
+  "source": "Oxford GRAPPA pdf 936; house (C2: 1973 safe)"
+ },
+ "outlaw-caregiver": {
+  "dateline": "San Francisco, 1949–1963",
+  "trueStory": true,
+  "pull": "One witness remembers hundreds of people still there at six in the morning, drinking only soft drinks and juices.",
+  "source": "Stoumen v. Reilly 1951; Kamiya SF Chronicle 2014; NPS (card sol-stoumen-black-cat)"
+ },
+ "outlaw-creator": {
+  "dateline": "Glenlivet, Scotland, 1824",
+  "trueStory": true,
+  "pull": "In 1824 his became the first licensed distillery in Speyside, and his old colleagues threatened him.",
+  "source": "Oxford GLENLIVET pdf 917; Grant, Memoirs p. 373"
+ },
+ "outlaw-explorer": {
+  "dateline": "Bristol, 1979",
+  "trueStory": true,
+  "pull": "One of them, David Kirke, in top hat and tails, had covered his face so that his mother wouldn't recognise him in the papers next morning.",
+  "source": "GWR; NYT 2023 (card david-kirke-clifton-bungee)",
+  "flag": "Whole story rests on secondary web sources (no library entry), per the audit."
+ },
+ "outlaw-hero": {
+  "dateline": "Nigeria, 1968",
+  "trueStory": true,
+  "pull": "That September, a Lagos paper's headline read \"Solarin Freed of Gin Charge\".",
+  "source": "Oxford OGOGORO pdf 1417; Lagos Daily Times 14 Sep 1968",
+  "flag": "No place for the arrest is on any page, so country only; 1968 is Oxford's, contested by secondaries (C1)."
+ },
+ "outlaw-innocent": {
+  "dateline": "the French Alps, 2023",
+  "trueStory": true,
+  "pull": "In many places, shelves emptied. Some bartenders who'd built drinks around it had to find stand-ins.",
+  "source": "Oxford CHARTREUSE pdf 439; Daily Pour 2023 (Jan 2023 letter)"
+ },
+ "outlaw-jester": {
+  "dateline": "Trinidad, 1943",
+  "trueStory": true,
+  "pull": "A New York court later found that Lord Invader had written the words.",
+  "source": "Baron v. Leo Feist 1948 (Amsterdam in Trinidad Sept 1943); Khan v. Leo Feist 1947"
+ },
+ "outlaw-lover": {
+  "dateline": "Napa Valley, 1880",
+  "trueStory": true,
+  "pull": "They kept their wine in the old mine tunnel, the one place on that hot hillside that stayed cool.",
+  "source": "Sanchez ch. V (married 19 May 1880); Silverado Squatters",
+  "flag": "1880 is in the anchors (wedding 19 May 1880, that summer) but the story itself only says 'the next spring'; fall back to 'California, 1879' if only text-stated years are allowed."
+ },
+ "outlaw-magician": {
+  "dateline": "Barbaresco, 1999",
+  "trueStory": true,
+  "pull": "It shocked the wine world, and critics mourned Barbaresco's reputation.",
+  "source": "O'Keefe, The Wine News 2006 (late 1999, from the 1996 vintage)",
+  "flag": "The story states only 'the 1996 vintage'; the decision year 1999 is from the anchors (O'Keefe), not the text."
+ },
+ "outlaw-regular-guy": {
+  "dateline": "Seattle, 1920–1928",
+  "trueStory": true,
+  "pull": "But in a trade that was dangerous and often violent, he had a rule of his own: his men weren't allowed to carry guns.",
+  "source": "HistoryLink; Olmstead v. United States 277 U.S. 438 (1928)"
+ },
+ "outlaw-ruler": {
+  "dateline": "San Francisco, 1965",
+  "trueStory": true,
+  "pull": "He brought in a microscope and, in his words, spent his whole nest egg on the brewery. It took ten years to make money.",
+  "source": "Oxford ANCHOR DISTILLING pdf 103; Lucchesi SF Chronicle 2015"
+ },
+ "outlaw-sage": {
+  "dateline": "Portland, 2012",
+  "trueStory": true,
+  "pull": "Some readers teased him, and one asked whether it was still an Amaretto Sour at all.",
+  "source": "Morgenthaler post 9 Feb 2012 (card F6, F9)"
+ },
+ "regular-guy-caregiver": {
+  "dateline": "Naples",
+  "trueStory": true,
+  "pull": "Someone having a coffee at the bar pays for a second one before they leave, for someone who can't afford one.",
+  "source": "NPR 2013; Mancini, Global Informality Project",
+  "flag": "Custom has no safe date or era (C1: sources conflict), so place only."
+ },
+ "regular-guy-creator": {
+  "dateline": "Fife, Scotland, 2005",
+  "trueStory": true,
+  "pull": "When he retired in 2015, the gin trade's guild gave him a lifetime award.",
+  "source": "Oxford NICHOL pdf 1388 (Cameronbridge, Fife; 2005)",
+  "flag": "Story names only Scotland/Tullibody; Fife (Cameronbridge) comes from the fact card."
+ },
+ "regular-guy-explorer": {
+  "dateline": "Amsterdam, 1976",
+  "trueStory": true,
+  "pull": "His partner Phil Bayly remembered his rule for the staff: \"Tight on bottom, loose on top.\"",
+  "source": "A Proper Drink p. 79; Oxford pdf 743"
+ },
+ "regular-guy-hero": {
+  "dateline": "Gardiner, New York, 2001",
+  "trueStory": true,
+  "pull": "Lee joked that the only fermenting he'd ever done was cinnamon buns with his children.",
+  "source": "Oxford HUDSON pdf 1037 (2001, Gardiner NY)",
+  "flag": "Story says 'New York's Shawangunk Ridge'; Gardiner is from Oxford via the card."
+ },
+ "regular-guy-innocent": {
+  "dateline": "São Paulo, 1944",
+  "trueStory": true,
+  "pull": "Brazil's law, though, defines a caipirinha as cachaça, lime and sugar, and has since 2003.",
+  "source": "Oxford CAIPIRINHA pdf 383 (Andrade 1944)",
+  "flag": "Dateline uses the Andrade year; the caipirinha's own emergence has no safe date (only 'by the end of the 1960s')."
+ },
+ "regular-guy-jester": {
+  "dateline": "Chicago",
+  "trueStory": true,
+  "pull": "Then the drink's owner, Pat Gabelick, turned up, unannounced, with her lawyer at the bar where he worked.",
+  "source": "WBEZ 2023; Oxford JEPPSON'S MALÖRT pdf 1103",
+  "flag": "Dossier says keep years out (dates conflict), so place only; the meeting rests on WBEZ alone."
+ },
+ "regular-guy-lover": {
+  "dateline": "Cohasset, Massachusetts, the 1890s",
+  "trueStory": false,
+  "pull": "Later owners put up a neon lighthouse that read \"Home of Cohasset Punch\", and the drink stayed for about ninety years.",
+  "source": "Oxford COHASSET PUNCH pdf 549 (1890s, citing a 1902 trade paper)",
+  "flag": "The origin is framed 'the story goes' and conflicts across sources (C1, C2); only the Chicago fixture 1890s–1986 is firm, so 'A true story' needs Robin's call."
+ },
+ "regular-guy-magician": {
+  "dateline": "Hawaii, before 1800",
+  "trueStory": true,
+  "pull": "One history from 1891 says that at one time almost every chief had a still.",
+  "source": "Alexander 1891 p. 157; Oxford OKOLEHAO pdf 1419",
+  "flag": "Stevenson's credit is hedged even in 1891 ('is said to'), and the name's reason is 'said to'; the still itself is on two sources."
+ },
+ "regular-guy-outlaw": {
+  "dateline": "New York",
+  "trueStory": true,
+  "pull": "On the bills, Blacknell said: \"Knowing Simon, he probably didn't tell me how much it cost… I didn't really mind; he was doing a good job.\"",
+  "source": "A Proper Drink pp. 109–111",
+  "flag": "No start year allowed (C1: Oxford late 1990s vs Proper 2002), so place only."
+ },
+ "regular-guy-ruler": {
+  "dateline": "Houston, 2014",
+  "trueStory": true,
+  "pull": "Almost every distributor has them, he said, though maybe not so many in Houston any more, because he'd been spreading the word.",
+  "source": "PUNCH 2 Apr 2014 (card F5, F6)"
+ },
+ "regular-guy-sage": {
+  "dateline": "Frant, England, 2016",
+  "trueStory": true,
+  "pull": "Every winter, pubs and fairs hold contests to settle whose is best.",
+  "source": "Severn Bites 2016 quoting the 2016 press release (weak secondary)",
+  "flag": "The 2016 championship rests on one weak secondary source."
+ },
+ "ruler-caregiver": {
+  "dateline": "Paris, 1924",
+  "trueStory": true,
+  "pull": "He'd try a drink on the house, and usually, he said, the free drink worked.",
+  "source": "fact card jimmie-charters-dingo F2; Charters memoir 1937"
+ },
+ "ruler-creator": {
+  "dateline": "London, the 1990s",
+  "trueStory": true,
+  "pull": "As he told Robert Simonson in 2014, he didn't like that it was called a Martini.",
+  "source": "fact card wayne-collins-high-holborn; Proper pp. 39, 102",
+  "flag": "The Class article itself is undated; 'the 1990s' is the reading's own setting (dossier: late-1990s chapter), not the article's date."
+ },
+ "ruler-explorer": {
+  "dateline": "San Francisco, 1969",
+  "trueStory": true,
+  "pull": "A few years before it closed, he legally changed his own name to the bar's, Henry Africa, and kept it until he died.",
+  "source": "fact card henry-africa F1; Oxford pdf 995"
+ },
+ "ruler-hero": {
+  "dateline": "Kentucky, 1933",
+  "trueStory": true,
+  "pull": "By the next August, building work had begun, and about four months after that the stills were running.",
+  "source": "fact card jim-beam-repeal F5-F6 (Clermont); Oxford pdf 1105"
+ },
+ "ruler-innocent": {
+  "dateline": "Melbourne, 1997",
+  "trueStory": true,
+  "pull": "He bought every gin he could find, about fifteen back then, and drove out of his way for some of them.",
+  "source": "fact card vernon-chalker-gin-palace F1; Proper p. 141"
+ },
+ "ruler-jester": {
+  "dateline": "London, 1996",
+  "trueStory": true,
+  "pull": "Its owners wanted a party bar, loud and busy every night. Ankrah said other bars were \"very, very passively boring\".",
+  "source": "fact card lab-london-academy-of-bartenders F2; Proper p. 99",
+  "flag": "Card C4 bars 'London, late 1990s' as the reading's opening and C2 bars a year for the bar, so the dateline uses the school's 1996 opening (in the story); Robin may prefer 'London' alone."
+ },
+ "ruler-lover": {
+  "dateline": "Monte Carlo, 1888",
+  "trueStory": true,
+  "pull": "He liked American drinks already, so Ciro never had to win him over.",
+  "source": "fact card ciro-capozzi F5; Oxford pdf 461"
+ },
+ "ruler-magician": {
+  "dateline": "New York, 1933",
+  "trueStory": true,
+  "pull": "Someone at the time described his waxed moustache and the carnation in his lapel.",
+  "source": "fact card patrick-gavin-duffy F5, F10; Brooklyn Daily Eagle 1 Dec 1933"
+ },
+ "ruler-outlaw": {
+  "dateline": "Chicago, 2007",
+  "trueStory": true,
+  "pull": "In 2007, The Violet Hour opened with him behind the bar, in Chicago, then mostly a city of beer and whiskey.",
+  "source": "fact card toby-maloney-violet-hour F6; Proper pp. 280-282"
+ },
+ "ruler-regular-guy": {
+  "dateline": "New Orleans, the 1930s",
+  "trueStory": true,
+  "pull": "By 1885, a bartender was telling a New Orleans newspaper that brandy drinking there was over, and that whiskey had taken its place.",
+  "source": "fact card vieux-carre-walter-bergeron F3; Oxford pdf 2102 (never 1938)"
+ },
+ "ruler-sage": {
+  "dateline": "Britain, 1908",
+  "trueStory": true,
+  "pull": "The new spirit was whisky. Blending stayed legal, and the commission set out what a label could claim.",
+  "source": "fact card whisky-commission-1908 F6; Oxford pdf 317, 1697 (sitting year only)"
+ },
+ "sage-caregiver": {
+  "dateline": "West Coast, 1969",
+  "trueStory": true,
+  "pull": "In 1969 he dreamed up a new job, the beverage director, who would run the bar and the drinks separately from the food.",
+  "source": "fact card brian-rea-jerry-berns F6-F7; Oxford pdf 1614",
+  "flag": "The 1969 idea's place is implied (story: 'then the West Coast'; card F6 West Coast 1960s), not stated outright; 'New York' (21 Club, undated) is the alternative."
+ },
+ "sage-creator": {
+  "dateline": "Kentucky",
+  "trueStory": true,
+  "pull": "A great deal of air moves through a rickhouse, and that air helps the whisky age evenly.",
+  "source": "fact card kentucky-rickhouse F2; Oxford pdf 219",
+  "flag": "No date or event: this reading explains how rickhouses are built rather than telling a dated story, so the 'A true story' label may read oddly."
+ },
+ "sage-explorer": {
+  "dateline": "1824",
+  "trueStory": true,
+  "pull": "Morewood was nobody's fool. He's been called the founder of the field, and his history of distilling was the first full one.",
+  "source": "fact card sylvius-morewood-genever F2; Oxford pdf 1968",
+  "flag": "No safe place: Leiden is only Morewood's word (G2), so the dateline is the year alone; the story is the true history of how a legend (Sylvius invented gin) spread."
+ },
+ "sage-hero": {
+  "dateline": "Los Angeles, the late 1990s",
+  "trueStory": true,
+  "pull": "He started buying property there while it was cheap. \"Everyone at the time thought I was insane,\" he remembers.",
+  "source": "fact card cedd-moses-seven-grand; Proper pp. 278-280"
+ },
+ "sage-innocent": {
+  "dateline": "Paris, 1848",
+  "trueStory": true,
+  "pull": "Pasteur noticed tiny facets on the crystals that Mitscherlich had missed.",
+  "source": "fact card pasteur-biot-racemic-acid-1848; Vallery-Radot ch. II-III (1848 marked safe)"
+ },
+ "sage-jester": {
+  "dateline": "Philadelphia, the 1880s",
+  "trueStory": true,
+  "pull": "The guests were toasted from a silver loving cup, then drank from it standing while the members stayed seated.",
+  "source": "fact card clover-club-philadelphia C2 ('in the 1880s'); club book 1884"
+ },
+ "sage-lover": {
+  "dateline": "Hoboken, the 1890s",
+  "trueStory": true,
+  "pull": "In the 1890s a salesman walked into a working bar by the Hoboken ferry with a new scotch and asked for a cocktail made with it.",
+  "source": "Oxford ROB ROY pdf 1667; Imbibe! pdf 203",
+  "flag": "Origin rests on the bartender's brother's 1941 letter, which Oxford calls the most credible account, not a contemporary record; this dossier is an older format with no fact audit or fact card."
+ },
+ "sage-magician": {
+  "dateline": "1977",
+  "trueStory": true,
+  "pull": "Before then, apart from a handful of earlier books, publishers hadn't imagined anyone would want to read more about whisky than a label.",
+  "source": "fact card michael-jackson-beer-whisky-writer; Oxford pdf 1091",
+  "flag": "No place for the 1977 book on the card or in the story (only 'an English journalist'), so the dateline is the year alone; 'England, 1977' would be an inference."
+ },
+ "sage-outlaw": {
+  "dateline": "Oporto, 1844",
+  "trueStory": true,
+  "pull": "He was easily found out anyway, and bitterly attacked by those with a stake in the trade as it was.",
+  "source": "fact card joseph-james-forrester F1, F4; DNB vol. 20 pp. 14-15",
+  "flag": "Forrester lived and traded in Oporto, but one source (Barr) has the 1844 pamphlet printed in London; 'Oporto, 1831' (his arrival, in the story) is the safer alternative."
+ },
+ "sage-regular-guy": {
+  "dateline": "Tequila, Mexico",
+  "trueStory": true,
+  "pull": "The name it ended up with was Fortaleza. The old distillery had been called La Fortaleza.",
+  "source": "fact card fortaleza-guillermo-erickson-sauza W2; Distiller 2025; Oxford pdf 1742",
+  "flag": "No safe year: the launch year conflicts (card C3: 2002 vs 2005) and the sale year conflicts (C1), so the dateline is place only."
+ },
+ "sage-ruler": {
+  "dateline": "Britain and Ireland, 1885",
+  "trueStory": true,
+  "pull": "In 1887 he found eighteen distilleries working in what is now the Republic of Ireland.",
+  "source": "fact card alfred-barnard; Oxford BARNARD pdf 211 (C3: 'Britain and Ireland')"
+ }
+}

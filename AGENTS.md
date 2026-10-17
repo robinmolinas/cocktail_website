@@ -27,17 +27,21 @@ It translates an individual's psychology, tastes, and choices into a single besp
 │   ├── dionysus-experience/        # ACTIVE web application (Vite + React 19 + Tailwind 4)
 │   │   ├── public/
 │   │   │   ├── personas/          # Active persona image pairs (portrait.jpg, wide.jpg)
-│   │   │   └── journey.mp4        # Core journey video asset
+│   │   │   ├── archival/          # Public-domain archival photos for reading stories (Hester-verified)
+│   │   │   └── journey.mp4/.webm  # Core journey video (eased-both cut since 2026-10-17)
 │   │   ├── src/
 │   │   │   ├── components/        # TheDepths (journey), ResonanceWorld, TheReading, VelvetRope, CtaButton, etc.
 │   │   │   ├── engine/            # intake record, reveal, share links (wraps shared/)
 │   │   │   └── index.css          # Design system & custom animation tokens
 │   │   ├── shared/                # Pure core: answers + vocab, selection, reading, validate,
 │   │   │                          # data/ (archetypes, personas, pours, catalogue), import/ (dossier → pours)
+│   │   │                          # data/story-lines.json (dateline, trueStory, image per pairing), data/card-ingredients.json
 │   │   ├── scripts/               # validate-persona-images, import-pours, selection reference + landing bundle checks
 │   │   └── e2e/                   # End-to-end privacy and parity journeys (npm run e2e)
 │   ├── agent/                     # Spec, ARCHITECTURE-SPINE.md, matching model + analysis (matching/)
 │   ├── design-artifacts/          # UX specifications & pour design
+│   │   ├── _progress/00-design-log.md  # WDS design log: read "Start here" first
+│   │   ├── evolution/analysis/    # Dated reviews; latest handoff: 2026-10-17-designer-playtest-review.md
 │   │   └── pours/                 # Pour dossiers (<pairing>.md), STUDIO-RULES.md
 │   │       └── _studio/           # Pour Studio workspace (specs, fact-cards, rooms, registry)
 │   └── Knowledge base/            # Background cocktail counsel research

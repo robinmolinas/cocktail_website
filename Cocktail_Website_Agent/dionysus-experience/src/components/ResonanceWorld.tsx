@@ -221,6 +221,11 @@ function mountWorld(host: HTMLElement, o: Opts): () => void {
       <button type="button" class="hold-next rw-next">Continue</button>`;
     const head = ui.querySelector<HTMLElement>('.hold-head')!;
     head.style.setProperty('--hd', far ? '1100ms' : '700ms');
+    // round 1 opens like every hold: the question alone in the middle, then
+    // it rises and she forms beneath it (bornT0). Round 2 keeps its fade,
+    // because she is already in the middle, holding round 1's words.
+    if (ri === 0) { head.classList.add('is-arriving'); ui.classList.add('hold-arriving'); }
+    else ui.classList.remove('hold-arriving');
     // she is placed once: the same object, in the same place, through both
     // rounds. So she is placed under the tallest head either round can show
     // (the longer prompt, the longer hint), or round 2's head would meet her.
@@ -238,9 +243,12 @@ function mountWorld(host: HTMLElement, o: Opts): () => void {
     words = r.words.map((w, i) => {
       const slot = document.createElement('div');
       slot.className = 'rw-slot';
-      slot.innerHTML = `<div class="rw-drift"><button type="button" class="rw-word${far ? ' is-unseen' : ''}" aria-pressed="false" style="--d:${1300 + i * 110}ms"><span class="sphere"><span class="sphere-word">${esc(w)}</span></span></button></div>`;
+      slot.innerHTML = `<div class="rw-drift"><button type="button" class="rw-word${far ? ' is-unseen' : ''}" aria-pressed="false" style="--d:${(ri === 0 ? 1900 : 1300) + i * 110}ms"><span class="sphere"><span class="sphere-word">${esc(w)}</span></span></button></div>`;
       field.append(slot);
       const el = slot.querySelector<HTMLButtonElement>('.rw-word')!;
+      // once its entrance has played, it never replays (see .is-arrived)
+      el.addEventListener('animationend', (e) => { if (e.animationName === 'sphereIn') el.classList.add('is-arrived'); });
+      el.addEventListener('pointerdown', () => el.classList.add('is-arrived'));
       return { w, i, slot, el, state: 'free', home: { x: 0, y: 0 }, pos: { x: 0, y: 0 }, t0: 0, dur: 0, r0: 0, a0: 0, touched: false, drag: false, dragged: false, found: false, backFrom: { x: 0, y: 0 }, endA: 0, endR: 0 } as Word;
     });
     const pos = layout(r.words.length, ri);
@@ -275,6 +283,7 @@ function mountWorld(host: HTMLElement, o: Opts): () => void {
     const list = answers[rounds[round].key];
     const on = list.includes(w.w);
     if (!on && list.length >= max) { refuse(w); return; }
+    w.el.classList.add('is-arrived');
     if (on) list.splice(list.indexOf(w.w), 1); else list.push(w.w);
     sortList(list);                                       // vocabulary order: no ranking
     if (round === 0) { if (on) lift(w); else fall(w, false); }
@@ -666,8 +675,8 @@ function mountWorld(host: HTMLElement, o: Opts): () => void {
 
   /* ------------------------------------------------------------ the loop */
   let raf = 0, last = performance.now();
-  // she forms as the night is still settling, not after it
-  const bornT0 = performance.now() + T(700);
+  // she forms as the question rises (headSettle's 1.35 s hold), not after it
+  const bornT0 = performance.now() + T(1350);
   const frame = (now: number) => {
     const dt = Math.min(0.05, (now - last) / 1000); last = now;
     self.born = clamp01((now - bornT0) / T(1600));

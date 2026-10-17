@@ -1,0 +1,540 @@
+{
+ "caregiver-creator": {
+  "dateline": "Ginza, Tokyo, 1997",
+  "trueStory": true
+ },
+ "caregiver-explorer": {
+  "dateline": "England",
+  "trueStory": true
+ },
+ "caregiver-hero": {
+  "dateline": "Bern, 1814",
+  "trueStory": true
+ },
+ "caregiver-innocent": {
+  "dateline": "Dijon, 1945",
+  "trueStory": true
+ },
+ "caregiver-jester": {
+  "dateline": "Shepheard's Hotel, Cairo",
+  "trueStory": false
+ },
+ "caregiver-lover": {
+  "dateline": "London, 1874",
+  "trueStory": true
+ },
+ "caregiver-magician": {
+  "dateline": "Algeria, the 1830s",
+  "trueStory": true
+ },
+ "caregiver-outlaw": {
+  "dateline": "Leicester, 1824",
+  "trueStory": true
+ },
+ "caregiver-regular-guy": {
+  "dateline": "Foynes, Ireland, 1944–45",
+  "trueStory": true
+ },
+ "caregiver-ruler": {
+  "dateline": "West Indies, 1740",
+  "trueStory": true
+ },
+ "caregiver-sage": {
+  "dateline": "Oregon, the 2000s",
+  "trueStory": true
+ },
+ "creator-caregiver": {
+  "dateline": "The Savoy, London",
+  "trueStory": true
+ },
+ "creator-explorer": {
+  "dateline": "Brooklyn",
+  "trueStory": true
+ },
+ "creator-hero": {
+  "dateline": "New Orleans, 1915",
+  "trueStory": true
+ },
+ "creator-innocent": {
+  "dateline": "San Francisco, the mid-1980s",
+  "trueStory": true
+ },
+ "creator-jester": {
+  "dateline": "New York, 1886",
+  "trueStory": true
+ },
+ "creator-lover": {
+  "dateline": "Louisiana, 1993",
+  "trueStory": true
+ },
+ "creator-magician": {
+  "dateline": "2012",
+  "trueStory": true
+ },
+ "creator-outlaw": {
+  "dateline": "Lower Manhattan",
+  "trueStory": true
+ },
+ "creator-regular-guy": {
+  "dateline": "New York, 1916",
+  "trueStory": true
+ },
+ "creator-ruler": {
+  "dateline": "New York, 2005",
+  "trueStory": true
+ },
+ "creator-sage": {
+  "dateline": "1876",
+  "trueStory": true
+ },
+ "explorer-caregiver": {
+  "dateline": "Mexico",
+  "trueStory": true
+ },
+ "explorer-creator": {
+  "dateline": "Dallas, the early 1970s",
+  "trueStory": true
+ },
+ "explorer-hero": {
+  "dateline": "Frankfort, Kentucky, 1984",
+  "trueStory": true
+ },
+ "explorer-innocent": {
+  "dateline": "Islington, London, 2009",
+  "trueStory": true
+ },
+ "explorer-jester": {
+  "dateline": "New York, 2012",
+  "trueStory": true
+ },
+ "explorer-lover": {
+  "dateline": "Soho, London",
+  "trueStory": true
+ },
+ "explorer-magician": {
+  "dateline": "New York, 1973",
+  "trueStory": true
+ },
+ "explorer-outlaw": {
+  "dateline": "New York",
+  "trueStory": true
+ },
+ "explorer-regular-guy": {
+  "dateline": "Oaxaca, Mexico",
+  "trueStory": true
+ },
+ "explorer-ruler": {
+  "dateline": "Antarctica, 1909",
+  "trueStory": true,
+  "image": {
+   "src": "/archival/explorer-ruler.jpg",
+   "srcSmall": "/archival/explorer-ruler-900.jpg",
+   "width": 1384,
+   "height": 872,
+   "alt": "Three men in hooded windproofs and fur boots stand on flat snow beside a Union flag on a pole.",
+   "caption": "The furthest south, 9 January 1909",
+   "credit": "From Shackleton’s The Heart of the Antarctic · public domain",
+   "after": 0
+  }
+ },
+ "explorer-sage": {
+  "dateline": "Los Angeles, 1979",
+  "trueStory": true
+ },
+ "hero-caregiver": {
+  "dateline": "Greenwich Village, 1919",
+  "trueStory": true
+ },
+ "hero-creator": {
+  "dateline": "New York, 1933",
+  "trueStory": true
+ },
+ "hero-explorer": {
+  "dateline": "Colorado",
+  "trueStory": true
+ },
+ "hero-innocent": {
+  "dateline": "New York, the mid-eighties",
+  "trueStory": true
+ },
+ "hero-jester": {
+  "dateline": "Oakland, 1934",
+  "trueStory": true
+ },
+ "hero-lover": {
+  "dateline": "1953",
+  "trueStory": false
+ },
+ "hero-magician": {
+  "dateline": "Havana, 1935",
+  "trueStory": true
+ },
+ "hero-outlaw": {
+  "dateline": "Brooklyn, 2003",
+  "trueStory": true
+ },
+ "hero-regular-guy": {
+  "dateline": "The Pacific Northwest",
+  "trueStory": true
+ },
+ "hero-ruler": {
+  "dateline": "New Orleans, 2009",
+  "trueStory": true
+ },
+ "hero-sage": {
+  "dateline": "Daiquirí, Cuba, the 1890s",
+  "trueStory": true
+ },
+ "innocent-caregiver": {
+  "dateline": "Andalusia",
+  "trueStory": true
+ },
+ "innocent-creator": {
+  "dateline": "Algorta, 1972",
+  "trueStory": true
+ },
+ "innocent-explorer": {
+  "dateline": "Cognac, 1872",
+  "trueStory": true
+ },
+ "innocent-hero": {
+  "dateline": "Slovakia, 1994",
+  "trueStory": true
+ },
+ "innocent-jester": {
+  "dateline": "Melbourne, 2001",
+  "trueStory": true
+ },
+ "innocent-lover": {
+  "dateline": "Brooklyn, 1910",
+  "trueStory": true
+ },
+ "innocent-magician": {
+  "dateline": "Tasmania, 1992",
+  "trueStory": true
+ },
+ "innocent-outlaw": {
+  "dateline": "New England",
+  "trueStory": true
+ },
+ "innocent-regular-guy": {
+  "dateline": "India, the 1600s",
+  "trueStory": true
+ },
+ "innocent-ruler": {
+  "dateline": "Barcelona, 1933",
+  "trueStory": true
+ },
+ "innocent-sage": {
+  "dateline": "New York",
+  "trueStory": true
+ },
+ "jester-caregiver": {
+  "dateline": "St. Louis, 1917",
+  "trueStory": true
+ },
+ "jester-creator": {
+  "dateline": "Paris, 1924",
+  "trueStory": true
+ },
+ "jester-explorer": {
+  "dateline": "Chicago, 2011",
+  "trueStory": true
+ },
+ "jester-hero": {
+  "dateline": "Perote, Mexico, 1843",
+  "trueStory": true
+ },
+ "jester-innocent": {
+  "dateline": "Wembley, 1924",
+  "trueStory": false
+ },
+ "jester-lover": {
+  "dateline": "New Orleans",
+  "trueStory": true
+ },
+ "jester-magician": {
+  "dateline": "New York, 2007",
+  "trueStory": true
+ },
+ "jester-outlaw": {
+  "dateline": "Hudson, New York, 1806",
+  "trueStory": true
+ },
+ "jester-regular-guy": {
+  "dateline": "New York, 1896",
+  "trueStory": true
+ },
+ "jester-ruler": {
+  "dateline": "Washington, 1889",
+  "trueStory": true
+ },
+ "jester-sage": {
+  "dateline": "San Francisco, after the 1906 fire",
+  "trueStory": true
+ },
+ "lover-caregiver": {
+  "dateline": "New York",
+  "trueStory": true
+ },
+ "lover-creator": {
+  "dateline": "Antibes, the 1920s",
+  "trueStory": true
+ },
+ "lover-explorer": {
+  "dateline": "New York, 1929",
+  "trueStory": true
+ },
+ "lover-hero": {
+  "dateline": "Amiens, 1889",
+  "trueStory": true
+ },
+ "lover-innocent": {
+  "dateline": "Scotland, 1920",
+  "trueStory": true
+ },
+ "lover-jester": {
+  "dateline": "Emeryville",
+  "trueStory": true
+ },
+ "lover-magician": {
+  "dateline": "New York, 1994",
+  "trueStory": true
+ },
+ "lover-outlaw": {
+  "dateline": "New York, 2004",
+  "trueStory": true
+ },
+ "lover-regular-guy": {
+  "dateline": "New York, the late 1990s",
+  "trueStory": true
+ },
+ "lover-ruler": {
+  "dateline": "1928",
+  "trueStory": true
+ },
+ "lover-sage": {
+  "dateline": "New Orleans, around 2000",
+  "trueStory": true
+ },
+ "magician-caregiver": {
+  "dateline": "New York, 1911",
+  "trueStory": true
+ },
+ "magician-creator": {
+  "dateline": "New York, 1999",
+  "trueStory": true
+ },
+ "magician-explorer": {
+  "dateline": "Dublin, 1824",
+  "trueStory": true
+ },
+ "magician-hero": {
+  "dateline": "Cognac, 1893",
+  "trueStory": true
+ },
+ "magician-innocent": {
+  "dateline": "1885",
+  "trueStory": true
+ },
+ "magician-jester": {
+  "dateline": "New Orleans",
+  "trueStory": true
+ },
+ "magician-lover": {
+  "dateline": "London",
+  "trueStory": true
+ },
+ "magician-outlaw": {
+  "dateline": "Louisville, 1995",
+  "trueStory": false
+ },
+ "magician-regular-guy": {
+  "dateline": "1862",
+  "trueStory": true
+ },
+ "magician-ruler": {
+  "dateline": "London, 1731",
+  "trueStory": true
+ },
+ "magician-sage": {
+  "dateline": "Friuli, 1973",
+  "trueStory": true
+ },
+ "outlaw-caregiver": {
+  "dateline": "San Francisco, 1949–1963",
+  "trueStory": true
+ },
+ "outlaw-creator": {
+  "dateline": "Glenlivet, Scotland, 1824",
+  "trueStory": true
+ },
+ "outlaw-explorer": {
+  "dateline": "Bristol, 1979",
+  "trueStory": true
+ },
+ "outlaw-hero": {
+  "dateline": "Nigeria, 1968",
+  "trueStory": true
+ },
+ "outlaw-innocent": {
+  "dateline": "the French Alps, 2023",
+  "trueStory": true
+ },
+ "outlaw-jester": {
+  "dateline": "Trinidad, 1943",
+  "trueStory": true
+ },
+ "outlaw-lover": {
+  "dateline": "Napa Valley, 1880",
+  "trueStory": true
+ },
+ "outlaw-magician": {
+  "dateline": "Barbaresco, 1999",
+  "trueStory": true
+ },
+ "outlaw-regular-guy": {
+  "dateline": "Seattle, 1920–1928",
+  "trueStory": true
+ },
+ "outlaw-ruler": {
+  "dateline": "San Francisco, 1965",
+  "trueStory": true
+ },
+ "outlaw-sage": {
+  "dateline": "Portland, 2012",
+  "trueStory": true
+ },
+ "regular-guy-caregiver": {
+  "dateline": "Naples",
+  "trueStory": true
+ },
+ "regular-guy-creator": {
+  "dateline": "Fife, Scotland, 2005",
+  "trueStory": true
+ },
+ "regular-guy-explorer": {
+  "dateline": "Amsterdam, 1976",
+  "trueStory": true
+ },
+ "regular-guy-hero": {
+  "dateline": "Gardiner, New York, 2001",
+  "trueStory": true
+ },
+ "regular-guy-innocent": {
+  "dateline": "Brazil",
+  "trueStory": true
+ },
+ "regular-guy-jester": {
+  "dateline": "Chicago",
+  "trueStory": true
+ },
+ "regular-guy-lover": {
+  "dateline": "Cohasset, Massachusetts, the 1890s",
+  "trueStory": false
+ },
+ "regular-guy-magician": {
+  "dateline": "Hawaii, before 1800",
+  "trueStory": true
+ },
+ "regular-guy-outlaw": {
+  "dateline": "New York",
+  "trueStory": true
+ },
+ "regular-guy-ruler": {
+  "dateline": "Houston, 2014",
+  "trueStory": true
+ },
+ "regular-guy-sage": {
+  "dateline": "Frant, England, 2016",
+  "trueStory": true
+ },
+ "ruler-caregiver": {
+  "dateline": "Paris, 1924",
+  "trueStory": true
+ },
+ "ruler-creator": {
+  "dateline": "London, the 1990s",
+  "trueStory": true
+ },
+ "ruler-explorer": {
+  "dateline": "San Francisco, 1969",
+  "trueStory": true
+ },
+ "ruler-hero": {
+  "dateline": "Kentucky, 1933",
+  "trueStory": true
+ },
+ "ruler-innocent": {
+  "dateline": "Melbourne, 1997",
+  "trueStory": true
+ },
+ "ruler-jester": {
+  "dateline": "London, 1996",
+  "trueStory": true
+ },
+ "ruler-lover": {
+  "dateline": "Monte Carlo, 1888",
+  "trueStory": true
+ },
+ "ruler-magician": {
+  "dateline": "New York, 1933",
+  "trueStory": true
+ },
+ "ruler-outlaw": {
+  "dateline": "Chicago, 2007",
+  "trueStory": true
+ },
+ "ruler-regular-guy": {
+  "dateline": "New Orleans, the 1930s",
+  "trueStory": true
+ },
+ "ruler-sage": {
+  "dateline": "Britain, 1908",
+  "trueStory": true
+ },
+ "sage-caregiver": {
+  "dateline": "West Coast, 1969",
+  "trueStory": true
+ },
+ "sage-creator": {
+  "dateline": "Kentucky",
+  "trueStory": true
+ },
+ "sage-explorer": {
+  "dateline": "1824",
+  "trueStory": true
+ },
+ "sage-hero": {
+  "dateline": "Downtown Los Angeles",
+  "trueStory": true
+ },
+ "sage-innocent": {
+  "dateline": "Paris, 1848",
+  "trueStory": true
+ },
+ "sage-jester": {
+  "dateline": "Philadelphia, the 1880s",
+  "trueStory": true
+ },
+ "sage-lover": {
+  "dateline": "Hoboken, the 1890s",
+  "trueStory": true
+ },
+ "sage-magician": {
+  "dateline": "1977",
+  "trueStory": true
+ },
+ "sage-outlaw": {
+  "dateline": "Oporto, 1844",
+  "trueStory": true
+ },
+ "sage-regular-guy": {
+  "dateline": "Tequila, Mexico",
+  "trueStory": true
+ },
+ "sage-ruler": {
+  "dateline": "Britain and Ireland, 1885",
+  "trueStory": true
+ }
+}

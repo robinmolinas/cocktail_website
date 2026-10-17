@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dionysus · type specimen (2026-10-17)</title>
+<style>
+  body { margin: 0; background: #14110e; color: #e9dfcd; font: 14px/1.5 -apple-system, system-ui, sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: #14110ef2; padding: 14px 24px; display: flex; gap: 24px; align-items: center; flex-wrap: wrap; border-bottom: 1px solid #2a241e; }
+  h1 { font-size: 15px; margin: 0; font-weight: 600; }
+  .seg button { background: none; border: 1px solid #3a322a; color: #cfc4ae; padding: 5px 12px; border-radius: 999px; cursor: pointer; margin-right: 4px; font: inherit; }
+  .seg button.on { background: #e9dfcd; color: #14110e; border-color: #e9dfcd; }
+  main { padding: 20px 24px 60px; }
+  .note { color: #b3a890; max-width: 72em; }
+  .note b { color: #e9dfcd; }
+  section { margin: 34px 0; }
+  section h2 { font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #b08d57; margin: 0 0 4px; }
+  section p.look { margin: 0 0 12px; color: #9a8f7c; max-width: 72em; }
+  .grid { display: grid; gap: 14px; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); }
+  body.phone .grid { grid-template-columns: repeat(var(--n), minmax(0, 300px)); }
+  figure { margin: 0; }
+  figcaption { font-size: 12px; color: #cfc4ae; margin-bottom: 5px; }
+  figure img { display: block; width: 100%; border-radius: 4px; background: #000; }
+  table { border-collapse: collapse; font-size: 12.5px; margin-top: 10px; }
+  td, th { border-bottom: 1px solid #2a241e; padding: 6px 14px 6px 0; text-align: left; vertical-align: top; }
+  th { color: #b08d57; font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Dionysus · type specimen for the designer review</h1>
+  <div class="seg" id="dev"><button data-v="desktop" class="on">Desktop 1440×900</button><button data-v="phone">Phone 390×844</button></div>
+</header>
+<main>
+  <p class="note">
+    Every frame is <b>the live app</b> (today's layout, copy and film), shot with only its three font tokens swapped. Nothing in <code>dionysus-experience/src</code> changed. Re-shoot with <code>node capture.mjs</code> while the dev server runs.
+    <b>The Garamonds are shown at Playfair's x-height</b> (Cormorant scaled ×1.33, EB Garamond ×1.02). At the same nominal size Cormorant reads a third smaller, which would compare size, not the face.
+    The labels and pills stay Jost in all three. Click any frame to open it full size.
+  </p>
+  <table>
+    <tr><th></th><th>Questions, choice words, titles</th><th>Hints, reading prose</th><th>What it changes</th></tr>
+    <tr><td><b>A · Today</b></td><td>Playfair Display</td><td>Playfair</td><td>Nothing: the baseline</td></tr>
+    <tr><td><b>B · Garamond pair</b></td><td>Cormorant Garamond</td><td>EB Garamond</td><td>The designer's suggestion. The whole voice gets lighter and more bookish.</td></tr>
+    <tr><td><b>C · Hybrid</b></td><td>Playfair Display</td><td>EB Garamond</td><td>Keeps the Playfair voice you like for every question and title. Only the reading text gets calmer and narrower.</td></tr>
+  </table>
+  <div id="rows"></div>
+</main>
+<script>
+  const DIRS = [['A', 'A · Today'], ['B', 'B · Cormorant + EB Garamond'], ['C', 'C · Playfair Display + EB Garamond']];
+  const SCREENS = [
+    ['h1', 'H1 · Who is this cocktail for?', 'The question and the six words. Robin found "The me I\'m becoming" and "The real me" a touch intense next to the calm, honest mood.'],
+    ['h3', 'H3 · the gravity poles', 'The two big pole words. The face only; weight has its own row below.'],
+    ['h5', 'H5 · A world of your own', 'The small words in the spheres: legibility at sphere size.'],
+    ['h6', 'H6 · flavours', 'The hint line under the question (text face) and the words with icons.'],
+    ['h10', 'H10 · the hero', 'Title, three words, tagline. The hero is locked, so this only shows how each face would carry it.'],
+    ['h10-letter', 'H10 · the reading letter', 'Long reading in the text face. Look at evenness, line length and how tired your eye gets.'],
+  ];
+  const POLES = [['pd400', 'Playfair Display 400'], ['pd500', 'Playfair Display 500 · today'], ['pd700', 'Playfair Display 700 · bold'], ['cg300', 'Cormorant 300 · thin'], ['cg600', 'Cormorant 600']];
+  const rows = document.getElementById('rows');
+  const fig = (src, cap) => `<figure><figcaption>${cap}</figcaption><a href="${src}" target="_blank"><img loading="lazy" src="${src}" alt="${cap}"></a></figure>`;
+  const render = (dev) => {
+    document.body.classList.toggle('phone', dev === 'phone');
+    rows.innerHTML = SCREENS.map(([id, title, look]) => `<section><h2>${title}</h2><p class="look">${look}</p>
+      <div class="grid" style="--n:3">${DIRS.map(([d, l]) => fig(`shots/${d}-${id}-${dev}.jpg`, l)).join('')}</div></section>`).join('')
+      + `<section><h2>H3 · pole weight: thin or bold?</h2><p class="look">The designer's notes and the recording disagree, so here are both directions side by side, all in the app's real H3.</p>
+      <div class="grid" style="--n:5">${POLES.map(([id, l]) => fig(`shots/pole-${id}-${dev}.jpg`, l)).join('')}</div></section>`;
+  };
+  document.querySelectorAll('#dev button').forEach((b) => b.onclick = () => {
+    document.querySelectorAll('#dev button').forEach((x) => x.classList.toggle('on', x === b));
+    render(b.dataset.v);
+  });
+  render('desktop');
+</script>
+</body>
+</html>

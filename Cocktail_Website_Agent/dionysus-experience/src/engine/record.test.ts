@@ -11,7 +11,7 @@ const parses = (patch: Partial<JourneyAnswers>) => {
 
 describe('labelsToIds (H5 seals)', () => {
   it('turns tap-order soughtFor labels into ids in vocabulary order', () => {
-    const ids = labelsToIds(SOUGHT, ['A little chaos', 'Calm', 'Advice']);
+    const ids = labelsToIds(SOUGHT, ['Mischief', 'Calm', 'Advice']);
     expect(ids).toEqual(['advice', 'calm', 'little-chaos']);
     expect(parses({ soughtFor: ids }).soughtFor).toEqual(ids);
   });

@@ -6,7 +6,29 @@
 
 ---
 
-## Start here — current handoff, 8 October 2026
+## Start here — current handoff, 17 October 2026
+
+A designer playtest (17 October) produced about 25 comments. Batches 1–3 are **built and uncommitted**, and so is going back a question. The full record, the standing rules and the next steps are in the [designer playtest review](../evolution/analysis/2026-10-17-designer-playtest-review.md). Read it before touching the journey or the reading.
+
+In short:
+- The eased-both film is the default.
+- Every question opens in the middle, then rises.
+- Type is Playfair Display for questions and titles, EB Garamond for text, and Cormorant 600 for the H3 poles only.
+- H5 uses the labels Clarity and Mischief.
+- Every story has a Hester-checked dateline; 5 of them have no "A true story" label.
+- One archival photo is on explorer-ruler (Shackleton).
+- Back steps through the questions.
+
+**Next:**
+1. H7 is faint on the pale foam. Fix it with no dark behind the text.
+2. A checkpoint commit, only when Robin asks.
+3. Sound effects and the 4K film.
+
+Sonnet's archival image candidates for four pours are waiting to be checked. Nothing is committed.
+
+---
+
+## Historical handoff — 8 October 2026
 
 Read the [current experience contract](../2026-07-08-experience-master-spec.md), [continuation status](../2026-10-06-continuation-status.md) and [continuation plan](../2026-10-06-parallel-work-plan.md). The product brief, trigger map and scenarios were reconciled with the current experience in the [document review](../../_bmad-output/document-review-2026-10-08.md).
 
@@ -113,6 +135,12 @@ Music, retimed-video adoption and focused mobile follow-ups remain open. Use one
 | 01-celestes-descent | 1.5 | H4 v4 — instruction + one short line read in the true middle, both rise, first timed pair is "1 / 2" (larger numerals) | built in app (Robin: "perfect") | 2026-10-06 |
 | 01-celestes-descent | 1.6 | H5 "Surface Tension" (drop reaches out / takes in) | explored | 2026-10-06 |
 | 01-celestes-descent | 1.6 | H5 "A world of your own" (rounds swapped: gathers in, then reaches out; tap + carry) | built in app (Robin: "I love it") | 2026-10-06 |
+| 01-celestes-descent | all | Designer playtest Batch 1 (eased-both film, first-name tag, card ingredients, Clarity/Mischief, H6 loop visible) | built, uncommitted | 2026-10-17 |
+| 01-celestes-descent | all | "Middle then rise" titles; H4 centred "or"; H6 sinks-back loop cue; expectation copy | built, uncommitted | 2026-10-17 |
+| 01-celestes-descent | all | Going back a question (popstate, held-frame dissolve, answers kept) | built, uncommitted | 2026-10-17 |
+| 01-celestes-descent | all | Type C: Playfair Display + EB Garamond text + Cormorant 600 H3 poles | built, uncommitted | 2026-10-17 |
+| 01-celestes-descent | 1.10–1.11 | Reading datelines + "A true story" label (Hester-audited); archival photo on explorer-ruler | built, uncommitted | 2026-10-17 |
+| 01-celestes-descent | 1.8 | H7 faint on pale foam | discussed (next) | 2026-10-17 |
 
 **Status values:** `discussed` → `wireframed` → `specified` → `explored` → `building` → `built` → `approved` | `removed`
 
@@ -123,6 +151,21 @@ Music, retimed-video adoption and focused mobile follow-ups remain open. Use one
 ---
 
 ## Log
+
+### 2026-10-17 — Designer playtest: three batches built, back navigation, fact audit
+
+**Source:** Robin's playtest with a professional designer friend (about 25 comments). It was triaged, then built the same day.
+
+- **Built:** all three batches, back navigation, and the Hester fact audit with Robin's four decisions (jester-explorer v5 story, two copy fixes, two "A true story" labels dropped, flag/likeness rules for generated images only).
+- **Rejected:**
+  - the big lifted "pull" sentence (built, then removed);
+  - a flavour recipe twist (copy only);
+  - the convection-current and glint loop cues;
+  - thin Cormorant on the poles (it fails on the cream pole).
+- **Validation:** tsc ×3, 1950 unit tests, e2e 8/8, pour import in sync.
+- **Detail and handoff:** the [designer playtest review](../evolution/analysis/2026-10-17-designer-playtest-review.md).
+
+---
 
 ### 2026-10-10 — Entrance artwork settled: 3A · Soft glow
 

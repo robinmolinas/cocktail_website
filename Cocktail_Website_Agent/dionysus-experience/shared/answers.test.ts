@@ -80,6 +80,7 @@ describe('idFromLabel', () => {
     expect(idFromLabel(LENSES, 'The me I’m becoming')).toBe('becoming');
     expect(idFromLabel(SEEDS, 'Pamplemousse Rosé')).toBe('pamplemousse-rose');
     expect(idFromLabel(SEEDS, 'Curaçao Blue')).toBe('curacao-blue');
+    expect(idFromLabel(SOUGHT, 'Clarity')).toBe('reality-check');
     expect(idFromLabel(SOUGHT, 'A reality check')).toBe('reality-check');
     expect(idFromLabel(VETOES, 'Egg whites')).toBe('egg-white');
   });

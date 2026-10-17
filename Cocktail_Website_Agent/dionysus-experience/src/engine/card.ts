@@ -11,9 +11,15 @@
 //
 // Sacred Glass Rule: the photograph is never tinted. Its foot only darkens into
 // the night, above the type. The seed colour appears as light: the inked
-// name, the hairline and the dedication.
+// name and the hairline.
+//
+// Playtest, 2026-10-17: the tag carries the first name only, and the foot
+// lists what is in the glass (names, no amounts) where "Poured for" stood,
+// since the name is already on the tag and people want to make it again.
 import qrcode from 'qrcode-generator';
+import { addressName } from '../../shared/name';
 import type { Reading } from '../../shared/reading';
+import cardIngredients from '../../shared/data/card-ingredients.json';
 
 const W = 1080;
 const H = 1920;
@@ -68,6 +74,8 @@ function wrap(ctx: CanvasRenderingContext2D, text: string, width: number): strin
 export async function renderCard(reading: Reading, seedHex: string, url: string, way: 'keep' | 'share' = 'keep'): Promise<Blob> {
   const { cocktail, persona, archetype } = reading;
   const name = reading.name;
+  const tagName = addressName(name) ?? name;
+  const ingredients = (cardIngredients as Record<string, string[]>)[reading.pairing] ?? [];
   await Promise.all([
     document.fonts.load(`italic 500 96px ${DISPLAY}`),
     document.fonts.load(`italic 400 36px ${DISPLAY}`),
@@ -92,7 +100,20 @@ export async function renderCard(reading: Reading, seedHex: string, url: string,
   const qx = W - M - side;
   const qy = H - 92 - side;
   const foot = qy + side;
-  const footTop = foot - 92; // the dedication's cap height, above its small label
+  // what is in the glass, set left of the label and above the small print
+  const ING = 30;
+  const ING_LEAD = 42;
+  ctx.font = `italic 400 ${ING}px ${DISPLAY}`;
+  // whole ingredients per line: "simple syrup" never splits across two
+  const ingLines: string[] = [];
+  for (const item of ingredients) {
+    const last = ingLines.length - 1;
+    const next = last >= 0 ? `${ingLines[last]} · ${item}` : item;
+    if (last >= 0 && ctx.measureText(next).width <= qx - M - 40) ingLines[last] = next;
+    else ingLines.push(item);
+  }
+  const ingTop = foot - 50 - Math.max(ingLines.length - 1, 0) * ING_LEAD;
+  const footTop = ingLines.length ? ingTop - ING - 4 : foot - 40;
 
   // the cocktail's name: one line if it can hold at a readable size, else two
   let size = 104;
@@ -135,10 +156,10 @@ export async function renderCard(reading: Reading, seedHex: string, url: string,
   ctx.drawImage(photo, ox, oy, pw, ph);
 
   // her name on the scene's own tag, in her colour, pressed into the paper
-  if (name && persona.tag) {
+  if (tagName && persona.tag) {
     const t = persona.tag;
     const w = t.w * pw;
-    const ink = Math.max(Math.min(w * 0.26, (w * 1.5) / Math.max(name.length, 1)), 10);
+    const ink = Math.max(Math.min(w * 0.26, (w * 1.5) / Math.max(tagName.length, 1)), 10);
     ctx.save();
     ctx.translate(ox + t.cx * pw, oy + t.cy * ph);
     ctx.rotate((t.angle * Math.PI) / 180);
@@ -147,7 +168,7 @@ export async function renderCard(reading: Reading, seedHex: string, url: string,
     ctx.fillStyle = seedHex;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText(name, 0, 0, w);
+    ctx.fillText(tagName, 0, 0, w);
     ctx.restore();
   }
 
@@ -225,16 +246,12 @@ export async function renderCard(reading: Reading, seedHex: string, url: string,
     }
   }
 
-  // ---- the dedication, level with the label's foot ----
-  const dedication = name ? `Poured for ${name}` : 'Poured by Dionysus';
-  let dsize = 40;
-  ctx.font = `italic 400 ${dsize}px ${DISPLAY}`;
-  while (dsize > 26 && ctx.measureText(dedication).width > qx - M - 40) {
-    dsize -= 1;
-    ctx.font = `italic 400 ${dsize}px ${DISPLAY}`;
-  }
-  ctx.fillStyle = seedHex;
-  ctx.fillText(dedication, M, foot - 52, qx - M - 40);
+  // ---- what is in the glass, level with the label ----
+  ctx.font = `italic 400 ${ING}px ${DISPLAY}`;
+  ctx.fillStyle = IVORY;
+  ctx.globalAlpha = 0.86;
+  ingLines.forEach((line, i) => ctx.fillText(line, M, ingTop + i * ING_LEAD, qx - M - 40));
+  ctx.globalAlpha = 1;
   ctx.font = `500 21px ${LABEL}`;
   ctx.fillStyle = MUTED;
   const scan = way === 'keep' ? 'SCAN FOR THE READING' : 'SCAN FOR THE RECIPE';

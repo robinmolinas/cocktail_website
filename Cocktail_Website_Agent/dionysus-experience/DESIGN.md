@@ -34,12 +34,12 @@ typography:
     fontWeight: 400
     lineHeight: 1.3
   body:
-    fontFamily: "Playfair, serif"
+    fontFamily: "EB Garamond, serif"
     fontSize: "1.08rem"
     fontWeight: 400
     lineHeight: 1.72
   hint:
-    fontFamily: "Playfair, serif"
+    fontFamily: "EB Garamond, serif"
     fontSize: "clamp(15px, 1.9vmin, 17px)"
     fontWeight: 400
     lineHeight: 1.5
@@ -246,20 +246,24 @@ contract.
 
 **Voice:** Playfair Display — italic for everything spoken (questions, choice
 words, titles), roman where a title needs to stand upright.
-**Text:** Playfair — the same designer's optical-size cut (`opsz` 5–1200),
-used at reading sizes: hints, the landing lede, the reading's prose, the
-recipe's items and steps. Display's hairlines break up at 15px over footage;
-the text cut holds.
+**Text:** EB Garamond, used at reading sizes: hints, the landing lede, the
+reading's prose, the recipe's items and steps. Display's hairlines break up at
+15px over footage; a book face holds, and reads calmer and narrower than the
+Playfair text cut it replaced (2026-10-17, designer review, specimen direction
+C in `../design-artifacts/evolution/prototypes/type-specimen-2026-10-17/`).
+**Poles:** Cormorant Garamond italic 600, for H3's two pole words only
+(`--font-pole`), sized ×1.33 to match Display's x-height. Never thin: 300
+vanished on the cream cloud.
 **Label:** Jost — the open Futura. Labels, amounts and numerals, buttons, the
 landing's practical note. Didone + geometric sans is the 1920s bar-card
 pairing, which is the speakeasy this brand is.
 
-Tokens: `--font-display`, `--font-text`, `--font-label` in `index.css :root`.
+Tokens: `--font-display`, `--font-text`, `--font-pole`, `--font-label` in `index.css :root`.
 Never name a family directly in a rule.
 
 **Character:** The experience *speaks* in Playfair Display italic, *explains*
-in Playfair upright, and *labels* in Jost. One family says everything the
-guest reads; the sans only names and counts.
+in EB Garamond, and *labels* in Jost. The voice is one family; the book face
+only explains, and the sans only names and counts.
 
 > 2026-09-29 (Robin): Inter and Zen Old Mincho are retired. This supersedes
 > the earlier "Inter/Playfair locked" note — Robin asked for better
@@ -270,16 +274,16 @@ guest reads; the sans only names and counts.
 - **Display** (500, clamp(2.75rem, 6.8vmin, 4.6rem), 1.04): the keepsake
   cocktail title and hero headline. Playfair.
 - **Headline / Voice** (400 italic, clamp(1.3rem, 3vmin, 1.9rem), ~1.3): the
-  journey's spoken lines — gravity poles, depth questions, ember words.
-  Playfair italic, with the `--legible` hairline over footage (see the
+  journey's spoken lines — depth questions, ember words (the gravity poles
+  are Cormorant 600, see Poles above). Playfair Display italic, with the `--legible` hairline over footage (see the
   Legibility Rule).
 - **Body** (400, 1.04–1.08rem, 1.6–1.72): keepsake prose and recipe lines.
-  Playfair text cut.
+  EB Garamond.
 - **Label** (Jost 500, 0.7–0.76rem, 0.16–0.26em tracking, uppercase): brass
   section labels, the kicker, the reading cue, the way-onward pill. This is a *named brand system* (the keepsake's
   apothecary labels), deliberately scoped to the keepsake and threshold pill —
   never scaffolded above every section.
-- **Hint** (Playfair 400 upright, 15–17px): ivory at 0.86 under the
+- **Hint** (EB Garamond 400 upright, 15–17px): ivory at 0.86 under the
   question — the "how" beside the "what". Sentence case, plain words
   ("Choose up to three", "Select one again to change your mind").
 
@@ -334,10 +338,10 @@ no letter.
 
 ### Named Rules
 **The Italic Voice Rule.** If the interface is *saying* something to her, it
-is Playfair Display italic. If it is *explaining* how, it is Playfair
+is Playfair Display italic. If it is *explaining* how, it is EB Garamond
 upright. If it is *labelling or counting*, it is Jost. Never mix the jobs
 in one line — which is also why a recipe amount (Jost, brass) and the thing
-you pour (Playfair) are two faces.
+you pour (EB Garamond) are two faces.
 
 **The Legibility Rule.** Text over footage carries `--legible`: a hairline of
 warm shadow (`0 1px 2px`, 0.26 alpha) that only defines the letter edge and is

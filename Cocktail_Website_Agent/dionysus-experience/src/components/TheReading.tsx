@@ -12,7 +12,7 @@
 // H9.5 (intro) plays the arrival: black → the weather gathers → the cocktail
 // kindles out of the dark → the text writes itself in. H10.5 is the settled
 // state. Nothing here touches the locked TheSurfacing reveal; styles are .tr-.
-import { Fragment, useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
+import { Fragment, useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type MouseEvent as ReactMouseEvent, type ReactNode } from 'react';
 import { DevNav, type DevJumpTarget, type DevPage } from './TheDepths';
 import { SEEDS } from '../../shared/answers';
 import type { Reading } from '../../shared/reading';
@@ -23,6 +23,15 @@ import { isRememberedPour, rememberPour } from '../engine/kept';
 import { inlineTokens } from '../engine/inline';
 import { qrPath } from '../engine/qr';
 import { addressName, displayName } from '../../shared/name';
+// Each story's dateline (designer review, 2026-10-17: guests didn't know the
+// story was true). Written from each pour's dossier; keyed by pairing.
+import storyLinesData from '../../shared/data/story-lines.json';
+// `image` is the archival-image trial (one pour first, Robin 2026-10-17): a
+// public-domain photograph of the record itself, never generated, set after
+// story paragraph `after`. Provenance in design-artifacts/…/archival-trial-2026-10-17.
+type StoryImage = { src: string; srcSmall: string; width: number; height: number; alt: string; caption: string; credit: string; after: number };
+type StoryLine = { dateline: string; trueStory: boolean; image?: StoryImage };
+const STORY_LINES = storyLinesData as Record<string, StoryLine>;
 
 // The letter's four movements (Robin chose this layout, 2026-10-12), in the
 // order the studio writes every letter: who you are; the story, its reveal and
@@ -112,6 +121,9 @@ export default function TheReading({
   // name comes from a link another device wrote, so it is cleaned here too.
   const inkName = displayName(name || devName) ?? '';
   const address = addressName(name || devName);
+  // The tag carries the first name only (playtest, 2026-10-17): a full name
+  // shrank to fit the paper until nobody could read that it was theirs.
+  const tagName = address ?? inkName;
   // A #pour= link can bring the owner back rather than a friend: their keep
   // link, or their own share link opened on the device that poured it (user
   // test, 2026-10-12: people shared the cocktail to themselves and lost the
@@ -299,7 +311,7 @@ export default function TheReading({
       // fit the name to the writable width, whatever its length. The floor is
       // 7px, not 10: a phone's scene is shorter than the screen now, so a small
       // tag (the coupe's is ~40px wide) cut "Bartholomew" at "Bartholom".
-      el.style.fontSize = `${Math.max(Math.min(w * 0.26, (w * 1.5) / Math.max(inkName.length, 1)), 7)}px`;
+      el.style.fontSize = `${Math.max(Math.min(w * 0.26, (w * 1.5) / Math.max(tagName.length, 1)), 7)}px`;
     };
 
     const onScroll = () => { if (!raf) raf = requestAnimationFrame(apply); };
@@ -323,7 +335,7 @@ export default function TheReading({
       window.removeEventListener('resize', onResize);
       if (raf) cancelAnimationFrame(raf);
     };
-  }, [bgPosX, bgPosYPreferred, inkName, tagBox]);
+  }, [bgPosX, bgPosYPreferred, tagName, tagBox]);
 
   // Trigger the ink as the room is still kindling — BEFORE the title rises
   // (.tr-intro .tr-hero-inner holds at 3.7 s). The name is the one personal
@@ -395,22 +407,71 @@ export default function TheReading({
     cardFor(way).catch(() => { delete cards.current[way]; });
   };
 
+  // The cue glides down rather than jumping (playtest, 2026-10-17: the jump
+  // dropped "This is you" under the top edge, so the reading seemed to start
+  // at the story). It stops with the first heading level with the glass on a
+  // wide screen, just under the bar on a phone, and leaves the address alone:
+  // the hash used to overwrite a #pour= keep link.
+  const goToReading = (e: ReactMouseEvent<HTMLAnchorElement>) => {
+    const section = document.getElementById('tr-reading');
+    if (!section) return;
+    e.preventDefault();
+    const target = section.querySelector<HTMLElement>('.tr-opener') ?? section;
+    const vh = window.innerHeight || 1;
+    const offset = portraitScene ? Math.min(120, vh * 0.14) : vh * 0.3;
+    const to = Math.max(0, window.scrollY + target.getBoundingClientRect().top - offset);
+    const from = window.scrollY;
+    const focus = () => {
+      target.setAttribute('tabindex', '-1');
+      target.focus({ preventScroll: true });
+    };
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || Math.abs(to - from) < 4) {
+      window.scrollTo(0, to);
+      focus();
+      return;
+    }
+    const duration = Math.min(1700, Math.max(900, Math.abs(to - from) * 1.25));
+    const start = performance.now();
+    let frame = 0;
+    // a hand on the wheel or the glass takes over at once
+    const stop = () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener('wheel', stop);
+      window.removeEventListener('touchstart', stop);
+      window.removeEventListener('keydown', stop);
+    };
+    const step = (now: number) => {
+      const t = Math.min(1, (now - start) / duration);
+      const eased = t < 0.5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2;
+      window.scrollTo(0, from + (to - from) * eased);
+      if (t < 1) frame = requestAnimationFrame(step);
+      else { stop(); focus(); }
+    };
+    window.addEventListener('wheel', stop, { passive: true });
+    window.addEventListener('touchstart', stop, { passive: true });
+    window.addEventListener('keydown', stop);
+    frame = requestAnimationFrame(step);
+  };
+
   // the three words tell a friend what kind of drink it is before they tap
   const shareText = `Dionysus read me and poured “${cocktail.name}”: ${cocktail.words.join(', ').toLowerCase()}. Meet the spirit within:`;
 
   const sendLink = async (way: Way) => {
     const url = await linkFor(way);
-    const text = way === 'share' ? shareText : `My cocktail, “${cocktail.name}”, its recipe and my reading:`;
     if (navigator.share) {
+      // a friend gets the invitation; her own copy is the bare link, so
+      // "Copy" in the sheet hands back something she can paste and open
       try {
-        await navigator.share({ title: way === 'share' ? 'Dionysus' : `Dionysus · ${cocktail.name}`, text, url });
+        await navigator.share(way === 'share'
+          ? { title: 'Dionysus', text: shareText, url }
+          : { title: `Dionysus · ${cocktail.name}`, url });
       } catch {
         /* she closed the sheet */
       }
       return;
     }
     // a friend gets the invitation with the link; their own copy is just the link
-    const copied = await copyText(way === 'share' ? `${text} ${url}` : url);
+    const copied = await copyText(way === 'share' ? `${shareText} ${url}` : url);
     // never a raw error (master spec §2) — the failure stays in the world
     noteFor(way, !copied ? 'The ink would not take — try once more'
       : way === 'share' ? 'Link copied' : 'Link copied. It opens your whole reading.');
@@ -542,6 +603,29 @@ export default function TheReading({
       <p><Inline text={reading.yours[i]} /></p>
     </div>
   );
+  const storyLine = STORY_LINES[reading.pairing];
+  const storyImage = storyLine?.image;
+  const storyFigure = storyImage && (
+    <figure className="tr-archival" key="archival">
+      <img
+        src={storyImage.src}
+        srcSet={`${storyImage.srcSmall} 900w, ${storyImage.src} ${storyImage.width}w`}
+        sizes="(max-width: 640px) 100vw, 36rem"
+        width={storyImage.width} height={storyImage.height}
+        alt={storyImage.alt} loading="lazy" decoding="async"
+      />
+      <figcaption>
+        <span>{storyImage.caption}</span>
+        <span className="tr-archival-credit">{storyImage.credit}</span>
+      </figcaption>
+    </figure>
+  );
+  const storyParagraph = (i: number) => (
+    <Fragment key={`story-${i}`}>
+      {yoursParagraph(i)}
+      {storyImage?.after === i && storyFigure}
+    </Fragment>
+  );
   const epigraphSentences = reading.epigraph.split(/(?<=[.!?…])\s+(?=[A-Z‘“"])/);
   // "This is you, the Visionary." — every personality title starts with "The"
   const personality = reading.archetype.name.replace(/^The /, 'the ');
@@ -592,11 +676,11 @@ export default function TheReading({
         <div className="tr-bg">
           <div ref={frameRef} className="tr-frame">
             <img ref={bgRef} src={sceneSrc} alt="" draggable={false} />
-            {inkName && tagBox ? (
+            {tagName && tagBox ? (
               <span
                 ref={tagRef}
                 className={`tr-tagname${named ? (intro ? ' tr-inking' : ' tr-inked') : ''}`}
-              >{inkName}</span>
+              >{tagName}</span>
             ) : null}
           </div>
         </div>
@@ -664,7 +748,7 @@ export default function TheReading({
           ) : null}
           {/* Share and save live only at the bottom (Robin, 2026-10-06): the
               arrival belongs to the cocktail, the actions to the end. */}
-          <a className="tr-cue" href="#tr-reading">
+          <a className="tr-cue" href="#tr-reading" onClick={goToReading}>
             {guest ? 'The recipe' : 'Your reading and recipe'}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M12 5v14M19 12l-7 7-7-7" />
@@ -719,13 +803,19 @@ export default function TheReading({
               </>)}
 
               {movement('story', <>
+                {storyLine && (
+                  <p className="tr-dateline">
+                    <span>{storyLine.dateline}</span>
+                    {storyLine.trueStory && <span className="tr-dateline-true">A true story</span>}
+                  </p>
+                )}
                 <p className="tr-epigraph tr-epigraph-lead">
                   {/* one line per sentence, so the aphorism turns at its own break */}
                   {epigraphSentences.map((sentence, i) => (
                     <span className="tr-epigraph-line" key={i}><Inline text={sentence} /></span>
                   ))}
                 </p>
-                {storyAt.map(yoursParagraph)}
+                {storyAt.map(storyParagraph)}
               </>)}
 
               {movement('cocktail', <>

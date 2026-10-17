@@ -82,8 +82,10 @@ export const SOUGHT = [
   { id: 'ideas', label: 'Ideas' },
   { id: 'calm', label: 'Calm' },
   { id: 'taste', label: 'Taste' },
-  { id: 'reality-check', label: 'A reality check' },
-  { id: 'little-chaos', label: 'A little chaos' },
+  // One word each since 2026-10-17 (playtest: the two phrases read as a
+  // different kind of answer). Same ids, same weights; the old labels map here.
+  { id: 'reality-check', label: 'Clarity', legacyLabels: ['A reality check'] },
+  { id: 'little-chaos', label: 'Mischief', legacyLabels: ['A little chaos'] },
 ] as const;
 
 // H6 beat 1 · flavours.
