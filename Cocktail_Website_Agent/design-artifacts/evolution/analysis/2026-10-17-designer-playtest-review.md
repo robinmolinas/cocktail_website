@@ -12,7 +12,8 @@
   - `npm run e2e` passed 8/8 after going back a question was built.
   - `npm run import:pours:check` is in sync.
   - Lint is below HEAD. The three edited pours have 0 lint errors.
-- **Next step, which Robin agreed:** fix **H7 being faint on the pale foam**. The trace prompt and field sit centred over light foam, so they almost disappear. Make the ink stronger and add a soft lift around the letters. Do **not** put any dark plate, scrim or shadow block behind the text (see the standing rules).
+- **H7: keep the original appearance (Robin, 17 October).** Robin preferred it after reviewing the readability change. The stronger warm ink, pale lift and question colour transition have been removed, restoring the original styling. No on-screen copy changed. Do not restart the readability pass unless Robin asks.
+- **Sound effects: second pass is built and uncommitted (dev-only `?sfx=trial`).** A sound review replaced the first pass's cut fragments with one in-house glass in the score's key and four gestures (touch, untouch, seal, ink); see the prototype README for the reasons and measurements. Compare in `../prototypes/sound-effects-2026-10-17/index.html` (five moments × music only / first / second). Checks pass: tsc ×3, 1967 unit tests, e2e 8/8, browser run. Await Robin's ear before enabling for normal visits; `public/audio/effects/choice.mp3` and `release.mp3` are now unused (removal needs Robin's OK).
 - **After that:** a checkpoint commit, but only when Robin asks. Then the long tracks: a sound-effect family made from the score, and the 4K film ([journey video remake](2026-10-06-video-arrivals.md); the candle concept is rejected).
 - **Waiting on Claude (or the next model):** Sonnet has already run the archival image search. Its candidates are in `../prototypes/archival-candidates/` (see "Archival images"). They must be checked by eye, and each must pass a Hester fact-check, before anything is registered.
 - **Waiting on Robin:**
@@ -163,8 +164,8 @@ Whether to go beyond explorer-ruler at all is Robin's call.
 - `public/archival/`;
 - in `design-artifacts/evolution/prototypes/`: `archival-trial-2026-10-17/`, `archival-candidates/`, `type-specimen-2026-10-17/` and `video-arrivals/original/`.
 
-## Long tracks (not started)
+## Long tracks
 
-- A sound-effect family made from the "Glass Chords" score.
+- A sound-effect family made from the "Glass Chords" score: first three samples and an opt-in development audition are built; waiting for Robin's listening feedback (see Start here).
 - The 4K film remake: it is plates-first, and it keeps the rising-through-a-cocktail metaphor. The foam and phone-crop problems are measured.
 - Later: more realistic persona images, and a history of the guest's choices.

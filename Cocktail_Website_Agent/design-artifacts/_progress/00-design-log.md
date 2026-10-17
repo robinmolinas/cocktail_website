@@ -19,10 +19,47 @@ In short:
 - One archival photo is on explorer-ruler (Shackleton).
 - Back steps through the questions.
 
+**H7 preference, 17 October:** Robin preferred the original appearance after
+reviewing the readability change. The stronger warm ink, pale lift and question
+colour transition have been removed; H7's original styling is restored. Keep
+that appearance unless Robin asks for another change. No on-screen copy changed.
+
+**Sound effects, first listening pass, 17 October:** Robin chose “Barely
+there—felt more than heard.” Three short effects are cut from the approved
+Glass Chords source: choice, ink and release. They are available only in the
+development listening trial (`?sfx=trial`); ordinary visits stay music-only.
+The comparison player is in
+`../evolution/prototypes/sound-effects-2026-10-17/index.html` and opens locally.
+Same sound switch and audio owner; no effects in Still Water, while muted or
+in the background. Typing is spaced, overlap is capped, late sounds are
+dropped and missing files do not interrupt the journey. Desktop/phone sound
+checks pass, as do the three typechecks, 1960 unit tests and 8/8 e2e tests.
+Waiting for Robin's listening feedback; not an accepted final sound direction.
+
+**Sound effects, second pass, 17 October.** A sound review found four problems
+with the first pass:
+- The cuts were slices of a held drone, not struck notes.
+- The choice was retuned out of the chord (F over A#).
+- The seals were effectively silent, and the name's seal was cut by the stage
+  change.
+- Ink sounded once per 1.6 s.
+
+They are replaced by one in-house glass in the score's key, with four gestures:
+touch, untouch, seal and ink.
+- Gathered words climb a chord tone.
+- The sounds sit inside the score's depth filter and lean towards the tap.
+- Seals ring across the stage change.
+- Every stroke sounds, softer as typing quickens.
+
+Still dev-only (`?sfx=trial`). Listen in
+`../evolution/prototypes/sound-effects-2026-10-17/index.html` (five moments ×
+music only / first / second). The checks pass: tsc ×3, 1967 unit tests, e2e 8/8,
+and a desktop/phone browser run.
+
 **Next:**
-1. H7 is faint on the pale foam. Fix it with no dark behind the text.
-2. A checkpoint commit, only when Robin asks.
-3. Sound effects and the 4K film.
+1. A checkpoint commit, only when Robin asks.
+2. Listen to the sound trial (second pass) and approve, adjust or decline it for normal visits.
+3. The 4K film.
 
 Sonnet's archival image candidates for four pours are waiting to be checked. Nothing is committed.
 

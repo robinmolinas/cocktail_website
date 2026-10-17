@@ -445,6 +445,28 @@ its stages; nothing waits on the music, and it fails silently. Rules:
 - **Sound is on by default and remembered.** Audio still waits for her first
   touch (the door). "Off" fetches nothing more.
 
+**Gesture sounds: one glass, four gestures (2026-10-17, second pass).**
+Robin chose barely there. The development-only `?sfx=trial` plays them;
+normal visits stay music-only until Robin approves.
+- **touch** (D#5): a choice. Gathered words climb a tone of the chord sounding.
+- **untouch** (G#4, sinking): a choice taken back, a flavour left out, a step back.
+- **seal** (G#4 and D#5 placed together): a name, a line or a beat sealed.
+- **ink** (D#6): every stroke, softer as typing quickens.
+
+Rules:
+- The sounds are synthesised in the score's key, and D# and G# sit in every
+  chord, so a gesture is never out of tune.
+- They go through the score's depth filter, so they are in the water with the
+  music.
+- They lean towards the tap.
+- They ring on across a stage change.
+- They sit 16–25 dB under the bed, with soft attacks (after Robin's listen: quieter, smoother).
+- They use the same audio owner and Sound switch. Still Water and background
+  tabs get none.
+
+Source, levels and comparisons:
+`../design-artifacts/evolution/prototypes/sound-effects-2026-10-17/`.
+
 ### Inputs
 - **Style:** no boxes — a bare bottom border only, Playfair Display italic in
   the choice-word ivory (#fbf4e8) with `--legible`: she writes in the

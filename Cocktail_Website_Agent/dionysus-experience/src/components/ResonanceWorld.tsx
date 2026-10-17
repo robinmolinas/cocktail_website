@@ -1,4 +1,11 @@
 import { useEffect, useRef } from 'react';
+import { score } from '../audio/score';
+
+/** where an element sits across the screen, 0 … 1: a gesture's sound leans that way */
+const screenX = (el: Element) => {
+  const r = el.getBoundingClientRect();
+  return (r.left + r.width / 2) / window.innerWidth;
+};
 
 // H5 · The Resonance — "A world of your own" (Robin, 2026-10-06; prototype in
 // design-artifacts/evolution/prototypes/h5-world). Replaces rev 4's sphere
@@ -283,6 +290,8 @@ function mountWorld(host: HTMLElement, o: Opts): () => void {
     const list = answers[rounds[round].key];
     const on = list.includes(w.w);
     if (!on && list.length >= max) { refuse(w); return; }
+    // the touch climbs a chord tone for each word already gathered
+    score.effect(on ? 'untouch' : 'touch', { x: screenX(w.el), step: on ? 0 : list.length });
     w.el.classList.add('is-arrived');
     if (on) list.splice(list.indexOf(w.w), 1); else list.push(w.w);
     sortList(list);                                       // vocabulary order: no ranking
@@ -373,6 +382,7 @@ function mountWorld(host: HTMLElement, o: Opts): () => void {
         w.dragged = true; w.drag = false;
         if (Math.hypot(w.pos.x - self.x, w.pos.y - self.y) < self.R + wordR() * 1.1) {
           // close enough: she takes it from here
+          score.effect('touch', { x: screenX(w.el), step: answers.soughtFor.length });
           answers.soughtFor.push(w.w); sortList(answers.soughtFor);
           fall(w, true); update();
         } else {

@@ -19,6 +19,8 @@
 // itself, that watcher is the one piece to replace.
 
 import { CUES, JOURNEY_ORDER, WASH_AT, entryOn, rootAt, type CueId } from './cues';
+import { ScoreEffects } from './effects';
+import type { EffectId, EffectOptions } from './effects-policy';
 
 type Mix = { level: number; cutoff: number; tau: number };
 type Want = { cue: CueId; mix: Mix; fadeIn: number; fadeOut: number; offset?: number };
@@ -36,6 +38,9 @@ const ANSWER_DELAY_STILL = 2.0;
 /** the answer blooms, then the bed rises under it as it decays */
 const BED_AFTER = 6;
 const MAX_DECODED = 4;
+// First listening pass only. No transient sounds in normal/production visits.
+const EFFECTS_TRIAL = import.meta.env.DEV && typeof window !== 'undefined'
+  && new URLSearchParams(window.location.search).get('sfx') === 'trial';
 
 // level is relative to the master; cutoff is the low-pass (the water's depth);
 // tau is the time constant of the move (~95% arrives at 3×).
@@ -108,6 +113,7 @@ class Score {
   private scene: GainNode | null = null;
   private user: GainNode | null = null;
   private master: GainNode | null = null;
+  private effects: ScoreEffects | null = null;
   private bytes = new Map<CueId, Promise<ArrayBuffer>>();
   private decoded = new Map<CueId, Promise<AudioBuffer>>();
   private voices: Voice[] = [];
@@ -161,6 +167,7 @@ class Score {
   }
 
   toggle() {
+    this.effects?.stop();
     this.enabled = !this.enabled;
     try { localStorage.setItem(PREF_KEY, this.enabled ? 'on' : 'off'); } catch { /* private mode: the choice lasts the visit */ }
     this.mark(this.enabled ? 'sound on' : 'sound off');
@@ -174,6 +181,7 @@ class Score {
       // turning sound on is the invitation, so the answer plays there too
       if (!this.want && document.querySelector('.tr-root')) this.enterReading();
       else this.reconcile();
+      this.effects?.prepare();
     } else {
       glide(ctx, this.user.gain, 0, 0.15);
       window.setTimeout(() => { if (!this.enabled) this.stopAll(0.05); }, 900);
@@ -183,16 +191,26 @@ class Score {
   // ---------- what TheDepths reports ----------
   /** every stage change in the depths */
   depths(stage: string) {
+    this.effects?.settle();
     this.surfacedAt = 0;
     this.leaveReading(false);
     const st = STAGES[stage];
     if (!st) return;
     this.mark(`stage ${stage}`);
     this.go({ cue: st.cue, mix: st.mix, fadeIn: st.fade, fadeOut: Math.max(st.fade, 1.5) }, !!st.moving);
+    this.effects?.prepare();
+  }
+
+  /** Quiet feedback at a successful gesture, never an automatic animation. */
+  effect(id: EffectId, opts?: EffectOptions) {
+    const top = this.voices[this.voices.length - 1];
+    const root = top ? rootAt(CUES[top.cue], this.position(top)) : 'G#';
+    this.effects?.play(id, root, opts);
   }
 
   /** H9 · the spirit-point lets go: the wash is timed to land on the splash */
   release() {
+    this.effects?.stop(0.3);
     this.releasedAt = performance.now();
     this.mark('release');
     this.go({ cue: 'lettinggo', mix: MIX.breath, fadeIn: 0.9, fadeOut: 1.2, offset: WASH_AT - SPLASH_LEAD }, false);
@@ -233,6 +251,7 @@ class Score {
 
   /** TheDepths unmounted without surfacing (the mark home, a dev remount) */
   depthsLeft() {
+    this.effects?.stop();
     if (this.surfacedAt) return;
     this.mark('depths left');
     this.go(null);
@@ -451,6 +470,16 @@ class Score {
     this.master = ctx.createGain();
     this.master.gain.value = MASTER;
     this.filter.connect(this.scene).connect(this.user).connect(this.master).connect(ctx.destination);
+    if (EFFECTS_TRIAL) {
+      // into the depth filter, so a gesture is in the water with the music
+      this.effects = new ScoreEffects(ctx, this.filter, () => ({
+        trial: EFFECTS_TRIAL,
+        enabled: this.enabled && !!this.want,
+        still: reducedMotion(),
+        visible: !document.hidden,
+        running: ctx.state === 'running',
+      }), (event) => this.mark(event));
+    }
     return ctx;
   }
 
@@ -474,6 +503,7 @@ class Score {
     // so her first touch brings the room's music, as the door does for a guest
     if (this.enabled && !this.want && !this.readingOn && document.querySelector('.tr-root')) this.enterReading();
     else this.reconcile();
+    this.effects?.prepare();
   }
 
   private dropUnlock() {
@@ -483,6 +513,7 @@ class Score {
   }
 
   private onVisibility = () => {
+    this.effects?.stop();
     const ctx = this.ctx;
     if (!ctx || !this.user) return;
     window.clearTimeout(this.hideTimer);

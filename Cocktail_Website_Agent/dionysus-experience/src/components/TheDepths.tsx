@@ -542,6 +542,13 @@ function DepthDots({
 // The journey writes Answers v3 ids straight into App's IntakeRecord:
 // `onUpdate` for the answers, `onTrace` for H7, `onDiagnostics` for the
 // browser-only diagnostics (intake-contract.md), which never reach a request.
+/** where an element sits across the screen, 0 … 1: a gesture's sound leans that way */
+const screenX = (el: Element | null) => {
+  if (!el) return undefined;
+  const r = el.getBoundingClientRect();
+  return (r.left + r.width / 2) / window.innerWidth;
+};
+
 export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, onPrepare, onComplete, initialJump, onDevPage }: {
   record: IntakeRecord;
   onUpdate: (patch: Partial<JourneyAnswers>) => void;
@@ -837,6 +844,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
     timeouts.current = [];
     stopVideoWatch();
     if (hRaf.current) cancelAnimationFrame(hRaf.current);
+    score.effect('untouch');
 
     // within a hold first: the gravity rounds, then H6's two beats
     if (at === 'gravity') {
@@ -1088,6 +1096,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
   // used to cut straight to H1 on Enter — the one hard cut in the journey.
   const commitName = () => {
     if (!name.trim() || nameSealed) return;
+    score.effect('seal');
     onUpdate({ name: name.trim() });
     setNameSealed(true);
     for (let k = 0; k < 7; k++) after(k * 45, releaseKeyBubble);
@@ -1097,8 +1106,9 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
   // One tap answers. The chosen sphere lights, then surfaces like H5's; the
   // other five let go where they are. (It used to balloon to 2x and blur while
   // the rest shot 58vh upward — a second, louder exit grammar.)
-  const pickLens = (i: number) => {
+  const pickLens = (i: number, x?: number) => {
     if (chosen !== null) return;
+    score.effect('touch', { x });
     setChosen(i);
     onUpdate({ lens: LENSES[i].id });
     after(1150, () => {
@@ -1107,8 +1117,9 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
     });
   };
 
-  const pickSeed = (i: number) => {
+  const pickSeed = (i: number, x?: number) => {
     if (seedChosen !== null) return;
+    score.effect('touch', { x });
     setSeedChosen(i);
     setHoverSeed(null);
     onUpdate({ seed: SEEDS[i].id });
@@ -1133,6 +1144,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
   };
 
   const commitGravity = (v: number) => {
+    score.effect('touch', { x: v / 100 });
     const currentRound = gravRound;
     const pair = GRAVITIES[currentRound];
     gravValues.current[pair.id] = Math.min(100, Math.max(0, Math.round(v)));
@@ -1341,10 +1353,11 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
   };
 
   // `at` is the tap's event time, on the same clock as performance.now()
-  const catchDrop = (side: Pole, at: number) => {
+  const catchDrop = (side: Pole, at: number, x?: number) => {
     if (hStage !== 'play' || hAnswered.current) return;
     // Only a word she can read can be chosen (see hReadable)
     if (!hReadable.current) return;
+    score.effect('touch', { x });
     hAnswered.current = true;
     if (hRaf.current) cancelAnimationFrame(hRaf.current);
     // ms from the readable moment (the 250 ms catch threshold) to the catch
@@ -1781,7 +1794,9 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
     if (finBeat !== 'flavors' || finLeaving) return;
     const word = FIN_FLAVOR_IDS[i];
     const c = glintCenter(resGlintRefs.current[i]);
+    const x = c ? c.x / window.innerWidth : undefined;
     if (finCaught.includes(word)) {
+      score.effect('untouch', { x });
       if (c) spawnSparks(c.x, c.y, 'release');
       setFinCaught(finCaught.filter((w) => w !== word));
       return;
@@ -1795,6 +1810,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
       return;
     }
     if (c) spawnSparks(c.x, c.y, 'ignite');
+    score.effect('touch', { x, step: finCaught.length });
     setFinCaught([...finCaught, word]);
   };
 
@@ -1815,6 +1831,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
 
   const sealCatch = () => {
     if (finCaught.length === 0 || finLeaving) return;
+    score.effect('seal');
     // stored in vocabulary order: catch order is decorative, never captured
     onUpdate({ flavors: flavoursInOrder(finCaught) });
     setFinLeaving(true);
@@ -1850,6 +1867,8 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
     if (finLeaving || finSealed) return;
     const word = FIN_VETO_IDS[i];
     const popping = !finBanished.includes(word);
+    // leaving one out sinks it; touching it again brings it back
+    score.effect(popping ? 'untouch' : 'touch', { x: screenX(resGlintRefs.current[i]) });
     if (popping) {
       const c = glintCenter(resGlintRefs.current[i]);
       if (c) spawnSparks(c.x, c.y, 'pop');
@@ -1859,6 +1878,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
 
   const sealWard = () => {
     if (finSealed) return;
+    score.effect('seal');
     onUpdate({ vetoes: vetoesInOrder(finBanished) });
     setFinSealed(true);
     setFinLeaving(true);
@@ -1891,6 +1911,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
   // read as a camera flash rather than a breath let out.)
   const sealTrace = () => {
     if (traceSealed) return;
+    if (traceText.trim()) score.effect('seal');
     onTrace(traceText.trim());
     setTraceSealed(true);
     const burst = Math.min(14, 6 + Math.round(traceText.length / 8));
@@ -2378,7 +2399,10 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                 ref={inputRef}
                 value={name}
                 onChange={(e) => {
-                  if (e.target.value.length > name.length) releaseKeyBubble();
+                  if (e.target.value.length > name.length) {
+                    releaseKeyBubble();
+                    score.effect('ink');
+                  }
                   setName(e.target.value);
                 }}
                 placeholder="Your name…"
@@ -2410,7 +2434,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                 <div key={lens.id} className="sphere-drift">
                   <button
                     type="button"
-                    onClick={() => pickLens(i)}
+                    onClick={(e) => pickLens(i, screenX(e.currentTarget))}
                     className={`sphere-btn ${
                       chosen === null ? '' : chosen === i ? 'is-lit sphere-surface' : 'sphere-dissolve'
                     }`}
@@ -2464,7 +2488,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                       onMouseLeave={() => setHoverSeed((h) => (h === i ? null : h))}
                       onFocus={() => { if (seedChosen === null) setHoverSeed(i); }}
                       onBlur={() => setHoverSeed((h) => (h === i ? null : h))}
-                      onClick={() => pickSeed(i)}
+                      onClick={(e) => pickSeed(i, screenX(e.currentTarget))}
                       aria-label={s.name}
                     />
                   </div>
@@ -2639,7 +2663,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                     type="button"
                     className={`ember${hRound === -1 ? ' is-number' : ''}`}
                     style={{ '--x': '33%', '--c': seedHex } as CSSProperties}
-                    onClick={(e) => catchDrop('a', e.timeStamp)}
+                    onClick={(e) => catchDrop('a', e.timeStamp, screenX(e.currentTarget))}
                   >
                     <span className="sphere"><span className="sphere-word">{hRound === -1 ? EXAMPLE_PAIR.a : BINARIES[hRound].a}</span></span>
                   </button>
@@ -2652,7 +2676,7 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                     type="button"
                     className={`ember${hRound === -1 ? ' is-number' : ''}`}
                     style={{ '--x': '67%', '--c': seedHex } as CSSProperties}
-                    onClick={(e) => catchDrop('b', e.timeStamp)}
+                    onClick={(e) => catchDrop('b', e.timeStamp, screenX(e.currentTarget))}
                   >
                     <span className="sphere"><span className="sphere-word">{hRound === -1 ? EXAMPLE_PAIR.b : BINARIES[hRound].b}</span></span>
                   </button>
@@ -2828,7 +2852,10 @@ export default function TheDepths({ record, onUpdate, onTrace, onDiagnostics, on
                   className={`depth-input trace-input ${traceSealed ? 'is-sealed' : ''}`}
                   value={traceText}
                   onChange={(e) => {
-                    if (e.target.value.length > traceText.length) releaseTraceMote();
+                    if (e.target.value.length > traceText.length) {
+                      releaseTraceMote();
+                      score.effect('ink');
+                    }
                     setTraceText(e.target.value);
                   }}
                   placeholder="the summer my grandmother kept figs on the windowsill…"

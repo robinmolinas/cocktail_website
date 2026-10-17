@@ -1,0 +1,56 @@
+{
+  "method": "in-house modal synthesis tuned to the Glass Chords score (A440, D# and G#); render_v2.py",
+  "status": "Second listening pass, 17 Oct 2026; replaces the cut fragments of the first pass. Not enabled by default.",
+  "bedReferenceLufsST": -20.99,
+  "beds": {
+    "01-pressure@6500": -21.39,
+    "02-firstlight@9000": -20.93,
+    "03-current@9000": -20.09,
+    "04-question@9000": -21.12,
+    "05-world@11000": -21.16,
+    "05-world@10000": -21.16,
+    "02-firstlight@2800": -21.1
+  },
+  "effects": {
+    "touch": {
+      "duration": 3.5,
+      "peakDbfs": -3.45,
+      "fileLoudestLufsST": -7.85,
+      "underBedDb": -17.5,
+      "runtimeGain": 0.0294,
+      "decodedLeadMs": 1.7,
+      "bytes": 56886,
+      "sha256": "c511bf8ad5dafab66dc86567c8a9370037c423fe83a3772329bd0557196b4138"
+    },
+    "untouch": {
+      "duration": 2.7,
+      "peakDbfs": -3.44,
+      "fileLoudestLufsST": -9.03,
+      "underBedDb": -22.0,
+      "runtimeGain": 0.02,
+      "decodedLeadMs": 2.2,
+      "bytes": 44347,
+      "sha256": "552c865e833197ae1cdbdaecf857cda07ba677a5081d53c0e95378e6ef3532f2"
+    },
+    "seal": {
+      "duration": 4.5,
+      "peakDbfs": -3.44,
+      "fileLoudestLufsST": -8.81,
+      "underBedDb": -16.0,
+      "runtimeGain": 0.039,
+      "decodedLeadMs": 4.8,
+      "bytes": 73186,
+      "sha256": "29f4e7946679ab7c958e623714204dbed70d05382ab53c9bfde2e485755a0c1f"
+    },
+    "ink": {
+      "duration": 1.5,
+      "peakDbfs": -3.45,
+      "fileLoudestLufsST": -11.45,
+      "underBedDb": -25.0,
+      "runtimeGain": 0.0187,
+      "decodedLeadMs": 0.3,
+      "bytes": 25121,
+      "sha256": "72fbf39e5629568b0ec8dc4ef8b46b521b2881b01be386870e91ccaa9e25b1d4"
+    }
+  }
+}

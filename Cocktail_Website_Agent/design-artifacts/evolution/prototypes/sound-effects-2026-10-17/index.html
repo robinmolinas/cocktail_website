@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width"><title>Dionysus · Gesture sounds</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#16140f;color:#f5ead8;font:17px/1.55 Georgia,serif}
+main{max-width:1060px;margin:0 auto;padding:clamp(24px,5vw,64px)}h1{font-weight:400;font-style:italic;font-size:clamp(32px,5vw,52px);margin:0 0 12px}
+h2{font-size:25px;font-weight:400;margin:0 0 6px}p{max-width:65ch;margin:0 0 20px;color:#cfc4ae}section{padding:28px 0;border-top:1px solid #f5ead82e}
+.players{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.players.four{grid-template-columns:repeat(4,minmax(0,1fr))}
+label{display:block;font:13px/1.6 system-ui,sans-serif}audio{display:block;width:100%;margin-top:10px}
+small{font:13px/1.6 system-ui,sans-serif;color:#cfc4ae}button,a{color:#f5ead8}button{font:inherit;padding:8px 16px;background:transparent;border:1px solid #f5ead866;border-radius:24px;margin:0 0 24px;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:2px solid #e8702a;outline-offset:4px}@media(max-width:720px){.players,.players.four{grid-template-columns:1fr;gap:18px}}
+</style><main><h1>One glass, four gestures</h1>
+<p>Headphones or good speakers, at the volume you would use for the journey. Each moment is the real music at that question, mixed the way the app mixes it. Listen to <b>music only</b> first, then the two passes. Barely there: you should feel the gestures rather than notice them.</p>
+<p><a href="http://localhost:5180/?sfx=trial">Try the journey with sounds</a> (dev server) · <a href="http://localhost:5180/">Music only</a></p>
+<section><h2>Your name</h2><p>Typing a name, then Enter. The first pass sounds only the first letter and cuts the seal at its loudest point, 0.82 s in, when the next question arrives.</p>
+      <div class="players">
+        <label>Music only<audio controls preload="none" src="assets/scenes/name-music.mp3"></audio></label>
+        <label>First pass<audio controls preload="none" src="assets/scenes/name-v1.mp3"></audio></label>
+        <label><b>Second pass</b><audio controls preload="none" src="assets/scenes/name-v2.mp3"></audio></label>
+      </div></section><section><h2>Quick pairs (H4)</h2><p>Four quick choices, left and right. The first pass retunes each one to the chord, so the note jumps when the harmony turns. The new pass keeps her note, D#, which every chord holds, and leans a little to the side she tapped.</p>
+      <div class="players">
+        <label>Music only<audio controls preload="none" src="assets/scenes/pairs-music.mp3"></audio></label>
+        <label>First pass<audio controls preload="none" src="assets/scenes/pairs-v1.mp3"></audio></label>
+        <label><b>Second pass</b><audio controls preload="none" src="assets/scenes/pairs-v2.mp3"></audio></label>
+      </div></section><section><h2>Gathering words (H5)</h2><p>Three words gathered, one taken back, another gathered. In the new pass each gathered word climbs a tone of the chord sounding, so you hear the world filling up. Taking one back sinks.</p>
+      <div class="players">
+        <label>Music only<audio controls preload="none" src="assets/scenes/gather-music.mp3"></audio></label>
+        <label>First pass<audio controls preload="none" src="assets/scenes/gather-v1.mp3"></audio></label>
+        <label><b>Second pass</b><audio controls preload="none" src="assets/scenes/gather-v2.mp3"></audio></label>
+      </div></section><section><h2>Flavours, then leaving out (H6)</h2><p>Two flavours, sealed; then two left out, sealed. The first pass uses one sound for choosing, sealing and leaving out, and the final seal is cut by the next stage.</p>
+      <div class="players">
+        <label>Music only<audio controls preload="none" src="assets/scenes/flavours-music.mp3"></audio></label>
+        <label>First pass<audio controls preload="none" src="assets/scenes/flavours-v1.mp3"></audio></label>
+        <label><b>Second pass</b><audio controls preload="none" src="assets/scenes/flavours-v2.mp3"></audio></label>
+      </div></section><section><h2>Writing the sentence (H7)</h2><p>A sentence typed in the hush, then sealed. The first pass brushes once every 1.6 s whatever she types. The new pass answers every stroke, softer as she speeds up, fuller after each pause.</p>
+      <div class="players">
+        <label>Music only<audio controls preload="none" src="assets/scenes/trace-music.mp3"></audio></label>
+        <label>First pass<audio controls preload="none" src="assets/scenes/trace-v1.mp3"></audio></label>
+        <label><b>Second pass</b><audio controls preload="none" src="assets/scenes/trace-v2.mp3"></audio></label>
+      </div></section><section><h2>The four sounds alone</h2><p>At journey level they are very quiet on their own; the button lifts them so you can hear their shape.</p>
+<button id="detail" type="button" aria-pressed="false">Hear them louder</button>
+<div class="players four"><label>Touch · a choice<audio controls preload="none" data-gain="0.020579999999999998" src="assets/v2/touch.mp3"></audio></label><label>Untouch · taken back, left out<audio controls preload="none" data-gain="0.013999999999999999" src="assets/v2/untouch.mp3"></audio></label><label>Seal · a beat closed<audio controls preload="none" data-gain="0.027299999999999998" src="assets/v2/seal.mp3"></audio></label><label>Ink · a stroke<audio controls preload="none" data-gain="0.013090000000000001" src="assets/v2/ink.mp3"></audio></label></div></section>
+<small>Second pass · 17 October 2026. Synthesised in the score's key (render_v2.py); levels set against the score (manifest-v2.json). The first pass is kept in assets/ for comparison. Still Water omits gesture sounds; the normal journey stays music only until you approve.</small></main>
+<script>
+let detail=false;
+const players=[...document.querySelectorAll('audio')];
+const setLevels=()=>players.forEach(a=>{a.volume=a.dataset.gain?Math.min(1,Number(a.dataset.gain)*(detail?8:1)):1;});
+players.forEach(a=>a.addEventListener('play',()=>players.forEach(b=>{if(b!==a)b.pause();})));
+document.querySelector('#detail').addEventListener('click',e=>{detail=!detail;e.currentTarget.setAttribute('aria-pressed',String(detail));e.currentTarget.textContent=detail?'Back to journey level':'Hear them louder';setLevels();});
+setLevels();
+</script></html>

@@ -1,5 +1,14 @@
 # Rights record: the shipped score
 
+**17 October sound-effects trial:** the second pass (touch, untouch, seal,
+ink) is **in-house synthesis** by
+`../../evolution/prototypes/sound-effects-2026-10-17/render_v2.py`, tuned to
+this score's key but containing none of its audio, so it carries no
+third-party rights. Parameters and hashes are in `manifest-v2.json` beside it.
+The first pass (choice, ink, release) was three short derivatives of this
+source and is kept only for comparison (`manifest.json`). The existing source
+and eight cue files below are unchanged.
+
 Required by [PRODUCTION-AND-RIGHTS.md](PRODUCTION-AND-RIGHTS.md) before anything ships. Complete as of 2026-10-08.
 
 | Field | Value |

@@ -1,0 +1,46 @@
+{
+  "source": "2026-10-06-type-icons-sound/sound/source/Glass_Chords_and_Felt_Key_Breathing_2026-10-08T135645.mp3",
+  "sourceSha256": "1d9f7cf85b55ccb1858d4e9f724f780d2ceb3e935340145ff073b8961db23c52",
+  "status": "Listening trial; Robin chose barely there. Not enabled by default.",
+  "effects": {
+    "choice": {
+      "sourceStart": 35.25,
+      "sourceDuration": 0.78,
+      "filters": "highpass=f=620,lowpass=f=4600",
+      "attack": 0.025,
+      "tail": 0.65,
+      "gain": 0.35,
+      "duration": 0.78,
+      "peakDbfs": -16.49,
+      "rmsDbfs": -29.64,
+      "bytes": 13418,
+      "sha256": "68b7c9103c837554b700203a4103e82c418321c80688aba443a7212ca3d933de"
+    },
+    "ink": {
+      "sourceStart": 216.05,
+      "sourceDuration": 0.28,
+      "filters": "highpass=f=3200,lowpass=f=7400",
+      "attack": 0.045,
+      "tail": 0.2,
+      "gain": 0.18,
+      "duration": 0.28,
+      "peakDbfs": -22.47,
+      "rmsDbfs": -38.17,
+      "bytes": 5477,
+      "sha256": "16304ce2e860486e77201d801edff0e7fb08e47d4344489ee24770044fb2f43e"
+    },
+    "release": {
+      "sourceStart": 214.6,
+      "sourceDuration": 1.1,
+      "filters": "highpass=f=850,lowpass=f=3400,areverse",
+      "attack": 0.18,
+      "tail": 0.8,
+      "gain": 0.28,
+      "duration": 1.1,
+      "peakDbfs": -21.0,
+      "rmsDbfs": -37.08,
+      "bytes": 18852,
+      "sha256": "80fcf70122d76f4f2ba1c639aa4db90c0e826715142c71d817c271abffde444f"
+    }
+  }
+}
